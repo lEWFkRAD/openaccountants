@@ -174,7 +174,7 @@ The most complex states:
 - **Indiana** — §179 cap $25,000 (decoupled)
 - **Iowa** — historically decoupled, partial conformity 2021+, verify current year
 - **Minnesota** — both decoupled; 80% add-back of bonus, recovered over 5 years; §179 historically capped (now conformed for tax years 2020+)
-- **New Jersey** — bonus decoupled; §179 partial conformity with state cap rules and 50%-of-property limitation in some cases
+- **New Jersey** — bonus **and** §179 decoupled (N.J.S.A. 54:10A-4(k)(12) and (k)(13), as stated in the 2025 CBT-100S instructions: "New Jersey has decoupled from I.R.C. §168(k) bonus depreciation and I.R.C. § 179 expensing provisions"). For Gross Income Tax, NJ §179 is limited to $25,000 and computed on Worksheet GIT-DEP (GIT-9P: https://www.nj.gov/treasury/taxation/pdf/pubs/tgi-ee/git9p.pdf)
 - **New York** — bonus decoupled since 2003; §179 conforms but with NYC differences
 - **Virginia** — §179 cap historically $25,000 (verify current year as Virginia has updated conformity)
 - **Illinois** — decoupled in nuanced ways; treats bonus as add-back with recovery over MACRS life
@@ -223,7 +223,7 @@ The most complex states:
 | 28 | Nebraska | F | — | Conforms | Conforms | None | N/A | Conforms; 80% rule; 20-yr CF | Conforms | Rolling conformity |
 | 29 | Nevada | N/A | — | — | — | — | — | — | — | No PIT |
 | 30 | New Hampshire | D (BPT/BET only) | Decoupled MACRS | Conforms | Conforms | BPT/BET add-back; no individual PIT | MACRS life (BPT) | BPT NOL 10-yr CF | BPT conforms | Individuals not affected (no PIT on Sch C) |
-| 31 | **New Jersey** | **D** | Decoupled MACRS | **Conforms** ($1.22M); but **50%-of-asset cap for certain real property** | Conforms | Add-back federal bonus; §179 partial cap interactions | MACRS life | Conforms (corp); GIT (PIT) — no NOL CF for individuals (only same-category offset) | CBT (corp) conforms with modifications; GIT (PIT) doesn't apply | NJ Gross Income Tax for PIT has very limited loss recognition |
+| 31 | **New Jersey** | **D** | Decoupled MACRS | **Decoupled** — CBT: N.J.S.A. 54:10A-4(k)(13); GIT: $25,000 limit via Worksheet GIT-DEP | Conforms | Add-back federal bonus; §179 partial cap interactions | MACRS life | Conforms (corp); GIT (PIT) — no NOL CF for individuals (only same-category offset) | CBT (corp) conforms with modifications; GIT (PIT) doesn't apply | NJ Gross Income Tax for PIT has very limited loss recognition |
 | 32 | New Mexico | F | — | Conforms | Conforms | None | N/A | Conforms; 80% rule | Conforms | Rolling conformity |
 | 33 | **New York** | **D (since 2003)** | Decoupled MACRS | Conforms | Conforms | Add-back federal bonus; recover via decoupled MACRS schedule | MACRS life | Conforms (corp); PIT itemized rules differ | Conforms (corp Article 9-A); PIT differs | NYS Form CT-399 / IT-399 tracks; NYC has additional decoupling for unincorporated business tax (UBT) |
 | 34 | North Carolina | F (post-2020) | — | Conforms | Conforms | None (post-2020); legacy 85% add-back for pre-2020 with 5-yr recovery | N/A (current); 5 yr for legacy | Conforms; 80% rule | Conforms | Verify legacy add-back recoveries for pre-2020 assets |

@@ -847,7 +847,7 @@ The IRS will administratively abate failure-to-file, failure-to-pay, and failure
 
 FTA is granted by phone (PPL) or letter. No forms required. Fast and reliable.
 
-**Strategic use:** FTA is a once-per-3-years opportunity. If a client has multiple years of penalties, use FTA on the year with the largest penalty.
+**Strategic use:** FTA is a once-per-3-years opportunity, but you do not choose the year. Where penalties fall in more than one period, the FTA criteria "can only be met and the waiver applied to" the earliest period; later periods need reasonable cause or another waiver (IRM 20.1.1.3.3.2.1, Form 941 example: https://www.irs.gov/irm/part20/irm_20-001-001r). The IRS also applies FTA before considering reasonable cause, so a reasonable-cause request on an FTA-eligible period uses up the FTA. Sequence requests with that in mind.
 
 ### 14.6 Reasonable Cause — §6651, §6664, IRM 20.1.1
 
