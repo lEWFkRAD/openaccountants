@@ -1,3 +1,18 @@
+---
+jurisdiction: MQ
+applicable: [IT-IND, IT-CORP, VAT, SC, PR, TP, XB]
+not_applicable:
+  Departure/exit tax as a separate MQ regime: the French exit tax (CGI Art. 167 bis) applies to French tax residents wherever they live, including Martinique; there is no separate Martinique exit charge (reason: single French fiscal territory; as_of 2026-10-22)
+covered_by:
+  IT-IND: mq-income-tax-individuals
+  IT-CORP: mq-income-tax-companies
+  VAT: mq-value-added-tax
+  SC: mq-social-contributions
+  PR: mq-payroll-withholding
+  TP: mq-transfer-pricing
+  XB: mq-cross-border
+---
+
 # Martinique tax pack — domain applicability
 
 Jurisdiction: MQ (Martinique, French overseas department, EU outermost region).

@@ -1,3 +1,18 @@
+---
+jurisdiction: GP
+applicable: [IT-IND, IT-CORP, VAT, SC, PR, TP, XB]
+not_applicable:
+  Departure/exit tax as a separate GP regime: the French exit tax (CGI Art. 167 bis) applies to French tax residents wherever they live, including Guadeloupe; there is no separate Guadeloupe exit charge (reason: single French fiscal territory; as_of 2026-10-22)
+covered_by:
+  IT-IND: gp-income-tax-individuals
+  IT-CORP: gp-income-tax-companies
+  VAT: gp-value-added-tax
+  SC: gp-social-contributions
+  PR: gp-payroll-withholding
+  TP: gp-transfer-pricing
+  XB: gp-cross-border
+---
+
 # Guadeloupe tax pack — domain applicability
 
 Jurisdiction: GP (Guadeloupe, French overseas department, EU outermost region).
