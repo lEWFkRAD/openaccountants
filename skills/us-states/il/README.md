@@ -1,32 +1,34 @@
-# Illinois — OpenAccountants Tax Skills
+# Illinois (US-IL) pack
 
-| Field | Value |
-|---|---|
-| State | Illinois |
-| Code | US-IL |
-| Income tax | Yes (flat 4.95%) |
-| Sales tax | Yes (6.25% state + local) |
-| Franchise / gross receipts tax | No |
-| Tax authority | [Illinois Department of Revenue (IDOR)](https://tax.illinois.gov) |
-| Quality tier | Q2 — reviewed content |
+Jurisdiction: Illinois, United States. Tax year 2026. Pack drafted 2026-10-27 (source-cited drafts, tier 2).
 
-## Files in this folder
+Illinois taxes individuals and corporations under the Income Tax Act (35 ILCS 5), imposes a
+corporate replacement tax, runs its own withholding regime, and administers unemployment
+through IDES. Sales tax is administered by IDOR with a state rate plus local distributions.
 
-| File | What it covers |
-|---|---|
-| `il-income-tax.md` | Individual income tax for self-employed / sole proprietors |
-| `il-estimated-tax.md` | Estimated tax payments |
-| `il-sales-tax.md` | State and local sales & use tax compliance |
-| `il-sales-tax-legacy.md` | Legacy sales tax reference (prior format) |
+## applicable
 
-## What's NOT covered
-- Payroll / employer withholding taxes
-- Property tax (administered at county level)
-- Corporate income tax
-- Use Tax (consumer use tax on out-of-state purchases)
-- Excise taxes (motor fuel, tobacco, liquor)
-- Estate / inheritance tax
-- Chicago-specific taxes (amusement tax, lease tax, etc.)
+- `IT-IND` — individual income tax (flat 4.95% + surtax tiers) — present: `il-income-tax.md`
+- `IT-CORP` — corporate income tax + replacement tax — drafted: `il-corporate-income-tax.md`
+- `VAT` — sales tax (state + local) — present: `il-sales-tax.md`
+- `SC` — social contributions (IDES unemployment, workers' comp) — drafted: `il-social-contributions.md`
+- `PR` — payroll withholding — present: `il-payroll.md`
+- `TP` — transfer pricing / unitary combined reporting — drafted: `il-transfer-pricing.md`
+- `XB` — cross-border / nexus — drafted: `il-cross-border.md`
 
-## How to use
-Upload all `.md` files in this folder PLUS the federal skills from `skills/foundation/` and `skills/federal/` to your LLM. See the main README for details.
+## not_applicable
+
+- none — Illinois has income, corporate, sales, payroll, and social-contribution regimes; all
+  pilot domains apply.
+
+## Source status
+
+- Form IL-1120 (R-12/25), IL-1120-V, and the 24-page IL-1120 instructions PDF: verified 2026-10-27
+  (tax.illinois.gov, PDF text read — filing dates, estimated-tax $400 threshold, unitary/Finnigan
+  notes, IL-2220 penalty form all read from the instructions).
+- IDES 2026 rate chart PDF (`UI_tax_rates_2026.pdf`): verified 2026-10-27 — 2026 wage base
+  $14,250; min 0.750% / max 7.050% incl. Fund Builder 0.550%; standard (ineligible) 3.350%;
+  small-employer 5.4% under $50,000 gross wages; $50 minimum penalty.
+- ILCS statute pages (35 ILCS 5) render article text via JavaScript; direct section URLs did not
+  resolve to text this run — statutory rate citations carry **needs-sources** flags pending a
+  readable ILCS fetch.
