@@ -1,5 +1,5 @@
 ---
-name: sx-profit-tax
+name: sx-corporate-income-tax
 description: >
   Sint Maarten profit tax (winstbelasting) reference for companies and other
   legal entities. Covers the provisional (31 March) and final (30 June) return
