@@ -18,7 +18,7 @@ Sint Maarten (SX, Dutch side of Saint Martin) runs a small open tax system admin
 | Domain | Skill | Status |
 |---|---|---|
 | IT-IND, individual income tax | sx-personal-income-tax-tables | source-cited draft |
-| IT-CORP, corporate income tax | sx-profit-tax | source-cited draft (rate needs-sources) |
+| IT-CORP, corporate income tax | sx-corporate-income-tax | source-cited draft (rate needs-sources) |
 | VAT / GST / sales tax | sx-turnover-tax | source-cited draft |
 | SC, social contributions | sx-social-insurance-premiums | source-cited draft (caps needs-sources) |
 | PR, payroll withholding | sx-wage-tax-tables | source-cited draft |

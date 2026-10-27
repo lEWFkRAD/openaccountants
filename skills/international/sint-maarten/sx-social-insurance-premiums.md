@@ -44,7 +44,7 @@ The official GRC guide publishes **2020** figures: AOV/AWW premium base capped a
 
 ## Penalties
 
-Late, missing or unsigned monthly returns, or late payment, produce an assessment increased with a penalty; incorrect/incomplete employer information carries up to NAf 1,000. Two-month motivated written appeal window (see sx-profit-tax).
+Late, missing or unsigned monthly returns, or late payment, produce an assessment increased with a penalty; incorrect/incomplete employer information carries up to NAf 1,000. Two-month motivated written appeal window (see sx-corporate-income-tax).
 
 ## Cross-border
 

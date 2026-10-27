@@ -52,7 +52,7 @@ expected:
   extra_tax: 21600
 ```
 
-(Rate is the same needs-sources assumption as sx-profit-tax.)
+(Rate is the same needs-sources assumption as sx-corporate-income-tax.)
 
 **Example 2 — appeal clock.** Assessment dated 15 July 2026; written motivated appeal must reach the Inspector within two months.
 

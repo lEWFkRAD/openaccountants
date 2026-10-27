@@ -39,7 +39,7 @@ The Netherlands Antillean guilder (Cg/NAf) has long been pegged at **1 USD = 1.8
 
 - B-return (non-resident): 1 June for the prior fiscal year; no extension (official form).
 - A-return (resident): same 1 June pattern (GRC notice "2025 income tax returns due June 1, 2026").
-- Company profit tax: provisional 31 March, final 30 June (see sx-profit-tax).
+- Company profit tax: provisional 31 March, final 30 June (see sx-corporate-income-tax).
 
 ## Worked examples
 
