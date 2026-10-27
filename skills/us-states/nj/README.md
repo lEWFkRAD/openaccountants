@@ -16,10 +16,13 @@
 |---|---|
 | `nj-income-tax.md` | Individual income tax for self-employed / sole proprietors (Form NJ-1040) |
 | `nj-sales-tax.md` | State sales & use tax compliance |
+| `nj-corporate-income-tax.md` | Corporation Business Tax compliance companion (rates, deadlines, estimates, penalties) |
+| `nj-social-contributions.md` | Social contributions (UI, TDI, FLI, WF/SWF rates and bases) |
+| `nj-transfer-pricing.md` | Transfer pricing / combined-reporting overlay |
+| `nj-cross-border.md` | Cross-border (NJ-1040NR, part-year, NJ-COJ credit) |
 
 ## What's NOT covered
 - Payroll / employer withholding taxes
-- Corporation Business Tax (CBT)
 - Property tax (administered at municipal level — NJ has the highest property taxes in the US)
 - Estate tax (NJ repealed its estate tax effective 2018)
 - Inheritance tax (NJ still has an inheritance tax for non-lineal heirs)
