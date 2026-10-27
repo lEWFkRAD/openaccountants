@@ -92,7 +92,7 @@ How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part
 name: Reciprocity zeroes WI tax on wages for IL resident
 inputs:
   wi_wages: 80000
-  wi_tax_if_not_reciprocal: 80000 * 0.0627
+  wi_tax_if_not_reciprocal: 5016.00
   il_tax_on_wages: 4400
 steps:
   - wi_tax_due: 0

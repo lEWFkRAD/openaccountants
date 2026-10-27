@@ -91,7 +91,7 @@ inputs:
   pa_wages: 90000
   pa_rate: 0.0307
   nj_tax_on_same_wages: 4900
-  pa_state_tax_if_not_reciprocal: pa_wages * pa_rate
+  pa_state_tax_if_not_reciprocal: 2763.00
 steps:
   - pa_state_tax_due: 0
   - nj_tax_due: nj_tax_on_same_wages
