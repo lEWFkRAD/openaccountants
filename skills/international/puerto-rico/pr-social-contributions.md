@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: pr-social-contributions
 description: >
-  DESC
-jurisdiction: JUR
-category: CAT
+  Puerto Rico social contributions reference for 2026. Explains that PR employers and employees pay US federal payroll taxes (FICA 7.65 percent employee plus 7.65 percent employer, FUTA) rather than a local social-security title in the Code, plus local schemes (SUI, government retirement systems) flagged needs-sources. Covers who applies, bases, deadlines and the interaction with PR income withholding. Trigger on Puerto Rico social security, FICA Puerto Rico, SUI PR, unemployment PR. Source-cited draft.
+jurisdiction: PR
+category: international
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

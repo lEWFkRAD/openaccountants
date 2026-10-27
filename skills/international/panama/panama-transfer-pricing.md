@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: panama-transfer-pricing
 description: >
-  DESC
+  Panama transfer pricing reference for 2026. Thin source-cited draft: DGI maintains a dedicated transfer-pricing section with the Informe 930 (Ventas y Prestacion de Servicios) and a required study (estudio de precios de transferencia) plus group documentation (DGI pages read 2026-10-27); the statute (Ley 52-2016 and amendments) and the 20 percent / 12.5 percent related-party interest withholding split are needs-sources. Trigger on Panama transfer pricing, precios de transferencia Panama, informe 930, partes relacionadas Panama. Source-cited draft, needs-sources.
 jurisdiction: PA
-category: CAT
+category: transfer-pricing
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

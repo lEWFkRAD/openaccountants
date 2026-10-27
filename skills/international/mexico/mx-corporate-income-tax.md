@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: mx-corporate-income-tax
 description: >
-  DESC
+  Mexico corporate income tax reference for 2026. Covers the 30% LISR rate on the annual fiscal result (Art. 9), monthly provisional payments by the 17th (Art. 14), loss carryforward (Art. 57), the CUFIN/CORE dividend system with the 1.4286 gross-up and 10% additional tax (Arts. 10, 77-79), PTU deductibility, and corporate deadlines and penalties. Trigger on Mexico corporate tax, ISR personas morales, utilidad fiscal, CUFIN, perdida fiscal, pago provisional. Source-cited draft.
 jurisdiction: MX
-category: CAT
+category: international
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

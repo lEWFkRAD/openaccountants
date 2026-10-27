@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: pr-vat-ivu
 description: >
-  DESC
-jurisdiction: JUR
-category: CAT
+  Puerto Rico sales and use tax (IVU) reference for 2026. Covers the 6% state IVU on taxable retail sales plus the 0.5% municipal IVU (Code 1-2011 sections 4020.01, 4020.02, 4020.10, read from the OGP May 2026 revision), use tax on imports, remittance timing under section 4042.03, and the special-rate schedule flagged needs-sources. Trigger on Puerto Rico IVU, sales tax PR, use tax, impuesto sobre ventas, municipal sales tax. Source-cited draft.
+jurisdiction: PR
+category: international
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

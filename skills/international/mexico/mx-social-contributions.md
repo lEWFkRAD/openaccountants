@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: mx-social-contributions
 description: >
-  DESC
+  Mexico social contributions (IMSS) reference for 2026. Covers employer and worker quotas under the Ley del Seguro Social (Arts. 28, 38, 39, 73), the five occupational-risk decreto-prima classes, the SBC base and its 25x minimum-wage ceiling, INFONAVIT 5%, SAR, state payroll taxes, monthly cedula payment by the 17th, and PTU under LFT Art. 123. Trigger on Mexico IMSS, cuotas obrero patronales, salario base de cotizacion, INFONAVIT, PTU, decreto-prima. Source-cited draft.
 jurisdiction: MX
-category: CAT
+category: international
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

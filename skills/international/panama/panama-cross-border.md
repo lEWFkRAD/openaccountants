@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: panama-cross-border
 description: >
-  DESC
+  Panama cross-border income reference for 2026. Covers withholding on remesas al exterior (payments or credits of Panamanian-source income to non-residents, Form 05 within 10 days, DGI page read 2026-10-27), dividend withholding 10 percent / 5 percent (Form 07, read), the 5 percent securities capital-gain advance (Forms 107/108, read), treaty relief via Form 433 and the DGI treaty list, and Panama territorial-source rules. Trigger on Panama non-resident withholding, remesa al exterior, Formulario 05 Panama, fuente panamena. Source-cited draft.
 jurisdiction: PA
-category: CAT
+category: cross-border
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

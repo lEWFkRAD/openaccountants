@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: pr-payroll-withholding
 description: >
-  DESC
-jurisdiction: JUR
-category: CAT
+  Puerto Rico payroll and information withholding reference for 2026. Covers wage withholding under Code 1-2011 section 1062.01, 10 percent withholding on settlements (1062.02) and service payments (1062.03), 30 percent withholding on special-partnership and S-corporation allocations (1062.04-1062.05), the 2 percent per 30-day failure-to-deposit penalty (6041.01), and the 15 April return framework (1061.16-1061.17). Trigger on Puerto Rico withholding, retencion en el origen, 499R, planilla PR payroll. Source-cited draft.
+jurisdiction: PR
+category: payroll
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

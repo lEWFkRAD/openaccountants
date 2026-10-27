@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: pr-cross-border
 description: >
-  DESC
-jurisdiction: JUR
-category: CAT
+  Puerto Rico cross-border income reference for 2026. Covers Code 1-2011 Chapter 10 taxation of non-resident aliens (29 percent on fixed determinable PR-source income, 15 percent dividends, 33 percent S-corporation allocations, section 1091.01) and foreign corporations (29 percent, 10 percent dividends, section 1092.01), both read from the OGP May 2026 revision, plus source rules, withholding interaction and the US-treaty position of PR. Trigger on Puerto Rico non-resident, foreign corporation PR, 1092.01, 1091.01, PR source income. Source-cited draft.
+jurisdiction: PR
+category: cross-border
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

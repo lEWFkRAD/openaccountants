@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: mx-cross-border
 description: >
-  DESC
+  Mexico cross-border income reference for 2026. Covers LISR Title V taxation of non-residents with Mexican-source income: source-of-wealth rules (Arts. 153-165), flat 25% on real-property rent and gains and on independent services (Arts. 156, 158, 160, read), the permanent-establishment concept, the gross-up duty of the Mexican payer, and treaty interaction. Trigger on Mexico non-resident, residente en el extranjero, fuente de riqueza, establecimiento permanente, retencion 25%, Title V. Source-cited draft.
 jurisdiction: MX
-category: CAT
+category: cross-border
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

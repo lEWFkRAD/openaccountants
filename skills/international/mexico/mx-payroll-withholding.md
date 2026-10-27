@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: mx-payroll-withholding
 description: >
-  DESC
+  Mexico payroll withholding reference for 2026. Covers employer ISR withholding on wages under LISR Arts. 94-106 and the SAT monthly tariff tables, the February annual adjustment, monthly declarations by the 17th, aguinaldo and PTU treatment on the payroll, and gross-up duties for payments to non-residents. Trigger on Mexico payroll, retencion ISR salarios, tabuladores SAT, aguinaldo, determinacion mensual. Source-cited draft.
 jurisdiction: MX
-category: CAT
+category: payroll
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: panama-corporate-income-tax
 description: >
-  DESC
+  Panama corporate income tax reference for 2026. Covers the 25 percent ISR on net taxable Panamanian-source income (Fiscal Code art. 710, DGI rate schedule read 2026-10-27), the territorial base, the 31 March Form 1V return, the complementary tax on undistributed profits, dividend withholding at 10 percent (5 percent on exempt-source profits, DGI Form 07), the CAIR regime above 1.5 million balboas, and losses carried forward five years at 20 percent. Trigger on Panama corporate tax, ISR personas juridicas, impuesto de sociedades Panama, complementary tax Panama. Source-cited draft.
 jurisdiction: PA
-category: CAT
+category: international
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27

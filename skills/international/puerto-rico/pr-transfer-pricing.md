@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: pr-transfer-pricing
 description: >
-  DESC
-jurisdiction: JUR
-category: CAT
+  Puerto Rico transfer pricing reference for 2026. Thin source-cited draft: the Code 1-2011 taxes related-party interest at 29 percent (sections 1091.01, 1092.01, read from the OGP May 2026 revision), defines controlled groups (1010.04) and related entities (1010.05), and carries an anti-abuse rule in the corporate AMT (1022.03(e)); the Code's dedicated transfer-pricing section number and documentation rules are needs-sources. Trigger on Puerto Rico transfer pricing, partes relacionadas PR, precios de transferencia. Source-cited draft, needs-sources.
+jurisdiction: PR
+category: transfer-pricing
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-27
