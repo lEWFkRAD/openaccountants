@@ -30,7 +30,7 @@ See also: `us-sales-tax` (load first), `ks-corporate-income-tax`, `ks-cross-bord
 | Item | Rate or amount | Tax year | Source |
 |---|---|---|---|
 | State rate, general tangible personal property and taxable services | **6.5%** | 2026 | [K.S.A. 79-3603](https://ksrevisor.gov/statutes/chapters/ch79/079_036_0003.html) |
-| Food and food ingredients — unprepared | **0%** state (4% from Jan 1, 2023; 2% from Jan 1, 2024; 0% from Jan 1, 2025 "and thereafter") | 2026 | [K.S.A. 79-3603d](https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_036_0003d_section/079_036_0003d_k/) |
+| Food and food ingredients — unprepared | **0%** state (4% from Jan 1, 2023; 2% from Jan 1, 2024; 0% from Jan 1, 2025 "and thereafter") | 2026 | [K.S.A. 79-3603d](https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_036_0000_article/079_036_0003d_section/079_036_0003d_k/) |
 | Prepared food | Stays at the full 79-3603 rate unless sold without eating utensils and meeting a 79-3603d(b) condition | 2026 | K.S.A. 79-3603d(b) |
 | Late-filing / late-payment penalty | **1% of the unpaid balance per month or fraction thereof, not exceeding 24% in the aggregate** | 2026 | [K.S.A. 79-3615](https://ksrevisor.gov/statutes/chapters/ch79/079_036_0015.html) |
 | Interest on unpaid tax | The K.S.A. 79-2968 rate — the IRC § 6621 underpayment rate as in effect on September 1, 1996, with the annual fix described in the statute | 2026 | [K.S.A. 79-2968](https://ksrevisor.gov/statutes/chapters/ch79/079_029_0068.html) |
@@ -129,7 +129,7 @@ expected:
 | Source | URL | Read on |
 |---|---|---|
 | K.S.A. 79-3603 (state rate 6.5%) | https://ksrevisor.gov/statutes/chapters/ch79/079_036_0003.html | 2026-10-28 |
-| K.S.A. 79-3603d (food and food ingredients: 4% from 2023, 2% from 2024, 0% from Jan 1, 2025; prepared-food carve-out) | https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_036_0003d_section/079_036_0003d_k/ | 2026-10-28 |
+| K.S.A. 79-3603d (food and food ingredients: 4% from 2023, 2% from 2024, 0% from Jan 1, 2025; prepared-food carve-out) | https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_036_0000_article/079_036_0003d_section/079_036_0003d_k/ | 2026-10-28 |
 | K.S.A. 79-3606 (exemptions, incl. prescription drugs (p), integrated-production machinery (kk), ingredient/component part (m)) | https://ksrevisor.gov/statutes/chapters/ch79/079_036_0006.html | 2026-10-28 |
 | K.S.A. 79-3615 (1% a month, up to 24% aggregate, plus interest; post-audit 10% cap) | https://ksrevisor.gov/statutes/chapters/ch79/079_036_0015.html | 2026-10-28 |
 | K.S.A. 79-2968 (interest by reference to the IRC § 6621 underpayment rate as in effect on 1 September 1996) | https://ksrevisor.gov/statutes/chapters/ch79/079_029_0068.html | 2026-10-28 |
