@@ -1,10 +1,10 @@
 ---
 name: nd-income-tax
 description: Use this skill whenever asked about North Dakota individual income tax for self-employed / sole proprietors. Trigger on phrases like "North Dakota income tax", "ND income tax", "Form ND-1", "ND Tax Commissioner", "ND self-employment tax".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-ND
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -51,7 +51,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Taxable income over | But not over | Rate | Tax on lower amount |
 | --- | --- | --- | --- |
-| $0 | $48,475 | 0.00% | $0 |
+| $0 | $48,475 | 0.00% | $0 |  — 2025 statutory single schedule in archived NDCC §57-38-30.3(a): $44,725/$225,975 breakpoints, $3,534.38 base at 2.50%; guide table is the CPI-indexed 2026 version, same 0/1.95/2.50 structure
 | $48,475 | $244,825 | 1.95% | $0 |
 | $244,825 | — | 2.50% | $3,828.83 |
 

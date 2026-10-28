@@ -3,7 +3,7 @@ name: nd-payroll
 description: Use this skill whenever asked about North Dakota employer payroll compliance — state income tax withholding, Form 306 quarterly returns, Form 307 annual W-2 reconciliation, NDW-R reciprocity for Minnesota and Montana residents, SUTA / unemployment insurance through Job Service ND, new-hire reporting, and Workforce Safety & Insurance (WSI) workers' compensation. Trigger on phrases like "ND payroll", "North Dakota withholding", "Form 306", "NDW-R", "Job Service ND", "WSI", "Fargo employer", "Minnesota commuter".
 jurisdiction: US-ND
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2

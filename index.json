@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:33:07+00:00",
+ "generated_at": "2026-10-28T20:33:59+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -27112,7 +27112,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nd-cross-border-tax",
@@ -27136,7 +27136,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nd-income-tax",
@@ -27148,7 +27148,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nd-payroll",
@@ -27160,7 +27160,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nd-return-assembly",
@@ -27172,7 +27172,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nd-sales-tax",
@@ -27184,7 +27184,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nd-social-contributions",
