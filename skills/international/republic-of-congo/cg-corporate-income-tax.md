@@ -2,8 +2,9 @@
 name: cg-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Republic of Congo (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CG
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -30,6 +31,34 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual CIT return deadline** — 20 May at the latest  _(Code Général des Impôts (CGI) — https://taxsummaries.pwc.com/republic-of-congo/corporate/tax-administration)_
 - **CIT quarterly installment dates** — 20 February, 20 May, 25 August and 20 November  _(Code Général des Impôts (CGI) — https://taxsummaries.pwc.com/republic-of-congo/corporate/tax-administration)_
 
+## Recomputing examples
+
+```oa-check
+name: CG IS 30% + 5% surtax on 100,000,000 XAF profit
+inputs:
+  profit: 100000000
+steps:
+  - cit: profit * 0.30
+  - surtax: cit * 0.05
+  - total: cit + surtax
+expected:
+  cit: 30000000.00
+  surtax: 1500000.00
+  total: 31500000.00
+```
+```oa-check
+name: CG minimum tax 1% of turnover: 500,000,000 XAF vs floor XAF 1,000,000
+inputs:
+  turnover: 500000000
+  floor: 1000000
+steps:
+  - one_pct: turnover * 0.01
+  - due: max(one_pct, floor)
+expected:
+  one_pct: 5000000.00
+  due: 5000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -47,3 +76,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code Général des Impôts (CGI) (Republic of Congo), Impôt sur les Sociétés
+- OHADA SYSCOHADA accounting framework
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

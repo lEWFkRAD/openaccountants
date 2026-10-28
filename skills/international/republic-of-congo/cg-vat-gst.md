@@ -2,8 +2,9 @@
 name: cg-vat-gst
 description: "Source-cited draft: vat / gst for Republic of Congo (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CG
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,33 @@ The Republic of Congo operates a VAT (Taxe sur la Valeur Ajoutée) at a standard
 - **Electronic invoicing** — Certified Electronic Invoicing System (SFEC) introduced for VAT management  _([Loi de Finances 2025](https://clgglobal.com/navigating-congos-2025-financial-law-what-it-means-for-you/))_
 - **Scope of VAT** — Applies to supplies of goods and services made for consideration in Congo and to imports  _(Code Général des Impôts (CGI) — Taxe sur la Valeur Ajoutée)_
 
+## Recomputing examples
+
+```oa-check
+name: CG VAT 18% + 5% surtax on 50,000,000 XAF (effective 18.9%)
+inputs:
+  supply: 50000000
+steps:
+  - vat: supply * 0.18
+  - surtax: vat * 0.05
+  - combined: vat + surtax
+expected:
+  vat: 9000000.00
+  surtax: 450000.00
+  combined: 9450000.00
+```
+```oa-check
+name: CG reduced 5% VAT vs standard 18% on 20,000,000 XAF
+inputs:
+  supply: 20000000
+steps:
+  - reduced: supply * 0.05
+  - standard: supply * 0.18
+expected:
+  reduced: 1000000.00
+  standard: 3600000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -45,3 +73,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code Général des Impôts (CGI) (Republic of Congo), Taxe sur la Valeur Ajoutée
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

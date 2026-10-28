@@ -2,8 +2,9 @@
 name: cg-company-formation
 description: "Source-cited draft: company formation & entity choice for Republic of Congo (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CG
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +30,32 @@ Company law in the Republic of Congo is governed by the OHADA Uniform Act on Com
 - **Annual accounting compliance** — File annual SYSCOHADA financial statements (DSF) and the CIT return by 20 May  _([OHADA SYSCOHADA accounting framework; Code Général des Impôts (CGI)](https://taxsummaries.pwc.com/republic-of-congo/corporate/tax-administration))_
 - **Statutory auditor (commissaire aux comptes)** — Mandatory for SA; required for SARL above OHADA size thresholds ((approx — confirm))  _(OHADA Uniform Act on Commercial Companies and Economic Interest Groups)_
 
+## Recomputing examples
+
+```oa-check
+name: CG share-capital tiers: XAF 1,000,000 vs 10,000,000 vs 100,000,000
+inputs:
+  a: 1000000
+  b: 10000000
+  c: 100000000
+steps:
+  - b_over_a: b / a
+  - c_over_b: c / b
+expected:
+  b_over_a: 10.00
+  c_over_b: 10.00
+```
+```oa-check
+name: CG capital gap between XAF 10,000,000 and XAF 100,000,000
+inputs:
+  lo: 10000000
+  hi: 100000000
+steps:
+  - gap: hi - lo
+expected:
+  gap: 90000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -46,3 +73,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Act on Commercial Companies and Economic Interest Groups (Republic of Congo)
+- Code Général des Impôts (CGI) (Republic of Congo)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

@@ -2,8 +2,9 @@
 name: cg-income-tax
 description: "Source-cited draft: personal income tax for Republic of Congo (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CG
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +30,36 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual IRPP return filing deadline** — 20 March following the tax year ((approx — confirm))  _(Code Général des Impôts (CGI))_
 - **Employment income collection** — IRPP on salaries is withheld monthly at source by the employer (retenue à la source)  _(Code Général des Impôts (CGI))_
 
+## Recomputing examples
+
+```oa-check
+name: CG IRPP on 3,000,000 XAF taxable income (bands 1/10/25%)
+inputs:
+  income: 3000000
+steps:
+  - band1: min(income, 464000) * 0.01
+  - band2: (min(income, 1000000) - 464000) * 0.10
+  - band3: (min(income, 3000000) - 1000000) * 0.25
+  - tax: band1 + band2 + band3
+expected:
+  band1: 4640.00
+  band2: 53600.00
+  band3: 500000.00
+  tax: 558240.00
+```
+```oa-check
+name: CG simplified regime: 5% of 20,000,000 XAF turnover vs 8% of 12,500,000 XAF margin
+inputs:
+  turnover: 20000000
+  margin: 12500000
+steps:
+  - on_turnover: turnover * 0.05
+  - on_margin: margin * 0.08
+expected:
+  on_turnover: 1000000.00
+  on_margin: 1000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -46,3 +77,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code Général des Impôts (CGI) (Republic of Congo), IRPP barème
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
