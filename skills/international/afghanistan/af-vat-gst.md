@@ -2,8 +2,9 @@
 name: af-vat-gst
 description: "Source-cited draft: vat / gst for Afghanistan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: AF
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +28,30 @@ Afghanistan has enacted a VAT Law but, as of 2025, its commencement has been rep
 - **BRT filing / payment frequency** — Quarterly  _([Income Tax Law 2009](https://ard.gov.af/820/quarterly-business-receipts-tax-brt-user-guides))_
 - **Reverse charge** — Not applicable while VAT is not operational; BRT has no reverse-charge mechanism  _(Income Tax Law 2009)_
 
+## Recomputing examples
+
+```oa-check
+name: AF BRT general 4% on 1,000,000 AFN gross receipts
+inputs:
+  receipts: 1000000
+steps:
+  - brt: receipts * 0.04
+expected:
+  brt: 40000.00
+```
+```oa-check
+name: AF BRT hotels/large restaurants 5% on 2,000,000 AFN vs small restaurant 2%
+inputs:
+  hotel: 2000000
+  restaurant: 2000000
+steps:
+  - hotel_brt: hotel * 0.05
+  - restaurant_brt: restaurant * 0.02
+expected:
+  hotel_brt: 100000.00
+  restaurant_brt: 40000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -44,3 +69,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Law 2009 (Afghanistan), Business Receipts Tax — https://ard.gov.af/820/quarterly-business-receipts-tax-brt-user-guides
+- Value Added Tax Law (Afghanistan, not yet in force)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

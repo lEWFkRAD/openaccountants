@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:28:18+00:00",
+ "generated_at": "2026-10-28T21:35:39+00:00",
  "counts": {
   "guides": 2523,
   "jurisdictions": 274,
@@ -2212,7 +2212,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "af-income-tax",
@@ -2224,7 +2224,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "af-payroll-social",
@@ -2236,7 +2236,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "af-tax-overview",
@@ -2248,7 +2248,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "af-vat-gst",
@@ -2260,7 +2260,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "al-corporate-tax",

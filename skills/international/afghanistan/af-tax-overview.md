@@ -2,8 +2,9 @@
 name: af-tax-overview
 description: "Source-cited draft: tax overview for Afghanistan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: AF
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,27 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual income tax return deadline** — Within 3 months after the end of the tax year (approx — confirm; extensions may apply)  _(Income Tax Law 2009)_
 - **Business Receipts Tax filing frequency** — Quarterly  _([Income Tax Law 2009 (https://ard.gov.af/820/quarterly-business-receipts-tax-brt-user-guides)](https://ard.gov.af/820/quarterly-business-receipts-tax-brt-user-guides))_
 
+## Recomputing examples
+
+```oa-check
+name: AF flat 20% CIT on 1,000,000 AFN profit
+inputs:
+  profit: 1000000
+steps:
+  - cit: profit * 0.20
+expected:
+  cit: 200000.00
+```
+```oa-check
+name: AF BRT general 4% on 1,000,000 AFN gross receipts
+inputs:
+  receipts: 1000000
+steps:
+  - brt: receipts * 0.04
+expected:
+  brt: 40000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -43,3 +65,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Law 2009 (Afghanistan) — https://ard.gov.af/
+- Value Added Tax Law (Afghanistan, not yet in force)
+- Da Afghanistan Bank Law
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
