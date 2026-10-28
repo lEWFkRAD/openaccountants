@@ -3,7 +3,8 @@ name: cu-tax-overview
 description: "Source-cited draft: tax overview for Cuba (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CU
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,36 @@ Cuba's tax system is governed by Law No. 113 of 2012 (Ley del Sistema Tributario
 - **VAT / GST** — No VAT. Cuba levies a sales tax (Impuesto sobre las Ventas) and a services tax (Impuesto sobre los Servicios) instead.  _(Ley No. 113 del Sistema Tributario)_
 - **Annual personal/individual filing deadline** — 30 April of the year following the fiscal year (Declaración Jurada)  _([Ley No. 113 del Sistema Tributario](https://aemprezar.wordpress.com/2025/02/19/impuesto-sobre-ingresos-personales-en-cuba-2025/))_
 - **Minimum exempt amount (mínimo exento)** — 39,120 CUP per year (annual personal tax-free threshold for self-employed/individual filers) CUP  _(Ley No. 174/2024 del Presupuesto del Estado)_
+
+
+## Recomputing examples
+
+```oa-check
+name: Combined MIPYME burden sketch — profit 1,000,000 CUP (35% profits tax)
+inputs:
+  profit: 1000000
+steps:
+  - profits_tax: profit * 0.35
+expected:
+  profits_tax: 350000.00
+```
+```oa-check
+name: Territorial contribution 1% on sales 2,000,000 CUP
+inputs:
+  sales: 2000000
+steps:
+  - contribution: sales * 0.01
+expected:
+  contribution: 20000.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| MEP (Ministerio de Economía y Planificación) — En claves, sistema de impuestos para MIPYMES y CNA | https://www.mep.gob.cu/en/node/1381 | 2026-10-28 |
+| Gaceta Oficial de la República de Cuba (normative gazette portal) | https://www.gacetaoficial.gob.cu | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

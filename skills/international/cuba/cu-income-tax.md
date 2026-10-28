@@ -3,7 +3,8 @@ name: cu-income-tax
 description: "Source-cited draft: personal income tax for Cuba (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CU
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,41 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Early-payment bonus** — 5% bonus (reduction) for paying the annual settlement before 28 February %  _([Decreto-Ley No. 93/2024 (https://ivacalculator.com/cuba/impuestos-mipymes-empresas-privadas/)](https://ivacalculator.com/cuba/impuestos-mipymes-empresas-privadas/))_
 - **Advance payments** — Self-employed and individual taxpayers make periodic (monthly/quarterly) advance payments during the year, reconciled in the annual Declaración Jurada ((approx — confirm))  _(Ley No. 113 del Sistema Tributario)_
 - **Non-resident taxation** — Non-residents are taxed only on Cuban-source income; employment income earned through Cuban entities is subject to withholding ((approx — confirm))  _(Ley No. 113 del Sistema Tributario)_
+
+
+## Recomputing examples
+
+```oa-check
+name: MIPYME partner dividend PIT — monthly income 100,000 CUP (3% to 75,000 + 5% excess)
+inputs:
+  income: 100000
+steps:
+  - band1: min(income, 75000) * 0.03
+  - band2: (min(income, 150000) - 75000) * 0.05
+  - tax: band1 + band2
+expected:
+  band1: 2250.00
+  band2: 1250.00
+  tax: 3500.00
+```
+```oa-check
+name: Annual minimum exempt for MIPYME partners is 39,120 CUP
+inputs:
+  annual_income: 39120
+  minimo_exento: 39120
+steps:
+  - taxable: max(annual_income - minimo_exento, 0)
+expected:
+  taxable: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| MEP (Ministerio de Economía y Planificación) — En claves, sistema de impuestos para MIPYMES y CNA | https://www.mep.gob.cu/en/node/1381 | 2026-10-28 |
+| Gaceta Oficial de la República de Cuba (normative gazette portal) | https://www.gacetaoficial.gob.cu | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

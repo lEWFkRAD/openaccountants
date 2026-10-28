@@ -3,7 +3,8 @@ name: cu-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Cuba (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CU
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -25,6 +26,36 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Withholding tax on interest / royalties to non-residents** — Payments of interest and royalties to non-residents may be subject to withholding; rate to be confirmed against statute and any applicable treaty (approx — confirm)  _(Ley No. 113 del Sistema Tributario)_
 - **Filing / payment deadline** — Annual sworn declaration due by 31 March (corporate Declaración Jurada); quarterly advance payments during the year (approx — confirm)  _(Ley No. 113 del Sistema Tributario)_
 - **Territorial contribution for local development** — 1% % of gross income (Contribución Territorial para el Desarrollo Local, payable by state and private entities)  _(Ley No. 113 del Sistema Tributario (https://en.granma.cu/cuba/2025-05-28/dispersed-destinations-of-a-contribution-for-local-development))_
+
+
+## Recomputing examples
+
+```oa-check
+name: Impuesto sobre Utilidades 35% on net profit 1,000,000 CUP
+inputs:
+  profit: 1000000
+steps:
+  - tax: profit * 0.35
+expected:
+  tax: 350000.00
+```
+```oa-check
+name: Territorial contribution 1% on monthly sales 500,000 CUP
+inputs:
+  sales: 500000
+steps:
+  - contribution: sales * 0.01
+expected:
+  contribution: 5000.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| MEP (Ministerio de Economía y Planificación) — En claves, sistema de impuestos para MIPYMES y CNA | https://www.mep.gob.cu/en/node/1381 | 2026-10-28 |
+| Gaceta Oficial de la República de Cuba (normative gazette portal) | https://www.gacetaoficial.gob.cu | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 
