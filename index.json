@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:35:08+00:00",
+ "generated_at": "2026-10-28T20:36:09+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -7180,7 +7180,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "costa-rica-iva",
@@ -7192,7 +7192,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "costa-rica-payroll",
@@ -7240,7 +7240,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-24"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "cr-cross-border",
