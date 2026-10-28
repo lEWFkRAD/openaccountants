@@ -16,8 +16,8 @@ jurisdiction: US-MD
 category: state-tax
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: "0.2"
 verified_by: pending
 depends_on:
   - md-income-tax
@@ -31,7 +31,7 @@ depends_on:
 
 Covers Maryland corporation income tax on C corporations and other entities taxed as corporations (Form 500), including nexus, apportionment, estimated tax, extensions, penalties and interest. Out of scope: federal tax, Maryland personal income tax (`md-income-tax`), payroll withholding (`md-payroll`), sales/use tax (`md-sales-tax`), the digital advertising tax (separate regime, returns due April 15), S corporations (Form 510 pass-through level), and fiduciary returns (Form 504).
 
-**Source status:** the Comptroller's Corporation Income Tax Return Booklet (2024 edition, latest located) was fetched and read in full on 2026-10-27 (HTTP 200, PDF text extracted). Statute-section citations (Tax-General §7-204 rate, §13-701 penalty percentages) did **not** resolve from the drafting environment — those specifics are flagged **needs-sources**; the 8.25% rate, interest rate, due dates, estimated-tax mechanics and extension cap are all quoted from the booklet itself.
+**Source status:** the Comptroller's Corporation Income Tax Return Booklet (2024 edition, latest located) was fetched and read in full on 2026-10-27 (HTTP 200, PDF text extracted). Statute-section citations (Tax-General §7-204 rate, §13-701 penalty percentages) did **not** resolve from the drafting environment — those specifics are flagged **needs-sources**; the 8.25% rate, interest rate, due dates, estimated-tax mechanics and extension cap are all quoted from the booklet itself. The 8.25% rate is independently confirmed by the archived statute text: Tax-General § 10-106(b)(1) (archived 2026-10-28): "The State income tax rate for a corporation is 8.25% of Maryland taxable income."
 
 ## 2. Who applies
 

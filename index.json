@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:28:52+00:00",
+ "generated_at": "2026-10-28T20:30:48+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -26380,7 +26380,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "md-cross-border",
@@ -26404,7 +26404,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "md-payroll",
