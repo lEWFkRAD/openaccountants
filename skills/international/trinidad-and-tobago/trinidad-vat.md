@@ -3,7 +3,8 @@ name: trinidad-vat
 description: Use this skill whenever asked to prepare, review, or create a Trinidad and Tobago VAT return for any client. Trigger on phrases like "prepare VAT return", "do the VAT", "Trinidad VAT", "T&T VAT", or any request involving Trinidad and Tobago VAT filing. Also trigger when classifying transactions for VAT purposes from bank statements, invoices, or other source data. This skill contains the complete Trinidad and Tobago VAT classification rules, return form mappings, deductibility rules, and filing deadlines required to produce a correct return. ALWAYS read this skill before touching any Trinidad VAT-related work.
 jurisdiction: TT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: 1.2
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -175,7 +176,7 @@ When a Trinidad and Tobago registered person receives services from a non-reside
 
 ## Step 6: Key Thresholds [T1]
 
-- **Mandatory VAT registration** — Annual taxable supplies exceeding TTD 600,000  _(VAT Act, Section 9 (registration threshold))_
+- **Mandatory VAT registration** — Annual taxable supplies exceeding TTD 600,000  _(IRD VAT page (archived 2026-10-28): registration required where "gross value in excess of $600,000.00 (as of 1/1/2023) in any twelve (12) month period"; VAT Act, Section 9 (registration threshold))_
 - **Voluntary registration** — Below TTD 600,000 (may register voluntarily if making taxable supplies)  _(VAT Act, Section 9 (registration threshold))_
 
 **Key Thresholds table**  _(VAT Act, Section 9 (registration threshold))_
