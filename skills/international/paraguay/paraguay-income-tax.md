@@ -1,10 +1,10 @@
 ---
 name: paraguay-income-tax
 description: Use this skill whenever asked about Paraguay personal income tax (IRP) for self-employed individuals and personal-service providers. Trigger on phrases like "how much tax do I pay in Paraguay", "IRP", "Impuesto a la Renta Personal", "Form 715", "Form 716", "RSP", "RGC", "renta neta", "declaración jurada", "allowable deductions Paraguay", "IPS contributions", "aporte obrero", "aporte patronal", "Marangatú", "RUC registration", "salario mínimo", "self-employed tax Paraguay", or any question about filing or computing income tax for a Paraguayan resident with Paraguay-source income. Also trigger when preparing or reviewing an IRP RSP (715) or IRP RGC (716) return, computing documented deductible expenses, or advising on IPS social-security contributions and IVA interaction. This skill covers the territorial basis, the 8%/9%/10% progressive scale (personal services), the flat 8% capital regime, the gross-income filing threshold, IPS rates, minimum wage, penalties, and interaction with IVA. ALWAYS read this skill before touching any Paraguay income tax work.
-version: 0.1
+version: 0.2
 jurisdiction: PY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -59,6 +59,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 50,000,001 -- 150,000,000 | 9% | ₲13,000,000 |
 | 150,000,001 and above | 10% | -- |
 
+**Scale verified 2026-10-28 verbatim vs archived DNIT IRP cartilla (`PY-irp-cartilla-2024.pdf`, Art. 69 Ley 6380/19): "Hasta G 50.000.000 — 8%; Hasta G 150.000.000 — 9%; Más de G 150.000.000 — 10%", progressive per-portion, and the G 80,000,000 gross-income no-payment threshold quoted verbatim.**
 - **Cumulative-tax check** — band 1 = 50,000,000 × 8% = ₲4,000,000. Band 2 = 100,000,000 × 9% = ₲9,000,000; cumulative at ₲150,000,000 = 4,000,000 + 9,000,000 = ₲13,000,000. Band 3 marginal 10% above ₲150,000,000.
 
 ### Capital Gains & Income (RGC) -- Form 716
