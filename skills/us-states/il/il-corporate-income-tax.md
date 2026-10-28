@@ -15,8 +15,8 @@ jurisdiction: US-IL
 category: corporate
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - il-income-tax
@@ -40,7 +40,7 @@ Source-cited draft, run of 27 October 2026. Illinois taxes corporations under th
 
 | Item | Rate / base | Source |
 |---|---|---|
-| Corporate income tax | **7.0%** of Illinois net income (IL-1120 Line 45) | IL-1120 (R-12/25) PDF, read 2026-10-27 |
+| Corporate income tax | **7.0%** of Illinois net income (IL-1120 Line 45) — re-VERIFIED vs archived IL-1120 PDF (2026-10-28): "Income tax. Multiply Line 39 by 7.0% (.07)"; "Replacement tax. Multiply Line 39 by 2.5% (.025)" | IL-1120 (R-12/25) PDF, archived 2026-10-28 |
 | Corporate replacement tax | **2.5%** of Illinois net income (IL-1120 Line 40) | same PDF, read 2026-10-27 |
 | Combined effective | 9.5% (IDOR estimated-payment worksheet uses 9.5%) | IL-1120 instructions PDF, read 2026-10-27 |
 | Base | "Net income" = adjusted base income after Illinois modifications, net loss deduction, and apportionment (Steps 3–5 of IL-1120) | IL-1120 PDF |
