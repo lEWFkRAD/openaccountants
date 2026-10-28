@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:17:43+00:00",
+ "generated_at": "2026-10-28T20:20:36+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -25768,7 +25768,7 @@
    "verified_by": null,
    "reviewed_by": "RILIA PUTRI",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "id-sales-tax",
@@ -25780,7 +25780,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "idaho-sales-tax",
@@ -25792,7 +25792,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "il-corporate-income-tax",

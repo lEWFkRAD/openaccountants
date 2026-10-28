@@ -1,10 +1,10 @@
 ---
 name: id-sales-tax
 description: Use this skill whenever asked about Idaho sales and use tax. Trigger on phrases like "Idaho sales tax", "ID sales tax", "Idaho Code §63-3619", "Idaho SST". ALWAYS load us-sales-tax first.
-version: 2.0
+version: 2.1
 jurisdiction: US-ID
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,7 +27,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Maximum combined rate | ~9.00% |
 | Sourcing | Destination-based (SST) |
 | Economic nexus | $100,000 in sales |
-| Tax authority | Idaho State Tax Commission |
+| Tax authority | Idaho State Tax Commission — sales tax imposed by Idaho Code §63-3606 et seq.; definitions archived in evidence set (`US-ID-63-3603.html`, `US-ID-63-3606.html`) |
 | Portal | https://tax.idaho.gov |
 | SST member | Yes -- Full Member |
 | Skill version | 2.0 |
