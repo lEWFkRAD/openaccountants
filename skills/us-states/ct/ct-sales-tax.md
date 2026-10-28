@@ -1,10 +1,10 @@
 ---
 name: ct-sales-tax
 description: Use this skill whenever asked about Connecticut sales and use tax, luxury tax, DRS filings. Trigger on phrases like "Connecticut sales tax", "CT sales tax", "DRS", "luxury tax Connecticut". ALWAYS load us-sales-tax first.
-version: 2.0
+version: 2.1
 jurisdiction: US-CT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -20,7 +20,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Connecticut |
-| State rate | 6.35% (standard); 7.75% (luxury items over $5,000) |
+| State rate | 6.35% (standard); 7.75% (luxury items over $5,000) |  — 6.35%/7.75% confirmed verbatim in archived 2025 CT-1040 instructions ("the rate is 6.35%. However, the following items are subject to a ... 7.75% use tax rate")
 | Local taxes | None -- no local sales taxes |
 | Maximum rate | 7.75% |
 | Sourcing | Destination-based |
