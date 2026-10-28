@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:36:12+00:00",
+ "generated_at": "2026-10-28T20:36:49+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -27304,7 +27304,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nh-interest-dividends-note",
@@ -27316,7 +27316,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "new-jersey-sales-tax",

@@ -3,7 +3,7 @@ name: nh-bpt-bet
 description: "Source-cited tax guide for US-NH: nh bpt bet. Unverified draft, pending local-accountant review."
 jurisdiction: US-NH
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -39,7 +39,7 @@ The administering agency for BPT and BET is the New Hampshire Department of Reve
 
 ### 2.1 Rate
 
-- **BPT rate** — 7.5% percent (tax periods ending on or after December 31, 2023, continuing for tax year 2024 and tax year 2025)  _(RSA 77-A)_
+- **BPT rate** — 7.5% percent (tax periods ending on or after December 31, 2023, continuing for tax year 2024 and tax year 2025)  _(RSA 77-A:2(III), verified verbatim 2026-10-28 vs archived RSA 77-A:2: "For all taxable periods ending on or after December 31, 2023, a tax is imposed at the rate of 7.5 percent"; same statute confirms 7.7% for periods ending on/after 2019-12-31 and 7.6% on/after 2022-12-31)_
 - **BPT rate through tax year 2017** — 8.5% percent
 - **BPT rate tax year 2018** — 7.9% percent  _(Chapter 156, Laws of 2017)_
 - **BPT rate tax years 2019-2021** — 7.7% percent  _(Chapter 156, Laws of 2017)_
