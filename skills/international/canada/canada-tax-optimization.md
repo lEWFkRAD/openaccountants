@@ -1,10 +1,10 @@
 ---
 name: canada-tax-optimization
 description: Use this skill when advising on LEGAL tax minimization strategies for Canadian taxpayers — individuals, sole proprietors, and small business owners (CCPCs). Trigger on phrases like "reduce my tax Canada", "tax planning", "RRSP vs TFSA", "salary vs dividends", "income splitting", "TOSI", "small business deduction", "LCGE", "capital gains inclusion", "CRA", or any question about structuring affairs to legally minimize Canadian tax. Covers entity selection, registered account optimization, deduction strategies, loss utilization, timing, GST/HST planning, CPP optimization, and red lines. ALWAYS read this skill before giving Canadian tax optimization advice.
-version: 1.0
+version: "1.1"
 jurisdiction: CA
 tax_year: 2026
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 authored_by: Nathan Wiebe
 reviewed_by: Edgar Lautsyus
 review_status: current
@@ -34,8 +34,8 @@ This block is generated from verified `skill_facts` — edit the facts, not the 
 - **$117,046–$181,440** — 26%  _(CRA 2026 payroll deductions tables (T4032); KPMG Tax Data Sheet 2026)_
 - **$181,441–$258,482** — 29%  _(CRA 2026 payroll deductions tables (T4032); KPMG Tax Data Sheet 2026)_
 - **$258,483+** — 33%  _(CRA 2026 payroll deductions tables (T4032))_
-- **Small business rate (federal)** — 9% on first $500,000 active business income  _(ITA s.125; CRA — Corporate income tax rates)_
-- **General corporate rate (federal)** — 15%  _(ITA s.123(1); CRA — Corporate income tax rates)_
+- **Small business rate (federal)** — 9% on first $500,000 active business income (ITA s.125(1): 19% deduction rate after 2018 less the 10% general-rate reduction in s.123.4(1)(f); s.125(2): "a corporation's business limit for a taxation year is $500,000")  _([ITA s.125 (archived)](https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html); CRA — Corporate income tax rates)_
+- **General corporate rate (federal)** — 15% (ITA s.123(1) base 38% less the s.123.4 general rate reduction of 13% for taxation-year days after 2011 = 25%, less 10% federal abatement = 15% net)  _([ITA s.123 (archived)](https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-123.html); [ITA s.123.4 (archived)](https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-123.4.html))_
 - **Capital gains inclusion** — 50% (66.7% increase was cancelled)  _(PM Carney announcement Mar 21, 2025; Budget 2025; CRA — canada.ca)_
 - **RRSP** — $33,810 (or 18% of prior-year earned income)  _(CRA — RRSP — canada.ca; ITA s.146(1))_
 - **TFSA** — $7,000 (cumulative $109,000 since 2009)  _(CRA — TFSA — canada.ca; ITA s.207.01)_
