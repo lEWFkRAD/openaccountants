@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:26:57+00:00",
+ "generated_at": "2026-10-28T21:27:15+00:00",
  "counts": {
   "guides": 2523,
   "jurisdictions": 274,
@@ -26359,9 +26359,9 @@
    "last_updated": "2026-10-27"
   },
   {
-   "slug": "arizona-sales-tax",
-   "path": "skills/us-states/ar/arizona-sales-tax.md",
-   "name": "arizona-sales-tax",
+   "slug": "arkansas-sales-tax",
+   "path": "skills/us-states/ar/arkansas-sales-tax.md",
+   "name": "arkansas-sales-tax",
    "jurisdiction": "US-AR",
    "category": null,
    "tier": 2,
@@ -26371,10 +26371,10 @@
    "last_updated": "2026-07-13"
   },
   {
-   "slug": "arkansas-sales-tax",
-   "path": "skills/us-states/ar/arkansas-sales-tax.md",
-   "name": "arkansas-sales-tax",
-   "jurisdiction": "US-AR",
+   "slug": "arizona-sales-tax",
+   "path": "skills/us-states/az/arizona-sales-tax.md",
+   "name": "arizona-sales-tax",
+   "jurisdiction": "US-AZ",
    "category": null,
    "tier": 2,
    "verified_by": null,

@@ -2339,8 +2339,8 @@ https://www.openaccountants.com
 - ar-sales-tax | US-AR | tier 2 | reviewed_by -
 - ar-transfer-pricing | US-AR | tier 2 | reviewed_by -
 - ar-unemployment-contributions | US-AR | tier 2 | reviewed_by -
-- arizona-sales-tax | US-AR | tier 2 | reviewed_by -
 - arkansas-sales-tax | US-AR | tier 2 | reviewed_by -
+- arizona-sales-tax | US-AZ | tier 2 | reviewed_by -
 - az-corporate-income-tax | US-AZ | tier 2 | reviewed_by -
 - az-cross-border | US-AZ | tier 2 | reviewed_by -
 - az-income-tax | US-AZ | tier 2 | reviewed_by -
