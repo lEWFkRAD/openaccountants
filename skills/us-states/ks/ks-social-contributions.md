@@ -62,39 +62,41 @@ No Kansas UI filing calendar is confirmed in this skill. The quarterly report an
 
 ## Worked examples
 
-The base and rate in these examples are **hypothetical figures**, not the confirmed Kansas 2026 figures (see Not yet confirmed). They show the mechanics: contributions run on wages up to the per-employee base, times the employer's rate.
+These examples use only confirmed federal figures (26 U.S.C. §§ 3301 and 3302); employee wages are hypothetical. The Kansas UI figures are not yet confirmed — see Not yet confirmed.
 
-### Example 1: single-employee UI cost
+### Example 1: single-employee FUTA cost
 
-One employee earns $180,000 of Kansas wages. With a hypothetical base of $15,000 and a hypothetical experience rate of 2.1%, taxable wages are capped at $15,000 and the UI contribution is $315.
+One employee earns $10,000 of wages in the year (hypothetical). The FUTA excise is 6% of total wages (26 U.S.C. § 3301: "an excise tax … equal to 6 percent of the total wages") = $600. With state contributions paid, the credit is capped at 90% of the tax (26 U.S.C. § 3302(c)(1)): credit $540, net federal cost $60.
 
 ```oa-check
-name: KS UI employer contribution (hypothetical figures)
+name: KS FUTA single employee (confirmed federal rates)
 inputs:
-  wages: 180000
-  base: 15000
-  rate: 0.021
+  wages: 10000
+  futa_rate: 0.06
+  credit_cap: 0.9
 steps:
-  - taxable: min(wages, base)
-  - ui: taxable * rate
+  - gross_futa: wages * futa_rate
+  - max_credit: gross_futa * credit_cap
+  - net_federal: gross_futa - max_credit
 expected:
-  taxable: 15000
-  ui: 315
+  gross_futa: 600
+  max_credit: 540
+  net_federal: 60
 ```
 
-### Example 2: two-employee small employer
+### Example 2: two employees — the tax runs on each employee's wages
 
-Same facts, two employees each above the base: the cost doubles to $630, because the base applies per employee.
+Same facts, two employees each earning $10,000: the gross FUTA doubles to $1,200 and the net federal cost doubles to $120, because the excise applies to the total wages paid with respect to employment.
 
 ```oa-check
-name: KS UI two employees
+name: KS FUTA two employees
 inputs:
-  per_employee_ui: 315
+  per_employee_net_federal: 60
   employees: 2
 steps:
-  - total: per_employee_ui * employees
+  - total_net_federal: per_employee_net_federal * employees
 expected:
-  total: 630
+  total_net_federal: 120
 ```
 
 ## Ask the client first
