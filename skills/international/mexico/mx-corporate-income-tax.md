@@ -1,13 +1,13 @@
 ---
 name: mx-corporate-income-tax
 description: >
-  Mexico corporate income tax reference for 2026. Covers the 30% LISR rate on the annual fiscal result (Art. 9), monthly provisional payments by the 17th (Art. 14), loss carryforward (Art. 57), the CUFIN/CORE dividend system with the 1.4286 gross-up and 10% additional tax (Arts. 10, 77-79), PTU deductibility, and corporate deadlines and penalties. Trigger on Mexico corporate tax, ISR personas morales, utilidad fiscal, CUFIN, perdida fiscal, pago provisional. Source-cited draft.
+  Mexico corporate income tax reference for 2026. Covers the 30% LISR rate on the annual fiscal result (Art. 9), monthly provisional payments by the 17th (Art. 14), loss carryforward 10 years (Art. 57), the CUFIN/CORE dividend system with the 1.4286 gross-up and 10% additional tax (Arts. 10, 77-79), PTU deductibility, and corporate deadlines and penalties. Trigger on Mexico corporate tax, ISR personas morales, utilidad fiscal, CUFIN, perdida fiscal, pago provisional. Source-cited draft.
 jurisdiction: MX
 category: international
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
@@ -49,7 +49,9 @@ read on 2026-10-27 — verify against the DOF before relying on it.
 The annual fiscal result (LISR Art. 9, read): accumulate all Title II
 income, subtract authorised deductions (Arts. 25-37) and PTU actually
 paid in the year (Constitution Art. 123), then subtract updated
-prior-year loss carryforwards. Losses carry forward 8 years,
+prior-year loss carryforwards. Losses carry forward 10 years
+("los diez ejercicios siguientes", LISR Art. 57, verified against the
+archived LISR text 2026-10-28 — the prior "8 years" figure was wrong),
 inflation-updated, with same-line-of-business limits on mergers and
 control changes (Art. 57; the control-change paragraph was read from the
 Art. 58-adjacent text). Accrual basis; inflation adjustment applies to
@@ -60,15 +62,16 @@ Dividends: distributions are tax-free in the recipient's hands only if
 paid out of the Cuenta de Utilidad Fiscal Neta (CUFIN, profits taxed
 before 2014) or CUFIN-NON-RESIDENTE; otherwise the paying company
 grosses the dividend up by the factor 1.4286 and pays 30% (Art. 10,
-read), plus 10% additional tax on post-2014 profits. Capital reductions
-are recharacterised through the CUFIN waterfall (Art. 78, read).
+read from archived LISR text 2026-10-28), plus 10% additional tax on
+post-2014 profits. Capital reductions are recharacterised through the
+CUFIN waterfall (Art. 78, read).
 
 ## 5. Deadlines and filings
 
 | Obligation | Deadline | Source |
 |---|---|---|
 | Monthly provisional ISR payments | by the 17th of the following month, on the prior year's utilidad/ingresos coefficient (Art. 14, read) | LISR Art. 14 |
-| Annual ISR return | within 3 months of year end — 30 July for calendar-year taxpayers | LISR Art. 81 |
+| Annual ISR return | within 3 months of year end — 30 July for calendar-year taxpayers (LISR Art. 76(V): "dentro de los tres meses siguientes a la fecha en que termine dicho ejercicio", verified 2026-10-28) | LISR Art. 76(V) |
 | PTU payment | within 60 days of the annual return | LFT Art. 123 |
 | Determinations and informative returns (incl. related-party, Art. 76-A) | with the annual return | LISR Arts. 76, 76-A |
 
