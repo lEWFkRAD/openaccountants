@@ -1,10 +1,10 @@
 ---
 name: azerbaijan-income-tax
 description: Use this skill whenever asked about Azerbaijan personal income tax for individuals, employees, and self-employed individual entrepreneurs. Trigger on phrases like "how much income tax do I pay in Azerbaijan", "Azerbaijan payroll tax", "DSMF social insurance", "simplified tax regime", "individual entrepreneur tax", "private non-oil sector holiday", "oil and gas sector tax", "annual income tax return Azerbaijan", "AZN withholding", "compulsory medical insurance", "unemployment insurance contribution", "taxes.gov.az", or any question about computing, withholding, or filing personal income tax in the Republic of Azerbaijan. Also trigger when classifying AZN bank-statement lines for an individual entrepreneur, computing payroll deductions, or advising on the 2025 holiday regime versus the 2026 progressive reform. This skill covers personal income tax brackets (private non-oil, oil/gas/public, 2026 reform), DSMF/UIC/medical contributions, the simplified-tax regime, micro-entrepreneur exemptions, filing deadlines, and penalties. ALWAYS read this skill before touching any Azerbaijan income tax work.
-version: 0.1
+version: 0.2
 jurisdiction: AZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Azerbaijan Income Tax -- Individuals & Self-Employed
 
-## Azerbaijan Income Tax -- Individuals & Self-Employed Skill v0.1
+## Azerbaijan Income Tax -- Individuals & Self-Employed Skill v0.2
 
 > **CONFIDENCE: MEDIUM.** Several figures rely on Big-4 (PwC) and reputable local-firm summaries rather than direct extraction from the Azeri-language Tax Code, and the figures span a major regime change at 1 January 2026 (the 7-year private non-oil holiday expired 31 December 2025). Items marked **[RESEARCH GAP — reviewer to confirm]** must be reconfirmed against the official portal at [taxes.gov.az](https://www.taxes.gov.az/en) before any return is filed.
 
@@ -684,6 +684,43 @@ Expected: Dec 2025 = AZN 0 (holiday); Jan 2026 = (3% × 2,500) + (10% × (7,000 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+## Worked examples
+
+```oa-check
+name: AZ 2026 progressive PIT, AZN 5,000 monthly (3%/10% schedule)
+inputs:
+  income: 5000
+steps:
+  - band1: min(income, 2500) * 0.03
+  - band2: max(min(income, 8000) - 2500, 0) * 0.10
+  - band3: max(income - 8000, 0) * 0.14
+  - tax: band1 + band2 + band3
+expected:
+  band1: 75.00
+  band2: 250.00
+  band3: 0.00
+  tax: 325.00
+```
+
+```oa-check
+name: AZ simplified tax regime, 2% of AZN 12,000 turnover
+inputs:
+  turnover: 12000
+steps:
+  - tax: turnover * 0.02
+expected:
+  tax: 240.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| State Tax Service portal (cited inline) | https://www.taxes.gov.az/en | 2026-10-28 |
+| PwC Worldwide Tax Summaries — Azerbaijan (cited inline) | https://taxsummaries.pwc.com/azerbaijan | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

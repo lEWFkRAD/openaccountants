@@ -3,7 +3,7 @@ name: bi-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Burundi (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +27,43 @@ Companies resident in Burundi are taxed on profits at a flat rate, with a minimu
 - **Branch profit remittance tax** — 15% % ((approx — confirm))  _([Law No. 1/02 of 24 January 2013 (income tax law)](https://remotepeople.com/countries/burundi/hire-employees/payroll-tax/))_
 - **Annual corporate tax return filing deadline** — Generally by 31 March following the close of the calendar tax year ((approx — confirm))  _(Law No. 1/02 of 24 January 2013 (income tax law))_
 - **Advance corporate tax payments** — Provisional/advance instalments are payable during the year, with final balance on filing ((approx — confirm))  _(Law No. 1/02 of 24 January 2013 (income tax law))_
+
+## Worked examples
+
+```oa-check
+name: BI CIT 30% on BIF 10,000,000 profit; 1% minimum tax on turnover
+inputs:
+  profit: 10000000
+  turnover: 50000000
+steps:
+  - normal_tax: profit * 0.30
+  - minimum_tax: turnover * 0.01
+  - payable: max(normal_tax, minimum_tax)
+expected:
+  normal_tax: 3000000.00
+  minimum_tax: 500000.00
+  payable: 3000000.00
+```
+
+```oa-check
+name: BI dividend withholding 15% on BIF 2,000,000 dividend
+inputs:
+  dividend: 2000000
+steps:
+  - wht: dividend * 0.15
+  - net: dividend - wht
+expected:
+  wht: 300000.00
+  net: 1700000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Law No. 1/02 of 24 January 2013 (income tax law) (cited inline) | https://remotepeople.com/countries/burundi/hire-employees/payroll-tax/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

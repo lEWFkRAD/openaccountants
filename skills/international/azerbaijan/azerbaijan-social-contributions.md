@@ -1,10 +1,10 @@
 ---
 name: azerbaijan-social-contributions
 description: Use this skill whenever asked about Azerbaijan employer/employee social contributions, payroll taxes, or salary withholding. Trigger on phrases like "Azerbaijan social insurance", "SSPF contributions", "DSMF", "how much social security do I pay in Azerbaijan", "Azerbaijan payroll tax", "mandatory health insurance Azerbaijan", "unemployment insurance Azerbaijan", "AZN salary net pay", "Azerbaijan income tax withholding", "non-oil/gas grace period", "PIT exemption AZN 8000", "what changes on 1 January 2026 in Azerbaijan", or any question about Azerbaijan employment-income contributions, the State Social Protection Fund, or the State Tax Service unified monthly declaration. Also trigger when classifying bank-statement transactions that relate to SSPF/DSMF debits, State Tax Service (taxes.gov.az) payments, mandatory health insurance, or salary payments in AZN from Azerbaijani banks (Kapital Bank, PASHA Bank, ABB / International Bank of Azerbaijan). This skill covers the two-track regime (non-oil/gas private sector grace period vs oil/gas & government standard rates), the 2025 social insurance / health / unemployment schedules, the confirmed 1 Jan 2026 changes, personal income tax withholding, filing forms, deadlines, penalties, bank-statement classification patterns, and edge cases. ALWAYS read this skill before touching any Azerbaijan payroll or social-contribution work.
-version: 0.1
+version: 0.2
 jurisdiction: AZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Azerbaijan Social Contributions & Payroll Withholding
 
-## Azerbaijan Social Contributions & Payroll Withholding Skill v0.1
+## Azerbaijan Social Contributions & Payroll Withholding Skill v0.2
 
 > **Tier 2 (research-verified) skill. Confidence: medium.** Figures are corroborated primarily via PwC Worldwide Tax Summaries and a Mercans statutory alert; official authority sites (taxes.gov.az, dsmf.gov.az) are largely in Azerbaijani. A native-language review of the source laws is recommended before this skill is promoted to verified (Q1) status. Every figure below carries an inline citation or a `[RESEARCH GAP — reviewer to confirm]` marker.
 
@@ -472,6 +472,39 @@ Cumulative-tax check (2026, AZN 8,000): 3% × 2,500 + 10% × 5,500 = 75 + 550 = 
 **Test 7:** Gross AZN 8,000, non-oil/gas private, 2026. → Employee SSPF 786 (at ceiling); unemployment 40; medical 2% × 2,500 + 0.5% × 5,500 = 50 + 27.50 = 77.50; PIT 3% × 2,500 + 10% × 5,500 = 75 + 550 = 625. Net = 8,000 − 786 − 40 − 77.50 − 625 = **AZN 6,471.50**.
 
 - **Test 8** — STOP. Exempt from standard social-insurance rates; escalate to reviewer (R-AZ-SC-2).  _(R-AZ-SC-2)_
+
+## Worked examples
+
+```oa-check
+name: AZ employee SSPF at AZN 8,000 cap check (6 + 10% above 200)
+inputs:
+  gross: 8000
+steps:
+  - above: (gross - 200) * 0.10
+  - employee_sspf: 6 + above
+expected:
+  above: 780.00
+  employee_sspf: 786.00
+```
+
+```oa-check
+name: AZ oil/gas employer SSPF 22% on AZN 4,000 gross
+inputs:
+  gross: 4000
+steps:
+  - employer_sspf: gross * 0.22
+expected:
+  employer_sspf: 880.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| State Tax Service — Azerbaijan | https://www.taxes.gov.az | 2026-10-28 |
+| Central Bank of Azerbaijan | https://www.cbar.az | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

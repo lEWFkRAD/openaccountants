@@ -3,7 +3,7 @@ name: bz-tax-overview
 description: "Source-cited draft: tax overview for Belize (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +27,41 @@ Belize taxes individuals and businesses primarily through the Income and Busines
 - **Capital gains tax** — No separate capital gains tax in Belize  _(Income and Business Tax Act (Cap. 55))_
 - **Annual income tax return deadline** — 31 March following the end of the tax year (unless extended by the Commissioner)  _([Income and Business Tax Act (Cap. 55)](https://bts.gov.bz/))_
 - **GST return frequency / deadline** — Monthly; return and payment due by the 15th of the following month (Form BTS210)  _([General Sales Tax Act](https://bts.gov.bz/file-gst-return/))_
+
+## Worked examples
+
+```oa-check
+name: BZ GST 12.5% on BZD 10,000 taxable supply
+inputs:
+  supply: 10000
+steps:
+  - gst: supply * 0.125
+expected:
+  gst: 1250.00
+```
+
+```oa-check
+name: BZ business tax rates on BZD 500,000 gross receipts by activity
+inputs:
+  receipts: 500000
+steps:
+  - trade: receipts * 0.0175
+  - rents: receipts * 0.03
+  - professions: receipts * 0.06
+expected:
+  trade: 8750.00
+  rents: 15000.00
+  professions: 30000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Income and Business Tax Act (Cap. 55) (cited inline) | https://media.bts.gov.bz/uploads/Income_and_Business_Tax_Act_2011_13d48a3c6e.pdf | 2026-10-28 |
+| General Sales Tax Act — BTS GST FAQ (cited inline) | https://bts.gov.bz/gst-faq/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

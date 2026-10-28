@@ -1,10 +1,10 @@
 ---
 name: belgium-crypto-tax
 description: Use this skill whenever asked about Belgium cryptocurrency or digital asset taxation. Trigger on phrases like "crypto tax Belgium", "Bitcoin Belgium", "cryptocurrency gains Belgium", "crypto income Belgium", "staking Belgium", "mining income Belgium", "NFT tax Belgium", "goede huisvader crypto", "bon père de famille crypto", "speculative income Belgium", "miscellaneous income Belgium", "divers inkomen crypto", "revenus divers crypto", "professional income crypto Belgium", "Ruling Commission crypto", "Service des Décisions Anticipées crypto", "SDA crypto", "Belgian crypto audit", or any question about the income tax, capital gains, or reporting treatment of cryptocurrency, tokens, or digital assets for Belgian tax residents. Covers the three-tier classification system (normal management / speculative / professional), SDA ruling criteria, the 25% wealth threshold, and the 10% capital gains regime in force from 1 January 2026. ALWAYS read this skill before touching any Belgium crypto work.
-version: 1.0
+version: 1.1
 jurisdiction: BE
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Belgium Crypto Tax
 
-## Belgium Crypto / Digital Assets Tax Skill v1.0
+## Belgium Crypto / Digital Assets Tax Skill v1.1
 
 ## Section 1 -- Quick Reference
 
@@ -469,6 +469,45 @@ This skill and its outputs are provided for informational and computational purp
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 > Contributed by Ryan Duguid.
+
+## Worked examples
+
+```oa-check
+name: BE 2026 crypto normal-management gains, 10% after EUR 10,000 exemption
+inputs:
+  gains: 25000
+  exemption: 10000
+steps:
+  - taxable: max(gains - exemption, 0)
+  - tax: taxable * 0.10
+expected:
+  taxable: 15000.00
+  tax: 1500.00
+```
+
+```oa-check
+name: BE speculative crypto gain 33% plus 7% municipal surcharge on EUR 20,000
+inputs:
+  gain: 20000
+steps:
+  - federal: gain * 0.33
+  - surcharge: federal * 0.07
+  - total: federal + surcharge
+expected:
+  federal: 6600.00
+  surcharge: 462.00
+  total: 7062.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| WIB 92 art. 90, al. 1, 1deg and art. 171, 1deg (cited inline) | https://www.ejustice.just.fgov.be/ | 2026-10-28 |
+| Art. 130 WIB 92, income 2026 — Fisconet (cited inline) | https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/796a4fc5-340e-4c89-a72a-88caa804ca96 | 2026-10-28 |
+| Art. 131/134 WIB 92 personal allowance — Fisconet (cited inline) | https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/f3c5d665-cac4-4cbd-b714-bd287f791751 | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

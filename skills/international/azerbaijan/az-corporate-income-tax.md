@@ -3,7 +3,7 @@ name: az-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Azerbaijan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: AZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +26,39 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Final profit tax payment deadline** — 31 March (same date as the return)  _(Tax Code of the Republic of Azerbaijan — https://taxsummaries.pwc.com/azerbaijan/corporate/tax-administration)_
 - **Quarterly advance (current) payments** — Due by the 15th day of the month following each quarter; instalments must total at least 75% of accrued tax  _(Tax Code of the Republic of Azerbaijan — https://taxsummaries.pwc.com/azerbaijan/corporate/tax-administration)_
 - **Corporate property tax** — 1% per annum on the average annual net book value of fixed assets percent  _(Tax Code of the Republic of Azerbaijan — https://taxsummaries.pwc.com/Azerbaijan/Corporate/Other-taxes)_
+
+## Worked examples
+
+```oa-check
+name: AZ corporate profit tax 20% on AZN 500,000 taxable profit
+inputs:
+  taxable_profit: 500000
+steps:
+  - tax: taxable_profit * 0.20
+expected:
+  tax: 100000.00
+```
+
+```oa-check
+name: AZ dividend withholding 5% on AZN 100,000 dividend
+inputs:
+  dividend: 100000
+steps:
+  - wht: dividend * 0.05
+  - net: dividend - wht
+expected:
+  wht: 5000.00
+  net: 95000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Tax Code of the Republic of Azerbaijan (PwC taxsummaries mirror cited inline) | https://taxsummaries.pwc.com/azerbaijan/corporate/taxes-on-corporate-income | 2026-10-28 |
+| Tax Code of the Republic of Azerbaijan — withholding taxes | https://taxsummaries.pwc.com/azerbaijan/corporate/withholding-taxes | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

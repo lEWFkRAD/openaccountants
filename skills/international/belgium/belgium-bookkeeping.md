@@ -1,10 +1,10 @@
 ---
 name: belgium-bookkeeping
 description: Use this skill whenever asked about Belgian bookkeeping, chart of accounts, PCMN/MAR, annual accounts filing, balance sheet or P&L format in Belgium. Trigger on phrases like "Belgian bookkeeping", "PCMN", "MAR", "Plan Comptable Minimum Normalisé", "minimumindeling", "jaarrekening Belgium", "comptes annuels", "NBB filing", "Nationale Bank", "micro-entity Belgium", "Belgian GAAP", "small company Belgium", "chart of accounts Belgium", "boekhoudwetgeving", "WVV", or any question about recording transactions, financial reporting, or accounting standards for Belgian entities.
-version: 1.0
+version: 1.1
 jurisdiction: BE
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -487,6 +487,43 @@ Use the be-social-contributions skill for details
 ## Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
+
+## Worked examples
+
+```oa-check
+name: BE simplified single-entry eligibility at EUR 500,000 turnover
+inputs:
+  turnover_excl_vat: 480000
+  threshold: 500000
+steps:
+  - headroom: threshold - turnover_excl_vat
+  - double_entry_required: max(turnover_excl_vat - threshold, 0)
+expected:
+  headroom: 20000.00
+  double_entry_required: 0.00
+```
+
+```oa-check
+name: BE company car deductibility 120% - 0.5% x CO2 coefficient 1.1 x 120 g/km
+inputs:
+  co2_coefficient: 1.1
+  co2_emissions: 120
+steps:
+  - raw_pct: 120 - 0.5 * co2_coefficient * co2_emissions
+  - deductible_pct: max(min(raw_pct, 100), 50)
+expected:
+  raw_pct: 54.00
+  deductible_pct: 54.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Code des Societes et des Associations (CSA) / Wetboek van Vennootschappen en Verenigingen (WVV); Arrete Royal 29/04/2019 (cited inline) | https://www.ejustice.just.fgov.be/ | 2026-10-28 |
+| SPF Finances / FOD Financien (cited inline) | https://finances.belgium.be | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

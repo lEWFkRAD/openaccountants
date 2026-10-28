@@ -1,10 +1,10 @@
 ---
 name: azerbaijan-tax-optimization
 description: Use this skill whenever asked about reducing tax in Azerbaijan, tax planning, or legal strategies to minimise tax for a small business or entrepreneur in Azerbaijan. Trigger on phrases like "reduce tax Azerbaijan", "simplified tax 2%", "micro business Azerbaijan", "startup exemption", "Azerbaijan dividends 5%", "tech park Azerbaijan", "save tax Azerbaijan", "tax planning Azerbaijan". This skill covers the 2% simplified turnover tax, micro-business and startup exemptions, regional/technology-park incentives, dividend taxation, and the eligibility/anti-avoidance red lines. ALWAYS read this skill before advising on any Azerbaijani tax optimisation.
-version: 0.1
+version: 0.2
 jurisdiction: AZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 category: tax-optimization
@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Azerbaijan Tax Optimization
 
-## Azerbaijan Tax Optimization Skill v0.1
+## Azerbaijan Tax Optimization Skill v0.2
 
 **Tier 2 — research-verified. Sources: State Tax Service, PwC Azerbaijan, Caspian Legal Center, 2025 Tax Code amendments. Figures must agree with `azerbaijan-income-tax.md` / `azerbaijan-social-contributions.md`. NOT yet signed off by an Azerbaijani tax adviser. Aggressive positions are never advised; every suggestion must be reviewed.**
 
@@ -76,6 +76,43 @@ A company paying 5% dividends, or a tech-park entity with CIT exemptions, can be
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a licensed tax adviser in Azerbaijan) before acting upon.
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+## Worked examples
+
+```oa-check
+name: AZ simplified tax 2% vs general 20% on AZN 150,000 turnover-level profit comparison
+inputs:
+  turnover: 150000
+  simplified_rate: 0.02
+  vat_threshold: 200000
+steps:
+  - simplified_tax: turnover * simplified_rate
+  - under_vat_threshold: vat_threshold - turnover
+expected:
+  simplified_tax: 3000.00
+  under_vat_threshold: 50000.00
+```
+
+```oa-check
+name: AZ VAT registration threshold headroom at AZN 200,000
+inputs:
+  turnover: 180000
+  threshold: 200000
+steps:
+  - headroom: threshold - turnover
+  - must_register: max(turnover - threshold, 0)
+expected:
+  headroom: 20000.00
+  must_register: 0.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| openaccountants.com live version (cited inline) | https://openaccountants.com | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

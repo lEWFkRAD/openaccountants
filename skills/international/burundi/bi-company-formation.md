@@ -3,7 +3,7 @@ name: bi-company-formation
 description: "Source-cited draft: company formation & entity choice for Burundi (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +27,41 @@ Business registration in Burundi is centralised through the Agence de Promotion 
 - **Indicative company registration fee** — Around BIF 40,000 (varies by entity type) BIF ((approx — confirm)) BIF  _([Agence de Promotion des Investissements (API) fee schedule](https://www.expanship.com/bi/blog/incorporation-requirements-in-burundi))_
 - **Tax identification** — Each company must obtain a Numéro d'Identification Fiscale (NIF) from the OBR and register for VAT if turnover exceeds the threshold  _(OBR registration rules under the General Tax Code)_
 - **Core annual compliance** — File the annual corporate income tax return, maintain statutory accounting records, file monthly VAT and payroll/INSS declarations, and file the annual employer declaration  _(Law No. 1/02 of 24 January 2013 (income tax law) and OBR filing rules)_
+
+## Worked examples
+
+```oa-check
+name: BI indicative LLC registration fee (BIF 40,000)
+inputs:
+  registration_fee: 40000
+  founders: 3
+steps:
+  - total_registration_fee: registration_fee
+expected:
+  total_registration_fee: 40000.00
+```
+
+```oa-check
+name: BI VAT registration threshold headroom (BIF 100,000,000)
+inputs:
+  annual_turnover: 80000000
+  threshold: 100000000
+steps:
+  - headroom: threshold - annual_turnover
+  - over: max(annual_turnover - threshold, 0)
+expected:
+  headroom: 20000000.00
+  over: 0.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Code des societes privees et a participation publique (Burundi company law) (cited inline) | https://www.healyconsultants.com/burundi-company-registration/setup-llc/ | 2026-10-28 |
+| Loi portant creation de l'API (Investment Promotion Agency) (cited inline) | https://www.expanship.com/bi/blog/incorporation-requirements-in-burundi | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

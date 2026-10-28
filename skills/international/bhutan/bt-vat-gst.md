@@ -3,7 +3,7 @@ name: bt-vat-gst
 description: "Source-cited draft: vat / gst for Bhutan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +26,44 @@ Bhutan did NOT have a VAT/GST in force during income year 2025; the indirect tax
 - **GST return filing frequency** — Periodic (typically monthly) returns under the GST Act and Rules ((approx — confirm frequency in GST Rules))  _(Goods and Services Tax Act of Bhutan 2020 (as amended 2025))_
 - **Reverse charge on imported services** — GST on taxable imports of goods and services is collected, including reverse-charge mechanism on imported services ((approx — confirm reverse-charge scope))  _(Goods and Services Tax Act of Bhutan 2020 (as amended 2025))_
 - **Excise Tax** — Excise Equalization Tax provisions repealed from the GST Act; a standalone Excise Tax Act introduced  _([Excise Tax Act of Bhutan 2025](https://nab.gov.bt/index.php/post/third-reading-of-the-goods-and-services-tax-amendment-bill-of-bhutan-2025))_
+
+## Worked examples
+
+```oa-check
+name: BT GST 5% on Nu 500,000 supply vs originally legislated 7%
+inputs:
+  supply: 500000
+steps:
+  - gst_5: supply * 0.05
+  - gst_7_old: supply * 0.07
+  - difference: gst_7_old - gst_5
+expected:
+  gst_5: 25000.00
+  gst_7_old: 35000.00
+  difference: 10000.00
+```
+
+```oa-check
+name: BT GST on taxable import, 5% of Nu 120,000 value
+inputs:
+  import_value: 120000
+steps:
+  - gst: import_value * 0.05
+  - landed: import_value + gst
+expected:
+  gst: 6000.00
+  landed: 126000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Goods and Services Tax Act of Bhutan 2020 (as amended 2025) (cited inline) | https://sovos.com/regulatory-updates/vat/bhutan-gst-implementation-effective-january-1-2026/ | 2026-10-28 |
+| Sales Tax, Customs and Excise Act of Bhutan 2000 (cited inline) | https://kpmg.com/us/en/taxnewsflash/news/2025/10/tnf-bhutan-new-gst-regime-to-replace-existing-sales-tax-framework.html | 2026-10-28 |
+| National Assembly third reading, GST Amendment Bill 2025 (cited inline) | https://nab.gov.bt/index.php/post/third-reading-of-the-goods-and-services-tax-amendment-bill-of-bhutan-2025 | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

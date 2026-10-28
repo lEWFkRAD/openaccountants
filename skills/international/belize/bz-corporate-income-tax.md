@@ -3,7 +3,7 @@ name: bz-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Belize (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +28,39 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Withholding tax — royalties to non-residents** — 15% percent ((approx — sources vary 15%/25%, confirm))  _(Income and Business Tax Act (Cap. 55))_
 - **Withholding tax — management/technical fees, equipment rental** — 25% percent ((approx — confirm rate))  _(Income and Business Tax Act (Cap. 55))_
 - **Business tax filing frequency** — Monthly business tax returns; annual income tax return due 31 March ((approx — confirm monthly vs annual filing for entity type))  _(Income and Business Tax Act (Cap. 55))_
+
+## Worked examples
+
+```oa-check
+name: BZ business tax 1.75% on BZD 1,000,000 gross receipts vs 3% rents
+inputs:
+  gross_trade: 1000000
+  gross_rent: 1000000
+steps:
+  - trade_tax: gross_trade * 0.0175
+  - rent_tax: gross_rent * 0.03
+expected:
+  trade_tax: 17500.00
+  rent_tax: 30000.00
+```
+
+```oa-check
+name: BZ petroleum income tax 25% on USD 4,000,000 net income
+inputs:
+  net_income: 4000000
+steps:
+  - tax: net_income * 0.25
+expected:
+  tax: 1000000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Income and Business Tax Act (Cap. 55) (cited inline) | https://media.bts.gov.bz/uploads/Income_and_Business_Tax_Act_2011_13d48a3c6e.pdf | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

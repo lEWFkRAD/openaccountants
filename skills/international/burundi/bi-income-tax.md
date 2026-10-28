@@ -3,7 +3,7 @@ name: bi-income-tax
 description: "Source-cited draft: personal income tax for Burundi (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +28,40 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Employment income collection mechanism** — Tax on salaries is withheld at source by the employer (PAYE-equivalent) and remitted monthly  _(Law No. 1/02 of 24 January 2013 (income tax law))_
 - **Monthly salary tax remittance deadline** — 15th of the following month  _(OBR filing rules under the General Tax Code — https://remotepeople.com/countries/burundi/hire-employees/payroll-tax/)_
 - **Annual individual income tax return deadline** — Generally by 31 March of the following year ((approx — confirm))  _(Law No. 1/02 of 24 January 2013 (income tax law))_
+
+## Worked examples
+
+```oa-check
+name: BI monthly PIT scale on BIF 500,000 taxable income
+inputs:
+  income: 500000
+steps:
+  - band2: (min(income, 300000) - 150000) * 0.20
+  - band3: max(income - 300000, 0) * 0.30
+  - tax: band2 + band3
+expected:
+  band2: 30000.00
+  band3: 60000.00
+  tax: 90000.00
+```
+
+```oa-check
+name: BI non-resident 15% flat WHT on BIF 1,000,000 Burundi-source payment
+inputs:
+  payment: 1000000
+steps:
+  - wht: payment * 0.15
+expected:
+  wht: 150000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Law No. 1/02 of 24 January 2013 (income tax law) (cited inline) | https://remotepeople.com/countries/burundi/hire-employees/payroll-tax/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

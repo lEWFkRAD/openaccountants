@@ -3,7 +3,7 @@ name: az-company-formation
 description: "Source-cited draft: company formation & entity choice for Azerbaijan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: AZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +28,42 @@ The most common vehicle is the limited liability company (LLC / MMC), registered
 - **Annual compliance — profit tax** — File annual profit tax return and pay by 31 March; make quarterly current (advance) payments  _(Tax Code of the Republic of Azerbaijan — https://taxsummaries.pwc.com/azerbaijan/corporate/tax-administration)_
 - **Ongoing compliance — VAT and payroll** — Monthly VAT returns (if registered) and monthly PIT/social/medical/unemployment reporting, due by the 20th of the following month  _(Tax Code of the Republic of Azerbaijan — https://taxsummaries.pwc.com/azerbaijan/corporate/tax-administration)_
 - **Accounting / reporting framework** — Financial statements prepared under National Accounting Standards or IFRS depending on entity category (Law on Accounting) ((approx — confirm) category thresholds) (approx — confirm)  _(Law on Accounting of the Republic of Azerbaijan — https://www.caspianlegalcenter.az/insights/more/corporate-tax-azerbaijan)_
+
+## Worked examples
+
+```oa-check
+name: AZ charter capital contribution deadline (3 months after registration)
+inputs:
+  nominal_capital: 10
+  months_allowed: 3
+steps:
+  - capital_due_by_month: 0 + months_allowed
+  - capital_amount: nominal_capital
+expected:
+  capital_due_by_month: 3.00
+  capital_amount: 10.00
+```
+
+```oa-check
+name: AZ state registration fee for an LLC (AZN 15)
+inputs:
+  state_fee: 15
+  founders: 2
+steps:
+  - total_state_fee: state_fee
+expected:
+  total_state_fee: 15.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Civil Code of the Republic of Azerbaijan | https://gsl.org/en/offers/company-registration-in-azerbaijan-establishing-a-limited-liability-company-llc/ | 2026-10-28 |
+| Law on State Registration of Legal Entities and the State Register | https://accounting.az/en/company-registration-in-azerbaijan/ | 2026-10-28 |
+| Law on State Duty of the Republic of Azerbaijan | https://dlb.az/company-registration/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

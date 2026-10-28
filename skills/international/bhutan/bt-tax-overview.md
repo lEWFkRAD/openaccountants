@@ -3,7 +3,7 @@ name: bt-tax-overview
 description: "Source-cited draft: tax overview for Bhutan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +27,39 @@ Bhutan's direct taxes for income year 2025 run under the Income Tax Act of the K
 - **Business Income Tax (BIT) rate** — 30% (unincorporated businesses) ((approx — confirm)) percent  _(Income Tax Act of the Kingdom of Bhutan 2001)_
 - **VAT / GST in 2025** — No GST in force in 2025; indirect tax was Sales Tax. GST at 5% takes effect 1 January 2026  _([Goods and Services Tax Act of Bhutan 2020 (as amended 2025)](https://www.drc.gov.bt/wp-content/uploads/2025/12/Consolidated-GST-Act-of-Bhutan-2020-and-amendment-thereof.pdf))_
 - **Annual income tax filing deadline** — By 31 March following the close of the income year (e.g. 31 March 2026 for income year 2025) ((approx — confirm exact date in DRC annual notification))  _([Income Tax Act of the Kingdom of Bhutan 2001](https://www.drc.gov.bt/notification-tax-filing-for-income-year-2025/))_
+
+## Worked examples
+
+```oa-check
+name: BT PIT top band check — 30% applies above Nu 3,500,000
+inputs:
+  income: 4000000
+steps:
+  - top_band: (income - 3500000) * 0.30
+  - headroom_below_top: 3500000 - 300000
+expected:
+  top_band: 150000.00
+  headroom_below_top: 3200000.00
+```
+
+```oa-check
+name: BT GST 5% from 1 Jan 2026 on Nu 200,000 taxable supply
+inputs:
+  supply: 200000
+steps:
+  - gst: supply * 0.05
+expected:
+  gst: 10000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Income Tax Act of the Kingdom of Bhutan 2001 — DRC (cited inline) | https://www.drc.gov.bt/personal-income-tax-pit/ | 2026-10-28 |
+| Goods and Services Tax Act of Bhutan 2020 as amended 2025 (cited inline) | https://www.drc.gov.bt/wp-content/uploads/2025/12/Consolidated-GST-Act-of-Bhutan-2020-and-amendment-thereof.pdf | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

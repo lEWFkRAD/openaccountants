@@ -3,7 +3,7 @@ name: bz-income-tax
 description: "Source-cited draft: personal income tax for Belize (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +26,40 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Employer withholding (PAYE)** — Employers deduct income tax at source from chargeable employment income and remit to BTS  _(Income and Business Tax Act (Cap. 55))_
 - **Annual return filing deadline** — 31 March following year-end  _([Income and Business Tax Act (Cap. 55)](https://bts.gov.bz/))_
 - **Tax payment deadline** — Balance of tax due with the return by 31 March (approx — confirm payment timing)  _(Income and Business Tax Act (Cap. 55))_
+
+## Worked examples
+
+```oa-check
+name: BZ PIT 25% on chargeable income after BZD 29,000 exemption and 19,600 relief
+inputs:
+  earnings: 60000
+  exempt_threshold: 29000
+  personal_relief: 19600
+steps:
+  - chargeable: max(earnings - exempt_threshold - personal_relief, 0)
+  - tax: chargeable * 0.25
+expected:
+  chargeable: 11400.00
+  tax: 2850.00
+```
+
+```oa-check
+name: BZ non-resident 25% on BZD 100,000 Belize-source income
+inputs:
+  income: 100000
+steps:
+  - tax: income * 0.25
+expected:
+  tax: 25000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Income and Business Tax Act (Cap. 55) (cited inline) | https://media.bts.gov.bz/uploads/Income_and_Business_Tax_Act_2011_13d48a3c6e.pdf | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

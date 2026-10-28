@@ -1,10 +1,10 @@
 ---
 name: azerbaijan-payroll
 description: Use this skill whenever asked about Azerbaijan payroll processing for employed persons. Trigger on phrases like "Azerbaijan payroll", "Azerbaijani salary", "emek haqqi", "PIT withholding Azerbaijan", "income tax of physical persons", "SSPF", "DSMF", "social insurance Azerbaijan", "unemployment insurance contribution", "mandatory medical insurance Azerbaijan", "unified payroll declaration", "net salary Azerbaijan", "gross to net AZN", "salary calculation Azerbaijan", "minimum wage Azerbaijan", "oil/gas sector payroll", "non-oil private sector PIT holiday", or any question about computing employee pay, withholding tax, or social/health/unemployment contributions for Azerbaijan-based employees. This skill covers PIT withheld at source (PAYE-style), State Social Protection Fund (SSPF) contributions, the Unemployment Insurance Contribution (UIC), mandatory medical insurance, the 2025 non-oil private-sector PIT holiday and its 2026 replacement, and the unified monthly payroll declaration. ALWAYS read this skill before processing any Azerbaijan payroll. MUST be loaded alongside payroll-workflow-base.
-version: 0.1
+version: 0.2
 jurisdiction: AZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Azerbaijan Payroll
 
-## Azerbaijan Payroll Skill v0.1
+## Azerbaijan Payroll Skill v0.2
 
 > **Tier 2 — research-verified.** Figures below are sourced from PwC Worldwide Tax Summaries, the State Tax Service of Azerbaijan (taxes.gov.az), Mercans, Caspian Legal Center, APA.az and EY. They have **not** yet been signed off by a licensed Azerbaijani accountant. Any line marked **[RESEARCH GAP — reviewer to confirm]** must be verified against the Tax Code before the output is relied upon.
 
@@ -555,6 +555,43 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 - **P** — Total employer contributions (I + K + M)
 - **Q** — State subsidy applied? (Y/N + %)
 - **R** — Default flags / [RESEARCH GAP] notes
+
+## Worked examples
+
+```oa-check
+name: AZ employee SSPF on AZN 1,000 gross (AZN 6 + 10% above 200)
+inputs:
+  gross: 1000
+steps:
+  - first_band: 0.03 * 200
+  - above: (gross - 200) * 0.10
+  - employee_sspf: 6 + above
+expected:
+  first_band: 6.00
+  above: 80.00
+  employee_sspf: 86.00
+```
+
+```oa-check
+name: AZ employer SSPF on AZN 1,000 gross (AZN 44 + 15% above 200)
+inputs:
+  gross: 1000
+steps:
+  - above: (gross - 200) * 0.15
+  - employer_sspf: 44 + above
+expected:
+  above: 120.00
+  employer_sspf: 164.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| PwC Worldwide Tax Summaries — Azerbaijan (cited inline) | https://taxsummaries.pwc.com/azerbaijan | 2026-10-28 |
+| State Tax Service under the Ministry of Economy | https://www.taxes.gov.az/en | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

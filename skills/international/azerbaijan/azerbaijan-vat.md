@@ -1,10 +1,10 @@
 ---
 name: azerbaijan-vat
 description: Use this skill whenever asked to prepare, review, or classify transactions for an Azerbaijan VAT (EDV) return for any client. Trigger on phrases like "Azerbaijan VAT", "EDV return", "Azerbaijani tax", or any request involving Azerbaijan VAT filing. This skill covers standard EDV payers filing monthly returns. Simplified tax regime and micro-enterprise exemptions are in the refusal catalogue. MUST be loaded alongside vat-workflow-base v0.1 or later. ALWAYS read this skill before touching any Azerbaijan VAT work.
-version: 2.0
+version: 2.1
 jurisdiction: AZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -371,13 +371,51 @@ Per `vat-workflow-base` Section 3 with Azerbaijan-specific box codes.
 
 - **v2.0 (April 2026):** Full rewrite to Malta v2.0 10-section structure.
 
-## End of Azerbaijan VAT (EDV) Skill v2.0
+## End of Azerbaijan VAT (EDV) Skill v2.1
 
 ## Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+## Worked examples
+
+```oa-check
+name: AZ VAT payable, output 18% on 50,000 less input 18% on 20,000
+inputs:
+  sales_net: 50000
+  purchases_net: 20000
+steps:
+  - output: sales_net * 0.18
+  - input: purchases_net * 0.18
+  - payable: output - input
+expected:
+  output: 9000.00
+  input: 3600.00
+  payable: 5400.00
+```
+
+```oa-check
+name: AZ VAT-extract from VAT-inclusive AZN 11,800 at 18%
+inputs:
+  gross: 11800
+steps:
+  - net: gross / 1.18
+  - vat: gross - net
+expected:
+  net: 10000.00
+  vat: 1800.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| State Tax Service — Azerbaijan (filing portal cited inline) | https://www.taxes.gov.az | 2026-10-28 |
+| Central Bank of Azerbaijan | https://www.cbar.az | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

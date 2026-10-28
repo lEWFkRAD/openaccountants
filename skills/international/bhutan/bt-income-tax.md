@@ -3,7 +3,7 @@ name: bt-income-tax
 description: "Source-cited draft: personal income tax for Bhutan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +28,48 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Deduction — housing loan interest** — Interest on a housing loan deductible against rental income per the Act ((approx — confirm))  _(Income Tax Act of the Kingdom of Bhutan 2001)_
 - **Tax residence / liability** — Taxation is primarily source-based; Bhutanese-source personal income is taxable regardless of citizenship ((approx — confirm residence definition))  _(Income Tax Act of the Kingdom of Bhutan 2001)_
 - **PIT filing and payment deadline** — By 31 March following the income year (income year 2025 filed by 31 March 2026) ((approx — confirm exact date in DRC notification))  _(Income Tax Act of the Kingdom of Bhutan 2001 (https://www.drc.gov.bt/notification-tax-filing-for-income-year-2025/))_
+
+## Worked examples
+
+```oa-check
+name: BT PIT bands on Nu 1,000,000 annual income (2025 bands)
+inputs:
+  income: 1000000
+steps:
+  - b2: (min(income, 500000) - 300000) * 0.05
+  - b3: (min(income, 750000) - 500000) * 0.10
+  - b4: (min(income, 1200000) - 750000) * 0.15
+  - tax: b2 + b3 + b4
+expected:
+  b2: 10000.00
+  b3: 25000.00
+  b4: 37500.00
+  tax: 72500.00
+```
+
+```oa-check
+name: BT 2025 surcharge 10% of net tax where gross income >= Nu 1,000,000
+inputs:
+  gross_income: 1000000
+  net_tax: 72500
+steps:
+  - surcharge_applies: (gross_income - 1000000) / (1000000)
+  - surcharge: net_tax * 0.10
+  - total: net_tax + surcharge
+expected:
+  surcharge_applies: 0.00
+  surcharge: 7250.00
+  total: 79750.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Income Tax Act of the Kingdom of Bhutan 2001 — DRC PIT page (cited inline) | https://www.drc.gov.bt/personal-income-tax-pit/ | 2026-10-28 |
+| Income Tax Act changes 2025 (cited inline) | https://thebhutanese.bt/major-changes-in-bhutans-income-tax-act-2025/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

@@ -3,7 +3,7 @@ name: az-tax-overview
 description: "Source-cited draft: tax overview for Azerbaijan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: AZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +26,42 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **VAT in force** — Yes — standard VAT rate is 18% percent percent  _(Tax Code of the Republic of Azerbaijan, https://taxsummaries.pwc.com/Azerbaijan/Corporate/Other-taxes)_
 - **Annual profit tax return deadline** — 31 March of the year following the tax year  _(Tax Code of the Republic of Azerbaijan, https://taxsummaries.pwc.com/azerbaijan/corporate/tax-administration)_
 - **VAT return deadline** — Monthly, by the 20th of the month following the reporting month  _(Tax Code of the Republic of Azerbaijan, https://taxsummaries.pwc.com/azerbaijan/corporate/tax-administration)_
+
+## Worked examples
+
+```oa-check
+name: AZ standard-regime PIT, AZN 4,000 monthly salary
+inputs:
+  salary: 4000
+steps:
+  - band1: min(salary, 2500) * 0.14
+  - band2: max(salary - 2500, 0) * 0.25
+  - tax: band1 + band2
+expected:
+  band1: 350.00
+  band2: 375.00
+  tax: 725.00
+```
+
+```oa-check
+name: AZ VAT 18% on AZN 10,000 net sale
+inputs:
+  net_sale: 10000
+steps:
+  - vat: net_sale * 0.18
+expected:
+  vat: 1800.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Tax Code of the Republic of Azerbaijan (personal income) | https://taxsummaries.pwc.com/azerbaijan/corporate/taxes-on-personal-income | 2026-10-28 |
+| Tax Code of the Republic of Azerbaijan (corporate income) | https://taxsummaries.pwc.com/azerbaijan/corporate/taxes-on-corporate-income | 2026-10-28 |
+| Tax Code of the Republic of Azerbaijan (other taxes, VAT 18%) | https://taxsummaries.pwc.com/Azerbaijan/Corporate/Other-taxes | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

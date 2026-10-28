@@ -3,7 +3,7 @@ name: bt-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Bhutan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +29,48 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Loss carry-forward** — Tax losses carried forward (extended to indefinite carry-forward under the Income Tax Act 2025) ((approx — confirm 2025 carry-forward period))  _(Income Tax Act of the Kingdom of Bhutan 2001)_
 - **Presumptive / small business regime** — Simplified presumptive tax for businesses with turnover under Nu 5 million (introduced under the Income Tax Act 2025; professionals excluded)  _([Income Tax Act of Bhutan 2025](https://thebhutanese.bt/major-changes-in-bhutans-income-tax-from-2026-explained/))_
 - **CIT / BIT filing and payment deadline** — By 31 March following the close of the income year ((approx — confirm exact date))  _([Income Tax Act of the Kingdom of Bhutan 2001](https://www.drc.gov.bt/notification-tax-filing-for-income-year-2025/))_
+
+## Worked examples
+
+```oa-check
+name: BT CIT 30% (2025) vs 22% (from 2026) on Nu 1,000,000 profit
+inputs:
+  profit: 1000000
+steps:
+  - tax_2025: profit * 0.30
+  - tax_2026: profit * 0.22
+  - saving: tax_2025 - tax_2026
+expected:
+  tax_2025: 300000.00
+  tax_2026: 220000.00
+  saving: 80000.00
+```
+
+```oa-check
+name: BT TDS on dividends 10% and contract payments 2%/3%
+inputs:
+  dividend: 500000
+  contract_bhutanese: 200000
+  contract_foreign: 200000
+steps:
+  - div_tds: dividend * 0.10
+  - contract_tds_local: contract_bhutanese * 0.02
+  - contract_tds_foreign: contract_foreign * 0.03
+expected:
+  div_tds: 50000.00
+  contract_tds_local: 4000.00
+  contract_tds_foreign: 6000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Income Tax Act of the Kingdom of Bhutan 2001 (cited inline) | https://thebhutanese.bt/how-pit-bit-and-cit-reductions-in-the-income-tax-bill-impact-you/ | 2026-10-28 |
+| Income Tax Act of Bhutan 2025 (cited inline) | https://thebhutanese.bt/major-changes-in-bhutans-income-tax-act-2025/ | 2026-10-28 |
+| DRC TDS provisions (cited inline) | https://www.drc.gov.bt/what-is-tds/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

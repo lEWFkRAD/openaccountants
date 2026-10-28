@@ -1,10 +1,10 @@
 ---
 name: am-company-formation
 description: "Use for ordinary Armenian limited liability company formation in 2026, founder and foreign-document requirements, charter capital, contributions, registration periods and first compliance steps. Covers natural and legal founders, a sole founder, paper and information-system routes, tax-regime statements and beneficial-owner filing dates. Trigger on Armenia LLC, company registration, share capital, founder documents, beneficial ownership or incorporation timing. Distinguishes a statutory processing period from an accepted application and company registration from permission for a regulated activity. Checked against the law; state duties, complete electronic identification, AML classification, accounts and sector-specific implementation remain to be confirmed. No named Armenian professional has attested this Guide."
-version: 0.2
+version: 0.3
 jurisdiction: AM
 tax_year: 2026
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 category: formation
@@ -12,7 +12,7 @@ tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# Armenia LLC formation and first compliance steps v0.2
+# Armenia LLC formation and first compliance steps v0.3
 
 ## When this guide applies
 
@@ -59,6 +59,32 @@ The read dates above are retained from the preserved draft and its initial sourc
 **Not yet confirmed:** Complete state-duty, electronic-identity, AML, accounts and regulated-sector implementation; actual filing acceptance and named professional attestation.
 
 > Contributed by Michael Cutajar.
+
+## Worked examples
+
+```oa-check
+name: Armenia first-filing deadlines after LLC registration (20/40-day rules)
+inputs:
+  registration_day: 1
+steps:
+  - regime_statement_deadline: registration_day + 20
+  - beneficial_owner_declaration_deadline: registration_day + 40
+expected:
+  regime_statement_deadline: 21.00
+  beneficial_owner_declaration_deadline: 41.00
+```
+
+```oa-check
+name: Armenia ordinary VAT on a net sale (20%)
+inputs:
+  net_sale: 100000
+steps:
+  - vat: net_sale * 0.20
+  - gross: net_sale + vat
+expected:
+  vat: 20000.00
+  gross: 120000.00
+```
 
 <!-- openaccountants-cta-block -->
 

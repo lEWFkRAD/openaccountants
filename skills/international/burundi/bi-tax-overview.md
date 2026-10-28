@@ -3,7 +3,7 @@ name: bi-tax-overview
 description: "Source-cited draft: tax overview for Burundi (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +26,41 @@ Burundi taxes are administered by the Office Burundais des Recettes (OBR). The f
 - **Standard VAT rate** — 18% %  _(Loi relative à la Taxe sur la Valeur Ajoutée (VAT Law))_
 - **Withholding tax on dividends** — 15% %  _([Law No. 1/02 of 24 January 2013 (income tax law)](https://remotepeople.com/countries/burundi/hire-employees/payroll-tax/))_
 - **Monthly payroll/VAT remittance deadline** — 15th of the month following the taxable period  _([OBR filing rules under the General Tax Code](https://remotepeople.com/countries/burundi/hire-employees/payroll-tax/))_
+
+## Worked examples
+
+```oa-check
+name: BI headline rates check — 30% CIT on BIF 5,000,000 and 18% VAT on BIF 1,000,000
+inputs:
+  profit: 5000000
+  net_sale: 1000000
+steps:
+  - cit: profit * 0.30
+  - vat: net_sale * 0.18
+expected:
+  cit: 1500000.00
+  vat: 180000.00
+```
+
+```oa-check
+name: BI dividend WHT 15% on BIF 1,000,000
+inputs:
+  dividend: 1000000
+steps:
+  - wht: dividend * 0.15
+expected:
+  wht: 150000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Law No. 1/02 of 24 January 2013 (income tax law) (cited inline) | https://remotepeople.com/countries/burundi/hire-employees/payroll-tax/ | 2026-10-28 |
+| Loi relative a la Taxe sur la Valeur Ajoutee (VAT Law) (cited inline) | https://www.eac.int/financial/eac-tax-matrices/value-added-tax | 2026-10-28 |
+| Office Burundais des Recettes (OBR) (cited inline) | https://www.obr.bi | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 
