@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:37:52+00:00",
+ "generated_at": "2026-10-28T21:39:39+00:00",
  "counts": {
   "guides": 2523,
   "jurisdictions": 274,
@@ -5824,7 +5824,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bi-corporate-income-tax",
@@ -5836,7 +5836,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bi-income-tax",
@@ -5848,7 +5848,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bi-payroll-social",
@@ -5860,7 +5860,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bi-tax-overview",
@@ -5872,7 +5872,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bi-vat-gst",
@@ -5884,7 +5884,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bvi-tax",
