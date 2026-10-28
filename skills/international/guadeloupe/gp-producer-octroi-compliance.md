@@ -2,10 +2,10 @@
 name: gp-producer-octroi-compliance
 description: >
   Guadeloupe reference for independent producers assessing internal octroi de mer liability and recurring compliance. Explains the prior-year production-turnover threshold, inclusive boundary, start-up proration, identification timing and quarterly electronic returns, with worked eligibility examples. Uses the 2026 statutory threshold and the official July 2025 customs circular, distinguishing production activity from resale and services. Product rates, local exemptions, deduction entitlements and detailed classification are outside this initial Guide. It does not establish complete Guadeloupe tax coverage, and independent source review and transaction-specific amendment checks remain necessary before operational use.
-version: 0.1
+version: "0.2"
 jurisdiction: GP
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -55,6 +55,37 @@ Operationally, reconcile the sales ledger to the return, separating product code
 Source-cited draft, not accountant-attested. Rates, exemptions, input deductions, penalties, general VAT, payroll and income taxes remain outside scope. The 2026 threshold was checked against official statutory retrieval; a complete review of amendments to every procedure in the 2025 circular remains outstanding.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: Octroi de mer regional rate is capped at 5 percent
+inputs:
+  proposed_regional_rate: 7
+  cap: 5
+steps:
+  - allowed: min(proposed_regional_rate, cap)
+expected:
+  allowed: 5.00
+```
+```oa-check
+name: Cumulated octroi example 17% external + 3% regional
+inputs:
+  external: 17
+  regional: 3
+steps:
+  - cumulated: external + regional
+expected:
+  cumulated: 20.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Collectivite Territoriale de Guyane — Le tarif et les exonérations d’octroi de mer en Guyane (regional octroi capped at 5%; cumulated rates 0-60%) | https://www.ctguyane.fr/octroi-de-mer-tarif-exoneration/ | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

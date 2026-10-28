@@ -2,10 +2,10 @@
 name: gf-import-octroi-and-vat
 description: >
   French Guiana goods-import reference for businesses and other importers using the July 2026 territorial octroi de mer tariff. Distinguishes VAT non-application from external and regional octroi, explains customs-value calculations and separates import rates from local-production rates. Includes verified tariff examples, evidence needed before claiming exemptions, and the date boundary for the revised tariff. Covers goods rather than services, and does not determine customs classification, origin preferences, valuation adjustments or every relief. This source-cited draft requires independent review and transaction-specific confirmation before a customs declaration is filed.
-version: 0.1
+version: "0.2"
 jurisdiction: GF
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -61,6 +61,38 @@ Confirm the transaction date, external column, exact code, customs value and bot
 Source-cited draft awaiting independent review. Services, income taxes, full exemption procedures, local-production liability, penalties, origin and valuation disputes are outside scope. The complete post-July amendment chain has not been independently reviewed. VAT code recodification and precise invoice wording require separate current-law verification.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: Cumulated octroi rate example — 17% external + 3% regional = 20%
+inputs:
+  external: 17
+  regional: 3
+steps:
+  - cumulated: external + regional
+expected:
+  cumulated: 20.00
+```
+```oa-check
+name: Regional octroi is capped at 5% in Guyane
+inputs:
+  proposed: 8
+  cap: 5
+steps:
+  - allowed: min(proposed, cap)
+expected:
+  allowed: 5.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Collectivite Territoriale de Guyane — Le tarif et les exonérations d’octroi de mer en Guyane (taux cumule 0-60%, regional cap 5%, TGOM Deliberation AP-2021-31; AP-2026-47 applicable 1 Jul 2026) | https://www.ctguyane.fr/octroi-de-mer-tarif-exoneration/ | 2026-10-28 |
+| impots.gouv.fr — TVA DOM (VAT not applicable in Guyane, CGI art. 294-1) | https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

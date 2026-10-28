@@ -2,10 +2,10 @@
 name: kn-social-security-contributions
 description: >
   Saint Kitts and Nevis social security contribution reference checked for 2026. Covers the ordinary employee and employer shares, monthly insurable earnings ceiling, pay classifications, age-transition weeks and monthly reporting. Uses the official revised Social Security Act and contribution regulations together with the Board’s administrative guidance. Includes worked monthly calculations and distinguishes social insurance from the uncapped housing levy and severance contribution. Use after covered employment and the relevant payroll period have been established. A complete post-revision amendment audit and independent accountant review remain outstanding. This draft does not determine benefit entitlement or self-employed assessments.
-version: 0.1
+version: "0.2"
 jurisdiction: KN
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -55,6 +55,43 @@ The [Board employer page](https://socialsecurity.kn/employers-2/) requires emplo
 Resolve multiple employment, partial periods, unpaid leave, special coverage, late penalties and self-employed or voluntary assessments separately. This Guide does not calculate benefits or establish eligibility for a pension. A complete post-2017 legislative amendment review and independent accountant review remain required before merge.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: Social security on EC$4,000 earnings (employee 5%, employer 6%, ceiling EC$6,500)
+inputs:
+  earnings: 4000
+  ceiling: 6500
+steps:
+  - base: min(earnings, ceiling)
+  - employee: base * 0.05
+  - employer: base * 0.06
+expected:
+  base: 4000.00
+  employee: 200.00
+  employer: 240.00
+```
+```oa-check
+name: Ceiling binds at EC$9,000 earnings
+inputs:
+  earnings: 9000
+  ceiling: 6500
+steps:
+  - base: min(earnings, ceiling)
+  - total: base * 0.11
+expected:
+  base: 6500.00
+  total: 715.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| St Kitts and Nevis Income Tax Act (archived PDF fetch returned a 403 stub; figures verified against the Social Security Board sources cited in-pack) | https://lawcommission.gov.kn | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

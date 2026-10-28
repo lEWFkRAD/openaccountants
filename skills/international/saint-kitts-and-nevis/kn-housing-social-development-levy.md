@@ -2,10 +2,10 @@
 name: kn-housing-social-development-levy
 description: >
   Saint Kitts and Nevis payroll levy reference checked for 2026. Covers the Housing and Social Development Levy exemption thresholds introduced in July 2025, the monthly employee calculation, employer contribution and worked boundary examples. Use for ordinary payroll levy deductions after the applicable wage base is established. Explains why the exemption threshold is not a tax-free allowance and why social security ceilings must not cap this levy. Separates historical December bonus relief from current ordinary payroll. Legislative amendment reconciliation, special payments and independent accountant review remain outstanding; this is a source-cited draft.
-version: 0.1
+version: "0.2"
 jurisdiction: KN
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -62,6 +62,39 @@ The Board's [18 December 2025 notice](https://socialsecurity.kn/press/treatment-
 This Guide does not settle nonstandard wage components, irregular payroll, statutory exemptions outside the stated cutoff, penalties or a December 2026 special measure. The amended levy legislation and any later instruments need reconciliation before merge. Independent accountant review is pending.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: Employee HSDL on monthly wages EC$4,000 (3.5% band)
+inputs:
+  wages: 4000
+  cutoff: 2253.33
+steps:
+  - levy: min(max(wages - 0, 0) * 0.035, wages * 0.035)
+  - zero_if_below: max(wages - cutoff, 0) * 0.035
+expected:
+  levy: 140.00
+  zero_if_below: 61.13
+```
+```oa-check
+name: Employer HSDL 3% on EC$4,000 wages
+inputs:
+  wages: 4000
+steps:
+  - employer_levy: wages * 0.03
+expected:
+  employer_levy: 120.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| St Kitts and Nevis Income Tax Act (archived PDF fetch returned a 403 stub; figures verified against secondary sources instead) | https://lawcommission.gov.kn | 2026-10-28 |
+| US State Dept 2025 Investment Climate Statement — St Kitts and Nevis (no personal income tax; HSDL employer 3%) | https://www.state.gov/reports/2025-investment-climate-statements/saint-kitts-and-nevis | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

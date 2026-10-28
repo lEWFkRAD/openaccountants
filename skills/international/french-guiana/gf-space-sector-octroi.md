@@ -2,10 +2,10 @@
 name: gf-space-sector-octroi
 description: >
   French Guiana space-sector import relief reference for operations from August 2026 under territorial deliberations AP-2026-56 and AP-2026-57. Explains the residual octroi rate, continuing regional levy, activity and goods annex requirements, exclusive operational use, service-operator evidence and restrictions on combining exemptions. Includes an illustrative computation and exclusion cases for ordinary logistics and goods with alternative uses. This is a narrow source-cited draft, not automatic eligibility for every space supplier or a complete customs filing manual. Independent review, exact goods classification and current amendment checks remain necessary before application.
-version: 0.1
+version: "0.2"
 jurisdiction: GF
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -53,6 +53,38 @@ A listed mast for an eligible activity still fails this regime if it has an alte
 Source-cited draft awaiting independent review. Only the cited illustrative annex entry has been visually verified here; no full classification crosswalk is claimed. Verify the exact row and current amendments for the transaction. Detailed customs filing codes, guarantees, reassessment and appeal procedures are outside this Guide.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: Octroi de mer relief check — 1,000,000 EUR of qualifying imports at 0% relief rate
+inputs:
+  imports: 1000000
+steps:
+  - octroi_at_zero: imports * 0
+  - octroi_at_three_pct: imports * 0.03
+expected:
+  octroi_at_zero: 0.00
+  octroi_at_three_pct: 30000.00
+```
+```oa-check
+name: Regional octroi cap 5% on 2,000,000 EUR base
+inputs:
+  base: 2000000
+  cap_pct: 5
+steps:
+  - max_regional: base * cap_pct / 100
+expected:
+  max_regional: 100000.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Collectivite Territoriale de Guyane — Le tarif et les exonérations d’octroi de mer en Guyane (economic-activity exemptions; regional cap 5%) | https://www.ctguyane.fr/octroi-de-mer-tarif-exoneration/ | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

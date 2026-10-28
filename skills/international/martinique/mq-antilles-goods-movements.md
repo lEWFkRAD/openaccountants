@@ -2,10 +2,10 @@
 name: mq-antilles-goods-movements
 description: >
   Martinique goods-movement reference for businesses dispatching or receiving goods within the Guadeloupe–Martinique single fiscal territory. Explains the distinction between ordinary cleared goods and suspensive regimes, accompanying evidence, the monthly dispatch declaration and its working-day deadline. Separates sold goods, own-stock movements and temporary movements, and identifies the records needed to reconcile dispatches. This narrow Guide uses the official July 2025 customs circular rather than assuming that no new customs clearance means no reporting. Product taxation, special excise controls, Guyane trade and complete territory coverage require separate work and independent review.
-version: 0.1
+version: "0.2"
 jurisdiction: MQ
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -51,6 +51,35 @@ Reconcile movement month, departure office, arrival evidence, sale versus own-st
 Source-cited draft awaiting independent review. Current submission channels, any amendments after the 2025 circular, penalties, excise-specific requirements, product rates and VAT returns remain separate checks. For producer-threshold obligations, see the [Guadeloupe producer Guide](../guadeloupe/gp-producer-octroi-compliance.md). This is not comprehensive Martinique tax coverage.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: VAT applies in Martinique at 8.5% on 100,000 EUR goods movement
+inputs:
+  value: 100000
+steps:
+  - vat: value * 0.085
+expected:
+  vat: 8500.00
+```
+```oa-check
+name: Octroi de mer 20% cumulated on 50,000 EUR import into Martinique
+inputs:
+  cif: 50000
+steps:
+  - octroi: cif * 0.20
+expected:
+  octroi: 10000.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| impots.gouv.fr — Quels sont les differents taux de TVA applicables dans les DOM (modifie 13/10/2026: 8.5% normal, 2.1% reduit, 1.75%, 1.05%; TVA non applicable en Guyane/Mayotte) | https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

@@ -2,10 +2,10 @@
 name: mf-company-tax-rates-and-returns
 description: >
   French Saint-Martin company-tax reference for taxpayers already established as liable to local corporate income tax. Covers the ordinary rate, conditional small-company profit band, turnover and ownership tests, short-period adjustments, ordinary loss carryforward and separate return and balance-payment deadlines. Includes threshold and arithmetic examples using the official code consolidated through June 2026. Identifies an unresolved instalment-rate cross-reference rather than inventing a payment formula. Residence, territorial entitlement, special gains, group restructuring, incentives and full tax-base adjustments require separate analysis; this is a source-cited draft awaiting independent review, not comprehensive coverage.
-version: 0.2
+version: "0.3"
 jurisdiction: MF
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -82,6 +82,37 @@ Confirm MF rather than Dutch Sint Maarten, local liability, financial-year openi
 Source-cited draft awaiting independent source and professional review. Detailed residence, tax-base adjustments, distributions, related-party rules, special gains, incentives and the instalment ambiguity remain outside the completed computation scope. This is not a comprehensive company-tax pack or individualized filing advice.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: IS exemption turnover test — EUR 7,630,000 fails the strict below-limit test
+inputs:
+  turnover: 7630000
+  limit: 7630000
+steps:
+  - passes: max(limit - turnover, 0)
+expected:
+  passes: 0.00
+```
+```oa-check
+name: 75% ownership minimum is satisfied at exactly 75 percent
+inputs:
+  ownership_pct: 75
+  minimum_pct: 75
+steps:
+  - meets: min(max(ownership_pct - minimum_pct, 0) + 1, 1)
+expected:
+  meets: 1.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Centre des Finances Publiques de Saint-Martin (impots-saint-martin.fr) — TGCA, IS and DLCP declaration forms; bank-transfer-only payment from 1 Jan 2026; Deliberation CT 36-02-2025 (tax rates and schedules) | https://www.impots-saint-martin.fr | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

@@ -3,7 +3,8 @@ name: ky-tax-overview
 description: "Source-cited draft: tax overview for Cayman Islands (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: KY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +28,35 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Inheritance, estate, gift and net wealth taxes** — None  _([PwC Worldwide Tax Summaries — Cayman Islands (Overview), https://taxsummaries.pwc.com/cayman-islands](https://taxsummaries.pwc.com/cayman-islands))_
 - **Annual tax filing** — No tax returns, forms, or procedures are required for tax compliance purposes (corporate annual returns and economic-substance/CRS/FATCA reporting still apply)  _([PwC Worldwide Tax Summaries — Cayman Islands (Tax administration), https://taxsummaries.pwc.com/cayman-islands/individual/tax-administration](https://taxsummaries.pwc.com/cayman-islands/individual/tax-administration))_
 - **Company annual return / fee deadline** — Annual return and government annual fee due in January each year following the year of registration  _([Companies Act (2025 Revision) (Cayman Islands), https://www.ciregistry.ky/fees/](https://www.ciregistry.ky/fees/))_
+
+
+## Recomputing examples
+
+```oa-check
+name: No income tax on CI$250,000 employment income
+inputs:
+  income: 250000
+steps:
+  - tax: income * 0
+expected:
+  tax: 0.00
+```
+```oa-check
+name: No withholding on CI$1,000,000 dividend
+inputs:
+  dividend: 1000000
+steps:
+  - withheld: dividend * 0
+expected:
+  withheld: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Cayman Islands Department for International Tax Cooperation (DITC) portal — CRS, CbCR, CARF, Economic Substance, EOIR, FATCA frameworks | https://ditcportal.ky | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 
