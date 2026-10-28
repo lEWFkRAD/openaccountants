@@ -14,8 +14,8 @@ jurisdiction: US-AL
 category: corporate
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - al-income-tax
@@ -40,7 +40,7 @@ Source-cited draft, run of 27 October 2026. Alabama taxes corporations at a **fl
 
 | Item | Rate / base | Source |
 |---|---|---|
-| Corporate income tax | **flat 6.5%** of annual net income | ALDOR corporate page, read 2026-10-27 |
+| Corporate income tax | **flat 6.5%** of annual net income | ALDOR corporate page, read 2026-10-27; re-verified 2026-10-28 verbatim: "Rate 6.5 percent of annual net income with a deduction allowed for federal income tax paid or accrued" (Amendment 662, ratified 2000-06-19, effective calendar 2001) |
 | Base modification | **deduction for federal income tax paid or accrued** | ALDOR page (Amendment 212/662 text), read 2026-10-27 |
 | Apportionment | single sales factor (TYB ≥ 2021-01-01) | ALDOR page, read 2026-10-27 |
 | Minimum tax | **needs-sources** (Form 20C not retrievable this run) | — |

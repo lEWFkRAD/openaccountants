@@ -3,7 +3,7 @@ name: alabama-income-tax
 description: "Alabama Form 40 (full-year resident): how I do it"
 jurisdiction: US-AL
 tax_year: 2025
-last_updated: 2026-08-06
+last_updated: 2026-10-28
 authored_by: Anthony Bandura
 review_status: pending_review
 trust_label: Accountant-authored
