@@ -14,8 +14,8 @@ jurisdiction: BM
 category: transfer-pricing
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-23
-version: 0.1
+last_updated: 2026-10-28
+version: "0.2"
 verified_by: pending
 ---
 
@@ -159,6 +159,41 @@ expected:
 - [CITA — Country-by-Country Reporting](https://www.cita.bm/country-by-country-reporting-cbcr) — read 2026-10-23 (page renders client-side; details needs-sources).
 - [CITA — Filing & Payment Deadlines](https://www.cita.bm/filing-payment-deadlines) — read 2026-10-23 (page renders client-side).
 - [gov.bm — Corporate Income Tax information](https://www.gov.bm/roc/corporate-income-tax-information) — read 2026-10-23.
+
+
+## Recomputing examples
+
+```oa-check
+name: CbCR threshold EUR 750M — group at EUR 800M files
+inputs:
+  revenue_eur: 800000000
+  threshold: 750000000
+steps:
+  - over: revenue_eur - threshold
+  - must_file: min(max(over, 0), 1)
+expected:
+  over: 50000000.00
+  must_file: 1.00
+```
+```oa-check
+name: Group at EUR 700M is under the CbCR threshold
+inputs:
+  revenue_eur: 700000000
+  threshold: 750000000
+steps:
+  - over: max(revenue_eur - threshold, 0)
+  - must_file: min(over, 1)
+expected:
+  over: 0.00
+  must_file: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Government of Bermuda — Bermuda Corporate Income Tax (CIT effective 1 Jan 2025; CITA administers CbCR) | https://www.gov.bm/CIT | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

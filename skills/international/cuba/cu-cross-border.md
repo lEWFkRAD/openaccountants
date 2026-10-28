@@ -12,8 +12,8 @@ jurisdiction: CU
 category: cross-border
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-23
-version: 0.1
+last_updated: 2026-10-28
+version: "0.2"
 verified_by: pending
 ---
 
@@ -125,6 +125,36 @@ expected:
 - [Ministerio de Economía y Planificación](https://www.mep.gob.cu/) — read 2026-10-23.
 - [MINJUS — Registro Mercantil](https://www.minjus.gob.cu/es/servicios/registro-mercantil) — read 2026-10-23.
 - Pack skills carried: `cu-tax-overview`, `cu-corporate-income-tax`, `cu-income-tax` (tier 2, read 2026-07-13).
+
+
+## Recomputing examples
+
+```oa-check
+name: Foreign-investment joint venture CIT 15% on profit 1,000,000 CUP
+inputs:
+  profit: 1000000
+steps:
+  - tax: profit * 0.15
+expected:
+  tax: 150000.00
+```
+```oa-check
+name: Dividend advance withholding 5% on 200,000 CUP distributed to MIPYME partner
+inputs:
+  dividend: 200000
+steps:
+  - withheld: dividend * 0.05
+expected:
+  withheld: 10000.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| MEP (Ministerio de Economía y Planificación) — En claves, sistema de impuestos para MIPYMES y CNA | https://www.mep.gob.cu/en/node/1381 | 2026-10-28 |
+| Gaceta Oficial de la República de Cuba (normative gazette portal) | https://www.gacetaoficial.gob.cu | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

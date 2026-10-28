@@ -3,7 +3,8 @@ name: bm-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Bermuda (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BM
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +28,39 @@ Historically Bermuda imposed no corporate income tax. The Corporate Income Tax A
 - **Withholding tax on dividends** — 0% (none) percent  _(PwC Worldwide Tax Summaries — Bermuda, Corporate withholding taxes (https://taxsummaries.pwc.com/bermuda/corporate/other-taxes))_
 - **Withholding tax on interest & royalties** — 0% (none) percent  _(PwC Worldwide Tax Summaries — Bermuda, Corporate withholding taxes (https://taxsummaries.pwc.com/bermuda/corporate/other-taxes))_
 - **CIT filing & payment** — In-scope entities must register and file a CIT return; instalment/estimated payments apply during the fiscal year per the administrative regulations ((confirm precise filing and payment dates))  _(Corporate Income Tax Act 2023 and Corporate Income Tax administrative regulations (https://www.ey.com/en_gl/technical/tax-alerts/bermuda-releases-final-cit-administrative-regulations))_
+
+
+## Recomputing examples
+
+```oa-check
+name: CIT on in-scope Bermuda constituent entity, taxable income BMD 10,000,000
+inputs:
+  income: 10000000
+steps:
+  - cit: income * 0.15
+expected:
+  cit: 1500000.00
+```
+```oa-check
+name: Out-of-scope MNE group (revenue EUR 700M) pays no CIT
+inputs:
+  revenue_eur: 700000000
+  threshold: 750000000
+steps:
+  - in_scope: max(revenue_eur - threshold, 0)
+  - cit: in_scope * 0.15
+expected:
+  in_scope: 0.00
+  cit: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Government of Bermuda — Bermuda Corporate Income Tax (CIT effective 1 Jan 2025; CITA administers) | https://www.gov.bm/CIT | 2026-10-28 |
+| CITA Bermuda — Filing & Payment Deadlines (instalment dates) | https://www.cita.bm/filing-payment-deadlines | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

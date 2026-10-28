@@ -3,7 +3,8 @@ name: cu-vat-gst
 description: "Source-cited draft: vat / gst for Cuba (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CU
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -23,6 +24,36 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Reverse charge / input credit** — No input-credit or reverse-charge mechanism exists, since these are turnover taxes, not a VAT (approx — confirm)  _(Ley No. 113 del Sistema Tributario)_
 - **Filing / remittance frequency** — Sales and services tax are typically declared and remitted monthly to ONAT (approx — confirm)  _(Ley No. 113 del Sistema Tributario)_
 - **Registration threshold** — Liability attaches to registered economic actors (TCP, MIPYME, state entities) carrying on taxable sales/services; there is no separate VAT-style turnover registration threshold (approx — confirm)  _(Ley No. 113 del Sistema Tributario)_
+
+
+## Recomputing examples
+
+```oa-check
+name: Retail sales tax 10% on 10,000 CUP sale
+inputs:
+  sale: 10000
+steps:
+  - tax: sale * 0.10
+expected:
+  tax: 1000.00
+```
+```oa-check
+name: Wholesale sales tax 2% on 100,000 CUP wholesale sale
+inputs:
+  sale: 100000
+steps:
+  - tax: sale * 0.02
+expected:
+  tax: 2000.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| MEP (Ministerio de Economía y Planificación) — En claves, sistema de impuestos para MIPYMES y CNA | https://www.mep.gob.cu/en/node/1381 | 2026-10-28 |
+| Gaceta Oficial de la República de Cuba (normative gazette portal) | https://www.gacetaoficial.gob.cu | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

@@ -3,7 +3,8 @@ name: bm-company-formation
 description: "Source-cited draft: company formation & entity choice for Bermuda (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BM
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,37 @@ Bermuda companies are formed and regulated under the Companies Act 1981, adminis
 - **Directors** — At least one director required; companies must also have a secretary and a resident representative or local presence as required ((confirm current director/officer minimums))  _(Companies Act 1981 (https://www.gov.bm/limited-companies))_
 - **Core annual compliance** — Pay annual government fee (January), hold an AGM (or waive by resolution), maintain statutory registers and beneficial ownership register, and file economic substance declaration where applicable  _(Companies Act 1981; Economic Substance Act 2018 (https://www.gov.bm/department/registrar-companies))_
 - **Economic substance** — Entities carrying on relevant activities must meet economic substance requirements and file an annual economic substance declaration  _(Economic Substance Act 2018 (https://www.gov.bm/department/registrar-companies))_
+
+
+## Recomputing examples
+
+```oa-check
+name: Typical authorised capital 12,000 shares at USD 1
+inputs:
+  shares: 12000
+  par: 1
+steps:
+  - authorised: shares * par
+expected:
+  authorised: 12000.00
+```
+```oa-check
+name: Minimum share capital — one share at par USD 1
+inputs:
+  shares: 1
+  par: 1
+steps:
+  - minimum: shares * par
+expected:
+  minimum: 1.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Government of Bermuda — Bermuda Corporate Income Tax (CIT effective 1 Jan 2025; Companies Act 1981 unchanged) | https://www.gov.bm/CIT | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

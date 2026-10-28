@@ -3,7 +3,8 @@ name: cu-payroll-social
 description: "Source-cited draft: payroll & social contributions for Cuba (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CU
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -23,6 +24,40 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Payroll income-tax withholding** — Employers withhold personal income tax / the employee social-security contribution from wages and remit to ONAT ((approx — confirm)) (approx — confirm)  _(Ley No. 113 del Sistema Tributario)_
 - **Remittance frequency** — Payroll withholdings and contributions are remitted to ONAT monthly ((approx — confirm)) (approx — confirm)  _(Ley No. 113 del Sistema Tributario)_
 - **Territorial contribution for local development** — 1% of gross income payable by employing entities (Contribución Territorial para el Desarrollo Local) %  _([Ley No. 113 del Sistema Tributario](https://en.granma.cu/cuba/2025-05-28/dispersed-destinations-of-a-contribution-for-local-development))_
+
+
+## Recomputing examples
+
+```oa-check
+name: MIPYME social security — 14% of payroll 200,000 CUP (12.5% employer + 1.5% short-term)
+inputs:
+  payroll: 200000
+steps:
+  - employer: payroll * 0.125
+  - short_term: payroll * 0.015
+  - total: employer + short_term
+expected:
+  employer: 25000.00
+  short_term: 3000.00
+  total: 28000.00
+```
+```oa-check
+name: Employee withholding 5% on wages 30,000 CUP
+inputs:
+  wages: 30000
+steps:
+  - withheld: wages * 0.05
+expected:
+  withheld: 1500.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| MEP (Ministerio de Economía y Planificación) — En claves, sistema de impuestos para MIPYMES y CNA | https://www.mep.gob.cu/en/node/1381 | 2026-10-28 |
+| Gaceta Oficial de la República de Cuba (normative gazette portal) | https://www.gacetaoficial.gob.cu | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

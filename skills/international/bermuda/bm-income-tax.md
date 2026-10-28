@@ -3,7 +3,8 @@ name: bm-income-tax
 description: "Source-cited draft: personal income tax for Bermuda (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BM
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,6 +25,36 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Employee burden on labour income** — The employee portion of payroll tax (progressive, by remuneration band) is the main tax on employment income; it is withheld and remitted by the employer  _(Payroll Tax Act 1995 (https://www.gov.bm/payroll-tax))_
 - **Employee social insurance contribution** — Flat weekly contributory pension contribution applies to employees aged 16-64 (see payroll-social)  _(Contributory Pensions Act 1970 (https://www.gov.bm/department/social-insurance))_
 - **Residence test for income tax** — Not applicable — residence does not affect a (non-existent) personal income tax liability  _(PwC Worldwide Tax Summaries — Bermuda, Individual residence (https://taxsummaries.pwc.com/bermuda/individual/residence))_
+
+
+## Recomputing examples
+
+```oa-check
+name: No personal income tax on BMD 200,000 employment income
+inputs:
+  income: 200000
+steps:
+  - rate: 0
+  - tax: income * rate
+expected:
+  tax: 0.00
+```
+```oa-check
+name: No capital gains tax on BMD 500,000 gain
+inputs:
+  gain: 500000
+steps:
+  - tax: gain * 0
+expected:
+  tax: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Government of Bermuda — Bermuda Corporate Income Tax (no personal income tax; CIT from 1 Jan 2025) | https://www.gov.bm/CIT | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

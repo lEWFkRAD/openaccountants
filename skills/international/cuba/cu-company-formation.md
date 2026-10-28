@@ -3,7 +3,8 @@ name: cu-company-formation
 description: "Source-cited draft: company formation & entity choice for Cuba (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CU
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,36 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Incorporation steps** — Application/approval (Ministry of Economy and Planning for MIPYME; MINCEX for foreign investment), execution of the constitutive public deed before a notary, and registration in the Commercial Registry (Registro Mercantil)  _(Decreto-Ley sobre las MIPYME https://www.minjus.gob.cu/es/servicios/registro-mercantil)_
 - **Tax registration** — Entities and their partners must register with ONAT and obtain a NIT (Número de Identificación Tributaria)  _(Ley No. 113 del Sistema Tributario https://lookuptax.com/docs/tax-identification-number/cuba-tax-id-guide)_
 - **Core annual compliance** — Annual tax on profits sworn declaration (Declaración Jurada), monthly sales/services tax and payroll contribution remittances, and maintenance of accounting records  _(Ley No. 113 del Sistema Tributario)_
+
+
+## Recomputing examples
+
+```oa-check
+name: MIPYME first-year tax exemption (new entities), social security still due
+inputs:
+  years_operating: 1
+steps:
+  - exempt: min(years_operating, 1)
+expected:
+  exempt: 1.00
+```
+```oa-check
+name: Six-month exemption when entity has prior operating history
+inputs:
+  months: 6
+steps:
+  - exemption_months: months
+expected:
+  exemption_months: 6.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| MEP (Ministerio de Economía y Planificación) — En claves, sistema de impuestos para MIPYMES y CNA | https://www.mep.gob.cu/en/node/1381 | 2026-10-28 |
+| Gaceta Oficial de la República de Cuba (normative gazette portal) | https://www.gacetaoficial.gob.cu | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

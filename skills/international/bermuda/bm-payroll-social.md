@@ -3,7 +3,8 @@ name: bm-payroll-social
 description: "Source-cited draft: payroll & social contributions for Bermuda (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BM
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +30,41 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Social insurance — employees aged 65+** — Only the employer portion is due; no employee contribution  _(Contributory Pensions Act 1970 (https://www.gov.bm/department/social-insurance))_
 - **Social insurance remittance deadline** — Employer billed monthly; payment due by the last Friday of that month  _(Contributory Pensions Act 1970 (https://www.gov.bm/department/social-insurance))_
 - **Occupational (private) pension contribution** — Mandatory for Bermudians/spouses under the National Pension Scheme; typically 5% employer + 5% employee of pensionable earnings (approx — confirm current rate) percent (approx — confirm current rate)  _(National Pension Scheme (Occupational Pensions) Act 1998 (https://www.gov.bm/bermuda-pension))_
+
+
+## Recomputing examples
+
+```oa-check
+name: Employee payroll tax on BMD 100,000 remuneration (0.50% first 48,000 + 9.25% excess)
+inputs:
+  remuneration: 100000
+steps:
+  - band1: min(remuneration, 48000) * 0.005
+  - band2: max(remuneration - 48000, 0) * 0.0925
+  - employee_tax: band1 + band2
+expected:
+  band1: 240.00
+  band2: 4810.00
+  employee_tax: 5050.00
+```
+```oa-check
+name: Weekly social insurance contribution split (BMD 75.30 total)
+inputs:
+  total_week: 75.30
+steps:
+  - employer: total_week / 2
+  - employee: total_week / 2
+expected:
+  employer: 37.65
+  employee: 37.65
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Government of Bermuda — Bermuda Corporate Income Tax (CIT effective 1 Jan 2025; payroll tax unchanged) | https://www.gov.bm/CIT | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

@@ -14,8 +14,8 @@ jurisdiction: BM
 category: cross-border
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-23
-version: 0.1
+last_updated: 2026-10-28
+version: "0.2"
 verified_by: pending
 ---
 
@@ -150,6 +150,38 @@ expected:
 - [CITA — Exchange of Information / Tax Transparency (FATCA, CRS, CbCR, CARF)](https://www.cita.bm/exchange-of-information-eoi1) — read 2026-10-23.
 - [CITA — EOI Filing & Payment Deadlines](https://www.cita.bm/exchange-of-information-filing-payment-deadlines) — read 2026-10-23 (client-side render; needs-sources).
 - [gov.bm — International Conventions or Treaties](https://www.gov.bm/articles/international-conventions-or-treaties) — read 2026-10-23 (non-tax list; confirms no consolidated DTA register).
+
+
+## Recomputing examples
+
+```oa-check
+name: GloBE 15% top-up on BMD 2,000,000 low-taxed income (effective rate 5%)
+inputs:
+  income: 2000000
+  effective_rate: 5
+steps:
+  - top_up: income * (15 - effective_rate) / 100
+expected:
+  top_up: 200000.00
+```
+```oa-check
+name: Out-of-scope group (EUR 700M revenue) owes no cross-border CIT top-up
+inputs:
+  revenue_eur: 700000000
+  threshold: 750000000
+steps:
+  - in_scope: max(revenue_eur - threshold, 0)
+  - top_up: in_scope * 0.15
+expected:
+  top_up: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Government of Bermuda — Bermuda Corporate Income Tax (CIT effective 1 Jan 2025; CITA administers) | https://www.gov.bm/CIT | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

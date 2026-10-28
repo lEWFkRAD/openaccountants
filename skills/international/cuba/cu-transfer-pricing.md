@@ -13,8 +13,8 @@ jurisdiction: CU
 category: transfer-pricing
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-23
-version: 0.1
+last_updated: 2026-10-28
+version: "0.2"
 verified_by: pending
 ---
 
@@ -138,6 +138,37 @@ expected:
 - [Ministerio de Economía y Planificación](https://www.mep.gob.cu/) — read 2026-10-23.
 - [MINJUS — Registro Mercantil](https://www.minjus.gob.cu/es/servicios/registro-mercantil) — read 2026-10-23.
 - Pack skills carried: `cu-corporate-income-tax`, `cu-income-tax`, `cu-tax-overview` (tier 2, read 2026-07-13).
+
+
+## Recomputing examples
+
+```oa-check
+name: Related-party sale 500,000 CUP adjusted to arm's-length price 450,000 CUP
+inputs:
+  actual: 500000
+  arm_length: 450000
+steps:
+  - adjustment: actual - arm_length
+expected:
+  adjustment: 50000.00
+```
+```oa-check
+name: CIT effect of 50,000 CUP transfer-pricing adjustment at 35%
+inputs:
+  adjustment: 50000
+steps:
+  - extra_tax: adjustment * 0.35
+expected:
+  extra_tax: 17500.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| MEP (Ministerio de Economía y Planificación) — En claves, sistema de impuestos para MIPYMES y CNA | https://www.mep.gob.cu/en/node/1381 | 2026-10-28 |
+| Gaceta Oficial de la República de Cuba (normative gazette portal) | https://www.gacetaoficial.gob.cu | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 
