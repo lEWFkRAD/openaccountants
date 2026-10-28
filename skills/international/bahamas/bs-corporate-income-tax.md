@@ -3,7 +3,8 @@ name: bs-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Bahamas (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BS
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: 0.2
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,7 +29,7 @@ The Domestic Minimum Top-Up Tax Act, 2024 implements the OECD/G20 Pillar Two glo
 - **Effective date / first in-scope fiscal year** — Applies to fiscal years beginning on or after 1 January 2025 (Act effective for fiscal years beginning after 31 December 2023, with constituent entities generally first captured from 1 January 2025)  _(Domestic Minimum Top-Up Tax Act, 2024 (https://higgsjohnson.com/the-domestic-minimum-top-up-tax-act/))_
 - **Tax base** — GloBE income (Pillar Two model rules) of in-scope constituent entities, computed per the OECD GloBE rules with the substance-based income exclusion ((approx — confirm))  _(Domestic Minimum Top-Up Tax Act, 2024 (https://oecdpillars.com/a-review-of-the-bahamas-pillar-2-domestic-minimum-tax/))_
 - **Interaction with business licence tax** — Entities subject to the DMTT receive a credit for business licence tax paid, per the Business Licence (Amendment) Act, 2025 (deemed in operation from 1 January 2024)  _(Business Licence (Amendment) Act, 2025 (https://www.legal500.com/developments/thought-leadership/the-domestic-minimum-top-up-tax-act-2024/))_
-- **DMTT registration / filing** — In-scope groups must register and file a GloBE Information Return / top-up tax return with the competent authority; specific deadlines set by regulation (confirm current filing dates) ((approx — confirm))  _(Domestic Minimum Top-Up Tax Act, 2024 (https://opm.gov.bs/bahamascitpillar2/))_
+- **DMTT registration / filing** — In-scope groups must register and file a GloBE Information Return / top-up tax return with the competent authority. The DIR's DMTT notification page (archived 2026-10-28) sets notification deadlines: "The deadline to submit the completed DMTT-24 is 31st March 2026 and for DMTT-25 is 30th April 2026." ((discrepancy — the archived DIR page shows notification forms DMTT-24/DMTT-25 with 2026 deadlines; the GloBE return deadlines under the Act remain to be confirmed with the competent authority))  _(Domestic Minimum Top-Up Tax Act, 2024 (https://opm.gov.bs/bahamascitpillar2/); DIR DMTT page (archived 2026-10-28))_
 
 <!-- openaccountants-cta-block -->
 
