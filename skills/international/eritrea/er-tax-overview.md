@@ -2,8 +2,9 @@
 name: er-tax-overview
 description: "Source-cited draft: tax overview for Eritrea (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: ER
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,27 @@ Eritrea operates a source-based direct tax system administered by the Inland Rev
 - **Does Eritrea have VAT/GST?** — No VAT/GST. Indirect tax is a sales tax (goods) and services tax  _([Sales and Excise Tax Proclamation (Legal Notice 64/1994)](https://www.pwc.co.za/en/publications/vat-in-africa/eritrea-overview.html))_
 - **Main annual filing** — Annual income tax return after the close of the calendar year ((approx — confirm exact due date))  _(Income Tax Proclamation No. 24/2011)_
 
+## Recomputing examples
+
+```oa-check
+name: ER CIT 30% on 1,000,000 ERN profit
+inputs:
+  profit: 1000000
+steps:
+  - cit: profit * 0.30
+expected:
+  cit: 300000.00
+```
+```oa-check
+name: ER diaspora tax 2% on 50,000 ERN
+inputs:
+  income: 50000
+steps:
+  - tax: income * 0.02
+expected:
+  tax: 1000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -43,3 +65,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Proclamation No. 24/2011 (Eritrea)
+- Sales and Excise Tax Proclamation (Legal Notice 64/1994) (Eritrea)
+- Proclamation on the 2% Rehabilitation and Recovery Tax (Eritrea)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

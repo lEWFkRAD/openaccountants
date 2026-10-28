@@ -2,8 +2,9 @@
 name: cg-tax-overview
 description: "Source-cited draft: tax overview for Republic of Congo (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CG
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,31 @@ The Republic of Congo (Congo-Brazzaville) is a CEMAC and OHADA member state whos
 - **VAT return frequency** — Monthly, by the 20th of the following month  _(Code Général des Impôts (CGI) — Taxe sur la Valeur Ajoutée — https://taxsummaries.pwc.com/republic-of-congo/corporate/other-taxes)_
 - **Corporate and accounting law framework** — OHADA Uniform Acts (company law, SYSCOHADA accounting) apply  _(OHADA Uniform Act on Commercial Companies and Economic Interest Groups)_
 
+## Recomputing examples
+
+```oa-check
+name: CG VAT effective 18.9% on 10,000,000 XAF supply
+inputs:
+  supply: 10000000
+steps:
+  - vat: supply * 0.18
+  - surtax: vat * 0.05
+  - total: vat + surtax
+expected:
+  vat: 1800000.00
+  surtax: 90000.00
+  total: 1890000.00
+```
+```oa-check
+name: CG CIT 30% on 100,000,000 XAF profit
+inputs:
+  profit: 100000000
+steps:
+  - cit: profit * 0.30
+expected:
+  cit: 30000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -45,3 +71,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code Général des Impôts (CGI) (Republic of Congo), updated annually by the Loi de Finances
+- Act on Commercial Companies and Economic Interest Groups (Republic of Congo)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

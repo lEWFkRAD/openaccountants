@@ -1,10 +1,10 @@
 ---
 name: gi-property-stamp-duty
 description: Prepare an ordinary Gibraltar property conveyance stamp-duty calculation, separating the whole-property value test from consideration bands and excluding unverified relief eligibility.
-version: 0.1
+version: "0.2"
 jurisdiction: GI
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -53,6 +53,37 @@ Relief eligibility, mortgages, leases, indirect property investments, gifts, exe
 
 > Contributed by Ryan Duguid.
 
+## Recomputing examples
+
+```oa-check
+name: GI SD on 300,000 GBP: 2% first 250,000 + 5.5% excess
+inputs:
+  price: 300000
+steps:
+  - b1: min(price, 250000) * 0.02
+  - b2: max(min(price, 350000) - 250000, 0) * 0.055
+  - duty: b1 + b2
+expected:
+  b1: 5000.00
+  b2: 2750.00
+  duty: 7750.00
+```
+```oa-check
+name: GI SD on 900,000 GBP: 3% first 350,000 + 3.5% next 450,000 + 4.5% above 800,000
+inputs:
+  price: 900000
+steps:
+  - b1: min(price, 350000) * 0.03
+  - b2: (min(price, 800000) - 350000) * 0.035
+  - b3: max(price - 800000, 0) * 0.045
+  - duty: b1 + b2 + b3
+expected:
+  b1: 10500.00
+  b2: 15750.00
+  b3: 4500.00
+  duty: 30750.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -70,3 +101,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Stamp Duties Act 2005 (Gibraltar), ss19A-19C and Schedule 1
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

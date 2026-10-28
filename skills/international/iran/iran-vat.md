@@ -1,10 +1,10 @@
 ---
 name: iran-vat
 description: Use this skill whenever asked to prepare, review, or classify transactions for an Iran VAT return. Trigger on phrases like "Iran VAT", "INTA tax", "Iran value added tax". Iran imposes VAT at 10% (9% VAT + 1% municipal) under the VAT Law of 2008 as amended. Iran uses the Solar Hijri calendar for all tax purposes. ALWAYS read this skill before handling any Iran VAT work.
-version: 2.0
+version: "2.1"
 jurisdiction: IR
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -212,6 +212,31 @@ This skill and its outputs are provided for informational and computational purp
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
 
+## Recomputing examples
+
+```oa-check
+name: IR VAT 9% standard vs 10% on 1,000,000,000 IRR
+inputs:
+  supply: 1000000000
+steps:
+  - v9: supply * 0.09
+  - v10: supply * 0.10
+expected:
+  v9: 90000000.00
+  v10: 100000000.00
+```
+```oa-check
+name: IR VAT 100,000,000 IRR supply: 9% VAT + 2.5% health levy style comparison at 1%
+inputs:
+  supply: 100000000
+steps:
+  - vat: supply * 0.09
+  - one_pct: supply * 0.01
+expected:
+  vat: 9000000.00
+  one_pct: 1000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -229,3 +254,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Value Added Tax Law of 2008 (Iran); 2025 Budget Act — https://tax.gov.ir
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

@@ -2,8 +2,9 @@
 name: ls-income-tax
 description: "Source-cited draft: personal income tax for Lesotho (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LS
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,35 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual return filing deadline** — 30 June following the end of the 31 March tax year  _([Income Tax Act](https://www.rsl.org.ls/personal-income-tax))_
 - **Late filing / late payment penalty** — Additional 22% tax per twelve-month period of default percent (approx — confirm current rate)  _([Income Tax Act](https://www.rsl.org.ls/personal-income-tax))_
 
+## Recomputing examples
+
+```oa-check
+name: LS PAYE on 100,000 LSL chargeable income: 20% to 74,040 + 30% above, less LSL 12,672 credit
+inputs:
+  income: 100000
+  credit: 12672
+steps:
+  - b1: min(income, 74040) * 0.20
+  - b2: max(income - 74040, 0) * 0.30
+  - tax: b1 + b2 - credit
+expected:
+  b1: 14808.00
+  b2: 7788.00
+  tax: 9924.00
+```
+```oa-check
+name: LS fringe benefits tax 40% on LSL 10,000 benefit; late-filing 22% on LSL 9,924
+inputs:
+  benefit: 10000
+  tax: 9924
+steps:
+  - fbt: benefit * 0.40
+  - penalty: tax * 0.22
+expected:
+  fbt: 4000.00
+  penalty: 2183.28
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -45,3 +75,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Act (Lesotho) — https://www.rsl.org.ls/personal-income-tax
+- Lesotho tax guide effective 1 April 2025 — https://zmayetlaw.co.ls
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

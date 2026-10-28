@@ -2,8 +2,9 @@
 name: ga-vat-gst
 description: "Source-cited draft: vat / gst for Gabon (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: GA
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +28,31 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Gabon operates a CEMAC-aligned VAT (Taxe sur la Valeur Ajoutée) with a standard 18% rate and reduced/zero categories. Rates, threshold and filing notes below are a 2025 draft pending accountant verification.
 
+## Recomputing examples
+
+```oa-check
+name: GA VAT 18% vs reduced 10% vs 5% on 10,000,000 XAF
+inputs:
+  supply: 10000000
+steps:
+  - std: supply * 0.18
+  - mid: supply * 0.10
+  - low: supply * 0.05
+expected:
+  std: 1800000.00
+  mid: 1000000.00
+  low: 500000.00
+```
+```oa-check
+name: GA CSS 1% on 100,000,000 XAF turnover (threshold XAF 30,000,000)
+inputs:
+  turnover: 100000000
+steps:
+  - css: turnover * 0.01
+expected:
+  css: 1000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -44,3 +70,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code Général des Impôts (Gabon), TVA
+- Code Général des Impôts (Gabon), Contribution Spéciale de Solidarité
+- Code Général des Impôts (Gabon), droits d'accise
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

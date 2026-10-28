@@ -2,8 +2,9 @@
 name: ir-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Iran (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: IR
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,6 +25,33 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Withholding tax on royalties (to non-residents)** — Effective 5% in qualifying cases (e.g. manufacturing/mining, government payers, or cinematographic rights); otherwise an effective 7.5% percent  _([Direct Taxes Act (DTA)](https://orbitax.com/taxhub/countrychapters/IR/Iran/))_
 - **Filing & payment deadline** — Annual corporate return and payment due within 4 months after fiscal year-end (~22 July for a 20 March year-end) ((approx — confirm exact date))  _(Direct Taxes Act (DTA), Article 110)_
 
+## Recomputing examples
+
+```oa-check
+name: IR CIT 25% on 100,000,000,000 IRR profit; listed-company 10% rate reduction
+inputs:
+  profit: 100000000000
+steps:
+  - cit: profit * 0.25
+  - reduced: profit * (0.25 - 0.025)
+  - saving: cit - reduced
+expected:
+  cit: 25000000000.00
+  reduced: 22500000000.00
+  saving: 2500000000.00
+```
+```oa-check
+name: IR WHT on 1,000,000,000 IRR: interest 5%, royalties 7.5%
+inputs:
+  payment: 1000000000
+steps:
+  - interest: payment * 0.05
+  - royalty: payment * 0.075
+expected:
+  interest: 50000000.00
+  royalty: 75000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -41,3 +69,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Direct Taxes Act (Iran), Articles 105, 106, 110, 143
+- Law on the Administration of Free Trade-Industrial Zones (Iran)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

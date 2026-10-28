@@ -2,10 +2,10 @@
 name: km-registration-and-tax-clearance
 description: >
   Comoros tax registration and clearance reference based on the enacted 2026 finance law. Covers the amended registration deadline, the distinction between the quitus fiscal and tax-regularity certificate, their validity periods and the customs withholding consequence of missing certification. Separates administrative evidence from substantive tax liability and includes a conditional withholding calculation. Flags incomplete scan wording and the need for current administrative forms rather than assuming certificates are interchangeable. Company formation, tax rates, exemptions, the complete intervening amendment chain and independent accountant review remain outside this initial source-cited draft.
-version: 0.1
+version: "0.2"
 jurisdiction: KM
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -55,6 +55,27 @@ Checked 22 October 2026. Obtain current application forms, processing rules, a l
 
 > Contributed by Ryan Duguid.
 
+## Recomputing examples
+
+```oa-check
+name: KM L.4 ter 15% withholding on KMF 2,000,000 customs value
+inputs:
+  customs: 2000000
+steps:
+  - withheld: customs * 0.15
+expected:
+  withheld: 300000.00
+```
+```oa-check
+name: KM L.4 ter 15% on KMF 5,000,000 customs value
+inputs:
+  customs: 5000000
+steps:
+  - withheld: customs * 0.15
+expected:
+  withheld: 750000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -72,3 +93,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Loi de Finances 2026 (Comoros), L.4 ter — https://finances.gouv.km/wp-content/uploads/2026/02/Decret-portant-promulgation-du-loi-des-finances-2026.pdf
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

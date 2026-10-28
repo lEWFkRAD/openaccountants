@@ -2,8 +2,9 @@
 name: af-payroll-social
 description: "Source-cited draft: payroll & social contributions for Afghanistan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: AF
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,6 +25,29 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Employer reporting** — Employers file salary withholding tax returns and maintain payroll records for ARD  _(Income Tax Law 2009)_
 - **Salary tax ceiling/cap** — No upper cap — top 20% band applies to all salary above 100,000 AFN per month AFN  _(Income Tax Law 2009)_
 
+## Recomputing examples
+
+```oa-check
+name: AF PAYE withholding on 50,000 AFN monthly salary
+inputs:
+  salary: 50000
+steps:
+  - band2: (min(salary, 12500) - 5000) * 0.02
+  - band3: (min(salary, 100000) - 12500) * 0.10
+  - withhold: band2 + 150 + band3
+expected:
+  withhold: 4050.00
+```
+```oa-check
+name: AF PAYE withholding on 120,000 AFN monthly salary (top band)
+inputs:
+  salary: 120000
+steps:
+  - withhold: (salary - 100000) * 0.20 + 8900
+expected:
+  withhold: 12900.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -41,3 +65,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Law 2009 (Afghanistan), salary withholding — https://ard.gov.af/
+- Labour Law of Afghanistan
+- Pensions Law / Civil Servants Law (Afghanistan)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

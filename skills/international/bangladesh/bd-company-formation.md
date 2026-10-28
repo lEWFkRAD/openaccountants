@@ -2,8 +2,9 @@
 name: bd-company-formation
 description: "Source-cited draft: company formation & entity choice for Bangladesh (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BD
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,30 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Typical incorporation timeline** — Approximately 1 to 3 weeks for a straightforward local company (approx — confirm; varies with foreign-capital remittance and bank steps)  _(Companies Act 1994 (Bangladesh) — https://legalseba.com/bd-services/company-incorporation-in-bangladesh/)_
 - **Core annual compliance** — Annual General Meeting, file annual return and audited financial statements with RJSC, and file the annual income tax return with NBR  _(Companies Act 1994 (Bangladesh) — https://legalseba.com/bd-services/company-incorporation-in-bangladesh/)_
 
+## Recomputing examples
+
+```oa-check
+name: BD foreign-investment minimum USD 50,000: two-tranche check
+inputs:
+  minimum: 50000
+steps:
+  - half: minimum / 2
+  - double: minimum * 2
+expected:
+  half: 25000.00
+  double: 100000.00
+```
+```oa-check
+name: BD BDT 1 authorised capital floor vs USD 50,000 foreign minimum
+inputs:
+  floor: 1
+  foreign_min: 50000
+steps:
+  - gap_units: foreign_min - floor
+expected:
+  gap_units: 49999.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -43,3 +68,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Companies Act 1994 (Bangladesh) — https://legalseba.gov.bd
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

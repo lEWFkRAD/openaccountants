@@ -2,8 +2,9 @@
 name: la-payroll-social
 description: "Source-cited draft: payroll & social contributions for Laos (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LA
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -30,6 +31,29 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Payroll PIT remittance deadline** — By the 20th of the following month (approx — confirm)  _(Tax Administration Law (Lao PDR) — https://laos.acclime.com/guides/taxation-overview/)_
 - **Employer registration** — Employers must register themselves and their employees with the LSSO  _(Law on Social Security (Lao PDR) — https://laos.acclime.com/guides/social-security-obligations/)_
 
+## Recomputing examples
+
+```oa-check
+name: LA NSSFO ceiling check: 5.5% and 6% of LAK 4,500,000
+inputs:
+  ceiling: 4500000
+steps:
+  - employee: ceiling * 0.055
+  - employer: ceiling * 0.06
+expected:
+  employee: 247500.00
+  employer: 270000.00
+```
+```oa-check
+name: LA combined 11.5% on LAK 3,000,000 basic salary
+inputs:
+  salary: 3000000
+steps:
+  - total: salary * 0.115
+expected:
+  total: 345000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -47,3 +71,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Law on Social Security (Lao PDR)
+- NSSFO Notification No. 0824/NSSFO
+- Law on Income Tax (Law No. 67/NA, 2019) (Lao PDR)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

@@ -1,10 +1,10 @@
 ---
 name: bahrain-vat
 description: Use this skill whenever asked to prepare, review, or classify transactions for a Bahrain VAT return for any client. Trigger on phrases like "prepare VAT return", "Bahrain VAT", "NBR return", "file VAT Bahrain", or any request involving Bahrain VAT filing. Also trigger when classifying transactions for VAT purposes from bank statements, invoices, or other source data. This skill contains the complete Bahrain VAT classification rules, return box mappings, deductibility rules, reverse charge treatment, GCC transitional provisions, and filing deadlines. Bahrain applies VAT at 10% under Decree-Law No. 48 of 2018, administered by the National Bureau for Revenue (NBR). ALWAYS read this skill before touching any Bahrain VAT-related work.
-version: 2.0
+version: "2.1"
 jurisdiction: BH
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 authored_by: Mehran Habib, CA
 reviewed_by: Mehran Habib
 review_status: current
@@ -361,6 +361,34 @@ This skill and its outputs are provided for informational and computational purp
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
 
+## Recomputing examples
+
+```oa-check
+name: BH VAT 10% on 10,000 BHD supply and tax-inclusive extraction
+inputs:
+  supply: 10000
+  inclusive: 11000
+steps:
+  - vat: supply * 0.10
+  - extracted: inclusive * 10 / 110
+expected:
+  vat: 1000.00
+  extracted: 1000.00
+```
+```oa-check
+name: BH VAT 5% historic rate vs 10% current on 10,000 BHD
+inputs:
+  supply: 10000
+steps:
+  - old: supply * 0.05
+  - now: supply * 0.10
+  - delta: now - old
+expected:
+  old: 500.00
+  now: 1000.00
+  delta: 500.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -378,3 +406,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- VAT Law (Decree-Law No. 48 of 2018) (Bahrain), Articles 34, 56, 59-68 — https://www.nbr.gov.bh
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

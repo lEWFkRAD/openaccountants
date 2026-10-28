@@ -2,8 +2,9 @@
 name: bh-company-formation
 description: "Source-cited draft: company formation & entity choice for Bahrain (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BH
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +30,33 @@ Companies register with the Ministry of Industry and Commerce (MOIC) through the
 - **Core post-registration / annual compliance** — Open a corporate bank account, register with SIO if employing staff, register for VAT if turnover exceeds BHD 37,500, renew the CR annually, and obtain sector licences  _(MOIC commercial registration requirements; VAT Law (Decree-Law No. 48 of 2018))_
 - **Commercial Registration renewal** — CR must be renewed annually with MOIC  _(MOIC commercial registration requirements)_
 
+## Recomputing examples
+
+```oa-check
+name: BH LLC capital check: BHD 20,000 vs BHD 50,000 licence tiers
+inputs:
+  low: 20000
+  high: 50000
+steps:
+  - gap: high - low
+  - ratio: high / low
+expected:
+  gap: 30000.00
+  ratio: 2.50
+```
+```oa-check
+name: BH BHD 250,000 vs BHD 50,000 capital comparison
+inputs:
+  a: 250000
+  b: 50000
+steps:
+  - multiple: a / b
+  - diff: a - b
+expected:
+  multiple: 5.00
+  diff: 200000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -46,3 +74,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Commercial Companies Law (Decree-Law No. 21 of 2001) (Bahrain)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

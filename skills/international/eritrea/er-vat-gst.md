@@ -2,8 +2,9 @@
 name: er-vat-gst
 description: "Source-cited draft: vat / gst for Eritrea (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: ER
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -25,6 +26,31 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Eritrea does not operate a value-added tax (VAT) or GST. Instead it levies a cumulative sales tax on goods and a services tax, governed by the Sales and Excise Tax legislation first introduced in 1994. Rates and registration details should be confirmed with the Inland Revenue Department.
 
+## Recomputing examples
+
+```oa-check
+name: ER sales tax on goods 4% vs services 10% on 100,000 ERN
+inputs:
+  amount: 100000
+steps:
+  - goods: amount * 0.04
+  - services: amount * 0.10
+expected:
+  goods: 4000.00
+  services: 10000.00
+```
+```oa-check
+name: ER goods sales tax range 4%-5% on 200,000 ERN
+inputs:
+  amount: 200000
+steps:
+  - low: amount * 0.04
+  - high: amount * 0.05
+expected:
+  low: 8000.00
+  high: 10000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -42,3 +68,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Sales and Excise Tax Proclamation (Legal Notice 64/1994) (Eritrea)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

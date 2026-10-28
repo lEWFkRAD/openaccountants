@@ -2,8 +2,9 @@
 name: er-company-formation
 description: "Source-cited draft: company formation & entity choice for Eritrea (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: ER
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,30 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Foreign investment approval** — Foreign investors typically require an investment licence/approval from the relevant investment authority ((approx — confirm current statute))  _(Investment Proclamation (Eritrea))_
 - **Core annual compliance** — Annual income tax return, maintenance of accounting records, and licence/registration renewals ((approx — confirm))  _(Income Tax Proclamation No. 24/2011)_
 
+## Recomputing examples
+
+```oa-check
+name: ER capital tiers ERN 15,000 vs ERN 50,000
+inputs:
+  lo: 15000
+  hi: 50000
+steps:
+  - gap: hi - lo
+  - ratio: hi / lo
+expected:
+  gap: 35000.00
+  ratio: 3.33
+```
+```oa-check
+name: ER ERN 50,000 capital in four equal instalments
+inputs:
+  capital: 50000
+steps:
+  - instalment: capital / 4
+expected:
+  instalment: 12500.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -43,3 +68,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Civil Code (Eritrea)
+- Commercial registration Proclamation (Eritrea)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

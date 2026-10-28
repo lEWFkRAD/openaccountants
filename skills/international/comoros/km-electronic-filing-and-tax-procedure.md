@@ -2,10 +2,10 @@
 name: km-electronic-filing-and-tax-procedure
 description: >
   Comoros reference to electronic filing, payment evidence and selected enforcement changes enacted in the 2026 finance law. Distinguishes the statutory framework from the implementing decisions required for rollout, explains platform receipt and settlement timing, and records outage and authentication provisions. Covers the new electronic information-request deadline and fiscal-flagrance response period without replacing the full appeals regime. An earlier electronic-filing mandate and the newer phased framework require reconciliation before operational advice. Current platform designation, commencement orders, penalties guidance and independent accountant review remain outstanding in this source-cited draft.
-version: 0.1
+version: "0.2"
 jurisdiction: KM
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -58,6 +58,32 @@ Checked 22 October 2026. Obtain commencement/rollout orders, reconcile the earli
 
 > Contributed by Ryan Duguid.
 
+## Recomputing examples
+
+```oa-check
+name: KM L.113 penalties: KMF 100,000 fixed + KMF 50,000/day for 10 days
+inputs:
+  fixed: 100000
+  daily: 50000
+  days: 10
+steps:
+  - coercive: daily * days
+  - total: fixed + coercive
+expected:
+  coercive: 500000.00
+  total: 600000.00
+```
+```oa-check
+name: KM KMF 50,000/day for a 30-day delay
+inputs:
+  daily: 50000
+  days: 30
+steps:
+  - coercive: daily * days
+expected:
+  coercive: 1500000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -75,3 +101,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Loi de Finances 2026 (Comoros), L.113 — https://finances.gouv.km/wp-content/uploads/2026/02/Decret-portant-promulgation-du-loi-des-finances-2026.pdf
+- Article 14 of the LPF (Comoros)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

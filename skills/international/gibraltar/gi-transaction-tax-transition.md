@@ -2,10 +2,10 @@
 name: gi-transaction-tax-transition
 description: >
   Prepare an evidence-led review of goods imports and the 2026 transaction-tax transition. This is a transition research draft, not a customs declaration or an exhaustive commodity-rate catalogue. This source-cited draft supports preparation of reviewable working papers using the stated periods, evidence requirements and computation examples. Retain source evidence and effective dates; unresolved points and professional review remain explicit. Use the linked official materials when checking a case, and obtain a qualified local review before filing or making a payment. Read the explicit exclusions before applying its calculations to different facts.
-version: 0.1
+version: "0.2"
 jurisdiction: GI
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -60,6 +60,29 @@ General tax and accounting reference material only. These drafts have not been p
 
 > Contributed by Ryan Duguid.
 
+## Recomputing examples
+
+```oa-check
+name: GI TT illustration: 15% on 1,000 GBP base; 5% reduced rate on same base
+inputs:
+  base: 1000
+steps:
+  - std: base * 0.15
+  - reduced: base * 0.05
+expected:
+  std: 150.00
+  reduced: 50.00
+```
+```oa-check
+name: GI TT relief cap: 50% of preceding-period tax of 2,000 GBP
+inputs:
+  prior: 2000
+steps:
+  - cap: prior * 0.50
+expected:
+  cap: 1000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -77,3 +100,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Transaction Tax (Deductions) Rules 2026 (Gibraltar) — https://www.gibraltarlaws.gov.gi
+- Government of Gibraltar press releases on Transaction Tax — https://www.gibraltar.gov.gi
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:46:01+00:00",
+ "generated_at": "2026-10-28T21:46:06+00:00",
  "counts": {
   "guides": 2523,
   "jurisdictions": 274,
@@ -2212,7 +2212,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "af-income-tax",
@@ -2224,7 +2224,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "af-payroll-social",
@@ -2236,7 +2236,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "af-tax-overview",
@@ -2248,7 +2248,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "af-vat-gst",
@@ -2260,7 +2260,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "al-corporate-tax",
@@ -4012,7 +4012,7 @@
    "verified_by": null,
    "reviewed_by": "Mehran Habib",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-company-formation",
@@ -4024,7 +4024,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-corporate-income-tax",
@@ -4036,7 +4036,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-income-tax",
@@ -4048,7 +4048,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-payroll-social",
@@ -4060,7 +4060,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-tax-overview",
@@ -4072,7 +4072,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bangladesh-pit",
@@ -4084,7 +4084,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2024",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bangladesh-vat",
@@ -4120,7 +4120,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bd-corporate-income-tax",
@@ -4132,7 +4132,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bd-crypto-tax",
@@ -4204,7 +4204,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bd-payroll",
@@ -4252,7 +4252,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "references",
@@ -5536,7 +5536,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bn-income-tax",
@@ -5560,7 +5560,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bn-tax-overview",
@@ -7360,7 +7360,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "km-personal-tax-domicile",
@@ -7384,7 +7384,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "costa-rica-income-tax",
@@ -9136,7 +9136,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-corporate-income-tax",
@@ -9148,7 +9148,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-income-tax",
@@ -9160,7 +9160,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-payroll-social",
@@ -9172,7 +9172,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-tax-overview",
@@ -9184,7 +9184,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-vat-gst",
@@ -9196,7 +9196,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ee-company-formation",
@@ -10096,7 +10096,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ga-corporate-income-tax",
@@ -10108,7 +10108,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ga-payroll-social",
@@ -10120,7 +10120,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ga-tax-overview",
@@ -10132,7 +10132,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ga-vat-gst",
@@ -10144,7 +10144,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gm-company-formation",
@@ -10756,7 +10756,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gi-individual-income-tax",
@@ -10768,7 +10768,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gi-payroll-social-insurance",
@@ -10780,7 +10780,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gi-property-stamp-duty",
@@ -10792,7 +10792,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gi-transaction-tax-transition",
@@ -10804,7 +10804,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gr-capital-gains",
@@ -12640,7 +12640,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ir-corporate-income-tax",
@@ -12652,7 +12652,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ir-income-tax",
@@ -12664,7 +12664,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ir-payroll-social",
@@ -12676,7 +12676,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ir-tax-overview",
@@ -12688,7 +12688,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "iran-vat",
@@ -12700,7 +12700,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "iq-company-formation",
@@ -14404,7 +14404,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "la-payroll-social",
@@ -14416,7 +14416,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "la-tax-overview",
@@ -14428,7 +14428,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "laos-vat",
@@ -14644,7 +14644,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ls-corporate-income-tax",
@@ -14656,7 +14656,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ls-income-tax",
@@ -14668,7 +14668,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ls-payroll-social",
@@ -14680,7 +14680,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ls-tax-overview",
@@ -14692,7 +14692,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ls-vat-gst",
@@ -14704,7 +14704,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "lr-company-formation",
@@ -19576,7 +19576,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "cg-corporate-income-tax",
@@ -19588,7 +19588,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "cg-income-tax",
@@ -19600,7 +19600,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "cg-payroll-social",
@@ -19612,7 +19612,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "cg-tax-overview",
@@ -19624,7 +19624,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "cg-vat-gst",
@@ -19636,7 +19636,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "re-octroi-producer-registration-and-returns",

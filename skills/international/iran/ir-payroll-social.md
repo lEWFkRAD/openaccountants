@@ -2,8 +2,9 @@
 name: ir-payroll-social
 description: "Source-cited draft: payroll & social contributions for Iran (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: IR
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,6 +25,33 @@ Social insurance is administered by the Social Security Organization (SSO) under
 - **Salary tax withholding (PAYE-equivalent)** — Employers withhold monthly salary tax under Article 85 and remit to INTA within 30 days  _(Direct Taxes Act (DTA), Article 86)_
 - **SSO remittance deadline** — Employers file a monthly payroll list with the SSO and pay both employer and employee shares by the end of the following month ((approx — confirm exact monthly deadline))  _(Social Security Law (SSO))_
 
+## Recomputing examples
+
+```oa-check
+name: IR SSO on 100,000,000 IRR wages: employer 23%, employee 7%, total 30%
+inputs:
+  wages: 100000000
+steps:
+  - employer: wages * 0.23
+  - employee: wages * 0.07
+  - total: wages * 0.30
+expected:
+  employer: 23000000.00
+  employee: 7000000.00
+  total: 30000000.00
+```
+```oa-check
+name: IR employer share excluding 3% unemployment portion on 100,000,000 IRR
+inputs:
+  wages: 100000000
+steps:
+  - unemployment: wages * 0.03
+  - net_employer: wages * 0.23 - unemployment
+expected:
+  unemployment: 3000000.00
+  net_employer: 20000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -41,3 +69,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Social Security Law (Iran) (SSO)
+- Labour Law of Iran; Supreme Labour Council resolution (FY1404)
+- Direct Taxes Act (Iran), Article 86
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

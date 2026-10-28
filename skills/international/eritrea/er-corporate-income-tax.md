@@ -2,8 +2,9 @@
 name: er-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Eritrea (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: ER
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,33 @@ Companies operating in Eritrea are taxed on business profits under the Income Ta
 - **Corporate return filing / payment** — Annual return filed after the close of the tax year, with tax payable on assessment (approx — confirm exact deadline)  _(Income Tax Proclamation No. 24/2011)_
 - **Capital gains** — Gains generally taxed as business income; no separate general CGT regime widely documented (approx — confirm)  _(Income Tax Proclamation No. 24/2011)_
 
+## Recomputing examples
+
+```oa-check
+name: ER CIT 30% vs 33% reported rates on 1,000,000 ERN profit
+inputs:
+  profit: 1000000
+steps:
+  - low: profit * 0.30
+  - high: profit * 0.33
+  - diff: high - low
+expected:
+  low: 300000.00
+  high: 330000.00
+  diff: 30000.00
+```
+```oa-check
+name: ER WHT on 100,000 ERN: dividends 5%, interest/royalties 10%
+inputs:
+  payment: 100000
+steps:
+  - div: payment * 0.05
+  - interest: payment * 0.10
+expected:
+  div: 5000.00
+  interest: 10000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -43,3 +71,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Proclamation No. 24/2011 (Eritrea)
+- Mining Proclamation / Mining Income Tax Proclamation (Eritrea)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

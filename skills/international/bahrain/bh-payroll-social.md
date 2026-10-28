@@ -2,8 +2,9 @@
 name: bh-payroll-social
 description: "Source-cited draft: payroll & social contributions for Bahrain (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BH
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -25,6 +26,35 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Contribution remittance** — Employer registers with SIO and remits monthly contributions via the SIO portal ((approx - confirm exact monthly due date))  _(Social Insurance Law (Decree-Law No. 24 of 1976), as amended)_
 - **Employer registration trigger** — Employers must register with the SIO when hiring employees  _(Social Insurance Law (Decree-Law No. 24 of 1976))_
 
+## Recomputing examples
+
+```oa-check
+name: BH GOSI on 1,000 BHD insurable salary: employer 17% + employee 8%
+inputs:
+  salary: 1000
+steps:
+  - employer: salary * 0.17
+  - employee: salary * 0.08
+  - total: employer + employee
+expected:
+  employer: 170.00
+  employee: 80.00
+  total: 250.00
+```
+```oa-check
+name: BH expat contributions on 1,000 BHD: employer 3% + employee 1%; 2028 employer 21%
+inputs:
+  salary: 1000
+steps:
+  - employer_expat: salary * 0.03
+  - employee_expat: salary * 0.01
+  - employer_2028: salary * 0.21
+expected:
+  employer_expat: 30.00
+  employee_expat: 10.00
+  employer_2028: 210.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -42,3 +72,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Social Insurance Law (Decree-Law No. 24 of 1976), as amended (Bahrain)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

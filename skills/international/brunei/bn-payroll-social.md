@@ -2,8 +2,9 @@
 name: bn-payroll-social
 description: "Source-cited draft: payroll & social contributions for Brunei (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BN
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,35 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **TAP/SCP remittance deadline** — Contributions remitted monthly to the Employees Trust Fund Board, by the deadline set by TAP (commonly by month-end / mid following month) (approx — confirm exact day)  _(Tabung Amanah Pekerja Act (Cap. 167) — https://www.tap.com.bn/)_
 - **Administering body** — Employees Trust Fund Board (Lembaga Tabung Amanah Pekerja / TAP), under the Ministry of Finance and Economy  _(Tabung Amanah Pekerja Act (Cap. 167) — https://www.tap.com.bn/)_
 
+## Recomputing examples
+
+```oa-check
+name: BN TAP 5% + 5% on 2,800 BND wages (wage ceiling BND 2,800)
+inputs:
+  wages: 2800
+steps:
+  - employer: wages * 0.05
+  - employee: wages * 0.05
+  - total: employer + employee
+expected:
+  employer: 140.00
+  employee: 140.00
+  total: 280.00
+```
+```oa-check
+name: BN SCP 3.5% + 3.5% on 2,800 BND wages
+inputs:
+  wages: 2800
+steps:
+  - employer: wages * 0.035
+  - employee: wages * 0.035
+  - combined_with_tap: wages * 0.17
+expected:
+  employer: 98.00
+  employee: 98.00
+  combined_with_tap: 476.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -43,3 +73,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Tabung Amanah Pekerja Act (Cap. 167) (Brunei) — https://www.agc.gov.bn
+- Supplemental Contributory Pensions Order (Brunei)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

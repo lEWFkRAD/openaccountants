@@ -2,10 +2,10 @@
 name: gi-payroll-social-insurance
 description: >
   Prepare ordinary monthly payroll controls using the social-insurance schedule effective 1 July 2026. Special contribution classes, partial periods, employment-law entitlements and cross-border coverage require their own determination. This source-cited draft supports preparation of reviewable working papers using the stated periods, evidence requirements and computation examples. Retain source evidence and effective dates; unresolved points and professional review remain explicit. Use the linked official materials when checking a case, and obtain a qualified local review before filing or making a payment. Read the explicit exclusions before applying its calculations to different facts.
-version: 0.1
+version: "0.2"
 jurisdiction: GI
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -70,6 +70,31 @@ General tax and accounting reference material only. These drafts have not been p
 
 > Contributed by Ryan Duguid.
 
+## Recomputing examples
+
+```oa-check
+name: GI employee SI 10% clamped 62.11-176.76 at 1,500 GBP earnings
+inputs:
+  earnings: 1500
+steps:
+  - raw: earnings * 0.10
+  - due: min(176.76, max(62.11, raw))
+expected:
+  raw: 150.00
+  due: 150.00
+```
+```oa-check
+name: GI employer SI 18% clamped 138.55-243.65 at 1,500 GBP earnings
+inputs:
+  earnings: 1500
+steps:
+  - raw: earnings * 0.18
+  - due: min(243.65, max(138.55, raw))
+expected:
+  raw: 270.00
+  due: 243.65
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -87,3 +112,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- ITO 2026/27 contribution-class schedule — https://www.gibraltar.gov.gi/uploads/Income%20Tax%20Office/Self-Employed/Social%20Insurance%20Contributions%20Class%202026-2027x.pdf
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

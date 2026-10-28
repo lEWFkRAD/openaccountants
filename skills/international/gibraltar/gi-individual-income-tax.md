@@ -2,10 +2,10 @@
 name: gi-individual-income-tax
 description: >
   Prepare an ordinary individual income-tax comparison for the year 1 July 2026 to 30 June 2027. Category 2, HEPSS, pension cases, frontier-worker treaty residence and special deductions require separate review. This source-cited draft supports preparation of reviewable working papers using the stated periods, evidence requirements and computation examples. Retain source evidence and effective dates; unresolved points and professional review remain explicit. Use the linked official materials when checking a case, and obtain a qualified local review before filing or making a payment. Read the explicit exclusions before applying its calculations to different facts.
-version: 0.1
+version: "0.2"
 jurisdiction: GI
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -72,6 +72,33 @@ General tax and accounting reference material only. These drafts have not been p
 
 > Contributed by Ryan Duguid.
 
+## Recomputing examples
+
+```oa-check
+name: GI ABS bands: 14% first 4,000 + 17% next 12,000 + 39% remainder on 30,000 GBP
+inputs:
+  income: 30000
+steps:
+  - b1: min(income, 4000) * 0.14
+  - b2: (min(income, 16000) - 4000) * 0.17
+  - b3: max(income - 16000, 0) * 0.39
+  - tax: b1 + b2 + b3
+expected:
+  b1: 560.00
+  b2: 2040.00
+  b3: 5460.00
+  tax: 8060.00
+```
+```oa-check
+name: GI PAYE default 20% on 3,000 GBP monthly when no code
+inputs:
+  salary: 3000
+steps:
+  - deduct: salary * 0.20
+expected:
+  deduct: 600.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -89,3 +116,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Act 2010 (Gibraltar), s74 — https://www.gibraltar.gov.gi/income-tax-office
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

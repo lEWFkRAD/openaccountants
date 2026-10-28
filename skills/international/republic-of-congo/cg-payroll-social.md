@@ -2,8 +2,9 @@
 name: cg-payroll-social
 description: "Source-cited draft: payroll & social contributions for Republic of Congo (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: CG
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,6 +25,29 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Payroll tax / contribution remittance deadline** — By the 20th of the month following the payroll period (CNSS monthly/quarterly per employer size) ((approx — confirm))  _(Code Général des Impôts (CGI); CNSS regulations)_
 - **Departmental (local) tax** — Flat XAF 2,000 per individual per year XAF  _(Code Général des Impôts (CGI) — https://taxsummaries.pwc.com/republic-of-congo/individual/other-taxes)_
 
+## Recomputing examples
+
+```oa-check
+name: CG CNSS on 1,000,000 XAF monthly gross (employee 4%, employer 8%)
+inputs:
+  gross: 1000000
+steps:
+  - employee: gross * 0.04
+  - employer: gross * 0.08
+expected:
+  employee: 40000.00
+  employer: 80000.00
+```
+```oa-check
+name: CG Taxe Unique sur les Salaires 7.5% on 10,000,000 XAF payroll
+inputs:
+  payroll: 10000000
+steps:
+  - tus: payroll * 0.075
+expected:
+  tus: 750000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -41,3 +65,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code de Sécurité Sociale (Republic of Congo); CNSS regulations
+- Code Général des Impôts (CGI) (Republic of Congo), Taxe Unique sur les Salaires
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

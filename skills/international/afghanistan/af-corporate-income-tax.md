@@ -2,8 +2,9 @@
 name: af-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Afghanistan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: AF
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -30,6 +31,29 @@ Afghan companies and other legal persons pay a flat 20% corporate income tax on 
 - **Corporate return filing deadline** — Within 3 months after the end of the tax year ((approx — confirm))  _(Income Tax Law 2009)_
 - **Corporate tax payment** — Balance due with the annual return; BRT paid quarterly  _(Income Tax Law 2009)_
 
+## Recomputing examples
+
+```oa-check
+name: AF CIT on 1,000,000 AFN taxable profit at flat 20%
+inputs:
+  profit: 1000000
+steps:
+  - tax: profit * 0.20
+expected:
+  tax: 200000.00
+```
+```oa-check
+name: AF contractor withholding: 500,000 AFN licensed (2%) vs unlicensed (7%)
+inputs:
+  contract: 500000
+steps:
+  - licensed: contract * 0.02
+  - unlicensed: contract * 0.07
+expected:
+  licensed: 10000.00
+  unlicensed: 35000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -47,3 +71,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Law 2009 (Afghanistan), corporate income tax and withholding — https://ard.gov.af/
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

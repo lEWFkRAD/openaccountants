@@ -2,10 +2,10 @@
 name: gi-corporate-tax
 description: >
   Prepare a corporate tax working paper for accounting periods wholly after 1 July 2024, checked in 2026. This draft covers ordinary rates and filing controls; it does not compute Pillar Two, specialised exemptions, losses or treaty permanent establishments. This source-cited draft supports preparation of reviewable working papers using the stated periods, evidence requirements and computation examples. Retain source evidence and effective dates; unresolved points and professional review remain explicit. Use the linked official materials when checking a case, and obtain a qualified local review before filing or making a payment. Read the explicit exclusions before applying its calculations to different facts.
-version: 0.1
+version: "0.2"
 jurisdiction: GI
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -64,6 +64,31 @@ General tax and accounting reference material only. These drafts have not been p
 
 > Contributed by Ryan Duguid.
 
+## Recomputing examples
+
+```oa-check
+name: GI CIT 15% standard vs 20% utility rate on 1,000,000 GBP profit
+inputs:
+  profit: 1000000
+steps:
+  - standard: profit * 0.15
+  - utility: profit * 0.20
+expected:
+  standard: 150000.00
+  utility: 200000.00
+```
+```oa-check
+name: GI late-payment surcharges: 10% then 20% on GBP 1,000 outstanding
+inputs:
+  tax: 1000
+steps:
+  - after10: tax * 1.10
+  - after20: after10 * 1.20
+expected:
+  after10: 1100.00
+  after20: 1320.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -81,3 +106,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Act 2010 (Gibraltar), ss64-65 — https://www.gibraltarlaws.gov.gi
+- ITO Guidance Notes for Companies, August 2025 — https://www.gibraltar.gov.gi
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

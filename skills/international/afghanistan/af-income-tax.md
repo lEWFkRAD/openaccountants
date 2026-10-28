@@ -2,8 +2,9 @@
 name: af-income-tax
 description: "Source-cited draft: personal income tax for Afghanistan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: AF
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,34 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Salary income tax is computed monthly under the Income Tax Law 2009 using a low-banded progressive schedule that effectively exempts low earners. The same schedule applies to residents; non-residents are taxed only on Afghan-source income.
 
+## Recomputing examples
+
+```oa-check
+name: AF monthly salary tax on 50,000 AFN
+inputs:
+  salary: 50000
+steps:
+  - band2: (min(salary, 12500) - 5000) * 0.02
+  - band3: (min(salary, 100000) - 12500) * 0.10
+  - fixed: 150
+  - tax: band2 + fixed + band3
+expected:
+  band2: 150.00
+  band3: 3750.00
+  tax: 4050.00
+```
+```oa-check
+name: AF monthly salary tax on 150,000 AFN (top band)
+inputs:
+  salary: 150000
+steps:
+  - top: (salary - 100000) * 0.20
+  - tax: top + 8900
+expected:
+  top: 10000.00
+  tax: 18900.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -45,3 +74,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Law 2009 (Afghanistan), salary tax brackets — https://ard.gov.af/
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

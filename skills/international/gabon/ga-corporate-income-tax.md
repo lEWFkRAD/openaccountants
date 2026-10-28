@@ -2,8 +2,9 @@
 name: ga-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Gabon (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: GA
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -31,6 +32,33 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Second CIT instalment** — 33% of prior year's tax, due 30 January  _(Code Général des Impôts (Gabon) (https://taxsummaries.pwc.com/gabon/corporate/tax-administration))_
 - **Final CIT balance** — Balance due with the return by 30 April  _(Code Général des Impôts (Gabon) (https://taxsummaries.pwc.com/gabon/corporate/tax-administration))_
 
+## Recomputing examples
+
+```oa-check
+name: GA CIT 30% standard vs 35% oil/mining on 100,000,000 XAF profit
+inputs:
+  profit: 100000000
+steps:
+  - standard: profit * 0.30
+  - oil: profit * 0.35
+  - diff: oil - standard
+expected:
+  standard: 30000000.00
+  oil: 35000000.00
+  diff: 5000000.00
+```
+```oa-check
+name: GA WHT on 1,000,000 XAF: dividends/interest 20%, royalties 25%
+inputs:
+  payment: 1000000
+steps:
+  - div: payment * 0.20
+  - roy: payment * 0.25
+expected:
+  div: 200000.00
+  roy: 250000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -48,3 +76,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code Général des Impôts (Gabon), Impôt sur les Sociétés
+- Code Général des Impôts (Gabon), IRCM/WHT
+- Code Général des Impôts (Gabon), Minimum de Perception
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
