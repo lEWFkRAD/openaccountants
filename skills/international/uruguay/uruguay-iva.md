@@ -44,7 +44,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Rate | Application |
 | --- | --- |
 | 22% (tasa basica) | Standard rate on all taxable supplies not otherwise specified |
-| 10% (tasa minima) | Basic food, medicines, hotel accommodation, first sale of residential real estate, newspapers, cleaning products, personal hygiene |
+| 10% (tasa minima) | Basic food, medicines, hotel accommodation, first sale of residential real estate, newspapers, cleaning products, personal hygiene ((note — the archived Título 2 compilation (Diario Oficial Nº 31.421, mayo 2024), Art. 288, discusses a VAT-refund regime of up to 6% of the price of temporary tourist property rentals (arrendamientos temporarios de inmuebles con fines turísticos), indicating tourism rentals sit outside the plain hotel-accommodation category — confirm current DGI treatment)) |
 | 0% | Exports (full input credit recovery) |
 | Exempt (exonerado) | Financial services, education, health, residential rental, public transport, cultural activities |
 
