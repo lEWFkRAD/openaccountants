@@ -1,10 +1,10 @@
 ---
 name: panama-income-tax
 description: Use this skill whenever asked about Panama personal income tax (ISR — Impuesto sobre la Renta) for individuals, self-employed persons, or payroll. Trigger on phrases like "how much income tax do I pay in Panama", "Panama ISR", "declaración jurada de rentas", "income tax return Panama", "allowable deductions Panama", "CSS contributions", "Caja de Seguro Social", "seguro educativo", "territorial taxation", "Panama-source income", "self-employed CSS Law 462", "décimo tercer mes", "estimated tax instalments", "DGI filing", "non-resident withholding Panama", or any question about filing or computing personal income tax or social security for an individual or self-employed client in Panama. Also trigger when classifying a Panamanian bank statement, computing CSS/educational-insurance payroll deductions, or advising on the 15 March filing deadline. This skill covers the progressive ISR brackets, personal deductions, CSS + educational insurance under Law 462 of 2025, filing deadlines, estimated tax, penalties, minimum wage, and the territorial source rule. ALWAYS read this skill before touching any Panama income tax work.
-version: 0.1
+version: 0.2
 jurisdiction: PA
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -73,7 +73,7 @@ Applies to net taxable income of individuals (article 700 of the Código Fiscal)
 | More than USD 11,000 up to USD 50,000 | 15% of the amount over USD 11,000 |
 | More than USD 50,000 | USD 5,850 on the first USD 50,000, plus 25% of the amount over USD 50,000 |
 
-Check: (50,000 − 11,000) × 15% = 5,850, which is the fixed amount in the top band. Income of exactly USD 11,000 pays nothing; the 15% starts on the first balboa above it.
+Check: (50,000 − 11,000) × 15% = 5,850, which is the fixed amount in the top band. Band structure re-verified 2026-10-28 against archived DGI FAQ (`PA-dgi-pa-renta-faq.html`), which states the recovery bands "de B/. 11,000.00 a B/. 50,000.00 podrá recuperar el 15%, y de B/. 50,000.00 en adelante podrá recuperar el 25%" — same 11,000/50,000 boundaries and 15/25% rates. Income of exactly USD 11,000 pays nothing; the 15% starts on the first balboa above it.
 
 DGI's rate page gives only this table for individuals and no separate minimum tax for them. The CAIR alternative calculation described on DGI's pages is written for companies (below).
 
