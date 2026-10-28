@@ -3,7 +3,7 @@ name: mi-estimated-tax
 description: Use this skill whenever asked about Michigan quarterly estimated income tax for individuals — sole proprietors, single-member LLCs, freelancers, and high-income wage earners with insufficient withholding. Trigger on phrases like "Michigan estimated tax", "MI-1040ES", "MI quarterly payments", "Michigan underpayment penalty", "MI-2210", "MCL 206.301", "Michigan estimated tax safe harbor".
 jurisdiction: US-MI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -55,7 +55,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Item | Value | Source |
 | --- | --- | --- |
-| Estimated tax threshold | Expected tax > $500 after withholding and credits | MCL 206.301(1) |
+| Estimated tax threshold | Expected tax > $500 after withholding and credits — VERIFIED vs archived [MCL 206.301(1)](https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-301): "if the person's annual tax can reasonably be expected to exceed the amount withheld under section 351 and the credits allowed under this part by more than $500.00, shall pay ... installments of estimated tax ... on or before April 15, June 15, and September 15 of the person's tax year and January 15 in the following year" | MCL 206.301(1), archived 2026-10-28 |
 | Safe harbor — current year | 90% of current-year tax | MI-1040ES Instr. |
 | Safe harbor — prior year (standard) | 100% of prior-year tax (12-month return) | MI-1040ES Instr. |
 | Safe harbor — high-income (AGI > $150k) | 110% of prior-year tax | MI-1040ES Instr. `[VERIFY:]` see §5 |
@@ -69,6 +69,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Interest rate — H2 2026 | 7.85% annual / 0.0002150 daily | RAB 2026-5 |
 | Late-payment penalty | 10% of underpayment ($10 min/quarter) | MCL 205.24 |
 | Failure-to-file penalty | 25% of tax due ($25 min/quarter) | MCL 205.24 |
+| Interest on deficiency | **current monthly rate = adjusted prime + 1 percentage point, divided by 12**; adjusted prime = average predominant prime quoted by ≥3 commercial banks over the 6-month period ending March 31 (effective July 1) or September 30 (effective January 1 next year); estimated-payment deficiencies accrue the same way — VERIFIED vs archived [MCL 205.23(2)](https://legislature.mi.gov/Laws/MCL?objectName=mcl-205-23) | MCL 205.23(2), archived 2026-10-28 |
+| Negligence / intentional disregard / fraud penalties | negligence (no intent to defraud): greater of **$10 or 10%** of deficiency (waivable for reasonable cause); intentional disregard: greater of **$25 or 25%**; fraudulent intent: **100%** of deficiency — VERIFIED vs archived MCL 205.23(3)–(5) | MCL 205.23(3)–(5), archived 2026-10-28 |
 | Payment methods | MTO eCheck (free); debit card ($3.95); credit card (2.3%); mail + voucher | Treasury |
 | Mail-in address | Michigan Department of Treasury, P.O. Box 30774, Lansing, MI 48909 | MI-1040ES |
 
