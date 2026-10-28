@@ -37,9 +37,11 @@ Special packages are also available:
 
 | Package | What's inside |
 |---------|--------------|
-| `_cross-border` | 37 skills — multi-jurisdiction orchestrator, EU rules, OECD treaty defaults, 70+ treaty corridor WHT rates |
-| `_verticals` | 14 industry-specific skills — banking, charity / nonprofit, construction, consultant, content creator, e-commerce, freelance developer, insurance, investment funds / REITs, medical, oil & gas, property investor, SaaS, shipping / aviation |
-| `_integrations` | 10 platform export formats — Xero, QuickBooks, Stripe, Wise, PayPal, Revolut, Amazon, Shopify, FreeAgent, Sage |
+| `_cross-border` | Multi-jurisdiction orchestrator, EU rules, OECD treaty defaults, treaty corridor WHT rates |
+| `_verticals` | Industry-specific skills (e-commerce, freelance developer, property investor, SaaS, and more) |
+| `_integrations` | Platform export formats (Xero, QuickBooks, Stripe, Wise, PayPal, Shopify, and more) |
+
+Counts per package come from `index.json` at the repo root, never from this file.
 
 ## Tools
 
@@ -95,7 +97,7 @@ Guided workflows that turn the skills into a tax engine, not just a library:
 | `skill-feedback` | `skill_slug`, `country` | Collect structured feedback on a skill after use. |
 | `skill-review` | `skillSlug`, `scenario` | Load a skill's sections and apply them to one scenario. |
 
-> Note: the on-disk server reads the open-source markdown in `packages/`. Most skill files don't carry a `jurisdiction` field, so it's inherited from the package directory (the folder name for `us-XX`/`ca-XX`, otherwise the code its siblings declare). Quality tier is derived from a file's explicit `tier` frontmatter: only `tier: 1` **plus** a named reviewer (`reviewed_by`, or the legacy `verified_by`) reports as accountant-verified. A reviewer name on its own no longer implies tier 1, and a non-tier-1 file's reviewer is not exposed as `verified_by`.
+> Note: the on-disk server reads the open-source markdown in `packages/`. Most skill files don't carry a `jurisdiction` field, so it's inherited from the package directory (the folder name for `us-XX`/`ca-XX`, otherwise the code its siblings declare). Quality tier is derived from a file's explicit `tier` frontmatter: only `tier: 1` **plus** a named reviewer (`reviewed_by`, or the legacy `verified_by`) reports as accountant-reviewed. A reviewer name on its own no longer implies tier 1, and a non-tier-1 file's reviewer is not exposed as `verified_by`.
 
 > **Canadian users on a development (clone) install — important:** the `ca-XX/` provincial packages (`ca-on`, `ca-qc`, `ca-bc`, …) are **generated**, not checked in. After cloning, run `python3 scripts/build-packages.py` once to materialise them. Until you do, the MCP won't return Canadian provincial skills via `list_skills(jurisdiction="CA-ON")` — only the federal Canadian files visible under `packages/canada/`. (The PyPI wheel ships with the packages already built.)
 
@@ -198,6 +200,23 @@ Add to `.cursor/mcp.json` in the project (or via Cursor Settings > MCP):
 
 Run `openaccountants-mcp` (or `python -m openaccountants_mcp`) as a **stdio** transport server.
 
+#### Other clients
+
+Any client that reads an `mcpServers` map works the same way. Google Antigravity, for example, takes either the hosted endpoint or the local package in its MCP settings:
+
+```json
+{
+  "mcpServers": {
+    "openaccountants": {
+      "url": "https://www.openaccountants.com/api/mcp",
+      "transport": "streamable-http"
+    }
+  }
+}
+```
+
+For a local install, `pip install openaccountants-mcp` and use `"command": "python", "args": ["-m", "openaccountants_mcp.server"]` with `"env": {"MCP_TRANSPORT": "stdio"}` instead of `url`. Tell the agent to compute only from the rates and thresholds in the loaded skills, never from memory, and to flag anything it assumed for an accountant to check.
+
 ### Start chatting
 
 > Help me with my 2025 taxes. Here's my bank statement.
@@ -280,4 +299,4 @@ All checks should pass (path safety, tool outputs, jurisdiction count, US state 
 
 ## Disclaimer
 
-All skills and outputs are for informational and computational purposes only. Not tax, legal, or financial advice. Not a replacement for professional judgment. Every skill is in one of [two tiers](../docs/QUALITY-TIERS.md) — **accountant-reviewed** (a licensed practitioner reviewed and signed off) or a **source-cited draft** (drafted from authoritative sources, awaiting review). Most skills are source-cited drafts. Always have a qualified professional review before filing or acting upon.
+All skills and outputs are for informational and computational purposes only. Not tax, legal, or financial advice. Not a replacement for professional judgment. Every skill is in one of [two tiers](../docs/QUALITY-TIERS.md) — **accountant-reviewed** (a licensed practitioner reviewed and signed off) or tier 2, **checked against the law** (built to the standard and independently reviewed before merge) or **sourced from the law** (older skill not yet rebuilt; every figure cited to an official source), with no accountant sign-off yet. Most skills are tier 2. Always have a qualified professional review before filing or acting upon.

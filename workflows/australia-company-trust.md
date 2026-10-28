@@ -66,4 +66,4 @@ This workflow stops and refers when it hits: consolidation/MEC groups, trust los
 
 ## Verifier
 
-Pending. Australian CPA/CA sign-off required; drafted from primary sources (ATO, legislation.gov.au) and awaiting Partner review.
+Sourced from the law. Every figure cited to an official source (ATO, legislation.gov.au); not yet reviewed by an Australian CPA/CA.

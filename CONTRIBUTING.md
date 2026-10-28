@@ -4,27 +4,39 @@ Thanks for your interest in contributing. Here's how it works.
 
 ## Who can contribute
 
-Skills are written by **verified accountants**: people whose professional licence or registration number we have checked. Provisional or student members of a professional body (for example a CA ANZ provisional member) count too, once we have checked their membership. Pull requests that add or change skills (`skills/**`) are merged only from verified accountants.
+Anyone. A skill lands as **Checked against the law** (`tier: 2`): built to [the standard](docs/skill-template.md), every figure cited to the law and checked against the statute by an independent review before merge; no accountant has signed it off yet. Older skills not yet rebuilt to the standard are **Sourced from the law** (`tier: 2`): every figure cited to an official source, no accountant sign-off. Drafts are welcome; they are how most of the library started. A skill becomes **accountant-reviewed** (`tier: 1`) only when a licensed accountant whose credential we have checked reviews the whole skill and puts their name on it. Those are the only two tiers; see [docs/QUALITY-TIERS.md](docs/QUALITY-TIERS.md).
 
-To get verified: sign up at [openaccountants.com](https://www.openaccountants.com), finish the [accountant application](https://www.openaccountants.com/onboarding/accountant) with your licence, registration or membership number, and set your GitHub username in your profile so we can match your pull requests to you.
+To review as an accountant: sign up at [openaccountants.com](https://www.openaccountants.com), finish the [accountant application](https://www.openaccountants.com/onboarding/accountant) with your licence, registration or membership number (provisional and student members of a professional body count, once checked), and set your GitHub username in your profile so we can match your pull requests to you.
 
-Not an accountant? You are still welcome to:
+Not an accountant? You can still:
 
-- **Report an error** in a skill by opening an issue with the source that shows it. A verified accountant or the OpenAccountants team will fix it.
-- **Contribute code** (`mcp/`, `scripts/`, `.github/`). Code changes do not need an accountant licence.
+- **Draft or fix a skill** from official sources and open a PR. It merges as Checked against the law (`tier: 2`).
+- **Report an error** in a skill by opening an issue with the source that shows it.
+- **Contribute code** (`mcp/`, `scripts/`, `calculators/`, `.github/`).
 
 There are no fees and no minimum contribution. Contributions of any kind need the [CLA](#contributor-license-agreement-cla).
 
+## The work: complete a pack
+
+[GOAL.md](GOAL.md) sets the target: every jurisdiction with a complete, verified, reviewed tax pack. The work is tracked as one issue per jurisdiction, `[XX] Complete the pack`, on the **Cover the world** milestone, labelled `coverage` plus `owner:<name>` or `owner:open`.
+
+1. Take an issue. Comment `taking` on an `owner:open` issue, or ask the owner in [OWNERS.md](OWNERS.md) for one.
+2. Branch `pack/<code>`. Draft the missing domains in the deep-tax shape from [docs/skill-template.md](docs/skill-template.md), with a `## Sources` section and two worked examples that recompute.
+3. Run `python3 scripts/validate-guides.py --changed-only` and `python3 scripts/check-examples.py --changed-only`.
+4. Open a PR with `Closes #N`. A maintainer listed in [OWNERS.md](OWNERS.md) merges. Nothing counts until merged.
+
+```
+gh issue list -R openaccountants/openaccountants -l coverage -l owner:open -m "Cover the world" --state open
+```
+
+**Keep it public.** This repository is read by every AI that crawls it. No client names, no prices, no internal plans, no private contact details in any file.
+
 ## How to contribute a skill
 
-### Option 1: Via the website
+### Via GitHub PR
 
-1. Go to [openaccountants.com](https://www.openaccountants.com)
-2. Sign up for an account
-3. Use the submission form to upload your skill
-4. It goes live immediately as a **source-cited draft**
+Skills are added and changed only through pull requests to this repository.
 
-### Option 2: Via GitHub PR
 
 1. Fork this repo
 2. Create your skill in the appropriate **source** directory (`skills/federal/`, `skills/us-states/[code]/`, `skills/international/[country]/`, etc.)
@@ -53,13 +65,13 @@ Full details: [docs/WEBSITE-SYNC.md](docs/WEBSITE-SYNC.md)
 
 **The canonical spec for skill files — required/optional frontmatter keys, formats, the `category` vocabulary, and the body section order — is [docs/skill-template.md](docs/skill-template.md).** Don't restate it; follow it. CI validates required guide schema with `scripts/validate-guides.py` and synchronization metadata with `scripts/check-sync-integrity.py`; citation quality and body structure still require reviewer judgment.
 
-One-line summary: YAML frontmatter (`name`, `description`, `jurisdiction`, `category`, `tax_year`, `tier`, `last_updated`, plus optional keys), then a body that runs scope → filing requirements → rates with citations → step-by-step computation rules → edge cases → self-checks → disclaimer.
+One-line summary: YAML frontmatter (`name`, `description`, `jurisdiction`, `category`, `tax_year`, `tier`, `last_updated`, plus optional keys), then, for a tax skill, the deep-tax shape: who it applies to, rates and thresholds with sources, the base, deadlines, penalties, cross-border points, two worked examples that recompute, the questions to ask the client, and sources with read dates.
 
 All domain skills for a country live in the same directory (e.g., `skills/international/germany/` contains tax, bookkeeping, payroll, formation, financial statements, transfer pricing, tax optimization, and e-invoicing). The build script detects them by filename suffix and bundles the appropriate workflow base automatically.
 
 ## Quality standards
 
-- Every amount, percentage, and threshold must have a primary source citation (statute, tax authority guidance, or official rate schedule)
+- Follow the ten rules in [docs/skill-template.md](docs/skill-template.md): every amount, percentage, threshold and deadline cited to the law or the tax authority, with the article and a read date; never Big Four firms or blogs; nothing unconfirmed in the skill; one independent review before merge
 - Computation rules must be mechanical — the AI should be able to follow them step by step
 - Scope must be explicit — what's covered and what's deferred to other skills
 - **US skills** load on top of `us-tax-workflow-base` (in `skills/foundation/`)
@@ -109,9 +121,9 @@ You never need to run the generators: the scheduled platform sync regenerates ev
 
 If you add a `references.md` to a country's source directory, it will be included in the generated package automatically.
 
-## Review
+## Review and merge
 
-A verified accountant's skill publishes credited to them as **Accountant-authored**. Another verified accountant can then attest to it, and their name and review date go on it too.
+Maintainers listed in [OWNERS.md](OWNERS.md) merge. A merged skill without an accountant reviewer is `tier: 2` (Checked against the law). When a licensed accountant reviews it, they set `tier: 1`, `reviewed_by` and `reviewed_on` in a PR of their own, and their name goes on the skill here and on every AI answer that cites it.
 
 ## Contributor License Agreement (CLA)
 
@@ -127,5 +139,5 @@ If anything in [CLA.md](CLA.md) is unclear, ask before contributing.
 
 - Your name on the skill, linked to your contributor profile
 - Public contributor profile showing all your contributions
-- Attestation from other verified accountants, named on the skill
+- Your name, credential and review date on every skill you review, in this repo and in [VERIFIERS.md](VERIFIERS.md)
 - The knowledge that thousands of freelancers and small businesses are using your skill to manage their accounting
