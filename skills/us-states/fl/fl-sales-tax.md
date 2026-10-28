@@ -2,11 +2,11 @@
 name: fl-sales-use-tax
 description: >
   Florida Sales and Use Tax return (Form DR-15) for self-employed individuals and small businesses. Covers the 6% state sales tax rate, county discretionary sales surtax, use tax on out-of-state purchases, exempt transactions, filing frequencies, and dealer collection allowance. Primary source: Florida Statutes Chapter 212.
-version: 1.0
+version: 1.1
 jurisdiction: US-FL
 tax_year: 2025
 tier: 2
-last_updated: 2026-06-12
+last_updated: 2026-10-28
 category: state
 depends_on:
   - us-tax-workflow-base
@@ -88,7 +88,7 @@ Any person who makes or intends to make taxable sales or charges admission in Fl
 
 ### Discretionary sales surtax (selected counties, 2025)
 
-The surtax is levied by individual counties and applies to the first $5,000 of any single taxable transaction. **Source:** §212.055, F.S.
+The surtax is levied by individual counties and applies to the first $5,000 of the sales amount of any single item of tangible personal property (the sales amount above $5,000 per item is not subject to surtax). **Source:** §212.054(4)(b)1., F.S. (county surtax authorization: §212.055, F.S.)
 
 | County | Surtax rate | Combined rate | Source |
 |--------|-------------|---------------|--------|
@@ -124,7 +124,7 @@ For each sale during the reporting period, determine:
 
 1. **Taxable or exempt?** See Section 5 for exemptions.
 2. **Location of delivery.** Determines which county surtax applies.
-3. **Single transaction amount.** Surtax applies only to the first $5,000 of each transaction.
+3. **Per-item amount.** Surtax applies only to the first $5,000 of the sales amount of each individual item (items normally sold in bulk, or that assemble into one working unit, count as a single item when documented).
 
 ### Step 2: Compute gross sales (DR-15 Line 1)
 
@@ -146,7 +146,7 @@ Taxable amount x 6.0% = state sales tax due.
 
 For each county where sales were delivered:
 - Identify the applicable surtax rate from DR-15DSS.
-- Apply surtax to the first $5,000 of each individual taxable transaction in that county.
+- Apply surtax to the first $5,000 of the sales amount of each individual item delivered in that county.
 - Sum all surtax amounts.
 
 ### Step 7: Compute use tax (DR-15 Line 6)
