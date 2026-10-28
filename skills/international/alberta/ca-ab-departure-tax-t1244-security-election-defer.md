@@ -1,9 +1,10 @@
 ---
 name: ca-ab-departure-tax-t1244-security-election-defer
 description: How an emigrant from Alberta elects under subsection 220(4.5) on Form T1244 to defer payment of departure tax, and what the CRA pages say (and do not say) about the security that must back the deferral.
+version: "0.2"
 jurisdiction: CA-AB
 tax_year: 2026
-last_updated: 2026-09-03
+last_updated: 2026-10-28
 review_status: pending_review
 drafted_by: OpenAccountants
 approved_by: pending

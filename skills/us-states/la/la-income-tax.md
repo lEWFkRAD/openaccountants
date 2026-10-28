@@ -1,10 +1,10 @@
 ---
 name: la-income-tax
 description: Use this skill whenever asked about Louisiana individual income tax. Trigger on phrases like "Louisiana income tax", "LA income tax", "IT-540", "LDR", "R.S. 47:21", "Louisiana flat tax". Louisiana reformed to a flat 3% rate effective 2025 (Act 11 of 2024 3rd Extraordinary Session). ALWAYS load us-tax-workflow-base first.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-LA
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -51,8 +51,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Tax year | Rate | Source |
 | --- | --- | --- |
-| 2024 and prior | Graduated: 1.85% / 3.50% / 4.25% | La. R.S. 47:32 (prior law) |
-| 2025 and after | **Flat 3.00%** | Act 11 (H.B. 10, 2024 3rd Extraordinary Session) |
+| 2024 and prior | Graduated: 1.85% / 3.50% / 4.25% | La. R.S. 47:32 (prior law); [RIB 25-012 (archived PDF)](https://dam.ldr.la.gov/lawspolicies/RIB-25-012-Louisiana-Individual-Income-Tax-Reform-1.pdf) rate tables |
+| 2025 and after | **Flat 3.00%** ("Act 11 repeals the graduated rates and brackets for individuals in favor of a flat 3% tax rate applicable to all taxable income") | Act 11 (H.B. 10, 2024 3rd Extraordinary Session); [RIB 25-012, archived 2026-10-28](https://dam.ldr.la.gov/lawspolicies/RIB-25-012-Louisiana-Individual-Income-Tax-Reform-1.pdf) |
 
 - **Flat rate effective date** — Effective January 1, 2025, Louisiana replaced its three-bracket graduated system with a flat 3% rate on all taxable income, for all filing statuses.  _(Act 11 (H.B. 10, 2024 3rd Extraordinary Session))_
 
@@ -68,7 +68,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Head of Household | $25,000 |
 | Qualifying Surviving Spouse | $25,000 |
 
-- **Standard deduction note** — These amounts were significantly increased by Act 11 (previously $4,500 / $9,000). Beginning January 1, 2026, the standard deduction is adjusted annually for CPI inflation.  _(Act 11)_
+- **Standard deduction note** — These amounts were significantly increased by Act 11 ("increasing it from $4,500 to $12,500 for taxpayers with a filing status of single or married filing separately"; MFJ/QSS/HoH "increasing from $9,000 to $25,000" — RIB 25-012, archived). Beginning January 1, 2026, the standard deduction is adjusted annually for CPI inflation.  _(Act 11)_
 
 ### Personal exemptions
 
@@ -76,7 +76,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Retirement income exemption
 
-- **Retirement income exemption** — $12,000 USD (annual retirement income exempt for taxpayers age 65+; adjusted annually for CPI beginning in 2026)
+- **Retirement income exemption** — $12,000 USD (RIB 25-012: "increases the exemption for annual retirement income received by individuals aged 65 or older, raising it from $6,000 to $12,000 per person"; adjusted annually for CPI beginning in 2026)
 
 ## Section 3: How this skill works with the federal return
 

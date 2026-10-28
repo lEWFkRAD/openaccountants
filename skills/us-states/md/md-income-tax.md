@@ -1,10 +1,10 @@
 ---
 name: md-income-tax
 description: Use this skill whenever asked about Maryland individual income tax. Trigger on phrases like "Maryland income tax", "MD income tax", "Form 502", "Comptroller of Maryland", "Maryland county tax", "piggyback tax". Maryland has 10 graduated state brackets (2%–6.50%) PLUS mandatory county/city income taxes (2.25%–3.20%). ALWAYS load us-tax-workflow-base first.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-MD
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -48,7 +48,7 @@ This skill covers full-year Maryland residents filing Form 502, including sole p
 
 ### State income tax rate schedules, tax years 2025 and 2026 ([rate schedules](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf); [statute](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false))
 
-The 2025 Budget Reconciliation and Financing Act (Chapter 604 of 2025) kept the brackets up to 5.75%, capped that bracket, and added two top brackets for tax years beginning after 31 December 2024. The same schedules appear in the Comptroller's 2026 estimated-tax worksheet.
+The 2025 Budget Reconciliation and Financing Act (Chapter 604 of 2025) kept the brackets up to 5.75%, capped that bracket, and added two top brackets for tax years beginning after 31 December 2024. The same schedules appear in the Comptroller's 2026 estimated-tax worksheet. Both schedules match the archived statute text verbatim ([§ 10-105(a)(1)–(2), archived 2026-10-28](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false)): Schedule I runs 2% ($1–$1,000) through 6.50% "of Maryland taxable income in excess of $1,000,000"; Schedule II through 6.50% in excess of $1,200,000.
 
 Schedule I: Single, Married Filing Separately, Dependent (and fiduciaries)
 
@@ -126,7 +126,7 @@ Source: [Exemption Amount Chart 10A](https://www.marylandtaxes.gov/content/dam/m
 
 ### Local (county and Baltimore City) income tax ([2026 rates](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf); [2025 rates](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf))
 
-Local tax is a percentage of the same Maryland taxable net income (Line 20). A county may set a rate of at least 2.25% and, from tax years beginning after 31 December 2025, not more than 3.30% (previously 3.20%). Only Dorchester used the one-year option to charge 3.30% for 2025. Counties may use brackets, but no bracket may be below 2.25% and a higher bracket may not carry a lower rate. [§ 10-106](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false)
+Local tax is a percentage of the same Maryland taxable net income (Line 20). A county may set a rate of at least 2.25% and, from tax years beginning after 31 December 2025, not more than 3.30% (previously 3.20%) — § 10-106(a)(1) as archived 2026-10-28: "a county income tax equal to at least 2.25% but not more than 3.30% of an individual's Maryland taxable income"; a public hearing is required before a county exceeds 2.6%. Only Dorchester used the one-year option to charge 3.30% for 2025. Counties may use brackets, but no bracket may be below 2.25% and a higher bracket may not carry a lower rate. [§ 10-106](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false)
 
 | Jurisdiction | 2025 | 2026 |
 | --- | --- | --- |

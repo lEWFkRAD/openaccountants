@@ -1,9 +1,10 @@
 ---
 name: cw-payroll-social
 description: "Source-cited draft: payroll & social contributions for Curacao (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
+version: "0.2"
 jurisdiction: CW
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team

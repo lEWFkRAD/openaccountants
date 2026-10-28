@@ -1,10 +1,10 @@
 ---
 name: me-income-tax
 description: Use this skill whenever asked about Maine individual income tax for self-employed persons, sole proprietors, or single-member LLCs. Trigger on phrases like "Maine income tax", "ME income tax", "Form 1040ME", "Maine Revenue Services", "36 M.R.S. § 5111".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-ME
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -57,7 +57,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | $0 – $27,400 | 5.80% |
 | $27,400 – $64,850 | 6.75% |
 | $64,850 – $1,000,000 | 7.15% |
-| Over $1,000,000 | 9.15% (7.15% + 2% surcharge) |
+| Over $1,000,000 | 9.15% (7.15% + 2% surcharge) — surcharge thresholds verified verbatim vs [36 M.R.S. §5111(7), archived 2026-10-28](https://legislature.maine.gov/statutes/36/title36sec5111.html): "an income tax surcharge at the rate of 2% on that portion of the taxpayer's Maine taxable income in excess of: … B. For single individuals, $1,000,000; C. For heads of households, $1,500,000; and D. For individuals filing married joint returns or surviving spouses, $1,500,000" (MFS = 1/2 of the joint amount), for tax years beginning on or after January 1, 2026 (PL 2025, c. 650) |
 
 ### Tax rates — 2026 tax year (MFJ / Qualifying Surviving Spouse)
 

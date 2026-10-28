@@ -1,10 +1,10 @@
 ---
 name: or-income-tax
 description: Triggers when the taxpayer is an Oregon resident sole proprietor or single-member LLC needing to file Oregon Form OR-40. Covers Oregon's four-bracket graduated income tax (4.75%–9.9% for tax year 2025), standard and itemized deductions, personal exemption credit, federal tax subtraction, and Oregon's unique no-sales-tax environment. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-OR
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -45,6 +45,10 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Oregon Tax Rate Charts (2025) | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx |
 
 ## Section 2: Quick reference — rates and thresholds
+
+### Statutory base table (ORS 316.048(1)(a), archived 2026-10-28)
+
+The unindexed statutory table is: not over $2,000 — 4.75%; over $2,000 but not over $5,000 — $95 + 6.75% of excess; over $5,000 but not over $125,000 — $298 + 8.75% of excess; over $125,000 — "$10,798 plus 9.9% of the excess over $125,000". Under ORS 316.048(1)(b) DOR "shall adopt a table" applying cost-of-living adjustments each calendar year — the indexed 2025 tables below come from that DOR table.
 
 ### Tax brackets — Single and Married Filing Separately (tax year 2025)
 
