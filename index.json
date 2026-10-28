@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:34:44+00:00",
+ "generated_at": "2026-10-28T20:35:35+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -25924,7 +25924,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "in-cross-border",
@@ -25936,7 +25936,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "in-income-tax",
@@ -25948,7 +25948,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "in-payroll",
@@ -25960,7 +25960,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "in-sales-tax",
@@ -25972,7 +25972,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "in-social-contributions",
@@ -25984,7 +25984,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "in-transfer-pricing",
@@ -25996,7 +25996,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "indiana-sales-tax",
@@ -26008,7 +26008,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ks-corporate-income-tax",
