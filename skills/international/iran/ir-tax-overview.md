@@ -2,8 +2,9 @@
 name: ir-tax-overview
 description: "Source-cited draft: tax overview for Iran (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: IR
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -25,6 +26,27 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Corporate annual return deadline** — Within 4 months after the end of the fiscal year (e.g. by ~22 July for a fiscal year ending 20 March) (approx — confirm exact Gregorian date)  _(Direct Taxes Act (DTA), Article 110)_
 - **Individual (business income) return deadline** — By the end of the fourth month after year-end — typically end of Tir (~22 July) (approx — confirm exact date)  _(Direct Taxes Act (DTA), Article 100)_
 
+## Recomputing examples
+
+```oa-check
+name: IR CIT 25% on 100,000,000,000 IRR profit
+inputs:
+  profit: 100000000000
+steps:
+  - cit: profit * 0.25
+expected:
+  cit: 25000000000.00
+```
+```oa-check
+name: IR VAT 9% on 10,000,000,000 IRR supply
+inputs:
+  supply: 10000000000
+steps:
+  - vat: supply * 0.09
+expected:
+  vat: 900000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -42,3 +64,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Direct Taxes Act (Iran), Articles 100, 105, 131
+- Value Added Tax Act (Permanent VAT Act, in force from 2022) (Iran)
+- Central Bank of Iran (Bank Markazi)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

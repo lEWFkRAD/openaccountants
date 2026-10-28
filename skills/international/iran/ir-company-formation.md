@@ -2,8 +2,9 @@
 name: ir-company-formation
 description: "Source-cited draft: company formation & entity choice for Iran (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: IR
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -25,6 +26,32 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Foreign investment approval** — Foreign investors may seek a licence under the Foreign Investment Promotion and Protection Act (FIPPA) for legal protections and capital/profit repatriation rights  _(Foreign Investment Promotion and Protection Act (FIPPA))_
 - **Core annual compliance** — Hold an annual general meeting, prepare financial statements, file the annual tax return within 4 months of year-end, file quarterly VAT returns, and file monthly SSO payroll lists  _(Commercial Code of Iran; Direct Taxes Act (DTA); Value Added Tax Act)_
 
+## Recomputing examples
+
+```oa-check
+name: IR common registered capital IRR 1,000,000 vs 5,000,000
+inputs:
+  lo: 1000000
+  hi: 5000000
+steps:
+  - ratio: hi / lo
+  - gap: hi - lo
+expected:
+  ratio: 5.00
+  gap: 4000000.00
+```
+```oa-check
+name: IR FIPPA-related 20% vs 35% figures on 100,000,000 IRR
+inputs:
+  amount: 100000000
+steps:
+  - a: amount * 0.20
+  - b: amount * 0.35
+expected:
+  a: 20000000.00
+  b: 35000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -42,3 +69,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Foreign Investment Promotion and Protection Act (FIPPA) (Iran)
+- Commercial Code of Iran (1932, amended 1969)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

@@ -2,8 +2,9 @@
 name: ir-income-tax
 description: "Source-cited draft: personal income tax for Iran (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: IR
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -32,6 +33,38 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual exemption for business individuals** — Individual business/professional taxpayers receive an annual personal exemption equal to the salary exemption (Article 101); confirm the FY1404 figure IRR ((approx — confirm FY1404 amount))  _(Direct Taxes Act (DTA), Article 101)_
 - **Filing & payment deadline (business income)** — Annual return due by the end of the fourth month after fiscal year-end (~22 July); tax payable with the return; (approx — confirm exact date)  _(Direct Taxes Act (DTA), Article 100)_
 
+## Recomputing examples
+
+```oa-check
+name: IR salary tax: exemption IRR 2,880,000,000; 10% band up to 5x exemption on 10,000,000,000 IRR salary
+inputs:
+  salary: 10000000000
+  exempt: 2880000000
+steps:
+  - band1_cap: exempt * 5
+  - band1: (min(salary, band1_cap) - exempt) * 0.10
+  - band2: max(salary - band1_cap, 0) * 0.20
+  - tax: band1 + band2
+expected:
+  band1_cap: 14400000000.00
+  band1: 712000000.00
+  band2: 0.00
+  tax: 712000000.00
+```
+```oa-check
+name: IR Article 131: 15% up to IRR 2,000,000,000, 25% above on 5,000,000,000 IRR business income
+inputs:
+  income: 5000000000
+steps:
+  - b1: min(income, 2000000000) * 0.15
+  - b3: max(income - 2000000000, 0) * 0.25
+  - tax: b1 + b3
+expected:
+  b1: 300000000.00
+  b3: 750000000.00
+  tax: 1050000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -49,3 +82,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Direct Taxes Act (Iran), Articles 84-86, 100, 101, 131
+- FY1404 Annual Budget Law (Iran)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
