@@ -2,8 +2,9 @@
 name: bn-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Brunei (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BN
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -33,6 +34,29 @@ Brunei's standard corporate income tax rate is 18.5% for resident and non-reside
 - **Corporate return filing and payment deadline** — Return filed and tax paid by 30 June of the year of assessment  _(Income Tax Act (Cap. 35) — https://taxsummaries.pwc.com/brunei-darussalam/corporate/tax-administration)_
 - **Late payment penalty** — 5% penalty on unpaid tax, plus an additional 1% per month if unpaid after 60 days, capped at 12% additional (approx — confirm)  _(Income Tax Act (Cap. 35) — https://taxsummaries.pwc.com/brunei-darussalam/corporate/tax-administration)_
 
+## Recomputing examples
+
+```oa-check
+name: BN CIT 18.5% on 500,000 BND chargeable income (above BND 250,000)
+inputs:
+  income: 500000
+steps:
+  - tax: income * 0.185
+expected:
+  tax: 92500.00
+```
+```oa-check
+name: BN withholding on 100,000 BND: interest 2.5%, royalties 10%
+inputs:
+  payment: 100000
+steps:
+  - interest: payment * 0.025
+  - royalty: payment * 0.10
+expected:
+  interest: 2500.00
+  royalty: 10000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -50,3 +74,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Act (Cap. 35) (Brunei)
+- Income Tax (Petroleum) Act (Cap. 119) (Brunei)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
