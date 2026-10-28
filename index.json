@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:39:54+00:00",
+ "generated_at": "2026-10-28T21:39:57+00:00",
  "counts": {
   "guides": 2523,
   "jurisdictions": 274,
@@ -10756,7 +10756,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gi-individual-income-tax",
@@ -10768,7 +10768,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gi-payroll-social-insurance",
@@ -10780,7 +10780,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gi-property-stamp-duty",
@@ -10792,7 +10792,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gi-transaction-tax-transition",
@@ -10804,7 +10804,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gr-capital-gains",
