@@ -1,10 +1,10 @@
 ---
 name: ecuador-iva
 description: Use this skill whenever asked to prepare, review, or classify transactions for an Ecuador IVA (Impuesto al Valor Agregado) return (Formulario 104) for any client. Trigger on phrases like "prepare IVA return", "Ecuador VAT", "Formulario 104", "SRI return", or any request involving Ecuador value added tax filing. This skill covers Regimen General taxpayers only. RIMPE Negocios Populares, oil-sector service contracts, and ZEDE entities are in the refusal catalogue. ALWAYS read this skill before touching any Ecuador IVA work.
-version: 2.0
+version: 2.1
 jurisdiction: EC
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
