@@ -3,7 +3,7 @@ name: ky-payroll
 description: Tier 2 Kentucky content skill for employer payroll compliance covering tax year 2025. Includes the 4.0% flat PIT phasing down to 3.5% in 2026, K-1 quarterly withholding, K-3 annual reconciliation, KY SUI wage base $11,400 with rates 0.225-9.0%, the 200+ city and county occupational license tax system collected by work-location (Louisville 2.2%, Lexington 2.25%), school district wage tax (0.5-0.75% in some districts), reciprocal agreements with OH/IN/IL/MI/VA/WV exempting non-resident employees from KY withholding, and Form OL-3 occupational license return.
 jurisdiction: US-KY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2

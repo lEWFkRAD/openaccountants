@@ -1,9 +1,10 @@
 ---
 name: nj-payroll
-description: Tier 2 New Jersey content skill for employer payroll compliance covering tax year 2025. Includes the 10.75% Gross Income Tax top rate, supplemental wage rate 11.8%, NJ-927 single quarterly combined return for withholding/UI/TDI/FLI/WD, TDI rates split between employee (0.23%) and employer (0.93%), FLI 0.06% employee-only (post-2024 reduction), SUI wage base $43,300, ABC test contractor classification under NJ Wage and Hour Law, Earned Sick Leave Law 40-hour minimum, and the BAIT estimated payment schedule for PTE-electing pass-throughs.
+description: Tier 2 New Jersey content skill for employer payroll compliance covering tax year 2026. Includes the 10.75% Gross Income Tax top rate, supplemental wage rate 11.8%, NJ-927 single quarterly combined return for withholding/UI/TDI/FLI/WD, worker TDI 0.19% and FLI 0.23% for 2026 (down from 0.23%/0.33% in 2025), employer new-employer UI 2.6825% + WF/SWF 0.1175% + DI 0.5%, SUI wage base $44,800 (2026) / $43,300 (2025), ABC test contractor classification under NJ Unemployment Compensation Law, Earned Sick Leave Law 40-hour minimum, and the BAIT estimated payment schedule for PTE-electing pass-throughs.
 jurisdiction: US-NJ
 tax_year: 2026
-last_updated: 2026-10-16
+version: 0.2
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -113,11 +114,12 @@ Figures are for 2026 unless a line says 2025. Worker contribution rates and wage
 | WF/SWF | 0.1175% | 0.1175% | 0.1175% |
 | Total UI plus WF/SWF | 3.1% | 2.8% | 2.8% |
 
-- **New employer TDI (DI):** 0.5% in each of these three rate years ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
+- **New employer rates are assigned for the first three calendar years.** "All new employers (except successors) are assigned new employer rates for the first three calendar years, after which a calculated rate is assigned based on employment experience" ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
+- **New employer TDI (DI):** 0.5% ("0.00500") in each of these three rate years ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
 - **The employer pays no FLI.** FLI is funded by workers ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
 - **Employer wage base:** employer UI, WF/SWF and TDI stop at $44,800 per employee for 2026 ($43,300 for 2025).
 - **WF/SWF is carved out of the UI rate, not added to it.** Table C shows a total rate, of which 0.1000% goes to the Workforce Development fund and 0.0175% to the Supplemental Workforce fund. The rest is UI. So the 2.8% new employer rate for July 2026 to June 2027 is 2.6825% UI plus 0.1175% WF/SWF ([Table C](https://www.nj.gov/labor/ea/assets/PDFs/FY20262027%20TABLE%20C.pdf)).
-- **Experience-rated employers.** From July 1 of the fourth year of liability, the UI rate depends on the employer's own reserve ratio ([Employer Handbook, taxes and wages](https://www.nj.gov/labor/ea/help/employer_handbook/taxes_wages.shtml)). NJDOL is using Table C for July 2026 to June 2027. On Table C, total rates for positive reserve ratios run from 0.5% (17.00% and over) to 3.6%. Deficit reserve ratios run from 5.1% to 5.8%. There is also a specially assigned rate of 5.4% (positive) or 5.8% (negative) ([Table C](https://www.nj.gov/labor/ea/assets/PDFs/FY20262027%20TABLE%20C.pdf)). Use the rate on the employer's notice.
+- **Experience-rated employers.** From July 1 of the fourth year of liability, the UI rate depends on the employer's own reserve ratio ([Employer Handbook, taxes and wages](https://www.nj.gov/labor/ea/help/employer_handbook/taxes_wages.shtml)). NJDOL is using Table C for July 2026 to June 2027. On Table C, total rates for positive reserve ratios run from 0.5% ("17.00% AND OVER 0.5%") to 3.6% ("0.00% TO 0.99% 3.6%"). Deficit reserve ratios run from 5.1% to 5.8%. There is also a specially assigned rate of 5.4% (positive) or 5.8% (negative) ("SPECIAL ASSIGNED RATE 5.4%" / "SPECIAL ASSIGNED RATE 5.8%") ([Table C](https://www.nj.gov/labor/ea/assets/PDFs/FY20262027%20TABLE%20C.pdf)). Use the rate on the employer's notice.
 - **Experience-rated TDI.** The employer's TDI rate is also experience-rated and shown on its notice.
 - **Voluntary contribution.** An experience-rated employer may lower its UI rate by paying a voluntary contribution. NJDOL must receive it within 30 days of the date of the "Notice of Employer Contribution Rates" (Form UC-45 is the voluntary contribution report). Notices are now issued through Employer Access rather than mailed, so confirm the deadline with NJDOL. It lowers only the employer UI rate.
 - **Rate years straddle calendar years.** A calendar-year payroll uses the old rate from January to June and the new rate from July to December. The wage base runs by calendar year.

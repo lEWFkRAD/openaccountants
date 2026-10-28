@@ -8,18 +8,20 @@ description: >-
   pending publication), mandatory statutory disability insurance (SDI,
   employee 0.5% of wages up to $300/week, max $1.50/week, employer
   may pay — needs-sources this run), employer-only unemployment
-  insurance, and the MCTMT payroll tax in the MCTD (cross-reference
-  ny-mctmt). Trigger on NY PFL contribution, NY SDI, 0.388 percent,
-  354.53, NYS-45, New York disability insurance.
-  Source-cited draft; PFL figures verified 2026-10-25, SDI figures need
-  official confirmation.
+  insurance (2026: 1.7% lowest to 9.5% total incl. 0.075% RSF, new
+  employer 4.1%; verified on dol.ny.gov), and the MCTMT payroll tax in
+  the MCTD (cross-reference ny-mctmt). Trigger on NY PFL contribution,
+  NY SDI, 0.388 percent, 354.53, NYS-45, New York disability insurance,
+  NY UI rates.
+  Source-cited draft; PFL and UI figures verified against archived
+  official pages 2026-10-28, SDI figures need official confirmation.
 jurisdiction: US-NY
 category: payroll
 tax_year: 2026
 tier: 2
 verified_by: pending
-last_updated: 2026-10-25
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 ---
 
 # New York social contributions (PFL, SDI, UI, MCTMT overlay)
@@ -35,7 +37,7 @@ Every NY employer (and out-of-state employers with NY employees) for **Paid Fami
 - **PFL employee contribution (verified).** "For 2025, employees contribute 0.388% of their gross wages per pay period, with a maximum annual contribution of $354.53. Employees earning less than the current NYSAWW of $1,757.19 will contribute less than the annual cap." Commissions and bonuses are wages; contributions are employee-paid unless the employer elects to pay them; reported in W-2 Box 14 ("State disability insurance taxes withheld" convention). _(paidfamilyleave.ny.gov/cost, 200 with text, 2026-10-25. The page hosts 2026 and 2027 calculators but the 2026 rate/SAWW text: **needs-sources** — re-check the cost page when 2026 figures post.)_
 - **PFL is not optional** for eligible employees; waiver only for employees regularly scheduled <20 hours/week who will not work 175 days in a year, or similarly limited part-timers. _(same source, verified 2026-10-25)_
 - **SDI (statutory disability insurance).** Mandatory private/DBL coverage; the standard employee contribution is **0.5% of wages up to $300/week (max $1.50/week)** where the employer takes the employee share — the employer may instead pay the full premium. _(Wage Replacement Income Law / Workers' Compensation Law Art. 9; the official page could not be located on tax.ny.gov/dol.ny.gov/dfs.ny.gov on 2026-10-25 (multiple 404s, wftc.ny.gov DNS failure): **needs-sources** — confirm against the carrier policy and NYS-45 instructions before relying.)_
-- **UI.** Employer-only; NY SUTA wage base and rates per the NYS-45 annual rate notice (2026 schedule: **needs-sources** this run).
+- **UI.** Employer-only. 2026 contribution rate schedule (archived dol.ny.gov "Unemployment Insurance Rate Information", retrieved 2026-10-28): total UI contribution rates range from **1.7% lowest** (UI rate 1.625% + RSF 0.075%) to **9.5% highest** (UI rate 9.425% + RSF 0.075%); the **new employer total rate is 4.1%** (UI 4.025% + RSF 0.075%), and "For 2026, the new employer normal contribution rate is 3.4%." The **RSF rate is 0.075%** and "applies to all contributory accounts" (NYS-45 line 5); the UI rate (normal + subsidiary) goes on NYS-45 line 4. Rate notices mail "starting mid-February of every year." Solvency of the federal UI Trust Fund "saves employers an average of $100 per employee in 2026 and $250 per employee in 2027." _(archived sources: US-NY-unemployment-insurance-rate-information.html, US-NY-re-employment-service-fund-rsf.html, retrieved 2026-10-28. Per-employee NY taxable wage base: **needs-sources** — not on the archived rate page.)_
 - **MCTMT.** Employer payroll tax in the MCTD, quarterly brackets 0.11%–0.60% (Zone 1) / 0.34% (Zone 2) over the $312,500 quarterly floor — full treatment in `ny-mctmt` (rates carried there with statutory citations to Tax Law Art. 23 / Part Q Ch. 59 Laws of 2023).
 
 ## 3. Base and adjustments
@@ -111,6 +113,10 @@ expected:
 - NY Paid Family Leave — Cost (2025 contribution 0.388%, cap $354.53, NYSAWW $1,757.19, waiver rules, W-2 Box 14): <https://paidfamilyleave.ny.gov/cost> — 200 with text, 2026-10-25.
 - NY Paid Family Leave — root and "PFL and Other Benefits" nav: <https://paidfamilyleave.ny.gov/> — 200, 2026-10-25.
 - Existing `ny-mctmt` skill (MCTMT brackets, zones, NYS-45/MTA-6, Ch. 59 Laws of 2023 citations) — read 2026-10-25.
+- NYS DOL — Unemployment Insurance Rate Information (2026 rate range 1.625%–9.425% UI + 0.075% RSF → 1.7%–9.5% totals; new employer 4.025%+0.075%=4.1%, normal 3.4%; solvency saves $100/employee 2026, $250 2027): archived `US-NY-unemployment-insurance-rate-information.html`, retrieved 2026-10-28.
+- NYS DOL — Re-employment Service Fund (RSF) (employers pay 0.075% of quarterly contributory wages on NYS-45; not creditable against FUTA): archived `US-NY-re-employment-service-fund-rsf.html`, retrieved 2026-10-28.
+- NYS DOL — Minimum Wage (rates as of 01/01/2027: $17.00 NYC/Long Island/Westchester, $16.00 remainder; tipped service $14.15 = cash $2.85 + credit $11.35; tipped food cash $5.65; home care aides $20.00/$19.00 from 01/01/2027, capped $3.00 above standard): archived `US-NY-minimum-wage-0.html`, retrieved 2026-10-28.
+- NYS DOL — Notice of Pay Rate (WTPA effective April 9, 2011; written pay-rate notice contents, translations in Spanish/Chinese/Haitian Creole/Korean/Polish/Russian): archived `US-NY-notice-pay-rate.html`, retrieved 2026-10-28.
 - SDI contribution figures (0.5%, $300/week, $1.50/week): **needs-sources** — official DFS/DOL/WFTC pages 404 or DNS-failed on 2026-10-25.
 - 2026 PFL rate/cap, 2026 UI schedule, NYS-45 instructions, PFL penalty text: **needs-sources**.
 

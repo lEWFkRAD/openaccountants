@@ -1,10 +1,10 @@
 ---
 name: il-sales-tax
 description: "Illinois Sales Tax return (Form ST-1) for self-employed individuals. Covers all four Illinois occupation and use taxes (ROT, UT, SOT, SUT), state and local rates, origin-based sourcing, vendor discount, and filing frequencies. Primary source: 35 ILCS 120/ (ROT), 35 ILCS 105/ (UT), 35 ILCS 115/ (SOT), 35 ILCS 110/ (SUT)."
-version: 1.0
+version: "1.1"
 jurisdiction: US-IL
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 reviewed_by: A licensed accountant (name withheld at their request)
 review_status: current
 trust_label: Checked by a licensed accountant (name withheld at their request)
@@ -43,6 +43,8 @@ This block is generated from verified `skill_facts` — edit the facts, not the 
 - **Applies to** — The discount is computed on TOTAL ST-1 tax due (Line 9, which includes locally imposed ROT), not the state portion only. ST-1 Step 4 applies 1.75% to Line 9, subject to the $1,000/month cap.  _(ST-1 instr. (R-01/26), Step 4; 35 ILCS 120/3.)_
 - **Late filing** — Discount forfeited if the return is filed or tax paid late  _(35 ILCS 120/3; IDOR guidance.)_
 - **Sourcing** — IL sourcing is hybrid, not purely origin-based. In-state retailers shipping from IL inventory use origin; remote retailers and marketplace facilitators meeting $100,000/200-transaction nexus source to destination; effective 1/1/2026 IL expands destination-based ROT for in-state sellers shipping from out of state.  _(IDOR Pub-113; FY 2026-12; Leveling the Playing Field Act.)_
+- **2026 nexus change VERIFIED** vs archived [IDOR bulletin FY 2026-12](https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html): "On or after January 1, 2026, the only threshold used to determine if a remote retailer or marketplace facilitator is engaged in the occupation of selling TPP at retail in Illinois ... is whether the retailer makes $100,000 or more in cumulative gross receipts of sales of TPP to purchasers in Illinois during the lookback period. The 200-transaction threshold no longer applies." IDOR auto-converts 200-transaction-only registrants to "voluntary use tax" status.
+- **15% undetermined-location assessment VERIFIED** vs archived FY 2026-12 (P.A. 104-0006): from 1/1/2026, if a taxpayer fails to provide records to determine sales locations for destination-based sales, IDOR assesses those gross receipts **at 15%** — and may apply the rate in audit to periods **before** January 2026.  _(35 ILCS 120/2-12 sourcing rules quoted in the same bulletin.)_
 - **Qualifying food** — Qualifying food excludes prepared food, candy, soft drinks, and alcohol (general rate)  _(86 Ill. Admin. Code 130.310; IDOR PIO-115.)_
 - **E-filing** — IL generally mandates electronic ST-1 filing for most retailers (waiver via Form IL-900-EW). The $200 figure is the monthly-vs-quarterly filing-frequency threshold, not an e-file trigger.  _(ST-1 instr.; 86 Ill. Admin. Code 130.)_
 

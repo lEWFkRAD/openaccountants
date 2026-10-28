@@ -3,7 +3,7 @@ name: wisconsin-sales-tax
 description: Use this skill whenever asked about Wisconsin sales tax, Wisconsin use tax, Wisconsin sales tax nexus, Wisconsin sales tax returns, Wisconsin exemption certificates, taxability of goods or services in Wisconsin, or any request involving Wisconsin state-level consumption taxes. Trigger on phrases like "Wisconsin sales tax", "WI sales tax", "Wisconsin use tax", "Wisconsin nexus", "Wis. Stat. 77.51", "Wisconsin DOR sales tax", or any request involving Wisconsin sales and use tax filing, classification, or compliance. ALWAYS read the parent us-sales-tax skill first for federal context.
 jurisdiction: US-WI
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team

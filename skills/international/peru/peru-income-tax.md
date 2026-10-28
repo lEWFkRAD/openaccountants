@@ -1,10 +1,10 @@
 ---
 name: peru-income-tax
 description: Use this skill whenever asked about Peru income tax (Impuesto a la Renta) for individuals — especially rentas de trabajo (4ta categoría independent services and 5ta categoría employment). Trigger on phrases like "how much income tax do I pay in Peru", "Impuesto a la Renta", "Formulario Virtual 709", "renta anual", "recibos por honorarios", "cuarta categoría", "quinta categoría", "rentas de trabajo", "deducción 7 UIT", "deducción adicional 3 UIT", "suspensión de retenciones 4ta", "SUNAT income tax", "UIT", "tramos del impuesto", "renta neta", or any question about filing or computing Peruvian individual income tax. Also trigger when preparing or reviewing a Formulario Virtual N° 709, computing the 7-UIT and 20% deductions, or advising on monthly withholding and suspension. This skill covers the UIT-indexed progressive scale (8/14/17/20/30%), the 7-UIT and additional 3-UIT deductions, the 20% cap for 4ta categoría, withholding, suspension thresholds, FV 709 filing and the cronograma de vencimientos. ALWAYS read this skill before touching any Peru income tax work.
-version: 0.1
+version: 0.2
 jurisdiction: PE
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 reviewed_by: A licensed accountant (name withheld at their request)
 review_status: current
 trust_label: Checked by a licensed accountant (name withheld at their request)

@@ -1,10 +1,10 @@
 ---
 name: nv-sales-tax
 description: Use this skill whenever asked about Nevada sales and use tax. Trigger on phrases like "Nevada sales tax", "NV sales tax", "NRS 372". ALWAYS load us-sales-tax first.
-version: 2.0
+version: "2.1"
 jurisdiction: US-NV
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +29,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Portal | https://tax.nv.gov |
 | SST member | Yes -- Full Member |
 | No state income tax | Correct |
+| Filing/payment due date | 20th of the month following the reporting period — per the archived Nevada Tax homepage notice (archived 2026-10-28): "Important notice: Sales and Use Tax returns are now due on the 20th of the month." |
 | Skill version | 2.0 |
 
 ## Section 3 -- Transaction pattern library

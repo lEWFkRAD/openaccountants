@@ -1,10 +1,10 @@
 ---
 name: ga-sales-tax
 description: Use this skill whenever asked about Georgia sales and use tax. Trigger on phrases like "Georgia sales tax", "GA sales tax", "O.C.G.A. 48-8", "Georgia DOR". ALWAYS load us-sales-tax first.
-version: 2.0
+version: 2.1
 jurisdiction: US-GA
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -53,7 +53,7 @@ Figures are for tax year 2026, as they stand on 25 September 2026. They come fro
 | --- | --- | --- |
 | State sales and use tax | 4% | Included in every jurisdiction's chart rate except two special Fulton County districts (codes 803 and 805) |
 | Combined state and local rates | 6% to 9% on the chart from 1 October 2026 | For example Cobb and Gwinnett 6%, many counties 9%. Never guess: read the chart for the quarter and the delivery county |
-| City of Atlanta (DeKalb or Fulton part) | 8.9% on the same chart | Codes 044A and 060A; the 1% Municipal Option Sales Tax (MOST) applies inside city limits ([MOST](https://dor.georgia.gov/1-city-atlanta-municipal-option-sales-tax)) |
+| City of Atlanta (DeKalb or Fulton part) | 8.9% on the same chart | Codes 044A and 060A; the 1% Municipal Option Sales Tax (MOST) applies inside city limits ([MOST](https://dor.georgia.gov/1-city-atlanta-municipal-option-sales-tax); archived 2026-10-28 as `US-GA-1-city-atlanta-municipal-option-sales-tax.html`: "A 1% City of Atlanta Municipal Option Sales Tax (MOST) is imposed inside the City of Atlanta limits ... MOST does not apply to motor vehicles, even if a motor vehicle is otherwise subject to sales tax") |
 | Fulton County inside Hapeville, College Park or East Point; Clayton County inside College Park | 8.75% (codes 800 to 802) and 9% (code 804) on the same chart | Separate codes from the county: Fulton outside these cities and Atlanta (060) is 7.75% and Clayton (031) is 8%. Report on the city code ([ST-3 instructions](https://dor.georgia.gov/document/document/st-3-sales-and-use-tax-returns-effective-sales-beginning-october-1-2022/download)) |
 | Special Fulton districts 803 and 805 | 3.9% shown | The chart says the 4% state rate is not included in these two codes. Confirm with the Department before charging there |
 | Use tax | Same state and local rates | Local use tax at the rate where the item is first used or received |
@@ -115,7 +115,7 @@ Some local taxes do not apply to some sales (for example food, energy sold to ma
 
 | Item | Treatment | Condition or exception |
 | --- | --- | --- |
-| Tangible goods | Taxable, state and local | Unless an exemption in O.C.G.A. § 48-8-3 applies |
+| Tangible goods | Taxable, state and local | Unless an exemption in O.C.G.A. § 48-8-3 applies. The archived DOR exemptions list (O.C.G.A. § 48-8-3, July 1, 2023; archived 2026-10-28 as `US-GA-download.pdf`) confirms the grocery rule: "Qualifying sales are exempt from the 4% state sales tax. These sales are subject to all local sales and use taxes." |
 | Services | Generally not taxable | Taxed: accommodations, in-state transportation of individuals (taxis, limos), admissions, and charges for games and amusement activities. |
 | Delivery, freight, shipping and handling | Taxable when the item is taxable | Not taxable when not tied to a taxable sale |
 | Installation charges | Not taxable if separately stated | Otherwise part of the taxable sales price |

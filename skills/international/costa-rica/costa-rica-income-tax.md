@@ -1,10 +1,10 @@
 ---
 name: costa-rica-income-tax
 description: Use this skill whenever asked about Costa Rica income tax for self-employed individuals or persons with profit-generating activity. Trigger on phrases like "how much tax do I pay in Costa Rica", "impuesto sobre la renta", "D-101", "declaración de renta", "renta del trabajo dependiente", "impuesto a las utilidades", "deducción del 25%", "Ley 10667", "trabajador independiente", "CCSS self-employed", "pagos parciales", "régimen simplificado", "TRIBU-CR", "salario base", "self-employed tax Costa Rica", "Costa Rica freelancer tax", or any question about filing or computing income tax for a self-employed Costa Rican client. Also trigger when preparing or reviewing a D-101, computing the 25% standard deduction vs documented expenses, advising on CCSS (Caja) self-employed contributions, or advising on partial-payment instalments. This skill covers the annual self-employed brackets, salaried monthly brackets, the Law 10667 25% standard deduction, CCSS contributions, family tax credits, VAT (IVA) interaction, the simplified regime, penalties, and the TRIBU-CR platform. ALWAYS read this skill before touching any Costa Rica income tax work.
-version: 0.1
+version: 0.2
 jurisdiction: CR
 tax_year: 2026
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -60,7 +60,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 - **Two parallel labor-income schedules** — Costa Rica runs two parallel labor-income schedules: salaried employees are taxed on MONTHLY brackets (final withholding by the employer), while the self-employed / persons with profit-generating activity are taxed on ANNUAL brackets. Both run 0/10/15/20/25%.  _(PwC; Decreto 45333-H via García & Bodán / BDO)_
 
-**Self-Employed / Profit-Generating Activity — Annual (impuesto a las utilidades, 2026)**  _(Decreto 45333-H; García & Bodán; Tico Times)_
+**Self-Employed / Profit-Generating Activity — Annual (impuesto a las utilidades, 2026)**  _(Decreto 45333-H; García & Bodán; Tico Times. Structure anchored in archived Ley 7092 consolidated text (`CR-ley-7092-impuesto-renta.pdf`) Art. 15(c): five bands at 0/10/15/20/25% on the excess over each threshold — the ₡ amounts there (881k/1,317k/2,197k/4,402k) are the pre-indexing 1998 figures, superseded by the annual decrees below.)_
 
 | Annual Net Income (₡) | Rate | Cumulative Tax at Top of Band |
 | --- | --- | --- |

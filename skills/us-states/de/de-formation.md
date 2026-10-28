@@ -1,9 +1,9 @@
 ---
 name: de-formation
-description: Tier 2 Delaware content skill for entity formation covering tax year 2025. Includes the Court of Chancery and DGCL advantages making Delaware the standard for VC-backed startups, $90 LLC Certificate of Formation, $89 C-Corp Certificate of Incorporation, $300 annual LLC tax (June 1 deadline), the "startup standard" 10M-share / $0.0001 par value structure that optimizes franchise tax under the Assumed Par Value method, Series LLC firewalling, Statutory Trusts, Public Benefit Corporations, foreign qualification requirements in operating states, and the §83(b) 30-day election trap for founder restricted stock.
+description: Tier 2 Delaware content skill for entity formation covering tax year 2025. Includes the Court of Chancery and DGCL advantages making Delaware the standard for VC-backed startups, $110 LLC Certificate of Formation, $109 C-Corp Certificate of Incorporation (Aug 2026 fee schedule), $400 annual LLC tax (June 1 deadline; raised from $300 by 85 Del. Laws c. 273 eff. 1 Jan 2026), the "startup standard" 10M-share / $0.0001 par value structure that optimizes franchise tax under the Assumed Par Value method, Series LLC firewalling, Statutory Trusts, Public Benefit Corporations, foreign qualification requirements in operating states, and the §83(b) 30-day election trap for founder restricted stock.
 jurisdiction: US-DE
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team

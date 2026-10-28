@@ -3,7 +3,7 @@ name: wa-bo-tax
 description: Tier 2 content skill for Washington State Business & Occupation tax under RCW Title 82.04.
 jurisdiction: US-WA
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -99,7 +99,7 @@ The tier depends on gross income subject to Service and Other Activities in the 
 | $5,000,000 or more | 2.1% |
 
 Conditions:
-- **Affiliates are aggregated.** A business below a threshold on its own is pushed up if the aggregate prior-year Service and Other income of all its affiliates reaches the threshold. "Affiliate" means control, or common control, of more than 80% of the power to direct management and policies ([RCW 82.04.290](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.290)(2)(f)).
+- **Affiliates are aggregated.** A business below a threshold on its own is pushed up if the aggregate prior-year Service and Other income of all its affiliates reaches the threshold. "Affiliate" means control, or common control, of more than 80% of the power to direct management and policies — verified verbatim in archived RCW 82.04.290 text: "more than 80 percent of the power to direct" ([RCW 82.04.290](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.290)(2)(f)).
 - DOR may ask in writing for a list of affiliates. Failing to answer fully within 30 days, with intent to evade, can cost the lower rate for the current year and the next four years ([RCW 82.04.290](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.290)(2)(d)).
 - Hospitals and select advanced computing businesses stay at 1.5% (DOR special notice, July 2025).
 - Royalties ([RCW 82.04.2907](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.2907)) and real estate commissions are separate classifications taxed at 1.5%; check DOR's classification list for any activity outside the main four.
@@ -112,7 +112,7 @@ Conditions:
 | Economic nexus (out-of-state) | more than $100,000 of Washington receipts, current or prior year | [RCW 82.04.067](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.067); DOR |
 | Return filing relief (active non-reporting), until 31 Dec 2028 | under $125,000 per year of B&O gross income, **and** under $24,000 per year of public utility tax income, **and** no other tax or fee payable to DOR (see note) | [RCW 82.32.045](https://app.leg.wa.gov/RCW/default.aspx?cite=82.32.045)(5) |
 | Return filing relief from 1 Jan 2029 | B&O limit rises to under $250,000 per year; the other two conditions are unchanged | [RCW 82.32.045](https://app.leg.wa.gov/RCW/default.aspx?cite=82.32.045)(5), version effective January 1, 2029 |
-| High-grossing business surcharge (1 Jan 2026 to 31 Dec 2029) | 0.5% of certain Washington taxable income over $250,000,000 | [RCW 82.04.288](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.288); DOR special notice |
+| High-grossing business surcharge (1 Jan 2026 to 31 Dec 2029) | 0.5% of certain Washington taxable income over $250,000,000 | [RCW 82.04.288](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.288) — archived RCW text confirms "0.5 percent of the amount of Washington taxable income over $250,000,000" beginning January 1, 2026 |
 
 **Active non-reporting is a relief DOR may grant, not an automatic right.** All three conditions must hold: B&O gross income under the limit; public utility tax income under $24,000; and the person is not required to collect or pay DOR any other tax or fee it administers, such as retail sales tax or use tax ([RCW 82.32.045](https://app.leg.wa.gov/RCW/default.aspx?cite=82.32.045)(5)). A business with an assigned monthly, quarterly or annual frequency that thinks it qualifies must contact DOR and ask ([DOR active non-reporting](https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates/active-non-reporting)). Until DOR changes the status, the business files as assigned.
 

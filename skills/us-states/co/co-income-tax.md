@@ -1,10 +1,10 @@
 ---
 name: co-income-tax
 description: Use this skill whenever asked about Colorado individual income tax for self-employed individuals or sole proprietors — filing Form DR 0104, CO estimated tax (Form DR 0104EP), Colorado flat tax rate, Colorado additions and subtractions, or any query involving Colorado state income tax compliance. Trigger on phrases like "Colorado income tax", "CO income tax", "Form 104", "DR 0104", "Colorado estimated tax", "Colorado self-employed tax", "TABOR refund", or "C.R.S. §39-22".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-CO
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -116,6 +116,7 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 **QBI addback** ([HB 25B-1001, session law](https://leg.colorado.gov/laws/session-laws/HB25B-1001/5/download); [2025 Book 104, line 3](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
 - **Who adds it back.** A taxpayer who claimed the §199A deduction (Form 1040 line 13a) and whose AGI is **greater than** $500,000 on a single return, or **greater than** $1,000,000 on a joint return. DOR's 2025 booklet applies $500,000 to every non-joint status.
 - **All or nothing.** The **entire** deduction is added back, however far AGI is over the threshold. At exactly $500,000 or $1,000,000 there is no addback.
+- **Session law VERIFIED** vs archived HB 25B-1001 (approved August 28, 2025), amending C.R.S. 39-22-104(3)(o): "For income tax years commencing on or after January 1, 2021, but before January 1, 2026, an amount equal to the deduction allowed under section 199A ... for a taxpayer who files a single return and whose adjusted gross income is greater than five hundred thousand dollars, and for taxpayers who file a joint return and whose adjusted gross income is greater than one million dollars; except that this subsection (3)(o) does not apply to a taxpayer who is required to file a schedule F ... as an attachment to a federal income tax return". NOTE: the archived enrolled text carries the "before January 1, 2026" window from the prior version — the act's legislative declaration frames it as a "permanent continuation" of the add-back; confirm the operative sunset language against the codified C.R.S. before relying on it for 2026 returns.
 - **Exception.** The addback does not apply to a taxpayer who is required to file federal **Schedule F** for the year.
 - **SALT Parity route.** Separately, a partner or shareholder in a partnership or S corporation that made a **SALT Parity Election** (shown on the Colorado K-1, DR 0106K) must add back their **whole** QBI deduction at any AGI. This is not limited to the electing entity's share.
 - **HB 25B-1001** (2025 special session, signed 28 August 2025) struck the words "but before January 1, 2026", so the addback continues for 2026 and later. A 2025 special-session bill to end it ([HB 25B-1020](https://leg.colorado.gov/bills/hb25b-1020)) was lost.

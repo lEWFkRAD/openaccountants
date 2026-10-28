@@ -1,10 +1,10 @@
 ---
 name: hi-income-tax
 description: "Hawaii Individual Income Tax Return (Form N-11) for sole proprietors and single-member LLCs. Covers the twelve-bracket graduated system (1.4%–11%), Hawaii standard deduction, personal exemptions, modifications to federal AGI, and estimated tax (Form N-1). Trigger: taxpayer is a Hawaii resident or has Hawaii-source income."
-version: "0.1"
+version: "0.2"
 jurisdiction: US-HI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -43,7 +43,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Tax year 2025 brackets — Single / Married filing separately
 
-**Tax year 2025 brackets — Single / Married filing separately**  _(HRS § 235-51; Hawaii DOTAX Tax Year 2025 schedules.)_
+**Tax year 2025 brackets — Single / Married filing separately**  _(HRS § 235-51; Hawaii DOTAX Tax Year 2025 schedules.) Verified 2026-10-28 against the archived DOTAX page "Tax Rate Schedules For Taxable Years Beginning After December 31, 2025" (page updated 2026-01-20): Schedule I single brackets and cumulative amounts ($134/$288/$552/$859/$1,675/$2,539/$8,391/$12,341/$16,466/$20,966/$25,966) match verbatim._
 
 | Taxable income | Rate | Cumulative tax at top of bracket |
 | --- | --- | --- |

@@ -1,10 +1,10 @@
 ---
 name: dc-income-tax
 description: "District of Columbia Individual Income Tax Return (Form D-40) for sole proprietors and single-member LLCs. Covers the seven-bracket graduated system (4%–10.75%), DC standard deduction computation, Schedule S additions and subtractions, estimated tax (D-40ES), and the Earned Income Tax Credit. Trigger: taxpayer is domiciled in DC or maintains an abode for 183+ days during the tax year."
-version: "0.1"
+version: "0.2"
 jurisdiction: US-DC
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -121,7 +121,7 @@ D-40 line numbers are from the 2025 return ([2025 D-40 booklet](https://otr.cfo.
 
 ### Tax rates, 2025 and 2026 ([D.C. Code § 47-1806.03](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.03); [OTR rates page](https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates))
 
-The same schedule applies to all filing statuses for taxable years beginning after 31 December 2021. It did not change for 2025 or 2026. The 2026 D-40ES prints the same table ([2026 D-40ES](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf)).
+The same schedule applies to all filing statuses for taxable years beginning after 31 December 2021. It did not change for 2025 or 2026. The 2026 D-40ES prints the same table ([2026 D-40ES](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf)). The archived Code text (2026-10-28, `US-DC-47-1806.03.html`) confirms paragraph (11): "In the case of taxable years beginning after December 31, 2021 ... Over $60,000 but not over $250,000 $3,500, plus 8.5% of the excess over $60,000 ... Over $1,000,000 $91,525, plus 10.75% of the excess over $1,000,000."
 
 | Taxable income | Tax |
 | --- | --- |
@@ -196,7 +196,7 @@ Spouses or domestic partners who live together and file separately are each trea
   - someone else claims the child;
   - DC child care subsidies were received or paid for the child;
   - someone else got this credit for the same child;
-  - DC **taxable income exceeds** the limit. The statutory limit is $150,000 (single, head of household or joint) or $75,000 (married filing separately), indexed. Use the Schedule ELC figure for the year.
+  - DC **taxable income exceeds** the limit. The statutory limit is $150,000 (single, head of household or joint) or $75,000 (married filing separately), indexed. Use the Schedule ELC figure for the year. D.C. Code § 47-1806.15(d)(4)(B) (archived 2026-10-28 as `US-DC-47-1806.15.html`): "For taxable years beginning on or after January 1, 2019: (i) Single and head of household: $150,000; (ii) Married filing jointly: $150,000; or (iii) Married filing separately: $75,000", "increased annually pursuant to the cost-of-living adjustment".
 
 ### Homeowner and renter property tax credit (Schedule H) ([D.C. Code § 47-1806.06](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06); [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf))
 
@@ -341,11 +341,11 @@ Client facts: a single renter aged 40, not anyone's dependent, who rented the sa
   - The FR-127 is not required if no balance is expected and the tax was reasonably estimated and paid through withholding or estimates.
   - An extension to file is not an extension to pay. Interest and penalties run on tax not paid by 15 April.
   - Taxpayers living or travelling outside the US can get a further six months, but only after filing the first FR-127 on time.
-- **Late filing and late payment penalties** ([D.C. Code § 47-4213](https://code.dccouncil.gov/us/dc/council/code/sections/47-4213)). Neither applies if there is reasonable cause and no willful neglect.
-  - **Failure to file:** 5% of the unpaid tax for each month or part of a month, up to 25% in total.
+- **Late filing and late payment penalties** ([D.C. Code § 47-4213](https://code.dccouncil.gov/us/dc/council/code/sections/47-4213); archived 2026-10-28 as `US-DC-47-4213.html`). Neither applies if there is reasonable cause and no willful neglect.
+  - **Failure to file:** 5% of the unpaid tax for each month or part of a month, up to 25% in total. Code: "5% of the amount of the tax if the failure is for not more than one month, with an additional 5% for each additional month or fraction thereof ... not exceeding 25% in the aggregate."
   - **Failure to pay:** 5% a month, up to 25%.
-  - **Overlap:** the failure-to-file addition is reduced by the failure-to-pay addition for the same months.
-- **Interest** on unpaid tax runs from the original due date, disregarding any extension to file. The rate is **10% a year, compounded daily** ([D.C. Code § 47-4201](https://code.dccouncil.gov/us/dc/council/code/sections/47-4201)).
+  - **Overlap:** the failure-to-file addition is reduced by the failure-to-pay addition for the same months (§ 47-4213(b)). § 47-4213(c): the section "shall not apply to a failure to pay an estimated tax".
+- **Interest** on unpaid tax runs from the original due date, disregarding any extension to file. The rate is **10% a year, compounded daily** ([D.C. Code § 47-4201](https://code.dccouncil.gov/us/dc/council/code/sections/47-4201); archived 2026-10-28 as `US-DC-47-4201.html`: "(d) The underpayment rate shall be as follows: ... (2) 10% per year, compounded daily, beginning January 1, 2003").
 - **Estimated tax (D-40ES).** Required if the client must file a DC return and expects to owe **$100 or more** in tax.
   - The D-2210 describes the trigger as tax "expected to be more than $100". At exactly $100, check.
   - Vouchers are due 15 April, 15 June and 15 September 2026 and 15 January 2027.

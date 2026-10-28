@@ -1,10 +1,10 @@
 ---
 name: cl-income-tax
 description: Use this skill whenever asked about Chilean income tax for self-employed individuals (trabajadores independientes / trabajadores a honorarios). Trigger on phrases like "Impuesto Global Complementario", "Operación Renta", "boleta de honorarios", "trabajador independiente", "PPM", "retención honorarios", "gastos presuntos", "segunda categoría", "Formulario 22", "SII", "RUT Chile", "cotizaciones previsionales", "APV", or any question about filing or computing income tax for a self-employed or independent worker in Chile. This skill covers Impuesto Global Complementario (progressive 0-40%), honorarios withholding, PPM credits, gastos efectivos vs presuntos, cotizaciones previsionales, and SII filing. ALWAYS read this skill before touching any Chilean income tax work.
-version: 2.0
+version: 2.1
+last_updated: 2026-10-28
 jurisdiction: CL
 tax_year: 2025
-last_updated: 2026-07-13
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Impuesto Global Complementario (IGC) — Tax Year 2025 (Año Tributario 2025)
 
-**IGC table**
+**IGC table**  _(Verified 2026-10-28 against archived SII official AT2025 computation table, `CL-sii-personas-naturales-2025.html` (sii.cl/valores_y_fechas/renta/2025/personas_naturales.html): factors 0,04/0,08/0,135/0,23/0,304/0,35/0,40 and rebajes CLP 436.065,12 / 1.405.098,72 / 3.625.800,72 / 8.995.861,92 / 14.373.998,40 / 18.831.552,96 / 31.348.236,96 — the top two rebajes were corrected from 23,26/38,76 to 23,32/38,82 UTA.)_
 
 | Taxable Income (UTA) | Approx CLP (at UTA 807,528) | Rate | Amount to Deduct (UTA) |
 | --- | --- | --- | --- |
@@ -29,8 +29,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 50 -- 70 UTA | 40,376,401 -- 56,526,960 | 13.5% | 4.49 UTA |
 | 70 -- 90 UTA | 56,526,961 -- 72,677,520 | 23% | 11.14 UTA |
 | 90 -- 120 UTA | 72,677,521 -- 96,903,360 | 30.4% | 17.80 UTA |
-| 120 -- 310 UTA | 96,903,361 -- 250,333,680 | 35% | 23.26 UTA |
-| 310+ UTA | 250,333,681+ | 40% | 38.76 UTA |
+| 120 -- 310 UTA | 96,903,361 -- 250,333,680 | 35% | 23.32 UTA |
+| 310+ UTA | 250,333,681+ | 40% | 38.82 UTA |
 
 - **UTA reference unit** — The IGC uses UTA (Unidad Tributaria Anual) as the reference unit. The December 2024 UTA was approximately CLP 807,528. Always verify at www.sii.cl.  _(www.sii.cl)_
 - **IGC formula** — IGC = (Taxable Income in UTA x Rate) - Amount to Deduct in UTA, then convert to CLP
@@ -50,8 +50,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 50 — 70 UTM | 13.5% | 4.49 UTM |
 | 70 — 90 UTM | 23% | 11.14 UTM |
 | 90 — 120 UTM | 30.4% | 17.80 UTM |
-| 120 — 310 UTM | 35% | 23.26 UTM |
-| 310+ UTM | 40% | 38.76 UTM |
+| 120 — 310 UTM | 35% | 23.32 UTM |
+| 310+ UTM | 40% | 38.82 UTM |
 
 - **IUSC formula** — IUSC = (Taxable base in UTM x Rate) - Deduction in UTM, then convert to CLP. Taxable base = Gross salary - AFP (10% + commission) - Health (7% Fonasa or Isapre %).
 - **UTM 2026 value** — CLP 66,500 (approx) CLP (2026)  _(www.sii.cl)_

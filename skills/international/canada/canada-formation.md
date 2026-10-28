@@ -1,10 +1,10 @@
 ---
 name: canada-formation
 description: Use this skill whenever asked about forming, incorporating, or registering a company in Canada. Trigger on phrases like "set up a company in Canada", "Canadian incorporation", "Corporations Canada", "federal incorporation", "provincial incorporation", "CBCA", "Ontario corporation", "BC incorporation", "Inc. Canada", "Canadian company formation", "register a business Canada", or any question about starting a business entity in Canada. Covers federal vs provincial incorporation, entity types, registration process, costs, post-formation compliance, and bank account opening. ALWAYS read this skill before advising on Canadian company formation.
-version: 1.0
+version: "1.1"
 jurisdiction: CA
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 authored_by: Nathan Wiebe
 reviewed_by: Edgar Lautsyus
 review_status: current
@@ -42,6 +42,8 @@ This block is generated from verified `skill_facts` — edit the facts, not the 
 - **Fee range** — Extra-provincial registration fees range $0 (Ontario)–$520 (NFL) per province.  _(Provincial corporate registries)_
 - **CRA Business Number** — Free; online via BRO  _(CRA — Business Registration Online — canada.ca)_
 - **GST/HST registration** — If taxable supplies > $30,000  _(ETA s.148)_
+- **Corporate tax return filing** — within six months after the end of the taxation year  _(ITA s.150(1)(a) — "within six months after the end of the year"; [ITA s.150 (archived)](https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-150.html))_
+- **Late-filing penalty** — 5% of the unpaid tax plus 1% per complete month late, maximum 12 months  _(ITA s.162(1) — archived statute text)_
 - **Corporate tax payment** — 2 months after year-end; 3 months only for a corporation that was a CCPC throughout the year, claimed the small business deduction (current or prior year), and whose associated-group prior-year taxable income did not exceed the business limit  _(ITA s.157(1); CRA — Corporate payments — canada.ca)_
 - **Foreign ownership restrictions** — None generally; Investment Canada Act for large/sensitive  _(Investment Canada Act)_
 

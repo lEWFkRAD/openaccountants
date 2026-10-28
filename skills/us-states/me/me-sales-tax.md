@@ -1,10 +1,10 @@
 ---
 name: me-sales-tax
 description: Use this skill whenever asked about Maine sales and use tax. Trigger on phrases like "Maine sales tax", "ME sales tax", "MRS", "36 M.R.S. §1811". ALWAYS load us-sales-tax first.
-version: 2.0
+version: "2.1"
 jurisdiction: US-ME
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -20,7 +20,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Maine |
-| State rate | 5.50% (general); 8.00% (short-term auto rental); 9.00% (lodging/prepared food) |
+| State rate | 5.50% (general); 8.00% (prepared food; also liquor in licensed establishments); 9.00% (lodging); 10.00% (short-term auto rental); 10% cannabis retail before 2026, 14% from Jan 1 2026 — all per [36 M.R.S. §1811, archived 2026-10-28](https://legislature.maine.gov/statutes/36/title36sec1811.html): "the rate of tax is 5.5% … except the rate of tax is: (1) Eight percent on the value of prepared food; … (3) Nine percent on the value of rental of living quarters …; (4) Ten percent on the value of rental for a period of less than one year of: (a) An automobile …; (5) Before January 1, 2026, 10% on the value of adult use cannabis … For sales occurring on or after January 1, 2026, the applicable rate of tax under this subparagraph is 14%" |
 | Local taxes | None |
 | Sourcing | Destination-based |
 | Economic nexus | $100,000 OR 200 transactions |

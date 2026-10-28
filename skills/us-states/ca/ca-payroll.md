@@ -1,9 +1,10 @@
 ---
 name: ca-payroll
-description: Tier 2 California content skill for employer payroll compliance covering tax year 2025. Includes the 13.3% top PIT bracket with 1% mental health surtax over $1M, SDI 1.2% with no wage cap (SB 951), Form DE 9/DE 9C quarterly returns, the CalSavers retirement mandate for 1+ employees, AB5 / ABC test contractor classification, DE 542 reporting for $600+ contractors, supplemental wage withholding at 10.23%, ETT 0.1% on first $7,000, and SUI with $7,000 base and 1.5-6.2% experience-rated range. Covers federal payroll interactions and CA labor-code wage statement requirements.
+description: Tier 2 California content skill for employer payroll compliance covering tax year 2026. Includes the 2026 EDD withholding top band 14.630% over $1M, SDI 1.3% with no wage cap (SB 951), Form DE 9/DE 9C quarterly returns, the CalSavers retirement mandate for 1+ employees, AB5 / ABC test contractor classification, DE 542 reporting for $600+ contractors, supplemental wage withholding at 10.23%, ETT 0.1% on first $7,000, and SUI with $7,000 base and 1.5-6.2% experience-rated range (Schedule F+). Covers federal payroll interactions and CA labor-code wage statement requirements.
 jurisdiction: US-CA
 tax_year: 2026
-last_updated: 2026-10-16
+version: 0.2
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -99,7 +100,7 @@ What employers get wrong most often:
 
 ### 3.1 Authority and Method
 
-- **Two methods.** EDD publishes two methods for PIT withholding: Method A (Wage Bracket Table Method) and Method B (Exact Calculation Method). EDD limits Method A to wages or salaries under one million dollars, so use Method B above that. Both are on EDD's rates page and in DE 44. [2026 Method B](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/26methb.pdf)
+- **Two methods.** EDD publishes two methods for PIT withholding: Method A (Wage Bracket Table Method) and Method B (Exact Calculation Method). DE 44 limits Method A to "wages or salaries less than $1 million", so use Method B above that. Both are on EDD's rates page and in DE 44. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf) [2026 Method B](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/26methb.pdf)
 - **The Method B steps.** Step 1: if gross wages are at or below the low income exemption amount, withhold nothing. Step 2: subtract the estimated deduction amount for any additional allowances claimed on a DE 4. Step 3: subtract the standard deduction. Step 4: apply the tax rate table for the payroll period and marital status. Step 5: subtract the exemption allowance credit for the regular allowances claimed. [2026 Method B](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/26methb.pdf)
 - **Married employees with working spouses.** EDD recommends using the single filing status, or an additional flat amount of withholding, to avoid under-withholding. [2026 Method B](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/26methb.pdf)
 
@@ -110,12 +111,12 @@ The figures below are EDD's 2026 withholding schedule amounts, not the Franchise
 | Item | Value | Note (verbatim from the page) |
 | --- | --- | --- |
 | Source | all figures below | https://edd.ca.gov/siteassets/files/pdf_pub_ctr/26methb.pdf |
-| Low income exemption, monthly, single | USD 1,575 | Table 1, Monthly row: "Monthly $1,575 $1,575 $3,149 $3,149" |
+| Low income exemption, monthly, single | USD 1,575 | Table 1 (Low Income Exemption Table), Monthly row: "Monthly $1,575 $1,575 $3,149 $3,149" |
 | Low income exemption, monthly, married with 2 or more allowances or head of household | USD 3,149 | Table 1, same row |
-| Standard deduction, monthly, single | USD 476 | Table 3, Monthly row: "Monthly $476 $476 $951 $951" |
+| Standard deduction, monthly, single | USD 476 | Table 3 (Standard Deduction Table), Monthly row: "Monthly $476 $476 $951 $951" |
 | Standard deduction, monthly, married with 2 or more allowances or head of household | USD 951 | Table 3, same row |
-| Exemption allowance credit, monthly, 1 allowance | USD 14.03 | Table 4, row for 1 allowance, Monthly column: "$14.03" |
-| Monthly single (Table 20): taxable income not over USD 924 | 1.100% | "$924 1.100%" |
+| Exemption allowance credit, monthly, 1 allowance | USD 14.03 | Table 4 (Exemption Allowance Table), row for 1 allowance, Monthly column: "$14.03" |
+| Monthly single (Table 20): taxable income not over USD 924 | 1.100% | "$924 1.100%" (Method B - Table 20: Single Persons, Dual Income Married...) |
 | Over USD 924, not over USD 2,188 | 2.200% of the excess over USD 924, plus USD 10.16 | "$924 $2,188 2.200% $924 $10.16" |
 | Over USD 2,188, not over USD 3,454 | 4.400% of the excess over USD 2,188, plus USD 37.97 | "$2,188 $3,454 4.400% $2,188 $37.97" |
 | Over USD 3,454, not over USD 4,796 | 6.600% of the excess over USD 3,454, plus USD 93.67 | "$3,454 $4,796 6.600% $3,454 $93.67" |
@@ -125,7 +126,7 @@ The figures below are EDD's 2026 withholding schedule amounts, not the Franchise
 | Over USD 37,148, not over USD 61,912 | 12.430% of the excess over USD 37,148, plus USD 3,541.88 | "$37,148 $61,912 12.430% $37,148 $3,541.88" |
 | Over USD 61,912, not over USD 83,334 | 13.530% of the excess over USD 61,912, plus USD 6,620.05 | "$61,912 $83,334 13.530% $61,912 $6,620.05" |
 | Over USD 83,334 | 14.630% of the excess over USD 83,334, plus USD 9,518.45 | "14.630% $83,334 $9,518.45" |
-| Annual single (Table 5): top band, taxable income over USD 1,000,000 | 14.630% | "N/A 14.630% $1,000,000" (the PDF prints two tables side by side) |
+| Annual single (Table 5): top band, taxable income over USD 1,000,000 | 14.630% | "N/A 14.630% $1,000,000 $114,220.27" (the PDF prints two tables side by side; Table 5 is the annual single-person tax rate table) |
 
 Other payroll periods (weekly, biweekly, semi-monthly, quarterly, annual, daily) and the married and head of household tables are in the same PDF. Use the table for the actual payroll period.
 
@@ -361,7 +362,7 @@ Not covered (see 9.1). The live version of this skill stated penalties per emplo
 
 ### 11.3 Interaction with Federal 1099-NEC
 
-- **Separate reports.** The DE 542 is a California report and does not replace federal Form 1099-NEC. The 2026 DE 44 still prints the DE 542 threshold in section 2, whatever the federal threshold is. For the federal form, use `us-1099-nec-issuance`. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
+- **Separate reports.** The DE 542 is a California report and does not replace federal Form 1099-NEC. EDD's Required Filings and Due Dates page still triggers the DE 542 from the federal Form 1099-MISC: "If you are required to file a Form 1099-MISC for the services performed by the independent contractor" — the EDD page has not been updated for the 1099-NEC split. The 2026 DE 44 still prints the DE 542 threshold in section 2, whatever the federal threshold is. For the federal form, use `us-1099-nec-issuance`. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf) [EDD Required Filings and Due Dates](https://edd.ca.gov/en/Payroll_Taxes/Required_Filings_and_Due_Dates)
 
 ### 11.4 New Hire Reporting (DE 34)
 

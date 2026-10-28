@@ -3,7 +3,7 @@ name: wi-sales-tax
 description: Use this skill whenever asked about Wisconsin sales tax, Wisconsin use tax, Wisconsin sales tax nexus, Wisconsin sales tax returns, Wisconsin exemption certificates, taxability of goods or services in Wisconsin, or any request involving Wisconsin state-level consumption taxes. Trigger on phrases like "Wisconsin sales tax", "WI sales tax", "Wisconsin use tax", "Wisconsin nexus", "Wis. Stat. 77.51", "Wisconsin DOR sales tax", or any request involving Wisconsin sales and use tax filing, classification, or compliance. ALWAYS read the parent us-sales-tax skill first for federal context.
 jurisdiction: US-WI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
@@ -64,11 +64,11 @@ Every rule in this skill is tagged with a confidence tier:
 
 ### 1.1 State Rate
 
-- **State sales tax rate** — 5% percent (Moderate rate among US states.)  _(Wis. Stat. Section 77.52(1))_
+- **State sales tax rate** — 5% (verified verbatim in archived Pub 240: "A tax is imposed on all retailers at the rate of 5 percent"; Wis. Stat. §77.52(1))
 
 ### 1.2 County Tax
 
-- **County sales tax** — 0.5% percent (All 72 counties authorized; most counties (68 of 72 as of current data) levy it. [T1])
+- **County sales tax** — 0.5% percent (All 72 counties authorized; per WDOR Form S-203 (R. 4-26, archived): "Seventy counties have adopted a 0.5% county sales and use tax" - Milwaukee County is at 0.9% since 1 Jan 2024. [T1])
 - **No city/special district tax** — There are no city or special district sales taxes in Wisconsin. [T1]
 - **Maximum combined rate** — 5.5% percent (5% state + 0.5% county. [T1])
 - **Counties without the 0.5% tax** — A small number of counties do not levy the county option tax. Check WDOR's current county tax list. [T2]

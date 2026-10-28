@@ -1,10 +1,10 @@
 ---
 name: colombia-iva
 description: Use this skill whenever asked to prepare, review, or classify transactions for a Colombia IVA (Impuesto sobre las Ventas) return or advise on Colombian VAT registration, filing, and DIAN compliance. Trigger on phrases like "prepare IVA return Colombia", "Colombian VAT", "IVA Colombia", "DIAN", "NIT", or any Colombia IVA request. ALWAYS read this skill before touching any Colombia IVA work.
-version: 2.0
+version: 2.1
 jurisdiction: CO
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:

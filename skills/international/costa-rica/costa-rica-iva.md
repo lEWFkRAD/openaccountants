@@ -1,10 +1,10 @@
 ---
 name: costa-rica-iva
 description: Use this skill whenever asked to prepare, review, or classify transactions for a Costa Rica IVA (Impuesto al Valor Agregado) return or advise on Costa Rican VAT registration, filing, and Hacienda compliance. Trigger on phrases like "prepare IVA return Costa Rica", "Costa Rica VAT", "IVA Costa Rica", "Hacienda", "CÉDULA jurídica", or any Costa Rica IVA request. ALWAYS read this skill before touching any Costa Rica IVA work.
-version: 2.0
+version: 2.1
 jurisdiction: CR
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team

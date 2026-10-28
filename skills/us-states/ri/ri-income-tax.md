@@ -1,10 +1,10 @@
 ---
 name: ri-income-tax
 description: Triggers when the taxpayer is a Rhode Island resident sole proprietor or single-member LLC needing to file Rhode Island Form RI-1040. Covers Rhode Island's three-bracket graduated income tax (3.75%–5.99% for tax year 2025), standard deduction, personal exemptions, RI modifications to federal AGI, and the new RI Schedule HR1 for OBBBA add-backs. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-RI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -57,7 +57,7 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 | --- | --- | --- | --- |
 | $0 – $79,900 | $0 | 3.75% | $0 |
 | $79,901 – $181,650 | $2,996.25 | 4.75% | $79,900 |
-| Over $181,650 | $7,829.38 | 5.99% | $181,650 |
+| Over $181,650 | $7,829.38 | 5.99% | $181,650 |  — verified verbatim 2026-10-28 vs archived 2025 RI Tax Tables and ADV 2025-22 inflation-adjustment release: single/HoH schedule $0-79,900 at 3.75%, $2,996.25 + 4.75% to $181,650, $7,829.38 + 5.99% above
 
 ### Tax brackets — all filing statuses (tax year 2026, for reference)
 
@@ -67,7 +67,7 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 | --- | --- | --- | --- |
 | $0 – $82,050 | $0 | 3.75% | $0 |
 | $82,051 – $186,450 | $3,076.88 | 4.75% | $82,050 |
-| Over $186,450 | $8,035.88 | 5.99% | $186,450 |
+| Over $186,450 | $8,035.88 | 5.99% | $186,450 |  — MFJ schedule verified verbatim vs archived ADV 2025-22: $82,050 / $186,450 breakpoints, $8,035.88 base
 
 ### Standard deduction (tax year 2025)
 

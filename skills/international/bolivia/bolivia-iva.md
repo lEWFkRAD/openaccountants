@@ -1,10 +1,10 @@
 ---
 name: bolivia-iva
 description: Use this skill whenever asked to prepare, review, or classify transactions for a Bolivia IVA (Impuesto al Valor Agregado) return for any client. Trigger on phrases like "Bolivia IVA", "Bolivia VAT", "SIN filing", "factura", or any request involving Bolivia IVA. MUST be loaded alongside vat-workflow-base v0.1 or later. ALWAYS read this skill before touching any Bolivia IVA work.
-version: 2.0
+version: 2.1
 jurisdiction: BO
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2

@@ -9,14 +9,14 @@ description: >
   estimated tax. Trigger on "Arkansas corporate tax", "Arkansas
   AR-1100", "Arkansas SB 567", "Arkansas Act 719", "Arkansas market
   based sourcing", "Arkansas pass-through entity tax". Source-cited
-  draft; DFA corporate page read 2026-10-27; the current rate
+  draft; DFA corporate page read 2026-10-27 and archived 2026-10-28 (page confirms: "On April 16, 2025, Arkansas Gov. Sarah Huckabee Sanders signed Senate Bill 567 into law as Act 719 of 2025, modernizing the state's corporate income tax… adopting Market-Based Sourcing for Sales of Services and Intangibles… establishes an economic nexus filing threshold for non-resident corporations or partnerships"); the current rate
   percentage is flagged needs-sources.
 jurisdiction: US-AR
 category: corporate
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: "0.2"
 verified_by: pending
 depends_on:
   - ar-income-tax

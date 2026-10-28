@@ -1,10 +1,10 @@
 ---
 name: ga-income-tax
 description: "Georgia Individual Income Tax Return (Form 500) for sole proprietors and single-member LLCs.   Covers the flat 5.19% rate (tax year 2025), Georgia taxable income computation from federal AGI,   standard deduction, dependent exemption, and estimated tax. Trigger: taxpayer is a Georgia   resident or has Georgia-source income."
-version: "0.1"
+version: "0.2"
 jurisdiction: US-GA
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -95,6 +95,8 @@ Form 500 line numbers are from the 2025 return ([2025 IT-511 booklet](https://do
 | Dependent exemption, per dependent | $4,000 | $5,000 |
 | Personal exemption for taxpayer or spouse | None | None |
 
+- **2025 amounts confirmed in the archived 2025 IT-511 booklet** (archived 2026-10-28 as `US-GA-download-2.pdf`): "the income tax rate is 5.19%"; standard deduction table "Married filing jointly $24,000 / Single $12,000 / Married filing separately $12,000 / Head of household $12,000 / Qualifying surviving spouse $12,000"; "Calendar year taxpayers are required to file on or before April 15, 2026."
+
 - **How the rate got here.** HB 111 (2025) set 5.19% for 2025, with 0.10-point cuts each year from 2026 until the rate reached 4.99%. HB 463 (2026) replaced that path. The rate is 4.99% "for taxable years beginning on or after January 1, 2026". From 1 January 2027 it falls by 0.125 of a point each year until it reaches 3.99%.
 - **Each future cut can be delayed.** A scheduled cut is delayed by one year for each year that any of these is true as of 1 December:
   - the Governor's revenue estimate for the next fiscal year is not at least 3 percent above the current year's estimate;
@@ -179,7 +181,7 @@ Both paragraphs "stand repealed and reserved on December 31, 2028", and neither 
 - **Who is excluded:** nonresident aliens, estates and trusts, and anyone claimed as a dependent for 2024 unless they had 2024 earned income.
 
   HB 1000 does not exclude ITIN filers. DOR's FAQ answers "Maybe" for them: DOR sends ITIN filers a letter asking for more information to decide whether they qualify, and they reply through the Georgia Tax Center or by mail. So an ITIN filer's refund is not paid automatically.
-- **Amount:** the lesser of the 2024 tax liability (2024 Form 500 Line 16, or Form 500EZ Line 4) and a cap by 2024 filing status: $250 single or married filing separately, $375 head of household, $500 married filing jointly. A 2024 liability of $0 means no refund.
+- **Amount:** the lesser of the 2024 tax liability (2024 Form 500 Line 16, or Form 500EZ Line 4) and a cap by 2024 filing status: $250 single or married filing separately, $375 head of household, $500 married filing jointly. A 2024 liability of $0 means no refund. DOR's archived HB 1000 FAQ (2026-10-28, `US-GA-2025-hb-1000-surplus-tax-refund-faqs.html`) confirms: "Single filers and married individuals who file separately receive a maximum refund of $250. Head of Household filers receive a maximum refund of $375. Married individuals who file joint returns receive a maximum refund of $500"; part-year/nonresident filers "eligible for a proportional refund equal to the maximum amounts based on filing status multiplied by the share of their income taxable in Georgia".
 - **Part-year residents and nonresidents** get the amount prorated by the 2024 Schedule 3 Line 9 ratio.
 - **How it is paid.** For most filers, DOR credits the refund automatically once the 2025 return is filed; there is no claim form. ITIN filers must first answer DOR's letter (above). It is paid using the refund method on the 2025 return, after any offset against debts owed to the state, and carries no interest.
 - **Tax treatment.** The refund is not taxable for Georgia. If it is included in federal AGI, subtract it on Schedule 1 (the line 12 adjustment). DOR's FAQ says it may be federally taxable if the client itemized, deducted state income tax and got a federal tax benefit from that deduction.
@@ -194,6 +196,8 @@ Both paragraphs "stand repealed and reserved on December 31, 2028", and neither 
 | Fraudulent underpayment (§ 48-7-86) | 50% of the underpayment | none stated |
 | Frivolous return (§ 48-7-57.1) | $1,000 | $1,000 |
 | Underpayment of estimated tax (§ 48-7-120) | 9% per year of the underpayment (Form 500 UET) | none stated |
+
+- Form 500 UET (archived 2026-10-28 as `US-GA-download-8.pdf`, rev. 07/15/25) confirms the 9% figure: "you may owe a penalty of 9 percent a year on the unpaid amount"; Line 20 "Penalty (9 percent a year on amount shown on Line 17 for the number of days shown on Line 19)". Exception 2 needle: no penalty for a period "if the amount paid during the first installment period of the current year was at least 282.00 (70% x 25% x $1,609.00)".
 
 - The late filing and late payment penalties together cannot exceed 25% of the tax due on the return due date.
 - **Interest** on late tax accrues monthly from the due date. For months from 1 July 2016, the rate is the Federal Reserve prime rate plus 3 percent a year. DOR reviews the rate each January.
@@ -282,7 +286,7 @@ Client facts: a full-year resident filing with a Social Security number, not cla
 ## Filing and payment ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download); [2026 Form 500-ES](https://dor.georgia.gov/document/document/2026-500-es-estimated-tax-individuals-and-fiduciaries/download); [Form 500 UET](https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-500-uet-underpayment-estimated-tax-individuals/download))
 
 - **Due date:** 15 April (15 April 2026 for 2025; 15 April 2027 for 2026). Fiscal years: the 15th day of the fourth month after year-end.
-- **Extension:** file with a copy of federal Form 4868 (or the IRS confirmation) by the extended federal due date, or use Georgia Form IT-303 if there is no federal extension. It does not extend the time to pay; pay by the original due date (Form IT-560 or the Georgia Tax Center) and report it on Line 26.
+- **Extension:** file with a copy of federal Form 4868 (or the IRS confirmation) by the extended federal due date, or use Georgia Form IT-303 if there is no federal extension. It does not extend the time to pay; pay by the original due date (Form IT-560 or the Georgia Tax Center) and report it on Line 26. The archived 2025 IT-511 booklet (`US-GA-download-2.pdf`) confirms: "The Georgia return must be filed along with a copy of Federal Form 4868 or the IRS confirmation letter on or before the extended Federal due date. If you do not need a Federal extension, you may use Georgia Form IT-303 to request an extension to file your Georgia return."
 - **Electronic filing is required** if the return uses a series 100 tax credit, if payments are made by electronic funds transfer, or for a paid preparer whenever the federal return must be e-filed.
 - **Attachments:** federal pages 1-2 and Schedule 1 if Line 8 is $40,000 or more or less than the W-2 total; federal Schedule A if itemizing; the other state's return for the other-state credit.
 - **Estimated tax: who must pay.** Anyone who reasonably expects gross income to exceed the dependent exemptions plus estimated deductions plus $1,000 of income not subject to withholding, unless the employer withholds extra by agreement to cover it.

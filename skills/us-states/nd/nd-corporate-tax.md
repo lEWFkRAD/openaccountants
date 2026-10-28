@@ -3,7 +3,7 @@ name: nd-corporate-tax
 description: North Dakota Corporate Income Tax
 jurisdiction: US-ND
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -77,9 +77,9 @@ This skill covers North Dakota state-level entity-level income tax:
 
 | Item | Value | Authority |
 | --- | --- | --- |
-| Corporate income tax — Bracket 1 | **1.41%** on first $25,000 of ND taxable income | NDCC § 57-38-30 [VERIFY] |
-| Corporate income tax — Bracket 2 | **3.55%** on next $25,000 (to $50,000) | NDCC § 57-38-30 [VERIFY] |
-| Corporate income tax — Bracket 3 | **4.31%** on income above $50,000 | NDCC § 57-38-30 [VERIFY] |
+| Corporate income tax — Bracket 1 | **1.41%** on first $25,000 of ND taxable income | NDCC § 57-38-30(1), verified verbatim 2026-10-28 vs archived NDCC ch. 57-38 printout: "For the first twenty-five thousand dollars of taxable income, at the rate of one and forty-one hundredths percent" |
+| Corporate income tax — Bracket 2 | **3.55%** on next $25,000 (to $50,000) | NDCC § 57-38-30(2), verified verbatim: "three and fifty-five hundredths percent" |
+| Corporate income tax — Bracket 3 | **4.31%** on income above $50,000 | NDCC § 57-38-30(3), verified verbatim: "four and thirty-one hundredths percent" |
 | Water's edge surtax | Additional **3.5%** of ND taxable income for water's-edge electors | NDCC § 57-38.1-15 / Form 40 instructions |
 | Apportionment formula | Three-factor: property + payroll + sales (sales double-weighted) by default; **single-sales-factor election available** for qualifying taxpayers | NDCC § 57-38.1-09 [VERIFY weighting] |
 | Sourcing | Cost-of-performance for services (default); ND has **not** broadly adopted market-based sourcing as of 2025 [VERIFY] | NDCC § 57-38.1-16 |

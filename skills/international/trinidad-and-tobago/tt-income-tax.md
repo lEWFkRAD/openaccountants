@@ -3,7 +3,8 @@ name: tt-income-tax
 description: "Source-cited draft: personal income tax for Trinidad and Tobago (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: TT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: 0.2
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +28,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **First-time homeowner allowance** — Up to TTD 30,000 per year for the first five years (acquisitions on or after 1 January 2023) ((approx — confirm)) TTD/year  _(Income Tax Act (Chap. 75:01) — https://taxsummaries.pwc.com/trinidad-and-tobago/individual/deductions)_
 - **Individual return filing deadline** — 30 April of the year following the year of income  _(Income Tax Act (Chap. 75:01) — https://taxsummaries.pwc.com/trinidad-and-tobago/individual/tax-administration)_
 - **Self-employed quarterly instalments** — Estimated tax payable in quarterly instalments by 31 March, 30 June, 30 September and 31 December, with the balance due by 30 April  _(Income Tax Act (Chap. 75:01) — https://www.finance.gov.tt/services/income-tax/paying-your-taxes/)_
+- **Small-business VAT registration reference (Ministry of Finance)** — The Finance Ministry's income-tax page states individuals or businesses selling goods or services worth TT$200,000 or more in a twelve-month period (or forecasting the same) must register for VAT; the IRD's current VAT page states the registration threshold as commercial supplies in excess of $600,000 as of 1/1/2023 — the IRD figure governs and the Finance page appears not to have been updated. ((discrepancy — IRD 600,000 governs))  _(Ministry of Finance income-tax page (archived 2026-10-28) vs IRD VAT page (archived 2026-10-28))_
 - **Business levy on self-employed** — 0.6% on gross income/receipts exceeding TTD 360,000 per year, where it exceeds the income tax liability  _(Income Tax Act (Chap. 75:01) — https://taxsummaries.pwc.com/trinidad-and-tobago/individual/other-taxes)_
 
 <!-- openaccountants-cta-block -->

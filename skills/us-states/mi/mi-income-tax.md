@@ -4,7 +4,7 @@ description: Use this skill whenever asked about Michigan individual income tax 
 version: "0.1"
 jurisdiction: US-MI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -54,7 +54,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Item | Value | Source |
 | --- | --- | --- |
-| Michigan flat income tax rate | 4.25% | MCL 206.51 |
+| Michigan flat income tax rate | 4.25% — VERIFIED vs archived [MCL 206.51(1)(b)](https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51): "on and after October 1, 2012, 4.25%", with the (c) trigger-reduction mechanism (rate drops if prior-year general fund growth exceeds positive inflation) — the 2026 rate notice confirms 4.25% remains in effect | MCL 206.51(1)(b)–(c), archived 2026-10-28 |
 
 - **Flat rate applicability** — Michigan uses a flat rate — the same 4.25% applies to all taxable income regardless of filing status or income level.  _(MCL 206.51)_
 

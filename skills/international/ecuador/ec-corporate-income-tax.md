@@ -3,7 +3,7 @@ name: ec-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Ecuador (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: EC
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -14,6 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Corporate income tax rates and base
 
+**Verified 2026-10-28 verbatim vs archived LRTI text (`EC-ley-regimen-tributario-interno.pdf` / `EC-sri-impuesto-renta.html`): "aplicarán la tarifa del 25% sobre su base imponible"; +3 pts tax-haven beneficiary rule and −10% reinvestment credit also in archived text.**
 - **General corporate income tax rate** — 25% percent  _([Ley de Régimen Tributario Interno (LRTI)](https://taxsummaries.pwc.com/ecuador/corporate/taxes-on-corporate-income))_
 - **Rate with tax-haven shareholders** — 28% percent (where non-resident shareholders are in a tax-haven jurisdiction and an Ecuadorian individual is also in the ownership chain)  _([Ley de Régimen Tributario Interno (LRTI)](https://taxsummaries.pwc.com/ecuador/corporate/taxes-on-corporate-income))_
 - **Reinvestment-of-profits reduced rate** — Reduced rate (general rate minus 10 percentage points) on profits reinvested in qualifying productive assets, subject to conditions percent ((approx — confirm conditions))  _(Ley de Régimen Tributario Interno (LRTI))_
