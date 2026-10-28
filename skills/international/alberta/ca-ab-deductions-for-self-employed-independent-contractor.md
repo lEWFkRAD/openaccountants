@@ -1,9 +1,10 @@
 ---
 name: ca-ab-deductions-for-self-employed-independent-contractor
 description: A working guide to the business expenses a self-employed independent contractor in Alberta can deduct on Form T2125, the statutory limits on those deductions, and the CRA registration, record-keeping, filing and payment steps that surround them.
+version: "0.2"
 jurisdiction: CA-AB
 tax_year: 2026
-last_updated: 2026-09-03
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 drafted_by: OpenAccountants
@@ -16,7 +17,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Deductions for a self-employed independent contractor in Alberta
 
-An independent contractor in Alberta who is not incorporated reports business income and expenses as a sole proprietor on Form T2125, Statement of Business or Professional Activities, filed with the T1 personal return for the calendar year. Deductible amounts are the expenses incurred to earn that business income, reduced by the personal-use portion and by the statutory limits set out below. Figures are for tax year 2026. Alberta has no separate provincial business-expense rules on the pages used here; the deduction limits are federal and apply to an Alberta contractor in the same terms. Where a table cites a CRA page that states a different year or a different filing cycle, the table says so in the Note column.
+An independent contractor in Alberta who is not incorporated reports business income and expenses as a sole proprietor on Form T2125, Statement of Business or Professional Activities, filed with the T1 personal return for the calendar year. Deductible amounts are the expenses incurred to earn that business income, reduced by the personal-use portion and by the statutory limits set out below. Figures are for tax year 2026. Alberta has no separate provincial business-expense rules on the pages used here; the deduction limits are federal and apply to an Alberta contractor in the same terms (Alberta corporate income tax rates for context: 8% general and 2% small business, current effective July 1, 2020, per the archived Alberta TRA rates page, https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates). Where a table cites a CRA page that states a different year or a different filing cycle, the table says so in the Note column.
 
 ## Who this is for
 

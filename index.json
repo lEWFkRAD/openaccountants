@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:23:18+00:00",
+ "generated_at": "2026-10-28T20:24:29+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -2332,7 +2332,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-09-03"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ca-ab-departure-tax-t1244-security-election-defer",
@@ -2344,7 +2344,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-09-03"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "algeria-income-tax",
