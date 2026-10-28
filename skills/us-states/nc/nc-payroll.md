@@ -1,9 +1,10 @@
 ---
 name: nc-payroll
-description: Tier 2 North Carolina content skill for employer payroll compliance covering tax year 2025. Includes the 4.5% flat PIT phasing down toward 2.49% by 2030 contingent on revenue triggers, NC-4 state W-4, NC-5 monthly withholding voucher, NC-3 annual reconciliation, NC SUI wage base $32,600 with rates 0.06-5.76%, the absence of state-mandated paid leave or sick leave, and DHHS new-hire reporting within 20 days under PRWORA §453A.
+description: Tier 2 North Carolina content skill for employer payroll compliance covering tax year 2025. Includes the 4.25% flat PIT phasing down toward 2.49% by 2030 contingent on revenue triggers, NC-4 state W-4, NC-5 monthly withholding voucher, NC-3 annual reconciliation, NC SUI wage base $32,600 with rates 0.06-5.76%, the absence of state-mandated paid leave or sick leave, and DHHS new-hire reporting within 20 days under PRWORA §453A.
 jurisdiction: US-NC
 tax_year: 2025
-last_updated: 2026-07-13
+version: "0.2"
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,9 +25,9 @@ NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) �
 
 ## 2. North Carolina Personal Income Tax (PIT) Withholding
 
-### 2.1 The 4.5% Flat Rate for 2025
+### 2.1 The 4.25% Flat Rate for 2025
 
-- **2025 flat PIT rate** — 4.5% (flat on all taxable income, applies equally to wage withholding and supplemental wage rate)  _(NCGS §105-153.7(a), as amended by S.L. 2023-134 (the 2023 Appropriations Act) and S.L. 2024-1)_
+- **2025 flat PIT rate** — 4.25% (flat on all taxable income, applies equally to wage withholding and supplemental wage rate)  _(NCGS §105-153.7(a), as amended by S.L. 2023-134 (the 2023 Appropriations Act) and S.L. 2024-1; NCDOR 2025 D-401 Instructions, archived: "For tax year 2025, the individual income tax rate is 4.25%. To calculate your North Carolina tax liability, multiply your North Carolina taxable income by 4.25% (0.0425).")_
 
 **Effective dates of statutory rates**  _(S.L. 2023-134)_
 
@@ -35,7 +36,7 @@ NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) �
 | 2022 | 4.99% | NCGS §105-153.7 (pre-2022 amendment) |
 | 2023 | 4.75% | S.L. 2021-180 |
 | 2024 | 4.5% | S.L. 2021-180 |
-| **2025** | **4.5%** | **S.L. 2023-134** |
+| **2025** | **4.25%** | **S.L. 2023-134; NCDOR 2025 D-401 Instructions (archived)** |
 | 2026 | 3.99% (scheduled) | S.L. 2023-134 |
 | 2027 | 3.49% (contingent trigger) | S.L. 2023-134 §42.1(a) |
 | 2028 | 2.99% (contingent trigger) | S.L. 2023-134 §42.1(a) |
@@ -57,11 +58,11 @@ NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) �
 
 Common audit error: Payroll software vendors and small employers often pre-program rates assuming the triggers will be met. If a trigger is not met for a given fiscal year, the rate stays at the prior year's level and does not decrease further. When advising clients on 2026 and later withholding, always verify the actual statutory rate in effect via NCDOR Directive or Form NC-30 (Income Tax Withholding Tables and Instructions) for that tax year. Do not extrapolate.
 
-For tax year 2025 only, the rate is firmly 4.5% and is not contingent.
+For tax year 2025 only, the rate is firmly 4.25% and is not contingent.
 
 ### 2.3 Supplemental Wage Rate
 
-- **Supplemental wage withholding rate 2025** — 4.5% (flat rate for bonuses, commissions, severance, equity vesting net of cover, retroactive pay; no aggregate method alternative)  _(NCDOR Form NC-30 (2025))_
+- **Supplemental wage withholding rate 2025** — 4.25% (flat rate for bonuses, commissions, severance, equity vesting net of cover, retroactive pay; no aggregate method alternative)  _(NCDOR Form NC-30 (2025))_
 - **Concurrent supplemental wages** — If supplemental wages are paid concurrently with regular wages and not separately identified, the combined amount is treated as a single regular wage payment subject to the standard withholding formula.  _(NCDOR Form NC-30 (2025))_
 
 ### 2.4 Standard Deduction in Withholding Tables
@@ -385,7 +386,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 | New hire reports (DHHS) | Within 20 days of each hire | — | — |
 
 - **SUI calculation example** — Manager gross 2025 wages: $52,000. Wages above $32,600 base: $19,400 (excess; not SUI-taxable). Taxable wages: $32,600. NC SUI tax: $32,600 × 1.0% = $326. Of which workforce investment allocation: $326 × 20% = $65.20 (internal to DES; employer just remits $326 total). For all 5 employees, assuming all earn above $32,600 base: Total taxable SUI wages: $32,600 × 5 = $163,000. Total NC SUI for 2025: $163,000 × 1.0% = $1,630.
-- **PIT withholding example calculation** — Biweekly gross: $2,000. Annualized: $52,000. 2025 standard deduction (single, NC-4 with zero allowances): $12,750. Annualized NC taxable wages: $52,000 − $12,750 = $39,250. Annual NC tax at 4.5%: $1,766.25. Per pay period (26 pay periods): $1,766.25 / 26 = $67.93 per pay period. (The NC-30 wage-bracket tables would produce a similar result, rounded to the nearest dollar.)
+- **PIT withholding example calculation** — Biweekly gross: $2,000. Annualized: $52,000. 2025 standard deduction (single, NC-4 with zero allowances): $12,750. Annualized NC taxable wages: $52,000 − $12,750 = $39,250. Annual NC tax at 4.25%: $1,668.13. Per pay period (26 pay periods): $1,668.13 / 26 = $64.16 per pay period. (The NC-30 wage-bracket tables would produce a similar result, rounded to the nearest dollar.)
 
 ### 13.2 Example: Multistate Employer with NC Resident Remote Workers
 
@@ -396,8 +397,8 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 - Both NC employees earn $120,000/year
 - Cascade has no physical office or property in NC, just the 2 remote employees
 
-- **Nexus and withholding analysis** — **Does Cascade have NC payroll-tax nexus?** Yes. Having a NC-resident employee whose duties are performed in NC creates payroll-tax nexus under NCGS §105-163.1(13) (definition of "employer") regardless of the employer's lack of NC physical office. Cascade must register as a NC withholding agent and a NC SUI employer. **NC withholding:** - Both employees file NC-4 - Cascade withholds NC PIT at 4.5% effective rate on wages sourced to NC **Sourcing for the Cary employee:** 100% NC-sourced because all work is performed in NC. **Sourcing for the Asheville employee with 3 days/quarter in Seattle:** - Approximately 12 days/year in Seattle out of ~250 working days = 4.8% WA-sourced, 95.2% NC-sourced - NC withholding applies to 95.2% of wages - WA has no state income tax, so no WA withholding required (WA has Paid Family Medical Leave program; see WA payroll skill) - For practical administration, Cascade may either (a) withhold NC on 100% and let the employee claim a credit at year-end, or (b) reduce NC withholding proportionally with documented day-count records — both are acceptable to NCDOR if documented  _(NCGS §105-163.1(13))_
-- **NC SUI and filing frequency calculation** — **NC SUI:** - Both employees are NC-resident remote workers performing services in NC - Cascade must register with DES, pay the 1.0% new-employer rate, on the first $32,600 of each employee's wages - NC SUI per employee: $32,600 × 1.0% = $326 - Total NC SUI: $652 - Plus quarterly NCUI 101 filings **Filing frequency:** - 2 employees × $120,000 × 4.5% / 95.2% NC-sourced for one ≈ $10,250 annual NC withholding - Avg monthly = $854 → monthly filer (NC-5) **Filings required:** - NC-5 monthly - NCUI 101 quarterly - NC-3 annual - New hire reports for both employees within 20 days of hire to NC DHHS (not to WA) **Multistate election for new-hire reporting:** Because Cascade has employees in multiple states, it may elect under 42 U.S.C. §653A(b)(1)(B) to report all new hires (including the WA, TX, VA employees) to NC DHHS. Whether this is administratively beneficial depends on Cascade's payroll vendor.  _(42 U.S.C. §653A(b)(1)(B))_
+- **Nexus and withholding analysis** — **Does Cascade have NC payroll-tax nexus?** Yes. Having a NC-resident employee whose duties are performed in NC creates payroll-tax nexus under NCGS §105-163.1(13) (definition of "employer") regardless of the employer's lack of NC physical office. Cascade must register as a NC withholding agent and a NC SUI employer. **NC withholding:** - Both employees file NC-4 - Cascade withholds NC PIT at 4.25% effective rate on wages sourced to NC **Sourcing for the Cary employee:** 100% NC-sourced because all work is performed in NC. **Sourcing for the Asheville employee with 3 days/quarter in Seattle:** - Approximately 12 days/year in Seattle out of ~250 working days = 4.8% WA-sourced, 95.2% NC-sourced - NC withholding applies to 95.2% of wages - WA has no state income tax, so no WA withholding required (WA has Paid Family Medical Leave program; see WA payroll skill) - For practical administration, Cascade may either (a) withhold NC on 100% and let the employee claim a credit at year-end, or (b) reduce NC withholding proportionally with documented day-count records — both are acceptable to NCDOR if documented  _(NCGS §105-163.1(13))_
+- **NC SUI and filing frequency calculation** — **NC SUI:** - Both employees are NC-resident remote workers performing services in NC - Cascade must register with DES, pay the 1.0% new-employer rate, on the first $32,600 of each employee's wages - NC SUI per employee: $32,600 × 1.0% = $326 - Total NC SUI: $652 - Plus quarterly NCUI 101 filings **Filing frequency:** - 2 employees × $120,000 × 4.25% / 95.2% NC-sourced for one ≈ $10,250 annual NC withholding - Avg monthly = $854 → monthly filer (NC-5) **Filings required:** - NC-5 monthly - NCUI 101 quarterly - NC-3 annual - New hire reports for both employees within 20 days of hire to NC DHHS (not to WA) **Multistate election for new-hire reporting:** Because Cascade has employees in multiple states, it may elect under 42 U.S.C. §653A(b)(1)(B) to report all new hires (including the WA, TX, VA employees) to NC DHHS. Whether this is administratively beneficial depends on Cascade's payroll vendor.  _(42 U.S.C. §653A(b)(1)(B))_
 
 ### 13.3 Example: Contractor Classification — NC Construction Subcontractor
 
@@ -436,7 +437,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 
 **NC SUI conclusion:** Joe is unambiguously an employee under NC's ABC test.
 
-- **Exposure calculation** — - Back SUI: 4 quarters × wages up to $32,600 × 1.0% new-employer rate (if Mountain Homes had not previously been classified as construction). If Mountain Homes already has an experience rating, the rate could be substantially higher. - $32,600 × 1.0% = $326 in back SUI per year for Joe alone. - 10% penalty: $32.60 - Interest at 8% APR - Back NC PIT withholding: 4.5% × $78,000 = $3,510 per year that should have been withheld - 10% penalty for failure to withhold: $351 - Interest at 8% APR - Back federal taxes: Mountain Homes is liable for the employer share of FICA (7.65%) on Joe's wages plus FUTA on the first $7,000. With reduced rates under IRC §3509, the employer FICA liability may be reduced if the 1099 was timely filed (which it was). Roughly $78,000 × 7.65% × 50% Section 3509 reduction ≈ $2,984 per year. - Employee Fair Classification Act exposure: Up to $1,000 per misclassified worker, plus potential debarment from state contracts for 5 years (severe consequence for a GC seeking state-funded projects). - Industrial Commission referral risk: The NC Industrial Commission may refer the case to NCDOR, DES, and NC DOL for coordinated enforcement.  _(IRC §3509)_
+- **Exposure calculation** — - Back SUI: 4 quarters × wages up to $32,600 × 1.0% new-employer rate (if Mountain Homes had not previously been classified as construction). If Mountain Homes already has an experience rating, the rate could be substantially higher. - $32,600 × 1.0% = $326 in back SUI per year for Joe alone. - 10% penalty: $32.60 - Interest at 8% APR - Back NC PIT withholding: 4.25% × $78,000 = $3,315 per year that should have been withheld - 10% penalty for failure to withhold: $331.50 - Interest at 8% APR - Back federal taxes: Mountain Homes is liable for the employer share of FICA (7.65%) on Joe's wages plus FUTA on the first $7,000. With reduced rates under IRC §3509, the employer FICA liability may be reduced if the 1099 was timely filed (which it was). Roughly $78,000 × 7.65% × 50% Section 3509 reduction ≈ $2,984 per year. - Employee Fair Classification Act exposure: Up to $1,000 per misclassified worker, plus potential debarment from state contracts for 5 years (severe consequence for a GC seeking state-funded projects). - Industrial Commission referral risk: The NC Industrial Commission may refer the case to NCDOR, DES, and NC DOL for coordinated enforcement.  _(IRC §3509)_
 
 1. Reclassify Joe as a W-2 employee effective the next pay period.
 2. Consult counsel about a voluntary disclosure to DES and NCDOR to limit penalties.

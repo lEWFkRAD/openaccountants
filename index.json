@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:17:43+00:00",
+ "generated_at": "2026-10-28T21:16:44+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -24736,7 +24736,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "az-cross-border",
@@ -24760,7 +24760,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": null,
-   "last_updated": "2026-06-12"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "az-payroll",
@@ -24916,7 +24916,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ca-residency-leaving-california",
@@ -24952,7 +24952,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": null,
-   "last_updated": "2026-06-12"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ca-smllc-form-568",
@@ -25012,7 +25012,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "co-payroll",
@@ -25216,7 +25216,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "dc-payroll-withholding",
@@ -25456,7 +25456,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ga-cross-border-tax",
@@ -25504,7 +25504,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ga-net-worth-tax",
@@ -25540,7 +25540,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ga-transfer-pricing-addbacks",
@@ -25804,7 +25804,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "il-cross-border",
@@ -25840,7 +25840,7 @@
    "verified_by": null,
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "il-payroll",
@@ -25876,7 +25876,7 @@
    "verified_by": null,
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "il-social-contributions",
@@ -26272,7 +26272,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ma-cross-border-tax",
@@ -26368,7 +26368,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "md-corporate-income-tax",
@@ -26584,7 +26584,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mi-homestead-credit",
@@ -26608,7 +26608,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mi-payroll",
@@ -27028,7 +27028,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-income-tax",
@@ -27040,7 +27040,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-payroll",
@@ -27052,7 +27052,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-return-assembly",
@@ -27064,7 +27064,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-sales-tax",
@@ -27388,7 +27388,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nj-sales-tax",
@@ -27640,7 +27640,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-25"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ny-transfer-pricing",
@@ -27664,7 +27664,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-06-12"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "oh-cat-tax",
@@ -27688,7 +27688,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "oh-corporate-income-tax",
@@ -27700,7 +27700,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "oh-cross-border",
@@ -27724,7 +27724,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "oh-payroll",
@@ -27760,7 +27760,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "oh-transfer-pricing",
@@ -27904,7 +27904,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "pa-payroll",
@@ -27940,7 +27940,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "pa-transfer-pricing",
@@ -28168,7 +28168,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "va-payroll",

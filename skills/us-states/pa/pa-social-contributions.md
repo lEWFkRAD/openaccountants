@@ -18,8 +18,8 @@ jurisdiction: US-PA
 category: state-tax
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - pa-payroll
@@ -47,7 +47,8 @@ Employer-side social contributions in Pennsylvania: **unemployment compensation 
 | Item | Amount / rule | Source |
 |---|---|---|
 | UC taxable wage base | **$10,000 per employee per calendar year** | DLI highlights, read 2026-10-27 |
-| UC employer rate | Experience-rated; 2027 published range **0.014190 to 0.103734** (2026 range needs-sources) | DLI highlights, read 2026-10-27 |
+| UC employer rate | Experience-rated; published range **0.014190 to 0.103734** for 2025, 2026 and 2027 alike (VERIFIED vs archived DLI yearly tax highlights, which repeat the same figures under each year's heading) | DLI highlights, archived 2026-10-28 |
+| Newly liable employer rate | **3.8220%** non-construction / **10.5924%** construction (includes 9.2% surcharge only; 0.60% Additional Contributions does not apply to newly liable employers) — VERIFIED vs archived DLI highlights | DLI highlights, archived 2026-10-28 |
 | UC solvency surcharge | **9.2% surcharge in effect for 2026 and 2027**, applied as: (Basic Contribution Rate + 3% delinquency increase if applicable) × 9.2% = Surcharge Adjustment; applies to all employers, not appealable | DLI highlights, read 2026-10-27 |
 | Additional Contributions | **0.60% of taxable wages** — applies to all employers, not appealable | DLI highlights, read 2026-10-27 |
 | Delinquency increase | **+3 percentage points** to the basic rate for UC delinquency | DLI highlights, read 2026-10-27 |
@@ -72,7 +73,9 @@ Quarterly due dates are the standard UC-2 calendar; the DLI highlights page conf
 
 ## 5. Penalties and interest
 
-- Late/unpaid UC triggers the **3% delinquency increase** to the experience rate (see flash point) plus interest on contributions due — rate needs-sources.
+- Late/unpaid UC triggers the **3% delinquency increase** to the experience rate (see flash point) plus interest on contributions due — **1.0% per month (12% yearly) for 2018 onward**, computed per month or fraction of a month on unpaid employer AND employee contributions — VERIFIED vs archived [DLI Calculating Contributions, Penalties and Interest](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/uc-tax-rates/calculating-contributions--penalties-and-interest).
+- **Late quarterly report penalty:** 15% of total contributions payable for the quarter, minimum **$125**, maximum **$450** — filing on time avoids the penalty even if payment is late (interest still accrues). VERIFIED vs archived DLI page.
+- **Dishonored remittance penalty:** 10% of the payment, minimum **$25** per occurrence, maximum **$1,000**. VERIFIED vs archived DLI page.
 - Failure to withhold the 0.07% employee contribution is an employer liability.
 - Workers' comp: uninsured-employer penalties under the WC Act — figures needs-sources.
 
@@ -129,7 +132,7 @@ expected:
 - [DLI UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights) — read 2026-10-27 (wage base, 9.2% surcharge formula, 0.60% additional, 0.07% employee, 2027 rate range)
 - [DLI workers' compensation](https://www.pa.gov/agencies/dli/businesses/workers-compensation) — HTTP 200 2026-10-27 (navigation shell)
 - `pa-payroll` (tier 2, read 2026-09-25) — UC withholding mechanics, $10,000 base cross-check
-- **needs-sources:** PFML contribution rates and program calendar (pfml.pa.gov / ucpfi.pa.gov unreachable 2026-10-27); 2026 published rate range; new-employer assigned rate; FUTA credit-reduction status; WC penalty figures; UC interest rate.
+- **needs-sources:** PFML contribution rates and program calendar (pfml.pa.gov / ucpfi.pa.gov unreachable 2026-10-27); FUTA credit-reduction status; WC penalty figures. Resolved 2026-10-28 from archived DLI pages: 2026 published rate range (same 0.014190–0.103734 as 2025/2027), new-employer assigned rates (3.8220% / 10.5924%), UC interest (1%/month), late-report and dishonored-payment penalties.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Pennsylvania UC, workers' comp and PFML questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

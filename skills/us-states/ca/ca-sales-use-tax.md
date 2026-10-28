@@ -1,13 +1,13 @@
 ---
 name: california-sales-tax
 description: Use this skill whenever asked about California sales and use tax, CDTFA filings, California district taxes, California exemptions, California nexus, or any request involving California state sales and use tax compliance. Trigger on phrases like "California sales tax", "CA sales tax", "CDTFA", "CDTFA-401", "district tax", "California use tax", "California resale certificate", or any request involving California sales and use tax classification, filing, or compliance. ALWAYS read this skill before touching any California sales tax work.
-version: 2.0
+version: 2.1
 jurisdiction: US-CA
 tier: 2
-last_updated: 2026-06-12
+last_updated: 2026-10-28
 ---
 
-# California Sales and Use Tax Skill v2.0
+# California Sales and Use Tax Skill v2.1
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
@@ -18,7 +18,7 @@ last_updated: 2026-06-12
 | Jurisdiction | California, United States |
 | Jurisdiction code | US-CA |
 | Tax type | Sales and Use Tax + District Taxes |
-| State base rate | 7.25% (minimum statewide) |
+| State base rate | 7.25% (minimum statewide) — CDTFA Pub 109: "The current statewide sales and use tax rate is 7.25 percent, which includes 1.25 percent of local taxes (1.00 percent Local Jurisdiction and .25 percent Local Transportation Fund)." |
 | Local add-on range | 0.10% -- 3.25% district taxes |
 | Maximum combined rate | ~10.25% -- 10.75% (parts of Los Angeles, Alameda) |
 | Sourcing | Destination-based (district taxes by ship-to address) |
