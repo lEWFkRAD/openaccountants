@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:29:59+00:00",
+ "generated_at": "2026-10-28T20:32:35+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -26692,7 +26692,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mn-corporate-and-pte",
@@ -26704,7 +26704,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mn-cross-border-tax",
@@ -26728,7 +26728,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mn-payroll",
@@ -26740,7 +26740,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mn-sales-tax",
@@ -26752,7 +26752,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mn-social-contributions",

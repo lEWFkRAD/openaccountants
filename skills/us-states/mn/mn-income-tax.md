@@ -1,10 +1,10 @@
 ---
 name: mn-income-tax
 description: Use this skill whenever asked about Minnesota individual income tax for self-employed persons, sole proprietors, or single-member LLCs. Trigger on phrases like "Minnesota income tax", "MN income tax", "Form M1", "Minnesota DOR", "Minn. Stat. § 290.06".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-MN
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -150,7 +150,7 @@ Minnesota taxable income begins with **federal taxable income** (Form 1040, Line
 | MN-T1-04 | Add back federal bonus depreciation (IRC § 168(k)) and replace with straight-line MACRS | Minn. Stat. § 290.0131 |
 | MN-T1-05 | Subtract U.S. government bond interest | Minn. Stat. § 290.0132 |
 | MN-T1-06 | Subtract state income tax refund included in federal taxable income | Minn. Stat. § 290.0132 |
-| MN-T1-07 | Apply graduated rates: 5.35%, 6.80%, 7.85%, 9.85% to the 2026 brackets | Minn. Stat. § 290.06 |
+| MN-T1-07 | Apply graduated rates: 5.35%, 6.80%, 7.85%, 9.85% to the 2026 brackets | Minn. Stat. § 290.06 |  — rates confirmed verbatim in archived §290.06; archived statute shows 2025 MFJ brackets $38,770/$154,020/$269,010, consistent with the 2026 table (single $33,310/$109,430/$203,150) after CPI indexation
 | MN-T1-08 | Dependent exemption: $5,300 per qualifying dependent (2026) — reduces tax, not income | Minn. Stat. § 290.0674 |
 | MN-T1-09 | Minnesota Working Family Credit (state EITC): percentage of federal EIC (refundable) | Minn. Stat. § 290.0671 |
 | MN-T1-10 | K-12 Education Credit: credit for qualifying education expenses (income-limited) | Minn. Stat. § 290.0674 |
