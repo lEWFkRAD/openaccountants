@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T09:36:11+00:00",
+ "generated_at": "2026-10-28T20:59:47+00:00",
  "counts": {
-  "guides": 2261,
+  "guides": 2523,
   "jurisdictions": 274,
   "accountant_reviewed": 33
  },
@@ -1615,6 +1615,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "us-social-contributions",
+   "path": "skills/federal/us-social-contributions.md",
+   "name": "us-social-contributions",
+   "jurisdiction": "US",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "us-sole-prop-bookkeeping",
    "path": "skills/federal/us-sole-prop-bookkeeping.md",
    "name": "us-sole-prop-bookkeeping",
@@ -1697,6 +1709,18 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-09-16"
+  },
+  {
+   "slug": "us-transfer-pricing",
+   "path": "skills/federal/us-transfer-pricing.md",
+   "name": "us-transfer-pricing",
+   "jurisdiction": "US",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "ifrs3-business-combinations",
@@ -2423,12 +2447,12 @@
    "path": "skills/international/andorra/ad-corporate-income-tax.md",
    "name": "ad-corporate-income-tax",
    "jurisdiction": "AD",
-   "category": null,
+   "category": "international",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "ad-income-tax",
@@ -2439,8 +2463,20 @@
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ad-non-resident-income-tax",
+   "path": "skills/international/andorra/ad-non-resident-income-tax.md",
+   "name": "ad-non-resident-income-tax",
+   "jurisdiction": "AD",
+   "category": "international",
+   "tier": 2,
+   "verified_by": null,
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "ad-payroll-social",
@@ -2451,32 +2487,44 @@
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "ad-tax-overview",
    "path": "skills/international/andorra/ad-tax-overview.md",
    "name": "ad-tax-overview",
    "jurisdiction": "AD",
-   "category": null,
+   "category": "international",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "ad-transfer-pricing",
+   "path": "skills/international/andorra/ad-transfer-pricing.md",
+   "name": "ad-transfer-pricing",
+   "jurisdiction": "AD",
+   "category": "international",
+   "tier": 2,
+   "verified_by": null,
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "andorra-igi",
    "path": "skills/international/andorra/andorra-igi.md",
    "name": "andorra-igi",
    "jurisdiction": "AD",
-   "category": null,
+   "category": "international",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "ao-company-formation",
@@ -2607,8 +2655,20 @@
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ar-cross-border",
+   "path": "skills/international/argentina/ar-cross-border.md",
+   "name": "ar-cross-border",
+   "jurisdiction": "AR",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "ar-income-tax",
@@ -2635,6 +2695,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ar-payroll-withholding",
+   "path": "skills/international/argentina/ar-payroll-withholding.md",
+   "name": "ar-payroll-withholding",
+   "jurisdiction": "AR",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "ar-social-contributions",
    "path": "skills/international/argentina/ar-social-contributions.md",
    "name": "ar-social-contributions",
@@ -2657,6 +2729,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ar-transfer-pricing",
+   "path": "skills/international/argentina/ar-transfer-pricing.md",
+   "name": "ar-transfer-pricing",
+   "jurisdiction": "AR",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "ar-vat-return",
@@ -2815,6 +2899,30 @@
    "last_updated": "2026-10-27"
   },
   {
+   "slug": "aw-corporate-tax",
+   "path": "skills/international/aruba/aw-corporate-tax.md",
+   "name": "aw-corporate-tax",
+   "jurisdiction": "AW",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "aw-cross-border-tax",
+   "path": "skills/international/aruba/aw-cross-border-tax.md",
+   "name": "aw-cross-border-tax",
+   "jurisdiction": "AW",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "aw-individual-income-tax",
    "path": "skills/international/aruba/aw-individual-income-tax.md",
    "name": "aw-individual-income-tax",
@@ -2827,6 +2935,18 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "aw-payroll-withholding",
+   "path": "skills/international/aruba/aw-payroll-withholding.md",
+   "name": "aw-payroll-withholding",
+   "jurisdiction": "AW",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "aw-social-contributions",
    "path": "skills/international/aruba/aw-social-contributions.md",
    "name": "aw-social-contributions",
@@ -2837,6 +2957,18 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "aw-transfer-pricing",
+   "path": "skills/international/aruba/aw-transfer-pricing.md",
+   "name": "aw-transfer-pricing",
+   "jurisdiction": "AW",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "aw-turnover-taxes",
@@ -3811,6 +3943,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "bs-cross-border",
+   "path": "skills/international/bahamas/bs-cross-border.md",
+   "name": "bs-cross-border",
+   "jurisdiction": "BS",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "bs-income-tax",
    "path": "skills/international/bahamas/bs-income-tax.md",
    "name": "bs-income-tax",
@@ -3845,6 +3989,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "bs-transfer-pricing",
+   "path": "skills/international/bahamas/bs-transfer-pricing.md",
+   "name": "bs-transfer-pricing",
+   "jurisdiction": "BS",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "bahrain-vat",
@@ -4147,6 +4303,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "bb-cross-border",
+   "path": "skills/international/barbados/bb-cross-border.md",
+   "name": "bb-cross-border",
+   "jurisdiction": "BB",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
    "slug": "bb-income-tax",
    "path": "skills/international/barbados/bb-income-tax.md",
    "name": "bb-income-tax",
@@ -4181,6 +4349,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "bb-transfer-pricing",
+   "path": "skills/international/barbados/bb-transfer-pricing.md",
+   "name": "bb-transfer-pricing",
+   "jurisdiction": "BB",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
   },
   {
    "slug": "belarus-income-tax",
@@ -4483,6 +4663,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "bz-cross-border",
+   "path": "skills/international/belize/bz-cross-border.md",
+   "name": "bz-cross-border",
+   "jurisdiction": "BZ",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "bz-income-tax",
    "path": "skills/international/belize/bz-income-tax.md",
    "name": "bz-income-tax",
@@ -4517,6 +4709,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "bz-transfer-pricing",
+   "path": "skills/international/belize/bz-transfer-pricing.md",
+   "name": "bz-transfer-pricing",
+   "jurisdiction": "BZ",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "bz-vat-gst",
@@ -4639,6 +4843,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "bm-cross-border",
+   "path": "skills/international/bermuda/bm-cross-border.md",
+   "name": "bm-cross-border",
+   "jurisdiction": "BM",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "bm-income-tax",
    "path": "skills/international/bermuda/bm-income-tax.md",
    "name": "bm-income-tax",
@@ -4673,6 +4889,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "bm-transfer-pricing",
+   "path": "skills/international/bermuda/bm-transfer-pricing.md",
+   "name": "bm-transfer-pricing",
+   "jurisdiction": "BM",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "bm-vat-gst",
@@ -4759,6 +4987,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "bolivia-corporate-income-tax",
+   "path": "skills/international/bolivia/bolivia-corporate-income-tax.md",
+   "name": "bolivia-corporate-income-tax",
+   "jurisdiction": "BO",
+   "category": "corporate",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "bolivia-cross-border",
+   "path": "skills/international/bolivia/bolivia-cross-border.md",
+   "name": "bolivia-cross-border",
+   "jurisdiction": "BO",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "bolivia-income-tax",
    "path": "skills/international/bolivia/bolivia-income-tax.md",
    "name": "bolivia-income-tax",
@@ -4817,6 +5069,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "bolivia-transfer-pricing",
+   "path": "skills/international/bolivia/bolivia-transfer-pricing.md",
+   "name": "bolivia-transfer-pricing",
+   "jurisdiction": "BO",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "ba-company-formation",
@@ -4999,6 +5263,30 @@
    "last_updated": "2026-09-03"
   },
   {
+   "slug": "br-corporate-income-tax",
+   "path": "skills/international/brazil/br-corporate-income-tax.md",
+   "name": "br-corporate-income-tax",
+   "jurisdiction": "BR",
+   "category": "corporate",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "br-cross-border",
+   "path": "skills/international/brazil/br-cross-border.md",
+   "name": "br-cross-border",
+   "jurisdiction": "BR",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "br-estimated-tax",
    "path": "skills/international/brazil/br-estimated-tax.md",
    "name": "br-estimated-tax",
@@ -5057,6 +5345,18 @@
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "br-social-contributions",
+   "path": "skills/international/brazil/br-social-contributions.md",
+   "name": "br-social-contributions",
+   "jurisdiction": "BR",
+   "category": "social",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "brazil-crypto-tax",
@@ -5155,6 +5455,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "vg-cross-border",
+   "path": "skills/international/british-virgin-islands/vg-cross-border.md",
+   "name": "vg-cross-border",
+   "jurisdiction": "VG",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "vg-payroll-social",
    "path": "skills/international/british-virgin-islands/vg-payroll-social.md",
    "name": "vg-payroll-social",
@@ -5177,6 +5489,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "vg-transfer-pricing",
+   "path": "skills/international/british-virgin-islands/vg-transfer-pricing.md",
+   "name": "vg-transfer-pricing",
+   "jurisdiction": "VG",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "vg-vat-gst",
@@ -6391,6 +6715,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ky-cross-border",
+   "path": "skills/international/cayman-islands/ky-cross-border.md",
+   "name": "ky-cross-border",
+   "jurisdiction": "KY",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "ky-payroll-social",
    "path": "skills/international/cayman-islands/ky-payroll-social.md",
    "name": "ky-payroll-social",
@@ -6413,6 +6749,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ky-transfer-pricing",
+   "path": "skills/international/cayman-islands/ky-transfer-pricing.md",
+   "name": "ky-transfer-pricing",
+   "jurisdiction": "KY",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "ky-vat-gst",
@@ -6571,6 +6919,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "chile-cross-border",
+   "path": "skills/international/chile/chile-cross-border.md",
+   "name": "chile-cross-border",
+   "jurisdiction": "CL",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "chile-iva",
    "path": "skills/international/chile/chile-iva.md",
    "name": "chile-iva",
@@ -6581,6 +6941,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "chile-payroll",
+   "path": "skills/international/chile/chile-payroll.md",
+   "name": "chile-payroll",
+   "jurisdiction": "CL",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "chile-transfer-pricing",
+   "path": "skills/international/chile/chile-transfer-pricing.md",
+   "name": "chile-transfer-pricing",
+   "jurisdiction": "CL",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "cl-company-formation",
@@ -6859,6 +7243,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "co-cross-border",
+   "path": "skills/international/colombia/co-cross-border.md",
+   "name": "co-cross-border",
+   "jurisdiction": "CO",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "co-income-tax",
    "path": "skills/international/colombia/co-income-tax.md",
    "name": "co-income-tax",
@@ -6869,6 +7265,18 @@
    "reviewed_by": null,
    "tax_year": null,
    "last_updated": "2026-06-12"
+  },
+  {
+   "slug": "co-payroll-withholding",
+   "path": "skills/international/colombia/co-payroll-withholding.md",
+   "name": "co-payroll-withholding",
+   "jurisdiction": "CO",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "co-social-contributions",
@@ -6893,6 +7301,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "co-transfer-pricing",
+   "path": "skills/international/colombia/co-transfer-pricing.md",
+   "name": "co-transfer-pricing",
+   "jurisdiction": "CO",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "co-vat-return",
@@ -7025,6 +7445,42 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "cr-corporate-income-tax",
+   "path": "skills/international/costa-rica/cr-corporate-income-tax.md",
+   "name": "cr-corporate-income-tax",
+   "jurisdiction": "CR",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "cr-cross-border",
+   "path": "skills/international/costa-rica/cr-cross-border.md",
+   "name": "cr-cross-border",
+   "jurisdiction": "CR",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "cr-transfer-pricing",
+   "path": "skills/international/costa-rica/cr-transfer-pricing.md",
+   "name": "cr-transfer-pricing",
+   "jurisdiction": "CR",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "croatia-income-tax",
@@ -7171,6 +7627,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "cu-cross-border",
+   "path": "skills/international/cuba/cu-cross-border.md",
+   "name": "cu-cross-border",
+   "jurisdiction": "CU",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "cu-income-tax",
    "path": "skills/international/cuba/cu-income-tax.md",
    "name": "cu-income-tax",
@@ -7205,6 +7673,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "cu-transfer-pricing",
+   "path": "skills/international/cuba/cu-transfer-pricing.md",
+   "name": "cu-transfer-pricing",
+   "jurisdiction": "CU",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "cu-vat-gst",
@@ -7243,6 +7723,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "cw-cross-border",
+   "path": "skills/international/cura-ao/cw-cross-border.md",
+   "name": "cw-cross-border",
+   "jurisdiction": "CW",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "cw-income-tax",
    "path": "skills/international/cura-ao/cw-income-tax.md",
    "name": "cw-income-tax",
@@ -7277,6 +7769,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "cw-transfer-pricing",
+   "path": "skills/international/cura-ao/cw-transfer-pricing.md",
+   "name": "cw-transfer-pricing",
+   "jurisdiction": "CW",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "cw-vat-gst",
@@ -7759,6 +8263,18 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "dm-cross-border",
+   "path": "skills/international/dominica/dm-cross-border.md",
+   "name": "dm-cross-border",
+   "jurisdiction": "DM",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "dm-income-tax-paye",
    "path": "skills/international/dominica/dm-income-tax-paye.md",
    "name": "dm-income-tax-paye",
@@ -7781,6 +8297,18 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "dm-transfer-pricing",
+   "path": "skills/international/dominica/dm-transfer-pricing.md",
+   "name": "dm-transfer-pricing",
+   "jurisdiction": "DM",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "dm-vat",
@@ -8155,6 +8683,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ec-cross-border",
+   "path": "skills/international/ecuador/ec-cross-border.md",
+   "name": "ec-cross-border",
+   "jurisdiction": "EC",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "ec-tax-overview",
    "path": "skills/international/ecuador/ec-tax-overview.md",
    "name": "ec-tax-overview",
@@ -8165,6 +8705,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ec-transfer-pricing",
+   "path": "skills/international/ecuador/ec-transfer-pricing.md",
+   "name": "ec-transfer-pricing",
+   "jurisdiction": "EC",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "ecuador-income-tax",
@@ -8465,6 +9017,42 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "sv-corporate-income-tax",
+   "path": "skills/international/el-salvador/sv-corporate-income-tax.md",
+   "name": "sv-corporate-income-tax",
+   "jurisdiction": "SV",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "sv-cross-border-tax",
+   "path": "skills/international/el-salvador/sv-cross-border-tax.md",
+   "name": "sv-cross-border-tax",
+   "jurisdiction": "SV",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "sv-transfer-pricing",
+   "path": "skills/international/el-salvador/sv-transfer-pricing.md",
+   "name": "sv-transfer-pricing",
+   "jurisdiction": "SV",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "gq-company-formation",
@@ -10435,6 +11023,54 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "gd-corporate-income-tax",
+   "path": "skills/international/grenada/gd-corporate-income-tax.md",
+   "name": "gd-corporate-income-tax",
+   "jurisdiction": "GD",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "gd-cross-border",
+   "path": "skills/international/grenada/gd-cross-border.md",
+   "name": "gd-cross-border",
+   "jurisdiction": "GD",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "gd-income-tax",
+   "path": "skills/international/grenada/gd-income-tax.md",
+   "name": "gd-income-tax",
+   "jurisdiction": "GD",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "gd-payroll-withholding",
+   "path": "skills/international/grenada/gd-payroll-withholding.md",
+   "name": "gd-payroll-withholding",
+   "jurisdiction": "GD",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "gd-social-contributions",
    "path": "skills/international/grenada/gd-social-contributions.md",
    "name": "gd-social-contributions",
@@ -10445,6 +11081,18 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "gd-transfer-pricing",
+   "path": "skills/international/grenada/gd-transfer-pricing.md",
+   "name": "gd-transfer-pricing",
+   "jurisdiction": "GD",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "gd-vat-registration",
@@ -10459,6 +11107,54 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "gp-cross-border",
+   "path": "skills/international/guadeloupe/gp-cross-border.md",
+   "name": "gp-cross-border",
+   "jurisdiction": "GP",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "gp-income-tax-companies",
+   "path": "skills/international/guadeloupe/gp-income-tax-companies.md",
+   "name": "gp-income-tax-companies",
+   "jurisdiction": "GP",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "gp-income-tax-individuals",
+   "path": "skills/international/guadeloupe/gp-income-tax-individuals.md",
+   "name": "gp-income-tax-individuals",
+   "jurisdiction": "GP",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "gp-payroll-withholding",
+   "path": "skills/international/guadeloupe/gp-payroll-withholding.md",
+   "name": "gp-payroll-withholding",
+   "jurisdiction": "GP",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
    "slug": "gp-producer-octroi-compliance",
    "path": "skills/international/guadeloupe/gp-producer-octroi-compliance.md",
    "name": "gp-producer-octroi-compliance",
@@ -10469,6 +11165,42 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "gp-social-contributions",
+   "path": "skills/international/guadeloupe/gp-social-contributions.md",
+   "name": "gp-social-contributions",
+   "jurisdiction": "GP",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "gp-transfer-pricing",
+   "path": "skills/international/guadeloupe/gp-transfer-pricing.md",
+   "name": "gp-transfer-pricing",
+   "jurisdiction": "GP",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "gp-value-added-tax",
+   "path": "skills/international/guadeloupe/gp-value-added-tax.md",
+   "name": "gp-value-added-tax",
+   "jurisdiction": "GP",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
   },
   {
    "slug": "gt-company-formation",
@@ -10495,6 +11227,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "gt-cross-border",
+   "path": "skills/international/guatemala/gt-cross-border.md",
+   "name": "gt-cross-border",
+   "jurisdiction": "GT",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "gt-tax-overview",
    "path": "skills/international/guatemala/gt-tax-overview.md",
    "name": "gt-tax-overview",
@@ -10505,6 +11249,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "gt-transfer-pricing",
+   "path": "skills/international/guatemala/gt-transfer-pricing.md",
+   "name": "gt-transfer-pricing",
+   "jurisdiction": "GT",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "guatemala-income-tax",
@@ -10555,6 +11311,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "gg-company-accounts-and-reporting",
+   "path": "skills/international/guernsey/gg-company-accounts-and-reporting.md",
+   "name": "gg-company-accounts-and-reporting",
+   "jurisdiction": "GG",
+   "category": "financial-statements",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "gg-company-formation",
+   "path": "skills/international/guernsey/gg-company-formation.md",
+   "name": "gg-company-formation",
+   "jurisdiction": "GG",
+   "category": "formation",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "gg-corporate-tax-substance",
    "path": "skills/international/guernsey/gg-corporate-tax-substance.md",
    "name": "gg-corporate-tax-substance",
@@ -10564,7 +11344,19 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "gg-gst-transition",
+   "path": "skills/international/guernsey/gg-gst-transition.md",
+   "name": "gg-gst-transition",
+   "jurisdiction": "GG",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gg-individual-income-tax",
@@ -10576,7 +11368,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gg-payroll-social-insurance",
@@ -10588,7 +11380,55 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "gg-property-document-duty",
+   "path": "skills/international/guernsey/gg-property-document-duty.md",
+   "name": "gg-property-document-duty",
+   "jurisdiction": "GG",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "gg-secondary-pensions",
+   "path": "skills/international/guernsey/gg-secondary-pensions.md",
+   "name": "gg-secondary-pensions",
+   "jurisdiction": "GG",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "gg-transfer-pricing-and-connected-transactions",
+   "path": "skills/international/guernsey/gg-transfer-pricing-and-connected-transactions.md",
+   "name": "gg-transfer-pricing-and-connected-transactions",
+   "jurisdiction": "GG",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": null,
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "gg-uk-treaty-employment-and-relief",
+   "path": "skills/international/guernsey/gg-uk-treaty-employment-and-relief.md",
+   "name": "gg-uk-treaty-employment-and-relief",
+   "jurisdiction": "GG",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gw-company-formation",
@@ -10759,6 +11599,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "gy-cross-border",
+   "path": "skills/international/guyana/gy-cross-border.md",
+   "name": "gy-cross-border",
+   "jurisdiction": "GY",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "gy-income-tax",
    "path": "skills/international/guyana/gy-income-tax.md",
    "name": "gy-income-tax",
@@ -10793,6 +11645,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "gy-transfer-pricing",
+   "path": "skills/international/guyana/gy-transfer-pricing.md",
+   "name": "gy-transfer-pricing",
+   "jurisdiction": "GY",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "gy-vat-gst",
@@ -10831,6 +11695,18 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "ht-cross-border-tax",
+   "path": "skills/international/haiti/ht-cross-border-tax.md",
+   "name": "Haiti cross-border tax and withholding",
+   "jurisdiction": "HT",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "ht-payroll-withholding-and-employer-tax",
    "path": "skills/international/haiti/ht-payroll-withholding-and-employer-tax.md",
    "name": "ht-payroll-withholding-and-employer-tax",
@@ -10867,8 +11743,32 @@
    "last_updated": "2026-10-23"
   },
   {
-   "slug": "ht-turnover-tax-tca",
-   "path": "skills/international/haiti/ht-turnover-tax-tca.md",
+   "slug": "ht-social-contributions",
+   "path": "skills/international/haiti/ht-social-contributions.md",
+   "name": "Haiti social contributions",
+   "jurisdiction": "HT",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "ht-transfer-pricing",
+   "path": "skills/international/haiti/ht-transfer-pricing.md",
+   "name": "Haiti transfer pricing",
+   "jurisdiction": "HT",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "ht-vat-turnover-tax-tca",
+   "path": "skills/international/haiti/ht-vat-turnover-tax-tca.md",
    "name": "ht-turnover-tax-tca",
    "jurisdiction": "HT",
    "category": "international",
@@ -10903,11 +11803,47 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "hn-cross-border-tax",
+   "path": "skills/international/honduras/hn-cross-border-tax.md",
+   "name": "Honduras cross-border tax and nonresident withholding",
+   "jurisdiction": "HN",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "hn-tax-overview",
    "path": "skills/international/honduras/hn-tax-overview.md",
    "name": "hn-tax-overview",
    "jurisdiction": "HN",
    "category": null,
+   "tier": 2,
+   "verified_by": null,
+   "reviewed_by": null,
+   "tax_year": "2025",
+   "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "hn-transfer-pricing",
+   "path": "skills/international/honduras/hn-transfer-pricing.md",
+   "name": "Honduras transfer pricing",
+   "jurisdiction": "HN",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "hn-vat-isv",
+   "path": "skills/international/honduras/hn-vat-isv.md",
+   "name": "honduras-isv",
+   "jurisdiction": "HN",
+   "category": "international",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
@@ -10924,18 +11860,6 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-07-13"
-  },
-  {
-   "slug": "honduras-isv",
-   "path": "skills/international/honduras/honduras-isv.md",
-   "name": "honduras-isv",
-   "jurisdiction": "HN",
-   "category": "international",
-   "tier": 2,
-   "verified_by": null,
-   "reviewed_by": null,
-   "tax_year": "2025",
    "last_updated": "2026-07-13"
   },
   {
@@ -12535,18 +13459,6 @@
    "last_updated": "2026-07-13"
   },
   {
-   "slug": "jamaica-gct",
-   "path": "skills/international/jamaica/jamaica-gct.md",
-   "name": "jamaica-gct",
-   "jurisdiction": "JM",
-   "category": null,
-   "tier": 2,
-   "verified_by": null,
-   "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
-  },
-  {
    "slug": "jm-company-formation",
    "path": "skills/international/jamaica/jm-company-formation.md",
    "name": "jm-company-formation",
@@ -12571,6 +13483,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "jm-cross-border-tax",
+   "path": "skills/international/jamaica/jm-cross-border-tax.md",
+   "name": "Jamaica cross-border tax and nonresident withholding",
+   "jurisdiction": "JM",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "jm-gst-gct",
+   "path": "skills/international/jamaica/jm-gst-gct.md",
+   "name": "jamaica-gct",
+   "jurisdiction": "JM",
+   "category": null,
+   "tier": 2,
+   "verified_by": null,
+   "reviewed_by": null,
+   "tax_year": "2025",
+   "last_updated": "2026-07-13"
+  },
+  {
    "slug": "jm-income-tax",
    "path": "skills/international/jamaica/jm-income-tax.md",
    "name": "jm-income-tax",
@@ -12585,14 +13521,14 @@
   {
    "slug": "jm-payroll-social",
    "path": "skills/international/jamaica/jm-payroll-social.md",
-   "name": "jm-payroll-social",
+   "name": "Jamaica payroll and social contributions",
    "jurisdiction": "JM",
-   "category": null,
+   "category": "payroll",
    "tier": 2,
-   "verified_by": null,
+   "verified_by": "pending",
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "jm-tax-overview",
@@ -12605,6 +13541,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "jm-transfer-pricing",
+   "path": "skills/international/jamaica/jm-transfer-pricing.md",
+   "name": "Jamaica transfer pricing",
+   "jurisdiction": "JM",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "japan-bookkeeping",
@@ -15019,6 +15967,90 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "mq-cross-border",
+   "path": "skills/international/martinique/mq-cross-border.md",
+   "name": "mq-cross-border",
+   "jurisdiction": "MQ",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "mq-income-tax-companies",
+   "path": "skills/international/martinique/mq-income-tax-companies.md",
+   "name": "mq-income-tax-companies",
+   "jurisdiction": "MQ",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "mq-income-tax-individuals",
+   "path": "skills/international/martinique/mq-income-tax-individuals.md",
+   "name": "mq-income-tax-individuals",
+   "jurisdiction": "MQ",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "mq-payroll-withholding",
+   "path": "skills/international/martinique/mq-payroll-withholding.md",
+   "name": "mq-payroll-withholding",
+   "jurisdiction": "MQ",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "mq-social-contributions",
+   "path": "skills/international/martinique/mq-social-contributions.md",
+   "name": "mq-social-contributions",
+   "jurisdiction": "MQ",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "mq-transfer-pricing",
+   "path": "skills/international/martinique/mq-transfer-pricing.md",
+   "name": "mq-transfer-pricing",
+   "jurisdiction": "MQ",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "mq-value-added-tax",
+   "path": "skills/international/martinique/mq-value-added-tax.md",
+   "name": "mq-value-added-tax",
+   "jurisdiction": "MQ",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
    "slug": "mr-company-formation",
    "path": "skills/international/mauritania/mr-company-formation.md",
    "name": "mr-company-formation",
@@ -15247,6 +16279,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "mx-corporate-income-tax",
+   "path": "skills/international/mexico/mx-corporate-income-tax.md",
+   "name": "mx-corporate-income-tax",
+   "jurisdiction": "MX",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "mx-cross-border",
+   "path": "skills/international/mexico/mx-cross-border.md",
+   "name": "mx-cross-border",
+   "jurisdiction": "MX",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "mx-estimated-tax",
    "path": "skills/international/mexico/mx-estimated-tax.md",
    "name": "mx-estimated-tax",
@@ -15280,7 +16336,31 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "mx-payroll-withholding",
+   "path": "skills/international/mexico/mx-payroll-withholding.md",
+   "name": "mx-payroll-withholding",
+   "jurisdiction": "MX",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "mx-social-contributions",
+   "path": "skills/international/mexico/mx-social-contributions.md",
+   "name": "mx-social-contributions",
+   "jurisdiction": "MX",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "mx-vat-return",
@@ -15655,6 +16735,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ms-consumption-tax",
+   "path": "skills/international/montserrat/ms-consumption-tax.md",
+   "name": "ms-consumption-tax",
+   "jurisdiction": "MS",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "ms-corporate-income-tax",
    "path": "skills/international/montserrat/ms-corporate-income-tax.md",
    "name": "ms-corporate-income-tax",
@@ -15686,6 +16778,18 @@
    "category": "international",
    "tier": 2,
    "verified_by": null,
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "ms-transfer-pricing",
+   "path": "skills/international/montserrat/ms-transfer-pricing.md",
+   "name": "ms-transfer-pricing",
+   "jurisdiction": "MS",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-23"
@@ -16687,6 +17791,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ni-cross-border-tax",
+   "path": "skills/international/nicaragua/ni-cross-border-tax.md",
+   "name": "ni-cross-border-tax",
+   "jurisdiction": "NI",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "ni-tax-overview",
    "path": "skills/international/nicaragua/ni-tax-overview.md",
    "name": "ni-tax-overview",
@@ -16697,6 +17813,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ni-transfer-pricing",
+   "path": "skills/international/nicaragua/ni-transfer-pricing.md",
+   "name": "ni-transfer-pricing",
+   "jurisdiction": "NI",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "nicaragua-income-tax",
@@ -17455,6 +18583,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "panama-corporate-income-tax",
+   "path": "skills/international/panama/panama-corporate-income-tax.md",
+   "name": "panama-corporate-income-tax",
+   "jurisdiction": "PA",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "panama-cross-border",
+   "path": "skills/international/panama/panama-cross-border.md",
+   "name": "panama-cross-border",
+   "jurisdiction": "PA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "panama-income-tax",
    "path": "skills/international/panama/panama-income-tax.md",
    "name": "panama-income-tax",
@@ -17501,6 +18653,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "panama-transfer-pricing",
+   "path": "skills/international/panama/panama-transfer-pricing.md",
+   "name": "panama-transfer-pricing",
+   "jurisdiction": "PA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "pg-company-formation",
@@ -17623,6 +18787,42 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "py-corporate-income-tax",
+   "path": "skills/international/paraguay/py-corporate-income-tax.md",
+   "name": "py-corporate-income-tax",
+   "jurisdiction": "PY",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "py-cross-border-tax",
+   "path": "skills/international/paraguay/py-cross-border-tax.md",
+   "name": "py-cross-border-tax",
+   "jurisdiction": "PY",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "py-transfer-pricing",
+   "path": "skills/international/paraguay/py-transfer-pricing.md",
+   "name": "py-transfer-pricing",
+   "jurisdiction": "PY",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "pe-company-formation",
    "path": "skills/international/peru/pe-company-formation.md",
    "name": "pe-company-formation",
@@ -17647,6 +18847,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "pe-cross-border-tax",
+   "path": "skills/international/peru/pe-cross-border-tax.md",
+   "name": "pe-cross-border-tax",
+   "jurisdiction": "PE",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
+  },
+  {
    "slug": "pe-tax-overview",
    "path": "skills/international/peru/pe-tax-overview.md",
    "name": "pe-tax-overview",
@@ -17657,6 +18869,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "pe-transfer-pricing",
+   "path": "skills/international/peru/pe-transfer-pricing.md",
+   "name": "pe-transfer-pricing",
+   "jurisdiction": "PE",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-23"
   },
   {
    "slug": "peru-igv",
@@ -18163,6 +19387,18 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "pr-cross-border",
+   "path": "skills/international/puerto-rico/pr-cross-border.md",
+   "name": "pr-cross-border",
+   "jurisdiction": "PR",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "pr-federal-residence-and-filing",
    "path": "skills/international/puerto-rico/pr-federal-residence-and-filing.md",
    "name": "pr-federal-residence-and-filing",
@@ -18173,6 +19409,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "pr-payroll-withholding",
+   "path": "skills/international/puerto-rico/pr-payroll-withholding.md",
+   "name": "pr-payroll-withholding",
+   "jurisdiction": "PR",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "pr-self-employment-tax-2025",
@@ -18187,76 +19435,136 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "pr-social-contributions",
+   "path": "skills/international/puerto-rico/pr-social-contributions.md",
+   "name": "pr-social-contributions",
+   "jurisdiction": "PR",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "pr-transfer-pricing",
+   "path": "skills/international/puerto-rico/pr-transfer-pricing.md",
+   "name": "pr-transfer-pricing",
+   "jurisdiction": "PR",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "pr-vat-ivu",
+   "path": "skills/international/puerto-rico/pr-vat-ivu.md",
+   "name": "pr-vat-ivu",
+   "jurisdiction": "PR",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "qa-company-formation",
    "path": "skills/international/qatar/qa-company-formation.md",
    "name": "qa-company-formation",
    "jurisdiction": "QA",
-   "category": null,
+   "category": "formation",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "qa-corporate-income-tax",
    "path": "skills/international/qatar/qa-corporate-income-tax.md",
    "name": "qa-corporate-income-tax",
    "jurisdiction": "QA",
-   "category": null,
+   "category": "international",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "qa-cross-border-tax",
+   "path": "skills/international/qatar/qa-cross-border-tax.md",
+   "name": "qa-cross-border-tax",
+   "jurisdiction": "QA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": null,
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "qa-payroll-social",
    "path": "skills/international/qatar/qa-payroll-social.md",
    "name": "qa-payroll-social",
    "jurisdiction": "QA",
-   "category": null,
+   "category": "payroll",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "qa-tax-overview",
    "path": "skills/international/qatar/qa-tax-overview.md",
    "name": "qa-tax-overview",
    "jurisdiction": "QA",
-   "category": null,
+   "category": "international",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
+   "slug": "qa-transfer-pricing",
+   "path": "skills/international/qatar/qa-transfer-pricing.md",
+   "name": "qa-transfer-pricing",
+   "jurisdiction": "QA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": null,
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "qa-vat-gst",
    "path": "skills/international/qatar/qa-vat-gst.md",
    "name": "qa-vat-gst",
    "jurisdiction": "QA",
-   "category": null,
+   "category": "international",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "qatar-tax",
    "path": "skills/international/qatar/qatar-tax.md",
    "name": "qatar-tax",
    "jurisdiction": "QA",
-   "category": null,
+   "category": "international",
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "cg-company-formation",
@@ -18823,6 +20131,18 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "bl-tax-residence-and-property-gains",
+   "path": "skills/international/saint-barthelemy/bl-tax-residence-and-property-gains.md",
+   "name": "bl-tax-residence-and-property-gains",
+   "jurisdiction": "BL",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
    "slug": "bl-tourist-stay-tax",
    "path": "skills/international/saint-barthelemy/bl-tourist-stay-tax.md",
    "name": "bl-tourist-stay-tax",
@@ -18883,6 +20203,18 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "kn-cross-border",
+   "path": "skills/international/saint-kitts-and-nevis/kn-cross-border.md",
+   "name": "kn-cross-border",
+   "jurisdiction": "KN",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
    "slug": "kn-housing-social-development-levy",
    "path": "skills/international/saint-kitts-and-nevis/kn-housing-social-development-levy.md",
    "name": "kn-housing-social-development-levy",
@@ -18895,6 +20227,42 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "kn-income-tax-companies",
+   "path": "skills/international/saint-kitts-and-nevis/kn-income-tax-companies.md",
+   "name": "kn-income-tax-companies",
+   "jurisdiction": "KN",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "kn-income-tax-individuals",
+   "path": "skills/international/saint-kitts-and-nevis/kn-income-tax-individuals.md",
+   "name": "kn-income-tax-individuals",
+   "jurisdiction": "KN",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "kn-payroll-withholding",
+   "path": "skills/international/saint-kitts-and-nevis/kn-payroll-withholding.md",
+   "name": "kn-payroll-withholding",
+   "jurisdiction": "KN",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
    "slug": "kn-social-security-contributions",
    "path": "skills/international/saint-kitts-and-nevis/kn-social-security-contributions.md",
    "name": "kn-social-security-contributions",
@@ -18905,6 +20273,30 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "kn-transfer-pricing",
+   "path": "skills/international/saint-kitts-and-nevis/kn-transfer-pricing.md",
+   "name": "kn-transfer-pricing",
+   "jurisdiction": "KN",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "kn-value-added-tax",
+   "path": "skills/international/saint-kitts-and-nevis/kn-value-added-tax.md",
+   "name": "kn-value-added-tax",
+   "jurisdiction": "KN",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
   },
   {
    "slug": "lc-first-time-land-interest",
@@ -19015,6 +20407,30 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "pm-nonresident-tax",
+   "path": "skills/international/saint-pierre-and-miquelon/pm-nonresident-tax.md",
+   "name": "pm-nonresident-tax",
+   "jurisdiction": "PM",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
+   "slug": "pm-payroll-and-withholding",
+   "path": "skills/international/saint-pierre-and-miquelon/pm-payroll-and-withholding.md",
+   "name": "pm-payroll-and-withholding",
+   "jurisdiction": "PM",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
+  },
+  {
    "slug": "pm-personal-income-tax-2025",
    "path": "skills/international/saint-pierre-and-miquelon/pm-personal-income-tax-2025.md",
    "name": "pm-personal-income-tax-2025",
@@ -19025,6 +20441,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "pm-social-contributions",
+   "path": "skills/international/saint-pierre-and-miquelon/pm-social-contributions.md",
+   "name": "pm-social-contributions",
+   "jurisdiction": "PM",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-22"
   },
   {
    "slug": "vc-corporate-income-tax",
@@ -19039,6 +20467,18 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "vc-cross-border",
+   "path": "skills/international/saint-vincent-and-the-grenadines/vc-cross-border.md",
+   "name": "vc-cross-border",
+   "jurisdiction": "VC",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "vc-national-insurance",
    "path": "skills/international/saint-vincent-and-the-grenadines/vc-national-insurance.md",
    "name": "vc-national-insurance",
@@ -19049,6 +20489,30 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "vc-paye-withholding",
+   "path": "skills/international/saint-vincent-and-the-grenadines/vc-paye-withholding.md",
+   "name": "vc-paye-withholding",
+   "jurisdiction": "VC",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "vc-transfer-pricing",
+   "path": "skills/international/saint-vincent-and-the-grenadines/vc-transfer-pricing.md",
+   "name": "vc-transfer-pricing",
+   "jurisdiction": "VC",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "vc-vat",
@@ -19807,6 +21271,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "sx-corporate-income-tax",
+   "path": "skills/international/sint-maarten/sx-corporate-income-tax.md",
+   "name": "sx-corporate-income-tax",
+   "jurisdiction": "SX",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "sx-cross-border",
+   "path": "skills/international/sint-maarten/sx-cross-border.md",
+   "name": "sx-cross-border",
+   "jurisdiction": "SX",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "sx-personal-income-tax-tables",
    "path": "skills/international/sint-maarten/sx-personal-income-tax-tables.md",
    "name": "sx-personal-income-tax-tables",
@@ -19817,6 +21305,30 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-23"
+  },
+  {
+   "slug": "sx-social-insurance-premiums",
+   "path": "skills/international/sint-maarten/sx-social-insurance-premiums.md",
+   "name": "sx-social-insurance-premiums",
+   "jurisdiction": "SX",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "sx-transfer-pricing",
+   "path": "skills/international/sint-maarten/sx-transfer-pricing.md",
+   "name": "sx-transfer-pricing",
+   "jurisdiction": "SX",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "sx-turnover-tax",
@@ -21019,6 +22531,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "sr-cross-border",
+   "path": "skills/international/suriname/sr-cross-border.md",
+   "name": "sr-cross-border",
+   "jurisdiction": "SR",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "sr-income-tax",
    "path": "skills/international/suriname/sr-income-tax.md",
    "name": "sr-income-tax",
@@ -21053,6 +22577,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "sr-transfer-pricing",
+   "path": "skills/international/suriname/sr-transfer-pricing.md",
+   "name": "sr-transfer-pricing",
+   "jurisdiction": "SR",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "sr-vat-gst",
@@ -22003,6 +23539,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "tt-cross-border",
+   "path": "skills/international/trinidad-and-tobago/tt-cross-border.md",
+   "name": "tt-cross-border",
+   "jurisdiction": "TT",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "tt-income-tax",
    "path": "skills/international/trinidad-and-tobago/tt-income-tax.md",
    "name": "tt-income-tax",
@@ -22037,6 +23585,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "tt-transfer-pricing",
+   "path": "skills/international/trinidad-and-tobago/tt-transfer-pricing.md",
+   "name": "tt-transfer-pricing",
+   "jurisdiction": "TT",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "irpp-calculation",
@@ -23131,6 +24691,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "uy-cross-border",
+   "path": "skills/international/uruguay/uy-cross-border.md",
+   "name": "uy-cross-border",
+   "jurisdiction": "UY",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "uy-tax-overview",
    "path": "skills/international/uruguay/uy-tax-overview.md",
    "name": "uy-tax-overview",
@@ -23141,6 +24713,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "uy-transfer-pricing",
+   "path": "skills/international/uruguay/uy-transfer-pricing.md",
+   "name": "uy-transfer-pricing",
+   "jurisdiction": "UY",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "vi-bona-fide-residence",
@@ -23395,6 +24979,30 @@
    "last_updated": "2026-10-23"
   },
   {
+   "slug": "venezuela-corporate-tax",
+   "path": "skills/international/venezuela/venezuela-corporate-tax.md",
+   "name": "venezuela-corporate-tax",
+   "jurisdiction": "VE",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "venezuela-cross-border-tax",
+   "path": "skills/international/venezuela/venezuela-cross-border-tax.md",
+   "name": "venezuela-cross-border-tax",
+   "jurisdiction": "VE",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "venezuela-income-tax",
    "path": "skills/international/venezuela/venezuela-income-tax.md",
    "name": "venezuela-income-tax",
@@ -23453,6 +25061,18 @@
    "reviewed_by": "Jose Padilla",
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "venezuela-transfer-pricing",
+   "path": "skills/international/venezuela/venezuela-transfer-pricing.md",
+   "name": "venezuela-transfer-pricing",
+   "jurisdiction": "VE",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "references",
@@ -24559,6 +26179,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "al-corporate-income-tax",
+   "path": "skills/us-states/al/al-corporate-income-tax.md",
+   "name": "al-corporate-income-tax",
+   "jurisdiction": "US-AL",
+   "category": "corporate",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "al-cross-border",
+   "path": "skills/us-states/al/al-cross-border.md",
+   "name": "al-cross-border",
+   "jurisdiction": "US-AL",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "al-income-tax",
    "path": "skills/us-states/al/al-income-tax.md",
    "name": "al-income-tax",
@@ -24571,6 +26215,18 @@
    "last_updated": "2026-06-12"
   },
   {
+   "slug": "al-payroll-withholding",
+   "path": "skills/us-states/al/al-payroll-withholding.md",
+   "name": "al-payroll-withholding",
+   "jurisdiction": "US-AL",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "al-sales-tax",
    "path": "skills/us-states/al/al-sales-tax.md",
    "name": "al-sales-tax",
@@ -24581,6 +26237,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "al-transfer-pricing",
+   "path": "skills/us-states/al/al-transfer-pricing.md",
+   "name": "al-transfer-pricing",
+   "jurisdiction": "US-AL",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "al-unemployment-contributions",
+   "path": "skills/us-states/al/al-unemployment-contributions.md",
+   "name": "al-unemployment-contributions",
+   "jurisdiction": "US-AL",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "alabama-income-tax",
@@ -24607,6 +26287,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ar-corporate-income-tax",
+   "path": "skills/us-states/ar/ar-corporate-income-tax.md",
+   "name": "ar-corporate-income-tax",
+   "jurisdiction": "US-AR",
+   "category": "corporate",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "ar-income-tax",
    "path": "skills/us-states/ar/ar-income-tax.md",
    "name": "ar-income-tax",
@@ -24619,6 +26311,18 @@
    "last_updated": "2026-09-25"
   },
   {
+   "slug": "ar-payroll-withholding",
+   "path": "skills/us-states/ar/ar-payroll-withholding.md",
+   "name": "ar-payroll-withholding",
+   "jurisdiction": "US-AR",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "ar-sales-tax",
    "path": "skills/us-states/ar/ar-sales-tax.md",
    "name": "ar-sales-tax",
@@ -24629,6 +26333,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ar-transfer-pricing",
+   "path": "skills/us-states/ar/ar-transfer-pricing.md",
+   "name": "ar-transfer-pricing",
+   "jurisdiction": "US-AR",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ar-unemployment-contributions",
+   "path": "skills/us-states/ar/ar-unemployment-contributions.md",
+   "name": "ar-unemployment-contributions",
+   "jurisdiction": "US-AR",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "arizona-sales-tax",
@@ -24653,6 +26381,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "az-corporate-income-tax",
+   "path": "skills/us-states/az/az-corporate-income-tax.md",
+   "name": "az-corporate-income-tax",
+   "jurisdiction": "US-AZ",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "az-cross-border",
+   "path": "skills/us-states/az/az-cross-border.md",
+   "name": "az-cross-border",
+   "jurisdiction": "US-AZ",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "az-income-tax",
@@ -24691,6 +26443,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "az-social-contributions",
+   "path": "skills/us-states/az/az-social-contributions.md",
+   "name": "az-social-contributions",
+   "jurisdiction": "US-AZ",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "az-transaction-privilege-tax",
    "path": "skills/us-states/az/az-transaction-privilege-tax.md",
    "name": "az-transaction-privilege-tax",
@@ -24701,6 +26465,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "az-transfer-pricing",
+   "path": "skills/us-states/az/az-transfer-pricing.md",
+   "name": "az-transfer-pricing",
+   "jurisdiction": "US-AZ",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "ca-540-es-estimated-tax",
@@ -24725,6 +26501,30 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-09-21"
+  },
+  {
+   "slug": "ca-corporate-income-tax",
+   "path": "skills/us-states/ca/ca-corporate-income-tax.md",
+   "name": "ca-corporate-income-tax",
+   "jurisdiction": "US-CA",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ca-cross-border",
+   "path": "skills/us-states/ca/ca-cross-border.md",
+   "name": "ca-cross-border",
+   "jurisdiction": "US-CA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "ca-form-3853-coverage",
@@ -24787,6 +26587,18 @@
    "last_updated": "2026-10-03"
   },
   {
+   "slug": "ca-s-corporation-tax",
+   "path": "skills/us-states/ca/ca-s-corporation-tax.md",
+   "name": "ca-s-corporation-tax",
+   "jurisdiction": "US-CA",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "ca-sales-use-tax",
    "path": "skills/us-states/ca/ca-sales-use-tax.md",
    "name": "california-sales-tax",
@@ -24809,6 +26621,42 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-16"
+  },
+  {
+   "slug": "ca-transfer-pricing",
+   "path": "skills/us-states/ca/ca-transfer-pricing.md",
+   "name": "ca-transfer-pricing",
+   "jurisdiction": "US-CA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "co-corporate-income-tax",
+   "path": "skills/us-states/co/co-corporate-income-tax.md",
+   "name": "co-corporate-income-tax",
+   "jurisdiction": "US-CO",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "co-cross-border",
+   "path": "skills/us-states/co/co-cross-border.md",
+   "name": "co-cross-border",
+   "jurisdiction": "US-CO",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "co-income-tax",
@@ -24847,6 +26695,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "co-s-corporation-tax",
+   "path": "skills/us-states/co/co-s-corporation-tax.md",
+   "name": "co-s-corporation-tax",
+   "jurisdiction": "US-CO",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "co-sales-tax",
    "path": "skills/us-states/co/co-sales-tax.md",
    "name": "co-sales-tax",
@@ -24857,6 +26717,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "co-transfer-pricing",
+   "path": "skills/us-states/co/co-transfer-pricing.md",
+   "name": "co-transfer-pricing",
+   "jurisdiction": "US-CO",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "colorado-sales-tax",
@@ -24883,6 +26755,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ct-corporate-income-tax",
+   "path": "skills/us-states/ct/ct-corporate-income-tax.md",
+   "name": "ct-corporate-income-tax",
+   "jurisdiction": "US-CT",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ct-cross-border",
+   "path": "skills/us-states/ct/ct-cross-border.md",
+   "name": "ct-cross-border",
+   "jurisdiction": "US-CT",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "ct-income-tax",
    "path": "skills/us-states/ct/ct-income-tax.md",
    "name": "ct-income-tax",
@@ -24907,6 +26803,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ct-s-corporation-tax",
+   "path": "skills/us-states/ct/ct-s-corporation-tax.md",
+   "name": "ct-s-corporation-tax",
+   "jurisdiction": "US-CT",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "ct-sales-tax",
    "path": "skills/us-states/ct/ct-sales-tax.md",
    "name": "ct-sales-tax",
@@ -24917,6 +26825,42 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ct-transfer-pricing",
+   "path": "skills/us-states/ct/ct-transfer-pricing.md",
+   "name": "ct-transfer-pricing",
+   "jurisdiction": "US-CT",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "dc-cross-border",
+   "path": "skills/us-states/dc/dc-cross-border.md",
+   "name": "dc-cross-border",
+   "jurisdiction": "US-DC",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "dc-franchise-tax",
+   "path": "skills/us-states/dc/dc-franchise-tax.md",
+   "name": "dc-franchise-tax",
+   "jurisdiction": "US-DC",
+   "category": "corporate",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "dc-income-tax",
@@ -24931,6 +26875,18 @@
    "last_updated": "2026-10-16"
   },
   {
+   "slug": "dc-payroll-withholding",
+   "path": "skills/us-states/dc/dc-payroll-withholding.md",
+   "name": "dc-payroll-withholding",
+   "jurisdiction": "US-DC",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "dc-sales-tax",
    "path": "skills/us-states/dc/dc-sales-tax.md",
    "name": "dc-sales-tax",
@@ -24941,6 +26897,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "dc-transfer-pricing",
+   "path": "skills/us-states/dc/dc-transfer-pricing.md",
+   "name": "dc-transfer-pricing",
+   "jurisdiction": "US-DC",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "dc-unemployment-contributions",
+   "path": "skills/us-states/dc/dc-unemployment-contributions.md",
+   "name": "dc-unemployment-contributions",
+   "jurisdiction": "US-DC",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "de-formation",
@@ -25015,6 +26995,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "fl-cross-border",
+   "path": "skills/us-states/fl/fl-cross-border.md",
+   "name": "fl-cross-border",
+   "jurisdiction": "US-FL",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "fl-moving-to-florida-domicile",
    "path": "skills/us-states/fl/fl-moving-to-florida-domicile.md",
    "name": "fl-moving-to-florida-domicile",
@@ -25036,7 +27028,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-06-12"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "fl-sales-use-tax-surtax",
@@ -25063,6 +27055,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "fl-social-contributions",
+   "path": "skills/us-states/fl/fl-social-contributions.md",
+   "name": "fl-social-contributions",
+   "jurisdiction": "US-FL",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "fl-transfer-pricing",
+   "path": "skills/us-states/fl/fl-transfer-pricing.md",
+   "name": "fl-transfer-pricing",
+   "jurisdiction": "US-FL",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "fl-transient-rental-tax",
    "path": "skills/us-states/fl/fl-transient-rental-tax.md",
    "name": "fl-transient-rental-tax",
@@ -25075,6 +27091,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ga-contractor-and-manufacturing-sales-tax",
+   "path": "skills/us-states/ga/ga-contractor-and-manufacturing-sales-tax.md",
+   "name": "ga-contractor-and-manufacturing-sales-tax",
+   "jurisdiction": "US-GA",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2025",
+   "last_updated": "2026-08-19"
+  },
+  {
    "slug": "ga-corporate-and-ptet",
    "path": "skills/us-states/ga/ga-corporate-and-ptet.md",
    "name": "ga-corporate-and-ptet",
@@ -25085,6 +27113,18 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-10-16"
+  },
+  {
+   "slug": "ga-cross-border-tax",
+   "path": "skills/us-states/ga/ga-cross-border-tax.md",
+   "name": "ga-cross-border-tax",
+   "jurisdiction": "US-GA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
   },
   {
    "slug": "ga-estimated-tax-depth",
@@ -25159,6 +27199,18 @@
    "last_updated": "2026-10-16"
   },
   {
+   "slug": "ga-transfer-pricing-addbacks",
+   "path": "skills/us-states/ga/ga-transfer-pricing-addbacks.md",
+   "name": "ga-transfer-pricing-addbacks",
+   "jurisdiction": "US-GA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-24"
+  },
+  {
    "slug": "georgia-corporate-income-tax-returns-form-600",
    "path": "skills/us-states/ga/georgia-corporate-income-tax-returns-form-600.md",
    "name": "georgia-corporate-income-tax-returns-form-600",
@@ -25195,6 +27247,30 @@
    "last_updated": "2026-08-10"
   },
   {
+   "slug": "hi-corporate-income-tax",
+   "path": "skills/us-states/hi/hi-corporate-income-tax.md",
+   "name": "hi-corporate-income-tax",
+   "jurisdiction": "US-HI",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "hi-cross-border",
+   "path": "skills/us-states/hi/hi-cross-border.md",
+   "name": "hi-cross-border",
+   "jurisdiction": "US-HI",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "hi-income-tax",
    "path": "skills/us-states/hi/hi-income-tax.md",
    "name": "hi-income-tax",
@@ -25205,6 +27281,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "hi-payroll-withholding",
+   "path": "skills/us-states/hi/hi-payroll-withholding.md",
+   "name": "hi-payroll-withholding",
+   "jurisdiction": "US-HI",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "hi-sales-tax",
@@ -25219,6 +27307,54 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "hi-social-contributions",
+   "path": "skills/us-states/hi/hi-social-contributions.md",
+   "name": "hi-social-contributions",
+   "jurisdiction": "US-HI",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "hi-transfer-pricing",
+   "path": "skills/us-states/hi/hi-transfer-pricing.md",
+   "name": "hi-transfer-pricing",
+   "jurisdiction": "US-HI",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ia-corporate-income-tax",
+   "path": "skills/us-states/ia/ia-corporate-income-tax.md",
+   "name": "ia-corporate-income-tax",
+   "jurisdiction": "US-IA",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ia-cross-border",
+   "path": "skills/us-states/ia/ia-cross-border.md",
+   "name": "ia-cross-border",
+   "jurisdiction": "US-IA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "ia-income-tax",
    "path": "skills/us-states/ia/ia-income-tax.md",
    "name": "ia-income-tax",
@@ -25231,6 +27367,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ia-payroll-withholding",
+   "path": "skills/us-states/ia/ia-payroll-withholding.md",
+   "name": "ia-payroll-withholding",
+   "jurisdiction": "US-IA",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "ia-sales-tax",
    "path": "skills/us-states/ia/ia-sales-tax.md",
    "name": "ia-sales-tax",
@@ -25241,6 +27389,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ia-social-contributions",
+   "path": "skills/us-states/ia/ia-social-contributions.md",
+   "name": "ia-social-contributions",
+   "jurisdiction": "US-IA",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ia-transfer-pricing",
+   "path": "skills/us-states/ia/ia-transfer-pricing.md",
+   "name": "ia-transfer-pricing",
+   "jurisdiction": "US-IA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "id-income-tax",
@@ -25277,6 +27449,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "il-corporate-income-tax",
+   "path": "skills/us-states/il/il-corporate-income-tax.md",
+   "name": "il-corporate-income-tax",
+   "jurisdiction": "US-IL",
+   "category": "corporate",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "il-cross-border",
+   "path": "skills/us-states/il/il-cross-border.md",
+   "name": "il-cross-border",
+   "jurisdiction": "US-IL",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "il-estimated-tax",
@@ -25339,6 +27535,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "il-social-contributions",
+   "path": "skills/us-states/il/il-social-contributions.md",
+   "name": "il-social-contributions",
+   "jurisdiction": "US-IL",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "il-transfer-pricing",
+   "path": "skills/us-states/il/il-transfer-pricing.md",
+   "name": "il-transfer-pricing",
+   "jurisdiction": "US-IL",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "illinois-sales-tax",
    "path": "skills/us-states/il/illinois-sales-tax.md",
    "name": "illinois-sales-tax",
@@ -25351,10 +27571,34 @@
    "last_updated": "2026-10-16"
   },
   {
+   "slug": "in-corporate-income-tax",
+   "path": "skills/us-states/in/in-corporate-income-tax.md",
+   "name": "in-corporate-income-tax",
+   "jurisdiction": "US-IN",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "in-cross-border",
+   "path": "skills/us-states/in/in-cross-border.md",
+   "name": "in-cross-border",
+   "jurisdiction": "US-IN",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "in-income-tax",
    "path": "skills/us-states/in/in-income-tax.md",
    "name": "in-income-tax",
-   "jurisdiction": "IN",
+   "jurisdiction": "US-IN",
    "category": null,
    "tier": 2,
    "verified_by": null,
@@ -25387,6 +27631,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "in-social-contributions",
+   "path": "skills/us-states/in/in-social-contributions.md",
+   "name": "in-social-contributions",
+   "jurisdiction": "US-IN",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "in-transfer-pricing",
+   "path": "skills/us-states/in/in-transfer-pricing.md",
+   "name": "in-transfer-pricing",
+   "jurisdiction": "US-IN",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "indiana-sales-tax",
    "path": "skills/us-states/in/indiana-sales-tax.md",
    "name": "indiana-sales-tax",
@@ -25399,6 +27667,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ks-corporate-income-tax",
+   "path": "skills/us-states/ks/ks-corporate-income-tax.md",
+   "name": "ks-corporate-income-tax",
+   "jurisdiction": "US-KS",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ks-cross-border",
+   "path": "skills/us-states/ks/ks-cross-border.md",
+   "name": "ks-cross-border",
+   "jurisdiction": "US-KS",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "ks-income-tax",
    "path": "skills/us-states/ks/ks-income-tax.md",
    "name": "ks-income-tax",
@@ -25407,8 +27699,20 @@
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ks-payroll",
+   "path": "skills/us-states/ks/ks-payroll.md",
+   "name": "ks-payroll",
+   "jurisdiction": "US-KS",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ks-sales-tax",
@@ -25419,8 +27723,56 @@
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ks-social-contributions",
+   "path": "skills/us-states/ks/ks-social-contributions.md",
+   "name": "ks-social-contributions",
+   "jurisdiction": "US-KS",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ks-transfer-pricing",
+   "path": "skills/us-states/ks/ks-transfer-pricing.md",
+   "name": "ks-transfer-pricing",
+   "jurisdiction": "US-KS",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ky-corporate-income-tax",
+   "path": "skills/us-states/ky/ky-corporate-income-tax.md",
+   "name": "ky-corporate-income-tax",
+   "jurisdiction": "US-KY",
+   "category": "corporate",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ky-cross-border",
+   "path": "skills/us-states/ky/ky-cross-border.md",
+   "name": "ky-cross-border",
+   "jurisdiction": "US-KY",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "ky-income-tax",
@@ -25459,6 +27811,54 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ky-social-contributions",
+   "path": "skills/us-states/ky/ky-social-contributions.md",
+   "name": "ky-social-contributions",
+   "jurisdiction": "US-KY",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "ky-transfer-pricing",
+   "path": "skills/us-states/ky/ky-transfer-pricing.md",
+   "name": "ky-transfer-pricing",
+   "jurisdiction": "US-KY",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "la-corporate-income-tax",
+   "path": "skills/us-states/la/la-corporate-income-tax.md",
+   "name": "la-corporate-income-tax",
+   "jurisdiction": "US-LA",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "la-cross-border",
+   "path": "skills/us-states/la/la-cross-border.md",
+   "name": "la-cross-border",
+   "jurisdiction": "US-LA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "la-income-tax",
    "path": "skills/us-states/la/la-income-tax.md",
    "name": "la-income-tax",
@@ -25469,6 +27869,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "la-payroll",
+   "path": "skills/us-states/la/la-payroll.md",
+   "name": "la-payroll",
+   "jurisdiction": "US-LA",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "la-sales-tax",
@@ -25483,6 +27895,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "la-social-contributions",
+   "path": "skills/us-states/la/la-social-contributions.md",
+   "name": "la-social-contributions",
+   "jurisdiction": "US-LA",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "la-transfer-pricing",
+   "path": "skills/us-states/la/la-transfer-pricing.md",
+   "name": "la-transfer-pricing",
+   "jurisdiction": "US-LA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "ma-corporate-excise",
    "path": "skills/us-states/ma/ma-corporate-excise.md",
    "name": "ma-corporate-excise",
@@ -25493,6 +27929,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ma-cross-border-tax",
+   "path": "skills/us-states/ma/ma-cross-border-tax.md",
+   "name": "ma-cross-border-tax",
+   "jurisdiction": "US-MA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
   },
   {
    "slug": "ma-income-tax",
@@ -25517,6 +27965,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ma-social-contributions",
+   "path": "skills/us-states/ma/ma-social-contributions.md",
+   "name": "ma-social-contributions",
+   "jurisdiction": "US-MA",
+   "category": "social",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
+   "slug": "ma-transfer-pricing-combined-reporting",
+   "path": "skills/us-states/ma/ma-transfer-pricing-combined-reporting.md",
+   "name": "ma-transfer-pricing-combined-reporting",
+   "jurisdiction": "US-MA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
   },
   {
    "slug": "maine-sales-tax",
@@ -25555,6 +28027,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "md-corporate-income-tax",
+   "path": "skills/us-states/md/md-corporate-income-tax.md",
+   "name": "md-corporate-income-tax",
+   "jurisdiction": "US-MD",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "md-cross-border",
+   "path": "skills/us-states/md/md-cross-border.md",
+   "name": "md-cross-border",
+   "jurisdiction": "US-MD",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "md-income-tax",
    "path": "skills/us-states/md/md-income-tax.md",
    "name": "md-income-tax",
@@ -25591,6 +28087,54 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "md-social-contributions",
+   "path": "skills/us-states/md/md-social-contributions.md",
+   "name": "md-social-contributions",
+   "jurisdiction": "US-MD",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "md-transfer-pricing",
+   "path": "skills/us-states/md/md-transfer-pricing.md",
+   "name": "md-transfer-pricing",
+   "jurisdiction": "US-MD",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "me-corporate-income-tax",
+   "path": "skills/us-states/me/me-corporate-income-tax.md",
+   "name": "me-corporate-income-tax",
+   "jurisdiction": "US-ME",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "me-cross-border",
+   "path": "skills/us-states/me/me-cross-border.md",
+   "name": "me-cross-border",
+   "jurisdiction": "US-ME",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "me-income-tax",
    "path": "skills/us-states/me/me-income-tax.md",
    "name": "me-income-tax",
@@ -25601,6 +28145,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "me-payroll",
+   "path": "skills/us-states/me/me-payroll.md",
+   "name": "me-payroll",
+   "jurisdiction": "US-ME",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "me-sales-tax",
@@ -25615,6 +28171,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "me-social-contributions",
+   "path": "skills/us-states/me/me-social-contributions.md",
+   "name": "me-social-contributions",
+   "jurisdiction": "US-ME",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "me-transfer-pricing",
+   "path": "skills/us-states/me/me-transfer-pricing.md",
+   "name": "me-transfer-pricing",
+   "jurisdiction": "US-ME",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "mi-corporate-income-tax",
    "path": "skills/us-states/mi/mi-corporate-income-tax.md",
    "name": "mi-corporate-income-tax",
@@ -25625,6 +28205,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "mi-cross-border-tax",
+   "path": "skills/us-states/mi/mi-cross-border-tax.md",
+   "name": "mi-cross-border-tax",
+   "jurisdiction": "US-MI",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
   },
   {
    "slug": "mi-detroit-individual-return",
@@ -25723,6 +28315,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "mi-social-contributions",
+   "path": "skills/us-states/mi/mi-social-contributions.md",
+   "name": "mi-social-contributions",
+   "jurisdiction": "US-MI",
+   "category": "social",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
+   "slug": "mi-transfer-pricing-unitary-combined",
+   "path": "skills/us-states/mi/mi-transfer-pricing-unitary-combined.md",
+   "name": "mi-transfer-pricing-unitary-combined",
+   "jurisdiction": "US-MI",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
    "slug": "minnesota-sales-tax",
    "path": "skills/us-states/mn/minnesota-sales-tax.md",
    "name": "minnesota-sales-tax",
@@ -25745,6 +28361,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "mn-cross-border-tax",
+   "path": "skills/us-states/mn/mn-cross-border-tax.md",
+   "name": "mn-cross-border-tax",
+   "jurisdiction": "US-MN",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
   },
   {
    "slug": "mn-income-tax",
@@ -25783,6 +28411,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "mn-social-contributions",
+   "path": "skills/us-states/mn/mn-social-contributions.md",
+   "name": "mn-social-contributions",
+   "jurisdiction": "US-MN",
+   "category": "social",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
+   "slug": "mn-transfer-pricing-combined-reporting",
+   "path": "skills/us-states/mn/mn-transfer-pricing-combined-reporting.md",
+   "name": "mn-transfer-pricing-combined-reporting",
+   "jurisdiction": "US-MN",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
    "slug": "missouri-sales-tax",
    "path": "skills/us-states/mo/missouri-sales-tax.md",
    "name": "missouri-sales-tax",
@@ -25793,6 +28445,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "mo-corporate-income-tax",
+   "path": "skills/us-states/mo/mo-corporate-income-tax.md",
+   "name": "mo-corporate-income-tax",
+   "jurisdiction": "US-MO",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "mo-cross-border",
+   "path": "skills/us-states/mo/mo-cross-border.md",
+   "name": "mo-cross-border",
+   "jurisdiction": "US-MO",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "mo-income-tax",
@@ -25831,6 +28507,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "mo-social-contributions",
+   "path": "skills/us-states/mo/mo-social-contributions.md",
+   "name": "mo-social-contributions",
+   "jurisdiction": "US-MO",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "mo-transfer-pricing",
+   "path": "skills/us-states/mo/mo-transfer-pricing.md",
+   "name": "mo-transfer-pricing",
+   "jurisdiction": "US-MO",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "mississippi-sales-tax",
    "path": "skills/us-states/ms/mississippi-sales-tax.md",
    "name": "mississippi-sales-tax",
@@ -25841,6 +28541,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ms-corporate-income-tax",
+   "path": "skills/us-states/ms/ms-corporate-income-tax.md",
+   "name": "ms-corporate-income-tax",
+   "jurisdiction": "US-MS",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ms-cross-border",
+   "path": "skills/us-states/ms/ms-cross-border.md",
+   "name": "ms-cross-border",
+   "jurisdiction": "US-MS",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ms-income-tax",
@@ -25855,6 +28579,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ms-payroll",
+   "path": "skills/us-states/ms/ms-payroll.md",
+   "name": "ms-payroll",
+   "jurisdiction": "US-MS",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "ms-sales-tax",
    "path": "skills/us-states/ms/ms-sales-tax.md",
    "name": "ms-sales-tax",
@@ -25867,6 +28603,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "ms-social-contributions",
+   "path": "skills/us-states/ms/ms-social-contributions.md",
+   "name": "ms-social-contributions",
+   "jurisdiction": "US-MS",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ms-transfer-pricing",
+   "path": "skills/us-states/ms/ms-transfer-pricing.md",
+   "name": "ms-transfer-pricing",
+   "jurisdiction": "US-MS",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "mt-income-tax",
    "path": "skills/us-states/mt/mt-income-tax.md",
    "name": "mt-income-tax",
@@ -25876,7 +28636,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-bailey-settlement-retirement",
@@ -25901,6 +28661,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "nc-cross-border-tax",
+   "path": "skills/us-states/nc/nc-cross-border-tax.md",
+   "name": "nc-cross-border-tax",
+   "jurisdiction": "US-NC",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
   },
   {
    "slug": "nc-estimated-tax",
@@ -25963,6 +28735,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "nc-social-contributions",
+   "path": "skills/us-states/nc/nc-social-contributions.md",
+   "name": "nc-social-contributions",
+   "jurisdiction": "US-NC",
+   "category": "social",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
+   "slug": "nc-transfer-pricing",
+   "path": "skills/us-states/nc/nc-transfer-pricing.md",
+   "name": "nc-transfer-pricing",
+   "jurisdiction": "US-NC",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
    "slug": "nd-corporate-tax",
    "path": "skills/us-states/nd/nd-corporate-tax.md",
    "name": "nd-corporate-tax",
@@ -25973,6 +28769,18 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "nd-cross-border-tax",
+   "path": "skills/us-states/nd/nd-cross-border-tax.md",
+   "name": "nd-cross-border-tax",
+   "jurisdiction": "US-ND",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
   },
   {
    "slug": "nd-estimated-tax",
@@ -26035,6 +28843,54 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "nd-social-contributions",
+   "path": "skills/us-states/nd/nd-social-contributions.md",
+   "name": "nd-social-contributions",
+   "jurisdiction": "US-ND",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
+   "slug": "nd-transfer-pricing",
+   "path": "skills/us-states/nd/nd-transfer-pricing.md",
+   "name": "nd-transfer-pricing",
+   "jurisdiction": "US-ND",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
+   "slug": "ne-corporate-income-tax",
+   "path": "skills/us-states/ne/ne-corporate-income-tax.md",
+   "name": "ne-corporate-income-tax",
+   "jurisdiction": "US-NE",
+   "category": "international",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ne-cross-border",
+   "path": "skills/us-states/ne/ne-cross-border.md",
+   "name": "ne-cross-border",
+   "jurisdiction": "US-NE",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
    "slug": "ne-income-tax",
    "path": "skills/us-states/ne/ne-income-tax.md",
    "name": "ne-income-tax",
@@ -26044,7 +28900,19 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ne-payroll",
+   "path": "skills/us-states/ne/ne-payroll.md",
+   "name": "ne-payroll",
+   "jurisdiction": "US-NE",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ne-sales-tax",
@@ -26057,6 +28925,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "ne-social-contributions",
+   "path": "skills/us-states/ne/ne-social-contributions.md",
+   "name": "ne-social-contributions",
+   "jurisdiction": "US-NE",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
+  },
+  {
+   "slug": "ne-transfer-pricing",
+   "path": "skills/us-states/ne/ne-transfer-pricing.md",
+   "name": "ne-transfer-pricing",
+   "jurisdiction": "US-NE",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nh-bpt-bet",
@@ -26107,6 +28999,30 @@
    "last_updated": "2026-10-16"
   },
   {
+   "slug": "nj-corporate-income-tax",
+   "path": "skills/us-states/nj/nj-corporate-income-tax.md",
+   "name": "nj-corporate-income-tax",
+   "jurisdiction": "US-NJ",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "nj-cross-border",
+   "path": "skills/us-states/nj/nj-cross-border.md",
+   "name": "nj-cross-border",
+   "jurisdiction": "US-NJ",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "nj-income-tax",
    "path": "skills/us-states/nj/nj-income-tax.md",
    "name": "nj-income-tax",
@@ -26141,6 +29057,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "nj-social-contributions",
+   "path": "skills/us-states/nj/nj-social-contributions.md",
+   "name": "nj-social-contributions",
+   "jurisdiction": "US-NJ",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "nj-transfer-pricing",
+   "path": "skills/us-states/nj/nj-transfer-pricing.md",
+   "name": "nj-transfer-pricing",
+   "jurisdiction": "US-NJ",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "new-mexico-sales-tax",
@@ -26347,6 +29287,30 @@
    "last_updated": "2026-06-12"
   },
   {
+   "slug": "ny-social-contributions",
+   "path": "skills/us-states/ny/ny-social-contributions.md",
+   "name": "ny-social-contributions",
+   "jurisdiction": "US-NY",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
+   "slug": "ny-transfer-pricing",
+   "path": "skills/us-states/ny/ny-transfer-pricing.md",
+   "name": "ny-transfer-pricing",
+   "jurisdiction": "US-NY",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-25"
+  },
+  {
    "slug": "nyc-ubt",
    "path": "skills/us-states/ny/nyc-ubt.md",
    "name": "nyc-unincorporated-business-tax",
@@ -26383,6 +29347,30 @@
    "last_updated": "2026-10-16"
   },
   {
+   "slug": "oh-corporate-income-tax",
+   "path": "skills/us-states/oh/oh-corporate-income-tax.md",
+   "name": "oh-corporate-income-tax",
+   "jurisdiction": "US-OH",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "oh-cross-border",
+   "path": "skills/us-states/oh/oh-cross-border.md",
+   "name": "oh-cross-border",
+   "jurisdiction": "US-OH",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "oh-income-tax",
    "path": "skills/us-states/oh/oh-income-tax.md",
    "name": "oh-income-tax",
@@ -26417,6 +29405,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "oh-social-contributions",
+   "path": "skills/us-states/oh/oh-social-contributions.md",
+   "name": "oh-social-contributions",
+   "jurisdiction": "US-OH",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "oh-transfer-pricing",
+   "path": "skills/us-states/oh/oh-transfer-pricing.md",
+   "name": "oh-transfer-pricing",
+   "jurisdiction": "US-OH",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "ohio-sales-tax",
@@ -26503,6 +29515,30 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "pa-corporate-income-tax",
+   "path": "skills/us-states/pa/pa-corporate-income-tax.md",
+   "name": "pa-corporate-income-tax",
+   "jurisdiction": "US-PA",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "pa-cross-border",
+   "path": "skills/us-states/pa/pa-cross-border.md",
+   "name": "pa-cross-border",
+   "jurisdiction": "US-PA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "pa-income-tax",
    "path": "skills/us-states/pa/pa-income-tax.md",
    "name": "pa-income-tax",
@@ -26549,6 +29585,30 @@
    "reviewed_by": null,
    "tax_year": "2026",
    "last_updated": "2026-09-25"
+  },
+  {
+   "slug": "pa-social-contributions",
+   "path": "skills/us-states/pa/pa-social-contributions.md",
+   "name": "pa-social-contributions",
+   "jurisdiction": "US-PA",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "pa-transfer-pricing",
+   "path": "skills/us-states/pa/pa-transfer-pricing.md",
+   "name": "pa-transfer-pricing",
+   "jurisdiction": "US-PA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "pennsylvania-sales-tax",
@@ -26643,8 +29703,8 @@
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "tx-formation",
@@ -26667,8 +29727,8 @@
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "tx-sales-tax",
@@ -26679,8 +29739,8 @@
    "tier": 2,
    "verified_by": null,
    "reviewed_by": null,
-   "tax_year": "2025",
-   "last_updated": "2026-06-12"
+   "tax_year": "2026",
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "tx-sales-use-tax",
@@ -26743,6 +29803,18 @@
    "last_updated": "2026-07-13"
   },
   {
+   "slug": "va-cross-border-tax",
+   "path": "skills/us-states/va/va-cross-border-tax.md",
+   "name": "va-cross-border-tax",
+   "jurisdiction": "US-VA",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "va-income-tax",
    "path": "skills/us-states/va/va-income-tax.md",
    "name": "va-income-tax",
@@ -26777,6 +29849,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "va-social-contributions",
+   "path": "skills/us-states/va/va-social-contributions.md",
+   "name": "va-social-contributions",
+   "jurisdiction": "US-VA",
+   "category": "payroll",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "va-transfer-pricing",
+   "path": "skills/us-states/va/va-transfer-pricing.md",
+   "name": "va-transfer-pricing",
+   "jurisdiction": "US-VA",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "vt-income-tax",
@@ -26863,6 +29959,30 @@
    "last_updated": "2026-10-16"
   },
   {
+   "slug": "wi-corporate-income-tax",
+   "path": "skills/us-states/wi/wi-corporate-income-tax.md",
+   "name": "wi-corporate-income-tax",
+   "jurisdiction": "US-WI",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "wi-cross-border",
+   "path": "skills/us-states/wi/wi-cross-border.md",
+   "name": "wi-cross-border",
+   "jurisdiction": "US-WI",
+   "category": "cross-border",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
    "slug": "wi-income-tax",
    "path": "skills/us-states/wi/wi-income-tax.md",
    "name": "wi-income-tax",
@@ -26897,6 +30017,30 @@
    "reviewed_by": null,
    "tax_year": "2025",
    "last_updated": "2026-07-13"
+  },
+  {
+   "slug": "wi-social-contributions",
+   "path": "skills/us-states/wi/wi-social-contributions.md",
+   "name": "wi-social-contributions",
+   "jurisdiction": "US-WI",
+   "category": "state-tax",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
+  },
+  {
+   "slug": "wi-transfer-pricing",
+   "path": "skills/us-states/wi/wi-transfer-pricing.md",
+   "name": "wi-transfer-pricing",
+   "jurisdiction": "US-WI",
+   "category": "transfer-pricing",
+   "tier": 2,
+   "verified_by": "pending",
+   "reviewed_by": null,
+   "tax_year": "2026",
+   "last_updated": "2026-10-27"
   },
   {
    "slug": "wisconsin-sales-tax",
