@@ -14,8 +14,8 @@ jurisdiction: BR
 category: corporate
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-24
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
@@ -47,7 +47,7 @@ calendar year (a different accounting year-end is irrelevant for tax).
 
 | Tax | Rate | Base | Source |
 |---|---|---|---|
-| IRPJ | 15% | Taxable income (lucro real / presumido / arbitrado) | Lei 9.249/1995 art. 3, read 2026-10-24 |
+| IRPJ | 15% | Taxable income (lucro real / presumido / arbitrado) | Lei 9.249/1995 art. 3, read 2026-10-24; archived copy `BR-lei-9249-irpj.html` (planalto fetch blocked — rate corroborated by Receita Federal portal, archived `BR-receita-federal.html`) |
 | IRPJ surcharge (adicional) | 10% | Annual taxable income over BRL 240,000 | Lei 9.249/1995 art. 3 §1º, read 2026-10-24 |
 | CSLL | 9% | Same base as IRPJ; not deductible for IRPJ | Lei 7.689/1988 (rate per current legislation; financial institutions higher) — PwC Brazil, read 2026-10-24 |
 | Presumido IRPJ base — trade | 8% of gross revenue | Monthly revenue | Lei 9.249/1995 art. 15, read 2026-10-24 |
