@@ -2,8 +2,8 @@
 name: tn-sales-tax
 description: "Use this skill whenever asked about Tennessee sales tax, Tennessee use tax, Tennessee sales tax nexus, Tennessee sales tax returns, Tennessee exemption certificates, taxability of goods or services in Tennessee, or any request involving Tennessee state-level consumption taxes. Trigger on phrases like \"Tennessee sales tax\", \"TN sales tax\", \"Tennessee use tax\", \"Tennessee nexus\", \"T.C.A. 67-6\", \"Tennessee DOR sales tax\", or any request involving Tennessee sales and use tax filing, classification, or compliance. NOTE: Tennessee has NO state income tax, making sales tax revenue critical. Tennessee has among the HIGHEST combined sales tax rates in the US (up to 9.75%). ALWAYS read the parent us-sales-tax skill first for federal context."
 jurisdiction: US-TN
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -90,6 +90,7 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 ### 1.4 Single Article Cap on Local Tax [T1]
 
 - **Single article cap on local tax** — Tennessee caps the local sales tax on a single article (single item) at $1,600. Local tax applies only to the first $1,600 of the sales price of a single article. The state 7% tax applies to the full price (no cap). The cap applies per individual item, not per transaction.  _(T.C.A. Section 67-6-702(a))_
+- **State single article tax (missing from earlier draft)** — In addition to the general 7%, a state single article tax of 2.75% applies to the portion of a single article's sales price above $1,600 but not more than $3,200 (max $44 per item); amounts over $3,200 are not subject to it.  _(Tenn. Code Ann. § 67-6-202; TN DOR "Due Dates and Tax Rates" — archived: SRC-US-TN-dor-sales-due-rates.html)_
 
 **Example:** A $50,000 boat -- state tax: $50,000 x 7% = $3,500 (no cap). Local tax: $1,600 x 2.75% (max) = $44 (capped at local tax on $1,600 only).
 
