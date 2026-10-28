@@ -14,8 +14,8 @@ jurisdiction: US-AZ
 category: state-tax
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - az-income-tax
@@ -37,8 +37,8 @@ Every corporation subject to the Arizona Income Tax Act of 1978 must file an Ari
 
 | Item | Rate / amount | Source |
 |---|---|---|
-| Corporate income tax on entire Arizona taxable income (taxable years beginning after 31 Dec 2016) | **4.9%** | A.R.S. §43-1111 (text read 2026-10-27) |
-| Minimum tax | **$50** (tax is the greater of $50 or 4.9%) | A.R.S. §43-1111 (text read 2026-10-27) |
+| Corporate income tax on entire Arizona taxable income (taxable years beginning after 31 Dec 2016) | **4.9%** | A.R.S. §43-1111 (text read 2026-10-27; archived 2026-10-28 as `US-AZ-01111.htm.html`: "For taxable years beginning from and after December 31, 2016, 4.9 per cent of net income") |
+| Minimum tax | **$50** (tax is the greater of $50 or 4.9%) | A.R.S. §43-1111 ("taxes in an amount of the greater of fifty dollars or:", archived `US-AZ-01111.htm.html`) |
 | S corporation | no entity-level tax to the extent not federally taxable; informational return still due | §43-1126 (text read 2026-10-27) |
 | Exempt-org UBIT | same 4.9%/$50 structure | §43-1231 (text read 2026-10-27) |
 
@@ -62,7 +62,7 @@ Form selection (AZDOR page, read): Form 120 for multistate corporations, partner
 
 ## 6. Penalties and interest
 
-Interest on under- and overpayments is the federal §6621 rate (federal short-term + 3%), compounded annually, with outstanding interest added to principal each January 1 (AZDOR interest page, read 2026-10-27; 2026 quarters: 7% Q1, 6% Q2, 7% Q3-Q4). Late-filing/failure-to-pay penalty percentages: **needs-sources** this run (Title 42/43 penalty pages not fetched). Common failure mode: a corporation with consignment inventory in Arizona can be pulled into nexus — §43-1132(E) (read) relieves apportionment only where strict conditions are met (contract requirement, customer's premises, and others).
+Interest on under- and overpayments is the federal §6621 rate (federal short-term + 3%), compounded annually, with outstanding interest added to principal each January 1 (AZDOR interest page, read 2026-10-27; archived 2026-10-28 as `US-AZ-interest-rates.html`: "that rate of interest for both overpayments and underpayments for all taxpayers is the federal short-term rate, determined by the IRC, plus three percentage points"; 2026 quarters: 7% Q1, 6% Q2, 7% Q3-Q4 — table rows "1/1/2026 3/31/2026 ... 7%", "4/1/2026 6/30/2026 ... 6%", "7/1/2026 12/31/2026 ... 7%"). Late-filing/failure-to-pay penalty percentages: **needs-sources** this run (Title 42/43 penalty pages not fetched). Common failure mode: a corporation with consignment inventory in Arizona can be pulled into nexus — §43-1132(E) (read) relieves apportionment only where strict conditions are met (contract requirement, customer's premises, and others).
 
 ## 7. Cross-border interactions
 
