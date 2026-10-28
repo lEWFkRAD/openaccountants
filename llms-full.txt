@@ -1,7 +1,7 @@
 # OpenAccountants — GitHub Skills Repository
 
 <!-- The counts sentence below is restamped from the `counts` block of index.json by scripts/build-index.py on every default build; do not edit its figures by hand. The README stats block carries the platform-wide totals. -->
-> Open-source AI skills (tax rules your AI follows) for AI agents. 2,050 AI skills across 245 jurisdictions in this repository, 33 of them accountant-reviewed and signed off by named Partners (CPAs/CAs/EAs). Live counts: the `counts` block of `index.json`.
+> Open-source AI skills (tax rules your AI follows) for AI agents. 2,385 AI skills across 274 jurisdictions in this repository, 33 of them accountant-reviewed and signed off by named Partners (CPAs/CAs/EAs). Live counts: the `counts` block of `index.json`.
 
 ## What this repo is
 
@@ -132,7 +132,7 @@ https://www.openaccountants.com
 
 ========================================================================
 
-## Skill inventory (2050 skills, 245 jurisdictions, 33 accountant-reviewed)
+## Skill inventory (2385 skills, 274 jurisdictions, 33 accountant-reviewed)
 
 - us-1099-k-and-payment-processors | US | tier 2 | reviewed_by -
 - us-education-credits-8863 | US | tier 2 | reviewed_by -
@@ -268,6 +268,7 @@ https://www.openaccountants.com
 - us-secure-2-and-retirement-updates | US | tier 2 | reviewed_by -
 - us-self-employed-health-insurance | US | tier 1 | reviewed_by A licensed accountant (name withheld at their request)
 - us-self-employed-retirement | US | tier 1 | reviewed_by A licensed accountant (name withheld at their request)
+- us-social-contributions | US | tier 2 | reviewed_by -
 - us-sole-prop-bookkeeping | US | tier 1 | reviewed_by A licensed accountant (name withheld at their request)
 - us-state-bonus-depreciation-conformity-matrix | US | tier 2 | reviewed_by -
 - us-state-estimated-tax-safe-harbors-matrix | US | tier 2 | reviewed_by -
@@ -275,6 +276,7 @@ https://www.openaccountants.com
 - us-state-new-hire-reporting-matrix | US | tier 2 | reviewed_by James Wallach
 - us-state-payroll-matrix | US | tier 2 | reviewed_by James Wallach
 - us-tax-return-review-supporting-documents-findings | US | tier 2 | reviewed_by -
+- us-transfer-pricing | US | tier 2 | reviewed_by -
 - ifrs3-business-combinations | GLOBAL | tier 2 | reviewed_by -
 - us-gaap-asc805-business-combinations | US | tier 2 | reviewed_by James Wallach
 - ias32-debt-vs-equity | GLOBAL | tier 2 | reviewed_by -
@@ -343,12 +345,18 @@ https://www.openaccountants.com
 - ao-payroll-social | AO | tier 2 | reviewed_by -
 - ao-tax-overview | AO | tier 2 | reviewed_by -
 - ao-vat-gst | AO | tier 2 | reviewed_by -
+- ag-abst | AG | tier 2 | reviewed_by -
+- ag-medical-benefits | AG | tier 2 | reviewed_by -
+- ag-social-security | AG | tier 2 | reviewed_by -
 - ar-company-formation | AR | tier 2 | reviewed_by -
 - ar-corporate-income-tax | AR | tier 2 | reviewed_by -
+- ar-cross-border | AR | tier 2 | reviewed_by -
 - ar-income-tax | AR | tier 2 | reviewed_by -
 - ar-monotributo | AR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
+- ar-payroll-withholding | AR | tier 2 | reviewed_by -
 - ar-social-contributions | AR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - ar-tax-overview | AR | tier 2 | reviewed_by -
+- ar-transfer-pricing | AR | tier 2 | reviewed_by -
 - ar-vat-return | AR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - argentina-iva | AR | tier 2 | reviewed_by -
 - references | VN | tier 2 | reviewed_by -
@@ -360,6 +368,13 @@ https://www.openaccountants.com
 - armenia-social-contributions | AM | tier 2 | reviewed_by -
 - armenia-tax-optimization | AM | tier 2 | reviewed_by -
 - armenia-vat | AM | tier 2 | reviewed_by -
+- aw-corporate-tax | AW | tier 2 | reviewed_by -
+- aw-cross-border-tax | AW | tier 2 | reviewed_by -
+- aw-individual-income-tax | AW | tier 2 | reviewed_by -
+- aw-payroll-withholding | AW | tier 2 | reviewed_by -
+- aw-social-contributions | AW | tier 2 | reviewed_by -
+- aw-transfer-pricing | AW | tier 2 | reviewed_by -
+- aw-turnover-taxes | AW | tier 2 | reviewed_by -
 - amending-an-individual-income-tax-return-in-australia | AU | tier 2 | reviewed_by -
 - au-amending-individual-income-tax-return-period | AU | tier 2 | reviewed_by -
 - au-bas-preparation | AU | tier 2 | reviewed_by -
@@ -436,9 +451,11 @@ https://www.openaccountants.com
 - bahamas-vat | BS | tier 2 | reviewed_by -
 - bs-company-formation | BS | tier 2 | reviewed_by -
 - bs-corporate-income-tax | BS | tier 2 | reviewed_by -
+- bs-cross-border | BS | tier 2 | reviewed_by -
 - bs-income-tax | BS | tier 2 | reviewed_by -
 - bs-payroll-social | BS | tier 2 | reviewed_by -
 - bs-tax-overview | BS | tier 2 | reviewed_by -
+- bs-transfer-pricing | BS | tier 2 | reviewed_by -
 - bahrain-vat | BH | tier 2 | reviewed_by Mehran Habib
 - bh-company-formation | BH | tier 2 | reviewed_by -
 - bh-corporate-income-tax | BH | tier 2 | reviewed_by -
@@ -464,9 +481,11 @@ https://www.openaccountants.com
 - barbados-vat | BB | tier 2 | reviewed_by -
 - bb-company-formation | BB | tier 2 | reviewed_by -
 - bb-corporate-income-tax | BB | tier 2 | reviewed_by -
+- bb-cross-border | BB | tier 2 | reviewed_by -
 - bb-income-tax | BB | tier 2 | reviewed_by -
 - bb-payroll-social | BB | tier 2 | reviewed_by -
 - bb-tax-overview | BB | tier 2 | reviewed_by -
+- bb-transfer-pricing | BB | tier 2 | reviewed_by -
 - belarus-income-tax | BY | tier 2 | reviewed_by -
 - belarus-payroll | BY | tier 2 | reviewed_by -
 - belarus-social-contributions | BY | tier 2 | reviewed_by -
@@ -487,9 +506,11 @@ https://www.openaccountants.com
 - belgium-vat-return | BE | tier 2 | reviewed_by -
 - bz-company-formation | BZ | tier 2 | reviewed_by -
 - bz-corporate-income-tax | BZ | tier 2 | reviewed_by -
+- bz-cross-border | BZ | tier 2 | reviewed_by -
 - bz-income-tax | BZ | tier 2 | reviewed_by -
 - bz-payroll-social | BZ | tier 2 | reviewed_by -
 - bz-tax-overview | BZ | tier 2 | reviewed_by -
+- bz-transfer-pricing | BZ | tier 2 | reviewed_by -
 - bz-vat-gst | BZ | tier 2 | reviewed_by -
 - bj-company-formation | BJ | tier 2 | reviewed_by -
 - bj-corporate-income-tax | BJ | tier 2 | reviewed_by -
@@ -500,9 +521,11 @@ https://www.openaccountants.com
 - bermuda-tax | BM | tier 2 | reviewed_by -
 - bm-company-formation | BM | tier 2 | reviewed_by -
 - bm-corporate-income-tax | BM | tier 2 | reviewed_by -
+- bm-cross-border | BM | tier 2 | reviewed_by -
 - bm-income-tax | BM | tier 2 | reviewed_by -
 - bm-payroll-social | BM | tier 2 | reviewed_by -
 - bm-tax-overview | BM | tier 2 | reviewed_by -
+- bm-transfer-pricing | BM | tier 2 | reviewed_by -
 - bm-vat-gst | BM | tier 2 | reviewed_by -
 - bt-company-formation | BT | tier 2 | reviewed_by -
 - bt-corporate-income-tax | BT | tier 2 | reviewed_by -
@@ -510,11 +533,14 @@ https://www.openaccountants.com
 - bt-payroll-social | BT | tier 2 | reviewed_by -
 - bt-tax-overview | BT | tier 2 | reviewed_by -
 - bt-vat-gst | BT | tier 2 | reviewed_by -
+- bolivia-corporate-income-tax | BO | tier 2 | reviewed_by -
+- bolivia-cross-border | BO | tier 2 | reviewed_by -
 - bolivia-income-tax | BO | tier 2 | reviewed_by -
 - bolivia-iva | BO | tier 2 | reviewed_by -
 - bolivia-payroll | BO | tier 2 | reviewed_by -
 - bolivia-social-contributions | BO | tier 2 | reviewed_by -
 - bolivia-tax-optimization | BO | tier 2 | reviewed_by -
+- bolivia-transfer-pricing | BO | tier 2 | reviewed_by -
 - ba-company-formation | BA | tier 2 | reviewed_by -
 - ba-corporate-income-tax | BA | tier 2 | reviewed_by -
 - ba-tax-overview | BA | tier 2 | reviewed_by -
@@ -530,11 +556,14 @@ https://www.openaccountants.com
 - bw-tax-overview | BW | tier 2 | reviewed_by -
 - bw-vat-gst | BW | tier 2 | reviewed_by -
 - br-carn-monthly-income-tax-rental-income | BR | tier 2 | reviewed_by -
+- br-corporate-income-tax | BR | tier 2 | reviewed_by -
+- br-cross-border | BR | tier 2 | reviewed_by -
 - br-estimated-tax | BR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - br-income-tax | BR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - br-indirect-tax | BR | tier 2 | reviewed_by -
 - br-inss | BR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - br-simples-nacional | BR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
+- br-social-contributions | BR | tier 2 | reviewed_by -
 - brazil-crypto-tax | BR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - brazil-einvoice | BR | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - brazil-payroll | BR | tier 2 | reviewed_by -
@@ -543,8 +572,10 @@ https://www.openaccountants.com
 - references | BR | tier 2 | reviewed_by -
 - vg-company-formation | VG | tier 2 | reviewed_by -
 - vg-corporate-income-tax | VG | tier 2 | reviewed_by -
+- vg-cross-border | VG | tier 2 | reviewed_by -
 - vg-payroll-social | VG | tier 2 | reviewed_by -
 - vg-tax-overview | VG | tier 2 | reviewed_by -
+- vg-transfer-pricing | VG | tier 2 | reviewed_by -
 - vg-vat-gst | VG | tier 2 | reviewed_by -
 - bn-company-formation | BN | tier 2 | reviewed_by -
 - bn-corporate-income-tax | BN | tier 2 | reviewed_by -
@@ -644,8 +675,10 @@ https://www.openaccountants.com
 - cayman-tax | KY | tier 2 | reviewed_by -
 - ky-company-formation | KY | tier 2 | reviewed_by -
 - ky-corporate-income-tax | KY | tier 2 | reviewed_by -
+- ky-cross-border | KY | tier 2 | reviewed_by -
 - ky-payroll-social | KY | tier 2 | reviewed_by -
 - ky-tax-overview | KY | tier 2 | reviewed_by -
+- ky-transfer-pricing | KY | tier 2 | reviewed_by -
 - ky-vat-gst | KY | tier 2 | reviewed_by -
 - cf-company-formation | CF | tier 2 | reviewed_by -
 - cf-corporate-income-tax | CF | tier 2 | reviewed_by -
@@ -659,7 +692,10 @@ https://www.openaccountants.com
 - td-payroll-social | TD | tier 2 | reviewed_by -
 - td-tax-overview | TD | tier 2 | reviewed_by -
 - td-vat-gst | TD | tier 2 | reviewed_by -
+- chile-cross-border | CL | tier 2 | reviewed_by -
 - chile-iva | CL | tier 2 | reviewed_by -
+- chile-payroll | CL | tier 2 | reviewed_by -
+- chile-transfer-pricing | CL | tier 2 | reviewed_by -
 - cl-company-formation | CL | tier 2 | reviewed_by -
 - cl-corporate-income-tax | CL | tier 2 | reviewed_by -
 - cl-income-tax | CL | tier 2 | reviewed_by -
@@ -683,17 +719,26 @@ https://www.openaccountants.com
 - references | CN | tier 2 | reviewed_by -
 - co-company-formation | CO | tier 2 | reviewed_by -
 - co-corporate-income-tax | CO | tier 2 | reviewed_by -
+- co-cross-border | CO | tier 2 | reviewed_by -
 - co-income-tax | CO | tier 2 | reviewed_by -
+- co-payroll-withholding | CO | tier 2 | reviewed_by -
 - co-social-contributions | CO | tier 2 | reviewed_by -
 - co-tax-overview | CO | tier 2 | reviewed_by -
+- co-transfer-pricing | CO | tier 2 | reviewed_by -
 - co-vat-return | CO | tier 2 | reviewed_by -
 - colombia-iva | CO | tier 2 | reviewed_by -
 - formalizing-small-informal-businesses-in-colombia | CO | tier 2 | reviewed_by -
+- km-electronic-filing-and-tax-procedure | KM | tier 2 | reviewed_by -
+- km-personal-tax-domicile | KM | tier 2 | reviewed_by -
+- km-registration-and-tax-clearance | KM | tier 2 | reviewed_by -
 - costa-rica-income-tax | CR | tier 2 | reviewed_by -
 - costa-rica-iva | CR | tier 2 | reviewed_by -
 - costa-rica-payroll | CR | tier 2 | reviewed_by -
 - costa-rica-social-contributions | CR | tier 2 | reviewed_by -
 - costa-rica-tax-optimization | CR | tier 2 | reviewed_by -
+- cr-corporate-income-tax | CR | tier 2 | reviewed_by -
+- cr-cross-border | CR | tier 2 | reviewed_by -
+- cr-transfer-pricing | CR | tier 2 | reviewed_by -
 - croatia-income-tax | HR | tier 2 | reviewed_by -
 - croatia-payroll | HR | tier 2 | reviewed_by -
 - croatia-social-contributions | HR | tier 2 | reviewed_by -
@@ -704,15 +749,19 @@ https://www.openaccountants.com
 - hr-tax-overview | HR | tier 2 | reviewed_by -
 - cu-company-formation | CU | tier 2 | reviewed_by -
 - cu-corporate-income-tax | CU | tier 2 | reviewed_by -
+- cu-cross-border | CU | tier 2 | reviewed_by -
 - cu-income-tax | CU | tier 2 | reviewed_by -
 - cu-payroll-social | CU | tier 2 | reviewed_by -
 - cu-tax-overview | CU | tier 2 | reviewed_by -
+- cu-transfer-pricing | CU | tier 2 | reviewed_by -
 - cu-vat-gst | CU | tier 2 | reviewed_by -
 - cw-company-formation | CW | tier 2 | reviewed_by -
 - cw-corporate-income-tax | CW | tier 2 | reviewed_by -
+- cw-cross-border | CW | tier 2 | reviewed_by -
 - cw-income-tax | CW | tier 2 | reviewed_by -
 - cw-payroll-social | CW | tier 2 | reviewed_by -
 - cw-tax-overview | CW | tier 2 | reviewed_by -
+- cw-transfer-pricing | CW | tier 2 | reviewed_by -
 - cw-vat-gst | CW | tier 2 | reviewed_by -
 - cy-non-dom | CY | tier 2 | reviewed_by -
 - cyprus-income-tax | CY | tier 2 | reviewed_by -
@@ -739,6 +788,12 @@ https://www.openaccountants.com
 - dj-payroll-social | DJ | tier 2 | reviewed_by -
 - dj-tax-overview | DJ | tier 2 | reviewed_by -
 - dj-vat-gst | DJ | tier 2 | reviewed_by -
+- dm-corporate-income-tax | DM | tier 2 | reviewed_by -
+- dm-cross-border | DM | tier 2 | reviewed_by -
+- dm-income-tax-paye | DM | tier 2 | reviewed_by -
+- dm-social-contributions | DM | tier 2 | reviewed_by -
+- dm-transfer-pricing | DM | tier 2 | reviewed_by -
+- dm-vat | DM | tier 2 | reviewed_by -
 - do-asset-tax | DO | tier 2 | reviewed_by Miguel Lantigua
 - do-capital-gains-tax | DO | tier 2 | reviewed_by Miguel Lantigua
 - do-company-formation | DO | tier 2 | reviewed_by -
@@ -769,7 +824,9 @@ https://www.openaccountants.com
 - cd-vat-gst | CD | tier 2 | reviewed_by -
 - ec-company-formation | EC | tier 2 | reviewed_by -
 - ec-corporate-income-tax | EC | tier 2 | reviewed_by -
+- ec-cross-border | EC | tier 2 | reviewed_by -
 - ec-tax-overview | EC | tier 2 | reviewed_by -
+- ec-transfer-pricing | EC | tier 2 | reviewed_by -
 - ecuador-income-tax | EC | tier 2 | reviewed_by -
 - ecuador-iva | EC | tier 2 | reviewed_by -
 - ecuador-payroll | EC | tier 2 | reviewed_by -
@@ -795,6 +852,9 @@ https://www.openaccountants.com
 - el-salvador-payroll | SV | tier 2 | reviewed_by -
 - el-salvador-social-contributions | SV | tier 2 | reviewed_by -
 - el-salvador-tax-optimization | SV | tier 2 | reviewed_by -
+- sv-corporate-income-tax | SV | tier 2 | reviewed_by -
+- sv-cross-border-tax | SV | tier 2 | reviewed_by -
+- sv-transfer-pricing | SV | tier 2 | reviewed_by -
 - gq-company-formation | GQ | tier 2 | reviewed_by -
 - gq-corporate-income-tax | GQ | tier 2 | reviewed_by -
 - gq-income-tax | GQ | tier 2 | reviewed_by -
@@ -831,6 +891,11 @@ https://www.openaccountants.com
 - eu-ioss-gb-sellers | EU-27 | tier 2 | reviewed_by -
 - eu-vat-base | EU | tier 2 | reviewed_by -
 - eu-vat-directive | EU | tier 2 | reviewed_by -
+- fo-company-registration-reporting | FO | tier 2 | reviewed_by -
+- fo-cross-border-payments | FO | tier 2 | reviewed_by -
+- fo-individual-income-tax | FO | tier 2 | reviewed_by -
+- fo-payroll-contributions | FO | tier 2 | reviewed_by -
+- fo-vat | FO | tier 2 | reviewed_by -
 - fiji-vat | FJ | tier 2 | reviewed_by -
 - fj-company-formation | FJ | tier 2 | reviewed_by -
 - fj-corporate-income-tax | FJ | tier 2 | reviewed_by -
@@ -863,6 +928,8 @@ https://www.openaccountants.com
 - france-vat-return | FR | tier 2 | reviewed_by -
 - leaving-france-exit-tax | FR | tier 2 | reviewed_by -
 - references | FR | tier 2 | reviewed_by -
+- gf-import-octroi-and-vat | GF | tier 2 | reviewed_by -
+- gf-space-sector-octroi | GF | tier 2 | reviewed_by -
 - ga-company-formation | GA | tier 2 | reviewed_by -
 - ga-corporate-income-tax | GA | tier 2 | reviewed_by -
 - ga-payroll-social | GA | tier 2 | reviewed_by -
@@ -910,6 +977,11 @@ https://www.openaccountants.com
 - ghana-pit | GH | tier 2 | reviewed_by -
 - ghana-vat | GH | tier 2 | reviewed_by -
 - references | GH | tier 2 | reviewed_by -
+- gi-corporate-tax | GI | tier 2 | reviewed_by -
+- gi-individual-income-tax | GI | tier 2 | reviewed_by -
+- gi-payroll-social-insurance | GI | tier 2 | reviewed_by -
+- gi-property-stamp-duty | GI | tier 2 | reviewed_by -
+- gi-transaction-tax-transition | GI | tier 2 | reviewed_by -
 - gr-company-formation | GR | tier 2 | reviewed_by -
 - gr-corporate-income-tax | GR | tier 2 | reviewed_by -
 - gr-efka | GR | tier 2 | reviewed_by -
@@ -918,13 +990,36 @@ https://www.openaccountants.com
 - gr-vat-return | GR | tier 2 | reviewed_by -
 - greece-einvoice | GR | tier 2 | reviewed_by -
 - greece-vat-return | GR | tier 2 | reviewed_by -
+- gl-mandatory-pension | GL | tier 2 | reviewed_by -
+- gl-payroll-ama | GL | tier 2 | reviewed_by -
+- gd-annual-stamp-tax | GD | tier 2 | reviewed_by -
+- gd-corporate-income-tax | GD | tier 2 | reviewed_by -
+- gd-cross-border | GD | tier 2 | reviewed_by -
+- gd-income-tax | GD | tier 2 | reviewed_by -
+- gd-payroll-withholding | GD | tier 2 | reviewed_by -
+- gd-social-contributions | GD | tier 2 | reviewed_by -
+- gd-transfer-pricing | GD | tier 2 | reviewed_by -
+- gd-vat-registration | GD | tier 2 | reviewed_by -
+- gp-cross-border | GP | tier 2 | reviewed_by -
+- gp-income-tax-companies | GP | tier 2 | reviewed_by -
+- gp-income-tax-individuals | GP | tier 2 | reviewed_by -
+- gp-payroll-withholding | GP | tier 2 | reviewed_by -
+- gp-producer-octroi-compliance | GP | tier 2 | reviewed_by -
+- gp-social-contributions | GP | tier 2 | reviewed_by -
+- gp-transfer-pricing | GP | tier 2 | reviewed_by -
+- gp-value-added-tax | GP | tier 2 | reviewed_by -
 - gt-company-formation | GT | tier 2 | reviewed_by -
 - gt-corporate-income-tax | GT | tier 2 | reviewed_by -
+- gt-cross-border | GT | tier 2 | reviewed_by -
 - gt-tax-overview | GT | tier 2 | reviewed_by -
+- gt-transfer-pricing | GT | tier 2 | reviewed_by -
 - guatemala-income-tax | GT | tier 2 | reviewed_by -
 - guatemala-iva | GT | tier 2 | reviewed_by -
 - guatemala-payroll | GT | tier 2 | reviewed_by -
 - guatemala-social-contributions | GT | tier 2 | reviewed_by -
+- gg-corporate-tax-substance | GG | tier 2 | reviewed_by -
+- gg-individual-income-tax | GG | tier 2 | reviewed_by -
+- gg-payroll-social-insurance | GG | tier 2 | reviewed_by -
 - gw-company-formation | GW | tier 2 | reviewed_by -
 - gw-corporate-income-tax | GW | tier 2 | reviewed_by -
 - gw-income-tax | GW | tier 2 | reviewed_by -
@@ -939,15 +1034,28 @@ https://www.openaccountants.com
 - gn-vat-gst | GN | tier 2 | reviewed_by -
 - gy-company-formation | GY | tier 2 | reviewed_by -
 - gy-corporate-income-tax | GY | tier 2 | reviewed_by -
+- gy-cross-border | GY | tier 2 | reviewed_by -
 - gy-income-tax | GY | tier 2 | reviewed_by -
 - gy-payroll-social | GY | tier 2 | reviewed_by -
 - gy-tax-overview | GY | tier 2 | reviewed_by -
+- gy-transfer-pricing | GY | tier 2 | reviewed_by -
 - gy-vat-gst | GY | tier 2 | reviewed_by -
+- ht-business-patente | HT | tier 2 | reviewed_by -
+- ht-company-tax-and-advances | HT | tier 2 | reviewed_by -
+- ht-cross-border-tax | HT | tier 2 | reviewed_by -
+- ht-payroll-withholding-and-employer-tax | HT | tier 2 | reviewed_by -
+- ht-personal-income-tax-new-code | HT | tier 2 | reviewed_by -
+- ht-service-withholding-and-payment-reporting | HT | tier 2 | reviewed_by -
+- ht-social-contributions | HT | tier 2 | reviewed_by -
+- ht-transfer-pricing | HT | tier 2 | reviewed_by -
+- ht-vat-turnover-tax-tca | HT | tier 2 | reviewed_by -
 - hn-company-formation | HN | tier 2 | reviewed_by -
 - hn-corporate-income-tax | HN | tier 2 | reviewed_by -
+- hn-cross-border-tax | HN | tier 2 | reviewed_by -
 - hn-tax-overview | HN | tier 2 | reviewed_by -
+- hn-transfer-pricing | HN | tier 2 | reviewed_by -
+- hn-vat-isv | HN | tier 2 | reviewed_by -
 - honduras-income-tax | HN | tier 2 | reviewed_by -
-- honduras-isv | HN | tier 2 | reviewed_by -
 - honduras-payroll | HN | tier 2 | reviewed_by -
 - honduras-social-contributions | HN | tier 2 | reviewed_by -
 - hk-company-formation | HK | tier 2 | reviewed_by -
@@ -1063,12 +1171,14 @@ https://www.openaccountants.com
 - ivory-coast-payroll | CI | tier 2 | reviewed_by -
 - ivory-coast-social-contributions | CI | tier 2 | reviewed_by -
 - ivory-coast-vat | CI | tier 2 | reviewed_by -
-- jamaica-gct | JM | tier 2 | reviewed_by -
 - jm-company-formation | JM | tier 2 | reviewed_by -
 - jm-corporate-income-tax | JM | tier 2 | reviewed_by -
+- jm-cross-border-tax | JM | tier 2 | reviewed_by -
+- jm-gst-gct | JM | tier 2 | reviewed_by -
 - jm-income-tax | JM | tier 2 | reviewed_by -
 - jm-payroll-social | JM | tier 2 | reviewed_by -
 - jm-tax-overview | JM | tier 2 | reviewed_by -
+- jm-transfer-pricing | JM | tier 2 | reviewed_by -
 - japan-bookkeeping | JP | tier 2 | reviewed_by -
 - japan-consumption-tax | JP | tier 2 | reviewed_by -
 - japan-crypto-tax | JP | tier 2 | reviewed_by -
@@ -1258,6 +1368,14 @@ https://www.openaccountants.com
 - mt-reverse-charge-vat-services-received-from | MT | tier 2 | reviewed_by -
 - mt-vat3-quarterly-return-malta | MT | tier 2 | reviewed_by -
 - selling-a-company-in-malta | MT | tier 2 | reviewed_by -
+- mq-antilles-goods-movements | MQ | tier 2 | reviewed_by -
+- mq-cross-border | MQ | tier 2 | reviewed_by -
+- mq-income-tax-companies | MQ | tier 2 | reviewed_by -
+- mq-income-tax-individuals | MQ | tier 2 | reviewed_by -
+- mq-payroll-withholding | MQ | tier 2 | reviewed_by -
+- mq-social-contributions | MQ | tier 2 | reviewed_by -
+- mq-transfer-pricing | MQ | tier 2 | reviewed_by -
+- mq-value-added-tax | MQ | tier 2 | reviewed_by -
 - mr-company-formation | MR | tier 2 | reviewed_by -
 - mr-corporate-income-tax | MR | tier 2 | reviewed_by -
 - mr-income-tax | MR | tier 2 | reviewed_by -
@@ -1270,14 +1388,20 @@ https://www.openaccountants.com
 - mu-income-tax | MU | tier 2 | reviewed_by -
 - mu-payroll-social | MU | tier 2 | reviewed_by -
 - mu-tax-overview | MU | tier 2 | reviewed_by -
+- yt-employer-payroll-relief | YT | tier 2 | reviewed_by -
+- yt-vat-and-goods-imports | YT | tier 2 | reviewed_by -
 - mexico-crypto-tax | MX | tier 2 | reviewed_by -
 - mexico-einvoice | MX | tier 2 | reviewed_by -
 - mexico-iva | MX | tier 2 | reviewed_by -
 - mexico-transfer-pricing | MX | tier 2 | reviewed_by -
 - mx-cfdi | MX | tier 2 | reviewed_by -
+- mx-corporate-income-tax | MX | tier 2 | reviewed_by -
+- mx-cross-border | MX | tier 2 | reviewed_by -
 - mx-estimated-tax | MX | tier 2 | reviewed_by -
 - mx-imss | MX | tier 2 | reviewed_by -
 - mx-income-tax | MX | tier 2 | reviewed_by -
+- mx-payroll-withholding | MX | tier 2 | reviewed_by -
+- mx-social-contributions | MX | tier 2 | reviewed_by -
 - mx-vat-return | MX | tier 2 | reviewed_by -
 - references | MX | tier 2 | reviewed_by -
 - md-company-formation | MD | tier 2 | reviewed_by -
@@ -1307,6 +1431,11 @@ https://www.openaccountants.com
 - montenegro-social-contributions | ME | tier 2 | reviewed_by -
 - montenegro-tax-optimization | ME | tier 2 | reviewed_by -
 - montenegro-vat | ME | tier 2 | reviewed_by -
+- ms-consumption-tax | MS | tier 2 | reviewed_by -
+- ms-corporate-income-tax | MS | tier 2 | reviewed_by -
+- ms-nonresident-withholding | MS | tier 2 | reviewed_by -
+- ms-social-security-contributions | MS | tier 2 | reviewed_by -
+- ms-transfer-pricing | MS | tier 2 | reviewed_by -
 - ma-auto-entrepreneur-4 | MA | tier 2 | reviewed_by -
 - ma-auto-entrepreneur | MA | tier 2 | reviewed_by -
 - ma-bookkeeping | MA | tier 2 | reviewed_by -
@@ -1382,7 +1511,9 @@ https://www.openaccountants.com
 - references | NZ | tier 2 | reviewed_by -
 - ni-company-formation | NI | tier 2 | reviewed_by -
 - ni-corporate-income-tax | NI | tier 2 | reviewed_by -
+- ni-cross-border-tax | NI | tier 2 | reviewed_by -
 - ni-tax-overview | NI | tier 2 | reviewed_by -
+- ni-transfer-pricing | NI | tier 2 | reviewed_by -
 - nicaragua-income-tax | NI | tier 2 | reviewed_by -
 - nicaragua-iva | NI | tier 2 | reviewed_by -
 - nicaragua-payroll | NI | tier 2 | reviewed_by -
@@ -1446,10 +1577,13 @@ https://www.openaccountants.com
 - pk-social-contributions | PK | tier 2 | reviewed_by -
 - pk-tax-optimization | PK | tier 2 | reviewed_by -
 - pk-withholding-tax | PK | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
+- panama-corporate-income-tax | PA | tier 2 | reviewed_by -
+- panama-cross-border | PA | tier 2 | reviewed_by -
 - panama-income-tax | PA | tier 2 | reviewed_by -
 - panama-itbms | PA | tier 2 | reviewed_by -
 - panama-payroll | PA | tier 2 | reviewed_by -
 - panama-social-contributions | PA | tier 2 | reviewed_by -
+- panama-transfer-pricing | PA | tier 2 | reviewed_by -
 - pg-company-formation | PG | tier 2 | reviewed_by -
 - pg-corporate-income-tax | PG | tier 2 | reviewed_by -
 - pg-income-tax | PG | tier 2 | reviewed_by -
@@ -1460,9 +1594,14 @@ https://www.openaccountants.com
 - paraguay-iva | PY | tier 2 | reviewed_by -
 - paraguay-payroll | PY | tier 2 | reviewed_by -
 - paraguay-social-contributions | PY | tier 2 | reviewed_by -
+- py-corporate-income-tax | PY | tier 2 | reviewed_by -
+- py-cross-border-tax | PY | tier 2 | reviewed_by -
+- py-transfer-pricing | PY | tier 2 | reviewed_by -
 - pe-company-formation | PE | tier 2 | reviewed_by -
 - pe-corporate-income-tax | PE | tier 2 | reviewed_by -
+- pe-cross-border-tax | PE | tier 2 | reviewed_by -
 - pe-tax-overview | PE | tier 2 | reviewed_by -
+- pe-transfer-pricing | PE | tier 2 | reviewed_by -
 - peru-igv | PE | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - peru-income-tax | PE | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - peru-payroll | PE | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
@@ -1496,6 +1635,14 @@ https://www.openaccountants.com
 - pt-return-assembly | PT | tier 2 | reviewed_by -
 - pt-social-contributions | PT | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - pt-vat-return | PT | tier 2 | reviewed_by -
+- pr-company-income-tax | PR | tier 2 | reviewed_by -
+- pr-cross-border | PR | tier 2 | reviewed_by -
+- pr-federal-residence-and-filing | PR | tier 2 | reviewed_by -
+- pr-payroll-withholding | PR | tier 2 | reviewed_by -
+- pr-self-employment-tax-2025 | PR | tier 2 | reviewed_by -
+- pr-social-contributions | PR | tier 2 | reviewed_by -
+- pr-transfer-pricing | PR | tier 2 | reviewed_by -
+- pr-vat-ivu | PR | tier 2 | reviewed_by -
 - qa-company-formation | QA | tier 2 | reviewed_by -
 - qa-corporate-income-tax | QA | tier 2 | reviewed_by -
 - qa-payroll-social | QA | tier 2 | reviewed_by -
@@ -1508,6 +1655,7 @@ https://www.openaccountants.com
 - cg-payroll-social | CG | tier 2 | reviewed_by -
 - cg-tax-overview | CG | tier 2 | reviewed_by -
 - cg-vat-gst | CG | tier 2 | reviewed_by -
+- re-octroi-producer-registration-and-returns | RE | tier 2 | reviewed_by -
 - references | RO | tier 2 | reviewed_by -
 - ro-cas-cass | RO | tier 2 | reviewed_by -
 - ro-company-formation | RO | tier 2 | reviewed_by -
@@ -1544,6 +1692,40 @@ https://www.openaccountants.com
 - st-payroll-social | ST | tier 2 | reviewed_by -
 - st-tax-overview | ST | tier 2 | reviewed_by -
 - st-vat-gst | ST | tier 2 | reviewed_by -
+- bl-annual-business-contribution | BL | tier 2 | reviewed_by -
+- bl-tax-residence-and-property-gains | BL | tier 2 | reviewed_by -
+- bl-tourist-stay-tax | BL | tier 2 | reviewed_by -
+- sh-company-income-tax | SH | tier 2 | reviewed_by -
+- sh-individual-tax-residence | SH | tier 2 | reviewed_by -
+- sh-paye-compliance | SH | tier 2 | reviewed_by -
+- sh-personal-income-tax | SH | tier 2 | reviewed_by -
+- kn-cross-border | KN | tier 2 | reviewed_by -
+- kn-housing-social-development-levy | KN | tier 2 | reviewed_by -
+- kn-income-tax-companies | KN | tier 2 | reviewed_by -
+- kn-income-tax-individuals | KN | tier 2 | reviewed_by -
+- kn-payroll-withholding | KN | tier 2 | reviewed_by -
+- kn-social-security-contributions | KN | tier 2 | reviewed_by -
+- kn-transfer-pricing | KN | tier 2 | reviewed_by -
+- kn-value-added-tax | KN | tier 2 | reviewed_by -
+- lc-first-time-land-interest | LC | tier 2 | reviewed_by -
+- lc-imported-services-vat | LC | tier 2 | reviewed_by -
+- lc-national-insurance | LC | tier 2 | reviewed_by -
+- lc-personal-tax-deductions | LC | tier 2 | reviewed_by -
+- lc-vat | LC | tier 2 | reviewed_by -
+- mf-business-licence-and-patente-filing | MF | tier 2 | reviewed_by -
+- mf-company-tax-rates-and-returns | MF | tier 2 | reviewed_by -
+- mf-tgca-scope-and-compliance | MF | tier 2 | reviewed_by -
+- pm-company-income-tax | PM | tier 2 | reviewed_by -
+- pm-nonresident-tax | PM | tier 2 | reviewed_by -
+- pm-payroll-and-withholding | PM | tier 2 | reviewed_by -
+- pm-personal-income-tax-2025 | PM | tier 2 | reviewed_by -
+- pm-social-contributions | PM | tier 2 | reviewed_by -
+- vc-corporate-income-tax | VC | tier 2 | reviewed_by -
+- vc-cross-border | VC | tier 2 | reviewed_by -
+- vc-national-insurance | VC | tier 2 | reviewed_by -
+- vc-paye-withholding | VC | tier 2 | reviewed_by -
+- vc-transfer-pricing | VC | tier 2 | reviewed_by -
+- vc-vat | VC | tier 2 | reviewed_by -
 - ws-company-formation | WS | tier 2 | reviewed_by -
 - ws-corporate-income-tax | WS | tier 2 | reviewed_by -
 - ws-income-tax | WS | tier 2 | reviewed_by -
@@ -1603,6 +1785,13 @@ https://www.openaccountants.com
 - singapore-gst | SG | tier 2 | reviewed_by -
 - singapore-tax-optimization | SG | tier 2 | reviewed_by -
 - singapore-transfer-pricing | SG | tier 2 | reviewed_by -
+- sx-corporate-income-tax | SX | tier 2 | reviewed_by -
+- sx-cross-border | SX | tier 2 | reviewed_by -
+- sx-personal-income-tax-tables | SX | tier 2 | reviewed_by -
+- sx-social-insurance-premiums | SX | tier 2 | reviewed_by -
+- sx-transfer-pricing | SX | tier 2 | reviewed_by -
+- sx-turnover-tax | SX | tier 2 | reviewed_by -
+- sx-wage-tax-tables | SX | tier 2 | reviewed_by -
 - references | SK | tier 2 | reviewed_by -
 - sk-company-formation | SK | tier 2 | reviewed_by -
 - sk-corporate-income-tax | SK | tier 2 | reviewed_by -
@@ -1697,10 +1886,15 @@ https://www.openaccountants.com
 - sd-vat-gst | SD | tier 2 | reviewed_by -
 - sr-company-formation | SR | tier 2 | reviewed_by -
 - sr-corporate-income-tax | SR | tier 2 | reviewed_by -
+- sr-cross-border | SR | tier 2 | reviewed_by -
 - sr-income-tax | SR | tier 2 | reviewed_by -
 - sr-payroll-social | SR | tier 2 | reviewed_by -
 - sr-tax-overview | SR | tier 2 | reviewed_by -
+- sr-transfer-pricing | SR | tier 2 | reviewed_by -
 - sr-vat-gst | SR | tier 2 | reviewed_by -
+- sj-svalbard-company-income-tax | SJ | tier 2 | reviewed_by -
+- sj-svalbard-payroll-tax | SJ | tier 2 | reviewed_by -
+- sj-svalbard-tax-residence | SJ | tier 2 | reviewed_by -
 - references | SE | tier 2 | reviewed_by -
 - se-capital-gains | SE | tier 2 | reviewed_by -
 - se-income-tax | SE | tier 2 | reviewed_by -
@@ -1767,9 +1961,11 @@ https://www.openaccountants.com
 - trinidad-vat | TT | tier 2 | reviewed_by -
 - tt-company-formation | TT | tier 2 | reviewed_by -
 - tt-corporate-income-tax | TT | tier 2 | reviewed_by -
+- tt-cross-border | TT | tier 2 | reviewed_by -
 - tt-income-tax | TT | tier 2 | reviewed_by -
 - tt-payroll-social | TT | tier 2 | reviewed_by -
 - tt-tax-overview | TT | tier 2 | reviewed_by -
+- tt-transfer-pricing | TT | tier 2 | reviewed_by -
 - irpp-calculation | TN | tier 2 | reviewed_by -
 - tn-company-formation | TN | tier 2 | reviewed_by -
 - tn-corporate-income-tax | TN | tier 2 | reviewed_by -
@@ -1791,6 +1987,9 @@ https://www.openaccountants.com
 - tm-payroll-social | TM | tier 2 | reviewed_by -
 - tm-tax-overview | TM | tier 2 | reviewed_by -
 - tm-vat-gst | TM | tier 2 | reviewed_by -
+- tc-hotel-tourism-tax | TC | tier 2 | reviewed_by -
+- tc-national-health-insurance | TC | tier 2 | reviewed_by -
+- tc-national-insurance | TC | tier 2 | reviewed_by -
 - ae-corporate-tax | AE | tier 2 | reviewed_by -
 - ae-income-tax | AE | tier 2 | reviewed_by -
 - ae-payroll-social | AE | tier 2 | reviewed_by -
@@ -1854,7 +2053,12 @@ https://www.openaccountants.com
 - uruguay-social-contributions | UY | tier 2 | reviewed_by -
 - uy-company-formation | UY | tier 2 | reviewed_by -
 - uy-corporate-income-tax | UY | tier 2 | reviewed_by -
+- uy-cross-border | UY | tier 2 | reviewed_by -
 - uy-tax-overview | UY | tier 2 | reviewed_by -
+- uy-transfer-pricing | UY | tier 2 | reviewed_by -
+- vi-bona-fide-residence | VI | tier 2 | reviewed_by -
+- vi-gross-receipts-tax | VI | tier 2 | reviewed_by -
+- vi-individual-income-tax-filing | VI | tier 2 | reviewed_by -
 - us-capital-gains | US | tier 2 | reviewed_by -
 - us-nonresident-cgt | US | tier 2 | reviewed_by -
 - us-tax-residency | US | tier 2 | reviewed_by -
@@ -1872,11 +2076,15 @@ https://www.openaccountants.com
 - vu-payroll-social | VU | tier 2 | reviewed_by -
 - vu-tax-overview | VU | tier 2 | reviewed_by -
 - vu-vat-gst | VU | tier 2 | reviewed_by -
+- va-italy-remuneration-and-financial-assets | VA | tier 2 | reviewed_by -
+- venezuela-corporate-tax | VE | tier 2 | reviewed_by -
+- venezuela-cross-border-tax | VE | tier 2 | reviewed_by -
 - venezuela-income-tax | VE | tier 2 | reviewed_by Jose Padilla
 - venezuela-iva | VE | tier 2 | reviewed_by Jose Padilla
 - venezuela-payroll | VE | tier 2 | reviewed_by Jose Padilla
 - venezuela-social-contributions | VE | tier 2 | reviewed_by Jose Padilla
 - venezuela-tax-optimization | VE | tier 2 | reviewed_by Jose Padilla
+- venezuela-transfer-pricing | VE | tier 2 | reviewed_by -
 - references | VN | tier 2 | reviewed_by -
 - vietnam-pit | VN | tier 2 | reviewed_by -
 - vietnam-vat | VN | tier 2 | reviewed_by -
@@ -1969,95 +2177,176 @@ https://www.openaccountants.com
 - estimated-provisional-tax-template | - | tier 2 | reviewed_by -
 - rental-property-income-template | - | tier 2 | reviewed_by -
 - ak-sales-tax | US-AK | tier 2 | reviewed_by -
+- al-corporate-income-tax | US-AL | tier 2 | reviewed_by -
+- al-cross-border | US-AL | tier 2 | reviewed_by -
 - al-income-tax | US-AL | tier 2 | reviewed_by -
+- al-payroll-withholding | US-AL | tier 2 | reviewed_by -
 - al-sales-tax | US-AL | tier 2 | reviewed_by -
+- al-transfer-pricing | US-AL | tier 2 | reviewed_by -
+- al-unemployment-contributions | US-AL | tier 2 | reviewed_by -
 - alabama-income-tax | US-AL | tier 2 | reviewed_by -
 - alabama-sales-tax | US-AL | tier 2 | reviewed_by -
+- ar-corporate-income-tax | US-AR | tier 2 | reviewed_by -
 - ar-income-tax | US-AR | tier 2 | reviewed_by -
+- ar-payroll-withholding | US-AR | tier 2 | reviewed_by -
 - ar-sales-tax | US-AR | tier 2 | reviewed_by -
+- ar-transfer-pricing | US-AR | tier 2 | reviewed_by -
+- ar-unemployment-contributions | US-AR | tier 2 | reviewed_by -
 - arizona-sales-tax | US-AR | tier 2 | reviewed_by -
 - arkansas-sales-tax | US-AR | tier 2 | reviewed_by -
+- az-corporate-income-tax | US-AZ | tier 2 | reviewed_by -
+- az-cross-border | US-AZ | tier 2 | reviewed_by -
 - az-income-tax | US-AZ | tier 2 | reviewed_by -
 - az-payroll | US-AZ | tier 2 | reviewed_by -
 - az-sales-tax | US-AZ | tier 2 | reviewed_by -
+- az-social-contributions | US-AZ | tier 2 | reviewed_by -
 - az-transaction-privilege-tax | US-AZ | tier 2 | reviewed_by -
+- az-transfer-pricing | US-AZ | tier 2 | reviewed_by -
 - ca-540-es-estimated-tax | US-CA | tier 2 | reviewed_by -
 - ca-bookkeeping-monthly-close | US-CA | tier 2 | reviewed_by -
+- ca-corporate-income-tax | US-CA | tier 2 | reviewed_by -
+- ca-cross-border | US-CA | tier 2 | reviewed_by -
 - ca-form-3853-coverage | US-CA | tier 2 | reviewed_by -
 - ca-formation | US-CA | tier 2 | reviewed_by -
 - ca-income-tax | US-CA | tier 2 | reviewed_by -
 - ca-payroll | US-CA | tier 2 | reviewed_by -
 - ca-residency-leaving-california | US-CA | tier 2 | reviewed_by -
+- ca-s-corporation-tax | US-CA | tier 2 | reviewed_by -
 - ca-sales-use-tax | US-CA | tier 2 | reviewed_by -
 - ca-smllc-form-568 | US-CA | tier 2 | reviewed_by -
+- ca-transfer-pricing | US-CA | tier 2 | reviewed_by -
+- co-corporate-income-tax | US-CO | tier 2 | reviewed_by -
+- co-cross-border | US-CO | tier 2 | reviewed_by -
 - co-income-tax | US-CO | tier 2 | reviewed_by -
 - co-payroll | US-CO | tier 2 | reviewed_by -
 - co-retail-delivery-and-suts | US-CO | tier 2 | reviewed_by -
+- co-s-corporation-tax | US-CO | tier 2 | reviewed_by -
 - co-sales-tax | US-CO | tier 2 | reviewed_by -
+- co-transfer-pricing | US-CO | tier 2 | reviewed_by -
 - colorado-sales-tax | US-CO | tier 2 | reviewed_by -
 - connecticut-sales-tax | US-CO | tier 2 | reviewed_by -
+- ct-corporate-income-tax | US-CT | tier 2 | reviewed_by -
+- ct-cross-border | US-CT | tier 2 | reviewed_by -
 - ct-income-tax | US-CT | tier 2 | reviewed_by -
 - ct-payroll | US-CT | tier 2 | reviewed_by -
+- ct-s-corporation-tax | US-CT | tier 2 | reviewed_by -
 - ct-sales-tax | US-CT | tier 2 | reviewed_by -
+- ct-transfer-pricing | US-CT | tier 2 | reviewed_by -
+- dc-cross-border | US-DC | tier 2 | reviewed_by -
+- dc-franchise-tax | US-DC | tier 2 | reviewed_by -
 - dc-income-tax | US-DC | tier 2 | reviewed_by -
+- dc-payroll-withholding | US-DC | tier 2 | reviewed_by -
 - dc-sales-tax | US-DC | tier 2 | reviewed_by -
+- dc-transfer-pricing | US-DC | tier 2 | reviewed_by -
+- dc-unemployment-contributions | US-DC | tier 2 | reviewed_by -
 - de-formation | US-DE | tier 2 | reviewed_by -
 - de-franchise-tax-and-llc | US-DE | tier 2 | reviewed_by -
 - de-gross-receipts-tax | US-DE | tier 2 | reviewed_by -
 - de-income-tax | US-DE | tier 2 | reviewed_by -
 - fl-annual-report | US-FL | tier 2 | reviewed_by Rob Hoffman
 - fl-corporate-income-tax | US-FL | tier 2 | reviewed_by Rob Hoffman
+- fl-cross-border | US-FL | tier 2 | reviewed_by -
 - fl-moving-to-florida-domicile | US-FL | tier 2 | reviewed_by -
 - fl-sales-tax | US-FL | tier 2 | reviewed_by -
 - fl-sales-use-tax-surtax | US-FL | tier 2 | reviewed_by Rob Hoffman
 - fl-sales-use-tax | US-FL | tier 2 | reviewed_by Rob Hoffman
+- fl-social-contributions | US-FL | tier 2 | reviewed_by -
+- fl-transfer-pricing | US-FL | tier 2 | reviewed_by -
 - fl-transient-rental-tax | US-FL | tier 2 | reviewed_by Rob Hoffman
+- ga-contractor-and-manufacturing-sales-tax | US-GA | tier 2 | reviewed_by -
 - ga-corporate-and-ptet | US-GA | tier 2 | reviewed_by -
+- ga-cross-border-tax | US-GA | tier 2 | reviewed_by -
 - ga-estimated-tax-depth | US-GA | tier 2 | reviewed_by -
 - ga-formation | US-GA | tier 2 | reviewed_by -
 - ga-income-tax | US-GA | tier 2 | reviewed_by -
 - ga-net-worth-tax | US-GA | tier 2 | reviewed_by -
 - ga-payroll | US-GA | tier 2 | reviewed_by -
 - ga-sales-tax | US-GA | tier 2 | reviewed_by -
+- ga-transfer-pricing-addbacks | US-GA | tier 2 | reviewed_by -
 - georgia-corporate-income-tax-returns-form-600 | US-GA | tier 2 | reviewed_by -
 - georgia-individual-tax-return-form-500 | US-GA | tier 2 | reviewed_by -
 - georgia-pass-through-entity-returns-form-700-partnership-and-form-600s-s-corporation | US-GA | tier 2 | reviewed_by -
+- hi-corporate-income-tax | US-HI | tier 2 | reviewed_by -
+- hi-cross-border | US-HI | tier 2 | reviewed_by -
 - hi-income-tax | US-HI | tier 2 | reviewed_by -
+- hi-payroll-withholding | US-HI | tier 2 | reviewed_by -
 - hi-sales-tax | US-HI | tier 2 | reviewed_by -
+- hi-social-contributions | US-HI | tier 2 | reviewed_by -
+- hi-transfer-pricing | US-HI | tier 2 | reviewed_by -
+- ia-corporate-income-tax | US-IA | tier 2 | reviewed_by -
+- ia-cross-border | US-IA | tier 2 | reviewed_by -
 - ia-income-tax | US-IA | tier 2 | reviewed_by -
+- ia-payroll-withholding | US-IA | tier 2 | reviewed_by -
 - ia-sales-tax | US-IA | tier 2 | reviewed_by -
+- ia-social-contributions | US-IA | tier 2 | reviewed_by -
+- ia-transfer-pricing | US-IA | tier 2 | reviewed_by -
 - id-income-tax | ID | tier 2 | reviewed_by RILIA PUTRI
 - id-sales-tax | US-ID | tier 2 | reviewed_by -
 - idaho-sales-tax | US-ID | tier 2 | reviewed_by -
+- il-corporate-income-tax | US-IL | tier 2 | reviewed_by -
+- il-cross-border | US-IL | tier 2 | reviewed_by -
 - il-estimated-tax | US-IL | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - il-income-tax | US-IL | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - il-payroll | US-IL | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
 - il-pprt | US-IL | tier 2 | reviewed_by -
 - il-sales-tax | US-IL | tier 2 | reviewed_by A licensed accountant (name withheld at their request)
+- il-social-contributions | US-IL | tier 2 | reviewed_by -
+- il-transfer-pricing | US-IL | tier 2 | reviewed_by -
 - illinois-sales-tax | US-IL | tier 2 | reviewed_by -
-- in-income-tax | IN | tier 2 | reviewed_by -
+- in-corporate-income-tax | US-IN | tier 2 | reviewed_by -
+- in-cross-border | US-IN | tier 2 | reviewed_by -
+- in-income-tax | US-IN | tier 2 | reviewed_by -
 - in-payroll | US-IN | tier 2 | reviewed_by -
 - in-sales-tax | US-IN | tier 2 | reviewed_by -
+- in-social-contributions | US-IN | tier 2 | reviewed_by -
+- in-transfer-pricing | US-IN | tier 2 | reviewed_by -
 - indiana-sales-tax | US-IN | tier 2 | reviewed_by -
+- ks-corporate-income-tax | US-KS | tier 2 | reviewed_by -
+- ks-cross-border | US-KS | tier 2 | reviewed_by -
 - ks-income-tax | US-KS | tier 2 | reviewed_by -
+- ks-payroll | US-KS | tier 2 | reviewed_by -
 - ks-sales-tax | US-KS | tier 2 | reviewed_by -
+- ks-social-contributions | US-KS | tier 2 | reviewed_by -
+- ks-transfer-pricing | US-KS | tier 2 | reviewed_by -
+- ky-corporate-income-tax | US-KY | tier 2 | reviewed_by -
+- ky-cross-border | US-KY | tier 2 | reviewed_by -
 - ky-income-tax | US-KY | tier 2 | reviewed_by -
 - ky-payroll | US-KY | tier 2 | reviewed_by -
 - ky-sales-tax | US-KY | tier 2 | reviewed_by -
+- ky-social-contributions | US-KY | tier 2 | reviewed_by -
+- ky-transfer-pricing | US-KY | tier 2 | reviewed_by -
+- la-corporate-income-tax | US-LA | tier 2 | reviewed_by -
+- la-cross-border | US-LA | tier 2 | reviewed_by -
 - la-income-tax | US-LA | tier 2 | reviewed_by -
+- la-payroll | US-LA | tier 2 | reviewed_by -
 - la-sales-tax | US-LA | tier 2 | reviewed_by -
+- la-social-contributions | US-LA | tier 2 | reviewed_by -
+- la-transfer-pricing | US-LA | tier 2 | reviewed_by -
 - ma-corporate-excise | US-MA | tier 2 | reviewed_by -
+- ma-cross-border-tax | US-MA | tier 2 | reviewed_by -
 - ma-income-tax | US-MA | tier 2 | reviewed_by -
 - ma-sales-tax | US-MA | tier 2 | reviewed_by -
+- ma-social-contributions | US-MA | tier 2 | reviewed_by -
+- ma-transfer-pricing-combined-reporting | US-MA | tier 2 | reviewed_by -
 - maine-sales-tax | US-MA | tier 2 | reviewed_by -
 - maryland-sales-tax | US-MA | tier 2 | reviewed_by -
 - massachusetts-sales-tax | US-MA | tier 2 | reviewed_by -
+- md-corporate-income-tax | US-MD | tier 2 | reviewed_by -
+- md-cross-border | US-MD | tier 2 | reviewed_by -
 - md-income-tax | US-MD | tier 2 | reviewed_by -
 - md-payroll | US-MD | tier 2 | reviewed_by -
 - md-sales-tax | US-MD | tier 2 | reviewed_by -
+- md-social-contributions | US-MD | tier 2 | reviewed_by -
+- md-transfer-pricing | US-MD | tier 2 | reviewed_by -
+- me-corporate-income-tax | US-ME | tier 2 | reviewed_by -
+- me-cross-border | US-ME | tier 2 | reviewed_by -
 - me-income-tax | US-ME | tier 2 | reviewed_by -
+- me-payroll | US-ME | tier 2 | reviewed_by -
 - me-sales-tax | US-ME | tier 2 | reviewed_by -
+- me-social-contributions | US-ME | tier 2 | reviewed_by -
+- me-transfer-pricing | US-ME | tier 2 | reviewed_by -
 - mi-corporate-income-tax | US-MI | tier 2 | reviewed_by -
+- mi-cross-border-tax | US-MI | tier 2 | reviewed_by -
 - mi-detroit-individual-return | US-MI | tier 2 | reviewed_by -
 - mi-estimated-tax | US-MI | tier 2 | reviewed_by -
 - mi-homestead-credit | US-MI | tier 2 | reviewed_by -
@@ -2066,41 +2355,70 @@ https://www.openaccountants.com
 - mi-pension-retirement-subtraction | US-MI | tier 2 | reviewed_by -
 - mi-return-assembly | US-MI | tier 2 | reviewed_by -
 - mi-sales-tax | US-MI | tier 2 | reviewed_by -
+- mi-social-contributions | US-MI | tier 2 | reviewed_by -
+- mi-transfer-pricing-unitary-combined | US-MI | tier 2 | reviewed_by -
 - minnesota-sales-tax | US-MN | tier 2 | reviewed_by -
 - mn-corporate-and-pte | US-MN | tier 2 | reviewed_by -
+- mn-cross-border-tax | US-MN | tier 2 | reviewed_by -
 - mn-income-tax | US-MN | tier 2 | reviewed_by -
 - mn-payroll | US-MN | tier 2 | reviewed_by -
 - mn-sales-tax | US-MN | tier 2 | reviewed_by -
+- mn-social-contributions | US-MN | tier 2 | reviewed_by -
+- mn-transfer-pricing-combined-reporting | US-MN | tier 2 | reviewed_by -
 - missouri-sales-tax | US-MO | tier 2 | reviewed_by -
+- mo-corporate-income-tax | US-MO | tier 2 | reviewed_by -
+- mo-cross-border | US-MO | tier 2 | reviewed_by -
 - mo-income-tax | US-MO | tier 2 | reviewed_by -
 - mo-payroll | US-MO | tier 2 | reviewed_by -
 - mo-sales-tax | US-MO | tier 2 | reviewed_by -
+- mo-social-contributions | US-MO | tier 2 | reviewed_by -
+- mo-transfer-pricing | US-MO | tier 2 | reviewed_by -
 - mississippi-sales-tax | US-MS | tier 2 | reviewed_by -
+- ms-corporate-income-tax | US-MS | tier 2 | reviewed_by -
+- ms-cross-border | US-MS | tier 2 | reviewed_by -
 - ms-income-tax | US-MS | tier 2 | reviewed_by -
+- ms-payroll | US-MS | tier 2 | reviewed_by -
 - ms-sales-tax | US-MS | tier 2 | reviewed_by -
+- ms-social-contributions | US-MS | tier 2 | reviewed_by -
+- ms-transfer-pricing | US-MS | tier 2 | reviewed_by -
 - mt-income-tax | US-MT | tier 2 | reviewed_by -
 - nc-bailey-settlement-retirement | US-NC | tier 2 | reviewed_by -
 - nc-corporate-tax | US-NC | tier 2 | reviewed_by -
+- nc-cross-border-tax | US-NC | tier 2 | reviewed_by -
 - nc-estimated-tax | US-NC | tier 2 | reviewed_by -
 - nc-income-tax | US-NC | tier 2 | reviewed_by -
 - nc-payroll | US-NC | tier 2 | reviewed_by -
 - nc-return-assembly | US-NC | tier 2 | reviewed_by -
 - nc-sales-tax | US-NC | tier 2 | reviewed_by -
+- nc-social-contributions | US-NC | tier 2 | reviewed_by -
+- nc-transfer-pricing | US-NC | tier 2 | reviewed_by -
 - nd-corporate-tax | US-ND | tier 2 | reviewed_by -
+- nd-cross-border-tax | US-ND | tier 2 | reviewed_by -
 - nd-estimated-tax | US-ND | tier 2 | reviewed_by -
 - nd-income-tax | US-ND | tier 2 | reviewed_by -
 - nd-payroll | US-ND | tier 2 | reviewed_by -
 - nd-return-assembly | US-ND | tier 2 | reviewed_by -
 - nd-sales-tax | US-ND | tier 2 | reviewed_by -
+- nd-social-contributions | US-ND | tier 2 | reviewed_by -
+- nd-transfer-pricing | US-ND | tier 2 | reviewed_by -
+- ne-corporate-income-tax | US-NE | tier 2 | reviewed_by -
+- ne-cross-border | US-NE | tier 2 | reviewed_by -
 - ne-income-tax | US-NE | tier 2 | reviewed_by -
+- ne-payroll | US-NE | tier 2 | reviewed_by -
 - ne-sales-tax | US-NE | tier 2 | reviewed_by -
+- ne-social-contributions | US-NE | tier 2 | reviewed_by -
+- ne-transfer-pricing | US-NE | tier 2 | reviewed_by -
 - nh-bpt-bet | US-NH | tier 2 | reviewed_by -
 - nh-interest-dividends-note | US-NH | tier 2 | reviewed_by -
 - new-jersey-sales-tax | US-NJ | tier 2 | reviewed_by -
 - nj-cbt-and-bait | US-NJ | tier 2 | reviewed_by -
+- nj-corporate-income-tax | US-NJ | tier 2 | reviewed_by -
+- nj-cross-border | US-NJ | tier 2 | reviewed_by -
 - nj-income-tax | US-NJ | tier 2 | reviewed_by -
 - nj-payroll | US-NJ | tier 2 | reviewed_by -
 - nj-sales-tax | US-NJ | tier 2 | reviewed_by -
+- nj-social-contributions | US-NJ | tier 2 | reviewed_by -
+- nj-transfer-pricing | US-NJ | tier 2 | reviewed_by -
 - new-mexico-sales-tax | US-NM | tier 2 | reviewed_by -
 - nm-income-tax | US-NM | tier 2 | reviewed_by -
 - nm-sales-tax | US-NM | tier 2 | reviewed_by -
@@ -2118,12 +2436,18 @@ https://www.openaccountants.com
 - ny-mctmt | US-NY | tier 2 | reviewed_by -
 - ny-residency-leaving-new-york | US-NY | tier 2 | reviewed_by -
 - ny-sales-tax | US-NY | tier 2 | reviewed_by -
+- ny-social-contributions | US-NY | tier 2 | reviewed_by -
+- ny-transfer-pricing | US-NY | tier 2 | reviewed_by -
 - nyc-ubt | US-NY | tier 2 | reviewed_by -
 - oh-cat-tax | US-OH | tier 2 | reviewed_by -
 - oh-cat | US-OH | tier 2 | reviewed_by -
+- oh-corporate-income-tax | US-OH | tier 2 | reviewed_by -
+- oh-cross-border | US-OH | tier 2 | reviewed_by -
 - oh-income-tax | US-OH | tier 2 | reviewed_by -
 - oh-payroll | US-OH | tier 2 | reviewed_by -
 - oh-sales-tax | US-OH | tier 2 | reviewed_by -
+- oh-social-contributions | US-OH | tier 2 | reviewed_by -
+- oh-transfer-pricing | US-OH | tier 2 | reviewed_by -
 - ohio-sales-tax | US-OH | tier 2 | reviewed_by -
 - ok-income-tax | US-OK | tier 2 | reviewed_by -
 - ok-sales-tax | US-OK | tier 2 | reviewed_by -
@@ -2131,10 +2455,14 @@ https://www.openaccountants.com
 - or-cat | US-OR | tier 2 | reviewed_by -
 - or-income-tax | US-OR | tier 2 | reviewed_by -
 - or-payroll | US-OR | tier 2 | reviewed_by -
+- pa-corporate-income-tax | US-PA | tier 2 | reviewed_by -
+- pa-cross-border | US-PA | tier 2 | reviewed_by -
 - pa-income-tax | US-PA | tier 2 | reviewed_by -
 - pa-local-eit | US-PA | tier 2 | reviewed_by -
 - pa-payroll | US-PA | tier 2 | reviewed_by -
 - pa-sales-tax | US-PA | tier 2 | reviewed_by -
+- pa-social-contributions | US-PA | tier 2 | reviewed_by -
+- pa-transfer-pricing | US-PA | tier 2 | reviewed_by -
 - pennsylvania-sales-tax | US-PA | tier 2 | reviewed_by -
 - references | US | tier 2 | reviewed_by -
 - ri-income-tax | US-RI | tier 2 | reviewed_by -
@@ -2151,9 +2479,12 @@ https://www.openaccountants.com
 - ut-sales-tax | US-UT | tier 2 | reviewed_by -
 - utah-sales-tax | US-UT | tier 2 | reviewed_by -
 - va-corporate-tax-and-bpol | US-VA | tier 2 | reviewed_by -
+- va-cross-border-tax | US-VA | tier 2 | reviewed_by -
 - va-income-tax | US-VA | tier 2 | reviewed_by -
 - va-payroll | US-VA | tier 2 | reviewed_by -
 - va-sales-tax | US-VA | tier 2 | reviewed_by -
+- va-social-contributions | US-VA | tier 2 | reviewed_by -
+- va-transfer-pricing | US-VA | tier 2 | reviewed_by -
 - vt-income-tax | US-VT | tier 2 | reviewed_by -
 - vt-sales-tax | US-VT | tier 2 | reviewed_by -
 - wa-b-and-o-tax | US-WA | tier 2 | reviewed_by -
@@ -2161,9 +2492,13 @@ https://www.openaccountants.com
 - wa-business-occupation-tax | US-WA | tier 2 | reviewed_by -
 - wa-sales-tax | US-WA | tier 2 | reviewed_by -
 - washington-sales-tax | US-WA | tier 2 | reviewed_by -
+- wi-corporate-income-tax | US-WI | tier 2 | reviewed_by -
+- wi-cross-border | US-WI | tier 2 | reviewed_by -
 - wi-income-tax | US-WI | tier 2 | reviewed_by -
 - wi-payroll | US-WI | tier 2 | reviewed_by -
 - wi-sales-tax | US-WI | tier 2 | reviewed_by -
+- wi-social-contributions | US-WI | tier 2 | reviewed_by -
+- wi-transfer-pricing | US-WI | tier 2 | reviewed_by -
 - wisconsin-sales-tax | US-WI | tier 2 | reviewed_by -
 - wv-income-tax | US-WV | tier 2 | reviewed_by -
 - wv-sales-tax | US-WV | tier 2 | reviewed_by -
