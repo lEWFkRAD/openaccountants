@@ -1,10 +1,10 @@
 ---
 name: wv-income-tax
 description: Use this skill whenever asked about West Virginia individual income tax, West Virginia Form IT-140, West Virginia graduated tax rates, West Virginia self-employment income tax at the state level, West Virginia 2026 rate cut, or any West Virginia personal income tax question for sole proprietors. Trigger on phrases like "West Virginia income tax", "WV income tax", "Form IT-140", "West Virginia tax brackets", "WV 4.58%", "W.Va. Code §11-21", or any request involving West Virginia state individual income tax computation or filing.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-WV
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -54,6 +54,8 @@ Quality tier. Q3 — AI-drafted, not independently verified. All rates and rules
 ## Section 2: Quick reference — rates and thresholds
 
 ### Tax brackets — 2026 (SB 392 — 5% rate cut, retroactive to January 1, 2026)
+
+> Verified verbatim against the archived WV Tax Division page (archived 2026-10-28): "During the 2026 Legislative Session, Governor Morrisey promoted SB 392 to deliver an across the board income tax rate cut. It was passed and signed into law on March 31, 2026. Effective June 12, 2026, W. Va. Code § 11-21-4j will be codified to reflect a 5% income tax cut for all West Virginians retroactive to January 1, 2026." The bracket base amounts below match that page's updated tables exactly.
 
 **All filing statuses except Married Filing Separately**
 
