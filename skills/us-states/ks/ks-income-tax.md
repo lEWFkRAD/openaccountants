@@ -1,10 +1,10 @@
 ---
 name: ks-income-tax
-description: Use this skill whenever asked about Kansas individual income tax. Trigger on phrases like "Kansas income tax", "KS income tax", "K-40", "KDOR income tax", "K.S.A. 79-32,110". Kansas has a two-bracket progressive system (5.20%–5.58%) effective 2024+. ALWAYS load us-tax-workflow-base first.
-version: "0.1"
+description: Use this skill whenever asked about Kansas individual income tax. Trigger on phrases like "Kansas income tax", "KS income tax", "K-40", "KDOR income tax", "K.S.A. 79-32,110". Kansas has a two-bracket progressive system (5.20%–5.58%) effective 2024+; Social Security is fully exempt for tax years 2024+ regardless of AGI (K.S.A. 79-32,117(a)(xviii)(B)). ALWAYS load us-tax-workflow-base first.
+version: "0.2"
 jurisdiction: US-KS
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -106,11 +106,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Item | Description | Source |
 | --- | --- | --- |
 | Kansas state income tax refund | If included in federal AGI (state tax refund recovery) | K.S.A. 79-32,117(a) |
-| Social Security benefits | Kansas fully exempts Social Security if federal AGI is $75,000 or less | K.S.A. 79-32,117(c)(viii) |
+| Social Security benefits | Fully exempt for all tax years beginning after Dec 31, 2023 (no AGI limit). The $75,000 AGI cap applied only to tax years ending before Jan 1, 2024 | K.S.A. 79-32,117(a)(xviii)(B) |
 | U.S. government interest | Interest on U.S. obligations | K.S.A. 79-32,117(a)(i) |
 | KPERS contributions | Kansas Public Employees Retirement System contributions | K.S.A. 79-32,117(a)(ii) |
 | Military pay | Active-duty military compensation | K.S.A. 79-32,117 |
-| Retirement income exclusion | Social Security exempt for AGI ≤ $75,000; other retirement income provisions vary | K.S.A. 79-32,117 |
+| Retirement income exclusion | Social Security fully exempt (2024+); KPERS and other retirement provisions vary — see Schedule S line A11 | K.S.A. 79-32,117 |
 
 ### Resulting computation
 
@@ -163,7 +163,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | R-2 | Start from federal AGI and apply Schedule S modifications. |
 | R-3 | Subtract the standard deduction or itemized deductions (taxpayer's choice). |
 | R-4 | Subtract personal exemptions ($9,160 single; $18,320 MFJ; $2,320 per dependent — 2025 amounts). |
-| R-5 | Social Security benefits are fully exempt if federal AGI ≤ $75,000. |
+| R-5 | Social Security benefits are fully exempt for tax years 2024 and later (K.S.A. 79-32,117(a)(xviii)(B)). |
 | R-6 | Add back interest from out-of-state municipal bonds. |
 | R-7 | Subtract U.S. government bond interest. |
 | R-8 | Kansas has NO local/county income taxes. Only the state tax applies. |
@@ -174,7 +174,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Rule | Description |
 | --- | --- |
-| J-1 | Determine Social Security exemption eligibility when federal AGI is near the $75,000 threshold. |
+| J-1 | For pre-2024 amended returns, apply the historical $75,000 AGI cap on Social Security exemption. |
 | J-2 | Evaluate whether Kansas itemized deductions exceed the Kansas standard deduction, especially when federal SALT deductions differ. |
 | J-3 | Assess Kansas NOL carryforward interaction with federal NOL when there are differing modification histories. |
 | J-4 | Determine Kansas source income allocation for taxpayers with multi-state activity. |
@@ -189,7 +189,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Rental income (Schedule E) | Flows through federal AGI → Kansas AGI. Subject to state tax. |
 | Capital gains | Fully taxable at bracket rates. |
 | Interest / dividends | Taxable except U.S. government obligations (exempt). |
-| Social Security | Fully exempt if federal AGI ≤ $75,000. Taxable above $75,000. |
+| Social Security | Fully exempt (tax years 2024+). Pre-2024 years: exempt only if federal AGI ≤ $75,000. |
 | Retirement distributions | Generally taxable; KPERS contributions are exempt. |
 
 ## Section 8: Form mapping
@@ -219,7 +219,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | REF-KS-02 | Taxpayer has partnership or S-corp pass-through with Kansas K-1 modifications | Flag for reviewer. |
 | REF-KS-03 | Taxpayer claims Kansas Historic Preservation Credit or other complex credits | Flag for reviewer — separate forms required. |
 | REF-KS-04 | Taxpayer has farm income with Kansas-specific depreciation differences | Flag for reviewer. |
-| REF-KS-05 | Taxpayer has Social Security income and federal AGI is near the $75,000 exemption threshold | Flag for reviewer — cliff-effect determination needed. |
+| REF-KS-05 | Taxpayer is amending a pre-2024 return with Social Security income near the $75,000 AGI cap | Flag for reviewer — historical cap applies to those years only. |
 
 ## Disclaimer
 
