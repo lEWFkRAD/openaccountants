@@ -2,8 +2,9 @@
 name: bd-payroll-social
 description: "Source-cited draft: payroll & social contributions for Bangladesh (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BD
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,6 +25,31 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Gratuity** — Payable on termination of employment in addition to other dues, per the establishment's service rules  _(Bangladesh Labour Act 2006 (https://taxsummaries.pwc.com/bangladesh/corporate/other-taxes))_
 - **Withheld salary tax remittance deadline** — Deposited to the government treasury, generally within two weeks of the month of deduction (approx — confirm exact deposit timeline)  _(Income Tax Act 2023 (Bangladesh) (https://taxsummaries.pwc.com/bangladesh/corporate/tax-administration))_
 
+## Recomputing examples
+
+```oa-check
+name: BD provident fund on 100,000 BDT basic at 7% and 8%
+inputs:
+  basic: 100000
+steps:
+  - low: basic * 0.07
+  - high: basic * 0.08
+  - combined_high: high * 2
+expected:
+  low: 7000.00
+  high: 8000.00
+  combined_high: 16000.00
+```
+```oa-check
+name: BD WPPF 5% of 2,000,000 BDT net profit
+inputs:
+  profit: 2000000
+steps:
+  - wppf: profit * 0.05
+expected:
+  wppf: 100000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -41,3 +67,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Bangladesh Labour Act 2006
+- Income Tax Act 2023 (Bangladesh)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

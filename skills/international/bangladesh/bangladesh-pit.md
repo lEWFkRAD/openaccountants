@@ -1,10 +1,10 @@
 ---
 name: bangladesh-pit
 description: Use this skill whenever asked to prepare, review, or classify transactions for Bangladesh Personal Income Tax, annual return filing with NBR, or advise on Bangladeshi income tax slabs, exemptions, and investment rebates. Trigger on phrases like "আয়কর", "income tax Bangladesh", "NBR", "TIN", "salary tax BD", or any Bangladesh personal tax request. ALWAYS read this skill before touching any Bangladesh PIT work.
-version: 1.0
+version: "1.1"
 jurisdiction: BD
 tax_year: 2024
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -205,6 +205,33 @@ Rebate: 15% × 2,25,000 = ৳33,750
 *OpenAccountants — open-source accounting skills for AI*
 *This is not tax advice. All outputs must be reviewed by a qualified professional before filing.*
 
+## Recomputing examples
+
+```oa-check
+name: BD top personal rate 30% on 1,000,000 BDT (illustrative flat)
+inputs:
+  income: 1000000
+  threshold: 350000
+steps:
+  - taxable: income - threshold
+  - tax_at_30: taxable * 0.30
+expected:
+  taxable: 650000.00
+  tax_at_30: 195000.00
+```
+```oa-check
+name: BD threshold uplift: BDT 350,000 to BDT 375,000
+inputs:
+  old: 350000
+  new: 375000
+steps:
+  - uplift: new - old
+  - pct: uplift / old * 100
+expected:
+  uplift: 25000.00
+  pct: 7.14
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -222,3 +249,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Ordinance 1984 (Bangladesh) — https://nbr.gov.bd
+- eTAX portal — https://etaxnbr.gov.bd
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

@@ -2,8 +2,9 @@
 name: bd-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Bangladesh (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BD
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -34,6 +35,33 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Company return filing deadline** — 15th day of the 7th month after income-year end, or 15 September (whichever is later) ((approx — described as around mid-September for July-June filers; confirm exact rule))  _(Income Tax Act 2023 (Bangladesh) — https://taxsummaries.pwc.com/bangladesh/corporate/tax-administration)_
 - **Advance tax installments** — Four quarterly installments: 15 Sep, 15 Dec, 15 Mar, 15 Jun (required where latest assessed income exceeds the prescribed limit)  _(Income Tax Act 2023 (Bangladesh) — https://taxsummaries.pwc.com/bangladesh/corporate/tax-administration)_
 
+## Recomputing examples
+
+```oa-check
+name: BD non-listed company 1,000,000 BDT profit at 27.5% vs 25% banking-channel rate
+inputs:
+  profit: 1000000
+steps:
+  - standard: profit * 0.275
+  - banking: profit * 0.25
+  - saving: standard - banking
+expected:
+  standard: 275000.00
+  banking: 250000.00
+  saving: 25000.00
+```
+```oa-check
+name: BD listed company 1,000,000 BDT profit at 20% vs 22.5%
+inputs:
+  profit: 1000000
+steps:
+  - low: profit * 0.20
+  - high: profit * 0.225
+expected:
+  low: 200000.00
+  high: 225000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -51,3 +79,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Act 2023 (Bangladesh), as amended by Finance Ordinance 2025
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
