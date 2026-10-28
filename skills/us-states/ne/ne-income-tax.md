@@ -1,10 +1,10 @@
 ---
 name: ne-income-tax
 description: Use this skill whenever asked about Nebraska individual income tax for self-employed / sole proprietors. Trigger on phrases like "Nebraska income tax", "NE income tax", "Form 1040N", "Nebraska Department of Revenue", "NE self-employment tax".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-NE
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -82,7 +82,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Upcoming rate reductions
 
-**Upcoming rate reductions**  _(Neb. Rev. Stat. §77-2715.03)_
+**Upcoming rate reductions**  _(Neb. Rev. Stat. §77-2715.03; archived: US-NE-77-2715.03.html + US-NE-DOR-2025-tax-calc-schedule.pdf)_
 
 | Tax year | Bracket 3 rate | Bracket 4 (top) rate | Source |
 | --- | --- | --- | --- |
