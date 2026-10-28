@@ -2,6 +2,7 @@
 name: tn-sales-tax
 description: "Use this skill whenever asked about Tennessee sales tax, Tennessee use tax, Tennessee sales tax nexus, Tennessee sales tax returns, Tennessee exemption certificates, taxability of goods or services in Tennessee, or any request involving Tennessee state-level consumption taxes. Trigger on phrases like \"Tennessee sales tax\", \"TN sales tax\", \"Tennessee use tax\", \"Tennessee nexus\", \"T.C.A. 67-6\", \"Tennessee DOR sales tax\", or any request involving Tennessee sales and use tax filing, classification, or compliance. NOTE: Tennessee has NO state income tax, making sales tax revenue critical. Tennessee has among the HIGHEST combined sales tax rates in the US (up to 9.75%). ALWAYS read the parent us-sales-tax skill first for federal context."
 jurisdiction: US-TN
+version: "1.2"
 tax_year: 2026
 last_updated: 2026-10-28
 review_status: pending_review
@@ -336,6 +337,39 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 **Expected Answer:** The $90 shirt qualifies ($100 or less) and is exempt. The $120 boots do NOT qualify (exceeds $100 threshold) and are fully taxable.
 
+## Recomputing examples
+
+```oa-check
+name: TN single-article boat 50,000 at max local 2.75
+inputs:
+  price: 50000
+  local: 0.0275
+steps:
+  - state_tax: price * 0.07
+  - local_tax: min(price, 1600) * local
+  - state_single_article: min(max(price - 1600, 0), 1600) * 0.0275
+  - total: state_tax + local_tax + state_single_article
+expected:
+  state_tax: 3500.00
+  local_tax: 44.00
+  state_single_article: 44.00
+  total: 3588.00
+```
+
+```oa-check
+name: TN single article 1,500 (under both caps)
+inputs:
+  price: 1500
+  local: 0.0275
+steps:
+  - state_tax: price * 0.07
+  - local_tax: min(price, 1600) * local
+  - state_single_article: min(max(price - 1600, 0), 1600) * 0.0275
+  - total: state_tax + local_tax + state_single_article
+expected:
+  total: 146.25
+```
+
 ## Reviewer Escalation Protocol
 
 **Reviewer Escalation Protocol**
@@ -365,6 +399,14 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+- https://tntap.tn.gov (as_of: 2026-10-28)
+- https://openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com/connect (as_of: 2026-10-28)
+- https://www.openaccountants.com/network (as_of: 2026-10-28)
 
 ## Talk to a verified accountant
 

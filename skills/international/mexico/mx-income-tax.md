@@ -1,7 +1,7 @@
 ---
 name: mx-income-tax
 description: Use this skill whenever asked about Mexican individual income tax (ISR) for self-employed individuals (personas físicas con actividades empresariales y profesionales). Trigger on phrases like "how much tax do I pay in Mexico", "ISR", "Declaración Anual", "pagos provisionales", "actividades profesionales", "honorarios", "RESICO", "deducciones personales", "deducciones autorizadas", "retenciones", "RFC", "income tax return Mexico", "SAT", "CFDI honorarios", "comprobante fiscal", or any question about filing or computing income tax for a self-employed or freelance client in Mexico. This skill covers the Declaración Anual PF (Personas Físicas), pagos provisionales (monthly estimated payments), progressive ISR brackets, deducciones autorizadas and personales, retenciones on professional CFDI, and the RESICO regime. ALWAYS read this skill before touching any Mexican income tax work.
-version: 2.1
+version: "2.2"
 jurisdiction: MX
 tax_year: 2025
 last_updated: 2026-10-28
@@ -392,6 +392,37 @@ RESICO (MXN 1,500) significantly better → recommend RESICO (client must be for
 | T2-MX-5 | Vehicle expenses (deducción de automóvil) | Cars deductible up to MXN 175,000 purchase value; annual depreciation 25%; strict fuel rules | Flag — vehicle deduction calculations require SAT-compliant depreciation schedule |
 | T2-MX-6 | Prior-year tax losses (pérdidas fiscales) | Losses can offset income for up to 10 years with inflation adjustment | Flag — review prior-year declaraciones for carryforward losses |
 
+## Recomputing examples
+
+```oa-check
+name: MX RESICO annual 800,000 MXN
+inputs:
+  income: 800000
+steps:
+  - t1: min(income, 300000) * 0.01
+  - t2: max(min(income, 600000) - 300000, 0) * 0.011
+  - t3: max(min(income, 1000000) - 600000, 0) * 0.015
+  - tax: t1 + t2 + t3
+expected:
+  t1: 3000.00
+  t2: 3300.00
+  t3: 3000.00
+  tax: 9300.00
+```
+```oa-check
+name: MX RESICO annual 2,000,000 MXN
+inputs:
+  income: 2000000
+steps:
+  - t1: min(income, 300000) * 0.01
+  - t2: max(min(income, 600000) - 300000, 0) * 0.011
+  - t3: max(min(income, 1000000) - 600000, 0) * 0.015
+  - t4: max(income - 1000000, 0) * 0.02
+  - tax: t1 + t2 + t3 + t4
+expected:
+  tax: 32300.00
+```
+
 ## Section 7 — Excel Working Paper Template
 
 ```
@@ -547,6 +578,13 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+- https://openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com/connect (as_of: 2026-10-28)
+- https://www.openaccountants.com/network (as_of: 2026-10-28)
 
 ## Talk to a verified accountant
 

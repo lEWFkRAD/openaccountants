@@ -1,7 +1,7 @@
 ---
 name: tx-franchise-tax
 description: "Texas Franchise Tax for single-member LLCs and other taxable entities. Covers the 2026 report no-tax-due threshold ($2,650,000), discontinued Form 05-163 for report years 2024+, required PIR/OIR filing, E-Z computation rate (0.331%), standard computation, passive-entity filing path, and annual filing requirements. Primary source: Texas Comptroller and Texas Tax Code Chapter 171."
-version: 1.1
+version: "1.2"
 jurisdiction: US-TX
 tax_year: 2026
 last_updated: 2026-10-28
@@ -185,6 +185,34 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 - **P-5** — Do NOT classify an entity as retail/wholesale for the reduced rate unless >50% of revenue is from retail/wholesale activities.  _(unsure)_
 - **P-6** — Do NOT advise on whether to form or dissolve an LLC based on franchise tax implications. That is legal advice.  _(unsure)_
 
+## Recomputing examples
+
+```oa-check
+name: TX franchise EZ computation, revenue 5,000,000 fully apportioned to Texas
+inputs:
+  revenue: 5000000
+  factor: 1.0
+steps:
+  - under_ez_cap: clamp(20000000 - revenue, 0, 1)
+  - tax: revenue * factor * 0.00331
+expected:
+  tax: 16550.00
+```
+```oa-check
+name: TX franchise standard COGS method, retail, revenue 4,000,000 COGS 1,500,000
+inputs:
+  revenue: 4000000
+  cogs: 1500000
+steps:
+  - margin: revenue - cogs
+  - cap: revenue * 0.70
+  - taxable_margin: min(margin, cap)
+  - tax: taxable_margin * 0.00375
+expected:
+  taxable_margin: 2500000
+  tax: 9375.00
+```
+
 ## Section 8 -- Self-checks
 
 Before delivering output, verify:
@@ -208,6 +236,16 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+- https://comptroller.texas.gov/taxes/franchise/ (as_of: 2026-10-28)
+- https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php (as_of: 2026-10-28)
+- https://comptroller.texas.gov/taxes/franchise/ntd-rpt-updates-2024.php (as_of: 2026-10-28)
+- https://openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com/connect (as_of: 2026-10-28)
+- https://www.openaccountants.com/network (as_of: 2026-10-28)
 
 ## Talk to a verified accountant
 

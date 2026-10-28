@@ -1,7 +1,7 @@
 ---
 name: ne-income-tax
 description: Use this skill whenever asked about Nebraska individual income tax for self-employed / sole proprietors. Trigger on phrases like "Nebraska income tax", "NE income tax", "Form 1040N", "Nebraska Department of Revenue", "NE self-employment tax".
-version: "0.2"
+version: "0.3"
 jurisdiction: US-NE
 tax_year: 2025
 last_updated: 2026-10-28
@@ -228,6 +228,35 @@ Nebraska is one of six states with an inheritance tax (separate from estate tax)
 | Line 27 | Estimated tax payments | 1040N-ES payments |
 | Line 33 | Amount owed or refund | Computed |
 
+## Recomputing examples
+
+```oa-check
+name: NE 2025 single, taxable income 30,000
+inputs:
+  ti: 30000
+steps:
+  - b1: min(ti, 4030) * 0.0246
+  - b2: max(min(ti, 24120) - 4030, 0) * 0.0351
+  - b3: max(min(ti, 38870) - 24120, 0) * 0.0501
+  - b4: max(ti - 38870, 0) * 0.0520
+  - tax: b1 + b2 + b3 + b4
+expected:
+  tax: 1098.88
+```
+
+```oa-check
+name: NE 2025 married filing jointly, taxable income 70,000
+inputs:
+  ti: 70000
+steps:
+  - b1: min(ti, 8040) * 0.0246
+  - b2: max(min(ti, 48250) - 8040, 0) * 0.0351
+  - b3: max(ti - 48250, 0) * 0.0501
+  - tax: b1 + b2 + b3
+expected:
+  tax: 2698.83
+```
+
 ## Section 9: Refusal catalogue
 
 **Refusal catalogue table**
@@ -249,6 +278,15 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+- https://revenue.nebraska.gov (as_of: 2026-10-28)
+- https://revenue.nebraska.gov/individuals/individual-income-tax (as_of: 2026-10-28)
+- https://openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com/connect (as_of: 2026-10-28)
+- https://www.openaccountants.com/network (as_of: 2026-10-28)
 
 ## Talk to a verified accountant
 

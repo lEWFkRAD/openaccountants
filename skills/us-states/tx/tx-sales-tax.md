@@ -2,7 +2,7 @@
 name: tx-sales-use-tax
 description: >
   Texas Sales and Use Tax return (Form 01-114) for self-employed individuals and small businesses. Covers the 6.25% state rate, local tax add-ons (up to 2%), combined maximum of 8.25%, use tax, data processing services exemption under Section 151.351, and filing frequencies. Primary source: Texas Tax Code Chapter 151.
-version: 1.1
+version: "1.2"
 jurisdiction: US-TX
 tax_year: 2026
 tier: 2
@@ -200,6 +200,34 @@ Texas is destination-based: the local tax rate is determined by the location whe
 
 ---
 
+## Recomputing examples
+
+```oa-check
+name: TX sale 10,000 at combined 8.25 with timely plus prepayment discounts
+inputs:
+  sales: 10000
+  combined: 0.0825
+steps:
+  - tax: sales * combined
+  - timely_discount: tax * 0.005
+  - prepay_discount: tax * 0.0125
+  - net: tax - timely_discount - prepay_discount
+expected:
+  tax: 825.00
+  timely_discount: 4.13
+  prepay_discount: 10.31
+  net: 810.56
+```
+```oa-check
+name: TX use tax on 2,000 purchase at 8.25
+inputs:
+  price: 2000
+steps:
+  - use_tax: price * 0.0825
+expected:
+  use_tax: 165.00
+```
+
 ## Section 6 -- Test suite
 
 ### Test 1: Basic monthly return
@@ -261,3 +289,7 @@ Before delivering output, verify:
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://www.openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+## Sources
+
+- https://www.openaccountants.com (as_of: 2026-10-28)

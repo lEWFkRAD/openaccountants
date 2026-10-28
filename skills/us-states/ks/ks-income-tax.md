@@ -1,7 +1,7 @@
 ---
 name: ks-income-tax
 description: Use this skill whenever asked about Kansas individual income tax. Trigger on phrases like "Kansas income tax", "KS income tax", "K-40", "KDOR income tax", "K.S.A. 79-32,110". Kansas has a two-bracket progressive system (5.20%–5.58%) effective 2024+; Social Security is fully exempt for tax years 2024+ regardless of AGI (K.S.A. 79-32,117(a)(xviii)(B)). ALWAYS load us-tax-workflow-base first.
-version: "0.2"
+version: "0.3"
 jurisdiction: US-KS
 tax_year: 2026
 last_updated: 2026-10-28
@@ -209,6 +209,32 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Lines 14–20 | Payments and withholding | Various |
 | Line 23 | Balance due or refund | Computed |
 
+## Recomputing examples
+
+```oa-check
+name: KS 2025 single, taxable income 60,000
+inputs:
+  ti: 60000
+steps:
+  - b1: min(ti, 23000) * 0.052
+  - b2: max(ti - 23000, 0) * 0.0558
+  - tax: b1 + b2
+expected:
+  tax: 3260.60
+```
+
+```oa-check
+name: KS 2025 married filing jointly, taxable income 90,000
+inputs:
+  ti: 90000
+steps:
+  - b1: min(ti, 46000) * 0.052
+  - b2: max(ti - 46000, 0) * 0.0558
+  - tax: b1 + b2
+expected:
+  tax: 4847.20
+```
+
 ## Section 9: Refusal catalogue
 
 **Refusal catalogue table**
@@ -230,6 +256,19 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+- https://www.ksrevenue.gov/ (as_of: 2026-10-28)
+- https://www.kansas.gov/webfile/ (as_of: 2026-10-28)
+- https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_032_0000_article/079_032_0110_section/079_032_0110_k/> (as_of: 2026-10-28)
+- https://www.ksrevenue.gov/pdf/ip25.pdf> (as_of: 2026-10-28)
+- https://taxfoundation.org/location/kansas/> (as_of: 2026-10-28)
+- https://remotelaws.com/state-income-tax/us-states/kansas/> (as_of: 2026-10-28)
+- https://openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com/connect (as_of: 2026-10-28)
+- https://www.openaccountants.com/network (as_of: 2026-10-28)
 
 ## Talk to a verified accountant
 
