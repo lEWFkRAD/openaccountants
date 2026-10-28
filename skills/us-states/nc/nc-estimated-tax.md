@@ -3,7 +3,8 @@ name: nc-estimated-tax
 description: Use this skill whenever asked about North Carolina individual quarterly estimated income tax. Trigger on phrases like "NC estimated tax", "Form NC-40", "NC quarterly payments", "NC safe harbor", "Form D-422", "NC underpayment penalty", "do I need to make NC estimates".
 jurisdiction: US-NC
 tax_year: 2025
-last_updated: 2026-07-13
+version: "0.2"
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -63,19 +64,17 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Q3 | Jun 1 – Aug 31, 2025 | September 15, 2025 |
 | Q4 | Sep 1 – Dec 31, 2025 | January 15, 2026 |
 
-- **Jan 31 exception** — The January 15 (Q4) payment may be skipped if the full Form D-400 return is filed and the entire balance is paid by January 31, 2026.  _(NCDOR Estimated Income Tax page; G.S. § 105-163.15(d))_
+- **Jan 31 exception** — The January 15 (Q4) payment may be skipped if the full Form D-400 return is filed and the entire balance is paid by January 31, 2026.  _(NCDOR NC-40 Instructions, archived: "If you file your income tax return (Form D-400) by January 31 of the following year and pay the entire balance due, you do not have to make the payment which would otherwise be due on January 15."; G.S. § 105-163.15(d))_
 
 ### Threshold to require quarterly estimates
 
-- **Threshold requiring NC estimates** — $1,000 USD (Tax shown due on return, reduced by NC withholding and allowable tax credits, is $1,000 or more; applies regardless of how much income is non-wage.)  _(NCDOR NC-40 Instructions; G.S. § 105-163.15(a))_
-
-`[VERIFY:]` Some commentary suggests NC may treat the threshold as lower in specific transitional years. Current NCDOR guidance for 2025 and 2026 explicitly uses $1,000.
+- **Threshold requiring NC estimates** — $1,000 USD (Tax shown due on return, reduced by NC withholding and allowable tax credits, is $1,000 or more; applies regardless of how much income is non-wage.)  _(NCDOR NC-40 Instructions, archived: "You should make estimated income tax payments if the tax due on your individual tax return, reduced by the amount of tax withheld and tax credits, will be $1,000 or more."; G.S. § 105-163.15(a))_
 
 ### Safe harbor (no underpayment interest)
 
-- **Safe harbor calculation** — Combined withholding plus timely estimated payments must equal at least the smaller of: 1. 90% of current-year tax, OR 2. 100% of prior-year tax (prior year must cover a full 12 months), OR 3. 110% of prior-year tax if prior-year NC AGI > $150,000 ($75,000 if MFS).  _(NCDOR NC-40 Instructions; G.S. § 105-163.15(c))_
+- **Safe harbor calculation** — Interest is not due if each installment is timely and equals 25% of the lesser of: (a) 90% of the tax due on the current year's return (66⅔% for farmers and fishermen), (b) 100% of the tax due on the previous year's return (if the prior year was a 12-month taxable year and a return was filed), or (c) 90% of the tax figured by annualizing income up to the installment month. No underpayment interest if there was no tax liability for the previous year.  _(NCDOR Form NC-40 Instructions, archived: "Interest will not be due if each installment payment is timely and equals twenty-five percent (25%) of the lesser of: (a) 90% (66 2/3% for farmers and fishermen) of the tax due on your current year's return; (b) 100% of the tax due on your previous year's return... or (c) 90% of the tax figured by annualizing the taxable income received during the year up to the month in which the installment is due."; G.S. § 105-163.15(c))_
 
-`[VERIFY:]` Confirm the 110% high-income variant remains in effect for TY 2025 — NCDOR mirrors the federal § 6654 structure, and the LegalClarity summary explicitly confirms the $150,000/$75,000 thresholds, but the statute text should be read alongside any annual NCDOR memo.
+NC's archived NC-40 instructions do NOT contain a federal-style 110%/AGI>$150,000 high-income tier — the earlier claim of an 110% variant was wrong for NC.
 
 ### Flat tax rates (use for projecting current-year liability)
 

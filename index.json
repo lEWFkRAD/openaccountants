@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:55:56+00:00",
+ "generated_at": "2026-10-28T21:14:13+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -27028,7 +27028,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-income-tax",
@@ -27040,7 +27040,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-payroll",
@@ -27052,7 +27052,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-return-assembly",
@@ -27064,7 +27064,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "nc-sales-tax",
