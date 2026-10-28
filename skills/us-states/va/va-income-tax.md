@@ -1,10 +1,10 @@
 ---
 name: va-income-tax
 description: Use this skill whenever asked about Virginia individual income tax, Virginia Form 760, Virginia graduated tax rates, Virginia self-employment income tax at the state level, Virginia standard deduction, or any Virginia personal income tax question for sole proprietors. Trigger on phrases like "Virginia income tax", "VA income tax", "Form 760", "Virginia tax brackets", "Virginia 5.75%", "Virginia standard deduction", or any request involving Virginia state individual income tax computation or filing.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-VA
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -77,7 +77,7 @@ Form 760 line numbers are from the 2025 return.
 | Over $5,000, not over $17,000 | $120 plus 5% of the excess over $5,000 |
 | Over $17,000 | $720 plus 5.75% of the excess over $17,000 |
 
-Source: Va. Code § 58.1-320 ("Five and three-quarters percent on income in excess of $17,000 for taxable years beginning on and after January 1, 1990"), https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-320/ , and the rate schedule in the 2025 instructions and 2026 Form 760ES. The official example: taxable income of $90,000 gives $4,917.50, rounded to $4,918.
+Source: Va. Code § 58.1-320 ("Five and three-quarters percent on income in excess of $17,000 for taxable years beginning on and after January 1, 1990"), https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-320/ (archived 2026-10-28 as `US-VA-section58.1-320.html`), and the rate schedule in the 2025 instructions and 2026 Form 760ES. The official example: taxable income of $90,000 gives $4,917.50, rounded to $4,918.
 
 ### Standard deduction (only if the client did not itemize federally) ([§ 58.1-322.03](https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-322.03/))
 
@@ -92,7 +92,7 @@ Source: Va. Code § 58.1-320 ("Five and three-quarters percent on income in exce
 - A person who can be claimed as a dependent on another return may take the standard deduction "only with respect to earned income": the smaller of earned income or the standard deduction.
 - **Sunset: check before planning 2027.** The 2025 instructions say the increase "is scheduled to sunset after Taxable Year 2026" and revert to $3,000 / $6,000. The Code section as now published (Va. Code § 58.1-322.03, amended in the 2026 Special Session I) instead sets the 2027 to 2029 amounts above and reverts only from 2030. Treat 2027+ amounts as statute text until the 2027 forms confirm them.
 
-Sources: https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-322.03/ ; 2025 instructions, Line 11.
+Sources: https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-322.03/ (archived 2026-10-28 as `US-VA-section58.1-322.03.html`; the Code as published sets "(v) ... $8,750 for single individuals and $17,500 for married persons" for 2025–2026, "$9,200 ... $18,400" for 2027, "$9,300 ... $18,600" for 2028–2029, and reverts to "$3,000 ... $6,000" for years beginning on and after January 1, 2030); 2025 instructions, Line 11.
 
 ### Exemptions and the age deduction ([§ 58.1-322.03](https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-322.03/))
 
@@ -216,7 +216,7 @@ All are hypothetical full-year residents with no additions or subtractions unles
 | Tax to pay by the original due date | Balance of the tax, with Form 760IP or online | Same |
 | Taxpayers outside the U.S. on the due date | July 1, 2026 | July 1, 2027 (Va. Code § 58.1-344 D) |
 
-- **Extension:** no application needed, but it extends filing, not payment. Pay at least 90% of the tax by May 1. If the balance paid late is more than 10% of the tax, an extension penalty of 2% per month or part month applies from the due date to the filing date, up to 12%.
+- **Extension:** no application needed, but it extends filing, not payment. Pay at least 90% of the tax by May 1. If the balance paid late is more than 10% of the tax, an extension penalty of 2% per month or part month applies from the due date to the filing date, up to 12%. Va. Code § 58.1-344 (archived 2026-10-28 as `US-VA-section58.1-344.html`) grants the extension "to the date six months after such due date," requires the full estimated balance by the original due date, assesses interest on any underestimate, and adds "a penalty ... equal to two percent per month" when "the underestimation of the balance of tax due exceeds 10 percent of the actual tax liability."
 - **Late payment:** 6% per month or part month from filing to payment, up to 30%.
 - **Late filing:** a return filed more than six months after the due date gets no extension; the late filing penalty is 30% of the tax due.
 - **Fraud or failure to file with intent to evade:** an additional penalty of 100% of the correct tax.
