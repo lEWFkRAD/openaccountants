@@ -2,14 +2,14 @@
 name: ne-payroll
 description: >
   Use this skill whenever asked about Nebraska payroll withholding for
-  2026 — employer income-tax withholding under Revenue Act § 77-3513, the
+  2026 — employer income-tax withholding under Revenue Act § 77-2753, the
   Department of Revenue withholding rails, the annual Income Tax
-  Withholding Circular (Circular EN, 2026 and 2027 editions verified),
-  and pass-through entity withholding rails. Trigger on "Nebraska
-  withholding", "941-N", "Circular EN", "Nebraska W-2", "Nebraska
-  employer withholding". Source-cited draft; withholding page, § 77-3513
-  and the Circular EN 2026/2027 PDFs verified 2026-10-28; form IDs and
-  deposit frequencies needs-sources (circular text not parsed).
+  Withholding Circular (Circular EN 2026, parsed and archived), and
+  pass-through entity withholding rails. Trigger on "Nebraska
+  withholding", "941N", "Circular EN", "Nebraska W-2", "Nebraska
+  employer withholding". Corrected 2026-10-28 against archived official
+  sources: § 77-2753 (not § 77-3513 — that is the homestead-notice
+  statute), Circular EN 2026 full text, DOR withholding forms index.
 jurisdiction: US-NE
 category: payroll
 tax_year: 2026
@@ -21,77 +21,80 @@ depends_on:
   - ne-income-tax
 ---
 
-# Nebraska payroll withholding v0.1
+# Nebraska payroll withholding v0.2
 
 > **General reference only.** General reference for AI-assisted workflows; not client-specific advice.
 
 ## 1. Scope and sources
 
-Employer income-tax withholding for Nebraska wages. **Source status:** verified 2026-10-28 — the DOR withholding page (https://revenue.nebraska.gov/businesses/income-tax-withholding, fetched, 200), the withholding forms index (https://revenue.nebraska.gov/about/forms/income-tax-withholding-forms, fetched, 200), statute **§ 77-3513** (fetched), and the official **Circular EN PDFs for 2026 and 2027** (https://revenue.nebraska.gov/sites/default/files/doc/forms/2026cir_en_whole.pdf, .../2027cir_en_whole.pdf — existence verified). The **withholding return form ID (941-N is the conventional number — confirm) and deposit-frequency thresholds live inside Circular EN, not parsed this run — needs-sources**.
+Employer income-tax withholding for Nebraska wages. **Source status:** corrected 2026-10-28 against archived official sources — statute **§ 77-2753** ("Income tax; withholding from wages and other payments", `SRC-US-NE-77-2753`), the full **2026 Circular EN** PDF (`SRC-US-NE-DOR-circular-en-2026.pdf`), and the DOR withholding forms index. **Correction:** the previous draft cited § 77-3513 as the withholding statute — that is wrong; § 77-3513 is the homestead-exemption notice statute. The withholding rail is §§ 77-2753 to 77-2756.
 
 ## 2. Who applies
 
-Every employer paying Nebraska wages (residents and nonresidents working in Nebraska), per § 77-3513 (statute verified reachable). PTE-level rails where the entity elects the PTE tax (see `ne-corporate-income-tax.md`).
+Every employer/payor maintaining an office or transacting business in Nebraska and paying wages (or pensions, annuities, gambling winnings and other § 77-2753(6) payments) taxable under the Revenue Act must withhold, including for nonresident employees working in Nebraska (§ 77-2753(1)(a), `SRC-US-NE-77-2753`). Registration: Form 20. PTE-level rails where the entity elects the PTE tax (see `ne-corporate-income-tax.md`).
 
 ## 3. Rates / tables
 
-Withholding follows the individual graduated schedule (2026 top rate 5.5% expected — see `ne-income-tax.md`; confirm against Circular EN — **needs-sources**).
+Withholding follows the individual graduated schedule via Circular EN **percentage-method tables (Tables 1–8)** and wage-bracket tables. For 2026 the top **withholding** marginal rate is **4.60%** (weekly single over $1,449: $56.18 + 4.60%) — the 4.60% is the statutory withholding approximation rate, not the legal rate (legal TY2026 top rate is 4.55%, § 77-2715.03). **Special withholding rate for supplemental/gambling payments: 1.5%** (DOR withholding forms page + Circular EN). Employee adjustments: Form W-4N.
 
 ## 4. Base
 
-Wages, pensions, and statutory categories per Circular EN (not parsed — **needs-sources**).
+Wages, pensions, annuities, and gambling winnings per Circular EN 2026 (parsed; tables archived).
 
 ## 5. Deadlines, penalties, interest
 
-- Withholding return cadence and W-2 annual filing: per Circular EN — **needs-sources**.
-- Penalty/interest percentages: **needs-sources**.
+- **Quarterly return Form 941N:** due last day of the month following quarter end; filed even for zero-withholding quarters (Circular EN 2026).
+- **Monthly deposits:** required if more than **$500** withheld in a month (2nd-month test includes 1st-month totals); deposit due by the **15th** of the following month; transmittal Form 501N (check payments only).
+- **Annual filers** (licensed): single Form 941N due **January 31**.
+- **Annual reconciliation Form W-3N** with W-2/W-2G/1099 copies: due **January 31, 2027** for TY2026 (DOR withholding forms page).
+- **E-file mandate:** >50 information returns must be e-filed; penalty **$2/form up to $2,000** for non-compliance (Circular EN 2026). **E-pay mandate:** electronic payment required if prior-year withholding payments exceeded **$5,000**.
 
 ## 6. Cross-border notes
 
-Nonresident workers: Nebraska taxes workday-sourced wages; withholding applies regardless of residence (verify sourcing rule detail — **needs-sources**). Reciprocity: none located — **needs-sources**.
+Nonresident workers: withholding applies to Nebraska-taxable wages regardless of residence (§ 77-2753(1)(a)); nonresident remittance rails for partnership income at § 77-2727(4). Reciprocity: none located — **needs-sources**.
 
 ## 7. Worked examples
 
-**Example 1 — quarterly remittance.** Q1 Nebraska wages $100,000, effective withheld rate 5%:
+**Example 1 — quarterly remittance.** Q1 Nebraska wages $100,000, effective withheld rate 4.6% (2026 top withholding bracket):
 
 ```oa-check
 name: NE quarterly withholding
 inputs:
   wages: 100000
-  eff_rate: 0.05
+  eff_rate: 0.046
 steps:
   - withheld: wages * eff_rate
 expected:
-  withheld: 5000.00
+  withheld: 4600.00
 ```
 
-**Example 2 — annual true-up sketch.** Employer remitted $18,400 across four quarters; annual W-2-based liability $19,150:
+**Example 2 — monthly deposit trigger.** Withheld in March: $480 (month 1 of Q1), $610 (month 2):
 
 ```oa-check
-name: NE annual true-up
+name: NE monthly deposit test
 inputs:
-  remitted: 18400
-  liability: 19150
+  m2: 610
+  over_threshold: 1
 steps:
-  - balance_due: liability - remitted
+  - m2_deposit: m2 * over_threshold
 expected:
-  balance_due: 750.00
+  m2_deposit: 610
 ```
 
 ## 8. Ask the client
 
-- Is the payroll system loaded with the current-year Circular EN tables?
+- Is the payroll system loaded with the current-year Circular EN tables (2026 tables apply through 2026-12-31; 2027 Circular EN replaces all tables from 2027-01-01)?
 - Remote workers performing days in Nebraska?
 - PTE tax election — does withholding posture change at the entity level?
 
 ## 9. Sources
 
-1. DOR Income Tax Withholding: https://revenue.nebraska.gov/businesses/income-tax-withholding — fetched and verified 2026-10-28.
-2. Circular EN 2026: https://revenue.nebraska.gov/sites/default/files/doc/forms/2026cir_en_whole.pdf — existence verified 2026-10-28.
-3. Circular EN 2027: https://revenue.nebraska.gov/sites/default/files/doc/forms/2027cir_en_whole.pdf — existence verified 2026-10-28.
-4. § 77-3513: https://nebraskalegislature.gov/laws/statutes.php?statute=77-3513 — fetched 2026-10-28.
+1. **Neb. Rev. Stat. § 77-2753** (withholding duty; method per Tax Commissioner rules): archived `SRC-US-NE-77-2753`, fetched 2026-10-28.
+2. **2026 Circular EN** (full PDF: tables, deposit rules, e-file/e-pay mandates, $2/form penalty): https://revenue.nebraska.gov/sites/default/files/doc/business/Cir_En_2025/2026cir_en_whole.pdf — archived `SRC-US-NE-DOR-circular-en-2026.pdf`.
+3. DOR Income Tax Withholding page (Circular EN 2027 notice, 1.5% special rate, W-3N due 01/31/2027): https://revenue.nebraska.gov/businesses/nebraska-income-tax-withholding.
+4. DOR Income Tax Withholding Forms index (Form 941N, W-3N): https://revenue.nebraska.gov/about/forms/income-tax-withholding-forms.
 
-**Needs-sources:** form IDs (941-N, W-2 NE box), deposit frequency, penalty/interest, Circular EN table figures, sourcing/reciprocity detail.
+**Needs-sources:** withholding penalty/interest percentages (beyond the e-file penalty); reciprocity; § 77-2756 employer withholding-for-tax mechanics detail.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Nebraska payroll questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
