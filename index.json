@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:41:58+00:00",
+ "generated_at": "2026-10-28T20:42:41+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -17584,7 +17584,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "pe-cross-border-tax",
@@ -17596,7 +17596,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "pe-tax-overview",
@@ -17632,7 +17632,7 @@
    "verified_by": null,
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "peru-income-tax",
@@ -17644,7 +17644,7 @@
    "verified_by": null,
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "peru-payroll",
