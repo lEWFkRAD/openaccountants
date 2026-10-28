@@ -3,7 +3,8 @@ name: bb-income-tax
 description: Use this skill whenever asked about Barbados personal income tax, NIS contributions, or payroll obligations. Trigger on phrases like "how much tax do I pay in Barbados", "BRA", "Barbados Revenue Authority", "TAMIS", "PAYE Barbados", "NIS contributions", "National Insurance Barbados", "self-employed tax Barbados", "Reverse Tax Credit", "quarterly prepayments", "PIT return", "VAT registration Barbados", or any question about filing or computing income tax for a resident, non-resident, employed, or self-employed individual in Barbados. Also trigger when computing NIS contributions, applying personal allowances, checking filing deadlines, or advising on the Barbados Reverse Tax Credit. This skill covers PIT brackets, NIS rates, personal allowances, PAYE, self-assessment, quarterly prepayments, VAT registration thresholds, penalties, and withholding taxes. ALWAYS read this skill before touching any Barbados income tax or payroll work.
 jurisdiction: BB
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: 0.2
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -34,7 +35,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### PIT Rate Brackets (effective 1 January 2020; confirmed current as of 11 January 2026)
 
-**PIT Rate Brackets**  _(Source: PwC Worldwide Tax Summaries — Barbados Individual, https://taxsummaries.pwc.com/barbados/individual/taxes-on-personal-income)_
+**PIT Rate Brackets**  _(Source: PwC Worldwide Tax Summaries — Barbados Individual, https://taxsummaries.pwc.com/barbados/individual/taxes-on-personal-income. The archived Income Tax Act Cap. 73 (L.R.O. 2007) text layer is two-column garbled: s.42 "Rates of tax for individuals" is indexed but its bracket figures (and the 25,000/40,000/3,000 allowances) do not appear in the extractable text — the archive corroborates the statutory architecture (Division S, ss.42–46E) but not the amounts.)_
 
 | Taxable Income (BBD) | Rate | Cumulative Tax at Top of Band |
 | --- | --- | --- |
