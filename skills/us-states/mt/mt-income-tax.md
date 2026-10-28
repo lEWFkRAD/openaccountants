@@ -1,10 +1,10 @@
 ---
 name: mt-income-tax
 description: Use this skill whenever asked about Montana individual income tax for self-employed persons, sole proprietors, or single-member LLCs. Trigger on phrases like "Montana income tax", "MT income tax", "Form 2", "Montana DOR", "MCA 15-30-2103".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-MT
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -133,7 +133,7 @@ Montana ordinary income is all taxable income that is not a net long-term capita
 
 ### Montana earned income tax credit ([2025 Form 2 instructions, line 15](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf); [HB 337, DOR](https://revenue.mt.gov/news/recent-news/HB-337))
 
-- **2025:** 10% of the federal EITC, refundable. The full 10% applies only to a full-year resident who is neither:
+- **2025:** 10% of the federal EITC, refundable (2025 Form 2 instructions, line 15: "a Montana earned income tax credit (EITC) of 10 percent of the federal EITC"). The full 10% applies only to a full-year resident who is neither:
   - an enrolled tribal member living on their tribe's reservation, nor
   - a member of an IRC 501(d) agricultural organization.
 - **Nonresidents do not qualify.** The 2025 instructions say: "Nonresidents do not qualify for the Montana EITC. ... If you are a nonresident, leave this line blank."
