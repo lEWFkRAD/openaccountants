@@ -3,7 +3,8 @@ name: gy-vat-gst
 description: "Source-cited draft: vat / gst for Guyana (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: GY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: 0.2
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -17,8 +18,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Standard VAT rate** — 14 percent  _(Value-Added Tax Act 2005 (https://gra.gov.gy/vat-registration/))_
 - **Zero rate** — 0 percent (On specified supplies (e.g. exports and certain basic items))  _(Value-Added Tax Act 2005 — Schedule of zero-rated supplies (https://gra.gov.gy/vat-registration/))_
 - **Exempt supplies** — Certain supplies are exempt (no VAT charged, no input credit) — e.g. specified financial, education, medical and residential supplies (approx — confirm)  _(Value-Added Tax Act 2005 — Schedule of exempt supplies (https://taxsummaries.pwc.com/guyana/corporate/other-taxes))_
-- **Compulsory registration threshold** — 15000000 GYD (Of taxable activity over 12 months (or expected to exceed within a shorter period))  _(Value-Added Tax Act 2005 (https://gra.gov.gy/vat-registration/))_
-- **Voluntary registration** — Available to persons below the G$15,000,000 threshold  _(Value-Added Tax Act 2005 (https://gra.gov.gy/vat-registration/))_
+- **Compulsory registration threshold** — 15000000 GYD (Of taxable activity over 12 months (or expected to exceed within a shorter period))  _(Value-Added Tax Act 2005 — GRA VAT registration page (archived 2026-10-28): "Where the taxable activity equals or exceeds the threshold of Fifteen Million Guyana Dollars (G$15,000,000.00) at the end of twelve (12) months, or where the taxable activity exceeds the threshold in less than 12 months, the person carrying on the taxable activity MUST register for VAT")_
+- **Voluntary registration** — Available to persons below the G$15,000,000 threshold  _(Value-Added Tax Act 2005 — GRA VAT registration page (archived 2026-10-28): "If your taxable turnover is below the G$15,000,000.00 threshold, you may apply for Voluntary Registration")_
 - **Filing frequency** — Monthly — VAT return and payment due by the 21st day of the month following the tax period  _(Value-Added Tax Act 2005 (https://gra.gov.gy/vat-registration/))_
 - **Input tax credit** — Registered persons may credit VAT paid on business inputs against output VAT (subject to documentation and exclusions) (approx — confirm)  _(Value-Added Tax Act 2005 (https://taxdo.com/resources/blog/post/guyana-vat-act-guide-global-businesses))_
 - **Reverse charge on imported services** — Recipients of certain imported services must self-account for VAT (reverse charge) where the supplier is non-resident (approx — confirm)  _(Value-Added Tax Act 2005 (https://taxdo.com/resources/blog/post/guyana-vat-act-guide-global-businesses))_

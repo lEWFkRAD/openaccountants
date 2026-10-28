@@ -3,7 +3,8 @@ name: gy-income-tax
 description: "Source-cited draft: personal income tax for Guyana (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: GY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: 0.2
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -14,9 +15,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Personal income tax rates and bands
 
-- **First band rate** — 25% on the first G$3,120,000 of chargeable income per year percent (Budget 2025 cut entry rate and raised threshold)  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://www.gra.gov.gy/income-tax-rates-threshold/)_
-- **Top band rate** — 35% on chargeable income exceeding G$3,120,000 per year percent  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://www.gra.gov.gy/income-tax-rates-threshold/)_
-- **Personal allowance / tax-free threshold** — G$130,000 per month (G$1,560,000 per year) or one-third of income, whichever is greater GYD  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://www.gra.gov.gy/notice-to-employers-employees-self-employed-persons-revised-personal-allowance-and-deductions-for-income-tax-2025-copy/)_
+- **First band rate** — 25% on the first G$3,120,000 of chargeable income per year percent (Budget 2025 cut entry rate and raised threshold) ((discrepancy — the archived GRA rates page (captured 2026-10-28) shows the scale only through 2024: 28% on the first G$2,040,000 / 40% on the balance for 2023–2024, with no 2025 row; the 25%/35% figures rest on the Budget 2025 announcement, not the archived page))  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://www.gra.gov.gy/income-tax-rates-threshold/ (archived 2026-10-28))_
+- **Top band rate** — 35% on chargeable income exceeding G$3,120,000 per year percent  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://www.gra.gov.gy/income-tax-rates-threshold/ (archived 2026-10-28; archive shows 40% top rate through 2024))_
+- **Personal allowance / tax-free threshold** — G$130,000 per month (G$1,560,000 per year) or one-third of income, whichever is greater GYD. The archived GRA table shows the allowance at G$1,020,000/year for 2023–2024 (G$85,000/month) and its last band split at 28%/40% on G$2,040,000; the G$1,560,000 (G$130,000/month) figure and the 25%/35% scale are the Budget 2025 changes, not yet reflected in the archived table.  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://www.gra.gov.gy/notice-to-employers-employees-self-employed-persons-revised-personal-allowance-and-deductions-for-income-tax-2025-copy/; GRA rates table (archived 2026-10-28))_
 - **Monthly first-band ceiling (25% applies up to)** — G$260,000 of chargeable income per month GYD  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://www.gra.gov.gy/income-tax-rates-threshold/)_
 - **Overtime relief** — First G$50,000 of monthly overtime pay is tax-free GYD  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://dpi.gov.gy/income-tax-threshold-increased-to-130000/)_
 - **Second-job relief** — First G$50,000 of monthly income from a second job is tax-free GYD  _(Income Tax Act (Cap 81:01) / Budget 2025 — https://dpi.gov.gy/income-tax-threshold-increased-to-130000/)_
