@@ -2,8 +2,9 @@
 name: ga-company-formation
 description: "Source-cited draft: company formation & entity choice for Gabon (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: GA
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -31,6 +32,34 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual tax compliance** — File CIT return by 30 April, monthly VAT and payroll declarations, plus business license/patente  _(Code Général des Impôts (Gabon) — https://taxsummaries.pwc.com/gabon/corporate/tax-administration)_
 - **Business license tax (patente)** — Annual business license tax, indicatively XAF 15,000–540,000 depending on activity and location XAF ((approx — confirm)) XAF (approx — confirm)  _(Code Général des Impôts (Gabon) — Contribution des patentes — https://taxsummaries.pwc.com/gabon/corporate/other-taxes)_
 
+## Recomputing examples
+
+```oa-check
+name: GA share-capital tiers XAF 100,000 / 1,000,000 / 10,000,000
+inputs:
+  a: 100000
+  b: 1000000
+  c: 10000000
+steps:
+  - b_over_a: b / a
+  - c_over_b: c / b
+expected:
+  b_over_a: 10.00
+  c_over_b: 10.00
+```
+```oa-check
+name: GA XAF 15,000 registration fee vs XAF 200,000 notary-style cost comparison
+inputs:
+  lo: 15000
+  hi: 200000
+steps:
+  - gap: hi - lo
+  - ratio: hi / lo
+expected:
+  gap: 185000.00
+  ratio: 13.33
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -48,3 +77,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Act on Commercial Companies and Economic Interest Groups (AUSCGIE) (Gabon)
+- Act on Accounting Law (SYSCOHADA) (Gabon)
+- Code Général des Impôts (Gabon), Contribution des patentes
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

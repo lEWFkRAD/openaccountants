@@ -2,8 +2,9 @@
 name: ga-tax-overview
 description: "Source-cited draft: tax overview for Gabon (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: GA
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +28,27 @@ Gabon is a Central African (CEMAC) state that taxes on a largely territorial/sou
 - **Annual CIT return filing deadline** — 30 April of the year following the tax year  _(Code Général des Impôts (Gabon) — https://taxsummaries.pwc.com/gabon/corporate/tax-administration)_
 - **Minimum corporate tax (Minimum de Perception)** — XAF 500,000 minimum annual CIT, even with no profit XAF ((approx — confirm; some guides cite XAF 1,000,000)) XAF  _(Code Général des Impôts (Gabon) — Minimum de Perception — https://taxsummaries.pwc.com/gabon/corporate/taxes-on-corporate-income)_
 
+## Recomputing examples
+
+```oa-check
+name: GA CIT 30% on 100,000,000 XAF profit
+inputs:
+  profit: 100000000
+steps:
+  - cit: profit * 0.30
+expected:
+  cit: 30000000.00
+```
+```oa-check
+name: GA VAT 18% on 50,000,000 XAF supply
+inputs:
+  supply: 50000000
+steps:
+  - vat: supply * 0.18
+expected:
+  vat: 9000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -44,3 +66,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code Général des Impôts (Gabon), IRPP / Impôt sur les Sociétés / TVA
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

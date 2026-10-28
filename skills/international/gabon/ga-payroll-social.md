@@ -2,8 +2,9 @@
 name: ga-payroll-social
 description: "Source-cited draft: payroll & social contributions for Gabon (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: GA
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,39 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Complementary salary tax (TCTS) withholding** — 5% on salary above XAF 150,000/month, withheld by employer %  _(Code Général des Impôts (Gabon) — TCTS https://taxsummaries.pwc.com/gabon/individual/taxes-on-personal-income)_
 - **Payroll withholding remittance deadline** — Withheld IRPP/TCTS and social contributions remitted monthly, generally by the 15th of the following month ((approx — confirm exact due day))  _(Code Général des Impôts (Gabon); Code de la Sécurité Sociale (Gabon) https://taxsummaries.pwc.com/gabon/corporate/tax-administration)_
 
+## Recomputing examples
+
+```oa-check
+name: GA employer CNSS+CNAMGS ~20.1% on 1,000,000 XAF salary
+inputs:
+  salary: 1000000
+steps:
+  - family: salary * 0.08
+  - injury: salary * 0.03
+  - retire: salary * 0.05
+  - health: salary * 0.041
+  - total: family + injury + retire + health
+expected:
+  family: 80000.00
+  injury: 30000.00
+  retire: 50000.00
+  health: 41000.00
+  total: 201000.00
+```
+```oa-check
+name: GA employee 4.5% (2.5% CNSS + 2% CNAMGS) on 1,000,000 XAF; TCTS 5% above XAF 150,000
+inputs:
+  salary: 1000000
+steps:
+  - cnss: salary * 0.025
+  - cnamgs: salary * 0.02
+  - tcts: (salary - 150000) * 0.05
+expected:
+  cnss: 25000.00
+  cnamgs: 20000.00
+  tcts: 42500.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -45,3 +79,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Code de la Sécurité Sociale (Gabon), CNSS
+- CNAMGS (Gabon)
+- Code Général des Impôts (Gabon), TCTS
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
