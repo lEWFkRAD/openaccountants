@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:43:21+00:00",
+ "generated_at": "2026-10-28T20:43:56+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -7972,7 +7972,7 @@
    "verified_by": null,
    "reviewed_by": "Miguel Lantigua",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "do-customs",
@@ -8140,7 +8140,7 @@
    "verified_by": null,
    "reviewed_by": "Miguel Lantigua",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "dominican-republic-itbis",
@@ -8152,7 +8152,7 @@
    "verified_by": null,
    "reviewed_by": "Miguel Lantigua",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "dominican-republic-payroll",
