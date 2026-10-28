@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:22:28+00:00",
+ "generated_at": "2026-10-28T20:22:57+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -28252,7 +28252,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-06-12"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "wa-bo-tax",
@@ -28264,7 +28264,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "wa-business-occupation-tax",
@@ -28276,7 +28276,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "wa-sales-tax",
@@ -28288,7 +28288,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "washington-sales-tax",
@@ -28300,7 +28300,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "wi-corporate-income-tax",
