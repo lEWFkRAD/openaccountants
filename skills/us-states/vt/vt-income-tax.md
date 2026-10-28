@@ -1,10 +1,10 @@
 ---
 name: vt-income-tax
 description: Use this skill whenever asked about Vermont individual income tax, Vermont Form IN-111, Vermont graduated tax rates, Vermont self-employment income tax at the state level, Vermont earned income tax credit, or any Vermont personal income tax question for sole proprietors. Trigger on phrases like "Vermont income tax", "VT income tax", "Form IN-111", "Vermont tax brackets", "Vermont 8.75%", "32 V.S.A. Chapter 151", or any request involving Vermont state individual income tax computation or filing.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-VT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -49,6 +49,10 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 4 | Tax Foundation — Vermont profile | https://taxfoundation.org/location/vermont/ |
 
 ## Section 2: Quick reference — rates and thresholds
+
+### Statutory base brackets (32 V.S.A. §5822, archived 2026-10-28)
+
+The statute's own schedule amounts (before inflation indexing) are: single — 3.35% to $51,850; 6.6% to $133,850; 7.6% to $216,700; 8.75% above (tax of $1,737 + 6.6% over $51,850, etc.); married joint — 3.35% to $64,600; 6.6% to $156,150; 7.6% to $237,950; 8.75% above; head of household — $38,700 / $93,700 / $195,450 breakpoints. The DTR publishes indexed tables each year ([Rate Schedules and Tables](https://tax.vermont.gov/individuals/tax-rate-schedules-and-tables)).
 
 ### Tax brackets — Single filers (2025 and 2026)
 
