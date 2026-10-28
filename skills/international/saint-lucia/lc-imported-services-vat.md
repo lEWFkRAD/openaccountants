@@ -6,8 +6,8 @@ jurisdiction: LC
 category: international
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-22
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
@@ -31,7 +31,7 @@ Where import tax is payable, [section 28(1)–(2)](https://attorneygeneralchambe
 
 ## Conditional calculation
 
-Assume an overseas service has been established as taxable at the standard rate, its value excluding VAT is EC$10,000, and the recipient is liable under the above provisions. At the [section 10](https://attorneygeneralchambers.com/laws-of-saint-lucia/value-added-tax-act/section-10) rate of 12.5%, VAT is EC$1,250. This example assumes the taxable value; it does not determine valuation for related parties or VAT-inclusive contracts.
+Assume an overseas service has been established as taxable at the standard rate, its value excluding VAT is EC$10,000, and the recipient is liable under the above provisions. At the [section 10](https://attorneygeneralchambers.com/laws-of-saint-lucia/value-added-tax-act/section-10) rate of 12.5% — the archived section 10(1) text (2026-10-28) applies the rate to "taxable goods or services imported into Saint Lucia" — VAT is EC$1,250. This example assumes the taxable value; it does not determine valuation for related parties or VAT-inclusive contracts.
 
 An illustrative nonregistered business cannot conclude that no import VAT is due merely because its own turnover is EC$200,000. The import rules require their own review. Do not assume a matching input credit without establishing entitlement.
 
