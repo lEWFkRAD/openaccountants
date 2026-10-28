@@ -8,7 +8,6 @@ tax_year: 2026
 tier: 2
 last_updated: 2026-10-28
 version: 0.2
-last_updated: 2026-10-28
 verified_by: pending
 ---
 
