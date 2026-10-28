@@ -1,10 +1,10 @@
 ---
 name: belgium-financial-statements
 description: Use this skill when preparing, reviewing, or advising on annual financial statements (jaarrekening / comptes annuels) for a Belgian company. Trigger on phrases like "jaarrekening", "comptes annuels Belgique", "NBB deposit", "Nationale Bank", "Banque Nationale de Belgique", "BNB", "Belgian GAAP", "Code des sociétés et associations", "WVV", "audit Belgium", "commissaris", "verkort schema", "volledig schema", or any question about preparing and filing statutory accounts under Belgian company law. Covers Belgian GAAP frameworks, size thresholds, required statements, formats, notes, filing deadlines, and audit requirements.
-version: 1.0
+version: 1.1
 jurisdiction: BE
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -279,6 +279,47 @@ SCHULDEN (Liabilities)
 ## Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
+
+## Worked examples
+
+```oa-check
+name: BE NBB size-class test — small vs medium turnover ceilings EUR 900,000 / 11,250,000
+inputs:
+  turnover: 5000000
+  micro_ceiling: 900000
+  medium_ceiling: 11250000
+steps:
+  - above_micro: turnover - micro_ceiling
+  - below_medium: medium_ceiling - turnover
+expected:
+  above_micro: 4100000.00
+  below_medium: 6250000.00
+```
+
+```oa-check
+name: BE late NBB filing surcharge months 8-10 (120/240/360, then 600 capped 1,200)
+inputs:
+  m8: 120
+  m9: 240
+  m10: 360
+  later: 600
+  cap: 1200
+steps:
+  - first_three: m8 + m9 + m10
+  - later_capped: min(later, cap)
+expected:
+  first_three: 720.00
+  later_capped: 600.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| National Bank of Belgium (NBB) / Banque-carrefour filing rules (cited inline) | https://www.nbb.be | 2026-10-28 |
+| Code des Societes et des Associations (CSA) (cited inline) | https://www.ejustice.just.fgov.be/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

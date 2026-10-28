@@ -1,10 +1,10 @@
 ---
 name: belgium-einvoice
 description: Use this skill whenever asked about e-invoicing in Belgium, Peppol B2B mandate, Mercurius platform for B2G, Hermes platform, EN 16931 Belgium, Peppol BIS Billing 3.0 Belgium, structured electronic invoices, Belgian VAT e-invoicing, Peppol Access Points, or any question about issuing, transmitting, validating, or archiving electronic invoices under Belgian law. Trigger on phrases like "Peppol Belgium", "e-invoicing Belgium 2026", "Mercurius", "Hermes platform", "B2B e-invoice Belgium", "structured invoice Belgium", "Belgian VAT Code invoicing", "Peppol BIS", "UBL Belgium", or "e-facturatie". ALWAYS read this skill before touching any Belgium invoicing compliance work.
-version: 1.0
+version: 1.1
 jurisdiction: BE
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -300,6 +300,43 @@ Invoice data from Peppol invoices feeds into corporate tax computations. FPS Fin
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
+
+## Worked examples
+
+```oa-check
+name: BE e-invoice fines escalation 1,500 / 3,000 / 5,000 EUR across three infringements
+inputs:
+  first: 1500
+  second: 3000
+  third: 5000
+steps:
+  - total_three: first + second + third
+expected:
+  total_three: 9500.00
+```
+
+```oa-check
+name: BE VAT rate check on EUR 1,000 net — standard 21% vs reduced 6%
+inputs:
+  net: 1000
+steps:
+  - standard: net * 0.21
+  - reduced: net * 0.06
+  - difference: standard - reduced
+expected:
+  standard: 210.00
+  reduced: 60.00
+  difference: 150.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Belgian VAT Code invoicing rules (cited inline) | https://finances.belgium.be | 2026-10-28 |
+| Peppol / Mercurius / Hermes platforms (cited inline) | https://www.peppol.be | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 
