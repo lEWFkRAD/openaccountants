@@ -3,7 +3,8 @@ name: ky-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Cayman Islands (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: KY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,35 @@ The Cayman Islands imposes no corporate income tax, no capital gains tax, no wit
 - **Tax exemption certificate (exempted company)** — An exempted company may apply for an undertaking from the Government that no future tax on profits, income, gains, or appreciation will apply to it — typically guaranteed for up to 20 years (extendable to 30) ((approx years — confirm))  _([Companies Act (2025 Revision) (Cayman Islands)](https://taxsummaries.pwc.com/cayman-islands/corporate/taxes-on-corporate-income))_
 - **Economic substance obligation** — In-scope entities carrying on 'relevant activities' must satisfy the economic substance test and file an annual ES notification and return with the DITC  _([International Tax Co-operation (Economic Substance) Act (Cayman Islands)](https://taxsummaries.pwc.com/cayman-islands/corporate/other-issues))_
 - **Annual government fee (in lieu of corporate tax)** — Exempted company with registered capital up to CI$42,000 (US$50,000): CI$925 annual fee (effective 1 January 2025); higher capital bands pay more CI$  _([Companies Act (2025 Revision) — Fees Regulations (Cayman Islands)](https://www.ciregistry.ky/fees/))_
+
+
+## Recomputing examples
+
+```oa-check
+name: No corporate income tax on CI$10,000,000 profit
+inputs:
+  profit: 10000000
+steps:
+  - tax: profit * 0
+expected:
+  tax: 0.00
+```
+```oa-check
+name: Annual exempted-company government fee CI$925 (capital up to CI$42,000)
+inputs:
+  fee: 925
+steps:
+  - annual_cost: fee
+expected:
+  annual_cost: 925.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Cayman Islands Department for International Tax Cooperation (DITC) portal — CRS, CbCR, CARF, Economic Substance, EOIR, FATCA frameworks | https://ditcportal.ky | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

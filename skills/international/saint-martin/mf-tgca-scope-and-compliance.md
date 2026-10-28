@@ -2,10 +2,10 @@
 name: mf-tgca-scope-and-compliance
 description: >
   French Saint-Martin TGCA reference for businesses supplying goods and services, using the territorial tax code consolidated through June 2026. Covers local supply tests, imports, documented stock purchases, the Dutch-side export exclusion, ordinary and qualifying housing rates, collection timing, registration and periodic returns. Includes mechanical calculation examples and annual-tax filing boundaries. Distinguishes French Saint-Martin from Sint Maarten and identifies foreign-supplier registration evidence. Sector exemptions, special taxable bases, penalties and later amendments require separate verification before filing. This source-cited draft is not comprehensive country coverage or professional attestation.
-version: 0.2
+version: "0.3"
 jurisdiction: MF
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -84,6 +84,37 @@ The supplier owes TGCA on taxable supplies. A taxable customer receiving goods/s
 Source-cited draft awaiting independent source and professional review. This Guide does not cover all local taxes, import duties, housing eligibility, penalties or appeals and is not individualized filing advice.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: TGCA on a EUR 10,000 local supply at a 1% illustrative rate
+inputs:
+  supply: 10000
+  rate_pct: 1
+steps:
+  - tgca: supply * rate_pct / 100
+expected:
+  tgca: 100.00
+```
+```oa-check
+name: TGCA on a EUR 10,000 local supply at a 5% illustrative rate
+inputs:
+  supply: 10000
+  rate_pct: 5
+steps:
+  - tgca: supply * rate_pct / 100
+expected:
+  tgca: 500.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Centre des Finances Publiques de Saint-Martin (impots-saint-martin.fr) — TGCA, IS and DLCP declaration forms; bank-transfer-only payment from 1 Jan 2026; Deliberation CT 36-02-2025 (tax rates and schedules) | https://www.impots-saint-martin.fr | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

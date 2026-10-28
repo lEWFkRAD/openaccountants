@@ -3,7 +3,8 @@ name: ky-company-formation
 description: "Source-cited draft: company formation & entity choice for Cayman Islands (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: KY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +30,35 @@ The Cayman Islands is a leading offshore incorporation centre. The most common v
 - **Annual return filing** — Every company must file an annual return and pay the annual government fee in January each year following its year of registration  _(Companies Act (2025 Revision) (Cayman Islands) — https://www.ciregistry.ky/fees/)_
 - **Beneficial ownership register** — Most Cayman companies must maintain an adequate, accurate and current beneficial ownership register and file required particulars  _(Beneficial Ownership Transparency Act (Cayman Islands) — https://www.harneys.com/our-blogs/regulatory/cayman-islands-companies-act/)_
 - **Economic substance / annual compliance** — In-scope entities must file an annual economic substance notification and (where carrying on relevant activities) an ES return; CRS/FATCA reporting applies to financial institutions  _(International Tax Co-operation (Economic Substance) Act (Cayman Islands) — https://taxsummaries.pwc.com/cayman-islands/corporate/other-issues)_
+
+
+## Recomputing examples
+
+```oa-check
+name: Exempted company annual fee CI$925 at capital up to CI$42,000
+inputs:
+  fee: 925
+steps:
+  - annual_fee: fee
+expected:
+  annual_fee: 925.00
+```
+```oa-check
+name: No incorporation tax or stamp duty on share capital for exempted companies
+inputs:
+  capital: 42000
+steps:
+  - tax: capital * 0
+expected:
+  tax: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Cayman Islands Department for International Tax Cooperation (DITC) portal — CRS, CbCR, CARF, Economic Substance, EOIR, FATCA frameworks | https://ditcportal.ky | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

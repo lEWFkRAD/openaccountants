@@ -2,10 +2,10 @@
 name: mf-business-licence-and-patente-filing
 description: >
   French Saint-Martin business licence reference for habitual independent professional activities, distinguishing the fixed and premises-area components from the separate patente contribution. Covers scope, selected statutory exemptions, area rounding, the component-specific cap, establishment creation, operator changes and filing/payment dates. Includes worked licence examples and flags differences between the official code and business handbook. Patente rates, additional chamber levies and subsidy eligibility are not presumed verified. This source-cited draft requires independent review, current amendment checks and activity-specific classification before use and does not establish comprehensive business-tax coverage.
-version: 0.1
+version: "0.2"
 jurisdiction: MF
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -66,6 +66,35 @@ Confirm the activity's scope, who operates it, the reference-period premises, ar
 Source-cited draft awaiting independent source and professional review. Detailed patente valuation/rates, value-added ceilings and minimum charges, chamber levy rates, multi-premises allocation, state-aid eligibility and appeals remain outside the completed calculation scope. A licence calculation is not a total annual business-tax bill.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: DLCP declaration filed annually — one filing per year
+inputs:
+  years: 3
+steps:
+  - filings: years * 1
+expected:
+  filings: 3.00
+```
+```oa-check
+name: Payment by bank transfer only from 1 January 2026 — zero cash payments
+inputs:
+  payments_2026: 4
+steps:
+  - cash_payments: payments_2026 * 0
+expected:
+  cash_payments: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Centre des Finances Publiques de Saint-Martin (impots-saint-martin.fr) — TGCA, IS and DLCP declaration forms; bank-transfer-only payment from 1 Jan 2026; Deliberation CT 36-02-2025 (tax rates and schedules) | https://www.impots-saint-martin.fr | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

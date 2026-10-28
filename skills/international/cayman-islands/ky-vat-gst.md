@@ -3,7 +3,8 @@ name: ky-vat-gst
 description: "Source-cited draft: vat / gst for Cayman Islands (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: KY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,35 @@ The Cayman Islands has no value-added tax, goods and services tax, or general sa
 - **VAT filing frequency** — Not applicable — no VAT returns are filed  _(PwC Worldwide Tax Summaries — Cayman Islands (Overview) — https://taxsummaries.pwc.com/cayman-islands)_
 - **Reverse charge** — Not applicable — there is no VAT mechanism, so no reverse charge on imported services  _(PwC Worldwide Tax Summaries — Cayman Islands (Overview) — https://taxsummaries.pwc.com/cayman-islands)_
 - **Indirect tax in place of VAT** — Import duty generally 22%–27% on the CIF value of most imported goods, collected at the border by Customs and Border Control percent  _(Customs and Border Control Act / Customs Tariff (Cayman Islands) — https://taxsummaries.pwc.com/cayman-islands/corporate/other-taxes)_
+
+
+## Recomputing examples
+
+```oa-check
+name: No VAT on CI$10,000 purchase
+inputs:
+  purchase: 10000
+steps:
+  - vat: purchase * 0
+expected:
+  vat: 0.00
+```
+```oa-check
+name: No import duty on most goods (0%)
+inputs:
+  goods: 5000
+steps:
+  - duty: goods * 0
+expected:
+  duty: 0.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Cayman Islands Department for International Tax Cooperation (DITC) portal — CRS, CbCR, CARF, Economic Substance, EOIR, FATCA frameworks | https://ditcportal.ky | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

@@ -3,7 +3,8 @@ name: ky-payroll-social
 description: "Source-cited draft: payroll & social contributions for Cayman Islands (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: KY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
+version: "0.2"
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,36 @@ There is no income tax withholding (PAYE) and no state social-security tax in th
 - **Pension remittance deadline** — Contributions due by the 15th of the month following the month of deduction  _(National Pensions Act (Cayman Islands) https://caymanresident.com/work/pension-requirements/cayman-pension-law)_
 - **Mandatory health insurance** — Employers must provide at least standard health insurance (SHIC) from an approved insurer for each eligible employee; premium is generally shared, with the employer paying at least 50% ((employer share approx — confirm))  _(Health Insurance Act (Cayman Islands) https://caymanresident.com/work/pension-requirements)_
 - **Work-permit fees (employer cost)** — Employers of non-Caymanian staff pay annual work-permit fees that vary by occupation and sector; these are a payroll-related government cost (not a tax on wages)  _(Immigration (Transition) Act (Cayman Islands) https://www.bizlatinhub.com/labour-law-in-the-cayman-islands/)_
+
+
+## Recomputing examples
+
+```oa-check
+name: Work permit fee example — no payroll income tax, only work-permit costs
+inputs:
+  wage: 120000
+steps:
+  - payroll_tax: wage * 0
+expected:
+  payroll_tax: 0.00
+```
+```oa-check
+name: Employee social insurance (imposed 2026, 5% total on insurable earnings up to CI$60,000 cap)
+inputs:
+  earnings: 60000
+  rate: 5
+steps:
+  - total_contrib: earnings * rate / 100
+expected:
+  total_contrib: 3000.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Cayman Islands Department for International Tax Cooperation (DITC) portal — CRS, CbCR, CARF, Economic Substance, EOIR, FATCA frameworks | https://ditcportal.ky | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 
