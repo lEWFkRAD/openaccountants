@@ -62,14 +62,14 @@ No Kansas UI filing calendar is confirmed in this skill. The quarterly report an
 
 ## Worked examples
 
-The base and rate in these examples are **illustrative placeholders**, not the confirmed Kansas 2026 figures (see Not yet confirmed). They show the mechanics: contributions run on wages up to the per-employee base, times the employer's rate.
+The base and rate in these examples are **hypothetical figures**, not the confirmed Kansas 2026 figures (see Not yet confirmed). They show the mechanics: contributions run on wages up to the per-employee base, times the employer's rate.
 
 ### Example 1: single-employee UI cost
 
-One employee earns $180,000 of Kansas wages. With an illustrative base of $15,000 and an illustrative experience rate of 2.1%, taxable wages are capped at $15,000 and the UI contribution is $315.
+One employee earns $180,000 of Kansas wages. With a hypothetical base of $15,000 and a hypothetical experience rate of 2.1%, taxable wages are capped at $15,000 and the UI contribution is $315.
 
 ```oa-check
-name: KS UI employer contribution (illustrative)
+name: KS UI employer contribution (hypothetical figures)
 inputs:
   wages: 180000
   base: 15000

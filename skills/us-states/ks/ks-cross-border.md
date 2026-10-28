@@ -39,7 +39,7 @@ See also: `ks-income-tax`, `ks-payroll`, `ks-corporate-income-tax`.
 
 | Item | Rate or amount | Tax year | Source |
 |---|---|---|---|
-| Resident and nonresident rates | 5.20% / 5.58% two-bracket schedule (break at $23,000; $46,000 married filing jointly) | 2026 | [K.S.A. 79-32,110](https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_032_0000_article/079_032_0110_section/079_032_0110_k/); see `ks-income-tax` |
+| Resident and nonresident rates | 5.20% / 5.58% two-bracket schedule (break at $23,000; $46,000 married filing jointly) | 2026 | [K.S.A. 79-32,110](https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html); see `ks-income-tax` |
 
 ## The taxable base
 
@@ -68,7 +68,7 @@ The nonresident base and allocation, the credit for taxes paid to other states, 
 
 ## Worked examples
 
-Both examples assume a resident credit for tax paid to the other state, capped at the crediting state's tax on the same income. That credit mechanism is not yet confirmed for Kansas; the tax amounts are illustrative.
+Both examples assume a resident credit for tax paid to the other state, capped at the crediting state's tax on the same income. That credit mechanism is not yet confirmed for Kansas; the tax amounts are hypothetical figures showing the mechanics only.
 
 ### Example 1: Kansas resident commuting to Missouri
 
@@ -120,7 +120,7 @@ expected:
 | Source | URL | Read on |
 |---|---|---|
 | KDOR Withholding (residence-based withholding, nonresident rule) | https://www.ksrevenue.gov/bustaxtypeswh.html | 2026-10-28 |
-| K.S.A. 79-32,110 (individual rates) | https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_032_0000_article/079_032_0110_section/079_032_0110_k/ | 2026-10-28 |
+| K.S.A. 79-32,110 (individual rates) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html | 2026-10-28 |
 | KDOR 2025 individual income tax booklet (due dates) | https://www.ksrevenue.gov/incomebook25.html | 2026-10-28 |
 
 Not yet confirmed: K-40PN vs K-40 + Schedule S Part B form routing for nonresidents (K.S.A. 79-32,150 page at kslegislature.org/li served only a JS shell); the nonresident base and Schedule S Part B allocation detail; part-year allocation detail; the statute, cap and ordering of the resident credit for taxes paid to other states; that Kansas has no reciprocity agreement with Missouri, Nebraska, Oklahoma, Colorado or any other state; that Kansas imposes no exit or departure tax; whether KDOR honours the federal extension for individuals; the individual late-filing and late-payment penalty tiers under K.S.A. 79-32; military residence-retention (MMRA) treatment in Kansas.
