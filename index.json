@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:28:00+00:00",
+ "generated_at": "2026-10-28T20:28:56+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -25684,7 +25684,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ia-cross-border",
@@ -25696,7 +25696,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ia-income-tax",
@@ -25708,7 +25708,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ia-payroll-withholding",
@@ -25720,7 +25720,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ia-sales-tax",
@@ -25732,7 +25732,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ia-social-contributions",
@@ -25744,7 +25744,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ia-transfer-pricing",
@@ -25756,7 +25756,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "id-income-tax",
