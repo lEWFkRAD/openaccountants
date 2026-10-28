@@ -2,8 +2,9 @@
 name: bh-tax-overview
 description: "Source-cited draft: tax overview for Bahrain (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BH
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,27 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Residence basis of taxation** — No general residence-based income tax; individuals are not taxed on income. DMTT applies by reference to constituent entities located in Bahrain.  _(Domestic Minimum Top-up Tax Law (Decree-Law No. 11 of 2024))_
 - **Main recurring filing deadline (VAT)** — VAT return due within the last day of the month following the end of each tax period ((approx - confirm exact day))  _(VAT Law (Decree-Law No. 48 of 2018) and Executive Regulations)_
 
+## Recomputing examples
+
+```oa-check
+name: BH oil/gas 46% on 1,000,000 BHD profit
+inputs:
+  profit: 1000000
+steps:
+  - tax: profit * 0.46
+expected:
+  tax: 460000.00
+```
+```oa-check
+name: BH VAT 10% on 20,000 BHD supply
+inputs:
+  supply: 20000
+steps:
+  - vat: supply * 0.10
+expected:
+  vat: 2000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -43,3 +65,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Amiri Decree No. 22 of 1979 (Bahrain)
+- Domestic Minimum Top-up Tax Law (Decree-Law No. 11 of 2024) (Bahrain)
+- VAT Law (Decree-Law No. 48 of 2018) (Bahrain) — https://www.nbr.gov.bh
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

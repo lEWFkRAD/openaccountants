@@ -2,8 +2,9 @@
 name: bh-income-tax
 description: "Use this skill whenever asked about Bahrain personal income tax for individuals or the self-employed. Trigger on phrases like \"how much income tax do I pay in Bahrain\", \"Bahrain personal income tax\", \"self-employed tax Bahrain\", \"do I file a tax return in Bahrain\", \"income tax return Bahrain\", \"tax on salary Bahrain\", \"freelancer tax Bahrain\", \"sole trader tax Bahrain\", or any question about computing or filing personal income tax in the Kingdom of Bahrain. CRITICAL: Bahrain has NO personal income tax regime — no brackets, no rates, no PIT returns, no PIT deadlines. This skill exists to state that clearly and to redirect the user to what actually applies to individuals and the self-employed: Social Insurance (SIO) contributions, the expatriate End-of-Service Benefit (EOSB) funded scheme, VAT at 10% for business/self-employed turnover, the Wage Protection System (WPS), and corporate-level taxes (DMTT / hydrocarbon). ALWAYS read this skill before touching any Bahrain \"income tax\" work."
 jurisdiction: BH
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -540,6 +541,30 @@ This skill and its outputs are provided for informational and computational purp
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
+## Recomputing examples
+
+```oa-check
+name: BH end-of-service: 21 days x 1000 BHD monthly salary
+inputs:
+  salary: 1000
+  days: 21
+steps:
+  - first_years: salary / 30 * days
+expected:
+  first_years: 700.00
+```
+```oa-check
+name: BH VAT 10% on 5,000 BHD vs 5% historic on same spend
+inputs:
+  spend: 5000
+steps:
+  - now: spend * 0.10
+  - old: spend * 0.05
+expected:
+  now: 500.00
+  old: 250.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -557,3 +582,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Labour Market Regulatory Authority (LMRA) — https://www.lmra.gov.bh
+- Social Insurance Organization — https://www.sio.gov.bh
+- National Bureau for Revenue — https://www.nbr.gov.bh
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

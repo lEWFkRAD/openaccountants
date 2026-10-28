@@ -2,8 +2,9 @@
 name: bh-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Bahrain (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BH
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +30,30 @@ Bahrain has no general corporate income tax. Only two regimes impose direct tax 
 - **DMTT registration** — In-scope constituent entities must register with the NBR  _([Domestic Minimum Top-up Tax Law (Decree-Law No. 11 of 2024)](https://orbitax.com/news/country/article/Bahrain-Updates-Guidance-on-Do-60865))_
 - **DMTT payment for 2025** — Payable in instalments, including advance payments during the 2025 fiscal year ((approx - confirm instalment dates with NBR guidance))  _(Domestic Minimum Top-up Tax Law (Decree-Law No. 11 of 2024))_
 
+## Recomputing examples
+
+```oa-check
+name: BH oil/gas 46% on 1,000,000 BHD net profit vs 15% DMTT on same base
+inputs:
+  profit: 1000000
+steps:
+  - oil: profit * 0.46
+  - dmtt: profit * 0.15
+expected:
+  oil: 460000.00
+  dmtt: 150000.00
+```
+```oa-check
+name: BH EUR 750,000 revenue threshold vs EUR 10,000,000 MNE threshold ratio
+inputs:
+  small: 750000
+  large: 10000000
+steps:
+  - ratio: large / small
+expected:
+  ratio: 13.33
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -46,3 +71,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Amiri Decree No. 22 of 1979 (Bahrain, income tax on oil companies)
+- Domestic Minimum Top-up Tax Law (Decree-Law No. 11 of 2024) (Bahrain)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

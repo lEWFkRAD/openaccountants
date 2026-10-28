@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:37:46+00:00",
+ "generated_at": "2026-10-28T21:37:49+00:00",
  "counts": {
   "guides": 2523,
   "jurisdictions": 274,
@@ -4012,7 +4012,7 @@
    "verified_by": null,
    "reviewed_by": "Mehran Habib",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-company-formation",
@@ -4024,7 +4024,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-corporate-income-tax",
@@ -4036,7 +4036,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-income-tax",
@@ -4048,7 +4048,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-payroll-social",
@@ -4060,7 +4060,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bh-tax-overview",
@@ -4072,7 +4072,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bangladesh-pit",
