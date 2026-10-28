@@ -1,10 +1,10 @@
 ---
 name: gl-payroll-ama
 description: Prepare Greenland employer registration, monthly withholding and 2026 AMA working papers with separate reporting and payment dates.
-version: 0.1
+version: "0.2"
 jurisdiction: GL
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -56,6 +56,35 @@ This draft does not calculate employee residence, tax-card allowances, pensions,
 Retain the applicable source version, calculation inputs, reconciliations and unresolved classifications. A qualified local reviewer must check the actual facts and current law before filing or payment. No professional attestation is claimed.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: Employer AMA 1.9% on DKK 100,000 monthly base (2026)
+inputs:
+  base: 100000
+steps:
+  - ama: base * 0.019
+expected:
+  ama: 1900.00
+```
+```oa-check
+name: If the suspended 2025 supplement applied, 2.1% on DKK 100,000
+inputs:
+  base: 100000
+steps:
+  - ama_2025: base * 0.021
+expected:
+  ama_2025: 2100.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Selvstyre/Skattestyrelsen — Arbejdsgiverregistret (monthly A-indkomst, A-skat and AMA reporting and payment via sulinal.nanoq.gl) | https://www.nanoq.gl/erhverv/arbejdsgiverregistret | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 

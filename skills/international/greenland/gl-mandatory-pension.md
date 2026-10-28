@@ -1,10 +1,10 @@
 ---
 name: gl-mandatory-pension
 description: Calculate a bounded 2026 Greenland mandatory pension minimum using the 2025 consolidation together with the May 2026 amendment.
-version: 0.1
+version: "0.2"
 jurisdiction: GL
 tax_year: 2026
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 authored_by: Ryan Duguid
 review_status: pending_review
 trust_label: Accountant-authored
@@ -51,6 +51,36 @@ Foreign-scheme permissions, mixed employment/self-employment income, precise sta
 Retain the applicable source version, calculation inputs, reconciliations and unresolved classifications. A qualified local reviewer must check the actual facts and current law before filing or payment. No professional attestation is claimed.
 
 > Contributed by Ryan Duguid.
+
+
+## Recomputing examples
+
+```oa-check
+name: Self-employment mandatory pension 6% on DKK 100,000 profit
+inputs:
+  profit: 100000
+steps:
+  - contribution: profit * 0.06
+expected:
+  contribution: 6000.00
+```
+```oa-check
+name: Annual obligation ceases at DKK 200,000 contributions
+inputs:
+  already_paid: 180000
+  required: 200000
+steps:
+  - remaining: max(required - already_paid, 0)
+expected:
+  remaining: 20000.00
+```
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Selvstyre/Skattestyrelsen — Arbejdsgiverregistret (pension contributions reported monthly via the employer register) | https://www.nanoq.gl/erhverv/arbejdsgiverregistret | 2026-10-28 |
+
 
 <!-- openaccountants-cta-block -->
 
