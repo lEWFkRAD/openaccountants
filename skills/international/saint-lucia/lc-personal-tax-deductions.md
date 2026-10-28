@@ -6,8 +6,8 @@ jurisdiction: LC
 category: international
 tax_year: 2025
 tier: 2
-last_updated: 2026-10-22
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
@@ -23,7 +23,7 @@ Act 2, section 4 replaces Income Tax Act section 44(4). From 1 January 2025 the 
 
 The cap is not an automatic EC$40,000 deduction and is not the personal allowance. First establish each claim, then apply individual limits, then the combined cap. [Act 2, section 4, printed pages 10–11](https://npc.govt.lc/laws/download/UjVlcXRvZTd3RG93ODVaQ0tsbWNwV3hnRmd5R0lYY1crUTlXU0pTZ1Rrd0dWZTlvdmdwK3lVYk1zYUlwcVNnT3NqYk9Pc09icmd0Vks5RDVLeVFXdG9JMFc1alI4NTNLRjRiWDJuV29sQVk9).
 
-[Section 44(1)–(3) of the principal Act](https://attorneygeneralchambers.com/laws-of-saint-lucia/income-tax-act/section-44) requires a claim and supporting evidence and limits concessions to remaining assessable income after the specified earlier deductions. The page's old subsection (4) must be replaced by the 2026 amendment.
+[Section 44(1)–(3) of the principal Act](https://attorneygeneralchambers.com/laws-of-saint-lucia/income-tax-act/section-44) (archived 2026-10-28) requires a claim and supporting evidence and limits concessions to remaining assessable income after the specified earlier deductions. The archived Revised Laws (2023) page still shows the pre-amendment subsection (4) — an aggregate cap of **$30,000** effective 1 January 2023, with personal allowance, medical expenses and, for income years 2023–2025 only, solar photovoltaic expenditure excluded from the cap (inserted by Act 21 of 2022, substituted by Act 19 of 2023). That page's old subsection (4) must be replaced by the 2026 amendment's EC$40,000 cap.
 
 ## Selected changed claims
 

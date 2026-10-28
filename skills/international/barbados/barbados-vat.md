@@ -1,10 +1,10 @@
 ---
 name: barbados-vat
 description: Use this skill whenever asked to prepare, review, or classify transactions for a Barbados VAT return for any client. Trigger on phrases like "Barbados VAT", "BRA filing", "Barbados Revenue Authority", or any request involving Barbados VAT. MUST be loaded alongside vat-workflow-base v0.1 or later. ALWAYS read this skill before touching any Barbados VAT work.
-version: 2.0
+last_updated: 2026-10-28
+version: 2.1
 jurisdiction: BB
 tax_year: 2025
-last_updated: 2026-07-13
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -36,6 +36,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 - **Standard rate** — 17.5%
 - **Reduced rate** — 7.5% (hotel accommodation)
+- **Telecommunications rate** — 22%  _(BRA "VAT Rates" page (archived 2026-10-28): "22% - VAT on telecommunications services")_
 - **Zero rate** — 0% (exports, basic food items, prescription drugs)
 - **Exempt** — Financial services, residential rent, education, medical, insurance
 - **Return form** — VAT return (bimonthly)
@@ -44,7 +45,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Currency** — BBD (Barbados Dollar, pegged 2:1 to USD)
 - **Filing frequency** — Bimonthly
 - **Deadline** — 21st of the month following the bimonthly period
-- **Registration threshold** — BBD 200,000 annual turnover
+- **Registration threshold** — BBD 200,000 annual turnover  _(BRA "VAT Rates" page (archived 2026-10-28): VAT Threshold table — Annually $200,000 / Monthly $16,667, effective January 1, 2016 to present)_
 - **Companion skill** — vat-workflow-base v0.1 or later — MUST be loaded
 - **Validated by** — Pending local practitioner validation
 

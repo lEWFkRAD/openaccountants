@@ -1,10 +1,10 @@
 ---
 name: peru-igv
 description: Use this skill whenever asked to prepare, review, or classify transactions for a Peru IGV (Impuesto General a las Ventas) return or advise on Peruvian VAT registration, filing, and SUNAT compliance. Trigger on phrases like "prepare IGV return Peru", "Peruvian VAT", "IGV Peru", "SUNAT", "RUC", or any Peru IGV request. ALWAYS read this skill before touching any Peru IGV work.
-version: 2.0
+version: 2.1
 jurisdiction: PE
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 reviewed_by: A licensed accountant (name withheld at their request)
 review_status: current
 trust_label: Checked by a licensed accountant (name withheld at their request)

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:17:12+00:00",
+ "generated_at": "2026-10-28T21:17:13+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -2548,7 +2548,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ag-medical-benefits",
@@ -2824,7 +2824,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "aw-cross-border-tax",
@@ -2848,7 +2848,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "aw-payroll-withholding",
@@ -3808,7 +3808,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bs-cross-border",
@@ -4144,7 +4144,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bb-company-formation",
@@ -4192,7 +4192,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bb-payroll-social",
@@ -4816,7 +4816,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-24"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bolivia-income-tax",
@@ -4840,7 +4840,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bolivia-payroll",
@@ -5080,7 +5080,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-24"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "br-cross-border",
@@ -5116,7 +5116,7 @@
    "verified_by": null,
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "br-indirect-tax",
@@ -5152,7 +5152,7 @@
    "verified_by": null,
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "br-social-contributions",
@@ -5284,7 +5284,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "vg-tax-overview",
@@ -5296,7 +5296,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "vg-transfer-pricing",
@@ -5320,7 +5320,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "bn-company-formation",
@@ -6784,7 +6784,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "cl-social-contributions",
@@ -7024,7 +7024,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "co-cross-border",
@@ -7048,7 +7048,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": null,
-   "last_updated": "2026-06-12"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "co-payroll-withholding",
@@ -7120,7 +7120,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "formalizing-small-informal-businesses-in-colombia",
@@ -7180,7 +7180,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "costa-rica-iva",
@@ -7192,7 +7192,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "costa-rica-payroll",
@@ -7240,7 +7240,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-24"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "cr-cross-border",
@@ -7864,7 +7864,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "dm-cross-border",
@@ -7888,7 +7888,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "dm-social-contributions",
@@ -7924,7 +7924,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "do-asset-tax",
@@ -7972,7 +7972,7 @@
    "verified_by": null,
    "reviewed_by": "Miguel Lantigua",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "do-customs",
@@ -8140,7 +8140,7 @@
    "verified_by": null,
    "reviewed_by": "Miguel Lantigua",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "dominican-republic-itbis",
@@ -8152,7 +8152,7 @@
    "verified_by": null,
    "reviewed_by": "Miguel Lantigua",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "dominican-republic-payroll",
@@ -8284,7 +8284,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ec-cross-border",
@@ -8332,7 +8332,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ecuador-iva",
@@ -8344,7 +8344,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ecuador-payroll",
@@ -8572,7 +8572,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "el-salvador-iva",
@@ -8584,7 +8584,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "el-salvador-payroll",
@@ -10324,7 +10324,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gd-cross-border",
@@ -10336,7 +10336,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gd-income-tax",
@@ -10348,7 +10348,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gd-payroll-withholding",
@@ -10396,7 +10396,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gp-cross-border",
@@ -10516,7 +10516,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gt-cross-border",
@@ -10564,7 +10564,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "guatemala-iva",
@@ -10576,7 +10576,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "guatemala-payroll",
@@ -10828,7 +10828,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "gy-payroll-social",
@@ -10876,7 +10876,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ht-business-patente",
@@ -10900,7 +10900,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ht-cross-border-tax",
@@ -10924,7 +10924,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ht-personal-income-tax-new-code",
@@ -10936,7 +10936,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ht-service-withholding-and-payment-reporting",
@@ -11008,7 +11008,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "hn-cross-border-tax",
@@ -11056,7 +11056,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "honduras-income-tax",
@@ -11068,7 +11068,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "honduras-payroll",
@@ -12472,7 +12472,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "jm-cross-border-tax",
@@ -12496,7 +12496,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "jm-income-tax",
@@ -17356,7 +17356,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "panama-itbms",
@@ -17368,7 +17368,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "panama-payroll",
@@ -17488,7 +17488,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "paraguay-iva",
@@ -17500,7 +17500,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "paraguay-payroll",
@@ -17584,7 +17584,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "pe-cross-border-tax",
@@ -17596,7 +17596,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-23"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "pe-tax-overview",
@@ -17632,7 +17632,7 @@
    "verified_by": null,
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "peru-income-tax",
@@ -17644,7 +17644,7 @@
    "verified_by": null,
    "reviewed_by": "A licensed accountant (name withheld at their request)",
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "peru-payroll",
@@ -18904,7 +18904,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "lc-national-insurance",
@@ -18928,7 +18928,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "lc-vat",
@@ -18940,7 +18940,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mf-business-licence-and-patente-filing",
@@ -19048,7 +19048,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "vc-cross-border",
@@ -19108,7 +19108,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ws-company-formation",
@@ -21100,7 +21100,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "sj-svalbard-company-income-tax",
@@ -21904,7 +21904,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "tt-company-formation",
@@ -21952,7 +21952,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "tt-payroll-social",
@@ -22972,7 +22972,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "uruguay-iva",
@@ -22984,7 +22984,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "uruguay-payroll",
@@ -23032,7 +23032,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "uy-cross-border",
@@ -23056,7 +23056,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "uy-transfer-pricing",

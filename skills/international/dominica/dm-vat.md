@@ -6,8 +6,8 @@ jurisdiction: DM
 category: international
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-22
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
@@ -29,7 +29,7 @@ Special registration rules, including public entertainment and auctioneers, requ
 
 ## Rates and return
 
-IRD states a standard 15% rate and 10% for qualifying accommodation and diving activity. Registered persons file for each period even with no tax due, within 20 calendar days after period-end; monthly payment is due by the 20th. A filing extension does not extend payment. [IRD VAT guidance](https://ird.gov.dm/tax-laws/value-added-tax).
+IRD states a standard 15% rate and 10% for qualifying accommodation and diving activity — the archived [IRD VAT page](https://ird.gov.dm/tax-laws/value-added-tax) (2026-10-28) states the tax "is imposed at a rate of 15% of the value of every taxable supply ... except if the supply is classified as accommodations & diving activity which carries a rate of 10%". Registered persons file for each period even with no tax due, within 20 calendar days after period-end; monthly payment is due by the 20th. A filing extension does not extend payment. The same archived page sets a $100 monthly charge for unfiled returns, a 10% late-payment penalty, and 1% per month interest on unpaid tax.
 
 For an established standard-rated supply worth EC$10,000 before VAT, output tax is EC$1,500 and the total EC$11,500. Conversely, EC$11,500 including 15% VAT contains EC$1,500 tax: 11,500 × 15/115. A qualifying EC$10,000 accommodation supply before VAT yields EC$1,000 tax. These are arithmetic examples, not eligibility determinations.
 

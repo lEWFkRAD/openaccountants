@@ -6,8 +6,8 @@ jurisdiction: LC
 category: international
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-22
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
@@ -27,7 +27,7 @@ Example: EC$120,000 of taxable supplies over three months plus a supported EC$30
 
 ## Rates and arithmetic
 
-[Section 10](https://attorneygeneralchambers.com/laws-of-saint-lucia/value-added-tax-act/section-10) specifies the standard rate of 12.5%, subject to zero-rating and special rates. For a supply established as standard-rated and valued at EC$8,000 before VAT, tax is EC$1,000 and the invoice total EC$9,000. Conversely, EC$9,000 inclusive of 12.5% VAT contains EC$1,000 VAT: 9,000 × 12.5/112.5.
+[Section 10](https://attorneygeneralchambers.com/laws-of-saint-lucia/value-added-tax-act/section-10) (archived 2026-10-28) specifies the standard rate — verbatim: "The amount of tax shall be calculated in accordance with this Act at the rate of 12.5% of the value of taxable goods or services imported into Saint Lucia or of the value of taxable supplies of goods or services except in the case of a supply that is zero rated" — subject to zero-rating and special rates. For a supply established as standard-rated and valued at EC$8,000 before VAT, tax is EC$1,000 and the invoice total EC$9,000. Conversely, EC$9,000 inclusive of 12.5% VAT contains EC$1,000 VAT: 9,000 × 12.5/112.5.
 
 The [tourism order, S.I. 188/2020, paragraph 3](https://attorneygeneralchambers.com/laws-of-saint-lucia/value-added-tax-act/section-3-01) specifies 7% for tourism accommodation and 10% for its listed restaurant, water-sports, tour and attraction supplies. Confirm the statutory definitions and classification; do not apply an accommodation rate to every item supplied by a hotel.
 

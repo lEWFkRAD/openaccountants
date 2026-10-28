@@ -1,10 +1,10 @@
 ---
 name: honduras-isv
 description: Use this skill whenever asked to prepare, review, or classify transactions for a Honduras ISV (Impuesto sobre Ventas) return or advise on Honduran VAT registration, filing, and SAR compliance. Trigger on phrases like "prepare ISV return Honduras", "Honduras sales tax", "ISV Honduras", "SAR Honduras", "RTN", or any Honduras ISV request. ALWAYS read this skill before touching any Honduras ISV work.
-version: 2.0
+version: 2.1
 jurisdiction: HN
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:

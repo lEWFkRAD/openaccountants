@@ -1,10 +1,10 @@
 ---
 name: uruguay-iva
 description: Use this skill whenever asked to prepare, review, or create a Uruguay IVA (Impuesto al Valor Agregado) return for any client. Trigger on phrases like "prepare IVA return", "do the IVA", "Uruguay VAT", "DGI Uruguay", "tasa basica", "tasa minima", "CFE Uruguay", or any request involving Uruguay value added tax filing. Covers the 22% standard rate (tasa basica), 10% reduced rate (tasa minima), exempt supplies, monthly filing to DGI, input/output IVA computation, CFE electronic invoicing, and withholding/perception rules. ALWAYS read this skill before touching any Uruguay IVA work.
-version: 2.0
+version: 2.1
 jurisdiction: UY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -44,7 +44,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Rate | Application |
 | --- | --- |
 | 22% (tasa basica) | Standard rate on all taxable supplies not otherwise specified |
-| 10% (tasa minima) | Basic food, medicines, hotel accommodation, first sale of residential real estate, newspapers, cleaning products, personal hygiene |
+| 10% (tasa minima) | Basic food, medicines, hotel accommodation, first sale of residential real estate, newspapers, cleaning products, personal hygiene ((note — the archived Título 2 compilation (Diario Oficial Nº 31.421, mayo 2024), Art. 288, discusses a VAT-refund regime of up to 6% of the price of temporary tourist property rentals (arrendamientos temporarios de inmuebles con fines turísticos), indicating tourism rentals sit outside the plain hotel-accommodation category — confirm current DGI treatment)) |
 | 0% | Exports (full input credit recovery) |
 | Exempt (exonerado) | Financial services, education, health, residential rental, public transport, cultural activities |
 

@@ -7,8 +7,8 @@ category: international
 tax_year: 2026
 tier: 2
 verified_by: pending
-last_updated: 2026-10-24
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 ---
 
 # Costa Rica corporate income tax
@@ -30,7 +30,7 @@ version: 0.1
 
 | Category | Rate | Source |
 |---|---|---|
-| General corporate rate (profits) | 30% | _(PwC Tax Summaries, CIT title of Ley 9635 — read 2026-10-24)_ |
+| General corporate rate (profits) | 30% | _(PwC Tax Summaries, CIT title of Ley 9635 — read 2026-10-24); archived Ley 7092 consolidated text (`CR-ley-7092-impuesto-renta.pdf`) Art. 15(a): "Personas jurídicas: Treinta por ciento (30%)")_ |
 | Small companies (MEIC/MAG-registered, gross income ≤ CRC 119,174,000 band) | 5% / 10% / 15% / 20% graduated on net income bands | _(PwC — thresholds indexed annually; confirm current year)_ |
 | Capital gains and passive income of individuals | separate schedule (Ley 9635 Título II) | see `costa-rica-income-tax` |
 

@@ -6,8 +6,8 @@ jurisdiction: DM
 category: international
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-22
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
@@ -19,7 +19,7 @@ Commonwealth of Dominica (DM), not the Dominican Republic. Source-cited draft ch
 
 ## Allowance and tax bands
 
-IRD's [current rate schedule](https://www.ird.gov.dm/customer-service/current-income-tax-rates) grants residents an annual EC$30,000 allowance, effective from 1 January 2018. Its displayed thresholds include that allowance. The [PAYE guidance](https://ird.gov.dm/tax-laws/pay-as-you-earn-p-a-y-e) explains the separate post-allowance bands: 15% on the first EC$20,000, 25% on the next EC$30,000 and 35% thereafter.
+IRD's [current rate schedule](https://www.ird.gov.dm/customer-service/current-income-tax-rates) (archived 2026-10-28) grants residents an annual EC$30,000 allowance, effective from 1 January 2018, and displays bands inclusive of the allowance: nil on the first $30,000, 15% on the next $20,000 (30,001–50,000), 25% on the next $30,000 (50,001–80,000) and 35% on income above $80,000. Its displayed thresholds include that allowance. The [PAYE guidance](https://ird.gov.dm/tax-laws/pay-as-you-earn-p-a-y-e) explains the separate post-allowance bands: 15% on the first EC$20,000, 25% on the next EC$30,000 and 35% thereafter. The archived monthly PAYE worked figures reconcile exactly to the annual bands: allowance 30,000/12 = 2,500; next 20,000/12 = 1,666.67 @ 15%; next 30,000/12 = 2,500 @ 25%; 35% above 80,000/12 = 6,666.67.
 
 Let C be non-negative chargeable income **after** applicable allowances:
 

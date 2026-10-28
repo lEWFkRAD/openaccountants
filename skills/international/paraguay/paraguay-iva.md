@@ -3,7 +3,7 @@ name: paraguay-iva
 description: Use this skill whenever asked to prepare, review, or create a Paraguay IVA (Impuesto al Valor Agregado) return for any client. Trigger on phrases like "prepare IVA return", "do the IVA", "Paraguay VAT", or any request involving Paraguay value added tax filing. ALWAYS read this skill before touching any Paraguay IVA-related work.
 jurisdiction: PY
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2

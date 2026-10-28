@@ -1,10 +1,10 @@
 ---
 name: dominican-republic-income-tax
 description: Use this skill whenever asked about Dominican Republic personal income tax (Impuesto Sobre la Renta / ISR) for self-employed individuals, independent professionals, and salaried persons. Trigger on phrases like "how much ISR do I pay", "declaración jurada", "IR-1", "IR-3", "retención de ISR", "deducible expenses Dominican Republic", "TSS contributions", "AFP", "SFS", "seguridad social", "regalía pascual", "honorarios", "RNC registration", "ITBIS interaction", "personas físicas", "self-employed tax Dominican Republic", or any question about filing or computing income tax for an individual or sole proprietor in the Dominican Republic. Also trigger when preparing or reviewing an IR-1 return, computing deductible expenses, advising on withholding on professional/technical services, or reconciling social-security (SDSS) contributions. This skill covers the progressive ISR scale, the annual exempt threshold, the IR-1/IR-3/IR-17 form structure, SDSS contributions (AFP, SFS, SRL, INFOTEP), withholding on payments to individuals, penalties, and interaction with ITBIS (VAT). ALWAYS read this skill before touching any Dominican Republic income tax work.
-version: 0.1
+version: 0.2
 jurisdiction: DO
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 authored_by: Miguel Lantigua, CPA
 reviewed_by: Miguel Lantigua
 review_status: current
@@ -58,6 +58,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - Top of 15% band: (624,329.00 − 416,220.01) × 15% = 208,108.99 × 0.15 = RD$31,216.35 ≈ **RD$31,216** ✓
 - Top of 20% band: 31,216 + (867,123.00 − 624,329.01) × 20% = 31,216 + 242,793.99 × 0.20 = 31,216 + 48,558.80 = **RD$79,774.80 ≈ RD$79,775** (DGII publishes the next-band base as RD$79,776 owing to rounding) ✓
 
+**Scale verified 2026-10-28 verbatim against archived DGII page (`DO-itbi-renta.html`): exempt hasta RD$416,220.01; 15% over 416,220.01; RD$31,216.00 + 20% over 624,329.01; RD$79,776.00 + 25% over 867,123.01; amounts inflation-indexed annually. DGII page also states corporate ISR 27%, rising to 30% for FY2026-2028 taxpayers with income ≥ RD$1,000,000,000.**
 - **Annual exempt threshold FY2025** — RD$416,220 DOP (inflation-indexed each year (up ~4.2% from FY2024's RD$399,923))  _([PwC; DGII Comunidad de Ayuda CA687])_
 - **Monthly salary level at which withholding begins** — ~RD$34,685/month DOP (416,220 ÷ 12)  _([P&H Law; DGII])_
 - **Top marginal ISR rate** — 25%  _([PwC; DGII])_
