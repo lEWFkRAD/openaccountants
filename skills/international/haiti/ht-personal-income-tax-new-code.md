@@ -7,8 +7,8 @@ category: international
 tax_year: 2026
 tax_year_notes: New Code effective 1 October 2026; not a retrospective 2025–2026 return guide.
 tier: 2
-last_updated: 2026-10-22
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
