@@ -1,10 +1,10 @@
 ---
 name: ms-income-tax
 description: Use this skill whenever asked about Mississippi individual income tax for self-employed persons, sole proprietors, or single-member LLCs. Trigger on phrases like "Mississippi income tax", "MS income tax", "Form 80-105", "Mississippi DOR", "Miss. Code Ann. § 27-7".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-MS
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -54,11 +54,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Tax year | First $10,000 | Over $10,000 |
 | --- | --- | --- |
-| 2025 | 0% | 4.4% |
-| 2026 | 0% | 4.0% |
-| 2027 | 0% | 3.75% |
+| 2025 | 0% | 4.4% ("Tax Year 2025 Excess of $10,000 of Taxable Income is taxed @ 4.4%") |
+| 2026 | 0% | 4.0% ("Tax Year 2026 … @ 4%") |
+| 2027 | 0% | 3.75% ("Tax Year 2027 … @ 3.75%") |
 
-Mississippi applies the same rate structure to all filing statuses (single, MFJ, MFS, HoH).
+Mississippi applies the same rate structure to all filing statuses (single, MFJ, MFS, HoH). Rates and the worked example ($23,000 taxable → $572) verified verbatim vs the archived MSDOR General Information / Tax Rates page (archived 2026-10-28): "0% on the first $10,000 of taxable income. 4.4% on the remaining taxable income in excess of $10,000. The 4% rate is eliminated for tax year 2024 and forward." Filing thresholds on the same page: single gross income over $8,300 + $1,500/dependent; married over $16,600 + $1,500/dependent. Standard deduction $2,300 single / $4,600 MFJ and personal exemption $6,000 single / $12,000 MFJ also appear verbatim on that page.
 
 ### Standard deduction — 2025
 
