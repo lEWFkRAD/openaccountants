@@ -36,15 +36,9 @@ name: MIPYME first-year tax exemption (new entities), social security still due
 inputs:
   years_operating: 1
 steps:
-<<<<<<< HEAD
-  - exempt: min(years_operating, 1)
-expected:
-  exempt: 1.00
-=======
   - exempt_years: min(years_operating, 1)
 expected:
   exempt_years: 1.00
->>>>>>> lane/E-wave1
 ```
 ```oa-check
 name: Six-month exemption when entity has prior operating history

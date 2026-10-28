@@ -39,11 +39,7 @@ inputs:
   income: 100000
 steps:
   - band1: min(income, 75000) * 0.03
-<<<<<<< HEAD
-  - band2: clamp(income, 75000, 150000) * 0.05 - 75000 * 0.05
-=======
   - band2: (min(income, 150000) - 75000) * 0.05
->>>>>>> lane/E-wave1
   - tax: band1 + band2
 expected:
   band1: 2250.00
