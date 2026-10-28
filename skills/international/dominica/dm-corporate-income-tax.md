@@ -6,8 +6,8 @@ jurisdiction: DM
 category: international
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-22
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 ---
 
@@ -17,7 +17,7 @@ verified_by: pending
 
 Source-cited draft checked 22 October 2026. This Guide covers ordinary-rate arithmetic and filing milestones once chargeable income has been established. It does not convert accounting profit into taxable profit or determine whether a company qualifies for an exemption or incentive.
 
-IRD's [current rate schedule](https://www.ird.gov.dm/customer-service/current-income-tax-rates) states a company rate of 25% on chargeable income, effective 1 January 2016. Its [corporate guidance](https://ird.gov.dm/tax-laws/corporate-income-tax) identifies the Income Tax Act, Chapter 67:01 as governing legislation and requires a return within three months after financial year-end, accompanied by the company's financial statement.
+IRD's [current rate schedule](https://www.ird.gov.dm/customer-service/current-income-tax-rates) (archived 2026-10-28) states a company rate of 25% on chargeable income, effective 1 January 2016 — verbatim: "tax on the Chargeable Income of a company, on every dollar thereof at 25%". Its [corporate guidance](https://ird.gov.dm/tax-laws/corporate-income-tax) identifies the Income Tax Act, Chapter 67:01 as governing legislation and requires a return within three months after financial year-end, accompanied by the company's financial statement.
 
 ## Calculation example
 
