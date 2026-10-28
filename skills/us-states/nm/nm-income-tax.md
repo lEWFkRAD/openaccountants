@@ -1,10 +1,10 @@
 ---
 name: nm-income-tax
 description: Use this skill whenever asked about New Mexico individual income tax for self-employed / sole proprietors. Trigger on phrases like "New Mexico income tax", "NM income tax", "Form PIT-1", "NM Taxation and Revenue", "NM self-employment tax".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-NM
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -99,7 +99,7 @@ New Mexico follows the **federal standard deduction** amounts (NM conforms to fe
 
 ### Low-and-middle-income exemption
 
-- **Low-and-middle-income exemption** — New Mexico offers a low-and-middle-income exemption of up to $2,500 per qualified exemption, based on adjusted gross income. All taxpayers (residents, part-year residents, nonresidents) may claim this exemption.
+- **Low-and-middle-income exemption** — New Mexico offers a low-and-middle-income exemption of up to $2,500 per qualified exemption, based on adjusted gross income. All taxpayers (residents, part-year residents, first-year residents, nonresidents) may claim this exemption in full. Income limits verified verbatim vs the archived NM Taxation and Revenue Department PIT overview (archived 2026-10-28): "$36,667 (if single)", "$27,500 (if married filing separately)", "$55,000 (if married filing jointly, qualified widow(er), or head of household)". Also on that page: age-65+ exemption up to $8,000 each; $3,000 medical-expense exemption for 65+ with expenses over $28,000; refundable medical care credit $2,800 for unreimbursed expenses of $28,000+.
 
 ### Local income tax
 
