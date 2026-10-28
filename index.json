@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:34:01+00:00",
+ "generated_at": "2026-10-28T20:44:13+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -25216,7 +25216,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "dc-payroll-withholding",
