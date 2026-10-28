@@ -144,6 +144,7 @@ expected:
 | K.S.A. 79-2968 (interest on delinquent taxes) | https://ksrevisor.gov/statutes/chapters/ch79/079_029_0068.html | 2026-10-28 |
 | K.S.A. 79-32,141 (allocation authority, controlled groups) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0141.html | 2026-10-28 |
 | K.S.A. 79-32,142 (consolidated returns) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0142.html | 2026-10-28 |
+| K.S.A. 79-32,138 (Kansas taxable income of corporations; addition and subtraction modifications) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0138.html | 2026-10-28 |
 | KDOR Corporate Income (filing duty, S auto-status, bank carve-out, 90% extension rule) | https://www.ksrevenue.gov/bustaxtypescorp.html | 2026-10-28 |
 | KDOR FAQ (S status, banks, short periods, 501(c)(3)) | https://www.ksrevenue.gov/faqs.html | 2026-10-28 |
 | KDOR Franchise Tax (repealed 2011+; $55 Secretary of State fee) | https://www.ksrevenue.gov/bustaxtypesfranchise.html | 2026-10-28 |

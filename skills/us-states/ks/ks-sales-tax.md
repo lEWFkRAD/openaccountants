@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **Source-cited draft.** Built from K.S.A. 79-3603, 79-3603d, 79-3606, 79-3615 and 79-2968 (Kansas Revisor / kslegislature.gov) and KDOR sales-tax pages, read on 2026-10-28. No accountant has reviewed it. Do not file from it without review by a qualified Kansas professional.
 
-Tax year: the calendar year. Authority: Kansas Department of Revenue (KDOR). Governing act: the Kansas Retailers' Sales Tax Act, K.S.A. 79-3601 et seq.
+Tax year: the calendar year. Authority: Kansas Department of Revenue (KDOR). Governing act: the Kansas Retailers' Sales Tax Act (K.S.A. 79-3603 and the sections cited below).
 
 See also: `us-sales-tax` (load first), `ks-corporate-income-tax`, `ks-cross-border`.
 

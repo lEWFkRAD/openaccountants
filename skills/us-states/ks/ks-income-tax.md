@@ -244,6 +244,7 @@ expected:
 | K.S.A. 79-32,110 (individual rates and brackets) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html | 2026-10-28 |
 | K.S.A. 79-32,117 (Kansas modifications; Social Security (xviii)(A)/(B)) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0117.html | 2026-10-28 |
 | K.S.A. 79-32,121 (personal exemptions) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0121.html | 2026-10-28 |
+| K.S.A. 79-32,120 (Kansas itemized deductions of an individual; election in lieu of the standard deduction) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0120.html | 2026-10-28 |
 | K.S.A. 79-32,101 (estimated tax, $500 threshold) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0101.html | 2026-10-28 |
 | K.S.A. 79-32,103 (installment dates) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0103.html | 2026-10-28 |
 | K.S.A. 79-32,107 (underpayment of estimated tax) | https://ksrevisor.gov/statutes/chapters/ch79/079_032_0107.html | 2026-10-28 |
