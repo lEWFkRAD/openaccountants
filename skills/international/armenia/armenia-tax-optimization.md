@@ -1,10 +1,10 @@
 ---
 name: armenia-tax-optimization
 description: "Use for 2026 Armenian business-regime comparisons and lawful tax planning for a company or individual entrepreneur. Separates ordinary company profit tax, turnover-tax eligibility and activity rates, entrepreneur profit tax and micro-business conditions. Test the legal form, activity classification, exclusions, turnover and election dates before comparing amounts. Trigger on Armenia tax regime, microenterprise, turnover tax, individual entrepreneur, LLC comparison or business tax planning. Includes preserved calculation and threshold controls with explicit eligibility assumptions. Read alongside the detailed personal, corporate, VAT and payroll Guides. Includes ordinary aggregation, entry and exit dates, documented cost-reduction carries, asset transitions and published filing forms. Checked against the law; independent source review is recorded in the country research; named professional attestation remains pending."
-version: 0.4
+version: 0.5
 jurisdiction: AM
 tax_year: 2026
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 category: tax-optimization
@@ -12,7 +12,7 @@ tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# Armenia business tax planning v0.4
+# Armenia business tax planning v0.5
 
 ## Do the eligibility test before the arithmetic
 
@@ -167,6 +167,36 @@ Turnover-tax returns and payment are quarterly and due by the 20th day of the fo
 **Not yet confirmed:** taxpayer-specific classification and facts, the specialist incentives/disputes/treaty matters stated outside this ordinary comparison, fresh independent whole-country review and named professional attestation. No live taxpayer portal or return was accessed.
 
 > Contributed by Michael Cutajar.
+
+## Worked examples
+
+```oa-check
+name: Turnover-tax regime fixed profit tax, 9 liable months at AMD 5,000
+inputs:
+  months: 9
+  monthly_fixed: 5000
+steps:
+  - profit_tax: months * monthly_fixed
+expected:
+  profit_tax: 45000.00
+```
+
+```oa-check
+name: General-system entrepreneur vs turnover-tax regime (AMD 8m profit)
+inputs:
+  business_profit: 8000000
+  general_rate: 0.23
+  months: 12
+  monthly_fixed: 5000
+steps:
+  - general_system_tax: business_profit * general_rate
+  - turnover_tax_profit_tax: months * monthly_fixed
+  - saving: general_system_tax - turnover_tax_profit_tax
+expected:
+  general_system_tax: 1840000.00
+  turnover_tax_profit_tax: 60000.00
+  saving: 1780000.00
+```
 
 <!-- openaccountants-cta-block -->
 

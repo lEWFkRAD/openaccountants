@@ -1,10 +1,10 @@
 ---
 name: am-tax-overview
 description: "Use as the 2026 Armenian country entry point for personal income tax, company profit tax, VAT, pension and other social payments, payroll, transfer pricing and cross-border questions. Routes individuals, registered entrepreneurs, resident organisations, non-residents and permanent establishments to the appropriate detailed Guide. Highlights the distinction between headline rates, a legally established tax base, special-regime eligibility and year-specific annual filing dates. Also routes incorporation and business-regime comparison questions to the supporting Guides. This overview is a map, not a complete computation or taxpayer classification. All seven tax domains apply. The detailed Guides supply all seven ordinary domains, including the statutory benefit minimum, Service payment route and current SRC treaty-refund application/approval/account method. Independent source-review records and remaining specialist/operational boundaries are preserved; named professional attestation remains pending."
-version: 0.3
+version: 0.4
 jurisdiction: AM
 tax_year: 2026
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 category: international
@@ -12,7 +12,7 @@ tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# Armenia tax overview v0.3
+# Armenia tax overview v0.4
 
 ## Start with the taxpayer and activity
 
@@ -50,6 +50,28 @@ The read dates above are retained from the preserved draft and its initial sourc
 **Not yet confirmed:** The ordinary and specialist gaps recorded in the country README and detailed Guides; actual filing acceptance and named professional attestation.
 
 > Contributed by Michael Cutajar.
+
+## Worked examples
+
+```oa-check
+name: Armenia salary PIT, 20% flat on taxable salary
+inputs:
+  taxable_salary: 3000000
+steps:
+  - pit: taxable_salary * 0.20
+expected:
+  pit: 600000.00
+```
+
+```oa-check
+name: Armenia company profit tax, 18% on taxable profit
+inputs:
+  taxable_profit: 10000000
+steps:
+  - tax: taxable_profit * 0.18
+expected:
+  tax: 1800000.00
+```
 
 <!-- openaccountants-cta-block -->
 
