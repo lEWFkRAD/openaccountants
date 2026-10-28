@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:38:03+00:00",
+ "generated_at": "2026-10-28T21:38:42+00:00",
  "counts": {
   "guides": 2523,
   "jurisdictions": 274,
@@ -9136,7 +9136,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-corporate-income-tax",
@@ -9148,7 +9148,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-income-tax",
@@ -9160,7 +9160,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-payroll-social",
@@ -9172,7 +9172,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-tax-overview",
@@ -9184,7 +9184,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "er-vat-gst",
@@ -9196,7 +9196,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ee-company-formation",
