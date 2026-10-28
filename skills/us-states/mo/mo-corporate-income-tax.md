@@ -18,8 +18,8 @@ jurisdiction: US-MO
 category: state-tax
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - mo-income-tax
@@ -46,7 +46,7 @@ Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, b
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| Corporate income tax rate | **4%** flat — MO-1120 line 14: "Enter the amount of Line 13 multiplied by 4 percent. Income tax cannot be prorated or annualized." | MO-1120 2025 instructions, read 2026-10-27 |
+| Corporate income tax rate | **4%** flat — MO-1120 line 14: "Enter the amount of Line 13 multiplied by 4 percent. Income tax cannot be prorated or annualized." | MO-1120 2025 instructions, read 2026-10-27; re-verified 2026-10-28 against archived PDF, verbatim match |
 | Base | Federal taxable income (separate-company pro forma if federally consolidated) + additions (incl. §163(j) disallowed interest addback, §143.121.3(11)) − Missouri subtraction modifications, × MO apportionment percentage | Instructions, read 2026-10-27 |
 | Apportionment | Form MO-MS with apportionment election (2a, 3, 4, 5, 6, or 7); percentage to three decimals (e.g. 12.345%); partnership factors multiplied by ownership % and folded into MO-MS | Instructions, read 2026-10-27 |
 | Dividends deduction | Form MO-C: eligible dividends × apportionment percentage factor (from MO-MS Part 1 line 3), plus Missouri-allocated nonapportionable dividends; FDII portion of the federal §250 deduction handled on MO-C line 27 | Instructions, read 2026-10-27 |
@@ -65,7 +65,7 @@ Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, b
 
 - **Late filing:** **5% of unpaid tax per month, capped at 25%** aggregate. (Instructions, "Addition to Tax – Failure to File", read 2026-10-27.)
 - **Late payment:** flat **5% of unpaid tax** if not paid by the original due date, even with an extension. (Instructions, read 2026-10-27.)
-- **Interest:** **7% simple per annum effective 1 January 2026** (§32.065 RSMo), from the return due date until paid. (Instructions, read 2026-10-27.)
+- **Interest:** **7% simple per annum effective 1 January 2026** (§32.065 RSMo), from the return due date until paid. (Instructions, read 2026-10-27; archived PDF confirms verbatim: "The simple interest rate, effective January 1, 2026, is 7 percent per annum (Section 32.065, RSMo)".)
 - **Estimated underpayment:** addition to tax via **Form MO-2220** line 26, with statutory exceptions (§143.761); overpayments are netted against additions (12 CSR 10-2.067). (Instructions, read 2026-10-27.)
 
 ## 6. Cross-border / multistate

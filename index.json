@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:32:35+00:00",
+ "generated_at": "2026-10-28T20:33:07+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -26788,7 +26788,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mo-corporate-income-tax",
@@ -26800,7 +26800,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mo-cross-border",
@@ -26812,7 +26812,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mo-income-tax",
@@ -26824,7 +26824,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mo-payroll",
@@ -26836,7 +26836,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mo-sales-tax",
@@ -26848,7 +26848,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-07-13"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mo-social-contributions",
@@ -26860,7 +26860,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mo-transfer-pricing",
@@ -26872,7 +26872,7 @@
    "verified_by": "pending",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-27"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "mississippi-sales-tax",
