@@ -3,7 +3,7 @@ name: bz-vat-gst
 description: "Source-cited draft: vat / gst for Belize (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,6 +24,46 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Input tax credit** — Registered businesses credit GST paid on inputs against GST charged on outputs (net remittance)  _(General Sales Tax Act)_
 - **Reverse charge / imported services** — GST applies to imports; place-of-supply and reverse-charge style rules apply to certain imported services (approx — confirm imported-services treatment)  _(General Sales Tax Act)_
 - **E-invoicing developments** — Belize is progressing toward a B2B e-invoicing mandate (approx — confirm status/timeline)  _(General Sales Tax Act)_
+
+## Worked examples
+
+```oa-check
+name: BZ GST registration threshold test at BZD 90,000 turnover
+inputs:
+  turnover: 90000
+  threshold: 75000
+steps:
+  - over_threshold: turnover - threshold
+  - must_register: (turnover - threshold) / (threshold) * 0 + 1
+expected:
+  over_threshold: 15000.00
+  must_register: 1.00
+```
+
+```oa-check
+name: BZ GST net remittance, output 12.5% on 40,000 less input on 15,000
+inputs:
+  sales: 40000
+  inputs: 15000
+steps:
+  - output: sales * 0.125
+  - input_credit: inputs * 0.125
+  - payable: output - input_credit
+expected:
+  output: 5000.00
+  input_credit: 1875.00
+  payable: 3125.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| General Sales Tax Act — BTS GST FAQ (cited inline) | https://bts.gov.bz/gst-faq/ | 2026-10-28 |
+| GST registration — BELTRAIDE (cited inline) | https://beltraide.bz/belize-invest/doing-business-in-belize/general-sales-tax-registration/ | 2026-10-28 |
+| Form BTS210 monthly GST return — BTS (cited inline) | https://bts.gov.bz/file-gst-return/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

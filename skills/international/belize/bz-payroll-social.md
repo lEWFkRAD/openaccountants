@@ -3,7 +3,7 @@ name: bz-payroll-social
 description: "Source-cited draft: payroll & social contributions for Belize (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -30,6 +30,37 @@ Belize requires Social Security Board (SSB) contributions on insurable weekly ea
 - **Remittance responsibility** — Employer remits the full contribution (employer share plus employee share deducted from wages)  _(Social Security Act (https://socialsecurity.org.bz/contributions/))_
 - **SSB remittance deadline** — Contributions and monthly statement due by the 14th of the following month  _(Social Security Act (https://socialsecurity.org.bz/contribution-due-dates/))_
 - **Income tax withholding (PAYE)** — Employers deduct 25% income tax on chargeable employment income (after reliefs) and remit to BTS percent  _(Income and Business Tax Act (Cap. 55))_
+
+## Worked examples
+
+```oa-check
+name: BZ SSB total 10% on BZD 30,000 insurable earnings
+inputs:
+  insurable: 30000
+steps:
+  - total_ssb: insurable * 0.10
+expected:
+  total_ssb: 3000.00
+```
+
+```oa-check
+name: BZ PAYE 25% on BZD 11,400 chargeable income (per bz-income-tax)
+inputs:
+  chargeable: 11400
+steps:
+  - paye: chargeable * 0.25
+expected:
+  paye: 2850.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Social Security Act (cited inline) | https://socialsecurity.org.bz/contributions/ | 2026-10-28 |
+| Income and Business Tax Act (Cap. 55) (cited inline) | https://media.bts.gov.bz/uploads/Income_and_Business_Tax_Act_2011_13d48a3c6e.pdf | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

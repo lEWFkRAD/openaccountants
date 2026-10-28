@@ -3,7 +3,7 @@ name: bz-company-formation
 description: "Source-cited draft: company formation & entity choice for Belize (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BZ
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -27,6 +27,42 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Beneficial ownership / attestation** — Managers, members and Ultimate Beneficial Owners (UBOs) must be filed; an annual attestation of current status is required ((approx — confirm post-2023 amendment scope)) (approx — confirm post-2023 amendment scope)  _(Belize Limited Liability Companies Act)_
 - **Tax registration** — Companies must register with the Belize Tax Service and file applicable business/income tax returns  _([[Income and Business Tax Act (Cap. 55)](https://bts.gov.bz/)](https://bts.gov.bz/))_
 - **Economic substance** — Relevant entities (incl. certain IBCs) are subject to economic substance requirements ((approx — confirm applicability)) (approx — confirm applicability)  _(Economic Substance Act)_
+
+## Worked examples
+
+```oa-check
+name: BZ LLC registration + first-year renewal fees (USD 330 each)
+inputs:
+  registration_fee: 330
+  annual_renewal: 330
+steps:
+  - year_one_total: registration_fee + annual_renewal
+expected:
+  year_one_total: 660.00
+```
+
+```oa-check
+name: BZ LLC three-year cost (registration + 2 renewals)
+inputs:
+  registration_fee: 330
+  annual_renewal: 330
+  years: 2
+steps:
+  - renewals: annual_renewal * years
+  - total: registration_fee + renewals
+expected:
+  renewals: 660.00
+  total: 990.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Belize Companies & Corporate Affairs Registry (BCCAR) (cited inline) | https://www.bccar.bz/ | 2026-10-28 |
+| Income and Business Tax Act (Cap. 55) — Belize Tax Service (cited inline) | https://bts.gov.bz/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 
