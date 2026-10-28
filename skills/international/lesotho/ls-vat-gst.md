@@ -2,8 +2,9 @@
 name: ls-vat-gst
 description: "Source-cited draft: vat / gst for Lesotho (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LS
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -25,6 +26,27 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Reverse charge on imported services** — Recipient of imported services accounts for VAT under a reverse-charge mechanism where the supply would be taxable if made in Lesotho ((approx — confirm scope))  _(Value Added Tax Act 2001 (https://www.pwc.co.za/en/publications/vat-in-africa/lesotho-overview.html))_
 - **E-invoicing** — Electronic invoicing being rolled out under VAT e-invoicing regulations ((approx — confirm go-live and scope))  _(VAT (E-Invoicing) Regulations (https://www.vatcalc.com/lesotho/lesotho-e-invoicing-plans/))_
 
+## Recomputing examples
+
+```oa-check
+name: LS VAT 15% on 500,000 LSL taxable supply
+inputs:
+  supply: 500000
+steps:
+  - vat: supply * 0.15
+expected:
+  vat: 75000.00
+```
+```oa-check
+name: LS registration threshold LSL 2,000,000: half-year check at LSL 1,000,000
+inputs:
+  threshold: 2000000
+steps:
+  - half: threshold / 2
+expected:
+  half: 1000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -42,3 +64,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Value Added Tax Act 2001 (Lesotho)
+- Value Added Tax (Amendment) Regulations 2025 (Lesotho)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

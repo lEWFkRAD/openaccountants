@@ -2,8 +2,9 @@
 name: ls-payroll-social
 description: "Source-cited draft: payroll & social contributions for Lesotho (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LS
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -24,6 +25,35 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual PAYE reconciliation** — Employers file an annual PAYE reconciliation/return summarising deductions and issue employee certificates ((approx — confirm form and due date))  _(Income Tax Act (https://www.rsl.org.ls/personal-income-tax))_
 - **Late PAYE remittance penalty** — Penalties plus interest on amounts remitted late ((approx — confirm exact penalty and interest rates))  _(Income Tax Act (https://www.rsl.org.ls/personal-income-tax))_
 
+## Recomputing examples
+
+```oa-check
+name: LS monthly PAYE on LSL 8,000: 20% to 6,170 (74,040/12) + 30% above, less LSL 1,056 credit
+inputs:
+  salary: 8000
+  monthly_band: 6170
+  credit: 1056
+steps:
+  - b1: min(salary, monthly_band) * 0.20
+  - b2: max(salary - monthly_band, 0) * 0.30
+  - paye: b1 + b2 - credit
+expected:
+  b1: 1234.00
+  b2: 549.00
+  paye: 727.00
+```
+```oa-check
+name: LS pension 5% employer + 5% employee on LSL 10,000 gross
+inputs:
+  gross: 10000
+steps:
+  - employer: gross * 0.05
+  - employee: gross * 0.05
+expected:
+  employer: 500.00
+  employee: 500.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -41,3 +71,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Act (Lesotho) — https://www.rsl.org.ls/personal-income-tax
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

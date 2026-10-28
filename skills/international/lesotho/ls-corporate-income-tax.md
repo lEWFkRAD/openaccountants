@@ -2,8 +2,9 @@
 name: ls-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Lesotho (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LS
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,33 @@ Resident companies and Lesotho permanent establishments of foreign companies pay
 - **Corporate return filing deadline** — 30 June following the end of the 31 March tax year  _(Income Tax Act (https://www.rsl.org.ls/corporate-income-tax))_
 - **Provisional / advance corporate tax** — Companies pay tax in instalments during the year, with the balance settled on assessment (approx — confirm instalment dates and number)  _(Income Tax Act (https://taxsummaries.pwc.com/lesotho))_
 
+## Recomputing examples
+
+```oa-check
+name: LS CIT 25% standard vs 10% manufacturing on 1,000,000 LSL
+inputs:
+  profit: 1000000
+steps:
+  - std: profit * 0.25
+  - mfg: profit * 0.10
+expected:
+  std: 250000.00
+  mfg: 100000.00
+```
+```oa-check
+name: LS WHT on 100,000 LSL interest: residents 10%, non-residents 25%, manufacturing-financed 15%
+inputs:
+  payment: 100000
+steps:
+  - res: payment * 0.10
+  - nonres: payment * 0.25
+  - mfg: payment * 0.15
+expected:
+  res: 10000.00
+  nonres: 25000.00
+  mfg: 15000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -45,3 +73,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Act (Lesotho) — https://www.rsl.org.ls/corporate-income-tax
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

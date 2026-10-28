@@ -2,8 +2,9 @@
 name: ls-tax-overview
 description: "Source-cited draft: tax overview for Lesotho (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LS
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +27,27 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual income tax return deadline** — 30 June following the end of the tax year  _(Income Tax Act (https://www.rsl.org.ls/personal-income-tax))_
 - **VAT return / payment deadline** — 20th of the month following the tax period  _(Value Added Tax Act 2001 (https://www.rsl.org.ls/value-added-tax-vat))_
 
+## Recomputing examples
+
+```oa-check
+name: LS CIT 25% on 1,000,000 LSL profit
+inputs:
+  profit: 1000000
+steps:
+  - cit: profit * 0.25
+expected:
+  cit: 250000.00
+```
+```oa-check
+name: LS VAT 15% on 100,000 LSL supply
+inputs:
+  supply: 100000
+steps:
+  - vat: supply * 0.15
+expected:
+  vat: 15000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -43,3 +65,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Income Tax Act (Lesotho)
+- Value Added Tax Act 2001 (Lesotho) — https://www.rsl.org.ls/value-added-tax-vat
+- Common Monetary Area agreement
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

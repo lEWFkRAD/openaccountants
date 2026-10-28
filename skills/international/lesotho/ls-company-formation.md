@@ -2,8 +2,9 @@
 name: ls-company-formation
 description: "Source-cited draft: company formation & entity choice for Lesotho (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LS
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -28,6 +29,30 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Tax registration** — Register with RSL for a Taxpayer Identification Number (TIN); register for VAT once turnover exceeds LSL 2,000,000 LSL  _(Income Tax Act (https://www.rsl.org.ls/))_
 - **Accounting records & financial statements** — Companies must keep accounting records and prepare annual financial statements; audit may be required depending on company type/size ((approx — confirm audit thresholds))  _(Companies Act 2011 (https://www.msm.org.ls/media/1003/companies_act_2011.pdf))_
 
+## Recomputing examples
+
+```oa-check
+name: LS VAT threshold LSL 2,000,000 vs old LSL 850,000 uplift
+inputs:
+  new: 2000000
+  old: 850000
+steps:
+  - uplift: new - old
+  - pct: uplift / old * 100
+expected:
+  uplift: 1150000.00
+  pct: 135.29
+```
+```oa-check
+name: LS LSL 2,000,000 in ten equal parts
+inputs:
+  amount: 2000000
+steps:
+  - part: amount / 10
+expected:
+  part: 200000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -45,3 +70,10 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Companies Act 2011 (Lesotho)
+- One-Stop Business Facilitation Centre (OBFC) — http://www.obfc.org.ls
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
