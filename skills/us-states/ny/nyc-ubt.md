@@ -2,11 +2,11 @@
 name: nyc-unincorporated-business-tax
 description: >
   NYC Unincorporated Business Tax (UBT) for sole proprietors and SMLLCs operating in the five boroughs. Covers the 4% tax rate, $95,000 exemption with phase-out, Form NYC-202, Form NYC-202S (simplified), the IT-219 credit against NYC resident income tax, and estimated UBT payments. Primary source: NYC Admin Code Title 11, Chapter 5.
-version: 1.0
+version: 1.1
 jurisdiction: US-NY
 tax_year: 2025
 tier: 2
-last_updated: 2026-06-12
+last_updated: 2026-10-28
 category: state
 depends_on:
   - us-tax-workflow-base
@@ -81,13 +81,13 @@ Quarterly estimated payments are required if the expected UBT liability is $3,40
 
 | Item | Amount | Source |
 |------|--------|--------|
-| UBT rate | 4.0% of unincorporated business taxable income | NYC Admin Code §11-503(a) |
+| UBT rate | 4.0% of unincorporated business taxable income | NYC Admin Code §11-503(a). Corroborated: NYC Comptroller fiscal note rate table (archived `US-NY-NYC-comptroller-business-income-taxes.html`, retrieved 2026-10-28) lists the UBT income tax rate as "4%". |
 | Exemption | $95,000 deduction from unincorporated business taxable income | NYC Admin Code §11-510(a) |
 | Exemption phase-out start | Taxable income > $95,000 | NYC Admin Code §11-510(a) |
 | Exemption phase-out rate | Reduced by $1 for each $2 of income over $95,000 | NYC Admin Code §11-510(a) |
 | Exemption fully phased out | Taxable income >= $190,000 | Computed: $95,000 + (2 x $95,000) |
-| IT-219 credit | 100% of UBT paid, limited to NYC personal income tax liability | NY Tax Law §1310(e); Form IT-219 |
-| Estimated tax threshold | $3,400 expected annual UBT liability | NYC-202EIN instructions |
+| IT-219 credit | 100% of UBT paid, limited to NYC personal income tax liability | NY Tax Law §1310(e); Form IT-219. Corroborated: NYC Comptroller fiscal note (archived `US-NY-NYC-comptroller-business-income-taxes.html`, retrieved 2026-10-28): "the City allows residents with taxable income up to $42,000 a 100% PIT credit for the UBT paid by the business entity. The credit percentage declines gradually to 23% for taxable incomes higher than $142,000." |
+| Estimated tax threshold | $3,400 expected annual UBT liability | NYC-202EIN instructions. Corroborated: Comptroller fiscal note (same archived file): "A full credit is allowed if the tax is up to $3,400, and a partial credit is allowed for tax liabilities between $3,400 and $4,500." |
 
 ### Exemption phase-out computation
 

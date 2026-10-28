@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:46:41+00:00",
+ "generated_at": "2026-10-28T20:55:42+00:00",
  "counts": {
   "guides": 2385,
   "jurisdictions": 274,
@@ -27637,10 +27637,10 @@
    "jurisdiction": "US-NY",
    "category": "payroll",
    "tier": 2,
-   "verified_by": "pending",
+   "verified_by": "archived-official-pages-2026-10-28",
    "reviewed_by": null,
    "tax_year": "2026",
-   "last_updated": "2026-10-25"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "ny-transfer-pricing",
@@ -27664,7 +27664,7 @@
    "verified_by": null,
    "reviewed_by": null,
    "tax_year": "2025",
-   "last_updated": "2026-06-12"
+   "last_updated": "2026-10-28"
   },
   {
    "slug": "oh-cat-tax",
