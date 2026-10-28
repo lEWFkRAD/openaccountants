@@ -3,7 +3,7 @@ name: bt-payroll-social
 description: "Source-cited draft: payroll & social contributions for Bhutan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -26,6 +26,45 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **TDS / salary tax remittance deadline** — TDS deducted is remitted to DRC by the deadline in the TDS Guidelines (typically within the month/quarter following deduction) ((approx — confirm exact remittance schedule))  _(Income Tax Act of the Kingdom of Bhutan 2001 (TDS provisions))_
 - **NPPF contribution remittance** — Employer remits combined employee + employer contributions to NPPF monthly  _(National Pension and Provident Fund Plan Rules and Regulations, https://www.nppf.org.bt/remittance-of-contribution/)_
 - **Annual PIT reconciliation** — Employees with income above the threshold file an annual PIT return by 31 March, reconciling TDS already withheld  _(Income Tax Act of the Kingdom of Bhutan 2001, https://www.drc.gov.bt/personal-income-tax-pit/)_
+
+## Worked examples
+
+```oa-check
+name: BT NPPF civil-service split 11% + 15% = 26% on Nu 50,000 salary
+inputs:
+  salary: 50000
+steps:
+  - employee: salary * 0.11
+  - employer: salary * 0.15
+  - total: employee + employer
+expected:
+  employee: 5500.00
+  employer: 7500.00
+  total: 13000.00
+```
+
+```oa-check
+name: BT private-sector provident fund 5% + 5% = 10% on Nu 40,000 basic
+inputs:
+  basic: 40000
+steps:
+  - employee: basic * 0.05
+  - employer: basic * 0.05
+  - total: employee + employer
+expected:
+  employee: 2000.00
+  employer: 2000.00
+  total: 4000.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| National Pension and Provident Fund Plan Rules (cited inline) | https://www.nppf.org.bt/remittance-of-contribution/ | 2026-10-28 |
+| NPPF proposal coverage (cited inline) | https://thebhutanese.bt/nppf-to-propose-major-changes/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 

@@ -3,7 +3,7 @@ name: bt-company-formation
 description: "Source-cited draft: company formation & entity choice for Bhutan (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: BT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +29,42 @@ Companies in Bhutan are formed under the Companies Act of the Kingdom of Bhutan 
 - **Annual filing — Registrar** — File annual return and audited financial statements with the Registrar of Companies ((approx — confirm deadline))  _(Companies Act of the Kingdom of Bhutan 2016)_
 - **Annual filing — tax** — File annual CIT/BIT return with DRC by 31 March following the income year ((approx — confirm exact date))  _(Income Tax Act of the Kingdom of Bhutan 2001 (https://www.drc.gov.bt/notification-tax-filing-for-income-year-2025/))_
 - **Audit requirement** — Companies must have accounts audited; the Royal Audit Authority / approved auditors per the Companies Act ((approx — confirm))  _(Companies Act of the Kingdom of Bhutan 2016)_
+
+## Worked examples
+
+```oa-check
+name: BT private limited company — no statutory minimum capital (nominal Nu 1,000 subscribed)
+inputs:
+  subscribed_capital: 1000
+  shareholders: 2
+steps:
+  - statutory_minimum: 0
+  - subscribed: subscribed_capital
+expected:
+  statutory_minimum: 0.00
+  subscribed: 1000.00
+```
+
+```oa-check
+name: BT TPN registration step count (company then tax registration)
+inputs:
+  companies_act_days: 0
+steps:
+  - tax_registration_required: 1
+  - total_registrations: 1 + tax_registration_required
+expected:
+  tax_registration_required: 1.00
+  total_registrations: 2.00
+```
+
+## Sources
+
+| Source | URL | as_of |
+|---|---|---|
+| Companies Act of the Kingdom of Bhutan 2016 (cited inline) | https://www.drc.gov.bt/ | 2026-10-28 |
+| Income Tax Act of the Kingdom of Bhutan 2001 — TPN (cited inline) | https://www.drc.gov.bt/ | 2026-10-28 |
+
+Sources are the statutes/agencies already cited inline in this guide, listed as_of 2026-10-28 and **unverified against archived evidence**.
 
 <!-- openaccountants-cta-block -->
 
