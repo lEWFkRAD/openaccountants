@@ -2,8 +2,9 @@
 name: la-tax-overview
 description: "Source-cited draft: tax overview for Laos (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LA
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -29,6 +30,27 @@ Lao PDR taxes income, profits and consumption under a codified Tax Law framework
 - **Annual financial statement filing deadline** — By 31 March following a 31 December year-end  _([Accounting Law (Lao PDR)](https://news.bloombergtax.com/daily-tax-report-international/laos-tax-agency-issues-notice-on-2025-financial-statement-filing-deadline-for-enterprise-account-holders))_
 - **Provincial / local income tax** — None — there are no provincial or local income taxes  _([Law on Income Tax (Law No. 67/NA, 2019)](https://taxsummaries.pwc.com/lao-pdr/individual/taxes-on-personal-income))_
 
+## Recomputing examples
+
+```oa-check
+name: LA CIT 20% on 100,000,000 LAK profit
+inputs:
+  profit: 100000000
+steps:
+  - cit: profit * 0.20
+expected:
+  cit: 20000000.00
+```
+```oa-check
+name: LA VAT 10% on 50,000,000 LAK supply
+inputs:
+  supply: 50000000
+steps:
+  - vat: supply * 0.10
+expected:
+  vat: 5000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -46,3 +68,11 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Law on Income Tax (Law No. 67/NA, 2019) (Lao PDR)
+- Law on Value-Added Tax (Lao PDR)
+- Law on Social Security (Lao PDR)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._

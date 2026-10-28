@@ -2,8 +2,9 @@
 name: la-corporate-income-tax
 description: "Source-cited draft: corporate income tax for Laos (tax year 2025) — rates, thresholds and rules with primary-source citations. Unverified; pending local-accountant review."
 jurisdiction: LA
+version: "0.2"
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -40,6 +41,33 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Annual financial statement filing** — By 31 March following a 31 December year-end  _(Accounting Law (Lao PDR) — https://news.bloombergtax.com/daily-tax-report-international/laos-tax-agency-issues-notice-on-2025-financial-statement-filing-deadline-for-enterprise-account-holders)_
 - **Tax base** — Domestic companies taxed on worldwide income; foreign companies on Lao-source income  _(Law on Income Tax (Law No. 67/NA, 2019) — https://taxsummaries.pwc.com/lao-pdr/corporate/taxes-on-corporate-income)_
 
+## Recomputing examples
+
+```oa-check
+name: LA profit tax 20% standard vs 22% tobacco on 100,000,000 LAK
+inputs:
+  profit: 100000000
+steps:
+  - std: profit * 0.20
+  - tobacco: profit * 0.22
+expected:
+  std: 20000000.00
+  tobacco: 22000000.00
+```
+```oa-check
+name: LA lump-sum tax on 300,000,000 LAK turnover: 1% mfg, 2% commerce, 3% services
+inputs:
+  turnover: 300000000
+steps:
+  - mfg: turnover * 0.01
+  - commerce: turnover * 0.02
+  - services: turnover * 0.03
+expected:
+  mfg: 3000000.00
+  commerce: 6000000.00
+  services: 9000000.00
+```
+
 <!-- openaccountants-cta-block -->
 
 ---
@@ -57,3 +85,9 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+- Law on Income Tax (Law No. 67/NA, 2019) (Lao PDR)
+
+_Sources listed from citations already present in the guide; as_of: 2026-10-28; unverified against archived evidence._
