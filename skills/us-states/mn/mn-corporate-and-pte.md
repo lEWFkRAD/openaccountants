@@ -3,7 +3,7 @@ name: mn-corporate-and-pte
 description: Minnesota Corporate Franchise Tax and Pass-Through Entity Tax
 jurisdiction: US-MN
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -49,7 +49,7 @@ The standing rule: this skill produces a credentialed-reviewer-ready Minnesota s
 
 ### 2.1 Statutory rate
 
-- **Minnesota corporate franchise tax rate** — 9.8% percent (Flat rate on Minnesota taxable income of every C-corporation doing business in Minnesota)  _(Minn. Stat. §290.06 subd. 1)_
+- **Minnesota corporate franchise tax rate** — 9.8% percent (Flat rate on Minnesota taxable income of every C-corporation doing business in Minnesota)  _(Minn. Stat. §290.06 subd. 1)_ Verified 2026-10-28 verbatim vs archived Minn. Stat. §290.06 subd. 1: "applying to their taxable income the rate of 9.8 percent". The archived §290.06 also shows the individual schedule (5.35/6.8/7.85/9.85%) with 2025 brackets ($38,770/$154,020/$269,010 MFJ), confirming the four-bracket structure in mn-income-tax.
 
 This is one of the three highest state corporate income tax rates in the United States (only New Jersey at 11.5% top with surtax and Pennsylvania historically at 9.99% formerly competed; New Jersey allowed its 2.5% Corporation Business Tax surtax to lapse and then reinstated it for 2024-2028; Pennsylvania is on a phase-down schedule to 4.99% by 2031).
 

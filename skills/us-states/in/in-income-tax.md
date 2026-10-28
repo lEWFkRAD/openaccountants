@@ -1,10 +1,10 @@
 ---
 name: in-income-tax
 description: Use this skill whenever asked about Indiana individual income tax. Trigger on phrases like "Indiana income tax", "IN income tax", "IT-40", "Indiana county tax", "IC 6-3". Indiana has a flat 2.95% state rate plus mandatory county income taxes (0.5%–3.38%). ALWAYS load us-tax-workflow-base first.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-IN
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -12,7 +12,7 @@ tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# India income tax for resident individuals: salary, freelancers and small businesses (Tax Year 2026-27, with AY 2026-27 returns)
+> **MIS-PUBLICATION NOTICE (2026-10-28).** The body of this guide is the **India** individual income tax guide (Income-tax Act, 2025 / AY 2026-27, rupee amounts, incometax.gov.in citations) mis-published under the Indiana slug — same defect class as the former US-ID id-income-tax guide. The frontmatter description (flat 2.95% + county 0.5%–3.38%) reflects Indiana, but no Indiana statute text could be verified this run: archived evidence US-IN-ic6-3-1/6-8-1/6-25/iga-ic6 are all 691-byte iga.in.gov JavaScript shells ("JS shell / section text not found"). Do NOT use the body for Indiana questions; use `in-payroll` (tier 2, 3.15% 2025 rate, 92-county schedule) until this guide is rewritten. Rate needs-sources: 2.95% (2025) phasing to 2.9% by 2027 per HEA 1004/IC 6-3-1-3.5; not machine-verifiable from archived evidence.
 
 ## Scope and who this is for ([Income Tax Department: objective and scope of the new Act](https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/objective-and-scope-new-act-faq))
 

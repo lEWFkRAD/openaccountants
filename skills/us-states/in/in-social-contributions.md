@@ -14,8 +14,8 @@ jurisdiction: US-IN
 category: payroll
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - in-payroll

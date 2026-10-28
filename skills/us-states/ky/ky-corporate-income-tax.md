@@ -14,8 +14,8 @@ jurisdiction: US-KY
 category: corporate
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - ky-income-tax
@@ -39,7 +39,7 @@ Source-cited draft, run of 27 October 2026. Kentucky taxes corporations at a **f
 
 | Item | Rate / base | Source |
 |---|---|---|
-| Corporation income tax | **flat 5%** (TYB ≥ 2018-01-01) | DOR corporate page, read 2026-10-27 |
+| Corporation income tax | **flat 5%** (TYB ≥ 2018-01-01) | DOR corporate page, read 2026-10-27; re-verified 2026-10-28 verbatim vs archived page: "For tax years beginning on or after January 1, 2018, the previous rate brackets have been replaced with a flat 5% tax rate" |
 | LLET minimum | **$175** (visible on Form 720 credit line) | Form 720 PDF, read 2026-10-27 |
 | LLET gross-receipts tiers | tiered on gross receipts (current schedule: **needs-sources**) | KRS 141.035 — JS shell |
 | Combined report | unitary combined required (TYB ≥ 2019) | DOR page, read 2026-10-27 |

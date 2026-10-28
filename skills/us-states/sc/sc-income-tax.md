@@ -1,10 +1,10 @@
 ---
 name: sc-income-tax
 description: Triggers when the taxpayer is a South Carolina resident sole proprietor or single-member LLC needing to file South Carolina Form SC1040. Covers SC's three-bracket graduated income tax (0%/3%/6% for tax year 2025, top rate recently reduced from 7%), the 3% reduced rate for active trade or business income, SC modifications to federal taxable income, and IRC conformity. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-SC
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -55,13 +55,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | SC taxable income (approximate) | Effective rate |
 | --- | --- |
-| $0 – $3,560 (verify 2025) | 0% |
+| $0 – $3,560 (verify 2025) | 0% |  — 6% top rate and simplified formula confirmed verbatim in archived 2025 SC1040TT: "Multiply the amount on line 5 by 6%... Subtract $642"
 | $3,561 – $17,840 (verify 2025) | 3% |
 | Over $17,840 (verify 2025) | 6% |
 
-- **Simplified computation for income ≥ $100,000** — 6% × taxable income − $642
+- **Simplified computation for income ≥ $100,000** — 6% × taxable income − $642  (verified verbatim vs archived SC1040TT 2025 worksheet: "X .06 (6%)... subtract $642 (constant)")
 
-**Note:** The bracket thresholds are inflation-indexed annually. The exact 2025 thresholds should be verified against the SC1040TT. The top rate has been reduced from 7% (2021 and prior) to 6% for 2025 through a series of annual legislative reductions.
+**Note:** H. 4216 was signed 2026-03-30 (archived SCDOR news page): 1.99% under $30,000, 5.21% minus $966 at $30,000+, further BEA-triggered cuts (5% revenue growth, $200M cap, Feb 15 determination), decoupling from federal deductions with new SCIAD ($15,000 single / $22,500 HoH / $30,000 MFJ). Bracket thresholds are inflation-indexed annually (SC Code §12-6-520, cumulative December 15 adjustment). The exact 2025 thresholds should be verified against the SC1040TT. The top rate has been reduced from 7% (2021 and prior) to 6% for 2025 through a series of annual legislative reductions.
 
 ### Top rate history
 
@@ -74,7 +74,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 2023 | 6.4% |
 | 2024 | 6.2% |
 | 2025 | 6.0% |
-| 2026 (H. 4216) | 5.21% (new two-bracket system) |
+| 2026 (H. 4216) | 1.99% under $30,000 / 5.21% − $966 at $30,000+ |
 
 ### Active trade or business income — reduced rate
 

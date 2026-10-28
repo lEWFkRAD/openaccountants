@@ -4,7 +4,7 @@ description: Use this skill whenever asked about Alabama individual income tax f
 jurisdiction: US-AL
 tier: 2
 last_updated: 2026-06-12
-version: "0.1"
+version: "0.2"
 validation_status: ai-drafted-q3
 ---
 
@@ -49,7 +49,7 @@ validation_status: ai-drafted-q3
 |---|---|
 | $0 – $500 | 2% |
 | $501 – $3,000 | 4% |
-| Over $3,000 | 5% |
+| Over $3,000 | 5% |  — verified verbatim 2026-10-28 vs archived ALDOR Individual Income Tax FAQs: "2% First $500 of taxable income / 4% Next $2,500 / 5% All taxable income over $3,000" (single/HoH/MFS); MFJ: "2% First $1,000 / 4% Next $5,000 / 5% over $6,000"
 
 **Married Filing Jointly:**
 

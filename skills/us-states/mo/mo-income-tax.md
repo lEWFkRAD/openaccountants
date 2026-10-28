@@ -4,7 +4,7 @@ description: Use this skill whenever asked about Missouri individual income tax 
 version: "0.1"
 jurisdiction: US-MO
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2

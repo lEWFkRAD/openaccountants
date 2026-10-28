@@ -1,10 +1,10 @@
 ---
 name: ia-sales-tax
 description: Use this skill whenever asked about Iowa sales and use tax. Trigger on phrases like "Iowa sales tax", "IA sales tax", "IDR", "Iowa Code §423", "Iowa LOST". ALWAYS load us-sales-tax first.
-version: 2.0
+version: 2.1
 jurisdiction: US-IA
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2

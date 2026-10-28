@@ -1,10 +1,10 @@
 ---
 name: ct-income-tax
 description: Use this skill whenever asked about Connecticut individual income tax for self-employed individuals or sole proprietors — filing Form CT-1040, CT estimated tax (Form CT-1040ES), Connecticut tax brackets, Connecticut personal exemption, or any query involving Connecticut state income tax compliance. Trigger on phrases like "Connecticut income tax", "CT income tax", "Form CT-1040", "Connecticut estimated tax", "Connecticut self-employed tax", "DRS income tax", "CT AGI", or "Conn. Gen. Stat. §12-700".
-version: "0.1"
+version: "0.2"
 jurisdiction: US-CT
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -66,7 +66,7 @@ Form CT-1040 line numbers are from the 2025 return.
 
 ### Table B, initial tax (2025 and 2026, all rates from 2024) ([2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf))
 
-The two lowest rates were cut for tax years from 2024: Conn. Gen. Stat. § 12-700 shows 3.0% and 5.0% for years before 2024 and 2.0% and 4.5% "For taxable years commencing on or after January 1, 2024" ([Chapter 229](https://www.cga.ct.gov/current/pub/chap_229.htm)).
+The two lowest rates were cut for tax years from 2024: Conn. Gen. Stat. § 12-700 shows 3.0% and 5.0% for years before 2024 and 2.0% and 4.5% "For taxable years commencing on or after January 1, 2024" ([Chapter 229](https://www.cga.ct.gov/current/pub/chap_229.htm)). Verified 2026-10-28 against archived 2026 Form CT-1040ES: single/MFS schedule ($200/4.5% over $10,000 ... $31,250 plus 6.99% over $500,000) and MFJ schedule ($400/4.5% over $20,000 ... $62,500 plus 6.99% over $1,000,000) match the tables below verbatim.
 
 | Connecticut taxable income (single or married filing separately) | Tax |
 | --- | --- |

@@ -13,7 +13,7 @@ tax_year: 2026
 tier: 2
 verified_by: pending
 last_updated: 2026-10-25
-version: 0.1
+version: 0.2
 ---
 
 # Minnesota social contributions (PFML + MinnesotaCare)
