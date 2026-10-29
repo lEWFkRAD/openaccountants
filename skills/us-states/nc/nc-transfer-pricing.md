@@ -35,7 +35,7 @@ C corporations filing North Carolina Form CD-405 that are members of a controlle
 - **Royalty reporting option.** § 105-130.7A gives taxpayers an option concerning the method by which royalty payments to related members are reported; § 105-130.5 cross-references "royalty payments required to be added by G.S. 105-130.7A, to the extent deducted in calculating federal taxable income." Electing the option changes whether royalties are added back or the underlying income is included. _(§ 105-130.7A; § 105-130.5)_
 - **Corporate rate for 2026: 2%.** G.S. 105-130.3 schedule, verified 2026-10-25: 2025 → 2.25%; 2026 → 2%; 2028 → 1%; after 2029 → 0%. Addback income is taxed at these rates, so the dollar bite shrinks each year of the phase-out. _(§ 105-130.3)_
 - **Single-sales-factor apportionment** with market-based sourcing; the **alternative apportionment** escape hatch (§ 105-130.4(t1)) lets the Secretary modify the factor when the standard factor does not fairly reflect NC activity — the tool NCDOR uses against engineered IP/servicing footprints. _(§ 105-130.4, text verified 2026-10-25)_
-- **Combined reporting.** Affiliated groups file the combined return (Form CD-405 combined) — corroborated by the `nc-corporate-tax` skill; the controlling combined-reporting statute section was **not located on ncleg.gov on 2026-10-25: needs-sources**.
+- **Combined reporting.** Affiliated groups file the combined return (Form CD-405 combined) — corroborated by the `nc-corporate-tax` skill; the controlling combined-reporting statute section was **not located on ncleg.gov on 2026-10-25: not yet confirmed**.
 
 ## The taxable base
 
@@ -59,7 +59,7 @@ Start from federal taxable income (after the corporate rate applies to state net
 ## Penalties and interest
 
 - Underpayment of estimated installments: interest runs from each installment due date to the earlier of payment or Apr 15 of the following year (§ 105-163.15(c) mechanics, verified 2026-10-25).
-- Late filing/failure to file: standard Chapter 105 penalties (5% per month up to 5%, plus interest) — exact current schedule in NCDOR bulletin; **needs-sources** for the 2026 published rate.
+- Late filing/failure to file: standard Chapter 105 penalties (5% per month up to 5%, plus interest) — exact current schedule in NCDOR bulletin; **not yet confirmed** for the 2026 published rate.
 - Addback positions are a named NCDOR audit focus; documentation of the related-member's state of residence and its inclusion in another state's combined report is the standard defense file.
 
 ## Cross-border points

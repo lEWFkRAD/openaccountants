@@ -35,10 +35,10 @@ version: 0.1
 ## Core rules and rates
 
 - **Filing test (§ 105-153.8, text verified 2026-10-25).** A nonresident must file if NC-source gross income, **combined with total worldwide gross income**, exceeds the standard deduction. The test uses total gross income, not just NC income — a trap that catches low-NC-income filers.
-- **Standard deduction (§ 105-153.5, text verified 2026-10-25):** $12,750 single / $25,500 joint for 2025; NC indexes annually — **2026 figures needs-sources** (NCDOR publishes in the D-400 instructions).
+- **Standard deduction (§ 105-153.5, text verified 2026-10-25):** $12,750 single / $25,500 joint for 2025; NC indexes annually — **2026 figures not yet confirmed** (NCDOR publishes in the D-400 instructions).
 - **Rate (§ 105-153.7, text verified 2026-10-25):** flat 3.99% for taxable years beginning after 2025, with a statutory trigger that can reduce it to as low as 2.49% when revenue targets and rate-cuts in other states align — check the current-year NCDOR rate before quoting anything else.
 - **Sourcing (§ 105-153.2, text verified 2026-10-25):** compensation is sourced to where services are performed; business income follows the apportionment concepts; NC real-estate gains are NC-source; NC-sourced dividends/interest follow the payer/residence conventions in the section.
-- **Withholding:** NC employers withhold on all wages including nonresidents (§ 105-163.1, text verified 2026-10-25). Nonresident withholding on NC real-estate dispositions: the commonly cited 2% rule (G.S. 105-163.14) **returned 404 on ncleg.gov 2026-10-25 — needs-sources** for the current successor provision; verify against the current D-400NR/real-estate forms before advising.
+- **Withholding:** NC employers withhold on all wages including nonresidents (§ 105-163.1, text verified 2026-10-25). Nonresident withholding on NC real-estate dispositions: the commonly cited 2% rule (G.S. 105-163.14) **returned 404 on ncleg.gov 2026-10-25 — not yet confirmed** for the current successor provision; verify against the current D-400NR/real-estate forms before advising.
 - **No reciprocity.** NC has no income-tax reciprocity agreement with any state — unlike the ND/MN/MI/MT cluster. A nonresident commuter pays the other state's tax AND files NC on NC-source work.
 
 ## The taxable base
@@ -57,9 +57,9 @@ D-400NR computes NC taxable income by starting with federal AGI, then removing n
 
 ## Penalties and interest
 
-- Late filing/failure to pay: Chapter 105 penalties (5% per month up to 5%) plus interest; the 2026 published underpayment rate is on the NCDOR rate page — **needs-sources** for the current percentage.
+- Late filing/failure to pay: Chapter 105 penalties (5% per month up to 5%) plus interest; the 2026 published underpayment rate is on the NCDOR rate page — **not yet confirmed** for the current percentage.
 - Underpaid installments: interest from each installment due date (§ 105-163.15(c)).
-- Nonresident real-estate withholding errors: agent/broker liability under the current successor to 105-163.14 — **needs-sources** (see § 2).
+- Nonresident real-estate withholding errors: agent/broker liability under the current successor to 105-163.14 — **not yet confirmed** (see § 2).
 
 ## Cross-border points
 
@@ -67,7 +67,7 @@ D-400NR computes NC taxable income by starting with federal AGI, then removing n
 
 - **Commuters:** VA/SC/TN/GA workers who perform services in NC owe NC on those wages; the home state generally credits the NC tax (most home states grant a credit for tax paid to NC on work performed there).
 - **Remote workers:** an employee working from NC for an out-of-state employer creates NC-source wages and NC withholding; the employer's nexus analysis follows P.L. 86-272 only for protected solicitation — services are never protected.
-- **Pass-throughs:** NC-source income allocated to nonresident partners; NC requires the entity to report and, in some structures, withhold/issue K-1s with NC allocations — composite-return availability: **needs-sources** (not located on ncleg.gov 2026-10-25).
+- **Pass-throughs:** NC-source income allocated to nonresident partners; NC requires the entity to report and, in some structures, withhold/issue K-1s with NC allocations — composite-return availability: **not yet confirmed** (not located on ncleg.gov 2026-10-25).
 - **P.L. 86-272:** protects solicitation of orders for tangible personal property only; NC taxes net income of nonresident corporations beyond that protection via the single sales factor.
 
 ## Worked examples
@@ -90,7 +90,7 @@ expected:
 
 The worldwide-income test is met, so a D-400NR is required even though only $30,000 is NC-source.
 
-**Example 2 — NC tax on NC taxable income.** Same filer; after removing non-NC income and applying the NC standard deduction, NC taxable income is $80,000 (illustrative). Rate 3.99%.
+**Example 2 — NC tax on NC taxable income.** Same filer; after removing non-NC income and applying the NC standard deduction, NC taxable income is $80,000 (hypothetical client facts). Rate 3.99%.
 
 ```oa-check
 name: nc nonresident tax

@@ -265,7 +265,7 @@ Used when income is lumpy or seasonal — large Q3 or Q4 capital gain, freelance
 
 > **Note.** The Q4 cumulative requirement ($4,437) can be less than already paid ($4,489) when income decelerates after Q3. In that case the Q4 installment falls to zero. Form D-422 then carries the "excess Q3" forward as a credit toward any remaining shortfall — interest on any earlier underpayment is still computed period by period.
 
-`[VERIFY:]` These illustrative numbers approximate the mechanics; an actual return uses D-422A line by line with the precise NC AGI, NC standard deduction (annualized), and child deduction (annualized). Run the worksheet against the live taxpayer facts before relying on figures.
+`[VERIFY:]` These hypothetical-example numbers approximate the mechanics; an actual return uses D-422A line by line with the precise NC AGI, NC standard deduction (annualized), and child deduction (annualized). Run the worksheet against the live taxpayer facts before relying on figures.
 
 ## Section 7: Form NC-40 vouchers — line by line
 
@@ -611,8 +611,6 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 ## Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
 
 <!-- openaccountants-cta-block -->
 

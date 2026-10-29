@@ -232,7 +232,7 @@ Common audit error: NC-based payers often miss this 4% withholding when paying o
 | 2023 | $29,600 |
 | 2024 | $31,400 |
 | **2025** | **$32,600** |
-| 2026 | TBD (announced each November by DES) |
+| 2026 | $34,200 (DES tax-rate information, read 2026-10-29) |
 
 - **Wage base recalculation methodology** — The wage base is recalculated annually per NCGS §96-9.3 based on 50% of the average weekly wage in covered employment for the prior year. This is higher than the federal FUTA base of $7,000 (which has not changed since 1983) and meaningfully higher than many southeastern peers.  _(NCGS §96-9.3)_
 
