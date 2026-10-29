@@ -54,6 +54,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Economic nexus history prohibition** — NEVER forget Missouri was the last state to enact economic nexus (2023).  _(Section 10 -- Prohibitions)_
 - **No computation prohibition** — NEVER compute any number.  _(Section 10 -- Prohibitions)_
 
+## Sources
+
+No archived primary source has been retrieved for the figures in this skill yet (state rate, local range, maximum combined rate, grocery rate, nexus threshold).
+
+Not yet confirmed: the figures above — they stay unconfirmed until the primary source (RSMo 144 / MODOR guidance) is archived.
+
 ## Disclaimer
 
 Informational only. Review by qualified professional required before filing.

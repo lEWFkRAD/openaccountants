@@ -35,7 +35,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Last updated | 2026-05-22 |
 | Validation | AI-drafted — Q3 |
 
-### Sources consulted
+## Sources
 
 **Sources consulted**
 
@@ -45,6 +45,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 2 | RSMo § 143.011 (tax rate) | https://revisor.mo.gov/main/OneSection.aspx?section=143.011 |
 | 3 | Missouri Form MO-1040 Instructions | https://dor.mo.gov/taxation/individual/tax-types/income/forms/ |
 | 4 | RSMo § 143.121 (Missouri adjusted gross income) | https://revisor.mo.gov/main/OneSection.aspx?section=143.121 |
+
+Not yet confirmed: the sources above are listed but none has been archived with a retrieval date — figures tied to them stay unconfirmed until the source is archived.
 
 ## Section 2: Quick reference — rates and thresholds
 

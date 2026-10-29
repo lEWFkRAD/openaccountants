@@ -503,7 +503,7 @@ Before signoff on a Missouri payroll engagement, the reviewer must confirm:
 - **R-MO-6** — Questions about the KC or St. Louis profits tax (the separate 1% tax on business net profits). Out of scope — this skill covers only the earnings-tax portion that applies to wages.
 - **R-MO-7** — Garnishment, wage assignment, or child support withholding mechanics beyond the new-hire-reporting trigger.
 
-## 14. Sources and Citations
+## Sources
 
 - §143.011 RSMo (Missouri personal income tax brackets)
 - §143.011.5 RSMo (Revenue-trigger phase-down of top marginal rate)
@@ -536,6 +536,8 @@ Before signoff on a Missouri payroll engagement, the reviewer must confirm:
 - 26 U.S.C. §3401 note (Revenue Act of 1978 §530 — for cross-reference only)
 - Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA), 42 U.S.C. §653a (Multistate employer new hire reporting)
 - Military Spouses Residency Relief Act (MSRRA), 50 U.S.C. §4001 et seq.
+
+Not yet confirmed: the citations above are listed but none has been archived with a retrieval date — figures tied to them stay unconfirmed until the source is archived.
 
 ## End of mo-payroll.md verification note
 
