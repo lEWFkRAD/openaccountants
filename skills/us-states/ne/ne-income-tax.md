@@ -34,8 +34,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Supporting schedules | Schedule I (Nebraska Adjustments to Income), Schedule II (Credits), Schedule III (Computation of Nebraska Tax) |
 | Tax structure | Graduated (4 brackets) |
 | Rate range | 2.46% – 5.20% (TY 2025) |
-| Filing deadline | April 15, 2026 |
-| Extension deadline | October 15, 2026 |
+| Filing deadline | April 15, 2026 (§ 77-2768, archived `SRC-US-NE-77-2768`; DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`) |
+| Extension deadline | October 15, 2026 (see Not yet confirmed in Sources) |
 | Tax authority | Nebraska Department of Revenue |
 | Website | https://revenue.nebraska.gov |
 | Statute | Neb. Rev. Stat. §77-2715.03 |
@@ -154,10 +154,10 @@ Schedule C net profit flows into federal AGI, which is the starting point for Ne
 
 | Installment | Due date |
 | --- | --- |
-| 1st quarter | April 15 |
-| 2nd quarter | June 15 |
-| 3rd quarter | September 15 |
-| 4th quarter | January 15 (following year) |
+| 1st quarter | April 15 (DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`) |
+| 2nd quarter | June 15 (DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`) |
+| 3rd quarter | September 15 (DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`) |
+| 4th quarter | January 15 (following year) (DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`, 01/15/2026 entries) |
 
 Form 1040N-ES is used for estimated tax payments.
 
@@ -289,7 +289,7 @@ This skill and its outputs are provided for informational and computational purp
 | DOR individual income tax page | https://revenue.nebraska.gov/individuals/individual-income-tax | 2026-10-28 |
 | DOR Tax Calendar (April 15 / October 15, 2026 entries) | https://revenue.nebraska.gov/about/tax-calendar | 2026-10-28 |
 
-Not yet confirmed: the personal exemption credit amount ($157, TY2025 — statute § 77-2716.01 not archived this run); the Social Security exemption statute cite (LB 873, 2024); Nebraska's current IRC §168(k) bonus-depreciation conformity status; the § 77-2770 estimated-tax rule (the archived § 77-2769 sets the $500 threshold); Form 1040N line-number mapping (booklet not archived).
+Not yet confirmed: the personal exemption credit amount ($157, TY2025 — statute § 77-2716.01 not archived this run); the Social Security exemption statute cite (LB 873, 2024); Nebraska's current IRC §168(k) bonus-depreciation conformity status; the § 77-2770 estimated-tax rule (the archived § 77-2769 sets the $500 threshold); Form 1040N line-number mapping (booklet not archived); the October 15, 2026 extension deadline (the archived DOR Tax Calendar shows 04/15, 06/15, 09/15 and 01/15 entries but no 10/15 entry).
 
 ## Talk to a verified accountant
 
