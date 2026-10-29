@@ -141,12 +141,13 @@ expected:
 
 ## Sources
 
-1. Missouri DOR, Form MO-1120 General Instructions (2025): <https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf> — 200 with full text, read 2026-10-27.
-2. Missouri DOR, Form MO-1120ES (2026): <https://dor.mo.gov/forms/MO-1120ES_2026.pdf> — 200 with full text, read 2026-10-27.
-3. Missouri DOR tax types index: <https://dor.mo.gov/taxation/> — 200, read 2026-10-27.
-4. Form MO-470 instructions (related-party addback): <https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf> — **403 on 2026-10-27, not yet confirmed**.
-
-Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | Missouri DOR, Form MO-1120 General Instructions (2025) | https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf | 2026-10-28 |
+| 2 | Missouri DOR, Form MO-1120ES (2026) | https://dor.mo.gov/forms/MO-1120ES_2026.pdf | 2026-10-28 |
+| 3 | Missouri DOR tax types index | https://dor.mo.gov/taxation/ | 2026-10-28 |
+| 4 | Form MO-470 instructions (related-party addback) | https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf | 2026-10-29 |
+Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived with readable text..
 
 ## Talk to a verified accountant
 

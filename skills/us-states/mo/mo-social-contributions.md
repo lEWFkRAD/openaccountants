@@ -112,11 +112,14 @@ expected:
 
 ## Sources
 
-1. Existing tier-2 skill `mo-payroll` (UI wage base, rates, §288 cites, verified against the DES 2025 contribution-rate notice): repo `skills/us-states/mo/mo-payroll.md`.
-2. Missouri Division of Employment Security rate pages: <https://labor.mo.gov/UIE/rates> — **404 on 2026-10-27, not yet confirmed** for CY2026 base/rates and UI-side penalty percentages.
-3. Mo. Rev. Stat. ch. 288 (§§288.034, 288.036.2, 288.121, 288.123) as cited in `mo-payroll`.
-
-Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | Existing tier-2 skill `mo-payroll` (UI wage base, rates, §288 cites, verified against the DES 2025 contribution-rate notice) | repo `skills/us-states/mo/mo-payroll.md` | 2026-10-28 |
+| 2 | Missouri Division of Employment Security rate pages | https://labor.mo.gov/UIE/rates | 2026-10-29 |
+| 3 | Mo. Rev. Stat. ch. 288 (§§288.034, 288.036.2, 288.121, 288.123) as cited in `mo-payroll` | https://revisor.mo.gov/main/OneSection.aspx?section=288.036 | 2026-10-29 |
+| 4 | Mo. Rev. Stat. §288.123 (benefit charges/rate computation) | https://revisor.mo.gov/main/OneSection.aspx?section=288.123 | 2026-10-29 |
+| 5 | Mo. Rev. Stat. §288.160 (penalties) | https://revisor.mo.gov/main/OneSection.aspx?section=288.160 | 2026-10-29 |
+Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived with readable text..
 
 ## Talk to a verified accountant
 

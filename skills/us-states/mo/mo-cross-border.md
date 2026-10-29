@@ -130,11 +130,12 @@ Both cities assert a claim — KC on residency, STL on situs of work. Whether on
 
 ## Sources
 
-1. Existing tier-2 skills: `mo-income-tax` (MO-1040P/MO-NRI/MO-CR table, city earnings tax table) and `mo-payroll` (KC ch. 68 / §92.110, STL ch. 5.22, §92.115 reauthorization, nonresident withholding, MSRRA) — repo `skills/us-states/mo/`.
-2. Missouri DOR, MO-1040PNR instructions (2025): <https://dor.mo.gov/forms/MO-1040PNR%20Instructions_2025.pdf> — **403 on 2026-10-27, not yet confirmed** for allocation worksheets and thresholds.
-3. §32.065 RSMo interest (7% from 1 Jan 2026) via the MO-1120 2025 instructions fetch, 200, read 2026-10-27.
-
-Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | Existing tier-2 skills: `mo-income-tax` and `mo-payroll` (MO-1040P/MO-NRI/MO-CR table, city earnings tax table, KC ch. 68 / §92.110, STL ch. 5.22, §92.115, nonresident withholding, MSRRA) | repo `skills/us-states/mo/` | 2026-10-28 |
+| 2 | Missouri DOR, MO-1040PNR instructions (2025) | https://dor.mo.gov/forms/MO-1040PNR%20Instructions_2025.pdf | 2026-10-27 |
+| 3 | §32.065 RSMo interest (7% from 1 Jan 2026) via the MO-1120 2025 instructions fetch | https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf | 2026-10-28 |
+Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived with readable text..
 
 ## Talk to a verified accountant
 

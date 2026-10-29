@@ -66,9 +66,15 @@ No worked examples — this skill states figures only and never computes.
 
 ## Sources
 
-No archived primary source has been retrieved for the figures in this skill yet (state rate, local range, maximum combined rate, grocery rate, nexus threshold).
-
-Not yet confirmed: the figures above — they stay unconfirmed until the primary source (RSMo 144 / MODOR guidance) is archived.
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | Missouri DOR taxation index | https://dor.mo.gov/taxation/ | 2026-10-28 |
+| 2 | RSMo §144.010 (imposition of sales tax) | https://revisor.mo.gov/main/OneSection.aspx?section=144.010 | 2026-10-29 |
+| 3 | RSMo §144.020 (definitions) | https://revisor.mo.gov/main/OneSection.aspx?section=144.020 | 2026-10-29 |
+| 4 | RSMo §144.030 (sales tax rate) | https://revisor.mo.gov/main/OneSection.aspx?section=144.030 | 2026-10-29 |
+| 5 | RSMo §144.034 (grocery food reduced rate) | https://revisor.mo.gov/main/OneSection.aspx?section=144.034 | 2026-10-29 |
+| 6 | MyTax Missouri portal | https://mytax.mo.gov | 2026-10-28 |
+Not yet confirmed: the figures above (state rate, local range, maximum combined rate, grocery rate, nexus threshold) — the sources were archived on the dates shown, but the archive fetches did not return usable text, so the figures stay unconfirmed until readable primary text is archived.
 
 
 ### Disclaimer

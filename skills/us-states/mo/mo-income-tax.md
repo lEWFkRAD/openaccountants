@@ -199,16 +199,13 @@ This skill and its outputs are provided for informational and computational purp
 
 ## Sources
 
-**Sources consulted**
-
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | Missouri DOR — Individual Income Tax Year Changes | https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/ |
-| 2 | RSMo § 143.011 (tax rate) | https://revisor.mo.gov/main/OneSection.aspx?section=143.011 |
-| 3 | Missouri Form MO-1040 Instructions | https://dor.mo.gov/taxation/individual/tax-types/income/forms/ |
-| 4 | RSMo § 143.121 (Missouri adjusted gross income) | https://revisor.mo.gov/main/OneSection.aspx?section=143.121 |
-
-Not yet confirmed: the sources above are listed but none has been archived with a retrieval date — figures tied to them stay unconfirmed until the source is archived.
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | Missouri DOR — Individual Income Tax Year Changes | https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/ | 2026-10-28 |
+| 2 | RSMo § 143.011 (tax rate) | https://revisor.mo.gov/main/OneSection.aspx?section=143.011 | 2026-10-28 |
+| 3 | Missouri Form MO-1040 Instructions | https://dor.mo.gov/forms/MO-1040%20Instructions_2025.pdf | 2026-10-29 |
+| 4 | RSMo § 143.121 (Missouri adjusted gross income) | https://revisor.mo.gov/main/OneSection.aspx?section=143.121 | 2026-10-28 |
+Not yet confirmed: the sources above are archived on the dates shown, but the archive fetches did not return usable text for every row — figures tied to them stay unconfirmed until readable primary text is archived.
 
 ## Talk to a verified accountant
 
