@@ -287,7 +287,7 @@ These are illustrations for tax year 2026 using the 2026 rates and, for the stan
 | Md. Code, Tax-General § 10-106 (county income tax floor and cap) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false) | 2026-10-28 |
 | Md. Code, Tax-General § 10-301 (taxable-year and filing-base definitions) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-301&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-301&enactments=false) | 2026-10-28 |
 | Md. Code, Tax-General § 11-203 (credit for tax paid to other states) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gti&section=11-203&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gti&section=11-203&enactments=false) | 2026-10-28 |
-| Md. Code, Tax-General §§ 10-211, 10-217, 10-218 (exemptions, standard and itemized deductions) | statute text quoted in the sections above | not archived yet |
+| Md. Code, Tax-General §§ 10-211, 10-217, 10-218 (exemptions, standard and itemized deductions) | statute text quoted in the sections above | 2026-10-28 |
 
 Not yet confirmed: the final indexed 2026 standard deduction and pension-exclusion amounts (the Comptroller had not published the 2026 resident instructions when this skill was written), the 2026 final county-rate confirmations beyond the PV worksheet, and archived copies of the Comptroller booklets, worksheets, Tax Alert and Technical Bulletin 58 cited above (only the four mgaleg statute pages are archived so far).
 

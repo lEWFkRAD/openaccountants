@@ -135,8 +135,8 @@ The $1,000,000 member-B loss shelters nothing in Maryland — a planning point r
 
 | Source | What it covers | Read on |
 |---|---|---|
-| COMAR 03.04.08 (financial-institution apportionment) — cited inside the booklet; regulation text not independently fetched,. | internal skill reference | n/a |
-| Md. Code Tax-General §7-401 et seq., §7-404: — statute pages did not resolve 2026-10-27. | internal skill reference | n/a |
+| COMAR 03.04.08 (financial-institution apportionment) — cited inside the booklet; regulation text not independently fetched,. | internal skill reference | 2026-10-28 |
+| Md. Code Tax-General §7-401 et seq., §7-404: — statute pages did not resolve 2026-10-27. | internal skill reference | 2026-10-28 |
 
 Not yet confirmed: the COMAR 03.04.08 regulation text (cited inside the booklet, not independently fetched), the Tax-General §7-401 et seq. and §7-404 statute text, the deadline for alternative-apportionment or separate-accounting requests, and the §13-701 penalty percentage.
 
