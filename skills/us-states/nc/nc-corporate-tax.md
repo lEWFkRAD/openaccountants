@@ -45,17 +45,17 @@ This skill covers North Carolina state-level entity-level taxes:
 
 | Income Year Beginning On or After | Rate | Statutory Basis |
 | --- | --- | --- |
-| Jan 1, 2017 | 3.00% | Pre-SB 105 baseline |
-| Jan 1, 2019 | 2.50% | Prior phase-down (S.L. 2017-57) |
-| Jan 1, 2022 | 2.50% | SB 105 confirms |
-| Jan 1, 2023 | 2.50% | SB 105 confirms |
-| Jan 1, 2024 | 2.50% | SB 105 confirms |
-| **Jan 1, 2025** | **2.25%** | SB 105, § 42.1.(a) |
-| Jan 1, 2026 | 2.00% | SB 105 |
-| Jan 1, 2027 | 2.00% | SB 105 |
-| Jan 1, 2028 | 1.00% | SB 105 |
-| Jan 1, 2029 | 0.50% | SB 105 |
-| **Jan 1, 2030 and later** | **0.00%** | SB 105 — full repeal of CIT |
+| Jan 1, 2017 | 3.00% | Pre-SB 105 baseline (not archived; not yet confirmed) (not archived; not yet confirmed) |
+| Jan 1, 2019 | 2.50% | Prior phase-down (S.L. 2017-57) (not archived; not yet confirmed) (not archived; not yet confirmed) |
+| Jan 1, 2022 | 2.50% | § 105-130.3 archived table shows no 2022 row; historical rate not yet confirmed |
+| Jan 1, 2023 | 2.50% | § 105-130.3 archived table shows no 2023 row; historical rate not yet confirmed |
+| Jan 1, 2024 | 2.50% | § 105-130.3 archived table shows no 2024 row; historical rate not yet confirmed |
+| **Jan 1, 2025** | **2.25%** | § 105-130.3 archived table: "In 2025 2.25%" |
+| Jan 1, 2026 | 2.00% | § 105-130.3 archived table: "In 2026 2%" |
+| Jan 1, 2027 | 2.00% | § 105-130.3 archived table lists no 2027 row; not yet confirmed |
+| Jan 1, 2028 | 1.00% | § 105-130.3 archived table: "In 2028 1%" |
+| Jan 1, 2029 | 0.50% | § 105-130.3 archived table lists no 2029 row; not yet confirmed |
+| **Jan 1, 2030 and later** | **0.00%** | § 105-130.3 archived table: "After 2029 0%" |
 
 ## 2. Corporate Income Tax — Phase-Out Schedule
 
@@ -71,7 +71,7 @@ S.L. 2021-180 (Session Law of November 18, 2021), known as SB 105, enacted the l
 
 ### 2.2 Effective-rate examples (income tax only, before franchise)
 
-**Effective-rate examples for $1,000,000 NC apportioned taxable income**  _(SB 105 phase-out schedule)_
+**Effective-rate examples for $1,000,000 NC apportioned taxable income**  _(hypothetical; rates per the § 105-130.3 archived table where confirmed)_
 
 | Year | Rate | NC Income Tax |
 | --- | --- | --- |
@@ -92,8 +92,8 @@ The franchise tax is the principal NC entity-level tax that survives the SB 105 
 
 - **Franchise tax rate** — $1.50 per $1,000 of the apportioned franchise tax base per $1,000 of base (Equivalent to 0.15% of the base)  _(N.C. Gen. Stat. § 105-122)_
 - **Franchise tax base (post-2025 reform)** — Total proportionate share of capital of the corporation, multiplied by the NC apportionment factor. Prior to S.L. 2023-12 / 2024 modifications, NC franchise tax used the greatest of three alternative bases (capital stock + surplus, 55% of appraised property value, or actual investment in tangible property). Starting with tax years beginning on or after Jan 1, 2025, the alternative bases are eliminated for non-holding companies; only the simplified capital base applies. Holding companies have a separate cap (see § 3.4).  _(S.L. 2023-12; § 105-122)_
-- **Franchise tax minimum** — $200 USD (Per filing entity per year; every corporation, S-corp, and corporate LLC pays at least $200 even with zero capital or zero NC apportionment.)  _(N.C. Gen. Stat. § 105-122)_
-- **Franchise tax maximum (holding companies only)** — $150,000 USD (Per year under the holding company cap)  _(N.C. Gen. Stat. § 105-122)_
+- **Franchise tax minimum** — $200 USD (Per filing entity per year; every corporation, S-corp, and corporate LLC pays at least $200 even with zero capital or zero NC apportionment.)  _(N.C. Gen. Stat. § 105-122, archived text read 2026-10-29: "a minimum of two hundred dollars ($200.00)")_
+- **Franchise tax maximum (holding companies only)** — $150,000 USD (Per year under the holding company cap)  _(N.C. Gen. Stat. § 105-122, archived 2026-10-29; the $150,000 cap figure itself flagged Not yet confirmed)_
 
 ### 3.2 Computing the franchise tax base — 2025 simplified method
 
@@ -283,7 +283,7 @@ Most NC consolidated returns are filed only after NCDOR demands one or after a c
 
 ## 9. Worked Examples
 
-### 9.1 Example A — Small NC C-corp, 2025 vs. 2028 modeling
+### 9.1 Example A — Small NC C-corp, 2025 vs. 2028 modeling (hypothetical client facts)
 
 Acme Widgets, Inc. is a NC-domiciled C-corp manufacturing widgets. Calendar-year filer. For 2025:
 
@@ -302,7 +302,7 @@ Acme Widgets, Inc. is a NC-domiciled C-corp manufacturing widgets. Calendar-year
 
 Over six years (2025 → 2030), Acme's annual NC entity-level tax burden drops from $14,587.50 to $3,000.00 — a reduction of nearly 80%. The franchise tax becomes the residual NC tax. For planning purposes, Acme's controller should consider accelerating deductions into 2025 (highest residual rate among the phase-out years) and deferring income into 2028+ where feasible. Standard rate-arbitrage planning, similar to the deferred-revenue strategies used during the federal 2017 TCJA transition.
 
-### 9.2 Example B — S-corp owing only franchise tax
+### 9.2 Example B — S-corp owing only franchise tax (hypothetical client facts)
 
 Carolina Consulting, Inc. is an NC S-corp providing management consulting services. Single shareholder, NC resident. Calendar 2025:
 
@@ -320,7 +320,7 @@ Carolina Consulting, Inc. is an NC S-corp providing management consulting servic
 
 S-corps in NC pay only franchise tax at the entity level (in this example, $600). The PTE election does not change NC tax but generates federal SALT-cap relief — worth considering for any NC S-corp shareholder with significant other state-and-local-tax deductions.
 
-### 9.3 Example C — Holding company hitting the maximum franchise tax
+### 9.3 Example C — Holding company hitting the maximum franchise tax (hypothetical client facts) (hypothetical client facts)
 
 Tarheel Holdings, Inc. is a Delaware-incorporated holding company domesticated in NC. It holds 100% of two operating subsidiaries (one in NC, one in TX). 2025 financials:
 
@@ -336,7 +336,7 @@ Tarheel Holdings, Inc. is a Delaware-incorporated holding company domesticated i
 
 Tarheel Holdings' franchise tax is capped at $150,000, a substantial savings versus the $195,000 uncapped computation. The cap rewards holding companies that have grown to a scale where the standard formula would otherwise produce franchise tax well into six or seven figures. The income tax phase-out doesn't materially affect Tarheel because most of its income is already 100% DRD-eligible. The franchise tax is, and will remain, its only meaningful NC tax liability.
 
-### 9.4 Example D — Mid-size C-corp using NC NOL during phase-out (planning illustration)
+### 9.4 Example D — Mid-size C-corp using NC NOL during phase-out (planning illustration; hypothetical client facts)
 
 Pinecone Corp, an NC C-corp, has a $1,000,000 NC NOL carryforward at the start of 2025 (post-2014 NOL, subject to 80% limit). Expected NC apportioned income:
 
@@ -383,7 +383,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 - **N.C. Gen. Stat. § 105-130.5** — Adjustments to federal taxable income.  _(N.C. Gen. Stat. § 105-130.5)_
 - **N.C. Gen. Stat. § 105-130.8A** — NOL deduction (post-2014 regime).  _(N.C. Gen. Stat. § 105-130.8A)_
 - **N.C. Gen. Stat. § 105-122** — Franchise tax on corporations.  _(N.C. Gen. Stat. § 105-122)_
-- **N.C. Gen. Stat. § 105-122(d)** — Holding-company definition and $150,000 cap.  _(N.C. Gen. Stat. § 105-122(d))_
+- **N.C. Gen. Stat. § 105-122(d)** — Holding-company definition and $150,000 cap.  _(N.C. Gen. Stat. § 105-122(d), archived 2026-10-29)_
 - **N.C. Gen. Stat. § 105-131 et seq.** — S-corp provisions.  _(N.C. Gen. Stat. § 105-131 et seq.)_
 - **N.C. Gen. Stat. § 105-153.9A** — PTE election (pass-through entity tax).  _(N.C. Gen. Stat. § 105-153.9A)_
 - **N.C. Gen. Stat. § 105-163.40 et seq.** — Corporate estimated tax.  _(N.C. Gen. Stat. § 105-163.40 et seq.)_
