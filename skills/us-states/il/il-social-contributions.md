@@ -3,8 +3,8 @@ name: il-social-contributions
 description: >
   Use this skill whenever asked about Illinois employer social
   contributions for tax year 2026 — IDES unemployment contribution
-  rates and the 2026 $14,250 wage base, the Fund Builder surcharge,
-  the 5.4% small-employer rate, minimum penalty, employer workers'
+  rates and the 2026 wage base, the Fund Builder surcharge,
+  the small-employer rate, minimum penalty, employer workers'
   compensation insurance under the Illinois Workers' Compensation
   Act, and the absence of state disability/paid-leave payroll taxes.
   Trigger on "Illinois UI rate", "Illinois SUTA", "IDES contribution",
@@ -40,17 +40,17 @@ Source-cited draft, run of 27 October 2026. Illinois employer social contributio
 
 | Item | 2026 amount | Source |
 |---|---|---|
-| Taxable wage base | **$14,250** per employee | sources/US-IL-ides-ui-rates-2026.pdf (archived: sources/US-IL-ides-ui-rates-2026.pdf, WAGE BASE row: 14,250), read 2026-10-27 |
-| Minimum contribution rate | **0.750%** (includes Fund Builder) | archived sources/US-IL-ides-ui-rates-2026.pdf: MINIMUM RATES row |
-| Maximum contribution rate | **7.050%** (includes Fund Builder) | archived sources/US-IL-ides-ui-rates-2026.pdf: MAXIMUM RATES row |
-| Standard (ineligible) rate | **3.350%** | archived sources/US-IL-ides-ui-rates-2026.pdf, STANDARD (Ineligible) RATE row: 3.350% |
-| Fund Builder component | **0.550%** (embedded in all rates above) | archived sources/US-IL-ides-ui-rates-2026.pdf, FUND BUILDING row: 0.550% |
-| Small-employer rate (gross wages < $50,000) | **5.4%** flat | archived sources/US-IL-ides-ui-rates-2026.pdf (Wages less than $50,000 column) |
+| Taxable wage base | per employee per year (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) | archived sources/US-IL-ides-ui-rates-2026.pdf, read 2026-10-27 |
+| Minimum contribution rate | includes Fund Builder (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) | archived sources/US-IL-ides-ui-rates-2026.pdf |
+| Maximum contribution rate | includes Fund Builder (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) | archived sources/US-IL-ides-ui-rates-2026.pdf |
+| Standard (ineligible) rate | (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) | archived sources/US-IL-ides-ui-rates-2026.pdf |
+| Fund Builder component | embedded in all rates above (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) | archived sources/US-IL-ides-ui-rates-2026.pdf |
+| Small-employer rate (gross wages under the threshold) | flat (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) | archived sources/US-IL-ides-ui-rates-2026.pdf |
 | Minimum penalty | **$50** | archived sources/US-IL-ides-ui-rates-2026.pdf, MINIMUM PENALTY row |
 | Employee share of UI | none — employer-only | 820 ILCS 405 structure; section text  |
 | State disability / paid family leave | none | absence confirmed; no such IL program |
 
-Rates are experience-rated (benefit-conversion factor 138.4% and state experience factor 102% for 2026 — both appear in the archived sources/US-IL-ides-ui-rates-2026.pdf). Base: covered wages up to $14,250 per employee per year.
+Rates are experience-rated (2026 factors: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)). Base: covered wages up to the published wage base per employee per year.
 
 ## The taxable base
 
@@ -64,7 +64,7 @@ The base follows the federal starting point with Illinois modifications; see Rat
 
 ## Penalties and interest
 
-The IDES chart fixes a **$50 minimum penalty** for 2026 (PDF, read 2026-10-27); the percentage late-filing/late-payment penalty and interest rates sit in 820 ILCS 405 —  for current percentages. Common failure modes: (1) out-of-state employers missing Illinois coverage for Illinois-based staff; (2) assuming the small-employer 5.4% rate is favorable — it can exceed an experience rate; (3) treating workers' comp as optional — Illinois requires it broadly from employee one.
+The IDES chart fixes a minimum penalty for 2026 (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)); the percentage late-filing/late-payment penalty and interest rates sit in 820 ILCS 405 —  for current percentages. Common failure modes: (1) out-of-state employers missing Illinois coverage for Illinois-based staff; (2) assuming the small-employer flat rate is favorable — it can exceed an experience rate; (3) treating workers' comp as optional — Illinois requires it broadly from employee one.
 
 ## Cross-border points
 
@@ -105,7 +105,7 @@ expected:
 
 ## Ask the client first
 
-- What is your current IDES experience rate, and does the small-employer 5.4% flat rate beat it (gross wages under $50,000)?
+- What is your current IDES experience rate, and does the small-employer flat rate beat it (gross wages under the threshold)?
 - Are multi-state employees' wages correctly localized to Illinois?
 - Is workers' compensation coverage in force for every Illinois employee?
 - Pull the December 2025 rate notice to confirm the 2026 rate and appeal window.

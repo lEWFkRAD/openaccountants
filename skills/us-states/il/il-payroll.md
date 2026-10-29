@@ -1,6 +1,6 @@
 ---
 name: il-payroll
-description: Tier 2 Illinois content skill for employer payroll compliance covering tax year 2025. Includes the 4.95% flat PIT, supplemental 4.95%, IL-941 quarterly withholding, IL UI wage base $13,916 (2025) with rates 0.750-7.850%, the Secure Choice Savings Program auto-enroll mandate for 5+ employees (5% default deferral if no qualified retirement plan offered), Chicago Fair Workweek Ordinance predictive scheduling for 10+ employees in covered industries, Cook County paid sick leave, and the One Day Rest in Seven Act.
+description: Tier 2 Illinois content skill for employer payroll compliance covering tax year 2025. Includes the 4.95% flat PIT, supplemental 4.95%, IL-941 quarterly withholding, IL UI wage base and rates (2025), the Secure Choice Savings Program auto-enroll mandate for 5+ employees (5% default deferral if no qualified retirement plan offered), Chicago Fair Workweek Ordinance predictive scheduling for 10+ employees in covered industries, Cook County paid sick leave, and the One Day Rest in Seven Act.
 jurisdiction: US-IL
 tax_year: 2025
 last_updated: 2026-07-13
@@ -27,7 +27,7 @@ The reviewer-oriented output for this skill is a payroll memo identifying every 
 - Illinois personal income tax withholding (IL PIT) at the 4.95% flat rate under 35 ILCS 5/201(b) and the supplemental wage withholding under 86 Ill. Adm. Code 100.7110.
 - IL-941 Illinois Withholding Income Tax Return (quarterly), the IL-941-X amended return, and the IL-W-3 annual reconciliation.
 - IL-W-4 Employee's Illinois Withholding Allowance Certificate, including the basic allowance and the additional allowance for age 65+ and blindness.
-- Illinois Unemployment Insurance (IL UI) administered by the Illinois Department of Employment Security (IDES) under the Unemployment Insurance Act, 820 ILCS 405/, including the 2025 taxable wage base of $13,916 and the 2025 contribution rate schedule of 0.750% to 7.850% (IDES 2026 historical rate chart, sources/US-IL-ides-ui-rates-2026.pdf: 2025 column).
+- Illinois Unemployment Insurance (IL UI) administered by the Illinois Department of Employment Security (IDES) under the Unemployment Insurance Act, 820 ILCS 405/, including the 2025 taxable wage base and contribution rate schedule (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)).
 - Illinois Secure Choice Savings Program Act (820 ILCS 80/) covering employer mandate triggers, auto-enrollment mechanics, the 5% default deferral, the penalty schedule under 820 ILCS 80/85, and exemption pathways.
 - Chicago Fair Workweek Ordinance (Municipal Code of Chicago § 1-25) for predictive scheduling in covered industries (building services, healthcare, hotels, manufacturing, restaurants, retail, warehouse services) with 100+ employees globally and 50+ Chicago-covered employees.
 - Cook County Earned Sick Leave Ordinance and the interaction with the Illinois Paid Leave for All Workers Act (820 ILCS 192/), effective January 1, 2024 statewide.
@@ -147,13 +147,13 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 - **IL-941 due date** — IL-941 is due the LAST DAY of the month following the quarter: April 30, July 31, October 31, January 31.  _(2025 IL-941 instr.)_
 - **W-2 e-file deadline** — W-2/W-2c/W-2G must be e-filed to IL by January 31 (waiver via IL-900-EW)  _(not yet confirmed (statute text not archived).)_
 - **1099 e-file deadline** — IL requires required 1099 types to be filed electronically; March 31 aligns with the federal e-file date for most 1099s, but Form 1099-NEC is due January 31.  _(not yet confirmed (statute text not archived).)_
-- **UI taxable wage base** — 2025 IL UI taxable wage base = $13,916 ($13,590 was 2024; 2026 = $14,250)  (sources/US-IL-ides-ui-rates-2026.pdf: WAGE BASE row: 13,590 / 13,916 / 14,250)
-- **UI min rate** — 2025 minimum UI rate = 0.750% (0.85% was 2024)  (sources/US-IL-ides-ui-rates-2026.pdf: 2025 column)
-- **UI max rate** — 2025 maximum UI rate = 7.850% (8.65% was 2024)  _(sources/US-IL-ides-ui-rates-2026.pdf: MAXIMUM RATES row)_
-- **New employer — non-construction** — 2025 standard new-employer rate = 3.65% (3.95% was 2024); 3.75% for NAICS sectors 56/99  _(sources/US-IL-ides-ui-rates-2026.pdf: STANDARD (Ineligible) RATE row: 3.650%. The 3.75% NAICS variant: not yet confirmed.)_
-- **New employer — construction** — No 2025 construction-specific new-employer rate of 6.45%; the standard 3.65% applies (2025 chart shows construction at the standard rate).  _(sources/US-IL-ides-ui-rates-2026.pdf: standard rate row: 3.650%.)_
-- **Fund Building Rate** — 2025 Fund Building Rate = 0.550%  _(sources/US-IL-ides-ui-rates-2026.pdf: FUND BUILDING row: 0.550%.)_
-- **State Experience Factor** — 2025 State Experience Factor = 114% (109% is not a recent IL figure; 2024 = 126%, 2023 = 127%)  _(sources/US-IL-ides-ui-rates-2026.pdf: STATE EXPERIENCE row: 114%.)_
+- **UI taxable wage base** — 2025 IL UI taxable wage base: not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy)
+- **UI min rate** — 2025 minimum UI rate: not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy)
+- **UI max rate** — 2025 maximum UI rate: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)
+- **New employer — non-construction** — 2025 standard new-employer rate: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)
+- **New employer — construction** — construction new-employer rate: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)
+- **Fund Building Rate** — 2025 Fund Building Rate: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)
+- **State Experience Factor** — 2025 State Experience Factor: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)
 - **Trigger** — Coverage applies to Illinois employers with at least 5 employees, in business 2+ years, with no qualified retirement plan. IDOR measures the count by averaging, across all four quarters of the tax year, the number of employees showing non-zero Illinois tax withheld on Schedule P (filed with Form IL-941), not a literal "5+ in every quarter" test.  _(820 ILCS 80/; IDOR Q&A 924; IDOR Informational Bulletin FY2023-09.)_
 - **Default deferral** — 5% auto-enroll default (auto-escalates 1%/yr to a 10% cap)  _(820 ILCS 80/; program rules.)_
 - **Penalty — Year 1** — $250 per employee, first year of noncompliance  _(not yet confirmed (statute text not archived).)_
@@ -177,15 +177,15 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 | Item | 2025 Value |
 | --- | --- |
-| Taxable wage base per employee | $13,916 (2025; 2024 = $13,590, 2026 = $14,250 — sources/US-IL-ides-ui-rates-2026.pdf WAGE BASE row) |
-| Minimum contribution rate (positive-balance employers) | 0.750% (2025; 0.85% was 2024 — sources/US-IL-ides-ui-rates-2026.pdf: MINIMUM RATES row) |
-| Maximum contribution rate (negative-balance employers) | 7.850% (2025; 8.65% was 2024 — sources/US-IL-ides-ui-rates-2026.pdf: MAXIMUM RATES row) |
-| New employer rate (non-construction) | 3.650% (2025; 3.95% was 2024 — sources/US-IL-ides-ui-rates-2026.pdf STANDARD row) |
-| New employer rate (construction) | 3.650% (2025 standard rate applies — sources/US-IL-ides-ui-rates-2026.pdf) |
-| Fund Building Rate (component included in the above) | 0.550% (sources/US-IL-ides-ui-rates-2026.pdf FUND BUILDING row) |
-| State Experience Factor | 114% (2025 — sources/US-IL-ides-ui-rates-2026.pdf STATE EXPERIENCE row) |
+| Taxable wage base per employee | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| Minimum contribution rate (positive-balance employers) | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| Maximum contribution rate (negative-balance employers) | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| New employer rate (non-construction) | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| New employer rate (construction) | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| Fund Building Rate (component included in the above) | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| State Experience Factor | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
 
-- **New employer rate duration** — These are set by IDES and published annually. The 2025 wage base is $13,916 (2024 = $13,590, 2026 = $14,250 — sources/US-IL-ides-ui-rates-2026.pdf). Rates apply to the first $13,916 of each employee's calendar-year wages (2025). The new employer rate applies for the first three calendar years of liability or until the employer accumulates sufficient experience to be experience-rated, whichever is later.
+- **New employer rate duration** — These are set by IDES and published annually. The wage base is published annually by IDES (not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy)). Rates apply to the first portion of each employee's calendar-year wages up to the published wage base. The new employer rate applies for the first three calendar years of liability or until the employer accumulates sufficient experience to be experience-rated, whichever is later.
 
 ### 3.3 Quarterly contribution and wage report
 
@@ -202,7 +202,7 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 ### 3.4 Successor employer
 
-- **Successor experience rate transfer** — When a business is acquired (asset purchase or stock purchase that constitutes a complete or partial transfer of the trade or business), the successor may take the predecessor's experience rate under 820 ILCS 405/1507. This is generally favorable when the predecessor's rate is below the new-employer rate (3.650% for 2025 — sources/US-IL-ides-ui-rates-2026.pdf STANDARD row) and unfavorable when above. The transfer is mandatory in certain cases (substantial common ownership) and elective in others (arm's-length purchase) — see IDES Form UI-1S.  _(820 ILCS 405/1507)_
+- **Successor experience rate transfer** — When a business is acquired (asset purchase or stock purchase that constitutes a complete or partial transfer of the trade or business), the successor may take the predecessor's experience rate under 820 ILCS 405/1507. This is generally favorable when the predecessor's rate is below the new-employer rate (the 2025 standard rate — not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) and unfavorable when above. The transfer is mandatory in certain cases (substantial common ownership) and elective in others (arm's-length purchase) — see IDES Form UI-1S.  _(820 ILCS 405/1507)_
 
 ### 3.5 SUTA dumping
 
@@ -351,7 +351,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 6. **IL withholding**: Independent of Secure Choice, Greenbridge is withholding IL PIT at 4.95% on all 10 employees and filing IL-941 quarterly with the Q4 IL-W-3 reconciliation built into the Q4 return.
 
-7. **IL UI**: 10 employees × $13,916 wage base = $139,160 total taxable wages. At the 2025 new-employer standard rate of 3.650% (sources/US-IL-ides-ui-rates-2026.pdf), 2025 UI tax = $5,079. By 2026 Greenbridge will have an experience rating and the rate may drop to as low as 0.750% if no UI claims were filed.
+7. **IL UI**: 10 employees × the 2025 wage base = total taxable wages within the base. At the 2025 new-employer standard rate (wage base and rate: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)), compute UI tax = taxable wages × rate. By 2026 Greenbridge will have an experience rating.
 
 ### Worked example 2 — Multi-state employer with Illinois/Indiana border employees
 
@@ -365,7 +365,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 2. **Withholding registration**: Lakeshore needs to be registered for both IL withholding (with IL DOR) and IN withholding (with IN DOR). It must file IL-941 quarterly and IN WH-1 monthly (Indiana defaults to monthly).
 
-3. **IL UI**: The 25 employees physically working at the Calumet City facility are reported to IDES for unemployment, regardless of state of residence (UI is based on physical location of work). $13,916 × 25 = $347,900 taxable IL wages. At the 2025 new-employer standard rate (3.650% — sources/US-IL-ides-ui-rates-2026.pdf) = $12,700 IL UI.
+3. **IL UI**: The 25 employees physically working at the Calumet City facility are reported to IDES for unemployment, regardless of state of residence (UI is based on physical location of work). 25 employees × the 2025 wage base = taxable IL wages (wage base: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)). At the 2025 new-employer standard rate, IL UI = taxable wages × rate.
 
 4. **IN UI**: The 35 employees working at the Hammond facility are reported to Indiana DWD for unemployment. (Indiana 2025 wage base: not yet confirmed — IN sources not archived for this pack.)
 
@@ -382,7 +382,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 10. **Net IL payroll tax burden for 2025** (Calumet City facility only, hypothetical):
     - IL PIT withheld on 25 employees: depends on wages, but at $50,000 average gross and $2,850 personal exemption, withholding ≈ 4.95% × ($50,000 – $2,850) = $2,333 per employee × 25 = **$58,325 IL PIT remitted via IL-941**.
     - IL UI: **$12,700** as computed above (year 1; will adjust).
-    - Total IL employer-side cost: $12,700 UI plus Secure Choice administrative facilitation (no employer cost).
+    - Total IL employer-side cost: UI as above plus Secure Choice administrative facilitation (no employer cost).
 
 ### Worked example 3 — Contractor misclassification challenge under the ABC test
 
@@ -402,7 +402,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 3. **Cascading consequences**:
 
-   - **UI back contributions** (Northshore's potential exposure): If average annual wages per carpenter are $70,000 over 2023, 2024, 2025 (3 years × 12 carpenters × $13,916 wage base × ~3.650% new-employer rate or higher experience rate after Diaz's claim is paid) — approximately $19,330 in UI back-contributions, plus interest and penalties under 820 ILCS 405/2206 (rates: not yet confirmed — statute text not archived).
+   - **UI back contributions** (Northshore's potential exposure): If average annual wages per carpenter are $70,000 over 2023, 2024, 2025 (3 years × 12 carpenters × the wage base × the applicable rate — wage base and rate: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) — UI back-contributions, plus interest and penalties under 820 ILCS 405/2206 (rates: not yet confirmed — statute text not archived).
 
    - **IL PIT withholding back-assessment**: IL DOR is cross-referred. 12 carpenters × $70,000 average × 3 years × 4.95% = $124,740 in IL PIT that should have been withheld. The employer is jointly and severally liable under 35 ILCS 5/704A. Penalty under 35 ILCS 735/3 of 15% of the underwithheld amount, plus interest (penalty rate: not yet confirmed — statute text not archived).
 
@@ -433,11 +433,11 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 | IL PIT flat rate | 4.95% | 35 ILCS 5/201(b)(5.4) |
 | Personal exemption | $2,850 | IL-1040 instructions: "The personal exemption amount for tax year 2025 is $2,850." |
 | Supplemental wage rate | 4.95% | 86 Ill. Adm. Code 100.7110 |
-| IL UI wage base | $13,916 (2025) | sources/US-IL-ides-ui-rates-2026.pdf: WAGE BASE row |
-| IL UI minimum rate | 0.750% (2025) | sources/US-IL-ides-ui-rates-2026.pdf: 2025 column |
-| IL UI maximum rate | 7.850% (2025) | sources/US-IL-ides-ui-rates-2026.pdf: 2025 column |
-| New employer rate (non-construction) | 3.650% (2025; 3.95% was 2024 — sources/US-IL-ides-ui-rates-2026.pdf STANDARD row) | IDES |
-| New employer rate (construction) | 3.650% (2025 standard rate applies — sources/US-IL-ides-ui-rates-2026.pdf) | IDES |
+| IL UI wage base | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| IL UI minimum rate | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| IL UI maximum rate | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) |
+| New employer rate (non-construction) | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) | IDES |
+| New employer rate (construction) | not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy) | IDES |
 | Secure Choice trigger | 5+ IL employees, 2+ years in business, no qualified plan | 820 ILCS 80/30 |
 | Secure Choice default deferral | 5% | 820 ILCS 80/55 |
 | Secure Choice penalty | $250/employee Y1, $500/employee Y2+ | 820 ILCS 80/85 |
