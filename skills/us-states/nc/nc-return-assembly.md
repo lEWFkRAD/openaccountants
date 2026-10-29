@@ -13,7 +13,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NC Return Assembly
 
-## North Carolina Return Assembly Skill — Capstone Orchestrator
+### North Carolina Return Assembly Skill — Capstone Orchestrator
 
 > **Scope.** This is THE skill that runs LAST. Every other skill in the North Carolina stack feeds into this one. The output is the complete reviewer package that a credentialed reviewer (Enrolled Agent, CPA, or attorney under Circular 230) signs off on before the return goes to the taxpayer or to the North Carolina Department of Revenue (NCDOR).
 >
@@ -21,7 +21,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 >
 > **Quality tier.** Q3 — AI-drafted, not independently verified. Researched 2026-05-28 against NCDOR, IRS, and the upstream NC content skills in this same package directory. A qualified professional must review before filing.
 
-## How this workflow runs
+### How this workflow runs
 
 Intake and the content Guides have already collected the facts for this working paper. Use what they captured, and ask the user again only where something is missing or contradicts itself.
 
@@ -35,7 +35,7 @@ Intake and the content Guides have already collected the facts for this working 
 
 **Failure mode to avoid:** halting mid-execution to ask a meta-question about workflow pacing. That is disqualifying. If you feel the urge to ask "how should I proceed," pick the most defensible path, proceed, and flag the decision for the reviewer.
 
-## Section 1 — Metadata
+### Section 1 — Metadata
 
 **Section 1 Metadata table**
 
@@ -87,7 +87,7 @@ Intake and the content Guides have already collected the facts for this working 
 
 ## Cross-border points
 
-## Section 2 — What this skill is
+### Section 2 — What this skill is
 
 The final capstone skill. Every other North Carolina skill and every relevant federal skill feeds into this one. The deliverable is the complete reviewer package that a credentialed reviewer signs off on before filing.
 
@@ -97,7 +97,7 @@ The skill enforces three things:
 2. **Cross-skill reconciliation.** Every figure that appears on the D-400 must match the corresponding figure produced by the source skill. A mismatch halts assembly with a specific, named refusal.
 3. **Reviewer-grade output.** The final package is structured for a CPA or EA to review in under 30 minutes: cover summary, brief, exhibits in order, action list, citations.
 
-## Section 3 — Orchestration runbook
+### Section 3 — Orchestration runbook
 
 When invoked, the agent executes the following steps in order. No step is optional. No step is skipped without an explicit refusal.
 
@@ -167,7 +167,7 @@ Produce the three output files specified in Section 7. Place them in `/mnt/user-
 
 A single message stating: which skills ran, which self-checks passed, which deliverables were produced, any partial deliverables and why. Done.
 
-## Section 4 — Pre-flight checks
+### Section 4 — Pre-flight checks
 
 Before any of Section 3 runs, the orchestrator confirms these gating conditions. If any fail, refuse — do not partially execute.
 
@@ -186,7 +186,7 @@ Before any of Section 3 runs, the orchestrator confirms these gating conditions.
 | PF-9 | Did intake report any S-corp or partnership K-1 (NC K-1)? | R-NC-FINAL-10 / R-NC-FINAL-11 |
 | PF-10 | Did intake report any out-of-state wages requiring NC-478 / D-400TC out-of-state credit beyond simple W-2? Multi-state apportionment is out of scope. | R-NC-FINAL-16 |
 
-## Section 5 — Skill-loading order (canonical execution sequence)
+### Section 5 — Skill-loading order (canonical execution sequence)
 
 This is the immutable order. Do not parallelize; downstream skills consume upstream outputs. The single exception is `us-1099-nec-issuance`, which can run in parallel with anything after `us-sole-prop-bookkeeping`.
 
@@ -210,7 +210,7 @@ Each upstream skill is expected to expose, at minimum: (a) the line-item output(
 
 **Note on `nc-sales-tax`.** Sales tax is a separate filing cadence (monthly / quarterly / annual under E-500) and does not flow into the individual return. The orchestrator only surfaces an end-of-year sales-tax status line ("all NC sales-tax periods filed through Dec 2025" or "Q4 2025 E-500 due Jan 31, 2026 — verify filed") in the action list. It does not block on sales tax.
 
-## Section 6 — Verification matrix (reconciliations)
+### Section 6 — Verification matrix (reconciliations)
 
 Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A failure halts assembly with **R-NC-FINAL-3** naming the specific check.
 
@@ -327,7 +327,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | BX-2 | If taxpayer is Bailey-eligible AND has marketplace coverage: confirm Bailey-protected income still flows into federal MAGI for PTC computation (it does; Bailey is a NC-only subtraction, not a federal exclusion) |
 | BX-3 | If taxpayer rolled over a Bailey-protected plan to a non-Bailey IRA after 8/12/1989: the rolled amount loses Bailey protection — flag for reviewer |
 
-## Section 7 — Deliverable package (what the reviewer sees)
+### Section 7 — Deliverable package (what the reviewer sees)
 
 The package is **three files**, not fifteen. Do not fragment the output.
 
@@ -393,7 +393,7 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
 ```markdown
 # Your 2025 North Carolina Tax Filing — Action List
 
-## This week
+### This week
 1. Review the reviewer_brief.md document
 2. Sign Form 8879 (federal e-file authorization) — if e-filing
 3. Sign Form NC-8453 (North Carolina e-file authorization) — if
@@ -401,7 +401,7 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
 4. Confirm bank account information for direct debit / direct
    deposit
 
-## Before April 15, 2026 (filing deadline)
+### Before April 15, 2026 (filing deadline)
 1. Federal Form 1040 — file via e-file (preferred) or paper to IRS
    Kansas City address
 2. Federal balance due of $X — pay via:
@@ -425,23 +425,23 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
    - Direct debit at e-file
    - Check + payment voucher mailed to NCDOR
 
-## Before April 15, 2026 (estimated tax for 2026 Q1)
+### Before April 15, 2026 (estimated tax for 2026 Q1)
 1. Federal Q1 voucher — $X via IRS Direct Pay or check + Form 1040-ES
 2. NC Q1 voucher — $X via NCDOR online or check + NC-40
 
-## Before June 15, 2026 (Q2 estimated tax)
+### Before June 15, 2026 (Q2 estimated tax)
 1. Federal Q2 voucher — $X
 2. NC Q2 voucher — $X
 
-## Before September 15, 2026 (Q3 estimated tax)
+### Before September 15, 2026 (Q3 estimated tax)
 1. Federal Q3 voucher — $X
 2. NC Q3 voucher — $X
 
-## Before January 15, 2027 (Q4 estimated tax)
+### Before January 15, 2027 (Q4 estimated tax)
 1. Federal Q4 voucher — $X
 2. NC Q4 voucher — $X
 
-## Already-passed January 31, 2026 (1099-NEC issuance — check if done)
+### Already-passed January 31, 2026 (1099-NEC issuance — check if done)
 1. File 1099-NEC forms with IRS via IRIS or FIRE
 2. Furnish Copy B to each contractor
 3. File NC-3 / NC-1099 annual reconciliation with NCDOR (if
@@ -449,7 +449,7 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
 4. If missed: assess penalty exposure ($60–$310 per form federally;
    NC late-filing penalty also applies) and file ASAP
 
-## Ongoing during 2026
+### Ongoing during 2026
 1. Collect W-9 from every new contractor BEFORE first payment
 2. Track Schedule C income and expenses with receipts
 3. Monitor income against estimated-tax safe harbor mid-year
@@ -459,12 +459,12 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
 5. If a NC sales-tax registrant: file E-500 on the assigned cadence
    (monthly / quarterly / annual)
 
-## How to check your refund
+### How to check your refund
 - Federal: https://www.irs.gov/refunds — "Where's My Refund?"
 - North Carolina: https://www.ncdor.gov/file-pay/wheres-my-refund —
   "Where's My Refund?"
 
-## Need help with anything in this list?
+### Need help with anything in this list?
 - Reach out to the reviewer (CPA / EA) listed on the cover sheet.
 - For North Carolina-specific questions: NCDOR Taxpayer Assistance
   1-877-252-3052
@@ -474,7 +474,7 @@ If execution runs out of context mid-build: produce whatever is complete, then s
 
 All files go to `/mnt/user-data/outputs/` and are presented at the end via the `present_files` tool.
 
-## Section 8 — The reviewer brief (narrative format)
+### Section 8 — The reviewer brief (narrative format)
 
 This is the document the CPA reads first. It should be readable in under 30 minutes and give the reviewer enough context to either sign off or identify exactly what needs more work.
 
@@ -483,7 +483,7 @@ The brief follows this fixed structure:
 ```markdown
 # Complete Return Package — [Taxpayer Name] — Tax Year 2025
 
-## Executive Summary
+### Executive Summary
 - **Taxpayer:** [Name], full-year North Carolina resident
 - **Filing status:** [Single / MFJ / MFS / HoH / QSS]
 - **Business:** Sole proprietor / Single-member LLC disregarded
@@ -495,42 +495,42 @@ The brief follows this fixed structure:
 - **Net refund or balance due:** $X
 - **Action required by April 15, 2026:** [one-line summary]
 
-## Federal Return
+### Federal Return
 [brief from us-federal-return-assembly, condensed]
 
-## North Carolina Return
+### North Carolina Return
 [brief from nc-income-tax + Bailey subtraction]
 
-## Standard vs. Itemized Decision (NC)
+### Standard vs. Itemized Decision (NC)
 - NC standard deduction (filing status): $X
 - NC itemized total (Schedule A): $Y
 - Chosen: [standard / itemized]
 - Rationale: [whichever yielded lower NC taxable income]
 
-## Estimated Tax for 2026
+### Estimated Tax for 2026
 [combined federal 1040-ES + NC-40 schedule]
 
-## 1099-NEC Issuance
+### 1099-NEC Issuance
 [brief from us-1099-nec-issuance]
 
-## NC Sales Tax Status
+### NC Sales Tax Status
 [from nc-sales-tax if registrant; else N/A]
 
-## Cross-skill Verification
+### Cross-skill Verification
 - All upstream skills ran: [verified / list missing]
 - All upstream self-checks passed: [verified / list failures]
 - All Section 6 reconciliations passed: [verified / list failures]
 
-## Reviewer Attention Flags
+### Reviewer Attention Flags
 [aggregated, ranked by materiality]
 
-## Refusals Triggered
+### Refusals Triggered
 [aggregated; any non-empty entry blocks final signoff]
 
-## Positions Taken
+### Positions Taken
 [items requiring reviewer judgment, with citations]
 
-## Planning Notes for 2026
+### Planning Notes for 2026
 - NC rate step-down (Session Law 2023-134): 4.25% in 2025 (VERIFIED
   vs archived 2025 D-401 Instructions) → ~3.99% in 2026 `[VERIFY:]`;
   long-term schedule down to ~2.49% by
@@ -540,11 +540,11 @@ The brief follows this fixed structure:
 - Bailey-eligible pension continuity (no rollovers to non-Bailey IRAs)
 - Estimated-tax safe harbor positioning (NC uses 100% of prior year)
 
-## Taxpayer Action List
+### Taxpayer Action List
 [embedded copy of File 3]
 ```
 
-## Section 9 — Tier 1 deterministic rules
+### Section 9 — Tier 1 deterministic rules
 
 **Tier 1 rules table**
 
@@ -568,7 +568,7 @@ The brief follows this fixed structure:
 | NC-ASM-T1-16 | Three-file deliverable structure (xlsx + brief.md + actions.md) is mandatory. |
 | NC-ASM-T1-17 | No city-level income tax exists in NC; the orchestrator never emits a city return artifact. |
 
-## Section 10 — Tier 2 judgment rules
+### Section 10 — Tier 2 judgment rules
 
 **Tier 2 rules table**
 
@@ -587,7 +587,7 @@ The brief follows this fixed structure:
 
 ## Worked examples
 
-## Section 11 — Worked example
+### Worked example — Section 11
 
 **Facts.** James Whitfield, single, age 67, full-year Raleigh (NC) resident, sole proprietor (freelance security consultant, retired federal CSRS pensioner). 2025 facts:
 
@@ -612,7 +612,7 @@ The brief follows this fixed structure:
 ```markdown
 # Complete Return Package — James Whitfield — Tax Year 2025
 
-## Executive Summary
+### Executive Summary
 - Taxpayer: James Whitfield, full-year North Carolina (Raleigh) resident
 - Filing status: Single
 - Business: Sole proprietor — freelance security consultant
@@ -628,7 +628,7 @@ The brief follows this fixed structure:
   reviewer to confirm Form 2210 (federal) and D-422 (NC)
   underpayment-interest amounts
 
-## Federal Return (from us-federal-return-assembly)
+#### Federal Return (from us-federal-return-assembly)
 - Schedule C Line 31 (net profit): $150,000
 - Schedule SE Line 12 (SE tax): $18,792
 - Schedule 1 Line 15 (½ SE tax): $9,396
@@ -652,7 +652,7 @@ The brief follows this fixed structure:
 - Payments: $0
 - Balance due federal: $52,860
 
-## North Carolina Return (from nc-income-tax + nc-bailey-settlement-retirement)
+#### North Carolina Return (from nc-income-tax + nc-bailey-settlement-retirement)
 - D-400 Line 6 (federal AGI): $132,504
 - D-400 Schedule S Part A (additions): $0 — no §168(k) add-back this
   year; no out-of-state muni interest
@@ -681,7 +681,7 @@ The brief follows this fixed structure:
 - D-400 Line 28 (NC balance due): ~$2,643 to ~$4,360 depending on
   use-tax resolution
 
-## Standard vs. Itemized Decision (NC)
+### Standard vs. Itemized Decision (NC)
 - NC standard deduction (single): $12,750
 - NC itemized total (Schedule A): not computed — James has minimal
   itemizable items (no mortgage, no large charitable, low medical
@@ -689,7 +689,7 @@ The brief follows this fixed structure:
 - Chosen: standard
 - Rationale: standard clearly higher than any plausible itemized
 
-## Estimated Tax for 2026
+### Estimated Tax for 2026
 - 2025 federal total tax: $52,860 → Q1 2026 federal estimate
   ~$13,200 (100% of prior year ÷ 4; AGI < $150K so 100% safe
   harbor applies federally)
@@ -698,13 +698,13 @@ The brief follows this fixed structure:
 - Combined Q1 2026 estimate: ~$13,860 due April 15, 2026 — note
   this is on TOP of the April 15 balance due
 
-## 1099-NEC Issuance
+### 1099-NEC Issuance
 - N/A — James engaged no subcontractors in 2025
 
-## NC Sales Tax Status
+### NC Sales Tax Status
 - N/A — not a NC sales-tax registrant
 
-## Cross-skill Verification (Section 6 summary)
+#### Cross-skill Verification (Section 6 summary)
 - F-1 through F-10: PASS
 - N-1 through N-14: PASS
 - B-1 through B-4: PASS (Bailey-eligible; $40K subtraction
@@ -715,7 +715,7 @@ The brief follows this fixed structure:
 - W-1 through W-4: PASS (all zero withholding; documented)
 - BX-1 through BX-3: PASS
 
-## Reviewer Attention Flags
+### Reviewer Attention Flags
 1. Form 2210 federal underpayment penalty (~$1,800) — reviewer to
    finalize Q-by-Q computation against §6654 safe harbor.
 2. Form D-422 NC underpayment interest (~$120) — reviewer to
@@ -730,10 +730,10 @@ The brief follows this fixed structure:
    confirmation letter on file.
 6. Solo 401(k) age-50 catch-up ($7,500) properly documented.
 
-## Refusals Triggered
+### Refusals Triggered
 (none — James's facts fit the in-scope pattern)
 
-## Positions Taken
+### Positions Taken
 - Bailey subtraction of $40,000 federal CSRS pension: see
   Bailey v. State of NC, 348 N.C. 130 (1998); NCDOR Bailey
   Decision page; `nc-bailey-settlement-retirement` Section X.
@@ -746,7 +746,7 @@ The brief follows this fixed structure:
 - NC fully exempts Social Security: per N.C.G.S.
   §105-153.5(b)(5) `[VERIFY:]`.
 
-## Planning Notes for 2026
+### Planning Notes for 2026
 - NC rate step-down per Session Law 2023-134: 4.25% in 2025 →
   ~3.99% in 2026 `[VERIFY:]`; long-term schedule down to ~2.49%
   by 2030 absent further legislation.
@@ -760,7 +760,7 @@ The brief follows this fixed structure:
 - Medicare Part B premium documentation for §162(l) — start a
   premium ledger in January 2026.
 
-## Taxpayer Action List
+### Taxpayer Action List
 [full action list embedded — see File 3]
 ```
 
@@ -768,7 +768,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 
 ## Ask the client first
 
-## Section 12 — Refusal catalogue
+### Section 12 — Refusal catalogue
 
 **Refusal catalogue table**
 
@@ -795,7 +795,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 | R-NC-FINAL-19 | NC pass-through entity (PTE) tax election handling for SMLLC that elected to be taxed as a corporation. | Refuse; out of scope (SMLLCs in scope are disregarded only). |
 | R-NC-FINAL-20 | NC K-1 received from an S-corp or partnership flowing through to this individual. | Refuse; orchestrator scope is sole prop / SMLLC disregarded only. |
 
-## Section 13 — Self-checks
+### Section 13 — Self-checks
 
 **Self-checks table**
 
@@ -820,7 +820,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 | 216 | `present_files` called with the three files. |
 | 217 | Standard vs. itemized comparison documented in the reviewer brief, even if standard was obviously higher. |
 
-## Section 14 — Known gaps
+### Section 14 — Known gaps
 
 1. PDF form filling is not automated. The reviewer transcribes the worksheets into NCDOR eFile partner software.
 2. E-filing is the reviewer's responsibility. This skill produces the computation; submission happens outside the agent.
@@ -855,7 +855,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 
 Not yet confirmed: NCDOR pages cited only by URL in the "Sources consulted" table above (D-400 return page, Schedule S page, Schedule A page, standard/itemized deduction topic page, child deduction topic page, tax rate schedules page, pay-your-tax page, refund page, eFile partner page, Bailey decision page) were not archived; 2026 indexed deduction amounts.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
@@ -869,7 +869,7 @@ To speak with one of the licensed accountants who verifies skills for your juris
 
 We'll route you to the named verifier covering your country or state. You can also see the full list of verified accountants at [openaccountants.com/network](https://openaccountants.com/network).
 
-## Section 5 — Skill-loading order (canonical execution sequence)
+### Section 5 — Skill-loading order (canonical execution sequence)
 
 0. **Step 1** — us-tax-workflow-base (workflow scaffold)
 0. **Step 2** — us-sole-prop-bookkeeping (Schedule C classification)

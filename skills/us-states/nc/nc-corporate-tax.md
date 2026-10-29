@@ -287,7 +287,7 @@ Most NC consolidated returns are filed only after NCDOR demands one or after a c
 
 ## Worked examples
 
-### 9.1 Example A — Small NC C-corp, 2025 vs. 2028 modeling (hypothetical client facts)
+### Worked example 9.1 — Example A: Small NC C-corp, 2025 vs. 2028 modeling (hypothetical client facts)
 
 Acme Widgets, Inc. is a NC-domiciled C-corp manufacturing widgets. Calendar-year filer. For 2025:
 
@@ -306,7 +306,7 @@ Acme Widgets, Inc. is a NC-domiciled C-corp manufacturing widgets. Calendar-year
 
 Over six years (2025 → 2030), Acme's annual NC entity-level tax burden drops from $14,587.50 to $3,000.00 — a reduction of nearly 80%. The franchise tax becomes the residual NC tax. For planning purposes, Acme's controller should consider accelerating deductions into 2025 (highest residual rate among the phase-out years) and deferring income into 2028+ where feasible. Standard rate-arbitrage planning, similar to the deferred-revenue strategies used during the federal 2017 TCJA transition.
 
-### 9.2 Example B — S-corp owing only franchise tax (hypothetical client facts)
+### Worked example 9.2 — Example B: S-corp owing only franchise tax (hypothetical client facts)
 
 Carolina Consulting, Inc. is an NC S-corp providing management consulting services. Single shareholder, NC resident. Calendar 2025:
 
@@ -324,7 +324,7 @@ Carolina Consulting, Inc. is an NC S-corp providing management consulting servic
 
 S-corps in NC pay only franchise tax at the entity level (in this example, $600). The PTE election does not change NC tax but generates federal SALT-cap relief — worth considering for any NC S-corp shareholder with significant other state-and-local-tax deductions.
 
-### 9.3 Example C — Holding company hitting the maximum franchise tax (hypothetical client facts) (hypothetical client facts)
+### Worked example 9.3 — Example C: Holding company hitting the maximum franchise tax (hypothetical client facts)
 
 Tarheel Holdings, Inc. is a Delaware-incorporated holding company domesticated in NC. It holds 100% of two operating subsidiaries (one in NC, one in TX). 2025 financials:
 
@@ -340,7 +340,7 @@ Tarheel Holdings, Inc. is a Delaware-incorporated holding company domesticated i
 
 Tarheel Holdings' franchise tax is capped at $150,000, a substantial savings versus the $195,000 uncapped computation. The cap rewards holding companies that have grown to a scale where the standard formula would otherwise produce franchise tax well into six or seven figures. The income tax phase-out doesn't materially affect Tarheel because most of its income is already 100% DRD-eligible. The franchise tax is, and will remain, its only meaningful NC tax liability.
 
-### 9.4 Example D — Mid-size C-corp using NC NOL during phase-out (planning illustration; hypothetical client facts)
+### Worked example 9.4 — Example D: Mid-size C-corp using NC NOL during phase-out (planning illustration; hypothetical client facts)
 
 Pinecone Corp, an NC C-corp, has a $1,000,000 NC NOL carryforward at the start of 2025 (post-2014 NOL, subject to 80% limit). Expected NC apportioned income:
 
