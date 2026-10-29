@@ -23,11 +23,13 @@ version: 0.1
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Who this applies to
+## Who this applies to
 
 C corporations filing North Carolina Form CD-405 that are members of a controlled group with intercompany interest, royalty, or intangible flows — especially structures routing IP or financing through a low- or no-tax state or a foreign affiliate. North Carolina polices connected-party income three ways: (1) a **mandatory addback** of net interest expense paid to related members, (2) an **election-based royalty regime**, and (3) **combined reporting** for affiliated groups on Form CD-405. S corporations are outside the corporate income tax (G.S. 105-130.3) but remain in franchise-tax scope.
 
-## 2. Core rules and rates
+## Rates, bands and thresholds
+
+## Core rules and rates
 
 - **Net interest addback (mandatory).** State net income adds back "the amount of net interest expense to a related member" to the extent deducted for federal purposes — N.C.G.S. § 105-130.5(25), statute text verified 2026-10-25. There is no "same unitary combination" exception written into (25) itself; back-to-back and conduit analysis follows NCDOR administrative practice. _(§ 105-130.5(25))_
 - **Royalty reporting option.** § 105-130.7A gives taxpayers an option concerning the method by which royalty payments to related members are reported; § 105-130.5 cross-references "royalty payments required to be added by G.S. 105-130.7A, to the extent deducted in calculating federal taxable income." Electing the option changes whether royalties are added back or the underlying income is included. _(§ 105-130.7A; § 105-130.5)_
@@ -35,7 +37,9 @@ C corporations filing North Carolina Form CD-405 that are members of a controlle
 - **Single-sales-factor apportionment** with market-based sourcing; the **alternative apportionment** escape hatch (§ 105-130.4(t1)) lets the Secretary modify the factor when the standard factor does not fairly reflect NC activity — the tool NCDOR uses against engineered IP/servicing footprints. _(§ 105-130.4, text verified 2026-10-25)_
 - **Combined reporting.** Affiliated groups file the combined return (Form CD-405 combined) — corroborated by the `nc-corporate-tax` skill; the controlling combined-reporting statute section was **not located on ncleg.gov on 2026-10-25: needs-sources**.
 
-## 3. Base and adjustments
+## The taxable base
+
+## Base and adjustments
 
 Start from federal taxable income (after the corporate rate applies to state net income):
 
@@ -44,25 +48,29 @@ Start from federal taxable income (after the corporate rate applies to state net
 3. **Apportion** by the single sales factor (§ 105-130.4), subject to (t1) modification.
 4. Franchise tax runs on the apportioned capital base in parallel (§ 105-122, $1.50 per $1,000) — addbacks do not change the franchise base.
 
-## 4. Deadlines
+## Deadlines and filing
+
+## Deadlines
 
 - CD-405 combined income and franchise return: 15th day of the 4th month after year end (Apr 15 calendar filers); extension to Nov 15 by timely application.
 - CD-429 estimated payments: four installments (Apr 15, Jun 15, Sep 15, Dec 15) — installment mechanics verified in § 105-163.15 text, 2026-10-25.
 - Fiscal-year filers blend the rate by days in each calendar year (NCDOR proration table).
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - Underpayment of estimated installments: interest runs from each installment due date to the earlier of payment or Apr 15 of the following year (§ 105-163.15(c) mechanics, verified 2026-10-25).
 - Late filing/failure to file: standard Chapter 105 penalties (5% per month up to 5%, plus interest) — exact current schedule in NCDOR bulletin; **needs-sources** for the 2026 published rate.
 - Addback positions are a named NCDOR audit focus; documentation of the related-member's state of residence and its inclusion in another state's combined report is the standard defense file.
 
-## 6. Cross-border and federal overlay
+## Cross-border points
+
+## Cross-border and federal overlay
 
 - Foreign related members: the (25) addback applies to interest to related members regardless of residence; treaty analysis is federal (see federal skills).
 - Double-taxation relief: if the related member included the interest in another state's combined or separate report, NCDOR recognizes offsetting inclusion in practice — keep both states' returns in the file.
 - Federal §163(j) limits shrink the federal deduction and therefore the addback amount (the addback is "to the extent deducted").
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — mandatory interest + royalty addback, 2026.** NC C-corp pays $400,000 royalties and $100,000 net interest to a related member in a no-income-tax state. Both are deducted federally. 2026 rate 2%.
 
@@ -100,7 +108,7 @@ expected:
   tax: 10630.14
 ```
 
-## 8. Ask the client first
+## Ask the client first
 
 1. Who is the related member, where is it taxed, and is it in another state's combined report?
 2. Is the debt thin or excessive relative to the operating entity's equity (conduit/debt-equity recharacterization risk)?
@@ -108,15 +116,17 @@ expected:
 4. Where are the IP, the financing, and the employees — will § 105-130.4(t1) alternative apportionment be triggered?
 5. Fiscal-year filers: is the blended-rate proration table applied?
 
-## 9. Sources
+## Sources
 
-- N.C.G.S. § 105-130.5 (State net income; (25) related-member net interest addback): <https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.5.html> — 200 with statute text, 2026-10-25.
-- N.C.G.S. § 105-130.7A (royalty income reporting option): <https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.7A.html> — 200 with statute text, 2026-10-25.
-- N.C.G.S. § 105-130.3 (corporate rate schedule): <https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.3.html> — 200 with text, 2026-10-25.
-- N.C.G.S. § 105-130.4 (apportionment; (t1) alternative): <https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html> — 200 with text, 2026-10-25.
-- N.C.G.S. § 105-163.15 (estimated installments): <https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-163.15.html> — 200 with text, 2026-10-25.
-- Combined-reporting statutory authority (Form CD-405 combined): **needs-sources** — section not located on ncleg.gov 2026-10-25; corroborated by `nc-corporate-tax` skill (read 2026-10-25).
-- 2026 NCDOR penalty-rate schedule: **needs-sources**.
+| Source | URL | Read on |
+|---|---|---|
+| N.C.G.S. § 105-130.5 (State net income; (25) related-member net interest addback): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.5.html | 2026-10-25 |
+| N.C.G.S. § 105-130.7A (royalty income reporting option): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.7A.html | 2026-10-25 |
+| N.C.G.S. § 105-130.3 (corporate rate schedule): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.3.html | 2026-10-25 |
+| N.C.G.S. § 105-130.4 (apportionment; (t1) alternative): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html | 2026-10-25 |
+| N.C.G.S. § 105-163.15 (estimated installments): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-163.15.html | 2026-10-25 |
+
+Not yet confirmed: Combined-reporting statutory authority (Form CD-405 combined): needs-sources — section not located on ncleg.gov 2026-10-25; corroborated by `nc-corporate-tax` skill (read 2026-10-25) 2026 NCDOR penalty-rate schedule: needs-sources
 
 <!-- openaccountants-cta-block -->
 
