@@ -32,7 +32,7 @@ not_applicable: []
 |---|---|
 | `mi-income-tax.md` | Individual income tax for self-employed / sole proprietors (Form MI-1040) |
 | `mi-sales-tax.md` | Sales and use tax obligations and rates |
-| `mi-social-contributions.md` | UI employer-only structure (9,500 base) + PFML program (premium schedule needs-sources) |
+mi-social-contributions.md | UI employer-only structure (wage base not yet confirmed) + PFML program
 | `mi-transfer-pricing-unitary-combined.md` | Unitary combined reporting (MCL 208.1401) as Michigan's connected-party regime |
 | `mi-cross-border-tax.md` | Schedule NR, reciprocity, composite (needs-sources), P.L. 86-272 |
 

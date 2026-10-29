@@ -25,14 +25,14 @@ version: 0.1
 ## Rates, bands and thresholds
 
 
-- **UI:** employer-only tax on a USD 9,500 per-employee taxable wage base; experience-rated rates plus a 0.99% wage tax on covered employment (mi-payroll, read 2026-10-25). No employee contribution.
+- **UI:** employer-only tax on a per-employee taxable wage base (the current-year figure is not yet confirmed); experience-rated rates plus a wage tax on covered employment whose rate is not yet confirmed (mi-payroll, read 2026-10-25). No employee contribution.
 - **PFML:** the Insurance Care for Working Families Act (2022 PA 1, 200 on 2026-10-25) creates a state insurance program funded by premiums on covered wages. The statute's premium schedule (0.8% of wages, split 50/50 employer/employee, with small-employer exemption) was **not machine-verified from the enrolled-act text in the drafting environment on 2026-10-25** — the enrolled PDF's text layer did not yield the premium sections — so the premium figures are **unverified**; confirm against LARA's Family Leave Insurance pages before payroll changes.
 - PFML premium collection was legislatively delayed; the first-premium timing is part of the unverified set above.
 
 ## The taxable base
 
 
-- UI: gross covered wages up to the 9,500 per-employee annual base (mi-payroll, read 2026-10-25).
+- UI: gross covered wages up to the per-employee annual base (current-year figure not yet confirmed; mi-payroll, read 2026-10-25).
 - PFML: covered wages as defined by 2022 PA 1 (unverified for the definitional cross-references).
 
 ## Deadlines and filing
@@ -57,7 +57,7 @@ version: 0.1
 ## Worked examples
 
 
-**Example 1 — UI base cost.** An employer with 10 covered employees pays the new-employer rate on the full base: 10 × 9,500 = 95,000 taxable wages; at a 3.5% experience rate: 95,000 × 0.035 = 3,325, plus the 0.99% wage tax on the same base: 95,000 × 0.0099 = 940.50.
+**Worked example 1 — UI base cost (hypothetical).** An employer with 10 covered employees pays the new-employer rate on a hypothetical 9,500 base: 10 × 9,500 = 95,000 taxable wages; at a hypothetical 3.5% experience rate: 95,000 × 0.035 = 3,325, plus a hypothetical 0.99% wage tax on the same base: 95,000 × 0.0099 = 940.50.
 
 ```oa-check
 name: mi ui base cost
@@ -78,7 +78,7 @@ expected:
   total: 4265.50
 ```
 
-**Example 2 — PFML premium split (unverified figures).** On USD 200,000 of covered wages, an assumed 0.8% premium with a 50/50 split: premium 200,000 × 0.008 = 1,600; employer 800, employee 800. Verify the live schedule with LARA before relying on these numbers.
+**Worked example 2 — PFML premium split (hypothetical, unverified figures).** On USD 200,000 of covered wages, an assumed 0.8% premium with a 50/50 split: premium 200,000 × 0.008 = 1,600; employer 800, employee 800. Verify the live schedule with LARA before relying on these numbers.
 
 ```oa-check
 name: mi pfml premium split
@@ -109,9 +109,9 @@ expected:
 | Source | URL | Read on |
 | --- | --- | --- |
 | Insurance Care for Working Families Act, 2022 PA 1 (enrolled) — 200; premium sections **unverified** (text layer not machine-readable in drafting environment) | https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm | 2026-10-25 |
-| `mi-payroll` skill (UI base 9,500, wage tax, deadlines) — internal corroboration | (internal skills) | 2026-10-25 |
+| `mi-payroll` skill (UI wage base, wage tax, deadlines) — internal corroboration | (internal skills) | 2026-10-25 |
 
-Not yet confirmed: PFML premium rate/schedule and split, small-employer exemption, first-premium timing, covered-wage definition, and PFML penalties (2022 PA 1 premium sections not machine-verified; LARA pages unreachable 2026-10-25).
+Not yet confirmed: PFML premium rate/schedule and split, small-employer exemption, first-premium timing, covered-wage definition, and PFML penalties (2022 PA 1 premium sections not machine-verified; LARA pages unreachable 2026-10-25); the UI taxable wage base figure and the 0.99% wage-tax rate (no verbatim archived source in the pack).
 - Not yet confirmed: LARA Family Leave Insurance program pages — **unverified** (not reachable 2026-10-25).
 
 <!-- openaccountants-cta-block -->

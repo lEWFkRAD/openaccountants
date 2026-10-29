@@ -80,7 +80,7 @@ Step 5: If remainder > $500 → MUST make estimates.
 
 | Situation | Trigger? |
 | --- | --- |
-| Sole prop / SMLLC with no withholding | Almost always YES once net SE income > ~$13,000 |
+| Sole prop / SMLLC with no withholding | Almost always YES once net SE income exceeds roughly the level at which 2026 MI tax on the income passes $500 (the $500 trigger, MCL 206.301(1)) |
 | W-2 earner with W-4 set correctly | Usually NO |
 | W-2 earner with side gig (Schedule C) | Depends — compute step 5 |
 | Retiree with no MI withholding on 1099-R | Yes if subtraction does not zero out tax |
@@ -182,7 +182,7 @@ Step 5: If remainder > $500 → MUST make estimates.
 
 ### Worked snippet
 
-Without annualization the consultant would owe $1,488 per quarter (roughly $5,950 ÷ 4). With annualization the Q1 and Q2 payments are tiny because little income had been earned. Total paid across all four quarters is identical, but no underpayment penalty accrues for Q1 and Q2.
+Without annualization the consultant would owe roughly $1,488 per quarter (the $5,950 annual figure divided by 4). With annualization the Q1 and Q2 payments are tiny because little income had been earned. Total paid across all four quarters is identical, but no underpayment penalty accrues for Q1 and Q2.
 
 ## Deadlines and filing
 
@@ -318,9 +318,9 @@ Michigan estimated tax is a state-level obligation only: federal estimates (Form
 ## Worked examples
 
 
-### Example 1 — Steady-income sole proprietor ($120k expected)
+### Worked example 1 — Steady-income sole proprietor ($120k expected, hypothetical)
 
-**Facts.** Single filer; full-year Michigan resident; sole proprietor with expected TY 2026 Schedule C net profit of $120,000; no W-2 withholding; TY 2025 MI-1040 total tax was $4,750 (federal AGI $115k); no city income tax.
+**Facts (all hypothetical).** Single filer; full-year Michigan resident; sole proprietor with expected TY 2026 Schedule C net profit of $120,000; no W-2 withholding; TY 2025 MI-1040 total tax was $4,750 (federal AGI $115k); no city income tax.
 
 **Step 1 — Determine if estimates required.**
 - Expected MI AGI ≈ $120,000 − ½ SE tax adjustment ($8,478) = $111,522.
@@ -348,13 +348,13 @@ Michigan estimated tax is a state-level obligation only: federal estimates (Form
 | Q4 | January 15, 2027 | $1,011 |
 | **Total** |  | **$4,044** |
 
-### Example 1 — Steady-income sole proprietor ($120k expected)
+### Worked example 1 — Steady-income sole proprietor ($120k expected, hypothetical)
 
 Schedule four ACH debits via MTO at sign-up; no further action required.
 
-### Example 2 — Sole prop with Q3 income spike (annualized method)
+### Worked example 2 — Sole prop with Q3 income spike (annualized method, hypothetical)
 
-**Facts.** Single filer; consultant; total 2026 net profit $140,000 but landed in this distribution: $8,000 by Mar 31; $15,000 by May 31; $90,000 by Aug 31; $140,000 by Dec 31. TY 2025 prior tax was $3,200.
+**Facts (all hypothetical).** Single filer; consultant; total 2026 net profit $140,000 but landed in this distribution: $8,000 by Mar 31; $15,000 by May 31; $90,000 by Aug 31; $140,000 by Dec 31. TY 2025 prior tax was $3,200.
 
 **Regular installment method would require** $140,000 × ~4% MI = ~$5,950 annual tax × 90% ÷ 4 = **$1,339/quarter** — but the taxpayer earned only $8,000 by Mar 31, so $1,339 due April 15 is roughly 67% of all income earned to that date. Painful.
 
@@ -370,15 +370,15 @@ Schedule four ACH debits via MTO at sign-up; no further action required.
 | 4 (12/31) | $140,000 | 1.00 | $140,000 | $5,950 | $5,355 | $3,873 | $1,482 |
 | **Total** |  |  |  |  |  |  | **$5,355** |
 
-### Example 2 — Sole prop with Q3 income spike (annualized method)
+### Worked example 2 — Sole prop with Q3 income spike (annualized method, hypothetical)
 
 The annualized method front-loads cash to Q3 when the income actually arrived. No MI-2210 penalty accrues because each cumulative payment meets the cumulative safe-harbor percentage.
 
 `[VERIFY:]` Annualization factors mirror federal Schedule AI; confirm the MI-2210 (2026 revision) replicates the federal 4 / 2.4 / 1.5 / 1 sequence.
 
-### Example 3 — High-income W-2 earner with withholding shortfall
+### Worked example 3 — High-income W-2 earner with withholding shortfall
 
-**Facts.** MFJ; both spouses W-2; combined wages $300,000; combined federal AGI 2025 was $285,000 (i.e., > $150k threshold); MI withholding for 2026 projected at $9,500 against expected MI tax of $12,400; TY 2025 MI total tax was $11,800. No self-employment income.
+**Facts (all hypothetical).** MFJ; both spouses W-2; combined wages $300,000; combined federal AGI 2025 was $285,000 (i.e., > $150k threshold); MI withholding for 2026 projected at $9,500 against expected MI tax of $12,400; TY 2025 MI total tax was $11,800. No self-employment income.
 
 **Step 1 — Estimates required?**
 - Expected MI tax $12,400 − withholding $9,500 = $2,900 shortfall.
@@ -407,7 +407,7 @@ The annualized method front-loads cash to Q3 when the income actually arrived. N
 | **+ Withholding** |  | **$9,500** |
 | **= RAP** |  | **$11,160** |
 
-### Example 3 — High-income W-2 earner with withholding shortfall
+### Worked example 3 — High-income W-2 earner with withholding shortfall
 
 For W-2 couples, increasing Michigan withholding via MI-W4 line 6 ("additional amount per pay") is usually administratively easier than quarterly vouchers — and withholding is treated as paid evenly across all four quarters even if added in November, which can fully cure an underpayment for Q1–Q3.
 
