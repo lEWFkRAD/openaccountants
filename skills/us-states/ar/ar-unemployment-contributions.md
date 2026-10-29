@@ -3,94 +3,144 @@ name: ar-unemployment-contributions
 description: >
   Use this skill whenever asked about Arkansas employer social
   contributions for tax year 2026 — unemployment insurance
-  contributions administered by the Division of Workforce Services,
-  the employer-only nature of the UI tax, the Arkansas taxable wage
-  base, experience rating and solvency surtaxes, and the absence of
-  state disability or paid-leave payroll taxes. Trigger on "Arkansas
-  UI rate", "Arkansas SUTA", "Arkansas unemployment wage base",
+  contributions administered by the Division of Workforce Services
+  (Arkansas Division of Reemployment), the employer-only nature of
+  the UI tax, the $7,000 taxable wage base, the 2026 rate table
+  (new-employer 2.0%, experienced range 0.2%-5.1%, stabilization
+  0.2%), experience rating, coverage tests, and the absence of state
+  disability or paid-leave payroll taxes. Trigger on "Arkansas UI
+  rate", "Arkansas SUTA", "Arkansas unemployment wage base",
   "Arkansas employer taxes", "Arkansas workforce services UI".
-  Source-cited draft; workservices.arkansas.gov did not resolve from
-  this host this run — all UI figures flagged needs-sources.
 jurisdiction: US-AR
 category: payroll
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
-verified_by: pending
+last_updated: 2026-10-28
+version: "0.2"
+review_status: pending_review
+trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
   - ar-income-tax
 ---
 
-# Arkansas social contributions (UI) v0.1
+# Arkansas social contributions (unemployment insurance), tax year 2026
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+> **Source-cited draft.** Built from the Arkansas Division of Workforce Services (Arkansas Division of Reemployment) employer UI pages, read on 2026-10-28. No accountant has reviewed it. Do not run a payroll from it without review by a qualified Arkansas professional.
 
-## 1. Scope and sources
+Arkansas employer social contributions: unemployment insurance (UI) contributions under the Arkansas Unemployment Insurance Law (Title 11 — the DWS employer page cites "Title 11, Chapter 10"), administered by the **Division of Workforce Services (DWS)**; federal FICA/FUTA; and mandatory workers' compensation insurance. Arkansas has **no** state disability insurance, **no** paid family/medical leave contribution, and **no** state-mandated private retirement contribution. The UI tax is computed "on the wages paid to each employee on a calendar quarter basis" ([DWS, Employer UI Contributions](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/employer-ui-contributions/)).
 
-Source-cited draft, run of 27 October 2026. Arkansas employer social contributions: unemployment insurance contributions under Ark. Code Ann. title 11 administered by the **Division of Workforce Services (DWS)**, federal FICA/FUTA, and mandatory workers' compensation insurance above the statutory employee count. Arkansas has **no** state disability insurance, **no** paid family/medical leave contribution, and **no** state-mandated private retirement contribution. **Source status:** workservices.arkansas.gov did not resolve by DNS from this drafting host this run, and arkleg.state.ar.us served empty/500 responses — every UI figure below is **needs-sources**. Pull the DWS 2026 rate notice before publishing amounts.
+## Who this applies to
 
-## 2. Who applies
+- **Employers** covered by the Arkansas Unemployment Insurance Law. If a service is not specifically exempt, it is covered by state unemployment insurance (DWS, Employer UI Contributions).
+- **Domestic employment** is exempt unless cash wages meet or exceed $1,000 in any calendar quarter, in which case the employer is liable for the whole calendar year and the following year (DWS, Employer UI Contributions).
+- **Agricultural employment** is exempt unless wages of $20,000 or more are paid in a calendar quarter or the employer has 10 or more workers in 20 calendar weeks (DWS, Employer UI Contributions).
+- The UI contribution is **employer-only** — "No, deductions are not made from your paycheck" (DWS UI FAQs: Arkansas employees pay no state UI tax).
+- Workers' compensation is a separate insurance mandate, not a tax.
+- Out-of-state employers with Arkansas employees register with DWS; the wage base applies per employee per state.
 
-- Employers covered under Ark. Code Ann. §11-15-301 et seq. (coverage tests — statutory text **needs-sources**). Out-of-state employers with Arkansas employees are covered on the same basis.
-- The UI contribution is **employer-only** — Arkansas employees pay no state UI tax.
-- Workers' compensation: mandatory for employers with three or more employees (threshold — confirm, **needs-sources**); an insurance mandate, not a tax.
+## Rates, bands and thresholds
 
-## 3. Rates and base (2026 — all figures needs-sources)
+2026 rate table ([DWS, UI for Employers](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/)):
 
-| Item | 2026 amount | Source |
+| Item | 2026 | Source |
 |---|---|---|
-| UI taxable wage base | **needs-sources** (DWS 2026 notice) | Ark. Code §11-15-504 — not fetched |
-| Experience rate range (min/max) | **needs-sources** | Ark. Code §11-15-505 — not fetched |
-| New-employer assigned rate | **needs-sources** | Ark. Code §11-15-506 — not fetched |
-| Solvency surtax | **needs-sources** (check DWS annual notice) | DWS notices |
-| FUTA credit reduction | none typical — verify current-year DOL list | US DOL |
+| UI taxable wage base | $7,000 per employee per calendar year | [DWS, UI for Employers](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/); [DWS, Employer UI Contributions](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/employer-ui-contributions/) |
+| New employer rate | 2.0% | [DWS, UI for Employers](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/) |
+| Experienced employer range | 0.2% – 5.1% | [DWS, UI for Employers](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/) |
+| Deficit rates (benefit-cost levels) | 6.1%, 8.1%, 10.1% | [DWS, UI for Employers](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/) |
+| Stabilization rate | 0.2% | [DWS, UI for Employers](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/) |
+| Statutory rate ceiling without assessments | maximum rate of 5.0% ("tax rates currently range from 0.1% to a maximum rate of 5.0%, plus the stabilization rate") | [DWS, Employer UI Contributions](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/employer-ui-contributions/) |
 
-## 4. Deadlines
+Historical rates on the same DWS page, for context and prior-year reconciliations: in 2024 the taxable wage base was $7,000, the experienced-employer range 0.225%–10.125% (including assessments), and the new-employer rate 2.025% (1.9% plus the 0.125% administrative assessment for fiscal 2024); in 2025 the experienced range was 0.200%–10.100% and the new-employer rate 2.0% (1.9% plus the 0.1% administrative assessment for fiscal 2025); a 2023 new employer was assigned 3.1% and stays there until three full years of benefit-risk are established (DWS, Employer UI Contributions). Act 1191: after two consecutive years of a 4.0% additional-contribution assessment, the assessment increases to 6.0% (basic rate 12.0%), and after two more consecutive years at 6.0% it increases to 8.0% (basic rate 14.0%) (DWS, Employer UI Contributions).
 
-- **Quarterly contribution return (Form B-8):** due the last day of the month following each quarter (pattern — confirm, **needs-sources**).
-- **Annual reconciliation (Form B-9):** due January 31 (pattern — **needs-sources**).
-- **Wage detail (B-81/W-3):** quarterly with the B-8 (**needs-sources**).
+## The taxable base
 
-## 5. Penalties and interest
+- The UI tax is computed on wages paid to each employee on a calendar-quarter basis, up to the $7,000 taxable wage base per employee per calendar year (DWS, Employer UI Contributions).
+- "Wages" is all remuneration for personal services — salaries (including corporation officers' salaries), commissions, bonuses, fees, fringe benefits, sick pay, deferred compensation and tips reported to the employer (DWS, Employer UI Contributions).
+- The employer's experience rate follows the reserve account: when an entire ongoing business is acquired, the previous owner's tax rate is assigned to the new owner; a rate may transfer when a business location is acquired (DWS, Employer UI Contributions).
+- The federal FUTA credit reduction status changes year by year — check the current US DOL list before accruing FUTA.
 
-Late returns/contributions draw penalties and interest under title 11 (percentages **needs-sources**). Common failure modes: (1) accruing UI at gross payroll instead of the per-employee wage base; (2) missing the solvency surtax in surtax years; (3) misclassifying workers — Arkansas DWS audits contractor arrangements aggressively (program detail **needs-sources**).
+## Deadlines and filing
 
-## 6. Cross-border interactions
+- UI contributions are computed and paid by calendar quarter through the DWS Tax21 employer system; wage detail is reported quarterly (DWS, UI for Employers).
+- The DWS employer handbook has the filing calendar and report forms (DWS, UI for Employers). The exact statutory due date for each quarterly contribution report is on the DWS report forms — see Not yet confirmed.
 
-- Multi-state employers register with DWS when Arkansas employees exist; wage base applies per employee per state.
-- Staffing/PEO arrangements file under DWS leasing rules (**needs-sources**).
+## Penalties and interest
 
-## 7. Worked examples
+- Late returns and late contributions draw penalties and interest under the Arkansas Unemployment Insurance Law (title 11); the specific percentages are on the DWS report forms — see Not yet confirmed.
+- Common failure modes: (1) accruing UI on gross payroll instead of the per-employee $7,000 wage base; (2) missing the deficit-rate and stabilization components in a surtax year; (3) worker misclassification — DWS audits contractor arrangements.
 
-An employer with 6 Arkansas employees each paid $28,000 in 2026, at an assumed 2.3% rate on a $14,000 wage base (illustrative inputs — both **needs-sources**):
+## Cross-border points
+
+- **Multi-state employers** register with DWS when Arkansas employees exist; the $7,000 wage base applies per employee per state, so the same employee's wages can be taxable in two states up to each state's base.
+- **Staffing/PEO arrangements** file under the DWS leasing rules — the rate-transfer rules for acquired businesses apply (DWS, Employer UI Contributions).
+- UI contributions are not withheld from employees; the individual income tax side of wages is in `ar-income-tax` and `ar-payroll-withholding`.
+
+## Worked examples
+
+**Example 1: quarterly UI contribution (hypothetical facts, 2026 confirmed figures).** An employer with 6 Arkansas employees each paid $28,000 in 2026 at the 2026 new-employer rate of 2.0%: each employee is taxed on the first $7,000 of wages, so taxable wages are 6 × $7,000 = $42,000 and the contribution is $840.00.
 
 ```oa-check
-name: AR UI contribution illustrative
+name: AR UI contribution, 6 employees at 2.0% new-employer rate (2026)
 inputs:
   employees: 6
-  wage_base: 14000
-  rate: 0.023
+  wage_base: 7000
+  rate: 0.02
 steps:
   - taxable: employees * wage_base
   - contribution: taxable * rate
 expected:
-  taxable: 84000.00
-  contribution: 1932.00
+  taxable: 42000.00
+  contribution: 840.00
 ```
 
-## 8. Ask the client
+**Example 2: employee over the wage base (hypothetical facts).** One employee paid $28,000 in 2026 at an experienced-employer rate of 3.0%: UI applies only to the first $7,000, so the contribution is $210.00, not $840.00.
 
-- Has the DWS 2026 rate notice been received; is the experience rate reconciled to the reserve account?
-- Are contributions accrued on the wage base, not gross payroll?
-- Contractor-heavy workforce: has DWS classification risk been reviewed?
-- Workers' comp coverage current for 3+ employee thresholds?
+```oa-check
+name: AR UI wage-base cap, one employee (2026)
+inputs:
+  wages: 28000
+  wage_base: 7000
+  rate: 0.03
+steps:
+  - taxable: min(wages, wage_base)
+  - contribution: taxable * rate
+expected:
+  taxable: 7000
+  contribution: 210.00
+```
+
+## Ask the client first
+
+- Has the DWS 2026 rate notice been received, and is the experience rate reconciled to the reserve account (including any stabilization or deficit component)?
+- Are contributions accrued on the $7,000 per-employee wage base, not gross payroll?
+- Contractor-heavy workforce: has worker-classification risk been reviewed?
+- Any business acquisition — was the predecessor's UI rate transferred?
+- Domestic or agricultural employment — do the $1,000 (domestic, per quarter) or $20,000 / 10-workers-in-20-weeks (agricultural) coverage tests apply?
 
 ## Sources
 
-1. Division of Workforce Services: https://workservices.arkansas.gov/ (DNS did not resolve from this host 2026-10-27 — **needs-sources**)
-2. Ark. Code Ann. title 11 ch. 15: https://www.arkleg.state.ar.us/Code (empty/500 from this host — **needs-sources**)
-3. DFA (administers some UI-related payments via ATAP): https://www.dfa.arkansas.gov/office/taxes/ (read 2026-10-27)
+| Source | URL | Read on |
+|---|---|---|
+| Arkansas Division of Workforce Services, Unemployment Insurance for Employers (2026 tax rates) | https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/ | 2026-10-28 |
+| Arkansas Division of Workforce Services, Employer UI Contributions (wage base, rates, coverage, transfers) | https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/employer-ui-contributions/ | 2026-10-28 |
+
+Not yet confirmed: the exact statutory due date for the quarterly UI contribution report and wage detail (the DWS pages confirm quarterly computation but state no day; the employer handbook PDF was not read); the late-filing and late-payment penalty and interest percentages under title 11; the DWS report form numbers for 2026 (the prior draft's Form B-8/B-9 references were not confirmed against a DWS page and are not restated); whether Arkansas is on the current-year federal FUTA credit-reduction list (US DOL list not read); workers' compensation employee-count threshold (insurance mandate, not confirmed on a DWS/DFA page here).
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Arkansas payroll and UI questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
