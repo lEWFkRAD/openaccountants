@@ -69,15 +69,15 @@ Not yet confirmed against archived sources.
  (not yet confirmed)
 | Filing | Due | (not yet confirmed)
 |---|---|
-| IT 1040 (residents, nonresidents, part-year) | April 15 (calendar year); extension to October 15 |
-| Ohio Nonresident Statement box | Claimed on the return; presumption deadline 15th day of 10th month after year-end (October 15) |
+| IT 1040 (residents, nonresidents, part-year) | April 15 (calendar year); extension to October 15 | (not yet confirmed)
+| Ohio Nonresident Statement box | Claimed on the return; presumption deadline 15th day of 10th month after year-end (October 15) | (not yet confirmed)
 | IT NRC / IT RC | Attached to the IT 1040 via Schedule of Credits |
 | Municipal employer returns | Per municipality/RITA/CCA calendar (Form 27 RITA year-end etc.) — see `oh-payroll` |
 
 ## Penalties and interest
 
 - IT/SD 2210 underpayment interest on line 11 of the IT 1040; late-payment interest on line 21 — Ohio charges **interest, not a late-filing penalty percentage** on the individual return (per `oh-income-tax` 2025 instructions).
-- Delinquency billings can fire when federal AGI > $28,450 and no Ohio return was filed — the Department recommends filing even at zero tax (`oh-income-tax`).
+- Delinquency billings can fire when federal AGI > $28,450 and no Ohio return was filed — the Department recommends filing even at zero tax (`oh-income-tax`). (not yet confirmed)
 - Municipal side: missed 20-day catch-up withholding is the most common Ohio municipal payroll audit finding (`oh-payroll` AUDIT FLASH POINT).
 
 ## Cross-border points

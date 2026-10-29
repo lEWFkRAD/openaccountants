@@ -68,8 +68,8 @@ Not yet confirmed against archived sources.
 |---|---| (not yet confirmed)
 | CAT annual registration / estimate (form 10-CW) | By the last day of the calendar year for the following year | (not yet confirmed)
 | CAT quarterly returns (form 10-Q) | Last day of the month after each calendar quarter end (Apr 30, Jul 31, Oct 31, Jan 31) |
-| CAT annual return (form 10-C) | April 15 (calendar-year taxpayers) |
-| CAT surcharge installments | Historic (2014–2023 years): 15th day of the 4th and 10th months; **no surcharge for 2025–2026** |
+| CAT annual return (form 10-C) | April 15 (calendar-year taxpayers) | (not yet confirmed)
+| CAT surcharge installments | Historic (2014–2023 years): 15th day of the 4th and 10th months; **no surcharge for 2025–2026** | (not yet confirmed)
 | Refund claim | Within **four years** after the date of the erroneous payment | [ORC 5751.08(A)](https://codes.ohio.gov/ohio-revised-code/section-5751.08), read 2026-10-27 |
 
 Quarter dates and installment split are from `oh-cat` (Department page, 2026-10-16) — **not yet confirmed for 2026**.

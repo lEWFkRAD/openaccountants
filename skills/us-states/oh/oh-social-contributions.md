@@ -71,7 +71,7 @@ Not yet confirmed against archived sources.
 | UI quarterly return + contributions (MITA / e-file) | Last day of the month following each calendar quarter (Apr 30, Jul 31, Oct 31, Jan 31) | (not yet confirmed)
 | UI annual reconciliation | With the Q4 return |
 | BWC annual payroll report | **August 15** (ORC 4123.26(B)) |
-| BWC premium installments | Monthly or quarterly per BWC billing schedule; first installment at policy inception (Jan 1 policy year) |
+| BWC premium installments | Monthly or quarterly per BWC billing schedule; first installment at policy inception (Jan 1 policy year) | (not yet confirmed)
 | UI rate notices | Mailed by ODJFS in December for the following calendar year |
 
 Quarter dates follow the ODJFS pattern in `oh-payroll`; BWC installment cadence **not yet confirmed**.
@@ -125,11 +125,11 @@ The $1.85 class rate is hypothetical — pull the client's actual BWC class rate
  (not yet confirmed)
 ## Ask the client first
 
-- Are all employees reported to ODJFS each quarter, including the first $9,000 of each worker's wages?
+- Are all employees reported to ODJFS each quarter, including the first $9,000 of each worker's wages? (not yet confirmed)
 - Experience rate letter for 2026 — has the client appealed an adverse rate? (not yet confirmed)
 - Is the client a **self-assessing** BWC employer, and is the certificate current?
 - Worker classification: any 1099 contractors in Ohio? Misclassification reaches both UI and BWC.
-- BWC payroll report filed by August 15? Forfeiture is automatic.
+- BWC payroll report filed by August 15? Forfeiture is automatic. (not yet confirmed)
 - Any reimbursable-agreement status (nonprofits/government) instead of contributory coverage?
 
 ## Sources

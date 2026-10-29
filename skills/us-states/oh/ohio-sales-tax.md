@@ -42,7 +42,7 @@ Figures are for tax year 2026, as they stand on 25 September 2026. They come fro
 2. **Classify each sale.** Tangible personal property (which includes prewritten software, whether delivered on media or downloaded) is taxable unless an exemption applies. Services are taxable only if Ohio law lists them ([taxability](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/taxability)).
 3. **Check exemption paperwork.** An exempt sale needs a certificate carrying all the required data elements (STEC B, STEC U, the SST certificate, or the MTC certificate for resale only) ([ST 2005-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2005-02exemptioncertificateforms)).
 4. **Source the sale.** Goods sold by an Ohio vendor are sourced to where the order is received. Services, sales by out-of-state sellers and marketplace facilitator sales are sourced to where the customer receives the property or first uses the service ([ST 2009-03](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st-2009-03-sourcing)).
-5. **Find the rate for that location.** State 5.75% plus the county and any transit authority rate, up to a combined 8.75%. Look the address up in The Finder or the current quarter's rate table; do not rely on a ZIP code alone ([sales and use tax page](https://tax.ohio.gov/business/sales-and-use-tax)).
+5. **Find the rate for that location.** State 5.75% plus the county and any transit authority rate, up to a combined 8.75%. Look the address up in The Finder or the current quarter's rate table; do not rely on a ZIP code alone ([sales and use tax page](https://tax.ohio.gov/business/sales-and-use-tax)). (not yet confirmed)
 6. **Charge tax on the full price**, including delivery charges on taxable items. Itemize any mixed taxable and nontaxable charges; if you do not, the whole charge is taxable ([taxability](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/taxability)).
 7. **Accrue use tax** on your own untaxed purchases and on inventory taken out for your own use ([use tax](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/use-streamlined-vda)).
 8. **File the UST-1 and pay by the 23rd** of the month after the period (next business day if the 23rd is a weekend or holiday), even with nothing to report. Take the 0.75% discount only if the return and full payment arrive on time, and apply the $750 cap ([ST 2025-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2025-02_vendor_timely_filing_discount_dec_2025)).
@@ -53,15 +53,15 @@ Figures are for tax year 2026, as they stand on 25 September 2026. They come fro
 
 | Item | 2026 value | Condition |
 | --- | --- | --- |
-| State sales and use tax | 5.75% | On retail sales, leases and rentals of tangible personal property and on the listed services |
-| County and transit authority tax | Up to 3% in total | Set in multiples of 0.05%. Only counties and regional transit authorities levy it |
-| Maximum combined rate | 8.75% | The law's cap on state, county and transit tax combined |
-| Highest rate in the Q4 2026 table | 8.25% | The part of Reynoldsburg in Licking County (COTA) |
+| State sales and use tax | 5.75% | On retail sales, leases and rentals of tangible personal property and on the listed services | (not yet confirmed)
+| County and transit authority tax | Up to 3% in total | Set in multiples of 0.05%. Only counties and regional transit authorities levy it | (not yet confirmed)
+| Maximum combined rate | 8.75% | The law's cap on state, county and transit tax combined | (not yet confirmed)
+| Highest rate in the Q4 2026 table | 8.25% | The part of Reynoldsburg in Licking County (COTA) | (not yet confirmed)
 | Use tax | Same rates | At the location of use |
 
 - **Look up the rate, do not memorize a table.** Use The Finder (search by address, 9-digit ZIP or latitude and longitude). A 5-digit ZIP can cross county lines and return more than one jurisdiction.
 - **Boundaries.** Rates almost always follow county borders. The exceptions are transit areas, such as the Central Ohio Transit Authority (COTA) area, which reaches into parts of Delaware, Fairfield, Licking and Union counties.
-- **Changes happen quarterly.** A county or transit rate can change only on 1 January, 1 April, 1 July or 1 October. For example, Warren County rises from 6.75% to 7.25% on 1 October 2026. Sign up for the Department's sales tax e-mail alerts to hear of changes.
+- **Changes happen quarterly.** A county or transit rate can change only on 1 January, 1 April, 1 July or 1 October. For example, Warren County rises from 6.75% to 7.25% on 1 October 2026. Sign up for the Department's sales tax e-mail alerts to hear of changes. (not yet confirmed)
 
 ### Sourcing: which location's rate applies ([ST 2009-03](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st-2009-03-sourcing))
 
@@ -111,8 +111,8 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 | Service | Treatment | Condition or exception |
 | --- | --- | --- |
 | Repair and installation of goods | Taxable | Not taxable if the item repaired or installed is exempt. Parts permanently transferred to the customer are exempt to the provider |
-| Landscaping and lawn care; snow removal | Taxable once the provider reaches $5,000 in a calendar year | Below $5,000 from that service in the year, no tax and no license. Once $5,000 is reached, collect on all future sales of that service. Each service is tested separately ([ST 2003-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2003-02-rev-march2026)) |
-| Building maintenance and janitorial | Taxable once sales of the service equal or exceed $5,000 in a calendar year | Once reached, collect on all sales until the business stops; the $5,000 does not reset ([ST 2002-04](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2002-04-updated04.2025)) |
+| Landscaping and lawn care; snow removal | Taxable once the provider reaches $5,000 in a calendar year | Below $5,000 from that service in the year, no tax and no license. Once $5,000 is reached, collect on all future sales of that service. Each service is tested separately ([ST 2003-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2003-02-rev-march2026)) | (not yet confirmed)
+| Building maintenance and janitorial | Taxable once sales of the service equal or exceed $5,000 in a calendar year | Once reached, collect on all sales until the business stops; the $5,000 does not reset ([ST 2002-04](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2002-04-updated04.2025)) | (not yet confirmed)
 | Exterminating and pest control | Taxable | |
 | Car washing, waxing, polishing; dry cleaning and laundry | Taxable | Coin-operated services excluded |
 | Physical fitness facilities and recreation or sports clubs | Taxable | Gym and fitness memberships |
@@ -148,7 +148,7 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 | Food for human consumption off the premises | Exempt | Food eaten on the premises (restaurants) is always taxable |
 | Candy, chewing gum and breath mints | Exempt as food | Ohio treats them as food |
 | Soft drinks | Taxable | Any sweetened nonalcoholic beverage, unless it contains milk or a milk substitute, or more than 50% fruit or vegetable juice. Powdered mixes are not soft drinks |
-| Alcoholic beverages, dietary supplements, tobacco | Taxable | Alcohol means 0.5% or more alcohol by volume. A "Supplement Facts" label means a dietary supplement |
+| Alcoholic beverages, dietary supplements, tobacco | Taxable | Alcohol means 0.5% or more alcohol by volume. A "Supplement Facts" label means a dietary supplement | (not yet confirmed)
 | Over-the-counter drugs | Taxable | Products with a "Drug Facts" label |
 | Prescription drugs and doctor-prescribed medical equipment | Exempt | Prescription glasses and contacts exempt since 1 July 2019 |
 | Feminine hygiene products; children's diapers; qualifying baby products | Exempt | Car seats, cribs and strollers must meet the safety standards in ST 2023-01 |
@@ -186,13 +186,13 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 4. **Vendor discount cap.** A vendor with one vendor's license reports $120,000 of tax on its March 2026 return, due 23 April 2026, and files and pays in full on time. The discount would be $120,000 × 0.75% = $900.00, but it is capped at $750 for the month, so it remits $120,000 − $750 = $119,250. Its November 2025 return, due 23 December 2025, was not capped: the same liability would have earned $900.00. Its December 2025 return, due 23 January 2026, is capped, because the cap applies to returns required to be filed on or after 1 January 2026. A business with three licenses on one return has a cap of $750 × 3 = $2,250 a month ([ST 2025-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2025-02_vendor_timely_filing_discount_dec_2025)).
 5. **Small semi-annual vendor.** A vendor with one license and $1,500 of tax for January to June 2026 files by 23 July 2026. Its discount is $1,500 × 0.75% = $11.25, well under the six-month cap of $750 × 6 = $4,500 ([ST 2025-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2025-02_vendor_timely_filing_discount_dec_2025)).
 6. **Sales tax holiday.** On Saturday 8 August 2026 a Columbus shopper (Franklin County, 8.00%) buys a $70 jacket and $80 shoes. The jacket is exempt ($75 or less). The shoes are over the limit and fully taxable: $80 × 8.00% = $6.40. The store cannot exempt part of the $80 ([sales tax holiday](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/sales-tax-holiday)).
-7. **Janitorial start-up.** A new cleaning company bills offices through the year. Until its janitorial sales reach $5,000 in the calendar year it charges no tax and needs no license. From the point they reach $5,000 it must be licensed and charge tax on all its janitorial sales from then on, including in later years ([ST 2002-04](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2002-04-updated04.2025)).
-8. **Late payment interest.** A monthly vendor owes $10,000 for March 2026, due 23 April 2026, and pays it 30 days late. It loses the discount. Interest at the 2026 rate is $10,000 × 7.0% × 30 ÷ 365 = $57.53. Any penalty is on top ([interest rates](https://tax.ohio.gov/individual/resources/interest-rates)).
+7. **Janitorial start-up.** A new cleaning company bills offices through the year. Until its janitorial sales reach $5,000 in the calendar year it charges no tax and needs no license. From the point they reach $5,000 it must be licensed and charge tax on all its janitorial sales from then on, including in later years ([ST 2002-04](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2002-04-updated04.2025)). (not yet confirmed)
+8. **Late payment interest.** A monthly vendor owes $10,000 for March 2026, due 23 April 2026, and pays it 30 days late. It loses the discount. Interest at the 2026 rate is $10,000 × 7.0% × 30 ÷ 365 = $57.53. Any penalty is on top ([interest rates](https://tax.ohio.gov/individual/resources/interest-rates)). (not yet confirmed)
 
 ### When to refuse or refer
 
 - **Commercial activity tax.** The CAT is a separate tax on the seller's taxable gross receipts, with its own registration and quarterly returns. Use the oh-cat skill.
-- **Penalty amounts.** The Revised Code (sections 5739.12 and 5739.133) sets late filing, late payment and assessment penalties. This skill could not verify the current amounts against codes.ohio.gov, so confirm them there or with the Department before quoting a penalty figure.
+- **Penalty amounts.** The Revised Code (sections 5739.12 and 5739.133) sets late filing, late payment and assessment penalties. This skill could not verify the current amounts against codes.ohio.gov, so confirm them there or with the Department before quoting a penalty figure. (not yet confirmed)
 - **Audits, assessments, appeals and petitions for reassessment.** Refer to an Ohio CPA, EA or tax attorney.
 - **Past non-compliance.** A business that should have registered but did not may qualify for the Voluntary Disclosure Program, but only if it applies before the Department contacts it (see Filing and payment). Refer for the application.
 - **Complex bundled transactions, leases, and true object disputes** over computer and information services. The Ohio Supreme Court's decision in Cincinnati Fed. S. & L. Co. v. McClain (2022) changed how the Department reads the personal or professional services exception; refer if the answer turns on it ([ST 1999-04](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/sales_and_use/information_releases/ST1999-04_Online_Services_and_Internet_Access-rev9.22.pdf)).
@@ -218,9 +218,9 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 
 | Frequency | Who | Due |
 | --- | --- | --- |
-| Monthly | The default for vendors, transient vendors and out-of-state sellers | The 23rd of the following month |
-| Semi-annual | May be authorized when tax is less than $1,200 per six-month period | 23 July (January to June) and 23 January (July to December) |
-| Quarterly | Direct pay permit holders and consumer's use tax accounts with quarterly liability under $15,000 | 23 April, 23 July, 23 October, 23 January |
+| Monthly | The default for vendors, transient vendors and out-of-state sellers | The 23rd of the following month | (not yet confirmed)
+| Semi-annual | May be authorized when tax is less than $1,200 per six-month period | 23 July (January to June) and 23 January (July to December) | (not yet confirmed)
+| Quarterly | Direct pay permit holders and consumer's use tax accounts with quarterly liability under $15,000 | 23 April, 23 July, 23 October, 23 January | (not yet confirmed)
 
 - **Weekends and holidays.** A due date on a weekend or holiday moves to the next business day. In 2026 the April return was due 26 May and the July return 24 August; the September 2026 return is due 23 October 2026 ([tax alert archive](https://tax.ohio.gov/wps/portal/gov/tax/professional/ohtaxalert/taxalertsarchive/salesuse)).
 - **How to file.** OH\|TAX eServices, a Streamlined Sales Tax certified service provider, or TeleFile (only for a single-county vendor's license). On the UST-1, report all sales, including exempt sales, as gross sales on line 1, and exempt sales on line 2.
@@ -228,7 +228,7 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 
 ### Vendor discount ([ST 2025-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2025-02_vendor_timely_filing_discount_dec_2025))
 
-- **Rate.** 0.75% of the tax liability on line 6 of the UST-1.
+- **Rate.** 0.75% of the tax liability on line 6 of the UST-1. (not yet confirmed)
 - **Condition.** Only if the return and full payment are received by the Department on or before the due date.
 - **Cap (H.B. 96, the 2025 budget).** $750 per vendor's license for each month covered by the return, for returns required to be filed on or after 1 January 2026. A semi-annual return covers six months, so its cap is six times $750 per license.
 - **Motor vehicles.** The cap does not apply to the sale or lease of motor vehicles. When the liability on a return is more than $100,000, OH\|TAX eServices asks whether any of it comes from leasing motor vehicles, so that it can be left out of the cap.
@@ -241,7 +241,7 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 
 ### Interest, penalties and enforcement ([interest rates](https://tax.ohio.gov/individual/resources/interest-rates); [use tax, VDA and HOP](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/use-streamlined-vda))
 
-- **Interest.** 7.0% a year for 2026 (8.0% for 2025), simple interest: tax × rate × days late ÷ days in the year. The Tax Commissioner certifies the next year's rate by 15 October, as the federal short-term rate plus three percentage points.
+- **Interest.** 7.0% a year for 2026 (8.0% for 2025), simple interest: tax × rate × days late ÷ days in the year. The Tax Commissioner certifies the next year's rate by 15 October, as the federal short-term rate plus three percentage points. (not yet confirmed)
 - **Penalties.** Late filing, late payment and assessment penalties are set by the Revised Code; see "When to refuse or refer". A late return also loses the vendor discount.
 - **Voluntary Disclosure Program.** Available only before the Department contacts the business. The lookback is usually 36 months, with penalties removed if tax was not collected. Tax that was collected but not remitted is due in full with no lookback limit, plus a 10% penalty. The signed agreement is due within 60 days.
 - **Habitual Offender Program.** A business that fails to file or pay for three or more months in a 12-month period, or two months in a row, can be monitored; further failures lead to suspension of the vendor's license, and no sales may be made under a suspended license.
@@ -249,9 +249,9 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 
 ## 2025 periods (for amended, late or audited 2025 returns) ([sales and use tax page](https://tax.ohio.gov/business/sales-and-use-tax); [interest rates](https://tax.ohio.gov/individual/resources/interest-rates))
 
-- The state rate was 5.75% throughout 2025. County and transit rates changed on 1 April, 1 July and 1 October 2025; use the 2025 quarterly rate tables linked from the sales and use tax page.
-- Returns required to be filed before 1 January 2026 took the full 0.75% discount with no cap. The December 2025 monthly return and the July to December 2025 semi-annual return were due on 23 January 2026, so they are capped ([ST 2025-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2025-02_vendor_timely_filing_discount_dec_2025)).
-- Interest on tax overdue during 2025 runs at 8.0%.
+- The state rate was 5.75% throughout 2025. County and transit rates changed on 1 April, 1 July and 1 October 2025; use the 2025 quarterly rate tables linked from the sales and use tax page. (not yet confirmed)
+- Returns required to be filed before 1 January 2026 took the full 0.75% discount with no cap. The December 2025 monthly return and the July to December 2025 semi-annual return were due on 23 January 2026, so they are capped ([ST 2025-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2025-02_vendor_timely_filing_discount_dec_2025)). (not yet confirmed)
+- Interest on tax overdue during 2025 runs at 8.0%. (not yet confirmed)
 - A new vendor's license cost $25 until 9 April 2025 and $50 from then on.
 - This skill did not check the 2025 sales tax holiday limits; do not apply the 2026 limits to a 2025 sale without checking.
 
@@ -268,7 +268,7 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 - [ ] Discount taken only if on time, and capped at $750 per license per month.
 - [ ] Electronic and accelerated payments made if tax was $75,000 or more in a calendar year.
 - [ ] CAT considered separately (oh-cat skill).
-- [ ] Any late period: interest at 7.0% (2026) computed, penalties confirmed against the Revised Code, and VDA eligibility considered before any Department contact.
+- [ ] Any late period: interest at 7.0% (2026) computed, penalties confirmed against the Revised Code, and VDA eligibility considered before any Department contact. (not yet confirmed)
 
 <!-- openaccountants-cta-block -->
 
