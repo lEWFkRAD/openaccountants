@@ -24,36 +24,36 @@ depends_on:
 
 > **General reference only.** General reference for AI-assisted workflows; not client-specific advice.
 
-## 1. Scope and sources
+## Scope and sources
 
 Employer social costs for Nebraska employment. **Source status:** the Nebraska state labor portal resolves and NDOL administers UI (verified at portal level 2026-10-28); **NDOL employer rate/wage-base pages returned HTTP 403 to this run's fetcher — all figures needs-sources**.
 
-## 2. Who applies
+## Who this applies to
 
 Nebraska employers and out-of-state employers with Nebraska employees. No state disability, family-leave, or state-mandated retirement contribution for private employers beyond federal FICA/FUTA.
 
-## 3. Rates and wage base
+## Rates, bands and thresholds
 
-| Item | 2026 figure | Source status |
+| Item | 2026 figure | Source |
 |---|---|---|
-| NE UI taxable wage base | not fetched (403) | **needs-sources** |
-| Experience rates | not fetched | **needs-sources** |
-| New-employer rate | not fetched | **needs-sources** |
-| FUTA (context) | 6.0% on first $7,000; credit up to 5.4% | federal standing rule |
+| NE UI taxable wage base | see Not yet confirmed (NDOL pages returned 403 to this run's fetcher) | — |
+| Experience rates | see Not yet confirmed | — |
+| New-employer rate | see Not yet confirmed | — |
+| FUTA (context) | 6.0% on first $7,000; credit up to 5.4% | federal standing rule (IRC §3301/§3302) |
 
-## 4. Base and mechanics
+## The taxable base
 
-Quarterly wage + contribution reports to NDOL (conventional form: "Report of Contributions and Wages" — confirm, **needs-sources**). Timely SUTA preserves the FUTA credit.
+Quarterly wage + contribution reports to NDOL (the NE form ID is listed under Not yet confirmed). Timely SUTA payment preserves the FUTA credit (IRC §3302).
 
-## 5. Deadlines, penalties, interest
+## Deadlines and filing
 
 Quarterly reports due last day of the month following each quarter (convention — **needs-sources** for NE specifics).
 
-## 6. Cross-border notes
+## Cross-border points
 
-Multi-state: localize under the interstate coverage tests (**needs-sources**); Nebraska income-tax withholding is separate (`ne-payroll.md`).
+Multi-state employers localize under the interstate coverage tests (45 CFR Part 6, FUTA conformity); Nebraska income-tax withholding is separate (`ne-payroll.md`).
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — FUTA net per employee (federal context):**
 
@@ -68,7 +68,7 @@ expected:
   futa: 42.00
 ```
 
-**Example 2 — illustrative NE UI (figures assumed, needs-sources).** Base $10,800, rate 1.2%:
+**Example 2 — hypothetical NE UI (figures hypothetical; NE wage base/rate pending confirmation).** Base $10,800, rate 1.2%:
 
 ```oa-check
 name: NE UI illustrative
@@ -81,7 +81,7 @@ expected:
   ui: 129.60
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - NDOL account current and experience rate reviewed annually?
 - Multi-state workforce — localization state confirmed?
@@ -89,10 +89,23 @@ expected:
 
 ## 9. Sources
 
-1. Nebraska labor portal: https://nebraska.gov/labor — resolves 2026-10-28; employer sub-pages 403 to fetcher.
-2. Pre-existing `ne-income-tax.md` for the income-tax side.
+## Sources
 
-**Needs-sources:** wage base, rate schedule, new-employer rate, form ID, due dates, penalties.
+| Source | URL | Read on |
+|---|---|---|
+| Nebraska state labor portal (NDOL administers UI; employer sub-pages returned 403 to this run's fetcher) | https://nebraska.gov/labor | 2026-10-28 |
+
+Not yet confirmed: the Nebraska UI taxable wage base, experience-rate schedule, new-employer rate, quarterly report form ID, report due dates, and late-filing/late-payment penalties (NDOL employer pages returned HTTP 403 to this run's fetcher); interstate localization specifics.
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Nebraska payroll/social-cost questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
