@@ -102,9 +102,11 @@ expected:
 ## Sources
 
 
-- MCL 208.1401 (unitary business groups): <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-208-1401> — 200 on 2026-10-25.
-- Treasury CIT unitary business groups page: <https://www.michigan.gov/taxes/business-taxes/cit/detail/unitary-business-groups> — 200 with content on 2026-10-25.
-- `mi-corporate-income-tax` skill (6.0% rate, single sales factor, deadlines) — internal corroboration, read 2026-10-25.
+| Source | URL | Read on |
+| --- | --- | --- |
+| MCL 208.1401 (unitary business groups) — 200 | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-208-1401 | 2026-10-25 |
+| Treasury CIT unitary business groups page — 200 with content | https://www.michigan.gov/taxes/business-taxes/cit/detail/unitary-business-groups | 2026-10-25 |
+| `mi-corporate-income-tax` skill (6.0% rate, single sales factor, deadlines) — internal corroboration | (internal skills) | 2026-10-25 |
 
 Not yet confirmed: MCL 208.1451 et seq. penalty/interest text (JS-rendered); specific P.L. 86-272 statement; federal §482 interaction with the Michigan combination.
 - CIT penalty/interest section text — **unverified** (JS-rendered pages, 2026-10-25).

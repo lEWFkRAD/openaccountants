@@ -105,9 +105,11 @@ expected:
 ## Sources
 
 
-- Treasury resident/non-resident FAQ hub: <https://www.michigan.gov/taxes/iit/file-your-income-taxes/resident-and-non-resident-income-faqs> — 200 with content on 2026-10-25.
-- MCL 206.131 (composite): <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-131> — 200 on 2026-10-25; section text JS-rendered, **unverified**.
-- `mi-income-tax`, `mi-estimated-tax`, `mi-detroit-individual-return` skills — internal corroboration, read 2026-10-25.
+| Source | URL | Read on |
+| --- | --- | --- |
+| Treasury resident/non-resident FAQ hub — 200 with content | https://www.michigan.gov/taxes/iit/file-your-income-taxes/resident-and-non-resident-income-faqs | 2026-10-25 |
+| MCL 206.131 (composite) — 200; section text JS-rendered, **unverified** | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-131 | 2026-10-25 |
+| `mi-income-tax`, `mi-estimated-tax`, `mi-detroit-individual-return` skills — internal corroboration | (internal skills) | 2026-10-25 |
 
 Not yet confirmed: exact Schedule NR line mechanics; MCL 206.131 composite mechanics; MCL 206.95 et seq. penalty/interest text; SCRA overlay specifics; day-by-day sourcing rule details.
 

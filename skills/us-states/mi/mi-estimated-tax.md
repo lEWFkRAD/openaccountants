@@ -423,17 +423,17 @@ For W-2 couples, increasing Michigan withholding via MI-W4 line 6 ("additional a
 
 **Sources consulted**
 
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | MCL 206.301 — Estimated Tax Installments | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-301 |
-| 2 | MCL 205.23 — Interest on underpayments | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-23 |
-| 3 | 2026 MI-1040ES Vouchers & Instructions | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040ES-(2026).pdf |
-| 4 | 2025 MI-2210 Underpayment of Estimated Tax | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-2210.pdf |
-| 5 | Revenue Administrative Bulletin 2026-1 (H1 2026 interest rate) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-1 |
-| 6 | Revenue Administrative Bulletin 2026-5 (H2 2026 interest rate) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-5 |
-| 7 | Michigan Treasury — Am I Required to Make Estimates? | https://www.michigan.gov/taxes/questions/iit/accordion/estimate/am-i-required-to-make-estimated-tax-payments-1 |
-| 8 | Michigan Treasury — Interest Rate Due on Under/Overpayments | https://www.michigan.gov/taxes/interest-rate |
-| 9 | Michigan Treasury Online (MTO) portal | https://mto.treasury.michigan.gov/ |
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | MCL 206.301 — Estimated Tax Installments | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-301 | 2026-10-28 |
+| 2 | MCL 205.23 — Interest on underpayments | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-23 | 2026-10-28 |
+| 3 | 2026 MI-1040ES Vouchers & Instructions | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040ES-(2026).pdf | 2026-10-29 |
+| 4 | 2025 MI-2210 Underpayment of Estimated Tax | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-2210.pdf | 2026-10-29 |
+| 5 | Revenue Administrative Bulletin 2026-1 (H1 2026 interest rate) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-1 | 2026-10-29 |
+| 6 | Revenue Administrative Bulletin 2026-5 (H2 2026 interest rate) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-5 | 2026-10-29 |
+| 7 | Michigan Treasury — Am I Required to Make Estimates? | https://www.michigan.gov/taxes/questions/iit/accordion/estimate/am-i-required-to-make-estimated-tax-payments-1 | 2026-10-29 |
+| 8 | Michigan Treasury — Interest Rate Due on Under/Overpayments | https://www.michigan.gov/taxes/interest-rate | 2026-10-29 |
+| 9 | Michigan Treasury Online (MTO) portal | https://mto.treasury.michigan.gov/ | 2026-10-29 |
 
 Not yet confirmed: MI-1040ES safe-harbor percentages (90%/100%/110% and the high-income AGI threshold), the 2026 H1/H2 interest rates (8.48%/7.85%) pending RAB text verification, MTO card/debit payment fees, and the annualization factors on the 2026 MI-2210 form.
 

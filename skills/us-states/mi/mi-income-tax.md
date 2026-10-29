@@ -187,12 +187,12 @@ No worked examples in this skill yet — see `mi-estimated-tax` for Michigan com
 
 **Sources consulted table**
 
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | Michigan Treasury — 4.25% Rate Notice for 2026 | https://www.michigan.gov/treasury/reference/taxpayer-notices/2026/04/15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year |
-| 2 | MI-1040 Book (TY 2025 instructions) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf |
-| 3 | MCL 206.51 — Tax rate | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51 |
-| 4 | Michigan city income tax list | https://www.michigan.gov/taxes/iit/city |
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | Michigan Treasury — 4.25% Rate Notice for 2026 | https://www.michigan.gov/treasury/reference/taxpayer-notices/2026/04/15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year | 2026-10-29 |
+| 2 | MI-1040 Book (TY 2025 instructions) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf | 2026-10-29 |
+| 3 | MCL 206.51 — Tax rate | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51 | 2026-10-28 |
+| 4 | Michigan city income tax list | https://www.michigan.gov/taxes/iit/city | 2026-10-29 |
 
 Not yet confirmed: MI-1040 Book line references and credit interaction details (PDF not machine-verified in the drafting environment); city income tax rate specifics beyond the state-level list.
 

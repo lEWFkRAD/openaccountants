@@ -106,11 +106,13 @@ expected:
 ## Sources
 
 
-- Insurance Care for Working Families Act, 2022 PA 1 (enrolled): <https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm> — 200 on 2026-10-25; premium sections **unverified** (text layer not machine-readable in drafting environment).
-- LARA Family Leave Insurance program pages — **unverified** (not reachable 2026-10-25).
-- `mi-payroll` skill (UI base 9,500, wage tax, deadlines) — internal corroboration, read 2026-10-25.
+| Source | URL | Read on |
+| --- | --- | --- |
+| Insurance Care for Working Families Act, 2022 PA 1 (enrolled) — 200; premium sections **unverified** (text layer not machine-readable in drafting environment) | https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm | 2026-10-25 |
+| `mi-payroll` skill (UI base 9,500, wage tax, deadlines) — internal corroboration | (internal skills) | 2026-10-25 |
 
 Not yet confirmed: PFML premium rate/schedule and split, small-employer exemption, first-premium timing, covered-wage definition, and PFML penalties (2022 PA 1 premium sections not machine-verified; LARA pages unreachable 2026-10-25).
+- Not yet confirmed: LARA Family Leave Insurance program pages — **unverified** (not reachable 2026-10-25).
 
 <!-- openaccountants-cta-block -->
 
