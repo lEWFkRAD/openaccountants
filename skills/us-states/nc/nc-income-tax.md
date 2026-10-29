@@ -38,7 +38,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Extension deadline | October 15, 2026 |
 | Tax authority | North Carolina Department of Revenue (NCDOR) |
 | Website | https://www.ncdor.gov |
-| Statute | N.C.G.S. Chapter 105, Article 4 — chapter text archived: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_105.html |
+| Statute | N.C.G.S. Chapter 105 (archived chapter text: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_105.html); individual income tax provisions §§ 105-153 to 105-153.11 (sections archived: 105-153.2, 105-153.4, 105-153.5, 105-153.6, 105-153.7, 105-153.8) |
 
 **Sources:**
 - NCDOR, Tax Rate Schedules: https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules

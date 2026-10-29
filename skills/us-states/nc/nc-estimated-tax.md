@@ -176,8 +176,8 @@ NC's safe harbor mirrors federal § 6654 in structure but uses NC tax figures th
 ### Worked safe-harbor calc — moderate income
 
 > Taxpayer (hypothetical client facts): NC resident, single, freelance developer.
-> Prior-year (2024) NC tax (D-400 Line 17): $7,200. Prior-year NC AGI: $108,000.
-> Current-year (2025) projected NC tax: $9,000.
+> Prior-year (2024) NC tax (D-400 Line 17): $7,200. Prior-year NC AGI: $108,000. (hypothetical) (hypothetical)
+> Current-year (2025) projected NC tax: $9,000. (hypothetical) (hypothetical)
 
 **Moderate-income prong table**
 
@@ -190,9 +190,9 @@ NC's safe harbor mirrors federal § 6654 in structure but uses NC tax figures th
 
 ### Worked safe-harbor calc — high-income
 
-> Taxpayer (hypothetical client facts): NC resident, MFJ. Prior-year (2024) NC tax: $18,400.
+> Taxpayer (hypothetical client facts): NC resident, MFJ. Prior-year (2024) NC tax: $18,400. (hypothetical) (hypothetical)
 > Prior-year NC AGI: $312,000 (> $150,000 threshold → 110% applies).
-> Current-year (2025) projected NC tax: $22,000.
+> Current-year (2025) projected NC tax: $22,000. (hypothetical) (hypothetical)
 
 **High-income prong table**
 
@@ -458,18 +458,18 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 > **Taxpayer (hypothetical client facts):** Single, full-year NC resident, freelance graphic designer.
 > Projected 2025 NC AGI: $150,000. No W-2 withholding. No NC credits.
-> Prior-year (2024) NC tax: $5,800. Prior-year NC AGI: $138,000.
+> Prior-year (2024) NC tax: $5,800. Prior-year NC AGI: $138,000. (hypothetical) (hypothetical)
 
 **Step 1 — Project 2025 NC tax:**
 - Federal AGI proxy ≈ NC AGI = $150,000
 - NC standard deduction (single) = $12,750 (§ 105-153.5(a)(1): "Single 12,750")
-- NC taxable income = $137,250
+- NC taxable income = $137,250 (hypothetical arithmetic) (hypothetical arithmetic)
 - NC tax = $137,250 × 4.25% = **$5,833**
 
 **Step 2 — Safe harbor:**
 - 90% current year = $5,833 × 0.90 = $5,250
 - 100% prior year = $5,800 (110% rule does not apply — prior AGI $138k ≤ $150k)
-- **RAP = lower = $5,250** (arithmetic on hypothetical client facts)
+- **RAP = lower = $5,250** (hypothetical arithmetic)
 
 **Step 3 — Test threshold:** $5,833 expected tax, zero withholding, shortfall $5,833 ≥ $1,000 → estimates required.
 
@@ -483,7 +483,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | 2 | Jun 15, 2025 | $1,313 |
 | 3 | Sep 15, 2025 | $1,313 |
 | 4 | Jan 15, 2026 | $1,311 |
-| **Total** |  | **$5,250** | (hypothetical)
+| **Total** |  | **$5,250** | (hypothetical arithmetic)
 
 **Step 5 — Year-end:** If actual 2025 NC tax is $5,833 and $5,250 was paid in estimates, balance due with D-400 = $583 by April 15, 2026. Safe harbor met → no D-422 interest.
 
@@ -523,14 +523,14 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 **Safe harbor:**
 - 90% current year = $12,091 × 0.90 = $10,882
 - 110% prior year = $13,800 × 1.10 = $15,180
-- **RAP = lower = $10,882** (arithmetic on hypothetical client facts)
+- **RAP = lower = $10,882** (hypothetical arithmetic)
 
 **Test threshold:**
 - Expected tax $12,091 − withholding $7,200 = $4,891 ≥ $1,000 → estimates required
 
 **Required quarterly cash payment (after withholding):**
 - Withholding credit per quarter = $7,200 ÷ 4 = $1,800
-- Required installment per quarter = $10,882 ÷ 4 = $2,721 (hypothetical)
+- Required installment per quarter = $10,882 ÷ 4 = $2,721 (hypothetical arithmetic)
 - Net NC-40 payment per quarter = $2,721 − $1,800 = **$921**
 
 **Example 3 payments table**
@@ -541,7 +541,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | 2 | Jun 15, 2025 | $921 |
 | 3 | Sep 15, 2025 | $921 |
 | 4 | Jan 15, 2026 | $920 |
-| **Total** |  | **$3,683** | (hypothetical)
+| **Total** |  | **$3,683** | (hypothetical arithmetic)
 
 **Alternative — increase Spouse A's W-2 withholding:** If Spouse A files a new NC-4 to add ~$300/month extra NC withholding ($3,600 annual), total withholding rises to $10,800 → covers 90% safe harbor without any NC-40 payments. Withholding is deemed paid evenly across the year, so this also retroactively cures any Q1/Q2 shortfall. This is the cleanest fix for W-2 dominated households.
 

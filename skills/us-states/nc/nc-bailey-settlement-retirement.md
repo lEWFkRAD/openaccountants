@@ -89,7 +89,7 @@ If yes to all five → fully excluded from NC taxable income on **D-400 Schedule
 
 ## Section 2: Quick reference — the Bailey test at a glance
 
-> **Audit flash point — 8/12/1989 is a hard cliff.** A retiree who attained 5 years of creditable service on August 13, 1989 receives **zero** Bailey protection. NCDOR has consistently refused equitable extensions in audit. The date traces to the *Davis v. Michigan* (1989) federal pre-emption ripple that pushed NC to repeal the prior reciprocal exemption — *Bailey* preserved the protection only for those whose contractual rights had vested before the repeal.
+> **Audit flash point — 8/12/1989 is a hard cliff.** A retiree who attained 5 years of creditable service on August 13, 1989 receives **zero** Bailey protection. (Analytic rule from the Bailey settlement framework; the Consent Order text and the *Davis v. Michigan* background are not archived — see Not yet confirmed.)
 
 ### 3.1 Background
 
@@ -287,7 +287,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 - In federal AGI: yes ✓
 - Documentation: yes (Bailey letter + 1099-R) ✓
 
-**Result.** Full $48,000 deducted on D-400 Schedule S, Part B, **Line 20** (Bailey subtraction per § 105-153.5(b)(5); line numbers per the archived 2025 D-400 Schedule S Web-Fill).
+**Result (hypothetical arithmetic).** Full $48,000 deducted on D-400 Schedule S, Part B, **Line 20** (Bailey subtraction per § 105-153.5(b)(5); line numbers per the archived 2025 D-400 Schedule S Web-Fill).
 
 > **Flash point.** Purchased service credit counts toward the 5-year test if and only if it was attributable to a period before 8/12/1989. NCDOR has accepted back-credited service in this fact pattern, but the TSERS Bailey letter is the operative document — do not infer from the purchase paperwork alone.
 
@@ -315,7 +315,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 - In federal AGI: yes ✓
 - Documentation: 1099-R + SF-50 showing service computation date 1/1/1980 ✓
 
-**Result.** Full $62,000 deducted on D-400 Schedule S, Part B, **Line 20** (Bailey subtraction per § 105-153.5(b)(5); line numbers per the archived 2025 D-400 Schedule S Web-Fill).
+**Result (hypothetical arithmetic).** Full $62,000 deducted on D-400 Schedule S, Part B, **Line 20** (Bailey subtraction per § 105-153.5(b)(5); line numbers per the archived 2025 D-400 Schedule S Web-Fill).
 
 Elaine also receives $32,000 in Social Security; the federally taxable portion (assume 85% = $27,200) is deducted on Schedule S **Line 19**.
 
@@ -324,7 +324,7 @@ Her NC taxable income from these two sources = $0.
 ### Example 4 — Mixed-source retiree
 
 **Facts (hypothetical client).** Robert, a NC resident filing MFJ, receives:
-- $36,000/yr from TSERS — Bailey-vested (TSERS letter on file) — hypothetical client facts
+- $36,000/yr from TSERS — Bailey-vested (TSERS letter on file) — hypothetical
 - $24,000/yr from a private 401(k) (rollover from his post-state-employment private-sector job; never touched the TSERS account) — hypothetical
 - $18,000/yr Social Security (federally taxable portion: $15,300 = 85%)
 - $8,000/yr from a traditional IRA he funded with personal contributions in the 2000s
@@ -333,10 +333,10 @@ Her NC taxable income from these two sources = $0.
 Total federal AGI line items (assuming all included): TSERS $36k + 401(k) $24k + taxable SS $15.3k + IRA $8k + Military $14k = **$97,300**.
 
 **Items NOT deductible (taxable to NC):**
-- Private 401(k): $24,000 — fully taxable to NC, no NC retirement-income deduction available (NC grants no general retirement deduction; § 105-153.5 lists only the enumerated subtractions)
+- Private 401(k): $24,000 — fully taxable to NC, no NC retirement-income deduction available (hypothetical; § 105-153.5 archived text lists only the enumerated subtractions)
 - Traditional IRA: $8,000 — fully taxable to NC
 
-**NC taxable income from retirement = $97,300 − $65,300 = $32,000** (before standard deduction; arithmetic on hypothetical client facts, rates from the confirmed § 105-153.7 table).
+**NC taxable income from retirement = $97,300 − $65,300 = $32,000** (hypothetical arithmetic; rates from the confirmed § 105-153.7 table).
 
 After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax = $6,500 × 4.25% = **$276**.
 
@@ -346,10 +346,10 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 
 | Item | Amount | Line |
 | --- | --- | --- |
-| Social Security taxable portion | $15,300 | Line 19 |
-| TSERS (Bailey) | $36,000 | Line 20 |
-| Military retirement (§ 105-153.5(b)(5a)) | $14,000 | Line 21 |
-| **Total deductions** | **$65,300** | **Line 41** |
+| Social Security taxable portion | $15,300 | Line 19 (hypothetical) |
+| TSERS (Bailey) | $36,000 | Line 20 (hypothetical) |
+| Military retirement (§ 105-153.5(b)(5a)) | $14,000 | Line 21 (hypothetical) |
+| **Total deductions** | **$65,300** | **Line 41** (hypothetical) |
 
 (Arithmetic on hypothetical client facts; line references per the archived 2025 D-400 Schedule S Web-Fill.)
 

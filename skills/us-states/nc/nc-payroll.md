@@ -42,10 +42,10 @@ NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) �
 | 2024 | 4.5% | S.L. 2021-180 |
 | **2025** | **4.25%** | **S.L. 2023-134; NCDOR 2025 D-401 Instructions (archived)** |
 | 2026 | 3.99% (scheduled) | S.L. 2023-134 |
-| 2027 | 3.49% (contingent trigger) | S.L. 2023-134 §42.1(a) |
-| 2028 | 2.99% (contingent trigger) | S.L. 2023-134 §42.1(a) |
-| 2029 | 2.49% (contingent trigger) | S.L. 2023-134 §42.1(a) |
-| 2030 | 2.49% (target floor if all triggers met) | S.L. 2023-134 |
+| 2027 | 3.99% unless the § 105-153.7(a1) revenue trigger is met, then 3.49% | § 105-153.7(a1) archived (read 2026-10-29) |
+| 2028 | 3.99% unless the § 105-153.7(a1) revenue trigger is met, then 3.49% | § 105-153.7(a1) archived (read 2026-10-29) |
+| 2029 | 3.99% unless the § 105-153.7(a1) revenue trigger is met (further step-downs not in archived text; not yet confirmed) | § 105-153.7(a1) archived (read 2026-10-29) |
+| 2030 | 2.49% target floor (not in archived § 105-153.7 text; not yet confirmed) | S.L. 2023-134 (not archived) |
 
 ### 2.2 AUDIT FLASH POINT: NC Phasing Rate Confusion Across 2025-2030
 
@@ -55,7 +55,7 @@ NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) �
 
 | Triggering FY | Trigger Amount | Rate That Applies If Triggered |
 | --- | --- | --- |
-| FY 2025-26 | $33.042 billion | 3.49% for TY 2027 |
+| FY 2025-26 | $33.042 billion (trigger amount not in archived § 105-153.7 text; not yet confirmed) | 3.49% for TY 2027 if trigger met (§ 105-153.7(a1) archived) |
 | FY 2026-27 | $34.100 billion | 2.99% for TY 2028 |
 | FY 2027-28 | $34.760 billion | 2.49% for TY 2029 |
 | FY 2028-29 | $35.750 billion | 2.49% maintained for TY 2030 |
@@ -378,7 +378,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 **Facts:**
 - "Triangle Bakery LLC" is a single-member LLC operating a small bakery in Raleigh.
 - 5 W-2 employees: 1 manager, 2 bakers, 2 counter staff
-- Total 2025 gross wages: $185,000
+- Total 2025 gross wages: $185,000 (hypothetical client facts)
 - Total 2025 NC withholding (estimated): $5,200
 - Average monthly NC withholding: $5,200 / 12 = $433
 - First year of operations: 2025
@@ -424,7 +424,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 - Joe is paid by the job (flat fee per house) on Mountain Homes' standard 1099-NEC arrangement.
 - Joe has no other clients, no business license, no website, no insurance under his own name.
 - Joe sets his own daily hours but the job sites are dictated by Mountain Homes' project schedule.
-- Mountain Homes treated Joe as a 1099 contractor in 2024 and reported $78,000 in payments on Form 1099-NEC.
+- Mountain Homes treated Joe as a 1099 contractor in 2024 and reported $78,000 in payments (hypothetical client facts) on Form 1099-NEC.
 
 **Federal IRS common-law analysis table**
 

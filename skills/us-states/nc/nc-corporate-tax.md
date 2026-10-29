@@ -20,7 +20,7 @@ North Carolina corporate income tax is phasing out under S.L. 2021-180 (SB 105):
 
 This skill covers North Carolina state-level entity-level taxes:
 
-- **Corporate income tax** (N.C. Gen. Stat. § 105, Article 4, Part 1) — imposed on C-corporations doing business in or deriving income from NC sources.
+- **Corporate income tax** (N.C. Gen. Stat. § 105-130.3, Chapter 105 Article 4 Part 1) — imposed on C-corporations doing business in or deriving income from NC sources (§ 105-130.3 archived: "A tax is imposed on the State net income of every C Corporation doing business in this State").
 - **Franchise tax** (N.C. Gen. Stat. § 105-122) — imposed on every C-corp, S-corp, and LLC taxed as a corporation that is incorporated, domesticated, or doing business in NC. Limited to a single "net worth-based" base from 2025 onward.
 - **Pass-Through Entity Tax (PTET)** election under N.C. Gen. Stat. § 105-153.9A — optional entity-level tax for partnerships and S-corps designed to work around the federal $10,000 SALT cap.
 - **Estimated-payment, NOL, and apportionment rules** as they apply to corporate income.
@@ -32,7 +32,7 @@ This skill covers North Carolina state-level entity-level taxes:
 - NC personal income tax (PIT) — covered by `nc-income-tax.md`. The 2025 flat PIT rate is 4.25% (continuing its own phase-down under SB 105).
 - NC sales and use tax — covered by `nc-sales-tax.md`.
 - Federal corporate income tax (Form 1120) — covered by federal skills.
-- Insurance companies (subject to gross premiums tax under Article 8B, not Article 4).
+- Insurance companies (subject to a separate gross-premiums regime; Article 8B citation not archived — not yet confirmed).
 - Banks and savings institutions filing combined returns under Subchapter VIII — special rules not covered here.
 - Captive REITs / captive RICs — special add-back rules outside the standard playbook.
 - Counties and municipalities — NC has no local corporate income tax.
@@ -86,7 +86,7 @@ Compared with a 2017 baseline of $30,000 (3.00%), a 2030 NC C-corp will save $30
 
 ## 3. Franchise Tax — Surviving the CIT Phase-Out
 
-The franchise tax is the principal NC entity-level tax that survives the SB 105 phase-out. It is sometimes mischaracterized as a privilege tax; technically it is a privilege tax under Article 3 of Chapter 105.
+The franchise tax (§ 105-122, archived) is the principal NC entity-level tax that survives the CIT phase-out (§ 105-130.3 archived: "After 2029 0%"). It is sometimes mischaracterized as a privilege tax; technically it is a privilege tax under Article 3 of Chapter 105.
 
 ### 3.1 Rate and base
 
@@ -308,7 +308,7 @@ Carolina Consulting, Inc. is an NC S-corp providing management consulting servic
 
 - Federal Form 1120-S taxable income: $300,000 (passes through to shareholder)
 - NC additions/subtractions: net zero
-- Total proportionate share of capital: $400,000
+- Total proportionate share of capital: $400,000 (hypothetical)
 - Sales: 100% to NC customers. NC apportionment: 1.0000.
 - No PTE election.
 
@@ -325,11 +325,11 @@ S-corps in NC pay only franchise tax at the entity level (in this example, $600)
 Tarheel Holdings, Inc. is a Delaware-incorporated holding company domesticated in NC. It holds 100% of two operating subsidiaries (one in NC, one in TX). 2025 financials:
 
 - 95% of gross income consists of dividends from its 100%-owned subsidiaries (qualifies as a holding company under § 105-122(d) — both >80% out-of-state-income and >50% from majority-owned subsidiary dividends).
-- Total proportionate share of capital: $200,000,000 (mostly retained earnings from accumulated subsidiary dividends).
+- Total proportionate share of capital: $200,000,000 (mostly retained earnings from accumulated subsidiary dividends) (hypothetical).
 - NC apportionment factor: 0.6500 (NC sub generates most of dividend income receipts; market-sourcing applies).
 
 - **Step 1 — Holding-company qualification check** — Out-of-state-income test:  >80% of gross income from non-NC sources? YES (dividends). Subsidiary-dividend test:  >50% of gross income from ≥50%-owned subs? YES (95%). → Qualifies as a holding company. Cap of $150,000 applies.  _(§ 105-122(d))_
-- **Step 2 — Compute franchise tax under standard formula** — Capital base                       $200,000,000 × NC apportionment factor                0.6500 = NC apportioned capital base      $130,000,000 × 0.0015 = Franchise tax (uncapped)             $195,000  _(Example C worked calculation)_
+- **Step 2 — Compute franchise tax under standard formula (hypothetical)** — Capital base                       $200,000,000 × NC apportionment factor                0.6500 = NC apportioned capital base      $130,000,000 × 0.0015 = Franchise tax (uncapped)             $195,000  _(Example C worked calculation)_
 - **Step 3 — Apply $150,000 holding-company cap** — $195,000 standard formula vs. $150,000 holding-company maximum → Tax = $150,000 (cap applies)  _(§ 105-122(d))_
 - **Step 4 — Corporate income tax (2025)** — Dividends from majority-owned subsidiaries are eligible for the NC dividends-received deduction under § 105-130.5(b)(3a) (100% DRD for dividends from corporations in which the taxpayer owns at least 50% of the stock). Effectively zero taxable income. NC income tax: 0 × 2.25% = $0.00  _(§ 105-130.5(b)(3a))_
 - **Step 5 — Total 2025 NC tax** — Income tax        $0.00 Franchise tax  $150,000.00 Total          $150,000.00  _(Example C worked calculation)_
@@ -377,7 +377,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 
 ### 11.1 Primary statutory authority
 
-- **N.C. Gen. Stat. Chapter 105, Article 4, Part 1** — Corporate Income Tax (§§ 105-130 through 105-130.48).  _(N.C. Gen. Stat. Chapter 105, Article 4, Part 1)_
+- **N.C. Gen. Stat. Chapter 105, Article 4, Part 1** — Corporate Income Tax (§§ 105-130 through 105-130.48; §§ 105-130.3, 105-130.4, 105-130.5, 105-130.7A, 105-130.7B archived 2026-10-29).
 - **N.C. Gen. Stat. § 105-130.3** — Corporate income tax rate. As amended by S.L. 2021-180 (SB 105).  _(N.C. Gen. Stat. § 105-130.3)_
 - **N.C. Gen. Stat. § 105-130.4** — Apportionment (single sales factor and market-based sourcing).  _(N.C. Gen. Stat. § 105-130.4)_
 - **N.C. Gen. Stat. § 105-130.5** — Adjustments to federal taxable income.  _(N.C. Gen. Stat. § 105-130.5)_
