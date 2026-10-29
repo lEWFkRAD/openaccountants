@@ -276,7 +276,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 
 ### Worked examples (TY 2025)
 
-### Example 1 — NC State employee hired 1985, vested by 1989, retired 2020
+### Worked example 1 — NC State employee hired 1985, vested by 1989, retired 2020
 
 **Facts (hypothetical client).** Maria, a NC resident filing MFJ, retired from TSERS in 2020 after 35 years of state service. She first worked for the State on July 1, 1985. By 8/12/1989, she had 4 years and 1 month of TSERS creditable service. She also purchased 11 months of military service credit in 1992 (back-credited to her start date), bringing her pre-1989 creditable service total to **5 years exactly**. TSERS issued her a Bailey letter in 2020 confirming vested status. She receives $48,000/yr in TSERS retirement benefits, fully reported on Form 1099-R (Box 1 = Box 2a = $48,000).
 
@@ -291,7 +291,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 
 > **Flash point.** Purchased service credit counts toward the 5-year test if and only if it was attributable to a period before 8/12/1989. NCDOR has accepted back-credited service in this fact pattern, but the TSERS Bailey letter is the operative document — do not infer from the purchase paperwork alone.
 
-### Example 2 — NC State employee hired 1991 — NOT Bailey-protected
+### Worked example 2 — NC State employee hired 1991 — NOT Bailey-protected
 
 **Facts (hypothetical client).** James, a NC resident filing single, started his state job on March 1, 1991 and retired in 2025 with 34 years of TSERS service. He receives $55,000/yr in TSERS benefits.
 
@@ -304,7 +304,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 
 > **Flash point.** This is the most common audit reversal in NC retiree returns — preparers see "TSERS retiree" on a 1099-R and reflexively claim Line 20 without checking the vesting date. The penalty/interest on a multi-year disallowance can be substantial.
 
-### Example 3 — Federal CSRS retiree with 5 yrs by 8/12/89
+### Worked example 3 — Federal CSRS retiree with 5 yrs by 8/12/89
 
 **Facts (hypothetical client).** Elaine, a NC resident filing single, worked for the federal government from January 1980 through December 2015 under CSRS. She has 35 years of federal CSRS service. OPM issues her a CSA 1099-R showing $62,000/yr gross / $62,000 federally taxable.
 
@@ -321,7 +321,7 @@ Elaine also receives $32,000 in Social Security; the federally taxable portion (
 
 Her NC taxable income from these two sources = $0.
 
-### Example 4 — Mixed-source retiree
+### Worked example 4 — Mixed-source retiree
 
 **Facts (hypothetical client).** Robert, a NC resident filing MFJ, receives:
 - $36,000/yr from TSERS — Bailey-vested (TSERS letter on file) — hypothetical

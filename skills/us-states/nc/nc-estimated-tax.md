@@ -173,7 +173,7 @@ NC's safe harbor mirrors federal § 6654 in structure but uses NC tax figures th
 
 - **RAP formula** — RAP = smaller of: (a) 90% × current-year NC tax (Form D-400, Line 17 after credits, before payments); (b) 100% × prior-year NC tax [or 110% if AGI threshold exceeded]. This RAP figure feeds Form D-422 Part I, Line 8 as the "required annual payment."  _(Form D-422 Part I, Line 8)_
 
-### Worked safe-harbor calc — moderate income
+### Worked example — safe-harbor calc, moderate income
 
 > Taxpayer (hypothetical client facts): NC resident, single, freelance developer.
 > Prior-year (2024) NC tax (D-400 Line 17): $7,200. Prior-year NC AGI: $108,000. (hypothetical) (hypothetical)
@@ -188,7 +188,7 @@ NC's safe harbor mirrors federal § 6654 in structure but uses NC tax figures th
 
 110% high-income variant does not apply ($108k ≤ $150k threshold). RAP = lower of $8,100 or $7,200 = $7,200. Each quarterly installment under the regular method = $7,200 / 4 = $1,800.
 
-### Worked safe-harbor calc — high-income
+### Worked example — safe-harbor calc, high-income
 
 > Taxpayer (hypothetical client facts): NC resident, MFJ. Prior-year (2024) NC tax: $18,400. (hypothetical) (hypothetical)
 > Prior-year NC AGI: $312,000 (> $150,000 threshold → 110% applies).
@@ -454,7 +454,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 ### Worked examples
 
-### Example 1 — Steady-income NC freelancer ($150k expected)
+### Worked example 1 — Steady-income NC freelancer ($150k expected)
 
 > **Taxpayer (hypothetical client facts):** Single, full-year NC resident, freelance graphic designer.
 > Projected 2025 NC AGI: $150,000. No W-2 withholding. No NC credits.
@@ -487,7 +487,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 **Step 5 — Year-end:** If actual 2025 NC tax is $5,833 and $5,250 was paid in estimates, balance due with D-400 = $583 by April 15, 2026. Safe harbor met → no D-422 interest.
 
-### Example 2 — Self-employed with Q3 income spike (annualized method)
+### Worked example 2 — Self-employed with Q3 income spike (annualized method)
 
 > **Taxpayer (hypothetical client facts):** Single, NC resident, software consultant. Steady income $5,000/month Jan–Aug. Closes a $90,000 platform deal in September. Final 2025 NC AGI = $130,000. Prior-year NC tax: $4,400.
 
@@ -512,7 +512,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 `[VERIFY:]` Approximate; rerun on D-422A with precise NC standard deduction annualized per IRS-aligned convention. The pattern shows: tiny Q1 and Q2, large Q3 catch-up, zero Q4. No penalty results because each installment met its annualized cumulative threshold.
 
-### Example 3 — High-income MFJ with W-2 withholding shortfall
+### Worked example 3 — High-income MFJ with W-2 withholding shortfall
 
 > **Taxpayer (hypothetical client facts):** MFJ, both spouses NC residents. Spouse A: W-2 salary $180,000, NC withholding $7,200. Spouse B: freelance income $130,000, no withholding. Prior-year (2024) NC AGI: $295,000 (>$150,000 → 110% rule applies). Prior-year NC tax: $13,800.
 

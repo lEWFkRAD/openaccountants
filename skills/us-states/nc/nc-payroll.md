@@ -373,7 +373,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 
 ### Worked Examples
 
-### 13.1 Example: Small NC Employer (5 employees, all in Raleigh)
+### 13.1 Worked example: Small NC Employer (5 employees, all in Raleigh)
 
 **Facts:**
 - "Triangle Bakery LLC" is a single-member LLC operating a small bakery in Raleigh.
@@ -402,7 +402,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 - **SUI calculation example** — Manager gross 2025 wages: $52,000. Wages above $32,600 base: $19,400 (excess; not SUI-taxable). Taxable wages: $32,600. NC SUI tax: $32,600 × 1.0% = $326. Of which workforce investment allocation: $326 × 20% = $65.20 (internal to DES; employer just remits $326 total). For all 5 employees, assuming all earn above $32,600 base: Total taxable SUI wages: $32,600 × 5 = $163,000. Total NC SUI for 2025: $163,000 × 1.0% = $1,630.
 - **PIT withholding example calculation** — Biweekly gross: $2,000. Annualized: $52,000. 2025 standard deduction (single, NC-4 with zero allowances): $12,750. Annualized NC taxable wages: $52,000 − $12,750 = $39,250. Annual NC tax at 4.25%: $1,668.13. Per pay period (26 pay periods): $1,668.13 / 26 = $64.16 per pay period. (The NC-30 wage-bracket tables would produce a similar result, rounded to the nearest dollar.)
 
-### 13.2 Example: Multistate Employer with NC Resident Remote Workers
+### 13.2 Worked example: Multistate Employer with NC Resident Remote Workers
 
 **Facts:**
 - "Cascade Software Inc." is a Washington-based S-corp with employees in WA, NC, VA, and TX.
@@ -414,7 +414,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 - **Nexus and withholding analysis** — **Does Cascade have NC payroll-tax nexus?** Yes. Having a NC-resident employee whose duties are performed in NC creates payroll-tax nexus under NCGS §105-163.1(13) (definition of "employer") regardless of the employer's lack of NC physical office. Cascade must register as a NC withholding agent and a NC SUI employer. **NC withholding:** - Both employees file NC-4 - Cascade withholds NC PIT at 4.25% effective rate on wages sourced to NC **Sourcing for the Cary employee:** 100% NC-sourced because all work is performed in NC. **Sourcing for the Asheville employee with 3 days/quarter in Seattle:** - Approximately 12 days/year in Seattle out of ~250 working days = 4.8% WA-sourced, 95.2% NC-sourced - NC withholding applies to 95.2% of wages - WA has no state income tax, so no WA withholding required (WA has Paid Family Medical Leave program; see WA payroll skill) - For practical administration, Cascade may either (a) withhold NC on 100% and let the employee claim a credit at year-end, or (b) reduce NC withholding proportionally with documented day-count records — both are acceptable to NCDOR if documented  _(NCGS §105-163.1(13))_
 - **NC SUI and filing frequency calculation** — **NC SUI:** - Both employees are NC-resident remote workers performing services in NC - Cascade must register with DES, pay the 1.0% new-employer rate, on the first $32,600 of each employee's wages - NC SUI per employee: $32,600 × 1.0% = $326 - Total NC SUI: $652 - Plus quarterly NCUI 101 filings **Filing frequency:** - 2 employees × $120,000 × 4.25% / 95.2% NC-sourced for one ≈ $10,250 annual NC withholding - Avg monthly = $854 → monthly filer (NC-5) **Filings required:** - NC-5 monthly - NCUI 101 quarterly - NC-3 annual - New hire reports for both employees within 20 days of hire to NC DHHS (not to WA) **Multistate election for new-hire reporting:** Because Cascade has employees in multiple states, it may elect under 42 U.S.C. §653A(b)(1)(B) to report all new hires (including the WA, TX, VA employees) to NC DHHS. Whether this is administratively beneficial depends on Cascade's payroll vendor.  _(42 U.S.C. §653A(b)(1)(B))_
 
-### 13.3 Example: Contractor Classification — NC Construction Subcontractor
+### 13.3 Worked example: Contractor Classification - NC Construction Subcontractor
 
 **Facts:**
 - "Mountain Homes Builders, Inc." is a NC general contractor based in Boone, NC, building custom homes.
