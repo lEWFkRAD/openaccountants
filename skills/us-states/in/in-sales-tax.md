@@ -70,29 +70,19 @@ Indiana is a full Streamlined Sales Tax (SST) member and sources sales by destin
 
 No worked examples are included in this quick-reference skill; the 7.00% flat statewide rate applies uniformly.
 
-## Sources
-
-Sources for this quick reference are pending consolidation; see the Indiana DOR (in.gov/dor) and the SST member state list.
-
 ## Ask the client first
 
 - **Never add local tax** — NEVER add local tax -- Indiana has no local sales taxes.
 - **Never treat SaaS as taxable** — NEVER treat SaaS as taxable in Indiana.
 - **Never compute any number** — NEVER compute any number.
 
-## Disclaimer
+## Sources
 
-Informational only. Review by qualified professional required before filing.
+| Source | URL | Read on |
+|---|---|---|
+| Indiana DOR sales tax information (7% flat rate, SST member status, INTIME portal) | https://www.in.gov/dor/ | 2026-10-29 |
 
-## Disclaimer
-
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
-
-<!-- openaccountants-cta-block -->
-
----
+Not yet confirmed: the 7.00% flat rate, the $100,000 / 200-transaction economic-nexus threshold, and the transaction-pattern exemptions (IC 6-2.5) — no archived copy of the IC 6-2.5 text or the DOR sales-tax pages was captured this run.
 
 ## Talk to a verified accountant
 
@@ -107,3 +97,17 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Disclaimer
+
+Informational only. Review by qualified professional required before filing.
+
+## Disclaimer
+
+This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
+
+The most up-to-date, verified version of this skill is maintained by the OpenAccountants network; log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+<!-- openaccountants-cta-block -->
+
+---

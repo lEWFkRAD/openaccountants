@@ -118,6 +118,10 @@ This differs sharply from the federal supplemental wage flat rate of 22% under I
 - **Conditions for exempt status** — An employee may claim exempt from Indiana income tax withholding only if: the employee had no Indiana income tax liability in the prior year AND expects none in the current year, OR the employee is a resident of a reciprocal state (OH, KY, MI, PA, WI) and has filed the appropriate exemption documentation, OR the employee qualifies under the Servicemembers Civil Relief Act or the Military Spouses Residency Relief Act.  _(IC 6-3-4-8 and WH-4 instructions)_
 - **Annual renewal and liability** — Exempt-status WH-4 filings must be re-executed annually by February 15 in the same manner as federal Form W-4. An employee who claims exempt incorrectly is personally liable for the under-withheld tax; the employer is not liable provided the WH-4 is on file in good faith.
 
+## The taxable base
+
+For Indiana withholding, the taxable base is federal adjusted gross income modified by Indiana add-backs and subtractions; withholding applies to wages as defined under IC 6-3-4-8(b), and county tax applies at the January 1 residence county rate.
+
 ## Deadlines and filing
 
 ### 3.1 Filing frequency
@@ -350,10 +354,6 @@ This contrasts sharply with neighboring Illinois (which has the Illinois Paid Le
 
 - **New hire reporting deadline** — All Indiana employers must report new hires (and re-hires after a 60-day separation) to the Indiana New Hire Reporting Center within 20 days of the hire date. Reporting is done online at www.in-newhire.com or by submitting an FCR-style file.  _(IC 22-4-32)_
 
-## The taxable base
-
-For Indiana withholding, the taxable base is federal adjusted gross income modified by Indiana add-backs and subtractions; withholding applies to wages as defined under IC 6-3-4-8(b), and county tax applies at the January 1 residence county rate.
-
 ## Worked examples
 
 ### 11.1 Example 1 — IN-IL Chicago commuter (no reciprocity)
@@ -496,6 +496,18 @@ Before signing off on an Indiana payroll year-end, confirm:
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Indiana DOR withholding (WH-1/WH-1U/WH-3/WH-4, county rule, reciprocity) | https://www.in.gov/dor/i-am-a/business-corp/withholding/ | 2026-10-28 |
+| Indiana Code IC 6-3 (adjusted gross income tax; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6 | 2026-10-28 |
+| Indiana Code IC 6-3-1 (rate schedule; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-3-1 | 2026-10-28 |
+| Indiana Code IC 6-8.1 (penalties and interest; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-8-1 | 2026-10-28 |
+| Indiana Code IC 6-25 (individual income tax administration; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-25 | 2026-10-28 |
+
+Not yet confirmed: the 3.15% 2025 state rate and the 2026 rate; the 2025 county-rate schedule (Departmental Notice #1); the UI wage base ($9,500) and experience/new-employer rates; WH-1 filing-frequency thresholds; penalty percentages; reciprocity form details — DWD and iga.in.gov pages returned no machine-readable text this run.
 
 ## Talk to a verified accountant
 
