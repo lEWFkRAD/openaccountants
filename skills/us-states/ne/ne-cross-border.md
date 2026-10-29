@@ -10,7 +10,7 @@ description: >
   election", "Nebraska credit for taxes paid", "Nebraska inheritance
   tax". Source-cited draft; PTE-tax page and withholding rails verified
   2026-10-28; nonresident schedule mechanics, credit statute and
-  inheritance-tax figures needs-sources.
+  inheritance-tax figures pending source confirmation.
 jurisdiction: US-NE
 category: cross-border
 tax_year: 2026
@@ -29,7 +29,7 @@ depends_on:
 
 ## Scope and sources
 
-How Nebraska reaches nonresidents and how residents recover other-state tax. **Source status:** verified 2026-10-28 — the DOR individual income-tax page resolves, the **PTE tax page** is official, and withholding rails (§ 77-3513, Circular EN) are verified. **Nonresident return/schedule mechanics, the credit-for-taxes-paid statute, reciprocity, and inheritance-tax rates/thresholds — needs-sources** (inheritance tax is county-administered per pre-existing `ne-income-tax.md` notes; not re-verified this run).
+How Nebraska reaches nonresidents and how residents recover other-state tax. **Source status:** verified 2026-10-28 against archived official sources — the DOR individual income-tax page, the **PTE tax page**, and the Chapter 77 statutes archived in Sources below. Items not yet tied to an archived source are listed under Not yet confirmed in Sources.
 
 ## Who this applies to
 
