@@ -1,10 +1,10 @@
 ---
 name: al-sales-tax
 description: Use this skill whenever asked about Alabama sales tax, Alabama use tax, Alabama sales tax nexus, ADOR sales tax filing, self-administered city taxes in Alabama, or Alabama grocery food taxation. Trigger on phrases like "Alabama sales tax", "AL sales tax", "ADOR", "Code of Ala. §40-23", "Alabama local tax", "Alabama grocery tax", "self-administered cities Alabama", or any request involving Alabama state and local sales and use tax compliance. ALWAYS load us-sales-tax first for federal context.
-version: 2.0
+version: 2.1
 jurisdiction: US-AL
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -22,7 +22,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | Alabama, United States |
 | Jurisdiction code | US-AL |
 | Tax type | Sales and Use Tax (state + local) |
-| State rate | 4.00% |
+| State rate | 4.00% |  — confirmed verbatim vs archived ALDOR sales-rate page: "General state rate: 4% / State manufacturing and farm machinery rate: 1.5% / Automotive rate: 2%"
 | Local rate range | 0% -- 7% (county + city + special district) |
 | Maximum combined rate | ~11.00% |
 | Sourcing | Destination-based |
