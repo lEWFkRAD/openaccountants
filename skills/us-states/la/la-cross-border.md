@@ -67,7 +67,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 
 ## 7. Worked examples
 
-**Example 1 — Louisiana resident working in Texas (no TX tax):** Louisiana tax on worldwide income $5,100; Texas tax $0; no credit available.
+**Example 1 — Louisiana resident working in Texas (no TX tax):** hypothetical client facts: Louisiana tax on worldwide income $5,100; Texas tax $0; no credit available (Texas levies no income tax).
 
 ```oa-check
 name: LA resident TX commuter (no credit)
@@ -86,7 +86,7 @@ expected:
 
 The household pays full Louisiana tax — the no-reciprocity/no-TX-tax pattern is why the verified LA-withholding rule for out-of-state work exists.
 
-**Example 2 — nonresident working in Louisiana:** Mississippi resident earns in Louisiana; LA tax $1,800; Mississippi tax on the same income $2,600 with credit for LA tax.
+**Example 2 — nonresident working in Louisiana:** hypothetical client facts: Mississippi resident earns in Louisiana; LA tax $1,800; Mississippi tax on the same income $2,600 with credit for LA tax.
 
 ```oa-check
 name: Nonresident LA work home-state credit
