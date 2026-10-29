@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Montana individual income tax (Form 2), including sole proprietors
 
-## Scope and who this is for ([2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf))
+## Who this applies to ([2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf))
 
 This skill covers the Montana individual income tax return, **Form 2**, for **tax year 2026** (returns filed in 2027). It has a dated section for **2025 returns**. It is for residents, part-year residents and nonresidents, including sole proprietors and single-member LLC owners.
 
@@ -38,24 +38,6 @@ It does **not** cover pass-through entity returns or the pass-through entity tax
   - students at out-of-state colleges who have not established residency elsewhere.
 - **Nonresident:** neither of the above. Taxed only on Montana source income. That includes wages for work done in Montana, even for an out-of-state employer while working remotely in Montana.
 - **Mixed residency (a box added on the 2025 Form 2):** a Montana resident filing jointly with a nonresident or part-year resident spouse. All of the resident's income, plus the other spouse's Montana source income, is taxed ([2025 Form 2 instructions, Residency Status](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf)).
-
-## Ask the client first
-
-- **Which tax year?** 2026 uses 4.7% and 5.65% with wider brackets; 2025 uses 4.7% and 5.9% with narrower ones. 2027 changes again ([HB 337, DOR](https://revenue.mt.gov/news/recent-news/HB-337)).
-- **Residency for the whole year** for each spouse: domicile, homes in and out of Montana, move-in or move-out dates. Any change means Schedule II.
-- **Federal filing status.** Montana requires the same status as the federal return. A married couple can file separately for Montana only if they file separately federally ([DOR tax simplification hub](https://revenue.mt.gov/montana-tax-simplification-resource-hub)).
-- **The federal Form 1040:**
-  - line 11b (AGI);
-  - line 12e (standard or itemized deduction);
-  - line 13a (qualified business income deduction);
-  - line 13b (Schedule 1-A deductions: tips, overtime, car loan interest, enhanced senior deduction).
-- **If the client itemized:** the state income tax deducted on Schedule A, and any pass-through entity tax or mineral royalty withholding deducted in business income.
-- **Dates of birth** of taxpayer and spouse. They drive the 65-and-older subtraction and the elderly homeowner/renter credit, which starts at age 62.
-- **Net long-term capital gains** (federal Schedule D lines 15 and 16) and qualified dividends, which Montana taxes as ordinary income.
-- **Other states:** income taxed by another state and a copy of that state's return; any wages earned in North Dakota.
-- **Montana-specific items:** U.S. obligation interest, other states' bond interest, 529, ABLE and medical savings account deposits, Railroad Retirement, military pay or retirement pay, and tribal reservation income.
-- **Payments:** Montana withholding (W-2 box 17, 1099-R box 14, Montana K-1s), estimated and extension payments with dates, any overpayment applied, and last year's Form 2 line 10 tax (for the estimated-tax safe harbor).
-- **Age 62 or older with household income under $45,000?** Ask about rent or property tax for the elderly homeowner/renter credit ([DOR elderly credit](https://revenue.mt.gov/property/property-tax-help/montana-elderly-homeowner-renter-credit)).
 
 ## The method, step by step
 
@@ -104,7 +86,7 @@ Form 2 line numbers are from the 2025 return ([2025 Form 2](https://revenue.mt.g
     - Voluntary adjustments such as HSA or IRA contributions are not treated as related to Montana source income.
 11. **Payments and balance.** Withholding, estimates, extension payment and refundable credits (lines 11 to 17) give the balance due or refund; penalties and interest go on Schedule IV.
 
-## Figures by year
+## Rates, bands and thresholds
 
 ### Ordinary income rates ([HB 337, DOR](https://revenue.mt.gov/news/recent-news/HB-337); [MCA 15-30-2103](https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html); [DOR 2025 tax tables](https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025))
 
@@ -198,7 +180,7 @@ Montana ordinary income is all taxable income that is not a net long-term capita
 - **Deaths.** A claim for a person who died before 1 October of the year is not allowed.
 - **Care facilities.** Rent in a care facility is only the out-of-pocket rent. Without a breakdown from the facility, use Worksheet C, which removes 20% of the payment for board and 30% for care.
 
-## Federal conformity and P.L. 119-21 (OBBBA) ([MCA 15-30-2101](https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0010/0150-0300-0210-0010.html); [2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf))
+## The taxable base — federal conformity and P.L. 119-21 (OBBBA) ([MCA 15-30-2101](https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0010/0150-0300-0210-0010.html); [2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf))
 
 - **Rolling conformity.** For this chapter, "Internal Revenue Code" means the Code "as amended, or as it may be labeled or further amended". Federal changes flow into Montana through federal AGI and the federal deductions on line 2, unless Montana lists an adjustment.
 - **What flows through for 2025 and 2026:**
@@ -208,7 +190,7 @@ Montana ordinary income is all taxable income that is not a net long-term capita
 - **Montana's own adjustments** are the Schedule I items above. The two that matter most after OBBBA are:
   - the **QBI deduction**, which never reaches Montana (MCA 15-30-2120(2)(i));
   - the **state income tax add-back**, computed after the federal SALT cap. The 2025 instructions describe the federal cap as $40,000 ($20,000 married filing separately), phased down above $500,000 ($250,000) of modified AGI until it reaches $10,000. If the deduction was limited by the cap, the add-back is reduced "after considering all state and local taxes, other than state income tax".
-- **No decoupling found.** We found no Montana decoupling from P.L. 119-21 in MCA 15-30-2120 or the 2025 Form 2 instructions (checked 25 September 2026). Check DOR's 2026 Form 2 instructions when they are published.
+- **No decoupling found.** We found no Montana decoupling from P.L. 119-21 in MCA 15-30-2120 or the 2025 Form 2 instructions (checked 25 September 2026). Check the 2026 Form 2 instructions when they are published.
 
 ### Federal standard deduction used on line 2 ([Rev. Proc. 2025-32, section 4.14](https://www.irs.gov/pub/irs-drop/rp-25-32.pdf); [2025 Form 1040](https://www.irs.gov/pub/irs-pdf/f1040.pdf))
 
@@ -220,7 +202,7 @@ Montana ordinary income is all taxable income that is not a net long-term capita
 
 These are the basic amounts. The federal add-ons for age and blindness also count for Montana ([Publication 1](https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf)).
 
-## 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf))
+## Deadlines and filing — 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf))
 
 - **Rates:** 4.7% and 5.9% with the 2025 brackets in the rate table above. Capital gains are taxed at 3% and 4.1% with the 2025 brackets.
 - **65-and-older subtraction** $5,660 ($11,320 joint, both 65 or older). **EITC** 10% of the federal credit, with proration.
@@ -228,7 +210,7 @@ These are the basic amounts. The federal add-ons for age and blindness also coun
 - **Filing after 15 April 2026 without full payment:** interest at 7% runs from 15 April 2026, recalculated after each part payment.
 - **2025 overpayment:** it can be applied to the first 2026 estimated installment (line 24).
 
-## Boundary and exception table ([Publication 1](https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf); [MCA 15-30-2103](https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html))
+## Cross-border points — boundary and exception table ([Publication 1](https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf); [MCA 15-30-2103](https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html))
 
 | Situation | Rule |
 | --- | --- |
@@ -249,7 +231,7 @@ These are the basic amounts. The federal add-ons for age and blindness also coun
 | Elderly credit: gross household income of $45,000 or more | No credit. From $35,000 to $44,999 the credit is scaled down (see Case 5). |
 | Elderly credit: rent paid on property exempt from property tax | Not eligible, unless paid to a county or municipal housing authority ([DOR elderly credit](https://revenue.mt.gov/property/property-tax-help/montana-elderly-homeowner-renter-credit)). |
 
-## Worked cases ([MCA 15-30-2103](https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html); [Schedule 2EC](https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_2EC.pdf))
+## Worked examples ([MCA 15-30-2103](https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html); [Schedule 2EC](https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_2EC.pdf))
 
 Amounts described as client facts are hypothetical inputs.
 
@@ -298,6 +280,24 @@ Client facts: lived all year in a rented Montana apartment on taxable property. 
   - $1,440 − $1,270 = $170;
   - the multiplier for $37,501 to $40,000 is 0.30, so the credit is $51.
 
+## Ask the client first
+
+- **Which tax year?** 2026 uses 4.7% and 5.65% with wider brackets; 2025 uses 4.7% and 5.9% with narrower ones. 2027 changes again ([HB 337, DOR](https://revenue.mt.gov/news/recent-news/HB-337)).
+- **Residency for the whole year** for each spouse: domicile, homes in and out of Montana, move-in or move-out dates. Any change means Schedule II.
+- **Federal filing status.** Montana requires the same status as the federal return. A married couple can file separately for Montana only if they file separately federally ([DOR tax simplification hub](https://revenue.mt.gov/montana-tax-simplification-resource-hub)).
+- **The federal Form 1040:**
+  - line 11b (AGI);
+  - line 12e (standard or itemized deduction);
+  - line 13a (qualified business income deduction);
+  - line 13b (Schedule 1-A deductions: tips, overtime, car loan interest, enhanced senior deduction).
+- **If the client itemized:** the state income tax deducted on Schedule A, and any pass-through entity tax or mineral royalty withholding deducted in business income.
+- **Dates of birth** of taxpayer and spouse. They drive the 65-and-older subtraction and the elderly homeowner/renter credit, which starts at age 62.
+- **Net long-term capital gains** (federal Schedule D lines 15 and 16) and qualified dividends, which Montana taxes as ordinary income.
+- **Other states:** income taxed by another state and a copy of that state's return; any wages earned in North Dakota.
+- **Montana-specific items:** U.S. obligation interest, other states' bond interest, 529, ABLE and medical savings account deposits, Railroad Retirement, military pay or retirement pay, and tribal reservation income.
+- **Payments:** Montana withholding (W-2 box 17, 1099-R box 14, Montana K-1s), estimated and extension payments with dates, any overpayment applied, and last year's Form 2 line 10 tax (for the estimated-tax safe harbor).
+- **Age 62 or older with household income under $45,000?** Ask about rent or property tax for the elderly homeowner/renter credit ([DOR elderly credit](https://revenue.mt.gov/property/property-tax-help/montana-elderly-homeowner-renter-credit)).
+
 ## When to refuse or refer
 
 - **Residency in doubt**: homes in two states with similar permanency, or a claimed change of domicile without affirmative steps.
@@ -311,7 +311,7 @@ Client facts: lived all year in a rented Montana apartment on taxable property. 
 - **Non-qualified withdrawals** from farm and ranch risk management accounts, first-time homebuyer accounts and medical savings accounts, which carry 10% penalties ([2025 Form 2 instructions, Schedule IV](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf)).
 - **2026 returns** before DOR publishes the 2026 Form 2: confirm the 65-and-older subtraction, the 529 limit and EITC proration.
 
-## Filing and payment ([2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf); [DOR extensions](https://revenue.mt.gov/taxes/individual-income-tax/extensions); [DOR penalty and interest](https://revenue.mt.gov/taxes/penalty-and-interest); [DOR estimated tax](https://revenue.mt.gov/taxes/estimated-tax-payments); [Publication 1](https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf))
+## Penalties and interest — filing and payment ([2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf); [DOR extensions](https://revenue.mt.gov/taxes/individual-income-tax/extensions); [DOR penalty and interest](https://revenue.mt.gov/taxes/penalty-and-interest); [DOR estimated tax](https://revenue.mt.gov/taxes/estimated-tax-payments); [Publication 1](https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf))
 
 - **Due date:** 15 April (15 April 2026 for 2025; 15 April 2027 for 2026).
 - **Extension:** an automatic six months, to 15 October. No form and no federal extension are needed.
@@ -380,29 +380,34 @@ expected:
 
 ## Sources
 
-- https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf (as_of: 2026-10-28)
-- https://revenue.mt.gov/taxes/individual-income-tax/filing-requirements (as_of: 2026-10-28)
-- https://revenue.mt.gov/taxes/individual-income-tax/residency (as_of: 2026-10-28)
-- https://revenue.mt.gov/news/recent-news/HB-337 (as_of: 2026-10-28)
-- https://revenue.mt.gov/montana-tax-simplification-resource-hub (as_of: 2026-10-28)
-- https://revenue.mt.gov/property/property-tax-help/montana-elderly-homeowner-renter-credit (as_of: 2026-10-28)
-- https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/2025_Montana_Individual_Income_Tax_Return_Form_2.pdf (as_of: 2026-10-28)
-- https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_II.pdf (as_of: 2026-10-28)
-- https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html (as_of: 2026-10-28)
-- https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025 (as_of: 2026-10-28)
-- https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0200/0150-0300-0210-0200.html (as_of: 2026-10-28)
-- https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_2EC.pdf (as_of: 2026-10-28)
-- https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0010/0150-0300-0210-0010.html (as_of: 2026-10-28)
-- https://www.irs.gov/pub/irs-drop/rp-25-32.pdf (as_of: 2026-10-28)
-- https://www.irs.gov/pub/irs-pdf/f1040.pdf (as_of: 2026-10-28)
-- https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf (as_of: 2026-10-28)
-- https://revenue.mt.gov/taxes/tax-credits/credit-for-income-tax-paid-to-other-state (as_of: 2026-10-28)
-- https://revenue.mt.gov/taxes/individual-income-tax/extensions (as_of: 2026-10-28)
-- https://revenue.mt.gov/taxes/penalty-and-interest (as_of: 2026-10-28)
-- https://revenue.mt.gov/taxes/estimated-tax-payments (as_of: 2026-10-28)
-- https://www.openaccountants.com (as_of: 2026-10-28)
-- https://www.openaccountants.com/connect (as_of: 2026-10-28)
-- https://www.openaccountants.com/network (as_of: 2026-10-28)
+| Source | URL | Read on |
+|---|---|---|
+| Montana DOR — 2025 Form 2 instructions | https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf | 2026-10-28 |
+| Montana DOR — filing requirements | https://revenue.mt.gov/taxes/individual-income-tax/filing-requirements | 2026-10-28 |
+| Montana DOR — residency | https://revenue.mt.gov/taxes/individual-income-tax/residency | 2026-10-28 |
+| Montana DOR news — HB 337 tax changes | https://revenue.mt.gov/news/recent-news/HB-337 | 2026-10-28 |
+| Montana DOR — tax simplification resource hub | https://revenue.mt.gov/montana-tax-simplification-resource-hub | 2026-10-28 |
+| Montana DOR — elderly homeowner/renter credit | https://revenue.mt.gov/property/property-tax-help/montana-elderly-homeowner-renter-credit | 2026-10-28 |
+| Montana DOR — 2025 Form 2 | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/2025_Montana_Individual_Income_Tax_Return_Form_2.pdf | 2026-10-28 |
+| Montana DOR — 2025 Form 2 Schedule II | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_II.pdf | 2026-10-28 |
+| MCA 15-30-2103 (rate brackets) | https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html | 2026-10-28 |
+| Montana DOR — 2025 tax tables and deductions | https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025 | 2026-10-28 |
+| MCA 15-30-2120 (subtractions) | https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0200/0150-0300-0210-0200.html | 2026-10-28 |
+| Montana DOR — 2025 Form 2 Schedule 2EC | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_2EC.pdf | 2026-10-28 |
+| MCA 15-30-2101 (federal conformity) | https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0010/0150-0300-0210-0010.html | 2026-10-28 |
+| IRS Rev. Proc. 2025-32 (2026 federal amounts) | https://www.irs.gov/pub/irs-drop/rp-25-32.pdf | 2026-10-28 |
+| IRS Form 1040 | https://www.irs.gov/pub/irs-pdf/f1040.pdf | 2026-10-28 |
+| Montana DOR Publication 1 — Prepaying Income Tax | https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf | 2026-10-28 |
+| Montana DOR — credit for income tax paid to another state | https://revenue.mt.gov/taxes/tax-credits/credit-for-income-tax-paid-to-other-state | 2026-10-28 |
+| Montana DOR — extensions | https://revenue.mt.gov/taxes/individual-income-tax/extensions | 2026-10-28 |
+| Montana DOR — penalty and interest | https://revenue.mt.gov/taxes/penalty-and-interest | 2026-10-28 |
+| Montana DOR — estimated tax payments | https://revenue.mt.gov/taxes/estimated-tax-payments | 2026-10-28 |
+
+Not yet confirmed: the 2026 amount of the 65-and-older subtraction (DOR sets it by 1 November 2026); the 2026 Montana medical savings account contribution limit; the indexed 2026 529 plan deposit limit; the 2026 EITC proration rules (the 2026 Form 2 instructions were not published at the time of writing); and the 2027 bracket indexation mechanics under the post-2026 version of MCA 15-30-2103.
+
+<!-- openaccountants-cta-block -->
+
+---
 
 ## Talk to a verified accountant
 
