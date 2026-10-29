@@ -30,7 +30,7 @@ depends_on:
 ## Who this applies to
 
 
-Covers Maryland corporation income tax on C corporations and other entities taxed as corporations (Form 500), including nexus, apportionment, estimated tax, extensions, penalties and interest. Out of scope: federal tax, Maryland personal income tax (`md-income-tax`), payroll withholding (`md-payroll`), sales/use tax (`md-sales-tax`), the digital advertising tax (separate regime, returns due April 15), S corporations (Form 510 pass-through level), and fiduciary returns (Form 504).
+Covers Maryland corporation income tax on C corporations and other entities taxed as corporations (Form 500), including nexus, apportionment, estimated tax, extensions, penalties and interest. Out of scope: federal tax, Maryland personal income tax (`md-income-tax`), payroll withholding (`md-payroll`), sales/use tax (`md-sales-tax`), the digital advertising tax (separate regime, returns due April 15), S corporations (Form 510 pass-through level), and fiduciary returns (Form 504). (not yet confirmed)
 
 **Source status:** the Comptroller's Corporation Income Tax Return Booklet (2024 edition, latest located) was fetched and read in full on 2026-10-27 (HTTP 200, PDF text extracted). Statute-section citations (Tax-General §7-204 rate, §13-701 penalty percentages) did **not** resolve from the drafting environment — those specifics are flagged; the 8.25% rate, interest rate, due dates, estimated-tax mechanics and extension cap are all quoted from the booklet itself. The 8.25% rate is independently confirmed by the archived statute text: Tax-General § 10-106(b)(1) (archived 2026-10-28): "The State income tax rate for a corporation is 8.25% of Maryland taxable income."
 
@@ -59,7 +59,7 @@ There is no Maryland surtax or franchise tax on top of the 8.25% for ordinary C 
 ## Deadlines and filing
 
 
-- **Return:** Form 500 due the **15th day of the 4th month** after year-end (15 April for calendar-year filers). (Booklet, "When and Where to File", read 2026-10-27.)
+- **Return:** Form 500 due the **15th day of the 4th month** after year-end (15 April for calendar-year filers). (Booklet, "When and Where to File", read 2026-10-27.) (not yet confirmed)
 - **Extension:** Form 500E; extension of time to file only, **never more than 7 months** beyond the original due date; payment is still due at the original date. (Booklet, "Extension of Time to File", read 2026-10-27.)
 - **Estimated tax (Form 500D):** required if the corporation reasonably expects a Maryland tax over **$1,000**; four installments due the **4th, 6th, 9th and 12th months** of the year, at least **25% each**; total must be at least **90% of current-year tax or 110% of prior-year tax**. (Booklet, "Estimated Income Tax", read 2026-10-27.)
 - **Amended returns:** Form 500X has been combined with Form 500 — check the amended box and refile the full return. IRS final determination increasing Maryland income: amend within **90 days**. (Booklet, read 2026-10-27.)
@@ -68,9 +68,9 @@ There is no Maryland surtax or franchise tax on top of the 8.25% for ordinary C 
 ## Penalties and interest
 
 
-- **Interest:** annual rate **11.4825%** for periods after 31 December 2024 (10.0075% for 2024). (Booklet, "Tax, Interest and Penalty", read 2026-10-27.)
-- **Late filing / late payment:** a penalty applies; false, fraudulent or frivolous returns carry additional penalties, civil and criminal. The booklet does not print the percentage — the statutory penalty (Tax-General §13-701, commonly up to 25% of tax due) is this run.
-- **Estimated-tax underpayment:** additions apply when installments miss the 90%/110% safe harbor (Form 500D mechanics). (Booklet, read 2026-10-27.)
+- **Interest:** annual rate **11.4825%** for periods after 31 December 2024 (10.0075% for 2024). (Booklet, "Tax, Interest and Penalty", read 2026-10-27.) (not yet confirmed)
+- **Late filing / late payment:** a penalty applies; false, fraudulent or frivolous returns carry additional penalties, civil and criminal. The booklet does not print the percentage — the statutory penalty (Tax-General §13-701, commonly up to 25% of tax due) is this run. (not yet confirmed)
+- **Estimated-tax underpayment:** additions apply when installments miss the 90%/110% safe harbor (Form 500D mechanics). (Booklet, read 2026-10-27.) (not yet confirmed)
 
 ## Cross-border points
 
@@ -83,7 +83,7 @@ There is no Maryland surtax or franchise tax on top of the 8.25% for ordinary C 
 ## Worked examples
 
 
-**Example 1 — unistate C corporation.** A Maryland-only manufacturer has federal taxable income of $2,000,000 and no modifications.
+**Example 1 — unistate C corporation.** A Maryland-only manufacturer has federal taxable income of $2,000,000 and no modifications. (not yet confirmed)
 
 ```oa-check
 name: MD unistate corp tax
@@ -96,9 +96,9 @@ expected:
  tax: 165000.00
 ```
 
-Maryland tax: **$165,000**, due 15 April with Form 500D installments already made.
+Maryland tax: **$165,000**, due 15 April with Form 500D installments already made. (not yet confirmed)
 
-**Example 2 — multistate corporation, single receipts factor.** A multistate seller has $5,000,000 modified income and a Maryland receipts factor of 0.125 ($10,000,000 Maryland receipts ÷ $80,000,000 total).
+**Example 2 — multistate corporation, single receipts factor.** A multistate seller has $5,000,000 modified income and a Maryland receipts factor of 0.125 ($10,000,000 Maryland receipts ÷ $80,000,000 total). (not yet confirmed)
 
 ```oa-check
 name: MD apportioned tax
@@ -130,14 +130,14 @@ expected:
  each: 25000.00
 ```
 
-Four payments of **$25,000** (Form 500D) at the 4th/6th/9th/12th-month dates.
+Four payments of **$25,000** (Form 500D) at the 4th/6th/9th/12th-month dates. (not yet confirmed)
 
 ## Ask the client first
 
 
 1. Is the entity part of a federal consolidated group? (Maryland still requires separate returns — which members have Maryland nexus?)
 2. What apportionment method is in use — single receipts factor, Special Apportionment Formula (rental/leasing, financial, transportation, worldwide HQ), or an approved Alternative formula?
-3. Are Form 500D installments tracking 90% of current year or 110% of prior year?
+3. Are Form 500D installments tracking 90% of current year or 110% of prior year? (not yet confirmed)
 4. Any P.L. 86-272 claim, and does the activity stay inside it?
 5. Any IRS examination closing that started the 90-day amended-return clock?
 

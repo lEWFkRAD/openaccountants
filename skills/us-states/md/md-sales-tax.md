@@ -23,9 +23,9 @@ Maryland retail sales and use tax on tangible personal property and certain digi
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Maryland |
-| State rate | 6.00% (flat -- no local sales tax) |
+| State rate | 6.00% (flat -- no local sales tax) | (not yet confirmed)
 | Local taxes | None |
-| Maximum combined rate | 6.00% |
+| Maximum combined rate | 6.00% | (not yet confirmed)
 | Sourcing | Destination-based |
 | Economic nexus | $100,000 OR 200 transactions |
 | Tax authority | Comptroller of Maryland |
@@ -38,7 +38,7 @@ Maryland retail sales and use tax on tangible personal property and certain digi
 
 | Pattern | Taxable? | Notes |
 | --- | --- | --- |
-| General TPP | TAXABLE 6% |  |
+| General TPP | TAXABLE 6% |  | (not yet confirmed)
 | Clothing | TAXABLE | No exemption |
 | Grocery food | EXEMPT |  |
 | Prepared food | TAXABLE |  |

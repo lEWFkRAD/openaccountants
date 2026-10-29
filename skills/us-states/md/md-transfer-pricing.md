@@ -61,13 +61,13 @@ There is no separate transfer-pricing rate. The operative amounts:
 
 
 - Alternative-apportionment or separate-accounting requests should be filed **before** the return is filed (the booklet conditions separate accounting on *prior* approval). No fixed statutory clock verified —.
-- Form 500 due date and extension mechanics: see `md-corporate-income-tax` (15th day of the 4th month; Form 500E up to 7 months).
+- Form 500 due date and extension mechanics: see `md-corporate-income-tax` (15th day of the 4th month; Form 500E up to 7 months). (not yet confirmed)
 - No Maryland TP documentation deadline exists.
 
 ## Penalties and interest
 
 
-- No TP-specific penalty. Adjustments flow into the ordinary regime: interest **11.4825%** annually after 2024, late-filing/payment penalties (percentage, Tax-General §13-701). (Booklet, read 2026-10-27.)
+- No TP-specific penalty. Adjustments flow into the ordinary regime: interest **11.4825%** annually after 2024, late-filing/payment penalties (percentage, Tax-General §13-701). (Booklet, read 2026-10-27.) (not yet confirmed)
 - An unapproved separate-accounting or self-computed apportionment method invites reassessment at the statutory factor plus the interest above.
 
 ## Cross-border points
@@ -80,7 +80,7 @@ There is no separate transfer-pricing rate. The operative amounts:
 ## Worked examples
 
 
-**Example 1 — royalty strip moves the receipts factor.** A consolidated member pays a $900,000 royalty to a related IP entity in another state; the payer's Maryland receipts are $6,000,000 of $20,000,000 total. If the royalty is deducted pre-apportionment, Maryland taxable income falls by the Maryland share.
+**Example 1 — royalty strip moves the receipts factor.** A consolidated member pays a $900,000 royalty to a related IP entity in another state; the payer's Maryland receipts are $6,000,000 of $20,000,000 total. If the royalty is deducted pre-apportionment, Maryland taxable income falls by the Maryland share. (not yet confirmed)
 
 ```oa-check
 name: MD royalty deduction apportioned effect
@@ -99,7 +99,7 @@ expected:
  tax_saved: 22275.00
 ```
 
-If the Comptroller re-prices or re-sources the royalty, the exposure is the mirror image: **$22,275** plus 11.4825% interest.
+If the Comptroller re-prices or re-sources the royalty, the exposure is the mirror image: **$22,275** plus 11.4825% interest. (not yet confirmed)
 
 **Example 2 — separate-return vs consolidation arithmetic check.** Two consolidated members, A (Maryland receipts 100% of $2,000,000 income) and B (no Maryland nexus, $1,000,000 income). Federal consolidation nets them; Maryland does not.
 

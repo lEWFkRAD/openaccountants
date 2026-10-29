@@ -67,7 +67,7 @@ Base for Form 505: Maryland-source income, with the federal return attached; all
 ## Penalties and interest
 
 
-- Missed Maryland filing by a nonresident carries the ordinary regime: interest **11.4825%** annually after 2024 (Corporation Tax Booklet, read 2026-10-27 — same statutory rate applies across Comptroller taxes), late-filing penalty up to 25% (Tax-General §13-701,).
+- Missed Maryland filing by a nonresident carries the ordinary regime: interest **11.4825%** annually after 2024 (Corporation Tax Booklet, read 2026-10-27 — same statutory rate applies across Comptroller taxes), late-filing penalty up to 25% (Tax-General §13-701,). (not yet confirmed)
 - Employers who withhold Maryland tax for reciprocal-state residents instead of honoring the exemption create employee refunds, not entity penalties; employers who *fail* to withhold for nonreciprocal nonresidents face §13-704 assessments (per `md-payroll`).
 
 ## Cross-border points
@@ -81,7 +81,7 @@ Base for Form 505: Maryland-source income, with the federal return attached; all
 ## Worked examples
 
 
-**Example 1 — PA commuter, reciprocity.** A Pennsylvania resident earns $120,000 working in Baltimore County, Maryland, all wages, 2026.
+**Example 1 — PA commuter, reciprocity.** A Pennsylvania resident earns $120,000 working in Baltimore County, Maryland, all wages, 2026. (not yet confirmed)
 
 ```oa-check
 name: MD reciprocal exemption
@@ -96,7 +96,7 @@ expected:
 
 Maryland tax **$0** with a valid MW507B exemption; PA taxes the wages. Without the exemption, Maryland would assess state rates + 2.25% and the commuter would need a refund claim.
 
-**Example 2 — NY resident working 60 of 240 workdays in Maryland.** Wages $180,000; Maryland-source share by workdays.
+**Example 2 — NY resident working 60 of 240 workdays in Maryland.** Wages $180,000; Maryland-source share by workdays. (not yet confirmed)
 
 ```oa-check
 name: MD nonresident wage allocation
@@ -114,7 +114,7 @@ expected:
  rough_tax: 3600.00
 ```
 
-The $3,600 is an upper-bound at top marginal rates (Maryland's graduated brackets will compute lower); it shows the 8.00% combined exposure the client should model. New York credits taxes paid to Maryland subject to its own limits.
+The $3,600 is an upper-bound at top marginal rates (Maryland's graduated brackets will compute lower); it shows the 8.00% combined exposure the client should model. New York credits taxes paid to Maryland subject to its own limits. (not yet confirmed)
 
 ## Ask the client first
 
