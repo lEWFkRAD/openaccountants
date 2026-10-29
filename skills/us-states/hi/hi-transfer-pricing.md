@@ -64,7 +64,7 @@ No TP-specific penalty statute was found in the text read. Underpayments from fa
 
 - Foreign groups: apportionment applies to the Hawaii share of unitary business income; water's-edge/combined issues — see Not yet confirmed below.
 - §235-7.3 exclusion interacts with federal §1202/§250 and GILTI planning; decoupling detail — see Not yet confirmed below.
-- The 7.25% nonresident realty withholding (§235-68) can catch cross-border property exits — see `hi-payroll-withholding` for the confirmed §235-68 text.
+- The 7.25% nonresident realty withholding (§235-68(b), archived text: "every transferee shall deduct and withhold a tax equal to 7.25 per cent of the amount realized on the disposition of Hawaii real property") can catch cross-border property exits.
 
 ## Worked examples
 
