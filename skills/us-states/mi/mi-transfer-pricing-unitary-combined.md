@@ -17,15 +17,14 @@ verified_by: pending
 last_updated: 2026-10-25
 version: 0.1
 ---
+## Who this applies to
 
-# Michigan transfer pricing (unitary combined reporting)
-
-## 1. Who this applies to
 
 - Members of a **unitary business group (UBG)** subject to the Michigan Corporate Income Tax (CIT): the group files a combined CIT return (MCL 208.1401 — <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-208-1401>, 200 on 2026-10-25; Michigan Department of Treasury unitary-business-groups page — <https://www.michigan.gov/taxes/business-taxes/cit/detail/unitary-business-groups>, 200 with content on 2026-10-25).
 - Out of scope: stand-alone CIT filers with no unitary affiliates; the individual income tax (no combined reporting there).
 
-## 2. Core rules and rates
+## Rates, bands and thresholds
+
 
 - **CIT rate:** 6.0% (mi-corporate-income-tax, read 2026-10-25; the 4.25% figure in that skill is the historical/alternative-rate context — the operative 2026 rate is 6.0%).
 - **UBG definition** (MCL 208.1401, 200 on 2026-10-25; Treasury page, 200 on 2026-10-25): a set of linked persons in which one person owns, directly or indirectly, more than 50% of another (or a common owner holds more than 50% of each) **and** they are unitary — a single integrated enterprise, interdependent or mutually interdependent, producing goods or services as an integrated business.
@@ -33,26 +32,31 @@ version: 0.1
 - **Intercompany elimination:** transactions between UBG members (sales, rents, royalties, interest) eliminate in the combination — Michigan neutralises connected-party shifting through combination rather than an addback schedule (Treasury unitary page, read 2026-10-25).
 - **Water's-edge:** the combination includes UBG members' apportionable income with the statutory water's-edge boundary (MCL 208.1401, 200 on 2026-10-25).
 
-## 3. Base and apportionment
+## The taxable base
+
 
 - Combined apportioned base = combined CIT base of UBG members, apportioned by the single sales factor (mi-corporate-income-tax, read 2026-10-25).
 - The unitary principle pulls the whole group's apportionable income into one base; a member's separate-line claim fails when operations are integrated (Treasury unitary page, read 2026-10-25).
 
-## 4. Deadlines
+## Deadlines and filing
+
 
 - Combined CIT return (Form CIT-8 with combined-report schedules): 15th day of the 4th month after year end (calendar year: 15 April); 6-month extension with payment by the original date (mi-corporate-income-tax, read 2026-10-25).
 
-## 5. Penalties and interest
+## Penalties and interest
+
 
 - Failure to file combined when required: the group owes the combined tax plus late-file/late-pay penalties and interest at the CIT statutory rate (MCL 208.1451 et seq. — **unverified**: legislature.mi.gov section pages render via JavaScript and the penalty text was not machine-verified on 2026-10-25; mi-corporate-income-tax corroborates the general penalty/interest framework).
 
-## 6. Cross-border and federal overlay
+## Cross-border points
+
 
 - P.L. 86-272 solicitation protection applies to the Michigan net-income (CIT) tax but not to other levies; it does not dissolve UBG status for the rest of the group (Treasury CIT pages — unverified for the specific P.L. 86-272 statement).
 - Federal §482 adjustments do not automatically flow into the Michigan combination (unverified).
 - No state treaty power.
 
-## 7. Worked examples
+## Worked examples
+
 
 **Example 1 — combined 6% on apportioned base.** A UBG's combined CIT base is USD 2,500,000; Michigan sales factor 40%. Michigan base: 2,500,000 × 0.40 = 1,000,000. CIT: 1,000,000 × 0.06 = 60,000.
 
@@ -88,13 +92,15 @@ expected:
   mi_base: 1000000.00
 ```
 
-## 8. Ask the client first
+## Ask the client first
+
 
 - Ownership percentages (the >50% direct/indirect test) and whether a common-owner chain links the entities.
 - Whether operations are integrated (shared customers, supply chain, management) — the unitary test.
 - Whether any foreign affiliates are inside the water's-edge boundary.
 
 ## Sources
+
 
 - MCL 208.1401 (unitary business groups): <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-208-1401> — 200 on 2026-10-25.
 - Treasury CIT unitary business groups page: <https://www.michigan.gov/taxes/business-taxes/cit/detail/unitary-business-groups> — 200 with content on 2026-10-25.
@@ -108,6 +114,7 @@ Not yet confirmed: MCL 208.1451 et seq. penalty/interest text (JS-rendered); spe
 ---
 
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 

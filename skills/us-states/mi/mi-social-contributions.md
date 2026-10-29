@@ -15,43 +15,47 @@ verified_by: pending
 last_updated: 2026-10-25
 version: 0.1
 ---
+## Who this applies to
 
-# Michigan social contributions (UI + PFML)
-
-## 1. Who this applies to
 
 - Michigan employers liable for Michigan Unemployment Insurance (UI) — an employer-only contribution with no employee-side deduction ([mi-payroll](mi-payroll.md) skill, read 2026-10-25).
 - Michigan employers and covered individuals under the Michigan Paid Family and Medical Leave (PFML) program (Insurance Care for Working Families Act, 2022 PA 1 — <https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm>, 200 on 2026-10-25).
 - Out of scope: federal FICA/FUTA (skills/federal); the state income-tax withholding lane (`mi-payroll`).
 
-## 2. Core rules and rates
+## Rates, bands and thresholds
+
 
 - **UI:** employer-only tax on a USD 9,500 per-employee taxable wage base; experience-rated rates plus a 0.99% wage tax on covered employment (mi-payroll, read 2026-10-25). No employee contribution.
 - **PFML:** the Insurance Care for Working Families Act (2022 PA 1, 200 on 2026-10-25) creates a state insurance program funded by premiums on covered wages. The statute's premium schedule (0.8% of wages, split 50/50 employer/employee, with small-employer exemption) was **not machine-verified from the enrolled-act text in the drafting environment on 2026-10-25** — the enrolled PDF's text layer did not yield the premium sections — so the premium figures are **unverified**; confirm against LARA's Family Leave Insurance pages before payroll changes.
 - PFML premium collection was legislatively delayed; the first-premium timing is part of the unverified set above.
 
-## 3. Base
+## The taxable base
+
 
 - UI: gross covered wages up to the 9,500 per-employee annual base (mi-payroll, read 2026-10-25).
 - PFML: covered wages as defined by 2022 PA 1 (unverified for the definitional cross-references).
 
-## 4. Deadlines
+## Deadlines and filing
+
 
 - UI: quarterly wage reports and contributions (mi-payroll, read 2026-10-25).
 - PFML: premiums accrue on the schedule set by the act and LARA rulemaking — **unverified** (see §2).
 
-## 5. Penalties and interest
+## Penalties and interest
+
 
 - UI late reporting/payment penalties and interest: mi-payroll lane (read 2026-10-25).
 - PFML penalties: set by 2022 PA 1 — **unverified**.
 
-## 6. Cross-border and interaction
+## Cross-border points
+
 
 - UI follows the covered-employment rules; multi-state employers allocate base wages under the reciprocal-base rules (federal-state FUTA credit coordination, skills/federal).
 - PFML is wage-based and applies to covered Michigan employment regardless of the worker's residence.
 - No state pension or disability contribution beyond PFML.
 
-## 7. Worked examples
+## Worked examples
+
 
 **Example 1 — UI base cost.** An employer with 10 covered employees pays the new-employer rate on the full base: 10 × 9,500 = 95,000 taxable wages; at a 3.5% experience rate: 95,000 × 0.035 = 3,325, plus the 0.99% wage tax on the same base: 95,000 × 0.0099 = 940.50.
 
@@ -92,13 +96,15 @@ expected:
   employee: 800.00
 ```
 
-## 8. Ask the client first
+## Ask the client first
+
 
 - Experience rate and employee count (UI cost driver).
 - Whether PFML premiums have begun collecting for their payroll cycle (timing is unverified — check LARA).
 - Multi-state base allocation if employees work in neighbouring states.
 
 ## Sources
+
 
 - Insurance Care for Working Families Act, 2022 PA 1 (enrolled): <https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm> — 200 on 2026-10-25; premium sections **unverified** (text layer not machine-readable in drafting environment).
 - LARA Family Leave Insurance program pages — **unverified** (not reachable 2026-10-25).
@@ -111,6 +117,7 @@ Not yet confirmed: PFML premium rate/schedule and split, small-employer exemptio
 ---
 
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 

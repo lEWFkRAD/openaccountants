@@ -9,10 +9,8 @@ trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
+## Who this applies to
 
-# MI Estimated Tax
-
-## Michigan Quarterly Estimated Income Tax — Individuals
 
 > **Scope.** This skill covers Michigan Form MI-1040ES (quarterly estimated income tax vouchers) and Form MI-2210 (underpayment penalty) for full-year Michigan resident individuals who are sole proprietors, single-member LLCs, or W-2 earners with insufficient withholding. It covers the safe-harbor tests under MCL 206.301, the four quarterly installment due dates, the annualized income method for taxpayers with uneven income, and coordination with federal Form 1040-ES.
 >
@@ -20,7 +18,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 >
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All rates, thresholds, and interest rates were researched on 2026-05-28 from official Michigan Department of Treasury publications and Revenue Administrative Bulletins. A qualified Michigan professional must review before any payment schedule is acted upon.
 
-## Section 1: Metadata
+
+
 
 - **Jurisdiction** — Michigan (US-MI)
 - **Tax type** — Individual income tax — estimated payments
@@ -33,25 +32,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Last updated** — 2026-05-28
 - **Validation** — AI-drafted — Q3 (pending Michigan CPA/EA verification)
 
-## Sources
+## Rates, bands and thresholds
 
-**Sources consulted**
-
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | MCL 206.301 — Estimated Tax Installments | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-301 |
-| 2 | MCL 205.23 — Interest on underpayments | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-23 |
-| 3 | 2026 MI-1040ES Vouchers & Instructions | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040ES-(2026).pdf |
-| 4 | 2025 MI-2210 Underpayment of Estimated Tax | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-2210.pdf |
-| 5 | Revenue Administrative Bulletin 2026-1 (H1 2026 interest rate) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-1 |
-| 6 | Revenue Administrative Bulletin 2026-5 (H2 2026 interest rate) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-5 |
-| 7 | Michigan Treasury — Am I Required to Make Estimates? | https://www.michigan.gov/taxes/questions/iit/accordion/estimate/am-i-required-to-make-estimated-tax-payments-1 |
-| 8 | Michigan Treasury — Interest Rate Due on Under/Overpayments | https://www.michigan.gov/taxes/interest-rate |
-| 9 | Michigan Treasury Online (MTO) portal | https://mto.treasury.michigan.gov/ |
-
-Not yet confirmed: MI-1040ES safe-harbor percentages (90%/100%/110% and the high-income AGI threshold), the 2026 H1/H2 interest rates (8.48%/7.85%) pending RAB text verification, MTO card/debit payment fees, and the annualization factors on the 2026 MI-2210 form.
-
-## Section 2: Quick reference
 
 **Quick reference table**
 
@@ -60,7 +42,7 @@ Not yet confirmed: MI-1040ES safe-harbor percentages (90%/100%/110% and the high
 | Estimated tax threshold | Expected tax > $500 after withholding and credits — VERIFIED vs archived [MCL 206.301(1)](https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-301): "if the person's annual tax can reasonably be expected to exceed the amount withheld under section 351 and the credits allowed under this part by more than $500.00, shall pay ... installments of estimated tax ... on or before April 15, June 15, and September 15 of the person's tax year and January 15 in the following year" | MCL 206.301(1), archived 2026-10-28 |
 | Safe harbor — current year | 90% of current-year tax | MI-1040ES Instr. |
 | Safe harbor — prior year (standard) | 100% of prior-year tax (12-month return) | MI-1040ES Instr. |
-| Safe harbor — high-income (AGI > $150k) | 110% of prior-year tax | MI-1040ES Instr. `[VERIFY:]` see §5 |
+| Safe harbor — high-income (AGI > $150k) | 110% of prior-year tax | MI-1040ES Instr. `[VERIFY:]` see the Safe harbor 3 subsection below |
 | Safe harbor — farmers/fishermen | 66⅔% of current-year tax | MCL 206.301(4) |
 | Q1 due date (TY 2026) | April 15, 2026 | MCL 206.301(1) |
 | Q2 due date | June 15, 2026 | MCL 206.301(1) |
@@ -76,7 +58,8 @@ Not yet confirmed: MI-1040ES safe-harbor percentages (90%/100%/110% and the high
 | Payment methods | MTO eCheck (free); debit card ($3.95); credit card (2.3%); mail + voucher | Treasury |
 | Mail-in address | Michigan Department of Treasury, P.O. Box 30774, Lansing, MI 48909 | MI-1040ES |
 
-## Section 3: Threshold determination — when MUST you make estimates
+## The taxable base
+
 
 - **Estimated payment requirement threshold** — An individual must make quarterly estimated payments if the expected annual Michigan tax liability, after subtracting (1) Michigan income tax withholding under MCL 206.351 and (2) all allowable Michigan credits, exceeds $500.  _(MCL 206.301(1))_
 
@@ -101,14 +84,15 @@ Step 5: If remainder > $500 → MUST make estimates.
 | W-2 earner with W-4 set correctly | Usually NO |
 | W-2 earner with side gig (Schedule C) | Depends — compute step 5 |
 | Retiree with no MI withholding on 1099-R | Yes if subtraction does not zero out tax |
-| Capital gains windfall in current year | Yes — may also need annualized method (§7) |
+| Capital gains windfall in current year | Yes — may also need annualized method (see the Annualized income method subsection) |
 | Both spouses earn — MFJ | Compute on combined liability |
 
-## Section 3: Threshold determination — when MUST you make estimates
+
 
 `[VERIFY:]` MCL 206.301 uses the singular "person" — joint filers compute the threshold on the combined liability shown on the joint MI-1040. Confirm with 2026 MI-1040ES instructions.
 
-## Section 4: Safe-harbor calculation
+
+
 
 - **Safe harbor avoidance of penalty** — A taxpayer who meets any one of the safe harbors avoids the underpayment penalty under MCL 205.24, regardless of the final balance due on the MI-1040.  _(MCL 205.24)_
 
@@ -136,7 +120,8 @@ Step 5: If remainder > $500 → MUST make estimates.
 
 - **Lower-of test** — The taxpayer pays the lower of (a) the prior-year safe harbor and (b) 90% of current-year. Most software defaults to the prior-year amount because it is fixed and certain. Use current-year 90% only if current-year income has dropped materially.
 
-## Section 5: Regular installment method — four equal payments
+
+
 
 - **Regular installment formula** — ``` Required annual payment (RAP) = lower of: (a) 90% × TY 2026 expected Michigan tax (b) 100% (or 110% if high-income) × TY 2025 Michigan tax (c) — for farmers/fishermen — 66⅔% × TY 2026 expected tax Quarterly installment = (RAP − expected TY 2026 withholding) ÷ 4 ```  _(MCL 206.301(2))_
 
@@ -159,7 +144,8 @@ Step 5: If remainder > $500 → MUST make estimates.
 
 - **Withholding treated as paid evenly** — Michigan, like federal, treats withholding as paid evenly across the four quarters unless the taxpayer elects to treat it as paid when actually withheld. This is favorable to taxpayers whose withholding is back-loaded (e.g., a December bonus with full MI withholding can cover earlier underpayments).
 
-## Section 6: Annualized income method (uneven income)
+
+
 
 - **Annualized income method** — For taxpayers whose income arrives unevenly across the year — typical patterns include consulting engagements that close in Q3, capital gains realized in Q4, or seasonal businesses — Michigan permits an annualized income installment method analogous to federal Form 2210 Schedule AI. The method is implemented on Form MI-2210, Part 3 (Annualized Income Worksheet).  _(Form MI-2210, Part 3)_
 
@@ -198,7 +184,8 @@ Step 5: If remainder > $500 → MUST make estimates.
 
 Without annualization the consultant would owe $1,488 per quarter (roughly $5,950 ÷ 4). With annualization the Q1 and Q2 payments are tiny because little income had been earned. Total paid across all four quarters is identical, but no underpayment penalty accrues for Q1 and Q2.
 
-## Section 7: Form MI-1040ES voucher — line by line
+## Deadlines and filing
+
 
 **Voucher line by line table**
 
@@ -211,7 +198,7 @@ Without annualization the consultant would owe $1,488 per quarter (roughly $5,95
 | 5 | Amount of estimated tax payment | $ amount in whole dollars |
 | 6 | Make check payable to | "State of Michigan" — write filer SSN and "2026 MI-1040ES" on memo line |
 
-## Section 7: Form MI-1040ES voucher — line by line
+
 
 The 2026 MI-1040ES is a four-voucher set. Each voucher is identical except for the period and due date.
 
@@ -223,7 +210,64 @@ The 2026 MI-1040ES is a four-voucher set. Each voucher is identical except for t
 
 - **Joint vs separate filer rules** — Joint filers may file a single MI-1040ES voucher set covering both spouses, OR each spouse may file separately. If a joint MI-1040 will be filed, joint estimates are easiest — credits apply to the combined liability. If one spouse later files MFS, the estimates can be allocated by mutual agreement (default allocation per MCL 206.311(2) is by proportion of each spouse's separate tax to the combined tax).  _(MCL 206.311)_
 
-## Section 8: Underpayment penalty — Form MI-2210
+
+### MTO (Michigan Treasury Online) — preferred
+
+1. Navigate to https://mto.treasury.michigan.gov/.
+2. Sign in (or create an Individual account using SSN + prior-year AGI).
+3. Select "Make a Payment" → "Estimated Tax (MI-1040ES)".
+4. Choose tax year 2026 and the installment quarter (1–4).
+5. Enter bank routing + account number for ACH eCheck (no fee), OR enter debit/credit card details.
+6. Confirm — keep the MTO confirmation number for the file.
+
+### Mail with voucher
+
+Detach the appropriate quarterly voucher from MI-1040ES, attach check payable to "State of Michigan", write SSN and "2026 MI-1040ES Q[n]" on memo line, mail to P.O. Box 30774, Lansing, MI 48909. Use certified mail for evidence of timely filing.
+
+### Bank ACH debit (recurring)
+
+Through MTO a taxpayer can schedule all four quarterly debits in advance on the four statutory due dates. This is the recommended method for sole-prop clients who want to "set and forget".
+
+### Card fees
+
+- **Debit card fee** — $3.95 flat fee per transaction USD (debit card payment)  _(MTO payment processor disclosures)_
+- **Credit card fee** — 2.3% percent (of payment, paid to processor not Treasury)  _(MTO payment processor disclosures)_
+
+
+
+
+**Michigan due dates match federal due dates**
+
+| Quarter | Federal 1040-ES | Michigan MI-1040ES |
+| --- | --- | --- |
+| Q1 | April 15, 2026 | April 15, 2026 |
+| Q2 | June 15, 2026 | June 15, 2026 |
+| Q3 | September 15, 2026 | September 15, 2026 |
+| Q4 | January 15, 2027 | January 15, 2027 |
+
+### Practical workflow
+
+1. Compute federal Schedule C net profit + SE tax under the `us-schedule-c-and-se-computation` skill.
+2. Run federal estimated tax via `us-quarterly-estimated-tax` skill (1040-ES).
+3. Apply the federal AGI figure as the input to the Michigan threshold test (see the threshold determination section) and the MI 4.25% computation (Michigan AGI starts from federal AGI — see `mi-income-tax` skill).
+4. Compute MI required annual payment and divide by 4.
+5. Schedule both federal and Michigan payments on MTO + EFTPS in the same session each quarter.
+
+### Differences to watch
+
+**Differences to watch table**
+
+| Federal | Michigan |
+| --- | --- |
+| 25/25/25/25 installments | 25/25/25/25 installments (identical) |
+| §6654 safe harbor 100%/110% | MCL 206.301 safe harbor 100%/110% (parallel) |
+| §6654 interest rate (federal short-term + 3) | MCL 205.23 (prime + 1, set semi-annually) |
+| Form 2210 | Form MI-2210 |
+| EFTPS / IRS Direct Pay | Michigan Treasury Online (MTO) |
+| Form 1040-ES voucher | Form MI-1040ES voucher |
+
+## Penalties and interest
+
 
 When required estimates are not paid (or are paid late or short), MI-2210 calculates: 1. Underpayment penalty — a fixed percentage charge, AND 2. Interest — at the quarterly Treasury rate.
 
@@ -261,100 +305,18 @@ When required estimates are not paid (or are paid late or short), MI-2210 calcul
 | --- | --- |
 | Part 1 | Required Annual Payment (lower of 90% current / 100% (or 110%) prior) |
 | Part 2 | Short Method (regular installments — equal quarterly amounts) |
-| Part 3 | Annualized Income Worksheet (for uneven income; see §6) |
+| Part 3 | Annualized Income Worksheet (for uneven income; see the Annualized income method subsection) |
 | Part 4 | Penalty and Interest Computation (per quarter) |
 
 ### Penalty waiver / reasonable cause
 
 - **Reasonable cause waiver grounds** — Under MCL 205.24(4) the Treasury may waive the underpayment penalty (but not interest) for: Casualty, disaster, or other unusual circumstance where imposition would be inequitable; Reasonable cause shown — e.g., reliance on incorrect written advice from Treasury, retirement after age 62, or first-year self-employment; Death of the taxpayer during the year. Submit a written reasonable-cause statement with MI-2210. Interest is not waivable.  _(MCL 205.24(4))_
 
-### MTO (Michigan Treasury Online) — preferred
+## Cross-border points
 
-1. Navigate to https://mto.treasury.michigan.gov/.
-2. Sign in (or create an Individual account using SSN + prior-year AGI).
-3. Select "Make a Payment" → "Estimated Tax (MI-1040ES)".
-4. Choose tax year 2026 and the installment quarter (1–4).
-5. Enter bank routing + account number for ACH eCheck (no fee), OR enter debit/credit card details.
-6. Confirm — keep the MTO confirmation number for the file.
+Michigan estimated tax is a state-level obligation only: federal estimates (Form 1040-ES) are filed separately with the IRS, city estimated tax (Detroit D-1040ES and similar) is filed separately with the city, and nonresident/part-year filers compute estimates on the Michigan-source portion only (Schedule NR — see `mi-cross-border-tax`). Michigan and federal installment due dates are identical (April 15 / June 15 / September 15 / January 15).
+## Worked examples
 
-### Mail with voucher
-
-Detach the appropriate quarterly voucher from MI-1040ES, attach check payable to "State of Michigan", write SSN and "2026 MI-1040ES Q[n]" on memo line, mail to P.O. Box 30774, Lansing, MI 48909. Use certified mail for evidence of timely filing.
-
-### Bank ACH debit (recurring)
-
-Through MTO a taxpayer can schedule all four quarterly debits in advance on the four statutory due dates. This is the recommended method for sole-prop clients who want to "set and forget".
-
-### Card fees
-
-- **Debit card fee** — $3.95 flat fee per transaction USD (debit card payment)  _(MTO payment processor disclosures)_
-- **Credit card fee** — 2.3% percent (of payment, paid to processor not Treasury)  _(MTO payment processor disclosures)_
-
-## Section 10: Coordination with federal Form 1040-ES
-
-**Michigan due dates match federal due dates**
-
-| Quarter | Federal 1040-ES | Michigan MI-1040ES |
-| --- | --- | --- |
-| Q1 | April 15, 2026 | April 15, 2026 |
-| Q2 | June 15, 2026 | June 15, 2026 |
-| Q3 | September 15, 2026 | September 15, 2026 |
-| Q4 | January 15, 2027 | January 15, 2027 |
-
-### Practical workflow
-
-1. Compute federal Schedule C net profit + SE tax under the `us-schedule-c-and-se-computation` skill.
-2. Run federal estimated tax via `us-quarterly-estimated-tax` skill (1040-ES).
-3. Apply the federal AGI figure as the input to the Michigan threshold test (§3) and the MI 4.25% computation (Michigan AGI starts from federal AGI — see `mi-income-tax` skill).
-4. Compute MI required annual payment and divide by 4.
-5. Schedule both federal and Michigan payments on MTO + EFTPS in the same session each quarter.
-
-### Differences to watch
-
-**Differences to watch table**
-
-| Federal | Michigan |
-| --- | --- |
-| 25/25/25/25 installments | 25/25/25/25 installments (identical) |
-| §6654 safe harbor 100%/110% | MCL 206.301 safe harbor 100%/110% (parallel) |
-| §6654 interest rate (federal short-term + 3) | MCL 205.23 (prime + 1, set semi-annually) |
-| Form 2210 | Form MI-2210 |
-| EFTPS / IRS Direct Pay | Michigan Treasury Online (MTO) |
-| Form 1040-ES voucher | Form MI-1040ES voucher |
-
-### Tier 1 — deterministic (do not require judgment)
-
-**Tier 1 rules table**
-
-| ID | Rule |
-| --- | --- |
-| T1-01 | Threshold = $500 expected liability after withholding and credits (MCL 206.301(1)) |
-| T1-02 | Four installments due April 15, June 15, September 15, January 15 |
-| T1-03 | Each installment = ¼ of required annual payment (RAP) less expected withholding ÷ 4 |
-| T1-04 | RAP = lower of (a) 90% current year or (b) 100% (110% if AGI > $150k) prior year |
-| T1-05 | Farmer/fisherman alternative = 66⅔% by Jan 15 OR full payment by Mar 1 (MCL 206.301(4)) |
-| T1-06 | Late/under penalty = 10% of shortfall, $10 min per quarter |
-| T1-07 | Failure to file estimate = 25% penalty, $25 min per quarter |
-| T1-08 | Interest rate = Treasury-set semi-annual rate under MCL 205.23 |
-| T1-09 | Joint filers may file one voucher set (MCL 206.311) |
-| T1-10 | Make check payable to "State of Michigan" with SSN + "2026 MI-1040ES Q[n]" on memo |
-
-### Tier 2 — judgment-required (flag for reviewer)
-
-**Tier 2 rules table**
-
-| ID | Situation | Judgment call |
-| --- | --- | --- |
-| T2-01 | High-income 110% trigger | Use TY 2025 federal AGI; if > $150k, default to 110% |
-| T2-02 | Uneven income — use annualized method? | Use if Q1/Q2 income < 25% of annual; document |
-| T2-03 | First-year self-employed (no prior-year liability) | Only current-year 90% safe harbor available; consider reasonable-cause waiver |
-| T2-04 | Mid-year change in withholding | Recompute Q3/Q4; do not amend Q1/Q2 |
-| T2-05 | Capital gains windfall Q4 | Annualized method usually beats regular installment |
-| T2-06 | Spouse files MFS after joint estimates paid | Allocate per MCL 206.311(2) proportional rule |
-| T2-07 | Detroit / Grand Rapids resident with city tax | City has separate estimated tax — do not combine |
-| T2-08 | Reasonable-cause waiver request | Draft written statement; cite specific MCL 205.24(4) ground |
-
-## Section 12: Worked examples
 
 ### Example 1 — Steady-income sole proprietor ($120k expected)
 
@@ -449,23 +411,34 @@ The annualized method front-loads cash to Q3 when the income actually arrived. N
 
 For W-2 couples, increasing Michigan withholding via MI-W4 line 6 ("additional amount per pay") is usually administratively easier than quarterly vouchers — and withholding is treated as paid evenly across all four quarters even if added in November, which can fully cure an underpayment for Q1–Q3.
 
-## Section 13: Refusal catalogue
+## Ask the client first
 
-**Refusal catalogue table**
+- Expected TY 2026 Michigan liability and current withholding (drives the $500 threshold test).
+- TY 2025 MI-1040 total tax and federal AGI (drives the 100%/110% prior-year safe harbor).
+- Whether income arrives unevenly across the year (annualized method vs equal installments).
+- Farming, fishing, or seafaring income share (66⅔% safe harbor under MCL 206.301(4)).
+- Detroit / Grand Rapids residency — city estimated tax is separate and must not be combined.
+## Sources
 
-| ID | Situation | Action |
+
+**Sources consulted**
+
+| # | Source | URL |
 | --- | --- | --- |
-| MI-EST-R-01 | Estate or trust estimated payments (MI-1041ES) | Refuse — separate fiduciary skill required |
-| MI-EST-R-02 | S-corp / partnership PTET estimated payments (MCL 206.813) | Refuse — load `mi-ptet-estimated-tax` (separate skill, pending) |
-| MI-EST-R-03 | Corporate Income Tax estimates (Form 4913) | Refuse — load `mi-corporate-income-tax` |
-| MI-EST-R-04 | Multistate apportionment with Michigan as one of several states | Refuse — flag for professional review |
-| MI-EST-R-05 | Part-year or non-resident estimates (Schedule NR) | Refuse — out of scope |
-| MI-EST-R-06 | Detroit / Grand Rapids / other city estimates (D-1040ES, etc.) | Refuse — separate city return |
-| MI-EST-R-07 | Tax year other than current (TY 2024 or earlier) | Refuse — rates and rules may differ |
-| MI-EST-R-08 | Michigan Business Tax (MBT) carryover entities | Refuse — different tax regime |
-| MI-EST-R-09 | Composite return estimated payments for non-resident members | Refuse — separate skill required |
+| 1 | MCL 206.301 — Estimated Tax Installments | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-301 |
+| 2 | MCL 205.23 — Interest on underpayments | https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-23 |
+| 3 | 2026 MI-1040ES Vouchers & Instructions | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040ES-(2026).pdf |
+| 4 | 2025 MI-2210 Underpayment of Estimated Tax | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-2210.pdf |
+| 5 | Revenue Administrative Bulletin 2026-1 (H1 2026 interest rate) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-1 |
+| 6 | Revenue Administrative Bulletin 2026-5 (H2 2026 interest rate) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-5 |
+| 7 | Michigan Treasury — Am I Required to Make Estimates? | https://www.michigan.gov/taxes/questions/iit/accordion/estimate/am-i-required-to-make-estimated-tax-payments-1 |
+| 8 | Michigan Treasury — Interest Rate Due on Under/Overpayments | https://www.michigan.gov/taxes/interest-rate |
+| 9 | Michigan Treasury Online (MTO) portal | https://mto.treasury.michigan.gov/ |
 
-## Section 14: Form mapping
+Not yet confirmed: MI-1040ES safe-harbor percentages (90%/100%/110% and the high-income AGI threshold), the 2026 H1/H2 interest rates (8.48%/7.85%) pending RAB text verification, MTO card/debit payment fees, and the annualization factors on the 2026 MI-2210 form.
+
+## Form mapping
+
 
 **Form mapping table**
 
@@ -494,7 +467,25 @@ For W-2 couples, increasing Michigan withholding via MI-W4 line 6 ("additional a
 | 5 | Amount of estimated payment |
 | 6 | Check payable to "State of Michigan"; write SSN + "2026 MI-1040ES Q[n]" |
 
-## Section 15: Provenance
+## Refusal catalogue
+
+
+**Refusal catalogue table**
+
+| ID | Situation | Action |
+| --- | --- | --- |
+| MI-EST-R-01 | Estate or trust estimated payments (MI-1041ES) | Refuse — separate fiduciary skill required |
+| MI-EST-R-02 | S-corp / partnership PTET estimated payments (MCL 206.813) | Refuse — load `mi-ptet-estimated-tax` (separate skill, pending) |
+| MI-EST-R-03 | Corporate Income Tax estimates (Form 4913) | Refuse — load `mi-corporate-income-tax` |
+| MI-EST-R-04 | Multistate apportionment with Michigan as one of several states | Refuse — flag for professional review |
+| MI-EST-R-05 | Part-year or non-resident estimates (Schedule NR) | Refuse — out of scope |
+| MI-EST-R-06 | Detroit / Grand Rapids / other city estimates (D-1040ES, etc.) | Refuse — separate city return |
+| MI-EST-R-07 | Tax year other than current (TY 2024 or earlier) | Refuse — rates and rules may differ |
+| MI-EST-R-08 | Michigan Business Tax (MBT) carryover entities | Refuse — different tax regime |
+| MI-EST-R-09 | Composite return estimated payments for non-resident members | Refuse — separate skill required |
+
+## Provenance
+
 
 **Provenance table**
 
@@ -517,6 +508,7 @@ For W-2 couples, increasing Michigan withholding via MI-W4 line 6 ("additional a
 
 ## Disclaimer
 
+
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
 
 <!-- openaccountants-cta-block -->
@@ -524,6 +516,7 @@ This skill and its outputs are provided for informational and computational purp
 ---
 
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
