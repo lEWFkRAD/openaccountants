@@ -26,7 +26,7 @@ depends_on:
 
 ## Scope and sources
 
-Employer social costs for Nebraska employment. **Source status:** the Nebraska state labor portal resolves and NDOL administers UI (verified at portal level 2026-10-28); NDOL employer rate/wage-base pages returned HTTP 403 to this run's fetcher — the state UI figures are listed under Not yet confirmed in Sources.
+Employer social costs for Nebraska employment. **Source status:** the Nebraska Department of Labor (NDOL) administers UI; NDOL employer rate/wage-base pages returned HTTP 403 to this run's fetcher and are not archived — the state UI figures are listed under Not yet confirmed in Sources. Federal FUTA figures are statutory (IRC §§ 3301, 3302, 3306).
 
 ## Who this applies to
 
@@ -97,9 +97,9 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| Nebraska state labor portal (NDOL administers UI; employer sub-pages returned 403 to this run's fetcher) | https://nebraska.gov/labor | 2026-10-28 |
+| Neb. Rev. Stat. § 77-2769 (individual estimated-tax threshold, $500) | https://nebraskalegislature.gov/laws/statutes.php?statute=77-2769 | 2026-10-28 |
 
-Not yet confirmed: the Nebraska UI taxable wage base, experience-rate schedule, new-employer rate, quarterly report form ID, report due dates, and late-filing/late-payment penalties (NDOL employer pages returned HTTP 403 to this run's fetcher); interstate localization specifics.
+Not yet confirmed: the Nebraska UI taxable wage base, experience-rate schedule, new-employer rate, quarterly report form ID, report due dates, and late-filing/late-payment penalties (NDOL employer pages returned HTTP 403 to this run's fetcher and could not be archived); interstate localization specifics.
 
 <!-- openaccountants-cta-block -->
 ---
