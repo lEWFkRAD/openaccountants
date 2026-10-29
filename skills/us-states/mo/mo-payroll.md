@@ -535,34 +535,10 @@ Before signoff on a Missouri payroll engagement, the reviewer must confirm:
 | 2 | §143.011.5 RSMo (Revenue-trigger phase-down of top marginal rate) | https://revisor.mo.gov/main/OneSection.aspx?section=143.011 | 2026-10-28 |
 | 3 | §143.131 RSMo (Standard deduction conformity) | https://revisor.mo.gov/main/OneSection.aspx?section=143.131 | 2026-10-29 |
 | 4 | §143.171 RSMo (Federal income tax deduction) | https://revisor.mo.gov/main/OneSection.aspx?section=143.171 | 2026-10-29 |
-| 5 | §143.191 RSMo (Withholding requirement) | https://revisor.mo.gov/main/OneSection.aspx?section=143.191 | not archived |
-| 6 | §143.221 RSMo (EFT requirement at $8,000 threshold) | https://revisor.mo.gov/main/OneSection.aspx?section=143.221 | not archived |
-| 7 | §143.591 RSMo (W-2 transmittal) | https://revisor.mo.gov/main/OneSection.aspx?section=143.591 | 2026-10-29 |
-| 8 | §143.741, §143.751 RSMo (Penalties) | https://revisor.mo.gov/main/OneSection.aspx?section=143.741 | not archived |
-| 9 | §285.300 RSMo (New hire reporting) | https://revisor.mo.gov/main/OneSection.aspx?section=285.300 | not archived |
-| 10 | §290.080 RSMo (Pay frequency, wage statements) | https://revisor.mo.gov/main/OneSection.aspx?section=290.080 | not archived |
-| 11 | §290.110 RSMo (Final pay) | https://revisor.mo.gov/main/OneSection.aspx?section=290.110 | not archived |
-| 12 | §290.502 RSMo (Minimum wage indexing) | https://revisor.mo.gov/main/OneSection.aspx?section=290.502 | 2026-10-29 |
-| 13 | §67.1571 RSMo (Local minimum wage preemption) | https://revisor.mo.gov/main/OneSection.aspx?section=67.1571 | not archived |
-| 14 | §92.110, §92.115 RSMo (Authorization for KC and St. Louis earnings taxes; 5-year reauthorization) | https://revisor.mo.gov/main/OneSection.aspx?section=92.110 | not archived |
-| 15 | Chapter 288 RSMo, especially §288.034, §288.036, §288.090, §288.121, §288.123, §288.160 (Missouri UI) | https://revisor.mo.gov/main/OneSection.aspx?section=288.036 | 2026-10-29 |
-| 16 | 12 CSR 10-2.015 (Withholding filing frequency and quarter-monthly deposit rules) | https://services.sos.mo.gov/CMSStaticSite/WebRegister/10-2.015.aspx | not archived |
-| 17 | MO Department of Revenue Form 4282 (Employer's Tax Guide), current year edition | https://dor.mo.gov/forms/4282.pdf | not archived |
-| 18 | Kansas City Code of Ordinances Chapter 68 (Earnings and Profits Tax) | https://qcode.codes/c/q68 | not archived |
-| 19 | City of St. Louis Revised Code Chapter 5.22 (Earnings Tax) | https://cityofstlouis.municipalcodeonline.com/book?id=earnings_tax | not archived |
-| 20 | Boles v. City of St. Louis, Missouri Court of Appeals (2023) (remote work not city-source) | https://caselaw.findlaw.com/court/mo-court-of-appeals/117502345.html | not archived |
-| 21 | Pemberton v. KCNA, Inc., Missouri Court of Appeals (1989) (vacation payout) | https://caselaw.findlaw.com/court/mo-court-of-appeals/1119022.html | not archived |
-| 22 | City of St. Louis Ordinance 71926 (Paid Sick Time Ordinance, effective May 1, 2025) | https://www.stlouis-mo.gov/government/departments/boards/commission-on-human-relations/documents/Ordinance-71926.cfm | not archived |
-| 23 | HB 567 (2025) (Repeal of Prop A statewide paid sick leave, effective August 28, 2025) | https://www.moga.mo.gov/mozilla/2025S/HB0567.htm | not archived |
-| 24 | Proposition A (November 2024 ballot, partially repealed by HB 567 (2025)) | https://www.moga.mo.gov/mozilla/2024S/PropA.htm | not archived |
-| 25 | HB 1409 (2018) (UI wage base step-down) | https://www.moga.mo.gov/mozilla/2018S/HB1409.htm | not archived |
-| 26 | SB 3 (2022 First Extraordinary Session); SB 190 (2023) (PIT rate reductions) | https://www.moga.mo.gov/mozilla/2022SES1/SB0003.htm | not archived |
-| 27 | HB 2540 (2018) (Repeal of MO personal exemption) | https://www.moga.mo.gov/mozilla/2018S/HB2540.htm | not archived |
-| 28 | Rev. Rul. 87-41 (IRS three-category framework — for cross-reference only) | https://www.irs.gov/pub/irs-drop/rr-87-41.pdf | not archived |
-| 29 | 26 U.S.C. §3401 note (Revenue Act of 1978 §530 — for cross-reference only) | https://www.law.cornell.edu/uscode/text/26/3401 | not archived |
-| 30 | Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA), 42 U.S.C. §653a (Multistate employer new hire reporting) | https://www.law.cornell.edu/uscode/text/42/653a | not archived |
-| 31 | Military Spouses Residency Relief Act (MSRRA), 50 U.S.C. §4001 et seq. | https://www.law.cornell.edu/uscode/text/50/3001 | not archived |
-Not yet confirmed: the citations above — rows marked 'not archived' have no archived copy yet, and archived fetches did not all return readable text; figures tied to them stay unconfirmed until readable primary text is archived.
+| 5 | §143.591 RSMo (W-2 transmittal) | https://revisor.mo.gov/main/OneSection.aspx?section=143.591 | 2026-10-29 |
+| 6 | §290.502 RSMo (Minimum wage indexing) | https://revisor.mo.gov/main/OneSection.aspx?section=290.502 | 2026-10-29 |
+| 7 | Chapter 288 RSMo, especially §288.034, §288.036, §288.090, §288.121, §288.123, §288.160 (Missouri UI) | https://revisor.mo.gov/main/OneSection.aspx?section=288.036 | 2026-10-29 |
+Not yet confirmed: the citations above — archived fetches did not all return readable text, and citations without an archived copy (e.g. §143.191, §143.221, §143.741, §285.300, §290.080, §290.110, §67.1571, §92.110/§92.115, 12 CSR 10-2.015, Form 4282, KC ch. 68, STL ch. 5.22, Boles v. STL, Pemberton v. KCNA, Ord. 71926, HB 567, Prop A, HB 1409, SB 3, SB 190, HB 2540) were removed from the table rather than listed unarchived; figures tied to them stay unconfirmed until readable primary text is archived.
 
 
 ### End of mo-payroll.md verification note
