@@ -1,6 +1,6 @@
 ---
 name: mo-payroll
-description: Tier 2 Missouri content skill for employer payroll compliance covering tax year 2025. Includes the MO PIT brackets up to 4.95% (phasing down via revenue triggers), MO W-4 state W-4, MO-941 monthly/quarterly withholding, MO-W-3 annual reconciliation, MO UI wage base $9,500 with rates 0-9.75%, the Kansas City and St. Louis 1% local earnings taxes applicable to both residents and non-resident workers, and 20-factor worker classification test.
+description: Tier 2 Missouri content skill for employer payroll compliance covering tax year 2025. Includes the 2025 MO-1040 tax table (top bracket 4.7% over $9,191), MO W-4 state W-4, MO-941 monthly/quarterly withholding, MO-W-3 annual reconciliation, MO UI wage base $9,500 with rates 0-9.75%, the Kansas City and St. Louis 1% local earnings taxes applicable to both residents and non-resident workers, and 20-factor worker classification test.
 jurisdiction: US-MO
 tax_year: 2025
 last_updated: 2026-10-28
@@ -26,7 +26,7 @@ This skill covers employer payroll compliance obligations in the State of Missou
 - **MO W-4** — In scope
 - **MO-941** — In scope
 - **MO-W-3** — In scope
-- **MO UI** — In scope, $9,500 taxable wage base CY2025, experience-rated contribution schedule (0.0% to 9.75%), 2.7% new-employer rate, quarterly Form MODES-4-7  _(Chapter 288 RSMo)_
+- **MO UI** — In scope, taxable wage base set by the §288.036 trust-fund formula (current-year figure not yet confirmed), experience-rated contribution schedule (0.0% to 9.75%), quarterly Form MODES-4-7  _(Chapter 288 RSMo)_
 - **Kansas City Earnings Tax** — 1% earnings tax on residents wherever earned and non-residents for work within KC corporate limits  _(Chapter 68 of the Code of Ordinances of Kansas City, Missouri)_
 - **St. Louis City Earnings Tax** — 1% earnings tax on residents wherever earned and non-residents for work within corporate limits of the City of St. Louis (NOT St. Louis County)  _(Chapter 5.22 of the Revised Code of the City of St. Louis)_
 - **Worker classification** — 20-factor common law test applied by MO DES and DOR, contrasted with federal IRS three-category framework
@@ -62,21 +62,21 @@ Worked examples for three common employer profiles: a Kansas City employer with 
 ### 2.1 2025 brackets
 
 - **MO PIT graduation** — Missouri PIT is graduated from 0% to 4.95% on Missouri taxable income  _(§143.011 RSMo as amended by SB 3 (2022 First Extraordinary Session) and SB 190 (2023))_
-- **Top marginal rate step-down** — Top marginal rate stepped down to 4.95% for tax year 2023 and has been further reduced via revenue triggers  _(§143.011.5 RSMo)_
+- **Top marginal rate step-down** — The 2025 MO-1040 tax table tops out at 4.7% of the excess over $9,191 plus $256; §143.011.5 RSMo authorizes further step-downs via revenue triggers  _(archived 2025 MO-1040 instructions; §143.011.5 RSMo)_
 - **MFJ bracket table note** — Married filing jointly uses the same table; MO does not double the brackets for MFJ — this is a common source of error and is flagged in Section 11
 
 **2025 Missouri Taxable Income bracket table (single filer)**
 
 | Missouri Taxable Income | Marginal Rate |
 | --- | --- |
-| $0 to $1,273 | 0.0% |
-| $1,273 to $2,546 | 2.0% |
-| $2,546 to $3,819 | 2.5% |
-| $3,819 to $5,092 | 3.0% |
-| $5,092 to $6,365 | 3.5% |
-| $6,365 to $7,638 | 4.0% |
-| $7,638 to $8,911 | 4.5% |
-| Over $8,911 | 4.95% |
+| $0 to $1,313 | 0.0% |
+| Over $1,313 but not over $2,626 | 2.0% |
+| Over $2,626 but not over $3,939 | 2.5% |
+| Over $3,939 but not over $5,252 | 3.0% |
+| Over $5,252 but not over $6,565 | 3.5% |
+| Over $6,565 but not over $7,878 | 4.0% (tax = $144 plus 4.0% of the excess over $6,565) |
+| Over $7,878 but not over $9,191 | 4.5% (tax = $197 plus 4.5% of the excess over $7,878) |
+| Over $9,191 | 4.7% (tax = $256 plus 4.7% of the excess over $9,191) |
 
 - **Bracket threshold indexing** — Bracket thresholds annually indexed using the Consumer Price Index for All Urban Consumers (CPI-U)  _(§143.011.4 RSMo)_
 - **Withholding computation method** — Withholding computation does not mirror the bracket table directly — uses the MO Department of Revenue's Withholding Tax Formula published in the Employer's Tax Guide (Form 4282) for the year, which builds in the standard deduction and applies the bracket structure to the annualized projected wage  _(Form 4282, Employer's Tax Guide)_
@@ -84,7 +84,7 @@ Worked examples for three common employer profiles: a Kansas City employer with 
 ### 2.2 The revenue-trigger phase-down
 
 - **Revenue trigger mechanism** — Top marginal rate can be further reduced by 0.10 percentage points in any year in which net general revenue collections exceed the prior peak adjusted for inflation and the budget stabilization fund is fully funded; authorizes step-downs toward an eventual 4.5% top rate  _(§143.011.5 RSMo)_
-- **2025 top rate status** — As of January 1, 2025, the top rate remains 4.95% — no trigger fired for fiscal year 2024 that would have reduced the 2025 rate
+- **2025 top rate status** — The 2025 MO-1040 tax table tops out at 4.7% on income over $9,191  _(archived 2025 MO-1040 instructions)_
 
 The Missouri Department of Revenue typically announces in late summer or early autumn whether a revenue trigger has fired that will reduce the following year's top marginal rate. Reviewers must verify the current-year top rate against the most recently published Form 4282 (Employer's Tax Guide) and the Missouri Department of Revenue's Withholding Tax Formula bulletin, not against the version in payroll software defaults. Software vendors lag behind the trigger announcements by several weeks, and the rate change applies to wages paid on or after January 1 of the following year regardless of when the announcement was made. If the reviewer is signing off on a payroll setup in December for a January 1 wage payment, the December version of Form 4282 is the authoritative source. Where the rate has stepped down from the prior year (e.g., 4.95% to 4.85%) and the employer's payroll system still uses 4.95%, the employer has over-withheld — not technically a compliance failure (the employee will receive the excess on the MO-1040 refund) but a cash-flow and employee-relations issue that reviewers should flag.
 
@@ -92,8 +92,8 @@ The Missouri Department of Revenue typically announces in late summer or early a
 
 - **No separate flat supplemental wage rate** — Missouri does not publish a separate flat supplemental wage withholding rate  _(§143.191 RSMo or 12 CSR 10-2.015)_
 - **Aggregate method** — Add the supplemental wage to the most recent regular wage payment and withhold on the combined total using the regular formula, less the amount withheld on the regular wage  _(Form 4282)_
-- **Flat-rate method for supplemental wages** — 4.95%  _(Form 4282)_
-- **Default supplemental rate guidance** — The reviewer should default to 4.95% as the supplemental rate when no facts indicate otherwise
+- **Flat-rate method for supplemental wages** — a flat supplemental rate is available; the current rate is not yet confirmed (Form 4282 is not archived)
+- **Default supplemental rate guidance** — The reviewer should verify the current supplemental rate on Form 4282 for the year; the figure is not yet confirmed
 - **Aggregate method documentation and requirement** — If the aggregate method is used, document the underlying regular-wage withholding computation in the payroll file. If the supplemental wage is paid in the same pay period as a regular wage, the aggregate method is required
 
 ### 2.4 Standard deduction and personal exemption
@@ -101,7 +101,7 @@ The Missouri Department of Revenue typically announces in late summer or early a
 - **MO conformity to federal standard deduction** — Missouri conforms to the federal standard deduction  _(§143.131 RSMo)_
 - **2025 federal standard deduction - Single or MFS** — $15,000  _(§143.131 RSMo)_
 - **2025 federal standard deduction - MFJ or Qualifying Surviving Spouse** — $30,000  _(§143.131 RSMo)_
-- **2025 federal standard deduction - Head of Household** — $22,500  _(§143.131 RSMo)_
+- **2025 federal standard deduction - Head of Household** — not yet confirmed (§143.131 RSMo ties the Missouri deduction to the federal one)
 - **Personal exemption repealed** — Missouri has no personal exemption (repealed effective tax year 2018)  _(HB 2540 (2018))_
 - **MO W-4 collections** — The MO W-4 collects allowances, additional withholding, exempt status, and Missouri-specific deductions, but no personal exemption
 
@@ -196,17 +196,17 @@ A separate transmittal applies to 1099-MISC and 1099-NEC information returns rep
 
 ### 6.1 Wage base and rates for 2025
 
-- **Taxable wage base 2025** — $9,500 per employee. Wages paid above $9,500 per employee per calendar year are not subject to MO UI contributions.  _(§288.036.2 RSMo)_
-- **Wage base history** — Wage base was $11,500 for 2014–2018, dropped to $11,000 for 2019, and has stepped down to $9,500 through HB 1409 (2018) tying the base to the trust fund balance  _(HB 1409 (2018))_
-- **New employer rate - non-construction** — 2.7%
-- **New employer rate - construction** — 4.13%  _(§288.123 RSMo)_
+- **Taxable wage base** — §288.036 RSMo sets the base by trust-fund formula, floor $7,000, ceiling $13,000; the CY2025 figure is not yet confirmed  _(§288.036.2 RSMo, archived)_
+- **Wage base history** — §288.036 RSMo (archived) sets the base at $11,000 for calendar years 2005–2007 and $12,000 for 2008, then indexed by trust-fund balance within a $7,000–$13,000 band; later-year figures are not yet confirmed  _(§288.036 RSMo, archived)_
+- **New employer rate - non-construction** — not yet confirmed (§288.123 RSMo)
+- **New employer rate - construction** — not yet confirmed  _(§288.123 RSMo)_
 - **Experience-rated employer rates 2025** — 0.0% to 9.75%
 - **Experience rate computation** — The rate is computed from the employer's reserve ratio (cumulative contributions less benefit charges, divided by average annual taxable payroll over the prior three completed calendar years) and looked up on the contribution rate schedule effective for the calendar year. Schedules A through I are statutorily defined; the Division of Employment Security announces the applicable schedule each November for the following calendar year based on the average balance of the Unemployment Compensation Trust Fund.  _(§288.121 RSMo)_
 
 ### 6.2 Contribution and wage report — Form MODES-4-7
 
 - **MODES-4-7 due dates** — Q1 (Jan-Mar 2025): due April 30, 2025; Q2 (Apr-Jun 2025): due July 31, 2025; Q3 (Jul-Sep 2025): due October 31, 2025; Q4 (Oct-Dec 2025): due January 31, 2026
-- **Report contents and computation** — The report lists each employee's quarterly gross wages and quarterly taxable wages (wages up to the $9,500 annual cap). Contributions are computed as taxable wages × the employer's assigned rate.
+- **Report contents and computation** — The report lists each employee's quarterly gross wages and quarterly taxable wages (wages up to the annual taxable wage base cap). Contributions are computed as taxable wages × the employer's assigned rate.
 - **Electronic filing requirement** — EFT and electronic filing are required for employers with 50 or more employees, or with reported wages over a Department-set threshold (verify the current UInteract requirement). Most employers find it operationally easier to file electronically regardless.
 
 ### 6.3 Voluntary contributions
@@ -352,9 +352,9 @@ Same pattern as KC: a non-resident commuting daily to a City of St. Louis workpl
 
 ### 10.3 Paid sick leave — state status as of 2025
 
-- **Proposition A statewide sick leave** — In November 2024, Missouri voters approved Proposition A, which created a statewide paid sick leave entitlement effective May 1, 2025: 1 hour of paid sick leave per 30 hours worked, capped at 40 or 56 hours per year depending on employer size.
+- **Proposition A statewide sick leave** — In November 2024, Missouri voters approved Proposition A, a statewide paid sick leave entitlement effective May 1, 2025 (accrual details not yet confirmed; no archived text).
 - **HB 567 repeal** — HB 567 was enacted and signed by the Governor on July 10, 2025, repealing the Prop A paid sick leave provisions with effect August 28, 2025 (the standard general-statute effective date). After August 28, 2025, Missouri has no statewide paid sick leave mandate.  _(HB 567 (2025))_
-- **Carve-out 1: St. Louis ordinance** — The City of St. Louis Paid Sick Time Ordinance (Ordinance 71926, effective May 1, 2025) remains in force as a municipal enactment under home-rule authority. Employers with employees working within the City of St. Louis must continue to provide paid sick leave under that ordinance.  _(Ordinance 71926)_
+- **Carve-out 1: St. Louis ordinance** — The City of St. Louis Paid Sick Time Ordinance (Ordinance 71926) is asserted to remain in force as a municipal enactment under home-rule authority; the ordinance text is not archived, so this is not yet confirmed.  _(Ordinance 71926)_
 - **Carve-out 2: accrued Prop A leave transition** — Accrued sick leave under Prop A between May 1, 2025 and August 28, 2025 is arguably vested for employees who earned it. Employer policy on retention or cash-out of accrued Prop A leave is a contract/transition issue — reviewers should advise the employer to document a written transition policy.
 - **No paid family leave** — Missouri has no statewide paid family leave.
 
@@ -385,8 +385,8 @@ Multi-state nexus questions are out of scope (referral under "Ask the client fir
 
 Cottonwood Bakery, LLC is a single-member LLC operating a bakery in downtown Kansas City, Missouri (verified within KC corporate limits via the city's address lookup). Cottonwood employs three workers:
 
-- Anya, KC resident, full-time baker (40 hrs/wk), $52,000 annual salary, works entirely on premises.
-- Brendan, Lee's Summit resident, full-time front-of-house manager (40 hrs/wk), $48,000 annual salary, works entirely on premises in KC.
+- Anya, KC resident, full-time baker (40 hrs/wk), $52,000 annual salary (hypothetical), works entirely on premises.
+- Brendan, Lee's Summit resident, full-time front-of-house manager (40 hrs/wk), $48,000 annual salary (hypothetical), works entirely on premises in KC.
 - Carla, Independence resident, part-time delivery driver (20 hrs/wk), $26,000 annual wages, works partly in KC (8 hrs/wk in-store) and partly outside KC (12 hrs/wk delivering across the metro, of which 4 hrs/wk are in KC corporate limits and 8 hrs/wk are in adjacent cities).
 
 Cottonwood's average monthly MO withholding is approximately $480 — placing it in the quarterly MO-941 filing frequency ($100–$499 monthly average).
@@ -395,7 +395,7 @@ Cottonwood's average monthly MO withholding is approximately $480 — placing it
 
 *MO PIT withholding*: Cottonwood withholds MO PIT on all three employees using the MO W-4 each provides and the MO Withholding Tax Formula (Form 4282). Files MO-941 quarterly (Q1 due April 30, etc.); reconciles via MO-W-3 by January 31, 2026.
 
-*MO UI*: Cottonwood is subject to MO UI for all three employees. The taxable wage base is $9,500 per employee per year. Cottonwood's contribution = $9,500 × 3 × experience-rated rate (assume 2.0% for an established three-year employer with low turnover) = $570 per year total UI contribution. Files MODES-4-7 quarterly.
+*MO UI*: Cottonwood is subject to MO UI for all three employees. The taxable wage base is set by §288.036 (the current-year figure is not yet confirmed). Using a hypothetical base of $9,500 and a hypothetical 2.0% experience rate, contribution = $9,500 × 3 × 2.0% = $570 per year (hypothetical). Files MODES-4-7 quarterly.
 
 *KC E-Tax — Anya (KC resident)*: 1% withheld on full $52,000 wage = $520 per year withheld and remitted to KC Revenue Division. Anya files RD-109 if she has KC-source income that wasn't withheld, but with full employer withholding she has no balance due.
 
@@ -409,15 +409,15 @@ Cottonwood's average monthly MO withholding is approximately $480 — placing it
 
 *Final pay*: If Carla resigns, her final pay is due by the next regular payday. If Cottonwood discharges Brendan, Brendan may demand his final pay on the day of discharge by written request.
 
-*New hire reporting*: If Cottonwood hires a fourth employee on January 5, 2025, the new hire must be reported to MO DSS Family Support Division by January 25, 2025 (within 20 days).
+*New hire reporting*: New hires must be reported to MO DSS Family Support Division; the reporting deadline is not yet confirmed (no archived source).
 
 **Reviewer brief — Cottonwood Bakery**
 
 | Item | Amount |
 | --- | --- |
-| Total annual MO PIT withholding (approx.) | $5,760 |
+| Total annual MO PIT withholding (approx.) | hypothetical, computed from the hypothetical wages above |
 | Total annual MO UI contribution | $570 |
-| Total annual KC E-Tax withheld | $1,156 |
+| Total annual KC E-Tax withheld | 1% of KC-source hypothetical wages (per the archived STL 1% rate; KC rate not archived) |
 | MO-941 filing frequency | Quarterly |
 | MODES-4-7 filing frequency | Quarterly |
 | KC E-Tax filing | Quarterly RD-110, annual RD-113 |
@@ -428,16 +428,16 @@ Cottonwood's average monthly MO withholding is approximately $480 — placing it
 
 Riverfront Engineering, P.C. is a professional engineering corporation located at 1010 Market Street, City of St. Louis, MO (verified via stlouis-mo.gov city limits lookup). Employs:
 
-- David, City of St. Louis resident, senior engineer, $115,000 salary, hybrid: 3 days/week at the Market Street office, 2 days/week at his home in the city.
-- Erin, Webster Groves (St. Louis County) resident, junior engineer, $72,000 salary, fully on-site 5 days/week at Market Street.
-- Frank, City of St. Louis resident, civil drafter, $58,000 salary, fully remote at his home in the city.
-- Grace, Clayton resident, project manager, $95,000 salary, fully remote at her home in Clayton (after Boles v. City of St. Louis (Mo. Ct. App. 2023), Grace's wages are NOT St. Louis-source despite the employer's downtown HQ).
+- David, City of St. Louis resident, senior engineer, $115,000 salary (hypothetical), hybrid: 3 days/week at the Market Street office, 2 days/week at his home in the city.
+- Erin, Webster Groves (St. Louis County) resident, junior engineer, $72,000 salary (hypothetical), fully on-site 5 days/week at Market Street.
+- Frank, City of St. Louis resident, civil drafter, $58,000 salary (hypothetical), fully remote at his home in the city.
+- Grace, Clayton resident, project manager, $95,000 salary (hypothetical), fully remote at her home in Clayton (Boles v. City of St. Louis (Mo. Ct. App. 2023) is asserted to make her wages NOT St. Louis-source despite the employer's downtown HQ; the case is not archived, so this is not yet confirmed).
 
 Riverfront's average monthly MO withholding is approximately $1,250 — placing it in the monthly MO-941 filing frequency ($500–$8,999 monthly average).
 
 *MO PIT*: Withhold on all four employees per MO W-4 and Form 4282. File MO-941 monthly (each by the 15th of the following month). MO-W-3 reconciliation due January 31, 2026.
 
-*MO UI*: All four employees subject to MO UI. Annual contribution = $9,500 × 4 × experience-rated rate (assume 1.5% for a low-turnover engineering firm) = $570 per year total.
+*MO UI*: All four employees subject to MO UI. Using a hypothetical base of $9,500 and a hypothetical 1.5% experience rate, annual contribution = $9,500 × 4 × 1.5% = $570 per year (hypothetical).
 
 *St. Louis E-Tax — David (city resident, hybrid)*: City residents owe E-Tax on ALL earnings regardless of work location. Withhold 1% on full $115,000 = $1,150 per year.
 
@@ -455,9 +455,9 @@ Riverfront's average monthly MO withholding is approximately $1,250 — placing 
 
 | Item | Amount |
 | --- | --- |
-| Total annual MO PIT withholding (approx.) | $14,850 |
+| Total annual MO PIT withholding (approx.) | hypothetical, computed from the hypothetical wages above |
 | Total annual MO UI contribution | $570 |
-| Total annual St. Louis E-Tax withheld | $2,450 |
+| Total annual St. Louis E-Tax withheld | 1% of STL-source hypothetical wages (rate per archived STL earnings-tax pages) |
 | MO-941 filing frequency | Monthly |
 | MODES-4-7 filing frequency | Quarterly |
 | St. Louis E-Tax filing | Quarterly W-10, annual W-11 by January 31 |
@@ -468,14 +468,14 @@ Riverfront's average monthly MO withholding is approximately $1,250 — placing 
 
 Heartland Auto Repair, LLC is a sole-member LLC operating a single auto repair shop in Columbia, Missouri (Boone County, no local earnings tax). Employs two workers:
 
-- Hannah, Columbia resident, master mechanic, $54,000 salary, fully on-site.
-- Ian, Columbia resident, service writer, $42,000 salary, fully on-site.
+- Hannah, Columbia resident, master mechanic, $54,000 salary (hypothetical), fully on-site.
+- Ian, Columbia resident, service writer, $42,000 salary (hypothetical), fully on-site.
 
 Heartland's average monthly MO withholding is approximately $370 — placing it in the quarterly MO-941 filing frequency ($100–$499).
 
 *MO PIT*: Withhold on both employees using MO W-4. File MO-941 quarterly. MO-W-3 due January 31, 2026.
 
-*MO UI*: Both employees subject. Contribution = $9,500 × 2 × experience-rated rate (assume 2.7% as a relatively new employer or one with some claims history) = $513 per year. File MODES-4-7 quarterly.
+*MO UI*: Both employees subject. Using a hypothetical base of $9,500 and a hypothetical 2.7% experience rate, contribution = $9,500 × 2 × 2.7% = $513 per year (hypothetical). File MODES-4-7 quarterly.
 
 *KC E-Tax, St. Louis E-Tax*: None — Columbia is not within KC or St. Louis city limits.
 
@@ -489,7 +489,7 @@ Heartland's average monthly MO withholding is approximately $370 — placing it 
 
 | Item | Amount |
 | --- | --- |
-| Total annual MO PIT withholding (approx.) | $4,440 |
+| Total annual MO PIT withholding (approx.) | hypothetical, computed from the hypothetical wages above |
 | Total annual MO UI contribution | $513 |
 | MO-941 filing frequency | Quarterly |
 | MODES-4-7 filing frequency | Quarterly |

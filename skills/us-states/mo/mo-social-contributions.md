@@ -4,9 +4,10 @@ description: >
   Use this skill whenever asked about Missouri employer social contributions
   for tax year 2026 — Missouri has no state-level employee social insurance
   (no state FICA); the state-layer contribution is employer-only
-  unemployment insurance under Chapter 288 RSMo: $9,500 taxable wage base
-  (CY2025), experience rates 0–9.75%, new-employer 2.7% (construction
-  4.13%), quarterly Form MODES-4-7, reserve-ratio rate mechanics under
+  unemployment insurance under Chapter 288 RSMo: taxable wage base set by
+  §288.036 formula (current-year figure not yet confirmed), experience rates
+  0–9.75%, new-employer and construction rates not yet confirmed, quarterly
+  Form MODES-4-7, reserve-ratio rate mechanics under
   schedules A–I. Trigger on "Missouri unemployment insurance", "MO UI wage
   base", "MODES-4-7", "Missouri employer contributions", "Missouri state
   FICA", "288 RSMo".
@@ -43,11 +44,11 @@ An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| Taxable wage base | **$9,500** per employee per calendar year (CY2025) — wages above the base are not subject to MO UI | §288.036.2 RSMo via `mo-payroll` (verified vs DES 2025 notice); **CY2026 base not yet confirmed** |
+| Taxable wage base | set by the §288.036 trust-fund formula (floor $7,000, ceiling $13,000); the current-year figure is not yet confirmed | §288.036 RSMo, archived |
 | Contribution rate range | **0.0% – 9.75%** experience-rated | §288.121 RSMo via `mo-payroll` |
-| New-employer rate | **2.7%** non-construction; **4.13%** construction | §288.123 RSMo via `mo-payroll` |
+| New-employer rate | not yet confirmed (non-construction and construction) | §288.123 RSMo via `mo-payroll` |
 | Rate mechanics | reserve ratio = cumulative contributions − benefit charges ÷ average annual taxable payroll over the prior three completed calendar years; schedules A–I chosen each November by DES based on trust-fund balance | §288.121 RSMo via `mo-payroll` |
-| Wage-base history | $11,500 (2014–2018) → $11,000 (2019) → stepped down to $9,500 under HB 1409 (2018), tied to trust-fund balance | HB 1409 via `mo-payroll` |
+| Wage-base history | §288.036 RSMo (archived): $11,000 for CY2005–2007, $12,000 for CY2008, then trust-fund-indexed within $7,000–$13,000; later-year figures not yet confirmed | §288.036 RSMo, archived |
 | Employee-side contribution | **none** — MO UI is employer-funded | `mo-payroll` |
 
 ## The taxable base

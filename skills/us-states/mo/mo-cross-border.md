@@ -49,7 +49,7 @@ How Missouri taxes people who cross its borders: individual part-year (Form **MO
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| State PIT top rate | 4.95% (2025; phasing down via revenue triggers) | `mo-income-tax` skill |
+| State PIT top rate | Top bracket 4.7% on Missouri taxable income over $9,191 (2025 MO-1040 tax table); further step-downs possible via revenue triggers | `mo-income-tax` skill; archived 2025 MO-1040 instructions |
 | Nonresident base | Missouri-source income allocated via MO-NRI worksheets (allocation mechanics **not yet confirmed** — PNR instructions 403) | `mo-income-tax` form table |
 | MO-CR credit | Non-refundable credit for taxes paid to other states; needs the other state's return | `mo-income-tax` MO-T2-04 |
 | KC earnings tax | **1.0%** — residents on all earnings, nonresidents on KC-worked earnings; separate city return | KC ch. 68; §92.110 RSMo via `mo-payroll` |

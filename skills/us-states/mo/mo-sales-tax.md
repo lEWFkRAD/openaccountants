@@ -22,7 +22,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | Missouri |
 | State rate | 4.225% |
 | Local rate range | 0% -- ~6.5% (county + city + special district) |
-| Maximum combined rate | ~10.85% |
+| Maximum combined rate | Not yet confirmed |
 | Sourcing | Origin-based (intrastate); destination for remote sellers |
 | Economic nexus | $100,000 in taxable sales (last state to enact -- Jan 1, 2023) |
 | Tax authority | Missouri Department of Revenue (MODOR) |
@@ -40,7 +40,7 @@ Rate figures are in the quick-reference table under "Who this applies to" above;
 | --- | --- | --- |
 | General TPP | TAXABLE 4.225% + local |  |
 | Clothing | TAXABLE | No exemption |
-| Grocery food | TAXABLE at reduced 1.225% state | Plus local |
+| Grocery food | TAXABLE at a reduced state rate (not yet confirmed) | Plus local |
 | Prepared food | TAXABLE at full rate |  |
 | SaaS | NOT TAXABLE | Missouri does not tax SaaS |
 | Canned software (download) | TAXABLE |  |
@@ -59,7 +59,7 @@ No Missouri-specific cross-border sales-tax points are confirmed in this skill y
 No worked examples — this skill states figures only and never computes.
 ## Ask the client first
 
-- **Grocery food exemption prohibition** — NEVER say grocery food is exempt -- Missouri taxes it at reduced 1.225% state rate plus full local.  _(Section 10 -- Prohibitions)_
+- **Grocery food exemption prohibition** — NEVER say grocery food is exempt -- Missouri taxes it at a reduced state rate plus full local.  _(Section 10 -- Prohibitions)_
 - **SaaS taxability prohibition** — NEVER treat SaaS as taxable in Missouri.  _(Section 10 -- Prohibitions)_
 - **Economic nexus history prohibition** — NEVER forget Missouri was the last state to enact economic nexus (2023).  _(Section 10 -- Prohibitions)_
 - **No computation prohibition** — NEVER compute any number.  _(Section 10 -- Prohibitions)_
