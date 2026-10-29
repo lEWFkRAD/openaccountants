@@ -90,7 +90,7 @@ TPT liability is a privilege tax on the seller for conducting business in Arizon
 | Pattern | Status | Notes |
 | --- | --- | --- |
 | General tangible personal property | TAXABLE | retail classification (§42-5061) |
-| Grocery food | EXEMPT | §42-5061 exempts "Food, as provided in and subject to the conditions of article 3 of this chapter and sections 42-5074 and 42-6017" |
+| Grocery food | EXEMPT | §42-5061 exempts "Food, as provided in and subject to the conditions of …" — the food article of this chapter, together with §§42-5074 and 42-6017 (read 2026-10-28) |
 | Prescription drugs and medical oxygen | EXEMPT | §42-5061(8): "Drugs and medical oxygen, including delivery hose, mask or tent, regulator and tank, if prescribed by a member of the medical, dental or veterinarian profession who is licensed by law to administer such substances" |
 | Insulin, insulin syringes and glucose test strips | EXEMPT | §42-5061 exemption list, read 2026-10-28 |
 | Prescription eyeglasses or contact lenses | EXEMPT | §42-5061 exemption list, read 2026-10-28 |
