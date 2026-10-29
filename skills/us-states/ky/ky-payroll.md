@@ -111,15 +111,9 @@ name: KY K-1 frequency for 1200 lookback
 inputs:
   lookback: 1200
 steps:
-  - annual: lookback < 400
-  - quarterly: lookback >= 400 and lookback < 2000
-  - monthly: lookback >= 2000 and lookback < 50000
-  - semi: lookback >= 50000
+  - band: 1 if lookback < 400 else (2 if lookback < 2000 else (3 if lookback < 50000 else 4))
 expected:
-  annual: false
-  quarterly: true
-  monthly: false
-  semi: false
+  band: 2
 ```
 
 ### Example 4: UI contribution on new-employer rate (hypothetical facts)

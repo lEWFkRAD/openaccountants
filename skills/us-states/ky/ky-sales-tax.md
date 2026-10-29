@@ -102,10 +102,10 @@ inputs:
   threshold: 100000
 steps:
   - over: ky_receipts - threshold
-  - nexus: max(over, 0) > 0
+  - excess: max(over, 0)
 expected:
   over: 20000.00
-  nexus: true
+  excess: 20000.00
 ```
 
 ## Ask the client first
