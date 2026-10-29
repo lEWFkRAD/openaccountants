@@ -393,7 +393,11 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+| Source | URL | Read on |
+| --- | --- | --- |
+| Ohio Dept of Taxation — main site | https://tax.ohio.gov/ | 2026-10-28 |
+
+Not yet confirmed: figures in this skill lack archived line-citations.
 
 ## Talk to a verified accountant
 
