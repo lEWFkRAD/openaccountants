@@ -12,7 +12,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MN Payroll
 
-## 1. Scope
+## Who this applies to
+
 
 This skill covers Minnesota state-level payroll tax and labor-law compliance for employers with one or more workers performing services in Minnesota during tax year 2025, with forward-looking guidance for the 2026 transition to the Minnesota Paid Leave program. It is designed to be loaded alongside `us-federal-payroll` (FICA, FUTA, federal withholding, Form 941, Form 940, W-2/W-3 federal copy) and any sibling state skills where the employer operates in more than one jurisdiction.
 
@@ -41,7 +42,8 @@ Out of scope (handled by other skills or expressly excluded):
 
 Reviewer assumption: every output of this skill is reviewed and signed off by a credentialed Minnesota payroll professional (CPA, EA, CPP, or licensed Minnesota attorney) before any filing is submitted or any notice is delivered to an employee. The skill produces draft work product, not final filings.
 
-## 2. Minnesota Personal Income Tax — Withholding Brackets and Supplemental Rate (2025)
+## Rates, bands and thresholds
+
 
 ### 2.1 Brackets
 
@@ -81,7 +83,12 @@ Practical note for software developers and other professional freelancers transi
 
 - **M1/M1W reconciliation** — Although the employer is not the M1 filer, the employee's year-end Form M1 (Minnesota Individual Income Tax Return) reconciles to the W-2 box 17 amount via Schedule M1W. If the employer's W-2 reporting and the DOR's withholding records diverge, the employee's M1 will be rejected or held for review. Year-end W-2/W-3 reconciliation discipline (see §3.4) matters not only for the employer but for every employee's individual return.
 
-## 3. Minnesota Withholding — Deposit and Return Mechanics
+## The taxable base
+
+The withholding base is Minnesota wages (Sections 3–4 below); the UI taxable wage base is $43,000 per employee (Section 5); the Paid Leave premium base follows the Social Security wage base (Section 7).
+
+## Deadlines and filing
+
 
 ### 3.1 Registration
 
@@ -112,7 +119,16 @@ Practical note for software developers and other professional freelancers transi
 
 > **AUDIT FLASH POINT — withholding reconciliation drift.** The single most common Minnesota withholding audit finding is a mismatch between (a) the sum of Minnesota withholding reported on the four quarterly MWR returns, (b) the total Minnesota withholding reported on the year-end W-3M reconciliation, and (c) the total Minnesota withholding reported in box 17 across all W-2s. These three numbers must tie to the penny. Pre-filing, the reviewer should run a three-way reconciliation worksheet and clear any variance before submitting the W-3M. A variance of even $1 will generate an automated DOR notice and a credit-hold on the account.
 
+## Penalties and interest
+
+Late withholding deposits, UI contributions, and returns attract the chapter 290/268 penalty and interest regimes (the §289A.21 schedule is not yet confirmed).
+
+## Cross-border points
+
+Nonresident employees working in Minnesota are subject to Minnesota withholding (see `mn-cross-border-tax`); multi-state employers coordinate W-4MN with federal W-4 and reciprocal-state rules.
+
 ## 4. Form W-4MN — Minnesota Employee Withholding Allowance/Exemption Certificate
+
 
 ### 4.1 Why W-4MN exists separately from federal W-4
 
@@ -133,6 +149,7 @@ Practical note for software developers and other professional freelancers transi
 - **Exemption claim expiration** — W-4MN exemption claims (Line 7) expire on February 15 of the following year. An exempt employee who does not provide a fresh W-4MN by February 15 must be withheld at Single / zero allowances beginning with the first pay period after February 15. This mirrors the federal exempt-W-4 expiration rule and is one of the most commonly missed payroll calendar items.
 
 ## 5. Minnesota Unemployment Insurance (UI)
+
 
 ### 5.1 Coverage and registration
 
@@ -178,6 +195,7 @@ These ranges are wider than most states. A new construction-industry employer in
 
 ## 6. Earned Sick and Safe Time (ESST) — Statewide, effective January 1, 2024
 
+
 ### 6.1 Statutory framework
 
 - **ESST statutory basis** — Minnesota Statutes §181.9445 through §181.9448 establish a statewide Earned Sick and Safe Time mandate, enacted by 2023 Laws Ch. 53, Article 12, and refined by clarifying amendments in 2024 Laws Ch. 110. Effective January 1, 2024, virtually every private-sector employer in Minnesota with one or more employees performing work in the state must provide accrued paid sick and safe time. There is no small-employer carve-out at the state level (Minneapolis and Saint Paul had pre-existing ordinances; the state law now provides a floor that covers the rest of the state and supplements the local ordinances).  _(Minnesota Statutes §181.9445–§181.9448; 2023 Laws Ch. 53, Article 12; 2024 Laws Ch. 110)_
@@ -222,6 +240,7 @@ This is one of the most operationally disruptive Minnesota employment law change
 - **State vs local ordinance interaction** — The Minneapolis and Saint Paul ESST ordinances pre-date the state law. Where the state law is more generous to the employee (e.g., uses, family-member definition), the state law applies; where the local ordinance is more generous (e.g., faster accrual, more covered uses), the local ordinance applies. Employers in those two cities must comply with the stricter element-by-element, which in practice means tracking under the local ordinance and adding the state-law elements on top. The local-ordinance addendum covers this.
 
 ## 7. Minnesota Paid Leave (Chapter 268B) — Effective January 1, 2026 (DEEP DIVE)
+
 
 ### 7.1 What it is
 
@@ -286,6 +305,7 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 ## 8. Wage Theft Prevention Act (WTPA)
 
+
 ### 8.1 Statutory framework
 
 - **WTPA statutory basis and felony threshold** — Minnesota's Wage Theft Prevention Act, enacted by 2019 Laws Ch. 50 and codified primarily at Minnesota Statutes §181.032 (earnings statements), §181.101 (final wages), §181.13 (separation), and §609.52 (criminal wage theft), is one of the strictest wage-theft laws in the United States. It elevates willful failure to pay wages to a felony-level criminal offense when the unpaid amount exceeds $1,000 (the threshold tracks the theft statute).  _(2019 Laws Ch. 50; §181.032; §181.101; §181.13; §609.52)_
@@ -316,6 +336,7 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 ## 9. Worker Classification — Employee vs. Independent Contractor
 
+
 ### 9.1 The two regimes
 
 - **General nine-factor test description** — General nine-factor test — applicable to most industries; used by DEED for UI coverage and by the DOR for state withholding. This test draws from the federal common-law 'right to control' test and the IRS 20-factor framework, distilled by DEED into nine practical factors.
@@ -337,6 +358,7 @@ For most small and mid-sized employers, the state program is operationally simpl
 > **AUDIT FLASH POINT — construction-industry classification.** Construction is the single highest-audit-risk industry for worker classification in Minnesota. DEED runs targeted construction-industry audits with multiple state agencies (DLI, DOR, Department of Commerce) jointly. The economic incentive to misclassify is large (a 9.0% construction UI rate × $43,000 wage base = $3,870 per worker per year in UI alone, plus workers' comp avoidance, plus the Paid Leave premium starting 2026). The penalty exposure is correspondingly large. Any construction-industry engagement of an individual or a sole-proprietor LLC should be assumed misclassified by default until the ICEC and §10 analysis is completed and documented. See §10.
 
 ## 10. Construction Industry — Special Compliance Regime
+
 
 ### 10.1 Overview
 
@@ -367,13 +389,20 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 > AUDIT FLASH POINT — construction multi-agency enforcement. A construction-industry employer in Minnesota faces parallel enforcement risk from DEED (UI), DOR (withholding), DLI (§181.723, prevailing wage, workers' comp), and the Attorney General (criminal wage theft). These agencies share information. A single misclassified worker can trigger findings across all four agencies. The compliance posture for any construction engagement of a non-W-2 worker should be: (1) §181.723 multi-element test documented in writing, (2) DLI registration verified and copy on file, (3) written contract per §181.723(c), (4) invoices in file, (5) the worker's separate-business indicia (EIN, business insurance, business address) verified. Anything less is a misclassification risk.
 
-## 11. Worked Examples
+## Ask the client first
+
+- Headcount and average wages (small-employer relief under Paid Leave and UI experience rating).
+- Whether any worker in construction may be a misclassified contractor (DLI registration).
+- Whether employees work near the state line (nonresident withholding).
+
+## Worked examples
+
 
 ### Example 1 — Small non-construction employer (5 employees, 2025 full year)
 
 Facts: ACME Software Studio LLC, a Minneapolis-based small software development shop, has 5 W-2 employees throughout 2025. Annual salaries: $120,000, $95,000, $85,000, $70,000, $55,000. The owner (also a W-2 employee at $120,000) is exempt. Two engineers receive year-end bonuses of $10,000 each in December 2025. ACME has been registered with DEED and DOR since 2020 and is on a 1.4% UI experience rate. The DOR has classified ACME as a monthly withholding depositor.
 
-MN PIT withholding (regular payroll, illustrative for the $95,000 employee, single, 2 W-4MN allowances): - Annualized wages: $95,000. - Subtract 2 × Minnesota per-allowance value (~$5,050 in 2025 per DOR booklet): –$10,100. - Taxable wage base for MN: $84,900. - Apply 2025 single brackets (5.35% / 6.80% / 7.85% / 9.85%) — the bulk of $84,900 falls in the 6.80% bracket with a portion at 7.85%. - Approximate annual Minnesota tax: ~$5,200. - Per pay period (biweekly, 26 periods): ~$200 per check.
+MN PIT withholding (regular payroll, hypothetical for the $95,000 employee, single, 2 W-4MN allowances): - Annualized wages: $95,000. - Subtract 2 × Minnesota per-allowance value (~$5,050 in 2025 per DOR booklet): –$10,100. - Taxable wage base for MN: $84,900. - Apply 2025 single brackets (5.35% / 6.80% / 7.85% / 9.85%) — the bulk of $84,900 falls in the 6.80% bracket with a portion at 7.85%. - Approximate annual Minnesota tax: ~$5,200. - Per pay period (biweekly, 26 periods): ~$200 per check.
 
 Supplemental withholding on December bonuses: - Each engineer: $10,000 × 6.25% = $625 Minnesota withholding on the supplemental payment, paid separately from the regular December check.
 
@@ -405,44 +434,61 @@ Facts: GoodSoft Inc., a 35-employee Minneapolis software product company with $4
 
 ESST gap analysis (effective retroactively to 2024): - Unlimited PTO does not satisfy §181.9447 without explicit ESST tracking. Pay-stub disclosure of accrued/used ESST is required; GoodSoft has not been doing this. - The fix: configure Gusto to track ESST as a separate bucket beginning the next pay period, with front-loaded 48 hours per employee per year going forward. Issue an updated WTPA notice and an ESST policy in the handbook. - 2024–2025 retroactive exposure: difficult to quantify but likely limited because no employees appear to have been denied leave; the violation is recordkeeping, not denial. DLI penalty exposure for pure recordkeeping violations is typically remediable with a documented corrective action plan.
 
-2026 Paid Leave premium budget: - Taxable wages capped at SSN base (~$176k 2025; 2026 base TBD). With most of the 35 employees earning above the SSN cap is unlikely; assume average $114k × 35 = $3,990,000 total premium base (all wages well under the SSN cap). - Employer share: $3,990,000 × 0.44% = $17,556 in 2026 employer Paid Leave premium. - Employee share: $17,556 (if employer withholds; otherwise add to employer cost if employer absorbs). - Quarterly remittance through DEED portal, starting April 30, 2026 (Q1 2026).
+2026 Paid Leave premium budget: - Taxable wages capped at SSN base (~$176k 2025; 2026 base not yet confirmed). With most of the 35 employees earning above the SSN cap is unlikely; assume average $114k × 35 = $3,990,000 total premium base (all wages well under the SSN cap). - Employer share: $3,990,000 × 0.44% = $17,556 in 2026 employer Paid Leave premium. - Employee share: $17,556 (if employer withholds; otherwise add to employer cost if employer absorbs). - Quarterly remittance through DEED portal, starting April 30, 2026 (Q1 2026).
 
 2025 Q4 readiness checklist: - October 2025: configure Gusto for Paid Leave deduction code; confirm Gusto's 2026 release supports MN Paid Leave. - November 2025: draft employee notice (DEED model); update handbook; identify designated leave administrator (HR director). - December 1, 2025: distribute employee notice in writing and electronically. - December 31, 2025: post DEED workplace notice; confirm payroll system tax-table update has loaded for Jan 1. - January 1, 2026: deductions begin on the first pay date of the year; leave claims may be filed by employees beginning that day.
 
 Multi-state: GoodSoft has 3 remote employees outside Minnesota (1 in WI, 1 in ND, 1 in TX). Apply the §268B localization test for each; in this fact pattern, the WI and TX employees are not Minnesota employees for Paid Leave, the ND employee may be (depending on whether services are localized in MN vs. ND — likely not). Document the determination in the payroll file.
 
-## 12. Practitioner Quick Reference
-
-**Practitioner Quick Reference table**  _(Section 12. Practitioner Quick Reference)_
-
-| Item | 2025 | 2026 transition |
-| --- | --- | --- |
-| MN PIT brackets | 5.35% / 6.80% / 7.85% / 9.85% | Indexed; rates unchanged |
-| MN supplemental rate | 6.25% | Unchanged barring legislation |
-| MN UI wage base | $43,000 | Indexed annually (~$44,000 expected) |
-| UI experience rate range | 0.10% – 9.0% | Indexed |
-| UI new-employer (non-construction) | ~1.0% | Indexed |
-| UI new-employer (construction) | ~9.0% | Indexed |
-| Withholding deposit thresholds | Monthly >$1,500/yr prior; else quarterly | Unchanged |
-| W-2/W-3M filing deadline | January 31 | Unchanged |
-| ESST accrual | 1 hr per 30 hrs worked | Unchanged |
-| ESST annual cap | 48 hrs/year, 80 hrs balance | Unchanged |
-| MN Paid Leave premium | Not yet collected | **0.88% combined, 0.44% / 0.44% split, effective Jan 1, 2026** |
-| MN Paid Leave wage base | n/a | ~SSN base (~$176k+) |
-| WTPA notice | Required at hire and on material change | Unchanged |
-| Final wages — discharged | Within 24 hrs of demand; else next payday (≤20 days) | Unchanged |
-| Final wages — voluntary quit | Next regular payday (≤20 days) | Unchanged |
-| Construction classification | §181.723 multi-element + DLI registration | Unchanged |
-
 ## 13. Self-Checks (run before delivering output)
+
 
 1. Did the engagement involve construction work? If yes, did the analysis run through §10 in addition to §9? 2. Was a W-4MN obtained for every Minnesota employee, including any employee who completed only a post-2020 federal W-4? 3. Does the year-end W-3M total tie to the sum of the four MWR returns AND to the sum of W-2 box 17? 4. Did UI wage detail correctly include all employees with hours worked, with no nil-quarter return missed? 5. Is the employer tracking ESST as a separate bucket, with accrual and balance on every pay stub? 6. Has the 2026 Paid Leave readiness checklist been worked through item-by-item, with December 1, 2025 employee notice and January 1, 2026 system-readiness milestones flagged? 7. Has the WTPA notice been issued at hire and refreshed on every material change for the period under review? 8. For any 1099 contractor, has the §9 nine-factor (general) or §10 multi-element (construction) test been documented in writing? 9. Were final wages for any separated employees paid by the next regular payday following separation, with shorter timing applied where a discharged employee demanded earlier payment? 10. Has the reviewer (credentialed Minnesota payroll professional) signed off in writing before any filing is submitted?
 
-## 14. Citations
+## Sources
+
+| Source | Read on |
+| --- | --- |
+| Minn. Stat. §291.04 (withholding): <https://www.revisor.mn.gov/statutes/cite/291.04> — statute text archived | 2026-10-28 |
+| Minn. Stat. §297A.02 (sales/use tax context): <https://www.revisor.mn.gov/statutes/cite/297A.02> — statute text archived | 2026-10-28 |
+| Minn. Stat. §268B.14 (Paid Leave premiums): <https://www.revisor.mn.gov/statutes/cite/268B.14> — statute text archived | 2026-10-25 |
+| Minn. Stat. Chapter 290, Chapter 268, Chapter 268B, §181.032, §181.101, §181.13, §181.14, §181.722, §181.723, §181.9445–§181.9448, §326B, §177.41 et seq. — cited in the skill; not yet archived | 2026-10-28 |
+| Minnesota DOR Withholding Instruction Booklet and Tax Tables (2025); DEED UI Employer Handbook (2025); DEED and DLI publications — cited in the skill; not yet archived | 2026-10-28 |
+
+Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 per-allowance value, the $43,000 UI wage base and experience-rate ranges, the 0.44%/0.44% Paid Leave premium split dollar figures, and the 2026 Paid Leave wage base — the DOR/DEED booklets and most statute sections are not yet archived.
+
+### Statutory and agency citations
+
+
 
 - Minnesota Statutes Chapter 290 (income tax). - Minnesota Statutes Chapter 268 (unemployment insurance). - Minnesota Statutes Chapter 268B (paid leave), as enacted by 2023 Laws Ch. 59 and amended by 2024 Laws Ch. 127. - Minnesota Statutes §181.032 (earnings statements; WTPA). - Minnesota Statutes §181.101 (final wages; WTPA). - Minnesota Statutes §181.13, §181.14 (separation pay timing). - Minnesota Statutes §181.722, §181.723 (worker misclassification; construction industry). - Minnesota Statutes §181.9445 – §181.9448 (Earned Sick and Safe Time). - Minnesota Statutes §326B (construction-industry licensing and DLI authority). - Minnesota Statutes §177.41 et seq. (Minnesota Prevailing Wage Act). - Minnesota DOR, Minnesota Income Tax Withholding Instruction Booklet and Tax Tables (annual; 2025 edition). - Minnesota DEED, UI Employer Handbook (2025). - Minnesota DEED, Family and Medical Benefits Insurance Division publications (2024–2025 readiness materials). - Minnesota DLI, ESST employer guidance (2024, updated 2025). - Minnesota DLI, construction-industry independent-contractor registration portal.
 
+
+#### Practitioner quick reference (repeat)
+
+
+**Practitioner Quick Reference table**  _(Section 12. Practitioner Quick Reference)_
+
+- MN PIT brackets — 5.35% / 6.80% / 7.85% / 9.85% (indexed; rates unchanged)
+- MN supplemental rate — 6.25% (unchanged barring legislation)
+- MN UI wage base — $43,000 (indexed annually, ~$44,000 expected)
+- UI experience rate range — 0.10% – 9.0% (indexed)
+- UI new-employer — ~1.0% non-construction, ~9.0% construction (indexed)
+- Withholding deposit thresholds — monthly if >$1,500/yr prior; else quarterly (unchanged)
+- W-2/W-3M filing deadline — January 31 (unchanged)
+- ESST accrual — 1 hr per 30 hrs worked; cap 48 hrs/year, 80 hrs balance (unchanged)
+- MN Paid Leave premium — 0.88% combined, 0.44% / 0.44% split, effective Jan 1, 2026
+- MN Paid Leave wage base — ~SSN base (~$176k+)
+- WTPA notice — required at hire and on material change (unchanged)
+- Final wages — discharged: within 24 hrs of demand, else next payday (≤20 days); voluntary quit: next regular payday (≤20 days) (unchanged)
+- Construction classification — §181.723 multi-element + DLI registration (unchanged)
+
+<!-- openaccountants-cta-block -->
+
+---
+
 ## 12. Practitioner Quick Reference
+
 
 - **MN PIT brackets** — 5.35% / 6.80% / 7.85% / 9.85%  _(Indexed; rates unchanged)_
 - **MN supplemental rate** — 6.25%  _(Unchanged barring legislation)_
@@ -461,11 +507,8 @@ Multi-state: GoodSoft has 3 remote employees outside Minnesota (1 in WI, 1 in ND
 - **Final wages — voluntary quit** — Next regular payday (≤20 days)  _(Unchanged)_
 - **Construction classification** — §181.723 multi-element + DLI registration  _(Unchanged)_
 
-<!-- openaccountants-cta-block -->
-
----
-
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current

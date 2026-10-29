@@ -15,11 +15,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Minnesota Individual Income Tax Skill — Self-Employed / Sole Proprietor
 
+
 > **Scope.** This skill covers Minnesota Form M1 for full-year Minnesota residents who are sole proprietors or single-member LLC owners. Minnesota imposes a four-bracket graduated income tax with rates of 5.35%, 6.80%, 7.85%, and 9.85%.
 >
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Minnesota Department of Revenue publications. A qualified professional must review before filing.
 
 ## Section 1: Metadata
+
 
 **Section 1: Metadata**
 
@@ -35,18 +37,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Last updated | 2026-05-22 |
 | Validation | AI-drafted — Q3 |
 
-### Sources consulted
+## Who this applies to
 
-**Sources consulted**
+Full-year Minnesota residents who are sole proprietors, single-member LLC owners, or otherwise self-employed and filing Minnesota Form M1.
 
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | Minnesota DOR — Income Tax Rates and Brackets (2026) | https://www.revenue.state.mn.us/minnesota-income-tax-rates-and-brackets |
-| 2 | Minnesota DOR — 2026 Bracket Announcement | https://www.revenue.state.mn.us/press-release/2025-12-16/minnesota-income-tax-brackets-standard-deduction-and-dependent-exemption |
-| 3 | Minn. Stat. § 290.06 | https://www.revisor.mn.gov/statutes/cite/290.06 |
-| 4 | Minnesota Form M1 Instructions | https://www.revenue.state.mn.us/form-m1-individual-income-tax |
+## Rates, bands and thresholds
 
-## Section 2: Quick reference — rates and thresholds
 
 ### Tax rates — 2026 tax year (Single)
 
@@ -116,7 +112,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Extension | Automatic 6-month with federal extension | Minn. Stat. § 289A.19 |
 | Estimated tax threshold | Liability of $500 or more after withholding and credits | Minn. Stat. § 289A.25 |
 
-## Section 3: How this skill works with the federal return
+## The taxable base
+
 
 Minnesota taxable income begins with **federal taxable income** (Form 1040, Line 15 — after the federal standard or itemized deduction).
 
@@ -128,7 +125,20 @@ Minnesota taxable income begins with **federal taxable income** (Form 1040, Line
 
 **Key difference from many states:** Minnesota starts from federal **taxable income** (after the standard/itemized deduction), not from federal AGI. This means the federal standard deduction and itemized deductions are already factored in. Minnesota then applies its own standard deduction or uses the federal amounts depending on the schedule.
 
+## Deadlines and filing
+
+Form M1 is due April 15, 2027 for tax year 2026 (automatic 6-month extension with the federal extension); quarterly estimates (Schedule M14) are due April 15, June 15, September 15, and January 15 when liability exceeds $500 after withholding and credits.
+
+## Penalties and interest
+
+Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid M1 liability (M.S. 289A.21 — not yet confirmed).
+
+## Cross-border points
+
+Part-year and nonresident filers (Schedule M1NR) and multi-state apportionment are out of scope here — see `mn-cross-border-tax`; Minnesota grants a credit for taxes paid to other jurisdictions (Schedule M1CR).
+
 ## Section 4: Self-employed specific rules
+
 
 1. **Self-employment income** flows through federal Schedule C → federal AGI → federal taxable income → Minnesota taxable income (with additions/subtractions).
 2. **Federal SE tax deduction** — Already reflected in federal AGI and thus in federal taxable income. No separate Minnesota adjustment.
@@ -139,6 +149,7 @@ Minnesota taxable income begins with **federal taxable income** (Form 1040, Line
 7. **No local income tax** — Minnesota does not have any local or city income taxes.
 
 ## Section 5: Tier 1 rules — deterministic
+
 
 **Section 5: Tier 1 rules — deterministic**
 
@@ -158,6 +169,7 @@ Minnesota taxable income begins with **federal taxable income** (Form 1040, Line
 
 ## Section 6: Tier 2 rules — requires judgment
 
+
 **Section 6: Tier 2 rules — requires judgment**
 
 | Rule ID | Rule | Guidance |
@@ -170,6 +182,7 @@ Minnesota taxable income begins with **federal taxable income** (Form 1040, Line
 | MN-T2-06 | **Alternative minimum tax** — Minnesota imposes a state AMT (Schedule M1MT). Self-employed with large § 179 or depreciation differences should check. | Compute AMT if federal AMT preferences are significant. |
 
 ## Section 7: Supplier pattern library
+
 
 **Section 7: Supplier pattern library**
 
@@ -186,6 +199,7 @@ Minnesota taxable income begins with **federal taxable income** (Form 1040, Line
 
 ## Section 8: Form mapping
 
+
 **Section 8: Form mapping**
 
 | Minnesota form / schedule | What it covers | Federal counterpart |
@@ -201,7 +215,12 @@ Minnesota taxable income begins with **federal taxable income** (Form 1040, Line
 | Schedule M1ED | K-12 Education Credit | N/A |
 | Form M14 | Estimated Tax Instructions | Form 1040-ES |
 
-## Section 9: Refusal catalogue
+## Worked examples
+
+No worked examples yet — the rate tables above are the deterministic inputs; computations are deferred to professional review.
+
+## Ask the client first
+
 
 **Section 9: Refusal catalogue**
 
@@ -216,17 +235,29 @@ Minnesota taxable income begins with **federal taxable income** (Form 1040, Line
 | MN-R-07 | Tax year other than current | Refuse — rates and thresholds may differ |
 | MN-R-08 | MinnesotaCare provider tax | Refuse — different tax type |
 
+## Sources
+
+| Source | Read on |
+| --- | --- |
+| Minnesota DOR — Income Tax Rates and Brackets (2026): <https://www.revenue.state.mn.us/minnesota-income-tax-rates-and-brackets> | 2026-05-22 |
+| Minnesota DOR — 2026 Bracket Announcement: <https://www.revenue.state.mn.us/press-release/2025-12-16/minnesota-income-tax-brackets-standard-deduction-and-dependent-exemption> | 2026-05-22 |
+| Minn. Stat. § 290.06: <https://www.revisor.mn.gov/statutes/cite/290.06> — statute text archived | 2026-10-28 |
+| Minnesota Form M1 Instructions: <https://www.revenue.state.mn.us/form-m1-individual-income-tax> | 2026-05-22 |
+
+Not yet confirmed: the DOR rates/brackets page, the 2026 bracket-announcement press release, and the Form M1 instructions page are not yet archived; the 2026 bracket dollar figures and standard-deduction amounts therefore remain not yet confirmed.
 ## Disclaimer
+
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
+The most up-to-date, verified version of this skill is maintained by the OpenAccountants network.
 
 <!-- openaccountants-cta-block -->
 
 ---
 
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current

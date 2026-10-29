@@ -20,40 +20,47 @@ version: 0.2
 
 # Minnesota transfer pricing (combined reporting)
 
-## 1. Who this applies to
+## Who this applies to
+
 
 - C corporations whose trade or business is **part of a unitary business** involving another legal entity subject to Minnesota allocation: combined reporting under M.S. 290.17 (<https://www.revisor.mn.gov/statutes/cite/290.17>, 200 with statute text on 2026-10-25).
 - Partnerships/corporations not otherwise subject to the allocation rules but conducting business that is part of a unitary business involving an entity that is: they are pulled into the allocation rules (M.S. 290.17 subd. 3(a), read 2026-10-25).
 - Out of scope: stand-alone filers with no unitary affiliates; the individual lane.
 
-## 2. Core rules and rates
+## Rates, bands and thresholds
 
-- **Corporate rates:** graduated 4.8% / 9.8% (mn-corporate-and-pte, read 2026-10-25; the 290A.03 rate text renders via JavaScript — **needs-sources** for the statutory citation of the brackets, corroborated internally).
+
+- **Corporate rates:** graduated 4.8% / 9.8% (mn-corporate-and-pte, read 2026-10-25; the 290A.03 rate text renders via JavaScript — the statutory citation of the brackets is not yet confirmed, corroborated internally).
 - **Unitary business principle** (M.S. 290.17 subd. 4(a), statute text read 2026-10-25): if a business conducted wholly or partly in Minnesota is part of a unitary business, **the entire income of the unitary business is subject to apportionment** under M.S. 290.191.
 - **Combined filing** is required for unitary groups (Form M4 combined schedules); the group's combined apportionable income is taxed at the corporate brackets (mn-corporate-and-pte corroborates the combined-return framework, read 2026-10-25).
 - **Intercompany elimination:** in the combination, intercompany dividends, interest, rents and royalties between unitary members eliminate — Minnesota neutralises connected-party shifting through combination (mn-corporate-and-pte, read 2026-10-25).
 - **Deduction allocation** follows the unitary income (M.S. 290.17 subd. 3(b), read 2026-10-25): expenses, losses and other deductions allocate along with the item or activity to which they relate.
 
-## 3. Base and apportionment
+## The taxable base
+
 
 - Combined apportionable income of the unitary group, apportioned by the statutory sales factor (M.S. 290.191; mn-corporate-and-pte, read 2026-10-25).
 - The unitary principle reaches income of non-Minnesota affiliates that are part of the unitary business (M.S. 290.17 subd. 4(a), read 2026-10-25).
 
-## 4. Deadlines
+## Deadlines and filing
+
 
 - Form M4 (combined): 15th day of the 4th month after year end (calendar year: 15 April); 7-month extension available with payment by the original due date (mn-corporate-and-pte, read 2026-10-25).
 
-## 5. Penalties and interest
+## Penalties and interest
 
-- Failure to file combined when required: combined tax plus late-file/late-pay penalties and interest (M.S. 289A.21 — **needs-sources**: not machine-verified 2026-10-25; mn-corporate-and-pte corroborates the general framework).
 
-## 6. Cross-border and federal overlay
+- Failure to file combined when required: combined tax plus late-file/late-pay penalties and interest (M.S. 289A.21 — not yet confirmed: not machine-verified 2026-10-25; mn-corporate-and-pte corroborates the general framework).
 
-- P.L. 86-272 solicitation protection applies to the Minnesota income tax but does not dissolve unitary-group status for the rest of the group (needs-sources for the specific DOR statement).
-- Federal §482 adjustments do not automatically flow into the Minnesota combination (needs-sources).
+## Cross-border points
+
+
+- P.L. 86-272 solicitation protection applies to the Minnesota income tax but does not dissolve unitary-group status for the rest of the group (the specific DOR statement is not yet confirmed).
+- Federal §482 adjustments do not automatically flow into the Minnesota combination (not yet confirmed).
 - No state treaty power.
 
-## 7. Worked examples
+## Worked examples
+
 
 **Example 1 — combined apportionment at 9.8%.** A unitary group's combined apportionable income is USD 3,000,000; Minnesota sales factor 30%. Minnesota base: 3,000,000 × 0.30 = 900,000 — above the bracket threshold, so 9.8% applies to the top bracket; simplified single-rate illustration: 900,000 × 0.098 = 88,200 (graduated brackets apply in the real computation — see mn-corporate-and-pte).
 
@@ -89,26 +96,25 @@ expected:
   mn_base: 900000.00
 ```
 
-## 8. Ask the client first
+## Ask the client first
+
 
 - Ownership and control links between affiliates (the unitary-group composition question).
 - Whether operations are integrated/interdependent (functional unity) or separate enterprises.
 - Whether foreign affiliates are inside the water's-edge boundary.
 
-## 9. Sources
+## Sources
 
-- M.S. 290.17 (combined reporting / unitary business principle): <https://www.revisor.mn.gov/statutes/cite/290.17> — 200 with statute text on 2026-10-25.
-- M.S. 290.191 (apportionment): cited within 290.17 text, read 2026-10-25.
-- `mn-corporate-and-pte` skill (4.8%/9.8% brackets, combined M4, deadlines) — internal corroboration, read 2026-10-25.
-- M.S. 290A.03 rate text and 289A.21 penalties — **needs-sources** (JS-rendered / not machine-verified 2026-10-25).
+| Source | Read on |
+| --- | --- |
+| M.S. 290.17 (combined reporting / unitary business principle): <https://www.revisor.mn.gov/statutes/cite/290.17> — cited in the skill; not yet archived | 2026-10-25 |
+| M.S. 290.191 (apportionment): cited within 290.17 text | 2026-10-25 |
+| `mn-corporate-and-pte` skill (4.8%/9.8% brackets, combined M4, deadlines) — internal corroboration | 2026-10-25 |
 
-<!-- openaccountants-cta-block -->
-
----
-
+Not yet confirmed: M.S. 290.17 archive (pending); M.S. 290A.03 rate text (JS-rendered); M.S. 289A.21 penalty schedule; the DOR P.L. 86-272 statement; federal §482 interaction.
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
 - Use it in your AI: https://www.openaccountants.com/connect
-- Talk to a verified accountant: https://calendly.com/openaccountants-info/30min

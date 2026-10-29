@@ -18,14 +18,16 @@ version: 0.2
 
 # Minnesota social contributions (PFML + MinnesotaCare)
 
-## 1. Who this applies to
+## Who this applies to
+
 
 - Minnesota employers in covered employment under the family and medical leave insurance program (M.S. 268B.14 — <https://www.revisor.mn.gov/statutes/cite/268B.14>, 200 with statute text on 2026-10-25).
 - Covered employees, through the wage-deduction share of premiums (M.S. 268B.14 subd. 4, read 2026-10-25).
-- Health-care providers for the MinnesotaCare provider tax (M.S. 290A.03/290A.06 — gross-revenue provider tax; the 0.7% provider rate is corroborated by the `mn-payroll` skill; the 290A.03 rate text renders via JavaScript and is **needs-sources**).
+- Health-care providers for the MinnesotaCare provider tax (M.S. 290A.03/290A.06 — gross-revenue provider tax; the 0.7% provider rate is corroborated by the `mn-payroll` skill; the 290A.03 rate text renders via JavaScript and is not yet confirmed).
 - Out of scope: federal FICA/FUTA (skills/federal); UI mechanics in the payroll lane.
 
-## 2. Core rules and rates
+## Rates, bands and thresholds
+
 
 Family and medical leave premiums (M.S. 268B.14, read 2026-10-25):
 
@@ -39,30 +41,35 @@ Family and medical leave premiums (M.S. 268B.14, read 2026-10-25):
 | Premium timing | quarterly, computed from the wage detail report; due by the last day of the month after quarter end (subd. 1(a)) |
 | Rate adjustments | commissioner adjusts annually by 31 July for the following year (subd. 7) |
 
-- **MinnesotaCare provider tax:** 0.7% of gross revenue for qualifying health-care providers (mn-payroll corroboration; statute rate text **needs-sources** — 290A.03 JS-rendered 2026-10-25).
+- **MinnesotaCare provider tax:** 0.7% of gross revenue for qualifying health-care providers (mn-payroll corroboration; statute rate text not yet confirmed — 290A.03 JS-rendered 2026-10-25).
 
-## 3. Base
+## The taxable base
+
 
 - PFML: "taxable wages" as defined in chapter 268B (UI-covered wages) (M.S. 268B.14 subd. 1(a), read 2026-10-25).
 - MinnesotaCare: gross revenue from patient care of qualifying providers (mn-payroll, read 2026-10-25).
 
-## 4. Deadlines
+## Deadlines and filing
+
 
 - PFML premiums: quarterly, received by the department on or before the last day of the month following the calendar quarter (M.S. 268B.14 subd. 1(a), read 2026-10-25).
 - Wage detail report drives the premium computation (subd. 1(a), read 2026-10-25).
 
-## 5. Penalties and interest
+## Penalties and interest
 
-- PFML late premiums: chapter 268B penalty/interest overlay — exact schedule **needs-sources** (not machine-verified 2026-10-25).
+
+- PFML late premiums: chapter 268B penalty/interest overlay — exact schedule not yet confirmed (not machine-verified 2026-10-25).
 - UI penalties: payroll lane (mn-payroll, read 2026-10-25).
 
-## 6. Cross-border and interaction
+## Cross-border points
+
 
 - PFML applies to covered employment for Minnesota work regardless of employee residence.
 - Employers with approved private plans can substitute for one program (0.4%/0.3% rates above) (M.S. 268B.14 subd. 6, read 2026-10-25).
 - No state pension contribution; FICA/FUTA federal.
 
-## 7. Worked examples
+## Worked examples
+
 
 **Example 1 — standard employer, both programs.** An employer with 50 employees pays USD 1,200,000 of taxable wages in a year. Premium: 1,200,000 × 0.007 = 8,400. Employer must pay at least 50%: 4,200; employees may bear up to 4,200 via wage deductions.
 
@@ -103,25 +110,25 @@ expected:
   employee_max: 4725.00
 ```
 
-## 8. Ask the client first
+## Ask the client first
+
 
 - Employee count and average wage (small-employer eligibility: ≤30 employees and avg wage ≤150% of state average).
 - Whether they hold an approved private plan for either program (0.4%/0.3% rates).
 - Whether they are a qualifying health-care provider (MinnesotaCare overlay).
 
-## 9. Sources
+## Sources
 
-- M.S. 268B.14 (PFML premiums): <https://www.revisor.mn.gov/statutes/cite/268B.14> — 200 with statute text on 2026-10-25 (as_of 2026 rates).
-- M.S. 290A.03 / 290A.06 (MinnesotaCare): <https://www.revisor.mn.gov/statutes/cite/290A.03> — 200 on 2026-10-25; rate text JS-rendered, **needs-sources**; `mn-payroll` corroborates 0.7%.
-- `mn-payroll` skill (UI, MinnesotaCare) — internal corroboration, read 2026-10-25.
+| Source | Read on |
+| --- | --- |
+| M.S. 268B.14 (PFML premiums): <https://www.revisor.mn.gov/statutes/cite/268B.14> — statute text archived (as_of 2026 rates) | 2026-10-25 |
+| M.S. 290A.03 (MinnesotaCare): <https://www.revisor.mn.gov/statutes/cite/290A.03> — page archived; rate text JS-rendered, figures not readable from archive | 2026-10-28 |
+| `mn-payroll` skill (UI, MinnesotaCare) — internal corroboration | 2026-10-25 |
 
-<!-- openaccountants-cta-block -->
-
----
-
+Not yet confirmed: the 0.7% MinnesotaCare provider-tax rate text (290A.03 archive is JS-rendered); the chapter 268B penalty/interest schedule.
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
 - Use it in your AI: https://www.openaccountants.com/connect
-- Talk to a verified accountant: https://calendly.com/openaccountants-info/30min

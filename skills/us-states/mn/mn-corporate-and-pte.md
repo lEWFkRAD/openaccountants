@@ -12,11 +12,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MN Corporate And PTE
 
-## Minnesota Corporate Franchise Tax and Pass-Through Entity Tax
+## Who this applies to
 
-Minnesota corporate franchise tax 9.8% flat rate (one of the highest state corporate rates in the country) plus a separate 5.8% Minnesota corporate alternative minimum tax and a $0-$10,460 sliding-scale minimum fee based on Minnesota property, payroll, and sales. Apportionment uses a single sales factor with market-based sourcing. Combined unitary reporting is mandatory water's-edge with a Minnesota-specific tax-haven inclusion list under Minn. Stat. §290.01 subd. 5b. GILTI is taxed on a residual basis with the 80% §250 deduction. The Pass-Through Entity (PTE) election under Minn. Stat. §289A.08 subd. 7a imposes a 9.85% entity-level tax on electing S-corporations and partnerships, with a refundable credit to owners as a federal SALT-cap workaround. Form M4 corporate, Form M8 S-corp, Form M3 partnership. Tax year 2025.
-
-## 1. Scope
 
 This skill covers Minnesota state-level entity income tax compliance for:
 
@@ -45,7 +42,8 @@ This skill covers Minnesota state-level entity income tax compliance for:
 
 The standing rule: this skill produces a credentialed-reviewer-ready Minnesota state return. Final signoff is by a CPA, EA, or attorney licensed to practice before the Minnesota Department of Revenue.
 
-## 2. Corporate Franchise Tax Rate
+## Rates, bands and thresholds
+
 
 ### 2.1 Statutory rate
 
@@ -66,7 +64,12 @@ Important characterization: Minnesota calls this a **franchise tax** measured by
 - **No corporate surtax** — Minnesota has no corporate surtax of the New Jersey variety. The 9.8% is the all-in C-corp rate.
 - **Net investment income surcharge (individuals)** — 1% percent (On net investment income over $1M, effective tax year 2024, applies to individuals, estates, and trusts, not C-corporations)  _(Minn. Stat. §290.033; enacted by 2023 Minn. Laws Ch. 64, Art. 1)_
 
+## The taxable base
+
+Minnesota taxable income starts from the federal tax base with the §290.0133/0134 additions and subtractions (see §5 Apportionment and §9 NOL below for the base-level mechanics).
+
 ## 3. Minnesota Corporate Alternative Minimum Tax (5.8%)
+
 
 ### 3.1 Overview
 
@@ -95,6 +98,7 @@ For most profitable C-corps, regular tax (9.8% × MN taxable income) exceeds AMT
 - **Total MN franchise liability** — Total MN franchise liability = max(Regular Tax, AMT) + Minimum Fee
 
 ## 4. Minimum Fee (Property/Payroll/Sales Sliding Scale)
+
 
 ### 4.1 The schedule
 
@@ -127,6 +131,7 @@ For most profitable C-corps, regular tax (9.8% × MN taxable income) exceeds AMT
 
 ## 5. Apportionment
 
+
 ### 5.1 Single sales factor
 
 - **MN apportionment percentage formula** — MN apportionment % = MN sales / Everywhere sales  _(2008 Minn. Laws Ch. 366, Art. 4)_
@@ -146,6 +151,7 @@ For most profitable C-corps, regular tax (9.8% × MN taxable income) exceeds AMT
 
 ## 6. Combined Unitary Reporting
 
+
 ### 6.1 Mandatory water's-edge unitary
 
 - **Mandatory combined reporting** — Minn. Stat. §290.17 subd. 4 and §290.34 require mandatory combined reporting for unitary businesses with more than 50% common ownership (direct or indirect). The default is a water's-edge combination, meaning: All US-incorporated unitary affiliates are combined; Foreign-incorporated affiliates are excluded unless they meet one of the inclusion exceptions (see §6.3 and §7 below); The combined group files one Form M4 with a designated common parent or filing agent; Intercompany transactions between combined members are eliminated; Apportionment uses the group's combined MN sales / combined Everywhere sales.  _(Minn. Stat. §290.17 subd. 4; §290.34)_
@@ -163,6 +169,7 @@ For most profitable C-corps, regular tax (9.8% × MN taxable income) exceeds AMT
 - **Worldwide combination election** — Under §290.17 subd. 4(f), the unitary group may elect worldwide combination, bringing in all foreign affiliates regardless of the 80/20 rule. This election is: Binding for the year and subsequent years until revoked with consent; Rarely beneficial because most foreign affiliates have either low MN sales (denominator-inflating, factor-diluting) or high foreign-source income (base-increasing) — the math usually disfavors worldwide; Considered when foreign losses can be combined against MN-apportioned US income, or when a specific structure has the tax-haven inclusion already triggered and the taxpayer prefers a clean worldwide approach.  _(Minn. Stat. §290.17 subd. 4(f))_
 
 ## 7. Tax Haven List and 80/20 Rule
+
 
 ### 7.1 The 80/20 foreign corporation exclusion
 
@@ -230,6 +237,7 @@ The Minnesota tax haven inclusion has been challenged on Commerce Clause grounds
 
 ## 8. GILTI and FDII
 
+
 ### 8.1 GILTI in Minnesota
 
 - **GILTI Minnesota treatment** — Federal Global Intangible Low-Taxed Income (GILTI) under §951A is taxed at the US shareholder level. Minnesota's treatment: Minnesota starts with federal taxable income (FTI), which includes GILTI; Federal §250 deduction (50% of GILTI for 2018-2025, scheduled to drop to 37.5% in 2026 under pre-OBBBA law; OBBBA modifications may apply — verify) flows through into FTI; Minnesota provides an additional 80% subtraction of the net GILTI amount (post-§250) under Minn. Stat. §290.0134, effectively reducing the MN inclusion further; Result: MN taxes residual GILTI at 9.8% × (GILTI – §250 deduction) × 20% × MN apportionment. This is among the more generous state GILTI regimes (some states tax full GILTI as a dividend with limited deduction; others fully decouple).  _(Minn. Stat. §290.0134)_
@@ -249,6 +257,7 @@ The §965 deemed repatriation transition tax (one-time, for tax year 2017 / 2018
 
 ## 9. Net Operating Losses (NOL)
 
+
 ### 9.1 Conformity with TCJA post-2017
 
 - **MN NOL rules post-TCJA** — Minn. Stat. §290.095 governs the Minnesota NOL. Minnesota conforms to the federal TCJA NOL regime: No carryback for NOLs arising in tax years beginning after December 31, 2017; 20-year carryforward (note: this is longer than the federal indefinite carryforward; Minnesota historically allowed 15-year carryforward and extended to 20 in connection with TCJA conformity — verify the exact MN carryforward period under current §290.095; some practitioner sources cite 'indefinite' matching federal, others cite '20-year'. Use 20-year as conservative unless the current statute clearly says otherwise.); 80% taxable-income limit on NOL utilization (matching federal §172(a)(2)(B)); Separate-return-year limitation (SRLY) rules apply for combined groups, similar to federal consolidated return rules — losses generated by a member before joining the combined group can only offset that member's MN-apportioned income.  _(Minn. Stat. §290.095)_
@@ -261,7 +270,8 @@ The §965 deemed repatriation transition tax (one-time, for tax year 2017 / 2018
 
 - **NOL computation mechanics** — NOLs are computed at the Minnesota apportioned level — the MN NOL is the loss after MN modifications and apportionment, not the federal NOL. So a federal NOL of $1M for a corporation with 10% MN apportionment generates a $100k MN NOL (plus or minus MN modifications). This is tracked separately on Schedule M4NC (NOL computation). For combined groups, the NOL belongs to the group, not individual members, with SRLY tracking for pre-combination losses.
 
-## 10. Filing and Estimated Tax
+## Deadlines and filing
+
 
 ### 10.1 Form M4 (corporate franchise)
 
@@ -285,7 +295,16 @@ The §965 deemed repatriation transition tax (one-time, for tax year 2017 / 2018
 
 - **E-filing and payment methods** — Minnesota mandates e-filing for most corporate returns. Payments via: Minnesota e-Services portal (preferred); ACH credit/debit; Wire transfer; Check with voucher (paper only, generally discouraged)
 
+## Penalties and interest
+
+Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid corporate liabilities (M.S. 289A.25/.26 estimated-tax regime above; the §289A.21 penalty schedule is not yet confirmed).
+
+## Cross-border points
+
+Cross-border and combined-reporting detail lives in `mn-transfer-pricing-combined-reporting` and `mn-cross-border-tax`; the tax-haven list, 80/20 rule, and GILTI/FDII sections above carry the federal overlay.
+
 ## 11. Pass-Through Entity (PTE) Tax Election
+
 
 ### 11.1 Background and statutory authority
 
@@ -326,6 +345,7 @@ The §965 deemed repatriation transition tax (one-time, for tax year 2017 / 2018
 
 ## 12. Minnesota R&D Credit
 
+
 ### 12.1 Statutory framework
 
 - **MN R&D Credit for Increasing Research Activities** — Minn. Stat. §290.068 — Credit for Increasing Research Activities — provides a Minnesota R&D credit similar in structure to the federal §41 credit but with Minnesota-specific rate and base.  _(Minn. Stat. §290.068)_
@@ -350,7 +370,14 @@ The §965 deemed repatriation transition tax (one-time, for tax year 2017 / 2018
 
 - **Independent MN and federal §41 computations** — Independent computations. Minnesota does not require federal §41 election to claim MN credit, but QREs must meet the federal definition (incorporated by reference under §290.068). For pass-through entities where the federal §41 credit is taken at the owner level (via federal K-1), the MN credit at the entity level passes through similarly.  _(Minn. Stat. §290.068)_
 
-## 13. Worked Examples
+## Ask the client first
+
+- Which entities sit in the unitary group and whether the water's-edge boundary is right.
+- Whether a PTE election makes sense for the owners (cost-benefit against the SALT cap).
+- Whether the current §290.01 subd. 5b tax-haven list has changed this year.
+
+## Worked examples
+
 
 ### 13.1 Example A — Simple Minnesota C-corporation
 
@@ -468,9 +495,23 @@ The §965 deemed repatriation transition tax (one-time, for tax year 2017 / 2018
 - Without PTE: Anna pays MN tax of ~$59,100 on her $600k share. That tax sits on her Schedule A, subject to $10,000 federal SALT cap. She gets at most $10,000 deduction value (~$3,700 federal benefit at 37%).
 - With PTE: $59,100 of MN tax is deducted at entity level (full federal benefit ~$21,867 at 37%), and Anna's MN tax is netted against the credit. **Federal benefit improvement: ~$18,000** for Anna alone.
 
-## 14. Provenance and Citations
+## Sources
 
-### Primary statutory sources
+| Source | Read on |
+| --- | --- |
+| Minn. Stat. §289A.08 (PTE election, subd. 7a): <https://www.revisor.mn.gov/statutes/cite/289A.08> — statute text archived | 2026-10-28 |
+| Minn. Stat. §290.06 (corporate 9.8% / individual top 9.85%): <https://www.revisor.mn.gov/statutes/cite/290.06> — statute text archived | 2026-10-28 |
+| Minn. Stat. §290A.03 (MinnesotaCare provider tax): <https://www.revisor.mn.gov/statutes/cite/290A.03> — page archived; rate text JS-rendered | 2026-10-28 |
+| Minn. Stat. §290 (chapter), §290.01, §290.0133–0134, §290.17, §290.191, §290.0921, §290.0922, §290.095, §290.21, §290.068, §289A.25, §289A.26, §290.033 — cited in the skill; not yet archived | 2025-11-15 |
+| Session laws (2008 Ch. 366; 2021 Spec. Sess. Ch. 14; 2023 Ch. 64), DOR forms/instructions, case law, and reviewer signoff requirements — see the Provenance detail below | 2025-11-15 |
+
+Not yet confirmed: the §290.0921 5.8% AMT rate, the §290.0922 minimum-fee sliding-scale dollar amounts, the §290.033 surcharge figures, the §290.01 subd. 5b tax-haven list, and the NOL carryforward terms — the cited statute sections are not yet archived.
+
+### Provenance detail
+
+
+
+#### Primary statutory sources
 
 - **Minn. Stat. §290** — Income Tax (entire chapter; corporate franchise tax)
 - **Minn. Stat. §290.01** — Definitions (subd. 5b tax-haven list; subd. 19c 80/20 corporation; subd. 19d federal tax base conformity)
@@ -529,7 +570,8 @@ Every Minnesota M4, M8, or M3 produced from this skill must be reviewed and sign
 
 This skill provides preparation scaffolding only. It is not a substitute for credentialed review and is not authoritative tax advice to the taxpayer.
 
-## End of mn-corporate-and-pte v0.1
+
+
 
 *End of mn-corporate-and-pte v0.1. Last updated 2025-11-15. Verification status: pending — content awaits review by a Minnesota-licensed CPA or EA with combined-reporting expertise before being marked verified.*
 
@@ -538,6 +580,7 @@ This skill provides preparation scaffolding only. It is not a substitute for cre
 ---
 
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
