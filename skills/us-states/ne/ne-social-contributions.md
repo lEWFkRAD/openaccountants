@@ -49,6 +49,10 @@ Quarterly wage + contribution reports to NDOL (the NE form ID is listed under No
 
 Quarterly report due dates for NE specifics are listed under Not yet confirmed.
 
+## Penalties and interest
+
+UI late-filing/late-payment penalty percentages are listed under Not yet confirmed (Sources).
+
 ## Cross-border points
 
 Multi-state employers localize under the interstate coverage tests (45 CFR Part 6, FUTA conformity); Nebraska income-tax withholding is separate (`ne-payroll.md`).
@@ -87,7 +91,7 @@ expected:
 - Multi-state workforce — localization state confirmed?
 - Successor-employer UI liability on acquisitions?
 
-## 9. Sources
+
 
 ## Sources
 

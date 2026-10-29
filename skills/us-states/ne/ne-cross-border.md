@@ -52,6 +52,10 @@ Graduated individual schedule: the TY2026 top rate is **4.55%** (brackets 2.46%/
 
 Individual returns are due on the federal due date (April 15, 2026 for TY2025), per the same Chapter 77 due-date rail confirmed in `ne-corporate-income-tax.md` (§ 77-2768, archived `SRC-US-NE-77-2768`; DOR tax calendar `SRC-US-NE-DOR-tax-calendar`). PTE election deadlines are listed under Not yet confirmed.
 
+## Penalties and interest
+
+Penalty and interest rails ride the same Chapter 77 corporate/individual provisions confirmed in `ne-corporate-income-tax.md` (5%/month late-filing penalty to 25%, DOR Business Income Tax FAQs `SRC-US-NE-DOR-biz-faqs`; interest under § 45-104.02 per DOR regs Ch. 24 `SRC-US-NE-DOR-chapter24`). Individual-specific penalty percentages are listed under Not yet confirmed.
+
 ## Cross-border points
 
 - Colorado/Nebraska and Iowa/Nebraska border workers: check the other state's nonresident filing and credits (see those packs).
