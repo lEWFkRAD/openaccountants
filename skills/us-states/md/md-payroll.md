@@ -79,29 +79,29 @@ Maryland is unusual among US states in that the "local" income tax is administer
 
 | Jurisdiction | 2025 rate | Effective combined top rate (state 5.75% + local) |
 | --- | --- | --- |
-| Allegany County | 3.05% | 8.80% |
-| Anne Arundel County | 2.81% (graduated; top rate) | 8.56% |
-| Baltimore City | 3.20% | 8.95% |
-| Baltimore County | 3.20% | 8.95% |
+| Allegany County | 3.05% | 8.80% | (not yet confirmed)
+| Anne Arundel County | 2.81% (graduated; top rate) | 8.56% | (not yet confirmed)
+| Baltimore City | 3.20% | 8.95% | (not yet confirmed)
+| Baltimore County | 3.20% | 8.95% | (not yet confirmed)
 | Calvert County | 3.00% | 8.75% |
-| Caroline County | 3.20% | 8.95% |
-| Carroll County | 3.03% | 8.78% |
-| Cecil County | 2.80% | 8.55% |
-| Charles County | 3.03% | 8.78% |
-| Dorchester County | 3.20% | 8.95% |
-| Frederick County | 2.96% (graduated; top rate) | 8.71% |
-| Garrett County | 2.65% | 8.40% |
-| Harford County | 3.06% | 8.81% |
-| Howard County | 3.20% | 8.95% |
-| Kent County | 3.20% | 8.95% |
-| Montgomery County | 3.20% | 8.95% |
-| Prince George's County | 3.20% | 8.95% |
-| Queen Anne's County | 3.20% | 8.95% |
-| St. Mary's County | 3.10% | 8.85% |
-| Somerset County | 3.20% | 8.95% |
-| Talbot County | 2.40% | 8.15% |
-| Washington County | 2.95% | 8.70% |
-| Wicomico County | 3.20% | 8.95% |
+| Caroline County | 3.20% | 8.95% | (not yet confirmed)
+| Carroll County | 3.03% | 8.78% | (not yet confirmed)
+| Cecil County | 2.80% | 8.55% | (not yet confirmed)
+| Charles County | 3.03% | 8.78% | (not yet confirmed)
+| Dorchester County | 3.20% | 8.95% | (not yet confirmed)
+| Frederick County | 2.96% (graduated; top rate) | 8.71% | (not yet confirmed)
+| Garrett County | 2.65% | 8.40% | (not yet confirmed)
+| Harford County | 3.06% | 8.81% | (not yet confirmed)
+| Howard County | 3.20% | 8.95% | (not yet confirmed)
+| Kent County | 3.20% | 8.95% | (not yet confirmed)
+| Montgomery County | 3.20% | 8.95% | (not yet confirmed)
+| Prince George's County | 3.20% | 8.95% | (not yet confirmed)
+| Queen Anne's County | 3.20% | 8.95% | (not yet confirmed)
+| St. Mary's County | 3.10% | 8.85% | (not yet confirmed)
+| Somerset County | 3.20% | 8.95% | (not yet confirmed)
+| Talbot County | 2.40% | 8.15% | (not yet confirmed)
+| Washington County | 2.95% | 8.70% | (not yet confirmed)
+| Wicomico County | 3.20% | 8.95% | (not yet confirmed)
 | Worcester County | 2.25% | 8.00% |
 | Nonresident rate (special) | 2.25% (statutory; in lieu of county tax for out-of-state residents working in MD) | 8.00% |
 
@@ -142,14 +142,14 @@ Employers report and remit withheld Maryland income tax on Form MW-506. The depo
 
 | Prior year MD withholding | Deposit frequency | Return due dates |
 | --- | --- | --- |
-| Less than $700 | Annual | January 31 of following year |
-| $700 to $14,999.99 | Quarterly | April 30, July 31, October 31, January 31 |
-| $15,000 to $49,999.99 | Monthly | 15th of following month |
-| $50,000 or more | Accelerated (EFT, within 3 business days of payday for any payday with $700+ withheld) | per accelerated schedule |
+| Less than $700 | Annual | January 31 of following year | (not yet confirmed)
+| $700 to $14,999.99 | Quarterly | April 30, July 31, October 31, January 31 | (not yet confirmed)
+| $15,000 to $49,999.99 | Monthly | 15th of following month | (not yet confirmed)
+| $50,000 or more | Accelerated (EFT, within 3 business days of payday for any payday with $700+ withheld) | per accelerated schedule | (not yet confirmed)
 | New employer (first year) | Quarterly default | quarterly |
 
 - **Electronic filing and zero returns** — All MW-506 returns must be filed electronically via the Comptroller's bFile system unless the employer obtains a hardship waiver. Even if no tax was withheld in a period, a zero return must be filed.  _(COMAR 03.04.01.04)_
-- **MW-508 annual reconciliation** — The annual reconciliation, Form MW-508, is due January 31 of the following year and must transmit W-2 copies for all employees who had MD wages or MD withholding. For 2025 wages the MW-508 is due January 31, 2026. Late MW-508 filing triggers a $100 penalty per W-2 not timely transmitted, capped at $50,000 per year under Tax-General §13-701.  _(Tax-General §13-701)_
+- **MW-508 annual reconciliation** — The annual reconciliation, Form MW-508, is due January 31 of the following year and must transmit W-2 copies for all employees who had MD wages or MD withholding. For 2025 wages the MW-508 is due January 31, 2026. Late MW-508 filing triggers a $100 penalty per W-2 not timely transmitted, capped at $50,000 per year under Tax-General §13-701.  _(Tax-General §13-701)_ (not yet confirmed)
 
 > AUDIT FLASH POINT — frequency change not noticed. The Comptroller recalculates each employer's deposit frequency every November based on the trailing four-quarter look-back. The new frequency takes effect January 1. An employer that crosses the $15,000 threshold and continues to file quarterly into the next year accrues underpayment penalties even if all tax is ultimately paid. Always check the November notice from the Comptroller and update the payroll calendar before January 1.
 
@@ -159,11 +159,11 @@ Maryland Unemployment Insurance is administered by the Maryland Department of La
 
 ### 2025 Parameters
 
-- **Taxable wage base** — $8,500 per employee per calendar year  _(Md. Code Ann., Labor and Employment Title 8)_
-- **Standard contribution rate range** — 0.30% to 7.50%  _(Md. Code Ann., Labor and Employment Title 8)_
+- **Taxable wage base** — $8,500 per employee per calendar year  _(Md. Code Ann., Labor and Employment Title 8)_ (not yet confirmed)
+- **Standard contribution rate range** — 0.30% to 7.50%  _(Md. Code Ann., Labor and Employment Title 8)_ (not yet confirmed)
 - **New employer rate** — 2.60% for the first three calendar years (or until the employer has a chargeable benefit history)  _(Md. Code Ann., Labor and Employment Title 8)_
-- **Construction industry new employer rate** — 5.40% (statutorily set above standard new employer rate)  _(Md. Code Ann., Labor and Employment Title 8)_
-- **Foreign contractor rate** — Foreign contractor rate (out-of-state employer with first MD operations): the maximum rate of 7.50% applies for the first three years unless an experience transfer is approved  _(Md. Code Ann., Labor and Employment Title 8)_
+- **Construction industry new employer rate** — 5.40% (statutorily set above standard new employer rate)  _(Md. Code Ann., Labor and Employment Title 8)_ (not yet confirmed)
+- **Foreign contractor rate** — Foreign contractor rate (out-of-state employer with first MD operations): the maximum rate of 7.50% applies for the first three years unless an experience transfer is approved  _(Md. Code Ann., Labor and Employment Title 8)_ (not yet confirmed)
 - **Work Sharing program** — Work Sharing program: available; affects experience rating  _(Md. Code Ann., Labor and Employment Title 8)_
 - **2025 fund balance trigger** — Maryland operates on Table A through Table F; the table in effect for 2025 is Table C (mid-range) — confirm in the Comptroller of Labor's annual rate notice mailed each December  _(Maryland DOL DUI BEACON system, 2025 Contribution Rate Table C)_
 
@@ -175,13 +175,13 @@ Quarterly wage reports (Form DLLR/DUI 15) and contribution reports (Form DLLR/DU
 
 | Quarter | Wages reported | Due date |
 | --- | --- | --- |
-| Q1 | January–March | April 30 |
-| Q2 | April–June | July 31 |
-| Q3 | July–September | October 31 |
-| Q4 | October–December | January 31 |
+| Q1 | January–March | April 30 | (not yet confirmed)
+| Q2 | April–June | July 31 | (not yet confirmed)
+| Q3 | July–September | October 31 | (not yet confirmed)
+| Q4 | October–December | January 31 | (not yet confirmed)
 
 - **Registration thresholds** — All employers with 1+ employee in 20+ weeks of a calendar year, or who paid $1,500+ in any calendar quarter, must register and file. Domestic employers are subject to a $1,000-per-quarter test. Agricultural employers have the $20,000-per-quarter or 10-employees-in-20-weeks test.  _(Md. Code Ann., Labor and Employment Title 8)_
-- **Electronic filing and penalties** — Electronic filing is mandatory through BEACON (the unified MD UI system that replaced the legacy MABS). Late filing penalty is $35 per report plus interest at 1.5% per month on unpaid contributions.  _(Maryland DOL DUI BEACON system)_
+- **Electronic filing and penalties** — Electronic filing is mandatory through BEACON (the unified MD UI system that replaced the legacy MABS). Late filing penalty is $35 per report plus interest at 1.5% per month on unpaid contributions.  _(Maryland DOL DUI BEACON system)_ (not yet confirmed)
 
 ## Penalties and interest
 (see Common mistakes below; penalty figures not yet confirmed — see Sources.)
@@ -216,7 +216,7 @@ Maryland has bilateral wage-tax reciprocity with four neighboring jurisdictions.
 
 - **ABC test scope** — The Maryland Workplace Fraud Act (Md. Code Ann., L&E §3-901 through §3-920) imposes an ABC test for classifying workers in the construction services and landscaping industries. For unemployment insurance purposes statewide (under L&E §8-205), Maryland applies a similar but broader ABC test that resembles California's AB-5 framework.  _(Md. Code Ann., L&E §3-901 through §3-920; L&E §8-205)_
 - **Three-prong ABC test** — A worker is presumed to be an employee unless the putative employer can prove ALL THREE: - (A) the worker is free from control and direction of the hiring entity in connection with the performance of the work, both under the contract and in fact; - (B) the work is outside the usual course of the hiring entity's business OR the work is performed outside all of the hiring entity's places of business; AND - (C) the worker is customarily engaged in an independently established trade, occupation, profession, or business of the same nature as the work performed. Prongs A and C track the common-law right-to-control test and the IRS Section 530 safe harbor. Prong B is the strictest — it disqualifies most "core function" subcontractors. A software development firm that hires a "contractor" software developer to write code for the firm's product fails prong B because writing code IS the usual course of the firm's business. The worker is an employee under MD unemployment insurance rules regardless of contract language.  _(Md. Code Ann., L&E §3-901 through §3-920)_
-- **Misclassification penalties** — Penalties under L&E §3-909 for knowing misclassification in construction services: $5,000 per misclassified worker for a first violation, $10,000 per worker for repeat violations, plus back taxes, plus restitution to the worker.  _(L&E §3-909)_
+- **Misclassification penalties** — Penalties under L&E §3-909 for knowing misclassification in construction services: $5,000 per misclassified worker for a first violation, $10,000 per worker for repeat violations, plus back taxes, plus restitution to the worker.  _(L&E §3-909)_ (not yet confirmed)
 
 ### Independent Contractor Affidavit (Construction)
 
@@ -226,7 +226,7 @@ Maryland has bilateral wage-tax reciprocity with four neighboring jurisdictions.
 
 ### 9. Maryland Healthy Working Families Act (Sick & Safe Leave)
 
-- **Effective date and general requirement** — Effective February 11, 2018, the Maryland Healthy Working Families Act (L&E §3-1301 et seq.) requires employers to provide earned sick and safe leave.  _(Md. Code Ann., L&E §3-1301 et seq.)_
+- **Effective date and general requirement** — Effective February 11, 2018, the Maryland Healthy Working Families Act (L&E §3-1301 et seq.) requires employers to provide earned sick and safe leave.  _(Md. Code Ann., L&E §3-1301 et seq.)_ (not yet confirmed)
 
 ### Coverage and Accrual
 
@@ -258,7 +258,7 @@ Maryland has bilateral wage-tax reciprocity with four neighboring jurisdictions.
 
 ### 11. New Hire Reporting
 
-- **New hire reporting requirements** — Under Family Law §10-118 and Federal PRWORA, Maryland employers must report new hires (and rehires after a 60-day separation) to the Maryland State Directory of New Hires within 20 days of the hire date. - Reporting agency: Maryland State Directory of New Hires (administered by the Maryland Department of Human Services — DHS — Child Support Administration; historically referred to as DHR) - Information required: employee name, address, SSN, hire date, employer name, employer FEIN, employer address - Methods: online at MD-newhire.com, electronic file upload, magnetic media, or W-4 facsimile - Penalty: $20 per unreported new hire; $500 per conspiracy with employee to avoid reporting Multi-state employers may elect to report all new hires to a single state under 42 U.S.C. §653a — file the multistate election with the federal Office of Child Support Enforcement.  _(Family Law §10-118; 42 U.S.C. §653a)_
+- **New hire reporting requirements** — Under Family Law §10-118 and Federal PRWORA, Maryland employers must report new hires (and rehires after a 60-day separation) to the Maryland State Directory of New Hires within 20 days of the hire date. - Reporting agency: Maryland State Directory of New Hires (administered by the Maryland Department of Human Services — DHS — Child Support Administration; historically referred to as DHR) - Information required: employee name, address, SSN, hire date, employer name, employer FEIN, employer address - Methods: online at MD-newhire.com, electronic file upload, magnetic media, or W-4 facsimile - Penalty: $20 per unreported new hire; $500 per conspiracy with employee to avoid reporting Multi-state employers may elect to report all new hires to a single state under 42 U.S.C. §653a — file the multistate election with the federal Office of Child Support Enforcement.  _(Family Law §10-118; 42 U.S.C. §653a)_ (not yet confirmed)
 
 ## Worked examples
 
@@ -270,26 +270,26 @@ Computation per pay period ($1,000 gross):
 
 1. Federal: handled by federal payroll skill — outside this scope.
 2. Maryland state tax: using the 2025 Maryland Employer Withholding Tables for Baltimore City (combined state + local rate), the effective withholding rate at this income level is approximately 4.75% state + 3.20% local = 7.95% on each marginal dollar after the standard deduction and one personal exemption.
-   - Annual exemption value 2025: $3,200 (one exemption, federal AGI below phaseout)
-   - Annual standard deduction 2025 (15% of MD AGI, min $1,800, max $2,700 single): $2,700 cap
-   - Annual MD AGI: $52,000
-   - MD taxable income: $52,000 − $3,200 − $2,700 = $46,100
+   - Annual exemption value 2025: $3,200 (one exemption, federal AGI below phaseout) (not yet confirmed)
+   - Annual standard deduction 2025 (15% of MD AGI, min $1,800, max $2,700 single): $2,700 cap (not yet confirmed)
+   - Annual MD AGI: $52,000 (not yet confirmed)
+   - MD taxable income: $52,000 − $3,200 − $2,700 = $46,100 (not yet confirmed)
    - State tax on $46,100: $90 (on first $1,000 at 2%) + $30 + $40 + $2,043.25 (on $43,100 × 4.75%) = $2,203.25
-   - Baltimore City tax on $46,100 × 3.20% = $1,475.20
-   - Total annual MD state + local: $3,678.45
-   - Per weekly pay period: ~$70.74
+   - Baltimore City tax on $46,100 × 3.20% = $1,475.20 (not yet confirmed)
+   - Total annual MD state + local: $3,678.45 (not yet confirmed)
+   - Per weekly pay period: ~$70.74 (not yet confirmed)
 3. SUI: Acme's 2025 new-employer rate is 2.60%. Wage base $8,500 means SUI is owed only on the first $8,500 of Jamal's 2025 wages, i.e., $221.00 of SUI for Jamal's first 8.5 weeks; nothing further for the rest of 2025. Reported on DLLR/DUI 15/16 quarterly.
 4. Sick & safe leave: Acme has 22 employees so it must provide PAID leave. Jamal accrues 1 hour per 30 hours worked. At 40 hours/week he accrues 40 × (1/30) = 1.333 hours per week, capped at 40 hours/year. The pay statement must show available hours.
 5. New hire reporting: Acme submits Jamal's W-4-equivalent data to MD-newhire.com within 20 days of his start date.
-6. MW-506: assume Acme is a new employer in 2025 — quarterly default. First MW-506 covering Q1 2025 is due April 30, 2025. Annual MW-508 + W-2s due January 31, 2026.
+6. MW-506: assume Acme is a new employer in 2025 — quarterly default. First MW-506 covering Q1 2025 is due April 30, 2025. Annual MW-508 + W-2s due January 31, 2026. (not yet confirmed)
 
 ### Example B — Montgomery County Employer with Northern Virginia Commuters
 
 Facts: BioWidget Inc., a biotech company headquartered in Bethesda (Montgomery County, MD), employs three workers:
 
-- Priya: lives in Rockville, MD (Montgomery County). Salary $120,000.
-- Sam: lives in Arlington, VA. Salary $110,000. Commutes to Bethesda 5 days/week.
-- Kavita: lives in Fairfax, VA. Salary $130,000. Hybrid — 3 days in Bethesda, 2 days remote from her Fairfax home.
+- Priya: lives in Rockville, MD (Montgomery County). Salary $120,000. (not yet confirmed)
+- Sam: lives in Arlington, VA. Salary $110,000. Commutes to Bethesda 5 days/week. (not yet confirmed)
+- Kavita: lives in Fairfax, VA. Salary $130,000. Hybrid — 3 days in Bethesda, 2 days remote from her Fairfax home. (not yet confirmed)
 
 Treatment:
 
@@ -297,7 +297,7 @@ Priya — full MD state + Montgomery County tax. Effective top rate: 5.75% + 3.2
 
 Sam — VA resident commuting to MD. MD has full reciprocity with VA. Sam files MW507 Line 8 and BioWidget files a VA-4 to begin withholding Virginia state tax on Sam's wages. NO MD state tax, NO MD county tax, NO MD 2.25% nonresident tax. BioWidget registers as a VA employer for the limited purpose of remitting Sam's VA withholding via Virginia Form VA-5.
 
-Kavita — same as Sam initially. However, the two days Kavita works remotely from VA are VA-sourced, and the three days in Bethesda are MD-sourced. Because of MD-VA reciprocity, the MD-sourced wages are STILL exempt from MD tax — the reciprocity covers all MD-source wages of a VA resident. BioWidget withholds 100% VA tax on Kavita's wages just as for Sam. Note: this is different from non-reciprocal multi-state scenarios where day-counting matters; with MD-VA reciprocity it is residency, not work-location-day-count, that controls.
+Kavita — same as Sam initially. However, the two days Kavita works remotely from VA are VA-sourced, and the three days in Bethesda are MD-sourced. Because of MD-VA reciprocity, the MD-sourced wages are STILL exempt from MD tax — the reciprocity covers all MD-source wages of a VA resident. BioWidget withholds 100% VA tax on Kavita's wages just as for Sam. Note: this is different from non-reciprocal multi-state scenarios where day-counting matters; with MD-VA reciprocity it is residency, not work-location-day-count, that controls. (not yet confirmed)
 
 If Kavita establishes residency in MD mid-year (e.g., moves to Bethesda in September), BioWidget must:
 - Stop VA withholding effective the move date.
@@ -312,7 +312,7 @@ If Kavita establishes residency in MD mid-year (e.g., moves to Bethesda in Septe
 
 ### Example C — Construction Contractor "Independent Contractor" Reclassification
 
-Facts: Charm City Builders LLC, an MD construction firm based in Towson (Baltimore County), pays Diego, a drywall installer, $4,500/month on a 1099-NEC. Diego works 40 hours/week exclusively for Charm City for 11 months in 2025. Charm City supplies the tools, sets the work schedule, supplies the materials, and Diego does not advertise his services or have other clients.
+Facts: Charm City Builders LLC, an MD construction firm based in Towson (Baltimore County), pays Diego, a drywall installer, $4,500/month on a 1099-NEC. Diego works 40 hours/week exclusively for Charm City for 11 months in 2025. Charm City supplies the tools, sets the work schedule, supplies the materials, and Diego does not advertise his services or have other clients. (not yet confirmed)
 
 Workplace Fraud Act analysis:
 
@@ -325,8 +325,8 @@ Diego fails all three prongs. He is an EMPLOYEE under MD law regardless of contr
 Consequences for Charm City:
 
 1. Retroactive MD income tax withholding liability under Tax-General §10-906 — Charm City is liable for the under-withheld tax. Assuming Diego is a Baltimore County resident, the rate is 5.75% + 3.20% = 8.95% (top of state bracket only applies above $100k of taxable income; in practice Diego's withholding at this wage level is closer to 4.75% + 3.20% = 7.95% on the marginal dollar).
-2. Retroactive SUI contributions on Diego's wages up to the $8,500 wage base. At Charm City's construction-industry new-employer rate of 5.40%, the catch-up is $459 plus interest and 1.5%/month late fee.
-3. Civil penalty under L&E §3-909 of $5,000 (first violation in construction).
+2. Retroactive SUI contributions on Diego's wages up to the $8,500 wage base. At Charm City's construction-industry new-employer rate of 5.40%, the catch-up is $459 plus interest and 1.5%/month late fee. (not yet confirmed)
+3. Civil penalty under L&E §3-909 of $5,000 (first violation in construction). (not yet confirmed)
 4. Workers' compensation: separate exposure under Md. Code Ann., L&E Title 9 — Charm City should have been carrying WC coverage for Diego. The Workers' Compensation Commission can assess additional penalties.
 5. Federal exposure: 1099-NEC issued in error triggers IRS Section 530 examination and potential FICA, FUTA, and federal income tax under-withholding assessment.
 6. Diego's perspective: he can sue for unpaid overtime, sick & safe leave that should have accrued (Charm City has 15+ employees so PAID sick leave), unemployment benefits if separated, and treble damages under L&E §3-507.2 for any unpaid wages.
@@ -348,7 +348,7 @@ Before delivering a Maryland payroll computation or compliance memo to a reviewe
 7. For any 1099-NEC payments: has each been tested against the three-prong ABC test and documented?
 8. Sick & safe leave: is the available balance shown on every pay statement and is the carryover correctly calculated?
 9. For a new hire: has the report been transmitted to MD-newhire.com within 20 days?
-10. Is the Q4 2025 MW-508 + W-2 reconciliation calendar set for January 31, 2026?
+10. Is the Q4 2025 MW-508 + W-2 reconciliation calendar set for January 31, 2026? (not yet confirmed)
 
 ## Ask the client first
 
