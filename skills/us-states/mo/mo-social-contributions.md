@@ -31,7 +31,7 @@ depends_on:
 
 Missouri imposes **no state-level employee social-insurance contribution** — old-age, survivors, disability and hospital insurance are federal only (see `skills/federal/`), and Missouri has no state paid-leave or state disability program. The entire state-layer social contribution is the **employer-only unemployment insurance (MO UI)** tax under Chapter 288 RSMo, administered by the Division of Employment Security (DES). Withholding mechanics live in `mo-payroll`; this skill isolates the contribution program.
 
-**Source status:** all figures below are corroborated by the existing tier-2 `mo-payroll` skill, which was verified against the DES 2025 contribution-rate notice. The DES 2026 rate pages returned 404 from the drafting environment on 2026-10-27 — the **CY2026 wage base and rate schedule are needs-sources**; treat the 2025 numbers as the latest verified and re-check the DES notice before running 2026 payroll.
+**Source status:** all figures below are corroborated by the existing tier-2 `mo-payroll` skill, which was verified against the DES 2025 contribution-rate notice. The DES 2026 rate pages returned 404 from the drafting environment on 2026-10-27 — the **CY2026 wage base and rate schedule are not yet confirmed**; treat the 2025 numbers as the latest verified and re-check the DES notice before running 2026 payroll.
 
 ## Who this applies to
 
@@ -41,7 +41,7 @@ An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| Taxable wage base | **$9,500** per employee per calendar year (CY2025) — wages above the base are not subject to MO UI | §288.036.2 RSMo via `mo-payroll` (verified vs DES 2025 notice); **CY2026 base needs-sources** |
+| Taxable wage base | **$9,500** per employee per calendar year (CY2025) — wages above the base are not subject to MO UI | §288.036.2 RSMo via `mo-payroll` (verified vs DES 2025 notice); **CY2026 base not yet confirmed** |
 | Contribution rate range | **0.0% – 9.75%** experience-rated | §288.121 RSMo via `mo-payroll` |
 | New-employer rate | **2.7%** non-construction; **4.13%** construction | §288.123 RSMo via `mo-payroll` |
 | Rate mechanics | reserve ratio = cumulative contributions − benefit charges ÷ average annual taxable payroll over the prior three completed calendar years; schedules A–I chosen each November by DES based on trust-fund balance | §288.121 RSMo via `mo-payroll` |
@@ -56,7 +56,7 @@ An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in
 
 ## Penalties and interest
 
-- Late/underpaid UI contributions accrue interest and penalties under Chapter 288; the specific current percentages were not re-verified this run — **needs-sources** (DES pages 404 on 2026-10-27). The `mo-payroll` skill carries the withholding-side §288 penalties; treat UI-side percentages as unverified until the DES notice is read.
+- Late/underpaid UI contributions accrue interest and penalties under Chapter 288; the specific current percentages were not re-verified this run — **not yet confirmed** (DES pages 404 on 2026-10-27). The `mo-payroll` skill carries the withholding-side §288 penalties; treat UI-side percentages as unverified until the DES notice is read.
 - Failure to respond to DES wage audits produces assessments on estimated payroll — the practical exposure for late MODES-4-7 filings.
 
 ## Cross-border points
@@ -109,10 +109,10 @@ expected:
 ## Sources
 
 1. Existing tier-2 skill `mo-payroll` (UI wage base, rates, §288 cites, verified against the DES 2025 contribution-rate notice): repo `skills/us-states/mo/mo-payroll.md`.
-2. Missouri Division of Employment Security rate pages: <https://labor.mo.gov/UIE/rates> — **404 on 2026-10-27, needs-sources** for CY2026 base/rates and UI-side penalty percentages.
+2. Missouri Division of Employment Security rate pages: <https://labor.mo.gov/UIE/rates> — **404 on 2026-10-27, not yet confirmed** for CY2026 base/rates and UI-side penalty percentages.
 3. Mo. Rev. Stat. ch. 288 (§§288.034, 288.036.2, 288.121, 288.123) as cited in `mo-payroll`.
 
-Not yet confirmed: see the 'needs-sources' items above — figures tied to them stay unconfirmed until the source is archived.
+Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Missouri UI and payroll-structure questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

@@ -12,7 +12,7 @@ description: >
   transfer pricing", "Missouri related party addback", "MO-470", "143.471",
   "Missouri consolidated return", "MO-MS apportionment election".
   Source-cited draft; 2025 MO-1120 instructions read 2026-10-27; MO-470
-  fetch blocked (403) — addback specifics flagged needs-sources.
+  fetch blocked (403) — addback specifics flagged not yet confirmed.
 jurisdiction: US-MO
 category: transfer-pricing
 tax_year: 2026
@@ -37,7 +37,7 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 3. **Form MO-MS apportionment elections** (2a, 3, 4, 5, 6, 7) — the election choice, not an arm's-length standard, drives the Missouri share. (Instructions, read 2026-10-27.)
 4. **§163(j) disallowed business interest addback** (§143.121.3(11) RSMo) — intercompany interest that fails the federal cap is added back at Missouri. (Instructions, read 2026-10-27.)
 5. **Dividends deduction mechanics on Form MO-C** keyed to the apportionment factor. (Instructions, read 2026-10-27.)
-6. **Related-party expense / intangible addback (§143.471 RSMo, Form MO-470):** Missouri operates this regime, but the MO-470 instructions PDF returned **403** and the DOR addback page **404** from the drafting environment on 2026-10-27 — the addback's current scope, thresholds and exceptions are **needs-sources**; do not compute an MO-470 position from this skill alone.
+6. **Related-party expense / intangible addback (§143.471 RSMo, Form MO-470):** Missouri operates this regime, but the MO-470 instructions PDF returned **403** and the DOR addback page **404** from the drafting environment on 2026-10-27 — the addback's current scope, thresholds and exceptions are **not yet confirmed**; do not compute an MO-470 position from this skill alone.
 
 ## Who this applies to
 
@@ -52,7 +52,7 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 |---|---|---|
 | Rate the adjustments land in | 4% flat (MO-1120 line 14) | Instructions, read 2026-10-27 |
 | §163(j) addback | interest not deductible federally under §163(j) is added to Missouri income (§143.121.3(11)) | Instructions, read 2026-10-27 |
-| MO-470 related-party addback | regime exists (§143.471); current scope/thresholds **needs-sources** | fetch log 2026-10-27 (403/404) |
+| MO-470 related-party addback | regime exists (§143.471); current scope/thresholds **not yet confirmed** | fetch log 2026-10-27 (403/404) |
 | Combined reporting | none — Missouri uses separate returns or full consolidation, no unitary combined return | Instructions, read 2026-10-27 |
 | TP documentation requirement | none at state level | absence verified in instructions read |
 
@@ -65,7 +65,7 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 ## Penalties and interest
 
 - No TP-specific penalty. Adjustments land in the ordinary regime: 5%/month late-filing (cap 25%), 5% late-payment, **7% simple interest from 1 January 2026** (§32.065). (Instructions, read 2026-10-27.)
-- MO-470-specific penalties: **needs-sources** (form instructions blocked).
+- MO-470-specific penalties: **not yet confirmed** (form instructions blocked).
 
 ## Cross-border points
 
@@ -92,7 +92,7 @@ expected:
   tax_saved: 8000.00
 ```
 
-If the Department re-prices or the MO-470 addback applies (scope **needs-sources**), the clawback is $8,000 plus 7% interest.
+If the Department re-prices or the MO-470 addback applies (scope **not yet confirmed**), the clawback is $8,000 plus 7% interest.
 
 **Example 2 — §163(j) interest addback.** The group pays $300,000 intercompany interest; $120,000 is disallowed federally under §163(j); Missouri apportionment 25%.
 
@@ -121,10 +121,10 @@ expected:
 ## Sources
 
 1. Missouri DOR, Form MO-1120 General Instructions (2025): <https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf> — 200 with full text, read 2026-10-27 (pro forma rule, MO-22 consolidation, MO-MS elections, §163(j) addback, MO-C, P.L. 86-272/Form 4458).
-2. Form MO-470 instructions: <https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf> — **403 on 2026-10-27, needs-sources**.
+2. Form MO-470 instructions: <https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf> — **403 on 2026-10-27, not yet confirmed**.
 3. §143.431, §143.471, §143.121.3(11), §32.065 RSMo as cited in the instructions above.
 
-Not yet confirmed: see the 'needs-sources' items above — figures tied to them stay unconfirmed until the source is archived.
+Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Missouri related-party and consolidation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
