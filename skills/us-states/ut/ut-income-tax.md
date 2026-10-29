@@ -1,10 +1,10 @@
 ---
 name: ut-income-tax
 description: Use this skill whenever asked about Utah individual income tax, Utah Form TC-40, Utah flat tax rate, Utah taxpayer tax credit, Utah self-employment tax at the state level, or any Utah personal income tax question for sole proprietors. Trigger on phrases like "Utah income tax", "UT income tax", "Form TC-40", "Utah flat tax", "Utah taxpayer tax credit", "Utah 4.45%", or any request involving Utah state individual income tax computation or filing.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-UT
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -61,6 +61,10 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 2024 | 4.55% |
 | 2023 | 4.65% |
 | 2022 | 4.85% |
+| 2018–2021 | 4.95% |
+| 2008–2017 | 5.00% |
+
+The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rates table verbatim ("January 1, 2024 – December 31, 2024: 4.55%"; "2023: 4.65%"; "2022: 4.85%"; "2018–2021: 4.95%"; "2008–2017: 5%"). The 2026 row (4.45%, SB 60) is not on the archived USTC page — treat as pending confirmation.
 
 ### Key amounts (2025 tax year, filed 2026)
 
@@ -68,7 +72,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Item | Amount | Source |
 | --- | --- | --- |
-| Flat income tax rate | 4.50% | Utah Code §59-10-104 |
+| Flat income tax rate | 4.50% ("Utah has a single tax rate for all income levels... January 1, 2025 – current: 4.5% or .045"; TC-40 Line 10: "Multiply line 9 by 4.5 percent (.045)") | [USTC Tax Rates page, archived 2026-10-28](https://incometax.utah.gov/paying/tax-rates); Utah Code §59-10-104 |
 | Taxpayer tax credit — single/HoH | $966 per taxpayer | TC-40 instructions |
 | Taxpayer tax credit — MFJ | $1,932 ($966 × 2) | TC-40 instructions |
 | Dependent exemption (per dependent) | $2,111 | TC-40 instructions |
