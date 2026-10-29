@@ -25,17 +25,17 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding by employers. **Source status:** the LDR Withholding page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/) was fetched and its text verified 2026-10-28 — the **withholding duty, L-1/L-3 form designations, zero-return rule, payment-frequency bands, and the January 31 reconciliation deadline are verified quotes**. The **withholding table figures** (https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/) render via JS and are **needs-sources**.
 
-## 2. Who applies
+## Rates, bands and thresholds
 
 - **Every employer with resident or nonresident employees performing services in Louisiana** must withhold, unless specifically exempt, based on the employee's withholding certificate (verified).
 - **Louisiana residents performing services in another state** may still be Louisiana-withheld **if those wages are not subject to income-tax withholding in the other state** (verified — this is Louisiana's answer to no-reciprocity, e.g. Texas employers don't withhold, so Louisiana residents working in TX get LA withholding from the TX employer).
 - **Every employer who withholds or must withhold** files a **quarterly L-1 for every assigned period — even zero returns** (no employees, no LA wages, no tax due: still file; verified).
 
-## 3. Mechanics and rates
+## The taxable base
 
 | Item | Rule | Source status |
 |---|---|---|
@@ -47,7 +47,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding b
 | Amended returns | per affected quarter only; corrections can't cross quarters | verified |
 | Account closure | must file final quarterly return + reconciliation and request closure; stopping filings doesn't close the account | verified |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - L-1 quarterly: assigned periods, electronic file + pay (calendar detail **needs-sources** — standard last-day-of-month-after-quarter).
 - L-3 annual reconciliation: **January 31** following the calendar year close (verified).
@@ -58,7 +58,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding b
 - Common-mistake list published by LDR: filing after due date, missing zero returns, missing e-payment deadlines (verified page; penalty percentages under R.S. 47:1607 **needs-sources**).
 - Failure to withhold: employer liable for amounts that should have been withheld plus penalties — tiers **needs-sources**.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - **No reciprocity agreements** — the resident-in-another-state withholding rule (verified) is the mechanism: LA residents working in states that don't withhold (TX, WA, FL...) get LA withholding instead.
 - Nonresidents working in Louisiana: withholding required like residents (verified duty).
@@ -99,14 +99,14 @@ expected:
 
 Monthly band = 12 remittances, quarterly band = 4, plus one L-3 reconciliation each January 31 (verified).
 
-## 8. Ask the client
+## Ask the client first
 
 - Average monthly withholding — which frequency band applies (bands reassign as payroll grows).
 - LA-resident employees working in no-income-tax states — LA withholding required (verified rule).
 - Zero-return discipline: dormant accounts still owe quarterly L-1s until formally closed (verified).
 - LaTAP/LaWage e-file enrollment status — paper is not an option.
 
-## 9. Sources
+## Sources
 
 - LDR Withholding (duty, L-1, zero returns, bands, L-3, Jan 31, closure rule): https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/ — read 2026-10-28, text verified.
 - LDR Withholding Tax Tables: https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/ — resolves; figures JS-rendered, **needs-sources**.

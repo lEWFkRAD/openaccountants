@@ -26,18 +26,18 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresidents, part-year residents, and Louisianans working out of state. **Source status:** the LDR Withholding page (residence-based withholding rule) and the LDR Individual Income Tax page (nonresident sourcing, gambling-winnings rule, Schedule C credit, military part-year rule for taxable years beginning before January 1, 2023) verified 2026-10-28; **the credit statute (R.S. 47:287.182 expected) and IT-540B mechanics sit behind the session-state legislature site**, so citations and credit ordering are **needs-sources**.
 
-## 2. Who applies
+## Rates, bands and thresholds
 
 - **Louisiana residents**: taxed on worldwide income at the flat 3% (per `la-income-tax.md`, effective 2025); the LDR Withholding page confirms LA residents working in another state may be LA-withheld when the other state doesn't withhold (verified).
 - **Nonresidents**: taxed on Louisiana-source income only — the LDR Individual Income Tax page (verified 2026-10-28) states that nonresidents add to federal AGI only LA-sourced income, and that gambling winnings earned in Louisiana are LA-sourced income; file **IT-540B** (per pre-existing skill's scope note; form ID needs-sources for 2026).
 - **Part-year residents**: split-year treatment; allocation detail **needs-sources**.
 - **Entities**: foreign corporations doing business in Louisiana file CIFT-620 (verified category — see `la-corporate-income-tax`).
 
-## 3. Structure and rates
+## The taxable base
 
 | Item | Rule | Source status |
 |---|---|---|
@@ -48,7 +48,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 | Exit tax | **none** — no departure/exit tax | structural, low risk |
 | Remote work sourcing | services sourced where performed; LA residents still LA-taxed (verified withholding rule) | verified |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - IT-540/IT-540B: **May 15** for calendar-year filers (Louisiana's individual deadline — verified against the LDR Individual Income Tax page 2026-10-28); R.S. 47:103 gives an automatic six-month extension to file, never to pay.
 - Withholding remittances follow the payroll calendar (see `la-payroll`).
@@ -58,7 +58,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 - Standard R.S. 47 late-filing/late-payment regime — tiers **needs-sources**.
 - Dual-residency disputes (e.g. LA vs TX domicile fights) are litigation-prone; no special penalty for the dispute itself.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - **LA resident working in Texas** (classic pattern): Texas has no income tax and doesn't withhold → the LDR rule (verified) means the Texas employer may need to withhold Louisiana tax; Louisiana taxes worldwide with credit for tax paid elsewhere — here zero credit, full LA tax.
 - **Nonresident working in Louisiana**: LA withholds and taxes; home state generally credits LA tax.
@@ -103,14 +103,14 @@ expected:
   combined: 2600
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Domicile and statutory-day counts in Louisiana vs other states (LA vs TX domicile disputes are common).
 - Where services were physically performed each day.
 - Employer withholding posture for LA residents working in no-income-tax states (verified duty).
 - Home/work state credit rules — credits, not exemptions, do the double-tax relief.
 
-## 9. Sources
+## Sources
 
 - LDR Withholding (resident-out-of-state withholding rule, nonresident duty): https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/ — read 2026-10-28, text verified.
 - LDR RIB 25-012 (flat 3% reform): https://dam.ldr.la.gov/lawspolicies/RIB-25-012-Louisiana-Individual-Income-Tax-Reform-1.pdf — verified PDF 2026-10-28.

@@ -25,18 +25,18 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 2026-10-28. Louisiana has **no state social insurance beyond unemployment insurance**: no state disability insurance, no paid family and medical leave program, no individual health-coverage mandate. Employer social cost above federal FICA/FUTA is **UI contributions only**, administered by the **Louisiana Workforce Commission (LWC)** — a separate agency from LDR (unlike Kansas, where UI sits inside the revenue department). **Source status:** lwc.org returned **403 Forbidden to plain HTTP** on 2026-10-28 (bot-blocked), and La. R.S. 23 sits behind the session-state legislature site, so the **taxable wage base, contribution-rate ranges, and quarterly calendar are needs-sources**.
 
-## 2. Who applies
+## Rates, bands and thresholds
 
 - **Covered employers**: employers paying Louisiana wages meeting the statutory coverage tests must register with LWC, report quarterly wages, and pay contributions (structural; registration runs through the LaCOSA24/7 portal — portal name **needs-sources**).
 - **Successor and affiliated-group aggregation** for experience rating — **needs-sources**.
 - **Employee side**: no employee UI premium in Louisiana — employer-only (structural, low risk).
 - **Federal layer**: FUTA standard 6.0% gross / 5.4% net-credit; credit-reduction status for 2026 **needs-sources**.
 
-## 3. Rates and base
+## The taxable base
 
 | Item | Rule | Source status |
 |---|---|---|
@@ -46,7 +46,7 @@ Source-cited draft, run of 2026-10-28. Louisiana has **no state social insurance
 | Employee share | none | structural, low risk |
 | Solvency surcharge | years of federal loan balance historically added surcharges | **needs-sources** |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - Quarterly UI wage-and-contribution reports: last day of the month following each calendar quarter (standard UI calendar) — **needs-sources** for the 2026 LWC calendar.
 - Annual contribution-rate notices issue each year for the rate year beginning January 1 — protest windows **needs-sources**.
@@ -57,7 +57,7 @@ Source-cited draft, run of 2026-10-28. Louisiana has **no state social insurance
 - Late reports/contributions: penalty plus interest under R.S. 23:1631 et seq. — percentages **needs-sources**.
 - Worker-misclassification exposure: LWC audits employer classifications; back-contributions plus penalties — tiers **needs-sources**.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Multi-state employers: Louisiana base/rate apply to Louisiana wages; bases differ by state.
 - Remote workers: localization-of-work tests determine which state's UI covers the wages — Louisiana adoption citation **needs-sources**.
@@ -94,14 +94,14 @@ expected:
   total: 729
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Louisiana payroll footprint and headcount; which states' bases apply.
 - Experience-rating history, successor ownership, rate-notice protests.
 - Worker classification posture (W-2 vs 1099) — LWC audit exposure.
 - FUTA credit-reduction status affecting 2026 federal cost.
 
-## 9. Sources
+## Sources
 
 - LWC (UI program authority): https://www.lwc.org/ — **403 Forbidden to plain HTTP 2026-10-28**; all figures needs-sources.
 - La. R.S. 23:1601 et seq. (UI statute): https://legis.la.gov/ — session-state site; **cites needs-sources**.

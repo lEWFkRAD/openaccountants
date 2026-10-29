@@ -25,18 +25,18 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pricing documentation statute** (no state documentation mandate, no state CbCR). Related-party risk arises from: (1) **unitary combined reporting** (R.S. 47:287.83 series — combination required for affiliated groups above an ownership threshold; exact test **needs-sources**), (2) **addback adjustments** for intangible/management payments to related low-tax affiliates, and (3) the **apportionment base**. **Source status:** the LDR Corporation Income Tax page (filing duty, 5.5% flat rate) verified 2026-10-28; **legis.la.gov requires session state for article text**, so statutory citations, thresholds, and forms are **needs-sources** — treat this as a map of exposure, not authority.
 
-## 2. Who applies
+## Rates, bands and thresholds
 
 - **Affiliated/unitary groups** with Louisiana filing members — combined-report exposure (ownership test expected 80%-type; **needs-sources**).
 - Any CIFT-620 filer making **intercompany royalty, interest, management, or service payments** to out-of-state affiliates — addback exposure.
 - Multistate filers whose **intercompany sales** move the Louisiana apportionment factor.
 - **S corporations taxed as corporations for Louisiana** (verified category on LDR page) — intra-group pricing matters at the entity level.
 
-## 3. Rules and adjustments
+## The taxable base
 
 | Mechanism | Rule sketch | Source status |
 |---|---|---|
@@ -47,7 +47,7 @@ Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pr
 | CbCR | no Louisiana-specific CbCR | structural, low risk |
 | Arm's-length standard | federal §482 flows through the federal-taxable-income starting point | **needs-sources** |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - No separate TP filing calendar; adjustments ride CIFT-620 (due 15th day of 5th month — verified) and any combined-report attachment.
 - Keep contemporaneous federal §6662(e) documentation — Louisiana examiners use the federal file. Linkage **needs-sources**.
@@ -57,7 +57,7 @@ Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pr
 - Understatements carry interest and accuracy penalties under R.S. 47 — tiers **needs-sources**.
 - No Louisiana-specific TP documentation penalty identified — absence **needs-sources**.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Foreign-parent groups: federal §482 starting point; state combination layers on top — **needs-sources**.
 - Intangible holding companies in zero-tax states (TX/NV/WY) are the classic Louisiana addback target given the 5.5% flat rate makes adjustments material.
@@ -97,14 +97,14 @@ expected:
   tax_effect: 4950
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Entity map: which affiliates receive intercompany payments and where are they taxed?
 - Is the group unitary/common-controlled — combined-report trigger?
 - Federal §6662(e) documentation on file?
 - Intercompany sales volumes that could swing the Louisiana sales factor.
 
-## 9. Sources
+## Sources
 
 - LDR Corporation Income Tax (duty, 5.5% flat rate, S-corp-as-corporation category): https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/ — read 2026-10-28, verified.
 - La. R.S. 47:287.83 (combination — numbering expected, unverified): https://legis.la.gov/legis/Laws_Toc.aspx?folder=90&title=47 — resolves; article text session-state; **needs-sources**.
