@@ -45,7 +45,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - Neb. Rev. Stat. §77-2715.03 (rate schedule and future rate reductions)
 - Nebraska 2025 Individual Income Tax Booklet
 
-## Section 2: Quick reference — rates and thresholds
+## Rates, bands and thresholds
 
 ### Tax brackets — Single / Married filing separately (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
 
@@ -108,7 +108,7 @@ Nebraska does **not** have its own standard deduction. The starting point is fed
 
 Nebraska does **not** permit local income taxes.
 
-## Section 3: How this skill works with the federal return
+## The taxable base
 
 Nebraska taxable income starts with **federal adjusted gross income (AGI)** from federal Form 1040, Line 11.
 
@@ -140,7 +140,7 @@ Nebraska taxable income starts with **federal adjusted gross income (AGI)** from
 | State income tax refund | If included in federal AGI |
 | Social Security (partial) | Nebraska is phasing out Social Security taxation — for TY 2025, Social Security benefits are fully exempt |
 
-## Section 4: Self-employed specific rules
+## Deadlines and filing
 
 ### Self-employment income flow
 
@@ -169,7 +169,7 @@ Nebraska's conformity with federal bonus depreciation under IRC §168(k) should 
 
 Nebraska is one of six states with an inheritance tax (separate from estate tax). This is administered at the county level and is **not** covered by this income tax skill. Self-employed taxpayers should be aware of this for estate planning purposes.
 
-## Section 5: Tier 1 rules — deterministic
+## Penalties and interest
 
 **Tier 1 rules table**
 
@@ -183,7 +183,7 @@ Nebraska is one of six states with an inheritance tax (separate from estate tax)
 | NE-T1-06 | Social Security benefits fully exempt for TY 2025 | Neb. Rev. Stat. §77-2716 (LB 873, 2024) |
 | NE-T1-07 | Top rate drops to 4.55% for TY 2026 and 3.99% for TY 2027 | Neb. Rev. Stat. §77-2715.03 |
 
-## Section 6: Tier 2 rules — requires judgment
+## Cross-border points
 
 **Tier 2 rules table**
 
@@ -194,21 +194,6 @@ Nebraska is one of six states with an inheritance tax (separate from estate tax)
 | NE-T2-03 | **Bonus depreciation conformity** | Verify NE's current IRC §168(k) conformity status for TY 2025. Add-backs may be required. |
 | NE-T2-04 | **Nebraska Advantage Act credits** | Business incentive credits under the Nebraska Advantage Act may be available. Requires verification of certification and compliance. |
 | NE-T2-05 | **Community property** | Nebraska is NOT a community property state. Standard federal rules apply for MFS. |
-
-## Section 7: Supplier pattern library
-
-**Supplier pattern library table**
-
-| Input needed | Where to find it |
-| --- | --- |
-| Federal AGI | Federal Form 1040, Line 11 |
-| NE additions | Schedule I (computed from federal return) |
-| NE subtractions | Schedule I (computed from federal return) |
-| Standard/itemized deduction | Federal amounts with NE modifications |
-| Personal exemption credit | Based on filing status and dependents |
-| Tax credits | Schedule II |
-| Estimated tax payments | 1040N-ES records |
-| NE withholding | W-2 Box 17 / 1099 NE withholding amounts |
 
 ## Section 8: Form mapping
 
@@ -228,7 +213,7 @@ Nebraska is one of six states with an inheritance tax (separate from estate tax)
 | Line 27 | Estimated tax payments | 1040N-ES payments |
 | Line 33 | Amount owed or refund | Computed |
 
-## Recomputing examples
+## Worked examples
 
 ```oa-check
 name: NE 2025 single, taxable income 30,000
@@ -256,6 +241,21 @@ steps:
 expected:
   tax: 2698.83
 ```
+
+## Ask the client first
+
+**Supplier pattern library table**
+
+| Input needed | Where to find it |
+| --- | --- |
+| Federal AGI | Federal Form 1040, Line 11 |
+| NE additions | Schedule I (computed from federal return) |
+| NE subtractions | Schedule I (computed from federal return) |
+| Standard/itemized deduction | Federal amounts with NE modifications |
+| Personal exemption credit | Based on filing status and dependents |
+| Tax credits | Schedule II |
+| Estimated tax payments | 1040N-ES records |
+| NE withholding | W-2 Box 17 / 1099 NE withholding amounts |
 
 ## Section 9: Refusal catalogue
 
