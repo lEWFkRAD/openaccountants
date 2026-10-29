@@ -1,7 +1,7 @@
 ---
 name: co-income-tax
 description: Use this skill whenever asked about Colorado individual income tax for self-employed individuals or sole proprietors — filing Form DR 0104, CO estimated tax (Form DR 0104EP), Colorado flat tax rate, Colorado additions and subtractions, or any query involving Colorado state income tax compliance. Trigger on phrases like "Colorado income tax", "CO income tax", "Form 104", "DR 0104", "Colorado estimated tax", "Colorado self-employed tax", "TABOR refund", or "C.R.S. §39-22".
-version: "0.2"
+version: 0.3
 jurisdiction: US-CO
 tax_year: 2026
 last_updated: 2026-10-28
@@ -14,7 +14,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Colorado individual income tax (Form DR 0104), including sole proprietors
 
-## Scope and who this is for ([Colorado Individual Income Tax Guide](https://tax.colorado.gov/individual-income-tax-guide))
+
+## Who this applies to
 
 This skill covers the Colorado individual income tax return, **Form DR 0104**, for **tax year 2026** (returns filed in 2027). It has a dated section for **2025 returns**. It is for full-year residents, part-year residents and nonresidents with Colorado-source income, including sole proprietors and single-member LLC owners whose business profit reaches Colorado through federal taxable income.
 
@@ -38,56 +39,10 @@ A person who is not required to file federally generally does not have to file i
 
 Someone who moves their domicile into or out of Colorado during the year is a part-year resident, not a statutory resident, even if they spent more than six months in Colorado. A person has only one domicile at a time.
 
-## Ask the client first
 
-- **Which tax year?** The 2026 return has new add-backs (overtime, a much lower deduction limit for high earners), a lower Colorado earned income tax credit, and no family affordability tax credit. The 2025 return does not.
-- **Residency for the whole year**: domicile, move dates, any Colorado home kept while living elsewhere, and days spent in Colorado. For a joint return, each spouse's status. Military: home of record and days stationed outside the U.S.
-- **Federal return**: filing status (Colorado must use the same one), federal taxable income (Form 1040 line 15), federal AGI (line 11a), and whether the client itemized.
-- **Federal deductions that Colorado adds back**: the §199A qualified business income (QBI) deduction amount, any state income tax on Schedule A, business meals on Schedule C line 24b, and, for 2026, the overtime deduction on Schedule 1-A. Also ask whether any partnership or S corporation issued a Colorado K-1 (DR 0106K) with the SALT Parity Election box marked.
-- **Does the client file Schedule F?** Farmers are outside the high-income QBI add-back.
-- **Dates of birth** of the taxpayer and spouse (age at 31 December drives the pension and Social Security subtractions), plus Form 1099-R distribution codes (death benefits; early distributions).
-- **Retirement income, per spouse**: taxable Social Security (line 6b) and gross benefits (line 6a) for each spouse, taxable pensions (line 5b) and taxable IRA distributions (line 4b). Also any military retirement, PERA/DPS or railroad retirement.
-- **Children**: ages at year-end, and the federal earned income credit allowed (Form 1040 line 27a). Did anyone lack a Social Security number valid for work?
-- **Payments**: Colorado withholding, estimated payments (dates and amounts), prior-year carryforward, prior-year Colorado net tax and prior-year federal AGI (for the 110% rule, [Individual Income Tax Guide, Part 6](https://tax.colorado.gov/individual-income-tax-guide)), and any extension payment made with DR 0158.
-- **Other states and cities**: income taxed by another state, and any city occupational privilege tax withheld.
+## Rates, bands and thresholds
 
-## The method, step by step
-
-Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf)). Check them against the 2026 form when DOR publishes it.
-
-1. **Finish the federal return first.** Colorado tax is based on federal taxable income, which already reflects the federal standard or itemized deduction and, where claimed, the QBI deduction. A sole proprietor's Schedule C profit, half of self-employment tax, self-employed health insurance, and SEP or solo 401(k) contributions all flow through with no Colorado entry.
-2. **Line 1: federal taxable income** from Form 1040, 1040-SR or 1040-SP line 15, not AGI and not wages. Enter a negative amount as negative.
-3. **Additions (lines 2 to 9).** Work through every addition in "Additions and subtractions" below:
-   - line 2, state income tax addback;
-   - line 3, QBI addback;
-   - line 4, standard or itemized federal deduction addback;
-   - line 5, business meals;
-   - lines 6 and 7, non-qualifying CollegeInvest and ABLE distributions;
-   - line 9, other additions (non-Colorado state and municipal bond interest, K-1 additions and others).
-
-   For 2026, also expect an overtime addback; the 2026 form has not been published, so the line is not yet known.
-4. **Line 10, subtotal** = line 1 plus the additions.
-5. **Line 11, subtractions** from Schedule DR 0104AD, line 22 (2025). Do not enter negative amounts. Submit the DR 0104AD with the return.
-6. **Line 12, Colorado taxable income** = line 10 minus line 11.
-7. **Line 13, tax.**
-   - **Full-year residents:** use the DOR tax table if taxable income is under $50,000 ([Individual Income Tax Guide, Part 2](https://tax.colorado.gov/individual-income-tax-guide)). Otherwise multiply line 12 by the rate for the year (see "Figures by year").
-   - **Part-year residents and nonresidents:** complete DR 0104PN (step 9) and carry its line 36 to line 13.
-8. **Lines 14 to 21: alternative minimum tax, recapture, credits.**
-   - Colorado AMT: first complete federal Form 6251, then DR 0104AMT. Tentative minimum tax is Colorado alternative minimum taxable income times 3.47% ([Individual Income Tax Guide, Part 2](https://tax.colorado.gov/individual-income-tax-guide)). Colorado AMT is the excess of that over the normal Colorado tax.
-   - Nonrefundable credits come from DR 0104CR and cannot exceed line 16.
-9. **Part-year residents and nonresidents: DR 0104PN.**
-   - Compute the tax on **all** Colorado taxable income from line 12, as if the client were a full-year resident (PN line 35).
-   - PN line 34 ratio = modified Colorado AGI (line 33) divided by modified federal AGI (line 32), rounded to four decimal places. The ratio can exceed 100% ([Part-Year Residents & Nonresidents](https://tax.colorado.gov/income-tax-topics-part-year-residents-nonresidents)).
-   - PN line 36 = line 35 times the line 34 percentage. Carry it to DR 0104 line 13.
-   - The state income tax addback, conservation easement addback, federal deduction addback and QBI addback are **not** entered on PN line 26.
-   - A nonresident's retirement income (4 U.S.C. §114(b)) is not Colorado-source income.
-10. **Lines 24 to 33, payments and refundable credits**: withholding (submit the W-2s and 1099s), prior-year carryforward, estimated payments, extension payment, other prepayments, and refundable credits from DR 0104CR (for example the Colorado earned income tax credit).
-11. **Lines 34 to 38, TABOR state sales tax refund** (full-year residents only). Modified AGI = federal AGI + nontaxable Social Security (line 6a minus line 6b) + non-Colorado bond interest added on line 9. Look up the amount in the refund table for the year.
-12. **Lines 39 to 42, balance or refund**, including any carryforward to next year's estimates. Then check the estimated tax penalty (DR 0204), late payment penalty and interest.
-
-## Figures by year
-
-### Rate ([Colorado Individual Income Tax Guide, Part 2](https://tax.colorado.gov/individual-income-tax-guide); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [TABOR refunds](https://tax.colorado.gov/TABOR))
+### Rate ([Colorado Individual Income Tax Guide, Part 2](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [TABOR refunds](https://tax.colorado.gov/TABOR))
 
 | Tax year | Rate on Colorado taxable income | Note |
 | --- | --- | --- |
@@ -99,7 +54,7 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 - **Temporary TABOR rate cuts** (SB 24-228, [bill summary](https://leg.colorado.gov/bills/sb24-228)) are active for income tax years 2024 through 2034. The rate is cut only if "remaining excess state revenues" (the surplus left after the property tax reimbursement in step 1 of "TABOR refund mechanisms" below) are above $300 million. The size of the cut follows the table there.
 - **Do not quote a reduced 2026 rate** until DOR publishes one. Check the rate table in the Individual Income Tax Guide, Part 2, before filing a 2026 return. If a reduced rate is published, recompute the tax and any estimate built on 4.4%.
 
-### Additions and subtractions that most often matter ([Colorado Individual Income Tax Guide, Parts 3 and 4](https://tax.colorado.gov/individual-income-tax-guide); [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
+### Additions and subtractions that most often matter ([Colorado Individual Income Tax Guide, Parts 3 and 4](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
 
 | Item | 2025 | 2026 |
 | --- | --- | --- |
@@ -121,7 +76,7 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 - **SALT Parity route.** Separately, a partner or shareholder in a partnership or S corporation that made a **SALT Parity Election** (shown on the Colorado K-1, DR 0106K) must add back their **whole** QBI deduction at any AGI. This is not limited to the electing entity's share.
 - **HB 25B-1001** (2025 special session, signed 28 August 2025) struck the words "but before January 1, 2026", so the addback continues for 2026 and later. A 2025 special-session bill to end it ([HB 25B-1020](https://leg.colorado.gov/bills/hb25b-1020)) was lost.
 
-**Standard or itemized federal deduction addback** ([2025 Book 104, line 4](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [Individual Income Tax Guide, Part 3](https://tax.colorado.gov/individual-income-tax-guide); [January 2026 tax policy updates](https://tax.colorado.gov/january-2026-tax-policy-updates))
+**Standard or itemized federal deduction addback** ([2025 Book 104, line 4](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [Individual Income Tax Guide, Part 3](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [January 2026 tax policy updates](https://tax.colorado.gov/january-2026-tax-policy-updates))
 - **Applies only if both** are true:
   - federal AGI (Form 1040 line 11a) **exceeds** $300,000;
   - the federal standard or itemized deduction (line 12e) exceeds the limit for the year.
@@ -138,7 +93,7 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 - **Married filing separately:** if either spouse itemizes, the standard deduction for each spouse is $0 for this worksheet.
 - **Pass-through share.** A partner's or resident S corporation shareholder's share of state income tax deducted by the entity (Colorado K-1 line 9, Column A) is added back in full, in addition to their own. A **nonresident** S corporation shareholder adds back only their share of **Colorado** income tax the S corporation deducted (Column B), not tax paid to other states.
 
-**Overtime addback, 2026 and later** ([Individual Income Tax Guide, Part 3](https://tax.colorado.gov/individual-income-tax-guide); [HB 25-1296](https://leg.colorado.gov/bills/hb25-1296))
+**Overtime addback, 2026 and later** ([Individual Income Tax Guide, Part 3](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [HB 25-1296](https://leg.colorado.gov/bills/hb25-1296))
 - A taxpayer who claims the federal overtime compensation deduction must add back the **full amount** claimed on Schedule 1-A (Form 1040).
 - There is **no addback** for the federal qualified tips deduction.
 - Overtime pay remains subject to Colorado **wage withholding** even when it is exempt from federal withholding.
@@ -148,7 +103,7 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 **Other 2025 special session changes** ([HB 25B-1002](https://leg.colorado.gov/bills/hb25b-1002))
 - HB 25B-1002 adds, for C corporations only and from 1 January 2026, an addback of the federal foreign-derived deduction eligible income deduction and new "listed" tax-haven jurisdictions. It does not change the individual return; nor do the other enacted special-session tax bills (insurance premium tax, sale of tax credits, sales tax vendor fee).
 
-**Subtractions for state income tax refunds and U.S. government interest** ([Individual Income Tax Guide, Part 4](https://tax.colorado.gov/individual-income-tax-guide); [2025 Book 104, DR 0104AD lines 1 and 2](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
+**Subtractions for state income tax refunds and U.S. government interest** ([Individual Income Tax Guide, Part 4](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [2025 Book 104, DR 0104AD lines 1 and 2](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
 - **State income tax refunds (DR 0104AD line 1).** Subtract any state income tax refunds, credits or offsets reported on the federal return and included in federal taxable income. This is generally the amount on line 1 of federal Schedule 1, which is usually there only if the client itemized in the year the tax was paid. If the client did not complete Schedule 1, enter zero.
 - **U.S. government interest (DR 0104AD line 2).** Subtract interest on obligations of the United States and its possessions, and income from U.S. government stocks or obligations, but only to the extent it is included in federal taxable income. No subtraction is allowed for:
   - any obligation or payment from the U.S. government for services rendered;
@@ -156,10 +111,10 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 
   The booklet also excludes interest from Fannie Mae and Ginnie Mae, and warns that mutual fund dividends may not be 100% exempt.
 
-**Business meals addback, line 5** ([Individual Income Tax Guide, Part 3](https://tax.colorado.gov/individual-income-tax-guide))
+**Business meals addback, line 5** ([Individual Income Tax Guide, Part 3](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf))
 - For tax years 2024 through 2030, add back the **full** federal deduction for business meals under IRC §274(k): the amount on Schedule C line 24b, plus any business meals addition on Colorado K-1 line 10, Column A.
 
-### Pension, annuity and Social Security subtraction ([Income Tax Topics: Social Security, Pensions and Annuities](https://tax.colorado.gov/income-tax-topics-social-security-pensions-and-annuities); [2025 Book 104, DR 0104AD lines 3 and 4](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
+### Pension, annuity and Social Security subtraction ([Income Tax Topics: Social Security, Pensions and Annuities](https://tax.colorado.gov/sites/default/files/documents/ITT_Social_Security_Pensions_and_Annuities_Jan_2025.pdf); [2025 Book 104, DR 0104AD lines 3 and 4](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
 
 | Age on 31 December | Social Security included in federal taxable income | Cap on pension and annuity subtraction |
 | --- | --- | --- |
@@ -184,7 +139,7 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 
   The same income cannot be subtracted twice.
 
-### Colorado earned income tax credit and family affordability tax credit ([Income Tax Topics: Earned Income Tax Credit](https://tax.colorado.gov/income-tax-topics-earned-income-tax-credit); [Income Tax Topics: Family Affordability Tax Credit](https://tax.colorado.gov/income-tax-topics-family-affordability-tax-credit))
+### Colorado earned income tax credit and family affordability tax credit ([Income Tax Topics: Earned Income Tax Credit](https://tax.colorado.gov/sites/default/files/documents/ITT_Earned_Income_Tax_Credit_Apr_2025.pdf); [Income Tax Topics: Family Affordability Tax Credit](https://tax.colorado.gov/sites/default/files/documents/ITT_Family_Affordability_Tax_Credit_Jan_2026.pdf))
 
 | Credit | 2025 | 2026 |
 | --- | --- | --- |
@@ -214,7 +169,7 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 - **Part-year residents** multiply it by the DR 0104PN line 34 percentage, capped at 100%.
 - **Claiming it** takes DR 0104, DR 0104CR and DR 0104CN.
 
-### TABOR refund mechanisms ([SB 24-228](https://leg.colorado.gov/bills/sb24-228); [TABOR](https://tax.colorado.gov/TABOR); [Income Tax Topics: State Sales Tax Refund](https://tax.colorado.gov/income-tax-topics-state-sales-tax-refund))
+### TABOR refund mechanisms ([SB 24-228](https://leg.colorado.gov/bills/sb24-228); [TABOR](https://tax.colorado.gov/TABOR); [Income Tax Topics: State Sales Tax Refund](https://tax.colorado.gov/sites/default/files/documents/ITT_State_Sales_Tax_Refund_Nov_2025.pdf))
 
 When state revenue exceeds the TABOR limit, SB 24-228 refunds it in this order:
 1. **Property tax reimbursement** to local governments for the homestead exemptions (qualifying seniors, veterans with disabilities, surviving spouses of veterans who died in the line of duty) and the qualified-senior valuation reduction.
@@ -251,22 +206,43 @@ When state revenue exceeds the TABOR limit, SB 24-228 refunds it in this order:
 - **Joint returns.** If one spouse qualifies and the other does not, the joint return gets the single amount.
 - **2026:** any TABOR refund for 2026 depends on the 2025-26 fiscal year surplus. DOR had not published 2026 amounts on 25 September 2026.
 
-### Penalties and interest ([Individual Income Tax Guide, Parts 6 and 7](https://tax.colorado.gov/individual-income-tax-guide))
 
-| Item | 2025 | 2026 |
-| --- | --- | --- |
-| Interest on late tax, regular rate | 12% | 11% |
-| Interest, discounted rate | 9% | 8% |
-| Estimated tax penalty rate (charged as interest) | 12% | 11% |
+## The taxable base
 
-- **Late payment penalty**: the greater of $5 or 5% of the unpaid tax, plus 0.5% for each month it stays unpaid, up to 12% in total. It is waived only if **all** of these are met:
-  - at least 90% of the tax was paid by the original due date;
-  - the return is filed by the extended due date;
-  - the balance is paid with the return.
-- **Discounted interest** applies if the tax is paid in full before a notice of deficiency or within 30 days of it, or if a monthly payment agreement is made within those 30 days.
-- **Interest** runs from the original due date, not including any extension. An extension to file is not an extension to pay.
+Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf)). Check them against the 2026 form when DOR publishes it.
 
-## Boundary and exception table ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [Individual Income Tax Guide](https://tax.colorado.gov/individual-income-tax-guide); [Social Security, Pensions and Annuities](https://tax.colorado.gov/income-tax-topics-social-security-pensions-and-annuities))
+1. **Finish the federal return first.** Colorado tax is based on federal taxable income, which already reflects the federal standard or itemized deduction and, where claimed, the QBI deduction. A sole proprietor's Schedule C profit, half of self-employment tax, self-employed health insurance, and SEP or solo 401(k) contributions all flow through with no Colorado entry.
+2. **Line 1: federal taxable income** from Form 1040, 1040-SR or 1040-SP line 15, not AGI and not wages. Enter a negative amount as negative.
+3. **Additions (lines 2 to 9).** Work through every addition in "Additions and subtractions" below:
+   - line 2, state income tax addback;
+   - line 3, QBI addback;
+   - line 4, standard or itemized federal deduction addback;
+   - line 5, business meals;
+   - lines 6 and 7, non-qualifying CollegeInvest and ABLE distributions;
+   - line 9, other additions (non-Colorado state and municipal bond interest, K-1 additions and others).
+
+   For 2026, also expect an overtime addback; the 2026 form has not been published, so the line is not yet known.
+4. **Line 10, subtotal** = line 1 plus the additions.
+5. **Line 11, subtractions** from Schedule DR 0104AD, line 22 (2025). Do not enter negative amounts. Submit the DR 0104AD with the return.
+6. **Line 12, Colorado taxable income** = line 10 minus line 11.
+7. **Line 13, tax.**
+   - **Full-year residents:** use the DOR tax table if taxable income is under $50,000 ([Individual Income Tax Guide, Part 2](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf)). Otherwise multiply line 12 by the rate for the year (see "Figures by year").
+   - **Part-year residents and nonresidents:** complete DR 0104PN (step 9) and carry its line 36 to line 13.
+8. **Lines 14 to 21: alternative minimum tax, recapture, credits.**
+   - Colorado AMT: first complete federal Form 6251, then DR 0104AMT. Tentative minimum tax is Colorado alternative minimum taxable income times 3.47% ([Individual Income Tax Guide, Part 2](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf)). Colorado AMT is the excess of that over the normal Colorado tax.
+   - Nonrefundable credits come from DR 0104CR and cannot exceed line 16.
+9. **Part-year residents and nonresidents: DR 0104PN.**
+   - Compute the tax on **all** Colorado taxable income from line 12, as if the client were a full-year resident (PN line 35).
+   - PN line 34 ratio = modified Colorado AGI (line 33) divided by modified federal AGI (line 32), rounded to four decimal places. The ratio can exceed 100% ([Part-Year Residents & Nonresidents](https://tax.colorado.gov/income-tax-topics-part-year-residents-nonresidents)).
+   - PN line 36 = line 35 times the line 34 percentage. Carry it to DR 0104 line 13.
+   - The state income tax addback, conservation easement addback, federal deduction addback and QBI addback are **not** entered on PN line 26.
+   - A nonresident's retirement income (4 U.S.C. §114(b)) is not Colorado-source income.
+10. **Lines 24 to 33, payments and refundable credits**: withholding (submit the W-2s and 1099s), prior-year carryforward, estimated payments, extension payment, other prepayments, and refundable credits from DR 0104CR (for example the Colorado earned income tax credit).
+11. **Lines 34 to 38, TABOR state sales tax refund** (full-year residents only). Modified AGI = federal AGI + nontaxable Social Security (line 6a minus line 6b) + non-Colorado bond interest added on line 9. Look up the amount in the refund table for the year.
+12. **Lines 39 to 42, balance or refund**, including any carryforward to next year's estimates. Then check the estimated tax penalty (DR 0204), late payment penalty and interest.
+
+
+## Boundary and exception table ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [Individual Income Tax Guide](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [Social Security, Pensions and Annuities](https://tax.colorado.gov/sites/default/files/documents/ITT_Social_Security_Pensions_and_Annuities_Jan_2025.pdf))
 
 | Situation | Rule |
 | --- | --- |
@@ -281,7 +257,67 @@ When state revenue exceeds the TABOR limit, SB 24-228 refunds it in this order:
 | 2026 overtime deducted federally; tips deducted federally | Add back overtime; no addback for tips |
 | Prior-year federal AGI above $150,000 ($75,000 if married filing separately) | Estimated tax safe harbor is 110% of prior-year tax, not 100% |
 
-## Worked cases ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [Individual Income Tax Guide](https://tax.colorado.gov/individual-income-tax-guide))
+
+## Deadlines and filing ([Individual Income Tax Guide, Parts 6 to 8](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
+
+- **Due date:** 15 April of the following year (15 April 2027 for 2026), or the next business day if it falls on a weekend or holiday.
+- **Extension:** an automatic six-month extension to file, to 15 October. There is no extension to pay. To avoid the late payment penalty, pay at least 90% of the tax by 15 April (Revenue Online or DR 0158), file by 15 October and pay the rest with the return.
+- **Abroad on the due date:** the filing deadline is 15 June, and 15 October with the automatic extension. Interest still runs from 15 April, and the 90% rule applies.
+- **E-filing is required** for more than five dependents.
+- **Estimated tax: who must pay.** Anyone whose net Colorado tax after withholding and credits is expected to be more than $1,000. No estimates are required, and no penalty is due, if either:
+  - the net tax less all credits, withholding and any sales tax refund is under $1,000; or
+  - the client was a full-year resident for a 12-month prior year with no net Colorado tax liability.
+- **Estimated tax: required annual payment** is the lesser of:
+  - 70% of the current year's net tax;
+  - 100% of the prior year's net tax. If prior-year federal AGI was more than $150,000 (more than $75,000 if married filing separately), use 110% instead.
+
+  The prior-year options apply only if the client filed a Colorado return for a 12-month prior year.
+- **Farmers and fishermen** (at least 2/3 of gross income from farming or fishing, for the tax year or for the preceding tax year): 50% of the current tax, paid in one installment by 15 January. Alternatively, file and pay in full by 1 March.
+- **Estimated tax: due dates** are 15 April, 15 June and 15 September, and 15 January of the next year.
+  - Pay through Revenue Online, EFT, or a check with DR 0104EP.
+  - Couples who pay federal estimates jointly must pay Colorado estimates jointly, with the SSNs in the same order on every form.
+  - The annualized method is allowed only if the client also uses it federally.
+- **Estimated tax penalty (DR 0204).** It is interest on each underpaid installment. Withholding and the sales tax refund count as paid 25% per quarter unless actual dates are shown. There is no penalty on an underpaid fourth installment if the return is filed and the tax paid by 31 January.
+- **Refunds.** Claim within four years of the due date (excluding extensions) on an original return. On an amended return, claim within four years of the original filing; later claims are limited to payments made in the preceding three years.
+
+### 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
+
+- **Rate** 4.4% (tax table under $50,000; worksheet at 4.4% above).
+- **Deduction addback** limits: $12,000 or $16,000. There is no overtime addback.
+- **Credits and refund:** Colorado EITC at 50%, the FATC is available, and the 2025 TABOR sales tax refund is on line 38.
+- **The TABOR refund** requires the return (or PTC application) to be filed by 15 October 2026.
+- **2025 estimated tax penalty and interest** use 12%, and the discounted interest rate is 9%.
+
+
+## Penalties and interest
+
+### Penalties and interest ([Individual Income Tax Guide, Parts 6 and 7](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf))
+
+| Item | 2025 | 2026 |
+| --- | --- | --- |
+| Interest on late tax, regular rate | 12% | 11% |
+| Interest, discounted rate | 9% | 8% |
+| Estimated tax penalty rate (charged as interest) | 12% | 11% |
+
+- **Late payment penalty**: the greater of $5 or 5% of the unpaid tax, plus 0.5% for each month it stays unpaid, up to 12% in total. It is waived only if **all** of these are met:
+  - at least 90% of the tax was paid by the original due date;
+  - the return is filed by the extended due date;
+  - the balance is paid with the return.
+- **Discounted interest** applies if the tax is paid in full before a notice of deficiency or within 30 days of it, or if a monthly payment agreement is made within those 30 days.
+- **Interest** runs from the original due date, not including any extension. An extension to file is not an extension to pay.
+
+
+## Cross-border points
+
+- **Multistate business income** needing apportionment under §39-22-303.6, C.R.S., the credit for tax paid to another state, or wages earned both inside and outside Colorado.
+- **Partnership and S corporation owners**: SALT Parity elections, DR 0106K modifications, nonresident shareholder addbacks and composite filings.
+- **Military servicemembers and spouses**: nonresident elections, the reacquired-residency subtraction and DR 1059.
+- **Part-year residents and nonresidents** compute tax on DR 0104PN: the tax on all Colorado taxable income (line 35) times the line 34 ratio (modified Colorado AGI over modified federal AGI, rounded to four decimals, which can exceed 100%), carried to DR 0104 line 13 — see [Income Tax Topics: Part-Year Residents & Nonresidents](https://tax.colorado.gov/income-tax-topics-part-year-residents-nonresidents).
+- **Credit for tax paid to another state:** a full-year resident taxed on the same income by another state may claim a credit (C.R.S. §39-22-108; see the Department's "Income Tax Topics: Credit for Tax Paid to Another State" publication).
+- **Treaties:** U.S. income-tax treaties do not limit Colorado's tax on residents' worldwide income.
+
+
+## Worked examples ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [Individual Income Tax Guide](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf))
 
 Amounts described as client facts are hypothetical inputs. 2026 cases use 4.4% because DOR had not published any other 2026 rate on 25 September 2026.
 
@@ -340,48 +376,29 @@ Client facts: federal taxable income $90,000; DR 0104PN modified federal AGI (li
   - FATC: none, because it is not available for 2026.
 - A child aged 4 may also qualify for the separate Colorado child tax credit (DR 0104CN) in both years. That credit is not covered here, so check it before filing.
 
+
+## Ask the client first
+
+- **Which tax year?** The 2026 return has new add-backs (overtime, a much lower deduction limit for high earners), a lower Colorado earned income tax credit, and no family affordability tax credit. The 2025 return does not.
+- **Residency for the whole year**: domicile, move dates, any Colorado home kept while living elsewhere, and days spent in Colorado. For a joint return, each spouse's status. Military: home of record and days stationed outside the U.S.
+- **Federal return**: filing status (Colorado must use the same one), federal taxable income (Form 1040 line 15), federal AGI (line 11a), and whether the client itemized.
+- **Federal deductions that Colorado adds back**: the §199A qualified business income (QBI) deduction amount, any state income tax on Schedule A, business meals on Schedule C line 24b, and, for 2026, the overtime deduction on Schedule 1-A. Also ask whether any partnership or S corporation issued a Colorado K-1 (DR 0106K) with the SALT Parity Election box marked.
+- **Does the client file Schedule F?** Farmers are outside the high-income QBI add-back.
+- **Dates of birth** of the taxpayer and spouse (age at 31 December drives the pension and Social Security subtractions), plus Form 1099-R distribution codes (death benefits; early distributions).
+- **Retirement income, per spouse**: taxable Social Security (line 6b) and gross benefits (line 6a) for each spouse, taxable pensions (line 5b) and taxable IRA distributions (line 4b). Also any military retirement, PERA/DPS or railroad retirement.
+- **Children**: ages at year-end, and the federal earned income credit allowed (Form 1040 line 27a). Did anyone lack a Social Security number valid for work?
+- **Payments**: Colorado withholding, estimated payments (dates and amounts), prior-year carryforward, prior-year Colorado net tax and prior-year federal AGI (for the 110% rule, [Individual Income Tax Guide, Part 6](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf)), and any extension payment made with DR 0158.
+- **Other states and cities**: income taxed by another state, and any city occupational privilege tax withheld.
+
+
 ## When to refuse or refer
 
 - **Residency in doubt**: a Colorado home kept while claiming domicile elsewhere, more than six months in Colorado without domicile, or an unproven mid-year move. The six-month statutory-resident test and domicile evidence are fact-heavy; see DOR Rule 39-22-103(8)(a).
-- **Multistate business income** needing apportionment under §39-22-303.6, C.R.S., the credit for tax paid to another state, or wages earned both inside and outside Colorado.
-- **Partnership and S corporation owners**: SALT Parity elections, DR 0106K modifications, nonresident shareholder addbacks and composite filings.
 - **Net operating losses** with any non-Colorado portion. Non-Colorado NOL deductions must be added back, and part-year allocation uses a days fraction.
 - **Colorado AMT**, the Colorado capital gain subtraction, conservation easement credits and additions, enterprise zone, CHIPS zone and strategic capital credits.
 - **A 2026 return filed before DOR publishes the 2026 DR 0104 and booklet.** Confirm the rate, the overtime addback line and any TABOR refund first.
-- **Military servicemembers and spouses**: nonresident elections, the reacquired-residency subtraction and DR 1059.
 - **City occupational privilege taxes (OPT).** These are levied by certain Colorado cities, not the state, and are not claimed on DR 0104. The Schedule A deduction for local occupational taxes is **not** part of the state income tax addback. Send the client to the city that levies the tax for rates, exemptions and employer withholding.
 - **Audits, protests and assessments**: a protest must be filed within 30 days of the notice. Also refer amended returns after IRS changes (DR 0104X within 180 days) and any suggestion of fraud or evasion.
-
-## Filing and payment ([Individual Income Tax Guide, Parts 6 to 8](https://tax.colorado.gov/individual-income-tax-guide); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
-
-- **Due date:** 15 April of the following year (15 April 2027 for 2026), or the next business day if it falls on a weekend or holiday.
-- **Extension:** an automatic six-month extension to file, to 15 October. There is no extension to pay. To avoid the late payment penalty, pay at least 90% of the tax by 15 April (Revenue Online or DR 0158), file by 15 October and pay the rest with the return.
-- **Abroad on the due date:** the filing deadline is 15 June, and 15 October with the automatic extension. Interest still runs from 15 April, and the 90% rule applies.
-- **E-filing is required** for more than five dependents.
-- **Estimated tax: who must pay.** Anyone whose net Colorado tax after withholding and credits is expected to be more than $1,000. No estimates are required, and no penalty is due, if either:
-  - the net tax less all credits, withholding and any sales tax refund is under $1,000; or
-  - the client was a full-year resident for a 12-month prior year with no net Colorado tax liability.
-- **Estimated tax: required annual payment** is the lesser of:
-  - 70% of the current year's net tax;
-  - 100% of the prior year's net tax. If prior-year federal AGI was more than $150,000 (more than $75,000 if married filing separately), use 110% instead.
-
-  The prior-year options apply only if the client filed a Colorado return for a 12-month prior year.
-- **Farmers and fishermen** (at least 2/3 of gross income from farming or fishing, for the tax year or for the preceding tax year): 50% of the current tax, paid in one installment by 15 January. Alternatively, file and pay in full by 1 March.
-- **Estimated tax: due dates** are 15 April, 15 June and 15 September, and 15 January of the next year.
-  - Pay through Revenue Online, EFT, or a check with DR 0104EP.
-  - Couples who pay federal estimates jointly must pay Colorado estimates jointly, with the SSNs in the same order on every form.
-  - The annualized method is allowed only if the client also uses it federally.
-- **Estimated tax penalty (DR 0204).** It is interest on each underpaid installment. Withholding and the sales tax refund count as paid 25% per quarter unless actual dates are shown. There is no penalty on an underpaid fourth installment if the return is filed and the tax paid by 31 January.
-- **Refunds.** Claim within four years of the due date (excluding extensions) on an original return. On an amended return, claim within four years of the original filing; later claims are limited to payments made in the preceding three years.
-
-### 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
-
-- **Rate** 4.4% (tax table under $50,000; worksheet at 4.4% above).
-- **Deduction addback** limits: $12,000 or $16,000. There is no overtime addback.
-- **Credits and refund:** Colorado EITC at 50%, the FATC is available, and the 2025 TABOR sales tax refund is on line 38.
-- **The TABOR refund** requires the return (or PTC application) to be filed by 15 October 2026.
-- **2025 estimated tax penalty and interest** use 12%, and the discounted interest rate is 9%.
-
 ## Completion checklist ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
 
 - **Year**: rate, addback limits, EITC percentage and FATC availability match the tax year.
@@ -396,6 +413,34 @@ Client facts: federal taxable income $90,000; DR 0104PN modified federal AGI (li
 <!-- openaccountants-cta-block -->
 
 ---
+
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Colorado DOR — Individual Income Tax Guide (January 2026) | https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf | 2026-10-28 |
+| Colorado DOR — 2025 Individual Income Tax Book (Book 104) | https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf | 2026-10-28 |
+| Colorado DOR — Form DR 0104EP (2026) | https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf | 2026-10-28 |
+| Colorado DOR — Form DR 0104EP (2025) | https://tax.colorado.gov/sites/tax/files/documents/DR0104EP_2025.pdf | 2026-10-28 |
+| Colorado DOR — Income Tax Topics: Social Security, Pensions and Annuities (Jan 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_Social_Security_Pensions_and_Annuities_Jan_2025.pdf | 2026-10-28 |
+| Colorado DOR — Income Tax Topics: Earned Income Tax Credit (Apr 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_Earned_Income_Tax_Credit_Apr_2025.pdf | 2026-10-28 |
+| Colorado DOR — Income Tax Topics: Family Affordability Tax Credit (Jan 2026) | https://tax.colorado.gov/sites/default/files/documents/ITT_Family_Affordability_Tax_Credit_Jan_2026.pdf | 2026-10-28 |
+| Colorado DOR — Income Tax Topics: State Sales Tax Refund (Nov 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_State_Sales_Tax_Refund_Nov_2025.pdf | 2026-10-28 |
+| Colorado DOR — Income Tax Topics: State Income Tax Addback | https://tax.colorado.gov/income-tax-topics-state-income-tax-addback | 2026-10-28 |
+| Colorado DOR — Income Tax Topics: Part-Year Residents & Nonresidents | https://tax.colorado.gov/income-tax-topics-part-year-residents-nonresidents | 2026-10-28 |
+| Colorado DOR — TABOR | https://tax.colorado.gov/TABOR | 2026-10-28 |
+| Colorado DOR — January 2026 tax policy updates | https://tax.colorado.gov/january-2026-tax-policy-updates | 2026-10-28 |
+| Colorado General Assembly — HB 25B-1001 session law (approved 28 August 2025) | https://leg.colorado.gov/laws/session-laws/HB25B-1001/5/download | 2026-10-28 |
+| Colorado General Assembly — SB 24-228 bill page | https://leg.colorado.gov/bills/sb24-228 | 2026-10-28 |
+| Colorado General Assembly — HB 25-1296 bill page (overtime addback) | https://leg.colorado.gov/bills/hb25-1296 | 2026-10-28 |
+| Colorado General Assembly — HB 25B-1002 bill page (C-corporation changes) | https://leg.colorado.gov/bills/hb25b-1002 | 2026-10-28 |
+| Colorado General Assembly — HB 25B-1020 bill page (lost bill) | https://leg.colorado.gov/bills/hb25b-1020 | 2026-10-28 |
+| Colorado General Assembly — SB 26-056 bill page (lost bill) | https://leg.colorado.gov/bills/SB26-056 | 2026-10-28 |
+| Colorado OLLS — Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
+
+Not yet confirmed: the 2026 form line numbers (the 2026 DR 0104 and booklet were not published as of 25 September 2026, so line references are from the 2025 booklet); the 2026 TABOR sales-tax-refund amounts (DOR had not published them on 25 September 2026); the QBI addback's codified sunset language (the archived HB 25B-1001 enrolled text retains "before January 1, 2026" from the prior version while the act's declaration frames it as a permanent continuation — confirm against the codified C.R.S. 39-22-104(3)(o) before relying on it for 2026); AGI thresholds for the Social Security subtraction for head-of-household and married-filing-separately filers (DOR states only single $75,000 and joint $95,000); the FATC AGI limit for joint filers as stated ($96,000) versus the published joint credit table reaching $0 at "$95,001 or more".
+
 
 ## Talk to a verified accountant
 
