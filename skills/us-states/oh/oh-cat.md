@@ -3,7 +3,8 @@ name: oh-cat
 description: Ohio Commercial Activity Tax (CAT) — ORC Chapter 5751
 jurisdiction: US-OH
 tax_year: 2026
-last_updated: 2026-10-16
+version: "0.2"
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -83,6 +84,7 @@ This follows the Department's guidance; codes.ohio.gov could not be reached on 2
 | 2014 to 2023 | TGR more than $150,000, with bright-line presence | $1,000,000 | 0.26% | $150 to $2,600 (below) | Annual if TGR under $1 million; otherwise quarterly |
 
 - "Effective for tax periods beginning on and after January 1, 2024, the CAT annual minimum tax is eliminated." The minimum tax is repealed from 2024, not from 2025.
+- Exclusion amounts VERIFIED against archived statute and forms: [ORC 5751.01(R)](https://codes.ohio.gov/ohio-revised-code/section-5751.01): "‘Exclusion amount’ means three million dollars beginning in 2024 and six million dollars beginning in 2025." Archived CAT 1 registration instructions (Rev. 11/23): threshold "$150,000 for 2005 through 2023; $3,000,000 for 2024; $6,000,000 for 2025 and thereafter" and "Taxpayers whose annual taxable gross receipts exceed $1,000,000 must file quarterly. For tax periods prior to 2024, taxpayers with annual taxable gross receipts less than $1,000,000 must file annually."
 - "The CAT rate of 0.26% remains unchanged" ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023)).
 - The Department's tables state the exclusion as "more than" / "or less": at **exactly** $6,000,000 of 2026 TGR, no CAT is due and no return is required.
 

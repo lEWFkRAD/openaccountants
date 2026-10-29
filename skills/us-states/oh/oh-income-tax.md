@@ -1,10 +1,10 @@
 ---
 name: oh-income-tax
 description: Triggers when the taxpayer is an Ohio resident sole proprietor or single-member LLC needing to file Ohio Form IT 1040. Covers Ohio's graduated income tax on nonbusiness income (0%, 2.75%, 3.125% for tax year 2025), the business income deduction ($250,000 exclusion taxed at flat 3%), Ohio Schedule of Adjustments, and interaction with federal AGI. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
-version: "0.1"
+version: "0.2"
 jurisdiction: US-OH
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -150,9 +150,11 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 | $50,001 to $75,000 | 10% |
 | $75,001 to $749,999 | 5% |
 
+  VERIFIED against archived [ORC 5747.05(E)](https://codes.ohio.gov/ohio-revised-code/section-5747.05): "a credit equal to the lesser of six hundred fifty dollars or the percentage shown in column B ... $25,000 or less 20% ... More than $75,000 5% ... No taxpayer shall claim this credit unless the taxpayer's modified adjusted gross income is less than seven hundred fifty thousand dollars for taxable years beginning in 2025 or less than five hundred thousand dollars for taxable years beginning in 2026 or thereafter." Note the statute's MAGI cliff drops to **$500,000 for 2026 and later**.
+
 - **Ohio earned income credit (line 13):** 30% of the federal earned income credit, nonrefundable.
 - **Campaign contribution credit (line 8):** repealed by HB 96; the instructions say it is not available after tax year 2025.
-- **2026:** the Department had not published 2026 credit limits by 25 September 2026. The 2026 IT 1040ES worksheet lowers the exemption cut-off to $500,000; check whether the $750,000 limits on the joint filing credit also changed before using them for 2026.
+- **2026:** the Department had not published 2026 credit limits by 25 September 2026. The 2026 IT 1040ES worksheet lowers the exemption cut-off to $500,000 — and archived ORC 5747.05(E)(2) confirms the joint filing credit MAGI cliff is **less than $500,000 for taxable years beginning in 2026 or thereafter** (down from $750,000 for 2025).
 
 ### Federal conformity and depreciation ([Ohio conformity updates](https://tax.ohio.gov/wps/portal/gov/tax/individual/file-now/ohio-conformity-updates); [2025 IT 1040 instructions, Schedule of Adjustments lines 9 and 27](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
 
@@ -178,9 +180,9 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 | Each quarterly installment, cumulative share of the required amount | 25% |
 | Late payment penalty | Double the interest rate |
 | Late filing penalty, per month late | Greater of 5% of the tax due or $50 |
-| Late filing penalty, maximum | Greater of 50% of the tax due or $500 |
+| Late filing penalty, maximum | 50% of the tax due, capped at $500 (per archived Dept. failure-to-file notice) |
 
-- The late filing penalty applies "even if the late-filed return results in a refund". These penalty figures come from a Department notice dated 2019; confirm against R.C. 5747.15 before quoting one in writing.
+- The late filing penalty applies "even if the late-filed return results in a refund". VERIFIED against the archived Department Failure-to-File notice (ITDQ0009 companion, Oct 2019): "Late payment penalty is double the interest rate. Late filing penalty is the greater of 5% of the tax due or $50.00 for each month the return is late, up to a maximum of 50% of the tax due or $500, even if the late-filed return results in a refund." Note the statutory **maximum is $500** (not "greater of 50% or $500" — the cap is the lesser ceiling of the two); confirm current wording against R.C. 5747.15 before quoting in writing.
 
 ### 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
 
