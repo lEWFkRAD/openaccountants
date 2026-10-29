@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Ohio Payroll — Tier 2 Content Skill
 
-## 1. Scope
+## Who this applies to
 
 This skill governs **Ohio employer payroll compliance for tax year 2025** for businesses with employees physically working in Ohio (resident or non-resident of Ohio), including remote workers whose home office is in an Ohio municipality. It covers:
 
@@ -232,7 +232,7 @@ The post-2022 remote-work environment has produced a new high-audit-risk pattern
 - **E-filing requirement for IT 3** — E-filing required for employers issuing 250+ W-2s or with prior-year withholding exceeding $84,000.
 - **W-2 box requirements** — The W-2 must include: Box 15: OH; Box 16: Ohio wages (generally matches federal Box 1, subject to limited Ohio-specific add-backs/subtractions); Box 17: Ohio income tax withheld; Box 18, 19, 20: each municipality with withholding (multiple lines if multi-municipality); Box 19 must also include any school district income tax withholding, with Box 20 showing the 4-digit district number (this is a parallel system to municipal — out of scope for this skill).
 
-## 9. Worked Examples
+### 9. Worked Examples
 
 ### Example 1: Cleveland employer with RITA suburbs
 
@@ -326,7 +326,7 @@ The post-2022 remote-work environment has produced a new high-audit-risk pattern
 - Day-21 trigger alert system (manual or in payroll software)
 - Year-end reconciliation cross-checking each municipality's withholding remittances to the W-2 lines
 
-## 10. Provenance & Citations
+### 10. Provenance & Citations
 
 **Statutes (Ohio Revised Code):**
 - R.C. 5747 (Ohio Income Tax) — entire chapter
@@ -390,7 +390,7 @@ The post-2022 remote-work environment has produced a new high-audit-risk pattern
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
@@ -403,3 +403,49 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+
+Not yet confirmed against archived sources.

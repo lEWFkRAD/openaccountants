@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # OH Sales Tax
 
-## Section 1 -- Quick Reference
+### Section 1 -- Quick Reference
 
 **Quick Reference**
 
@@ -135,7 +135,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Dietary supplements | TAXABLE | Specifically enumerated |
 | Fresh produce | EXEMPT | Grocery food |
 
-## Section 4 -- Worked Examples
+### Section 4 -- Worked Examples
 
 ### Example 1 -- Basic Taxable Sale in Columbus
 
@@ -360,7 +360,7 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
@@ -373,3 +373,53 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Who this applies to
+
+Not yet confirmed against archived sources.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+
+Not yet confirmed against archived sources.

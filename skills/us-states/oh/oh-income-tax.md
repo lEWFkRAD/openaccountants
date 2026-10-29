@@ -38,16 +38,16 @@ Not yet confirmed against archived sources.
 ## The taxable base
 
 Not yet confirmed against archived sources.
-## Penalties and interest
+### Penalties and interest
 
 Not yet confirmed against archived sources.
-## Cross-border points
+### Cross-border points
 
 Not yet confirmed against archived sources.
-## Worked examples
+### Worked examples
 
 Not yet confirmed against archived sources.
-## Ask the client first
+### Ask the client first
 
 - **Which tax year?** 2025 has three nonbusiness brackets with a top rate of 3.125%. From 2026 Ohio moves to a single 2.75% rate ([OBM Monthly Financial Report](https://archives.obm.ohio.gov/Files//Budget_and_Planning/Monthly_Financial_Report/2025-12-mfr.pdf)), but the official 2026 schedule is not yet published.
 - **Residency for the whole year**, for each spouse: where the client's abode is, whether they moved into or out of Ohio (and the dates), and how many **contact periods** they had in Ohio. A person with an Ohio abode is presumed to be a resident.
@@ -61,7 +61,7 @@ Not yet confirmed against archived sources.
 - **School district:** the school district of residence for the year (use The Finder at tax.ohio.gov/Finder). Some districts levy an income tax.
 - **Payments:** Ohio withholding, estimated payments (dates and amounts), prior-year Ohio tax and whether the prior-year return was filed on time, any credit carryforward and any extension payment.
 
-## The method, step by step (not yet confirmed)
+### The method, step by step (not yet confirmed)
 
 Line numbers are from the 2025 forms ([2025 IT 1040 and schedules](https://dam.assets.ohio.gov/image/upload/v1758139620/tax.ohio.gov/forms/ohio_individual/individual/2025/1040-bundle.pdf); [2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf)). Ohio has **no standard deduction** and no itemized deductions; it starts from federal AGI.
 
@@ -220,7 +220,7 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 - **Deadline for the statement:** the 15th day of the 10th month after year-end (15 October for calendar years). This does not extend the return's due date. Part-year residents cannot use the presumption.
 - **Resident credit (IT RC):** only for tax paid to another U.S. state or the District of Columbia on income also in Ohio AGI; not for city, foreign or territory taxes, not for states without an income tax, and not for wages earned in the five reciprocity states.
 
-## Boundary and exception table ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf)) (not yet confirmed)
+### Boundary and exception table ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf)) (not yet confirmed)
 
 | Situation | Rule |
 | --- | --- |
@@ -238,7 +238,7 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 | Prior-year Ohio return was not filed on time | The 100%-of-prior-year safe harbor is unavailable; use 90% of current-year tax. | (not yet confirmed)
 | Federal NOL year with an unrecovered 5/6 depreciation add-back | The line 27 deduction waits until a year with no NOL, carryback or carryforward. |
 
-## Worked cases ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf))
+### Worked cases ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf))
  (not yet confirmed)
 Amounts described as client facts are hypothetical inputs. Ohio rounds to the nearest dollar. (not yet confirmed)
  (not yet confirmed)
@@ -287,7 +287,7 @@ Client facts: federal section 168(k) bonus depreciation of $60,000 on equipment;
 - Schedule of Adjustments line 9 add-back: 5/6 of $60,000 = $50,000 on the 2025 return.
 - Line 27 deduction: 1/5 of $50,000 = $10,000 a year for tax years 2026 through 2030, provided none of those years has an NOL, NOL carryback or carryforward.
 
-## When to refuse or refer
+### When to refuse or refer
 
 - **School district income tax (SD 100).** Only residents of a taxing school district for any part of the year owe it; working in a district without living there does not create it. Districts use either a traditional base or an earned income base. Look up the district and its rate in the SD 100 instructions or The Finder at tax.ohio.gov/Finder, and prepare the SD 100 separately. Do not guess a rate.
 - **Municipal (city or village) income tax.** Not part of the IT 1040 or SD 100, and not creditable on the Ohio return. Refer to the municipality or its tax administrator for residence and workplace rules and rates.
@@ -324,7 +324,7 @@ Client facts: federal section 168(k) bonus depreciation of $60,000 on equipment;
 
 ---
 
-## Sources
+### Sources
 
 Not yet confirmed: figures in this skill lack archived line-citations.
 
@@ -333,7 +333,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 | (see Not yet confirmed) | — | 2026-10-28 |
 
 Not yet confirmed against archived sources.
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
@@ -347,7 +347,7 @@ the OpenAccountants network.
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
 
-## Sources
+### Sources
 
 | Source | URL | Read on |
 | --- | --- | --- |
@@ -356,7 +356,7 @@ the OpenAccountants network.
 
 Not yet confirmed against archived sources.
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 
 This guide is maintained by the OpenAccountants network — accountants who put
@@ -370,3 +370,37 @@ the OpenAccountants network.
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them. (not yet confirmed)
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+
+Not yet confirmed against archived sources.

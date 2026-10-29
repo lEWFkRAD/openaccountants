@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Figures are for tax year 2026, as they stand on 25 September 2026. They come from the Ohio Department of Taxation at tax.ohio.gov. The Revised Code site (codes.ohio.gov) could not be reached when this skill was checked, so statute points below are taken from the Department's own pages and information releases, which quote or cite the Revised Code (Chapter 5739 for sales tax, Chapter 5741 for use tax). A short section near the end covers 2025 periods.
 
-## Scope and who this is for
+## Who this applies to
 
 - Businesses that sell goods or taxable services in Ohio or to Ohio customers, and must decide what to charge, which county or transit rate applies, and how to file the UST-1.
 - Out-of-state sellers and marketplace facilitators deciding whether they need an Ohio seller's use tax license.
@@ -23,7 +23,7 @@ Figures are for tax year 2026, as they stand on 25 September 2026. They come fro
 - Sellers accepting, and buyers giving, exemption certificates (STEC B, STEC U and the rest).
 - Out of scope: the Ohio commercial activity tax (CAT), which is a separate tax on the seller's gross receipts; see the oh-cat skill. Also out of scope: motor vehicle, watercraft and outboard motor sales titled through the clerk of courts, the resort area gross receipts tax, the Next Generation 9-1-1 access fee, lodging taxes, and audit defense.
 
-## Ask the client first
+### Ask the client first
 
 - Does the business have any physical presence in Ohio (store, office, warehouse, employees, inventory)? If so, it needs a vendor's license whatever its sales volume.
 - If it is outside Ohio: in the current calendar year or the previous one, were its sales to Ohio customers over $100,000, or did it make 200 or more separate sales to Ohio customers? On what date was either test first met ([nexus FAQ](https://tax.ohio.gov/help-center/faqs/sales-and-use-tax-substantial-nexus-and-marketplace-facilitator))?
@@ -36,7 +36,7 @@ Figures are for tax year 2026, as they stand on 25 September 2026. They come fro
 - Does it hold a complete exemption certificate for every exempt sale? Did it buy taxable items without paying Ohio tax?
 - Has it ever filed or paid late, or failed to register when it should have?
 
-## The method, step by step
+### The method, step by step
 
 1. **Decide whether the seller must be licensed.** A business with a fixed location in Ohio needs a county vendor's license for each location before making taxable sales. An out-of-state seller needs a seller's use tax license once it has substantial nexus (over $100,000 of Ohio sales, or 200 or more separate sales, in the current or previous calendar year) ([nexus FAQ](https://tax.ohio.gov/help-center/faqs/sales-and-use-tax-substantial-nexus-and-marketplace-facilitator)).
 2. **Classify each sale.** Tangible personal property (which includes prewritten software, whether delivered on media or downloaded) is taxable unless an exemption applies. Services are taxable only if Ohio law lists them ([taxability](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/taxability)).
@@ -47,7 +47,7 @@ Figures are for tax year 2026, as they stand on 25 September 2026. They come fro
 7. **Accrue use tax** on your own untaxed purchases and on inventory taken out for your own use ([use tax](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/use-streamlined-vda)).
 8. **File the UST-1 and pay by the 23rd** of the month after the period (next business day if the 23rd is a weekend or holiday), even with nothing to report. Take the 0.75% discount only if the return and full payment arrive on time, and apply the $750 cap ([ST 2025-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2025-02_vendor_timely_filing_discount_dec_2025)).
 
-## Rates, sourcing and thresholds for 2026
+## Rates, bands and thresholds
 
 ### Rates ([sales and use tax page](https://tax.ohio.gov/business/sales-and-use-tax); [Q4 2026 rate table](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/rate-tables/by-county-q4-2026))
 
@@ -102,7 +102,7 @@ Older nexus rules repealed by H.B. 166 (software nexus, network nexus and the co
 - **Sourcing.** Facilitated sales are sourced to where the customer receives the property or service.
 - **Online auction platforms** may be marketplace facilitators ([ST 2025-01](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2025-01_auctioneers_sept%2C2025)).
 
-## What is taxable: boundary and exception table
+## The taxable base
 
 ### Taxable and nontaxable services ([taxability](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/taxability))
 
@@ -178,7 +178,7 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 - **Exempt buyers.** The United States, Ohio and its political subdivisions, other states that reciprocate, churches, 501(c)(3) organizations and veterans' organizations ([taxability](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/taxability)).
 - **Direct pay permit holders** pay tax straight to the Department instead of to the seller; the SST certificate can notify the seller of this.
 
-## Worked cases ([Q4 2026 rate table](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/rate-tables/by-county-q4-2026); [sales and use tax page](https://tax.ohio.gov/business/sales-and-use-tax))
+### Worked cases ([Q4 2026 rate table](https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/rate-tables/by-county-q4-2026); [sales and use tax page](https://tax.ohio.gov/business/sales-and-use-tax))
 
 1. **Ohio vendor shipping across counties.** A Canton retailer in Stark County (6.50%) takes a phone order at its store for an $800 television and ships it to a customer in Cleveland, Cuyahoga County (8.00%). Goods sold by an Ohio vendor are sourced to where the order is received, so it charges the Stark rate: $800 × 6.50% = $52.00. Because the customer paid tax at the order-received rate, the customer owes no additional use tax ([ST 2009-03](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st-2009-03-sourcing)).
 2. **Remote seller over the transaction test.** An Oregon seller with no Ohio presence made 210 separate sales to Ohio customers in 2025, totalling $60,000. The sales test is not met ($60,000 is not over $100,000), but the transaction test is (200 or more). It has substantial nexus throughout 2026 on the previous-year test, needs a seller's use tax license (no fee) and must collect on its own website sales. A $500 order delivered to a customer in Cuyahoga County (8.00%) carries $500 × 8.00% = $40.00, sourced to the delivery address ([nexus FAQ](https://tax.ohio.gov/help-center/faqs/sales-and-use-tax-substantial-nexus-and-marketplace-facilitator)).
@@ -189,7 +189,7 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 7. **Janitorial start-up.** A new cleaning company bills offices through the year. Until its janitorial sales reach $5,000 in the calendar year it charges no tax and needs no license. From the point they reach $5,000 it must be licensed and charge tax on all its janitorial sales from then on, including in later years ([ST 2002-04](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2002-04-updated04.2025)).
 8. **Late payment interest.** A monthly vendor owes $10,000 for March 2026, due 23 April 2026, and pays it 30 days late. It loses the discount. Interest at the 2026 rate is $10,000 × 7.0% × 30 ÷ 365 = $57.53. Any penalty is on top ([interest rates](https://tax.ohio.gov/individual/resources/interest-rates)).
 
-## When to refuse or refer
+### When to refuse or refer
 
 - **Commercial activity tax.** The CAT is a separate tax on the seller's taxable gross receipts, with its own registration and quarterly returns. Use the oh-cat skill.
 - **Penalty amounts.** The Revised Code (sections 5739.12 and 5739.133) sets late filing, late payment and assessment penalties. This skill could not verify the current amounts against codes.ohio.gov, so confirm them there or with the Department before quoting a penalty figure.
@@ -200,7 +200,7 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 - **Construction contracts**, where the contractor usually pays tax on materials rather than collecting it; the STEC CC and STEC CO rules above decide who is liable.
 - **Exactly at a threshold.** A remote seller at exactly $100,000 is not over the sales test; one at exactly 200 transactions does meet the transaction test. For a service provider at exactly $5,000, the two information releases word the test differently ("equals or exceeds" in ST 2002-04, "reach" in ST 2003-02); both read as "at least", but confirm with the Department before relying on it ([nexus FAQ](https://tax.ohio.gov/help-center/faqs/sales-and-use-tax-substantial-nexus-and-marketplace-facilitator); [ST 2002-04](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2002-04-updated04.2025); [ST 2003-02](https://tax.ohio.gov/wps/portal/gov/tax/business/ohio-business-taxes/sales-and-use/information-releases/st2003-02-rev-march2026)).
 
-## Filing and payment
+## Deadlines and filing
 
 ### Vendor's license ([sales and use tax page](https://tax.ohio.gov/business/sales-and-use-tax); [license fee change](https://tax.ohio.gov/wps/portal/gov/tax/home/news-and-events/all-news/2025-04-09-vendors-license-fee-change))
 
@@ -274,7 +274,7 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
@@ -287,3 +287,37 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+
+Not yet confirmed against archived sources.
