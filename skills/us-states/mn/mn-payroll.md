@@ -127,6 +127,109 @@ Late withholding deposits, UI contributions, and returns attract the chapter 290
 
 Nonresident employees working in Minnesota are subject to Minnesota withholding (see `mn-cross-border-tax`); multi-state employers coordinate W-4MN with federal W-4 and reciprocal-state rules.
 
+## Worked examples
+
+
+### Example 1 — Small non-construction employer (5 employees, 2025 full year)
+
+Facts: ACME Software Studio LLC, a Minneapolis-based small software development shop, has 5 W-2 employees throughout 2025. Annual salaries: $120,000, $95,000, $85,000, $70,000, $55,000. The owner (also a W-2 employee at $120,000) is exempt. Two engineers receive year-end bonuses of $10,000 each in December 2025. ACME has been registered with DEED and DOR since 2020 and is on a 1.4% UI experience rate. The DOR has classified ACME as a monthly withholding depositor.
+
+MN PIT withholding (regular payroll, hypothetical for the $95,000 employee, single, 2 W-4MN allowances): - Annualized wages: $95,000. - Subtract 2 × Minnesota per-allowance value (~$5,050 in 2025 per DOR booklet): –$10,100. - Taxable wage base for MN: $84,900. - Apply 2025 single brackets (5.35% / 6.80% / 7.85% / 9.85%) — the bulk of $84,900 falls in the 6.80% bracket with a portion at 7.85%. - Approximate annual Minnesota tax: ~$5,200. - Per pay period (biweekly, 26 periods): ~$200 per check.
+
+Supplemental withholding on December bonuses: - Each engineer: $10,000 × 6.25% = $625 Minnesota withholding on the supplemental payment, paid separately from the regular December check.
+
+UI: - 2025 wage base: $43,000 per employee. - Five employees × $43,000 = $215,000 total taxable wages (each exhausted by mid-year on a >$43k salary; the $55,000 employee also exhausts). - UI rate: 1.4% experience + 0.10% Workforce Development Fee = 1.5%. - Total 2025 UI: $215,000 × 1.5% = $3,225.
+
+Deposit cadence: - Monthly Minnesota withholding deposits via Form MW-1 in e-Services, due the 15th of the following month. - Quarterly Minnesota withholding return (MWR) and quarterly UI wage detail, due the last day of the month following each quarter.
+
+ESST: - Five employees × ~2,080 hours each = 10,400 hours. - At 1 hour per 30 hours worked = ~347 hours of ESST accrual per year aggregate, capped at 48 hours per employee per year (240 hours aggregate). - All five employees are well over the 48-hour cap; ACME's actual exposure is 5 × 48 = 240 hours per year of ESST. At an average $40/hour blended rate, the cost ceiling if all ESST is used is $9,600.
+
+WTPA: - Notice at hire for each employee, plus update notice issued when the December bonus is announced (bonuses are a change in pay terms; the safer practice is to document via written notice).
+
+2026 Paid Leave readiness (action in 2025): - Configure payroll for 0.44% employer + 0.44% employee starting January 1, 2026. - Estimated 2026 cost: ($120k + $95k + $85k + $70k + $55k) = $425k × 0.44% employer share = $1,870 employer Paid Leave premium for 2026, plus the same on the employee side. - Issue employee notice by December 1, 2025; update handbook; post DEED poster; designate leave administrator.
+
+### Example 2 — Construction-industry single-trade contractor (3 W-2 employees + 1 questionable subcontractor)
+
+Facts: NorthPoint Roofing LLC, a new Minneapolis-area roofing company, started operations January 2025. The owner is a single-member LLC owner taxed on Schedule C (and not a W-2 employee of the LLC). NorthPoint hires three crew members as W-2 employees at $60,000 each, and engages a fourth individual ("Sam") as a "1099 contractor" at the same effective rate. Sam works on NorthPoint's jobs only, uses NorthPoint's ladders and safety harnesses, is dispatched by NorthPoint's owner each morning, and submits a weekly invoice for hours worked × $30/hour. Sam has not registered with DLI as an independent contractor.
+
+Analysis under §181.723: - (a) Separate business with own equipment? No — Sam uses NorthPoint's tools. - (c) Written contract specifying services, rate, duration? Not adequately — only a verbal arrangement plus invoices. - (e) Responsible for satisfactory completion, with liability for failure? No — Sam is paid hourly regardless of outcome. - (f) Realizes profit or loss? No — Sam's compensation is hourly, no entrepreneurial risk. - (g) Continuing business liabilities (insurance, advertising, etc.)? No. - DLI registration as an independent contractor? No.
+
+Conclusion: Sam fails the §181.723 multi-element test on at least six elements. Sam is misclassified. He should be a W-2 employee.
+
+Exposure if challenged: - UI: NorthPoint is new in 2025, construction industry, on the ~9.0% new-employer rate. Sam's 2025 wages of ~$60,000 produce taxable wages of $43,000 × 9.0% = $3,870 unpaid UI contributions, plus penalties and interest. - Minnesota withholding: $60,000 × roughly 6% average effective rate = ~$3,600 unpaid state withholding, plus joint liability if Sam does not pay his own M1. - §181.723 civil penalty: up to $5,000. - Treble damages for unpaid overtime if Sam worked >40 hours in any week without being paid 1.5× — the employer's potential exposure here is multiples of the underpaid overtime. - Workers' comp: if Sam was injured during the period, NorthPoint is the responsible employer with no policy in place — uninsured-employer exposure is the full medical and indemnity cost. - Federal: parallel federal exposure for FICA, FUTA, and federal income tax withholding under §3509 / §530. - 2026 forward: NorthPoint would also owe Paid Leave premium back to January 1, 2026 if the misclassification continues.
+
+Remediation: reclassify Sam as a W-2 employee effective immediately. File an amended UI wage detail. Provide Sam with the WTPA written notice. Add him to the ESST tracker. Confirm workers' comp coverage. Issue a Form W-2 at year-end. Consult counsel about Section 530 safe harbor for federal exposure (state has no parallel safe harbor under §181.723).
+
+### Example 3 — Mid-size employer entering 2026 Paid Leave
+
+Facts: GoodSoft Inc., a 35-employee Minneapolis software product company with $4M annual payroll (average salary $114k), runs payroll through Gusto. The company offers unlimited PTO and has never tracked accrued sick time. The CFO realizes in October 2025 that the company has compliance work to do for both ESST and the 2026 Paid Leave rollout.
+
+ESST gap analysis (effective retroactively to 2024): - Unlimited PTO does not satisfy §181.9447 without explicit ESST tracking. Pay-stub disclosure of accrued/used ESST is required; GoodSoft has not been doing this. - The fix: configure Gusto to track ESST as a separate bucket beginning the next pay period, with front-loaded 48 hours per employee per year going forward. Issue an updated WTPA notice and an ESST policy in the handbook. - 2024–2025 retroactive exposure: difficult to quantify but likely limited because no employees appear to have been denied leave; the violation is recordkeeping, not denial. DLI penalty exposure for pure recordkeeping violations is typically remediable with a documented corrective action plan.
+
+2026 Paid Leave premium budget: - Taxable wages capped at SSN base (~$176k 2025; 2026 base not yet confirmed). With most of the 35 employees earning above the SSN cap is unlikely; assume average $114k × 35 = $3,990,000 total premium base (all wages well under the SSN cap). - Employer share: $3,990,000 × 0.44% = $17,556 in 2026 employer Paid Leave premium. - Employee share: $17,556 (if employer withholds; otherwise add to employer cost if employer absorbs). - Quarterly remittance through DEED portal, starting April 30, 2026 (Q1 2026).
+
+2025 Q4 readiness checklist: - October 2025: configure Gusto for Paid Leave deduction code; confirm Gusto's 2026 release supports MN Paid Leave. - November 2025: draft employee notice (DEED model); update handbook; identify designated leave administrator (HR director). - December 1, 2025: distribute employee notice in writing and electronically. - December 31, 2025: post DEED workplace notice; confirm payroll system tax-table update has loaded for Jan 1. - January 1, 2026: deductions begin on the first pay date of the year; leave claims may be filed by employees beginning that day.
+
+Multi-state: GoodSoft has 3 remote employees outside Minnesota (1 in WI, 1 in ND, 1 in TX). Apply the §268B localization test for each; in this fact pattern, the WI and TX employees are not Minnesota employees for Paid Leave, the ND employee may be (depending on whether services are localized in MN vs. ND — likely not). Document the determination in the payroll file.
+
+## Ask the client first
+
+- Headcount and average wages (small-employer relief under Paid Leave and UI experience rating).
+- Whether any worker in construction may be a misclassified contractor (DLI registration).
+- Whether employees work near the state line (nonresident withholding).
+
+## Sources
+
+| Source | Read on |
+| --- | --- |
+| Minn. Stat. §291.04 (withholding): <https://www.revisor.mn.gov/statutes/cite/291.04> — statute text archived | 2026-10-28 |
+| Minn. Stat. §297A.02 (sales/use tax context): <https://www.revisor.mn.gov/statutes/cite/297A.02> — statute text archived | 2026-10-28 |
+| Minn. Stat. Chapter 290, Chapter 268, Chapter 268B, §181.032, §181.101, §181.13, §181.14, §181.722, §181.723, §181.9445–§181.9448, §326B, §177.41 et seq. — cited in the skill; not yet archived | 2026-10-28 |
+| Minnesota DOR Withholding Instruction Booklet and Tax Tables (2025); DEED UI Employer Handbook (2025); DEED and DLI publications — cited in the skill; not yet archived | 2026-10-28 |
+
+Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 per-allowance value, the $43,000 UI wage base and experience-rate ranges, the 0.44%/0.44% Paid Leave premium split dollar figures, and the 2026 Paid Leave wage base — the DOR/DEED booklets and most statute sections are not yet archived.
+
+### Statutory and agency citations
+
+
+
+- Minnesota Statutes Chapter 290 (income tax). - Minnesota Statutes Chapter 268 (unemployment insurance). - Minnesota Statutes Chapter 268B (paid leave), as enacted by 2023 Laws Ch. 59 and amended by 2024 Laws Ch. 127. - Minnesota Statutes §181.032 (earnings statements; WTPA). - Minnesota Statutes §181.101 (final wages; WTPA). - Minnesota Statutes §181.13, §181.14 (separation pay timing). - Minnesota Statutes §181.722, §181.723 (worker misclassification; construction industry). - Minnesota Statutes §181.9445 – §181.9448 (Earned Sick and Safe Time). - Minnesota Statutes §326B (construction-industry licensing and DLI authority). - Minnesota Statutes §177.41 et seq. (Minnesota Prevailing Wage Act). - Minnesota DOR, Minnesota Income Tax Withholding Instruction Booklet and Tax Tables (annual; 2025 edition). - Minnesota DEED, UI Employer Handbook (2025). - Minnesota DEED, Family and Medical Benefits Insurance Division publications (2024–2025 readiness materials). - Minnesota DLI, ESST employer guidance (2024, updated 2025). - Minnesota DLI, construction-industry independent-contractor registration portal.
+
+
+#### Practitioner quick reference (repeat)
+
+
+**Practitioner Quick Reference table**  _(Section 12. Practitioner Quick Reference)_
+
+- MN PIT brackets — 5.35% / 6.80% / 7.85% / 9.85% (indexed; rates unchanged)
+- MN supplemental rate — 6.25% (unchanged barring legislation)
+- MN UI wage base — $43,000 (indexed annually, ~$44,000 expected)
+- UI experience rate range — 0.10% – 9.0% (indexed)
+- UI new-employer — ~1.0% non-construction, ~9.0% construction (indexed)
+- Withholding deposit thresholds — monthly if >$1,500/yr prior; else quarterly (unchanged)
+- W-2/W-3M filing deadline — January 31 (unchanged)
+- ESST accrual — 1 hr per 30 hrs worked; cap 48 hrs/year, 80 hrs balance (unchanged)
+- MN Paid Leave premium — 0.88% combined, 0.44% / 0.44% split, effective Jan 1, 2026
+- MN Paid Leave wage base — ~SSN base (~$176k+)
+- WTPA notice — required at hire and on material change (unchanged)
+- Final wages — discharged: within 24 hrs of demand, else next payday (≤20 days); voluntary quit: next regular payday (≤20 days) (unchanged)
+- Construction classification — §181.723 multi-element + DLI registration (unchanged)
+
+
+---
+
+## Talk to a verified accountant
+
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
+
 ## 4. Form W-4MN — Minnesota Employee Withholding Allowance/Exemption Certificate
 
 
@@ -389,101 +492,10 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 > AUDIT FLASH POINT — construction multi-agency enforcement. A construction-industry employer in Minnesota faces parallel enforcement risk from DEED (UI), DOR (withholding), DLI (§181.723, prevailing wage, workers' comp), and the Attorney General (criminal wage theft). These agencies share information. A single misclassified worker can trigger findings across all four agencies. The compliance posture for any construction engagement of a non-W-2 worker should be: (1) §181.723 multi-element test documented in writing, (2) DLI registration verified and copy on file, (3) written contract per §181.723(c), (4) invoices in file, (5) the worker's separate-business indicia (EIN, business insurance, business address) verified. Anything less is a misclassification risk.
 
-## Ask the client first
-
-- Headcount and average wages (small-employer relief under Paid Leave and UI experience rating).
-- Whether any worker in construction may be a misclassified contractor (DLI registration).
-- Whether employees work near the state line (nonresident withholding).
-
-## Worked examples
-
-
-### Example 1 — Small non-construction employer (5 employees, 2025 full year)
-
-Facts: ACME Software Studio LLC, a Minneapolis-based small software development shop, has 5 W-2 employees throughout 2025. Annual salaries: $120,000, $95,000, $85,000, $70,000, $55,000. The owner (also a W-2 employee at $120,000) is exempt. Two engineers receive year-end bonuses of $10,000 each in December 2025. ACME has been registered with DEED and DOR since 2020 and is on a 1.4% UI experience rate. The DOR has classified ACME as a monthly withholding depositor.
-
-MN PIT withholding (regular payroll, hypothetical for the $95,000 employee, single, 2 W-4MN allowances): - Annualized wages: $95,000. - Subtract 2 × Minnesota per-allowance value (~$5,050 in 2025 per DOR booklet): –$10,100. - Taxable wage base for MN: $84,900. - Apply 2025 single brackets (5.35% / 6.80% / 7.85% / 9.85%) — the bulk of $84,900 falls in the 6.80% bracket with a portion at 7.85%. - Approximate annual Minnesota tax: ~$5,200. - Per pay period (biweekly, 26 periods): ~$200 per check.
-
-Supplemental withholding on December bonuses: - Each engineer: $10,000 × 6.25% = $625 Minnesota withholding on the supplemental payment, paid separately from the regular December check.
-
-UI: - 2025 wage base: $43,000 per employee. - Five employees × $43,000 = $215,000 total taxable wages (each exhausted by mid-year on a >$43k salary; the $55,000 employee also exhausts). - UI rate: 1.4% experience + 0.10% Workforce Development Fee = 1.5%. - Total 2025 UI: $215,000 × 1.5% = $3,225.
-
-Deposit cadence: - Monthly Minnesota withholding deposits via Form MW-1 in e-Services, due the 15th of the following month. - Quarterly Minnesota withholding return (MWR) and quarterly UI wage detail, due the last day of the month following each quarter.
-
-ESST: - Five employees × ~2,080 hours each = 10,400 hours. - At 1 hour per 30 hours worked = ~347 hours of ESST accrual per year aggregate, capped at 48 hours per employee per year (240 hours aggregate). - All five employees are well over the 48-hour cap; ACME's actual exposure is 5 × 48 = 240 hours per year of ESST. At an average $40/hour blended rate, the cost ceiling if all ESST is used is $9,600.
-
-WTPA: - Notice at hire for each employee, plus update notice issued when the December bonus is announced (bonuses are a change in pay terms; the safer practice is to document via written notice).
-
-2026 Paid Leave readiness (action in 2025): - Configure payroll for 0.44% employer + 0.44% employee starting January 1, 2026. - Estimated 2026 cost: ($120k + $95k + $85k + $70k + $55k) = $425k × 0.44% employer share = $1,870 employer Paid Leave premium for 2026, plus the same on the employee side. - Issue employee notice by December 1, 2025; update handbook; post DEED poster; designate leave administrator.
-
-### Example 2 — Construction-industry single-trade contractor (3 W-2 employees + 1 questionable subcontractor)
-
-Facts: NorthPoint Roofing LLC, a new Minneapolis-area roofing company, started operations January 2025. The owner is a single-member LLC owner taxed on Schedule C (and not a W-2 employee of the LLC). NorthPoint hires three crew members as W-2 employees at $60,000 each, and engages a fourth individual ("Sam") as a "1099 contractor" at the same effective rate. Sam works on NorthPoint's jobs only, uses NorthPoint's ladders and safety harnesses, is dispatched by NorthPoint's owner each morning, and submits a weekly invoice for hours worked × $30/hour. Sam has not registered with DLI as an independent contractor.
-
-Analysis under §181.723: - (a) Separate business with own equipment? No — Sam uses NorthPoint's tools. - (c) Written contract specifying services, rate, duration? Not adequately — only a verbal arrangement plus invoices. - (e) Responsible for satisfactory completion, with liability for failure? No — Sam is paid hourly regardless of outcome. - (f) Realizes profit or loss? No — Sam's compensation is hourly, no entrepreneurial risk. - (g) Continuing business liabilities (insurance, advertising, etc.)? No. - DLI registration as an independent contractor? No.
-
-Conclusion: Sam fails the §181.723 multi-element test on at least six elements. Sam is misclassified. He should be a W-2 employee.
-
-Exposure if challenged: - UI: NorthPoint is new in 2025, construction industry, on the ~9.0% new-employer rate. Sam's 2025 wages of ~$60,000 produce taxable wages of $43,000 × 9.0% = $3,870 unpaid UI contributions, plus penalties and interest. - Minnesota withholding: $60,000 × roughly 6% average effective rate = ~$3,600 unpaid state withholding, plus joint liability if Sam does not pay his own M1. - §181.723 civil penalty: up to $5,000. - Treble damages for unpaid overtime if Sam worked >40 hours in any week without being paid 1.5× — the employer's potential exposure here is multiples of the underpaid overtime. - Workers' comp: if Sam was injured during the period, NorthPoint is the responsible employer with no policy in place — uninsured-employer exposure is the full medical and indemnity cost. - Federal: parallel federal exposure for FICA, FUTA, and federal income tax withholding under §3509 / §530. - 2026 forward: NorthPoint would also owe Paid Leave premium back to January 1, 2026 if the misclassification continues.
-
-Remediation: reclassify Sam as a W-2 employee effective immediately. File an amended UI wage detail. Provide Sam with the WTPA written notice. Add him to the ESST tracker. Confirm workers' comp coverage. Issue a Form W-2 at year-end. Consult counsel about Section 530 safe harbor for federal exposure (state has no parallel safe harbor under §181.723).
-
-### Example 3 — Mid-size employer entering 2026 Paid Leave
-
-Facts: GoodSoft Inc., a 35-employee Minneapolis software product company with $4M annual payroll (average salary $114k), runs payroll through Gusto. The company offers unlimited PTO and has never tracked accrued sick time. The CFO realizes in October 2025 that the company has compliance work to do for both ESST and the 2026 Paid Leave rollout.
-
-ESST gap analysis (effective retroactively to 2024): - Unlimited PTO does not satisfy §181.9447 without explicit ESST tracking. Pay-stub disclosure of accrued/used ESST is required; GoodSoft has not been doing this. - The fix: configure Gusto to track ESST as a separate bucket beginning the next pay period, with front-loaded 48 hours per employee per year going forward. Issue an updated WTPA notice and an ESST policy in the handbook. - 2024–2025 retroactive exposure: difficult to quantify but likely limited because no employees appear to have been denied leave; the violation is recordkeeping, not denial. DLI penalty exposure for pure recordkeeping violations is typically remediable with a documented corrective action plan.
-
-2026 Paid Leave premium budget: - Taxable wages capped at SSN base (~$176k 2025; 2026 base not yet confirmed). With most of the 35 employees earning above the SSN cap is unlikely; assume average $114k × 35 = $3,990,000 total premium base (all wages well under the SSN cap). - Employer share: $3,990,000 × 0.44% = $17,556 in 2026 employer Paid Leave premium. - Employee share: $17,556 (if employer withholds; otherwise add to employer cost if employer absorbs). - Quarterly remittance through DEED portal, starting April 30, 2026 (Q1 2026).
-
-2025 Q4 readiness checklist: - October 2025: configure Gusto for Paid Leave deduction code; confirm Gusto's 2026 release supports MN Paid Leave. - November 2025: draft employee notice (DEED model); update handbook; identify designated leave administrator (HR director). - December 1, 2025: distribute employee notice in writing and electronically. - December 31, 2025: post DEED workplace notice; confirm payroll system tax-table update has loaded for Jan 1. - January 1, 2026: deductions begin on the first pay date of the year; leave claims may be filed by employees beginning that day.
-
-Multi-state: GoodSoft has 3 remote employees outside Minnesota (1 in WI, 1 in ND, 1 in TX). Apply the §268B localization test for each; in this fact pattern, the WI and TX employees are not Minnesota employees for Paid Leave, the ND employee may be (depending on whether services are localized in MN vs. ND — likely not). Document the determination in the payroll file.
-
 ## 13. Self-Checks (run before delivering output)
 
 
 1. Did the engagement involve construction work? If yes, did the analysis run through §10 in addition to §9? 2. Was a W-4MN obtained for every Minnesota employee, including any employee who completed only a post-2020 federal W-4? 3. Does the year-end W-3M total tie to the sum of the four MWR returns AND to the sum of W-2 box 17? 4. Did UI wage detail correctly include all employees with hours worked, with no nil-quarter return missed? 5. Is the employer tracking ESST as a separate bucket, with accrual and balance on every pay stub? 6. Has the 2026 Paid Leave readiness checklist been worked through item-by-item, with December 1, 2025 employee notice and January 1, 2026 system-readiness milestones flagged? 7. Has the WTPA notice been issued at hire and refreshed on every material change for the period under review? 8. For any 1099 contractor, has the §9 nine-factor (general) or §10 multi-element (construction) test been documented in writing? 9. Were final wages for any separated employees paid by the next regular payday following separation, with shorter timing applied where a discharged employee demanded earlier payment? 10. Has the reviewer (credentialed Minnesota payroll professional) signed off in writing before any filing is submitted?
-
-## Sources
-
-| Source | Read on |
-| --- | --- |
-| Minn. Stat. §291.04 (withholding): <https://www.revisor.mn.gov/statutes/cite/291.04> — statute text archived | 2026-10-28 |
-| Minn. Stat. §297A.02 (sales/use tax context): <https://www.revisor.mn.gov/statutes/cite/297A.02> — statute text archived | 2026-10-28 |
-| Minn. Stat. Chapter 290, Chapter 268, Chapter 268B, §181.032, §181.101, §181.13, §181.14, §181.722, §181.723, §181.9445–§181.9448, §326B, §177.41 et seq. — cited in the skill; not yet archived | 2026-10-28 |
-| Minnesota DOR Withholding Instruction Booklet and Tax Tables (2025); DEED UI Employer Handbook (2025); DEED and DLI publications — cited in the skill; not yet archived | 2026-10-28 |
-
-Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 per-allowance value, the $43,000 UI wage base and experience-rate ranges, the 0.44%/0.44% Paid Leave premium split dollar figures, and the 2026 Paid Leave wage base — the DOR/DEED booklets and most statute sections are not yet archived.
-
-### Statutory and agency citations
-
-
-
-- Minnesota Statutes Chapter 290 (income tax). - Minnesota Statutes Chapter 268 (unemployment insurance). - Minnesota Statutes Chapter 268B (paid leave), as enacted by 2023 Laws Ch. 59 and amended by 2024 Laws Ch. 127. - Minnesota Statutes §181.032 (earnings statements; WTPA). - Minnesota Statutes §181.101 (final wages; WTPA). - Minnesota Statutes §181.13, §181.14 (separation pay timing). - Minnesota Statutes §181.722, §181.723 (worker misclassification; construction industry). - Minnesota Statutes §181.9445 – §181.9448 (Earned Sick and Safe Time). - Minnesota Statutes §326B (construction-industry licensing and DLI authority). - Minnesota Statutes §177.41 et seq. (Minnesota Prevailing Wage Act). - Minnesota DOR, Minnesota Income Tax Withholding Instruction Booklet and Tax Tables (annual; 2025 edition). - Minnesota DEED, UI Employer Handbook (2025). - Minnesota DEED, Family and Medical Benefits Insurance Division publications (2024–2025 readiness materials). - Minnesota DLI, ESST employer guidance (2024, updated 2025). - Minnesota DLI, construction-industry independent-contractor registration portal.
-
-
-#### Practitioner quick reference (repeat)
-
-
-**Practitioner Quick Reference table**  _(Section 12. Practitioner Quick Reference)_
-
-- MN PIT brackets — 5.35% / 6.80% / 7.85% / 9.85% (indexed; rates unchanged)
-- MN supplemental rate — 6.25% (unchanged barring legislation)
-- MN UI wage base — $43,000 (indexed annually, ~$44,000 expected)
-- UI experience rate range — 0.10% – 9.0% (indexed)
-- UI new-employer — ~1.0% non-construction, ~9.0% construction (indexed)
-- Withholding deposit thresholds — monthly if >$1,500/yr prior; else quarterly (unchanged)
-- W-2/W-3M filing deadline — January 31 (unchanged)
-- ESST accrual — 1 hr per 30 hrs worked; cap 48 hrs/year, 80 hrs balance (unchanged)
-- MN Paid Leave premium — 0.88% combined, 0.44% / 0.44% split, effective Jan 1, 2026
-- MN Paid Leave wage base — ~SSN base (~$176k+)
-- WTPA notice — required at hire and on material change (unchanged)
-- Final wages — discharged: within 24 hrs of demand, else next payday (≤20 days); voluntary quit: next regular payday (≤20 days) (unchanged)
-- Construction classification — §181.723 multi-element + DLI registration (unchanged)
-
-
----
 
 ## 12. Practitioner Quick Reference
 
@@ -504,15 +516,3 @@ Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 p
 - **Final wages — discharged** — Within 24 hrs of demand; else next payday (≤20 days)  _(Unchanged)_
 - **Final wages — voluntary quit** — Next regular payday (≤20 days)  _(Unchanged)_
 - **Construction classification** — §181.723 multi-element + DLI registration  _(Unchanged)_
-
-## Talk to a verified accountant
-
-
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
