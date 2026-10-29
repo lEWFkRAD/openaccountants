@@ -72,7 +72,7 @@ same date), chapter 228z (PTE, archived same date), and 15 U.S.C. §381
 
 | Filing | Due date |
 |---|---|
-| CT-1120 / combined return | the fifteenth day of the month next succeeding the due date of the corresponding federal income tax return, without regard to any extension (§12-222(b)) — April 15 for calendar-year C corporations, given the federal fifteenth-day-of-the-fourth-month due date |
+| CT-1120 / combined return | the fifteenth day of the month next succeeding the due date of the corresponding federal income tax return, without regard to any extension (§12-222(b)) |
 | Estimated installments | fifteenth-day-of-the-third/sixth/ninth/twelfth-month pattern, 30/40/10/20 split (§12-242d) |
 | Nonresident individual | see Not yet confirmed (chapter 229 due-date mechanics were not tied out this run) |
 
