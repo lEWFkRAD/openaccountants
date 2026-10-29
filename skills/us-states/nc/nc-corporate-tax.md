@@ -351,7 +351,7 @@ Pinecone Corp, an NC C-corp, has a $1,000,000 NC NOL carryforward at the start o
 | 2029 | $500,000 | 0.50% |
 
 - **Strategy 1 — Use NOL in earliest years (recommended)** — 2025: 80% × 500,000 = 400,000 NOL used. Remaining = 600,000. Taxable: 100,000 × 2.25% = $2,250 2026: 80% × 500,000 = 400,000 NOL used. Remaining = 200,000. Taxable: 100,000 × 2.00% = $2,000 2027: 80% × 500,000 = 400,000 NOL CAP, but only 200,000 left. Use 200,000. Taxable: 300,000 × 2.00% = $6,000 2028: NOL exhausted. Taxable: 500,000 × 1.00% = $5,000 2029: Taxable: 500,000 × 0.50% = $2,500 Total 5-year tax: $17,750  _(Example D worked calculation)_
-- **Strategy 2 — Defer NOL usage (illustrative — not generally allowed; NOL must be used in earliest profitable year)** — NC does not permit elective deferral of NOL usage; it must be applied in the earliest year of available income (subject to the 80% cap). Strategy 1 is mandatory. The illustration is to confirm there's no planning lever here on NOL timing — the only lever is income timing (accelerate deductions into 2025, defer income into 2028+).
+- **Strategy 2 — Defer NOL usage (counterfactual — not generally allowed; NOL must be used in earliest profitable year)** — NC does not permit elective deferral of NOL usage; it must be applied in the earliest year of available income (subject to the 80% cap). Strategy 1 is mandatory. This counterfactual confirms there's no planning lever here on NOL timing — the only lever is income timing (accelerate deductions into 2025, defer income into 2028+).
 
 Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mechanically declining, making any 2025-2029 income-deferral planning valuable. Each $100,000 of income shifted from 2025 to 2029 saves $1,750 of NC tax (2.25% − 0.50%). Each $100,000 shifted from 2025 to 2030 saves $2,250.
 
@@ -428,7 +428,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 
 - All statutory rate, threshold, and cap claims must be re-verified against the cited statute on each filing-season run.
 - All NCDOR form line references must be re-verified against the **current-year** form in NCDOR's forms library; line numbers change year-to-year.
-- Worked examples are illustrative; the precise mechanics on the actual form may differ in line ordering. Cross-tie to CD-405 instructions in production.
+- Worked examples are hypothetical; the precise mechanics on the actual form may differ in line ordering. Cross-tie to CD-405 instructions in production.
 - This skill is **not** a substitute for credentialed reviewer signoff under the OpenAccountants verification model (lead + contributors per country).
 
 ## End of nc-corporate-tax.md
