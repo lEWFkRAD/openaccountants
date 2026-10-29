@@ -258,7 +258,7 @@ It does **not** cover:
 | Situation | Rule |
 | --- | --- |
 | Net worth exactly $100,000 | No tax ("Not exceeding $100,000"), but the return is still due. |
-| Net worth $100,001 | $125 (over $100,000). |
+| Net worth $100,001 | $125 — the band "Over 100,000.00 and not exceeding 150,000.00" in the IT-611 scale. |
 | Fiscal year beginning 1 July 2025 | 5.19% for the whole year; the rate is not prorated. |
 | Corporation expects net income of exactly $25,000 | No estimated tax required. The test is "exceed" $25,000. |
 | Prior-year Georgia return covered 9 months | The 100%-of-prior-year option is unavailable. Use 70% of the current year's tax. |
