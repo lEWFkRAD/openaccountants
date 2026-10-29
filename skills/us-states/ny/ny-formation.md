@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NY Formation
 
-## 1. Scope
+## Who this applies to
 
 This skill is a **Tier 2 content layer** covering the procedural and tax mechanics of forming a business entity in the State of New York. It is intended to be loaded alongside:
 
@@ -52,7 +52,13 @@ This skill is a **Tier 2 content layer** covering the procedural and tax mechani
 - N.Y. Department of State filing fee schedules effective for 2025
 - Corporate Transparency Act, 31 U.S.C. §5336, and Treasury enforcement notices through November 2025
 
-## 2. Why New York
+## Rates, bands and thresholds
+
+Filing fees and franchise thresholds appear in the mechanics below (not yet confirmed against archived sources).
+
+## The taxable base
+
+### Why New York
 
 New York is a **high-cost, high-value formation jurisdiction**. It is not a "tax-haven" state like Delaware, Nevada, or Wyoming, and small operators sometimes recoil at the LLC publication cost. Despite this, many founders — especially in technology, financial services, real estate, hospitality, and media — choose to form directly in New York rather than form in Delaware and qualify as a foreign LLC. The reasons reviewers should understand:
 
@@ -68,7 +74,7 @@ New York is a **high-cost, high-value formation jurisdiction**. It is not a "tax
 
 The corollary is that **forming in NY is not free**. A reviewer counseling a founder should always confirm the founder understands the publication cost up front, especially if the operating address is in Manhattan, where the publication invoice can exceed the entire rest of the first-year formation budget.
 
-## 3. NY LLC Formation Mechanics
+### 3. NY LLC Formation Mechanics
 
 ### 3.1 Articles of Organization
 
@@ -121,7 +127,7 @@ The cost differential is driven by the rate cards of the newspapers the county c
 
 - **Federal 1065 / NY IT-204 pass-through treatment** — If the LLC has more than one member, it files a federal Form 1065 partnership return. New York piggybacks via Form IT-204. There is no NY entity-level income tax on the LLC itself (the income flows through to members), but the IT-204-LL filing fee in §3.5 above is a separate and unavoidable cost. If the LLC has one member and is treated as a disregarded entity, no Form 1065 is filed federally, but IT-204-LL is still owed at the NY level if there is any NY-source gross income.
 
-## 4. NY C-Corporation Formation Mechanics
+### 4. NY C-Corporation Formation Mechanics
 
 ### 4.1 Certificate of Incorporation
 
@@ -142,7 +148,7 @@ The cost differential is driven by the rate cards of the newspapers the county c
 
 - **Franchise tax scope and minimum tax range** — NY C-corporations are subject to corporate franchise tax under Article 9-A of the Tax Law. This skill does not attempt to compute the franchise tax — refer to `ny-corporate-franchise-article-9a.md`. The minimum tax (the floor tax that applies even with no business income) is graduated by NY receipts and ranges from $25 (for a corporation with NY receipts of $100,000 or less) up to $200,000 (for a corporation with NY receipts over $1 billion). For most freelance-developer-sized clients forming a NY C-corp, the minimum tax is $25 or $75 per year.  _(Tax Law Article 9-A)_
 
-## 5. NY S-Corporation Election
+### 5. NY S-Corporation Election
 
 The federal Subchapter S election (Form 2553) made under IRC §1362 does not automatically flow through to New York. NY requires a separate state-level S-corp election under N.Y. Tax Law §660(a), made on Form CT-6 ("Election by a Federal S Corporation to be Treated as a New York S Corporation").
 
@@ -152,7 +158,17 @@ The federal Subchapter S election (Form 2553) made under IRC §1362 does not aut
 - **Mandatory NY S-corp treatment** — Under N.Y. Tax Law §660(i), a federal S-corporation that has investment income exceeding 50% of its federal gross income is mandatorily treated as a NY S-corporation, regardless of whether Form CT-6 has been filed. This is a trap for founders who do not realize they triggered automatic NY S treatment.  _(N.Y. Tax Law §660(i))_
 - **Failure to file Form CT-6** — If the federal S-election is in effect but the founder did not file Form CT-6, the entity is taxed as a NY C-corporation. This generally produces a worse tax outcome (the corporation pays full Article 9-A tax on its business income, and the shareholders receive distributions taxed as dividends rather than pass-through income). Reviewers should check Form CT-6 filing status for every federal S-corp client they encounter.
 
-## 6. NYC-Specific Requirements
+## Deadlines and filing
+
+Formation filings are asynchronous; annual reporting deadlines are not yet confirmed.
+
+## Penalties and interest
+
+Late LLC publication and biennial statement penalties are not yet confirmed against archived sources.
+
+## Cross-border points
+
+### NYC-Specific Requirements
 
 New York City has its own tax regime that overlays the NY State regime. The NYC system is administered by the NYC Department of Finance, not the NY State Department of Taxation and Finance. This produces real compliance complexity.
 
@@ -192,12 +208,12 @@ This is not formation-relevant but reviewers should be aware that a new NYC enti
 
 - **No NYC tax on tangible personal property** — There is no NYC tax on a business's tangible personal property (no inventory tax, no equipment tax). This contrasts with several other states (e.g., Texas, parts of California) that do tax business personal property. New York's real estate tax does apply to real property only.
 
-## 7. NY Wage Theft Prevention Act Notice
+### 7. NY Wage Theft Prevention Act Notice
 
 - **Notice requirement on hiring** — Under N.Y. Labor Law §195(1), every employer must provide each new employee, at the time of hiring, with a written notice in English and in the employee's primary language containing: Rate of pay; Allowances claimed as part of the minimum wage; The regular pay day designated by the employer; The name of the employer (including any "doing business as" names); The physical address of the employer's main office or principal place of business; The telephone number of the employer. The notice must be signed by the employee and retained for six years.  _(N.Y. Labor Law §195(1); contents list and WTPA effective date April 9, 2011 confirmed on archived NYS DOL "Notice of Pay Rate" page, `US-NY-notice-pay-rate.html`, retrieved 2026-10-28 — translations offered in Spanish, Chinese, Haitian Creole, Korean, Polish and Russian.)_
 - **Penalty for failure** — Failure to provide the notice exposes the employer to civil penalties of up to $50 per workday, with a cap of $5,000 per employee. This is not a formation filing in the DOS sense, but it is the first thing that comes due the moment a newly-formed NY entity hires its first employee, and reviewers should put it on the formation checklist.  _(N.Y. Labor Law §195(1))_
 
-## 8. Beneficial Ownership Information (BOI) / Corporate Transparency Act
+### 8. Beneficial Ownership Information (BOI) / Corporate Transparency Act
 
 The federal Corporate Transparency Act (31 U.S.C. §5336) imposes Beneficial Ownership Information reporting obligations on most LLCs and small corporations formed in any U.S. state, including New York.
 
@@ -209,7 +225,7 @@ The federal Corporate Transparency Act (31 U.S.C. §5336) imposes Beneficial Own
 
 This posture is unstable. Reviewers must check current FinCEN guidance and any subsequent court orders before advising a client that no BOI filing is needed. The default conservative posture in this skill is to flag BOI as a pending item that the reviewer must verify is not currently required at the time of advice.
 
-## 9. Common Errors
+### 9. Common Errors
 
 ### 9.1 Forming an LLC and missing the publication requirement — AUDIT FLASH POINT
 
@@ -250,7 +266,7 @@ Both are required. Filing one does not satisfy the other.
 
 - **BOI confusion error** — A founder reads a 2024-vintage source that says BOI is required, panics, and either files unnecessarily or pays a service to file. Reviewers should explain the current (as of late 2025) stayed posture and not push the client into unnecessary filings.
 
-## 10. Worked Examples
+## Worked examples
 
 ### Example 1: NYC SaaS Startup ("Ridgeway Labs LLC")
 
@@ -387,7 +403,9 @@ The Delaware C-corp does not form a new NY entity. Instead it files an Applicati
 - Article 9-A apportionment for software companies uses single-receipts-factor apportionment under post-2015 reform — most software receipts from NY-located customers will apportion to NY
 - Federal Form 1120 and Form 1120 supporting state schedules will need NY add-back / decoupling adjustments (e.g., NY does not allow the full federal deduction for state and local taxes in computing NY entire net income)
 
-## 11. Reviewer Checklist
+## Ask the client first
+
+### Reviewer Checklist
 
 Before finalizing any NY formation engagement, confirm:
 
@@ -406,7 +424,7 @@ Before finalizing any NY formation engagement, confirm:
 13. ☐ Sales tax registration (if applicable) completed before first taxable sale
 14. ☐ MTA Surcharge applicability assessed if entity operates in the Metropolitan Commuter Transportation District
 
-## 12. Citation Discipline
+### 12. Citation Discipline
 
 Statutory citations in this skill should be presented to reviewers in their full form on first use within the deliverable, then abbreviated. Always include the section, not just the chapter. Example:
 
@@ -415,7 +433,7 @@ Statutory citations in this skill should be presented to reviewers in their full
 
 Do not cite secondary sources (treatises, blog posts, online formation services) as authority in deliverables; if a secondary source clarifies a procedural point, the underlying statute or DOS guidance should be cited directly. Cross-references to companion skills (`ny-llc-filing-fee.md`, `nyc-ubt.md`, etc.) are appropriate as workflow pointers but should not substitute for statutory citation when stating a legal rule.
 
-## 13. Refusal Catalogue
+### 13. Refusal Catalogue
 
 - **R-NY-FORM-1** — Forming or qualifying an entity for the purpose of evading NY State or NYC tax with no bona fide business activity at the formation address  _(R-NY-FORM-1)_
 - **R-NY-FORM-2** — Advice on whether a specific business activity does or does not constitute "doing business" in NY for nexus purposes without a fact-specific analysis by a credentialed reviewer  _(R-NY-FORM-2)_
@@ -431,7 +449,30 @@ Every output produced under this skill must be reviewed and signed off by a cred
 
 ---
 
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| NYS Department of State — Division of Corporations | https://dos.ny.gov/ | 2026-10-28 |
+
+Not yet confirmed: LLC filing fee $200; publication requirement costs; biennial statement fees.
+
+
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
+
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current

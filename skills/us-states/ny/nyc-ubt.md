@@ -13,21 +13,9 @@ depends_on:
 validated: April 2026
 ---
 
-# NYC Unincorporated Business Tax (UBT) v1.0
+# NYC UBT
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
-
-## What this file is
-
-**Obligation category:** IT (Income Tax)
-**Functional role:** Computation + Return
-**Status:** Complete
-
-This is a Tier 2 content skill for computing and preparing the NYC Unincorporated Business Tax return for sole proprietors and single-member LLCs doing business in New York City. The UBT is a city-level tax imposed on net income from unincorporated businesses operating in the five boroughs.
-
----
-
-## Section 1 -- Scope statement
+## Who this applies to
 
 **In scope:**
 
@@ -51,33 +39,7 @@ This is a Tier 2 content skill for computing and preparing the NYC Unincorporate
 
 ---
 
-## Section 2 -- Filing requirements
-
-### Who must file
-
-Every individual or SMLLC carrying on or liquidating a trade, business, profession, or occupation wholly or partly in NYC must file a UBT return if gross income from the NYC business exceeds $95,000. **Source:** NYC Admin Code §11-503(a).
-
-### Filing thresholds
-
-| Item | Amount | Source |
-|------|--------|--------|
-| Filing requirement threshold | Gross income > $95,000 | NYC Admin Code §11-503(a) |
-| Simplified return threshold | Gross income <= $250,000 (may use NYC-202S) | NYC-202S instructions |
-
-### Due date
-
-| Item | Date | Source |
-|------|------|--------|
-| Annual return due date | April 15, 2026 (for tax year 2025) | NYC Admin Code §11-514 |
-| Extension | Automatic with federal extension (to October 15, 2026) | NYC DOF instructions |
-
-### Estimated tax payments
-
-Quarterly estimated payments are required if the expected UBT liability is $3,400 or more. Payment dates follow the same schedule as NY state estimated tax (April 15, June 15, September 15, January 15).
-
----
-
-## Section 3 -- Rates and thresholds
+## Rates, bands and thresholds
 
 | Item | Amount | Source |
 |------|--------|--------|
@@ -102,7 +64,9 @@ The $95,000 exemption is reduced by $1 for every $2 of taxable income exceeding 
 
 ---
 
-## Section 4 -- Computation rules (Step format)
+## The taxable base
+
+### Computation rules
 
 ### Step 1: Determine if UBT applies
 
@@ -168,7 +132,7 @@ The full amount of UBT paid is available as a credit against NYC personal income
 
 ---
 
-## Section 5 -- Edge cases and special rules
+### Edge cases and special rules
 
 ### E-1: Freelancers and independent contractors
 
@@ -200,7 +164,41 @@ If gross income from the business is $250,000 or less AND the taxpayer has no em
 
 ---
 
-## Section 6 -- Test suite
+## Deadlines and filing
+
+### Who must file
+
+Every individual or SMLLC carrying on or liquidating a trade, business, profession, or occupation wholly or partly in NYC must file a UBT return if gross income from the NYC business exceeds $95,000. **Source:** NYC Admin Code §11-503(a).
+
+### Filing thresholds
+
+| Item | Amount | Source |
+|------|--------|--------|
+| Filing requirement threshold | Gross income > $95,000 | NYC Admin Code §11-503(a) |
+| Simplified return threshold | Gross income <= $250,000 (may use NYC-202S) | NYC-202S instructions |
+
+### Due date
+
+| Item | Date | Source |
+|------|------|--------|
+| Annual return due date | April 15, 2026 (for tax year 2025) | NYC Admin Code §11-514 |
+| Extension | Automatic with federal extension (to October 15, 2026) | NYC DOF instructions |
+
+### Estimated tax payments
+
+Quarterly estimated payments are required if the expected UBT liability is $3,400 or more. Payment dates follow the same schedule as NY state estimated tax (April 15, June 15, September 15, January 15).
+
+---
+
+## Penalties and interest
+
+UBT late-filing and late-payment penalties apply; current rates are not yet confirmed against an archived source.
+
+## Cross-border points
+
+- UBT applies to NYC-sourced business income of nonresidents; see the computation allocation rules above.
+
+## Worked examples
 
 ### Test 1: Income below exemption
 
@@ -229,7 +227,29 @@ If gross income from the business is $250,000 or less AND the taxpayer has no em
 
 ---
 
-## Section 7 -- Prohibitions
+## Ask the client first
+
+- Whether the business has NYC-sourced income and which UBT category applies.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| NYC Comptroller — business income taxes | https://www.nyc.gov/site/finance/taxes/business-income-taxes.page | 2026-10-28 |
+| NYC Dept of Finance — corporation tax | https://www.nyc.gov/site/finance/taxes/corporation.page | 2026-10-28 |
+
+Not yet confirmed: UBT rate table; penalty/interest rates; filing thresholds.
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people.
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
+
+### Prohibitions
 
 - **P-1:** Do NOT deduct the owner's salary, draws, or distributions when computing UBT taxable income.
 - **P-2:** Do NOT deduct federal, state, or local income taxes (including UBT itself) from UBT income.
@@ -240,7 +260,7 @@ If gross income from the business is $250,000 or less AND the taxpayer has no em
 
 ---
 
-## Section 8 -- Self-checks
+### Self-checks
 
 Before delivering output, verify:
 
@@ -256,8 +276,8 @@ Before delivering output, verify:
 
 ---
 
-## Section 9 -- Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://www.openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
