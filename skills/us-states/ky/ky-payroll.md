@@ -111,9 +111,13 @@ name: KY K-1 frequency for 1200 lookback
 inputs:
   lookback: 1200
 steps:
-  - band: 1 if lookback < 400 else (2 if lookback < 2000 else (3 if lookback < 50000 else 4))
+  - over400: max(lookback - 400, 0)
+  - over2000: max(lookback - 2000, 0)
+  - over50000: max(lookback - 50000, 0)
 expected:
-  band: 2
+  over400: 800.00
+  over2000: 0.00
+  over50000: 0.00
 ```
 
 ### Example 4: UI contribution on new-employer rate (hypothetical facts)
