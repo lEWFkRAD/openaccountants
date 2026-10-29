@@ -33,7 +33,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Last updated** — 2026-05-28
 - **Validation** — AI-drafted — Q3 (pending Michigan CPA/EA verification)
 
-### Sources consulted
+## Sources
 
 **Sources consulted**
 

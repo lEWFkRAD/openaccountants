@@ -35,7 +35,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Last updated | 2026-05-22 |
 | Validation | AI-drafted — Q3 |
 
-### Sources consulted
+## Sources
 
 **Sources consulted table**
 
