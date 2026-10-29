@@ -381,7 +381,7 @@ Penalty and interest rules are in the failure-to-file / failure-to-pay / neglige
 Multi-state nexus questions are out of scope (referral under "Ask the client first" below); KC/STL earnings-tax sourcing for remote and commuter workers is covered in the KC and STL subsections folded under "The taxable base" above.
 ## Worked examples
 
-### 11.1 Example A — Kansas City employer with a non-KC-resident employee
+### 11.1 Worked example A — Kansas City employer with a non-KC-resident employee
 
 Cottonwood Bakery, LLC is a hypothetical single-member LLC operating a bakery in downtown Kansas City, Missouri. All facts below (wages, hours, residency) are hypothetical. Cottonwood employs three workers:
 
@@ -424,7 +424,7 @@ Cottonwood's average monthly MO withholding is approximately $480 — placing it
 | MO-W-3 due | January 31, 2026 |
 | RD-113 due | February 28, 2026 |
 
-### 11.2 Example B — St. Louis City employer
+### 11.2 Worked example B — St. Louis City employer
 
 Riverfront Engineering, P.C. is a hypothetical professional engineering corporation located at 1010 Market Street, City of St. Louis, MO. All facts below (salaries, residency, schedules) are hypothetical. Employs:
 
@@ -464,7 +464,7 @@ Riverfront's average monthly MO withholding is approximately $1,250 — placing 
 | MO-W-3 due | January 31, 2026 |
 | W-11 due | January 31, 2026 |
 
-### 11.3 Example C — Non-metro MO-only small business
+### 11.3 Worked example C — Non-metro MO-only small business
 
 Heartland Auto Repair, LLC is a hypothetical sole-member LLC operating a single auto repair shop in Columbia, Missouri (Boone County, no local earnings tax). All facts below (salaries, residency) are hypothetical. Employs two workers:
 
