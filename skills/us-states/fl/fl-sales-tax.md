@@ -1,222 +1,118 @@
 ---
-name: fl-sales-use-tax
+name: fl-sales-tax
 description: >
-  Florida Sales and Use Tax return (Form DR-15) for self-employed individuals and small businesses. Covers the 6% state sales tax rate, county discretionary sales surtax, use tax on out-of-state purchases, exempt transactions, filing frequencies, and dealer collection allowance. Primary source: Florida Statutes Chapter 212.
-version: "1.2"
+  Florida Sales and Use Tax (Form DR-15) for registered dealers who are
+  sole proprietors or single-member LLCs, tax year 2025-26 returns: the 6%
+  state sales and use tax rate, the county discretionary sales surtax
+  capped at the first $5,000 per item, the collection allowance of 2.5% of
+  the first $1,200 of tax due (maximum $30, electronic filers only),
+  filing-frequency limits from $100 or less (annual) to more than $1,000
+  (monthly), returns due the 1st and late after the 20th of the following
+  month, the $5,000 prior-fiscal-year electronic filing threshold, and the
+  repeal of sales tax on commercial rentals effective October 1, 2025.
+  Primary sources: Florida Statutes Chapter 212 and Florida Department of
+  Revenue forms DR-15, DR-15N and DR-15DSS. ALWAYS load us-tax-workflow-base
+  first.
+version: 0.2
 jurisdiction: US-FL
+category: state
 tax_year: 2025
 tier: 2
 last_updated: 2026-10-28
-category: state
+review_status: pending_review
+trust_label: Built by Michael Cutajar and the OpenAccountants team
+license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 depends_on:
   - us-tax-workflow-base
-validated: April 2026
-validation_status: ai-drafted-q3
 ---
 
-# Florida Sales and Use Tax (DR-15) v1.0
+# Florida Sales and Use Tax (DR-15), tax year 2025-26 returns
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+> **Source-cited draft.** Built from ss. 212.05, 212.06, 212.054, 212.07, 212.08, 212.12, 212.18, 213.235 and 213.755 Fla. Stat. (2026) and the Florida Department of Revenue's DR-15 return, DR-15N instructions, DR-15DSS surtax rates and sales tax page, read on 2026-10-28. No accountant has reviewed it. All outputs must be reviewed by a qualified tax professional before filing.
 
-## What this file is
+## Who this applies to
 
-**Obligation category:** CT (Consumption Tax)
-**Functional role:** Return preparation
-**Status:** Complete
+Any person who makes or intends to make taxable sales or charges admission in Florida must register as a dealer with the Florida Department of Revenue (FDOR); registration is administered under s. 212.18, Fla. Stat. This skill covers the preparation of Form DR-15 (Sales and Use Tax Return) and Form DR-15EZ for Florida-registered dealers who are sole proprietors or single-member LLCs.
 
-This is a Tier 2 content skill that loads on top of `us-tax-workflow-base`. It covers the preparation of Form DR-15 (Sales and Use Tax Return) for Florida-registered dealers who are sole proprietors or single-member LLCs.
+In scope: Form DR-15 and DR-15EZ; taxable sales of tangible personal property; the specifically enumerated taxable services; use tax on purchases where sales tax was not collected; the county discretionary sales surtax; the collection allowance; filing-frequency determination.
 
-**Tax year coverage.** This skill targets **tax year 2025** (returns filed monthly, quarterly, semiannually, or annually depending on tax liability).
+Out of scope (refused): Form DR-1 registration; the communications services tax; solid waste, lead-acid battery and tire fees; transient rental taxes (see `fl-transient-rental-tax`); marketplace provider obligations; multi-state nexus analysis (see `fl-cross-border`).
 
----
+**Tax year coverage.** This skill targets returns for reporting periods in tax year 2025-26 (monthly, quarterly, semiannual or annual, per the dealer's assigned frequency).
 
-## Section 1 -- Scope statement
+## Rates, bands and thresholds
 
-**In scope:**
+| Item | Rate / amount | Source |
+|---|---|---|
+| State sales tax | 6% of the sales price of each item of tangible personal property sold at retail | s. 212.05(1)(a)1.a.: "At the rate of 6 percent of the sales price of each item or article of tangible personal property" |
+| State use tax | 6% of the cost price at the moment of purchase | s. 212.06(1)(a): "The aforesaid tax at the rate of 6 percent of the retail sales price as of the moment of sale, 6 percent of the cost price as of the moment of purchase" |
+| County discretionary sales surtax | Levied by counties under s. 212.055; rates published annually on Form DR-15DSS | s. 212.054(2); FDOR sales tax page: "For a list of discretionary sales surtax rates, visit ... Form DR-15DSS ... updated yearly in November." |
+| Surtax cap per item | Only the first $5,000 of the sales amount of any item of tangible personal property is subject to surtax | s. 212.054(4)(b)1.: "The sales amount above $5,000 on any item of tangible personal property shall not be subject to the surtax." |
+| Collection allowance | 2.5% of the first $1,200 of the amount due, not to exceed $30; electronic filing and payment only; forfeited on late or incomplete returns | s. 212.12(1): "shall be allowed 2.5 percent of the amount of the tax due ... if the amount of the tax due ... exceeds $1,200, an allowance is not allowed for all amounts in excess of $1,200"; DR-15N instructions: "a collection allowance of 2.5% (.025) of the first $1,200 of the Amount Due (Line 10), not to exceed $30" |
+| Electronic filing threshold | Dealers that paid $5,000 or more in state sales and use tax during the prior state fiscal year (July 1 - June 30) must file and pay electronically during the next calendar year | s. 213.755(1): "paid that tax in the prior state fiscal year in an amount greater than or equal to $5,000"; DR-15N: "taxpayers who paid $5,000 or more in sales and use tax during the State of Florida's prior fiscal year ... are required to file returns and pay tax electronically"; FDOR sales tax page |
+| Registration | Any person who makes or intends to make taxable sales must register as a dealer | s. 212.18 (administration of law; registration of dealers) |
 
-- Form DR-15 (Sales and Use Tax Return)
-- Form DR-15EZ (simplified return for dealers with no surtax obligation)
-- Sole proprietors and single-member LLCs registered as Florida dealers
-- Taxable sales of tangible personal property
-- Taxable services (commercial pest control, detective/security, nonresidential cleaning, commercial interior design)
-- Use tax on purchases where sales tax was not collected
-- Discretionary sales surtax by county
-- Collection allowance (vendor discount)
-- Filing frequency determination
+**Selected county surtax rates (calendar year 2025, Form DR-15DSS R. 11/24).** Surtax applies in the county where the goods are delivered or the service is performed; the dealer must look up the current rate on the current DR-15DSS for each county (rates change every January).
 
-**Out of scope (refused):**
+| County | Total surtax rate (CY2025) |
+|---|---|
+| Alachua | 1.5% |
+| Broward | 1% |
+| Duval | 1.5% |
+| Hillsborough | 1.5% |
+| Miami-Dade | 1% |
+| Orange | 0.5% |
+| Palm Beach | 1% |
 
-- Form DR-1 (Application for Sales Tax Registration) -- separate process
-- Communications services tax (Form DR-700016)
-- Solid waste fees, lead-acid battery fees, tire fees
-- Transient rental taxes (tourist development tax)
-- Sales tax on commercial real property leases beyond basic classification
-- Marketplace provider obligations (Amazon, Etsy platform responsibilities)
-- Multi-state sales tax nexus analysis
+## The taxable base
 
----
+The DR-15 computation runs line by line: gross sales (line 1) less exempt sales (line 2) gives the taxable amount (line 3); state tax at 6% (line 4); discretionary surtax (line 15) computed county by county, applying the surtax only to the first $5,000 of the sales amount of each individual item delivered in that county; use tax (line 3B) on out-of-state or internet purchases where no Florida tax was collected, at 6% plus the applicable surtax; lawful deductions (line 6); minus the collection allowance (line 11, electronic filers only); plus penalty and interest if late (lines 12-13).
 
-## Section 2 -- Filing requirements
+Items that assemble into one working unit count as a single item for the $5,000 surtax cap when documented. Charges for prepaid calling arrangements remain subject to surtax above $5,000 (s. 212.054(4)(b)1.).
 
-### Who must register
+**Common exemptions** (s. 212.08, Fla. Stat.): food products for human consumption are exempt — "Food products for human consumption are exempt from the tax imposed by this chapter" (s. 212.08(1)(a)); also exempt are prescription eyeglasses, dentures, hearing aids, crutches, prosthetic and orthopedic appliances, and funeral purchases (s. 212.08(2)). Sales for resale must be in strict compliance with s. 212.18 and the rules adopted under it; a dealer who makes a sale for resale that is not in strict compliance is liable for the tax (s. 212.07(1)(b)), and the department provides each newly registered dealer an annual resale certificate (s. 212.18(2)(e)).
 
-Any person who makes or intends to make taxable sales or charges admission in Florida must register as a dealer with the Florida Department of Revenue (FDOR). Registration is free. **Source:** §212.18, F.S.
+**Taxable services.** Most Florida services are not taxable; the specifically enumerated taxable services include nonresidential building pest control and nonresidential cleaning services, and detective, burglar protection and other protection services (s. 212.05(1)(d), Fla. Stat.).
 
-### Filing frequency
+**Commercial rentals repealed.** The sales tax on commercial real property rentals was repealed effective October 1, 2025; the DR-15N instructions (R. 10/25) state "Sales Tax on Commercial Rentals — Repealed Effective October 1, 2025. See TIP 25A01-04."
 
-| Annual taxable sales | Filing frequency | Source |
-|---------------------|------------------|--------|
-| $1,000 or less per year | Annual (due January 20) | FDOR Rule 12A-1.056, F.A.C. |
-| $1,001 -- $2,500 per year | Semiannual (due January 20 and July 20) | FDOR Rule 12A-1.056, F.A.C. |
-| $2,501 -- $12,000 per year | Quarterly (due 1st/20th after quarter end) | FDOR Rule 12A-1.056, F.A.C. |
-| Over $12,000 per year | Monthly (due 1st/20th after month end) | FDOR Rule 12A-1.056, F.A.C. |
+**Zero returns.** A return must be filed for each reporting period even if no tax is due (DR-15N: "You must file a tax return for each reporting period, even if no tax is due."; FDOR sales tax page).
 
-**Due date:** The 1st through the 20th of the month following the reporting period. If the 20th falls on a Saturday, Sunday, or state/federal holiday, the due date is the next business day.
+## Deadlines and filing
 
-**Electronic filing:** Required for all dealers remitting $20,000+ in tax during the prior state fiscal year (July 1 -- June 30). All other dealers may file electronically or by paper. **Source:** §213.755, F.S.
+| Obligation | When | Source |
+|---|---|---|
+| Return and payment | Due on the 1st and late after the 20th of the month following each reporting period; if the 20th falls on a Saturday, Sunday or state/federal holiday, the due date is the next business day | DR-15N instructions: "Tax returns and payments are due on the 1st and late after the 20th day of the month following each reporting period." |
+| Filing frequency limits | More than $1,000 in annual sales tax collections: monthly. $501 - $1,000: quarterly. $101 - $500: semiannual. $100 or less: annual. Most new businesses are set up to file quarterly | FDOR sales tax page filing-frequency limits table |
+| Electronic payment initiation | To avoid penalty and interest, electronic payments must be initiated and confirmed no later than 5 p.m. ET on the business day prior to the 20th | DR-15N instructions |
+| Estimated tax | Dealers that paid $200,000 or more in state sales and use tax during the prior fiscal year must make monthly estimated payments (60% methods) starting with the December return | DR-15N instructions lines 8-9 |
 
----
+## Penalties and interest
 
-## Section 3 -- Rates and thresholds
+| Failure | Penalty / interest | Source |
+|---|---|---|
+| Failure to timely file or pay | 10% of the tax not timely filed or paid, with a minimum of $50 | s. 212.12(2)(a): "a specific penalty shall be added to the tax or fee in the amount of 10 percent of either the tax or fee shown on the return that is not timely filed or any tax or fee not paid timely. The penalty may not be less than $50" |
+| Continued nonpayment | An additional 10% of the unpaid tax or fee for each additional 30 days or fraction thereof, up to a total penalty of 50% | s. 212.12(2)(c) |
+| Fraudulent return with willful intent to evade | 100% of the unreported tax | s. 212.12(2)(d) |
+| Interest | Floating rate on deficiencies; the annual rate is the adjusted prime rate rounded to the nearest full percent plus 4 percentage points, set under Ch. 213 | s. 213.235(1)-(2) |
+| Underpayment of estimated tax | Loss of collection allowance and a 10% penalty on the underpayment, plus interest | DR-15N instructions |
 
-### State sales tax rate
+The collection allowance is denied on late or incomplete returns (s. 212.12(1)(b); DR-15N).
 
-| Item | Rate | Source |
-|------|------|--------|
-| State sales tax | 6.0% | §212.05, F.S. |
-| State use tax | 6.0% | §212.06, F.S. |
+## Cross-border points
 
-### Discretionary sales surtax (selected counties, 2025)
+- Out-of-state retailers with no physical presence in Florida must register and collect once taxable remote sales exceed $100,000 in the previous calendar year (FDOR sales tax page, consumer information).
+- Use tax on remote purchases is due the first day of the month following the quarter of purchase and late after the 20th (FDOR consumer page quarterly schedule).
+- Registered Florida dealers report use tax on their DR-15 returns; out-of-state individuals use Form DR-15MO (FDOR sales tax page).
 
-The surtax is levied by individual counties and applies to the first $5,000 of the sales amount of any single item of tangible personal property (the sales amount above $5,000 per item is not subject to surtax). **Source:** §212.054(4)(b)1., F.S. (county surtax authorization: §212.055, F.S.)
+## Worked examples
 
-| County | Surtax rate | Combined rate | Source |
-|--------|-------------|---------------|--------|
-| Miami-Dade | 1.0% | 7.0% | FDOR Form DR-15DSS (2025) |
-| Broward | 1.0% | 7.0% | FDOR Form DR-15DSS (2025) |
-| Hillsborough (Tampa) | 1.5% | 7.5% | FDOR Form DR-15DSS (2025) |
-| Orange (Orlando) | 0.5% | 6.5% | FDOR Form DR-15DSS (2025) |
-| Duval (Jacksonville) | 1.5% | 7.5% | FDOR Form DR-15DSS (2025) |
-| Palm Beach | 1.0% | 7.0% | FDOR Form DR-15DSS (2025) |
-| Alachua (Gainesville) | 1.0% | 7.0% | FDOR Form DR-15DSS (2025) |
+All client facts in the examples are hypothetical; the 6% state rate, 1.5% surtax, $5,000 surtax cap, and 2.5%-of-first-$1,200 (max $30) collection allowance are the confirmed figures from the rates table above.
 
-**Important:** The surtax rate is determined by the county where the goods are delivered or services performed. The dealer must look up the current rate on Form DR-15DSS for each county. Rates change periodically.
-
-### Collection allowance (vendor discount)
-
-| Item | Amount | Source |
-|------|--------|--------|
-| Collection allowance | 2.5% of first $1,200 in tax due (max $25/month or equivalent per period) | §212.12(1), F.S. |
-
-The collection allowance is a compensation to the dealer for collecting and remitting sales tax. It is applied as a deduction on Line 9 of Form DR-15. The allowance is forfeited if the return is filed late.
-
-### Bracket system for tax on partial dollars
-
-Florida uses a bracket system rather than rounding. The bracket table must be used to compute tax on individual transactions. **Source:** §212.12(9), F.S.; FDOR bracket chart.
-
----
-
-## Section 4 -- Computation rules (Step format)
-
-### Step 1: Classify all transactions
-
-For each sale during the reporting period, determine:
-
-1. **Taxable or exempt?** See Section 5 for exemptions.
-2. **Location of delivery.** Determines which county surtax applies.
-3. **Per-item amount.** Surtax applies only to the first $5,000 of the sales amount of each individual item (items normally sold in bulk, or that assemble into one working unit, count as a single item when documented).
-
-### Step 2: Compute gross sales (DR-15 Line 1)
-
-Sum of all sales (taxable and exempt) during the reporting period.
-
-### Step 3: Compute exempt sales (DR-15 Line 2)
-
-Sum of all exempt sales (see Section 5). Subtract from Line 1.
-
-### Step 4: Compute taxable amount (DR-15 Line 3)
-
-Line 1 minus Line 2 = taxable amount.
-
-### Step 5: Compute state sales tax (DR-15 Line 4)
-
-Taxable amount x 6.0% = state sales tax due.
-
-### Step 6: Compute discretionary sales surtax (DR-15 Line 5)
-
-For each county where sales were delivered:
-- Identify the applicable surtax rate from DR-15DSS.
-- Apply surtax to the first $5,000 of the sales amount of each individual item delivered in that county.
-- Sum all surtax amounts.
-
-### Step 7: Compute use tax (DR-15 Line 6)
-
-For purchases where the seller did not collect Florida sales tax:
-- Apply 6.0% state rate + applicable county surtax rate.
-- Include purchases from out-of-state sellers, internet purchases, and items removed from exempt inventory for personal use.
-
-### Step 8: Compute gross tax (DR-15 Line 7)
-
-Line 4 + Line 5 + Line 6 = gross tax.
-
-### Step 9: Apply lawful deductions (DR-15 Lines 8-9)
-
-- Line 8: Credit memo adjustments for returned merchandise.
-- Line 9: Collection allowance (2.5% of first $1,200 of tax due, max $25). Forfeited if late.
-
-### Step 10: Compute net tax due (DR-15 Line 10)
-
-Line 7 minus Line 8 minus Line 9 = net tax due.
-
-### Step 11: Apply penalty and interest if late
-
-| Item | Rate | Source |
-|------|------|--------|
-| Penalty (1-30 days late) | 10% of tax due | §213.235, F.S. |
-| Penalty (over 30 days late) | 10% of tax due + additional penalties | §213.235, F.S. |
-| Interest | Floating rate per §213.235, F.S. (updated annually) | §213.235, F.S. |
-| Minimum penalty | None stated | §213.235, F.S. |
-
----
-
-## Section 5 -- Edge cases and special rules
-
-### E-1: Common exemptions
-
-- Groceries (unprepared food for home consumption) -- exempt. **Source:** §212.08(1), F.S.
-- Prescription drugs and medical supplies -- exempt. **Source:** §212.08(2), F.S.
-- Items purchased for resale (with valid DR-13 resale certificate) -- exempt. **Source:** §212.07(1), F.S.
-- Agricultural inputs (feed, seed, fertilizer with DR-14A certificate) -- exempt.
-- Certain packaging materials used to package tangible personal property for sale.
-
-### E-2: Services generally not taxable
-
-Most services in Florida are NOT subject to sales tax. Only specifically enumerated services are taxable: nonresidential pest control, burglar protection/detective services, nonresidential building cleaning, and commercial interior design services. **Source:** §212.05(1), F.S.
-
-### E-3: Software and digital goods
-
-- Canned (prewritten) software delivered on tangible media: taxable.
-- Canned software delivered electronically (SaaS, downloads): generally taxable per FDOR TAA 14A-032. However, custom software is exempt.
-- Digital books, music, movies: Florida does NOT tax these as of 2025.
-
-### E-4: Surtax cap on single transactions
-
-The $5,000 surtax cap applies per single item. If a customer buys 10 items at $2,000 each in one transaction, the surtax applies to the first $5,000 of EACH item, not the transaction total. **Source:** §212.054, F.S.
-
-### E-5: Commercial rent
-
-Rental of commercial real property is subject to the 5.5% state rate (NOT 6%) plus applicable surtax. This is a separate line on DR-15 and uses a different rate. **Source:** §212.031, F.S.
-
-### E-6: Zero returns
-
-Dealers with no taxable activity during a reporting period must still file a return showing zero tax due. Failure to file zero returns results in delinquency notices and potential revocation of the dealer's registration.
-
----
-
-## Recomputing examples
+A monthly dealer with $100,000 of taxable sales delivered in a 1.5% surtax county, filing and paying electronically on time:
 
 ```oa-check
-name: FL monthly dealer 100,000 taxable sales at 6 plus 1.5 surtax with collection allowance
+name: FL monthly dealer 100000 taxable sales at 6 plus 1.5 surtax with collection allowance
 inputs:
   sales: 100000
   state: 0.06
@@ -225,17 +121,20 @@ steps:
   - state_tax: sales * state
   - surtax_tax: sales * surtax
   - gross: state_tax + surtax_tax
-  - allowance: min(sales * 0.025, 25)
+  - allowance: min(gross * 0.025, 30)
   - net: gross - allowance
 expected:
   state_tax: 6000.00
   surtax_tax: 1500.00
   gross: 7500.00
-  allowance: 25.00
-  net: 7475.00
+  allowance: 30.00
+  net: 7470.00
 ```
+
+Surtax cap per item: a sale of 10 items at $2,000 each in a 1.5% surtax county — each item is under the $5,000 cap, so surtax applies to the full price of each:
+
 ```oa-check
-name: FL surtax cap per item, 10 items at 2,000 each with 1.5 surtax
+name: FL surtax cap per item, 10 items at 2000 each with 1.5 surtax
 inputs:
   items: 10
   price: 2000
@@ -248,68 +147,104 @@ expected:
   surtax_total: 300.00
 ```
 
-## Section 6 -- Test suite
+A single item of $10,000 in the same county: surtax applies only to the first $5,000 (s. 212.054(4)(b)1.); state tax applies to the full price:
 
-### Test 1: Basic monthly return
+```oa-check
+name: FL single item over the surtax cap
+inputs:
+  price: 10000
+  state: 0.06
+  surtax: 0.015
+  cap: 5000
+steps:
+  - state_tax: price * state
+  - surtax_tax: min(price, cap) * surtax
+  - gross: state_tax + surtax_tax
+expected:
+  state_tax: 600.00
+  surtax_tax: 75.00
+  gross: 675.00
+```
 
-- **Input:** Sole proprietor, Broward County. Gross sales: $15,000. All taxable, all delivered in Broward. No exempt sales.
-- **Expected:** State tax: $15,000 x 6% = $900. Surtax: $15,000 x 1% = $150 (all items under $5,000). Gross tax: $1,050. Collection allowance: $1,050 x 2.5% = $26.25, capped at $25. Net tax: $1,025.
+Late filing: a monthly return filed late with $500 of tax due draws the 10% penalty ($50), and the collection allowance is forfeited:
 
-### Test 2: Mixed county sales
+```oa-check
+name: FL late filing penalty and lost allowance
+inputs:
+  tax_due: 500
+  penalty_rate: 0.10
+steps:
+  - penalty: tax_due * penalty_rate
+  - total: tax_due + penalty
+expected:
+  penalty: 50.00
+  total: 550.00
+```
 
-- **Input:** Sales of $8,000 delivered in Orange County (0.5% surtax) and $4,000 delivered in Miami-Dade (1.0% surtax).
-- **Expected:** State tax: $12,000 x 6% = $720. Surtax: ($8,000 x 0.5%) + ($4,000 x 1.0%) = $40 + $40 = $80. Gross tax: $800.
+Mixed-county sales: $8,000 delivered in Orange County (0.5% surtax) and $4,000 in Miami-Dade (1% surtax):
 
-### Test 3: Transaction exceeding $5,000 surtax cap
+```oa-check
+name: FL mixed county sales with different surtax rates
+inputs:
+  sales_orange: 8000
+  sales_miami: 4000
+  state: 0.06
+  surtax_orange: 0.005
+  surtax_miami: 0.01
+steps:
+  - state_tax: (sales_orange + sales_miami) * state
+  - surtax: sales_orange * surtax_orange + sales_miami * surtax_miami
+  - gross: state_tax + surtax
+expected:
+  state_tax: 720.00
+  surtax: 80.00
+  gross: 800.00
+```
 
-- **Input:** Single sale of $10,000 in Hillsborough County (1.5% surtax).
-- **Expected:** State tax: $10,000 x 6% = $600. Surtax: $5,000 x 1.5% = $75 (capped at first $5,000). Gross tax: $675.
+## Ask the client first
 
-### Test 4: Late filing
-
-- **Input:** Monthly return, 15 days late. Tax due: $500.
-- **Expected:** Penalty: $500 x 10% = $50. Collection allowance: forfeited. Total due: $550 plus interest.
-
-### Test 5: Use tax on out-of-state purchase
-
-- **Input:** Business purchased $2,000 of office equipment from an out-of-state vendor that did not collect FL tax. Business located in Palm Beach County (1.0% surtax).
-- **Expected:** Use tax: $2,000 x 7% = $140.
-
----
-
-## Section 7 -- Prohibitions
-
-- **P-1:** Do NOT accept a resale certificate (DR-13) without verifying it is properly completed and the buyer is a registered dealer.
-- **P-2:** Do NOT apply the surtax to amounts exceeding $5,000 per individual item in a transaction.
-- **P-3:** Do NOT claim the collection allowance on a late-filed return.
-- **P-4:** Do NOT charge the 6% rate on commercial real property rent; the rate is 5.5%.
-- **P-5:** Do NOT classify all software as taxable -- custom software is exempt.
-- **P-6:** Do NOT assume digital goods are taxable in Florida. As of 2025, they generally are not.
-
----
-
-## Section 8 -- Self-checks
-
-Before delivering output, verify:
-
-- [ ] All transactions classified as taxable or exempt with statutory basis
-- [ ] Correct surtax rate applied for each delivery county (verified against current DR-15DSS)
-- [ ] Surtax cap of $5,000 per item applied correctly
-- [ ] Collection allowance computed correctly and not claimed on late returns
-- [ ] Use tax included for out-of-state purchases where no FL tax was collected
-- [ ] Filing frequency matches annual tax liability threshold
-- [ ] Zero return filed if no activity (not skipped)
-- [ ] Commercial rent at 5.5% (not 6%)
-- [ ] Reviewer brief includes any classification uncertainties
-
----
-
-## Section 9 -- Disclaimer
-
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://www.openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+- Is the dealer registered with FDOR (registration is administered under s. 212.18)? Any location or mailing-address changes on the account?
+- What is the assigned filing frequency (more than $1,000 annual collections = monthly; $501-$1,000 = quarterly; $101-$500 = semiannual; $100 or less = annual), and does the total tax paid last fiscal year exceed $5,000 (mandatory e-file)?
+- Which county surtax rates apply to each delivery location this year (check the current DR-15DSS — rates change every January)?
+- Are all resale certificates (annual resale certificate under s. 212.18(2)(e)) collected and verified as strictly compliant with s. 212.18 before exemption is honored?
+- Is use tax being reported on out-of-state and internet purchases where no Florida tax was collected?
+- Was the return filed for every reporting period, including zero-tax periods?
+- Do not accept an exemption without a properly completed certificate; do not apply surtax above the first $5,000 per item; do not claim the collection allowance on a late return; do not assume commercial rentals are still taxable — the tax was repealed effective October 1, 2025.
 
 ## Sources
 
-- https://www.openaccountants.com (as_of: 2026-10-28)
+| Source | URL | Read on |
+|---|---|---|
+| s. 212.05 Fla. Stat. (2026) — sales tax rate; taxable services | https://www.flsenate.gov/Laws/Statutes/2026/212.05 | 2026-10-28 |
+| s. 212.06 Fla. Stat. (2026) — use tax; dealers must collect | https://www.flsenate.gov/Laws/Statutes/2026/212.06 | 2026-10-28 |
+| s. 212.054 Fla. Stat. (2026) — discretionary sales surtax; $5,000 per-item cap | https://www.flsenate.gov/Laws/Statutes/2026/212.054 | 2026-10-28 |
+| s. 212.07 Fla. Stat. (2026) — resale in strict compliance with s. 212.18 | https://www.flsenate.gov/Laws/Statutes/2026/212.07 | 2026-10-28 |
+| s. 212.08 Fla. Stat. (2026) — exemptions (food products; medical; funeral) | https://www.flsenate.gov/Laws/Statutes/2026/212.08 | 2026-10-28 |
+| s. 212.12 Fla. Stat. (2026) — collection allowance; delinquency penalties (10%, $50 minimum, 50% cap, 100% fraud) | https://www.flsenate.gov/Laws/Statutes/2026/212.12 | 2026-10-28 |
+| s. 212.18 Fla. Stat. (2026) — registration of dealers; annual resale certificate | https://www.flsenate.gov/Laws/Statutes/2026/212.18 | 2026-10-28 |
+| s. 213.235 Fla. Stat. (2026) — interest on deficiencies (floating rate) | https://www.flsenate.gov/Laws/Statutes/2026/213.235 | 2026-10-28 |
+| s. 213.755 Fla. Stat. (2026) — electronic filing and payment ($5,000 prior-year threshold) | https://www.flsenate.gov/Laws/Statutes/2026/213.755 | 2026-10-28 |
+| Florida Department of Revenue — Sales and Use Tax page (filing frequencies, due dates, e-file threshold, remote-seller registration) | https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx | 2026-10-28 |
+| Form DR-15, Sales and Use Tax Return (PDF, R. 01/25, effective 02/25) | https://floridarevenue.com/Forms_library/current/dr15.pdf | 2026-10-28 |
+| Instructions for DR-15 (Form DR-15N, R. 10/25) — due dates, collection allowance, e-file threshold, estimated tax, commercial rentals repealed effective October 1, 2025 | https://floridarevenue.com/Forms_library/current/dr15n.pdf | 2026-10-28 |
+| Form DR-15DSS, Discretionary Sales Surtax Information for Calendar Year 2025 (R. 11/24) | https://floridarevenue.com/Forms_library/current/dr15dss.pdf | 2026-10-28 |
+
+Not yet confirmed: the calendar year 2026 county surtax rates (the archived DR-15DSS covers CY2025; the 2026 form publishes in November); the current bracket chart for tax on partial dollars under s. 212.12(9) (the bracket table itself was not archived this run); the taxability of canned software delivered electronically and digital goods (the prior draft's treatment relied on unarchived DOR guidance; confirm against current DOR publications before relying on it); the current interest rate percentage for late payments (the floating-rate formula is confirmed in s. 213.235 but the current year's published rate was not archived this run).
+
+<!-- openaccountants-cta-block -->
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

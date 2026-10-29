@@ -1,112 +1,143 @@
 ---
 name: fl-social-contributions
 description: >
-  Use this skill whenever asked about Florida employer social
-  contributions for tax year 2026 — Florida reemployment (unemployment)
-  tax under Ch. 443 Fla. Stat., the employer-only nature of FL
-  reemployment tax, mandatory workers' compensation insurance under
-  Ch. 440, and how Florida has no state disability, paid-family-leave,
-  or retirement contribution on payroll. Trigger on "Florida
-  reemployment tax", "Florida SUTA", "FL UI rate", "Florida employer
-  taxes", "Florida workers compensation requirement", "RT-6".
-  Source-cited draft; Ch. 440 text read 2026-10-27, Ch. 443 rate
-  schedule pages unreachable this run (needs-sources flags).
+  Use this skill whenever asked about Florida employer social contributions
+  for tax year 2026 — Florida reemployment (unemployment) tax under Ch. 443
+  Fla. Stat. administered by the Department of Revenue, the $7,000 taxable
+  wage base, the 2.7% initial new-employer rate, the employer-only nature
+  of the tax, quarterly RT-6 filing due the last day of the month after each
+  quarter, and mandatory workers' compensation insurance under Ch. 440
+  (construction industry from one employee, other industries from four).
+  Trigger on "Florida reemployment tax", "Florida SUTA", "Florida UI rate",
+  "RT-6", "Florida workers compensation requirement".
+  ALWAYS load us-tax-workflow-base first.
+version: 0.2
 jurisdiction: US-FL
 category: payroll
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
-verified_by: pending
+last_updated: 2026-10-28
+review_status: pending_review
+trust_label: Built by Michael Cutajar and the OpenAccountants team
+license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 depends_on:
   - fl-corporate-income-tax
 ---
 
-# Florida social contributions (reemployment tax + workers' comp overlay) v0.1
+# Florida social contributions (reemployment tax + workers' comp overlay), tax year 2026
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+> **Source-cited draft.** Built from the Florida Department of Revenue reemployment tax page, Form RT-6, the Florida Division of Workers' Compensation coverage-requirements page, and s. 440.04 Fla. Stat. (2026), read on 2026-10-28. No accountant has reviewed it. All outputs must be reviewed by a qualified tax professional before filing.
 
-## 1. Scope and sources
+## Who this applies to
 
-Source-cited draft, run of 27 October 2026. Florida's state-level social contributions are narrow: employer-only reemployment (unemployment) tax administered by the Department of Commerce under Ch. 443, Fla. Stat., plus mandatory workers' compensation insurance under Ch. 440, Fla. Stat. Florida has **no** individual income tax, so there is no state withholding on payroll (see the pack README), **no** state disability insurance, **no** paid family leave contribution, and **no** state retirement mandate for private employers. **Source status:** s. 440.04 Fla. Stat. text read 2026-10-27 (200, flsenate.gov); the Ch. 443 rate-schedule pages on floridajobs.org did not resolve from this workstation this run, so the 2026 wage base, rate ranges, and new-employer rate are flagged **needs-sources**; the F-2220 reemployment return form PDF was verified 2026-10-27.
+**Reemployment tax.** Florida reemployment (unemployment) tax is administered by the Florida Department of Revenue. An employer is liable if it meets any of the coverage tests on the DOR page: at least one quarterly payroll of $1,500 or more in a calendar year, or one or more employees for a day (or part of a day) in each of 20 weeks in a calendar year (FDOR reemployment tax page). Out-of-state employers with Florida employees are pulled in on the same basis.
 
-## 2. Who applies
+**Workers' compensation.** Employers in the construction industry must carry workers' compensation coverage from one or more employees (including the owner where the owner is a corporate officer or LLC member); employers in other industries must carry coverage from four or more employees (Florida Division of Workers' Compensation, coverage requirements). An exempted corporate officer does not count as an employee for the non-construction test.
 
-- **Reemployment tax:** employers meeting Florida coverage tests (generally payroll in each of 20 or more weeks in a calendar year, or covered wages above the statutory threshold — exact current test: **needs-sources**) pay Florida reemployment tax on covered wages. Out-of-state employers with Florida employees are pulled in on the same basis.
-- **Workers' compensation:** most Florida employers must carry workers' compensation insurance — the Ch. 440 coverage obligation is continuous; construction employers need coverage for even one employee, other industries generally at four or more employees (current thresholds: confirm against Ch. 440 text; s. 440.04 waiver mechanics verified 2026-10-27).
-- **No employee-side state social contribution:** unlike NY (PFL/SDI) or WA (PFML), Florida employees fund no state payroll social insurance; the employee side is federal FICA only.
+**No employee-side state social contribution.** Unlike New York or Washington, Florida employees fund no state payroll social insurance; the employee side of a Florida payroll is federal FICA only, and Florida has no state individual income tax withholding.
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
-| Item | Rate / base | Source |
+| Item | Rate / amount | Source |
 |---|---|---|
-| FL reemployment taxable wage base (2026) | **needs-sources** (floridajobs.org unreachable 2026-10-27; recent-year base has been in the $7,000–$8,700 range — confirm) | Reemployment Tax Act, Ch. 443, F.S. |
-| FL reemployment experience rate range | **needs-sources** (confirm current min/max on the 2026 rate notice) | Ch. 443, F.S. |
-| New-employer assigned rate | **needs-sources** | Ch. 443, F.S. |
-| Employee contribution to FL reemployment tax | none — employer-only | Ch. 443 structure (verified absence; no employee contribution page exists) |
-| Workers' comp premium | carrier-rated by class code; no state rate table | Ch. 440, F.S. (s. 440.04 text read 2026-10-27) |
-| State disability / paid family leave | none | absence confirmed; no such program in F.S. Ch. 443/440 scope |
+| Reemployment taxable wage base | First $7,000 of wages paid to each employee per calendar year | FDOR reemployment tax page: "Only the first $7,000 of wages paid to each employee by their employer in a calendar year is taxable." |
+| Initial (new-employer) rate | 2.7% | FDOR reemployment tax page: "The initial tax rate for new employers is .0270 (2.7%), which is applied to the first $7,000 in wages paid to each employee during a calendar year." |
+| Experienced-employer rates | Experience-rated; employers with stable employment records receive reduced rates after a qualifying period | FDOR reemployment tax page: "Employers with stable employment records receive reduced tax rates after a qualifying period." |
+| Employee contribution to reemployment tax | None — the tax is an employer obligation | FDOR reemployment tax page: "An employer is liable to pay reemployment tax if it meets any of the following conditions..." |
+| Workers' compensation premium | Carrier-rated by job classification code; no state rate table | s. 440.04 Fla. Stat. governs waiver of exemption; coverage requirements per the Division of Workers' Compensation |
+| State disability / paid family leave | No Florida program exists | The state's payroll contributions are limited to reemployment tax (Ch. 443) and workers' compensation (Ch. 440); no disability or PFML statute is administered on payroll |
 
-Reemployment tax base: covered wages up to the annual wage base per employee; the rate is employer-specific (experience-rated, with reserve-ratio and solvency adjustments). Workers' comp base: payroll by class code per the policy.
+Wages over $7,000 per employee for the year are "excess wages" and not subject to tax (FDOR reemployment tax page). S-corporation salaries paid to corporate officers are wages, and part of officer distributions for active officers performing services can be considered wages (FDOR reemployment tax page).
 
-## 4. Deadlines
+## The taxable base
 
-- Quarterly reemployment tax return and wage report (Form RT-6) — due the last day of the month following each quarter (1/31, 4/30, 7/31, 10/31 pattern; confirm current dates on floridajobs.org: **needs-sources**).
-- Annual rate notices issue each December/January with an appeal window (confirm: **needs-sources**).
-- Workers' compensation: continuous coverage obligation; certificate of insurance on request; construction certificates verified through the DBPR system.
+The reemployment base is covered wages up to $7,000 per employee per calendar year at the employer's assigned rate. The workers' compensation premium base is payroll by classification code under the carrier's policy. Florida has no state disability-insurance, paid-family-leave, or state-retirement contribution on private payroll.
 
-## 5. Penalties and interest
+## Deadlines and filing
 
-Late/unpaid reemployment contributions draw penalties and interest under Ch. 443 (current schedule: **needs-sources** — rate pages unreachable 2026-10-27). Common failure modes: (1) out-of-state employers assuming no FL reemployment duty for remote Florida employees; (2) treating workers' comp as optional for a small crew — construction requires it from the first employee; (3) misclassifying workers as contractors, which shifts both reemployment wages and comp premium.
+| Obligation | When | Source |
+|---|---|---|
+| Employer's Quarterly Report (Form RT-6) and wage report | By the end of the month following each quarter: 1st (Jan-Mar) due April 30; 2nd (Apr-Jun) due July 31; 3rd (Jul-Sep) due October 31; 4th (Oct-Dec) due January 31 | FDOR reemployment tax page due-date table |
+| Zero-activity quarters | Reports are due even if the employer had no employees or wages for the quarter | FDOR reemployment tax page: "Reports are due even if you had no employees or wages to report for that quarter." |
+| Annual rate notices | Issued each year; an employer who protests a rate notice must file with the department within 20 days of the "mailed on or before" date on the notice | FDOR reemployment tax page: "you must file a protest with the Florida Department of Revenue within 20 days of the 'mailed on or before' date stated on the Notice." |
+| Workers' compensation coverage | Continuous while the employer meets the coverage tests; certificates of insurance on request; construction-industry compliance verified through the Division of Workers' Compensation | Division of Workers' Compensation, coverage requirements |
 
-## 6. Cross-border interactions
+## Penalties and interest
 
-Multi-state employers allocate Florida reemployment wages to Florida employment under the localization-of-service rules (confirm current DEO guidance: **needs-sources**). Reciprocal coverage agreements allow one-state UI coverage for employees working in several states (confirm FL participation: **needs-sources**). Federal FUTA credit against Florida reemployment tax follows the standard $42/$5,600 pattern where the state is not a credit-reduction year (2026 status: **needs-sources**).
+Late or unpaid reemployment contributions draw penalties and interest under Ch. 443 (the Form RT-6 shows a penalty and interest computation after the due date). Common failure modes: (1) out-of-state employers assuming no Florida reemployment duty for remote Florida employees; (2) treating workers' compensation as optional for a small crew — construction requires it from the first employee; (3) misclassifying employees as contractors, which shifts both reemployment wages and compensation premium.
 
-## 7. Worked examples
+## Cross-border points
 
-An employer with one Florida employee at an assumed $8,000 wage base and a 2.7% new-employer rate (illustrative — confirm both figures against the 2026 rate notice):
+- Multi-state employers allocate reemployment wages to Florida employment under the standard localization-of-services rules; reciprocal coverage agreements permit one-state coverage for employees working in several states.
+- Federal FUTA credit reduction depends on each year's federal determination for Florida; check the current year's FUTA status before computing federal unemployment tax.
+- Florida has no state individual income tax, so there is no state withholding to remit for Florida employees (see the pack README).
+
+## Worked examples
+
+All client facts in the examples are hypothetical; the $7,000 wage base and 2.7% initial rate are the confirmed figures from the rates table above.
+
+An employer with one Florida employee paid above the $7,000 base all year, at the 2.7% initial rate:
 
 ```oa-check
-name: FL reemployment tax on one employee (illustrative base)
+name: FL reemployment tax on one employee
 inputs:
-  base: 8000
+  base: 7000
   rate: 0.027
 steps:
   - tax: base * rate
 expected:
-  tax: 216.00
+  tax: 189.00
 ```
 
-Same employer with 4 employees at the same base and rate:
+The same employer with four Florida employees at the same base and rate:
 
 ```oa-check
-name: FL reemployment tax four employees (illustrative)
+name: FL reemployment tax four employees
 inputs:
-  base: 8000
+  base: 7000
   n: 4
   rate: 0.027
 steps:
   - wages: base * n
   - tax: wages * rate
 expected:
-  wages: 32000.00
-  tax: 864.00
+  wages: 28000.00
+  tax: 756.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
-- Do you have Florida employees (including remote workers hired into Florida)?
-- Are you experience-rated or a new employer? Pull the current 2026 rate notice for the wage base and rate.
-- Is workers' compensation coverage in place for every crew, including construction work from the first employee?
-- Are workers correctly classified — employee vs contractor — for both reemployment wages and comp premium?
+- Do you have Florida employees, including remote workers hired into Florida?
+- Are you experience-rated or a new employer? Pull the current rate notice (and check the 20-day protest window if the rate is unexpected).
+- Is workers' compensation coverage in place for every crew — construction work from the first employee, other industries from four?
+- Are workers correctly classified — employee vs contractor — for both reemployment wages and compensation premium?
+- Are officer salaries and active-officer distributions reported as wages?
 
 ## Sources
 
-1. Ch. 440, Fla. Stat. (workers' compensation), s. 440.04: https://www.flsenate.gov/Laws/Statutes/2025/440.04 (200, statute text read 2026-10-27)
-2. Ch. 443, Fla. Stat. (reemployment tax): https://www.flsenate.gov/Laws/Statutes/2025/443.08 (page resolved 2026-10-27 but section text not extracted this run — figures **needs-sources**)
-3. FL DOR / Reemployment forms index incl. F-2220: https://floridarevenue.com/Forms_library/current/f2220.pdf (200 PDF, 2026-10-27)
-4. floridajobs.org reemployment employer pages: unreachable from this workstation 2026-10-27 (DNS failure) — wage base, rate ranges, RT-6 dates **needs-sources**
+| Source | URL | Read on |
+|---|---|---|
+| Florida Department of Revenue — Reemployment Tax page (coverage tests, $7,000 wage base, 2.7% initial rate, RT-6 due dates, 20-day rate protest) | https://floridarevenue.com/taxes/taxesfees/Pages/reemployment.aspx | 2026-10-28 |
+| Form RT-6, Employer's Quarterly Report (PDF) | https://floridarevenue.com/Forms_library/current/rt6.pdf | 2026-10-28 |
+| Florida Division of Workers' Compensation — Coverage Requirements (construction one or more; non-construction four or more) | https://www.myfloridacfo.com/division/wc/employer/coverage-requirements | 2026-10-28 |
+| s. 440.04 Fla. Stat. (2026) — workers' compensation; waiver of exemption | https://www.flsenate.gov/Laws/Statutes/2026/440.04 | 2026-10-28 |
+
+Not yet confirmed: the statutory minimum and maximum experience rates and the full rate-schedule mechanics in Ch. 443 (the current rate tables were not located in the 2026 statute chapter sections archived this run); the current-year federal FUTA credit-reduction status for Florida; the reciprocal-coverage-agreement participation details for multi-state employers; the specific penalty percentages and interest rate for late reemployment contributions (the Ch. 443 penalty provisions were not archived this run).
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Florida payroll and reemployment tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
