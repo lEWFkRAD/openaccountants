@@ -13,8 +13,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Georgia corporate income tax, net worth tax and the pass-through entity tax election
 
-## Scope and who this is for ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download); [DOR corporate income and net worth tax](https://dor.georgia.gov/corporate-income-and-net-worth-tax))
-
+## Who this applies to
 This skill covers Georgia tax for **tax year 2026**, with a dated section for **2025 returns**. It covers:
 - the corporate income tax on Form 600;
 - the corporate net worth tax, which C corporations report on Form 600 and S corporations on Form 600S;
@@ -36,68 +35,7 @@ It does **not** cover:
 - sales and use tax, insurance premium tax and property tax;
 - the detail of Georgia credits. See "When to refuse or refer".
 
-## Ask the client first
-
-- **Which tax year, and is it a calendar year?** The rate is set by the year the taxable period **begins**, and it is not prorated for fiscal years (2025 IT-611). A fiscal year beginning in 2025 uses the 2025 rate for the whole year.
-- **Entity type for federal purposes:** C corporation, S corporation (and any QSub), partnership or LLC taxed as one, or a disregarded single-member LLC.
-- **For an S corporation: any nonresident shareholders?** Each must sign Form 600S-CA, or Georgia does not recognise the S election (see the boundary table).
-- **Where the company is incorporated,** or whether it has domesticated in Georgia. This decides whether net worth tax is on 100% of net worth or on a Georgia ratio ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
-- **Georgia activity:** property, employees, and whether sales activity goes beyond solicitation of orders for tangible goods (Public Law 86-272).
-- **Gross receipts** by customer location (Georgia and everywhere) for the apportionment ratio.
-- **Federal taxable income and the book-tax detail:**
-  - section 168(k) bonus depreciation claimed, now or in earlier years;
-  - research costs under sections 174 and 174A;
-  - business interest (section 163(j));
-  - dividends, intangible expenses and interest paid to related members (these may need addback);
-  - state income taxes deducted federally.
-- **Net operating losses** by loss year. Record whether each loss year ended after 31 December 2017 (carryback and carryforward rules) and whether it began on or after 1 January 2018 (80% limit). Note any farm or insurance-company losses ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
-- **Balance sheet** (federal Schedule L) at the end of the year, including issued capital stock, paid-in surplus and retained earnings, for the net worth tax.
-- **Prior-year Georgia tax,** and whether that return covered 12 months. This drives the estimated-tax safe harbour.
-- **Affiliated group?** Whether it files a federal consolidated return and whether it has elected, or had permission, to file a Georgia consolidated return.
-- **For an S corporation or partnership: does it want the entity-level election?** Collect:
-  - the owners and their residence;
-  - any owner estimated payments already made;
-  - whether any owner wants the Georgia income taxed at the owner level instead.
-
-  The election binds all owners.
-- **Credits:** any Georgia credit claimed, purchased or carried forward. Credit returns must be filed electronically.
-
-## The method, step by step
-
-1. **Pick the rate by the start of the taxable year.** 2025: 5.19% ([HB 111](https://gov.georgia.gov/document/2025-signed-legislation/hb-111/download)). 2026: 4.99% ([HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download)). The corporate rate is tied by statute to the individual rate for the corresponding taxable year (see "Figures, with years").
-2. **Decide which return.**
-   - C corporation: Form 600.
-   - S corporation: Form 600S, unless a nonresident shareholder has not consented on Form 600S-CA. In that case, file Form 600 and pay the regular corporate tax.
-   - Partnership: Form 700.
-   - Disregarded single-member LLC: included in the owner's return.
-3. **Start from federal taxable income** and make the Georgia additions and subtractions (Form 600 Schedules 4 and 5). Apply the HB 1199 conformity rules. The main business items:
-   - add back section 168(k) bonus depreciation and use Georgia depreciation;
-   - apply section 174 and section 163(j) as they stood before the 2017 federal act, and treat section 174A as not in effect;
-   - add back income taxes of other states, the United States and foreign countries deducted federally;
-   - add back intangible expenses, related interest and captive REIT expenses paid to related members, unless an exception is shown on Form IT-Addback or IT-REIT;
-   - add back payments of more than $600 in a year to unauthorized employees ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
-4. **Separate nonbusiness income, then apportion.**
-   - Allocate investment interest, investment rents and non-business gains as the 2025 IT-611 describes.
-   - Apportion the rest by the single **gross receipts factor**: Georgia gross receipts divided by gross receipts everywhere.
-   - Receipts other than sales of tangible goods are Georgia receipts "if received from customers within this State, or if the receipts are otherwise attributable to this State's marketplace" (Reg. 560-7-7-.03 has the detail).
-   - A partner in a partnership or joint venture includes its pro rata share of the partnership's gross receipts.
-5. **Apply the NOL.** Use Schedule 9 and Form IT-552.
-   - Losses from years beginning before 2018 apply first, without the 80% limit ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download), NOL worksheet).
-   - Losses from years beginning on or after 1 January 2018 (except those of certain insurance companies) may offset no more than 80% of Georgia income before NOLs ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
-   - Carry the Georgia apportioned loss, not the federal loss.
-6. **Compute income tax** at the year's rate. Then apply credits (Schedule 10) and prepayments.
-7. **Compute net worth tax** from the net worth table (see below).
-   - Domestic and domesticated corporations use 100% of net worth ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
-   - Foreign corporations use the Georgia ratio from property and gross receipts (Schedule 8 on Form 600).
-8. **For an S corporation or partnership considering the election:**
-   - compute tax on its Georgia-apportioned and allocated net income at the year's rate;
-   - tick the election box and complete the entity-level schedules by the due date or extended due date;
-   - make estimated payments as a C corporation would;
-   - tell the owners to exclude the taxed income on Form 500 (PTEDED), not to claim a credit.
-9. **Check estimated tax and penalties** on Form 600 UET, and file by the due date. Tax is due by the original due date, even with an extension.
-
-## Figures, with years ([HB 111 of 2025](https://gov.georgia.gov/document/2025-signed-legislation/hb-111/download); [HB 463 of 2026](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download); [HB 1023 of 2024](https://gov.georgia.gov/document/2024-signed-legislation/hb-1023/download); [DOR important tax updates](https://dor.georgia.gov/taxes/important-tax-updates))
-
+## Rates, bands and thresholds
 **Corporate and entity-level income tax rate**
 
 | Taxable years beginning | Rate | Authority |
@@ -163,8 +101,88 @@ It does **not** cover:
 - **Applied as before the 2017 federal act:** sections 118, 163(j), 174 and 382(k)(1). The 2025 IT-611 says Georgia "does not follow I.R.C Section 174 under the 2017 Tax Cuts and Jobs Act for research and experimental expenditures paid or incurred in tax years beginning after December 31, 2021".
 - **The 2025 booklets predate HB 1199** (signed 20 March 2026). They point to DOR's federal tax changes page for conformity. Where an OBBBA change moves federal taxable income on a 2025 return, follow HB 1199, and check that page for DOR guidance before filing.
 
-## Apportionment, NOLs and consolidated returns ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download))
+## The taxable base
+1. **Pick the rate by the start of the taxable year.** 2025: 5.19% ([HB 111](https://gov.georgia.gov/document/2025-signed-legislation/hb-111/download)). 2026: 4.99% ([HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download)). The corporate rate is tied by statute to the individual rate for the corresponding taxable year (see "Figures, with years").
+2. **Decide which return.**
+   - C corporation: Form 600.
+   - S corporation: Form 600S, unless a nonresident shareholder has not consented on Form 600S-CA. In that case, file Form 600 and pay the regular corporate tax.
+   - Partnership: Form 700.
+   - Disregarded single-member LLC: included in the owner's return.
+3. **Start from federal taxable income** and make the Georgia additions and subtractions (Form 600 Schedules 4 and 5). Apply the HB 1199 conformity rules. The main business items:
+   - add back section 168(k) bonus depreciation and use Georgia depreciation;
+   - apply section 174 and section 163(j) as they stood before the 2017 federal act, and treat section 174A as not in effect;
+   - add back income taxes of other states, the United States and foreign countries deducted federally;
+   - add back intangible expenses, related interest and captive REIT expenses paid to related members, unless an exception is shown on Form IT-Addback or IT-REIT;
+   - add back payments of more than $600 in a year to unauthorized employees ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
+4. **Separate nonbusiness income, then apportion.**
+   - Allocate investment interest, investment rents and non-business gains as the 2025 IT-611 describes.
+   - Apportion the rest by the single **gross receipts factor**: Georgia gross receipts divided by gross receipts everywhere.
+   - Receipts other than sales of tangible goods are Georgia receipts "if received from customers within this State, or if the receipts are otherwise attributable to this State's marketplace" (Reg. 560-7-7-.03 has the detail).
+   - A partner in a partnership or joint venture includes its pro rata share of the partnership's gross receipts.
+5. **Apply the NOL.** Use Schedule 9 and Form IT-552.
+   - Losses from years beginning before 2018 apply first, without the 80% limit ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download), NOL worksheet).
+   - Losses from years beginning on or after 1 January 2018 (except those of certain insurance companies) may offset no more than 80% of Georgia income before NOLs ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
+   - Carry the Georgia apportioned loss, not the federal loss.
+6. **Compute income tax** at the year's rate. Then apply credits (Schedule 10) and prepayments.
+7. **Compute net worth tax** from the net worth table (see below).
+   - Domestic and domesticated corporations use 100% of net worth ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
+   - Foreign corporations use the Georgia ratio from property and gross receipts (Schedule 8 on Form 600).
+8. **For an S corporation or partnership considering the election:**
+   - compute tax on its Georgia-apportioned and allocated net income at the year's rate;
+   - tick the election box and complete the entity-level schedules by the due date or extended due date;
+   - make estimated payments as a C corporation would;
+   - tell the owners to exclude the taxed income on Form 500 (PTEDED), not to claim a credit.
+9. **Check estimated tax and penalties** on Form 600 UET, and file by the due date. Tax is due by the original due date, even with an extension.
 
+## Deadlines and filing
+- **Due dates:**
+  - **Form 600:** the 15th day of the 4th month after year-end (15 April for a calendar year).
+  - **Form 600S:** the 15th day of the 3rd month.
+  - **Form 700:** the 15th day of the 3rd month (15 March for a calendar year).
+  - A due date falling on a weekend or holiday moves to the next business day.
+- **Extensions:**
+  - **Corporations (Form 600 and Form 600S):** no Georgia extension request is needed with an automatic federal extension. There is no late-filing penalty if the return is received within the federal extended period **plus one additional month**, with Form 7004 attached. This applies from tax years beginning 1 January 2025 (HB 1023). Georgia law prohibits an extension of more than seven months.
+  - **Partnerships (Form 700):** file within the federal extended period with Form 7004 attached. There is no extra month; Georgia law prohibits an extension of more than six months.
+  - Without a federal extension, use Form IT-303. Tick the "Extension" box, or a late-filing penalty is assessed.
+- **Payment is not extended.** Pay by the original due date with Form IT-560C (claimed on Form 600 Schedule 3, Line 2, or Form 600S Schedule 4, Line 2). Late payment penalty and interest run from the statutory due date regardless of any extension.
+- **Electronic filing** is required if payments are made by electronic funds transfer, if the federal counterpart must be e-filed, or if the return uses any series 100 credit.
+- **Attachments:** a complete copy of the federal return, including Schedule L even if not required federally.
+- **Refund claims:** within three years of the later of the payment date and the return's due date, including extensions.
+
+**2025 returns still open (as of 25 September 2026).**
+- **Rate:** 5.19% for C corporations, electing S corporations and electing partnerships.
+- **A calendar-2025 C corporation on federal extension** avoids Georgia late-filing penalties if the return is received within one month after the federal extended date and Form 7004 is attached. The tax was due 15 April 2026, and interest and late-payment penalty run from then.
+- **A calendar-2025 S corporation or partnership that wants the 2025 election** must make it on the 2025 Form 600S or Form 700 by that return's due date or extended due date.
+  - DOR has not said whether the extra month for corporations extends the S corporation election deadline.
+  - Make the election by the federal extended due date to be safe.
+- **For 2025 returns, HB 1199 conformity applies** (IRC as of 1 January 2026), even though the 2025 booklets predate it.
+
+## Penalties and interest
+**Income tax penalties.**
+  - late filing: 5% of the tax not paid by the original due date for each month or part month, up to 25%;
+  - late payment: 1/2 of 1% per month, up to 25%, but not due if the return is amended because of an IRS audit;
+  - the late filing and late payment penalties together cannot exceed 25% of the tax not paid by the original due date;
+  - negligent underpayment: 5%;
+  - fraudulent underpayment: 50%.
+- **Net worth tax penalties:** late filing 10% of the tax due, and late payment 10% of the tax due.
+- **Interest** accrues at the Federal Reserve prime rate plus 3%, reviewed each January.
+- **Electronic filing** is required if payments are made by electronic funds transfer, if the federal counterpart must be e-filed, or if the return uses any series 100 credit.
+- **Attachments:** a complete copy of the federal return, including Schedule L even if not required federally.
+- **Net worth tax penalties:** late filing 10% of the tax due, and late payment 10% of the tax due.
+- **Interest** accrues at the Federal Reserve prime rate plus 3%, reviewed each January.
+
+**Estimated tax.** The underpayment penalty on Form 600 UET is 9% a year on each underpaid installment, and the booklets also warn of "a penalty of 5% of the income tax for failure to pay estimated tax" (see "Estimated tax" and the archived Form 600 UET).
+
+## Cross-border points
+
+- **Public Law 86-272.** Solicitation of orders for tangible personal property, sent outside Georgia for approval and shipment, is exempt from Georgia net income tax, but not from the net worth tax: Form 600 or 600S must still be filed with a zero on Schedule 1, Line 8, and a statement claiming the exemption ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
+- **S corporation nonresident shareholders.** Georgia recognises the S election only if every nonresident shareholder consents on Form 600S-CA; otherwise the entity files Form 600 as a C corporation ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
+- **Nonresident owners without consent.** Withholding applies unless a composite return (Form IT-CR) is filed, the members' aggregate annual Georgia-sourced share is under $1,000, or the shareholder has a properly executed Form 600S-CA and reports and pays the tax (see the boundary table).
+- **PTET election binds nonresidents.** An electing entity pays at the entity level at the flat rate; nonresident owners are not separately taxed on that income and no composite return is filed ([DOR HB 149 PTET FAQ](https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq)).
+- **Apportionment and nonbusiness income.** Multistate corporations apportion by the single gross receipts factor and allocate nonbusiness income as the 2025 IT-611 describes; see "Apportionment, NOLs and consolidated returns" below.
+- **Foreign corporations** pay net worth tax on the Georgia ratio (Schedule 8 on Form 600), not on total net worth ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
+
+## Apportionment, NOLs and consolidated returns
 - **Single factor.** "For tax years beginning on or after January 1, 2008, the Georgia apportionment ratio shall be computed by applying only the gross receipts factor."
 - **Which receipts go in the factor:**
   - a company that both makes or sells tangible goods and does other business includes gross receipts from both activities;
@@ -182,8 +200,7 @@ It does **not** cover:
   - Each subsidiary still files its own net worth return.
   - Credits and NOLs are tracked company by company for credit limitation.
 
-## The pass-through entity tax election ([DOR HB 149 PTET FAQ](https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq); [2025 IT-711 booklet](https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download); [2025 IT-611S booklet](https://dor.georgia.gov/document/document/2025-it-611s-s-corporation-income-tax-booklet/download))
-
+## The pass-through entity tax election
 - **Who can elect.**
   - The election has been available for taxable years beginning on or after 1 January 2022.
   - For taxable years beginning on or after 1 January 2023, "all partnerships are eligible to make the election to pay tax at the entity level, regardless of who owns or controls the partnership".
@@ -216,8 +233,7 @@ It does **not** cover:
   - The deduction follows the **payment year**. A 2026 balance paid in 2027 is a 2027 federal deduction.
   - Whether electing saves tax now depends on each owner's own federal itemized-deduction position. Model it per owner.
 
-## Estimated tax ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download); [2026 Form 602-ES](https://dor.georgia.gov/document/document/2026-602es-corporate-and-partnership-estimated-tax/download); [Form 600 UET, 2025 and later](https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underpayment-estimated-tax/download); [DOR HB 149 PTET FAQ](https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq))
-
+## Estimated tax
 - **Who must pay.**
   - Every corporation subject to Georgia tax, if its net income for the year "can reasonably be expected to exceed Twenty-Five Thousand Dollars ($25,000.00)".
   - An electing S corporation or partnership "is required to make estimated tax payments in the same manner as a C Corporation", using Form 602-ES or the Georgia Tax Center. A partnership must register its account on the Georgia Tax Center to pay online.
@@ -238,8 +254,7 @@ It does **not** cover:
   - Owners' own estimated payments cannot be transferred to the entity. The entity may tick "UET Annualization Exception Attached" and compute the penalty as if those payments were its own.
 - **Electronic payment.** Quarterly payments of more than $10,000 must be made by electronic funds transfer. There is a 10% penalty if not paid through the Georgia Tax Center.
 
-## Boundary and exception table ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download); [2025 IT-611S booklet](https://dor.georgia.gov/document/document/2025-it-611s-s-corporation-income-tax-booklet/download); [DOR net worth tax FAQ](https://dor.georgia.gov/net-worth-tax-corporations-faq); [DOR HB 149 PTET FAQ](https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq))
-
+## Boundary and exception table
 | Situation | Rule |
 | --- | --- |
 | Net worth exactly $100,000 | No tax ("Not exceeding $100,000"), but the return is still due. |
@@ -255,8 +270,7 @@ It does **not** cover:
 | Owner of an electing entity asks for a Georgia credit for the entity's tax | Not allowed. The owner excludes the income (PTEDED) instead. |
 | Consolidated group, net worth tax | Each subsidiary files its own net worth return; no consolidation of net worth. |
 
-## Worked cases ([HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download); [2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download); [Form 600 UET](https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underpayment-estimated-tax/download); [DOR HB 149 PTET FAQ](https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq))
-
+## Worked examples
 Amounts described as client facts are hypothetical inputs.
 
 **Case 1: 2026, calendar-year C corporation incorporated in Georgia.**
@@ -308,8 +322,32 @@ Client facts: a 2025 Form 600S with one nonresident shareholder who did not sign
 - The corporation files Form 600 and pays corporate income tax at 5.19% on its Georgia taxable income, plus net worth tax.
 - Get the consent signed before filing if the shareholders want S treatment.
 
-## When to refuse or refer
+## Ask the client first
+- **Which tax year, and is it a calendar year?** The rate is set by the year the taxable period **begins**, and it is not prorated for fiscal years (2025 IT-611). A fiscal year beginning in 2025 uses the 2025 rate for the whole year.
+- **Entity type for federal purposes:** C corporation, S corporation (and any QSub), partnership or LLC taxed as one, or a disregarded single-member LLC.
+- **For an S corporation: any nonresident shareholders?** Each must sign Form 600S-CA, or Georgia does not recognise the S election (see the boundary table).
+- **Where the company is incorporated,** or whether it has domesticated in Georgia. This decides whether net worth tax is on 100% of net worth or on a Georgia ratio ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
+- **Georgia activity:** property, employees, and whether sales activity goes beyond solicitation of orders for tangible goods (Public Law 86-272).
+- **Gross receipts** by customer location (Georgia and everywhere) for the apportionment ratio.
+- **Federal taxable income and the book-tax detail:**
+  - section 168(k) bonus depreciation claimed, now or in earlier years;
+  - research costs under sections 174 and 174A;
+  - business interest (section 163(j));
+  - dividends, intangible expenses and interest paid to related members (these may need addback);
+  - state income taxes deducted federally.
+- **Net operating losses** by loss year. Record whether each loss year ended after 31 December 2017 (carryback and carryforward rules) and whether it began on or after 1 January 2018 (80% limit). Note any farm or insurance-company losses ([2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
+- **Balance sheet** (federal Schedule L) at the end of the year, including issued capital stock, paid-in surplus and retained earnings, for the net worth tax.
+- **Prior-year Georgia tax,** and whether that return covered 12 months. This drives the estimated-tax safe harbour.
+- **Affiliated group?** Whether it files a federal consolidated return and whether it has elected, or had permission, to file a Georgia consolidated return.
+- **For an S corporation or partnership: does it want the entity-level election?** Collect:
+  - the owners and their residence;
+  - any owner estimated payments already made;
+  - whether any owner wants the Georgia income taxed at the owner level instead.
 
+  The election binds all owners.
+- **Credits:** any Georgia credit claimed, purchased or carried forward. Credit returns must be filed electronically.
+
+## When to refuse or refer
 - **Nexus in doubt,** including whether activity goes beyond solicitation under Public Law 86-272, and remote sellers of services.
 - **Sourcing of services and intangibles** where customer location is unclear. Reg. 560-7-7-.03 governs; refer.
 - **Consolidated return elections** and terminations, and intercompany transactions.
@@ -319,40 +357,7 @@ Client facts: a 2025 Form 600S with one nonresident shareholder who did not sign
 - **Federal audit adjustments and partnership audit elections.** Amended Georgia returns are due within 180 days of the final federal determination.
 - **Insurance companies, financial institutions, exempt organizations (Form 600-T), and fiduciaries (Form 501).**
 
-## Filing and payment ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download); [2025 IT-611S booklet](https://dor.georgia.gov/document/document/2025-it-611s-s-corporation-income-tax-booklet/download); [2025 IT-711 booklet](https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download); [DOR penalty and interest rates](https://dor.georgia.gov/penalty-and-interest-rates))
-
-- **Due dates:**
-  - **Form 600:** the 15th day of the 4th month after year-end (15 April for a calendar year).
-  - **Form 600S:** the 15th day of the 3rd month.
-  - **Form 700:** the 15th day of the 3rd month (15 March for a calendar year).
-  - A due date falling on a weekend or holiday moves to the next business day.
-- **Extensions:**
-  - **Corporations (Form 600 and Form 600S):** no Georgia extension request is needed with an automatic federal extension. There is no late-filing penalty if the return is received within the federal extended period **plus one additional month**, with Form 7004 attached. This applies from tax years beginning 1 January 2025 (HB 1023). Georgia law prohibits an extension of more than seven months.
-  - **Partnerships (Form 700):** file within the federal extended period with Form 7004 attached. There is no extra month; Georgia law prohibits an extension of more than six months.
-  - Without a federal extension, use Form IT-303. Tick the "Extension" box, or a late-filing penalty is assessed.
-- **Payment is not extended.** Pay by the original due date with Form IT-560C (claimed on Form 600 Schedule 3, Line 2, or Form 600S Schedule 4, Line 2). Late payment penalty and interest run from the statutory due date regardless of any extension.
-- **Income tax penalties:**
-  - late filing: 5% of the tax not paid by the original due date for each month or part month, up to 25%;
-  - late payment: 1/2 of 1% per month, up to 25%, but not due if the return is amended because of an IRS audit;
-  - the late filing and late payment penalties together cannot exceed 25% of the tax not paid by the original due date;
-  - negligent underpayment: 5%;
-  - fraudulent underpayment: 50%.
-- **Net worth tax penalties:** late filing 10% of the tax due, and late payment 10% of the tax due.
-- **Interest** accrues at the Federal Reserve prime rate plus 3%, reviewed each January.
-- **Electronic filing** is required if payments are made by electronic funds transfer, if the federal counterpart must be e-filed, or if the return uses any series 100 credit.
-- **Attachments:** a complete copy of the federal return, including Schedule L even if not required federally.
-- **Refund claims:** within three years of the later of the payment date and the return's due date, including extensions.
-
-**2025 returns still open (as of 25 September 2026).**
-- **Rate:** 5.19% for C corporations, electing S corporations and electing partnerships.
-- **A calendar-2025 C corporation on federal extension** avoids Georgia late-filing penalties if the return is received within one month after the federal extended date and Form 7004 is attached. The tax was due 15 April 2026, and interest and late-payment penalty run from then.
-- **A calendar-2025 S corporation or partnership that wants the 2025 election** must make it on the 2025 Form 600S or Form 700 by that return's due date or extended due date.
-  - DOR has not said whether the extra month for corporations extends the S corporation election deadline.
-  - Make the election by the federal extended due date to be safe.
-- **For 2025 returns, HB 1199 conformity applies** (IRC as of 1 January 2026), even though the 2025 booklets predate it.
-
-## Completion checklist ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download); [DOR HB 149 PTET FAQ](https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq))
-
+## Completion checklist
 - **Year and rate:** 5.19% for years beginning in 2025, 4.99% for 2026, not prorated for fiscal years.
 - **Right form:** Form 600, 600S or 700. Form 600S-CA is signed by every nonresident S corporation shareholder.
 - **Additions:** 168(k) addback and Georgia depreciation, other-state income taxes, related-member intangible, interest and REIT addbacks.
@@ -362,6 +367,28 @@ Client facts: a 2025 Form 600S with one nonresident shareholder who did not sign
 - **PTET:** box ticked by the due date or extended due date; estimates paid as a C corporation; no composite return; owners told to use PTEDED or PTEADD and claim no Georgia credit.
 - **Estimated tax:** the $25,000 test checked; Form 600 UET attached with the exception box if used; EFT used where quarterly payments exceed $10,000.
 - **Payment and extension:** paid by the original due date with IT-560C; extension box ticked; Form 7004 attached.
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| 2025 IT-611 corporate income tax instruction booklet (5.19% for 2025, April 15 2026 due date, net worth tax table, apportionment, NOLs, estimated tax, 180-day federal-change reporting) | https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download | 2026-10-28 |
+| 2025 IT-611S S corporation instruction booklet (third-month due date, 600S-CA) | https://dor.georgia.gov/document/document/2025-it-611s-s-corporation-income-tax-booklet/download | 2026-10-28 |
+| 2025 IT-711 partnership instruction booklet (Form 700 rules) | https://dor.georgia.gov/document/document/2025-it-711-partnership-income-tax-booklet/download | 2026-10-28 |
+| DOR corporate income and net worth tax page (4.99% rate; $100,000 net worth exemption; $5,000 maximum over $22 million) | https://dor.georgia.gov/corporate-income-and-net-worth-tax | 2026-10-28 |
+| HB 111 (2025) enrolled text (5.19% for taxable years beginning 1 January 2025) | https://gov.georgia.gov/document/2025-signed-legislation/hb-111/download | 2026-10-28 |
+| HB 463 (2026) enrolled text (4.99% for taxable years beginning 1 January 2026; scheduled reductions to 3.99%) | https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download | 2026-10-28 |
+| HB 1023 (2024) enrolled text (corporate rate tied to the individual rate; corporate extension) | https://gov.georgia.gov/document/2024-signed-legislation/hb-1023/download | 2026-10-28 |
+| HB 1199 (2026) enrolled text (IRC conformity, federal law enacted on or before 1 January 2026) | https://gov.georgia.gov/document/2026-signed-legislation/hb-1199/download | 2026-10-28 |
+| DOR HB 149 pass-through entity tax FAQ (eligibility, irrevocable election, PTEDED/PTEADD, first-election-year 5.75% prior-year computation) | https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq | 2026-10-28 |
+| DOR net worth tax FAQ | https://dor.georgia.gov/net-worth-tax-corporations-faq | 2026-10-28 |
+| 2026 Form 602-ES (corporate and partnership estimated tax) | https://dor.georgia.gov/document/document/2026-602es-corporate-and-partnership-estimated-tax/download | 2026-10-28 |
+| Form 600 UET (9% a year underpayment penalty; exceptions) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underpayment-estimated-tax/download | 2026-10-28 |
+| DOR penalty and interest rates (late filing/payment, negligence, fraud, interest at prime + 3%) | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
+| DOR important tax updates (2026 income tax changes) | https://dor.georgia.gov/taxes/important-tax-updates | 2026-10-28 |
+| IRS Notice 2020-75 (federal deduction for specified income tax payments) | https://www.irs.gov/pub/irs-drop/n-20-75.pdf | 2026-10-28 |
+
+Not yet confirmed: the rate DOR applies in the first-election-year prior-year safe harbour (the FAQ says compute the prior year's tax at 5.75%, the pre-2024 rate, and has not been updated for the HB 1023/HB 111 rate link — ask DOR before relying on it); whether the one additional month for corporate extensions under HB 1023 also extends the S corporation or partnership PTET election deadline (DOR has not said; make the election by the federal extended due date); the 2026 IT-611, IT-611S and IT-711 booklets (not published at read time).
 
 <!-- openaccountants-cta-block -->
 

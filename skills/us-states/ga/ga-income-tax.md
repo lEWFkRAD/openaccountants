@@ -14,8 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Georgia individual income tax (Form 500), including sole proprietors
 
-## Scope and who this is for ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download))
-
+## Who this applies to
 This skill covers the Georgia individual income tax return, **Form 500**, for **tax year 2026** (returns filed in 2027). It has a dated section for **2025 returns**. It is for residents, part-year residents and nonresidents with Georgia income, including sole proprietors and single-member LLC owners whose business profit reaches Georgia through federal adjusted gross income (AGI).
 
 Figures are for tax year 2026 unless labelled 2025. The 2026 rate, standard deduction and dependent exemption come from **HB 463** (2026), which applies to taxable years beginning on or after 1 January 2026. The 2026 IT-511 booklet was not out on 25 September 2026, so rules found only in the 2025 booklet are labelled 2025.
@@ -35,56 +34,7 @@ It does **not** cover the pass-through entity's own return or the pass-through e
 
 **Residency.** Form 500 Line 4 codes are full-year resident (lived in Georgia the entire year, "regardless of temporary living arrangements"), part-year resident and nonresident. DOR describes residency as "legal residence" (domicile); the statute (O.C.G.A. § 48-7-1) has more tests, so treat doubtful cases as referrals.
 
-## Ask the client first
-
-- **Which tax year?** 2026 has a new rate (4.99%), a higher standard deduction and a higher dependent exemption. 2025 uses 5.19%, a $12,000 or $24,000 standard deduction and a $4,000 dependent exemption ([HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download)).
-- **Residency for the whole year.** Legal residence (domicile), move-in or move-out dates, and whether the spouse had the same residency all year. If not, you need Schedule 3 and a choice between joint and separate returns.
-- **Federal filing status**, and whether the client itemized or took the standard deduction federally. Georgia follows that choice.
-- **Federal AGI and what is in it:** Schedule C profit, wages, taxable pensions and IRA distributions, taxable Social Security, interest (including from other states' bonds and U.S. obligations) and capital gains.
-- **Dates of birth** of the taxpayer and spouse, and any permanent disability date. These drive the retirement income exclusion (age 62, age 65) and the military retirement exclusion (under 62).
-- **Military retirees under 62:** the amount of military retirement pay, and the client's **Georgia earned income** (wages and self-employment income).
-- **Number of dependents**, including any **unborn dependents** (Line 7b). Georgia follows the federal rules for qualified dependents. On separate returns, only one spouse may claim a given dependent, decided under the prior federal rules.
-- **The business:** was federal **bonus depreciation (section 168(k))** claimed this year or earlier, and has any bonus-depreciated asset been sold?
-- **2026 only:** qualified overtime (full-time hourly employees only) and cash tips, with the employer's figures.
-- **Pass-through entities.** Does the client own part of an entity that elected to pay Georgia tax at the entity level? If so, use `ga-corporate-and-ptet` for the entity side.
-- **Other states.** Any income taxed by another state, plus a copy of that state's return (required for the credit).
-- **Payments.** Georgia withholding, estimated payments (dates and amounts), the prior-year Georgia tax and any extension payment.
-- **Surplus refund.** Were the 2024 and 2025 Georgia returns filed on time, and what was the 2024 tax on Form 500 Line 16?
-
-## The method, step by step
-
-Form 500 line numbers are from the 2025 return ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)). Part-year residents and nonresidents skip Lines 9 to 14 and use Schedule 3 (step 9).
-
-1. **Line 8, federal AGI.** Enter federal adjusted gross income from Form 1040, not federal taxable income.
-   - A sole proprietor's Schedule C profit, the deduction for half of self-employment tax, self-employed health insurance and SEP or solo 401(k) contributions are all inside federal AGI. They flow through with no Georgia entry.
-   - The qualified business income deduction does not apply. In the booklet's words: "Georgia does not allow the 20% qualified business income deduction (I.R.C. Section 199A). However, since Georgia starts with Federal AGI, no adjustment is necessary on the Georgia return." ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download))
-2. **Line 9, Schedule 1 adjustments.**
-   - Additions include interest and dividends from non-Georgia municipal bonds. They also include adjustments for federal provisions Georgia has not adopted, such as section 168(k) bonus depreciation.
-   - Subtractions include the retirement and military retirement exclusions, Social Security and Railroad Retirement in federal AGI, U.S. obligation interest, other states' income tax refunds, and Path2College 529 contributions up to $4,000 per beneficiary ($8,000 per beneficiary on a joint return) ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)).
-   - For 2026, Farmer Bridge Assistance Program and Assistance for Specialty Crop Farmers Program payments are excluded, "subject to certain conditions" ([DOR important tax updates](https://dor.georgia.gov/taxes/important-tax-updates)); refer if these apply.
-3. **Line 10, Georgia AGI** = Line 8 plus or minus Line 9.
-4. **Line 11 or Line 12, deduction.** Georgia follows the federal choice:
-   - If the client took the federal standard deduction, they must take the Georgia standard deduction.
-   - If they itemized federally, or they are married filing separately and the spouse itemized, they must itemize on the Georgia return.
-   - Georgia itemized deductions are federal Schedule A (Line 12a), less income taxes paid to other states and investment interest expense for producing income exempt from Georgia tax (Line 12b).
-5. **Line 14, dependent exemption:** the total on Line 7c (Line 7a qualified dependents plus Line 7b unborn dependents) times $5,000 for 2026, or $4,000 for 2025. An unborn child born during the same year goes on Line 7a, not 7b. On separate returns, only one spouse may claim a given dependent. There has been no personal exemption for the taxpayer or spouse after 31 December 2023, so from tax year 2024 ([2026 Form 500-ES](https://dor.georgia.gov/document/document/2026-500-es-estimated-tax-individuals-and-fiduciaries/download)).
-6. **Lines 15a to 15c, taxable income.**
-   - **Line 15a** = Line 10 minus the deduction minus Line 14.
-   - **Line 15b** is any Georgia net operating loss. For losses from 2018 onward, the NOL cannot exceed 80% of Georgia income before the NOL ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)).
-   - **Line 15c** is Georgia taxable income.
-7. **Line 16, tax** = Line 15c times the flat rate (4.99% for 2026, 5.19% for 2025), rounded to the nearest dollar ([HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download); [HB 111](https://gov.georgia.gov/document/2025-signed-legislation/hb-111/download)).
-8. **Credits.**
-   - **Line 17, low income credit.** Available if federal AGI is under $20,000 and the client is not claimed, and not eligible to be claimed, as a dependent ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)).
-   - **Line 18, credit for tax paid to other states.** It covers only state (including DC) and U.S. local income tax imposed on net income, never foreign tax. The income must be taxable both in Georgia and in the other state. The other state's return must be attached, or the credit is refused.
-   - **Line 19**, the Georgia eligible itemizer credit (2025; see "2025 returns"), and **Line 20**, IND-CR credits.
-9. **Part-year residents and nonresidents: Schedule 3.**
-   - **Columns:** A is income as if a full-year resident, B is income not taxable to Georgia, C is Georgia income; A = B + C.
-   - **Line 9 ratio** = Line 8 Column C divided by Line 8 Column A ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)). It cannot be negative and cannot exceed 100%. It is zero if Georgia AGI is zero or negative. It is 100% if the adjusted federal AGI is zero or negative.
-   - **Lines 10 to 14:** Line 10 is the deduction (standard, or itemized less other-state income taxes); Line 11 is dependents times the exemption; Line 12 = Lines 10 + 11; Line 13 = Line 12 times the Line 9 ratio; Line 14 = Line 8 Column C minus Line 13, carried to Form 500 Line 15a.
-10. **Payments and balance.** Withholding from W-2s and 1099s (Line 24), G2-A, G2-FL, G2-LP and G2-RP withholding (Line 25), estimated and extension payments (Line 26) and refundable credits (Line 27, electronic filing only) give the balance due or overpayment. Then add the Form 500 UET estimated tax penalty (Line 42), late filing and late payment penalties (Line 43) and interest (Line 44).
-
-## Figures by year
-
+## Rates, bands and thresholds
 ### Rate, standard deduction and dependent exemption ([HB 463 of 2026](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download); [HB 111 of 2025](https://gov.georgia.gov/document/2025-signed-legislation/hb-111/download); [DOR important tax updates](https://dor.georgia.gov/taxes/important-tax-updates))
 
 | Item | Tax year 2025 | Tax year 2026 |
@@ -186,8 +136,66 @@ Both paragraphs "stand repealed and reserved on December 31, 2028", and neither 
 - **How it is paid.** For most filers, DOR credits the refund automatically once the 2025 return is filed; there is no claim form. ITIN filers must first answer DOR's letter (above). It is paid using the refund method on the 2025 return, after any offset against debts owed to the state, and carries no interest.
 - **Tax treatment.** The refund is not taxable for Georgia. If it is included in federal AGI, subtract it on Schedule 1 (the line 12 adjustment). DOR's FAQ says it may be federally taxable if the client itemized, deducted state income tax and got a federal tax benefit from that deduction.
 
-### Penalties and interest ([DOR penalty and interest rates](https://dor.georgia.gov/penalty-and-interest-rates))
+### 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download))
 
+- **Rates and amounts** are in the tables above. There is no overtime or tips exclusion for 2025.
+- **Form 500EZ is discontinued** from 2025. Everyone files Form 500.
+- **Georgia eligible itemizer credit (Line 19).** Up to $300 per taxpayer, for a full-year or part-year resident who itemized and either lived in Georgia 183 days or longer or was living in Georgia on the last day of the year. It cannot exceed the tax liability and cannot be carried forward.
+- **Child and dependent care credit (credit code 202):** 50 percent of the federal credit.
+- **Hurricane Helene subtractions** apply only to the extent the amount is in federal AGI (see "When to refuse or refer"). The crop insurance subtraction is 2025 only. The agricultural disaster relief payments subtraction runs for taxable years from 2025 through 2029, so it also applies in 2026.
+- **Conformity:** see HB 1199 above. For 2025 the federal AGI starting point includes OBBBA, apart from the provisions Georgia decoupled from, even though the booklet says otherwise.
+
+## The taxable base
+Form 500 line numbers are from the 2025 return ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)). Part-year residents and nonresidents skip Lines 9 to 14 and use Schedule 3 (step 9).
+
+1. **Line 8, federal AGI.** Enter federal adjusted gross income from Form 1040, not federal taxable income.
+   - A sole proprietor's Schedule C profit, the deduction for half of self-employment tax, self-employed health insurance and SEP or solo 401(k) contributions are all inside federal AGI. They flow through with no Georgia entry.
+   - The qualified business income deduction does not apply. In the booklet's words: "Georgia does not allow the 20% qualified business income deduction (I.R.C. Section 199A). However, since Georgia starts with Federal AGI, no adjustment is necessary on the Georgia return." ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download))
+2. **Line 9, Schedule 1 adjustments.**
+   - Additions include interest and dividends from non-Georgia municipal bonds. They also include adjustments for federal provisions Georgia has not adopted, such as section 168(k) bonus depreciation.
+   - Subtractions include the retirement and military retirement exclusions, Social Security and Railroad Retirement in federal AGI, U.S. obligation interest, other states' income tax refunds, and Path2College 529 contributions up to $4,000 per beneficiary ($8,000 per beneficiary on a joint return) ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)).
+   - For 2026, Farmer Bridge Assistance Program and Assistance for Specialty Crop Farmers Program payments are excluded, "subject to certain conditions" ([DOR important tax updates](https://dor.georgia.gov/taxes/important-tax-updates)); refer if these apply.
+3. **Line 10, Georgia AGI** = Line 8 plus or minus Line 9.
+4. **Line 11 or Line 12, deduction.** Georgia follows the federal choice:
+   - If the client took the federal standard deduction, they must take the Georgia standard deduction.
+   - If they itemized federally, or they are married filing separately and the spouse itemized, they must itemize on the Georgia return.
+   - Georgia itemized deductions are federal Schedule A (Line 12a), less income taxes paid to other states and investment interest expense for producing income exempt from Georgia tax (Line 12b).
+5. **Line 14, dependent exemption:** the total on Line 7c (Line 7a qualified dependents plus Line 7b unborn dependents) times $5,000 for 2026, or $4,000 for 2025. An unborn child born during the same year goes on Line 7a, not 7b. On separate returns, only one spouse may claim a given dependent. There has been no personal exemption for the taxpayer or spouse after 31 December 2023, so from tax year 2024 ([2026 Form 500-ES](https://dor.georgia.gov/document/document/2026-500-es-estimated-tax-individuals-and-fiduciaries/download)).
+6. **Lines 15a to 15c, taxable income.**
+   - **Line 15a** = Line 10 minus the deduction minus Line 14.
+   - **Line 15b** is any Georgia net operating loss. For losses from 2018 onward, the NOL cannot exceed 80% of Georgia income before the NOL ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)).
+   - **Line 15c** is Georgia taxable income.
+7. **Line 16, tax** = Line 15c times the flat rate (4.99% for 2026, 5.19% for 2025), rounded to the nearest dollar ([HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download); [HB 111](https://gov.georgia.gov/document/2025-signed-legislation/hb-111/download)).
+8. **Credits.**
+   - **Line 17, low income credit.** Available if federal AGI is under $20,000 and the client is not claimed, and not eligible to be claimed, as a dependent ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)).
+   - **Line 19**, the Georgia eligible itemizer credit (2025; see "2025 returns"), and **Line 20**, IND-CR credits.
+9. **Part-year residents and nonresidents: Schedule 3.**
+   - **Columns:** A is income as if a full-year resident, B is income not taxable to Georgia, C is Georgia income; A = B + C.
+   - **Line 9 ratio** = Line 8 Column C divided by Line 8 Column A ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)). It cannot be negative and cannot exceed 100%. It is zero if Georgia AGI is zero or negative. It is 100% if the adjusted federal AGI is zero or negative.
+   - **Lines 10 to 14:** Line 10 is the deduction (standard, or itemized less other-state income taxes); Line 11 is dependents times the exemption; Line 12 = Lines 10 + 11; Line 13 = Line 12 times the Line 9 ratio; Line 14 = Line 8 Column C minus Line 13, carried to Form 500 Line 15a.
+   - **Line 18, credit for tax paid to other states:** see "Cross-border points" below.
+9. **Part-year residents and nonresidents: Schedule 3.** See "Cross-border points" below for the columns, the Line 9 ratio, and Lines 10 to 14.
+10. **Payments and balance.** Withholding from W-2s and 1099s (Line 24), G2-A, G2-FL, G2-LP and G2-RP withholding (Line 25), estimated and extension payments (Line 26) and refundable credits (Line 27, electronic filing only) give the balance due or overpayment. Then add the Form 500 UET estimated tax penalty (Line 42), late filing and late payment penalties (Line 43) and interest (Line 44).
+
+## Deadlines and filing
+- **Due date:** 15 April (15 April 2026 for 2025; 15 April 2027 for 2026). Fiscal years: the 15th day of the fourth month after year-end.
+- **Extension:** file with a copy of federal Form 4868 (or the IRS confirmation) by the extended federal due date, or use Georgia Form IT-303 if there is no federal extension. It does not extend the time to pay; pay by the original due date (Form IT-560 or the Georgia Tax Center) and report it on Line 26. The archived 2025 IT-511 booklet (`US-GA-download-2.pdf`) confirms: "The Georgia return must be filed along with a copy of Federal Form 4868 or the IRS confirmation letter on or before the extended Federal due date. If you do not need a Federal extension, you may use Georgia Form IT-303 to request an extension to file your Georgia return."
+- **Electronic filing is required** if the return uses a series 100 tax credit, if payments are made by electronic funds transfer, or for a paid preparer whenever the federal return must be e-filed.
+- **Attachments:** federal pages 1-2 and Schedule 1 if Line 8 is $40,000 or more or less than the W-2 total; federal Schedule A if itemizing; the other state's return for the other-state credit.
+- **Estimated tax: who must pay.** Anyone who reasonably expects gross income to exceed the dependent exemptions plus estimated deductions plus $1,000 of income not subject to withholding, unless the employer withholds extra by agreement to cover it.
+- **Estimated tax: due dates:** 15 April, 15 June, 15 September and 15 January of the next year. If the requirement is first met later in the year, fewer installments are due. Farmers and fishermen (at least two thirds of gross income) may instead file and pay in full by 1 March.
+- **Underpayment penalty (Form 500 UET).** The required installment is the lesser of:
+  - 100% of the prior year's tax, if the prior-year return covered 12 months, divided by the number of installments required for the year;
+  - 70% of the current year's tax after credits, divided by the number of installments required for the year.
+
+  The penalty is 9% a year on the shortfall. Three exceptions can remove it:
+  - tax on the prior year's income at the current year's rates and exemptions;
+  - paying at least 70% of the tax on annualized current-year income;
+  - paying at least 90% of the tax on actual income for the 3, 5 and 8 month periods.
+- **Payment.** Pay through the Georgia Tax Center (gtc.dor.ga.gov), or by check payable to the Georgia Department of Revenue with Form 525-TV (balance due) or Form 500-ES (estimates). Payment agreements of up to 60 months are available once every return has been filed.
+- **Refund claims** must be made within three years from the later of the date the tax was paid or the return's due date, including extensions.
+
+## Penalties and interest
 | Penalty (individual income tax) | Rate | Maximum |
 | --- | --- | --- |
 | Late filing (O.C.G.A. § 48-7-57) | 5% of the tax not paid by the original due date, plus 5% for each additional month | 25% of the tax due |
@@ -203,17 +211,18 @@ Both paragraphs "stand repealed and reserved on December 31, 2028", and neither 
 - **Interest** on late tax accrues monthly from the due date. For months from 1 July 2016, the rate is the Federal Reserve prime rate plus 3 percent a year. DOR reviews the rate each January.
 - An extension to file does not extend the time to pay.
 
-### 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download))
+## Cross-border points
 
-- **Rates and amounts** are in the tables above. There is no overtime or tips exclusion for 2025.
-- **Form 500EZ is discontinued** from 2025. Everyone files Form 500.
-- **Georgia eligible itemizer credit (Line 19).** Up to $300 per taxpayer, for a full-year or part-year resident who itemized and either lived in Georgia 183 days or longer or was living in Georgia on the last day of the year. It cannot exceed the tax liability and cannot be carried forward.
-- **Child and dependent care credit (credit code 202):** 50 percent of the federal credit.
-- **Hurricane Helene subtractions** apply only to the extent the amount is in federal AGI (see "When to refuse or refer"). The crop insurance subtraction is 2025 only. The agricultural disaster relief payments subtraction runs for taxable years from 2025 through 2029, so it also applies in 2026.
-- **Conformity:** see HB 1199 above. For 2025 the federal AGI starting point includes OBBBA, apart from the provisions Georgia decoupled from, even though the booklet says otherwise.
+**Schedule 3 (Form 500), for part-year residents and nonresidents.**
+   - **Columns:** A is income as if a full-year resident, B is income not taxable to Georgia, C is Georgia income; A = B + C.
+   - **Line 9 ratio** = Line 8 Column C divided by Line 8 Column A ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download)). It cannot be negative and cannot exceed 100%. It is zero if Georgia AGI is zero or negative. It is 100% if the adjusted federal AGI is zero or negative.
+   - **Lines 10 to 14:** Line 10 is the deduction (standard, or itemized less other-state income taxes); Line 11 is dependents times the exemption; Line 12 = Lines 10 + 11; Line 13 = Line 12 times the Line 9 ratio; Line 14 = Line 8 Column C minus Line 13, carried to Form 500 Line 15a.
 
-## Boundary and exception table ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download); [HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download); [Form 500 UET](https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-500-uet-underpayment-estimated-tax-individuals/download))
+- **Credit for tax paid to other states (Form 500 Line 18).** It covers only state (including DC) and U.S. local income tax imposed on net income, never foreign tax. The income must be taxable both in Georgia and in the other state. The other state's return must be attached, or the credit is refused.
 
+**Multistate business income:** apportionment, S corporation income where another state does not recognise the S election, and the subtraction for entity-level tax paid to another state (O.C.G.A. § 48-7-27(d)) are referrals; see "When to refuse or refer".
+
+## Boundary and exception table
 | Situation | Rule |
 | --- | --- |
 | Taxpayer turned 62 during the year | Uses the age-based retirement exclusion, not the military exclusion. The military worksheet asks "Are you under the age of 62?" |
@@ -225,8 +234,7 @@ Both paragraphs "stand repealed and reserved on December 31, 2028", and neither 
 | Nonresident employee whose Georgia pay does not exceed the lesser of 5% of total pay or $5,000 | No Georgia return needed. |
 | Estimated tax, prior-year return covered fewer than 12 months | The 100%-of-prior-year option on Form 500 UET is not available. Use 70% of the current year. |
 
-## Worked cases ([HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download); [2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download); [Form 500 UET](https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-500-uet-underpayment-estimated-tax-individuals/download))
-
+## Worked examples
 Amounts described as client facts are hypothetical inputs.
 
 **Case 1: 2026, single sole proprietor, full-year resident.**
@@ -270,8 +278,22 @@ Client facts: a full-year resident filing with a Social Security number, not cla
 - Refund = the lesser of the $300 liability and the $375 head-of-household cap = $300.
 - The refund is not Georgia income on the 2026 return.
 
-## When to refuse or refer
+## Ask the client first
+- **Which tax year?** 2026 has a new rate (4.99%), a higher standard deduction and a higher dependent exemption. 2025 uses 5.19%, a $12,000 or $24,000 standard deduction and a $4,000 dependent exemption ([HB 463](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download)).
+- **Residency for the whole year.** Legal residence (domicile), move-in or move-out dates, and whether the spouse had the same residency all year. If not, you need Schedule 3 and a choice between joint and separate returns.
+- **Federal filing status**, and whether the client itemized or took the standard deduction federally. Georgia follows that choice.
+- **Federal AGI and what is in it:** Schedule C profit, wages, taxable pensions and IRA distributions, taxable Social Security, interest (including from other states' bonds and U.S. obligations) and capital gains.
+- **Dates of birth** of the taxpayer and spouse, and any permanent disability date. These drive the retirement income exclusion (age 62, age 65) and the military retirement exclusion (under 62).
+- **Military retirees under 62:** the amount of military retirement pay, and the client's **Georgia earned income** (wages and self-employment income).
+- **Number of dependents**, including any **unborn dependents** (Line 7b). Georgia follows the federal rules for qualified dependents. On separate returns, only one spouse may claim a given dependent, decided under the prior federal rules.
+- **The business:** was federal **bonus depreciation (section 168(k))** claimed this year or earlier, and has any bonus-depreciated asset been sold?
+- **2026 only:** qualified overtime (full-time hourly employees only) and cash tips, with the employer's figures.
+- **Pass-through entities.** Does the client own part of an entity that elected to pay Georgia tax at the entity level? If so, use `ga-corporate-and-ptet` for the entity side.
+- **Other states.** Any income taxed by another state, plus a copy of that state's return (required for the credit).
+- **Payments.** Georgia withholding, estimated payments (dates and amounts), the prior-year Georgia tax and any extension payment.
+- **Surplus refund.** Were the 2024 and 2025 Georgia returns filed on time, and what was the 2024 tax on Form 500 Line 16?
 
+## When to refuse or refer
 - **Residency in doubt**, such as a home elsewhere but much of the year in Georgia, or an unproven mid-year change of domicile.
 - **Pass-through entity tax elections.** The entity-level election and the owner's PTEADD adjustment are covered in `ga-corporate-and-ptet`.
 - **2025 returns where an OBBBA change moved federal AGI** and the return followed the 2025 booklet's conformity statement. Check DOR's current guidance before filing or amending (Form 500X).
@@ -283,27 +305,7 @@ Client facts: a full-year resident filing with a Social Security number, not cla
 - **Military personnel** serving outside the continental U.S. (special filing deadline), combat zone pay, and spouses of nonresident military personnel.
 - **Assessments:** 45-day protest and appeal windows apply from 1 July 2025, and the Georgia Tax Court hears appeals from 1 July 2026.
 
-## Filing and payment ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download); [2026 Form 500-ES](https://dor.georgia.gov/document/document/2026-500-es-estimated-tax-individuals-and-fiduciaries/download); [Form 500 UET](https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-500-uet-underpayment-estimated-tax-individuals/download))
-
-- **Due date:** 15 April (15 April 2026 for 2025; 15 April 2027 for 2026). Fiscal years: the 15th day of the fourth month after year-end.
-- **Extension:** file with a copy of federal Form 4868 (or the IRS confirmation) by the extended federal due date, or use Georgia Form IT-303 if there is no federal extension. It does not extend the time to pay; pay by the original due date (Form IT-560 or the Georgia Tax Center) and report it on Line 26. The archived 2025 IT-511 booklet (`US-GA-download-2.pdf`) confirms: "The Georgia return must be filed along with a copy of Federal Form 4868 or the IRS confirmation letter on or before the extended Federal due date. If you do not need a Federal extension, you may use Georgia Form IT-303 to request an extension to file your Georgia return."
-- **Electronic filing is required** if the return uses a series 100 tax credit, if payments are made by electronic funds transfer, or for a paid preparer whenever the federal return must be e-filed.
-- **Attachments:** federal pages 1-2 and Schedule 1 if Line 8 is $40,000 or more or less than the W-2 total; federal Schedule A if itemizing; the other state's return for the other-state credit.
-- **Estimated tax: who must pay.** Anyone who reasonably expects gross income to exceed the dependent exemptions plus estimated deductions plus $1,000 of income not subject to withholding, unless the employer withholds extra by agreement to cover it.
-- **Estimated tax: due dates:** 15 April, 15 June, 15 September and 15 January of the next year. If the requirement is first met later in the year, fewer installments are due. Farmers and fishermen (at least two thirds of gross income) may instead file and pay in full by 1 March.
-- **Underpayment penalty (Form 500 UET).** The required installment is the lesser of:
-  - 100% of the prior year's tax, if the prior-year return covered 12 months, divided by the number of installments required for the year;
-  - 70% of the current year's tax after credits, divided by the number of installments required for the year.
-
-  The penalty is 9% a year on the shortfall. Three exceptions can remove it:
-  - tax on the prior year's income at the current year's rates and exemptions;
-  - paying at least 70% of the tax on annualized current-year income;
-  - paying at least 90% of the tax on actual income for the 3, 5 and 8 month periods.
-- **Payment.** Pay through the Georgia Tax Center (gtc.dor.ga.gov), or by check payable to the Georgia Department of Revenue with Form 525-TV (balance due) or Form 500-ES (estimates). Payment agreements of up to 60 months are available once every return has been filed.
-- **Refund claims** must be made within three years from the later of the date the tax was paid or the return's due date, including extensions.
-
-## Completion checklist ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download))
-
+## Completion checklist
 - **Year:** rate, standard deduction and dependent amounts match the tax year.
 - **Residency:** Line 4 code is correct; Schedule 3 is used for part-year, nonresident and mixed-residency joint returns.
 - **Line 8** is federal AGI, not federal taxable income.
@@ -312,6 +314,25 @@ Client facts: a full-year resident filing with a Social Security number, not cla
 - **Deduction** choice matches the federal return; dependents are totalled on Line 7c (Line 7a plus unborn dependents on Line 7b).
 - **Estimated tax:** Form 500 UET reviewed; exception box checked if used.
 - **Attachments and signatures:** federal pages attached where required; both spouses and any paid preparer sign.
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| 2025 IT-511 individual income tax booklet (5.19% rate, $12,000/$24,000 standard deduction, $4,000 dependent exemption, Schedule 3, retirement and military exclusions, 4868/IT-303 extension, April 15 2026 due date) | https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download | 2026-10-28 |
+| HB 111 (2025) enrolled text (5.19% for taxable years beginning on or after 1 January 2025) | https://gov.georgia.gov/document/2025-signed-legislation/hb-111/download | 2026-10-28 |
+| HB 463 (2026) enrolled text (4.99% rate, $15,000/$30,000 standard deduction, $5,000 dependent exemption, overtime and cash tips exclusions, retirement exclusion increase) | https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download | 2026-10-28 |
+| HB 1199 (2026) enrolled text (IRC conformity to federal law enacted on or before 1 January 2026, from taxable years beginning 1 January 2025) | https://gov.georgia.gov/document/2026-signed-legislation/hb-1199/download | 2026-10-28 |
+| HB 1000 (2026) enrolled text (surplus tax refund, 2024 and 2025 filers) | https://gov.georgia.gov/document/2026-signed-legislation/hb-1000/download | 2026-10-28 |
+| DOR HB 1000 surplus tax refund FAQs ($250/$375/$500 caps, proportional refund, 15 October 2026 extension deadline) | https://dor.georgia.gov/2025-hb-1000-surplus-tax-refund-faqs | 2026-10-28 |
+| 2026 Form 500-ES (estimated tax; prints the 2025 amounts; installments and due dates) | https://dor.georgia.gov/document/document/2026-500-es-estimated-tax-individuals-and-fiduciaries/download | 2026-10-28 |
+| Form 500 UET (9% a year estimated tax underpayment penalty; exceptions) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-500-uet-underpayment-estimated-tax-individuals/download | 2026-10-28 |
+| DOR residency filing requirements (who must file; nonresident employee exception) | https://dor.georgia.gov/residency-filing-requirements | 2026-10-28 |
+| DOR penalty and interest rates (late filing, late payment, negligence, fraud, interest at prime + 3%) | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
+| DOR important tax updates (2026 rate and overtime/tips notes) | https://dor.georgia.gov/taxes/important-tax-updates | 2026-10-28 |
+| DOR income tax federal tax changes (conformity page) | https://dor.georgia.gov/taxes/tax-rules-and-policies/income-tax-federal-tax-changes | 2026-10-28 |
+
+Not yet confirmed: the 2026 filing thresholds (the 2026 IT-511 booklet was not published at read time); the 2026 standard deduction for a qualifying surviving spouse (HB 463 does not name that status; the 2025 booklet used the single amount); the 2027 and later rates and scheduled deduction and exemption increases (each scheduled cut or increase can be delayed under the HB 463 tests, and the Office of Planning and Budget determination due 1 December 2026 has not been made); the 2026 Schedule 1 line and reporting mechanics for the overtime and cash tips exclusions (DOR had not published the 2026 schedule at read time).
 
 <!-- openaccountants-cta-block -->
 

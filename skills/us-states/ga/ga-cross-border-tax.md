@@ -20,15 +20,13 @@ version: 0.1
 
 # Georgia cross-border tax
 
-## 1. Who this applies to
-
+## Who this applies to
 - Nonresident and part-year individual filers with Georgia-source income (Form 500 with Schedule 3) ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download), read 2026-10-24).
 - Georgia pass-throughs with nonresident members/shareholders (withholding, Form 600S-CA consent, composite Form IT-CR) ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download), read 2026-10-24).
 - Out-of-state corporations with Georgia solicitation or sales activity (P.L. 86-272 analysis) (2025 IT-611 booklet, read 2026-10-24).
 - Out of scope: residency-determination disputes (refer — O.C.G.A. § 48-7-1 tests); the addback regime (`ga-transfer-pricing-addbacks`).
 
-## 2. Core rules and rates
-
+## Rates, bands and thresholds
 - **Flat rate for 2026:** 4.99% for taxable years beginning on or after 1 January 2026 (HB 463, read 2026-10-24); 5.19% for 2025.
 - **Nonresident employee de minimis exception:** a legal resident of another state whose only Georgia activity is working as an employee need not file a Georgia return if that pay does not exceed **the lesser of five percent of their total pay or $5,000** ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download), read 2026-10-24).
 - Part-year residents and nonresidents compute Georgia tax via **Schedule 3** (Georgia net income ratio); they skip Form 500 Lines 9–14 ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download), read 2026-10-24).
@@ -36,26 +34,21 @@ version: 0.1
 - **PTET election binds nonresidents:** an electing entity pays at the entity level at the flat rate; nonresident owners are not separately taxed on that income and no composite return is filed (ga-corporate-and-ptet, read 2026-10-24).
 - **P.L. 86-272:** solicitation of orders for tangible personal property, sent outside Georgia for approval and shipment, is exempt from Georgia net-income tax — but **not** from the net worth tax; Forms 600/600S must still be filed with a zero on Schedule 1 line 8 and a statement claiming the exemption ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download), read 2026-10-24).
 
-## 3. Base and sourcing
-
+## The taxable base
 - Georgia-source income for nonresidents: wages for work performed in Georgia, Georgia rents, Georgia lottery winnings, flow-through income allocated to Georgia; deferred compensation to nonresidents follows the regulation sourcing rules (Reg. 560-7-4, cited in 2025 IT-611 booklet, read 2026-10-24).
 - Schedule 3 apportions federal AGI by the Georgia-net-income-over-total-net-income ratio, then applies the flat rate.
 
-## 4. Deadlines
-
+## Deadlines and filing
 - Form 500 (with Schedule 3): 15 April for calendar-year individuals; Form 600/600S/700: 15th day of the fourth month after year end; Form IT-CR composite: with the entity return ([2025 IT-511](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download) / [2025 IT-611](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download) booklets, read 2026-10-24).
 
-## 5. Penalties and interest
-
+## Penalties and interest
 - Late filing/payment: $25 plus 5% of tax due per month, capped at $25 plus 25%; interest at Federal Reserve prime + 3% compounded per O.C.G.A. § 48-2-40 / § 48-7-126 (2026 Employer's Withholding Tax Guide penalty section, published from <https://dor.georgia.gov/withholding>, read 2026-10-24).
 
-## 6. Treaties and federal overlay
-
+## Cross-border points
 - No state treaty power: US income-tax treaties can limit tax on some nonresident employment/business income; coordinate with the federal skills before claiming relief on a Georgia return.
 - Nonresident military: special residency rules for personnel stationed in Georgia under the Servicemembers Civil Relief Act (2025 IT-511 booklet, read 2026-10-24).
 
-## 7. Worked examples
-
+## Worked examples
 **Example 1 — nonresident employee de minimis test.** A Tennessee resident works in Georgia and earns USD 3,000 of Georgia wages out of USD 90,000 total pay. Threshold: min(90,000 × 5%, 5,000) = 4,500. Georgia pay 3,000 ≤ 4,500 → no Georgia filing required (headroom 4,500 − 3,000 = 1,500). If Georgia pay were 6,000: 6,000 > 4,500 → Form 500-NR with Schedule 3 required.
 
 ```oa-check
@@ -88,24 +81,25 @@ expected:
   ga_tax: 1247.50
 ```
 
-## 8. Ask the client first
-
+## Ask the client first
 1. Where is the individual's legal residence, and what is the Georgia income as a share of total income?
 2. Is the employee exception available (Georgia pay ≤ lesser of 5% or $5,000)?
 3. For pass-throughs: did every nonresident S shareholder sign Form 600S-CA, or is a composite (IT-CR) or PTET election in place?
 4. For out-of-state companies: is activity mere solicitation of tangible-personal-property orders (P.L. 86-272) — and is the net worth tax still being filed?
 5. Any treaty position being claimed by a foreign nonresident?
 
-## 9. Sources
+## Sources
 
-- [2025 IT-511 individual income tax booklet (PDF)](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download) — read 2026-10-24 (de minimis rule, Schedule 3, military nonresidents).
-- [2025 IT-611 corporate instruction booklet (PDF)](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download) — read 2026-10-24 (P.L. 86-272, 600S-CA, deferred compensation sourcing).
-- [HB 463 (2026) enrolled text (PDF)](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download) — read 2026-10-24 (4.99% flat rate from 1 January 2026).
-- [DOR withholding hub](https://dor.georgia.gov/withholding) — read 2026-10-24 (penalty/interest framework via the 2026 Employer's Withholding Tax Guide).
+| Source | URL | Read on |
+|---|---|---|
+| 2025 IT-511 individual income tax booklet (de minimis rule, Schedule 3, military nonresidents) | https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download | 2026-10-28 |
+| 2025 IT-611 corporate income tax instruction booklet (P.L. 86-272, 600S-CA, deferred compensation sourcing) | https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download | 2026-10-28 |
+| HB 463 (2026) enrolled text (4.99% flat rate from 1 January 2026) | https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download | 2026-10-28 |
+| DOR penalty and interest rates (late filing/payment, prime + 3% interest) | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
+| DOR residency filing requirements (nonresident employee exception, Schedule 3) | https://dor.georgia.gov/residency-filing-requirements | 2026-10-28 |
 
-<!-- openaccountants-cta-block -->
+Not yet confirmed: the exact wording of the O.C.G.A. § 48-7-1 residency tests (the statute text was not archived; DOR's "legal residence" description is archived instead); the detail of Reg. 560-7-4 on sourcing nonresident deferred compensation (cited through the 2025 IT-611 booklet, regulation text itself not archived); the penalty figures attributed to the 2026 Employer's Withholding Tax Guide (the guide PDF itself was not archived; the archived DOR penalty and interest rates page carries the general penalty framework).
 
----
 
 ## Talk to a verified accountant
 
