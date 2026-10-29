@@ -130,9 +130,7 @@ The $3,600 is an upper-bound at top marginal rates (Maryland's graduated bracket
 
 | Source | What it covers | Read on |
 |---|---|---|
-| Comptroller of Maryland, Corporation Income Tax Return Booklet (2024 ed.) | [https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2024/Corporate-Booklet.pdf](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2024/Corporate-Booklet.pdf) | not archived yet |
 | Existing tier-2 skill `md-payroll` (county rates, §10-106.1 special nonresident tax, reciprocity list, §13-704): repo `skills/us-states/md/md-payroll.md`. | internal skill reference | n/a |
-| Form 505 instructions (2025) | [https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/505/2025_505_instr.pdf](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/505/2025_505_instr.pdf) | not archived yet |
 | Md. Code Tax-General §10-106.1: (statute mirror did not resolve 2026-10-27). | internal skill reference | n/a |
 
 Not yet confirmed: the 2025 Form 505 instruction PDF (404 on 2026-10-27), the Tax-General §10-106.1 statute text for the 2.25% Special Nonresident Tax, the MW506NRS waiver mechanics, the current MW507B reciprocity form number, and the §13-701 penalty percentage.

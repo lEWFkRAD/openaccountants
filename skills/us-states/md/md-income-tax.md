@@ -173,16 +173,11 @@ Frederick County (2025 and 2026, [booklet](https://www.marylandtaxes.gov/content
 
 | Situation | Treatment | Source |
 | --- | --- | --- |
-| FAGI exactly $350,000 with capital gains | No 2% additional tax: the test is FAGI "in excess of" $350,000 | [TB 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf) |
 | FAGI just over $350,000 | 2% on all included net capital gain, not just the excess | [§ 10-105](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false) |
 | Primary home sold for exactly $1,500,000 | Not excluded: the exclusion needs a sale price of less than $1,500,000 | [§ 10-105](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false) |
-| Gain on a rental or second home | Subject to the 2% if FAGI is over $350,000 | [TB 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf) |
 | FAGI exactly $200,000, itemizing, not MFS | No phase-out reduction: only FAGI above $200,000 counts | [§ 10-218](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-218&enactments=false) |
 | Single FAGI exactly $100,000 | Full $3,200 exemptions | [§ 10-211](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-211&enactments=false) |
 | Federal standard deduction taken | Maryland standard deduction only | [§ 10-217](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-217&enactments=false) |
-| Moved counties during the year | One local rate: county of residence on the last day of the year | [booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf) |
-| Spouses domiciled in different local jurisdictions | Separate Maryland returns recommended; if filing jointly, split local tax by income ratio and write "separate jurisdictions" on Line 28 | [booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf) |
-| Turned 65 on 2 January after the tax year | No $1,000 age exemption for that year | [booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf) |
 
 ## The taxable base
 
@@ -292,12 +287,6 @@ These are illustrations for tax year 2026 using the 2026 rates and, for the stan
 | Md. Code, Tax-General § 10-106 (county income tax floor and cap) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false) | 2026-10-28 |
 | Md. Code, Tax-General § 10-301 (taxable-year and filing-base definitions) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-301&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-301&enactments=false) | 2026-10-28 |
 | Md. Code, Tax-General § 11-203 (credit for tax paid to other states) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gti&section=11-203&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gti&section=11-203&enactments=false) | 2026-10-28 |
-| Comptroller of Maryland, 2025 resident booklet | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf) | not archived yet |
-| Comptroller of Maryland, 2026 estimated-tax (PV) worksheet | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf) | not archived yet |
-| Comptroller of Maryland, Technical Bulletin 58 (capital gains surtax) | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf) | not archived yet |
-| Comptroller of Maryland, Tax Alert on 2025 legislative changes | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/alerts/tax-alert-changes-to-standard-and-itemized-deductions-and-to-state-and-local-income-tax-rates-from-the-2025-legislative-session.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/alerts/tax-alert-changes-to-standard-and-itemized-deductions-and-to-state-and-local-income-tax-rates-from-the-2025-legislative-session.pdf) | not archived yet |
-| Comptroller of Maryland, 2025 nonresident booklet | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf) | not archived yet |
-| Comptroller of Maryland, 2026 employer withholding guide (PM-225) | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/withholding/2026/pm225.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/withholding/2026/pm225.pdf) | not archived yet |
 | Md. Code, Tax-General §§ 10-211, 10-217, 10-218 (exemptions, standard and itemized deductions) | statute text quoted in the sections above | not archived yet |
 
 Not yet confirmed: the final indexed 2026 standard deduction and pension-exclusion amounts (the Comptroller had not published the 2026 resident instructions when this skill was written), the 2026 final county-rate confirmations beyond the PV worksheet, and archived copies of the Comptroller booklets, worksheets, Tax Alert and Technical Bulletin 58 cited above (only the four mgaleg statute pages are archived so far).

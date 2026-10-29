@@ -121,10 +121,6 @@ expected:
 
 | Source | What it covers | Read on |
 |---|---|---|
-| Maryland Department of Labor, Unemployment Insurance tax rates and quarterly reporting | [https://labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml](https://labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml) | not archived yet |
-| Maryland FAMLI, For employers | [https://labor.maryland.gov/famli/employers/](https://labor.maryland.gov/famli/employers/) | not archived yet |
-| Maryland FAMLI landing page (program start, benefit cap) | [https://labor.maryland.gov/famli/](https://labor.maryland.gov/famli/) | not archived yet |
-| FAMLI contribution-rate page | [https://labor.maryland.gov/famli/employers/contributions.shtml](https://labor.maryland.gov/famli/employers/contributions.shtml) | not archived yet |
 
 Not yet confirmed: the FAMLI contribution-rate percentage (the published rate page 404'd on 2026-10-27) and the FAMLI penalty schedule (regulations page not fetched).
 

@@ -146,8 +146,6 @@ Four payments of **$25,000** (Form 500D) at the 4th/6th/9th/12th-month dates.
 
 | Source | What it covers | Read on |
 |---|---|---|
-| Comptroller of Maryland, Corporation Income Tax Return Booklet (2024 ed.) | [https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2024/Corporate-Booklet.pdf](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2024/Corporate-Booklet.pdf) | not archived yet |
-| Comptroller of Maryland home | [https://marylandtaxes.gov/](https://marylandtaxes.gov/) | not archived yet |
 | Md. Code, Tax-General §7-204 (rate) and §13-701 (penalty): — statute pages did not resolve from the drafting environment on 2026-10-27. | internal skill reference | n/a |
 | Form 500 / 500D / 500E instructions: referenced inside the booklet above (same fetch). | internal skill reference | n/a |
 

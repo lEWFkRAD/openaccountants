@@ -7,7 +7,6 @@
 | Income tax | Yes |
 | Sales tax | Yes |
 | Franchise / gross receipts tax | No |
-| Tax authority | [Comptroller of Maryland](https://www.marylandtaxes.gov/) |
 | Quality tier | Q3 — AI-drafted, not independently verified |
 
 ## Files in this folder

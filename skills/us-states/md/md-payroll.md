@@ -363,6 +363,9 @@ Before delivering a Maryland payroll computation or compliance memo to a reviewe
 
 ## Sources
 
+Not yet confirmed: the 2025 bracket table, county rate table, SUI wage base and rates, and penalty percentages — no machine-readable archive of the Comptroller booklets was captured this run; statute text (mgaleg) is archived.
+
+
 - Md. Code Ann., Tax-General §10-103 through §10-106.1 (state and county income tax structure)
 - Md. Code Ann., Tax-General §10-901 through §10-913 (withholding)
 - Md. Code Ann., Tax-General §13-604, §13-701, §13-704 (interest and penalties)

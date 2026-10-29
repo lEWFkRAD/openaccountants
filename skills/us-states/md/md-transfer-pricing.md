@@ -135,7 +135,6 @@ The $1,000,000 member-B loss shelters nothing in Maryland — a planning point r
 
 | Source | What it covers | Read on |
 |---|---|---|
-| Comptroller of Maryland, Corporation Income Tax Return Booklet (2024 ed.) | [https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2024/Corporate-Booklet.pdf](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2024/Corporate-Booklet.pdf) | not archived yet |
 | COMAR 03.04.08 (financial-institution apportionment) — cited inside the booklet; regulation text not independently fetched,. | internal skill reference | n/a |
 | Md. Code Tax-General §7-401 et seq., §7-404: — statute pages did not resolve 2026-10-27. | internal skill reference | n/a |
 
