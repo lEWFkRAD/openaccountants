@@ -1,10 +1,10 @@
 ---
 name: il-income-tax
 description: "Illinois Individual Income Tax Return (Form IL-1040) for sole proprietors and single-member LLCs. Covers the flat 4.95% rate, Illinois base income computation from federal AGI, Schedule M addition and subtraction modifications, property tax credit (Schedule ICR), earned income credit, and the full return assembly. Primary source: 35 ILCS 5/."
-version: 1.0
+version: "1.1"
 jurisdiction: US-IL
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 reviewed_by: A licensed accountant (name withheld at their request)
 review_status: current
 trust_label: Checked by a licensed accountant (name withheld at their request)
@@ -103,7 +103,7 @@ This is a Tier 2 content skill for preparing the Illinois Form IL-1040 for a ful
 
 | Item | Amount | Source |
 | --- | --- | --- |
-| Illinois flat income tax rate | 4.95% | 35 ILCS 5/201(b)(5.4) |
+| Illinois flat income tax rate | 4.95% — VERIFIED vs archived current-year Form IL-1040 (Line 12: "Residents: Multiply Line 11 by 4.95% (.0495)") | 35 ILCS 5/201(b)(5.4); archived IL-1040 PDF, retrieved 2026-10-28 |
 | Personal exemption -- single | $2,625 | 35 ILCS 5/204 (2025 amount, indexed) |
 | Personal exemption -- MFJ | $5,250 | 35 ILCS 5/204 |
 | Personal exemption -- each dependent | $2,625 | 35 ILCS 5/204 |
@@ -185,6 +185,7 @@ Common subtractions:
 ### E-2: Net loss limitation
 
 - **Net loss deduction limitation** — Illinois limits the net loss deduction to $100,000 per year for individuals (enacted 2021, extended through 2027). Excess losses carry forward.  _(35 ILCS 5/203(e)(2).)_
+- **Surtax tiers carried, not archived** — the 3%/2% surtax tiers (3% on taxable income over $100k single/$200k joint, 2% over $250k/$500k) are carried from prior runs: the archived 35 ILCS 5/201 page (ilga.gov, retrieved 2026-10-28) is a JS shell with no statutory text, and the archived IL-1040 form itself shows only the flat 4.95% line — surtax is computed on the separate Form IL-1040-4060/9410 worksheet. Treat the tier thresholds as **needs-sources** until an instructions PDF is archived.
 
 ### E-3: No standard deduction
 
