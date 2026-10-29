@@ -20,7 +20,7 @@ North Carolina corporate income tax is phasing out under S.L. 2021-180 (SB 105):
 
 This skill covers North Carolina state-level entity-level taxes:
 
-- **Corporate income tax** (N.C. Gen. Stat. § 105-130.3, Chapter 105 Article 4 Part 1) — imposed on C-corporations doing business in or deriving income from NC sources (§ 105-130.3 archived: "A tax is imposed on the State net income of every C Corporation doing business in this State").
+- **Corporate income tax** (N.C. Gen. Stat. § 105-130.3; archived chapter index heading: "Income Tax. Part 1. Corporation Income Tax." — the Corporation Income Tax Act within the income tax Article) — imposed on C-corporations doing business in or deriving income from NC sources (§ 105-130.3 archived: "A tax is imposed on the State net income of every C Corporation doing business in this State").
 - **Franchise tax** (N.C. Gen. Stat. § 105-122) — imposed on every C-corp, S-corp, and LLC taxed as a corporation that is incorporated, domesticated, or doing business in NC. Limited to a single "net worth-based" base from 2025 onward.
 - **Pass-Through Entity Tax (PTET)** election under N.C. Gen. Stat. § 105-153.9A — optional entity-level tax for partnerships and S-corps designed to work around the federal $10,000 SALT cap.
 - **Estimated-payment, NOL, and apportionment rules** as they apply to corporate income.
@@ -273,7 +273,7 @@ NC has two distinct NOL regimes:
 | 3rd | September 15 | 75% |
 | 4th | December 15 | 100% |
 
-- **Underpayment safe harbor and franchise tax exclusion** — Note that the 4th installment is due December 15, earlier than the federal December 15 (which matches). Underpayment penalty is computed under § 105-163.41 using a safe harbor of 100% of prior year's tax (or 90% of current year's tax). Franchise tax is not subject to estimated payments — it is paid in full with the annual return.  _(§ 105-163.41)_
+- **Underpayment safe harbor and franchise tax exclusion** — Note that the 4th installment is due December 15, earlier than the federal December 15 (which matches). Underpayment interest is computed under § 105-163.41, which sets the underpayment as the difference between the installment due if estimated tax equalled "ninety percent (90%) of the tax imposed under Article 4 for the taxable year" and the installment timely paid. A prior-year 100% safe harbor is not in the archived § 105-163.41 text — not yet confirmed. Franchise tax is not subject to estimated payments — it is paid in full with the annual return.  _(§ 105-163.41)_
 
 ### 8.4 Penalties and interest
 
@@ -381,7 +381,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 
 ### 11.1 Primary statutory authority
 
-- **N.C. Gen. Stat. Chapter 105, Article 4, Part 1** — Corporate Income Tax (§§ 105-130 through 105-130.48; §§ 105-130.3, 105-130.4, 105-130.5, 105-130.7A, 105-130.7B archived 2026-10-29).
+- **N.C. Gen. Stat. Chapter 105, archived chapter index heading: "Income Tax. Part 1. Corporation Income Tax." (§ 105-130: "This Part of the income tax Article shall be known and may be cited as the Corporation Income Tax Act")** — §§ 105-130 through 105-130.48; §§ 105-130.3, 105-130.4, 105-130.5, 105-130.7A, 105-130.7B archived 2026-10-29).
 - **N.C. Gen. Stat. § 105-130.3** — Corporate income tax rate. As amended by S.L. 2021-180 (SB 105).  _(N.C. Gen. Stat. § 105-130.3)_
 - **N.C. Gen. Stat. § 105-130.4** — Apportionment (single sales factor and market-based sourcing).  _(N.C. Gen. Stat. § 105-130.4)_
 - **N.C. Gen. Stat. § 105-130.5** — Adjustments to federal taxable income.  _(N.C. Gen. Stat. § 105-130.5)_
@@ -448,7 +448,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 | N.C.G.S. chapter 105 index (§ 105-153.9A PTE election — section text not archived; see Not yet confirmed): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_105.html | 2026-10-29 |
 | NCDOR home (forms/instructions hub): | https://www.ncdor.gov | 2026-10-29 |
 
-Not yet confirmed: 2025 PTE rate in current NCDOR Directive / D-403 instructions (working assumption 2.25%); holding-company franchise cap remains $150,000 for 2025+; fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; § 105-153.9A section text itself not archived (chapter index archived only); pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table
+Not yet confirmed: prior-year 100% estimated-tax safe harbor in § 105-163.41 (archived text states only the 90%-of-current-year measure); 2025 PTE rate in current NCDOR Directive / D-403 instructions (working assumption 2.25%); holding-company franchise cap remains $150,000 for 2025+; fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; § 105-153.9A section text itself not archived (chapter index archived only); pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table
 
 *End of nc-corporate-tax.md (v0.1, 2025-11-15).*
 
