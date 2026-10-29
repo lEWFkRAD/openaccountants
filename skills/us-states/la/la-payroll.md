@@ -9,7 +9,7 @@ description: >
   Trigger on "Louisiana withholding", "L-1", "L-3", "LaTAP withholding",
   "LaWage", "LDR withholding". Source-cited draft; duty, forms, bands, and
   deadlines verified from the LDR Withholding page 2026-10-28; withholding
-  table figures needs-sources.
+  table figures not confirmed.
 jurisdiction: US-LA
 category: payroll
 tax_year: 2026
@@ -27,7 +27,7 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding by employers. **Source status:** the LDR Withholding page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/) was fetched and its text verified 2026-10-28 — the **withholding duty, L-1/L-3 form designations, zero-return rule, payment-frequency bands, and the January 31 reconciliation deadline are verified quotes**. The **withholding table figures** (https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/) render via JS and are **needs-sources**.
+Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding by employers. **Source status:** the LDR Withholding page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/) was fetched and its text verified 2026-10-28 — the **withholding duty, L-1/L-3 form designations, zero-return rule, payment-frequency bands, and the January 31 reconciliation deadline are verified quotes**. The **withholding table figures** (https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/) render via JS and are **not confirmed**.
 
 ## Rates, bands and thresholds
 
@@ -43,20 +43,20 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding b
 | Zero returns | required every assigned period | verified |
 | Payment frequency | average monthly withholding **<$500 → quarterly; $500–<$5,000 → monthly; ≥$5,000 → semi-monthly** | **verified table** |
 | Annual reconciliation | **Form L-3**, due **January 31**, or 30 days after final wages if the business closes mid-year; file via LaWage | verified |
-| Withholding computation | LDR withholding tables (percentage/flat methods) | **needs-sources** (JS page) |
+| Withholding computation | LDR withholding tables (percentage/flat methods) | **not confirmed** (JS page) |
 | Amended returns | per affected quarter only; corrections can't cross quarters | verified |
 | Account closure | must file final quarterly return + reconciliation and request closure; stopping filings doesn't close the account | verified |
 
 ## Deadlines and filing
 
-- L-1 quarterly: assigned periods, electronic file + pay (calendar detail **needs-sources** — standard last-day-of-month-after-quarter).
+- L-1 quarterly: assigned periods, electronic file + pay (calendar detail **not confirmed** — standard last-day-of-month-after-quarter).
 - L-3 annual reconciliation: **January 31** following the calendar year close (verified).
 - Notify LDR of name/address/responsible-party/ownership changes (verified duty).
 
 ## 5. Penalties and interest
 
-- Common-mistake list published by LDR: filing after due date, missing zero returns, missing e-payment deadlines (verified page; penalty percentages under R.S. 47:1607 **needs-sources**).
-- Failure to withhold: employer liable for amounts that should have been withheld plus penalties — tiers **needs-sources**.
+- Common-mistake list published by LDR: filing after due date, missing zero returns, missing e-payment deadlines (verified page; penalty percentages under R.S. 47:1607 **not confirmed**).
+- Failure to withhold: employer liable for amounts that should have been withheld plus penalties — tiers **not confirmed**.
 
 ## Cross-border points
 
@@ -66,7 +66,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding b
 
 ## 7. Worked examples
 
-**Example 1 — payment-frequency band:** employer averages $4,800/month of Louisiana withholding. Which band applies?
+**Example 1 — payment-frequency band:** employer averages $4,800/month of Louisiana withholding. The bands (average monthly withholding <$500 → quarterly; $500–<$5,000 → monthly; ≥$5,000 → semi-monthly) are verified quotes from the LDR Withholding page (2026-10-28); the $4,800 figure is a hypothetical client fact.
 
 ```oa-check
 name: LA withholding frequency band
@@ -108,11 +108,11 @@ Monthly band = 12 remittances, quarterly band = 4, plus one L-3 reconciliation e
 
 ## Sources
 
-- LDR Withholding (duty, L-1, zero returns, bands, L-3, Jan 31, closure rule): https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/ — read 2026-10-28, text verified.
-- LDR Withholding Tax Tables: https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/ — resolves; figures JS-rendered, **needs-sources**.
-- Withholding FAQs: https://revenue.louisiana.gov/tax-professionals/general-resources/withholding-faqs/ — linked from LDR pages 2026-10-28.
+| Source | URL | Read on |
+| --- | --- | --- |
+| LDR Withholding (duty, L-1, zero returns, payment-frequency bands, L-3, Jan 31, closure rule) | https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/ | 2026-10-28 |
 
-**Needs-sources:** withholding table figures, exact quarterly due-date calendar, penalty/interest percentages (the LDR Individual Income Tax page verified 2026-10-28 confirms the 12% annual underpayment-of-estimated-tax penalty under R.S. 47:118 for individuals; employer withholding penalty tiers under R.S. 47:1607 remain unverified), W-4-equivalent certificate form ID (LW-4 — verify).
+Not yet confirmed: withholding table figures (the LDR withholding-tables page renders via JS and could not be archived); the exact quarterly due-date calendar; employer penalty/interest percentages under R.S. 47:1607 (the 12% annual underpayment-of-estimated-tax penalty under R.S. 47:118 is verified for individuals, not employers); the W-4-equivalent certificate form ID (LW-4).
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Louisiana payroll questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
