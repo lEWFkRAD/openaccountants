@@ -109,6 +109,8 @@ For tax year 2025 only, the rate is firmly 4.25% and is not contingent.
 
 - **Non-resident use of NC-4EZ and sourcing rule** — A NC employer with a non-resident employee (e.g., a remote worker who lives in Virginia but performs occasional in-NC work, or a Tennessee resident commuting to a NC worksite) may have the employee file NC-4EZ and check the non-resident box. This results in flat withholding on NC-sourced wages without any allowance reduction. Key non-resident rule: Wages are NC-sourced if the services are physically performed in NC. Residency of the employee is irrelevant for sourcing; only the location where the work is performed. See §6 below for multistate apportionment.  _(NCGS §105-153.3(13) and §105-163.1(13))_
 
+## The taxable base
+
 ## Deadlines and filing
 
 ## 4. Form NC-5 / NC-5P / NC-5Q: Withholding Returns and Payments
@@ -182,8 +184,6 @@ For tax year 2025 only, the rate is firmly 4.25% and is not contingent.
 
 Common audit error: NC-based payers often miss this 4% withholding when paying out-of-state freelancers (e.g., a Charlotte SaaS company paying a Florida-resident design contractor for on-site work at the Charlotte office). The fact that the payee is a Form 1099-NEC contractor, not a W-2 employee, does NOT exempt the payment from NC-163.3 withholding.
 
-## Cross-border points
-
 ## 6. AUDIT FLASH POINT: Multistate Employer Apportionment for NC Remote Workers
 
 ### 6.1 The Sourcing Rule
@@ -221,8 +221,6 @@ Common audit error: NC-based payers often miss this 4% withholding when paying o
 ### 6.4 Documentation Best Practices
 
 - **Documentation retention requirements** — Require all multistate employees to file an annual NC-4 declaring their estimated NC service days. Maintain timekeeping or location-tracking records sufficient to support apportionment. Retain records for at least 4 years from the latest filing date (NCGS §105-163.8 retention period; NCDOR audit lookback).  _(NCGS §105-163.8)_
-
-## The taxable base
 
 ## 7. NC State Unemployment Insurance (SUI)
 
@@ -317,8 +315,6 @@ Implications for NC payroll: No accrual reporting on pay stubs; No state-mandate
 
 - **Section 530 safe harbor does not extend to NC SUI** — If an employer has a reasonable basis under IRC §530 (Revenue Act of 1978) for treating a worker as a contractor for federal tax, that safe harbor applies for federal PIT withholding but does NOT extend to NC SUI. A federal Section 530 safe harbor does not bind DES; NC SUI ABC test is applied independently.  _(IRC §530 (Revenue Act of 1978))_
 
-## Penalties and interest
-
 ## 11. Final Pay and Wage Payment Rules
 
 ### 11.1 Final Pay Timing
@@ -342,6 +338,10 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 ### 11.5 Pay Stub Requirements
 
 - **Pay stub itemization requirements** — Under NCGS §95-25.13, each paycheck must be accompanied by an itemized statement showing: Gross wages; Deductions; Net wages; Pay period dates. This may be furnished electronically with employee consent.  _(NCGS §95-25.13)_
+
+## Penalties and interest
+
+## Cross-border points
 
 ## 12. New Hire Reporting to NC DHHS
 
