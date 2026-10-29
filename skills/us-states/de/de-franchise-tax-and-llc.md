@@ -1,9 +1,9 @@
 ---
 name: de-franchise-tax-and-llc
-description: Delaware LLCs, LPs, and GPs owe a flat $300 annual tax due June 1, regardless of income or activity. Delaware corporations owe annual franchise tax due March 1 computed under two methods — the Authorized Shares Method (flat tiers from $175 up to a $200,000 cap) and the Assumed Par Value Capital Method ($400 floor to the same $200,000 cap, $250,000 for Large Corporate Filers). Taxpayers pay the lower of the two. Corporations also file an annual report with officer/director and gross asset information. No Delaware corporate income tax applies unless the entity has Delaware-source income. Tax year 2025.
+description: Delaware LLCs, LPs, and GPs owe a flat $400 annual tax due June 1 (raised from $300 by 85 Del. Laws c. 273, effective 1 January 2026), regardless of income or activity. Delaware corporations owe annual franchise tax due March 1 computed under two methods — the Authorized Shares Method (flat tiers from $175 up to a $200,000 cap) and the Assumed Par Value Capital Method ($400 floor to the same $200,000 cap, $250,000 for Large Corporate Filers). Taxpayers pay the lower of the two. Corporations also file an annual report with officer/director and gross asset information. No Delaware corporate income tax applies unless the entity has Delaware-source income. Tax year 2025.
 jurisdiction: US-DE
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
