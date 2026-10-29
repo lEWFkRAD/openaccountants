@@ -13,7 +13,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NV Commerce Tax
 
-## Nevada Commerce Tax Skill
+## Who this applies to
 
 > **Scope.** This skill covers the Nevada Commerce Tax (NRS Chapter 363C), a gross
 > receipts tax imposed on business entities with Nevada gross revenue exceeding
@@ -23,7 +23,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be
 > reviewed by a qualified tax professional before filing.
 
-## Section 1: Metadata
+## Rates, bands and thresholds
+
+### Metadata
 
 **Metadata table**
 
@@ -47,7 +49,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - Tax Foundation, "Nevada Approves Commerce Tax" (2015 analysis)
 - AB 594 (2025 session — updated to 2022 NAICS edition)
 
-## Section 2: Quick reference — rates by business category
+### Rates by business category
 
 ### Complete NAICS category rate table
 
@@ -55,32 +57,32 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Business category | NAICS code(s) | Tax rate |
 | --- | --- | --- |
-| Agriculture, forestry, fishing, hunting | 11 | 0.063% |
-| Mining, quarrying, oil and gas extraction | 21 | 0.051% |
-| Utilities and telecommunications | 22, 517 | 0.136% |
-| Construction | 23 | 0.083% |
-| Manufacturing | 31, 32, 33 | 0.091% |
-| Wholesale trade | 42 | 0.101% |
-| Retail trade | 44, 45 | 0.111% |
-| Air transportation | 481 | 0.058% |
-| Rail transportation | 482 | 0.331% |
-| Truck transportation | 484 | 0.202% |
-| Other transportation | 483, 485, 486, 487, 488, 491, 492 | 0.129% |
-| Warehousing and storage | 493 | 0.128% |
-| Publishing, software and data processing | 512, 513, 516, 518 | 0.253% |
-| Finance and insurance | 52 | 0.111% |
-| Real estate and rental and leasing | 53 | 0.250% |
-| Professional, scientific and technical services | 54 | 0.181% |
-| Management of companies and enterprises | 55 | 0.137% |
-| Administrative and support services | 561 | 0.154% |
-| Waste management and remediation services | 562 | 0.261% |
-| Educational services | 61 | 0.281% |
-| Health care and social assistance | 62 | 0.190% |
-| Arts, entertainment and recreation | 71 | 0.240% |
-| Accommodation | 721 | 0.200% |
-| Food services and drinking places | 722 | 0.194% |
-| Other services | 81 | 0.142% |
-| Unclassified | 519, 92 | 0.128% |
+| Agriculture, forestry, fishing, hunting | 11 | 0.063% | (not yet confirmed)
+| Mining, quarrying, oil and gas extraction | 21 | 0.051% | (not yet confirmed)
+| Utilities and telecommunications | 22, 517 | 0.136% | (not yet confirmed)
+| Construction | 23 | 0.083% | (not yet confirmed)
+| Manufacturing | 31, 32, 33 | 0.091% | (not yet confirmed)
+| Wholesale trade | 42 | 0.101% | (not yet confirmed)
+| Retail trade | 44, 45 | 0.111% | (not yet confirmed)
+| Air transportation | 481 | 0.058% | (not yet confirmed)
+| Rail transportation | 482 | 0.331% | (not yet confirmed)
+| Truck transportation | 484 | 0.202% | (not yet confirmed)
+| Other transportation | 483, 485, 486, 487, 488, 491, 492 | 0.129% | (not yet confirmed)
+| Warehousing and storage | 493 | 0.128% | (not yet confirmed)
+| Publishing, software and data processing | 512, 513, 516, 518 | 0.253% | (not yet confirmed)
+| Finance and insurance | 52 | 0.111% | (not yet confirmed)
+| Real estate and rental and leasing | 53 | 0.250% | (not yet confirmed)
+| Professional, scientific and technical services | 54 | 0.181% | (not yet confirmed)
+| Management of companies and enterprises | 55 | 0.137% | (not yet confirmed)
+| Administrative and support services | 561 | 0.154% | (not yet confirmed)
+| Waste management and remediation services | 562 | 0.261% | (not yet confirmed)
+| Educational services | 61 | 0.281% | (not yet confirmed)
+| Health care and social assistance | 62 | 0.190% | (not yet confirmed)
+| Arts, entertainment and recreation | 71 | 0.240% | (not yet confirmed)
+| Accommodation | 721 | 0.200% | (not yet confirmed)
+| Food services and drinking places | 722 | 0.194% | (not yet confirmed)
+| Other services | 81 | 0.142% | (not yet confirmed)
+| Unclassified | 519, 92 | 0.128% | (not yet confirmed)
 
 ### Key thresholds
 
@@ -90,11 +92,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | --- | --- |
 | Revenue threshold | $4,000,000 NV gross revenue |
 | Filing threshold | Same — no filing required if NV gross revenue ≤ $4M |
-| Minimum rate | 0.051% (mining) |
-| Maximum rate | 0.331% (rail transportation) |
-| Unclassified rate | 0.128% |
+| Minimum rate | 0.051% (mining) | (not yet confirmed)
+| Maximum rate | 0.331% (rail transportation) | (not yet confirmed)
+| Unclassified rate | 0.128% | (not yet confirmed)
 
-## Section 3: How the Commerce Tax works
+## The taxable base
+
+### How the Commerce Tax works
 
 ### Who must pay
 
@@ -128,7 +132,7 @@ Any **business entity** engaging in business in Nevada whose Nevada gross revenu
 
 - **Business category determination** — If a business operates in multiple NAICS categories, it is classified in the category that generates the highest percentage of its Nevada gross revenue. You cannot split revenue across multiple categories — one rate applies to the entire taxable amount. To change your NAICS code category from a prior year, you must obtain permission from the Department using the NAICS Code Category Change form.
 
-## Section 4: Self-employed / sole proprietor specific rules
+### Self-employed / sole proprietor specific rules
 
 ### When does the Commerce Tax affect sole proprietors?
 
@@ -142,7 +146,59 @@ Most sole proprietors will not owe Commerce Tax because their Nevada gross reven
 
 - **MBT credit rule** — Businesses that pay Commerce Tax may claim a credit against the Modified Business Tax (NV's payroll tax) equal to the Commerce Tax paid, up to the amount of MBT owed. This prevents double taxation for businesses subject to both. For sole proprietors with no employees, MBT does not apply and this credit is irrelevant.
 
-## Section 5: Tier 1 rules — deterministic
+## Deadlines and filing
+
+Commerce Tax returns are due the last day of the month following the end of the taxable year; the exact date is not yet confirmed against an archived source.
+
+## Penalties and interest
+
+Late-filing and late-payment penalties apply; current rates are not yet confirmed against an archived source.
+
+## Cross-border points
+
+**Tier 2 rules table**
+
+| Rule ID | Situation | Guidance |
+| --- | --- | --- |
+| NV-T2-01 | **Multi-category business:** Business operates across multiple NAICS codes | Must classify under the single category generating the highest % of NV gross revenue. Cannot split. |
+| NV-T2-02 | **Pass-through entity distributions** | Distributions from other entities should be excluded from NV gross revenue to avoid double taxation. Verify the exclusion applies to each distribution type. |
+| NV-T2-03 | **Revenue sourcing** | Only revenue attributable to Nevada business activity is included. Multi-state businesses must determine NV-sourced revenue. |
+| NV-T2-04 | **MBT credit optimization** | Businesses paying both Commerce Tax and MBT should optimize the credit to minimize total NV tax burden. |
+| NV-T2-05 | **Fiscal year timing** | The July 1 – June 30 fiscal year does not align with most businesses' calendar year. Revenue tracking must be aligned to the Commerce Tax fiscal year. |
+| NV-T2-06 | **Approaching threshold** | Businesses approaching $4M in NV gross revenue should monitor carefully — once the threshold is crossed, the tax applies to all revenue above $4M. |
+
+## Worked examples
+
+No worked examples yet — category rates pending source confirmation.
+
+## Ask the client first
+
+- Whether Nevada gross revenue exceeds the $4M threshold (not yet confirmed).
+- Business category classification for the applicable rate.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| Nevada Department of Taxation — homepage | https://tax.nv.gov/ | 2026-10-28 |
+
+Not yet confirmed: $4,000,000 threshold; category rate table (0.051%–0.331%); filing deadline; penalty/interest rates.
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+the OpenAccountants network.
+
+- Use it in your AI: 
+- Meet the accountants: 
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
+
+### Tier 1 rules — deterministic
 
 **Tier 1 rules table**
 
@@ -159,20 +215,7 @@ Most sole proprietors will not owe Commerce Tax because their Nevada gross reven
 | NV-T1-09 | Rates range from 0.051% (mining) to 0.331% (rail transportation) | NRS 363C.310–363C.560 |
 | NV-T1-10 | Unclassified businesses taxed at 0.128% | NRS 363C.560 |
 
-## Section 6: Tier 2 rules — requires judgment
-
-**Tier 2 rules table**
-
-| Rule ID | Situation | Guidance |
-| --- | --- | --- |
-| NV-T2-01 | **Multi-category business:** Business operates across multiple NAICS codes | Must classify under the single category generating the highest % of NV gross revenue. Cannot split. |
-| NV-T2-02 | **Pass-through entity distributions** | Distributions from other entities should be excluded from NV gross revenue to avoid double taxation. Verify the exclusion applies to each distribution type. |
-| NV-T2-03 | **Revenue sourcing** | Only revenue attributable to Nevada business activity is included. Multi-state businesses must determine NV-sourced revenue. |
-| NV-T2-04 | **MBT credit optimization** | Businesses paying both Commerce Tax and MBT should optimize the credit to minimize total NV tax burden. |
-| NV-T2-05 | **Fiscal year timing** | The July 1 – June 30 fiscal year does not align with most businesses' calendar year. Revenue tracking must be aligned to the Commerce Tax fiscal year. |
-| NV-T2-06 | **Approaching threshold** | Businesses approaching $4M in NV gross revenue should monitor carefully — once the threshold is crossed, the tax applies to all revenue above $4M. |
-
-## Section 7: Supplier pattern library
+### Supplier pattern library
 
 **Supplier pattern library table**
 
@@ -184,7 +227,7 @@ Most sole proprietors will not owe Commerce Tax because their Nevada gross reven
 | Modified Business Tax payments | NV MBT returns (for credit computation) |
 | Prior year NAICS category | Prior year Commerce Tax return |
 
-## Section 8: Form mapping
+### Form mapping
 
 **Form mapping table**
 
@@ -200,7 +243,7 @@ Most sole proprietors will not owe Commerce Tax because their Nevada gross reven
 | Line 31 | Interest (if applicable) | Computed |
 | Line 32 | Total amount due | Line 29 + Line 30 + Line 31 |
 
-## Section 9: Refusal catalogue
+### Refusal catalogue
 
 **Refusal catalogue table**
 
@@ -212,27 +255,3 @@ Most sole proprietors will not owe Commerce Tax because their Nevada gross reven
 | R-NV-04 | Mining tax | "Nevada mining taxes (Net Proceeds of Minerals) are not covered by this skill." |
 | R-NV-05 | Business license fee | "The annual $500 NV business license fee (NRS 76) is separate from the Commerce Tax and not covered here." |
 | R-NV-06 | Sales tax computation | "Nevada sales tax is covered in nv-sales-tax.md, not this skill." |
-
-## Disclaimer
-
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
-
-<!-- openaccountants-cta-block -->
-
----
-
-## Talk to a verified accountant
-
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
-
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.

@@ -13,18 +13,20 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NV Sales Tax
 
-## Section 1 -- Quick reference
+## Who this applies to
 
-**Quick reference**
+Sellers with Nevada sales — state and local sales/use tax.
+
+## Rates, bands and thresholds
 
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Nevada |
-| State rate | 6.85% |
-| Local rate range | 0% -- ~1.525% |
-| Maximum combined rate | ~8.375% |
+| State rate | 6.85%
+| Local rate range | 0% -- ~1.525%
+| Maximum combined rate | ~8.375%
 | Sourcing | Destination-based (SST) |
-| Economic nexus | $100,000 OR 200 transactions |
+| Economic nexus | $100,000 OR 200 transactions
 | Tax authority | Nevada Department of Taxation |
 | Portal | https://tax.nv.gov |
 | SST member | Yes -- Full Member |
@@ -32,9 +34,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Filing/payment due date | 20th of the month following the reporting period — per the archived Nevada Tax homepage notice (archived 2026-10-28): "Important notice: Sales and Use Tax returns are now due on the 20th of the month." |
 | Skill version | 2.0 |
 
-## Section 3 -- Transaction pattern library
+## The taxable base
 
-**Transaction pattern library**
+### Transaction pattern library
 
 | Pattern | Taxable? | Notes |
 | --- | --- | --- |
@@ -49,35 +51,45 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Prescription drugs | EXEMPT |  |
 | Resale | EXEMPT |  |
 
-## Section 10 -- Prohibitions
+## Deadlines and filing
 
-- **Prohibition on SaaS taxation** — NEVER treat SaaS as taxable in Nevada.
-- **Prohibition on computing numbers** — NEVER compute any number.
+See the quick-reference due-date row above.
 
-## Disclaimer
+## Penalties and interest
 
-Informational only. Review by qualified professional required before filing.
+Late filing/payment penalties and interest apply; current rates are not yet confirmed against an archived source.
 
-## Disclaimer
+## Cross-border points
 
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
+- Destination sourcing; interstate sales require use-tax analysis on the buyer side.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+## Worked examples
 
-<!-- openaccountants-cta-block -->
+No worked examples yet — rate figures pending source confirmation.
 
----
+## Ask the client first
+
+- Nexus status (economic threshold) and SST registration.
+- Whether receipts are services (not taxable in NV) or TPP/canned software.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| Nevada Department of Taxation — homepage notice | https://tax.nv.gov/ | 2026-10-28 |
+
+Not yet confirmed: state rate 6.85%; local range; max combined ~8.375%; economic nexus $100,000/200 transactions; penalty/interest rates.
 
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
-
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+### Prohibitions
+
+- **Prohibition on SaaS taxation** — NEVER treat SaaS as taxable in Nevada.
+- **Prohibition on computing numbers** — NEVER compute any number.
