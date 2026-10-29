@@ -91,7 +91,7 @@ expected:
 - What intercompany charges run out of Mississippi entities, and are they supported?
 - Any foreign affiliates in the chain?
 
-## 9. Sources
+## Sources
 
 1. DOR Combined Filing: https://www.dor.ms.gov/taxes/combined-filing — fetched and verified 2026-10-28.
 2. Pre-existing `ms-corporate-income-tax.md` (this pack) for rates.
