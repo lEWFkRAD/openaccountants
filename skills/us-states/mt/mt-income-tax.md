@@ -1,10 +1,10 @@
 ---
 name: mt-income-tax
 description: Use this skill whenever asked about Montana individual income tax for self-employed persons, sole proprietors, or single-member LLCs. Trigger on phrases like "Montana income tax", "MT income tax", "Form 2", "Montana DOR", "MCA 15-30-2103".
-version: "0.1"
+version: "0.3"
 jurisdiction: US-MT
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -133,7 +133,7 @@ Montana ordinary income is all taxable income that is not a net long-term capita
 
 ### Montana earned income tax credit ([2025 Form 2 instructions, line 15](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf); [HB 337, DOR](https://revenue.mt.gov/news/recent-news/HB-337))
 
-- **2025:** 10% of the federal EITC, refundable. The full 10% applies only to a full-year resident who is neither:
+- **2025:** 10% of the federal EITC, refundable (2025 Form 2 instructions, line 15: "a Montana earned income tax credit (EITC) of 10 percent of the federal EITC"). The full 10% applies only to a full-year resident who is neither:
   - an enrolled tribal member living on their tribe's reservation, nor
   - a member of an IRC 501(d) agricultural organization.
 - **Nonresidents do not qualify.** The 2025 instructions say: "Nonresidents do not qualify for the Montana EITC. ... If you are a nonresident, leave this line blank."
@@ -334,6 +334,38 @@ Client facts: lived all year in a rented Montana apartment on taxable property. 
 - **Estimated tax: due dates:** 15 April, 15 June, 15 September and 15 January of the next year, or the next business day if a date falls on a weekend or holiday. Fiscal years: the 15th day of the 4th, 6th and 9th months and of the first month after year-end.
 - **Paying estimates:** the TransAction Portal (tap.dor.mt.gov) or the Form IT voucher. Underpayment interest is figured on Form EST-I, or DOR figures it.
 
+## Recomputing examples
+
+```oa-check
+name: MT 2026 single sole proprietor, taxable income 73,900
+inputs:
+  ti: 73900
+steps:
+  - band1: min(ti, 47500) * 0.047
+  - band2: max(ti - 47500, 0) * 0.0565
+  - tax: band1 + band2
+expected:
+  tax: 3724.10
+```
+
+```oa-check
+name: MT 2026 single with 20,000 net long-term capital gains inside 60,000 taxable income
+inputs:
+  ordinary: 40000
+  gains: 20000
+steps:
+  - ordinary_tax: ordinary * 0.047
+  - room: 47500 - ordinary
+  - gains_low: min(gains, room) * 0.03
+  - gains_high: max(gains - room, 0) * 0.041
+  - total: ordinary_tax + gains_low + gains_high
+expected:
+  ordinary_tax: 1880.00
+  gains_low: 225.00
+  gains_high: 512.50
+  total: 2617.50
+```
+
 ## Completion checklist
 
 - **Year and status:** rates, brackets, 65-and-older amount and EITC percentage match the year; filing status matches the federal return; the residency box is right.
@@ -345,6 +377,32 @@ Client facts: lived all year in a rented Montana apartment on taxable property. 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+- https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf (as_of: 2026-10-28)
+- https://revenue.mt.gov/taxes/individual-income-tax/filing-requirements (as_of: 2026-10-28)
+- https://revenue.mt.gov/taxes/individual-income-tax/residency (as_of: 2026-10-28)
+- https://revenue.mt.gov/news/recent-news/HB-337 (as_of: 2026-10-28)
+- https://revenue.mt.gov/montana-tax-simplification-resource-hub (as_of: 2026-10-28)
+- https://revenue.mt.gov/property/property-tax-help/montana-elderly-homeowner-renter-credit (as_of: 2026-10-28)
+- https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/2025_Montana_Individual_Income_Tax_Return_Form_2.pdf (as_of: 2026-10-28)
+- https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_II.pdf (as_of: 2026-10-28)
+- https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html (as_of: 2026-10-28)
+- https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025 (as_of: 2026-10-28)
+- https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0200/0150-0300-0210-0200.html (as_of: 2026-10-28)
+- https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_2EC.pdf (as_of: 2026-10-28)
+- https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0010/0150-0300-0210-0010.html (as_of: 2026-10-28)
+- https://www.irs.gov/pub/irs-drop/rp-25-32.pdf (as_of: 2026-10-28)
+- https://www.irs.gov/pub/irs-pdf/f1040.pdf (as_of: 2026-10-28)
+- https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf (as_of: 2026-10-28)
+- https://revenue.mt.gov/taxes/tax-credits/credit-for-income-tax-paid-to-other-state (as_of: 2026-10-28)
+- https://revenue.mt.gov/taxes/individual-income-tax/extensions (as_of: 2026-10-28)
+- https://revenue.mt.gov/taxes/penalty-and-interest (as_of: 2026-10-28)
+- https://revenue.mt.gov/taxes/estimated-tax-payments (as_of: 2026-10-28)
+- https://www.openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com/connect (as_of: 2026-10-28)
+- https://www.openaccountants.com/network (as_of: 2026-10-28)
 
 ## Talk to a verified accountant
 
