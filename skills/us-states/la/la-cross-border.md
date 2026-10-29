@@ -10,7 +10,7 @@ description: >
   "Louisiana part-year", "moving to Louisiana", "Louisiana reciprocity",
   "Louisiana credit for taxes paid". Source-cited draft; LDR withholding
   residence rule verified 2026-10-28; credit statute and IT-540B detail
-  needs-sources.
+  not confirmed.
 jurisdiction: US-LA
 category: cross-border
 tax_year: 2026
@@ -28,13 +28,13 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresidents, part-year residents, and Louisianans working out of state. **Source status:** the LDR Withholding page (residence-based withholding rule) and the LDR Individual Income Tax page (nonresident sourcing, gambling-winnings rule, Schedule C credit, military part-year rule for taxable years beginning before January 1, 2023) verified 2026-10-28; **the credit statute (R.S. 47:287.182 expected) and IT-540B mechanics sit behind the session-state legislature site**, so citations and credit ordering are **needs-sources**.
+Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresidents, part-year residents, and Louisianans working out of state. **Source status:** the LDR Withholding page (residence-based withholding rule) and the LDR Individual Income Tax page (nonresident sourcing, gambling-winnings rule, Schedule C credit, military part-year rule for taxable years beginning before January 1, 2023) verified 2026-10-28; **the credit statute (R.S. 47:287.182 expected) and IT-540B mechanics sit behind the session-state legislature site**, so citations and credit ordering are **not confirmed**.
 
 ## Rates, bands and thresholds
 
 - **Louisiana residents**: taxed on worldwide income at the flat 3% (per `la-income-tax.md`, effective 2025); the LDR Withholding page confirms LA residents working in another state may be LA-withheld when the other state doesn't withhold (verified).
-- **Nonresidents**: taxed on Louisiana-source income only — the LDR Individual Income Tax page (verified 2026-10-28) states that nonresidents add to federal AGI only LA-sourced income, and that gambling winnings earned in Louisiana are LA-sourced income; file **IT-540B** (per pre-existing skill's scope note; form ID needs-sources for 2026).
-- **Part-year residents**: split-year treatment; allocation detail **needs-sources**.
+- **Nonresidents**: taxed on Louisiana-source income only — the LDR Individual Income Tax page (verified 2026-10-28) states that nonresidents add to federal AGI only LA-sourced income, and that gambling winnings earned in Louisiana are LA-sourced income; file **IT-540B** (per pre-existing skill's scope note; form ID not confirmed for 2026).
+- **Part-year residents**: split-year treatment; allocation detail **not confirmed**.
 - **Entities**: foreign corporations doing business in Louisiana file CIFT-620 (verified category — see `la-corporate-income-tax`).
 
 ## The taxable base
@@ -42,9 +42,9 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 | Item | Rule | Source status |
 |---|---|---|
 | Resident base | worldwide income at flat 3% (2025+ reform) | structure verified via withholding rule; rate per pre-existing skill + RIB 25-012 PDF (verified PDF) |
-| Nonresident base | Louisiana-source income, IT-540B | **needs-sources** |
-| Credit for taxes paid to other states | Residents are "allowed a credit on Schedule C for the net tax liability paid to another state if that income is included on the Louisiana return" (LDR page, verified 2026-10-28) | rule verified; **statute citation/ordering needs-sources** |
-| Reciprocity | **none** — no agreements with TX, MS, AR, OK, or any neighbor | structural; needs-sources for citation |
+| Nonresident base | Louisiana-source income, IT-540B | **not confirmed** |
+| Credit for taxes paid to other states | Residents are "allowed a credit on Schedule C for the net tax liability paid to another state if that income is included on the Louisiana return" (LDR page, verified 2026-10-28) | rule verified; **statute citation/ordering not confirmed** |
+| Reciprocity | **none** — no agreements with TX, MS, AR, OK, or any neighbor | structural; not confirmed for citation |
 | Exit tax | **none** — no departure/exit tax | structural, low risk |
 | Remote work sourcing | services sourced where performed; LA residents still LA-taxed (verified withholding rule) | verified |
 
@@ -55,14 +55,14 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 
 ## 5. Penalties and interest
 
-- Standard R.S. 47 late-filing/late-payment regime — tiers **needs-sources**.
+- Standard R.S. 47 late-filing/late-payment regime — tiers **not confirmed**.
 - Dual-residency disputes (e.g. LA vs TX domicile fights) are litigation-prone; no special penalty for the dispute itself.
 
 ## Cross-border points
 
 - **LA resident working in Texas** (classic pattern): Texas has no income tax and doesn't withhold → the LDR rule (verified) means the Texas employer may need to withhold Louisiana tax; Louisiana taxes worldwide with credit for tax paid elsewhere — here zero credit, full LA tax.
 - **Nonresident working in Louisiana**: LA withholds and taxes; home state generally credits LA tax.
-- **Military**: for taxable years beginning before January 1, 2023, LA-domiciled (home-of-record) military personnel filed as part-year residents (LDR page, verified 2026-10-28); MMRA resident-retention adoption detail **needs-sources**.
+- **Military**: for taxable years beginning before January 1, 2023, LA-domiciled (home-of-record) military personnel filed as part-year residents (LDR page, verified 2026-10-28); MMRA resident-retention adoption detail **not confirmed**.
 - Louisiana's **May 15** individual deadline is later than most states' April 15 — coordinate multi-state extensions.
 
 ## 7. Worked examples
@@ -112,13 +112,13 @@ expected:
 
 ## Sources
 
-- LDR Withholding (resident-out-of-state withholding rule, nonresident duty): https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/ — read 2026-10-28, text verified.
-- LDR RIB 25-012 (flat 3% reform): https://dam.ldr.la.gov/lawspolicies/RIB-25-012-Louisiana-Individual-Income-Tax-Reform-1.pdf — verified PDF 2026-10-28.
-- LDR Individual Income Tax (nonresident sourcing, gambling winnings, Schedule C credit, military part-year rule, extension): https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/ — read 2026-10-28, text verified.
-- Pre-existing `la-income-tax.md` (IT-540B routing, May 15 deadline): repo file, read 2026-10-28.
-- La. R.S. 47:287.182 (credit — numbering expected, unverified): https://legis.la.gov/ — **needs-sources**.
+| Source | URL | Read on |
+| --- | --- | --- |
+| LDR Withholding (resident-out-of-state withholding rule, nonresident duty) | https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/ | 2026-10-28 |
+| LDR Revenue Information Bulletin 25-012 (flat 3% reform; archived PDF) | https://dam.ldr.la.gov/lawspolicies/RIB-25-012-Louisiana-Individual-Income-Tax-Reform-1.pdf | 2026-10-28 |
+| LDR Individual Income Tax (nonresident sourcing, gambling winnings, Schedule C credit, military part-year rule, extension) | https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/ | 2026-10-28 |
 
-**Needs-sources:** IT-540B 2026 form ID and mechanics, resident-credit citation/ordering, part-year allocation, current-year military provisions, reciprocity absence citation.
+Not yet confirmed: IT-540B 2026 form ID and mechanics; the resident-credit statute citation and ordering (R.S. 47:287.182 numbering not verified — legis.la.gov serves only a JS shell to plain fetchers); part-year allocation detail; current-year military provisions; the citation for the absence of reciprocity.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Louisiana cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
