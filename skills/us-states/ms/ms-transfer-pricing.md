@@ -7,53 +7,53 @@ description: >
   groups, and the absence of a standalone state TP documentation regime.
   Trigger on "Mississippi transfer pricing", "Mississippi combined
   report", "83-310", "Mississippi unitary". Source-cited draft; combined
-  report and 90% rule verified on the DOR combined-filing page
-  2026-10-28; membership tests, addbacks and documentation requirements
-  needs-sources.
+  report, affiliated-group election and 90% estimate rule verified on
+  the DOR Combined Income Filing page 2026-10-28, with the corporate
+  rate table from the archived 2025 Form 83-100 instructions.
 jurisdiction: US-MS
 category: transfer-pricing
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-28
-version: 0.1
-verified_by: pending
+last_updated: 2026-10-29
+version: 0.2
 depends_on:
   - ms-corporate-income-tax
 ---
 
-# Mississippi transfer pricing / combined reporting v0.1
+# Mississippi transfer pricing / combined reporting, tax year 2026
 
 > **General reference only.** General reference for AI-assisted workflows; not client-specific advice.
 
-## 1. Scope and sources
+## Who this applies to
 
-Mississippi polices related-party income shifting chiefly through **combined reporting (Form 83-310)** rather than a standalone arm's-length documentation code. **Source status:** the DOR combined-filing page (fetched, verified 2026-10-28) confirms the combined report, combined-group concept, and the **90%-of-current-year estimate requirement** for combined groups. **Ownership thresholds, water's-edge posture, intercompany addbacks, and any documentation requirement — needs-sources** (operative text not fetched).
-
-## 2. Who applies
-
-- Commonly-owned groups meeting Mississippi's combined-report membership tests (**needs-sources** for the test).
+- An "affiliated group" of corporations that "may elect to file on a combined basis for purposes of the income tax provided the requirements of Title 35, Part III, Subpart 08, Chapter 07 are met" (DOR Combined Income Filing page).
 - Any filer with intercompany management fees, royalties, interest, or rents moving income out of Mississippi.
 
-## 3. Rates / thresholds
+Mississippi polices related-party income shifting chiefly through combined reporting (Form 83-310) rather than a standalone arm's-length documentation code.
 
-No standalone TP rate; exposure rides the corporate table (5% default above $50,000 — needs-sources, see `ms-corporate-income-tax.md`).
+## Rates, bands and thresholds
 
-## 4. Base and mechanics
+No standalone TP rate; exposure rides the corporate table — 0% on the first $5,000 of taxable income, 4% on the next $5,000, 5% above $10,000 (2025 Form 83-100 instructions; see `ms-corporate-income-tax.md`).
 
-- Combined report aggregates group income, apportions to Mississippi (factor mix **needs-sources**).
-- Federal §482 adjustments flow through conformity (verify linkage — **needs-sources**).
+## The taxable base
 
-## 5. Deadlines, penalties, interest
+"The term combined is used to indicate an election where the separately computed net income/loss of a group of affiliated corporations is summed in order to determine the net income subject to tax" (DOR Combined Income Filing page). The reporting corporation "will file form 83-310, Summary of Net Income of Corporations, as a part of its combination return filing... The combined net income/loss computed on form 83-310 will be entered on Line 4 of form 83-105." Apportionment factor mix: see Not yet confirmed. Federal §482 adjustments flow through conformity (linkage: see Not yet confirmed).
 
-Combined report rides the corporate calendar; **90% current-year estimates** verified. Penalty percentages **needs-sources**.
+## Deadlines and filing
 
-## 6. Cross-border notes
+Combined report rides the corporate calendar: the combination return is due "on or before the 15th day of the 4th month following the close of the accounting year" (2025 Form 83-100 instructions). "In general, a corporation is required to make four quarterly estimated tax payments of at least 90% of its income tax liability... Estimated payments should be remitted by use of the corporate estimate voucher, form 83-300" (DOR Combined Income Filing page). "Estimated payments are not required for franchise tax" (DOR Combined Income Filing page).
 
-Foreign affiliates in a unitary chain: water's-edge treatment **needs-sources**. State tax not treaty-protected (standing US principle).
+## Penalties and interest
 
-## 7. Worked examples
+"Failure to do so will generally result in underestimate interest and penalties accruing. For further information concerning underestimate calculations, please see Title 35, Part III, Subpart 11, Chapter 21" (DOR Combined Income Filing page). Late-payment penalty 1/2%/month capped at 25%, late-filing penalty 5%/month capped at 25% with a $100 minimum (2025 Form 83-100 instructions; see `ms-corporate-income-tax.md`).
 
-**Example 1 — combined income to Mississippi.** Group combined income $1,500,000, Mississippi factor 20%, 5% rate (needs-sources):
+## Cross-border points
+
+Foreign affiliates in an affiliated group: water's-edge treatment is not stated on the fetched DOR page (see Not yet confirmed). State income tax is not treaty-protected (standing US principle).
+
+## Worked examples
+
+**Example 1 — combined income to Mississippi (hypothetical client facts; the 5% top rate is from the skill's own confirmed table above).** Group combined income $1,500,000, hypothetical Mississippi apportionment factor 20%:
 
 ```oa-check
 name: MS combined apportionment
@@ -69,7 +69,7 @@ expected:
   tax: 15000.00
 ```
 
-**Example 2 — royalty shift exposure.** $200,000 intercompany royalty out of the Mississippi member; 20% factor, 5% rate:
+**Example 2 — royalty shift exposure (hypothetical client facts; 5% rate from the skill's own confirmed table above).** $200,000 intercompany royalty out of the Mississippi member; hypothetical 20% factor:
 
 ```oa-check
 name: MS royalty shift
@@ -85,7 +85,7 @@ expected:
   tax_at_stake: 2000.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Is the group commonly owned at combined-report levels? → 83-310 and the 90% estimate rule.
 - What intercompany charges run out of Mississippi entities, and are they supported?
