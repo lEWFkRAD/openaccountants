@@ -97,7 +97,7 @@ expected:
 | DOR Income Tax Withholding page (Circular EN 2027 notice, 1.5% special rate, W-3N due 01/31/2027) | https://revenue.nebraska.gov/businesses/nebraska-income-tax-withholding | 2026-10-28 |
 | DOR Income Tax Withholding Forms index (Form 941N, W-3N) | https://revenue.nebraska.gov/about/forms/income-tax-withholding-forms | 2026-10-28 |
 
-Not yet confirmed: withholding penalty/interest percentages beyond the e-file penalty; reciprocity (none located); § 77-2756 employer withholding-for-tax mechanics detail; the DOR withholding page and forms index are cited but not archived this run.
+Not yet confirmed: withholding penalty/interest percentages beyond the e-file penalty; reciprocity (none located); § 77-2756 employer withholding-for-tax mechanics detail
 
 <!-- openaccountants-cta-block -->
 ---
