@@ -315,10 +315,6 @@ Client questions are listed under “Ask the client first” above.
 
 ## Sources
 
-Sources are cited inline throughout this guide; the body carries the incometax.gov.in citations for every figure.
-
-## Sources
-
 | Source | URL | Read on |
 |---|---|---|
 | Indiana Code IC 6-3 (adjusted gross income tax; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6 | 2026-10-28 |

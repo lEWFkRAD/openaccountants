@@ -80,9 +80,9 @@ No worked examples are included in this quick-reference skill; the 7.00% flat st
 
 | Source | URL | Read on |
 |---|---|---|
-| Indiana DOR sales tax information (7% flat rate, SST member status, INTIME portal) | https://www.in.gov/dor/ | 2026-10-29 |
+| Indiana Code IC 6-2.5 (sales and use tax; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-25 | 2026-10-28 |
 
-Not yet confirmed: the 7.00% flat rate, the $100,000 / 200-transaction economic-nexus threshold, and the transaction-pattern exemptions (IC 6-2.5) — no archived copy of the IC 6-2.5 text or the DOR sales-tax pages was captured this run.
+Not yet confirmed: the 7.00% flat rate, the SST member-state status, the $100,000 / 200-transaction economic-nexus threshold, and the transaction-pattern exemptions (IC 6-2.5) — no archived copy of the IC 6-2.5 text or the DOR sales-tax pages was captured this run.
 
 ## Talk to a verified accountant
 

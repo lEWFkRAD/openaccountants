@@ -463,25 +463,6 @@ Before signing off on an Indiana payroll year-end, confirm:
 - Do reciprocal-state employees have a WH-47 on file, with county tax still withheld?
 - Are 1099-NEC workers tested under the ABC test, not just right-to-control?
 
-## Sources
-
-- IC 6-3 (Adjusted Gross Income Tax)
-- IC 6-3.6 (Local Income Taxes, replacing CAGIT/COIT/CEDIT)
-- IC 6-8.1-10 (Penalties and Interest)
-- IC 22-2-2 (Minimum Wage / Pay Statements)
-- IC 22-2-5 (Wage Payment)
-- IC 22-2-9 (Wage Payment Upon Separation)
-- IC 22-2-16 (Paid Sick Leave State Preemption)
-- IC 22-4 (Unemployment Compensation System)
-- IC 22-4-8-1 (ABC Test)
-- HEA 1001-2023 / HEA 1427-2023 (PIT rate phase-down)
-- DOR Departmental Notice #1 (annual rate schedule)
-- DOR Information Bulletin #32 (county tax withholding)
-- DOR Information Bulletin #33 (reciprocal agreements)
-- DWD Employer Handbook (2025 edition)
-- IRS Rev. Rul. 87-41 (right-to-control test, referenced via DOR practice)
-- Naugle v. Beech Grove City Schools, 864 N.E.2d 1058 (Ind. 2007) (vacation as wages)
-
 **Related skills in this repository:**
 
 - `us-federal/federal-payroll.md` — federal layer (W-4, 941, 940, FICA, FUTA)
@@ -506,6 +487,8 @@ Before signing off on an Indiana payroll year-end, confirm:
 | Indiana Code IC 6-3-1 (rate schedule; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-3-1 | 2026-10-28 |
 | Indiana Code IC 6-8.1 (penalties and interest; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-8-1 | 2026-10-28 |
 | Indiana Code IC 6-25 (individual income tax administration; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-25 | 2026-10-28 |
+
+Also cited without archived copies this run: IC 6-3.6 (local income taxes); IC 6-8.1-10 (penalties and interest); IC 22-2-2/22-2-5/22-2-9/22-2-16 (minimum wage, wage payment, separation pay, sick-leave preemption); IC 22-4 and IC 22-4-8-1 (unemployment system, ABC test); HEA 1001-2023 / HEA 1427-2023 (PIT rate phase-down); DOR Departmental Notice #1; DOR Information Bulletins #32 and #33; DWD Employer Handbook (2025); IRS Rev. Rul. 87-41; Naugle v. Beech Grove City Schools, 864 N.E.2d 1058 (Ind. 2007).
 
 Not yet confirmed: the 3.15% 2025 state rate and the 2026 rate; the 2025 county-rate schedule (Departmental Notice #1); the UI wage base ($9,500) and experience/new-employer rates; WH-1 filing-frequency thresholds; penalty percentages; reciprocity form details — DWD and iga.in.gov pages returned no machine-readable text this run.
 
