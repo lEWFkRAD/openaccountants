@@ -1,7 +1,7 @@
 ---
 name: la-income-tax
 description: Use this skill whenever asked about Louisiana individual income tax. Trigger on phrases like "Louisiana income tax", "LA income tax", "IT-540", "LDR", "R.S. 47:21", "Louisiana flat tax". Louisiana reformed to a flat 3% rate effective 2025 (Act 11 of 2024 3rd Extraordinary Session). ALWAYS load us-tax-workflow-base first.
-version: "0.2"
+version: "0.3"
 jurisdiction: US-LA
 tax_year: 2025
 last_updated: 2026-10-28
@@ -30,16 +30,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Filing portal | [Louisiana File Online](https://revenue.louisiana.gov/EServices) |
 | Legislation | La. R.S. 47:21 et seq.; Act 11 of the 2024 Third Extraordinary Session |
 | Primary form | Form IT-540 (Louisiana Resident Individual Income Tax Return) |
-| Filing deadline | May 15, 2027 (for tax year 2026) — Louisiana uses May 15, not April 15 |
-| Version | 0.1 |
-| Date | May 22, 2026 |
+| Filing deadline | May 15 for calendar-year filers (not April 15); automatic six-month extension to file under La. R.S. 47:103 — extension to file is not an extension to pay |
+| Version | 0.3 |
+| Date | 2026-10-28 |
 | Validation status | AI-drafted — Q3 |
 
 ### Sources consulted
 
 1. Louisiana Department of Revenue — Revenue Information Bulletin 25-012 (Income Tax Reform): <https://dam.ldr.la.gov/lawspolicies/RIB-25-012-Louisiana-Individual-Income-Tax-Reform-1.pdf>
-2. LDR — 2025 IT-540 Instructions: <https://revenue.louisiana.gov/tax-forms/individuals/>
-3. EY Tax News — Louisiana flat income tax rate: <https://taxnews.ey.com/news/2024-2322-louisiana-law-implements-a-flat-personal-income-tax-rate-starting-in-2025>
+2. LDR — Individual Income Tax page: <https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/> — fetched and text-verified 2026-10-28
+3. LDR — Declaration of Estimated Income Taxes page: <https://revenue.louisiana.gov/individuals/general-resources/declaration-of-estimated-income-taxes/> — fetched and text-verified 2026-10-28
 4. La. R.S. 47:32 — Tax rate
 5. Act 11 (H.B. 10) of the 2024 Third Extraordinary Session
 
@@ -76,7 +76,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Retirement income exemption
 
-- **Retirement income exemption** — $12,000 USD (RIB 25-012: "increases the exemption for annual retirement income received by individuals aged 65 or older, raising it from $6,000 to $12,000 per person"; adjusted annually for CPI beginning in 2026)
+- **Retirement income exemption** — $12,000 USD (RIB 25-012: "increases the exemption for annual retirement income received by individuals aged 65 or older, raising it from $6,000 to $12,000 per person"; adjusted annually for CPI beginning in 2026 — verified against the archived RIB 25-012 PDF, 2026-10-28)
 
 ## Section 3: How this skill works with the federal return
 
@@ -91,8 +91,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Item | Description | Source |
 | --- | --- | --- |
 | Out-of-state bond interest | Interest on bonds of other states must be added | La. R.S. 47:293(4) |
-| Federal income tax deducted | Louisiana historically allowed a deduction for federal taxes; under the reformed law, verify if this continues to apply | La. R.S. 47:293 |
-| IRC decoupling items | Any areas where Louisiana decouples from federal tax code changes | La. R.S. 47 |
+| Federal income tax deducted | The LDR Individual Income Tax page (verified 2026-10-28) still lists "Income taxes paid to other states" as a subtraction from federal AGI; whether a deduction for federal income taxes themselves survives Act 11 is unconfirmed | La. R.S. 47:293 |
+| IRC decoupling items | Any areas where Louisiana decouples from federal tax code changes — RIB 25-012 addresses bonus depreciation (federal 100% bonus decoupled for LA; verify current-year scope) | La. R.S. 47 |
 
 ### Subtractions from income
 
@@ -101,22 +101,22 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Item | Description | Source |
 | --- | --- | --- |
 | U.S. government interest | Interest on U.S. obligations | La. R.S. 47:293(6) |
-| Social Security benefits | Louisiana exempts Social Security | La. R.S. 47:44.2 |
-| Federal income taxes paid | Louisiana allows a deduction for federal income taxes paid (may be limited under new law — verify) | La. R.S. 47:293(3) |
-| Retirement income | Up to $12,000 for taxpayers age 65+ | La. R.S. 47:44.1 |
-| Military pay | Active-duty military compensation exclusion | La. R.S. 47:293 |
+| Social Security benefits | Louisiana exempts Social Security | La. R.S. 47:44.2 (citation needs-sources) |
+| Taxes paid to other states | The LDR page (verified 2026-10-28) lists "Income taxes paid to other states" as a subtraction | La. R.S. 47:293(3) |
+| Retirement income | Up to $12,000 for taxpayers age 65+ (RIB 25-012, verified PDF) | La. R.S. 47:44.1 (citation needs-sources) |
+| Military pay | Active-duty military compensation exclusion — for taxable years beginning before January 1, 2023, LA-domiciled military personnel filed a part-year return (LDR page, verified); current-year military treatment needs-sources | La. R.S. 47:293 |
 
 ### Resulting computation
 
 - **Louisiana taxable income and tax formula** — Federal AGI + additions − subtractions − standard deduction = Louisiana taxable income → times 3% = Louisiana income tax.
 
-**Important:** Louisiana has historically allowed a deduction for federal income taxes paid, which is unusual among states. Under the 2025 reform, confirm the current treatment of this deduction.
+**Important:** The LDR Individual Income Tax page (verified 2026-10-28) confirms the subtraction for "Income taxes paid to other states" and the Schedule C credit for net tax liability paid to another state on income included on the Louisiana return. Whether a deduction for federal income taxes themselves survives Act 11 is unconfirmed — see J-1.
 
 ## Section 4: Self-employed specific rules
 
 ### Estimated tax payments
 
-- **Estimated payment requirement** — Self-employed individuals must make quarterly estimated tax payments if they expect to owe $1,000 or more.
+- **Estimated payment requirement** — Taxpayers must file a declaration of estimated income tax (Form IT-540ES) and pay estimated tax if their estimated Louisiana income tax after credits and withholding is expected to exceed **$1,000** (single filers) or **$2,000** (joint filers), per La. R.S. 47:116 (LDR Declaration of Estimated Income Taxes page, verified 2026-10-28).
 
 **Estimated tax payment due dates**
 
@@ -126,6 +126,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 2nd quarter | June 15 |
 | 3rd quarter | September 15 |
 | 4th quarter | January 15 (following year) |
+
+- **Estimated-payment exceptions (verified, LDR page 2026-10-28)** — R.S. 47:116(F): no estimated payments required if the return is filed and paid in full by **March 1** of the succeeding year; the 4th-quarter voucher may be filed any time on or before January 15 without penalty; the required installment is 25% of the required annual payment (the required annual payment is 90% of tax due, or 66.66% for qualified farmers and fishermen).
 
 - **Estimated payment form** — Use Form IT-540ES for estimated payments.
 
@@ -147,7 +149,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Filing deadline
 
-- **Filing deadline** — Louisiana's individual income tax return deadline is May 15 (not April 15). This is one month later than most states.
+- **Filing deadline** — Louisiana's individual income tax return (IT-540) deadline is May 15 (not April 15) — one month later than most states. R.S. 47:103 (for taxable years beginning on or after January 1, 2022) grants an **automatic six-month extension to file** with no form or payment; the extension covers filing only — tax due must be paid by the original due date or interest and late-payment penalty apply (LDR Individual Income Tax page, verified 2026-10-28).
 
 ## Section 5: Tier 1 rules — deterministic
 
@@ -161,9 +163,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | R-4 | Social Security benefits are fully exempt. |
 | R-5 | U.S. government bond interest is exempt. |
 | R-6 | Retirement income exemption: up to $12,000 for age 65+. |
-| R-7 | The filing deadline is May 15, NOT April 15. |
+| R-7 | The filing deadline is May 15, NOT April 15; the six-month extension under R.S. 47:103 is automatic and extends filing only, never payment. |
 | R-8 | Prior personal exemptions ($1,000 for age 65+, blind, dependents) were repealed by Act 11 for TY2025+. |
 | R-9 | Standard deduction is adjusted annually for CPI beginning in TY2026. |
+| R-10 | Estimated tax required when estimated LA tax after credits/withholding exceeds $1,000 (single) / $2,000 (joint) — R.S. 47:116 (verified). |
+| R-11 | Underpayment-of-estimated-tax penalty is 12% annually of the underpayment for the underpayment period — R.S. 47:118 (verified). |
 
 ## Section 6: Tier 2 rules — requires judgment
 
@@ -175,7 +179,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | J-2 | Evaluate whether itemized deductions exceed the increased standard deduction (less likely under the new $12,500/$25,000 amounts). |
 | J-3 | Assess IRC conformity for any areas where Louisiana decouples from recent federal changes. |
 | J-4 | Determine the CPI-adjusted standard deduction and retirement exemption amounts for TY2026+. |
-| J-5 | Evaluate credit for taxes paid to other states for multi-state taxpayers. |
+| J-5 | Evaluate the Schedule C credit for net tax liability lawfully paid to another state on income included on the LA return (LDR page, verified); statute citation and ordering need confirmation. |
 
 ## Section 7: Supplier pattern library
 
@@ -216,6 +220,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | REF-LA-03 | Taxpayer has partnership or S-corp K-1 with Louisiana-specific adjustments | Flag for reviewer. |
 | REF-LA-04 | Taxpayer claims complex credits (e.g., LA Historic Rehabilitation, Motion Picture, Enterprise Zone) | Flag for reviewer — separate forms required. |
 | REF-LA-05 | Taxpayer needs CPI-adjusted amounts for TY2026+ | Flag for reviewer — confirm published inflation-adjusted figures. |
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| LDR Revenue Information Bulletin 25-012 (income tax reform; archived PDF) | https://dam.ldr.la.gov/lawspolicies/RIB-25-012-Louisiana-Individual-Income-Tax-Reform-1.pdf | 2026-10-28 |
+| LDR Individual Income Tax page (residency, IT-540, Schedule C credit, subtractions, extension, underpayment penalty) | https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/ | 2026-10-28 |
+| LDR Declaration of Estimated Income Taxes page (thresholds, dates, R.S. 47:116 exceptions) | https://revenue.louisiana.gov/individuals/general-resources/declaration-of-estimated-income-taxes/ | 2026-10-28 |
+
+Not yet confirmed: the statute citations for the Social Security exemption (47:44.2) and retirement exemption (47:44.1); whether a deduction for federal income taxes themselves survives Act 11; the current-year military compensation exclusion scope; itemized-deduction detail; the CPI-adjusted TY2026 amounts; the resident-credit statute and ordering behind Schedule C.
 
 ## Disclaimer
 
