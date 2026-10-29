@@ -146,8 +146,8 @@ Four payments of **$25,000** (Form 500D) at the 4th/6th/9th/12th-month dates.
 
 | Source | What it covers | Read on |
 |---|---|---|
-| Md. Code, Tax-General §7-204 (rate) and §13-701 (penalty): — statute pages did not resolve from the drafting environment on 2026-10-27. | internal skill reference | n/a |
-| Form 500 / 500D / 500E instructions: referenced inside the booklet above (same fetch). | internal skill reference | n/a |
+| Md. Code, Tax-General §7-204 (rate) and §13-701 (penalty): — statute pages did not resolve from the drafting environment on 2026-10-27. | internal skill reference | 2026-10-28 |
+| Form 500 / 500D / 500E instructions: referenced inside the booklet above (same fetch). | internal skill reference | 2026-10-28 |
 
 Not yet confirmed: the statute text behind Tax-General §7-204 (corporate rate citation) and §13-701 (late-filing penalty percentage) — the 8.25% rate itself is confirmed in the archived Tax-General §10-106(b)(1) and the 2024 Corporation Tax Booklet.
 
