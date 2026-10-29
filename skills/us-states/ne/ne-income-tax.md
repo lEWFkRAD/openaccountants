@@ -273,20 +273,23 @@ expected:
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
-
 <!-- openaccountants-cta-block -->
 
 ---
 
 ## Sources
 
-- https://revenue.nebraska.gov (as_of: 2026-10-28)
-- https://revenue.nebraska.gov/individuals/individual-income-tax (as_of: 2026-10-28)
-- https://openaccountants.com (as_of: 2026-10-28)
-- https://www.openaccountants.com (as_of: 2026-10-28)
-- https://www.openaccountants.com/connect (as_of: 2026-10-28)
-- https://www.openaccountants.com/network (as_of: 2026-10-28)
+| Source | URL | Read on |
+|---|---|---|
+| Neb. Rev. Stat. § 77-2715.03 (rate schedule and future rate reductions) | https://nebraskalegislature.gov/laws/statutes.php?statute=77-2715.03 | 2026-10-28 |
+| Neb. Rev. Stat. § 77-2769 (estimated-tax threshold, $500 individual) | https://nebraskalegislature.gov/laws/statutes.php?statute=77-2769 | 2026-10-28 |
+| Neb. Rev. Stat. § 77-2768 (due date = federal due date) | https://nebraskalegislature.gov/laws/statutes.php?statute=77-2768 | 2026-10-28 |
+| DOR 2025 Tax Calculation Schedule (bracket tables verified verbatim) | https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/2025_Tax_Calculation_Schedule.pdf | 2026-10-28 |
+| DOR 2026 draft tax tables (top rate 4.55%) | https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/drafts/2026_tax_tables.pdf | 2026-10-28 |
+| DOR individual income tax page | https://revenue.nebraska.gov/individuals/individual-income-tax | 2026-10-28 |
+| DOR Tax Calendar (April 15 / October 15, 2026 entries) | https://revenue.nebraska.gov/about/tax-calendar | 2026-10-28 |
+
+Not yet confirmed: the personal exemption credit amount ($157, TY2025 — statute § 77-2716.01 not archived this run); the Social Security exemption statute cite (LB 873, 2024); Nebraska's current IRC §168(k) bonus-depreciation conformity status; the § 77-2770 estimated-tax rule (the archived § 77-2769 sets the $500 threshold); Form 1040N line-number mapping (booklet not archived).
 
 ## Talk to a verified accountant
 
