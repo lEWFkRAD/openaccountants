@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # IN Payroll
 
-## 1. Scope
+## Who this applies to
 
 This skill covers Indiana (US-IN) employer payroll tax obligations for tax
 year 2025. It is designed for small employers (1-50 employees) with an
@@ -74,7 +74,7 @@ non-incidental basis.
   (reciprocal agreements)
 - DWD Employer Handbook (2025 edition)
 
-## 2. Indiana Personal Income Tax (PIT) Withholding – 3.15% Flat Rate
+## Rates, bands and thresholds
 
 - **Flat rate structure** — Indiana imposes a flat-rate state adjusted gross income tax. There is no progressive bracket structure and no separate tax computation for supplemental wages versus regular wages – the same flat rate applies to both.  _(IC 6-3-2-1(b))_
 
@@ -118,7 +118,7 @@ This differs sharply from the federal supplemental wage flat rate of 22% under I
 - **Conditions for exempt status** — An employee may claim exempt from Indiana income tax withholding only if: the employee had no Indiana income tax liability in the prior year AND expects none in the current year, OR the employee is a resident of a reciprocal state (OH, KY, MI, PA, WI) and has filed the appropriate exemption documentation, OR the employee qualifies under the Servicemembers Civil Relief Act or the Military Spouses Residency Relief Act.  _(IC 6-3-4-8 and WH-4 instructions)_
 - **Annual renewal and liability** — Exempt-status WH-4 filings must be re-executed annually by February 15 in the same manner as federal Form W-4. An employee who claims exempt incorrectly is personally liable for the under-withheld tax; the employer is not liable provided the WH-4 is on file in good faith.
 
-## 3. Form WH-1 – Periodic Withholding Remittance
+## Deadlines and filing
 
 ### 3.1 Filing frequency
 
@@ -150,7 +150,7 @@ These thresholds correspond to roughly $1,000/year, $12,000/year, and $85,000/ye
 
 - **Zero WH-1 filing requirement** — A registered employer must still file a WH-1 for each period in its assigned frequency, even if no tax was withheld. Filing a "zero" WH-1 through INTIME satisfies this requirement. Failing to file zero returns generates automatic non-filer notices and may trigger a billing for an estimated assessment.
 
-## 4. Form WH-3 – Annual Withholding Reconciliation
+### Form WH-3 – Annual Withholding Reconciliation
 
 ### 4.1 What WH-3 does
 
@@ -175,7 +175,7 @@ Mismatches commonly arise from:
 2. Failing to update an employee's county-tax classification when they moved across a county line on or before January 1.
 3. Misclassifying a reciprocal-state employee mid-year and missing the required true-up.
 
-## 5. County Tax – Local Option Income Tax (LOIT)
+### County Tax – Local Option Income Tax (LOIT)
 
 ### 5.1 All 92 counties impose a county tax
 
@@ -222,7 +222,7 @@ Failure to capture an accurate January 1 status is the single most common Indian
 
 - **Total Indiana withholding rate formula** — County tax is withheld in addition to the 3.15% state rate and is remitted on the same WH-1 voucher in a separate column / line. County tax is reported on the W-2 in Box 19 (Local income tax) with Box 20 (Locality name) showing the Indiana county name and FIPS code prefix (e.g. "MARION-IN" for Marion County). Total rate = 3.15% (state) + county rate (residence on Jan 1) For a Marion County resident in 2025: 3.15% + 2.02% = 5.17% total Indiana income tax withholding
 
-## 6. Form WH-4 – Employee's Withholding Exemption and County Status Certificate
+### Form WH-4 – Employee's Withholding Exemption and County Status Certificate
 
 ### 6.1 What WH-4 does
 
@@ -248,7 +248,11 @@ Failure to capture an accurate January 1 status is the single most common Indian
 
 - **WH-4 retention period** — The employer must retain WH-4 forms for at least 3 years after the employee's last day of employment. DOR can request WH-4 forms during any payroll audit, and missing WH-4s create a default presumption that the employer should have withheld at the maximum applicable rate.  _(IC 6-8.1-5-4)_
 
-## 7. Reciprocal Agreements with Surrounding States
+## Penalties and interest
+
+Penalties and interest are covered in the filing sections above: late filing and late payment penalties of the greater of $5 or 10% of unpaid tax, 10% late-payment penalty, interest under IC 6-8.1-10-1, the 100% fraudulent non-remittance penalty, and the misclassification penalties under IC 22-4.
+
+## Cross-border points
 
 ### 7.1 The five reciprocal states
 
@@ -269,7 +273,7 @@ Failure to capture an accurate January 1 status is the single most common Indian
 
 - **Reciprocal agreements do not cover local taxes** — A critical limitation: reciprocal agreements between states do NOT extend to local taxes. - An Indiana resident working in Louisville, Kentucky still owes the Louisville Metro Occupational License Tax. - An Indiana resident working in a Pennsylvania municipality still owes the local Earned Income Tax (EIT) and Local Services Tax (LST) under PA Act 32. - An Indiana resident working in Detroit still owes the Detroit city income tax (currently 2.4% for residents, 1.2% for non-residents). Conversely, an Ohio resident working in Indianapolis still owes the Marion County tax at 2.02% even though Indiana state income tax is not withheld.
 
-## 8. Indiana Unemployment Insurance (SUTA)
+### Indiana Unemployment Insurance (SUTA)
 
 ### 8.1 Wage base and rate structure
 
@@ -295,7 +299,7 @@ Failure to capture an accurate January 1 status is the single most common Indian
 
 - **SUTA dumping enforcement** — Indiana enforces the federal SUTA Dumping Prevention Act and its own state-level transfer-of-experience rules. Common SUTA-dumping patterns that trigger criminal investigation by DWD: - Setting up a new LLC each year to obtain the new-employer rate. - Transferring employees to a related entity with a lower experience rate without transferring the experience history. - Acquiring a company solely to "absorb" its lower rate. Penalties include the maximum 7.40% rate for the current and two succeeding years, plus civil penalty of up to 2% of taxable wages.  _(IC 22-4-11.5-7)_
 
-## 9. Worker Classification – The ABC Test
+### Worker Classification – The ABC Test
 
 ### 9.1 Indiana's three-part ABC test for unemployment purposes
 
@@ -313,7 +317,7 @@ This dual-test divergence is the single most expensive classification trap in In
 
 - **Misclassification penalty structure** — - DWD back contributions for up to 3 prior years. - Penalty of 1.5x the unpaid contribution. - Interest at 1% per month. - Workers' Compensation Board separately can pursue uninsured exposure. - DOR can pursue unwithheld income tax. - Possible criminal liability for knowing misclassification.  _(IC 22-4-29-1; IC 22-4-11-2(c); IC 22-3-2; IC 6-3-4-8; IC 22-4-29; IC 6-8.1-10-5)_
 
-## 10. Wage Payment, Final Pay, and Other Workplace Rules
+### Wage Payment, Final Pay, and Other Workplace Rules
 
 ### 10.1 Pay frequency
 
@@ -346,7 +350,11 @@ This contrasts sharply with neighboring Illinois (which has the Illinois Paid Le
 
 - **New hire reporting deadline** — All Indiana employers must report new hires (and re-hires after a 60-day separation) to the Indiana New Hire Reporting Center within 20 days of the hire date. Reporting is done online at www.in-newhire.com or by submitting an FCR-style file.  _(IC 22-4-32)_
 
-## 11. Worked Examples
+## The taxable base
+
+For Indiana withholding, the taxable base is federal adjusted gross income modified by Indiana add-backs and subtractions; withholding applies to wages as defined under IC 6-3-4-8(b), and county tax applies at the January 1 residence county rate.
+
+## Worked examples
 
 ### 11.1 Example 1 — IN-IL Chicago commuter (no reciprocity)
 
@@ -430,7 +438,7 @@ All three prongs fail. For DWD purposes, the cleaners are employees, not contrac
 
 > **AUDIT FLASH POINT — Always re-train payroll on the rule: the January 1 rate locks for the full year. Never change county withholding mid-year due to an Indiana-to-Indiana move. The ONLY mid-year change is when an employee moves OUT of Indiana entirely (then they become subject to no Indiana county tax going forward, but they remain liable for the full year's county tax via the IT-40 on the wages earned during the period they were an Indiana resident).**
 
-## 12. Reviewer Checklist
+### Reviewer Checklist
 
 Before signing off on an Indiana payroll year-end, confirm:
 
@@ -449,7 +457,13 @@ Before signing off on an Indiana payroll year-end, confirm:
 - [ ] Pay-stub disclosures (hours, wages, deductions) are present on every pay statement.
 - [ ] No paid-sick-leave accrual is being tracked under any local ordinance (Indiana state preemption applies).
 
-## 13. Citations and Cross-References
+## Ask the client first
+
+- Which county was each employee resident in on January 1 — and is payroll locked to that rate all year?
+- Do reciprocal-state employees have a WH-47 on file, with county tax still withheld?
+- Are 1099-NEC workers tested under the ABC test, not just right-to-control?
+
+## Sources
 
 - IC 6-3 (Adjusted Gross Income Tax)
 - IC 6-3.6 (Local Income Taxes, replacing CAGIT/COIT/CEDIT)

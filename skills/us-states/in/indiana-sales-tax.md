@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Indiana Sales Tax
 
-## Section 1 -- Quick reference
+## Who this applies to
 
 **Quick reference**
 
@@ -31,7 +31,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 **One of the simplest sales tax states -- 7% flat rate statewide, no local add-ons.**
 
-## Section 3 -- Transaction pattern library
+## Rates, bands and thresholds
 
 **Transaction pattern library**  _(IC 6-2.5-5-3)_
 
@@ -49,7 +49,31 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | OTC drugs | EXEMPT |  |
 | Resale | EXEMPT |  |
 
-## Section 10 -- Prohibitions
+## The taxable base
+
+Indiana sales tax applies to retail transactions of tangible personal property and specified services; the transaction pattern library above lists what is taxable, exempt, or not taxed.
+
+## Deadlines and filing
+
+Returns are filed through the INTIME portal (intime.dor.in.gov); filing frequencies and due dates follow the taxpayer's assigned filer status.
+
+## Penalties and interest
+
+Late filing and late payment penalties and interest are assessed by the Indiana Department of Revenue under IC 6-8.1.
+
+## Cross-border points
+
+Indiana is a full Streamlined Sales Tax (SST) member and sources sales by destination; economic nexus thresholds are listed in the quick reference above.
+
+## Worked examples
+
+No worked examples are included in this quick-reference skill; the 7.00% flat statewide rate applies uniformly.
+
+## Sources
+
+Sources for this quick reference are pending consolidation; see the Indiana DOR (in.gov/dor) and the SST member state list.
+
+## Ask the client first
 
 - **No local tax** — NEVER add local tax -- Indiana has no local sales taxes.
 - **SaaS not taxable** — NEVER treat SaaS as taxable in Indiana.

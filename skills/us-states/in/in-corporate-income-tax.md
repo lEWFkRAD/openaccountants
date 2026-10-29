@@ -26,7 +26,7 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 2026-10-27. Indiana's corporate tax is a **flat tax on adjusted gross income** (IC 6-3, subchapters on corporate AGI tax). **Source status:** the DOR current-year corporate form inventory (IT-20 booklet, Schedules E, E-7, F, IT-20PIC, IT-20FSD, M, IT-2220, IT-20NOL, 8-D, RECAP, NOL-MOD, IT-20X) was read from in.gov 2026-10-27 — form IDs verified. **iga.in.gov is a JavaScript SPA that returns no server-side statute text to plain HTTP; Justia mirror 403'd** — so the **rate (2.5% flat since the 2022 reduction, IC 6-3-2-1) and the combined-report ownership test are carried as needs-sources** pending a CPA check against IC 6-3-2-1. Never rely on the rate figure without confirming it against the current statute.
 
@@ -38,7 +38,7 @@ Source-cited draft, run of 2026-10-27. Indiana's corporate tax is a **flat tax o
 - **Nonprofits:** exempt status requires IRS recognition **plus** an Indiana application (NP-20A); then IT-20NP/NP-20 (same page, read 2026-10-27).
 - **Affiliated groups** file a combined report — Schedule 8-D "Schedule of Indiana Affiliated Group Members" exists in the current form inventory (verified); the ownership test (80%-type) is **needs-sources**.
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Rule | Source status |
 |---|---|---|
@@ -50,7 +50,11 @@ Source-cited draft, run of 2026-10-27. Indiana's corporate tax is a **flat tax o
 | Foreign dividends | Schedule IT-20FSD "Foreign Source Dividend Deduction" | form verified 2026-10-27 |
 | Alternate calculation | Schedule M "Alternate Adjusted Gross Income Tax Calculation" | form verified 2026-10-27 |
 
-## 4. Deadlines
+## The taxable base
+
+The taxable base follows the mechanics described under Rates, bands and thresholds above.
+
+## Deadlines and filing
 
 - IT-20: due the **15th day of the 4th month** after the tax year ends (calendar-year filers April 15) — standard corporate calendar; **needs-sources** (DOR deadlines page 404 this run).
 - Estimated tax: quarterly vouchers (88-ES series); underpayment penalty computed on **Schedule IT-2220 "Penalty for Underpayment of Corporate Income Tax"** (form verified 2026-10-27).
@@ -62,14 +66,14 @@ Source-cited draft, run of 2026-10-27. Indiana's corporate tax is a **flat tax o
 - Late filing/payment penalties and interest under IC 6-8.1 — percentages **needs-sources**.
 - NOL tracking: Schedule IT-20NOL and Schedule NOL-MOD exist in the current inventory (forms verified 2026-10-27).
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Out-of-state corporations doing business in Indiana: apportion via Schedule E; Indiana follows public-law-280-type protections — **needs-sources**.
 - Combined reporting pulls out-of-State affiliates into the Indiana report (Schedule 8-D) — test **needs-sources**.
 - Foreign-source dividends: Schedule IT-20FSD deduction (form verified).
 - Intangibles parked in low-tax affiliates: Schedule IT-20PIC addback disclosure (form verified; scope needs-sources).
 
-## 7. Worked examples
+## Worked examples
 
 C corporation, $2,000,000 Indiana-scheduled AGI:
 
@@ -99,12 +103,28 @@ expected:
   added_tax: 12500.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Is the group an affiliated group requiring a combined report (Schedule 8-D members listed)?
 - Royalty/management-fee flows to low-tax affiliates — IT-20PIC addback analyzed?
 - Estimated payments sized against IT-2220 exposure?
 - Foreign-source dividends — IT-20FSD deduction claimed?
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
 
 ## Sources
 

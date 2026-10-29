@@ -25,7 +25,7 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 2026-10-27. Indiana taxes residents on worldwide income and nonresidents on Indiana-source income, at a **flat state rate plus a county income tax** (all 92 counties levy one; the county rate is locked to the taxpayer's **January 1 residence** — per `in-payroll`, tier 2, 2026-07-13). **Source status:** DOR form pages verified 2026-10-27 (IT-40 series, IT-40PNR referenced on the DOR "Choosing the Proper Income Tax Form" page); **iga.in.gov SPA — residency definition and IT-40PNR line mechanics are needs-sources**; the current-year flat rate (2.95% for 2025 per `in-income-tax`; statutory phase-down to 2.9% by 2027 per `in-payroll`) must be confirmed for 2026 — **needs-sources**.
 
@@ -36,14 +36,18 @@ Source-cited draft, run of 2026-10-27. Indiana taxes residents on worldwide inco
 - **Commuters from OH, KY, MI, PA, WI:** Indiana has **reciprocal income-tax agreements** with these five states (per `in-payroll`, 2026-07-13) — exempt from Indiana wage withholding on wages; file the applicable exemption form. **needs-sources** for current WH-43-style form IDs.
 - **Out-of-state owners of Indiana pass-throughs:** taxed on Indiana-source distributive income unless the entity elects **PTET** (IN-PTET; DOR PTET page read 2026-10-27 — SEA 2, 2023, entity-level tax, refundable owner credit).
 
-## 3. Mechanics
+## Rates, bands and thresholds
 
 - **County tax follows the person, not the workday:** the January 1 residence rule locks the county rate for the full year (per `in-payroll`) — cross-border movers must know which county (or none, for nonresidents: nonresident county tax applies only to certain Indiana-sourced situations — **needs-sources**).
 - **Reciprocity covers wages only** — rental, business, and other Indiana-source income of neighboring-state residents remains taxable in Indiana.
 - **PTET route:** electing entities pay at the flat rate; nonresident owners get a refundable credit and avoid individual Indiana filings (DOR PTET page read 2026-10-27).
 - **Remote workers:** physical work in Indiana creates Indiana-source wages regardless of employer location (withholding duty per `in-payroll`).
 
-## 4. Deadlines
+## The taxable base
+
+The taxable base follows the mechanics described under Rates, bands and thresholds above.
+
+## Deadlines and filing
 
 - IT-40/IT-40PNR: April 15 (calendar year; federal extension generally honored — **needs-sources**).
 - Estimated tax: quarterly vouchers (84-ES series) when liability exceeds the threshold — amount **needs-sources**.
@@ -54,14 +58,14 @@ Source-cited draft, run of 2026-10-27. Indiana taxes residents on worldwide inco
 - IC 6-8.1 penalties/interest — percentages **needs-sources**.
 - Reciprocity abuse: unfiled Indiana returns on non-wage Indiana income still draw late-filing penalties — **needs-sources**.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Moving to/from Indiana mid-year: part-year IT-40PNR; county rate locked at January 1 residence.
 - Kentucky/Ohio border workers: reciprocity exempts wages but Kentucky/Ohio tax the full amount with a credit — check for double-taxation gaps on non-wage income.
 - Foreign owners of Indiana flow-throughs: PTET substitutes entity-level tax; otherwise IT-40PNR + withholding.
 - Military: Indiana honors resident-state taxation rules for service members stationed elsewhere — **needs-sources**.
 
-## 7. Worked examples
+## Worked examples
 
 Ohio resident earns $70,000 wages working remotely from Ohio for an Indiana company, plus $12,000 rental income from an Indiana property:
 
@@ -94,12 +98,28 @@ expected:
   tax: 1416.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Neighbor-state commuter: reciprocity form on file — and is non-wage Indiana income being missed?
 - Mid-year mover: January 1 county lock applied to the county tax?
 - Out-of-state partners/shareholders: PTET election modeled against IT-40PNR costs?
 - Remote workers physically in Indiana: withholding and county tax set up?
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
 
 ## Sources
 

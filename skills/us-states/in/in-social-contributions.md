@@ -25,7 +25,7 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 2026-10-27. Indiana's employer social-contribution layer is **unemployment insurance only** (IC 22-4, administered by the Department of Workforce Development). Indiana has **no state temporary-disability program and no state employer health-coverage mandate** (ACA only). **Source status:** in.gov/dwd pages are a JavaScript SPA returning no server-side text to plain HTTP (root 200, guessed sub-paths 404 this run) — the **wage base and rate ranges below are carried from the existing `in-payroll` skill (tier 2, drafted 2026-07-13) and must be re-verified against the current DWD rate notice: needs-sources.**
 
@@ -35,7 +35,7 @@ Source-cited draft, run of 2026-10-27. Indiana's employer social-contribution la
 - **Employee contribution: none** — UI is employer-funded (standard FUTA-credit structure; **needs-sources** for the IC 22-4 text).
 - Worker classification: DWD applies Indiana's ABC test for UI purposes (cross-ref `in-payroll`, drafted 2026-10-27 from earlier sources).
 
-## 3. Mechanics and rates (verify against current DWD notice)
+## Rates, bands and thresholds
 
 | Item | Value (from `in-payroll`, 2025 figures) | Source status |
 |---|---|---|
@@ -44,7 +44,11 @@ Source-cited draft, run of 2026-10-27. Indiana's employer social-contribution la
 | New-employer rate | **2.5%** | **needs-sources** |
 | Fund structure | employer contributions + federal credits | needs-sources |
 
-## 4. Deadlines
+## The taxable base
+
+The taxable base follows the mechanics described under Rates, bands and thresholds above.
+
+## Deadlines and filing
 
 - Quarterly contribution/wage reports (Form WH-34 series): due the last day of the month following each calendar quarter — **needs-sources** for the published DWD calendar.
 - Rate notices issue annually before the calendar year; protest windows per DWD notice — **needs-sources**.
@@ -54,12 +58,12 @@ Source-cited draft, run of 2026-10-27. Indiana's employer social-contribution la
 - Late/unpaid contributions: interest and penalty under IC 22-4 — percentages **needs-sources**.
 - Successor liability and transfer provisions exist in IC 22-4 — **needs-sources**.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Remote workers physically working in Indiana create Indiana UI exposure for out-of-State employers; reciprocal coverage arrangements under the interstate UI agreement — **needs-sources**.
 - Reciprocal **income-tax** agreements (OH, KY, MI, PA, WI — per `in-payroll`) do **not** extend to UI.
 
-## 7. Worked examples
+## Worked examples
 
 Employer with 10 employees, all at the $9,500 base, experience rate 2.1%:
 
@@ -91,12 +95,28 @@ expected:
   contribution: 950.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Is the 2026 wage base/rate notice checked against payroll settings — the base is small, so caps hit early in the year?
 - Remote workers in Indiana: UI account registered?
 - Acquisition of an Indiana business: successor UI account and experience-transfer election reviewed?
 - ABC-test contractors: reclassification exposure on UI contributions?
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
 
 ## Sources
 

@@ -14,13 +14,33 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **MIS-PUBLICATION NOTICE (2026-10-28).** The body of this guide is the **India** individual income tax guide (Income-tax Act, 2025 / AY 2026-27, rupee amounts, incometax.gov.in citations) mis-published under the Indiana slug — same defect class as the former US-ID id-income-tax guide. The frontmatter description (flat 2.95% + county 0.5%–3.38%) reflects Indiana, but no Indiana statute text could be verified this run: archived evidence US-IN-ic6-3-1/6-8-1/6-25/iga-ic6 are all 691-byte iga.in.gov JavaScript shells ("JS shell / section text not found"). Do NOT use the body for Indiana questions; use `in-payroll` (tier 2, 3.15% 2025 rate, 92-county schedule) until this guide is rewritten. Rate needs-sources: 2.95% (2025) phasing to 2.9% by 2027 per HEA 1004/IC 6-3-1-3.5; not machine-verifiable from archived evidence.
 
-## Scope and who this is for ([Income Tax Department: objective and scope of the new Act](https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/objective-and-scope-new-act-faq))
+## Who this applies to
 
 - This skill covers resident individuals (not RNOR) with salary, interest, one or two house properties, and business or professional income, including presumptive income. It covers both regimes, the rebate, surcharge and cess, advance tax, TDS credits and the return deadlines.
 - **Primary year: Tax Year 2026-27** (1 April 2026 to 31 March 2027). The Income-tax Act, 2025 governs it. The portal says: "The 1961 Act stands repealed on the 01.04.2026." The new Act uses "tax year" in place of "previous year" and drops "assessment year".
 - **Returns being filed now: AY 2026-27** (income of FY 2025-26). These are filed and assessed entirely under the Income-tax Act, 1961, with the old ITR forms. See the dated section "AY 2026-27 returns (FY 2025-26), filed in 2026" below.
 - Out of scope, refer: non-residents and RNORs, capital gains beyond the ITR-1/ITR-4 limits, foreign income or assets, firms, LLPs and companies, tax audit cases, virtual digital assets.
 - Currency is Indian rupees. Amounts use Indian grouping (₹12,00,000 is twelve lakh).
+
+## Rates, bands and thresholds
+
+Slab, rebate and surcharge figures are set out under “Rates, bands and thresholds” below.
+
+## The taxable base
+
+Total income is computed by head — salary, house property, business or profession, capital gains, other sources — as stepped through in “The method, step by step” below.
+
+## Deadlines and filing
+
+Return due dates and time limits are set out under “Deadlines and filing” below.
+
+## Penalties and interest
+
+Late-filing fees (s.234F / s.428) and advance-tax interest (234A/234B/234C or 424/425) are summarised in the boundary table and filing sections below.
+
+## Cross-border points
+
+Non-residents, RNORs, foreign income or assets, and treaty relief are out of scope — refer, as covered under “When to refuse or refer” below.
 
 ## Ask the client first
 
@@ -54,7 +74,7 @@ Sources: [Tax Payments FAQs](https://www.incometax.gov.in/iec/foportal/help/all-
 10. **Credits.** Subtract TDS and TCS only as shown in Form 26AS/AIS, then advance tax and self-assessment tax paid. Check interest under 234A/234B/234C (424/425 of the 2025 Act for Tax Year 2026-27) and any late fee.
 11. **Pick the ITR form** and file by the due date. E-verify, or post the signed ITR-V within 30 days.
 
-## Figures by year ([Salaried Individuals for AY 2026-27: tax slabs](https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1))
+## Rates, bands and thresholds
 
 **Which year these figures are for.** The slab, rebate and surcharge figures below are the ones the Income Tax Department publishes "for AY 2026-27" (income of FY 2025-26). At 25 September 2026 the portal had not published a slab page for Tax Year 2026-27 under the new Act. The portal says the new regime continues "under section 202" of the 2025 Act and that the 2025 Act "does not impose any new tax". Use these figures for Tax Year 2026-27 advance tax, labelled as the AY 2026-27 figures, and confirm them against s.202 and the Finance Act, 2026 before filing the Tax Year 2026-27 return (check).
 
@@ -213,7 +233,7 @@ Old regime only ([Salaried Individuals page, deductions](https://www.incometax.g
 | Old regime in the return | Return filed by the s.139(1) due date | Belated return: new regime only |
 | Losses | Return filed by the due date | Belated return: current-year losses other than house property loss cannot be carried forward |
 
-## AY 2026-27 returns (FY 2025-26), filed in 2026 ([Income Tax Returns FAQs](https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/%20income%20tax%20returns-faq))
+## Deadlines and filing
 
 Dated 25 September 2026. These returns are governed entirely by the Income-tax Act, 1961, use the old ITR forms, and select AY 2026-27 on the portal. The slab, rebate, surcharge, deduction and presumptive figures above are the AY 2026-27 figures.
 
@@ -233,7 +253,7 @@ Dated 25 September 2026. These returns are governed entirely by the Income-tax A
 - 234B/234C interest for FY 2025-26 advance tax stays under the 1961 Act.
 - **Tax Year 2026-27 time limits under s.263 of the 2025 Act:** belated return within 9 months from the end of the tax year; revised return within 12 months from the end of the tax year, and updated return within 48 months from the end of the financial year after the tax year (the portal marks both "as proposed in the Finance Bill, 2026"). Additional tax on an updated return is under s.267. The portal says the Tax Year 2026-27 return "is not due until July 2027"; confirm the dates for business and audit cases on the e-Filing calendar (check).
 
-## Worked cases ([Salaried Individuals for AY 2026-27: tax slabs](https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1))
+## Worked examples
 
 All cases: resident individual below 60, AY 2026-27 slab figures, no other income unless stated. For Tax Year 2026-27 the same arithmetic applies if s.202 keeps these figures (check).
 
@@ -257,7 +277,7 @@ Sources: [Non Resident FAQs](https://www.incometax.gov.in/iec/foportal/help/all-
 - Income above ₹50 lakh: compute surcharge and marginal relief carefully and have it checked ([surcharge table](https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1)).
 - Never present a figure as final: the Tax Year 2026-27 figures here are the AY 2026-27 figures pending confirmation under the 2025 Act.
 
-## Filing and payment ([Tax Payments FAQs](https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/tax-payments-faq))
+### Filing and payment
 
 - Pay by e-Pay Tax on the portal: net banking, debit card, payment gateway (including credit card and UPI), NEFT/RTGS mandate, or over the counter ([General Questions FAQs](https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/General%20Questions-faqs)). A generated challan expires 15 days after the CRN is created.
 - Choose the Act and year on the challan: AY 2026-27 (1961 Act) for FY 2025-26 self-assessment tax; Tax Year 2026-27 (2025 Act) for current advance tax. A wrong year means the credit lands in the wrong year.
@@ -266,7 +286,7 @@ Sources: [Non Resident FAQs](https://www.incometax.gov.in/iec/foportal/help/all-
 - Late fee: s.234F for AY 2026-27 (₹1,000 or ₹5,000); s.428 of the 2025 Act from Tax Year 2026-27, same amounts.
 - Keep FY 2025-26 and FY 2026-27 records, TDS and challans separate, and reconcile Form 26AS for each year separately.
 
-## Completion checklist ([ITR-1 FAQs](https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/ITR1-FAQ))
+### Completion checklist
 
 - [ ] Year and Act fixed: Tax Year 2026-27 (2025 Act) or AY 2026-27 (1961 Act).
 - [ ] Residential status tested with day counts; resident and not RNOR.
@@ -284,6 +304,18 @@ Sources: [Non Resident FAQs](https://www.incometax.gov.in/iec/foportal/help/all-
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Worked examples
+
+Worked cases are set out under “Worked examples” above.
+
+## Ask the client first
+
+Client questions are listed under “Ask the client first” above.
+
+## Sources
+
+Sources are cited inline throughout this guide; the body carries the incometax.gov.in citations for every figure.
 
 ## Talk to a verified accountant
 

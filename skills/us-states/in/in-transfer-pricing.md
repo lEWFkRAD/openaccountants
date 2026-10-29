@@ -26,7 +26,7 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 2026-10-27. Indiana's related-party toolkit is **combined reporting for affiliated groups** plus the **intangible-expense addback disclosure** — both visible in the DOR current-year corporate form inventory (read 2026-10-27): Schedule 8-D "Schedule of Indiana Affiliated Group Members", Schedule IT-20PIC "Disclosure of Intangible Expense and Directly Related Interest Expense", Schedule IT-20FSD "Foreign Source Dividend Deduction", Schedule E "Apportionment of Income for Indiana", Schedule F "Allocation of Non-Business Income and Indiana Non-Unitary Partnership Income". **Source status:** form names/IDs verified from in.gov; **iga.in.gov is a SPA with no server-side statute text this run** — the combined-report ownership test, addback mechanics, and water's-edge scope are **needs-sources**.
 
@@ -36,14 +36,18 @@ Source-cited draft, run of 2026-10-27. Indiana's related-party toolkit is **comb
 - Any IT-20 filer with **intangible expenses paid to related parties** — IT-20PIC disclosure (form verified; statutory trigger **needs-sources**).
 - Non-unitary partnership income is carved out and allocated on Schedule F (form title verified 2026-10-27) — Indiana's unitary-combination boundary is real and matters for holding structures.
 
-## 3. Mechanics
+## Rates, bands and thresholds
 
 - **Combined report:** affiliated group members combine and apportion once via Schedule E (single sales factor per the DOR form set — factor detail **needs-sources**).
 - **IT-20PIC:** discloses intangible expense (royalties, licensing) **and directly related interest expense** paid across state lines; Indiana's answer to royalty-shifting structures (scope **needs-sources**).
 - **IT-20FSD:** foreign-source dividend deduction (form verified; eligibility **needs-sources**).
 - **PTET (IN-PTET):** SEA 2 (2023) elective entity-level tax with refundable owner credit and a credit for other states' PTETs (DOR PTET page, read 2026-10-27) — shifts the related-party analysis to the entity level for pass-throughs.
 
-## 4. Deadlines
+## The taxable base
+
+The taxable base follows the mechanics described under Rates, bands and thresholds above.
+
+## Deadlines and filing
 
 - Combined-report election/filing rides the IT-20 calendar (15th day of 4th month — **needs-sources**).
 - PTET election is annual with the entity return (per DOR PTET page read 2026-10-27; exact dates **needs-sources**).
@@ -53,13 +57,13 @@ Source-cited draft, run of 2026-10-27. Indiana's related-party toolkit is **comb
 - Underpayment: Schedule IT-2220 (form verified).
 - IC 6-8.1 penalty/interest percentages **needs-sources**.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Royalty/interest flows from Indiana operating companies to out-of-State IP affiliates: IT-20PIC disclosure, potential addback (scope **needs-sources**).
 - Out-of-State affiliates pulled into the Indiana combined report via Schedule 8-D.
 - Other-state PTETs: Indiana grants a credit for PTET paid to another state (DOR PTET page, read 2026-10-27).
 
-## 7. Worked examples
+## Worked examples
 
 Indiana opco pays $1,200,000 royalties + $300,000 directly related interest to a low-tax IP affiliate; IT-20PIC disclosure at the 2.5% flat rate (rate needs-sources — confirm):
 
@@ -93,12 +97,28 @@ expected:
   delta_tax: 10000.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Is the group affiliated under the Indiana test — are all members on Schedule 8-D?
 - Royalty/licensing/management-fee flows to affiliates: IT-20PIC analyzed, transfer docs current?
 - Non-unitary partnership interests: Schedule F treatment reviewed?
 - PTET elected at the entity level — other-state PTET credits captured?
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
 
 ## Sources
 
