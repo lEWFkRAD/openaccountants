@@ -3,7 +3,8 @@ name: pa-local-eit
 description: Pennsylvania Local Earned Income Tax (LEIT) — Act 32 of 2008
 jurisdiction: US-PA
 tax_year: 2025
-last_updated: 2026-07-13
+version: "0.2"
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -168,6 +169,7 @@ Philadelphia rates change every July 1. Always pull the wage period-specific rat
 ### 5.3 Pittsburgh-specific Local Services Tax (LST) overlay
 
 - **LST overlay note** — Pittsburgh and several other distressed cities also impose a Local Services Tax (LST) — a flat $52/year ($1/week or $2/biweekly) on every employee working in the jurisdiction. This is separate from EIT and is governed by Act 7 of 2007. It is not covered in this skill — see the dedicated LST skill — but the practitioner should note it because Pittsburgh's $52 LST is often confused with EIT withholding on the pay stub.  _(Act 7 of 2007)_
+- **LST mechanics VERIFIED** vs archived [DCED Local Services Tax page](https://dced.pa.gov/local-government/local-income-tax-information/local-services-tax): where the combined LST exceeds $10, political subdivisions **must exempt** taxpayers whose total earned income and net profits in the subdivision are **less than $12,000**; collection must be **pro-rata by payroll period** (round **down** to the nearest cent — a $52 tax = $1/week or $4.33/month; a $36 tax = $0.69/week or $3/month); employers remit withheld LST **30 days after each calendar quarter**; employers must stop withholding on an employee's exemption certification.  _(DCED LST page, archived 2026-10-28)_
 
 ### 5.4 Out-of-state employers with PA employees
 
