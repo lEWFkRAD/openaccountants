@@ -1,6 +1,6 @@
 ---
 name: nv-commerce-tax
-description: Use this skill whenever asked about the Nevada Commerce Tax. Trigger on phrases like "Nevada Commerce Tax", "NV Commerce Tax", "NRS 363C", "Nevada gross receipts tax", "NV business tax", "Nevada $4 million threshold". This tax applies to business entities with Nevada gross revenue exceeding $4 million per taxable year.
+description: Use this skill whenever asked about the Nevada Commerce Tax. Trigger on phrases like "Nevada Commerce Tax", "NV Commerce Tax", "NRS 363C", "Nevada gross receipts tax", "NV business tax", "Nevada $4 million threshold". This tax applies to business entities with Nevada gross revenue exceeding a statutory threshold (not yet confirmed).
 version: "0.1"
 jurisdiction: US-NV
 tax_year: 2025
