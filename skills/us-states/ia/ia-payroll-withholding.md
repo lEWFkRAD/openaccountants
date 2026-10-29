@@ -21,7 +21,7 @@ depends_on:
 
 # Iowa payroll withholding, tax year 2026
 
-> **Source-cited draft.** Built from Iowa Code §§422.16, 422.16C and 422.19 (Iowa Legislature, Iowa Code 2026), read on 2026-10-28. No accountant has reviewed it. Do not file, pay, amend, or take a tax position from it without review by a qualified Iowa professional.
+> **Source-cited draft.** Built from Iowa Code §§422.16, 422.16C and 422.19 (Iowa Legislature, Iowa Code 2026), read on 2026-10-28. No accountant has reviewed it. Do not file, pay, amend, or take a tax position from it without review by a qualified Iowa professional. (not yet confirmed)
 
 Tax year: calendar-year withholding. Authority: Iowa Department of Revenue. Currency: US dollars. Covers employer withholding of Iowa individual income tax at source.
 

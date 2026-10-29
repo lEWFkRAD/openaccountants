@@ -55,7 +55,7 @@ See also: `ia-corporate-income-tax`, `ia-cross-border`.
 
 - Restated income carries the graduated rates plus interest; the current ch. 421 interest rate is listed under Not yet confirmed.
 - **90-day cancellation:** §422.40(1) lets the director certify non-filing/non-payment (90 days or more) to the secretary of state, who may cancel articles of incorporation or the certificate of authority; exercising corporate privileges after cancellation is an offense (§422.40).
-- §422.39 imports "sections 422.24 through 422.27" assessment/collection machinery, including pass-through-entity assessment under §422.25A.
+- §422.39 imports "sections 422.24 through 422.27" assessment/collection machinery, including pass-through-entity assessment under §422.25A. (not yet confirmed)
 
 ## Cross-border points
 

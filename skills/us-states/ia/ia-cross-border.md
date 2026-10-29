@@ -48,7 +48,7 @@ See also: `ia-income-tax`, `ia-payroll-withholding`.
 ## The taxable base
 
 - Residents: entire (worldwide) taxable income as defined in ch. 422 subchapter II.
-- Nonresidents: the nonresident's "net income allocated to Iowa" drives the proration fraction; income counts when "actually received by such nonresident regardless of when such income was earned" (§422.19), subject to the when-demandable rule for accrual-basis nonresidents in §422.19.
+- Nonresidents: the nonresident's "net income allocated to Iowa" drives the proration fraction; income counts when "actually received by such nonresident regardless of when such income was earned" (§422.19), subject to the when-demandable rule for accrual-basis nonresidents in §422.19. (not yet confirmed)
 
 ## Deadlines and filing
 
@@ -65,7 +65,7 @@ See also: `ia-income-tax`, `ia-payroll-withholding`.
 
 ## Cross-border points
 
-- **Receipt rule:** §422.19 taxes Iowa-source income "actually received by such nonresident regardless of when such income was earned" — income earned in earlier years can land in the nonresident year it is received.
+- **Receipt rule:** §422.19 taxes Iowa-source income "actually received by such nonresident regardless of when such income was earned" — income earned in earlier years can land in the nonresident year it is received. (not yet confirmed)
 - **PTE election (§422.16C):** a partnership or S corporation "may elect to be subject to" entity-level tax "in an amount equal to the rate under section 422.5" (3.8%); the election "shall be irrevocable once made"; the electing entity "shall not be required to file a composite return for the same tax year pursuant to section 422.16B"; partners/shareholders get a credit (§422.16C(5)); a nonresident individual whose only Iowa income is from the electing entity "shall not be required to file an individual income tax return under section 422.13" (§422.16C(6)).
 - Reciprocity with neighbouring states: no archived statute text confirms any — see Not yet confirmed.
 - Remote workers: physical presence working in Iowa creates Iowa-source wages (see `ia-social-contributions` for the UI mirror).
