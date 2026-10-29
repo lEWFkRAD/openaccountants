@@ -3,7 +3,7 @@ name: massachusetts-sales-tax
 description: Use this skill whenever asked about Massachusetts sales and use tax. Trigger on phrases like "Massachusetts sales tax", "MA sales tax", "MA DOR", "ST-9", "Massachusetts clothing exemption". ALWAYS load us-sales-tax first.
 jurisdiction: US-MA
 tax_year: 2025
-last_updated: 2026-10-28
+last_updated: 2026-07-13
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Massachusetts |
-| State rate | 6.25% — VERIFIED vs archived [G.L. c. 64H §2](https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter64H/Section2): "An excise is hereby imposed upon sales at retail in the commonwealth, by any vendor, of tangible personal property or of services performed in the commonwealth at the rate of 6.25 per cent of the gross receipts" |
+| State rate | 6.25% |
 | Local taxes | None |
 | Maximum combined rate | 6.25% |
 | Sourcing | Destination-based |
