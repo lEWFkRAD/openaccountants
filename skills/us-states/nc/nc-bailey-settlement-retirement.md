@@ -20,6 +20,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 >
 > **MUST be loaded alongside** `us-tax-workflow-base v0.2+` and `nc-income-tax v0.1+`. This skill does not itself produce a full D-400 — it produces the Schedule S Part B retirement-deduction lines that flow into the parent NC return.
 
+## Who this applies to
+
 ## Section 1: Metadata
 
 **Section 1: Metadata table**
@@ -50,6 +52,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - N.C. Gen. Stat. § 105-153.5 (full text, NCGA): https://www.ncleg.net/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-153.5.html
 - *Bailey v. State*, 348 N.C. 130 (1998), Justia: https://law.justia.com/cases/north-carolina/supreme-court/1998/53pa96-9.html
 - N.C. Department of Justice, "Qualification for Class Membership in Bailey/Emory/Patton Lawsuits": https://ncdoj.gov/opinions/qualification-for-class-membership-in-bailey-emory-patton-lawsuits/
+
+## Rates, bands and thresholds
 
 ## Section 2: Quick reference — the Bailey test at a glance
 
@@ -157,6 +161,8 @@ The Consent Order provides that qualifying retirees and their surviving benefici
 - **Different vesting test:** the participant must have "**contributed or contracted to contribute to the plan prior to August 12, 1989**." There is no 5-year service requirement because these are contribution-based, not service-based.
 - The protection extends to subsequent investment earnings and post-1989 contributions to the **same plan**.
 
+## The taxable base
+
 ## Section 5: NC's broader retirement income landscape (TY 2025)
 
 This is the full picture of how NC treats each type of retirement income — Bailey is only one piece.
@@ -207,6 +213,12 @@ This is the full picture of how NC treats each type of retirement income — Bai
 ### 5.7 Survivor / beneficiary treatment
 
 - **Survivor/beneficiary treatment** — Per the *Bailey* Consent Order and NCDOR's settlement implementation: the exemption applies to **surviving beneficiaries** of a qualifying retiree, including a surviving spouse receiving a joint-and-survivor annuity, contingent annuitants, and estate beneficiaries receiving a death benefit traceable to the qualifying account. Documentary proof of the **deceased member's** Bailey-vested status is the operative requirement; the beneficiary's own employment history is irrelevant.  _(*Bailey* Consent Order; NCDOR settlement implementation)_
+
+## Deadlines and filing
+
+## Penalties and interest
+
+## Cross-border points
 
 ## Section 6: Documentation requirements
 
@@ -259,6 +271,8 @@ This is the full picture of how NC treats each type of retirement income — Bai
 | NC-BAILEY-T2-08 | **Lump-sum withdrawal vs. periodic distributions from Bailey plan** | Both are Bailey-protected if the member is vested. The form of distribution does not affect character. However, a lump-sum that is then rolled into a non-qualifying IRA destroys character for the post-rollover account (Rule NC-BAILEY-T1-07). |
 | NC-BAILEY-T2-09 | **NC resident receiving federal CSRS pension but unsure of 1989 service** | Request OPM SF-50 (Notification of Personnel Action) showing service computation date. CSRS service started before 1/1/1984 with 5+ continuous years almost certainly qualifies; ambiguous cases require OPM service-history printout and credentialed-reviewer judgment. |
 | NC-BAILEY-T2-10 | **Conversion of Bailey-protected traditional account to Roth IRA** | The conversion is treated as a Bailey distribution at the moment of conversion (exempt from NC tax). Subsequent Roth qualified distributions are not in federal AGI, so no NC tax. Non-qualified Roth distributions follow Roth rules (federally taxable portion is taxable to NC). |
+
+## Worked examples
 
 ## Section 9: Worked examples (TY 2025)
 
@@ -337,6 +351,8 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 | Military retirement (§ 105-153.5(b)(5a)) | $14,000 | Line 21 |
 | **Total deductions** | **$65,300** | **Line 41** |
 
+## Ask the client first
+
 ## Section 10: Refusal catalogue
 
 **Refusal catalogue table**
@@ -405,6 +421,19 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 - Confirmation of the TY 2025 standard deduction amounts against the most recent D-401 (the figures used here match S.L. 2023-134's schedule).
 - Confirmation that the 2026 flat rate is 3.99% (Session Law 2023-134 set the schedule; subsequent sessions may have adjusted).
 - Confirmation of the D-401 instruction wording on the 1099-R attachment requirement.
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| N.C.G.S. § 105-153.5 (standard deduction; retirement/Bailey exclusions) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.5.html | 2026-10-29 |
+| N.C.G.S. § 105-153.7 (flat rate schedule) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html | 2026-10-29 |
+| N.C.G.S. § 105-153.4 (exemptions) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.4.html | 2026-10-29 |
+| NCDOR 2025 D-400 Schedule S (Web-Fill) | https://www.ncdor.gov/2025-d-400-schedule-s-web-fill-version/open | 2026-10-29 |
+| NCDOR 2025 D-401 individual income tax instructions | https://www.ncdor.gov/2025-d-401-individual-income-tax-instructions/open | 2026-10-29 |
+| N.C.G.S. Chapter 105 — chapter text index | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_105.html | 2026-10-29 |
+
+Not yet confirmed: exact subdivision numbering of N.C.G.S. § 105-153.5(b) for (i) Bailey settlement, (ii) Social Security, (iii) military retirement (manual reviewer confirmation required); TY 2025 standard deduction amounts against the most recent D-401; whether the 2026 flat rate remains 3.99% (later sessions may have adjusted); D-401 instruction wording on the 1099-R attachment requirement.
 
 ## Disclaimer
 

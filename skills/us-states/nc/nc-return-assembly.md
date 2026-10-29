@@ -75,6 +75,18 @@ Intake and the content Guides have already collected the facts for this working 
 | 12 | Bailey v. State of North Carolina, 348 N.C. 130 (1998) | https://www.ncdor.gov/taxes-forms/individual-income-tax/filing-topics/bailey-decision |
 | 13 | IRS Modernized e-File (MeF) — Federal/State joint filing | https://www.irs.gov/e-file-providers/modernized-e-file-overview |
 
+## Who this applies to
+
+## Rates, bands and thresholds
+
+## The taxable base
+
+## Deadlines and filing
+
+## Penalties and interest
+
+## Cross-border points
+
 ## Section 2 — What this skill is
 
 The final capstone skill. Every other North Carolina skill and every relevant federal skill feeds into this one. The deliverable is the complete reviewer package that a credentialed reviewer signs off on before filing.
@@ -573,6 +585,8 @@ The brief follows this fixed structure:
 | NC-ASM-T2-09 | **NC child deduction near phase-out boundary.** If AGI is within 5% of a phase-out tier boundary, mid-year income changes could shift the tier. | Flag for reviewer; document chosen tier and basis. |
 | NC-ASM-T2-10 | **NC withholding tied to wrong state.** If W-2 withholding was sent to another state when the work was performed in NC, an NC-4 correction with the employer is required. | Surface as taxpayer action; orchestrator does not file the correction. |
 
+## Worked examples
+
 ## Section 11 — Worked example
 
 **Facts.** James Whitfield, single, age 67, full-year Raleigh (NC) resident, sole proprietor (freelance security consultant, retired federal CSRS pensioner). 2025 facts:
@@ -752,6 +766,8 @@ The brief follows this fixed structure:
 
 This is one NC-resident sole prop with Bailey-protected pension, full reviewer package abbreviated to ~3 pages. The actual file is longer and includes the full xlsx workbook, the full brief, and the full action list.
 
+## Ask the client first
+
 ## Section 12 — Refusal catalogue
 
 **Refusal catalogue table**
@@ -820,6 +836,24 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 ### Change log
 
 - **v0.1 (May 2026):** Initial draft. Orchestrates federal + NC stack. Three-file deliverable. Section 6 verification matrix with 40+ reconciliations covering federal-internal, NC-internal, Bailey settlement, federal-NC coordination, 1099-NEC, estimated-tax, withholding tie-out, and Bailey-cross-checks. Worked example: NC resident sole prop with $150K Schedule C, Solo 401(k), $40K Bailey-protected federal CSRS pension, no withholding (estimates also $0 — underpayment exposure documented).
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| NCDOR 2025 D-401 individual income tax instructions | https://www.ncdor.gov/2025-d-401-individual-income-tax-instructions/open | 2026-10-29 |
+| NCDOR 2025 D-400 Schedule S (Web-Fill) | https://www.ncdor.gov/2025-d-400-schedule-s-web-fill-version/open | 2026-10-29 |
+| NCDOR 2025 NC-40 individual estimated income tax | https://www.ncdor.gov/2025-nc-40-individual-estimated-income-tax/open | 2026-10-29 |
+| N.C.G.S. § 105-153.7 (rate schedule) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html | 2026-10-29 |
+| N.C.G.S. § 105-153.5 (standard deduction) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.5.html | 2026-10-29 |
+| N.C.G.S. § 105-153.8 (who must file) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.8.html | 2026-10-29 |
+| N.C.G.S. § 105-153.6 (tax computed; credits) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.6.html | 2026-10-29 |
+| NCDOR home | https://www.ncdor.gov | 2026-10-29 |
+| IRS Modernized e-File overview | https://www.irs.gov/e-file-providers/modernized-e-file-overview | 2026-10-29 |
+| IRS refunds status | https://www.irs.gov/refunds | 2026-10-29 |
+| IRS Direct Pay | https://www.irs.gov/payments/direct-pay-with-bank-account | 2026-10-29 |
+
+Not yet confirmed: NCDOR pages cited only by URL in the "Sources consulted" table above (D-400 return page, Schedule S page, Schedule A page, standard/itemized deduction topic page, child deduction topic page, tax rate schedules page, pay-your-tax page, refund page, eFile partner page, Bailey decision page) were not archived; 2026 indexed deduction amounts.
 
 ## Disclaimer
 
