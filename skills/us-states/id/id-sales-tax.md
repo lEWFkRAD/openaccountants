@@ -57,7 +57,7 @@ Penalty and interest amounts for late sales tax returns and payments are listed 
 
 ## Worked examples
 
-### Example 1: hypothetical remote-seller nexus check
+### Worked example 1: hypothetical remote-seller nexus check
 
 A hypothetical online retailer has $85,000 of gross receipts from sales delivered into Idaho in 2025 and expects $40,000 in 2026. Cumulative receipts in any single calendar year have not exceeded $100,000, so the retailer is not yet a "retailer engaged in business in this state" under Idaho Code §63-3611(h). If 2026 receipts reach $100,001, the threshold is met for that year. Client facts are hypothetical; only the $100,000 threshold and the 6% rate are confirmed figures from the rates table above.
 
@@ -67,12 +67,12 @@ inputs:
   gross_receipts_2025: 85000
   nexus_threshold: 100000
 steps:
-  - nexus_met: gross_receipts_2025 > nexus_threshold
+  - receipts_over_threshold: max(gross_receipts_2025 - nexus_threshold, 0)
 expected:
-  nexus_met: false
+  receipts_over_threshold: 0
 ```
 
-### Example 2: hypothetical in-state sale
+### Worked example 2: hypothetical in-state sale
 
 A hypothetical Idaho retailer makes a $1,000 taxable retail sale. Idaho sales tax at the 6% rate is $1,000 × 6% = $60, collected from the consumer (Idaho Code §63-3619(b)). Client facts are hypothetical; only the 6% rate is a confirmed figure from the rates table above.
 

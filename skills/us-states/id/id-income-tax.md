@@ -71,7 +71,7 @@ Penalty and interest amounts for late filing and late payment by individuals are
 
 ## Worked examples
 
-### Example 1: hypothetical single sole proprietor, 2025
+### Worked example 1: hypothetical single sole proprietor, 2025
 
 Maria is a hypothetical single sole proprietor with 2025 Idaho taxable income of $60,000 after her standard deduction. She has no dependents.
 
@@ -91,7 +91,7 @@ expected:
   idaho_tax: 2925.02
 ```
 
-### Example 2: hypothetical married-filing-joint SMLLC owner, 2025
+### Worked example 2: hypothetical married-filing-joint SMLLC owner, 2025
 
 Dan and his spouse file jointly (hypothetical facts) with 2025 Idaho taxable income of $100,000 after their standard deduction. The joint exemption is $9,622: ($100,000 − $9,622) × 5.3% = $90,378 × 5.3% = $4,790.03 of Idaho tax. Only the 5.3% rate and the $9,622 joint exemption are confirmed figures from the rates table above.
 
