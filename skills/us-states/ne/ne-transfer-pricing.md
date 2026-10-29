@@ -45,7 +45,7 @@ No TP-specific rate; exposure rides the corporate rate — a flat **4.55%** for 
 
 ## Deadlines and filing
 
-Rides the corporate calendar (April 15 due date rail, § 77-2768, archived `US-NE-77-2768.html`; 04/15/2026 entries in archived `US-NE-DOR-tax-calendar.html`).
+Rides the corporate calendar (04/15 due date rail, § 77-2768, archived `US-NE-77-2768.html`; 04/15/2026 entries in archived `US-NE-DOR-tax-calendar.html`).
 
 ## Penalties and interest
 
