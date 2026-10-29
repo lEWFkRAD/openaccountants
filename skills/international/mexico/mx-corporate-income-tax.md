@@ -6,8 +6,8 @@ jurisdiction: MX
 category: international
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-28
-version: 0.3
+last_updated: 2026-10-29
+version: 0.4
 ---
 
 # Mexico corporate income tax (ISR, personas morales)
@@ -30,6 +30,7 @@ Resident Mexican corporations (personas morales) are taxed on worldwide income (
 | Corporate-level tax on dividends not paid out of CUFIN | 30% on the dividend grossed up by the factor 1.4286 | 2026 | [LISR Art. 10](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
 | Additional tax on dividends paid to resident individuals | 10% | 2026 | [LISR Art. 140](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
 | Non-resident flat rates (no PE) | 25% on rent, real-property gains and services | 2026 | LISR Arts. 156, 158, 160; see `mx-cross-border` |
+| Dividends paid to non-residents | 10% withheld by the paying company | 2026 | [LISR Art. 164 fr. I](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
 
 No general reduced corporate rate exists in the consolidated LISR text read on 2026-10-28.
 
@@ -49,7 +50,8 @@ No general reduced corporate rate exists in the consolidated LISR text read on 2
 |---|---|---|
 | Monthly provisional ISR payments | By the 17th of the following month, on the prior year's utilidad/ingresos coefficient | LISR Art. 14; [SAT, declaraciones mensuales](http://omawww.sat.gob.mx/informacion_fiscal/obligaciones_fiscales/personas_morales/regimen_general/Paginas/declaraciones_mensuales.aspx) |
 | Annual ISR return | Within three months of year end ("dentro de los tres meses siguientes a la fecha en que termine dicho ejercicio") | LISR Art. 76 fr. V |
-| Determinations and informative returns, including related-party returns | With the annual return | LISR Arts. 76, 76-A |
+| Related-party operations informative return | By 15 May of the following year | LISR Art. 76 fr. X |
+| Transfer-pricing informative returns (Art. 76-A) | Fractions I and III (master and country-by-country): by 31 December of the following year; fraction II (local): by 15 May of the following year | LISR Art. 76-A, final paragraphs |
 
 ## Penalties and interest
 
@@ -116,10 +118,10 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| Ley del Impuesto Sobre la Renta, consolidated (Cámara de Diputados, last reform DOF 01-04-2024), Arts. 8-10, 14, 25-37, 44-46, 57, 76, 76-A, 78, 140, 156, 158, 160, 179-182 | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-28 |
+| Ley del Impuesto Sobre la Renta, consolidated (Cámara de Diputados, last reform DOF 01-04-2024), Arts. 8-10, 14, 25-37, 44-46, 57, 76, 76-A, 78, 140, 156, 158, 160, 164, 179-182 (still last reformed DOF 01-04-2024 in the October 2026 copy) | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-29 |
 | SAT, personas morales régimen general: declaraciones mensuales | http://omawww.sat.gob.mx/informacion_fiscal/obligaciones_fiscales/personas_morales/regimen_general/Paginas/declaraciones_mensuales.aspx | 2026-10-28 |
 
-Not yet confirmed: how the 10% additional dividend tax (Art. 140, second paragraph) applies to non-resident shareholders; whether CUFIN is limited to profits taxed before 2014 as earlier drafts said, and the CUFIN-non-resident account; the 35% Title V rate earlier drafts listed for some non-resident income; whether a 2025-2026 reform changed the Art. 9 rate after the DOF 01-04-2024 consolidation (the 2025-2026 rate-increase debate had not changed the text read); the annual return as a calendar date (the LISR text gives three months after year end; earlier drafts said 30 July for calendar-year taxpayers); the PTU payment deadline of 60 days after the annual return (LFT Art. 123; no archived copy of the LFT); Código Fiscal de la Federación penalties of 45%-85% for underpaid amounts (Art. 64) and 50%-150% for false returns (Art. 65), inflation updating and interest (Art. 20) and the 1.41% monthly rate (no archived copy of the CFF); treaty-by-treaty withholding rates; the 2026 UMA and minimum wage; current SAT tariff tables.
+Not yet confirmed: whether CUFIN is limited to profits taxed before 2014 as earlier drafts said, and the CUFIN-non-resident account; the 35% Title V rate earlier drafts listed for some non-resident income; whether a 2025-2026 reform changed the Art. 9 rate after the DOF 01-04-2024 consolidation (the 2025-2026 rate-increase debate had not changed the text read); the annual return as a calendar date (the LISR text gives three months after year end; earlier drafts said 30 July for calendar-year taxpayers); the PTU payment deadline of 60 days after the annual return (Ley Federal del Trabajo; not read); Código Fiscal de la Federación penalties of 45%-85% for underpaid amounts (Art. 64) and 50%-150% for false returns (Art. 65), inflation updating and interest (Art. 20) and the 1.41% monthly rate (no archived copy of the CFF); treaty-by-treaty withholding rates; the 2026 UMA and minimum wage; current SAT tariff tables.
 
 <!-- openaccountants-cta-block -->
 

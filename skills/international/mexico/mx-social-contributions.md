@@ -6,8 +6,8 @@ jurisdiction: MX
 category: international
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-28
-version: 0.2
+last_updated: 2026-10-29
+version: 0.3
 ---
 
 # Mexico social contributions (IMSS, INFONAVIT, PTU)
@@ -24,15 +24,17 @@ Every employer (patrón) with workers in Mexico registers with IMSS, withholds t
 
 ## Rates, bands and thresholds
 
-Quotas are on the salario base de cotización (SBC). The ceiling is 25 times the general minimum wage and the floor is the general minimum wage of the area (LSS Art. 28).
+Quotas are on the salario base de cotización (SBC). LSS Art. 28 sets the ceiling at 25 times the general minimum wage of the Distrito Federal and the floor at the general minimum wage of the area (whether the ceiling is read as 25 UMA is on the Not yet confirmed line).
 
 | Branch | Employer | Worker | Tax year | Source |
 |---|---|---|---|---|
 | Disability and life (invalidez y vida) | 1.75% | 0.625% | 2026 | [LSS Art. 147](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
-| Retirement (retiro, SAR) | 2% | — | 2026 | [LSS Art. 168 fr. I](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
-| Daycare and social benefits (guarderías y prestaciones sociales) | 1% | — | 2026 | [LSS Art. 211](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
-| Housing (INFONAVIT) | 5% of wages | — | 2026 | [LIFNVT Art. 29 fr. II](https://www.diputados.gob.mx/LeyesBiblio/pdf/LIFNVT.pdf); [INFONAVIT employer FAQ](https://portalmx.infonavit.org.mx/wps/portal/infonavitmx/mx2/patrones/centro_ayuda/preguntas_frecuentes/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizTxdDAwtnA2MLA0NDAzM_J193ZxMTQ09w0z1C7IdFQHkqnMl/) |
-| Occupational risk, average premium on first registration or change of activity | 0.54355% (class I) to 7.58875% (class V) | — | 2026 | [LSS Art. 73](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
+| Retirement (retiro, SAR) | 2% | none | 2026 | [LSS Art. 168 fr. I](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
+| Old age and severance (cesantía en edad avanzada y vejez) | By SBC band, rising with pay; the LSS table shows the final schedule (3.150% at 1 minimum wage to 11.875% at 4.01 UMA and above); the 2026 transitional rates are on the Not yet confirmed line | 1.125% | 2026 | [LSS Art. 168 fr. II](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
+| Illness and maternity, cash benefits (prestaciones en dinero) | 0.70% (70% of a 1% quota) | 0.25% (25% of the 1% quota) | 2026 | [LSS Art. 107](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
+| Daycare and social benefits (guarderías y prestaciones sociales) | 1% | none | 2026 | [LSS Art. 211](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
+| Housing (INFONAVIT) | 5% of wages | none | 2026 | [LIFNVT Art. 29 fr. II](https://www.diputados.gob.mx/LeyesBiblio/pdf/LIFNVT.pdf); [INFONAVIT employer FAQ](https://portalmx.infonavit.org.mx/wps/portal/infonavitmx/mx2/patrones/centro_ayuda/preguntas_frecuentes/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizTxdDAwtnA2MLA0NDAzM_J193ZxMTQ09w0z1C7IdFQHkqnMl/) |
+| Occupational risk, average premium on first registration or change of activity | 0.54355% (class I), 1.13065% (II), 2.59840% (III), 4.65325% (IV), 7.58875% (V) | none | 2026 | [LSS Art. 73](https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf) |
 
 ## The taxable base
 
@@ -60,45 +62,43 @@ Quotas or capitales constitutivos not paid on time bear inflation updating and s
 
 ## Worked examples
 
-### Example 1: employer IMSS on a MXN 30,000 SBC, class I
+Both examples use only the percentage-of-SBC quotas confirmed in the table above. They leave out the illness-and-maternity benefits-in-kind quotas (a fixed quota per worker plus a quota on SBC above three times the reference wage) and the employer cesantía y vejez quota, whose 2026 rates are not yet confirmed, so they are **partial** costs, not a payroll total.
 
-Office work, class I risk premium 0.54355% (Art. 73). The block applies the branch rates earlier drafts used: 20.6% illness and maternity, 1.75% disability and life, 2.375% retirement, 5% housing, 1.75% daycare, plus the risk premium, for a total employer cost of MXN 9,605.57. Only the 1.75% disability-and-life rate, the 5% housing rate and the risk premium are confirmed; the other inputs are not yet confirmed (see Sources).
+### Example 1: employer quotas on a MXN 30,000 monthly SBC, class I (confirmed branches only)
+
+Disability and life 1.75%, retirement 2%, daycare 1%, INFONAVIT 5%, class I risk premium 0.54355% and illness-and-maternity cash benefits 0.70%: together 10.99355% of SBC, MXN 3,298.07 a month.
 
 ```oa-check
-name: employer IMSS on 30000 SBC Class I premium
+name: employer quotas on 30000 SBC, confirmed branches, class I
 inputs:
   sbc: 30000
-  c_goce: 0.206
-  c_incapacidad: 0.0175
-  c_retiro: 0.02375
-  c_vivienda: 0.05
-  c_insh: 0.0175
-  prima: 0.0054355
+  invalidez_vida: 0.0175
+  retiro: 0.02
+  guarderias: 0.01
+  vivienda: 0.05
+  prima_riesgo: 0.0054355
+  dinero_patron: 0.007
 steps:
-  - goce: sbc * c_goce
-  - incapacidad: sbc * c_incapacidad
-  - retiro: sbc * c_retiro
-  - vivienda: sbc * c_vivienda
-  - insh: sbc * c_insh
-  - riesgo: sbc * prima
-  - total_patron: goce + incapacidad + retiro + vivienda + insh + riesgo
+  - total_patron: sbc * (invalidez_vida + retiro + guarderias + vivienda + prima_riesgo + dinero_patron)
 expected:
-  total_patron: 9605.57
+  total_patron: 3298.07
 ```
 
-### Example 2: CDMX state payroll tax
+### Example 2: worker quotas withheld on the same SBC (confirmed branches only)
 
-A Mexico City employer with MXN 100,000 monthly payroll. At the 3% rate earlier drafts used, the state payroll tax is MXN 3,000. The rate is not yet confirmed against the CDMX Fiscal Code (see Sources).
+The employer withholds disability and life 0.625%, cesantía y vejez 1.125% and cash benefits 0.25%: 2.0% of SBC, MXN 600 a month (LSS Arts. 147, 168 fr. II, 107). If the employer fails to withhold on time it may later recover at most four accumulated weekly quotas from the worker; the rest is its own cost (LSS Art. 38).
 
 ```oa-check
-name: CDMX payroll tax on 100000 monthly payroll
+name: worker quotas on 30000 SBC, confirmed branches
 inputs:
-  nomina: 100000
-  tasa_cdmx: 0.03
+  sbc: 30000
+  invalidez_vida: 0.00625
+  cesantia_vejez: 0.01125
+  dinero_obrero: 0.0025
 steps:
-  - impuesto_nomina: nomina * tasa_cdmx
+  - total_obrero: sbc * (invalidez_vida + cesantia_vejez + dinero_obrero)
 expected:
-  impuesto_nomina: 3000.00
+  total_obrero: 600.00
 ```
 
 ## Ask the client first
@@ -113,12 +113,12 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| Ley del Seguro Social, consolidated (Cámara de Diputados), Arts. 19, 28, 30, 38, 39, 40 A, 73, 147, 168, 211, 304 A | https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf | 2026-10-28 |
+| Ley del Seguro Social, consolidated (Cámara de Diputados), Arts. 19, 28, 30, 38, 39, 40 A, 73, 106, 107, 147, 168, 211, 304 A (last reform DOF 15-01-2026) | https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf | 2026-10-29 |
 | Ley del Instituto del Fondo Nacional de la Vivienda para los Trabajadores, consolidated (Cámara de Diputados), Art. 29 | https://www.diputados.gob.mx/LeyesBiblio/pdf/LIFNVT.pdf | 2026-10-28 |
 | INFONAVIT, employer help centre: frequently asked questions | https://portalmx.infonavit.org.mx/wps/portal/infonavitmx/mx2/patrones/centro_ayuda/preguntas_frecuentes/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizTxdDAwtnA2MLA0NDAzM_J193ZxMTQ09w0z1C7IdFQHkqnMl/ | 2026-10-28 |
 | Ley del Impuesto Sobre la Renta, consolidated (Cámara de Diputados, last reform DOF 01-04-2024), Art. 9 | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-28 |
 
-Not yet confirmed: the illness-and-maternity rates of 20.6% employer and 3.0% worker (earlier drafts cited LSS Arts. 95, 97; in the text read, Art. 106 finances that branch's benefits in kind); a "retirement, disability, survivors" employer rate of 2.375% (earlier drafts cited Art. 134; the text read puts the employer cesantía y vejez quota in Art. 168 fr. II); a daycare/INSH upper rate of 1.75% (earlier drafts cited Art. 201; Art. 211 sets 1%); the resulting employer total of roughly 20.6% plus a fixed 11.125% plus risk premium, about 31.5% at the top class; the 2026 minimum wage and SBC ceiling in pesos (DOF annual decree); INFONAVIT payment timing (earlier drafts said monthly with the IMSS cédula) and earlier drafts' citation of "INFONAVIT Art. 45"; state payroll tax (impuesto sobre nómina) of about 3% in most states and 3% in CDMX (state codes not archived); a 10% surcharge on unpaid quotas under "LSS Art. 14-A"; PTU of 10% of the modified fiscal result, half split equally and half by wages, capped per worker at the lower of 20 times the local minimum wage or three times the average wage, with directors and non-resident workers excluded (LFT Arts. 123-127), and payment within 60 days of the annual ISR return (no archived copy of the LFT); the list of totalisation agreements and the coverage of seconded staff under the Mexico-US agreement; IMSS circulars (imss.gob.mx refused scripted access).
+Not yet confirmed: the 2026 illness-and-maternity benefits-in-kind quotas (Art. 106 in the consolidated text still shows the original 13.9% fixed quota and 6% / 2% excess quotas, which the 1995 law's transitional articles changed; v0.2 carried "20.6% employer and 3.0% worker" of SBC, which matches neither and overstated cost when applied to the whole SBC); the 2026 transitional employer cesantía y vejez rates under the DOF 16-12-2020 decree; whether the Art. 28 ceiling of 25 times the minimum wage is applied as 25 UMA; a "retirement, disability, survivors" employer rate of 2.375% (earlier drafts cited Art. 134; the text read puts the employer cesantía y vejez quota in Art. 168 fr. II); a daycare/INSH upper rate of 1.75% (earlier drafts cited Art. 201; Art. 211 sets 1%); the resulting employer total of roughly 20.6% plus a fixed 11.125% plus risk premium, about 31.5% at the top class; the 2026 minimum wage and SBC ceiling in pesos (DOF annual decree); INFONAVIT payment timing (earlier drafts said monthly with the IMSS cédula) and earlier drafts' citation of "INFONAVIT Art. 45"; state payroll tax (impuesto sobre nómina) rates, including the CDMX rate (v0.2 used 3% in a worked example; the CDMX Fiscal Code was not read and the example is removed); a 10% surcharge on unpaid quotas under "LSS Art. 14-A"; PTU of 10% of the modified fiscal result, half split equally and half by wages, capped per worker at the lower of 20 times the local minimum wage or three times the average wage, with directors and non-resident workers excluded (LFT Arts. 123-127), and payment within 60 days of the annual ISR return (no archived copy of the LFT); the list of totalisation agreements and the coverage of seconded staff under the Mexico-US agreement; IMSS circulars (imss.gob.mx refused scripted access).
 
 <!-- openaccountants-cta-block -->
 

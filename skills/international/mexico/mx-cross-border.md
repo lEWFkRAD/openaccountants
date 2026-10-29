@@ -6,8 +6,8 @@ jurisdiction: MX
 category: cross-border
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-28
-version: 0.2
+last_updated: 2026-10-29
+version: 0.3
 ---
 
 # Mexico cross-border (non-resident income, Title V LISR)
@@ -28,10 +28,10 @@ Foreign residents (individuals or corporations) earning Mexican-source income wi
 |---|---|---|---|
 | Independent services performed in Mexico | 25% | 2026 | [LISR Art. 156](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
 | Mexican real-property rent / land-use rights | 25% | 2026 | [LISR Art. 158](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
-| Sale of Mexican real property | 25% on gross proceeds | 2026 | [LISR Art. 160](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
+| Sale of Mexican real property | 25% on gross proceeds (a seller with an Art. 174 representative in Mexico and a public deed may opt to pay the top Art. 152 tariff rate, 35%, on the gain instead) | 2026 | [LISR Art. 160](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
 | Shares in Mexican companies (50%+ real-estate value test) | 25% | 2026 | [LISR Art. 161](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
 | Derivatives on Mexican shares | 25% on gain | 2026 | [LISR Art. 163](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
-| Dividends | Corporate-level 30% via the Art. 10 gross-up | 2026 | [LISR Art. 10](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
+| Dividends | Corporate-level 30% via the Art. 10 gross-up when not paid out of CUFIN, plus **10% withheld** on the dividend paid to the non-resident | 2026 | [LISR Arts. 10, 164 fr. I](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf) |
 
 The Mexican payer is the withholding agent; if the payer is also non-resident, the foreign recipient self-pays by declaration within 15 days of receiving the income (Arts. 158, 160).
 
@@ -44,7 +44,7 @@ Title V flat categories are on gross with no deductions ("sin deducción alguna"
 | Obligation | Deadline | Source |
 |---|---|---|
 | Self-assessment by the non-resident when the payer is also non-resident | Declaration within 15 days of the income | LISR Arts. 158, 160 |
-| Informative returns for cross-border related-party flows (master/local) | With the annual return | LISR Art. 76-A |
+| Transfer-pricing informative returns | Master and country-by-country (Art. 76-A fr. I, III): 31 December of the following year; local (fr. II): 15 May of the following year | LISR Art. 76-A |
 
 ## Penalties and interest
 
@@ -104,9 +104,9 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| Ley del Impuesto Sobre la Renta, consolidated (Cámara de Diputados, last reform DOF 01-04-2024), Arts. 2, 10, 76-A, 153, 156, 158, 160, 161, 163 | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-28 |
+| Ley del Impuesto Sobre la Renta, consolidated (Cámara de Diputados, last reform DOF 01-04-2024), Arts. 2, 10, 76-A, 153, 156, 158, 160, 161, 163, 164 (still last reformed DOF 01-04-2024 in the October 2026 copy) | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-29 |
 
-Not yet confirmed: interest rates of 4.9% / 10% / 25% by payer type (earlier drafts cited Arts. 166-168; the 4.9% case is in Art. 166, the others were not checked); a 35% royalty rate (earlier drafts cited Art. 174, which in the text read concerns the non-resident's representative; royalty source rules are in Art. 167); the 10% tax on dividends paid to non-residents and the article earlier drafts cited for dividends (Art. 165, which in the text read covers income through Title III non-profit entities); the remittance date for tax withheld from non-residents (earlier drafts said with the monthly return by the 17th of the following month); a targeted exemption for foreign pension funds on Mexican real-property gains (earlier drafts cited "the Art. 155 area"; Art. 155 in the text read covers pensions and retirement income); the domestic PE rules earlier drafts cited as Arts. 8-8A, including business carried on through a Mexican related party; Código Fiscal de la Federación penalties (Arts. 64, 65), updating and interest (Art. 20) and the payer's joint liability for tax not withheld (no archived copy of the CFF); treaty-by-treaty rates and PE thresholds (DOF/SAT); the SAT residence-certificate procedure.
+Not yet confirmed: interest rates of 4.9% / 10% / 25% by payer type (earlier drafts cited Arts. 166-168; the 4.9% case is in Art. 166, the others were not checked); a 35% royalty rate (earlier drafts cited Art. 174, which in the text read concerns the non-resident's representative; royalty source rules are in Art. 167); the remittance date for tax withheld from non-residents (earlier drafts said with the monthly return by the 17th of the following month); a targeted exemption for foreign pension funds on Mexican real-property gains (earlier drafts cited "the Art. 155 area"; Art. 155 in the text read covers pensions and retirement income); the domestic PE rules earlier drafts cited as Arts. 8-8A, including business carried on through a Mexican related party; Código Fiscal de la Federación penalties (Arts. 64, 65), updating and interest (Art. 20) and the payer's joint liability for tax not withheld (no archived copy of the CFF); treaty-by-treaty rates and PE thresholds (DOF/SAT); the SAT residence-certificate procedure.
 
 <!-- openaccountants-cta-block -->
 

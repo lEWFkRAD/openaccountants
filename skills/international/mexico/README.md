@@ -4,7 +4,9 @@ applicable: [IT-IND, IT-CORP, VAT, SC, PR, TP, XB]
 covered_by:
   VAT: mexico-iva
 partial:
-  IT-IND: "tax year 2025 tariffs; covers self-employed personas físicas only, not employees or rental income"
+  IT-IND: "covers self-employed personas físicas only, not employees or rental income; bank-statement walkthroughs use the 2025 tariff"
+  SC: "2026 illness-and-maternity benefits-in-kind quotas, transitional cesantía y vejez employer rates and state payroll tax rates not yet confirmed"
+  PR: "penalties and savings-fund limits not yet confirmed"
   VAT: "tax year 2025; skills not yet rebuilt to the deep-tax shape"
   TP: "tax year 2025; skill not yet rebuilt to the deep-tax shape"
 ---
@@ -30,6 +32,7 @@ Mexico taxes income under the Ley del Impuesto Sobre la Renta (LISR), administer
 | Source | URL | Read on |
 |---|---|---|
 | Ley del Impuesto Sobre la Renta (Cámara de Diputados, last reform DOF 01-04-2024) | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-28 |
+| SAT, Resolución Miscelánea Fiscal 2026, Anexo 8 (ISR tariffs 2025 and 2026, DOF 28-12-2025) | https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/anexos/Anexo-8-RMF-2026_DOF-28122025.pdf | 2026-10-29 |
 | SAT, Resolución Miscelánea Fiscal 2025, Anexo 8 (ISR tariffs 2025) | http://omawww.sat.gob.mx/normatividad_RMF_RGCE/Paginas/documentos2025/rmf/anexos/Anexo8_RMF2025-30122024.pdf | 2026-10-28 |
 | Ley del Seguro Social (Cámara de Diputados) | https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf | 2026-10-28 |
 | Ley del INFONAVIT (Cámara de Diputados) | https://www.diputados.gob.mx/LeyesBiblio/pdf/LIFNVT.pdf | 2026-10-28 |
