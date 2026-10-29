@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 North Carolina corporate income tax is phasing out under S.L. 2021-180 (SB 105): the rate dropped from 2.5% in 2024 to 2.25% in 2025, and continues to 2.00% (2026), 2.00% (2027), 1.00% (2028), 0.50% (2029), and 0.00% (2030 and later). The franchise tax remains under N.C. Gen. Stat. § 105-122 at $1.50 per $1,000 of apportioned capital, with a $200 minimum and a $150,000 maximum for holding companies. NC uses single-sales-factor apportionment with market-based sourcing for services. S-corps are exempt from corporate income tax but still owe franchise tax. A pass-through entity (PTE) election is available under § 105-153.9A. The combined return is Form CD-405. Tax year 2025.
 
-## 1. Scope
+## Who this applies to
 
 This skill covers North Carolina state-level entity-level taxes:
 
@@ -39,7 +39,7 @@ This skill covers North Carolina state-level entity-level taxes:
 
 > ⚠️ **Authority confirmation rule.** Before relying on a rate, threshold, or form line in production, confirm against the current NCDOR publications (Form CD-405 instructions, the franchise tax sections of the Corporate Income and Franchise Tax Bulletin, and the NCDOR Tax Directives). The phase-out schedule below is statutory but interim legislative sessions can amend the schedule. Statutes change.
 
-## 2. Corporate Income Tax — Phase-Out Schedule
+## Rates, bands and thresholds
 
 **Corporate Income Tax Phase-Out Schedule**  _(S.L. 2021-180 (SB 105); § 105-130.3)_
 
@@ -57,7 +57,7 @@ This skill covers North Carolina state-level entity-level taxes:
 | Jan 1, 2029 | 0.50% | § 105-130.3 archived table lists no 2029 row; not yet confirmed |
 | **Jan 1, 2030 and later** | **0.00%** | § 105-130.3 archived table: "After 2029 0%" |
 
-## 2. Corporate Income Tax — Phase-Out Schedule
+## The taxable base
 
 S.L. 2021-180 (Session Law of November 18, 2021), known as SB 105, enacted the largest single rate-reduction package in NC corporate income tax history. Under § 105-130.3 as amended, the corporate income tax rate is:
 
@@ -84,7 +84,7 @@ S.L. 2021-180 (Session Law of November 18, 2021), known as SB 105, enacted the l
 
 Compared with a 2017 baseline of $30,000 (3.00%), a 2030 NC C-corp will save $30,000 per $1,000,000 of NC taxable income annually in state income tax. Franchise tax (next section) remains.
 
-## 3. Franchise Tax — Surviving the CIT Phase-Out
+## Deadlines and filing
 
 The franchise tax (§ 105-122, archived) is the principal NC entity-level tax that survives the CIT phase-out (§ 105-130.3 archived: "After 2029 0%"). It is sometimes mischaracterized as a privilege tax; technically it is a privilege tax under Article 3 of Chapter 105.
 
@@ -151,7 +151,7 @@ The disregarded-entity SMLLC and the default partnership multi-member LLC are th
 
 - **LLC C-corp election trap** — An LLC that affirmatively elects C-corp treatment by filing federal Form 8832 (or Form 2553 followed by revocation) becomes subject to both NC income tax (2.25% in 2025, phasing to 0%) and NC franchise tax (CD-405, $200 min). The election is binding for NC purposes as well. Practitioners should verify the federal election before assuming an LLC owes only PIT-level NC tax.  _(Form 8832; CD-405)_
 
-## 5. Apportionment — Single Sales Factor, Market-Based Sourcing
+## Cross-border points
 
 ### 5.1 Single sales factor (effective 2018)
 
@@ -271,7 +271,7 @@ NC has two distinct NOL regimes:
 
 - **Underpayment safe harbor and franchise tax exclusion** — Note that the 4th installment is due December 15, earlier than the federal December 15 (which matches). Underpayment penalty is computed under § 105-163.41 using a safe harbor of 100% of prior year's tax (or 90% of current year's tax). Franchise tax is not subject to estimated payments — it is paid in full with the annual return.  _(§ 105-163.41)_
 
-### 8.4 Penalties and interest
+### Penalties and interest
 
 - **Penalty and interest schedule** — Late filing: 5% per month, max 25%. Late payment: 10% of unpaid tax (single penalty, not monthly). Negligence: 10% of underpayment. Fraud: 50% of underpayment. Failure to make estimated payments: Computed under § 105-163.41 using statutory interest rate. Interest rate: Set semi-annually by the Secretary of Revenue. For 2025 the rate is published in NCDOR Directive TA-25-1 (statutory minimum 5% per annum).  _(§ 105-163.41; NCDOR Directive TA-25-1)_
 
@@ -281,7 +281,7 @@ NC has two distinct NOL regimes:
 
 Most NC consolidated returns are filed only after NCDOR demands one or after a closing agreement on alternative apportionment. The default presumption is separate-entity reporting, even for taxpayers filing federal consolidated returns. This is a frequent issue in restructuring planning.
 
-## 9. Worked Examples
+## Worked examples
 
 ### 9.1 Example A — Small NC C-corp, 2025 vs. 2028 modeling (hypothetical client facts)
 
@@ -373,7 +373,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 | Market sourcing services? | Yes | Yes | Yes | Yes | Yes |
 | NOL 80% limit / no carryback / indefinite carryforward? | Yes | Yes | Yes | Yes | Yes |
 
-## 11. Provenance and Authority
+## Ask the client first
 
 ### 11.1 Primary statutory authority
 
@@ -431,7 +431,20 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 - Worked examples are hypothetical; the precise mechanics on the actual form may differ in line ordering. Cross-tie to CD-405 instructions in production.
 - This skill is **not** a substitute for credentialed reviewer signoff under the OpenAccountants verification model (lead + contributors per country).
 
-## End of nc-corporate-tax.md
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| N.C.G.S. § 105-130.3 (corporate income tax rate; SB 105 phase-out schedule): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.3.html | 2026-10-29 |
+| N.C.G.S. § 105-122 (franchise tax; $200 minimum, holding-company cap): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-122.html | 2026-10-29 |
+| N.C.G.S. § 105-130.4 (apportionment, single sales factor, market-based sourcing): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html | 2026-10-29 |
+| N.C.G.S. § 105-130.5A (combined reporting): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.5A.html | 2026-10-29 |
+| N.C.G.S. § 105-130.7A (royalty reporting option): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.7A.html | 2026-10-29 |
+| N.C.G.S. § 105-130.7B: | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.7B.html | 2026-10-29 |
+| N.C.G.S. chapter 105 index (§ 105-153.9A PTE election — section text not archived; see Not yet confirmed): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_105.html | 2026-10-29 |
+| NCDOR home (forms/instructions hub): | https://www.ncdor.gov | 2026-10-29 |
+
+Not yet confirmed: 2025 PTE rate in current NCDOR Directive / D-403 instructions (working assumption 2.25%); holding-company franchise cap remains $150,000 for 2025+; fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; § 105-153.9A section text itself not archived (chapter index archived only); pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table
 
 *End of nc-corporate-tax.md (v0.1, 2025-11-15).*
 
