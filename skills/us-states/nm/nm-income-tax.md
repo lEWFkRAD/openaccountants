@@ -147,10 +147,10 @@ New Mexico taxable income starts with **federal adjusted gross income (FAGI)** f
 
 | Installment | Due date |
 | --- | --- |
-| 1st quarter | April 15 |
-| 2nd quarter | June 15 |
-| 3rd quarter | September 15 |
-| 4th quarter | January 15 (following year) |
+| 1st quarter | April 15 | (not yet confirmed)
+| 2nd quarter | June 15 | (not yet confirmed)
+| 3rd quarter | September 15 | (not yet confirmed)
+| 4th quarter | January 15 (following year) | (not yet confirmed)
 
 Form PIT-ES is used for estimated tax payments.
 

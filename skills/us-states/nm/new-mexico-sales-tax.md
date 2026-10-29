@@ -25,8 +25,8 @@ Sellers with New Mexico gross receipts — NM taxes the SELLER via Gross Receipt
 | Jurisdiction | New Mexico |
 | Tax type | Gross Receipts Tax (GRT) -- NOT a traditional sales tax; tax on the SELLER |
 | State GRT rate | 5.125% |
-| Local add-on range | 0% -- ~4.1875% |
-| Maximum combined rate | ~9.3125% |
+| Local add-on range | 0% -- ~4.1875% | (not yet confirmed)
+| Maximum combined rate | ~9.3125% | (not yet confirmed)
 | Sourcing | Destination-based |
 | Economic nexus | $100,000 in taxable gross receipts |
 | Tax authority | New Mexico Taxation and Revenue Department (TRD) |
