@@ -15,7 +15,7 @@ as_of: 2026-10-27
 
 # Indiana (US-IN) — pack map
 
-Indiana taxes individuals at a **flat state rate plus a county income tax** in all 92 counties (county rate locked to January 1 residence), corporations at a **flat rate on adjusted gross income** (IC 6-3 — 2.5% post-2022, confirm for 2026: needs-sources), and sales at 7% flat statewide with no local sales taxes. Employer social contributions are UI-only (IC 22-4, DWD). No state disability insurance, no state health-coverage mandate. Inheritance tax repealed.
+Indiana taxes individuals at a **flat state rate plus a county income tax** in all 92 counties (county rate locked to January 1 residence), corporations at a **flat rate on adjusted gross income** (IC 6-3 — 2.5% post-2022, confirm for 2026: needs-sources), and sales at 7% flat statewide with no local sales taxes. Employer social contributions are UI-only (IC 22-4, DWD). No state disability insurance, no state health-coverage mandate. Inheritance tax repealed. (not yet confirmed)
 
 ## Domain map
 
@@ -23,7 +23,7 @@ Indiana taxes individuals at a **flat state rate plus a county income tax** in a
 |---|---|---|---|
 | IT-IND individual income | drafted (pre-existing; jurisdiction code fixed 2026-10-27) | `in-income-tax.md` | flat rate + county tax, IT-40, self-employed focus |
 | IT-CORP corporate income | drafted 2026-10-27 | `in-corporate-income-tax.md` | IT-20 + schedules verified from DOR inventory; rate + combined-report test needs-sources |
-| VAT sales/use | drafted (pre-existing) | `in-sales-tax.md`, `indiana-sales-tax.md` | 7% flat, no local sales tax |
+| VAT sales/use | drafted (pre-existing) | `in-sales-tax.md`, `indiana-sales-tax.md` | flat statewide rate (not yet confirmed), no local sales tax |
 | SC social contributions | drafted 2026-10-27 | `in-social-contributions.md` | UI-only; DWD SPA so wage base/rates needs-sources |
 | PR payroll withholding | drafted (pre-existing, deep) | `in-payroll.md` | WH-1/WH-3/WH-4, county rule, reciprocity, UI figures |
 | TP transfer pricing | drafted 2026-10-27 | `in-transfer-pricing.md` | Schedule 8-D + IT-20PIC + PTET verified as forms; statutory scope needs-sources |
@@ -41,7 +41,7 @@ All seven domains apply to Indiana — no not_applicable entries.
 
 ## Open items for reviewer
 
-- 2026 flat rates: individual (2.95% per in-income-tax vs 3.15% per in-payroll — reconcile) and corporate (2.5%).
+- 2026 flat rates: individual (2.95% per in-income-tax vs 3.15% per in-payroll — reconcile; neither rate is yet confirmed against archived sources) and corporate (2.5%, not yet confirmed).
 - Combined-report ownership test; IT-20PIC addback scope; Schedule E factor detail.
 - UI wage base/rates 2026 (DWD SPA).
 - Reciprocity exemption form IDs (OH/KY/MI/PA/WI).

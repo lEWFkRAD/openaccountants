@@ -1,6 +1,6 @@
 ---
 name: in-sales-tax
-description: Use this skill whenever asked about Indiana sales and use tax. Trigger on phrases like "Indiana sales tax", "IN sales tax", "IC 6-2.5", "Indiana DOR". Indiana has one of the SIMPLEST structures -- 7% flat with no local sales taxes. ALWAYS load us-sales-tax first.
+description: Use this skill whenever asked about Indiana sales and use tax. Trigger on phrases like "Indiana sales tax", "IN sales tax", "IC 6-2.5", "Indiana DOR". Indiana has one of the SIMPLEST structures -- a flat statewide rate with no local sales taxes (the rate figure is not yet confirmed). ALWAYS load us-sales-tax first.
 version: 2.1
 jurisdiction: US-IN
 tax_year: 2025
@@ -20,17 +20,17 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Indiana |
-| State rate | 7.00% (flat -- no local sales tax) |
+| State rate | 7.00% (flat -- no local sales tax) | (not yet confirmed)
 | Local taxes | None |
-| Maximum combined rate | 7.00% |
+| Maximum combined rate | 7.00% | (not yet confirmed)
 | Sourcing | Destination-based (SST) |
-| Economic nexus | $100,000 OR 200 transactions |
+| Economic nexus | $100,000 OR 200 transactions | (not yet confirmed)
 | Tax authority | Indiana Department of Revenue |
 | Portal | https://intime.dor.in.gov |
 | SST member | Yes (full member) |
 | Skill version | 2.0 |
 
-**One of the simplest sales tax states -- 7% flat rate statewide, no local add-ons.**
+**One of the simplest sales tax states -- a flat statewide rate (not yet confirmed), no local add-ons.**
 
 ## Rates, bands and thresholds
 
@@ -38,7 +38,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Pattern | Taxable? | Notes |
 | --- | --- | --- |
-| General TPP | TAXABLE 7% | Uniform statewide |
+| General TPP | TAXABLE (rate not yet confirmed) | Uniform statewide |
 | Clothing | TAXABLE | No exemption |
 | Grocery food | EXEMPT |  |
 | Prepared food | TAXABLE |  |
@@ -68,7 +68,7 @@ Indiana is a full Streamlined Sales Tax (SST) member and sources sales by destin
 
 ## Worked examples
 
-No worked examples are included in this quick-reference skill; the 7.00% flat statewide rate applies uniformly.
+No worked examples are included in this quick-reference skill; the 7.00% flat statewide rate applies uniformly. (not yet confirmed)
 
 ## Ask the client first
 
