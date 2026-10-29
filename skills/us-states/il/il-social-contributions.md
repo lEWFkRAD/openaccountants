@@ -52,6 +52,10 @@ Source-cited draft, run of 27 October 2026. Illinois employer social contributio
 
 Rates are experience-rated (reserve ratio + benefit-conversion factor 138.4% and state experience factor 102% for 2026, per the same PDF). Base: covered wages up to $14,250 per employee per year.
 
+## The taxable base
+
+The base follows the federal starting point with Illinois modifications; see Rates, bands and thresholds above and the archived IL-1040/IL-1120 instructions in Sources.
+
 ## Deadlines and filing
 
 - Quarterly contribution and wage reports (Form UI-3/40) due the last day of the month following each quarter (1/31, 4/30, 7/31, 10/31) — confirm current dates on the IDES filing page: **needs-sources**.
@@ -116,3 +120,17 @@ expected:
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Illinois payroll and UI questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

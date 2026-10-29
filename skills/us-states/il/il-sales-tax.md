@@ -185,6 +185,10 @@ The vendor discount compensates the retailer for collecting and remitting tax. I
 
 0. **Step 9** — Total tax - vendor discount + use tax = net tax due.
 
+## Penalties and interest
+
+Late filing and late payment attract Illinois Department of Revenue penalties and interest; specific published percentages: not yet confirmed.
+
 ## Cross-border points
 
 ### E-1: Origin-based sourcing

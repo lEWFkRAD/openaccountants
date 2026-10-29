@@ -47,6 +47,10 @@ Source-cited draft, run of 27 October 2026. Illinois reaches non-resident indivi
 | Pass-through attribution | gains/losses from S corps/partnerships attributable to Illinois if the entity is taxable in Illinois | IL-1120 instructions, read 2026-10-27 |
 | Credit for taxes paid to other states | available against IL tax per statute (mechanics **needs-sources**) | 35 ILCS 5/304(a) — **needs-sources** |
 
+## The taxable base
+
+The base follows the federal starting point with Illinois modifications; see Rates, bands and thresholds above and the archived IL-1040/IL-1120 instructions in Sources.
+
 ## Deadlines and filing
 
 - IL-1120 follows the federal due date (April 15 calendar-year; instructions read 2026-10-27).
@@ -116,3 +120,17 @@ expected:
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Illinois nexus and nonresident questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

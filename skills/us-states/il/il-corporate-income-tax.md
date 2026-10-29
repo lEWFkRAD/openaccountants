@@ -47,6 +47,10 @@ Source-cited draft, run of 27 October 2026. Illinois taxes corporations under th
 | Apportionment | single sales factor for most corporations; special formulas for sales/insurance/financial/transportation companies (Step 1 Line G); unitary groups use Schedule UB with the **Finnigan** method for tax years ending on/after 2025-12-31 | IL-1120 instructions, read 2026-10-27 |
 | Related-party expenses | Schedule 80/20 addback of interest/intangible expenses and service fees to related affiliates (with exemptions) | IL-1120 instructions, read 2026-10-27 |
 
+## The taxable base
+
+The base follows the federal starting point with Illinois modifications; see Rates, bands and thresholds above and the archived IL-1040/IL-1120 instructions in Sources.
+
 ## Deadlines and filing
 
 - **Return:** IL-1120 due on the same date as the federal return — 15th day of the 4th month after year close (April 15 for calendar-year filers); special rule for June-30 year-ends per instructions.
@@ -117,3 +121,17 @@ expected:
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Illinois corporate questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

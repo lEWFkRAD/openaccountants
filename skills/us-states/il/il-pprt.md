@@ -145,6 +145,10 @@ The General Assembly set higher PPRT on C-corporations to roughly match the orig
 
 - **Single-state apportionment** — For a business operating entirely within Illinois, the apportionment factor is 1.00 and 100% of base income is apportioned to Illinois. This is the default for many freelance and small-business clients — the apportionment analysis collapses to "all Illinois" and the only question is whether the business has any nonbusiness income to allocate (rare for service businesses).
 
+## Penalties and interest
+
+Late filing and late payment attract Illinois Department of Revenue penalties and interest; specific published percentages: not yet confirmed.
+
 ## Cross-border points
 
 ### 5.1 The Illinois 80% test

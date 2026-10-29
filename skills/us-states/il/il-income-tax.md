@@ -176,6 +176,10 @@ Common subtractions:
 
 - **Balance due/refund formula** — Tax after credits - withholding - estimated payments = balance due (if positive) or refund (if negative).  _(IL-1040 instr.)_
 
+## Penalties and interest
+
+Late filing and late payment attract Illinois Department of Revenue penalties and interest; specific published percentages: not yet confirmed.
+
 ## Cross-border points
 
 ### E-1: Bonus depreciation add-back and replacement

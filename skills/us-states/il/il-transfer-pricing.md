@@ -46,6 +46,10 @@ Source-cited draft, run of 27 October 2026. Illinois is a **mandatory combined-r
 | 80/20 addback | interest + intangible expenses + service fees paid to related affiliates added back; exemptions (e.g., unitary-group exception, conduit) per statute | instructions read 2026-10-27; exemption text **needs-sources** |
 | Documentation regime | none standalone | absence noted |
 
+## The taxable base
+
+The base follows the federal starting point with Illinois modifications; see Rates, bands and thresholds above and the archived IL-1040/IL-1120 instructions in Sources.
+
 ## Deadlines and filing
 
 - Schedule UB and Schedule 80/20 attach to the IL-1120 — same due dates as the return (15th day of 4th month; April 15 calendar-year).
@@ -112,3 +116,17 @@ expected:
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Illinois unitary/combined questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

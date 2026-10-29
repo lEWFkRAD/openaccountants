@@ -139,6 +139,10 @@ Illinois follows the same quarterly schedule as the IRS.
 
 0. **Step 8** — If income is not earned evenly throughout the year, the taxpayer may use the annualized income installment method (Form IL-2210, Step 6) to reduce early-quarter payments. This requires demonstrating that income was concentrated in later quarters.  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-2210-instr.pdf)_
 
+## Penalties and interest
+
+Late filing and late payment attract Illinois Department of Revenue penalties and interest; specific published percentages: not yet confirmed.
+
 ## Cross-border points
 
 ### E-1: Part-year residents

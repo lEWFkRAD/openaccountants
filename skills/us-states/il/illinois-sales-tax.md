@@ -193,6 +193,15 @@ New registrants start as monthly or quarterly filers. IDOR reviews accounts each
 - The State portion fell by 5% (from 6.25% to 1.25%) on qualifying clothing and footwear priced below $125 per item, and on qualifying school supplies (no price limit). Local taxes still applied.
 - The price test is after unreimbursed coupons and markdowns. Items sold as one unit (a pair of shoes) cannot be split. Claim the credit on Schedule K-12 with Form ST-1.
 
+## Penalties and interest
+
+Late filing and late payment attract Illinois Department of Revenue penalties and interest; specific published percentages: not yet confirmed.
+
+## Cross-border points
+
+- Illinois applies single-sales-factor apportionment (35 ILCS 5/304).
+- Out-of-state sellers meeting Illinois economic-nexus thresholds must register and collect Illinois sales tax (threshold figures: see Rates above).
+
 ## Worked examples
 
 Examples use the State rate only unless a combined rate is given. In practice, add the local rate from the Tax Rate Finder.
@@ -290,6 +299,12 @@ A late-filing or late-payment penalty may be abated for reasonable cause if you 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+See the archived IDOR bulletins and Form ST-1 instructions cited inline above; every figure ties to an archived IDOR source (see the sales-tax guide's Sources table).
+
+Not yet confirmed: local-rate tables beyond the archived FY 2026-12 bulletin.
 
 ## Talk to a verified accountant
 
