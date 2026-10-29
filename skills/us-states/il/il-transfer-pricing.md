@@ -30,7 +30,7 @@ depends_on:
 
 Source-cited draft, run of 27 October 2026. Illinois is a **mandatory combined-reporting** state: members of a unitary business group combine on Illinois Schedule UB (Combined Apportionment for Unitary Business Group). Related-party base erosion is policed by **Schedule 80/20** (addback of interest, intangible-expense, and service-fee payments to related affiliates, with statutory exemptions). Illinois has no separate transfer-pricing documentation statute. **Source status:** the IL-1120 instructions PDF (24 pages) was text-read 2026-10-27 — the unitary-filer mechanics, Schedule UB/80/20 references, and the **Finnigan** apportionment change effective for tax years ending on/after 2025-12-31 are read from that PDF. Statute-level text (35 ILCS 5 Art. III-bis unitary definitions; Art. IV 80/20) is JS-rendered on ILGA — **needs-sources** for definitional tests.
 
-## Who this applies to
+### Who this applies to
 
 - **Unitary business group members**: a group of corporations affiliated through common ownership and operating as a unitary business (income/loss combined on Schedule UB). The affiliation and unitarity tests sit in 35 ILCS 5 Art. III-bis — **needs-sources** for the current ownership-percentage and factor-based tests.
 - **Non-unitary filers** still face Schedule 80/20 addbacks on related-party payments (IL-1120 Step 1 Line M; instructions read 2026-10-27).

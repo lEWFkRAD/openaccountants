@@ -19,7 +19,7 @@ This skill covers employer payroll obligations under Illinois law for tax year 2
 
 The reviewer-oriented output for this skill is a payroll memo identifying every Illinois-specific obligation triggered by the employer's headcount, location, industry, and worker classification, with the dollar amounts and filing deadlines for each obligation in the 2025 plan year.
 
-## Verified rates & thresholds (accountant-reviewed)
+## Rates, bands and thresholds
 
 > Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
 > Items flagged for further clarification are tracked separately and excluded here.
@@ -81,7 +81,7 @@ The reviewer-oriented output for this skill is a payroll memo identifying every 
 - Agricultural employers — IL UI has a different wage base trigger; consult IDES Pub. 197 directly.
 - Domestic household employers — different IL UI threshold ($1,000/quarter); see federal Schedule H first.
 
-## Rates, bands and thresholds
+### Rates, bands and thresholds
 
 ### 2.1 Flat rate
 
@@ -164,7 +164,7 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 - **IL-W-3 reconciliation process** — The IL-W-3 (Annual Withholding Income Tax Return Reconciliation) is reconciled on the Q4 IL-941 (there is no separate IL-W-3 form for 2025 — the reconciliation is built into the fourth-quarter return and the W-2 transmittal). Employers must: 1. File the Q4 IL-941 by February 2, 2026. 2. Electronically file W-2 copies with IL via MyTax Illinois by January 31, 2026. 3. Electronically file 1099 copies with IL via MyTax Illinois by March 31, 2026 (only those with IL withholding or IL income). The W-2 totals must reconcile to the sum of the four IL-941s for the year. A mismatch generates a notice from IL DOR Compliance Division and triggers a desk audit.
 
-## 3. Illinois Unemployment Insurance (IL UI)
+## The taxable base
 
 ### 3.1 IDES administration and SUTA framework
 
@@ -211,7 +211,7 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 - **Voluntary contribution mechanics** — An employer may make a voluntary contribution under 820 ILCS 405/1500 to buy down its experience rate. The contribution must be made within 30 days of receiving the annual rate notice (typically mailed in late November or early December for the following calendar year). Voluntary contributions are most often economic when the rate would fall by at least one bracket relative to the cost.  _(820 ILCS 405/1500)_
 
-## 4. Illinois Secure Choice Savings Program
+## Deadlines and filing
 
 ### 4.1 Statutory framework
 
@@ -246,7 +246,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 - **Exemption registration process** — Employers that offer a qualified plan or otherwise do not meet the criteria must affirmatively register their exemption through the Illinois Secure Choice employer portal (employer.ilsecurechoice.com). Filing the exemption clears the employer from the enforcement workflow. Re-confirmation is required annually.
 
-## 5. Chicago Fair Workweek Ordinance
+## Penalties and interest
 
 ### 5.1 Coverage trigger
 
@@ -276,7 +276,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 - **Ordinance exclusions** — The ordinance does not apply to: - Employees covered by a collective bargaining agreement that explicitly waives the Fair Workweek provisions (and the waiver must be specific, not general). - Employees of city, state, or federal government. - Independent contractors properly classified under the ABC test (see Section 7).
 
-## 6. Cook County Paid Sick Leave and Illinois Paid Leave for All Workers Act
+## Cross-border points
 
 ### 6.1 Illinois Paid Leave for All Workers Act (statewide)
 
@@ -290,7 +290,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 - **Chicago combined paid leave rules** — Effective July 1, 2024 (delayed from December 31, 2023 by the Chicago City Council), the Chicago ordinance now provides: - **40 hours of paid sick leave** per year (uses similar to Cook County). - **40 hours of paid leave for any reason** per year (similar to PLAWA). - Together, 80 hours of paid leave per year for Chicago employees. Payout at termination is required for the paid-leave-for-any-reason portion (40 hours) for employers with 51+ employees. The paid sick leave portion is not paid out. > AUDIT FLASH POINT — The Chicago ordinance is the most generous in Illinois. Employers with mixed Chicago / non-Chicago Illinois employees must track location of work weekly and apply the correct ordinance. The "majority of work performed in Chicago" test does not apply — it is per-hour. A Cook County employee who occasionally works in Chicago accrues at the Chicago rate for those hours.  _(MCC § 1-24)_
 
-## 7. Worker Classification
+### Cross-border points
 
 ### 7.1 Illinois UI Act ABC test
 
@@ -304,7 +304,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 - **No de minimis rule** — Illinois does not have a "30-day" or "60-day" de minimis non-resident withholding rule. Withholding is required from the first day a non-resident (non-reciprocity-state) employee works in Illinois unless the IL-W-5-NR is on file (and only IA, KY, MI, WI residents may file IL-W-5-NR).
 
-## 8. Final Pay and Other Wage Standards
+### Cross-border points
 
 ### 8.1 Final pay timing
 
@@ -423,7 +423,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 5. **Reviewer note**: Document the ABC analysis contemporaneously for every contractor engagement going forward. The cost of getting this wrong in Illinois is among the highest in the country because of the layered Construction Act penalty regime stacked on top of UI and PIT assessments.
 
-## 10. Quick Reference Table — 2025 Illinois Payroll
+## Ask the client first
 
 **Quick reference table**
 

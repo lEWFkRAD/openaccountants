@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Illinois Personal Property Replacement Tax under 35 ILCS 5/201(c) and (d): 2.5% on C-corporations (and S-corps for the corporate-level PPRT shell) and 1.5% on partnerships, trusts, and S-corporations, computed on net income allocated and apportioned to Illinois using a single sales factor with market-based sourcing. Sole proprietorships are exempt; LLCs follow their federal classification. Owners of pass-through entities can claim a partial credit against Illinois personal income tax. Interacts with the optional Illinois Pass-Through Entity (PTE) tax election at 4.95%. Tax year 2025.
 
-## Verified rates & thresholds (accountant-reviewed)
+## Rates, bands and thresholds
 
 Reviewed against the cited tax authorities by a licensed accountant on 2026-06-03. Items flagged for further clarification are tracked separately and excluded here. This block is generated from verified `skill_facts` — edit the facts, not the prose.
 
@@ -40,7 +40,7 @@ Reviewed against the cited tax authorities by a licensed accountant on 2026-06-0
 - **Claimed by** — True for the PTE-tax credit (claimed on IL-1040 via Schedule K-1-P), but it does NOT apply to PPRT - see row 20.  _(35 ILCS 5/224; Pub-129.)_
 - **IL CIT rate** — 7.0% corporate income tax (combined with 2.5% PPRT = 9.5%)  _(35 ILCS 5/201(b); 2025 IL-1120 (net income x 7.0%).)_
 
-## 1. Scope and history
+## Who this applies to
 
 ### 1.1 Why PPRT exists
 
@@ -72,7 +72,7 @@ This skill is a Tier 2 content skill covering:
 - Illinois replacement tax investment credit under 35 ILCS 5/201(e), which is a niche credit for manufacturing investment.
 - Withholding on nonresident partners under 35 ILCS 5/709.5 — flagged but not computed.
 
-## Rates, bands and thresholds
+### Rates, bands and thresholds
 
 ### 2.1 Statutory rate table
 
@@ -127,7 +127,7 @@ The General Assembly set higher PPRT on C-corporations to roughly match the orig
 
 - **NOL rules** — Illinois NOLs can offset both the PPRT and CIT base. The NOL rules are the same as for CIT: - For tax years ending on or after December 31, 2021, Illinois NOL carryforwards are limited to $100,000 per year (Public Act 102-0016, as extended). This cap remains in effect for tax year 2025 — verify the General Assembly has not lifted it. (As of last verification, the cap was extended through 2024 by P.A. 103-0009 and the 2025 status should be verified with the current Schedule NLD instructions.) - Illinois NOLs carry forward 12 years for losses arising in tax years ending on or after December 31, 2003 (35 ILCS 5/207). - No carryback is permitted for Illinois corporate NOLs. - An NOL is determined on a separate-company basis even within a unitary group — Illinois does not pool losses across the combined group except as specifically allowed by the Schedule UB instructions. The $100,000 cap on NOL utilization applies to the combined CIT + PPRT base — there is not a separate NOL pool for PPRT.  _(Public Act 102-0016; P.A. 103-0009; 35 ILCS 5/207)_
 
-## 4. Apportionment: single sales factor, market sourcing
+### The taxable base
 
 ### 4.1 Single sales factor (effective 2017+)
 
@@ -145,7 +145,7 @@ The General Assembly set higher PPRT on C-corporations to roughly match the orig
 
 - **Single-state apportionment** — For a business operating entirely within Illinois, the apportionment factor is 1.00 and 100% of base income is apportioned to Illinois. This is the default for many freelance and small-business clients — the apportionment analysis collapses to "all Illinois" and the only question is whether the business has any nonbusiness income to allocate (rare for service businesses).
 
-## 5. Combined reporting
+## Cross-border points
 
 ### 5.1 The Illinois 80% test
 
@@ -184,7 +184,7 @@ For most freelance and small-business clients, combined reporting is not applica
 
 - **Electronic filing mandate** — Illinois mandates electronic filing for all corporations, S-corporations, and partnerships unless a hardship waiver is granted. Paper filing is generally not accepted for these entity types. The MeF (Modernized e-File) system handles IL-1120, IL-1120-ST, and IL-1065 submissions.
 
-## 7. Estimated tax payments
+### Deadlines and filing
 
 ### 7.1 Threshold for required estimated payments
 
@@ -221,7 +221,7 @@ Payments are made with Form IL-1120-V (corporate) or IL-1120-ST-V / IL-1065-V (p
 
 - **PTE estimated payments** — If a partnership or S-corp elects the PTE tax (see §9), it must make separate estimated payments for the PTE tax in addition to PPRT estimated payments. The PTE estimated payments use the same 25/25/25/25 schedule and the same $400 threshold (applied to PTE tax alone for this purpose). PTE and PPRT are computed and paid on the same return but the estimated payment vouchers are separate (IL-1120-ST-V serves both purposes by code).
 
-## 8. Owner-level credit for PPRT
+### Cross-border points
 
 ### 8.1 The §201(p) credit
 
@@ -239,7 +239,7 @@ Payments are made with Form IL-1120-V (corporate) or IL-1120-ST-V / IL-1065-V (p
 
 - **Trust beneficiary credit** — Beneficiaries of trusts that pay PPRT receive a K-1-T showing their share of trust PPRT. The 6.5% §201(p) credit applies on the same basis as for partners and shareholders, but only to the extent the beneficiary received a distribution carrying out the trust's distributable net income (DNI) that included Illinois-source income.  _(35 ILCS 5/201(p))_
 
-## Cross-border points
+### Cross-border points
 
 ### 9.1 Background — Public Act 102-0658
 

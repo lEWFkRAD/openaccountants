@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Illinois Sales Tax (Form ST-1) v1.0
 
-## Verified rates & thresholds (accountant-reviewed)
+## Rates, bands and thresholds
 
 Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
 Items flagged for further clarification are tracked separately and excluded here.
@@ -48,7 +48,7 @@ This block is generated from verified `skill_facts` — edit the facts, not the 
 - **Qualifying food** — Qualifying food excludes prepared food, candy, soft drinks, and alcohol (general rate)  _(86 Ill. Admin. Code 130.310; IDOR PIO-115.)_
 - **E-filing** — IL generally mandates electronic ST-1 filing for most retailers (waiver via Form IL-900-EW). The $200 figure is the monthly-vs-quarterly filing-frequency threshold, not an e-file trigger.  _(ST-1 instr.; 86 Ill. Admin. Code 130.)_
 
-## What this file is
+## Who this applies to
 
 **Obligation category:** CT (Consumption Tax)
 **Functional role:** Return preparation
@@ -56,7 +56,7 @@ This block is generated from verified `skill_facts` — edit the facts, not the 
 
 This is a Tier 2 content skill for preparing the Illinois Form ST-1 (Sales and Use Tax and E911 Surcharge Return). Illinois has a unique four-tax structure for sales/use taxes, and this skill covers all four taxes as they appear on the combined ST-1 return.
 
-## Section 1 -- Scope statement
+### Who this applies to
 
 **In scope:**
 
@@ -98,7 +98,7 @@ This is a Tier 2 content skill for preparing the Illinois Form ST-1 (Sales and U
 
 - **Electronic filing** — Required for all taxpayers whose average monthly liability is $200 or more.  _(35 ILCS 120/3.)_
 
-## Rates, bands and thresholds
+### Rates, bands and thresholds
 
 ### The four-tax structure
 
@@ -147,7 +147,7 @@ Illinois is origin-based for most transactions. The rate is determined by the se
 
 The vendor discount compensates the retailer for collecting and remitting tax. It applies only to the state portion of the tax and only if the return is filed and paid on time.
 
-## Section 4 -- Computation rules (Step format)
+## The taxable base
 
 ### Step 1: Determine the applicable tax
 
@@ -185,7 +185,7 @@ The vendor discount compensates the retailer for collecting and remitting tax. I
 
 0. **Step 9** — Total tax - vendor discount + use tax = net tax due.
 
-## Section 5 -- Edge cases and special rules
+## Cross-border points
 
 ### E-1: Origin-based sourcing
 
@@ -251,7 +251,7 @@ The vendor discount compensates the retailer for collecting and remitting tax. I
 - **P-5:** Do NOT claim vendor discount on a late-filed return.
 - **P-6:** Do NOT assume all food is taxed at the reduced rate. Prepared food, candy, and soft drinks are taxed at the general rate.
 
-## Section 8 -- Self-checks
+## Sources
 
 Before delivering output, verify:
 
@@ -264,7 +264,7 @@ Before delivering output, verify:
 - [ ] Zero return filed if no activity
 - [ ] Interstate sales properly excluded with documentation
 
-## Section 9 -- Disclaimer
+## Talk to a verified accountant
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
@@ -274,7 +274,7 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current

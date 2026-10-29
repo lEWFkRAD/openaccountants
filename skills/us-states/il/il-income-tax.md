@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Illinois IL-1040 Individual Return v1.0
 
-## Verified rates & thresholds (accountant-reviewed)
+## Rates, bands and thresholds
 
 > Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
 > Items flagged for further clarification are tracked separately and excluded here.
@@ -50,7 +50,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Extension** — IL grants an automatic 6-month extension to ALL filers regardless of any federal extension (no IL form). A federal extension only matters if more than 6 months is needed. The 'with federal extension' condition is wrong.  _(2025 IL-1040 instr., 'When is my return due / Automatic extension.')_
 - **Residency test** — IL determines residency by domicile and presence for other than a temporary or transitory purpose. IL has no 'place of abode + day-count' statutory-residency test (that is a NY/CA-style test).  _(35 ILCS 5/1501(a)(20); 86 Ill. Admin. Code 100.3020.)_
 
-## What this file is
+## Who this applies to
 
 **Obligation category:** IT (Income Tax)
 **Functional role:** Return assembly
@@ -58,7 +58,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 This is a Tier 2 content skill for preparing the Illinois Form IL-1040 for a full-year Illinois resident who is a sole proprietor or single-member LLC owner. Illinois imposes a flat 4.95% income tax rate, starting from federal adjusted gross income (AGI) and applying Illinois-specific modifications.
 
-## Section 1 -- Scope statement
+### Who this applies to
 
 **In scope:**
 
@@ -97,7 +97,7 @@ This is a Tier 2 content skill for preparing the Illinois Form IL-1040 for a ful
 
 - **Automatic extension detail** — Illinois automatically grants a 6-month extension if the taxpayer has a federal extension. No separate Illinois extension form is required. However, estimated tax payments are still due by April 15.  _(35 ILCS 5/505(b))_
 
-## Rates, bands and thresholds
+### Rates, bands and thresholds
 
 **Rates and thresholds table**  _(see rows)_
 
@@ -113,7 +113,7 @@ This is a Tier 2 content skill for preparing the Illinois Form IL-1040 for a ful
 
 - **Note on personal exemption** — Illinois does NOT have a standard deduction or itemized deductions at the state level. The personal exemption is the only below-the-line deduction.  _(35 ILCS 5/204)_
 
-## Section 4 -- Computation rules (Step format)
+## The taxable base
 
 ### Step 1: Start with federal AGI (Line 1)
 
@@ -176,7 +176,7 @@ Common subtractions:
 
 - **Balance due/refund formula** — Tax after credits - withholding - estimated payments = balance due (if positive) or refund (if negative).  _(IL-1040 instr.)_
 
-## Section 5 -- Edge cases and special rules
+## Cross-border points
 
 ### E-1: Bonus depreciation add-back and replacement
 
@@ -239,7 +239,7 @@ Common subtractions:
 - **P-5:** Do NOT file a separate Illinois extension form if the taxpayer has a federal extension.
 - **P-6:** Do NOT use graduated brackets. Illinois has a flat 4.95% rate.
 
-## Section 8 -- Self-checks
+## Sources
 
 Before delivering output, verify:
 
@@ -254,7 +254,7 @@ Before delivering output, verify:
 - [ ] Net loss limitation of $100,000 checked
 - [ ] Reviewer brief includes all positions and flags
 
-## Section 9 -- Disclaimer
+## Talk to a verified accountant
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
@@ -264,7 +264,7 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current

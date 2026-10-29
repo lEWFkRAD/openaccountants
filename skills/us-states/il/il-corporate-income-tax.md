@@ -30,7 +30,7 @@ depends_on:
 
 Source-cited draft, run of 27 October 2026. Illinois taxes corporations under the Income Tax Act (35 ILCS 5) with a two-component levy on the same base: a **7.0% income tax** and a **2.5% replacement tax**, both computed on Illinois net income after apportionment — a combined 9.5% effective rate. **Source status:** Form IL-1120 (R-12/25, for tax years ending on/after 2025-12-31 and before 2026-12-31 — i.e., the 2026 calendar-year return) and its 24-page instructions PDF were downloaded and text-read 2026-10-27 from tax.illinois.gov; the rate lines ("Multiply Line 39 by 7.0%", "Multiply Line 39 by 2.5%", estimated worksheet "9.5 percent") are read directly from those PDFs. The ILCS section pages render via JavaScript and did not yield text this run — statutory cites carry **needs-sources** for section-level text.
 
-## Who this applies to
+### Who this applies to
 
 - Corporations (including foreign insurers, cooperatives under IRC 1381, settlement funds under IRC 468B, and political organizations filing federal 1120-POL/1120-H per the instructions) that (per the IL-1120 instructions): do business in Illinois, derive income from Illinois sources, **or** are qualified to do business in Illinois and required to file a federal return — regardless of net income or loss.
 - Unitary business group members file combined apportionment on Illinois Schedule UB (box "Unitary Filer" on IL-1120 Step 1 Line E).

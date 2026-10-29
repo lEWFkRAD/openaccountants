@@ -30,7 +30,7 @@ depends_on:
 
 Source-cited draft, run of 27 October 2026. Illinois employer social contributions are: IDES unemployment insurance (contribution) tax under the Unemployment Insurance Act (820 ILCS 405), mandatory workers' compensation insurance, and federal FICA — Illinois has **no** state disability insurance, **no** paid family/medical leave contribution, and **no** state retirement mandate for private employers. **Source status:** the IDES historical rate chart PDF (`UI_tax_rates_2026.pdf`) was downloaded and text-read 2026-10-27 from ides.illinois.gov — the 2026 wage base, rate floors/ceilings, standard rate, small-employer rate, and minimum penalty below are read directly from that PDF. The statute page (820 ILCS 405) renders via JavaScript — section-level cites **needs-sources**.
 
-## Who this applies to
+### Who this applies to
 
 - Employers covered under 820 ILCS 405 (general tests: payroll above statutory thresholds in 20 or more weeks, or one or more employees in each of 20 weeks — exact current test text: **needs-sources**). Out-of-state employers with Illinois employees are covered on the same basis.
 - The contribution is **employer-only** — Illinois employees pay no state UI tax.

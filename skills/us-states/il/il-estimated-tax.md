@@ -20,7 +20,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Illinois Estimated Tax (IL-1040-ES) v1.0
 
-## Verified rates & thresholds (accountant-reviewed)
+## Rates, bands and thresholds
 
 > Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
 > Items flagged for further clarification are tracked separately and excluded here.
@@ -45,7 +45,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Income tax exemption** — $2,850 (S) / $5,700 (MFJ)  _(IDOR FY2025-16.)_
 - **VERIFY** — They do NOT differ: both IL-1040 and IL-1040-ES use $2,850 (S) / $5,700 (MFJ) for 2025. The $2,625/$5,250 figures in rows 8-9 and 19 are erroneous (older amounts).  _(IDOR FY2025-16.)_
 
-## What this file is
+## Who this applies to
 
 **Obligation category:** ET (Estimated Tax)
 **Functional role:** Computation
@@ -53,7 +53,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 This is a Tier 2 content skill for computing quarterly estimated Illinois income tax payments for sole proprietors and single-member LLCs. Illinois imposes a flat 4.95% income tax rate with no brackets, which simplifies the estimated tax computation relative to graduated-rate states.
 
-## Section 1 -- Scope statement
+### Who this applies to
 
 **In scope:**
 
@@ -90,7 +90,7 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 
 Illinois follows the same quarterly schedule as the IRS.
 
-## Rates, bands and thresholds
+### Rates, bands and thresholds
 
 **Rates and thresholds**  _([35 ILCS 5/201(b)(5.4); 35 ILCS 5/803(a); 35 ILCS 5/204 (2025); 35 ILCS 5/804; 35 ILCS 5/804(c)](https://taxarchive.illinois.gov/content/dam/soi/en/web/taxarchive/forms/income-tax/2024/individual/il-1040-es.pdf))_
 
@@ -105,7 +105,7 @@ Illinois follows the same quarterly schedule as the IRS.
 
 **Note:** Illinois does NOT have a 110% prior-year safe harbour for high-income taxpayers as the IRS does. The prior-year safe harbour is always 100%.
 
-## Section 4 -- Computation rules (Step format)
+## The taxable base
 
 ### Step 1: Estimate current year Illinois taxable income
 
@@ -139,7 +139,7 @@ Illinois follows the same quarterly schedule as the IRS.
 
 0. **Step 8** — If income is not earned evenly throughout the year, the taxpayer may use the annualized income installment method (Form IL-2210, Step 6) to reduce early-quarter payments. This requires demonstrating that income was concentrated in later quarters.  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-2210-instr.pdf)_
 
-## Section 5 -- Edge cases and special rules
+## Cross-border points
 
 ### E-1: Part-year residents
 
@@ -199,7 +199,7 @@ Illinois follows the same quarterly schedule as the IRS.
 - **P-3:** Do NOT skip estimated payments because the taxpayer expects a large 4th quarter adjustment. Each quarter's payment is independently required.
 - **P-4:** Do NOT advise on penalty abatement requests. That is a procedural matter outside this skill's scope.
 
-## Section 8 -- Self-checks
+## Sources
 
 Before delivering output, verify:
 
@@ -213,7 +213,7 @@ Before delivering output, verify:
 - [ ] Property tax credit at 5% included if applicable
 - [ ] Quarterly payments divided evenly (25% each)
 
-## Section 9 -- Disclaimer
+## Talk to a verified accountant
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
@@ -223,7 +223,7 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
