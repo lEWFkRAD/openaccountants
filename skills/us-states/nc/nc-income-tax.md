@@ -19,6 +19,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 >
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing.
 
+## Who this applies to
+
 ## Section 1: Metadata
 
 **Metadata table**
@@ -42,6 +44,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - NCDOR, Tax Rate Schedules: https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules
 - NCDOR, 2025 D-401 Individual Income Tax Instructions: https://www.ncdor.gov/2025-d-401-individual-income-tax-instructions/open
 - Session Law 2023-134 (rate schedule for future years)
+
+## Rates, bands and thresholds
 
 ## Section 2: Quick reference — rates and thresholds
 
@@ -86,6 +90,8 @@ NC does not have personal exemptions — the child deduction is the only per-dep
 ### Local income tax
 
 - **Local income tax permitted** — North Carolina does not permit local income taxes.
+
+## The taxable base
 
 ## Section 3: How this skill works with the federal return
 
@@ -148,6 +154,16 @@ Form NC-40 is used for estimated tax payments.
 
 - **NC Section 179 limits** — $25,000 expense limitation and $200,000 investment limitation
 - **Section 179 excess add-back** — NC did not conform to the increased federal expense deduction or investment limitations for TY 2025. Enter 85% of the difference between the §179 deduction using federal limitations and the deduction using NC limitations on Schedule S Line 4; 20%/year deduction of the add-back over the first five taxable years beginning TY 2026. _(NCDOR 2025 D-401 Instructions, archived: "NC dollar and investment limitations are $25,000 and $200,000, respectively. You must add 85% of the difference between the IRC section 179 expense deduction using federal limitations and the deduction using NC limitations.")_
+
+## Deadlines and filing
+
+## Penalties and interest
+
+## Cross-border points
+
+## Worked examples
+
+## Ask the client first
 
 ## Section 5: Tier 1 rules — deterministic
 
@@ -218,6 +234,20 @@ Form NC-40 is used for estimated tax payments.
 | R-NC-03 | Estate or trust return | "NC fiduciary returns (Form D-407) are not covered by this skill." |
 | R-NC-04 | Amended return | "NC amended returns (Form D-400X Amended) are not covered." |
 | R-NC-05 | Pass-through entity tax | "NC PTET elections are not covered by this skill." |
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| N.C.G.S. § 105-153.7 (flat rate; phase-down schedule) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html | 2026-10-29 |
+| N.C.G.S. § 105-153.5 (standard deduction) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.5.html | 2026-10-29 |
+| N.C.G.S. § 105-153.8 (who must file) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.8.html | 2026-10-29 |
+| N.C.G.S. § 105-153.2 (purpose/sourcing) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.2.html | 2026-10-29 |
+| N.C.G.S. § 105-153.6 (tax computed; credits) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.6.html | 2026-10-29 |
+| NCDOR 2025 D-401 individual income tax instructions | https://www.ncdor.gov/2025-d-401-individual-income-tax-instructions/open | 2026-10-29 |
+| NCDOR home | https://www.ncdor.gov | 2026-10-29 |
+
+Not yet confirmed: 2026 indexed standard deduction and child deduction amounts (D-400 instructions not archived); whether NC conforms to current federal §179/bonus-depreciation limits for 2026.
 
 ## Disclaimer
 

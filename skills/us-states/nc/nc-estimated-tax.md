@@ -21,6 +21,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 >
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing. Items flagged `[VERIFY:]` require independent confirmation against current NCDOR guidance.
 
+## Who this applies to
+
 ## Section 1: Metadata
 
 **Metadata table**
@@ -50,6 +52,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - NCDOR, Interest Overview: https://www.ncdor.gov/taxes-forms/policies/penalties-and-interest/interest-overview
 - Session Law 2023-134 (rate phase-down schedule)
 - N.C. Gen. Stat. § 105-163.15
+
+## Rates, bands and thresholds
 
 ## Section 2: Quick reference
 
@@ -108,6 +112,8 @@ NC's archived NC-40 instructions do NOT contain a federal-style 110%/AGI>$150,00
 | NCDOR e-Services (online) | https://eservices.dor.nc.gov — free; bank draft (eCheck) or credit card (convenience fee applies) |
 | Paper check + NC-40 voucher | Mail to NCDOR, PO Box 25000, Raleigh, NC 27640-0630 |
 | Approved tax software | TurboTax, Drake, ProSeries, etc. — submits via NCDOR API |
+
+## The taxable base
 
 ## Section 3: Threshold determination — when MUST you make estimates
 
@@ -267,6 +273,8 @@ Used when income is lumpy or seasonal — large Q3 or Q4 capital gain, freelance
 
 `[VERIFY:]` These hypothetical-example numbers approximate the mechanics; an actual return uses D-422A line by line with the precise NC AGI, NC standard deduction (annualized), and child deduction (annualized). Run the worksheet against the live taxpayer facts before relying on figures.
 
+## Deadlines and filing
+
 ## Section 7: Form NC-40 vouchers — line by line
 
 ### Voucher anatomy
@@ -303,6 +311,8 @@ Form NC-40 is a single page producing four detachable vouchers (each labeled wit
 ### Extension to file is NOT extension to pay
 
 - **Extension does not extend payment deadline** — A federal Form 4868 or NC application for extension extends the filing deadline (D-400 to October 15) but does NOT extend the payment deadline. The Q4 installment due January 15 and any balance due April 15 still accrues interest from the original due date.  _(NCDOR "Extensions" page; G.S. § 105-263)_
+
+## Penalties and interest
 
 ## Section 8: Form D-422 — underpayment penalty mechanics
 
@@ -373,6 +383,8 @@ Form D-422 computes interest on underpayments installment by installment. It is 
 
 Most major software (TurboTax, Drake, ProSeries, UltraTax, Lacerte) can submit NC estimated payments via NCDOR's API, generating a confirmation number. Confirm the payment reflects on the e-Services account after 3–5 business days.
 
+## Cross-border points
+
 ## Section 10: Coordination with federal Form 1040-ES
 
 NC quarterly due dates mirror federal Form 1040-ES exactly — April 15, June 15, September 15, January 15. This permits a single quarterly workflow:
@@ -437,6 +449,8 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | NC-EST-T2-06 | **PTET election by partnership / S-corp** | If the entity elected NC PTET, the owner's share of NC tax paid by the entity reduces the owner's NC liability — may eliminate the owner's need for personal estimates. Confirm entity actually paid PTET timely. |
 | NC-EST-T2-07 | **Retirement during year (age 62+)** | Penalty waiver may apply under G.S. § 105-163.15(e) for the year of retirement and the following year. File written waiver request. |
 | NC-EST-T2-08 | **Bonus / withholding adjustment via W-4** | Increasing withholding late in the year is treated as paid **evenly across all four periods** by default — this can retroactively cure earlier underpayments. Useful tool when an underpayment is identified late. |
+
+## Worked examples
 
 ## Section 13: Worked examples
 
@@ -531,6 +545,8 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 **Alternative — increase Spouse A's W-2 withholding:** If Spouse A files a new NC-4 to add ~$300/month extra NC withholding ($3,600 annual), total withholding rises to $10,800 → covers 90% safe harbor without any NC-40 payments. Withholding is deemed paid evenly across the year, so this also retroactively cures any Q1/Q2 shortfall. This is the cleanest fix for W-2 dominated households.
 
+## Ask the client first
+
 ## Section 14: Refusal catalogue
 
 - **R-NC-EST-01** — Estate or trust estimated tax  _("NC fiduciary estimated tax (Form NC-EST or D-407 quarterly) is outside this skill's scope. Refer to NCDOR D-407 instructions.")_
@@ -577,36 +593,20 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | Middle | Annualization factor & annualized NC tax |
 | Bottom | Applicable percentage × annualized tax → annualized installment |
 
-## Section 16: Provenance + sources
+## Sources
 
-### Primary statutory sources
+| Source | URL | Read on |
+|---|---|---|
+| N.C.G.S. § 105-163.15 (estimated installments; underpayment interest) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-163.15.html | 2026-10-29 |
+| N.C.G.S. § 105-241.21 (interest on taxes) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-241.21.html | 2026-10-29 |
+| N.C.G.S. § 105-263 (timely filing of mail and extension) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-263.html | 2026-10-29 |
+| N.C.G.S. § 105-153.7 (flat rate phase-down schedule) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.7.html | 2026-10-29 |
+| NCDOR 2025 Form NC-40 individual estimated income tax | https://www.ncdor.gov/2025-nc-40-individual-estimated-income-tax/open | 2026-10-29 |
+| NC e-Services NC-40 voucher page | https://eservices.dor.nc.gov/vouchers/nc40.jsp | 2026-10-29 |
+| IRS Direct Pay | https://www.irs.gov/payments/direct-pay-with-bank-account | 2026-10-29 |
+| EFTPS | https://www.eftps.gov/eftps/ | 2026-10-29 |
 
-- **N.C. Gen. Stat. § 105-163.15** — Failure by individual to pay estimated income tax; interest
-- **N.C. Gen. Stat. § 105-241.21** — Interest on taxes
-- **N.C. Gen. Stat. § 105-263** — Timely filing of mail and extension
-- **Session Law 2023-134** (2023 Appropriations Act, Part XLII) — flat rate phase-down schedule
-
-### Primary administrative sources
-
-- NCDOR, Estimated Income Tax page (https://www.ncdor.gov/taxes-forms/individual-income-tax/estimated-income-tax)
-- NCDOR, 2025 Form NC-40 + instructions (https://www.ncdor.gov/2025-nc-40-individual-estimated-income-tax/open)
-- NCDOR, 2025 Form D-422 + instructions (https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions/2025-form-d-422-underpayment-estimated-tax-individuals)
-- NCDOR, Form D-422A Annualized Income Installment Worksheet
-- NCDOR, Interest Rate Memorandum Jan–Jun 2026 (https://www.ncdor.gov/interest-rate-memo-jan-jun-2026pdf/open)
-- NCDOR, Interest Overview (https://www.ncdor.gov/taxes-forms/policies/penalties-and-interest/interest-overview)
-- NCDOR, e-Services portal (https://eservices.dor.nc.gov)
-
-### Items flagged for verification
-
-**Items flagged for verification table**
-
-| `[VERIFY:]` item | Reason |
-| --- | --- |
-| 110% prior-year safe harbor for AGI > $150,000 (MFS > $75,000) | Mirrors federal § 6654(d); confirmed by practitioner summaries but read NCDOR's annual NC-40 instructions for explicit codification |
-| 2028+ rate schedule (final phase-down to 2.49% by 2030) | Subject to legislative change; revenue triggers may delay |
-| 7-day grace rule on installment payments | Practitioner convention; confirm against current D-422 instructions |
-| Specific D-422 line numbers and exact column placement | Confirmed by structure (Part I 1–8, Part II 9–14, Part III installment columns) but verify against current-year PDF before populating |
-| First-year filer carve-out | Mirrors federal § 6654(d)(1)(B); confirm NCDOR statutory text |
+Not yet confirmed: 110% prior-year safe harbor for AGI over $150,000 (MFS over $75,000) — mirrors federal § 6654(d), NCDOR codification not read; 2028+ rate schedule (final phase-down to 2.49% by 2030) subject to legislative change; 7-day grace rule on installment payments (practitioner convention); specific D-422 line numbers and exact column placement; first-year filer carve-out (mirrors federal § 6654(d)(1)(B)); NCDOR Interest Rate Memorandum Jan–Jun 2026 and Interest Overview pages (not archived).
 
 ## Disclaimer
 
