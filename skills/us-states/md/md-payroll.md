@@ -363,6 +363,13 @@ Before delivering a Maryland payroll computation or compliance memo to a reviewe
 
 ## Sources
 
+| Source | URL | Read on |
+| --- | --- | --- |
+| Md. Code, Tax-General § 10-105 (rate schedules) | https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false | 2026-10-28 |
+| Md. Code, Tax-General § 10-106 (county income tax) | https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false | 2026-10-28 |
+| Md. Code, Tax-General § 10-301 (taxable-year definitions) | https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-301&enactments=false | 2026-10-28 |
+| Md. Code, Tax-General § 11-203 (credit for tax paid to other states) | https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gti&section=11-203&enactments=false | 2026-10-28 |
+
 Not yet confirmed: the 2025 bracket table, county rate table, SUI wage base and rates, and penalty percentages — no machine-readable archive of the Comptroller booklets was captured this run; statute text (mgaleg) is archived.
 
 
