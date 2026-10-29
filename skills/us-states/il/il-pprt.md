@@ -273,7 +273,7 @@ For most freelance and small-business clients, combined reporting is not applica
 
 ## Worked examples
 
-### 10.1 Example 1 — Illinois C-corporation with all-Illinois income
+### Worked example 1 — Illinois C-corporation with all-Illinois income
 
 ABC Software, Inc., a Delaware-incorporated C-corp with commercial domicile and all operations in Illinois.
 - Federal taxable income (Form 1120, Line 30): $500,000.
@@ -301,7 +301,7 @@ ABC Software, Inc., a Delaware-incorporated C-corp with commercial domicile and 
 
 Effective Illinois tax rate on $500,000 of income: 9.48% (the statutory combined 9.5% rate, slightly less because of the $1,000 exemption).
 
-### 10.2 Example 2 — Illinois S-corporation, single shareholder, no PTE election
+### Worked example 2 — Illinois S-corporation, single shareholder, no PTE election
 
 XYZ Consulting, Inc., a Delaware S-corp with commercial domicile in Illinois, owned 100% by Maria, an Illinois resident.
 - Federal ordinary income (Form 1120-S, Line 21): $200,000.
@@ -344,7 +344,7 @@ XYZ Consulting, Inc., a Delaware S-corp with commercial domicile in Illinois, ow
 | **Total** | **$16,651** |
 | Effective rate on $280,000 | **5.95%** |
 
-### 10.3 Example 3 — Same facts as Example 2, but with PTE election
+### Worked example 3 — Same facts as Example 2, but with PTE election
 
 Same as Example 2 except XYZ elects the PTE tax for 2025.
 
@@ -387,7 +387,7 @@ Note that the *Illinois* total is identical to Example 2 — the PTE election do
 - Maria's federal K-1 ordinary income falls from $200,000 to $190,149, saving federal tax of $9,851 × marginal federal rate.
 - At a 24% federal marginal rate, that's approximately **$2,364 of federal tax savings** from electing PTE — pure benefit with no Illinois cost.
 
-### 10.4 Example 4 — Illinois sole proprietor (no PPRT, for comparison)
+### Worked example 4 — Illinois sole proprietor (no PPRT, for comparison)
 
 Same Maria, but operating as a Schedule C sole proprietor (no S-corp), all in Illinois.
 - Net Schedule C profit: $280,000.
@@ -406,7 +406,7 @@ Same Maria, but operating as a Schedule C sole proprietor (no S-corp), all in Il
 
 Compared to Example 2 (S-corp without PTE election, $16,651 Illinois tax), the sole proprietor saves $2,791 of Illinois tax by avoiding PPRT entirely. This is the Illinois-side cost of an S-corp election that must be weighed against the federal SE tax savings in the `us-s-corp-election-decision` analysis.
 
-### 10.5 Example 5 — Multi-state partnership
+### Worked example 5 — Multi-state partnership
 
 DEF Partners LLP, a multi-state partnership.
 - Federal ordinary income: $1,000,000.
@@ -444,7 +444,7 @@ Each partner's distributive share of PPRT (50/50 split):
 - §201(p) credit: 6.5% × $2,243 = $146
 - Bob's IL-1040 net: $7,279
 
-### 10.6 Example 6 — C-corp vs S-corp head-to-head
+### Worked example 6 — C-corp vs S-corp head-to-head
 
 A $500,000 net-income business, all Illinois operations, owner takes all profit out as distributions/dividends.
 - Owner is an Illinois resident in the top federal bracket.

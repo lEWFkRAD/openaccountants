@@ -40,17 +40,17 @@ Source-cited draft, run of 27 October 2026. Illinois employer social contributio
 
 | Item | 2026 amount | Source |
 |---|---|---|
-| Taxable wage base | **$14,250** per employee | IDES UI_tax_rates_2026.pdf, read 2026-10-27 |
-| Minimum contribution rate | **0.750%** (includes Fund Builder) | same PDF |
-| Maximum contribution rate | **7.050%** (includes Fund Builder) | same PDF |
-| Standard (ineligible) rate | **3.350%** | same PDF |
-| Fund Builder component | **0.550%** (embedded in all rates above) | same PDF |
-| Small-employer rate (gross wages < $50,000) | **5.4%** flat | same PDF |
-| Minimum penalty | **$50** | same PDF |
+| Taxable wage base | **$14,250** per employee | IDES 2026 rate chart (archived: sources/US-IL-ides-ui-rates-2026.pdf, WAGE BASE row: 14,250), read 2026-10-27 |
+| Minimum contribution rate | **0.750%** (includes Fund Builder) | archived IDES 2026 rate chart, MINIMUM row: 0.750% |
+| Maximum contribution rate | **7.050%** (includes Fund Builder) | archived IDES 2026 rate chart, MAXIMUM row: 7.050% |
+| Standard (ineligible) rate | **3.350%** | archived IDES 2026 rate chart, STANDARD (Ineligible) RATE row: 3.350% |
+| Fund Builder component | **0.550%** (embedded in all rates above) | archived IDES 2026 rate chart, FUND BUILDING row: 0.550% |
+| Small-employer rate (gross wages < $50,000) | **5.4%** flat | archived IDES 2026 rate chart (Wages less than $50,000 column) |
+| Minimum penalty | **$50** | archived IDES 2026 rate chart, MINIMUM PENALTY row |
 | Employee share of UI | none — employer-only | 820 ILCS 405 structure; section text  |
 | State disability / paid family leave | none | absence confirmed; no such IL program |
 
-Rates are experience-rated (reserve ratio + benefit-conversion factor 138.4% and state experience factor 102% for 2026, per the same PDF). Base: covered wages up to $14,250 per employee per year.
+Rates are experience-rated (benefit-conversion factor 138.4% and state experience factor 102% for 2026 — both appear in the archived IDES 2026 rate chart). Base: covered wages up to $14,250 per employee per year.
 
 ## The taxable base
 

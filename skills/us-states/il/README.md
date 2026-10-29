@@ -30,5 +30,5 @@ through IDES. Sales tax is administered by IDOR with a state rate plus local dis
   $14,250; min 0.750% / max 7.050% incl. Fund Builder 0.550%; standard (ineligible) 3.350%;
   small-employer 5.4% under $50,000 gross wages; $50 minimum penalty.
 - ILCS statute pages (35 ILCS 5) render article text via JavaScript; direct section URLs did not
-  resolve to text this run — statutory rate citations carry **needs-sources** flags pending a
+  resolve to text this run — statutory rate citations carry not-yet-confirmed flags pending a
   readable ILCS fetch.
