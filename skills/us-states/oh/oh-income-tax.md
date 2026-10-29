@@ -395,7 +395,10 @@ Not yet confirmed against archived sources.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| Ohio Dept of Taxation — main site | https://tax.ohio.gov/ | 2026-10-28 |
+| CAT 1 instructions | https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/cat/generic/cat_cat1_ins.pdf | 2026-10-28 |
+| CAT 2005-02 nexus standards | https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/commercial_activities/information_releases/2005-02%20cat%20nexus%20standards%20rev%20november%202019.pdf | 2026-10-28 |
+| Ohio Rev. Code §5747.05 | https://codes.ohio.gov/ohio-revised-code/section-5747.05 | 2026-10-28 |
+| Ohio Rev. Code §5747.20 | https://codes.ohio.gov/ohio-revised-code/section-5747.20 | 2026-10-28 |
 
 Not yet confirmed: figures in this skill lack archived line-citations.
 
