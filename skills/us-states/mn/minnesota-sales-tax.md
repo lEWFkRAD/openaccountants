@@ -25,7 +25,7 @@ Sellers with Minnesota nexus — a physical presence or economic nexus ($100,000
 | --- | --- |
 | Jurisdiction | Minnesota |
 | State rate | 6.875% |
-| Local rate range | 0% -- ~2% |
+| Local rate range | 0% -- ~2% | (not yet confirmed)
 | Maximum combined rate | ~8.875% |
 | Sourcing | Destination-based (SST) |
 | Economic nexus | $100,000 OR 200 transactions |

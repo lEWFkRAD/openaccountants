@@ -45,7 +45,7 @@ version: 0.2
 ## Deadlines and filing
 
 
-- Form M4 (combined): 15th day of the 4th month after year end (calendar year: 15 April); 7-month extension available with payment by the original due date (mn-corporate-and-pte, read 2026-10-25).
+- Form M4 (combined): 15th day of the 4th month after year end (calendar year: 15 April); 7-month extension available with payment by the original due date (mn-corporate-and-pte, read 2026-10-25). (not yet confirmed)
 
 ## Penalties and interest
 
@@ -78,7 +78,7 @@ expected:
   tax_upper_bound: 88200.00
 ```
 
-**Example 2 — intercompany royalty neutralised.** A Minnesota manufacturer pays USD 500,000 in royalties to its unitary affiliate in another state. Stand-alone the Minnesota base drops by 500,000; combined, the royalty and the affiliate's matching royalty income eliminate, so combined apportionable income stays 3,000,000 and the Minnesota base stays 900,000 — the royalty moves no Minnesota tax.
+**Example 2 — intercompany royalty neutralised.** A Minnesota manufacturer pays USD 500,000 in royalties to its unitary affiliate in another state. Stand-alone the Minnesota base drops by 500,000; combined, the royalty and the affiliate's matching royalty income eliminate, so combined apportionable income stays 3,000,000 and the Minnesota base stays 900,000 — the royalty moves no Minnesota tax. (not yet confirmed)
 
 ```oa-check
 name: mn intercompany royalty elimination

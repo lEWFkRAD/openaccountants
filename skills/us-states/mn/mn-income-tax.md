@@ -94,13 +94,13 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 
 | Filing status | Amount |
 | --- | --- |
-| Single / MFS | $15,300 |
-| MFJ / Surviving Spouse | $30,600 |
-| Head of Household | $23,000 |
+| Single / MFS | $15,300 | (not yet confirmed)
+| MFJ / Surviving Spouse | $30,600 | (not yet confirmed)
+| Head of Household | $23,000 | (not yet confirmed)
 
 ### Dependent exemption — 2026
 
-- **Personal exemption per taxpayer/spouse** — $5,300 USD
+- **Personal exemption per taxpayer/spouse** — $5,300 USD (not yet confirmed)
 
 ### Key thresholds
 
@@ -110,7 +110,7 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 | --- | --- | --- |
 | Filing deadline | April 15, 2027 (for TY 2026) | Minn. Stat. § 289A.18 |
 | Extension | Automatic 6-month with federal extension | Minn. Stat. § 289A.19 |
-| Estimated tax threshold | Liability of $500 or more after withholding and credits | Minn. Stat. § 289A.25 |
+| Estimated tax threshold | Liability of $500 or more after withholding and credits | Minn. Stat. § 289A.25 | (not yet confirmed)
 
 ## The taxable base
 
@@ -162,7 +162,7 @@ Part-year and nonresident filers (Schedule M1NR) and multi-state apportionment a
 | MN-T1-05 | Subtract U.S. government bond interest | Minn. Stat. § 290.0132 |
 | MN-T1-06 | Subtract state income tax refund included in federal taxable income | Minn. Stat. § 290.0132 |
 | MN-T1-07 | Apply graduated rates: 5.35%, 6.80%, 7.85%, 9.85% to the 2026 brackets | Minn. Stat. § 290.06 |  — rates confirmed verbatim in archived §290.06; archived statute shows 2025 MFJ brackets $38,770/$154,020/$269,010, consistent with the 2026 table (single $33,310/$109,430/$203,150) after CPI indexation
-| MN-T1-08 | Dependent exemption: $5,300 per qualifying dependent (2026) — reduces tax, not income | Minn. Stat. § 290.0674 |
+| MN-T1-08 | Dependent exemption: $5,300 per qualifying dependent (2026) — reduces tax, not income | Minn. Stat. § 290.0674 | (not yet confirmed)
 | MN-T1-09 | Minnesota Working Family Credit (state EITC): percentage of federal EIC (refundable) | Minn. Stat. § 290.0671 |
 | MN-T1-10 | K-12 Education Credit: credit for qualifying education expenses (income-limited) | Minn. Stat. § 290.0674 |
 | MN-T1-11 | Child and Dependent Care Credit: percentage of federal credit | Minn. Stat. § 290.067 |

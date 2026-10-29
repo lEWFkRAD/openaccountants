@@ -34,8 +34,8 @@ Family and medical leave premiums (M.S. 268B.14, read 2026-10-25):
 | Item | Rule (statute text verified 2026-10-25) |
 |---|---|
 | Employer premium rate from 1 Jan 2026, both programs | **0.7%** of taxable wages (subd. 6(1)) |
-| Medical-only with approved private family plan | 0.4% (subd. 6(2)) |
-| Family-only with approved private medical plan | 0.3% (subd. 6(3)) |
+| Medical-only with approved private family plan | 0.4% (subd. 6(2)) | (not yet confirmed)
+| Family-only with approved private medical plan | 0.3% (subd. 6(3)) | (not yet confirmed)
 | Employer minimum share | at least **50%** of annual premiums; employees pay the remainder via wage deduction (subd. 4) |
 | Small employers (≤30 employees, avg wage ≤150% of state average) | premium rate = **75% of the standard rate**; employer pays at least **25%**, employees the rest (subd. 5a) |
 | Premium timing | quarterly, computed from the wage detail report; due by the last day of the month after quarter end (subd. 1(a)) |
@@ -65,7 +65,7 @@ Family and medical leave premiums (M.S. 268B.14, read 2026-10-25):
 
 
 - PFML applies to covered employment for Minnesota work regardless of employee residence.
-- Employers with approved private plans can substitute for one program (0.4%/0.3% rates above) (M.S. 268B.14 subd. 6, read 2026-10-25).
+- Employers with approved private plans can substitute for one program (0.4%/0.3% rates above) (M.S. 268B.14 subd. 6, read 2026-10-25). (not yet confirmed)
 - No state pension contribution; FICA/FUTA federal.
 
 ## Worked examples
@@ -113,8 +113,8 @@ expected:
 ## Ask the client first
 
 
-- Employee count and average wage (small-employer eligibility: ≤30 employees and avg wage ≤150% of state average).
-- Whether they hold an approved private plan for either program (0.4%/0.3% rates).
+- Employee count and average wage (small-employer eligibility: ≤30 employees and avg wage ≤150% of state average). (not yet confirmed)
+- Whether they hold an approved private plan for either program (0.4%/0.3% rates). (not yet confirmed)
 - Whether they are a qualifying health-care provider (MinnesotaCare overlay).
 
 ## Sources

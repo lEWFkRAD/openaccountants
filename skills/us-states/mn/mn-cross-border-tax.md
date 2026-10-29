@@ -46,7 +46,7 @@ version: 0.2
 ## Deadlines and filing
 
 
-- Form M1 + Schedule M1NR: 15 April for calendar-year individuals; entity returns: 15th day of the 4th month (mn-income-tax / mn-corporate-and-pte, read 2026-10-25).
+- Form M1 + Schedule M1NR: 15 April for calendar-year individuals; entity returns: 15th day of the 4th month (mn-income-tax / mn-corporate-and-pte, read 2026-10-25). (not yet confirmed)
 - Composite return: filed with the partnership return for the year (289A.08 subd. 7, read 2026-10-25).
 - Nonresident withholding deposits: payroll-lane schedule (mn-payroll, read 2026-10-25).
 
@@ -81,7 +81,7 @@ expected:
   tax: 45.48
 ```
 
-**Example 2 — composite election replaces withholding.** A partnership allocates USD 40,000 of Minnesota income to a nonresident partner with no other Minnesota income. Without the composite: the partnership withholds (and the partner files individually). With a commissioner-approved composite: the partnership reports the partner on the composite with name, address, SSN, allocation and liability; individual tax at the bottom bracket: 40,000 × 0.0535 = 2,140 paid by the partnership on the partner's behalf.
+**Example 2 — composite election replaces withholding.** A partnership allocates USD 40,000 of Minnesota income to a nonresident partner with no other Minnesota income. Without the composite: the partnership withholds (and the partner files individually). With a commissioner-approved composite: the partnership reports the partner on the composite with name, address, SSN, allocation and liability; individual tax at the bottom bracket: 40,000 × 0.0535 = 2,140 paid by the partnership on the partner's behalf. (not yet confirmed)
 
 ```oa-check
 name: mn composite replaces withholding

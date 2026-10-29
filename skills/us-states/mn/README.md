@@ -13,7 +13,7 @@ not_applicable: []
 - M.S. 268B.14 (PFML premiums): <https://www.revisor.mn.gov/statutes/cite/268B.14> — 200 with text, 2026-10-25.
 - M.S. 290.17 (combined reporting): <https://www.revisor.mn.gov/statutes/cite/290.17> — 200 with text, 2026-10-25.
 - M.S. 289A.08 (composite returns): <https://www.revisor.mn.gov/statutes/cite/289A.08> — 200 with text, 2026-10-25.
-- M.S. 290.92 (nonresident withholding): <https://www.revisor.mn.gov/statutes/cite/290.92> — 200 with text, 2026-10-25.
+- M.S. 290.92 (nonresident withholding): <https://www.revisor.mn.gov/statutes/cite/290.92> — 200 with text, 2026-10-25. (not yet confirmed)
 - M.S. 290A.03 (MinnesotaCare): <https://www.revisor.mn.gov/statutes/cite/290A.03> — 200, 2026-10-25; rate text JS-rendered, ****.
 
 | Field | Value |
@@ -31,7 +31,7 @@ not_applicable: []
 |---|---|
 | `mn-income-tax.md` | Individual income tax for self-employed / sole proprietors (Form M1) |
 | `mn-sales-tax.md` | Sales and use tax obligations and rates |
-| `mn-social-contributions.md` | PFML premiums (M.S. 268B.14, 2026: 0.7% both programs; small-employer relief) + MinnesotaCare overlay |
+| `mn-social-contributions.md` | PFML premiums (M.S. 268B.14, 2026: 0.7% both programs; small-employer relief) + MinnesotaCare overlay | (not yet confirmed)
 | `mn-transfer-pricing-combined-reporting.md` | Combined reporting / unitary business principle (M.S. 290.17) as Minnesota's connected-party regime |
 | `mn-cross-border-tax.md` | Schedule M1NR, composite returns (289A.08 subd. 7), nonresident-partner withholding (290.92, $1,000 exception) |
 

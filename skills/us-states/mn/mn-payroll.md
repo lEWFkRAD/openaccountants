@@ -21,14 +21,14 @@ In scope:
 
 - Minnesota Personal Income Tax (PIT) withholding under Minnesota Statutes Chapter 290, including the 2025 graduated bracket schedule and the supplemental withholding rate.
 - Form W-4MN, the Minnesota Employee Withholding Allowance/Exemption Certificate, including the conditions under which an employer must require it instead of, or in addition to, federal Form W-4.
-- Minnesota Department of Revenue (DOR) withholding deposit and return mechanics (Form MW-1 deposits, Form MWR information return, year-end W-2/W-3 reconciliation by January 31).
+- Minnesota Department of Revenue (DOR) withholding deposit and return mechanics (Form MW-1 deposits, Form MWR information return, year-end W-2/W-3 reconciliation by January 31). (not yet confirmed)
 - Minnesota Unemployment Insurance (UI) under Minnesota Statutes Chapter 268, administered by the Department of Employment and Economic Development (DEED), including the 2025 taxable wage base of $43,000, experience-rated and new-employer rate schedules, and the quarterly UI wage detail/tax return.
 - Minnesota Earned Sick and Safe Time (ESST) under Minnesota Statutes §181.9445–§181.9448 (effective January 1, 2024, with the 2024 expansion bringing it to a statewide mandate covering virtually all private employers).
 - Minnesota Paid Leave under Minnesota Statutes Chapter 268B (enacted by 2023 Laws Ch. 59, amended by 2024 Laws Ch. 127): a state-administered paid family and medical leave program funded by a payroll premium, with employer reporting beginning in 2024 and benefit payments and premium collection beginning **January 1, 2026**. This is the single largest 2026 transition item for Minnesota employers.
 - Wage Theft Prevention Act (WTPA) under Minnesota Statutes §181.032 and §181.101, including the written wage notice required at hire and on any material change.
 - Worker classification (employee vs. independent contractor) under Minnesota's 9-factor common-law/economic-realities test as administered by DEED for UI purposes, the parallel test for state withholding, and the heightened construction-industry standard under Minnesota Statutes §181.723.
 - Construction-industry-specific compliance: the Independent Contractor Exemption Certificate (ICEC) regime, the registration requirements for construction contractors, and the role of the Minnesota Department of Labor and Industry (DLI). Older practitioner shorthand sometimes references this as "Carlson certification" after the 2012 reforms; the operative regime today is the DLI ICEC / construction contractor registration framework under §181.723 and §326B.
-- Final pay timing under Minnesota Statutes §181.13 and §181.14 (separation by employer vs. voluntary resignation), and the closely related rules on commissions and accrued PTO.
+- Final pay timing under Minnesota Statutes §181.13 and §181.14 (separation by employer vs. voluntary resignation), and the closely related rules on commissions and accrued PTO. (not yet confirmed)
 
 Out of scope (handled by other skills or expressly excluded):
 
@@ -67,7 +67,7 @@ Reviewer assumption: every output of this skill is reviewed and signed off by a 
 
 ### 2.2 Supplemental withholding rate
 
-- **Minnesota supplemental withholding rate (2025)** — 6.25%  _(§290.92, subd. 2a)_
+- **Minnesota supplemental withholding rate (2025)** — 6.25%  _(§290.92, subd. 2a)_ (not yet confirmed)
 - **Supplemental wages** — Bonuses, commissions, severance, retroactive pay increases, accumulated sick pay, certain taxable fringe benefits, and any payment that is 'not a payment of regular wages' within the meaning of §290.92, subd. 2a.  _(§290.92, subd. 2a)_
 - **Availability of supplemental rate** — The supplemental rate is available in lieu of the aggregate method only when the supplemental wages are paid separately from regular wages, or when they are paid together with regular wages but separately identified on the payroll record. If supplemental wages are commingled with regular wages without separate identification, the employer must use the aggregate method (combine the supplemental amount with the regular wage for that period and compute withholding on the total using the regular tables).
 
@@ -96,10 +96,10 @@ The withholding base is Minnesota wages (Sections 3–4 below); the UI taxable w
 
 ### 3.2 Deposit frequency
 
-- **Monthly depositor threshold** — $1,500 USD (prior calendar year Minnesota withholding exceeded this amount)
-- **Monthly depositor due date** — Deposits are due by the 15th day of the month following the month in which wages were paid. (Note: the deposit due date is the 15th of the following month, not the federal semiweekly schedule.)
-- **Quarterly depositor threshold** — $1,500 or less USD (prior-year Minnesota withholding)
-- **Quarterly depositor due dates** — Deposits are due by the last day of the month following the close of the calendar quarter (April 30, July 31, October 31, January 31).
+- **Monthly depositor threshold** — $1,500 USD (prior calendar year Minnesota withholding exceeded this amount) (not yet confirmed)
+- **Monthly depositor due date** — Deposits are due by the 15th day of the month following the month in which wages were paid. (Note: the deposit due date is the 15th of the following month, not the federal semiweekly schedule.) (not yet confirmed)
+- **Quarterly depositor threshold** — $1,500 or less USD (prior-year Minnesota withholding) (not yet confirmed)
+- **Quarterly depositor due dates** — Deposits are due by the last day of the month following the close of the calendar quarter (April 30, July 31, October 31, January 31). (not yet confirmed)
 - **Accelerated schedule notice** — In addition, the DOR may notify a high-liability employer that it must follow a more frequent schedule (semi-weekly or accelerated payment) where Minnesota mirrors the federal accelerated rules. These are uncommon outside very large employers and are not addressed in detail here; if a notice is received, escalate to the reviewer.
 - **No annual deposit category** — There is no 'annual' Minnesota withholding deposit category for active employers.
 - **Electronic deposit mechanism** — All deposits are made electronically through e-Services using Form MW-1 (an online return; there is no longer a separate paper coupon in routine use). ACH debit and ACH credit are both supported.
@@ -111,7 +111,7 @@ The withholding base is Minnesota wages (Sections 3–4 below); the UI taxable w
 
 ### 3.4 Annual W-2/W-3 reconciliation — due January 31
 
-- **Annual reconciliation deadline** — Minnesota requires employers to submit Forms W-2 (employee copy data) and the state W-3M reconciliation through e-Services by January 31 following the close of the calendar year. This is the same accelerated deadline that applies federally under the PATH Act for W-2 transmittal to SSA, and the deadlines have been aligned since 2017.
+- **Annual reconciliation deadline** — Minnesota requires employers to submit Forms W-2 (employee copy data) and the state W-3M reconciliation through e-Services by January 31 following the close of the calendar year. This is the same accelerated deadline that applies federally under the PATH Act for W-2 transmittal to SSA, and the deadlines have been aligned since 2017. (not yet confirmed)
 - **Late filing exposure** — Late filing exposes the employer to: A statutory late-filing penalty under Minnesota Statutes §289A.60. Interest on any underpayment from the original due date. Potential disallowance of the employer's wage deduction on its own income tax return, in extreme cases of non-filing.  _(Minnesota Statutes §289A.60)_
 - **Information return e-filing threshold** — The annual reconciliation also captures any 1099-NEC, 1099-MISC, and 1099-R that report Minnesota withholding. For employers issuing fewer than 10 information returns total (W-2 + 1099 combined) paper filing is permitted; otherwise e-filing is mandatory.
 
@@ -136,11 +136,11 @@ Facts: ACME Software Studio LLC, a Minneapolis-based small software development 
 
 MN PIT withholding (regular payroll, hypothetical for the $95,000 employee, single, 2 W-4MN allowances): - Annualized wages: $95,000. - Subtract 2 × Minnesota per-allowance value (~$5,050 in 2025 per DOR booklet): –$10,100. - Taxable wage base for MN: $84,900. - Apply 2025 single brackets (5.35% / 6.80% / 7.85% / 9.85%) — the bulk of $84,900 falls in the 6.80% bracket with a portion at 7.85%. - Approximate annual Minnesota tax: ~$5,200. - Per pay period (biweekly, 26 periods): ~$200 per check.
 
-Supplemental withholding on December bonuses: - Each engineer: $10,000 × 6.25% = $625 Minnesota withholding on the supplemental payment, paid separately from the regular December check.
+Supplemental withholding on December bonuses: - Each engineer: $10,000 × 6.25% = $625 Minnesota withholding on the supplemental payment, paid separately from the regular December check. (not yet confirmed)
 
 UI: - 2025 wage base: $43,000 per employee. - Five employees × $43,000 = $215,000 total taxable wages (each exhausted by mid-year on a >$43k salary; the $55,000 employee also exhausts). - UI rate: 1.4% experience + 0.10% Workforce Development Fee = 1.5%. - Total 2025 UI: $215,000 × 1.5% = $3,225.
 
-Deposit cadence: - Monthly Minnesota withholding deposits via Form MW-1 in e-Services, due the 15th of the following month. - Quarterly Minnesota withholding return (MWR) and quarterly UI wage detail, due the last day of the month following each quarter.
+Deposit cadence: - Monthly Minnesota withholding deposits via Form MW-1 in e-Services, due the 15th of the following month. - Quarterly Minnesota withholding return (MWR) and quarterly UI wage detail, due the last day of the month following each quarter. (not yet confirmed)
 
 ESST: - Five employees × ~2,080 hours each = 10,400 hours. - At 1 hour per 30 hours worked = ~347 hours of ESST accrual per year aggregate, capped at 48 hours per employee per year (240 hours aggregate). - All five employees are well over the 48-hour cap; ACME's actual exposure is 5 × 48 = 240 hours per year of ESST. At an average $40/hour blended rate, the cost ceiling if all ESST is used is $9,600.
 
@@ -162,7 +162,7 @@ Remediation: reclassify Sam as a W-2 employee effective immediately. File an ame
 
 ### Example 3 — Mid-size employer entering 2026 Paid Leave
 
-Facts: GoodSoft Inc., a 35-employee Minneapolis software product company with $4M annual payroll (average salary $114k), runs payroll through Gusto. The company offers unlimited PTO and has never tracked accrued sick time. The CFO realizes in October 2025 that the company has compliance work to do for both ESST and the 2026 Paid Leave rollout.
+Facts: GoodSoft Inc., a 35-employee Minneapolis software product company with $4M annual payroll (average salary $114k), runs payroll through Gusto. The company offers unlimited PTO and has never tracked accrued sick time. The CFO realizes in October 2025 that the company has compliance work to do for both ESST and the 2026 Paid Leave rollout. (not yet confirmed)
 
 ESST gap analysis (effective retroactively to 2024): - Unlimited PTO does not satisfy §181.9447 without explicit ESST tracking. Pay-stub disclosure of accrued/used ESST is required; GoodSoft has not been doing this. - The fix: configure Gusto to track ESST as a separate bucket beginning the next pay period, with front-loaded 48 hours per employee per year going forward. Issue an updated WTPA notice and an ESST policy in the handbook. - 2024–2025 retroactive exposure: difficult to quantify but likely limited because no employees appear to have been denied leave; the violation is recordkeeping, not denial. DLI penalty exposure for pure recordkeeping violations is typically remediable with a documented corrective action plan.
 
@@ -193,7 +193,7 @@ Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 p
 
 
 
-- Minnesota Statutes Chapter 290 (income tax). - Minnesota Statutes Chapter 268 (unemployment insurance). - Minnesota Statutes Chapter 268B (paid leave), as enacted by 2023 Laws Ch. 59 and amended by 2024 Laws Ch. 127. - Minnesota Statutes §181.032 (earnings statements; WTPA). - Minnesota Statutes §181.101 (final wages; WTPA). - Minnesota Statutes §181.13, §181.14 (separation pay timing). - Minnesota Statutes §181.722, §181.723 (worker misclassification; construction industry). - Minnesota Statutes §181.9445 – §181.9448 (Earned Sick and Safe Time). - Minnesota Statutes §326B (construction-industry licensing and DLI authority). - Minnesota Statutes §177.41 et seq. (Minnesota Prevailing Wage Act). - Minnesota DOR, Minnesota Income Tax Withholding Instruction Booklet and Tax Tables (annual; 2025 edition). - Minnesota DEED, UI Employer Handbook (2025). - Minnesota DEED, Family and Medical Benefits Insurance Division publications (2024–2025 readiness materials). - Minnesota DLI, ESST employer guidance (2024, updated 2025). - Minnesota DLI, construction-industry independent-contractor registration portal.
+- Minnesota Statutes Chapter 290 (income tax). - Minnesota Statutes Chapter 268 (unemployment insurance). - Minnesota Statutes Chapter 268B (paid leave), as enacted by 2023 Laws Ch. 59 and amended by 2024 Laws Ch. 127. - Minnesota Statutes §181.032 (earnings statements; WTPA). - Minnesota Statutes §181.101 (final wages; WTPA). - Minnesota Statutes §181.13, §181.14 (separation pay timing). - Minnesota Statutes §181.722, §181.723 (worker misclassification; construction industry). - Minnesota Statutes §181.9445 – §181.9448 (Earned Sick and Safe Time). - Minnesota Statutes §326B (construction-industry licensing and DLI authority). - Minnesota Statutes §177.41 et seq. (Minnesota Prevailing Wage Act). - Minnesota DOR, Minnesota Income Tax Withholding Instruction Booklet and Tax Tables (annual; 2025 edition). - Minnesota DEED, UI Employer Handbook (2025). - Minnesota DEED, Family and Medical Benefits Insurance Division publications (2024–2025 readiness materials). - Minnesota DLI, ESST employer guidance (2024, updated 2025). - Minnesota DLI, construction-industry independent-contractor registration portal. (not yet confirmed)
 
 
 #### Practitioner quick reference (repeat)
@@ -202,15 +202,15 @@ Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 p
 **Practitioner Quick Reference table**  _(Section 12. Practitioner Quick Reference)_
 
 - MN PIT brackets — 5.35% / 6.80% / 7.85% / 9.85% (indexed; rates unchanged)
-- MN supplemental rate — 6.25% (unchanged barring legislation)
+- MN supplemental rate — 6.25% (unchanged barring legislation) (not yet confirmed)
 - MN UI wage base — $43,000 (indexed annually, ~$44,000 expected)
-- UI experience rate range — 0.10% – 9.0% (indexed)
-- UI new-employer — ~1.0% non-construction, ~9.0% construction (indexed)
-- Withholding deposit thresholds — monthly if >$1,500/yr prior; else quarterly (unchanged)
-- W-2/W-3M filing deadline — January 31 (unchanged)
+- UI experience rate range — 0.10% – 9.0% (indexed) (not yet confirmed)
+- UI new-employer — ~1.0% non-construction, ~9.0% construction (indexed) (not yet confirmed)
+- Withholding deposit thresholds — monthly if >$1,500/yr prior; else quarterly (unchanged) (not yet confirmed)
+- W-2/W-3M filing deadline — January 31 (unchanged) (not yet confirmed)
 - ESST accrual — 1 hr per 30 hrs worked; cap 48 hrs/year, 80 hrs balance (unchanged)
 - MN Paid Leave premium — 0.88% combined, 0.44% / 0.44% split, effective Jan 1, 2026
-- MN Paid Leave wage base — ~SSN base (~$176k+)
+- MN Paid Leave wage base — ~SSN base (~$176k+) (not yet confirmed)
 - WTPA notice — required at hire and on material change (unchanged)
 - Final wages — discharged: within 24 hrs of demand, else next payday (≤20 days); voluntary quit: next regular payday (≤20 days) (unchanged)
 - Construction classification — §181.723 multi-element + DLI registration (unchanged)
@@ -249,34 +249,34 @@ version (and the professional behind it) is at
 
 ### 4.4 Annual refresh
 
-- **Exemption claim expiration** — W-4MN exemption claims (Line 7) expire on February 15 of the following year. An exempt employee who does not provide a fresh W-4MN by February 15 must be withheld at Single / zero allowances beginning with the first pay period after February 15. This mirrors the federal exempt-W-4 expiration rule and is one of the most commonly missed payroll calendar items.
+- **Exemption claim expiration** — W-4MN exemption claims (Line 7) expire on February 15 of the following year. An exempt employee who does not provide a fresh W-4MN by February 15 must be withheld at Single / zero allowances beginning with the first pay period after February 15. This mirrors the federal exempt-W-4 expiration rule and is one of the most commonly missed payroll calendar items. (not yet confirmed)
 
 ## 5. Minnesota Unemployment Insurance (UI)
 
 
 ### 5.1 Coverage and registration
 
-- **Subject employer coverage** — Minnesota's UI program is administered by DEED under Minnesota Statutes Chapter 268. Coverage is broad: virtually all employers paying $1,500 or more in wages in any calendar quarter, or employing one or more workers in 20 or more weeks in a calendar year, are 'subject employers.' Agricultural and domestic-service employers have higher thresholds. Nonprofit 501(c)(3) employers are covered but may elect a reimbursement basis instead of contribution.  _(Minnesota Statutes Chapter 268)_
+- **Subject employer coverage** — Minnesota's UI program is administered by DEED under Minnesota Statutes Chapter 268. Coverage is broad: virtually all employers paying $1,500 or more in wages in any calendar quarter, or employing one or more workers in 20 or more weeks in a calendar year, are 'subject employers.' Agricultural and domestic-service employers have higher thresholds. Nonprofit 501(c)(3) employers are covered but may elect a reimbursement basis instead of contribution.  _(Minnesota Statutes Chapter 268)_ (not yet confirmed)
 - **Registration process** — Registration is mandatory and is completed through the DEED Unemployment Insurance employer portal (www.uimn.org). The employer receives a UI account number, separate from the DOR Minnesota Tax ID, and an initial rate assignment.
 
 ### 5.2 Taxable wage base — $43,000 for 2025
 
 - **Minnesota UI taxable wage base (2025)** — $43,000 USD (per employee)  _(Minnesota Statutes §268.035, subd. 23)_
-- **Wage base ranking and indexing** — This is one of the highest UI wage bases in the United States — only Washington, Oregon, Idaho, Hawaii, and a handful of others routinely exceed it. The wage base is indexed annually to 60% of the state average weekly wage under Minnesota Statutes §268.035, subd. 23.  _(Minnesota Statutes §268.035, subd. 23)_
+- **Wage base ranking and indexing** — This is one of the highest UI wage bases in the United States — only Washington, Oregon, Idaho, Hawaii, and a handful of others routinely exceed it. The wage base is indexed annually to 60% of the state average weekly wage under Minnesota Statutes §268.035, subd. 23.  _(Minnesota Statutes §268.035, subd. 23)_ (not yet confirmed)
 
 Practical consequence: an employee earning $80,000 produces roughly $43,000 × employer rate of UI exposure; the marginal cost of an additional $1 of wages above $43,000 is zero for UI purposes. For comparison, an employer in a $7,000-wage-base state (the federal FUTA base, also the SUTA base in several southern states) exhausts its UI wage base in the first 2–3 months of the year. In Minnesota, UI cost continues to accrue through roughly mid-year for a typical full-time salaried hire.
 
 ### 5.3 Experience rates and new-employer rates
 
-- **Experience-rated employer rate range (2025)** — approximately 0.10% to 9.0% % of taxable wages
+- **Experience-rated employer rate range (2025)** — approximately 0.10% to 9.0% % of taxable wages (not yet confirmed)
 - **Rate schedule publication** — The exact minimum and maximum, and the schedule used to translate each employer's reserve ratio (or, for some experience definitions, benefit ratio) into a rate, is published annually by DEED in the year-end rate notice mailed/posted in December.
-- **Construction industry new-employer rate (2025)** — approximately 9.0% % of taxable wages (the maximum on the schedule)
-- **Non-construction new-employer rate (2025)** — approximately 1.0% % of taxable wages (schedule minimum or near it; DEED may assign higher based on NAICS-code risk classification)
+- **Construction industry new-employer rate (2025)** — approximately 9.0% % of taxable wages (the maximum on the schedule) (not yet confirmed)
+- **Non-construction new-employer rate (2025)** — approximately 1.0% % of taxable wages (schedule minimum or near it; DEED may assign higher based on NAICS-code risk classification) (not yet confirmed)
 
 These ranges are wider than most states. A new construction-industry employer in Minnesota will pay UI at roughly $43,000 × 9.0% = $3,870 per employee per year in UI for the first three years of operation (the standard new-employer period before experience rating begins). A new non-construction employer at 1.0% pays $430 per employee per year. The difference — nearly $3,500 per employee per year — is one of the largest single drivers of the 'should I classify this worker as my employee, the GC's employee, or an independent contractor?' question in §9.
 
-- **Additional rate components** — In addition to the experience-rated portion, each employer pays: A base tax component, set annually. An Additional Assessment if the UI trust fund balance falls below a statutory target (Minnesota Statutes §268.051, subd. 2). The Additional Assessment was 14% in some recent years; for 2025 the DEED schedule should be consulted. A Federal Loan Interest Assessment if applicable (not applicable in 2025 as the Minnesota UI trust fund is in positive balance). A Workforce Development Fee (0.10% in recent years) under Minnesota Statutes §116L.20.  _(Minnesota Statutes §268.051, subd. 2; Minnesota Statutes §116L.20)_
-- **Modeling assumption for combined rate** — The 'rate' the employer sees on the December notice is the combined rate of all these components. For modeling purposes, assume an effective rate at the published experience-rate ceiling plus 0.10% for the workforce development fee.
+- **Additional rate components** — In addition to the experience-rated portion, each employer pays: A base tax component, set annually. An Additional Assessment if the UI trust fund balance falls below a statutory target (Minnesota Statutes §268.051, subd. 2). The Additional Assessment was 14% in some recent years; for 2025 the DEED schedule should be consulted. A Federal Loan Interest Assessment if applicable (not applicable in 2025 as the Minnesota UI trust fund is in positive balance). A Workforce Development Fee (0.10% in recent years) under Minnesota Statutes §116L.20.  _(Minnesota Statutes §268.051, subd. 2; Minnesota Statutes §116L.20)_ (not yet confirmed)
+- **Modeling assumption for combined rate** — The 'rate' the employer sees on the December notice is the combined rate of all these components. For modeling purposes, assume an effective rate at the published experience-rate ceiling plus 0.10% for the workforce development fee. (not yet confirmed)
 
 ### 5.4 Quarterly UI return and wage detail
 
@@ -284,17 +284,17 @@ These ranges are wider than most states. A new construction-industry employer in
 
 | Quarter | Wages paid | Return due |
 | --- | --- | --- |
-| Q1 | Jan–Mar | April 30 |
-| Q2 | Apr–Jun | July 31 |
-| Q3 | Jul–Sep | October 31 |
-| Q4 | Oct–Dec | January 31 |
+| Q1 | Jan–Mar | April 30 | (not yet confirmed)
+| Q2 | Apr–Jun | July 31 | (not yet confirmed)
+| Q3 | Jul–Sep | October 31 | (not yet confirmed)
+| Q4 | Oct–Dec | January 31 | (not yet confirmed)
 
 - **Wage detail report content** — Both the return (gross wages, taxable wages, contribution due) and the wage detail report (employee-by-employee SSN, name, total wages, hours worked) are submitted together. Hours worked is a required field in Minnesota, distinguishing it from many states; it is used by DEED to compute UI benefit eligibility for terminated employees.
 - **Late filing penalty** — Late filing penalty: $25 minimum, escalating with delay. Interest on unpaid contributions accrues at the statutory rate.  _(Minnesota Statutes §268.058)_
 
 ### 5.5 Common UI audit triggers
 
-- **Audit trigger list** — Misclassification of workers as 1099 contractors when they should be W-2 (§9 below). Failure to include all taxable fringe benefits in UI wages (the UI wage definition under §268.035, subd. 29 is slightly broader than the federal Form 941 wage definition for some non-cash items). Failure to report newly hired employees within 20 days through the Minnesota New Hire Reporting Center, which is a separate but related obligation. 'Successor' issues — if a buyer acquires substantially all of the assets of an existing Minnesota employer, the UI experience rate generally transfers to the buyer under §268.051, subd. 4. Buyers in M&A diligence frequently miss this and inherit a 9.0% rate.  _(§268.035, subd. 29; §268.051, subd. 4)_
+- **Audit trigger list** — Misclassification of workers as 1099 contractors when they should be W-2 (§9 below). Failure to include all taxable fringe benefits in UI wages (the UI wage definition under §268.035, subd. 29 is slightly broader than the federal Form 941 wage definition for some non-cash items). Failure to report newly hired employees within 20 days through the Minnesota New Hire Reporting Center, which is a separate but related obligation. 'Successor' issues — if a buyer acquires substantially all of the assets of an existing Minnesota employer, the UI experience rate generally transfers to the buyer under §268.051, subd. 4. Buyers in M&A diligence frequently miss this and inherit a 9.0% rate.  _(§268.035, subd. 29; §268.051, subd. 4)_ (not yet confirmed)
 
 ## 6. Earned Sick and Safe Time (ESST) — Statewide, effective January 1, 2024
 
@@ -326,7 +326,7 @@ This is one of the most operationally disruptive Minnesota employment law change
 ### 6.5 Pay-out and rate
 
 - **ESST pay rate** — ESST is paid at the employee's regular rate of pay for the hours of ESST used. The regular rate computation follows the federal Fair Labor Standards Act (FLSA) regular-rate methodology — for nonexempt employees who routinely receive nondiscretionary bonuses, shift differentials, or commission, this is not a trivial calculation.
-- **No separation payout requirement** — ESST is not required to be paid out at separation, except where the employer's general PTO policy commingles ESST with vacation/PTO and treats the commingled balance as paid out under §181.13 (or under the employer's own policy or CBA).  _(§181.13)_
+- **No separation payout requirement** — ESST is not required to be paid out at separation, except where the employer's general PTO policy commingles ESST with vacation/PTO and treats the commingled balance as paid out under §181.13 (or under the employer's own policy or CBA).  _(§181.13)_ (not yet confirmed)
 
 ### 6.6 Recordkeeping
 
@@ -336,7 +336,7 @@ This is one of the most operationally disruptive Minnesota employment law change
 
 ### 6.7 Anti-retaliation
 
-- **Anti-retaliation and remedies** — §181.9447 prohibits retaliation against an employee for requesting or using ESST. Remedies include reinstatement, back pay, statutory damages of up to the value of the ESST denied, and attorneys' fees. Pattern-or-practice violations can trigger DLI administrative penalties up to $10,000 per violation.  _(§181.9447)_
+- **Anti-retaliation and remedies** — §181.9447 prohibits retaliation against an employee for requesting or using ESST. Remedies include reinstatement, back pay, statutory damages of up to the value of the ESST denied, and attorneys' fees. Pattern-or-practice violations can trigger DLI administrative penalties up to $10,000 per violation.  _(§181.9447)_ (not yet confirmed)
 
 ### 6.8 Interaction with local ordinances
 
@@ -348,12 +348,12 @@ This is one of the most operationally disruptive Minnesota employment law change
 ### 7.1 What it is
 
 - **Minnesota Paid Leave description** — Minnesota Paid Leave is a state-administered paid family and medical leave insurance program, modeled on the Washington, Oregon, Colorado, and Connecticut programs. It is funded by a payroll premium split between employer and employee, and it pays partial wage-replacement benefits to covered workers taking leave for the qualifying reasons (own serious health condition, family member's serious health condition, bonding with a new child, qualifying military exigency, or safety leave related to domestic violence/sexual assault/stalking).
-- **Statutory basis and administrator** — Statutory basis: Minnesota Statutes Chapter 268B, enacted by 2023 Laws Ch. 59, Article 11, with implementation amendments in 2024 Laws Ch. 127. Administrator: Minnesota Department of Employment and Economic Development (DEED), through the new Family and Medical Benefits Insurance Division.  _(Minnesota Statutes Chapter 268B; 2023 Laws Ch. 59, Article 11; 2024 Laws Ch. 127)_
+- **Statutory basis and administrator** — Statutory basis: Minnesota Statutes Chapter 268B, enacted by 2023 Laws Ch. 59, Article 11, with implementation amendments in 2024 Laws Ch. 127. Administrator: Minnesota Department of Employment and Economic Development (DEED), through the new Family and Medical Benefits Insurance Division.  _(Minnesota Statutes Chapter 268B; 2023 Laws Ch. 59, Article 11; 2024 Laws Ch. 127)_ (not yet confirmed)
 - **Effective dates** — Effective date for benefits and premium collection: January 1, 2026. Effective date for employer wage reporting: October 31, 2024 (Q3 2024 wage detail). This is critical: employers have already been reporting wages to Paid Leave through the existing UI wage detail submission since late 2024. The 2026 transition is the addition of premium collection on top of wage reporting, plus the activation of the benefit side.
 
 ### 7.2 Premium rate and split
 
-- **2026 Paid Leave premium rate** — 0.88% of taxable wages  _(Minnesota Statutes §268B.14)_
+- **2026 Paid Leave premium rate** — 0.88% of taxable wages  _(Minnesota Statutes §268B.14)_ (not yet confirmed)
 - **Employer share** — 0.44% (mandatory)  _(Minnesota Statutes §268B.14)_
 - **Employee share** — 0.44% (employer may, but is not required to, withhold from the employee's wages; employer may also elect to cover the employee share as a benefit)  _(Minnesota Statutes §268B.14)_
 
@@ -363,7 +363,7 @@ This is the operative statutory split as of the 2024 amendments. (Earlier 2023 c
 
 ### 7.3 Taxable wage base
 
-- **Paid Leave taxable wage base (2025 SS wage base)** — $176,100 USD (for 2025; the 2026 figure will be published by SSA in October 2025; Paid Leave premium applies to wages up to the Social Security wage base)
+- **Paid Leave taxable wage base (2025 SS wage base)** — $176,100 USD (for 2025; the 2026 figure will be published by SSA in October 2025; Paid Leave premium applies to wages up to the Social Security wage base) (not yet confirmed)
 - **Wage base comparison to UI** — This is materially higher than the UI wage base of $43,000 — meaning Paid Leave premium continues to accrue on the same wages long after UI has capped out.
 
 For an employee earning $176,100 or more in 2026, the maximum annual Paid Leave premium is approximately: Employer: $176,100 × 0.44% ≈ $774.84. Employee: $176,100 × 0.44% ≈ $774.84. Combined: ≈ $1,549.68 per high-earner per year. For a $60,000 employee: Employer: $264; Employee: $264; Combined: $528.
@@ -385,7 +385,7 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 ### 7.7 Interaction with FMLA, ESST, short-term disability, and PTO
 
-- **Interaction rules** — FMLA: runs concurrently with Paid Leave for the same qualifying reason. The employer must notice FMLA designation as it normally would. ESST: ESST is a separate accrued benefit and is not consumed by Paid Leave. An employee may use ESST in lieu of unpaid time during the Paid Leave waiting period (if any), or to top up Paid Leave benefits to 100% of regular wages. Short-term disability: an STD policy may coordinate with Paid Leave to provide top-up. The STD carrier will need to integrate; employers should expect 2025 plan-year STD renewals to address this. PTO / vacation: the employer cannot require the employee to use accrued PTO before or during Paid Leave, but the employee may elect to use PTO to supplement Paid Leave wage replacement up to 100% of regular wages. Workers' compensation: not concurrent. An employee receiving workers' comp wage replacement is not eligible for Paid Leave benefits for the same period.
+- **Interaction rules** — FMLA: runs concurrently with Paid Leave for the same qualifying reason. The employer must notice FMLA designation as it normally would. ESST: ESST is a separate accrued benefit and is not consumed by Paid Leave. An employee may use ESST in lieu of unpaid time during the Paid Leave waiting period (if any), or to top up Paid Leave benefits to 100% of regular wages. Short-term disability: an STD policy may coordinate with Paid Leave to provide top-up. The STD carrier will need to integrate; employers should expect 2025 plan-year STD renewals to address this. PTO / vacation: the employer cannot require the employee to use accrued PTO before or during Paid Leave, but the employee may elect to use PTO to supplement Paid Leave wage replacement up to 100% of regular wages. Workers' compensation: not concurrent. An employee receiving workers' comp wage replacement is not eligible for Paid Leave benefits for the same period. (not yet confirmed)
 
 ### 7.8 What employers need to prepare for NOW (2025 readiness checklist)
 
@@ -399,10 +399,10 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 | Quarter | Due |
 | --- | --- |
-| Q1 (Jan–Mar 2026) | April 30, 2026 |
-| Q2 (Apr–Jun 2026) | July 31, 2026 |
-| Q3 (Jul–Sep 2026) | October 31, 2026 |
-| Q4 (Oct–Dec 2026) | January 31, 2027 |
+| Q1 (Jan–Mar 2026) | April 30, 2026 | (not yet confirmed)
+| Q2 (Apr–Jun 2026) | July 31, 2026 | (not yet confirmed)
+| Q3 (Jul–Sep 2026) | October 31, 2026 | (not yet confirmed)
+| Q4 (Oct–Dec 2026) | January 31, 2027 | (not yet confirmed)
 
 - **Combined filing mechanics** — From Q1 2026 forward, Paid Leave premium remittance will be quarterly, on the same schedule and through the same DEED portal as UI contributions. The wage detail report is shared with UI (no duplicate filing). Premium is remitted as a single combined employer-plus-employee amount; the split is internal to the employer's books.
 
@@ -425,9 +425,9 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 ### 8.4 Final wages
 
-- **Discharge final pay timing** — Under §181.13, when an employee is discharged by the employer, all earned wages are due within 24 hours of the employee's demand. If no demand is made, wages are due at the next regular payday but no later than 20 days after termination.  _(§181.13)_
-- **Voluntary quit final pay timing** — Under §181.14, when an employee voluntarily quits, wages are due at the next regular payday, but no later than 20 calendar days after the date of resignation.  _(§181.14)_
-- **Safer practical rule for routine separations** — Practically, the safer rule for routine separations is: pay all earned wages by the next regular payday following the separation. This satisfies both §181.13 and §181.14 in the absence of an immediate demand following discharge. (Note: this answers the user's prompt requirement that final pay is 'by next regular payday.')  _(§181.13; §181.14)_
+- **Discharge final pay timing** — Under §181.13, when an employee is discharged by the employer, all earned wages are due within 24 hours of the employee's demand. If no demand is made, wages are due at the next regular payday but no later than 20 days after termination.  _(§181.13)_ (not yet confirmed)
+- **Voluntary quit final pay timing** — Under §181.14, when an employee voluntarily quits, wages are due at the next regular payday, but no later than 20 calendar days after the date of resignation.  _(§181.14)_ (not yet confirmed)
+- **Safer practical rule for routine separations** — Practically, the safer rule for routine separations is: pay all earned wages by the next regular payday following the separation. This satisfies both §181.13 and §181.14 in the absence of an immediate demand following discharge. (Note: this answers the user's prompt requirement that final pay is 'by next regular payday.')  _(§181.13; §181.14)_ (not yet confirmed)
 - **Earned wages for final-pay purposes and PTO payout** — Earned wages for final-pay purposes include accrued commissions, accrued bonuses that have become non-discretionary by their terms, and any accrued PTO that the employer's policy treats as a paid-out benefit. Whether accrued unused PTO must be paid out at separation depends on the employer's written policy: Minnesota does not statutorily require PTO payout, but a policy that grants the right vests the obligation and the employer cannot retroactively rescind.
 - **ESST separation payout cross-reference** — ESST, as noted in §6.5, is not statutorily required to be paid out at separation (unless commingled with general PTO).
 
@@ -452,7 +452,7 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 ### 9.3 Consequences of misclassification
 
-- **Misclassification consequences list** — If a worker is reclassified by DEED as an employee: Retroactive UI contributions for up to 4 years of audit lookback, at the employer's experience rate (or new-employer rate if no history), plus interest and penalties. Retroactive Minnesota income tax withholding liability for the same period (§290.92 imposes joint liability on the employer for tax that should have been withheld). Joint liability for federal FICA and federal income tax withholding (the IRS will follow once DEED has reclassified; DEED routinely shares findings). Penalty under §181.722 for 'willful misrepresentation' of employment status, up to $5,000 per misrepresentation. For construction, treble damages under §181.723 (see §10). ESST and Paid Leave backfill obligations (the worker, having been reclassified to employee, was due ESST accrual and Paid Leave premium contributions for the entire reclassification period). Workers' compensation insurance liability for any work-related injury during the misclassification period that was not covered.  _(§290.92; §181.722; §181.723)_
+- **Misclassification consequences list** — If a worker is reclassified by DEED as an employee: Retroactive UI contributions for up to 4 years of audit lookback, at the employer's experience rate (or new-employer rate if no history), plus interest and penalties. Retroactive Minnesota income tax withholding liability for the same period (§290.92 imposes joint liability on the employer for tax that should have been withheld). Joint liability for federal FICA and federal income tax withholding (the IRS will follow once DEED has reclassified; DEED routinely shares findings). Penalty under §181.722 for 'willful misrepresentation' of employment status, up to $5,000 per misrepresentation. For construction, treble damages under §181.723 (see §10). ESST and Paid Leave backfill obligations (the worker, having been reclassified to employee, was due ESST accrual and Paid Leave premium contributions for the entire reclassification period). Workers' compensation insurance liability for any work-related injury during the misclassification period that was not covered.  _(§290.92; §181.722; §181.723)_ (not yet confirmed)
 
 ### 9.4 ABC test? No — Minnesota uses the nine-factor test, not ABC
 
@@ -480,15 +480,15 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 ### 10.4 Penalties for misclassification in construction
 
-- **Penalties under §181.723 subd. 8** — §181.723, subd. 8 imposes: - A penalty of up to $5,000 per individual misclassified. - Treble damages to the misclassified individual for unpaid wages, overtime, and benefits. - Joint and several liability of officers, directors, and managing agents who knowingly permitted the misclassification. - Possible debarment from public construction contracts. In addition, DLI and DEED routinely coordinate on construction-industry investigations, so a finding by one agency typically produces parallel findings by the other.  _(Minnesota Statutes §181.723, subd. 8)_
+- **Penalties under §181.723 subd. 8** — §181.723, subd. 8 imposes: - A penalty of up to $5,000 per individual misclassified. - Treble damages to the misclassified individual for unpaid wages, overtime, and benefits. - Joint and several liability of officers, directors, and managing agents who knowingly permitted the misclassification. - Possible debarment from public construction contracts. In addition, DLI and DEED routinely coordinate on construction-industry investigations, so a finding by one agency typically produces parallel findings by the other.  _(Minnesota Statutes §181.723, subd. 8)_ (not yet confirmed)
 
 ### 10.5 Prevailing wage and apprenticeship overlay
 
-- **Overlay rules for public construction projects** — Where the construction work is on a public project, additional rules apply: - Minnesota Prevailing Wage Act (§177.41 et seq.). - Federal Davis-Bacon Act (40 U.S.C. §3141 et seq.) for federally funded projects. - Apprenticeship registration with the DLI Apprenticeship Division for apprentice classifications. These are outside the scope of this skill but should trigger a referral to a credentialed prevailing-wage specialist on any public project.  _(Minnesota Prevailing Wage Act §177.41 et seq.; Federal Davis-Bacon Act 40 U.S.C. §3141 et seq.)_
+- **Overlay rules for public construction projects** — Where the construction work is on a public project, additional rules apply: - Minnesota Prevailing Wage Act (§177.41 et seq.). - Federal Davis-Bacon Act (40 U.S.C. §3141 et seq.) for federally funded projects. - Apprenticeship registration with the DLI Apprenticeship Division for apprentice classifications. These are outside the scope of this skill but should trigger a referral to a credentialed prevailing-wage specialist on any public project.  _(Minnesota Prevailing Wage Act §177.41 et seq.; Federal Davis-Bacon Act 40 U.S.C. §3141 et seq.)_ (not yet confirmed)
 
 ### 10.6 Workers' compensation in construction
 
-- **Workers' comp mandatory coverage and construction risk** — Workers' compensation insurance is mandatory for all Minnesota employers with at least one employee (Minnesota Statutes §176.181), with no employer-size carve-out. Construction-industry workers' comp rates are among the highest in the state by class code, often exceeding 10% of payroll for high-risk classes (roofing, framing, excavation). Misclassification "savings" from avoiding workers' comp are precisely the kind of artifact that triggers a §181.723 enforcement action.  _(Minnesota Statutes §176.181)_
+- **Workers' comp mandatory coverage and construction risk** — Workers' compensation insurance is mandatory for all Minnesota employers with at least one employee (Minnesota Statutes §176.181), with no employer-size carve-out. Construction-industry workers' comp rates are among the highest in the state by class code, often exceeding 10% of payroll for high-risk classes (roofing, framing, excavation). Misclassification "savings" from avoiding workers' comp are precisely the kind of artifact that triggers a §181.723 enforcement action.  _(Minnesota Statutes §176.181)_ (not yet confirmed)
 
 > AUDIT FLASH POINT — construction multi-agency enforcement. A construction-industry employer in Minnesota faces parallel enforcement risk from DEED (UI), DOR (withholding), DLI (§181.723, prevailing wage, workers' comp), and the Attorney General (criminal wage theft). These agencies share information. A single misclassified worker can trigger findings across all four agencies. The compliance posture for any construction engagement of a non-W-2 worker should be: (1) §181.723 multi-element test documented in writing, (2) DLI registration verified and copy on file, (3) written contract per §181.723(c), (4) invoices in file, (5) the worker's separate-business indicia (EIN, business insurance, business address) verified. Anything less is a misclassification risk.
 
@@ -501,17 +501,17 @@ For most small and mid-sized employers, the state program is operationally simpl
 
 
 - **MN PIT brackets** — 5.35% / 6.80% / 7.85% / 9.85%  _(Indexed; rates unchanged)_
-- **MN supplemental rate** — 6.25%  _(Unchanged barring legislation)_
+- **MN supplemental rate** — 6.25%  _(Unchanged barring legislation)_ (not yet confirmed)
 - **MN UI wage base** — $43,000  _(Indexed annually (~$44,000 expected))_
-- **UI experience rate range** — 0.10% – 9.0%  _(Indexed)_
-- **UI new-employer (non-construction)** — ~1.0%  _(Indexed)_
-- **UI new-employer (construction)** — ~9.0%  _(Indexed)_
-- **Withholding deposit thresholds** — Monthly >$1,500/yr prior; else quarterly  _(Unchanged)_
-- **W-2/W-3M filing deadline** — January 31  _(Unchanged)_
+- **UI experience rate range** — 0.10% – 9.0%  _(Indexed)_ (not yet confirmed)
+- **UI new-employer (non-construction)** — ~1.0%  _(Indexed)_ (not yet confirmed)
+- **UI new-employer (construction)** — ~9.0%  _(Indexed)_ (not yet confirmed)
+- **Withholding deposit thresholds** — Monthly >$1,500/yr prior; else quarterly  _(Unchanged)_ (not yet confirmed)
+- **W-2/W-3M filing deadline** — January 31  _(Unchanged)_ (not yet confirmed)
 - **ESST accrual** — 1 hr per 30 hrs worked  _(Unchanged)_
 - **ESST annual cap** — 48 hrs/year, 80 hrs balance  _(Unchanged)_
 - **MN Paid Leave premium** — Not yet collected  _(**0.88% combined, 0.44% / 0.44% split, effective Jan 1, 2026**)_
-- **MN Paid Leave wage base** — n/a  _(~SSN base (~$176k+))_
+- **MN Paid Leave wage base** — n/a  _(~SSN base (~$176k+))_ (not yet confirmed)
 - **WTPA notice** — Required at hire and on material change  _(Unchanged)_
 - **Final wages — discharged** — Within 24 hrs of demand; else next payday (≤20 days)  _(Unchanged)_
 - **Final wages — voluntary quit** — Next regular payday (≤20 days)  _(Unchanged)_
