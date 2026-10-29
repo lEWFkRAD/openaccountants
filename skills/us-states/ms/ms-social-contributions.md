@@ -33,7 +33,6 @@ Mississippi employers (including out-of-state employers with Mississippi employe
 |---|---|---|
 | New-employer (start-up) UI rate | "1.00% the first year of liability, 1.10% the second year of liability and 1.20% the third and subsequent years of liability until the employer is eligible for a modified rate" | [MDES Unemployment Tax Rates](https://www.mdes.ms.gov/employers/unemployment-tax/reporting-and-filing/unemployment-tax-rates/) |
 | Experience (modified) rates | "Your tax rate will vary between 0.0% and 5.4%" | MDES Unemployment Tax Rates |
-| FUTA (federal context) | 6.0% on first $7,000; credit up to 5.4% for timely SUTA | federal standing rule |
 
 MDES: published rates "do not include the Workforce Investment and Training contribution rate that might be applicable for the rate year."
 
