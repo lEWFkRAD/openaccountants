@@ -28,7 +28,7 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 27 October 2026. Illinois taxes corporations under the Income Tax Act (35 ILCS 5) with a two-component levy on the same base: a **7.0% income tax** and a **2.5% replacement tax**, both computed on Illinois net income after apportionment — a combined 9.5% effective rate. **Source status:** Form IL-1120 (R-12/25, for tax years ending on/after 2025-12-31 and before 2026-12-31 — i.e., the 2026 calendar-year return) and its 24-page instructions PDF were downloaded and text-read 2026-10-27 from tax.illinois.gov; the rate lines ("Multiply Line 39 by 7.0%", "Multiply Line 39 by 2.5%", estimated worksheet "9.5 percent") are read directly from those PDFs. The ILCS section pages render via JavaScript and did not yield text this run — statutory cites carry **needs-sources** for section-level text.
+Source-cited draft, run of 27 October 2026. Illinois taxes corporations under the Income Tax Act (35 ILCS 5) with a two-component levy on the same base: a **7.0% income tax** and a **2.5% replacement tax**, both computed on Illinois net income after apportionment — a combined 9.5% effective rate. **Source status:** Form IL-1120 (R-12/25, for tax years ending on/after 2025-12-31 and before 2026-12-31 — i.e., the 2026 calendar-year return) and its 24-page instructions PDF were downloaded and text-read 2026-10-27 from tax.illinois.gov; the rate lines ("Multiply Line 39 by 7.0%", "Multiply Line 39 by 2.5%", estimated worksheet "9.5 percent") are read directly from those PDFs. The ILCS section pages render via JavaScript and did not yield text this run — statutory cites carry  for section-level text.
 
 ### Who this applies to
 
@@ -60,7 +60,7 @@ The base follows the federal starting point with Illinois modifications; see Rat
 
 ## Penalties and interest
 
-Per the IL-1120 instructions (read 2026-10-27): late-filing penalty (return not processable by extended due date), late-payment penalty (tax unpaid at original due date), estimated-tax underpayment penalty (self-assessed on **Form IL-2220**, Step 4 Line 22; annualization available at Step 6), and bad-check penalty. Current penalty percentages and the 35 ILCS 5/806 interest rate: **needs-sources** (not in the extracted text). Common failure modes: (1) assuming the extension extends payment — it does not; (2) forgetting the replacement tax stacks on the same base; (3) unitary filers checking the "income derived inside Illinois only" box, which the form prohibits for unitary filers.
+Per the IL-1120 instructions (read 2026-10-27): late-filing penalty (return not processable by extended due date), late-payment penalty (tax unpaid at original due date), estimated-tax underpayment penalty (self-assessed on **Form IL-2220**, Step 4 Line 22; annualization available at Step 6), and bad-check penalty. Current penalty percentages and the 35 ILCS 5/806 interest rate:  (not in the extracted text). Common failure modes: (1) assuming the extension extends payment — it does not; (2) forgetting the replacement tax stacks on the same base; (3) unitary filers checking the "income derived inside Illinois only" box, which the form prohibits for unitary filers.
 
 ## Cross-border points
 
@@ -114,14 +114,13 @@ expected:
 
 ## Sources
 
-1. Form IL-1120 (R-12/25) PDF: https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120.pdf (200 PDF, text read 2026-10-27)
-2. IL-1120 instructions PDF: https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf (200 PDF, text read 2026-10-27)
-3. Form IL-1120-V voucher PDF: https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-v.pdf (200 PDF, read 2026-10-27)
-4. 35 ILCS 5 (Income Tax Act): https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=592&ChapterID=8 (200 frame page; article text JS-rendered — section-level cites **needs-sources**)
+| Source | URL | Read on |
+|---|---|---|
+| Form IL-1120 (R-12/25) | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120.pdf | 2026-10-27 |
+| IL-1120 instructions | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf | 2026-10-27 |
+| Form IL-1120-V voucher | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-v.pdf | 2026-10-27 |
 
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Illinois corporate questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
-
+Not yet confirmed: 35 ILCS 5 article text (ilga.gov is JS-rendered; section-level cites not line-verified), penalty percentages
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put

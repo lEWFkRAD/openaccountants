@@ -5,7 +5,6 @@ version: 1.0
 jurisdiction: US-IL
 tax_year: 2025
 last_updated: 2026-07-13
-reviewed_by: A licensed accountant (name withheld at their request)
 review_status: current
 trust_label: Checked by a licensed accountant (name withheld at their request)
 source_checked: 2026-10-16
@@ -207,17 +206,13 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ## Sources
 
-Before delivering output, verify:
+| Source | URL | Read on |
+|---|---|---|
+| IL-1040 instructions | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf | 2026-10-27 |
+| IL-1040 instructions PDF (archived copy) | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf | 2026-10-27 |
+| Form IL-1040 (archived) | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040.pdf | 2026-10-27 |
 
-- [ ] Federal AGI correctly adjusted for Illinois modifications (Schedule M)
-- [ ] Flat rate of 4.95% applied (not a graduated rate)
-- [ ] Personal exemption of $2,850 (single) or $5,700 (MFJ) deducted (none above the federal AGI cut-offs)
-- [ ] $1,000 threshold applied to determine filing requirement
-- [ ] Safe harbour computed using the lesser of 90% current / 100% prior
-- [ ] 100% prior year rule used (not 110%)
-- [ ] Bonus depreciation add-back included if applicable
-- [ ] Property tax credit at 5% included if applicable
-- [ ] Quarterly payments divided evenly (25% each)
+Not yet confirmed: Schedule M PDF, IL-1040-ES voucher PDF and IL-2210 instruction PDF are not in the archive set; 2026 exemption amounts (2,850/5,700) not line-verified in an archived source
 
 ## Talk to a verified accountant
 

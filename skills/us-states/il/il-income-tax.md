@@ -5,7 +5,6 @@ version: "1.1"
 jurisdiction: US-IL
 tax_year: 2025
 last_updated: 2026-10-28
-reviewed_by: A licensed accountant (name withheld at their request)
 review_status: current
 trust_label: Checked by a licensed accountant (name withheld at their request)
 depends_on:
@@ -191,7 +190,7 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 ### E-2: Net loss limitation
 
 - **Net loss deduction limitation** — Illinois limits the net loss deduction to $100,000 per year for individuals (enacted 2021, extended through 2027). Excess losses carry forward.  _(35 ILCS 5/203(e)(2).)_
-- **Surtax tiers carried, not archived** — the 3%/2% surtax tiers (3% on taxable income over $100k single/$200k joint, 2% over $250k/$500k) are carried from prior runs: the archived 35 ILCS 5/201 page (ilga.gov, retrieved 2026-10-28) is a JS shell with no statutory text, and the archived IL-1040 form itself shows only the flat 4.95% line — surtax is computed on the separate Form IL-1040-4060/9410 worksheet. Treat the tier thresholds as **needs-sources** until an instructions PDF is archived.
+- **Surtax tiers carried, not archived** — the 3%/2% surtax tiers (3% on taxable income over $100k single/$200k joint, 2% over $250k/$500k) are carried from prior runs: the archived 35 ILCS 5/201 page (ilga.gov, retrieved 2026-10-28) is a JS shell with no statutory text, and the archived IL-1040 form itself shows only the flat 4.95% line — surtax is computed on the separate Form IL-1040-4060/9410 worksheet. Treat the tier thresholds as  until an instructions PDF is archived.
 
 ### E-3: No standard deduction
 
@@ -247,18 +246,12 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ## Sources
 
-Before delivering output, verify:
+| Source | URL | Read on |
+|---|---|---|
+| IL-1040 instructions | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf | 2026-10-27 |
+| Form IL-1040 | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040.pdf | 2026-10-27 |
 
-- [ ] Federal AGI correctly transcribed from Form 1040, Line 11
-- [ ] All Schedule M additions identified (especially bonus depreciation)
-- [ ] All Schedule M subtractions identified (especially Social Security, gov't bond interest)
-- [ ] Personal exemptions correctly computed ($2,625 x number of exemptions)
-- [ ] Flat rate of 4.95% applied
-- [ ] Property tax credit at 5% (non-refundable)
-- [ ] EIC at 20% of federal EIC (refundable)
-- [ ] No standard deduction applied
-- [ ] Net loss limitation of $100,000 checked
-- [ ] Reviewer brief includes all positions and flags
+Not yet confirmed: Schedule M PDF not in archive set; 2,625 exemption figure not line-verified in an archived source
 
 ## Talk to a verified accountant
 

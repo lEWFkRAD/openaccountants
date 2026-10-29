@@ -254,7 +254,7 @@ A late-filing or late-payment penalty may be abated for reasonable cause if you 
 - [ ] Remote retailer amnesty considered before 31 October 2026 where old periods are unpaid.
 - [ ] Records kept for three and one-half years after filing.
 
-<!-- openaccountants-cta-block -->
+
 
 ---
 
@@ -302,9 +302,12 @@ Examples use the State rate only unless a combined rate is given. In practice, a
 
 ## Sources
 
-See the archived IDOR bulletins and Form ST-1 instructions cited inline above; every figure ties to an archived IDOR source (see the sales-tax guide's Sources table).
+| Source | URL | Read on |
+|---|---|---|
+| IDOR bulletin FY 2026-12 | https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html | 2026-10-27 |
+| IDOR ROT page | https://tax.illinois.gov/research/taxinformation/sales/rot.html | 2026-10-27 |
 
-Not yet confirmed: local-rate tables beyond the archived FY 2026-12 bulletin.
+Not yet confirmed: FY 2026-03, FY 2025-10, FY 2026-13 bulletins, Publication 113, PIO-115, CA-2026-01 not in the archive set; local-rate tables
 
 ## Talk to a verified accountant
 

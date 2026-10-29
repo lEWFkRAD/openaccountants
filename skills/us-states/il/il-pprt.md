@@ -498,49 +498,14 @@ When information is incomplete, default to:
 
 ## Sources
 
-- **LLC as C-corp** — 2.5%  _(35 ILCS 5/201(c).)_
-- **PPRT on partnerships, trusts, S-corps** — 1.5%  _(35 ILCS 5/201(d))_
-- **owner-level credit for PPRT** — 6.5%  _(35 ILCS 5/201(p))_
-- **Pass-Through Entity tax (PTE tax)** — 4.95%  _(35 ILCS 5/201(p-1))_
-- **base income modifications** — base income modifications  _(35 ILCS 5/203)_
-- **standard exemption** — standard exemption  _(35 ILCS 5/204)_
-- **Illinois NOL carryforward** — 12 years  _(35 ILCS 5/207)_
-- **apportionment, single sales factor** — apportionment, single sales factor  _(35 ILCS 5/304(a))_
-- **market-based sourcing for services and intangibles** — market-based sourcing for services and intangibles  _(35 ILCS 5/304(a)(3))_
-- **pass-through withholding on nonresident partners** — pass-through withholding on nonresident partners  _(35 ILCS 5/709.5)_
-- **estimated tax requirements** — estimated tax requirements  _(35 ILCS 5/803)_
-- **unitary business group definition** — unitary business group definition  _(35 ILCS 5/1501(a)(27))_
-- **PPRT distribution to local taxing districts** — PPRT distribution to local taxing districts  _(30 ILCS 115/12)_
-- **abolition of personal property tax** — abolition of personal property tax  _(Illinois Constitution of 1970, Article IX, §5(c))_
-- **single sales factor effective 2017** — single sales factor effective 2017  _(P.A. 100-0022)_
-- **PTE tax election effective 2021** — PTE tax election effective 2021  _(P.A. 102-0658)_
-- **$100,000 NOL cap (initial)** — $100,000 NOL cap (initial)  _(P.A. 102-0016)_
-- **NOL cap extension (verify 2025 status)** — NOL cap extension (verify 2025 status)  _(P.A. 103-0009)_
+| Source | URL | Read on |
+|---|---|---|
+| IL-1120 instructions (PPRT, PTE election) | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf | 2026-10-27 |
+| Form IL-1120 | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120.pdf | 2026-10-27 |
 
-- Form IL-1120, IL-1120 Instructions (2025 draft)
-- Form IL-1120-ST, IL-1120-ST Instructions (2025 draft)
-- Form IL-1065, IL-1065 Instructions (2025 draft)
-- Schedule UB — combined apportionment
-- Schedule UB-CR — combined return supplemental schedules
-- Schedule M — additions and subtractions
-- Schedule NLD — Illinois net loss deduction
-- Schedule 1299-C — credits for individuals (§201(p) credit)
-- Schedule K-1-P, K-1-T — partner/shareholder/beneficiary information
-- Form IL-2220 — underpayment of estimated tax
-- Form IL-505-B — payment voucher for extension
-- IDOR General Information Letters on market-based sourcing (various, 2018–2024)
+Not yet confirmed: 35 ILCS 5/201(c)-(p) section text (JS-rendered); 2.5%/1.5%/6.5%/4.95% figures not line-verified in an archived source
 
-- IRS Notice 2020-75 — federal deductibility of state PTE taxes
-- IRC §164(b)(6) — federal SALT cap
-- Treasury Regulations §301.7701-1 through §301.7701-3 — entity classification ("check the box")
 
-- **Distribution mechanics for PPRT revenue** — 30 ILCS 115/12 sets the formula based on 1976 (1977 for Cook County) personal property tax extensions. Revenue does not enter the State General Revenue Fund; flows to local taxing districts.  _(30 ILCS 115/12)_
-
-pending (skill is at version 0.1, awaiting credentialed reviewer signoff).
-
-2025-11-15.
-
-<!-- openaccountants-cta-block -->
 
 ---
 

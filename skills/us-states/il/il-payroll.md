@@ -4,7 +4,6 @@ description: Tier 2 Illinois content skill for employer payroll compliance cover
 jurisdiction: US-IL
 tax_year: 2025
 last_updated: 2026-07-13
-reviewed_by: A licensed accountant (name withheld at their request)
 review_status: current
 trust_label: Checked by a licensed accountant (name withheld at their request)
 tier: 2
@@ -459,67 +458,15 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 ## Sources
 
-### Statutory authority
+| Source | URL | Read on |
+|---|---|---|
+| IDES 2026 rate chart | https://ides.illinois.gov/content/dam/soi/en/web/ides/ides_forms_and_publications/UI_tax_rates_2026.pdf | 2026-10-27 |
+| IDES employer taxes/reporting | https://ides.illinois.gov/employer-resources/taxes-reporting.html | 2026-10-27 |
+| IL-1040 instructions (withholding) | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf | 2026-10-27 |
 
-- 35 ILCS 5/ — Illinois Income Tax Act (4.95% flat rate, withholding rules)
-- 820 ILCS 80/ — Illinois Secure Choice Savings Program Act (PA 99-0008 as amended by PA 101-0026 and PA 102-0179)
-- 820 ILCS 115/ — Illinois Wage Payment and Collection Act
-- 820 ILCS 140/ — One Day Rest in Seven Act (as amended by PA 102-0828)
-- 820 ILCS 185/ — Employee Classification Act (construction)
-- 820 ILCS 192/ — Paid Leave for All Workers Act (effective January 1, 2024)
-- 820 ILCS 405/ — Unemployment Insurance Act, including § 212 (ABC test) and § 1507 (successor liability)
-- 820 ILCS 265/ — Substance Abuse Prevention on Public Works Projects Act
-- 820 ILCS 305/ — Workers' Compensation Act
+Not yet confirmed: ILCS statute texts (JS-rendered), Chicago Fair Workweek and paid-leave ordinance details, withholding-table specifics
 
-### Administrative rules
 
-- 86 Ill. Adm. Code 100.7110 — Supplemental wage withholding
-- 86 Ill. Adm. Code 100.7300 — Withholding return filing
-- 56 Ill. Adm. Code 2760 — IDES contribution rate determination
-
-### Municipal ordinances
-
-- Municipal Code of Chicago § 1-24 — Chicago Paid Leave and Paid Sick Leave Ordinance (as amended effective July 1, 2024)
-- Municipal Code of Chicago § 1-25 — Chicago Fair Workweek Ordinance (as amended effective July 1, 2022)
-- Cook County Code § 42-2 — Cook County Earned Sick Leave Ordinance
-
-### Agency publications
-
-- IL DOR Booklet IL-700-T (2025) — Illinois Withholding Tax Tables
-- IL DOR Publication 130 (2025) — Who is Required to Withhold Illinois Income Tax
-- IL DOR Publication 131 (2025) — Withholding Income Tax Payment and Filing Requirements
-- IDES Rate Determination 2025 — Annual rate schedule notice
-- Illinois Treasurer's Office, Secure Choice Employer Handbook (2024 edition)
-- City of Chicago BACP, Fair Workweek Ordinance Rules and Regulations (2024 update)
-- Cook County Commission on Human Rights, Earned Sick Leave Interpretive and Procedural Rules (2024)
-- IL DOL, One Day Rest in Seven Act Guidance (revised 2023 following PA 102-0828)
-
-### Case law
-
-- Carpetland U.S.A., Inc. v. IDES, 776 N.E.2d 166 (Ill. 2002) — leading case interpreting the ABC test
-- AFM Messenger Service v. IDES, 763 N.E.2d 272 (Ill. 2001) — Prong B "usual course of business" interpretation
-- People ex rel. Dep't of Labor v. MCC Home Health Care, 339 Ill. App. 3d 10 (1st Dist. 2003) — joint employer doctrine
-
-### Recent legislative changes affecting 2025
-
-- PA 103-0539 (effective January 1, 2025) — Illinois Pay Transparency requirements for employers with 15+ employees
-- PA 103-0201 (2023) — Domestic workers expressly covered under PLAWA
-- PA 102-0828 (effective January 1, 2023) — One Day Rest in Seven Act amendments increasing penalties and expanding meal break rules
-- PA 102-0179 (2021, fully effective November 1, 2023) — Secure Choice expansion to 5-employee threshold
-
-### Verification status
-
-This skill is marked `verified_by: pending`. Before publication, the reviewer must:
-
-1. Confirm the 2025 IL PIT personal exemption amount of $2,775 against the published IL-700-T booklet.
-2. Confirm the 2025 IDES rate schedule (0.85% – 8.65%, wage base $13,590) against the IDES public rate determination.
-3. Confirm the current Cook County opt-out status for any municipality where the client has employees.
-4. Confirm the current Secure Choice employer registration data via the Treasurer's portal.
-5. Sign off as an Illinois-credentialed reviewer (CPA, EA with Illinois practice, or licensed payroll specialist).
-
-End of skill.
-
-<!-- openaccountants-cta-block -->
 
 ---
 

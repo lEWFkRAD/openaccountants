@@ -5,7 +5,6 @@ version: "1.1"
 jurisdiction: US-IL
 tax_year: 2025
 last_updated: 2026-10-28
-reviewed_by: A licensed accountant (name withheld at their request)
 review_status: current
 trust_label: Checked by a licensed accountant (name withheld at their request)
 depends_on:
@@ -259,16 +258,12 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ## Sources
 
-Before delivering output, verify:
+| Source | URL | Read on |
+|---|---|---|
+| IDOR bulletin FY 2026-12 | https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html | 2026-10-27 |
+| IDOR ROT page | https://tax.illinois.gov/research/taxinformation/sales/rot.html | 2026-10-27 |
 
-- [ ] Correct combined rate used for seller's location (verified via IDOR tax rate database)
-- [ ] Sales properly categorized as general merchandise vs. qualifying food/drugs/medical
-- [ ] Origin-based sourcing applied (seller's location determines rate)
-- [ ] Vendor discount applied only to state portion and only for timely returns
-- [ ] SOT applied to cost price (not retail or service price) for service transactions
-- [ ] Use tax reported for out-of-state purchases
-- [ ] Zero return filed if no activity
-- [ ] Interstate sales properly excluded with documentation
+Not yet confirmed: Publication 113, PIO-115, ST-1 instructions and local-rate tables not in the archive set; vendor discount 1.75% and local rate examples not line-verified
 
 ## Talk to a verified accountant
 
