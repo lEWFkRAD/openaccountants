@@ -38,7 +38,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Extension deadline | October 15, 2026 |
 | Tax authority | North Carolina Department of Revenue (NCDOR) |
 | Statute | N.C. Gen. Stat. § 105-153.5(b)(5), (b)(5a) (current chapter); historical § 105-134.6(b)(6) (pre-2014) |
-| Governing case | *Bailey v. State of North Carolina*, 348 N.C. 130, 500 S.E.2d 54 (1998); Consent Order entered June 11, 1998 |
+| Governing case | *Bailey v. State of North Carolina*, 348 N.C. 130, 500 S.E.2d 54 (1998); Consent Order entered June 11, 1998 (case report and Consent Order text not archived — see Not yet confirmed) |
 
 ### Sources consulted (URLs verified May 28, 2026)
 
@@ -278,7 +278,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 
 ### Example 1 — NC State employee hired 1985, vested by 1989, retired 2020
 
-**Facts.** Maria, a NC resident filing MFJ, retired from TSERS in 2020 after 35 years of state service. She first worked for the State on July 1, 1985. By 8/12/1989, she had 4 years and 1 month of TSERS creditable service. She also purchased 11 months of military service credit in 1992 (back-credited to her start date), bringing her pre-1989 creditable service total to **5 years exactly**. TSERS issued her a Bailey letter in 2020 confirming vested status. She receives $48,000/yr in TSERS retirement benefits, fully reported on Form 1099-R (Box 1 = Box 2a = $48,000).
+**Facts (hypothetical client).** Maria, a NC resident filing MFJ, retired from TSERS in 2020 after 35 years of state service. She first worked for the State on July 1, 1985. By 8/12/1989, she had 4 years and 1 month of TSERS creditable service. She also purchased 11 months of military service credit in 1992 (back-credited to her start date), bringing her pre-1989 creditable service total to **5 years exactly**. TSERS issued her a Bailey letter in 2020 confirming vested status. She receives $48,000/yr in TSERS retirement benefits, fully reported on Form 1099-R (Box 1 = Box 2a = $48,000).
 
 **Bailey analysis.**
 - Qualifying system: yes (TSERS) ✓
@@ -287,13 +287,13 @@ This is the full picture of how NC treats each type of retirement income — Bai
 - In federal AGI: yes ✓
 - Documentation: yes (Bailey letter + 1099-R) ✓
 
-**Result.** Full $48,000 deducted on D-400 Schedule S, Part B, **Line 20**.
+**Result.** Full $48,000 deducted on D-400 Schedule S, Part B, **Line 20** (Bailey subtraction per § 105-153.5(b)(5); line numbers per the archived 2025 D-400 Schedule S Web-Fill).
 
 > **Flash point.** Purchased service credit counts toward the 5-year test if and only if it was attributable to a period before 8/12/1989. NCDOR has accepted back-credited service in this fact pattern, but the TSERS Bailey letter is the operative document — do not infer from the purchase paperwork alone.
 
 ### Example 2 — NC State employee hired 1991 — NOT Bailey-protected
 
-**Facts.** James, a NC resident filing single, started his state job on March 1, 1991 and retired in 2025 with 34 years of TSERS service. He receives $55,000/yr in TSERS benefits.
+**Facts (hypothetical client).** James, a NC resident filing single, started his state job on March 1, 1991 and retired in 2025 with 34 years of TSERS service. He receives $55,000/yr in TSERS benefits.
 
 **Bailey analysis.**
 - Qualifying system: yes (TSERS) ✓
@@ -306,7 +306,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 
 ### Example 3 — Federal CSRS retiree with 5 yrs by 8/12/89
 
-**Facts.** Elaine, a NC resident filing single, worked for the federal government from January 1980 through December 2015 under CSRS. She has 35 years of federal CSRS service. OPM issues her a CSA 1099-R showing $62,000/yr gross / $62,000 federally taxable.
+**Facts (hypothetical client).** Elaine, a NC resident filing single, worked for the federal government from January 1980 through December 2015 under CSRS. She has 35 years of federal CSRS service. OPM issues her a CSA 1099-R showing $62,000/yr gross / $62,000 federally taxable.
 
 **Bailey analysis.**
 - Qualifying system: yes (CSRS) ✓
@@ -315,7 +315,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 - In federal AGI: yes ✓
 - Documentation: 1099-R + SF-50 showing service computation date 1/1/1980 ✓
 
-**Result.** Full $62,000 deducted on D-400 Schedule S, Part B, **Line 20**.
+**Result.** Full $62,000 deducted on D-400 Schedule S, Part B, **Line 20** (Bailey subtraction per § 105-153.5(b)(5); line numbers per the archived 2025 D-400 Schedule S Web-Fill).
 
 Elaine also receives $32,000 in Social Security; the federally taxable portion (assume 85% = $27,200) is deducted on Schedule S **Line 19**.
 
@@ -323,20 +323,20 @@ Her NC taxable income from these two sources = $0.
 
 ### Example 4 — Mixed-source retiree
 
-**Facts.** Robert, a NC resident filing MFJ, receives:
-- $36,000/yr from TSERS — Bailey-vested (TSERS letter on file)
-- $24,000/yr from a private 401(k) (rollover from his post-state-employment private-sector job; never touched the TSERS account)
+**Facts (hypothetical client).** Robert, a NC resident filing MFJ, receives:
+- $36,000/yr from TSERS — Bailey-vested (TSERS letter on file) — hypothetical client facts
+- $24,000/yr from a private 401(k) (rollover from his post-state-employment private-sector job; never touched the TSERS account) — hypothetical
 - $18,000/yr Social Security (federally taxable portion: $15,300 = 85%)
 - $8,000/yr from a traditional IRA he funded with personal contributions in the 2000s
-- $14,000/yr from U.S. military retirement (served 22 yrs active Army, retired 2010) — qualifies under § 105-153.5(b)(5a)
+- $14,000/yr from U.S. military retirement (served 22 yrs active Army, retired 2010) — qualifies under § 105-153.5(b)(5a) — hypothetical
 
 Total federal AGI line items (assuming all included): TSERS $36k + 401(k) $24k + taxable SS $15.3k + IRA $8k + Military $14k = **$97,300**.
 
 **Items NOT deductible (taxable to NC):**
-- Private 401(k): $24,000 — fully taxable to NC, no NC retirement-income deduction available
+- Private 401(k): $24,000 — fully taxable to NC, no NC retirement-income deduction available (NC grants no general retirement deduction; § 105-153.5 lists only the enumerated subtractions)
 - Traditional IRA: $8,000 — fully taxable to NC
 
-**NC taxable income from retirement = $97,300 − $65,300 = $32,000** (before standard deduction).
+**NC taxable income from retirement = $97,300 − $65,300 = $32,000** (before standard deduction; arithmetic on hypothetical client facts, rates from the confirmed § 105-153.7 table).
 
 After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax = $6,500 × 4.25% = **$276**.
 
@@ -350,6 +350,8 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 | TSERS (Bailey) | $36,000 | Line 20 |
 | Military retirement (§ 105-153.5(b)(5a)) | $14,000 | Line 21 |
 | **Total deductions** | **$65,300** | **Line 41** |
+
+(Arithmetic on hypothetical client facts; line references per the archived 2025 D-400 Schedule S Web-Fill.)
 
 ## Ask the client first
 

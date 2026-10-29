@@ -47,7 +47,7 @@ Intake and the content Guides have already collected the facts for this working 
 | Primary forms produced | D-400, D-400 Schedule S (Supplemental Schedule, additions/deductions), D-400 Schedule A (NC itemized — if elected), D-400TC (Tax Credits), NC-40 (2026 estimated payment vouchers) |
 | Forms refused at this orchestrator | D-400 Schedule AM (amended), D-400 Schedule PN (part-year/non-resident), D-403 (partnership), CD-401S / CD-405 (corporate), NC K-1 inbound from S-corp/partnership |
 | Authority | North Carolina Department of Revenue (NCDOR) |
-| Statutes | N.C.G.S. Chapter 105, Article 4 (Individual Income Tax); Bailey v. State, 348 N.C. 130 (1998) for the qualifying-pension subtraction |
+| Statutes | N.C.G.S. Chapter 105, Article 4 (Individual Income Tax) — chapter text archived 2026-10-29; Bailey v. State, 348 N.C. 130 (1998) for the qualifying-pension subtraction (case report not archived; see Not yet confirmed) |
 | Filing deadline | April 15, 2026 |
 | Extension deadline | October 15, 2026 (Form D-410) |
 | TY 2025 flat rate | 4.25% (per N.C.G.S. §105-153.7, Session Law 2023-134) |

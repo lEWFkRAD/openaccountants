@@ -89,7 +89,7 @@ NC's archived NC-40 instructions do NOT contain a federal-style 110%/AGI>$150,00
 | 2024 | 4.50% | Session Law 2023-134 |
 | 2025 | 4.25% | Session Law 2023-134 |
 | 2026 | 3.99% | Session Law 2023-134 |
-| 2027 | 3.49% (triggered) | Session Law 2023-134; revenue trigger expected to be met |
+| 2027 | 3.99% unless the § 105-153.7(a1) revenue trigger is met, in which case 3.49% | N.C.G.S. § 105-153.7(a1) (archived text, read 2026-10-29) |
 | 2028+ | Scheduled to 2.99% then ultimately 2.49% by 2030 | `[VERIFY:]` confirm final-year phase-down legislation |
 
 ### Current underpayment interest rate
@@ -175,7 +175,7 @@ NC's safe harbor mirrors federal § 6654 in structure but uses NC tax figures th
 
 ### Worked safe-harbor calc — moderate income
 
-> Taxpayer: NC resident, single, freelance developer.
+> Taxpayer (hypothetical client facts): NC resident, single, freelance developer.
 > Prior-year (2024) NC tax (D-400 Line 17): $7,200. Prior-year NC AGI: $108,000.
 > Current-year (2025) projected NC tax: $9,000.
 
@@ -190,7 +190,7 @@ NC's safe harbor mirrors federal § 6654 in structure but uses NC tax figures th
 
 ### Worked safe-harbor calc — high-income
 
-> Taxpayer: NC resident, MFJ. Prior-year (2024) NC tax: $18,400.
+> Taxpayer (hypothetical client facts): NC resident, MFJ. Prior-year (2024) NC tax: $18,400.
 > Prior-year NC AGI: $312,000 (> $150,000 threshold → 110% applies).
 > Current-year (2025) projected NC tax: $22,000.
 
@@ -201,7 +201,7 @@ NC's safe harbor mirrors federal § 6654 in structure but uses NC tax figures th
 | A — 90% current year | $22,000 × 0.90 | $19,800 |
 | C — 110% prior year | $18,400 × 1.10 | $20,240 |
 
-RAP = lower of $19,800 or $20,240 = $19,800. Each quarterly installment = $19,800 / 4 = $4,950.
+RAP = lower of $19,800 or $20,240 = $19,800. Each quarterly installment = $19,800 / 4 = $4,950. (Arithmetic on hypothetical client facts; safe-harbor prongs per the archived 2025 NC-40 instructions: "90% (66 2/3% for farmers and fishermen) of the tax due on your current year’s return; (b) 100% of the tax due on your prior year’s return".)
 
 > **Practical tip.** When the 110% rule applies and current-year income is projected to drop, choosing the 90% current-year prong avoids over-payment. When current-year income is projected to spike, locking in the 110% prior-year prong avoids penalty exposure on growth.
 
@@ -217,7 +217,7 @@ RAP = lower of $19,800 or $20,240 = $19,800. Each quarterly installment = $19,80
 
 ### Worked installment schedule
 
-> Same facts as moderate-income example above. RAP = $7,200. Projected NC withholding from a small W-2 = $1,200 (treated as $300/quarter).
+> Same hypothetical client facts as the moderate-income example above. RAP = $7,200. Projected NC withholding from a small W-2 = $1,200 (treated as $300/quarter).
 
 **Worked installment schedule table**
 
@@ -269,7 +269,7 @@ Used when income is lumpy or seasonal — large Q3 or Q4 capital gain, freelance
 | Q3 (8 mo) | $112,000 | $168,000 | ~$6,650 | × 67.5% = $4,489 | − $675 | **$3,814** |
 | Q4 (12 mo) | $128,000 | $128,000 | ~$4,930 | × 90.0% = $4,437 | − $4,489 | **$0** (or wait — see note) |
 
-> **Note.** The Q4 cumulative requirement ($4,437) can be less than already paid ($4,489) when income decelerates after Q3. In that case the Q4 installment falls to zero. Form D-422 then carries the "excess Q3" forward as a credit toward any remaining shortfall — interest on any earlier underpayment is still computed period by period.
+> **Note (hypothetical arithmetic).** The Q4 cumulative requirement ($4,437) can be less than already paid ($4,489) when income decelerates after Q3. In that case the Q4 installment falls to zero. Form D-422 then carries the "excess Q3" forward as a credit toward any remaining shortfall — interest on any earlier underpayment is still computed period by period.
 
 `[VERIFY:]` These hypothetical-example numbers approximate the mechanics; an actual return uses D-422A line by line with the precise NC AGI, NC standard deduction (annualized), and child deduction (annualized). Run the worksheet against the live taxpayer facts before relying on figures.
 
@@ -456,20 +456,20 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 ### Example 1 — Steady-income NC freelancer ($150k expected)
 
-> **Taxpayer:** Single, full-year NC resident, freelance graphic designer.
+> **Taxpayer (hypothetical client facts):** Single, full-year NC resident, freelance graphic designer.
 > Projected 2025 NC AGI: $150,000. No W-2 withholding. No NC credits.
 > Prior-year (2024) NC tax: $5,800. Prior-year NC AGI: $138,000.
 
 **Step 1 — Project 2025 NC tax:**
 - Federal AGI proxy ≈ NC AGI = $150,000
-- NC standard deduction (single) = $12,750
+- NC standard deduction (single) = $12,750 (§ 105-153.5(a)(1): "Single 12,750")
 - NC taxable income = $137,250
 - NC tax = $137,250 × 4.25% = **$5,833**
 
 **Step 2 — Safe harbor:**
 - 90% current year = $5,833 × 0.90 = $5,250
 - 100% prior year = $5,800 (110% rule does not apply — prior AGI $138k ≤ $150k)
-- **RAP = lower = $5,250**
+- **RAP = lower = $5,250** (arithmetic on hypothetical client facts)
 
 **Step 3 — Test threshold:** $5,833 expected tax, zero withholding, shortfall $5,833 ≥ $1,000 → estimates required.
 
@@ -483,13 +483,13 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | 2 | Jun 15, 2025 | $1,313 |
 | 3 | Sep 15, 2025 | $1,313 |
 | 4 | Jan 15, 2026 | $1,311 |
-| **Total** |  | **$5,250** |
+| **Total** |  | **$5,250** | (hypothetical)
 
 **Step 5 — Year-end:** If actual 2025 NC tax is $5,833 and $5,250 was paid in estimates, balance due with D-400 = $583 by April 15, 2026. Safe harbor met → no D-422 interest.
 
 ### Example 2 — Self-employed with Q3 income spike (annualized method)
 
-> **Taxpayer:** Single, NC resident, software consultant. Steady income $5,000/month Jan–Aug. Closes a $90,000 platform deal in September. Final 2025 NC AGI = $130,000. Prior-year NC tax: $4,400.
+> **Taxpayer (hypothetical client facts):** Single, NC resident, software consultant. Steady income $5,000/month Jan–Aug. Closes a $90,000 platform deal in September. Final 2025 NC AGI = $130,000. Prior-year NC tax: $4,400.
 
 **Projected NC tax:**
 - NC AGI $130,000 − $12,750 std ded = $117,250 taxable
@@ -514,7 +514,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 ### Example 3 — High-income MFJ with W-2 withholding shortfall
 
-> **Taxpayer:** MFJ, both spouses NC residents. Spouse A: W-2 salary $180,000, NC withholding $7,200. Spouse B: freelance income $130,000, no withholding. Prior-year (2024) NC AGI: $295,000 (>$150,000 → 110% rule applies). Prior-year NC tax: $13,800.
+> **Taxpayer (hypothetical client facts):** MFJ, both spouses NC residents. Spouse A: W-2 salary $180,000, NC withholding $7,200. Spouse B: freelance income $130,000, no withholding. Prior-year (2024) NC AGI: $295,000 (>$150,000 → 110% rule applies). Prior-year NC tax: $13,800.
 
 **Projected 2025 NC tax:**
 - NC AGI ≈ $310,000 − $25,500 MFJ std ded = $284,500
@@ -523,14 +523,14 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 **Safe harbor:**
 - 90% current year = $12,091 × 0.90 = $10,882
 - 110% prior year = $13,800 × 1.10 = $15,180
-- **RAP = lower = $10,882**
+- **RAP = lower = $10,882** (arithmetic on hypothetical client facts)
 
 **Test threshold:**
 - Expected tax $12,091 − withholding $7,200 = $4,891 ≥ $1,000 → estimates required
 
 **Required quarterly cash payment (after withholding):**
 - Withholding credit per quarter = $7,200 ÷ 4 = $1,800
-- Required installment per quarter = $10,882 ÷ 4 = $2,721
+- Required installment per quarter = $10,882 ÷ 4 = $2,721 (hypothetical)
 - Net NC-40 payment per quarter = $2,721 − $1,800 = **$921**
 
 **Example 3 payments table**
@@ -541,7 +541,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | 2 | Jun 15, 2025 | $921 |
 | 3 | Sep 15, 2025 | $921 |
 | 4 | Jan 15, 2026 | $920 |
-| **Total** |  | **$3,683** |
+| **Total** |  | **$3,683** | (hypothetical)
 
 **Alternative — increase Spouse A's W-2 withholding:** If Spouse A files a new NC-4 to add ~$300/month extra NC withholding ($3,600 annual), total withholding rises to $10,800 → covers 90% safe harbor without any NC-40 payments. Withholding is deemed paid evenly across the year, so this also retroactively cures any Q1/Q2 shortfall. This is the cleanest fix for W-2 dominated households.
 

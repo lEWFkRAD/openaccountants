@@ -38,7 +38,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Extension deadline | October 15, 2026 |
 | Tax authority | North Carolina Department of Revenue (NCDOR) |
 | Website | https://www.ncdor.gov |
-| Statute | N.C.G.S. Chapter 105, Article 4 |
+| Statute | N.C.G.S. Chapter 105, Article 4 — chapter text archived: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_105.html |
 
 **Sources:**
 - NCDOR, Tax Rate Schedules: https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules
@@ -171,7 +171,7 @@ Form NC-40 is used for estimated tax payments.
 
 | Rule ID | Rule | Source |
 | --- | --- | --- |
-| NC-T1-01 | NC taxable income = federal AGI ± NC modifications − standard/itemized deduction − child deduction | N.C.G.S. §105-153.4 |
+| NC-T1-01 | NC taxable income = federal AGI ± NC modifications − standard/itemized deduction − child deduction | N.C.G.S. § 105-153.5 (standard deduction), § 105-153.6 (child deduction; see 2025 D-401 instructions, Line 10 Child Deduction Worksheet, archived) |
 | NC-T1-02 | Tax = NC taxable income × 4.25% (TY 2025) | N.C.G.S. §105-153.7; Session Law 2023-134 |
 | NC-T1-03 | Standard deduction: $12,750 (S), $25,500 (MFJ), $12,750 (MFS), $19,125 (HOH) | N.C.G.S. §105-153.5(a)(1) |
 | NC-T1-04 | NC §179 limits = $25,000 expense / $200,000 investment; add 85% of federal-vs-NC difference | N.C.G.S. §105-153.6; NCDOR 2025 D-401 Instructions (archived) |
@@ -201,7 +201,7 @@ Form NC-40 is used for estimated tax payments.
 | NC additions | Schedule S, Part A (computed from federal return) |
 | NC deductions | Schedule S, Part B (computed from federal return) |
 | Standard deduction | Based on filing status |
-| Child deduction | Based on NC AGI and number of qualifying children |
+| Child deduction | Number of qualifying children × per-child amount from the Child Deduction Table, phased down by federal AGI (2025 D-401 instructions, Line 10 worksheet, archived) |
 | Tax credits | D-400TC (credit for taxes paid to other states, child tax credit, etc.) |
 | Estimated tax payments | NC-40 records |
 | NC withholding | W-2 Box 17 / 1099 NC withholding amounts |
@@ -215,10 +215,10 @@ Form NC-40 is used for estimated tax payments.
 | Line 6 | Federal adjusted gross income | Federal 1040, Line 11 |
 | Line 7 | Additions from Schedule S | Schedule S, Part A total |
 | Line 9 | Deductions from Schedule S | Schedule S, Part B total |
-| Line 11 | NC standard deduction or NC itemized deductions | Computed |
-| Line 13 | Child deduction | Based on NC AGI and dependents |
+| Line 11 | NC standard deduction or NC itemized deductions | § 105-153.5 amounts (§ 105-153.5 archived) |
+| Line 13 | Child deduction | Child Deduction Worksheet (2025 D-401 instructions, Line 10; archived) |
 | Line 14 | NC taxable income | Line 6 + Line 7 − Line 9 − Line 11 − Line 13 |
-| Line 15 | NC income tax | Line 14 × 0.0425 |
+| Line 15 | NC income tax | Line 14 × 0.0425 (§ 105-153.7 rate confirmed) |
 | Line 20 | Tax credits | D-400TC total |
 | Line 23 | NC tax withheld | W-2s / 1099s |
 | Line 25 | Estimated tax payments | NC-40 payments |
