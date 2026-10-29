@@ -52,7 +52,7 @@ Source-cited draft, run of 2026-10-28. Louisiana has **no state social insurance
 - Annual contribution-rate notices issue each year for the rate year beginning January 1 — protest windows **not confirmed**.
 - Quarterly wage reports also feed the LaCOSA24/7 system — portal mechanics **not confirmed**.
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - Late reports/contributions: penalty plus interest under R.S. 23:1631 et seq. — percentages **not confirmed**.
 - Worker-misclassification exposure: LWC audits employer classifications; back-contributions plus penalties — tiers **not confirmed**.
@@ -63,7 +63,7 @@ Source-cited draft, run of 2026-10-28. Louisiana has **no state social insurance
 - Remote workers: localization-of-work tests determine which state's UI covers the wages — Louisiana adoption citation **not confirmed**.
 - No state-level portability issues for Social Security/Medicare — federal only.
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — single-employee UI cost (hypothetical base/rate — not confirmed against LWC):** one employee, $120,000 annual Louisiana wages, assumed base $9,000, assumed experience rate 2.7%.
 

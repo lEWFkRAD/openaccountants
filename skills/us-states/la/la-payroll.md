@@ -53,7 +53,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding b
 - L-3 annual reconciliation: **January 31** following the calendar year close (verified).
 - Notify LDR of name/address/responsible-party/ownership changes (verified duty).
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - Common-mistake list published by LDR: filing after due date, missing zero returns, missing e-payment deadlines (verified page; penalty percentages under R.S. 47:1607 **not confirmed**).
 - Failure to withhold: employer liable for amounts that should have been withheld plus penalties — tiers **not confirmed**.
@@ -64,7 +64,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding b
 - Nonresidents working in Louisiana: withholding required like residents (verified duty).
 - W-2 state-box reporting via LaWage e-file (verified channel).
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — payment-frequency band:** employer averages $4,800/month of Louisiana withholding. The bands (average monthly withholding <$500 → quarterly; $500–<$5,000 → monthly; ≥$5,000 → semi-monthly) are verified quotes from the LDR Withholding page (2026-10-28); the $4,800 figure is a hypothetical client fact.
 

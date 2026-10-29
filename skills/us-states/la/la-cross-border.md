@@ -53,7 +53,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 - IT-540/IT-540B: **May 15** for calendar-year filers (Louisiana's individual deadline — verified against the LDR Individual Income Tax page 2026-10-28); R.S. 47:103 gives an automatic six-month extension to file, never to pay.
 - Withholding remittances follow the payroll calendar (see `la-payroll`).
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - Standard R.S. 47 late-filing/late-payment regime — tiers **not confirmed**.
 - Dual-residency disputes (e.g. LA vs TX domicile fights) are litigation-prone; no special penalty for the dispute itself.
@@ -65,7 +65,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 - **Military**: for taxable years beginning before January 1, 2023, LA-domiciled (home-of-record) military personnel filed as part-year residents (LDR page, verified 2026-10-28); MMRA resident-retention adoption detail **not confirmed**.
 - Louisiana's **May 15** individual deadline is later than most states' April 15 — coordinate multi-state extensions.
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — Louisiana resident working in Texas (no TX tax):** hypothetical client facts: Louisiana tax on worldwide income $5,100; Texas tax $0; no credit available (Texas levies no income tax).
 

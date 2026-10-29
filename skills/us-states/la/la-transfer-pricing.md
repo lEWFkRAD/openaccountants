@@ -52,7 +52,7 @@ Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pr
 - No separate TP filing calendar; adjustments ride CIFT-620 (due 15th day of 5th month — verified) and any combined-report attachment.
 - Keep contemporaneous federal §6662(e) documentation — Louisiana examiners use the federal file. Linkage **not confirmed**.
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - Understatements carry interest and accuracy penalties under R.S. 47 — tiers **not confirmed**.
 - No Louisiana-specific TP documentation penalty identified — absence **not confirmed**.
@@ -63,7 +63,7 @@ Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pr
 - Intangible holding companies in zero-tax states (TX/NV/WY) are the classic Louisiana addback target given the 5.5% flat rate makes adjustments material.
 - Combined reporting pulls out-of-state affiliates into one Louisiana factor set.
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — royalty addback exposure (hypothetical addback percentage — not confirmed):** Louisiana operating company pays $500,000 royalties to a related Texas affiliate (no TX income tax); assumed 30% addback at the verified 5.5% rate.
 
