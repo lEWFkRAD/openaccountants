@@ -131,7 +131,7 @@ The cost differential is driven by the rate cards of the newspapers the county c
 
 ### 4.1 Certificate of Incorporation
 
-- **Certificate of Incorporation filing fee** — $125 USD  _(BCL §402, Form DOS-1239)_
+- **Certificate of Incorporation filing fee** — $125 USD  _(BCL §402, Form DOS-1239)_ (not yet confirmed)
 - **Share tax and total example cost** — Plus a tax on shares: $0.05 per share for the first 20,000 shares, then graduating downward. For a typical 200-share startup at par value, the total filing cost is $135.  _(BCL §402)_
 - **Certificate must state** — Name (must contain "Corporation", "Incorporated", "Limited", or a recognized abbreviation — BCL §301); Purpose (a general business purpose clause is acceptable — "to engage in any lawful business activity"); Aggregate number of shares the corporation is authorized to issue, with par value or "no par"; County in NY where the office is to be located; Designation of the Secretary of State as agent for service of process; Names and addresses of the incorporators.  _(BCL §301, §402)_
 
@@ -152,11 +152,11 @@ The cost differential is driven by the rate cards of the newspapers the county c
 
 The federal Subchapter S election (Form 2553) made under IRC §1362 does not automatically flow through to New York. NY requires a separate state-level S-corp election under N.Y. Tax Law §660(a), made on Form CT-6 ("Election by a Federal S Corporation to be Treated as a New York S Corporation").
 
-- **Eligibility** — The corporation must already have a valid federal S-corporation election in effect; The corporation must be a NY-resident corporation (formed in NY) or a foreign corporation doing business in NY that is subject to franchise tax under Article 9-A; All shareholders who are NY residents on the date the election is made (or, for a new corporation, on the first day of the first taxable year) must consent.  _(N.Y. Tax Law §660(a))_
+- **Eligibility** — The corporation must already have a valid federal S-corporation election in effect; The corporation must be a NY-resident corporation (formed in NY) or a foreign corporation doing business in NY that is subject to franchise tax under Article 9-A; All shareholders who are NY residents on the date the election is made (or, for a new corporation, on the first day of the first taxable year) must consent.  _(N.Y. Tax Law §660(a))_ (not yet confirmed)
 - **Timing** — For the election to be effective for a tax year, Form CT-6 must be filed within 2½ months of the first day of the tax year, or at any time during the preceding tax year. This is parallel to the federal §1362(b) timing rule.  _(N.Y. Tax Law §660(a); IRC §1362(b))_
 - **Effect of the election** — The S-corp's income, losses, deductions, and credits flow through to NY-resident shareholders on Form CT-34-SH and on the shareholders' Form IT-201 (NY personal income tax return); The corporation itself still pays NY franchise tax, but at the fixed-dollar minimum tax schedule (the same minimum as for C-corps, ranging from $25 to $4,500 based on NY receipts) rather than the higher business-income tax; The corporation also potentially owes the MTA Surcharge if it operates in the Metropolitan Commuter Transportation District (NYC + Nassau, Suffolk, Westchester, Rockland, Orange, Putnam, Dutchess counties).
 - **Mandatory NY S-corp treatment** — Under N.Y. Tax Law §660(i), a federal S-corporation that has investment income exceeding 50% of its federal gross income is mandatorily treated as a NY S-corporation, regardless of whether Form CT-6 has been filed. This is a trap for founders who do not realize they triggered automatic NY S treatment.  _(N.Y. Tax Law §660(i))_
-- **Failure to file Form CT-6** — If the federal S-election is in effect but the founder did not file Form CT-6, the entity is taxed as a NY C-corporation. This generally produces a worse tax outcome (the corporation pays full Article 9-A tax on its business income, and the shareholders receive distributions taxed as dividends rather than pass-through income). Reviewers should check Form CT-6 filing status for every federal S-corp client they encounter.
+- **Failure to file Form CT-6** — If the federal S-election is in effect but the founder did not file Form CT-6, the entity is taxed as a NY C-corporation. This generally produces a worse tax outcome (the corporation pays full Article 9-A tax on its business income, and the shareholders receive distributions taxed as dividends rather than pass-through income). Reviewers should check Form CT-6 filing status for every federal S-corp client they encounter. (not yet confirmed)
 
 ## Deadlines and filing
 
@@ -176,14 +176,14 @@ New York City has its own tax regime that overlays the NY State regime. The NYC 
 
 - **UBT tax rate** — 4% (of taxable income after exemption)  _(Section 7 — NY-specific tax framework > NYC Unincorporated Business Tax (UBT) — Form NYC-202)_
 - **Who UBT applies to** — Sole proprietors carrying on a trade, business, profession, or occupation wholly or partly within NYC; Partnerships (including LLCs taxed as partnerships) carrying on a trade, business, profession, or occupation wholly or partly within NYC; Single-member LLCs that are disregarded for federal tax purposes are treated as the activity of the member (so if the member is an individual sole proprietor, UBT applies to the individual).  _(NYC Administrative Code Title 11, Chapter 5)_
-- **UBT exemption/credit thresholds** — A credit eliminates UBT for businesses with UBT taxable income of $95,000 or less; a partial credit phases out the credit between $95,000 and $150,000 of UBT taxable income; above $150,000, full UBT applies.  _(NYC Administrative Code Title 11, Chapter 5)_
+- **UBT exemption/credit thresholds** — A credit eliminates UBT for businesses with UBT taxable income of $95,000 or less; a partial credit phases out the credit between $95,000 and $150,000 of UBT taxable income; above $150,000, full UBT applies.  _(NYC Administrative Code Title 11, Chapter 5)_ (not yet confirmed)
 - **Form** — NYC-202 (individual sole props) or NYC-204 (partnerships/LLCs). See `nyc-ubt.md` for the full computation.
 
 New NYC-based freelance software developers (the prototypical sole-prop or single-member-LLC client) frequently fail to file Form NYC-202. They file federal Schedule C, NY State IT-201, and stop there. The UBT is invisible to them until the NYC DOF sends a notice. By that point, late-filing penalties and interest may have accrued. Reviewers should always verify UBT filing status for any NYC-resident individual carrying on a trade or business. A common defensive argument is that the freelancer is "performing services as an employee" rather than as an independent business — but if the freelancer files Schedule C federally, that argument is foreclosed at the city level too.
 
 ### 6.2 NYC General Corporation Tax (GCT) — Legacy
 
-- **GCT history and applicability** — Prior to 2015, NYC corporations paid the NYC General Corporation Tax (GCT) under Title 11, Chapter 6, Subchapter 2. The 2015 NYC corporate tax reform (NYC Local Law 60 of 2015) repealed the GCT for most corporations and replaced it with the NYC Business Corporation Tax (BCT) under Subchapter 3-A, which is aligned with the post-2015 NY State Article 9-A. GCT is still in effect for: S corporations (NYC does not recognize the federal or NY state S election for purposes of the NYC corporate tax — S corps are taxed at the entity level under GCT); Insurance corporations and certain other excluded categories.  _(NYC Administrative Code Title 11, Chapter 6, Subchapter 2; NYC Local Law 60 of 2015)_
+- **GCT history and applicability** — Prior to 2015, NYC corporations paid the NYC General Corporation Tax (GCT) under Title 11, Chapter 6, Subchapter 2. The 2015 NYC corporate tax reform (NYC Local Law 60 of 2015) repealed the GCT for most corporations and replaced it with the NYC Business Corporation Tax (BCT) under Subchapter 3-A, which is aligned with the post-2015 NY State Article 9-A. GCT is still in effect for: S corporations (NYC does not recognize the federal or NY state S election for purposes of the NYC corporate tax — S corps are taxed at the entity level under GCT); Insurance corporations and certain other excluded categories.  _(NYC Administrative Code Title 11, Chapter 6, Subchapter 2; NYC Local Law 60 of 2015)_ (not yet confirmed)
 - **GCT rate** — 8.85% percent of entire net income allocated to NYC  _(NYC Administrative Code Title 11, Chapter 6, Subchapter 2)_
 
 So a federal S-corporation operating in NYC will pay NYC GCT at the entity level despite its pass-through status for federal and NY State purposes. This is a significant trap for S-corp founders moving to or operating in NYC — the NYC-level entity tax can eliminate much of the federal SE-tax savings that motivated the S-corp election in the first place. Always model NYC GCT before recommending an S-corp election to a NYC-resident client. See `us-s-corp-election-decision.md`.
@@ -191,7 +191,7 @@ So a federal S-corporation operating in NYC will pay NYC GCT at the entity level
 ### 6.3 NYC Business Corporation Tax (BCT)
 
 - **BCT base rate** — 8.85% percent of entire net income allocated to NYC
-- **BCT structure** — For C-corporations operating in NYC, the BCT applies. There is also a capital base and a fixed-dollar minimum, analogous to the NY State Article 9-A structure.
+- **BCT structure** — For C-corporations operating in NYC, the BCT applies. There is also a capital base and a fixed-dollar minimum, analogous to the NY State Article 9-A structure. (not yet confirmed)
 
 ### 6.4 NYC Commercial Rent Tax (CRT)
 
@@ -288,7 +288,7 @@ If the founders nevertheless decide to form a NY LLC initially:
 | Operating Agreement (in-house draft) | $0 |
 | Biennial Statement (filed in year 2) | $9 |
 | IT-204-LL filing fee (year 1, assuming NY gross income $0 – $100,000) | $25 |
-| **Year 1 NY formation cost** | **~$1,775** |
+| **Year 1 NY formation cost** | **~$1,775** | (not yet confirmed)
 
 The LLC is taxed as a partnership federally and is subject to NYC UBT at 4% if NYC-allocated income exceeds the credit threshold. With early-stage SaaS revenue typically under the $95,000 threshold, UBT is fully credited away in year 1. NYC Commercial Rent Tax: if they sign a Manhattan office lease at a rent above $250,000/year, CRT applies. Most early-stage SaaS clients sublease or co-work below the threshold.
 
@@ -298,7 +298,7 @@ If they instead form a Delaware C-corp that qualifies in NY:
 
 | Item | Cost |
 | --- | --- |
-| Delaware Certificate of Incorporation | $89 |
+| Delaware Certificate of Incorporation | $89 | (not yet confirmed)
 | Delaware Annual Franchise Tax (minimum, assumed-par method) | $175 |
 | NY Application for Authority (BCL §1304) | $225 |
 | NY Biennial Statement (filed in year 2) | $9 |
@@ -317,7 +317,7 @@ The Delaware path is dramatically cheaper because the LLC publication requiremen
 
 ### Example 2: Manhattan Real Estate LLC ("215 East 73rd Holdings LLC")
 
-**Facts:** An individual investor forms a single-member LLC to hold one Manhattan rental brownstone. The property generates ~$180,000 of gross rents and $40,000 of net operating income after debt service. The LLC will hold no other assets.
+**Facts:** An individual investor forms a single-member LLC to hold one Manhattan rental brownstone. The property generates ~$180,000 of gross rents and $40,000 of net operating income after debt service. The LLC will hold no other assets. (not yet confirmed)
 
 **Recommendation:**
 
@@ -345,7 +345,7 @@ The LLC will receive NYC real property tax bills as the legal owner — these ar
 
 ### Example 3: Brooklyn Restaurant ("Greenpoint Pierogi LLC")
 
-**Facts:** A restaurateur forms a single-member LLC to own and operate a sit-down restaurant in Greenpoint, Brooklyn. The LLC will have an actual storefront, will hire 8 employees, will hold a liquor license, and will gross ~$1.2M in year 1.
+**Facts:** A restaurateur forms a single-member LLC to own and operate a sit-down restaurant in Greenpoint, Brooklyn. The LLC will have an actual storefront, will hire 8 employees, will hold a liquor license, and will gross ~$1.2M in year 1. (not yet confirmed)
 
 **Recommendation:**
 
@@ -356,11 +356,11 @@ Single-member LLC is appropriate; could also consider C-corp form for liability 
 | Item | Cost |
 | --- | --- |
 | Articles of Organization | $200 |
-| Kings County publication | ~$1,200 |
+| Kings County publication | ~$1,200 | (not yet confirmed)
 | Certificate of Publication | $50 |
 | Biennial Statement | $9 |
 | IT-204-LL (NY-source gross income ~$1.2M, bracket fee) | $1,500 |
-| **Year 1 NY formation cost** | **~$2,959** |
+| **Year 1 NY formation cost** | **~$2,959** | (not yet confirmed)
 
 **NYC overlays:**
 
@@ -389,7 +389,7 @@ The Delaware C-corp does not form a new NY entity. Instead it files an Applicati
 
 **NY tax overlays once doing business in NY:**
 
-- NY State Article 9-A franchise tax (apportioned to NY)
+- NY State Article 9-A franchise tax (apportioned to NY) (not yet confirmed)
 - NYC Business Corporation Tax (apportioned to NYC)
 - NY State and NYC employer registration for the 5 sales employees
 - NY State and NYC withholding for the 5 sales employees
@@ -400,7 +400,7 @@ The Delaware C-corp does not form a new NY entity. Instead it files an Applicati
 
 - Foreign qualification often missed by out-of-state companies that "just open an office" without paperwork. NY can assess back franchise tax and impose penalties for the gap period.
 - NYC BCT applies to the Manhattan presence regardless of headquarters location
-- Article 9-A apportionment for software companies uses single-receipts-factor apportionment under post-2015 reform — most software receipts from NY-located customers will apportion to NY
+- Article 9-A apportionment for software companies uses single-receipts-factor apportionment under post-2015 reform — most software receipts from NY-located customers will apportion to NY (not yet confirmed)
 - Federal Form 1120 and Form 1120 supporting state schedules will need NY add-back / decoupling adjustments (e.g., NY does not allow the full federal deduction for state and local taxes in computing NY entire net income)
 
 ## Ask the client first

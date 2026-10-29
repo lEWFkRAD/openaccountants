@@ -25,7 +25,7 @@ validated: April 2026
 - Form IT-219 (Credit for NYC UBT against NYC resident income tax on Form IT-201)
 - Sole proprietors operating in NYC
 - Single-member LLCs operating in NYC
-- The $95,000 exemption and its phase-out
+- The $95,000 exemption and its phase-out (not yet confirmed)
 - UBT estimated tax payments
 
 **Out of scope (refused):**
@@ -44,20 +44,20 @@ validated: April 2026
 | Item | Amount | Source |
 |------|--------|--------|
 | UBT rate | 4.0% of unincorporated business taxable income | NYC Admin Code §11-503(a). Corroborated: NYC Comptroller fiscal note rate table (archived `US-NY-NYC-comptroller-business-income-taxes.html`, retrieved 2026-10-28) lists the UBT income tax rate as "4%". |
-| Exemption | $95,000 deduction from unincorporated business taxable income | NYC Admin Code §11-510(a) |
-| Exemption phase-out start | Taxable income > $95,000 | NYC Admin Code §11-510(a) |
-| Exemption phase-out rate | Reduced by $1 for each $2 of income over $95,000 | NYC Admin Code §11-510(a) |
-| Exemption fully phased out | Taxable income >= $190,000 | Computed: $95,000 + (2 x $95,000) |
+| Exemption | $95,000 deduction from unincorporated business taxable income | NYC Admin Code §11-510(a) | (not yet confirmed)
+| Exemption phase-out start | Taxable income > $95,000 | NYC Admin Code §11-510(a) | (not yet confirmed)
+| Exemption phase-out rate | Reduced by $1 for each $2 of income over $95,000 | NYC Admin Code §11-510(a) | (not yet confirmed)
+| Exemption fully phased out | Taxable income >= $190,000 | Computed: $95,000 + (2 x $95,000) | (not yet confirmed)
 | IT-219 credit | 100% of UBT paid, limited to NYC personal income tax liability | NY Tax Law §1310(e); Form IT-219. Corroborated: NYC Comptroller fiscal note (archived `US-NY-NYC-comptroller-business-income-taxes.html`, retrieved 2026-10-28): "the City allows residents with taxable income up to $42,000 a 100% PIT credit for the UBT paid by the business entity. The credit percentage declines gradually to 23% for taxable incomes higher than $142,000." |
 | Estimated tax threshold | $3,400 expected annual UBT liability | NYC-202EIN instructions. Corroborated: Comptroller fiscal note (same archived file): "A full credit is allowed if the tax is up to $3,400, and a partial credit is allowed for tax liabilities between $3,400 and $4,500." |
 
 ### Exemption phase-out computation
 
-The $95,000 exemption is reduced by $1 for every $2 of taxable income exceeding $95,000:
+The $95,000 exemption is reduced by $1 for every $2 of taxable income exceeding $95,000: (not yet confirmed)
 
 | Taxable income | Exemption | Tax |
 |---------------|-----------|-----|
-| $95,000 or less | $95,000 (full) | $0 |
+| $95,000 or less | $95,000 (full) | $0 | (not yet confirmed)
 | $120,000 | $95,000 - ($25,000 / 2) = $82,500 | ($120,000 - $82,500) x 4% = $1,500 |
 | $150,000 | $95,000 - ($55,000 / 2) = $67,500 | ($150,000 - $67,500) x 4% = $3,300 |
 | $190,000 or more | $0 (fully phased out) | Taxable income x 4% |
@@ -95,12 +95,12 @@ Gross income - allowable deductions = unincorporated business taxable income (be
 
 ### Step 5: Apply the $95,000 exemption (NYC-202, Line 15)
 
-If taxable income <= $95,000: exemption = taxable income. Tax = $0.
+If taxable income <= $95,000: exemption = taxable income. Tax = $0. (not yet confirmed)
 
-If taxable income > $95,000:
-- Excess = taxable income - $95,000
+If taxable income > $95,000: (not yet confirmed)
+- Excess = taxable income - $95,000 (not yet confirmed)
 - Exemption reduction = excess / 2
-- Allowable exemption = $95,000 - exemption reduction
+- Allowable exemption = $95,000 - exemption reduction (not yet confirmed)
 - If allowable exemption < $0, set to $0.
 
 ### Step 6: Compute UBT (NYC-202, Line 16)
@@ -136,7 +136,7 @@ The full amount of UBT paid is available as a credit against NYC personal income
 
 ### E-1: Freelancers and independent contractors
 
-A freelancer who provides services in NYC is subject to UBT if their NYC business gross income exceeds $95,000. Simply having clients in NYC may be sufficient nexus if the work is performed in NYC.
+A freelancer who provides services in NYC is subject to UBT if their NYC business gross income exceeds $95,000. Simply having clients in NYC may be sufficient nexus if the work is performed in NYC. (not yet confirmed)
 
 ### E-2: Work-from-home in NYC
 
@@ -168,13 +168,13 @@ If gross income from the business is $250,000 or less AND the taxpayer has no em
 
 ### Who must file
 
-Every individual or SMLLC carrying on or liquidating a trade, business, profession, or occupation wholly or partly in NYC must file a UBT return if gross income from the NYC business exceeds $95,000. **Source:** NYC Admin Code §11-503(a).
+Every individual or SMLLC carrying on or liquidating a trade, business, profession, or occupation wholly or partly in NYC must file a UBT return if gross income from the NYC business exceeds $95,000. **Source:** NYC Admin Code §11-503(a). (not yet confirmed)
 
 ### Filing thresholds
 
 | Item | Amount | Source |
 |------|--------|--------|
-| Filing requirement threshold | Gross income > $95,000 | NYC Admin Code §11-503(a) |
+| Filing requirement threshold | Gross income > $95,000 | NYC Admin Code §11-503(a) | (not yet confirmed)
 | Simplified return threshold | Gross income <= $250,000 (may use NYC-202S) | NYC-202S instructions |
 
 ### Due date
@@ -202,12 +202,12 @@ UBT late-filing and late-payment penalties apply; current rates are not yet conf
 
 ### Test 1: Income below exemption
 
-- **Input:** Freelancer with $80,000 NYC business gross income.
-- **Expected:** Below $95,000 threshold. No UBT due. No filing required (gross income <= $95,000).
+- **Input:** Freelancer with $80,000 NYC business gross income. (not yet confirmed)
+- **Expected:** Below $95,000 threshold. No UBT due. No filing required (gross income <= $95,000). (not yet confirmed)
 
 ### Test 2: Income in phase-out range
 
-- **Input:** Freelancer with $130,000 taxable business income, all NYC.
+- **Input:** Freelancer with $130,000 taxable business income, all NYC. (not yet confirmed)
 - **Expected:** Excess: $130,000 - $95,000 = $35,000. Exemption reduction: $35,000 / 2 = $17,500. Allowable exemption: $95,000 - $17,500 = $77,500. Taxable after exemption: $130,000 - $77,500 = $52,500. UBT: $52,500 x 4% = $2,100.
 
 ### Test 3: Income above phase-out
@@ -217,7 +217,7 @@ UBT late-filing and late-payment penalties apply; current rates are not yet conf
 
 ### Test 4: IT-219 credit
 
-- **Input:** Same as Test 3. NYC personal income tax: $6,500. UBT paid: $8,000.
+- **Input:** Same as Test 3. NYC personal income tax: $6,500. UBT paid: $8,000. (not yet confirmed)
 - **Expected:** IT-219 credit: limited to $6,500 (cannot exceed NYC personal income tax). Net UBT cost: $8,000 - $6,500 = $1,500.
 
 ### Test 5: Simplified return eligibility
@@ -265,7 +265,7 @@ their name behind the tax answers AI gives people.
 Before delivering output, verify:
 
 - [ ] Business activity is in NYC (not just clients in NYC)
-- [ ] Gross income exceeds $95,000 filing threshold
+- [ ] Gross income exceeds $95,000 filing threshold (not yet confirmed)
 - [ ] Exemption phase-out computed correctly using $1-for-$2 formula
 - [ ] Owner's salary/draws NOT deducted from UBT income
 - [ ] Income taxes NOT deducted from UBT income

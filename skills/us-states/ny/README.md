@@ -20,16 +20,16 @@ New York levies a graduated individual income tax (4%–10.9%), an Article 9-A c
 | PR, payroll withholding | orchestrator `ny-payroll`, `ny-pte-tax-ptet`; ny-mctmt in this folder | existing |
 | XB, cross-border | ny-residency-leaving-new-york (+ residency content in ny-income-tax) | existing |
 | SC, social contributions (PFL, SDI, UI, MCTMT overlay) | ny-social-contributions | source-cited draft |
-| TP, transfer pricing (Article 9-A combined, receipts, intangibles) | ny-transfer-pricing | source-cited draft |
+| TP, transfer pricing (Article 9-A combined, receipts, intangibles) | ny-transfer-pricing | source-cited draft | (not yet confirmed)
 
 ## Official sources
 
-- NYS DTF — Article 9-A (three bases, CT-3-A combined filing): <https://www.tax.ny.gov/bus/ct/article9a.htm> — 200 with text, 2026-10-25.
+- NYS DTF — Article 9-A (three bases, CT-3-A combined filing): <https://www.tax.ny.gov/bus/ct/article9a.htm> — 200 with text, 2026-10-25. (not yet confirmed)
 - NYS DTF — CT-3-A instructions (7.25% factor): <https://www.tax.ny.gov/pdf/current_forms/ct/ct3ai.pdf> — 200 PDF, 2026-10-25.
 - NYS DTF — CT-3-A form: <https://www.tax.ny.gov/pdf/current_forms/ct/ct3a.pdf> — 200 PDF, 2026-10-25.
-- NYS DTF — combined group receipts: <https://www.tax.ny.gov/bus/ct/article9a_deriving_receipts.htm> — linked from Article 9-A page, 2026-10-25.
+- NYS DTF — combined group receipts: <https://www.tax.ny.gov/bus/ct/article9a_deriving_receipts.htm> — linked from Article 9-A page, 2026-10-25. (not yet confirmed)
 - NYS DTF — MCTMT hub: <https://www.tax.ny.gov/bus/mctmt/> — 200 with text, 2026-10-25.
-- NY Paid Family Leave — Cost (2025 rate 0.388%, cap $354.53, NYSAWW $1,757.19): <https://paidfamilyleave.ny.gov/cost> — 200 with text, 2026-10-25.
+- NY Paid Family Leave — Cost (2025 rate 0.388%, cap $354.53, NYSAWW $1,757.19): <https://paidfamilyleave.ny.gov/cost> — 200 with text, 2026-10-25. (not yet confirmed)
 - NYS DTF — IT-203 instructions (convenience of the employer): <https://www.tax.ny.gov/pdf/current_forms/it/it203i.pdf> — 200 PDF, 2026-10-25.
 - NYS DTF — nonresident FAQs: <https://www.tax.ny.gov/pit/file/nonresident-faqs.htm> — 200, 2026-10-25.
 
