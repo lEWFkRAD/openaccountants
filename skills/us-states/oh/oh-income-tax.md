@@ -1,6 +1,6 @@
 ---
 name: oh-income-tax
-description: Triggers when the taxpayer is an Ohio resident sole proprietor or single-member LLC needing to file Ohio Form IT 1040. Covers Ohio's graduated income tax on nonbusiness income (0%, 2.75%, 3.125% for tax year 2025), the business income deduction ($250,000 exclusion taxed at flat 3%), Ohio Schedule of Adjustments, and interaction with federal AGI. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
+description: Triggers when the taxpayer is an Ohio resident sole proprietor or single-member LLC needing to file Ohio Form IT 1040. Covers Ohio's graduated income tax on nonbusiness income (rates and thresholds not yet confirmed), the business income deduction (not yet confirmed), Ohio Schedule of Adjustments, and interaction with federal AGI. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
 version: "0.2"
 jurisdiction: US-OH
 tax_year: 2026
