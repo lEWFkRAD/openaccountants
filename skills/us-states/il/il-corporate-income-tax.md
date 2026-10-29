@@ -26,17 +26,17 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 27 October 2026. Illinois taxes corporations under the Income Tax Act (35 ILCS 5) with a two-component levy on the same base: a **7.0% income tax** and a **2.5% replacement tax**, both computed on Illinois net income after apportionment — a combined 9.5% effective rate. **Source status:** Form IL-1120 (R-12/25, for tax years ending on/after 2025-12-31 and before 2026-12-31 — i.e., the 2026 calendar-year return) and its 24-page instructions PDF were downloaded and text-read 2026-10-27 from tax.illinois.gov; the rate lines ("Multiply Line 39 by 7.0%", "Multiply Line 39 by 2.5%", estimated worksheet "9.5 percent") are read directly from those PDFs. The ILCS section pages render via JavaScript and did not yield text this run — statutory cites carry **needs-sources** for section-level text.
 
-## 2. Who applies
+## Who this applies to
 
 - Corporations (including foreign insurers, cooperatives under IRC 1381, settlement funds under IRC 468B, and political organizations filing federal 1120-POL/1120-H per the instructions) that (per the IL-1120 instructions): do business in Illinois, derive income from Illinois sources, **or** are qualified to do business in Illinois and required to file a federal return — regardless of net income or loss.
 - Unitary business group members file combined apportionment on Illinois Schedule UB (box "Unitary Filer" on IL-1120 Step 1 Line E).
 - S corporations pay the replacement tax component (see `il-income-tax` for the shareholder side).
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Rate / base | Source |
 |---|---|---|
@@ -47,25 +47,25 @@ Source-cited draft, run of 27 October 2026. Illinois taxes corporations under th
 | Apportionment | single sales factor for most corporations; special formulas for sales/insurance/financial/transportation companies (Step 1 Line G); unitary groups use Schedule UB with the **Finnigan** method for tax years ending on/after 2025-12-31 | IL-1120 instructions, read 2026-10-27 |
 | Related-party expenses | Schedule 80/20 addback of interest/intangible expenses and service fees to related affiliates (with exemptions) | IL-1120 instructions, read 2026-10-27 |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - **Return:** IL-1120 due on the same date as the federal return — 15th day of the 4th month after year close (April 15 for calendar-year filers); special rule for June-30 year-ends per instructions.
 - **Estimated tax:** required if expected IL income + replacement tax + surcharge exceeds **$400**; quarterly IL-1120-V payments due 4/15, 6/15, 9/15, 12/15 for calendar-year filers (dates read from instructions examples).
 - **Extension:** automatic 7-month filing extension, but tentative tax must be paid by the **original** due date to stop penalty/interest (instructions, read 2026-10-27).
 - Amended returns: IL-1120-X.
 
-## 5. Penalties and interest
+## Penalties and interest
 
 Per the IL-1120 instructions (read 2026-10-27): late-filing penalty (return not processable by extended due date), late-payment penalty (tax unpaid at original due date), estimated-tax underpayment penalty (self-assessed on **Form IL-2220**, Step 4 Line 22; annualization available at Step 6), and bad-check penalty. Current penalty percentages and the 35 ILCS 5/806 interest rate: **needs-sources** (not in the extracted text). Common failure modes: (1) assuming the extension extends payment — it does not; (2) forgetting the replacement tax stacks on the same base; (3) unitary filers checking the "income derived inside Illinois only" box, which the form prohibits for unitary filers.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Non-IL corporations with IL nexus file IL-1120 and apportion by the single sales factor; throwback/throwout rules apply per statute (Finnigan method for unitary groups from TYE 2025-12-31 — instructions, read 2026-10-27).
 - Schedule 80/20 curbs base-erosion payments (interest, intangibles, service fees) to related parties — Illinois's main related-party lever (see `il-transfer-pricing`).
 - PTE: the pass-through entity tax has its expiration date removed per the 2025-26 amendments noted in the instructions; corporations receive K-1-P/K-1-T credits on Lines 61c/61d.
 - Credit for IL tax paid by pass-throughs flows via Schedule K-1-P/K-1-T (Lines 61c–61d verified on form).
 
-## 7. Worked examples
+## Worked examples
 
 A calendar-year C corporation with $1,000,000 Illinois-apportioned net income for 2026:
 
@@ -101,7 +101,7 @@ expected:
   tax: 95000.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Is the entity in a unitary business group — does Schedule UB combined reporting apply, and is the Finnigan method now in play for 2026?
 - Are there related-party interest, royalty, or service-fee payments requiring Schedule 80/20?

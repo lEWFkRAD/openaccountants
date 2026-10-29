@@ -71,7 +71,7 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 - Non-resident estimated tax
 - Amended estimated payments after audit adjustments
 
-## Section 2 -- Filing requirements
+## Deadlines and filing
 
 ### Who must make estimated payments
 
@@ -90,7 +90,7 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 
 Illinois follows the same quarterly schedule as the IRS.
 
-## Section 3 -- Rates and thresholds
+## Rates, bands and thresholds
 
 **Rates and thresholds**  _([35 ILCS 5/201(b)(5.4); 35 ILCS 5/803(a); 35 ILCS 5/204 (2025); 35 ILCS 5/804; 35 ILCS 5/804(c)](https://taxarchive.illinois.gov/content/dam/soi/en/web/taxarchive/forms/income-tax/2024/individual/il-1040-es.pdf))_
 
@@ -165,7 +165,7 @@ Illinois follows the same quarterly schedule as the IRS.
 
 - **Overpayment applied** — If an overpayment from the prior year IL-1040 was applied to estimated taxes, this amount reduces the first quarter estimated payment. Document the amount applied.  _(unsure)_
 
-## Section 6 -- Test suite
+## Worked examples
 
 ### Test 1: Standard freelancer
 
@@ -192,7 +192,7 @@ Illinois follows the same quarterly schedule as the IRS.
 - **Input:** Single filer, IL taxable income $80,000. Property taxes paid: $6,000.
 - **Expected:** Tax: ($80,000 - $2,850) x 4.95% = $3,818.93. Property tax credit: $6,000 x 5% = $300. Net: $3,518.93. Quarterly: $879.73.
 
-## Section 7 -- Prohibitions
+## Ask the client first
 
 - **P-1:** Do NOT apply the federal 110% safe harbour for high-income taxpayers. Illinois uses 100% for all taxpayers.
 - **P-2:** Do NOT include bonus depreciation in the Illinois income estimate without adding it back.

@@ -72,7 +72,7 @@ This skill is a Tier 2 content skill covering:
 - Illinois replacement tax investment credit under 35 ILCS 5/201(e), which is a niche credit for manufacturing investment.
 - Withholding on nonresident partners under 35 ILCS 5/709.5 — flagged but not computed.
 
-## 2. Who pays PPRT and at what rate
+## Rates, bands and thresholds
 
 ### 2.1 Statutory rate table
 
@@ -109,7 +109,7 @@ The General Assembly set higher PPRT on C-corporations to roughly match the orig
 
 - **Short-period tax years** — PPRT applies to the short tax year of an entity that joins or leaves an affiliated group, becomes a member of a unitary business group, or otherwise has a tax year shorter than 12 months. The rate is not pro-rated — 2.5% (or 1.5%) applies to the short-period net income, computed on a short-period annualized basis only if the federal return is annualized.
 
-## 3. The PPRT tax base
+## The taxable base
 
 ### 3.1 Starting point: federal taxable income
 
@@ -159,7 +159,7 @@ The General Assembly set higher PPRT on C-corporations to roughly match the orig
 
 For most freelance and small-business clients, combined reporting is not applicable. A single-entity S-corp or partnership simply files its own IL-1120-ST or IL-1065 and computes PPRT on its own net income. The combined reporting rules only become relevant when a client owns multiple corporations under common control that operate as a unitary business.
 
-## 6. Forms and filing
+## Deadlines and filing
 
 ### 6.1 Form selection
 
@@ -239,7 +239,7 @@ Payments are made with Form IL-1120-V (corporate) or IL-1120-ST-V / IL-1065-V (p
 
 - **Trust beneficiary credit** — Beneficiaries of trusts that pay PPRT receive a K-1-T showing their share of trust PPRT. The 6.5% §201(p) credit applies on the same basis as for partners and shareholders, but only to the extent the beneficiary received a distribution carrying out the trust's distributable net income (DNI) that included Illinois-source income.  _(35 ILCS 5/201(p))_
 
-## 9. Interaction with the Illinois PTE tax election
+## Cross-border points
 
 ### 9.1 Background — Public Act 102-0658
 
@@ -265,7 +265,7 @@ Payments are made with Form IL-1120-V (corporate) or IL-1120-ST-V / IL-1065-V (p
 
 - **PTE and PPRT estimated payments combined** — A pass-through that elects PTE must make estimated payments covering both the PPRT and the PTE tax. The $400 threshold applies to the combined PPRT + PTE liability. Estimated payments are made through MyTax Illinois on a single PTE/PPRT voucher.
 
-## 10. Worked examples
+## Worked examples
 
 ### 10.1 Example 1 — Illinois C-corporation with all-Illinois income
 
@@ -472,7 +472,7 @@ A $500,000 net-income business, all Illinois operations, owner takes all profit 
 
 The S-corp/PTE combination is materially better than the C-corp/dividend structure for a single Illinois owner taking all profits out, by approximately $63,000 on a $500,000 business. The C-corp structure only becomes advantageous when significant earnings are retained inside the corporation at the 21% federal rate.
 
-## 11. Conservative defaults and reviewer flags
+## Ask the client first
 
 When information is incomplete, default to:
 
@@ -490,7 +490,7 @@ When information is incomplete, default to:
 - Any short-period return or first/final-year return.
 - Any apportionment factor below 5% or above 95% in a multi-state business — these extremes often indicate a sourcing error.
 
-## 12. Provenance
+## Sources
 
 - **LLC as C-corp** — 2.5%  _(35 ILCS 5/201(c).)_
 - **PPRT on partnerships, trusts, S-corps** — 1.5%  _(35 ILCS 5/201(d))_

@@ -80,7 +80,7 @@ This is a Tier 2 content skill for preparing the Illinois Form IL-1040 for a ful
 - Net loss carryforward computations beyond simple tracking
 - Illinois corporate income tax (Form IL-1120)
 
-## Section 2 -- Filing requirements
+## Deadlines and filing
 
 ### Who must file
 
@@ -97,7 +97,7 @@ This is a Tier 2 content skill for preparing the Illinois Form IL-1040 for a ful
 
 - **Automatic extension detail** — Illinois automatically grants a 6-month extension if the taxpayer has a federal extension. No separate Illinois extension form is required. However, estimated tax payments are still due by April 15.  _(35 ILCS 5/505(b))_
 
-## Section 3 -- Rates and thresholds
+## Rates, bands and thresholds
 
 **Rates and thresholds table**  _(see rows)_
 
@@ -203,7 +203,7 @@ Common subtractions:
 
 - **Gambling winnings** — Illinois does not allow a subtraction for gambling losses. If federal AGI includes net gambling winnings (after losses are deducted as federal itemized deductions), the Illinois computation starts from AGI which includes gross gambling winnings. The losses deducted federally as itemized deductions do not reduce IL base income.  _(unsure)_
 
-## Section 6 -- Test suite
+## Worked examples
 
 ### Test 1: Standard freelancer, single
 
@@ -230,7 +230,7 @@ Common subtractions:
 **Input:** Federal EIC: $2,000. Single, 1 child.
 **Expected:** IL EIC: $2,000 x 20% = $400 (refundable).
 
-## Section 7 -- Prohibitions
+## Ask the client first
 
 - **P-1:** Do NOT apply a standard deduction or itemized deductions to Illinois income. Only the personal exemption applies.
 - **P-2:** Do NOT carry forward federal NOLs into Illinois without checking the $100,000 IL net loss limitation.

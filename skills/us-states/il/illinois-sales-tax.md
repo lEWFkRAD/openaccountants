@@ -48,7 +48,7 @@ Figures are for tax year 2026, as they stand on 25 September 2026. They come fro
 8. **File Form ST-1 (and Form ST-2 for multiple or destination sites) by the 20th** of the month after the period, even with nothing to report. Take the 1.75% discount only if you file and pay on time ([Form ST-1 instructions](https://tax.illinois.gov/forms/sales/salesandusetax/st-1-instructions.html)).
 9. **Keep records for three and one-half years** after filing, including full delivery addresses for destination sales ([record-keeping page](https://tax.illinois.gov/research/publications/pubs/retailers-overview-of-sales-and-use-tax/keeping-complete-and-accurate-records.html)).
 
-## Rates, sourcing and thresholds for 2026
+## Rates, bands and thresholds
 
 ### The four taxes ([ROT page](https://tax.illinois.gov/research/taxinformation/sales/rot.html); [Publication 113-SOT](https://tax.illinois.gov/research/publications/pubs/overview-of-service-occupation-tax.html))
 
@@ -193,7 +193,7 @@ New registrants start as monthly or quarterly filers. IDOR reviews accounts each
 - The State portion fell by 5% (from 6.25% to 1.25%) on qualifying clothing and footwear priced below $125 per item, and on qualifying school supplies (no price limit). Local taxes still applied.
 - The price test is after unreimbursed coupons and markdowns. Items sold as one unit (a pair of shoes) cannot be split. Claim the credit on Schedule K-12 with Form ST-1.
 
-## Worked cases ([IDOR bulletin FY 2026-12](https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html); [Form ST-1 instructions](https://tax.illinois.gov/forms/sales/salesandusetax/st-1-instructions.html))
+## Worked examples
 
 Examples use the State rate only unless a combined rate is given. In practice, add the local rate from the Tax Rate Finder.
 
@@ -204,7 +204,7 @@ Examples use the State rate only unless a combined rate is given. In practice, a
 5. **Use Tax on a business purchase** ([Publication 113](https://tax.illinois.gov/research/publications/pubs/retailers-overview-of-sales-and-use-tax/requirements-for-retailers-who-file-form-st-1.html)). A registered Illinois retailer buys $2,000 of office equipment from an out-of-state vendor that charged no Illinois tax. It reports Use Tax on its Form ST-1 for that month: 2000 x 6.25% = $125.00. If it had paid another state's tax at 4%, it would owe Illinois the difference: 6.25% - 4% = 2.25%, and 2000 x 2.25% = $45.00.
 6. **Back-to-school holiday** ([FY 2026-30](https://tax.illinois.gov/research/publications/bulletins/fy-2026-30.html)). On 10 August 2026, in a location whose normal combined rate is 9.75%, a $100 pair of jeans qualifies: rate 9.75% - 5% = 4.75%, tax 100 x 4.75% = $4.75. A $140 pair of shoes does not qualify (not below $125): 140 x 9.75% = $13.65.
 
-## When to refuse or refer
+## Ask the client first
 
 - **Software other than canned software, SaaS, streaming and digital downloads.** IDOR's pages reviewed here class prewritten software as general merchandise but do not settle SaaS or custom software. The earlier version of this skill said pure SaaS is not taxable, citing an IDOR letter; that was not confirmed on the sources reviewed. Check 86 Ill. Adm. Code 130.1935 and IDOR letter rulings, or refer.
 - **Taxes IDOR does not collect**, such as a city's own amusement, restaurant or soft drink taxes (except the Chicago soft drink ROT, which IDOR does collect). Refer to the city or county.
@@ -214,7 +214,7 @@ Examples use the State rate only unless a combined rate is given. In practice, a
 - **Exemption claims needing certificates** beyond CRT-61 and E-numbers (manufacturing, farm, enterprise zone, high impact business). Check the use conditions and documents in PIO-101 before relying on them.
 - **A client that wants a single "Illinois rate".** There is none; refuse to quote one without the address and period.
 
-## Filing and payment
+## Deadlines and filing
 
 ### Registration ([Publication 113-D](https://tax.illinois.gov/research/publications/pubs/overview-of-destination-based-sales-tax.html))
 

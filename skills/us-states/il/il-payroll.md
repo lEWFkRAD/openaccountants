@@ -55,7 +55,7 @@ The reviewer-oriented output for this skill is a payroll memo identifying every 
 - **Meal break** — ODRISA: 20-minute meal period for shifts of 7.5+ continuous hours, no later than 5 hours in  _(820 ILCS 140/3.)_
 - **Worker classification test** — IL UI uses the ABC test - all three prongs (A, B, C) must be met for independent-contractor status  _(820 ILCS 405/212.)_
 
-## 1. Scope
+## Who this applies to
 
 ### 1.1 In scope
 
@@ -81,7 +81,7 @@ The reviewer-oriented output for this skill is a payroll memo identifying every 
 - Agricultural employers — IL UI has a different wage base trigger; consult IDES Pub. 197 directly.
 - Domestic household employers — different IL UI threshold ($1,000/quarter); see federal Schedule H first.
 
-## 2. Illinois Personal Income Tax Withholding
+## Rates, bands and thresholds
 
 ### 2.1 Flat rate
 
@@ -326,7 +326,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 - **Additional wage and pay statutes** — - **Wage Theft Enforcement Act** (820 ILCS 115/14) — willful refusal to pay wages is a Class A misdemeanor; repeat offenses are Class 4 felonies. - **Illinois Equal Pay Act** (820 ILCS 112/) — wage discrimination prohibitions; PA 101-0656 added pay data reporting for employers with 100+ employees (EEO-1 alignment). - **Illinois Pay Transparency Law** (effective January 1, 2025 under PA 103-0539) — employers with 15+ employees must include pay scale and benefits in job postings.  _(820 ILCS 115/14; 820 ILCS 112/; PA 103-0539)_
 
-## 9. Worked Examples
+## Worked examples
 
 ### Example 1 — Illinois employer with 10 employees, Secure Choice trigger
 
@@ -455,7 +455,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 | 1099 e-file with IL | March 31 | IL DOR |
 | Pay frequency | Semi-monthly minimum | 820 ILCS 115/3 |
 
-## 11. Provenance and Citations
+## Sources
 
 ### Statutory authority
 

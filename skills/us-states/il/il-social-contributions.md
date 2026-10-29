@@ -26,17 +26,17 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 27 October 2026. Illinois employer social contributions are: IDES unemployment insurance (contribution) tax under the Unemployment Insurance Act (820 ILCS 405), mandatory workers' compensation insurance, and federal FICA — Illinois has **no** state disability insurance, **no** paid family/medical leave contribution, and **no** state retirement mandate for private employers. **Source status:** the IDES historical rate chart PDF (`UI_tax_rates_2026.pdf`) was downloaded and text-read 2026-10-27 from ides.illinois.gov — the 2026 wage base, rate floors/ceilings, standard rate, small-employer rate, and minimum penalty below are read directly from that PDF. The statute page (820 ILCS 405) renders via JavaScript — section-level cites **needs-sources**.
 
-## 2. Who applies
+## Who this applies to
 
 - Employers covered under 820 ILCS 405 (general tests: payroll above statutory thresholds in 20 or more weeks, or one or more employees in each of 20 weeks — exact current test text: **needs-sources**). Out-of-state employers with Illinois employees are covered on the same basis.
 - The contribution is **employer-only** — Illinois employees pay no state UI tax.
 - Workers' compensation: most Illinois employers must carry coverage from the first employee (broad employer definition under 820 ILCS 305 — confirm current text: **needs-sources**).
 
-## 3. Rates and base (2026, from the IDES rate chart PDF read 2026-10-27)
+## Rates, bands and thresholds
 
 | Item | 2026 amount | Source |
 |---|---|---|
@@ -52,23 +52,23 @@ Source-cited draft, run of 27 October 2026. Illinois employer social contributio
 
 Rates are experience-rated (reserve ratio + benefit-conversion factor 138.4% and state experience factor 102% for 2026, per the same PDF). Base: covered wages up to $14,250 per employee per year.
 
-## 4. Deadlines
+## Deadlines and filing
 
 - Quarterly contribution and wage reports (Form UI-3/40) due the last day of the month following each quarter (1/31, 4/30, 7/31, 10/31) — confirm current dates on the IDES filing page: **needs-sources**.
 - Annual rate notices issue in December/January with an appeal window (confirm: **needs-sources**).
 - Workers' compensation: continuous coverage obligation; proof of insurance required for many state contracts and permits.
 
-## 5. Penalties and interest
+## Penalties and interest
 
 The IDES chart fixes a **$50 minimum penalty** for 2026 (PDF, read 2026-10-27); the percentage late-filing/late-payment penalty and interest rates sit in 820 ILCS 405 — **needs-sources** for current percentages. Common failure modes: (1) out-of-state employers missing Illinois coverage for Illinois-based staff; (2) assuming the small-employer 5.4% rate is favorable — it can exceed an experience rate; (3) treating workers' comp as optional — Illinois requires it broadly from employee one.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Localization-of-service rules decide which state gets the wages for multi-state employees (confirm IDES guidance: **needs-sources**); reciprocal coverage agreements allow single-state UI for multi-state work (confirm FL participation: **needs-sources**).
 - FUTA credit against Illinois contribution follows the standard pattern; 2026 credit-reduction status for Illinois: **needs-sources**.
 - Common-ownership wage treatment rules exist on the IDES site (page identified 2026-10-27) for related-entity employers.
 
-## 7. Worked examples
+## Worked examples
 
 An experience-rated Illinois employer at the 2026 minimum rate on one employee:
 
@@ -99,7 +99,7 @@ expected:
   tax: 10046.25
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - What is your current IDES experience rate, and does the small-employer 5.4% flat rate beat it (gross wages under $50,000)?
 - Are multi-state employees' wages correctly localized to Illinois?

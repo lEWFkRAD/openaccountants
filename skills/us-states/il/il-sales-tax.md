@@ -80,7 +80,7 @@ This is a Tier 2 content skill for preparing the Illinois Form ST-1 (Sales and U
 - Marketplace facilitator obligations
 - Multi-state nexus determinations
 
-## Section 2 -- Filing requirements
+## Deadlines and filing
 
 ### Who must register
 
@@ -98,7 +98,7 @@ This is a Tier 2 content skill for preparing the Illinois Form ST-1 (Sales and U
 
 - **Electronic filing** — Required for all taxpayers whose average monthly liability is $200 or more.  _(35 ILCS 120/3.)_
 
-## Section 3 -- Rates and thresholds
+## Rates, bands and thresholds
 
 ### The four-tax structure
 
@@ -215,7 +215,7 @@ The vendor discount compensates the retailer for collecting and remitting tax. I
 
 - **Prepaid calling arrangements** — Prepaid calling arrangements are taxable as general merchandise at the point of sale.  _(35 ILCS 120/2-25.)_
 
-## Section 6 -- Test suite
+## Worked examples
 
 ### Test 1: Standard retailer, general merchandise
 
@@ -242,7 +242,7 @@ The vendor discount compensates the retailer for collecting and remitting tax. I
 **Input:** Same as Test 1 but filed 10 days late.
 **Expected:** No vendor discount. Net tax: $2,050 plus penalties and interest.
 
-## Section 7 -- Prohibitions
+## Ask the client first
 
 - **P-1:** Do NOT apply destination-based sourcing. Illinois is origin-based for most transactions.
 - **P-2:** Do NOT charge the general merchandise rate on qualifying food, drugs, or medical appliances.

@@ -26,17 +26,17 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 27 October 2026. Illinois is a **mandatory combined-reporting** state: members of a unitary business group combine on Illinois Schedule UB (Combined Apportionment for Unitary Business Group). Related-party base erosion is policed by **Schedule 80/20** (addback of interest, intangible-expense, and service-fee payments to related affiliates, with statutory exemptions). Illinois has no separate transfer-pricing documentation statute. **Source status:** the IL-1120 instructions PDF (24 pages) was text-read 2026-10-27 — the unitary-filer mechanics, Schedule UB/80/20 references, and the **Finnigan** apportionment change effective for tax years ending on/after 2025-12-31 are read from that PDF. Statute-level text (35 ILCS 5 Art. III-bis unitary definitions; Art. IV 80/20) is JS-rendered on ILGA — **needs-sources** for definitional tests.
 
-## 2. Who applies
+## Who this applies to
 
 - **Unitary business group members**: a group of corporations affiliated through common ownership and operating as a unitary business (income/loss combined on Schedule UB). The affiliation and unitarity tests sit in 35 ILCS 5 Art. III-bis — **needs-sources** for the current ownership-percentage and factor-based tests.
 - **Non-unitary filers** still face Schedule 80/20 addbacks on related-party payments (IL-1120 Step 1 Line M; instructions read 2026-10-27).
 - Combined groups file one IL-1120 marked "Unitary Filer" with Schedule UB attached; the form **prohibits** unitary filers from using the non-unitary "income derived inside Illinois only" shortcut.
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Rule | Source |
 |---|---|---|
@@ -46,23 +46,23 @@ Source-cited draft, run of 27 October 2026. Illinois is a **mandatory combined-r
 | 80/20 addback | interest + intangible expenses + service fees paid to related affiliates added back; exemptions (e.g., unitary-group exception, conduit) per statute | instructions read 2026-10-27; exemption text **needs-sources** |
 | Documentation regime | none standalone | absence noted |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - Schedule UB and Schedule 80/20 attach to the IL-1120 — same due dates as the return (15th day of 4th month; April 15 calendar-year).
 - Estimated payments at the 9.5% combined worksheet rate (IL-1120-V) quarterly.
 - No separate TP documentation deadline.
 
-## 5. Penalties and interest
+## Penalties and interest
 
 Underpayment rides the IL-2220 estimated-penalty regime (see `il-corporate-income-tax`); percentage penalty/interest rates **needs-sources**. Common failure modes: (1) assuming federal consolidated ≠ Illinois unitary — the tests differ; (2) missing the 2026 Finnigan numerator change for unitary groups; (3) paying related-party royalties/management fees without running the 80/20 exemption analysis; (4) double-counting intercompany sales in the combined numerator.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - **Water's-edge**: Illinois combined reporting follows its unitary definition; whether foreign members are included turns on the Art. III-bis affiliation tests — **needs-sources** (confirm current water's-edge treatment before structuring).
 - 80/20 applies to payments to related foreign affiliates as well (instructions describe related-party expenses generally; foreign-specific carve-outs **needs-sources**).
 - PTE and pass-through income inside a unitary group flow through the combined computation (K-1-P/K-1-T credits on IL-1120 Lines 61c–61d verified on form).
 
-## 7. Worked examples
+## Worked examples
 
 A unitary group's combined Illinois sales factor is 0.30 on $10,000,000 combined net income:
 
@@ -96,7 +96,7 @@ expected:
   tax_up: 9500.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Is the group unitary under Illinois tests (not just federally consolidated)? Pull the Art. III-bis affiliation analysis.
 - Have intercompany interest, royalties, and service fees been run through Schedule 80/20 exemptions?

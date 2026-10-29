@@ -25,18 +25,18 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Source-cited draft, run of 27 October 2026. Illinois reaches non-resident individuals and out-of-state corporations through source-based and factor-based rules: individuals pay the flat 4.95% (plus 3%/2% surtax tiers) on Illinois-source income; corporations apportion by a single sales factor with throwback/throw-out, and unitary groups combine under Schedule UB. **Source status:** the IL-1120 instructions PDF was text-read 2026-10-27 (nexus triggers for corporations, Finnigan/throwback note, pass-through attribution rule all read from it). The individual nonresident rules (IL-1040NR/IL-1040, credit for other taxes) sit in 35 ILCS 5 — JS-rendered on ILGA, so individual-side specifics carry **needs-sources** flags.
 
-## 2. Who applies
+## Who this applies to
 
 - **Corporations**: Illinois nexus exists if the corporation does business in Illinois, derives Illinois-source income, **or** is qualified to do business and files federally — regardless of income or loss (IL-1120 instructions, read 2026-10-27).
 - **Nonresident individuals**: taxed on Illinois-source income (wages for Illinois work, Illinois business income, Illinois rents) — IL-1040 (nonresident section) mechanics: **needs-sources**.
 - **Part-year residents**: full-year taxation of worldwide income for the resident period, source-only for the nonresident period (confirm current IL-1040NR instructions: **needs-sources**).
 - **Remote workers**: wages for services performed in Illinois are Illinois-source even for nonresidents; telework from another state generally shifts source out (confirm current guidance: **needs-sources**).
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Amount / rule | Source |
 |---|---|---|
@@ -47,24 +47,24 @@ Source-cited draft, run of 27 October 2026. Illinois reaches non-resident indivi
 | Pass-through attribution | gains/losses from S corps/partnerships attributable to Illinois if the entity is taxable in Illinois | IL-1120 instructions, read 2026-10-27 |
 | Credit for taxes paid to other states | available against IL tax per statute (mechanics **needs-sources**) | 35 ILCS 5/304(a) — **needs-sources** |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - IL-1120 follows the federal due date (April 15 calendar-year; instructions read 2026-10-27).
 - Individual IL-1040 follows the federal due date (confirm: **needs-sources**).
 - No Illinois entry/exit filing for individuals; withholding (IL-W-4/IW-4) is the compliance hook for nonresident employees (see `il-payroll`).
 
-## 5. Penalties and interest
+## Penalties and interest
 
 Corporate penalties ride the IL-2220/IDOR regime (see `il-corporate-income-tax`); percentages **needs-sources**. Common failure modes: (1) nonresident teleworkers assuming no IL source for occasional Illinois days; (2) corporations with Illinois property/payroll but no Illinois sales triggering throwback; (3) double taxation where the work state and residence state both tax — the credit analysis must be run both ways; (4) PL 86-272 overreach into services/digital.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - **PL 86-272** (15 U.S.C. §381) bars a net-income tax on pure solicitation of tangible-goods orders shipped from outside Illinois; services, digital, and in-state fulfillment are unprotected.
 - **Reciprocity**: Illinois has **no** income-tax reciprocity with neighboring states (Indiana/Kentucky/Missouri/Wisconsin each tax nonresident work income; Wisconsin reciprocity is Wisconsin-side only) — confirm current list: **needs-sources**.
 - **PTE election**: out-of-state owners of Illinois partnerships/S corps can take Illinois PTE credits via K-1-P/K-1-T (credits verified on IL-1120 Lines 61c–61d; individual-side credit mechanics **needs-sources**).
 - **Foreign parents**: no Illinois-specific treaty provisions; federal ECI/treaty analysis governs, Illinois conforms to federal starting point.
 
-## 7. Worked examples
+## Worked examples
 
 A Missouri resident works 100% remotely from Missouri for an Illinois company (no Illinois work days):
 
@@ -100,7 +100,7 @@ expected:
   il_tax: 1782.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Where is work physically performed — how many Illinois workdays per employee?
 - For corporations: property, payroll, sales footprint and whether throwback applies; is the group unitary (Schedule UB)?
