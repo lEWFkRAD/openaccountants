@@ -32,7 +32,7 @@ version: 0.2
 |---|---|---|---|
 | Total PFML contribution | 0.88% | — | — |
 | Family leave | 0.18% | up to 100% (0.18%) | 0% |
-| Medical leave | 0.70% | up to 40% (0.28%) | 60% (0.42%) |
+| Medical leave | 0.70% (0.88% total less the 0.18% family piece) | up to 40% (0.28%) | 60% (0.42%) |
 
 - The employer may allocate the family-leave piece entirely to covered individuals' wage withholdings; the medical piece may be shifted to employees only up to 40% of that piece.
 - Employers with fewer than 25 covered individuals must send an effective contribution rate of 0.46% of eligible wages (no employer share of medical leave).
