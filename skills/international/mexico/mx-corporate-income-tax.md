@@ -63,7 +63,7 @@ No penalty or interest figure in this domain is confirmed yet; the Código Fisca
 
 ## Worked examples
 
-### Example 1: corporate tax with a loss carryforward
+### Worked example 1: corporate tax with a loss carryforward
 
 A Mexican S.A. de C.V. has MXN 12,000,000 acumulable income, MXN 8,500,000 authorised deductions, pays PTU of MXN 400,000, and has an updated loss carryforward of MXN 2,000,000 from two years ago. Utilidad fiscal is MXN 3,100,000; after the loss the resultado fiscal is MXN 1,100,000, and ISR at 30% is MXN 330,000.
 
@@ -85,9 +85,9 @@ expected:
   impuesto: 330000.00
 ```
 
-### Example 2: dividend not paid out of CUFIN
+### Worked example 2: dividend not paid out of CUFIN
 
-The same company distributes a MXN 700,000 dividend out of post-2014 profits. The Art. 10 tax is 700,000 × 1.4286 × 30% = MXN 300,006. Earlier drafts then applied the 10% additional tax to the dividend plus that tax (MXN 1,000,006), giving MXN 100,000.60; the block keeps that step, but its base is not yet confirmed (see Sources).
+The same company distributes a MXN 700,000 dividend out of post-2014 profits. The Art. 10 tax is 700,000 × 1.4286 × 30% = MXN 300,006. The 10% additional tax on the resident individual (Art. 140, second paragraph: "una tasa adicional del 10% sobre los dividendos o utilidades distribuidos", retained by the company and definitive) applies to the dividend distributed, not to the dividend plus the Art. 10 tax: 700,000 × 10% = MXN 70,000.
 
 ```oa-check
 name: dividend gross-up and 10 percent additional tax
@@ -98,12 +98,10 @@ inputs:
   adicional: 0.1
 steps:
   - impuesto_dividendo: dividendo * factor * tasa
-  - bruto_con_impuesto: dividendo + impuesto_dividendo
-  - impuesto_adicional: bruto_con_impuesto * adicional
+  - impuesto_adicional: dividendo * adicional
 expected:
   impuesto_dividendo: 300006.00
-  bruto_con_impuesto: 1000006.00
-  impuesto_adicional: 100000.60
+  impuesto_adicional: 70000.00
 ```
 
 ## Ask the client first
@@ -121,7 +119,7 @@ expected:
 | Ley del Impuesto Sobre la Renta, consolidated (Cámara de Diputados, last reform DOF 01-04-2024), Arts. 8-10, 14, 25-37, 44-46, 57, 76, 76-A, 78, 140, 156, 158, 160, 179-182 | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-28 |
 | SAT, personas morales régimen general: declaraciones mensuales | http://omawww.sat.gob.mx/informacion_fiscal/obligaciones_fiscales/personas_morales/regimen_general/Paginas/declaraciones_mensuales.aspx | 2026-10-28 |
 
-Not yet confirmed: the base of the 10% additional dividend tax (Art. 140 applies it to dividends paid to resident individuals; earlier drafts cited Art. 10 second paragraph, which covers dividends paid in shares or reinvested within 30 days, and applied the 10% to the dividend plus the Art. 10 tax, as in example 2), and how it applies to non-resident shareholders; whether CUFIN is limited to profits taxed before 2014 as earlier drafts said, and the CUFIN-non-resident account; the 35% Title V rate earlier drafts listed for some non-resident income; whether a 2025-2026 reform changed the Art. 9 rate after the DOF 01-04-2024 consolidation (the 2025-2026 rate-increase debate had not changed the text read); the annual return as a calendar date (the LISR text gives three months after year end; earlier drafts said 30 July for calendar-year taxpayers); the PTU payment deadline of 60 days after the annual return (LFT Art. 123; no archived copy of the LFT); Código Fiscal de la Federación penalties of 45%-85% for underpaid amounts (Art. 64) and 50%-150% for false returns (Art. 65), inflation updating and interest (Art. 20) and the 1.41% monthly rate (no archived copy of the CFF); treaty-by-treaty withholding rates; the 2026 UMA and minimum wage; current SAT tariff tables.
+Not yet confirmed: how the 10% additional dividend tax (Art. 140, second paragraph) applies to non-resident shareholders; whether CUFIN is limited to profits taxed before 2014 as earlier drafts said, and the CUFIN-non-resident account; the 35% Title V rate earlier drafts listed for some non-resident income; whether a 2025-2026 reform changed the Art. 9 rate after the DOF 01-04-2024 consolidation (the 2025-2026 rate-increase debate had not changed the text read); the annual return as a calendar date (the LISR text gives three months after year end; earlier drafts said 30 July for calendar-year taxpayers); the PTU payment deadline of 60 days after the annual return (LFT Art. 123; no archived copy of the LFT); Código Fiscal de la Federación penalties of 45%-85% for underpaid amounts (Art. 64) and 50%-150% for false returns (Art. 65), inflation updating and interest (Art. 20) and the 1.41% monthly rate (no archived copy of the CFF); treaty-by-treaty withholding rates; the 2026 UMA and minimum wage; current SAT tariff tables.
 
 <!-- openaccountants-cta-block -->
 

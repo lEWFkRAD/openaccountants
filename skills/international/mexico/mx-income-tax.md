@@ -67,7 +67,7 @@ RESICO eligibility and the annual table: LISR Arts. 113-E and 113-F. Client with
 
 Rate applied to gross income (no expense deductions)
 Monthly provisional = monthly gross × rate
-No annual Declaración Anual for purely RESICO income (informativa only)
+- Annual Declaración Anual due in April of the following year, at the Art. 113-F annual table, with monthly ISR already paid credited
 Cannot combine RESICO with Régimen General in same year for same activity
 
 ### Retenciones (Withholding by Clients)
@@ -140,13 +140,13 @@ Retenciones are credited against the annual ISR balance.
 | --- | --- | --- |
 | DP-01 | Gastos médicos, dentales, hospitalarios | No cap (require CFDI) |
 | DP-02 | Primas de seguros de gastos médicos | No cap (require CFDI) |
-| DP-03 | Gastos funerarios | Up to 1 UMA × 12 = ~MXN 38,220 |
+| DP-03 | Gastos funerarios | Up to the annual general minimum salary of the taxpayer's geographic area (Art. 151 fr. II) |
 | DP-04 | Donativos (donations to authorized entities) | Up to 7% of prior-year income |
-| DP-05 | Crédito hipotecario interest | Up to 1,500,000 UDIs |
+| DP-05 | Crédito hipotecario interest | Up to 750,000 UDIs of total credit (Art. 151 fr. IV) |
 | DP-06 | Colegiaturas (education) | Capped by level: e.g., preparatoria MXN 14,200 |
 | DP-07 | Aportaciones voluntarias AFORE | Up to 10% of income, max 5 UMA annual |
 
-- **Total deducciones personales cap** — 15% of gross income OR 5 UMA anual (MXN ~159,200), whichever is lower
+- **Total deducciones personales cap** — the lower of 15% of total income or five times the annual value of the UMA (LISR Art. 151, final paragraph; peso value depends on the UMA of the year)
 
 Statutory anchors for the limits above: the MXN 175,000 car cap is LISR Art. 36 fr. II; the MXN 2,000 cash-payment limit is Art. 27 fr. III; the 8.5% restaurant deduction follows from Art. 28 fr. XX, which makes 91.5% of restaurant consumption non-deductible; the overall cap on deducciones personales (lower of 5 UMA a year or 15% of total income) and the 7% donations limit are Art. 151.
 
@@ -212,7 +212,7 @@ Statutory anchors for the limits above: the MXN 175,000 car cap is LISR Art. 36 
 | Day 17 of each month | IVA monthly payment |
 | 30 April 2025 | Declaración Anual PF 2024 (Régimen General) |
 | 30 April 2025 | SAT provides pre-filled proposal in portal |
-| Automatic (RESICO) | No Declaración Anual required; informativa if applicable |
+| April (following year) | Declaración Anual RESICO due in April (LISR Art. 113-F) |
 
 Pagos provisionales are due by the 17th of the following month (LISR Art. 106). The annual return for Régimen General is filed in April of the following year (LISR Art. 150). RESICO taxpayers file monthly by the 17th (Art. 113-E) and an annual return in April (Art. 113-F).
 
@@ -248,9 +248,9 @@ No penalty, recargo or interest figure is confirmed in this skill yet; see the "
 
 ## Worked examples
 
-Example 1 (Régimen General) and Example 2 (RESICO) carry the recomputing `oa-check` blocks. The bank-statement walkthroughs after them are kept from earlier versions of this skill.
+Example 1 (Régimen General) and Example 2 (RESICO) carry the recomputing `oa-check` blocks. The bank-statement walkthroughs after them are kept from earlier versions of this skill. All client facts (names, banks, amounts) in the examples are hypothetical; the only real figures are the tariff and RESICO rates from the confirmed tables above.
 
-### Example 1 — Banamex / Citibanamex (Monterrey, Architect, Régimen General)
+### Worked example 1 — Banamex / Citibanamex (Monterrey, Architect, Régimen General)
 
 **Bank:** Banamex statement
 **Client:** Ricardo Vega, architect, Monterrey, Régimen General
@@ -287,7 +287,7 @@ expected:
   isr: 89487.53
 ```
 
-### Example 2 — Santander México (Guadalajara, Developer — RESICO)
+### Worked example 2 — Santander México (Guadalajara, Developer — RESICO)
 
 **Bank:** Santander Cuenta Digital
 **Client:** Sofía Ramírez, software developer, Guadalajara, enrolled in RESICO
@@ -300,7 +300,7 @@ Annual ISR RESICO: MXN 480,000 × 1.10% = **MXN 5,280**
 Key points:
 - No deducciones autorizadas allowed under RESICO
 - Monthly pago provisional: (monthly income) × 1.10% via SAT portal
-- No Declaración Anual required (informativa only)
+- Annual declaration filed in April of the following year at the Art. 113-F annual table (monthly ISR paid is credited)
 - IVA still applies separately (collect 16%, remit to SAT)
 
 ```oa-check
@@ -316,7 +316,7 @@ expected:
 
 ### Further bank-statement walkthroughs
 
-#### Example 3 — BBVA México (CDMX, Marketing Consultant — Régimen General)
+#### Worked example 3 — BBVA México (CDMX, Marketing Consultant — Régimen General)
 
 **Bank:** BBVA Bancomer CoDi/SPEI statement
 **Client:** Andrés Torres, marketing consultant, CDMX, Régimen de Actividades Profesionales
@@ -379,7 +379,7 @@ Less pagos provisionales: MXN 12,500 × months
 ISR balance:       MXN 74,147.98 − MXN 52,000 − MXN [provisional total]
 ```
 
-#### Example 4 — HSBC México (CDMX, Consultant with Foreign Clients)
+#### Worked example 4 — HSBC México (CDMX, Consultant with Foreign Clients)
 
 **Bank:** HSBC Advance statement
 **Client:** Laura Pérez, management consultant, CDMX, 40% of income from US clients (USD)
@@ -397,7 +397,7 @@ ISR: MXN 110,842.74 + (MXN 605,000 − MXN 590,796) × 30% = MXN 110,842.74 + MX
 
 Foreign tax credit: If US withholding tax was paid, may credit against Mexican ISR (Art. 5 LISR). Flag for treaty review.
 
-#### Example 5 — Banorte (Puebla, Physician)
+#### Worked example 5 — Banorte (Puebla, Physician)
 
 **Bank:** Banorte statement
 **Client:** Dr. Martín Cruz, physician, Puebla, hospital PJ fees + private patients (PF)
@@ -415,7 +415,7 @@ ISR: MXN 60,049.40 + (MXN 393,600 − MXN 374,837.89) × 23.52%
 
 Deducciones personales: gastos médicos propios MXN 12,000 + colegiaturas hijo MXN 8,900 = MXN 20,900 (reduces ISR ~ MXN 4,000 at marginal rate).
 
-#### Example 6 — Nu México / Hey Banco (CDMX, Freelance Designer)
+#### Worked example 6 — Nu México / Hey Banco (CDMX, Freelance Designer)
 
 **Bank:** Nu México statement (digital bank)
 **Client:** Valentina Cruz, graphic designer, CDMX, multiple small PF clients + one PJ
@@ -621,7 +621,7 @@ Before computing Mexican ISR, collect:
 | Ley del Impuesto Sobre la Renta, consolidated (Cámara de Diputados, last reform DOF 01-04-2024), Arts. 5, 27, 28, 36, 106, 113-E, 113-F, 150, 151 | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-28 |
 | Ley del Impuesto al Valor Agregado, consolidated (Cámara de Diputados), 16% general rate | https://www.diputados.gob.mx/LeyesBiblio/pdf/LIVA.pdf | 2026-10-28 |
 
-Not yet confirmed: the 2026 tariffs (only RMF 2025 Anexo 8 was archived, so `tax_year` stays 2025); the "no annual return for RESICO" statements in the RESICO block, Example 2 and the filing table, which conflict with LISR Art. 113-F as read (RESICO taxpayers file an annual return in April) — a reviewer should apply the law; whether a RESICO taxpayer may combine RESICO with Régimen General in the same year; the 2/3 IVA retention (10.667% of the invoice) by corporate clients and the same obligation for individual clients with business activity; the deducciones personales caps given as approximate peso amounts (funeral ~MXN 38,220, overall cap ~MXN 159,200, colegiaturas e.g. preparatoria MXN 14,200), the 1,500,000 UDI mortgage-interest limit, and the voluntary AFORE limit (10% of income, max 5 UMA); the 25% annual vehicle depreciation rate; deductibility of voluntary IMSS contributions as deducciones personales and the IMSS position of self-employed persons; the SAT pre-filled proposal timing; multas and recargos for missed pagos provisionales; the ~MXN 17.50 exchange rate in Example 4 (illustrative); the bank export formats and narrations (not statutory); the 30 April 2025 filing date (the law says "in April"); the "Single client > 80% of income" asalariados flag; the reference to "IRPF" in R-MX-3 (a Spanish term; Mexico's employer withholding is ISR).
+Not yet confirmed: the 2026 tariffs (only RMF 2025 Anexo 8 was archived, so `tax_year` stays 2025); whether a RESICO taxpayer may combine RESICO with Régimen General in the same year; the 2/3 IVA retention (10.667% of the invoice) by corporate clients and the same obligation for individual clients with business activity; the colegiaturas caps by education level (e.g. preparatoria MXN 14,200 — the peso limits are set annually in the LIF and no archived copy states them) and the peso value of the 5-UMA overall cap; the voluntary AFORE limit (10% of income, max 5 UMA); the 25% annual vehicle depreciation rate; deductibility of voluntary IMSS contributions as deducciones personales and the IMSS position of self-employed persons; the SAT pre-filled proposal timing; multas and recargos for missed pagos provisionales; the ~MXN 17.50 exchange rate in Example 4 (a hypothetical client fact); the bank export formats and narrations (not statutory); the 30 April 2025 filing date (the law says "in April"); the "Single client > 80% of income" asalariados flag; the reference to "IRPF" in R-MX-3 (a Spanish term; Mexico's employer withholding is ISR).
 
 <!-- openaccountants-cta-block -->
 

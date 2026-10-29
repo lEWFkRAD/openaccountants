@@ -54,26 +54,26 @@ No penalty or interest figure in this domain is confirmed yet; see the "Not yet 
 
 ## Worked examples
 
-### Example 1: monthly withholding on a MXN 25,000 salary
+### Worked example 1: monthly withholding on a MXN 25,000 salary
 
-The block applies the bracket earlier drafts took from the SAT 2025 monthly tariff: floor MXN 22,956.29, cuota fija MXN 3,189.53, 35% on the excess. The excess is MXN 2,043.71 and the withholding MXN 3,904.83. Those bracket inputs are not yet confirmed (see Sources); check the current SAT monthly tariff before using the result.
+The block applies the bracket from the archived SAT 2025 monthly withholding tariff (RMF 2025, Anexo 8, tarifa mensual Art. 96): floor MXN 15,487.72, cuota fija MXN 1,640.18, 21.36% on the excess. The excess is MXN 9,512.28 and the withholding MXN 3,672.00.
 
 ```oa-check
 name: monthly ISR withholding 25000 salary 2025 tariff
 inputs:
   salario: 25000
-  limite_inferior: 22956.29
-  cuota_fixed: 3189.53
-  tasaMarginal: 0.35
+  limite_inferior: 15487.72
+  cuota_fixed: 1640.18
+  tasaMarginal: 0.2136
 steps:
   - excedente: salario - limite_inferior
   - impuesto_mensual: cuota_fixed + excedente * tasaMarginal
 expected:
-  excedente: 2043.71
-  impuesto_mensual: 3904.83
+  excedente: 9512.28
+  impuesto_mensual: 3672.00
 ```
 
-### Example 2: non-resident instructor paid net
+### Worked example 2: non-resident instructor paid net
 
 An employer pays a non-resident instructor MXN 80,000 net for a Mexico City course (Art. 156, 25% on gross; the payer grosses up): gross fee MXN 106,666.67, withholding MXN 26,666.67.
 
@@ -105,7 +105,7 @@ expected:
 | Ley del Impuesto Sobre la Renta, consolidated (Cámara de Diputados, last reform DOF 01-04-2024), Arts. 93, 94, 96, 97, 150, 156 | https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf | 2026-10-28 |
 | SAT, Resolución Miscelánea Fiscal 2025, Anexo 8 (ISR tariffs for 2025) | http://omawww.sat.gob.mx/normatividad_RMF_RGCE/Paginas/documentos2025/rmf/anexos/Anexo8_RMF2025-30122024.pdf | 2026-10-28 |
 
-Not yet confirmed: the 2026 SAT withholding tariffs (only the 2025 tariffs in RMF 2025 Anexo 8 were archived); the monthly bracket used in example 1 (floor MXN 22,956.29, cuota fija MXN 3,189.53, 35%), which does not appear in the archived RMF 2025 Anexo 8 text and needs checking against the current monthly tariff; the top marginal rate of 35% for the monthly tariff; aguinaldo of at least 15 days' wages (LFT Art. 87; no archived copy of the LFT); PTU being taxed at the annual tariff rather than through the payroll tables (earlier drafts cited LISR Art. 98); proration rules for multi-month or irregular payments (earlier drafts cited Arts. 96, 106); the worker's annual-return thresholds as they apply in 2026; earlier drafts' rule that a seconded employee becomes Mexican resident after 183 days (cited as Art. 9; the 183-day test found in the text read is the construction-PE rule in Art. 2); Código Fiscal de la Federación penalties of 45%-85% and 50%-150% (Arts. 64-65), updating and interest (Art. 20) and the employer's joint liability for ISR withheld but not paid (no archived copy of the CFF); savings-fund exemption limits for 2026.
+Not yet confirmed: the 2026 SAT withholding tariffs (only the 2025 tariffs in RMF 2025 Anexo 8 were archived); aguinaldo of at least 15 days' wages (LFT Art. 87; no archived copy of the LFT); PTU being taxed at the annual tariff rather than through the payroll tables (earlier drafts cited LISR Art. 98); proration rules for multi-month or irregular payments (earlier drafts cited Arts. 96, 106); the worker's annual-return thresholds as they apply in 2026; earlier drafts' rule that a seconded employee becomes Mexican resident after 183 days (cited as Art. 9; the 183-day test found in the text read is the construction-PE rule in Art. 2); Código Fiscal de la Federación penalties of 45%-85% and 50%-150% (Arts. 64-65), updating and interest (Art. 20) and the employer's joint liability for ISR withheld but not paid (no archived copy of the CFF); savings-fund exemption limits for 2026.
 
 <!-- openaccountants-cta-block -->
 

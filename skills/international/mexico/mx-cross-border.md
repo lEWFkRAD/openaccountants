@@ -58,7 +58,7 @@ No penalty or interest figure in this domain is confirmed yet; see the "Not yet 
 
 ## Worked examples
 
-### Example 1: non-resident rent, grossed up
+### Worked example 1: non-resident rent, grossed up
 
 A US company leases MXN 50,000/month of Mexico City warehouse space to a Mexican tenant and wants to receive 50,000 net. Art. 158 taxes 25% of gross and the tenant withholds, so the rent is grossed up: 50,000 / 0.75 = MXN 66,666.67, of which MXN 16,666.67 is withheld.
 
@@ -75,7 +75,7 @@ expected:
   retencion: 16666.67
 ```
 
-### Example 2: non-resident services, grossed up
+### Worked example 2: non-resident services, grossed up
 
 A German consultant invoices a Mexican group company MXN 80,000 net for services delivered in Mexico City (Art. 156, 25% on gross, grossed up): gross fee MXN 106,666.67, withholding MXN 26,666.67.
 
