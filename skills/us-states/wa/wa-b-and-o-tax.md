@@ -2,11 +2,11 @@
 name: wa-business-occupation-tax
 description: >
   Washington State Business and Occupation (B&O) Tax for self-employed individuals. Covers gross receipts tax classifications (service/other, retailing, wholesaling, manufacturing), B&O tax rates, small business credit (SBC), city B&O taxes, and filing frequencies on the Combined Excise Tax Return. Primary source: RCW 82.04.
-version: 1.0
+version: 1.1
 jurisdiction: US-WA
 tax_year: 2025
 tier: 2
-last_updated: 2026-06-12
+last_updated: 2026-10-28
 category: state
 depends_on:
   - us-tax-workflow-base
@@ -73,6 +73,8 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 ## Section 3 -- Rates and thresholds
 
 ### B&O tax rate schedule (2025)
+
+> Verified 2026-10-28 against archived RCW pages: retailing 0.471% (RCW 82.04.250), wholesaling 0.484% (RCW 82.04.270), manufacturing 0.484% (RCW 82.04.240) were the pre-2026 rates; archived current RCW text shows all three at 0.5% effective 1 Jan 2026 (2025 c 420 s 106). Service/other 1.5% and royalties 1.5% (RCW 82.04.2907 "rate of 1.5 percent") confirmed verbatim.
 
 | Classification | Rate | RCW |
 |---------------|------|-----|
