@@ -51,6 +51,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Prescription drugs | EXEMPT |  |
 | Resale | EXEMPT |  |
 
+## Section 9b -- Sources
+
+No primary source was archived for this skill in the current correction run. The figures below remain **needs-sources** pending LDR citation:
+
+- State general rate 4.45% and the ~11.45% average combined rate (R.S. 47:301 et seq. cited in the description only).
+- Parish self-administration list and the Sales Tax Commission central-collection mechanics.
+- The exemption/taxability table (clothing, grocery food, prepared food, SaaS, canned software, professional services, manufacturing equipment, prescription drugs, resale).
+
+The LDR Sales Tax page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/sales-tax/) should be fetched and text-verified in the next run before these figures are relied on for filing.
+
 ## Section 10 -- Prohibitions
 
 - **Parish self-administration** — NEVER ignore parish-level self-administration -- local compliance is separate from state.
