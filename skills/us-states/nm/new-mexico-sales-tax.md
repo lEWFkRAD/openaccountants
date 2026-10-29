@@ -10,11 +10,15 @@ tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# New Mexico Sales Tax
+# New Mexico Sales Tax (Gross Receipts Tax)
 
-## Section 1 -- Quick reference
+## Who this applies to
 
-**Quick reference**
+Sellers with New Mexico gross receipts — NM taxes the SELLER via Gross Receipts Tax (GRT), not a traditional sales tax.
+
+**CRITICAL: NM GRT taxes virtually ALL services and most transactions. One of the broadest tax bases in the US (similar to Hawaii GET). Tax is on the seller, not the buyer.**
+
+## Rates, bands and thresholds
 
 | Field | Value |
 | --- | --- |
@@ -32,7 +36,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 CRITICAL: NM GRT taxes virtually ALL services and most transactions. One of the broadest tax bases in the US (similar to Hawaii GET). Tax is on the seller, not the buyer.
 
-## Section 3 -- Transaction pattern library
+## The taxable base
+
+### Transaction pattern library
 
 **Transaction pattern library**
 
@@ -50,37 +56,46 @@ CRITICAL: NM GRT taxes virtually ALL services and most transactions. One of the 
 | Prescription drugs | EXEMPT |  |
 | Resale | DEDUCTIBLE |  |
 
-## Section 10 -- Prohibitions
+## Deadlines and filing
 
-- **Prohibition: sales tax terminology** — NEVER call NM's tax a "sales tax" without noting it is a GRT on the seller.
-- **Prohibition: services exemption assumption** — NEVER assume services are exempt -- NM taxes virtually ALL services.
-- **Prohibition: deduction vs exemption confusion** — NEVER confuse "deduction" with "exemption" -- NM uses deductions from gross receipts.
-- **Prohibition: computing numbers** — NEVER compute any number.
+GRT returns are filed monthly or quarterly depending on receipts volume; the exact cadence thresholds are not yet confirmed.
 
-## Disclaimer
 
-Informational only. Review by qualified professional required before filing.
+## Penalties and interest
 
-## Disclaimer
+GRT late filing/payment penalties and interest apply; current rates are not yet confirmed against an archived source.
 
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
+## Cross-border points
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+- GRT is destination-based; out-of-state sellers meeting the economic nexus threshold must register.
+- NM is not an SST member.
 
-<!-- openaccountants-cta-block -->
+## Worked examples
 
----
+No worked examples yet — rate figures pending source confirmation.
+
+## Ask the client first
+
+- Whether the client's receipts are services (taxable) or deductible categories (groceries, resale, healthcare).
+- Registration status with the TRD TAP portal.
 
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
-
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| NM Taxation and Revenue — index | https://www.tax.newmexico.gov/ | 2026-10-28 |
+
+Not yet confirmed: state GRT rate 5.125%; local add-on range; maximum combined rate; economic nexus $100,000 threshold; penalty/interest rates.
+- **Prohibition: sales tax terminology** — NEVER call NM's tax a "sales tax" without noting it is a GRT on the seller.
+- **Prohibition: services exemption assumption** — NEVER assume services are exempt -- NM taxes virtually ALL services.
+- **Prohibition: deduction vs exemption confusion** — NEVER confuse "deduction" with "exemption" -- NM uses deductions from gross receipts.
+- **Prohibition: computing numbers** — NEVER compute any number.
