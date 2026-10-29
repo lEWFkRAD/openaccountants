@@ -41,16 +41,16 @@ Not yet confirmed against archived sources.
 ## The taxable base
 
 Not yet confirmed against archived sources.
-## Penalties and interest
+### Penalties and interest
 
 Not yet confirmed against archived sources.
-## Cross-border points
+### Cross-border points
 
 Not yet confirmed against archived sources.
-## Worked examples
+### Worked examples
 
 Not yet confirmed against archived sources.
-## Ask the client first
+### Ask the client first
 
 - **Which calendar year?** The exclusion is $6,000,000 for 2025 and after, $3,000,000 for 2024, and $1,000,000 before 2024 (with a $150,000 filing threshold and an annual minimum tax). The CAT year is always the calendar year, whatever the client's fiscal year ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023)).
 - **Is a CAT account open now?** An open account must keep filing quarterly returns, even with no tax due, until it is cancelled ([Department CAT page](https://tax.ohio.gov/business/commercial-activity-tax)).
@@ -361,7 +361,7 @@ When the 10th fell on a weekend, the Department has set the next business day. F
 
 ---
 
-## Sources
+### Sources
 
 Not yet confirmed: figures in this skill lack archived line-citations.
 
@@ -370,7 +370,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 | (see Not yet confirmed) | — | 2026-10-28 |
 
 Not yet confirmed against archived sources.
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
@@ -384,7 +384,7 @@ the OpenAccountants network.
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
 
-## Sources
+### Sources
 
 | Source | URL | Read on |
 | --- | --- | --- |
@@ -393,7 +393,7 @@ the OpenAccountants network.
 
 Not yet confirmed against archived sources.
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 
 This guide is maintained by the OpenAccountants network — accountants who put

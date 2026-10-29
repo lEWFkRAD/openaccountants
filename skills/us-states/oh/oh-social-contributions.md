@@ -121,7 +121,7 @@ expected:
   premium: 23125.00
 ```
 
-The $1.85 class rate is illustrative — pull the client's actual BWC class rate from their premium worksheet (not yet confirmed).
+The $1.85 class rate is hypothetical — pull the client's actual BWC class rate from their premium worksheet (not yet confirmed).
  (not yet confirmed)
 ## Ask the client first
 
