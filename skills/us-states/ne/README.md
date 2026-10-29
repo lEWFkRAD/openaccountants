@@ -42,7 +42,7 @@ All seven domains apply — no not_applicable entries.
 
 ## Open items for reviewer
 
-- Corporate rate table (5% / 5.5% bands commonly cited) and Form 4-1120C identity; filing deadlines and estimate thresholds.
+- Corporate rate table (the commonly cited two-band table) and Form 4-1120C identity; filing deadlines and estimate thresholds.
 - Withholding form ID (941-N commonly cited) and deposit frequencies — inside Circular EN, not parsed.
 - UI wage base/rates (NDOL 403).
 - Combined reporting posture (Nebraska is separate-company with addback provisions — confirm) and nonresident mechanics.

@@ -39,7 +39,7 @@ Nebraska employers and out-of-state employers with Nebraska employees. No state 
 | NE UI taxable wage base | see Not yet confirmed (NDOL pages returned 403 to this run's fetcher) | — |
 | Experience rates | see Not yet confirmed | — |
 | New-employer rate | see Not yet confirmed | — |
-| FUTA (context) | 6.0% on first $7,000; credit up to 5.4% | federal standing rule (IRC §3301/§3302) |
+| FUTA (context) | 6.0% on first $7,000; credit up to 5.4% | federal statute (IRC §§ 3301, 3302, 3306); figures listed under Not yet confirmed for this pack's archive |
 
 ## The taxable base
 
