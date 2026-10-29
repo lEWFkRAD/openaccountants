@@ -169,7 +169,7 @@ Step 5: If remainder > $500 → MUST make estimates.
 5. Subtract withholding allocated to that period and prior installments paid.
 6. Result = required installment for that quarter.
 
-### Worked snippet
+### Worked example snippet (hypothetical)
 
 **Worked snippet table**
 
@@ -180,7 +180,7 @@ Step 5: If remainder > $500 → MUST make estimates.
 | 3 (Aug 31) | $90,000 | $135,000 | $5,738 | $3,873 (67.5%) | $689 | $3,184 |
 | 4 (Dec 31) | $140,000 | $140,000 | $5,950 | $5,355 (90%) | $3,873 | $1,482 |
 
-### Worked snippet
+### Worked example snippet (hypothetical)
 
 Without annualization the consultant would owe roughly $1,488 per quarter (the $5,950 annual figure divided by 4). With annualization the Q1 and Q2 payments are tiny because little income had been earned. Total paid across all four quarters is identical, but no underpayment penalty accrues for Q1 and Q2.
 

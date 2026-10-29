@@ -26,7 +26,7 @@ version: 0.1
 
 
 - **UI:** employer-only tax on a per-employee taxable wage base (the current-year figure is not yet confirmed); experience-rated rates plus a wage tax on covered employment whose rate is not yet confirmed (mi-payroll, read 2026-10-25). No employee contribution.
-- **PFML:** the Insurance Care for Working Families Act (2022 PA 1, 200 on 2026-10-25) creates a state insurance program funded by premiums on covered wages. The statute's premium schedule (0.8% of wages, split 50/50 employer/employee, with small-employer exemption) was **not machine-verified from the enrolled-act text in the drafting environment on 2026-10-25** — the enrolled PDF's text layer did not yield the premium sections — so the premium figures are **unverified**; confirm against LARA's Family Leave Insurance pages before payroll changes.
+- **PFML:** the Insurance Care for Working Families Act (2022 PA 1) creates a state insurance program funded by premiums on covered wages. The premium schedule (rate and employer/employee split) is **not yet confirmed** — the enrolled PDF's text layer did not yield the premium sections and LARA's Family Leave Insurance pages were unreachable — so no premium figure is stated here; confirm against LARA before payroll changes.
 - PFML premium collection was legislatively delayed; the first-premium timing is part of the unverified set above.
 
 ## The taxable base
