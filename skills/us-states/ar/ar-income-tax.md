@@ -1,10 +1,10 @@
 ---
 name: ar-income-tax
 description: Use this skill whenever asked about Arkansas individual income tax for self-employed individuals or sole proprietors — filing Form AR1000F, AR estimated tax, Arkansas tax brackets, Arkansas deductions, or any query involving Arkansas state income tax compliance. Trigger on phrases like "Arkansas income tax", "AR income tax", "Form AR1000F", "Arkansas estimated tax", "Arkansas self-employed tax", "DFA income tax", or "Ark. Code Ann. §26-51".
-version: "0.1"
+version: "0.3"
 jurisdiction: US-AR
 tax_year: 2026
-last_updated: 2026-09-25
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -76,7 +76,7 @@ The Act applies "for tax years beginning on or after January 1, 2026". It was ap
 
 - Standard deduction on DFA's 2026 estimated-tax worksheet: $2,470 per taxpayer. Confirm it against the 2026 AR1000F instructions when they are published.
 - Personal tax credits on the 2026 worksheet: $29 for single or married filing on separate forms. $58 for a joint return, head of household, married filing separately on the same return, or a qualifying widow(er). Add $29 for each dependent, and $29 each for blind, deaf, over 65 and "65 Special".
-- Declaration threshold: file a Declaration of Estimated Tax if the estimated tax after withholding and credits is $1,000 or more.
+- Declaration threshold: file a Declaration of Estimated Tax if the estimated tax after withholding and credits is $1,000 or more ("estimated tax to be more than one thousand dollars ($1,000)" — [AR-1000ES 2026 vouchers, archived 2026-10-28](https://www.dfa.arkansas.gov/wp-content/uploads/AR-1000ES-2026.pdf)). Calendar-year filers file the declaration "on or before April 15th of the income year" (same archived voucher sheet).
 
 ### Figures that stay the same in both years
 
@@ -152,7 +152,7 @@ Each case is an illustration with hypothetical inputs. 2026 amounts use DFA's 20
 
 ### 2025 returns (tax year 2025, being filed now) ([2025 brackets](https://www.dfa.arkansas.gov/wp-content/uploads/2025_TaxBrackets.pdf))
 
-- **Rates:** Act 1 of the Second Extraordinary Session of 2024 set the top rate at 3.9%. The 2025 indexed brackets are 0% to $5,599; 2% from $5,600; 3% from $11,200; 3.4% from $16,000; and 3.9% from $26,400 to $94,700. Above $94,700, the upper table is 2% on the first $4,700 and 3.9% above, with bracket adjustments up to $97,800. For $100,001 and over: $3,809 + 3.9% of the excess over $100,000.
+- **Rates:** Act 1 of the Second Extraordinary Session of 2024 set the top rate at 3.9%. The 2025 indexed brackets are 0% to $5,599; 2% from $5,600; 3% from $11,200; 3.4% from $16,000; and 3.9% from $26,400 to $94,700 — verified verbatim against the archived DFA "2025 Indexed Tax Brackets" sheet (archived 2026-10-28): "$0 $5,599 0.00%; $5,600 $11,199 2.00% minus $111.98; $11,200 $15,999 3.00% minus $223.97; $16,000 $26,399 3.40% minus $287.97; $26,400 $94,700 3.90% minus $419.96". Above $94,700, the upper table is 2% on the first $4,700 and 3.9% above, with bracket adjustments up to $97,800. For $100,001 and over: $3,809 + 3.9% of the excess over $100,000.
 - **Use the table.** DFA says a formula result "must match the table exactly", and the table is worked at the midpoint of each $100 band.
 - **Standard deduction 2025 ([instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)):** $2,470 (single, head of household, surviving spouse, and each spouse filing separately); $4,940 married filing jointly.
 - **Additional tax credit for qualified individuals, 2025 ([instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)):** up to $60 per person if net income on line 28 is $26,500 or less, stepping down to $0 above $27,600. The return must be timely filed.
@@ -168,6 +168,29 @@ Each case is an illustration with hypothetical inputs. 2026 amounts use DFA's 20
 | Married filing jointly, 2 or more dependents | $28,723 |
 | Married filing separately | $9,470 |
 | Source | [2025 instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf) |
+
+## Recomputing examples
+
+```oa-check
+name: AR 2025 single, taxable income 30,000 (3.9% minus 419.96 band)
+inputs:
+  ti: 30000
+  flat: 419.96
+steps:
+  - tax: ti * 0.039 - flat
+expected:
+  tax: 750.04
+```
+
+```oa-check
+name: AR 2025 single, taxable income 105,000 (3,809 plus 3.9% of excess over 100,000)
+inputs:
+  ti: 105000
+steps:
+  - tax: 3809 + (ti - 100000) * 0.039
+expected:
+  tax: 4004.00
+```
 
 ## Completion checklist
 
@@ -188,6 +211,28 @@ Each case is an illustration with hypothetical inputs. 2026 amounts use DFA's 20
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+- https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2026S1%2FPublic%2FACT2.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000ADJ_AdjustmentsSchedule.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/802-HowToApportionTaxLiability.pdf (as_of: 2026-10-28)
+- https://arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2F2025%2F2026S1%2FFiscal+Impacts%2FSB1-DFA1.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/Withholding-Tax-Formula.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/2026_Final_AR1000ES_2.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/AR-1000ES-2026.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000D_CapitalGains.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/502-CapitalGainsTax.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/TaxTables_FI_2025.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/302-BorderCityExemption.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000TC_Instructions.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/2025_TaxBrackets.pdf (as_of: 2026-10-28)
+- https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR2210_Instructions.pdf (as_of: 2026-10-28)
+- https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2FACT719.pdf (as_of: 2026-10-28)
+- https://www.openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com/connect (as_of: 2026-10-28)
+- https://www.openaccountants.com/network (as_of: 2026-10-28)
 
 ## Talk to a verified accountant
 
