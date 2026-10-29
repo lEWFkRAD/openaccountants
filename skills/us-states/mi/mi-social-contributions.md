@@ -98,7 +98,7 @@ expected:
 - Whether PFML premiums have begun collecting for their payroll cycle (timing is unverified — check LARA).
 - Multi-state base allocation if employees work in neighbouring states.
 
-## 9. Sources
+## Sources
 
 - Insurance Care for Working Families Act, 2022 PA 1 (enrolled): <https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm> — 200 on 2026-10-25; premium sections **unverified** (text layer not machine-readable in drafting environment).
 - LARA Family Leave Insurance program pages — **unverified** (not reachable 2026-10-25).

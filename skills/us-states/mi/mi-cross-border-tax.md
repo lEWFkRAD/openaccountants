@@ -97,7 +97,7 @@ expected:
 - Workday log for hybrid work near the state line.
 - Whether the pass-through has nonresident members and whether a composite filing was considered (mechanics unverified).
 
-## 9. Sources
+## Sources
 
 - Treasury resident/non-resident FAQ hub: <https://www.michigan.gov/taxes/iit/file-your-income-taxes/resident-and-non-resident-income-faqs> — 200 with content on 2026-10-25.
 - MCL 206.131 (composite): <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-131> — 200 on 2026-10-25; section text JS-rendered, **unverified**.

@@ -94,7 +94,7 @@ expected:
 - Whether operations are integrated (shared customers, supply chain, management) — the unitary test.
 - Whether any foreign affiliates are inside the water's-edge boundary.
 
-## 9. Sources
+## Sources
 
 - MCL 208.1401 (unitary business groups): <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-208-1401> — 200 on 2026-10-25.
 - Treasury CIT unitary business groups page: <https://www.michigan.gov/taxes/business-taxes/cit/detail/unitary-business-groups> — 200 with content on 2026-10-25.

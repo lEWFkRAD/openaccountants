@@ -46,6 +46,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 3 | MCL 206.51 — Tax rate | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51 |
 | 4 | Michigan city income tax list | https://www.michigan.gov/taxes/iit/city |
 
+Not yet confirmed: MI-1040 Book line references and credit interaction details (PDF not machine-verified in the drafting environment); city income tax rate specifics beyond the state-level list.
+
 ## Section 2: Quick reference — rates and thresholds
 
 ### Tax rate — 2026 tax year

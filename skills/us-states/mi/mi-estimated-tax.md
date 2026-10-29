@@ -49,6 +49,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 8 | Michigan Treasury — Interest Rate Due on Under/Overpayments | https://www.michigan.gov/taxes/interest-rate |
 | 9 | Michigan Treasury Online (MTO) portal | https://mto.treasury.michigan.gov/ |
 
+Not yet confirmed: MI-1040ES safe-harbor percentages (90%/100%/110% and the high-income AGI threshold), the 2026 H1/H2 interest rates (8.48%/7.85%) pending RAB text verification, MTO card/debit payment fees, and the annualization factors on the 2026 MI-2210 form.
+
 ## Section 2: Quick reference
 
 **Quick reference table**
