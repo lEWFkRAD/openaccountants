@@ -31,7 +31,7 @@ Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pr
 
 ## Rates, bands and thresholds
 
-- **Affiliated/unitary groups** with Louisiana filing members — combined-report exposure (ownership test expected 80%-type; **not confirmed**).
+- **Affiliated/unitary groups** with Louisiana filing members — combined-report exposure; the combination test is not confirmed (see Sources).
 - Any CIFT-620 filer making **intercompany royalty, interest, management, or service payments** to out-of-state affiliates — addback exposure.
 - Multistate filers whose **intercompany sales** move the Louisiana apportionment factor.
 - **S corporations taxed as corporations for Louisiana** (verified category on LDR page) — intra-group pricing matters at the entity level.

@@ -34,7 +34,7 @@ Source-cited draft, run of 2026-10-28. Louisiana has **no state social insurance
 - **Covered employers**: employers paying Louisiana wages meeting the statutory coverage tests must register with LWC, report quarterly wages, and pay contributions (structural; registration runs through the LaCOSA24/7 portal — portal name **not confirmed**).
 - **Successor and affiliated-group aggregation** for experience rating — **not confirmed**.
 - **Employee side**: no employee UI premium in Louisiana — employer-only (structural, low risk).
-- **Federal layer**: FUTA standard 6.0% gross / 5.4% net-credit (federal statutory rates); Louisiana's credit-reduction status for 2026 is not confirmed.
+- **Federal layer**: FUTA is a federal tax outside this pack — see the federal skill for rates and credit mechanics; Louisiana's credit-reduction status for 2026 is not confirmed.
 
 ## The taxable base
 

@@ -49,7 +49,7 @@ All seven domains apply to Louisiana — no not_applicable entries (franchise re
 
 - 2026 UI taxable wage base and experience-rate schedule (lwc.org blocked).
 - Withholding table figures (JS-rendered page).
-- Combined-report/unitary requirement and form (R.S. 47:287.83 numbering never verified — legis.la.gov JS shell).
+- Combined-report/unitary requirement and form (statute numbering never verified — legis.la.gov serves only a JS shell).
 - Nonresident credit statute citation and IT-540B routing detail.
 - Partnership tax (LI-005) interaction with TP/XB skills.
 
