@@ -216,6 +216,31 @@ These are the basic amounts. The federal add-ons for age and blindness also coun
 - **Filing after 15 April 2026 without full payment:** interest at 7% runs from 15 April 2026, recalculated after each part payment.
 - **2025 overpayment:** it can be applied to the first 2026 estimated installment (line 24).
 
+## Penalties and interest
+
+([2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf); [DOR extensions](https://revenue.mt.gov/taxes/individual-income-tax/extensions); [DOR penalty and interest](https://revenue.mt.gov/taxes/penalty-and-interest); [DOR estimated tax](https://revenue.mt.gov/taxes/estimated-tax-payments); [Publication 1](https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf))
+
+- **Due date:** 15 April (15 April 2026 for 2025; 15 April 2027 for 2026).
+- **Extension:** an automatic six months, to 15 October. No form and no federal extension are needed.
+  - It covers filing only: "You must still pay your tax liability by the due date to avoid penalties and interest." Pay by 15 April through the TransAction Portal or with Form IT.
+  - Servicemembers in a combat zone or contingency operation get up to 180 days from their last day there.
+- **Late filing penalty** (after the extended due date): 5% a month of the tax owed on 15 October, up to 25%, with a **$50 minimum** "even if you are claiming a refund" (2025 instructions). It may be waived if tax and interest are paid within 30 days of the first Notice of Assessment.
+- **Late payment penalty:** 0.5% a month, calculated daily, from 15 April, capped at 12% of the unpaid tax. The 2025 instructions say it is waived automatically if all tax and interest are paid with the return, or within 30 days of the first Notice of Assessment. DOR's penalty page names only the 30-days-after-notice route.
+- **Interest** is charged on tax paid after 15 April and on underpaid estimates, computed daily. The rate is 7% for 2026 (0.019178% a day); it was 8% for 2025.
+- **Other penalties** ([DOR penalty and interest](https://revenue.mt.gov/taxes/penalty-and-interest)):
+  - understatement: 20% of the understatement. An individual may be subject to it if the understatement is more than 10% of the tax or $3,000;
+  - purposely or knowingly failing to file: 15% a month, up to 75%;
+  - fraud: 75%;
+  - frivolous return: $2,500.
+- **Estimated tax: who must pay.** Anyone whose tax after withholding and nonrefundable credits is expected to be more than $500, residents and nonresidents alike, unless an exception in the boundary table applies.
+- **Estimated tax: amount.** Each installment is the lesser of:
+  - one quarter of 100% of the prior year's tax (2025 Form 2 line 10 for 2026 estimates), less expected withholding. Publication 1 uses 100% for everyone, with no higher percentage for high earners. This option needs a return for the preceding year, and it cannot be used if that return covered a short year;
+  - one quarter of 90% of the current year's tax.
+
+  Seasonal income can use the annualization method (Worksheet ESA) to work out the 90% current-year amount.
+- **Estimated tax: due dates:** 15 April, 15 June, 15 September and 15 January of the next year, or the next business day if a date falls on a weekend or holiday. Fiscal years: the 15th day of the 4th, 6th and 9th months and of the first month after year-end.
+- **Paying estimates:** the TransAction Portal (tap.dor.mt.gov) or the Form IT voucher. Underpayment interest is figured on Form EST-I, or DOR figures it.
+
 ## Cross-border points
 
 Boundary and exception table ([Publication 1](https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf); [MCA 15-30-2103](https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html)):
@@ -318,31 +343,6 @@ Client facts: lived all year in a rented Montana apartment on taxable property. 
 - **Amended returns after federal changes**: these must be filed within 180 days of the IRS final determination or of filing the amended federal return.
 - **Non-qualified withdrawals** from farm and ranch risk management accounts, first-time homebuyer accounts and medical savings accounts, which carry 10% penalties ([2025 Form 2 instructions, Schedule IV](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf)).
 - **2026 returns** before DOR publishes the 2026 Form 2: confirm the 65-and-older subtraction, the 529 limit and EITC proration.
-
-## Penalties and interest
-
-([2025 Form 2 instructions](https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf); [DOR extensions](https://revenue.mt.gov/taxes/individual-income-tax/extensions); [DOR penalty and interest](https://revenue.mt.gov/taxes/penalty-and-interest); [DOR estimated tax](https://revenue.mt.gov/taxes/estimated-tax-payments); [Publication 1](https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf))
-
-- **Due date:** 15 April (15 April 2026 for 2025; 15 April 2027 for 2026).
-- **Extension:** an automatic six months, to 15 October. No form and no federal extension are needed.
-  - It covers filing only: "You must still pay your tax liability by the due date to avoid penalties and interest." Pay by 15 April through the TransAction Portal or with Form IT.
-  - Servicemembers in a combat zone or contingency operation get up to 180 days from their last day there.
-- **Late filing penalty** (after the extended due date): 5% a month of the tax owed on 15 October, up to 25%, with a **$50 minimum** "even if you are claiming a refund" (2025 instructions). It may be waived if tax and interest are paid within 30 days of the first Notice of Assessment.
-- **Late payment penalty:** 0.5% a month, calculated daily, from 15 April, capped at 12% of the unpaid tax. The 2025 instructions say it is waived automatically if all tax and interest are paid with the return, or within 30 days of the first Notice of Assessment. DOR's penalty page names only the 30-days-after-notice route.
-- **Interest** is charged on tax paid after 15 April and on underpaid estimates, computed daily. The rate is 7% for 2026 (0.019178% a day); it was 8% for 2025.
-- **Other penalties** ([DOR penalty and interest](https://revenue.mt.gov/taxes/penalty-and-interest)):
-  - understatement: 20% of the understatement. An individual may be subject to it if the understatement is more than 10% of the tax or $3,000;
-  - purposely or knowingly failing to file: 15% a month, up to 75%;
-  - fraud: 75%;
-  - frivolous return: $2,500.
-- **Estimated tax: who must pay.** Anyone whose tax after withholding and nonrefundable credits is expected to be more than $500, residents and nonresidents alike, unless an exception in the boundary table applies.
-- **Estimated tax: amount.** Each installment is the lesser of:
-  - one quarter of 100% of the prior year's tax (2025 Form 2 line 10 for 2026 estimates), less expected withholding. Publication 1 uses 100% for everyone, with no higher percentage for high earners. This option needs a return for the preceding year, and it cannot be used if that return covered a short year;
-  - one quarter of 90% of the current year's tax.
-
-  Seasonal income can use the annualization method (Worksheet ESA) to work out the 90% current-year amount.
-- **Estimated tax: due dates:** 15 April, 15 June, 15 September and 15 January of the next year, or the next business day if a date falls on a weekend or holiday. Fiscal years: the 15th day of the 4th, 6th and 9th months and of the first month after year-end.
-- **Paying estimates:** the TransAction Portal (tap.dor.mt.gov) or the Form IT voucher. Underpayment interest is figured on Form EST-I, or DOR figures it.
 
 ## Recomputing examples
 
