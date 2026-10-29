@@ -170,6 +170,13 @@ expected:
 
 ## Sources
 
+| Source | URL | Read on |
+| --- | --- | --- |
+| DOR General Information / Tax Rates — 2025/2026/2027 rates (0% first $10,000; 4.4%/4%/3.75% above), filing thresholds ($8,300/$16,600 + $1,500 per dependent), standard deduction ($2,300/$4,600/$3,400), exemptions ($6,000/$12,000/$8,000/$1,500), $23,000 worked example | https://www.dor.ms.gov/general-information | 2026-10-28 |
+| MSDOR 2025 Individual Income Tax Instructions (Form 80-100, rev. 12/25) — April 15 due date, fiscal-year rule, estimated-tax $200 threshold with April 15/June 15/Sept 15/Jan 15 dates, late-pay 1/2%/month cap 25%, late-file 5%/month cap 25% min $100, 3% gambling withholding, other-state credit via Form 80-160 | https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf | 2026-10-29 |
+
+
+
 **Refusal catalogue table**  _(see rows)_
 
 | ID | Situation | Action |
@@ -184,12 +191,9 @@ expected:
 
 ---
 
-| Source | URL | Read on |
-| --- | --- | --- |
-| DOR General Information / Tax Rates — 2025/2026/2027 rates (0% first $10,000; 4.4%/4%/3.75% above), filing thresholds ($8,300/$16,600 + $1,500 per dependent), standard deduction ($2,300/$4,600/$3,400), exemptions ($6,000/$12,000/$8,000/$1,500), $23,000 worked example | https://www.dor.ms.gov/general-information | 2026-10-28 |
-| MSDOR 2025 Individual Income Tax Instructions (Form 80-100, rev. 12/25) — April 15 due date, fiscal-year rule, estimated-tax $200 threshold with April 15/June 15/Sept 15/Jan 15 dates, late-pay 1/2%/month cap 25%, late-file 5%/month cap 25% min $100, 3% gambling withholding, other-state credit via Form 80-160 | https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf | 2026-10-29 |
-
 Not yet confirmed: the 183-day/domicile residency test detail; statute cites for the Social Security and US-government-bond exemptions; statute cites for the 50%-self-employment-tax and self-employed health-insurance deductions; bonus-depreciation (IRC §168(k)) conformity date for 2026; whether 2026 standard deduction/exemption amounts change from the 2025 figures archived here.
+
+---
 
 ---
 
