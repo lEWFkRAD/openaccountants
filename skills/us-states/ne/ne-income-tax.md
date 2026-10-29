@@ -34,7 +34,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Supporting schedules | Schedule I (Nebraska Adjustments to Income), Schedule II (Credits), Schedule III (Computation of Nebraska Tax) |
 | Tax structure | Graduated (4 brackets) |
 | Rate range | 2.46% – 5.20% (TY 2025) |
-| Filing deadline | April 15, 2026 (§ 77-2768, archived `SRC-US-NE-77-2768`; DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`) |
+| Filing deadline | April 15, 2026 (archived `US-NE-DOR-tax-calendar.html`, 04/15/2026 Form 1040N entry; `US-NE-77-2768.html`) |
 | Extension deadline | October 15, 2026 (see Not yet confirmed in Sources) |
 | Tax authority | Nebraska Department of Revenue |
 | Website | https://revenue.nebraska.gov |
@@ -154,10 +154,10 @@ Schedule C net profit flows into federal AGI, which is the starting point for Ne
 
 | Installment | Due date |
 | --- | --- |
-| 1st quarter | April 15 (DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`) |
-| 2nd quarter | June 15 (DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`) |
-| 3rd quarter | September 15 (DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`) |
-| 4th quarter | January 15 (following year) (DOR Tax Calendar `SRC-US-NE-DOR-tax-calendar`, 01/15/2026 entries) |
+| 1st quarter | April 15 (archived `US-NE-DOR-tax-calendar.html`) |
+| 2nd quarter | June 15 (archived `US-NE-DOR-tax-calendar.html`, 06/15/2026 entries) |
+| 3rd quarter | September 15 (archived `US-NE-DOR-tax-calendar.html`, 09/15/2026 entries) |
+| 4th quarter | January 15 (following year) (archived `US-NE-DOR-tax-calendar.html`, 01/15/2026 entries) |
 
 Form 1040N-ES is used for estimated tax payments.
 

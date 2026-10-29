@@ -48,7 +48,7 @@ Federal taxable income with Nebraska modifications. **Unitary groups must file a
 
 ## Deadlines and filing
 
-- **Return due date:** Nebraska returns are due "on or before the dates prescribed by the laws of the United States for filing federal income tax returns" (Neb. Rev. Stat. § 77-2768, archived: `SRC-US-NE-77-2768`) — i.e. **April 15, 2026** for calendar-year 2025 returns; the DOR 2026 tax calendar confirms the April 15 entries (`SRC-US-NE-DOR-tax-calendar`). Corporate extension: Form 7004N (DOR regs Ch. 24, `SRC-US-NE-DOR-chapter24`).
+- **Return due date:** Nebraska returns are due "on or before the dates prescribed by the laws of the United States for filing federal income tax returns" (Neb. Rev. Stat. § 77-2768, archived: `SRC-US-NE-77-2768`) — i.e. **April 15, 2026** for calendar-year 2025 returns; the DOR 2026 tax calendar confirms the 04/15/2026 Form 1040N entry (`SRC-US-NE-DOR-tax-calendar`). Corporate extension: Form 7004N (DOR regs Ch. 24, `SRC-US-NE-DOR-chapter24`).
 - **Estimated payments:** required when the tax reasonably expected to be shown on the return (net of withholding) is **$400 or more** for corporations ($500 or more for individuals) — Neb. Rev. Stat. § 77-2769(2), archived: `SRC-US-NE-77-2769`. The statute sets the $400/$500 thresholds; installment due dates follow the federal schedule per the DOR tax calendar (Form 1120N-ES first installment April 15, 2026).
 ## Penalties and interest
 
