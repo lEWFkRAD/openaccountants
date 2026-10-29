@@ -1,14 +1,14 @@
 ---
 name: ad-income-tax
 description: "Compute Andorra resident personal income tax for calendar 2026, including employment, pensions, direct or objective sole-trader income, rental income, investments and capital gains. Use for fiscal residence, IRPF allowances and proportional bonus, family and housing reductions, loss pools, property sale and reinvestment, foreign-tax credits, advances and annual return reconciliation. This Guide distinguishes employment expense relief from business deductions, general income from savings and resident property taxation from IRNR. Read the payroll and social Guide for the actual 2026 CASS category and wage period, the IGI Guide for indirect tax, and the corporate and cross-border Guides for their separate computations. Figures require the cited facts and documents. Source-cited draft, without accountant attestation."
+version: 0.2
 jurisdiction: AD
 tax_year: 2026
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
-version: 0.2
 ---
 
 # Andorra individual income tax (IRPF), 2026 v0.2
@@ -184,6 +184,8 @@ Not yet confirmed: The old share-gain 50% relief for five-to-ten-year holdings i
 [general]: https://www.portaljuridicandorra.ad/L2014021
 [budget]: https://www.portaljuridicandorra.ad/L2026001
 [housing]: https://www.portaljuridicandorra.ad/L2025005
+
+> Contributed by Michael Cutajar.
 
 <!-- openaccountants-cta-block -->
 
