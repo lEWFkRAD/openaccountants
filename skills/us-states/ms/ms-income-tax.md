@@ -1,52 +1,25 @@
 ---
 name: ms-income-tax
-description: Use this skill whenever asked about Mississippi individual income tax for self-employed persons, sole proprietors, or single-member LLCs. Trigger on phrases like "Mississippi income tax", "MS income tax", "Form 80-105", "Mississippi DOR", "Miss. Code Ann. § 27-7".
-version: "0.2"
+description: Use this skill whenever asked about Mississippi individual income tax for self-employed persons, sole proprietors, or single-member LLCs — Form 80-105, the 0%/4.4% (TY2025) and 0%/4% (TY2026) rate structure, standard deductions, exemptions, and estimated-tax rules. Trigger on "Mississippi income tax", "MS income tax", "Form 80-105", "Mississippi DOR", "Miss. Code Ann. § 27-7".
+version: "0.3"
 jurisdiction: US-MS
-tax_year: 2025
-last_updated: 2026-10-28
-review_status: pending_review
-trust_label: Built by Michael Cutajar and the OpenAccountants team
+tax_year: 2026
+last_updated: 2026-10-29
 tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# MS Income Tax
+# Mississippi individual income tax, tax year 2026
 
-## Mississippi Individual Income Tax Skill — Self-Employed / Sole Proprietor
+## Who this applies to
 
 > **Scope.** This skill covers Mississippi Form 80-105 for full-year Mississippi residents who are sole proprietors or single-member LLC owners. Mississippi uses a near-flat tax: 0% on the first $10,000 of taxable income, 4.4% on income above $10,000 (TY 2025). The rate drops to 4.0% for TY 2026, with further reductions planned through 2030+.
 >
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Mississippi Department of Revenue publications. A qualified professional must review before filing.
+> **Source-cited draft.** Rates, deductions, exemptions and thresholds verified verbatim against the archived MSDOR General Information / Tax Rates page and the archived 2025 Form 80-100 instructions (read 2026-10-28/29). No accountant has reviewed it.
 
-## Section 1: Metadata
+Primary form: Form 80-105 (Resident Individual Income Tax Return); authority: Mississippi Department of Revenue; statute: Miss. Code Ann. § 27-7-5 et seq. Part-year residents and nonresidents file Form 80-205 (see `ms-cross-border.md`).
 
-**Metadata table**
-
-| Field | Value |
-| --- | --- |
-| Jurisdiction | Mississippi (US-MS) |
-| Tax type | Individual income tax |
-| Primary form | Form 80-105 (Resident Individual Income Tax Return) |
-| Tax year | 2025 (filed in 2026) / 2026 |
-| Authority | Mississippi Department of Revenue (MSDOR) |
-| Statute | Miss. Code Ann. § 27-7-5 et seq. |
-| Version | 0.1 |
-| Last updated | 2026-05-22 |
-| Validation | AI-drafted — Q3 |
-
-### Sources consulted
-
-**Sources consulted table**
-
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | Mississippi DOR — Tax Rates | https://www.dor.ms.gov/individual/tax-rates |
-| 2 | Mississippi DOR — General Information | https://www.dor.ms.gov/general-information |
-| 3 | Miss. Code Ann. § 27-7-5 (rate statute) | https://law.justia.com/codes/mississippi/title-27/chapter-7/section-27-7-5/ |
-| 4 | Build-Up Mississippi Act (income tax phase-out) | https://www.ntu.org/foundation/detail/mississippi-moves-to-end-individual-income-taxheres-what-taxpayers-need-to-know |
-
-## Section 2: Quick reference — rates and thresholds
+## Rates, bands and thresholds
 
 ### Tax rates (all filing statuses)
 
@@ -94,11 +67,11 @@ Mississippi applies the same rate structure to all filing statuses (single, MFJ,
 | Extension | Automatic 6-month with federal extension | MSDOR policy |
 | Estimated tax threshold | $200 expected liability after withholding and credits | Miss. Code Ann. § 27-7-320 |
 
-## Section 3: How this skill works with the federal return
+## The taxable base
 
 - **Separate computation process** — Mississippi taxable income is computed independently from the federal return — Mississippi does NOT start from federal AGI. Instead: 1. **Report all income** — Wages, self-employment income, interest, dividends, capital gains, rental income, etc. are reported directly on Form 80-105 and supporting schedules. 2. **Adjustments** — Mississippi allows its own adjustments (e.g., deduction for 50% of self-employment tax, contributions to MS retirement plans). 3. **Deductions** — Apply the Mississippi standard deduction OR Mississippi itemized deductions. 4. **Personal exemptions** — Subtract personal exemptions ($6,000 single, $12,000 MFJ, etc.). 5. **Mississippi taxable income** — Gross income − adjustments − deductions − exemptions. 6. **Tax** — 0% on first $10,000; 4.4% on excess (TY 2025). 7. **Credits** — Apply applicable credits. **Key difference:** Mississippi is a "separate computation" state. It does NOT piggyback on federal AGI or federal taxable income. The taxpayer must independently compute Mississippi income.  _(unsure)_
 
-## Section 4: Self-employed specific rules
+## Deadlines and filing
 
 - **Self-employment income reporting** — Report net business income on Form 80-105 directly. Mississippi recognizes the same business income and expenses as the federal return in most cases, but the starting point is gross income, not federal AGI.  _(unsure)_
 - **Self-employment tax deduction** — Mississippi allows a deduction for 50% of self-employment tax paid, mirroring the federal deduction.  _(unsure)_
@@ -107,7 +80,7 @@ Mississippi applies the same rate structure to all filing statuses (single, MFJ,
 - **Health insurance deduction** — Self-employed health insurance premiums are deductible for Mississippi purposes, consistent with the federal deduction.  _(unsure)_
 - **No local income tax** — Mississippi does not permit local income taxes.  _(unsure)_
 
-## Section 5: Tier 1 rules — deterministic
+## Penalties and interest
 
 **Tier 1 rules table**  _(see rows)_
 
@@ -124,7 +97,7 @@ Mississippi applies the same rate structure to all filing statuses (single, MFJ,
 | MS-T1-09 | Social Security benefits: fully exempt from Mississippi tax | MSDOR guidance |
 | MS-T1-10 | Mississippi does not tax retirement income from MS public retirement systems | Miss. Code Ann. § 27-7-15 |
 
-## Section 6: Tier 2 rules — requires judgment
+## Cross-border points
 
 **Tier 2 rules table**  _(see rows)_
 
@@ -137,7 +110,37 @@ Mississippi applies the same rate structure to all filing statuses (single, MFJ,
 | MS-T2-05 | **Income tax phase-out** — Rate drops annually (4.4% → 4.0% → 3.75% → ...) with potential full elimination. Confirm the applicable rate for the tax year. | Check MSDOR for the current-year rate before filing. |
 | MS-T2-06 | **Bonus depreciation conformity** — Mississippi's conformity to IRC § 168(k) should be verified for the tax year. | Compare MS conformity date to asset placed-in-service date. |
 
-## Section 7: Supplier pattern library
+## Worked examples
+
+**Example 1 — DOR's own worked example (verbatim from the DOR Tax Rates page).** Single taxpayer, taxable income $23,000, tax year 2025: "$10,000 X 0% = $0 $13,000 X 4.4% = $572 Total Tax Liability = $572"
+
+```oa-check
+name: MS 2025 single 23k
+inputs:
+  income: 23000
+  zero_band: 10000
+  rate: 0.044
+steps:
+  - above: income - zero_band
+  - tax: above * rate
+expected:
+  tax: 572.00
+```
+
+**Example 2 — 2026 rate on the same facts (hypothetical client facts; the 4% rate is from the skill's own confirmed table above).** Single taxpayer, taxable income $23,000, tax year 2026: $10,000 at 0% + $13,000 at 4%:
+
+```oa-check
+name: MS 2026 single 23k
+inputs:
+  income: 23000
+  zero_band: 10000
+  rate: 0.04
+steps:
+  - above: income - zero_band
+  - tax: above * rate
+expected:
+  tax: 520.00
+```
 
 **Supplier pattern library table**  _(see rows)_
 
@@ -152,7 +155,7 @@ Mississippi applies the same rate structure to all filing statuses (single, MFJ,
 | Capital gains from asset sale | Report on Form 80-105 | No special MS rate |
 | 1099-NEC freelance income | Report directly on Form 80-105 | Estimated payments likely needed |
 
-## Section 8: Form mapping
+## Ask the client first
 
 **Form mapping table**  _(see rows)_
 
@@ -165,7 +168,7 @@ Mississippi applies the same rate structure to all filing statuses (single, MFJ,
 | Form 80-108 | Schedule of Deductions (Itemized) | Schedule A (Form 1040) |
 | Form 80-320 | Estimated Tax Declaration | Form 1040-ES |
 
-## Section 9: Refusal catalogue
+## Sources
 
 **Refusal catalogue table**  _(see rows)_
 
@@ -179,13 +182,16 @@ Mississippi applies the same rate structure to all filing statuses (single, MFJ,
 | MS-R-06 | Tax year other than current | Refuse — rates change annually during phase-out |
 | MS-R-07 | Partnership / S-corp pass-through returns | Refuse — out of scope |
 
-## Disclaimer
+---
 
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
+| Source | URL | Read on |
+| --- | --- | --- |
+| DOR General Information / Tax Rates — 2025/2026/2027 rates (0% first $10,000; 4.4%/4%/3.75% above), filing thresholds ($8,300/$16,600 + $1,500 per dependent), standard deduction ($2,300/$4,600/$3,400), exemptions ($6,000/$12,000/$8,000/$1,500), $23,000 worked example | https://www.dor.ms.gov/general-information | 2026-10-28 |
+| MSDOR 2025 Individual Income Tax Instructions (Form 80-100, rev. 12/25) — April 15 due date, fiscal-year rule, estimated-tax $200 threshold with April 15/June 15/Sept 15/Jan 15 dates, late-pay 1/2%/month cap 25%, late-file 5%/month cap 25% min $100, 3% gambling withholding, other-state credit via Form 80-160 | https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf | 2026-10-29 |
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
+Not yet confirmed: the 183-day/domicile residency test detail; statute cites for the Social Security and US-government-bond exemptions; statute cites for the 50%-self-employment-tax and self-employed health-insurance deductions; bonus-depreciation (IRC §168(k)) conformity date for 2026; whether 2026 standard deduction/exemption amounts change from the 2025 figures archived here.
 
-<!-- openaccountants-cta-block -->
+---
 
 ---
 
