@@ -7,79 +7,86 @@ description: >
   presumption, and three-factor apportionment under §235-29. Trigger on
   "Hawaii corporate income tax", "Hawaii N-30", "HRS 235-71", "Hawaii
   corporation tax rates", "Hawaii franchise tax". Source-cited draft;
-  statute text read from capitol.hawaii.gov 2026-10-27.
+  statute text read from capitol.hawaii.gov 2026-10-27 and 2026-10-28.
 jurisdiction: US-HI
 category: international
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-28
-version: 0.2
+version: 0.3
 verified_by: pending
 depends_on:
   - hi-income-tax
 ---
 
-# Hawaii corporate income tax v0.1
+# Hawaii corporate income tax v0.3
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+> **Source-cited draft.** Built from HRS §§235-4, 235-4.2, 235-29, 235-71, 235-71.5, 235-72, 235-97, 235-98, 235-104 and §231-39, read on capitol.hawaii.gov (runs of 2026-10-27 and 2026-10-28). No accountant has reviewed it. All outputs must be reviewed by a qualified tax professional before filing.
 
-Source-cited draft, run of 27 October 2026. Hawaii taxes corporations with a **graduated net-income tax under HRS chapter 235 part IV** — not a franchise or gross-receipts tax (the General Excise Tax is a separate seller-side excise; see `hi-sales-tax`). Statute text below was read directly from the Hawaii Revised Statutes mirror at capitol.hawaii.gov on 2026-10-27. **Source status:** rates, apportionment formula, nexus presumption, estimated-tax mechanics, and penalty/interest provisions are verified from statute; the 2026 federal-conformity date and current administrative-rule citations could not be extracted from tax.hawaii.gov this run (HTTP 429 rate-limiting) — flagged **needs-sources** where relied on.
+Hawaii taxes corporations with a **graduated net-income tax under HRS chapter 235 part IV** — not a franchise or gross-receipts tax (the General Excise Tax is a separate seller-side excise; see `hi-sales-tax`). Rates, the apportionment formula, the nexus presumption, estimated-tax mechanics, and the penalty/interest provisions below are verified from the statute text archived in the Sources table.
 
-## 2. Who applies
+## Who this applies to
 
 - Every "corporation" for HRS ch. 235 purposes, including professional corporations under HRS ch. 415A, and **corporations carrying on business in partnership** (HRS §235-72 — treated as the IRC treats them; text read 2026-10-27).
 - Resident corporations: entire income. Nonresident (foreign) corporations: Hawaii-source income only (HRS §235-4(b); text read 2026-10-27).
-- **Economic nexus presumption** (HRS §235-4.2, text read 2026-10-27): a person lacking physical presence in Hawaii is presumed to be systematically and regularly engaging in business — and therefore taxable — if in the current or preceding calendar year it (1) engages in **200 or more business transactions** with persons in the State, or (2) its Hawaii-attributable gross income (or sales-factor numerator for out-of-State business) is **$100,000 or more**.
+- **Economic nexus presumption** (HRS §235-4.2): a person that lacks physical presence in the State is presumed to be systematically and regularly engaging in business — and therefore taxable — if during the current or preceding calendar year it (1) "engages in two hundred or more business transactions with persons within the State", or (2) its Hawaii-attributable gross income (or sales-factor numerator for a business within and without the State) "equals or exceeds $100,000".
 - Real estate investment companies (RICs) and REITs are taxed under special subsections of §235-71 (text read 2026-10-27).
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
-**Base:** taxable income computed under HRS ch. 235, which conforms to the Internal Revenue Code subject to the modifications in §§235-2.3 to 235-2.45 (conformity architecture read from the ch. 235 table of contents, 2026-10-27; the current-year federal conformity date — **needs-sources**, tax.hawaii.gov unreachable this run).
+**Base:** taxable income computed under HRS ch. 235, which conforms to the Internal Revenue Code subject to the modifications in §§235-2.3 to 235-2.45 (conformity architecture read from the ch. 235 table of contents, 2026-10-27).
 
-**Rates (HRS §235-71(a), text read 2026-10-27):**
+**Rates (HRS §235-71(a), text read 2026-10-27):** "The tax on all taxable income shall be at the rate of 4.4 per cent if the taxable income is not over $25,000, 5.4 per cent if over $25,000 but not over $100,000, and on all over $100,000, 6.4 per cent."
 
 | Taxable income | Rate |
 |---|---|
-| ≤ $25,000 | 4.4% |
-| > $25,000 but ≤ $100,000 | 5.4% |
-| > $100,000 | 6.4% |
+| Not over $25,000 | 4.4% |
+| Over $25,000 but not over $100,000 | 5.4% |
+| Over $100,000 | 6.4% |
 
 The rates apply on a graduated (bracket) basis as written in the statute.
 
-**Alternative tax on net capital gain** (HRS §235-71.5, text read 2026-10-27): if less than the regular tax, a corporation with net capital gain may be taxed at 3.08% on pre-1987-treatment gain amounts plus 4% on the excess capital gain, with the remaining income taxed at the regular graduated rates.
+**Alternative tax on net capital gain** (HRS §235-71.5): "If for any taxable year a corporation, regulated investment company, or real estate investment trust has a net capital gain, then, in lieu of the tax imposed by section 235-71, there is hereby imposed a tax (if such tax is less than the tax imposed under section 235-71)" computed as the regular tax on income reduced by the net capital gain, plus "(A) 3.08 per cent of the lesser of" the pre-1987-treatment gain and "(B) 4 per cent of the excess capital gain" (section text read 2026-10-27).
 
-**Apportionment** (HRS §235-29, text read 2026-10-27): all business income is apportioned by the classic **three-factor formula** — (property factor + payroll factor + sales factor) ÷ 3. Hawaii has not adopted single-sales-factor apportionment in the statute text read.
+**Apportionment** (HRS §235-29): "All business income shall be apportioned to this State by multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is three." Hawaii has not adopted single-sales-factor apportionment in the statute text read.
 
-## 4. Returns and deadlines
+## The taxable base
 
-- **Form N-30** annual return; the statutory filing-time rule (§235-98, text read 2026-10-27) allows the department to grant extensions, capped at **six months**. The customary N-30 due date is the 20th day of the fourth month after year-end (calendar-year filers: April 20) — consistent with the §235-97 estimated-tax calendar; confirm the current form instruction (**needs-sources**).
-- **Estimated tax** (HRS §235-97, text read 2026-10-27): corporations (including S corporations), estates, trusts, and individuals file estimated declarations and pay in **four installments — April 20, June 20, September 20, and January 20** of the following year (calendar-year taxpayers). Fiscal-year taxpayers follow the equivalent 4th/6th/9th-month and 1st-month-of-following-year pattern per §235-97(3).
+- Resident corporations: entire income regardless of source (§235-4(a)); nonresident (foreign) corporations: Hawaii-source income only (§235-4(b)).
+- Business income is apportioned with the §235-29 three-factor formula; nonbusiness income is allocated under §§235-24 to 235-27 (see `hi-transfer-pricing`).
+- §235-7.3 can exclude patent/copyright/trade-secret royalties from gross income entirely when owned by, and arising out of, a "qualified high technology business" (see `hi-transfer-pricing`).
 
-## 5. Penalties and interest
+## Deadlines and filing
 
-HRS §231-39 (text read 2026-10-27), applied to income tax via §235-104:
+- **Estimated tax** (HRS §235-97): corporations (including S corporations), estates, trusts, and individuals file estimated declarations and pay in **four installments** — for calendar-year taxpayers the first voucher is filed "on or before April 20", with payments due the twentieth day of June and September and the fourth-quarter payment "by January 20 of the year following the taxable year" (text read 2026-10-27). Fiscal-year taxpayers follow the equivalent pattern per §235-97. Estimated tax is not required "in the case of a taxpayer whose tax liability is less than $500" (§235-97(a)(6)).
+- **Returns** (§235-98): corporate returns are in the form the department prescribes and are authenticated by an authorized officer; the statute authorizes the department to grant extensions. The customary N-30 due date for calendar-year filers follows the ch. 235 estimated-tax calendar (April 20); see Not yet confirmed below on the current form-instruction due date.
+- The federal-conformity date and current administrative-rule citations: see Not yet confirmed below.
 
-| Item | Amount |
+## Penalties and interest
+
+HRS §231-39, applied to income tax through §235-104 ("The penalties and interest provided by section 231-39 shall apply to employers as well as taxpayers."):
+
+| Item | Amount (HRS §231-39, text read 2026-10-27) |
 |---|---|
-| Failure to file | 5% of tax per month, capped at 25% (reasonable-cause exception) |
-| Failure to pay due to negligence/intentional disregard | up to 25% of underpayment |
-| Fraud | up to 50% of underpayment (replaces the failure-to-file penalty) |
-| Timely-filed return, tax unpaid after 60 days | up to 20% of unpaid tax |
-| Interest on underpayment | **⅔ of 1% per month** (≈8%/yr) from the due date |
+| Failure to file | "five per cent of the amount of the tax if the failure is for not more than one month, with an additional five per cent for each additional month or fraction", "not exceeding twenty-five per cent in the aggregate" (reasonable-cause exception) |
+| Failure to pay due to negligence or intentional disregard | "there shall be added to the tax an amount up to twenty-five per cent of the underpayment" |
+| Fraud | "an amount up to fifty per cent of the underpayment" (replaces the failure-to-file penalty) |
+| Timely-filed return, tax not completely paid within 60 days | "there shall be added to the unpaid tax an amount up to twenty per cent" |
+| Interest on underpayment | "interest on such amount at the rate of two-thirds of one per cent a month or fraction of a month" from the date prescribed for payment |
 
 Common failure modes: (1) treating the GET as the only Hawaii business tax and never filing N-30; (2) ignoring the §235-4.2 transaction-count nexus presumption for e-commerce/remote sellers; (3) applying single-sales-factor apportionment out of habit — Hawaii's statute is three-factor.
 
-## 6. Cross-border interactions
+## Cross-border points
 
 - Foreign corporations: Hawaii-source income only, apportioned under §235-29; the §235-4.2 presumption can create filing obligations with **no physical presence**.
-- Combined/group reporting: Hawaii's statute text read this run does not impose mandatory combined reporting; unitary-group and related-party intangible planning detail — **needs-sources**.
-- Federal conformity: ch. 235 adopts IRC provisions subject to listed non-operative sections (§§235-2.3, 235-2.35); the current conformity date — **needs-sources**.
+- Combined/group reporting: the statute text read does not impose mandatory combined reporting; unitary-group and related-party intangible planning detail — see Not yet confirmed below.
+- Federal conformity: ch. 235 adopts IRC provisions subject to listed non-operative sections (§§235-2.3, 235-2.35); the current conformity date — see Not yet confirmed below.
 
-## 7. Worked examples
+## Worked examples
 
-A calendar-year C corporation with $200,000 Hawaii-apportioned taxable income:
+### Example 1: calendar-year C corporation, Hawaii-apportioned taxable income $200,000 (hypothetical client facts)
 
 ```oa-check
 name: HI corporate graduated tax 200k
@@ -97,7 +104,9 @@ expected:
   tax: 11550.00
 ```
 
-A nonresident corporation with $1,000,000 unitary business income and a three-factor apportionment factor of 0.35 (illustrative factors):
+(Rates are the confirmed §235-71 brackets above.)
+
+### Example 2: nonresident corporation, $1,000,000 unitary business income, hypothetical three-factor apportionment factors 0.30 / 0.25 / 0.50
 
 ```oa-check
 name: HI apportioned foreign corp base
@@ -114,26 +123,48 @@ expected:
   hi_base: 350000.00
 ```
 
-## 8. Ask the client
+(The ÷3 formula is the confirmed §235-29 rule; the factor values are hypothetical client facts.)
 
-- Is the entity's Hawaii transaction count or Hawaii sales-factor numerator near the §235-4.2 thresholds (200 transactions / $100,000) even without a physical office?
-- Are estimated payments being made on the 4/20, 6/20, 9/20, 1/20 calendar?
-- Is the group modeling Hawaii on a three-factor formula, not single-sales-factor?
-- Any capital-gain year where the §235-71.5 alternative tax could be lower?
+## Ask the client first
+
+1. Is the entity's Hawaii transaction count or Hawaii sales-factor numerator near the §235-4.2 thresholds (200 transactions / $100,000) even without a physical office?
+2. Are estimated payments being made on the 4/20, 6/20, 9/20, 1/20 calendar?
+3. Is the group modeling Hawaii on a three-factor formula, not single-sales-factor?
+4. Any capital-gain year where the §235-71.5 alternative tax could be lower?
+5. Is the entity relying on a federal-conformity date that has not been confirmed for the current tax year?
 
 ## Sources
 
-1. HRS §235-71 (rates): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm (200, text read 2026-10-27 — 4.4/5.4/6.4%)
-2. HRS §235-71.5 (alternative capital-gain tax): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071_0005.htm (200, text read 2026-10-27)
-3. HRS §235-72 (corporations in partnership): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0072.htm (200, text read 2026-10-27)
-4. HRS §235-4 (residents/nonresidents): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0004.htm (200, text read 2026-10-27)
-5. HRS §235-4.2 (nexus presumption): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0004_0002.htm (200, text read 2026-10-27)
-6. HRS §235-29 (three-factor apportionment): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0029.htm (200, text read 2026-10-27)
-7. HRS §235-97 (estimated tax dates): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0097.htm (200, text read 2026-10-27)
-8. HRS §235-98 (returns, 6-month extension cap): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0098.htm (200, text read 2026-10-27)
-9. HRS §231-39 (penalties, ⅔% monthly interest): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0231/HRS_0231-0039.htm (200, text read 2026-10-27)
-10. HRS §235-104 (penalties apply to income tax): https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0104.htm (200, text read 2026-10-27)
-11. Hawaii Department of Taxation tax-law page (conformity date, forms): https://tax.hawaii.gov/legal/taxlawandrules/ (search-result reference; direct fetch rate-limited 429 this run — **needs-sources**)
+| Source | URL | Read on |
+|---|---|---|
+| HRS §235-71 (corporation tax rates 4.4/5.4/6.4%) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm | 2026-10-28 |
+| HRS §235-71.5 (alternative tax on net capital gain) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071_0005.htm | 2026-10-28 |
+| HRS §235-72 (corporations in partnership) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0072.htm | 2026-10-28 |
+| HRS §235-4 (residents/nonresidents) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0004.htm | 2026-10-28 |
+| HRS §235-4.2 (nexus presumption: 200+ transactions / $100,000) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0004_0002.htm | 2026-10-28 |
+| HRS §235-29 (three-factor apportionment) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0029.htm | 2026-10-28 |
+| HRS §235-97 (estimated tax; $500 de minimis; installment dates) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0097.htm | 2026-10-28 |
+| HRS §235-98 (returns; form; extensions) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0098.htm | 2026-10-28 |
+| HRS §231-39 (penalties; ⅔%/month interest) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0231/HRS_0231-0039.htm | 2026-10-28 |
+| HRS §235-104 (penalties apply to income tax) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0104.htm | 2026-10-28 |
+| HRS ch. 235 table of contents (subch. IV; §§235-2.3–2.45 conformity architecture) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-.htm | 2026-10-28 |
+
+Not yet confirmed: the current-year federal IRC conformity date adopted by HRS §235-2.3 (the archived department tax-law page could not be parsed for a specific date this run); the exact current N-30 due-date wording in the form instructions (the statutory calendar implies April 20 for calendar-year filers); mandatory combined reporting / unitary-group filing requirements; addback rules for related-party intangibles; and current administrative-rule (HAR ch. 18-235) citations. Each of these was flagged in v0.2 and has not been tied to an archived primary source, so no figure for them is asserted here.
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Hawaii corporate-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

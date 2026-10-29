@@ -1,7 +1,7 @@
 ---
 name: hi-sales-tax
-description: Use this skill whenever asked about Hawaii General Excise Tax (GET). Trigger on phrases like "Hawaii GET", "General Excise Tax", "HI sales tax", "HRS §237". Hawaii has a GET on the SELLER, not a traditional sales tax. ALWAYS load us-sales-tax first.
-version: 2.1
+description: Use this skill whenever asked about Hawaii General Excise Tax (GET). Trigger on phrases like "Hawaii GET", "General Excise Tax", "HI sales tax", "HRS 237", "Hawaii excise tax". Hawaii has a GET on the SELLER, not a traditional sales tax. The DOTAX-published rates are 4.5% on Oahu (including a 0.5% county surcharge), 0.50% for wholesale activities, and 0.15% for insurance commissions; economic nexus at $100,000 gross income or 200+ transactions.
+version: "2.2"
 jurisdiction: US-HI
 tax_year: 2025
 last_updated: 2026-10-28
@@ -11,77 +11,94 @@ tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# HI Sales Tax
+# HI Sales Tax (General Excise Tax) v2.2
 
-## Section 1 -- Quick reference
+> **Source-cited draft.** Built from the Hawaii Department of Taxation General Excise Tax page (tax.hawaii.gov/get/, read 2026-10-28). No accountant has reviewed it. All outputs must be reviewed by a qualified tax professional before filing.
 
-**Quick reference**
+> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+
+**CRITICAL: GET is imposed on the SELLER, not the buyer.** GET is a tax on the seller's gross income, applies to virtually all business activity including services, and pyramids (cascades) at every supply-chain level. It is NOT a traditional sales tax.
+
+## Who this applies to
+
+Every person engaging in business activities in Hawaii, anyone with physical nexus (office, employees, inventory, or services performed in Hawaii), and any remote business meeting the economic-nexus threshold. Registration: "An individual, business, or other legal entity must register for a GET license if they are: engaging in business activities in Hawaii, have physical nexus, or meet/exceed the economic nexus threshold." (DOTAX GET page)
+
+## Rates, bands and thresholds
+
+**Published rates (DOTAX General Excise Tax page, read 2026-10-28):**
+
+| Activity | Rate |
+| --- | --- |
+| "Selling retail goods and services, renting, leasing real property, construction contracting, earning commissions, all others" | 4.5%* on Oahu (4% base rate in counties without a surcharge) |
+| "Wholesaling goods, producing, providing wholesale services, business activities of disabled people" | 0.50% |
+| "Insurance Commissions" | 0.15% |
+
+\* "*This 4.5% rate includes a 0.5% county surcharge. The county surcharge does not apply to activities taxed at the 0.5% rate (for example selling wholesale goods) or insurance commissions." (DOTAX GET page)
+
+**Economic nexus:** "If the business has gross income or receipts of $100,000 or more, or has 200 or more transactions in the current or preceding calendar year, economic nexus is established." (DOTAX GET page)
 
 | Field | Value |
 | --- | --- |
-| Jurisdiction | Hawaii |
-| Tax type | General Excise Tax (GET) -- NOT a traditional sales tax; tax on SELLER's gross income |
-| Retail GET rate | 4.00% (4.50% on Oahu with county surcharge) |
-| Wholesale rate | 0.50% |
-| Services rate | 4.00% (4.50% Oahu) |
-| Insurance commissions | 0.15% |
-| Effective rate when passed to buyer | ~4.166% (to cover GET on the pass-through) |
-| Tax base | Virtually ALL business activity including services, rentals, commissions |
-| Sourcing | Destination-based |
-| Economic nexus | $100,000 in gross proceeds or gross income |
+| Tax type | General Excise Tax (GET) — tax on the SELLER's gross income, not a traditional sales tax |
 | Tax authority | Hawaii Department of Taxation (DoTax) |
 | Portal | https://tax.hawaii.gov |
 | SST member | No |
-| Skill version | 2.0 |
+| Sourcing | Not stated on the archived DOTAX page; see Not yet confirmed below |
 
-- **GET imposed on seller, applies broadly, and pyramids** — CRITICAL: GET is imposed on the SELLER, not the buyer. GET applies to virtually ALL transactions including services. GET pyramids (cascades) at every supply chain level.
+## The taxable base
 
-## Section 3 -- Transaction pattern library
+"All gross receipts from these activities are subject to GET unless a specific exemption applies. Certain types of income may be exempt or subject to deduction under Hawaii law." (DOTAX GET page, which links the Schedules of GET, Use Tax, and County Surcharge exemptions and deductions.)
 
-**Transaction pattern library**
+### Transaction pattern library
 
 | Pattern | Taxable? | Notes |
 | --- | --- | --- |
-| General TPP | TAXABLE 4% (4.5% Oahu) | Retail rate |
-| Clothing | TAXABLE | No exemption |
-| Grocery food | TAXABLE | No food exemption -- GET applies to all |
-| Prepared food | TAXABLE |  |
-| ALL services (including professional) | TAXABLE | Hawaii taxes virtually ALL services |
-| SaaS | TAXABLE |  |
-| Digital goods | TAXABLE |  |
+| General TPP | TAXABLE at the general rate | "Sales of goods and services" are listed taxable activities |
+| ALL services (including professional) | TAXABLE | "Services and professional fees" are listed taxable activities |
 | Wholesale sales | TAXABLE at 0.50% | Lower wholesale rate |
-| Prescription drugs | EXEMPT |  |
-| Manufacturing equipment | No specific exemption | GET applies broadly |
-| Resale | 0.50% wholesale rate | Not fully exempt; taxed at wholesale rate |
+| Resale | 0.50% wholesale rate | Not fully exempt; taxed at the wholesale rate |
+| Rentals and commissions | TAXABLE | "Rental income from property", "Commissions and fees", "Construction contracts" are listed taxable activities |
+| Business interest and other income earned | TAXABLE | Listed taxable activity on the DOTAX page |
 
-## Section 5 -- Classification rules
+Specific category exemptions (e.g., prescription drugs, groceries as a category) are governed by the Schedules of GET Exemptions and Deductions; see Not yet confirmed below.
 
 ### GET pyramiding
 
-- **GET pyramiding across supply chain** — GET cascades at every level. Manufacturer pays 0.5% on wholesale sales. Wholesaler pays 0.5%. Retailer pays 4%. If passed to buyer, the pass-through amount is additional gross income subject to GET again.
+GET pyramids: the tax cascades at every supply-chain level. A manufacturer pays 0.50% on wholesale sales, the wholesaler pays 0.50%, and the retailer pays the general rate; amounts passed on to the buyer are additional gross income subject to GET again. (Follows from the seller-side gross-income base and the rate table above.)
 
-### Tax on virtually everything
+## Deadlines and filing
 
-- **Broad tax base including professional services** — Hawaii has one of the broadest tax bases in the US. Legal, accounting, medical, consulting -- all subject to GET at 4%.
+Registration and filing are through Hawaii Tax Online (https://tax.hawaii.gov). The archived DOTAX page does not state the current periodic-return due dates; see Not yet confirmed below.
 
-## Section 10 -- Prohibitions
+## Penalties and interest
 
-- **Prohibition 1** — NEVER call Hawaii's tax a "sales tax" -- it is a General Excise Tax on the seller's gross income.
-- **Prohibition 2** — NEVER assume food is exempt -- Hawaii taxes grocery food under GET.
-- **Prohibition 3** — NEVER assume services are exempt -- Hawaii taxes virtually ALL services.
-- **Prohibition 4** — NEVER forget the pyramiding effect -- GET cascades through the supply chain.
-- **Prohibition 5** — NEVER forget the Oahu county surcharge (0.50% additional).
-- **Never compute numbers** — NEVER compute any number.
+GET underpayments draw the HRS §231-39 penalty and interest regime (see `hi-corporate-income-tax` for the confirmed amounts). Specific GET penalty provisions were not extracted this run; see Not yet confirmed below.
 
-## Disclaimer
+## Cross-border points
 
-Informational only. Review by qualified professional required before filing.
+- Remote sellers with no physical presence are captured by the economic-nexus threshold ($100,000 gross income/receipts or 200+ transactions).
+- GET on interstate/foreign-source gross income and the use-tax (ch. 238) offset rules were not extracted this run; see Not yet confirmed below.
 
-## Disclaimer
+## Worked examples
 
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
+The DOTAX page does not publish worked computation rules, and GET computation on gross income is a fill-in exercise on the periodic returns. Per the pack convention, no arithmetic example is asserted beyond the confirmed rate table above; the rates in any client computation must come from the confirmed table in this skill.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+## Ask the client first
+
+1. Is the client registered for a GET license — and does it meet/exceed the $100,000 / 200-transaction economic-nexus threshold even without physical presence?
+2. Which activity codes apply — general, wholesale (0.50%), or insurance commissions (0.15%)?
+3. Is the client on Oahu (0.5% county surcharge baked into the 4.5% rate)?
+4. Is GET being passed through to customers, and if so is the pass-through being recognized as additional gross income subject to GET again?
+5. Are exemptions being claimed only where the Schedules of GET Exemptions and Deductions actually provide them?
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Hawaii Department of Taxation — General Excise Tax (rates, county surcharge, wholesale and insurance-commission rates, economic nexus) | https://tax.hawaii.gov/get/ | 2026-10-28 |
+| HRS §231-39 (penalties; ⅔%/month interest) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0231/HRS_0231-0039.htm | 2026-10-28 |
+
+Not yet confirmed: the HRS ch. 237 statutory rate section text (capitol.hawaii.gov rate-limited the ch. 237 pages this run, so rates are cited to the DOTAX tax-authority page); the destination-based sourcing statement (v0.2 asserted destination sourcing — not stated on the archived page); the ~4.166% effective pass-through rate (arithmetic, not published); specific category exemptions such as prescription drugs or groceries (governed by the Schedules of GET Exemptions and Deductions, not extracted this run); the current periodic-return due dates and the SST (Streamlined Sales Tax) non-membership statement (v0.2 assertion); and specific GET penalty provisions. None of these is asserted in the body because none could be tied to an archived primary source this run.
 
 <!-- openaccountants-cta-block -->
 
