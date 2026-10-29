@@ -100,3 +100,13 @@ Not yet confirmed: state GRT rate 5.125%; local add-on range; maximum combined r
 - **Prohibition -- services exemption assumption** — NEVER assume services are exempt -- NM taxes virtually ALL services.
 - **Prohibition -- deduction vs exemption** — NEVER confuse "deduction" with "exemption" -- NM uses deductions from gross receipts.
 - **Prohibition -- computation** — NEVER compute any number.
+
+## Talk to a verified accountant
+
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people.
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

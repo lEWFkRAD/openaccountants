@@ -272,3 +272,16 @@ the OpenAccountants network.
 | NM Taxation and Revenue — index | https://www.tax.newmexico.gov/ | 2026-10-28 |
 
 Not yet confirmed: 2025 bracket boundaries and rates; filing/extension deadlines; standard deduction amounts; TY2025 WFTC percentage; estimated-tax $1,000 threshold; GRT combined rate range; age-65 AGI limits ($51,000/$36,667 pairing).
+
+## Talk to a verified accountant
+
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+the OpenAccountants network.
+
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
