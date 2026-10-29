@@ -242,7 +242,9 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 12. **Lines 39 to 42, balance or refund**, including any carryforward to next year's estimates. Then check the estimated tax penalty (DR 0204), late payment penalty and interest.
 
 
-## Boundary and exception table ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [Individual Income Tax Guide](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [Social Security, Pensions and Annuities](https://tax.colorado.gov/sites/default/files/documents/ITT_Social_Security_Pensions_and_Annuities_Jan_2025.pdf))
+## Boundary and exception table
+
+_Sources for this section: [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [Individual Income Tax Guide](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [Social Security, Pensions and Annuities](https://tax.colorado.gov/sites/default/files/documents/ITT_Social_Security_Pensions_and_Annuities_Jan_2025.pdf)._
 
 | Situation | Rule |
 | --- | --- |
@@ -258,7 +260,9 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 | Prior-year federal AGI above $150,000 ($75,000 if married filing separately) | Estimated tax safe harbor is 110% of prior-year tax, not 100% |
 
 
-## Deadlines and filing ([Individual Income Tax Guide, Parts 6 to 8](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
+## Deadlines and filing
+
+_Sources for this section: [Individual Income Tax Guide, Parts 6 to 8](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf)._
 
 - **Due date:** 15 April of the following year (15 April 2027 for 2026), or the next business day if it falls on a weekend or holiday.
 - **Extension:** an automatic six-month extension to file, to 15 October. There is no extension to pay. To avoid the late payment penalty, pay at least 90% of the tax by 15 April (Revenue Online or DR 0158), file by 15 October and pay the rest with the return.
@@ -317,7 +321,9 @@ Line numbers are from the 2025 DR 0104 ([2025 Book 104](https://tax.colorado.gov
 - **Treaties:** U.S. income-tax treaties do not limit Colorado's tax on residents' worldwide income.
 
 
-## Worked examples ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [Individual Income Tax Guide](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf))
+## Worked examples
+
+_Sources for this section: [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf); [2026 DR 0104EP](https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf); [Individual Income Tax Guide](https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf)._
 
 Amounts described as client facts are hypothetical inputs. 2026 cases use 4.4% because DOR had not published any other 2026 rate on 25 September 2026.
 
@@ -399,7 +405,9 @@ Client facts: federal taxable income $90,000; DR 0104PN modified federal AGI (li
 - **A 2026 return filed before DOR publishes the 2026 DR 0104 and booklet.** Confirm the rate, the overtime addback line and any TABOR refund first.
 - **City occupational privilege taxes (OPT).** These are levied by certain Colorado cities, not the state, and are not claimed on DR 0104. The Schedule A deduction for local occupational taxes is **not** part of the state income tax addback. Send the client to the city that levies the tax for rates, exemptions and employer withholding.
 - **Audits, protests and assessments**: a protest must be filed within 30 days of the notice. Also refer amended returns after IRS changes (DR 0104X within 180 days) and any suggestion of fraud or evasion.
-## Completion checklist ([2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
+## Completion checklist
+
+_Sources for this section: [2025 Book 104](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf)._
 
 - **Year**: rate, addback limits, EITC percentage and FATC availability match the tax year.
 - **Residency** box, and DR 0104PN attached for any part-year or nonresident spouse.
