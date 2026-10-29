@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing.
 
-## Section 1: Metadata
+## Who this applies to
 
 **Metadata table**
 
@@ -43,7 +43,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 4. La. R.S. 47:32 — Tax rate
 5. Act 11 (H.B. 10) of the 2024 Third Extraordinary Session
 
-## Section 2: Quick reference — rates and thresholds
+## Rates, bands and thresholds
 
 ### State income tax rate
 
@@ -78,7 +78,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 - **Retirement income exemption** — $12,000 USD (RIB 25-012: "increases the exemption for annual retirement income received by individuals aged 65 or older, raising it from $6,000 to $12,000 per person"; adjusted annually for CPI beginning in 2026 — verified against the archived RIB 25-012 PDF, 2026-10-28)
 
-## Section 3: How this skill works with the federal return
+## The taxable base
 
 ### Starting point
 
@@ -101,10 +101,10 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Item | Description | Source |
 | --- | --- | --- |
 | U.S. government interest | Interest on U.S. obligations | La. R.S. 47:293(6) |
-| Social Security benefits | Louisiana exempts Social Security | La. R.S. 47:44.2 (citation needs-sources) |
+| Social Security benefits | Louisiana exempts Social Security | La. R.S. 47:44.2 (citation not confirmed) |
 | Taxes paid to other states | The LDR page (verified 2026-10-28) lists "Income taxes paid to other states" as a subtraction | La. R.S. 47:293(3) |
-| Retirement income | Up to $12,000 for taxpayers age 65+ (RIB 25-012, verified PDF) | La. R.S. 47:44.1 (citation needs-sources) |
-| Military pay | Active-duty military compensation exclusion — for taxable years beginning before January 1, 2023, LA-domiciled military personnel filed a part-year return (LDR page, verified); current-year military treatment needs-sources | La. R.S. 47:293 |
+| Retirement income | Up to $12,000 for taxpayers age 65+ (RIB 25-012, verified PDF) | La. R.S. 47:44.1 (citation not confirmed) |
+| Military pay | Active-duty military compensation exclusion — for taxable years beginning before January 1, 2023, LA-domiciled military personnel filed a part-year return (LDR page, verified); current-year military treatment not confirmed | La. R.S. 47:293 |
 
 ### Resulting computation
 
@@ -112,7 +112,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 **Important:** The LDR Individual Income Tax page (verified 2026-10-28) confirms the subtraction for "Income taxes paid to other states" and the Schedule C credit for net tax liability paid to another state on income included on the Louisiana return. Whether a deduction for federal income taxes themselves survives Act 11 is unconfirmed — see J-1.
 
-## Section 4: Self-employed specific rules
+## Deadlines and filing
 
 ### Estimated tax payments
 
@@ -151,7 +151,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 - **Filing deadline** — Louisiana's individual income tax return (IT-540) deadline is May 15 (not April 15) — one month later than most states. R.S. 47:103 (for taxable years beginning on or after January 1, 2022) grants an **automatic six-month extension to file** with no form or payment; the extension covers filing only — tax due must be paid by the original due date or interest and late-payment penalty apply (LDR Individual Income Tax page, verified 2026-10-28).
 
-## Section 5: Tier 1 rules — deterministic
+## Penalties and interest
+
+- **Underpayment of estimated tax** — 12% annually of the underpayment amount for the underpayment period, under La. R.S. 47:118 (LDR Individual Income Tax page, verified 2026-10-28). The underpayment is the excess of the required installment (25% of the required annual payment, 90% of tax due — 66.66% for qualified farmers and fishermen) over what was actually paid.
+- **Late payment** — payments received after the return due date are charged interest and late-payment penalty (LDR page, verified 2026-10-28); the percentage tiers under R.S. 47:1607 are not confirmed.
+- **Extension ≠ payment** — the automatic six-month extension under R.S. 47:103 extends filing only; tax due must be paid by the original due date.
 
 **Tier 1 rules table**
 
@@ -169,7 +173,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | R-10 | Estimated tax required when estimated LA tax after credits/withholding exceeds $1,000 (single) / $2,000 (joint) — R.S. 47:116 (verified). |
 | R-11 | Underpayment-of-estimated-tax penalty is 12% annually of the underpayment for the underpayment period — R.S. 47:118 (verified). |
 
-## Section 6: Tier 2 rules — requires judgment
+## Cross-border points
 
 **Tier 2 rules table**
 
@@ -181,7 +185,42 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | J-4 | Determine the CPI-adjusted standard deduction and retirement exemption amounts for TY2026+. |
 | J-5 | Evaluate the Schedule C credit for net tax liability lawfully paid to another state on income included on the LA return (LDR page, verified); statute citation and ordering need confirmation. |
 
-## Section 7: Supplier pattern library
+## Worked examples
+
+**Example 1 — flat 3% after standard deduction:** single filer, Louisiana taxable income before deduction $60,000.
+
+```oa-check
+name: LA flat 3% single
+inputs:
+  income: 60000
+  std_deduction: 12500
+  rate: 0.03
+steps:
+  - taxable: income - std_deduction
+  - tax: taxable * rate
+expected:
+  taxable: 47500
+  tax: 1425
+```
+
+Rates and deduction verified against the archived RIB 25-012 PDF (2026-10-28).
+
+**Example 2 — estimated-tax threshold:** estimated Louisiana tax after credits and withholding is $1,150 for a single filer — above the $1,000 threshold, so an IT-540ES declaration is required; quarterly installment at 25% of the required annual payment:
+
+```oa-check
+name: LA estimated installment
+inputs:
+  est_tax: 1150
+  threshold_single: 1000
+steps:
+  - required: est_tax - threshold_single
+  - installment: est_tax * 0.25
+expected:
+  required: 150
+  installment: 287.5
+```
+
+Threshold and 25% installment verified on the LDR Declaration of Estimated Income Taxes page (2026-10-28).
 
 **Supplier pattern library table**
 
@@ -194,7 +233,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Social Security | Fully exempt. |
 | Retirement distributions | Up to $12,000 exempt for age 65+; remainder taxable at 3%. |
 
-## Section 8: Form mapping
+## Ask the client first
+
+1. **Residency** — full-year Louisiana resident (IT-540) or nonresident/part-year (IT-540B, out of this skill's scope)?
+2. **Age 65+ and retirement income** — the $12,000 retirement exemption applies per person at 65+.
+3. **Income from other states** — drives the Schedule C credit and the "income taxes paid to other states" subtraction.
+4. **Estimated payments** — does estimated LA tax after credits/withholding exceed $1,000 (single) / $2,000 (joint)?
+5. **Out-of-state bond interest** — must be added back.
 
 **Form mapping table**
 
@@ -229,7 +274,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | LDR Individual Income Tax page (residency, IT-540, Schedule C credit, subtractions, extension, underpayment penalty) | https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/ | 2026-10-28 |
 | LDR Declaration of Estimated Income Taxes page (thresholds, dates, R.S. 47:116 exceptions) | https://revenue.louisiana.gov/individuals/general-resources/declaration-of-estimated-income-taxes/ | 2026-10-28 |
 
-Not yet confirmed: the statute citations for the Social Security exemption (47:44.2) and retirement exemption (47:44.1); whether a deduction for federal income taxes themselves survives Act 11; the current-year military compensation exclusion scope; itemized-deduction detail; the CPI-adjusted TY2026 amounts; the resident-credit statute and ordering behind Schedule C.
+Not yet confirmed: the statute citations for the Social Security exemption (47:44.2) and retirement exemption (47:44.1); whether a deduction for federal income taxes themselves survives Act 11; the current-year military compensation exclusion scope; itemized-deduction detail; the CPI-adjusted TY2026 amounts; the resident-credit statute and ordering behind Schedule C; the late-payment penalty percentage under R.S. 47:1607.
 
 ## Disclaimer
 
