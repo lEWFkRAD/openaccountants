@@ -379,7 +379,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 9. **One Day Rest in Seven Act**: Applies to all 25 Calumet City employees, including the 15 Indiana residents who work in IL.
 
-10. **Net IL payroll tax burden for 2025** (Calumet City facility only, illustrative):
+10. **Net IL payroll tax burden for 2025** (Calumet City facility only, hypothetical):
     - IL PIT withheld on 25 employees: depends on wages, but at $50,000 average gross and $2,775 personal exemption, withholding ≈ 4.95% × ($50,000 – $2,775) = $2,338 per employee × 25 = **$58,440 IL PIT remitted via IL-941**.
     - IL UI: **$13,420** as computed above (year 1; will adjust).
     - Total IL employer-side cost: $13,420 UI plus Secure Choice administrative facilitation (no employer cost).
