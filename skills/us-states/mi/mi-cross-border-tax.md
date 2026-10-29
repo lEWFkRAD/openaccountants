@@ -7,7 +7,7 @@ description: >-
   and P.L. 86-272 position is needed. Trigger on Michigan Schedule NR,
   MI-1040 nonresident, reciprocal state Michigan, composite return Michigan,
   P.L. 86-272 Michigan. Source-cited draft; statute section pages are
-  JS-rendered and carry needs-sources caveats.
+  JS-rendered and carry unverified caveats.
 jurisdiction: US-MI
 category: cross-border
 tax_year: 2026
@@ -30,15 +30,15 @@ version: 0.1
 
 - **IIT rate:** flat 4.25% (mi-income-tax, read 2026-10-25).
 - **Reciprocity:** wages of residents of the reciprocal states are taxable only in the state of residence when the employee files Form 4880 (MI) / the home-state equivalent; without the certificate, Michigan withholds and the worker claims a refund (Treasury FAQ hub, read 2026-10-25).
-- **Nonresidents** file MI-1040 + Schedule NR: Michigan-source income (wages for work performed in Michigan, Michigan rents, Michigan business income) is grossed up against total income to derive the Michigan tax ratio (Schedule NR instructions — **needs-sources**: the Treasury form page did not machine-verify on 2026-10-25; mechanics corroborated by the FAQ hub and `mi-income-tax`).
-- **Composite returns:** Michigan permits composite filings for nonresident partners/members in defined cases (MCL 206.131 — <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-131>, 200 on 2026-10-25 but the section text renders via JavaScript and was **not machine-verified** — needs-sources; confirm the current composite mechanics with Treasury before use).
+- **Nonresidents** file MI-1040 + Schedule NR: Michigan-source income (wages for work performed in Michigan, Michigan rents, Michigan business income) is grossed up against total income to derive the Michigan tax ratio (Schedule NR instructions — **unverified**: the Treasury form page did not machine-verify on 2026-10-25; mechanics corroborated by the FAQ hub and `mi-income-tax`).
+- **Composite returns:** Michigan permits composite filings for nonresident partners/members in defined cases (MCL 206.131 — <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-131>, 200 on 2026-10-25 but the section text renders via JavaScript and was **not machine-verified** — unverified; confirm the current composite mechanics with Treasury before use).
 - **P.L. 86-272:** solicitation-only activity for tangible personal property is exempt from the Michigan CIT (net-income tax); the analysis sits in the CIT lane (mi-corporate-income-tax, read 2026-10-25).
 
 ## 3. Base and sourcing
 
 - Wages: sourced to where work is physically performed; remote Michigan workdays create Michigan-source wages (FAQ hub, read 2026-10-25).
-- Schedule NR ratio: Michigan-source income over total net income, applied to the full-state tax (needs-sources for the exact line mechanics).
-- Hybrid work: no special 60-day-style sourcing rule of the Northeast type; day-by-day performance sourcing applies (needs-sources).
+- Schedule NR ratio: Michigan-source income over total net income, applied to the full-state tax (unverified for the exact line mechanics).
+- Hybrid work: no special 60-day-style sourcing rule of the Northeast type; day-by-day performance sourcing applies (unverified).
 
 ## 4. Deadlines
 
@@ -47,12 +47,12 @@ version: 0.1
 
 ## 5. Penalties and interest
 
-- Late filing/payment penalties and interest under the IIT act (MCL 206.95 et seq. — **needs-sources**, JS-rendered; `mi-income-tax` corroborates the general framework).
+- Late filing/payment penalties and interest under the IIT act (MCL 206.95 et seq. — **unverified**, JS-rendered; `mi-income-tax` corroborates the general framework).
 
 ## 6. Treaties and federal overlay
 
 - No state treaty power; US treaties can limit federal tax on some nonresident income but not Michigan wage sourcing.
-- Military: servicemembers stationed in Michigan keep domicile elsewhere; Michigan taxes only Michigan-source non-stationed income (Servicemembers Civil Relief Act overlay — needs-sources).
+- Military: servicemembers stationed in Michigan keep domicile elsewhere; Michigan taxes only Michigan-source non-stationed income (Servicemembers Civil Relief Act overlay — unverified).
 - Michigan residents taxed by another state claim the Michigan credit for taxes paid to other jurisdictions (mi-income-tax, read 2026-10-25).
 
 ## 7. Worked examples
@@ -73,7 +73,7 @@ expected:
   refund: 3825.00
 ```
 
-**Example 2 — nonresident Schedule NR ratio.** A nonresident's only income is a 30% share of a Michigan LLC's USD 200,000 profit: Michigan-source 200,000 × 0.30 = 60,000; total income 60,000 → ratio 1.00. Michigan tax: 60,000 × 0.0425 = 2,550 (needs-sources caveat on the exact Schedule NR line mechanics).
+**Example 2 — nonresident Schedule NR ratio.** A nonresident's only income is a 30% share of a Michigan LLC's USD 200,000 profit: Michigan-source 200,000 × 0.30 = 60,000; total income 60,000 → ratio 1.00. Michigan tax: 60,000 × 0.0425 = 2,550 (unverified caveat on the exact Schedule NR line mechanics).
 
 ```oa-check
 name: mi nonresident schedule nr ratio
@@ -95,13 +95,15 @@ expected:
 
 - Home state (is it a reciprocity state?) and whether Form 4880 is on file with the employer.
 - Workday log for hybrid work near the state line.
-- Whether the pass-through has nonresident members and whether a composite filing was considered (mechanics needs-sources).
+- Whether the pass-through has nonresident members and whether a composite filing was considered (mechanics unverified).
 
 ## 9. Sources
 
 - Treasury resident/non-resident FAQ hub: <https://www.michigan.gov/taxes/iit/file-your-income-taxes/resident-and-non-resident-income-faqs> — 200 with content on 2026-10-25.
-- MCL 206.131 (composite): <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-131> — 200 on 2026-10-25; section text JS-rendered, **needs-sources**.
+- MCL 206.131 (composite): <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-131> — 200 on 2026-10-25; section text JS-rendered, **unverified**.
 - `mi-income-tax`, `mi-estimated-tax`, `mi-detroit-individual-return` skills — internal corroboration, read 2026-10-25.
+
+Not yet confirmed: exact Schedule NR line mechanics; MCL 206.131 composite mechanics; MCL 206.95 et seq. penalty/interest text; SCRA overlay specifics; day-by-day sourcing rule details.
 
 <!-- openaccountants-cta-block -->
 

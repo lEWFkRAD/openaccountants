@@ -44,12 +44,12 @@ version: 0.1
 
 ## 5. Penalties and interest
 
-- Failure to file combined when required: the group owes the combined tax plus late-file/late-pay penalties and interest at the CIT statutory rate (MCL 208.1451 et seq. — **needs-sources**: legislature.mi.gov section pages render via JavaScript and the penalty text was not machine-verified on 2026-10-25; mi-corporate-income-tax corroborates the general penalty/interest framework).
+- Failure to file combined when required: the group owes the combined tax plus late-file/late-pay penalties and interest at the CIT statutory rate (MCL 208.1451 et seq. — **unverified**: legislature.mi.gov section pages render via JavaScript and the penalty text was not machine-verified on 2026-10-25; mi-corporate-income-tax corroborates the general penalty/interest framework).
 
 ## 6. Cross-border and federal overlay
 
-- P.L. 86-272 solicitation protection applies to the Michigan net-income (CIT) tax but not to other levies; it does not dissolve UBG status for the rest of the group (Treasury CIT pages — needs-sources for the specific P.L. 86-272 statement).
-- Federal §482 adjustments do not automatically flow into the Michigan combination (needs-sources).
+- P.L. 86-272 solicitation protection applies to the Michigan net-income (CIT) tax but not to other levies; it does not dissolve UBG status for the rest of the group (Treasury CIT pages — unverified for the specific P.L. 86-272 statement).
+- Federal §482 adjustments do not automatically flow into the Michigan combination (unverified).
 - No state treaty power.
 
 ## 7. Worked examples
@@ -99,7 +99,9 @@ expected:
 - MCL 208.1401 (unitary business groups): <https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-208-1401> — 200 on 2026-10-25.
 - Treasury CIT unitary business groups page: <https://www.michigan.gov/taxes/business-taxes/cit/detail/unitary-business-groups> — 200 with content on 2026-10-25.
 - `mi-corporate-income-tax` skill (6.0% rate, single sales factor, deadlines) — internal corroboration, read 2026-10-25.
-- CIT penalty/interest section text — **needs-sources** (JS-rendered pages, 2026-10-25).
+
+Not yet confirmed: MCL 208.1451 et seq. penalty/interest text (JS-rendered); specific P.L. 86-272 statement; federal §482 interaction with the Michigan combination.
+- CIT penalty/interest section text — **unverified** (JS-rendered pages, 2026-10-25).
 
 <!-- openaccountants-cta-block -->
 

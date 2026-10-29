@@ -6,7 +6,7 @@ description: >-
   structure, and the Paid Family and Medical Leave (PFML) insurance program
   with its delayed premium start. Trigger on Michigan UI taxable wage base,
   9500, Michigan PFML premium, Insurance Care for Working Families Act,
-  2022 PA 1. Source-cited draft; PFML premium schedule needs-sources.
+  2022 PA 1. Source-cited draft; PFML premium schedule unverified.
 jurisdiction: US-MI
 category: social
 tax_year: 2026
@@ -27,23 +27,23 @@ version: 0.1
 ## 2. Core rules and rates
 
 - **UI:** employer-only tax on a USD 9,500 per-employee taxable wage base; experience-rated rates plus a 0.99% wage tax on covered employment (mi-payroll, read 2026-10-25). No employee contribution.
-- **PFML:** the Insurance Care for Working Families Act (2022 PA 1, 200 on 2026-10-25) creates a state insurance program funded by premiums on covered wages. The statute's premium schedule (0.8% of wages, split 50/50 employer/employee, with small-employer exemption) was **not machine-verified from the enrolled-act text in the drafting environment on 2026-10-25** — the enrolled PDF's text layer did not yield the premium sections — so the premium figures are **needs-sources**; confirm against LARA's Family Leave Insurance pages before payroll changes.
-- PFML premium collection was legislatively delayed; the first-premium timing is part of the needs-sources set above.
+- **PFML:** the Insurance Care for Working Families Act (2022 PA 1, 200 on 2026-10-25) creates a state insurance program funded by premiums on covered wages. The statute's premium schedule (0.8% of wages, split 50/50 employer/employee, with small-employer exemption) was **not machine-verified from the enrolled-act text in the drafting environment on 2026-10-25** — the enrolled PDF's text layer did not yield the premium sections — so the premium figures are **unverified**; confirm against LARA's Family Leave Insurance pages before payroll changes.
+- PFML premium collection was legislatively delayed; the first-premium timing is part of the unverified set above.
 
 ## 3. Base
 
 - UI: gross covered wages up to the 9,500 per-employee annual base (mi-payroll, read 2026-10-25).
-- PFML: covered wages as defined by 2022 PA 1 (needs-sources for the definitional cross-references).
+- PFML: covered wages as defined by 2022 PA 1 (unverified for the definitional cross-references).
 
 ## 4. Deadlines
 
 - UI: quarterly wage reports and contributions (mi-payroll, read 2026-10-25).
-- PFML: premiums accrue on the schedule set by the act and LARA rulemaking — **needs-sources** (see §2).
+- PFML: premiums accrue on the schedule set by the act and LARA rulemaking — **unverified** (see §2).
 
 ## 5. Penalties and interest
 
 - UI late reporting/payment penalties and interest: mi-payroll lane (read 2026-10-25).
-- PFML penalties: set by 2022 PA 1 — **needs-sources**.
+- PFML penalties: set by 2022 PA 1 — **unverified**.
 
 ## 6. Cross-border and interaction
 
@@ -74,10 +74,10 @@ expected:
   total: 4265.50
 ```
 
-**Example 2 — PFML illustrative split (needs-sources figures).** On USD 200,000 of covered wages, an illustrative 0.8% premium with a 50/50 split: premium 200,000 × 0.008 = 1,600; employer 800, employee 800. Verify the live schedule with LARA before relying on these numbers.
+**Example 2 — PFML premium split (unverified figures).** On USD 200,000 of covered wages, an assumed 0.8% premium with a 50/50 split: premium 200,000 × 0.008 = 1,600; employer 800, employee 800. Verify the live schedule with LARA before relying on these numbers.
 
 ```oa-check
-name: mi pfml illustrative split
+name: mi pfml premium split
 inputs:
   wages: 200000
   rate: 0.008
@@ -95,14 +95,16 @@ expected:
 ## 8. Ask the client first
 
 - Experience rate and employee count (UI cost driver).
-- Whether PFML premiums have begun collecting for their payroll cycle (timing is needs-sources — check LARA).
+- Whether PFML premiums have begun collecting for their payroll cycle (timing is unverified — check LARA).
 - Multi-state base allocation if employees work in neighbouring states.
 
 ## 9. Sources
 
-- Insurance Care for Working Families Act, 2022 PA 1 (enrolled): <https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm> — 200 on 2026-10-25; premium sections **needs-sources** (text layer not machine-readable in drafting environment).
-- LARA Family Leave Insurance program pages — **needs-sources** (not reachable 2026-10-25).
+- Insurance Care for Working Families Act, 2022 PA 1 (enrolled): <https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm> — 200 on 2026-10-25; premium sections **unverified** (text layer not machine-readable in drafting environment).
+- LARA Family Leave Insurance program pages — **unverified** (not reachable 2026-10-25).
 - `mi-payroll` skill (UI base 9,500, wage tax, deadlines) — internal corroboration, read 2026-10-25.
+
+Not yet confirmed: PFML premium rate/schedule and split, small-employer exemption, first-premium timing, covered-wage definition, and PFML penalties (2022 PA 1 premium sections not machine-verified; LARA pages unreachable 2026-10-25).
 
 <!-- openaccountants-cta-block -->
 
