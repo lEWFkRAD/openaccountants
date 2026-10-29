@@ -69,7 +69,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Client facts in these examples are hypothetical; no unconfirmed rates are used.
 
-### Example 1: bulk-filing volume
+**Example 1: bulk-filing volume**
 
 A bulk filer (hypothetical) submitting 3 employers × 12 monthly A-1s in one year:
 

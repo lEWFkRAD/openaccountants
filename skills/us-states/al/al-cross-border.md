@@ -73,7 +73,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Client facts in these examples are hypothetical. Only rates from the confirmed table above are used (6.5% corporate rate, single sales factor).
 
-### Example 1: non-resident corporate apportionment
+**Example 1: non-resident corporate apportionment**
 
 A Georgia company (hypothetical) with $3,000,000 total sales, $450,000 delivered to Alabama customers, $700,000 Alabama-apportionable base after the federal-tax deduction.
 
@@ -94,7 +94,7 @@ expected:
   tax: 6825.00
 ```
 
-### Example 2: non-resident individual income ratio
+**Example 2: non-resident individual income ratio**
 
 A non-resident individual (hypothetical) with $120,000 total income, $30,000 Alabama-source wages — the Alabama fraction of income:
 

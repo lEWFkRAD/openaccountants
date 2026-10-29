@@ -83,7 +83,7 @@ Form 40 line mapping confirmed in the booklet: line 11 itemized/standard deducti
 
 Client facts in these examples are hypothetical. Only rates from the confirmed table above are used.
 
-### Example 1: single filer with $2,000 taxable income
+**Example 1: single filer with $2,000 taxable income**
 
 A single self-employed filer (hypothetical) with Alabama taxable income of $2,000 after deductions and exemptions:
 
@@ -97,7 +97,7 @@ expected:
   tax: 70.00
 ```
 
-### Example 2: married-filing-joint with $8,000 taxable income
+**Example 2: married-filing-joint with $8,000 taxable income**
 
 MFJ (hypothetical) with Alabama taxable income of $8,000:
 
@@ -108,7 +108,7 @@ inputs:
 steps:
   - tax: 0.02 * 1000 + 0.04 * 5000 + 0.05 * (taxable - 6000)
 expected:
-  tax: 250.00
+  tax: 320.00
 ```
 
 ## Ask the client first

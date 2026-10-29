@@ -68,7 +68,7 @@ See also: `us-sales-tax` (load first), `al-cross-border` (remote sellers), `al-c
 
 Client facts in these examples are hypothetical. Only rates from the confirmed table above are used; specific local rates are not confirmed, so local tax is discussed qualitatively.
 
-### Example 1: general retail sale, state rate only
+**Example 1: general retail sale, state rate only**
 
 A seller (hypothetical) sells $1,000 of tangible personal property in Alabama; the state tax is 4% of $1,000 = $40. Local tax, if any, is additional and must be read from ALDOR's local rate lookup.
 
@@ -83,7 +83,7 @@ expected:
   tax: 40.00
 ```
 
-### Example 2: SNAP-definition groceries, state food rate
+**Example 2: SNAP-definition groceries, state food rate**
 
 $200 (hypothetical) of unprepared groceries: the state food rate is 2%, so $4 state tax. Local governments tax food at their general rate in effect on June 15, 2023, so local tax is additional and must be confirmed per jurisdiction.
 
@@ -98,9 +98,9 @@ expected:
   tax: 4.00
 ```
 
-### Example 3: economic nexus test
+**Example 3: economic nexus test**
 
-A remote seller (hypothetical) with $300,000 of retail sales delivered into Alabama in the previous calendar year and no physical presence: the sales exceed the $250,000 threshold, so the seller must register and collect (ALDOR FAQ).
+A remote seller (hypothetical) with $300,000 of retail sales delivered into Alabama in the previous calendar year and no physical presence: the sales exceed the $250,000 threshold by $50,000, so the seller must register and collect (ALDOR FAQ).
 
 ```oa-check
 name: AL economic nexus threshold test
@@ -108,9 +108,9 @@ inputs:
   sales_into_al: 300000
   threshold: 250000
 steps:
-  - exceeds: sales_into_al > threshold
+  - amount_over_threshold: sales_into_al - threshold
 expected:
-  exceeds: true
+  amount_over_threshold: 50000.00
 ```
 
 ## Ask the client first

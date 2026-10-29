@@ -66,7 +66,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Client facts in these examples are hypothetical. Only rates from the confirmed table above are used (6.5% rate, single sales factor). The elimination mechanics shown are the standard combined-reporting pattern; Alabama's statutory language is not yet confirmed.
 
-### Example 1: elimination effect on group income
+**Example 1: elimination effect on group income**
 
 Unitary group (hypothetical), two members: OpCo (Alabama sales $900,000, other sales $1,100,000) pays MgmtCo (no sales) a $200,000 management fee.
 
@@ -88,7 +88,7 @@ expected:
 
 (The elimination is income-neutral inside the group but moves each member's separate fraction — the combined factor uses group sales.)
 
-### Example 2: combined single sales factor
+**Example 2: combined single sales factor**
 
 Group apportionment (hypothetical) with the fee eliminated:
 

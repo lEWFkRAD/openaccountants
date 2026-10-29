@@ -96,7 +96,7 @@ The traps: the client who says "I live in Alabama" and moved in April (ask the d
 
 Client facts in these examples are hypothetical. Only rates from the confirmed table above are used.
 
-### Example: single filer through the brackets
+**Example single filer through the brackets**
 
 A full-year resident (hypothetical) with $10,000 of Alabama taxable income after the standard deduction and exemptions:
 
@@ -107,7 +107,7 @@ inputs:
 steps:
   - tax: 0.02 * 500 + 0.04 * 2500 + 0.05 * (taxable - 3000)
 expected:
-  tax: 425.00
+  tax: 460.00
 ```
 
 ## Ask the client first

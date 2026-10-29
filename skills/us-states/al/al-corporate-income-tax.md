@@ -73,7 +73,7 @@ The distinctive base feature: "Rate 6.5 percent of annual net income with a dedu
 
 Client facts in these examples are hypothetical. Only rates from the confirmed table above are used (6.5% rate, federal-tax deduction, single sales factor).
 
-### Example 1: domestic corporation, federal-tax deduction
+**Example 1: domestic corporation, federal-tax deduction**
 
 A domestic corporation (hypothetical) with $500,000 federal taxable income and $60,000 federal income tax paid, 100% Alabama sales.
 
@@ -91,7 +91,7 @@ expected:
   tax: 28600.00
 ```
 
-### Example 2: multistate single sales factor
+**Example 2: multistate single sales factor**
 
 Same corporation (hypothetical), total sales $5,000,000, Alabama sales $1,200,000.
 
