@@ -99,7 +99,7 @@ expected:
 | LDR General Sales & Use Tax (rate 5%, who must file, base, 20th-of-month due date) | https://revenue.louisiana.gov/businesses/general-sales-and-use-taxes/general-sales-use-tax/ | 2026-10-29 |
 | LDR FAQ — What is the sales tax rate in Louisiana? (5.00% from 2025; local taxes in addition) | https://revenue.louisiana.gov/tax-education-and-faqs/faqs/sales-tax/what-is-the-sales-tax-rate-in-louisiana | 2026-10-29 |
 | LDR FAQ — What is the state sales tax rate? (4.45% through 2024-12-31 vs 5% from 2025-01-01; telecom/direct-marketer rates) | https://revenue.louisiana.gov/tax-education-and-faqs/faqs/sales-tax-reform/what-is-the-state-sales-tax-rate/ | 2026-10-29 |
-| LDR Consumer Use Tax (8.45% in lieu of local) | https://revenue.louisiana.gov/individuals/general-resources/consumer-use-tax/ | 2026-10-29 |
+| LDR Consumer Use Tax (8.45% in lieu of local) | https://revenue.louisiana.gov/individuals/general-resources/consumer-use-tax/ | 2026-10-28 |
 
 Not yet confirmed: the parish/city rate range and maximum combined rate (the pre-existing ~11.45% figure was not re-verified); destination-based sourcing; the economic-nexus threshold ($100,000/200 transactions); the clothing, grocery-food, prepared-food, professional-services, manufacturing-equipment, prescription-drug and resale exemption lines; whether SaaS is taxable beyond "prewritten computer software access services"; the Louisiana Sales Tax Commission portal role; penalty/interest percentages under R.S. 47:305.
 
