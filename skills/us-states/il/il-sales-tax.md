@@ -171,8 +171,8 @@ Illinois is origin-based for most transactions. The rate is determined by the se
 | --- | --- | --- | --- |
 | Chicago | 10.25% | 2.25% | IDOR tax rate finder |
 | Cook County (outside Chicago) | ~9.00-10.25% | varies | IDOR tax rate finder |
-| Springfield (Sangamon Co.) | 8.75% | 2.00% | IDOR tax rate finder |
-| Champaign | 9.00% | 2.00% | IDOR tax rate finder |
+| Springfield (Sangamon Co.) | 8.75% | 2.00% | not yet confirmed (local-rate tables not archived) |
+| Champaign | 9.00% | 2.00% | not yet confirmed (local-rate tables not archived) |
 
 **Important:** Local rates vary by municipality and county. Always verify the exact combined rate for the seller's business location using the IDOR tax rate database (tax.illinois.gov).
 
@@ -222,27 +222,27 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ## Worked examples
 
-### Test 1: Standard retailer, general merchandise
+### Worked example 1 — Standard retailer, general merchandise
 
 **Input:** Chicago seller. Gross sales: $20,000, all general merchandise, all in-store. No exempt sales.
 **Expected:** Combined rate: 10.25%. Tax: $20,000 x 10.25% = $2,050. State portion: $20,000 x 6.25% = $1,250. Vendor discount: $1,250 x 1.75% = $21.88. Net tax: $2,050 - $21.88 = $2,028.12.
 
-### Test 2: Mixed rate sales (food and general)
+### Worked example 2 — Mixed rate sales (food and general)
 
 **Input:** Springfield seller. General merchandise: $10,000. Qualifying food: $5,000.
 **Expected:** General: $10,000 x 8.75% = $875. Food: $5,000 x 2.00% = $100. Total: $975. State portion: ($10,000 x 6.25%) + ($5,000 x 1%) = $625 + $50 = $675. Vendor discount: $675 x 1.75% = $11.81. Net: $963.19.
 
-### Test 3: Service with property transfer
+### Worked example 3 — Service with property transfer
 
 **Input:** HVAC contractor in Champaign. Service charges: $3,000. Parts (cost price): $800.
 **Expected:** SOT applies to $800 (cost price of parts). Tax: $800 x 9.00% = $72.
 
-### Test 4: Use tax on out-of-state purchase
+### Worked example 4 — Use tax on out-of-state purchase
 
 **Input:** Chicago business purchases $5,000 of equipment from out-of-state vendor, no tax collected.
 **Expected:** Use tax: $5,000 x 10.25% = $512.50.
 
-### Test 5: Late filing (no vendor discount)
+### Worked example 5 — Late filing (no vendor discount)
 
 **Input:** Same as Test 1 but filed 10 days late.
 **Expected:** No vendor discount. Net tax: $2,050 plus penalties and interest.

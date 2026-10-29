@@ -55,18 +55,18 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 
 ### IL Estimated Tax
 
-- **Threshold** — $1,000 of expected IL tax after withholding/credits (TY ending on/after 12/31/2019); $500 was the prior threshold and now applies only to the PTE-tax election context  _(35 ILCS 5/803; IDOR Pub-105; IL-1040-ES instr.)_
-- **Safe harbor — current year** — 90% of current-year liability  _(35 ILCS 5/803; IL-2210.)_
-- **Safe harbor — prior year** — 100% of prior-year liability; IL has no high-income 110% rule  _(35 ILCS 5/803; IL-2210; IL-1040-ES instr.)_
-- **110% rule** — Confirmed - IL uses 100% prior-year regardless of income  _(IL-2210 instr.)_
+- **Threshold** — $1,000 of expected IL tax after withholding/credits  _(IL-1040 instructions (archived: sources/US-IL-il-1040-instr.pdf): "have a tax liability greater than $1,000 after subtracting your withholding, pass-through withholding payments, and credits".)_
+- **Safe harbor — current year** — 90% of current-year liability (not line-verified in an archived source: not yet confirmed)
+- **Safe harbor — prior year** — 100% of prior-year liability; IL has no high-income 110% rule (not line-verified in an archived source: not yet confirmed)
+- **110% rule** — IL uses 100% prior-year regardless of income (not line-verified in an archived source: not yet confirmed)
 - **IL flat rate** — 4.95%  _(35 ILCS 5/201.)_
 - **Personal exemption — Single** — $2,850 for 2025 (the same exemption applies to IL-1040, estimated tax, and withholding)  _(IDOR FY2025-16; IL-1040-ES instr.)_
 - **Personal exemption — MFJ** — $5,700 for 2025  _(IDOR FY2025-16.)_
 - **Q1** — April 15, 2025  _(2025 IL-1040-ES.)_
-- **Q2** — Statutory June 15; June 15, 2025 falls on a Sunday, so the effective due date is June 16, 2025  _(2025 IL-1040-ES; 5 ILCS 70/1.11.)_
+- **Q2** — Statutory June 15; June 15, 2025 falls on a Sunday, so the effective due date is June 16, 2025 (2025-26 dates not line-verified in an archived source: not yet confirmed)
 - **Q3** — September 15, 2025  _(2025 IL-1040-ES.)_
 - **Q4** — January 15, 2026  _(2025 IL-1040-ES.)_
-- **Instalment split** — Four equal 25% installments  _(IL-1040-ES; IL-2210.)_
+- **Instalment split** — Four equal 25% installments (not line-verified in an archived source: not yet confirmed)
 - **Underpayment rate** — IL interest tracks the IRC 6621 underpayment rate (federal short-term + 3 points for individuals) and is set SEMI-ANNUALLY (Jan 1 and Jul 1), not federal short-term + 2% quarterly.  _(35 ILCS 735/3-2; IDOR Pub-103.)_
 - **Estimated tax exemption** — IL-1040-ES uses $2,850 (S) / $5,700 (MFJ) for 2025 - the same as IL-1040  _(IDOR FY2025-16; IL-1040-ES instr.)_
 - **Income tax exemption** — $2,850 (S) / $5,700 (MFJ)  _(IDOR FY2025-16.)_
@@ -100,7 +100,7 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 
 ### Step 7: Compute quarterly payment
 
-0. **Step 7** — Divide the required annual payment by 4. Each quarterly installment is 25% of the annual amount.
+0. **Step 7** — Divide the required annual payment by 4. Each quarterly installment is 25% of the annual amount (not line-verified in an archived source: not yet confirmed).
 
 ### Step 8: Adjust for annualized income (if applicable)
 
@@ -110,7 +110,7 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 
 ### Who must make estimated payments
 
-- **Estimated payment requirement** — An individual must make estimated payments if: 1. The taxpayer expects to owe more than $1,000 in Illinois income tax after subtracting Illinois withholding and credits, AND 2. The taxpayer expects Illinois withholding and credits to be less than the smaller of: (a) 90% of the current year tax liability, or (b) 100% of the prior year tax liability.  _([35 ILCS 5/803(a); 86 Ill. Admin. Code 100.8010.](https://taxarchive.illinois.gov/content/dam/soi/en/web/taxarchive/forms/income-tax/2024/individual/il-1040-es.pdf))_
+- **Estimated payment requirement** — An individual must make estimated payments if the expected IL tax after withholding/credits is more than $1,000  _(IL-1040 instructions (archived: sources/US-IL-il-1040-instr.pdf): "have a tax liability greater than $1,000 after subtracting your withholding, pass-through withholding payments, and credits"; the 90%/100% prongs: not yet confirmed.)_
 
 ### Payment schedule
 
@@ -118,10 +118,10 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 
 | Installment | Period covered | Due date | Source |
 | --- | --- | --- | --- |
-| 1st quarter | Jan 1 -- Mar 31 | April 15, 2025 | 35 ILCS 5/803(b) |
-| 2nd quarter | Apr 1 -- May 31 | June 16, 2025 | 35 ILCS 5/803(b) |
-| 3rd quarter | Jun 1 -- Aug 31 | September 15, 2025 | 35 ILCS 5/803(b) |
-| 4th quarter | Sep 1 -- Dec 31 | January 15, 2026 | 35 ILCS 5/803(b) |
+| 1st quarter | Jan 1 -- Mar 31 | April 15, 2025 | not yet confirmed (2025-26 dates; IL-1040-ES not archived) |
+| 2nd quarter | Apr 1 -- May 31 | June 16, 2025 | not yet confirmed (2025-26 dates; IL-1040-ES not archived) |
+| 3rd quarter | Jun 1 -- Aug 31 | September 15, 2025 | not yet confirmed (2025-26 dates; IL-1040-ES not archived) |
+| 4th quarter | Sep 1 -- Dec 31 | January 15, 2026 | not yet confirmed (2025-26 dates; IL-1040-ES not archived) |
 
 Illinois follows the same quarterly schedule as the IRS.
 
@@ -134,9 +134,9 @@ Illinois follows the same quarterly schedule as the IRS.
 | Illinois flat income tax rate | 4.95% | 35 ILCS 5/201(b)(5.4) |
 | Estimated tax threshold | More than $1,000 | 35 ILCS 5/803(a) |
 | Personal exemption | $2,850 (single); $5,700 (MFJ); none if federal AGI is over $250,000 (over $500,000 MFJ) | 35 ILCS 5/204 (2025) |
-| Safe harbour -- current year | 90% of current year tax | 35 ILCS 5/804 |
-| Safe harbour -- prior year | 100% of prior year tax | 35 ILCS 5/804 |
-| Underpayment penalty rate | 2% of the tax due if paid 1 to 30 days late; 10% if paid 31 days or later (interest is charged separately) | 35 ILCS 5/804(c) |
+| Safe harbour -- current year | 90% of current year tax | not yet confirmed (35 ILCS 5/804 text not archived) |
+| Safe harbour -- prior year | 100% of prior year tax | not yet confirmed (35 ILCS 5/804 text not archived) |
+| Underpayment penalty rate | 2% of the tax due if paid 1 to 30 days late; 10% if paid 31 days or later (interest is charged separately) | not yet confirmed (35 ILCS 5/804(c) text not archived) |
 
 **Note:** Illinois does NOT have a 110% prior-year safe harbour for high-income taxpayers as the IRS does. The prior-year safe harbour is always 100%.
 

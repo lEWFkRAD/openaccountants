@@ -210,27 +210,27 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ## Worked examples
 
-### Test 1: Standard freelancer, single
+### Worked example 1 — Standard freelancer, single
 
 **Input:** Federal AGI: $100,000 (all Schedule C). No additions. Social Security subtraction: $0. No property tax. Single, no dependents.
 **Expected:** Base income: $100,000. Exemption: $2,850. Net income: $97,150. Tax: $97,150 x 4.95% = $4,808.93.
 
-### Test 2: MFJ with property tax credit
+### Worked example 2 — MFJ with property tax credit
 
 **Input:** Federal AGI: $150,000. No modifications. MFJ, 2 dependents. Property taxes paid: $8,000.
 **Expected:** Exemptions: $5,700 + (2 x $2,850) = $11,400. Net income: $138,600. Tax: $138,600 x 4.95% = $6,860.70. Property tax credit: $8,000 x 5% = $400. Net tax: $6,460.70.
 
-### Test 3: Bonus depreciation add-back
+### Worked example 3 — Bonus depreciation add-back
 
 **Input:** Federal AGI includes $50,000 of bonus depreciation on a $50,000 asset (5-year MACRS). Year 1.
 **Expected:** Addition: $50,000. Subtraction: $10,000 (year 1 standard MACRS on 5-year property). Net addition: $40,000. Track remaining $40,000 as future IL subtractions.
 
-### Test 4: Social Security subtraction
+### Worked example 4 — Social Security subtraction
 
 **Input:** Federal AGI: $60,000 including $12,000 of Social Security benefits taxed federally.
 **Expected:** Subtraction: $12,000. IL base income: $48,000.
 
-### Test 5: Earned income credit
+### Worked example 5 — Earned income credit
 
 **Input:** Federal EIC: $2,000. Single, 1 child.
 **Expected:** IL EIC: $2,000 x 20% = $400 (refundable).

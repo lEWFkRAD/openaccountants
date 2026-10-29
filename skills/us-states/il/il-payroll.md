@@ -1,6 +1,6 @@
 ---
 name: il-payroll
-description: Tier 2 Illinois content skill for employer payroll compliance covering tax year 2025. Includes the 4.95% flat PIT, supplemental 4.95%, IL-941 quarterly withholding, IL UI wage base $13,590 with rates 0.85-8.65%, the Secure Choice Savings Program auto-enroll mandate for 5+ employees (5% default deferral if no qualified retirement plan offered), Chicago Fair Workweek Ordinance predictive scheduling for 10+ employees in covered industries, Cook County paid sick leave, and the One Day Rest in Seven Act.
+description: Tier 2 Illinois content skill for employer payroll compliance covering tax year 2025. Includes the 4.95% flat PIT, supplemental 4.95%, IL-941 quarterly withholding, IL UI wage base $13,916 (2025) with rates 0.750-7.850%, the Secure Choice Savings Program auto-enroll mandate for 5+ employees (5% default deferral if no qualified retirement plan offered), Chicago Fair Workweek Ordinance predictive scheduling for 10+ employees in covered industries, Cook County paid sick leave, and the One Day Rest in Seven Act.
 jurisdiction: US-IL
 tax_year: 2025
 last_updated: 2026-07-13
@@ -27,7 +27,7 @@ The reviewer-oriented output for this skill is a payroll memo identifying every 
 - Illinois personal income tax withholding (IL PIT) at the 4.95% flat rate under 35 ILCS 5/201(b) and the supplemental wage withholding under 86 Ill. Adm. Code 100.7110.
 - IL-941 Illinois Withholding Income Tax Return (quarterly), the IL-941-X amended return, and the IL-W-3 annual reconciliation.
 - IL-W-4 Employee's Illinois Withholding Allowance Certificate, including the basic allowance and the additional allowance for age 65+ and blindness.
-- Illinois Unemployment Insurance (IL UI) administered by the Illinois Department of Employment Security (IDES) under the Unemployment Insurance Act, 820 ILCS 405/, including the 2025 taxable wage base of $13,590 and the 2025 contribution rate schedule of 0.85% to 8.65%.
+- Illinois Unemployment Insurance (IL UI) administered by the Illinois Department of Employment Security (IDES) under the Unemployment Insurance Act, 820 ILCS 405/, including the 2025 taxable wage base of $13,916 and the 2025 contribution rate schedule of 0.750% to 7.850% (IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): WAGE BASE / MINIMUM / MAXIMUM rows).
 - Illinois Secure Choice Savings Program Act (820 ILCS 80/) covering employer mandate triggers, auto-enrollment mechanics, the 5% default deferral, the penalty schedule under 820 ILCS 80/85, and exemption pathways.
 - Chicago Fair Workweek Ordinance (Municipal Code of Chicago § 1-25) for predictive scheduling in covered industries (building services, healthcare, hotels, manufacturing, restaurants, retail, warehouse services) with 100+ employees globally and 50+ Chicago-covered employees.
 - Cook County Earned Sick Leave Ordinance and the interaction with the Illinois Paid Leave for All Workers Act (820 ILCS 192/), effective January 1, 2024 statewide.
@@ -67,7 +67,7 @@ Withholding is required on:
 
 The Illinois Department of Revenue publishes Booklet IL-700-T (Illinois Withholding Tax Tables) annually. The 2025 edition retains the wage-bracket and percentage methods used since 2017.
 
-> AUDIT FLASH POINT — The Illinois personal exemption amount is indexed annually under PA 102-0700 (2021). The 2025 amount of $2,775 differs from the 2024 amount of $2,775 (no change) and the 2023 amount of $2,425. Using a prior-year exemption causes systematic under-withholding. Verify the current amount against IL Booklet IL-700-T before locking payroll software for the year.
+> AUDIT FLASH POINT — The Illinois personal exemption amount is indexed annually under PA 102-0700 (2021). The archived IL-1040 instructions state: "The personal exemption amount for tax year 2025 is $2,850." Using a prior-year exemption causes systematic under-withholding. Verify the current amount against IL Booklet IL-700-T before locking payroll software for the year.
 
 ### 2.3 Supplemental wages
 
@@ -120,7 +120,7 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 | --- | --- | --- |
 | **Annual** | $1,000 or less withheld in prior calendar year | With IL-941 for Q4 (Feb 2026) |
 | **Quarterly** | More than $1,000 but $12,000 or less in lookback period | With each IL-941 |
-| **Monthly** | More than $12,000 in lookback period | 15th of month following payday |
+| **Monthly** | More than $12,000 in lookback period | 15th of month following payday (not yet confirmed — IL-941 instructions not archived) |
 | **Semi-weekly** | More than $12,000 in lookback period AND $50,000+ in a single quarter, OR $100,000+ accumulated in any quarter | Wednesday for Wed-Fri paydays; Friday for Sat-Tue paydays |
 
 - **Lookback period definition** — The lookback period is the 12-month period ending June 30 of the preceding calendar year (so for 2025, the lookback is July 1, 2023 to June 30, 2024). Semi-weekly depositors with a single accumulated liability of $100,000 or more in a quarter must deposit the next banking day under the federal-style "one-day rule," which Illinois has incorporated by reference.
@@ -145,8 +145,8 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 - **Monthly (> $12,000)** — Threshold reversed: monthly applies when look-back withholding is <= $12,000 (not > $12,000). Monthly payers remit by the 15th of the following month (that due date is correct).  _(IDOR Pub-131; 2025 IL-941 instr.)_
 - **Semi-weekly (> $12,000 + $50K+/qtr)** — The semi-weekly schedule is triggered solely by look-back withholding > $12,000; there is no '$50,000/quarter' condition (that is a federal rule). The Wed/Fri remittance mechanics shown are correct.  _(IDOR Pub-131; 2025 IL-941 instr.)_
 - **IL-941 due date** — IL-941 is due the LAST DAY of the month following the quarter: April 30, July 31, October 31, January 31.  _(2025 IL-941 instr.)_
-- **W-2 e-file deadline** — W-2/W-2c/W-2G must be e-filed to IL by January 31 (waiver via IL-900-EW)  _(2025 IL-941 instr.; IDOR Pub-110.)_
-- **1099 e-file deadline** — IL requires required 1099 types to be filed electronically; March 31 aligns with the federal e-file date for most 1099s, but Form 1099-NEC is due January 31.  _(IDOR Pub-110.)_
+- **W-2 e-file deadline** — W-2/W-2c/W-2G must be e-filed to IL by January 31 (waiver via IL-900-EW)  _(@NC@.)_
+- **1099 e-file deadline** — IL requires required 1099 types to be filed electronically; March 31 aligns with the federal e-file date for most 1099s, but Form 1099-NEC is due January 31.  _(@NC@.)_
 - **UI taxable wage base** — 2025 IL UI taxable wage base = $13,916 ($13,590 was 2024; 2026 = $14,250)  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): WAGE BASE row: 13,590 / 13,916 / 14,250.)_
 - **UI min rate** — 2025 minimum UI rate = 0.750% (0.85% was 2024)  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): MINIMUM row: 0.750%.)_
 - **UI max rate** — 2025 maximum UI rate = 7.850% (8.65% was 2024)  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): MAXIMUM row: 7.850%.)_
@@ -156,8 +156,8 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 - **State Experience Factor** — 2025 State Experience Factor = 114% (109% is not a recent IL figure; 2024 = 126%, 2023 = 127%)  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): STATE EXPERIENCE row: 114%.)_
 - **Trigger** — Coverage applies to Illinois employers with at least 5 employees, in business 2+ years, with no qualified retirement plan. IDOR measures the count by averaging, across all four quarters of the tax year, the number of employees showing non-zero Illinois tax withheld on Schedule P (filed with Form IL-941), not a literal "5+ in every quarter" test.  _(820 ILCS 80/; IDOR Q&A 924; IDOR Informational Bulletin FY2023-09.)_
 - **Default deferral** — 5% auto-enroll default (auto-escalates 1%/yr to a 10% cap)  _(820 ILCS 80/; program rules.)_
-- **Penalty — Year 1** — $250 per employee, first year of noncompliance  _(820 ILCS 80/85.)_
-- **Penalty — Year 2+** — $500 per employee, each subsequent year  _(820 ILCS 80/85.)_
+- **Penalty — Year 1** — $250 per employee, first year of noncompliance  _(@NC@.)_
+- **Penalty — Year 2+** — $500 per employee, each subsequent year  _(@NC@.)_
 - **PLAWA (statewide paid leave)** — Up to 40 hours paid leave per 12-month period (1 hr per 40 worked)  _(820 ILCS 192/; IDOL.)_
 - **Chicago paid leave + sick** — Chicago = 40 hrs paid leave + 40 hrs paid sick = 80 hrs combined (separate banks)  _(Chicago Paid Leave & Paid Sick and Safe Leave Ordinance.)_
 - **Pay frequency** — IWPCA requires at least semi-monthly pay (executive/admin/professional may be monthly)  _(820 ILCS 115/3.)_
@@ -169,7 +169,7 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 ### 3.1 IDES administration and SUTA framework
 
-- **UI subjectivity threshold** — IL UI is administered by the Illinois Department of Employment Security (IDES) under the Unemployment Insurance Act, 820 ILCS 405/. Every employer that pays $1,500 or more in wages in any calendar quarter or that employs at least one worker in 20 different weeks in a calendar year becomes subject to UI tax (820 ILCS 405/205).  _(820 ILCS 405/205)_
+- **UI subjectivity threshold** — IL UI is administered by the Illinois Department of Employment Security (IDES) under the Unemployment Insurance Act, 820 ILCS 405/. Every employer that pays $1,500 or more in wages in any calendar quarter or that employs at least one worker in 20 different weeks in a calendar year becomes subject to UI tax (820 ILCS 405/205).  _(not yet confirmed (statute text not archived))_
 
 ### 3.2 2025 wage base and rates
 
@@ -193,20 +193,20 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 | Quarter | Due Date |
 | --- | --- |
-| Q1 2025 | April 30, 2025 |
-| Q2 2025 | July 31, 2025 |
-| Q3 2025 | October 31, 2025 |
-| Q4 2025 | January 31, 2026 |
+| Q1 2025 | April 30, 2025 (not yet confirmed — IL-941 instructions not archived) |
+| Q2 2025 | July 31, 2025 (not yet confirmed — IL-941 instructions not archived) |
+| Q3 2025 | October 31, 2025 (not yet confirmed — IL-941 instructions not archived) |
+| Q4 2025 | January 31, 2026 (not yet confirmed — IL-941 instructions not archived) |
 
 - **e-file threshold** — Employers file Form UI-3/40 (Employer's Contribution and Wage Report) quarterly through MyTax Illinois. Employers with 25+ employees in any quarter of the prior calendar year must file electronically.
 
 ### 3.4 Successor employer
 
-- **Successor experience rate transfer** — When a business is acquired (asset purchase or stock purchase that constitutes a complete or partial transfer of the trade or business), the successor may take the predecessor's experience rate under 820 ILCS 405/1507. This is generally favorable when the predecessor's rate is below the new-employer rate (3.95%) and unfavorable when above. The transfer is mandatory in certain cases (substantial common ownership) and elective in others (arm's-length purchase) — see IDES Form UI-1S.  _(820 ILCS 405/1507)_
+- **Successor experience rate transfer** — When a business is acquired (asset purchase or stock purchase that constitutes a complete or partial transfer of the trade or business), the successor may take the predecessor's experience rate under 820 ILCS 405/1507. This is generally favorable when the predecessor's rate is below the new-employer rate (3.650% for 2025 — IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf) STANDARD row) and unfavorable when above. The transfer is mandatory in certain cases (substantial common ownership) and elective in others (arm's-length purchase) — see IDES Form UI-1S.  _(820 ILCS 405/1507)_
 
 ### 3.5 SUTA dumping
 
-- **SUTA dumping penalty** — IDES enforces the federal SUTA Dumping Prevention Act of 2004 (P.L. 108-295) through 820 ILCS 405/1507.1. Knowing transfers of business with the principal purpose of obtaining a lower contribution rate are subject to the maximum rate plus a penalty of 2.0% of the wage base for each year involved.  _(820 ILCS 405/1507.1)_
+- **SUTA dumping penalty** — IDES enforces the federal SUTA Dumping Prevention Act of 2004 (P.L. 108-295) through 820 ILCS 405/1507.1. Knowing transfers of business with the principal purpose of obtaining a lower contribution rate are subject to the maximum rate plus a penalty of 2.0% of the wage base for each year involved.  _(@NC@)_
 
 ### 3.6 Voluntary contributions
 
@@ -216,11 +216,11 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 ### 4.1 Statutory framework
 
-- **Secure Choice statutory framework** — The Illinois Secure Choice Savings Program Act (820 ILCS 80/) was enacted in 2015, amended by PA 101-0026 in 2019 and PA 102-0179 in 2021. It establishes a state-facilitated payroll-deduction Roth IRA program administered by the Illinois Treasurer's Office. The implementation timeline rolled out from late 2018 to 2023, with the final wave (employers with 5–15 employees) coming online November 1, 2023.  _(820 ILCS 80/)_
+- **Secure Choice statutory framework** — The Illinois Secure Choice Savings Program Act (820 ILCS 80/) was enacted in 2015, amended by PA 101-0026 in 2019 and PA 102-0179 in 2021. It establishes a state-facilitated payroll-deduction Roth IRA program administered by the Illinois Treasurer's Office. The implementation timeline rolled out from late 2018 to 2023, with the final wave (employers with 5–15 employees) coming online November 1, 2023.  _(not yet confirmed (statute text not archived))_
 
 ### 4.2 Employer mandate
 
-- **Employer mandate triggers** — An employer must register with Secure Choice if all of the following apply: 1. The employer has had **5 or more Illinois employees** in every quarter of the preceding calendar year (under 820 ILCS 80/5, "employer" definition). 2. The employer has been in business for at least **2 years**. 3. The employer does **not offer a qualified retirement plan** in the preceding 2 years (qualified plans include 401(k), 403(b), 408(k) SEP-IRA, 408(p) SIMPLE IRA, 457(b), payroll-deduction IRA under § 7701, and certain defined benefit plans under § 401(a)). Employees who are not Illinois residents and do not work in Illinois are excluded from the headcount. > AUDIT FLASH POINT — The 5-employee threshold was lowered from 25 by PA 102-0179 effective November 1, 2022, with phased compliance dates by employer size. Many small Illinois employers (5–15 employees) are unaware they became subject November 1, 2023. The Illinois Treasurer publishes employer registration notices via the Illinois Secretary of State business registration data; non-registered employers receive enforcement letters with escalating penalties. Verify Secure Choice registration status (or a documented exemption) for every Illinois employer with 5+ employees at the start of any engagement.  _(820 ILCS 80/5)_
+- **Employer mandate triggers** — An employer must register with Secure Choice if all of the following apply: 1. The employer has had **5 or more Illinois employees** in every quarter of the preceding calendar year (under 820 ILCS 80/5, "employer" definition). 2. The employer has been in business for at least **2 years**. 3. The employer does **not offer a qualified retirement plan** in the preceding 2 years (qualified plans include 401(k), 403(b), 408(k) SEP-IRA, 408(p) SIMPLE IRA, 457(b), payroll-deduction IRA under § 7701, and certain defined benefit plans under § 401(a)). Employees who are not Illinois residents and do not work in Illinois are excluded from the headcount. > AUDIT FLASH POINT — The 5-employee threshold was lowered from 25 by PA 102-0179 effective November 1, 2022, with phased compliance dates by employer size. Many small Illinois employers (5–15 employees) are unaware they became subject November 1, 2023. The Illinois Treasurer publishes employer registration notices via the Illinois Secretary of State business registration data; non-registered employers receive enforcement letters with escalating penalties. Verify Secure Choice registration status (or a documented exemption) for every Illinois employer with 5+ employees at the start of any engagement.  _(not yet confirmed (statute text not archived))_
 
 ### 4.3 Auto-enrollment mechanics
 
@@ -232,14 +232,14 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 ### 4.5 Penalties
 
-**Secure Choice penalty table**  _(820 ILCS 80/85)_
+**Secure Choice penalty table**  _(not yet confirmed (statute text not archived))_
 
 | Violation | Penalty |
 | --- | --- |
-| Failure to enroll an employee (first year) | $250 per employee |
-| Failure to enroll an employee (each subsequent year) | $500 per employee |
+| Failure to enroll an employee (first year) | $250 per employee (not yet confirmed — 820 ILCS 80/85 text not archived) |
+| Failure to enroll an employee (each subsequent year) | $500 per employee (not yet confirmed — 820 ILCS 80/85 text not archived) |
 
-Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compliance. The penalty assessment runs cumulatively, so a 10-employee employer that fails to register and remains non-compliant for three years faces $250 + $500 + $500 = $1,250 per employee × 10 = $12,500.
+Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compliance. The penalty assessment runs cumulatively, so a 10-employee employer that fails to register and remains non-compliant for three years faces $250 + $500 + $500 = $1,250 per employee × 10 = $12,500 (penalty amounts: not yet confirmed — statute text not archived).
 
 > AUDIT FLASH POINT — Secure Choice penalty assessments are issued by IL DOR and processed through MyTax Illinois. They are not waivable for "reasonable cause" in the same way IRS penalties are; the Treasurer's office and DOR have taken the position that the statute is mandatory. The only relief pathway is to demonstrate that the employer was exempt (qualified plan offered, fewer than 5 employees in every quarter, less than 2 years in business). Maintain documentation of the qualified plan adoption date and the IRS determination letter or prototype adoption document.
 
@@ -329,7 +329,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 ## Worked examples
 
-### Example 1 — Illinois employer with 10 employees, Secure Choice trigger
+### Worked example 1 — Illinois employer with 10 employees, Secure Choice trigger
 
 **Facts**: Greenbridge Marketing LLC is a Chicago-based marketing firm with 10 Illinois W-2 employees, in business since 2019, with no retirement plan. The owner is unaware of the Secure Choice mandate. The firm's 2025 gross payroll is $850,000.
 
@@ -337,7 +337,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 1. **Secure Choice mandate**: Greenbridge has 5+ employees in every quarter of 2024, has been in business more than 2 years, and offers no qualified plan. Greenbridge is required to register and facilitate Secure Choice for all 10 employees.
 
-2. **Registration deadline**: The compliance date for 5–15 employee employers was November 1, 2023. Greenbridge is currently two full years out of compliance.
+2. **Registration deadline**: The compliance date for 5–15 employee employers was November 1, 2023 (not yet confirmed — statute text not archived). Greenbridge is currently two full years out of compliance.
 
 3. **Penalty exposure**: Year 1 (2024): $250 × 10 = $2,500. Year 2 (2025, ongoing): $500 × 10 = $5,000. Total potential penalty: **$7,500** if assessed retroactively.
 
@@ -351,23 +351,23 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 6. **IL withholding**: Independent of Secure Choice, Greenbridge is withholding IL PIT at 4.95% on all 10 employees and filing IL-941 quarterly with the Q4 IL-W-3 reconciliation built into the Q4 return.
 
-7. **IL UI**: 10 employees × $13,590 wage base = $135,900 total taxable wages. At the new-employer rate of 3.95% (assuming Greenbridge has not yet earned an experience rating because it had no employees pre-2022), 2025 UI tax = $5,368. By 2026 Greenbridge will have an experience rating and the rate may drop to as low as 0.85% if no UI claims were filed.
+7. **IL UI**: 10 employees × $13,916 wage base = $139,160 total taxable wages. At the 2025 new-employer standard rate of 3.650% (IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf)), 2025 UI tax = $5,079. By 2026 Greenbridge will have an experience rating and the rate may drop to as low as 0.750% if no UI claims were filed.
 
-### Example 2 — Multi-state employer with Illinois/Indiana border employees
+### Worked example 2 — Multi-state employer with Illinois/Indiana border employees
 
 **Facts**: Lakeshore Logistics Inc. operates a warehouse in Hammond, Indiana, just east of the Illinois border. The company has 60 employees: 35 work at the Indiana warehouse (15 are Illinois residents, 20 are Indiana residents), and 25 work at a satellite distribution center in Calumet City, Illinois (10 are Illinois residents, 15 are Indiana residents).
 
 **Analysis**:
 
 1. **No IL/IN reciprocity**: Illinois has reciprocity agreements with Iowa, Kentucky, Michigan, and Wisconsin only. Indiana is NOT a reciprocity state. This means:
-   - Illinois residents who work in Indiana: Indiana withholds IN tax; the IL resident claims a credit for IN tax paid on the IL-1040. Lakeshore must withhold IN tax (3.05% state + applicable Indiana county tax based on the employee's Indiana county of principal employment, or county of residence if no IN county of employment).
-   - Indiana residents who work in Illinois: Illinois withholds IL tax at 4.95%. The IN resident claims a credit for IL tax paid on the IN-40, capped at the IN tax rate (3.05% + county).
+   - Illinois residents who work in Indiana: Indiana withholds IN tax; the IL resident claims a credit for IN tax paid on the IL-1040. Lakeshore must withhold IN tax (Indiana rates: not yet confirmed — IN sources not archived for this pack).
+   - Indiana residents who work in Illinois: Illinois withholds IL tax at 4.95%. The IN resident claims a credit for IL tax paid on the IN-40, capped at the IN tax rate (Indiana rates: not yet confirmed — IN sources not archived for this pack).
 
 2. **Withholding registration**: Lakeshore needs to be registered for both IL withholding (with IL DOR) and IN withholding (with IN DOR). It must file IL-941 quarterly and IN WH-1 monthly (Indiana defaults to monthly).
 
-3. **IL UI**: The 25 employees physically working at the Calumet City facility are reported to IDES for unemployment, regardless of state of residence (UI is based on physical location of work). $13,590 × 25 = $339,750 taxable IL wages. At the new-employer rate (3.95% if first year) = $13,420 IL UI.
+3. **IL UI**: The 25 employees physically working at the Calumet City facility are reported to IDES for unemployment, regardless of state of residence (UI is based on physical location of work). $13,916 × 25 = $347,900 taxable IL wages. At the 2025 new-employer standard rate (3.650% — IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf)) = $12,700 IL UI.
 
-4. **IN UI**: The 35 employees working at the Hammond facility are reported to Indiana DWD for unemployment. (Indiana 2025 wage base: $9,500.)
+4. **IN UI**: The 35 employees working at the Hammond facility are reported to Indiana DWD for unemployment. (Indiana 2025 wage base: not yet confirmed — IN sources not archived for this pack.)
 
 5. **Localization rules for UI**: When an employee works in both states (e.g., a driver), the "localization of services" test under § 3304(a)(4) of the federal SUTA framework determines which state's UI covers the employee. Lakeshore should adopt a written policy assigning each multi-state-working employee to a primary state based on (1) where most work is performed, (2) base of operations, (3) place of direction and control, (4) residence — applied in order.
 
@@ -380,11 +380,11 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 9. **One Day Rest in Seven Act**: Applies to all 25 Calumet City employees, including the 15 Indiana residents who work in IL.
 
 10. **Net IL payroll tax burden for 2025** (Calumet City facility only, hypothetical):
-    - IL PIT withheld on 25 employees: depends on wages, but at $50,000 average gross and $2,775 personal exemption, withholding ≈ 4.95% × ($50,000 – $2,775) = $2,338 per employee × 25 = **$58,440 IL PIT remitted via IL-941**.
-    - IL UI: **$13,420** as computed above (year 1; will adjust).
-    - Total IL employer-side cost: $13,420 UI plus Secure Choice administrative facilitation (no employer cost).
+    - IL PIT withheld on 25 employees: depends on wages, but at $50,000 average gross and $2,850 personal exemption, withholding ≈ 4.95% × ($50,000 – $2,850) = $2,333 per employee × 25 = **$58,325 IL PIT remitted via IL-941**.
+    - IL UI: **$12,700** as computed above (year 1; will adjust).
+    - Total IL employer-side cost: $12,700 UI plus Secure Choice administrative facilitation (no employer cost).
 
-### Example 3 — Contractor misclassification challenge under the ABC test
+### Worked example 3 — Contractor misclassification challenge under the ABC test
 
 **Facts**: Northshore Construction Co. is a residential remodeling contractor in Evanston. It engages 12 carpenters as 1099 contractors. Each carpenter (1) signed a contract stating they are independent contractors, (2) provides their own hand tools but uses Northshore's lumber, scaffolding, and power tools on each job, (3) is told which jobsite to report to and what work to do that day by the Northshore project manager, (4) works exclusively for Northshore in the current and prior calendar year, and (5) is paid an hourly rate of $35 with no benefits. One carpenter, Mr. Diaz, is terminated and files for unemployment. IDES initiates an audit.
 
@@ -402,11 +402,11 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 3. **Cascading consequences**:
 
-   - **UI back contributions** (Northshore's potential exposure): If average annual wages per carpenter are $70,000 over 2023, 2024, 2025 (3 years × 12 carpenters × $13,590 wage base × ~3.95% new-employer rate or higher experience rate after Diaz's claim is paid) — approximately $19,330 in UI back-contributions, plus interest at 1.5% per month and penalties under 820 ILCS 405/2206 of up to 25% of unpaid contributions.
+   - **UI back contributions** (Northshore's potential exposure): If average annual wages per carpenter are $70,000 over 2023, 2024, 2025 (3 years × 12 carpenters × $13,916 wage base × ~3.650% new-employer rate or higher experience rate after Diaz's claim is paid) — approximately $19,330 in UI back-contributions, plus interest and penalties under 820 ILCS 405/2206 (rates: not yet confirmed — statute text not archived).
 
-   - **IL PIT withholding back-assessment**: IL DOR is cross-referred. 12 carpenters × $70,000 average × 3 years × 4.95% = $124,740 in IL PIT that should have been withheld. The employer is jointly and severally liable under 35 ILCS 5/704A. Penalty under 35 ILCS 735/3 of 15% of the underwithheld amount, plus interest.
+   - **IL PIT withholding back-assessment**: IL DOR is cross-referred. 12 carpenters × $70,000 average × 3 years × 4.95% = $124,740 in IL PIT that should have been withheld. The employer is jointly and severally liable under 35 ILCS 5/704A. Penalty under 35 ILCS 735/3 of 15% of the underwithheld amount, plus interest (penalty rate: not yet confirmed — statute text not archived).
 
-   - **Employee Classification Act (construction) penalty**: 820 ILCS 185/40 — $1,500 per day per worker × ~750 working days × 12 workers = potentially **$13.5 million theoretical maximum**, though IDOL typically settles for a fraction. Personal liability attaches to corporate officers.
+   - **Employee Classification Act (construction) penalty**: 820 ILCS 185/40 — $1,500 per day per worker (not yet confirmed — statute text not archived) × ~750 working days × 12 workers = potentially **$13.5 million theoretical maximum**, though IDOL typically settles for a fraction. Personal liability attaches to corporate officers.
 
    - **Federal liability**: Backup withholding, FICA back-assessment, FUTA, IRS § 3509 reduced rates if there's no intentional disregard (the lack of 1099 filing in some years may eliminate the § 3509 relief).
 
@@ -431,18 +431,18 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 | Item | 2025 Value | Citation |
 | --- | --- | --- |
 | IL PIT flat rate | 4.95% | 35 ILCS 5/201(b)(5.4) |
-| Personal exemption | $2,775 | 35 ILCS 5/204(b); IL Pub. 130 |
+| Personal exemption | $2,850 | IL-1040 instructions: "The personal exemption amount for tax year 2025 is $2,850." |
 | Supplemental wage rate | 4.95% | 86 Ill. Adm. Code 100.7110 |
-| IL UI wage base | $13,590 | IDES Rate Determination 2025 |
-| IL UI minimum rate | 0.85% | IDES |
-| IL UI maximum rate | 8.65% | IDES |
+| IL UI wage base | $13,916 (2025) | IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): WAGE BASE row |
+| IL UI minimum rate | 0.750% (2025) | %s: MINIMUM row |
+| IL UI maximum rate | 7.850% (2025) | %s: MAXIMUM row |
 | New employer rate (non-construction) | 3.650% (2025; 3.95% was 2024 — IDES 2026 rate chart STANDARD row) | IDES |
 | New employer rate (construction) | 3.650% (2025 standard rate applies — IDES 2026 rate chart) | IDES |
 | Secure Choice trigger | 5+ IL employees, 2+ years in business, no qualified plan | 820 ILCS 80/30 |
 | Secure Choice default deferral | 5% | 820 ILCS 80/55 |
 | Secure Choice penalty | $250/employee Y1, $500/employee Y2+ | 820 ILCS 80/85 |
 | Chicago Fair Workweek trigger | 100+ global, 50+ Chicago, covered industry | MCC § 1-25-040 |
-| Fair Workweek covered worker cap | $30.99/hr or $61,149.35/yr | BACP 2025 update |
+| Fair Workweek covered worker cap | $30.99/hr or $61,149.35/yr | not yet confirmed (BACP update not archived) |
 | Cook County paid sick leave accrual | 1 hr per 40 worked | Cook County Code § 42-2 |
 | PLAWA (statewide) | 40 hrs paid leave/year | 820 ILCS 192/15 |
 | Chicago paid leave + sick (combined) | 80 hrs/year | MCC § 1-24 |
@@ -452,8 +452,8 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 | ABC test | All 3 prongs required | 820 ILCS 405/212 |
 | Construction misclassification penalty | $1,500/day/worker first; $2,500 subsequent | 820 ILCS 185/40 |
 | IL-941 due date | 30 days after quarter-end | 86 Ill. Adm. Code 100.7300 |
-| W-2 e-file with IL | January 31 | IL DOR |
-| 1099 e-file with IL | March 31 | IL DOR |
+| W-2 e-file with IL | January 31 | not yet confirmed (IL DOR guidance not archived) |
+| 1099 e-file with IL | March 31 | not yet confirmed (IL DOR guidance not archived) |
 | Pay frequency | Semi-monthly minimum | 820 ILCS 115/3 |
 
 ## Sources

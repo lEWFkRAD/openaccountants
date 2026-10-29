@@ -195,11 +195,11 @@ Reviewed against the cited tax authorities by a licensed accountant on 2026-06-0
 
 ### 7.3 Safe harbors
 
-- **Safe harbor computation** — Estimated tax is computed as the lesser of: - 90% of the current-year liability, or - 100% of the prior-year liability (must be a full 12-month tax year with a positive liability). There is no high-income 110% safe harbor for corporations or pass-throughs — this is a federal individual rule that does not apply at the Illinois entity level.
+- **Safe harbor computation** — Corporations with expected IL liability over $400 must make quarterly estimated payments (IL-1120 instructions: "If you reasonably expect your Illinois Income and Replacement Tax and surcharge liability to be more than $400 for the tax year, you are required to make quarterly payments of estimated tax using Form IL-1120-V"). The 90%/100% safe-harbor prongs: not yet confirmed in an archived source.
 
 ### 7.4 Underpayment penalty (Form IL-2220)
 
-- **Underpayment penalty** — Underpayment of estimated tax results in a penalty computed on Form IL-2220. The penalty rate is the IRS underpayment rate (currently 8% annual for the relevant 2025 quarters — verify with the current Illinois interest rate schedule).  _(Form IL-2220)_
+- **Underpayment penalty** — Underpayment of estimated tax results in a late-payment penalty for underpayment of estimated tax; businesses compute it on Form IL-2220 ("Computation of Penalties for Businesses").  _(IL-1120 instructions (archived: sources/US-IL-il-1120-instr.pdf): "a late-payment penalty for underpayment of estimated tax if you were required to make estimated tax payments and failed to do so"; the 8% rate figure: not yet confirmed.)_
 
 ### 7.5 Payment voucher
 
