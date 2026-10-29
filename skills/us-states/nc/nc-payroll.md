@@ -17,7 +17,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-## 1. Scope and Applicability
+### Scope and Applicability
 
 - **Scope** — This skill governs payroll tax compliance for employers operating in North Carolina (NC) for the 2025 tax year. It covers (chapter texts for NCGS Chapter 105 and Chapter 96 archived 2026-10-29): North Carolina personal income tax (PIT) withholding under N.C. Gen. Stat. (NCGS) §105-163.1 through §105-163.24; Form NC-4 (Employee's Withholding Allowance Certificate) and NC-4EZ; Form NC-5 (Withholding Return) and NC-5P (Quarterly Withholding Payment Voucher) and NC-5Q (Quarterly Income Tax Withholding Return for semiweekly filers); Form NC-3 (Annual Withholding Reconciliation); NC State Unemployment Insurance (SUI) administered by the Division of Employment Security (DES) under NCGS Chapter 96; New-hire reporting to the NC Department of Health and Human Services (DHHS) under 42 U.S.C. §653A (PRWORA §453A) and NCGS §110-129.2; Worker classification under both the federal IRS 20-factor common-law test and NC-specific rules; Final pay timing under the NC Wage and Hour Act (NCGS Chapter 95, Article 2A).  _(NCGS §105-163.1 through §105-163.24)_
 
@@ -27,7 +27,7 @@ NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) �
 
 ## Rates, bands and thresholds
 
-## 2. North Carolina Personal Income Tax (PIT) Withholding
+### North Carolina Personal Income Tax (PIT) Withholding
 
 ### 2.1 The 4.25% Flat Rate for 2025
 
@@ -85,7 +85,7 @@ For tax year 2025 only, the rate is firmly 4.25% and is not contingent.
 
 - **Elimination of personal exemptions** — NC eliminated personal exemptions effective with the 2014 tax reform (S.L. 2013-316). For 2025, NC-4 still uses an "allowance" concept but those allowances now represent only: Estimated itemized deductions exceeding the standard deduction; Estimated tax credits (e.g., child credit); Adjustments for multiple jobs. There is no longer a one-allowance-per-dependent default. Employees who file NC-4 without completing the worksheet often over-withhold; advise clients accordingly.  _(S.L. 2013-316)_
 
-## 3. Form NC-4: The Employee Withholding Certificate
+### Form NC-4: The Employee Withholding Certificate
 
 ### 3.1 Versions of NC-4
 
@@ -113,7 +113,7 @@ For tax year 2025 only, the rate is firmly 4.25% and is not contingent.
 
 ## Deadlines and filing
 
-## 4. Form NC-5 / NC-5P / NC-5Q: Withholding Returns and Payments
+### Form NC-5 / NC-5P / NC-5Q: Withholding Returns and Payments
 
 ### 4.1 Filing Frequency Tiers
 
@@ -164,7 +164,7 @@ For tax year 2025 only, the rate is firmly 4.25% and is not contingent.
 
 - **Trust fund tax and responsible person liability** — Withholding tax is a trust fund tax under federal law (and effectively under NC practice). NC has a personal liability provision under NCGS §105-242.2 making responsible persons (corporate officers, certain employees with check-signing authority) personally liable for unremitted withholding. This survives bankruptcy and dissolution.  _(NCGS §105-242.2)_
 
-## 5. Form NC-3: Annual Withholding Reconciliation
+### Form NC-3: Annual Withholding Reconciliation
 
 ### 5.1 NC-3 Purpose and Due Date
 
@@ -184,7 +184,7 @@ For tax year 2025 only, the rate is firmly 4.25% and is not contingent.
 
 Common audit error: NC-based payers often miss this 4% withholding when paying out-of-state freelancers (e.g., a Charlotte SaaS company paying a Florida-resident design contractor for on-site work at the Charlotte office). The fact that the payee is a Form 1099-NEC contractor, not a W-2 employee, does NOT exempt the payment from NC-163.3 withholding.
 
-## 6. AUDIT FLASH POINT: Multistate Employer Apportionment for NC Remote Workers
+### AUDIT FLASH POINT: Multistate Employer Apportionment for NC Remote Workers
 
 ### 6.1 The Sourcing Rule
 
@@ -222,7 +222,7 @@ Common audit error: NC-based payers often miss this 4% withholding when paying o
 
 - **Documentation retention requirements** — Require all multistate employees to file an annual NC-4 declaring their estimated NC service days. Maintain timekeeping or location-tracking records sufficient to support apportionment. Retain records for at least 4 years from the latest filing date (NCGS §105-163.8 retention period; NCDOR audit lookback).  _(NCGS §105-163.8)_
 
-## 7. NC State Unemployment Insurance (SUI)
+### NC State Unemployment Insurance (SUI)
 
 ### 7.1 Administering Agency
 
@@ -271,7 +271,7 @@ Common audit error: Payroll software occasionally adds the workforce investment 
 
 - **SUTA dumping enforcement** — NC enforces federal SUTA dumping rules under NCGS §96-9.2(g). Transferring payroll between commonly owned entities for the purpose of obtaining a lower SUI rate is a class 1 misdemeanor and triggers retroactive rate reassignment.  _(NCGS §96-9.2(g))_
 
-## 8. Paid Family and Medical Leave: NOT Mandated in NC
+### Paid Family and Medical Leave: NOT Mandated in NC
 
 - **No state-mandated PFML** — North Carolina does NOT have a state-mandated Paid Family and Medical Leave (PFML) program as of 2025. There is no payroll deduction, employer contribution, or program comparable to those in CA (CASDI/PFL), NY (PFL), NJ (FLI), MA, CT, WA, OR, CO, DE, MD, ME, or DC.
 
@@ -281,14 +281,14 @@ Voluntary benefits: A NC employer is free to offer paid family leave as a volunt
 
 Federal FMLA still applies to NC employers with 50+ employees within 75 miles of a worksite. FMLA is unpaid and is a federal mandate, not a NC payroll tax.
 
-## 9. Sick Leave: Not Mandated State-Wide
+### Sick Leave: Not Mandated State-Wide
 
 - **No statewide paid sick leave mandate** — NC has no state-wide paid sick leave mandate as of 2025. Unlike CA, NY, NJ, MA, OR, WA, CO, CT, RI, AZ, NM, MI, MN, IL, MD, NV, ME, VT, DC, and several others, NC has not enacted a paid-sick-leave statute.
 - **Local preemption of sick leave ordinances** — Local preemption: NCGS §95-25.1A (added by S.L. 2017-4) preempts local governments from enacting paid-sick-leave or minimum-wage ordinances exceeding state law. Charlotte, Raleigh, Durham, Asheville, and other NC cities cannot legally impose a local paid-sick-leave requirement.  _(NCGS §95-25.1A (added by S.L. 2017-4))_
 
 Implications for NC payroll: No accrual reporting on pay stubs; No state-mandated sick leave payout at termination (see §11); Federal FMLA, federal ADA, and federal Pregnant Workers Fairness Act still apply.
 
-## 10. Worker Classification: IRS 20-Factor Plus NC-Specific Rules
+### Worker Classification: IRS 20-Factor Plus NC-Specific Rules
 
 ### 10.1 The Federal Common-Law Test
 
@@ -315,7 +315,7 @@ Implications for NC payroll: No accrual reporting on pay stubs; No state-mandate
 
 - **Section 530 safe harbor does not extend to NC SUI** — If an employer has a reasonable basis under IRC §530 (Revenue Act of 1978) for treating a worker as a contractor for federal tax, that safe harbor applies for federal PIT withholding but does NOT extend to NC SUI. A federal Section 530 safe harbor does not bind DES; NC SUI ABC test is applied independently.  _(IRC §530 (Revenue Act of 1978))_
 
-## 11. Final Pay and Wage Payment Rules
+### Final Pay and Wage Payment Rules
 
 ### 11.1 Final Pay Timing
 
@@ -343,7 +343,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 
 ## Cross-border points
 
-## 12. New Hire Reporting to NC DHHS
+### New Hire Reporting to NC DHHS
 
 ### 12.1 Statutory Basis
 
@@ -371,7 +371,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 
 ## Worked examples
 
-## 13. Worked Examples
+### Worked Examples
 
 ### 13.1 Example: Small NC Employer (5 employees, all in Raleigh)
 
@@ -458,7 +458,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 3. Consider participating in the IRS Voluntary Classification Settlement Program (VCSP) to limit federal back-tax exposure to 10% of one year's federal employment tax at reduced rates.
 4. Review all other 1099 contractors on Mountain Homes' books for similar exposure — DES audits typically expand to cover all "contractors" on the payer's books.
 
-## 14. Cross-References to Other Skills
+### Cross-References to Other Skills
 
 - us-federal-return-assembly: Federal Form 941, Form 940 FUTA, and W-2 issuance
 - us-1099-nec-issuance: Form 1099-NEC for nonemployee compensation; coordinates with NC-1099PS and NC-1099M for NC-source payments
@@ -469,7 +469,7 @@ Practical compliance step: Maintain a written PTO policy in the employee handboo
 
 ## Ask the client first
 
-## 15. Reviewer Checklist
+### Reviewer Checklist
 
 Before finalizing any NC payroll deliverable produced under this skill, the credentialed reviewer should verify:
 
@@ -490,7 +490,7 @@ Before finalizing any NC payroll deliverable produced under this skill, the cred
 - [ ] Pay stub itemization compliant with NCGS §95-25.13
 - [ ] For 2026 and later, confirm actual NC PIT rate via NCDOR Form NC-30 — do NOT assume the scheduled phase-down has occurred without statutory confirmation of revenue triggers
 
-## 16. Key Authorities and Citations
+### Key Authorities and Citations
 
 **Statutes:**
 - NCGS Chapter 105, Subchapter V (Income Tax Withholding): §§105-163.1 to 105-163.24

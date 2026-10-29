@@ -22,7 +22,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-## Section 1: Metadata
+### Metadata
 
 **Section 1: Metadata table**
 
@@ -55,7 +55,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Rates, bands and thresholds
 
-## Section 2: Quick reference — the Bailey test at a glance
+### Quick reference — the Bailey test at a glance
 
 **The five-question screen.** For any retirement benefit being considered for the Line 20 *Bailey* exclusion, the preparer must answer **yes** to all five:
 
@@ -87,7 +87,7 @@ If yes to all five → fully excluded from NC taxable income on **D-400 Schedule
 | NC Firemen's and Rescue Squad Workers' Pension Fund | NC | 5 yrs service + 5 yrs contributions by 8/12/1989 |
 | NC Registers of Deeds' Supplemental Pension Fund | NC | 5 yrs register service + 5 yrs LGERS by 8/12/1989 |
 
-## Section 2: Quick reference — the Bailey test at a glance
+### Quick reference — the Bailey test at a glance
 
 > **Audit flash point — 8/12/1989 is a hard cliff.** A retiree who attained 5 years of creditable service on August 13, 1989 receives **zero** Bailey protection. (Analytic rule from the Bailey settlement framework; the Consent Order text and the *Davis v. Michigan* background are not archived — see Not yet confirmed.)
 
@@ -163,7 +163,7 @@ The Consent Order provides that qualifying retirees and their surviving benefici
 
 ## The taxable base
 
-## Section 5: NC's broader retirement income landscape (TY 2025)
+### NC's broader retirement income landscape (TY 2025)
 
 This is the full picture of how NC treats each type of retirement income — Bailey is only one piece.
 
@@ -220,7 +220,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 
 ## Cross-border points
 
-## Section 6: Documentation requirements
+### Documentation requirements
 
 **Documentation requirements table**
 
@@ -235,7 +235,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 
 - **1099-R insufficiency and attachment requirement** — **Form 1099-R alone is not sufficient** to support the Line 20 deduction. NCDOR has audited returns where the only support was a 1099-R from TSERS, and disallowed the deduction for lack of documentary vesting evidence. The Bailey letter (or equivalent OPM/DFAS service-history confirmation) is the operative document. The 2025 D-401 instructions require attaching a copy of the Form 1099-R or Form W-2 to the return supporting any Line 20 / Line 21 deduction. `[VERIFY: instruction wording — confirm the attachment requirement language in the most current D-401 issued by NCDOR.]`  _(2025 D-401 instructions [VERIFY])_
 
-## Section 7: Tier 1 — deterministic rules
+### Tier 1 — deterministic rules
 
 **Tier 1 deterministic rules table**
 
@@ -255,7 +255,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 | NC-BAILEY-T1-12 | NC standard deduction TY 2025: $12,750 single / $25,500 MFJ / $12,750 MFS / $19,125 HoH `[VERIFY: confirm against TY 2025 D-401]` | N.C. Gen. Stat. § 105-153.5(a)(1) |
 | NC-BAILEY-T1-13 | NC flat rate TY 2025 = 4.25%; TY 2026 = 3.99% `[VERIFY against most recent rate schedule]` | Session Law 2023-134 |
 
-## Section 8: Tier 2 — judgment rules
+### Tier 2 — judgment rules
 
 **Tier 2 judgment rules table**
 
@@ -274,7 +274,7 @@ This is the full picture of how NC treats each type of retirement income — Bai
 
 ## Worked examples
 
-## Section 9: Worked examples (TY 2025)
+### Worked examples (TY 2025)
 
 ### Example 1 — NC State employee hired 1985, vested by 1989, retired 2020
 
@@ -355,7 +355,7 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 
 ## Ask the client first
 
-## Section 10: Refusal catalogue
+### Refusal catalogue
 
 **Refusal catalogue table**
 
@@ -372,7 +372,7 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 | R-NCB-09 | **Rollover documentation incomplete** | "Cannot determine whether Bailey character was preserved without trustee-to-trustee documentation. Decline Line 20 until documentation obtained." |
 | R-NCB-10 | **Roth IRA conversions from Bailey accounts in prior years** | "Multi-year Roth conversion sequencing from Bailey accounts requires reviewer judgment. Out of scope for automated determination." |
 
-## Section 11: Form mapping — D-400 Schedule S Part B (TY 2025)
+### Form mapping — D-400 Schedule S Part B (TY 2025)
 
 **Schedule S Part B line mapping table**  _(NCDOR 2025 D-400 Schedule S Web-Fill version (form revision Web-Fill 9-25))_
 
@@ -387,7 +387,7 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 | Lines 23a-f / 24a-f | Bonus depreciation / §179 add-back recovery | Multi-year 20% recovery |
 | Line 41 | **Total Deductions — flows to Form D-400 Line 9** | Sum of 17 through 40 |
 
-## Section 11: Form mapping — D-400 Schedule S Part B (TY 2025)
+### Form mapping — D-400 Schedule S Part B (TY 2025)
 
 **Form D-400 line mapping table**
 
@@ -401,13 +401,13 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 | Line 14 | NC taxable income |
 | Line 15 | NC income tax (Line 14 × 4.25% for TY 2025) |
 
-## Section 11: Form mapping — D-400 Schedule S Part B (TY 2025)
+### Form mapping — D-400 Schedule S Part B (TY 2025)
 
 > **Filing reminder.** A Form 1099-R supporting any Line 20 or Line 21 deduction must be attached to the D-400 when filed. The 2025 D-401 instructions state this attachment is required to substantiate the deduction. `[VERIFY exact wording in current D-401.]`
 
 > **Filing-threshold reminder.** Even if 100% of a taxpayer's retirement income is excluded under Bailey (so NC taxable income from pensions is $0), the taxpayer may still be required to file a NC return if gross income meets the filing threshold. The Bailey exclusion is a *taxable-income* exclusion, not a *filing requirement* exclusion. See parent skill `nc-income-tax` for filing-threshold detail.
 
-## Section 12: Provenance & version history
+### Provenance & version history
 
 **Version history table**
 
@@ -415,7 +415,7 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 | --- | --- | --- | --- |
 | 0.1 | 2026-05-28 | AI-drafted (Q3, pending verification) | Initial draft. All TY 2025 figures verified against NCDOR 2025 D-400 Schedule S (Web-Fill 9-25). Statutory subdivision letters for § 105-153.5(b) marked `[VERIFY:]` where current codification numbering not directly confirmed against ncleg.net (403 on automated fetch). Recent military-retirement expansion confirmed against S.L. 2021-180 and NCDOR Important Notice. |
 
-## Section 12: Provenance & version history
+### Provenance & version history
 
 **Pending verification items (must be resolved before this skill exits Q3 status):**
 
@@ -437,7 +437,7 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 
 Not yet confirmed: exact subdivision numbering of N.C.G.S. § 105-153.5(b) for (i) Bailey settlement, (ii) Social Security, (iii) military retirement (manual reviewer confirmation required); TY 2025 standard deduction amounts against the most recent D-401; whether the 2026 flat rate remains 3.99% (later sessions may have adjusted); D-401 instruction wording on the 1099-R attachment requirement.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
 

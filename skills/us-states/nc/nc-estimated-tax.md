@@ -23,7 +23,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-## Section 1: Metadata
+### Metadata
 
 **Metadata table**
 
@@ -55,7 +55,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Rates, bands and thresholds
 
-## Section 2: Quick reference
+### Quick reference
 
 ### The four quarterly due dates (TY 2025 calendar-year filers)
 
@@ -115,7 +115,7 @@ NC's archived NC-40 instructions do NOT contain a federal-style 110%/AGI>$150,00
 
 ## The taxable base
 
-## Section 3: Threshold determination — when MUST you make estimates
+### Threshold determination — when MUST you make estimates
 
 ### The $1,000 test
 
@@ -155,7 +155,7 @@ Step 5: Does prior-year withholding alone ≥ prior-year tax (× 110% if AGI > $
 - Social Security — **NOT** taxed by NC, so does not increase NC liability
 - Marketplace facilitator earnings (1099-K)
 
-## Section 4: The safe-harbor calculation
+### The safe-harbor calculation
 
 NC's safe harbor mirrors federal § 6654 in structure but uses NC tax figures throughout.
 
@@ -205,7 +205,7 @@ RAP = lower of $19,800 or $20,240 = $19,800. Each quarterly installment = $19,80
 
 > **Practical tip.** When the 110% rule applies and current-year income is projected to drop, choosing the 90% current-year prong avoids over-payment. When current-year income is projected to spike, locking in the 110% prior-year prong avoids penalty exposure on growth.
 
-## Section 5: Quarterly installment amounts — regular method
+### Quarterly installment amounts — regular method
 
 ### The simple split
 
@@ -229,7 +229,7 @@ RAP = lower of $19,800 or $20,240 = $19,800. Each quarterly installment = $19,80
 | Q4 | Jan 15, 2026 | $1,800 | $300 | **$1,500** |
 | **Total** |  | **$7,200** | **$1,200** | **$6,000** |
 
-## Section 6: Annualized income installment method (Form D-422A)
+### Annualized income installment method (Form D-422A)
 
 Used when income is lumpy or seasonal — large Q3 or Q4 capital gain, freelance project completion bonus, partnership distribution late in the year. The annualized method allows the taxpayer to "back-load" payments into the period when income is actually earned, avoiding penalty on earlier installments.
 
@@ -275,7 +275,7 @@ Used when income is lumpy or seasonal — large Q3 or Q4 capital gain, freelance
 
 ## Deadlines and filing
 
-## Section 7: Form NC-40 vouchers — line by line
+### Form NC-40 vouchers — line by line
 
 ### Voucher anatomy
 
@@ -314,7 +314,7 @@ Form NC-40 is a single page producing four detachable vouchers (each labeled wit
 
 ## Penalties and interest
 
-## Section 8: Form D-422 — underpayment penalty mechanics
+### Form D-422 — underpayment penalty mechanics
 
 Form D-422 computes interest on underpayments installment by installment. It is filed with Form D-400 when an underpayment exists, OR NCDOR computes it automatically and bills the taxpayer (in which case D-422 is not required — but preparing it yourself avoids surprises and is the default for any return with shortfall).
 
@@ -365,7 +365,7 @@ Form D-422 computes interest on underpayments installment by installment. It is 
 
 > NCDOR has no statutory authority to abate the underpayment interest itself purely on hardship grounds — the waiver is narrow and codified.
 
-## Section 9: Payment methods — operational detail
+### Payment methods — operational detail
 
 ### NCDOR e-Services (recommended)
 
@@ -385,7 +385,7 @@ Most major software (TurboTax, Drake, ProSeries, UltraTax, Lacerte) can submit N
 
 ## Cross-border points
 
-## Section 10: Coordination with federal Form 1040-ES
+### Coordination with federal Form 1040-ES
 
 NC quarterly due dates mirror federal Form 1040-ES exactly — April 15, June 15, September 15, January 15. This permits a single quarterly workflow:
 
@@ -417,7 +417,7 @@ NC quarterly due dates mirror federal Form 1040-ES exactly — April 15, June 15
 
 When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly worksheet to the client. Show federal estimate, NC estimate, both due dates, both payment links, and store federal and NC confirmation numbers side by side.
 
-## Section 11: Tier 1 rules — deterministic
+### Tier 1 rules — deterministic
 
 **Tier 1 rules table**
 
@@ -435,7 +435,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | NC-EST-T1-10 | Extension to file does NOT extend time to pay | G.S. § 105-263 |
 | NC-EST-T1-11 | Farmers / commercial fishermen (≥ ⅔ gross income from farming/fishing) may pay one installment by Jan 15 OR file and pay by Mar 1 | G.S. § 105-163.15(g) |
 
-## Section 12: Tier 2 rules — requires judgment
+### Tier 2 rules — requires judgment
 
 **Tier 2 rules table**
 
@@ -452,7 +452,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 ## Worked examples
 
-## Section 13: Worked examples
+### Worked examples
 
 ### Example 1 — Steady-income NC freelancer ($150k expected)
 
@@ -547,7 +547,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 ## Ask the client first
 
-## Section 14: Refusal catalogue
+### Refusal catalogue
 
 - **R-NC-EST-01** — Estate or trust estimated tax  _("NC fiduciary estimated tax (Form NC-EST or D-407 quarterly) is outside this skill's scope. Refer to NCDOR D-407 instructions.")_
 - **R-NC-EST-02** — Pass-through entity estimated tax  _("NC PTET estimated payments (Form NC-429 PTE) are covered by a separate pass-through entity skill, not this individual estimated tax skill.")_
@@ -557,7 +557,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 - **R-NC-EST-06** — Federal-only quarterly estimates question  _("Federal Form 1040-ES is covered by the us-quarterly-estimated-tax skill, not this NC skill. Use that skill for the federal computation.")_
 - **R-NC-EST-07** — Farmers / commercial fishermen with complex special-rule scenarios  _("The farmer/fisherman one-installment rule under G.S. § 105-163.15(g) is mentioned briefly here; complex agricultural / fishing facts require dedicated review.")_
 
-## Section 15: Form mapping
+### Form mapping
 
 ### Form NC-40 (Estimated Income Tax)
 
@@ -608,7 +608,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 
 Not yet confirmed: 110% prior-year safe harbor for AGI over $150,000 (MFS over $75,000) — mirrors federal § 6654(d), NCDOR codification not read; 2028+ rate schedule (final phase-down to 2.49% by 2030) subject to legislative change; 7-day grace rule on installment payments (practitioner convention); specific D-422 line numbers and exact column placement; first-year filer carve-out (mirrors federal § 6654(d)(1)(B)); NCDOR Interest Rate Memorandum Jan–Jun 2026 and Interest Overview pages (not archived).
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
 
