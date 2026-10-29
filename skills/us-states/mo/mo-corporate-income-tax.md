@@ -35,14 +35,14 @@ Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, b
 
 **Source status:** the Department of Revenue **2025 Form MO-1120 instructions** (76,812 chars) and **2026 Form MO-1120ES** (10,406 chars) were fetched as PDFs and read in full on 2026-10-27 — every figure below is quoted from them. The MO-470 instructions PDF and the related-party addback page returned 403/404 from the drafting environment; anything tied to those is flagged **needs-sources**.
 
-## 2. Who applies
+## Who this applies to
 
 - Every corporation required to file a federal Form 1120 with Missouri-source/apportionable Missouri income, unless protected by **P.L. 86-272** (solicitation of orders for tangible personal property). The return has a P.L. 86-272 checkbox; **Form 4458** (Business Activity Questionnaire) documents the claim. (MO-1120 instructions, read 2026-10-27.)
 - **Consolidated federal group, separate Missouri return:** a member of an affiliated group filing a consolidated federal return must determine federal taxable income **as if it had filed a separate federal return**, enclosing a **pro forma Federal Form 1120** — unless the group files a Missouri consolidated return. (MO-1120 instructions, "Consolidated Federal Return and Separate Missouri Return", read 2026-10-27.)
 - **Missouri consolidated return is optional** and requires the group to be consolidated federally (12 CSR 10-2.045; §143.431 RSMo); attach **Form MO-22** for each member at initiation and for each new member. (Instructions, read 2026-10-27.)
 - Federal tax-exempt corporations (Form 990 filers) do not file MO-1120 for exempt income but are taxable on UBTI. (Instructions, read 2026-10-27.)
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Amount / rule | Source |
 |---|---|---|
@@ -53,7 +53,7 @@ Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, b
 | Related-party/intangible addback (§143.471, Form MO-470) | **needs-sources** — MO-470 instructions 403'd on 2026-10-27 and the addback page 404'd; not referenced in the 2025 MO-1120 instructions text read | fetch log 2026-10-27 |
 | Minimum tax | none found in the instructions read | booklet read 2026-10-27; absence noted |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - **Return:** due the **15th day of the 4th month** after year-end (calendar-year 2025 → **15 April 2026**). Weekend/holiday rolls to next business day. (Instructions, read 2026-10-27.)
 - **Extension:** automatic with the federal extension — check the box and attach a copy of **Form 7004**; failure to check the box may disallow the extension. (Instructions, read 2026-10-27.)
@@ -61,14 +61,14 @@ Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, b
 - **Safe harbor:** no underpayment addition if each installment is timely and total estimated payments by the last installment date equal or exceed **90% of the current-year tax** or **the tax shown on the preceding year's return** (12-month year with liability). (2026 MO-1120ES, read 2026-10-27.)
 - **Dissolution trap:** a corporation that fails to file **and** pay within **90 days** of the original (or extended) due date **forfeits its Missouri charter** (§351.486). (Instructions, read 2026-10-27.)
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - **Late filing:** **5% of unpaid tax per month, capped at 25%** aggregate. (Instructions, "Addition to Tax – Failure to File", read 2026-10-27.)
 - **Late payment:** flat **5% of unpaid tax** if not paid by the original due date, even with an extension. (Instructions, read 2026-10-27.)
 - **Interest:** **7% simple per annum effective 1 January 2026** (§32.065 RSMo), from the return due date until paid. (Instructions, read 2026-10-27; archived PDF confirms verbatim: "The simple interest rate, effective January 1, 2026, is 7 percent per annum (Section 32.065, RSMo)".)
 - **Estimated underpayment:** addition to tax via **Form MO-2220** line 26, with statutory exceptions (§143.761); overpayments are netted against additions (12 CSR 10-2.067). (Instructions, read 2026-10-27.)
 
-## 6. Cross-border / multistate
+## Cross-border points
 
 - Apportionable income includes income from tangible **and intangible** property where acquisition/management/development/disposition relates to the trade or business; nonapportionable income is allocated separately. (Instructions, read 2026-10-27.)
 - Another state's minimum tax does not create "taxability" there unless nexus-level activities exist — relevant to credit-for-taxes-paid claims. (Instructions, read 2026-10-27.)
@@ -127,7 +127,7 @@ expected:
   total: 48700.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 1. Federally consolidated? Then which members file separate Missouri returns with pro forma 1120s — or is a Missouri consolidated return (MO-22) in place or worth electing?
 2. Which MO-MS apportionment election is in use, and do partnership factors flow through?
@@ -135,12 +135,14 @@ expected:
 4. Any P.L. 86-272 position — is a Form 4458 on file?
 5. Any §163(j) disallowed-interest addback or FDII §250 nuance on MO-C?
 
-## 9. Sources
+## Sources
 
 1. Missouri DOR, Form MO-1120 General Instructions (2025): <https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf> — 200 with full text, read 2026-10-27.
 2. Missouri DOR, Form MO-1120ES (2026): <https://dor.mo.gov/forms/MO-1120ES_2026.pdf> — 200 with full text, read 2026-10-27.
 3. Missouri DOR tax types index: <https://dor.mo.gov/taxation/> — 200, read 2026-10-27.
 4. Form MO-470 instructions (related-party addback): <https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf> — **403 on 2026-10-27, needs-sources**.
+
+Not yet confirmed: see the 'needs-sources' items above — figures tied to them stay unconfirmed until the source is archived.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Missouri corporate questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

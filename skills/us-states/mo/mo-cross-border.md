@@ -34,7 +34,7 @@ How Missouri taxes people who cross its borders: individual part-year (Form **MO
 
 **Source status:** figures corroborated by the existing tier-2 `mo-income-tax` and `mo-payroll` skills (verified against DOR Form 4282, KC Revenue Division and St. Louis Collector guidance in 2025). The **MO-1040PNR instructions PDF returned 403** from the drafting environment on 2026-10-27 — procedural specifics (thresholds, allocation worksheets) are flagged **needs-sources**. Missouri has **no reciprocal agreements** with any state (per `mo-payroll` scope analysis) — unlike Maryland, commuters pay Missouri tax on Missouri-worked wages.
 
-## 2. Who applies
+## Who this applies to
 
 - **Nonresidents working in Missouri:** MO-NRI on Missouri-source income; withholding on the Missouri-work share via the MO W-4 nonresident allocation section (employee estimates the Missouri %; employer keeps timekeeping/project support). (per `mo-payroll` §5.4.)
 - **Part-year residents (moved in/out):** MO-1040P. (per `mo-income-tax` form table.)
@@ -43,7 +43,7 @@ How Missouri taxes people who cross its borders: individual part-year (Form **MO
 - **Kansas City:** 1% earnings tax on **KC residents wherever earned** and on **nonresidents for work inside KC corporate limits** (KC Code ch. 68; §92.110 RSMo). Employers with anyone working inside KC limits must withhold 1% and remit to the city, regardless of where the employer sits. (per `mo-payroll` §7.)
 - **St. Louis City:** same 1% structure on city residents and work inside **city** limits — St. Louis **County** has no earnings tax. (per `mo-payroll`.)
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Amount / rule | Source |
 |---|---|---|
@@ -55,20 +55,20 @@ How Missouri taxes people who cross its borders: individual part-year (Form **MO
 | STL City earnings tax | **1.0%** — city residents and city-limits work; STL County none | STL ch. 5.22 via `mo-payroll` |
 | Reciprocity | **none** — Missouri has no reciprocal agreements | `mo-payroll` scope analysis |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - MO-1040P / MO-NRI follow the individual calendar: **15 April** for calendar-year filers.
 - KC earnings tax: quarterly estimated payments for self-employed; employer withholding per KC Revenue Division schedule; annual return 15 April (KC schedules **needs-sources** re-verification).
 - STL City: annual return 15 April; nonfilers who owe are the classic audit population.
 - MO-CR: claim on the resident return; amended within the ordinary assessment window.
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - State regime: 5%/month late-filing (cap 25%), 5% late-payment, 7% simple interest from 1 January 2026 (§32.065 RSMo, per `mo-corporate-income-tax` fetch — same statute across DOR taxes).
 - KC/STL: city-level penalties and interest on unpaid earnings tax; percentages **needs-sources** (city collector pages not fetched this run).
 - Employers failing to withhold KC 1% for city-worked employees carry the unwithheld tax plus city penalties.
 
-## 6. Cross-border patterns
+## Cross-border points
 
 - **IL/MO commuter (no reciprocity):** the Illinois worker who performs services in Missouri owes Missouri on the Missouri-work share (MO-NRI) and Illinois credits it (IL nonresident + credit); the reverse Missouri-resident-in-IL pattern uses MO-CR.
 - **Remote work:** wages are sourced to where services are performed — a Kansas City employer letting staff work from home outside KC limits moves those wages out of the KC 1% base (document locations).
@@ -116,7 +116,7 @@ expected:
 
 Both cities assert a claim — KC on residency, STL on situs of work. Whether one city grants a credit for the other is a city-ordinance question: **needs-sources**; model the gross $2,000 until the collectors' guidance is read.
 
-## 8. Ask the client
+## Ask the client first
 
 1. Which days are physically worked where — is there a workday log for the commuter?
 2. KC resident, STL City work (or reverse) — is the double city-tax exposure modeled, and has anyone checked city credits?
@@ -124,11 +124,13 @@ Both cities assert a claim — KC on residency, STL on situs of work. Whether on
 4. Missouri resident working in IL/IA/KS/AR — is MO-CR being claimed with the other state's return attached?
 5. Military family — is an MSRRA claim appropriate on the MO W-4?
 
-## 9. Sources
+## Sources
 
 1. Existing tier-2 skills: `mo-income-tax` (MO-1040P/MO-NRI/MO-CR table, city earnings tax table) and `mo-payroll` (KC ch. 68 / §92.110, STL ch. 5.22, §92.115 reauthorization, nonresident withholding, MSRRA) — repo `skills/us-states/mo/`.
 2. Missouri DOR, MO-1040PNR instructions (2025): <https://dor.mo.gov/forms/MO-1040PNR%20Instructions_2025.pdf> — **403 on 2026-10-27, needs-sources** for allocation worksheets and thresholds.
 3. §32.065 RSMo interest (7% from 1 Jan 2026) via the MO-1120 2025 instructions fetch, 200, read 2026-10-27.
+
+Not yet confirmed: see the 'needs-sources' items above — figures tied to them stay unconfirmed until the source is archived.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Missouri commuter and city earnings-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

@@ -33,11 +33,11 @@ Missouri imposes **no state-level employee social-insurance contribution** — o
 
 **Source status:** all figures below are corroborated by the existing tier-2 `mo-payroll` skill, which was verified against the DES 2025 contribution-rate notice. The DES 2026 rate pages returned 404 from the drafting environment on 2026-10-27 — the **CY2026 wage base and rate schedule are needs-sources**; treat the 2025 numbers as the latest verified and re-check the DES notice before running 2026 payroll.
 
-## 2. Who applies
+## Who this applies to
 
 An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in wages in any calendar quarter, **or** employed at least one worker for some portion of a day in 20 different calendar weeks in the current or preceding year. (§288.034 RSMo, per `mo-payroll`.) New employers default to **monthly** remittance until the first lookback completes; filing frequency cannot be changed unilaterally. (per `mo-payroll`.)
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Amount / rule | Source |
 |---|---|---|
@@ -48,18 +48,18 @@ An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in
 | Wage-base history | $11,500 (2014–2018) → $11,000 (2019) → stepped down to $9,500 under HB 1409 (2018), tied to trust-fund balance | HB 1409 via `mo-payroll` |
 | Employee-side contribution | **none** — MO UI is employer-funded | `mo-payroll` |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - **Quarterly contribution and wage reports: Form MODES-4-7** (monthly filers remit monthly; new employers default monthly until the first lookback). (§288 via `mo-payroll`.)
 - **Rate notices:** DES announces the applicable schedule each November for the following calendar year. (§288.121 via `mo-payroll`.)
 - Annual W-3 reconciliation (MO-W-3) is a withholding deadline, not a UI one — see `mo-payroll`.
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - Late/underpaid UI contributions accrue interest and penalties under Chapter 288; the specific current percentages were not re-verified this run — **needs-sources** (DES pages 404 on 2026-10-27). The `mo-payroll` skill carries the withholding-side §288 penalties; treat UI-side percentages as unverified until the DES notice is read.
 - Failure to respond to DES wage audits produces assessments on estimated payroll — the practical exposure for late MODES-4-7 filings.
 
-## 6. Cross-border
+## Cross-border points
 
 - Multi-state employers allocate UI coverage under the Interstate Reciprocal Coverage Arrangement — register Missouri as the coverage state only where the localizability tests place the employment.
 - Kansas City and St. Louis **local earnings taxes** (1%, both residents and nonresident commuters) are income taxes, not social contributions — see `mo-payroll` and `mo-cross-border`.
@@ -98,7 +98,7 @@ expected:
   contribution: 392.35
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 1. Is the CY2026 wage base and rate schedule confirmed against the DES November notice (the 2025 numbers above are the last verified)?
 2. Are quarterly MODES-4-7 filings current — any risk of estimated-payroll assessments?
@@ -106,11 +106,13 @@ expected:
 4. Multi-state remote staff — where is UI coverage localized, and are 45-state filings aligned?
 5. Benefit-charge management: is the employer contesting questionable claims to protect the reserve ratio?
 
-## 9. Sources
+## Sources
 
 1. Existing tier-2 skill `mo-payroll` (UI wage base, rates, §288 cites, verified against the DES 2025 contribution-rate notice): repo `skills/us-states/mo/mo-payroll.md`.
 2. Missouri Division of Employment Security rate pages: <https://labor.mo.gov/UIE/rates> — **404 on 2026-10-27, needs-sources** for CY2026 base/rates and UI-side penalty percentages.
 3. Mo. Rev. Stat. ch. 288 (§§288.034, 288.036.2, 288.121, 288.123) as cited in `mo-payroll`.
+
+Not yet confirmed: see the 'needs-sources' items above — figures tied to them stay unconfirmed until the source is archived.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Missouri UI and payroll-structure questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

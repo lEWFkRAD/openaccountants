@@ -39,14 +39,14 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 5. **Dividends deduction mechanics on Form MO-C** keyed to the apportionment factor. (Instructions, read 2026-10-27.)
 6. **Related-party expense / intangible addback (§143.471 RSMo, Form MO-470):** Missouri operates this regime, but the MO-470 instructions PDF returned **403** and the DOR addback page **404** from the drafting environment on 2026-10-27 — the addback's current scope, thresholds and exceptions are **needs-sources**; do not compute an MO-470 position from this skill alone.
 
-## 2. Who applies
+## Who this applies to
 
 - Corporations filing MO-1120 with intercompany royalties, management fees, rent, interest, or service charges crossing state lines.
 - Federally consolidated groups: each member's separate-Missouri posture makes every intercompany price a Missouri-base question.
 - Groups electing Missouri consolidation: MO-22 membership schedules expose the intercompany eliminations the Department will review.
 - Lenders in the group: §163(j)-limited interest is added back at Missouri regardless of arm's-length status.
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Amount / rule | Source |
 |---|---|---|
@@ -56,18 +56,18 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 | Combined reporting | none — Missouri uses separate returns or full consolidation, no unitary combined return | Instructions, read 2026-10-27 |
 | TP documentation requirement | none at state level | absence verified in instructions read |
 
-## 4. Deadlines
+## Deadlines and filing
 
 - No state TP documentation deadline.
 - MO-470 (if required) is filed with MO-1120 — due the 15th day of the 4th month; automatic extension with federal Form 7004 (check the box). (Instructions, read 2026-10-27.)
 - Missouri consolidated election: initial MO-22 with the first consolidated MO-1120; new members add MO-22 as added. (Instructions, read 2026-10-27.)
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - No TP-specific penalty. Adjustments land in the ordinary regime: 5%/month late-filing (cap 25%), 5% late-payment, **7% simple interest from 1 January 2026** (§32.065). (Instructions, read 2026-10-27.)
 - MO-470-specific penalties: **needs-sources** (form instructions blocked).
 
-## 6. Cross-border
+## Cross-border points
 
 - Apportionable income includes income from **tangible and intangible property** where the property's acquisition, management, employment, development or disposition relates to the trade or business — intercompany IP and financing sit inside the factor math. (Instructions, read 2026-10-27.)
 - P.L. 86-272 protects goods-order solicitation only; intercompany services/royalties create nexus exposure — Form 4458 documents the boundary.
@@ -110,7 +110,7 @@ expected:
   extra_tax: 1200.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 1. Federally consolidated? Separate-Missouri pro forma or Missouri consolidated (MO-22) — which, and why?
 2. Which MO-MS apportionment election is in use, and would another election reduce Missouri exposure?
@@ -118,11 +118,13 @@ expected:
 4. Intercompany interest: does §163(j) disallowance flow to the Missouri addback?
 5. Do intercompany services/royalties exceed P.L. 86-272 — is Form 4458 on file?
 
-## 9. Sources
+## Sources
 
 1. Missouri DOR, Form MO-1120 General Instructions (2025): <https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf> — 200 with full text, read 2026-10-27 (pro forma rule, MO-22 consolidation, MO-MS elections, §163(j) addback, MO-C, P.L. 86-272/Form 4458).
 2. Form MO-470 instructions: <https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf> — **403 on 2026-10-27, needs-sources**.
 3. §143.431, §143.471, §143.121.3(11), §32.065 RSMo as cited in the instructions above.
+
+Not yet confirmed: see the 'needs-sources' items above — figures tied to them stay unconfirmed until the source is archived.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Missouri related-party and consolidation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
