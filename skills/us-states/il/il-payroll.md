@@ -147,13 +147,13 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 - **IL-941 due date** — IL-941 is due the LAST DAY of the month following the quarter: April 30, July 31, October 31, January 31.  _(2025 IL-941 instr.)_
 - **W-2 e-file deadline** — W-2/W-2c/W-2G must be e-filed to IL by January 31 (waiver via IL-900-EW)  _(2025 IL-941 instr.; IDOR Pub-110.)_
 - **1099 e-file deadline** — IL requires required 1099 types to be filed electronically; March 31 aligns with the federal e-file date for most 1099s, but Form 1099-NEC is due January 31.  _(IDOR Pub-110.)_
-- **UI taxable wage base** — 2025 IL UI taxable wage base = $13,916 ($13,590 was 2024; 2026 = $14,250)  _(IDES 2025 EA-50 / Historical Rate Chart.)_
-- **UI min rate** — 2025 minimum UI rate = 0.750% (0.85% was 2024)  _(IDES 2025 Historical Rate Chart.)_
-- **UI max rate** — 2025 maximum UI rate = 7.850% (8.65% was 2024)  _(IDES 2025 Historical Rate Chart.)_
-- **New employer — non-construction** — 2025 standard new-employer rate = 3.65% (3.95% was 2024); 3.75% for NAICS sectors 56/99  _(IDES 2025 Historical Rate Chart; Bloomberg Tax 12/2024.)_
-- **New employer — construction** — No 2025 construction-specific new-employer rate of 6.45%; the standard 3.65% applies (2025 chart shows construction at the standard rate).  _(IDES 2025 Historical Rate Chart.)_
-- **Fund Building Rate** — 2025 Fund Building Rate = 0.550%  _(IDES 2025 Historical Rate Chart.)_
-- **State Experience Factor** — 2025 State Experience Factor = 114% (109% is not a recent IL figure; 2024 = 126%, 2023 = 127%)  _(IDES 2025 Historical Rate Chart.)_
+- **UI taxable wage base** — 2025 IL UI taxable wage base = $13,916 ($13,590 was 2024; 2026 = $14,250)  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): WAGE BASE row: 13,590 / 13,916 / 14,250.)_
+- **UI min rate** — 2025 minimum UI rate = 0.750% (0.85% was 2024)  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): MINIMUM row: 0.750%.)_
+- **UI max rate** — 2025 maximum UI rate = 7.850% (8.65% was 2024)  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): MAXIMUM row: 7.850%.)_
+- **New employer — non-construction** — 2025 standard new-employer rate = 3.65% (3.95% was 2024); 3.75% for NAICS sectors 56/99  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): STANDARD (Ineligible) RATE row: 3.650%. The 3.75% NAICS variant: not yet confirmed.)_
+- **New employer — construction** — No 2025 construction-specific new-employer rate of 6.45%; the standard 3.65% applies (2025 chart shows construction at the standard rate).  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): standard rate row: 3.650%.)_
+- **Fund Building Rate** — 2025 Fund Building Rate = 0.550%  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): FUND BUILDING row: 0.550%.)_
+- **State Experience Factor** — 2025 State Experience Factor = 114% (109% is not a recent IL figure; 2024 = 126%, 2023 = 127%)  _(IDES 2026 rate chart (sources/US-IL-ides-ui-rates-2026.pdf): STATE EXPERIENCE row: 114%.)_
 - **Trigger** — Coverage applies to Illinois employers with at least 5 employees, in business 2+ years, with no qualified retirement plan. IDOR measures the count by averaging, across all four quarters of the tax year, the number of employees showing non-zero Illinois tax withheld on Schedule P (filed with Form IL-941), not a literal "5+ in every quarter" test.  _(820 ILCS 80/; IDOR Q&A 924; IDOR Informational Bulletin FY2023-09.)_
 - **Default deferral** — 5% auto-enroll default (auto-escalates 1%/yr to a 10% cap)  _(820 ILCS 80/; program rules.)_
 - **Penalty — Year 1** — $250 per employee, first year of noncompliance  _(820 ILCS 80/85.)_
@@ -177,15 +177,15 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 | Item | 2025 Value |
 | --- | --- |
-| Taxable wage base per employee | $13,590 |
-| Minimum contribution rate (positive-balance employers) | 0.85% |
-| Maximum contribution rate (negative-balance employers) | 8.65% |
-| New employer rate (non-construction) | 3.95% |
-| New employer rate (construction) | 6.45% |
-| Fund Building Rate (component included in the above) | 0.55% |
-| State Experience Factor | 109% |
+| Taxable wage base per employee | $13,916 (2025; 2024 = $13,590, 2026 = $14,250 — IDES 2026 rate chart WAGE BASE row) |
+| Minimum contribution rate (positive-balance employers) | 0.750% (2025; 0.85% was 2024 — IDES 2026 rate chart MINIMUM row) |
+| Maximum contribution rate (negative-balance employers) | 7.850% (2025; 8.65% was 2024 — IDES 2026 rate chart MAXIMUM row) |
+| New employer rate (non-construction) | 3.650% (2025; 3.95% was 2024 — IDES 2026 rate chart STANDARD row) |
+| New employer rate (construction) | 3.650% (2025 standard rate applies — IDES 2026 rate chart) |
+| Fund Building Rate (component included in the above) | 0.550% (IDES 2026 rate chart FUND BUILDING row) |
+| State Experience Factor | 114% (2025 — IDES 2026 rate chart STATE EXPERIENCE row) |
 
-- **New employer rate duration** — These are set by IDES and published annually. The 2024 wage base was $13,590 (unchanged for 2025). Rates apply to the first $13,590 of each employee's calendar-year wages. The new employer rate applies for the first three calendar years of liability or until the employer accumulates sufficient experience to be experience-rated, whichever is later.
+- **New employer rate duration** — These are set by IDES and published annually. The 2025 wage base is $13,916 (2024 = $13,590, 2026 = $14,250 — IDES 2026 rate chart). Rates apply to the first $13,916 of each employee's calendar-year wages (2025). The new employer rate applies for the first three calendar years of liability or until the employer accumulates sufficient experience to be experience-rated, whichever is later.
 
 ### 3.3 Quarterly contribution and wage report
 
@@ -436,8 +436,8 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 | IL UI wage base | $13,590 | IDES Rate Determination 2025 |
 | IL UI minimum rate | 0.85% | IDES |
 | IL UI maximum rate | 8.65% | IDES |
-| New employer rate (non-construction) | 3.95% | IDES |
-| New employer rate (construction) | 6.45% | IDES |
+| New employer rate (non-construction) | 3.650% (2025; 3.95% was 2024 — IDES 2026 rate chart STANDARD row) | IDES |
+| New employer rate (construction) | 3.650% (2025 standard rate applies — IDES 2026 rate chart) | IDES |
 | Secure Choice trigger | 5+ IL employees, 2+ years in business, no qualified plan | 820 ILCS 80/30 |
 | Secure Choice default deferral | 5% | 820 ILCS 80/55 |
 | Secure Choice penalty | $250/employee Y1, $500/employee Y2+ | 820 ILCS 80/85 |

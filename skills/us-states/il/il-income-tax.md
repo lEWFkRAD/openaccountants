@@ -122,7 +122,7 @@ Common subtractions:
 
 ### Step 5: Subtract personal exemptions (Line 10)
 
-- **Personal exemptions** — $2,625 per taxpayer (single: $2,625; MFJ: $5,250); $2,625 per dependent claimed on the federal return  _(35 ILCS 5/204)_
+- **Personal exemptions** — $2,850 per taxpayer (single: $2,850; MFJ: $5,700); $2,850 per dependent claimed on the federal return (IL-1040 instructions: "The personal exemption amount for tax year 2025 is $2,850.")
 
 ### Step 6: Compute Illinois net income (Line 11)
 
@@ -168,9 +168,9 @@ Common subtractions:
 | Item | Amount | Source |
 | --- | --- | --- |
 | Illinois flat income tax rate | 4.95% — VERIFIED vs archived current-year Form IL-1040 (Line 12: "Residents: Multiply Line 11 by 4.95% (.0495)") | 35 ILCS 5/201(b)(5.4); archived IL-1040 PDF, retrieved 2026-10-28 |
-| Personal exemption -- single | $2,625 | 35 ILCS 5/204 (2025 amount, indexed) |
-| Personal exemption -- MFJ | $5,250 | 35 ILCS 5/204 |
-| Personal exemption -- each dependent | $2,625 | 35 ILCS 5/204 |
+| Personal exemption -- single | $2,850 | IL-1040 instructions: "The personal exemption amount for tax year 2025 is $2,850." |
+| Personal exemption -- MFJ | $5,700 | IL-1040 instructions (two exemptions at $2,850) |
+| Personal exemption -- each dependent | $2,850 | IL-1040 instructions ($2,850 per exemption) |
 | Property tax credit rate | 5% of property taxes paid on principal residence | 35 ILCS 5/208 |
 | Earned income credit | 20% of federal EIC (refundable) | 35 ILCS 5/212 (2025) |
 | K-12 education expense credit | 25% of expenses over $250, max credit $750 | 35 ILCS 5/218 |
@@ -213,12 +213,12 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 ### Test 1: Standard freelancer, single
 
 **Input:** Federal AGI: $100,000 (all Schedule C). No additions. Social Security subtraction: $0. No property tax. Single, no dependents.
-**Expected:** Base income: $100,000. Exemption: $2,625. Net income: $97,375. Tax: $97,375 x 4.95% = $4,820.06.
+**Expected:** Base income: $100,000. Exemption: $2,850. Net income: $97,150. Tax: $97,150 x 4.95% = $4,808.93.
 
 ### Test 2: MFJ with property tax credit
 
 **Input:** Federal AGI: $150,000. No modifications. MFJ, 2 dependents. Property taxes paid: $8,000.
-**Expected:** Exemptions: $5,250 + (2 x $2,625) = $10,500. Net income: $139,500. Tax: $139,500 x 4.95% = $6,905.25. Property tax credit: $8,000 x 5% = $400. Net tax: $6,505.25.
+**Expected:** Exemptions: $5,700 + (2 x $2,850) = $11,400. Net income: $138,600. Tax: $138,600 x 4.95% = $6,860.70. Property tax credit: $8,000 x 5% = $400. Net tax: $6,460.70.
 
 ### Test 3: Bonus depreciation add-back
 
@@ -251,7 +251,7 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 | IL-1040 instructions | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf | 2026-10-27 |
 | Form IL-1040 | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040.pdf | 2026-10-27 |
 
-Not yet confirmed: Schedule M PDF not in archive set; 2,625 exemption figure not line-verified in an archived source
+Not yet confirmed: Schedule M PDF not in archive set; 2026 exemption amounts (2025 amount is $2,850 per archived IL-1040 instructions)
 
 ## Talk to a verified accountant
 
