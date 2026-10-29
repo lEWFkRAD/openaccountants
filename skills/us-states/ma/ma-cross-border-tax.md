@@ -6,56 +6,58 @@ description: >-
   Massachusetts activity, and the 2026 sourcing, Form 1-NR/PY, composite and
   pass-through-entity (PTE) position is needed. Trigger on Massachusetts
   nonresident return, Form 1-NR/PY, nonresident member withholding,
-  PTE election Massachusetts, chapter 63D. Source-cited draft with
-  needs-sources caveat on statute pages (404 site-wide 2026-10-25).
+  PTE election Massachusetts, chapter 63D.
 jurisdiction: US-MA
 category: cross-border
 tax_year: 2026
 tier: 2
 verified_by: pending
-last_updated: 2026-10-25
-version: 0.1
+last_updated: 2026-10-29
+version: 0.2
 ---
 
 # Massachusetts cross-border tax
 
-## 1. Who this applies to
+## Who this applies to
 
-- Nonresident and part-year individuals with Massachusetts-source income: Form 1-NR/PY ([form page](https://www.mass.gov/forms/massachusetts-nonresident-or-part-year-resident-income-tax-return-form-1-nrpy) — **needs-sources**, 404 site-wide on 2026-10-25; the form and its mechanics are corroborated by the existing `ma-income-tax` skill, which references Form 1-NR).
-- Massachusetts pass-throughs with nonresident members (withholding and the PTE election route) (DOR PTE election page — needs-sources).
+- Nonresident and part-year individuals with Massachusetts-source income: Form 1-NR/PY (the existing `ma-income-tax` skill references Form 1-NR; the current DOR form page was unreachable from this environment — see Not yet confirmed below).
+- Massachusetts pass-throughs with nonresident members (withholding and the PTE election route) (DOR Elective Pass-through Entity Excise page, archived 2026-10-28).
 - Out-of-state corporations with Massachusetts nexus (combined reporting analysis in `ma-transfer-pricing-combined-reporting`).
 - Out of scope: residency-domicile disputes (refer); the excise combination mechanics (TP skill).
 
-## 2. Core rules and rates
+## Rates, bands and thresholds
 
-- **Rates:** flat 5%, plus the 4% surtax on Massachusetts-basis income over the surtax threshold (~$1M) (ma-income-tax, read 2026-10-25).
-- **Nonresidents** are taxed on Massachusetts-source income: wages for services performed in Massachusetts, rents from Massachusetts property, and business income apportioned to Massachusetts via the sales factor (Form 1-NR/PY instructions — needs-sources).
-- **No de minimis exception** comparable to some states: any Massachusetts-source wage income generally triggers a filing obligation (Form 1-NR/PY — needs-sources; treat the threshold question as unverified until the instructions are re-checked).
-- **Pass-through entity (PTE) election** (M.G.L. c.63D — needs-sources): an electing partnership/S-corp pays at the entity level at the corporate rate; qualifying members receive a credit and nonresident members are taxed only at the entity level on that income — the practical composite alternative in Massachusetts (DOR PTE page — needs-sources).
-- **Composite returns:** Massachusetts does not operate a general nonresident-composite regime like some states; the PTE election is the standard tool to collapse nonresident-member exposure (needs-sources).
+- **Individual rates:** flat 5% Part B income tax; the 4% surtax applies to Massachusetts-basis income above the inflation-adjusted threshold (approximately $1.083M for 2025) — see the `ma-income-tax` skill (Article 44 Amendments to the Massachusetts Constitution; threshold figure listed under Not yet confirmed below).
+- **PTE excise rate (ch.63D):** "an excise equal to 5% of a PTE's income that is attributable to qualified members and subject to tax under chapter 62" (DOR Elective Pass-through Entity Excise page, archived 2026-10-28).
+- **PTE member credit:** "Qualified members of an electing PTE are eligible for a credit equal to 90% of the member's distributive share of the chapter 63D excise paid by the PTE" (DOR PTE page, archived 2026-10-28).
+- **Nonresident filing relief under the PTE election:** "Where the PTE pays the chapter 63D PTE excise, a nonresident member is not required to file a personal income tax return on their own account if (i) they participate in the filing of a nonresident composite return or returns that report all of the nonresident's Massachusetts source income and (ii) they are not subject to the surtax" (DOR PTE page, archived 2026-10-28).
+- **Election mechanics:** the election is made annually on the PTE's timely filed Form 3, Form 355S (Schedule S), or Form 2 (Form 63-FI Schedule S for financial-institution S-corps), confirmed by filing Form 63-ELT; it may not be made on an amended return and is irrevocable for the year (DOR PTE page, archived 2026-10-28).
+- **Composite returns:** Massachusetts operates a Nonresident Composite Return (Form NRCR) that PTEs may file for participating nonresident members, and a PTE filing Form NRCR may claim the sum of PTE credits for participating members (DOR PTE page, archived 2026-10-28).
 
-## 3. Base and sourcing
+## The taxable base
 
-- Wages: sourced to where services are performed; remote workers physically working in Massachusetts have Massachusetts-source wages regardless of employer location (Form 1-NR/PY instructions — needs-sources).
-- Business income: apportioned by the single sales factor through the entity return (Form 3 / Form 355 lane).
-- Part-year residents: prorate by residency period plus source rules (Form 1-NR/PY — needs-sources).
+- Wages: sourced to where services are performed; remote workers physically working in Massachusetts have Massachusetts-source wages regardless of employer location (see Not yet confirmed for the instructions citation).
+- Business income: apportioned by the single sales factor through the entity return (Form 3 / Form 355 lane; G.L. c.63 §38(c)-(d), archived 2026-10-28).
+- Part-year residents: prorate by residency period plus source rules (see Not yet confirmed).
 
-## 4. Deadlines
+## Deadlines and filing
 
-- Form 1-NR/PY: 15 April for calendar-year individuals; entity returns (Form 3, Form 355, Form 11-S): 15th day of the 4th month (ma-income-tax / ma-corporate-excise, read 2026-10-25).
-- PTE election is made on the entity's timely-filed (including extensions) return for the year (DOR PTE page — needs-sources).
+- Form 1-NR/PY: 15 April for calendar-year individuals; entity returns (Form 3, Form 355, Form 11-S/355S): 15th day of the 4th month (see `ma-income-tax` / `ma-corporate-excise` skills).
+- PTE election: made on the entity's timely-filed (including extensions) return for the year; Form 63-ELT must be filed on or before the due date of the PTE's tax return, taking into account valid extensions (DOR PTE page, archived 2026-10-28).
 
-## 5. Penalties and interest
+## Penalties and interest
 
-- Late individual filing/payment: penalties plus interest at the federal underpayment rate plus add-on under M.G.L. c.65C — **needs-sources** (404 on 2026-10-25); treat the exact schedule as unverified.
+- Late individual filing/payment attracts penalties plus interest; the exact schedule is listed under Not yet confirmed below.
 
-## 6. Treaties and federal overlay
+## Cross-border points
 
 - No state treaty power; US treaties can limit federal tax on some nonresident employment but not the Massachusetts wage sourcing.
-- Military personnel stationed in Massachusetts under the SCRA keep domicile elsewhere; Massachusetts-source rules still apply to non-stationed income (needs-sources).
-- Credit for taxes paid: Massachusetts residents taxed elsewhere claim the credit for taxes paid to other jurisdictions on Form 1 line 43 mechanics (ma-income-tax, read 2026-10-25).
+- Military personnel stationed in Massachusetts under the SCRA keep domicile elsewhere; Massachusetts-source rules still apply to non-stationed income (see Not yet confirmed).
+- Credit for taxes paid: Massachusetts residents taxed elsewhere claim the credit for taxes paid to other jurisdictions (see the `ma-income-tax` skill).
 
-## 7. Worked examples
+## Worked examples
+
+Client facts (wages, workdays, distributive share) are hypothetical; rates are the confirmed 5% individual and 5% ch.63D PTE figures above.
 
 **Example 1 — nonresident employee with Massachusetts workdays.** A New York resident earns USD 120,000 total wages, working 20 of 240 annual workdays in Massachusetts. Massachusetts-source wages: 120,000 × 20/240 = 10,000. Massachusetts tax at 5%: 10,000 × 0.05 = 500 (no surtax — below threshold).
 
@@ -74,36 +76,39 @@ expected:
   ma_tax: 500.00
 ```
 
-**Example 2 — PTE election for a nonresident member.** A Massachusetts LLC (taxed as a partnership) allocates USD 80,000 of Massachusetts income to a nonresident member. Without the election the member files Form 1-NR/PY and pays 80,000 × 5% = 4,000. With a valid PTE election the entity pays at the 8.25% corporate rate on the members' distributive share: 80,000 × 0.0825 = 6,600, and the nonresident member owes no individual Massachusetts tax on that income (entity-level cost is higher but removes the individual filing; rate figures from ma-corporate-excise / ma-income-tax, read 2026-10-25; election mechanics needs-sources).
+**Example 2 — PTE election for a nonresident member.** A Massachusetts LLC (taxed as a partnership) allocates USD 80,000 of Massachusetts income to a nonresident member. Without the election the member files Form 1-NR/PY and pays 80,000 × 5% = 4,000. With a valid ch.63D election the entity pays 5% at the entity level on qualified income: 80,000 × 0.05 = 4,000; the member gets a credit equal to 90% of their share of the excise paid (DOR PTE page, archived 2026-10-28). The election's value is administrative (the nonresident may avoid a personal filing when a composite return covers them and they are not subject to the surtax), not a rate cut.
 
 ```oa-check
 name: ma pte election tradeoff
 inputs:
   share: 80000
   ind_rate: 0.05
-  entity_rate: 0.0825
+  entity_rate: 0.05
+  credit_pct: 0.9
 steps:
   - individual_tax: share * ind_rate
   - entity_tax: share * entity_rate
-  - extra_cost: entity_tax - individual_tax
+  - member_credit: entity_tax * credit_pct
 expected:
   individual_tax: 4000.00
-  entity_tax: 6600.00
-  extra_cost: 2600.00
+  entity_tax: 4000.00
+  member_credit: 3600.00
 ```
 
-## 8. Ask the client first
+## Ask the client first
 
 - Where services were physically performed (workday log for remote/hybrid workers).
 - Whether the pass-through has already made a PTE election and whether nonresident members consented.
 - Whether the client's home state gives a credit that interacts with the Massachusetts liability.
 
-## 9. Sources
+## Sources
 
-- Form 1-NR/PY: <https://www.mass.gov/forms/massachusetts-nonresident-or-part-year-resident-income-tax-return-form-1-nrpy> — **needs-sources** (404 site-wide on 2026-10-25).
-- DOR PTE election: <https://www.mass.gov/info-details/passthrough-entity-tax-election> — **needs-sources** (404 on 2026-10-25).
-- M.G.L. c.63D (PTE): <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter63D/Section1> — **needs-sources** (404 on 2026-10-25).
-- `ma-income-tax` and `ma-corporate-excise` skills (rates, Form 1-NR reference) — internal corroboration, read 2026-10-25.
+| Source | URL | Read on |
+|---|---|---|
+| DOR — Elective Pass-through Entity Excise (ch.63D 5% excise, 90% member credit, election mechanics, NRCR interaction) | <https://www.mass.gov/info-details/elective-pass-through-entity-excise> | 2026-10-28 |
+| M.G.L. c.63 §38 — sales-factor apportionment of business income | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section38> | 2026-10-28 |
+
+Not yet confirmed: the Form 1-NR/PY form page and its instructions (mass.gov returned 403/404 site-wide from this environment on 2026-10-25 through 2026-10-29) — including wage-sourcing detail for remote workers, part-year proration, and any de minimis filing threshold; the exact 2026 surtax threshold dollar figure (the `ma-income-tax` skill carries $1,083,150 for TY2025, inflation-adjusted annually); the individual penalty and interest schedule (M.G.L. c.62C pages unreachable); SCRA military-personnel treatment; the full text of M.G.L. c.63D (malegislature.gov chapter page 404 from this environment — the DOR page above is the archived authority for ch.63D mechanics).
 
 <!-- openaccountants-cta-block -->
 
