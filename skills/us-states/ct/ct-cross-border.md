@@ -12,105 +12,102 @@ description: >
   state corporation Connecticut tax", "PL 86-272 Connecticut",
   "Connecticut economic nexus", "Connecticut cross-border",
   "Connecticut credit for taxes paid". Source-cited draft; CGA
-  chapter 208 text read 2026-10-27.
+  chapter 208 text read 2026-10-28.
 jurisdiction: US-CT
 category: cross-border
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-28
-version: 0.2
+version: 0.3
 verified_by: pending
 depends_on:
   - ct-corporate-income-tax
 ---
 
-# Connecticut cross-border taxation v0.1
-
-## 1. Scope and sources
+# Connecticut cross-border taxation v0.2
 
 Covers when out-of-state and foreign companies/owners become Connecticut
 taxpayers, federal statutory protection, and multistate relief.
-Primary verified source: Conn. Gen. Stat. chapter 208 full text
-(cga.ct.gov, read 2026-10-27). Chapter 229 individual credit sections
-referenced but not re-audited this run.
+Primary sources: Conn. Gen. Stat. chapter 208 full text (cga.ct.gov,
+archived and read 2026-10-28), chapter 229 (income tax, credits, archived
+same date), chapter 228z (PTE, archived same date), and 15 U.S.C. §381
+(Cornell LII, archived same date).
 
-## 2. Who applies
+## Who this applies to
 
 - **Economic nexus:** any company deriving income from Connecticut
   sources with a "substantial economic presence" in the state —
   purposeful direction of business toward Connecticut judged by the
   frequency, quantity and systematic nature of economic contacts,
   **without regard to physical presence** — to the extent permitted
-  by the U.S. Constitution (§12-216a(a) — verified).
+  by the U.S. Constitution (§12-216a(a)).
 - **Foreign corporations:** §12-216a does not reach a foreign
   corporation with no income effectively connected with a U.S. trade
   or business; where ECI exists, gross income is limited to the ECI
   and only ECI-related property/payroll/receipts enter the
-  apportionment factors (§12-216a(b) — verified).
+  apportionment factors (§12-216a(b)).
 - Partnerships/S corps and their members: entity-level PTE election
   or direct member filing (see `ct-s-corporation-tax`).
-- Nonresident individuals with CT-source income: CT-104NR regime
-  (chapter 229 — needs-sources this run).
+- Nonresident individuals with CT-source income: CT-1040NR/PY regime
+  (chapter 229 — see Not yet confirmed).
 
-## 3. Rates and thresholds
+## Rates, bands and thresholds
 
 | Item | Amount | Source |
 |---|---|---|
-| Corporation business tax | 7.5% | §12-214(a)(1) (verified) |
-| Surcharge | 10% for 2018–2025 income years; none in current text for 2026 | §12-214(b)(4) (verified) |
-| Economic nexus | qualitative standard (no bright-line $ threshold in statute text) | §12-216a(a) (verified) |
-| PTE tax (entity alternative) | 6.99% | §12-699(c) (verified) |
+| Corporation business tax | 7.5% of entire net income | §12-214(a)(1) |
+| Surcharge | 10% for 2018–2025 income years; none in the current text for income years commencing on or after January 1, 2026 | §12-214(b)(4) |
+| Economic nexus | qualitative standard — no bright-line dollar threshold in the statute text | §12-216a(a) |
+| PTE tax (entity alternative) | 6.99% of the tax base | §12-699(c): "six and ninety-nine-hundredths per cent multiplied by the tax base" |
 
-## 4. Base and timing
+## The taxable base
 
 - Apportionment factors for foreign corporations are ECI-only
-  (§12-216a(b)(2) — verified).
+  (§12-216a(b)(2)).
 - Combined group net income aggregates unitary-business income of
   taxable and nontaxable members, world-wide by default (§12-218e,
-  §12-218f — verified).
-- Returns due the 15th day of the month after the federal due date
-  (§12-222(b) — verified).
+  §12-218f).
 
-## 5. Deadlines
+## Deadlines and filing
 
-| Filing | Calendar-year due date |
+| Filing | Due date |
 |---|---|
-| CT-1120 / combined return | April 15 for calendar-year C corps (§12-222(b) — verified) |
-| Estimated installments | Months 3/6/9/15th-day pattern, 30/40/10/20 split (§12-242d — verified) |
-| Nonresident individual | April 15 pattern (chapter 229 — needs-sources) |
+| CT-1120 / combined return | the fifteenth day of the month next succeeding the due date of the corresponding federal income tax return, without regard to any extension (§12-222(b)) — April 15 for calendar-year C corporations, given the federal fifteenth-day-of-the-fourth-month due date |
+| Estimated installments | fifteenth-day-of-the-third/sixth/ninth/twelfth-month pattern, 30/40/10/20 split (§12-242d) |
+| Nonresident individual | see Not yet confirmed (chapter 229 due-date mechanics were not tied out this run) |
 
-## 6. Penalties and interest
+## Penalties and interest
 
-- 10%/$50 failure-to-pay penalty; 1%/month interest; 3-year
-  assessment window (§§12-229, 12-233, 12-235 — verified).
+- Ten per cent / fifty-dollar failure-to-pay penalty; one per cent per
+  month interest; three-year assessment window (§§12-229, 12-233,
+  12-235).
 
-## 7. Cross-border interactions
+## Cross-border points
 
 - **PL 86-272:** federal bar on net-income taxes where in-state
   activity is limited to solicitation of orders for tangible personal
-  property, sent outside for acceptance/rejection (15 U.S.C. §381 —
-  verified via Cornell LII). No protection for services, digital, or
-  in-state fulfillment.
+  property, sent outside for acceptance/rejection (15 U.S.C. §381).
+  No protection for services, digital, or in-state fulfillment.
 - **Treaties:** U.S. income-tax treaties do not limit Connecticut
   state tax; the ECI limitation in §12-216a(b) is statutory, not
-  treaty-based (verified text).
-- **Credit for taxes paid:** CT residents (individuals) credit taxes
-  paid to other states on doubly-taxed income (§12-704 — referenced
-  in §12-699(f)(2), verified reference; mechanics needs-sources).
-  Corporate credit mechanics not re-audited — needs-sources.
+  treaty-based.
+- **Credit for taxes paid:** CT residents (individuals) may claim a
+  credit against the chapter 229 income tax for income tax paid to a
+  qualifying jurisdiction (another U.S. state, its local governments,
+  or DC) on income also taxed by Connecticut (§12-704). See
+  Not yet confirmed for the mechanics not tied out this run.
 - **PTE as multistate tool:** electing PTE in Connecticut (6.99%) and
-  similar regimes elsewhere lets resident members claim the
-  §12-699(f)(2) credit for other states' similar entity taxes
-  (verified).
+  similar regimes elsewhere lets resident members claim the §12-699(f)(2)
+  credit for other states' substantially similar entity taxes.
 - **Composite repeal:** Connecticut's old entity composite election
-  (§12-699b) repealed effective 1/1/2024 (verified) — nonresident
-  members file individually unless the entity elects PTE.
+  (§12-699b) "is repealed, effective January 1, 2024" (chapter 228z) —
+  nonresident members file individually unless the entity elects PTE.
 
-## 8. Worked examples
+## Worked examples
 
-A New York corporation (no CT property or payroll) has CT-apportioned
-entire net income of $1,500,000 for 2026 under the economic-nexus
-statute:
+Hypothetical facts. A New York corporation (no CT property or payroll)
+has CT-apportioned entire net income of $1,500,000 for 2026 under the
+economic-nexus statute:
 
 ```oa-check
 name: economic nexus tax 2026
@@ -123,8 +120,8 @@ expected:
   tax: 112500.00
 ```
 
-The same company's only CT activity is soliciting goods orders
-shipped from New York (PL 86-272 protected):
+The same hypothetical company, whose only CT activity is soliciting
+goods orders shipped from New York (PL 86-272 protected):
 
 ```oa-check
 name: PL 86-272 protected
@@ -138,7 +135,7 @@ expected:
   tax: 0.00
 ```
 
-## 9. Ask the client
+## Ask the client first
 
 - What CT contacts exist — remote workers, clients, marketplace
   sales, data/property — and do they form a "systematic" economic
@@ -154,10 +151,19 @@ expected:
 
 ## Sources
 
-1. Conn. Gen. Stat. ch. 208 §§12-214, 12-216a, 12-218e, 12-218f, 12-222, 12-229, 12-233, 12-235: https://www.cga.ct.gov/current/pub/chap_208.htm (200 HTML, read 2026-10-27)
-2. Conn. Gen. Stat. ch. 228z §12-699 (PTE): https://www.cga.ct.gov/current/pub/chap_228z.htm (200 HTML, read 2026-10-27)
-3. 15 U.S.C. §381 (Public Law 86-272): https://www.law.cornell.edu/uscode/text/15/381 (200 with text, 2026-10-27)
-4. Conn. Gen. Stat. ch. 229 (income tax, credits): https://www.cga.ct.gov/current/pub/chap_229.htm (not re-audited this run — cites needs-sources)
+| Source | URL | Read on |
+|---|---|---|
+| Conn. Gen. Stat. ch. 208 §§12-214, 12-216a, 12-218e, 12-218f, 12-222, 12-229, 12-233, 12-235, 12-242d | https://www.cga.ct.gov/current/pub/chap_208.htm | 2026-10-28 |
+| Conn. Gen. Stat. ch. 228z §12-699 (PTE) | https://www.cga.ct.gov/current/pub/chap_228z.htm | 2026-10-28 |
+| Conn. Gen. Stat. ch. 229 §12-704 (resident credit for income tax paid to qualifying jurisdiction) | https://www.cga.ct.gov/current/pub/chap_229.htm | 2026-10-28 |
+| 15 U.S.C. §381 (Public Law 86-272) | https://www.law.cornell.edu/uscode/text/15/381 | 2026-10-28 |
 
-<!-- openaccountants-cta-block -->
+Not yet confirmed: nonresident individual filing and due-date mechanics under chapter 229 (Form CT-1040NR/PY) — the chapter 229 text was archived but the specific nonresident return provisions were not tied out this run; corporate credit-for-taxes-paid mechanics beyond the resident individual credit in §12-704.
+
+## Talk to a verified accountant
+
 **Talk to a verified accountant** — for Connecticut nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+This skill is a source-cited draft; no accountant has reviewed it. Verify
+figures against the cited primary sources or with a licensed Connecticut
+professional before relying on them.

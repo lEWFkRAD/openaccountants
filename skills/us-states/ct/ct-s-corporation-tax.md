@@ -11,115 +11,115 @@ description: >
   "Connecticut pass-through entity tax", "Connecticut S corporation
   tax", "CT-106", "CT-1120S", "Connecticut composite return",
   "Connecticut entity-level tax", "12-699". Source-cited draft; CGA
-  chapter 228z text read 2026-10-27.
+  chapter 228z text read 2026-10-28.
 jurisdiction: US-CT
 category: state-tax
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-28
-version: 0.2
+version: 0.3
 verified_by: pending
 depends_on:
   - ct-corporate-income-tax
 ---
 
-# Connecticut pass-through entities: PTE tax v0.1
-
-## 1. Scope and sources
+# Connecticut pass-through entities: PTE tax v0.2
 
 Covers Connecticut's entity-level regime for partnerships, LLCs and
-S corporations. Primary verified source: Conn. Gen. Stat. chapter
-228z full text (cga.ct.gov, read 2026-10-27) plus §12-284b (chapter
-213a, same date). All mechanics below are quoted or paraphrased from
-those texts. DRS form numbers (CT-106/CT-1120S/CT-PTE) flagged
-needs-sources — form PDFs returned HTML to this agent.
+S corporations. Primary sources: Conn. Gen. Stat. chapter 228z full
+text (cga.ct.gov, archived and read 2026-10-28) plus §12-284b (chapter
+213a, archived same date) and the 2025 Form CT-PET instructions
+(DRS, archived same date). All mechanics below are quoted or
+paraphrased from those texts. DRS form numbers not verified are
+listed under Not yet confirmed.
 
-## 2. Who applies
+## Who this applies to
 
 - "Affected business entity" = partnership (incl. LLC taxed as
   partnership) or S corporation (incl. LLC taxed as S corp);
-  publicly-traded partnerships filing under §12-726 excluded
-  (§12-699(a)(3) — verified).
-- The PTE tax is **elective**: an affected business entity required
-  to file under §12-726 may elect for each taxable year commencing
-  on or after January 1, 2024; written notice of election due by the
-  return due date (or extended due date), year by year (§12-699(b) —
-  verified).
-- S corporations are exempt from the corporation business tax
-  chapter (§12-214(a)(2)(J) — verified); the PTE tax is the
-  entity-level alternative.
+  publicly-traded partnerships that agreed to file under §12-726
+  reporting each unitholder are excluded (§12-699(a)(3)).
+- The PTE tax is **elective**: "For taxable years commencing on or
+  after January 1, 2024, an affected business entity that is required
+  to file a return under the provisions of section 12-726 may elect
+  to pay to the commissioner a tax as determined under this section"
+  — written notice of election due not later than the due date (or
+  extended due date) of the return, for each taxable year elected
+  (§12-699(b)).
+- S corporations are exempt from the corporation business tax chapter
+  (§12-214(a)(2)(J)); the PTE tax is the entity-level alternative.
 
-## 3. Rates
+## Rates, bands and thresholds
 
 | Item | Amount | Source |
 |---|---|---|
-| PTE tax | 6.99% of the tax base | §12-699(c) (verified) |
-| Member credit against CT income tax | direct + indirect share of PTE tax × **87.5%** | §12-699(f)(1) (verified) |
-| Old business entity tax | $250 every other year — statute text covers taxable years before 1/1/2020; current CT practice: no annual BET | §12-284b (verified text; current practice needs-sources) |
+| PTE tax | 6.99% of the tax base ("six and ninety-nine-hundredths per cent multiplied by the tax base") | §12-699(c); 2025 Form CT-PET instructions |
+| Member credit against CT income tax | direct + indirect share of PTE tax "multiplied by eighty-seven and one-half per cent" — 87.5% | §12-699(f)(1); 2025 Form CT-PET instructions ("87.5% (.875)") |
+| Old business entity tax | $250 every other year — §12-284b text covers taxable years before 1/1/2020 | §12-284b (see Not yet confirmed for current practice) |
 
-## 4. Base and timing
+## The taxable base
 
 - **Tax base = resident portion of unsourced income + modified
-  Connecticut source income** (§12-699(c) — verified):
-  - *Resident portion of unsourced income*: entity income not
-    sourced to CT or another taxing state × combined ownership of CT
-    resident members (§12-699(a)(7)-(8) — verified).
-  - *Modified CT source income*: CT source income × combined
-    ownership of members subject to CT income tax (chapter 229),
-    with a rebuttable presumption for lower-tier entity members
-    (§12-699(a)(9) — verified).
-- Lower-tier entity members: subtract distributive share of
-  upper-tier CT-source income to avoid double counting (§12-699(d) —
-  verified).
+  Connecticut source income** (§12-699(c)):
+  - *Resident portion of unsourced income*: unsourced income
+    multiplied by the combined ownership interests of members who are
+    Connecticut residents (§12-699(a)(7)-(8)).
+  - *Modified CT source income*: CT source income multiplied by the
+    combined ownership of members subject to CT income tax (chapter
+    229), with a rebuttable presumption (clear and convincing
+    evidence) for lower-tier entity members (§12-699(a)(9)).
+- Lower-tier entity members: subtract the distributive share of
+  upper-tier CT-source income to avoid double counting (§12-699(d)).
 - The entity must report each member's direct and indirect share of
-  PTE tax (§12-699(e) — verified).
-- Credit excess over member liability is refundable without interest
-  (§12-699(f)(1) — verified).
-- Members also get a credit for their share of similar taxes paid to
-  other states, computed consistently with §12-704 (§12-699(f)(2) —
-  verified).
+  the PTE tax (§12-699(e)).
+- Credit excess over member liability is refunded without interest
+  (§12-699(f)(1)).
+- Members also get a credit for their share of substantially similar
+  taxes paid to another state or DC, "calculated in a manner
+  consistent with the provisions of section 12-704" (§12-699(f)(2)).
 
-## 5. Deadlines
+## Deadlines and filing
 
-| Filing | Calendar-year due date |
+| Filing | Due date |
 |---|---|
-| PTE tax payment | 15th day of the **3rd** month after year close — March 15 for calendar-year entities (§12-699(b) — verified) |
-| PTE estimated installments (§12-699a(b)) | Required when the required annual payment ≥ $1,000: 15th day of months 4, 6, 9, and 1 (of the next year); each installment 25% of the required annual payment (annualized-income alternative available) (§12-699a — verified) |
-| PTE required annual payment (§12-699a(a)) | Lesser of 90% of current-year PTE tax or 100% of prior-year PTE tax (prior year 12 months, return filed) (§12-699a — verified) |
-| Election notice | By the return due date / extended due date, annually (§12-699(b) — verified) |
+| PTE tax payment | "on or before the fifteenth day of the third month following the close of each taxable year" — mid-March for calendar-year entities (§12-699(b)) |
+| PTE estimated installments (§12-699a(b)) | required when the required annual payment is $1,000 or more: the fifteenth day of the fourth, sixth and ninth months of the taxable year and the first month of the next succeeding taxable year; each installment is twenty-five per cent of the required annual payment (annualized-income alternative available) (§12-699a(b)) |
+| PTE required annual payment (§12-699a(a)) | lesser of ninety per cent of the current-year PTE tax or one hundred per cent of the prior-year PTE tax (prior year twelve months, return filed) (§12-699a(a)) |
+| Election notice | not later than the return due date / extended due date, annually (§12-699(b)) |
 
-Note the March 15 payment date differs from the April 15 income-tax
+Note the mid-March payment date differs from the April income-tax
 return date — calendar the gap.
 
-## 6. Penalties and interest
+## Penalties and interest
 
-- Failure to pay PTE tax within 30 days: §12-35 collection warrant
-  and lien provisions apply (§12-699(g) — verified).
-- Underpaid PTE estimates: interest on underpayments per §12-699a
-  heading; rate in current text not re-audited this run —
-  needs-sources.
-- Historical $50 BET penalty and 1%/month interest under §12-284b
-  (verified text, pre-2020 regime).
+- Failure to pay PTE tax within thirty days of the due date: §12-35
+  collection warrant and lien provisions apply (§12-699(g)).
+- "If any tax is not paid when due as provided in this section, there
+  shall be added to the amount of the tax interest at the rate of one
+  per cent per month or fraction thereof from the date the tax became
+  due until it is paid" (§12-699(h)); the same one per cent per month
+  applies to underpaid PTE estimates (§12-699a(c)).
+- Historical fifty-dollar BET penalty under §12-284b (pre-2020
+  regime).
 
-## 7. Cross-border interactions
+## Cross-border points
 
 - The PTE base deliberately reaches **unsourced income of CT
-  residents** — multistate groups cannot park income in no-tax
-  states to escape CT (verified §12-699(a)(7)-(8)).
+  residents** — multistate groups cannot park income in no-tax states
+  to escape CT (§12-699(a)(7)-(8)).
 - Other states' PTE/composite taxes: members get a §12-699(f)(2)
-  credit for substantially similar taxes paid to other states
-  (verified).
-- Nonresident members: Connecticut's old composite election
-  (§12-699b) was **repealed effective January 1, 2024** (verified) —
-  nonresident members file CT-104PNR directly unless the entity
-  elects PTE.
+  credit for substantially similar taxes paid to another state or DC.
+- Nonresident members: Connecticut's old composite election (§12-699b)
+  "is repealed, effective January 1, 2024" — nonresident members file
+  CT-1040NR/PY directly unless the entity elects PTE.
 - Federal SALT-cap planning: the entity-level tax is the common
   workaround — coordinate with the federal advisor.
 
-## 8. Worked examples
+## Worked examples
 
-A calendar-year partnership (all members CT residents) with $1,000,000
-of CT-source income elects the PTE tax for 2026:
+Hypothetical facts. A calendar-year partnership (all members CT
+residents) with $1,000,000 of CT-source income elects the PTE tax for
+2026:
 
 ```oa-check
 name: PTE tax on CT-source income
@@ -148,23 +148,32 @@ expected:
   credit: 61162.50
 ```
 
-## 9. Ask the client
+## Ask the client first
 
 - Has the entity elected PTE for 2026 — and will it re-elect (the
   election is year-by-year)?
-- Are March 15 payment and the 4/6/9/1 estimated installments
-  calendared separately from the April 15 return?
+- Are the PTE payment date and the four estimated installment dates
+  calendared separately from the return due date?
 - What share of members are CT residents vs nonresidents — how much
   unsourced income falls into the base?
-- Do members track the 87.5% credit (not 100%) on CT-104/104NR?
+- Do members track the 87.5% credit (not 100%) on their CT-1040/1040NR?
 - Any lower-tier entity structures needing the §12-699(d)
   subtraction?
 
 ## Sources
 
-1. Conn. Gen. Stat. ch. 228z §§12-699, 12-699a, 12-699b (repealed 1/1/2024): https://www.cga.ct.gov/current/pub/chap_228z.htm (200 HTML, read 2026-10-27)
-2. Conn. Gen. Stat. §12-284b (affected business entity tax, ch. 213a): https://www.cga.ct.gov/current/pub/chap_213a.htm (200 HTML, read 2026-10-27)
-3. Connecticut DRS forms CT-106 / CT-1120S / CT-PTE: https://portal.ct.gov/forms (PDFs returned HTML to this agent 2026-10-27 — form-level cites needs-sources)
+| Source | URL | Read on |
+|---|---|---|
+| Conn. Gen. Stat. ch. 228z §§12-699, 12-699a, 12-699b (repealed 1/1/2024) | https://www.cga.ct.gov/current/pub/chap_228z.htm | 2026-10-28 |
+| Conn. Gen. Stat. §12-284b (affected business entity tax, ch. 213a) | https://www.cga.ct.gov/current/pub/chap_213a.htm | 2026-10-28 |
+| 2025 Form CT-PET instructions (DRS) | https://portal.ct.gov/-/media/drs/forms/2025/pass-through/ct-pet-instructions_1225.pdf | 2026-10-28 |
 
-<!-- openaccountants-cta-block -->
+Not yet confirmed: whether any current annual business entity tax applies after 1/1/2020 (the §12-284b text read covers earlier taxable years; current DRS practice was not confirmed); DRS form numbers and form-level line references for CT-106 / CT-1120S / CT-PTE (DRS form PDFs returned HTML to this agent in a prior run).
+
+## Talk to a verified accountant
+
 **Talk to a verified accountant** — for Connecticut PTE and pass-through questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+This skill is a source-cited draft; no accountant has reviewed it. Verify
+figures against the cited primary sources or with a licensed Connecticut
+professional before relying on them.

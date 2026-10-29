@@ -11,12 +11,10 @@ trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
+## Who this applies to
 
-# Connecticut resident income tax (Form CT-1040), including sole proprietors
 
-## Scope and who this is for ([2025 Form CT-1040 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf))
-
-This skill covers the Connecticut resident individual income tax return, **Form CT-1040**, for **tax year 2026** (returns filed in 2027), with a dated section for **2025 returns** (due 15 April 2026, or 15 October 2026 on extension). It is written for full-year Connecticut residents, including sole proprietors and owners of a single-member LLC that is disregarded for federal tax, whose business profit reaches Connecticut through federal adjusted gross income (AGI).
+This skill covers the Connecticut resident individual income tax return, **Form CT-1040**, for **tax year 2026** (returns filed in 2027), with a dated section for **2025 returns** (due April 15, 2026, or October 15, 2026 on extension). It is written for full-year Connecticut residents, including sole proprietors and owners of a single-member LLC that is disregarded for federal tax, whose business profit reaches Connecticut through federal adjusted gross income (AGI).
 
 The Connecticut tax tables (Tables A to E) for 2026 are the same as for 2025: the 2026 Form CT-1040ES prints "Table A - Personal Exemptions for 2026 Taxable Year", "Table B - Initial Tax Calculation for 2026 Taxable Year" and "Table E - Personal Tax Credits for 2026 Taxable Year" with the same amounts as the 2025 instructions. The 2026 Form CT-1040 instructions were not published when this skill was written (25 September 2026); where a 2026 figure comes only from the 2025 instructions, it is labelled 2025.
 
@@ -26,43 +24,8 @@ It does **not** cover part-year residents or nonresidents (Form CT-1040NR/PY), t
 
 **Who must file (2025).** A resident must file if any of these is true: Connecticut tax was withheld; estimated tax or an extension payment was made; the person had a PE Tax Credit; the gross income test is met; the person had a federal alternative minimum tax liability; or the person claims the Connecticut earned income tax credit. The gross income test is met when gross income **exceeds** $12,000 (married filing separately), $15,000 (single), $19,000 (head of household) or $24,000 (married filing jointly or qualifying surviving spouse). Gross income means gross, not net: DRS's own example is a sole proprietor with $100,000 of Schedule C gross income and $8,000 net profit, who must file. Gross income also includes any additions required on Form CT-1040, Schedule 1, for example interest on other states' bonds or a 168(k) or 179 add-back. Federally non-taxable Social Security is not gross income. For 2026, the same amounts are the Table A exemption maximums in the 2026 Form CT-1040ES; confirm the gross income test when the 2026 instructions are published.
 
-## Ask the client first
+## Rates, bands and thresholds
 
-- Which tax year? 2025 and 2026 use the same Tables A to E, but the IRA share of the pension subtraction rises from 75% (2025) to 100% (2026) ([2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf)).
-- Resident all year? Domicile, any Connecticut home kept all year, and days in Connecticut (more than 183). If the person moved in or out, stop (Form CT-1040NR/PY).
-- Filing status. It generally must match federal status, but a Connecticut resident married to a nonresident files married filing separately unless they file jointly federally and elect to be treated as both residents.
-- Federal AGI (2025 Form 1040, line 11a) and the pieces inside it: Schedule C profit, taxable IRA distributions (line 4b), taxable pensions and annuities (line 5b), taxable Social Security (line 6b).
-- For the business: was federal **bonus depreciation (section 168(k))** or a **section 179** deduction claimed this year or in the previous four years? Each needs a Connecticut adjustment.
-- Interest from other states' bonds (addition), and interest from U.S. or Connecticut obligations (subtraction).
-- Is the client a partner, LLC member or S corporation shareholder of an entity that elected to pay the Connecticut pass-through entity (PE) tax? Get Schedule CT K-1, Part 4, Line 1.
-- Income taxed by another state (for example wages taxed by New York), and a copy of that state's return.
-- Federal earned income credit, qualifying children, investment income.
-- Property tax paid in the year to a Connecticut town on the main home and on up to one or two cars (see Property tax credit).
-- Connecticut withholding, estimated payments (dates and amounts), prior-year Connecticut tax, and any extension payment.
-
-## The method, step by step
-
-Form CT-1040 line numbers are from the 2025 return.
-
-1. **Line 1, federal AGI.** Enter federal adjusted gross income from Form 1040 line 11a, not federal taxable income. A sole proprietor's Schedule C profit, the deduction for half of self-employment tax, self-employed health insurance and SEP or solo 401(k) contributions all sit inside federal AGI, so they flow through with no Connecticut entry. The same goes for a home office deduction taken on Schedule C: Connecticut AGI is federal AGI plus only the Schedule 1 modifications ([DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information)), and none of them adjusts it. Deductions taken after federal AGI do not reach Connecticut: on the 2025 [Form 1040](https://www.irs.gov/pub/irs-pdf/f1040.pdf) these include the qualified business income deduction (line 13a), the Schedule 1-A additional deductions (line 13b, which carry the new federal deductions for tips, overtime, car loan interest and seniors) and the federal standard deduction.
-2. **Line 2, additions (Schedule 1, Line 38).** For a business owner the key ones are 100% of the section 168(k) bonus depreciation deducted this year (Line 36, [2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)) and 80% of the section 179 deduction (Line 36a). Others: interest and exempt-interest dividends from non-Connecticut state and local bonds (Lines 31-32), lump-sum distributions taxed on Form 4972 (Line 33), and Connecticut income tax deducted in reaching federal AGI (Line 37).
-3. **Line 4, subtractions (Schedule 1, Line 50).** For a business owner: 25% of the 168(k) amount added back in each of the four preceding years (Line 48a, [2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)) and 25% of the 179 amount added back in each of the four preceding years (Line 49, item 10). Others: U.S. obligation interest (Line 39), the Social Security adjustment (Line 41), state income tax refunds (Line 42), railroad retirement (Line 43), military retirement pay (Line 44), 50% of Connecticut teachers' retirement pay (Line 45), CHET contributions (Line 48), the pension and annuity subtraction (Line 48b) and ABLE contributions (Line 48d).
-4. **Line 5, Connecticut AGI** = Line 1 + Line 2 - Line 4. If Line 5 is at or below the Table A exemption maximum for the filing status, Line 6 is 0.
-5. **Tax Calculation Schedule** (instructions page 19; 2026 Form CT-1040ES page 3):
-   - Line 2: personal exemption from **Table A**. Line 3: Connecticut taxable income = Connecticut AGI minus the exemption.
-   - Line 4: **Table B** on taxable income.
-   - Line 5: **Table C** 2% phase-out add-back, looked up on Connecticut **AGI**, not taxable income ([2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)).
-   - Line 6: **Table D** recapture, also on Connecticut AGI.
-   - Line 7 = Lines 4 + 5 + 6.
-   - Line 8: **Table E** personal tax credit decimal, on Connecticut AGI. Line 9 = Line 7 x decimal. Line 10 = Line 7 - Line 9 = Form CT-1040 Line 6.
-   - DRS tax tables may be used instead where Connecticut AGI is $102,000 or less ([2025 instructions, page 2](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)).
-6. **Line 7, credit for income tax paid to qualifying jurisdictions** (Schedule 2): other U.S. states, their local governments and DC only, never foreign countries. The credit is the least of the tax paid there, the Connecticut tax on that income, or Line 6. Complete Schedule 3 before Schedule 2.
-7. **Line 9, Connecticut AMT** only if the client paid federal AMT (Form CT-6251).
-8. **Line 11, property tax credit** (Schedule 3); **Line 13**, other credits (Schedule CT-IT Credit, never the PE Tax Credit); **Line 14**, Connecticut income tax; **Line 15**, use tax from Schedule 4 (enter 0 if none, or no use tax return has been filed).
-9. **Payments and refundable credits:** withholding (Line 18), estimated payments (Line 19), extension payment (Line 20), CT EITC (Line 20a), claim of right credit (Line 20b), PE Tax Credit from Schedule CT-PE (Line 20c).
-10. **Lines 22 to 30:** overpayment or tax due, then late payment penalty (Line 27), interest (Line 28) and estimated tax interest (Line 29).
-
-## Rates, thresholds and figures by year
 
 ### Table B, initial tax (2025 and 2026, all rates from 2024) ([2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf))
 
@@ -188,7 +151,31 @@ A decimal of the tax on Line 7, looked up on Connecticut AGI. It starts at .75 a
 - Each member's PE Tax Credit is 87.5% of the member's share of PE tax paid (Form CT-PET, "Multiply Column H by 87.5% (.875)"). The member claims it on Schedule CT-PE, which must be attached, and enters it on CT-1040 Line 20c. Any excess over the member's liability is refunded, but DRS pays no interest on a refund that results from a PE Tax Credit.
 - A resident's Schedule 2 credit can include the resident's share of a substantially similar entity-level tax paid to another state.
 
+## The taxable base
+
+
+Form CT-1040 line numbers are from the 2025 return.
+
+1. **Line 1, federal AGI.** Enter federal adjusted gross income from Form 1040 line 11a, not federal taxable income. A sole proprietor's Schedule C profit, the deduction for half of self-employment tax, self-employed health insurance and SEP or solo 401(k) contributions all sit inside federal AGI, so they flow through with no Connecticut entry. The same goes for a home office deduction taken on Schedule C: Connecticut AGI is federal AGI plus only the Schedule 1 modifications ([DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information)), and none of them adjusts it. Deductions taken after federal AGI do not reach Connecticut: on the 2025 [Form 1040](https://www.irs.gov/pub/irs-pdf/f1040.pdf) these include the qualified business income deduction (line 13a), the Schedule 1-A additional deductions (line 13b, which carry the new federal deductions for tips, overtime, car loan interest and seniors) and the federal standard deduction.
+2. **Line 2, additions (Schedule 1, Line 38).** For a business owner the key ones are 100% of the section 168(k) bonus depreciation deducted this year (Line 36, [2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)) and 80% of the section 179 deduction (Line 36a). Others: interest and exempt-interest dividends from non-Connecticut state and local bonds (Lines 31-32), lump-sum distributions taxed on Form 4972 (Line 33), and Connecticut income tax deducted in reaching federal AGI (Line 37).
+3. **Line 4, subtractions (Schedule 1, Line 50).** For a business owner: 25% of the 168(k) amount added back in each of the four preceding years (Line 48a, [2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)) and 25% of the 179 amount added back in each of the four preceding years (Line 49, item 10). Others: U.S. obligation interest (Line 39), the Social Security adjustment (Line 41), state income tax refunds (Line 42), railroad retirement (Line 43), military retirement pay (Line 44), 50% of Connecticut teachers' retirement pay (Line 45), CHET contributions (Line 48), the pension and annuity subtraction (Line 48b) and ABLE contributions (Line 48d).
+4. **Line 5, Connecticut AGI** = Line 1 + Line 2 - Line 4. If Line 5 is at or below the Table A exemption maximum for the filing status, Line 6 is 0.
+5. **Tax Calculation Schedule** (instructions page 19; 2026 Form CT-1040ES page 3):
+   - Line 2: personal exemption from **Table A**. Line 3: Connecticut taxable income = Connecticut AGI minus the exemption.
+   - Line 4: **Table B** on taxable income.
+   - Line 5: **Table C** 2% phase-out add-back, looked up on Connecticut **AGI**, not taxable income ([2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)).
+   - Line 6: **Table D** recapture, also on Connecticut AGI.
+   - Line 7 = Lines 4 + 5 + 6.
+   - Line 8: **Table E** personal tax credit decimal, on Connecticut AGI. Line 9 = Line 7 x decimal. Line 10 = Line 7 - Line 9 = Form CT-1040 Line 6.
+   - DRS tax tables may be used instead where Connecticut AGI is $102,000 or less ([2025 instructions, page 2](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)).
+6. **Line 7, credit for income tax paid to qualifying jurisdictions** (Schedule 2): other U.S. states, their local governments and DC only, never foreign countries. The credit is the least of the tax paid there, the Connecticut tax on that income, or Line 6. Complete Schedule 3 before Schedule 2.
+7. **Line 9, Connecticut AMT** only if the client paid federal AMT (Form CT-6251).
+8. **Line 11, property tax credit** (Schedule 3); **Line 13**, other credits (Schedule CT-IT Credit, never the PE Tax Credit); **Line 14**, Connecticut income tax; **Line 15**, use tax from Schedule 4 (enter 0 if none, or no use tax return has been filed).
+9. **Payments and refundable credits:** withholding (Line 18), estimated payments (Line 19), extension payment (Line 20), CT EITC (Line 20a), claim of right credit (Line 20b), PE Tax Credit from Schedule CT-PE (Line 20c).
+10. **Lines 22 to 30:** overpayment or tax due, then late payment penalty (Line 27), interest (Line 28) and estimated tax interest (Line 29).
+
 ## Boundary and exception table
+
 
 | Situation | Rule | Source |
 | --- | --- | --- |
@@ -201,16 +188,51 @@ A decimal of the tax on Line 7, looked up on Connecticut AGI. It starts at .75 a
 | Connecticut tax after withholding and PE Tax Credit under $1,000 | No estimated payments required | [2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf) |
 | Resident with no 2025 return because no Connecticut liability | No 2026 estimated payments required | same |
 | Credit for tax paid to Canada or another foreign country | Not allowed; only U.S. states, their local governments and DC | [2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf) |
-| Extension payment made after 15 April | DRS will deny the extension request | [DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information) |
+| Extension payment made after April 15 | DRS will deny the extension request | [DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information) |
 | Part-year resident wanting the CT EITC | Not allowed; full-year residents only | [2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf) |
 | Property tax bill paid late, with interest | The late payment and the interest do not qualify for the property tax credit | same |
 
-## Worked cases ([2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf); [2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf))
+## Deadlines and filing
+
+
+- **2025 returns:** due on the fifteenth day of the fourth month following the close of the taxable year ([DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information)) — April 15, 2026 for calendar-year 2025 returns (next business day if on a weekend or holiday). Form CT-1040 EXT gives a six-month extension to **October 15, 2026**, "to file", not to pay ([2025 Form CT-1040 EXT](https://portal.ct.gov/-/media/drs/forms/2025/income/ct-1040-ext_1225.pdf)). Form CT-1040 EXT is not needed if the client has a federal extension and expects to owe no more Connecticut tax, or pays the expected tax by credit card by the due date.
+- **2026 returns:** tax must be fully paid by April 15, 2027, with a timely return or an extension request.
+- **Estimated tax for 2026** ([2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf)): required if Connecticut tax after withholding and the PE Tax Credit is $1,000 or more **and** withholding (including the PE Tax Credit) is expected to be less than the required annual payment. The required annual payment is the lesser of 90% of the 2026 tax or 100% of the 2025 tax (only if the 2025 return covered 12 months). Installments of 25% of the required annual payment are due April 15, June 15, September 15, 2026 and January 15, 2027. On the 90% basis, each installment is 22.5% of the 2026 tax. The annualized income installment method (Worksheet CT-1040 AES) can reduce early installments. Farmers and fishermen make one payment by January 15, 2027 (the lesser of 66 2/3% of 2026 tax or 100% of 2025 tax). A farmer or fisherman who files the 2026 return and pays in full by March 1, 2027 is not charged interest for underpaying estimated tax.
+- **Hardship:** Form CT-1127 can give up to six months more to pay; interest still runs from the original due date.
+
+## Penalties and interest
+
+- **Interest on underpaid estimates:** 1% per month or part of a month, per installment, until the earlier of April 15, 2027 or payment. No interest for the missed January installment if the 2026 return is filed and paid in full by January 31, 2027. Use Form CT-2210, or let DRS send a bill.
+- **Late payment:** penalty of 10% of the tax due, plus interest at 1% per month or part of a month from the due date. Interest cannot be waived. With a granted extension, there is no late payment penalty if at least 90% of the tax was paid by the original due date and the rest is paid with the return by the extended date.
+- **Late filing with no tax due:** DRS may impose a $50 penalty. If DRS files the return for the client, the penalty is 10% of the balance due or $50, whichever is greater ([DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information)).
+- File and pay through myconneCT or approved software; by mail, use Form CT-1040V or CT-1040ES.
+
+## Cross-border points
+
+
+- **Line 7 credit for income tax paid to qualifying jurisdictions**
+  (Schedule 2): other U.S. states, their local governments and DC
+  only, never foreign countries. The credit is the least of the tax
+  paid there, the Connecticut tax on that income, or Line 6. Complete
+  Schedule 3 before Schedule 2 ([2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf)).
+- A resident's Schedule 2 credit can include the resident's share of
+  a substantially similar entity-level tax paid to another state
+  (see `ct-s-corporation-tax` on the §12-699(f)(2) credit;
+  Conn. Gen. Stat. §12-704 governs the resident credit under chapter
+  229, [Chapter 229](https://www.cga.ct.gov/current/pub/chap_229.htm)).
+- Residency edges (domicile, the permanent-place-of-abode and
+  more-than-183-days tests, Group A and Group B) and multistate
+  business income are cross-border questions — see the referral list
+  below and `ct-cross-border` for nexus and PL 86-272.
+## Worked examples
+
+Illustrations with assumed (hypothetical) client facts; check each lookup against the full DRS tables. Sources: [2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf); [2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf).
+
 
 Illustrations with assumed facts; check each lookup against the full DRS tables.
 
 **Case 1: single sole proprietor, 2026.** Federal AGI $80,000, all from Schedule C profit after the self-employment tax deduction; no Connecticut modifications. Connecticut AGI is $80,000. Table A: AGI is more than $44,000, so the exemption is $0, and taxable income is $80,000. Table B: $2,000 plus 5.5% of $30,000 ($1,650) = $3,650. Table C: $80,000 falls in the band more than $76,500 and not more than $81,500, so $125. Table D: $0 (not more than $105,000). Line 7 = $3,775. Table E: .00 (more than $64,500). **Connecticut income tax: $3,775.**
-Estimated tax: 90% of $3,775 is $3,397.50. If the 2025 Connecticut tax was $3,200, the required annual payment is the lesser, $3,200, paid as four installments of 25% ($800 each) on 15 April, 15 June, 15 September 2026 and 15 January 2027.
+Estimated tax: 90% of $3,775 is $3,397.50. If the 2025 Connecticut tax was $3,200, the required annual payment is the lesser, $3,200, paid as four installments of 25% ($800 each) on April 15, June 15, September 15, 2026 and January 15, 2027.
 
 **Case 2: married couple, pensions, 2025 and 2026.** Married filing jointly. Federal AGI $121,250, which includes a $30,000 pension (line 5b) and a $20,000 traditional IRA distribution (line 4b). Pension worksheet for 2025: 75% of $20,000 is $15,000, plus $30,000 = $45,000. Federal AGI of $121,250 is in the $120,000 to $124,999 row, so the decimal is .25, and the subtraction is $11,250. Connecticut AGI = $110,000. Exemption $0 (more than $71,000). Table B: $4,000 plus 5.5% of $10,000 ($550) = $4,550. Table C: more than $105,500 and not more than $110,500, so $100. Table D: $0. Table E: .00. **2025 tax: $4,650.** For 2026 with the same facts, 100% of the IRA counts: $50,000 x .25 = $12,500, so Connecticut AGI would be $108,750.
 
@@ -228,6 +250,7 @@ Estimated tax: 90% of $3,775 is $3,397.50. If the 2025 Connecticut tax was $3,20
 
 ## When to refuse or refer
 
+
 - Part-year residents, nonresidents, or anyone whose residency is disputed (domicile, the permanent place of abode and more-than-183-days test, Group A or Group B). Refer.
 - Clients with a federal AMT liability (Form CT-6251), or a prior-year Connecticut AMT credit.
 - Multistate business income that needs allocation or apportionment, the Schedule 2 credit with more than one jurisdiction, city-and-state overlaps, or a "convenience of the employer" dispute with another state.
@@ -237,18 +260,23 @@ Estimated tax: 90% of $3,775 is $3,397.50. If the 2025 Connecticut tax was $3,20
 - Audits, DRS notices, penalty waivers and any appeal.
 - Any request to hide income, invent expenses or take an aggressive position.
 
-## Filing and payment ([DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information))
+## Ask the client first
 
-- **2025 returns:** due 15 April 2026 (15th day of the fourth month for non-calendar years; next business day if on a weekend or holiday). Form CT-1040 EXT gives a six-month extension to **15 October 2026**, "to file", not to pay ([2025 Form CT-1040 EXT](https://portal.ct.gov/-/media/drs/forms/2025/income/ct-1040-ext_1225.pdf)). Form CT-1040 EXT is not needed if the client has a federal extension and expects to owe no more Connecticut tax, or pays the expected tax by credit card by the due date.
-- **2026 returns:** tax must be fully paid by 15 April 2027, with a timely return or an extension request.
-- **Estimated tax for 2026** ([2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf)): required if Connecticut tax after withholding and the PE Tax Credit is $1,000 or more **and** withholding (including the PE Tax Credit) is expected to be less than the required annual payment. The required annual payment is the lesser of 90% of the 2026 tax or 100% of the 2025 tax (only if the 2025 return covered 12 months). Installments of 25% of the required annual payment are due 15 April, 15 June, 15 September 2026 and 15 January 2027. On the 90% basis, each installment is 22.5% of the 2026 tax. The annualized income installment method (Worksheet CT-1040 AES) can reduce early installments. Farmers and fishermen make one payment by 15 January 2027 (the lesser of 66 2/3% of 2026 tax or 100% of 2025 tax). A farmer or fisherman who files the 2026 return and pays in full by 1 March 2027 is not charged interest for underpaying estimated tax.
-- **Interest on underpaid estimates:** 1% per month or part of a month, per installment, until the earlier of 15 April 2027 or payment. No interest for the missed January installment if the 2026 return is filed and paid in full by 31 January 2027. Use Form CT-2210, or let DRS send a bill.
-- **Late payment:** penalty of 10% of the tax due, plus interest at 1% per month or part of a month from the due date. Interest cannot be waived. With a granted extension, there is no late payment penalty if at least 90% of the tax was paid by the original due date and the rest is paid with the return by the extended date.
-- **Late filing with no tax due:** DRS may impose a $50 penalty. If DRS files the return for the client, the penalty is 10% of the balance due or $50, whichever is greater ([DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information)).
-- **Hardship:** Form CT-1127 can give up to six months more to pay; interest still runs from the original due date.
-- File and pay through myconneCT or approved software; by mail, use Form CT-1040V or CT-1040ES.
 
-## Completion checklist ([2025 instructions](https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf))
+- Which tax year? 2025 and 2026 use the same Tables A to E, but the IRA share of the pension subtraction rises from 75% (2025) to 100% (2026) ([2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf)).
+- Resident all year? Domicile, any Connecticut home kept all year, and days in Connecticut (more than 183). If the person moved in or out, stop (Form CT-1040NR/PY).
+- Filing status. It generally must match federal status, but a Connecticut resident married to a nonresident files married filing separately unless they file jointly federally and elect to be treated as both residents.
+- Federal AGI (2025 Form 1040, line 11a) and the pieces inside it: Schedule C profit, taxable IRA distributions (line 4b), taxable pensions and annuities (line 5b), taxable Social Security (line 6b).
+- For the business: was federal **bonus depreciation (section 168(k))** or a **section 179** deduction claimed this year or in the previous four years? Each needs a Connecticut adjustment.
+- Interest from other states' bonds (addition), and interest from U.S. or Connecticut obligations (subtraction).
+- Is the client a partner, LLC member or S corporation shareholder of an entity that elected to pay the Connecticut pass-through entity (PE) tax? Get Schedule CT K-1, Part 4, Line 1.
+- Income taxed by another state (for example wages taxed by New York), and a copy of that state's return.
+- Federal earned income credit, qualifying children, investment income.
+- Property tax paid in the year to a Connecticut town on the main home and on up to one or two cars (see Property tax credit).
+- Connecticut withholding, estimated payments (dates and amounts), prior-year Connecticut tax, and any extension payment.
+
+## Completion checklist
+
 
 - [ ] Residency and filing status confirmed; Form CT-1040 is the right return.
 - [ ] Line 1 equals federal Form 1040 line 11a; nothing from Schedule 1-A or the QBI deduction applied.
@@ -261,13 +289,36 @@ Estimated tax: 90% of $3,775 is $3,397.50. If the 2025 Connecticut tax was $3,20
 - [ ] PE Tax Credit agrees to Schedule CT K-1; Schedule CT-PE attached.
 - [ ] Use tax Line 15 filled in (0 if none).
 - [ ] 2026 estimated payments set up, or a reason recorded why none are needed.
-- [ ] Return filed and tax paid by 15 April, or Form CT-1040 EXT filed with payment by then.
+- [ ] Return filed and tax paid by April 15, or Form CT-1040 EXT filed with payment by then.
 
 <!-- openaccountants-cta-block -->
 
 ---
 
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| 2025 Form CT-1040 instructions (DRS) | https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf | 2026-10-28 |
+| 2026 Form CT-1040ES (DRS) | https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf | 2026-10-28 |
+| DRS resident income tax information page | https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information | 2026-10-28 |
+| 2025 Form CT-1040 EXT (DRS) | https://portal.ct.gov/-/media/drs/forms/2025/income/ct-1040-ext_1225.pdf | 2026-10-28 |
+| 2025 Form CT-PET instructions (DRS) | https://portal.ct.gov/-/media/drs/forms/2025/pass-through/ct-pet-instructions_1225.pdf | 2026-10-28 |
+| DRS 2026 state tax developments | https://portal.ct.gov/drs/miscellaneous-taxes/other-tax-page/state-tax-developments/2026-developments | 2026-10-28 |
+| DRS 2025 income-tax legislative overview | https://portal.ct.gov/drs/miscellaneous-taxes/other-tax-page/state-tax-developments/2025-developments/income-tax | 2026-10-28 |
+| Conn. Gen. Stat. ch. 229 (Income Tax) §§12-700, 12-701, 12-704, 12-704c | https://www.cga.ct.gov/current/pub/chap_229.htm | 2026-10-28 |
+| Conn. Gen. Stat. ch. 228z (PTE tax) §12-699 | https://www.cga.ct.gov/current/pub/chap_228z.htm | 2026-10-28 |
+
+Not yet confirmed: the 2026 Form CT-1040 instructions (not published when this skill was written — 2026 figures above come from the 2026 Form CT-1040ES and the 2025 instructions); the gross income filing thresholds for tax year 2026 (the 2025 amounts are carried forward and must be confirmed against the 2026 instructions when published); federal Schedule 1-A line references after P.L. 119-21.
+
 ## Talk to a verified accountant
+
+<!-- openaccountants-cta-block -->
+
+---
+
+
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
