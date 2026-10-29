@@ -451,7 +451,6 @@ Multi-state: GoodSoft has 3 remote employees outside Minnesota (1 in WI, 1 in ND
 | --- | --- |
 | Minn. Stat. §291.04 (withholding): <https://www.revisor.mn.gov/statutes/cite/291.04> — statute text archived | 2026-10-28 |
 | Minn. Stat. §297A.02 (sales/use tax context): <https://www.revisor.mn.gov/statutes/cite/297A.02> — statute text archived | 2026-10-28 |
-| Minn. Stat. §268B.14 (Paid Leave premiums): <https://www.revisor.mn.gov/statutes/cite/268B.14> — statute text archived | 2026-10-25 |
 | Minn. Stat. Chapter 290, Chapter 268, Chapter 268B, §181.032, §181.101, §181.13, §181.14, §181.722, §181.723, §181.9445–§181.9448, §326B, §177.41 et seq. — cited in the skill; not yet archived | 2026-10-28 |
 | Minnesota DOR Withholding Instruction Booklet and Tax Tables (2025); DEED UI Employer Handbook (2025); DEED and DLI publications — cited in the skill; not yet archived | 2026-10-28 |
 
@@ -483,7 +482,6 @@ Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 p
 - Final wages — discharged: within 24 hrs of demand, else next payday (≤20 days); voluntary quit: next regular payday (≤20 days) (unchanged)
 - Construction classification — §181.723 multi-element + DLI registration (unchanged)
 
-<!-- openaccountants-cta-block -->
 
 ---
 
@@ -513,10 +511,7 @@ Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 p
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a

@@ -239,10 +239,7 @@ No worked examples yet — the rate tables above are the deterministic inputs; c
 
 | Source | Read on |
 | --- | --- |
-| Minnesota DOR — Income Tax Rates and Brackets (2026): <https://www.revenue.state.mn.us/minnesota-income-tax-rates-and-brackets> | 2026-05-22 |
-| Minnesota DOR — 2026 Bracket Announcement: <https://www.revenue.state.mn.us/press-release/2025-12-16/minnesota-income-tax-brackets-standard-deduction-and-dependent-exemption> | 2026-05-22 |
 | Minn. Stat. § 290.06: <https://www.revisor.mn.gov/statutes/cite/290.06> — statute text archived | 2026-10-28 |
-| Minnesota Form M1 Instructions: <https://www.revenue.state.mn.us/form-m1-individual-income-tax> | 2026-05-22 |
 
 Not yet confirmed: the DOR rates/brackets page, the 2026 bracket-announcement press release, and the Form M1 instructions page are not yet archived; the 2026 bracket dollar figures and standard-deduction amounts therefore remain not yet confirmed.
 ## Disclaimer
@@ -250,22 +247,13 @@ Not yet confirmed: the DOR rates/brackets page, the 2026 bracket-announcement pr
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained by the OpenAccountants network.
-
-<!-- openaccountants-cta-block -->
-
----
-
 ## Talk to a verified accountant
 
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a

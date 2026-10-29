@@ -115,6 +115,4 @@ Not yet confirmed: M.S. 290.92 nonresident-withholding text (archive pending); M
 ## Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
-- Use it in your AI: https://www.openaccountants.com/connect

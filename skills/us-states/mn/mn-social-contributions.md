@@ -121,7 +121,6 @@ expected:
 
 | Source | Read on |
 | --- | --- |
-| M.S. 268B.14 (PFML premiums): <https://www.revisor.mn.gov/statutes/cite/268B.14> — statute text archived (as_of 2026 rates) | 2026-10-25 |
 | M.S. 290A.03 (MinnesotaCare): <https://www.revisor.mn.gov/statutes/cite/290A.03> — page archived; rate text JS-rendered, figures not readable from archive | 2026-10-28 |
 | `mn-payroll` skill (UI, MinnesotaCare) — internal corroboration | 2026-10-25 |
 
@@ -129,6 +128,4 @@ Not yet confirmed: the 0.7% MinnesotaCare provider-tax rate text (290A.03 archiv
 ## Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
-- Use it in your AI: https://www.openaccountants.com/connect

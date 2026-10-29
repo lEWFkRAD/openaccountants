@@ -31,7 +31,6 @@ Sellers with Minnesota nexus — a physical presence or economic nexus ($100,000
 | Sourcing | Destination-based (SST) |
 | Economic nexus | $100,000 OR 200 transactions |
 | Tax authority | Minnesota Department of Revenue (MNDOR) |
-| Portal | https://www.revenue.state.mn.us |
 | SST member | Yes (full member) |
 | Clothing exemption | Yes -- ALL clothing exempt |
 | Skill version | 2.0 |
@@ -85,7 +84,6 @@ No worked examples yet — this skill's standing rule is to state rates and taxa
 | --- | --- |
 | M.S. 297A.02 (tax base, rates, clothing exemption): <https://www.revisor.mn.gov/statutes/cite/297A.02> — statute text archived | 2026-10-28 |
 | M.S. 297A.03 (use tax): <https://www.revisor.mn.gov/statutes/cite/297A.03> — statute text archived | 2026-10-28 |
-| Minnesota DOR portal: <https://www.revenue.state.mn.us> — portal landing page, not yet archived | 2026-10-28 |
 
 Not yet confirmed: the 6.875% state rate, local rate range, ~8.875% combined cap, and the $100,000 / 200-transaction economic-nexus thresholds (DOR pages not yet archived).
 ## Disclaimer
@@ -98,22 +96,13 @@ Informational only. Review by qualified professional required before filing.
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained by the OpenAccountants network. Request a professional review from a licensed accountant and track updates as tax law changes.
-
-<!-- openaccountants-cta-block -->
-
----
-
 ## Talk to a verified accountant
 
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a

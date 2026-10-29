@@ -68,6 +68,262 @@ Important characterization: Minnesota calls this a **franchise tax** measured by
 
 Minnesota taxable income starts from the federal tax base with the §290.0133/0134 additions and subtractions (see §5 Apportionment and §9 NOL below for the base-level mechanics).
 
+## Deadlines and filing
+
+
+### 10.1 Form M4 (corporate franchise)
+
+- **Form M4 due date and extension** — Due date: 15th day of the 4th month after year-end. For calendar-year C-corps, April 15, 2026 for tax year 2025. For fiscal-year corps, the 15th of the 4th month after the fiscal year-end. (Note: Minnesota historically had a March 15 due date; it shifted to April 15 to match the federal post-TCJA C-corp due date.) Extension: Minnesota grants an automatic 7-month extension to file if at least 90% of the tax liability is paid by the original due date. No extension form is required if the federal extension is filed; otherwise file Form M4 with the extension box checked.
+- **Forms in the M4 package** — Form M4 — main franchise tax return; Schedule M4I — corporate income and apportionment computation; Schedule M4A — apportionment factor detail; Schedule M4NC — NOL computation; Schedule M4T — tax computation (regular and AMT); Schedule RD — R&D credit; Schedule M4PI — pass-through income (if the corp is a partner in a partnership); Schedule NIIT — N/A for C-corps (this is for individuals)
+
+### 10.2 Form M8 (S-corporation)
+
+- **Form M8 details** — S-corp itself files M8 (no entity tax unless PTE elected; minimum fee still applies); KS schedules issued to shareholders (Minnesota analog of federal K-1); Due date: 15th day of the 3rd month after year-end (March 15 for calendar year)
+
+### 10.3 Form M3 (partnership)
+
+- **Form M3 details** — Partnership files M3 (no entity tax unless PTE elected; minimum fee applies); KPI schedules issued to partners (individual partners) and KPC to corporate partners; Due date: 15th day of the 3rd month after year-end (March 15 for calendar year)
+
+### 10.4 Estimated tax
+
+- **C-corp quarterly estimates** — C-corps (M4): Quarterly estimates under Minn. Stat. §289A.25. Due April 15, June 15, September 15, December 15 (15th day of 4th, 6th, 9th, 12th month of the tax year for calendar-year filers). Safe harbor: pay the lesser of (a) 100% of prior year tax (if prior year was a 12-month tax year) or (b) 90% of current year tax. Required if MN tax liability is > $500.  _(Minn. Stat. §289A.25)_
+- **Splitting and underpayment penalty** — Splitting: Equal quarterly payments (25/25/25/25) or annualized income installment method available for seasonal/lumpy income. Underpayment penalty: Computed on Schedule M15C (corporations) using the short-period interest rate published by DOR. S-corps and partnerships (PTE election): Quarterly estimates required for the PTE tax itself — see §11 below.
+
+### 10.5 E-filing and payment
+
+- **E-filing and payment methods** — Minnesota mandates e-filing for most corporate returns. Payments via: Minnesota e-Services portal (preferred); ACH credit/debit; Wire transfer; Check with voucher (paper only, generally discouraged)
+
+## Penalties and interest
+
+Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid corporate liabilities (M.S. 289A.25/.26 estimated-tax regime above; the §289A.21 penalty schedule is not yet confirmed).
+
+## Cross-border points
+
+Cross-border and combined-reporting detail lives in `mn-transfer-pricing-combined-reporting` and `mn-cross-border-tax`; the tax-haven list, 80/20 rule, and GILTI/FDII sections above carry the federal overlay.
+
+## Worked examples
+
+
+### 13.1 Example A — Simple Minnesota C-corporation
+
+**Facts**:
+- Acme Manufacturing, Inc., a Minnesota-domiciled C-corp
+- All operations in Minnesota (100% apportionment)
+- Federal taxable income (Form 1120 Line 28, before NOL/special deductions): **$5,000,000**
+- No federal bonus depreciation timing differences this year (steady-state)
+- No NOL carryforward
+- MN sales: $20M, MN payroll: $8M, MN property: $15M → PP&S = $43M
+
+**MN regular tax**:
+- MN taxable income = $5,000,000 (no significant MN adjustments)
+- MN apportionment = 100%
+- MN regular tax = $5,000,000 × 9.8% = **$490,000**
+
+**MN AMT**:
+- MN AMTI ≈ $5,000,000 (no significant preferences)
+- MN AMT = $5,000,000 × 5.8% = $290,000
+- AMT < Regular Tax, so AMT does not apply
+
+**Minimum fee**:
+- PP&S = $43M → falls in the $42M+ bracket → minimum fee = **$10,460**
+
+**Total MN franchise tax**:
+- $490,000 (regular) + $10,460 (min fee) = **$500,460**
+
+**Estimated tax**:
+- 4 × $125,115 quarterly installments (or 25% of safe harbor calc)
+
+### 13.2 Example B — Multinational with Cayman tax-haven subsidiary forced into combined return
+
+**Facts**:
+- TechParent, Inc., Minnesota-domiciled C-corp
+- TechOps US, Inc. (Delaware C-corp, 100% subsidiary of TechParent) — US operating subsidiary
+- TechIP Holdings, Ltd. (Cayman Islands, 100% subsidiary of TechParent) — holds IP, licenses to TechOps US for $10M/year royalty
+- All three are 100% commonly owned and functionally integrated (unitary)
+- TechIP has no US property or payroll (would qualify as 80/20 if not for tax-haven inclusion)
+- **Cayman Islands is on the §290.01 subd. 5b tax-haven list → TechIP IS included in MN combined return**
+
+**Federal level**:
+- TechParent files consolidated 1120 with TechOps US (federal consolidated return for ≥80% owned domestic subsidiaries — Cayman is foreign and not in federal consolidated)
+- Cayman royalty income flows through to federal taxable income via Subpart F or GILTI mechanisms at the US shareholder level
+- Assume net combined US federal taxable income after Subpart F/GILTI inclusions: $50M
+
+**MN combined return**:
+- Group members: TechParent + TechOps US + **TechIP Cayman** (forced inclusion under §290.01 subd. 5b)
+- Intercompany royalty between TechIP and TechOps US: **eliminated** in combined return (TechOps's $10M royalty deduction reversed; TechIP's $10M royalty income reversed)
+- Combined group income (before MN modifications): assume $50M (matches federal, since intercompany eliminations net out)
+- MN apportionment factor:
+  - Numerator: combined group's MN-sourced sales = $30M (all from TechOps US, primarily MN customers)
+  - Denominator: combined group's Everywhere sales = $200M (US + Cayman group, but Cayman has minimal third-party sales)
+  - MN apportionment = 15%
+- MN apportioned income = $50M × 15% = $7.5M
+- MN regular tax = $7.5M × 9.8% = **$735,000**
+- AMT check: AMTI ≈ $7.5M → AMT = $7.5M × 5.8% = $435,000. Regular > AMT, no AMT.
+- Minimum fee: group PP&S = $80M → top bracket = $10,460
+
+**Total MN franchise tax**: $735,000 + $10,460 = **$745,460**
+
+**What changes if TechIP were in a non-tax-haven jurisdiction (e.g., Ireland)?**:
+- TechIP would qualify as 80/20 foreign and be excluded from MN combined
+- TechOps US's $10M royalty deduction would remain
+- TechOps US's MN taxable income would be reduced by $10M of royalty expense
+- MN apportionment denominator (Everywhere sales) would change too
+- Net MN tax would likely be significantly lower — depending on the math, possibly $100k-$300k less
+- **This is the policy purpose of the tax haven list** — to prevent base erosion through IP holding structures
+
+### 13.3 Example C — Partnership PTE election (resident and nonresident partners)
+
+**Facts**:
+- Northstar Consulting LLP, an LLC taxed as partnership, files M3
+- Two partners:
+  - Anna, Minnesota resident, 60% partner
+  - Ben, Wisconsin resident, 40% partner
+- Partnership income (federal Schedule K, total ordinary business income): **$1,000,000**
+- All income MN-sourced (consulting services to MN clients, market-based sourcing → 100% MN)
+- Partnership elects PTE for tax year 2025
+
+**PTE computation**:
+- MN-source income subject to PTE: **$1,000,000** (100% MN-sourced)
+- All of Anna's distributive share is in base (resident, taxed on worldwide) → $600,000
+- All of Ben's distributive share that is MN-sourced is in base (nonresident, taxed on MN-source only — but here 100% MN-source) → $400,000
+- PTE base: $1,000,000
+- **PTE tax = $1,000,000 × 9.85% = $98,500**
+
+**Federal effect**:
+- Partnership deducts $98,500 on Form 1065 as a business expense (per Notice 2020-75)
+- Federal ordinary business income drops from $1,000,000 to $901,500
+- K-1 to Anna: $540,900 (60% of $901,500)
+- K-1 to Ben: $360,600 (40% of $901,500)
+- Anna's federal AGI is lower than it would have been without PTE election (vs. $600k allocation pre-PTE)
+- Anna's federal SALT-cap exposure on state taxes is reduced (the entity-level $98,500 is not on her Schedule A)
+
+**Minnesota effect at owner level**:
+- Anna's M1 starts from federal AGI (which includes the lower $540,900 K-1)
+- Anna **adds back** her share of the PTE deduction on M1 (Schedule M1M addition for PTE deduction add-back) = $59,100 (60% of $98,500)
+- Anna's MN AGI now reflects the original $600,000 allocation
+- Anna computes MN regular tax on $600,000 plus other income — assume MN tax = $58,000
+- Anna claims **PTE credit** of $59,100 (60% × $98,500)
+- Anna's net MN: $58,000 owed less $59,100 credit = $1,100 refund
+
+- Ben (Wisconsin resident): files M1NR for MN-source income
+- Ben's MN-source income (his $400,000 share of MN-source partnership income — for nonresident purposes computed pre-PTE deduction, but the credit mechanics restore parity)
+- Ben claims PTE credit of $39,400 (40% × $98,500)
+- Net: Ben's MN tax is largely or fully discharged by the PTE credit; may receive refund
+
+**Cash and timing**:
+- Entity makes quarterly PTE estimated payments throughout 2025 (~$24,625 per quarter)
+- Anna and Ben get K-1 with PTE credit in early 2026
+- Anna files M1 by April 15, 2026; Ben files M1NR
+- Anna's federal tax savings on the SALT-cap workaround (assume she's at 37% federal): roughly $98,500 × 37% × her share = $21,867 federal benefit (less the federal-level partnership deduction's pass-through effect — net positive)
+
+**Why the election is worth it**:
+- Without PTE: Anna pays MN tax of ~$59,100 on her $600k share. That tax sits on her Schedule A, subject to $10,000 federal SALT cap. She gets at most $10,000 deduction value (~$3,700 federal benefit at 37%).
+- With PTE: $59,100 of MN tax is deducted at entity level (full federal benefit ~$21,867 at 37%), and Anna's MN tax is netted against the credit. **Federal benefit improvement: ~$18,000** for Anna alone.
+
+## Ask the client first
+
+- Which entities sit in the unitary group and whether the water's-edge boundary is right.
+- Whether a PTE election makes sense for the owners (cost-benefit against the SALT cap).
+- Whether the current §290.01 subd. 5b tax-haven list has changed this year.
+
+## Common mistakes
+- Missing the franchise-tax filing even when income tax is zero.
+
+## Sources
+
+| Source | Read on |
+| --- | --- |
+| Minn. Stat. §289A.08 (PTE election, subd. 7a): <https://www.revisor.mn.gov/statutes/cite/289A.08> — statute text archived | 2026-10-28 |
+| Minn. Stat. §290.06 (corporate 9.8% / individual top 9.85%): <https://www.revisor.mn.gov/statutes/cite/290.06> — statute text archived | 2026-10-28 |
+| Minn. Stat. §290A.03 (MinnesotaCare provider tax): <https://www.revisor.mn.gov/statutes/cite/290A.03> — page archived; rate text JS-rendered | 2026-10-28 |
+| Minn. Stat. §290 (chapter), §290.01, §290.0133–0134, §290.17, §290.191, §290.0921, §290.0922, §290.095, §290.21, §290.068, §289A.25, §289A.26, §290.033 — cited in the skill; not yet archived | 2025-11-15 |
+| Session laws (2008 Ch. 366; 2021 Spec. Sess. Ch. 14; 2023 Ch. 64), DOR forms/instructions, case law, and reviewer signoff requirements — see the Provenance detail below | 2025-11-15 |
+
+Not yet confirmed: the §290.0921 5.8% AMT rate, the §290.0922 minimum-fee sliding-scale dollar amounts, the §290.033 surcharge figures, the §290.01 subd. 5b tax-haven list, and the NOL carryforward terms — the cited statute sections are not yet archived.
+
+### Provenance detail
+
+
+
+#### Primary statutory sources
+
+- **Minn. Stat. §290** — Income Tax (entire chapter; corporate franchise tax)
+- **Minn. Stat. §290.01** — Definitions (subd. 5b tax-haven list; subd. 19c 80/20 corporation; subd. 19d federal tax base conformity)
+- **Minn. Stat. §290.06** — Tax rates (subd. 1 corporate 9.8%; subd. 2c individual top rate 9.85%)
+- **Minn. Stat. §290.0133–0134** — Additions and subtractions
+- **Minn. Stat. §290.17** — Allocation of income (combined unitary at subd. 4; worldwide election at subd. 4(f))
+- **Minn. Stat. §290.191** — Apportionment (single sales factor at subd. 2; market-based sourcing at subd. 5)
+- **Minn. Stat. §290.0921** — Corporate alternative minimum tax (5.8%)
+- **Minn. Stat. §290.0922** — Minimum fee (PP&S sliding scale)
+- **Minn. Stat. §290.095** — Net operating loss
+- **Minn. Stat. §290.21** — Dividends-received deduction
+- **Minn. Stat. §290.068** — R&D credit
+- **Minn. Stat. §289A.08 subd. 7a** — PTE election
+- **Minn. Stat. §289A.25** — Corporate estimated tax
+- **Minn. Stat. §289A.26** — Partnership/S-corp/PTE estimated tax
+- **Minn. Stat. §290.033** — 1% net investment income surcharge (individual, 2024+)
+
+### Session laws
+
+- **2008 Minn. Laws Ch. 366, Art. 4** — single sales factor and market-based sourcing phase-in (completed 2014)
+- **2021 Minn. Laws 1st Spec. Sess., Ch. 14, Art. 1** — original PTE election enactment
+- **2023 Minn. Laws Ch. 64, Art. 1** — PTE expansion to resident owners; net investment income surcharge; conformity updates
+
+### Administrative guidance
+
+- **Minnesota Department of Revenue Form M4 Instructions** — annual; the authoritative line-by-line guidance
+- **Form M3, M8 Instructions** — partnership and S-corp filings
+- **Schedule RD Instructions** — R&D credit
+- **Schedule PTE Instructions** — PTE election
+- **MN Revenue Notices** — official interpretive notices, e.g., on apportionment sourcing, combined reporting, tax-haven list updates
+- **MN DOR Corporate Franchise Tax Fact Sheets** — practitioner-oriented summaries
+
+### Case law to monitor
+
+- **HMN Financial, Inc. v. Commissioner of Revenue** — combined-return inclusion of holding companies
+- **Hutchinson Technology v. Commissioner of Revenue** — apportionment sourcing
+- **Pending and historical challenges to the tax-haven inclusion list** on Commerce Clause grounds — Minnesota Tax Court has consistently upheld
+
+### Cross-references within the OpenAccountants skill library
+
+- `us-tax-workflow-base` — Tier 1 workflow scaffolding
+- `us-schedule-c-and-se-computation` — federal pass-through computation (feeds owner-level M1)
+- `us-federal-return-assembly` — federal 1040/1120 assembly
+- `us-qbi-deduction` — federal §199A (Minnesota does not allow QBI for individuals — note the M1M add-back; covered conceptually here only by reference)
+- `us-quarterly-estimated-tax` — federal quarterlies (Minnesota state quarterlies are computed in parallel)
+- `us-ca-return-assembly` and `us-federal-tx-return-assembly` — parallel state assembly patterns to model the MN return assembly on
+
+### Reviewer signoff requirements
+
+Every Minnesota M4, M8, or M3 produced from this skill must be reviewed and signed by:
+
+- An **EA, CPA, or attorney** with practitioner standing before the Minnesota DOR
+- Familiarity with **combined unitary reporting** for any multi-entity engagement
+- Familiarity with **PTE election cost-benefit analysis** if PTE is being considered
+- Familiarity with the **current §290.01 subd. 5b tax haven list** (verify against current statute every engagement — the list changes)
+
+This skill provides preparation scaffolding only. It is not a substitute for credentialed review and is not authoritative tax advice to the taxpayer.
+
+
+
+
+*End of mn-corporate-and-pte v0.1. Last updated 2025-11-15. Verification status: pending — content awaits review by a Minnesota-licensed CPA or EA with combined-reporting expertise before being marked verified.*
+
+
+---
+
+## Talk to a verified accountant
+
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
+
 ## 3. Minnesota Corporate Alternative Minimum Tax (5.8%)
 
 
@@ -270,40 +526,7 @@ The §965 deemed repatriation transition tax (one-time, for tax year 2017 / 2018
 
 - **NOL computation mechanics** — NOLs are computed at the Minnesota apportioned level — the MN NOL is the loss after MN modifications and apportionment, not the federal NOL. So a federal NOL of $1M for a corporation with 10% MN apportionment generates a $100k MN NOL (plus or minus MN modifications). This is tracked separately on Schedule M4NC (NOL computation). For combined groups, the NOL belongs to the group, not individual members, with SRLY tracking for pre-combination losses.
 
-## Deadlines and filing
-
-
-### 10.1 Form M4 (corporate franchise)
-
-- **Form M4 due date and extension** — Due date: 15th day of the 4th month after year-end. For calendar-year C-corps, April 15, 2026 for tax year 2025. For fiscal-year corps, the 15th of the 4th month after the fiscal year-end. (Note: Minnesota historically had a March 15 due date; it shifted to April 15 to match the federal post-TCJA C-corp due date.) Extension: Minnesota grants an automatic 7-month extension to file if at least 90% of the tax liability is paid by the original due date. No extension form is required if the federal extension is filed; otherwise file Form M4 with the extension box checked.
-- **Forms in the M4 package** — Form M4 — main franchise tax return; Schedule M4I — corporate income and apportionment computation; Schedule M4A — apportionment factor detail; Schedule M4NC — NOL computation; Schedule M4T — tax computation (regular and AMT); Schedule RD — R&D credit; Schedule M4PI — pass-through income (if the corp is a partner in a partnership); Schedule NIIT — N/A for C-corps (this is for individuals)
-
-### 10.2 Form M8 (S-corporation)
-
-- **Form M8 details** — S-corp itself files M8 (no entity tax unless PTE elected; minimum fee still applies); KS schedules issued to shareholders (Minnesota analog of federal K-1); Due date: 15th day of the 3rd month after year-end (March 15 for calendar year)
-
-### 10.3 Form M3 (partnership)
-
-- **Form M3 details** — Partnership files M3 (no entity tax unless PTE elected; minimum fee applies); KPI schedules issued to partners (individual partners) and KPC to corporate partners; Due date: 15th day of the 3rd month after year-end (March 15 for calendar year)
-
-### 10.4 Estimated tax
-
-- **C-corp quarterly estimates** — C-corps (M4): Quarterly estimates under Minn. Stat. §289A.25. Due April 15, June 15, September 15, December 15 (15th day of 4th, 6th, 9th, 12th month of the tax year for calendar-year filers). Safe harbor: pay the lesser of (a) 100% of prior year tax (if prior year was a 12-month tax year) or (b) 90% of current year tax. Required if MN tax liability is > $500.  _(Minn. Stat. §289A.25)_
-- **Splitting and underpayment penalty** — Splitting: Equal quarterly payments (25/25/25/25) or annualized income installment method available for seasonal/lumpy income. Underpayment penalty: Computed on Schedule M15C (corporations) using the short-period interest rate published by DOR. S-corps and partnerships (PTE election): Quarterly estimates required for the PTE tax itself — see §11 below.
-
-### 10.5 E-filing and payment
-
-- **E-filing and payment methods** — Minnesota mandates e-filing for most corporate returns. Payments via: Minnesota e-Services portal (preferred); ACH credit/debit; Wire transfer; Check with voucher (paper only, generally discouraged)
-
-## Penalties and interest
-
-Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid corporate liabilities (M.S. 289A.25/.26 estimated-tax regime above; the §289A.21 penalty schedule is not yet confirmed).
-
-## Cross-border points
-
-Cross-border and combined-reporting detail lives in `mn-transfer-pricing-combined-reporting` and `mn-cross-border-tax`; the tax-haven list, 80/20 rule, and GILTI/FDII sections above carry the federal overlay.
-
-## 11. Pass-Through Entity (PTE) Tax Election
+### Cross-border points
 
 
 ### 11.1 Background and statutory authority
@@ -343,7 +566,7 @@ Cross-border and combined-reporting detail lives in `mn-transfer-pricing-combine
 
 - **Owner-level PTE reporting** — Schedule KPI (partnership) or KS (S-corp) shows the owner's share of MN income and PTE tax credit. Owner reports on Form M1 (individual), claiming the refundable PTE credit. Nonresident owners with only PTE-paid MN income may have no further filing obligation in Minnesota if the PTE fully discharges their tax (this is administrative — verify under current DOR guidance, as some nonresidents are still required to file M1NR).
 
-## 12. Minnesota R&D Credit
+### Cross-border points
 
 
 ### 12.1 Statutory framework
@@ -369,227 +592,3 @@ Cross-border and combined-reporting detail lives in `mn-transfer-pricing-combine
 ### 12.6 Coordination with federal §41
 
 - **Independent MN and federal §41 computations** — Independent computations. Minnesota does not require federal §41 election to claim MN credit, but QREs must meet the federal definition (incorporated by reference under §290.068). For pass-through entities where the federal §41 credit is taken at the owner level (via federal K-1), the MN credit at the entity level passes through similarly.  _(Minn. Stat. §290.068)_
-
-## Ask the client first
-
-- Which entities sit in the unitary group and whether the water's-edge boundary is right.
-- Whether a PTE election makes sense for the owners (cost-benefit against the SALT cap).
-- Whether the current §290.01 subd. 5b tax-haven list has changed this year.
-
-## Worked examples
-
-
-### 13.1 Example A — Simple Minnesota C-corporation
-
-**Facts**:
-- Acme Manufacturing, Inc., a Minnesota-domiciled C-corp
-- All operations in Minnesota (100% apportionment)
-- Federal taxable income (Form 1120 Line 28, before NOL/special deductions): **$5,000,000**
-- No federal bonus depreciation timing differences this year (steady-state)
-- No NOL carryforward
-- MN sales: $20M, MN payroll: $8M, MN property: $15M → PP&S = $43M
-
-**MN regular tax**:
-- MN taxable income = $5,000,000 (no significant MN adjustments)
-- MN apportionment = 100%
-- MN regular tax = $5,000,000 × 9.8% = **$490,000**
-
-**MN AMT**:
-- MN AMTI ≈ $5,000,000 (no significant preferences)
-- MN AMT = $5,000,000 × 5.8% = $290,000
-- AMT < Regular Tax, so AMT does not apply
-
-**Minimum fee**:
-- PP&S = $43M → falls in the $42M+ bracket → minimum fee = **$10,460**
-
-**Total MN franchise tax**:
-- $490,000 (regular) + $10,460 (min fee) = **$500,460**
-
-**Estimated tax**:
-- 4 × $125,115 quarterly installments (or 25% of safe harbor calc)
-
-### 13.2 Example B — Multinational with Cayman tax-haven subsidiary forced into combined return
-
-**Facts**:
-- TechParent, Inc., Minnesota-domiciled C-corp
-- TechOps US, Inc. (Delaware C-corp, 100% subsidiary of TechParent) — US operating subsidiary
-- TechIP Holdings, Ltd. (Cayman Islands, 100% subsidiary of TechParent) — holds IP, licenses to TechOps US for $10M/year royalty
-- All three are 100% commonly owned and functionally integrated (unitary)
-- TechIP has no US property or payroll (would qualify as 80/20 if not for tax-haven inclusion)
-- **Cayman Islands is on the §290.01 subd. 5b tax-haven list → TechIP IS included in MN combined return**
-
-**Federal level**:
-- TechParent files consolidated 1120 with TechOps US (federal consolidated return for ≥80% owned domestic subsidiaries — Cayman is foreign and not in federal consolidated)
-- Cayman royalty income flows through to federal taxable income via Subpart F or GILTI mechanisms at the US shareholder level
-- Assume net combined US federal taxable income after Subpart F/GILTI inclusions: $50M
-
-**MN combined return**:
-- Group members: TechParent + TechOps US + **TechIP Cayman** (forced inclusion under §290.01 subd. 5b)
-- Intercompany royalty between TechIP and TechOps US: **eliminated** in combined return (TechOps's $10M royalty deduction reversed; TechIP's $10M royalty income reversed)
-- Combined group income (before MN modifications): assume $50M (matches federal, since intercompany eliminations net out)
-- MN apportionment factor:
-  - Numerator: combined group's MN-sourced sales = $30M (all from TechOps US, primarily MN customers)
-  - Denominator: combined group's Everywhere sales = $200M (US + Cayman group, but Cayman has minimal third-party sales)
-  - MN apportionment = 15%
-- MN apportioned income = $50M × 15% = $7.5M
-- MN regular tax = $7.5M × 9.8% = **$735,000**
-- AMT check: AMTI ≈ $7.5M → AMT = $7.5M × 5.8% = $435,000. Regular > AMT, no AMT.
-- Minimum fee: group PP&S = $80M → top bracket = $10,460
-
-**Total MN franchise tax**: $735,000 + $10,460 = **$745,460**
-
-**What changes if TechIP were in a non-tax-haven jurisdiction (e.g., Ireland)?**:
-- TechIP would qualify as 80/20 foreign and be excluded from MN combined
-- TechOps US's $10M royalty deduction would remain
-- TechOps US's MN taxable income would be reduced by $10M of royalty expense
-- MN apportionment denominator (Everywhere sales) would change too
-- Net MN tax would likely be significantly lower — depending on the math, possibly $100k-$300k less
-- **This is the policy purpose of the tax haven list** — to prevent base erosion through IP holding structures
-
-### 13.3 Example C — Partnership PTE election (resident and nonresident partners)
-
-**Facts**:
-- Northstar Consulting LLP, an LLC taxed as partnership, files M3
-- Two partners:
-  - Anna, Minnesota resident, 60% partner
-  - Ben, Wisconsin resident, 40% partner
-- Partnership income (federal Schedule K, total ordinary business income): **$1,000,000**
-- All income MN-sourced (consulting services to MN clients, market-based sourcing → 100% MN)
-- Partnership elects PTE for tax year 2025
-
-**PTE computation**:
-- MN-source income subject to PTE: **$1,000,000** (100% MN-sourced)
-- All of Anna's distributive share is in base (resident, taxed on worldwide) → $600,000
-- All of Ben's distributive share that is MN-sourced is in base (nonresident, taxed on MN-source only — but here 100% MN-source) → $400,000
-- PTE base: $1,000,000
-- **PTE tax = $1,000,000 × 9.85% = $98,500**
-
-**Federal effect**:
-- Partnership deducts $98,500 on Form 1065 as a business expense (per Notice 2020-75)
-- Federal ordinary business income drops from $1,000,000 to $901,500
-- K-1 to Anna: $540,900 (60% of $901,500)
-- K-1 to Ben: $360,600 (40% of $901,500)
-- Anna's federal AGI is lower than it would have been without PTE election (vs. $600k allocation pre-PTE)
-- Anna's federal SALT-cap exposure on state taxes is reduced (the entity-level $98,500 is not on her Schedule A)
-
-**Minnesota effect at owner level**:
-- Anna's M1 starts from federal AGI (which includes the lower $540,900 K-1)
-- Anna **adds back** her share of the PTE deduction on M1 (Schedule M1M addition for PTE deduction add-back) = $59,100 (60% of $98,500)
-- Anna's MN AGI now reflects the original $600,000 allocation
-- Anna computes MN regular tax on $600,000 plus other income — assume MN tax = $58,000
-- Anna claims **PTE credit** of $59,100 (60% × $98,500)
-- Anna's net MN: $58,000 owed less $59,100 credit = $1,100 refund
-
-- Ben (Wisconsin resident): files M1NR for MN-source income
-- Ben's MN-source income (his $400,000 share of MN-source partnership income — for nonresident purposes computed pre-PTE deduction, but the credit mechanics restore parity)
-- Ben claims PTE credit of $39,400 (40% × $98,500)
-- Net: Ben's MN tax is largely or fully discharged by the PTE credit; may receive refund
-
-**Cash and timing**:
-- Entity makes quarterly PTE estimated payments throughout 2025 (~$24,625 per quarter)
-- Anna and Ben get K-1 with PTE credit in early 2026
-- Anna files M1 by April 15, 2026; Ben files M1NR
-- Anna's federal tax savings on the SALT-cap workaround (assume she's at 37% federal): roughly $98,500 × 37% × her share = $21,867 federal benefit (less the federal-level partnership deduction's pass-through effect — net positive)
-
-**Why the election is worth it**:
-- Without PTE: Anna pays MN tax of ~$59,100 on her $600k share. That tax sits on her Schedule A, subject to $10,000 federal SALT cap. She gets at most $10,000 deduction value (~$3,700 federal benefit at 37%).
-- With PTE: $59,100 of MN tax is deducted at entity level (full federal benefit ~$21,867 at 37%), and Anna's MN tax is netted against the credit. **Federal benefit improvement: ~$18,000** for Anna alone.
-
-## Sources
-
-| Source | Read on |
-| --- | --- |
-| Minn. Stat. §289A.08 (PTE election, subd. 7a): <https://www.revisor.mn.gov/statutes/cite/289A.08> — statute text archived | 2026-10-28 |
-| Minn. Stat. §290.06 (corporate 9.8% / individual top 9.85%): <https://www.revisor.mn.gov/statutes/cite/290.06> — statute text archived | 2026-10-28 |
-| Minn. Stat. §290A.03 (MinnesotaCare provider tax): <https://www.revisor.mn.gov/statutes/cite/290A.03> — page archived; rate text JS-rendered | 2026-10-28 |
-| Minn. Stat. §290 (chapter), §290.01, §290.0133–0134, §290.17, §290.191, §290.0921, §290.0922, §290.095, §290.21, §290.068, §289A.25, §289A.26, §290.033 — cited in the skill; not yet archived | 2025-11-15 |
-| Session laws (2008 Ch. 366; 2021 Spec. Sess. Ch. 14; 2023 Ch. 64), DOR forms/instructions, case law, and reviewer signoff requirements — see the Provenance detail below | 2025-11-15 |
-
-Not yet confirmed: the §290.0921 5.8% AMT rate, the §290.0922 minimum-fee sliding-scale dollar amounts, the §290.033 surcharge figures, the §290.01 subd. 5b tax-haven list, and the NOL carryforward terms — the cited statute sections are not yet archived.
-
-### Provenance detail
-
-
-
-#### Primary statutory sources
-
-- **Minn. Stat. §290** — Income Tax (entire chapter; corporate franchise tax)
-- **Minn. Stat. §290.01** — Definitions (subd. 5b tax-haven list; subd. 19c 80/20 corporation; subd. 19d federal tax base conformity)
-- **Minn. Stat. §290.06** — Tax rates (subd. 1 corporate 9.8%; subd. 2c individual top rate 9.85%)
-- **Minn. Stat. §290.0133–0134** — Additions and subtractions
-- **Minn. Stat. §290.17** — Allocation of income (combined unitary at subd. 4; worldwide election at subd. 4(f))
-- **Minn. Stat. §290.191** — Apportionment (single sales factor at subd. 2; market-based sourcing at subd. 5)
-- **Minn. Stat. §290.0921** — Corporate alternative minimum tax (5.8%)
-- **Minn. Stat. §290.0922** — Minimum fee (PP&S sliding scale)
-- **Minn. Stat. §290.095** — Net operating loss
-- **Minn. Stat. §290.21** — Dividends-received deduction
-- **Minn. Stat. §290.068** — R&D credit
-- **Minn. Stat. §289A.08 subd. 7a** — PTE election
-- **Minn. Stat. §289A.25** — Corporate estimated tax
-- **Minn. Stat. §289A.26** — Partnership/S-corp/PTE estimated tax
-- **Minn. Stat. §290.033** — 1% net investment income surcharge (individual, 2024+)
-
-### Session laws
-
-- **2008 Minn. Laws Ch. 366, Art. 4** — single sales factor and market-based sourcing phase-in (completed 2014)
-- **2021 Minn. Laws 1st Spec. Sess., Ch. 14, Art. 1** — original PTE election enactment
-- **2023 Minn. Laws Ch. 64, Art. 1** — PTE expansion to resident owners; net investment income surcharge; conformity updates
-
-### Administrative guidance
-
-- **Minnesota Department of Revenue Form M4 Instructions** — annual; the authoritative line-by-line guidance
-- **Form M3, M8 Instructions** — partnership and S-corp filings
-- **Schedule RD Instructions** — R&D credit
-- **Schedule PTE Instructions** — PTE election
-- **MN Revenue Notices** — official interpretive notices, e.g., on apportionment sourcing, combined reporting, tax-haven list updates
-- **MN DOR Corporate Franchise Tax Fact Sheets** — practitioner-oriented summaries
-
-### Case law to monitor
-
-- **HMN Financial, Inc. v. Commissioner of Revenue** — combined-return inclusion of holding companies
-- **Hutchinson Technology v. Commissioner of Revenue** — apportionment sourcing
-- **Pending and historical challenges to the tax-haven inclusion list** on Commerce Clause grounds — Minnesota Tax Court has consistently upheld
-
-### Cross-references within the OpenAccountants skill library
-
-- `us-tax-workflow-base` — Tier 1 workflow scaffolding
-- `us-schedule-c-and-se-computation` — federal pass-through computation (feeds owner-level M1)
-- `us-federal-return-assembly` — federal 1040/1120 assembly
-- `us-qbi-deduction` — federal §199A (Minnesota does not allow QBI for individuals — note the M1M add-back; covered conceptually here only by reference)
-- `us-quarterly-estimated-tax` — federal quarterlies (Minnesota state quarterlies are computed in parallel)
-- `us-ca-return-assembly` and `us-federal-tx-return-assembly` — parallel state assembly patterns to model the MN return assembly on
-
-### Reviewer signoff requirements
-
-Every Minnesota M4, M8, or M3 produced from this skill must be reviewed and signed by:
-
-- An **EA, CPA, or attorney** with practitioner standing before the Minnesota DOR
-- Familiarity with **combined unitary reporting** for any multi-entity engagement
-- Familiarity with **PTE election cost-benefit analysis** if PTE is being considered
-- Familiarity with the **current §290.01 subd. 5b tax haven list** (verify against current statute every engagement — the list changes)
-
-This skill provides preparation scaffolding only. It is not a substitute for credentialed review and is not authoritative tax advice to the taxpayer.
-
-
-
-
-*End of mn-corporate-and-pte v0.1. Last updated 2025-11-15. Verification status: pending — content awaits review by a Minnesota-licensed CPA or EA with combined-reporting expertise before being marked verified.*
-
-<!-- openaccountants-cta-block -->
-
----
-
-## Talk to a verified accountant
-
-
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
-
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.

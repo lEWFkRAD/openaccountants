@@ -107,7 +107,6 @@ expected:
 
 | Source | Read on |
 | --- | --- |
-| M.S. 290.17 (combined reporting / unitary business principle): <https://www.revisor.mn.gov/statutes/cite/290.17> — cited in the skill; not yet archived | 2026-10-25 |
 | M.S. 290.191 (apportionment): cited within 290.17 text | 2026-10-25 |
 | `mn-corporate-and-pte` skill (4.8%/9.8% brackets, combined M4, deadlines) — internal corroboration | 2026-10-25 |
 
@@ -115,6 +114,4 @@ Not yet confirmed: M.S. 290.17 archive (pending); M.S. 290A.03 rate text (JS-ren
 ## Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
-- Use it in your AI: https://www.openaccountants.com/connect

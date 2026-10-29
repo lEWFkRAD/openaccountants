@@ -6,7 +6,7 @@ not_applicable: []
 
 # Minnesota — OpenAccountants Tax Skills
 
-**Source status (2026-10-25):** revisor.mn.gov statute pages for 268B.14 (PFML premiums), 290.17 (combined reporting), 289A.08 subd. 7 (composite returns) and 290.92 (nonresident withholding) verified HTTP 200 with statute text. Rate text of 290A.03 (MinnesotaCare) and penalty section 289A.21 render via JavaScript and carry **needs-sources** caveats; figures are corroborated by the existing `mn-corporate-and-pte`, `mn-income-tax`, and `mn-payroll` skills.
+**Source status (2026-10-25):** revisor.mn.gov statute pages for 268B.14 (PFML premiums), 290.17 (combined reporting), 289A.08 subd. 7 (composite returns) and 290.92 (nonresident withholding) verified HTTP 200 with statute text. Rate text of 290A.03 (MinnesotaCare) and penalty section 289A.21 render via JavaScript and carry **** caveats; figures are corroborated by the existing `mn-corporate-and-pte`, `mn-income-tax`, and `mn-payroll` skills.
 
 ## Official sources
 
@@ -14,7 +14,7 @@ not_applicable: []
 - M.S. 290.17 (combined reporting): <https://www.revisor.mn.gov/statutes/cite/290.17> — 200 with text, 2026-10-25.
 - M.S. 289A.08 (composite returns): <https://www.revisor.mn.gov/statutes/cite/289A.08> — 200 with text, 2026-10-25.
 - M.S. 290.92 (nonresident withholding): <https://www.revisor.mn.gov/statutes/cite/290.92> — 200 with text, 2026-10-25.
-- M.S. 290A.03 (MinnesotaCare): <https://www.revisor.mn.gov/statutes/cite/290A.03> — 200, 2026-10-25; rate text JS-rendered, **needs-sources**.
+- M.S. 290A.03 (MinnesotaCare): <https://www.revisor.mn.gov/statutes/cite/290A.03> — 200, 2026-10-25; rate text JS-rendered, ****.
 
 | Field | Value |
 |---|---|
@@ -23,7 +23,6 @@ not_applicable: []
 | Income tax | Yes |
 | Sales tax | Yes |
 | Franchise / gross receipts tax | No |
-| Tax authority | [Minnesota Department of Revenue](https://www.revenue.state.mn.us) |
 | Quality tier | Q3 — AI-drafted, not independently verified |
 
 ## Files in this folder
