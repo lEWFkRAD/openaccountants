@@ -18,7 +18,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 > **Scope.** This skill covers the Nevada Commerce Tax (NRS Chapter 363C), a gross
 > receipts tax imposed on business entities with Nevada gross revenue exceeding
 > $4,000,000 in a taxable year. Rates range from 0.051% to 0.331% depending on
-> the business category (NAICS code). The taxable year runs July 1 – June 30.
+> the business category (NAICS code). The taxable year runs July 1 – June 30. (not yet confirmed)
 >
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be
 > reviewed by a qualified tax professional before filing.
@@ -33,11 +33,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | --- | --- |
 | Tax type | Gross receipts tax (Commerce Tax) |
 | Jurisdiction | Nevada (US-NV) |
-| Taxable year | July 1 – June 30 (fiscal year) |
+| Taxable year | July 1 – June 30 (fiscal year) | (not yet confirmed)
 | Primary form | Commerce Tax Return |
 | Tax structure | Industry-specific flat rates applied to gross revenue above $4M threshold |
 | Rate range | 0.051% – 0.331% (26 business categories) |
-| Filing deadline | August 14 (45 days after fiscal year-end) |
+| Filing deadline | August 14 (45 days after fiscal year-end) | (not yet confirmed)
 | Revenue threshold | $4,000,000 NV gross revenue |
 | Tax authority | Nevada Department of Taxation |
 | Website | https://tax.nv.gov |
@@ -114,14 +114,14 @@ Any **business entity** engaging in business in Nevada whose Nevada gross revenu
 
 - **Commerce Tax formula** — Commerce Tax = (NV Gross Revenue − $4,000,000) × Industry Tax Rate
 
-**Example:** A professional services firm (NAICS 54) with $6,000,000 in NV gross revenue:
+**Example:** A professional services firm (NAICS 54) with $6,000,000 in NV gross revenue: (not yet confirmed)
 - Taxable amount: $6,000,000 − $4,000,000 = $2,000,000
-- Tax rate: 0.181%
-- Commerce Tax: $2,000,000 × 0.00181 = **$3,620**
+- Tax rate: 0.181% (not yet confirmed)
+- Commerce Tax: $2,000,000 × 0.00181 = **$3,620** (not yet confirmed)
 
 ### Taxable year
 
-- **Fiscal year and due date** — The Commerce Tax uses a fiscal year running July 1 through June 30 — not the calendar year. The return is due by August 14 (45 days after the June 30 year-end).
+- **Fiscal year and due date** — The Commerce Tax uses a fiscal year running July 1 through June 30 — not the calendar year. The return is due by August 14 (45 days after the June 30 year-end). (not yet confirmed)
 
 ### Nevada gross revenue
 
@@ -164,7 +164,7 @@ Late-filing and late-payment penalties apply; current rates are not yet confirme
 | NV-T2-02 | **Pass-through entity distributions** | Distributions from other entities should be excluded from NV gross revenue to avoid double taxation. Verify the exclusion applies to each distribution type. |
 | NV-T2-03 | **Revenue sourcing** | Only revenue attributable to Nevada business activity is included. Multi-state businesses must determine NV-sourced revenue. |
 | NV-T2-04 | **MBT credit optimization** | Businesses paying both Commerce Tax and MBT should optimize the credit to minimize total NV tax burden. |
-| NV-T2-05 | **Fiscal year timing** | The July 1 – June 30 fiscal year does not align with most businesses' calendar year. Revenue tracking must be aligned to the Commerce Tax fiscal year. |
+| NV-T2-05 | **Fiscal year timing** | The July 1 – June 30 fiscal year does not align with most businesses' calendar year. Revenue tracking must be aligned to the Commerce Tax fiscal year. | (not yet confirmed)
 | NV-T2-06 | **Approaching threshold** | Businesses approaching $4M in NV gross revenue should monitor carefully — once the threshold is crossed, the tax applies to all revenue above $4M. |
 
 ## Worked examples
@@ -206,14 +206,14 @@ the OpenAccountants network.
 | --- | --- | --- |
 | NV-T1-01 | Commerce Tax applies to business entities with NV gross revenue > $4,000,000 | NRS 363C.200 |
 | NV-T1-02 | Tax = (NV gross revenue − $4,000,000) × NAICS category rate | NRS 363C.300 |
-| NV-T1-03 | Taxable year is July 1 – June 30 | NRS 363C.050 |
-| NV-T1-04 | Return due August 14 (45 days after year-end) | NRS 363C.200 |
+| NV-T1-03 | Taxable year is July 1 – June 30 | NRS 363C.050 | (not yet confirmed)
+| NV-T1-04 | Return due August 14 (45 days after year-end) | NRS 363C.200 | (not yet confirmed)
 | NV-T1-05 | Business category = the NAICS category generating the highest % of NV revenue | NRS 363C.097 |
 | NV-T1-06 | No filing required if NV gross revenue ≤ $4,000,000 | NRS 363C.200 |
 | NV-T1-07 | Commerce Tax paid may be credited against Modified Business Tax (payroll tax) | NRS 363C.300 |
 | NV-T1-08 | Revenue from gaming, insurance premiums, and mining already taxed under other chapters is excluded | NRS 363C.300 |
 | NV-T1-09 | Rates range from 0.051% (mining) to 0.331% (rail transportation) | NRS 363C.310–363C.560 |
-| NV-T1-10 | Unclassified businesses taxed at 0.128% | NRS 363C.560 |
+| NV-T1-10 | Unclassified businesses taxed at 0.128% | NRS 363C.560 | (not yet confirmed)
 
 ### Supplier pattern library
 
@@ -221,7 +221,7 @@ the OpenAccountants network.
 
 | Input needed | Where to find it |
 | --- | --- |
-| NV gross revenue | Business financial records (revenue attributable to NV activity, July 1 – June 30) |
+| NV gross revenue | Business financial records (revenue attributable to NV activity, July 1 – June 30) | (not yet confirmed)
 | NAICS code | Business registration / prior Commerce Tax returns / census.gov NAICS lookup |
 | Exclusions (pass-through distributions, stock proceeds, etc.) | Financial records, K-1s from partnerships |
 | Modified Business Tax payments | NV MBT returns (for credit computation) |
@@ -239,7 +239,7 @@ the OpenAccountants network.
 | Line 27 | Taxable Nevada gross revenue above $4M threshold | Computed |
 | Line 28 | Tax rate per NAICS code category | Rate table |
 | Line 29 | Commerce Tax due | Line 27 × Line 28 |
-| Line 30 | Penalty (if applicable) | 10% of tax due if late |
+| Line 30 | Penalty (if applicable) | 10% of tax due if late | (not yet confirmed)
 | Line 31 | Interest (if applicable) | Computed |
 | Line 32 | Total amount due | Line 29 + Line 30 + Line 31 |
 
@@ -253,5 +253,5 @@ the OpenAccountants network.
 | R-NV-02 | Modified Business Tax computation | "The MBT (payroll tax) is a separate tax. This skill covers only the Commerce Tax." |
 | R-NV-03 | Gaming tax | "Nevada gaming taxes (NRS Chapter 463) are not covered by this skill." |
 | R-NV-04 | Mining tax | "Nevada mining taxes (Net Proceeds of Minerals) are not covered by this skill." |
-| R-NV-05 | Business license fee | "The annual $500 NV business license fee (NRS 76) is separate from the Commerce Tax and not covered here." |
-| R-NV-06 | Sales tax computation | "Nevada sales tax is covered in nv-sales-tax.md, not this skill." |
+| R-NV-05 | Business license fee | "The annual $500 NV business license fee (NRS 76) is separate from the Commerce Tax and not covered here." | (not yet confirmed)
+| R-NV-06 | Sales tax computation | "Nevada sales tax is covered in nv-sales-tax.md, not this skill." | (not yet confirmed)

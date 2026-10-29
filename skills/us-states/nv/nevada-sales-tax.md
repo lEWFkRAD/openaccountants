@@ -22,7 +22,7 @@ Sellers with Nevada sales — state and local sales/use tax.
 | --- | --- |
 | Jurisdiction | Nevada |
 | State rate | 6.85%
-| Local rate range | 0% -- ~1.525%
+| Local rate range | 0% -- ~1.525% (not yet confirmed)
 | Maximum combined rate | ~8.375%
 | Sourcing | Destination-based (SST) |
 | Economic nexus | $100,000 OR 200 transactions
