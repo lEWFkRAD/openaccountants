@@ -126,7 +126,7 @@ expected:
 | N.C.G.S. § 105-130.4 (apportionment; (t1) alternative): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html | 2026-10-25 |
 | N.C.G.S. § 105-163.15 (estimated installments): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-163.15.html | 2026-10-25 |
 
-Not yet confirmed: Combined-reporting statutory authority (Form CD-405 combined): needs-sources — section not located on ncleg.gov 2026-10-25; corroborated by `nc-corporate-tax` skill (read 2026-10-25) 2026 NCDOR penalty-rate schedule: needs-sources
+Not yet confirmed: Combined-reporting statutory authority (Form CD-405 combined): not located on ncleg.gov 2026-10-25; corroborated by `nc-corporate-tax` skill (read 2026-10-25) 2026 NCDOR penalty-rate schedule
 
 <!-- openaccountants-cta-block -->
 

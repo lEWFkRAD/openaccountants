@@ -120,7 +120,7 @@ expected:
 | N.C.G.S. Chapter 96 (Employment Security Law) — chapter index | https://www.ncleg.gov/Laws/GeneralStatuteSections/Chapter96 | 2026-10-25 |
 | DES tax rate information (wage bases by year: 2025 $32,600, 2026 $34,200; min 0.06% / max 5.76% per § 96-9.2) | https://des.nc.gov/employers/tax-rate-information | 2026-10-29 |
 | N.C.G.S. § 96-9.2 (contribution rates; min 0.06%, max 5.76%) | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_96/GS_96-9.2.html | 2026-10-29 |
-| DES employers hub | https://des.nc.gov/employers | 2026-10-25 |
+| DES employers hub | https://www.des.nc.gov/employers | 2026-10-25 |
 
 Not yet confirmed: 2026 Trust Fund Solvency Surcharge percentage under § 96-9.7 (0% for 2025 per § 96-9.7 text read 2026-10-29); new-employer assigned-rate formula details beyond § 96-9.2(b) (beginning-employer 1% per DES tax-rate page).
 
