@@ -12,33 +12,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # IL Pprt
 
-## Illinois Personal Property Replacement Tax (PPRT)
+
+### Illinois Personal Property Replacement Tax (PPRT)
+
 
 Illinois Personal Property Replacement Tax under 35 ILCS 5/201(c) and (d): 2.5% on C-corporations (and S-corps for the corporate-level PPRT shell) and 1.5% on partnerships, trusts, and S-corporations, computed on net income allocated and apportioned to Illinois using a single sales factor with market-based sourcing. Sole proprietorships are exempt; LLCs follow their federal classification. Owners of pass-through entities can claim a partial credit against Illinois personal income tax. Interacts with the optional Illinois Pass-Through Entity (PTE) tax election at 4.95%. Tax year 2025.
-
-## Rates, bands and thresholds
-
-Reviewed against the cited tax authorities by a licensed accountant on 2026-06-03. Items flagged for further clarification are tracked separately and excluded here. This block is generated from verified `skill_facts` — edit the facts, not the prose.
-
-### IL PPRT
-
-- **C-corp** — 2.5% of IL net income  _(35 ILCS 5/201(c); IDOR PPRT page.)_
-- **S-corp** — 1.5%  _(35 ILCS 5/201(d).)_
-- **Partnership (GP/LP/LLP)** — 1.5%  _(35 ILCS 5/201(d).)_
-- **Trust (non-grantor)** — 1.5% (estates do NOT pay replacement tax)  _(35 ILCS 5/201(c)/(d); IDOR Q&A 83.)_
-- **Sole proprietorship** — Sole proprietorships are not subject to PPRT  _(35 ILCS 5/201; IDOR PPRT page.)_
-- **SMLLC (disregarded)** — A disregarded SMLLC is treated as its owner; if owned by an individual, no PPRT  _(Treas. Reg. 301.7701-3; IDOR PPRT guidance.)_
-- **Multi-member LLC (partnership)** — Taxed as a partnership -> 1.5%  _(35 ILCS 5/201(d).)_
-- **LLC as C-corp** — 2.5%  _(35 ILCS 5/201(c).)_
-- **LLC as S-corp** — 1.5%  _(35 ILCS 5/201(d).)_
-- **C-corp form / due date** — IL-1120 due the 15th day of the 4th month after year-end (April 15 calendar year; June 30 year-ends use the 3rd month)  _(IDOR Corporation - Income and Replacement Taxes.)_
-- **S-corp form / due date** — March 15 (15th day of the 3rd month)  _(IDOR Subchapter S page; IL-1120-ST instr.)_
-- **Partnership form / due date** — IL-1065 is due the 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers), not March 15. Illinois does not follow the federal March 15 partnership deadline. Partnerships organized under the Lloyd's plan of operation use the federal due date instead. The automatic six-month extension covers filing only; replacement tax, pass-through withholding, and elective PTE tax remain due by the original due date.  _(2025 IL-1065 Instructions (R-12/25); 35 ILCS 5/505; IDOR Partnership Q&A (answer.74).)_
-- **Estimated instalments** — Corporations expecting > $400 income+replacement tax pay on the 15th day of the 4th, 6th, 9th, and 12th months  _(IDOR Corporation page.)_
-- **Cumulative split** — Four equal installments (cumulative 25/50/75/100)  _(IDOR Corporation page; IL-2220.)_
-- **Credit rate** — There is no 6.5% individual credit for PPRT, and PPRT is not creditable on the IL-1040. 201(p) is the elective Pass-Through Entity (PTE) tax (rate 4.95%); the related owner credit (35 ILCS 5/224) equals 4.95% of the owner's distributive share. The entry conflates PPRT with the PTE tax and states the wrong rate.  _(35 ILCS 5/201(p), 5/224; IDOR Q&A 83; Pub-129.)_
-- **Claimed by** — True for the PTE-tax credit (claimed on IL-1040 via Schedule K-1-P), but it does NOT apply to PPRT - see row 20.  _(35 ILCS 5/224; Pub-129.)_
-- **IL CIT rate** — 7.0% corporate income tax (combined with 2.5% PPRT = 9.5%)  _(35 ILCS 5/201(b); 2025 IL-1120 (net income x 7.0%).)_
 
 ## Who this applies to
 
@@ -109,6 +87,30 @@ The General Assembly set higher PPRT on C-corporations to roughly match the orig
 
 - **Short-period tax years** — PPRT applies to the short tax year of an entity that joins or leaves an affiliated group, becomes a member of a unitary business group, or otherwise has a tax year shorter than 12 months. The rate is not pro-rated — 2.5% (or 1.5%) applies to the short-period net income, computed on a short-period annualized basis only if the federal return is annualized.
 
+## Rates, bands and thresholds
+
+Reviewed against the cited tax authorities by a licensed accountant on 2026-06-03. Items flagged for further clarification are tracked separately and excluded here. This block is generated from verified `skill_facts` — edit the facts, not the prose.
+
+### IL PPRT
+
+- **C-corp** — 2.5% of IL net income  _(35 ILCS 5/201(c); IDOR PPRT page.)_
+- **S-corp** — 1.5%  _(35 ILCS 5/201(d).)_
+- **Partnership (GP/LP/LLP)** — 1.5%  _(35 ILCS 5/201(d).)_
+- **Trust (non-grantor)** — 1.5% (estates do NOT pay replacement tax)  _(35 ILCS 5/201(c)/(d); IDOR Q&A 83.)_
+- **Sole proprietorship** — Sole proprietorships are not subject to PPRT  _(35 ILCS 5/201; IDOR PPRT page.)_
+- **SMLLC (disregarded)** — A disregarded SMLLC is treated as its owner; if owned by an individual, no PPRT  _(Treas. Reg. 301.7701-3; IDOR PPRT guidance.)_
+- **Multi-member LLC (partnership)** — Taxed as a partnership -> 1.5%  _(35 ILCS 5/201(d).)_
+- **LLC as C-corp** — 2.5%  _(35 ILCS 5/201(c).)_
+- **LLC as S-corp** — 1.5%  _(35 ILCS 5/201(d).)_
+- **C-corp form / due date** — IL-1120 due the 15th day of the 4th month after year-end (April 15 calendar year; June 30 year-ends use the 3rd month)  _(IDOR Corporation - Income and Replacement Taxes.)_
+- **S-corp form / due date** — March 15 (15th day of the 3rd month)  _(IDOR Subchapter S page; IL-1120-ST instr.)_
+- **Partnership form / due date** — IL-1065 is due the 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers), not March 15. Illinois does not follow the federal March 15 partnership deadline. Partnerships organized under the Lloyd's plan of operation use the federal due date instead. The automatic six-month extension covers filing only; replacement tax, pass-through withholding, and elective PTE tax remain due by the original due date.  _(2025 IL-1065 Instructions (R-12/25); 35 ILCS 5/505; IDOR Partnership Q&A (answer.74).)_
+- **Estimated instalments** — Corporations expecting > $400 income+replacement tax pay on the 15th day of the 4th, 6th, 9th, and 12th months  _(IDOR Corporation page.)_
+- **Cumulative split** — Four equal installments (cumulative 25/50/75/100)  _(IDOR Corporation page; IL-2220.)_
+- **Credit rate** — There is no 6.5% individual credit for PPRT, and PPRT is not creditable on the IL-1040. 201(p) is the elective Pass-Through Entity (PTE) tax (rate 4.95%); the related owner credit (35 ILCS 5/224) equals 4.95% of the owner's distributive share. The entry conflates PPRT with the PTE tax and states the wrong rate.  _(35 ILCS 5/201(p), 5/224; IDOR Q&A 83; Pub-129.)_
+- **Claimed by** — True for the PTE-tax credit (claimed on IL-1040 via Schedule K-1-P), but it does NOT apply to PPRT - see row 20.  _(35 ILCS 5/224; Pub-129.)_
+- **IL CIT rate** — 7.0% corporate income tax (combined with 2.5% PPRT = 9.5%)  _(35 ILCS 5/201(b); 2025 IL-1120 (net income x 7.0%).)_
+
 ## The taxable base
 
 ### 3.1 Starting point: federal taxable income
@@ -144,24 +146,6 @@ The General Assembly set higher PPRT on C-corporations to roughly match the orig
 ### 4.4 Single-state Illinois businesses
 
 - **Single-state apportionment** — For a business operating entirely within Illinois, the apportionment factor is 1.00 and 100% of base income is apportioned to Illinois. This is the default for many freelance and small-business clients — the apportionment analysis collapses to "all Illinois" and the only question is whether the business has any nonbusiness income to allocate (rare for service businesses).
-
-## Penalties and interest
-
-Late filing and late payment attract Illinois Department of Revenue penalties and interest; specific published percentages: not yet confirmed.
-
-## Cross-border points
-
-### 5.1 The Illinois 80% test
-
-- **Unitary business group / 80% test** — Illinois requires combined reporting for a "unitary business group" with more than 50% direct or indirect common ownership and that meets the "operational interdependence" test of 35 ILCS 5/1501(a)(27). However, certain affiliated entities are excluded from the unitary group based on the "80% test": - The group is filed on a worldwide basis with respect to all U.S. members. - Foreign affiliates that have less than 80% of their property and payroll in the United States ("80/20 companies") are excluded from the Illinois unitary combined group. - Insurance companies, financial organizations, and transportation companies are placed in separate unitary groups by industry. This skill focuses on the general-business unitary rule. The combined return is filed on Schedule UB attached to the designated agent's IL-1120.  _(35 ILCS 5/1501(a)(27))_
-
-### 5.2 PPRT and combined reporting
-
-- **PPRT combined group liability** — PPRT is computed on the combined unitary group's net income allocated and apportioned to Illinois. Each member of the combined group is jointly and severally liable for the group's PPRT and CIT. The designated agent files the combined IL-1120 with Schedule UB and Schedule UB-INS / Schedule UB-CR as applicable. S-corporations and partnerships are not included in C-corporation unitary combined returns — pass-through entities file their own IL-1120-ST or IL-1065 separately and compute PPRT on a stand-alone basis. A pass-through entity that is part of a tiered structure (partnership owning a partnership) files separately at each tier.
-
-### 5.3 Practical impact for small businesses
-
-For most freelance and small-business clients, combined reporting is not applicable. A single-entity S-corp or partnership simply files its own IL-1120-ST or IL-1065 and computes PPRT on its own net income. The combined reporting rules only become relevant when a client owns multiple corporations under common control that operate as a unitary business.
 
 ## Deadlines and filing
 
@@ -268,6 +252,24 @@ Payments are made with Form IL-1120-V (corporate) or IL-1120-ST-V / IL-1065-V (p
 ### 9.6 PTE and PPRT estimated payments
 
 - **PTE and PPRT estimated payments combined** — A pass-through that elects PTE must make estimated payments covering both the PPRT and the PTE tax. The $400 threshold applies to the combined PPRT + PTE liability. Estimated payments are made through MyTax Illinois on a single PTE/PPRT voucher.
+
+## Penalties and interest
+
+Late filing and late payment attract Illinois Department of Revenue penalties and interest; specific published percentages: not yet confirmed.
+
+## Cross-border points
+
+### 5.1 The Illinois 80% test
+
+- **Unitary business group / 80% test** — Illinois requires combined reporting for a "unitary business group" with more than 50% direct or indirect common ownership and that meets the "operational interdependence" test of 35 ILCS 5/1501(a)(27). However, certain affiliated entities are excluded from the unitary group based on the "80% test": - The group is filed on a worldwide basis with respect to all U.S. members. - Foreign affiliates that have less than 80% of their property and payroll in the United States ("80/20 companies") are excluded from the Illinois unitary combined group. - Insurance companies, financial organizations, and transportation companies are placed in separate unitary groups by industry. This skill focuses on the general-business unitary rule. The combined return is filed on Schedule UB attached to the designated agent's IL-1120.  _(35 ILCS 5/1501(a)(27))_
+
+### 5.2 PPRT and combined reporting
+
+- **PPRT combined group liability** — PPRT is computed on the combined unitary group's net income allocated and apportioned to Illinois. Each member of the combined group is jointly and severally liable for the group's PPRT and CIT. The designated agent files the combined IL-1120 with Schedule UB and Schedule UB-INS / Schedule UB-CR as applicable. S-corporations and partnerships are not included in C-corporation unitary combined returns — pass-through entities file their own IL-1120-ST or IL-1065 separately and compute PPRT on a stand-alone basis. A pass-through entity that is part of a tiered structure (partnership owning a partnership) files separately at each tier.
+
+### 5.3 Practical impact for small businesses
+
+For most freelance and small-business clients, combined reporting is not applicable. A single-entity S-corp or partnership simply files its own IL-1120-ST or IL-1065 and computes PPRT on its own net income. The combined reporting rules only become relevant when a client owns multiple corporations under common control that operate as a unitary business.
 
 ## Worked examples
 

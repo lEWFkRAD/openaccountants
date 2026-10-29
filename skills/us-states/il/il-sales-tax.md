@@ -17,36 +17,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # IL Sales Tax
 
-## Illinois Sales Tax (Form ST-1) v1.0
 
-## Rates, bands and thresholds
+### Illinois Sales Tax (Form ST-1) v1.0
 
-Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
-Items flagged for further clarification are tracked separately and excluded here.
-This block is generated from verified `skill_facts` — edit the facts, not the prose.
-
-### IL Sales Tax
-
-- **ROT rate — general merchandise** — 6.25% state (general merchandise)  _(35 ILCS 120/2-10; IDOR PIO-101.)_
-- **ROT rate — qualifying food/drugs/medical** — 1.0% state rate for qualifying food/drugs/medical in 2025; the statewide 1% grocery tax is eliminated effective 1/1/2026 (localities may re-impose).  _(35 ILCS 120/2-10; IDOR PIO-115; PA 103-0781.)_
-- **SOT rate — general** — 6.25%  _(35 ILCS 110/3-10.)_
-- **SOT rate — general** — 6.25%  _(35 ILCS 110/3-10.)_
-- **SOT rate — general** — 6.25%  _(35 ILCS 110/3-10.)_
-- **SOT tax base** — General SOT base = selling price of TPP transferred (if separately stated) or 50% of the entire bill if not separately stated; never less than cost. 'Cost price' applies only to de minimis servicepersons (cost-of-TPP < 35%, or < 75% pharmacy/graphic arts).  _(86 Ill. Admin. Code 140.106; IDOR Pub-113.)_
-- **Chicago — general** — 10.25% combined (state 6.25 + county/RTA/city)  _(IDOR MyTax IL Rate Finder.)_
-- **Springfield — general** — Springfield combined rate is ~9.75% (6.25 state + 1.00 county + 2.50 city/home-rule); 8.75% is outdated. Confirm exact rate via MyTax IL Rate Finder.  _(IDOR MyTax IL Tax Rate Finder.)_
-- **Champaign — general** — Component math supports 9.00% (6.25 + 1.25 county + 1.50 city); some third-party sources show 9.25% after recent local changes. Confirm via MyTax IL Rate Finder.  _(IDOR MyTax IL Rate Finder.)_
-- **Monthly tier** — Monthly filers (avg > $200/mo tax) file ST-1 by the 20th of the following month  _(86 Ill. Admin. Code 130.502; ST-1 instr.)_
-- **Quarterly tier** — Quarterly if avg <= $200/mo; due the 20th after quarter end  _(ST-1 instr.)_
-- **Annual tier** — Annual if avg < $50/mo; due January 20  _(ST-1 instr.)_
-- **Vendor discount rate** — 1.75% of tax timely remitted (min $5/yr); capped at $1,000/month effective 1/1/2025  _(35 ILCS 120/3; PA 103-0592; ST-1 instr.)_
-- **Applies to** — The discount is computed on TOTAL ST-1 tax due (Line 9, which includes locally imposed ROT), not the state portion only. ST-1 Step 4 applies 1.75% to Line 9, subject to the $1,000/month cap.  _(ST-1 instr. (R-01/26), Step 4; 35 ILCS 120/3.)_
-- **Late filing** — Discount forfeited if the return is filed or tax paid late  _(35 ILCS 120/3; IDOR guidance.)_
-- **Sourcing** — IL sourcing is hybrid, not purely origin-based. In-state retailers shipping from IL inventory use origin; remote retailers and marketplace facilitators meeting $100,000/200-transaction nexus source to destination; effective 1/1/2026 IL expands destination-based ROT for in-state sellers shipping from out of state.  _(IDOR Pub-113; FY 2026-12; Leveling the Playing Field Act.)_
-- **2026 nexus change VERIFIED** vs archived [IDOR bulletin FY 2026-12](https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html): "On or after January 1, 2026, the only threshold used to determine if a remote retailer or marketplace facilitator is engaged in the occupation of selling TPP at retail in Illinois ... is whether the retailer makes $100,000 or more in cumulative gross receipts of sales of TPP to purchasers in Illinois during the lookback period. The 200-transaction threshold no longer applies." IDOR auto-converts 200-transaction-only registrants to "voluntary use tax" status.
-- **15% undetermined-location assessment VERIFIED** vs archived FY 2026-12 (P.A. 104-0006): from 1/1/2026, if a taxpayer fails to provide records to determine sales locations for destination-based sales, IDOR assesses those gross receipts **at 15%** — and may apply the rate in audit to periods **before** January 2026.  _(35 ILCS 120/2-12 sourcing rules quoted in the same bulletin.)_
-- **Qualifying food** — Qualifying food excludes prepared food, candy, soft drinks, and alcohol (general rate)  _(86 Ill. Admin. Code 130.310; IDOR PIO-115.)_
-- **E-filing** — IL generally mandates electronic ST-1 filing for most retailers (waiver via Form IL-900-EW). The $200 figure is the monthly-vs-quarterly filing-frequency threshold, not an e-file trigger.  _(ST-1 instr.; 86 Ill. Admin. Code 130.)_
 
 ## Who this applies to
 
@@ -79,6 +52,73 @@ This is a Tier 2 content skill for preparing the Illinois Form ST-1 (Sales and U
 - Chicago Home Rule Municipal Soft Drink Tax and other Chicago-specific levies
 - Marketplace facilitator obligations
 - Multi-state nexus determinations
+
+## Rates, bands and thresholds
+
+Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
+Items flagged for further clarification are tracked separately and excluded here.
+This block is generated from verified `skill_facts` — edit the facts, not the prose.
+
+### IL Sales Tax
+
+- **ROT rate — general merchandise** — 6.25% state (general merchandise)  _(35 ILCS 120/2-10; IDOR PIO-101.)_
+- **ROT rate — qualifying food/drugs/medical** — 1.0% state rate for qualifying food/drugs/medical in 2025; the statewide 1% grocery tax is eliminated effective 1/1/2026 (localities may re-impose).  _(35 ILCS 120/2-10; IDOR PIO-115; PA 103-0781.)_
+- **SOT rate — general** — 6.25%  _(35 ILCS 110/3-10.)_
+- **SOT rate — general** — 6.25%  _(35 ILCS 110/3-10.)_
+- **SOT rate — general** — 6.25%  _(35 ILCS 110/3-10.)_
+- **SOT tax base** — General SOT base = selling price of TPP transferred (if separately stated) or 50% of the entire bill if not separately stated; never less than cost. 'Cost price' applies only to de minimis servicepersons (cost-of-TPP < 35%, or < 75% pharmacy/graphic arts).  _(86 Ill. Admin. Code 140.106; IDOR Pub-113.)_
+- **Chicago — general** — 10.25% combined (state 6.25 + county/RTA/city)  _(IDOR MyTax IL Rate Finder.)_
+- **Springfield — general** — Springfield combined rate is ~9.75% (6.25 state + 1.00 county + 2.50 city/home-rule); 8.75% is outdated. Confirm exact rate via MyTax IL Rate Finder.  _(IDOR MyTax IL Tax Rate Finder.)_
+- **Champaign — general** — Component math supports 9.00% (6.25 + 1.25 county + 1.50 city); some third-party sources show 9.25% after recent local changes. Confirm via MyTax IL Rate Finder.  _(IDOR MyTax IL Rate Finder.)_
+- **Monthly tier** — Monthly filers (avg > $200/mo tax) file ST-1 by the 20th of the following month  _(86 Ill. Admin. Code 130.502; ST-1 instr.)_
+- **Quarterly tier** — Quarterly if avg <= $200/mo; due the 20th after quarter end  _(ST-1 instr.)_
+- **Annual tier** — Annual if avg < $50/mo; due January 20  _(ST-1 instr.)_
+- **Vendor discount rate** — 1.75% of tax timely remitted (min $5/yr); capped at $1,000/month effective 1/1/2025  _(35 ILCS 120/3; PA 103-0592; ST-1 instr.)_
+- **Applies to** — The discount is computed on TOTAL ST-1 tax due (Line 9, which includes locally imposed ROT), not the state portion only. ST-1 Step 4 applies 1.75% to Line 9, subject to the $1,000/month cap.  _(ST-1 instr. (R-01/26), Step 4; 35 ILCS 120/3.)_
+- **Late filing** — Discount forfeited if the return is filed or tax paid late  _(35 ILCS 120/3; IDOR guidance.)_
+- **Sourcing** — IL sourcing is hybrid, not purely origin-based. In-state retailers shipping from IL inventory use origin; remote retailers and marketplace facilitators meeting $100,000/200-transaction nexus source to destination; effective 1/1/2026 IL expands destination-based ROT for in-state sellers shipping from out of state.  _(IDOR Pub-113; FY 2026-12; Leveling the Playing Field Act.)_
+- **2026 nexus change VERIFIED** vs archived [IDOR bulletin FY 2026-12](https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html): "On or after January 1, 2026, the only threshold used to determine if a remote retailer or marketplace facilitator is engaged in the occupation of selling TPP at retail in Illinois ... is whether the retailer makes $100,000 or more in cumulative gross receipts of sales of TPP to purchasers in Illinois during the lookback period. The 200-transaction threshold no longer applies." IDOR auto-converts 200-transaction-only registrants to "voluntary use tax" status.
+- **15% undetermined-location assessment VERIFIED** vs archived FY 2026-12 (P.A. 104-0006): from 1/1/2026, if a taxpayer fails to provide records to determine sales locations for destination-based sales, IDOR assesses those gross receipts **at 15%** — and may apply the rate in audit to periods **before** January 2026.  _(35 ILCS 120/2-12 sourcing rules quoted in the same bulletin.)_
+- **Qualifying food** — Qualifying food excludes prepared food, candy, soft drinks, and alcohol (general rate)  _(86 Ill. Admin. Code 130.310; IDOR PIO-115.)_
+- **E-filing** — IL generally mandates electronic ST-1 filing for most retailers (waiver via Form IL-900-EW). The $200 figure is the monthly-vs-quarterly filing-frequency threshold, not an e-file trigger.  _(ST-1 instr.; 86 Ill. Admin. Code 130.)_
+
+## The taxable base
+
+### Step 1: Determine the applicable tax
+
+0. **Step 1** — Selling tangible personal property at retail? --> ROT Providing a service that involves transferring tangible personal property? --> SOT Purchasing from out-of-state for own use in Illinois? --> UT/SUT Most small retailers will report primarily under ROT.
+
+### Step 2: Classify all sales
+
+0. **Step 2** — For each sale, determine: 1. **Taxable or exempt?** (See Section 5 for exemptions.) 2. **General merchandise or qualifying food/drugs/medical?** (Determines rate.) 3. **Location of seller.** (Illinois is origin-based; the rate depends on WHERE YOU SELL FROM.)
+
+### Step 3: Compute gross receipts (ST-1 Line 1)
+
+0. **Step 3** — Sum all receipts from taxable and exempt sales.
+
+### Step 4: Subtract exempt receipts (ST-1 Lines 2-4)
+
+0. **Step 4** — Deduct sales for resale, sales to exempt organizations, and other exempt transactions.
+
+### Step 5: Compute taxable receipts by rate category
+
+0. **Step 5** — General merchandise taxable receipts x applicable combined rate (state + local). Qualifying food/drug/medical taxable receipts x applicable combined rate (state + local at reduced rate).
+
+### Step 6: Compute total tax (ST-1 Line 12)
+
+0. **Step 6** — Sum of all tax amounts by rate category.
+
+### Step 7: Apply vendor discount (ST-1 Line 14)
+
+0. **Step 7** — If filing on time: - State tax portion x 1.75% = vendor discount. - The discount applies only to the state component, not local taxes.
+
+### Step 8: Add use tax if applicable (ST-1 Line 18)
+
+0. **Step 8** — For items purchased from out-of-state vendors without IL tax collected, report use tax at the applicable rate.
+
+### Step 9: Compute net tax due (ST-1 Line 20)
+
+0. **Step 9** — Total tax - vendor discount + use tax = net tax due.
 
 ## Deadlines and filing
 
@@ -146,44 +186,6 @@ Illinois is origin-based for most transactions. The rate is determined by the se
 | Vendor discount | 1.75% of state tax collected and timely remitted | 35 ILCS 120/3 |
 
 The vendor discount compensates the retailer for collecting and remitting tax. It applies only to the state portion of the tax and only if the return is filed and paid on time.
-
-## The taxable base
-
-### Step 1: Determine the applicable tax
-
-0. **Step 1** — Selling tangible personal property at retail? --> ROT Providing a service that involves transferring tangible personal property? --> SOT Purchasing from out-of-state for own use in Illinois? --> UT/SUT Most small retailers will report primarily under ROT.
-
-### Step 2: Classify all sales
-
-0. **Step 2** — For each sale, determine: 1. **Taxable or exempt?** (See Section 5 for exemptions.) 2. **General merchandise or qualifying food/drugs/medical?** (Determines rate.) 3. **Location of seller.** (Illinois is origin-based; the rate depends on WHERE YOU SELL FROM.)
-
-### Step 3: Compute gross receipts (ST-1 Line 1)
-
-0. **Step 3** — Sum all receipts from taxable and exempt sales.
-
-### Step 4: Subtract exempt receipts (ST-1 Lines 2-4)
-
-0. **Step 4** — Deduct sales for resale, sales to exempt organizations, and other exempt transactions.
-
-### Step 5: Compute taxable receipts by rate category
-
-0. **Step 5** — General merchandise taxable receipts x applicable combined rate (state + local). Qualifying food/drug/medical taxable receipts x applicable combined rate (state + local at reduced rate).
-
-### Step 6: Compute total tax (ST-1 Line 12)
-
-0. **Step 6** — Sum of all tax amounts by rate category.
-
-### Step 7: Apply vendor discount (ST-1 Line 14)
-
-0. **Step 7** — If filing on time: - State tax portion x 1.75% = vendor discount. - The discount applies only to the state component, not local taxes.
-
-### Step 8: Add use tax if applicable (ST-1 Line 18)
-
-0. **Step 8** — For items purchased from out-of-state vendors without IL tax collected, report use tax at the applicable rate.
-
-### Step 9: Compute net tax due (ST-1 Line 20)
-
-0. **Step 9** — Total tax - vendor discount + use tax = net tax due.
 
 ## Penalties and interest
 

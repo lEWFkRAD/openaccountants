@@ -17,38 +17,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # IL Income Tax
 
-## Illinois IL-1040 Individual Return v1.0
 
-## Rates, bands and thresholds
+### Illinois IL-1040 Individual Return v1.0
 
-> Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
-> Items flagged for further clarification are tracked separately and excluded here.
-> This block is generated from verified `skill_facts` — edit the facts, not the prose.
-
-### IL Income Tax
-
-- **IL flat rate** — 4.95% flat individual rate  _(35 ILCS 5/201(b)(5.4); 2025 IL-1040 instr.)_
-- **Starting point** — Federal AGI (1040 Line 11) is the starting point (IL-1040 Line 1)  _(35 ILCS 5/203(a); 2025 IL-1040 instr.)_
-- **Standard deduction** — IL allows no standard or itemized deduction; base income less subtractions/exemptions  _(86 Ill. Admin. Code 100.2410; IL-1040 instr.)_
-- **Per person exemption** — $2,850 per person for 2025  _(IDOR FY2025-16; 2025 IL-1040 instr.)_
-- **MFJ exemption (taxpayer + spouse)** — $5,700 MFJ (2 x $2,850)  _(IDOR FY2025-16.)_
-- **Per dependent exemption** — $2,850 per dependent  _(IDOR FY2025-16.)_
-- **Age 65+ / legally blind additional exemption** — Additional $1,000 per qualifying condition (65+/blind)  _(35 ILCS 5/204; IL-1040 instr.)_
-- **Exemption phase-out cliff — Single/HoH/MFS** — Exemption fully disallowed if federal AGI > $250,000 (Single/HoH/MFS)  _(35 ILCS 5/204(d); IL-1040 instr.)_
-- **Exemption phase-out cliff — MFJ** — Fully disallowed if federal AGI > $500,000 (MFJ)  _(35 ILCS 5/204(d); IL-1040 instr.)_
-- **Property tax credit** — 5% of IL property tax on principal residence, nonrefundable  _(35 ILCS 5/208; Schedule ICR.)_
-- **Property tax credit — AGI cap** — Disallowed above $250K(S)/$500K(MFJ)  _(35 ILCS 5/208; Schedule ICR instr.)_
-- **K-12 education expense credit** — 25% of qualified K-12 expenses over $250, max $750, nonrefundable  _(35 ILCS 5/201(m); Schedule ICR.)_
-- **K-12 credit — AGI cap** — Disallowed above $250K(S)/$500K(MFJ)  _(Schedule ICR instr.)_
-- **Illinois EIC** — 20% of federal EIC, refundable (2023+)  _(35 ILCS 5/212; Schedule IL-E/EIC.)_
-- **EIC subject to AGI cap?** — IL EIC is not subject to the exemption cliff  _(35 ILCS 5/212.)_
-- **§168(k) bonus depreciation** — IL decouples from federal bonus; add back on Schedule M / IL-4562  _(35 ILCS 5/203(b)(2)(E-10); IL-4562 instr.)_
-- **Social Security** — Social Security taxed federally is fully subtracted  _(35 ILCS 5/203(a)(2); IL-1040 Line 5.)_
-- **U.S. government bond interest** — Interest on U.S. obligations is subtracted  _(35 ILCS 5/203(a)(2)(N); Schedule M.)_
-- **Net loss limitation** — This is a CORPORATE net loss deduction provision (IL-1120), not individual. The cap is $500,000/yr for tax years ending on/after 12/31/2024 and before 12/31/2027; the $100,000 cap applied only through tax years ending before 12/31/2024.  _(35 ILCS 5/207; 2025 IL-1120 instr. (R-12/25); PA 103-0592.)_
-- **Deadline** — April 15, 2026 for TY2025  _(35 ILCS 5/505; IL-1040 instr.)_
-- **Extension** — IL grants an automatic 6-month extension to ALL filers regardless of any federal extension (no IL form). A federal extension only matters if more than 6 months is needed. The 'with federal extension' condition is wrong.  _(2025 IL-1040 instr., 'When is my return due / Automatic extension.')_
-- **Residency test** — IL determines residency by domicile and presence for other than a temporary or transitory purpose. IL has no 'place of abode + day-count' statutory-residency test (that is a NY/CA-style test).  _(35 ILCS 5/1501(a)(20); 86 Ill. Admin. Code 100.3020.)_
 
 ## Who this applies to
 
@@ -80,38 +51,36 @@ This is a Tier 2 content skill for preparing the Illinois Form IL-1040 for a ful
 - Net loss carryforward computations beyond simple tracking
 - Illinois corporate income tax (Form IL-1120)
 
-## Deadlines and filing
+## Rates, bands and thresholds
 
-### Who must file
+> Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
+> Items flagged for further clarification are tracked separately and excluded here.
+> This block is generated from verified `skill_facts` — edit the facts, not the prose.
 
-- **Filing requirement** — An Illinois resident must file Form IL-1040 if: 1. They are required to file a federal income tax return, OR 2. They want to claim a refund of Illinois income tax withheld, OR 3. They have Illinois base income exceeding the personal exemption amount.  _(35 ILCS 5/502(a).)_
+### IL Income Tax
 
-### Due date
-
-**Due date table**  _(35 ILCS 5/505)_
-
-| Item | Date | Source |
-| --- | --- | --- |
-| Filing deadline | April 15, 2026 (for tax year 2025) | 35 ILCS 5/505 |
-| Extension deadline | October 15, 2026 (automatic 6-month extension with federal extension) | 35 ILCS 5/505(b) |
-
-- **Automatic extension detail** — Illinois automatically grants a 6-month extension if the taxpayer has a federal extension. No separate Illinois extension form is required. However, estimated tax payments are still due by April 15.  _(35 ILCS 5/505(b))_
-
-### Rates, bands and thresholds
-
-**Rates and thresholds table**  _(see rows)_
-
-| Item | Amount | Source |
-| --- | --- | --- |
-| Illinois flat income tax rate | 4.95% — VERIFIED vs archived current-year Form IL-1040 (Line 12: "Residents: Multiply Line 11 by 4.95% (.0495)") | 35 ILCS 5/201(b)(5.4); archived IL-1040 PDF, retrieved 2026-10-28 |
-| Personal exemption -- single | $2,625 | 35 ILCS 5/204 (2025 amount, indexed) |
-| Personal exemption -- MFJ | $5,250 | 35 ILCS 5/204 |
-| Personal exemption -- each dependent | $2,625 | 35 ILCS 5/204 |
-| Property tax credit rate | 5% of property taxes paid on principal residence | 35 ILCS 5/208 |
-| Earned income credit | 20% of federal EIC (refundable) | 35 ILCS 5/212 (2025) |
-| K-12 education expense credit | 25% of expenses over $250, max credit $750 | 35 ILCS 5/218 |
-
-- **Note on personal exemption** — Illinois does NOT have a standard deduction or itemized deductions at the state level. The personal exemption is the only below-the-line deduction.  _(35 ILCS 5/204)_
+- **IL flat rate** — 4.95% flat individual rate  _(35 ILCS 5/201(b)(5.4); 2025 IL-1040 instr.)_
+- **Starting point** — Federal AGI (1040 Line 11) is the starting point (IL-1040 Line 1)  _(35 ILCS 5/203(a); 2025 IL-1040 instr.)_
+- **Standard deduction** — IL allows no standard or itemized deduction; base income less subtractions/exemptions  _(86 Ill. Admin. Code 100.2410; IL-1040 instr.)_
+- **Per person exemption** — $2,850 per person for 2025  _(IDOR FY2025-16; 2025 IL-1040 instr.)_
+- **MFJ exemption (taxpayer + spouse)** — $5,700 MFJ (2 x $2,850)  _(IDOR FY2025-16.)_
+- **Per dependent exemption** — $2,850 per dependent  _(IDOR FY2025-16.)_
+- **Age 65+ / legally blind additional exemption** — Additional $1,000 per qualifying condition (65+/blind)  _(35 ILCS 5/204; IL-1040 instr.)_
+- **Exemption phase-out cliff — Single/HoH/MFS** — Exemption fully disallowed if federal AGI > $250,000 (Single/HoH/MFS)  _(35 ILCS 5/204(d); IL-1040 instr.)_
+- **Exemption phase-out cliff — MFJ** — Fully disallowed if federal AGI > $500,000 (MFJ)  _(35 ILCS 5/204(d); IL-1040 instr.)_
+- **Property tax credit** — 5% of IL property tax on principal residence, nonrefundable  _(35 ILCS 5/208; Schedule ICR.)_
+- **Property tax credit — AGI cap** — Disallowed above $250K(S)/$500K(MFJ)  _(35 ILCS 5/208; Schedule ICR instr.)_
+- **K-12 education expense credit** — 25% of qualified K-12 expenses over $250, max $750, nonrefundable  _(35 ILCS 5/201(m); Schedule ICR.)_
+- **K-12 credit — AGI cap** — Disallowed above $250K(S)/$500K(MFJ)  _(Schedule ICR instr.)_
+- **Illinois EIC** — 20% of federal EIC, refundable (2023+)  _(35 ILCS 5/212; Schedule IL-E/EIC.)_
+- **EIC subject to AGI cap?** — IL EIC is not subject to the exemption cliff  _(35 ILCS 5/212.)_
+- **§168(k) bonus depreciation** — IL decouples from federal bonus; add back on Schedule M / IL-4562  _(35 ILCS 5/203(b)(2)(E-10); IL-4562 instr.)_
+- **Social Security** — Social Security taxed federally is fully subtracted  _(35 ILCS 5/203(a)(2); IL-1040 Line 5.)_
+- **U.S. government bond interest** — Interest on U.S. obligations is subtracted  _(35 ILCS 5/203(a)(2)(N); Schedule M.)_
+- **Net loss limitation** — This is a CORPORATE net loss deduction provision (IL-1120), not individual. The cap is $500,000/yr for tax years ending on/after 12/31/2024 and before 12/31/2027; the $100,000 cap applied only through tax years ending before 12/31/2024.  _(35 ILCS 5/207; 2025 IL-1120 instr. (R-12/25); PA 103-0592.)_
+- **Deadline** — April 15, 2026 for TY2025  _(35 ILCS 5/505; IL-1040 instr.)_
+- **Extension** — IL grants an automatic 6-month extension to ALL filers regardless of any federal extension (no IL form). A federal extension only matters if more than 6 months is needed. The 'with federal extension' condition is wrong.  _(2025 IL-1040 instr., 'When is my return due / Automatic extension.')_
+- **Residency test** — IL determines residency by domicile and presence for other than a temporary or transitory purpose. IL has no 'place of abode + day-count' statutory-residency test (that is a NY/CA-style test).  _(35 ILCS 5/1501(a)(20); 86 Ill. Admin. Code 100.3020.)_
 
 ## The taxable base
 
@@ -175,6 +144,39 @@ Common subtractions:
 ### Step 10: Compute balance due or refund (Line 34/36)
 
 - **Balance due/refund formula** — Tax after credits - withholding - estimated payments = balance due (if positive) or refund (if negative).  _(IL-1040 instr.)_
+
+## Deadlines and filing
+
+### Who must file
+
+- **Filing requirement** — An Illinois resident must file Form IL-1040 if: 1. They are required to file a federal income tax return, OR 2. They want to claim a refund of Illinois income tax withheld, OR 3. They have Illinois base income exceeding the personal exemption amount.  _(35 ILCS 5/502(a).)_
+
+### Due date
+
+**Due date table**  _(35 ILCS 5/505)_
+
+| Item | Date | Source |
+| --- | --- | --- |
+| Filing deadline | April 15, 2026 (for tax year 2025) | 35 ILCS 5/505 |
+| Extension deadline | October 15, 2026 (automatic 6-month extension with federal extension) | 35 ILCS 5/505(b) |
+
+- **Automatic extension detail** — Illinois automatically grants a 6-month extension if the taxpayer has a federal extension. No separate Illinois extension form is required. However, estimated tax payments are still due by April 15.  _(35 ILCS 5/505(b))_
+
+### Rates, bands and thresholds
+
+**Rates and thresholds table**  _(see rows)_
+
+| Item | Amount | Source |
+| --- | --- | --- |
+| Illinois flat income tax rate | 4.95% — VERIFIED vs archived current-year Form IL-1040 (Line 12: "Residents: Multiply Line 11 by 4.95% (.0495)") | 35 ILCS 5/201(b)(5.4); archived IL-1040 PDF, retrieved 2026-10-28 |
+| Personal exemption -- single | $2,625 | 35 ILCS 5/204 (2025 amount, indexed) |
+| Personal exemption -- MFJ | $5,250 | 35 ILCS 5/204 |
+| Personal exemption -- each dependent | $2,625 | 35 ILCS 5/204 |
+| Property tax credit rate | 5% of property taxes paid on principal residence | 35 ILCS 5/208 |
+| Earned income credit | 20% of federal EIC (refundable) | 35 ILCS 5/212 (2025) |
+| K-12 education expense credit | 25% of expenses over $250, max credit $750 | 35 ILCS 5/218 |
+
+- **Note on personal exemption** — Illinois does NOT have a standard deduction or itemized deductions at the state level. The personal exemption is the only below-the-line deduction.  _(35 ILCS 5/204)_
 
 ## Penalties and interest
 
