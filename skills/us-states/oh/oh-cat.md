@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Ohio commercial activity tax (CAT)
 
-## Scope and who this is for ([Ohio Department of Taxation, CAT](https://tax.ohio.gov/business/commercial-activity-tax); [Information Release CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023))
+## Who this applies to
 
 This skill covers the Ohio **commercial activity tax (CAT)**, Ohio Revised Code (R.C.) Chapter 5751, for **tax year 2026**, with a dated section for **2025** and a short history for earlier years. The CAT is "an annual tax imposed on the privilege of doing business in Ohio". It is measured by Ohio **taxable gross receipts (TGR)**, not by profit. It is **not an income tax**.
 
@@ -35,6 +35,21 @@ These taxes run alongside the CAT. A business can owe CAT, municipal net profit 
 
 A business with $6,000,000 or less of Ohio TGR is excluded for that year. "A business must meet both the bright line presence test and the sales threshold to owe CAT" ([Department CAT page](https://tax.ohio.gov/business/commercial-activity-tax)).
 
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+## The taxable base
+
+Not yet confirmed against archived sources.
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+## Cross-border points
+
+Not yet confirmed against archived sources.
+## Worked examples
+
+Not yet confirmed against archived sources.
 ## Ask the client first
 
 - **Which calendar year?** The exclusion is $6,000,000 for 2025 and after, $3,000,000 for 2024, and $1,000,000 before 2024 (with a $150,000 filing threshold and an annual minimum tax). The CAT year is always the calendar year, whatever the client's fiscal year ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023)).
@@ -68,9 +83,9 @@ This follows the Department's guidance; codes.ohio.gov could not be reached on 2
 
 7. **Test the exclusion for the calendar year.** If the taxpayer's (or group's) Ohio TGR for the year will be **more than $6,000,000**, it must register within 30 days of exceeding it and file every quarter. If TGR is **$6,000,000 or less**, it is not required to file. But an open account must keep filing until it is cancelled, so cancel it ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023)).
 
-8. **Compute each quarter.** The full $6,000,000 exclusion applies to the first quarterly return filed in the year. Any unused part carries forward to later quarters of the **same** calendar year only. Tax = 0.26% × (TGR for the quarter − exclusion still available). It never goes below zero ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023)).
+8. **Compute each quarter.** The full $6,000,000 exclusion applies to the first quarterly return filed in the year. Any unused part carries forward to later quarters of the **same** calendar year only. Tax = 0.26% × (TGR for the quarter − exclusion still available). It never goes below zero ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023)). (not yet confirmed)
 
-9. **File and pay electronically** through the Ohio Business Gateway by the 10th day of the second month after each quarter ends. See "Filing and payment".
+9. **File and pay electronically** through the Ohio Business Gateway by the 10th day of the second month after each quarter ends. See "Filing and payment". (not yet confirmed)
 
 ## Figures by year
 
@@ -102,10 +117,10 @@ For amending or answering notices on old periods only. The minimum tax was based
 ### Bright-line presence ([CAT 2005-02](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/commercial_activities/information_releases/2005-02%20cat%20nexus%20standards%20rev%20november%202019.pdf); [Department CAT page](https://tax.ohio.gov/business/commercial-activity-tax))
 
 | Test (any one) | Threshold | Condition |
-|---|---|---|
-| Ohio property | at least $50,000 | at any time in the calendar year; owned at original cost, rented at eight times net annual rent |
-| Ohio payroll | at least $50,000 | during the calendar year |
-| Ohio TGR | at least $500,000 | during the calendar year |
+|---|---|---| (not yet confirmed)
+| Ohio property | at least $50,000 | at any time in the calendar year; owned at original cost, rented at eight times net annual rent | (not yet confirmed)
+| Ohio payroll | at least $50,000 | during the calendar year | (not yet confirmed)
+| Ohio TGR | at least $500,000 | during the calendar year | (not yet confirmed)
 | Ohio share | at least 25% | of total property, payroll or gross receipts, at any time in the year |
 | Domicile | any | individual or business domiciled in Ohio |
 
@@ -176,7 +191,7 @@ The CAT is a cost of doing business. It "cannot be separately billed or invoiced
 
 **Consolidated elected group (optional).**
 - Who: entities with **at least 50%** common ownership may elect. The group chooses the 50% or the 80% test.
-- **All** entities that meet the chosen test must be included, even those with no Ohio nexus and those that are excluded persons.
+- **All** entities that meet the chosen test must be included, even those with no Ohio nexus and those that are excluded persons. (not yet confirmed)
 - The group chooses whether to include non-U.S. corporations. That choice is also binding for eight quarters.
 - **Intermember receipts are excluded**, and are ignored when testing the exclusion.
 - The election is made on forms CAT ES and CAT AR.
@@ -213,7 +228,7 @@ The Commissioner may revoke approval at any time.
 
 ### Not an income tax: P.L. 86-272 ([15 U.S.C. § 381](https://www.law.cornell.edu/uscode/text/15/381); [15 U.S.C. § 383](https://www.law.cornell.edu/uscode/text/15/383))
 
-- P.L. 86-272 protects only against a "net income tax", defined as "any tax imposed on, or measured by, net income".
+- P.L. 86-272 protects only against a "net income tax", defined as "any tax imposed on, or measured by, net income". (not yet confirmed)
 - The CAT is measured by gross receipts, without deduction for cost of goods sold or other expenses. So a seller whose only Ohio activity is soliciting orders for goods is still subject to the CAT if it has bright-line presence and more than $6,000,000 of Ohio TGR.
 - The bright-line standard, including the $500,000 receipts test without physical presence, was upheld in *Crutchfield Corp. v. Testa*, 151 Ohio St.3d 278, 2016-Ohio-7760 ([CAT 2005-02](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/commercial_activities/information_releases/2005-02%20cat%20nexus%20standards%20rev%20november%202019.pdf)).
 
@@ -221,13 +236,13 @@ The Commissioner may revoke approval at any time.
 
 - The CAT is a state tax "paid or accrued within the taxable year in carrying on a trade or business". It is deductible by the business under section 164(a).
 - How it flows to owners is for the federal Guides.
-
+ (not yet confirmed)
 ## Worked cases
 
 These use hypothetical amounts. Each is for calendar year 2026 unless it says otherwise.
 
 ### Case 1: a protected goods seller over the exclusion ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023); [15 U.S.C. § 383](https://www.law.cornell.edu/uscode/text/15/383))
-
+ (not yet confirmed)
 - A Michigan corporation sells only goods into Ohio. Its reps only solicit orders. Ohio TGR (goods received in Ohio): Q1 $2,000,000, Q2 $2,000,000, Q3 $1,500,000, Q4 $1,500,000. Total $7,000,000.
 - Bright-line presence: yes (at least $500,000 of Ohio TGR). Over $6,000,000: yes. P.L. 86-272 does not help.
 - It registers within 30 days of the point in Q4 when cumulative TGR passed $6,000,000.
@@ -235,14 +250,14 @@ These use hypothetical amounts. Each is for calendar year 2026 unless it says ot
 - Check: ($7,000,000 − $6,000,000) × 0.26% = $2,600.
 
 ### Case 2: a remote services business under the exclusion ([Department CAT page](https://tax.ohio.gov/business/commercial-activity-tax); [CAT 2005-06](https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200506.pdf))
-
+ (not yet confirmed)
 - A California S corporation sells analytics services. Ohio customers receive the benefit of $1,500,000 of them in 2026, out of $20,000,000 in total.
 - Bright-line presence: yes (at least $500,000). Ohio TGR over $6,000,000: no. CAT: $0. No registration.
 - If it registered in an earlier year, returns stay due each quarter until it cancels through the Gateway.
 
 ### Case 3: a group, combined v consolidated ([Department CAT groups page](https://tax.ohio.gov/business/commercial-activity-tax/commercial-activity-tax-groups); [CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023))
 
-- HoldCo owns all of OpCo and IPCo. OpCo has $9,000,000 of Ohio TGR from outside customers. IPCo licenses trademarks that OpCo uses in Ohio and receives $2,000,000 of royalties from OpCo. That is Ohio TGR for IPCo and gives it bright-line presence. HoldCo has no receipts.
+- HoldCo owns all of OpCo and IPCo. OpCo has $9,000,000 of Ohio TGR from outside customers. IPCo licenses trademarks that OpCo uses in Ohio and receives $2,000,000 of royalties from OpCo. That is Ohio TGR for IPCo and gives it bright-line presence. HoldCo has no receipts. (not yet confirmed)
 - **Combined (default):** OpCo and IPCo file as one group. The royalty is not excluded. TGR $11,000,000. ($11,000,000 − $6,000,000) × 0.26% = $13,000.
 - **Consolidated (80% election):** all three are included. The $2,000,000 intermember royalty is excluded. TGR $9,000,000. ($9,000,000 − $6,000,000) × 0.26% = $7,800.
 - Separate returns with an exclusion each are **not** an option. A member filing alone under a request to file separately gets no exclusion.
@@ -259,7 +274,7 @@ These use hypothetical amounts. Each is for calendar year 2026 unless it says ot
 - An Ohio corporation has 2026 sales of $25,000,000. Of these, $10,000,000 is delivered to Ohio customers and $15,000,000 to customers in other states. It also receives $500,000 of dividends, $200,000 of interest on bank deposits, and $400,000 from selling a used press (a section 1231 asset).
 - Ohio TGR: $10,000,000. The out-of-state sales are not sitused to Ohio. The dividends, deposit interest and press sale are excluded.
 - CAT for the year: ($10,000,000 − $6,000,000) × 0.26% = $10,400, spread over the quarterly returns as the exclusion is used up.
-
+ (not yet confirmed)
 ## When to refuse or refer
 
 - **Before 2024 periods:** amended returns or assessments with the minimum tax, the $1,000,000 exclusion or annual returns. Refer to a CAT specialist with the [CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023) history table.
@@ -271,7 +286,7 @@ These use hypothetical amounts. Each is for calendar year 2026 unless it says ot
 - **Credits**, including the jobs, research and historic preservation credits. The film and theater capital improvement credit was repealed by H.B. 96 effective 30 September 2025, but credits issued earlier can still be claimed.
 - **Any statutory point you need to cite in a dispute.** The Ohio Revised Code site could not be reached for this skill; confirm the section text there.
 
-## Filing and payment ([Department CAT page](https://tax.ohio.gov/business/commercial-activity-tax); [CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023); [CAT 1 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/cat/generic/cat_cat1_ins.pdf); [CAT 2005-13](https://tax.ohio.gov/static/commercial_activities/information_releases/CAT_2005-13_EstimatedPaymentsforCalendarQuarterTaxpayers-UpdatedMay2020.pdf); [Department interest rates](https://tax.ohio.gov/individual/resources/interest-rates); [CAT filing reminder](https://tax.ohio.gov/static/ohiotaxalert/archivedalerts/cat-filingreminder-11124.pdf))
+## Deadlines and filing
 
 **Quarterly only, from 2024.**
 - "Annual filing is eliminated after the 2023 annual return, which is due May 10, 2024. Only quarterly returns may be filed for tax periods beginning on and after January 1, 2024."
@@ -296,12 +311,12 @@ When the 10th fell on a weekend, the Department has set the next business day. F
 - The Department's pages offer no filing extension. If the actual figures are not ready by the due date, file an estimated return (below). Other alternative reporting schedules need the Commissioner's written approval ([CAT 2005-13](https://tax.ohio.gov/static/commercial_activities/information_releases/CAT_2005-13_EstimatedPaymentsforCalendarQuarterTaxpayers-UpdatedMay2020.pdf)).
 
 **Registration.**
-- Register (form CAT 1, preferably on the Gateway) within 30 days of exceeding the exclusion for the calendar year.
-- You need a FEIN or, for a sole proprietor, an SSN. The account takes about 3 business days to be ready.
+- Register (form CAT 1, preferably on the Gateway) within 30 days of exceeding the exclusion for the calendar year. (not yet confirmed)
+- You need a FEIN or, for a sole proprietor, an SSN. The account takes about 3 business days to be ready. (not yet confirmed)
 - The "date subject" may be set up to 6 months ahead.
 - There is no registration fee.
 - Late registration: a penalty of up to $100 per month, not to exceed $1,000.
-
+ (not yet confirmed)
 **Cancellation.**
 - Cancel through the Gateway's CAT Cancel Account transaction, or on the Business Account Update Form.
 - Groups use the form and must document ownership of the remaining members.
@@ -310,7 +325,7 @@ When the 10th fell on a weekend, the Department has set the next business day. F
 - A business near the exclusion may instead keep its account open, filing returns and paying nothing until it goes over.
 - A business that cancelled must register again, and start paying, within 30 days of going over.
 
-**Estimated returns** (only if filed on time):
+**Estimated returns** (only if filed on time): (not yet confirmed)
 - A **rule estimate** reports TGR of at least 95% of the previous quarter's TGR. The payment may never be less than 70% of the quarter's actual tax. Reconcile by the due date of the next quarter's return. It cannot be used in a calendar year in which the statutory estimate is used.
 - A **statutory estimate** is reconciled at year end. Each quarter's estimated TGR must fall between 95% and 105% of actual, or interest and penalty apply to the shortfall.
 
@@ -321,7 +336,7 @@ When the 10th fell on a weekend, the Department has set the next business day. F
 **Refunds and records.**
 - A refund claim must be filed within four years of the overpayment, on the Gateway or form CAT REF.
 - Keep records for four years from the later of the due date and the filing date.
-
+ (not yet confirmed)
 **2025 returns.**
 - All four 2025 quarterly returns are due by now; the fourth quarter return was due 10 February 2026.
 - There is **no** 2025 annual return and no extension. The 15 October 2026 extended date for income tax returns does not apply to the CAT.
@@ -346,15 +361,48 @@ When the 10th fell on a weekend, the Department has set the next business day. F
 
 ---
 
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+the OpenAccountants network.
+
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a

@@ -10,7 +10,7 @@ applicable: [IT-IND, IT-CORP, VAT, SC, PR, TP, XB]
 | State | Ohio |
 | Code | US-OH |
 | Income tax | Yes (graduated; top rate phasing down under HB 96) |
-| Sales tax | Yes (5.75% state rate + local) |
+| Sales tax | Yes (5.75% state rate + local) | (not yet confirmed)
 | Franchise / gross receipts tax | Yes — Commercial Activity Tax (CAT), ORC Ch. 5751 |
 | Corporate income tax | No — Ohio repealed its corporate income/franchise tax in 2013; the CAT is the entity-level business tax |
 | Tax authority | [Ohio Department of Taxation](https://tax.ohio.gov) |

@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Ohio individual income tax (Form IT 1040), including sole proprietors
 
-## Scope and who this is for ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [OBM Monthly Financial Report, December 2025](https://archives.obm.ohio.gov/Files//Budget_and_Planning/Monthly_Financial_Report/2025-12-mfr.pdf))
+## Who this applies to
 
 This skill covers the Ohio individual income tax return, **Ohio IT 1040**, for **tax year 2026** (returns filed in 2027), with a dated section for **2025 returns** (due 15 April 2026, or 15 October 2026 on extension). It is for full-year residents, part-year residents and nonresidents with Ohio income, including sole proprietors and owners of pass-through entities whose business income reaches Ohio through federal adjusted gross income (AGI).
 
@@ -30,15 +30,30 @@ It does **not** compute the **school district income tax** (Form SD 100) or any 
   - the senior citizen, lump sum distribution and joint filing credits together equal or exceed the tax on line 8c, **and** there is no school district income tax liability;
   - the exemption amount (line 4) equals or exceeds Ohio AGI.
 - A school district income tax liability forces an IT 1040 even when one of those exceptions applies.
-- The Department recommends filing an IT 1040 or IT 10 when federal AGI is greater than $28,450, even with no tax due, to avoid delinquency billings.
+- The Department recommends filing an IT 1040 or IT 10 when federal AGI is greater than $28,450, even with no tax due, to avoid delinquency billings. (not yet confirmed)
 
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+## The taxable base
+
+Not yet confirmed against archived sources.
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+## Cross-border points
+
+Not yet confirmed against archived sources.
+## Worked examples
+
+Not yet confirmed against archived sources.
 ## Ask the client first
 
 - **Which tax year?** 2025 has three nonbusiness brackets with a top rate of 3.125%. From 2026 Ohio moves to a single 2.75% rate ([OBM Monthly Financial Report](https://archives.obm.ohio.gov/Files//Budget_and_Planning/Monthly_Financial_Report/2025-12-mfr.pdf)), but the official 2026 schedule is not yet published.
 - **Residency for the whole year**, for each spouse: where the client's abode is, whether they moved into or out of Ohio (and the dates), and how many **contact periods** they had in Ohio. A person with an Ohio abode is presumed to be a resident.
 - **Federal filing status.** Ohio must match it. A couple who filed jointly federally must file jointly in Ohio even if one or both are nonresidents.
 - **Federal AGI and what is in it:** Schedule C, E and F results, wages, guaranteed payments, pensions and IRA distributions (and whether any was a lump sum), taxable Social Security, interest (including other states' bonds and U.S. obligations), capital gains.
-- **Ownership percentage** in any pass-through entity. Wages and guaranteed payments from an entity the client owns **20% or more** of are business income ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf)).
+- **Ownership percentage** in any pass-through entity. Wages and guaranteed payments from an entity the client owns **20% or more** of are business income ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf)). (not yet confirmed)
 - **Bonus depreciation and section 179** claimed on the federal return this year, and Ohio add-backs from the five prior years (for the deduction schedule).
 - **Dates of birth** (65 or older at year-end for the senior citizen and lump sum distribution credits) and whether either spouse ever took an Ohio lump sum retirement or lump sum distribution credit.
 - **Each spouse's own income** that counts for the joint filing credit (wages and similar, not interest, dividends, capital gains, rents or royalties, and not amounts deducted on the Schedule of Adjustments).
@@ -46,7 +61,7 @@ It does **not** compute the **school district income tax** (Form SD 100) or any 
 - **School district:** the school district of residence for the year (use The Finder at tax.ohio.gov/Finder). Some districts levy an income tax.
 - **Payments:** Ohio withholding, estimated payments (dates and amounts), prior-year Ohio tax and whether the prior-year return was filed on time, any credit carryforward and any extension payment.
 
-## The method, step by step
+## The method, step by step (not yet confirmed)
 
 Line numbers are from the 2025 forms ([2025 IT 1040 and schedules](https://dam.assets.ohio.gov/image/upload/v1758139620/tax.ohio.gov/forms/ohio_individual/individual/2025/1040-bundle.pdf); [2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf)). Ohio has **no standard deduction** and no itemized deductions; it starts from federal AGI.
 
@@ -59,15 +74,15 @@ Line numbers are from the 2025 forms ([2025 IT 1040 and schedules](https://dam.a
 4. **Line 3, Ohio AGI** = line 1 plus line 2a minus line 2b.
 5. **MAGI** (modified adjusted gross income) = Ohio AGI **plus** the BID. MAGI, not Ohio AGI, sets the exemption amount and most credit limits (MAGI worksheet in the instructions).
 6. **Line 4, exemptions:** one for the taxpayer and one for the spouse on a joint return (each only if not claimed as someone else's dependent), plus one per dependent claimed on the federal return, times the amount for the client's MAGI (see "Figures by year").
-7. **Line 5, Ohio income tax base** = line 3 minus line 4 (not below zero).
+7. **Line 5, Ohio income tax base** = line 3 minus line 4 (not below zero). (not yet confirmed)
 8. **Line 6, taxable business income** = the lesser of (Schedule of Business Income line 11 minus line 13) and IT 1040 line 5. **Line 7, taxable nonbusiness income** = line 5 minus line 6. So the exemptions reduce nonbusiness income first.
 9. **Line 8a**, tax on line 7 from the nonbusiness brackets; **line 8b**, line 6 times 3% (Schedule of Business Income line 16); **line 8c** = 8a + 8b ([2025 IT 1040 and schedules](https://dam.assets.ohio.gov/image/upload/v1758139620/tax.ohio.gov/forms/ohio_individual/individual/2025/1040-bundle.pdf)).
 10. **Line 9, nonrefundable credits** from the Ohio Schedule of Credits (retirement, senior, lump sum, child care, exemption, joint filing, earned income and others, see "Credits"). **Line 10** = line 8c minus line 9, not below zero. Nonresident credit (IT NRC) and resident credit (IT RC) also go through the Schedule of Credits.
-11. **Lines 11 to 26:** add the IT/SD 2210 interest penalty (line 11) and unpaid use tax (line 12); subtract withholding (line 14), estimated and extension payments and carryforward (line 15) and refundable credits (line 16); add interest on late payment (line 21) to reach the amount due (line 22) or the overpayment (line 23).
+11. **Lines 11 to 26:** add the IT/SD 2210 interest penalty (line 11) and unpaid use tax (line 12); subtract withholding (line 14), estimated and extension payments and carryforward (line 15) and refundable credits (line 16); add interest on late payment (line 21) to reach the amount due (line 22) or the overpayment (line 23). (not yet confirmed)
 12. **Then check the separate local taxes:** if the client lived in a taxing school district, an SD 100 is required; any city or village income tax is filed with the municipality or its administrator. See "When to refuse or refer".
 
 ## Figures by year
-
+ (not yet confirmed)
 ### Nonbusiness income tax brackets ([2025 IT 1040 instructions, page 18](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [Department annual tax rates](https://tax.ohio.gov/individual/resources/annual-tax-rates); [OBM Monthly Financial Report](https://archives.obm.ohio.gov/Files//Budget_and_Planning/Monthly_Financial_Report/2025-12-mfr.pdf))
 
 **Tax year 2025**, all filing statuses, applied to IT 1040 line 7:
@@ -75,12 +90,12 @@ Line numbers are from the 2025 forms ([2025 IT 1040 and schedules](https://dam.a
 | Taxable nonbusiness income: more than | Up to | Tax |
 | --- | --- | --- |
 | $0 | $26,050 | None |
-| $26,050 | $100,000 | $342.00 plus 2.75% of the amount over $26,050 |
-| $100,000 | no limit | $2,394.32 plus 3.125% of the amount over $100,000 |
-
+| $26,050 | $100,000 | $342.00 plus 2.75% of the amount over $26,050 | (not yet confirmed)
+| $100,000 | no limit | $2,394.32 plus 3.125% of the amount over $100,000 | (not yet confirmed)
+ (not yet confirmed)
 - The Department's example: taxable nonbusiness income of $68,050 2.75% of $42,000 is $1,155, plus $342 gives $1,497.
 - Apply the schedule exactly as printed, or use the Department's calculator at tax.ohio.gov/taxcalculator. The printed base amounts do not run continuously: at $100,000 the second row gives $2,375.63, the third row starts at $2,394.32. Do not "correct" the table.
-
+ (not yet confirmed)
 **Tax year 2026.**
 - The Office of Budget and Management reports that under the FY 2026-2027 budget (HB 96), "beginning in 2026, there will be a single 2.75 percent income tax rate, eliminating the multiple tax rate brackets previously in Ohio law".
 - The Department had not published the 2026 rate schedule (the zero-tax threshold and any base amount) on its site by 25 September 2026. Do not assume the 2025 base amount of $342 carries over. Before computing a 2026 return, take the schedule from the 2026 IT 1040 instructions or from R.C. 5747.02 as amended by HB 96.
@@ -88,10 +103,10 @@ Line numbers are from the 2025 forms ([2025 IT 1040 and schedules](https://dam.a
 
 ### Business income ([Department business income deduction page](https://tax.ohio.gov/individual/resources/businessincomededuction); [2025 IT 1040 and schedules](https://dam.assets.ohio.gov/image/upload/v1758139620/tax.ohio.gov/forms/ohio_individual/individual/2025/1040-bundle.pdf))
 
-| Item | Tax year 2025 |
-| --- | --- |
-| Business income deduction, single, head of household, qualifying surviving spouse, married filing jointly | First $250,000 |
-| Business income deduction, married filing separately | First $125,000 |
+| Item | Tax year 2025 | (not yet confirmed)
+| --- | --- | (not yet confirmed)
+| Business income deduction, single, head of household, qualifying surviving spouse, married filing jointly | First $250,000 | (not yet confirmed)
+| Business income deduction, married filing separately | First $125,000 | (not yet confirmed)
 | Rate on taxable business income above the deduction | 3% |
 
 - The deduction applies only to business income included in federal AGI, and is capped at federal AGI (Schedule of Business Income line 11).
@@ -105,7 +120,7 @@ Line numbers are from the 2025 forms ([2025 IT 1040 and schedules](https://dam.a
 | --- | --- |
 | $40,000 or less | $2,400 |
 | $40,001 to $80,000 | $2,150 |
-| $80,001 to $749,999 | $1,900 |
+| $80,001 to $749,999 | $1,900 | (not yet confirmed)
 | $750,000 or greater | $0 |
 
 - A dependent who can be claimed by someone else enters $0 on line 4.
@@ -114,7 +129,7 @@ Line numbers are from the 2025 forms ([2025 IT 1040 and schedules](https://dam.a
 ### Credits ([2025 IT 1040 instructions, Schedule of Credits and worksheets](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
 
 Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the instructions say they carry forward.
-
+ (not yet confirmed)
 - **Retirement income credit (line 2).** All of these must be true:
   - MAGI less exemptions is less than $100,000;
   - the client received income from a pension, profit-sharing or retirement plan (such as a traditional IRA or 401(k)), received on account of retirement, and included in Ohio AGI;
@@ -124,9 +139,9 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 
 | Retirement income in Ohio AGI | Credit |
 | --- | --- |
-| $500 or less | None |
+| $500 or less | None | (not yet confirmed)
 | $501 to $1,500 | $25 |
-| $1,501 to $3,000 | $50 |
+| $1,501 to $3,000 | $50 | (not yet confirmed)
 | $3,001 to $5,000 | $80 |
 | $5,001 to $8,000 | $130 |
 | $8,001 or more | $200 |
@@ -137,14 +152,14 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 - **Child and dependent care credit (line 6):** only if MAGI is less than $40,000 and the federal child and dependent care credit was claimed. Below $20,000 the credit equals the federal amount (Form 2441 line 9c); from $20,000 to under $40,000 it is 25% of Form 2441 line 11.
 - **Exemption credit (line 9):** $20 per exemption claimed, if MAGI less exemptions is less than $30,000.
 - **Joint filing credit (line 12).** All of these must be true:
-  - the couple files jointly;
+  - the couple files jointly; (not yet confirmed)
   - **each** spouse has at least $500 of qualifying income. Qualifying income is income in Ohio AGI other than interest, dividends and distributions, capital gains, and rents and royalties. Business income deducted as the BID, Social Security and other deducted amounts are not in Ohio AGI, so they do not qualify;
   - MAGI is less than $750,000.
 
   The credit is a percentage of the tax after the Schedule of Credits lines 2 to 9 (Schedule of Credits line 11), capped at $650, and a statement listing each spouse's qualifying income must be attached:
 
-| MAGI less exemptions | Percentage of Schedule of Credits line 11 |
-| --- | --- |
+| MAGI less exemptions | Percentage of Schedule of Credits line 11 | (not yet confirmed)
+| --- | --- | (not yet confirmed)
 | $0 to $25,000 | 20% |
 | $25,001 to $50,000 | 15% |
 | $50,001 to $75,000 | 10% |
@@ -157,11 +172,11 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 - **2026:** the Department had not published 2026 credit limits by 25 September 2026. The 2026 IT 1040ES worksheet lowers the exemption cut-off to $500,000 — and archived ORC 5747.05(E)(2) confirms the joint filing credit MAGI cliff is **less than $500,000 for taxable years beginning in 2026 or thereafter** (down from $750,000 for 2025).
 
 ### Federal conformity and depreciation ([Ohio conformity updates](https://tax.ohio.gov/wps/portal/gov/tax/individual/file-now/ohio-conformity-updates); [2025 IT 1040 instructions, Schedule of Adjustments lines 9 and 27](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
-
-- **Conformity date.** The Department says: "On March 5th, 2026, Governor Mike DeWine signed Senate Bill 9 into law. This bill officially puts Ohio into conformity for tax year 2025 (filed in 2026)." This "includes conformity with the tax changes contained in the One Big Beautiful Bill Act (OBBBA) that impact Ohio taxation." The Department's table gives the conformity date for tax year 2025 as 5 March 2026 (prior effective date 7 March 2025).
+ (not yet confirmed)
+- **Conformity date.** The Department says: "On March 5th, 2026, Governor Mike DeWine signed Senate Bill 9 into law. This bill officially puts Ohio into conformity for tax year 2025 (filed in 2026)." This "includes conformity with the tax changes contained in the One Big Beautiful Bill Act (OBBBA) that impact Ohio taxation." The Department's table gives the conformity date for tax year 2025 as 5 March 2026 (prior effective date 7 March 2025). (not yet confirmed)
 - **Election (R.C. 5701.11).** Because the conformity bill passed after the 2025 year closed, a taxpayer may irrevocably elect to file 2025 using the Internal Revenue Code as it stood at year-end instead. It is all or nothing; provisions cannot be mixed. The prior version is elected by attaching the statement the Department prescribes. Filing normally under the 2025 instructions elects the current version.
-- **Decoupling survives conformity.** Where Ohio decouples through Schedule of Adjustments add-backs and deductions, conformity legislation does not change those items unless they are amended or repealed.
-- **Bonus depreciation and section 179 add-back (line 9).** Add back **5/6** of federal section 168(k) bonus depreciation, and 5/6 of section 179 expense above what section 179 would have allowed as it existed on 31 December 2002.
+- **Decoupling survives conformity.** Where Ohio decouples through Schedule of Adjustments add-backs and deductions, conformity legislation does not change those items unless they are amended or repealed. (not yet confirmed)
+- **Bonus depreciation and section 179 add-back (line 9).** Add back **5/6** of federal section 168(k) bonus depreciation, and 5/6 of section 179 expense above what section 179 would have allowed as it existed on 31 December 2002. (not yet confirmed)
   - Use **2/3** instead of 5/6 for an employer that increased Ohio income tax withheld by at least 10% over the previous year.
   - Use **6/6** where the depreciation creates a federal net operating loss.
   - **No add-back** for an employer whose increase in Ohio withholding over the previous year is at least the total 168(k) and 179 expense, or for depreciation from a pass-through entity in which the taxpayer owns less than 5%.
@@ -171,8 +186,8 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 ### Penalty, interest and estimated tax figures ([Department interest rates](https://tax.ohio.gov/individual/resources/interest-rates); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf); [Department failure-to-file notice](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/individual/FailuretoFileNotice103019.pdf); [2026 IT 1040ES worksheet](https://dam.assets.ohio.gov/image/upload/v1735926006/tax.ohio.gov/forms/ohio_individual/individual/2026/ites-instructions-fi.pdf))
 
 | Item | Figure |
-| --- | --- |
-| Interest rate on unpaid tax, calendar year 2026 | 7% |
+| --- | --- | (not yet confirmed)
+| Interest rate on unpaid tax, calendar year 2026 | 7% | (not yet confirmed)
 | Interest rate on unpaid tax, calendar year 2025 | 8% |
 | Estimated payments needed if expected tax after credits, less Ohio withholding, is more than | $500 |
 | Required annual estimate: lesser of current-year tax times | 90% |
@@ -187,7 +202,7 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 ### 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
 
 - Use the 2025 brackets (top rate 3.125%), the 2025 exemption table (cut-off $750,000) and the 2025 credits above.
-- Other 2025 changes: the Ohio educator expense deduction rose to $300 per taxpayer; the home school expenses credit became $250 per qualifying student (it was per return); a new deduction for contributions to a pregnancy resource center; the IT NRS form is no longer used (see "Residency").
+- Other 2025 changes: the Ohio educator expense deduction rose to $300 per taxpayer; the home school expenses credit became $250 per qualifying student (it was per return); a new deduction for contributions to a pregnancy resource center; the IT NRS form is no longer used (see "Residency"). (not yet confirmed)
 - Conformity for 2025 includes OBBBA (Senate Bill 9); a 2025 return filed earlier on the old Code may need review. An extended return is due 15 October 2026, with interest on unpaid tax from 15 April 2026.
 
 ## Residency, nonresidents and part-year residents ([2025 IT 1040 instructions, pages 13, 16 and 62](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
@@ -197,15 +212,15 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 - **Nonresident:** resident elsewhere all year; nonresident credit for income not earned or received in Ohio.
 - **Contact periods.** A contact period is when the person has an abode outside Ohio, is away overnight from it, and spends any part of **two consecutive days** in Ohio (they need not sleep in Ohio). With **fewer than 213** contact periods, nonresidency must be shown "more likely than not"; with **213 or more**, by "clear and convincing" documentation.
 - **Nonresident presumption (replaces the old affidavit).** From tax year 2025 the IT NRS form is no longer used; earlier years used the IT NRS, and before that the IT DA affidavit. The presumption is now claimed by checking the **Ohio Nonresident Statement** box on the IT 10 or IT 1040 (each spouse checks their own box). Once claimed, the Department cannot later treat the person as a resident for that year. All five criteria must be met:
-  1. no more than 212 contact periods in Ohio;
-  2. an abode outside Ohio on which no depreciation was claimed (not a vacation home, rental or other income property);
+  1. no more than 212 contact periods in Ohio; (not yet confirmed)
+  2. an abode outside Ohio on which no depreciation was claimed (not a vacation home, rental or other income property); (not yet confirmed)
   3. no Ohio driver's license or state ID, surrendered to a motor vehicle bureau before the year began;
   4. no Ohio homestead exemption or owner-occupied property tax reduction;
   5. no Ohio in-state tuition received by the individual.
 - **Deadline for the statement:** the 15th day of the 10th month after year-end (15 October for calendar years). This does not extend the return's due date. Part-year residents cannot use the presumption.
 - **Resident credit (IT RC):** only for tax paid to another U.S. state or the District of Columbia on income also in Ohio AGI; not for city, foreign or territory taxes, not for states without an income tax, and not for wages earned in the five reciprocity states.
 
-## Boundary and exception table ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf))
+## Boundary and exception table ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf)) (not yet confirmed)
 
 | Situation | Rule |
 | --- | --- |
@@ -214,35 +229,35 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 | Schedule C profit is larger than federal AGI | BID and taxable business income are limited to federal AGI (Schedule of Business Income line 11). |
 | MAGI is exactly $80,000 (2025) | Exemption is $2,150. The $1,900 band starts at $80,001. |
 | MAGI is exactly $750,000 (2025) | No exemption, and no joint filing credit (it needs MAGI less than $750,000). |
-| MAGI less exemptions is exactly $100,000 | No retirement income, lump sum or senior citizen credit (each needs less than $100,000). |
-| Couple files jointly; one spouse has only business income and Social Security | No joint filing credit: that spouse has no qualifying income in Ohio AGI. |
-| Client took the lump sum distribution credit in an earlier year | No senior citizen credit this year or later. |
-| Kentucky resident whose only Ohio income is wages | No Ohio return. If they also have Ohio rental income, they file and report it. |
-| Part-year resident who otherwise meets the five nonresident criteria | Cannot claim the nonresident presumption. |
-| Expected tax after credits less withholding is exactly $500 | No estimated payments are required, and IT/SD 2210 line 8 stops the penalty. |
-| Prior-year Ohio return was not filed on time | The 100%-of-prior-year safe harbor is unavailable; use 90% of current-year tax. |
+| MAGI less exemptions is exactly $100,000 | No retirement income, lump sum or senior citizen credit (each needs less than $100,000). | (not yet confirmed)
+| Couple files jointly; one spouse has only business income and Social Security | No joint filing credit: that spouse has no qualifying income in Ohio AGI. | (not yet confirmed)
+| Client took the lump sum distribution credit in an earlier year | No senior citizen credit this year or later. | (not yet confirmed)
+| Kentucky resident whose only Ohio income is wages | No Ohio return. If they also have Ohio rental income, they file and report it. | (not yet confirmed)
+| Part-year resident who otherwise meets the five nonresident criteria | Cannot claim the nonresident presumption. | (not yet confirmed)
+| Expected tax after credits less withholding is exactly $500 | No estimated payments are required, and IT/SD 2210 line 8 stops the penalty. | (not yet confirmed)
+| Prior-year Ohio return was not filed on time | The 100%-of-prior-year safe harbor is unavailable; use 90% of current-year tax. | (not yet confirmed)
 | Federal NOL year with an unrecovered 5/6 depreciation add-back | The line 27 deduction waits until a year with no NOL, carryback or carryforward. |
 
 ## Worked cases ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf))
-
-Amounts described as client facts are hypothetical inputs. Ohio rounds to the nearest dollar.
-
+ (not yet confirmed)
+Amounts described as client facts are hypothetical inputs. Ohio rounds to the nearest dollar. (not yet confirmed)
+ (not yet confirmed)
 **Case 1: 2025, single sole proprietor, full-year resident.**
-
+ (not yet confirmed)
 Client facts: Schedule C profit of $300,000 and no other income. After the deductible half of self-employment tax and a SEP contribution, federal AGI is $285,000. No Schedule of Adjustments items other than the BID. No dependents.
 - Schedule of Business Income: line 10 is $300,000; line 11 is the lesser of that and federal AGI, $285,000; line 13 BID is $250,000.
 - Ohio AGI: $285,000 minus $250,000 = $35,000.
-- MAGI: $35,000 plus the $250,000 BID = $285,000, so one exemption of $1,900 (the Ohio AGI alone would wrongly suggest $2,400).
-- Line 5: $35,000 minus $1,900 = $33,100.
-- Line 6: the lesser of $35,000 (line 11 minus line 13) and $33,100 = $33,100. Line 7 nonbusiness income is zero.
+- MAGI: $35,000 plus the $250,000 BID = $285,000, so one exemption of $1,900 (the Ohio AGI alone would wrongly suggest $2,400). (not yet confirmed)
+- Line 5: $35,000 minus $1,900 = $33,100. (not yet confirmed)
+- Line 6: the lesser of $35,000 (line 11 minus line 13) and $33,100 = $33,100. Line 7 nonbusiness income is zero. (not yet confirmed)
 - Tax: $33,100 times 3% = $993.
-
+ (not yet confirmed)
 **Case 2: 2025, married filing jointly, both employed, one dependent.**
 
 Client facts: wages of $90,000 and $30,000, joint bank interest of $2,000, federal AGI $122,000, no adjustments, no other credits.
-- MAGI $122,000: three exemptions at $1,900 = $5,700. Line 5 and line 7: $116,300.
+- MAGI $122,000: three exemptions at $1,900 = $5,700. Line 5 and line 7: $116,300. (not yet confirmed)
 - Tax: 3.125% of $16,300 is $509.38; plus $2,394.32 gives $2,903.70, rounded to $2,904.
-- Joint filing credit: each spouse has at least $500 of wages (interest does not count); MAGI is under $750,000; MAGI less exemptions is $116,300, so 5%. Credit: 5% of $2,904 = $145.20, rounded to $145.
+- Joint filing credit: each spouse has at least $500 of wages (interest does not count); MAGI is under $750,000; MAGI less exemptions is $116,300, so 5%. Credit: 5% of $2,904 = $145.20, rounded to $145. (not yet confirmed)
 - Tax after credits: $2,904 minus $145 = $2,759.
 
 **Case 3: 2025, single retiree aged 70.**
@@ -253,7 +268,7 @@ Client facts: IRA and pension income of $40,000 received on account of retiremen
 - MAGI less exemptions is $37,600, under $100,000: retirement income credit $200 (retirement income of $8,001 or more) and senior citizen credit $50, together $250.
 - Tax after credits: $660 minus $250 = $410.
 
-**Case 4: 2026 estimated tax for a sole proprietor.**
+**Case 4: 2026 estimated tax for a sole proprietor.** (not yet confirmed)
 
 Client facts: 2025 Ohio tax after credits of $3,000 on a return filed on time; expected 2026 tax after credits of $4,000; no Ohio withholding.
 - Expected tax less withholding is more than $500, so estimates are required.
@@ -262,10 +277,10 @@ Client facts: 2025 Ohio tax after credits of $3,000 on a return filed on time; e
 
 **Case 5: 2025, snowbird with homes in Ohio and Florida.**
 
-Client facts: lives in Florida most of the year and spends summers at an Ohio house; 150 contact periods in Ohio; Florida home not depreciated; Ohio driver's license surrendered in 2024; no homestead reduction on the Ohio house; no Ohio in-state tuition.
+Client facts: lives in Florida most of the year and spends summers at an Ohio house; 150 contact periods in Ohio; Florida home not depreciated; Ohio driver's license surrendered in 2024; no homestead reduction on the Ohio house; no Ohio in-state tuition. (not yet confirmed)
 - All five criteria are met, so the client may check the Ohio Nonresident Statement box on the IT 10 or IT 1040, no later than 15 October 2026.
 - If the client still held an Ohio driver's license, the presumption is unavailable. With fewer than 213 contact periods, the client can still file as a nonresident but must show nonresidency is more likely than not, with documents.
-
+ (not yet confirmed)
 **Case 6: 2025, sole proprietor with bonus depreciation.**
 
 Client facts: federal section 168(k) bonus depreciation of $60,000 on equipment; no section 179; no NOL; the client has no employees, so the withholding exceptions do not apply.
@@ -283,7 +298,7 @@ Client facts: federal section 168(k) bonus depreciation of $60,000 on equipment;
 - **The R.C. 5701.11 election** for 2025, or an amended 2025 return triggered by conformity.
 - **NOL carrybacks** (Schedule IT NOL), multi-year depreciation histories with missing records, military servicemembers, assessments and appeals.
 
-## Filing and payment ([2025 IT 1040 instructions, pages 6 to 9](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [2026 IT 1040ES worksheet](https://dam.assets.ohio.gov/image/upload/v1735926006/tax.ohio.gov/forms/ohio_individual/individual/2026/ites-instructions-fi.pdf); [2025 IT/SD 2210](https://dam.assets.ohio.gov/image/upload/v1762982566/tax.ohio.gov/forms/ohio_individual/individual/2025/itsd2210-fi.pdf))
+## Deadlines and filing
 
 - **Due date:** 15 April 2026 for 2025 returns. Returns for 2026 are due in April 2027; confirm the date in the 2026 instructions.
 - **Extension:** Ohio has no extension form. It honours a federal extension: check the extension box and include a copy of the IRS extension or acknowledgment, or the extension confirmation number. The 2025 return is then due 15 October 2026. **An extension to file is not an extension to pay**: extension payments were due 15 April 2026, and interest runs on unpaid tax from then (penalties may also apply).
@@ -309,16 +324,49 @@ Client facts: federal section 168(k) bonus depreciation of $60,000 on equipment;
 
 ---
 
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+the OpenAccountants network.
+
+- Use it in your AI: 
+- Meet the accountants: 
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them. (not yet confirmed)

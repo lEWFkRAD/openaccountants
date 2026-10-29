@@ -32,7 +32,7 @@ depends_on:
 
 > **General reference only.** General tax/accounting reference for AI-assisted workflows. Not reviewed for any specific person's facts, documents, elections, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified Ohio professional.
 
-## 1. Scope and sources
+## Who this applies to
 
 Ohio repealed its corporate income tax and corporate franchise tax effective for tax years beginning in 2014. There is **no Ohio corporate income tax return and no Ohio corporate income tax rate**. The entity-level tax on business activity is the **commercial activity tax (CAT)**, ORC Chapter 5751 — a gross-receipts tax, not an income tax. Financial institutions pay the **financial institutions tax** (ORC Ch. 4591) instead of the CAT; insurers pay premiums taxes.
 
@@ -45,7 +45,7 @@ Ohio repealed its corporate income tax and corporate franchise tax effective for
 - **Substantial nexus** (ORC 5751.01(H)) — bright-line: Ohio property, Ohio payroll, **$500,000** Ohio TGR, 25% of total property/payroll/receipts in Ohio, or Ohio domicile.
 - **P.L. 86-272 does not apply**: ORC 5751.02(A) says the CAT "is not a transactional tax and is not subject to Public Law No. 86-272". A company shielded from Ohio income tax by 86-272 is **not** shielded from the CAT.
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Amount / rule | Source |
 |---|---|---|
@@ -56,36 +56,39 @@ Ohio repealed its corporate income tax and corporate franchise tax effective for
 | Exclusion carry-forward | The full $6,000,000 exclusion applies to the first quarterly return of the year; unused parts carry to later quarters of the **same** calendar year only | CAT 2023-01 via `oh-cat` |
 | Base | Gross receipts **sitused to Ohio** under ORC 5751.033 — no cost-of-goods or expense deduction | [ORC 5751.01(G)](https://codes.ohio.gov/ohio-revised-code/section-5751.01), read 2026-10-27 |
 | Filing threshold | Open CAT account must keep filing quarterly even at zero tax | `oh-cat` |
-| Financial institutions tax | ORC Ch. 4591 — separate tax on covered financial institutions | needs-sources (Ch. 4591 not read this run) |
-| Pass-through owners | Business income taxed only at owner level under ORC 5747; Ohio offers an elective **pass-through entity (PTE) tax** | needs-sources (PTE cite not read this run) |
+| Financial institutions tax | ORC Ch. 4591 — separate tax on covered financial institutions | not yet confirmed (Ch. 4591 not read this run) |
+| Pass-through owners | Business income taxed only at owner level under ORC 5747; Ohio offers an elective **pass-through entity (PTE) tax** | not yet confirmed (PTE cite not read this run) |
 
-## 4. Deadlines
+## The taxable base
+
+Not yet confirmed against archived sources.
+## Deadlines and filing
 
 | Filing | Due |
-|---|---|
-| CAT annual registration / estimate (form 10-CW) | By the last day of the calendar year for the following year |
+|---|---| (not yet confirmed)
+| CAT annual registration / estimate (form 10-CW) | By the last day of the calendar year for the following year | (not yet confirmed)
 | CAT quarterly returns (form 10-Q) | Last day of the month after each calendar quarter end (Apr 30, Jul 31, Oct 31, Jan 31) |
 | CAT annual return (form 10-C) | April 15 (calendar-year taxpayers) |
 | CAT surcharge installments | Historic (2014–2023 years): 15th day of the 4th and 10th months; **no surcharge for 2025–2026** |
 | Refund claim | Within **four years** after the date of the erroneous payment | [ORC 5751.08(A)](https://codes.ohio.gov/ohio-revised-code/section-5751.08), read 2026-10-27 |
 
-Quarter dates and installment split are from `oh-cat` (Department page, 2026-10-16) — **needs-sources for 2026**.
+Quarter dates and installment split are from `oh-cat` (Department page, 2026-10-16) — **not yet confirmed for 2026**.
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - Underpayment of estimated CAT: interest accrues on the shortfall; the Department assesses by notice.
 - Failure to file / failure to pay: statutory penalties plus interest; the CAT has no P.L. 86-272 shelter, so a non-filer that met bright-line nexus is exposed for up to four open years.
 - Refund window is four years (ORC 5751.08(A)) — longer than most state income-tax refund windows.
-- Exact 2026 penalty percentages and interest rate: **needs-sources** (ORC 5751.09/5703.06 not read this run).
+- Exact 2026 penalty percentages and interest rate: **not yet confirmed** (ORC 5751.09/5703.06 not read this run).
 
-## 6. Cross-border
+## Cross-border points
 
 - The CAT is imposed on receipts **sitused to Ohio** (ORC 5751.033), not on the taxpayer's worldwide income: goods are sitused by ship-to, services by where the purchaser receives the benefit.
 - A foreign or out-of-state corporation with no Ohio office can still owe CAT on Ohio-sitused receipts once a bright-line nexus test is met.
 - Once nexus is met at any point in a year, the person remains a CAT taxpayer for the rest of that year **and the whole following calendar year** (`oh-cat`).
 - Consolidated / affiliated-group treatment for related members: see `oh-transfer-pricing`.
 
-## 7. Worked examples
+## Worked examples
 
 **Example A — Ohio operating company, $9.4M Ohio receipts.**
 
@@ -122,7 +125,7 @@ expected:
 
 Nexus exists ($500,000 Ohio receipts bright-line) but the exclusion applies, so no CAT is due — an open account must still file.
 
-## 8. Ask the client
+## Ask the client first
 
 - Entity type and whether it is an **excluded person** (bank, insurer, nonprofit, public utility).
 - Ohio taxable gross receipts by quarter, and whether the $6,000,000 exclusion is crossed — crossing it late in a year still creates a full-year liability.
@@ -131,14 +134,45 @@ Nexus exists ($500,000 Ohio receipts bright-line) but the exclusion applies, so 
 - Related entities and common ownership above 50% — drives consolidated/affiliated-group treatment (`oh-transfer-pricing`).
 - Has the client considered the Ohio PTE election for its owners?
 
-## 9. Sources
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 - [ORC 5751.02 — commercial activity tax levied](https://codes.ohio.gov/ohio-revised-code/section-5751.02) — read 2026-10-27, text effective 2026-06-15 (SB 450, 136th GA)
 - [ORC 5751.01 — CAT definitions, excluded persons, substantial nexus](https://codes.ohio.gov/ohio-revised-code/section-5751.01) — read 2026-10-27
 - [ORC 5751.08 — CAT refund application, four-year window](https://codes.ohio.gov/ohio-revised-code/section-5751.08) — read 2026-10-27
 - [Ohio Department of Taxation — Commercial Activity Tax](https://tax.ohio.gov/portal/divisions/enterprise_services/commercial_activity_tax_cat) — HTTP 200 2026-10-27, JS-rendered (figures not re-read)
 - `oh-cat`, `oh-cat-tax` (tier 2, Department CAT page read 2026-10-16) — rate, exclusion, surcharge tiers, filing calendar
-- **needs-sources:** 2026 CAT rate/surcharge re-verification (exclusion now verified via ORC 5751.01(R)); ORC 4591 financial institutions tax; Ohio PTE election cite; ORC 5751.09 penalty and 5703.06 interest rates. Note: archived ORC 5751.08(A) gives the CAT refund claim window — **within four years** after the erroneous payment.
+- **not yet confirmed:** 2026 CAT rate/surcharge re-verification (exclusion now verified via ORC 5751.01(R)); ORC 4591 financial institutions tax; Ohio PTE election cite; ORC 5751.09 penalty and 5703.06 interest rates. Note: archived ORC 5751.08(A) gives the CAT refund claim window — **within four years** after the erroneous payment.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Ohio CAT and entity-level questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+
+- [ORC 5751.02 — commercial activity tax levied](https://codes.ohio.gov/ohio-revised-code/section-5751.02) — read 2026-10-27, text effective 2026-06-15 (SB 450, 136th GA)
+- [ORC 5751.01 — CAT definitions, excluded persons, substantial nexus](https://codes.ohio.gov/ohio-revised-code/section-5751.01) — read 2026-10-27
+- [ORC 5751.08 — CAT refund application, four-year window](https://codes.ohio.gov/ohio-revised-code/section-5751.08) — read 2026-10-27
+- [Ohio Department of Taxation — Commercial Activity Tax](https://tax.ohio.gov/portal/divisions/enterprise_services/commercial_activity_tax_cat) — HTTP 200 2026-10-27, JS-rendered (figures not re-read)
+- `oh-cat`, `oh-cat-tax` (tier 2, Department CAT page read 2026-10-16) — rate, exclusion, surcharge tiers, filing calendar
+- **not yet confirmed:** 2026 CAT rate/surcharge re-verification (exclusion now verified via ORC 5751.01(R)); ORC 4591 financial institutions tax; Ohio PTE election cite; ORC 5751.09 penalty and 5703.06 interest rates. Note: archived ORC 5751.08(A) gives the CAT refund claim window — **within four years** after the erroneous payment.
+
+<!-- openaccountants-cta-block -->
+**Talk to a verified accountant** — for Ohio CAT and entity-level questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Talk to a verified accountant
+
+
+Not yet confirmed against archived sources.

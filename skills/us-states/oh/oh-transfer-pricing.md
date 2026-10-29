@@ -33,7 +33,7 @@ depends_on:
 
 > **General reference only.** General tax/accounting reference for AI-assisted workflows. Not reviewed for any specific person's facts, documents, elections, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified Ohio professional.
 
-## 1. Scope and sources
+## Who this applies to
 
 Ohio has **no corporate income tax, therefore no income-tax transfer-pricing addback, no state §482 analogue, and no TP documentation requirement**. Because the entity-level tax is the gross-receipts CAT, the Ohio "transfer pricing" question is entirely about **group membership and intermember receipts**:
 
@@ -50,11 +50,11 @@ Ohio has **no corporate income tax, therefore no income-tax transfer-pricing add
 - An entity cannot be in both a consolidated and a combined group; entities owned >50% but <80% under an 80% election must still register as a combined group.
 - Federal §482 adjustments flow into gross receipts only as a practical matter (gross receipts are measured without expense deduction, so most income-based TP adjustments do not change the CAT base).
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| CAT rate the TP lands in | 0.26% above the exclusion (see `oh-corporate-income-tax`) | `oh-cat` (Department page, 2026-10-16) |
+| CAT rate the TP lands in | 0.26% above the exclusion (see `oh-corporate-income-tax`) | `oh-cat` (Department page, 2026-10-16) | (not yet confirmed)
 | Combined group | One taxpayer, one $6,000,000 exclusion; **intermember receipts included** in TGR | `oh-cat` (groups page + CAT 2023-01, 2026-10-16) |
 | Consolidated election | ≥50% ownership; 50% or 80% test; **intermember receipts excluded** and ignored for the exclusion test; binds 8 quarters | `oh-cat` (CAT 2005-03/2005-12, 2026-10-16) |
 | Election forms | CAT ES (election statement), CAT AR (annual registration) | `oh-cat` |
@@ -62,7 +62,10 @@ Ohio has **no corporate income tax, therefore no income-tax transfer-pricing add
 | Situsing of intercompany receipts | Goods by ship-to; services by where the purchaser receives the benefit (ORC 5751.033) | [ORC 5751.01(G)](https://codes.ohio.gov/ohio-revised-code/section-5751.01), read 2026-10-27 |
 | Under-exclusion relief (2024+) | A registered consolidated group whose TGR will not exceed the exclusion may cancel its account notwithstanding the 8-quarter binding; a would-be combined group need not register if TGR would fall under the exclusion **after** a valid consolidated election | Rule 5703-29-04 / CAT 2005-03 via `oh-cat` |
 
-## 4. Deadlines
+## The taxable base
+
+Not yet confirmed against archived sources.
+## Deadlines and filing
 
 | Action | Due |
 |---|---|
@@ -72,18 +75,18 @@ Ohio has **no corporate income tax, therefore no income-tax transfer-pricing add
 | Group quarterly returns | Same CAT calendar: last day of the month after each quarter |
 | Separate-filing permission (CAT 2005-12) | Request to the Tax Commissioner; no fixed statutory date |
 
-## 5. Penalties and interest
+## Penalties and interest
 
 - Filing separately when the group rules required combined filing: the Department can re-assess the group as one taxpayer with one exclusion — usually a **reduction**, but the reverse error (assuming consolidation without a valid election) leaves intermember receipts taxed, and refund claims run on the four-year ORC 5751.08(A) window.
-- Interest on CAT underpayments and ORC 5751.09 penalty percentages: **needs-sources** (not read this run).
+- Interest on CAT underpayments and ORC 5751.09 penalty percentages: **not yet confirmed** (not read this run).
 
-## 6. Cross-border
+## Cross-border points
 
 - The consolidated election's **non-U.S. corporation choice** is Ohio's only affirmative cross-border group rule: including foreign affiliates pulls their receipts into the group's exclusion test (their own Ohio-sitused receipts are taxed regardless).
 - Management fees, royalties and intercompany interest paid to foreign affiliates are **gross receipts of the recipient only if sitused to Ohio** — a foreign licensor receiving royalties for Ohio-benefiting use can have Ohio TGR from the royalty alone.
 - No Ohio addback means outbound fees are not penalized on the payer side; the exposure sits entirely on the recipient's sitused receipts.
 
-## 7. Worked examples
+## Worked examples
 
 **Example A — two Ohio siblings, combined default vs consolidated election.**
 
@@ -133,7 +136,7 @@ expected:
 
 Combined filing would put the group $400,000 over the exclusion; after a valid consolidated election the group is under it and — from 2024 — need not register (Rule 5703-29-04 via `oh-cat`).
 
-## 8. Ask the client
+## Ask the client first
 
 - Full ownership map: who owns >50% of each entity, and what else that owner controls (including individuals and trusts).
 - Is a consolidated election already in place, when did its eight-quarter term start, and does it use the 50% or 80% test?
@@ -142,13 +145,43 @@ Combined filing would put the group $400,000 over the exclusion; after a valid c
 - Where do intercompany services actually benefit the purchaser (situsing of service receipts)?
 - Would the group fall under the $6,000,000 exclusion after consolidation (registration/cancellation relief)?
 
-## 9. Sources
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 - [ORC 5751.01 — CAT definitions, related concepts, nexus](https://codes.ohio.gov/ohio-revised-code/section-5751.01) — read 2026-10-27
 - [ORC 5751.08 — four-year refund window](https://codes.ohio.gov/ohio-revised-code/section-5751.08) — read 2026-10-27
 - `oh-cat` (tier 2, read 2026-10-16) — combined/consolidated mechanics, CAT ES/AR, eight-quarter binding, Rule 5703-29-04 cancellation relief, citing the Department CAT groups page, CAT 2023-01, CAT 2005-03, CAT 2005-12
 - [Department CAT groups page](https://tax.ohio.gov/business/commercial-activity-tax/commercial-activity-tax-groups) — cited via `oh-cat`; JS-rendered shell 2026-10-27
-- **needs-sources:** ORC 5751.09 penalty / 5703.06 interest percentages; CAT ES/AR form PDFs not re-fetched this run
+- **not yet confirmed:** ORC 5751.09 penalty / 5703.06 interest percentages; CAT ES/AR form PDFs not re-fetched this run
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Ohio CAT group and related-party questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+
+- [ORC 5751.01 — CAT definitions, related concepts, nexus](https://codes.ohio.gov/ohio-revised-code/section-5751.01) — read 2026-10-27
+- [ORC 5751.08 — four-year refund window](https://codes.ohio.gov/ohio-revised-code/section-5751.08) — read 2026-10-27
+- `oh-cat` (tier 2, read 2026-10-16) — combined/consolidated mechanics, CAT ES/AR, eight-quarter binding, Rule 5703-29-04 cancellation relief, citing the Department CAT groups page, CAT 2023-01, CAT 2005-03, CAT 2005-12
+- [Department CAT groups page](https://tax.ohio.gov/business/commercial-activity-tax/commercial-activity-tax-groups) — cited via `oh-cat`; JS-rendered shell 2026-10-27
+- **not yet confirmed:** ORC 5751.09 penalty / 5703.06 interest percentages; CAT ES/AR form PDFs not re-fetched this run
+
+<!-- openaccountants-cta-block -->
+**Talk to a verified accountant** — for Ohio CAT group and related-party questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Talk to a verified accountant
+
+
+Not yet confirmed against archived sources.
