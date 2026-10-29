@@ -16,14 +16,15 @@
 |---|---|
 | `mo-income-tax.md` | Individual income tax for self-employed / sole proprietors (Form MO-1040) |
 | `mo-sales-tax.md` | Sales and use tax obligations and rates |
+| `mo-corporate-income-tax.md` | Corporate income tax (MO-1120, 4%, consolidation, estimates, penalties) |
+| `mo-social-contributions.md` | Social contributions (employer UI; no state FICA) |
+| `mo-transfer-pricing.md` | Transfer pricing / related-party overlay (MO-470, §143.471, MO-MS elections) |
+| `mo-cross-border.md` | Cross-border (MO-NRI, MO-1040P, MO-CR credit, KC/STL city earnings taxes) |
 
 ## What's NOT covered
 
-- Corporate income tax (Form MO-1120)
 - Estate tax (Missouri has no estate tax)
-- Part-year and non-resident returns (Form MO-1040P / MO-NRI)
 - Partnership / S-corp pass-through (Form MO-1065 / MO-1120S)
-- City earnings taxes (Kansas City, St. Louis) — separate filings
 - Property tax (administered at county level)
 
 ## How to use
