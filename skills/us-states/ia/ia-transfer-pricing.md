@@ -8,61 +8,64 @@ description: >
   business-income and commercial-domicile definitions, and the §422.17
   no-withholding certificate for nonresidents. Trigger on "Iowa transfer
   pricing", "Iowa consolidated return", "Iowa affiliated group", "422.36",
-  "422.37", "Iowa fair price", "Iowa income shifting". Source-cited draft;
-  Iowa Code 2026 text read from legis.iowa.gov 2026-10-27.
+  "422.37", "Iowa fair price", "Iowa income shifting". Corrected 2026-10-28
+  against archived Iowa Code 2026 statute text.
 jurisdiction: US-IA
 category: transfer-pricing
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-28
-version: 0.2
+version: 0.3
 verified_by: pending
 depends_on:
   - ia-corporate-income-tax
 ---
 
-# Iowa transfer pricing v0.1
+# Iowa transfer pricing, tax year 2026
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+> **Source-cited draft.** Built from Iowa Code §§422.32, 422.33, 422.36, 422.37, 422.39, 422.40 and 422.17 (Iowa Legislature, Iowa Code 2026), read on 2026-10-28. No accountant has reviewed it. Do not file, pay, amend, or take a tax position from it without review by a qualified Iowa professional.
 
-## 1. Scope and sources
+Tax year: the corporation's federal tax year. Authority: Iowa Department of Revenue. Currency: US dollars. Covers related-party restatement, consolidated returns, and allocation definitions. Iowa has no separate transfer-pricing statute; the toolkit is §422.36(2)-(3) plus the §422.37 consolidated return.
 
-Source-cited draft, run of 2026-10-27. Iowa has **no separate transfer-pricing statute**; the related-party toolkit is §422.36(2)-(3) (fair-price restatement and income-shifting), §422.37 (consolidated returns), and the §422.32 allocation definitions. Statute text read directly from Iowa Code 2026 PDFs at legis.iowa.gov 2026-10-27. **Source status:** §§422.36, 422.37, 422.32, 422.17 verified from statute text; Iowa's **apportionment formula** (property/payroll/sales factors, single-sales-factor status) is set in rules/department guidance not located this run — **needs-sources**.
+See also: `ia-corporate-income-tax`, `ia-cross-border`.
 
-## 2. Who applies
+## Who this applies to
 
-- Any corporation taxable under §422.33 that transacts with a **substantially-owned related party** or is part of a **commonly-controlled group** (§422.36(2)-(3), text read 2026-10-27).
-- **Affiliated group** = group of corporations as defined in **IRC §1504(a)** (§422.32(1)(a), text read 2026-10-27). Any such group **may elect** — and **on the director's demand shall be required** — to file an Iowa consolidated return (§422.37, text read 2026-10-27).
-- Consolidated-return conditions (§422.37, text read 2026-10-27): federal consolidated return for the same year; all members subject to §422.33 join (except as §29C.24 provides); §422.34-exempt members excluded; **statutory allocation/apportionment method mandatory for all members** unless the director grants an alternative; filing = consent to the director's rules.
+- Any corporation taxable under §422.33 that transacts with a substantially-owned related party or is part of a commonly-controlled group (§422.36(2)-(3)).
+- **Affiliated group** = "an affiliated group of corporations as defined in section 1504(a) of the Internal Revenue Code" (§422.32(1)(a)); such a group "may, not later than the due date for filing its return for the taxable year, including any extensions thereof, ... elect, and upon demand of the director shall be required, to make a consolidated return" (§422.37).
 
-## 3. Mechanics
+## Rates, bands and thresholds
 
-- **Fair-price adjustment (§422.36(2), text read 2026-10-27):** where a corporation sells to, or buys from, a substantially-owned corporation **at less than the fair price**, the department may restate the seller's Iowa income to the fair price.
-- **Income-shifting adjustment (§422.36(3), text read 2026-10-27):** where income of a commonly-controlled group is **"arbitrarily shifted... through price fixing, charges for services, or otherwise"**, the department may reallocate it to the earning member.
-- **Business income (§422.32(1)(b), text read 2026-10-27):** unitary-flavored definition — income from transactions in the regular course of business, and property gains **operationally related** to Iowa business; the legislature intends **all constitutionally apportionable income** to be apportionable. Note the statute's carve-out: filing on a **combined-report basis is neither allowed nor required by that paragraph** — Iowa's group tool is the §422.37 consolidated return, not water's-edge combined reporting.
-- **Commercial domicile (§422.32(1)(c), text read 2026-10-27):** principal place of direction/management — the non-business-income anchor.
-- Apportionment factors/formula: **needs-sources** (see §1).
+- Restated or reallocated income carries the confirmed corporate graduated rates (5.5%/5.5%/9%/9.8% for tax years beginning on or after January 1, 2021 — §422.33(1)(a); see `ia-corporate-income-tax`).
+- The 90-day non-filing trigger: after "ninety days after the time prescribed in this subchapter for making such report or return, or for paying such tax or fee, the director may certify such fact to the secretary of state" (§422.40(1)), who may cancel a domestic corporation's articles or a foreign corporation's certificate of authority (§422.40(1)).
 
-## 4. Deadlines
+## The taxable base
 
-- Consolidated-return election: **no later than the due date for the return, including extensions** (§422.37 preamble, text read 2026-10-27).
-- Corporate return due end of the fourth month after year-end; estimates per §422.16(12) (see ia-corporate-income-tax skill).
+- **Fair-price adjustment (§422.36(2)):** where a corporation liable under subchapter III sells its products "at less than the fair price which might be obtained therefor" to benefit members, stockholders or interested persons, or a substantially-owned corporation disposes of products "in such a manner as to create a loss or improper net income", "the department may determine the amount of taxable income of either or any of such corporations ... having due regard to the reasonable profits which, but for such arrangement or understanding, might or could have been obtained".
+- **Income-shifting adjustment (§422.36(3)):** where a business distorts its "true net income and the net income properly attributable to the state, whether by the arbitrary shifting of income, through price fixing, charges for services, or otherwise" so that income is "arbitrarily assigned to one or another unit in a group of taxpayers carrying on business under a substantially common control", the director shall determine the proper net income "having regard to the fair profits which would normally arise from the conduct of the trade or business".
+- **Business income / commercial domicile (§422.32(1)):** "'Commercial domicile' means the principal place from which the trade or business of the taxpayer is directed or managed." (§422.32(1)(c)).
+- Consolidated-return conditions (§422.37): the group "shall file a consolidated return for federal income tax purposes for the same taxable year"; corporations exempt under §422.34 are excluded; the §29C.24 exception applies (§422.36(7)).
 
-## 5. Penalties and interest
+## Deadlines and filing
 
-- Restated income carries the graduated rates (5.5%→9.8%) plus interest under ch. 421 — rate **needs-sources**.
-- **90-day non-filing/non-payment** lets the director certify to the secretary of state, **canceling** a domestic corporation's articles or a foreign corporation's authority to do business (§422.40(1), text read 2026-10-27); exercising privileges after cancellation is an offense (§422.40(2)).
-- §422.39 imports §§422.24–422.27 collection/assessment machinery, including pass-through-entity assessment under §422.25A (text read 2026-10-27).
+- Consolidated-return election: "not later than the due date for filing its return for the taxable year, including any extensions thereof" (§422.37).
+- Corporate tax is due "on or before the end of the fourth month following the close of the tax year"; estimated installments run on the §422.16(12) calendar (see `ia-corporate-income-tax`).
 
-## 6. Cross-border interactions
+## Penalties and interest
 
-- Foreign (out-of-state) corporations: Iowa taxes income from Iowa-located property/sources (§422.32(1)(g), text read 2026-10-27) and business income under the operational-relationship test.
-- Nonresident individuals/entities receiving Iowa income: withholding under §422.16(2)(b) unless the department issues a **no-withholding certificate** after the nonresident pays estimated tax by the last day of the fourth month of their tax year (§422.17, text read 2026-10-27).
-- No Iowa addback statute specific to royalties paid to related parties in zero-tax jurisdictions was located in ch. 422 subchapter III — flag as **needs-sources** rather than assert absence.
+- Restated income carries the graduated rates plus interest; the current ch. 421 interest rate is listed under Not yet confirmed.
+- **90-day cancellation:** §422.40(1) lets the director certify non-filing/non-payment (90 days or more) to the secretary of state, who may cancel articles of incorporation or the certificate of authority; exercising corporate privileges after cancellation is an offense (§422.40).
+- §422.39 imports "sections 422.24 through 422.27" assessment/collection machinery, including pass-through-entity assessment under §422.25A.
 
-## 7. Worked examples
+## Cross-border points
 
-Domestic parent sells goods to a wholly-owned out-of-state subsidiary at $60/unit where fair price is $85/unit; 40,000 units:
+- Out-of-state corporations: Iowa taxes corporations "deriving income from sources within this state" (§422.33(1)(a)).
+- Nonresident individuals/entities receiving Iowa income: withholding under §422.16(2)(b) unless the department issues a no-withholding certificate after the nonresident "pays the entire amount of tax properly estimated on or before the last day of the fourth month of the nonresident's tax year" (§422.17).
+- No Iowa addback statute specific to royalties paid to related parties in zero-tax jurisdictions was located in the archived subchapter III text; absence is not confirmed from a comprehensive search.
+
+## Worked examples
+
+Hypothetical domestic parent sells goods to its wholly-owned out-of-state subsidiary at $60/unit where the fair price is $85/unit; 40,000 units:
 
 ```oa-check
 name: IA 422.36(2) fair-price restatement
@@ -79,7 +82,9 @@ expected:
   extra_tax: 98000.00
 ```
 
-Service-fee shifting: commonly-controlled group shifts $350,000 of Iowa-earning income to an affiliate via management charges; department reallocates under §422.36(3):
+(Client facts are hypothetical; the 9.8% top rate is the confirmed §422.33(1)(a)(4) figure for tax years beginning on or after January 1, 2021, and the restatement authority is the confirmed §422.36(2) fair-price rule.)
+
+Hypothetical commonly-controlled group shifts $350,000 of Iowa-earning income to an affiliate via management charges; the director reallocates under §422.36(3):
 
 ```oa-check
 name: IA 422.36(3) reallocation
@@ -97,21 +102,43 @@ expected:
   net_effect: 15050.00
 ```
 
-## 8. Ask the client
+(Hypothetical arithmetic at the confirmed 9.8% and 5.5% bracket rates.)
 
-- Is the group an IRC §1504(a) affiliated group — and has the director ever demanded a consolidated Iowa return?
-- Intercompany goods/services/intangibles: is transfer documentation defensible against §422.36(2)-(3)?
-- Are all group members using the same (statutory) allocation method — alternatives need the director's permission for every member?
-- 90 days late on any corporate filing risks charter/authority cancellation under §422.40.
+## Ask the client first
+
+- Is the group an IRC §1504(a) affiliated group — and has the director ever demanded a consolidated Iowa return (§422.37)?
+- Intercompany goods/services/intangibles: is pricing documentation defensible against the §422.36(2)-(3) restatement powers?
+- Are all group members filing on the same consolidated basis for federal and Iowa (§422.37)?
+- Ninety days late on any corporate filing risks charter/authority cancellation under §422.40 — are filings current?
 
 ## Sources
 
-1. Iowa Code §422.36 (returns; fair-price and income-shifting adjustments): https://www.legis.iowa.gov/docs/code/422.36.pdf (200, text read 2026-10-27)
-2. Iowa Code §422.37 (consolidated returns): https://www.legis.iowa.gov/docs/code/422.37.pdf (200, text read 2026-10-27)
-3. Iowa Code §422.32 (definitions: affiliated group, business income, commercial domicile): https://www.legis.iowa.gov/docs/code/422.32.pdf (200, text read 2026-10-27)
-4. Iowa Code §422.40 (cancellation of authority for non-filing): https://www.legis.iowa.gov/docs/code/422.40.pdf (200, text read 2026-10-27)
-5. Iowa Code §422.17 (no-withholding certificate): https://www.legis.iowa.gov/docs/code/422.17.pdf (200, text read 2026-10-27)
-6. Iowa Code §422.39 (imported assessment/collection provisions): https://www.legis.iowa.gov/docs/code/422.39.pdf (200, text read 2026-10-27)
+| Source | URL | Read on |
+|---|---|---|
+| Iowa Code §422.36 (returns; fair-price and income-shifting adjustments) | https://www.legis.iowa.gov/docs/code/422.36.pdf | 2026-10-28 |
+| Iowa Code §422.37 (consolidated returns) | https://www.legis.iowa.gov/docs/code/422.37.pdf | 2026-10-28 |
+| Iowa Code §422.32 (definitions: affiliated group, commercial domicile) | https://www.legis.iowa.gov/docs/code/422.32.pdf | 2026-10-28 |
+| Iowa Code §422.33 (corporate rates) | https://www.legis.iowa.gov/docs/code/422.33.pdf | 2026-10-28 |
+| Iowa Code §422.40 (cancellation of authority for non-filing) | https://www.legis.iowa.gov/docs/code/422.40.pdf | 2026-10-28 |
+| Iowa Code §422.39 (imported assessment/collection provisions) | https://www.legis.iowa.gov/docs/code/422.39.pdf | 2026-10-28 |
+| Iowa Code §422.17 (no-withholding certificate) | https://www.legis.iowa.gov/docs/code/422.17.pdf | 2026-10-28 |
+
+Not yet confirmed: Iowa's apportionment formula (property/payroll/sales factors, single-sales-factor status) and the §§422.38–422.41 allocation detail (not archived this run); the current ch. 421 interest rate on restated assessments; whether Iowa imposes any related-party royalty addback.
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Iowa related-party and consolidated-return questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

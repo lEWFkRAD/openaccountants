@@ -4,71 +4,79 @@ description: >
   Use this skill whenever asked about Iowa corporate income tax for tax
   year 2026 — Iowa Code ch. 422 subchapter III: graduated rates 5.5%/5.5%/
   9%/9.8% with a statutory receipts-trigger rate adjustment, net income
-  computed from federal taxable income with listed bond adjustments,
-  combined reporting for affiliated groups, the §422.36 fair-price/
-  income-shifting adjustment, and the corporate estimated-tax calendar.
-  Trigger on "Iowa corporate income tax", "Iowa Form 4562C", "Iowa
-  combined return", "Iowa unitary", "Iowa corporate rates", "422.33",
-  "422.35". Source-cited draft; Iowa Code 2026 text read from
-  legis.iowa.gov 2026-10-27.
+  computed from federal taxable income with listed adjustments, consolidated
+  returns for affiliated groups, the §422.36 fair-price/income-shifting
+  adjustment, and the corporate estimated-tax calendar. Trigger on "Iowa
+  corporate income tax", "Iowa combined return", "Iowa consolidated return",
+  "Iowa corporate rates", "422.33", "422.37". Corrected 2026-10-28 against
+  archived Iowa Code 2026 statute text.
 jurisdiction: US-IA
 category: international
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-28
-version: 0.2
+version: 0.3
 verified_by: pending
 depends_on:
   - ia-income-tax
 ---
 
-# Iowa corporate income tax v0.1
+# Iowa corporate income tax, tax year 2026
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+> **Source-cited draft.** Built from Iowa Code §§422.33, 422.34, 422.35, 422.36, 422.37, 422.63 and 422.16 (Iowa Legislature, Iowa Code 2026), read on 2026-10-28. No accountant has reviewed it. Do not file, pay, amend, or take a tax position from it without review by a qualified Iowa professional.
 
-## 1. Scope and sources
+Tax year: the corporation's income year (calendar or fiscal). Authority: Iowa Department of Revenue. Currency: US dollars. Covers the Iowa corporate income tax (ch. 422 subchapter III), the financial-institution franchise tax rate, and the consolidated-return regime.
 
-Source-cited draft, run of 2026-10-27. Iowa's corporate income tax lives in Iowa Code ch. 422, subchapter III (§§422.33–422.44). Statute text read directly from the Iowa Code 2026 PDFs at legis.iowa.gov 2026-10-27 (each section fetched and extracted). **Source status:** §§422.33 (rates + receipts trigger), 422.34 (exemptions), 422.35 (net income adjustments), 422.36 (returns + fair-price adjustment) verified from statute text; the combined-reporting section (§422.37) and apportionment sections (§§422.38–422.41) were identified but their full text was not extracted this run — **needs-sources** for combined-group mechanics and the apportionment formula detail. Form identifiers (4562C) from tax.iowa.gov — site returned 404 on guessed paths — **needs-sources**.
+See also: `ia-transfer-pricing`, `ia-income-tax`, `ia-cross-border`.
 
-## 2. Who applies
+## Who this applies to
 
-- Every corporation "doing business in this state, or deriving income from sources within this state" (§422.33(1)(a), text read 2026-10-27).
-- **Exempt:** banks, credit unions, title insurance/trust companies, savings & loans, production credit associations, insurance companies/associations, reciprocal exchanges, fraternal beneficiary associations, and §501 organizations (unless federal exemption denied under §§501–504 IRC) (§422.34, text read 2026-10-27). Financial institutions pay the franchise tax instead (subchapter V, 3.8% for tax years beginning in 2026 — §422.63(2)(e), text read 2026-10-27).
-- Affiliated groups file a **combined return** (§422.37 — section exists; text not extracted, **needs-sources** for the unitary/affiliation test).
+- Every corporation "doing business in this state, or deriving income from sources within this state" — a tax is "imposed annually upon each corporation doing business in this state, or deriving income from sources within this state" (§422.33(1)(a)).
+- **Exempt:** §422.34(1) exempts "All state, national, private, cooperative, and savings banks, credit unions, title insurance and trust companies, federally chartered savings and loan associations, production credit associations, insurance companies or insurance associations, reciprocal or inter-insurance exchanges, fraternal beneficiary associations, and investment subsidiaries included on a return due to an election under section 422.60"; §422.34(2)(a) exempts "An organization described in section 501 of the Internal Revenue Code unless the exemption is denied under section 501, 502, 503, or 504 of the Internal Revenue Code".
+- Financial institutions pay the franchise tax instead of the corporate income tax: for tax years beginning on or after January 1, 2026, but before January 1, 2027, the franchise-tax rate is "three and eight-tenths percent" (§422.63(2)(e)); the rate steps down to three and one-half percent for tax years beginning on or after January 1, 2027 (§422.63(2)(f)).
+- Affiliated groups: an "affiliated group of corporations may, not later than the due date for filing its return for the taxable year, including any extensions thereof, under rules to be prescribed by the director, elect, and upon demand of the director shall be required, to make a consolidated return" (§422.37). The affiliated-group definition tracks IRC §1504(a) (§422.32(1)(a)).
 
-## 3. Rates and base
+## Rates, bands and thresholds
 
-| Bracket (taxable income) | Rate (tax years beginning on/after 1 Jan 2021) | Source |
+| Bracket (taxable income) | Rate (tax years beginning on or after 1 Jan 2021) | Source |
 |---|---|---|
-| First $25,000 | 5.5% | §422.33(1)(a)(1), text read 2026-10-27 |
-| $25,000–$100,000 | 5.5% | §422.33(1)(a)(2), same |
-| $100,000–$250,000 | 9% | §422.33(1)(a)(3), same |
-| Over $250,000 | 9.8% | §422.33(1)(a)(4), same |
+| First $25,000 | 5.5% | §422.33(1)(a)(1) |
+| $25,000–$100,000 | 5.5% | §422.33(1)(a)(2) |
+| $100,000–$250,000 | 9% | §422.33(1)(a)(3) |
+| Over $250,000 | 9.8% | §422.33(1)(a)(4) |
 
-- **Receipts-trigger adjustment:** if net corporate income tax receipts for the preceding fiscal year exceed **$700 million**, the department of revenue must adjust rates downward (first the top rate, floor 5.5%) (§422.33(1)(b), text read 2026-10-27). Current-year applied rates: confirm against the department's annual rate determination — **needs-sources**.
-- **Base:** "net income" = federal taxable income under the IRC with adjustments — subtract federal bond interest/dividends; add foreign and (otherwise federally exempt) state/local bond interest with a long list of Iowa-exempt program bonds; plus various Iowa-specific deductions (e.g., 65% wage deduction for certain new hires capped $20,000/individual; 100% exclusion of employee-owner qualified-corporation capital gains for tax years beginning on/after 1 Jan 2025) (§422.35, text read 2026-10-27).
-- Iowa conforms to federal with a rolling conformity date — **needs-sources** for the current date.
+- §422.33(1)(a)(1)–(4) set "the rate of five and one-half percent" on the first $25,000 and on $25,000–$100,000, "the rate of nine percent" on $100,000–$250,000, and "the rate of nine and eight-tenths percent" on income of $250,000 or more, for tax years beginning on or after January 1, 2021 (the pre-2021 rates were 6%/8%/10%/12%).
+- **Receipts-trigger rate adjustment (§422.33(1)(b)):** by November 1 each year the department of management determines net corporate income tax receipts; "If net corporate income tax receipts for the preceding fiscal year exceed seven hundred million dollars, the department of revenue shall adjust and apply new corporate income tax rates." The §422.33(1)(a)(3)–(4) rates are adjusted first (together on an equal basis if more is needed), and the rates "shall not be adjusted below five and one-half percent". Whether the department applied adjusted rates for tax year 2026 is listed under Not yet confirmed.
 
-## 4. Deadlines
+## The taxable base
 
-- Corporate return: due on or before the end of the **fourth month** following close of the tax year (calendar-year filers: April 30) — §422.16(12)(b)(3) states the general "end of the fourth month following the close of the tax year" rule (text read 2026-10-27); corporate-specific section §422.36 requires a signed return but the date text sits in the general provisions — confirm §422.38 assessment window **needs-sources**.
-- **Estimated tax:** required if liability reasonably expected ≥ $1,000; quarterly installments due last day of the 4th, 6th, 9th, and 1st months of the tax year (§422.16(12), text read 2026-10-27).
+- "The term 'net income' means the taxable income as properly computed for federal income tax purposes under the Internal Revenue Code, with the following adjustments" (§422.35):
+  - Subtract "interest and dividends from federal securities" (§422.35(1)).
+  - Add "interest and dividends from foreign securities, from securities of state and other political subdivisions, and from regulated investment companies exempt from federal income tax under the Internal Revenue Code", except Iowa-exempt securities (§422.35(2)).
+  - A small business corporation may "subtract an amount equal to sixty-five percent of the wages paid to individuals, but not to exceed twenty thousand dollars per individual" for certain first-time Iowa hires (§422.35(3)(a)).
+- The tax applies to "the net income received by the corporation during the income year" (§422.33(1)(a)).
 
-## 5. Penalties and interest
+## Deadlines and filing
 
-- Failure-to-file/failure-to-pay and interest run under ch. 421/422 general provisions — **needs-sources** for current percentages (not extracted this run).
-- §422.36(2)-(3) give the department power to restate income where a corporation sells to/from a substantially-owned affiliate "at less than the fair price" or where income is "arbitrarily shifted... through price fixing, charges for services, or otherwise" within a commonly-controlled group (text read 2026-10-27) — Iowa's core related-party adjustment authority.
-- Franchise-tax filers: §422.11 credit mechanics (text read 2026-10-27).
+- "Any tax still payable after applying credits for taxes paid through withholding, estimated tax, and composite return tax, is due and payable on or before the end of the fourth month following the close of the tax year" (§422.16(12)(b)(3)) — April 30 for calendar-year corporations.
+- **Estimated tax:** "Taxpayers filing a return shall make estimated tax payments if their Iowa income tax liability can reasonably be expected to amount to one thousand dollars or more for the year" (§422.16(12)(a)(1)); installments are due "on or before the last day of the fourth month of the taxpayer's tax year", the last day of the sixth month, the last day of the ninth month, and the last day of the first month of the following tax year (§422.16(12)(b)(1)).
+- Return: "A corporation shall make a return and the return shall be signed by the president or other duly authorized officer" (§422.36(1)). Corporations with gross receipts of $250,000 or more must file electronically (§422.36(8)(a)(1)).
 
-## 6. Cross-border interactions
+## Penalties and interest
 
-- Nonresident/foreign corporations: income sourced within Iowa is taxed; allocation/apportionment under §§422.38–422.41 (existence confirmed via cross-references; text **needs-sources**).
-- PTE election: partnerships/S corps may elect entity-level tax at the individual rate under §422.16C (text read 2026-10-27) — relevant to foreign owners avoiding Iowa composite filings.
-- Water's-edge / combined-group international issues: **needs-sources**.
+- §422.36(2): where a corporation sells "at less than the fair price which might be obtained therefor" to benefit members/stockholders, or a substantially-owned corporation disposes of products "in such a manner as to create a loss or improper net income", "the department may determine the amount of taxable income of either or any of such corporations ... having due regard to the reasonable profits which, but for such arrangement or understanding, might or could have been obtained".
+- §422.36(3): where a business distorts its "true net income and the net income properly attributable to the state, whether by the arbitrary shifting of income, through price fixing, charges for services, or otherwise" within a commonly-controlled group, the director "shall determine the same" with regard to fair profits.
+- Failure-to-file/failure-to-pay penalty and interest percentages for corporations run under ch. 421 general provisions — see Not yet confirmed.
 
-## 7. Worked examples
+## Cross-border points
 
-Corporation with $400,000 Iowa-allocated net income, calendar-year filer:
+- Foreign (out-of-state) corporations are taxed when "deriving income from sources within this state" (§422.33(1)(a)); a foreign corporation's only Iowa activity need not be a return if it is limited to short-term storage of goods in a warehouse for hire (§422.36(6)).
+- Consolidated returns: members "shall not be required to include corporations exempt under section 422.34" and an Iowa affiliated group "shall file a consolidated return for federal income tax purposes for the same taxable year" (§422.37); the §29C.24 exception applies (§422.36(7)).
+- Apportionment/allocation mechanics under §§422.38–422.41 and the current statutory formula — see Not yet confirmed.
+
+## Worked examples
+
+Hypothetical corporation with $400,000 Iowa net income, calendar-year filer:
 
 ```oa-check
 name: IA corporate graduated tax 400k
@@ -96,9 +104,9 @@ expected:
   effective: 0.08
 ```
 
-(Effective 8.425% — the graduated structure still bites above $250k.)
+(The effective rate is 8.425% before credits — the graduated structure still bites above $250,000. All bracket amounts and rates are hypothetical arithmetic on the confirmed §422.33(1)(a) table above.)
 
-Same corporation shifts $200,000 of profit to an out-of-State affiliate via an intercompany service fee; department restates under §422.36(3) and the fee is added back to Iowa income at the top marginal rate:
+Same hypothetical corporation shifts $200,000 of profit to an out-of-state affiliate via an intercompany service fee; the department restates Iowa income under §422.36(3) and the shifted amount is taxed at the top marginal rate:
 
 ```oa-check
 name: IA 422.36 addback at top rate
@@ -111,22 +119,42 @@ expected:
   extra_tax: 19600.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
-- Are estimated installments sized to the ≥$1,000 threshold and the 4th/6th/9th/1st-month calendar?
-- Is the group affiliated enough to require a combined return — and has the §422.37 test been applied?
+- Are estimated installments sized to the $1,000-or-more threshold and the fourth/sixth/ninth/first-month calendar (§422.16(12))?
+- Is the group an IRC §1504(a) affiliated group — and has the director ever demanded a consolidated return (§422.37)?
 - Any intercompany pricing (goods, services, intangibles) that §422.36(2)-(3) could restate?
-- Financial institution? The franchise tax (3.8% for 2026) replaces the corporate tax — plus the §422.11 credit mechanics.
+- Financial institution? The franchise tax (3.8% for tax years beginning in 2026) replaces the corporate tax (§422.63(2)(e)).
 
 ## Sources
 
-1. Iowa Code §422.33 (corporate tax imposed; rates; receipts trigger): https://www.legis.iowa.gov/docs/code/422.33.pdf (200, text read 2026-10-27)
-2. Iowa Code §422.34 (exempt corporations): https://www.legis.iowa.gov/docs/code/422.34.pdf (200, text read 2026-10-27)
-3. Iowa Code §422.35 (net income adjustments): https://www.legis.iowa.gov/docs/code/422.35.pdf (200, text read 2026-10-27)
-4. Iowa Code §422.36 (returns; fair-price/income-shifting adjustment): https://www.legis.iowa.gov/docs/code/422.36.pdf (200, text read 2026-10-27)
-5. Iowa Code §422.16 (estimated tax calendar): https://www.legis.iowa.gov/docs/code/422.16.pdf (200, text read 2026-10-27)
-6. Iowa Code §422.63 (franchise tax rates): https://www.legis.iowa.gov/docs/code/422.63.pdf (200, text read 2026-10-27)
-7. Iowa Department of Revenue: https://tax.iowa.gov/ (guessed paths 404 this run — form IDs and current applied rates **needs-sources**)
+| Source | URL | Read on |
+|---|---|---|
+| Iowa Code §422.33 (corporate tax imposed; rates; receipts trigger) | https://www.legis.iowa.gov/docs/code/422.33.pdf | 2026-10-28 |
+| Iowa Code §422.34 (exempted corporations and organizations) | https://www.legis.iowa.gov/docs/code/422.34.pdf | 2026-10-28 |
+| Iowa Code §422.35 (net income of corporation — how computed) | https://www.legis.iowa.gov/docs/code/422.35.pdf | 2026-10-28 |
+| Iowa Code §422.36 (returns; fair-price/income-shifting adjustment) | https://www.legis.iowa.gov/docs/code/422.36.pdf | 2026-10-28 |
+| Iowa Code §422.37 (consolidated returns) | https://www.legis.iowa.gov/docs/code/422.37.pdf | 2026-10-28 |
+| Iowa Code §422.63 (franchise tax rates) | https://www.legis.iowa.gov/docs/code/422.63.pdf | 2026-10-28 |
+| Iowa Code §422.16 (estimated tax; due dates) | https://www.legis.iowa.gov/docs/code/422.16.pdf | 2026-10-28 |
+| Iowa Code §422.32 (definitions incl. affiliated group) | https://www.legis.iowa.gov/docs/code/422.32.pdf | 2026-10-28 |
+
+Not yet confirmed: whether the department of revenue applied receipts-trigger-adjusted corporate rates for tax year 2026 (the department's annual rate determination was not archived); Form identifiers (e.g., Form 4562C) and current department forms; the apportionment/allocation formula detail under §§422.38–422.41; Iowa's federal conformity (rolling date) for corporations; the corporate failure-to-file/failure-to-pay penalty and interest percentages under ch. 421/422 general provisions; the employee-owner qualified-corporation capital-gains exclusion cited in v0.2 (not found in the archived §422.35 text); the §422.11 franchise-tax credit mechanics for franchise-tax filers.
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Iowa corporate questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

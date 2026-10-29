@@ -1,7 +1,7 @@
 ---
 name: ia-income-tax
-description: "Iowa Individual Income Tax Return (Form IA 1040) for sole proprietors and single-member LLCs. Covers the flat 3.8% rate (tax year 2025/2026), Iowa net income computation from federal AGI, Iowa standard deduction, and estimated tax. Iowa completed its historic flat-tax reform in 2025. Trigger: taxpayer is an Iowa resident or has Iowa-source income."
-version: "0.2"
+description: "Iowa Individual Income Tax Return (Form IA 1040) for sole proprietors and single-member LLCs. Covers the flat 3.8% rate, Iowa net income computation from federal AGI, the retirement-income and Social Security exclusions, filing thresholds, the QBI deduction line, and estimated tax. Trigger: taxpayer is an Iowa resident or has Iowa-source income."
+version: "0.3"
 jurisdiction: US-IA
 tax_year: 2025
 last_updated: 2026-10-28
@@ -11,268 +11,105 @@ tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# IA Income Tax
+# Iowa individual income tax, tax year 2025
 
-## Iowa Individual Income Tax Skill — Self-Employed / Sole Proprietor
+> **Source-cited draft.** Built from Iowa Code §§422.5 and 422.7 (Iowa Legislature, Iowa Code 2026) and the Iowa Department of Revenue's 2025 IA 1040 Expanded Instructions, read on 2026-10-28. No accountant has reviewed it. Do not file, pay, amend, or take a tax position from it without review by a qualified Iowa professional.
 
-> **Scope.** This skill covers Iowa individual income tax for self-employed individuals and sole proprietors filing Form IA 1040. Iowa has a flat 3.8% rate — the result of landmark tax reform (SF 2442, 2024) that completed the transition from a multi-bracket system.
-> **Quality tier.** Q3 — AI-drafted with citations. Must be reviewed by a qualified professional before use.
+Authority: Iowa Department of Revenue (IDR). Currency: US dollars. Covers Form IA 1040 for self-employed individuals and sole proprietors. Iowa's individual income tax is a flat 3.8% — SF 2442 (2024) completed the transition to the flat rate for tax years beginning on or after January 1, 2025.
 
-## Section 1: Metadata
+See also: `ia-cross-border`, `ia-payroll-withholding`, `ia-sales-tax`.
 
-**Metadata table**
+## Who this applies to
 
-| Field | Value |
-| --- | --- |
-| Jurisdiction | US-IA (Iowa) |
-| Tax authority | Iowa Department of Revenue (IDR) |
-| Filing portal | [Iowa eFile & Pay](https://tax.iowa.gov/idr-efile-and-pay) |
-| Legislation citation | Iowa Code Chapter 422 (Individual Income Tax) |
-| Primary form | Form IA 1040 (Individual Income Tax Return) |
-| Filing deadline | April 30, 2026 (for tax year 2025) |
-| Extension | Automatic 6-month extension to October 31; tax must be paid by April 30 |
-| Version | 0.1 |
-| Generated date | May 22, 2026 |
-| Validation status | AI-drafted — Q3 |
+- Every Iowa resident and nonresident individual: "A tax is imposed upon every resident and nonresident of the state which tax shall be levied, collected, and paid annually upon and with respect to the entire taxable income ... at a rate of three and eight-tenths percent" (§422.5(1)(a)).
+- Sole proprietors and single-member LLC owners file Form IA 1040 on their business results flowing through federal AGI.
+- Nonresidents: tax computed by "multiplying this resulting amount by a fraction of which the nonresident's net income allocated to Iowa ... is the numerator and the nonresident's total net income computed under section 422.7 is the denominator" (§422.5(1)(b)(1)).
 
-### Sources consulted
+## Rates, bands and thresholds
 
-- Iowa Department of Revenue — IDR Announces 2026 Individual Income Tax Rate: https://revenue.iowa.gov/press-release/2025-10-21/idr-announces-2026-individual-income-tax-and-interest-rates
-- Iowa Department of Revenue — 2025 IA 1040 Expanded Instructions: https://revenue.iowa.gov/media/4435/download?inline=
-- Iowa Code § 422.5 (tax rate): as amended by SF 2442 (2024)
-- Remote Laws — Iowa Income Tax 2025: https://remotelaws.com/state-income-tax/us-states/iowa/
-- Arnold Mote Wealth Management — Iowa 3.8% Flat Tax: https://arnoldmotewealthmanagement.com/iowans-new-tax-law-brackets/
+| Item | Value (tax year 2025) | Source |
+|---|---|---|
+| Rate | 3.8% flat on all Iowa taxable income | §422.5(1)(a) |
+| Exempt filing threshold, single / married filing separately | Iowa taxable income $9,000 or less ($24,000 if 65 or older) | 2025 IA 1040 instructions |
+| Exempt filing threshold, married filing jointly / head of household / surviving spouse | $13,500 or less ($32,000 if 65 or older) | 2025 IA 1040 instructions |
+| Personal exemption credit | $40 per exemption (nonrefundable) | 2025 IA 1040 instructions; §422.12 |
 
-## Section 2: Quick reference — rates and thresholds
+- Low-income exemption: a single filer is "exempt from Iowa tax" if "Iowa taxable income from all sources, IA 1040, line 4, is $9,000 or less"; the combined figure for joint filers is "$13,500 or less"; the 65-or-older figures are $24,000 and $32,000 (2025 IA 1040 instructions).
+- Personal exemption credit: "Add the number of personal credits and multiply by $40" (2025 IA 1040 instructions).
 
-### Tax year 2025 rate
+## The taxable base
 
-**Tax year 2025 rate table**  _(Iowa Code § 422.5, as amended by SF 2442 (signed May 2024))_
+- **Starting point:** Iowa net income is computed from federal AGI with Iowa adjustments under §422.7, then reduced by the Iowa standard or itemized deduction (IA 1040, line 1d) and the qualified business income deduction (IA 1040, line 1e): "Line 1e: Qualified business income deduction. Enter the qualified business income deduction as reported on federal 1040, line 13a." (2025 IA 1040 instructions).
+- **Social Security:** "Subtract, to the extent included, the amount of social security benefits taxable under section 86 of the Internal Revenue Code" (§422.7(8)).
+- **Retirement income:** "Subtract, to the extent included, the total amount received from a governmental or other pension or retirement plan, including defined benefit or defined contribution plans, annuities, individual retirement accounts, ..." received by a person who is "(1) Disabled. (2) Fifty-five years of age or older. (3) The surviving spouse of an individual ... who would have qualified" (§422.7(19)(a)) — the exclusion is not capped at $6,000 under the archived 2026 statute text.
+- **Iowa capital gain deduction:** §422.7(21) excludes qualifying capital gains for a taxpayer "fifty-five years of age or older and who no longer materially participates in a farming business" and related qualifying property dispositions (§422.7(21)); the detailed eligibility conditions are listed under Not yet confirmed.
+- **QBI:** Iowa adds back federal below-the-line deductions in computing net income and allows the federal QBI deduction as a separate Iowa line (§422.7(2); IA 1040 line 1e per the instructions).
 
-| Rate | Applies to |
-| --- | --- |
-| 3.8% (flat) | All Iowa taxable income |
+## Deadlines and filing
 
-- **Flat rate applicability** — 3.8% percent (All Iowa taxable income; applies to tax years beginning on or after January 1, 2025)  _(Iowa Code § 422.5, as amended by SF 2442 (signed May 2024))_; verified verbatim in archived Iowa Code 2026 §422.5(1)(a): "at a rate of three and eight-tenths percent"
+- Filing/payment: for calendar-year 2025, pay and file by April 30, 2026; the instructions state "A federal extension does not apply for Iowa purposes. If at least 90% of your total tax liability is paid by April 30, 2026, you will automatically have until October 31, 2026, to file your return timely." (2025 IA 1040 instructions).
+- Estimated tax (tax year 2025): required at the $200 threshold; "Starting with tax year 2026, the tax threshold for when an individual is required to make estimated tax payments has been raised from $200 to $1000." (2025 IA 1040 instructions). Calendar-year filers "are generally required to pay the tax in four installments with the first installment due by April 30" (2025 IA 1040 instructions).
+- The statutory estimated-tax rule for all taxpayers is the $1,000 threshold with installments on the last day of the fourth, sixth, ninth, and first months (§422.16(12)); see Not yet confirmed for the reconciliation of the individual $200/$1,000 voucher rule with §422.16(12).
 
-**Historical context:** Iowa transitioned from a 4-bracket progressive system (4.4%–5.7% in 2024) to a single 3.8% flat rate in 2025, making it the lowest flat income tax rate in the Midwest.
+## Penalties and interest
 
-### Standard deduction (tax year 2025)
+- Underpayment of estimated tax and late-filing/late-payment penalties run under ch. 421/422 general provisions — the current percentages are listed under Not yet confirmed (the instructions reference the IA 2210 penalty computation).
 
-**Standard deduction table**
+## Cross-border points
 
-| Filing status | Standard deduction |
-| --- | --- |
-| Single / Married filing separately | $2,130 |
-| Married filing jointly / Head of household | $5,240 |
+- Part-year and nonresident allocation mechanics (the §422.8 allocation and the IA 1040NR) — see `ia-cross-border` and its Not yet confirmed items.
+- Iowa wages of residents are subject to employer withholding under §422.16 (see `ia-payroll-withholding`).
 
-- **Single / Married filing separately** — $2,130
-- **Married filing jointly / Head of household** — $5,240
+## Worked examples
 
-### Personal exemption credit
+Hypothetical sole proprietor with $50,000 of Iowa taxable income after all adjustments and deductions:
 
-**Personal exemption credit table**
+```oa-check
+name: IA flat tax 3.8 percent
+inputs:
+  taxable_income: 50000
+  rate: 0.038
+steps:
+  - tax: taxable_income * rate
+expected:
+  tax: 1900.00
+```
 
-| Item | Amount |
-| --- | --- |
-| Personal exemption credit (per exemption) | $40 |
+(Client facts are hypothetical; the 3.8% flat rate is the confirmed §422.5(1)(a) figure.)
 
-- **Personal exemption credit (per exemption)** — $40
+Same filer claims two personal exemption credits:
 
-### Filing thresholds (tax year 2025)
+```oa-check
+name: IA personal exemption credits
+inputs:
+  credits: 2
+  per_credit: 40
+steps:
+  - total_credit: credits * per_credit
+expected:
+  total_credit: 80.00
+```
 
-**Filing thresholds table**
+(The $40 personal exemption credit is the confirmed instructions figure.)
 
-| Filing status | Net income threshold |
-| --- | --- |
-| Single (under 65) | $9,000 |
-| Single (65+) | $24,000 |
-| Married filing jointly (under 65) | $13,500 |
-| Married filing jointly (65+) | $32,000 |
+## Ask the client first
 
-- **Single (under 65)** — $9,000
-- **Single (65+)** — $24,000
-- **Married filing jointly (under 65)** — $13,500
-- **Married filing jointly (65+)** — $32,000
-- **Nonresident filing threshold** — Nonresidents must file if Iowa-source income ≥ $1,000.
+- Is all pension/retirement income excluded under §422.7(19) (taxpayer disabled, 55+, or a qualifying survivor)?
+- Were estimated installments sized against the $200 (2025) / $1,000 (2026) individual threshold, and paid from April 30?
+- Is at least 90% of the liability paid by April 30 to keep the automatic October 31 filing date?
+- Sole proprietor: has the federal QBI deduction been entered on IA 1040 line 1e?
 
-## Section 3: How this skill works with the federal return
+## Sources
 
-**Starting point:** Iowa begins with federal adjusted gross income (AGI) from federal Form 1040, Line 11. However, Iowa then applies its own set of adjustments that differ significantly from the federal below-the-line computation.
+| Source | URL | Read on |
+|---|---|---|
+| Iowa Code §422.5 (flat 3.8% tax imposed; nonresident proration) | https://www.legis.iowa.gov/docs/code/422.5.pdf | 2026-10-28 |
+| Iowa Code §422.7 (net income adjustments; Social Security and retirement exclusions; capital gain deduction) | https://www.legis.iowa.gov/docs/code/422.7.pdf | 2026-10-28 |
+| Iowa Code §422.12 (personal exemption credit) | https://www.legis.iowa.gov/docs/code/422.12.pdf | 2026-10-28 |
+| Iowa Code §422.16 (estimated tax; due dates) | https://www.legis.iowa.gov/docs/code/422.16.pdf | 2026-10-28 |
+| IDR 2025 IA 1040 Expanded Instructions (filing thresholds, $40 credit, extension, estimated tax) | https://revenue.iowa.gov/media/4435/download?inline= | 2026-10-28 |
 
-### Key Iowa adjustments (increases to income)
-
-- **Federal NOL deduction add-back** — Federal net operating loss (NOL) deduction claimed on federal return (Iowa has its own NOL rules)
-- **Capital gain deduction add-back** — Capital gain deduction claimed on IA 1040 (add back if not qualifying)
-
-### Key Iowa adjustments (decreases to income)
-
-- **Iowa capital gain deduction** — Qualifying sales of real property used in farming/business (100% exclusion if held 10+ years and certain conditions met)
-- **Pension/retirement income exclusion** — Up to $6,000 per person ($12,000 MFJ) for taxpayers age 55+
-- **Social Security exclusion** — Iowa fully excludes Social Security from taxable income
-- **Military retirement pay exclusion** — Fully excluded
-- **Interest on U.S. government obligations** — Excluded from Iowa income
-
-### Iowa-specific deductions
-
-After computing Iowa net income, subtract:
-
-- **Standard or itemized deduction** — Iowa standard deduction OR Iowa itemized deductions
-- **QBI deduction** — Qualified business income (QBI) deduction (Iowa allows the federal §199A deduction as a separate line item)
-
-### Net result
-
-- **Iowa tax computation formula** — Federal AGI ± Iowa adjustments = Iowa net income → minus Iowa standard/itemized deduction → minus QBI deduction = Iowa taxable income → × 3.8% = Iowa tax → minus credits (including personal exemption credits).
-
-## Section 4: Self-employed specific rules
-
-### QBI conformity
-
-- **QBI conformity rule** — Iowa specifically allows the federal QBI deduction (§199A) as a below-the-line deduction on Form IA 1040, Line 1e. This reduces Iowa taxable income.
-
-### SE health insurance deduction
-
-- **SE health insurance deduction treatment** — Already reflected in federal AGI. Flows through to Iowa automatically.
-
-### Retirement contributions (SEP, SIMPLE, solo 401(k))
-
-- **Retirement contributions treatment** — Already reflected in federal AGI. No Iowa add-back required.
-
-### Home office deduction
-
-- **Home office deduction treatment** — Already reflected in Schedule C → federal AGI. Flows through automatically.
-
-### Estimated tax (Form IA 1040-ES)
-
-- **Estimated tax requirement** — Self-employed individuals must make quarterly estimated payments if they expect to owe $200 or more.
-- **Voucher due dates** — April 30, June 30, September 30, January 31.
-
-**Note:** Iowa's due dates differ from federal (April 30, not April 15).
-
-- **Safe harbor** — No penalty if payments equal at least 90% of current year tax OR 100% of prior year tax (110% if prior year Iowa AGI > $150,000).
-
-### Iowa capital gain deduction
-
-- **Capital gain deduction eligibility** — Sole proprietors who sell qualifying Iowa business assets held for 10+ years may exclude 100% of the gain. This is a significant benefit for long-held business property.
-- **Requirement - real property** — Asset must be real property used in a farming operation, or
-- **Requirement - qualifying stock/interest** — Asset must be qualifying business stock/partnership interest
-- **Other requirements** — Various holding period and material participation requirements apply
-
-## Section 5: Tier 1 rules — deterministic
-
-**Tier 1 rules table**
-
-| Rule ID | Rule |
-| --- | --- |
-| IA-IT-1.01 | Iowa tax = Iowa taxable income × 3.8% |
-| IA-IT-1.02 | Iowa starts from federal AGI (Form 1040, Line 11) |
-| IA-IT-1.03 | Iowa allows federal QBI deduction (§199A) as separate deduction on IA 1040 |
-| IA-IT-1.04 | Social Security benefits are fully excluded from Iowa income |
-| IA-IT-1.05 | Filing deadline is April 30 (not April 15) |
-| IA-IT-1.06 | No local/city income taxes in Iowa |
-| IA-IT-1.07 | Iowa inheritance tax repealed effective January 1, 2025 |
-| IA-IT-1.08 | Personal exemption credit: $40 per exemption (non-refundable) |
-| IA-IT-1.09 | Iowa does not conform to federal NOL rules — separate Iowa NOL computation required |
-
-- **IA-IT-1.01** — Iowa tax = Iowa taxable income × 3.8%
-- **IA-IT-1.02** — Iowa starts from federal AGI (Form 1040, Line 11)
-- **IA-IT-1.03** — Iowa allows federal QBI deduction (§199A) as separate deduction on IA 1040
-- **IA-IT-1.04** — Social Security benefits are fully excluded from Iowa income
-- **IA-IT-1.05** — Filing deadline is April 30 (not April 15)
-- **IA-IT-1.06** — No local/city income taxes in Iowa
-- **IA-IT-1.07** — Iowa inheritance tax repealed effective January 1, 2025
-- **IA-IT-1.08** — Personal exemption credit: $40 per exemption (non-refundable)
-- **IA-IT-1.09** — Iowa does not conform to federal NOL rules — separate Iowa NOL computation required
-
-## Section 6: Tier 2 rules — requires judgment
-
-**Tier 2 rules table**
-
-| Rule ID | Rule | Judgment needed |
-| --- | --- | --- |
-| IA-IT-2.01 | Iowa capital gain deduction eligibility | Verify holding period, material participation, and asset type requirements |
-| IA-IT-2.02 | Iowa vs. federal itemized deductions | Iowa may differ on certain itemized deductions; compare totals |
-| IA-IT-2.03 | Part-year resident allocation (Schedule IA 126) | Prorate income for period of Iowa residency |
-| IA-IT-2.04 | Iowa NOL carryover | Iowa has different NOL rules than federal; requires separate tracking |
-| IA-IT-2.05 | Pension/retirement exclusion eligibility | Verify age 55+ and qualifying income types |
-| IA-IT-2.06 | Alternate tax computation | Some taxpayers may owe less using the alternate tax method; compare both |
-
-- **IA-IT-2.01** — Iowa capital gain deduction eligibility (Verify holding period, material participation, and asset type requirements)
-- **IA-IT-2.02** — Iowa vs. federal itemized deductions (Iowa may differ on certain itemized deductions; compare totals)
-- **IA-IT-2.03** — Part-year resident allocation (Schedule IA 126) (Prorate income for period of Iowa residency)
-- **IA-IT-2.04** — Iowa NOL carryover (Iowa has different NOL rules than federal; requires separate tracking)
-- **IA-IT-2.05** — Pension/retirement exclusion eligibility (Verify age 55+ and qualifying income types)
-- **IA-IT-2.06** — Alternate tax computation (Some taxpayers may owe less using the alternate tax method; compare both)
-
-## Section 7: Supplier pattern library
-
-**Supplier pattern library table**
-
-| Pattern on bank statement | Likely meaning |
-| --- | --- |
-| IOWA DEPT OF REVENUE | Iowa income tax payment |
-| STATE OF IOWA TAX | Iowa estimated tax payment |
-| IA TAX REFUND | Iowa income tax refund |
-| IDR IOWA PMT | Iowa Department of Revenue payment |
-
-- **IOWA DEPT OF REVENUE** — Iowa income tax payment
-- **STATE OF IOWA TAX** — Iowa estimated tax payment
-- **IA TAX REFUND** — Iowa income tax refund
-- **IDR IOWA PMT** — Iowa Department of Revenue payment
-
-## Section 8: Form mapping
-
-**Form mapping table**
-
-| Iowa Form | Federal equivalent / Input |
-| --- | --- |
-| IA 1040, Line 1 | Federal Form 1040, Line 11 (AGI) |
-| IA 1040, Lines 1a–1c | Iowa adjustments (additions/subtractions) |
-| IA 1040, Line 1d | Iowa standard or itemized deduction |
-| IA 1040, Line 1e | QBI deduction (federal §199A amount) |
-| IA 1040, Line 4 | Iowa taxable income |
-| IA 1040, Line 5 | Iowa tax (Line 4 × 3.8%) |
-| Form IA 1040-ES | Quarterly estimated payments |
-| Schedule IA 126 | Nonresident/part-year income allocation |
-| Schedule IA 1040C | Itemized deductions |
-
-- **IA 1040, Line 1** — Federal Form 1040, Line 11 (AGI)
-- **IA 1040, Lines 1a–1c** — Iowa adjustments (additions/subtractions)
-- **IA 1040, Line 1d** — Iowa standard or itemized deduction
-- **IA 1040, Line 1e** — QBI deduction (federal §199A amount)
-- **IA 1040, Line 4** — Iowa taxable income
-- **IA 1040, Line 5** — Iowa tax (Line 4 × 3.8%)
-- **Form IA 1040-ES** — Quarterly estimated payments
-- **Schedule IA 126** — Nonresident/part-year income allocation
-- **Schedule IA 1040C** — Itemized deductions
-
-## Section 9: Refusal catalogue
-
-**Refusal catalogue table**
-
-| Refusal ID | Topic | Reason |
-| --- | --- | --- |
-| R-IA-01 | Corporate income tax | Separate return and rules |
-| R-IA-02 | Part-year / nonresident allocation | Complex allocation via Schedule IA 126 |
-| R-IA-03 | Iowa NOL computation | Complex multi-year tracking required |
-| R-IA-04 | Franchise tax (financial institutions) | Industry-specific |
-| R-IA-05 | Withholding tax | Employer obligation |
-| R-IA-06 | Property tax credits (Homestead) | Separate application process |
-| R-IA-07 | Capital gain deduction detailed analysis | Complex holding period and participation rules |
-
-- **R-IA-01** — Corporate income tax  _(Separate return and rules)_
-- **R-IA-02** — Part-year / nonresident allocation  _(Complex allocation via Schedule IA 126)_
-- **R-IA-03** — Iowa NOL computation  _(Complex multi-year tracking required)_
-- **R-IA-04** — Franchise tax (financial institutions)  _(Industry-specific)_
-- **R-IA-05** — Withholding tax  _(Employer obligation)_
-- **R-IA-06** — Property tax credits (Homestead)  _(Separate application process)_
-- **R-IA-07** — Capital gain deduction detailed analysis  _(Complex holding period and participation rules)_
-
-## Disclaimer
-
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
+Not yet confirmed: the Iowa standard deduction and itemized-deduction amounts for 2025 (the figures formerly stated here were not found in the archived sources' text layer); the safe-harbor percentages for avoiding underpayment penalties (90%/100%/110% of prior-year liability figures were not located in archived text); the historical 2024 bracket rates (4.4%-5.7%); the Iowa NOL computation rules (separate from federal); the reconciliation of the individual $200 (2025) estimated-tax voucher threshold with the §422.16(12) $1,000 rule; Schedule IA 126 and IA 1040C line mechanics; whether Iowa inheritance tax is repealed for deaths on or after January 1, 2025; the absence of local/city income taxes in Iowa; military retirement pay exclusion (beyond the general §422.7(19) retirement exclusion); the capital gain deduction's detailed holding-period and material-participation conditions.
 
 <!-- openaccountants-cta-block -->
 
