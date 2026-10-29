@@ -1,10 +1,10 @@
 ---
 name: tx-franchise-tax
 description: "Texas Franchise Tax for single-member LLCs and other taxable entities. Covers the 2026 report no-tax-due threshold ($2,650,000), discontinued Form 05-163 for report years 2024+, required PIR/OIR filing, E-Z computation rate (0.331%), standard computation, passive-entity filing path, and annual filing requirements. Primary source: Texas Comptroller and Texas Tax Code Chapter 171."
-version: 1.0
+version: "1.2"
 jurisdiction: US-TX
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
@@ -67,8 +67,8 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 
 | Item | Date | Source |
 | --- | --- | --- |
-| Annual report due date | May 15, 2025 (for accounting year ending in 2024) | Texas Tax Code §171.202 |
-| Automatic extension | November 15, 2025 (with 90% of tax paid by May 15) | Texas Comptroller Rule 3.584 |
+| Annual report due date | May 15, 2026 (for accounting year ending in 2025); next business day if May 15 falls on a weekend/holiday | Texas Comptroller Franchise Tax due-dates page; Texas Tax Code §171.202 |
+| Automatic extension | November 15, 2026 (with 90% of tax paid by May 15) | Texas Comptroller Rule 3.584 |
 | Public Information Report (05-102) | Due with the franchise tax report | Texas Tax Code §171.203 |
 
 ### Initial filing
@@ -77,19 +77,19 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 
 ## Section 3 -- Rates and thresholds
 
-**Rates and thresholds**  _([Texas Comptroller 2026 Franchise Tax Report Forms; No Tax Due Reporting for Report Year 2024 and Later](https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php))_
+**Rates and thresholds**  _([Texas Comptroller Franchise Tax hub — Tax Rates, Thresholds and Deduction Limits, 2026 and 2027 report years](https://comptroller.texas.gov/taxes/franchise/))_
 
 | Item | Amount | Source |
 | --- | --- | --- |
-| No-tax-due threshold (2026 report) | $2,650,000 total revenue | Texas Comptroller 2026 franchise forms |
+| No-tax-due threshold (2026 & 2027 reports) | $2,650,000 total revenue | Texas Comptroller Franchise Tax hub |
 | No-tax-due threshold (2024-2025 reports) | $2,470,000 total revenue | Texas Comptroller / Tax Code §171.006 |
 | EZ computation rate | 0.331% of total revenue (apportioned) | Texas Tax Code §171.1016 |
-| EZ computation revenue limit | $20,000,000 | Texas Comptroller 2026 franchise forms |
+| EZ computation revenue limit | $20,000,000 annualized total revenue | Texas Comptroller Franchise Tax hub |
 | Standard rate -- retail/wholesale | 0.375% of taxable margin | Texas Tax Code §171.002(b) |
 | Standard rate -- other entities | 0.75% of taxable margin | Texas Tax Code §171.002(a) |
 | Minimum tax | $0 (no minimum) | Texas Tax Code §171.002 |
 | Cost of goods sold alternative | Available per Tax Code §171.1012 | Texas Tax Code §171.1012 |
-| Compensation deduction alternative | Available per Tax Code §171.1013; 2026-2027 per-person cap $480,000 | Texas Comptroller 2026 franchise forms |
+| Compensation deduction alternative | Available per Tax Code §171.1013; 2026-2027 per-person cap $480,000 | Texas Comptroller Franchise Tax hub |
 
 ### No-tax-due threshold
 
@@ -185,6 +185,34 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 - **P-5** — Do NOT classify an entity as retail/wholesale for the reduced rate unless >50% of revenue is from retail/wholesale activities.  _(unsure)_
 - **P-6** — Do NOT advise on whether to form or dissolve an LLC based on franchise tax implications. That is legal advice.  _(unsure)_
 
+## Recomputing examples
+
+```oa-check
+name: TX franchise EZ computation, revenue 5,000,000 fully apportioned to Texas
+inputs:
+  revenue: 5000000
+  factor: 1.0
+steps:
+  - under_ez_cap: clamp(20000000 - revenue, 0, 1)
+  - tax: revenue * factor * 0.00331
+expected:
+  tax: 16550.00
+```
+```oa-check
+name: TX franchise standard COGS method, retail, revenue 4,000,000 COGS 1,500,000
+inputs:
+  revenue: 4000000
+  cogs: 1500000
+steps:
+  - margin: revenue - cogs
+  - cap: revenue * 0.70
+  - taxable_margin: min(margin, cap)
+  - tax: taxable_margin * 0.00375
+expected:
+  taxable_margin: 2500000
+  tax: 9375.00
+```
+
 ## Section 8 -- Self-checks
 
 Before delivering output, verify:
@@ -208,6 +236,16 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+- https://comptroller.texas.gov/taxes/franchise/ (as_of: 2026-10-28)
+- https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php (as_of: 2026-10-28)
+- https://comptroller.texas.gov/taxes/franchise/ntd-rpt-updates-2024.php (as_of: 2026-10-28)
+- https://openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com (as_of: 2026-10-28)
+- https://www.openaccountants.com/connect (as_of: 2026-10-28)
+- https://www.openaccountants.com/network (as_of: 2026-10-28)
 
 ## Talk to a verified accountant
 

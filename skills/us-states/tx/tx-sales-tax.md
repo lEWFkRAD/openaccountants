@@ -2,19 +2,19 @@
 name: tx-sales-use-tax
 description: >
   Texas Sales and Use Tax return (Form 01-114) for self-employed individuals and small businesses. Covers the 6.25% state rate, local tax add-ons (up to 2%), combined maximum of 8.25%, use tax, data processing services exemption under Section 151.351, and filing frequencies. Primary source: Texas Tax Code Chapter 151.
-version: 1.0
+version: "1.2"
 jurisdiction: US-TX
-tax_year: 2025
+tax_year: 2026
 tier: 2
-last_updated: 2026-06-12
+last_updated: 2026-10-28
 category: state
 depends_on:
   - us-tax-workflow-base
-validated: April 2026
-validation_status: ai-drafted-q3
+validated: October 2026
+validation_status: source-verified-q4
 ---
 
-# Texas Sales and Use Tax (Form 01-114) v1.0
+# Texas Sales and Use Tax (Form 01-114) v1.1
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
@@ -61,14 +61,16 @@ Any person who sells, leases, or rents taxable tangible personal property or tax
 
 ### Filing frequency
 
-| Quarterly tax liability | Filing frequency | Source |
-|------------------------|------------------|--------|
-| $0 -- $500/quarter | Annually (due January 20) | Texas Comptroller Rule 3.286 |
-| $500 -- $1,500/quarter | Quarterly (due 20th after quarter) | Texas Comptroller Rule 3.286 |
-| Over $1,500/quarter | Monthly (due 20th of following month) | Texas Comptroller Rule 3.286 |
-| $500,000+/quarter | Monthly with prepayment option | Texas Tax Code §151.424 |
+Filing frequency is assigned by the Comptroller after the permit application is approved; taxpayers are notified by letter. The general assignment rules:
 
-**Due date:** The 20th of the month following the reporting period. If the 20th falls on a weekend or holiday, the next business day.
+| Liability | Filing frequency | Due date | Source |
+|-----------|------------------|----------|--------|
+| Under $1,000 state tax per year | Annually (with Comptroller authorization) | January 20 for the previous year | Texas Comptroller Sales & Use Tax hub |
+| Under $500/month and under $1,500/quarter | Quarterly | 20th of the month after quarter end (Apr 20, Jul 20, Oct 20, Jan 20) | Texas Comptroller Sales & Use Tax hub |
+| $500 or more in state tax in a single month | Monthly | 20th of the month following the reporting month | Texas Comptroller Sales & Use Tax hub |
+| $500,000 or more | Monthly; paper reporting not available (Webfile/EDI required) | 20th of the month following the reporting month | Texas Comptroller Sales Tax Filing Requirements |
+
+**Due date rule:** The 20th of the month following the reporting period. If the 20th falls on a weekend or holiday, the next business day. 2026 due dates per the Comptroller's due-date chart include Jan 20, Apr 20, Jul 20, Oct 20 (quarterly) with weekend adjustments (e.g. Jun 22, Sep 21, Dec 21 in 2026). **Source:** Texas Comptroller "Due Dates for Taxes, Fees and Information Reports."
 
 ---
 
@@ -94,13 +96,21 @@ The local 2% maximum is composed of:
 
 Total local taxes cannot exceed 2.00% for any location.
 
-### Timely filing discount (prepayment discount)
+### Timely filing discount (and prepayment discount)
 
 | Item | Amount | Source |
 |------|--------|--------|
-| Timely filing discount | 0.5% of tax due (max $500/reporting period for monthly/quarterly filers) | Texas Tax Code §151.423 |
+| Timely filing discount | 0.5% of tax timely reported and paid | Texas Tax Code §151.423; Comptroller Sales & Use Tax hub |
+| Prepayment discount (monthly/quarterly filers who prepay) | additional 1.25% | Texas Tax Code §151.424; Comptroller Sales FAQ |
 
-The discount is forfeited if the return is filed or paid late.
+The timely filing discount is forfeited if the return is filed or paid late.
+
+### Late penalties and interest
+
+| Item | Amount | Source |
+|------|--------|--------|
+| Late penalty | 5% of tax due if 1-30 days late; additional 5% if over 30 days late (minimum $1 per period) | Texas Tax Code §151.421; Comptroller Auditing Fundamentals tax chart |
+| Interest | Begins accruing 61 days after the due date; rate = WSJ prime rate (first business day of the year) + 1% | Texas Tax Code §151.422; Comptroller Auditing Fundamentals tax chart |
 
 ---
 
@@ -190,6 +200,34 @@ Texas is destination-based: the local tax rate is determined by the location whe
 
 ---
 
+## Recomputing examples
+
+```oa-check
+name: TX sale 10,000 at combined 8.25 with timely plus prepayment discounts
+inputs:
+  sales: 10000
+  combined: 0.0825
+steps:
+  - tax: sales * combined
+  - timely_discount: tax * 0.005
+  - prepay_discount: tax * 0.0125
+  - net: tax - timely_discount - prepay_discount
+expected:
+  tax: 825.00
+  timely_discount: 4.13
+  prepay_discount: 10.31
+  net: 810.56
+```
+```oa-check
+name: TX use tax on 2,000 purchase at 8.25
+inputs:
+  price: 2000
+steps:
+  - use_tax: price * 0.0825
+expected:
+  use_tax: 165.00
+```
+
 ## Section 6 -- Test suite
 
 ### Test 1: Basic monthly return
@@ -215,7 +253,7 @@ Texas is destination-based: the local tax rate is determined by the location whe
 ### Test 5: Late filing
 
 - **Input:** Same as Test 1 but filed 5 days late.
-- **Expected:** No timely filing discount. Penalty: 5% of tax due ($206.25). Interest applies.
+- **Expected:** No timely filing discount. Penalty: 5% of tax due ($206.25). If more than 30 days late, an additional 5%. Interest accrues beginning 61 days after the due date at WSJ prime + 1%.
 
 ---
 
@@ -251,3 +289,7 @@ Before delivering output, verify:
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
 The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://www.openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+## Sources
+
+- https://www.openaccountants.com (as_of: 2026-10-28)
