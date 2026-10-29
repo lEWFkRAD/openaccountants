@@ -3,66 +3,72 @@ name: al-transfer-pricing
 description: >
   Use this skill whenever asked about Alabama transfer pricing and
   combined reporting for tax year 2026 — how related-party economics
-  are policed through mandatory combined reporting for unitary
-  business groups and single-sales-factor apportionment rather than a
-  standalone addback statute, the Alabama unitary-group definition,
-  and the elimination of intercompany transactions in the combined
-  computation. Trigger on "Alabama combined reporting", "Alabama
-  unitary group", "Alabama transfer pricing", "Alabama intercompany
-  elimination", "Alabama addback". Source-cited draft; ALDOR
-  corporate page read 2026-10-27; unitary-definition text
-  needs-sources.
+  are handled through combined reporting for unitary business groups
+  and single-sales-factor apportionment rather than a standalone
+  addback statute. Trigger on "Alabama combined reporting",
+  "Alabama unitary group", "Alabama transfer pricing", "Alabama
+  intercompany elimination", "Alabama addback".
 jurisdiction: US-AL
 category: transfer-pricing
 tax_year: 2026
 tier: 2
 last_updated: 2026-10-28
-version: 0.2
+version: 0.3
 verified_by: pending
+review_status: pending_review
+trust_label: Built by Michael Cutajar and the OpenAccountants team
 depends_on:
   - al-corporate-income-tax
+license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# Alabama transfer pricing / combined reporting v0.1
+# Alabama transfer pricing / combined reporting
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+> **Source-cited draft.** Built from the ALDOR Corporate Income Tax page, read 2026-10-28. The combined-reporting statute (§40-18-50) was not retrievable this run — every combined-reporting mechanic below is flagged in Not yet confirmed. No accountant has reviewed it.
 
-## 1. Scope and sources
+## Who this applies to
 
-Source-cited draft, run of 27 October 2026. Alabama has **no standalone transfer-pricing documentation statute and no royalty/interest addback regime** the way some states do. Related-party economics are policed structurally: unitary affiliated groups file a **combined return** (Ala. Code §40-18-50 — text **needs-sources**) in which intercompany transactions are eliminated, and the apportionment fraction is a **single sales factor** (ALDOR corporate page, read 2026-10-27, confirming single sales factor for tax years beginning on or after 2021-01-01). **Source status:** the single-sales-factor rule is read from the ALDOR page; the combined-reporting mandate, the unitary-group definition, the water's-edge rule, and the common-reporting-company mechanics sit in §40-18-50 and §40-18-160+ whose text was not retrievable from this host this run — all flagged **needs-sources**.
+- Corporations that are part of a **unitary business group** may be required to combine — the mandate, its effective date and the unitary definition are not yet confirmed (see Not yet confirmed).
+- Standalone corporations outside a unitary group file separately; intercompany dealings with non-members surface through the single-sales-factor numerator.
+- The prior draft's ownership thresholds (">50% shared ownership, with 80% for the classic unitary definition") were not tied to an archived primary source and are now in Not yet confirmed.
 
-## 2. Who applies
+## Rates, bands and thresholds
 
-- Corporations that are part of a **unitary business group** must combine (Alabama moved combined reporting from elective to mandatory in the 2021 income-tax reform — effective-date detail **needs-sources**).
-- A unitary group generally requires a **common ownership** test (typically >50% shared ownership, with 80% for the classic unitary definition) plus **functional/geographic integration** — Alabama's precise thresholds: **needs-sources**.
-- Standalone corporations outside a unitary group file separately; intercompany dealings with non-members then surface through the single-sales-factor numerator and the §40-18-50 anti-distortion authority.
+| Item | Rule | Tax year | Source |
+|---|---|---|---|
+| Apportionment | Single sales factor (TYB >= 2021) | current | [ALDOR Corporate Income Tax page](https://revenue.alabama.gov/taxes-fees/corporate-income-tax/) |
+| Corporate rate | 6.5% of annual net income with federal-tax deduction | current | [ALDOR Corporate Income Tax page](https://revenue.alabama.gov/taxes-fees/corporate-income-tax/) |
+| Combined return for unitary groups | Ala. Code §40-18-50 | current | Section text not archived — see Not yet confirmed |
+| Addback statutes | None found for royalties/interest | current | Not yet confirmed |
 
-## 3. Mechanics
+## The taxable base
 
-| Item | Rule | Source |
-|---|---|---|
-| Combined return | required for unitary groups | Ala. Code §40-18-50 — text **needs-sources** |
-| Intercompany eliminations | eliminate intercompany transactions and unrealized profits in the combined computation | §40-18-50 — **needs-sources** |
-| Apportionment | single sales factor (TYB ≥ 2021) | ALDOR page, read 2026-10-27 |
-| Addback statutes | none found for royalties/interest — **needs-sources** confirmation | — |
-| Water's-edge | foreign affiliates excluded (confirm) — **needs-sources** | — |
+- Related-party economics are policed structurally — combined reporting for unitary groups plus market-based single-sales-factor apportionment — rather than through a standalone transfer-pricing documentation statute (the §40-18-50 text is not yet confirmed).
+- Intercompany eliminations: the combined computation eliminates intercompany transactions and unrealized profits — per §40-18-50, whose text is not yet confirmed.
+- Federal taxable income is the starting point, so federal intercompany rules carry through.
 
-## 4. Deadlines
+## Deadlines and filing
 
-The combined return follows the corporate return calendar (see `al-corporate-income-tax`); one member typically files as the common reporting entity for the group (**needs-sources**). Federal audit changes must be reported to Alabama within the statutory window (days: **needs-sources**).
+- The combined return follows the corporate return calendar (see `al-corporate-income-tax`; the Form 20C/20CR due dates are not yet confirmed there).
+- Which member files as the common reporting entity, and the statutory window for reporting federal audit changes, are not yet confirmed.
 
-## 5. Penalties and interest
+## Penalties and interest
 
-No TP-specific documentation penalty exists; exposure runs through the ordinary underpayment penalty and interest (percentages **needs-sources**). Common failure modes: (1) filing separate returns when the group is unitary post-2021; (2) leaving intercompany management fees or royalties in the combined computation; (3) pricing intangibles on a "cost-plus" default that the single sales factor then amplifies into the Alabama fraction.
+- No Alabama transfer-pricing documentation penalty has been confirmed; exposure would run through the ordinary underpayment penalty and interest (percentages not yet confirmed).
+- Common failure modes: (1) filing separate returns when the group is unitary; (2) leaving intercompany management fees or royalties in a combined computation; (3) pricing intangibles on a "cost-plus" default that the single sales factor then amplifies into the Alabama fraction.
 
-## 6. Cross-border interactions
+## Cross-border points
 
-- Interstate only: Alabama's TP surface is the unitary-combined computation plus market-based sales sourcing (see `al-cross-border`).
-- No Alabama analog to §267A or EU arm's-length documentation; federal intercompany rules carry over through federal taxable income as the starting point.
+- Interstate only: Alabama's related-party surface is the unitary-combined computation plus market-based sales sourcing (see `al-cross-border`).
+- No Alabama analog to §267A or EU arm's-length documentation has been confirmed.
 
-## 7. Worked examples
+## Worked examples
 
-Unitary group, two members: OpCo (Alabama sales $900,000, other sales $1,100,000) pays MgmtCo (no sales) a $200,000 management fee. Combined computation eliminates the fee:
+Client facts in these examples are hypothetical. Only rates from the confirmed table above are used (6.5% rate, single sales factor). The elimination mechanics shown are the standard combined-reporting pattern; Alabama's statutory language is not yet confirmed.
+
+### Example 1: elimination effect on group income
+
+Unitary group (hypothetical), two members: OpCo (Alabama sales $900,000, other sales $1,100,000) pays MgmtCo (no sales) a $200,000 management fee.
 
 ```oa-check
 name: AL combined elimination effect on group income
@@ -80,9 +86,11 @@ expected:
   drift: 0.00
 ```
 
-(The elimination is income-neutral inside the group but moves each member's separate fraction — the combined single factor uses group sales.)
+(The elimination is income-neutral inside the group but moves each member's separate fraction — the combined factor uses group sales.)
 
-Group apportionment with the fee eliminated:
+### Example 2: combined single sales factor
+
+Group apportionment (hypothetical) with the fee eliminated:
 
 ```oa-check
 name: AL combined single sales factor
@@ -101,18 +109,31 @@ expected:
   tax: 25740.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
-- Is the group unitary under Alabama's post-2021 mandatory combining rule — has anyone run the ownership + integration test?
+- Is the group unitary under Alabama's combining rule — has anyone run the ownership + integration test? (The statutory thresholds are not yet confirmed here.)
 - Are intercompany fees, royalties, and interest fully eliminated in the combined workpapers?
 - Does the sales-factor numerator use the same market rules for every member?
-- Any foreign affiliates — is water's-edge being applied correctly?
+- Any foreign affiliates — is a water's-edge election being applied? (The water's-edge rule is not yet confirmed.)
 
 ## Sources
 
-1. ALDOR Corporate Income Tax page: https://revenue.alabama.gov/taxes-fees/corporate-income-tax/ (200, text read 2026-10-27 — single sales factor from TYB 2021, authority citations)
-2. Ala. Code §40-18-50 (combined reporting): https://law.justia.com/codes/alabama/title-40/ (not fetched this run — **needs-sources**)
-3. Alabama Form 20CR (combined return): https://revenue.alabama.gov/forms/ (not located this run — **needs-sources**)
+| Source | URL | Read on |
+|---|---|---|
+| ALDOR Corporate Income Tax page (single sales factor from TYB 2021, 6.5% rate, federal-tax deduction) | https://revenue.alabama.gov/taxes-fees/corporate-income-tax/ | 2026-10-28 |
+
+Not yet confirmed: the combined-reporting mandate, intercompany-elimination requirement, unitary-group definition and ownership thresholds under Ala. Code §40-18-50 (the prior draft carried ">50% shared ownership, with 80% for the classic unitary definition" — confirm against the statute); whether combining is mandatory or elective and its effective date (the 2021 income-tax reform detail); the water's-edge rule; the common-reporting-entity mechanics; the absence of royalty/interest addback statutes (a negative not provable from archived sources); the statutory window for reporting federal audit changes; Code of Alabama section text (legislative mirror not retrievable this run).
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Alabama combined-reporting questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at openaccountants.com.
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
