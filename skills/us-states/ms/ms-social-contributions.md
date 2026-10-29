@@ -71,7 +71,7 @@ expected:
 **Example 2 — new-employer UI on a hypothetical $9,500 taxable-wage base (rate from the skill's own confirmed table above):**
 
 ```oa-check
-name: MS UI illustrative
+name: MS UI new employer
 inputs:
   wage_base: 9500
   rate: 0.01

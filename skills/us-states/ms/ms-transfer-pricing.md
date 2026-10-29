@@ -93,13 +93,12 @@ expected:
 
 ## Sources
 
-1. DOR Combined Filing: https://www.dor.ms.gov/taxes/combined-filing — fetched and verified 2026-10-28.
-2. Pre-existing `ms-corporate-income-tax.md` (this pack) for rates.
+| Source | URL | Read on |
+|---|---|---|
+| DOR Combined Income Filing — affiliated-group election (Title 35, Part III, Subpart 08, Chapter 07), Form 83-310 into Form 83-105 line 4, 90% quarterly estimates via Form 83-300, underestimate rules (Title 35, Part III, Subpart 11, Chapter 21) | https://www.dor.ms.gov/business/corporate-income-franchise-tax/combined-income-filing | 2026-10-28 |
+| MSDOR 2025 Corporate Income & Franchise Tax Instructions (Form 83-100, rev. 01/2026) — corporate rate table, penalties/interest | https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf | 2026-10-29 |
 
-**Needs-sources:** membership tests, factor mix, addbacks, water's-edge, documentation requirements, penalty percentages.
-
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Mississippi combined/TP questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+Not yet confirmed: the Title 35, Part III, Subpart 08, Chapter 07 membership/ownership tests in detail; the apportionment factor mix; intercompany addback rules and water's-edge posture; any state TP documentation requirement; the §482-to-state conformity linkage.
 
 ---
 
