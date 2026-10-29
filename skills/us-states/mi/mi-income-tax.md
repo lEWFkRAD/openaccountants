@@ -189,7 +189,8 @@ No worked examples in this skill yet — see `mi-estimated-tax` for Michigan com
 
 | # | Source | URL | Read on |
 | --- | --- | --- | --- |
-| 1 | Michigan Treasury — 4.25% Rate Notice for 2026 | https://www.michigan.gov/treasury/reference/taxpayer-notices/2026/04/15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year | 2026-10-29 |
+| 1 | Michigan Treasury — 4.25% Rate Notice for 2026 (Taxpayer Notice, Apr 15 2026) | https://www.michigan.gov/treasury/reference/taxpayer-notices/2026-04-15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year/ | 2026-10-29 |
+| 1b | Michigan Treasury — FY 2026 Income Tax Rate Letter (CREC, MCL 206.51(1)(c) calculation; archived copy of the same notice) | https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/ORTA/Consensus-Revenue-Estimating-Conference---CREC/FY-2026/FY-2026-Income-Tax-Rate-Letter.pdf | 2026-10-29 |
 | 2 | MI-1040 Book (TY 2025 instructions) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf | 2026-10-29 |
 | 3 | MCL 206.51 — Tax rate | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51 | 2026-10-28 |
 | 4 | Michigan city income tax list | https://www.michigan.gov/taxes/iit/city | 2026-10-29 |
