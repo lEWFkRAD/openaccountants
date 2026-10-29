@@ -6,7 +6,6 @@ description: >-
   contribution rates, the employer/employee split, small-employer relief, and
   how FICA/FUTA/UI sit alongside. Trigger on PFML contribution, 0.88%,
   family leave Massachusetts, medical leave split, DFML employer.
-  Source-cited; DFML rate page archived 2026-10-29.
 jurisdiction: US-MA
 category: social
 tax_year: 2026
