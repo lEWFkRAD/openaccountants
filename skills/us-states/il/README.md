@@ -26,7 +26,7 @@ through IDES. Sales tax is administered by IDOR with a state rate plus local dis
 - Form IL-1120 (R-12/25), IL-1120-V, and the 24-page IL-1120 instructions PDF: verified 2026-10-27
   (tax.illinois.gov, PDF text read — filing dates, estimated-tax $400 threshold, unitary/Finnigan
   notes, IL-2220 penalty form all read from the instructions).
-- IDES 2026 rate chart PDF (`UI_tax_rates_2026.pdf`): verified 2026-10-27 — 2026 wage base
+- sources/US-IL-ides-ui-rates-2026.pdf PDF (`UI_tax_rates_2026.pdf`): verified 2026-10-27 — 2026 wage base
   $14,250; min 0.750% / max 7.050% incl. Fund Builder 0.550%; standard (ineligible) 3.350%;
   small-employer 5.4% under $50,000 gross wages; $50 minimum penalty.
 - ILCS statute pages (35 ILCS 5) render article text via JavaScript; direct section URLs did not

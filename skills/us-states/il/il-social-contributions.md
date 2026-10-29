@@ -9,7 +9,7 @@ description: >
   Act, and the absence of state disability/paid-leave payroll taxes.
   Trigger on "Illinois UI rate", "Illinois SUTA", "IDES contribution",
   "Illinois unemployment wage base 2026", "Illinois Fund Builder",
-  "Illinois employer taxes". Source-cited draft; IDES 2026 rate chart
+  "Illinois employer taxes". Source-cited draft; sources/US-IL-ides-ui-rates-2026.pdf
   PDF read 2026-10-27.
 jurisdiction: US-IL
 category: payroll
@@ -40,17 +40,17 @@ Source-cited draft, run of 27 October 2026. Illinois employer social contributio
 
 | Item | 2026 amount | Source |
 |---|---|---|
-| Taxable wage base | **$14,250** per employee | IDES 2026 rate chart (archived: sources/US-IL-ides-ui-rates-2026.pdf, WAGE BASE row: 14,250), read 2026-10-27 |
-| Minimum contribution rate | **0.750%** (includes Fund Builder) | archived IDES 2026 rate chart, MINIMUM row: 0.750% |
-| Maximum contribution rate | **7.050%** (includes Fund Builder) | archived IDES 2026 rate chart, MAXIMUM row: 7.050% |
-| Standard (ineligible) rate | **3.350%** | archived IDES 2026 rate chart, STANDARD (Ineligible) RATE row: 3.350% |
-| Fund Builder component | **0.550%** (embedded in all rates above) | archived IDES 2026 rate chart, FUND BUILDING row: 0.550% |
-| Small-employer rate (gross wages < $50,000) | **5.4%** flat | archived IDES 2026 rate chart (Wages less than $50,000 column) |
-| Minimum penalty | **$50** | archived IDES 2026 rate chart, MINIMUM PENALTY row |
+| Taxable wage base | **$14,250** per employee | sources/US-IL-ides-ui-rates-2026.pdf (archived: sources/US-IL-ides-ui-rates-2026.pdf, WAGE BASE row: 14,250), read 2026-10-27 |
+| Minimum contribution rate | **0.750%** (includes Fund Builder) | archived sources/US-IL-ides-ui-rates-2026.pdf: MINIMUM RATES row |
+| Maximum contribution rate | **7.050%** (includes Fund Builder) | archived sources/US-IL-ides-ui-rates-2026.pdf: MAXIMUM RATES row |
+| Standard (ineligible) rate | **3.350%** | archived sources/US-IL-ides-ui-rates-2026.pdf, STANDARD (Ineligible) RATE row: 3.350% |
+| Fund Builder component | **0.550%** (embedded in all rates above) | archived sources/US-IL-ides-ui-rates-2026.pdf, FUND BUILDING row: 0.550% |
+| Small-employer rate (gross wages < $50,000) | **5.4%** flat | archived sources/US-IL-ides-ui-rates-2026.pdf (Wages less than $50,000 column) |
+| Minimum penalty | **$50** | archived sources/US-IL-ides-ui-rates-2026.pdf, MINIMUM PENALTY row |
 | Employee share of UI | none — employer-only | 820 ILCS 405 structure; section text  |
 | State disability / paid family leave | none | absence confirmed; no such IL program |
 
-Rates are experience-rated (benefit-conversion factor 138.4% and state experience factor 102% for 2026 — both appear in the archived IDES 2026 rate chart). Base: covered wages up to $14,250 per employee per year.
+Rates are experience-rated (benefit-conversion factor 138.4% and state experience factor 102% for 2026 — both appear in the archived sources/US-IL-ides-ui-rates-2026.pdf). Base: covered wages up to $14,250 per employee per year.
 
 ## The taxable base
 
@@ -114,7 +114,7 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| IDES 2026 rate chart | https://ides.illinois.gov/content/dam/soi/en/web/ides/ides_forms_and_publications/UI_tax_rates_2026.pdf | 2026-10-27 |
+| sources/US-IL-ides-ui-rates-2026.pdf | https://ides.illinois.gov/content/dam/soi/en/web/ides/ides_forms_and_publications/UI_tax_rates_2026.pdf | 2026-10-27 |
 | IDES employer taxes/reporting | https://ides.illinois.gov/employer-resources/taxes-reporting.html | 2026-10-27 |
 | IDES annual rate page | https://ides.illinois.gov/employer-resources/taxes-reporting/rates.html | 2026-10-27 |
 
