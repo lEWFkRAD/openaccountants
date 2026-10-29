@@ -121,7 +121,7 @@ expected:
 | N.C.G.S. § 105-153.8 (who must file): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-153.8.html | 2026-10-25 |
 | N.C.G.S. § 105-163.1 (withholding agent): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-163.1.html | 2026-10-25 |
 | N.C.G.S. § 105-163.15 (estimated installments): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-163.15.html | 2026-10-25 |
-| NCDOR individual hub: | https://www.ncdor.gov/taxes-forms/individual-income-tax | 2026-10-25 |
+| NCDOR individual hub: | https://www.ncdor.gov | 2026-10-25 |
 
 Not yet confirmed: 2026 indexed standard deduction; nonresident real-estate withholding successor (105-163.14 repealed 1985 per chapter index, successor not located 2026-10-25); composite-return availability; 2026 published underpayment interest rate
 

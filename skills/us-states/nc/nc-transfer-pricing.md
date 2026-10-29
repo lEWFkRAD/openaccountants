@@ -120,7 +120,7 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| N.C.G.S. § 105-130.5 (State net income; (25) related-member net interest addback): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.5.html | 2026-10-25 |
+| N.C.G.S. § 105-130.5 (State net income; (25) related-member net interest addback) [archived as chapter-text GS_105-130.5A]: | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.5.html | 2026-10-25 |
 | N.C.G.S. § 105-130.7A (royalty income reporting option): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.7A.html | 2026-10-25 |
 | N.C.G.S. § 105-130.3 (corporate rate schedule): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.3.html | 2026-10-25 |
 | N.C.G.S. § 105-130.4 (apportionment; (t1) alternative): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-130.4.html | 2026-10-25 |
