@@ -8,7 +8,7 @@ description: >
   unemployment", "NDOL", "Nebraska SUTA", "Nebraska employer
   contributions". Source-cited draft; NDOL administration verified via
   state portal 2026-10-28 (employer pages returned 403 to this run);
-  wage base and rate tables needs-sources.
+  wage base and rate tables pending source confirmation.
 jurisdiction: US-NE
 category: payroll
 tax_year: 2026
@@ -26,7 +26,7 @@ depends_on:
 
 ## Scope and sources
 
-Employer social costs for Nebraska employment. **Source status:** the Nebraska state labor portal resolves and NDOL administers UI (verified at portal level 2026-10-28); **NDOL employer rate/wage-base pages returned HTTP 403 to this run's fetcher — all figures needs-sources**.
+Employer social costs for Nebraska employment. **Source status:** the Nebraska state labor portal resolves and NDOL administers UI (verified at portal level 2026-10-28); NDOL employer rate/wage-base pages returned HTTP 403 to this run's fetcher — the state UI figures are listed under Not yet confirmed in Sources.
 
 ## Who this applies to
 
@@ -47,7 +47,7 @@ Quarterly wage + contribution reports to NDOL (the NE form ID is listed under No
 
 ## Deadlines and filing
 
-Quarterly reports due last day of the month following each quarter (convention — **needs-sources** for NE specifics).
+Quarterly report due dates for NE specifics are listed under Not yet confirmed.
 
 ## Cross-border points
 
@@ -71,7 +71,7 @@ expected:
 **Example 2 — hypothetical NE UI (figures hypothetical; NE wage base/rate pending confirmation).** Base $10,800, rate 1.2%:
 
 ```oa-check
-name: NE UI illustrative
+name: NE UI hypothetical
 inputs:
   wage_base: 10800
   rate: 0.012
