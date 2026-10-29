@@ -3,7 +3,7 @@ name: ga-corporate-and-ptet
 description: "Source-cited tax guide for US-GA: ga corporate and ptet. Unverified draft, pending local-accountant review."
 jurisdiction: US-GA
 tax_year: 2026
-last_updated: 2026-10-16
+last_updated: 2026-10-28
 authored_by: Michael Cutajar and the OpenAccountants team
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -113,7 +113,7 @@ It does **not** cover:
   - the Revenue Shortfall Reserve does not hold more than the projected revenue cost of the cut.
 
   The Office of Planning and Budget reports its determinations by 1 December each year. Treat any 2027 rate below 4.99% as unconfirmed until then.
-- **DOR's corporate page and the 2025 booklets still show 5.19%** because they describe tax year 2025. DOR's "2026 Income Tax Changes" note confirms the 4.99% flat rate for 2026.
+- **DOR's corporate page and the 2025 booklets still show 5.19%** because they describe tax year 2025. DOR's "2026 Income Tax Changes" note confirms the 4.99% flat rate for 2026. The archived DOR corporate page (2026-10-28, `US-GA-corporate-income-and-net-worth-tax.html`) now itself states "The rate of taxation is 4.99% of a corporation's Georgia taxable net income", and the archived 2025 IT-611 booklet (`US-GA-download-5.pdf`) confirms 5.19% for taxable years beginning in 2025 ("The tax rate for the ... taxable year beginning on or after January 1, 2025 is 5.19%"), the April 15, 2026 due date for calendar-year filers, and the 180-day federal-change reporting deadline ("Taxpayers must report any federal changes or corrections resulting from a federal audit within 180 days of the final determination date").
 
 **Net worth tax table** ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download); [DOR corporate income and net worth tax](https://dor.georgia.gov/corporate-income-and-net-worth-tax))
 
@@ -139,7 +139,7 @@ It does **not** cover:
 | Over $20,000,000, not exceeding $22,000,000 | $4,500 |
 | Over $22,000,000 | $5,000 |
 
-- **The $100,000 exemption dates from 2018, not HB 1023.** DOR: "For net worth years beginning on or after January 1, 2018 (those reported on the 2017 income tax return), corporations with a net worth of $100,000 or less are not subject to tax but must file a return." HB 1023 (2024) dealt with the rate link and the corporate extension, not net worth.
+- **The $100,000 exemption dates from 2018, not HB 1023.** DOR: "For net worth years beginning on or after January 1, 2018 (those reported on the 2017 income tax return), corporations with a net worth of $100,000 or less are not subject to tax but must file a return." The archived DOR corporate page (`US-GA-corporate-income-and-net-worth-tax.html`, 2026-10-28) repeats that sentence verbatim and adds "The maximum is $5,000 for a net worth in excess of $22 million." HB 1023 (2024) dealt with the rate link and the corporate extension, not net worth.
 - **What counts as net worth:** issued capital stock, paid-in surplus and retained earnings. Treasury stock is not deducted. A deficit net worth still requires a return but owes no tax.
 - **Which balance sheet.** The net worth tax on a return is for the following net worth year. DOR: the net worth tax dates "would be one year later than the income tax beginning and ending dates". It is measured on the net worth at the first day of that net worth year, which is the prior year's ending balance sheet.
 - **Initial return.** A new corporation files an initial net worth return based on its opening balance sheet. If the period is shorter than six months, 50% of the tax is due.
