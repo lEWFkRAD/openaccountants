@@ -453,7 +453,7 @@ Every output produced under this skill must be reviewed and signed off by a cred
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| NYS Department of State — Division of Corporations | https://dos.ny.gov/ | 2026-10-28 |
+| NYS Department of Labor — Wage Theft Prevention Act (P715) | https://dol.ny.gov/p715-wage-theft-prevention-act | 2026-10-28 |
 
 Not yet confirmed: LLC filing fee $200; publication requirement costs; biennial statement fees.
 
@@ -462,10 +462,10 @@ Not yet confirmed: LLC filing fee $200; publication requirement costs; biennial 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
@@ -477,10 +477,10 @@ version (and the professional behind it) is at
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a

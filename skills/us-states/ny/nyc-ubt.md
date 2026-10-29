@@ -235,8 +235,8 @@ UBT late-filing and late-payment penalties apply; current rates are not yet conf
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| NYC Comptroller — business income taxes | https://www.nyc.gov/site/finance/taxes/business-income-taxes.page | 2026-10-28 |
-| NYC Dept of Finance — corporation tax | https://www.nyc.gov/site/finance/taxes/corporation.page | 2026-10-28 |
+| NYC Comptroller — recent trends in business taxes | https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-busines | 2026-10-28 |
+| NYC Dept of Finance — business corporation tax | https://www.nyc.gov/site/finance/business/business-corporation-tax.page | 2026-10-28 |
 
 Not yet confirmed: UBT rate table; penalty/interest rates; filing thresholds.
 

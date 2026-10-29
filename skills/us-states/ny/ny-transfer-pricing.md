@@ -114,7 +114,7 @@ expected:
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| NYS Department of Taxation and Finance | https://www.tax.ny.gov/ | 2026-10-28 |
+| NYS DOL — Unemployment Insurance rate information | https://dol.ny.gov/unemployment-insurance-rate-information | 2026-10-28 |
 
 Not yet confirmed: figures below the Sources heading lack archived line-citations.
 
