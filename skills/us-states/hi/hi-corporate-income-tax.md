@@ -48,7 +48,7 @@ Hawaii taxes corporations with a **graduated net-income tax under HRS chapter 23
 
 The rates apply on a graduated (bracket) basis as written in the statute.
 
-**Alternative tax on net capital gain** (HRS §235-71.5): "If for any taxable year a corporation, regulated investment company, or real estate investment trust has a net capital gain, then, in lieu of the tax imposed by section 235-71, there is hereby imposed a tax (if such tax is less than the tax imposed under section 235-71)" computed as the regular tax on income reduced by the net capital gain, plus "(A) 3.08 per cent of the lesser of" the pre-1987-treatment gain and "(B) 4 per cent of the excess capital gain" (section text read 2026-10-27).
+**Alternative tax for corporations** (HRS §235-71.5): the archived statute text reads: "§235-71.5  Alternative tax for corporations.  Section 1201 (with respect to alternative tax for corporations) of the Internal Revenue Code of 1986, as amended as of December 31, 1996, shall be operative for the purposes of this chapter." Hawaii does not state alternative-tax percentages in this section; it incorporates IRC §1201 as amended as of December 31, 1996 (text read 2026-10-28).
 
 **Apportionment** (HRS §235-29): "All business income shall be apportioned to this State by multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is three." Hawaii has not adopted single-sales-factor apportionment in the statute text read.
 
@@ -138,7 +138,7 @@ expected:
 | Source | URL | Read on |
 |---|---|---|
 | HRS §235-71 (corporation tax rates 4.4/5.4/6.4%) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm | 2026-10-28 |
-| HRS §235-71.5 (alternative tax on net capital gain) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071_0005.htm | 2026-10-28 |
+| HRS §235-71.5 (alternative tax for corporations; incorporates IRC §1201 as of 12/31/1996) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071_0005.htm | 2026-10-28 |
 | HRS §235-72 (corporations in partnership) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0072.htm | 2026-10-28 |
 | HRS §235-4 (residents/nonresidents) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0004.htm | 2026-10-28 |
 | HRS §235-4.2 (nexus presumption: 200+ transactions / $100,000) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0004_0002.htm | 2026-10-28 |

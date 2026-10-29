@@ -106,7 +106,7 @@ expected:
 
 1. Are UI quarterly contribution/wage reports filed for every Hawaii payroll, including remote employees working in Hawaii?
 2. Is TDI coverage via the state plan or an approved private plan — and is the employee contribution at or under 0.5% of weekly wages?
-3. Does every regular employee at or above 86.67 × the minimum wage (86.67 × $16.00 = $1,386.72/month for 2026) have qualifying PREA coverage?
+3. Does every regular employee at or above 86.67 × the minimum wage have qualifying PREA coverage? (At the §387-2 minimum wage of $16.00 per hour beginning January 1, 2026, the Example 2 oa-check computes the monthly trigger at $1,386.72.)
 4. Any exemption applications on file (ch. 393-17) and still valid?
 5. What is the employer's current experience rating and the current taxable wage base (not published in the archived sources — see Not yet confirmed below)?
 

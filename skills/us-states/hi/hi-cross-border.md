@@ -45,7 +45,7 @@ This skill covers people and entities whose facts straddle Hawaii: moving in/out
 | Change-of-status split | residence-period income worldwide; nonresidence-period income Hawaii-source; otherwise prorated by the residence-period ratio | §235-4(c), archived text |
 | Economic-nexus presumption | 200+ transactions or $100,000+ Hawaii gross income / sales-factor numerator | §235-4.2, archived text |
 | Real-property exit withholding | §235-68(b) (archived text): "every transferee shall deduct and withhold a tax equal to 7.25 per cent of the amount realized on the disposition of Hawaii real property." | §235-68, archived text |
-| Estimated tax on change of status | §235-97 calendar applies to individuals (first voucher "on or before April 20"; June 20, September 20, and the fourth-quarter payment "by January 20 of the year following") | §235-97, archived text |
+| Estimated tax on change of status | §235-97 calendar applies to individuals: first voucher "on or before April 20"; "Thereafter, on the twentieth day of June and September, the taxpayer shall transmit with the payment voucher, payment of one-quarter of the estimated tax"; fourth-quarter payment "by January 20 of the year following the taxable year" | §235-97, archived text |
 | Military | §235-100 persons in military service; §235-100.5 abatement on death (section titles from the archived ch. 235 TOC) | ch. 235 TOC |
 
 ## The taxable base

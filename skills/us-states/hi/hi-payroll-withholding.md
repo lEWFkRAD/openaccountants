@@ -53,7 +53,7 @@ Hawaii income-tax withholding runs on HRS §§235-61 to 235-69. The withholding 
 
 ## Deadlines and filing
 
-- Quarterly withholding returns: the 15th day of the month following each calendar quarter (§235-62: "on or before the fifteenth day of the calendar month following the close of each such quarter") — i.e. April 15, July 15, October 15, January 15.
+- Quarterly withholding returns: due "on or before the fifteenth day of the calendar month following the close of each such quarter" (§235-62, archived text).
 - Deposits: semi-weekly (over $40,000 annual liability) or monthly (over $5,000 but not over $40,000) per the §235-62 tiers.
 - Jeopardy: the director may require immediate return and payment if collection is at risk (§235-62, archived text).
 

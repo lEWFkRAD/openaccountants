@@ -29,7 +29,7 @@ Every person engaging in business activities in Hawaii, anyone with physical nex
 
 | Activity | Rate |
 | --- | --- |
-| "Selling retail goods and services, renting, leasing real property, construction contracting, earning commissions, all others" | 4.5%* on Oahu (4% base rate in counties without a surcharge) |
+| "Selling retail goods and services, renting, leasing real property, construction contracting, earning commissions, all others" | 4.5%* (per the DOTAX GET page footnote, "This 4.5% rate includes a 0.5% county surcharge"; the surcharge applies only in counties that have enacted it) |
 | "Wholesaling goods, producing, providing wholesale services, business activities of disabled people" | 0.50% |
 | "Insurance Commissions" | 0.15% |
 

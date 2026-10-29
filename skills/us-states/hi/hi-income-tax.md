@@ -51,37 +51,37 @@ Hawaii resident individuals filing Form N-11, with this skill focused on sole pr
 
 ### Tax year 2025 brackets — Single / Married filing separately  _(HRS §235-51; DOTAX Tax Rate Schedule I, verified verbatim against the archived DOTAX schedule page)_
 
-| Taxable income | Rate | Cumulative tax at top of bracket |
+| Taxable income (DOTAX Schedule I wording) | Rate | Tax per the schedule |
 | --- | --- | --- |
-| $0 – $9,600 | 1.40% | $134 |
-| $9,601 – $14,400 | 3.20% | $288 |
-| $14,401 – $19,200 | 5.50% | $552 |
-| $19,201 – $24,000 | 6.40% | $859 |
-| $24,001 – $36,000 | 6.80% | $1,675 |
-| $36,001 – $48,000 | 7.20% | $2,539 |
-| $48,001 – $125,000 | 7.60% | $8,391 |
-| $125,001 – $175,000 | 7.90% | $12,341 |
-| $175,001 – $225,000 | 8.25% | $16,466 |
-| $225,001 – $275,000 | 9.00% | $20,966 |
-| $275,001 – $325,000 | 10.00% | $25,966 |
-| Over $325,000 | 11.00% | — |
+| Not over $9,600 | 1.40% | 1.40% of taxable income |
+| Over $9,600 but not over $14,400 | 3.20% | $134 plus 3.20% over $9,600 |
+| Over $14,400 but not over $19,200 | 5.50% | $288 plus 5.50% over $14,400 |
+| Over $19,200 but not over $24,000 | 6.40% | $552 plus 6.40% over $19,200 |
+| Over $24,000 but not over $36,000 | 6.80% | $859 plus 6.80% over $24,000 |
+| Over $36,000 but not over $48,000 | 7.20% | $1,675 plus 7.20% over $36,000 |
+| Over $48,000 but not over $125,000 | 7.60% | $2,539 plus 7.60% over $48,000 |
+| Over $125,000 but not over $175,000 | 7.90% | $8,391 plus 7.90% over $125,000 |
+| Over $175,000 but not over $225,000 | 8.25% | $12,341 plus 8.25% over $175,000 |
+| Over $225,000 but not over $275,000 | 9.00% | $16,466 plus 9.00% over $225,000 |
+| Over $275,000 but not over $325,000 | 10.00% | $20,966 plus 10.00% over $275,000 |
+| Over $325,000 | 11.00% | $25,966 plus 11.00% over $325,000 |
 
 ### Tax year 2025 brackets — Married filing jointly / Qualifying surviving spouse  _(HRS §235-51; DOTAX Tax Rate Schedule II)_
 
-| Taxable income | Rate | Cumulative tax at top of bracket |
+| Taxable income (DOTAX Schedule II wording) | Rate | Tax per the schedule |
 | --- | --- | --- |
-| $0 – $19,200 | 1.40% | $269 |
-| $19,201 – $28,800 | 3.20% | $576 |
-| $28,801 – $38,400 | 5.50% | $1,104 |
-| $38,401 – $48,000 | 6.40% | $1,718 |
-| $48,001 – $72,000 | 6.80% | $3,350 |
-| $72,001 – $96,000 | 7.20% | $5,078 |
-| $96,001 – $250,000 | 7.60% | $16,782 |
-| $250,001 – $350,000 | 7.90% | $24,682 |
-| $350,001 – $450,000 | 8.25% | $32,932 |
-| $450,001 – $550,000 | 9.00% | $41,932 |
-| $550,001 – $650,000 | 10.00% | $51,932 |
-| Over $650,000 | 11.00% | — |
+| Not over $19,200 | 1.40% | 1.40% of taxable income |
+| Over $19,200 but not over $28,800 | 3.20% | $269 plus 3.20% over $19,200 |
+| Over $28,800 but not over $38,400 | 5.50% | $576 plus 5.50% over $28,800 |
+| Over $38,400 but not over $48,000 | 6.40% | $1,104 plus 6.40% over $38,400 |
+| Over $48,000 but not over $72,000 | 6.80% | $1,718 plus 6.80% over $48,000 |
+| Over $72,000 but not over $96,000 | 7.20% | $3,350 plus 7.20% over $72,000 |
+| Over $96,000 but not over $250,000 | 7.60% | $5,078 plus 7.60% over $96,000 |
+| Over $250,000 but not over $350,000 | 7.90% | $16,782 plus 7.90% over $250,000 |
+| Over $350,000 but not over $450,000 | 8.25% | $24,682 plus 8.25% over $350,000 |
+| Over $450,000 but not over $550,000 | 9.00% | $32,932 plus 9.00% over $450,000 |
+| Over $550,000 but not over $650,000 | 10.00% | $41,932 plus 10.00% over $550,000 |
+| Over $650,000 | 11.00% | $51,932 plus 11.00% over $650,000 |
 
 The DOTAX schedule page notes that if taxable income is less than $100,000 the taxpayer must use the Tax Table; at or above $100,000, the rate schedule.
 
@@ -139,7 +139,7 @@ See Not yet confirmed below — the gross-income filing thresholds were not extr
 | HI-IT-1.02 | If taxable income is less than $100,000, use the tax table; at or above $100,000, use the rate schedule (DOTAX schedule page) |
 | HI-IT-1.03 | Personal exemption: see Not yet confirmed below |
 | HI-IT-1.04 | Social Security benefits are excluded from Hawaii income (statutory citation pending; see Not yet confirmed below) |
-| HI-IT-1.05 | Filing deadline is April 20, 2026 (tax year 2025), not April 15 |
+| HI-IT-1.05 | Filing deadline is April 20, 2026 (tax year 2025) — DOTAX: "Taxpayers must file their income tax returns by April 20, 2026" |
 | HI-IT-1.06 | Automatic 6-month extension if the properly estimated tax amount owed is paid by April 20, 2026 (DOTAX tax-year page) |
 | HI-IT-1.07 | Hawaii does not conform to federal §168(k) bonus depreciation (see Not yet confirmed below) |
 | HI-IT-1.08 | Hawaii allows credit for taxes paid to other states (see Not yet confirmed below) |
@@ -168,7 +168,7 @@ See Not yet confirmed below — the gross-income filing thresholds were not extr
 
 - **Filing deadline** — Taxpayers must file their tax year 2025 income tax returns by **April 20, 2026** (DOTAX tax-year-2025 information page: "Taxpayers must file their income tax returns by April 20, 2026. Although the law requires taxpayers to file by April 20, taxpayers are granted an automatic 6-month extension (no form is required to request the extension)"). The 6-month extension is granted if the taxpayer is due a refund, or pays the properly estimated tax amount owed by April 20, 2026.
 - **Quarterly estimated payment requirement** — Self-employed individuals must make quarterly estimated payments if they expect to owe $500 or more: HRS §235-97 provides that "In the case of a taxpayer whose tax liability is less than $500, the filing of an estimate and the payment of estimated tax shall not be required."
-- **Voucher due dates** — April 20, June 20, September 20, January 20 (HRS §235-97: the calendar-year first voucher is filed "on or before April 20", with further payments the twentieth day of June and September and the fourth-quarter payment "by January 20 of the year following the taxable year").
+- **Voucher due dates** — HRS §235-97 (archived text): the calendar-year first payment voucher "shall be filed, in the case of taxpayers on the calendar year basis, on or before April 20"; "Thereafter, on the twentieth day of June and September, the taxpayer shall transmit with the payment voucher, payment of one-quarter of the estimated tax"; and "The fourth quarter payment of the estimated tax shall be transmitted with the payment voucher by January 20 of the year following the taxable year for which the estimate was made."
 - **GET interaction** — Hawaii self-employed individuals are also subject to GET on gross business income (see `hi-sales-tax` for the confirmed GET rates). GET is NOT the same as income tax. GET paid is a deductible business expense on federal Schedule C, reducing federal AGI and therefore Hawaii taxable income.
 
 ### Form mapping
@@ -241,7 +241,7 @@ expected:
   tax: 20732.00
 ```
 
-(Uses the confirmed Schedule II cumulative amount $16,782 at the top of the $96,001–$250,000 bracket and the 7.9% rate of the next bracket.)
+(Uses the confirmed Schedule II line "Over $250,000 but not over $350,000 $ 16,782 plus 7.90% over $250,000" from the archived DOTAX schedule page; the $300,000 income is hypothetical.)
 
 ## Ask the client first
 
