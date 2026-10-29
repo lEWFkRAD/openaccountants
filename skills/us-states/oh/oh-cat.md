@@ -45,6 +45,10 @@ Not yet confirmed against archived sources.
 
 CAT returns are due the 20th of the month following the reporting period (not yet confirmed against an archived source).
 
+## Deadlines and filing
+
+CAT returns are due the 20th of the month following the reporting period (not yet confirmed against an archived source).
+
 ## Penalties and interest
 
 Not yet confirmed against archived sources.
@@ -55,7 +59,7 @@ Not yet confirmed against archived sources.
 
 CAT returns are due the 20th of the month following the reporting period (not yet confirmed against an archived source).
 
-## Penalties and interest
+### Penalties detail
 
 CAT late-filing penalties and interest apply; current rates are not yet confirmed against an archived source.
 
@@ -433,7 +437,7 @@ the OpenAccountants network.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| Ohio Dept of Taxation — CAT overview | https://tax.ohio.gov/business/commercial-activity-tax | 2026-10-28 |
+| Ohio Rev. Code §5751.01 (CAT definitions) | https://codes.ohio.gov/ohio-revised-code/section-5751.01 | 2026-10-28 |
 | CAT 2005-02 nexus standards (rev Nov 2019) | https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/commercial_activities/information_releases/2005-02%20cat%20nexus%20standards%20rev%20november%202019.pdf | 2026-10-28 |
 | CAT 1 instructions | https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/cat/generic/cat_cat1_ins.pdf | 2026-10-28 |
 
