@@ -18,20 +18,8 @@ Figures are for tax year 2026 (returns filed in 2027) unless a line says 2025. T
 
 This skill covers full-year Maryland residents filing Form 502, including sole proprietors, single-member LLC owners, employees and investors. It covers the State income tax, the county or Baltimore City local income tax, and the 2% additional tax on net capital gain. It does not compute nonresident (Form 505) or part-year returns, fiduciary returns, or the pass-through entity tax (Form 510/511). Those are listed under "When to refuse or refer". [Technical Bulletin 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf)
 
-## Ask the client first
+### The method, step by step
 
-- Which tax year is being filed? A 2025 return filed now uses the 2025 rules in the 2025 section below. A 2026 return or 2026 estimate uses the main tables.
-- Were they a Maryland resident all year? Residence means Maryland domicile, or a place of abode in Maryland for more than six months of the year together with physical presence of 183 days or more. Part-year and nonresident cases are referred.
-- Where did they live on 31 December (the last day of the tax year)? That address, and its four-digit political subdivision code, sets the local tax rate. A mid-year move inside Maryland does not split the local tax.
-- What is their federal filing status and federal adjusted gross income (FAGI)? Most Maryland thresholds test FAGI, not Maryland income.
-- Did they itemize on the federal return? A Maryland itemized deduction is allowed only if they itemized federally.
-- Do they have net capital gain, and is FAGI above $350,000? If so, list each gain by asset type to test the surtax exclusions (primary home, retirement accounts, section 179 property, and others). [Technical Bulletin 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf)
-- Ages and disability status on 31 December for taxpayer, spouse and dependents; any pension, 401(k), 403(b) or 457(b) income; Social Security received.
-- Business facts: Schedule C, E or K-1 income; any federal bonus depreciation, section 174A research expensing or section 163(j) interest changes; any pass-through entity (PTE) that paid Maryland PTE tax for them.
-- Maryland withholding (W-2, 1099), estimated payments made, and any 2025 overpayment applied to 2026.
-- Income taxed by another state or a locality (credit on Form 502CR), and where the other state is DC, Virginia, West Virginia or Pennsylvania.
-
-## The method, step by step
 
 1. Confirm the return is a full-year resident Form 502 and fix the tax year. Refer part-year and nonresident cases (see "When to refuse or refer").
 2. Start from federal adjusted gross income on Line 1 of Form 502 (federal AGI copied from the federal Form 1040). Maryland does not start from federal taxable income, so the federal standard deduction and the section 199A (QBI) deduction never reduce Maryland income.
@@ -44,7 +32,12 @@ This skill covers full-year Maryland residents filing Form 502, including sole p
 9. Compute local income tax on the same Line 20 amount at the rate of the county or Baltimore City of residence on 31 December, using the county brackets where the county has them. Subtract local credits.
 10. Reconcile withholding, estimated payments and refundable credits; compute any underpayment interest on Form 502UP; file and pay by the deadline.
 
-## Rates and figures
+## Who this applies to
+
+Full-year Maryland residents filing Form 502, including sole proprietors, single-member LLC owners, employees and investors. Part-year and nonresident (Form 505) filers, fiduciaries and pass-through entities (Form 510/511) are out of scope - see "When to refuse or refer".
+
+## Rates, bands and thresholds
+
 
 ### State income tax rate schedules, tax years 2025 and 2026 ([rate schedules](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf); [statute](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false))
 
@@ -163,7 +156,8 @@ Frederick County (2025 and 2026, [booklet](https://www.marylandtaxes.gov/content
 - Single, MFS, Dependent: 2.25% up to $25,000; 2.75% from $25,001 to $50,000; 2.96% from $50,001 to $150,000; 3.20% at $150,001 or more.
 - MFJ, HOH, QSS: 2.25% up to $25,000; 2.75% from $25,001 to $100,000; 2.96% from $100,001 to $250,000; 3.20% at $250,001 or more.
 
-## Common adjustments and treatment
+### Common adjustments and treatment
+
 
 - Social Security and railroad retirement benefits included in FAGI are subtracted in full (Line 11). [Instruction 13](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
 - Pension exclusion (Line 10a, Form 502R required): only if the taxpayer was 65 or over or totally disabled, or the spouse was totally disabled, on the last day of the year, and only for taxable income from an employee retirement system qualified under IRC sections 401(a), 403 or 457(b). A 401(k) or 403(b) qualifies; a traditional, Roth, rollover or SEP IRA does not. The 2025 maximum is $41,200 per qualifying individual, reduced by Social Security and railroad retirement benefits received. The 2026 maximum had not been published at the time of writing. [Instruction 13](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
@@ -174,7 +168,8 @@ Frederick County (2025 and 2026, [booklet](https://www.marylandtaxes.gov/content
 - Depreciation and One Big Beautiful Bill Act (P.L. 119-21) business provisions: for tax year 2025 and earlier, Maryland is automatically decoupled from federal full expensing of domestic research and experimental expenditures, the changed business interest limitation, and the special depreciation allowance for qualified production property. Maryland also remains decoupled from other federal depreciation allowances listed in the Form 500DM instructions (see Technical Bulletin 38). Compute the add-backs and later subtractions on Form 500DM. For 2026, check the 2026 Form 500DM instructions for Maryland's conformity position before filing. [2025 booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
 - Credit for tax paid to another state (Form 502CR Part A) requires a copy of the other state's return; without it no credit is allowed. [Instruction 18](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
 
-## Boundary and exception table
+### Boundary and exception table
+
 
 | Situation | Treatment | Source |
 | --- | --- | --- |
@@ -189,34 +184,12 @@ Frederick County (2025 and 2026, [booklet](https://www.marylandtaxes.gov/content
 | Spouses domiciled in different local jurisdictions | Separate Maryland returns recommended; if filing jointly, split local tax by income ratio and write "separate jurisdictions" on Line 28 | [booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf) |
 | Turned 65 on 2 January after the tax year | No $1,000 age exemption for that year | [booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf) |
 
-## Worked cases
+## The taxable base
 
-These are illustrations for tax year 2026 using the 2026 rates and, for the standard deduction, the $3,350 / $6,700 amounts in the Comptroller's 2026 estimated-tax worksheet. Replace the standard deduction with the final indexed 2026 amount when it is published. On an actual return below $100,000 of taxable income, take the State tax from the tax table. [2026 worksheet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf)
+Maryland starts from federal adjusted gross income (Form 502 Line 1), not federal taxable income: the federal standard deduction and the section 199A (QBI) deduction never reduce Maryland income. Add Maryland additions (Lines 2-6, e.g. non-Maryland bond interest and Form 500DM decoupling add-backs) and subtract Maryland subtractions (Lines 8-15, e.g. Social Security, the pension exclusion, U.S. obligation interest, the two-income subtraction) to get Maryland AGI (Line 16); subtract the standard or itemized deduction and personal exemptions to get Maryland taxable net income (Line 20), which is also the base for the county tax.
 
-**Case 1: ordinary single filer, Montgomery County.** A single sole proprietor, age 40, lives in Montgomery County all year. FAGI is $80,000; there are no additions, subtractions or dependents, and no capital gains. Standard deduction $3,350; one exemption of $3,200 (FAGI is not over $100,000). Taxable net income = 80,000 − 3,350 − 3,200 = 73,450. State tax = $90.00 + 4.75% × (73,450 − 3,000) = $3,436.38. Local tax = 3.20% × 73,450 = $2,350.40. Total Maryland and local tax before credits = $5,786.78. [rates](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf)
+## Deadlines and filing
 
-**Case 2: high-income couple with a capital gain, Howard County.** A married couple filing jointly lives in Howard County. FAGI is $400,000, which includes $100,000 of long-term net capital gain from selling listed shares in a taxable brokerage account. They itemized federally; their federal itemized deductions after removing state and local income taxes are $50,000. Phase-out reduction = 7.5% × (400,000 − 200,000) = $15,000, so Maryland itemized deductions are $35,000, larger than the $6,700 standard deduction. Exemptions are $0 (FAGI over $200,000). Taxable net income = 400,000 − 35,000 = 365,000. State tax = $15,072.50 + 5.75% × (365,000 − 300,000) = $18,810.00. Additional tax on net capital gain = 2% × 100,000 = $2,000. Local tax = 3.20% × 365,000 = $11,680.00. Total before credits = $32,490.00. [TB 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf)
-
-**Case 3: the $350,000 cliff.** A single filer has FAGI of exactly $350,000, including $120,000 of long-term gain on shares. No 2% additional tax is due. If one more dollar of interest pushes FAGI over $350,000, the additional tax is 2% × 120,000 = $2,400 on the whole gain. Plan timing of gains and deductions that reduce FAGI with this cliff in mind. [TB 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf)
-
-**Case 4: excluded home sale.** A married couple with FAGI over $350,000 sells their primary residence, a town house, for $1,400,000. The part of the gain that is taxable federally (after the federal home-sale exclusion) is in FAGI and Maryland AGI, and taxed at the regular Maryland and local rates. It is not subject to the 2% additional tax, because the home was their primary residence, is a listed dwelling type, and sold for less than $1,500,000. A second home or rental sold on the same terms would be subject to the 2%. [statute](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false)
-
-**Case 5: exemption phase-out.** A single filer with FAGI of $120,000 is allowed $1,600 per exemption, not $3,200. If they are 65 or over on 31 December, they also get the full $1,000 age exemption, which is not phased out. [§ 10-211](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-211&enactments=false)
-
-**Case 6: Anne Arundel brackets.** A single Anne Arundel County resident has taxable net income of $60,000. Local tax = $1,350 + 2.94% × (60,000 − 50,000) = $1,644.00. [booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
-
-## When to refuse or refer
-
-- Nonresidents with Maryland-source income file Form 505 and pay the special nonresident tax at 2.25% in place of a county rate; part-year residents need prorated exemptions and deductions. Refer both. [nonresident booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf)
-- Wage reciprocity: residents of DC, Pennsylvania or Virginia are exempt from Maryland tax on Maryland wages only if they did not maintain a place of abode in Maryland for more than six months (183 days or more) of the year; West Virginia residents are exempt on Maryland wages regardless of time spent in Maryland. A Pennsylvania resident with only Maryland wages need not file only if their Pennsylvania locality does not tax Maryland residents. Refer these cases. [nonresident booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf)
-- A PTE election (Form 510/511) or a member credit for PTE tax: refer. For 2025 the PTE rate on individual members' shares is 8.75%. [Tax Alert](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/alerts/tax-alert-changes-to-standard-and-itemized-deductions-and-to-state-and-local-income-tax-rates-from-the-2025-legislative-session.pdf)
-- Capital gains where it is unclear whether an asset falls in a surtax exclusion (mixed-use home, easement land, section 179 property, farm livestock): refer and read Technical Bulletin 58.
-- Decoupling adjustments on Form 500DM (bonus depreciation, research expensing, business interest), especially for 2026 where Maryland's conformity must be confirmed.
-- Business tax credits (Form 500CR), heritage structure, film, biotechnology and similar credits.
-- Spouses domiciled in different jurisdictions, military taxpayers, deceased taxpayers, fiscal-year filers and amended returns (Form 502X).
-- Any 2026 return filed before the Comptroller publishes the final indexed 2026 standard deduction and pension exclusion: do not guess; wait for the 2026 instructions.
-
-## Filing and payment steps with deadlines
 
 - Who must file: a Maryland resident who must file a federal return. File also if the only purpose is to claim a refund of Maryland withholding or a refundable credit. [Instruction 1](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
 - Due date: the 15th day of the fourth month after the tax year ends, that is 15 April 2027 for tax year 2026. If the date falls on a Saturday, Sunday or legal holiday, file by the next business day. [extension worksheet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf)
@@ -228,7 +201,8 @@ These are illustrations for tax year 2026 using the 2026 rates and, for the stan
 - Penalties and interest: the Comptroller may assess a penalty of up to 10% for failing to pay tax or file a return when due, plus interest. Refunds must be claimed within three years of the original due date. [Instruction 22](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
 - Attach W-2s and 1099s showing Maryland tax withheld, Form 502B for dependents, Form 502R for retirement income, Form 502CG for the capital gains tax, Form 502CR for credits and the other state's return for a credit for tax paid elsewhere. Do not send federal forms unless requested. File and pay online through the Comptroller's website where possible.
 
-## Tax year 2025 returns (filed in 2026, extended to 15 October 2026)
+### Tax year 2025 returns (filed in 2026, extended to 15 October 2026)
+
 
 - Same State brackets as 2026, including the new 6.25% and 6.50% top brackets. [booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
 - Local rates: use the 2025 column above (Allegany 3.03%, Kent 3.20%, Dorchester 3.30%). [Tax Alert](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/alerts/tax-alert-changes-to-standard-and-itemized-deductions-and-to-state-and-local-income-tax-rates-from-the-2025-legislative-session.pdf)
@@ -239,7 +213,8 @@ These are illustrations for tax year 2026 using the 2026 rates and, for the stan
 - Late payment of 2025 tax: interest at 10.8133% a year for months paid after 15 April 2026 and before 1 January 2027. [Instruction 22](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
 - A 2025 return on extension is due six months after the original due date, that is by 15 October 2026. The extension did not extend the time to pay.
 
-## Completion checklist
+### Completion checklist
+
 
 - [ ] Tax year confirmed; full-year residence and 31 December county confirmed.
 - [ ] Line 1 equals federal AGI; additions and subtractions supported (Form 500DM, 502SU, 502R as needed).
@@ -255,7 +230,82 @@ These are illustrations for tax year 2026 using the 2026 rates and, for the stan
 
 ---
 
+## Penalties and interest
+
+The Comptroller may assess a penalty of up to 10% for failing to pay tax or file a return when due, plus interest (10.8133% a year for 2025 balances paid between 15 April 2026 and 1 January 2027). Underpayment of 2025 estimated tax caused by the 2025 rate increases has interest waived. Refunds must be claimed within three years of the original due date. Details sit under "Deadlines and filing" and "Tax year 2025 returns" below.
+
+## Cross-border points
+
+Full-year residents are covered here; nonresidents and part-year filers (Form 505, the 2.25% Special Nonresident Tax, DC/PA/VA/WV reciprocity) are handled in the `md-cross-border` skill. Credit for tax paid to another state or locality goes on Form 502CR with the other state's return attached.
+
+### When to refuse or refer
+
+
+- Nonresidents with Maryland-source income file Form 505 and pay the special nonresident tax at 2.25% in place of a county rate; part-year residents need prorated exemptions and deductions. Refer both. [nonresident booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf)
+- Wage reciprocity: residents of DC, Pennsylvania or Virginia are exempt from Maryland tax on Maryland wages only if they did not maintain a place of abode in Maryland for more than six months (183 days or more) of the year; West Virginia residents are exempt on Maryland wages regardless of time spent in Maryland. A Pennsylvania resident with only Maryland wages need not file only if their Pennsylvania locality does not tax Maryland residents. Refer these cases. [nonresident booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf)
+- A PTE election (Form 510/511) or a member credit for PTE tax: refer. For 2025 the PTE rate on individual members' shares is 8.75%. [Tax Alert](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/alerts/tax-alert-changes-to-standard-and-itemized-deductions-and-to-state-and-local-income-tax-rates-from-the-2025-legislative-session.pdf)
+- Capital gains where it is unclear whether an asset falls in a surtax exclusion (mixed-use home, easement land, section 179 property, farm livestock): refer and read Technical Bulletin 58.
+- Decoupling adjustments on Form 500DM (bonus depreciation, research expensing, business interest), especially for 2026 where Maryland's conformity must be confirmed.
+- Business tax credits (Form 500CR), heritage structure, film, biotechnology and similar credits.
+- Spouses domiciled in different jurisdictions, military taxpayers, deceased taxpayers, fiscal-year filers and amended returns (Form 502X).
+- Any 2026 return filed before the Comptroller publishes the final indexed 2026 standard deduction and pension exclusion: do not guess; wait for the 2026 instructions.
+
+## Worked examples
+
+
+These are illustrations for tax year 2026 using the 2026 rates and, for the standard deduction, the $3,350 / $6,700 amounts in the Comptroller's 2026 estimated-tax worksheet. Replace the standard deduction with the final indexed 2026 amount when it is published. On an actual return below $100,000 of taxable income, take the State tax from the tax table. [2026 worksheet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf)
+
+**Case 1: ordinary single filer, Montgomery County.** A single sole proprietor, age 40, lives in Montgomery County all year. FAGI is $80,000; there are no additions, subtractions or dependents, and no capital gains. Standard deduction $3,350; one exemption of $3,200 (FAGI is not over $100,000). Taxable net income = 80,000 − 3,350 − 3,200 = 73,450. State tax = $90.00 + 4.75% × (73,450 − 3,000) = $3,436.38. Local tax = 3.20% × 73,450 = $2,350.40. Total Maryland and local tax before credits = $5,786.78. [rates](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf)
+
+**Case 2: high-income couple with a capital gain, Howard County.** A married couple filing jointly lives in Howard County. FAGI is $400,000, which includes $100,000 of long-term net capital gain from selling listed shares in a taxable brokerage account. They itemized federally; their federal itemized deductions after removing state and local income taxes are $50,000. Phase-out reduction = 7.5% × (400,000 − 200,000) = $15,000, so Maryland itemized deductions are $35,000, larger than the $6,700 standard deduction. Exemptions are $0 (FAGI over $200,000). Taxable net income = 400,000 − 35,000 = 365,000. State tax = $15,072.50 + 5.75% × (365,000 − 300,000) = $18,810.00. Additional tax on net capital gain = 2% × 100,000 = $2,000. Local tax = 3.20% × 365,000 = $11,680.00. Total before credits = $32,490.00. [TB 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf)
+
+**Case 3: the $350,000 cliff.** A single filer has FAGI of exactly $350,000, including $120,000 of long-term gain on shares. No 2% additional tax is due. If one more dollar of interest pushes FAGI over $350,000, the additional tax is 2% × 120,000 = $2,400 on the whole gain. Plan timing of gains and deductions that reduce FAGI with this cliff in mind. [TB 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf)
+
+**Case 4: excluded home sale.** A married couple with FAGI over $350,000 sells their primary residence, a town house, for $1,400,000. The part of the gain that is taxable federally (after the federal home-sale exclusion) is in FAGI and Maryland AGI, and taxed at the regular Maryland and local rates. It is not subject to the 2% additional tax, because the home was their primary residence, is a listed dwelling type, and sold for less than $1,500,000. A second home or rental sold on the same terms would be subject to the 2%. [statute](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false)
+
+**Case 5: exemption phase-out.** A single filer with FAGI of $120,000 is allowed $1,600 per exemption, not $3,200. If they are 65 or over on 31 December, they also get the full $1,000 age exemption, which is not phased out. [§ 10-211](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-211&enactments=false)
+
+**Case 6: Anne Arundel brackets.** A single Anne Arundel County resident has taxable net income of $60,000. Local tax = $1,350 + 2.94% × (60,000 − 50,000) = $1,644.00. [booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf)
+
+## Ask the client first
+
+
+- Which tax year is being filed? A 2025 return filed now uses the 2025 rules in the 2025 section below. A 2026 return or 2026 estimate uses the main tables.
+- Were they a Maryland resident all year? Residence means Maryland domicile, or a place of abode in Maryland for more than six months of the year together with physical presence of 183 days or more. Part-year and nonresident cases are referred.
+- Where did they live on 31 December (the last day of the tax year)? That address, and its four-digit political subdivision code, sets the local tax rate. A mid-year move inside Maryland does not split the local tax.
+- What is their federal filing status and federal adjusted gross income (FAGI)? Most Maryland thresholds test FAGI, not Maryland income.
+- Did they itemize on the federal return? A Maryland itemized deduction is allowed only if they itemized federally.
+- Do they have net capital gain, and is FAGI above $350,000? If so, list each gain by asset type to test the surtax exclusions (primary home, retirement accounts, section 179 property, and others). [Technical Bulletin 58](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf)
+- Ages and disability status on 31 December for taxpayer, spouse and dependents; any pension, 401(k), 403(b) or 457(b) income; Social Security received.
+- Business facts: Schedule C, E or K-1 income; any federal bonus depreciation, section 174A research expensing or section 163(j) interest changes; any pass-through entity (PTE) that paid Maryland PTE tax for them.
+- Maryland withholding (W-2, 1099), estimated payments made, and any 2025 overpayment applied to 2026.
+- Income taxed by another state or a locality (credit on Form 502CR), and where the other state is DC, Virginia, West Virginia or Pennsylvania.
+
+## Common mistakes
+- Forcing local tax into the state return or ignoring county credits.
+
+## Sources
+
+| Source | What it covers | Read on |
+|---|---|---|
+| Md. Code, Tax-General § 10-105 (rate schedules, 2% capital gains surtax) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false) | 2026-10-28 |
+| Md. Code, Tax-General § 10-106 (county income tax floor and cap) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false) | 2026-10-28 |
+| Md. Code, Tax-General § 10-301 (taxable-year and filing-base definitions) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-301&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-301&enactments=false) | 2026-10-28 |
+| Md. Code, Tax-General § 11-203 (credit for tax paid to other states) | [https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gti&section=11-203&enactments=false](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gti&section=11-203&enactments=false) | 2026-10-28 |
+| Comptroller of Maryland, 2025 resident booklet | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf) | not archived yet |
+| Comptroller of Maryland, 2026 estimated-tax (PV) worksheet | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf) | not archived yet |
+| Comptroller of Maryland, Technical Bulletin 58 (capital gains surtax) | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/technical-bulletins/tb-58.pdf) | not archived yet |
+| Comptroller of Maryland, Tax Alert on 2025 legislative changes | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/alerts/tax-alert-changes-to-standard-and-itemized-deductions-and-to-state-and-local-income-tax-rates-from-the-2025-legislative-session.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/legal-publications/alerts/tax-alert-changes-to-standard-and-itemized-deductions-and-to-state-and-local-income-tax-rates-from-the-2025-legislative-session.pdf) | not archived yet |
+| Comptroller of Maryland, 2025 nonresident booklet | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf) | not archived yet |
+| Comptroller of Maryland, 2026 employer withholding guide (PM-225) | [https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/withholding/2026/pm225.pdf](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/withholding/2026/pm225.pdf) | not archived yet |
+| Md. Code, Tax-General §§ 10-211, 10-217, 10-218 (exemptions, standard and itemized deductions) | statute text quoted in the sections above | not archived yet |
+
+Not yet confirmed: the final indexed 2026 standard deduction and pension-exclusion amounts (the Comptroller had not published the 2026 resident instructions when this skill was written), the 2026 final county-rate confirmations beyond the PV worksheet, and archived copies of the Comptroller booklets, worksheets, Tax Alert and Technical Bulletin 58 cited above (only the four mgaleg statute pages are archived so far).
+
+<!-- openaccountants-cta-block -->
+
 ## Talk to a verified accountant
+
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current

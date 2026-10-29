@@ -12,9 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MD Payroll
 
-## Maryland Payroll — Employer Compliance (Tax Year 2025)
-
-## 1. Scope
+## Who this applies to
 
 This skill covers Maryland-specific payroll obligations for employers paying Maryland-resident employees or employing nonresidents who perform services in Maryland during tax year 2025. The skill addresses:
 
@@ -33,7 +31,7 @@ OUT OF SCOPE: federal income tax withholding (see us-federal-payroll), federal F
 
 MUST be loaded alongside us-tax-workflow-base v0.2 or later. Maryland employers and Maryland-source wage income only.
 
-## 2. Maryland State Personal Income Tax Brackets (2025)
+## Rates, bands and thresholds
 
 Maryland imposes a graduated state income tax under Tax-General §10-105. The state brackets for tax year 2025 are:
 
@@ -67,11 +65,11 @@ Maryland imposes a graduated state income tax under Tax-General §10-105. The st
 | $225,000 | $300,000 | 5.50% |
 | $300,000 | — | 5.75% |
 
-## 2. Maryland State Personal Income Tax Brackets (2025)
+### Rates, bands and thresholds
 
 - **Employer withholding tables** — For employer withholding the Comptroller publishes the 2025 Employer Withholding Tables (Publication "Maryland Employer Withholding Guide" with revision date January 2025). The tables embed both the state rate and the county rate so that an employer applies a single combined withholding rate based on the employee's county of residence as declared on the MW507.  _(Maryland Comptroller, Employer Withholding Guide (revision January 2025))_
 
-## 3. County Tax Stacked on State (Local Income Tax)
+## The taxable base
 
 Maryland is unusual among US states in that the "local" income tax is administered through the state withholding system and is mandatory in every jurisdiction. Every Maryland resident pays a local tax to one of 24 counties or to Baltimore City, in addition to the state tax. The rate is set annually by each county council and certified to the Comptroller. The local tax piggybacks on the same taxable income base used for the state tax.
 
@@ -117,7 +115,7 @@ Maryland is unusual among US states in that the "local" income tax is administer
 
 > AUDIT FLASH POINT — wrong county selected. Each employee must certify their county of residence on Line 4 of MW507. An employer that defaults all employees to the employer's county (e.g., Baltimore City because that is where the office sits) when employees actually live in lower-rate counties (e.g., Worcester at 2.25%) overcollects from the employee; the inverse undercollects. The MW507 county code is the controlling document — keep the signed original in the employee file for at least 4 years.
 
-## 4. MW507 — Employee's Maryland Withholding Exemption Certificate
+### 4. MW507 — Employee's Maryland Withholding Exemption Certificate
 
 Form MW507 is the Maryland equivalent of the federal Form W-4. Every new hire must complete it on or before the first day of work. It captures:
 
@@ -136,7 +134,7 @@ The MW507 must be renewed every year if Line 3, Line 5, Line 6, Line 7, or Line 
 
 - **MW507M requirements** — Form MW507M implements the federal Military Spouses Residency Relief Act (MSRRA) as amended by the Veterans Auto and Education Improvement Act of 2022. A military spouse who is physically present in Maryland solely because of a service member's military orders, and who is a domiciliary of a state other than Maryland, may elect to be exempt from MD income tax withholding by filing MW507M annually with proof of: - the service member's current orders - the spouse's out-of-state driver's license or voter registration (proof of non-MD domicile) - a copy of the service member's most recent LES The 2022 federal amendment allows the spouse to choose the service member's state of legal residence even if the spouse never lived there. The employer keeps MW507M on file; the employee files no Maryland return.  _(50 U.S.C. §4001 (Servicemembers Civil Relief Act — MSRRA basis))_
 
-## 5. MW-506 — Employer's Quarterly Withholding Return
+## Deadlines and filing
 
 Employers report and remit withheld Maryland income tax on Form MW-506. The deposit/return frequency depends on the prior calendar year's withholding total under COMAR 03.04.01.04:
 
@@ -155,7 +153,7 @@ Employers report and remit withheld Maryland income tax on Form MW-506. The depo
 
 > AUDIT FLASH POINT — frequency change not noticed. The Comptroller recalculates each employer's deposit frequency every November based on the trailing four-quarter look-back. The new frequency takes effect January 1. An employer that crosses the $15,000 threshold and continues to file quarterly into the next year accrues underpayment penalties even if all tax is ultimately paid. Always check the November notice from the Comptroller and update the payroll calendar before January 1.
 
-## 6. Maryland SUI (State Unemployment Insurance)
+### 6. Maryland SUI (State Unemployment Insurance)
 
 Maryland Unemployment Insurance is administered by the Maryland Department of Labor, Division of Unemployment Insurance under L&E Title 8.
 
@@ -185,7 +183,10 @@ Quarterly wage reports (Form DLLR/DUI 15) and contribution reports (Form DLLR/DU
 - **Registration thresholds** — All employers with 1+ employee in 20+ weeks of a calendar year, or who paid $1,500+ in any calendar quarter, must register and file. Domestic employers are subject to a $1,000-per-quarter test. Agricultural employers have the $20,000-per-quarter or 10-employees-in-20-weeks test.  _(Md. Code Ann., Labor and Employment Title 8)_
 - **Electronic filing and penalties** — Electronic filing is mandatory through BEACON (the unified MD UI system that replaced the legacy MABS). Late filing penalty is $35 per report plus interest at 1.5% per month on unpaid contributions.  _(Maryland DOL DUI BEACON system)_
 
-## 7. Reciprocal Agreements (DC, PA, VA, WV)
+## Penalties and interest
+(see Common mistakes below; penalty figures not yet confirmed — see Sources.)
+
+## Cross-border points
 
 Maryland has bilateral wage-tax reciprocity with four neighboring jurisdictions. Under reciprocity an employee who is a resident of one state but works in the other pays income tax only to their state of residence; the employer of work withholds only for the employee's state of residence.
 
@@ -211,7 +212,7 @@ Maryland has bilateral wage-tax reciprocity with four neighboring jurisdictions.
 
 > AUDIT FLASH POINT — multi-state employee, multi-county allocation. An employee who lives in Howard County (3.20%), works two days a week in the DC office, two days a week in the Tysons Corner VA office, and one day a week remotely from a Pennsylvania family cottage requires very careful sourcing. The full wages are subject to MD state 5.75% + Howard 3.20% (because the employee is an MD resident); none of those wages are sourced to DC, VA, or PA (because of MD's reciprocal agreements with each). However, if the employee establishes a tax home outside MD or changes residence mid-year, the analysis flips. Keep contemporaneous time-and-location records for any employee who routinely works from more than one state.
 
-## 8. ABC Test for Worker Classification
+### 8. ABC Test for Worker Classification
 
 - **ABC test scope** — The Maryland Workplace Fraud Act (Md. Code Ann., L&E §3-901 through §3-920) imposes an ABC test for classifying workers in the construction services and landscaping industries. For unemployment insurance purposes statewide (under L&E §8-205), Maryland applies a similar but broader ABC test that resembles California's AB-5 framework.  _(Md. Code Ann., L&E §3-901 through §3-920; L&E §8-205)_
 - **Three-prong ABC test** — A worker is presumed to be an employee unless the putative employer can prove ALL THREE: - (A) the worker is free from control and direction of the hiring entity in connection with the performance of the work, both under the contract and in fact; - (B) the work is outside the usual course of the hiring entity's business OR the work is performed outside all of the hiring entity's places of business; AND - (C) the worker is customarily engaged in an independently established trade, occupation, profession, or business of the same nature as the work performed. Prongs A and C track the common-law right-to-control test and the IRS Section 530 safe harbor. Prong B is the strictest — it disqualifies most "core function" subcontractors. A software development firm that hires a "contractor" software developer to write code for the firm's product fails prong B because writing code IS the usual course of the firm's business. The worker is an employee under MD unemployment insurance rules regardless of contract language.  _(Md. Code Ann., L&E §3-901 through §3-920)_
@@ -223,7 +224,7 @@ Maryland has bilateral wage-tax reciprocity with four neighboring jurisdictions.
 
 > AUDIT FLASH POINT — ABC contractor misclassification. The Maryland DOL Joint Enforcement Task Force on Workplace Fraud cross-references 1099-NEC filings with UI wage records. A 1099-NEC issued by an MD employer to a worker who fails the ABC test triggers an audit with retroactive UI contributions, MD income tax withholding back-assessments (the employer is liable for the under-withheld tax under Tax-General §10-906), workers' compensation premiums, and the L&E §3-909 civil penalty. Never accept "they signed a contractor agreement" as a defense — the substantive ABC test is dispositive.
 
-## 9. Maryland Healthy Working Families Act (Sick & Safe Leave)
+### 9. Maryland Healthy Working Families Act (Sick & Safe Leave)
 
 - **Effective date and general requirement** — Effective February 11, 2018, the Maryland Healthy Working Families Act (L&E §3-1301 et seq.) requires employers to provide earned sick and safe leave.  _(Md. Code Ann., L&E §3-1301 et seq.)_
 
@@ -251,15 +252,15 @@ Maryland has bilateral wage-tax reciprocity with four neighboring jurisdictions.
 
 - **Sick leave payout at termination** — Maryland does NOT require payout of accrued unused sick and safe leave at termination, unlike vacation/PTO, which IS subject to payout under Md. Code Ann., L&E §3-505 if the employer's written policy treats vacation as wages.  _(Md. Code Ann., L&E §3-505)_
 
-## 10. Final Pay Rules
+### 10. Final Pay Rules
 
 - **Final pay timing and rules** — Md. Code Ann., L&E §3-505 requires that an employer pay all wages due to a separated employee "on or before the day on which the employee would have been paid the wages if the employment had not been terminated." In practice this is the next regular payday. - Voluntary quit: next regular payday. - Involuntary termination: next regular payday. - Accrued vacation/PTO: payable as wages IF the employer's written policy does not contain a forfeiture clause and IF the employer's practice treats it as earned wages. See Catapult Learning, LLC v. Comptroller (Md. App. 2011) for the leading case. - Accrued sick & safe leave: not payable on separation (statutory carve-out). Late payment of final wages can give rise to treble damages under L&E §3-507.2 if the failure to pay was not the result of a bona fide dispute.  _(Md. Code Ann., L&E §3-505, §3-507.2)_
 
-## 11. New Hire Reporting
+### 11. New Hire Reporting
 
 - **New hire reporting requirements** — Under Family Law §10-118 and Federal PRWORA, Maryland employers must report new hires (and rehires after a 60-day separation) to the Maryland State Directory of New Hires within 20 days of the hire date. - Reporting agency: Maryland State Directory of New Hires (administered by the Maryland Department of Human Services — DHS — Child Support Administration; historically referred to as DHR) - Information required: employee name, address, SSN, hire date, employer name, employer FEIN, employer address - Methods: online at MD-newhire.com, electronic file upload, magnetic media, or W-4 facsimile - Penalty: $20 per unreported new hire; $500 per conspiracy with employee to avoid reporting Multi-state employers may elect to report all new hires to a single state under 42 U.S.C. §653a — file the multistate election with the federal Office of Child Support Enforcement.  _(Family Law §10-118; 42 U.S.C. §653a)_
 
-## 12. Worked Examples
+## Worked examples
 
 ### Example A — Baltimore City Employer, Single MD-Resident Employee
 
@@ -334,7 +335,7 @@ Remediation: Charm City should reclassify Diego as a W-2 employee going forward,
 
 > AUDIT FLASH POINT — ABC misclassification cascades. Misclassification of a single worker almost never stays isolated. The MD DOL audit team will demand a list of all 1099-NEC payments and apply the ABC test to each. Companies routinely settle MD payroll audits for 5–15× the cost of the original under-withholding because of the layered penalties (UI + income tax + workers' comp + civil penalty + interest).
 
-## 13. Self-Checks Before Sign-Off
+### 13. Self-Checks Before Sign-Off
 
 Before delivering a Maryland payroll computation or compliance memo to a reviewer, confirm each of the following:
 
@@ -349,7 +350,18 @@ Before delivering a Maryland payroll computation or compliance memo to a reviewe
 9. For a new hire: has the report been transmitted to MD-newhire.com within 20 days?
 10. Is the Q4 2025 MW-508 + W-2 reconciliation calendar set for January 31, 2026?
 
-## 14. Citations
+## Ask the client first
+
+- **Refusals list** — This skill will NOT: - Provide federal income tax, FICA, or FUTA computations (refer to us-federal-payroll). - Compute Maryland income tax for the EMPLOYEE's Form 502 (refer to a future md-individual-income-tax skill). - Cover Maryland Paid Family and Medical Leave Insurance (FAMLI) premiums until the contribution schedule is finalized in regulation. - Cover Maryland household employer special rules. - Cover multi-state UI Localization-of-Work analyses where the employee works in 3+ states (refer to a credentialed cross-border payroll specialist). - Substitute for credentialed reviewer sign-off under Circular 230 or under Maryland Board of Individual Tax Preparers oversight.  _(Skill scope definition)_
+
+<!-- openaccountants-cta-block -->
+
+---
+
+## Common mistakes
+- Treating county tax as optional or remitting it to the state alone.
+
+## Sources
 
 - Md. Code Ann., Tax-General §10-103 through §10-106.1 (state and county income tax structure)
 - Md. Code Ann., Tax-General §10-901 through §10-913 (withholding)
@@ -365,14 +377,6 @@ Before delivering a Maryland payroll computation or compliance memo to a reviewe
 - Maryland Comptroller, Employer Withholding Guide (revision January 2025)
 - Maryland DOL DUI BEACON system, 2025 Contribution Rate Table C
 
-## 15. Refusals
-
-- **Refusals list** — This skill will NOT: - Provide federal income tax, FICA, or FUTA computations (refer to us-federal-payroll). - Compute Maryland income tax for the EMPLOYEE's Form 502 (refer to a future md-individual-income-tax skill). - Cover Maryland Paid Family and Medical Leave Insurance (FAMLI) premiums until the contribution schedule is finalized in regulation. - Cover Maryland household employer special rules. - Cover multi-state UI Localization-of-Work analyses where the employee works in 3+ states (refer to a credentialed cross-border payroll specialist). - Substitute for credentialed reviewer sign-off under Circular 230 or under Maryland Board of Individual Tax Preparers oversight.  _(Skill scope definition)_
-
-<!-- openaccountants-cta-block -->
-
----
-
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
@@ -386,3 +390,5 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Maryland Payroll — Employer Compliance (Tax Year 2025)

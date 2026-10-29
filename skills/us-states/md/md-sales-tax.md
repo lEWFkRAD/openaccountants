@@ -13,7 +13,10 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MD Sales Tax
 
-## Section 1 -- Quick reference
+## Who this applies to
+Maryland retail sales and use tax on tangible personal property and certain digital goods sold to Maryland consumers.
+
+## Rates, bands and thresholds
 
 **Quick reference**
 
@@ -30,7 +33,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | SST member | No |
 | Skill version | 2.0 |
 
-## Section 3 -- Transaction pattern library
+## The taxable base
 
 **Transaction pattern library**
 
@@ -50,17 +53,32 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Resale | EXEMPT |  |
 | Digital advertising (separate tax) | TAXABLE | Maryland Digital Advertising Gross Revenues Tax -- separate from sales tax |
 
-## Section 10 -- Prohibitions
+## Deadlines and filing
+Monthly/quarterly returns per Comptroller assignment (cadence not yet confirmed — see Sources).
+
+## Penalties and interest
+10% annual interest on underpayments plus penalties (figures not yet confirmed — see Sources).
+
+## Cross-border points
+Remote-sale economic nexus; interstate sourcing under the Marketplace Fairness framework (thresholds not yet confirmed).
+
+## Worked examples
+Worked example (all hypothetical): $1,000 sale in Baltimore City at 6% = $60.
+
+## Ask the client first
+Where is the buyer located? Is the item exempt? Are you registered for out-of-state nexus?
+
+## Common mistakes
 
 - **Prohibition on local taxes** — NEVER add local taxes -- Maryland has none.  _(unsure)_
 - **Prohibition on confusing Digital Advertising Tax with sales tax** — NEVER confuse the Digital Advertising Tax with sales tax -- they are separate.  _(unsure)_
 - **Prohibition on computing numbers** — NEVER compute any number.  _(unsure)_
 
-## Disclaimer
+### Disclaimer
 
 Informational only. Review by qualified professional required before filing.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
@@ -69,6 +87,14 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+| Source | URL | Read on |
+| --- | --- | --- |
+| Comptroller sales tax page | https://tax.maryland.gov/ | 2026-10-28 |
+
+
+Not yet confirmed: rate tables, nexus thresholds, penalty percentages — no machine-readable archive captured this run.
 
 ## Talk to a verified accountant
 
