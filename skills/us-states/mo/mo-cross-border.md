@@ -28,13 +28,15 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 How Missouri taxes people who cross its borders: individual part-year (Form **MO-1040P**) and nonresident (Form **MO-NRI**) filing, the **MO-CR** credit for taxes paid to other states, nonresident withholding, military-spouse relief, and the two **city earnings taxes** (Kansas City, St. Louis) that are Missouri's most common cross-border trap. Corporate cross-border sits in `mo-corporate-income-tax` / `mo-transfer-pricing`.
 
 **Source status:** figures corroborated by the existing tier-2 `mo-income-tax` and `mo-payroll` skills (verified against DOR Form 4282, KC Revenue Division and St. Louis Collector guidance in 2025). The **MO-1040PNR instructions PDF returned 403** from the drafting environment on 2026-10-27 — procedural specifics (thresholds, allocation worksheets) are flagged **not yet confirmed**. Missouri has **no reciprocal agreements** with any state (per `mo-payroll` scope analysis) — unlike Maryland, commuters pay Missouri tax on Missouri-worked wages.
 
-## Who this applies to
+
+### Who this applies to
+
 
 - **Nonresidents working in Missouri:** MO-NRI on Missouri-source income; withholding on the Missouri-work share via the MO W-4 nonresident allocation section (employee estimates the Missouri %; employer keeps timekeeping/project support). (per `mo-payroll` §5.4.)
 - **Part-year residents (moved in/out):** MO-1040P. (per `mo-income-tax` form table.)
@@ -55,6 +57,8 @@ How Missouri taxes people who cross its borders: individual part-year (Form **MO
 | STL City earnings tax | **1.0%** — city residents and city-limits work; STL County none | STL ch. 5.22 via `mo-payroll` |
 | Reciprocity | **none** — Missouri has no reciprocal agreements | `mo-payroll` scope analysis |
 
+## The taxable base
+Sourcing and base rules (workday sourcing, city-limit situs) are covered under "Cross-border points" below; no separate base section.
 ## Deadlines and filing
 
 - MO-1040P / MO-NRI follow the individual calendar: **15 April** for calendar-year filers.
@@ -75,7 +79,7 @@ How Missouri taxes people who cross its borders: individual part-year (Form **MO
 - **KC vs STL distinction matters:** STL County is not STL City; the 2025 state preemption of local sick-leave laws did not repeal the earnings taxes (per `mo-payroll`).
 - **Self-employed in KC/STL:** 1% on net self-employment earnings tied to the city; separate filing required (per `mo-income-tax` MO-T2-05).
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — Illinois resident working 3 of 5 days in St. Louis County (not city).** Wages $150,000; Missouri-source share by workdays; no KC/STL city work.
 
@@ -132,5 +136,8 @@ Both cities assert a claim — KC on residency, STL on situs of work. Whether on
 
 Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
 
-<!-- openaccountants-cta-block -->
+## Talk to a verified accountant
+
 **Talk to a verified accountant** — for Missouri commuter and city earnings-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+<!-- openaccountants-cta-block -->

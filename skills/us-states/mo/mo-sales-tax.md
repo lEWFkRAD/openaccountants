@@ -13,7 +13,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MO Sales Tax
 
-## Section 1 -- Quick reference
+## Who this applies to
 
 **Section 1 -- Quick reference**
 
@@ -30,7 +30,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | SST member | No |
 | Skill version | 2.0 |
 
-## Section 3 -- Transaction pattern library
+## Rates, bands and thresholds
+Rate figures are in the quick-reference table under "Who this applies to" above; no separate rates section.
+## The taxable base
 
 **Section 3 -- Transaction pattern library**
 
@@ -47,7 +49,15 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Prescription drugs | EXEMPT |  |
 | Resale | EXEMPT |  |
 
-## Section 10 -- Prohibitions
+## Deadlines and filing
+Filing cadence and due dates are not yet confirmed — see the Not-yet-confirmed line under Sources.
+## Penalties and interest
+Penalty and interest rules are not yet confirmed — see the Not-yet-confirmed line under Sources.
+## Cross-border points
+No Missouri-specific cross-border sales-tax points are confirmed in this skill yet.
+## Worked examples
+No worked examples — this skill states figures only and never computes.
+## Ask the client first
 
 - **Grocery food exemption prohibition** — NEVER say grocery food is exempt -- Missouri taxes it at reduced 1.225% state rate plus full local.  _(Section 10 -- Prohibitions)_
 - **SaaS taxability prohibition** — NEVER treat SaaS as taxable in Missouri.  _(Section 10 -- Prohibitions)_
@@ -60,11 +70,15 @@ No archived primary source has been retrieved for the figures in this skill yet 
 
 Not yet confirmed: the figures above — they stay unconfirmed until the primary source (RSMo 144 / MODOR guidance) is archived.
 
-## Disclaimer
+
+### Disclaimer
+
 
 Informational only. Review by qualified professional required before filing.
 
-## Disclaimer
+
+### Disclaimer
+
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 

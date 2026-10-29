@@ -29,13 +29,15 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, base modifications, apportionment via Form MO-MS, consolidated-return options, estimated tax (MO-1120ES), extensions, penalties, interest, and the dissolution trap. Out of scope: personal income tax (`mo-income-tax`), payroll/withholding and UI (`mo-payroll`), sales/use (`mo-sales-tax`), S corporations (Form 1120-S pass-through level), local earnings taxes (see `mo-cross-border`).
 
 **Source status:** the Department of Revenue **2025 Form MO-1120 instructions** (76,812 chars) and **2026 Form MO-1120ES** (10,406 chars) were fetched as PDFs and read in full on 2026-10-27 — every figure below is quoted from them. The MO-470 instructions PDF and the related-party addback page returned 403/404 from the drafting environment; anything tied to those is flagged **not yet confirmed**.
 
-## Who this applies to
+
+### Who this applies to
+
 
 - Every corporation required to file a federal Form 1120 with Missouri-source/apportionable Missouri income, unless protected by **P.L. 86-272** (solicitation of orders for tangible personal property). The return has a P.L. 86-272 checkbox; **Form 4458** (Business Activity Questionnaire) documents the claim. (MO-1120 instructions, read 2026-10-27.)
 - **Consolidated federal group, separate Missouri return:** a member of an affiliated group filing a consolidated federal return must determine federal taxable income **as if it had filed a separate federal return**, enclosing a **pro forma Federal Form 1120** — unless the group files a Missouri consolidated return. (MO-1120 instructions, "Consolidated Federal Return and Separate Missouri Return", read 2026-10-27.)
@@ -53,6 +55,8 @@ Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, b
 | Related-party/intangible addback (§143.471, Form MO-470) | **not yet confirmed** — MO-470 instructions 403'd on 2026-10-27 and the addback page 404'd; not referenced in the 2025 MO-1120 instructions text read | fetch log 2026-10-27 |
 | Minimum tax | none found in the instructions read | booklet read 2026-10-27; absence noted |
 
+## The taxable base
+Base construction (federal taxable income plus/minus modifications, apportionment via MO-MS) is in the table under "Rates, bands and thresholds" below; no separate base section.
 ## Deadlines and filing
 
 - **Return:** due the **15th day of the 4th month** after year-end (calendar-year 2025 → **15 April 2026**). Weekend/holiday rolls to next business day. (Instructions, read 2026-10-27.)
@@ -75,7 +79,7 @@ Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, b
 - P.L. 86-272 claim: check the box and attach Form 4458.
 - Nonresident individuals: MO-1040P / part-year and nonresident returns plus MO-CR credit — see `mo-cross-border`.
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — Missouri-only C corporation.** Federal taxable income $1,000,000, no modifications, 100% Missouri sources.
 
@@ -144,5 +148,8 @@ expected:
 
 Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
 
-<!-- openaccountants-cta-block -->
+## Talk to a verified accountant
+
 **Talk to a verified accountant** — for Missouri corporate questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+<!-- openaccountants-cta-block -->

@@ -13,13 +13,15 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MO Income Tax
 
-## Missouri Individual Income Tax Skill — Self-Employed / Sole Proprietor
+## Who this applies to
 
 > **Scope.** This skill covers Missouri Form MO-1040 for full-year Missouri residents who are sole proprietors or single-member LLC owners. Missouri uses an eight-bracket graduated income tax with rates from 0% to 4.7% (TY 2025–2026). Same brackets apply to all filing statuses.
 >
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Missouri Department of Revenue publications. A qualified professional must review before filing.
 
-## Section 1: Metadata
+
+### Section 1: Metadata
+
 
 **Section 1 Metadata**
 
@@ -35,20 +37,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Last updated | 2026-05-22 |
 | Validation | AI-drafted — Q3 |
 
-## Sources
-
-**Sources consulted**
-
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | Missouri DOR — Individual Income Tax Year Changes | https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/ |
-| 2 | RSMo § 143.011 (tax rate) | https://revisor.mo.gov/main/OneSection.aspx?section=143.011 |
-| 3 | Missouri Form MO-1040 Instructions | https://dor.mo.gov/taxation/individual/tax-types/income/forms/ |
-| 4 | RSMo § 143.121 (Missouri adjusted gross income) | https://revisor.mo.gov/main/OneSection.aspx?section=143.121 |
-
-Not yet confirmed: the sources above are listed but none has been archived with a retrieval date — figures tied to them stay unconfirmed until the source is archived.
-
-## Section 2: Quick reference — rates and thresholds
+## Rates, bands and thresholds
 
 ### Tax rates — TY 2025 / 2026 (all filing statuses)
 
@@ -100,7 +89,7 @@ Missouri does NOT have a separate personal exemption. The standard deduction is 
 | Kansas City | 1.0% | On earned income; separate return |
 | St. Louis | 1.0% | On earned income; separate return |
 
-## Section 3: How this skill works with the federal return
+## The taxable base
 
 - **Missouri AGI starting point** — Missouri adjusted gross income begins with federal adjusted gross income (AGI) from federal Form 1040, Line 11, then applies Missouri-specific modifications.
 - **Additions (Form MO-A)** — Add back items Missouri does not exclude (e.g., interest on non-Missouri state/municipal bonds).
@@ -111,7 +100,7 @@ Missouri does NOT have a separate personal exemption. The standard deduction is 
 - **Tax** — Apply the eight graduated brackets.
 - **Credits** — Apply applicable credits.
 
-## Section 4: Self-employed specific rules
+## Deadlines and filing
 
 - **Self-employment income flow** — Self-employment income flows through federal Schedule C → federal AGI → Missouri AGI. No separate Missouri schedule for self-employment income.
 - **Federal SE tax deduction** — Reflected in federal AGI; carries through to Missouri automatically.
@@ -121,7 +110,7 @@ Missouri does NOT have a separate personal exemption. The standard deduction is 
 - **Health insurance deduction** — Self-employed health insurance deduction is in federal AGI. No Missouri add-back.
 - **City earnings tax** — If located in Kansas City or St. Louis, self-employment earnings are subject to the 1% city earnings tax (separate filing required).
 
-## Section 5: Tier 1 rules — deterministic
+## Penalties and interest
 
 **Tier 1 rules — deterministic**
 
@@ -138,7 +127,7 @@ Missouri does NOT have a separate personal exemption. The standard deduction is 
 | MO-T1-09 | Missouri Property Tax Credit: refundable credit for seniors/disabled (Form MO-PTC) | RSMo § 135.010 |
 | MO-T1-10 | Missouri Earned Income Credit: percentage of federal EIC (non-refundable) | RSMo § 143.174 |
 
-## Section 6: Tier 2 rules — requires judgment
+## Cross-border points
 
 **Tier 2 rules — requires judgment**
 
@@ -151,7 +140,7 @@ Missouri does NOT have a separate personal exemption. The standard deduction is 
 | MO-T2-05 | **Kansas City / St. Louis earnings tax** — Self-employed persons with business activity in these cities must file separately. | Flag if taxpayer operates in KC or STL. |
 | MO-T2-06 | **Standard vs. itemized deduction** — Missouri allows either; if itemizing, Missouri generally conforms to federal Schedule A with modifications. | Compare both methods; Missouri itemized deductions may differ from federal. |
 
-## Section 7: Supplier pattern library
+## Worked examples
 
 **Supplier pattern library**
 
@@ -167,7 +156,9 @@ Missouri does NOT have a separate personal exemption. The standard deduction is 
 | 1099-NEC freelance income | Flows through Schedule C → federal AGI | Estimated payments likely needed |
 | Federal income tax paid | Deductible up to $5,000 (single) / $10,000 (MFJ) | RSMo § 143.171 |
 
-## Section 8: Form mapping
+
+### Section 8: Form mapping
+
 
 **Form mapping**
 
@@ -182,7 +173,7 @@ Missouri does NOT have a separate personal exemption. The standard deduction is 
 | Form MO-NRI | Non-Resident Return | N/A |
 | Schedule MO-SI | Self-Employed Tax Credit Schedule | N/A |
 
-## Section 9: Refusal catalogue
+## Ask the client first
 
 **Refusal catalogue**
 
@@ -196,13 +187,28 @@ Missouri does NOT have a separate personal exemption. The standard deduction is 
 | MO-R-06 | Tax year other than current | Refuse — rates and thresholds may differ |
 | MO-R-07 | Partnership / S-corp returns (MO-1065 / MO-1120S) | Refuse — out of scope |
 
-## Disclaimer
+
+### Disclaimer
+
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+**Sources consulted**
+
+| # | Source | URL |
+| --- | --- | --- |
+| 1 | Missouri DOR — Individual Income Tax Year Changes | https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/ |
+| 2 | RSMo § 143.011 (tax rate) | https://revisor.mo.gov/main/OneSection.aspx?section=143.011 |
+| 3 | Missouri Form MO-1040 Instructions | https://dor.mo.gov/taxation/individual/tax-types/income/forms/ |
+| 4 | RSMo § 143.121 (Missouri adjusted gross income) | https://revisor.mo.gov/main/OneSection.aspx?section=143.121 |
+
+Not yet confirmed: the sources above are listed but none has been archived with a retrieval date — figures tied to them stay unconfirmed until the source is archived.
 
 ## Talk to a verified accountant
 

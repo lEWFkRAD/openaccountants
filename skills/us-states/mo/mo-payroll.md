@@ -12,9 +12,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MO Payroll
 
-## Missouri Payroll Skill — Tax Year 2025
+## Who this applies to
 
-## 1. Scope
+
+### 1. Scope
+
 
 This skill covers employer payroll compliance obligations in the State of Missouri for tax year 2025. The audience is OpenAccountants reviewers (CPA, EA, or attorney credentialed under Circular 230 for federal touchpoints, and a Missouri-licensed practitioner for state matters) preparing or reviewing payroll returns for a small or mid-sized employer with at least one Missouri-resident employee or one employee performing services in Missouri.
 
@@ -55,7 +57,7 @@ Worked examples for three common employer profiles: a Kansas City employer with 
 - **Fourth-quarter MODES-4-7 due date** — January 31, 2026
 - **W-2 and 1099 transmittal to MO DOR due date** — January 31, 2026  _(§143.591 RSMo)_
 
-## 2. Missouri PIT Withholding Brackets and Rate Phasing
+## Rates, bands and thresholds
 
 ### 2.1 2025 brackets
 
@@ -108,7 +110,7 @@ The Missouri Department of Revenue typically announces in late summer or early a
 - **Federal income tax paid deduction** — Missouri historically allowed a deduction for federal income tax paid, subject to a cap, on the MO-1040; for tax year 2025, still allowed but phased out for higher-income taxpayers  _(§143.171 RSMo)_
 - **Withholding formula exclusion** — The MO withholding formula does NOT incorporate this deduction at the withholding stage — withholding is computed on gross wages less the MO standard deduction and the MO W-4 allowance amounts. The federal income tax deduction is taken at year-end on the employee's MO-1040 and may result in a refund. Reviewers should not attempt to build the federal tax deduction into the per-payroll withholding computation.
 
-## 3. Form MO-941 — Employer's Return of Income Taxes Withheld
+## The taxable base
 
 ### 3.1 Filing cadence
 
@@ -152,7 +154,9 @@ The Missouri Department of Revenue typically announces in late summer or early a
 - **Late filing with no tax due** — A fixed $25 per return penalty  _(§143.751 RSMo and §143.741 RSMo)_
 - **Reasonable cause abatement** — Available but requires a written request  _(§143.741.4 RSMo)_
 
-## 4. Form MO-W-3 — Annual Reconciliation
+
+### 4. Form MO-W-3 — Annual Reconciliation
+
 
 Form MO-W-3 is the annual transmittal that reconciles total wages and Missouri tax withheld during the calendar year against the sum of MO-941 returns filed and the W-2s issued. Form MO-W-3 must be filed by January 31 of the year following the wage payment year, together with Copy 1 of each W-2 issued (or the equivalent electronic submission via MyTax Missouri or EFW2 format).
 
@@ -161,7 +165,9 @@ Form MO-W-3 is the annual transmittal that reconciles total wages and Missouri t
 
 A separate transmittal applies to 1099-MISC and 1099-NEC information returns reporting Missouri-source non-wage payments — Form MO-99 Misc. is the Missouri analog, but most employers transmit 1099-NECs via the federal Combined Federal/State Filing (CF/SF) program for Missouri without filing a separate state copy. Confirm current-year mechanics.
 
-## 5. Form MO W-4 — Missouri Employee's Withholding Certificate
+
+### 5. Form MO W-4 — Missouri Employee's Withholding Certificate
+
 
 ### 5.1 When required
 
@@ -184,7 +190,9 @@ A separate transmittal applies to 1099-MISC and 1099-NEC information returns rep
 
 - **No reciprocity agreements** — Missouri has no reciprocity agreements with other states. A resident of Illinois, Kansas, Kentucky, or any other state who performs services in Missouri is subject to MO withholding on the Missouri-source portion of wages. Conversely, a Missouri resident performing services in another state may be subject to that state's withholding, and the Missouri employer should monitor whether to withhold for both jurisdictions (typically: withhold for the work state and let the employee claim a Missouri credit on the MO-1040). The cross-border analysis is out of scope for this skill — see _cross-border/us-multi-state-payroll.
 
-## 6. Missouri Unemployment Insurance (MO UI)
+
+### 6. Missouri Unemployment Insurance (MO UI)
+
 
 ### 6.1 Wage base and rates for 2025
 
@@ -218,7 +226,9 @@ A separate transmittal applies to 1099-MISC and 1099-NEC information returns rep
 - **Late payment interest** — Interest at 1% per month or fraction thereof  _(§288.160 RSMo)_
 - **Misclassification penalty** — Back contributions, interest, and a 25% penalty for willful misclassification  _(§288.160.4 RSMo)_
 
-## 7. Kansas City Earnings Tax — The 1% E-Tax
+
+### 7. Kansas City Earnings Tax — The 1% E-Tax
+
 
 ### 7.1 Overview
 
@@ -258,7 +268,9 @@ The most common KC E-Tax employer compliance failure is failing to withhold on n
 3. For hybrid employees splitting time between KC and a non-KC location, verify the allocation methodology is documented (typically a percentage of days, supported by timekeeping).
 4. For remote-only employees who are KC residents but perform all work outside KC at home in another jurisdiction, confirm that the employer is NOT withholding (the resident pays via RD-109 directly) — many employers over-withhold here because their payroll software keys off the employee's residence rather than work location, leading to refund claims that the employee may miss.
 
-## 8. St. Louis City Earnings Tax — The 1% E-Tax
+
+### 8. St. Louis City Earnings Tax — The 1% E-Tax
+
 
 ### 8.1 Overview
 
@@ -293,7 +305,9 @@ Same pattern as KC: a non-resident commuting daily to a City of St. Louis workpl
 
 - **St. Louis Paid Sick Time Ordinance 71926** — The City of St. Louis enacted Ordinance 71926 (Paid Sick Time Ordinance, effective May 1, 2025) requiring employers with employees working within the city to provide paid sick leave: 1 hour per 30 hours worked, capped at 40 or 56 hours per year depending on employer size. This city ordinance was NOT preempted by the state-level repeal of Proposition A's paid sick leave provisions (HB 567 (2025), signed July 10, 2025, repealing the statewide Prop A sick leave with effect August 28, 2025) — the St. Louis ordinance is a separate municipal enactment under home-rule authority. Reviewers preparing payroll for employers with St. Louis City work locations must continue to track accrual, carryover, and notice obligations under Ordinance 71926. See Section 10.3 for the broader paid sick leave landscape.  _(Ordinance 71926; HB 567 (2025))_
 
-## 9. Worker Classification — The 20-Factor Test
+
+### 9. Worker Classification — The 20-Factor Test
+
 
 ### 9.1 Why classification matters
 
@@ -319,7 +333,9 @@ Same pattern as KC: a non-resident commuting daily to a City of St. Louis workpl
 
 - **Section 530 relief limitation** — The Revenue Act of 1978 §530 (codified at 26 U.S.C. §3401 note) provides federal employment-tax relief for employers who consistently treated workers as non-employees with reasonable basis. Section 530 relief does not bind the Missouri DES or Department of Revenue. A federal Section 530 win does not protect against MO UI or MO withholding reclassification. This is a frequent and expensive surprise for employers who relied on a federal audit outcome.  _(Revenue Act of 1978 §530; 26 U.S.C. §3401 note)_
 
-## 10. Other Missouri Payroll Obligations
+
+### 10. Other Missouri Payroll Obligations
+
 
 ### 10.1 New hire reporting
 
@@ -357,7 +373,13 @@ Same pattern as KC: a non-resident commuting daily to a City of St. Louis workpl
 
 - **Wage statement requirement** — Employers must provide each employee with a statement of hours worked, wages earned, and deductions taken at each pay date. Electronic pay stubs are acceptable under Missouri Department of Labor and Industrial Relations interpretation, provided the employee can access and print the statement.  _(§290.080 RSMo)_
 
-## 11. Worked Examples
+## Deadlines and filing
+Filing cadence, due dates, and lookback/frequency rules are in the MO-941 subsections (filing cadence, due dates, lookback, e-filing) and the MO-W-3 / MO W-4 / MO UI / KC / STL subsections folded under "The taxable base" above.
+## Penalties and interest
+Penalty and interest rules are in the failure-to-file / failure-to-pay / negligence / fraud bullets under "The taxable base" above, plus the misclassification-exposure bullets in the worker-classification subsection folded there.
+## Cross-border points
+Multi-state nexus questions are out of scope (referral under "Ask the client first" below); KC/STL earnings-tax sourcing for remote and commuter workers is covered in the KC and STL subsections folded under "The taxable base" above.
+## Worked examples
 
 ### 11.1 Example A — Kansas City employer with a non-KC-resident employee
 
@@ -474,7 +496,7 @@ Heartland's average monthly MO withholding is approximately $370 — placing it 
 | Local earnings tax | None |
 | MO-W-3 due | January 31, 2026 |
 
-## 12. Reviewer Self-Checks
+## Ask the client first
 
 Before signoff on a Missouri payroll engagement, the reviewer must confirm:
 
@@ -493,7 +515,9 @@ Before signoff on a Missouri payroll engagement, the reviewer must confirm:
 13. ☐ St. Louis Paid Sick Time Ordinance 71926 compliance confirmed for City-of-St-Louis-work-location employees.
 14. ☐ Statewide paid sick leave repealed (HB 567, effective August 28, 2025) — confirm employer policy updated; document treatment of accrued Prop A leave between May 1 and August 28, 2025.
 
-## 13. Refusals
+
+### 13. Refusals
+
 
 - **R-MO-1** — Employer asks to classify a worker as a 1099 contractor where the 20-factor analysis indicates employee status, in order to avoid MO UI or MO withholding. Refuse — refer to MO DES SS-8 equivalent process.
 - **R-MO-2** — Employer asks to skip KC or St. Louis E-Tax withholding on non-resident commuters because "the employee doesn't live in the city." Refuse — withholding is required on KC and St. Louis work-location wages regardless of residence.
@@ -539,7 +563,9 @@ Before signoff on a Missouri payroll engagement, the reviewer must confirm:
 
 Not yet confirmed: the citations above are listed but none has been archived with a retrieval date — figures tied to them stay unconfirmed until the source is archived.
 
-## End of mo-payroll.md verification note
+
+### End of mo-payroll.md verification note
+
 
 *End of mo-payroll.md. Verified against Missouri Department of Revenue Form 4282 (2025), MO Division of Employment Security 2025 contribution rate notice, Kansas City Revenue Division 2025 employer guidance, and City of St. Louis Collector of Revenue Earnings Tax Division 2025 employer guidance.*
 

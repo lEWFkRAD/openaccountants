@@ -28,7 +28,7 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Missouri has **no standalone transfer-pricing documentation statute** — no state §482 analogue with its own penalty. Related-party pricing shapes Missouri outcomes through five verified levers in the 2025 MO-1120 instructions plus one addback regime whose source page was blocked this run:
 
@@ -39,7 +39,9 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 5. **Dividends deduction mechanics on Form MO-C** keyed to the apportionment factor. (Instructions, read 2026-10-27.)
 6. **Related-party expense / intangible addback (§143.471 RSMo, Form MO-470):** Missouri operates this regime, but the MO-470 instructions PDF returned **403** and the DOR addback page **404** from the drafting environment on 2026-10-27 — the addback's current scope, thresholds and exceptions are **not yet confirmed**; do not compute an MO-470 position from this skill alone.
 
-## Who this applies to
+
+### Who this applies to
+
 
 - Corporations filing MO-1120 with intercompany royalties, management fees, rent, interest, or service charges crossing state lines.
 - Federally consolidated groups: each member's separate-Missouri posture makes every intercompany price a Missouri-base question.
@@ -56,6 +58,8 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 | Combined reporting | none — Missouri uses separate returns or full consolidation, no unitary combined return | Instructions, read 2026-10-27 |
 | TP documentation requirement | none at state level | absence verified in instructions read |
 
+## The taxable base
+Base levers (pro forma rule, MO-22 consolidation, MO-MS elections, §163(j) addback, MO-C, MO-470) are listed under "Who this applies to" above; no separate base section.
 ## Deadlines and filing
 
 - No state TP documentation deadline.
@@ -74,7 +78,7 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 - No water's-edge election exists (no combined return at all).
 - Another state's minimum tax does not by itself make the taxpayer "taxable" there — matters for MO-CR credit-for-taxes-paid claims. (Instructions, read 2026-10-27.)
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — intercompany royalty, separate-Missouri posture.** Member A (Missouri apportionment 40%) pays a $500,000 royalty to related Member B (no Missouri nexus). Royalty deducted pre-apportionment on A's separate-Missouri pro forma.
 
@@ -126,5 +130,8 @@ expected:
 
 Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
 
-<!-- openaccountants-cta-block -->
+## Talk to a verified accountant
+
 **Talk to a verified accountant** — for Missouri related-party and consolidation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+<!-- openaccountants-cta-block -->

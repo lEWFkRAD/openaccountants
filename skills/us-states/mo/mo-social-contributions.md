@@ -27,13 +27,15 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 Missouri imposes **no state-level employee social-insurance contribution** — old-age, survivors, disability and hospital insurance are federal only (see `skills/federal/`), and Missouri has no state paid-leave or state disability program. The entire state-layer social contribution is the **employer-only unemployment insurance (MO UI)** tax under Chapter 288 RSMo, administered by the Division of Employment Security (DES). Withholding mechanics live in `mo-payroll`; this skill isolates the contribution program.
 
 **Source status:** all figures below are corroborated by the existing tier-2 `mo-payroll` skill, which was verified against the DES 2025 contribution-rate notice. The DES 2026 rate pages returned 404 from the drafting environment on 2026-10-27 — the **CY2026 wage base and rate schedule are not yet confirmed**; treat the 2025 numbers as the latest verified and re-check the DES notice before running 2026 payroll.
 
-## Who this applies to
+
+### Who this applies to
+
 
 An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in wages in any calendar quarter, **or** employed at least one worker for some portion of a day in 20 different calendar weeks in the current or preceding year. (§288.034 RSMo, per `mo-payroll`.) New employers default to **monthly** remittance until the first lookback completes; filing frequency cannot be changed unilaterally. (per `mo-payroll`.)
 
@@ -48,6 +50,8 @@ An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in
 | Wage-base history | $11,500 (2014–2018) → $11,000 (2019) → stepped down to $9,500 under HB 1409 (2018), tied to trust-fund balance | HB 1409 via `mo-payroll` |
 | Employee-side contribution | **none** — MO UI is employer-funded | `mo-payroll` |
 
+## The taxable base
+The UI taxable wage base is the first row of the table under "Rates, bands and thresholds" below; no separate base section.
 ## Deadlines and filing
 
 - **Quarterly contribution and wage reports: Form MODES-4-7** (monthly filers remit monthly; new employers default monthly until the first lookback). (§288 via `mo-payroll`.)
@@ -65,7 +69,7 @@ An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in
 - Kansas City and St. Louis **local earnings taxes** (1%, both residents and nonresident commuters) are income taxes, not social contributions — see `mo-payroll` and `mo-cross-border`.
 - Remote workers: an employee working entirely outside Missouri generally leaves the MO UI base; document work locations.
 
-## 7. Worked examples
+## Worked examples
 
 **Example 1 — three employees, established employer.** Cottonwood Co. (3-year employer, 2.0% experience rate) pays three Missouri employees $60,000 each in 2026.
 
@@ -114,5 +118,8 @@ expected:
 
 Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived.
 
-<!-- openaccountants-cta-block -->
+## Talk to a verified accountant
+
 **Talk to a verified accountant** — for Missouri UI and payroll-structure questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+<!-- openaccountants-cta-block -->
