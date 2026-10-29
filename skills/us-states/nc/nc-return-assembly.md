@@ -3,7 +3,8 @@ name: nc-return-assembly
 description: "Final capstone orchestrator that assembles the complete federal + North Carolina filing package for a full-year North Carolina-resident sole proprietor or single-member LLC disregarded for federal tax. Consumes outputs from every upstream federal and North Carolina content skill (bookkeeping, Schedule C/SE, QBI, retirement, SE health insurance, quarterly estimated tax, federal assembly, 1099-NEC, nc-income-tax, nc-estimated-tax, nc-bailey-settlement-retirement where applicable, and nc-sales-tax for closing out the indirect-tax year) to produce a single unified reviewer package: every worksheet, every form, every cross-skill reconciliation, the final taxpayer action list with payment and filing instructions, the next-year NC-40 voucher schedule, and the reviewer brief. This skill does NOT recompute tax — it ORCHESTRATES. Trigger on phrases like \"assemble the North Carolina return\", \"final NC package\", \"D-400 reviewer package\", \"NC return assembly\", or \"package up the Carolina return\". MUST be loaded alongside us-tax-workflow-base v0.2 or later and every content skill listed in Section 5. North Carolina full-year residents only. Sole proprietors and single-member LLCs disregarded for federal tax only."
 jurisdiction: US-NC
 tax_year: 2025
-last_updated: 2026-07-13
+version: "0.2"
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -125,7 +126,7 @@ Execute in order:
 
 1. `nc-income-tax` — D-400, D-400 Schedule S, D-400 Schedule A (if itemizing), D-400TC (if claiming credits). Produces NC taxable income, NC tax at 4.25%, credits, refund or balance due.
 2. `nc-bailey-settlement-retirement` — Schedule S Part B Bailey subtraction, if any taxpayer or spouse has a qualifying pre-August-12-1989-vested federal, NC state, or NC local government pension or IRC §401(k) / §457 plan. Skip if N/A but record the skip.
-3. `nc-estimated-tax` — Produces a 4-payment NC-40 voucher schedule for 2026 if expected NC liability after withholding exceeds the NC threshold. (`[VERIFY:]` NC threshold for required estimates — NCDOR typically uses $1,000 expected tax due similar to federal.) Also computes any current-year NC underpayment interest exposure on Form D-422.
+3. `nc-estimated-tax` — Produces a 4-payment NC-40 voucher schedule for 2026 if expected NC liability after withholding exceeds the NC threshold. (VERIFIED: NCDOR NC-40 Instructions, archived: "You should make estimated income tax payments if the tax due on your individual tax return, reduced by the amount of tax withheld and tax credits, will be $1,000 or more.") Also computes any current-year NC underpayment interest exposure on Form D-422.
 
 If any required skill failed or its self-check failed, refuse with **R-NC-FINAL-1** or **R-NC-FINAL-2**.
 
@@ -230,8 +231,8 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | N-4 | D-400 Line 8 = Line 6 + Line 7 (federal AGI + additions) | nc-income-tax |
 | N-5 | D-400 Line 10 = Line 8 − Line 9 (after additions and subtractions) | nc-income-tax |
 | N-6 | D-400 Line 11 = NC standard deduction OR NC itemized (Schedule A) total — whichever taxpayer elected | nc-income-tax |
-| N-7 | NC standard deduction TY 2025: $25,500 MFJ/QSS, $19,125 HoH, $12,750 Single, $12,750 MFS `[VERIFY:]` | nc-income-tax |
-| N-8 | D-400 Line 10b NC child deduction: up to $3,000 per qualifying child, with AGI-based tiered phase-out per N.C.G.S. §105-153.5(a1) `[VERIFY:]` 2025 tier table | nc-income-tax |
+| N-7 | NC standard deduction TY 2025: $25,500 MFJ/QSS, $19,125 HoH, $12,750 Single, $12,750 MFS (VERIFIED vs NCDOR 2025 D-401 Instructions NC Standard Deduction Chart, archived; MFS = $0 if spouse itemizes) | nc-income-tax |
+| N-8 | D-400 Line 10b NC child deduction: up to $3,000 per qualifying child, AGI-tiered phase-out per N.C.G.S. §105-153.5(a1); 2025 tier table VERIFIED vs archived D-401 Child Deduction Table (MFJ phase-out ends >$140k; HoH >$105k; Single/MFS >$70k) | nc-income-tax |
 | N-9 | D-400 Line 12a = Line 10 − Line 11 − Line 10b (NC taxable income) | nc-income-tax |
 | N-10 | D-400 Line 13 = Line 12a × 4.25% (NC income tax) | nc-income-tax |
 | N-11 | D-400 Line 16 = Line 13 − D-400TC credits (if claimed) | nc-income-tax |
@@ -259,7 +260,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | C-1 | Filing status on D-400 = filing status on Form 1040 |
 | C-2 | Dependents claimed on D-400 = dependents claimed on Form 1040 |
 | C-3 | Schedule C net profit federally = Schedule C net profit feeding NC AGI |
-| C-4 | Federal §168(k) bonus depreciation: NC requires 85% add-back in Year 1 with 20%-per-year reversal over 5 years on Schedule S Part A — verify add-back appears `[VERIFY:]` current NC §168(k) decoupling status |
+| C-4 | Federal §168(k)/(n) bonus depreciation: NC requires 85% add-back in Year 1 (Schedule S Line 3) with 20%-per-year reversal over the first 5 taxable years beginning TY 2026 — decoupling VERIFIED vs archived 2025 D-401 Instructions; verify add-back appears |
 | C-5 | Federal §179: NC conforms with limitation — `[VERIFY:]` NC §179 cap (often lower than federal); add-back if federal §179 exceeded NC cap |
 | C-6 | Federal SE tax deduction (Schedule 1 Line 15) is reflected in federal AGI; no NC add-back |
 | C-7 | Federal QBI deduction does NOT flow into NC computation (NC starts at federal AGI before QBI — federal Line 13 is after AGI) — confirm no double-counting |
@@ -518,8 +519,9 @@ The brief follows this fixed structure:
 [items requiring reviewer judgment, with citations]
 
 ## Planning Notes for 2026
-- NC rate step-down (Session Law 2023-134): 4.25% in 2025 →
-  ~3.99% in 2026 `[VERIFY:]`; long-term schedule down to ~2.49% by
+- NC rate step-down (Session Law 2023-134): 4.25% in 2025 (VERIFIED
+  vs archived 2025 D-401 Instructions) → ~3.99% in 2026 `[VERIFY:]`;
+  long-term schedule down to ~2.49% by
   2030 absent further legislation
 - Federal QBI 20% → 23% under OBBBA (P.L. 119-21)
 - NC child deduction phase-out tier monitoring
@@ -544,12 +546,12 @@ The brief follows this fixed structure:
 | NC-ASM-T1-06 | Extension to file is NOT extension to pay. Any NC balance due is still due April 15. |
 | NC-ASM-T1-07 | Bailey subtraction (Schedule S Part B) is allowed ONLY if the taxpayer was vested in the qualifying NC state, local, or federal government retirement plan on or before August 12, 1989. |
 | NC-ASM-T1-08 | NC fully exempts Social Security benefits (Schedule S Part B). Federal taxable SS (Line 6b) must be subtracted in full. |
-| NC-ASM-T1-09 | NC estimated-tax payments are required if expected NC tax after withholding exceeds the NC threshold `[VERIFY:]` $1,000 expected. |
+| NC-ASM-T1-09 | NC estimated-tax payments are required if tax due after withholding and credits is $1,000 or more (VERIFIED vs archived NC-40 Instructions). |
 | NC-ASM-T1-10 | NC safe harbor: 100% of prior-year NC tax OR 90% of current-year. No 110%-AGI step. `[VERIFY:]` |
-| NC-ASM-T1-11 | NC partially decouples from federal §168(k) bonus depreciation — 85% add-back in Year 1 with 20%-per-year deductible reversal over 5 years on Schedule S Part A `[VERIFY:]` 2025 schedule. |
+| NC-ASM-T1-11 | NC partially decouples from federal §168(k)/(n) bonus depreciation — 85% add-back in Year 1 with 20%-per-year deductible reversal over the first 5 taxable years beginning TY 2026, Schedule S Line 3 — VERIFIED vs archived 2025 D-401 Instructions. |
 | NC-ASM-T1-12 | NC does NOT recognize the federal §199A QBI deduction in any NC adjustment. NC starts at federal AGI, BEFORE QBI, so QBI never touches NC computation. |
-| NC-ASM-T1-13 | NC standard deduction TY 2025 (per `nc-income-tax` table): $25,500 MFJ/QSS, $19,125 HoH, $12,750 Single, $12,750 MFS `[VERIFY:]`. |
-| NC-ASM-T1-14 | NC child deduction: up to $3,000 per qualifying child under N.C.G.S. §105-153.5(a1), with tiered AGI phase-out `[VERIFY:]` 2025 tier table; complete phase-out at higher AGI. |
+| NC-ASM-T1-13 | NC standard deduction TY 2025 (per `nc-income-tax` table): $25,500 MFJ/QSS, $19,125 HoH, $12,750 Single, $12,750 MFS — VERIFIED vs archived NCDOR 2025 D-401 Instructions. |
+| NC-ASM-T1-14 | NC child deduction: up to $3,000 per qualifying child under N.C.G.S. §105-153.5(a1), tiered AGI phase-out VERIFIED vs archived 2025 D-401 Child Deduction Table (full phase-out: MFJ >$140k, HoH >$105k, Single/MFS >$70k). |
 | NC-ASM-T1-15 | NC itemized deductions (Schedule A) are NOT federal Schedule A. Only specific categories (qualified mortgage interest + property tax up to $20,000 combined, charitable contributions matching federal, medical/dental) are allowed `[VERIFY:]` 2025 categories and caps. |
 | NC-ASM-T1-16 | Three-file deliverable structure (xlsx + brief.md + actions.md) is mandatory. |
 | NC-ASM-T1-17 | No city-level income tax exists in NC; the orchestrator never emits a city return artifact. |
@@ -588,7 +590,7 @@ The brief follows this fixed structure:
 - NC withholding: $0 across all sources
 - NC estimated payments: $0 — taxpayer underpaid; Form D-422 applies
 - No dependents; no NC child deduction
-- Takes NC standard deduction ($12,750 single TY 2025 `[VERIFY:]`)
+- Takes NC standard deduction ($12,750 single TY 2025, VERIFIED vs archived D-401 chart)
 - No NC sales-tax registration
 
 **Orchestrator output (abbreviated reviewer brief — actual file is longer):**
@@ -650,7 +652,7 @@ The brief follows this fixed structure:
 - D-400 Line 9 (deductions): $60,400
 - D-400 Line 10 (Line 8 − Line 9): $72,104
 - D-400 Line 10b (NC child deduction): $0 (no qualifying children)
-- D-400 Line 11 (NC standard deduction, single): $12,750 `[VERIFY:]`
+- D-400 Line 11 (NC standard deduction, single): $12,750 (VERIFIED vs archived D-401 chart)
 - D-400 Line 12a (NC taxable income): $72,104 − $12,750 = $59,354
 - D-400 Line 13 (NC income tax, 4.25%): $2,523
 - D-400 Line 16 (after D-400TC credits): $2,523 (no credits)
