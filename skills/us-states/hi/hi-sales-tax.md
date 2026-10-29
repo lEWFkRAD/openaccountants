@@ -1,10 +1,10 @@
 ---
 name: hi-sales-tax
 description: Use this skill whenever asked about Hawaii General Excise Tax (GET). Trigger on phrases like "Hawaii GET", "General Excise Tax", "HI sales tax", "HRS §237". Hawaii has a GET on the SELLER, not a traditional sales tax. ALWAYS load us-sales-tax first.
-version: 2.0
+version: 2.1
 jurisdiction: US-HI
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
