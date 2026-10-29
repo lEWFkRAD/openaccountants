@@ -128,8 +128,7 @@ expected:
 | --- | --- | --- | --- |
 | 1 | Missouri DOR, Form MO-1120 General Instructions (2025) (pro forma rule, MO-22 consolidation, MO-MS elections, §163(j) addback, MO-C, P.L. 86-272/Form 4458) | https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf | 2026-10-28 |
 | 2 | Form MO-470 instructions | https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf | 2026-10-29 |
-| 3 | §143.431, §143.471, §143.121.3(11), §32.065 RSMo as cited in the instructions above | https://revisor.mo.gov/main/OneSection.aspx?section=143.431 | not archived |
-Not yet confirmed: the items above flagged as not sourced — figures tied to them stay unconfirmed until the source is archived with readable text..
+Not yet confirmed: the items above flagged as not sourced, and the RSMo cites (§143.431, §143.471, §143.121.3(11), §32.065) — no archived copy of those sections exists yet; figures tied to them stay unconfirmed until the source is archived with readable text..
 
 ## Talk to a verified accountant
 
