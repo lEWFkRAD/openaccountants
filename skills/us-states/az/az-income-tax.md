@@ -3,8 +3,8 @@ name: az-income-tax
 description: Use this skill whenever asked about Arizona individual income tax for self-employed individuals or sole proprietors — filing Form 140, AZ estimated tax (Form 140ES), Arizona flat tax rate, Arizona standard deduction, or any query involving Arizona state income tax compliance. Trigger on phrases like "Arizona income tax", "AZ income tax", "Form 140", "Arizona estimated tax", "Arizona self-employed tax", "AZDOR income tax", "Arizona flat tax", or "ARS §43".
 jurisdiction: US-AZ
 tier: 2
-last_updated: 2026-06-12
-version: "0.1"
+last_updated: 2026-10-28
+version: "0.2"
 validation_status: ai-drafted-q3
 ---
 
@@ -43,7 +43,7 @@ validation_status: ai-drafted-q3
 
 ### Tax rate (TY 2025)
 
-Arizona imposes a **flat income tax rate of 2.5%** on all taxable income, regardless of filing status or income level. This flat rate took effect in tax year 2023.
+Arizona imposes a **flat income tax rate of 2.5%** on all taxable income, regardless of filing status or income level. This flat rate took effect in tax year 2023. AZDOR's Individual Income Tax Highlights page (archived 2026-10-28 as `US-AZ-individual-income-tax-highlights.html`) confirms the "2025 New Tax Rate of 2.5% for All Income Levels and Filing Status" and that "The Optional Tax Table and the X and Y Tax Table are now obsolete."
 
 | Filing status | Rate | Applies to |
 |---|---|---|
@@ -57,6 +57,8 @@ Arizona imposes a **flat income tax rate of 2.5%** on all taxable income, regard
 | Married Filing Jointly | $31,500 |
 | Married Filing Separately | $15,750 |
 | Head of Household | $23,625 |
+
+Source: AZDOR Individual Income Tax Highlights (archived 2026-10-28 as `US-AZ-individual-income-tax-highlights.html`): "The 2025 Arizona standard deduction amounts are: $15,750 for a single taxpayer or a married taxpayer filing a separate return; $31,500 for a married couple filing a joint return; and $23,625 for individuals filing a head of household return."
 
 Arizona also allows a **Standard Deduction Increase** equal to 34% of qualifying charitable contributions (TY 2025), calculated on page 3 of Form 140.
 
@@ -98,9 +100,9 @@ Arizona does not use personal exemptions in the traditional sense. The standard 
 
 ### Estimated tax payments (Form 140ES)
 
-- **Required if:** Your Arizona gross income exceeds $75,000 (single/MFS/HOH) or $150,000 (MFJ) for the current or prior year.
-- **Safe harbor:** Total estimated payments + withholding must equal the lesser of 90% of current year tax or 100% of prior year tax.
-- **Due dates:** April 15, June 15, September 15, January 15.
+- **Required if:** Your Arizona gross income exceeds $75,000 (single/MFS/HOH) or $150,000 (MFJ) for the current or prior year. AZDOR's estimated-payments page (archived 2026-10-28 as `US-AZ-individual-estimated-tax-payments.html`): "You must make Arizona estimated income tax payments during 2026 if: ... Single $75,000 $75,000; Married Filing Joint $150,000 $150,000 ... Head of Household $75,000 $75,000" (prior-year and current-year gross income both above the threshold).
+- **Safe harbor:** Total estimated payments + withholding must equal the lesser of 90% of current year tax or 100% of prior year tax. AZDOR: "your payments, when added to your Arizona withholding, must total either 90% of the tax due for the current calendar year, or 100% of the tax due for the prior calendar year."
+- **Due dates:** April 15, June 15, September 15, January 15. AZDOR (2026): "Estimated tax payments are due April 15, June 15, September 15, 2026, and January 15, 2027."
 - **Payment methods:** Online via AZTaxes.gov or mail Form 140ES to AZDOR.
 - **Small business variant:** Form 140ES-SBI for those electing the small business income tax.
 
