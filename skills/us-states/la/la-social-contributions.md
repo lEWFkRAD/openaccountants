@@ -109,5 +109,16 @@ expected:
 
 Not yet confirmed: the 2026 UI taxable wage base, contribution-rate schedule and new-employer rate, quarterly due dates, penalty/interest percentages, FUTA credit-reduction status, and LaCOSA24/7 portal mechanics — lwc.org returned 403 Forbidden to plain HTTP on 2026-10-28 and La. R.S. 23 sits behind the session-state legislature site, so no primary UI source could be archived this run.
 
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Louisiana payroll/social questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

@@ -121,5 +121,16 @@ The `required` step shows the liability exceeds the $1,000 threshold by $200, so
 
 Not yet confirmed: the apportionment formula and unitary-combination requirement (the R.S. 47:287.83 numbering was not verified — legis.la.gov serves only a JS shell to plain fetchers); S-corporation entity-level scope; penalty/interest percentage tiers; the federal-adjustment reporting deadline.
 
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Louisiana corporate questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

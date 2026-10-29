@@ -114,5 +114,16 @@ Monthly band = 12 remittances, quarterly band = 4, plus one L-3 reconciliation e
 
 Not yet confirmed: withholding table figures (the LDR withholding-tables page renders via JS and could not be archived); the exact quarterly due-date calendar; employer penalty/interest percentages under R.S. 47:1607 (the 12% annual underpayment-of-estimated-tax penalty under R.S. 47:118 is verified for individuals, not employers); the W-4-equivalent certificate form ID (LW-4).
 
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Louisiana payroll questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

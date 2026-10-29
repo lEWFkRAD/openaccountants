@@ -120,5 +120,16 @@ expected:
 
 Not yet confirmed: IT-540B 2026 form ID and mechanics; the resident-credit statute citation and ordering (R.S. 47:287.182 numbering not verified — legis.la.gov serves only a JS shell to plain fetchers); part-year allocation detail; current-year military provisions; the citation for the absence of reciprocity.
 
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Louisiana cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
