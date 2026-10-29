@@ -383,11 +383,11 @@ Multi-state nexus questions are out of scope (referral under "Ask the client fir
 
 ### 11.1 Example A — Kansas City employer with a non-KC-resident employee
 
-Cottonwood Bakery, LLC is a single-member LLC operating a bakery in downtown Kansas City, Missouri (verified within KC corporate limits via the city's address lookup). Cottonwood employs three workers:
+Cottonwood Bakery, LLC is a hypothetical single-member LLC operating a bakery in downtown Kansas City, Missouri. All facts below (wages, hours, residency) are hypothetical. Cottonwood employs three workers:
 
 - Anya, KC resident, full-time baker (40 hrs/wk), $52,000 annual salary (hypothetical), works entirely on premises.
 - Brendan, Lee's Summit resident, full-time front-of-house manager (40 hrs/wk), $48,000 annual salary (hypothetical), works entirely on premises in KC.
-- Carla, Independence resident, part-time delivery driver (20 hrs/wk), $26,000 annual wages, works partly in KC (8 hrs/wk in-store) and partly outside KC (12 hrs/wk delivering across the metro, of which 4 hrs/wk are in KC corporate limits and 8 hrs/wk are in adjacent cities).
+- Carla, Independence resident, part-time delivery driver (20 hrs/wk), $26,000 annual wages (hypothetical), works partly in KC (8 hrs/wk in-store) and partly outside KC (12 hrs/wk delivering across the metro, of which 4 hrs/wk are in KC corporate limits and 8 hrs/wk are in adjacent cities).
 
 Cottonwood's average monthly MO withholding is approximately $480 — placing it in the quarterly MO-941 filing frequency ($100–$499 monthly average).
 
@@ -426,7 +426,7 @@ Cottonwood's average monthly MO withholding is approximately $480 — placing it
 
 ### 11.2 Example B — St. Louis City employer
 
-Riverfront Engineering, P.C. is a professional engineering corporation located at 1010 Market Street, City of St. Louis, MO (verified via stlouis-mo.gov city limits lookup). Employs:
+Riverfront Engineering, P.C. is a hypothetical professional engineering corporation located at 1010 Market Street, City of St. Louis, MO. All facts below (salaries, residency, schedules) are hypothetical. Employs:
 
 - David, City of St. Louis resident, senior engineer, $115,000 salary (hypothetical), hybrid: 3 days/week at the Market Street office, 2 days/week at his home in the city.
 - Erin, Webster Groves (St. Louis County) resident, junior engineer, $72,000 salary (hypothetical), fully on-site 5 days/week at Market Street.
@@ -466,7 +466,7 @@ Riverfront's average monthly MO withholding is approximately $1,250 — placing 
 
 ### 11.3 Example C — Non-metro MO-only small business
 
-Heartland Auto Repair, LLC is a sole-member LLC operating a single auto repair shop in Columbia, Missouri (Boone County, no local earnings tax). Employs two workers:
+Heartland Auto Repair, LLC is a hypothetical sole-member LLC operating a single auto repair shop in Columbia, Missouri (Boone County, no local earnings tax). All facts below (salaries, residency) are hypothetical. Employs two workers:
 
 - Hannah, Columbia resident, master mechanic, $54,000 salary (hypothetical), fully on-site.
 - Ian, Columbia resident, service writer, $42,000 salary (hypothetical), fully on-site.
