@@ -9,7 +9,7 @@ description: >
   "Nebraska addback", "Nebraska unitary", "Nebraska combined reporting".
   Source-cited draft; Chapter 77 structure and the PTE-tax page verified
   2026-10-28; addback statutes, apportionment mix and filing posture
-  needs-sources.
+  pending source confirmation.
 jurisdiction: US-NE
 category: transfer-pricing
 tax_year: 2026
@@ -27,7 +27,7 @@ depends_on:
 
 ## Scope and sources
 
-Nebraska has **no standalone TP documentation regime** located; policing runs through Chapter 77 income allocation and (expected) **related-party addback provisions** for interest/intangibles paid to affiliates. **Source status:** Chapter 77 structure and the PTE-tax page verified 2026-10-28; **addback statute cites, apportionment factor mix, and the separate-company-vs-combined posture — needs-sources** (rule/statute text not fetched this run).
+Nebraska has **no standalone TP documentation regime** located; policing runs through Chapter 77 income allocation and (expected) **related-party addback provisions** for interest/intangibles paid to affiliates. **Source status:** Chapter 77 structure, the corporate rate (§ 77-2734.02) and the PTE-tax page verified 2026-10-28 against archived sources; items not tied to an archived source are listed under Not yet confirmed in Sources.
 
 ## Who this applies to
 
