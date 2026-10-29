@@ -1,7 +1,7 @@
 ---
 name: ky-income-tax
 description: Use this skill whenever asked about Kentucky individual income tax. Trigger on phrases like "Kentucky income tax", "KY income tax", "Form 740", "KRS 141", "Kentucky flat tax". Kentucky has a flat 3.5% rate for TY2026 (was 4% for TY2025). ALWAYS load us-tax-workflow-base first.
-version: "0.1"
+version: "0.4"
 jurisdiction: US-KY
 tax_year: 2026
 last_updated: 2026-10-28
@@ -14,207 +14,260 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Kentucky individual income tax (Form 740), tax year 2026
 
-## Scope and who this is for
+> **Source-cited draft.** Built from KRS 141.020, 141.081, 141.066, 141.069, 141.305, the DOR 2025 Form 740 instruction packet, and DOR news releases, read on 2026-10-28. No accountant has reviewed it. All outputs must be reviewed by a qualified tax professional before filing.
 
 This skill covers the Kentucky individual income tax return for **full-year Kentucky residents** (Form 740), including sole proprietors and owners of single-member LLCs that are disregarded for federal purposes. It is written for **tax year 2026** (returns due in 2027), with a dated section for **2025 returns**, which are still being filed on extension until 15 October 2026.
+
+| Field | Value |
+| --- | --- |
+| Jurisdiction | Kentucky (US-KY) |
+| Tax authority | [Kentucky Department of Revenue (DOR)](https://revenue.ky.gov/) |
+| Legislation | KRS Chapter 141 |
+| Primary form | Form 740 (Individual Income Tax Return) + Schedules M, ITC, P |
+| Filing deadline | April 15, 2027 (for tax year 2026) |
 
 Out of scope, refer instead:
 
 - Part-year residents and nonresidents: they file Form 740-NP, not Form 740.
 - Residents of Illinois, Indiana, Michigan, Ohio, Virginia, West Virginia or Wisconsin who only had Kentucky wages withheld: Form 740-NP-R.
-- Corporations, the limited liability entity tax (LLET) and pass-through entity returns.
+- Corporations, the limited liability entity tax (LLET) and pass-through entity returns (see `ky-corporate-income-tax`).
 - Local occupational license taxes (see When to refuse or refer). They are separate local taxes, not part of Form 740.
 
-Official sources used throughout: the Kentucky Department of Revenue (DOR) 2025 Form 740 instruction packet (https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf), the DOR Form 740-ES instructions for 2026 estimated tax and the DOR individual income tax page (https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx). The statute is KRS Chapter 141.
+## Who this applies to
+
+Full-year Kentucky residents filing Form 740, including sole proprietors and single-member LLC owners whose Schedule C income flows through federal AGI. Self-employed persons must file a Kentucky return even below the Chart B AGI amounts if gross receipts from self-employment exceed the Chart A amount for their family size. Nonresidents and part-year residents file Form 740-NP (see `ky-cross-border`).
+
+## Rates, bands and thresholds
+
+| Item | 2025 returns | 2026 returns | Source |
+| --- | --- | --- | --- |
+| Flat rate | 4% | 3.5% | [KRS 141.020](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.020); DOR Employer Payroll Withholding page |
+| Standard deduction (per return; per spouse on a combined separate return) | $3,270 | $3,360 | 2025 Form 740 instructions; [DOR 2026 standard deduction news release](https://revenue.ky.gov/News/Pages/Kentucky-DOR-Announces-2026-Standard-Deduction.aspx) |
+| Pension income exclusion (per taxpayer) | $31,110 | Not yet published on a 2026 form | 2025 Form 740 instructions |
+| Personal tax credits | $40 each for age 65+ and for blindness; $20 Kentucky National Guard | Same credits (DOR individual income tax page, current) | [DOR individual income tax page](https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx) |
+| Family size tax credit ceiling on MGI (family of four or more, 2025 table) | $42,760 | 2026 table not yet published | 2025 Form 740 instructions |
+| Filing threshold (Chart A, MGI, 2025) | $15,650 (one), $21,150 (two), $26,650 (three), $32,150 (four or more) | 2026 amounts not yet published | 2025 Form 740 instructions |
+
+KRS 141.020(2)(d)–(f) states the rate history: "For taxable years beginning on or after January 1, 2023, but prior to January 1, 2024, the tax shall be four and one-half percent (4.5%) of net income. For taxable years beginning on or after January 1, 2024, but before January 1, 2026, the tax shall be four percent (4%) of net income. For taxable years beginning on or after January 1, 2026, the tax shall be three and one-half percent (3.5%) of net income." Future reductions require an act of the General Assembly; the department maintains the paragraph (f) rate unless the General Assembly acts.
+
+## The taxable base
+
+1. **Starting point.** Form 740, line 5 starts from **federal adjusted gross income** (Form 1040 line 11), not federal taxable income.
+2. **Schedule M modifications.**
+   - Additions: interest on securities of other states and their political subdivisions (Kentucky municipal bond interest is exempt); resident adjustments from Kentucky Schedule K-1; federal depreciation differences (see below).
+   - Subtractions: taxable state income tax refund included in federal income (line 7); U.S. government bond and securities interest (line 8 — Fannie Mae, Ginnie Mae and Freddie Mac interest is NOT exempt, per the instructions); pension exclusion (line 9, see below); Social Security and railroad retirement benefits (lines 10–11); military pay of active duty Armed Forces members (line 13, exempt under KRS 141.019(l), which "Exclude[s] all military pay received by members of the Armed Forces while on active duty").
+3. **Pension income exclusion (Schedule M line 9).** For 2025: "The 2025 exclusion amount is 100 percent of taxable retirement benefits or $31,110, whichever is less." It covers pensions, annuities, IRA accounts, 401(k) plans and similar written-plan retirement income. It is **per taxpayer**. If total retirement income exceeds $31,110 and any of it is from the federal government, the Commonwealth of Kentucky or a Kentucky local government, or is supplemental U.S. Railroad Retirement Board benefits, Schedule P must be completed.
+4. **Standard deduction.** KRS 141.081 allows an optional standard deduction, inflation-adjusted under KRS 141.081(2). The 2025 Form 740 instructions state: "For 2025, the standard deduction is $3,270." The DOR 2026 news release states: "After adjusting for inflation, the standard deduction for 2026 is $3,360, an increase of $90." On a joint return only one standard deduction is allowed; married filing separately on a combined return (Filing Status 2) enters it in both columns. A taxpayer may instead itemize Kentucky deductions, which exclude medical expenses, state and local income taxes, real estate and personal property taxes, and casualty losses.
+5. **Depreciation and Section 179 (permanent decoupling).** Per the 2025 Form 740 instructions: "taxpayers who placed property into service after September 10, 2001, are required to compute Kentucky depreciation under IRC Section 168 according to the provisions in effect on December 31, 2001," and property placed in service on or after 1 January 2020 computes the IRC Section 179 expense deduction under the provisions in effect on 1 January 2020. Recompute on a Kentucky Form 4562, adding back federal depreciation on Schedule M line 3 and subtracting Kentucky depreciation on line 12.
+6. **Federal conformity.** Kentucky uses the Internal Revenue Code as of a fixed date. The 2025 instructions state that KRS 141.010(21) was updated to 31 December 2024 and that recent federal changes "do not apply to Kentucky returns," citing qualified tips, overtime income and car loan interest. The federal QBI deduction is taken after federal AGI, so it never reaches Form 740. Self-employed health insurance, the deductible half of self-employment tax, and SEP/SIMPLE/solo 401(k) deductions reduce federal AGI and flow through. A home office deduction sits on Schedule C and is already inside federal AGI.
+7. **Credits.** Nonrefundable credits: personal tax credits (Schedule ITC), family size tax credit, education tuition tax credit (Form 8863-K), child and dependent care credit, business incentive credits and the credit for tax paid to other states (KRS 141.070: the lesser of the Kentucky tax on the double-taxed income and the other state's tax).
+8. **Payments and balance.** Kentucky withholding from Schedule KW-2, estimated and extension payments, refundable credits, then penalties and interest (line 34) and the amount owed or refunded.
+
+### Family size tax credit (KRS 141.066)
+
+A nonrefundable percentage of tax for low incomes. The 2025 instructions state the credit "provides benefits to individuals and families at incomes up to 133 percent of the threshold amount based on the federal poverty level. The 2025 threshold amount is $15,650 for a family size of one, $21,150 for a family of two, $26,650 for a family of three, and $32,150 for a family of four or more." Modified gross income is the greater of federal AGI (plus non-Kentucky municipal bond interest and lump-sum distributions) or Kentucky AGI (plus those distributions). The percentage is read from the Family Size Tax Table on Schedule ITC; the instructions' example confirms: "This taxpayer has a family size of two and would be entitled to a family size tax credit of 80% (.80)" (MGI $22,650).
+
+### Personal tax credits
+
+The DOR individual income tax page states: "A $40 tax credit is allowed for each individual reported on the return who is age 65 or over. Also, a $40 tax credit is allowed if an individual is legally blind. Persons who are both age 65 or older and legally blind are eligible for both tax credits for a total of $80 per person. Members of the Kentucky National Guard may claim a tax credit of $20; military reserve members are not eligible." These are nonrefundable.
+
+### Education tuition tax credit (KRS 141.069)
+
+KRS 141.069(2) allows a nonrefundable credit of "twenty-five percent (25%)" of the federal credit for undergraduate tuition at an eligible Kentucky institution. The 2025 instructions cap the American Opportunity portion at "$625 for each qualifying student" and the Lifetime Learning portion at "a maximum allowed of $500 per return." Nonrefundable, with a carryforward; Form 8863-K required. Graduate tuition and out-of-state institutions do not qualify.
+
+### Child and dependent care credit (line 24)
+
+For 2025 returns: the credit is 20% of the federal credit from Form 2441, line 11 — the instructions state "Multiply this amount by 20 percent (.20), and enter result on line 24." It is also available to a person with no federal filing requirement who would have qualified (write "did not meet federal filing requirements" on Form 2441). For 2026, the federal credit base may have changed after Kentucky's conformity date; check the 2026 Form 740 line 24 instructions before applying 20% (see Not yet confirmed).
+
+## Deadlines and filing
+
+- **Due dates.** The 2025 instructions state the calendar-year 2025 return "must be postmarked or submitted electronically no later than April 15, 2026." The same rule puts the 2026 return on 15 April 2027; confirm on the 2026 packet.
+- **Extensions.** Kentucky extensions "are limited to six months" (an extended 2025 return is due 15 October 2026). A federal automatic extension is honoured if a copy is enclosed; alternatively Form 740EXT may be filed, which "must state a reasonable cause for the inability to file. Inability to pay is not an acceptable reason." An extension is not an extension to pay; interest runs from the original due date.
+- **Estimated tax (KRS 141.305).** KRS 141.305(1) applies where "Gross income from sources other than wages upon which Kentucky income tax will be withheld can reasonably be expected to exceed five thousand dollars ($5,000) for the taxable year," and KRS 141.305(2) states "No estimated tax shall be required if the estimated tax liability can reasonably be expected to be five hundred dollars ($500) or less." Otherwise pay the smaller of 90% of the current-year tax or 100% of the prior-year tax from a 12-month return; taxpayers whose prior-year Kentucky AGI exceeded $150,000 ($75,000 if married filing separately) use 110% of the prior year instead (per the Form 2210-K instructions in the 2025 packet, which test the prior year's income). Farmers and fishermen: the instructions state "substitute 66 2/3% for 90% in (1) above," and the 110% rule does not apply. Installments for 2026 are due 15 April, 15 June and 15 September 2026 and 15 January 2027. The annualized income method (Form 2210-K) is available.
+- **Amended returns and federal audits.** Amended returns must be filed within four years ("amended returns must be filed within the statute of limitations period; four years from the due date"). A taxpayer must report a final federal audit determination "within 180 days of its conclusion."
+
+## Penalties and interest
+
+| Item | Rule | Source |
+| --- | --- | --- |
+| Underpaid estimated tax | May apply if the amount owed is more than $500; computed on Form 2210-K, line 34(a) | 2025 Form 740 instructions |
+| Late payment | 2% of the tax due per 30 days or fraction thereof, capped at 20%, minimum $10; the instructions add "if the amount timely paid is 75 percent of the tax determined due," the late-payment penalty is not assessed | 2025 Form 740 instructions; DOR Penalties, Interest and Fees page |
+| Late filing | 2% of the tax due per 30 days or fraction thereof, capped at 20%, minimum $10 ($100 after a jeopardy assessment) | DOR Penalties, Interest and Fees page |
+| Interest on unpaid tax | 10% for calendar year 2025 and 9% for calendar year 2026 under KRS 131.183(2)(a)2 | DOR news releases for 01-01-25 and 01-01-26; DOR Penalties, Interest and Fees page |
+| Waiver | Penalties, but not interest, may be reduced or waived for reasonable cause | DOR Penalties, Interest and Fees page |
+
+The DOR 2025 interest notice states that taxes not paid "will accrue interest at the rate of 10 % pursuant to KRS 131.183(2)(a)2"; the 2026 notice states the rate "will accrue interest at the rate of 9 % pursuant to KRS 131.183(2)(a)2."
+
+## Cross-border points
+
+- Nonresidents and part-year residents file Form 740-NP (see `ky-cross-border`).
+- Kentucky residents pay tax on their entire net income regardless of where earned and may claim a credit for income tax paid to another state under KRS 141.070 (the lesser of the Kentucky tax on the double-taxed income and the other state's tax).
+- Interest from another state's municipal bonds is added back; U.S. government obligations are subtracted.
+- Local occupational license taxes are not Kentucky income tax and must not be included on Form 740 line 31(a).
+
+## Worked examples
+
+### Example 1: 2026, single, self-employed (hypothetical facts)
+
+Federal AGI $60,000, all Schedule C, no Kentucky modifications, standard deduction. Taxable income $60,000 − $3,360 = $56,640. Tax $56,640 × 3.5% = $1,982.40.
+
+```oa-check
+name: KY 2026 single, AGI 60000, std deduction 3360, rate 3.5 percent
+inputs:
+  agi: 60000
+  std: 3360
+  rate: 0.035
+steps:
+  - ti: agi - std
+  - tax: ti * rate
+expected:
+  ti: 56640.00
+  tax: 1982.40
+```
+
+### Example 2: the same hypothetical facts on a 2025 return
+
+$60,000 − $3,270 = $56,730. Tax $56,730 × 4% = $2,269.20.
+
+```oa-check
+name: KY 2025 single, AGI 60000, std deduction 3270, rate 4 percent
+inputs:
+  agi: 60000
+  std: 3270
+  rate: 0.04
+steps:
+  - ti: agi - std
+  - tax: ti * rate
+expected:
+  ti: 56730.00
+  tax: 2269.20
+```
+
+### Example 3: 2025, single retiree aged 67 (hypothetical facts)
+
+Private pension $40,000 and taxable Social Security $17,000; federal AGI $57,000. Subtract the pension exclusion $31,110 and Social Security $17,000: Kentucky AGI $8,890. Less $3,270 = $5,620 taxable. Tax $5,620 × 4% = $224.80, less the $40 age credit = $184.80. MGI is the greater of federal AGI ($57,000) and Kentucky AGI, so no family size credit.
+
+```oa-check
+name: KY 2025 retiree, pension exclusion 31110
+inputs:
+  agi: 57000
+  pension_excl: 31110
+  socsec: 17000
+  std: 3270
+  rate: 0.04
+  age_credit: 40
+steps:
+  - kyagi: agi - pension_excl - socsec
+  - ti: kyagi - std
+  - tax_gross: ti * rate
+  - tax: tax_gross - age_credit
+expected:
+  kyagi: 8890.00
+  ti: 5620.00
+  tax: 184.80
+```
+
+### Example 4: 2025, family size credit (hypothetical facts)
+
+Married couple, family size two, filing jointly; MGI and Kentucky AGI $22,650. Taxable $22,650 − $3,270 = $19,380. Tax $19,380 × 4% = $775.20. Per the instructions' example, a family of two with MGI $22,650 is entitled to an 80% credit: $775.20 × 80% = $620.16. Tax after the credit is $155.04.
+
+```oa-check
+name: KY 2025 family size credit 80 percent
+inputs:
+  mgi: 22650
+  std: 3270
+  rate: 0.04
+  credit_pct: 0.80
+steps:
+  - ti: mgi - std
+  - tax_gross: ti * rate
+  - credit: tax_gross * credit_pct
+  - tax: tax_gross - credit
+expected:
+  ti: 19380.00
+  tax: 155.04
+```
+
+### Example 5: 2025 education credit (hypothetical facts)
+
+Federal American Opportunity credit of $2,500 for an undergraduate at a Kentucky university. Kentucky credit 25% = $625, which equals the per-student cap. Nonrefundable: limited to tax on line 22, excess carries forward.
+
+```oa-check
+name: KY education credit 25 percent capped at 625
+inputs:
+  fed_aoc: 2500
+  pct: 0.25
+  cap: 625
+steps:
+  - tentative: fed_aoc * pct
+  - credit: min(tentative, cap)
+expected:
+  tentative: 625.00
+  credit: 625.00
+```
+
+### Example 6: 2026 estimated tax (hypothetical facts)
+
+Example 1's taxpayer has no withholding and owed $2,269.20 for 2025 (a full 12-month return). The 2026 estimate is $1,982.40, which exceeds $500, so payments are required. The required annual payment is the smaller of 90% × $1,982.40 = $1,784.16 and 100% of the 2025 tax ($2,269.20): $1,784.16, or $446.04 per quarterly installment.
+
+```oa-check
+name: KY 2026 required annual installment
+inputs:
+  est_2026: 1982.40
+  tax_2025: 2269.20
+  pct: 0.90
+steps:
+  - req: min(est_2026 * pct, tax_2025)
+  - per_q: req / 4
+expected:
+  req: 1784.16
+  per_q: 446.04
+```
 
 ## Ask the client first
 
 - Which tax year is this: 2025 or 2026? The rate and standard deduction differ.
 - Was the person a Kentucky resident for the **whole** year? If not, stop: Form 740-NP.
-- Filing status on the federal return, and, if married, did both spouses have income? (Kentucky lets spouses file separately on one combined return.)
+- Filing status on the federal return, and, if married, did both spouses have income? (Kentucky lets spouses file separately on one combined return, which "usually results in a lower tax than Filing Status 3" per the instructions.)
 - Federal AGI (Form 1040 line 11), and whether any federal return was filed at all.
 - Age 65 or over, legally blind, or a Kentucky National Guard member on 31 December?
 - Family size and modified gross income (for the filing test and the family size tax credit).
 - Pension, IRA, 401(k) or annuity income? Any of it from the federal government, the Commonwealth of Kentucky or a Kentucky local government?
 - Social Security or railroad retirement benefits in federal AGI?
 - Interest from US government obligations, or from other states' municipal bonds?
-- Self-employed: gross receipts, depreciation, Section 179 or bonus depreciation taken federally, and where the work is done (for local occupational tax)?
-- Tuition paid to a college **located in Kentucky**, and was a federal American Opportunity or Lifetime Learning credit allowed?
-- Kentucky withholding, estimated payments, and the prior year's Kentucky tax (for the estimated tax safe harbour)?
-
-## The method, step by step
-
-1. **Check the filing requirement.** A full-year resident must file if modified gross income exceeds the Chart A amount for the family size **and** Kentucky AGI exceeds the Chart B amount. For 2025, Chart A is $15,650 (family of one), $21,150 (two), $26,650 (three) and $32,150 (four or more). A self-employed person must file regardless of Chart B if gross receipts from self-employment exceed the Chart A amount for the family size. File anyway to get back Kentucky tax withheld. Source: [2025 Form 740 instructions](https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf).
-2. **Line 5: federal AGI.** Start from federal adjusted gross income, not federal taxable income. If no federal return was required, enter total income from all sources.
-3. **Line 6: additions (Schedule M, Part I).** Main items: interest on bonds of other states and their subdivisions (Kentucky bonds are exempt); federal bonus depreciation and the increased Section 179 deduction (line 3, then recomputed on line 12); a federal net operating loss deduction (line 4, replaced by the Kentucky NOL); and other differences listed in the instructions. A child's income cannot be moved onto a parent's return: the federal election to report a child's investment income on the parent's return is "Not permitted" for Kentucky (differences chart, item 20). If the parent made that election federally (Form 8814), keep the child's income off the parent's Kentucky return and test whether the child must file a Kentucky return of their own. The instructions give no worked method for removing it from the parent's federal AGI, so refer if unsure.
-4. **Line 8: subtractions (Schedule M, Part II).** Taxable state income tax refunds included in federal AGI (line 7); interest on US government obligations, but not Fannie Mae, Ginnie Mae or Freddie Mac securities that are merely guaranteed (line 8); the pension income exclusion (line 9); Social Security and railroad retirement benefits included in federal AGI (line 10); Kentucky depreciation (line 12); active duty military pay (line 13); other subtractions (line 14).
-5. **Line 9: Kentucky AGI** = line 5 + line 6 − line 8.
-6. **Line 10: deduction.** Standard deduction or Kentucky itemized deductions (Schedule A), whichever is larger. If one spouse itemizes, the other must itemize too.
-7. **Line 11: taxable income** = line 9 − line 10.
-8. **Line 12: tax** = taxable income × the flat rate for the year. There are no brackets; every filing status uses the same rate.
-9. **Credits.** Nonrefundable credits: personal tax credits (Schedule ITC, Section B, line 17), family size tax credit (lines 20 and 21), education tuition tax credit (line 23, Form 8863-K), child and dependent care credit (line 24), business incentive credits and the credit for tax paid to other states (Schedule ITC, Section A).
-10. **Payments and balance.** Kentucky withholding from Schedule KW-2, estimated and extension payments, refundable credits, then penalties and interest (line 34) and the amount owed or refunded.
-
-## [Figures by year](https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf)
-
-| Item | 2025 returns | 2026 returns | Source |
-| --- | --- | --- | --- |
-| Flat rate | 4% | 3.5% | 2025 Form 740 instructions; 2026 Form 740-ES instructions; 2026 withholding formula |
-| Standard deduction (per return; per spouse on a combined separate return) | $3,270 | $3,360 | 2025 instructions; DOR announcement of 4 September 2025 |
-| Pension income exclusion (per taxpayer) | $31,110 | Not yet published on a 2026 form; DOR's current page still uses $31,110 | 2025 instructions; DOR individual income tax page |
-| Personal tax credits | $40 each for age 65+ and for blindness; $20 Kentucky National Guard | Same credits shown on the 2026 Form 740-ES worksheet | DOR individual income tax page; 2026 Form 740-ES |
-| Family size tax credit ceiling on MGI (family of four or more) | $42,760 | 2026 table not yet published; DOR prints the 2025 table in the 2026 Form 740-ES | 2026 Form 740-ES instructions |
-
-**2026 rate.** DOR applies 3.5% for 2026 in the Form 740-ES worksheet ("Multiply line 7 by 3.5%"), the 2026 withholding formula and its payroll page ("The Kentucky Withholding Tax rate will be 3.5% for tax year 2026"). Kentucky's rate cuts are made by acts of the General Assembly. This skill could not reach the Legislative Research Commission site on 25 September 2026 to confirm the text of the act that set 3.5%, or whether any cut applies for 2027. Before using a 2027 rate, check the 2027 Form 740-ES and the 2027 withholding formula when DOR publishes them.
-
-**2027 standard deduction.** DOR announced on 11 September 2026 that the 2027 standard deduction is $3,470. Use it only for 2027 planning.
-
-## [Federal conformity and the One Big Beautiful Bill Act](https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf)
-
-- Kentucky uses the Internal Revenue Code **as of a fixed date**. HB 775 moved that date from 31 December 2023 to 31 December 2024 for individual and corporate income tax (KRS 141.010(21)). Federal changes made after the reference date "shall not apply for purposes of Chapter 141 unless adopted by the General Assembly."
-- DOR states for 2025: "Recent federal income tax changes were enacted after Kentucky's conformity date … these federal changes do not apply to Kentucky returns. Items such as qualified tips, overtime income, and car loan interest are not deductible on the Kentucky return." Social Security remains exempt under KRS 141.019(1)(e).
-- For 2026, no later conformity date was found on DOR's site as of 25 September 2026. Treat the 31 December 2024 date as current and check the "What's New" page of the 2026 Form 740 packet when it is published.
-- **Credits that are a percentage of a federal credit.** The Kentucky child and dependent care credit is a percentage of the federal Form 2441 credit. For 2026, that federal credit includes the P.L. 119-21 increase to IRC §21, which Kentucky has not adopted. Do not take 20% of it until the 2026 line 24 instructions confirm the base (see the credits section).
-- **Some post-2024 federal changes sit inside federal AGI.** The tips, overtime and car loan interest deductions come after federal AGI, so they never reach line 5. Other P.L. 119-21 changes reduce business income on Schedule C or Schedule E, and so are already inside the federal AGI that Form 740 starts from. Depreciation is covered below. Another example is the federal deduction for domestic research or experimental expenditures under the new IRC §174A: "there shall be allowed as a deduction any domestic research or experimental expenditures". It applies to amounts paid or incurred in tax years beginning after 31 December 2024, which is after Kentucky's conformity date. If a Schedule C or E includes a §174A deduction or another P.L. 119-21 benefit, Kentucky income may need a Schedule M adjustment to reverse it. Check the Schedule M instructions for the year, and refer the case if they give no line for it.
-- **Depreciation is permanently decoupled.** For property placed in service after 10 September 2001, Kentucky depreciation follows IRC Section 168 as in effect on 31 December 2001, so no bonus depreciation. For property placed in service on or after 1 January 2020, the Kentucky Section 179 limit is $100,000 and the investment phase-out does not apply. Recompute on a "Kentucky" Form 4562, add back federal depreciation on Schedule M line 3 and subtract Kentucky depreciation on line 12. Gains and losses on disposal use Kentucky basis.
-- The federal qualified business income deduction is taken after federal AGI, so it never reaches Form 740, which starts from federal AGI. Self-employed health insurance, the deductible half of self-employment tax and SEP/SIMPLE/solo 401(k) deductions reduce federal AGI and flow through.
-- **Home office.** A self-employed person's home office deduction is taken on Schedule C, so it is already inside the federal AGI entered on line 5. The Schedule M lines in the 2025 instructions include no separate home office adjustment, so the federal conditions decide it. Under IRC §280A(c)(1), that part of the home must be "exclusively used on a regular basis" in one of three ways: as the principal place of business, as a place where patients, clients or customers meet the taxpayer in the normal course of business, or as a separate structure used in the business.
-
-## [Exclusions, deductions and credits: the conditions](https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf)
-
-**Pension income exclusion (Schedule M line 9).** For 2025 it is "100 percent of taxable retirement benefits or $31,110, whichever is less." It covers pension and retirement income paid under a written plan: pensions, annuities, IRAs, 401(k) and similar plans, Roth conversions, death benefits and disability retirement benefits. It is **per taxpayer**; each spouse computes their own, even on a joint return. If the total is more than $31,110 and any of it is from the federal government, the Commonwealth of Kentucky or a Kentucky local government, or is supplemental US railroad retirement, complete **Schedule P**: service before 1 January 1998 can make more than $31,110 exempt.
-
-**Social Security and railroad retirement.** Fully exempt. Subtract the amounts included in federal AGI.
-
-**Military pay.** All military pay of active duty members of the US Armed Forces, reserve components and the National Guard is exempt (KRS 141.019). Active duty pay is subtracted on Schedule M line 13.
-
-**Standard deduction versus itemizing.** Kentucky itemized deductions differ from federal. The following are **not deductible** for Kentucky: medical and dental expenses, state income taxes, local income taxes, real estate taxes, personal property taxes, and casualty and theft losses. Married taxpayers filing separately on a combined return (Filing Status 2) enter the standard deduction in both columns. On a joint return only one standard deduction is allowed.
-
-**Filing Status 2.** Married couples who both had income may file separately on one combined return, whatever they did federally. DOR says this "usually results in a lower tax than Filing Status 3", mainly because each spouse gets a standard deduction.
-
-**Personal tax credits.** Kentucky has **no general personal credit** for every taxpayer. The credits are $40 if 65 or over, $40 if legally blind (so $80 if both), and $20 for a Kentucky National Guard member (military reserves are not eligible). Status is tested on 31 December. They are nonrefundable.
-
-**Family size tax credit (KRS 141.066).** A nonrefundable percentage of tax for low incomes. Modified gross income (MGI) is the **greater of** federal AGI (plus non-Kentucky municipal bond interest and lump-sum pension distributions not in federal AGI) or Kentucky AGI (plus those lump-sum distributions). Family size counts you, your spouse if married and living in the same household, and qualifying children; the maximum is four. For 2025 the credit is 100% of tax at MGI up to $15,650 (one), $21,150 (two), $26,650 (three) or $32,150 (four or more), falling in bands to nothing above $42,760 for a family of four or more. Read the percentage from the band table in the Schedule ITC or Form 740-ES instructions; do not interpolate.
-
-**Education tuition tax credit (KRS 141.069, Form 8863-K, line 23).** The credit is "25% of the allowable federal credit":
-
-- American Opportunity credit: capped at $625 for each qualifying student.
-- Lifetime Learning credit: capped at $500 per return.
-
-All of these conditions apply:
-
-- Only **undergraduate** expenses count.
-- The institution must be **physically located in Kentucky**.
-- A federal credit must have been allowed, using the federal qualification rules.
-- The credit is nonrefundable and limited to tax.
-- Any unused credit carries forward for up to five years. Form 8863-K must have been completed for the year the credit arose.
-
-**Child and dependent care credit (line 24).**
-
-- **2025 returns:** the credit is 20% of the federal credit from Form 2441, line 11 ("Multiply this amount by 20 percent (.20)"). It is also available to someone who had no federal filing requirement but would have qualified: complete Form 2441 and write "did not meet federal filing requirements" on it.
-- **2026 returns: check before applying 20%.** P.L. 119-21 raised the federal applicable percentage in IRC §21 for tax years beginning after 31 December 2025. The federal rate now starts at 50%, falling to a floor of 35%, where it used to start at 35% and fall to 20%. Kentucky follows the Internal Revenue Code only as of 31 December 2024 (see the conformity section). So the 2026 Form 2441 credit includes a federal increase that Kentucky has not adopted. For a lower-income family, 20% of that figure could overstate the Kentucky credit by as much as 50/35. Do not simply apply 20% to the 2026 federal credit. Read the line 24 instructions in the 2026 Form 740 packet when DOR publishes it. They may require the federal credit to be recomputed under the §21 percentages in force before 2026 (35% falling to 20%). Until DOR says, treat the 2026 amount as unconfirmed.
-
-**Credit for tax paid to other states (Schedule ITC).** Residents report all income wherever earned. The credit is the lesser of the Kentucky tax on the double-taxed income and the other state's tax. Withholding by another state is not a Kentucky payment.
-
-## [Boundary and exception table](https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf)
-
-| Situation | Treatment |
-| --- | --- |
-| Moved into or out of Kentucky during the year | Not Form 740; use Form 740-NP |
-| State income tax refund included in federal AGI | Subtract it (Schedule M line 7). It is not an addition |
-| Interest on another state's municipal bonds | Add it (line 1). Kentucky bonds are exempt |
-| Fannie Mae, Ginnie Mae or Freddie Mac interest | Taxable; only direct US obligations are subtracted |
-| Retirement income of exactly $31,110 (2025) | Whole amount excluded; Schedule P not needed |
-| Retirement income above $31,110 with Kentucky, federal or Kentucky local government service | Complete Schedule P; the exclusion may exceed $31,110 |
-| Tips, overtime or car loan interest deducted federally for 2025 | No Kentucky deduction |
-| 2026 child and dependent care credit | Federal credit includes the P.L. 119-21 §21 increase (50%, floor 35%). Check the 2026 line 24 instructions before taking 20% |
-| Federal §174A research expensing or another post-2024 change inside Schedule C or E | Already in federal AGI; may need a Schedule M adjustment. Check the year's instructions or refer |
-| Parent elected federally to report a child's investment income | Not permitted for Kentucky |
-| Federal bonus depreciation or Section 179 above the Kentucky limit | Add back and recompute Kentucky depreciation |
-| Tuition at an out-of-state college, or graduate tuition | No Kentucky education credit |
-| Family of five | Use the family-of-four-or-more line |
-| Expected tax after withholding and credits is $500 or less | No estimated payments required |
-| Local occupational tax withheld on the W-2 | Not a Kentucky payment; do not put it on line 31(a) |
-
-## [Worked cases](https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf)
-
-**Case A: 2026, single, self-employed.** Federal AGI $60,000 (all Schedule C, no Kentucky modifications, standard deduction). Taxable income $60,000 − $3,360 = $56,640. Tax $56,640 × 3.5% = $1,982.40. MGI $60,000 is above every family size band, so no family size credit.
-
-**Case B: the same facts on a 2025 return.** $60,000 − $3,270 = $56,730. Tax $56,730 × 4% = $2,269.20.
-
-**Case C: 2025, single retiree aged 67.** Private pension $40,000 and taxable Social Security $17,000; federal AGI $57,000. Subtract the pension exclusion $31,110 (no government service, so no Schedule P) and Social Security $17,000: Kentucky AGI $8,890. Less $3,270 = $5,620 taxable. Tax $5,620 × 4% = $224.80, less the $40 age credit = $184.80. MGI is the greater of federal AGI ($57,000) and Kentucky AGI, so there is no family size credit even though Kentucky AGI is low.
-
-**Case D: 2025, married couple with no qualifying children (family size two), filing jointly.** MGI and Kentucky AGI $22,000. Taxable $22,000 − $3,270 = $18,730. Tax $18,730 × 4% = $749.20. MGI falls in the band over $21,996 and not over $22,842, so the credit is 80%: $599.36. Tax after the credit is $149.84.
-
-**Case E: 2025 education credit.** Federal American Opportunity credit of $2,500 for an undergraduate at a Kentucky university. Kentucky tentative credit 25% = $625, which is also the per-student cap. It is then limited to the tax on line 22, and any excess carries forward. If the same student attended a college in Tennessee, there is no Kentucky credit.
-
-**Case F: 2026 estimated tax.** Case A's taxpayer has no withholding and owed $2,269.20 for 2025 (Case B, a full 12-month return). The 2026 estimate is $1,982.40, which is more than $500, so payments are required. Required annual payment is the smaller of 90% × $1,982.40 = $1,784.16 and 100% of the 2025 tax ($2,269.20). That is $1,784.16, or $446.04 per quarterly voucher. The 110% rule does not apply because 2025 Kentucky AGI was not over $150,000.
+- Bonus depreciation or Section 179 amounts in the federal return?
 
 ## When to refuse or refer
 
 - Part-year or nonresident: Form 740-NP.
 - Schedule P cases (government pension with service before 1998), lump-sum 10-year averaging (Form 4972-K) or farm income averaging.
 - Business incentive credits, pass-through entity tax credits, the LLET or Kentucky Schedule K-1 adjustments.
-- Schedule C or E amounts shaped by post-2024 federal changes (for example §174A research expensing) where the year's Schedule M instructions give no line to reverse them.
+- Schedule C or E amounts shaped by post-2024 federal changes where the year's Schedule M instructions give no line to reverse them.
 - Kentucky net operating loss, excess business loss (Form 461-K) or passive loss (Form 8582-K) recomputations.
-- **Local occupational license taxes.** Many Kentucky cities and counties levy their own occupational license tax on wages and net business profits. These are administered locally, not by DOR, and are not claimed on Form 740 ("Local government occupational, license or income tax must not be included on line 31(a)"). Send the person to the city or county tax office where the work is done. Do not quote local rates from memory.
+- **Local occupational license taxes.** Many Kentucky cities and counties levy their own occupational license tax. They are administered locally, not by DOR; the instructions state "Local government occupational, license or income tax must not be included on line 31(a)." Send the person to the city or county tax office where the work is done. Do not quote local rates from memory.
 - Any 2027 rate question until DOR publishes 2027 forms.
 
-## [Filing, payment, estimated tax and penalties](https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf)
+## Sources
 
-**Due dates.** A calendar-year 2025 return must be "postmarked or submitted electronically no later than April 15, 2026." The same rule puts the 2026 return on 15 April 2027. Confirm this on the 2026 packet.
+| Source | URL | Read on |
+|---|---|---|
+| KRS 141.020 (individual income tax rates; 4.5% 2023, 4% 2024-2025, 3.5% 2026; nonresident source rules) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.020 | 2026-10-28 |
+| KRS 141.081 (optional standard deduction; inflation adjustment) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.081 | 2026-10-28 |
+| KRS 141.066 (family size tax credit) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.066 | 2026-10-28 |
+| KRS 141.069 (education tuition credit, 25% of federal) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.069 | 2026-10-28 |
+| KRS 141.305 (estimated tax; $5,000 income and $500 liability thresholds) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.305 | 2026-10-28 |
+| KRS 141.070 (credit for tax paid to other states) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.070 | 2026-10-28 |
+| KRS 141.019 (exclusions incl. military pay) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.019 | 2026-10-28 |
+| DOR 2025 Form 740 instruction packet (filing thresholds, $3,270, $31,110, $42,760, credits, penalties, extensions, 66 2/3%, $150,000/$75,000, depreciation) | https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf | 2026-10-28 |
+| DOR individual income tax page (personal credits $40/$80/$20; child and dependent care credit 20%) | https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx | 2026-10-28 |
+| DOR news release: 2026 standard deduction $3,360 | https://revenue.ky.gov/News/Pages/Kentucky-DOR-Announces-2026-Standard-Deduction.aspx | 2026-10-28 |
+| DOR news release: 2027 standard deduction $3,470 | https://revenue.ky.gov/News/Pages/Kentucky-DOR-Announces-2027-Standard-Deduction.aspx | 2026-10-28 |
+| DOR news release: interest rate update for 01-01-25 (10% on unpaid tax) | https://revenue.ky.gov/News/Pages/Tax-Interest-Rate-Update-for-01-01-25.aspx | 2026-10-28 |
+| DOR news release: interest rate update for 01-01-26 (9% on unpaid tax) | https://revenue.ky.gov/News/Pages/Tax-Interest-Rate-Update-for-01-01-26.aspx | 2026-10-28 |
+| DOR Penalties, Interest and Fees page (late payment/filing 2% per 30 days, 20% cap, $10 minimum; interest rates table) | https://revenue.ky.gov/Collections/Pages/Penalties-Interest-and-Fees.aspx | 2026-10-28 |
+| DOR Employer Payroll Withholding page ("The Kentucky Withholding Tax rate will be 3.5% for tax year 2026") | https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx | 2026-10-28 |
 
-**Extensions.** Kentucky allows up to six months to file, which puts an extended 2025 return on 15 October 2026. A federal automatic extension (Form 4868) is honoured: attach a copy to the Kentucky return. You can also file Form 740EXT, which needs a reasonable cause; "inability to pay is not an acceptable reason." An extension is **not** an extension to pay. Interest runs from the original due date, and a payment can be sent with the Form 740EXT voucher. Combat zone service defers filing and payment until 12 months after service ends.
-
-**Estimated tax (KRS 141.305, Form 740-ES).** Estimated tax may be required for anyone who can expect more than $5,000 of income with no Kentucky withholding. No payment is required if the estimated tax after withholding and credits is $500 or less. Otherwise, pay enough by withholding and instalments to cover the smaller of:
-
-- 90% of the 2026 tax; or
-- 100% of the 2025 tax, from a 12-month return.
-
-If Kentucky AGI for 2025 was more than $150,000 ($75,000 if married filing separately for 2026), use 110% instead of 100%. The 740-ES adds: "This rule does not apply to farmers."
-
-**Farmers and fishermen.** If at least two-thirds of gross income for 2025 or 2026 is from farming or fishing:
-
-- The 90% safe harbour becomes 66 2/3% of the 2026 tax ("substitute 66 2/3% for 90%").
-- The 110% rule for higher incomes does not apply.
-- They can either pay all the estimated tax by 15 January 2027, or file the 2026 return and pay in full by 1 March 2027.
-
-There is no estimated tax requirement if the person had no Kentucky liability for a full 12-month 2025 year. Instalments for 2026 are due 15 April, 15 June and 15 September 2026, and 15 January 2027. The annualized income method (Form 2210-K) is available for uneven income.
-
-**Penalties and interest.**
-
-| Item | Rule |
-| --- | --- |
-| Underpaid estimated tax | May apply if the amount owed is more than $500. Compute on Form 2210-K, line 34(a) |
-| Late payment | 2% of the tax due per 30 days or part, capped at 20%, minimum $10. Not assessed if at least 75% of the tax was paid on time |
-| Late filing | 2% of the tax due per 30 days or part, capped at 20%, minimum $10 |
-| Interest | Unpaid tax accrues interest from the original due date at **9% for 2026** and **10% for 2025** (the Form 2210-K instructions give 10 percent for calendar year 2025 and 9 percent for 2026). [DOR's 2026 notice](https://revenue.ky.gov/News/Pages/Tax-Interest-Rate-Update-for-01-01-26.aspx) confirms that unpaid tax "will accrue interest at the rate of 9 %" under KRS 131.183(2)(a)2. Its separate base "tax interest rate" of 7% is not the rate charged on unpaid tax |
-| Waiver | Penalties, but not interest, may be reduced or waived for reasonable cause |
-
-**Other points.**
-
-- Enclose Schedule KW-2 to get credit for withholding.
-- Amended returns use Form 740 with the amended box checked, within four years of the due date.
-- A final IRS audit determination must be reported to DOR within 180 days.
-
-## [Completion checklist](https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf)
-
-- [ ] Full-year resident confirmed; correct year and rate (2025: 4%; 2026: 3.5%).
-- [ ] Filing requirement tested (Chart A, Chart B and the self-employment rule).
-- [ ] Line 5 is federal AGI, not federal taxable income.
-- [ ] Schedule M: other-state bond interest added; state refund, US obligations, Social Security, military pay subtracted.
-- [ ] Pension exclusion computed per taxpayer; Schedule P if over the cap with government service.
-- [ ] Depreciation and Section 179 recomputed under Kentucky rules; no federal changes after 31 December 2024 applied, including any inside Schedule C or E (for example §174A).
-- [ ] Child and dependent care credit: 20% of Form 2441 line 11 for 2025; for 2026, base confirmed against the 2026 line 24 instructions (no 20% of the P.L. 119-21 enhanced credit without DOR's say-so).
-- [ ] No child's income reported on the parent's Kentucky return.
-- [ ] Standard deduction or Kentucky itemized deductions (no state or local tax, real estate tax or medical deductions).
-- [ ] Personal credits only for 65+, blind or Kentucky National Guard.
-- [ ] Family size credit tested on MGI (greater of the two measures).
-- [ ] Form 8863-K only for undergraduate study at a Kentucky institution; caps applied; carryforward recorded.
-- [ ] Withholding from Schedule KW-2 only; no local occupational tax or other-state withholding included.
-- [ ] Penalties and interest considered; extension copy attached.
-- [ ] 2026 estimated tax vouchers set up if the 2026 estimate is more than $500.
-- [ ] Local occupational license tax obligations referred to the locality.
+Not yet confirmed: the 2026 pension income exclusion amount (DOR pages still show the 2025 $31,110 figure; the 2026 Form 740 packet was not yet published at read time); the 2026 family size tax credit table and thresholds (the 2025 table is archived; the 2026 table appears on Schedule ITC, not yet published); whether the 2026 child and dependent care credit base is the pre-2026 or post-P.L. 119-21 federal credit (check the 2026 Form 740 line 24 instructions before applying 20%); the 2027 individual income tax rate (reductions require General Assembly action; no 2027 act confirmed — the 2027 standard deduction of $3,470 per the DOR news release is for planning only).
 
 <!-- openaccountants-cta-block -->
 
