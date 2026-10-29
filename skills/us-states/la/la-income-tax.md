@@ -92,7 +92,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | --- | --- | --- |
 | Out-of-state bond interest | Interest on bonds of other states must be added | La. R.S. 47:293(4) |
 | Federal income tax deducted | The LDR Individual Income Tax page (verified 2026-10-28) still lists "Income taxes paid to other states" as a subtraction from federal AGI; whether a deduction for federal income taxes themselves survives Act 11 is unconfirmed | La. R.S. 47:293 |
-| IRC decoupling items | Any areas where Louisiana decouples from federal tax code changes — RIB 25-012 addresses bonus depreciation (federal 100% bonus decoupled for LA; verify current-year scope) | La. R.S. 47 |
+| IRC conformity items | Act 11 authorizes a **state bonus depreciation/bonus amortization deduction** (full expensing for qualified property/QIP and R&E under IRC §174 as in effect January 1, 2024); neither may duplicate the federal deduction for the same year (RIB 25-012, verified PDF 2026-10-28) | La. R.S. 47; Act 11 |
 
 ### Subtractions from income
 
