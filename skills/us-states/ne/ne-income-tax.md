@@ -47,7 +47,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Section 2: Quick reference — rates and thresholds
 
-### Tax brackets — Single / Married filing separately (TY 2025)
+### Tax brackets — Single / Married filing separately (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
 
 **Tax brackets — Single / Married filing separately (TY 2025)**
 
@@ -58,7 +58,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | $24,120 | $38,870 | 5.01% | $804.30 |
 | $38,870 | — | 5.20% | $1,543.28 |
 
-### Tax brackets — Married filing jointly / Qualifying surviving spouse (TY 2025)
+### Tax brackets — Married filing jointly / Qualifying surviving spouse (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
 
 **Tax brackets — Married filing jointly / Qualifying surviving spouse (TY 2025)**
 
@@ -69,7 +69,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | $48,250 | $77,730 | 5.01% | $1,609.15 |
 | $77,730 | — | 5.20% | $3,086.10 |
 
-### Tax brackets — Head of household (TY 2025)
+### Tax brackets — Head of household (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
 
 **Tax brackets — Head of household (TY 2025)**
 
