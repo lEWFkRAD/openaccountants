@@ -326,6 +326,10 @@ Client facts: federal section 168(k) bonus depreciation of $60,000 on equipment;
 
 ### Sources
 
+| Source | URL | Read on |
+| --- | --- | --- |
+| Ohio Dept of Taxation | https://tax.ohio.gov/ | 2026-10-28 |
+
 Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
@@ -395,12 +399,12 @@ Not yet confirmed against archived sources.
 
 Not yet confirmed against archived sources.
 
-## Sources
+### Sources
 
 
 Not yet confirmed against archived sources.
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 
 Not yet confirmed against archived sources.

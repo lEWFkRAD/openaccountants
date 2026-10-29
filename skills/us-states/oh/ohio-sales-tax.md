@@ -279,10 +279,10 @@ Only services listed in Ohio law are taxable. Common ones, and the conditions th
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
@@ -306,18 +306,25 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this skill lack archived line-citations.
 
-## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
-
-## Sources
-
+| Source | URL | Read on |
+| --- | --- | --- |
+| Ohio Dept of Taxation | https://tax.ohio.gov/ | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
 ## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
+
+### Sources
+
+
+Not yet confirmed against archived sources.
+
+### Talk to a verified accountant
 
 
 Not yet confirmed against archived sources.

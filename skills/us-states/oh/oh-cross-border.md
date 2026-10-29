@@ -40,7 +40,7 @@ How Ohio taxes people and payrolls that cross its borders: the **five-state reci
 
 **Source status (as_of 2026-10-27):** [ORC 5747.05](https://codes.ohio.gov/ohio-revised-code/section-5747.05) (tax credits; resident credit for tax paid to another state or D.C. on income subjected to tax there; credit capped at Ohio tax; no credit where the other-state tax was deducted federally) and [ORC 5747.20](https://codes.ohio.gov/ohio-revised-code/section-5747.20) (nonbusiness income allocation: residents allocate all items to Ohio; nonresidents allocate Ohio-performed personal-services compensation to Ohio) fetched HTTP 200 and read. Reciprocity list, IT NRC/IT RC mechanics, contact-period counts and the 20-day rule are carried from the tier-2 `oh-income-tax` (2025 IT 1040 instructions, read 2026-09-25) and `oh-payroll` (R.C. 718.011 as rewritten by SB 22, read 2026-07-13).
 
-## 2. Who applies
+### 2. Who applies
 
 - **Full-year nonresidents in IN, KY, MI, PA or WV:** no Ohio IT 1040 if their **only** Ohio-source income is wages (reciprocity). Any other Ohio income — rental from Ohio property, Ohio business income, Ohio gaming winnings — breaks the waiver and forces a return.
 - **Other nonresidents with Ohio income:** file IT 1040 and claim the **IT NRC** credit for income not earned or received in Ohio.
@@ -74,7 +74,7 @@ Not yet confirmed against archived sources.
 | IT NRC / IT RC | Attached to the IT 1040 via Schedule of Credits |
 | Municipal employer returns | Per municipality/RITA/CCA calendar (Form 27 RITA year-end etc.) — see `oh-payroll` |
 
-## Penalties and interest (not yet confirmed)
+## Penalties and interest
 
 - IT/SD 2210 underpayment interest on line 11 of the IT 1040; late-payment interest on line 21 — Ohio charges **interest, not a late-filing penalty percentage** on the individual return (per `oh-income-tax` 2025 instructions).
 - Delinquency billings can fire when federal AGI > $28,450 and no Ohio return was filed — the Department recommends filing even at zero tax (`oh-income-tax`).
@@ -154,7 +154,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 Not yet confirmed against archived sources.
 
-## Sources
+### Sources
 
 | Source | URL | Read on |
 | --- | --- | --- |
@@ -170,7 +170,7 @@ Not yet confirmed against archived sources.
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Ohio nonresident, reciprocity and commuter questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 
 Not yet confirmed against archived sources.
