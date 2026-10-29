@@ -2,83 +2,78 @@
 name: dc-cross-border
 description: >
   Use this skill whenever asked about District of Columbia
-  cross-border taxation for tax year 2026 — DC-source income for
-  non-resident individuals (D-40NR), non-resident entity filing
-  through mandatory combined reporting, the absence of a DC exit
-  tax, P.L. 86-272 scope, non-resident withholding, and the
-  special DC rule that DC residents working abroad generally do
-  NOT get a foreign-tax credit for income taxed where earned.
-  Trigger on "DC non-resident", "DC D-40NR", "District of Columbia
-  source income", "DC combined reporting foreign", "DC foreign tax
-  credit", "DC P.L. 86-272", "DC exit tax". Source-cited draft;
-  OTR pages read 2026-10-27; statutory detail needs-sources.
+  cross-border taxation for tax year 2026 — the Home Rule bar on
+  taxing non-resident individuals' income (commuter refunds on Form
+  D-40B), non-resident entity filing through mandatory combined
+  reporting, P.L. 86-272 scope, and the position of DC residents
+  working abroad. Trigger on "DC non-resident", "DC D-40B",
+  "District of Columbia source income", "DC combined reporting
+  foreign", "DC P.L. 86-272", "DC commuter tax".
 jurisdiction: US-DC
 category: cross-border
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - dc-income-tax
   - dc-franchise-tax
 ---
 
-# District of Columbia cross-border taxation v0.1
+# District of Columbia cross-border taxation, tax year 2026
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+> **Source-cited draft.** Built from D.C. Code §§ 1-206.02, 47-1807.02, 47-1808.03 and 47-1810.02, the OTR Combined Reporting and Business Franchise Tax Rates pages, and the OTR 2025 Form D-40B, read on 2026-10-28. No accountant has reviewed it. Do not take a position from it without review by a qualified professional.
 
-## 1. Scope and sources
+DC's cross-border posture is unusual: **individuals are taxed only on residency**, while **entities are pulled in through mandatory combined reporting** for unitary groups.
 
-Source-cited draft, run of 27 October 2026. DC cross-border rules: individuals are taxed on **residency** (DC residents: worldwide income on D-40; non-residents: DC-source income on D-40NR); entities are pulled in through **mandatory combined reporting** for unitary groups (OTR Combined Reporting page, fetched 2026-10-27, 200, text read — combination required for TYB ≥ 2011-01-01). DC has **no entity exit tax** regime (confirm — **needs-sources**). **Source status:** the combined-reporting mandate is read from the OTR page; DC-source definitions, D-40NR mechanics, the foreign-tax-credit posture for DC residents working abroad, and P.L. 86-272 administration sit in DC Code Title 47 ch. 18 / OTR individual pages not extracted this run — flagged **needs-sources**.
+## Who this applies to
 
-## 2. Who applies
+- **Non-resident individuals.** The Home Rule Act bars the Council from imposing "any tax on the whole or any portion of the personal income ... of any individual not a resident of the District" ([D.C. Code § 1-206.02](https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02)). A commuter who lives in Maryland or Virginia and works in DC files no DC income-tax return; there is no DC non-resident individual return. DC tax withheld in error from a non-resident's wages is recovered on **Form D-40B, Nonresident Request for Refund** ([2025 D-40B](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40B_Form_012026.pdf)).
+- **Part-year residents** file the D-40 for the DC-domicile period only, with prorated deduction and credits (see `dc-income-tax`).
+- **Non-resident entities:** any member of a unitary group with DC nexus is swept into the combined franchise return — "For tax years beginning on or after January 1, 2011, a corporation or unincorporated business entity subject to tax and engaged in a unitary business with one or more corporations or unincorporated business entities" must report on a combined basis ([OTR Combined Reporting page](https://otr.cfo.dc.gov/page/combined-reporting-business-entities), read 2026-10-28). Physical presence is not the only hook once unity and DC nexus exist.
+- **DC residents working abroad:** DC taxes residents on worldwide income; the availability of a credit for foreign income taxes paid by a resident is not confirmed in the archived sources (see the Not yet confirmed line).
 
-- **Non-resident individuals** with DC-source income (work performed in DC, DC rents, DC business income) file **D-40NR** (form family confirmed via OTR; thresholds **needs-sources**).
-- **Non-resident entities**: any member of a unitary group with DC nexus is swept into the combined return (OTR page, read 2026-10-27) — physical presence is not the only hook once unity + DC nexus exist.
-- **P.L. 86-272**: solicitation-only protection for tangible-goods sales (federal statute; DC administration **needs-sources**).
-- **DC residents working abroad/overseas**: DC generally taxes worldwide income; the availability of a credit for foreign income taxes is narrow — **needs-sources** (this is a known DC trap for military/diplomatic/expat households).
-
-## 3. Key rules
+## Rates, bands and thresholds
 
 | Item | Rule | Source |
 |---|---|---|
-| Entity nexus | unitary-group membership + DC nexus → combined return | OTR page, read 2026-10-27 |
-| Water's edge | availability/mechanics **needs-sources** | not extracted |
-| Individual non-resident filing | D-40NR on DC-source income; threshold **needs-sources** | OTR form family |
-| Exit tax | none identified — confirm | **needs-sources** |
-| Foreign tax credit (residents abroad) | narrow/uncertain — **needs-sources** | DC Code §47-1808 et seq. not extracted |
+| Non-resident individual income tax | **Barred** — no tax on any portion of a non-resident's personal income | [D.C. Code § 1-206.02](https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02) |
+| Commuter withholding refund | Form D-40B, available to a non-resident "who did not maintain a place of abode in DC for a total of 183 days or more" whose only DC-source income was wages | [2025 D-40B](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40B_Form_012026.pdf) |
+| Entity nexus | Unitary-group membership + DC nexus → combined return, TYB ≥ 1 January 2011 | [OTR Combined Reporting page](https://otr.cfo.dc.gov/page/combined-reporting-business-entities) |
+| Combined-group rate | 8.25% on DC-apportioned taxable income; $250/$1,000 minimum tax | [D.C. Code § 47-1807.02](https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02); [§ 47-1808.03](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03) |
+| Apportionment of business income | Single sales factor | [D.C. Code § 47-1810.02(d-2)](https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02) |
 
-## 4. Deadlines
+## The taxable base
 
-D-40NR follows the individual calendar (April 15). Entity combined returns follow the franchise calendar (see `dc-franchise-tax`). Federal audit-change reporting window to OTR: **needs-sources**.
+- **Individuals:** residency, not source. Residents report worldwide income; non-residents report nothing (subject only to erroneous withholding, recovered on D-40B with the W-2s and, from tax year 2025, a copy of the home state's return attached).
+- **Entities:** the unitary group's combined taxable income, apportioned to DC by the sales factor alone ([§ 47-1810.02(d-2)](https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02)); intragroup transactions are eliminated in combination.
 
-## 5. Penalties and interest
+## Deadlines and filing
 
-DC Code §47-1801.11 penalties (percentages **needs-sources**). Common failure modes: (1) foreign subsidiaries left off the combined return without a confirmed water's-edge position; (2) DC-resident employees seconded abroad assuming the host country's tax relieves DC — it generally does not; (3) non-resident individuals with DC workdays (remote weeks in DC) missing D-40NR; (4) P.L. 86-272 assumed to cover services/SaaS — it does not.
+- **D-40B** follows the individual calendar (15 April; the 2025 form can be filed on MyTax.DC.gov from tax year 2025).
+- **Entity combined returns** follow the franchise-tax calendar — estimated payments 15 April, 15 June, 15 September, 15 December with the 110% prior-year safe harbor (see `dc-franchise-tax`).
 
-## 6. Worked examples
+## Penalties and interest
 
-A non-resident individual worked 40 of 200 workdays in DC, salary $150,000:
+- Failure-to-file/failure-to-pay additions of 5% a month up to 25%, and 10%-a-year interest compounded daily, apply to DC returns generally ([D.C. Code § 47-4213](https://code.dccouncil.gov/us/dc/council/code/sections/47-4213); [§ 47-4201](https://code.dccouncil.gov/us/dc/council/code/sections/47-4201), both archived 2026-10-28).
+- Common failure modes: (1) foreign subsidiaries left off the combined return without a confirmed water's-edge position; (2) DC-resident employees seconded abroad assuming the host country's tax relieves DC — DC taxes residents on worldwide income; (3) non-resident individuals with DC tax withheld in error never filing the D-40B refund claim; (4) P.L. 86-272 assumed to cover services or software — the federal statute protects only solicitation of orders for tangible personal property.
+
+## Cross-border points
+
+- **Combined reporting** pulls out-of-District unitary affiliates into the DC computation; foreign affiliates' water's-edge treatment is not confirmed in the archived sources (see the Not yet confirmed line).
+- **P.L. 86-272** (federal statute): solicitation-only protection for tangible-goods sellers; DC's administration of it was not read from an archived source this run.
+- **Remote workers:** an out-of-state employer whose employee performs services in DC has DC withholding and DOES registration duties (see `dc-payroll-withholding`, `dc-unemployment-contributions`); the non-resident employee still owes no DC income tax.
+- **No DC entity exit-tax regime** is described in the archived sources.
+
+## Worked examples
+
+Client facts below are hypothetical; all rates are the confirmed figures from the tables above.
+
+**A unitary group with $8,000,000 combined net income and a DC sales-factor share of 0.10:**
 
 ```oa-check
-name: DC non-resident workday sourcing
-inputs:
-  dc_days: 40
-  total_days: 200
-  salary: 150000
-steps:
-  - ratio: dc_days / total_days
-  - dc_source: salary * ratio
-expected:
-  ratio: 0.20
-  dc_source: 30000.00
-```
-
-A unitary group with a foreign subsidiary excluded pending water's-edge confirmation; combined income $8,000,000, DC factor 0.10 (illustrative):
-
-```oa-check
-name: DC combined foreign-sub exposure
+name: DC combined group apportioned tax
 inputs:
   combined_income: 8000000
   factor: 0.10
@@ -91,18 +86,46 @@ expected:
   tax: 66000.00
 ```
 
-## 7. Ask the client
+**A commuter's refund:** a Maryland resident, never maintaining a DC abode for 183 days or more, had $2,000 of DC tax withheld from DC wages in 2025. The client files Form D-40B with the W-2s and a copy of the Maryland return, and recovers the full $2,000 — no DC income tax applies to a non-resident's wages ([D.C. Code § 1-206.02](https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02); [2025 D-40B](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40B_Form_012026.pdf)).
+
+## Ask the client first
 
 - Foreign subsidiaries: on the combined return or excluded under a documented water's-edge position?
 - DC-resident employees working abroad: is DC worldwide taxation modeled in the assignment cost?
-- Remote workers with DC workweeks: D-40NR and withholding covered?
+- Commuters with DC withholding: D-40B refund claims filed (with the home-state return attached)?
 - Tangible-goods sellers: is the P.L. 86-272 activity inventory actually solicitation-only?
+- Entity nexus: is every unitary member on the combined return?
 
 ## Sources
 
-1. OTR Combined Reporting: https://otr.cfo.dc.gov/page/combined-reporting-business-entities (200, text read 2026-10-27)
-2. OTR Business Franchise Tax Rates: https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates (200, read 2026-10-27)
-3. DC Code Title 47 ch. 18: https://code.dccouncil.gov/us/dc/council/code/titles/47/chapters/18/ (200; section text not extracted — **needs-sources**)
+| Source | URL | Read on |
+|---|---|---|
+| D.C. Code § 1-206.02 (Home Rule bar on taxing nonresident income) | https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02 | 2026-10-28 |
+| D.C. Code § 47-1807.02 (corporate rate and minimum tax) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02 | 2026-10-28 |
+| D.C. Code § 47-1808.03 (unincorporated business rate and minimum tax) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03 | 2026-10-28 |
+| D.C. Code § 47-1810.02 (apportionment; single sales factor) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02 | 2026-10-28 |
+| D.C. Code § 47-4213 (failure-to-file/pay additions) | https://code.dccouncil.gov/us/dc/council/code/sections/47-4213 | 2026-10-28 |
+| D.C. Code § 47-4201 (interest, 10% compounded daily) | https://code.dccouncil.gov/us/dc/council/code/sections/47-4201 | 2026-10-28 |
+| OTR: Combined Reporting of Business Entities | https://otr.cfo.dc.gov/page/combined-reporting-business-entities | 2026-10-28 |
+| OTR: DC Business Franchise Tax Rates | https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates | 2026-10-28 |
+| OTR 2025 Form D-40B (PDF) | https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40B_Form_012026.pdf | 2026-10-28 |
+
+Not yet confirmed: the water's-edge treatment of foreign affiliates in a DC combined report; DC's administration of P.L. 86-272 (the federal statute protects solicitation-only sales of tangible personal property, but DC-side guidance was not archived this run); the availability of a DC foreign-tax credit for residents working abroad; and the federal audit-change reporting window to OTR.
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for DC cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

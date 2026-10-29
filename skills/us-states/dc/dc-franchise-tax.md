@@ -7,66 +7,73 @@ description: >
   groups, the $250/$1,000 minimum taxes, the 30% owner salary
   allowance and $5,000 exemption for unincorporated businesses, the
   personal-services exemption, estimated tax (D-20ES/D-30ES, 110%
-  safe harbor), and D-22/D-30 return mechanics. Trigger on "DC
+  safe harbor), and D-20/D-30 return mechanics. Trigger on "DC
   franchise tax", "District of Columbia corporate tax", "DC 8.25
   percent", "DC combined reporting", "DC D-20", "DC D-30", "DC
-  minimum franchise tax". Source-cited draft; OTR rates, combined
-  reporting, and estimated-tax pages read 2026-10-27.
+  minimum franchise tax".
 jurisdiction: US-DC
 category: corporate
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
-version: 0.1
+last_updated: 2026-10-28
+version: 0.2
 verified_by: pending
 depends_on:
   - dc-income-tax
 ---
 
-# District of Columbia franchise tax v0.1
+# District of Columbia franchise tax, tax year 2026
 
-> **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
+> **Source-cited draft.** Built from D.C. Code §§ 47-1807.02, 47-1808.01, 47-1808.03, 47-1810.02, 47-4201 and 47-4213 and the OTR Business Franchise Tax Rates, Combined Reporting and Estimated Tax pages, read on 2026-10-28. No accountant has reviewed it. Do not run a filing from it without review by a qualified professional.
 
-## 1. Scope and sources
+The District's business income tax is the **franchise tax**: **8.25%** of DC-computed net income for corporations and for unincorporated businesses, computed on a **combined-reporting basis** for unitary groups. DC administers it through the **Office of Tax and Revenue (OTR)**. See also `dc-transfer-pricing` (combined-reporting mechanics), `dc-cross-border`, `dc-income-tax` (the D-30 trigger for sole proprietors).
 
-Source-cited draft, run of 27 October 2026. The District's business income tax is the **franchise tax**: **8.25%** of DC-computed net income for corporations and for unincorporated businesses, computed on a **combined-reporting basis** for unitary groups (rate table 2018–2025 and the combined-reporting mandate read from the OTR Business Franchise Tax Rates page and the Combined Reporting page, fetched 2026-10-27). **Source status:** the 8.25% rate (2018–2025 table), the $250/$1,000 minimum taxes, the unincorporated-business rules (gross receipts > $12,000 filing trigger, 30% owner salary allowance, $5,000 exemption, personal-services exemption), the combined-reporting rule (TYB ≥ 2011-01-01), and the estimated-tax regime (>$1,000 trigger; 4/15·6/15·9/15·12/15; 110%-prior-year safe harbor; D-20ES/D-30ES/D-2210/D-2220) are all read from OTR pages. The 2026 rate is not yet printed in OTR's table — **needs-sources** (8.25% assumed from the 2018–2025 run). Return-form line detail (D-20/D-30) not extracted — **needs-sources**.
+## Who this applies to
 
-## 2. Who applies
+- **Corporations** (including financial institutions) with DC-source income, filing on a combined basis for unitary groups ([OTR rates page](https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates); [OTR combined reporting page](https://otr.cfo.dc.gov/page/combined-reporting-business-entities)). Corporations and financial institutions cannot escape the minimum tax even with exempt business income (note read from the OTR rates page).
+- **Unincorporated businesses** (partnerships, LLCs, sole proprietorships) with DC gross receipts over **$12,000**: the OTR rates page applies the franchise tax to unincorporated businesses "on a combined reporting basis with gross receipts more than $12,000".
+- **Exemption:** an unincorporated business is exempt where more than 80% of gross income is personal services rendered by members and capital is not a material income-producing factor; also entities that by law, customs or ethics cannot incorporate (OTR rates page, read 2026-10-28; [D.C. Code § 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01)) — a critical rule for professional practices.
 
-- **Corporations** (including financial institutions) with DC-source income, filing on a combined basis for unitary groups (OTR pages, read 2026-10-27). Corporations/financial institutions cannot escape the minimum tax even with exempt business income (note read from the OTR rates page).
-- **Unincorporated businesses** (partnerships, LLCs, sole proprietorships) with DC gross receipts over **$12,000** (OTR rates page, read 2026-10-27).
-- **Exemption:** an unincorporated business is exempt where more than 80% of gross income is personal services rendered by members and capital is not a material income-producing factor; also entities that by law/customs/ethics cannot incorporate (OTR rates page, read 2026-10-27) — a critical rule for professional practices.
-
-## 3. Rates and base
+## Rates, bands and thresholds
 
 | Item | Rate / base | Source |
 |---|---|---|
-| Corporate franchise tax | **8.25%** (table shows 2018–2025; 2026 needs-sources) | OTR rates page, read 2026-10-27 |
-| Unincorporated franchise tax | **8.25%** (same table) | OTR rates page, read 2026-10-27 |
-| Minimum tax | **$250** (DC gross receipts ≤ $1M) / **$1,000** (> $1M) | OTR rates page, read 2026-10-27 |
-| Unincorporated deductions | 30% owner salary allowance + $5,000 exemption | OTR rates page, read 2026-10-27 |
-| Filing trigger (unincorporated) | DC gross receipts > $12,000 | OTR rates page, read 2026-10-27 |
-| Base | DC-computed net income on combined-reporting basis | OTR combined reporting page, read 2026-10-27 |
+| Corporate franchise tax | **8.25%** of taxable income, for taxable years beginning after 31 December 2017 (so 2018 through 2026) | [D.C. Code § 47-1807.02(a)(8)](https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02): "For taxable years beginning after December 31, 2017, a tax at the rate of 8.25% upon the taxable income of every corporation, whether domestic or foreign"; OTR rates page table (2018–2025) |
+| Unincorporated franchise tax | **8.25%** of taxable income, same period | [D.C. Code § 47-1808.03(a)(8)](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03): "For taxable years beginning after December 31, 2017, a tax at the rate of 8.25% upon the taxable income of every unincorporated business, whether domestic or foreign" |
+| Minimum tax | **$250** (DC gross receipts ≤ $1M) / **$1,000** (> $1M) | § 47-1807.02(b) / § 47-1808.03(b): "The minimum tax payable under this section shall be $250. If District gross receipts are greater than $1 million..."; OTR rates page: "$250 minimum tax, if DC gross receipts are $1 million or less" |
+| Unincorporated deductions | 30% salary allowance for owners + $5,000 exemption, deducted from net income to reach taxable income | OTR rates page: "A 30% salary allowance for owners and a $5,000 exemption are deductible from net income to arrive at taxable income" |
+| Filing trigger (unincorporated) | DC gross receipts > $12,000 | OTR rates page |
+| Apportionment | Single sales factor | [D.C. Code § 47-1810.02(d-2)](https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02): "All business income shall be apportioned to the District by multiplying the income by the sales factor" |
 
-## 4. Deadlines
+## The taxable base
 
-- **Returns:** D-20 (corporate) / D-30 (unincorporated) follow the federal calendar (April 15 individual-based, corporate per federal date) — form-level confirmation **needs-sources**.
-- **Estimated tax:** required when liability > **$1,000**; calendar-year filers pay **April 15, June 15, September 15, December 15**; fiscal filers on months 4/6/9/12 (OTR Estimated Tax page, read 2026-10-27).
-- **Safe harbor:** no underpayment interest when current-year liability < $1,000, prior-year liability was zero, payments ≥ **110% of prior year**, or remaining due < 10% of liability (OTR page, read 2026-10-27). Annualization via D-2220 (OTR page, read 2026-10-27).
+- The base is **DC-computed net income** on a **combined-reporting basis** for unitary groups: for taxable years beginning on or after 1 January 2011, a business "engaged in a unitary business with one or more corporations or unincorporated business entities" must file a combined franchise-tax return ([OTR combined reporting page](https://otr.cfo.dc.gov/page/combined-reporting-business-entities)).
+- Unincorporated businesses deduct the 30% owner salary allowance and the $5,000 exemption from net income before applying the 8.25% rate (OTR rates page).
+- Business income is apportioned to DC by the **sales factor alone** ([§ 47-1810.02(d-2)](https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02)); intragroup transactions are eliminated in combination (see `dc-transfer-pricing`).
 
-## 5. Penalties and interest
+## Deadlines and filing
 
-Underpayment-of-estimated interest computed on D-2210 (individuals) / D-2220 (business annualization) — OTR page, read 2026-10-27; statutory penalty percentages under DC Code §47-1801.02 et seq. — **needs-sources**. Common failure modes: (1) professional LLCs assuming the individual return covers everything — the unincorporated franchise tax applies unless the 80% personal-services exemption is documented; (2) forgetting the owner-salary allowance when computing the base; (3) 100%-of-prior-year accruals when DC's safe harbor is **110%**; (4) minimum tax missed by exempt-income corporations.
+- **Estimated tax:** required when the year's DC franchise tax liability is more than **$1,000**; calendar-year filers pay **15 April, 15 June, 15 September and 15 December**; fiscal filers on the 15th day of months 4, 6, 9 and 12 of the tax year ([OTR estimated tax page](https://otr.cfo.dc.gov/page/underpayment-estimated-tax-interest): "Estimated tax payments are due: Calendar Year Filers: April 15; and June 15; and September 15; and December 15"). Corporations use the D-20ES vouchers and unincorporated businesses the D-30ES (same page).
+- **Safe harbor:** no underpayment interest where the current year's liability is less than $1,000, there was no DC franchise tax liability in the preceding year, estimated payments equal or exceed **110% of the preceding year's liability**, or the remaining balance after credits and estimates is less than 10% of the year's liability (OTR estimated tax page). Annualization uses **Form D-2220** (same page).
+- **Returns:** D-20 (corporate) / D-30 (unincorporated). Form-level due dates were not read from an archived OTR return instruction this run — see the Not yet confirmed line and the current D-20/D-30 instructions.
 
-## 6. Cross-border interactions
+## Penalties and interest
+
+- **Failure-to-file / failure-to-pay additions:** 5% a month up to 25% each, with the failure-to-file addition reduced by the failure-to-pay addition for the same months; neither applies with reasonable cause ([D.C. Code § 47-4213](https://code.dccouncil.gov/us/dc/council/code/sections/47-4213), archived 2026-10-28 as `US-DC-47-4213.html`).
+- **Interest** on unpaid tax runs at **10% a year, compounded daily** ([D.C. Code § 47-4201](https://code.dccouncil.gov/us/dc/council/code/sections/47-4201), archived 2026-10-28 as `US-DC-47-4201.html`). Businesses compute estimated-tax underpayment interest on **Form D-2220** (OTR estimated tax page); individuals use the D-2210.
+- Common failure modes: (1) professional LLCs assuming the individual return covers everything — the unincorporated franchise tax applies unless the 80% personal-services exemption is documented; (2) forgetting the owner-salary allowance when computing the D-30 base; (3) 100%-of-prior-year accruals when DC's safe harbor is **110%**; (4) minimum tax missed by exempt-income corporations.
+
+## Cross-border points
 
 - Combined reporting pulls out-of-District unitary affiliates into the DC computation (see `dc-transfer-pricing`).
-- DC sources income under DC Code Title 47 ch. 18 subch. II (apportionment — single-sales-factor history: confirm, **needs-sources**).
-- No DC exit tax regime for entities; non-resident entity taxation runs through DC-source combined income (see `dc-cross-border`).
+- DC sources and apportions income under D.C. Code Title 47 ch. 18: business income by the **single sales factor** ([§ 47-1810.02(d-2)](https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02)).
+- No DC entity exit-tax regime is described in the archived sources; non-resident entity taxation runs through DC-source combined income (see `dc-cross-border`).
 
-## 7. Worked examples
+## Worked examples
 
-An unincorporated business with $200,000 DC net income (gross receipts well over $12,000, no personal-services exemption):
+Client facts below are hypothetical; all rates and thresholds are the confirmed figures from the tables above.
+
+**An unincorporated business with $200,000 DC net income** (gross receipts well over $12,000, no personal-services exemption):
 
 ```oa-check
 name: DC unincorporated franchise tax with salary allowance
@@ -85,7 +92,7 @@ expected:
   tax: 11137.50
 ```
 
-A corporation with $1,000,000 DC-apportioned combined net income:
+**A corporation with $1,000,000 DC-apportioned combined net income:**
 
 ```oa-check
 name: DC corporate franchise tax
@@ -100,19 +107,44 @@ expected:
   min_check: 82500.00
 ```
 
-## 8. Ask the client
+## Ask the client first
 
 - Does the entity qualify for the 80% personal-services exemption — is the capital-not-material test documented?
 - Are estimated payments tracking the 110% safe harbor (not 100%)?
 - Is the owner-salary allowance being claimed correctly on the D-30?
 - Part of a unitary group? The combined report is mandatory — see `dc-transfer-pricing`.
+- DC gross receipts relative to $12,000 (unincorporated filing trigger) and $1 million (minimum-tax tier)?
 
 ## Sources
 
-1. OTR Business Franchise Tax Rates: https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates (200, text read 2026-10-27 — 8.25% table, minimums, unincorporated rules, exemptions)
-2. OTR Combined Reporting: https://otr.cfo.dc.gov/page/combined-reporting-business-entities (200, text read 2026-10-27 — mandatory combination TYB ≥ 2011)
-3. OTR Estimated Tax Requirement: https://otr.cfo.dc.gov/page/underpayment-estimated-tax-interest (200, text read 2026-10-27 — thresholds, dates, safe harbor, forms)
-4. DC Code Title 47 ch. 18: https://code.dccouncil.gov/us/dc/council/code/titles/47/chapters/18/ (200; section text not extracted — **needs-sources**)
+| Source | URL | Read on |
+|---|---|---|
+| D.C. Code § 47-1807.02 (corporate rate and minimum tax) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02 | 2026-10-28 |
+| D.C. Code § 47-1808.03 (unincorporated business rate and minimum tax) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03 | 2026-10-28 |
+| D.C. Code § 47-1810.02 (apportionment; single sales factor) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02 | 2026-10-28 |
+| D.C. Code § 47-1808.01 (unincorporated business; personal-services exemption) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01 | 2026-10-28 |
+| D.C. Code § 47-4213 (failure-to-file/pay additions) | https://code.dccouncil.gov/us/dc/council/code/sections/47-4213 | 2026-10-28 |
+| D.C. Code § 47-4201 (interest, 10% compounded daily) | https://code.dccouncil.gov/us/dc/council/code/sections/47-4201 | 2026-10-28 |
+| OTR: DC Business Franchise Tax Rates | https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates | 2026-10-28 |
+| OTR: Combined Reporting of Business Entities | https://otr.cfo.dc.gov/page/combined-reporting-business-entities | 2026-10-28 |
+| OTR: Estimated Tax Requirement / Underpayment Interest | https://otr.cfo.dc.gov/page/underpayment-estimated-tax-interest | 2026-10-28 |
+
+Not yet confirmed: the D-20 and D-30 return due dates and form-line mechanics (not read from an archived return instruction this run); the water's-edge treatment of foreign affiliates in a DC combined group; and the 2026 row of OTR's rate table (its published table lists 2018 through 2025, while the statutory 8.25% rate in D.C. Code §§ 47-1807.02(a)(8) and 47-1808.03(a)(8) applies to all taxable years beginning after 31 December 2017).
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for DC franchise tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+---
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.

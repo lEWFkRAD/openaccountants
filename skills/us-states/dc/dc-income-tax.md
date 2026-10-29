@@ -1,7 +1,7 @@
 ---
 name: dc-income-tax
 description: "District of Columbia Individual Income Tax Return (Form D-40) for sole proprietors and single-member LLCs. Covers the seven-bracket graduated system (4%–10.75%), DC standard deduction computation, Schedule S additions and subtractions, estimated tax (D-40ES), and the Earned Income Tax Credit. Trigger: taxpayer is domiciled in DC or maintains an abode for 183+ days during the tax year."
-version: "0.2"
+version: "0.3"
 jurisdiction: US-DC
 tax_year: 2026
 last_updated: 2026-10-28
@@ -14,16 +14,18 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # District of Columbia individual income tax (Form D-40), including sole proprietors
 
-## Scope and who this is for ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf))
+> **Source-cited draft.** Built from D.C. Code §§ 47-1801.04, 47-1803.03, 47-1806.03, 47-1806.04, 47-1806.06, 47-1806.15, 47-1808.01, 47-4201 and 47-4213, D.C. Law 26-89, the OTR 2025 D-40 booklet, the 2026 D-40ES booklet and OTR rate pages, read on 2026-10-28. No accountant has reviewed it. Do not run a return from it without review by a qualified professional.
 
 This skill covers the District of Columbia (DC) individual income tax return, **Form D-40**, for **tax year 2026** (returns filed in 2027), with a dated section for **2025 returns**. It is for DC residents and part-year residents, including sole proprietors and single-member LLC owners whose business profit reaches DC through federal adjusted gross income (AGI).
 
-**Read this first: the 2026 law is not settled.** In December 2025, emergency and temporary acts changed DC's rules for 2025. They decoupled DC from several federal changes made by P.L. 119-21 ("OBBBA"). The temporary act expires on **25 September 2026**. In July 2026 the Council passed the Fiscal Year 2027 Budget Support Act (BSA) on its second vote, and also as an emergency act ([Council, 10 July 2026](https://dccouncil.gov/council-wraps-up-budget-season-with-second-vote-on-the-budget-support-act/)). When this skill was written, no official DC page showed that act's enacted tax text. It may differ from the April 2026 draft described below. So:
+**Read this first: the 2026 law is not settled.** In December 2025, emergency and temporary acts changed DC's rules for 2025. They decoupled DC from several federal changes made by P.L. 119-21 ("OBBBA"). The temporary act expires on **25 September 2026** ([AG opinion, 24 February 2026](https://oag.dc.gov/sites/default/files/2026-02/AG-Opinion-Decoupling-Retroactivity-and-Validity-.pdf)). In July 2026 the Council passed the Fiscal Year 2027 Budget Support Act (BSA) on its second vote, and also as an emergency act ([Council, 10 July 2026](https://dccouncil.gov/council-wraps-up-budget-season-with-second-vote-on-the-budget-support-act/)). When this skill was written, no official DC page showed that act's enacted tax text. It may differ from the April 2026 draft described below. So:
 - **2025 figures are firm.** They come from the 2025 D-40 booklet and the temporary act.
-- **2026 rates are firm.** They have not changed since 2022.
+- **2026 rates are firm.** They have not changed since 2022 ([D.C. Code § 47-1806.03](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.03), paragraph (11)).
 - **Several 2026 amounts are not settled:** the standard deduction, the EITC match, the child tax credit, and the federal deductions for tips, overtime, car loan interest and seniors. This skill gives the official amounts that exist and says what to check. See "Federal conformity (OBBBA)".
 
 It does **not** cover the unincorporated business franchise tax return (Form D-30) beyond a pointer, the corporate franchise tax (D-20), fiduciary returns (D-41), withholding, real property tax, or estate tax. See "When to refuse or refer".
+
+## Who this applies to
 
 **Who is a resident** ([D.C. Code § 47-1801.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04), paragraph 42):
 - anyone **domiciled** in DC **at any time** during the tax year; or
@@ -35,89 +37,28 @@ It does **not** cover the unincorporated business franchise tax return (Form D-3
   - Supreme Court justices.
 - A temporary or transitory absence from DC does not change domicile or place of abode.
 
-**Nonresidents are not taxed on their income.** The Home Rule Act bars the Council from imposing "any tax on the whole or any portion of the personal income ... of any individual not a resident of the District" ([D.C. Code § 1-206.02](https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02)). A commuter who lives in Maryland or Virginia and works in DC does not file a D-40. Some commuters have DC tax withheld from their pay, or pay DC estimated tax, in error. They claim it back on **Form D-40B, Nonresident Request for Refund** (see "Filing and payment").
+**Nonresidents are not taxed on their income.** The Home Rule Act bars the Council from imposing "any tax on the whole or any portion of the personal income ... of any individual not a resident of the District" ([D.C. Code § 1-206.02](https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02)). A commuter who lives in Maryland or Virginia and works in DC does not file a D-40. Some commuters have DC tax withheld from their pay, or pay DC estimated tax, in error. They claim it back on **Form D-40B, Nonresident Request for Refund** (see "Deadlines and filing").
 
-## Ask the client first
+**Sole proprietors and single-member LLC owners** file the D-40 and report business profit through federal AGI. DC also taxes an unincorporated business separately on the D-30; see "The taxable base" for the trigger and the referral rule.
 
-- **Which tax year?** 2025 has firm rules. For 2026, the rates are firm but the deduction and credit amounts must be checked.
-- **Residency for the whole year.**
-  - Where was the client domiciled, and on which dates?
-  - Did they keep a home in DC? Count the days it was available to them. 183 days or more makes them a resident, even if they were domiciled elsewhere.
-  - Did they move in or out during the year?
-- **Are they in an excluded group?** For example:
-  - a member of Congress, or congressional staff from the member's home state;
-  - a Senate-confirmed presidential appointee or a Supreme Court justice;
-  - a military member or spouse whose legal residence is in another state.
-- **Federal return:** filing status, federal AGI, and whether they took the standard deduction or itemized. DC follows that choice.
-- **Dates of birth and blindness** of the taxpayer and spouse (for the additional standard deduction).
-- **Business activity:**
-  - What was the business's gross income?
-  - Does more than 80% of it come from the owners' personal services ([D.C. Code § 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01))?
-  - Is capital a material income-producing factor?
+### Boundary and exception table
 
-  The answers decide whether a D-30 is needed.
-- **Federal items DC does not follow:**
-  - bonus depreciation (section 168(k));
-  - deductions for tips, overtime, car loan interest or the enhanced senior deduction;
-  - interest on other states' municipal bonds;
-  - the section 1202 gain exclusion.
-- **Credits:**
-  - the federal earned income tax credit (EITC) and any qualifying children;
-  - children under 4 in licensed child care;
-  - rent paid, or DC real property tax on the home, plus household AGI.
-- **Payments:** DC withholding, estimated payments with dates, and the prior-year DC tax and residency (for the 110% rule; [2025 D-2210](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-2210_021226.pdf)).
+([D.C. Code § 47-1801.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04); [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf); [2025 D-2210](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-2210_021226.pdf))
 
-## The method, step by step
+| Situation | Rule |
+| --- | --- |
+| Domiciled in Virginia, keeps a DC apartment for exactly 183 days | Resident: the test is 183 days **or more**. Files a D-40 on all income. |
+| Domiciled in Maryland, DC apartment for 182 days, works in DC | Nonresident. No D-40. Claim back any DC withholding on D-40B. |
+| Moved into DC with intent to stay on 1 July | Part-year resident from the date domicile changed. Report DC-period income; prorate deduction and credits. |
+| Single resident, 2025 gross income exactly $15,000 | Must file: the threshold is "at least" $15,000. |
+| Itemized on the federal return, DC standard deduction would be larger | Must itemize on the DC return. |
+| DC AGI exactly $200,000 (joint) | No 5% itemized reduction: it applies only when DC AGI is greater than $200,000. |
+| Consultant whose income is almost all personal services, no material capital | Likely outside the D-30 under the more-than-80% rule. Confirm with the D-30 instructions. |
+| Client moved into DC in March of the prior year | The 110% prior-year route is not available (they must have been a DC resident during all of the prior year). Use 90% of the current year's tax. |
+| DC tax after withholding and credits is below $100 | No estimated tax interest. |
+| Taxpayer with no qualifying child, 2025 | DC's own childless EITC applies (2025 maximum $649), not the percentage match. |
 
-D-40 line numbers are from the 2025 return ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf)).
-
-1. **Decide residency** using the tests in "Scope". Nonresidents stop here. They file no D-40 and use D-40B to recover DC tax withheld.
-2. **Decide whether a return is needed.**
-   - A resident must file a D-40 if gross income was **at least** the DC filing threshold for their status (see the 2025 chart in "Figures by year"). This applies even if no federal return is required.
-   - Also file to get a refund of withholding, or to claim a refundable credit: DC EITC, Schedule N, Schedule H or Schedule ELC.
-   - If no federal return is required, prepare a mock federal return to get federal AGI.
-3. **Line 4, federal AGI.** Start from federal AGI, not federal taxable income.
-   - These items are all inside federal AGI and flow through: a sole proprietor's Schedule C profit, the deduction for half of self-employment tax, self-employed health insurance, and retirement plan contributions.
-   - The federal qualified business income deduction (section 199A) is taken below AGI, so it never reaches DC. DC also bars it by statute for 2025 ([D.C. Code § 47-1803.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.04), subsection (d)(4)).
-4. **Line 5, franchise tax.** Add back any franchise tax deducted on a federal business return (Forms 1065 or 1120-S).
-5. **Line 6, other additions (Schedule I, Calculation A).**
-   - Section 168 additional (bonus) depreciation.
-   - Pass-through losses from DC unincorporated businesses that exceed the $12,000 threshold ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf), Schedule I).
-   - "Other" items. For 2025, these include interest on other states' municipal bonds, section 1202 gain, and the DC business interest limitation adjustment.
-6. **Lines 8 to 15, subtractions.**
-   - Line 8: part-year residents subtract income received while domiciled outside DC.
-   - Line 9: taxable refunds of state and local income tax.
-   - Line 10: the **taxable amount of Social Security and tier 1 railroad retirement**, so DC does not tax it.
-   - Line 11: income taxed on a DC franchise or fiduciary return, such as the D-30.
-   - Line 12: DC and federal government survivor benefits, for survivors aged 62 or older.
-   - Line 13: unemployment insurance benefits.
-   - Line 14: Schedule I, Calculation B items.
-7. **Line 16, DC AGI** = Line 7 minus Line 15.
-8. **Lines 17 and 18, deduction.** Take the same type as on the federal return ([D.C. Code § 47-1803.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.04), subsection (b)).
-   - **Federal standard deduction taken:** take the DC standard deduction. That is the basic amount, plus any additional amount for age 65 or blindness.
-   - **Itemized federally:** itemize on the DC return. If one spouse itemizes on a separate return, neither spouse may take the standard deduction.
-   - **What DC itemized deductions allow.** Income taxes are not deductible. Real estate taxes are deductible in full, with no federal SALT cap.
-   - **High-income reduction.** It applies if DC AGI is **greater than** $200,000 ($100,000 married filing separately). Itemized deductions are then reduced by 5% of the excess. Medical expenses, investment interest and casualty losses are not reduced. Use Calculation F, or Calculation D for part-year residents ([D.C. Code § 47-1803.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.04), subsection (c)(2)).
-9. **Line 19, taxable income** = Line 16 minus Line 18.
-10. **Tax.** Use the tax tables in the [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf) if taxable income is $100,000 or less. Otherwise use the rate schedule in "Figures by year".
-11. **Credits and payments.** Take non-refundable credits first. Then add:
-    - withholding and estimated payments;
-    - refundable credits: the DC EITC, Schedule U refundable credits such as the Keep Child Care Affordable credit, and Schedule H.
-
-    Then add any D-2210 underpayment interest.
-12. **Part-year residents.** Report only income for the period of DC domicile, and prorate the standard deduction and credits.
-    - The 2025 booklet prorates by days: "dividing the number of days you were domiciled in DC by 365 (366 if leap year)".
-    - The statute prorates the standard deduction by months ([§ 47-1801.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04), paragraph 44(D)).
-    - Follow the booklet method on the return. Refer if the difference matters.
-
-**Sole proprietors and the D-30.** DC taxes an unincorporated business on a separate return, the D-30.
-- **When to check it.** The [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf) applies to anyone with gross income from DC sources of more than $12,000 from an unincorporated business or business activity, "including rents and royalties". They must check the D-30 instructions. If a D-30 is required: "do not include the income here, but report it on your D-30 return instead."
-- **Businesses outside the D-30.** Some businesses are excluded altogether ([D.C. Code § 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01)). The main exclusion for sole proprietors has two conditions, and both must be met:
-  - **more than 80%** of gross income comes from personal services actually rendered by the owners ([§ 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01), paragraph 3); and
-  - capital is not a material income-producing factor.
-- **Out of scope.** Whether a D-30 is due, and the tax on it, are outside this skill.
-
-## Figures by year
+## Rates, bands and thresholds
 
 ### Tax rates, 2025 and 2026 ([D.C. Code § 47-1806.03](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.03); [OTR rates page](https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates))
 
@@ -135,7 +76,7 @@ The same schedule applies to all filing statuses for taxable years beginning aft
 
 Spouses or domestic partners who live together and file separately are each treated as single for the rate schedule.
 
-### Standard deduction and filing threshold, 2025 ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf); [D.C. Code § 47-1801.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04), paragraph 3A)
+### Standard deduction and filing threshold, 2025 ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf); [D.C. Code § 47-1801.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04))
 
 | Filing status | 2025 basic standard deduction | 2025 D-40 filing threshold (gross income at least) |
 | --- | --- | --- |
@@ -148,7 +89,7 @@ Spouses or domestic partners who live together and file separately are each trea
   - It is $2,000 for someone who is single, head of household, or a dependent claimed by someone else, and who is not married.
   - Compute it on Schedule S, Calculation G-1, and attach it.
   - On a separate return, the spouse's additional amount is allowed only if the spouse had no gross income, is not filing, and cannot be claimed as a dependent.
-- **No personal exemptions.** The temporary act repealed D.C. Code § 47-1806.02.
+- **No personal exemptions.** The temporary act repealed D.C. Code § 47-1806.02 ([D.C. Law 26-89](https://code.dccouncil.gov/us/dc/council/laws/26-89): "The section designation for section 47-1806.02 is amended to read as follows: 47-1806.02. Tax on residents and nonresidents — Personal exemptions. [Repealed]").
 
 ### Standard deduction, 2026: not settled ([2026 D-40ES](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf); [D.C. Law 26-89](https://code.dccouncil.gov/us/dc/council/laws/26-89))
 
@@ -157,7 +98,7 @@ Spouses or domestic partners who live together and file separately are each trea
   - $24,150 for head of household;
   - $32,200 for married filing jointly, married filing separately on the same return, or qualifying widow(er);
   - an additional $1,650 for age or blindness, or $2,050 if unmarried and not a surviving spouse.
-- **What the temporary act says.** For taxable years beginning after 31 December 2025, the basic standard deduction is $15,000, $22,500 and $30,000, "increased annually pursuant to the cost-of-living adjustment". That act expires on 25 September 2026.
+- **What the temporary act says.** For taxable years beginning after 31 December 2025, the basic standard deduction is $15,000, $22,500 and $30,000, "increased annually pursuant to the cost-of-living adjustment" ([D.C. Law 26-89](https://code.dccouncil.gov/us/dc/council/laws/26-89)). That act expires on 25 September 2026.
 - **The April 2026 draft of the FY 2027 BSA.** In April 2026 the Chief Financial Officer issued a fiscal impact statement on a draft of the Fiscal Year 2027 Budget Support Act ([FY 2027 BSA fiscal impact statement](https://app.cfo.dc.gov/services/fiscal_impact/pdf/spring09/FIS%20FY%202027%20Budget%20Support%20Act%20of%202026_EOM.pdf)).
   - The draft has a subtitle that "extends the District's decoupling from OBBBA's standard deduction provisions through tax year 2026".
   - That subtitle would re-align DC with the federal amount from 2027.
@@ -173,21 +114,22 @@ Spouses or domestic partners who live together and file separately are each trea
 | 2022 to 2024 | 70% of the federal EITC | Law (subparagraph (B-1)) |
 | 2025 | 100% of the federal EITC | Temporary act raised (B-2) from 85% to 100% |
 | 2026 to 2028 | 85% of the federal EITC | Expected: the rate under 2024 law, and the rate in the proposed FY 2027 BSA; confirm |
-| 2029 onward | 100% of the federal EITC | 2024 law; confirm |
+| 2029 onward | 100% of the federal EITC | 2024 law (subparagraph (B-3)); confirm |
 
 - **Where the years come from.**
+  - The permanent statute sets 70% for taxable years beginning after 31 December 2021 (subparagraph (B-1)), 85% after 31 December 2024 (B-2) and 100% after 31 December 2028 (B-3) ([§ 47-1806.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.04), archived 2026-10-28 as `US-DC-47-1806.04.html`).
   - The 2024 budget delayed the 100% match to "beginning in tax year 2029, rather than 2026" ([ORA, Revenue Provisions in DC's New Budget](https://ora-cfo.dc.gov/blog/revenue-provisions-dc%E2%80%99s-new-budget)).
-  - The temporary act moved 2025 to 100%.
-  - The CFO's statement on the proposed FY 2027 BSA says a taxpayer "can claim 85 percent of any earned income tax credit ... from tax year 2026 through tax year 2028".
+  - The temporary act moved 2025 to 100% ([D.C. Law 26-89](https://code.dccouncil.gov/us/dc/council/laws/26-89): "Subparagraph (B-2) is amended by striking the figure '85%' and inserting the figure '100%'").
+  - The CFO's statement on the proposed FY 2027 BSA says a taxpayer "can claim 85 percent of any earned income tax credit" ([FY 2027 BSA fiscal impact statement](https://app.cfo.dc.gov/services/fiscal_impact/pdf/spring09/FIS%20FY%202027%20Budget%20Support%20Act%20of%202026_EOM.pdf)).
 - **Conditions for the percentage match.** It applies only to an individual **with a qualifying child** who is allowed the federal EITC under IRC section 32. The statute speaks of a return "filed for a full calendar or fiscal year". That describes the return's period, such as a calendar-year D-40. It does not exclude part-year residents, who still claim, prorated as below. The credit is refundable.
-- **No qualifying child.** DC computes its own credit under subparagraph (C), with its own phase-out. For 2025, the maximum is $649 and the investment income limit is $11,950.
-- **ITIN filers.** From 1 January 2023, a DC resident can claim the DC EITC with an ITIN. This applies if they would get the federal EITC except that they do not have a Social Security number.
+- **No qualifying child.** DC computes its own credit under subparagraph (C), with its own phase-out. For 2025, the maximum is $649 and the investment income limit is $11,950 ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf): "For Filers Without a Qualifying Child, the credit amount is $649"; "The limit on investment income is increased from $11,600 to $11,950").
+- **ITIN filers.** From 1 January 2023, a DC resident can claim the DC EITC with an ITIN. This applies if they would get the federal EITC except that they do not have a Social Security number ([§ 47-1806.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.04): "an individual taxpayer identification number issued by the Internal Revenue Service shall be permitted"; [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf)).
 - **Part-year residents** prorate the credit by the days they were domiciled in DC. The booklet's example is $649 times 0.1945 = $126.
-- **Non-custodial parents** aged 18 to 30 who meet the child support conditions claim on Schedule N.
+- **Non-custodial parents** who are DC residents between the ages of 18 and 30 and pay court-ordered child support through a government-sponsored collection unit claim on Schedule N ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf): "a non-custodial parent who is a District resident between the ages of 18 and 30, and is paying child support under a court order for a minor child").
 
 ### Keep Child Care Affordable tax credit (Schedule ELC) ([D.C. Code § 47-1806.15](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.15); [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf))
 
-- **Amount:** the lesser of the eligible child care expenses paid and the per-child limit. The 2025 maximum is **$1,200 per eligible child**. The limit is indexed each year; check the 2026 Schedule ELC.
+- **Amount:** the lesser of the eligible child care expenses paid and the per-child limit. The 2025 maximum is **$1,200 per eligible child** ("the maximum credit amount has been increased to $1,200 per eligible child"). The limit is indexed each year; check the 2026 Schedule ELC.
 - **Eligible child:** a dependent claimed by the taxpayer who **has not reached age 4 by 30 September** of the tax year.
 - **Eligible expenses:** payments to a licensed child development facility (or one exempt from licensing under the statute). Care after 31 August does not count for a child old enough to enrol in pre-kindergarten.
 - **Refundable.** A part-year return prorates the credit by months.
@@ -204,16 +146,16 @@ Spouses or domestic partners who live together and file separately are each trea
   - the maximum credit is $1,425;
   - the tax filing unit's federal AGI must not exceed $66,000 for claimants under 70, or $90,000 for claimants 70 or older.
 
-  For 2026 amounts, check the 2026 Schedule H.
+  ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf): "The maximum credit increases to $1,425. The income limits increase to $66,000 for people under 70 and $90,000 for people 70 or older.") For 2026 amounts, check the 2026 Schedule H.
 - **Who can claim:**
   - The claimant must be an owner of record of a DC home, or a tenant paying rent on one, **during the entire calendar year** before the year of the claim.
   - Only one claimant per tax filing unit.
   - No credit for a year in which the claimant was a dependent, unless they were or became 65 or older that year.
   - Not for a property owned by a government, a house of worship or a non-profit organisation.
 - **How it works.**
-  - Renters treat **20% of rent** paid as property tax.
+  - Renters treat **20% of rent** paid as property tax ([§ 47-1806.06](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06): "deemed for the purposes of this subsection to be 20% of rent").
   - The credit is the property tax (or 20% of rent) that exceeds a percentage of the filing unit's federal AGI, up to the maximum.
-  - In the lowest band (AGI under $25,000), the percentage is 3.0%.
+  - In the lowest band (AGI under $25,000), the percentage is 3.0% ([§ 47-1806.06](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06): "$0 — $24,999 100% of property tax exceeding 3.0% of adjusted gross income").
   - Use the Schedule H worksheet for other bands and for claimants 70 or older.
 - **Filing:** attach Schedule H to the D-40. Someone who is not required to file a D-40 can file Schedule H as a standalone return.
 
@@ -248,28 +190,105 @@ Spouses or domestic partners who live together and file separately are each trea
 
   These are the April draft's terms, not confirmed enacted law. Treat all of this as unconfirmed, and check OTR's 2026 forms before filing.
 - **Child tax credit.**
-  - DC had no child tax credit for 2025 (it was repealed).
-  - The temporary act enacted a $1,000-per-child refundable credit for 2026, with phase-outs.
+  - DC had no child tax credit for 2025 (the Child Tax Credit Amendment Act of 2025 was repealed).
+  - The temporary act enacted a $1,000-per-child refundable credit for taxable years beginning after 31 December 2025, with phase-outs ([D.C. Law 26-89](https://code.dccouncil.gov/us/dc/council/laws/26-89): "For the taxable year beginning January 1, 2026, $1,000 for each qualifying child who has not reached the age of 18 years by December 31, 2025").
   - That act expires before the 2026 return is filed. Confirm whether any 2026 credit exists before promising it.
 
-## Boundary and exception table ([D.C. Code § 47-1801.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04); [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf); [2025 D-2210](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-2210_021226.pdf))
+## The taxable base
 
-| Situation | Rule |
-| --- | --- |
-| Domiciled in Virginia, keeps a DC apartment for exactly 183 days | Resident: the test is 183 days **or more**. Files a D-40 on all income. |
-| Domiciled in Maryland, DC apartment for 182 days, works in DC | Nonresident. No D-40. Claim back any DC withholding on D-40B. |
-| Moved into DC with intent to stay on 1 July | Part-year resident from the date domicile changed. Report DC-period income; prorate deduction and credits. |
-| Single resident, 2025 gross income exactly $15,000 | Must file: the threshold is "at least" $15,000. |
-| Itemized on the federal return, DC standard deduction would be larger | Must itemize on the DC return. |
-| DC AGI exactly $200,000 (joint) | No 5% itemized reduction: it applies only when DC AGI is greater than $200,000. |
-| Consultant whose income is almost all personal services, no material capital | Likely outside the D-30 under the more-than-80% rule. Confirm with the D-30 instructions. |
-| Client moved into DC in March of the prior year | The 110% prior-year route is not available (they must have been a DC resident during all of the prior year). Use 90% of the current year's tax. |
-| DC tax after withholding and credits is below $100 | No estimated tax interest. |
-| Taxpayer with no qualifying child, 2025 | DC's own childless EITC applies (2025 maximum $649), not the percentage match. |
+D-40 line numbers are from the 2025 return ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf)).
 
-## Worked cases ([OTR rates page](https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates); [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf); [2026 D-40ES](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf); [D.C. Code § 47-1806.06](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06))
+1. **Decide residency** using the tests in "Who this applies to". Nonresidents stop here. They file no D-40 and use D-40B to recover DC tax withheld.
+2. **Decide whether a return is needed.**
+   - A resident must file a D-40 if gross income was **at least** the DC filing threshold for their status (see the 2025 chart in "Rates, bands and thresholds"). This applies even if no federal return is required.
+   - Also file to get a refund of withholding, or to claim a refundable credit: DC EITC, Schedule N, Schedule H or Schedule ELC.
+   - If no federal return is required, prepare a mock federal return to get federal AGI.
+3. **Line 4, federal AGI.** Start from federal AGI, not federal taxable income.
+   - These items are all inside federal AGI and flow through: a sole proprietor's Schedule C profit, the deduction for half of self-employment tax, self-employed health insurance, and retirement plan contributions.
+   - The federal qualified business income deduction (section 199A) is taken below AGI, so it never reaches DC. DC also bars it by statute ([D.C. Code § 47-1803.03](https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.03): "A deduction allowed under section 199A of the Internal Revenue Code of 1986").
+4. **Line 5, franchise tax.** Add back any franchise tax deducted on a federal business return (Forms 1065 or 1120-S).
+5. **Line 6, other additions (Schedule I, Calculation A).**
+   - Section 168 additional (bonus) depreciation.
+   - Pass-through losses from DC unincorporated businesses that exceed the $12,000 threshold ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf), Schedule I).
+   - "Other" items. For 2025, these include interest on other states' municipal bonds, section 1202 gain, and the DC business interest limitation adjustment.
+6. **Lines 8 to 15, subtractions.**
+   - Line 8: part-year residents subtract income received while domiciled outside DC.
+   - Line 9: taxable refunds of state and local income tax.
+   - Line 10: the **taxable amount of Social Security and tier 1 railroad retirement**, so DC does not tax it.
+   - Line 11: income taxed on a DC franchise or fiduciary return, such as the D-30.
+   - Line 12: DC and federal government survivor benefits, for survivors aged 62 or older.
+   - Line 13: unemployment insurance benefits.
+   - Line 14: Schedule I, Calculation B items.
+7. **Line 16, DC AGI** = Line 7 minus Line 15.
+8. **Lines 17 and 18, deduction.** Take the same type as on the federal return ([D.C. Code § 47-1803.03](https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.03), subsection (c)).
+   - **Federal standard deduction taken:** take the DC standard deduction. That is the basic amount, plus any additional amount for age 65 or blindness.
+   - **Itemized federally:** itemize on the DC return. If one spouse itemizes on a separate return, neither spouse may take the standard deduction.
+   - **What DC itemized deductions allow.** Income taxes are not deductible. Real estate taxes are deductible in full, with no federal SALT cap.
+   - **High-income reduction.** It applies if DC AGI is **greater than** $200,000 ($100,000 married filing separately). Itemized deductions are then reduced by 5% of the excess. Medical expenses, investment interest and casualty losses are not reduced. Use Calculation F, or Calculation D for part-year residents ([§ 47-1803.03](https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.03), subsection (b): "the amount of the itemized deductions otherwise allowable for the taxable year shall be reduced by 5% of the excess of the District adjusted gross income over the applicable amount"; "'Applicable amount' means $200,000 ($100,000, married, filing separately)").
+9. **Line 19, taxable income** = Line 16 minus Line 18.
+10. **Tax.** Use the tax tables in the [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf) if taxable income is $100,000 or less. Otherwise use the rate schedule in "Rates, bands and thresholds".
+11. **Credits and payments.** Take non-refundable credits first. Then add:
+    - withholding and estimated payments;
+    - refundable credits: the DC EITC, Schedule U refundable credits such as the Keep Child Care Affordable credit, and Schedule H.
 
-Amounts described as client facts are hypothetical inputs.
+    Then add any D-2210 underpayment interest.
+12. **Part-year residents.** Report only income for the period of DC domicile, and prorate the standard deduction and credits.
+    - The 2025 booklet prorates by days: "dividing the number of days you were domiciled in DC by 365 (366 if leap year)".
+    - The statute prorates the standard deduction by months ([§ 47-1801.04](https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04): "prorated by the number of months that the individual was a resident").
+    - Follow the booklet method on the return. Refer if the difference matters.
+
+**Sole proprietors and the D-30.** DC taxes an unincorporated business on a separate return, the D-30.
+- **When to check it.** The [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf) applies to anyone with gross income from DC sources of more than $12,000 from an unincorporated business or business activity, "including rents and royalties". They must check the D-30 instructions. If a D-30 is required: "do not include the income here, but report it on your D-30 return instead."
+- **Businesses outside the D-30.** Some businesses are excluded altogether ([D.C. Code § 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01)). The main exclusion for sole proprietors has two conditions, and both must be met:
+  - **more than 80%** of gross income comes from personal services actually rendered by the owners ([§ 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01), paragraph 3); and
+  - capital is not a material income-producing factor.
+- **Out of scope.** Whether a D-30 is due, and the tax on it, are outside this skill.
+
+## Deadlines and filing
+
+([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf); [2025 FR-127](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_FR-127_021226.pdf); [2026 D-40ES](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf); [2025 D-2210](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-2210_021226.pdf); [2025 D-40B](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40B_Form_012026.pdf))
+
+- **Due date:** 15 April (15 April 2026 for 2025 returns; 15 April 2027 for 2026 returns). If it falls on a weekend or legal holiday, file by the next business day.
+- **Extension: DC does not follow the federal extension automatically.** File **Form FR-127** by 15 April for a six-month extension (to 15 October 2026 for 2025 returns).
+  - If a balance is expected, pay it with the FR-127.
+  - The FR-127 is not required if no balance is expected and the tax was reasonably estimated and paid through withholding or estimates.
+  - An extension to file is not an extension to pay. Interest and penalties run on tax not paid by 15 April.
+  - Taxpayers living or travelling outside the US can get a further six months, but only after filing the first FR-127 on time.
+- **Estimated tax (D-40ES).** Required if the client must file a DC return and expects to owe **$100 or more** in tax.
+  - The D-2210 describes the trigger as tax "expected to be more than $100". At exactly $100, check.
+  - Vouchers are due 15 April, 15 June and 15 September 2026 and 15 January 2027.
+  - If the D-40 is filed and the balance paid by 15 January, do not send the last voucher.
+- **Underpayment interest (Form D-2210)** is charged at 10% a year, compounded daily. It is not due if either:
+  - tax after DC withholding and credits is less than $100; or
+  - withholding plus timely estimates equal at least 90% of the current year's tax, or 110% of last year's tax. The 110% route is available only to someone who was a DC resident for all 12 months of the prior year.
+
+  An annualized income method is available when income was uneven.
+- **Electronic payment** is required if a payment for a period exceeds $5,000 (MyTax.DC.gov or Modernized e-File).
+- **Nonresident refunds (D-40B).** Available to a nonresident whose only DC-source income was wages, and who either commuted daily from their home state or was domiciled in another state. They must not have kept a DC place of abode for 183 days or more.
+  - Attach the W-2s or 1099s.
+  - From tax year 2025, commuter and domiciliary claimants attach a copy of their home state's income tax return. If the home state has no income tax, the form asks for residency proof, but it is inconsistent. One place says "two proof of residency documents"; another says a state-issued ID or driver's license plus one proof of residency. Follow the D-40B line instructions, and when in doubt attach the ID and two proofs.
+  - Military spouses attach DD Form 2058.
+  - From tax year 2025, the D-40B can be filed on MyTax.DC.gov.
+- **Federal return copy.** From tax year 2025, OTR Tax Notice 2025-01 requires certain high-income filers to submit an electronic copy of their federal return. Check the booklet for the thresholds.
+
+## Penalties and interest
+
+- **Late filing and late payment penalties** ([D.C. Code § 47-4213](https://code.dccouncil.gov/us/dc/council/code/sections/47-4213); archived 2026-10-28 as `US-DC-47-4213.html`). Neither applies if there is reasonable cause and no willful neglect.
+  - **Failure to file:** 5% of the unpaid tax for each month or part of a month, up to 25% in total. Code: "5% of the amount of the tax if the failure is for not more than one month, with an additional 5% for each additional month or fraction thereof ... not exceeding 25% in the aggregate."
+  - **Failure to pay:** 5% a month, up to 25%.
+  - **Overlap:** the failure-to-file addition is reduced by the failure-to-pay addition for the same months (§ 47-4213(b)). § 47-4213(c): the section "shall not apply to a failure to pay an estimated tax".
+- **Interest** on unpaid tax runs from the original due date, disregarding any extension to file. The rate is **10% a year, compounded daily** ([D.C. Code § 47-4201](https://code.dccouncil.gov/us/dc/council/code/sections/47-4201); archived 2026-10-28 as `US-DC-47-4201.html`: "(d) The underpayment rate shall be as follows: ... (2) 10% per year, compounded daily, beginning January 1, 2003").
+
+## Cross-border points
+
+- **Part-year residents.** Report only income for the period of DC domicile, and prorate the standard deduction and credits (booklet: by days; statute: by months; see "The taxable base"). Refer where the two methods give materially different answers.
+- **Commuters** domiciled in Maryland or Virginia are not taxed on DC wages ([D.C. Code § 1-206.02](https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02)); DC tax withheld in error is recovered on Form D-40B.
+- **Military members and spouses** (combat zone extensions, Military Spouse Residency Relief Act) — refer; see "When to refuse or refer".
+- **Other cross-state items:** credit for tax paid to another state, the DC Low-Income Housing Tax Credit, and other Schedule U credits — outside this skill.
+
+## Worked examples
+
+Amounts described as client facts are hypothetical inputs; all rates and thresholds are confirmed figures from the tables above ([OTR rates page](https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates); [2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf); [2026 D-40ES](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf); [D.C. Code § 47-1806.06](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06)).
 
 **Case 1: 2025, single, full-year resident.**
 
@@ -310,7 +329,53 @@ Client facts: a single renter aged 40, not anyone's dependent, who rented the sa
 - Threshold: 3.0% of $20,000 = $600 (lowest AGI band).
 - Excess: $2,400 minus $600 = $1,800. This is capped at the 2025 maximum, so the credit is $1,425.
 
-## When to refuse or refer
+## Ask the client first
+
+- **Which tax year?** 2025 has firm rules. For 2026, the rates are firm but the deduction and credit amounts must be checked.
+- **Residency for the whole year.**
+  - Where was the client domiciled, and on which dates?
+  - Did they keep a home in DC? Count the days it was available to them. 183 days or more makes them a resident, even if they were domiciled elsewhere.
+  - Did they move in or out during the year?
+- **Are they in an excluded group?** For example:
+  - a member of Congress, or congressional staff from the member's home state;
+  - a Senate-confirmed presidential appointee or a Supreme Court justice;
+  - a military member or spouse whose legal residence is in another state.
+- **Federal return:** filing status, federal AGI, and whether they took the standard deduction or itemized. DC follows that choice.
+- **Dates of birth and blindness** of the taxpayer and spouse (for the additional standard deduction).
+- **Business activity:**
+  - What was the business's gross income?
+  - Does more than 80% of it come from the owners' personal services ([D.C. Code § 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01))?
+  - Is capital a material income-producing factor?
+
+  The answers decide whether a D-30 is needed.
+- **Federal items DC does not follow:**
+  - bonus depreciation (section 168(k));
+  - deductions for tips, overtime, car loan interest or the enhanced senior deduction;
+  - interest on other states' municipal bonds;
+  - the section 1202 gain exclusion.
+- **Credits:**
+  - the federal earned income tax credit (EITC) and any qualifying children;
+  - children under 4 in licensed child care;
+  - rent paid, or DC real property tax on the home, plus household AGI.
+- **Payments:** DC withholding, estimated payments with dates, and the prior-year DC tax and residency (for the 110% rule; [2025 D-2210](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-2210_021226.pdf)).
+
+### Completion checklist
+
+([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf))
+
+- **Year:** 2025 amounts are used for 2025. For 2026, the unsettled items are flagged to the client and checked against OTR's 2026 forms.
+- **Residency:** the domicile and 183-day abode tests are applied and the excluded groups considered; part-year dates are on Line 2.
+- **Filing need:** gross income is compared with the DC threshold ("at least").
+- **Federal AGI** is on Line 4, not taxable income.
+- **Additions:** franchise tax and Schedule I additions are entered (bonus depreciation, other states' bond interest, and for 2025 the OBBBA items).
+- **Subtractions:** taxable Social Security (Line 10), income reported on a D-30 (Line 11), and Schedule I, Calculation B items.
+- **Deduction type** matches the federal return. Itemized deductions exclude income taxes, and the 5% reduction applies above $200,000 ($100,000 MFS).
+- **Credits:** DC EITC at the correct percentage for the year; the Schedule ELC, Schedule H and Schedule N conditions are checked.
+- **D-30:** the need is considered for any business with DC-source gross income over $12,000.
+- **Estimates and interest:** the D-2210 is reviewed. The 110% prior-year route is used only if the client was a full-year DC resident in the prior year.
+- **Extension:** the FR-127 is filed with payment if a balance was expected.
+
+### When to refuse or refer
 
 - **Residency in doubt**, for example:
   - a DC place of abode close to 183 days;
@@ -333,49 +398,34 @@ Client facts: a single renter aged 40, not anyone's dependent, who rented the sa
 - **Health care shared responsibility (Schedule HSR)** where coverage was not full-year.
 - **Outside this skill:** fiduciary returns (D-41), corporate franchise tax (D-20), the ballpark fee (a business-level fee), estate tax and real property tax.
 
-## Filing and payment ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf); [2025 FR-127](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_FR-127_021226.pdf); [2026 D-40ES](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf); [2025 D-2210](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-2210_021226.pdf); [2025 D-40B](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40B_Form_012026.pdf))
+## Sources
 
-- **Due date:** 15 April (15 April 2026 for 2025 returns; 15 April 2027 for 2026 returns). If it falls on a weekend or legal holiday, file by the next business day.
-- **Extension: DC does not follow the federal extension automatically.** File **Form FR-127** by 15 April for a six-month extension (to 15 October 2026 for 2025 returns).
-  - If a balance is expected, pay it with the FR-127.
-  - The FR-127 is not required if no balance is expected and the tax was reasonably estimated and paid through withholding or estimates.
-  - An extension to file is not an extension to pay. Interest and penalties run on tax not paid by 15 April.
-  - Taxpayers living or travelling outside the US can get a further six months, but only after filing the first FR-127 on time.
-- **Late filing and late payment penalties** ([D.C. Code § 47-4213](https://code.dccouncil.gov/us/dc/council/code/sections/47-4213); archived 2026-10-28 as `US-DC-47-4213.html`). Neither applies if there is reasonable cause and no willful neglect.
-  - **Failure to file:** 5% of the unpaid tax for each month or part of a month, up to 25% in total. Code: "5% of the amount of the tax if the failure is for not more than one month, with an additional 5% for each additional month or fraction thereof ... not exceeding 25% in the aggregate."
-  - **Failure to pay:** 5% a month, up to 25%.
-  - **Overlap:** the failure-to-file addition is reduced by the failure-to-pay addition for the same months (§ 47-4213(b)). § 47-4213(c): the section "shall not apply to a failure to pay an estimated tax".
-- **Interest** on unpaid tax runs from the original due date, disregarding any extension to file. The rate is **10% a year, compounded daily** ([D.C. Code § 47-4201](https://code.dccouncil.gov/us/dc/council/code/sections/47-4201); archived 2026-10-28 as `US-DC-47-4201.html`: "(d) The underpayment rate shall be as follows: ... (2) 10% per year, compounded daily, beginning January 1, 2003").
-- **Estimated tax (D-40ES).** Required if the client must file a DC return and expects to owe **$100 or more** in tax.
-  - The D-2210 describes the trigger as tax "expected to be more than $100". At exactly $100, check.
-  - Vouchers are due 15 April, 15 June and 15 September 2026 and 15 January 2027.
-  - If the D-40 is filed and the balance paid by 15 January, do not send the last voucher.
-- **Underpayment interest (Form D-2210)** is charged at 10% a year, compounded daily. It is not due if either:
-  - tax after DC withholding and credits is less than $100; or
-  - withholding plus timely estimates equal at least 90% of the current year's tax, or 110% of last year's tax. The 110% route is available only to someone who was a DC resident for all 12 months of the prior year.
+| Source | URL | Read on |
+|---|---|---|
+| D.C. Code § 47-1801.04 (residence, standard deduction, month proration) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1801.04 | 2026-10-28 |
+| D.C. Code § 1-206.02 (Home Rule bar on taxing nonresident income) | https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02 | 2026-10-28 |
+| D.C. Code § 47-1803.03 (deductions; election; 5% reduction; § 199A bar) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.03 | 2026-10-28 |
+| D.C. Code § 47-1806.03 (rate schedule, para. (11)) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.03 | 2026-10-28 |
+| D.C. Code § 47-1806.04 (DC EITC) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.04 | 2026-10-28 |
+| D.C. Code § 47-1806.06 (Schedule H) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06 | 2026-10-28 |
+| D.C. Code § 47-1806.15 (Schedule ELC) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.15 | 2026-10-28 |
+| D.C. Code § 47-1808.01 (unincorporated business; personal-services exclusion) | https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01 | 2026-10-28 |
+| D.C. Code § 47-4201 (interest, 10% compounded daily) | https://code.dccouncil.gov/us/dc/council/code/sections/47-4201 | 2026-10-28 |
+| D.C. Code § 47-4213 (failure-to-file/pay additions) | https://code.dccouncil.gov/us/dc/council/code/sections/47-4213 | 2026-10-28 |
+| D.C. Law 26-89 (Temporary Conformity Act of 2025) | https://code.dccouncil.gov/us/dc/council/laws/26-89 | 2026-10-28 |
+| OTR: Individual and Fiduciary Income Tax Rates | https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates | 2026-10-28 |
+| OTR 2025 D-40 booklet (PDF) | https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf | 2026-10-28 |
+| OTR 2026 D-40ES booklet (PDF) | https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf | 2026-10-28 |
+| OTR 2025 Form D-2210 (PDF) | https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D-2210_021226.pdf | 2026-10-28 |
+| OTR 2025 Form FR-127 (PDF) | https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_FR-127_021226.pdf | 2026-10-28 |
+| OTR 2025 Form D-40B (PDF) | https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40B_Form_012026.pdf | 2026-10-28 |
+| DC Attorney General opinion, 24 February 2026 (PDF) | https://oag.dc.gov/sites/default/files/2026-02/AG-Opinion-Decoupling-Retroactivity-and-Validity-.pdf | 2026-10-28 |
+| DC Council, second vote on the FY 2027 BSA, 10 July 2026 | https://dccouncil.gov/council-wraps-up-budget-season-with-second-vote-on-the-budget-support-act/ | 2026-10-28 |
+| ORA, Revenue Provisions in DC's New Budget | https://ora-cfo.dc.gov/blog/revenue-provisions-dc%E2%80%99s-new-budget | 2026-10-28 |
+| CFO February 2026 Revenue Estimate (PDF) | https://ora-cfo.dc.gov/sites/default/files/public/Revenue%20Estimate%20Letter_FINAL-FEB%202026_02%2027%202026.pdf | 2026-10-28 |
+| FIS, FY 2027 Budget Support Act of 2026 (PDF, April 2026 draft) | https://app.cfo.dc.gov/services/fiscal_impact/pdf/spring09/FIS%20FY%202027%20Budget%20Support%20Act%20of%202026_EOM.pdf | 2026-10-28 |
 
-  An annualized income method is available when income was uneven.
-- **Electronic payment** is required if a payment for a period exceeds $5,000 (MyTax.DC.gov or Modernized e-File).
-- **Nonresident refunds (D-40B).** Available to a nonresident whose only DC-source income was wages, and who either commuted daily from their home state or was domiciled in another state. They must not have kept a DC place of abode for 183 days or more.
-  - Attach the W-2s or 1099s.
-  - From tax year 2025, commuter and domiciliary claimants attach a copy of their home state's income tax return. If the home state has no income tax, the form asks for residency proof, but it is inconsistent. One place says "two proof of residency documents"; another says a state-issued ID or driver's license plus one proof of residency. Follow the D-40B line instructions, and when in doubt attach the ID and two proofs.
-  - Military spouses attach DD Form 2058.
-  - From tax year 2025, the D-40B can be filed on MyTax.DC.gov.
-- **Federal return copy.** From tax year 2025, OTR Tax Notice 2025-01 requires certain high-income filers to submit an electronic copy of their federal return. Check the booklet for the thresholds.
-
-## Completion checklist ([2025 D-40 booklet](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2025_D40_Book_082026_v1.pdf))
-
-- **Year:** 2025 amounts are used for 2025. For 2026, the unsettled items are flagged to the client and checked against OTR's 2026 forms.
-- **Residency:** the domicile and 183-day abode tests are applied and the excluded groups considered; part-year dates are on Line 2.
-- **Filing need:** gross income is compared with the DC threshold ("at least").
-- **Federal AGI** is on Line 4, not taxable income.
-- **Additions:** franchise tax and Schedule I additions are entered (bonus depreciation, other states' bond interest, and for 2025 the OBBBA items).
-- **Subtractions:** taxable Social Security (Line 10), income reported on a D-30 (Line 11), and Schedule I, Calculation B items.
-- **Deduction type** matches the federal return. Itemized deductions exclude income taxes, and the 5% reduction applies above $200,000 ($100,000 MFS).
-- **Credits:** DC EITC at the correct percentage for the year; the Schedule ELC, Schedule H and Schedule N conditions are checked.
-- **D-30:** the need is considered for any business with DC-source gross income over $12,000.
-- **Estimates and interest:** the D-2210 is reviewed. The 110% prior-year route is used only if the client was a full-year DC resident in the prior year.
-- **Extension:** the FR-127 is filed with payment if a balance was expected.
+Not yet confirmed: the 2026 basic standard deduction for the D-40 (the D-40ES prints federal 2026 amounts $16,100/$24,150/$32,200; the temporary act's $15,000/$22,500/$30,000 expired 25 September 2026; the enacted FY 2027 BSA tax text was not found on an official page); the 2026 DC EITC percentage (85% expected under permanent law and the April 2026 BSA draft; confirm on the 2026 forms); whether a DC child tax credit exists for 2026 (the temporary act's $1,000 credit expires 25 September 2026); the 2026 treatment of the tips, overtime, car loan interest, senior and non-itemizer charitable deductions; the thresholds in OTR Tax Notice 2025-01 for the federal-return-copy requirement; and the 2026 Schedule ELC and Schedule H indexed amounts.
 
 <!-- openaccountants-cta-block -->
 
