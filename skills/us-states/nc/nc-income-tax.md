@@ -13,11 +13,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NC Income Tax
 
-## North Carolina Individual Income Tax Skill — Self-Employed / Sole Proprietor
+## North Carolina Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
 > **Scope.** This skill covers North Carolina Form D-400 (Individual Income Tax Return) for full-year NC residents who are sole proprietors or single-member LLC owners. Tax year 2025 (returns filed in 2026). North Carolina uses a flat income tax rate.
 >
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing.
 
 ## Who this applies to
 
@@ -33,7 +33,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Primary form | Form D-400 |
 | Supporting schedules | D-400 Schedule S (Additions/Deductions), D-400TC (Tax Credits), D-400 Schedule A (NC Itemized Deductions) |
 | Tax structure | Flat rate |
-| Tax rate | 4.25% (TY 2025) — NCDOR 2025 D-401 Instructions (archived) |
+| Tax rate | 4.25% (TY 2025) -- NCDOR 2025 D-401 Instructions (archived) |
 | Filing deadline | April 15, 2026 |
 | Extension deadline | October 15, 2026 |
 | Tax authority | North Carolina Department of Revenue (NCDOR) |
@@ -47,7 +47,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Rates, bands and thresholds
 
-## Section 2: Quick reference — rates and thresholds
+## Section 2: Quick reference -- rates and thresholds
 
 ### Tax rate
 
@@ -85,11 +85,11 @@ Thresholds are federal AGI-based, per the archived 2025 D-401 Child Deduction Ta
 
 _(NCDOR 2025 D-401 Instructions, Child Deduction Table, archived: "Married Filing Jointly/Qualifying Widow(er)/Surviving Spouse ... Up to $40,000 → $3,000 ... Over $140,000 → $0; Head of Household ... Up to $30,000 → $3,000 ... Over $105,000 → $0; Single/Married Filing Separately ... Up to $20,000 → $3,000 ... Over $70,000 → $0")_
 
-NC does not have personal exemptions — the child deduction is the only per-dependent benefit.
+NC does not have personal exemptions -- the child deduction is the only per-dependent benefit.
 
 ### Local income tax
 
-- **Local income tax permitted** — North Carolina does not permit local income taxes.
+- **Local income tax permitted** -- North Carolina does not permit local income taxes.
 
 ## The taxable base
 
@@ -98,8 +98,8 @@ NC does not have personal exemptions — the child deduction is the only per-dep
 North Carolina taxable income starts with **federal adjusted gross income (AGI)** from federal Form 1040, Line 11.
 
 1. **Start with federal AGI** → D-400, Line 6
-2. **Add NC additions** (Schedule S, Part A) — items NC adds back that were excluded or deducted federally
-3. **Subtract NC deductions** (Schedule S, Part B) — items NC excludes that were included federally
+2. **Add NC additions** (Schedule S, Part A) -- items NC adds back that were excluded or deducted federally
+3. **Subtract NC deductions** (Schedule S, Part B) -- items NC excludes that were included federally
 4. **Result = NC adjusted gross income**
 5. **Subtract** the NC standard deduction (or NC itemized deductions) and child deduction
 6. **Result = NC taxable income** → multiply by 4.25%
@@ -112,7 +112,7 @@ North Carolina taxable income starts with **federal adjusted gross income (AGI)*
 | Addition | Description |
 | --- | --- |
 | Interest from other states' bonds | Interest income from bonds of states other than NC |
-| Bonus depreciation add-back | NC did not adopt IRC §168(k)/§168(n) bonus depreciation for TY 2025 — add 85% of the federal bonus depreciation on Schedule S Line 3; 20%/year deduction of the add-back over the first five taxable years beginning TY 2026 _(NCDOR 2025 D-401 Instructions, Schedule S Line 3, archived)_ |
+| Bonus depreciation add-back | NC did not adopt IRC §168(k)/§168(n) bonus depreciation for TY 2025 -- add 85% of the federal bonus depreciation on Schedule S Line 3; 20%/year deduction of the add-back over the first five taxable years beginning TY 2026 _(NCDOR 2025 D-401 Instructions, Schedule S Line 3, archived)_ |
 | Section 179 excess | NC limits §179 to $25,000 expense / $200,000 investment limitation; add 85% of the difference between the federal and NC-allowed deduction on Schedule S Line 4 (same 20%/year reversal) _(NCDOR 2025 D-401 Instructions, Schedule S Line 4, archived)_ |
 
 ### Key subtraction modifications (Schedule S, Part B)
@@ -129,11 +129,11 @@ North Carolina taxable income starts with **federal adjusted gross income (AGI)*
 
 ### Self-employment income flow
 
-- **SE income treatment** — Schedule C net profit flows into federal AGI, which flows into NC AGI. NC has no separate self-employment tax — the 4.25% rate applies to all taxable income including self-employment income.
+- **SE income treatment** -- Schedule C net profit flows into federal AGI, which flows into NC AGI. NC has no separate self-employment tax -- the 4.25% rate applies to all taxable income including self-employment income.
 
 ### Estimated tax
 
-- **Estimated tax payment threshold** — $1,000 or more expected liability after withholding and credits
+- **Estimated tax payment threshold** -- $1,000 or more expected liability after withholding and credits
 
 **Estimated tax installment due dates**
 
@@ -148,12 +148,12 @@ Form NC-40 is used for estimated tax payments.
 
 ### Depreciation decoupling
 
-- **Bonus depreciation decoupling** — NC did not adopt the bonus depreciation provisions of IRC §168(k) or §168(n) for property placed in service for TY 2025. Enter 85% of the federal bonus depreciation as an addition on Schedule S Line 3; if required to add back in TY 2025, you may deduct 20% of the add-back in each of the first five taxable years beginning with TY 2026. _(NCDOR 2025 D-401 Instructions, archived: "North Carolina did not adopt the bonus depreciation provisions in IRC sections 168(k) or 168(n) for property placed in service for tax year 2025. You must add 85% of the amount of bonus depreciation deducted on your federal return to your state return.")_ This is critical for self-employed taxpayers with significant equipment or vehicle purchases.
+- **Bonus depreciation decoupling** -- NC did not adopt the bonus depreciation provisions of IRC §168(k) or §168(n) for property placed in service for TY 2025. Enter 85% of the federal bonus depreciation as an addition on Schedule S Line 3; if required to add back in TY 2025, you may deduct 20% of the add-back in each of the first five taxable years beginning with TY 2026. _(NCDOR 2025 D-401 Instructions, archived: "North Carolina did not adopt the bonus depreciation provisions in IRC sections 168(k) or 168(n) for property placed in service for tax year 2025. You must add 85% of the amount of bonus depreciation deducted on your federal return to your state return.")_ This is critical for self-employed taxpayers with significant equipment or vehicle purchases.
 
 ### Section 179
 
-- **NC Section 179 limits** — $25,000 expense limitation and $200,000 investment limitation
-- **Section 179 excess add-back** — NC did not conform to the increased federal expense deduction or investment limitations for TY 2025. Enter 85% of the difference between the §179 deduction using federal limitations and the deduction using NC limitations on Schedule S Line 4; 20%/year deduction of the add-back over the first five taxable years beginning TY 2026. _(NCDOR 2025 D-401 Instructions, archived: "NC dollar and investment limitations are $25,000 and $200,000, respectively. You must add 85% of the difference between the IRC section 179 expense deduction using federal limitations and the deduction using NC limitations.")_
+- **NC Section 179 limits** -- $25,000 expense limitation and $200,000 investment limitation
+- **Section 179 excess add-back** -- NC did not conform to the increased federal expense deduction or investment limitations for TY 2025. Enter 85% of the difference between the §179 deduction using federal limitations and the deduction using NC limitations on Schedule S Line 4; 20%/year deduction of the add-back over the first five taxable years beginning TY 2026. _(NCDOR 2025 D-401 Instructions, archived: "NC dollar and investment limitations are $25,000 and $200,000, respectively. You must add 85% of the difference between the IRC section 179 expense deduction using federal limitations and the deduction using NC limitations.")_
 
 ## Deadlines and filing
 
@@ -165,7 +165,7 @@ Form NC-40 is used for estimated tax payments.
 
 ## Ask the client first
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
 **Tier 1 rules table**
 
@@ -175,11 +175,11 @@ Form NC-40 is used for estimated tax payments.
 | NC-T1-02 | Tax = NC taxable income × 4.25% (TY 2025) | N.C.G.S. §105-153.7; Session Law 2023-134 |
 | NC-T1-03 | Standard deduction: $12,750 (S), $25,500 (MFJ), $12,750 (MFS), $19,125 (HOH) | N.C.G.S. §105-153.5(a)(1) |
 | NC-T1-04 | NC §179 limits = $25,000 expense / $200,000 investment; add 85% of federal-vs-NC difference | N.C.G.S. §105-153.6; NCDOR 2025 D-401 Instructions (archived) |
-| NC-T1-05 | NC did not adopt IRC §168(k)/(n) bonus depreciation for TY 2025 — 85% add-back, 20%/yr reversal from TY 2026 | N.C.G.S. §105-130.5B; NCDOR 2025 D-401 Instructions (archived) |
+| NC-T1-05 | NC did not adopt IRC §168(k)/(n) bonus depreciation for TY 2025 -- 85% add-back, 20%/yr reversal from TY 2026 | N.C.G.S. §105-130.5B; NCDOR 2025 D-401 Instructions (archived) |
 | NC-T1-06 | Estimated tax required if tax due after withholding and credits ≥ $1,000 | N.C.G.S. §105-163.15; NCDOR NC-40 Instructions (archived: "You should make estimated income tax payments if the tax due on your individual tax return, reduced by the amount of tax withheld and tax credits, will be $1,000 or more.") |
 | NC-T1-07 | NC does not tax Social Security benefits | N.C.G.S. §105-153.5(b)(8) |
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
 **Tier 2 rules table**
 
@@ -259,7 +259,7 @@ This skill and its outputs are provided for informational and computational purp
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

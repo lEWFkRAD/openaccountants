@@ -1,6 +1,6 @@
 ---
 name: nc-return-assembly
-description: "Final capstone orchestrator that assembles the complete federal + North Carolina filing package for a full-year North Carolina-resident sole proprietor or single-member LLC disregarded for federal tax. Consumes outputs from every upstream federal and North Carolina content skill (bookkeeping, Schedule C/SE, QBI, retirement, SE health insurance, quarterly estimated tax, federal assembly, 1099-NEC, nc-income-tax, nc-estimated-tax, nc-bailey-settlement-retirement where applicable, and nc-sales-tax for closing out the indirect-tax year) to produce a single unified reviewer package: every worksheet, every form, every cross-skill reconciliation, the final taxpayer action list with payment and filing instructions, the next-year NC-40 voucher schedule, and the reviewer brief. This skill does NOT recompute tax — it ORCHESTRATES. Trigger on phrases like \"assemble the North Carolina return\", \"final NC package\", \"D-400 reviewer package\", \"NC return assembly\", or \"package up the Carolina return\". MUST be loaded alongside us-tax-workflow-base v0.2 or later and every content skill listed in Section 5. North Carolina full-year residents only. Sole proprietors and single-member LLCs disregarded for federal tax only."
+description: "Final capstone orchestrator that assembles the complete federal + North Carolina filing package for a full-year North Carolina-resident sole proprietor or single-member LLC disregarded for federal tax. Consumes outputs from every upstream federal and North Carolina content skill (bookkeeping, Schedule C/SE, QBI, retirement, SE health insurance, quarterly estimated tax, federal assembly, 1099-NEC, nc-income-tax, nc-estimated-tax, nc-bailey-settlement-retirement where applicable, and nc-sales-tax for closing out the indirect-tax year) to produce a single unified reviewer package: every worksheet, every form, every cross-skill reconciliation, the final taxpayer action list with payment and filing instructions, the next-year NC-40 voucher schedule, and the reviewer brief. This skill does NOT recompute tax -- it ORCHESTRATES. Trigger on phrases like \"assemble the North Carolina return\", \"final NC package\", \"D-400 reviewer package\", \"NC return assembly\", or \"package up the Carolina return\". MUST be loaded alongside us-tax-workflow-base v0.2 or later and every content skill listed in Section 5. North Carolina full-year residents only. Sole proprietors and single-member LLCs disregarded for federal tax only."
 jurisdiction: US-NC
 tax_year: 2025
 version: "0.2"
@@ -13,13 +13,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NC Return Assembly
 
-### North Carolina Return Assembly Skill — Capstone Orchestrator
+### North Carolina Return Assembly Skill -- Capstone Orchestrator
 
 > **Scope.** This is THE skill that runs LAST. Every other skill in the North Carolina stack feeds into this one. The output is the complete reviewer package that a credentialed reviewer (Enrolled Agent, CPA, or attorney under Circular 230) signs off on before the return goes to the taxpayer or to the North Carolina Department of Revenue (NCDOR).
 >
 > This skill does **not** compute anything new. Its job is to verify that every upstream skill ran, every upstream self-check passed, every cross-skill reconciliation holds, and the package is internally consistent.
 >
-> **Quality tier.** Q3 — AI-drafted, not independently verified. Researched 2026-05-28 against NCDOR, IRS, and the upstream NC content skills in this same package directory. A qualified professional must review before filing.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. Researched 2026-05-28 against NCDOR, IRS, and the upstream NC content skills in this same package directory. A qualified professional must review before filing.
 
 ### How this workflow runs
 
@@ -28,32 +28,32 @@ Intake and the content Guides have already collected the facts for this working 
 - **Do NOT ask the user "how deep do you want me to go".** The taxpayer asked for a North Carolina return. Produce it.
 - **Do NOT announce tool budgets or token counts.** Execute.
 - **Do NOT ask which deliverables to prioritize.** Produce every deliverable listed in Section 7. If you run out of context, finish the numbers first, then produce whatever formatted outputs you can, and state honestly at the end which deliverables are partial.
-- **Do NOT re-validate scope intake already validated.** Residency, business structure, filing status, Bailey-protected pension status, age, dependents — all of that came from intake. Cross-check specific numbers during reconciliation but do not re-interrogate the taxpayer.
+- **Do NOT re-validate scope intake already validated.** Residency, business structure, filing status, Bailey-protected pension status, age, dependents -- all of that came from intake. Cross-check specific numbers during reconciliation but do not re-interrogate the taxpayer.
 - **Do NOT pause between content skills to check in.** Run them in order (Section 5) without prose updates between each one. One status message at the end is enough.
 - **Self-checks are targets, not blockers.** A failed self-check is a flag in the reviewer brief, not a workflow halt. The reviewer handles edges.
 - **Primary citations live in the final reviewer brief, not in intermediate computation.** Don't stop to cite N.C.G.S. §105-153.5 mid-deduction-multiplication.
 
 **Failure mode to avoid:** halting mid-execution to ask a meta-question about workflow pacing. That is disqualifying. If you feel the urge to ask "how should I proceed," pick the most defensible path, proceed, and flag the decision for the reviewer.
 
-### Section 1 — Metadata
+### Section 1 -- Metadata
 
 **Section 1 Metadata table**
 
 | Field | Value |
 | --- | --- |
-| Jurisdiction | North Carolina (US-NC) — full-year residents only |
+| Jurisdiction | North Carolina (US-NC) -- full-year residents only |
 | Skill type | Tier 2 orchestrator (capstone) |
 | Tax year | 2025 (filed in 2026) |
-| Primary forms produced | D-400, D-400 Schedule S (Supplemental Schedule, additions/deductions), D-400 Schedule A (NC itemized — if elected), D-400TC (Tax Credits), NC-40 (2026 estimated payment vouchers) |
+| Primary forms produced | D-400, D-400 Schedule S (Supplemental Schedule, additions/deductions), D-400 Schedule A (NC itemized -- if elected), D-400TC (Tax Credits), NC-40 (2026 estimated payment vouchers) |
 | Forms refused at this orchestrator | D-400 Schedule AM (amended), D-400 Schedule PN (part-year/non-resident), D-403 (partnership), CD-401S / CD-405 (corporate), NC K-1 inbound from S-corp/partnership |
 | Authority | North Carolina Department of Revenue (NCDOR) |
-| Statutes | N.C.G.S. Chapter 105, Article 4 (Individual Income Tax) — chapter text archived 2026-10-29; Bailey v. State, 348 N.C. 130 (1998) for the qualifying-pension subtraction (case report not archived; see Not yet confirmed) |
+| Statutes | N.C.G.S. Chapter 105, Article 4 (Individual Income Tax) -- chapter text archived 2026-10-29; Bailey v. State, 348 N.C. 130 (1998) for the qualifying-pension subtraction (case report not archived; see Not yet confirmed) |
 | Filing deadline | April 15, 2026 |
 | Extension deadline | October 15, 2026 (Form D-410) |
 | TY 2025 flat rate | 4.25% (per N.C.G.S. §105-153.7, Session Law 2023-134) |
 | Version | 0.1 |
 | Last updated | 2026-05-28 |
-| Validation | AI-drafted — Q3 |
+| Validation | AI-drafted -- Q3 |
 
 ### Sources consulted
 
@@ -61,19 +61,19 @@ Intake and the content Guides have already collected the facts for this working 
 
 | # | Source | URL |
 | --- | --- | --- |
-| 1 | NCDOR — 2025 D-401 Individual Income Tax Instructions | https://www.ncdor.gov/2025-d-401-individual-income-tax-instructions/open |
-| 2 | NCDOR — 2025 D-400 Individual Income Tax Return | https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions/2025-d-400-individual-income-tax-return |
-| 3 | NCDOR — 2025 D-400 Schedule S Supplemental Schedule | https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions/2025-d-400-schedule-s-north-carolina-supplemental-schedule |
-| 4 | NCDOR — 2025 D-400 Schedule A NC Itemized Deductions | https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions/2025-d-400-schedule-north-carolina-itemized-deductions |
-| 5 | NCDOR — NC Standard Deduction / NC Itemized Deductions | https://www.ncdor.gov/taxes-forms/individual-income-tax/filing-topics/north-carolina-standard-deduction-or-north-carolina-itemized-deductions |
-| 6 | NCDOR — North Carolina Child Deduction | https://www.ncdor.gov/taxes-forms/individual-income-tax/filing-topics/north-carolina-child-deduction |
-| 7 | NCDOR — Tax Rate Schedules | https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules |
-| 8 | NCDOR — Pay Your Individual Income Tax (online payment options) | https://www.ncdor.gov/file-pay/pay-individual-income-tax |
-| 9 | NCDOR — Where's My Refund? | https://www.ncdor.gov/file-pay/wheres-my-refund |
-| 10 | NCDOR — eFile for Individual Income Tax (accepted partners) | https://www.ncdor.gov/file-pay/efile-individual-income-tax |
-| 11 | NCDOR — Form NC-40 Individual Estimated Income Tax | https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions |
+| 1 | NCDOR -- 2025 D-401 Individual Income Tax Instructions | https://www.ncdor.gov/2025-d-401-individual-income-tax-instructions/open |
+| 2 | NCDOR -- 2025 D-400 Individual Income Tax Return | https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions/2025-d-400-individual-income-tax-return |
+| 3 | NCDOR -- 2025 D-400 Schedule S Supplemental Schedule | https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions/2025-d-400-schedule-s-north-carolina-supplemental-schedule |
+| 4 | NCDOR -- 2025 D-400 Schedule A NC Itemized Deductions | https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions/2025-d-400-schedule-north-carolina-itemized-deductions |
+| 5 | NCDOR -- NC Standard Deduction / NC Itemized Deductions | https://www.ncdor.gov/taxes-forms/individual-income-tax/filing-topics/north-carolina-standard-deduction-or-north-carolina-itemized-deductions |
+| 6 | NCDOR -- North Carolina Child Deduction | https://www.ncdor.gov/taxes-forms/individual-income-tax/filing-topics/north-carolina-child-deduction |
+| 7 | NCDOR -- Tax Rate Schedules | https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules |
+| 8 | NCDOR -- Pay Your Individual Income Tax (online payment options) | https://www.ncdor.gov/file-pay/pay-individual-income-tax |
+| 9 | NCDOR -- Where's My Refund? | https://www.ncdor.gov/file-pay/wheres-my-refund |
+| 10 | NCDOR -- eFile for Individual Income Tax (accepted partners) | https://www.ncdor.gov/file-pay/efile-individual-income-tax |
+| 11 | NCDOR -- Form NC-40 Individual Estimated Income Tax | https://www.ncdor.gov/taxes-forms/individual-income-tax/individual-income-tax-forms-instructions |
 | 12 | Bailey v. State of North Carolina, 348 N.C. 130 (1998) | https://www.ncdor.gov/taxes-forms/individual-income-tax/filing-topics/bailey-decision |
-| 13 | IRS Modernized e-File (MeF) — Federal/State joint filing | https://www.irs.gov/e-file-providers/modernized-e-file-overview |
+| 13 | IRS Modernized e-File (MeF) -- Federal/State joint filing | https://www.irs.gov/e-file-providers/modernized-e-file-overview |
 
 ## Who this applies to
 
@@ -87,21 +87,21 @@ Intake and the content Guides have already collected the facts for this working 
 
 ## Cross-border points
 
-### Section 2 — What this skill is
+### Section 2 -- What this skill is
 
 The final capstone skill. Every other North Carolina skill and every relevant federal skill feeds into this one. The deliverable is the complete reviewer package that a credentialed reviewer signs off on before filing.
 
 The skill enforces three things:
 
-1. **Order of operations.** Federal first, North Carolina second. The order is non-negotiable because federal AGI flows into D-400 Line 6 (the NC AGI starting point), and federal-level deductions and adjustments (QBI, SE health insurance, SE tax deduction, retirement contributions) are baked into federal AGI before the NC computation begins. Unlike Michigan there is **no city-level income tax in North Carolina** — every municipality is barred from levying a local income tax under N.C.G.S. §160A-211 / county-level equivalents — so the city step from the MI orchestrator is omitted entirely.
+1. **Order of operations.** Federal first, North Carolina second. The order is non-negotiable because federal AGI flows into D-400 Line 6 (the NC AGI starting point), and federal-level deductions and adjustments (QBI, SE health insurance, SE tax deduction, retirement contributions) are baked into federal AGI before the NC computation begins. Unlike Michigan there is **no city-level income tax in North Carolina** -- every municipality is barred from levying a local income tax under N.C.G.S. §160A-211 / county-level equivalents -- so the city step from the MI orchestrator is omitted entirely.
 2. **Cross-skill reconciliation.** Every figure that appears on the D-400 must match the corresponding figure produced by the source skill. A mismatch halts assembly with a specific, named refusal.
 3. **Reviewer-grade output.** The final package is structured for a CPA or EA to review in under 30 minutes: cover summary, brief, exhibits in order, action list, citations.
 
-### Section 3 — Orchestration runbook
+### Section 3 -- Orchestration runbook
 
 When invoked, the agent executes the following steps in order. No step is optional. No step is skipped without an explicit refusal.
 
-### Step 1 — Confirm intake artifact exists
+### Step 1 -- Confirm intake artifact exists
 
 Verify the intake skill has produced:
 
@@ -111,46 +111,46 @@ Verify the intake skill has produced:
 - Date of birth for taxpayer and spouse (drives senior-deduction considerations and Bailey settlement vesting eligibility)
 - Dependents list with SSNs (drives NC child deduction)
 - Business structure (sole prop or SMLLC disregarded)
-- Bailey-vested pension flag (taxpayer was vested in a qualifying NC state, local, or federal government retirement plan on or before August 12, 1989 — `[VERIFY:]` vesting cutoff date)
+- Bailey-vested pension flag (taxpayer was vested in a qualifying NC state, local, or federal government retirement plan on or before August 12, 1989 -- `[VERIFY:]` vesting cutoff date)
 - Health coverage history (federal Form 1095-A / B / C)
 - W-2s, 1099-NECs, 1099-Rs received
 
 If any item is missing, refuse with **R-NC-FINAL-5**.
 
-### Step 2 — Confirm federal skills ran and produced outputs
+### Step 2 -- Confirm federal skills ran and produced outputs
 
 Verify in order:
 
-1. `us-sole-prop-bookkeeping` — Schedule C classification with reconciled bank ledger.
-2. `us-schedule-c-and-se-computation` — Schedule C bottom line, Form 8829, Schedule SE.
-3. `us-self-employed-retirement` — SEP / Solo 401(k) contribution and Schedule 1 Line 16 amount.
-4. `us-self-employed-health-insurance` — §162(l) deduction and Schedule 1 Line 17 amount (with iterative PTC convergence if marketplace coverage).
-5. `us-qbi-deduction` — Form 8995 or 8995-A, deduction to Form 1040 Line 13.
-6. `us-federal-return-assembly` — Form 1040, Schedules 1, 2, 3, all supporting forms, federal total tax, federal balance due / refund.
-7. `us-quarterly-estimated-tax` — Form 2210 (if penalty) + 2026 Form 1040-ES schedule.
-8. `us-1099-nec-issuance` — Parallel; only needs bookkeeping. Contractor list plus W-9 gaps.
+1. `us-sole-prop-bookkeeping` -- Schedule C classification with reconciled bank ledger.
+2. `us-schedule-c-and-se-computation` -- Schedule C bottom line, Form 8829, Schedule SE.
+3. `us-self-employed-retirement` -- SEP / Solo 401(k) contribution and Schedule 1 Line 16 amount.
+4. `us-self-employed-health-insurance` -- §162(l) deduction and Schedule 1 Line 17 amount (with iterative PTC convergence if marketplace coverage).
+5. `us-qbi-deduction` -- Form 8995 or 8995-A, deduction to Form 1040 Line 13.
+6. `us-federal-return-assembly` -- Form 1040, Schedules 1, 2, 3, all supporting forms, federal total tax, federal balance due / refund.
+7. `us-quarterly-estimated-tax` -- Form 2210 (if penalty) + 2026 Form 1040-ES schedule.
+8. `us-1099-nec-issuance` -- Parallel; only needs bookkeeping. Contractor list plus W-9 gaps.
 
 If any is missing or its self-checks did not pass, refuse with **R-NC-FINAL-1** or **R-NC-FINAL-2** naming the specific skill.
 
-### Step 3 — Confirm North Carolina skills ran
+### Step 3 -- Confirm North Carolina skills ran
 
 Execute in order:
 
-1. `nc-income-tax` — D-400, D-400 Schedule S, D-400 Schedule A (if itemizing), D-400TC (if claiming credits). Produces NC taxable income, NC tax at 4.25%, credits, refund or balance due.
-2. `nc-bailey-settlement-retirement` — Schedule S Part B Bailey subtraction, if any taxpayer or spouse has a qualifying pre-August-12-1989-vested federal, NC state, or NC local government pension or IRC §401(k) / §457 plan. Skip if N/A but record the skip.
-3. `nc-estimated-tax` — Produces a 4-payment NC-40 voucher schedule for 2026 if expected NC liability after withholding exceeds the NC threshold. (VERIFIED: NCDOR NC-40 Instructions, archived: "You should make estimated income tax payments if the tax due on your individual tax return, reduced by the amount of tax withheld and tax credits, will be $1,000 or more.") Also computes any current-year NC underpayment interest exposure on Form D-422.
+1. `nc-income-tax` -- D-400, D-400 Schedule S, D-400 Schedule A (if itemizing), D-400TC (if claiming credits). Produces NC taxable income, NC tax at 4.25%, credits, refund or balance due.
+2. `nc-bailey-settlement-retirement` -- Schedule S Part B Bailey subtraction, if any taxpayer or spouse has a qualifying pre-August-12-1989-vested federal, NC state, or NC local government pension or IRC §401(k) / §457 plan. Skip if N/A but record the skip.
+3. `nc-estimated-tax` -- Produces a 4-payment NC-40 voucher schedule for 2026 if expected NC liability after withholding exceeds the NC threshold. (VERIFIED: NCDOR NC-40 Instructions, archived: "You should make estimated income tax payments if the tax due on your individual tax return, reduced by the amount of tax withheld and tax credits, will be $1,000 or more.") Also computes any current-year NC underpayment interest exposure on Form D-422.
 
 If any required skill failed or its self-check failed, refuse with **R-NC-FINAL-1** or **R-NC-FINAL-2**.
 
-### Step 4 — No city / local return step
+### Step 4 -- No city / local return step
 
-North Carolina municipalities and counties may not levy local income tax. Skip the city step entirely. If intake somehow flagged a "city return," that is an intake error — refuse with **R-NC-FINAL-7** and route back to intake for correction.
+North Carolina municipalities and counties may not levy local income tax. Skip the city step entirely. If intake somehow flagged a "city return," that is an intake error -- refuse with **R-NC-FINAL-7** and route back to intake for correction.
 
-### Step 5 — Run the verification matrix
+### Step 5 -- Run the verification matrix
 
 Run every check in Section 6. Each check is a specific equality between a number on a final form and the source-of-truth output from the producing skill. A failure halts assembly with **R-NC-FINAL-3**.
 
-### Step 6 — Aggregate artifacts
+### Step 6 -- Aggregate artifacts
 
 Pull:
 
@@ -159,17 +159,17 @@ Pull:
 - Every "Reviewer judgment needed" item into the **reviewer flag log**.
 - Every refusal that fired anywhere in the chain into the **refusal log**.
 
-### Step 7 — Compose the deliverables
+### Step 7 -- Compose the deliverables
 
 Produce the three output files specified in Section 7. Place them in `/mnt/user-data/outputs/`. Present them at the end with `present_files`.
 
-### Step 8 — Final status message
+### Step 8 -- Final status message
 
 A single message stating: which skills ran, which self-checks passed, which deliverables were produced, any partial deliverables and why. Done.
 
-### Section 4 — Pre-flight checks
+### Section 4 -- Pre-flight checks
 
-Before any of Section 3 runs, the orchestrator confirms these gating conditions. If any fail, refuse — do not partially execute.
+Before any of Section 3 runs, the orchestrator confirms these gating conditions. If any fail, refuse -- do not partially execute.
 
 **Pre-flight checks table**
 
@@ -186,7 +186,7 @@ Before any of Section 3 runs, the orchestrator confirms these gating conditions.
 | PF-9 | Did intake report any S-corp or partnership K-1 (NC K-1)? | R-NC-FINAL-10 / R-NC-FINAL-11 |
 | PF-10 | Did intake report any out-of-state wages requiring NC-478 / D-400TC out-of-state credit beyond simple W-2? Multi-state apportionment is out of scope. | R-NC-FINAL-16 |
 
-### Section 5 — Skill-loading order (canonical execution sequence)
+### Section 5 -- Skill-loading order (canonical execution sequence)
 
 This is the immutable order. Do not parallelize; downstream skills consume upstream outputs. The single exception is `us-1099-nec-issuance`, which can run in parallel with anything after `us-sole-prop-bookkeeping`.
 
@@ -208,13 +208,13 @@ This is the immutable order. Do not parallelize; downstream skills consume upstr
 
 Each upstream skill is expected to expose, at minimum: (a) the line-item output(s) it produces, (b) the self-check log, (c) any refusals fired, and (d) any reviewer / taxpayer flags. The orchestrator consumes those four artifacts per skill.
 
-**Note on `nc-sales-tax`.** Sales tax is a separate filing cadence (monthly / quarterly / annual under E-500) and does not flow into the individual return. The orchestrator only surfaces an end-of-year sales-tax status line ("all NC sales-tax periods filed through Dec 2025" or "Q4 2025 E-500 due Jan 31, 2026 — verify filed") in the action list. It does not block on sales tax.
+**Note on `nc-sales-tax`.** Sales tax is a separate filing cadence (monthly / quarterly / annual under E-500) and does not flow into the individual return. The orchestrator only surfaces an end-of-year sales-tax status line ("all NC sales-tax periods filed through Dec 2025" or "Q4 2025 E-500 due Jan 31, 2026 -- verify filed") in the action list. It does not block on sales tax.
 
-### Section 6 — Verification matrix (reconciliations)
+### Section 6 -- Verification matrix (reconciliations)
 
 Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A failure halts assembly with **R-NC-FINAL-3** naming the specific check.
 
-### 6A — Federal internal consistency (re-verified)
+### 6A -- Federal internal consistency (re-verified)
 
 **6A table**
 
@@ -231,7 +231,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | F-9 | Total payments = Form 1040 Line 33 | us-federal-return-assembly |
 | F-10 | Refund / balance due = Form 1040 Line 34 or 37 | us-federal-return-assembly |
 
-### 6B — North Carolina internal consistency
+### 6B -- North Carolina internal consistency
 
 **6B table**
 
@@ -242,7 +242,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | N-3 | D-400 Schedule S Part B (deductions/subtractions) total = D-400 Line 9 | nc-income-tax |
 | N-4 | D-400 Line 8 = Line 6 + Line 7 (federal AGI + additions) | nc-income-tax |
 | N-5 | D-400 Line 10 = Line 8 − Line 9 (after additions and subtractions) | nc-income-tax |
-| N-6 | D-400 Line 11 = NC standard deduction OR NC itemized (Schedule A) total — whichever taxpayer elected | nc-income-tax |
+| N-6 | D-400 Line 11 = NC standard deduction OR NC itemized (Schedule A) total -- whichever taxpayer elected | nc-income-tax |
 | N-7 | NC standard deduction TY 2025: $25,500 MFJ/QSS, $19,125 HoH, $12,750 Single, $12,750 MFS (VERIFIED vs NCDOR 2025 D-401 Instructions NC Standard Deduction Chart, archived; MFS = $0 if spouse itemizes) | nc-income-tax |
 | N-8 | D-400 Line 10b NC child deduction: up to $3,000 per qualifying child, AGI-tiered phase-out per N.C.G.S. §105-153.5(a1); 2025 tier table VERIFIED vs archived D-401 Child Deduction Table (MFJ phase-out ends >$140k; HoH >$105k; Single/MFS >$70k) | nc-income-tax |
 | N-9 | D-400 Line 12a = Line 10 − Line 11 − Line 10b (NC taxable income) | nc-income-tax |
@@ -252,7 +252,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | N-13 | D-400 Line 21 (estimated payments + extension payment) = sum of NC-40 vouchers paid + D-410 extension if applicable | nc-estimated-tax |
 | N-14 | D-400 Line 27 (refund) OR Line 28 (balance due) reconciles | nc-income-tax |
 
-### 6C — Bailey settlement subtraction (Schedule S Part B)
+### 6C -- Bailey settlement subtraction (Schedule S Part B)
 
 **6C table**
 
@@ -263,7 +263,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | B-3 | If taxpayer is NOT Bailey-eligible but reported government pension distributions: confirm no subtraction was taken | nc-bailey-settlement-retirement |
 | B-4 | If Bailey-eligible: Schedule S Part B Bailey line + other Part B subtractions = D-400 Line 9 | nc-bailey-settlement-retirement + nc-income-tax |
 
-### 6D — Federal-NC coordination
+### 6D -- Federal-NC coordination
 
 **6D table**
 
@@ -272,10 +272,10 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | C-1 | Filing status on D-400 = filing status on Form 1040 |
 | C-2 | Dependents claimed on D-400 = dependents claimed on Form 1040 |
 | C-3 | Schedule C net profit federally = Schedule C net profit feeding NC AGI |
-| C-4 | Federal §168(k)/(n) bonus depreciation: NC requires 85% add-back in Year 1 (Schedule S Line 3) with 20%-per-year reversal over the first 5 taxable years beginning TY 2026 — decoupling VERIFIED vs archived 2025 D-401 Instructions; verify add-back appears |
-| C-5 | Federal §179: NC conforms with limitation — `[VERIFY:]` NC §179 cap (often lower than federal); add-back if federal §179 exceeded NC cap |
+| C-4 | Federal §168(k)/(n) bonus depreciation: NC requires 85% add-back in Year 1 (Schedule S Line 3) with 20%-per-year reversal over the first 5 taxable years beginning TY 2026 -- decoupling VERIFIED vs archived 2025 D-401 Instructions; verify add-back appears |
+| C-5 | Federal §179: NC conforms with limitation -- `[VERIFY:]` NC §179 cap (often lower than federal); add-back if federal §179 exceeded NC cap |
 | C-6 | Federal SE tax deduction (Schedule 1 Line 15) is reflected in federal AGI; no NC add-back |
-| C-7 | Federal QBI deduction does NOT flow into NC computation (NC starts at federal AGI before QBI — federal Line 13 is after AGI) — confirm no double-counting |
+| C-7 | Federal QBI deduction does NOT flow into NC computation (NC starts at federal AGI before QBI -- federal Line 13 is after AGI) -- confirm no double-counting |
 | C-8 | Federal SE health insurance deduction is included in federal AGI; no NC add-back |
 | C-9 | Federal taxable Social Security (Form 1040 Line 6b) → NC Schedule S Part B Social Security subtraction (NC fully exempts Social Security) |
 | C-10 | U.S. government bond interest in federal Schedule B → NC Schedule S Part B subtraction |
@@ -283,7 +283,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | C-12 | NC tax refund deducted federally as itemized → NC Schedule S Part B subtraction (if state-refund add-back exists on Sch S Part A path) `[VERIFY:]` |
 | C-13 | If NC itemized (Schedule A) elected: NC Schedule A itemized must NOT exceed federal Schedule A items NC allows; SALT deduction on NC Schedule A is capped at $0 for income/sales tax and limited for property tax `[VERIFY:]` |
 
-### 6E — 1099-NEC reconciliation
+### 6E -- 1099-NEC reconciliation
 
 **6E table**
 
@@ -294,7 +294,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | 9-3 | Filing deadline noted (January 31, 2026; if past, late-filing penalty surfaced) |
 | 9-4 | NC-1099 / NC-3 annual reconciliation status confirmed if taxpayer is also a NC withholding agent (separate from 1099-NEC; flag-only here) |
 
-### 6F — Estimated-tax coordination
+### 6F -- Estimated-tax coordination
 
 **6F table**
 
@@ -302,11 +302,11 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | --- | --- |
 | E-1 | 2026 federal Q1 voucher = `us-quarterly-estimated-tax` Q1 output |
 | E-2 | 2026 NC-40 Q1 voucher = `nc-estimated-tax` Q1 output |
-| E-3 | NC safe harbor: 100% of 2025 NC tax OR 90% of current-year — `[VERIFY:]` 110% rule does NOT generally apply at NC level the way it does federally; NC uses 100% of prior year regardless of AGI |
+| E-3 | NC safe harbor: 100% of 2025 NC tax OR 90% of current-year -- `[VERIFY:]` 110% rule does NOT generally apply at NC level the way it does federally; NC uses 100% of prior year regardless of AGI |
 | E-4 | Q1 federal + Q1 NC together do not exceed taxpayer's stated cash availability flag (if intake captured one) |
 | E-5 | If NC underpayment interest exposure (D-422) exists in current year, surface for reviewer |
 
-### 6G — Withholding tie-out
+### 6G -- Withholding tie-out
 
 **6G table**
 
@@ -317,76 +317,76 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | W-3 | NC withholding total (Line 20a + 20b) = D-400 Line 20 |
 | W-4 | Schedule W-equivalent backup detail captured in workbook for reviewer |
 
-### 6H — Bailey + retirement + SE-health cross-checks
+### 6H -- Bailey + retirement + SE-health cross-checks
 
 **6H table**
 
 | Check | Equation |
 | --- | --- |
-| BX-1 | If taxpayer is Bailey-eligible AND took the §162(l) SE health deduction: confirm pension income is excluded from "net earnings from self-employment" for SE health cap purposes (it is — Bailey income is pension, not SE earnings) |
+| BX-1 | If taxpayer is Bailey-eligible AND took the §162(l) SE health deduction: confirm pension income is excluded from "net earnings from self-employment" for SE health cap purposes (it is -- Bailey income is pension, not SE earnings) |
 | BX-2 | If taxpayer is Bailey-eligible AND has marketplace coverage: confirm Bailey-protected income still flows into federal MAGI for PTC computation (it does; Bailey is a NC-only subtraction, not a federal exclusion) |
-| BX-3 | If taxpayer rolled over a Bailey-protected plan to a non-Bailey IRA after 8/12/1989: the rolled amount loses Bailey protection — flag for reviewer |
+| BX-3 | If taxpayer rolled over a Bailey-protected plan to a non-Bailey IRA after 8/12/1989: the rolled amount loses Bailey protection -- flag for reviewer |
 
-### Section 7 — Deliverable package (what the reviewer sees)
+### Section 7 -- Deliverable package (what the reviewer sees)
 
 The package is **three files**, not fifteen. Do not fragment the output.
 
-### 7A — File 1: `{taxpayer_slug}_2025_nc_master.xlsx`
+### 7A -- File 1: `{taxpayer_slug}_2025_nc_master.xlsx`
 
 A single master workbook. Required sheets, in this order:
 
-1. **Cover** — Taxpayer name, filing status, residency, business structure, summary table (federal tax, NC tax, total liability, total payments, net refund/balance due, key 2026 dates).
-2. **Assumption Log** — Every "Assumed" item from every upstream skill, tagged with the skill that produced it.
-3. **Taxpayer Input Log** — Every item that needs taxpayer confirmation before filing.
-4. **Reviewer Flag Log** — Every item that needs reviewer judgment.
-5. **Income** — Aggregate income summary (W-2, 1099-NEC, Schedule C, interest, dividends, capital gains, 1099-R, other).
-6. **Schedule C** — Parts I–V.
-7. **Form 4562** — Depreciation (if applicable).
-8. **Form 8829** — Home office (if applicable).
-9. **Schedule SE** — SE tax.
-10. **Retirement** — SEP / Solo 401(k) worksheet.
-11. **SE Health Insurance** — §162(l) worksheet, with PTC iteration log if marketplace coverage.
-12. **Form 8962** — PTC reconciliation (if marketplace coverage).
-13. **QBI** — Form 8995 or 8995-A.
-14. **Schedule 1 (federal)** — Adjustments to income.
-15. **Schedule 2 (federal)** — Additional taxes.
-16. **Schedule 3 (federal)** — Credits (if applicable).
-17. **Form 1040** — Final federal return line-by-line.
-18. **Form 2210** — Underpayment penalty (if applicable).
-19. **D-400** — North Carolina return line-by-line.
-20. **D-400 Schedule S** — Part A additions and Part B deductions (Bailey, Social Security, U.S. bond interest, etc.).
-21. **D-400 Schedule A** — NC itemized deductions (if itemizing).
-22. **D-400TC** — Tax credits worksheet (if applicable).
-23. **D-422** — NC underpayment interest (if applicable).
-24. **Bailey Worksheet** — Bailey-protected pension subtraction detail (if applicable).
-25. **NC Withholding Detail** — W-2 + 1099 withholding tie-out.
-26. **2026 Federal 1040-ES** — Voucher schedule.
-27. **2026 NC-40** — Voucher schedule.
-28. **1099-NEC Batch** — Contractor batch (if applicable).
-29. **NC Sales Tax Status** — End-of-year filing status note (if taxpayer is a NC sales-tax registrant).
-30. **Verification Matrix** — Every check in Section 6 with pass/fail/N/A.
+1. **Cover** -- Taxpayer name, filing status, residency, business structure, summary table (federal tax, NC tax, total liability, total payments, net refund/balance due, key 2026 dates).
+2. **Assumption Log** -- Every "Assumed" item from every upstream skill, tagged with the skill that produced it.
+3. **Taxpayer Input Log** -- Every item that needs taxpayer confirmation before filing.
+4. **Reviewer Flag Log** -- Every item that needs reviewer judgment.
+5. **Income** -- Aggregate income summary (W-2, 1099-NEC, Schedule C, interest, dividends, capital gains, 1099-R, other).
+6. **Schedule C** -- Parts I–V.
+7. **Form 4562** -- Depreciation (if applicable).
+8. **Form 8829** -- Home office (if applicable).
+9. **Schedule SE** -- SE tax.
+10. **Retirement** -- SEP / Solo 401(k) worksheet.
+11. **SE Health Insurance** -- §162(l) worksheet, with PTC iteration log if marketplace coverage.
+12. **Form 8962** -- PTC reconciliation (if marketplace coverage).
+13. **QBI** -- Form 8995 or 8995-A.
+14. **Schedule 1 (federal)** -- Adjustments to income.
+15. **Schedule 2 (federal)** -- Additional taxes.
+16. **Schedule 3 (federal)** -- Credits (if applicable).
+17. **Form 1040** -- Final federal return line-by-line.
+18. **Form 2210** -- Underpayment penalty (if applicable).
+19. **D-400** -- North Carolina return line-by-line.
+20. **D-400 Schedule S** -- Part A additions and Part B deductions (Bailey, Social Security, U.S. bond interest, etc.).
+21. **D-400 Schedule A** -- NC itemized deductions (if itemizing).
+22. **D-400TC** -- Tax credits worksheet (if applicable).
+23. **D-422** -- NC underpayment interest (if applicable).
+24. **Bailey Worksheet** -- Bailey-protected pension subtraction detail (if applicable).
+25. **NC Withholding Detail** -- W-2 + 1099 withholding tie-out.
+26. **2026 Federal 1040-ES** -- Voucher schedule.
+27. **2026 NC-40** -- Voucher schedule.
+28. **1099-NEC Batch** -- Contractor batch (if applicable).
+29. **NC Sales Tax Status** -- End-of-year filing status note (if taxpayer is a NC sales-tax registrant).
+30. **Verification Matrix** -- Every check in Section 6 with pass/fail/N/A.
 
 Use the same Excel-builder discipline as `us-federal-return-assembly`: collect anchors as a Python dict before writing cross-sheet formulas; verify no `#REF!` errors; verify computed cells match the Python model within $1 before shipping.
 
-### 7B — File 2: `reviewer_brief.md`
+### 7B -- File 2: `reviewer_brief.md`
 
 Structured markdown. Required sections in this order:
 
-1. **Executive Summary** (≤ 1 page) — Taxpayer, filing status, residency, federal tax, NC tax, total liability, total payments, net result, action required by April 15, 2026.
-2. **Federal Return Brief** — Summary of `us-federal-return-assembly` brief, condensed.
-3. **North Carolina Return Brief** — Summary of `nc-income-tax` brief plus anything from Bailey subtraction and Schedule A.
-4. **Standard vs. Itemized Decision** — Show both NC standard deduction and computed NC itemized total; document the chosen route and why it was favorable.
-5. **Estimated Tax for 2026** — Federal + NC voucher schedule.
-6. **1099-NEC Issuance** — Status of contractor filings.
-7. **NC Sales Tax Status** — End-of-year status, if applicable.
-8. **Cross-skill Verification** — Pass/fail summary from Section 6.
-9. **Reviewer Attention Flags** — Aggregated from all upstream skills.
-10. **Refusals Triggered** — Aggregated from all upstream skills.
-11. **Positions Taken** — Tax positions requiring judgment, with citations (N.C.G.S. §, IRC §, D-401 page references, Bailey case cite).
-12. **Planning Notes for 2026** — NC rate watch (Session Law 2023-134 rate-step-down schedule continues; `[VERIFY:]` 2026 rate is expected ~3.99%), federal QBI 20% → 23% under OBBBA, federal 1099 threshold change, NC child deduction phase-out tier monitoring, Bailey income continuity.
-13. **Taxpayer Action List** — Embedded copy of File 3.
+1. **Executive Summary** (≤ 1 page) -- Taxpayer, filing status, residency, federal tax, NC tax, total liability, total payments, net result, action required by April 15, 2026.
+2. **Federal Return Brief** -- Summary of `us-federal-return-assembly` brief, condensed.
+3. **North Carolina Return Brief** -- Summary of `nc-income-tax` brief plus anything from Bailey subtraction and Schedule A.
+4. **Standard vs. Itemized Decision** -- Show both NC standard deduction and computed NC itemized total; document the chosen route and why it was favorable.
+5. **Estimated Tax for 2026** -- Federal + NC voucher schedule.
+6. **1099-NEC Issuance** -- Status of contractor filings.
+7. **NC Sales Tax Status** -- End-of-year status, if applicable.
+8. **Cross-skill Verification** -- Pass/fail summary from Section 6.
+9. **Reviewer Attention Flags** -- Aggregated from all upstream skills.
+10. **Refusals Triggered** -- Aggregated from all upstream skills.
+11. **Positions Taken** -- Tax positions requiring judgment, with citations (N.C.G.S. §, IRC §, D-401 page references, Bailey case cite).
+12. **Planning Notes for 2026** -- NC rate watch (Session Law 2023-134 rate-step-down schedule continues; `[VERIFY:]` 2026 rate is expected ~3.99%), federal QBI 20% → 23% under OBBBA, federal 1099 threshold change, NC child deduction phase-out tier monitoring, Bailey income continuity.
+13. **Taxpayer Action List** -- Embedded copy of File 3.
 
-### 7C — File 3: `taxpayer_action_list.md`
+### 7C -- File 3: `taxpayer_action_list.md`
 
 Step-by-step action list, structured by date. The taxpayer reads this file and nothing else.
 
@@ -474,7 +474,7 @@ If execution runs out of context mid-build: produce whatever is complete, then s
 
 All files go to `/mnt/user-data/outputs/` and are presented at the end via the `present_files` tool.
 
-### Section 8 — The reviewer brief (narrative format)
+### Section 8 -- The reviewer brief (narrative format)
 
 This is the document the CPA reads first. It should be readable in under 30 minutes and give the reviewer enough context to either sign off or identify exactly what needs more work.
 
@@ -544,7 +544,7 @@ The brief follows this fixed structure:
 [embedded copy of File 3]
 ```
 
-### Section 9 — Tier 1 deterministic rules
+### Section 9 -- Tier 1 deterministic rules
 
 **Tier 1 rules table**
 
@@ -560,15 +560,15 @@ The brief follows this fixed structure:
 | NC-ASM-T1-08 | NC fully exempts Social Security benefits (Schedule S Part B). Federal taxable SS (Line 6b) must be subtracted in full. |
 | NC-ASM-T1-09 | NC estimated-tax payments are required if tax due after withholding and credits is $1,000 or more (VERIFIED vs archived NC-40 Instructions). |
 | NC-ASM-T1-10 | NC safe harbor: 100% of prior-year NC tax OR 90% of current-year. No 110%-AGI step. `[VERIFY:]` |
-| NC-ASM-T1-11 | NC partially decouples from federal §168(k)/(n) bonus depreciation — 85% add-back in Year 1 with 20%-per-year deductible reversal over the first 5 taxable years beginning TY 2026, Schedule S Line 3 — VERIFIED vs archived 2025 D-401 Instructions. |
+| NC-ASM-T1-11 | NC partially decouples from federal §168(k)/(n) bonus depreciation -- 85% add-back in Year 1 with 20%-per-year deductible reversal over the first 5 taxable years beginning TY 2026, Schedule S Line 3 -- VERIFIED vs archived 2025 D-401 Instructions. |
 | NC-ASM-T1-12 | NC does NOT recognize the federal §199A QBI deduction in any NC adjustment. NC starts at federal AGI, BEFORE QBI, so QBI never touches NC computation. |
-| NC-ASM-T1-13 | NC standard deduction TY 2025 (per `nc-income-tax` table): $25,500 MFJ/QSS, $19,125 HoH, $12,750 Single, $12,750 MFS — VERIFIED vs archived NCDOR 2025 D-401 Instructions. |
+| NC-ASM-T1-13 | NC standard deduction TY 2025 (per `nc-income-tax` table): $25,500 MFJ/QSS, $19,125 HoH, $12,750 Single, $12,750 MFS -- VERIFIED vs archived NCDOR 2025 D-401 Instructions. |
 | NC-ASM-T1-14 | NC child deduction: up to $3,000 per qualifying child under N.C.G.S. §105-153.5(a1), tiered AGI phase-out VERIFIED vs archived 2025 D-401 Child Deduction Table (full phase-out: MFJ >$140k, HoH >$105k, Single/MFS >$70k). |
 | NC-ASM-T1-15 | NC itemized deductions (Schedule A) are NOT federal Schedule A. Only specific categories (qualified mortgage interest + property tax up to $20,000 combined, charitable contributions matching federal, medical/dental) are allowed `[VERIFY:]` 2025 categories and caps. |
 | NC-ASM-T1-16 | Three-file deliverable structure (xlsx + brief.md + actions.md) is mandatory. |
 | NC-ASM-T1-17 | No city-level income tax exists in NC; the orchestrator never emits a city return artifact. |
 
-### Section 10 — Tier 2 judgment rules
+### Section 10 -- Tier 2 judgment rules
 
 **Tier 2 rules table**
 
@@ -587,7 +587,7 @@ The brief follows this fixed structure:
 
 ## Worked examples
 
-### Worked example — Section 11
+### Worked example -- Section 11
 
 **Facts.** James Whitfield, single, age 67, full-year Raleigh (NC) resident, sole proprietor (freelance security consultant, retired federal CSRS pensioner). 2025 facts:
 
@@ -597,17 +597,17 @@ The brief follows this fixed structure:
 - Federal CSRS pension (1099-R): $40,000, fully Bailey-protected (vested in CSRS in 1978; well before 8/12/1989)
 - Social Security benefits received: $24,000; taxable for federal purposes (Form 1040 Line 6b): $20,400 (85% inclusion)
 - Other income: $2,000 interest from Wells Fargo checking; $0 dividends
-- Marketplace health coverage: No — James is on Medicare
+- Marketplace health coverage: No -- James is on Medicare
 - Solo 401(k) contributions: $30,500 (employee deferral $23,500 + $7,500 age-50+ catch-up; no employer portion this year by election)
 - Federal withholding: $0 from CSRS pension (waived); $0 W-2
-- Federal estimated payments: $0 — taxpayer underpaid; Form 2210 penalty applies
+- Federal estimated payments: $0 -- taxpayer underpaid; Form 2210 penalty applies
 - NC withholding: $0 across all sources
-- NC estimated payments: $0 — taxpayer underpaid; Form D-422 applies
+- NC estimated payments: $0 -- taxpayer underpaid; Form D-422 applies
 - No dependents; no NC child deduction
 - Takes NC standard deduction ($12,750 single TY 2025, VERIFIED vs archived D-401 chart)
 - No NC sales-tax registration
 
-**Orchestrator output (abbreviated reviewer brief — actual file is longer):**
+**Orchestrator output (abbreviated reviewer brief -- actual file is longer):**
 
 ```markdown
 # Complete Return Package — James Whitfield — Tax Year 2025
@@ -768,7 +768,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 
 ## Ask the client first
 
-### Section 12 — Refusal catalogue
+### Section 12 -- Refusal catalogue
 
 **Refusal catalogue table**
 
@@ -780,9 +780,9 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 | R-NC-FINAL-4 | A refusal fired upstream and was suppressed in the upstream output. | Refuse; force resolution. |
 | R-NC-FINAL-5 | Intake artifact is incomplete (missing residency, DOB, filing status, Bailey flag, etc.). | Refuse; name the missing item(s). |
 | R-NC-FINAL-6 | Taxpayer is not a full-year North Carolina resident (part-year via D-400 Schedule PN or non-resident). | Refuse; out of scope. |
-| R-NC-FINAL-7 | Intake somehow flagged a NC city or local income tax — none exists. | Refuse; route back to intake. |
-| R-NC-FINAL-8 | (reserved) | — |
-| R-NC-FINAL-9 | (reserved) | — |
+| R-NC-FINAL-7 | Intake somehow flagged a NC city or local income tax -- none exists. | Refuse; route back to intake. |
+| R-NC-FINAL-8 | (reserved) | -- |
+| R-NC-FINAL-9 | (reserved) | -- |
 | R-NC-FINAL-10 | Taxpayer is an S-corp (Form 1120-S federally; NC requires CD-401S). | Refuse; out of scope for this orchestrator (route to `nc-corporate-tax`). |
 | R-NC-FINAL-11 | Taxpayer is a partnership (Form 1065 federally; NC requires D-403). | Refuse; out of scope. |
 | R-NC-FINAL-12 | Tax year other than 2025. | Refuse; rates and forms may differ. |
@@ -795,7 +795,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 | R-NC-FINAL-19 | NC pass-through entity (PTE) tax election handling for SMLLC that elected to be taxed as a corporation. | Refuse; out of scope (SMLLCs in scope are disregarded only). |
 | R-NC-FINAL-20 | NC K-1 received from an S-corp or partnership flowing through to this individual. | Refuse; orchestrator scope is sole prop / SMLLC disregarded only. |
 
-### Section 13 — Self-checks
+### Section 13 -- Self-checks
 
 **Self-checks table**
 
@@ -820,7 +820,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 | 216 | `present_files` called with the three files. |
 | 217 | Standard vs. itemized comparison documented in the reviewer brief, even if standard was obviously higher. |
 
-### Section 14 — Known gaps
+### Section 14 -- Known gaps
 
 1. PDF form filling is not automated. The reviewer transcribes the worksheets into NCDOR eFile partner software.
 2. E-filing is the reviewer's responsibility. This skill produces the computation; submission happens outside the agent.
@@ -835,7 +835,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 
 ### Change log
 
-- **v0.1 (May 2026):** Initial draft. Orchestrates federal + NC stack. Three-file deliverable. Section 6 verification matrix with 40+ reconciliations covering federal-internal, NC-internal, Bailey settlement, federal-NC coordination, 1099-NEC, estimated-tax, withholding tie-out, and Bailey-cross-checks. Worked example: NC resident sole prop with $150K Schedule C, Solo 401(k), $40K Bailey-protected federal CSRS pension, no withholding (estimates also $0 — underpayment exposure documented).
+- **v0.1 (May 2026):** Initial draft. Orchestrates federal + NC stack. Three-file deliverable. Section 6 verification matrix with 40+ reconciliations covering federal-internal, NC-internal, Bailey settlement, federal-NC coordination, 1099-NEC, estimated-tax, withholding tie-out, and Bailey-cross-checks. Worked example: NC resident sole prop with $150K Schedule C, Solo 401(k), $40K Bailey-protected federal CSRS pension, no withholding (estimates also $0 -- underpayment exposure documented).
 
 ## Sources
 
@@ -863,27 +863,27 @@ This skill and its outputs are provided for informational and computational purp
 
 This skill is a tool, not an engagement. Every taxpayer's situation is different, and the rules in the skill may not match your specific facts.
 
-To speak with one of the licensed accountants who verifies skills for your jurisdiction — **no liability on either side until you and the accountant sign a formal engagement letter** — book a free 30-minute call:
+To speak with one of the licensed accountants who verifies skills for your jurisdiction -- **no liability on either side until you and the accountant sign a formal engagement letter** -- book a free 30-minute call:
 
 **→ [Book a call](https://calendly.com/openaccountants-info/30min)**
 
 We'll route you to the named verifier covering your country or state. You can also see the full list of verified accountants at [openaccountants.com/network](https://openaccountants.com/network).
 
-### Section 5 — Skill-loading order (canonical execution sequence)
+### Section 5 -- Skill-loading order (canonical execution sequence)
 
-0. **Step 1** — us-tax-workflow-base (workflow scaffold)
-0. **Step 2** — us-sole-prop-bookkeeping (Schedule C classification)
-0. **Step 3** — us-schedule-c-and-se-computation (C, SE, 8829)
-0. **Step 4** — us-qbi-deduction (8995 / 8995-A)
-0. **Step 5** — us-self-employed-health-insurance (§162(l), iterative w/ PTC)
-0. **Step 6** — us-self-employed-retirement (SEP / Solo 401(k))
-0. **Step 7** — us-quarterly-estimated-tax (2210, 2026 1040-ES)
-0. **Step 8** — us-federal-return-assembly (1040, Sch 1/2/3, sign-off)
-0. **Step 9** — us-1099-nec-issuance (parallel; contractor batch)
-0. **Step 10** — nc-income-tax (D-400, Sch S, Sch A, D-400TC)
-0. **Step 11** — nc-bailey-settlement-retirement (Sch S Part B — if applicable)
-0. **Step 12** — nc-estimated-tax / NC-40 (2026) (next-year vouchers)
-0. **Step 13** — nc-return-assembly ← THIS SKILL
+0. **Step 1** -- us-tax-workflow-base (workflow scaffold)
+0. **Step 2** -- us-sole-prop-bookkeeping (Schedule C classification)
+0. **Step 3** -- us-schedule-c-and-se-computation (C, SE, 8829)
+0. **Step 4** -- us-qbi-deduction (8995 / 8995-A)
+0. **Step 5** -- us-self-employed-health-insurance (§162(l), iterative w/ PTC)
+0. **Step 6** -- us-self-employed-retirement (SEP / Solo 401(k))
+0. **Step 7** -- us-quarterly-estimated-tax (2210, 2026 1040-ES)
+0. **Step 8** -- us-federal-return-assembly (1040, Sch 1/2/3, sign-off)
+0. **Step 9** -- us-1099-nec-issuance (parallel; contractor batch)
+0. **Step 10** -- nc-income-tax (D-400, Sch S, Sch A, D-400TC)
+0. **Step 11** -- nc-bailey-settlement-retirement (Sch S Part B -- if applicable)
+0. **Step 12** -- nc-estimated-tax / NC-40 (2026) (next-year vouchers)
+0. **Step 13** -- nc-return-assembly ← THIS SKILL
 
 <!-- openaccountants-cta-block -->
 
@@ -891,7 +891,7 @@ We'll route you to the named verifier covering your country or state. You can al
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
