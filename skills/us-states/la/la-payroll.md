@@ -2,7 +2,7 @@
 name: la-payroll
 description: >
   Use this skill whenever asked about Louisiana payroll withholding for
-  tax year 2026 — Form L-1 quarterly withholding returns (zero returns
+  tax year 2026 -- Form L-1 quarterly withholding returns (zero returns
   required), Form L-3 annual reconciliation due January 31, mandatory
   e-filing through LaTAP/LaWage, and the verified payment-frequency bands
   (quarterly under $500, monthly $500-$5,000, semi-monthly $5,000+).
@@ -27,13 +27,13 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding by employers. **Source status:** the LDR Withholding page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/) was fetched and its text verified 2026-10-28 — the **withholding duty, L-1/L-3 form designations, zero-return rule, payment-frequency bands, and the January 31 reconciliation deadline are verified quotes**. The **withholding table figures** (https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/) render via JS and are **not confirmed**.
+Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding by employers. **Source status:** the LDR Withholding page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/) was fetched and its text verified 2026-10-28 -- the **withholding duty, L-1/L-3 form designations, zero-return rule, payment-frequency bands, and the January 31 reconciliation deadline are verified quotes**. The **withholding table figures** (https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/) render via JS and are **not confirmed**.
 
 ## Rates, bands and thresholds
 
 - **Every employer with resident or nonresident employees performing services in Louisiana** must withhold, unless specifically exempt, based on the employee's withholding certificate (verified).
-- **Louisiana residents performing services in another state** may still be Louisiana-withheld **if those wages are not subject to income-tax withholding in the other state** (verified — this is Louisiana's answer to no-reciprocity, e.g. Texas employers don't withhold, so Louisiana residents working in TX get LA withholding from the TX employer).
-- **Every employer who withholds or must withhold** files a **quarterly L-1 for every assigned period — even zero returns** (no employees, no LA wages, no tax due: still file; verified).
+- **Louisiana residents performing services in another state** may still be Louisiana-withheld **if those wages are not subject to income-tax withholding in the other state** (verified -- this is Louisiana's answer to no-reciprocity, e.g. Texas employers don't withhold, so Louisiana residents working in TX get LA withholding from the TX employer).
+- **Every employer who withholds or must withhold** files a **quarterly L-1 for every assigned period -- even zero returns** (no employees, no LA wages, no tax due: still file; verified).
 
 ## The taxable base
 
@@ -49,24 +49,24 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding b
 
 ## Deadlines and filing
 
-- L-1 quarterly: assigned periods, electronic file + pay (calendar detail **not confirmed** — standard last-day-of-month-after-quarter).
+- L-1 quarterly: assigned periods, electronic file + pay (calendar detail **not confirmed** -- standard last-day-of-month-after-quarter).
 - L-3 annual reconciliation: **January 31** following the calendar year close (verified).
 - Notify LDR of name/address/responsible-party/ownership changes (verified duty).
 
 ## Penalties and interest
 
 - Common-mistake list published by LDR: filing after due date, missing zero returns, missing e-payment deadlines (verified page; penalty percentages under R.S. 47:1607 **not confirmed**).
-- Failure to withhold: employer liable for amounts that should have been withheld plus penalties — tiers **not confirmed**.
+- Failure to withhold: employer liable for amounts that should have been withheld plus penalties -- tiers **not confirmed**.
 
 ## Cross-border points
 
-- **No reciprocity agreements** — the resident-in-another-state withholding rule (verified) is the mechanism: LA residents working in states that don't withhold (TX, WA, FL...) get LA withholding instead.
+- **No reciprocity agreements** -- the resident-in-another-state withholding rule (verified) is the mechanism: LA residents working in states that don't withhold (TX, WA, FL...) get LA withholding instead.
 - Nonresidents working in Louisiana: withholding required like residents (verified duty).
 - W-2 state-box reporting via LaWage e-file (verified channel).
 
 ## Worked examples
 
-**Example 1 — payment-frequency band:** employer averages $4,800/month of Louisiana withholding. The bands (average monthly withholding <$500 → quarterly; $500–<$5,000 → monthly; ≥$5,000 → semi-monthly) are verified quotes from the LDR Withholding page (2026-10-28); the $4,800 figure is a hypothetical client fact.
+**Example 1 -- payment-frequency band:** employer averages $4,800/month of Louisiana withholding. The bands (average monthly withholding <$500 → quarterly; $500–<$5,000 → monthly; ≥$5,000 → semi-monthly) are verified quotes from the LDR Withholding page (2026-10-28); the $4,800 figure is a hypothetical client fact.
 
 ```oa-check
 name: LA withholding frequency band
@@ -84,7 +84,7 @@ expected:
 
 $4,800 is above the $500 quarterly ceiling and $200 below the $5,000 semi-monthly floor → **monthly** remitters (verified bands).
 
-**Example 2 — annual remittance count by band:** a monthly-band employer files how many L-1 remittances per year vs a quarterly-band employer?
+**Example 2 -- annual remittance count by band:** a monthly-band employer files how many L-1 remittances per year vs a quarterly-band employer?
 
 ```oa-check
 name: LA remittance counts
@@ -101,10 +101,10 @@ Monthly band = 12 remittances, quarterly band = 4, plus one L-3 reconciliation e
 
 ## Ask the client first
 
-- Average monthly withholding — which frequency band applies (bands reassign as payroll grows).
-- LA-resident employees working in no-income-tax states — LA withholding required (verified rule).
+- Average monthly withholding -- which frequency band applies (bands reassign as payroll grows).
+- LA-resident employees working in no-income-tax states -- LA withholding required (verified rule).
 - Zero-return discipline: dormant accounts still owe quarterly L-1s until formally closed (verified).
-- LaTAP/LaWage e-file enrollment status — paper is not an option.
+- LaTAP/LaWage e-file enrollment status -- paper is not an option.
 
 ## Sources
 
@@ -116,7 +116,7 @@ Not yet confirmed: withholding table figures (the LDR withholding-tables page re
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

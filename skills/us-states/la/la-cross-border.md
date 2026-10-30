@@ -2,7 +2,7 @@
 name: la-cross-border
 description: >
   Use this skill whenever asked about Louisiana cross-border taxation for
-  tax year 2026 — nonresident and part-year filing (Form IT-540B), the
+  tax year 2026 -- nonresident and part-year filing (Form IT-540B), the
   resident-worldwide-plus-credit structure, no reciprocity with
   neighboring states, no exit tax, and the verified LDR rule that
   Louisiana residents working in another state are LA-withheld when that
@@ -33,9 +33,9 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 ## Rates, bands and thresholds
 
 - **Louisiana residents**: taxed on worldwide income at the flat 3% (per `la-income-tax.md`, effective 2025); the LDR Withholding page confirms LA residents working in another state may be LA-withheld when the other state doesn't withhold (verified).
-- **Nonresidents**: taxed on Louisiana-source income only — the LDR Individual Income Tax page (verified 2026-10-28) states that nonresidents add to federal AGI only LA-sourced income, and that gambling winnings earned in Louisiana are LA-sourced income; file **IT-540B** (per pre-existing skill's scope note; form ID not confirmed for 2026).
+- **Nonresidents**: taxed on Louisiana-source income only -- the LDR Individual Income Tax page (verified 2026-10-28) states that nonresidents add to federal AGI only LA-sourced income, and that gambling winnings earned in Louisiana are LA-sourced income; file **IT-540B** (per pre-existing skill's scope note; form ID not confirmed for 2026).
 - **Part-year residents**: split-year treatment; allocation detail **not confirmed**.
-- **Entities**: foreign corporations doing business in Louisiana file CIFT-620 (verified category — see `la-corporate-income-tax`).
+- **Entities**: foreign corporations doing business in Louisiana file CIFT-620 (verified category -- see `la-corporate-income-tax`).
 
 ## The taxable base
 
@@ -44,30 +44,30 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 | Resident base | worldwide income at flat 3% (2025+ reform) | structure verified via withholding rule; rate per pre-existing skill + RIB 25-012 PDF (verified PDF) |
 | Nonresident base | Louisiana-source income, IT-540B | **not confirmed** |
 | Credit for taxes paid to other states | Residents are "allowed a credit on Schedule C for the net tax liability paid to another state if that income is included on the Louisiana return" (LDR page, verified 2026-10-28) | rule verified; **statute citation/ordering not confirmed** |
-| Reciprocity | **none** — no agreements with TX, MS, AR, OK, or any neighbor | structural; not confirmed for citation |
-| Exit tax | **none** — no departure/exit tax | structural, low risk |
+| Reciprocity | **none** -- no agreements with TX, MS, AR, OK, or any neighbor | structural; not confirmed for citation |
+| Exit tax | **none** -- no departure/exit tax | structural, low risk |
 | Remote work sourcing | services sourced where performed; LA residents still LA-taxed (verified withholding rule) | verified |
 
 ## Deadlines and filing
 
-- IT-540/IT-540B: **May 15** for calendar-year filers (Louisiana's individual deadline — verified against the LDR Individual Income Tax page 2026-10-28); R.S. 47:103 gives an automatic six-month extension to file, never to pay.
+- IT-540/IT-540B: **May 15** for calendar-year filers (Louisiana's individual deadline -- verified against the LDR Individual Income Tax page 2026-10-28); R.S. 47:103 gives an automatic six-month extension to file, never to pay.
 - Withholding remittances follow the payroll calendar (see `la-payroll`).
 
 ## Penalties and interest
 
-- Standard R.S. 47 late-filing/late-payment regime — tiers **not confirmed**.
+- Standard R.S. 47 late-filing/late-payment regime -- tiers **not confirmed**.
 - Dual-residency disputes (e.g. LA vs TX domicile fights) are litigation-prone; no special penalty for the dispute itself.
 
 ## Cross-border points
 
-- **LA resident working in Texas** (classic pattern): Texas has no income tax and doesn't withhold → the LDR rule (verified) means the Texas employer may need to withhold Louisiana tax; Louisiana taxes worldwide with credit for tax paid elsewhere — here zero credit, full LA tax.
+- **LA resident working in Texas** (classic pattern): Texas has no income tax and doesn't withhold → the LDR rule (verified) means the Texas employer may need to withhold Louisiana tax; Louisiana taxes worldwide with credit for tax paid elsewhere -- here zero credit, full LA tax.
 - **Nonresident working in Louisiana**: LA withholds and taxes; home state generally credits LA tax.
 - **Military**: for taxable years beginning before January 1, 2023, LA-domiciled (home-of-record) military personnel filed as part-year residents (LDR page, verified 2026-10-28); MMRA resident-retention adoption detail **not confirmed**.
-- Louisiana's **May 15** individual deadline is later than most states' April 15 — coordinate multi-state extensions.
+- Louisiana's **May 15** individual deadline is later than most states' April 15 -- coordinate multi-state extensions.
 
 ## Worked examples
 
-**Example 1 — Louisiana resident working in Texas (no TX tax):** hypothetical client facts: Louisiana tax on worldwide income $5,100; Texas tax $0; no credit available (Texas levies no income tax).
+**Example 1 -- Louisiana resident working in Texas (no TX tax):** hypothetical client facts: Louisiana tax on worldwide income $5,100; Texas tax $0; no credit available (Texas levies no income tax).
 
 ```oa-check
 name: LA resident TX commuter (no credit)
@@ -84,9 +84,9 @@ expected:
   combined: 5100
 ```
 
-The household pays full Louisiana tax — the no-reciprocity/no-TX-tax pattern is why the verified LA-withholding rule for out-of-state work exists.
+The household pays full Louisiana tax -- the no-reciprocity/no-TX-tax pattern is why the verified LA-withholding rule for out-of-state work exists.
 
-**Example 2 — nonresident working in Louisiana:** hypothetical client facts: Mississippi resident earns in Louisiana; LA tax $1,800; Mississippi tax on the same income $2,600 with credit for LA tax.
+**Example 2 -- nonresident working in Louisiana:** hypothetical client facts: Mississippi resident earns in Louisiana; LA tax $1,800; Mississippi tax on the same income $2,600 with credit for LA tax.
 
 ```oa-check
 name: Nonresident LA work home-state credit
@@ -108,7 +108,7 @@ expected:
 - Domicile and statutory-day counts in Louisiana vs other states (LA vs TX domicile disputes are common).
 - Where services were physically performed each day.
 - Employer withholding posture for LA residents working in no-income-tax states (verified duty).
-- Home/work state credit rules — credits, not exemptions, do the double-tax relief.
+- Home/work state credit rules -- credits, not exemptions, do the double-tax relief.
 
 ## Sources
 
@@ -118,11 +118,11 @@ expected:
 | LDR Revenue Information Bulletin 25-012 (flat 3% reform; archived PDF) | https://dam.ldr.la.gov/lawspolicies/RIB-25-012-Louisiana-Individual-Income-Tax-Reform-1.pdf | 2026-10-28 |
 | LDR Individual Income Tax (nonresident sourcing, gambling winnings, Schedule C credit, military part-year rule, extension) | https://revenue.louisiana.gov/individuals/general-resources/individual-income-tax/ | 2026-10-28 |
 
-Not yet confirmed: IT-540B 2026 form ID and mechanics; the resident-credit statute citation and ordering (R.S. 47:287.182 numbering not verified — legis.la.gov serves only a JS shell to plain fetchers); part-year allocation detail; current-year military provisions; the citation for the absence of reciprocity.
+Not yet confirmed: IT-540B 2026 form ID and mechanics; the resident-credit statute citation and ordering (R.S. 47:287.182 numbering not verified -- legis.la.gov serves only a JS shell to plain fetchers); part-year allocation detail; current-year military provisions; the citation for the absence of reciprocity.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

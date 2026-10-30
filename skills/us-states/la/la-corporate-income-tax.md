@@ -2,7 +2,7 @@
 name: la-corporate-income-tax
 description: >
   Use this skill whenever asked about Louisiana corporate income tax for
-  tax year 2026 — the flat 5.5% corporation income tax for tax periods
+  tax year 2026 -- the flat 5.5% corporation income tax for tax periods
   beginning on or after January 1, 2025 (graduated brackets repealed), Form
   CIFT-620, the May 15 (15th day of 5th month) due date, the $1,000
   estimated-tax threshold, and the corporation franchise tax repeal for
@@ -29,7 +29,7 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. Covers Louisiana corporation income tax (Form CIFT-620), the flat-rate reform, the franchise-tax repeal, and filing mechanics. **Source status:** the LDR Corporation Income Tax page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/, page "Updated July 07, 2026") was fetched and its text verified 2026-10-28 — the **5.5% flat rate, the May 15 due date, the $1,000 estimated threshold, the CIFT-620/CIFT-620EXT-V form IDs, and the franchise repeal are verified quotes**. **Apportionment/unitary detail sits in La. R.S. 47 behind a session-state legislature site**, so the apportionment formula and combined-report mechanics are not confirmed.
+Source-cited draft, run of 2026-10-28. Covers Louisiana corporation income tax (Form CIFT-620), the flat-rate reform, the franchise-tax repeal, and filing mechanics. **Source status:** the LDR Corporation Income Tax page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/, page "Updated July 07, 2026") was fetched and its text verified 2026-10-28 -- the **5.5% flat rate, the May 15 due date, the $1,000 estimated threshold, the CIFT-620/CIFT-620EXT-V form IDs, and the franchise repeal are verified quotes**. **Apportionment/unitary detail sits in La. R.S. 47 behind a session-state legislature site**, so the apportionment formula and combined-report mechanics are not confirmed.
 
 ## Rates, bands and thresholds
 
@@ -37,7 +37,7 @@ A Louisiana Corporation Income Tax return is generally required for (LDR page, v
 
 - **Corporations earning income from Louisiana sources**;
 - **Entities taxed as corporations for federal purposes**;
-- **S corporations required to file as corporations for Louisiana income tax purposes** (Louisiana does not fully conform to federal S pass-through — verify scope);
+- **S corporations required to file as corporations for Louisiana income tax purposes** (Louisiana does not fully conform to federal S pass-through -- verify scope);
 - **LLCs taxed as corporations federally**;
 - **Foreign corporations doing business in or deriving income from Louisiana sources**.
 - **Exempt entities**: an IRS exemption ruling must be provided to LDR to request Louisiana exemption (verified).
@@ -55,8 +55,8 @@ A Louisiana Corporation Income Tax return is generally required for (LDR page, v
 
 ## Deadlines and filing
 
-- CIFT-620: due **on or before the 15th day of the 5th month** after the accounting period closes — **May 15** for calendar-year filers (verified quote; note this is a month later than the federal April 15).
-- **Extension:** automatic six-month extension to file if a federal extension was timely requested; **extension to file is not an extension to pay** — tax due must be paid by the original due date to avoid interest and penalties (verified). Extension voucher: CIFT-620EXT-V (verified form ID).
+- CIFT-620: due **on or before the 15th day of the 5th month** after the accounting period closes -- **May 15** for calendar-year filers (verified quote; note this is a month later than the federal April 15).
+- **Extension:** automatic six-month extension to file if a federal extension was timely requested; **extension to file is not an extension to pay** -- tax due must be paid by the original due date to avoid interest and penalties (verified). Extension voucher: CIFT-620EXT-V (verified form ID).
 - **Estimated payments:** required if liability after credits can reasonably be expected to be **$1,000 or more** for the year (verified); pay via LaTAP.
 
 ## Penalties and interest
@@ -67,12 +67,12 @@ A Louisiana Corporation Income Tax return is generally required for (LDR page, v
 ## Cross-border points
 
 - Foreign (out-of-state) corporations doing business in Louisiana file CIFT-620 and apportion (see `la-cross-border`).
-- S corporations may be taxed at the entity level for Louisiana even when pass-through federally — flag for any S-corp client with Louisiana source (verified category; scope not confirmed).
+- S corporations may be taxed at the entity level for Louisiana even when pass-through federally -- flag for any S-corp client with Louisiana source (verified category; scope not confirmed).
 - No franchise tax layer for 2026+ filers (verified repeal).
 
 ## Worked examples
 
-**Example 1 — flat 5.5% on apportioned Louisiana income:** C corporation, $300,000 unitary income, 60% Louisiana apportionment factor.
+**Example 1 -- flat 5.5% on apportioned Louisiana income:** C corporation, $300,000 unitary income, 60% Louisiana apportionment factor.
 
 ```oa-check
 name: LA corporate flat 5.5%
@@ -88,7 +88,7 @@ expected:
   tax: 9900
 ```
 
-**Example 2 — estimated-payment installments:** projected Louisiana liability after credits is $1,200 — above the $1,000 threshold (verified), so estimates are required. Quarterly installment:
+**Example 2 -- estimated-payment installments:** projected Louisiana liability after credits is $1,200 -- above the $1,000 threshold (verified), so estimates are required. Quarterly installment:
 
 ```oa-check
 name: LA estimated installments
@@ -107,7 +107,7 @@ The `required` step shows the liability exceeds the $1,000 threshold by $200, so
 
 ## Ask the client first
 
-- Federal entity classification (C, S, LLC-taxed-as-corp) — Louisiana may tax S corps at the entity level.
+- Federal entity classification (C, S, LLC-taxed-as-corp) -- Louisiana may tax S corps at the entity level.
 - Louisiana nexus: source income, physical presence, remote sellers/service providers.
 - Whether the entity still has a prior-period franchise tax obligation (pre-2026 periods).
 - Projected liability vs the $1,000 estimated threshold; May 15 (not April 15) due date.
@@ -119,11 +119,11 @@ The `required` step shows the liability exceeds the $1,000 threshold by $200, so
 | LDR Corporation Income Tax (rate, due date, threshold, forms, franchise repeal, extension rule) | https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/ | 2026-10-28 |
 | La. R.S. 47 (Title 47 table of contents; article text behind session state) | https://legis.la.gov/legis/Laws_Toc.aspx?folder=90&title=47 | 2026-10-29 |
 
-Not yet confirmed: the apportionment formula and unitary-combination requirement (the R.S. 47:287.83 numbering was not verified — legis.la.gov serves only a JS shell to plain fetchers); S-corporation entity-level scope; penalty/interest percentage tiers; the federal-adjustment reporting deadline.
+Not yet confirmed: the apportionment formula and unitary-combination requirement (the R.S. 47:287.83 numbering was not verified -- legis.la.gov serves only a JS shell to plain fetchers); S-corporation entity-level scope; penalty/interest percentage tiers; the federal-adjustment reporting deadline.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

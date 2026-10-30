@@ -2,7 +2,7 @@
 name: la-transfer-pricing
 description: >
   Use this skill whenever asked about Louisiana transfer pricing and
-  related-party adjustments for tax year 2026 — Louisiana has no
+  related-party adjustments for tax year 2026 -- Louisiana has no
   standalone TP documentation regime; related-party exposure runs through
   unitary combined reporting, the water's-edge and addback toolkit, and
   the apportionment base. Trigger on "Louisiana transfer pricing",
@@ -27,14 +27,14 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pricing documentation statute** (no state documentation mandate, no state CbCR). Related-party risk arises from: (1) **unitary combined reporting** (R.S. 47:287.83 series — combination required for affiliated groups above an ownership threshold; exact test **not confirmed**), (2) **addback adjustments** for intangible/management payments to related low-tax affiliates, and (3) the **apportionment base**. **Source status:** the LDR Corporation Income Tax page (filing duty, 5.5% flat rate) verified 2026-10-28; **legis.la.gov requires session state for article text**, so statutory citations, thresholds, and forms are **not confirmed** — treat this as a map of exposure, not authority.
+Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pricing documentation statute** (no state documentation mandate, no state CbCR). Related-party risk arises from: (1) **unitary combined reporting** (R.S. 47:287.83 series -- combination required for affiliated groups above an ownership threshold; exact test **not confirmed**), (2) **addback adjustments** for intangible/management payments to related low-tax affiliates, and (3) the **apportionment base**. **Source status:** the LDR Corporation Income Tax page (filing duty, 5.5% flat rate) verified 2026-10-28; **legis.la.gov requires session state for article text**, so statutory citations, thresholds, and forms are **not confirmed** -- treat this as a map of exposure, not authority.
 
 ## Rates, bands and thresholds
 
-- **Affiliated/unitary groups** with Louisiana filing members — combined-report exposure; the combination test is not confirmed (see Sources).
-- Any CIFT-620 filer making **intercompany royalty, interest, management, or service payments** to out-of-state affiliates — addback exposure.
+- **Affiliated/unitary groups** with Louisiana filing members -- combined-report exposure; the combination test is not confirmed (see Sources).
+- Any CIFT-620 filer making **intercompany royalty, interest, management, or service payments** to out-of-state affiliates -- addback exposure.
 - Multistate filers whose **intercompany sales** move the Louisiana apportionment factor.
-- **S corporations taxed as corporations for Louisiana** (verified category on LDR page) — intra-group pricing matters at the entity level.
+- **S corporations taxed as corporations for Louisiana** (verified category on LDR page) -- intra-group pricing matters at the entity level.
 
 ## The taxable base
 
@@ -49,23 +49,23 @@ Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pr
 
 ## Deadlines and filing
 
-- No separate TP filing calendar; adjustments ride CIFT-620 (due 15th day of 5th month — verified) and any combined-report attachment.
-- Keep contemporaneous federal §6662(e) documentation — Louisiana examiners use the federal file. Linkage **not confirmed**.
+- No separate TP filing calendar; adjustments ride CIFT-620 (due 15th day of 5th month -- verified) and any combined-report attachment.
+- Keep contemporaneous federal §6662(e) documentation -- Louisiana examiners use the federal file. Linkage **not confirmed**.
 
 ## Penalties and interest
 
-- Understatements carry interest and accuracy penalties under R.S. 47 — tiers **not confirmed**.
-- No Louisiana-specific TP documentation penalty identified — absence **not confirmed**.
+- Understatements carry interest and accuracy penalties under R.S. 47 -- tiers **not confirmed**.
+- No Louisiana-specific TP documentation penalty identified -- absence **not confirmed**.
 
 ## Cross-border points
 
-- Foreign-parent groups: federal §482 starting point; state combination layers on top — **not confirmed**.
+- Foreign-parent groups: federal §482 starting point; state combination layers on top -- **not confirmed**.
 - Intangible holding companies in zero-tax states (TX/NV/WY) are the classic Louisiana addback target given the 5.5% flat rate makes adjustments material.
 - Combined reporting pulls out-of-state affiliates into one Louisiana factor set.
 
 ## Worked examples
 
-**Example 1 — royalty addback exposure (hypothetical addback percentage — not confirmed):** Louisiana operating company pays $500,000 royalties to a related Texas affiliate (no TX income tax); assumed 30% addback at the verified 5.5% rate.
+**Example 1 -- royalty addback exposure (hypothetical addback percentage -- not confirmed):** Louisiana operating company pays $500,000 royalties to a related Texas affiliate (no TX income tax); assumed 30% addback at the verified 5.5% rate.
 
 ```oa-check
 name: LA royalty addback (hypothetical addback, verified rate)
@@ -81,7 +81,7 @@ expected:
   tax_effect: 8250
 ```
 
-**Example 2 — arm's-length defense:** benchmarking supports $300,000 royalties instead of $500,000; same hypothetical parameters.
+**Example 2 -- arm's-length defense:** benchmarking supports $300,000 royalties instead of $500,000; same hypothetical parameters.
 
 ```oa-check
 name: LA royalty after benchmarking
@@ -100,7 +100,7 @@ expected:
 ## Ask the client first
 
 - Entity map: which affiliates receive intercompany payments and where are they taxed?
-- Is the group unitary/common-controlled — combined-report trigger?
+- Is the group unitary/common-controlled -- combined-report trigger?
 - Federal §6662(e) documentation on file?
 - Intercompany sales volumes that could swing the Louisiana sales factor.
 
@@ -111,11 +111,11 @@ expected:
 | LDR Corporation Income Tax (duty, 5.5% flat rate, S-corp-as-corporation category) | https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/ | 2026-10-28 |
 | La. R.S. 47 (Title 47 table of contents; article text behind session state) | https://legis.la.gov/legis/Laws_Toc.aspx?folder=90&title=47 | 2026-10-29 |
 
-Not yet confirmed: the combination ownership test and combined-report form (the R.S. 47:287.83 numbering was not verified — legis.la.gov serves only a JS shell to plain fetchers); addback statute numbering and scope; interest treatment beyond federal §163(j); penalty tiers; S-corporation combined applicability.
+Not yet confirmed: the combination ownership test and combined-report form (the R.S. 47:287.83 numbering was not verified -- legis.la.gov serves only a JS shell to plain fetchers); addback statute numbering and scope; interest treatment beyond federal §163(j); penalty tiers; S-corporation combined applicability.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
