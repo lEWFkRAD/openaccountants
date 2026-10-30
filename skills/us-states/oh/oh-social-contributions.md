@@ -2,7 +2,7 @@
 name: oh-social-contributions
 description: >
   Use this skill whenever asked about Ohio social contributions and
-  employer-side payroll taxes for tax year 2026 — Ohio has no state
+  employer-side payroll taxes for tax year 2026 -- Ohio has no state
   disability/paid-leave program and no state-level retirement mandate: the
   social-contribution stack is (1) unemployment insurance under ORC Ch. 4141
   ($9,000 taxable wage base, experience rates 0.30%-9.80%, new-employer
@@ -36,30 +36,30 @@ depends_on:
 
 Ohio imposes **no state payroll tax for disability, paid family leave, or state retirement contributions**. The employer social-contribution stack is:
 
-1. **Unemployment insurance (UI)** — ORC Chapter 4141, administered by the Department of Job and Family Services (ODJFS).
-2. **Workers' compensation** — ORC Chapter 4123, **state fund only**: Ohio has no private workers' comp insurance option; every employer either pays BWC premiums or is an approved self-assessing employer.
+1. **Unemployment insurance (UI)** -- ORC Chapter 4141, administered by the Department of Job and Family Services (ODJFS).
+2. **Workers' compensation** -- ORC Chapter 4123, **state fund only**: Ohio has no private workers' comp insurance option; every employer either pays BWC premiums or is an approved self-assessing employer.
 3. Federal FICA / FUTA sit on top and are covered by the federal skills.
 
-**Source status (as_of 2026-10-28):** [ORC 4123.26](https://codes.ohio.gov/ohio-revised-code/section-4123.26) (employer payroll report; August 15 filing date for policy years from 2015; PEO monthly reports; penalties by rule) fetched HTTP 200, archived, and read in full. **UI wage base and rate ranges are carried from the tier-2 `oh-payroll` skill** (2025 schedule read 2026-07-13); ODJFS UI pages did not resolve from this drafting environment on 2026-10-27 (`odjfs.ohio.gov` DNS failed, `jfs.ohio.gov` 404) — the 2026 schedule is **not yet confirmed**.
+**Source status (as_of 2026-10-28):** [ORC 4123.26](https://codes.ohio.gov/ohio-revised-code/section-4123.26) (employer payroll report; August 15 filing date for policy years from 2015; PEO monthly reports; penalties by rule) fetched HTTP 200, archived, and read in full. **UI wage base and rate ranges are carried from the tier-2 `oh-payroll` skill** (2025 schedule read 2026-07-13); ODJFS UI pages did not resolve from this drafting environment on 2026-10-27 (`odjfs.ohio.gov` DNS failed, `jfs.ohio.gov` 404) -- the 2026 schedule is **not yet confirmed**.
 
 ## 2. Who applies
 
 - **UI:** every employer that pays $1,500+ in wages in any calendar quarter, or employs at least one employee in each of 20 different weeks (federal test adopted); also covers most nonprofit and public employers via reimbursable agreements. (not yet confirmed)
-- **Workers' comp:** every private employer with **one or more employees** regularly in the same business must be covered (ORC 4123.26(B)); sole proprietors and partners may elect coverage. Coverage is through the BWC state insurance fund — private policies are not permitted.
-- **No PIT-linked social contribution:** Ohio municipal income taxes and school district income taxes are *income* taxes, not contributions — see `oh-payroll` and `oh-cross-border`.
+- **Workers' comp:** every private employer with **one or more employees** regularly in the same business must be covered (ORC 4123.26(B)); sole proprietors and partners may elect coverage. Coverage is through the BWC state insurance fund -- private policies are not permitted.
+- **No PIT-linked social contribution:** Ohio municipal income taxes and school district income taxes are *income* taxes, not contributions -- see `oh-payroll` and `oh-cross-border`.
 
 ## Rates, bands and thresholds
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| UI taxable wage base | **$9,000** per employee per year (2025; unchanged since 2013) | `oh-payroll` (ODJFS, read 2026-07-13) — **not yet confirmed 2026** |
-| UI experience rate range | **0.30% – 9.80%** (2025; top rate includes any mutualized component) | `oh-payroll` — not yet confirmed 2026 |
+| UI taxable wage base | **$9,000** per employee per year (2025; unchanged since 2013) | `oh-payroll` (ODJFS, read 2026-07-13) -- **not yet confirmed 2026** |
+| UI experience rate range | **0.30% – 9.80%** (2025; top rate includes any mutualized component) | `oh-payroll` -- not yet confirmed 2026 |
 | New-employer UI rate | **2.70%** non-construction; **5.60%** construction (OAC 4141-9-04) | `oh-payroll` | (not yet confirmed)
-| Mutualized account add-on | **0.0%** for 2025 (trust fund solvent; zeroed late 2024) | `oh-payroll` — not yet confirmed 2026 |
+| Mutualized account add-on | **0.0%** for 2025 (trust fund solvent; zeroed late 2024) | `oh-payroll` -- not yet confirmed 2026 |
 | UI surcharges | Reemployment Tax / interest assessments billed separately by ODJFS | not yet confirmed |
 | Workers' comp premium | Rate per **$100 of payroll** by BWC classification code; payroll for BWC = nearly all remuneration, capped per worker per year | not yet confirmed (class rates not read this run) |
 | BWC annual payroll report | Due **on or before August 15** each year for the policy year beginning January 1 | [ORC 4123.26(B)](https://codes.ohio.gov/ohio-revised-code/section-4123.26), read 2026-10-27 |
-| Self-assessing employers | Exception status granted by the administrator; forfeiture on failure | ORC 4123.26 / 4123.27 — 4123.27 not read, not yet confirmed |
+| Self-assessing employers | Exception status granted by the administrator; forfeiture on failure | ORC 4123.26 / 4123.27 -- 4123.27 not read, not yet confirmed |
 
 ## The taxable base
 
@@ -79,8 +79,8 @@ Quarter dates follow the ODJFS pattern in `oh-payroll`; BWC installment cadence 
 ## Penalties and interest
  (not yet confirmed)
 - **UI:** late quarterly returns and late contributions accrue penalty plus interest; failure to report wages triggers assessment on estimated wages. Exact 2026 percentages: **not yet confirmed** (ORC 4141.19/4141.20 not read this run).
-- **Workers' comp:** every private employer must submit the BWC annual payroll report **on or before August 15** for policy years commencing on or after July 1, 2015 — VERIFIED against archived [ORC 4123.26(B)](https://codes.ohio.gov/ohio-revised-code/section-4123.26): "For a policy year commencing on or after July 1, 2015, the employer shall submit the payroll report on or before August fifteenth of each year". PEOs/AEOs file **monthly** (4123.26(C)). Failure penalties are set by administrator rule, "including but not limited to exclusion from alternative rating plans and discount programs" (4123.26(F)) — the earlier "$1,000 first-offense forfeiture" figure is NOT in the archived statute text and is **not yet confirmed**. Operating without coverage exposes the employer to the full compensation liability plus a BWC order.
-- Intentional misclassification of workers as independent contractors carries separate penalties (ORC 4123.01(C)(2) — not yet confirmed).
+- **Workers' comp:** every private employer must submit the BWC annual payroll report **on or before August 15** for policy years commencing on or after July 1, 2015 -- VERIFIED against archived [ORC 4123.26(B)](https://codes.ohio.gov/ohio-revised-code/section-4123.26): "For a policy year commencing on or after July 1, 2015, the employer shall submit the payroll report on or before August fifteenth of each year". PEOs/AEOs file **monthly** (4123.26(C)). Failure penalties are set by administrator rule, "including but not limited to exclusion from alternative rating plans and discount programs" (4123.26(F)) -- the earlier "$1,000 first-offense forfeiture" figure is NOT in the archived statute text and is **not yet confirmed**. Operating without coverage exposes the employer to the full compensation liability plus a BWC order.
+- Intentional misclassification of workers as independent contractors carries separate penalties (ORC 4123.01(C)(2) -- not yet confirmed).
 
 ## Cross-border points
 
@@ -90,7 +90,7 @@ Quarter dates follow the ODJFS pattern in `oh-payroll`; BWC installment cadence 
 
 ## Worked examples
 
-**Example A — three employees, standard experience rate.**
+**Example A -- three employees, standard experience rate.**
 
 ```oa-check
 name: Ohio UI contributions, 3 employees at 2.1%
@@ -106,7 +106,7 @@ expected:
   ui: 567.00
 ```
 
-**Example B — BWC premium at a class rate of $1.85 per $100.**
+**Example B -- BWC premium at a class rate of $1.85 per $100.**
 
 ```oa-check
 name: BWC premium on 1,250,000 covered payroll
@@ -121,12 +121,12 @@ expected:
   premium: 23125.00
 ```
 
-The $1.85 class rate is hypothetical — pull the client's actual BWC class rate from their premium worksheet (not yet confirmed).
+The $1.85 class rate is hypothetical -- pull the client's actual BWC class rate from their premium worksheet (not yet confirmed).
  (not yet confirmed)
 ## Ask the client first
 
 - Are all employees reported to ODJFS each quarter, including the first $9,000 of each worker's wages? (not yet confirmed)
-- Experience rate letter for 2026 — has the client appealed an adverse rate? (not yet confirmed)
+- Experience rate letter for 2026 -- has the client appealed an adverse rate? (not yet confirmed)
 - Is the client a **self-assessing** BWC employer, and is the certificate current?
 - Worker classification: any 1099 contractors in Ohio? Misclassification reaches both UI and BWC.
 - BWC payroll report filed by August 15? Forfeiture is automatic. (not yet confirmed)
@@ -138,15 +138,15 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
-- [ORC 4123.26 — annual statement by employer, forfeiture](https://codes.ohio.gov/ohio-revised-code/section-4123.26) — read 2026-10-27 (text effective 2021-03-24, SB 201)
-- [ORC 4141.04 — free employment services (UI administration)](https://codes.ohio.gov/ohio-revised-code/section-4141.04) — read 2026-10-27
-- `oh-payroll` (tier 2, read 2026-07-13) — UI wage base $9,000, rates 0.30–9.80%, new-employer 2.70%/5.60%, mutualized 0.0%
+- [ORC 4123.26 -- annual statement by employer, forfeiture](https://codes.ohio.gov/ohio-revised-code/section-4123.26) -- read 2026-10-27 (text effective 2021-03-24, SB 201)
+- [ORC 4141.04 -- free employment services (UI administration)](https://codes.ohio.gov/ohio-revised-code/section-4141.04) -- read 2026-10-27
+- `oh-payroll` (tier 2, read 2026-07-13) -- UI wage base $9,000, rates 0.30–9.80%, new-employer 2.70%/5.60%, mutualized 0.0%
 - **not yet confirmed:** 2026 ODJFS UI wage base/rate schedule (odjfs.ohio.gov DNS failed 2026-10-27; archived ORC 4141.04 is only the employment-offices section, no rate numbers); BWC 2026 class rates and per-worker payroll cap; ORC 4141.19/4141.20 UI penalty and interest percentages; BWC payroll-report forfeiture amounts (4123.26 sets penalties by rule, not statute); ORC 4123.01(C)(2) misclassification penalty
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Ohio UI and workers'-comp questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Ohio UI and workers'-comp questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 ## Talk to a verified accountant
 
 Not yet confirmed against archived sources.
@@ -155,16 +155,16 @@ Not yet confirmed against archived sources.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 
-- [ORC 4123.26 — annual statement by employer, forfeiture](https://codes.ohio.gov/ohio-revised-code/section-4123.26) — read 2026-10-27 (text effective 2021-03-24, SB 201)
-- [ORC 4141.04 — free employment services (UI administration)](https://codes.ohio.gov/ohio-revised-code/section-4141.04) — read 2026-10-27
-- `oh-payroll` (tier 2, read 2026-07-13) — UI wage base $9,000, rates 0.30–9.80%, new-employer 2.70%/5.60%, mutualized 0.0%
+- [ORC 4123.26 -- annual statement by employer, forfeiture](https://codes.ohio.gov/ohio-revised-code/section-4123.26) -- read 2026-10-27 (text effective 2021-03-24, SB 201)
+- [ORC 4141.04 -- free employment services (UI administration)](https://codes.ohio.gov/ohio-revised-code/section-4141.04) -- read 2026-10-27
+- `oh-payroll` (tier 2, read 2026-07-13) -- UI wage base $9,000, rates 0.30–9.80%, new-employer 2.70%/5.60%, mutualized 0.0%
 - **not yet confirmed:** 2026 ODJFS UI wage base/rate schedule (odjfs.ohio.gov DNS failed 2026-10-27; archived ORC 4141.04 is only the employment-offices section, no rate numbers); BWC 2026 class rates and per-worker payroll cap; ORC 4141.19/4141.20 UI penalty and interest percentages; BWC payroll-report forfeiture amounts (4123.26 sets penalties by rule, not statute); ORC 4123.01(C)(2) misclassification penalty
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Ohio UI and workers'-comp questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Ohio UI and workers'-comp questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 ## Talk to a verified accountant
 

@@ -169,7 +169,7 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 
 - **Ohio earned income credit (line 13):** 30% of the federal earned income credit, nonrefundable. (not yet confirmed)
 - **Campaign contribution credit (line 8):** repealed by HB 96; the instructions say it is not available after tax year 2025.
-- **2026:** the Department had not published 2026 credit limits by 25 September 2026. The 2026 IT 1040ES worksheet lowers the exemption cut-off to $500,000 — and archived ORC 5747.05(E)(2) confirms the joint filing credit MAGI cliff is **less than $500,000 for taxable years beginning in 2026 or thereafter** (down from $750,000 for 2025).
+- **2026:** the Department had not published 2026 credit limits by 25 September 2026. The 2026 IT 1040ES worksheet lowers the exemption cut-off to $500,000 -- and archived ORC 5747.05(E)(2) confirms the joint filing credit MAGI cliff is **less than $500,000 for taxable years beginning in 2026 or thereafter** (down from $750,000 for 2025).
 
 ### Federal conformity and depreciation ([Ohio conformity updates](https://tax.ohio.gov/wps/portal/gov/tax/individual/file-now/ohio-conformity-updates); [2025 IT 1040 instructions, Schedule of Adjustments lines 9 and 27](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
  (not yet confirmed)
@@ -197,7 +197,7 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 | Late filing penalty, per month late | Greater of 5% of the tax due or $50 |
 | Late filing penalty, maximum | 50% of the tax due, capped at $500 (per archived Dept. failure-to-file notice) |
 
-- The late filing penalty applies "even if the late-filed return results in a refund". VERIFIED against the archived Department Failure-to-File notice (ITDQ0009 companion, Oct 2019): "Late payment penalty is double the interest rate. Late filing penalty is the greater of 5% of the tax due or $50.00 for each month the return is late, up to a maximum of 50% of the tax due or $500, even if the late-filed return results in a refund." Note the statutory **maximum is $500** (not "greater of 50% or $500" — the cap is the lesser ceiling of the two); confirm current wording against R.C. 5747.15 before quoting in writing.
+- The late filing penalty applies "even if the late-filed return results in a refund". VERIFIED against the archived Department Failure-to-File notice (ITDQ0009 companion, Oct 2019): "Late payment penalty is double the interest rate. Late filing penalty is the greater of 5% of the tax due or $50.00 for each month the return is late, up to a maximum of 50% of the tax due or $500, even if the late-filed return results in a refund." Note the statutory **maximum is $500** (not "greater of 50% or $500" -- the cap is the lesser ceiling of the two); confirm current wording against R.C. 5747.15 before quoting in writing.
 
 ### 2025 returns (due 15 April 2026, or 15 October 2026 on extension) ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
 
@@ -334,12 +334,12 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -355,7 +355,7 @@ the OpenAccountants network.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 
 Not yet confirmed against archived sources.
@@ -363,7 +363,7 @@ Not yet confirmed against archived sources.
 ### Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.

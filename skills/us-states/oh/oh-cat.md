@@ -1,6 +1,6 @@
 ---
 name: oh-cat
-description: Ohio Commercial Activity Tax (CAT) — ORC Chapter 5751
+description: Ohio Commercial Activity Tax (CAT) -- ORC Chapter 5751
 jurisdiction: US-OH
 tax_year: 2026
 version: "0.2"
@@ -387,12 +387,12 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -408,7 +408,7 @@ the OpenAccountants network.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 
 Not yet confirmed against archived sources.
@@ -416,7 +416,7 @@ Not yet confirmed against archived sources.
 ### Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -445,7 +445,7 @@ Not yet confirmed: rate 0.26% below $1M threshold; registration thresholds; pena
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or

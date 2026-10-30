@@ -85,15 +85,15 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Required Inputs
 
-- **Minimum viable** — Confirmation of Ohio nexus (physical or economic), vendor license status, filing frequency, and list of products/services sold.
-- **Recommended** — Sales by county, exemption certificates on file, prior period UST-1.
-- **Ideal** — Complete transaction log with ship-to addresses, exemption certificate register, CAT filing status.
+- **Minimum viable** -- Confirmation of Ohio nexus (physical or economic), vendor license status, filing frequency, and list of products/services sold.
+- **Recommended** -- Sales by county, exemption certificates on file, prior period UST-1.
+- **Ideal** -- Complete transaction log with ship-to addresses, exemption certificate register, CAT filing status.
 
 ### Refusal Catalogue
 
-- **R-OH-1 -- CAT questions** — The Commercial Activity Tax (CAT) is a separate tax on gross receipts. CAT compliance is outside this skill scope. Escalate.  _(R-OH-1)_
-- **R-OH-2 -- Audit defense** — Responding to ODT audits or assessments requires specialist representation. Escalate.  _(R-OH-2)_
-- **R-OH-3 -- Complex bundled transactions** — Mixed transactions involving taxable and exempt components require specialist analysis. Escalate.  _(R-OH-3)_
+- **R-OH-1 -- CAT questions** -- The Commercial Activity Tax (CAT) is a separate tax on gross receipts. CAT compliance is outside this skill scope. Escalate.  _(R-OH-1)_
+- **R-OH-2 -- Audit defense** -- Responding to ODT audits or assessments requires specialist representation. Escalate.  _(R-OH-2)_
+- **R-OH-3 -- Complex bundled transactions** -- Mixed transactions involving taxable and exempt components require specialist analysis. Escalate.  _(R-OH-3)_
 
 ## Section 3 -- Transaction Pattern Library
 
@@ -173,12 +173,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### 5.1 Rate Structure
 
-- **State rate** — 5.75% (not yet confirmed)
-- **County permissive taxes** — 0.75% to 2.25% (No city or special district taxes) (not yet confirmed)
+- **State rate** -- 5.75% (not yet confirmed)
+- **County permissive taxes** -- 0.75% to 2.25% (No city or special district taxes) (not yet confirmed)
 
 ### 5.2 Sourcing (ORC 5739.033)
 
-- **Sourcing rule** — Origin-based for intrastate (both seller and buyer in Ohio). Destination-based for remote sellers (SST compliant).  _(ORC 5739.033)_
+- **Sourcing rule** -- Origin-based for intrastate (both seller and buyer in Ohio). Destination-based for remote sellers (SST compliant).  _(ORC 5739.033)_
 
 ### 5.3 Filing (ORC 5739.12)
 
@@ -191,23 +191,23 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### 5.4 Vendor Discount
 
-- **Vendor discount** — 0.75% of tax collected for timely filing and payment. No cap.  _(ORC 5739.12(B))_ (not yet confirmed)
+- **Vendor discount** -- 0.75% of tax collected for timely filing and payment. No cap.  _(ORC 5739.12(B))_ (not yet confirmed)
 
 ### 5.5 Economic Nexus (ORC 5741.01(I)(2))
 
-- **Economic nexus threshold** — $100,000 gross receipts OR 200 transactions in current or preceding calendar year. (Effective August 1, 2019)  _(ORC 5741.01(I)(2))_
+- **Economic nexus threshold** -- $100,000 gross receipts OR 200 transactions in current or preceding calendar year. (Effective August 1, 2019)  _(ORC 5741.01(I)(2))_
 
 ### 5.6 Marketplace Facilitator (ORC 5739.01(Q))
 
-- **Marketplace facilitator obligation** — Required to collect and remit. Effective January 1, 2020. Marketplace sellers relieved for facilitated sales.  _(ORC 5739.01(Q))_
+- **Marketplace facilitator obligation** -- Required to collect and remit. Effective January 1, 2020. Marketplace sellers relieved for facilitated sales.  _(ORC 5739.01(Q))_
 
 ### 5.7 Exemption Certificates
 
-- **Exemption certificates** — STEC-B (blanket), STEC-U (unit), STEC-CO (construction). Ohio accepts SST Certificate and MTC Uniform Certificate.
+- **Exemption certificates** -- STEC-B (blanket), STEC-U (unit), STEC-CO (construction). Ohio accepts SST Certificate and MTC Uniform Certificate.
 
 ### 5.8 Use Tax
 
-- **Use tax** — Applies when Ohio purchaser acquires TPP/services without Ohio tax collected. Rate = combined state + county at location of use. Report on UST-1 (vendors) or IT-1040 (individuals).
+- **Use tax** -- Applies when Ohio purchaser acquires TPP/services without Ohio tax collected. Rate = combined state + county at location of use. Report on UST-1 (vendors) or IT-1040 (individuals).
 
 ### 5.9 Penalties (ORC 5739.13)
 
@@ -362,7 +362,7 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
