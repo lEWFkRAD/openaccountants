@@ -2,7 +2,7 @@
 name: ne-cross-border
 description: >
   Use this skill whenever asked about Nebraska cross-border individual
-  taxation for 2026 — nonresident and part-year taxation of
+  taxation for 2026 -- nonresident and part-year taxation of
   Nebraska-source income, the pass-through entity (PTE) tax election as a
   collection and SALT-posture rail for nonresident members, credit for
   taxes paid to other states, and inheritance tax administration.
@@ -29,18 +29,18 @@ depends_on:
 
 ## Scope and sources
 
-How Nebraska reaches nonresidents and how residents recover other-state tax. **Source status:** verified 2026-10-28 against archived official sources — the DOR individual income-tax page, the **PTE tax page**, and the Chapter 77 statutes archived in Sources below. Items not yet tied to an archived source are listed under Not yet confirmed in Sources.
+How Nebraska reaches nonresidents and how residents recover other-state tax. **Source status:** verified 2026-10-28 against archived official sources -- the DOR individual income-tax page, the **PTE tax page**, and the Chapter 77 statutes archived in Sources below. Items not yet tied to an archived source are listed under Not yet confirmed in Sources.
 
 ## Who this applies to
 
-- **Nonresidents with Nebraska-source income** — wages for Nebraska workdays, Nebraska business income, rents/gains; nonresident/part-year return mechanics are listed under Not yet confirmed.
-- **Part-year residents** — split-period filing (mechanics listed under Not yet confirmed).
-- **Nebraska residents paying other-state tax** — a credit for taxes paid to other states is expected; the statute is listed under Not yet confirmed.
-- **Nonresident members of NE pass-throughs** — PTE tax election moves the liability to entity level (page verified).
+- **Nonresidents with Nebraska-source income** -- wages for Nebraska workdays, Nebraska business income, rents/gains; nonresident/part-year return mechanics are listed under Not yet confirmed.
+- **Part-year residents** -- split-period filing (mechanics listed under Not yet confirmed).
+- **Nebraska residents paying other-state tax** -- a credit for taxes paid to other states is expected; the statute is listed under Not yet confirmed.
+- **Nonresident members of NE pass-throughs** -- PTE tax election moves the liability to entity level (page verified).
 
 ## Rates, bands and thresholds
 
-Graduated individual schedule: the TY2026 top rate is **4.55%** (brackets 2.46%/3.51%/4.55%, § 77-2715.03, archived `SRC-US-NE-77-2715.03`; see `ne-income-tax.md`). The PTE tax is levied **at the highest individual rate — 4.55% for TY2026** (§ 77-2727(6), archived `SRC-US-NE-77-2727`; DOR PTET page `SRC-US-NE-DOR-ptet`).
+Graduated individual schedule: the TY2026 top rate is **4.55%** (brackets 2.46%/3.51%/4.55%, § 77-2715.03, archived `SRC-US-NE-77-2715.03`; see `ne-income-tax.md`). The PTE tax is levied **at the highest individual rate -- 4.55% for TY2026** (§ 77-2727(6), archived `SRC-US-NE-77-2727`; DOR PTET page `SRC-US-NE-DOR-ptet`).
 
 ## The taxable base
 
@@ -63,7 +63,7 @@ Penalty and interest rails ride the same Chapter 77 corporate/individual provisi
 
 ## Worked examples
 
-**Example 1 — nonresident ratio (hypothetical client facts).** Nonresident, total income $220,000, Nebraska-source $55,000; hypothetical full-return tax $11,000:
+**Example 1 -- nonresident ratio (hypothetical client facts).** Nonresident, total income $220,000, Nebraska-source $55,000; hypothetical full-return tax $11,000:
 
 ```oa-check
 name: NE nonresident ratio
@@ -78,7 +78,7 @@ expected:
   ne_tax: 2750.00
 ```
 
-**Example 2 — PTE election at entity level (hypothetical client facts).** Nebraska pass-through income $300,000, PTE rate 4.55% (TY2026 highest individual rate, § 77-2727(6) / § 77-2715.03):
+**Example 2 -- PTE election at entity level (hypothetical client facts).** Nebraska pass-through income $300,000, PTE rate 4.55% (TY2026 highest individual rate, § 77-2727(6) / § 77-2715.03):
 
 ```oa-check
 name: NE PTE election tax
@@ -93,9 +93,9 @@ expected:
 
 ## Ask the client first
 
-- Workdays physically in Nebraska vs home state — and does the home state credit Nebraska tax?
+- Workdays physically in Nebraska vs home state -- and does the home state credit Nebraska tax?
 - Is the pass-through considering the PTE election for SALT-cap posture? Election deadline missed?
-- Out-of-state decedent owning Nebraska real property — inheritance tax exposure?
+- Out-of-state decedent owning Nebraska real property -- inheritance tax exposure?
 
 ## Sources
 
@@ -115,7 +115,7 @@ Not yet confirmed: the nonresident/part-year return and Schedule III mechanics; 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

@@ -2,13 +2,13 @@
 name: ne-payroll
 description: >
   Use this skill whenever asked about Nebraska payroll withholding for
-  2026 — employer income-tax withholding under Revenue Act § 77-2753, the
+  2026 -- employer income-tax withholding under Revenue Act § 77-2753, the
   Department of Revenue withholding rails, the annual Income Tax
   Withholding Circular (Circular EN 2026, parsed and archived), and
   pass-through entity withholding rails. Trigger on "Nebraska
   withholding", "941N", "Circular EN", "Nebraska W-2", "Nebraska
   employer withholding". Corrected 2026-10-28 against archived official
-  sources: § 77-2753 (not § 77-3513 — that is the homestead-notice
+  sources: § 77-2753 (not § 77-3513 -- that is the homestead-notice
   statute), Circular EN 2026 full text, DOR withholding forms index.
 jurisdiction: US-NE
 category: payroll
@@ -27,7 +27,7 @@ depends_on:
 
 ## Scope and sources
 
-Employer income-tax withholding for Nebraska wages. **Source status:** corrected 2026-10-28 against archived official sources — statute **§ 77-2753** ("Income tax; withholding from wages and other payments", `SRC-US-NE-77-2753`), the full **2026 Circular EN** PDF (`SRC-US-NE-DOR-circular-en-2026.pdf`), and the DOR withholding forms index. **Correction:** the previous draft cited § 77-3513 as the withholding statute — that is wrong; § 77-3513 is the homestead-exemption notice statute. The withholding rail is §§ 77-2753 to 77-2756.
+Employer income-tax withholding for Nebraska wages. **Source status:** corrected 2026-10-28 against archived official sources -- statute **§ 77-2753** ("Income tax; withholding from wages and other payments", `SRC-US-NE-77-2753`), the full **2026 Circular EN** PDF (`SRC-US-NE-DOR-circular-en-2026.pdf`), and the DOR withholding forms index. **Correction:** the previous draft cited § 77-3513 as the withholding statute -- that is wrong; § 77-3513 is the homestead-exemption notice statute. The withholding rail is §§ 77-2753 to 77-2756.
 
 ## Who this applies to
 
@@ -35,7 +35,7 @@ Every employer/payor maintaining an office or transacting business in Nebraska a
 
 ## Rates, bands and thresholds
 
-Withholding follows the individual graduated schedule via Circular EN **percentage-method tables (Tables 1–8)** and wage-bracket tables. For 2026 the top **withholding** marginal rate is **4.60%** (weekly single over $1,449: $56.18 + 4.60%) — the 4.60% is the statutory withholding approximation rate, not the legal rate (legal TY2026 top rate is 4.55%, § 77-2715.03). **Special withholding rate for supplemental/gambling payments: 1.5%** (DOR withholding forms page + Circular EN). Employee adjustments: Form W-4N.
+Withholding follows the individual graduated schedule via Circular EN **percentage-method tables (Tables 1–8)** and wage-bracket tables. For 2026 the top **withholding** marginal rate is **4.60%** (weekly single over $1,449: $56.18 + 4.60%) -- the 4.60% is the statutory withholding approximation rate, not the legal rate (legal TY2026 top rate is 4.55%, § 77-2715.03). **Special withholding rate for supplemental/gambling payments: 1.5%** (DOR withholding forms page + Circular EN). Employee adjustments: Form W-4N.
 
 ## The taxable base
 
@@ -56,7 +56,7 @@ Nonresident workers: withholding applies to Nebraska-taxable wages regardless of
 
 ## Worked examples
 
-**Example 1 — quarterly remittance (hypothetical client facts).** Q1 Nebraska wages $100,000, effective withheld rate 4.6% (2026 top withholding bracket):
+**Example 1 -- quarterly remittance (hypothetical client facts).** Q1 Nebraska wages $100,000, effective withheld rate 4.6% (2026 top withholding bracket):
 
 ```oa-check
 name: NE quarterly withholding
@@ -69,7 +69,7 @@ expected:
   withheld: 4600.00
 ```
 
-**Example 2 — monthly deposit trigger (hypothetical client facts).** Withheld in March: $480 (month 1 of Q1), $610 (month 2):
+**Example 2 -- monthly deposit trigger (hypothetical client facts).** Withheld in March: $480 (month 1 of Q1), $610 (month 2):
 
 ```oa-check
 name: NE monthly deposit test
@@ -86,7 +86,7 @@ expected:
 
 - Is the payroll system loaded with the current-year Circular EN tables (2026 tables apply through 2026-12-31; 2027 Circular EN replaces all tables from 2027-01-01)?
 - Remote workers performing days in Nebraska?
-- PTE tax election — does withholding posture change at the entity level?
+- PTE tax election -- does withholding posture change at the entity level?
 
 ## Sources
 
@@ -104,7 +104,7 @@ Not yet confirmed: withholding penalty/interest percentages beyond the e-file pe
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

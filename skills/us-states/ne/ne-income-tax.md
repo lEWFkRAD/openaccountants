@@ -13,11 +13,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NE Income Tax
 
-## Nebraska Individual Income Tax Skill — Self-Employed / Sole Proprietor
+## Nebraska Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
 > **Scope.** This skill covers Nebraska Form 1040N (Nebraska Individual Income Tax Return) for full-year NE residents who are sole proprietors or single-member LLC owners. Tax year 2025 (returns filed in 2026). Nebraska uses a four-bracket graduated rate structure ranging from 2.46% to 5.20%.
 >
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing.
 
 ## Who this applies to
 
@@ -47,38 +47,38 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Rates, bands and thresholds
 
-### Tax brackets — Single / Married filing separately (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
+### Tax brackets -- Single / Married filing separately (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
 
-**Tax brackets — Single / Married filing separately (TY 2025)**
+**Tax brackets -- Single / Married filing separately (TY 2025)**
 
 | Taxable income over | But not over | Rate | Tax on lower amount |
 | --- | --- | --- | --- |
 | $0 | $4,030 | 2.46% | $0 |
 | $4,030 | $24,120 | 3.51% | $99.14 |
 | $24,120 | $38,870 | 5.01% | $804.30 |
-| $38,870 | — | 5.20% | $1,543.28 |
+| $38,870 | -- | 5.20% | $1,543.28 |
 
-### Tax brackets — Married filing jointly / Qualifying surviving spouse (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
+### Tax brackets -- Married filing jointly / Qualifying surviving spouse (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
 
-**Tax brackets — Married filing jointly / Qualifying surviving spouse (TY 2025)**
+**Tax brackets -- Married filing jointly / Qualifying surviving spouse (TY 2025)**
 
 | Taxable income over | But not over | Rate | Tax on lower amount |
 | --- | --- | --- | --- |
 | $0 | $8,040 | 2.46% | $0 |
 | $8,040 | $48,250 | 3.51% | $197.78 |
 | $48,250 | $77,730 | 5.01% | $1,609.15 |
-| $77,730 | — | 5.20% | $3,086.10 |
+| $77,730 | -- | 5.20% | $3,086.10 |
 
-### Tax brackets — Head of household (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
+### Tax brackets -- Head of household (TY 2025) (archived `US-NE-DOR-2025-tax-calc-schedule.pdf`)
 
-**Tax brackets — Head of household (TY 2025)**
+**Tax brackets -- Head of household (TY 2025)**
 
 | Taxable income over | But not over | Rate | Tax on lower amount |
 | --- | --- | --- | --- |
 | $0 | $7,510 | 2.46% | $0 |
 | $7,510 | $38,590 | 3.51% | $184.75 |
 | $38,590 | $57,630 | 5.01% | $1,275.66 |
-| $57,630 | — | 5.20% | $2,229.56 |
+| $57,630 | -- | 5.20% | $2,229.56 |
 
 ### Upcoming rate reductions
 
@@ -113,8 +113,8 @@ Nebraska does **not** permit local income taxes.
 Nebraska taxable income starts with **federal adjusted gross income (AGI)** from federal Form 1040, Line 11.
 
 1. **Start with federal AGI** → Form 1040N, Line 3
-2. **Add NE additions** (Schedule I) — items NE adds back
-3. **Subtract NE subtractions** (Schedule I) — items NE excludes
+2. **Add NE additions** (Schedule I) -- items NE adds back
+3. **Subtract NE subtractions** (Schedule I) -- items NE excludes
 4. **Subtract Nebraska standard deduction or itemized deductions** (Nebraska follows federal amounts with modifications)
 5. **Result = Nebraska taxable income**
 6. **Apply the graduated rate schedule** → Nebraska tax
@@ -128,7 +128,7 @@ Nebraska taxable income starts with **federal adjusted gross income (AGI)** from
 | Addition | Description |
 | --- | --- |
 | State/local bond interest | Interest from bonds of states other than NE |
-| Bonus depreciation add-back | NE partially decouples from IRC §168(k) — verify current conformity status |
+| Bonus depreciation add-back | NE partially decouples from IRC §168(k) -- verify current conformity status |
 
 ### Key subtraction modifications (Schedule I)
 
@@ -138,7 +138,7 @@ Nebraska taxable income starts with **federal adjusted gross income (AGI)** from
 | --- | --- |
 | US government bond interest | Interest from US Treasury obligations |
 | State income tax refund | If included in federal AGI |
-| Social Security (partial) | Nebraska is phasing out Social Security taxation — for TY 2025, Social Security benefits are fully exempt |
+| Social Security (partial) | Nebraska is phasing out Social Security taxation -- for TY 2025, Social Security benefits are fully exempt |
 
 ## Deadlines and filing
 
@@ -148,7 +148,7 @@ Schedule C net profit flows into federal AGI, which is the starting point for Ne
 
 ### Estimated tax
 
-- **Estimated tax threshold** — Nebraska requires estimated tax payments if you expect to owe $500 or more in Nebraska income tax after subtracting withholding and credits.
+- **Estimated tax threshold** -- Nebraska requires estimated tax payments if you expect to owe $500 or more in Nebraska income tax after subtracting withholding and credits.
 
 **Estimated tax installment due dates**
 
@@ -289,11 +289,11 @@ This skill and its outputs are provided for informational and computational purp
 | DOR individual income tax page | https://revenue.nebraska.gov/individuals/individual-income-tax | 2026-10-28 |
 | DOR Tax Calendar (April 15 / October 15, 2026 entries) | https://revenue.nebraska.gov/about/tax-calendar | 2026-10-28 |
 
-Not yet confirmed: the personal exemption credit amount ($157, TY2025 — statute § 77-2716.01 not archived this run); the Social Security exemption statute cite (LB 873, 2024); Nebraska's current IRC §168(k) bonus-depreciation conformity status; the § 77-2770 estimated-tax rule (the archived § 77-2769 sets the $500 threshold); Form 1040N line-number mapping (booklet not archived); the October 15, 2026 extension deadline (the archived DOR Tax Calendar shows 04/15, 06/15, 09/15 and 01/15 entries but no 10/15 entry).
+Not yet confirmed: the personal exemption credit amount ($157, TY2025 -- statute § 77-2716.01 not archived this run); the Social Security exemption statute cite (LB 873, 2024); Nebraska's current IRC §168(k) bonus-depreciation conformity status; the § 77-2770 estimated-tax rule (the archived § 77-2769 sets the $500 threshold); Form 1040N line-number mapping (booklet not archived); the October 15, 2026 extension deadline (the archived DOR Tax Calendar shows 04/15, 06/15, 09/15 and 01/15 entries but no 10/15 entry).
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

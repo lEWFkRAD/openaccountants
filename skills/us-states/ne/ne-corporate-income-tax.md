@@ -2,7 +2,7 @@
 name: ne-corporate-income-tax
 description: >
   Use this skill whenever asked about Nebraska corporate income tax for
-  tax year 2026 — the Revenue Act Chapter 77 corporation tax, Form
+  tax year 2026 -- the Revenue Act Chapter 77 corporation tax, Form
   1120N, the pass-through entity (PTE) tax election, and filing
   mechanics. Trigger on "Nebraska corporate income tax", "1120N",
   "4-1120C",
@@ -24,23 +24,23 @@ depends_on:
 
 # Nebraska corporate income tax v0.2
 
-> **General reference only.** General tax reference for AI-assisted workflows; not reviewed for any specific client's facts. Do not file, pay, or take a position on this alone — use a qualified Nebraska practitioner.
+> **General reference only.** General tax reference for AI-assisted workflows; not reviewed for any specific client's facts. Do not file, pay, or take a position on this alone -- use a qualified Nebraska practitioner.
 
 ## Scope and sources
 
-Nebraska corporation income tax under the Revenue Act, Chapter 77. **Source status:** all operative claims below are checked against archived official sources (statutes from nebraskalegislature.gov, DOR pages/PDFs) retrieved 2026-10-28 — see Sources. The corporate return is **Form 1120N** (not "4-1120C" — that legacy form number no longer appears on the DOR forms index, `SRC-US-NE-DOR-corp-forms`).
+Nebraska corporation income tax under the Revenue Act, Chapter 77. **Source status:** all operative claims below are checked against archived official sources (statutes from nebraskalegislature.gov, DOR pages/PDFs) retrieved 2026-10-28 -- see Sources. The corporate return is **Form 1120N** (not "4-1120C" -- that legacy form number no longer appears on the DOR forms index, `SRC-US-NE-DOR-corp-forms`).
 
 ## Who this applies to
 
-- Corporations (and entities taxed as corporations) with Nebraska-source income — Chapter 77 (structure verified).
-- **Pass-through entities may elect the Nebraska PTE tax** at the entity level — election is annual and irrevocable for the year, made on the return (box 5) or Form PTET-E; entity pays at the **highest individual rate** (§ 77-2715.03 — 4.55% for TY2026) on Nebraska-apportioned income; partners are then excluded from Nebraska income tax on that income for the year (§§ 77-2727(6), 77-2730, 77-2734.01; DOR PTET page `SRC-US-NE-DOR-ptet`, statute `SRC-US-NE-77-2727`).
+- Corporations (and entities taxed as corporations) with Nebraska-source income -- Chapter 77 (structure verified).
+- **Pass-through entities may elect the Nebraska PTE tax** at the entity level -- election is annual and irrevocable for the year, made on the return (box 5) or Form PTET-E; entity pays at the **highest individual rate** (§ 77-2715.03 -- 4.55% for TY2026) on Nebraska-apportioned income; partners are then excluded from Nebraska income tax on that income for the year (§§ 77-2727(6), 77-2730, 77-2734.01; DOR PTET page `SRC-US-NE-DOR-ptet`, statute `SRC-US-NE-77-2727`).
 - Related-affiliate addback specifics and an explicit "no franchise tax" statement are listed under Not yet confirmed.
 
 ## Rates, bands and thresholds
 
-**Nebraska's corporate rate is a flat rate that steps down by taxable year — there are no income bands.** For taxable years beginning on or after January 1, 2026 and before January 1, 2027, the rate is **4.55% on all taxable income** (Neb. Rev. Stat. § 77-2734.02(1)(g), archived: `SRC-US-NE-77-2734.02`). For taxable years beginning on or after January 1, 2027 the rate drops to **3.99%** (§ 77-2734.02(1)(h)).
+**Nebraska's corporate rate is a flat rate that steps down by taxable year -- there are no income bands.** For taxable years beginning on or after January 1, 2026 and before January 1, 2027, the rate is **4.55% on all taxable income** (Neb. Rev. Stat. § 77-2734.02(1)(g), archived: `SRC-US-NE-77-2734.02`). For taxable years beginning on or after January 1, 2027 the rate drops to **3.99%** (§ 77-2734.02(1)(h)).
 
-The commonly cited "5% up to $100,000 / 5.5% above" two-band table is **obsolete** — it dates to LB 86 (2021–2023 biennium) and no longer states current law. Do not use 5.5% for 2026 planning.
+The commonly cited "5% up to $100,000 / 5.5% above" two-band table is **obsolete** -- it dates to LB 86 (2021–2023 biennium) and no longer states current law. Do not use 5.5% for 2026 planning.
 
 ## The taxable base
 
@@ -48,8 +48,8 @@ Federal taxable income with Nebraska modifications. **Unitary groups must file a
 
 ## Deadlines and filing
 
-- **Return due date:** Nebraska returns are due "on or before the dates prescribed by the laws of the United States for filing federal income tax returns" (Neb. Rev. Stat. § 77-2768, archived: `SRC-US-NE-77-2768`) — for calendar-year 2025 returns the DOR tax calendar shows the **04/15/2026** Form 1040N entry; the DOR 2026 tax calendar confirms the 04/15/2026 Form 1040N entry (`SRC-US-NE-DOR-tax-calendar`). Corporate extension: Form 7004N (DOR regs Ch. 24, `SRC-US-NE-DOR-chapter24`).
-- **Estimated payments:** required when the tax reasonably expected to be shown on the return (net of withholding) is **$400 or more** for corporations ($500 or more for individuals) — Neb. Rev. Stat. § 77-2769(2), archived: `SRC-US-NE-77-2769`. The statute sets the $400/$500 thresholds; installment due dates follow the federal schedule per the DOR tax calendar (Form 1120N-ES first installment April 15, 2026).
+- **Return due date:** Nebraska returns are due "on or before the dates prescribed by the laws of the United States for filing federal income tax returns" (Neb. Rev. Stat. § 77-2768, archived: `SRC-US-NE-77-2768`) -- for calendar-year 2025 returns the DOR tax calendar shows the **04/15/2026** Form 1040N entry; the DOR 2026 tax calendar confirms the 04/15/2026 Form 1040N entry (`SRC-US-NE-DOR-tax-calendar`). Corporate extension: Form 7004N (DOR regs Ch. 24, `SRC-US-NE-DOR-chapter24`).
+- **Estimated payments:** required when the tax reasonably expected to be shown on the return (net of withholding) is **$400 or more** for corporations ($500 or more for individuals) -- Neb. Rev. Stat. § 77-2769(2), archived: `SRC-US-NE-77-2769`. The statute sets the $400/$500 thresholds; installment due dates follow the federal schedule per the DOR tax calendar (Form 1120N-ES first installment April 15, 2026).
 ## Penalties and interest
 
 - **Late-filing penalty:** **5% per month, up to 25%** (DOR Business Income Tax FAQs, guidance: `SRC-US-NE-DOR-biz-faqs`). Interest accrues at the rate in Neb. Rev. Stat. § 45-104.02 (DOR regs Ch. 24, REG-24-043).
@@ -60,7 +60,7 @@ Nexus: Chapter 77 income-tax nexus provisions + P.L. 86-272 (detailed nexus test
 
 ## Worked examples
 
-**Example 1 — $400,000 Nebraska taxable income at the TY2026 flat 4.55% rate (statute § 77-2734.02(1)(g)):**
+**Example 1 -- $400,000 Nebraska taxable income at the TY2026 flat 4.55% rate (statute § 77-2734.02(1)(g)):**
 
 ```oa-check
 name: NE corporate 4.55 percent TY2026
@@ -73,7 +73,7 @@ expected:
   tax: 18200.00
 ```
 
-**Example 2 — PTE election comparison (TY2026).** Under § 77-2727(6)(b) (archived: `SRC-US-NE-77-2727`), an electing entity pays tax **at the highest individual rate in § 77-2715.03 — 4.55% for TY2026** (`SRC-US-NE-77-2715.03`) — on Nebraska-apportioned income, and partners are then excluded from Nebraska filing for that year. Pass-through income $200,000 all Nebraska-source: entity-level PTE tax at 4.55% vs member-level at the same 4.55% top marginal rate (member-level is lower in practice if the member's bracket/effective rate is below the top rate; the PTE benefit is the SALT-cap exclusion, not a rate cut):
+**Example 2 -- PTE election comparison (TY2026).** Under § 77-2727(6)(b) (archived: `SRC-US-NE-77-2727`), an electing entity pays tax **at the highest individual rate in § 77-2715.03 -- 4.55% for TY2026** (`SRC-US-NE-77-2715.03`) -- on Nebraska-apportioned income, and partners are then excluded from Nebraska filing for that year. Pass-through income $200,000 all Nebraska-source: entity-level PTE tax at 4.55% vs member-level at the same 4.55% top marginal rate (member-level is lower in practice if the member's bracket/effective rate is below the top rate; the PTE benefit is the SALT-cap exclusion, not a rate cut):
 
 ```oa-check
 name: NE PTE vs member level TY2026
@@ -120,7 +120,7 @@ Not yet confirmed: the related-affiliate addback statute cite; an explicit "no f
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

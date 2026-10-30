@@ -1,7 +1,7 @@
 ---
 name: ne-transfer-pricing
 description: >
-  Use this skill whenever asked about Nebraska transfer pricing for 2026 —
+  Use this skill whenever asked about Nebraska transfer pricing for 2026 --
   how related-party dealings are policed under Revenue Act Chapter 77
   (separate-company filing with related-party addback provisions expected,
   no combined reporting located), and the PTE tax election's effect on
@@ -32,11 +32,11 @@ Nebraska has **no standalone TP documentation regime** located; policing runs th
 ## Who this applies to
 
 - Corporations with intercompany interest, royalties, rents, or management fees paid to affiliates.
-- Pass-throughs weighing the PTE election (entity-level tax changes member-level exposure — see `ne-corporate-income-tax.md`).
+- Pass-throughs weighing the PTE election (entity-level tax changes member-level exposure -- see `ne-corporate-income-tax.md`).
 
 ## Rates, bands and thresholds
 
-No TP-specific rate; exposure rides the corporate rate — a flat **4.55%** for TY2026 (3.99% TY2027+), § 77-2734.02, archived `SRC-US-NE-77-2734.02`; see `ne-corporate-income-tax.md`.
+No TP-specific rate; exposure rides the corporate rate -- a flat **4.55%** for TY2026 (3.99% TY2027+), § 77-2734.02, archived `SRC-US-NE-77-2734.02`; see `ne-corporate-income-tax.md`.
 
 ## The taxable base
 
@@ -57,7 +57,7 @@ Foreign affiliates: no water's-edge statute is asserted; confirmation is listed 
 
 ## Worked examples
 
-**Example 1 — interest addback sketch (hypothetical client facts).** $250,000 intercompany interest paid to a low-tax affiliate; if added back with a 30% Nebraska sales factor, incremental Nebraska base $75,000 at the TY2026 flat 4.55% rate (addback posture pending confirmation):
+**Example 1 -- interest addback sketch (hypothetical client facts).** $250,000 intercompany interest paid to a low-tax affiliate; if added back with a 30% Nebraska sales factor, incremental Nebraska base $75,000 at the TY2026 flat 4.55% rate (addback posture pending confirmation):
 
 ```oa-check
 name: NE interest addback sketch
@@ -73,7 +73,7 @@ expected:
   tax_at_stake: 3412.50
 ```
 
-**Example 2 — arm's-length fee defense (hypothetical client facts).** A management fee currently $400,000 reduced to a supported $320,000 after benchmarking; the $80,000 stays in the Nebraska group at the TY2026 flat 4.55% rate with a 30% factor:
+**Example 2 -- arm's-length fee defense (hypothetical client facts).** A management fee currently $400,000 reduced to a supported $320,000 after benchmarking; the $80,000 stays in the Nebraska group at the TY2026 flat 4.55% rate with a 30% factor:
 
 ```oa-check
 name: NE fee benchmark delta
@@ -112,7 +112,7 @@ Not yet confirmed: related-party addback statute cites and substance exceptions;
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

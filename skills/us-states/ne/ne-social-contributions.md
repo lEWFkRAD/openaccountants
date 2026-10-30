@@ -2,7 +2,7 @@
 name: ne-social-contributions
 description: >
   Use this skill whenever asked about Nebraska employer social
-  contributions for 2026 — unemployment insurance administered by the
+  contributions for 2026 -- unemployment insurance administered by the
   Nebraska Department of Labor (NDOL), quarterly wage and contribution
   reporting, and the FUTA/SUTA credit interaction. Trigger on "Nebraska
   unemployment", "NDOL", "Nebraska SUTA", "Nebraska employer
@@ -26,7 +26,7 @@ depends_on:
 
 ## Scope and sources
 
-Employer social costs for Nebraska employment. **Source status:** the Nebraska Department of Labor (NDOL) administers UI; NDOL employer rate/wage-base pages returned HTTP 403 to this run's fetcher and are not archived — the state UI figures are listed under Not yet confirmed in Sources. Federal FUTA figures are statutory (IRC §§ 3301, 3302, 3306).
+Employer social costs for Nebraska employment. **Source status:** the Nebraska Department of Labor (NDOL) administers UI; NDOL employer rate/wage-base pages returned HTTP 403 to this run's fetcher and are not archived -- the state UI figures are listed under Not yet confirmed in Sources. Federal FUTA figures are statutory (IRC §§ 3301, 3302, 3306).
 
 ## Who this applies to
 
@@ -36,9 +36,9 @@ Nebraska employers and out-of-state employers with Nebraska employees. No state 
 
 | Item | 2026 figure | Source |
 |---|---|---|
-| NE UI taxable wage base | see Not yet confirmed (NDOL pages returned 403 to this run's fetcher) | — |
-| Experience rates | see Not yet confirmed | — |
-| New-employer rate | see Not yet confirmed | — |
+| NE UI taxable wage base | see Not yet confirmed (NDOL pages returned 403 to this run's fetcher) | -- |
+| Experience rates | see Not yet confirmed | -- |
+| New-employer rate | see Not yet confirmed | -- |
 | FUTA (context) | 6.0% on first $7,000; credit up to 5.4% | federal statute (IRC §§ 3301, 3302, 3306); figures listed under Not yet confirmed for this pack's archive |
 
 ## The taxable base
@@ -59,7 +59,7 @@ Multi-state employers localize under the interstate coverage tests (45 CFR Part 
 
 ## Worked examples
 
-**Example 1 — FUTA net per employee (federal context):**
+**Example 1 -- FUTA net per employee (federal context):**
 
 ```oa-check
 name: FUTA net 0.6 percent
@@ -72,7 +72,7 @@ expected:
   futa: 42.00
 ```
 
-**Example 2 — hypothetical NE UI (figures hypothetical; NE wage base/rate pending confirmation).** Base $10,800, rate 1.2%:
+**Example 2 -- hypothetical NE UI (figures hypothetical; NE wage base/rate pending confirmation).** Base $10,800, rate 1.2%:
 
 ```oa-check
 name: NE UI hypothetical
@@ -88,7 +88,7 @@ expected:
 ## Ask the client first
 
 - NDOL account current and experience rate reviewed annually?
-- Multi-state workforce — localization state confirmed?
+- Multi-state workforce -- localization state confirmed?
 - Successor-employer UI liability on acquisitions?
 
 
@@ -106,7 +106,7 @@ Not yet confirmed: the Nebraska UI taxable wage base, experience-rate schedule, 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
