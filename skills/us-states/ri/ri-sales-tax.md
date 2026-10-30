@@ -55,74 +55,74 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 7 | Do you have locations, employees, or inventory in Rhode Island? | Physical presence creates nexus independent of economic thresholds. |
 | 8 | Do you sell into multiple Rhode Island local jurisdictions? | Local tax rates vary; determines compliance complexity. |
 
-- **Onboarding gate** — If the client cannot answer questions 1-4, STOP and gather this information before proceeding. ([T1])
+- **Onboarding gate** -- If the client cannot answer questions 1-4, STOP and gather this information before proceeding. ([T1])
 
 ## Step 1: Tax Rate Structure
 
-- **Step 1 heading** — 
+- **Step 1 heading** -- 
 
 ### 1.1 State Sales Tax Rate
 
-- **State Sales Tax Rate** — 7.00% percent (flat, uniform statewide; one of the higher state rates in the country [T1])  _(R.I.G.L. §44-18-18)_ (not yet confirmed)
+- **State Sales Tax Rate** -- 7.00% percent (flat, uniform statewide; one of the higher state rates in the country [T1])  _(R.I.G.L. §44-18-18)_ (not yet confirmed)
 
 ### 1.2 No Local Sales Taxes [T1]
 
-- **No local sales taxes** — Rhode Island does NOT permit local sales taxes. The 7% rate is the total rate statewide. ([T1]) (not yet confirmed)
+- **No local sales taxes** -- Rhode Island does NOT permit local sales taxes. The 7% rate is the total rate statewide. ([T1]) (not yet confirmed)
 
 ### 1.3 Sourcing [T1]
 
-- **Sourcing method** — Rhode Island uses destination-based sourcing. As an SST member, Rhode Island follows SSUTA sourcing rules. ([T1])
+- **Sourcing method** -- Rhode Island uses destination-based sourcing. As an SST member, Rhode Island follows SSUTA sourcing rules. ([T1])
 
 ## Step 2: Transaction Classification Rules
 
-- **Step 2 heading** — 
+- **Step 2 heading** -- 
 
 ### 2.1 Grocery Food -- EXEMPT [T1]
 
-- **Unprepared grocery food** — Exempt ([T1])  _(R.I.G.L. §44-18-30(7))_
-- **Prepared food (restaurant meals)** — Taxable at 8% (1% meals/beverage tax + 7% sales tax, but the meals tax is structured as a separate 1% additional tax) ([T2]) (not yet confirmed)
-- **Candy** — Taxable ([T1])
-- **Soft drinks** — Taxable ([T1])
+- **Unprepared grocery food** -- Exempt ([T1])  _(R.I.G.L. §44-18-30(7))_
+- **Prepared food (restaurant meals)** -- Taxable at 8% (1% meals/beverage tax + 7% sales tax, but the meals tax is structured as a separate 1% additional tax) ([T2]) (not yet confirmed)
+- **Candy** -- Taxable ([T1])
+- **Soft drinks** -- Taxable ([T1])
 
 ### 2.2 Clothing -- Exempt Under $250 [T1]
 
-- **Clothing and footwear exemption threshold** — $250 per item USD (Items priced under $250 exempt; items priced $250 or more entirely taxable (all-or-nothing). [T1])  _(R.I.G.L. §44-18-30(27))_
+- **Clothing and footwear exemption threshold** -- $250 per item USD (Items priced under $250 exempt; items priced $250 or more entirely taxable (all-or-nothing). [T1])  _(R.I.G.L. §44-18-30(27))_
 
 Note: This is similar to New York's clothing exemption structure (all-or-nothing) but with a higher threshold ($250 vs. $110). [T1]
 
 ### 2.3 Prescription Drugs and Medical [T1]
 
-- **Prescription drugs** — Exempt ([T1])  _(R.I.G.L. §44-18-30(8))_
-- **OTC drugs** — Taxable ([T1])
-- **DME** — Exempt ([T1])
-- **Prosthetics** — Exempt ([T1])
+- **Prescription drugs** -- Exempt ([T1])  _(R.I.G.L. §44-18-30(8))_
+- **OTC drugs** -- Taxable ([T1])
+- **DME** -- Exempt ([T1])
+- **Prosthetics** -- Exempt ([T1])
 
 ### 2.4 Services [T2]
 
-- **Taxable services** — Telecommunications, cable/satellite TV, storage, pet grooming, cleaning (commercial), laundry/dry cleaning, pest control, security/alarm, printing. ([T2])
-- **Exempt services** — Professional services (legal, accounting, medical, engineering), personal care (haircuts), education, financial services. ([T2])
+- **Taxable services** -- Telecommunications, cable/satellite TV, storage, pet grooming, cleaning (commercial), laundry/dry cleaning, pest control, security/alarm, printing. ([T2])
+- **Exempt services** -- Professional services (legal, accounting, medical, engineering), personal care (haircuts), education, financial services. ([T2])
 
 ### 2.5 SaaS and Digital Goods -- TAXABLE [T1/T2]
 
-- **SaaS** — Taxable at the full 7% rate. Rhode Island specifically taxes prewritten computer software regardless of the method of delivery or access, including SaaS. ([T1])  _(R.I.G.L. §44-18-7(8))_ (not yet confirmed)
-- **Canned software (physical and electronic)** — Taxable ([T1])
-- **Custom software** — Exempt ([T2])
-- **Digital downloads** — Taxable ([T1])
-- **Streaming services** — Taxable ([T2])
+- **SaaS** -- Taxable at the full 7% rate. Rhode Island specifically taxes prewritten computer software regardless of the method of delivery or access, including SaaS. ([T1])  _(R.I.G.L. §44-18-7(8))_ (not yet confirmed)
+- **Canned software (physical and electronic)** -- Taxable ([T1])
+- **Custom software** -- Exempt ([T2])
+- **Digital downloads** -- Taxable ([T1])
+- **Streaming services** -- Taxable ([T2])
 
 ### 2.6 Manufacturing [T1]
 
-- **Machinery/equipment used directly in manufacturing** — Exempt ([T1])  _(R.I.G.L. §44-18-30(22))_
-- **Raw materials for resale** — Exempt under resale ([T1])
+- **Machinery/equipment used directly in manufacturing** -- Exempt ([T1])  _(R.I.G.L. §44-18-30(22))_
+- **Raw materials for resale** -- Exempt under resale ([T1])
 
 ### 2.7 Lodging [T1]
 
-- **Hotel rooms and transient accommodations combined rate** — 13% percent (7% sales tax + 1% local hotel tax + 5% state hotel tax = 13% total. [T1])
-- **Short-term rentals (Airbnb)** — Same combined rate applies ([T1])
+- **Hotel rooms and transient accommodations combined rate** -- 13% percent (7% sales tax + 1% local hotel tax + 5% state hotel tax = 13% total. [T1])
+- **Short-term rentals (Airbnb)** -- Same combined rate applies ([T1])
 
 ### 2.8 Meals and Beverages [T1]
 
-- **Meals (prepared food from restaurants) combined rate** — 8% percent ([T1] 7% sales tax + 1% local meals/beverage tax = 8% total) (not yet confirmed)
+- **Meals (prepared food from restaurants) combined rate** -- 8% percent ([T1] 7% sales tax + 1% local meals/beverage tax = 8% total) (not yet confirmed)
 
 ### 4.1 Filing Details [T1]
 
@@ -138,28 +138,28 @@ Note: This is similar to New York's clothing exemption structure (all-or-nothing
 
 ### 4.2 Vendor Discount [T1]
 
-- **Vendor discount** — Rhode Island does NOT offer a vendor discount for timely filing. ([T1])
+- **Vendor discount** -- Rhode Island does NOT offer a vendor discount for timely filing. ([T1])
 
 ### 4.3 Penalties and Interest [T1]
 
-- **Late filing penalty** — 10% of tax due or $50, whichever is greater ([T1])
-- **Interest rate on unpaid tax** — 18% per annum (1.5% per month) percent ([T1]) (not yet confirmed)
-- **Fraud penalty** — 50% of tax due ([T1]) (not yet confirmed)
+- **Late filing penalty** -- 10% of tax due or $50, whichever is greater ([T1])
+- **Interest rate on unpaid tax** -- 18% per annum (1.5% per month) percent ([T1]) (not yet confirmed)
+- **Fraud penalty** -- 50% of tax due ([T1]) (not yet confirmed)
 
 Note: Rhode Island's interest rate of 18% per annum is one of the highest in the nation. [T1] (not yet confirmed)
 
 ## Step 4: Deductibility / Exemptions
 
-- **General deductibility framework** — Exemptions identified in Step 2 above are the primary deductibility rules for Rhode Island. Key categories: ([T1])
-- **Resale exemption** — Valid resale certificate required. Retain for the statutory period. ([T1])
-- **Exempt organizations** — Government entities and qualifying nonprofits -- require exemption certificate on file. ([T1])
-- **Agricultural exemptions** — Where applicable per Step 2. ([T1])
-- **Manufacturing exemptions** — Where applicable per Step 2. ([T2])
-- **Exemption certificate retention** — All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. ([T1])
+- **General deductibility framework** -- Exemptions identified in Step 2 above are the primary deductibility rules for Rhode Island. Key categories: ([T1])
+- **Resale exemption** -- Valid resale certificate required. Retain for the statutory period. ([T1])
+- **Exempt organizations** -- Government entities and qualifying nonprofits -- require exemption certificate on file. ([T1])
+- **Agricultural exemptions** -- Where applicable per Step 2. ([T1])
+- **Manufacturing exemptions** -- Where applicable per Step 2. ([T2])
+- **Exemption certificate retention** -- All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. ([T1])
 
 ## Step 5: Key Thresholds
 
-- **Step 5 heading** — 
+- **Step 5 heading** -- 
 
 ### 3.1 Economic Nexus Threshold [T1]
 
@@ -175,11 +175,11 @@ Note: Rhode Island's interest rate of 18% per annum is one of the highest in the
 
 ### 3.2 Marketplace Facilitator [T1]
 
-- **Marketplace facilitator collection requirement** — Rhode Island requires marketplace facilitators to collect and remit. ([T1])  _(R.I.G.L. §44-18.2-3)_
+- **Marketplace facilitator collection requirement** -- Rhode Island requires marketplace facilitators to collect and remit. ([T1])  _(R.I.G.L. §44-18.2-3)_
 
 ### 3.3 SST Registration [T1]
 
-- **SST registration status** — Full SST member. SSTRS and CSPs available. ([T1])
+- **SST registration status** -- Full SST member. SSTRS and CSPs available. ([T1])
 
 ## Step 6: Filing Deadlines and Penalties
 
@@ -187,13 +187,13 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ## PROHIBITIONS
 
-- **No local tax add-ons** — NEVER apply local tax add-ons in Rhode Island. There are NO local sales taxes. 7% is the total rate. ([T1]) (not yet confirmed)
-- **SaaS not exempt** — NEVER assume SaaS is exempt in Rhode Island. It is explicitly taxable at 7%. ([T1]) (not yet confirmed)
-- **Clothing exemption not a deduction** — NEVER apply the clothing exemption as a deduction. It is all-or-nothing at the $250 threshold. ([T1])
-- **Meals/beverage tax not to be forgotten** — NEVER forget the separate 1% meals/beverage tax on prepared food. Total on meals = 8%. ([T1]) (not yet confirmed)
-- **Late payment penalty not underestimated** — NEVER underestimate the penalty for late payment. RI charges 18% per annum interest. ([T1]) (not yet confirmed)
-- **Grocery food not taxed** — NEVER tax grocery food in Rhode Island. Unprepared food is exempt. ([T1])
-- **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. ([T1])
+- **No local tax add-ons** -- NEVER apply local tax add-ons in Rhode Island. There are NO local sales taxes. 7% is the total rate. ([T1]) (not yet confirmed)
+- **SaaS not exempt** -- NEVER assume SaaS is exempt in Rhode Island. It is explicitly taxable at 7%. ([T1]) (not yet confirmed)
+- **Clothing exemption not a deduction** -- NEVER apply the clothing exemption as a deduction. It is all-or-nothing at the $250 threshold. ([T1])
+- **Meals/beverage tax not to be forgotten** -- NEVER forget the separate 1% meals/beverage tax on prepared food. Total on meals = 8%. ([T1]) (not yet confirmed)
+- **Late payment penalty not underestimated** -- NEVER underestimate the penalty for late payment. RI charges 18% per annum interest. ([T1]) (not yet confirmed)
+- **Grocery food not taxed** -- NEVER tax grocery food in Rhode Island. Unprepared food is exempt. ([T1])
+- **No manual computation** -- NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. ([T1])
 
 ### EC1 -- Clothing Exemption Threshold ($250) [T2]
 
@@ -344,7 +344,7 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -395,7 +395,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
