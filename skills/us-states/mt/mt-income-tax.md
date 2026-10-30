@@ -392,26 +392,26 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| Montana DOR — 2025 Form 2 instructions | https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf | 2026-10-28 |
-| Montana DOR — filing requirements | https://revenue.mt.gov/taxes/individual-income-tax/filing-requirements | 2026-10-28 |
-| Montana DOR — residency | https://revenue.mt.gov/taxes/individual-income-tax/residency | 2026-10-28 |
-| Montana DOR news — HB 337 tax changes | https://revenue.mt.gov/news/recent-news/HB-337 | 2026-10-28 |
-| Montana DOR — tax simplification resource hub | https://revenue.mt.gov/montana-tax-simplification-resource-hub | 2026-10-28 |
-| Montana DOR — elderly homeowner/renter credit | https://revenue.mt.gov/property/property-tax-help/montana-elderly-homeowner-renter-credit | 2026-10-28 |
-| Montana DOR — 2025 Form 2 | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/2025_Montana_Individual_Income_Tax_Return_Form_2.pdf | 2026-10-28 |
-| Montana DOR — 2025 Form 2 Schedule II | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_II.pdf | 2026-10-28 |
+| Montana DOR -- 2025 Form 2 instructions | https://revenue.mt.gov/files/forms/Montana-Individual-Income-Tax-Return-Form-2-Instructions/2025_Montana_Individual_Income_Tax_Return_Form_2_Instructions.pdf | 2026-10-28 |
+| Montana DOR -- filing requirements | https://revenue.mt.gov/taxes/individual-income-tax/filing-requirements | 2026-10-28 |
+| Montana DOR -- residency | https://revenue.mt.gov/taxes/individual-income-tax/residency | 2026-10-28 |
+| Montana DOR news -- HB 337 tax changes | https://revenue.mt.gov/news/recent-news/HB-337 | 2026-10-28 |
+| Montana DOR -- tax simplification resource hub | https://revenue.mt.gov/montana-tax-simplification-resource-hub | 2026-10-28 |
+| Montana DOR -- elderly homeowner/renter credit | https://revenue.mt.gov/property/property-tax-help/montana-elderly-homeowner-renter-credit | 2026-10-28 |
+| Montana DOR -- 2025 Form 2 | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/2025_Montana_Individual_Income_Tax_Return_Form_2.pdf | 2026-10-28 |
+| Montana DOR -- 2025 Form 2 Schedule II | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_II.pdf | 2026-10-28 |
 | MCA 15-30-2103 (rate brackets) | https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html | 2026-10-28 |
-| Montana DOR — 2025 tax tables and deductions | https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025 | 2026-10-28 |
+| Montana DOR -- 2025 tax tables and deductions | https://revenue.mt.gov/taxes/tax-tables-and-deductions/2025 | 2026-10-28 |
 | MCA 15-30-2120 (subtractions) | https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0200/0150-0300-0210-0200.html | 2026-10-28 |
-| Montana DOR — 2025 Form 2 Schedule 2EC | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_2EC.pdf | 2026-10-28 |
+| Montana DOR -- 2025 Form 2 Schedule 2EC | https://revenue.mt.gov/files/Forms/Montana-Individual-Income-Tax-Return-Form-2/Form_2_2025_Schedule_2EC.pdf | 2026-10-28 |
 | MCA 15-30-2101 (federal conformity) | https://leg.mt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0010/0150-0300-0210-0010.html | 2026-10-28 |
 | IRS Rev. Proc. 2025-32 (2026 federal amounts) | https://www.irs.gov/pub/irs-drop/rp-25-32.pdf | 2026-10-28 |
 | IRS Form 1040 | https://www.irs.gov/pub/irs-pdf/f1040.pdf | 2026-10-28 |
-| Montana DOR Publication 1 — Prepaying Income Tax | https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf | 2026-10-28 |
-| Montana DOR — credit for income tax paid to another state | https://revenue.mt.gov/taxes/tax-credits/credit-for-income-tax-paid-to-other-state | 2026-10-28 |
-| Montana DOR — extensions | https://revenue.mt.gov/taxes/individual-income-tax/extensions | 2026-10-28 |
-| Montana DOR — penalty and interest | https://revenue.mt.gov/taxes/penalty-and-interest | 2026-10-28 |
-| Montana DOR — estimated tax payments | https://revenue.mt.gov/taxes/estimated-tax-payments | 2026-10-28 |
+| Montana DOR Publication 1 -- Prepaying Income Tax | https://revenuefiles.mt.gov/files/Forms/Montana-Publication-1-Prepaying-Income-Tax.pdf | 2026-10-28 |
+| Montana DOR -- credit for income tax paid to another state | https://revenue.mt.gov/taxes/tax-credits/credit-for-income-tax-paid-to-other-state | 2026-10-28 |
+| Montana DOR -- extensions | https://revenue.mt.gov/taxes/individual-income-tax/extensions | 2026-10-28 |
+| Montana DOR -- penalty and interest | https://revenue.mt.gov/taxes/penalty-and-interest | 2026-10-28 |
+| Montana DOR -- estimated tax payments | https://revenue.mt.gov/taxes/estimated-tax-payments | 2026-10-28 |
 
 Not yet confirmed: the 2026 amount of the 65-and-older subtraction (DOR sets it by 1 November 2026); the 2026 Montana medical savings account contribution limit; the indexed 2026 529 plan deposit limit; the 2026 EITC proration rules (the 2026 Form 2 instructions were not published at the time of writing); and the 2027 bracket indexation mechanics under the post-2026 version of MCA 15-30-2103.
 
@@ -421,7 +421,7 @@ Not yet confirmed: the 2026 amount of the 65-and-older subtraction (DOR sets it 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
