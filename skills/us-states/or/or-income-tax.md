@@ -13,18 +13,18 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # OR Income Tax
 
-## Oregon Individual Income Tax Skill — Self-Employed / Sole Proprietor
+## Oregon Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
 > **Scope.** Oregon Form OR-40 (Full-Year Resident) for tax year 2025 for full-year Oregon resident sole proprietors and disregarded single-member LLCs. Covers Oregon's four-bracket graduated income tax, standard and itemized deductions, Oregon-specific modifications to federal income, and credits.
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds have been researched from primary sources but must be confirmed by a qualified professional before use in return preparation.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and thresholds have been researched from primary sources but must be confirmed by a qualified professional before use in return preparation.
 
 ## Section 1: Metadata
 
-- **Tax year covered** — 2025 (returns due April 15, 2026)
-- **Primary form** — Oregon Form OR-40 (Full-Year Resident)
-- **Tax authority** — [Oregon Department of Revenue](https://www.oregon.gov/dor)
-- **Tax type** — Graduated income tax
-- **Currency date** — May 2026
+- **Tax year covered** -- 2025 (returns due April 15, 2026)
+- **Primary form** -- Oregon Form OR-40 (Full-Year Resident)
+- **Tax authority** -- [Oregon Department of Revenue](https://www.oregon.gov/dor)
+- **Tax type** -- Graduated income tax
+- **Currency date** -- May 2026
 
 **Section 1 metadata table**
 
@@ -44,15 +44,15 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 2025 Form OR-40 Instructions (Publication OR-40-FY) | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx |
 | Oregon Tax Rate Charts (2025) | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx |
 
-## Section 2: Quick reference — rates and thresholds
+## Section 2: Quick reference -- rates and thresholds
 
 ### Statutory base table (ORS 316.048(1)(a), archived 2026-10-28)
 
-The unindexed statutory table is: not over $2,000 — 4.75%; over $2,000 but not over $5,000 — $95 + 6.75% of excess; over $5,000 but not over $125,000 — $298 + 8.75% of excess; over $125,000 — "$10,798 plus 9.9% of the excess over $125,000". Under ORS 316.048(1)(b) DOR "shall adopt a table" applying cost-of-living adjustments each calendar year — the indexed 2025 tables below come from that DOR table.
+The unindexed statutory table is: not over $2,000 -- 4.75%; over $2,000 but not over $5,000 -- $95 + 6.75% of excess; over $5,000 but not over $125,000 -- $298 + 8.75% of excess; over $125,000 -- "$10,798 plus 9.9% of the excess over $125,000". Under ORS 316.048(1)(b) DOR "shall adopt a table" applying cost-of-living adjustments each calendar year -- the indexed 2025 tables below come from that DOR table.
 
-### Tax brackets — Single and Married Filing Separately (tax year 2025)
+### Tax brackets -- Single and Married Filing Separately (tax year 2025)
 
-**Tax brackets — Single and Married Filing Separately (tax year 2025)**
+**Tax brackets -- Single and Married Filing Separately (tax year 2025)**
 
 | Oregon taxable income | Tax |
 | --- | --- |
@@ -61,9 +61,9 @@ The unindexed statutory table is: not over $2,000 — 4.75%; over $2,000 but not
 | $11,101 – $125,000 | $661 + 8.75% of excess over $11,100 |
 | Over $125,000 | $10,627 + 9.9% of excess over $125,000 |
 
-### Tax brackets — MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)
+### Tax brackets -- MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)
 
-**Tax brackets — MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)**
+**Tax brackets -- MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)**
 
 | Oregon taxable income | Tax |
 | --- | --- |
@@ -99,7 +99,7 @@ The unindexed statutory table is: not over $2,000 — 4.75%; over $2,000 but not
 | Item | Value |
 | --- | --- |
 | Oregon EITC | 12% of federal EITC (refundable) for those with qualifying children under 3; 9% otherwise | (not yet confirmed)
-| Oregon kicker credit | Varies by year — taxpayers receive a credit when state revenues exceed projections by >2%. Check for 2025. | (not yet confirmed)
+| Oregon kicker credit | Varies by year -- taxpayers receive a credit when state revenues exceed projections by >2%. Check for 2025. | (not yet confirmed)
 | No sales tax | Oregon has no state or local sales tax |
 | Estimated tax interest rate | 9% for 2025, 8% for 2026 |
 
@@ -115,46 +115,46 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 ### Critical: Oregon starts from federal taxable income
 
-- **Oregon starts from federal taxable income; standard deduction stacks on top** — Because Oregon starts from federal taxable income (which already includes the federal standard or itemized deduction), Oregon allows its own standard deduction on top. The Oregon standard deduction is relatively small ($2,835 single) because the federal deduction has already been taken. **However,** Oregon requires modifications for items where Oregon does not conform to the IRC: - Oregon additions (income Oregon taxes but federal does not, or deductions federal allows but Oregon does not) - Oregon subtractions (income federal taxes but Oregon does not, or deductions Oregon allows but federal does not) (not yet confirmed)
+- **Oregon starts from federal taxable income; standard deduction stacks on top** -- Because Oregon starts from federal taxable income (which already includes the federal standard or itemized deduction), Oregon allows its own standard deduction on top. The Oregon standard deduction is relatively small ($2,835 single) because the federal deduction has already been taken. **However,** Oregon requires modifications for items where Oregon does not conform to the IRC: - Oregon additions (income Oregon taxes but federal does not, or deductions federal allows but Oregon does not) - Oregon subtractions (income federal taxes but Oregon does not, or deductions Oregon allows but federal does not) (not yet confirmed)
 
 ## Section 4: Self-employed specific rules
 
 ### No sales tax advantage
 
-- **No sales tax advantage** — Oregon's lack of a sales tax means sole proprietors selling goods to Oregon customers do not need to collect Oregon sales tax. However, they may still need to collect sales tax for sales to customers in other states with economic nexus.
+- **No sales tax advantage** -- Oregon's lack of a sales tax means sole proprietors selling goods to Oregon customers do not need to collect Oregon sales tax. However, they may still need to collect sales tax for sales to customers in other states with economic nexus.
 
 ### Oregon EITC
 
-- **Oregon EITC** — Oregon provides a refundable earned income tax credit: - 12% of federal EITC for taxpayers with a qualifying child under age 3 - 9% of federal EITC for all other qualifying taxpayers - ITIN filers are eligible for the Oregon EITC - Self-employment income qualifies (not yet confirmed)
+- **Oregon EITC** -- Oregon provides a refundable earned income tax credit: - 12% of federal EITC for taxpayers with a qualifying child under age 3 - 9% of federal EITC for all other qualifying taxpayers - ITIN filers are eligible for the Oregon EITC - Self-employment income qualifies (not yet confirmed)
 
 ### Oregon-specific local taxes (warning)
 
-- **Local taxes warning** — Self-employed individuals in certain parts of Oregon face additional local taxes that are NOT part of the state income tax but may be filed alongside it: - **TriMet self-employment tax** (Portland metro area): rate varies, approximately 0.8237% (verify 2025) - **Lane Transit District (LTD) tax** (Eugene/Springfield area): approximately 0.80% (verify 2025) - **Metro Supportive Housing Services (SHS) tax**: 1% on taxable income above $125,000 (single) / $200,000 (MFJ) for residents of Clackamas, Multnomah, and Washington counties - **Multnomah County Preschool for All (PFA) tax**: 1.5% on taxable income above $125,000 (single) / $200,000 (MFJ); additional 1.5% above $250,000 (single) / $400,000 (MFJ) - **Statewide Transit Tax (STT)**: 0.1% of wages (self-employed individuals are subject via Form OR-STT) These are separate filings and are NOT covered by this skill.
+- **Local taxes warning** -- Self-employed individuals in certain parts of Oregon face additional local taxes that are NOT part of the state income tax but may be filed alongside it: - **TriMet self-employment tax** (Portland metro area): rate varies, approximately 0.8237% (verify 2025) - **Lane Transit District (LTD) tax** (Eugene/Springfield area): approximately 0.80% (verify 2025) - **Metro Supportive Housing Services (SHS) tax**: 1% on taxable income above $125,000 (single) / $200,000 (MFJ) for residents of Clackamas, Multnomah, and Washington counties - **Multnomah County Preschool for All (PFA) tax**: 1.5% on taxable income above $125,000 (single) / $200,000 (MFJ); additional 1.5% above $250,000 (single) / $400,000 (MFJ) - **Statewide Transit Tax (STT)**: 0.1% of wages (self-employed individuals are subject via Form OR-STT) These are separate filings and are NOT covered by this skill.
 
 ### Oregon additions (common for self-employed)
 
-- **Oregon additions list** — - Federal income taxes (if deducted on federal Schedule A — not applicable if taxpayer took the federal standard deduction) - Interest/dividends from other states' bonds (Oregon taxes these; federal may not) - Bonus depreciation add-back (if Oregon does not conform to federal §168(k) — verify conformity) - OBBBA-specific deductions not conformed to by Oregon (verify)
+- **Oregon additions list** -- - Federal income taxes (if deducted on federal Schedule A -- not applicable if taxpayer took the federal standard deduction) - Interest/dividends from other states' bonds (Oregon taxes these; federal may not) - Bonus depreciation add-back (if Oregon does not conform to federal §168(k) -- verify conformity) - OBBBA-specific deductions not conformed to by Oregon (verify)
 
 ### Oregon subtractions (common for self-employed)
 
-- **Oregon subtractions list** — - Oregon income tax refund (if included in federal income) - Federal tax paid on a fiscal-year basis (if applicable) - Interest on U.S. government obligations (Oregon cannot tax federal bond interest) - Social Security benefits (Oregon fully exempts Social Security — subtract if included in federal taxable income) - Oregon 529 plan contributions (subtraction up to $300 per student for single, $600 for MFJ)
+- **Oregon subtractions list** -- - Oregon income tax refund (if included in federal income) - Federal tax paid on a fiscal-year basis (if applicable) - Interest on U.S. government obligations (Oregon cannot tax federal bond interest) - Social Security benefits (Oregon fully exempts Social Security -- subtract if included in federal taxable income) - Oregon 529 plan contributions (subtraction up to $300 per student for single, $600 for MFJ)
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **R-OR-1. Federal taxable income is the starting point.** — Form OR-40 Line 7 = federal Form 1040, Line 15 (federal taxable income). This includes the federal standard or itemized deduction already.
-- **R-OR-2. Oregon standard deduction is in addition to federal.** — The Oregon standard deduction ($2,835 single / $5,670 MFJ) is subtracted from Oregon adjusted income to arrive at Oregon taxable income. (not yet confirmed)
-- **R-OR-3. Social Security is fully exempt.** — Subtract any Social Security benefits that were included in federal taxable income.
-- **R-OR-4. Oregon income tax refund subtraction.** — If the taxpayer received an Oregon income tax refund in 2025 and included it in federal income (Schedule 1 Line 1), subtract it on the Oregon return — Oregon does not tax its own refund.
-- **R-OR-5. U.S. government bond interest is exempt.** — Subtract interest from U.S. Treasury obligations, I-bonds, and other federal securities included in federal income.
-- **R-OR-6. Personal exemption credit is $256 per exemption.** — Apply after computing tax, subject to income phase-out. (not yet confirmed)
-- **R-OR-7. Oregon EITC is refundable.** — Compute at 9% (or 12% with qualifying child under 3) of federal EITC. (not yet confirmed)
+- **R-OR-1. Federal taxable income is the starting point.** -- Form OR-40 Line 7 = federal Form 1040, Line 15 (federal taxable income). This includes the federal standard or itemized deduction already.
+- **R-OR-2. Oregon standard deduction is in addition to federal.** -- The Oregon standard deduction ($2,835 single / $5,670 MFJ) is subtracted from Oregon adjusted income to arrive at Oregon taxable income. (not yet confirmed)
+- **R-OR-3. Social Security is fully exempt.** -- Subtract any Social Security benefits that were included in federal taxable income.
+- **R-OR-4. Oregon income tax refund subtraction.** -- If the taxpayer received an Oregon income tax refund in 2025 and included it in federal income (Schedule 1 Line 1), subtract it on the Oregon return -- Oregon does not tax its own refund.
+- **R-OR-5. U.S. government bond interest is exempt.** -- Subtract interest from U.S. Treasury obligations, I-bonds, and other federal securities included in federal income.
+- **R-OR-6. Personal exemption credit is $256 per exemption.** -- Apply after computing tax, subject to income phase-out. (not yet confirmed)
+- **R-OR-7. Oregon EITC is refundable.** -- Compute at 9% (or 12% with qualifying child under 3) of federal EITC. (not yet confirmed)
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
-- **J-OR-1. Oregon conformity with OBBBA.** — Oregon's IRC conformity date must be verified. If Oregon does not conform to specific OBBBA provisions (§168(k) bonus depreciation, §179, §174A R&E), additions on Schedule OR-ASC may be required.
-- **J-OR-2. Standard vs. itemized deduction choice.** — Oregon allows a separate standard deduction even though federal taxable income already reflects the federal deduction. The small Oregon standard deduction ($2,835 single) means most taxpayers should take it unless specific Oregon itemized deductions are advantageous. (not yet confirmed)
-- **J-OR-3. TriMet / LTD / Metro SHS / PFA applicability.** — Self-employed individuals in the Portland metro or Eugene/Springfield areas must determine whether they are subject to local transit and housing services taxes. Geographic location of the taxpayer's residence determines applicability.
-- **J-OR-4. Oregon kicker credit availability.** — The kicker is a unique Oregon mechanism that returns excess state revenue to taxpayers. Whether a kicker is available for tax year 2025 depends on state revenue performance. Verify availability and amount.
+- **J-OR-1. Oregon conformity with OBBBA.** -- Oregon's IRC conformity date must be verified. If Oregon does not conform to specific OBBBA provisions (§168(k) bonus depreciation, §179, §174A R&E), additions on Schedule OR-ASC may be required.
+- **J-OR-2. Standard vs. itemized deduction choice.** -- Oregon allows a separate standard deduction even though federal taxable income already reflects the federal deduction. The small Oregon standard deduction ($2,835 single) means most taxpayers should take it unless specific Oregon itemized deductions are advantageous. (not yet confirmed)
+- **J-OR-3. TriMet / LTD / Metro SHS / PFA applicability.** -- Self-employed individuals in the Portland metro or Eugene/Springfield areas must determine whether they are subject to local transit and housing services taxes. Geographic location of the taxpayer's residence determines applicability.
+- **J-OR-4. Oregon kicker credit availability.** -- The kicker is a unique Oregon mechanism that returns excess state revenue to taxpayers. Whether a kicker is available for tax year 2025 depends on state revenue performance. Verify availability and amount.
 
 ## Section 7: Supplier pattern library
 
@@ -186,11 +186,11 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 ## Section 9: Refusal catalogue
 
-- **REFUSE-OR-1** — REFUSE to prepare an Oregon return for a part-year resident or nonresident without Form OR-40-P or OR-40-N. This skill covers full-year residents only.
-- **REFUSE-OR-2** — REFUSE to compute TriMet, LTD, Metro SHS, or Multnomah PFA taxes. These are separate local taxes with their own rules, forms, and filing requirements.
-- **REFUSE-OR-3** — REFUSE to compute Oregon Corporate Activity Tax (CAT). The CAT is a business-level tax ($250 + 0.57% on taxable commercial activity over $1M) that applies to larger businesses and is outside the scope of this individual income tax skill.
-- **REFUSE-OR-4** — REFUSE to determine the Oregon kicker credit amount without verifying the kicker status for the specific tax year. The kicker is not available every year.
-- **REFUSE-OR-5** — REFUSE to apply Oregon tax rates to a return without verifying Oregon's current IRC conformity date and any OBBBA decoupling provisions.
+- **REFUSE-OR-1** -- REFUSE to prepare an Oregon return for a part-year resident or nonresident without Form OR-40-P or OR-40-N. This skill covers full-year residents only.
+- **REFUSE-OR-2** -- REFUSE to compute TriMet, LTD, Metro SHS, or Multnomah PFA taxes. These are separate local taxes with their own rules, forms, and filing requirements.
+- **REFUSE-OR-3** -- REFUSE to compute Oregon Corporate Activity Tax (CAT). The CAT is a business-level tax ($250 + 0.57% on taxable commercial activity over $1M) that applies to larger businesses and is outside the scope of this individual income tax skill.
+- **REFUSE-OR-4** -- REFUSE to determine the Oregon kicker credit amount without verifying the kicker status for the specific tax year. The kicker is not available every year.
+- **REFUSE-OR-5** -- REFUSE to apply Oregon tax rates to a return without verifying Oregon's current IRC conformity date and any OBBBA decoupling provisions.
 
 ## Disclaimer
 
@@ -204,7 +204,7 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -255,7 +255,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
