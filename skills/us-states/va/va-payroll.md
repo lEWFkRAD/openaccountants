@@ -12,7 +12,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # VA Payroll
 
-## 1. Scope
+## Who this applies to
+
+#### 1. Scope
 
 This skill covers Virginia-specific employer payroll compliance for tax year 2025. It is a **Tier 2 content skill** that MUST be loaded alongside `us-tax-workflow-base v0.2` or later, plus the federal payroll workflow skill (federal income tax withholding, FICA, FUTA, Forms 941/940/W-2/W-3).
 
@@ -41,7 +43,9 @@ This skill covers Virginia-specific employer payroll compliance for tax year 202
 
 **Assumed reviewer:** Every output of this skill is assumed to be reviewed and signed off by a credentialed practitioner — a Virginia-licensed CPA, Enrolled Agent, or attorney admitted in Virginia — before any return is filed with the Virginia Department of Taxation or the Virginia Employment Commission. The skill produces a reviewer-oriented work product, not a self-filing return.
 
-## 2. Virginia Personal Income Tax — Withholding Brackets
+## Rates, bands and thresholds
+
+#### 2. Virginia Personal Income Tax — Withholding Brackets
 
 Virginia imposes a graduated personal income tax with four brackets. The brackets have not been indexed for inflation in many years and remain at the statutory levels set in Va. Code §58.1-320.
 
@@ -108,7 +112,9 @@ These reduce taxable wages for withholding-table purposes and feed the VA-4 allo
 
 - **New-hire reporting deadline** — 20 days days (of hire, to the Virginia New Hire Reporting Center)  _(Va. Code §63.2-1946)_
 
-## 4. VA-5 (Monthly) and VA-15 (Quarterly) Withholding Returns
+## The taxable base
+
+#### 4. VA-5 (Monthly) and VA-15 (Quarterly) Withholding Returns
 
 Virginia assigns employers to a withholding-deposit frequency based on average monthly Virginia withholding liability, redetermined annually each November for the following calendar year:
 
@@ -135,6 +141,10 @@ Virginia assigns employers to a withholding-deposit frequency based on average m
 ### 4.4 Semi-weekly deposit regime
 
 - **Semi-weekly deposit schedule** — Employers with avg monthly Virginia withholding ≥ $1,000 must deposit on the federal semi-weekly schedule: - Wages paid Wed/Thu/Fri → deposit due following Wednesday - Wages paid Sat/Sun/Mon/Tue → deposit due following Friday Semi-weekly depositors still file VA-15 at quarter end as a summary return, with separate Schedule VA-15-W listing each semi-weekly deposit. This is a frequent point of confusion — semi-weekly depositors are NOT exempt from filing a quarterly return; they file VA-15 with the deposit detail.  _(4.4 Semi-weekly deposit regime)_
+
+## Deadlines and filing
+
+## Penalties and interest
 
 ### 4.5 Penalties and interest
 
@@ -201,7 +211,9 @@ This is among the lowest SUI wage bases in the country (only Mississippi, Tennes
 
 - **SUTA Dumping Prevention** — Virginia adopted the federal SUTA Dumping Prevention Act provisions. Acquiring an employer's experience rating through a sham transaction triggers reassignment to the highest rate plus penalties.  _(Va. Code §60.2-536.1)_
 
-### 7.1 The reciprocal-state rule
+## Cross-border points
+
+#### 7.1 The reciprocal-state rule
 
 - **Reciprocal jurisdictions** — Virginia has reciprocal income-tax agreements with five jurisdictions: DC (District of Columbia), KY (Kentucky), MD (Maryland), PA (Pennsylvania), WV (West Virginia). Under each agreement, a resident of one of these jurisdictions who works in Virginia is exempt from Virginia withholding — and conversely, a Virginia resident who works in any of these five jurisdictions is exempt from that jurisdiction's withholding. The employee pays income tax only to the state of residence.  _(7.1 The reciprocal-state rule)_
 
@@ -315,13 +327,15 @@ For an employer with workers physically performing services in Alexandria, the c
 
 - **Domestic Workers' Bill of Rights protections** — Va. Code §40.1-28.7:9 (effective July 1, 2021) extends to domestic workers: - Minimum wage protections (full Virginia minimum wage, currently $12.41/hour for 2025) - Overtime protections at 1.5× regular rate for 40+ hours/week (live-out workers; live-in workers have separate rules) - Anti-discrimination protections This is a labor-law overlay, not a tax statute, but it affects gross-wage computation for VA-4/VA-5/VA-15 purposes.  _(Va. Code §40.1-28.7:9)_ (not yet confirmed)
 
-## 12. Final Pay
+### 12. Final Pay
 
 - **Final pay timing requirement** — Virginia Code §40.1-29 requires final wages to be paid: - By the next regular payday after termination (whether voluntary or involuntary) - In the usual manner the employee was paid There is no separate Virginia statute requiring same-day or next-day payment of final wages (contrast with California). Accrued unused vacation/PTO is paid out only if the employer's policy or contract so provides — Virginia has no statutory PTO-payout mandate. Practical implication for payroll skill output: when computing final-period withholding for a terminated employee, use the regular wage-bracket method; do NOT use the supplemental rate unless the final check includes severance, vacation cash-out, or bonus components.  _(Va. Code §40.1-29)_
 
-## 13. BPOL — Refer-Out
+### 13. BPOL — Refer-Out
 
 - **BPOL out of scope** — The Business, Professional and Occupational License tax (BPOL) is a locality-level gross-receipts tax imposed by Virginia cities, counties, and towns. While BPOL is sometimes confused with payroll (because some localities historically used a payroll-based proxy), it is a gross-receipts tax on the business itself, not a payroll tax. BPOL is out of scope for this skill. Refer all BPOL questions to `va-corporate-tax-and-bpol` for: - BPOL rate schedules by locality - Gross-receipts apportionment - Wholesaler vs retailer vs service vs financial-services classifications - Filing thresholds and due dates  _(Va. Code §58.1-3700 et seq.)_
+
+## Worked examples
 
 ### 14.1 Example A — VA-resident DC commuter (reciprocal)
 
@@ -456,7 +470,9 @@ The employer must allocate David's wages by physical location of services becaus
 - Employer must accrue 1 hour PSL per 30 hours worked, up to 56 hours/year (7 days)
 - This is independent of Virginia state law (no state mandate) and Alexandria municipal law (not applicable since David works in Arlington, not Alexandria)
 
-## 15. Skill Self-Check Checklist
+## Ask the client first
+
+#### 15. Skill Self-Check Checklist
 
 Before producing a reviewer-facing Virginia payroll work product, confirm:
 
@@ -474,7 +490,18 @@ Before producing a reviewer-facing Virginia payroll work product, confirm:
 - [ ] Alexandria-worksite employees: PSL accrual tracked
 - [ ] Final-pay-period workers: payment scheduled for next regular payday
 
-## 16. Citations and Authority
+## Sources
+
+| Source | Read on |
+|---|---|
+| Va. Code §58.1-320 — graduated income tax rates | [2026-10-29](https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-320) |
+| Va. Code §58.1-442 — employer withholding | [2026-10-29](https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-442) |
+| Va. Code §58.1-446 — withholding penalties | [2026-10-29](https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-446) |
+| Va. Code §58.1-400 — sales/use tax cross-reference | [2026-10-29](https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-400) |
+
+Not yet confirmed: SUI wage base and rate range, workers' compensation thresholds, final-pay timing (§40.1-29), reciprocal agreement citations, and the 2025 deposit-frequency tiers were not confirmed against archived sources (archived 2026-10-29).
+
+#### 16. Citations and Authority
 
 **Statutes:**
 - Va. Code §58.1-320 — graduated income tax rates
@@ -511,7 +538,7 @@ Before producing a reviewer-facing Virginia payroll work product, confirm:
 - PA: 72 Pa. Cons. Stat. §7359
 - WV: W. Va. Code §11-21-71b
 
-## 17. Refusal Catalogue (Virginia-specific additions to base R-US refusals)
+### 17. Refusal Catalogue (Virginia-specific additions to base R-US refusals)
 
 - **R-VA-1** — Will not produce a Virginia payroll return without confirmation that the federal payroll skill has produced the federal withholding figures the Virginia return relies upon for reconciliation.  _(17. Refusal Catalogue (Virginia-specific additions to base R-US refusals))_
 - **R-VA-2** — Will not compute Virginia withholding for an employee whose VA-4 is missing or stale (>4 years without re-execution by an employee claiming exempt). The reviewer must collect a current VA-4.  _(17. Refusal Catalogue (Virginia-specific additions to base R-US refusals))_
