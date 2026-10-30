@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-Any business selling tangible personal property or performing a taxable business activity in Arizona, including out-of-state remote sellers and marketplace facilitators that meet Arizona's economic-nexus threshold. Arizona's consumption tax is the **Transaction Privilege Tax (TPT)** — "Although commonly referred to as a sales tax, the Arizona transaction privilege tax (TPT) is actually a tax on a vendor for the privilege of doing business in the state" (AZDOR Transaction Privilege Tax page, read 2026-10-28). Various business activities are subject to TPT and must be licensed; a city privilege-tax or use-tax license may also be required (AZDOR TPT page, read 2026-10-28).
+Any business selling tangible personal property or performing a taxable business activity in Arizona, including out-of-state remote sellers and marketplace facilitators that meet Arizona's economic-nexus threshold. Arizona's consumption tax is the **Transaction Privilege Tax (TPT)** -- "Although commonly referred to as a sales tax, the Arizona transaction privilege tax (TPT) is actually a tax on a vendor for the privilege of doing business in the state" (AZDOR Transaction Privilege Tax page, read 2026-10-28). Various business activities are subject to TPT and must be licensed; a city privilege-tax or use-tax license may also be required (AZDOR TPT page, read 2026-10-28).
 
 **CRITICAL: Arizona TPT is a tax on the privilege of doing business in Arizona, imposed on the SELLER. It is NOT a sales tax on the buyer, though sellers typically pass it through.**
 
@@ -47,7 +47,7 @@ Any business selling tangible personal property or performing a taxable business
 
 ### Refusal catalogue
 
-- **R-AZ-1** — Prime contracting classification. The reduced prime-contracting tax base and the deduction mechanics are complex; escalate to a verified accountant.  _(R-AZ-1 -- Prime contracting classification)_
+- **R-AZ-1** -- Prime contracting classification. The reduced prime-contracting tax base and the deduction mechanics are complex; escalate to a verified accountant.  _(R-AZ-1 -- Prime contracting classification)_
 
 ## Rates, bands and thresholds
 
@@ -90,7 +90,7 @@ TPT liability is a privilege tax on the seller for conducting business in Arizon
 | Pattern | Status | Notes |
 | --- | --- | --- |
 | General tangible personal property | TAXABLE | retail classification (§42-5061) |
-| Grocery food | EXEMPT | §42-5061 exempts "Food, as provided in and subject to the conditions of …" — the food article of this chapter, together with §§42-5074 and 42-6017 (read 2026-10-28) |
+| Grocery food | EXEMPT | §42-5061 exempts "Food, as provided in and subject to the conditions of …" -- the food article of this chapter, together with §§42-5074 and 42-6017 (read 2026-10-28) |
 | Prescription drugs and medical oxygen | EXEMPT | §42-5061(8): "Drugs and medical oxygen, including delivery hose, mask or tent, regulator and tank, if prescribed by a member of the medical, dental or veterinarian profession who is licensed by law to administer such substances" |
 | Insulin, insulin syringes and glucose test strips | EXEMPT | §42-5061 exemption list, read 2026-10-28 |
 | Prescription eyeglasses or contact lenses | EXEMPT | §42-5061 exemption list, read 2026-10-28 |
@@ -173,15 +173,15 @@ A contractor builds a house. The prime-contracting classification applies, and t
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| AZDOR — Transaction Privilege Tax (overview) | https://azdor.gov/business/transaction-privilege-tax | 2026-10-28 |
-| AZDOR — Transaction Privilege and Other Tax Rate Tables (effective October 1, 2026) | https://azdor.gov/sites/default/files/document/TPT_RATETABLE_10012026.pdf | 2026-10-28 |
-| AZDOR — Out-of-State Sellers | https://azdor.gov/business/transaction-privilege-tax/retail-sales-subject-tpt/out-of-state-sellers | 2026-10-28 |
-| AZDOR — Economic Threshold | https://azdor.gov/business/transaction-privilege-tax/retail-sales-subject-tpt/out-state-sellers/economic-threshold | 2026-10-28 |
-| A.R.S. §42-5010 — Rates; distribution base | https://www.azleg.gov/ars/42/05010.htm | 2026-10-28 |
-| A.R.S. §42-5044 — Nexus; out-of-state businesses; threshold | https://www.azleg.gov/ars/42/05044.htm | 2026-10-28 |
-| A.R.S. §42-5061 — Retail classification; exemptions | https://www.azleg.gov/ars/42/05061.htm | 2026-10-28 |
-| A.R.S. §42-5075 — Prime contracting classification | https://www.azleg.gov/ars/42/05075.htm | 2026-10-28 |
-| Streamlined Sales Tax Governing Board — Arizona state detail | https://www.streamlinedsalestax.org/state-details/arizona | 2026-10-28 |
+| AZDOR -- Transaction Privilege Tax (overview) | https://azdor.gov/business/transaction-privilege-tax | 2026-10-28 |
+| AZDOR -- Transaction Privilege and Other Tax Rate Tables (effective October 1, 2026) | https://azdor.gov/sites/default/files/document/TPT_RATETABLE_10012026.pdf | 2026-10-28 |
+| AZDOR -- Out-of-State Sellers | https://azdor.gov/business/transaction-privilege-tax/retail-sales-subject-tpt/out-of-state-sellers | 2026-10-28 |
+| AZDOR -- Economic Threshold | https://azdor.gov/business/transaction-privilege-tax/retail-sales-subject-tpt/out-state-sellers/economic-threshold | 2026-10-28 |
+| A.R.S. §42-5010 -- Rates; distribution base | https://www.azleg.gov/ars/42/05010.htm | 2026-10-28 |
+| A.R.S. §42-5044 -- Nexus; out-of-state businesses; threshold | https://www.azleg.gov/ars/42/05044.htm | 2026-10-28 |
+| A.R.S. §42-5061 -- Retail classification; exemptions | https://www.azleg.gov/ars/42/05061.htm | 2026-10-28 |
+| A.R.S. §42-5075 -- Prime contracting classification | https://www.azleg.gov/ars/42/05075.htm | 2026-10-28 |
+| Streamlined Sales Tax Governing Board -- Arizona state detail | https://www.streamlinedsalestax.org/state-details/arizona | 2026-10-28 |
 
 Not yet confirmed: local city/county TPT add-on rates and the maximum combined rate (the earlier draft's local range and combined-rate ceiling were not tied to a primary source); the combined state+city rate for Phoenix; taxability of clothing, prepared food, canned software, SaaS/cloud software, digital goods, and the general services patterns (professional services, job printing); the manufacturing-machinery exemption scope; resale and interstate-commerce exemption wording (read §42-5061 before relying on it); TPT filing frequencies and return due dates; specific TPT late-filing/late-payment penalty and interest percentages; origin- vs destination-based sourcing per classification.
 
@@ -195,7 +195,7 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 
 ---
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

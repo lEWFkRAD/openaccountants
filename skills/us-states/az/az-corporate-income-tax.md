@@ -2,7 +2,7 @@
 name: az-corporate-income-tax
 description: >
   Use this skill whenever asked about Arizona corporate income tax for
-  tax year 2026 — Form 120/120A filing, the 4.9% flat rate and fifty-dollar
+  tax year 2026 -- Form 120/120A filing, the 4.9% flat rate and fifty-dollar
   minimum under A.R.S. §43-1111, combined and consolidated group filing,
   S-corporation treatment under §43-1126, LLCs taxed as corporations,
   estimated-payment thresholds, the 15th-day-of-4th-month deadline, and
@@ -56,17 +56,17 @@ Arizona taxable income starts from federal taxable income with Title 43 adjustme
 | Amended return (Form 120X) after a federal final determination | within 90 days of the IRS final determination | AZDOR corporate page (read 2026-10-28): "must file an Arizona amended return on Form 120X within 90 days of final determination of the federal amended return by the IRS" |
 | E-filing | mandatory for corporations and partnerships | AZDOR corporate page (read 2026-10-28) |
 
-Estimated-tax and EFT dollar thresholds from the AZDOR page quote 2020/2021 text: "Corporations expecting an Arizona income tax liability for the 2020 taxable year of $1,000 or more must make Arizona estimated income tax payments" and corporations expecting a 2021 liability "of $500 or more must make Arizona estimated income tax payments using EFT" (AZDOR corporate page, read 2026-10-28). The current-year dollar thresholds are on the Not yet confirmed line — confirm with AZDOR before setting a payment calendar.
+Estimated-tax and EFT dollar thresholds from the AZDOR page quote 2020/2021 text: "Corporations expecting an Arizona income tax liability for the 2020 taxable year of $1,000 or more must make Arizona estimated income tax payments" and corporations expecting a 2021 liability "of $500 or more must make Arizona estimated income tax payments using EFT" (AZDOR corporate page, read 2026-10-28). The current-year dollar thresholds are on the Not yet confirmed line -- confirm with AZDOR before setting a payment calendar.
 
 Form selection (AZDOR page, read): Form 120 for multistate corporations, partners in multistate partnerships, unitary-group combined filers, and affiliated groups electing consolidation; Form 120A only for a separate-entity filer taxable entirely within Arizona.
 
 ## Penalties and interest
 
-Interest on under- and overpayments is the federal §6621 rate (federal short-term plus three percentage points), compounded annually, with outstanding interest added to principal each January 1 (AZDOR interest page, read 2026-10-28: "that rate of interest for both overpayments and underpayments for all taxpayers is the federal short-term rate, determined by the IRC, plus three percentage points"; 2026 quarterly table rows: first quarter 7%, second quarter 6%, third and fourth quarters 7%). Late-filing/failure-to-pay penalty percentages are not tied out this run — see the Not yet confirmed line. Common failure mode: a corporation with consignment inventory in Arizona can be pulled into nexus — §43-1132(E) (read) relieves apportionment only where strict conditions are met (contract requirement, customer's premises, and others).
+Interest on under- and overpayments is the federal §6621 rate (federal short-term plus three percentage points), compounded annually, with outstanding interest added to principal each January 1 (AZDOR interest page, read 2026-10-28: "that rate of interest for both overpayments and underpayments for all taxpayers is the federal short-term rate, determined by the IRC, plus three percentage points"; 2026 quarterly table rows: first quarter 7%, second quarter 6%, third and fourth quarters 7%). Late-filing/failure-to-pay penalty percentages are not tied out this run -- see the Not yet confirmed line. Common failure mode: a corporation with consignment inventory in Arizona can be pulled into nexus -- §43-1132(E) (read) relieves apportionment only where strict conditions are met (contract requirement, customer's premises, and others).
 
 ## Cross-border points
 
-A foreign (out-of-state or out-of-country) corporation not itself subject to Arizona tax has its income and related expenses excluded from Arizona allocation/apportionment (§43-1132(A)-(B), read) — unless it is a member of an Arizona affiliated group under §43-947 (§43-1132(D), read). On dissolution, surrender, or term reduction, a tax-clearance certificate from the department is required before the court or corporation commission acts; the department responds within thirty days (§43-1151, read). Shareholder-level cross-border treatment of S income and nonresident partners: see `az-cross-border`.
+A foreign (out-of-state or out-of-country) corporation not itself subject to Arizona tax has its income and related expenses excluded from Arizona allocation/apportionment (§43-1132(A)-(B), read) -- unless it is a member of an Arizona affiliated group under §43-947 (§43-1132(D), read). On dissolution, surrender, or term reduction, a tax-clearance certificate from the department is required before the court or corporation commission acts; the department responds within thirty days (§43-1151, read). Shareholder-level cross-border treatment of S income and nonresident partners: see `az-cross-border`.
 
 ## Worked examples
 
@@ -107,7 +107,7 @@ expected:
 ## Ask the client first
 
 - Is the entity taxed as a corporation federally (including an LLC that elected it)? Disregarded single-member LLCs ride the owner's return.
-- Is the group unitary (combined Form 120) or an affiliated group electing consolidation (§43-947 — confirm current mechanics with ADOR)?
+- Is the group unitary (combined Form 120) or an affiliated group electing consolidation (§43-947 -- confirm current mechanics with ADOR)?
 - Any consignment inventory, remote employees, or marketplace sales creating Arizona nexus?
 - Expected liability at or above the estimate threshold? Confirm the current estimate/EFT dollar thresholds with AZDOR before setting the payment calendar.
 
@@ -115,27 +115,27 @@ expected:
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| AZDOR — Corporate Income Tax | https://azdor.gov/business/corporate-income-tax | 2026-10-28 |
-| AZDOR — Corporate Tax Forms | https://azdor.gov/forms/corporate-tax-forms | 2026-10-28 |
-| AZDOR — Interest Rates | https://azdor.gov/business/interest-rates | 2026-10-28 |
-| AZDOR — 2026 Booklet 120/165ES (Form 120/PTE-W) | https://azdor.gov/sites/default/files/document/FORMS_CORPORATE_2026_120_165ESBooklet.pdf | 2026-10-28 |
-| Arizona Form 120 (2024) — Corporation Income Tax Return | https://azdor.gov/sites/default/files/document/FORMS_CORPORATE_2024_120_f.pdf | 2026-10-28 |
-| A.R.S. §43-941 — Allocation; affiliated taxpayers | https://www.azleg.gov/ars/43/00941.htm | 2026-10-28 |
-| A.R.S. §43-942 — Allocation; controlled corporations | https://www.azleg.gov/ars/43/00942.htm | 2026-10-28 |
-| A.R.S. §43-947 — Consolidated returns; affiliated group | https://www.azleg.gov/ars/43/00947.htm | 2026-10-28 |
-| A.R.S. §43-1111 — Tax rates for corporations | https://www.azleg.gov/ars/43/01111.htm | 2026-10-28 |
-| A.R.S. §43-1126 — Small business corporation; election; return | https://www.azleg.gov/ars/43/01126.htm | 2026-10-28 |
-| A.R.S. §43-1131/1132/1133/1134 — Liability, allocation, taxability | https://www.azleg.gov/ars/43/01131.htm | 2026-10-28 |
-| A.R.S. §43-1141/1143/1145/1146 — Apportionment factors and situs | https://www.azleg.gov/ars/43/01141.htm | 2026-10-28 |
-| A.R.S. §43-1151 — Tax clearance | https://www.azleg.gov/ars/43/01151.htm | 2026-10-28 |
-| A.R.S. §43-1201 — Exempt organizations | https://www.azleg.gov/ars/43/01201.htm | 2026-10-28 |
-| A.R.S. §43-1231 — Unrelated business income | https://www.azleg.gov/ars/43/01231.htm | 2026-10-28 |
+| AZDOR -- Corporate Income Tax | https://azdor.gov/business/corporate-income-tax | 2026-10-28 |
+| AZDOR -- Corporate Tax Forms | https://azdor.gov/forms/corporate-tax-forms | 2026-10-28 |
+| AZDOR -- Interest Rates | https://azdor.gov/business/interest-rates | 2026-10-28 |
+| AZDOR -- 2026 Booklet 120/165ES (Form 120/PTE-W) | https://azdor.gov/sites/default/files/document/FORMS_CORPORATE_2026_120_165ESBooklet.pdf | 2026-10-28 |
+| Arizona Form 120 (2024) -- Corporation Income Tax Return | https://azdor.gov/sites/default/files/document/FORMS_CORPORATE_2024_120_f.pdf | 2026-10-28 |
+| A.R.S. §43-941 -- Allocation; affiliated taxpayers | https://www.azleg.gov/ars/43/00941.htm | 2026-10-28 |
+| A.R.S. §43-942 -- Allocation; controlled corporations | https://www.azleg.gov/ars/43/00942.htm | 2026-10-28 |
+| A.R.S. §43-947 -- Consolidated returns; affiliated group | https://www.azleg.gov/ars/43/00947.htm | 2026-10-28 |
+| A.R.S. §43-1111 -- Tax rates for corporations | https://www.azleg.gov/ars/43/01111.htm | 2026-10-28 |
+| A.R.S. §43-1126 -- Small business corporation; election; return | https://www.azleg.gov/ars/43/01126.htm | 2026-10-28 |
+| A.R.S. §43-1131/1132/1133/1134 -- Liability, allocation, taxability | https://www.azleg.gov/ars/43/01131.htm | 2026-10-28 |
+| A.R.S. §43-1141/1143/1145/1146 -- Apportionment factors and situs | https://www.azleg.gov/ars/43/01141.htm | 2026-10-28 |
+| A.R.S. §43-1151 -- Tax clearance | https://www.azleg.gov/ars/43/01151.htm | 2026-10-28 |
+| A.R.S. §43-1201 -- Exempt organizations | https://www.azleg.gov/ars/43/01201.htm | 2026-10-28 |
+| A.R.S. §43-1231 -- Unrelated business income | https://www.azleg.gov/ars/43/01231.htm | 2026-10-28 |
 
 Not yet confirmed: the current-year corporate estimated-tax and EFT dollar thresholds (the AZDOR page quotes 2020/2021 amounts); the §43-323 e-file mandate text; late-filing and failure-to-pay penalty percentages; 2027 interest-rate quarters beyond the AZDOR 2026 table.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

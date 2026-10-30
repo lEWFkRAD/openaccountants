@@ -30,38 +30,38 @@ Arizona runs a flat **2.5%** individual income tax (AZDOR Individual Income Tax 
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| AZDOR — Corporate Income Tax | https://azdor.gov/business/corporate-income-tax | 2026-10-28 |
-| AZDOR — Corporate Tax Forms hub | https://azdor.gov/forms/corporate-tax-forms | 2026-10-28 |
-| AZDOR — Interest Rates | https://azdor.gov/business/interest-rates | 2026-10-28 |
-| AZDOR — 2026 Booklet 120/165ES (Form 120/PTE-W) | https://azdor.gov/sites/default/files/document/FORMS_CORPORATE_2026_120_165ESBooklet.pdf | 2026-10-28 |
+| AZDOR -- Corporate Income Tax | https://azdor.gov/business/corporate-income-tax | 2026-10-28 |
+| AZDOR -- Corporate Tax Forms hub | https://azdor.gov/forms/corporate-tax-forms | 2026-10-28 |
+| AZDOR -- Interest Rates | https://azdor.gov/business/interest-rates | 2026-10-28 |
+| AZDOR -- 2026 Booklet 120/165ES (Form 120/PTE-W) | https://azdor.gov/sites/default/files/document/FORMS_CORPORATE_2026_120_165ESBooklet.pdf | 2026-10-28 |
 | Arizona Form 120 (2024) | https://azdor.gov/sites/default/files/document/FORMS_CORPORATE_2024_120_f.pdf | 2026-10-28 |
-| AZDOR — Individual Income Tax Highlights | https://azdor.gov/forms/individual-income-tax-highlights | 2026-10-28 |
-| AZDOR — Individual Estimated Tax Payments | https://azdor.gov/individuals/individual-estimated-tax-payments | 2026-10-28 |
-| AZDOR — Transaction Privilege Tax (overview) | https://azdor.gov/business/transaction-privilege-tax | 2026-10-28 |
-| AZDOR — Transaction Privilege and Other Tax Rate Tables (October 2026) | https://azdor.gov/sites/default/files/document/TPT_RATETABLE_10012026.pdf | 2026-10-28 |
-| AZDOR — Out-of-State Sellers / Economic Threshold | https://azdor.gov/business/transaction-privilege-tax/retail-sales-subject-tpt/out-of-state-sellers | 2026-10-28 |
-| A.R.S. §23-622 — Wages (UI taxable wage base) | https://www.azleg.gov/ars/23/00622.htm | 2026-10-28 |
-| A.R.S. §23-730 — Contribution-rate schedule | https://www.azleg.gov/ars/23/00730.htm | 2026-10-28 |
-| A.R.S. §42-5010 — TPT rates | https://www.azleg.gov/ars/42/05010.htm | 2026-10-28 |
-| A.R.S. §42-5044 — Economic nexus thresholds | https://www.azleg.gov/ars/42/05044.htm | 2026-10-28 |
-| A.R.S. §42-5061 — Retail classification; exemptions | https://www.azleg.gov/ars/42/05061.htm | 2026-10-28 |
-| A.R.S. §42-5075 — Prime contracting | https://www.azleg.gov/ars/42/05075.htm | 2026-10-28 |
-| A.R.S. §43-1111 — Tax rates for corporations | https://www.azleg.gov/ars/43/01111.htm | 2026-10-28 |
-| A.R.S. §43-1126 — S corporation | https://www.azleg.gov/ars/43/01126.htm | 2026-10-28 |
-| A.R.S. §43-1131 — Definitions (UDITA) | https://www.azleg.gov/ars/43/01131.htm | 2026-10-28 |
-| A.R.S. §43-1132 — Liability; allocation/apportionment | https://www.azleg.gov/ars/43/01132.htm | 2026-10-28 |
-| A.R.S. §43-1133 — Taxability in another state | https://www.azleg.gov/ars/43/01133.htm | 2026-10-28 |
-| A.R.S. §43-1134 — Allocation of nonbusiness income | https://www.azleg.gov/ars/43/01134.htm | 2026-10-28 |
-| A.R.S. §43-1141 — Property factor | https://www.azleg.gov/ars/43/01141.htm | 2026-10-28 |
-| A.R.S. §43-1143 — Payroll factor | https://www.azleg.gov/ars/43/01143.htm | 2026-10-28 |
-| A.R.S. §43-1145 — Sales factor | https://www.azleg.gov/ars/43/01145.htm | 2026-10-28 |
-| A.R.S. §43-1146 — Sales situs | https://www.azleg.gov/ars/43/01146.htm | 2026-10-28 |
-| A.R.S. §43-1151 — Tax clearance | https://www.azleg.gov/ars/43/01151.htm | 2026-10-28 |
-| A.R.S. §43-1201 — Exempt organizations | https://www.azleg.gov/ars/43/01201.htm | 2026-10-28 |
-| A.R.S. §43-1231 — Unrelated business income | https://www.azleg.gov/ars/43/01231.htm | 2026-10-28 |
-| A.R.S. §43-1301 — Estates and trusts | https://www.azleg.gov/ars/43/01301.htm | 2026-10-28 |
-| A.R.S. §43-1361/§43-1362 — Estate tax-clearance certificate | https://www.azleg.gov/ars/43/01361.htm | 2026-10-28 |
-| Streamlined Sales Tax Governing Board — Arizona state detail | https://www.streamlinedsalestax.org/state-details/arizona | 2026-10-28 |
+| AZDOR -- Individual Income Tax Highlights | https://azdor.gov/forms/individual-income-tax-highlights | 2026-10-28 |
+| AZDOR -- Individual Estimated Tax Payments | https://azdor.gov/individuals/individual-estimated-tax-payments | 2026-10-28 |
+| AZDOR -- Transaction Privilege Tax (overview) | https://azdor.gov/business/transaction-privilege-tax | 2026-10-28 |
+| AZDOR -- Transaction Privilege and Other Tax Rate Tables (October 2026) | https://azdor.gov/sites/default/files/document/TPT_RATETABLE_10012026.pdf | 2026-10-28 |
+| AZDOR -- Out-of-State Sellers / Economic Threshold | https://azdor.gov/business/transaction-privilege-tax/retail-sales-subject-tpt/out-of-state-sellers | 2026-10-28 |
+| A.R.S. §23-622 -- Wages (UI taxable wage base) | https://www.azleg.gov/ars/23/00622.htm | 2026-10-28 |
+| A.R.S. §23-730 -- Contribution-rate schedule | https://www.azleg.gov/ars/23/00730.htm | 2026-10-28 |
+| A.R.S. §42-5010 -- TPT rates | https://www.azleg.gov/ars/42/05010.htm | 2026-10-28 |
+| A.R.S. §42-5044 -- Economic nexus thresholds | https://www.azleg.gov/ars/42/05044.htm | 2026-10-28 |
+| A.R.S. §42-5061 -- Retail classification; exemptions | https://www.azleg.gov/ars/42/05061.htm | 2026-10-28 |
+| A.R.S. §42-5075 -- Prime contracting | https://www.azleg.gov/ars/42/05075.htm | 2026-10-28 |
+| A.R.S. §43-1111 -- Tax rates for corporations | https://www.azleg.gov/ars/43/01111.htm | 2026-10-28 |
+| A.R.S. §43-1126 -- S corporation | https://www.azleg.gov/ars/43/01126.htm | 2026-10-28 |
+| A.R.S. §43-1131 -- Definitions (UDITA) | https://www.azleg.gov/ars/43/01131.htm | 2026-10-28 |
+| A.R.S. §43-1132 -- Liability; allocation/apportionment | https://www.azleg.gov/ars/43/01132.htm | 2026-10-28 |
+| A.R.S. §43-1133 -- Taxability in another state | https://www.azleg.gov/ars/43/01133.htm | 2026-10-28 |
+| A.R.S. §43-1134 -- Allocation of nonbusiness income | https://www.azleg.gov/ars/43/01134.htm | 2026-10-28 |
+| A.R.S. §43-1141 -- Property factor | https://www.azleg.gov/ars/43/01141.htm | 2026-10-28 |
+| A.R.S. §43-1143 -- Payroll factor | https://www.azleg.gov/ars/43/01143.htm | 2026-10-28 |
+| A.R.S. §43-1145 -- Sales factor | https://www.azleg.gov/ars/43/01145.htm | 2026-10-28 |
+| A.R.S. §43-1146 -- Sales situs | https://www.azleg.gov/ars/43/01146.htm | 2026-10-28 |
+| A.R.S. §43-1151 -- Tax clearance | https://www.azleg.gov/ars/43/01151.htm | 2026-10-28 |
+| A.R.S. §43-1201 -- Exempt organizations | https://www.azleg.gov/ars/43/01201.htm | 2026-10-28 |
+| A.R.S. §43-1231 -- Unrelated business income | https://www.azleg.gov/ars/43/01231.htm | 2026-10-28 |
+| A.R.S. §43-1301 -- Estates and trusts | https://www.azleg.gov/ars/43/01301.htm | 2026-10-28 |
+| A.R.S. §43-1361/§43-1362 -- Estate tax-clearance certificate | https://www.azleg.gov/ars/43/01361.htm | 2026-10-28 |
+| Streamlined Sales Tax Governing Board -- Arizona state detail | https://www.streamlinedsalestax.org/state-details/arizona | 2026-10-28 |
 
 Not yet confirmed: per-skill items are listed on each skill's Not yet confirmed line (late-filing/penalty percentages, current corporate estimate/EFT dollar thresholds, current UI experience-rate range, local city/county TPT add-on rates, TPT filing due dates, Form 140NR instructions, SBI election mechanics, 2026 individual standard-deduction amounts).
 
@@ -71,7 +71,7 @@ Not yet confirmed: per-skill items are listed on each skill's Not yet confirmed 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
+This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
 - Use it in your AI: https://www.openaccountants.com/connect
 - Talk to a verified accountant: https://calendly.com/openaccountants-info/30min

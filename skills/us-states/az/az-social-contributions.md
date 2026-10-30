@@ -2,7 +2,7 @@
 name: az-social-contributions
 description: >
   Use this skill whenever asked about Arizona employer social
-  contributions for tax year 2026 — Arizona unemployment insurance
+  contributions for tax year 2026 -- Arizona unemployment insurance
   (UI) wage base and experience rates, the employer-only nature of AZ
   UI, workers' compensation insurance obligations, and how Arizona
   differs from states with state disability or paid-family-leave
@@ -28,10 +28,10 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 28 October 2026. Arizona's state-level social contributions are narrow: employer-only unemployment insurance administered by the Department of Economic Security (DES), plus mandatory workers' compensation insurance (Title 23). Arizona has **no** state disability insurance, **no** paid family leave contribution, and **no** state retirement mandate for private employers — the employee side of payroll taxes is federal FICA plus the flat 2.5% income tax withholding (see `az-payroll`). **Source status:** des.az.gov was unreachable from this workstation this run (403/SSL failures, 2026-10-28), so the UI wage base is tied to the statute text (A.R.S. §23-622) and the rate structure to A.R.S. §23-730; DES rate notices and the current rate range are on the Not yet confirmed line.
+Source-cited draft, run of 28 October 2026. Arizona's state-level social contributions are narrow: employer-only unemployment insurance administered by the Department of Economic Security (DES), plus mandatory workers' compensation insurance (Title 23). Arizona has **no** state disability insurance, **no** paid family leave contribution, and **no** state retirement mandate for private employers -- the employee side of payroll taxes is federal FICA plus the flat 2.5% income tax withholding (see `az-payroll`). **Source status:** des.az.gov was unreachable from this workstation this run (403/SSL failures, 2026-10-28), so the UI wage base is tied to the statute text (A.R.S. §23-622) and the rate structure to A.R.S. §23-730; DES rate notices and the current rate range are on the Not yet confirmed line.
 
 - **UI:** Arizona employers meeting the Employment Security coverage tests pay Arizona UI on covered wages (see `az-payroll` for the coverage tests; current test text on the Not yet confirmed line). Out-of-state employers with Arizona employees are pulled in on the same basis as for withholding (see `az-payroll`).
-- **Workers' compensation:** Arizona employers must carry workers' compensation insurance for employees (Title 23; the statutory citation text was not fetched this run — see the Not yet confirmed line); uninsured exposure includes the employee's election to sue without the usual defenses.
+- **Workers' compensation:** Arizona employers must carry workers' compensation insurance for employees (Title 23; the statutory citation text was not fetched this run -- see the Not yet confirmed line); uninsured exposure includes the employee's election to sue without the usual defenses.
 - **No employee-side state social contribution:** unlike NY (PFL/SDI) or WA (PFML), Arizona employees fund no state payroll social insurance.
 
 ## Rates, bands and thresholds
@@ -54,21 +54,21 @@ UI taxable wages are the first $8,000 of gross wages paid to each employee in a 
 
 ## Deadlines and filing
 
-- UI quarterly contribution and wage reports — due per the DES reporting schedule (mechanics carried from `az-payroll`; current DES due-date text on the Not yet confirmed line).
-- UI annual rate notices issue each year with an appeal window (confirm dates on the DES rate-notice page — Not yet confirmed).
+- UI quarterly contribution and wage reports -- due per the DES reporting schedule (mechanics carried from `az-payroll`; current DES due-date text on the Not yet confirmed line).
+- UI annual rate notices issue each year with an appeal window (confirm dates on the DES rate-notice page -- Not yet confirmed).
 - Workers' comp: continuous coverage obligation; certificate of insurance on request (DES/ICC).
 
 ## Penalties and interest
 
-Late/unpaid UI contributions draw DES penalties and interest (current schedule on the Not yet confirmed line — DES unreachable 2026-10-28). Common failure modes: (1) out-of-state employers assuming no AZ UI duty for remote Arizona employees; (2) treating workers' comp as optional for a single employee — it is not; (3) misclassifying workers, which shifts both UI wages and comp premium (7-factor test in `az-payroll`).
+Late/unpaid UI contributions draw DES penalties and interest (current schedule on the Not yet confirmed line -- DES unreachable 2026-10-28). Common failure modes: (1) out-of-state employers assuming no AZ UI duty for remote Arizona employees; (2) treating workers' comp as optional for a single employee -- it is not; (3) misclassifying workers, which shifts both UI wages and comp premium (7-factor test in `az-payroll`).
 
 ## Cross-border points
 
-Multi-state employers allocate Arizona UI wages to Arizona employment (localization-of-service rules carried from `az-payroll`; current DES guidance on the Not yet confirmed line). Reciprocal coverage agreements allow one-state UI coverage for employees working in several states (confirm AZ participation — Not yet confirmed). Federal FUTA credit against Arizona UI follows the standard federal pattern where the state is not a credit-reduction year (2026 status on the Not yet confirmed line).
+Multi-state employers allocate Arizona UI wages to Arizona employment (localization-of-service rules carried from `az-payroll`; current DES guidance on the Not yet confirmed line). Reciprocal coverage agreements allow one-state UI coverage for employees working in several states (confirm AZ participation -- Not yet confirmed). Federal FUTA credit against Arizona UI follows the standard federal pattern where the state is not a credit-reduction year (2026 status on the Not yet confirmed line).
 
 ## Worked examples
 
-An employer with one Arizona employee at the confirmed $8,000 wage base and a 2.0% experience rate (rate hypothetical — the actual rate is on the DES rate notice):
+An employer with one Arizona employee at the confirmed $8,000 wage base and a 2.0% experience rate (rate hypothetical -- the actual rate is on the DES rate notice):
 
 ```oa-check
 name: AZ UI on one employee at wage base
@@ -108,16 +108,16 @@ expected:
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| A.R.S. §23-622 — Wages (UI taxable wage base) | https://www.azleg.gov/ars/23/00622.htm | 2026-10-28 |
-| A.R.S. §23-730 — Variation and adjustment of contribution rates | https://www.azleg.gov/ars/23/00730.htm | 2026-10-28 |
-| A.R.S. §23-750 — Special provisions for nonprofits and governments | https://www.azleg.gov/ars/23/00750.htm | 2026-10-28 |
-| `az-payroll` skill (this pack) — coverage tests, A-4 mechanics (carried; re-verify for 2026) | (pack skill) | 2026-10-28 |
+| A.R.S. §23-622 -- Wages (UI taxable wage base) | https://www.azleg.gov/ars/23/00622.htm | 2026-10-28 |
+| A.R.S. §23-730 -- Variation and adjustment of contribution rates | https://www.azleg.gov/ars/23/00730.htm | 2026-10-28 |
+| A.R.S. §23-750 -- Special provisions for nonprofits and governments | https://www.azleg.gov/ars/23/00750.htm | 2026-10-28 |
+| `az-payroll` skill (this pack) -- coverage tests, A-4 mechanics (carried; re-verify for 2026) | (pack skill) | 2026-10-28 |
 
 Not yet confirmed: the current-year UI experience-rate range and the new-employer rate (the earlier draft's carried range was not tied to a primary source); UI surcharges and assessments; the current coverage-test text; quarterly report due dates and DES penalties/interest schedule; reciprocal-coverage-agreement participation; 2026 FUTA credit-reduction status; the Title 23 workers'-comp coverage citation; the DES rate-notice appeal window.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

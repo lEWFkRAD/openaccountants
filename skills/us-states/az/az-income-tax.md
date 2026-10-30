@@ -1,6 +1,6 @@
 ---
 name: az-income-tax
-description: Use this skill whenever asked about Arizona individual income tax for self-employed individuals or sole proprietors — filing Form 140, AZ estimated tax (Form 140ES), Arizona flat tax rate, Arizona standard deduction, or any query involving Arizona state income tax compliance. Trigger on phrases like "Arizona income tax", "AZ income tax", "Form 140", "Arizona estimated tax", "Arizona self-employed tax", "AZDOR income tax", "Arizona flat tax", or "ARS §43".
+description: Use this skill whenever asked about Arizona individual income tax for self-employed individuals or sole proprietors -- filing Form 140, AZ estimated tax (Form 140ES), Arizona flat tax rate, Arizona standard deduction, or any query involving Arizona state income tax compliance. Trigger on phrases like "Arizona income tax", "AZ income tax", "Form 140", "Arizona estimated tax", "Arizona self-employed tax", "AZDOR income tax", "Arizona flat tax", or "ARS §43".
 jurisdiction: US-AZ
 tier: 2
 last_updated: 2026-10-28
@@ -8,16 +8,16 @@ version: "0.3"
 validation_status: ai-drafted-q3
 ---
 
-# Arizona Individual Income Tax — Self-Employed / Sole Proprietor
+# Arizona Individual Income Tax -- Self-Employed / Sole Proprietor
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
 > **Scope.** This skill covers Arizona individual income tax for self-employed individuals and sole proprietors filing Form 140. It addresses tax computation, deductions, estimated payments, and form mapping.
-> **Quality tier.** Q3 — AI-drafted with citations; not independently verified by a licensed professional.
+> **Quality tier.** Q3 -- AI-drafted with citations; not independently verified by a licensed professional.
 
 ## Who this applies to
 
-Self-employed individuals and sole proprietors who are Arizona residents filing Form 140, plus individuals who need the Arizona estimated-payment rules. Part-year residents and nonresidents file Form 140NR — see `az-cross-border`.
+Self-employed individuals and sole proprietors who are Arizona residents filing Form 140, plus individuals who need the Arizona estimated-payment rules. Part-year residents and nonresidents file Form 140NR -- see `az-cross-border`.
 
 **At a glance**
 
@@ -28,11 +28,11 @@ Self-employed individuals and sole proprietors who are Arizona residents filing 
 | Tax authority | Arizona Department of Revenue (AZDOR) |
 | Filing portal | https://www.aztaxes.gov |
 | Legislation citation | Arizona Revised Statutes Title 43 (Taxation of Income) |
-| Primary form | Form 140 — Arizona Resident Personal Income Tax |
+| Primary form | Form 140 -- Arizona Resident Personal Income Tax |
 | Filing deadline | April 15 (follows federal deadline) |
 | Version | 0.3 |
 | Generated | 2026-10-28 |
-| Validation status | AI-drafted — Q3 |
+| Validation status | AI-drafted -- Q3 |
 
 ## Rates, bands and thresholds
 
@@ -91,7 +91,7 @@ Arizona does not use personal exemptions in the traditional sense. The standard 
 **Home office deduction**
 - Federal home office deduction (simplified or actual) flows through Schedule C and is reflected in federal AGI.
 
-### Tier 1 rules — deterministic
+### Tier 1 rules -- deterministic
 
 | # | Rule | Logic |
 |---|---|---|
@@ -102,14 +102,14 @@ Arizona does not use personal exemptions in the traditional sense. The standard 
 | T1-05 | Estimated tax threshold | Gross income > $75,000 (single) or $150,000 (MFJ) |
 | T1-06 | Standard deduction increase | Add 34% of qualifying charitable contributions |
 
-### Tier 2 rules — requires judgment
+### Tier 2 rules -- requires judgment
 
 | # | Rule | Why judgment needed |
 |---|---|---|
 | T2-01 | Standard deduction vs. itemized | Taxpayer must compare both methods |
 | T2-02 | IRC conformity date issues | Some federal provisions may not be adopted; requires checking current conformity |
 | T2-03 | Part-year resident allocation | Requires apportionment of income to AZ residency period |
-| T2-04 | Small Business Income Tax election | Taxpayer may elect to pay the flat rate separately on business income — requires evaluation of benefit (see the Not yet confirmed line) |
+| T2-04 | Small Business Income Tax election | Taxpayer may elect to pay the flat rate separately on business income -- requires evaluation of benefit (see the Not yet confirmed line) |
 | T2-05 | Credit for taxes paid to other states | Requires analysis of multistate income sourcing (Form 309) |
 | T2-06 | Charitable contribution substantiation | Standard deduction increase requires documentation of qualified contributions |
 
@@ -149,14 +149,14 @@ Arizona does not use personal exemptions in the traditional sense. The standard 
 
 ## Penalties and interest
 
-Interest on under- and overpayments tracks the federal short-term rate plus three percentage points, compounded annually (AZDOR interest-rate page, read 2026-10-28: "that rate of interest for both overpayments and underpayments for all taxpayers is the federal short-term rate, determined by the IRC, plus three percentage points"; 2026 quarterly table rows: first quarter 7%, second quarter 6%, third and fourth quarters 7%). Late-filing and underpayment penalty percentages are not tied out this run — see the Not yet confirmed line.
+Interest on under- and overpayments tracks the federal short-term rate plus three percentage points, compounded annually (AZDOR interest-rate page, read 2026-10-28: "that rate of interest for both overpayments and underpayments for all taxpayers is the federal short-term rate, determined by the IRC, plus three percentage points"; 2026 quarterly table rows: first quarter 7%, second quarter 6%, third and fourth quarters 7%). Late-filing and underpayment penalty percentages are not tied out this run -- see the Not yet confirmed line.
 
 ## Cross-border points
 
 - Multistate business activity requiring apportionment: refuse and escalate (R-01); see `az-cross-border` for the nonresident/part-year rules.
 - Part-year residents (Form 140PY/140NR) with complex sourcing: escalate (R-02).
-- Credit for income taxes paid to another state: Form 309 — requires multistate sourcing analysis (see the Not yet confirmed line).
-- Reciprocal-agreement treatment of wages earned across state lines: Arizona has no reciprocal agreement treatment tied out this run — see the Not yet confirmed line.
+- Credit for income taxes paid to another state: Form 309 -- requires multistate sourcing analysis (see the Not yet confirmed line).
+- Reciprocal-agreement treatment of wages earned across state lines: Arizona has no reciprocal agreement treatment tied out this run -- see the Not yet confirmed line.
 
 ## Worked examples
 
@@ -200,7 +200,7 @@ expected:
 - Filing status, and any mid-year residency change (Form 140 vs 140PY/140NR)?
 - Arizona additions or subtractions (municipal-bond interest from other states, Social Security, U.S. government interest)?
 - Qualifying charitable contributions for the standard-deduction increase (documentation per T2-06)?
-- Expected liability — does the estimated-payment threshold apply (T1-05)?
+- Expected liability -- does the estimated-payment threshold apply (T1-05)?
 - Considering the Small Business Income Tax election or Form 309 credit? Escalate (R-03/T2-05).
 
 ### Refusal catalogue
@@ -229,10 +229,10 @@ This skill must refuse and recommend professional review when:
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| AZDOR — Individual Income Tax Highlights | https://azdor.gov/forms/individual-income-tax-highlights | 2026-10-28 |
-| AZDOR — Individual Estimated Tax Payments | https://azdor.gov/individuals/individual-estimated-tax-payments | 2026-10-28 |
-| AZDOR — Individual Forms hub (Form 140) | https://azdor.gov/forms/individual | 2026-10-28 |
-| AZDOR — Interest Rates | https://azdor.gov/business/interest-rates | 2026-10-28 |
+| AZDOR -- Individual Income Tax Highlights | https://azdor.gov/forms/individual-income-tax-highlights | 2026-10-28 |
+| AZDOR -- Individual Estimated Tax Payments | https://azdor.gov/individuals/individual-estimated-tax-payments | 2026-10-28 |
+| AZDOR -- Individual Forms hub (Form 140) | https://azdor.gov/forms/individual | 2026-10-28 |
+| AZDOR -- Interest Rates | https://azdor.gov/business/interest-rates | 2026-10-28 |
 
 Not yet confirmed: Arizona itemized-deduction rules and the IRC conformity date; late-filing and underpayment penalty percentages; the Small Business Income Tax (SBI) election mechanics and Form 140ES-SBI details; the credit for taxes paid to other states (Form 309) mechanics; whether Arizona wages earned across state lines receive any reciprocal-agreement treatment; 2026 standard-deduction amounts (the highlights page states 2025 amounts); Form 140 line numbers for tax years after 2025.
 
