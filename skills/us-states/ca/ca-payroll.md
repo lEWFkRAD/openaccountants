@@ -551,34 +551,6 @@ When facts are ambiguous, apply the conservative default and disclose it.
 - Voluntary Plan applications, reserve account transfers and section 977(c) cases: refer to EDD or a payroll specialist.
 - Annual California income tax brackets and Franchise Tax Board penalties: confirm on ftb.ca.gov; this skill does not state them.
 
-### Sources
-
-| Source | URL | Read on |
-| --- | --- | --- |
-| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
-
-Not yet confirmed: figures in this skill lack archived line-citations.
-
-
-| Source | URL | Read on |
-| --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
-
-- [EDD: Contribution Rates, Withholding Schedules, and Meals and Lodging Values](https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding)
-- [EDD: California Employer's Guide 2026 (DE 44)](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
-- [EDD: California Withholding Schedules for 2026, Method B](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/26methb.pdf)
-- [EDD: Tax Rates, Wage Limits, and Value of Meals and Lodging (DE 3395)](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de3395.pdf)
-- [EDD: Federal Unemployment Tax Act](https://edd.ca.gov/en/payroll_taxes/federal-unemployment-tax-act)
-- [EDD: Information Sheet, Types of Payments (DE 231TP)](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de231tp.pdf)
-- [EDD: Information Sheet, Stock Options (DE 231SK)](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de231sk.pdf)
-- [EDD: Information Sheet, California System of Experience Rating (DE 231Z)](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de231z.pdf)
-- [EDD: Independent Contractor Reporting FAQ (DE 542 FAQ)](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de542faq.pdf)
-- [Labor Commissioner: Paydays, Pay Periods, and the Final Payment of Wages FAQ](https://www.dir.ca.gov/dlse/FAQ_Paydays.htm)
-- [Labor Commissioner: Waiting Time Penalty FAQ](https://www.dir.ca.gov/dlse/FAQ_WaitingTimePenalty.htm)
-- [Labor Commissioner: Minimum Wage FAQ](https://www.dir.ca.gov/dlse/faq_minimumwage.htm)
-- [Labor Commissioner: Vacation FAQ](https://www.dir.ca.gov/dlse/FAQ_Vacation.htm)
-- [Labor Commissioner: Tips and Gratuities FAQ](https://www.dir.ca.gov/dlse/FAQ_TipsAndGratuities.htm)
-
 ### 18. Provenance and Citations
 
 Rates, wage limits, schedules, due dates and penalties above are taken from the EDD and Labor Commissioner pages listed in Sources, read on 3 October 2026. The 2026 DE 44 is revision 52. The Franchise Tax Board site (ftb.ca.gov) and the statute site (leginfo.legislature.ca.gov) could not be read for this rewrite; nothing here relies on them, and any figure only they print is labelled "confirm on ftb.ca.gov" or removed.
@@ -643,8 +615,13 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+| Source | URL | Read on |
+| --- | --- | --- |
+| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+| EDD — CA Employer's Guide 2026 (DE 44) | https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf | 2026-10-28 |
+| EDD — Federal Unemployment Tax Act | https://edd.ca.gov/en/payroll_taxes/federal-unemployment-tax-act | 2026-10-28 |
 
+Not yet confirmed: all figures and rates in the body of this skill lack archived line-citations.
 ## Talk to a verified accountant
 
 Not yet confirmed against archived sources.
