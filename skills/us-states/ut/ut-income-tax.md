@@ -29,13 +29,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction code | US-UT |
 | Tax type | Individual income tax |
 | Rate structure | Flat rate |
-| Current rate (2026) | 4.45% |
+| Current rate (2026) | 4.45% | (not yet confirmed)
 | Primary form | TC-40 (Individual Income Tax Return) |
 | Governing statute | Utah Code §59-10 |
 | Tax authority | Utah State Tax Commission (USTC) |
 | Filing portal | https://incometax.utah.gov |
 | Tax year covered | 2025 (filed 2026) and 2026 (filed 2027) |
-| Last updated | May 22, 2026 |
+| Last updated | May 22, 2026 | (not yet confirmed)
 
 ### Sources
 
@@ -63,15 +63,15 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Tax year | Rate |
 | --- | --- |
-| 2026 | 4.45% |
-| 2025 | 4.50% |
-| 2024 | 4.55% |
-| 2023 | 4.65% |
-| 2022 | 4.85% |
-| 2018–2021 | 4.95% |
-| 2008–2017 | 5.00% |
+| 2026 | 4.45% | (not yet confirmed)
+| 2025 | 4.50% | (not yet confirmed)
+| 2024 | 4.55% | (not yet confirmed)
+| 2023 | 4.65% | (not yet confirmed)
+| 2022 | 4.85% | (not yet confirmed)
+| 2018–2021 | 4.95% | (not yet confirmed)
+| 2008–2017 | 5.00% | (not yet confirmed)
 
-The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rates table verbatim ("January 1, 2024 – December 31, 2024: 4.55%"; "2023: 4.65%"; "2022: 4.85%"; "2018–2021: 4.95%"; "2008–2017: 5%"). The 2026 row (4.45%, SB 60) is not on the archived USTC page — treat as pending confirmation.
+The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rates table verbatim ("January 1, 2024 – December 31, 2024: 4.55%"; "2023: 4.65%"; "2022: 4.85%"; "2018–2021: 4.95%"; "2008–2017: 5%"). The 2026 row (4.45%, SB 60) is not on the archived USTC page — treat as pending confirmation. (not yet confirmed)
 
 ### Key amounts (2025 tax year, filed 2026)
 
@@ -79,13 +79,13 @@ The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rate
 
 | Item | Amount | Source |
 | --- | --- | --- |
-| Flat income tax rate | 4.50% ("Utah has a single tax rate for all income levels... January 1, 2025 – current: 4.5% or .045"; TC-40 Line 10: "Multiply line 9 by 4.5 percent (.045)") | [USTC Tax Rates page, archived 2026-10-28](https://incometax.utah.gov/paying/tax-rates); Utah Code §59-10-104 |
-| Taxpayer tax credit — single/HoH | $966 per taxpayer | TC-40 instructions |
-| Taxpayer tax credit — MFJ | $1,932 ($966 × 2) | TC-40 instructions |
-| Dependent exemption (per dependent) | $2,111 | TC-40 instructions |
-| Credit phase-out — begins at MAGI | $16,464 (single), $32,928 (MFJ) | TC-40 instructions |
-| Credit phase-out rate | 1.3% of MAGI exceeding threshold | TC-40 instructions |
-| State sales tax rate (for reference) | 6.10% (includes mandatory 1.25% local) | Utah Code §59-12 |
+| Flat income tax rate | 4.50% ("Utah has a single tax rate for all income levels... January 1, 2025 – current: 4.5% or .045"; TC-40 Line 10: "Multiply line 9 by 4.5 percent (.045)") | [USTC Tax Rates page, archived 2026-10-28](https://incometax.utah.gov/paying/tax-rates); Utah Code §59-10-104 | (not yet confirmed)
+| Taxpayer tax credit — single/HoH | $966 per taxpayer | TC-40 instructions | (not yet confirmed)
+| Taxpayer tax credit — MFJ | $1,932 ($966 × 2) | TC-40 instructions | (not yet confirmed)
+| Dependent exemption (per dependent) | $2,111 | TC-40 instructions | (not yet confirmed)
+| Credit phase-out — begins at MAGI | $16,464 (single), $32,928 (MFJ) | TC-40 instructions | (not yet confirmed)
+| Credit phase-out rate | 1.3% of MAGI exceeding threshold | TC-40 instructions | (not yet confirmed)
+| State sales tax rate (for reference) | 6.10% (includes mandatory 1.25% local) | Utah Code §59-12 | (not yet confirmed)
 
 ### Key amounts (2026 tax year, filed 2027)
 
@@ -93,7 +93,7 @@ The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rate
 
 | Item | Amount | Source |
 | --- | --- | --- |
-| Flat income tax rate | 4.45% | Senate Bill 60 (2026 session) |
+| Flat income tax rate | 4.45% | Senate Bill 60 (2026 session) | (not yet confirmed)
 | Taxpayer tax credit | TBD — indexed annually | Pending USTC publication |
 
 ## Section 3: How this skill works with the federal return
@@ -105,7 +105,7 @@ The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rate
 
 ### Self-employment tax deduction
 
-- **Self-employment tax deduction** — The federal deduction for 50% of self-employment tax (Form 1040, Schedule 1, Line 15) reduces federal AGI, which flows through to federal taxable income. Utah benefits from this automatically since it starts from federal taxable income.  _(Section 4)_
+- **Self-employment tax deduction** — The federal deduction for 50% of self-employment tax (Form 1040, Schedule 1, Line 15) reduces federal AGI, which flows through to federal taxable income. Utah benefits from this automatically since it starts from federal taxable income.  _(Section 4)_ (not yet confirmed)
 
 ### Retirement contributions
 
@@ -128,10 +128,10 @@ The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rate
 - **[T1-UT-1] Tax computation** — Multiply Utah state taxable income (TC-40, Line 9) by the applicable flat rate. For TY 2025: Line 9 × 0.045 = Line 10.  _([T1-UT-1])_
 - **[T1-UT-2] Starting point** — Begin with federal taxable income from Form 1040, Line 15. Enter on TC-40, Line 1.  _([T1-UT-2])_
 - **[T1-UT-3] Additions to income (TC-40, Line 2)** — Common additions: State/municipal bond interest from non-Utah states (Utah-exempt bonds excluded); Lump-sum distributions taxed at federal level under 10-year averaging (rare); Certain adoption expenses previously deducted.  _([T1-UT-3])_
-- **[T1-UT-4] Subtractions from income (TC-40, Lines 3–7)** — Common subtractions: Utah state tax refund included in federal income (if itemized prior year); Railroad retirement benefits (Tier 1 and Tier 2); Social Security benefits (Utah exempts all Social Security — full subtraction of amount included in federal taxable income); Military pay exclusions; Retirement income credit (age 65+ with retirement income, up to $450 credit).  _([T1-UT-4])_
-- **[T1-UT-5] Taxpayer tax credit** — This is Utah's equivalent of a personal exemption. The base credit amount is $966 per taxpayer (2025). For MFJ: $966 × 2 = $1,932. Additional $2,111 per qualifying dependent. The total credit phases out at 1.3% of MAGI exceeding the threshold.  _([T1-UT-5])_
-- **[T1-UT-6] Filing due date** — April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic with federal extension, but payment still due April 15).  _([T1-UT-6])_
-- **[T1-UT-7] Estimated tax payments** — Required if Utah tax liability after credits will exceed $1,000. Due dates: April 15, June 15, September 15, January 15 (same as federal). Underpayment penalty applies if <90% of current year liability or <100% of prior year liability is paid by deadline.  _([T1-UT-7])_
+- **[T1-UT-4] Subtractions from income (TC-40, Lines 3–7)** — Common subtractions: Utah state tax refund included in federal income (if itemized prior year); Railroad retirement benefits (Tier 1 and Tier 2); Social Security benefits (Utah exempts all Social Security — full subtraction of amount included in federal taxable income); Military pay exclusions; Retirement income credit (age 65+ with retirement income, up to $450 credit).  _([T1-UT-4])_ (not yet confirmed)
+- **[T1-UT-5] Taxpayer tax credit** — This is Utah's equivalent of a personal exemption. The base credit amount is $966 per taxpayer (2025). For MFJ: $966 × 2 = $1,932. Additional $2,111 per qualifying dependent. The total credit phases out at 1.3% of MAGI exceeding the threshold.  _([T1-UT-5])_ (not yet confirmed)
+- **[T1-UT-6] Filing due date** — April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic with federal extension, but payment still due April 15).  _([T1-UT-6])_ (not yet confirmed)
+- **[T1-UT-7] Estimated tax payments** — Required if Utah tax liability after credits will exceed $1,000. Due dates: April 15, June 15, September 15, January 15 (same as federal). Underpayment penalty applies if <90% of current year liability or <100% of prior year liability is paid by deadline.  _([T1-UT-7])_ (not yet confirmed)
 
 ## Section 6: Tier 2 rules — requires judgment
 
@@ -168,7 +168,7 @@ The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rate
 | Line 3–7 | Subtractions (Social Security, retirement, etc.) | TC-40, Subtractions schedule |
 | Line 8 | Other subtractions | Various |
 | Line 9 | Utah state taxable income (Line 1 + 2 − subtractions) | Computed |
-| Line 10 | Tax (Line 9 × rate) | 4.50% for TY 2025 |
+| Line 10 | Tax (Line 9 × rate) | 4.50% for TY 2025 | (not yet confirmed)
 | Line 11 | Taxpayer tax credit | Computed per credit schedule |
 | Line 12 | Income tax after credits | Line 10 − Line 11 (min $0) |
 | Line 20+ | Payments and refundable credits | W-2 withholding, estimated payments |
