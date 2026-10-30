@@ -59,13 +59,13 @@ Every rule in this skill is tagged with a confidence tier:
 | 7 | Do you have locations, employees, or inventory in South Carolina? | Physical presence creates nexus independent of economic thresholds. |
 | 8 | Do you sell into multiple South Carolina local jurisdictions? | Local tax rates vary; determines compliance complexity. |
 
-- **Stop condition on Qs 1-4** — If the client cannot answer questions 1-4, STOP and gather this information before proceeding. (T1)
+- **Stop condition on Qs 1-4** -- If the client cannot answer questions 1-4, STOP and gather this information before proceeding. (T1)
 
 ## Step 1: Tax Rate Structure
 
 ### 1.1 State Rate
 
-- **State sales and use tax rate** — 6%  _(S.C. Code Section 12-36-910)_
+- **State sales and use tax rate** -- 6%  _(S.C. Code Section 12-36-910)_
 
 ### 1.2 Local Rates
 
@@ -77,10 +77,10 @@ Every rule in this skill is tagged with a confidence tier:
 | Local option (county) | 1% -- 3% | S.C. Code Section 4-10 (various articles) |
 | **Maximum combined** | **9%** |  |
 
-- **Capital Projects Sales Tax** — 1%: For specific capital improvement projects, approved by referendum. (T1)
-- **Transportation Penny Tax** — 1%: For transportation infrastructure. (T1)
-- **Local Option Tax** — 1%: General county use, with property tax rollback. (T1)
-- **Not all counties levy local taxes** — Not all counties levy local taxes. Many counties have one or two local levies; some have none. (T1)
+- **Capital Projects Sales Tax** -- 1%: For specific capital improvement projects, approved by referendum. (T1)
+- **Transportation Penny Tax** -- 1%: For transportation infrastructure. (T1)
+- **Local Option Tax** -- 1%: General county use, with property tax rollback. (T1)
+- **Not all counties levy local taxes** -- Not all counties levy local taxes. Many counties have one or two local levies; some have none. (T1)
 
 ### 1.3 Max Tax Cap -- Critical Feature [T1]
 
@@ -95,23 +95,23 @@ Every rule in this skill is tagged with a confidence tier:
 | Motorcycles | $500 | S.C. Code Section 12-36-2110(A) |
 | Recreational vehicles | $500 | S.C. Code Section 12-36-2110(A) |
 
-- **Cap applies regardless of price** — The maximum state sales tax on these items is $500, regardless of the purchase price. (T1)
-- **Cap breakeven price** — $500 / 6% = $8,333. So for items priced at $8,333 or less, the full 6% applies. For items over $8,333, the state tax is capped at $500. (T1)
-- **Local taxes not subject to cap** — Local taxes are NOT subject to the cap and apply to the full purchase price. (T1)
+- **Cap applies regardless of price** -- The maximum state sales tax on these items is $500, regardless of the purchase price. (T1)
+- **Cap breakeven price** -- $500 / 6% = $8,333. So for items priced at $8,333 or less, the full 6% applies. For items over $8,333, the state tax is capped at $500. (T1)
+- **Local taxes not subject to cap** -- Local taxes are NOT subject to the cap and apply to the full purchase price. (T1)
 
 A $50,000 vehicle in a county with 2% local tax: State tax = $500 (capped). Local tax = $50,000 x 2% = $1,000. Total tax = $1,500.
 
 ### 1.4 Sourcing Rules [T1]
 
-- **Destination-based sourcing** — South Carolina is a destination-based sourcing state. (T1)
-- **Shipped goods sourcing** — Shipped goods: Destination (ship-to address). (T1)
-- **Over-the-counter sourcing** — Over-the-counter: Seller's location. (T1)
+- **Destination-based sourcing** -- South Carolina is a destination-based sourcing state. (T1)
+- **Shipped goods sourcing** -- Shipped goods: Destination (ship-to address). (T1)
+- **Over-the-counter sourcing** -- Over-the-counter: Seller's location. (T1)
 
 ## Step 2: Transaction Classification Rules
 
 ### 2.1 General Rule
 
-- **General rule** — South Carolina sales tax applies to the retail sale of tangible personal property and certain services.  _(S.C. Code Section 12-36-910)_
+- **General rule** -- South Carolina sales tax applies to the retail sale of tangible personal property and certain services.  _(S.C. Code Section 12-36-910)_
 
 ### 2.2 Taxability Matrix
 
@@ -141,17 +141,17 @@ A $50,000 vehicle in a county with 2% local tax: State tax = $500 (capped). Loca
 
 ### 2.3 Grocery Food Exemption [T1]
 
-- **SNAP/EBT eligible food exemption** — The exemption applies to food eligible for purchase with SNAP/EBT. (T1)
-- **Prepared food taxable** — Prepared food remains fully taxable. (T1)
-- **Candy and soft drinks** — Candy and soft drinks are treated as food (exempt). (T1)
-- **Local taxes on food** — Local taxes may still apply to food in some jurisdictions. (T2)
-- **Grocery food exemption authority** — South Carolina fully exempts unprepared food (food for home consumption) from sales tax.  _(S.C. Code Section 12-36-2120(75))_
+- **SNAP/EBT eligible food exemption** -- The exemption applies to food eligible for purchase with SNAP/EBT. (T1)
+- **Prepared food taxable** -- Prepared food remains fully taxable. (T1)
+- **Candy and soft drinks** -- Candy and soft drinks are treated as food (exempt). (T1)
+- **Local taxes on food** -- Local taxes may still apply to food in some jurisdictions. (T2)
+- **Grocery food exemption authority** -- South Carolina fully exempts unprepared food (food for home consumption) from sales tax.  _(S.C. Code Section 12-36-2120(75))_
 
 ### 2.4 SaaS -- Not Taxable [T2]
 
-- **SaaS not TPP** — SaaS is not considered tangible personal property under SC law. (T2)
-- **Revenue Ruling 19-1** — Revenue Ruling 19-1 confirmed that remotely accessed software does not constitute a taxable sale. (T2)  _(Revenue Ruling 19-1)_
-- **Canned electronic vs SaaS distinction** — Canned software delivered electronically IS taxable, but SaaS (where the software resides on the vendor's server) is distinguished. (T2)
+- **SaaS not TPP** -- SaaS is not considered tangible personal property under SC law. (T2)
+- **Revenue Ruling 19-1** -- Revenue Ruling 19-1 confirmed that remotely accessed software does not constitute a taxable sale. (T2)  _(Revenue Ruling 19-1)_
+- **Canned electronic vs SaaS distinction** -- Canned software delivered electronically IS taxable, but SaaS (where the software resides on the vendor's server) is distinguished. (T2)
 
 ### 2.5 Services Taxability [T2]
 
@@ -174,8 +174,8 @@ A $50,000 vehicle in a county with 2% local tax: State tax = $500 (capped). Loca
 
 ### 3.1 Registration
 
-- **Registration requirement** — All sellers with nexus must register with SCDOR for a Retail License. Registration through MyDORWAY.  _(S.C. Code Section 12-36-510)_
-- **Registration fee** — $50 per retail location (T1)  _(S.C. Code Section 12-36-510)_
+- **Registration requirement** -- All sellers with nexus must register with SCDOR for a Retail License. Registration through MyDORWAY.  _(S.C. Code Section 12-36-510)_
+- **Registration fee** -- $50 per retail location (T1)  _(S.C. Code Section 12-36-510)_
 
 ### 3.2 Filing Frequency
 
@@ -185,18 +185,18 @@ A $50,000 vehicle in a county with 2% local tax: State tax = $500 (capped). Loca
 | --- | --- | --- |
 | All registrants | Monthly | 20th of the following month |
 
-- **No quarterly/annual filing** — South Carolina does NOT offer quarterly or annual filing for general sales tax. All filers file monthly. (T1)
+- **No quarterly/annual filing** -- South Carolina does NOT offer quarterly or annual filing for general sales tax. All filers file monthly. (T1)
 
 ### 3.3 Returns and Payment
 
-- **Form ST-3** — Form ST-3 (State Sales, Use and Accommodations Tax Return) is the primary return. (T1)
-- **Electronic filing required** — Electronic filing through MyDORWAY is required. (T1)
-- **Payment due date** — Payment due by the 20th of the following month. (T1)
-- **State and local reported together** — Both state and state-administered local taxes are reported on the same return. (T1)
+- **Form ST-3** -- Form ST-3 (State Sales, Use and Accommodations Tax Return) is the primary return. (T1)
+- **Electronic filing required** -- Electronic filing through MyDORWAY is required. (T1)
+- **Payment due date** -- Payment due by the 20th of the following month. (T1)
+- **State and local reported together** -- Both state and state-administered local taxes are reported on the same return. (T1)
 
 ### 3.4 Timely Filing Discount
 
-- **Timely payment discount** — 3% of the first $100 of tax due per return period (maximum $3 per period) (T1)  _(S.C. Code Section 12-36-2610)_
+- **Timely payment discount** -- 3% of the first $100 of tax due per return period (maximum $3 per period) (T1)  _(S.C. Code Section 12-36-2610)_
 
 ### 3.5 Penalties and Interest
 
@@ -225,32 +225,32 @@ A $50,000 vehicle in a county with 2% local tax: State tax = $500 (capped). Loca
 
 ### 5.2 Requirements [T1]
 
-- **Valid certificate requirements** — Valid certificates must include: purchaser information, SC retail license number (for resale), reason for exemption, description of goods, signature, date. (T1)
+- **Valid certificate requirements** -- Valid certificates must include: purchaser information, SC retail license number (for resale), reason for exemption, description of goods, signature, date. (T1)
 
 ### 5.3 Good Faith and Retention [T1]
 
-- **Good faith acceptance** — Good faith acceptance protects sellers. (T1)
-- **Certificate retention period** — 3 years from the date of the last transaction (T1)
+- **Good faith acceptance** -- Good faith acceptance protects sellers. (T1)
+- **Certificate retention period** -- 3 years from the date of the last transaction (T1)
 
 ### 6.1 When Use Tax Applies
 
-- **Use tax applicability** — SC use tax applies when sales tax was not collected on items used, stored, or consumed in South Carolina. (T1)
+- **Use tax applicability** -- SC use tax applies when sales tax was not collected on items used, stored, or consumed in South Carolina. (T1)
 
 ### 6.2 Use Tax Rate
 
-- **Use tax rate** — 6% state + applicable local (T1)
-- **Cap applies to use tax** — The $500 cap applies to qualifying items for use tax as well. (T1)
+- **Use tax rate** -- 6% state + applicable local (T1)
+- **Cap applies to use tax** -- The $500 cap applies to qualifying items for use tax as well. (T1)
 
 ### 6.3 Use Tax Reporting
 
-- **Business use tax reporting** — Businesses: Report on Form ST-3. (T1)
-- **Individual use tax reporting** — Individuals: Report on SC income tax return (Form SC1040), Line 19. (T1)
+- **Business use tax reporting** -- Businesses: Report on Form ST-3. (T1)
+- **Individual use tax reporting** -- Individuals: Report on SC income tax return (Form SC1040), Line 19. (T1)
 
 ## Step 5: Key Thresholds
 
 ### 4.1 Physical Nexus
 
-- **Physical nexus** — Standard physical nexus principles apply. (T1)
+- **Physical nexus** -- Standard physical nexus principles apply. (T1)
 
 ### 4.2 Economic Nexus [T1]
 
@@ -262,12 +262,12 @@ A $50,000 vehicle in a county with 2% local tax: State tax = $500 (capped). Loca
 | Transactions | N/A (revenue only) |  |
 | Test | Revenue only |  |
 
-- **Economic nexus effective date** — November 1, 2018 (T1)  _(S.C. Code Section 12-36-71)_
+- **Economic nexus effective date** -- November 1, 2018 (T1)  _(S.C. Code Section 12-36-71)_
 
 ### 4.3 Marketplace Facilitator Rules [T1]
 
-- **Marketplace facilitator collection duty** — Effective April 26, 2019: Marketplace facilitators meeting the nexus threshold must collect and remit. (T1)  _(S.C. Code Section 12-36-71(H))_ (not yet confirmed)
-- **Marketplace sellers relieved** — Marketplace sellers relieved for facilitated sales. (T1)  _(S.C. Code Section 12-36-71(H))_
+- **Marketplace facilitator collection duty** -- Effective April 26, 2019: Marketplace facilitators meeting the nexus threshold must collect and remit. (T1)  _(S.C. Code Section 12-36-71(H))_ (not yet confirmed)
+- **Marketplace sellers relieved** -- Marketplace sellers relieved for facilitated sales. (T1)  _(S.C. Code Section 12-36-71(H))_
 
 ## Step 6: Filing Deadlines and Penalties
 
@@ -275,16 +275,16 @@ Refer to Step 3 for filing frequencies and due dates.
 
 ## PROHIBITIONS
 
-- **1** — NEVER apply full 6% state tax to motor vehicles, boats, or aircraft over $8,333 (the $500 cap applies). (T1)
-- **2** — NEVER advise that grocery food is taxable in SC (it is exempt). (T1)
-- **3** — NEVER advise that SaaS is taxable in SC (it is not). (T1)
-- **4** — NEVER tell a seller they can file quarterly in SC -- all filers file monthly. (T1)
-- **5** — NEVER apply the $500 cap to local taxes (only the state tax is capped). (T1)
-- **6** — NEVER use a transaction-count threshold for SC economic nexus (revenue only, $100K). (T1)
-- **7** — NEVER ignore local "penny taxes" -- they can add up to 3% on top of the 6% state rate. (T1)
-- **8** — NEVER advise that repair labor is exempt in SC (the total charge for repair, including labor, is taxable). (T1)
-- **9** — NEVER exempt casual sales of motor vehicles (they are always subject to tax). (T1)
-- **10** — NEVER forget the $50 per-location retail license fee when advising on registration. (T1)
+- **1** -- NEVER apply full 6% state tax to motor vehicles, boats, or aircraft over $8,333 (the $500 cap applies). (T1)
+- **2** -- NEVER advise that grocery food is taxable in SC (it is exempt). (T1)
+- **3** -- NEVER advise that SaaS is taxable in SC (it is not). (T1)
+- **4** -- NEVER tell a seller they can file quarterly in SC -- all filers file monthly. (T1)
+- **5** -- NEVER apply the $500 cap to local taxes (only the state tax is capped). (T1)
+- **6** -- NEVER use a transaction-count threshold for SC economic nexus (revenue only, $100K). (T1)
+- **7** -- NEVER ignore local "penny taxes" -- they can add up to 3% on top of the 6% state rate. (T1)
+- **8** -- NEVER advise that repair labor is exempt in SC (the total charge for repair, including labor, is taxable). (T1)
+- **9** -- NEVER exempt casual sales of motor vehicles (they are always subject to tax). (T1)
+- **10** -- NEVER forget the $50 per-location retail license fee when advising on registration. (T1)
 
 ## Edge Case Registry
 
@@ -300,48 +300,48 @@ Refer to Step 3 for filing frequencies and due dates.
 | $100,000 | $6,000 | $500 | $5,500 |
 | $500,000 | $30,000 | $500 | $29,500 |
 
-- **Local taxes not capped on full price** — Local taxes still apply to the full purchase price. (T1)
+- **Local taxes not capped on full price** -- Local taxes still apply to the full purchase price. (T1)
 
 ### 7.2 Accommodations Tax [T1]
 
-- **State accommodations tax stated (7%)** — State: 7% (2% more than the general 5% sales tax base -- effectively 7% state rate on lodging). (T1)
-- **Accommodations tax total state rate** — Actually, accommodations are taxed at the 6% state sales tax PLUS a 2% state accommodations tax = 8% total state. (T2)
-- **Local accommodations taxes vary** — Local accommodations taxes also apply (vary by county). (T2)
-- **Marketplace facilitators collect on short-term rentals** — Marketplace facilitators collect on short-term rental platforms. (T1)
+- **State accommodations tax stated (7%)** -- State: 7% (2% more than the general 5% sales tax base -- effectively 7% state rate on lodging). (T1)
+- **Accommodations tax total state rate** -- Actually, accommodations are taxed at the 6% state sales tax PLUS a 2% state accommodations tax = 8% total state. (T2)
+- **Local accommodations taxes vary** -- Local accommodations taxes also apply (vary by county). (T2)
+- **Marketplace facilitators collect on short-term rentals** -- Marketplace facilitators collect on short-term rental platforms. (T1)
 
 ### 7.3 Manufacturing Exemptions [T2]
 
-- **Machines used in manufacturing** — Machines used in manufacturing, processing, fabrication. (T2)
-- **Raw materials incorporated** — Raw materials incorporated into finished products. (T1)
-- **Electricity used in manufacturing** — Electricity used in manufacturing (reduced rate). (T2)
-- **Pollution control equipment** — Pollution control equipment. (T2)
-- **Manufacturing exemption authority** — South Carolina provides manufacturing exemptions.  _(S.C. Code Section 12-36-2120(17))_
+- **Machines used in manufacturing** -- Machines used in manufacturing, processing, fabrication. (T2)
+- **Raw materials incorporated** -- Raw materials incorporated into finished products. (T1)
+- **Electricity used in manufacturing** -- Electricity used in manufacturing (reduced rate). (T2)
+- **Pollution control equipment** -- Pollution control equipment. (T2)
+- **Manufacturing exemption authority** -- South Carolina provides manufacturing exemptions.  _(S.C. Code Section 12-36-2120(17))_
 
 ### 7.4 Casual/Occasional Sales [T1]
 
-- **Casual sales exemption general** — South Carolina exempts casual or occasional sales by persons not regularly engaged in business. (T1)
-- **Vehicles excluded from casual sale exemption** — The exemption does NOT apply to motor vehicles, boats, aircraft, or manufactured homes (always subject to tax, even between private parties). (T1)
-- **Private party vehicle sale cap** — Private party vehicle sales: $500 max tax cap still applies. (T1)
+- **Casual sales exemption general** -- South Carolina exempts casual or occasional sales by persons not regularly engaged in business. (T1)
+- **Vehicles excluded from casual sale exemption** -- The exemption does NOT apply to motor vehicles, boats, aircraft, or manufactured homes (always subject to tax, even between private parties). (T1)
+- **Private party vehicle sale cap** -- Private party vehicle sales: $500 max tax cap still applies. (T1)
 
 ### 7.5 Construction Contractors [T2]
 
-- **Contractors pay tax on materials** — Contractors pay tax on materials at purchase. (T1)
-- **No sales tax collection on real property improvements** — Contractors do NOT collect sales tax on real property improvements. (T1)
-- **Prefabricated components** — Prefabricated components may have different treatment. (T2)
+- **Contractors pay tax on materials** -- Contractors pay tax on materials at purchase. (T1)
+- **No sales tax collection on real property improvements** -- Contractors do NOT collect sales tax on real property improvements. (T1)
+- **Prefabricated components** -- Prefabricated components may have different treatment. (T2)
 
 ### 7.6 Repair Services -- Total Charge [T1]
 
-- **Both labor and parts taxable** — Both labor and parts are taxable. (T1)
-- **Tax applies to total invoice** — The tax applies to the total invoice amount. (T1)
-- **Important for repair businesses** — This is important for auto repair shops, appliance repair, and similar businesses. (T1)
+- **Both labor and parts taxable** -- Both labor and parts are taxable. (T1)
+- **Tax applies to total invoice** -- The tax applies to the total invoice amount. (T1)
+- **Important for repair businesses** -- This is important for auto repair shops, appliance repair, and similar businesses. (T1)
 
 ### 7.7 Sales Tax Holiday [T1]
 
-- **Clothing exemption in holiday** — Clothing (any price): exempt from state and local tax. (T1)
-- **School supplies exemption in holiday** — School supplies: exempt. (T1)
-- **Computers exemption threshold** — $1,000 or less: exempt (T1)
-- **Bed and bath items exemption** — Bed and bath items: exempt. (T1)
-- **Holiday broader than most states** — SC's holiday is broader than most states (no price cap on clothing). (T1)
+- **Clothing exemption in holiday** -- Clothing (any price): exempt from state and local tax. (T1)
+- **School supplies exemption in holiday** -- School supplies: exempt. (T1)
+- **Computers exemption threshold** -- $1,000 or less: exempt (T1)
+- **Bed and bath items exemption** -- Bed and bath items: exempt. (T1)
+- **Holiday broader than most states** -- SC's holiday is broader than most states (no price cap on clothing). (T1)
 
 ### Test Suite
 
@@ -419,7 +419,7 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -470,7 +470,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
