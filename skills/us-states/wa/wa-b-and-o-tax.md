@@ -280,7 +280,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 

@@ -289,7 +289,7 @@ Interest also runs on unpaid tax, at a rate that changes every year ([DOR late f
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -336,7 +336,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
