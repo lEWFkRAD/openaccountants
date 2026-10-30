@@ -48,12 +48,11 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 **Sources table**
 
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | Vermont Department of Taxes — Rate Schedules | https://tax.vermont.gov/individuals/personal-income-tax/rates |
-| 2 | 32 V.S.A. §5822 — Tax rates | https://legislature.vermont.gov/statutes/section/32/151/05822 |
-| 3 | 2025 Form IN-111 Instructions | https://tax.vermont.gov/all-forms |
-| 4 | Tax Foundation — Vermont profile | https://taxfoundation.org/location/vermont/ |
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | Vermont Department of Taxes — Rate Schedules | https://tax.vermont.gov/individuals/personal-income-tax/rates | 2026-10-28 |
+| 2 | 32 V.S.A. §5822 — Tax rates | https://legislature.vermont.gov/statutes/section/32/151/05822 | 2026-10-28 |
+| 3 | 2025 Form IN-111 Instructions | https://tax.vermont.gov/all-forms | 2026-10-28 |
 
 ## Section 2: Quick reference — rates and thresholds
 
@@ -294,7 +293,13 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+| Source | Read on |
+|---|---|
+| 32 V.S.A. §5822 — Tax rates | [2026-10-28](https://legislature.vermont.gov/statutes/section/32/151/05822) |
+| Vermont Dept of Taxes — Rate Schedules | [2026-10-28](https://tax.vermont.gov/individuals/personal-income-tax/rates) |
+| Vermont Dept of Taxes — All forms | [2026-10-28](https://tax.vermont.gov/all-forms) |
+
+Not yet confirmed: Tax Foundation Vermont profile figures were not confirmed against archived sources (archived 2026-10-29).
 
 ## Talk to a verified accountant
 
