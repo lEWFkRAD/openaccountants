@@ -19,7 +19,7 @@ Scope. This skill covers the West Virginia individual income tax return (Form IT
 
 ## Quality tier
 
-Quality tier. Q3 — AI-drafted, not independently verified. All rates and rules are sourced from the West Virginia State Tax Division publications and third-party research current as of May 2026. A licensed CPA or EA should verify before relying on this skill for filing.
+Quality tier. Q3 -- AI-drafted, not independently verified. All rates and rules are sourced from the West Virginia State Tax Division publications and third-party research current as of May 2026. A licensed CPA or EA should verify before relying on this skill for filing.
 
 ## Section 1: Metadata
 
@@ -46,15 +46,15 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| WV State Tax Division — 2026 Income Tax Rate Cut | https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx | 2026-10-28 |
-| W.Va. Code §11-21 — Personal Income Tax | http://www.wvlegislature.gov/wvcode/code.cfm?chap=11&art=21 | 2026-10-28 |
-| SB 392 (2026 session) — 5% across-the-board rate reduction | https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=392&year=2026&sessiontype=RS&btype=bill | 2026-10-28 |
+| WV State Tax Division -- 2026 Income Tax Rate Cut | https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx | 2026-10-28 |
+| W.Va. Code §11-21 -- Personal Income Tax | http://www.wvlegislature.gov/wvcode/code.cfm?chap=11&art=21 | 2026-10-28 |
+| SB 392 (2026 session) -- 5% across-the-board rate reduction | https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=392&year=2026&sessiontype=RS&btype=bill | 2026-10-28 |
 
 Not yet confirmed: 2025 Form IT-140 Instructions (https://tax.wv.gov/Individuals/Pages/PersonalIncomeTax.aspx) is not archived.
 
-## Section 2: Quick reference — rates and thresholds
+## Section 2: Quick reference -- rates and thresholds
 
-### Tax brackets — 2026 (SB 392 — 5% rate cut, retroactive to January 1, 2026)
+### Tax brackets -- 2026 (SB 392 -- 5% rate cut, retroactive to January 1, 2026)
 
 > Verified verbatim against the archived WV Tax Division page (archived 2026-10-28): "During the 2026 Legislative Session, Governor Morrisey promoted SB 392 to deliver an across the board income tax rate cut. It was passed and signed into law on March 31, 2026. Effective June 12, 2026, W. Va. Code § 11-21-4j will be codified to reflect a 5% income tax cut for all West Virginians retroactive to January 1, 2026." The bracket base amounts below match that page's updated tables exactly.
 
@@ -62,7 +62,7 @@ Not yet confirmed: 2025 Form IT-140 Instructions (https://tax.wv.gov/Individuals
 
 | WV taxable income | Rate | Tax on bracket base |
 | --- | --- | --- |
-| $0 – $10,000 | 2.11% | — |
+| $0 – $10,000 | 2.11% | -- |
 | $10,001 – $25,000 | 2.81% | $211.00 + 2.81% of excess over $10,000 |
 | $25,001 – $40,000 | 3.16% | $632.50 + 3.16% of excess over $25,000 |
 | $40,001 – $60,000 | 4.22% | $1,106.50 + 4.22% of excess over $40,000 |
@@ -72,13 +72,13 @@ Not yet confirmed: 2025 Form IT-140 Instructions (https://tax.wv.gov/Individuals
 
 | WV taxable income | Rate | Tax on bracket base |
 | --- | --- | --- |
-| $0 – $5,000 | 2.11% | — |
+| $0 – $5,000 | 2.11% | -- |
 | $5,001 – $12,500 | 2.81% | $105.50 + 2.81% of excess over $5,000 |
 | $12,501 – $20,000 | 3.16% | $316.25 + 3.16% of excess over $12,500 |
 | $20,001 – $30,000 | 4.22% | $553.25 + 4.22% of excess over $20,000 |
 | $30,001 and above | 4.58% | $975.25 + 4.58% of excess over $30,000 |
 
-### Tax brackets — 2025 (pre-SB 392)
+### Tax brackets -- 2025 (pre-SB 392)
 
 **2025 brackets**
 
@@ -96,9 +96,9 @@ Not yet confirmed: 2025 Form IT-140 Instructions (https://tax.wv.gov/Individuals
 
 | Tax year | Top rate | Legislation |
 | --- | --- | --- |
-| 2026 | 4.58% | SB 392 (2026 session) — 5% across-the-board cut |
+| 2026 | 4.58% | SB 392 (2026 session) -- 5% across-the-board cut |
 | 2025 | 4.82% | HB 2526 (2024) | (not yet confirmed)
-| 2024 | 5.12% | HB 2526 (2023) — 21.25% reduction from 6.5% | (not yet confirmed)
+| 2024 | 5.12% | HB 2526 (2023) -- 21.25% reduction from 6.5% | (not yet confirmed)
 | 2023 | 6.50% | Prior law | (not yet confirmed)
 
 Note: West Virginia enacted legislation in 2023 (HB 2526) with revenue triggers that could eventually eliminate the personal income tax. The 2026 SB 392 is an additional legislated cut on top of the trigger-based reductions.
@@ -117,7 +117,7 @@ Note: West Virginia enacted legislation in 2023 (HB 2526) with revenue triggers 
 
 ## Section 3: How this skill works with the federal return
 
-West Virginia starts from federal adjusted gross income (AGI) — Form 1040, Line 11.
+West Virginia starts from federal adjusted gross income (AGI) -- Form 1040, Line 11.
 
 Flow:
 1. Federal Form 1040 is completed (including Schedule C, SE).
@@ -135,91 +135,91 @@ Key structural point: Because WV starts from federal AGI, the federal standard d
 
 ### Self-employment tax deduction
 
-- **Self-employment tax deduction** — The federal deduction for 50% of self-employment tax reduces federal AGI → flows through to West Virginia automatically. (not yet confirmed)
+- **Self-employment tax deduction** -- The federal deduction for 50% of self-employment tax reduces federal AGI → flows through to West Virginia automatically. (not yet confirmed)
 
 ### Retirement contributions
 
-- **Retirement contributions** — SEP-IRA, SIMPLE IRA, solo 401(k) contributions reduce federal AGI → flow through automatically.
+- **Retirement contributions** -- SEP-IRA, SIMPLE IRA, solo 401(k) contributions reduce federal AGI → flow through automatically.
 
 ### Health insurance deduction
 
-- **Health insurance deduction** — Self-employed health insurance deduction reduces federal AGI → flows through automatically.
+- **Health insurance deduction** -- Self-employed health insurance deduction reduces federal AGI → flows through automatically.
 
 ### QBI deduction (§199A)
 
-- **QBI deduction (§199A)** — West Virginia does NOT conform to the QBI deduction. Since WV starts from AGI (before QBI), the §199A deduction does not reduce WV taxable income. WV taxable income will be higher than federal taxable income by the standard deduction + QBI amounts.
+- **QBI deduction (§199A)** -- West Virginia does NOT conform to the QBI deduction. Since WV starts from AGI (before QBI), the §199A deduction does not reduce WV taxable income. WV taxable income will be higher than federal taxable income by the standard deduction + QBI amounts.
 
 ### Home office deduction
 
-- **Home office deduction** — Reduces Schedule C net profit → reduces federal AGI → flows through.
+- **Home office deduction** -- Reduces Schedule C net profit → reduces federal AGI → flows through.
 
 ### No standard deduction
 
-- **No standard deduction** — West Virginia does not offer a state-level standard deduction. The tax is computed on the entire West Virginia taxable income (federal AGI ± modifications). Low-income relief is provided through the family tax credit and low-income exclusion.
+- **No standard deduction** -- West Virginia does not offer a state-level standard deduction. The tax is computed on the entire West Virginia taxable income (federal AGI ± modifications). Low-income relief is provided through the family tax credit and low-income exclusion.
 
 ### Estimated tax payments
 
-- **Estimated tax payments** — Required if expected WV tax liability after withholding will exceed $600. Due dates: April 15, June 15, September 15, January 15. Form IT-140ES (voucher). (not yet confirmed)
+- **Estimated tax payments** -- Required if expected WV tax liability after withholding will exceed $600. Due dates: April 15, June 15, September 15, January 15. Form IT-140ES (voucher). (not yet confirmed)
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-1] Tax computation** — Apply the graduated rate schedule to West Virginia taxable income. For TY 2026, use the SB 392 rates (2.11% – 4.58%). For taxable income ≤$100,000, use the tax table. For >$100,000, use Rate Schedule I (or Rate Schedule II for MFS).
+- **[T1-WV-1] Tax computation** -- Apply the graduated rate schedule to West Virginia taxable income. For TY 2026, use the SB 392 rates (2.11% – 4.58%). For taxable income ≤$100,000, use the tax table. For >$100,000, use Rate Schedule I (or Rate Schedule II for MFS).
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-2] Starting point** — Begin with federal adjusted gross income from Form 1040, Line 11. Enter on Form IT-140, Line 1.
+- **[T1-WV-2] Starting point** -- Begin with federal adjusted gross income from Form 1040, Line 11. Enter on Form IT-140, Line 1.
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-3] West Virginia additions (Schedule M)** — Common additions for self-employed: - Interest/dividend income from other states' obligations (exempt federally but taxable for WV) - Lump sum distributions not included in federal AGI - Any income exempt from federal tax but taxable under WV law
+- **[T1-WV-3] West Virginia additions (Schedule M)** -- Common additions for self-employed: - Interest/dividend income from other states' obligations (exempt federally but taxable for WV) - Lump sum distributions not included in federal AGI - Any income exempt from federal tax but taxable under WV law
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-4] West Virginia subtractions (Schedule M)** — Common subtractions: - Interest from US government obligations (Treasury bonds, savings bonds) - Social Security benefits included in federal AGI (WV exempts) - Railroad retirement income - West Virginia state/local tax refund (if included in federal AGI) - Military pay (active duty) - WV public employee retirement benefits (partial exclusion — up to $2,000)
+- **[T1-WV-4] West Virginia subtractions (Schedule M)** -- Common subtractions: - Interest from US government obligations (Treasury bonds, savings bonds) - Social Security benefits included in federal AGI (WV exempts) - Railroad retirement income - West Virginia state/local tax refund (if included in federal AGI) - Military pay (active duty) - WV public employee retirement benefits (partial exclusion -- up to $2,000)
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-5] Social Security exemption** — West Virginia fully exempts Social Security benefits from state income tax. If Social Security was included in federal AGI, subtract the entire amount on Schedule M.
+- **[T1-WV-5] Social Security exemption** -- West Virginia fully exempts Social Security benefits from state income tax. If Social Security was included in federal AGI, subtract the entire amount on Schedule M.
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-6] Filing due date** — April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension obtained; attach copy of federal extension with WV return). (not yet confirmed)
+- **[T1-WV-6] Filing due date** -- April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension obtained; attach copy of federal extension with WV return). (not yet confirmed)
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-7] Estimated tax payments** — Required if expected tax after withholding exceeds $600. Quarterly due dates: April 15, June 15, September 15, January 15. Form IT-140ES. Safe harbor: pay 100% of prior year liability or 90% of current year. (not yet confirmed)
+- **[T1-WV-7] Estimated tax payments** -- Required if expected tax after withholding exceeds $600. Quarterly due dates: April 15, June 15, September 15, January 15. Form IT-140ES. Safe harbor: pay 100% of prior year liability or 90% of current year. (not yet confirmed)
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-8] Family tax credit** — A nonrefundable credit of $40 per exemption is available for low-income taxpayers. The credit phases out at higher income levels. Available only if WV taxable income is below the threshold in the form instructions.
+- **[T1-WV-8] Family tax credit** -- A nonrefundable credit of $40 per exemption is available for low-income taxpayers. The credit phases out at higher income levels. Available only if WV taxable income is below the threshold in the form instructions.
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-9] Senior citizen tax credit** — Taxpayers 65+ with income below $50,000 (single) or $100,000 (MFJ) may claim a credit. Amount per the published schedule. (not yet confirmed)
+- **[T1-WV-9] Senior citizen tax credit** -- Taxpayers 65+ with income below $50,000 (single) or $100,000 (MFJ) may claim a credit. Amount per the published schedule. (not yet confirmed)
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
-- **[T2-WV-1] Residency determination** — West Virginia defines a resident as a person domiciled in WV or maintaining a permanent place of abode in WV for more than 30 days AND being present in WV for 183+ days. Freelancers working remotely who split time between states must carefully track days.
+- **[T2-WV-1] Residency determination** -- West Virginia defines a resident as a person domiciled in WV or maintaining a permanent place of abode in WV for more than 30 days AND being present in WV for 183+ days. Freelancers working remotely who split time between states must carefully track days.
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
-- **[T2-WV-2] Revenue trigger elimination** — West Virginia has enacted legislation (2023 HB 2526) establishing revenue triggers that could progressively reduce and ultimately eliminate the state income tax. The 2026 rates reflect an additional legislative cut (SB 392) on top of the trigger framework. Reviewer should confirm the applicable rates for the filing year against the Tax Division's published tables.
+- **[T2-WV-2] Revenue trigger elimination** -- West Virginia has enacted legislation (2023 HB 2526) establishing revenue triggers that could progressively reduce and ultimately eliminate the state income tax. The 2026 rates reflect an additional legislative cut (SB 392) on top of the trigger framework. Reviewer should confirm the applicable rates for the filing year against the Tax Division's published tables.
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
-- **[T2-WV-3] Multi-state credit** — West Virginia allows a credit for income taxes paid to other states on income also taxed by WV. Cannot exceed WV tax on the income sourced to the other state. Requires Schedule E (Credit for Tax Paid to Other States).
+- **[T2-WV-3] Multi-state credit** -- West Virginia allows a credit for income taxes paid to other states on income also taxed by WV. Cannot exceed WV tax on the income sourced to the other state. Requires Schedule E (Credit for Tax Paid to Other States).
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
-- **[T2-WV-4] Business vs. hobby** — West Virginia follows the federal §183 determination. If Schedule C activity is reclassified as hobby, WV follows.
+- **[T2-WV-4] Business vs. hobby** -- West Virginia follows the federal §183 determination. If Schedule C activity is reclassified as hobby, WV follows.
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
-- **[T2-WV-5] No standard deduction — impact on effective rate** — Because WV taxes the full AGI (after modifications) without a standard deduction, the effective tax rate on low-income self-employed can be relatively high compared to states with generous standard deductions. Reviewer should assess whether estimated payments are adequate.
+- **[T2-WV-5] No standard deduction -- impact on effective rate** -- Because WV taxes the full AGI (after modifications) without a standard deduction, the effective tax rate on low-income self-employed can be relatively high compared to states with generous standard deductions. Reviewer should assess whether estimated payments are adequate.
 
 ## Section 7: Supplier pattern library
 
@@ -230,7 +230,7 @@ Key structural point: Because WV starts from federal AGI, the federal standard d
 | Schedule C net profit | Included via federal AGI | No adjustment |
 | Self-employment tax deduction | Included via federal AGI reduction | No adjustment |
 | SEP/SIMPLE/solo 401(k) | Included via federal AGI reduction | No adjustment |
-| QBI deduction (§199A) | NOT included — WV starts from AGI | WV taxable income higher |
+| QBI deduction (§199A) | NOT included -- WV starts from AGI | WV taxable income higher |
 | Self-employed health insurance | Included via federal AGI reduction | No adjustment |
 | Home office deduction | Included via Schedule C → AGI reduction | No adjustment |
 | Social Security benefits | Subtract from WV income | Full exemption |
@@ -281,7 +281,7 @@ This skill and its outputs are provided for informational and computational purp
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -327,8 +327,8 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| WV State Tax Division — 2026 Income Tax Rate Cut | https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx | 2026-10-28 |
-| W.Va. Code §11-21 — Personal Income Tax | http://www.wvlegislature.gov/wvcode/code.cfm?chap=11&art=21 | 2026-10-28 |
+| WV State Tax Division -- 2026 Income Tax Rate Cut | https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx | 2026-10-28 |
+| W.Va. Code §11-21 -- Personal Income Tax | http://www.wvlegislature.gov/wvcode/code.cfm?chap=11&art=21 | 2026-10-28 |
 | SB 392 (2026 session) | https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=392&year=2026&sessiontype=RS&btype=bill | 2026-10-28 |
 
 ## Talk to a verified accountant
