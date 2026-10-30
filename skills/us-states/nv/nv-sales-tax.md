@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-Sellers with Nevada sales — state and local sales/use tax.
+Sellers with Nevada sales -- state and local sales/use tax.
 
 ## Rates, bands and thresholds
 
@@ -31,7 +31,7 @@ Sellers with Nevada sales — state and local sales/use tax.
 | Portal | https://tax.nv.gov |
 | SST member | Yes -- Full Member |
 | No state income tax | Correct |
-| Filing/payment due date | 20th of the month following the reporting period — per the archived Nevada Tax homepage notice (archived 2026-10-28): "Important notice: Sales and Use Tax returns are now due on the 20th of the month." |
+| Filing/payment due date | 20th of the month following the reporting period -- per the archived Nevada Tax homepage notice (archived 2026-10-28): "Important notice: Sales and Use Tax returns are now due on the 20th of the month." |
 | Skill version | 2.0 |
 
 ## The taxable base
@@ -65,7 +65,7 @@ Late filing/payment penalties and interest apply; current rates are not yet conf
 
 ## Worked examples
 
-No worked examples yet — rate figures pending source confirmation.
+No worked examples yet -- rate figures pending source confirmation.
 
 ## Ask the client first
 
@@ -76,13 +76,13 @@ No worked examples yet — rate figures pending source confirmation.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| Nevada Department of Taxation — homepage notice | https://tax.nv.gov/ | 2026-10-28 |
+| Nevada Department of Taxation -- homepage notice | https://tax.nv.gov/ | 2026-10-28 |
 
 Not yet confirmed: state rate 6.85%; local range; max combined ~8.375%; economic nexus $100,000/200 transactions; penalty/interest rates.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
@@ -91,5 +91,5 @@ their name behind the tax answers AI gives people.
 
 ### Prohibitions
 
-- **Prohibition on SaaS taxation** — NEVER treat SaaS as taxable in Nevada.
-- **Prohibition on computing numbers** — NEVER compute any number.
+- **Prohibition on SaaS taxation** -- NEVER treat SaaS as taxable in Nevada.
+- **Prohibition on computing numbers** -- NEVER compute any number.

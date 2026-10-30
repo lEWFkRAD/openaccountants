@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-Sellers with Nevada sales — state and local sales/use tax.
+Sellers with Nevada sales -- state and local sales/use tax.
 
 ## Rates, bands and thresholds
 
@@ -63,7 +63,7 @@ Late filing/payment penalties and interest apply; current rates are not yet conf
 
 ## Worked examples
 
-No worked examples yet — rate figures pending source confirmation.
+No worked examples yet -- rate figures pending source confirmation.
 
 ## Ask the client first
 
@@ -74,13 +74,13 @@ No worked examples yet — rate figures pending source confirmation.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| Nevada Department of Taxation — homepage notice | https://tax.nv.gov/ | 2026-10-28 |
+| Nevada Department of Taxation -- homepage notice | https://tax.nv.gov/ | 2026-10-28 |
 
 Not yet confirmed: state rate 6.85%; local range; max combined ~8.375%; economic nexus $100,000/200 transactions; penalty/interest rates.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
@@ -89,5 +89,5 @@ their name behind the tax answers AI gives people.
 
 ### Prohibitions
 
-- **Prohibition on treating SaaS as taxable** — NEVER treat SaaS as taxable in Nevada.
-- **Prohibition on computation** — NEVER compute any number.
+- **Prohibition on treating SaaS as taxable** -- NEVER treat SaaS as taxable in Nevada.
+- **Prohibition on computation** -- NEVER compute any number.
