@@ -51,66 +51,66 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 
 > Reviewed against the cited tax authorities by **a licensed accountant** on 2026-06-03.
 > Items flagged for further clarification are tracked separately and excluded here.
-> This block is generated from verified `skill_facts` — edit the facts, not the prose.
+> This block is generated from verified `skill_facts` -- edit the facts, not the prose.
 
 ### IL Estimated Tax
 
-- **Threshold** — $1,000 of expected IL tax after withholding/credits  _(IL-1040 instructions (archived: sources/US-IL-il-1040-instr.pdf): "have a tax liability greater than $1,000 after subtracting your withholding, pass-through withholding payments, and credits".)_
-- **Safe harbor — current year** — 90% of current-year liability (not line-verified in an archived source: not yet confirmed)
-- **Safe harbor — prior year** — 100% of prior-year liability; IL has no high-income 110% rule (not line-verified in an archived source: not yet confirmed)
-- **110% rule** — IL uses 100% prior-year regardless of income (not line-verified in an archived source: not yet confirmed)
-- **IL flat rate** — 4.95%  _(35 ILCS 5/201.)_
-- **Personal exemption — Single** — $2,850 for 2025 (the same exemption applies to IL-1040, estimated tax, and withholding)  _(IDOR FY2025-16; IL-1040-ES instr.)_
-- **Personal exemption — MFJ** — $5,700 for 2025  _(IDOR FY2025-16.)_
-- **Q1** — April 15, 2025  _(2025 IL-1040-ES.)_
-- **Q2** — Statutory June 15; June 15, 2025 falls on a Sunday, so the effective due date is June 16, 2025 (2025-26 dates not line-verified in an archived source: not yet confirmed)
-- **Q3** — September 15, 2025  _(2025 IL-1040-ES.)_
-- **Q4** — January 15, 2026  _(2025 IL-1040-ES.)_
-- **Instalment split** — Four equal 25% installments (not line-verified in an archived source: not yet confirmed)
-- **Underpayment rate** — IL interest tracks the IRC 6621 underpayment rate (federal short-term + 3 points for individuals) and is set SEMI-ANNUALLY (Jan 1 and Jul 1), not federal short-term + 2% quarterly.  _(35 ILCS 735/3-2; IDOR Pub-103.)_
-- **Estimated tax exemption** — IL-1040-ES uses $2,850 (S) / $5,700 (MFJ) for 2025 - the same as IL-1040  _(IDOR FY2025-16; IL-1040-ES instr.)_
-- **Income tax exemption** — $2,850 (S) / $5,700 (MFJ)  _(IDOR FY2025-16.)_
-- **VERIFY** — They do NOT differ: both IL-1040 and IL-1040-ES use $2,850 (S) / $5,700 (MFJ) for 2025. The $2,625/$5,250 figures in rows 8-9 and 19 are erroneous (older amounts).  _(IDOR FY2025-16.)_
+- **Threshold** -- $1,000 of expected IL tax after withholding/credits  _(IL-1040 instructions (archived: sources/US-IL-il-1040-instr.pdf): "have a tax liability greater than $1,000 after subtracting your withholding, pass-through withholding payments, and credits".)_
+- **Safe harbor -- current year** -- 90% of current-year liability (not line-verified in an archived source: not yet confirmed)
+- **Safe harbor -- prior year** -- 100% of prior-year liability; IL has no high-income 110% rule (not line-verified in an archived source: not yet confirmed)
+- **110% rule** -- IL uses 100% prior-year regardless of income (not line-verified in an archived source: not yet confirmed)
+- **IL flat rate** -- 4.95%  _(35 ILCS 5/201.)_
+- **Personal exemption -- Single** -- $2,850 for 2025 (the same exemption applies to IL-1040, estimated tax, and withholding)  _(IDOR FY2025-16; IL-1040-ES instr.)_
+- **Personal exemption -- MFJ** -- $5,700 for 2025  _(IDOR FY2025-16.)_
+- **Q1** -- April 15, 2025  _(2025 IL-1040-ES.)_
+- **Q2** -- Statutory June 15; June 15, 2025 falls on a Sunday, so the effective due date is June 16, 2025 (2025-26 dates not line-verified in an archived source: not yet confirmed)
+- **Q3** -- September 15, 2025  _(2025 IL-1040-ES.)_
+- **Q4** -- January 15, 2026  _(2025 IL-1040-ES.)_
+- **Instalment split** -- Four equal 25% installments (not line-verified in an archived source: not yet confirmed)
+- **Underpayment rate** -- IL interest tracks the IRC 6621 underpayment rate (federal short-term + 3 points for individuals) and is set SEMI-ANNUALLY (Jan 1 and Jul 1), not federal short-term + 2% quarterly.  _(35 ILCS 735/3-2; IDOR Pub-103.)_
+- **Estimated tax exemption** -- IL-1040-ES uses $2,850 (S) / $5,700 (MFJ) for 2025 - the same as IL-1040  _(IDOR FY2025-16; IL-1040-ES instr.)_
+- **Income tax exemption** -- $2,850 (S) / $5,700 (MFJ)  _(IDOR FY2025-16.)_
+- **VERIFY** -- They do NOT differ: both IL-1040 and IL-1040-ES use $2,850 (S) / $5,700 (MFJ) for 2025. The $2,625/$5,250 figures in rows 8-9 and 19 are erroneous (older amounts).  _(IDOR FY2025-16.)_
 
 ## The taxable base
 
 ### Step 1: Estimate current year Illinois taxable income
 
-0. **Step 1** — 1. Start with expected federal adjusted gross income (AGI). 2. Add Illinois addition modifications (Schedule M, Line 12, carried to Form IL-1040, Line 3): e.g., interest from non-Illinois state/local bonds, any bonus depreciation add-back per Illinois decoupling from IRC §168(k). 3. Subtract Illinois subtraction modifications (Schedule M, Line 42, carried to Form IL-1040, Line 7): e.g., U.S. government bond interest, Illinois income tax refunds included in federal AGI, Illinois retirement income subtraction (if applicable). 4. Result = Illinois base income.  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-schedule-m.pdf)_
+0. **Step 1** -- 1. Start with expected federal adjusted gross income (AGI). 2. Add Illinois addition modifications (Schedule M, Line 12, carried to Form IL-1040, Line 3): e.g., interest from non-Illinois state/local bonds, any bonus depreciation add-back per Illinois decoupling from IRC §168(k). 3. Subtract Illinois subtraction modifications (Schedule M, Line 42, carried to Form IL-1040, Line 7): e.g., U.S. government bond interest, Illinois income tax refunds included in federal AGI, Illinois retirement income subtraction (if applicable). 4. Result = Illinois base income.  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-schedule-m.pdf)_
 
 ### Step 2: Subtract personal exemption
 
-0. **Step 2** — - Single/HoH: $2,850 - MFJ: $5,700 - MFS: $2,850 (none if federal AGI is over $250,000, or over $500,000 if MFJ) - Result = Illinois net income (equivalent to Illinois taxable income for individuals).  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf)_
+0. **Step 2** -- - Single/HoH: $2,850 - MFJ: $5,700 - MFS: $2,850 (none if federal AGI is over $250,000, or over $500,000 if MFJ) - Result = Illinois net income (equivalent to Illinois taxable income for individuals).  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf)_
 
 ### Step 3: Compute estimated annual tax
 
-- **Estimated annual tax formula** — Illinois net income x 4.95% = estimated annual Illinois income tax.  _(35 ILCS 5/201)_
+- **Estimated annual tax formula** -- Illinois net income x 4.95% = estimated annual Illinois income tax.  _(35 ILCS 5/201)_
 
 ### Step 4: Subtract credits and withholding
 
-0. **Step 4** — - Subtract expected Illinois withholding (from W-2 jobs, if any). - Subtract the Illinois Property Tax Credit (5% of property taxes paid on principal residence; not allowed if federal AGI is over $250,000, or over $500,000 if MFJ). - Subtract the Illinois Earned Income Credit (20% of federal EIC for 2025). - Subtract any other applicable credits. - Result = net estimated tax liability.  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf)_
+0. **Step 4** -- - Subtract expected Illinois withholding (from W-2 jobs, if any). - Subtract the Illinois Property Tax Credit (5% of property taxes paid on principal residence; not allowed if federal AGI is over $250,000, or over $500,000 if MFJ). - Subtract the Illinois Earned Income Credit (20% of federal EIC for 2025). - Subtract any other applicable credits. - Result = net estimated tax liability.  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-instr.pdf)_
 
 ### Step 5: Determine if estimated payments are required
 
-0. **Step 5** — If the result from Step 4 is more than $1,000, estimated payments are required.  _(https://taxarchive.illinois.gov/content/dam/soi/en/web/taxarchive/forms/income-tax/2024/individual/il-1040-es.pdf)_
+0. **Step 5** -- If the result from Step 4 is more than $1,000, estimated payments are required.  _(https://taxarchive.illinois.gov/content/dam/soi/en/web/taxarchive/forms/income-tax/2024/individual/il-1040-es.pdf)_
 
 ### Step 6: Determine safe harbour amount
 
-0. **Step 6** — The required annual payment is the lesser of: - 90% of the current year estimated tax (from Step 4), OR - 100% of the prior year Illinois tax liability (from the prior year IL-1040).
+0. **Step 6** -- The required annual payment is the lesser of: - 90% of the current year estimated tax (from Step 4), OR - 100% of the prior year Illinois tax liability (from the prior year IL-1040).
 
 ### Step 7: Compute quarterly payment
 
-0. **Step 7** — Divide the required annual payment by 4. Each quarterly installment is 25% of the annual amount (not line-verified in an archived source: not yet confirmed).
+0. **Step 7** -- Divide the required annual payment by 4. Each quarterly installment is 25% of the annual amount (not line-verified in an archived source: not yet confirmed).
 
 ### Step 8: Adjust for annualized income (if applicable)
 
-0. **Step 8** — If income is not earned evenly throughout the year, the taxpayer may use the annualized income installment method (Form IL-2210, Step 6) to reduce early-quarter payments. This requires demonstrating that income was concentrated in later quarters.  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-2210-instr.pdf)_
+0. **Step 8** -- If income is not earned evenly throughout the year, the taxpayer may use the annualized income installment method (Form IL-2210, Step 6) to reduce early-quarter payments. This requires demonstrating that income was concentrated in later quarters.  _(https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-2210-instr.pdf)_
 
 ## Deadlines and filing
 
 ### Who must make estimated payments
 
-- **Estimated payment requirement** — An individual must make estimated payments if the expected IL tax after withholding/credits is more than $1,000  _(IL-1040 instructions (archived: sources/US-IL-il-1040-instr.pdf): "have a tax liability greater than $1,000 after subtracting your withholding, pass-through withholding payments, and credits"; the 90%/100% prongs: not yet confirmed.)_
+- **Estimated payment requirement** -- An individual must make estimated payments if the expected IL tax after withholding/credits is more than $1,000  _(IL-1040 instructions (archived: sources/US-IL-il-1040-instr.pdf): "have a tax liability greater than $1,000 after subtracting your withholding, pass-through withholding payments, and credits"; the 90%/100% prongs: not yet confirmed.)_
 
 ### Payment schedule
 
@@ -148,27 +148,27 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ### E-1: Part-year residents
 
-- **Part-year residents** — Part-year residents must estimate tax only on income earned during the period of Illinois residency plus Illinois-source income earned while a non-resident. Use Schedule NR to allocate.  _(unsure)_
+- **Part-year residents** -- Part-year residents must estimate tax only on income earned during the period of Illinois residency plus Illinois-source income earned while a non-resident. Use Schedule NR to allocate.  _(unsure)_
 
 ### E-2: Bonus depreciation add-back
 
-- **Bonus depreciation add-back** — Illinois does not conform to federal IRC §168(k) bonus depreciation. Illinois requires an add-back of the bonus depreciation amount and allows the standard MACRS depreciation instead. This affects the estimated tax base.  _(35 ILCS 5/203(a)(2)(D-25).)_
+- **Bonus depreciation add-back** -- Illinois does not conform to federal IRC §168(k) bonus depreciation. Illinois requires an add-back of the bonus depreciation amount and allows the standard MACRS depreciation instead. This affects the estimated tax base.  _(35 ILCS 5/203(a)(2)(D-25).)_
 
 ### E-3: No estimated payment vouchers needed for e-pay
 
-- **E-pay vouchers** — Illinois allows estimated payments via MyTax Illinois (mytax.illinois.gov) without submitting Form IL-1040-ES vouchers. If paying electronically, retain confirmation numbers.  _(unsure)_
+- **E-pay vouchers** -- Illinois allows estimated payments via MyTax Illinois (mytax.illinois.gov) without submitting Form IL-1040-ES vouchers. If paying electronically, retain confirmation numbers.  _(unsure)_
 
 ### E-4: Prior year had no tax liability
 
-- **Prior year zero liability** — If the taxpayer's prior year Form IL-1040 had a zero tax liability, or the taxpayer was not required to file Form IL-1040 for the prior year, no late-payment penalty for underpayment of estimated tax is owed for the current year.  _([unsure](https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-2210-instr.pdf))_
+- **Prior year zero liability** -- If the taxpayer's prior year Form IL-1040 had a zero tax liability, or the taxpayer was not required to file Form IL-1040 for the prior year, no late-payment penalty for underpayment of estimated tax is owed for the current year.  _([unsure](https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-2210-instr.pdf))_
 
 ### E-5: Fiscal year taxpayers
 
-- **Fiscal year taxpayers** — Fiscal year taxpayers follow the same quarterly pattern but shifted to match their fiscal year. Payments are due on the 15th day of the 4th, 6th, 9th, and 1st months of the following fiscal year.  _(unsure)_
+- **Fiscal year taxpayers** -- Fiscal year taxpayers follow the same quarterly pattern but shifted to match their fiscal year. Payments are due on the 15th day of the 4th, 6th, 9th, and 1st months of the following fiscal year.  _(unsure)_
 
 ### E-6: Overpayment from prior year applied
 
-- **Overpayment applied** — If an overpayment from the prior year IL-1040 was applied to estimated taxes, this amount reduces the first quarter estimated payment. Document the amount applied.  _(unsure)_
+- **Overpayment applied** -- If an overpayment from the prior year IL-1040 was applied to estimated taxes, this amount reduces the first quarter estimated payment. Document the amount applied.  _(unsure)_
 
 ## Worked examples
 
@@ -226,7 +226,7 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

@@ -2,7 +2,7 @@
 name: il-corporate-income-tax
 description: >
   Use this skill whenever asked about Illinois corporate income tax
-  for tax year 2026 — the 7.0% income tax plus 2.5% replacement tax
+  for tax year 2026 -- the 7.0% income tax plus 2.5% replacement tax
   on Illinois-apportioned net income (9.5% combined), Form IL-1120
   mechanics, estimated tax via IL-1120-V above the $400 threshold,
   the IL-2220 underpayment penalty, and unitary combined reporting
@@ -28,11 +28,11 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 27 October 2026. Illinois taxes corporations under the Income Tax Act (35 ILCS 5) with a two-component levy on the same base: a **7.0% income tax** and a **2.5% replacement tax**, both computed on Illinois net income after apportionment — a combined 9.5% effective rate. **Source status:** Form IL-1120 (R-12/25, for tax years ending on/after 2025-12-31 and before 2026-12-31 — i.e., the 2026 calendar-year return) and its 24-page instructions PDF were downloaded and text-read 2026-10-27 from tax.illinois.gov; the rate lines ("Multiply Line 39 by 7.0%", "Multiply Line 39 by 2.5%", estimated worksheet "9.5 percent") are read directly from those PDFs. The ILCS section pages render via JavaScript and did not yield text this run — statutory cites carry  for section-level text.
+Source-cited draft, run of 27 October 2026. Illinois taxes corporations under the Income Tax Act (35 ILCS 5) with a two-component levy on the same base: a **7.0% income tax** and a **2.5% replacement tax**, both computed on Illinois net income after apportionment -- a combined 9.5% effective rate. **Source status:** Form IL-1120 (R-12/25, for tax years ending on/after 2025-12-31 and before 2026-12-31 -- i.e., the 2026 calendar-year return) and its 24-page instructions PDF were downloaded and text-read 2026-10-27 from tax.illinois.gov; the rate lines ("Multiply Line 39 by 7.0%", "Multiply Line 39 by 2.5%", estimated worksheet "9.5 percent") are read directly from those PDFs. The ILCS section pages render via JavaScript and did not yield text this run -- statutory cites carry  for section-level text.
 
 ### Who this applies to
 
-- Corporations (including foreign insurers, cooperatives under IRC 1381, settlement funds under IRC 468B, and political organizations filing federal 1120-POL/1120-H per the instructions) that (per the IL-1120 instructions): do business in Illinois, derive income from Illinois sources, **or** are qualified to do business in Illinois and required to file a federal return — regardless of net income or loss.
+- Corporations (including foreign insurers, cooperatives under IRC 1381, settlement funds under IRC 468B, and political organizations filing federal 1120-POL/1120-H per the instructions) that (per the IL-1120 instructions): do business in Illinois, derive income from Illinois sources, **or** are qualified to do business in Illinois and required to file a federal return -- regardless of net income or loss.
 - Unitary business group members file combined apportionment on Illinois Schedule UB (box "Unitary Filer" on IL-1120 Step 1 Line E).
 - S corporations pay the replacement tax component (see `il-income-tax` for the shareholder side).
 
@@ -40,7 +40,7 @@ Source-cited draft, run of 27 October 2026. Illinois taxes corporations under th
 
 | Item | Rate / base | Source |
 |---|---|---|
-| Corporate income tax | **7.0%** of Illinois net income (IL-1120 Line 45) — re-VERIFIED vs archived IL-1120 PDF (2026-10-28): "Income tax. Multiply Line 39 by 7.0% (.07)"; "Replacement tax. Multiply Line 39 by 2.5% (.025)" | IL-1120 (R-12/25) PDF, archived 2026-10-28 |
+| Corporate income tax | **7.0%** of Illinois net income (IL-1120 Line 45) -- re-VERIFIED vs archived IL-1120 PDF (2026-10-28): "Income tax. Multiply Line 39 by 7.0% (.07)"; "Replacement tax. Multiply Line 39 by 2.5% (.025)" | IL-1120 (R-12/25) PDF, archived 2026-10-28 |
 | Corporate replacement tax | **2.5%** of Illinois net income (IL-1120 Line 40) | same PDF, read 2026-10-27 |
 | Combined effective | 9.5% (IDOR estimated-payment worksheet uses 9.5%) | IL-1120 instructions PDF, read 2026-10-27 |
 | Base | "Net income" = adjusted base income after Illinois modifications, net loss deduction, and apportionment (Steps 3–5 of IL-1120) | IL-1120 PDF |
@@ -53,19 +53,19 @@ The base follows the federal starting point with Illinois modifications; see Rat
 
 ## Deadlines and filing
 
-- **Return:** IL-1120 due on the same date as the federal return — 15th day of the 4th month after year close (April 15 for calendar-year filers); special rule for June-30 year-ends per instructions.
+- **Return:** IL-1120 due on the same date as the federal return -- 15th day of the 4th month after year close (April 15 for calendar-year filers); special rule for June-30 year-ends per instructions.
 - **Estimated tax:** required if expected IL income + replacement tax + surcharge exceeds **$400**; quarterly IL-1120-V payments due 4/15, 6/15, 9/15, 12/15 for calendar-year filers (dates read from instructions examples).
 - **Extension:** automatic 7-month filing extension, but tentative tax must be paid by the **original** due date to stop penalty/interest (instructions, read 2026-10-27).
 - Amended returns: IL-1120-X.
 
 ## Penalties and interest
 
-Per the IL-1120 instructions (read 2026-10-27): late-filing penalty (return not processable by extended due date), late-payment penalty (tax unpaid at original due date), estimated-tax underpayment penalty (self-assessed on **Form IL-2220**, Step 4 Line 22; annualization available at Step 6), and bad-check penalty. Current penalty percentages and the 35 ILCS 5/806 interest rate:  (not in the extracted text). Common failure modes: (1) assuming the extension extends payment — it does not; (2) forgetting the replacement tax stacks on the same base; (3) unitary filers checking the "income derived inside Illinois only" box, which the form prohibits for unitary filers.
+Per the IL-1120 instructions (read 2026-10-27): late-filing penalty (return not processable by extended due date), late-payment penalty (tax unpaid at original due date), estimated-tax underpayment penalty (self-assessed on **Form IL-2220**, Step 4 Line 22; annualization available at Step 6), and bad-check penalty. Current penalty percentages and the 35 ILCS 5/806 interest rate:  (not in the extracted text). Common failure modes: (1) assuming the extension extends payment -- it does not; (2) forgetting the replacement tax stacks on the same base; (3) unitary filers checking the "income derived inside Illinois only" box, which the form prohibits for unitary filers.
 
 ## Cross-border points
 
-- Non-IL corporations with IL nexus file IL-1120 and apportion by the single sales factor; throwback/throwout rules apply per statute (Finnigan method for unitary groups from TYE 2025-12-31 — instructions, read 2026-10-27).
-- Schedule 80/20 curbs base-erosion payments (interest, intangibles, service fees) to related parties — Illinois's main related-party lever (see `il-transfer-pricing`).
+- Non-IL corporations with IL nexus file IL-1120 and apportion by the single sales factor; throwback/throwout rules apply per statute (Finnigan method for unitary groups from TYE 2025-12-31 -- instructions, read 2026-10-27).
+- Schedule 80/20 curbs base-erosion payments (interest, intangibles, service fees) to related parties -- Illinois's main related-party lever (see `il-transfer-pricing`).
 - PTE: the pass-through entity tax has its expiration date removed per the 2025-26 amendments noted in the instructions; corporations receive K-1-P/K-1-T credits on Lines 61c/61d.
 - Credit for IL tax paid by pass-throughs flows via Schedule K-1-P/K-1-T (Lines 61c–61d verified on form).
 
@@ -107,7 +107,7 @@ expected:
 
 ## Ask the client first
 
-- Is the entity in a unitary business group — does Schedule UB combined reporting apply, and is the Finnigan method now in play for 2026?
+- Is the entity in a unitary business group -- does Schedule UB combined reporting apply, and is the Finnigan method now in play for 2026?
 - Are there related-party interest, royalty, or service-fee payments requiring Schedule 80/20?
 - Are estimated IL-1120-V payments on track against the 9.5% combined rate?
 - Any June-30 fiscal year-end special due date, or foreign-insurer/cooperative status?
@@ -123,7 +123,7 @@ expected:
 Not yet confirmed: 35 ILCS 5 article text (ilga.gov is JS-rendered; section-level cites not line-verified), penalty percentages
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

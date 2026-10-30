@@ -2,7 +2,7 @@
 name: il-transfer-pricing
 description: >
   Use this skill whenever asked about Illinois transfer pricing and
-  unitary combined reporting for tax year 2026 — mandatory combined
+  unitary combined reporting for tax year 2026 -- mandatory combined
   reporting for unitary business groups via Illinois Schedule UB, the
   Schedule 80/20 related-party expense addback, the 2026 Finnigan
   apportionment change for unitary groups, and the absence of a
@@ -28,11 +28,11 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 27 October 2026. Illinois is a **mandatory combined-reporting** state: members of a unitary business group combine on Illinois Schedule UB (Combined Apportionment for Unitary Business Group). Related-party base erosion is policed by **Schedule 80/20** (addback of interest, intangible-expense, and service-fee payments to related affiliates, with statutory exemptions). Illinois has no separate transfer-pricing documentation statute. **Source status:** the IL-1120 instructions PDF (24 pages) was text-read 2026-10-27 — the unitary-filer mechanics, Schedule UB/80/20 references, and the **Finnigan** apportionment change effective for tax years ending on/after 2025-12-31 are read from that PDF. Statute-level text (35 ILCS 5 Art. III-bis unitary definitions; Art. IV 80/20) is JS-rendered on ILGA —  for definitional tests.
+Source-cited draft, run of 27 October 2026. Illinois is a **mandatory combined-reporting** state: members of a unitary business group combine on Illinois Schedule UB (Combined Apportionment for Unitary Business Group). Related-party base erosion is policed by **Schedule 80/20** (addback of interest, intangible-expense, and service-fee payments to related affiliates, with statutory exemptions). Illinois has no separate transfer-pricing documentation statute. **Source status:** the IL-1120 instructions PDF (24 pages) was text-read 2026-10-27 -- the unitary-filer mechanics, Schedule UB/80/20 references, and the **Finnigan** apportionment change effective for tax years ending on/after 2025-12-31 are read from that PDF. Statute-level text (35 ILCS 5 Art. III-bis unitary definitions; Art. IV 80/20) is JS-rendered on ILGA --  for definitional tests.
 
 ### Who this applies to
 
-- **Unitary business group members**: a group of corporations affiliated through common ownership and operating as a unitary business (income/loss combined on Schedule UB). The affiliation and unitarity tests sit in 35 ILCS 5 Art. III-bis —  for the current ownership-percentage and factor-based tests.
+- **Unitary business group members**: a group of corporations affiliated through common ownership and operating as a unitary business (income/loss combined on Schedule UB). The affiliation and unitarity tests sit in 35 ILCS 5 Art. III-bis --  for the current ownership-percentage and factor-based tests.
 - **Non-unitary filers** still face Schedule 80/20 addbacks on related-party payments (IL-1120 Step 1 Line M; instructions read 2026-10-27).
 - Combined groups file one IL-1120 marked "Unitary Filer" with Schedule UB attached; the form **prohibits** unitary filers from using the non-unitary "income derived inside Illinois only" shortcut.
 
@@ -52,17 +52,17 @@ The base follows the federal starting point with Illinois modifications; see Rat
 
 ## Deadlines and filing
 
-- Schedule UB and Schedule 80/20 attach to the IL-1120 — same due dates as the return (15th day of 4th month; April 15 calendar-year).
+- Schedule UB and Schedule 80/20 attach to the IL-1120 -- same due dates as the return (15th day of 4th month; April 15 calendar-year).
 - Estimated payments at the 9.5% combined worksheet rate (IL-1120-V) quarterly.
 - No separate TP documentation deadline.
 
 ## Penalties and interest
 
-Underpayment rides the IL-2220 estimated-penalty regime (see `il-corporate-income-tax`); percentage penalty/interest rates . Common failure modes: (1) assuming federal consolidated ≠ Illinois unitary — the tests differ; (2) missing the 2026 Finnigan numerator change for unitary groups; (3) paying related-party royalties/management fees without running the 80/20 exemption analysis; (4) double-counting intercompany sales in the combined numerator.
+Underpayment rides the IL-2220 estimated-penalty regime (see `il-corporate-income-tax`); percentage penalty/interest rates . Common failure modes: (1) assuming federal consolidated ≠ Illinois unitary -- the tests differ; (2) missing the 2026 Finnigan numerator change for unitary groups; (3) paying related-party royalties/management fees without running the 80/20 exemption analysis; (4) double-counting intercompany sales in the combined numerator.
 
 ## Cross-border points
 
-- **Water's-edge**: Illinois combined reporting follows its unitary definition; whether foreign members are included turns on the Art. III-bis affiliation tests —  (confirm current water's-edge treatment before structuring).
+- **Water's-edge**: Illinois combined reporting follows its unitary definition; whether foreign members are included turns on the Art. III-bis affiliation tests --  (confirm current water's-edge treatment before structuring).
 - 80/20 applies to payments to related foreign affiliates as well (instructions describe related-party expenses generally; foreign-specific carve-outs ).
 - PTE and pass-through income inside a unitary group flow through the combined computation (K-1-P/K-1-T credits on IL-1120 Lines 61c–61d verified on form).
 
@@ -105,7 +105,7 @@ expected:
 - Is the group unitary under Illinois tests (not just federally consolidated)? Pull the Art. III-bis affiliation analysis.
 - Have intercompany interest, royalties, and service fees been run through Schedule 80/20 exemptions?
 - Is the 2026 Finnigan sales-factor numerator change reflected in the UB computation?
-- Any foreign affiliates — what is the water's-edge position?
+- Any foreign affiliates -- what is the water's-edge position?
 
 ## Sources
 
@@ -117,7 +117,7 @@ expected:
 Not yet confirmed: 35 ILCS 5 Art. III-bis definitional tests (JS-rendered)
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

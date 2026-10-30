@@ -119,7 +119,7 @@ SOT applies only when a serviceperson transfers goods as part of a sale of servi
 | 3. Cost price, SOT | SOT on the serviceperson's cost price of the goods | A de minimis serviceperson that is registered, or required to be registered, as a retailer under Section 2a of the ROT Act |
 | 4. Cost price, Use Tax | Use Tax on cost price, paid to the supplier or self-assessed | A de minimis serviceperson not otherwise required to register. Not available to one whose only Illinois presence is meeting the $100,000 services threshold if it makes any retail sales to Illinois purchasers |
 
-- **De minimis serviceperson:** annual cost ratio below 35% (75% for servicepersons transferring prescription drugs or engaged in graphic arts production). The cost ratio compares the annual cost of goods transferred with total annual service income (thresholds: not yet confirmed — the governing bulletin is not in the archive set).
+- **De minimis serviceperson:** annual cost ratio below 35% (75% for servicepersons transferring prescription drugs or engaged in graphic arts production). The cost ratio compares the annual cost of goods transferred with total annual service income (thresholds: not yet confirmed -- the governing bulletin is not in the archive set).
 - **Services threshold:** $100,000 in cumulative gross receipts from sales of service to Illinois purchasers over the preceding 12 months, tested quarterly. From 1 January 2026 there is no 200-transaction test for servicepersons or service marketplaces.
 - **Service marketplace facilitators** at or over the $100,000 services threshold owe SOT on 50% of the entire billing for every service sale through the marketplace that transfers goods to an Illinois purchaser.
 - The SOT rate on goods follows the same general merchandise, drug and local rules as ROT; look up the location's rate.
@@ -204,7 +204,7 @@ New registrants start as monthly or quarterly filers. IDOR reviews accounts each
 
 ### Retailers' discount ([Form ST-1 instructions](https://tax.illinois.gov/forms/sales/salesandusetax/st-1-instructions.html); [Publication 113](https://tax.illinois.gov/research/publications/pubs/retailers-overview-of-sales-and-use-tax/requirements-for-retailers-who-file-form-st-1.html))
 
-- 1.75% of the tax due, or $5 per calendar year, whichever is greater (not yet confirmed — ST-1 instructions and Publication 113 not archived).
+- 1.75% of the tax due, or $5 per calendar year, whichever is greater (not yet confirmed -- ST-1 instructions and Publication 113 not archived).
 - For returns due on or after 1 January 2025 the discount is capped at $1,000 per month. IDOR states the cap per month; quarterly and annual filers should confirm with IDOR how it applies to a multi-month return.
 - Only if the return and payment are on time. A taxpayer required to file electronically (and without a waiver) gets the discount only if it files electronically on time and pays on time.
 - A late filer is assessed for the discount it took, plus penalty and interest.
@@ -213,8 +213,8 @@ New registrants start as monthly or quarterly filers. IDOR reviews accounts each
 
 | Penalty | Amount |
 | --- | --- |
-| Late filing, first tier | Lesser of $250 or 2% of the tax required to be shown, reduced by timely payments and credits (not yet confirmed — Publication 103 not archived) |
-| Late filing, second tier (not filed within 30 days of a notice of nonfiling) | Greater of $250 or 2% of the tax shown, without regard to payments; maximum $5,000; due even if no tax is owed (not yet confirmed — Publication 103 not archived) |
+| Late filing, first tier | Lesser of $250 or 2% of the tax required to be shown, reduced by timely payments and credits (not yet confirmed -- Publication 103 not archived) |
+| Late filing, second tier (not filed within 30 days of a notice of nonfiling) | Greater of $250 or 2% of the tax shown, without regard to payments; maximum $5,000; due even if no tax is owed (not yet confirmed -- Publication 103 not archived) |
 | Late payment | 2% if 1 to 30 days late; 10% if 31 or more days late |
 | Unpaid after an audit starts | 15% |
 | Unpaid within 30 days after an audit-prepared amended return or waiver | 20% (also applies if paid under protest or later claimed back) |
@@ -311,7 +311,7 @@ Not yet confirmed: FY 2026-03, FY 2025-10, FY 2026-13 bulletins, Publication 113
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

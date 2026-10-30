@@ -2,7 +2,7 @@
 name: il-social-contributions
 description: >
   Use this skill whenever asked about Illinois employer social
-  contributions for tax year 2026 — IDES unemployment contribution
+  contributions for tax year 2026 -- IDES unemployment contribution
   rates and the 2026 wage base, the Fund Builder surcharge,
   the small-employer rate, minimum penalty, employer workers'
   compensation insurance under the Illinois Workers' Compensation
@@ -28,13 +28,13 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 27 October 2026. Illinois employer social contributions are: IDES unemployment insurance (contribution) tax under the Unemployment Insurance Act (820 ILCS 405), mandatory workers' compensation insurance, and federal FICA — Illinois has **no** state disability insurance, **no** paid family/medical leave contribution, and **no** state retirement mandate for private employers. **Source status:** the IDES historical rate chart PDF (`UI_tax_rates_2026.pdf`) was downloaded and text-read 2026-10-27 from ides.illinois.gov — the 2026 wage base, rate floors/ceilings, standard rate, small-employer rate, and minimum penalty below are read directly from that PDF. The statute page (820 ILCS 405) renders via JavaScript — section-level cites .
+Source-cited draft, run of 27 October 2026. Illinois employer social contributions are: IDES unemployment insurance (contribution) tax under the Unemployment Insurance Act (820 ILCS 405), mandatory workers' compensation insurance, and federal FICA -- Illinois has **no** state disability insurance, **no** paid family/medical leave contribution, and **no** state retirement mandate for private employers. **Source status:** the IDES historical rate chart PDF (`UI_tax_rates_2026.pdf`) was downloaded and text-read 2026-10-27 from ides.illinois.gov -- the 2026 wage base, rate floors/ceilings, standard rate, small-employer rate, and minimum penalty below are read directly from that PDF. The statute page (820 ILCS 405) renders via JavaScript -- section-level cites .
 
 ### Who this applies to
 
-- Employers covered under 820 ILCS 405 (general tests: payroll above statutory thresholds in 20 or more weeks, or one or more employees in each of 20 weeks — exact current test text: ). Out-of-state employers with Illinois employees are covered on the same basis.
-- The contribution is **employer-only** — Illinois employees pay no state UI tax.
-- Workers' compensation: most Illinois employers must carry coverage from the first employee (broad employer definition under 820 ILCS 305 — confirm current text: ).
+- Employers covered under 820 ILCS 405 (general tests: payroll above statutory thresholds in 20 or more weeks, or one or more employees in each of 20 weeks -- exact current test text: ). Out-of-state employers with Illinois employees are covered on the same basis.
+- The contribution is **employer-only** -- Illinois employees pay no state UI tax.
+- Workers' compensation: most Illinois employers must carry coverage from the first employee (broad employer definition under 820 ILCS 305 -- confirm current text: ).
 
 ## Rates, bands and thresholds
 
@@ -47,7 +47,7 @@ Source-cited draft, run of 27 October 2026. Illinois employer social contributio
 | Fund Builder component | embedded in all rates above (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) | archived sources/US-IL-ides-ui-rates-2026.pdf |
 | Small-employer rate (gross wages under the threshold) | flat (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) | archived sources/US-IL-ides-ui-rates-2026.pdf |
 | Minimum penalty | **$50** | archived sources/US-IL-ides-ui-rates-2026.pdf, MINIMUM PENALTY row |
-| Employee share of UI | none — employer-only | 820 ILCS 405 structure; section text  |
+| Employee share of UI | none -- employer-only | 820 ILCS 405 structure; section text  |
 | State disability / paid family leave | none | absence confirmed; no such IL program |
 
 Rates are experience-rated (2026 factors: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)). Base: covered wages up to the published wage base per employee per year.
@@ -58,13 +58,13 @@ The base follows the federal starting point with Illinois modifications; see Rat
 
 ## Deadlines and filing
 
-- Quarterly contribution and wage reports (Form UI-3/40) due the last day of the month following each quarter (1/31, 4/30, 7/31, 10/31) — confirm current dates on the IDES filing page: .
+- Quarterly contribution and wage reports (Form UI-3/40) due the last day of the month following each quarter (1/31, 4/30, 7/31, 10/31) -- confirm current dates on the IDES filing page: .
 - Annual rate notices issue in December/January with an appeal window (confirm: ).
 - Workers' compensation: continuous coverage obligation; proof of insurance required for many state contracts and permits.
 
 ## Penalties and interest
 
-The IDES chart fixes a minimum penalty for 2026 (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)); the percentage late-filing/late-payment penalty and interest rates sit in 820 ILCS 405 —  for current percentages. Common failure modes: (1) out-of-state employers missing Illinois coverage for Illinois-based staff; (2) assuming the small-employer flat rate is favorable — it can exceed an experience rate; (3) treating workers' comp as optional — Illinois requires it broadly from employee one.
+The IDES chart fixes a minimum penalty for 2026 (not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)); the percentage late-filing/late-payment penalty and interest rates sit in 820 ILCS 405 --  for current percentages. Common failure modes: (1) out-of-state employers missing Illinois coverage for Illinois-based staff; (2) assuming the small-employer flat rate is favorable -- it can exceed an experience rate; (3) treating workers' comp as optional -- Illinois requires it broadly from employee one.
 
 ## Cross-border points
 
@@ -121,7 +121,7 @@ expected:
 Not yet confirmed: 820 ILCS 405 section text (JS-rendered), penalty percentages beyond the PDF minimum
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
