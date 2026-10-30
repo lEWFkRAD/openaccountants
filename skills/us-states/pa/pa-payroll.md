@@ -30,41 +30,14 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 - **Does not cover:** federal payroll taxes; the employee's own PA-40 or local return; withholding on 1099 payments; worker classification (including the Construction Workplace Misclassification Act); final pay; overtime exemptions; workers' compensation.
 - **Local rates change.** Municipalities and school districts set EIT and LST rates; the Department of Community and Economic Development (DCED) publishes them. Look up the current rate by address ([Local income tax information](https://dced.pa.gov/local-government/local-income-tax-information/)).
 
-## Ask the client first
 
-- Where does each employee live, and where do they physically work? Get full street addresses, including for home-based employees, whose homes are worksites for local tax.
-- Does any employee live in Indiana, Maryland, New Jersey, Ohio, Virginia or West Virginia? Has that employee given you Form REV-419? Are you registered to withhold that state's tax?
-- Does any employee claim Tax Forgiveness or military-spouse (SCRA) relief from withholding?
-- Does any employee live or work in Philadelphia?
-- Do any employees work partly outside Pennsylvania? On how many working days?
-- How much PA tax do you expect to withhold each quarter and each year? What deposit frequency is on your myPATH account?
-- Are you registered with the local tax collector for every worksite? Do you hold a Residency Certification Form for every employee?
-- Has any employee filed an LST exemption certificate or a principal-employer statement?
-- What is your 2026 UC rate on Form UC-657? Are you newly liable, and are you in construction?
-- Do you take a tip credit for any employee?
+## The taxable base
 
-### The method, step by step
-
-1. **Register.** Get a federal EIN, then register for employer withholding and a UC account through the Pennsylvania Online Business Tax Registration at mypath.pa.gov. Wage withholding goes in an Employer Withholding account, separate from 1099 withholding accounts ([Employer Withholding](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/employer-withholding)). Register with the local tax collector for each Pennsylvania worksite to get a local tax ID ([DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/)).
-2. **Report each new hire** to the Pennsylvania New Hire Reporting Program through PA CareerLink. This covers every employee who lives or works in Pennsylvania, including rehires and temporary agency placements ([Report newly hired employees](https://www.pa.gov/services/dli/report-newly-hired-employees)). Federal law sets the outer deadline: no later than 20 days after the hire date or, for electronic filers, two monthly transmissions 12 to 16 days apart ([42 U.S.C. 653a](https://www.law.cornell.edu/uscode/text/42/653a)).
-3. **Collect forms at hire.**
-   - Federal Form W-4. Pennsylvania has no allowance certificate because its rate is flat.
-   - Form REV-419, only from an employee who claims nonwithholding (see step 5).
-   - The Residency Certification Form for local EIT, filled in from DCED's address search and kept in the personnel file. The employee must also tell you of any later name or address change.
-   - Any LST exemption certificate or principal-employer statement.
-4. **Withhold PA tax at 3.07%** of PA compensation for each payroll period. For supplemental pay, add it to the current period's compensation and apply the same rate ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf)). (not yet confirmed)
-   - **Residents:** withhold on all compensation, wherever the work is done, with two exceptions that depend on the other state:
-     - Working entirely in another state: withhold on all of it, unless that state has an income tax and you are withholding that state's tax.
-     - Working partly in another state that has an income tax, where you withhold that tax: withhold PA tax on the PA share, meaning PA working days divided by total working days, times total compensation. If the other state has no income tax, withhold PA tax on everything.
-   - **Nonresidents:** withhold on pay for work done in Pennsylvania only, using the same working-day fraction. Withhold on all of it unless your records can show the PA share.
-   - **Convenience of the employer:** in the working-day fraction, count as PA days any days a nonresident works outside Pennsylvania only for their own convenience. Only days worked elsewhere of necessity in the employer's service are non-PA days ([PIT Guide, gross compensation](https://www.pa.gov/agencies/revenue/forms-and-publications/pa-personal-income-tax-guide/gross-compensation)). If you require a nonresident to telework full-time from home in another state, the pay is not PA-source and you need not withhold ([telework guidance](https://www.pa.gov/agencies/revenue/resources/tax-law-policies-bulletins-notices/telework-guidance)).
-   - **Commission salespeople** paid on volume: the PA share is PA sales volume divided by total sales volume.
-5. **Apply REV-419 only where it fits** (see the REV-419 section below). Every other employee is withheld at the flat rate.
-6. **Withhold local EIT.** Compare the employee's Total Resident EIT Rate (home) with the Work Location Non-Resident EIT Rate (worksite). Withhold the higher of the two and pay it to the worksite's tax collector ([DCED FAQ](https://dced.pa.gov/local-government/local-income-tax-information/local-withholding-tax-faqs/)). Philadelphia follows its own rules (see the boundaries table).
-7. **Withhold the LST** for the worksite if it is listed on DCED's Official Tax Register.
-8. **Withhold the employee UC contribution** of 0.07% on all gross wages, with no cap. Pay the employer contribution on the first $10,000 of each employee's wages for the calendar year ([UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights)).
-9. **Deposit and file** on the schedules under "Filing and payment": PA deposits and quarterly returns, local and UC quarterly returns, and the year-end W-2, REV-1667 and W2-R.
-10. **Check pay rates** against the $7.25 state minimum wage and the tip-credit rules ([Wage FAQs](https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/pennsylvania-s-minimum-wage-act/wage-faqs)).
+- **PA PIT withholding base:** PA-source compensation — salaries, wages, commissions, bonuses, fees, stock options and tips, in cash or property. Elective 401(k) and other retirement deferrals are taxable for Pennsylvania and go in PA wages on the W-2; employer welfare-benefit payments (medical/dental/vision) are generally not; group term life is excluded if the program is nondiscriminatory; personal use of employer property (e.g. a company car) is not compensation, but a cash allowance for it is; pay in lieu of vacation, adoption assistance and non-job-related education are taxable.
+- **Source rule:** residents owe on all compensation (with the other-state exceptions in Cross-border points); nonresidents on the PA working-day fraction of compensation.
+- **Local EIT base:** earned income and net profits of residents and of nonresidents working in the municipality, per Act 32.
+- **LST base:** a flat per-person, per-year amount ($52 cap), not a percentage of pay.
+- **UC employer base:** the first $10,000 of each employee's wages per calendar year; the 0.07% employee contribution applies to all gross wages with no cap.
 
 ## Rates, bands and thresholds
 
@@ -257,7 +230,7 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 - Cash wage: 40 × $2.83 = $113.20. With tips: $263.20.
 - Shortfall the employer must pay: $26.80. (not yet confirmed)
 
-### 2025 payrolls: corrections and late filings ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf); [UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights))
+#### 2025 payrolls: corrections and late filings ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf); [UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights))
 
 - The PA rate, the deposit thresholds, the UC wage base of $10,000, the UC rate range, the new-employer rates and the 0.07% employee rate were the same in 2025.
 - 2025 PA W-2s and REV-1667 were due January 31, 2026. The 2025 local W2-R reconciliation was due by the last day of February 2026 ([DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/)). If either is missing, file now; late charges may apply. (not yet confirmed)
@@ -320,24 +293,51 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 
 ---
 
+## Ask the client first
+
+- Where does each employee live, and where do they physically work? Get full street addresses, including for home-based employees, whose homes are worksites for local tax.
+- Does any employee live in Indiana, Maryland, New Jersey, Ohio, Virginia or West Virginia? Has that employee given you Form REV-419? Are you registered to withhold that state's tax?
+- Does any employee claim Tax Forgiveness or military-spouse (SCRA) relief from withholding?
+- Does any employee live or work in Philadelphia?
+- Do any employees work partly outside Pennsylvania? On how many working days?
+- How much PA tax do you expect to withhold each quarter and each year? What deposit frequency is on your myPATH account?
+- Are you registered with the local tax collector for every worksite? Do you hold a Residency Certification Form for every employee?
+- Has any employee filed an LST exemption certificate or a principal-employer statement?
+- What is your 2026 UC rate on Form UC-657? Are you newly liable, and are you in construction?
+- Do you take a tip credit for any employee?
+
+### The method, step by step
+
+1. **Register.** Get a federal EIN, then register for employer withholding and a UC account through the Pennsylvania Online Business Tax Registration at mypath.pa.gov. Wage withholding goes in an Employer Withholding account, separate from 1099 withholding accounts ([Employer Withholding](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/employer-withholding)). Register with the local tax collector for each Pennsylvania worksite to get a local tax ID ([DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/)).
+2. **Report each new hire** to the Pennsylvania New Hire Reporting Program through PA CareerLink. This covers every employee who lives or works in Pennsylvania, including rehires and temporary agency placements ([Report newly hired employees](https://www.pa.gov/services/dli/report-newly-hired-employees)). Federal law sets the outer deadline: no later than 20 days after the hire date or, for electronic filers, two monthly transmissions 12 to 16 days apart (42 U.S.C. 653a).
+3. **Collect forms at hire.**
+   - Federal Form W-4. Pennsylvania has no allowance certificate because its rate is flat.
+   - Form REV-419, only from an employee who claims nonwithholding (see step 5).
+   - The Residency Certification Form for local EIT, filled in from DCED's address search and kept in the personnel file. The employee must also tell you of any later name or address change.
+   - Any LST exemption certificate or principal-employer statement.
+4. **Withhold PA tax at 3.07%** of PA compensation for each payroll period. For supplemental pay, add it to the current period's compensation and apply the same rate ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf)). (not yet confirmed)
+   - **Residents:** withhold on all compensation, wherever the work is done, with two exceptions that depend on the other state:
+     - Working entirely in another state: withhold on all of it, unless that state has an income tax and you are withholding that state's tax.
+     - Working partly in another state that has an income tax, where you withhold that tax: withhold PA tax on the PA share, meaning PA working days divided by total working days, times total compensation. If the other state has no income tax, withhold PA tax on everything.
+   - **Nonresidents:** withhold on pay for work done in Pennsylvania only, using the same working-day fraction. Withhold on all of it unless your records can show the PA share.
+   - **Convenience of the employer:** in the working-day fraction, count as PA days any days a nonresident works outside Pennsylvania only for their own convenience. Only days worked elsewhere of necessity in the employer's service are non-PA days ([PIT Guide, gross compensation](https://www.pa.gov/agencies/revenue/forms-and-publications/pa-personal-income-tax-guide/gross-compensation)). If you require a nonresident to telework full-time from home in another state, the pay is not PA-source and you need not withhold ([telework guidance](https://www.pa.gov/agencies/revenue/resources/tax-law-policies-bulletins-notices/telework-guidance)).
+   - **Commission salespeople** paid on volume: the PA share is PA sales volume divided by total sales volume.
+5. **Apply REV-419 only where it fits** (see the REV-419 section below). Every other employee is withheld at the flat rate.
+6. **Withhold local EIT.** Compare the employee's Total Resident EIT Rate (home) with the Work Location Non-Resident EIT Rate (worksite). Withhold the higher of the two and pay it to the worksite's tax collector ([DCED FAQ](https://dced.pa.gov/local-government/local-income-tax-information/local-withholding-tax-faqs/)). Philadelphia follows its own rules (see the boundaries table).
+7. **Withhold the LST** for the worksite if it is listed on DCED's Official Tax Register.
+8. **Withhold the employee UC contribution** of 0.07% on all gross wages, with no cap. Pay the employer contribution on the first $10,000 of each employee's wages for the calendar year ([UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights)).
+9. **Deposit and file** on the schedules under "Filing and payment": PA deposits and quarterly returns, local and UC quarterly returns, and the year-end W-2, REV-1667 and W2-R.
+10. **Check pay rates** against the $7.25 state minimum wage and the tip-credit rules ([Wage FAQs](https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/pennsylvania-s-minimum-wage-act/wage-faqs)).
+
 ## Sources
 
 | Source | Type | Read on |
 | --- | --- | --- |
-| [Employer Withholding](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/employer-withholding) | PA Department of Revenue | 2026-10-16 |
-| [REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf) | PA Department of Revenue | 2026-10-16 |
-| [REV-419 and instructions](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-419.pdf) | PA Department of Revenue | 2026-10-16 |
-| [DFO-02](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/dfo-02.pdf) | PA Department of Revenue | 2026-10-16 |
 | [DCED local income tax information](https://dced.pa.gov/local-government/local-income-tax-information/) | PA DCED | 2026-10-16 |
 | [DCED Local Services Tax](https://dced.pa.gov/local-government/local-income-tax-information/local-services-tax/) | PA DCED | 2026-10-16 |
 | [UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights) | PA Department of Labor & Industry | 2026-10-16 |
-| [UC-749 (09-25)](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2009-25.pdf) | PA Department of Labor & Industry | 2026-10-16 |
-| [UC-820 (09-25)](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2009-25.pdf) | PA Department of Labor & Industry | 2026-10-16 |
-| [UC-2 instructions](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-2ins.pdf) | PA Department of Labor & Industry | 2026-10-16 |
 | [Wage FAQs](https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/pennsylvania-s-minimum-wage-act/wage-faqs) | PA Department of Labor & Industry | 2026-10-16 |
 | [tipped worker rules](https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/labor-law/overtime-and-tipped-worker-rules-in-pa) | PA Department of Labor & Industry | 2026-10-16 |
-| [42 U.S.C. 653a](https://www.law.cornell.edu/uscode/text/42/653a) | Cornell LII | 2026-10-16 |
-
 Not yet confirmed: the 3.07% withholding rate, deposit thresholds, W-2 deadlines, Tax Forgiveness $1,625 copy trigger, UC new-employer and experience rates, and the worked-example arithmetic are marked (not yet confirmed) in the body and need tie-out against archived copies of the cited pages.
 
 ## Talk to a verified accountant
