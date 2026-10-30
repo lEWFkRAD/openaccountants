@@ -28,7 +28,7 @@ This is a Tier 2 content skill for preparing the Texas sales and use tax return 
 
 ---
 
-## Section 1 -- Scope statement
+## Who this applies to
 
 **In scope:**
 
@@ -53,7 +53,7 @@ This is a Tier 2 content skill for preparing the Texas sales and use tax return 
 
 ---
 
-## Section 2 -- Filing requirements
+### Section 2 -- Filing requirements
 
 ### Who must register
 
@@ -74,7 +74,7 @@ Filing frequency is assigned by the Comptroller after the permit application is 
 
 ---
 
-## Section 3 -- Rates and thresholds
+## Rates, bands and thresholds
 
 | Item | Rate | Source |
 |------|------|--------|
@@ -114,7 +114,7 @@ The timely filing discount is forfeited if the return is filed or paid late.
 
 ---
 
-## Section 4 -- Computation rules (Step format)
+## The taxable base
 
 ### Step 1: Classify all sales
 
@@ -228,7 +228,7 @@ expected:
   use_tax: 165.00
 ```
 
-## Section 6 -- Test suite
+### Section 6 -- Test suite
 
 ### Test 1: Basic monthly return
 
@@ -288,8 +288,43 @@ Before delivering output, verify:
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://www.openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+### Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+-  (as_of: 2026-10-28)
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
 
 ## Sources
 
-- https://www.openaccountants.com (as_of: 2026-10-28)
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

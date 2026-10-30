@@ -24,7 +24,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 This is a Tier 2 content skill for computing and filing the Texas franchise tax for single-member LLCs. Texas has no personal income tax, but the franchise tax (also called the "margin tax") applies to most legal entities doing business in Texas, including SMLLCs. Sole proprietors without an LLC are NOT subject to franchise tax.
 
-## Section 1 -- Scope statement
+## Who this applies to
 
 **In scope:**
 
@@ -75,7 +75,7 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 
 - **Initial filing** — A newly formed entity must file its first franchise tax report by May 15 of the year after its formation. The report covers the period from formation through December 31 of that year (or the entity's fiscal year end).  _(unsure)_
 
-## Section 3 -- Rates and thresholds
+## Rates, bands and thresholds
 
 **Rates and thresholds**  _([Texas Comptroller Franchise Tax hub — Tax Rates, Thresholds and Deduction Limits, 2026 and 2027 report years](https://comptroller.texas.gov/taxes/franchise/))_
 
@@ -231,32 +231,71 @@ Before delivering output, verify:
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
 ---
 
-## Sources
+### Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 - https://comptroller.texas.gov/taxes/franchise/ (as_of: 2026-10-28)
 - https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php (as_of: 2026-10-28)
 - https://comptroller.texas.gov/taxes/franchise/ntd-rpt-updates-2024.php (as_of: 2026-10-28)
 - https://openaccountants.com (as_of: 2026-10-28)
-- https://www.openaccountants.com (as_of: 2026-10-28)
-- https://www.openaccountants.com/connect (as_of: 2026-10-28)
-- https://www.openaccountants.com/network (as_of: 2026-10-28)
+-  (as_of: 2026-10-28)
+-  (as_of: 2026-10-28)
+-  (as_of: 2026-10-28)
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
