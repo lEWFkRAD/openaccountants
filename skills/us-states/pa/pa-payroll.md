@@ -164,6 +164,53 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 | UC electronic payment | Required once liability for a payment period equals or exceeds $5,000, and for every later payment | [UC-2 instructions](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-2ins.pdf) |
 | Tip credit | At least $135 a month in tips; non-tip-generating duties no more than 20% of weekly hours (time beyond 20% paid at $7.25); never for work that neither generates nor supports tips | Tipped worker rules |
 
+
+
+## Deadlines and filing
+
+### Returns and due dates ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf); [DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/); [UC quarterly reports](https://www.pa.gov/services/dli/file-unemployment-compensation-quarterly-wage-tax-reports))
+
+- **PA quarterly withholding return:** due the last day of April, July, October and January, filed on myPATH or by TeleFile. File it every quarter, even with no tax. Monthly, semi-monthly and semi-weekly depositors also file it as the quarterly reconciliation. Preparers of 11 or more returns must file electronically.
+- **PA W-2s with REV-1667:** January 31. (not yet confirmed)
+- **Local EIT and LST:** quarterly returns and payments to each worksite collector within 30 days after the quarter, or monthly and electronic if you elected a single EIT collector. The W2-R annual reconciliation is due by the last day of February.
+- **UC-2 and UC-2A:** due April 30, July 31, October 31 and January 31, or the next business day if that falls on a weekend or legal holiday. File through UCMS, and file a UC-2 even for a quarter with no wages ([UC-2 instructions](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-2ins.pdf)).
+
+## Penalties and interest
+
+### PA withholding penalties and interest ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf))
+
+- Interest runs daily on late tax, at the rate the Department announces each year.
+- Failing to file a quarterly return: 5% of the underpayment per month or part month, up to 25%.
+- Failing to pay withheld tax by the quarterly return due date: 5% per month or part month, up to 50%.
+- A false or fraudulent return: 50% of the underpayment. (not yet confirmed)
+- Withheld tax is a trust fund. Officers, responsible employees and others can be personally liable, and willful failure can be prosecuted.
+
+### UC penalties and interest ([UC contributions, penalties and interest](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/calculating-contributions--penalties-and-interest))
+
+- Interest of 1% a month (12% a year) on late employer and employee contributions.
+- A late quarterly report: 15% of the quarter's contributions, at least $125 and at most $450. Filing on time avoids this even if you cannot pay in full.
+- Not filing electronically without a waiver: the same 15%, $125 minimum and $450 maximum.
+- A dishonored payment: 10%, at least $25 and at most $1,000.
+
+### Completion checklist
+
+- Registered on myPATH for withholding and UC, and with the local collector for every worksite, including home-based employees.
+- Every new hire and rehire reported through PA CareerLink within 20 days.
+- A Residency Certification Form on file for every employee, with PSD codes and rates from a current DCED address search.
+- PA tax withheld at the flat rate on the right compensation, including 401(k) deferrals.
+- Every REV-419 fits one of the three grounds, copies went to the Department where required, and reciprocal-state residents have their home state's tax withheld.
+- Local EIT at the higher of the two rates; Philadelphia under the City's rules.
+- LST withheld pro rata for Register-listed worksites, with exemptions and the income-limit restart tracked.
+- Employee UC on all wages; employer UC up to the wage base at the UC-657 rate.
+- Deposits made on the right frequency, and electronically where required.
+- Quarterly PA, local and UC returns filed; W-2s, REV-1667 and W2-R filed at year end.
+- Pay rates at or above the state minimum wage, with tip credits only where allowed.
+
+<!-- openaccountants-cta-block -->
+
+---
+
+
 ## Cross-border points
 
 - Reciprocal states (IN, MD, NJ, OH, VA, WV): with a Form REV-419 on file and the home state's tax withheld, no PA state withholding; without the form, withhold 3.07%. Exception: an Ohio resident holding 20%+ of an S corporation's shares stays subject to PA tax on its wages (DFO-02).
@@ -248,50 +295,6 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 - **Refer** worker classification, final pay, overtime exemptions and wage disputes to an employment lawyer or the Department of Labor & Industry, and UC rate appeals, voluntary contributions, successor transfers and experience rating to the Office of UC Tax Services.
 - **Refuse** to stop PA withholding for a reciprocal-state resident unless a REV-419 is on file and you are set up to withhold that state's tax. Refuse it in every case for wages an S corporation pays to an Ohio resident who holds 20% or more of its shares.
 - **Say so** when a figure is not yet published. The 2027 UC rates, and any change to the state minimum wage, are not set by the sources above.
-
-## Deadlines and filing
-
-### Returns and due dates ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf); [DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/); [UC quarterly reports](https://www.pa.gov/services/dli/file-unemployment-compensation-quarterly-wage-tax-reports))
-
-- **PA quarterly withholding return:** due the last day of April, July, October and January, filed on myPATH or by TeleFile. File it every quarter, even with no tax. Monthly, semi-monthly and semi-weekly depositors also file it as the quarterly reconciliation. Preparers of 11 or more returns must file electronically.
-- **PA W-2s with REV-1667:** January 31. (not yet confirmed)
-- **Local EIT and LST:** quarterly returns and payments to each worksite collector within 30 days after the quarter, or monthly and electronic if you elected a single EIT collector. The W2-R annual reconciliation is due by the last day of February.
-- **UC-2 and UC-2A:** due April 30, July 31, October 31 and January 31, or the next business day if that falls on a weekend or legal holiday. File through UCMS, and file a UC-2 even for a quarter with no wages ([UC-2 instructions](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-2ins.pdf)).
-
-## Penalties and interest
-
-### PA withholding penalties and interest ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf))
-
-- Interest runs daily on late tax, at the rate the Department announces each year.
-- Failing to file a quarterly return: 5% of the underpayment per month or part month, up to 25%.
-- Failing to pay withheld tax by the quarterly return due date: 5% per month or part month, up to 50%.
-- A false or fraudulent return: 50% of the underpayment. (not yet confirmed)
-- Withheld tax is a trust fund. Officers, responsible employees and others can be personally liable, and willful failure can be prosecuted.
-
-### UC penalties and interest ([UC contributions, penalties and interest](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/calculating-contributions--penalties-and-interest))
-
-- Interest of 1% a month (12% a year) on late employer and employee contributions.
-- A late quarterly report: 15% of the quarter's contributions, at least $125 and at most $450. Filing on time avoids this even if you cannot pay in full.
-- Not filing electronically without a waiver: the same 15%, $125 minimum and $450 maximum.
-- A dishonored payment: 10%, at least $25 and at most $1,000.
-
-### Completion checklist
-
-- Registered on myPATH for withholding and UC, and with the local collector for every worksite, including home-based employees.
-- Every new hire and rehire reported through PA CareerLink within 20 days.
-- A Residency Certification Form on file for every employee, with PSD codes and rates from a current DCED address search.
-- PA tax withheld at the flat rate on the right compensation, including 401(k) deferrals.
-- Every REV-419 fits one of the three grounds, copies went to the Department where required, and reciprocal-state residents have their home state's tax withheld.
-- Local EIT at the higher of the two rates; Philadelphia under the City's rules.
-- LST withheld pro rata for Register-listed worksites, with exemptions and the income-limit restart tracked.
-- Employee UC on all wages; employer UC up to the wage base at the UC-657 rate.
-- Deposits made on the right frequency, and electronically where required.
-- Quarterly PA, local and UC returns filed; W-2s, REV-1667 and W2-R filed at year end.
-- Pay rates at or above the state minimum wage, with tip credits only where allowed.
-
-<!-- openaccountants-cta-block -->
-
----
 
 ## Ask the client first
 
