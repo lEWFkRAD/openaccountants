@@ -64,9 +64,9 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 
 | Gross income | Filing frequency | Source |
 |-------------|------------------|--------|
-| Less than $28,000/year and less than $4,200/month tax liability | Annual (due April 15) | WAC 458-20-22801 |
-| $28,000 -- $420,000/year | Quarterly (due last day of month following quarter) | WAC 458-20-22801 |
-| Over $420,000/year | Monthly (due 25th of following month) | WAC 458-20-22801 |
+| Less than $28,000/year and less than $4,200/month tax liability | Annual (due April 15) | WAC 458-20-22801 | (not yet confirmed)
+| $28,000 -- $420,000/year | Quarterly (due last day of month following quarter) | WAC 458-20-22801 | (not yet confirmed)
+| Over $420,000/year | Monthly (due 25th of following month) | WAC 458-20-22801 | (not yet confirmed)
 
 ---
 
@@ -93,15 +93,15 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 | Item | Amount | Source |
 |------|--------|--------|
 | Maximum credit (service/other at 1.5%) | $70 per month / $210 per quarter / $840 per year | RCW 82.04.4451 |
-| Phase-in range (service/other) | Gross income $0 -- $250,000/year | RCW 82.04.4451 |
-| Phase-out complete | Gross income > $250,000/year | RCW 82.04.4451 |
+| Phase-in range (service/other) | Gross income $0 -- $250,000/year | RCW 82.04.4451 | (not yet confirmed)
+| Phase-out complete | Gross income > $250,000/year | RCW 82.04.4451 | (not yet confirmed)
 
-The SBC is designed to reduce the tax burden on small businesses. It is computed separately for each B&O classification. The credit phases out as gross income approaches $250,000 per year.
+The SBC is designed to reduce the tax burden on small businesses. It is computed separately for each B&O classification. The credit phases out as gross income approaches $250,000 per year. (not yet confirmed)
 
 **SBC formula (service/other, annual):**
-- If gross income <= $125,000: full credit ($840/year)
-- If gross income > $125,000 and <= $250,000: credit = $840 x (1 - (gross income - $125,000) / $125,000)
-- If gross income > $250,000: no credit
+- If gross income <= $125,000: full credit ($840/year) (not yet confirmed)
+- If gross income > $125,000 and <= $250,000: credit = $840 x (1 - (gross income - $125,000) / $125,000) (not yet confirmed)
+- If gross income > $250,000: no credit (not yet confirmed)
 
 ---
 
@@ -174,10 +174,10 @@ Several Washington cities impose their own B&O taxes in addition to the state B&
 
 | City | Rate (service/other) | Filing |
 |------|---------------------|--------|
-| Seattle | 0.415% (most services) | FileLocal or city portal |
-| Tacoma | 0.200% | FileLocal |
-| Bellevue | 0.150% | FileLocal |
-| Everett | 0.100% | FileLocal |
+| Seattle | 0.415% (most services) | FileLocal or city portal | (not yet confirmed)
+| Tacoma | 0.200% | FileLocal | (not yet confirmed)
+| Bellevue | 0.150% | FileLocal | (not yet confirmed)
+| Everett | 0.100% | FileLocal | (not yet confirmed)
 
 City B&O taxes are NOT reported on the state Combined Excise Tax Return. They are filed separately, often through the FileLocal portal.
 
@@ -187,7 +187,7 @@ The occasional sale of tangible personal property is generally not subject to B&
 
 ### E-7: Nexus for out-of-state businesses
 
-Physical presence or economic nexus (> $100,000 in receipts from Washington sources) triggers B&O tax filing obligations. **Source:** RCW 82.04.067.
+Physical presence or economic nexus (> $100,000 in receipts from Washington sources) triggers B&O tax filing obligations. **Source:** RCW 82.04.067. (not yet confirmed)
 
 ---
 
@@ -195,27 +195,27 @@ Physical presence or economic nexus (> $100,000 in receipts from Washington sour
 
 ### Test 1: Freelance consultant
 
-- **Input:** Software consultant, all service income in WA. Gross income: $100,000/year.
+- **Input:** Software consultant, all service income in WA. Gross income: $100,000/year. (not yet confirmed)
 - **Expected:** B&O tax: $100,000 x 1.50% = $1,500. SBC: $840 x (1 - ($100,000 - $125,000)/$125,000) -- since $100,000 < $125,000, full credit = $840. Net tax: $660.
 
 ### Test 2: Above SBC phase-out
 
-- **Input:** Consultant with $300,000 gross income, all service/other.
+- **Input:** Consultant with $300,000 gross income, all service/other. (not yet confirmed)
 - **Expected:** B&O tax: $300,000 x 1.50% = $4,500. SBC: $0 (above $250,000). Net tax: $4,500.
 
 ### Test 3: Retailer
 
-- **Input:** Online retailer. Gross receipts from WA sales: $200,000.
+- **Input:** Online retailer. Gross receipts from WA sales: $200,000. (not yet confirmed)
 - **Expected:** B&O tax: $200,000 x 0.471% = $942. SBC for retailing computed separately.
 
 ### Test 4: Mixed classification
 
-- **Input:** Software company. Canned software sales: $150,000 (retailing). Custom development: $100,000 (service/other).
+- **Input:** Software company. Canned software sales: $150,000 (retailing). Custom development: $100,000 (service/other). (not yet confirmed)
 - **Expected:** Retailing B&O: $150,000 x 0.471% = $706.50. Service B&O: $100,000 x 1.50% = $1,500. SBC computed per classification. Total before SBC: $2,206.50.
 
 ### Test 5: Gross vs. net trap
 
-- **Input:** Consultant with $200,000 gross income and $80,000 in expenses.
+- **Input:** Consultant with $200,000 gross income and $80,000 in expenses. (not yet confirmed)
 - **Expected:** B&O tax on FULL $200,000, NOT $120,000. Tax: $200,000 x 1.50% = $3,000.
 
 ---
@@ -224,7 +224,7 @@ Physical presence or economic nexus (> $100,000 in receipts from Washington sour
 
 - **P-1:** Do NOT deduct business expenses from gross income for B&O computation. The tax is on gross receipts.
 - **P-2:** Do NOT apply a single B&O rate to all income. Each classification has its own rate.
-- **P-3:** Do NOT claim the SBC for classifications where annual gross income exceeds $250,000.
+- **P-3:** Do NOT claim the SBC for classifications where annual gross income exceeds $250,000. (not yet confirmed)
 - **P-4:** Do NOT report city B&O taxes on the state Combined Excise Tax Return. They are separate filings.
 - **P-5:** Do NOT confuse B&O tax with retail sales tax. They are separate obligations; a business may owe both.
 - **P-6:** Do NOT assume SaaS classification is settled. Flag for reviewer if SaaS revenue is material.

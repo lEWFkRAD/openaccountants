@@ -57,8 +57,8 @@ If you skip step 1 and collect anyway, you hold state money without an account t
 
 | Item | 2026 value | Source |
 | --- | --- | --- |
-| State retail sales tax rate | 6.5% | [DOR retail sales tax](https://dor.wa.gov/taxes-rates/retail-sales-tax); statute [RCW 82.08.020](https://app.leg.wa.gov/RCW/default.aspx?cite=82.08.020) ("six and five-tenths percent") |
-| State use tax rate | 6.5% plus the local use tax rate | [DOR use tax](https://dor.wa.gov/taxes-rates/use-tax) |
+| State retail sales tax rate | 6.5% | [DOR retail sales tax](https://dor.wa.gov/taxes-rates/retail-sales-tax); statute [RCW 82.08.020](https://app.leg.wa.gov/RCW/default.aspx?cite=82.08.020) ("six and five-tenths percent") | (not yet confirmed)
+| State use tax rate | 6.5% plus the local use tax rate | [DOR use tax](https://dor.wa.gov/taxes-rates/use-tax) | (not yet confirmed)
 | Local rate | Varies by city and county; look it up by address | [DOR sales and use tax rates](https://dor.wa.gov/taxes-rates/sales-use-tax-rates) |
 
 The statute taxes retail sales of tangible personal property, digital goods, digital codes, digital automated services, retail services, extended warranties to consumers, and anything else defined as a retail sale.
@@ -67,25 +67,25 @@ The statute taxes retail sales of tangible personal property, digital goods, dig
 
 | Location | Location code | Local rate | State rate | Combined rate |
 | --- | --- | --- | --- | --- |
-| Seattle | 1726 | 4.05% | 6.5% | 10.55% |
-| Tacoma | 2717 | 4.0% | 6.5% | 10.5% |
-| Olympia | 3403 | 3.5% | 6.5% | 10% |
-| Spokane (city) | 3210 | 2.6% | 6.5% | 9.1% |
-| Vancouver | 0605 | 2.4% | 6.5% | 8.9% |
-| Edmonds and Lynnwood (highest on this list) | 3104, 3110 | 4.2% | 6.5% | 10.7% |
+| Seattle | 1726 | 4.05% | 6.5% | 10.55% | (not yet confirmed)
+| Tacoma | 2717 | 4.0% | 6.5% | 10.5% | (not yet confirmed)
+| Olympia | 3403 | 3.5% | 6.5% | 10% | (not yet confirmed)
+| Spokane (city) | 3210 | 2.6% | 6.5% | 9.1% | (not yet confirmed)
+| Vancouver | 0605 | 2.4% | 6.5% | 8.9% | (not yet confirmed)
+| Edmonds and Lynnwood (highest on this list) | 3104, 3110 | 4.2% | 6.5% | 10.7% | (not yet confirmed)
 
-Combined rates across the state run from 7.6% to 10.7% this quarter. The same rates applied from 1 July 2026. Never hard-code these: DOR publishes new rates each quarter, and a single address can sit in a transit or benefit area with its own code. Use the lookup tool for every address.
+Combined rates across the state run from 7.6% to 10.7% this quarter. The same rates applied from 1 July 2026. Never hard-code these: DOR publishes new rates each quarter, and a single address can sit in a transit or benefit area with its own code. Use the lookup tool for every address. (not yet confirmed)
 
 ### Who must register ([DOR remote sellers](https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers))
 
 | Seller | Must register and collect when | Source |
 | --- | --- | --- |
-| Remote seller (no physical presence, not a facilitator) | In the current or prior calendar year it has **more than** $100,000 in combined gross receipts sourced or attributed to Washington, or it is organized or commercially domiciled in Washington | [Remote sellers](https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers) |
+| Remote seller (no physical presence, not a facilitator) | In the current or prior calendar year it has **more than** $100,000 in combined gross receipts sourced or attributed to Washington, or it is organized or commercially domiciled in Washington | [Remote sellers](https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers) | (not yet confirmed)
 | Remote marketplace seller | Same test; if all retail sales run through a facilitator that collects, no sales tax to collect, but B&O filing continues | [Marketplace sellers](https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/marketplace-sellers) |
-| Marketplace facilitator | More than $100,000 in combined gross receipts sourced or attributed to Washington, or physical presence, or marketplace sellers with physical presence in Washington, or organized or domiciled in Washington | [Marketplace facilitators](https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/marketplace-facilitators) |
+| Marketplace facilitator | More than $100,000 in combined gross receipts sourced or attributed to Washington, or physical presence, or marketplace sellers with physical presence in Washington, or organized or domiciled in Washington | [Marketplace facilitators](https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/marketplace-facilitators) | (not yet confirmed)
 | Seller with physical presence | Always, even without meeting an economic threshold | [Marketplace sellers](https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/marketplace-sellers) |
 
-How the $100,000 test works (same source):
+How the $100,000 test works (same source): (not yet confirmed)
 - It counts **all** Washington income: retailing, wholesaling, services and other apportionable activities, not only retail sales.
 - It includes sales through a facilitator, through your own website or otherwise, and it includes exempt sales.
 - Once met, you collect and report for the rest of the current year and the following calendar year.
@@ -97,11 +97,11 @@ Marketplace facilitators must also send each seller a report of its Washington s
 
 | Frequency | Annual tax liability |
 | --- | --- |
-| Annual | $1,050 or less |
-| Quarterly | $1,051 to $4,800 |
-| Monthly | $4,801 or more |
+| Annual | $1,050 or less | (not yet confirmed)
+| Quarterly | $1,051 to $4,800 | (not yet confirmed)
+| Monthly | $4,801 or more | (not yet confirmed)
 
-DOR assigns the frequency when you register, based on estimated yearly business income; you can ask for a change. A business that does not collect retail sales tax and has B&O gross income under $125,000 a year (calendar years from 1 January 2023) may qualify for active non-reporting status. A seller that must collect sales tax does not qualify.
+DOR assigns the frequency when you register, based on estimated yearly business income; you can ask for a change. A business that does not collect retail sales tax and has B&O gross income under $125,000 a year (calendar years from 1 January 2023) may qualify for active non-reporting status. A seller that must collect sales tax does not qualify. (not yet confirmed)
 
 ### What is taxable: boundary and exception table
 
@@ -200,7 +200,7 @@ Exceptions, sourced to the seller's location even when delivered: sales of motor
 Rates are the Q4 2026 combined rates from the table above. Amounts are hypothetical.
 
 1. **Shipped sale.** A Seattle retailer sells a $1,000 laptop delivered to a customer in Spokane (city) on 5 November 2026. Destination sourcing applies: $1,000 × 9.1% = $91.00. If the customer instead collects it at the Seattle shop: $1,000 × 10.55% = $105.50.
-2. **Remote seller threshold.** An Oregon seller has no Washington presence. In 2026 its Washington sales are $80,000 direct plus $30,000 through a marketplace, $110,000 in all, and it passes $100,000 on 20 August 2026. $110,000 is more than $100,000, so it must register. It did not meet the test in 2025, so it starts collecting on 1 October 2026, the first month starting at least 30 days after 20 August. It deducts the marketplace sales on the return because the facilitator collects on them. Had its total been exactly $100,000, with no other link to Washington, the receipts test would not be met, because the test is more than $100,000.
+2. **Remote seller threshold.** An Oregon seller has no Washington presence. In 2026 its Washington sales are $80,000 direct plus $30,000 through a marketplace, $110,000 in all, and it passes $100,000 on 20 August 2026. $110,000 is more than $100,000, so it must register. It did not meet the test in 2025, so it starts collecting on 1 October 2026, the first month starting at least 30 days after 20 August. It deducts the marketplace sales on the return because the facilitator collects on them. Had its total been exactly $100,000, with no other link to Washington, the receipts test would not be met, because the test is more than $100,000. (not yet confirmed)
 3. **IT services after ESSB 5814.** A Tacoma IT firm bills a Tacoma business $5,000 for help-desk support in November 2026: $5,000 × 10.5% = $525.00 sales tax, plus retailing B&O on the gross amount. If the same client were a Tacoma school district, the sale is exempt from 1 July 2026 with the school's exemption certificate.
 4. **Existing contract.** A support contract was signed on 15 September 2025, the services continue after 1 October 2025, and it is billed monthly. It counts as an "existing" contract only because it was signed before 1 October 2025, the services continue on or after that date, and they became retail sales on that date. While its terms stay unaltered, DOR allowed the old treatment (service B&O, no sales tax) through 31 March 2026. For reporting periods beginning on or after 1 April 2026 the firm must collect sales tax on those bills. If the contract is materially altered after 1 October 2025 (for example parties added, removed or exchanged, a change to the services, the parties' rights or obligations, the term, the contract amount or the period), it is taxable under retailing B&O and retail sales tax from the date of the change; a minor change such as a new notice email address is not an alteration. A seller that chose to report under retailing B&O from 1 October 2025 must also collect sales tax. A contract signed and fully paid before 1 October 2025 is treated as a sale before that date and is not taxed. Source: [DOR existing contracts guidance](https://dor.wa.gov/laws-rules/interim-guidance-statement-regarding-contracts-existing-prior-october-1-2025-and-changes-made-essb).
 5. **Use tax.** An Olympia business buys a $3,000 printer from an Oregon store that charges no sales tax and first uses it in Olympia: $3,000 × 10% = $300.00 use tax, reported on its excise tax return.
@@ -214,9 +214,9 @@ Rates are the Q4 2026 combined rates from the table above. Amounts are hypotheti
 
 | Frequency | Due date |
 | --- | --- |
-| Monthly | The 25th of the following month (the June return is due July 25) |
-| Quarterly | The last day of the month after the quarter: April 30, July 31, October 31, January 31 |
-| Annual | April 15 of the next year |
+| Monthly | The 25th of the following month (the June return is due July 25) | (not yet confirmed)
+| Quarterly | The last day of the month after the quarter: April 30, July 31, October 31, January 31 | (not yet confirmed)
+| Annual | April 15 of the next year | (not yet confirmed)
 
 If a due date falls on a weekend or legal holiday, it moves to the next business day. Extensions must be requested before the due date ([DOR late filing](https://dor.wa.gov/file-pay-taxes/late-filing)).
 
@@ -232,16 +232,16 @@ If a due date falls on a weekend or legal holiday, it moves to the next business
 
 | Situation | Penalty |
 | --- | --- |
-| Tax on a return not paid by the due date | 9% of the tax |
-| Not paid by the last day of the month after the due date | 19% in total |
-| Not paid by the last day of the second month after the due date | 29% in total |
+| Tax on a return not paid by the due date | 9% of the tax | (not yet confirmed)
+| Not paid by the last day of the month after the due date | 19% in total | (not yet confirmed)
+| Not paid by the last day of the second month after the due date | 29% in total | (not yet confirmed)
 | Minimum for each of the above | $5 |
 | Substantial underpayment found by DOR (paid less than 80 percent of the tax due, and the underpayment is at least $1,000) | 5% |
-| Assessment not paid by the notice due date | 15% in total; 25% in total if not paid by the 30th day after it |
+| Assessment not paid by the notice due date | 15% in total; 25% in total if not paid by the 30th day after it | (not yet confirmed)
 | Warrant issued for collection | 10%, minimum $10 |
-| Doing taxable business without registering (not imposed if you register before DOR contacts you) | 5% |
-| Disregarding specific written instructions from DOR, or willfully disregarding the electronic filing and payment requirement | 10% |
-| Deficiency from a transaction DOR disregards | 35% of the resulting additional tax |
+| Doing taxable business without registering (not imposed if you register before DOR contacts you) | 5% | (not yet confirmed)
+| Disregarding specific written instructions from DOR, or willfully disregarding the electronic filing and payment requirement | 10% | (not yet confirmed)
+| Deficiency from a transaction DOR disregards | 35% of the resulting additional tax | (not yet confirmed)
 | Intent to evade | 50% of the additional tax |
 
 The late-payment, substantial-underpayment, warrant and unregistered penalties can each be imposed on the same tax. The evasion penalty cannot be combined with the written-instructions penalty or the disregarded-transaction penalty on the same tax.
@@ -273,7 +273,7 @@ Interest also runs on unpaid tax, at a rate that changes every year ([DOR late f
 
 ## Completion checklist
 
-- [ ] Registration decided: physical presence, the more-than-$100,000 receipts test (all receipts, exempt and marketplace sales included), or domicile
+- [ ] Registration decided: physical presence, the more-than-$100,000 receipts test (all receipts, exempt and marketplace sales included), or domicile (not yet confirmed)
 - [ ] Every product line classified, including the ESSB 5814 services, the 1 July 2026 exclusions and the school and library exemption
 - [ ] Each sale sourced by DOR's rules; exceptions (vehicles, towing, florists) checked
 - [ ] Rate taken from the lookup tool for the correct quarter and location code
