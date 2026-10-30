@@ -2,7 +2,7 @@
 name: md-cross-border
 description: >
   Use this skill whenever asked about Maryland cross-border personal tax for
-  tax year 2026 — part-year and nonresident Form 505, the 24-county local
+  tax year 2026 -- part-year and nonresident Form 505, the 24-county local
   tax structure and the 2.25% Special Nonresident Tax in lieu of county tax
   (Tax-General §10-106.1), reciprocity exemptions for DC/PA/VA/WV resident
   wage earners, nonresident real-estate withholding (Form MW506NRS), and the
@@ -33,7 +33,7 @@ depends_on:
 
 Covers how Maryland taxes people and businesses that cross its border: individual part-year/nonresident filing (Form 505), the county-tax overlay for nonresidents (Special Nonresident Tax), the four reciprocal agreements, nonresident real-estate withholding, and the corporate cross-border posture. Out of scope: full resident computation (`md-income-tax`), employer withholding mechanics (`md-payroll`), corporate apportionment detail (`md-corporate-income-tax`, `md-transfer-pricing`).
 
-**Source status:** the Comptroller 2024 Corporation Tax Booklet (real-estate withholding reference) verified 200 and read 2026-10-27. The 2025 Form 505 instruction PDF returned 404 from the drafting environment — Form 505 procedural specifics are; the 2.25% Special Nonresident Tax, county-rate range 2.25%–3.20%, and the DC/PA/VA/WV reciprocity list are corroborated by the existing tier-2 `md-payroll` skill (statutory cite Tax-General §10-106.1) and must be re-verified against the current 505 instructions before filing.
+**Source status:** the Comptroller 2024 Corporation Tax Booklet (real-estate withholding reference) verified 200 and read 2026-10-27. The 2025 Form 505 instruction PDF returned 404 from the drafting environment -- Form 505 procedural specifics are; the 2.25% Special Nonresident Tax, county-rate range 2.25%–3.20%, and the DC/PA/VA/WV reciprocity list are corroborated by the existing tier-2 `md-payroll` skill (statutory cite Tax-General §10-106.1) and must be re-verified against the current 505 instructions before filing.
 
 ## Rates, bands and thresholds
 
@@ -41,7 +41,7 @@ Covers how Maryland taxes people and businesses that cross its border: individua
 - **Part-year and nonresident individuals** with Maryland-source income (wages for days worked in Maryland, Maryland real property gains, etc.) file **Form 505** when they meet the filing thresholds. (Corroborated by `md-payroll`; 505 instructions.)
 - **Reciprocal-state residents** (DC, Pennsylvania, Virginia, West Virginia): Maryland-source **wages are exempt** from Maryland income tax under bilateral agreements; the resident pays only their home state. A PA resident *not* covered by reciprocity falls into the Special Nonresident Tax instead. (Corroborated by `md-payroll`.)
 - **Other-state residents** working in Maryland: taxed on Maryland-source income at graduated state rates **plus the 2.25% Special Nonresident Tax** in lieu of the county tax (Tax-General §10-106.1, per `md-payroll`).
-- **Nonresident sellers of Maryland real property:** withholding regime via **Form MW506NRS** — the buyer/payer withholds state income tax on the sale unless waived; the seller settles on a Form 505 or declares estimated payments. (Booklet line-15 reference to MW506NRS, read 2026-10-27; waiver mechanics.)
+- **Nonresident sellers of Maryland real property:** withholding regime via **Form MW506NRS** -- the buyer/payer withholds state income tax on the sale unless waived; the seller settles on a Form 505 or declares estimated payments. (Booklet line-15 reference to MW506NRS, read 2026-10-27; waiver mechanics.)
 - **Corporations:** no combined return; federal consolidated members file separate Maryland returns (see `md-transfer-pricing`).
 
 ## The taxable base
@@ -62,26 +62,26 @@ Base for Form 505: Maryland-source income, with the federal return attached; all
 
 - Form 505 follows the individual return calendar: **15 April** for calendar-year filers (505 instructions; date is the universal US individual norm and matches `md-income-tax`).
 - MW506NRS withholding is due at closing; the seller's settlement return can be filed within 3 years of closing to reclaim over-withheld tax (waiver/settlement mechanics).
-- Reciprocity exemption at payroll level: employee files the exemption certification with the employer (MD form **MW507B** — for the current form number).
+- Reciprocity exemption at payroll level: employee files the exemption certification with the employer (MD form **MW507B** -- for the current form number).
 
 ## Penalties and interest
 
 
-- Missed Maryland filing by a nonresident carries the ordinary regime: interest **11.4825%** annually after 2024 (Corporation Tax Booklet, read 2026-10-27 — same statutory rate applies across Comptroller taxes), late-filing penalty up to 25% (Tax-General §13-701,). (not yet confirmed)
+- Missed Maryland filing by a nonresident carries the ordinary regime: interest **11.4825%** annually after 2024 (Corporation Tax Booklet, read 2026-10-27 -- same statutory rate applies across Comptroller taxes), late-filing penalty up to 25% (Tax-General §13-701,). (not yet confirmed)
 - Employers who withhold Maryland tax for reciprocal-state residents instead of honoring the exemption create employee refunds, not entity penalties; employers who *fail* to withhold for nonreciprocal nonresidents face §13-704 assessments (per `md-payroll`).
 
 ## Cross-border points
 
 
 - **DC/VA/MD commuter:** no MD tax on wages (reciprocity); remote work performed in VA/DC for a MD employer is VA/DC-source, not MD-source.
-- **PA/MD:** reciprocity covers wages only — a PA resident with Maryland rental income or business income files Form 505 for that income and pays the 2.25% special nonresident tax on it.
-- **No convenience-of-the-employer rule** was found for Maryland in the sources read; Maryland sources wages by where services are performed (contrast New Jersey — see `nj-cross-border`).
-- Moving to/from Maryland: part-year Form 505 plus proration; final-rule domicile tests are fact-heavy — flag for review.
+- **PA/MD:** reciprocity covers wages only -- a PA resident with Maryland rental income or business income files Form 505 for that income and pays the 2.25% special nonresident tax on it.
+- **No convenience-of-the-employer rule** was found for Maryland in the sources read; Maryland sources wages by where services are performed (contrast New Jersey -- see `nj-cross-border`).
+- Moving to/from Maryland: part-year Form 505 plus proration; final-rule domicile tests are fact-heavy -- flag for review.
 
 ## Worked examples
 
 
-**Example 1 — PA commuter, reciprocity.** A Pennsylvania resident earns $120,000 working in Baltimore County, Maryland, all wages, 2026. (not yet confirmed)
+**Example 1 -- PA commuter, reciprocity.** A Pennsylvania resident earns $120,000 working in Baltimore County, Maryland, all wages, 2026. (not yet confirmed)
 
 ```oa-check
 name: MD reciprocal exemption
@@ -96,7 +96,7 @@ expected:
 
 Maryland tax **$0** with a valid MW507B exemption; PA taxes the wages. Without the exemption, Maryland would assess state rates + 2.25% and the commuter would need a refund claim.
 
-**Example 2 — NY resident working 60 of 240 workdays in Maryland.** Wages $180,000; Maryland-source share by workdays. (not yet confirmed)
+**Example 2 -- NY resident working 60 of 240 workdays in Maryland.** Wages $180,000; Maryland-source share by workdays. (not yet confirmed)
 
 ```oa-check
 name: MD nonresident wage allocation
@@ -121,9 +121,9 @@ The $3,600 is an upper-bound at top marginal rates (Maryland's graduated bracket
 
 1. Where is domicile, and did a move create a part-year? Which side of the 30-day/final-rule facts apply?
 2. Is the employee in a reciprocal state, and is the exemption certification on file with payroll?
-3. Any Maryland real property sale by a nonresident — was MW506NRS withheld, and is a settlement return worth filing?
-4. Non-wage Maryland-source income (rental, business, gains) for a nonresident — Form 505 plus 2.25% special tax modeled?
-5. Days-worked logs for remote commuters — who tracks them?
+3. Any Maryland real property sale by a nonresident -- was MW506NRS withheld, and is a settlement return worth filing?
+4. Non-wage Maryland-source income (rental, business, gains) for a nonresident -- Form 505 plus 2.25% special tax modeled?
+5. Days-worked logs for remote commuters -- who tracks them?
 
 ## Sources
 
@@ -143,4 +143,4 @@ No Maryland-specific rule was found in the sources read for this topic.
 
 ### Talk to a verified accountant
 
-**Talk to a verified accountant** — for Maryland questions on live client facts, book time with an OA Partner.
+**Talk to a verified accountant** -- for Maryland questions on live client facts, book time with an OA Partner.

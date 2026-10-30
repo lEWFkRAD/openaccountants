@@ -53,10 +53,10 @@ Maryland retail sales and use tax on tangible personal property and certain digi
 | Digital advertising (separate tax) | TAXABLE | Maryland Digital Advertising Gross Revenues Tax -- separate from sales tax |
 
 ## Deadlines and filing
-Monthly/quarterly returns per Comptroller assignment (cadence not yet confirmed — see Sources).
+Monthly/quarterly returns per Comptroller assignment (cadence not yet confirmed -- see Sources).
 
 ## Penalties and interest
-10% annual interest on underpayments plus penalties (figures not yet confirmed — see Sources).
+10% annual interest on underpayments plus penalties (figures not yet confirmed -- see Sources).
 
 ## Cross-border points
 Remote-sale economic nexus; interstate sourcing under the Marketplace Fairness framework (thresholds not yet confirmed).
@@ -69,9 +69,9 @@ Where is the buyer located? Is the item exempt? Are you registered for out-of-st
 
 ## Common mistakes
 
-- **Prohibition on local taxes** — NEVER add local taxes -- Maryland has none.  _(unsure)_
-- **Prohibition on confusing Digital Advertising Tax with sales tax** — NEVER confuse the Digital Advertising Tax with sales tax -- they are separate.  _(unsure)_
-- **Prohibition on computing numbers** — NEVER compute any number.  _(unsure)_
+- **Prohibition on local taxes** -- NEVER add local taxes -- Maryland has none.  _(unsure)_
+- **Prohibition on confusing Digital Advertising Tax with sales tax** -- NEVER confuse the Digital Advertising Tax with sales tax -- they are separate.  _(unsure)_
+- **Prohibition on computing numbers** -- NEVER compute any number.  _(unsure)_
 
 ### Disclaimer
 
@@ -86,11 +86,11 @@ This skill and its outputs are provided for informational and computational purp
 | --- | --- | --- |
 
 
-Not yet confirmed: rate tables, nexus thresholds, penalty percentages — no machine-readable archive captured this run.
+Not yet confirmed: rate tables, nexus thresholds, penalty percentages -- no machine-readable archive captured this run.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 

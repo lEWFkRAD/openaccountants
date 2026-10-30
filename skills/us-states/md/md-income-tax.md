@@ -119,7 +119,7 @@ Source: [Exemption Amount Chart 10A](https://www.marylandtaxes.gov/content/dam/m
 
 ### Local (county and Baltimore City) income tax ([2026 rates](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf); [2025 rates](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/resident-booklet.pdf))
 
-Local tax is a percentage of the same Maryland taxable net income (Line 20). A county may set a rate of at least 2.25% and, from tax years beginning after 31 December 2025, not more than 3.30% (previously 3.20%) — § 10-106(a)(1) as archived 2026-10-28: "a county income tax equal to at least 2.25% but not more than 3.30% of an individual's Maryland taxable income"; a public hearing is required before a county exceeds 2.6%. Only Dorchester used the one-year option to charge 3.30% for 2025. Counties may use brackets, but no bracket may be below 2.25% and a higher bracket may not carry a lower rate. [§ 10-106](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false)
+Local tax is a percentage of the same Maryland taxable net income (Line 20). A county may set a rate of at least 2.25% and, from tax years beginning after 31 December 2025, not more than 3.30% (previously 3.20%) -- § 10-106(a)(1) as archived 2026-10-28: "a county income tax equal to at least 2.25% but not more than 3.30% of an individual's Maryland taxable income"; a public hearing is required before a county exceeds 2.6%. Only Dorchester used the one-year option to charge 3.30% for 2025. Counties may use brackets, but no bracket may be below 2.25% and a higher bracket may not carry a lower rate. [§ 10-106](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106&enactments=false)
 
 | Jurisdiction | 2025 | 2026 |
 | --- | --- | --- |
@@ -296,7 +296,7 @@ Not yet confirmed: the final indexed 2026 standard deduction and pension-exclusi
 ## Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

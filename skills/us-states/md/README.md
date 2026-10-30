@@ -1,4 +1,4 @@
-# Maryland — OpenAccountants Tax Skills
+# Maryland -- OpenAccountants Tax Skills
 
 | Field | Value |
 |---|---|
@@ -7,13 +7,13 @@
 | Income tax | Yes |
 | Sales tax | Yes |
 | Franchise / gross receipts tax | No |
-| Quality tier | Q3 — AI-drafted, not independently verified |
+| Quality tier | Q3 -- AI-drafted, not independently verified |
 
 ## Files in this folder
 | File | What it covers |
 |---|---|
 | `md-income-tax.md` | Maryland individual income tax (graduated 2%–6.50% state + county piggyback 2.25%–3.20%) for self-employed / sole proprietors. Form 502. |
-| `md-sales-tax.md` | Maryland sales and use tax — 6% state rate. | (not yet confirmed)
+| `md-sales-tax.md` | Maryland sales and use tax -- 6% state rate. | (not yet confirmed)
 | `md-corporate-income-tax.md` | Corporate income tax (Form 500, 8.25%, surtax, minimum tax, estimates, penalties) |
 | `md-social-contributions.md` | Social contributions (employer UI, FAMLI from 2027; no state FICA) |
 | `md-transfer-pricing.md` | Transfer pricing / related-party overlay (no combined return, addback regime) |
