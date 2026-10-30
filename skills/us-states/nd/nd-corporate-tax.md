@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 North Dakota imposes a graduated corporate income tax under N.D.C.C. Chapter 57-38 (the Income Tax Act of 1981) at three statutory brackets: **1.41% on the first $25,000**, **3.55% on the next $25,000 (to $50,000)**, and **4.31% on income above $50,000** [VERIFY: NDCC § 57-38-30 for TY 2025 thresholds]. ND does **not** impose a separate corporate franchise tax (contrast NC, TX, DE) and does **not** currently offer a pass-through entity tax (PTET) election — leaving ND S-corp and partnership owners without a federal SALT-cap workaround. The corporation return is **Form 40**, due the 15th day of the 4th month after year-end. ND apportions corporate income using a **three-factor formula** (property, payroll, sales) with the **sales factor double-weighted** by default and an optional **single-sales-factor election** for qualifying taxpayers [VERIFY: NDCC § 57-38.1-09 / Form 40 instructions]. The Oil Extraction Tax (NDCC § 57-51.1) and Oil & Gas Gross Production Tax (NDCC § 57-51) are **severance taxes computed at the well** and are **not** part of the entity-level CIT — they are mentioned here only because new ND practitioners frequently confuse them with corporate income tax. Tax year 2025.
 
-## 1. Scope
+## Who this applies to
 
 This skill covers North Dakota state-level entity-level income tax:
 
@@ -71,7 +71,7 @@ This skill covers North Dakota state-level entity-level income tax:
 6. **Form 40 Corporation Income Tax Booklet (2025)** — ND Office of State Tax Commissioner.
 7. **Form 40 Vendor Version (2025)** — referenced for line-level detail.
 
-## 3. Quick Reference (TY 2025)
+## Rates, bands and thresholds
 
 **Quick Reference table**  _(NDCC § 57-38-30 / Form 40 instructions)_
 
@@ -505,7 +505,7 @@ Total entity-level ND tax              ~$5M+
 
 **Takeaway — audit flash point.** The severance taxes are vastly larger than the CIT for an ND oil producer and are governed by entirely separate statutes and forms. A new ND practitioner who attempts to net severance tax against CIT, or to claim a CIT credit, will produce a materially wrong return. The two regimes are independent. The only interaction is that the severance taxes are federally deductible (reducing federal taxable income, which is the starting point for ND CIT). For the actual severance computation, refer to a dedicated `nd-oil-extraction-tax` skill (not yet authored as of v0.1).
 
-## 12. Quick Reference Summary Table
+### 12. Quick Reference Summary Table
 
 **Quick Reference Summary Table**
 
@@ -546,7 +546,7 @@ Total entity-level ND tax              ~$5M+
 - **ND Indian Country tax issues** — ND Indian Country tax issues (tribal sovereignty, tax-immunity questions on reservation activity for the Three Affiliated Tribes / Standing Rock / Spirit Lake / Turtle Mountain / Trenton Indian Service Area). Highly fact-specific; refer to tribal-law specialist.
 - **Renaissance Zone / Opportunity Zone tax credits** — Renaissance Zone / Opportunity Zone tax credits under NDCC Ch. 40-63 — not addressed in this v0.1; refer to a dedicated ND credits skill.  _(NDCC Ch. 40-63)_
 
-## 14. Provenance and Authority
+### 14. Provenance and Authority
 
 ### 14.1 Primary statutory authority
 
@@ -620,7 +620,7 @@ entire skill (rate brackets, apportionment weighting, sourcing rules, NOL parame
 - **Re-verification requirement** — All statutory rate, threshold, and apportionment claims must be re-verified against the cited statute on each filing-season run.
 - **Form line renumbering** — ND form line numbers may change year-to-year; cross-tie to the current-year Form 40 booklet before relying on line-level guidance in production.
 
-Worked examples are illustrative; precise mechanics on the actual Form 40 / Schedule SA may differ in line ordering and rounding conventions.
+Worked examples are hypothetical; precise mechanics on the actual Form 40 / Schedule SA may differ in line ordering and rounding conventions.
 
 This skill is **not** a substitute for credentialed reviewer signoff under the OpenAccountants verification model.
 
@@ -644,16 +644,55 @@ For the reviewer's quick scan:
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

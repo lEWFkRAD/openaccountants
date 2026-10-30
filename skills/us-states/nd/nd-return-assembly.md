@@ -602,7 +602,7 @@ treatment; else N/A]
 | ND-ASM-T2-11 | **Negative federal taxable income.** Form 1040 Line 15 can be negative (NOL carryforward, etc.). ND-1 Line 1 takes the federal figure as-is; an NOL may flow through. | Verify ND treatment of the federal NOL — ND generally conforms but verify carryforward documentation. Flag for reviewer. |
 | ND-ASM-T2-12 | **Oil & gas royalty interplay.** Royalties are federally taxable as ordinary income and embedded in Line 15. ND oil extraction tax is paid at the wellhead by the operator and is NOT a credit on ND-1. | Document the royalty source on ND-1 working papers; confirm no double-counting; do NOT produce any oil-extraction-tax filing. |
 
-## Section 11 — Worked example
+### Section 11 — Worked example
 
 **Facts.** Sarah Lindgren, single, age 42, full-year Fargo (ND) resident, sole proprietor (freelance software developer). Part of the year she also worked W-2 wages for a Moorhead, MN employer (reciprocity in play). 2025 facts:
 
@@ -935,7 +935,7 @@ equivalent licensed practitioner in your jurisdiction) before filing
 or acting upon.
 
 The most up-to-date, verified version of this skill is maintained at
-[openaccountants.com](https://openaccountants.com). Log in to access
+the OpenAccountants network. Log in to access
 the latest version, request a professional review from a licensed
 accountant, and track updates as tax law changes.
 
@@ -943,16 +943,63 @@ accountant, and track updates as tax law changes.
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Who this applies to
+
+Not yet confirmed against archived sources.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
