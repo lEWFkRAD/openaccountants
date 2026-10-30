@@ -2,7 +2,7 @@
 name: ar-payroll-withholding
 description: >
   Use this skill whenever asked about Arkansas payroll withholding
-  for tax year 2026 — the DFA Withholding Tax Branch, the 2026
+  for tax year 2026 -- the DFA Withholding Tax Branch, the 2026
   formula-method withholding tables and the employee certificate
   (AR W4EC), corporate (Sub-S) withholding, the pass-through entity
   (PET) withholding regime, composite filing for non-resident
@@ -46,27 +46,27 @@ The formula method, effective 01/01/2026 ([2026 withholding formula](https://www
 
 | From | Less than or equal to | Percentage | Minus adjustment |
 |---|---|---|---|
-| $0 | $5,599 | 0.00% | — |
+| $0 | $5,599 | 0.00% | -- |
 | $5,600 | $11,199 | 2.00% | $111.98 |
 | $11,200 | $15,999 | 3.00% | $223.97 |
 | $16,000 | $26,399 | 3.40% | $287.97 |
 | $26,400 | $94,700 | 3.70% | $367.16 |
 
-From $94,701 the formula applies the bracket adjustment amounts ($369.90 at $94,701–$94,800, falling by $10 per $100 band), ending at a flat 3.7% minus $79.90 for income of $97,601 and over — the same shape as the Act 2 of 2026 rate tables in `ar-income-tax`. Employers using the printed withholding tables must read the tax from the table, not the formula.
+From $94,701 the formula applies the bracket adjustment amounts ($369.90 at $94,701–$94,800, falling by $10 per $100 band), ending at a flat 3.7% minus $79.90 for income of $97,601 and over -- the same shape as the Act 2 of 2026 rate tables in `ar-income-tax`. Employers using the printed withholding tables must read the tax from the table, not the formula.
 
 | Item | Value | Tax year | Source |
 |---|---|---|---|
 | Standard deduction used in the formula | $2,470 | 2026 | [2026 withholding formula](https://www.dfa.arkansas.gov/wp-content/uploads/Withholding-Tax-Formula.pdf) |
 | Top individual rate applied | 3.7% (from $26,400) | 2026 | [2026 withholding formula](https://www.dfa.arkansas.gov/wp-content/uploads/Withholding-Tax-Formula.pdf) |
-| Sub-S withholding rate | see Not yet confirmed | 2026 | — |
-| PET withholding rate | see Not yet confirmed | 2026 | — |
-| Deposit frequency tiers | see Not yet confirmed | 2026 | — |
+| Sub-S withholding rate | see Not yet confirmed | 2026 | -- |
+| PET withholding rate | see Not yet confirmed | 2026 | -- |
+| Deposit frequency tiers | see Not yet confirmed | 2026 | -- |
 
 ## The taxable base
 
 - **Individual wage withholding:** the formula annualizes period gross pay, subtracts the $2,470 standard deduction, applies the bracket, and divides the annual tax back by the pay periods. Below $100,001 of net taxable income the tax is read at the $50-range midpoint; at $100,001 and over the exact dollar figure is used ([2026 withholding formula](https://www.dfa.arkansas.gov/wp-content/uploads/Withholding-Tax-Formula.pdf)).
-- The formula brackets are the individual income tax brackets of Act 2 of the 2026 First Extraordinary Session (0% / 2% / 3% / 3.4% / 3.7% with a top marginal rate of 3.7%) — see `ar-income-tax` for the full rate tables, the personal tax credits ($29 / $58) and the low-income tables.
-- **Sub-S withholding and pass-through withholding** operate on distributions to non-resident members; the programs are administered by the Withholding Tax Branch and the Corporation Income Tax Section (DFA pages). Their rates and the deposit schedule are on the program forms — see Not yet confirmed.
+- The formula brackets are the individual income tax brackets of Act 2 of the 2026 First Extraordinary Session (0% / 2% / 3% / 3.4% / 3.7% with a top marginal rate of 3.7%) -- see `ar-income-tax` for the full rate tables, the personal tax credits ($29 / $58) and the low-income tables.
+- **Sub-S withholding and pass-through withholding** operate on distributions to non-resident members; the programs are administered by the Withholding Tax Branch and the Corporation Income Tax Section (DFA pages). Their rates and the deposit schedule are on the program forms -- see Not yet confirmed.
 
 ## Deadlines and filing
 
@@ -80,12 +80,12 @@ Withholding payments and filings run through ATAP; the branch also publishes bul
 
 ## Penalties and interest
 
-- Withholding failures draw the Arkansas penalty and interest provisions (ACA §26-18-208; the DFA Corporate FAQs confirm "failure to pay penalties at 5% per month" and interest of 10% per annum for corporation income tax, and the same title-26 procedure provisions govern withholding). The specific withholding-penalty percentages are on the AR 1000-WE instructions — see Not yet confirmed.
+- Withholding failures draw the Arkansas penalty and interest provisions (ACA §26-18-208; the DFA Corporate FAQs confirm "failure to pay penalties at 5% per month" and interest of 10% per annum for corporation income tax, and the same title-26 procedure provisions govern withholding). The specific withholding-penalty percentages are on the AR 1000-WE instructions -- see Not yet confirmed.
 - Common failure modes: (1) S-corp distributions paid without Sub-S withholding; (2) non-resident members filing nothing because the entity never withheld or filed composite; (3) missing the January 31 W-2/ARW-3 and February 28 AR3MAR deadlines.
 
 ## Cross-border points
 
-- **Non-resident members** of an Arkansas entity: the entity withholds (Pass-Through Tax Withholding), elects the PET, or files a composite return — the three programs are alternatives for the same non-resident member income (DFA Corporation Income Tax and Withholding Tax Branch pages).
+- **Non-resident members** of an Arkansas entity: the entity withholds (Pass-Through Tax Withholding), elects the PET, or files a composite return -- the three programs are alternatives for the same non-resident member income (DFA Corporation Income Tax and Withholding Tax Branch pages).
 - **Out-of-state employers** with Arkansas employees register for an Arkansas withholding account and remit through ATAP.
 - The individual income tax side of part-year/nonresident wages (proration, AR1000NR) is in `ar-income-tax`.
 
@@ -140,7 +140,7 @@ expected:
 | DFA, Corporation Income Tax (PET, Sub-S, composite program pages) | https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/corporation-income-tax/ | 2026-10-28 |
 | DFA, Corporate FAQs (penalty and interest provisions, EFT) | https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/corporation-income-tax/corporate-faqs/ | 2026-10-28 |
 
-Not yet confirmed: the Sub-S withholding rate and the PET withholding rate (the DFA pages list the programs but state no rates — pull the program forms before quoting); the withholding deposit frequency tiers and due dates (the branch's Due Dates page was not read); the withholding-specific penalty percentages on the AR 1000-WE instructions; whether Arkansas has withholding reciprocity with any neighboring state; the 2026 printed withholding tables themselves (only the formula method document was read).
+Not yet confirmed: the Sub-S withholding rate and the PET withholding rate (the DFA pages list the programs but state no rates -- pull the program forms before quoting); the withholding deposit frequency tiers and due dates (the branch's Due Dates page was not read); the withholding-specific penalty percentages on the AR 1000-WE instructions; whether Arkansas has withholding reciprocity with any neighboring state; the 2026 printed withholding tables themselves (only the formula method document was read).
 
 <!-- openaccountants-cta-block -->
 
@@ -148,7 +148,7 @@ Not yet confirmed: the Sub-S withholding rate and the PET withholding rate (the 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

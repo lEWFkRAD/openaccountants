@@ -2,7 +2,7 @@
 name: ar-unemployment-contributions
 description: >
   Use this skill whenever asked about Arkansas employer social
-  contributions for tax year 2026 — unemployment insurance
+  contributions for tax year 2026 -- unemployment insurance
   contributions administered by the Division of Workforce Services
   (Arkansas Division of Reemployment), the employer-only nature of
   the UI tax, the $7,000 taxable wage base, the 2026 rate table
@@ -27,14 +27,14 @@ depends_on:
 
 > **Source-cited draft.** Built from the Arkansas Division of Workforce Services (Arkansas Division of Reemployment) employer UI pages, read on 2026-10-28. No accountant has reviewed it. Do not run a payroll from it without review by a qualified Arkansas professional.
 
-Arkansas employer social contributions: unemployment insurance (UI) contributions under the Arkansas Unemployment Insurance Law (Title 11 — the DWS employer page cites "Title 11, Chapter 10"), administered by the **Division of Workforce Services (DWS)**; federal FICA/FUTA; and mandatory workers' compensation insurance. Arkansas has **no** state disability insurance, **no** paid family/medical leave contribution, and **no** state-mandated private retirement contribution. The UI tax is computed "on the wages paid to each employee on a calendar quarter basis" ([DWS, Employer UI Contributions](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/employer-ui-contributions/)).
+Arkansas employer social contributions: unemployment insurance (UI) contributions under the Arkansas Unemployment Insurance Law (Title 11 -- the DWS employer page cites "Title 11, Chapter 10"), administered by the **Division of Workforce Services (DWS)**; federal FICA/FUTA; and mandatory workers' compensation insurance. Arkansas has **no** state disability insurance, **no** paid family/medical leave contribution, and **no** state-mandated private retirement contribution. The UI tax is computed "on the wages paid to each employee on a calendar quarter basis" ([DWS, Employer UI Contributions](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/employer-ui-contributions/)).
 
 ## Who this applies to
 
 - **Employers** covered by the Arkansas Unemployment Insurance Law. If a service is not specifically exempt, it is covered by state unemployment insurance (DWS, Employer UI Contributions).
 - **Domestic employment** is exempt unless cash wages meet or exceed $1,000 in any calendar quarter, in which case the employer is liable for the whole calendar year and the following year (DWS, Employer UI Contributions).
 - **Agricultural employment** is exempt unless wages of $20,000 or more are paid in a calendar quarter or the employer has 10 or more workers in 20 calendar weeks (DWS, Employer UI Contributions).
-- The UI contribution is **employer-only** — "No, deductions are not made from your paycheck" (DWS UI FAQs: Arkansas employees pay no state UI tax).
+- The UI contribution is **employer-only** -- "No, deductions are not made from your paycheck" (DWS UI FAQs: Arkansas employees pay no state UI tax).
 - Workers' compensation is a separate insurance mandate, not a tax.
 - Out-of-state employers with Arkansas employees register with DWS; the wage base applies per employee per state.
 
@@ -56,24 +56,24 @@ Historical rates on the same DWS page, for context and prior-year reconciliation
 ## The taxable base
 
 - The UI tax is computed on wages paid to each employee on a calendar-quarter basis, up to the $7,000 taxable wage base per employee per calendar year (DWS, Employer UI Contributions).
-- "Wages" is all remuneration for personal services — salaries (including corporation officers' salaries), commissions, bonuses, fees, fringe benefits, sick pay, deferred compensation and tips reported to the employer (DWS, Employer UI Contributions).
+- "Wages" is all remuneration for personal services -- salaries (including corporation officers' salaries), commissions, bonuses, fees, fringe benefits, sick pay, deferred compensation and tips reported to the employer (DWS, Employer UI Contributions).
 - The employer's experience rate follows the reserve account: when an entire ongoing business is acquired, the previous owner's tax rate is assigned to the new owner; a rate may transfer when a business location is acquired (DWS, Employer UI Contributions).
-- The federal FUTA credit reduction status changes year by year — check the current US DOL list before accruing FUTA.
+- The federal FUTA credit reduction status changes year by year -- check the current US DOL list before accruing FUTA.
 
 ## Deadlines and filing
 
 - UI contributions are computed and paid by calendar quarter through the DWS Tax21 employer system; wage detail is reported quarterly (DWS, UI for Employers).
-- The DWS employer handbook has the filing calendar and report forms (DWS, UI for Employers). The exact statutory due date for each quarterly contribution report is on the DWS report forms — see Not yet confirmed.
+- The DWS employer handbook has the filing calendar and report forms (DWS, UI for Employers). The exact statutory due date for each quarterly contribution report is on the DWS report forms -- see Not yet confirmed.
 
 ## Penalties and interest
 
-- Late returns and late contributions draw penalties and interest under the Arkansas Unemployment Insurance Law (title 11); the specific percentages are on the DWS report forms — see Not yet confirmed.
-- Common failure modes: (1) accruing UI on gross payroll instead of the per-employee $7,000 wage base; (2) missing the deficit-rate and stabilization components in a surtax year; (3) worker misclassification — DWS audits contractor arrangements.
+- Late returns and late contributions draw penalties and interest under the Arkansas Unemployment Insurance Law (title 11); the specific percentages are on the DWS report forms -- see Not yet confirmed.
+- Common failure modes: (1) accruing UI on gross payroll instead of the per-employee $7,000 wage base; (2) missing the deficit-rate and stabilization components in a surtax year; (3) worker misclassification -- DWS audits contractor arrangements.
 
 ## Cross-border points
 
 - **Multi-state employers** register with DWS when Arkansas employees exist; the $7,000 wage base applies per employee per state, so the same employee's wages can be taxable in two states up to each state's base.
-- **Staffing/PEO arrangements** file under the DWS leasing rules — the rate-transfer rules for acquired businesses apply (DWS, Employer UI Contributions).
+- **Staffing/PEO arrangements** file under the DWS leasing rules -- the rate-transfer rules for acquired businesses apply (DWS, Employer UI Contributions).
 - UI contributions are not withheld from employees; the individual income tax side of wages is in `ar-income-tax` and `ar-payroll-withholding`.
 
 ## Worked examples
@@ -115,8 +115,8 @@ expected:
 - Has the DWS 2026 rate notice been received, and is the experience rate reconciled to the reserve account (including any stabilization or deficit component)?
 - Are contributions accrued on the $7,000 per-employee wage base, not gross payroll?
 - Contractor-heavy workforce: has worker-classification risk been reviewed?
-- Any business acquisition — was the predecessor's UI rate transferred?
-- Domestic or agricultural employment — do the $1,000 (domestic, per quarter) or $20,000 / 10-workers-in-20-weeks (agricultural) coverage tests apply?
+- Any business acquisition -- was the predecessor's UI rate transferred?
+- Domestic or agricultural employment -- do the $1,000 (domestic, per quarter) or $20,000 / 10-workers-in-20-weeks (agricultural) coverage tests apply?
 
 ## Sources
 
@@ -133,7 +133,7 @@ Not yet confirmed: the exact statutory due date for the quarterly UI contributio
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

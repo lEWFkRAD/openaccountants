@@ -1,6 +1,6 @@
 ---
 name: ar-income-tax
-description: Use this skill whenever asked about Arkansas individual income tax for self-employed individuals or sole proprietors — filing Form AR1000F, AR estimated tax, Arkansas tax brackets, Arkansas deductions, or any query involving Arkansas state income tax compliance. Trigger on phrases like "Arkansas income tax", "AR income tax", "Form AR1000F", "Arkansas estimated tax", "Arkansas self-employed tax", "DFA income tax", or "Ark. Code Ann. §26-51".
+description: Use this skill whenever asked about Arkansas individual income tax for self-employed individuals or sole proprietors -- filing Form AR1000F, AR estimated tax, Arkansas tax brackets, Arkansas deductions, or any query involving Arkansas state income tax compliance. Trigger on phrases like "Arkansas income tax", "AR income tax", "Form AR1000F", "Arkansas estimated tax", "Arkansas self-employed tax", "DFA income tax", or "Ark. Code Ann. §26-51".
 version: "0.4"
 jurisdiction: US-AR
 tax_year: 2026
@@ -51,14 +51,14 @@ The Act applies "for tax years beginning on or after January 1, 2026". It was ap
 
 - Standard deduction on DFA's 2026 estimated-tax worksheet: $2,470 per taxpayer. Confirm it against the 2026 AR1000F instructions when they are published.
 - Personal tax credits on the 2026 worksheet: $29 for single or married filing on separate forms. $58 for a joint return, head of household, married filing separately on the same return, or a qualifying widow(er). Add $29 for each dependent, and $29 each for blind, deaf, over 65 and "65 Special".
-- Declaration threshold: file a Declaration of Estimated Tax if the estimated tax after withholding and credits is $1,000 or more ("estimated tax to be more than one thousand dollars ($1,000)" — [AR-1000ES 2026 worksheet, archived 2026-10-28](https://www.dfa.arkansas.gov/wp-content/uploads/2026_Final_AR1000ES_2.pdf)). Calendar-year filers file the declaration "on or before April 15th of the income year" (same archived worksheet).
+- Declaration threshold: file a Declaration of Estimated Tax if the estimated tax after withholding and credits is $1,000 or more ("estimated tax to be more than one thousand dollars ($1,000)" -- [AR-1000ES 2026 worksheet, archived 2026-10-28](https://www.dfa.arkansas.gov/wp-content/uploads/2026_Final_AR1000ES_2.pdf)). Calendar-year filers file the declaration "on or before April 15th of the income year" (same archived worksheet).
 
 ### Figures that stay the same in both years
 
-- **Retirement exemption:** $6,000 per taxpayer, across all employer plans and traditional IRAs combined ("Retirees cannot claim the $6,000 exemption for traditional or employer sponsored distributions if their military retirement exemption exceeds $6,000" — [instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)).
-- **Capital gains:** 50% of the net capital gain is taxed (net long-term gain less net short-term loss). Net capital gain above $10,000,000 is exempt ("If the amount on line 7a is over $10,000,000, only enter $10,000,000" and "50 percent (.50)" — [AR1000D](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000D_CapitalGains.pdf)). Net short-term gain is taxed in full.
-- **Capital loss limit:** $3,000 a year, or $1,500 per taxpayer for filing status 4 or 5 ("is limited to $3,000 ($1,500 per taxpayer" — [instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)). The unused loss carries forward.
-- **Home sale:** gain on a main home is exempt up to $250,000 per taxpayer, or $500,000 for a married couple filing on the same return, if it was owned and used as the main home for 2 of the 5 years before the sale ("is exempt up to $250,000 per taxpayer ($500,000" — [instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)).
+- **Retirement exemption:** $6,000 per taxpayer, across all employer plans and traditional IRAs combined ("Retirees cannot claim the $6,000 exemption for traditional or employer sponsored distributions if their military retirement exemption exceeds $6,000" -- [instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)).
+- **Capital gains:** 50% of the net capital gain is taxed (net long-term gain less net short-term loss). Net capital gain above $10,000,000 is exempt ("If the amount on line 7a is over $10,000,000, only enter $10,000,000" and "50 percent (.50)" -- [AR1000D](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000D_CapitalGains.pdf)). Net short-term gain is taxed in full.
+- **Capital loss limit:** $3,000 a year, or $1,500 per taxpayer for filing status 4 or 5 ("is limited to $3,000 ($1,500 per taxpayer" -- [instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)). The unused loss carries forward.
+- **Home sale:** gain on a main home is exempt up to $250,000 per taxpayer, or $500,000 for a married couple filing on the same return, if it was owned and used as the main home for 2 of the 5 years before the sale ("is exempt up to $250,000 per taxpayer ($500,000" -- [instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)).
 
 ## The taxable base
 
@@ -71,7 +71,7 @@ The method, step by step:
 5. **Choose the tax table.** If the client qualifies for a Low Income Tax Table, the standard deduction is already built in: enter zero deduction and read the tax from Arkansas AGI. Otherwise use the Regular Tax Table and deduct the larger of the standard deduction or Arkansas itemized deductions (Form AR3). Net taxable income is line 28.
 6. **Compute the tax** from the Regular Tax Table. The same table applies to every filing status. Married couples filing status 4 compute each spouse's tax separately on the same return. For 2026, see the rate tables above.
 7. **Subtract credits:** personal tax credits (line 34), the child care credit (AR2441), and the credits on Form AR1000TC (credit for tax paid to another state, the additional credit for qualified individuals, and others). Credits beyond the total tax are not refundable.
-8. **Part-year residents and nonresidents only:** prorate the net tax by Arkansas AGI (column C) divided by total AGI (columns A and B), as a decimal rounded to six places and capped at 100% ("to six places. Do not exceed 100%" — [instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)).
+8. **Part-year residents and nonresidents only:** prorate the net tax by Arkansas AGI (column C) divided by total AGI (columns A and B), as a decimal rounded to six places and capped at 100% ("to six places. Do not exceed 100%" -- [instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)).
 9. **Subtract payments** (withholding, estimated tax, extension payment), then work out the underestimate penalty on Form AR2210 or AR2210A.
 
 ### Boundary and exception table
@@ -109,7 +109,7 @@ The method, step by step:
 
 ### 2025 returns (tax year 2025, being filed now) ([2025 brackets](https://www.dfa.arkansas.gov/wp-content/uploads/2025_TaxBrackets.pdf))
 
-- **Rates:** Act 1 of the Second Extraordinary Session of 2024 set the top rate at 3.9%. The 2025 indexed brackets are 0% to $5,599; 2% from $5,600; 3% from $11,200; 3.4% from $16,000; and 3.9% from $26,400 to $94,700 — verified verbatim against the archived DFA "2025 Indexed Tax Brackets" sheet (archived 2026-10-28): "$0 $5,599 0.00%; $5,600 $11,199 2.00% minus $111.98; $11,200 $15,999 3.00% minus $223.97; $16,000 $26,399 3.40% minus $287.97; $26,400 $94,700 3.90% minus $419.96". Above $94,700, the upper table is 2% on the first $4,700 and 3.9% above, with bracket adjustments up to $97,800. For $100,001 and over: $3,809 + 3.9% of the excess over $100,000.
+- **Rates:** Act 1 of the Second Extraordinary Session of 2024 set the top rate at 3.9%. The 2025 indexed brackets are 0% to $5,599; 2% from $5,600; 3% from $11,200; 3.4% from $16,000; and 3.9% from $26,400 to $94,700 -- verified verbatim against the archived DFA "2025 Indexed Tax Brackets" sheet (archived 2026-10-28): "$0 $5,599 0.00%; $5,600 $11,199 2.00% minus $111.98; $11,200 $15,999 3.00% minus $223.97; $16,000 $26,399 3.40% minus $287.97; $26,400 $94,700 3.90% minus $419.96". Above $94,700, the upper table is 2% on the first $4,700 and 3.9% above, with bracket adjustments up to $97,800. For $100,001 and over: $3,809 + 3.9% of the excess over $100,000.
 - **Use the table.** DFA says a formula result "must match the table exactly", and the table is worked at the midpoint of each $100 band.
 - **Standard deduction 2025 ([instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)):** $2,470 (single, head of household, surviving spouse, and each spouse filing separately); $4,940 married filing jointly.
 - **Additional tax credit for qualified individuals, 2025 ([instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)):** up to $60 per person for net income of "$0 - $26,500", for a taxpayer "having a net income up to $27,600" who timely files. The return must be timely filed.
@@ -136,7 +136,7 @@ The method, step by step:
 
 - **Part-year residents and nonresidents:** compute the tax on full-year income with the Regular Tax Table, then prorate by the Arkansas-AGI ratio rounded to six places, capped at 100%. Attach a copy of federal Form 1040 pages 1 and 2 ([instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf)).
 - **Credit for tax paid to another state:** Arkansas residents only, with a signed copy of the other state's return attached ([AR1000TC instructions](https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000TC_Instructions.pdf)).
-- **Border city (Texarkana):** the exemption is claimed on AR1000ADJ. The DFA legal opinion on the border-city exemption (Subject 302) is a scanned PDF with no text layer, so its street-address and AR-TX evidence rules are not restated here — confirm with DFA before applying it.
+- **Border city (Texarkana):** the exemption is claimed on AR1000ADJ. The DFA legal opinion on the border-city exemption (Subject 302) is a scanned PDF with no text layer, so its street-address and AR-TX evidence rules are not restated here -- confirm with DFA before applying it.
 - **A multistate business that must apportion income:** Act 719 of 2025 rewrote Arkansas apportionment and sourcing (market-based sourcing) for tax years beginning on and after January 1, 2026 ([Act 719](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2FACT719.pdf)). Refer it (see `ar-corporate-income-tax`).
 - **Members of an entity that elected the pass-through entity tax:** the income is reported and then backed out on AR-OI, and the entity's tax is not withholding. Refer it unless you have the AR-K1 and the PET return.
 - **Military spouses** who claim a non-Arkansas domicile need Form AR-MS.
@@ -239,7 +239,7 @@ expected:
 | DFA 2026 withholding tax formula | https://www.dfa.arkansas.gov/wp-content/uploads/Withholding-Tax-Formula.pdf | 2026-10-28 |
 | DFA Corporate FAQs (bonus depreciation, IRC §179 adoption) | https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/corporation-income-tax/corporate-faqs/ | 2026-10-28 |
 
-Not yet confirmed: the 2026 AR1000F tax table, 2026 standard deduction on the return, and 2026 filing thresholds (DFA has not published the 2026 instructions; the 2026 figures here come from the 2026 estimated-tax worksheet and withholding formula); whether the remainder of the $6,000 retirement exemption can apply to traditional IRA distributions after a military retirement exemption below $6,000 (the exempt-income list and the line 17 text of the 2025 instructions contradict each other — confirm with DFA before using the remainder on an IRA); the street-address and Form AR-TX evidence rules of the DFA border-city (Texarkana) exemption (DFA Legal Opinion Subject 302 is a scanned PDF with no text layer, so it is not restated here); the DFA legal opinions Subject 502 (capital gains) and Subject 802 (apportionment) are likewise scanned PDFs with no text layer, so the claims they used to support are now cited to the 2025 AR1000F/AR1000NR instructions and AR1000D instead; whether any P.L. 119-21 federal deduction (tips, overtime, car-loan interest, seniors) reduces Arkansas income (no Arkansas authority found).
+Not yet confirmed: the 2026 AR1000F tax table, 2026 standard deduction on the return, and 2026 filing thresholds (DFA has not published the 2026 instructions; the 2026 figures here come from the 2026 estimated-tax worksheet and withholding formula); whether the remainder of the $6,000 retirement exemption can apply to traditional IRA distributions after a military retirement exemption below $6,000 (the exempt-income list and the line 17 text of the 2025 instructions contradict each other -- confirm with DFA before using the remainder on an IRA); the street-address and Form AR-TX evidence rules of the DFA border-city (Texarkana) exemption (DFA Legal Opinion Subject 302 is a scanned PDF with no text layer, so it is not restated here); the DFA legal opinions Subject 502 (capital gains) and Subject 802 (apportionment) are likewise scanned PDFs with no text layer, so the claims they used to support are now cited to the 2025 AR1000F/AR1000NR instructions and AR1000D instead; whether any P.L. 119-21 federal deduction (tips, overtime, car-loan interest, seniors) reduces Arkansas income (no Arkansas authority found).
 
 <!-- openaccountants-cta-block -->
 
@@ -247,7 +247,7 @@ Not yet confirmed: the 2026 AR1000F tax table, 2026 standard deduction on the re
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

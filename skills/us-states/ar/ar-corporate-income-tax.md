@@ -2,7 +2,7 @@
 name: ar-corporate-income-tax
 description: >
   Use this skill whenever asked about Arkansas corporate income tax
-  for tax year 2026 — the graduated 1% to 4.3% rate (4.1% from 2027),
+  for tax year 2026 -- the graduated 1% to 4.3% rate (4.1% from 2027),
   the SB 567 / Act 719 of 2025 corporate-tax modernization
   (market-based sourcing for services and intangibles, the $250,000
   economic nexus threshold for non-resident entities), Form AR-1100
@@ -26,7 +26,7 @@ depends_on:
 
 > **Source-cited draft.** Built from Act 719 of 2025, Act 1 of the 2026 First Extraordinary Session, the DFA fiscal impact statement for SB1, the DFA Corporation Income Tax page and the DFA Corporate FAQs, read on 2026-10-28. No accountant has reviewed it. Do not file from it without review by a qualified Arkansas professional.
 
-Arkansas taxes C corporations on Arkansas-apportioned income. DFA's Corporation Income Tax Section processes and audits Partnership, LLC, C-corporation and Sub-S income tax returns ([DFA Corporation Income Tax page](https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/corporation-income-tax/)). In 2025 the state layered a major reform: "On April 16, 2025, Arkansas Gov. Sarah Huckabee Sanders signed Senate Bill 567 into law as Act 719 of 2025, modernizing the state's corporate income tax" — it amends Arkansas' adoption of the Multistate Tax Compact / UDITPA, adopts market-based sourcing for sales of services and intangibles, and establishes an economic nexus filing threshold for non-resident corporations or partnerships (DFA page, read 2026-10-28).
+Arkansas taxes C corporations on Arkansas-apportioned income. DFA's Corporation Income Tax Section processes and audits Partnership, LLC, C-corporation and Sub-S income tax returns ([DFA Corporation Income Tax page](https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/corporation-income-tax/)). In 2025 the state layered a major reform: "On April 16, 2025, Arkansas Gov. Sarah Huckabee Sanders signed Senate Bill 567 into law as Act 719 of 2025, modernizing the state's corporate income tax" -- it amends Arkansas' adoption of the Multistate Tax Compact / UDITPA, adopts market-based sourcing for sales of services and intangibles, and establishes an economic nexus filing threshold for non-resident corporations or partnerships (DFA page, read 2026-10-28).
 
 ## Who this applies to
 
@@ -51,14 +51,14 @@ Arkansas taxes C corporations on Arkansas-apportioned income. DFA's Corporation 
 | NOL carryforward | 5 tax years (pre-2020 losses), 8 tax years (losses from 2020), 10 tax years (losses from 2021); carrybacks not allowed | current | [DFA Corporate FAQs](https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/corporation-income-tax/corporate-faqs/) |
 | Base | federal taxable income with Arkansas modifications (AR-1100ADJ); Arkansas or federal income tax not deductible; no bonus depreciation; IRC §179 as in effect on 1 January 2022 | current | [DFA Corporate FAQs](https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/corporation-income-tax/corporate-faqs/) |
 
-Act 1 (SB1) and Act 4 (HB1001) of the Second Extraordinary Session of 2024 reduced the top corporate income tax rate to 4.3% for tax years beginning on or after January 1, 2024; Act 1/Act 2 of the 2026 First Extraordinary Session reduce the top rate to 4.1% "for tax years beginning on or after January 1, 2027" (DFA Corporate FAQs; Act 1 of 2026). Arkansas has no corporate minimum tax stated on these DFA pages — see Not yet confirmed.
+Act 1 (SB1) and Act 4 (HB1001) of the Second Extraordinary Session of 2024 reduced the top corporate income tax rate to 4.3% for tax years beginning on or after January 1, 2024; Act 1/Act 2 of the 2026 First Extraordinary Session reduce the top rate to 4.1% "for tax years beginning on or after January 1, 2027" (DFA Corporate FAQs; Act 1 of 2026). Arkansas has no corporate minimum tax stated on these DFA pages -- see Not yet confirmed.
 
 ## The taxable base
 
 - Federal taxable income, modified on Form AR-1100ADJ. Arkansas does not allow Arkansas or federal income tax as a deduction (ACA §26-51-416, DFA Corporate FAQs).
 - **Depreciation:** "No bonus depreciation is allowed for Arkansas income tax purposes." IRC §§167 and 168(a)–(j) are adopted as in effect on January 1, 2019; IRC §179 as in effect on January 1, 2022 (DFA Corporate FAQs).
 - **Apportionment:** since tax years beginning on or after January 1, 2021, "all taxpayers with income from sources within and without Arkansas must use a single sales factor to apportion income from Arkansas" (DFA Corporate FAQs, citing Act 822 of 2019 amending ACA §26-5-101 Article IV and §§26-51-709–26-51-718). Act 719 of 2025 rewrites the sales-sourcing rules inside those sections: receipts from services and intangibles are in Arkansas if "the taxpayer's market for the sales is in this state" (Act 719, amending §26-51-717), for tax years beginning on and after January 1, 2026.
-- **Consolidated returns:** ACA §26-51-805 — all federal eligible members must be part of the federal consolidated return, only members with Arkansas income may join, all Arkansas eligible members must consent before the last day for filing, and each entity separately computes its taxable income or loss on its own AR1100CT before consolidating (DFA Corporate FAQs).
+- **Consolidated returns:** ACA §26-51-805 -- all federal eligible members must be part of the federal consolidated return, only members with Arkansas income may join, all Arkansas eligible members must consent before the last day for filing, and each entity separately computes its taxable income or loss on its own AR1100CT before consolidating (DFA Corporate FAQs).
 
 ## Deadlines and filing
 
@@ -87,9 +87,9 @@ Payments may be made by EFT (ACH debit or credit), ATAP, check, or in person; th
 
 ## Cross-border points
 
-- **Market-based sourcing:** Act 719 moves the sales-factor numerator for services and intangibles to where the customer receives delivery — see `ar-transfer-pricing`.
+- **Market-based sourcing:** Act 719 moves the sales-factor numerator for services and intangibles to where the customer receives delivery -- see `ar-transfer-pricing`.
 - **Economic nexus:** a non-resident corporation or partnership with $250,000 or more of Arkansas receipts and no physical presence must file from tax year 2026 (DFA Corporate FAQs; Act 719).
-- **Special industry apportionment** still applies within the single sales factor: private railcar operators (26 CAR §130-114), construction contractors (§130-144(a)), television and radio broadcasting (§130-144(b)), publishing (§130-144(c)), pipelines (§130-144(f)) — ACA §26-51-718(c), DFA Corporate FAQs.
+- **Special industry apportionment** still applies within the single sales factor: private railcar operators (26 CAR §130-114), construction contractors (§130-144(a)), television and radio broadcasting (§130-144(b)), publishing (§130-144(c)), pipelines (§130-144(f)) -- ACA §26-51-718(c), DFA Corporate FAQs.
 - Multistate individuals (part-year residents, nonresidents, other-state credits) are handled in `ar-income-tax`.
 
 ## Worked examples
@@ -126,7 +126,7 @@ expected:
 
 - Has the nexus model been re-run against the $250,000 economic-nexus threshold for non-resident entities, effective January 1, 2026?
 - Are services/intangible revenues sourced to the customer's market location for tax years beginning on or after January 1, 2026?
-- Is the entity considering the pass-through entity tax election — and what is the member-savings math?
+- Is the entity considering the pass-through entity tax election -- and what is the member-savings math?
 - Is the corporation above the $20,000 quarterly EFT threshold and paying electronically?
 - Does the group file consolidated (ACA §26-51-805 consent filed before the due date), or separately?
 
@@ -141,7 +141,7 @@ expected:
 | DFA fiscal impact statement for SB1 of 2026 First Extraordinary Session (2026 individual tables; corporate 4.1% from 2027) | https://arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2F2025%2F2026S1%2FFiscal+Impacts%2FSB1-DFA1.pdf | 2026-10-28 |
 | DFA, Withholding Tax Branch (annual reconciliation, W-2/1099 transmittals) | https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/withholding-tax-branch/ | 2026-10-28 |
 
-Not yet confirmed: the pass-through entity tax (PET) election rate and mechanics (the DFA pages list the PET program and forms but state no rate — pull the PET forms/instructions before quoting a member-savings figure); the AR-1100ADJ line detail (the 2026 revision of the form was located via DFA search but its line-by-line content was not read); whether Arkansas imposes a corporate minimum tax; the AR-1100S (S corporation) due date for calendar-year 2026 (March 16 is the federal S-corp date, but no Arkansas source stating the AR-1100S date was read); the estimated-tax safe-harbor percentage for corporations; the current status of the throwback/throwout rule for tangible-property sales after Act 719 (the Act's amended §26-51-716 was not read line by line for throwback language).
+Not yet confirmed: the pass-through entity tax (PET) election rate and mechanics (the DFA pages list the PET program and forms but state no rate -- pull the PET forms/instructions before quoting a member-savings figure); the AR-1100ADJ line detail (the 2026 revision of the form was located via DFA search but its line-by-line content was not read); whether Arkansas imposes a corporate minimum tax; the AR-1100S (S corporation) due date for calendar-year 2026 (March 16 is the federal S-corp date, but no Arkansas source stating the AR-1100S date was read); the estimated-tax safe-harbor percentage for corporations; the current status of the throwback/throwout rule for tangible-property sales after Act 719 (the Act's amended §26-51-716 was not read line by line for throwback language).
 
 <!-- openaccountants-cta-block -->
 
@@ -149,7 +149,7 @@ Not yet confirmed: the pass-through entity tax (PET) election rate and mechanics
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
