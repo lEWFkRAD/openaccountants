@@ -1,4 +1,4 @@
-# New Jersey — OpenAccountants Tax Skills
+# New Jersey -- OpenAccountants Tax Skills
 
 | Field | Value |
 |---|---|
@@ -8,7 +8,7 @@
 | Sales tax | Yes |
 | Franchise / gross receipts tax | No (for sole proprietors; Corporation Business Tax applies to corps) |
 | Tax authority | [New Jersey Division of Taxation](https://www.nj.gov/treasury/taxation) |
-| Quality tier | Q3 — AI-drafted, not independently verified |
+| Quality tier | Q3 -- AI-drafted, not independently verified |
 
 ## Files in this folder
 
@@ -23,7 +23,7 @@
 
 ## What's NOT covered
 - Payroll / employer withholding taxes
-- Property tax (administered at municipal level — NJ has the highest property taxes in the US)
+- Property tax (administered at municipal level -- NJ has the highest property taxes in the US)
 - Estate tax (NJ repealed its estate tax effective 2018)
 - Inheritance tax (NJ still has an inheritance tax for non-lineal heirs)
 - Pass-through business alternative income tax (PTE/BAIT)

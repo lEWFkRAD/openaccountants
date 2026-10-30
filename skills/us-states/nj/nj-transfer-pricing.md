@@ -2,7 +2,7 @@
 name: nj-transfer-pricing
 description: >
   Use this skill whenever asked about New Jersey transfer pricing and
-  related-party rules for tax year 2026 — New Jersey has no standalone TP
+  related-party rules for tax year 2026 -- New Jersey has no standalone TP
   documentation statute; related-party economics are handled inside
   mandatory unitary combined reporting (CBT-100U): intercompany
   transactions are eliminated, the group apportions on a single sales
@@ -34,7 +34,7 @@ depends_on:
 
 ## Who this applies to
 
-New Jersey has **no standalone transfer-pricing documentation requirement and no related-party addback statute** in the Maryland/Missouri sense. Because combined reporting is **mandatory** for commonly-owned unitary groups (privilege periods ending on/after 31 July 2019), most classic TP questions — royalties, management fees, intercompany interest — are answered **inside** the combined group by **elimination**: the transaction disappears from the group's taxable net income and only the external sales factor matters. What is left for TP planning is (a) group composition (who is in the water's-edge group), (b) the filing-method election, and (c) cross-border payments to entities outside the group. Deep mechanics live in `nj-cbt-and-bait`; this skill is the TP lens.
+New Jersey has **no standalone transfer-pricing documentation requirement and no related-party addback statute** in the Maryland/Missouri sense. Because combined reporting is **mandatory** for commonly-owned unitary groups (privilege periods ending on/after 31 July 2019), most classic TP questions -- royalties, management fees, intercompany interest -- are answered **inside** the combined group by **elimination**: the transaction disappears from the group's taxable net income and only the external sales factor matters. What is left for TP planning is (a) group composition (who is in the water's-edge group), (b) the filing-method election, and (c) cross-border payments to entities outside the group. Deep mechanics live in `nj-cbt-and-bait`; this skill is the TP lens.
 
 **Source status:** Division combined-groups revision page (5,451 chars) and CBT reform hub (13,054 chars) verified HTTP 200 and read 2026-10-27; mechanics corroborated by the tier-2 `nj-cbt-and-bait` skill verified against the 2025 CBT-100/CBT-100U instructions and TB series on 2026-10-16. (not yet confirmed)
 
@@ -51,7 +51,7 @@ New Jersey has **no standalone transfer-pricing documentation requirement and no
 |---|---|---|
 | Rate the TP lands in | 6.5% / 7.5% / 9% graduated on the whole base (see `nj-corporate-income-tax`) | 2025 CBT-100 instructions via `nj-cbt-and-bait` |
 | Intercompany transactions | eliminated in the combined group; intercompany dividends also ineligible for the dividend exclusion | CBT-100U instructions via `nj-cbt-and-bait` |
-| Allocation | single sales factor; **Finnigan** method for periods ending on/after 31 July 2023 — all members' NJ receipts in the numerator, group-level rate | CBT-100U instructions via `nj-cbt-and-bait` |
+| Allocation | single sales factor; **Finnigan** method for periods ending on/after 31 July 2023 -- all members' NJ receipts in the numerator, group-level rate | CBT-100U instructions via `nj-cbt-and-bait` |
 | Dividend exclusion | 100% from qualified subsidiaries (≥80% vote and value); 50% band at ≥50% ownership; **5% clawback** of all dividends/deemed dividends; §250 deductions disallowed; FDDEI gross | TB-110(R) via `nj-cbt-and-bait` |
 | NCTI (former GILTI) | treated as a dividend | TB-110(R) / OBBBA renaming notice via `nj-cbt-and-bait` |
 | P.L. 86-272 in a group | one member's non-protected activity destroys protection for the whole group (periods ending on/after 31 July 2023) | Division revision page, read 2026-10-27 |
@@ -71,14 +71,14 @@ New Jersey has **no standalone transfer-pricing documentation requirement and no
 ### 6. Cross-border
 
 - **Water's-edge vs world-wide is the biggest NJ "TP" decision:** a world-wide election pulls foreign affiliates' income and factors into the group for six years; the 2023-era Division guidance (TB-109) governs.
-- **Captive insurers:** group-owned foreign captives are included in the water's-edge group — premium stripping into a low-tax captive does not shrink the NJ base.
+- **Captive insurers:** group-owned foreign captives are included in the water's-edge group -- premium stripping into a low-tax captive does not shrink the NJ base.
 - **Treaty override:** a treaty-country member's treaty election to be taxed as a US corporation changes its group treatment (TB-88/TB-89 lineage via the reform hub).
-- **Dividend repatriation:** the 100%/50% exclusion with the 5% clawback and §250 disallowance makes NJ dividend income materially more expensive than the federal participation deduction — model before repatriating.
-- **Single sales factor + Finnigan:** move sales out of NJ and the group's NJ share falls regardless of where costs sit — the factor, not the price, is the lever.
+- **Dividend repatriation:** the 100%/50% exclusion with the 5% clawback and §250 disallowance makes NJ dividend income materially more expensive than the federal participation deduction -- model before repatriating.
+- **Single sales factor + Finnigan:** move sales out of NJ and the group's NJ share falls regardless of where costs sit -- the factor, not the price, is the lever.
 
 ### 7. Worked examples
 
-**Example 1 — intercompany royalty inside vs outside the group.** Group member A (NJ sales factor 0.30) pays a $2,000,000 royalty to group member B (both in the water's-edge combined group). Separately, a non-group licensor receives the same royalty.
+**Example 1 -- intercompany royalty inside vs outside the group.** Group member A (NJ sales factor 0.30) pays a $2,000,000 royalty to group member B (both in the water's-edge combined group). Separately, a non-group licensor receives the same royalty.
 
 ```oa-check
 name: NJ royalty inside vs outside group
@@ -94,9 +94,9 @@ expected:
   outside_group_effect: 54000.00
 ```
 
-Inside the combined group the royalty nets to zero (eliminated). Paying a non-group affiliate instead moves $54,000 of tax — the group-structure question, not the price, is the NJ lever.
+Inside the combined group the royalty nets to zero (eliminated). Paying a non-group affiliate instead moves $54,000 of tax -- the group-structure question, not the price, is the NJ lever.
 
-**Example 2 — dividend repatriation cost.** Group repatriates $5,000,000 from a 100%-owned foreign qualified subsidiary (water's-edge group; exclusion 100% less 5% clawback).
+**Example 2 -- dividend repatriation cost.** Group repatriates $5,000,000 from a 100%-owned foreign qualified subsidiary (water's-edge group; exclusion 100% less 5% clawback).
 
 ```oa-check
 name: NJ dividend clawback cost
@@ -112,25 +112,25 @@ expected:
   nj_tax: 22500.00
 ```
 
-Even a "100% excluded" dividend carries the 5% clawback — $22,500 at the 9% rate (plus any §250 federal deduction lost, which NJ disallows anyway).
+Even a "100% excluded" dividend carries the 5% clawback -- $22,500 at the 9% rate (plus any §250 federal deduction lost, which NJ disallows anyway).
 
 ### 8. Ask the client
 
-1. Is the group unitary and commonly owned — is a CBT-100U required and filed through a registered managerial member?
+1. Is the group unitary and commonly owned -- is a CBT-100U required and filed through a registered managerial member?
 2. Which filing method, elected when, bound until when? Is a world-wide election on the table?
 3. Any captive insurer or treaty-country member inside the water's-edge perimeter?
-4. Repatriation plans — has the 5% clawback and §250 disallowance been modeled?
-5. Any federal §482 audit in progress — is the 90-day NJ reporting tickler live?
+4. Repatriation plans -- has the 5% clawback and §250 disallowance been modeled?
+5. Any federal §482 audit in progress -- is the 90-day NJ reporting tickler live?
 
 ### 9. Sources
 
 1. Existing tier-2 skill `nj-cbt-and-bait` (combined mechanics, elections, Finnigan, dividend exclusion, TB citations): repo `skills/us-states/nj/nj-cbt-and-bait.md` (verified 2026-10-16).
-2. NJ Division of Taxation, Revision to Division Policy on Combined Groups and P.L. 86-272: <https://www.nj.gov/treasury/taxation/cbt/combinedgroupsrevision.shtml> — 200, read 2026-10-27.
-3. NJ Division of Taxation, CBT reform hub (TB-86(R), TB-88, TB-89, TB-95(R), TB-102(R), TB-109 links): <https://www.nj.gov/treasury/taxation/cbt/cbtreform.shtml> — 200, read 2026-10-27.
-4. CBT-100U 2025 instructions: <https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf> — cited via `nj-cbt-and-bait`; not re-fetched this run.
+2. NJ Division of Taxation, Revision to Division Policy on Combined Groups and P.L. 86-272: <https://www.nj.gov/treasury/taxation/cbt/combinedgroupsrevision.shtml> -- 200, read 2026-10-27.
+3. NJ Division of Taxation, CBT reform hub (TB-86(R), TB-88, TB-89, TB-95(R), TB-102(R), TB-109 links): <https://www.nj.gov/treasury/taxation/cbt/cbtreform.shtml> -- 200, read 2026-10-27.
+4. CBT-100U 2025 instructions: <https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100uins.pdf> -- cited via `nj-cbt-and-bait`; not re-fetched this run.
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for New Jersey combined-group and cross-border payment questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for New Jersey combined-group and cross-border payment questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 ## Rates, bands and thresholds
 
@@ -167,7 +167,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
