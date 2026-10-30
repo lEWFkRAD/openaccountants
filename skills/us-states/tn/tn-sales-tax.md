@@ -68,11 +68,11 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 
 ### 1.1 State Rate
 
-- **State sales tax rate** — 7% percent (retail sale of tangible personal property and certain services; one of the highest state-level sales tax rates in the US)  _(T.C.A. Section 67-6-202)_
+- **State sales tax rate** -- 7% percent (retail sale of tangible personal property and certain services; one of the highest state-level sales tax rates in the US)  _(T.C.A. Section 67-6-202)_
 
 ### 1.2 Reduced Rate on Grocery Food
 
-- **Reduced rate on grocery food effective Jan 1, 2024** — State rate on food and food ingredients reduced to 4% effective January 1, 2024 (down from 5%); local taxes still apply to food  _(T.C.A. Section 67-6-228)_
+- **Reduced rate on grocery food effective Jan 1, 2024** -- State rate on food and food ingredients reduced to 4% effective January 1, 2024 (down from 5%); local taxes still apply to food  _(T.C.A. Section 67-6-228)_
 
 ### 1.3 Local Rates
 
@@ -90,20 +90,20 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 
 ### 1.4 Single Article Cap on Local Tax [T1]
 
-- **Single article cap on local tax** — Tennessee caps the local sales tax on a single article (single item) at $1,600. Local tax applies only to the first $1,600 of the sales price of a single article. The state 7% tax applies to the full price (no cap). The cap applies per individual item, not per transaction.  _(T.C.A. Section 67-6-702(a))_
-- **State single article tax (missing from earlier draft)** — In addition to the general 7%, a state single article tax of 2.75% applies to the portion of a single article's sales price above $1,600 but not more than $3,200 (max $44 per item); amounts over $3,200 are not subject to it.  _(Tenn. Code Ann. § 67-6-202; TN DOR "Due Dates and Tax Rates" — archived: SRC-US-TN-dor-sales-due-rates.html)_
+- **Single article cap on local tax** -- Tennessee caps the local sales tax on a single article (single item) at $1,600. Local tax applies only to the first $1,600 of the sales price of a single article. The state 7% tax applies to the full price (no cap). The cap applies per individual item, not per transaction.  _(T.C.A. Section 67-6-702(a))_
+- **State single article tax (missing from earlier draft)** -- In addition to the general 7%, a state single article tax of 2.75% applies to the portion of a single article's sales price above $1,600 but not more than $3,200 (max $44 per item); amounts over $3,200 are not subject to it.  _(Tenn. Code Ann. § 67-6-202; TN DOR "Due Dates and Tax Rates" -- archived: SRC-US-TN-dor-sales-due-rates.html)_
 
 **Example:** A $50,000 boat -- state tax: $50,000 x 7% = $3,500 (no cap). Local tax: $1,600 x 2.75% (max) = $44 (capped at local tax on $1,600 only).
 
 ### 1.5 Sourcing Rules [T1]
 
-- **Sourcing rules** — Tennessee is generally an origin-based sourcing state for intrastate sales. Intrastate over-the-counter: seller's location. Intrastate shipped: origin-based (seller's location). Interstate (remote sellers): destination-based.
+- **Sourcing rules** -- Tennessee is generally an origin-based sourcing state for intrastate sales. Intrastate over-the-counter: seller's location. Intrastate shipped: origin-based (seller's location). Interstate (remote sellers): destination-based.
 
 ## Step 2: Transaction Classification Rules
 
 ### 2.1 General Rule
 
-- **General taxability rule** — Tennessee sales tax applies to the retail sale of tangible personal property and certain enumerated services.  _(T.C.A. Section 67-6-201)_
+- **General taxability rule** -- Tennessee sales tax applies to the retail sale of tangible personal property and certain enumerated services.  _(T.C.A. Section 67-6-201)_
 
 ### 2.2 Taxability Matrix
 
@@ -134,7 +134,7 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 
 ### 2.3 SaaS Taxability -- Tennessee Position [T2]
 
-- **SaaS taxability position** — Tennessee taxes SaaS and digital products broadly. Tennessee enacted specific legislation (effective July 1, 2015) taxing "specified digital products" and "software access services" (which includes SaaS). Specified digital products include digital audio works, digital audiovisual works, digital books, and any other electronically transferred product. Software access services (SaaS) are defined as the right to access and use software where the end user does not receive a copy. This is explicitly taxable.  _(T.C.A. Section 67-6-231; T.C.A. Section 67-6-102(89))_
+- **SaaS taxability position** -- Tennessee taxes SaaS and digital products broadly. Tennessee enacted specific legislation (effective July 1, 2015) taxing "specified digital products" and "software access services" (which includes SaaS). Specified digital products include digital audio works, digital audiovisual works, digital books, and any other electronically transferred product. Software access services (SaaS) are defined as the right to access and use software where the end user does not receive a copy. This is explicitly taxable.  _(T.C.A. Section 67-6-231; T.C.A. Section 67-6-102(89))_
 
 ### 2.4 Services Taxability [T2]
 
@@ -157,7 +157,7 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 
 ### 3.1 Registration
 
-- **Registration requirement** — All sellers with nexus must register through TNTAP for a sales and use tax certificate of registration. No fee for registration.  _(T.C.A. Section 67-6-601)_
+- **Registration requirement** -- All sellers with nexus must register through TNTAP for a sales and use tax certificate of registration. No fee for registration.  _(T.C.A. Section 67-6-601)_
 
 ### 3.2 Filing Frequency
 
@@ -172,11 +172,11 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 
 ### 3.3 Returns and Payment
 
-- **Returns and payment requirements** — Form SLS 450 (Sales and Use Tax Return) is filed through TNTAP. Electronic filing is required for all registrants. Payment is due on the same date as the return. Both state and local taxes are reported on the same return.
+- **Returns and payment requirements** -- Form SLS 450 (Sales and Use Tax Return) is filed through TNTAP. Electronic filing is required for all registrants. Payment is due on the same date as the return. Both state and local taxes are reported on the same return.
 
 ### 3.4 Vendor Discount
 
-- **Vendor discount for timely filing** — 2% of the first $2,500 of tax due per return period. Maximum discount: $50 per return period. Available only for timely filing and payment.  _(T.C.A. Section 67-6-508)_
+- **Vendor discount for timely filing** -- 2% of the first $2,500 of tax due per return period. Maximum discount: $50 per return period. Available only for timely filing and payment.  _(T.C.A. Section 67-6-508)_
 
 ### 3.5 Penalties and Interest
 
@@ -206,29 +206,29 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 
 ### 5.2 Requirements [T1]
 
-- **Valid exemption certificate requirements** — Valid certificates must include purchaser information, Tennessee registration number (for resale), reason for exemption, description of goods, signature, and date.
+- **Valid exemption certificate requirements** -- Valid certificates must include purchaser information, Tennessee registration number (for resale), reason for exemption, description of goods, signature, and date.
 
 ### 5.3 Good Faith and Retention [T2]
 
-- **Good faith and retention rule** — Good faith acceptance protects sellers. Certificates must be retained for 3 years from the date of the last transaction.
+- **Good faith and retention rule** -- Good faith acceptance protects sellers. Certificates must be retained for 3 years from the date of the last transaction.
 
 ### 6.1 When Use Tax Applies
 
-- **When use tax applies** — Tennessee use tax applies when sales tax was not collected on items used, stored, or consumed in Tennessee.
+- **When use tax applies** -- Tennessee use tax applies when sales tax was not collected on items used, stored, or consumed in Tennessee.
 
 ### 6.2 Use Tax Rate
 
-- **Use tax rate** — The use tax rate equals the sales tax rate: 7% state + applicable local. The single article cap applies to local use tax as well.
+- **Use tax rate** -- The use tax rate equals the sales tax rate: 7% state + applicable local. The single article cap applies to local use tax as well.
 
 ### 6.3 Use Tax Reporting
 
-- **Use tax reporting** — Businesses: Report on Form SLS 450. Individuals: Report on Tennessee Consumer Use Tax Return (or via optional reporting on any state filing).
+- **Use tax reporting** -- Businesses: Report on Form SLS 450. Individuals: Report on Tennessee Consumer Use Tax Return (or via optional reporting on any state filing).
 
 ## Step 5: Key Thresholds
 
 ### 4.1 Physical Nexus
 
-- **Physical nexus** — Standard physical nexus principles apply.
+- **Physical nexus** -- Standard physical nexus principles apply.
 
 ### 4.2 Economic Nexus [T1]
 
@@ -244,7 +244,7 @@ Tennessee enacted economic nexus effective **October 1, 2019**.
 
 ### 4.3 Marketplace Facilitator Rules [T1]
 
-- **Marketplace facilitator rules effective October 1, 2020** — Marketplace facilitators meeting the nexus threshold must collect and remit. Marketplace sellers relieved for facilitated sales.  _(T.C.A. Section 67-6-102(24)(C))_
+- **Marketplace facilitator rules effective October 1, 2020** -- Marketplace facilitators meeting the nexus threshold must collect and remit. Marketplace sellers relieved for facilitated sales.  _(T.C.A. Section 67-6-102(24)(C))_
 
 ## Step 6: Filing Deadlines and Penalties
 
@@ -267,31 +267,31 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### 7.1 Single Article Cap Application [T1]
 
-- **Single article cap application scenarios** — The single article cap on local tax ($1,600) creates interesting scenarios: High-value items: A $100,000 piece of equipment pays 7% state tax ($7,000) on the full price, but local tax only on $1,600 (e.g., at 2.75% = $44 local). Total: $7,044. Multiple items: Each item in a transaction is evaluated separately. A purchase of 10 items at $500 each: local tax applies to the full $500 per item (since each is under $1,600). Bundled items: If items are sold as a unit, the bundle is treated as one article. [T2]
+- **Single article cap application scenarios** -- The single article cap on local tax ($1,600) creates interesting scenarios: High-value items: A $100,000 piece of equipment pays 7% state tax ($7,000) on the full price, but local tax only on $1,600 (e.g., at 2.75% = $44 local). Total: $7,044. Multiple items: Each item in a transaction is evaluated separately. A purchase of 10 items at $500 each: local tax applies to the full $500 per item (since each is under $1,600). Bundled items: If items are sold as a unit, the bundle is treated as one article. [T2]
 
 ### 7.2 No State Income Tax Impact [T1]
 
-- **No state income tax impact** — Tennessee has no state income tax (the Hall Tax on interest and dividends was fully repealed effective January 1, 2021). Sales tax is a critical revenue source for the state. Tennessee has less incentive to reduce sales tax rates. The high combined rate (up to 9.75%) partially compensates for no income tax. Businesses relocating to Tennessee for income tax savings must budget for higher sales tax costs. [T2]
+- **No state income tax impact** -- Tennessee has no state income tax (the Hall Tax on interest and dividends was fully repealed effective January 1, 2021). Sales tax is a critical revenue source for the state. Tennessee has less incentive to reduce sales tax rates. The high combined rate (up to 9.75%) partially compensates for no income tax. Businesses relocating to Tennessee for income tax savings must budget for higher sales tax costs. [T2]
 
 ### 7.3 Manufacturing Exemptions [T2]
 
-- **Manufacturing exemptions** — Tennessee provides a broad manufacturing exemption: Machinery used directly and primarily in manufacturing is exempt. [T2] Raw materials incorporated into finished products are exempt. [T1] The "directly and primarily" test requires that the machinery's primary purpose be manufacturing (51%+ of use). [T2] Energy fuel and water used in manufacturing are exempt. [T2]  _(T.C.A. Section 67-6-206)_
+- **Manufacturing exemptions** -- Tennessee provides a broad manufacturing exemption: Machinery used directly and primarily in manufacturing is exempt. [T2] Raw materials incorporated into finished products are exempt. [T1] The "directly and primarily" test requires that the machinery's primary purpose be manufacturing (51%+ of use). [T2] Energy fuel and water used in manufacturing are exempt. [T2]  _(T.C.A. Section 67-6-206)_
 
 ### 7.4 Sales Tax Holiday [T1]
 
-- **Sales tax holiday** — Tennessee holds an annual sales tax holiday (typically late July/early August): Clothing ($100 or less per item): exempt from state and local tax. School supplies ($100 or less per item): exempt. Computers ($1,500 or less): exempt. Specific dates and items vary annually -- verify with TNDOR each year.
+- **Sales tax holiday** -- Tennessee holds an annual sales tax holiday (typically late July/early August): Clothing ($100 or less per item): exempt from state and local tax. School supplies ($100 or less per item): exempt. Computers ($1,500 or less): exempt. Specific dates and items vary annually -- verify with TNDOR each year.
 
 ### 7.5 Short-Term Rental Tax [T2]
 
-- **Short-term rental tax rules** — Short-term rentals (less than 90 consecutive days) are subject to: State sales tax (7%). Local sales tax. Additional state and local occupancy taxes. [T2] Marketplace facilitators (Airbnb, VRBO) collect and remit.
+- **Short-term rental tax rules** -- Short-term rentals (less than 90 consecutive days) are subject to: State sales tax (7%). Local sales tax. Additional state and local occupancy taxes. [T2] Marketplace facilitators (Airbnb, VRBO) collect and remit.
 
 ### 7.6 Amusement Tax / Admissions [T1]
 
-- **Amusement tax / admissions rules** — Admissions to amusement, sports, and entertainment events are taxable: State rate of 7% applies. Local rates apply. Nonprofit exempt events may be excluded with proper documentation. [T2]
+- **Amusement tax / admissions rules** -- Admissions to amusement, sports, and entertainment events are taxable: State rate of 7% applies. Local rates apply. Nonprofit exempt events may be excluded with proper documentation. [T2]
 
 ### 7.7 Waste Collection Services [T2]
 
-- **Waste collection services taxability** — Tennessee taxes certain waste collection and disposal services: Commercial waste collection: taxable. [T2] Residential waste collection: may be exempt in some circumstances. [T2]
+- **Waste collection services taxability** -- Tennessee taxes certain waste collection and disposal services: Commercial waste collection: taxable. [T2] Residential waste collection: may be exempt in some circumstances. [T2]
 
 ### Test Suite
 
@@ -410,7 +410,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
