@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **Scope.** This skill covers Michigan Form MI-1040 for full-year Michigan residents who are sole proprietors or single-member LLC owners. Michigan imposes a flat 4.25% income tax. This skill also flags city-level income taxes that may apply in 24 Michigan cities.
 >
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Michigan Department of Treasury publications. A qualified professional must review before filing.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Michigan Department of Treasury publications. A qualified professional must review before filing.
 
 
 
@@ -32,22 +32,22 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Statute | MCL 206.1 et seq. (Income Tax Act of 1967) |
 | Version | 0.1 |
 | Last updated | 2026-05-22 |
-| Validation | AI-drafted — Q3 |
+| Validation | AI-drafted -- Q3 |
 
 ## Rates, bands and thresholds
 
 
-### Tax rate — 2026 tax year
+### Tax rate -- 2026 tax year
 
 **Michigan flat income tax rate table**  _(MCL 206.51)_
 
 | Item | Value | Source |
 | --- | --- | --- |
-| Michigan flat income tax rate | 4.25% — VERIFIED vs archived [MCL 206.51(1)(b)](https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51): "on and after October 1, 2012, 4.25%", with the (c) trigger-reduction mechanism (rate drops if prior-year general fund growth exceeds positive inflation) — the 2026 rate notice confirms 4.25% remains in effect | MCL 206.51(1)(b)–(c), archived 2026-10-28 |
+| Michigan flat income tax rate | 4.25% -- VERIFIED vs archived [MCL 206.51(1)(b)](https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51): "on and after October 1, 2012, 4.25%", with the (c) trigger-reduction mechanism (rate drops if prior-year general fund growth exceeds positive inflation) -- the 2026 rate notice confirms 4.25% remains in effect | MCL 206.51(1)(b)–(c), archived 2026-10-28 |
 
-- **Flat rate applicability** — Michigan uses a flat rate — the same 4.25% applies to all taxable income regardless of filing status or income level.  _(MCL 206.51)_
+- **Flat rate applicability** -- Michigan uses a flat rate -- the same 4.25% applies to all taxable income regardless of filing status or income level.  _(MCL 206.51)_
 
-### Exemptions — 2026
+### Exemptions -- 2026
 
 **Exemptions table**  _(MCL 206.30)_
 
@@ -58,7 +58,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Special exemption (disabled/deaf/blind) | $3,400 | MCL 206.30 |
 | Disabled veteran exemption | $500 | MCL 206.30 |
 
-- **No state standard deduction** — Michigan does NOT have a state-level standard deduction for most filers. Taxpayers under age 67 deduct only personal exemptions from AGI.  _(MCL 206.30)_
+- **No state standard deduction** -- Michigan does NOT have a state-level standard deduction for most filers. Taxpayers under age 67 deduct only personal exemptions from AGI.  _(MCL 206.30)_
 
 ### Retirement / senior deductions (age 67+)
 
@@ -83,26 +83,26 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ## The taxable base
 
 
-- **Starting point** — Michigan taxable income begins with federal adjusted gross income (AGI) from federal Form 1040, Line 11.
-- **Step 1 - Additions** — Additions — Add back items Michigan does not exclude (e.g., deductions for income taxed by a Michigan city, interest on non-Michigan state/municipal bonds).
-- **Step 2 - Subtractions** — Subtractions — Subtract items Michigan excludes (e.g., U.S. government bond interest, Social Security benefits, Michigan state/local income tax refunds included in federal AGI, retirement/pension income for qualifying seniors).
-- **Step 3 - Michigan AGI** — Michigan AGI = Federal AGI + additions − subtractions.
-- **Step 4 - Personal exemptions** — Personal exemptions — $5,800 per qualifying exemption (2026).
-- **Step 5 - Michigan taxable income** — Michigan taxable income = Michigan AGI − exemptions.
-- **Step 6 - Tax** — Tax = Michigan taxable income × 4.25%.
-- **Step 7 - Credits** — Credits — Apply applicable credits.
-- **No standard/itemized deduction under 67** — Michigan does NOT have a state standard deduction or itemized deductions for taxpayers under age 67.
+- **Starting point** -- Michigan taxable income begins with federal adjusted gross income (AGI) from federal Form 1040, Line 11.
+- **Step 1 - Additions** -- Additions -- Add back items Michigan does not exclude (e.g., deductions for income taxed by a Michigan city, interest on non-Michigan state/municipal bonds).
+- **Step 2 - Subtractions** -- Subtractions -- Subtract items Michigan excludes (e.g., U.S. government bond interest, Social Security benefits, Michigan state/local income tax refunds included in federal AGI, retirement/pension income for qualifying seniors).
+- **Step 3 - Michigan AGI** -- Michigan AGI = Federal AGI + additions − subtractions.
+- **Step 4 - Personal exemptions** -- Personal exemptions -- $5,800 per qualifying exemption (2026).
+- **Step 5 - Michigan taxable income** -- Michigan taxable income = Michigan AGI − exemptions.
+- **Step 6 - Tax** -- Tax = Michigan taxable income × 4.25%.
+- **Step 7 - Credits** -- Credits -- Apply applicable credits.
+- **No standard/itemized deduction under 67** -- Michigan does NOT have a state standard deduction or itemized deductions for taxpayers under age 67.
 
 
 
 
-- **1. Self-employment income flow-through** — Self-employment income flows through federal Schedule C → federal AGI → Michigan AGI. No separate Michigan schedule for self-employment income.
-- **2. Federal SE tax deduction** — The 50% self-employment tax deduction is reflected in federal AGI. Michigan starts from federal AGI, so this carries through.
-- **3. Estimated taxes** — Self-employed taxpayers must make quarterly estimated payments (Form MI-1040ES) if expected liability exceeds $500. Penalty applies for underpayment.
-- **4. Business equipment depreciation** — Michigan generally conforms to federal depreciation, including IRC § 179. Michigan also conforms to bonus depreciation under IRC § 168(k).
-- **5. Home office deduction** — Flows through federal Schedule C; no separate Michigan adjustment.
-- **6. Health insurance deduction** — The self-employed health insurance deduction is included in federal AGI. No Michigan add-back required.
-- **7. City income tax** — If the taxpayer operates a business in a city with a city income tax (e.g., Detroit), a separate city income tax return may be required.
+- **1. Self-employment income flow-through** -- Self-employment income flows through federal Schedule C → federal AGI → Michigan AGI. No separate Michigan schedule for self-employment income.
+- **2. Federal SE tax deduction** -- The 50% self-employment tax deduction is reflected in federal AGI. Michigan starts from federal AGI, so this carries through.
+- **3. Estimated taxes** -- Self-employed taxpayers must make quarterly estimated payments (Form MI-1040ES) if expected liability exceeds $500. Penalty applies for underpayment.
+- **4. Business equipment depreciation** -- Michigan generally conforms to federal depreciation, including IRC § 179. Michigan also conforms to bonus depreciation under IRC § 168(k).
+- **5. Home office deduction** -- Flows through federal Schedule C; no separate Michigan adjustment.
+- **6. Health insurance deduction** -- The self-employed health insurance deduction is included in federal AGI. No Michigan add-back required.
+- **7. City income tax** -- If the taxpayer operates a business in a city with a city income tax (e.g., Detroit), a separate city income tax return may be required.
 
 
 
@@ -166,20 +166,20 @@ Michigan penalty and interest rules for underpayment of estimated tax (MCL 205.2
 | Grand Rapids | 1.5% | 0.75% |
 | All other cities | 1.0% | 0.5% |
 
-- **City tax filing separate from MI-1040** — City income tax is filed on a separate return directly with the city. It is NOT computed on Form MI-1040.
+- **City tax filing separate from MI-1040** -- City income tax is filed on a separate return directly with the city. It is NOT computed on Form MI-1040.
 
 
 
-- Michigan has income-tax reciprocity with IL, IN, KY, MN, OH and WI — wages earned in those states by a Michigan resident are taxable only in Michigan (see `mi-cross-border-tax`).
+- Michigan has income-tax reciprocity with IL, IN, KY, MN, OH and WI -- wages earned in those states by a Michigan resident are taxable only in Michigan (see `mi-cross-border-tax`).
 - Income earned in one of the 24 city-income-tax cities is taxed by the city on a separate return.
 - Non-Michigan-source income follows federal AGI into Michigan AGI unless a specific subtraction applies.
 ## Worked examples
 
-No worked examples in this skill yet — see `mi-estimated-tax` for Michigan computation examples built on the same 4.25% rate and $5,800 exemption.
+No worked examples in this skill yet -- see `mi-estimated-tax` for Michigan computation examples built on the same 4.25% rate and $5,800 exemption.
 ## Ask the client first
 
 - Filing status and number of personal exemptions claimed.
-- Whether the client lives or works in one of the 24 cities with a city income tax (Detroit, Grand Rapids, etc.) — a separate city return may be due.
+- Whether the client lives or works in one of the 24 cities with a city income tax (Detroit, Grand Rapids, etc.) -- a separate city return may be due.
 - Whether any income comes from a neighbouring reciprocity state (IL, IN, KY, MN, OH, WI) and whether Form 4880/4881 exemption certificates are on file with the employer.
 - Birth years, for the retirement/pension subtraction tier (see `mi-pension-retirement-subtraction`).
 ## Sources
@@ -189,15 +189,15 @@ No worked examples in this skill yet — see `mi-estimated-tax` for Michigan com
 
 | # | Source | URL | Read on |
 | --- | --- | --- | --- |
-| 1 | Michigan Treasury — 4.25% Rate Notice for 2026 (Taxpayer Notice, Apr 15 2026) | https://www.michigan.gov/treasury/reference/taxpayer-notices/2026-04-15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year/ | 2026-10-29 |
-| 1b | Michigan Treasury — FY 2026 Income Tax Rate Letter (CREC, MCL 206.51(1)(c) calculation; archived copy of the same notice) | https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/ORTA/Consensus-Revenue-Estimating-Conference---CREC/FY-2026/FY-2026-Income-Tax-Rate-Letter.pdf | 2026-10-29 |
+| 1 | Michigan Treasury -- 4.25% Rate Notice for 2026 (Taxpayer Notice, Apr 15 2026) | https://www.michigan.gov/treasury/reference/taxpayer-notices/2026-04-15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year/ | 2026-10-29 |
+| 1b | Michigan Treasury -- FY 2026 Income Tax Rate Letter (CREC, MCL 206.51(1)(c) calculation; archived copy of the same notice) | https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/ORTA/Consensus-Revenue-Estimating-Conference---CREC/FY-2026/FY-2026-Income-Tax-Rate-Letter.pdf | 2026-10-29 |
 | 2 | MI-1040 Book (TY 2025 instructions) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf | 2026-10-29 |
-| 3 | MCL 206.51 — Tax rate | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51 | 2026-10-28 |
+| 3 | MCL 206.51 -- Tax rate | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-51 | 2026-10-28 |
 | 4 | Michigan city income tax list | https://www.michigan.gov/taxes/iit/city | 2026-10-29 |
 
 Not yet confirmed: MI-1040 Book line references and credit interaction details (PDF not machine-verified in the drafting environment); city income tax rate specifics beyond the state-level list.
 
-## Tier 1 rules — deterministic
+## Tier 1 rules -- deterministic
 
 
 **Tier 1 rules table**
@@ -215,18 +215,18 @@ Not yet confirmed: MI-1040 Book line references and credit interaction details (
 | MI-T1-09 | Homestead Property Tax Credit: available to homeowners/renters with household income ≤ certain thresholds (filed on MI-1040CR) | MCL 206.520 |
 | MI-T1-10 | Credit for taxes paid to other states: non-refundable, limited to Michigan tax on income also taxed by other state | MCL 206.255 |
 
-## Tier 2 rules — requires judgment
+## Tier 2 rules -- requires judgment
 
 
 **Tier 2 rules table**
 
 | Rule ID | Rule | Guidance |
 | --- | --- | --- |
-| MI-T2-01 | **Residency determination** — Michigan uses a domicile test. A person domiciled in Michigan is a resident for the full year, even if temporarily absent. | If taxpayer has homes in multiple states, flag for professional review. |
-| MI-T2-02 | **Reciprocal agreements** — Michigan has reciprocity with IL, IN, KY, MN, OH, WI. Wages earned in those states by a MI resident are taxed only by MI. | Verify the employer withheld for MI (not the work state) and file exemption certificate. |
-| MI-T2-03 | **City income tax nexus** — If a self-employed person has customers or performs work in a city with city income tax, apportionment rules may apply. | Flag for professional review if the taxpayer works in Detroit, Grand Rapids, or other taxing cities. |
-| MI-T2-04 | **Retirement/pension income subtraction** — Complex rules for taxpayers born before 1946, between 1946–1952, and after 1952. | Apply the correct tier based on birth year. |
-| MI-T2-05 | **Home heating credit** — Income-based credit available to low-income households. | Requires separate computation on MI-1040CR-7. |
+| MI-T2-01 | **Residency determination** -- Michigan uses a domicile test. A person domiciled in Michigan is a resident for the full year, even if temporarily absent. | If taxpayer has homes in multiple states, flag for professional review. |
+| MI-T2-02 | **Reciprocal agreements** -- Michigan has reciprocity with IL, IN, KY, MN, OH, WI. Wages earned in those states by a MI resident are taxed only by MI. | Verify the employer withheld for MI (not the work state) and file exemption certificate. |
+| MI-T2-03 | **City income tax nexus** -- If a self-employed person has customers or performs work in a city with city income tax, apportionment rules may apply. | Flag for professional review if the taxpayer works in Detroit, Grand Rapids, or other taxing cities. |
+| MI-T2-04 | **Retirement/pension income subtraction** -- Complex rules for taxpayers born before 1946, between 1946–1952, and after 1952. | Apply the correct tier based on birth year. |
+| MI-T2-05 | **Home heating credit** -- Income-based credit available to low-income households. | Requires separate computation on MI-1040CR-7. |
 
 ## Refusal catalogue
 
@@ -235,13 +235,13 @@ Not yet confirmed: MI-1040 Book line references and credit interaction details (
 
 | ID | Situation | Action |
 | --- | --- | --- |
-| MI-R-01 | Part-year or non-resident return (Schedule NR) | Refuse — out of scope |
-| MI-R-02 | Corporate income tax (CIT) | Refuse — out of scope |
-| MI-R-03 | City income tax return (Detroit, Grand Rapids, etc.) | Refuse — separate filing; out of scope |
-| MI-R-04 | Multi-state income apportionment | Refuse — flag for professional review |
-| MI-R-05 | Amended returns | Refuse — out of scope |
-| MI-R-06 | Tax year other than current | Refuse — rate may differ |
-| MI-R-07 | Michigan Business Tax (MBT) or Corporate Income Tax | Refuse — different tax type |
+| MI-R-01 | Part-year or non-resident return (Schedule NR) | Refuse -- out of scope |
+| MI-R-02 | Corporate income tax (CIT) | Refuse -- out of scope |
+| MI-R-03 | City income tax return (Detroit, Grand Rapids, etc.) | Refuse -- separate filing; out of scope |
+| MI-R-04 | Multi-state income apportionment | Refuse -- flag for professional review |
+| MI-R-05 | Amended returns | Refuse -- out of scope |
+| MI-R-06 | Tax year other than current | Refuse -- rate may differ |
+| MI-R-07 | Michigan Business Tax (MBT) or Corporate Income Tax | Refuse -- different tax type |
 
 ## Disclaimer
 
@@ -255,7 +255,7 @@ This skill and its outputs are provided for informational and computational purp
 ## Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
