@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-Every retailer making sales at retail in Idaho, and any retailer without a physical presence in Idaho that has, in the previous calendar year or the current calendar year, cumulative gross receipts from sales delivered into Idaho in excess of one hundred thousand dollars ($100,000) — that retailer is a "retailer engaged in business in this state" and must collect and remit Idaho sales tax (Idaho Code §63-3611(h)). A retailer meeting only the §63-3611(h) economic threshold "shall not collect or remit any local sales tax or any other tax or assessment that is not imposed by" chapter 36 (§63-3611(h) proviso).
+Every retailer making sales at retail in Idaho, and any retailer without a physical presence in Idaho that has, in the previous calendar year or the current calendar year, cumulative gross receipts from sales delivered into Idaho in excess of one hundred thousand dollars ($100,000) -- that retailer is a "retailer engaged in business in this state" and must collect and remit Idaho sales tax (Idaho Code §63-3611(h)). A retailer meeting only the §63-3611(h) economic threshold "shall not collect or remit any local sales tax or any other tax or assessment that is not imposed by" chapter 36 (§63-3611(h) proviso).
 
 Buyers storing, using, or otherwise consuming tangible personal property in Idaho owe use tax on the same 6% base when no sales tax was charged.
 
@@ -48,7 +48,7 @@ Sales tax is computed monthly on all retail sales within the preceding month (Id
 
 ## Penalties and interest
 
-Penalty and interest amounts for late sales tax returns and payments are listed under Not yet confirmed — no archived primary source for them is in the evidence set yet, so this skill asserts none.
+Penalty and interest amounts for late sales tax returns and payments are listed under Not yet confirmed -- no archived primary source for them is in the evidence set yet, so this skill asserts none.
 
 ## Cross-border points
 
@@ -89,10 +89,10 @@ expected:
 
 ## Ask the client first
 
-1. **Cumulative Idaho-delivered gross receipts** for the previous and current calendar year — over $100,000 triggers registration (Idaho Code §63-3611(h)).
-2. **Physical presence in Idaho** — any physical presence makes the retailer engaged in business regardless of receipts.
-3. **Location of the buyer** — resort-city local-option taxes (e.g., Sun Valley, McCall) apply only to in-city sales by sellers that are not remote-only (Idaho Code §63-3611(h) proviso; State Tax Commission, City Sales Taxes page).
-4. **Nature of the goods sold** — chapter 36 definitions and exemptions decide whether the sale is a taxable retail sale (e.g., §63-3603 farming; §63-3606 new manufactured homes).
+1. **Cumulative Idaho-delivered gross receipts** for the previous and current calendar year -- over $100,000 triggers registration (Idaho Code §63-3611(h)).
+2. **Physical presence in Idaho** -- any physical presence makes the retailer engaged in business regardless of receipts.
+3. **Location of the buyer** -- resort-city local-option taxes (e.g., Sun Valley, McCall) apply only to in-city sales by sellers that are not remote-only (Idaho Code §63-3611(h) proviso; State Tax Commission, City Sales Taxes page).
+4. **Nature of the goods sold** -- chapter 36 definitions and exemptions decide whether the sale is a taxable retail sale (e.g., §63-3603 farming; §63-3606 new manufactured homes).
 
 ## Sources
 
@@ -106,7 +106,7 @@ expected:
 | Idaho Code §50-1046, City local-option nonproperty taxes permitted by sixty per cent majority vote (60% approval; lodging, liquor by the drink, and sales subject to chapter 36) | https://legislature.idaho.gov/statutesrules/idstat/Title50/T50CH10/SECT50-1046/ | 2026-10-28 |
 | Idaho State Tax Commission, City Sales Taxes (resort cities with local sales taxes; Sun Valley, McCall and others; some limit to lodging, alcohol, restaurant food) | https://tax.idaho.gov/taxes/sales-use/sales-tax/local-sales-tax/city-sales-tax/ | 2026-10-28 |
 
-Not yet confirmed: the maximum resort-city local sales tax rate (earlier drafts said "up to 3%" — no archived primary source states a rate cap, so the cap amount is not asserted); the maximum combined state-plus-local rate (earlier drafts said "~9.00%"); whether Idaho's sourcing rules are destination-based for all transaction types (sourcing rules not yet archived); whether SaaS and canned downloaded software are taxable (earlier drafts asserted SaaS is not taxable and downloaded software is taxable — not tied to an archived source); the taxability rows for clothing, grocery food, prepared food, prescription drugs, professional services, manufacturing production equipment, and resale transactions from earlier drafts (each requires its own archived exemption or definition source before being asserted); sales tax return due dates, filing frequencies, and prepayment thresholds; penalty and interest amounts for late sales tax returns; Idaho's Streamlined Sales Tax (SST) membership status as a full member.
+Not yet confirmed: the maximum resort-city local sales tax rate (earlier drafts said "up to 3%" -- no archived primary source states a rate cap, so the cap amount is not asserted); the maximum combined state-plus-local rate (earlier drafts said "~9.00%"); whether Idaho's sourcing rules are destination-based for all transaction types (sourcing rules not yet archived); whether SaaS and canned downloaded software are taxable (earlier drafts asserted SaaS is not taxable and downloaded software is taxable -- not tied to an archived source); the taxability rows for clothing, grocery food, prepared food, prescription drugs, professional services, manufacturing production equipment, and resale transactions from earlier drafts (each requires its own archived exemption or definition source before being asserted); sales tax return due dates, filing frequencies, and prepayment thresholds; penalty and interest amounts for late sales tax returns; Idaho's Streamlined Sales Tax (SST) membership status as a full member.
 
 > Contributed by Michael Cutajar.
 
@@ -116,7 +116,7 @@ Not yet confirmed: the maximum resort-city local sales tax rate (earlier drafts 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

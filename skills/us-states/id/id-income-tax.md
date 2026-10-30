@@ -60,7 +60,7 @@ For trusts that are electing small business trusts under IRC §1361, the individ
 
 ## Penalties and interest
 
-Penalty and interest amounts for late filing and late payment by individuals are listed under Not yet confirmed — no archived primary source for them is in the evidence set yet, so this skill computes none and asserts none.
+Penalty and interest amounts for late filing and late payment by individuals are listed under Not yet confirmed -- no archived primary source for them is in the evidence set yet, so this skill computes none and asserts none.
 
 ## Cross-border points
 
@@ -111,11 +111,11 @@ expected:
 
 ## Ask the client first
 
-1. **Residency status for the year** — resident, part-year, or nonresident? This sets the $2,500 Idaho-source gross-income trigger (Idaho Code §63-3030(a)(2)).
-2. **Filing status and dependents** — this sets the exemption ($4,811 or $9,622) and the standard deduction ($15,750 / $23,625 / $31,500) used in the Form 40 tax worksheet.
-3. **Federal taxable income and any Idaho modifications** — Idaho starts from the federal figures (Idaho Code §63-3002); unresolved federal items flow straight into the Idaho return.
-4. **Business form** — sole proprietor or single-member LLC (this skill), or corporation/S-corp (see the §63-3025 corporate rates for context and route complex pass-throughs out)?
-5. **Estimated payments made during the year** — needed to compute balance due with the return.
+1. **Residency status for the year** -- resident, part-year, or nonresident? This sets the $2,500 Idaho-source gross-income trigger (Idaho Code §63-3030(a)(2)).
+2. **Filing status and dependents** -- this sets the exemption ($4,811 or $9,622) and the standard deduction ($15,750 / $23,625 / $31,500) used in the Form 40 tax worksheet.
+3. **Federal taxable income and any Idaho modifications** -- Idaho starts from the federal figures (Idaho Code §63-3002); unresolved federal items flow straight into the Idaho return.
+4. **Business form** -- sole proprietor or single-member LLC (this skill), or corporation/S-corp (see the §63-3025 corporate rates for context and route complex pass-throughs out)?
+5. **Estimated payments made during the year** -- needed to compute balance due with the return.
 
 ## Sources
 
@@ -138,7 +138,7 @@ Not yet confirmed: Idaho individual late-filing and late-payment penalty percent
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
