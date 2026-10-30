@@ -11,7 +11,7 @@ last_updated: 2026-10-28
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## Section 1 -- Quick reference
+### Section 1 -- Quick reference
 
 | Field | Value |
 |---|---|
@@ -67,7 +67,7 @@ Before performing any California sales tax work, collect the following:
 
 ---
 
-## Section 3 -- Transaction pattern library
+### Section 3 -- Transaction pattern library
 
 This is the deterministic taxability lookup. When a transaction matches a pattern below, apply the listed treatment. Do not second-guess.
 
@@ -347,7 +347,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ---
 
-## Section 9 -- Test suite
+### Section 9 -- Test suite
 
 ### Test 1 -- Basic taxable sale in Los Angeles
 
@@ -426,4 +426,51 @@ This skill is provided for informational and computational purposes only and doe
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://www.openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+## Who this applies to
+
+Not yet confirmed against archived sources.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

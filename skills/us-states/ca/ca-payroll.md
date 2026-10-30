@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Figures are for tax year 2026. This skill covers the four California payroll taxes an employer handles through the Employment Development Department (EDD): California Personal Income Tax (PIT) withholding, State Disability Insurance (SDI), Unemployment Insurance (UI) and the Employment Training Tax (ETT). It also covers the quarterly and annual filings, deposits, new hire and contractor reports, and the final pay rules enforced by the Labor Commissioner. Every rate below comes from an EDD or Department of Industrial Relations page. California income tax brackets for the annual return are set by the Franchise Tax Board; confirm them on ftb.ca.gov, because this skill does not reproduce them.
 
-## 1. Scope
+## Who this applies to
 
 This skill covers California employer payroll for 2026:
 
@@ -432,7 +432,7 @@ The Los Angeles City business tax is administered by the city's Office of Financ
 
 Some cities (for example San Jose, Oakland, Berkeley, San Diego) levy business taxes or license taxes. Confirm the employer's city and read the city ordinance; this skill does not cover them.
 
-## 15. Worked Examples
+### 15. Worked Examples
 
 All three examples are hypothetical. The people and amounts are invented; the rates are the 2026 rates in the tables above. Arithmetic is shown so it can be checked.
 
@@ -516,7 +516,7 @@ For restricted stock units and other equity paid through payroll, the federal si
 
 When facts are ambiguous, apply the conservative default and disclose it.
 
-## The method, step by step
+### The method, step by step
 
 1. A commercial employer registers with EDD on the DE 1 within 15 calendar days after paying more than the registration amount in the DE 44 table in section 2 in wages during any calendar quarter (other employers: DE 44 page 6). All returns and deposits then go through e-Services for Business under the e-file and e-pay mandate. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 2. Get a signed Form W-4 and DE 4 from each new employee; with no valid DE 4, withhold as single with zero allowances. [EDD rates and withholding](https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding)
@@ -532,7 +532,7 @@ When facts are ambiguous, apply the conservative default and disclose it.
 12. On termination, pay final wages on the Labor Code timetable. [DIR paydays FAQ](https://www.dir.ca.gov/dlse/FAQ_Paydays.htm)
 13. Each December, read the new DE 2088 and protest within 60 days of its issued date if it is wrong. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 
-## Ask the client first
+### Ask the client first
 
 - Is the business a new employer with EDD, and what UI and ETT rates does its latest DE 2088 show?
 - Which federal deposit schedule is it on (next-day, semi-weekly, monthly, quarterly or annual)? This sets the California PIT and SDI deposit dates.
@@ -541,7 +541,7 @@ When facts are ambiguous, apply the conservative default and disclose it.
 - Does anyone work for the business as an independent contractor, and has each been tested under the ABC test and reported on the DE 542?
 - Does anyone work outside California, or live outside California while working here?
 
-## When to refuse or refer
+### When to refuse or refer
 
 - Multistate employees, reciprocal coverage elections and nonresident withholding: refer to a payroll professional; see `us-state-payroll-matrix`.
 - Federal payroll returns and federal income tax withholding: `us-form-941-940-payroll`.
@@ -551,7 +551,14 @@ When facts are ambiguous, apply the conservative default and disclose it.
 - Voluntary Plan applications, reserve account transfers and section 977(c) cases: refer to EDD or a payroll specialist.
 - Annual California income tax brackets and Franchise Tax Board penalties: confirm on ftb.ca.gov; this skill does not state them.
 
-## Sources
+### Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 - [EDD: Contribution Rates, Withholding Schedules, and Meals and Lodging Values](https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding)
 - [EDD: California Employer's Guide 2026 (DE 44)](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
@@ -568,7 +575,7 @@ When facts are ambiguous, apply the conservative default and disclose it.
 - [Labor Commissioner: Vacation FAQ](https://www.dir.ca.gov/dlse/FAQ_Vacation.htm)
 - [Labor Commissioner: Tips and Gratuities FAQ](https://www.dir.ca.gov/dlse/FAQ_TipsAndGratuities.htm)
 
-## 18. Provenance and Citations
+### 18. Provenance and Citations
 
 Rates, wage limits, schedules, due dates and penalties above are taken from the EDD and Labor Commissioner pages listed in Sources, read on 3 October 2026. The 2026 DE 44 is revision 52. The Franchise Tax Board site (ftb.ca.gov) and the statute site (leginfo.legislature.ca.gov) could not be read for this rewrite; nothing here relies on them, and any figure only they print is labelled "confirm on ftb.ca.gov" or removed.
 
@@ -588,16 +595,52 @@ A taxpayer or employer relying on this skill without credentialed review proceed
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

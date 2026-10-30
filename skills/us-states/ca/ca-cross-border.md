@@ -25,7 +25,7 @@ depends_on:
 
 # California cross-border taxation v0.1
 
-## 1. Scope and sources
+## Who this applies to
 
 Covers when an out-of-state or foreign corporation becomes subject to
 California franchise tax, what federal statutory protection applies,
@@ -36,7 +36,7 @@ via Cornell LII, 200, 2026-10-27), 15 U.S.C. §381 (PL 86-272, 200,
 R&TC §§23101/25128 leginfo pages returned 403 to this agent —
 statute cites pending verification.
 
-## 2. Who applies
+### 2. Who applies
 
 - Every corporation "doing business" in California is subject to the
   franchise tax; "doing business" means "actively engaging in any
@@ -50,7 +50,7 @@ statute cites pending verification.
 - Corporations protected by PL 86-272 are not subject to a net-income
   tax measured by income from protected activity (see §7).
 
-## 3. Rates and thresholds
+## Rates, bands and thresholds
 
 | Item | Amount | Source |
 |---|---|---|
@@ -71,14 +71,14 @@ statute cites pending verification.
 - Nonbusiness income (rents, royalties, gains) is allocated rather
   than apportioned (R&TC §25123 et seq. — pending verification).
 
-## 5. Deadlines
+### 5. Deadlines
 
 - Form 100: 15th day of the 4th month after year close (April 15
   calendar year); Form 7004 extends filing only.
 - A first-year filer should register with FTB before the due date;
   failure to register does not stop the filing clock.
 
-## 6. Penalties and interest
+### 6. Penalties and interest
 
 - FTB 25% late-filing penalty and published interest rates apply to
   foreign/out-of-state corporations identically (FTB
@@ -87,7 +87,7 @@ statute cites pending verification.
   lookback follows the general FTB statute of limitations (verify
   current SOL rules in FTB guidance).
 
-## 7. Cross-border interactions
+### 7. Cross-border interactions
 
 - **PL 86-272:** shields a corporation whose only California activity
   is "solicitation of orders ... for sales of tangible personal
@@ -107,7 +107,7 @@ statute cites pending verification.
   states claim a credit under R&TC §17059 (pending verification);
   corporations use the §24011 credit mechanics (pending verification).
 
-## 8. Worked examples
+### 8. Worked examples
 
 An Ohio corporation with no California property or payroll has
 California sales of $900,000 and total sales of $3,000,000; total
@@ -154,7 +154,7 @@ expected:
 $800 minimum franchise tax question for protected corporations should
 be confirmed against current FTB guidance before advising.)
 
-## 9. Ask the client
+### 9. Ask the client
 
 - What California contacts exist — employees, inventory, agents,
   marketplace sales, remote workers?
@@ -167,7 +167,14 @@ be confirmed against current FTB guidance before advising.)
 - Has FTB registration been completed, and are prior open years a
   concern?
 
-## Sources
+### Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 1. 18 CCR §23101 "Doing Business"-Defined: https://www.law.cornell.edu/regulations/california/18-CCR-23101 (200 with text, 2026-10-27)
 2. 15 U.S.C. §381 (Public Law 86-272): https://www.law.cornell.edu/uscode/text/15/381 (200 with text, 2026-10-27)
@@ -179,3 +186,35 @@ be confirmed against current FTB guidance before advising.)
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for California nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

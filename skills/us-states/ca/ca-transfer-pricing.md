@@ -25,7 +25,7 @@ depends_on:
 
 # California transfer pricing & combined reporting v0.1
 
-## 1. Scope and sources
+## Who this applies to
 
 Covers how California taxes intercompany and cross-border related-party
 income: unitary combined reporting, water's-edge boundaries, statutory
@@ -36,7 +36,7 @@ federal unitary-combination case law. Statute sections cited below
 (§§25101, 25110, 25134) returned 403 to this agent from leginfo on
 2026-10-27 — treat as pending verification.
 
-## 2. Who applies
+### 2. Who applies
 
 - Members of a unitary business group file a combined report (Form
   100W). "Unitary business" follows the three-factor test from
@@ -72,14 +72,14 @@ federal unitary-combination case law. Statute sections cited below
   revenue: sales are sourced where the greater proportion of the
   income-producing activities is performed.
 
-## 5. Deadlines
+### 5. Deadlines
 
 - Combined report filed with the members' Form 100 returns: 15th day of
   the 4th month (April 15 calendar year).
 - Election deadlines (water's-edge, affil-group): verify current FTB
   procedure and filing mechanics before advising.
 
-## 6. Penalties and interest
+### 6. Penalties and interest
 
 - FTB adjustments carry interest at the published FTB rate from the
   original due date (FTB penalties-and-interest pages, verified
@@ -87,7 +87,7 @@ federal unitary-combination case law. Statute sections cited below
 - Understatement penalties (25% late-filing; accuracy-related
   penalties per FTB guidance) may apply to report-position errors.
 
-## 7. Cross-border interactions
+### 7. Cross-border interactions
 
 - Water's-edge boundary: U.S. + unitary-group members with U.S. nexus
   stay in; combined-report-unitary and 25% common ownership tests
@@ -101,7 +101,7 @@ federal unitary-combination case law. Statute sections cited below
   net-income tax; it does not shelter intangible or management-fee
   income.
 
-## 8. Worked examples
+### 8. Worked examples
 
 A California manufacturer pays $2,000,000 in royalties to an affiliated
 foreign licensor. The royalty is added back under §25110 (no exception
@@ -140,7 +140,7 @@ expected:
   ca_sales: 4500000.00
 ```
 
-## 9. Ask the client
+### 9. Ask the client
 
 - Is the group unitary under the three-factor test, and is a
   water's-edge election in place (when does it expire)?
@@ -151,7 +151,14 @@ expected:
 - Are intercompany agreements, transfer-pricing studies, and
   contemporaneous documentation in place for FTB audit?
 
-## Sources
+### Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 1. 18 CCR §25110 Water's-Edge Group (unitary business definition): https://www.law.cornell.edu/regulations/california/18-CCR-25110 (200 with text, 2026-10-27)
 2. FTB — Corporation Tax Rates: https://www.ftb.ca.gov/file/business/tax-rates.html (200 with text, 2026-10-27)
@@ -163,3 +170,39 @@ expected:
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for California combined-reporting and transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

@@ -24,7 +24,7 @@ depends_on:
 
 # California corporate franchise tax v0.1
 
-## 1. Scope and sources
+## Who this applies to
 
 Covers the California franchise/income tax on corporations (Form 100), the
 minimum franchise tax, combined reporting, and corporate estimated tax.
@@ -34,7 +34,7 @@ income tax, or sales/use tax. Primary sources: FTB tax-rates page, FTB
 Form 100/3539/568 (2025 editions), California Revenue and Taxation Code
 (R&TC) via leginfo. All URLs resolved 2026-10-27.
 
-## 2. Who applies
+### 2. Who applies
 
 - Corporations (C corps) doing business in California or incorporated in
   California are subject to the franchise tax (R&TC §23151).
@@ -78,7 +78,7 @@ The LLC annual fee table on Form 568 (2025 edition, verified text): $800
   using the group's combined sales factor.
 - Fiscal-year filers use the rates in effect for their income year.
 
-## 5. Deadlines
+### 5. Deadlines
 
 | Filing | Calendar-year due date |
 |---|---|
@@ -92,7 +92,7 @@ Safe harbors per Form 3539: 90% of current-year tax or 100% of
 prior-year tax shown on the return (110% for large corporations —
 confirm current thresholds with FTB).
 
-## 6. Penalties and interest
+### 6. Penalties and interest
 
 - Late filing: 25% of the unpaid tax (FTB penalties page; R&TC §19255 —
   statute cite to verify).
@@ -103,7 +103,7 @@ confirm current thresholds with FTB).
   (federal short-term rate plus statutory add-on, set semiannually —
   current rate on the FTB interest-rates page).
 
-## 7. Cross-border interactions
+### 7. Cross-border interactions
 
 - Public Law 86-272 shields certain solicitation-only activities from
   net-income tax; California applies it narrowly (FTB guidance).
@@ -118,7 +118,7 @@ confirm current thresholds with FTB).
   arm's-length/business-purpose exception is established (see
   `ca-transfer-pricing`).
 
-## 8. Worked examples
+### 8. Worked examples
 
 A calendar-year C corporation has $500,000 of income apportioned to
 California for 2026. Tax:
@@ -158,7 +158,7 @@ expected:
   tax: 70720.00
 ```
 
-## 9. Ask the client
+### 9. Ask the client
 
 - Is the entity incorporated in California or doing business there
   (employees, inventory, marketplace sales, economic nexus thresholds)?
@@ -170,7 +170,14 @@ expected:
 - Are estimated payments on the April/June/September/December schedule
   sized to the 90%/100% safe harbor?
 
-## Sources
+### Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 1. FTB — Corporation Tax Rates: https://www.ftb.ca.gov/file/business/tax-rates.html (200 with text, 2026-10-27)
 2. FTB — Form 100 (2025): https://www.ftb.ca.gov/forms/2025/2025-100.pdf (200 PDF, 2026-10-27)
@@ -185,3 +192,39 @@ expected:
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for California franchise-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

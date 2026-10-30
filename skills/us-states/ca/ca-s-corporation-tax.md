@@ -23,7 +23,7 @@ depends_on:
 
 # California S-corporation tax (Form 100S) v0.1
 
-## 1. Scope and sources
+## Who this applies to
 
 Covers the California entity-level tax on S corporations (Form 100S),
 shareholder-level pass-through reporting, and the QSSS election. Does
@@ -33,7 +33,7 @@ with FTB). Primary sources: FTB Form 100S (2025 edition, PDF verified
 2026-10-27); R&TC §23803 (leginfo returned 403 to this agent — cite
 pending verification).
 
-## 2. Who applies
+### 2. Who applies
 
 - A corporation that has made a federal S election and is doing business
   in California or incorporated in California files Form 100S.
@@ -69,7 +69,7 @@ instructions, not on the form face (verified 2025 form text).
   again at shareholder level; reasonable-compensation analysis is
   federal but affects CA wages on Form 540 withholding.
 
-## 5. Deadlines
+### 5. Deadlines
 
 | Filing | Calendar-year due date |
 |---|---|
@@ -77,7 +77,7 @@ instructions, not on the form face (verified 2025 form text).
 | Form 7004 extension | 6-month extension to file (September 15); payment not extended |
 | Estimated tax (Form 3539) | April 15, June 15, September 15, December 15 (S corporations pay CA estimated tax — verify current safe-harbor percentages in Form 100S instructions) |
 
-## 6. Penalties and interest
+### 6. Penalties and interest
 
 - Same FTB penalty/interest regime as corporations: 25% late-filing
   penalty on unpaid tax, interest at the published FTB rate (FTB
@@ -85,7 +85,7 @@ instructions, not on the form face (verified 2025 form text).
 - Estimated-tax underpayment penalty applies; computed per FTB
   instructions.
 
-## 7. Cross-border interactions
+### 7. Cross-border interactions
 
 - QSSS election: a qualifying S corporation subsidiary of an S parent
   is disregarded for California franchise purposes; QSub income flows
@@ -97,7 +97,7 @@ instructions, not on the form face (verified 2025 form text).
 - Other states' PTE (pass-through entity) elective taxes do not have a
   California analogue as of this run — verify before advising.
 
-## 8. Worked examples
+### 8. Worked examples
 
 A calendar-year S corporation has $300,000 of California net income for
 2026. Entity tax:
@@ -132,7 +132,7 @@ expected:
   due: 800.00
 ```
 
-## 9. Ask the client
+### 9. Ask the client
 
 - Has FTB recorded the S election, and is the entity in good standing
   with the Secretary of State?
@@ -143,7 +143,14 @@ expected:
 - Is a QSSS/QSub structure in place, and does it still qualify?
 - Are estimated payments being made on the corporate schedule?
 
-## Sources
+### Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 1. FTB — Form 100S (2025): https://www.ftb.ca.gov/forms/2025/2025-100S.pdf (200 PDF, 2026-10-27)
 2. FTB — Corporation Tax Rates: https://www.ftb.ca.gov/file/business/tax-rates.html (200 with text, 2026-10-27)
@@ -153,3 +160,39 @@ expected:
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for California S-corporation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
