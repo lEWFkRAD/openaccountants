@@ -21,9 +21,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | Wyoming, United States |
 | Jurisdiction Code | US-WY |
 | Tax Type | Sales and Use Tax (state + local) |
-| State Rate | 4.00% |
-| Local Rate | Up to 2.00% (county option) |
-| Maximum Combined Rate | 6.00% |
+| State Rate | 4.00% | (not yet confirmed)
+| Local Rate | Up to 2.00% (county option) | (not yet confirmed)
+| Maximum Combined Rate | 6.00% | (not yet confirmed)
 | Primary Statute | Wyoming Statutes (W.S.) §39-15-101 et seq. |
 | Governing Agency | Wyoming Department of Revenue (DOR) |
 | Portal | https://revenue.wyo.gov |
@@ -63,7 +63,7 @@ Before proceeding with any Wyoming sales tax analysis, collect the following fro
 
 ### 1.1 State Sales Tax Rate
 
-- **State Sales Tax Rate** — 4.00% (T1)  _(W.S. §39-15-104.)_
+- **State Sales Tax Rate** — 4.00% (T1)  _(W.S. §39-15-104.)_ (not yet confirmed)
 
 ### 1.2 No State Income Tax [T1]
 
@@ -71,9 +71,9 @@ Before proceeding with any Wyoming sales tax analysis, collect the following fro
 
 ### 1.3 Local Sales Taxes [T1]
 
-- **County additional sales tax** — Counties may impose additional sales tax up to 2.00% (general purpose + specific purpose). ([T1])
+- **County additional sales tax** — Counties may impose additional sales tax up to 2.00% (general purpose + specific purpose). ([T1]) (not yet confirmed)
 - **Most counties impose local option tax** — Most counties impose some form of local option tax. ([T1])
-- **Combined rate range** — Combined rates range from 4.00% to 6.00%. ([T1])
+- **Combined rate range** — Combined rates range from 4.00% to 6.00%. ([T1]) (not yet confirmed)
 - **Local tax administration** — Local taxes are administered by the Wyoming DOR. ([T1])
 
 ### 1.4 Sourcing [T1]
@@ -143,7 +143,7 @@ Wyoming taxes a limited number of services:
 | Field | Detail |
 | --- | --- |
 | Return Form | Sales/Use Tax Return (filed via WyoTax) |
-| Filing Frequencies | Monthly (>$300/month avg tax); Quarterly ($100-$300); Annually (<$100) |
+| Filing Frequencies | Monthly (>$300/month avg tax); Quarterly ($100-$300); Annually (<$100) | (not yet confirmed)
 | Due Date | Last day of the month following the reporting period |
 | Portal | https://excise.wyo.gov (WyoTax) |
 | E-filing | Required for most filers |
@@ -152,12 +152,12 @@ Wyoming taxes a limited number of services:
 
 ### 4.2 Vendor Discount [T1]
 
-- **Vendor Discount** — 1.95% percent of tax collected ([T1] for timely filing, up to $500/month cap)
+- **Vendor Discount** — 1.95% percent of tax collected ([T1] for timely filing, up to $500/month cap) (not yet confirmed)
 
 ### 4.3 Penalties and Interest [T1]
 
-- **Late filing penalty** — 10% of tax due (minimum $25). ([T1])
-- **Interest** — 1% per month (12% per annum). ([T1])
+- **Late filing penalty** — 10% of tax due (minimum $25). ([T1]) (not yet confirmed)
+- **Interest** — 1% per month (12% per annum). ([T1]) (not yet confirmed)
 
 ### Step 4: Deductibility / Exemptions
 
@@ -175,11 +175,11 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Wy
 
 | Field | Detail |
 | --- | --- |
-| Revenue Threshold | $100,000 in Wyoming sales |
+| Revenue Threshold | $100,000 in Wyoming sales | (not yet confirmed)
 | Transaction Threshold | 200 transactions |
 | Test | OR (either threshold triggers nexus) |
 | Measurement Period | Current or prior calendar year |
-| Effective Date | February 1, 2019 |
+| Effective Date | February 1, 2019 | (not yet confirmed)
 
 ### 3.2 Marketplace Facilitator [T1]
 
@@ -196,7 +196,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 ### PROHIBITIONS
 
 - **Grocery food** — NEVER tax grocery food in Wyoming. Unprepared food is exempt. ([T1])
-- **Uniform rate assumption** — NEVER assume a uniform 4% rate across Wyoming. County taxes add up to 2%. ([T1])
+- **Uniform rate assumption** — NEVER assume a uniform 4% rate across Wyoming. County taxes add up to 2%. ([T1]) (not yet confirmed)
 - **SaaS taxability assumption** — NEVER assume SaaS is taxable in Wyoming. Current law does not tax SaaS. ([T2])
 - **Mineral/energy context** — NEVER ignore the mineral/energy industry context. Wyoming's economy and tax structure revolve around natural resources. ([T2])
 - **Filing deadline** — NEVER file Wyoming returns by the 20th. The due date is the last day of the following month. ([T1])
@@ -208,14 +208,14 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 **Resolution:**
 - Wyoming has no individual or corporate income tax. [T1]
-- Sales tax rates are moderate (4% state + up to 2% local = max 6%). [T1]
+- Sales tax rates are moderate (4% state + up to 2% local = max 6%). [T1] (not yet confirmed)
 - However, mineral severance taxes, property taxes, and the Commerce Tax equivalent should be considered. [T2]
 - Wyoming is a popular state for LLCs and holding companies due to privacy laws and no income tax. [T1]
 - **Flag for reviewer:** Total tax burden analysis requires evaluating all tax types, not just sales tax. [T2]
 
 ### EC2 -- Energy Industry Equipment [T2]
 
-**Situation:** An oil company purchases $2 million in drilling equipment for use in Wyoming.
+**Situation:** An oil company purchases $2 million in drilling equipment for use in Wyoming. (not yet confirmed)
 
 **Resolution:**
 - Drilling equipment is generally subject to sales tax at the full combined rate. [T2]
@@ -236,7 +236,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### EC4 -- Agricultural Equipment Exemption [T1]
 
-**Situation:** A rancher purchases a new tractor for $60,000 for use on a cattle ranch.
+**Situation:** A rancher purchases a new tractor for $60,000 for use on a cattle ranch. (not yet confirmed)
 
 **Resolution:**
 - Farm and ranch machinery is exempt from sales tax. W.S. §39-15-105(a)(vi). [T1]
@@ -247,7 +247,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### EC5 -- Wind Farm Equipment [T2]
 
-**Situation:** A wind energy company purchases $5 million in wind turbines and related equipment for a Wyoming wind farm.
+**Situation:** A wind energy company purchases $5 million in wind turbines and related equipment for a Wyoming wind farm. (not yet confirmed)
 
 **Resolution:**
 - Wyoming may offer tax incentives for wind energy development. [T2]
@@ -257,11 +257,11 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### EC6 -- Tourism and Lodging in Jackson Hole [T2]
 
-**Situation:** A hotel in Jackson, WY charges $400/night. What taxes apply?
+**Situation:** A hotel in Jackson, WY charges $400/night. What taxes apply? (not yet confirmed)
 
 **Resolution:**
-- State sales tax: 4%. [T1]
-- Teton County optional tax: up to 2%. [T1]
+- State sales tax: 4%. [T1] (not yet confirmed)
+- Teton County optional tax: up to 2%. [T1] (not yet confirmed)
 - Wyoming does not impose a separate state lodging tax. [T1]
 - Local lodging taxes may apply (varies by county/city). [T2]
 - Combined tax on lodging depends on the specific jurisdiction. [T2]
@@ -279,43 +279,43 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### Test 1 -- Basic Taxable Sale
 
-**Input:** Seller in Cheyenne sells $800 of equipment. Combined rate = 6% (4% state + 2% local).
-**Expected output:** Tax = $800 x 6% = $48.00. Total = $848.00.
+**Input:** Seller in Cheyenne sells $800 of equipment. Combined rate = 6% (4% state + 2% local). (not yet confirmed)
+**Expected output:** Tax = $800 x 6% = $48.00. Total = $848.00. (not yet confirmed)
 
 ### Test 2 -- Grocery Food Exempt
 
-**Input:** Customer buys $200 groceries in Casper.
-**Expected output:** Groceries are EXEMPT. Tax = $0. Total = $200.00.
+**Input:** Customer buys $200 groceries in Casper. (not yet confirmed)
+**Expected output:** Groceries are EXEMPT. Tax = $0. Total = $200.00. (not yet confirmed)
 
 ### Test 3 -- Farm Equipment Exempt
 
-**Input:** Rancher buys a $40,000 tractor for ranch use.
-**Expected output:** Farm machinery is exempt. Tax = $0. Total = $40,000.00.
+**Input:** Rancher buys a $40,000 tractor for ranch use. (not yet confirmed)
+**Expected output:** Farm machinery is exempt. Tax = $0. Total = $40,000.00. (not yet confirmed)
 
 ### Test 4 -- Economic Nexus
 
-**Input:** Remote seller sold $105,000 to Wyoming in the prior year.
-**Expected output:** $105,000 exceeds $100,000 threshold. Nexus IS triggered. Must register and collect.
+**Input:** Remote seller sold $105,000 to Wyoming in the prior year. (not yet confirmed)
+**Expected output:** $105,000 exceeds $100,000 threshold. Nexus IS triggered. Must register and collect. (not yet confirmed)
 
 ### Test 5 -- Clothing Taxable
 
-**Input:** Customer buys $300 jacket in Jackson. Combined rate = 6%.
-**Expected output:** Clothing IS taxable. Tax = $300 x 6% = $18.00. Total = $318.00.
+**Input:** Customer buys $300 jacket in Jackson. Combined rate = 6%. (not yet confirmed)
+**Expected output:** Clothing IS taxable. Tax = $300 x 6% = $18.00. Total = $318.00. (not yet confirmed)
 
 ### Test 6 -- Lodging in Jackson
 
-**Input:** Guest stays 3 nights at a Jackson hotel at $350/night. Combined rate = 6%.
-**Expected output:** Room = $1,050. Tax = $1,050 x 6% = $63.00. Total = $1,113.00.
+**Input:** Guest stays 3 nights at a Jackson hotel at $350/night. Combined rate = 6%. (not yet confirmed)
+**Expected output:** Room = $1,050. Tax = $1,050 x 6% = $63.00. Total = $1,113.00. (not yet confirmed)
 
 ### Test 7 -- Use Tax from Montana Purchase
 
-**Input:** Wyoming resident buys $2,000 furniture in Montana (no tax paid). WY combined rate = 6%.
-**Expected output:** Use tax = $2,000 x 6% = $120.00. No credit (MT has no sales tax).
+**Input:** Wyoming resident buys $2,000 furniture in Montana (no tax paid). WY combined rate = 6%. (not yet confirmed)
+**Expected output:** Use tax = $2,000 x 6% = $120.00. No credit (MT has no sales tax). (not yet confirmed)
 
 ### Test 8 -- Vendor Discount Calculation
 
-**Input:** Wyoming seller collects $10,000 in tax for the month and files on time.
-**Expected output:** Vendor discount = $10,000 x 1.95% = $195.00. Seller remits $10,000 - $195 = $9,805.00.
+**Input:** Wyoming seller collects $10,000 in tax for the month and files on time. (not yet confirmed)
+**Expected output:** Vendor discount = $10,000 x 1.95% = $195.00. Seller remits $10,000 - $195 = $9,805.00. (not yet confirmed)
 
 ### Reviewer Escalation Protocol
 
