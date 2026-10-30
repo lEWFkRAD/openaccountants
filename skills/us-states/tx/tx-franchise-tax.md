@@ -1,6 +1,6 @@
 ---
 name: tx-franchise-tax
-description: "Texas Franchise Tax for single-member LLCs and other taxable entities. Covers the 2026 report no-tax-due threshold ($2,650,000), discontinued Form 05-163 for report years 2024+, required PIR/OIR filing, E-Z computation rate (0.331%), standard computation, passive-entity filing path, and annual filing requirements. Primary source: Texas Comptroller and Texas Tax Code Chapter 171."
+description: "Texas Franchise Tax for single-member LLCs and other taxable entities. Covers the 2026 report no-tax-due threshold ((not yet confirmed)), discontinued Form 05-163 for report years 2024+, required PIR/OIR filing, E-Z computation rate (0.331%), standard computation, passive-entity filing path, and annual filing requirements. Primary source: Texas Comptroller and Texas Tax Code Chapter 171."
 version: "1.2"
 jurisdiction: US-TX
 tax_year: 2026
@@ -84,7 +84,7 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 | No-tax-due threshold (2026 & 2027 reports) | $2,650,000 total revenue | Texas Comptroller Franchise Tax hub |
 | No-tax-due threshold (2024-2025 reports) | $2,470,000 total revenue | Texas Comptroller / Tax Code §171.006 |
 | EZ computation rate | 0.331% of total revenue (apportioned) | Texas Tax Code §171.1016 |
-| EZ computation revenue limit | $20,000,000 annualized total revenue | Texas Comptroller Franchise Tax hub |
+| EZ computation revenue limit | $20,000,000 annualized total revenue | Texas Comptroller Franchise Tax hub | (not yet confirmed)
 | Standard rate -- retail/wholesale | 0.375% of taxable margin | Texas Tax Code §171.002(b) |
 | Standard rate -- other entities | 0.75% of taxable margin | Texas Tax Code §171.002(a) |
 | Minimum tax | $0 (no minimum) | Texas Tax Code §171.002 |
@@ -121,7 +121,7 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 
 ### Step 7: Compare computation methods
 
-0. **Step 7** — For standard computation, the tax is the LESSER of: Tax computed using COGS method; Tax computed using compensation method; Tax computed using 70% of total revenue method
+0. **Step 7** — For standard computation, the tax is the LESSER of: Tax computed using COGS method; Tax computed using compensation method; Tax computed using 70% of total revenue method (not yet confirmed)
 
 ### Step 8: File required forms
 
@@ -153,7 +153,7 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 
 ### Test 1: Below no-tax-due threshold
 
-**Input:** SMLLC with total revenue of $180,000.
+**Input:** SMLLC with total revenue of $180,000. (not yet confirmed)
 **Expected:** Below $2,650,000 threshold. File Form 05-102 (or Form 05-167 if applicable); do not file Form 05-163. Tax: $0.
 
 ### Test 2: EZ computation
@@ -168,7 +168,7 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 
 ### Test 4: Retail entity at reduced rate
 
-**Input:** Retail SMLLC. Total revenue: $4,000,000. COGS: $2,500,000.
+**Input:** Retail SMLLC. Total revenue: $4,000,000. COGS: $2,500,000. (not yet confirmed)
 **Expected:** Margin: $1,500,000. Cap: $2,800,000. Use $1,500,000. Tax: $1,500,000 x 0.375% = $5,625.
 
 ### Test 5: Sole proprietor (no entity)
@@ -221,9 +221,9 @@ Before delivering output, verify:
 - [ ] Total revenue computed from correct federal return data
 - [ ] No-tax-due threshold of $2,650,000 applied
 - [ ] Form 05-102 (Public Information Report) included in every filing
-- [ ] EZ computation only used if revenue <= $20,000,000
+- [ ] EZ computation only used if revenue <= $20,000,000 (not yet confirmed)
 - [ ] Correct rate applied (0.75% other vs. 0.375% retail/wholesale)
-- [ ] 70% of total revenue cap applied as automatic limit
+- [ ] 70% of total revenue cap applied as automatic limit (not yet confirmed)
 - [ ] All computation methods compared to select the lowest tax
 - [ ] Short-period threshold NOT prorated
 

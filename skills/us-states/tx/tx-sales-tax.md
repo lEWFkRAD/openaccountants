@@ -174,13 +174,13 @@ Example: $10,000 data processing invoice. Taxable amount: $10,000 x 80% = $8,000
 
 ### E-2: Internet access and web hosting
 
-Internet access services are exempt from Texas sales tax (per the federal Internet Tax Freedom Act). Web hosting is classified as a data processing service and is taxable (at the 80% rate). **Source:** Texas Comptroller Rule 3.330.
+Internet access services are exempt from Texas sales tax (per the federal Internet Tax Freedom Act). Web hosting is classified as a data processing service and is taxable (at the 80% rate). **Source:** Texas Comptroller Rule 3.330. (not yet confirmed)
 
 ### E-3: Software
 
 - Canned software (sold off-the-shelf or downloaded): taxable as tangible personal property.
 - Custom software (written to specific customer specs): exempt.
-- SaaS (Software as a Service): the Comptroller's position treats SaaS as a data processing service (taxable at 80%). Some taxpayers dispute this classification.
+- SaaS (Software as a Service): the Comptroller's position treats SaaS as a data processing service (taxable at 80%). Some taxpayers dispute this classification. (not yet confirmed)
 
 ### E-4: Manufacturing exemptions
 
@@ -260,7 +260,7 @@ expected:
 ## Section 7 -- Prohibitions
 
 - **P-1:** Do NOT apply origin-based sourcing. Texas is destination-based for local tax.
-- **P-2:** Do NOT tax the full amount of data processing services. Only 80% is taxable.
+- **P-2:** Do NOT tax the full amount of data processing services. Only 80% is taxable. (not yet confirmed)
 - **P-3:** Do NOT classify all software as taxable. Custom software is exempt.
 - **P-4:** Do NOT claim the timely filing discount on a late return.
 - **P-5:** Do NOT apply local tax rates exceeding the 2% cap.
@@ -276,7 +276,7 @@ Before delivering output, verify:
 - [ ] State rate of 6.25% applied correctly
 - [ ] Local rate verified for each delivery destination (destination-based)
 - [ ] Combined rate does not exceed 8.25%
-- [ ] Data processing services taxed at 80% only
+- [ ] Data processing services taxed at 80% only (not yet confirmed)
 - [ ] Use tax reported for out-of-state purchases
 - [ ] Timely filing discount applied (or forfeited if late)
 - [ ] Filing frequency matches liability thresholds
