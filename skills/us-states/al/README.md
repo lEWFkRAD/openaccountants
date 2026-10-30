@@ -20,17 +20,17 @@ reporting and the single-sales-factor apportionment. Individuals pay a graduated
 
 ## applicable
 
-- `IT-IND` — individual income tax — present: `al-income-tax.md`, `alabama-income-tax.md`
-- `IT-CORP` — corporate income tax (6.5%, federal-tax deduction) — present: `al-corporate-income-tax.md`
-- `VAT` — sales & use tax — present: `al-sales-tax.md`, `alabama-sales-tax.md`
-- `SC` — social contributions (employer UI contributions, Dept. of Labor) — present: `al-unemployment-contributions.md`
-- `PR` — payroll withholding (A-1/A-6/A-3, bulk filing) — present: `al-payroll-withholding.md`
-- `TP` — transfer pricing / combined reporting / unitary group — present: `al-transfer-pricing.md`
-- `XB` — cross-border / nexus / non-resident corporations — present: `al-cross-border.md`
+- `IT-IND` -- individual income tax -- present: `al-income-tax.md`, `alabama-income-tax.md`
+- `IT-CORP` -- corporate income tax (6.5%, federal-tax deduction) -- present: `al-corporate-income-tax.md`
+- `VAT` -- sales & use tax -- present: `al-sales-tax.md`, `alabama-sales-tax.md`
+- `SC` -- social contributions (employer UI contributions, Dept. of Labor) -- present: `al-unemployment-contributions.md`
+- `PR` -- payroll withholding (A-1/A-6/A-3, bulk filing) -- present: `al-payroll-withholding.md`
+- `TP` -- transfer pricing / combined reporting / unitary group -- present: `al-transfer-pricing.md`
+- `XB` -- cross-border / nexus / non-resident corporations -- present: `al-cross-border.md`
 
 ## not_applicable
 
-- none — Alabama has income, corporate, sales, payroll, and social-contribution regimes; all
+- none -- Alabama has income, corporate, sales, payroll, and social-contribution regimes; all
   pilot domains apply.
 
 ## Source status

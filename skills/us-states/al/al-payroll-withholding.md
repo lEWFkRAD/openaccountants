@@ -2,7 +2,7 @@
 name: al-payroll-withholding
 description: >
   Use this skill whenever asked about Alabama payroll withholding for
-  tax year 2026 — Form A-1 (withholding return) and A-2 (annual
+  tax year 2026 -- Form A-1 (withholding return) and A-2 (annual
   reconciliation), A-3 (non-resident real-estate withholding), A-6
   (withholding on non-payroll compensation), bulk-filer registration
   (Form BF-1), the A-1/A-6 file-layout change effective 2024-01-27
@@ -30,16 +30,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-- Every employer paying Alabama-source wages withholds Alabama income tax on the ALDOR withholding tables (table mechanics not yet confirmed — see Not yet confirmed).
+- Every employer paying Alabama-source wages withholds Alabama income tax on the ALDOR withholding tables (table mechanics not yet confirmed -- see Not yet confirmed).
 - **Bulk filers:** "accountants or tax filing services who file withholding tax returns and payments on behalf of employers must register with ALDOR as a bulk filer and must utilize their bulk filer registration when filing withholding tax returns on behalf of their clients" (ALDOR Withholding Bulk Filing page, effective April 7, 2008). Registration is via Form BF-1, "Application to Become a Bulk Filer (Updated: 05/02/2016)".
-- Payers of non-payroll compensation (pass-through distributions, certain non-resident payments) withhold under A-6 rules — the statutory trigger is not yet confirmed.
+- Payers of non-payroll compensation (pass-through distributions, certain non-resident payments) withhold under A-6 rules -- the statutory trigger is not yet confirmed.
 - Buyers of Alabama real estate from non-residents withhold under A-3 (percentage not yet confirmed).
 
 ## Rates, bands and thresholds
 
 | Item | Value | Tax year | Source |
 |---|---|---|---|
-| Withholding tables | Graduated per ALDOR tables | 2026 | Table mechanics not yet confirmed — see Not yet confirmed |
+| Withholding tables | Graduated per ALDOR tables | 2026 | Table mechanics not yet confirmed -- see Not yet confirmed |
 | Bulk-filer registration | Mandatory for accountants/tax filing services filing for employers (Form BF-1) | current | [ALDOR Withholding Bulk Filing page](https://revenue.alabama.gov/taxes-fees/withholding/) |
 | Bulk file types | A-1/A-6 and A-3, comma-delimited .csv or .txt | current | [ALDOR Withholding Bulk Filing page](https://revenue.alabama.gov/taxes-fees/withholding/) |
 | A-1/A-6 layout change | New layout required for files uploaded after January 27, 2024 (overtime-exemption fields) | current | [ALDOR Withholding Bulk Filing page](https://revenue.alabama.gov/taxes-fees/withholding/) |
@@ -53,17 +53,17 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ## Deadlines and filing
 
 - Bulk filings: "If uploading December 2023 returns after January 27, 2024, the bulk file must use the new file layout" (ALDOR page).
-- A-1 return and deposit frequencies, and the A-2 annual reconciliation date (previously carried as January 31), are not yet confirmed — see Not yet confirmed.
+- A-1 return and deposit frequencies, and the A-2 annual reconciliation date (previously carried as January 31), are not yet confirmed -- see Not yet confirmed.
 
 ## Penalties and interest
 
-- Failure-to-file and failure-to-deposit penalties and interest run under the general Title 40 provisions (percentages not yet confirmed — see Not yet confirmed). A penalty example previously carried in this skill used a 5% assumed FTD-penalty rate; that rate was an assumption and has been removed.
+- Failure-to-file and failure-to-deposit penalties and interest run under the general Title 40 provisions (percentages not yet confirmed -- see Not yet confirmed). A penalty example previously carried in this skill used a 5% assumed FTD-penalty rate; that rate was an assumption and has been removed.
 - Common failure modes: (1) bulk filers uploading pre-2024 layouts after the cutover (zeros + the "no exempt overtime wages" flag are required, not blank fields); (2) treating A-6 as optional for pass-through distributions; (3) A-3 missed on non-resident property sales.
 
 ## Cross-border points
 
-- Non-resident members of Alabama-sourcing partnerships/LLCs are covered by A-6 withholding — see `al-cross-border` (statutory trigger not yet confirmed).
-- Reciprocity: the prior draft asserted Alabama has no withholding reciprocity with neighboring states; not yet confirmed — see Not yet confirmed. Remote workers trigger Alabama withholding once Alabama wages exist.
+- Non-resident members of Alabama-sourcing partnerships/LLCs are covered by A-6 withholding -- see `al-cross-border` (statutory trigger not yet confirmed).
+- Reciprocity: the prior draft asserted Alabama has no withholding reciprocity with neighboring states; not yet confirmed -- see Not yet confirmed. Remote workers trigger Alabama withholding once Alabama wages exist.
 
 ## Worked examples
 
@@ -89,7 +89,7 @@ expected:
 - Are bulk uploads on the post-January-2024 A-1/A-6 layout with the overtime-exemption fields populated (zeros + flag when none)?
 - Is A-6 withholding being run for non-resident pass-through members?
 - Are A-3 withholdings captured on non-resident real-estate closings?
-- What is the current deposit frequency tier (confirm with ALDOR — not yet confirmed here)?
+- What is the current deposit frequency tier (confirm with ALDOR -- not yet confirmed here)?
 
 ## Sources
 
@@ -105,7 +105,7 @@ Not yet confirmed: the A-1 withholding table mechanics and employee certificate 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at openaccountants.com.
 

@@ -2,7 +2,7 @@
 name: al-corporate-income-tax
 description: >
   Use this skill whenever asked about Alabama corporate income tax
-  for tax year 2026 — the flat 6.5% rate with the deduction for
+  for tax year 2026 -- the flat 6.5% rate with the deduction for
   federal income tax paid, single sales factor apportionment for tax
   years beginning on or after 2021, Form 20C mechanics, and the
   franchise-tax authority. Trigger on "Alabama corporate tax",
@@ -31,7 +31,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - Corporations with net taxable income from business within Alabama, and foreign (out-of-state) corporations on income derived from sources within Alabama (ALDOR Corporate Income Tax page: "Corporations – Net taxable income from business within the state"; Amendment 212: "Taxes due by foreign corporations are to be based on income derived from sources within Alabama").
 - For tax years beginning on or after January 1, 2021, Alabama income is determined by single sales factor apportionment (ALDOR page: "For tax years beginning on or after January 1, 2021, Alabama income is determined by a single sales factor apportionment").
 - Unitary groups: combined reporting is discussed in `al-transfer-pricing`; the statutory mandate and its text are not yet confirmed (see Not yet confirmed).
-- S corporations and pass-throughs pay the composite/pass-through tax on members' Alabama income rather than entity-level income tax (mechanics not yet confirmed — see Not yet confirmed).
+- S corporations and pass-throughs pay the composite/pass-through tax on members' Alabama income rather than entity-level income tax (mechanics not yet confirmed -- see Not yet confirmed).
 
 ## Rates, bands and thresholds
 
@@ -44,30 +44,30 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Franchise-tax authority | Sections 40-27-1 to 40-27-6, Code of Alabama 1975 | current | [ALDOR Corporate Income Tax page](https://revenue.alabama.gov/taxes-fees/corporate-income-tax/) |
 | Rate history | Amendment 212 (ratified December 18, 1963) raised the allowable maximum to 5 percent with the federal-tax deduction; Amendment 662 (ratified June 19, 2000) raised the rate to 6.5 percent beginning calendar year 2001 | current | [ALDOR Corporate Income Tax page](https://revenue.alabama.gov/taxes-fees/corporate-income-tax/) |
 
-The distinctive base feature: "Rate 6.5 percent of annual net income with a deduction allowed for federal income tax paid or accrued" (ALDOR page). The Alabama effective rate therefore moves with the federal bill — a restructuring that changes federal tax changes Alabama tax even with identical net income.
+The distinctive base feature: "Rate 6.5 percent of annual net income with a deduction allowed for federal income tax paid or accrued" (ALDOR page). The Alabama effective rate therefore moves with the federal bill -- a restructuring that changes federal tax changes Alabama tax even with identical net income.
 
 ## The taxable base
 
 - Net taxable income from business within the state (ALDOR page, Application).
 - A deduction is allowed for federal income tax paid or accrued (ALDOR page, Amendment 212 language: "increased the allowable maximum corporate income tax rate to 5 percent, with deduction allowed for all federal income taxes paid").
 - Foreign corporations: taxes due are based on income derived from sources within Alabama (Amendment 212, as published on the ALDOR page).
-- The specific state modifications under §§40-18-7 et seq. are not yet confirmed — see Not yet confirmed.
+- The specific state modifications under §§40-18-7 et seq. are not yet confirmed -- see Not yet confirmed.
 
 ## Deadlines and filing
 
-- Form 20C is the Alabama corporate income tax return. Its due date, extension rules and estimated-tax installment percentages are not yet confirmed — see Not yet confirmed before advising a client on filing dates.
+- Form 20C is the Alabama corporate income tax return. Its due date, extension rules and estimated-tax installment percentages are not yet confirmed -- see Not yet confirmed before advising a client on filing dates.
 - Franchise tax filings run under §§40-27-1 to 40-27-6 (ALDOR page, Authority); rates and due dates are not yet confirmed.
 
 ## Penalties and interest
 
-- Late-filing and late-payment penalties and interest run under the general provisions of Title 40 (percentages not yet confirmed — see Not yet confirmed).
+- Late-filing and late-payment penalties and interest run under the general provisions of Title 40 (percentages not yet confirmed -- see Not yet confirmed).
 - Common failure modes to check for: (1) forgetting the federal-income-tax deduction when projecting Alabama cost on a restructuring that changes the federal bill; (2) apportioning with a pre-2021 multi-factor spreadsheet; (3) missing the franchise tax while focused on the income tax.
 
 ## Cross-border points
 
 - Foreign (out-of-state) corporations are taxed only on income derived from sources within Alabama (Amendment 212, ALDOR page).
-- Single sales factor means market-state sourcing of sales drives the apportionment fraction — see `al-cross-border` and `al-transfer-pricing`.
-- Alabama has no income tax treaty; interstate allocation under §40-18-160+ (Uniform Division of Income for Tax Purposes Act) is not yet confirmed — see Not yet confirmed.
+- Single sales factor means market-state sourcing of sales drives the apportionment fraction -- see `al-cross-border` and `al-transfer-pricing`.
+- Alabama has no income tax treaty; interstate allocation under §40-18-160+ (Uniform Division of Income for Tax Purposes Act) is not yet confirmed -- see Not yet confirmed.
 
 ## Worked examples
 
@@ -125,7 +125,7 @@ expected:
 |---|---|---|
 | ALDOR Corporate Income Tax page (rate 6.5% with federal-tax deduction, single sales factor from TYB 2021-01-01, authority sections, Amendments 212 and 662) | https://revenue.alabama.gov/taxes-fees/corporate-income-tax/ | 2026-10-28 |
 
-Not yet confirmed: the Form 20C due date and extension rules (previously carried as "follows the federal due date, April 15 for calendar-year filers"); the corporate estimated-tax installment percentages and safe harbor; the minimum tax; franchise-tax rates and due dates; the §40-18-7 state-modification provisions; the combined-reporting mandate and unitary-group definition under §40-18-50; the S-corporation composite/pass-through mechanics; the §40-2A-1 penalty percentages; the Uniform Division of Income for Tax Purposes Act text under §40-18-160+; Code of Alabama section text (the legislative mirror was not retrievable this run — the ALDOR page's citation of the sections is archived, the section text is not).
+Not yet confirmed: the Form 20C due date and extension rules (previously carried as "follows the federal due date, April 15 for calendar-year filers"); the corporate estimated-tax installment percentages and safe harbor; the minimum tax; franchise-tax rates and due dates; the §40-18-7 state-modification provisions; the combined-reporting mandate and unitary-group definition under §40-18-50; the S-corporation composite/pass-through mechanics; the §40-2A-1 penalty percentages; the Uniform Division of Income for Tax Purposes Act text under §40-18-160+; Code of Alabama section text (the legislative mirror was not retrievable this run -- the ALDOR page's citation of the sections is archived, the section text is not).
 
 <!-- openaccountants-cta-block -->
 
@@ -133,7 +133,7 @@ Not yet confirmed: the Form 20C due date and extension rules (previously carried
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at openaccountants.com.
 
