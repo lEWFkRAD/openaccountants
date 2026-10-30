@@ -6,7 +6,7 @@ not_applicable:
   PR: no state individual income tax means no state payroll withholding; employer reemployment contributions are covered under SC (fl-social-contributions)
 ---
 
-# Florida — OpenAccountants Tax Skills
+# Florida -- OpenAccountants Tax Skills
 
 | Field | Value |
 |---|---|
@@ -16,7 +16,7 @@ not_applicable:
 | Sales tax | Yes (6% state + county discretionary surtax) |
 | Franchise / gross receipts tax | No (for sole proprietors) |
 | Tax authority | [Florida Department of Revenue (DOR)](https://floridarevenue.com) |
-| Quality tier | Q3 — AI-drafted, not independently verified |
+| Quality tier | Q3 -- AI-drafted, not independently verified |
 
 Florida has no individual income tax and therefore no payroll withholding. The state taxes C-corporations at 5.5% on apportioned net income (s. 220.11, F.S.), levies a 6% sales/use tax with county surtaxes, and charges employers reemployment (unemployment) tax under Ch. 443 plus mandatory workers' compensation under Ch. 440.
 
@@ -24,7 +24,7 @@ Florida has no individual income tax and therefore no payroll withholding. The s
 
 | File | What it covers |
 |---|---|
-| `fl-corporate-income-tax.md` | Corporate income tax, Ch. 220 (Form F-1120) — reviewed |
+| `fl-corporate-income-tax.md` | Corporate income tax, Ch. 220 (Form F-1120) -- reviewed |
 | `fl-sales-tax.md` | State and county sales & use tax compliance |
 | `fl-sales-use-tax.md` | Sales & use tax registration and filing |
 | `fl-sales-use-tax-surtax.md` | County discretionary surtax |
@@ -39,7 +39,7 @@ Florida has no individual income tax and therefore no payroll withholding. The s
 
 | Domain | Skill | Status |
 |---|---|---|
-| IT-IND, individual income tax | none — no individual income tax; corporate skill carries the token | n/a in substance |
+| IT-IND, individual income tax | none -- no individual income tax; corporate skill carries the token | n/a in substance |
 | IT-CORP, corporate income tax | fl-corporate-income-tax | source-cited draft |
 | VAT / sales tax | fl-sales-tax | source-cited draft |
 | SC, social contributions | fl-social-contributions | source-cited draft |

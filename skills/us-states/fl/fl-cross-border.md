@@ -2,7 +2,7 @@
 name: fl-cross-border
 description: >
   Use this skill whenever asked about Florida cross-border taxation for tax
-  year 2026 — the corporate nexus standard under Ch. 220 ("conducting
+  year 2026 -- the corporate nexus standard under Ch. 220 ("conducting
   business, earning or receiving income in this state", s. 220.11), Public
   Law 86-272 solicitation protection, the absence of a Florida individual
   income tax and what that means for nonresidents and departing residents,
@@ -32,7 +32,7 @@ depends_on:
 
 **Out-of-state C-corporations with Florida nexus.** Florida's statutory hook is broad: the corporate income tax is "imposed on every taxpayer for each taxable year for the privilege of conducting business, earning or receiving income in this state, or being a resident or citizen of this state" (s. 220.11(1), Fla. Stat.). There is no bright-line economic-nexus dollar threshold in the statute text; the department applies the statutory standard plus factor-based apportionment under s. 220.15. Corporations, including entities that are taxed federally as corporations, are subject to the tax (FDOR corporate income tax page).
 
-**Foreign (non-US) corporations** face the same Ch. 220 reach; federal taxable income is the starting point, modified by Florida adjustments under s. 220.13. Treaty relief operates at the federal level only — Florida has no state treaty provisions beyond its conformity to the federal base.
+**Foreign (non-US) corporations** face the same Ch. 220 reach; federal taxable income is the starting point, modified by Florida adjustments under s. 220.13. Treaty relief operates at the federal level only -- Florida has no state treaty provisions beyond its conformity to the federal base.
 
 **Individuals moving to or from Florida.** Florida imposes no individual income tax, so "non-resident" questions for individuals collapse to corporate and payroll questions: the old residence state may still tax a part-year resident, while Florida itself will not (see `fl-moving-to-florida-domicile`).
 
@@ -45,7 +45,7 @@ depends_on:
 | Corporate income tax rate | 5.5% of net income for taxable years beginning on or after 1/1/2022 | s. 220.11(2)(a): "an amount equal to 5 1/2 percent of the taxpayer's net income for the taxable year"; FDOR corporate income tax page rate table: "On or After 1/1/2022 ... 5.5%" |
 | Alternative rate for taxpayers computing income under s. 220.13(2)(k) | 3.3% of net income | s. 220.11(3): "shall be an amount equal to 3.3 percent of the taxpayer's net income for the taxable year" |
 | Apportionment fraction | Sales factor 50%, property factor 25%, payroll factor 25% | s. 220.15(1): "an apportionment fraction composed of a sales factor representing 50 percent of the fraction, a property factor representing 25 percent of the fraction, and a payroll factor representing 25 percent of the fraction" |
-| Individual nonresident income tax | None — Florida imposes no individual income tax | No Florida personal income tax statute exists; the tax in Ch. 220 is measured by net income of taxpayers as defined in s. 220.03 |
+| Individual nonresident income tax | None -- Florida imposes no individual income tax | No Florida personal income tax statute exists; the tax in Ch. 220 is measured by net income of taxpayers as defined in s. 220.03 |
 | State income tax addback | State/local income taxes deducted federally are added back to compute adjusted federal income | s. 220.13(1)(a)1.a.: "The amount of any tax upon or measured by income ... paid or accrued as a liability to the District of Columbia or any state of the United States which is deductible from gross income in the computation of taxable income" shall be added |
 | PL 86-272 protection | No state may impose a net income tax where the only in-state activity is solicitation of orders for tangible personal property filled from outside the state | P.L. 86-272, s. 101(a): "No State ... shall have power to impose ... a net income tax on the income derived within such State by any person from interstate commerce if the only business activities within such State ... are ... the solicitation of orders ... for sales of tangible personal property, which orders are sent outside the State for approval or rejection, and, if approved, are filled by shipment or delivery from a point outside the State" |
 
@@ -68,7 +68,7 @@ A company claiming PL 86-272 protection must stay inside the statute: orders sol
 
 Late corporate returns draw a penalty of 10% of any unpaid tax due with the return for each month or fraction of a month the return is late, up to a total penalty of 50% of the unpaid tax (FDOR corporate income tax page). A floating rate of interest applies to underpayments and late payments (FDOR corporate income tax page; s. 213.235 sets the floating deficiency-interest rate).
 
-Common cross-border failure modes: (1) an out-of-state company assuming no Florida exposure while its Florida sales factor grows — Florida nexus is statutory-conduct based, not threshold based; (2) claiming PL 86-272 for services, digital goods, or in-state fulfillment, which exceed "solicitation of orders of tangible personal property"; (3) departing residents assuming their old state's tax disappears automatically — it does not; (4) remote employers missing the Florida reemployment duty for Florida-based staff.
+Common cross-border failure modes: (1) an out-of-state company assuming no Florida exposure while its Florida sales factor grows -- Florida nexus is statutory-conduct based, not threshold based; (2) claiming PL 86-272 for services, digital goods, or in-state fulfillment, which exceed "solicitation of orders of tangible personal property"; (3) departing residents assuming their old state's tax disappears automatically -- it does not; (4) remote employers missing the Florida reemployment duty for Florida-based staff.
 
 ## Cross-border points
 
@@ -110,7 +110,7 @@ expected:
 
 ## Ask the client first
 
-- What Florida contacts exist — employees, agents, inventory, fulfillment, trade shows — and do they cross "conducting business, earning or receiving income in this state" (s. 220.11(1))?
+- What Florida contacts exist -- employees, agents, inventory, fulfillment, trade shows -- and do they cross "conducting business, earning or receiving income in this state" (s. 220.11(1))?
 - Is the activity pure tangible-goods solicitation (PL 86-272) or services/digital/fulfillment?
 - For inbound movers: has the old state been formally exited (domicile, statutory-day rules), since Florida itself will not tax them?
 - For remote employers: are Florida-based employees registered for Florida reemployment tax?
@@ -120,13 +120,13 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| s. 220.11 Fla. Stat. (2026) — tax imposed; 5.5% and 3.3% rates; nexus language | https://www.flsenate.gov/Laws/Statutes/2026/220.11 | 2026-10-28 |
-| s. 220.13 Fla. Stat. (2026) — adjusted federal income; state income tax addback | https://www.flsenate.gov/Laws/Statutes/2026/220.13 | 2026-10-28 |
-| s. 220.15 Fla. Stat. (2026) — apportionment fraction (sales 50%, property 25%, payroll 25%) | https://www.flsenate.gov/Laws/Statutes/2026/220.15 | 2026-10-28 |
-| s. 220.21 Fla. Stat. (2026) — returns; electronic filing requirement | https://www.flsenate.gov/Laws/Statutes/2026/220.21 | 2026-10-28 |
-| P.L. 86-272, 73 Stat. 555 — limitation on state net income taxes (15 U.S.C. 381), act text | https://www.govinfo.gov/content/pkg/STATUTE-73/pdf/STATUTE-73-Pg555.pdf | 2026-10-28 |
-| Florida Department of Revenue — Corporate Income Tax page (rates table, F-1120 due date, penalties) | https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx | 2026-10-28 |
-| Florida Department of Revenue — Reemployment Tax page (coverage tests, RT-6 due dates) | https://floridarevenue.com/taxes/taxesfees/Pages/reemployment.aspx | 2026-10-28 |
+| s. 220.11 Fla. Stat. (2026) -- tax imposed; 5.5% and 3.3% rates; nexus language | https://www.flsenate.gov/Laws/Statutes/2026/220.11 | 2026-10-28 |
+| s. 220.13 Fla. Stat. (2026) -- adjusted federal income; state income tax addback | https://www.flsenate.gov/Laws/Statutes/2026/220.13 | 2026-10-28 |
+| s. 220.15 Fla. Stat. (2026) -- apportionment fraction (sales 50%, property 25%, payroll 25%) | https://www.flsenate.gov/Laws/Statutes/2026/220.15 | 2026-10-28 |
+| s. 220.21 Fla. Stat. (2026) -- returns; electronic filing requirement | https://www.flsenate.gov/Laws/Statutes/2026/220.21 | 2026-10-28 |
+| P.L. 86-272, 73 Stat. 555 -- limitation on state net income taxes (15 U.S.C. 381), act text | https://www.govinfo.gov/content/pkg/STATUTE-73/pdf/STATUTE-73-Pg555.pdf | 2026-10-28 |
+| Florida Department of Revenue -- Corporate Income Tax page (rates table, F-1120 due date, penalties) | https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx | 2026-10-28 |
+| Florida Department of Revenue -- Reemployment Tax page (coverage tests, RT-6 due dates) | https://floridarevenue.com/taxes/taxesfees/Pages/reemployment.aspx | 2026-10-28 |
 
 Not yet confirmed: the current DOR nexus guidance pages beyond the statute text (the department's "doing business" facts-and-circumstances guidance was not archived this run); whether the department has published any post-2022 rate table revisions affecting the 5.5%/3.3% rates (the 2026 statute text read this run shows both rates unchanged).
 
@@ -136,7 +136,7 @@ Not yet confirmed: the current DOR nexus guidance pages beyond the statute text 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

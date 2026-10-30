@@ -2,7 +2,7 @@
 name: fl-transfer-pricing
 description: >
   Use this skill whenever asked about Florida transfer pricing and
-  related-party adjustments for tax year 2026 — affiliated-group
+  related-party adjustments for tax year 2026 -- affiliated-group
   consolidated filing under s. 220.131 Fla. Stat., the absence of a
   standalone state transfer-pricing documentation regime, the
   sales-factor apportionment election for qualified capital expenditures
@@ -30,11 +30,11 @@ depends_on:
 
 ## Who this applies to
 
-Any "taxpayer" under Ch. 220 — a C-corporation or other entity taxed federally as a corporation conducting business in Florida, earning Florida income, or a Florida resident or citizen shareholder of such an entity (s. 220.11(1)).
+Any "taxpayer" under Ch. 220 -- a C-corporation or other entity taxed federally as a corporation conducting business in Florida, earning Florida income, or a Florida resident or citizen shareholder of such an entity (s. 220.11(1)).
 
 **Parent companies of affiliated groups.** Florida permits (does not mandate) a consolidated Florida return for groups that filed a federal consolidated return, with every member consenting (s. 220.131(1)).
 
-**Groups that do not consolidate in Florida** still file separate company returns with factor-based apportionment — intercompany transactions then sit inside each entity's apportionment factors, and related-party pricing affects both the numerator (Florida sales factor) and each entity's taxable income.
+**Groups that do not consolidate in Florida** still file separate company returns with factor-based apportionment -- intercompany transactions then sit inside each entity's apportionment factors, and related-party pricing affects both the numerator (Florida sales factor) and each entity's taxable income.
 
 ## Rates, bands and thresholds
 
@@ -49,7 +49,7 @@ Any "taxpayer" under Ch. 220 — a C-corporation or other entity taxed federally
 
 ## The taxable base
 
-The base is adjusted federal income (s. 220.13) apportioned by the 50/25/25 fraction (s. 220.15). Florida has **no standalone transfer-pricing documentation regime** — no state version of IRC s. 482 with its own penalty or contemporaneous-documentation requirement. Related-party economics enter the Florida base through the statutory levers: the elective consolidated return (s. 220.131), the state-income-tax addback (s. 220.13(1)(a)1.a.), the factors themselves, and the sales-factor election for qualified capital expenditures (s. 220.153).
+The base is adjusted federal income (s. 220.13) apportioned by the 50/25/25 fraction (s. 220.15). Florida has **no standalone transfer-pricing documentation regime** -- no state version of IRC s. 482 with its own penalty or contemporaneous-documentation requirement. Related-party economics enter the Florida base through the statutory levers: the elective consolidated return (s. 220.131), the state-income-tax addback (s. 220.13(1)(a)1.a.), the factors themselves, and the sales-factor election for qualified capital expenditures (s. 220.153).
 
 Note on s. 220.153: it is titled "Apportionment by sales factor" and is an election for taxpayers making qualified capital expenditures in Florida (acquisition of real property, additions, replacements, major repairs, renovations materially extending useful life, and furniture/equipment for a new or improved facility; expenditures to acquire an existing business or land/buildings in excess of $125 million do not qualify). It is not a general "special apportionment on distortion" provision.
 
@@ -67,11 +67,11 @@ There is no separate Florida transfer-pricing documentation deadline.
 
 A late corporate return draws a penalty of 10% of any unpaid tax due with the return for each month or fraction of a month late, up to a total of 50% of the unpaid tax, plus a floating rate of interest on underpayments (FDOR corporate income tax page). There is no Florida-specific transfer-pricing penalty; exposure for related-party distortion runs through the factors and the addback.
 
-Common failure modes: (1) assuming Florida mandates combined reporting (it does not — consolidation is elective); (2) forgetting the state-tax addback when a group deducts other states' income taxes federally; (3) letting intercompany service fees shift the sales factor without documentation.
+Common failure modes: (1) assuming Florida mandates combined reporting (it does not -- consolidation is elective); (2) forgetting the state-tax addback when a group deducts other states' income taxes federally; (3) letting intercompany service fees shift the sales factor without documentation.
 
 ## Cross-border points
 
-- **Foreign-parent groups:** Florida taxes the US member's apportioned income; the affiliated-group definition tracks the federal consolidated group (s. 220.131(1)(c) — identical component members), so there is no Florida unitary water's-edge regime.
+- **Foreign-parent groups:** Florida taxes the US member's apportioned income; the affiliated-group definition tracks the federal consolidated group (s. 220.131(1)(c) -- identical component members), so there is no Florida unitary water's-edge regime.
 - **The state-income-tax addback** in s. 220.13(1)(a)1.a. interacts with any credit for taxes paid to other states in the same sub-subparagraph.
 - **Sales-factor election:** s. 220.153's apportionment-by-sales-factor election excludes financial organizations and banks (s. 220.153(2)).
 
@@ -119,13 +119,13 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| s. 220.11 Fla. Stat. (2026) — tax imposed; 5.5% and 3.3% rates | https://www.flsenate.gov/Laws/Statutes/2026/220.11 | 2026-10-28 |
-| s. 220.13 Fla. Stat. (2026) — adjusted federal income; state income tax addback | https://www.flsenate.gov/Laws/Statutes/2026/220.13 | 2026-10-28 |
-| s. 220.15 Fla. Stat. (2026) — apportionment fraction (sales 50%, property 25%, payroll 25%) | https://www.flsenate.gov/Laws/Statutes/2026/220.15 | 2026-10-28 |
-| s. 220.131 Fla. Stat. (2026) — affiliated-group consolidated returns (elective; member consent; federal-consolidation requirement) | https://www.flsenate.gov/Laws/Statutes/2026/220.131 | 2026-10-28 |
-| s. 220.153 Fla. Stat. (2026) — apportionment by sales factor (qualified capital expenditures) | https://www.flsenate.gov/Laws/Statutes/2026/220.153 | 2026-10-28 |
-| s. 220.21 Fla. Stat. (2026) — returns; electronic filing requirement | https://www.flsenate.gov/Laws/Statutes/2026/220.21 | 2026-10-28 |
-| Florida Department of Revenue — Corporate Income Tax page (rate table, F-1120 due date, penalties, interest) | https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx | 2026-10-28 |
+| s. 220.11 Fla. Stat. (2026) -- tax imposed; 5.5% and 3.3% rates | https://www.flsenate.gov/Laws/Statutes/2026/220.11 | 2026-10-28 |
+| s. 220.13 Fla. Stat. (2026) -- adjusted federal income; state income tax addback | https://www.flsenate.gov/Laws/Statutes/2026/220.13 | 2026-10-28 |
+| s. 220.15 Fla. Stat. (2026) -- apportionment fraction (sales 50%, property 25%, payroll 25%) | https://www.flsenate.gov/Laws/Statutes/2026/220.15 | 2026-10-28 |
+| s. 220.131 Fla. Stat. (2026) -- affiliated-group consolidated returns (elective; member consent; federal-consolidation requirement) | https://www.flsenate.gov/Laws/Statutes/2026/220.131 | 2026-10-28 |
+| s. 220.153 Fla. Stat. (2026) -- apportionment by sales factor (qualified capital expenditures) | https://www.flsenate.gov/Laws/Statutes/2026/220.153 | 2026-10-28 |
+| s. 220.21 Fla. Stat. (2026) -- returns; electronic filing requirement | https://www.flsenate.gov/Laws/Statutes/2026/220.21 | 2026-10-28 |
+| Florida Department of Revenue -- Corporate Income Tax page (rate table, F-1120 due date, penalties, interest) | https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx | 2026-10-28 |
 
 Not yet confirmed: whether Ch. 220 contains any other special-apportionment provisions beyond ss. 220.15, 220.151, 220.152 and 220.153 (the full chapter was not read end to end this run); the department's authority to disregard distortions in the factors (cited in the prior draft but not located in the statute text archived this run).
 
@@ -135,7 +135,7 @@ Not yet confirmed: whether Ch. 220 contains any other special-apportionment prov
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

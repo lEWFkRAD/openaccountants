@@ -70,11 +70,11 @@ The DR-15 computation runs line by line: gross sales (line 1) less exempt sales 
 
 Items that assemble into one working unit count as a single item for the $5,000 surtax cap when documented. Charges for prepaid calling arrangements remain subject to surtax above $5,000 (s. 212.054(4)(b)1.).
 
-**Common exemptions** (s. 212.08, Fla. Stat.): food products for human consumption are exempt — "Food products for human consumption are exempt from the tax imposed by this chapter" (s. 212.08(1)(a)); also exempt are prescription eyeglasses, dentures, hearing aids, crutches, prosthetic and orthopedic appliances, and funeral purchases (s. 212.08(2)). Sales for resale must be in strict compliance with s. 212.18 and the rules adopted under it; a dealer who makes a sale for resale that is not in strict compliance is liable for the tax (s. 212.07(1)(b)), and the department provides each newly registered dealer an annual resale certificate (s. 212.18(2)(e)).
+**Common exemptions** (s. 212.08, Fla. Stat.): food products for human consumption are exempt -- "Food products for human consumption are exempt from the tax imposed by this chapter" (s. 212.08(1)(a)); also exempt are prescription eyeglasses, dentures, hearing aids, crutches, prosthetic and orthopedic appliances, and funeral purchases (s. 212.08(2)). Sales for resale must be in strict compliance with s. 212.18 and the rules adopted under it; a dealer who makes a sale for resale that is not in strict compliance is liable for the tax (s. 212.07(1)(b)), and the department provides each newly registered dealer an annual resale certificate (s. 212.18(2)(e)).
 
 **Taxable services.** Most Florida services are not taxable; the specifically enumerated taxable services include nonresidential building pest control and nonresidential cleaning services, and detective, burglar protection and other protection services (s. 212.05(1)(d), Fla. Stat.).
 
-**Commercial rentals repealed.** The sales tax on commercial real property rentals was repealed effective October 1, 2025; the DR-15N instructions (R. 10/25) state "Sales Tax on Commercial Rentals — Repealed Effective October 1, 2025. See TIP 25A01-04."
+**Commercial rentals repealed.** The sales tax on commercial real property rentals was repealed effective October 1, 2025; the DR-15N instructions (R. 10/25) state "Sales Tax on Commercial Rentals -- Repealed Effective October 1, 2025. See TIP 25A01-04."
 
 **Zero returns.** A return must be filed for each reporting period even if no tax is due (DR-15N: "You must file a tax return for each reporting period, even if no tax is due."; FDOR sales tax page).
 
@@ -131,7 +131,7 @@ expected:
   net: 7470.00
 ```
 
-Surtax cap per item: a sale of 10 items at $2,000 each in a 1.5% surtax county — each item is under the $5,000 cap, so surtax applies to the full price of each:
+Surtax cap per item: a sale of 10 items at $2,000 each in a 1.5% surtax county -- each item is under the $5,000 cap, so surtax applies to the full price of each:
 
 ```oa-check
 name: FL surtax cap per item, 10 items at 2000 each with 1.5 surtax
@@ -205,28 +205,28 @@ expected:
 
 - Is the dealer registered with FDOR (registration is administered under s. 212.18)? Any location or mailing-address changes on the account?
 - What is the assigned filing frequency (more than $1,000 annual collections = monthly; $501-$1,000 = quarterly; $101-$500 = semiannual; $100 or less = annual), and does the total tax paid last fiscal year exceed $5,000 (mandatory e-file)?
-- Which county surtax rates apply to each delivery location this year (check the current DR-15DSS — rates change every January)?
+- Which county surtax rates apply to each delivery location this year (check the current DR-15DSS -- rates change every January)?
 - Are all resale certificates (annual resale certificate under s. 212.18(2)(e)) collected and verified as strictly compliant with s. 212.18 before exemption is honored?
 - Is use tax being reported on out-of-state and internet purchases where no Florida tax was collected?
 - Was the return filed for every reporting period, including zero-tax periods?
-- Do not accept an exemption without a properly completed certificate; do not apply surtax above the first $5,000 per item; do not claim the collection allowance on a late return; do not assume commercial rentals are still taxable — the tax was repealed effective October 1, 2025.
+- Do not accept an exemption without a properly completed certificate; do not apply surtax above the first $5,000 per item; do not claim the collection allowance on a late return; do not assume commercial rentals are still taxable -- the tax was repealed effective October 1, 2025.
 
 ## Sources
 
 | Source | URL | Read on |
 |---|---|---|
-| s. 212.05 Fla. Stat. (2026) — sales tax rate; taxable services | https://www.flsenate.gov/Laws/Statutes/2026/212.05 | 2026-10-28 |
-| s. 212.06 Fla. Stat. (2026) — use tax; dealers must collect | https://www.flsenate.gov/Laws/Statutes/2026/212.06 | 2026-10-28 |
-| s. 212.054 Fla. Stat. (2026) — discretionary sales surtax; $5,000 per-item cap | https://www.flsenate.gov/Laws/Statutes/2026/212.054 | 2026-10-28 |
-| s. 212.07 Fla. Stat. (2026) — resale in strict compliance with s. 212.18 | https://www.flsenate.gov/Laws/Statutes/2026/212.07 | 2026-10-28 |
-| s. 212.08 Fla. Stat. (2026) — exemptions (food products; medical; funeral) | https://www.flsenate.gov/Laws/Statutes/2026/212.08 | 2026-10-28 |
-| s. 212.12 Fla. Stat. (2026) — collection allowance; delinquency penalties (10%, $50 minimum, 50% cap, 100% fraud) | https://www.flsenate.gov/Laws/Statutes/2026/212.12 | 2026-10-28 |
-| s. 212.18 Fla. Stat. (2026) — registration of dealers; annual resale certificate | https://www.flsenate.gov/Laws/Statutes/2026/212.18 | 2026-10-28 |
-| s. 213.235 Fla. Stat. (2026) — interest on deficiencies (floating rate) | https://www.flsenate.gov/Laws/Statutes/2026/213.235 | 2026-10-28 |
-| s. 213.755 Fla. Stat. (2026) — electronic filing and payment ($5,000 prior-year threshold) | https://www.flsenate.gov/Laws/Statutes/2026/213.755 | 2026-10-28 |
-| Florida Department of Revenue — Sales and Use Tax page (filing frequencies, due dates, e-file threshold, remote-seller registration) | https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx | 2026-10-28 |
+| s. 212.05 Fla. Stat. (2026) -- sales tax rate; taxable services | https://www.flsenate.gov/Laws/Statutes/2026/212.05 | 2026-10-28 |
+| s. 212.06 Fla. Stat. (2026) -- use tax; dealers must collect | https://www.flsenate.gov/Laws/Statutes/2026/212.06 | 2026-10-28 |
+| s. 212.054 Fla. Stat. (2026) -- discretionary sales surtax; $5,000 per-item cap | https://www.flsenate.gov/Laws/Statutes/2026/212.054 | 2026-10-28 |
+| s. 212.07 Fla. Stat. (2026) -- resale in strict compliance with s. 212.18 | https://www.flsenate.gov/Laws/Statutes/2026/212.07 | 2026-10-28 |
+| s. 212.08 Fla. Stat. (2026) -- exemptions (food products; medical; funeral) | https://www.flsenate.gov/Laws/Statutes/2026/212.08 | 2026-10-28 |
+| s. 212.12 Fla. Stat. (2026) -- collection allowance; delinquency penalties (10%, $50 minimum, 50% cap, 100% fraud) | https://www.flsenate.gov/Laws/Statutes/2026/212.12 | 2026-10-28 |
+| s. 212.18 Fla. Stat. (2026) -- registration of dealers; annual resale certificate | https://www.flsenate.gov/Laws/Statutes/2026/212.18 | 2026-10-28 |
+| s. 213.235 Fla. Stat. (2026) -- interest on deficiencies (floating rate) | https://www.flsenate.gov/Laws/Statutes/2026/213.235 | 2026-10-28 |
+| s. 213.755 Fla. Stat. (2026) -- electronic filing and payment ($5,000 prior-year threshold) | https://www.flsenate.gov/Laws/Statutes/2026/213.755 | 2026-10-28 |
+| Florida Department of Revenue -- Sales and Use Tax page (filing frequencies, due dates, e-file threshold, remote-seller registration) | https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx | 2026-10-28 |
 | Form DR-15, Sales and Use Tax Return (PDF, R. 01/25, effective 02/25) | https://floridarevenue.com/Forms_library/current/dr15.pdf | 2026-10-28 |
-| Instructions for DR-15 (Form DR-15N, R. 10/25) — due dates, collection allowance, e-file threshold, estimated tax, commercial rentals repealed effective October 1, 2025 | https://floridarevenue.com/Forms_library/current/dr15n.pdf | 2026-10-28 |
+| Instructions for DR-15 (Form DR-15N, R. 10/25) -- due dates, collection allowance, e-file threshold, estimated tax, commercial rentals repealed effective October 1, 2025 | https://floridarevenue.com/Forms_library/current/dr15n.pdf | 2026-10-28 |
 | Form DR-15DSS, Discretionary Sales Surtax Information for Calendar Year 2025 (R. 11/24) | https://floridarevenue.com/Forms_library/current/dr15dss.pdf | 2026-10-28 |
 
 Not yet confirmed: the calendar year 2026 county surtax rates (the archived DR-15DSS covers CY2025; the 2026 form publishes in November); the current bracket chart for tax on partial dollars under s. 212.12(9) (the bracket table itself was not archived this run); the taxability of canned software delivered electronically and digital goods (the prior draft's treatment relied on unarchived DOR guidance; confirm against current DOR publications before relying on it); the current interest rate percentage for late payments (the floating-rate formula is confirmed in s. 213.235 but the current year's published rate was not archived this run).
@@ -237,7 +237,7 @@ Not yet confirmed: the calendar year 2026 county surtax rates (the archived DR-1
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
