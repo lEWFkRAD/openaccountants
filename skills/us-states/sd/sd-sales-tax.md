@@ -64,7 +64,7 @@ Before proceeding with any South Dakota sales tax analysis, collect the followin
 
 ### 1.1 State Sales Tax Rate
 
-- **State Sales Tax Rate** — 4.50% (on gross receipts of all retail sales of tangible personal property and services [T1])  _(SDCL §10-45-2)_ (not yet confirmed)
+- **State Sales Tax Rate** -- 4.50% (on gross receipts of all retail sales of tangible personal property and services [T1])  _(SDCL §10-45-2)_ (not yet confirmed)
 
 ### 1.2 The Wayfair State [T1]
 
@@ -74,13 +74,13 @@ This case revolutionized US sales tax by enabling economic nexus nationwide. [T1
 
 ### 1.3 No State Income Tax [T1]
 
-- **No State Income Tax** — South Dakota has no state individual or corporate income tax. Sales tax is the state's primary revenue source.  _([T1])_
+- **No State Income Tax** -- South Dakota has no state individual or corporate income tax. Sales tax is the state's primary revenue source.  _([T1])_
 
 ### 1.4 Local Sales Taxes [T1]
 
-- **Municipal Sales Tax** — Up to 2.00% ([T1]) (not yet confirmed)
-- **Combined State + Municipal Rate** — ~6.50% ([T1]) (not yet confirmed)
-- **Municipal gross receipts tax** — Some municipalities impose an additional gross receipts tax on specific industries (restaurants, hotels, bars), typically 1-2%. This is IN ADDITION to the sales tax.  _([T2])_ (not yet confirmed)
+- **Municipal Sales Tax** -- Up to 2.00% ([T1]) (not yet confirmed)
+- **Combined State + Municipal Rate** -- ~6.50% ([T1]) (not yet confirmed)
+- **Municipal gross receipts tax** -- Some municipalities impose an additional gross receipts tax on specific industries (restaurants, hotels, bars), typically 1-2%. This is IN ADDITION to the sales tax.  _([T2])_ (not yet confirmed)
 
 ### 1.5 Very Broad Tax Base [T1]
 
@@ -91,22 +91,22 @@ South Dakota has one of the broadest sales tax bases in the country:
 
 ### 1.6 Sourcing [T1]
 
-- **Sourcing method** — South Dakota uses destination-based sourcing. As an SST member, South Dakota follows SSUTA sourcing rules.  _([T1])_
+- **Sourcing method** -- South Dakota uses destination-based sourcing. As an SST member, South Dakota follows SSUTA sourcing rules.  _([T1])_
 
 ### 2.1 Grocery Food -- TAXABLE at Full Rate [T1]
 
-- **Grocery food taxability** — South Dakota taxes grocery food at the FULL 4.5% state rate + local. Unprepared food: taxable at 4.5% + local. Prepared food: taxable at the same rate. There is NO reduced rate or exemption for food. South Dakota is one of the few remaining states that fully taxes grocery food.  _([T1])_ (not yet confirmed)
+- **Grocery food taxability** -- South Dakota taxes grocery food at the FULL 4.5% state rate + local. Unprepared food: taxable at 4.5% + local. Prepared food: taxable at the same rate. There is NO reduced rate or exemption for food. South Dakota is one of the few remaining states that fully taxes grocery food.  _([T1])_ (not yet confirmed)
 
 ### 2.2 Clothing [T1]
 
-- **Clothing taxability** — Clothing is fully taxable. No exemption.  _([T1])_
+- **Clothing taxability** -- Clothing is fully taxable. No exemption.  _([T1])_
 
 ### 2.3 Prescription Drugs and Medical [T1]
 
-- **Prescription drugs** — Exempt.  _(SDCL §10-45-14.5)_
-- **OTC drugs** — Taxable.  _([T1])_
-- **DME** — Exempt with prescription.  _([T1])_
-- **Prosthetics** — Exempt.  _([T1])_
+- **Prescription drugs** -- Exempt.  _(SDCL §10-45-14.5)_
+- **OTC drugs** -- Taxable.  _([T1])_
+- **DME** -- Exempt with prescription.  _([T1])_
+- **Prosthetics** -- Exempt.  _([T1])_
 
 ### 2.4 Services -- VERY BROADLY TAXABLE [T1]
 
@@ -130,23 +130,23 @@ Taxable services include (non-exhaustive):
 
 ### 2.5 SaaS and Digital Goods [T1]
 
-- **SaaS** — Taxable. South Dakota taxes all electronically transferred products and services, including SaaS.  _(SDCL §10-45-4.2)_
-- **Digital downloads** — Taxable.  _([T1])_
-- **Streaming services** — Taxable.  _([T1])_
-- **Canned and custom software** — Taxable.  _([T1])_
+- **SaaS** -- Taxable. South Dakota taxes all electronically transferred products and services, including SaaS.  _(SDCL §10-45-4.2)_
+- **Digital downloads** -- Taxable.  _([T1])_
+- **Streaming services** -- Taxable.  _([T1])_
+- **Canned and custom software** -- Taxable.  _([T1])_
 
 ### 2.6 Manufacturing [T2]
 
-- **Manufacturing equipment** — No specific broad manufacturing exemption in South Dakota.  _([T2])_
-- **Raw materials incorporated into finished products for resale** — Exempt under resale.  _([T1])_
-- **Equipment purchases general rule** — South Dakota's broad base means most equipment purchases are taxable.  _([T1])_
+- **Manufacturing equipment** -- No specific broad manufacturing exemption in South Dakota.  _([T2])_
+- **Raw materials incorporated into finished products for resale** -- Exempt under resale.  _([T1])_
+- **Equipment purchases general rule** -- South Dakota's broad base means most equipment purchases are taxable.  _([T1])_
 
 ### 2.7 Agricultural [T1]
 
-- **Farm machinery and equipment** — Exempt.  _(SDCL §10-45-14)_
-- **Feed, seed, fertilizer** — Exempt.  _([T1])_
-- **Livestock** — Exempt for breeding/production.  _([T1])_
-- **Agricultural chemicals** — Exempt.  _([T1])_
+- **Farm machinery and equipment** -- Exempt.  _(SDCL §10-45-14)_
+- **Feed, seed, fertilizer** -- Exempt.  _([T1])_
+- **Livestock** -- Exempt for breeding/production.  _([T1])_
+- **Agricultural chemicals** -- Exempt.  _([T1])_
 
 ### 4.1 Filing Details [T1]
 
@@ -162,13 +162,13 @@ Taxable services include (non-exhaustive):
 
 ### 4.2 Vendor Discount [T1]
 
-- **Vendor discount** — South Dakota does NOT offer a vendor discount for timely filing.  _([T1])_
+- **Vendor discount** -- South Dakota does NOT offer a vendor discount for timely filing.  _([T1])_
 
 ### 4.3 Penalties and Interest [T1]
 
-- **Late filing penalty** — 10% of tax due or $10, whichever is greater.  _([T1])_ (not yet confirmed)
-- **Interest** — 1% per month (12% per annum).  _([T1])_ (not yet confirmed)
-- **Fraud penalty** — 100% of tax due.  _([T1])_ (not yet confirmed)
+- **Late filing penalty** -- 10% of tax due or $10, whichever is greater.  _([T1])_ (not yet confirmed)
+- **Interest** -- 1% per month (12% per annum).  _([T1])_ (not yet confirmed)
+- **Fraud penalty** -- 100% of tax due.  _([T1])_ (not yet confirmed)
 
 ### Step 4: Deductibility / Exemptions
 
@@ -193,15 +193,15 @@ All exemption certificates must be collected at or before the time of sale and r
 | Measurement Period | Current or prior calendar year |
 | Effective Date | November 1, 2018 (post-Wayfair) | (not yet confirmed)
 
-- **Economic Nexus Statute** — SDCL §10-64-2  _(SDCL §10-64-2)_
+- **Economic Nexus Statute** -- SDCL §10-64-2  _(SDCL §10-64-2)_
 
 ### 3.2 Marketplace Facilitator [T1]
 
-- **Marketplace facilitator collection requirement** — South Dakota requires marketplace facilitators to collect and remit.  _(SDCL §10-45-98)_
+- **Marketplace facilitator collection requirement** -- South Dakota requires marketplace facilitators to collect and remit.  _(SDCL §10-45-98)_
 
 ### 3.3 SST Registration [T1]
 
-- **SST Registration** — Full SST member. SSTRS and CSPs available.  _([T1])_
+- **SST Registration** -- Full SST member. SSTRS and CSPs available.  _([T1])_
 
 ### Step 6: Filing Deadlines and Penalties
 
@@ -397,6 +397,6 @@ Not yet confirmed: all SD sales-tax rates, thresholds, deadlines and exemptions 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people.
+This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or financial advice. Verify figures against the cited primary sources or with a licensed professional before relying on them.
