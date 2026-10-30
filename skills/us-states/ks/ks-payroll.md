@@ -2,7 +2,7 @@
 name: ks-payroll
 description: >
   Use this skill whenever asked about Kansas payroll withholding for tax
-  year 2026 — Form K-4 employee withholding allowance certificate, KW-3
+  year 2026 -- Form K-4 employee withholding allowance certificate, KW-3
   annual withholding reconciliation (due January 31), KW-5 deposit reports
   with the five statutory filing frequencies ($200/$1,200/$8,000/$100,000
   thresholds), the KDOR rule that any payor who must withhold federal tax
@@ -53,7 +53,7 @@ Frequency changes take effect January 1 (KDOR Withholding FAQ).
 
 ## The taxable base
 
-- **Employee certificate:** Kansas Form K-4 sets the allowances. The "married" allowance is optional — spouses may claim "single" for two-earner joint accuracy; dependents are counted once; extra flat-dollar withholding is allowed (K-4 information page).
+- **Employee certificate:** Kansas Form K-4 sets the allowances. The "married" allowance is optional -- spouses may claim "single" for two-earner joint accuracy; dependents are counted once; extra flat-dollar withholding is allowed (K-4 information page).
 - **Computation methods:** the **percentage formula** (rate tables applied to the net wage after allowances) or the **wage-bracket tables**; above the last bracket of a wage table the percentage formula is mandatory (Pub. KW-100).
 - **Allowance deduction:** each K-4 allowance removes $2,320 a year from the wage before the rate tables apply (Pub. KW-100; K.S.A. 79-32,121).
 - **Non-wage payments** subject to federal withholding carry Kansas withholding too (see Who this applies to).
@@ -65,7 +65,7 @@ Frequency changes take effect January 1 (KDOR Withholding FAQ).
 | CR-16 registration | Before the first wage payment | [KW-110](https://www.ksrevenue.gov/pdf/kw-110.pdf) |
 | Form K-4 | At hire or when taxable payments begin; review annually and on marital / allowance changes | [KDOR K-4 information](https://www.ksrevenue.gov/k4info.html) |
 | KW-5 deposit reports | Per the frequency table above; required for **every** period even with zero withholding; annual filers still file an annual KW-5 (KW-3 does not replace it); file and pay electronically | KDOR Withholding FAQ; Pub. KW-100 |
-| KW-3 + W-2 / 1099 annual reconciliation | **January 31** of the following year ("The annual return, W-2s and 1099s are due by January 31 of the following year" — KW-100; "All 2025 KW-3Es must be filed by January 31, 2026" — KW-3 e-file specs) | Pub. KW-100; KW-3 e-file specs |
+| KW-3 + W-2 / 1099 annual reconciliation | **January 31** of the following year ("The annual return, W-2s and 1099s are due by January 31 of the following year" -- KW-100; "All 2025 KW-3Es must be filed by January 31, 2026" -- KW-3 e-file specs) | Pub. KW-100; KW-3 e-file specs |
 | Media | W-2 / KW-3 magnetic media no longer accepted | KW-3 e-file specs |
 
 ## Penalties and interest
@@ -76,7 +76,7 @@ Frequency changes take effect January 1 (KDOR Withholding FAQ).
 
 ## Cross-border points
 
-- The resident-employee rule means Kansas withholding follows the **employee's residence** even for work performed out of state — multi-state employers must not net this against other states' nonresident withholding without credit analysis (see `ks-cross-border`).
+- The resident-employee rule means Kansas withholding follows the **employee's residence** even for work performed out of state -- multi-state employers must not net this against other states' nonresident withholding without credit analysis (see `ks-cross-border`).
 - Nonresident employees working in Kansas: withhold Kansas; their home state may credit Kansas tax.
 - W-2 state box reporting: single-state reporting per wage-source rules (KW-3 e-file specs).
 
@@ -148,7 +148,7 @@ Not yet confirmed: the current withholding penalty tier percentages (79-32,173 w
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

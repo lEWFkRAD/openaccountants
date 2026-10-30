@@ -2,7 +2,7 @@
 name: ks-corporate-income-tax
 description: >
   Use this skill whenever asked about Kansas corporate income tax for tax
-  year 2026 — the Form K-120 filing duty for corporations doing business in
+  year 2026 -- the Form K-120 filing duty for corporations doing business in
   or deriving income from Kansas sources, automatic Subchapter S status for
   Kansas (banks excluded, they file the privilege tax), the repealed
   franchise tax, and federal-extension mechanics. Trigger on "Kansas
@@ -31,7 +31,7 @@ See also: `ks-income-tax`, `ks-transfer-pricing`, `ks-cross-border`.
 ## Who this applies to
 
 - **All corporations** doing business within or deriving income from sources within Kansas who are required to file a federal income tax return must file a Kansas return, **whether or not tax is due** (KDOR Corporate Income page; 2025 Corporate Tax Booklet).
-- **Subchapter S corporations** for federal purposes are **automatically** S for Kansas and must file as such (Form K-120S) — **except banks, savings and loan associations, and trust companies**, which are barred from S status for Kansas and file the **privilege tax return** (K.S.A. 79-1107/1108) instead of K-120 (KDOR FAQ).
+- **Subchapter S corporations** for federal purposes are **automatically** S for Kansas and must file as such (Form K-120S) -- **except banks, savings and loan associations, and trust companies**, which are barred from S status for Kansas and file the **privilege tax return** (K.S.A. 79-1107/1108) instead of K-120 (KDOR FAQ).
 - **Short-period returns:** required for Kansas whenever required federally (KDOR FAQ).
 - **501(c)(3) nonprofits:** no Kansas copy of federal Form 990 is required; most still file the Secretary of State annual report (KDOR FAQ).
 - **Franchise tax: repealed.** No Kansas franchise tax for tax year 2011 and after; the old KDOR tax (max $20,000, 0.03125% of net worth in its final year, Form K-150) is historical only. A separate **$55 Secretary of State filing fee** with the annual report still applies (KDOR Franchise page).
@@ -42,13 +42,13 @@ See also: `ks-income-tax`, `ks-transfer-pricing`, `ks-cross-border`.
 |---|---|---|---|
 | Normal tax | **4%** of Kansas taxable income | 2026 | [K.S.A. 79-32,110(c)(1)](https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html) |
 | Surtax | **3%** of Kansas taxable income **in excess of $50,000** (one surtax exemption per corporate taxpayer) | 2026 | [K.S.A. 79-32,110(c)(2)](https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html); [2025 Corporate Tax Booklet](https://www.ksrevenue.gov/corpbook25.html), line 30 instructions |
-| TY2026 rate reduction | **None** — FY2025 adjusted collections did not exceed inflation-adjusted base-year revenues, so the Secretary published no reduction | 2026 | [KDOR Notice 25-06](https://www.ksrevenue.gov/taxnotices/notice25-06.pdf) |
+| TY2026 rate reduction | **None** -- FY2025 adjusted collections did not exceed inflation-adjusted base-year revenues, so the Secretary published no reduction | 2026 | [KDOR Notice 25-06](https://www.ksrevenue.gov/taxnotices/notice25-06.pdf) |
 | Future reductions | 79-32,110c (SB 291 mechanism, L. 2025 ch. 116): surtax decreases only until **combined normal + surtax = 4%**; 79-32,110d adds a corporate-receipts trigger from FY2028 | 2027 on | [K.S.A. 79-32,110c](https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110c.html) |
 | Estimated tax threshold | Required if Kansas liability is reasonably expected to **exceed $500** | 2026 | [K.S.A. 79-32,101(a)(2)](https://ksrevisor.gov/statutes/chapters/ch79/079_032_0101.html) |
 | Extension payment | **90%** of the tax must be paid by the original due date to avoid the late-payment penalty | 2026 | [KDOR Corporate Income page](https://www.ksrevenue.gov/bustaxtypescorp.html) |
 | Franchise tax | None for tax year 2011 and after; Secretary of State filing fee **$55** | 2026 | [KDOR Franchise page](https://www.ksrevenue.gov/bustaxtypesfranchise.html) |
 
-**Correction:** the v0.1 draft carried "commonly cited as 4% first $50,000 and 12% above" — the 12% figure is obsolete (pre-2022 law). Current law is 4% + 3% surtax over $50,000 = **7% marginal** on income above $50,000.
+**Correction:** the v0.1 draft carried "commonly cited as 4% first $50,000 and 12% above" -- the 12% figure is obsolete (pre-2022 law). Current law is 4% + 3% surtax over $50,000 = **7% marginal** on income above $50,000.
 
 ## The taxable base
 
@@ -108,7 +108,7 @@ expected:
 
 ### Example 2: extension safe harbor on the same facts
 
-The corporation extends via federal Form 7006. The extension covers filing, not payment, so 90% of the $5,220 — $4,698 — must be paid by April 15 to avoid the late-payment penalty; the $522 balance follows with the return.
+The corporation extends via federal Form 7006. The extension covers filing, not payment, so 90% of the $5,220 -- $4,698 -- must be paid by April 15 to avoid the late-payment penalty; the $522 balance follows with the return.
 
 ```oa-check
 name: KS 90% extension payment
@@ -157,7 +157,7 @@ Not yet confirmed: the late-filing addition percentage under the K.S.A. 79-3228 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

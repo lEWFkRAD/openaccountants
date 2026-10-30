@@ -2,7 +2,7 @@
 name: ks-cross-border
 description: >
   Use this skill whenever asked about Kansas cross-border taxation for tax
-  year 2026 — part-year and nonresident Kansas filing (Form K-40 with
+  year 2026 -- part-year and nonresident Kansas filing (Form K-40 with
   Schedule S allocation), the resident-worldwide-plus-credit structure,
   no reciprocity with neighboring states, no exit tax, and the
   resident-employee withholding rule that follows Kansas residents out of
@@ -64,7 +64,7 @@ The nonresident base and allocation, the credit for taxes paid to other states, 
 
 - **Kansas resident working in Missouri** (classic Kansas City metro pattern): Missouri withholds nonresident tax; Kansas taxes worldwide income. The resident credit for Missouri tax is listed under Not yet confirmed.
 - **Nonresident working in Kansas:** Kansas withholds and taxes; the home state may credit Kansas tax (check the home state's rule).
-- **No Kansas worldwide-unitary extension for individuals** — the state layer is source- and credit-based.
+- **No Kansas worldwide-unitary extension for individuals** -- the state layer is source- and credit-based.
 
 ## Worked examples
 
@@ -72,7 +72,7 @@ Both examples assume a resident credit for tax paid to the other state, capped a
 
 ### Example 1: Kansas resident commuting to Missouri
 
-Kansas tax on worldwide income is $4,200; Missouri nonresident tax on the same wages is $3,800. If Kansas credits the full Missouri tax, Kansas collects $400 and the household pays $4,200 in total — the higher of the two states' tax, split $3,800 Missouri + $400 Kansas.
+Kansas tax on worldwide income is $4,200; Missouri nonresident tax on the same wages is $3,800. If Kansas credits the full Missouri tax, Kansas collects $400 and the household pays $4,200 in total -- the higher of the two states' tax, split $3,800 Missouri + $400 Kansas.
 
 ```oa-check
 name: KS resident MO commuter credit
@@ -131,7 +131,7 @@ Not yet confirmed: K-40PN vs K-40 + Schedule S Part B form routing for nonreside
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

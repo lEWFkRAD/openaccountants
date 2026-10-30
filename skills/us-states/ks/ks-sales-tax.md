@@ -23,35 +23,35 @@ See also: `us-sales-tax` (load first), `ks-corporate-income-tax`, `ks-cross-bord
 
 - **Every retailer** selling tangible personal property at retail in Kansas, or furnishing services taxable under the act, must collect the tax: "there is hereby levied and there shall be collected and paid a tax at the rate of 6.5%" (K.S.A. 79-3603).
 - **Sellers of food and food ingredients** collect at the reduced rates under K.S.A. 79-3603d (see Rates below).
-- **Remote and out-of-state sellers**: see Cross-border points — Kansas' economic-nexus threshold is not yet confirmed in this guide (see Not yet confirmed).
+- **Remote and out-of-state sellers**: see Cross-border points -- Kansas' economic-nexus threshold is not yet confirmed in this guide (see Not yet confirmed).
 
 ## Rates, bands and thresholds
 
 | Item | Rate or amount | Tax year | Source |
 |---|---|---|---|
 | State rate, general tangible personal property and taxable services | **6.5%** | 2026 | [K.S.A. 79-3603](https://ksrevisor.gov/statutes/chapters/ch79/079_036_0003.html) |
-| Food and food ingredients — unprepared | **0%** state (4% from Jan 1, 2023; 2% from Jan 1, 2024; 0% from Jan 1, 2025 "and thereafter") | 2026 | [K.S.A. 79-3603d](https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_036_0000_article/079_036_0003d_section/079_036_0003d_k/) |
+| Food and food ingredients -- unprepared | **0%** state (4% from Jan 1, 2023; 2% from Jan 1, 2024; 0% from Jan 1, 2025 "and thereafter") | 2026 | [K.S.A. 79-3603d](https://www.kslegislature.gov/b2025_26/laws/079_000_0000_chapter/079_036_0000_article/079_036_0003d_section/079_036_0003d_k/) |
 | Prepared food | Stays at the full 79-3603 rate unless sold without eating utensils and meeting a 79-3603d(b) condition | 2026 | K.S.A. 79-3603d(b) |
 | Late-filing / late-payment penalty | **1% of the unpaid balance per month or fraction thereof, not exceeding 24% in the aggregate** | 2026 | [K.S.A. 79-3615](https://ksrevisor.gov/statutes/chapters/ch79/079_036_0015.html) |
-| Interest on unpaid tax | The K.S.A. 79-2968 rate — the IRC § 6621 underpayment rate as in effect on September 1, 1996, with the annual fix described in the statute | 2026 | [K.S.A. 79-2968](https://ksrevisor.gov/statutes/chapters/ch79/079_029_0068.html) |
+| Interest on unpaid tax | The K.S.A. 79-2968 rate -- the IRC § 6621 underpayment rate as in effect on September 1, 1996, with the annual fix described in the statute | 2026 | [K.S.A. 79-2968](https://ksrevisor.gov/statutes/chapters/ch79/079_029_0068.html) |
 
-Local sales taxes are added on top of the state rate; local rate tables are on the KDOR sales-tax rate-change page (see Sources). The maximum combined state-plus-local rate is **not yet confirmed** — see Not yet confirmed.
+Local sales taxes are added on top of the state rate; local rate tables are on the KDOR sales-tax rate-change page (see Sources). The maximum combined state-plus-local rate is **not yet confirmed** -- see Not yet confirmed.
 
 ## The taxable base
 
 - **Base is gross receipts** from retail sales of tangible personal property and from taxable services (K.S.A. 79-3603; 79-3603d for food).
 - **Food and food ingredients (unprepared):** taxed at 0% state from January 1, 2025 (K.S.A. 79-3603d(a)(3)). Local rates still apply. NEVER forget the phase-down history: 6.5% → 4% (2023) → 2% (2024) → 0% (2025 onward).
-- **Prepared food carve-out:** the 79-3603d reduced rates "shall not apply to prepared food unless sold without eating utensils provided by the seller and described below" — bakery items, unheated food sold by weight or volume as a single item, and food that ordinarily requires additional cooking (K.S.A. 79-3603d(b)). Prepared food sold with eating utensils stays at the full 6.5% state rate.
+- **Prepared food carve-out:** the 79-3603d reduced rates "shall not apply to prepared food unless sold without eating utensils provided by the seller and described below" -- bakery items, unheated food sold by weight or volume as a single item, and food that ordinarily requires additional cooking (K.S.A. 79-3603d(b)). Prepared food sold with eating utensils stays at the full 6.5% state rate.
 - **Exemptions confirmed in K.S.A. 79-3606 include:**
   - Prescription drugs: "all sales of drugs dispensed pursuant to a prescription order by a licensed practitioner" (79-3606(p)).
   - Manufacturing machinery: "all sales of machinery and equipment that are used in this state as an integral or essential part of an integrated production operation by a manufacturing or processing plant or facility" (79-3606(kk)).
   - Ingredient / component part: property that becomes "an ingredient or component part of tangible personal property or services produced, manufactured or compounded for ultimate sale at retail" (79-3606(m)).
-- **Not yet confirmed:** the taxability of clothing, canned/downloaded software, SaaS, professional services, and general sales for resale — see Not yet confirmed before answering a client question on these.
-- **Prohibition — grocery food state tax:** NEVER apply state tax to unprepared grocery food as of 2025 — the state rate is 0%. Local tax may still apply.
+- **Not yet confirmed:** the taxability of clothing, canned/downloaded software, SaaS, professional services, and general sales for resale -- see Not yet confirmed before answering a client question on these.
+- **Prohibition -- grocery food state tax:** NEVER apply state tax to unprepared grocery food as of 2025 -- the state rate is 0%. Local tax may still apply.
 
 ## Deadlines and filing
 
-- Returns and payment are due per the KDOR retailers' sales tax filing schedule; filing frequency depends on the taxpayer's tax liability. The exact current form IDs and filing frequencies are **not yet confirmed** — see Not yet confirmed.
+- Returns and payment are due per the KDOR retailers' sales tax filing schedule; filing frequency depends on the taxpayer's tax liability. The exact current form IDs and filing frequencies are **not yet confirmed** -- see Not yet confirmed.
 - The KDOR sales and use tax page and rate-change notices are the authority for current filing mechanics (see Sources).
 
 ## Penalties and interest
@@ -62,8 +62,8 @@ Local sales taxes are added on top of the state rate; local rate tables are on t
 
 ## Cross-border points
 
-- Kansas is cited as a destination-based-sourcing state and a Streamlined Sales Tax member; **these points are not yet confirmed against archived primary sources** — see Not yet confirmed. Do not advise a multistate client on Kansas sourcing until confirmed.
-- Out-of-state sellers with Kansas gross receipts should check the current economic-nexus threshold with KDOR before assuming no filing duty (threshold not yet confirmed — see Not yet confirmed).
+- Kansas is cited as a destination-based-sourcing state and a Streamlined Sales Tax member; **these points are not yet confirmed against archived primary sources** -- see Not yet confirmed. Do not advise a multistate client on Kansas sourcing until confirmed.
+- Out-of-state sellers with Kansas gross receipts should check the current economic-nexus threshold with KDOR before assuming no filing duty (threshold not yet confirmed -- see Not yet confirmed).
 - Sales for resale across state lines need an exemption certificate analysis (see ingredient/component exemption, 79-3606(m)).
 
 ## Worked examples
@@ -144,7 +144,7 @@ Not yet confirmed: the maximum combined state and local rate (previously carried
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

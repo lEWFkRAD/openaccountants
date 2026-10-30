@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **Source-cited draft.** Built from K.S.A. 79-32,101, 79-32,103, 79-32,107, 79-32,110, 79-32,117 and 79-32,121 and the KDOR 2025 Individual Income Tax booklet, read on 2026-10-28. No accountant has reviewed it. All outputs must be reviewed by a qualified tax professional before filing.
 
-**Kansas Individual Income Tax Skill — Self-Employed / Sole Proprietor.** This skill covers Kansas Form K-40 (Individual Income Tax Return) for sole proprietors and single-member LLCs. It addresses the two-bracket progressive income tax, Kansas modifications to federal AGI, and Schedule S adjustments. It does NOT cover corporate returns (K-120), partnership/S-corp pass-throughs (K-120S), or detailed multi-state allocation.
+**Kansas Individual Income Tax Skill -- Self-Employed / Sole Proprietor.** This skill covers Kansas Form K-40 (Individual Income Tax Return) for sole proprietors and single-member LLCs. It addresses the two-bracket progressive income tax, Kansas modifications to federal AGI, and Schedule S adjustments. It does NOT cover corporate returns (K-120), partnership/S-corp pass-throughs (K-120S), or detailed multi-state allocation.
 
 | Field | Value |
 | --- | --- |
@@ -38,9 +38,9 @@ Kansas individual taxpayers filing Form K-40, with this skill focused on sole pr
 | --- | --- | --- |
 | REF-KS-01 | Taxpayer is a nonresident with complex Kansas source income allocation | Refuse; requires Schedule S Part B detailed analysis. |
 | REF-KS-02 | Taxpayer has partnership or S-corp pass-through with Kansas K-1 modifications | Flag for reviewer. |
-| REF-KS-03 | Taxpayer claims Kansas Historic Preservation Credit or other complex credits | Flag for reviewer — separate forms required. |
+| REF-KS-03 | Taxpayer claims Kansas Historic Preservation Credit or other complex credits | Flag for reviewer -- separate forms required. |
 | REF-KS-04 | Taxpayer has farm income with Kansas-specific depreciation differences | Flag for reviewer. |
-| REF-KS-05 | Taxpayer is amending a pre-2024 return with Social Security income near the $75,000 AGI cap | Flag for reviewer — historical cap applies to those years only. |
+| REF-KS-05 | Taxpayer is amending a pre-2024 return with Social Security income near the $75,000 AGI cap | Flag for reviewer -- historical cap applies to those years only. |
 
 ## Rates, bands and thresholds
 
@@ -89,7 +89,7 @@ Kansas individual taxpayers filing Form K-40, with this skill focused on sole pr
 
 ### Starting point
 
-- **Starting point** — Kansas starts from federal adjusted gross income (AGI) — Form 1040, Line 11. This is entered on Form K-40, Line 1.
+- **Starting point** -- Kansas starts from federal adjusted gross income (AGI) -- Form 1040, Line 11. This is entered on Form K-40, Line 1.
 
 ### Additions (Schedule S, Part A)
 
@@ -111,34 +111,34 @@ Kansas individual taxpayers filing Form K-40, with this skill focused on sole pr
 | U.S. government interest | Interest on U.S. obligations | K.S.A. 79-32,117(a)(i) |
 | KPERS contributions | Kansas Public Employees Retirement System contributions | K.S.A. 79-32,117(a)(ii) |
 | Military pay | Active-duty military compensation | K.S.A. 79-32,117 |
-| Retirement income exclusion | Social Security fully exempt (2024+); KPERS and other retirement provisions vary — see Schedule S line A11 | K.S.A. 79-32,117 |
+| Retirement income exclusion | Social Security fully exempt (2024+); KPERS and other retirement provisions vary -- see Schedule S line A11 | K.S.A. 79-32,117 |
 
 ### Resulting computation
 
-- **Kansas taxable income formula** — Federal AGI ± Schedule S modifications = Kansas AGI → minus standard or itemized deduction → minus personal exemptions = Kansas taxable income → apply bracket rates.
+- **Kansas taxable income formula** -- Federal AGI ± Schedule S modifications = Kansas AGI → minus standard or itemized deduction → minus personal exemptions = Kansas taxable income → apply bracket rates.
 
 ### Self-employed specific rules
 
-- **Self-employment health insurance** — Kansas follows federal treatment — the deduction reduces federal AGI and flows through.
-- **Retirement contributions (SEP, SIMPLE, Solo 401(k))** — Kansas follows federal treatment — these deductions reduce federal AGI and flow through.
-- **Home office deduction** — Kansas follows the federal home office deduction as part of Schedule C, included in federal AGI.
-- **QBI deduction (Section 199A)** — Kansas does not allow the federal QBI deduction because Kansas starts from federal AGI (before the QBI deduction is taken). The QBI deduction does not affect Kansas taxable income.
-- **Standard vs. itemized deductions** — Kansas allows taxpayers to choose between the Kansas standard deduction and Kansas itemized deductions. If itemizing, Kansas generally follows the federal itemized deductions with modifications on Schedule S.
+- **Self-employment health insurance** -- Kansas follows federal treatment -- the deduction reduces federal AGI and flows through.
+- **Retirement contributions (SEP, SIMPLE, Solo 401(k))** -- Kansas follows federal treatment -- these deductions reduce federal AGI and flow through.
+- **Home office deduction** -- Kansas follows the federal home office deduction as part of Schedule C, included in federal AGI.
+- **QBI deduction (Section 199A)** -- Kansas does not allow the federal QBI deduction because Kansas starts from federal AGI (before the QBI deduction is taken). The QBI deduction does not affect Kansas taxable income.
+- **Standard vs. itemized deductions** -- Kansas allows taxpayers to choose between the Kansas standard deduction and Kansas itemized deductions. If itemizing, Kansas generally follows the federal itemized deductions with modifications on Schedule S.
 
-### Tier 1 rules — deterministic
+### Tier 1 rules -- deterministic
 
 | Rule | Description |
 | --- | --- |
 | R-1 | Apply the two-bracket rate schedule based on filing status. Single/HoH/MFS: 5.20% up to $23,000, 5.58% above. MFJ: 5.20% up to $46,000, 5.58% above. |
 | R-2 | Start from federal AGI and apply Schedule S modifications. |
 | R-3 | Subtract the standard deduction or itemized deductions (taxpayer's choice). |
-| R-4 | Subtract personal exemptions ($9,160 single; $18,320 MFJ; $2,320 per dependent — 2025 amounts). |
+| R-4 | Subtract personal exemptions ($9,160 single; $18,320 MFJ; $2,320 per dependent -- 2025 amounts). |
 | R-5 | Social Security benefits are fully exempt for tax years 2024 and later (K.S.A. 79-32,117(a)(xviii)(B)). |
 | R-6 | Add back interest from out-of-state municipal bonds. |
 | R-7 | Subtract U.S. government bond interest. |
 | R-8 | Kansas has NO local/county income taxes. Only the state tax applies. |
 
-### Tier 2 rules — requires judgment
+### Tier 2 rules -- requires judgment
 
 | Rule | Description |
 | --- | --- |
@@ -261,7 +261,7 @@ Not yet confirmed: whether Kansas decouples from IRC §179 / bonus depreciation 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

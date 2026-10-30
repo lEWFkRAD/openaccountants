@@ -2,7 +2,7 @@
 name: ks-transfer-pricing
 description: >
   Use this skill whenever asked about Kansas transfer pricing and
-  related-party adjustments for tax year 2026 — Kansas has no standalone
+  related-party adjustments for tax year 2026 -- Kansas has no standalone
   TP documentation regime; related-party exposure runs through combined
   reporting, intangible/management-fee addbacks, and the apportionment
   base. Trigger on "Kansas transfer pricing", "Kansas combined report",
@@ -29,8 +29,8 @@ See also: `ks-corporate-income-tax`, `ks-cross-border`.
 
 ## Who this applies to
 
-- Members of an **affiliated or unitary group** doing business in Kansas — combined / consolidated-return exposure.
-- Any K-120 filer making **intercompany payments** (royalties, interest, management fees) to out-of-state affiliates — addback exposure.
+- Members of an **affiliated or unitary group** doing business in Kansas -- combined / consolidated-return exposure.
+- Any K-120 filer making **intercompany payments** (royalties, interest, management fees) to out-of-state affiliates -- addback exposure.
 - Multistate filers whose **intercompany sales** move the Kansas apportionment factor.
 - S corporations: distributive-share pricing issues flow to shareholders.
 
@@ -53,7 +53,7 @@ No Kansas-specific transfer-pricing threshold, addback percentage or documentati
 
 ## Deadlines and filing
 
-- No separate Kansas TP filing calendar; adjustments ride the K-120 return and any combined or consolidated attachment, due with the return — the 15th day of the 4th month after year end (April 15 for calendar-year filers) ([2025 Corporate Tax Booklet](https://www.ksrevenue.gov/corpbook25.html)).
+- No separate Kansas TP filing calendar; adjustments ride the K-120 return and any combined or consolidated attachment, due with the return -- the 15th day of the 4th month after year end (April 15 for calendar-year filers) ([2025 Corporate Tax Booklet](https://www.ksrevenue.gov/corpbook25.html)).
 - Keep contemporaneous federal §6662(e) documentation for audit defense; Kansas examiners use it.
 
 ## Penalties and interest
@@ -137,7 +137,7 @@ Not yet confirmed: that Kansas has no standalone transfer-pricing documentation 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

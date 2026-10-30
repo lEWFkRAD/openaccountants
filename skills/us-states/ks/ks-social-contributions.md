@@ -2,7 +2,7 @@
 name: ks-social-contributions
 description: >
   Use this skill whenever asked about Kansas employer social contributions
-  for tax year 2026 — state unemployment insurance (UI) contributions, the
+  for tax year 2026 -- state unemployment insurance (UI) contributions, the
   UI-only nature of Kansas employer social cost (no state disability, no
   paid-family-leave, no state health mandate), and the interaction with
   federal FUTA. Trigger on "Kansas unemployment insurance", "Kansas UI
@@ -39,7 +39,7 @@ See also: `ks-payroll`, `ks-income-tax`.
 | FUTA gross rate | 6.0% | 2026 | [26 U.S.C. § 3301](https://www.govinfo.gov/content/pkg/USCODE-2023-title26/html/USCODE-2023-title26-subtitleC-chap23-sec3301.htm) |
 | Maximum credit for state contributions | 90% of the FUTA tax (5.4% of FUTA wages) | 2026 | [26 U.S.C. § 3302(c)(1)](https://www.govinfo.gov/content/pkg/USCODE-2023-title26/html/USCODE-2023-title26-subtitleC-chap23-sec3302.htm) |
 
-No Kansas UI figure for 2026 — taxable wage base, experience-rated schedule, new-employer rate, any employee share or any surcharge — is confirmed yet; each is listed on the Not yet confirmed line.
+No Kansas UI figure for 2026 -- taxable wage base, experience-rated schedule, new-employer rate, any employee share or any surcharge -- is confirmed yet; each is listed on the Not yet confirmed line.
 
 ## The taxable base
 
@@ -56,13 +56,13 @@ No Kansas UI filing calendar is confirmed in this skill. The quarterly report an
 
 ## Cross-border points
 
-- Multi-state employers: Kansas base and rate apply to Kansas wages; other states' bases differ — file per state.
-- No Kansas portability issue for Social Security / Medicare — federal only.
+- Multi-state employers: Kansas base and rate apply to Kansas wages; other states' bases differ -- file per state.
+- No Kansas portability issue for Social Security / Medicare -- federal only.
 - How Kansas localizes the work of remote employees is listed under Not yet confirmed.
 
 ## Worked examples
 
-These examples use only confirmed federal figures (26 U.S.C. §§ 3301 and 3302); employee wages are hypothetical. The Kansas UI figures are not yet confirmed — see Not yet confirmed.
+These examples use only confirmed federal figures (26 U.S.C. §§ 3301 and 3302); employee wages are hypothetical. The Kansas UI figures are not yet confirmed -- see Not yet confirmed.
 
 ### Example 1: single-employee FUTA cost
 
@@ -84,7 +84,7 @@ expected:
   net_federal: 60
 ```
 
-### Example 2: two employees — the tax runs on each employee's wages
+### Example 2: two employees -- the tax runs on each employee's wages
 
 Same facts, two employees each earning $10,000: the gross FUTA doubles to $1,200 and the net federal cost doubles to $120, because the excise applies to the total wages paid with respect to employment.
 
@@ -122,7 +122,7 @@ Not yet confirmed: the 2026 Kansas UI taxable wage base (recent years were descr
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
