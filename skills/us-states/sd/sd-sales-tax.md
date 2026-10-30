@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # SD Sales Tax
 
-## Skill Metadata
+## Who this applies to
 
 **Skill Metadata**
 
@@ -37,13 +37,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Confidence Coverage | T1: state rate, basic taxability, filing mechanics, Wayfair background. T2: municipal gross receipts, service taxability, exemption specifics. T3: audit defense, complex transactions, penalty abatement. |
 | Format | Restructured to Q1 execution format, April 2026 |
 
-## Confidence Tier Definitions
+### Confidence Tier Definitions
 
 - **[T1] Tier 1 -- Deterministic.** Apply exactly as written. No reviewer judgement required.
 - **[T2] Tier 2 -- Reviewer Judgement Required.** Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
 - **[T3] Tier 3 -- Out of Scope / Escalate.** Do not guess. Escalate to a licensed tax professional.
 
-## Step 0: Client Onboarding Questions
+### Step 0: Client Onboarding Questions
 
 Before proceeding with any South Dakota sales tax analysis, collect the following from the client: [T1]
 
@@ -170,7 +170,7 @@ Taxable services include (non-exhaustive):
 - **Interest** — 1% per month (12% per annum).  _([T1])_
 - **Fraud penalty** — 100% of tax due.  _([T1])_
 
-## Step 4: Deductibility / Exemptions
+### Step 4: Deductibility / Exemptions
 
 Exemptions identified in Step 2 above are the primary deductibility rules for South Dakota. Key categories: [T1]
 
@@ -203,11 +203,11 @@ All exemption certificates must be collected at or before the time of sale and r
 
 - **SST Registration** — Full SST member. SSTRS and CSPs available.  _([T1])_
 
-## Step 6: Filing Deadlines and Penalties
+### Step 6: Filing Deadlines and Penalties
 
 Refer to Step 3 for filing frequencies and due dates. [T1]
 
-## PROHIBITIONS
+### PROHIBITIONS
 
 - NEVER assume grocery food is exempt in South Dakota. It is taxable at the FULL rate. [T1]
 - NEVER assume services are exempt in South Dakota. Virtually ALL services are taxable, including professional services. [T1]
@@ -329,7 +329,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Input:** Farmer buys $80,000 tractor for agricultural use.
 **Expected output:** Farm machinery is exempt. Tax = $0. Total = $80,000.
 
-## Reviewer Escalation Protocol
+### Reviewer Escalation Protocol
 
 **Reviewer Escalation Protocol**
 
@@ -341,7 +341,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 | Penalty abatement or voluntary disclosure | Escalate to licensed professional with state-specific experience. |
 | Ambiguous taxability of a product/service | Present both interpretations to reviewer with supporting authority. |
 
-## Contribution Notes
+### Contribution Notes
 
 - This skill follows the Q1 execution format (Step 0 through Step 7).
 - All rules are tagged [T1], [T2], or [T3] per the Confidence Tier Definitions.
@@ -349,26 +349,54 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - To update this skill, submit a pull request with the specific section, supporting statutory authority, and effective date of the change.
 - All changes require validation by a US CPA or EA before merging.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
 ---
 
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (state) | https://dor.sd.gov | 2026-10-28 |
+
+Not yet confirmed: all SD sales-tax rates, thresholds, deadlines and exemptions lack archived line-citations.
+
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
+> **General reference only.** This document does not constitute tax, legal, or financial advice. Verify figures against the cited primary sources or with a licensed professional before relying on them.
