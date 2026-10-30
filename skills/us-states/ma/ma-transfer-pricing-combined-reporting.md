@@ -21,7 +21,7 @@ version: 0.2
 
 ## Who this applies to
 
-- C corporations and corporate groups doing business in Massachusetts where corporations under common ownership conduct a unitary business (M.G.L. c.63 §32B; 830 CMR 63.32B.2 — statute and regulation text archived 2026-10-28).
+- C corporations and corporate groups doing business in Massachusetts where corporations under common ownership conduct a unitary business (M.G.L. c.63 §32B; 830 CMR 63.32B.2 -- statute and regulation text archived 2026-10-28).
 - Out of scope: standalone corporations with no unitary affiliates (they file Form 355 on a stand-alone basis); non-corporate entities (the excise regime is corporate).
 
 ## Rates, bands and thresholds
@@ -51,14 +51,14 @@ version: 0.2
 
 - P.L. 86-272 protects solicitation-only activity from net-income excise but does not change the combined-reporting analysis for the rest of the group.
 - No state treaty power; US treaties can touch nonresident-member income but not the corporate combination itself.
-- Federal §482 adjustments do not automatically flow into the Massachusetts combination — the combination is computed under Massachusetts rules (G.L. c.63 §32B(a): items from intercompany transactions "shall be eliminated, subject to regulations as may be adopted" under §32B(f)).
+- Federal §482 adjustments do not automatically flow into the Massachusetts combination -- the combination is computed under Massachusetts rules (G.L. c.63 §32B(a): items from intercompany transactions "shall be eliminated, subject to regulations as may be adopted" under §32B(f)).
 - Water's-edge treatment of foreign affiliates: see Not yet confirmed below.
 
 ## Worked examples
 
 Client facts (group income, sales factor) are hypothetical; the 8.0% rate is the confirmed §39 figure above.
 
-**Example 1 — combined apportionment.** A unitary group's combined apportionable income is USD 4,000,000; the Massachusetts sales factor is 25%. Combined Massachusetts-basis income: 4,000,000 × 0.25 = 1,000,000. Excise at 8.0%: 1,000,000 × 0.08 = 80,000.
+**Example 1 -- combined apportionment.** A unitary group's combined apportionable income is USD 4,000,000; the Massachusetts sales factor is 25%. Combined Massachusetts-basis income: 4,000,000 × 0.25 = 1,000,000. Excise at 8.0%: 1,000,000 × 0.08 = 80,000.
 
 ```oa-check
 name: ma combined apportionment
@@ -74,7 +74,7 @@ expected:
   excise: 80000.00
 ```
 
-**Example 2 — intercompany royalty neutralised.** A Massachusetts manufacturer pays a royalty of USD 600,000 to its 100%-owned out-of-state licensor inside the same unitary group. Stand-alone, the MA entity would deduct 600,000; combined, the royalty and the licensor's matching income eliminate (§32B(a)), so the group's combined apportionable income is unchanged at USD 4,000,000 and the Massachusetts-basis income stays 1,000,000 — the royalty moves no Massachusetts tax.
+**Example 2 -- intercompany royalty neutralised.** A Massachusetts manufacturer pays a royalty of USD 600,000 to its 100%-owned out-of-state licensor inside the same unitary group. Stand-alone, the MA entity would deduct 600,000; combined, the royalty and the licensor's matching income eliminate (§32B(a)), so the group's combined apportionable income is unchanged at USD 4,000,000 and the Massachusetts-basis income stays 1,000,000 -- the royalty moves no Massachusetts tax.
 
 ```oa-check
 name: ma intercompany royalty elimination
@@ -102,10 +102,10 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| M.G.L. c.63 §32B — Combined reporting; corporations subject to combination; apportionment of income; joint and several liability | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section32B> | 2026-10-28 |
-| M.G.L. c.63 §39 — Tax rate (8.0% income measure for tax years beginning on or after Jan 1, 2012) | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section39> | 2026-10-28 |
-| M.G.L. c.63 §38 — Determination of net income derived from business carried on within commonwealth (sales factor) | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section38> | 2026-10-28 |
-| 830 CMR 63.00 (DOR regulations, incl. 63.32B.2 Combined Reporting) — Secretary of the Commonwealth regulation publication PDF | <https://www.sec.state.ma.us/reg_pub/pdf/800/830063.pdf> | 2026-10-28 |
+| M.G.L. c.63 §32B -- Combined reporting; corporations subject to combination; apportionment of income; joint and several liability | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section32B> | 2026-10-28 |
+| M.G.L. c.63 §39 -- Tax rate (8.0% income measure for tax years beginning on or after Jan 1, 2012) | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section39> | 2026-10-28 |
+| M.G.L. c.63 §38 -- Determination of net income derived from business carried on within commonwealth (sales factor) | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section38> | 2026-10-28 |
+| 830 CMR 63.00 (DOR regulations, incl. 63.32B.2 Combined Reporting) -- Secretary of the Commonwealth regulation publication PDF | <https://www.sec.state.ma.us/reg_pub/pdf/800/830063.pdf> | 2026-10-28 |
 
 Not yet confirmed: the water's-edge boundary for foreign affiliates in the Massachusetts combination (830 CMR 63.32B.2 text not fully read from the archived PDF); the exact penalty and interest rate schedule for failure to file a combined return when required (M.G.L. c.63 penalty provisions not archived); whether federal §482 adjustments flow into the combined report in any circumstance.
 
@@ -115,7 +115,7 @@ Not yet confirmed: the water's-edge boundary for foreign affiliates in the Massa
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
+This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
 - Use it in your AI: https://www.openaccountants.com/connect
 - Talk to a verified accountant: https://calendly.com/openaccountants-info/30min

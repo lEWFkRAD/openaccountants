@@ -30,7 +30,7 @@ version: 0.2
 
 | Piece | Rate on eligible wages | Employee-withholdable | Employer share |
 |---|---|---|---|
-| Total PFML contribution | 0.88% | — | — |
+| Total PFML contribution | 0.88% | -- | -- |
 | Family leave | 0.18% | up to 100% (0.18%) | 0% |
 | Medical leave | 0.70% (0.88% total less the 0.18% family piece) | up to 40% (0.28%) | 60% (0.42%) |
 
@@ -56,14 +56,14 @@ version: 0.2
 ## Cross-border points
 
 - PFML is a state social-insurance contribution, not income tax: it is withheld on wages for covered employment irrespective of the employee's residency, so nonresident Massachusetts workers see PFML withholdings too (DFML page, read 2026-10-28).
-- Massachusetts Unemployment Insurance is employer-only (no employee contribution) — a social cost of employment but not an employee-side contribution; see the payroll lane.
+- Massachusetts Unemployment Insurance is employer-only (no employee contribution) -- a social cost of employment but not an employee-side contribution; see the payroll lane.
 - No state pension or disability contribution beyond PFML; FICA/FUTA are federal.
 
 ## Worked examples
 
 Client facts (headcount, wages) are hypothetical; rates are the confirmed 2026 DFML rates above.
 
-**Example 1 — 2026 PFML split on a mid-size employer.** An employer with 30 covered individuals pays USD 500,000 of eligible wages in the quarter-year base. Total contribution: 500,000 × 0.88% = 4,400. Family piece: 500,000 × 0.18% = 900 (fully withholdable). Medical piece: 500,000 × 0.70% = 3,500; employee-withholdable 40% = 1,400; employer 60% = 2,100. Employer minimum cash cost = 2,100.
+**Example 1 -- 2026 PFML split on a mid-size employer.** An employer with 30 covered individuals pays USD 500,000 of eligible wages in the quarter-year base. Total contribution: 500,000 × 0.88% = 4,400. Family piece: 500,000 × 0.18% = 900 (fully withholdable). Medical piece: 500,000 × 0.70% = 3,500; employee-withholdable 40% = 1,400; employer 60% = 2,100. Employer minimum cash cost = 2,100.
 
 ```oa-check
 name: ma pfml 2026 split
@@ -83,7 +83,7 @@ expected:
   total: 4400.00
 ```
 
-**Example 2 — small-employer relief.** An employer with 20 covered individuals elects not to contribute: employer PFML cost = 0; the employer still sends the effective 0.46% rate withheld from covered individuals (500,000 × 0.46% = 2,300 on the same hypothetical wage base).
+**Example 2 -- small-employer relief.** An employer with 20 covered individuals elects not to contribute: employer PFML cost = 0; the employer still sends the effective 0.46% rate withheld from covered individuals (500,000 × 0.46% = 2,300 on the same hypothetical wage base).
 
 ```oa-check
 name: ma pfml small employer opt-in
@@ -108,7 +108,7 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| DFML — PFML employer contribution rates and calculator (2026 and 2027 rate splits) | <https://www.mass.gov/info-details/family-and-medical-leave-contribution-rates-for-employers> | 2026-10-28 |
+| DFML -- PFML employer contribution rates and calculator (2026 and 2027 rate splits) | <https://www.mass.gov/info-details/family-and-medical-leave-contribution-rates-for-employers> | 2026-10-28 |
 
 Not yet confirmed: the DFML penalty and interest schedule for late or underpaid PFML contributions (the mass.gov employer-guidance pages returned 403/404 from this environment on 2026-10-28/29); the exact definition of "eligible wages" beyond the Social Security cap noted on the DFML page; whether 1099-MISC contractor amounts enter the family-leave base (DFML coverage pages unreachable).
 
@@ -118,7 +118,7 @@ Not yet confirmed: the DFML penalty and interest schedule for late or underpaid 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
+This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
 - Use it in your AI: https://www.openaccountants.com/connect
 - Talk to a verified accountant: https://calendly.com/openaccountants-info/30min

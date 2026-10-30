@@ -20,14 +20,14 @@ version: 0.2
 
 ## Who this applies to
 
-- Nonresident and part-year individuals with Massachusetts-source income: Form 1-NR/PY (the existing `ma-income-tax` skill references Form 1-NR; the current DOR form page was unreachable from this environment — see Not yet confirmed below).
+- Nonresident and part-year individuals with Massachusetts-source income: Form 1-NR/PY (the existing `ma-income-tax` skill references Form 1-NR; the current DOR form page was unreachable from this environment -- see Not yet confirmed below).
 - Massachusetts pass-throughs with nonresident members (withholding and the PTE election route) (DOR Elective Pass-through Entity Excise page, archived 2026-10-28).
 - Out-of-state corporations with Massachusetts nexus (combined reporting analysis in `ma-transfer-pricing-combined-reporting`).
 - Out of scope: residency-domicile disputes (refer); the excise combination mechanics (TP skill).
 
 ## Rates, bands and thresholds
 
-- **Individual rates:** flat 5% Part B income tax; the 4% surtax applies to Massachusetts-basis income above the inflation-adjusted threshold (approximately $1.083M for 2025) — see the `ma-income-tax` skill (Article 44 Amendments to the Massachusetts Constitution; threshold figure listed under Not yet confirmed below).
+- **Individual rates:** flat 5% Part B income tax; the 4% surtax applies to Massachusetts-basis income above the inflation-adjusted threshold (approximately $1.083M for 2025) -- see the `ma-income-tax` skill (Article 44 Amendments to the Massachusetts Constitution; threshold figure listed under Not yet confirmed below).
 - **PTE excise rate (ch.63D):** "an excise equal to 5% of a PTE's income that is attributable to qualified members and subject to tax under chapter 62" (DOR Elective Pass-through Entity Excise page, archived 2026-10-28).
 - **PTE member credit:** "Qualified members of an electing PTE are eligible for a credit equal to 90% of the member's distributive share of the chapter 63D excise paid by the PTE" (DOR PTE page, archived 2026-10-28).
 - **Nonresident filing relief under the PTE election:** "Where the PTE pays the chapter 63D PTE excise, a nonresident member is not required to file a personal income tax return on their own account if (i) they participate in the filing of a nonresident composite return or returns that report all of the nonresident's Massachusetts source income and (ii) they are not subject to the surtax" (DOR PTE page, archived 2026-10-28).
@@ -59,7 +59,7 @@ version: 0.2
 
 Client facts (wages, workdays, distributive share) are hypothetical; rates are the confirmed 5% individual and 5% ch.63D PTE figures above.
 
-**Example 1 — nonresident employee with Massachusetts workdays.** A New York resident earns USD 120,000 total wages, working 20 of 240 annual workdays in Massachusetts. Massachusetts-source wages: 120,000 × 20/240 = 10,000. Massachusetts tax at 5%: 10,000 × 0.05 = 500 (no surtax — below threshold).
+**Example 1 -- nonresident employee with Massachusetts workdays.** A New York resident earns USD 120,000 total wages, working 20 of 240 annual workdays in Massachusetts. Massachusetts-source wages: 120,000 × 20/240 = 10,000. Massachusetts tax at 5%: 10,000 × 0.05 = 500 (no surtax -- below threshold).
 
 ```oa-check
 name: ma nonresident workday sourcing
@@ -76,7 +76,7 @@ expected:
   ma_tax: 500.00
 ```
 
-**Example 2 — PTE election for a nonresident member.** A Massachusetts LLC (taxed as a partnership) allocates USD 80,000 of Massachusetts income to a nonresident member. Without the election the member files Form 1-NR/PY and pays 80,000 × 5% = 4,000. With a valid ch.63D election the entity pays 5% at the entity level on qualified income: 80,000 × 0.05 = 4,000; the member gets a credit equal to 90% of their share of the excise paid (DOR PTE page, archived 2026-10-28). The election's value is administrative (the nonresident may avoid a personal filing when a composite return covers them and they are not subject to the surtax), not a rate cut.
+**Example 2 -- PTE election for a nonresident member.** A Massachusetts LLC (taxed as a partnership) allocates USD 80,000 of Massachusetts income to a nonresident member. Without the election the member files Form 1-NR/PY and pays 80,000 × 5% = 4,000. With a valid ch.63D election the entity pays 5% at the entity level on qualified income: 80,000 × 0.05 = 4,000; the member gets a credit equal to 90% of their share of the excise paid (DOR PTE page, archived 2026-10-28). The election's value is administrative (the nonresident may avoid a personal filing when a composite return covers them and they are not subject to the surtax), not a rate cut.
 
 ```oa-check
 name: ma pte election tradeoff
@@ -105,10 +105,10 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| DOR — Elective Pass-through Entity Excise (ch.63D 5% excise, 90% member credit, election mechanics, NRCR interaction) | <https://www.mass.gov/info-details/elective-pass-through-entity-excise> | 2026-10-28 |
-| M.G.L. c.63 §38 — sales-factor apportionment of business income | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section38> | 2026-10-28 |
+| DOR -- Elective Pass-through Entity Excise (ch.63D 5% excise, 90% member credit, election mechanics, NRCR interaction) | <https://www.mass.gov/info-details/elective-pass-through-entity-excise> | 2026-10-28 |
+| M.G.L. c.63 §38 -- sales-factor apportionment of business income | <https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section38> | 2026-10-28 |
 
-Not yet confirmed: the Form 1-NR/PY form page and its instructions (mass.gov returned 403/404 site-wide from this environment on 2026-10-25 through 2026-10-29) — including wage-sourcing detail for remote workers, part-year proration, and any de minimis filing threshold; the exact 2026 surtax threshold dollar figure (the `ma-income-tax` skill carries $1,083,150 for TY2025, inflation-adjusted annually); the individual penalty and interest schedule (M.G.L. c.62C pages unreachable); SCRA military-personnel treatment; the full text of M.G.L. c.63D (malegislature.gov chapter page 404 from this environment — the DOR page above is the archived authority for ch.63D mechanics).
+Not yet confirmed: the Form 1-NR/PY form page and its instructions (mass.gov returned 403/404 site-wide from this environment on 2026-10-25 through 2026-10-29) -- including wage-sourcing detail for remote workers, part-year proration, and any de minimis filing threshold; the exact 2026 surtax threshold dollar figure (the `ma-income-tax` skill carries $1,083,150 for TY2025, inflation-adjusted annually); the individual penalty and interest schedule (M.G.L. c.62C pages unreachable); SCRA military-personnel treatment; the full text of M.G.L. c.63D (malegislature.gov chapter page 404 from this environment -- the DOR page above is the archived authority for ch.63D mechanics).
 
 <!-- openaccountants-cta-block -->
 
@@ -116,7 +116,7 @@ Not yet confirmed: the Form 1-NR/PY form page and its instructions (mass.gov ret
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
+This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
 - Use it in your AI: https://www.openaccountants.com/connect
 - Talk to a verified accountant: https://calendly.com/openaccountants-info/30min
