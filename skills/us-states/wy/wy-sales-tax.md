@@ -38,9 +38,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Confidence Tier Definitions
 
-- **[T1] Tier 1 -- Deterministic** — Apply exactly as written. No reviewer judgement required.
-- **[T2] Tier 2 -- Reviewer Judgement Required** — Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
-- **[T3] Tier 3 -- Out of Scope / Escalate** — Do not guess. Escalate to a licensed tax professional.
+- **[T1] Tier 1 -- Deterministic** -- Apply exactly as written. No reviewer judgement required.
+- **[T2] Tier 2 -- Reviewer Judgement Required** -- Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
+- **[T3] Tier 3 -- Out of Scope / Escalate** -- Do not guess. Escalate to a licensed tax professional.
 
 ### Step 0: Client Onboarding Questions
 
@@ -59,82 +59,82 @@ Before proceeding with any Wyoming sales tax analysis, collect the following fro
 | 7 | Do you have locations, employees, or inventory in Wyoming? | Physical presence creates nexus independent of economic thresholds. |
 | 8 | Do you sell into multiple Wyoming local jurisdictions? | Local tax rates vary; determines compliance complexity. |
 
-- **Stop condition** — If the client cannot answer questions 1-4, STOP and gather this information before proceeding. ([T1])
+- **Stop condition** -- If the client cannot answer questions 1-4, STOP and gather this information before proceeding. ([T1])
 
 ### 1.1 State Sales Tax Rate
 
-- **State Sales Tax Rate** — 4.00% (T1)  _(W.S. §39-15-104.)_ (not yet confirmed)
+- **State Sales Tax Rate** -- 4.00% (T1)  _(W.S. §39-15-104.)_ (not yet confirmed)
 
 ### 1.2 No State Income Tax [T1]
 
-- **No State Income Tax** — Wyoming has no state individual or corporate income tax. Sales tax, mineral severance taxes, and property taxes are the primary revenue sources. ([T1])
+- **No State Income Tax** -- Wyoming has no state individual or corporate income tax. Sales tax, mineral severance taxes, and property taxes are the primary revenue sources. ([T1])
 
 ### 1.3 Local Sales Taxes [T1]
 
-- **County additional sales tax** — Counties may impose additional sales tax up to 2.00% (general purpose + specific purpose). ([T1]) (not yet confirmed)
-- **Most counties impose local option tax** — Most counties impose some form of local option tax. ([T1])
-- **Combined rate range** — Combined rates range from 4.00% to 6.00%. ([T1]) (not yet confirmed)
-- **Local tax administration** — Local taxes are administered by the Wyoming DOR. ([T1])
+- **County additional sales tax** -- Counties may impose additional sales tax up to 2.00% (general purpose + specific purpose). ([T1]) (not yet confirmed)
+- **Most counties impose local option tax** -- Most counties impose some form of local option tax. ([T1])
+- **Combined rate range** -- Combined rates range from 4.00% to 6.00%. ([T1]) (not yet confirmed)
+- **Local tax administration** -- Local taxes are administered by the Wyoming DOR. ([T1])
 
 ### 1.4 Sourcing [T1]
 
-- **Sourcing method** — Wyoming uses destination-based sourcing. ([T1])
-- **SST sourcing rules** — As an SST member, Wyoming follows SSUTA sourcing rules. ([T1])
+- **Sourcing method** -- Wyoming uses destination-based sourcing. ([T1])
+- **SST sourcing rules** -- As an SST member, Wyoming follows SSUTA sourcing rules. ([T1])
 
 ### 2.1 Grocery Food -- EXEMPT [T1]
 
-- **Unprepared grocery food** — exempt ([T1])  _(W.S. §39-15-105(a)(viii))_
-- **Prepared food** — taxable at full combined rate ([T1])
-- **Candy** — taxable ([T1])
-- **Soft drinks** — taxable ([T1])
-- **SST food definitions** — Wyoming follows SST food definitions. ([T1])
+- **Unprepared grocery food** -- exempt ([T1])  _(W.S. §39-15-105(a)(viii))_
+- **Prepared food** -- taxable at full combined rate ([T1])
+- **Candy** -- taxable ([T1])
+- **Soft drinks** -- taxable ([T1])
+- **SST food definitions** -- Wyoming follows SST food definitions. ([T1])
 
 ### 2.2 Clothing [T1]
 
-- **Clothing taxability** — Clothing is fully taxable. No exemption. ([T1])
+- **Clothing taxability** -- Clothing is fully taxable. No exemption. ([T1])
 
 ### 2.3 Prescription Drugs and Medical [T1]
 
-- **Prescription drugs** — exempt ([T1])  _(W.S. §39-15-105(a)(iv))_
-- **OTC drugs** — taxable ([T1])
-- **DME** — exempt with prescription ([T1])
-- **Prosthetics** — exempt ([T1])
+- **Prescription drugs** -- exempt ([T1])  _(W.S. §39-15-105(a)(iv))_
+- **OTC drugs** -- taxable ([T1])
+- **DME** -- exempt with prescription ([T1])
+- **Prosthetics** -- exempt ([T1])
 
 ### 2.4 Services [T2]
 
 Wyoming taxes a limited number of services:
 
-- **Taxable services** — Intrastate telecommunications, public utilities, lodging, admissions/amusements. ([T2])
-- **Exempt services** — Professional services, personal care, repair labor, cleaning, landscaping, IT services. ([T2])
-- **Service tax base** — Wyoming has a narrow service tax base focused on TPP and a few enumerated services. ([T2])
+- **Taxable services** -- Intrastate telecommunications, public utilities, lodging, admissions/amusements. ([T2])
+- **Exempt services** -- Professional services, personal care, repair labor, cleaning, landscaping, IT services. ([T2])
+- **Service tax base** -- Wyoming has a narrow service tax base focused on TPP and a few enumerated services. ([T2])
 
 ### 2.5 SaaS and Digital Goods [T2]
 
-- **SaaS** — Generally not taxable in Wyoming. Not considered TPP or an enumerated service. ([T2])
-- **Canned software (physical)** — Taxable. ([T1])
-- **Canned software (electronic delivery)** — Generally not taxable under current law. ([T2])
-- **Digital downloads** — Generally not taxable. Wyoming has not broadly adopted digital goods taxation. ([T2])
-- **Custom software** — Exempt. ([T2])
+- **SaaS** -- Generally not taxable in Wyoming. Not considered TPP or an enumerated service. ([T2])
+- **Canned software (physical)** -- Taxable. ([T1])
+- **Canned software (electronic delivery)** -- Generally not taxable under current law. ([T2])
+- **Digital downloads** -- Generally not taxable. Wyoming has not broadly adopted digital goods taxation. ([T2])
+- **Custom software** -- Exempt. ([T2])
 
 ### 2.6 Manufacturing [T2]
 
-- **Broad manufacturing equipment exemption** — Wyoming does NOT have a broad manufacturing equipment exemption. ([T2])
-- **Specific incentive programs** — Some equipment may qualify under specific incentive programs. ([T2])
-- **Raw materials for resale** — exempt under resale exemption ([T1])
+- **Broad manufacturing equipment exemption** -- Wyoming does NOT have a broad manufacturing equipment exemption. ([T2])
+- **Specific incentive programs** -- Some equipment may qualify under specific incentive programs. ([T2])
+- **Raw materials for resale** -- exempt under resale exemption ([T1])
 
 ### 2.7 Mineral and Energy Industry [T2]
 
-- **Economy reliance** — Wyoming's economy is heavily reliant on mineral extraction (coal, oil, gas, trona, uranium). ([T1])
-- **Mining and drilling equipment** — generally taxable at the full combined rate ([T2])
-- **Mineral severance taxes** — Mineral severance taxes (coal, oil, gas, trona) are separate from sales tax. ([T1])
-- **Wind energy equipment** — may qualify for specific exemptions under economic development incentives ([T2])
-- **Flag for reviewer** — Mineral/energy tax compliance involves multiple tax types. Escalate complex scenarios. ([T3])
+- **Economy reliance** -- Wyoming's economy is heavily reliant on mineral extraction (coal, oil, gas, trona, uranium). ([T1])
+- **Mining and drilling equipment** -- generally taxable at the full combined rate ([T2])
+- **Mineral severance taxes** -- Mineral severance taxes (coal, oil, gas, trona) are separate from sales tax. ([T1])
+- **Wind energy equipment** -- may qualify for specific exemptions under economic development incentives ([T2])
+- **Flag for reviewer** -- Mineral/energy tax compliance involves multiple tax types. Escalate complex scenarios. ([T3])
 
 ### 2.8 Agricultural [T1]
 
-- **Farm and ranch machinery and equipment** — exempt ([T1])  _(W.S. §39-15-105(a)(vi))_
-- **Feed, seed, fertilizer** — exempt ([T1])
-- **Livestock** — exempt for breeding/production ([T1])
+- **Farm and ranch machinery and equipment** -- exempt ([T1])  _(W.S. §39-15-105(a)(vi))_
+- **Feed, seed, fertilizer** -- exempt ([T1])
+- **Livestock** -- exempt for breeding/production ([T1])
 
 ### 4.1 Filing Details [T1]
 
@@ -148,26 +148,26 @@ Wyoming taxes a limited number of services:
 | Portal | https://excise.wyo.gov (WyoTax) |
 | E-filing | Required for most filers |
 
-- **Due date note** — Wyoming's due date is the last day of the following month. ([T1])
+- **Due date note** -- Wyoming's due date is the last day of the following month. ([T1])
 
 ### 4.2 Vendor Discount [T1]
 
-- **Vendor Discount** — 1.95% percent of tax collected ([T1] for timely filing, up to $500/month cap) (not yet confirmed)
+- **Vendor Discount** -- 1.95% percent of tax collected ([T1] for timely filing, up to $500/month cap) (not yet confirmed)
 
 ### 4.3 Penalties and Interest [T1]
 
-- **Late filing penalty** — 10% of tax due (minimum $25). ([T1]) (not yet confirmed)
-- **Interest** — 1% per month (12% per annum). ([T1]) (not yet confirmed)
+- **Late filing penalty** -- 10% of tax due (minimum $25). ([T1]) (not yet confirmed)
+- **Interest** -- 1% per month (12% per annum). ([T1]) (not yet confirmed)
 
 ### Step 4: Deductibility / Exemptions
 
 Exemptions identified in Step 2 above are the primary deductibility rules for Wyoming. Key categories: [T1]
 
-- **Resale exemption** — Valid resale certificate required. Retain for the statutory period. ([T1])
-- **Exempt organizations** — Government entities and qualifying nonprofits -- require exemption certificate on file. ([T1])
-- **Agricultural exemptions** — Where applicable per Step 2. ([T1])
-- **Manufacturing exemptions** — Where applicable per Step 2. ([T2])
-- **Exemption certificate collection** — All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. ([T1])
+- **Resale exemption** -- Valid resale certificate required. Retain for the statutory period. ([T1])
+- **Exempt organizations** -- Government entities and qualifying nonprofits -- require exemption certificate on file. ([T1])
+- **Agricultural exemptions** -- Where applicable per Step 2. ([T1])
+- **Manufacturing exemptions** -- Where applicable per Step 2. ([T2])
+- **Exemption certificate collection** -- All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. ([T1])
 
 ### 3.1 Economic Nexus Threshold [T1]
 
@@ -183,11 +183,11 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Wy
 
 ### 3.2 Marketplace Facilitator [T1]
 
-- **Marketplace facilitator collection requirement** — Wyoming requires marketplace facilitators to collect and remit. ([T1])  _(W.S. §39-15-501(a)(ix))_
+- **Marketplace facilitator collection requirement** -- Wyoming requires marketplace facilitators to collect and remit. ([T1])  _(W.S. §39-15-501(a)(ix))_
 
 ### 3.3 SST Registration [T1]
 
-- **SST Registration** — Full SST member. SSTRS and CSPs available. ([T1])
+- **SST Registration** -- Full SST member. SSTRS and CSPs available. ([T1])
 
 ### Step 6: Filing Deadlines and Penalties
 
@@ -195,12 +195,12 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### PROHIBITIONS
 
-- **Grocery food** — NEVER tax grocery food in Wyoming. Unprepared food is exempt. ([T1])
-- **Uniform rate assumption** — NEVER assume a uniform 4% rate across Wyoming. County taxes add up to 2%. ([T1]) (not yet confirmed)
-- **SaaS taxability assumption** — NEVER assume SaaS is taxable in Wyoming. Current law does not tax SaaS. ([T2])
-- **Mineral/energy context** — NEVER ignore the mineral/energy industry context. Wyoming's economy and tax structure revolve around natural resources. ([T2])
-- **Filing deadline** — NEVER file Wyoming returns by the 20th. The due date is the last day of the following month. ([T1])
-- **No arithmetic by Claude** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. ([T1])
+- **Grocery food** -- NEVER tax grocery food in Wyoming. Unprepared food is exempt. ([T1])
+- **Uniform rate assumption** -- NEVER assume a uniform 4% rate across Wyoming. County taxes add up to 2%. ([T1]) (not yet confirmed)
+- **SaaS taxability assumption** -- NEVER assume SaaS is taxable in Wyoming. Current law does not tax SaaS. ([T2])
+- **Mineral/energy context** -- NEVER ignore the mineral/energy industry context. Wyoming's economy and tax structure revolve around natural resources. ([T2])
+- **Filing deadline** -- NEVER file Wyoming returns by the 20th. The due date is the last day of the following month. ([T1])
+- **No arithmetic by Claude** -- NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. ([T1])
 
 ### EC1 -- No Income Tax + Low Sales Tax [T1]
 
@@ -385,6 +385,6 @@ Not yet confirmed: WY sales/use-tax figures lack archived citations
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people.
+This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or financial advice. Verify figures against the cited primary sources or with a licensed professional before relying on them.
