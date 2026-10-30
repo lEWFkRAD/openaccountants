@@ -36,7 +36,7 @@ depends_on:
 
 New Jersey has **no standalone transfer-pricing documentation requirement and no related-party addback statute** in the Maryland/Missouri sense. Because combined reporting is **mandatory** for commonly-owned unitary groups (privilege periods ending on/after 31 July 2019), most classic TP questions — royalties, management fees, intercompany interest — are answered **inside** the combined group by **elimination**: the transaction disappears from the group's taxable net income and only the external sales factor matters. What is left for TP planning is (a) group composition (who is in the water's-edge group), (b) the filing-method election, and (c) cross-border payments to entities outside the group. Deep mechanics live in `nj-cbt-and-bait`; this skill is the TP lens.
 
-**Source status:** Division combined-groups revision page (5,451 chars) and CBT reform hub (13,054 chars) verified HTTP 200 and read 2026-10-27; mechanics corroborated by the tier-2 `nj-cbt-and-bait` skill verified against the 2025 CBT-100/CBT-100U instructions and TB series on 2026-10-16.
+**Source status:** Division combined-groups revision page (5,451 chars) and CBT reform hub (13,054 chars) verified HTTP 200 and read 2026-10-27; mechanics corroborated by the tier-2 `nj-cbt-and-bait` skill verified against the 2025 CBT-100/CBT-100U instructions and TB series on 2026-10-16. (not yet confirmed)
 
 ### 2. Who applies
 

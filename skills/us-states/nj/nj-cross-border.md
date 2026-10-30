@@ -38,7 +38,7 @@ How New Jersey taxes people who cross its borders: resident NJ-1040 vs nonreside
 ### 2. Who applies
 
 - **Nonresidents with NJ-source income:** NJ-1040NR — report everything in column A, NJ-source in column B, tax computed on column A then multiplied by the income percentage (line 29 B ÷ line 29 A, **four decimal places**). (`nj-income-tax`.)
-- **Part-year residents:** **no part-year return exists** — file NJ-1040 for the resident period plus NJ-1040NR if NJ-source income arose while a nonresident; prorate exemptions (line 13) and the property tax deduction/credit by months (15+ days = a month); medical/alimony deductions only while resident; pension exclusion prorated by months only if whole-year income ≤ $100,000 (and only if whole-year income ≤ $150,000). (`nj-income-tax`, GIT-6.)
+- **Part-year residents:** **no part-year return exists** — file NJ-1040 for the resident period plus NJ-1040NR if NJ-source income arose while a nonresident; prorate exemptions (line 13) and the property tax deduction/credit by months (15+ days = a month); medical/alimony deductions only while resident; pension exclusion prorated by months only if whole-year income ≤ $100,000 (and only if whole-year income ≤ $150,000). (`nj-income-tax`, GIT-6.) (not yet confirmed)
 - **NJ residents working in NY/PA/elsewhere:** full resident return + **NJ-COJ** credit (see §3).
 - **Domicile changers:** NJ statutory residency (183+ days) plus domicile facts drive the whole analysis — the 183-day test is in `nj-income-tax`.
 
@@ -46,7 +46,7 @@ How New Jersey taxes people who cross its borders: resident NJ-1040 vs nonreside
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| Top GIT rate | 10.75% over $1,000,000 (2025 table; 8.97% $500,000–$1M band) | `nj-income-tax` skill |
+| Top GIT rate | 10.75% over $1,000,000 (2025 table; 8.97% $500,000–$1M band) | `nj-income-tax` skill | (not yet confirmed)
 | NJ-1040NR method | tax(column A) × (col B ÷ col A, 4 decimals) | 2025 NJ-1040NR instructions via `nj-income-tax` |
 | NJ-COJ credit | lesser of (a) NJ tax × (dual-taxed income ÷ NJ gross income, 7 decimals) and (b) tax actually paid there; **not** dollar-for-dollar; US/PR/foreign-country taxes get no credit | GIT-3W via `nj-income-tax` |
 | "Properly taxed" test | services performed there, business there, property there, gambling there; portfolio income generally not creditable | GIT-3W via `nj-income-tax` |

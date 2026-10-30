@@ -34,12 +34,12 @@ depends_on:
 
 The repo already carries the deep CBT/BAIT skill **`nj-cbt-and-bait`** (tier 2, authored, covering nexus, combined groups, water's-edge/world-wide/affiliated elections, Finnigan allocation, NCTI/dividend exclusion, NOL/PNOL, BAIT/PTE). This companion file covers the **compliance calendar and rate table** the coverage report flags as the IT-CORP domain, and cross-links rather than duplicating. Out of scope: banking/insurance corporations, sales tax, individual tax.
 
-**Source status:** the Division's CBT reform page (13,054 chars) and combined-groups revision page (5,451 chars) verified HTTP 200 and were read 2026-10-27; the CBT index page verified 200. Rate/minimum/fee figures are corroborated by the existing `nj-cbt-and-bait` skill (verified against the 2025 CBT-100/CBT-100U instructions and the new-legislation summary on 2026-10-16). The 2026 CBT-100 instructions were not re-fetched this run — deadline-day specifics are flagged where they depend on them.
+**Source status:** the Division's CBT reform page (13,054 chars) and combined-groups revision page (5,451 chars) verified HTTP 200 and were read 2026-10-27; the CBT index page verified 200. Rate/minimum/fee figures are corroborated by the existing `nj-cbt-and-bait` skill (verified against the 2025 CBT-100/CBT-100U instructions and the new-legislation summary on 2026-10-16). The 2026 CBT-100 instructions were not re-fetched this run — deadline-day specifics are flagged where they depend on them. (not yet confirmed)
 
 ### 2. Who applies
 
 - Every corporation subject to the CBT, including combined groups filing one **CBT-100U** through the managerial member; mandatory combined reporting since privilege periods ending on/after 31 July 2019 (more than 50% common ownership + unitary + one CBT filer). (`nj-cbt-and-bait`, verified 2026-10-16.)
-- **Economic nexus:** NJ receipts over **$100,000** or **200+** separate transactions delivered to NJ customers (privilege periods ending on/after 31 July 2023); marketplace-warehouse inventory is NJ property. (`nj-cbt-and-bait`.)
+- **Economic nexus:** NJ receipts over **$100,000** or **200+** separate transactions delivered to NJ customers (privilege periods ending on/after 31 July 2023); marketplace-warehouse inventory is NJ property. (`nj-cbt-and-bait`.) (not yet confirmed)
 - P.L. 86-272 protects goods solicitation only; in a combined group one member's excess activity destroys the group's protection (privilege periods ending on/after 31 July 2023; Division revision page, read 2026-10-27).
 
 ## 3. Rates and base

@@ -33,7 +33,7 @@ depends_on:
 
 New Jersey's social-insurance contributions, all remitted on the quarterly **Form NJ-927** with the **WR-30** wage detail: **Unemployment Insurance (UI)**, **Temporary Disability Insurance (TDI — "DI" on NJDOL tables)**, **Family Leave Insurance (FLI)**, and the **Workforce Development Partnership / Supplemental Workforce Funds (WF/SWF)**. Worker contributions are wage-based with two different bases; employer UI is experience-rated. Out of scope: income-tax withholding tables (in `nj-payroll`), workers' compensation insurance (private market), federal FICA/FUTA.
 
-**Source status:** the NJDOL employer rate-information page (20,924 chars) verified HTTP 200 and read **2026-10-27** — CY2026 and CY2025 rates and bases, new-employer rates through FY June 2027, and 2027 bases are quoted from it. Figures corroborated by the existing tier-2 `nj-payroll` skill.
+**Source status:** the NJDOL employer rate-information page (20,924 chars) verified HTTP 200 and read **2026-10-27** — CY2026 and CY2025 rates and bases, new-employer rates through FY June 2027, and 2027 bases are quoted from it. Figures corroborated by the existing tier-2 `nj-payroll` skill. (not yet confirmed)
 
 ### 2. Who applies
 

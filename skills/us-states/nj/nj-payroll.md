@@ -1,6 +1,6 @@
 ---
 name: nj-payroll
-description: Tier 2 New Jersey content skill for employer payroll compliance covering tax year 2026. Includes the 10.75% Gross Income Tax top rate, supplemental wage rate 11.8%, NJ-927 single quarterly combined return for withholding/UI/TDI/FLI/WD, worker TDI 0.19% and FLI 0.23% for 2026 (down from 0.23%/0.33% in 2025), employer new-employer UI 2.6825% + WF/SWF 0.1175% + DI 0.5%, SUI wage base $44,800 (2026) / $43,300 (2025), ABC test contractor classification under NJ Unemployment Compensation Law, Earned Sick Leave Law 40-hour minimum, and the BAIT estimated payment schedule for PTE-electing pass-throughs.
+description: Tier 2 New Jersey content skill for employer payroll compliance covering tax year 2026. Includes the 10.75% Gross Income Tax top rate, supplemental wage rate 11.8%, NJ-927 single quarterly combined return for withholding/UI/TDI/FLI/WD, worker TDI 0.19% and FLI 0.23% for 2026 (down from 0.23%/0.33% in 2025), employer new-employer UI 2.6825% + WF/SWF 0.1175% + DI 0.5%, SUI wage base (not yet confirmed) (2026) / (not yet confirmed) (2025), ABC test contractor classification under NJ Unemployment Compensation Law, Earned Sick Leave Law 40-hour minimum, and the BAIT estimated payment schedule for PTE-electing pass-throughs.
 jurisdiction: US-NJ
 tax_year: 2026
 version: 0.2
@@ -115,7 +115,7 @@ Figures are for 2026 unless a line says 2025. Worker contribution rates and wage
 | Total UI plus WF/SWF | 3.1% | 2.8% | 2.8% |
 
 - **New employer rates are assigned for the first three calendar years.** "All new employers (except successors) are assigned new employer rates for the first three calendar years, after which a calculated rate is assigned based on employment experience" ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
-- **New employer TDI (DI):** 0.5% ("0.00500") in each of these three rate years ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
+- **New employer TDI (DI):** 0.5% ("0.00500") in each of these three rate years ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)). (not yet confirmed)
 - **The employer pays no FLI.** FLI is funded by workers ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
 - **Employer wage base:** employer UI, WF/SWF and TDI stop at $44,800 per employee for 2026 ($43,300 for 2025).
 - **WF/SWF is carved out of the UI rate, not added to it.** Table C shows a total rate, of which 0.1000% goes to the Workforce Development fund and 0.0175% to the Supplemental Workforce fund. The rest is UI. So the 2.8% new employer rate for July 2026 to June 2027 is 2.6825% UI plus 0.1175% WF/SWF ([Table C](https://www.nj.gov/labor/ea/assets/PDFs/FY20262027%20TABLE%20C.pdf)).
@@ -128,14 +128,14 @@ Figures are for 2026 unless a line says 2025. Worker contribution rates and wage
 
 | Payroll period | Value of one allowance |
 | --- | --- |
-| Weekly | $19.20 |
-| Biweekly | $38.40 |
-| Semimonthly | $41.60 |
-| Monthly | $83.30 |
+| Weekly | $19.20 | (not yet confirmed)
+| Biweekly | $38.40 | (not yet confirmed)
+| Semimonthly | $41.60 | (not yet confirmed)
+| Monthly | $83.30 | (not yet confirmed)
 | Annual | $1,000 |
 
 - **The method.** Multiply the allowance value by the number of exemptions claimed, subtract the result from the wages for the period, and apply the rate table.
-- **Rates.** The tables on Form NJ-W4 (1-21) start at 1.5%. The top rate is 11.8% on taxable wages over $1,000,000 a year. That top withholding rate is not the same as the income tax rate on the return.
+- **Rates.** The tables on Form NJ-W4 (1-21) start at 1.5%. The top rate is 11.8% on taxable wages over $1,000,000 a year. That top withholding rate is not the same as the income tax rate on the return. (not yet confirmed)
 - **Supplemental wages** (bonuses, commissions, overtime, tips, and payouts of unused sick or vacation time):
   - paid **at the same time** as regular wages: total the two and withhold on the combined payment;
   - paid **at a different time**: withhold without any of the employee's allowances.
@@ -149,11 +149,11 @@ Figures are for 2026 unless a line says 2025. Worker contribution rates and wage
 
 | Employer or worker | From January 1, 2025 | From January 1, 2026 |
 | --- | --- | --- |
-| Most employers | $15.49 | $15.92 |
-| Seasonal employers and small employers (fewer than 6 employees) | $14.53 | $15.23 |
-| Agricultural employers | $13.40 | $14.20 |
-| Cash wage for tipped employees | $5.62 | $6.05 |
-| Long-term care facility direct care staff | $18.49 | $18.92 |
+| Most employers | $15.49 | $15.92 | (not yet confirmed)
+| Seasonal employers and small employers (fewer than 6 employees) | $14.53 | $15.23 | (not yet confirmed)
+| Agricultural employers | $13.40 | $14.20 | (not yet confirmed)
+| Cash wage for tipped employees | $5.62 | $6.05 | (not yet confirmed)
+| Long-term care facility direct care staff | $18.49 | $18.92 | (not yet confirmed)
 
 - "Small" means **fewer than 6** employees. An employer with 6 or more pays the general rate.
 - The minimum wage may continue to rise each January 1 with inflation.
@@ -193,15 +193,15 @@ The dollar amounts in these cases are made up for illustration. The rates and ba
 
 ### Case 1: 2026 worker deductions ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/))
 
-- **Employee paid $60,000 in 2026, State Plan:**
+- **Employee paid $60,000 in 2026, State Plan:** (not yet confirmed)
   - UI and WF/SWF: 0.425% × $44,800 = $190.40 (wages above the base carry no UI deduction);
   - TDI: 0.19% × $60,000 = $114.00;
   - FLI: 0.23% × $60,000 = $138.00.
 - **Employee paid $200,000 in 2026:**
-  - UI and WF/SWF: $190.40;
+  - UI and WF/SWF: $190.40; (not yet confirmed)
   - TDI: 0.19% × $171,100 = $325.09;
   - FLI: 0.23% × $171,100 = $393.53;
-  - total $909.02. Stop each deduction once its base is reached.
+  - total $909.02. Stop each deduction once its base is reached. (not yet confirmed)
 - **The same employee in 2025:**
   - UI and WF/SWF: 0.425% × $43,300 = $184.03;
   - TDI: 0.23% × $165,400 = $380.42;
@@ -245,8 +245,8 @@ The dollar amounts in these cases are made up for illustration. The rates and ba
 
 ### Case 6: minimum wage by employer size ([MW-571 (1/26)](https://www.nj.gov/labor/wageandhour/assets/PDFs/MW-571%20%281-26%29%20MinWageFlier.pdf))
 
-- A year-round shop with 4 employees has fewer than 6 employees, so it pays at least $15.23 in 2026 ($14.53 in 2025).
-- If it hires a sixth employee, it pays the general rate: $15.92 in 2026 ($15.49 in 2025).
+- A year-round shop with 4 employees has fewer than 6 employees, so it pays at least $15.23 in 2026 ($14.53 in 2025). (not yet confirmed)
+- If it hires a sixth employee, it pays the general rate: $15.92 in 2026 ($15.49 in 2025). (not yet confirmed)
 
 ## 2025 payrolls: corrections and late filings
 
@@ -255,7 +255,7 @@ The dollar amounts in these cases are made up for illustration. The rates and ba
   - bases $43,300 and $165,400 ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
   - Check any 2025 payroll run that used a different FLI or TDI rate, and correct the affected quarters.
 - **Employer new rates for 2025:** 3.1% total UI plus WF/SWF to June 30, 2025, then 2.8%. TDI 0.5%. Employer wage base $43,300 ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
-- **Minimum wage for 2025:** $15.49, or $14.53 for seasonal and small employers ([MW-571 (1/26)](https://www.nj.gov/labor/wageandhour/assets/PDFs/MW-571%20%281-26%29%20MinWageFlier.pdf)).
+- **Minimum wage for 2025:** $15.49, or $14.53 for seasonal and small employers ([MW-571 (1/26)](https://www.nj.gov/labor/wageandhour/assets/PDFs/MW-571%20%281-26%29%20MinWageFlier.pdf)). (not yet confirmed)
 - **Corrections:** correct Forms NJ-927 online; the correction replaces the original. A prior-year refund needs an amended NJ-927 for the quarter and an amended NJ-W-3. An NJ-W-3 correction that changes the tax requires amending each affected quarter ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)).
 - Amend a WR-30 online or by SFTP ([Employer Handbook, taxes and wages](https://www.nj.gov/labor/ea/help/employer_handbook/taxes_wages.shtml)).
 
@@ -287,7 +287,7 @@ The dollar amounts in these cases are made up for illustration. The rates and ba
   - federal law requires employees' copies by February 1, 2027 for 2026 wages ([IRS W-2 and W-3 instructions](https://www.irs.gov/instructions/iw2w3)). NJ-WT gives February 15, so in practice the federal date governs;
   - NJ-WT also requires a W-2 within 30 days after the last wage payment to an employee who leaves and is not expected to return. Do not wait beyond the federal date.
   - Show a combined UI/WF/SWF amount, and separate TDI and FLI amounts. Show the private plan number where there is one ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)).
-- **Form NJ-W-3 (annual reconciliation):** file electronically with all W-2s by February 15 of the next year. If that falls on a weekend or holiday, file by the next business day. An employer that stops paying wages files within 30 days after the last month wages were paid ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)).
+- **Form NJ-W-3 (annual reconciliation):** file electronically with all W-2s by February 15 of the next year. If that falls on a weekend or holiday, file by the next business day. An employer that stops paying wages files within 30 days after the last month wages were paid ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)). (not yet confirmed)
 - **Penalties, income tax side** ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)):
   - late filing: 5% per month or part month of the tax due, up to 25%, plus $100 per month or part month ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf));
   - late payment: 5% of the tax paid late ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf));
@@ -314,7 +314,7 @@ The dollar amounts in these cases are made up for illustration. The rates and ba
 - Employer UI, WF/SWF and TDI used the rate for each fiscal rate year, stopping at $44,800 for 2026 ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)).
 - NJ-500 and weekly payments follow the $500 and $10,000 rules. NJ-927 and WR-30 are filed by the 30th after each quarter ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)).
 - W-2s were given to employees by the federal date (February 1, 2027 for 2026) ([IRS W-2 and W-3 instructions](https://www.irs.gov/instructions/iw2w3)).
-- NJ-W-3 was filed with the W-2s, and any required 1099 copies were sent, by February 15.
+- NJ-W-3 was filed with the W-2s, and any required 1099 copies were sent, by February 15. (not yet confirmed)
 - Pay rates meet the 2026 minimum wage for the employer's size and type.
 - Every 1099 worker has a documented ABC analysis, or has been referred.
 
