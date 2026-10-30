@@ -24,7 +24,6 @@ depends_on:
 # California S-corporation tax (Form 100S) v0.1
 
 ## Who this applies to
-
 Covers the California entity-level tax on S corporations (Form 100S),
 shareholder-level pass-through reporting, and the QSSS election. Does
 not cover C-corporation franchise tax (see `ca-corporate-income-tax`)
@@ -33,21 +32,7 @@ with FTB). Primary sources: FTB Form 100S (2025 edition, PDF verified
 2026-10-27); R&TC §23803 (leginfo returned 403 to this agent — cite
 pending verification).
 
-### 2. Who applies
-
-- A corporation that has made a federal S election and is doing business
-  in California or incorporated in California files Form 100S.
-- California requires the entity to recognize the S election; a
-  newly-electing S corporation should confirm FTB has recorded the
-  election (FTB guidance; verify current procedure).
-- Shareholders report their share of income on California Form 540
-  (Schedule K-1 from Form 100S).
-- An LLC taxed as an S corporation for federal purposes is treated as
-  an S corporation for California franchise purposes — check whether
-  Form 568 or Form 100S governs (FTB guidance; needs-verification).
-
-## 3. Rates
-
+## Rates, bands and thresholds
 | Item | Amount | Source |
 |---|---|---|
 | Entity-level tax | 1.5% of California net income | R&TC §23803 (cite pending verification — leginfo 403 2026-10-27) |
@@ -58,8 +43,7 @@ Form 100S line 21 reads "Tax. ____% × line 20 (at least minimum
 franchise tax, if applicable)" — the rate itself is printed in the
 instructions, not on the form face (verified 2025 form text).
 
-## 4. Base and timing
-
+## The taxable base
 - California S-corporation net income starts from federal ordinary
   business income with state modifications (state interest add-backs,
   NOL differences).
@@ -69,24 +53,21 @@ instructions, not on the form face (verified 2025 form text).
   again at shareholder level; reasonable-compensation analysis is
   federal but affects CA wages on Form 540 withholding.
 
-### 5. Deadlines
-
+## Deadlines and filing
 | Filing | Calendar-year due date |
 |---|---|
 | Form 100S | 15th day of the 3rd month after year close — March 15 |
 | Form 7004 extension | 6-month extension to file (September 15); payment not extended |
 | Estimated tax (Form 3539) | April 15, June 15, September 15, December 15 (S corporations pay CA estimated tax — verify current safe-harbor percentages in Form 100S instructions) |
 
-### 6. Penalties and interest
-
+## Penalties and interest
 - Same FTB penalty/interest regime as corporations: 25% late-filing
   penalty on unpaid tax, interest at the published FTB rate (FTB
   penalties-and-interest pages, verified 2026-10-27).
 - Estimated-tax underpayment penalty applies; computed per FTB
   instructions.
 
-### 7. Cross-border interactions
-
+## Cross-border points
 - QSSS election: a qualifying S corporation subsidiary of an S parent
   is disregarded for California franchise purposes; QSub income flows
   to the parent's Form 540 (FTB Form 100S instructions — verify current
@@ -97,8 +78,7 @@ instructions, not on the form face (verified 2025 form text).
 - Other states' PTE (pass-through entity) elective taxes do not have a
   California analogue as of this run — verify before advising.
 
-### 8. Worked examples
-
+## Worked examples
 A calendar-year S corporation has $300,000 of California net income for
 2026. Entity tax:
 
@@ -132,8 +112,7 @@ expected:
   due: 800.00
 ```
 
-### 9. Ask the client
-
+## Ask the client first
 - Has FTB recorded the S election, and is the entity in good standing
   with the Secretary of State?
 - Is the entity an LLC that elected S status federally? Which FTB form
@@ -143,56 +122,15 @@ expected:
 - Is a QSSS/QSub structure in place, and does it still qualify?
 - Are estimated payments being made on the corporate schedule?
 
-### Sources
-
-Not yet confirmed: figures in this skill lack archived line-citations.
-
-
+## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| FTB — Form 100S (2025) | https://www.ftb.ca.gov/forms/2025/2025-100S.pdf | 2026-10-28 |
+| FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-10-28 |
+| FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-10-28 |
 
-1. FTB — Form 100S (2025): https://www.ftb.ca.gov/forms/2025/2025-100S.pdf (200 PDF, 2026-10-27)
-2. FTB — Corporation Tax Rates: https://www.ftb.ca.gov/file/business/tax-rates.html (200 with text, 2026-10-27)
-3. FTB — Penalties and Interest: https://www.ftb.ca.gov/pay/penalties-and-interest/index.html (200 with text, 2026-10-27)
-4. R&TC §23803 (S corporation 1.5% tax): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23803 (403 to this agent 2026-10-27 — cite pending verification)
-5. R&TC §23153 (minimum franchise tax): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23153 (403 to this agent 2026-10-27 — cite pending verification)
-
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for California S-corporation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
-
-## Rates, bands and thresholds
-
-Not yet confirmed against archived sources.
-
-## The taxable base
-
-Not yet confirmed against archived sources.
-
-## Deadlines and filing
-
-Not yet confirmed against archived sources.
-
-## Penalties and interest
-
-Not yet confirmed against archived sources.
-
-## Cross-border points
-
-Not yet confirmed against archived sources.
-
-## Worked examples
-
-Not yet confirmed against archived sources.
-
-## Ask the client first
-
-Not yet confirmed against archived sources.
-
-## Sources
-
-Not yet confirmed against archived sources.
+Not yet confirmed: the 1.5% entity-level tax rate, $800 minimum franchise tax, shareholder rates (1–13.3%), Form 7004 extension dates, estimated-tax schedule and safe-harbor percentages, and the R&TC §§23803 and 23153 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
 
 ## Talk to a verified accountant
-
-Not yet confirmed against archived sources.
+<!-- openaccountants-cta-block -->
+**Talk to a verified accountant** — for California S-corporation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

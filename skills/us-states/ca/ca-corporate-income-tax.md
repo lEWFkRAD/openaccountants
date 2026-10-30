@@ -25,7 +25,6 @@ depends_on:
 # California corporate franchise tax v0.1
 
 ## Who this applies to
-
 Covers the California franchise/income tax on corporations (Form 100), the
 minimum franchise tax, combined reporting, and corporate estimated tax.
 Does not cover the S-corporation entity tax (Form 100S — separate skill),
@@ -34,23 +33,7 @@ income tax, or sales/use tax. Primary sources: FTB tax-rates page, FTB
 Form 100/3539/568 (2025 editions), California Revenue and Taxation Code
 (R&TC) via leginfo. All URLs resolved 2026-10-27.
 
-### 2. Who applies
-
-- Corporations (C corps) doing business in California or incorporated in
-  California are subject to the franchise tax (R&TC §23151).
-- "Doing business" includes economic nexus: active sales in California of
-  tangible personal property or services where California sales exceed
-  $750,000 or are more than 25% of total revenue (R&TC §23101 — verify
-  current threshold amounts with FTB; leginfo returned 403 to this agent
-  on 2026-10-27).
-- An LLC taxed as a corporation pays the corporate franchise tax; a
-  single-member LLC pays the $800 annual tax plus the LLC fee under
-  Form 568 instead (see `ca-smllc-form-568`).
-- Unitary groups file a combined report (Form 100W) — commonly on a
-  water's-edge basis by default election practice; see §7.
-
-## 3. Rates
-
+## Rates, bands and thresholds
 | Item | Amount | Source |
 |---|---|---|
 | Franchise/income tax rate | 8.84% of net income | FTB tax-rates page; R&TC §23151 |
@@ -65,8 +48,7 @@ The LLC annual fee table on Form 568 (2025 edition, verified text): $800
 ($1,000,000–$4,999,999), $6,000 ($5,000,000–$9,999,999), $9,000
 ($10,000,000–$24,999,999), $11,790 ($25,000,000 or more). (not yet confirmed)
 
-## 4. Base and timing
-
+## The taxable base
 - California taxable income starts from federal taxable income with state
   modifications (net operating loss limits, §168(k)/§174 differences,
   interest add-backs on related-party transactions under §25110 et seq.).
@@ -78,8 +60,7 @@ The LLC annual fee table on Form 568 (2025 edition, verified text): $800
   using the group's combined sales factor.
 - Fiscal-year filers use the rates in effect for their income year.
 
-### 5. Deadlines
-
+## Deadlines and filing
 | Filing | Calendar-year due date |
 |---|---|
 | Form 100 (C corporation) | 15th day of the 4th month after year close — April 15 |
@@ -92,8 +73,7 @@ Safe harbors per Form 3539: 90% of current-year tax or 100% of
 prior-year tax shown on the return (110% for large corporations — (not yet confirmed)
 confirm current thresholds with FTB).
 
-### 6. Penalties and interest
-
+## Penalties and interest
 - Late filing: 25% of the unpaid tax (FTB penalties page; R&TC §19255 —
   statute cite to verify).
 - Failure to pay estimated installments: Form 3539 underpayment penalty
@@ -103,8 +83,7 @@ confirm current thresholds with FTB).
   (federal short-term rate plus statutory add-on, set semiannually —
   current rate on the FTB interest-rates page).
 
-### 7. Cross-border interactions
-
+## Cross-border points
 - Public Law 86-272 shields certain solicitation-only activities from
   net-income tax; California applies it narrowly (FTB guidance).
 - Water's-edge election (R&TC §25109) limits combined reporting to
@@ -118,8 +97,7 @@ confirm current thresholds with FTB).
   arm's-length/business-purpose exception is established (see
   `ca-transfer-pricing`).
 
-### 8. Worked examples
-
+## Worked examples
 A calendar-year C corporation has $500,000 of income apportioned to
 California for 2026. Tax:
 
@@ -158,8 +136,7 @@ expected:
   tax: 70720.00
 ```
 
-### 9. Ask the client
-
+## Ask the client first
 - Is the entity incorporated in California or doing business there
   (employees, inventory, marketplace sales, economic nexus thresholds)?
 - Is the group unitary? Has a water's-edge election been made, and when
@@ -170,61 +147,18 @@ expected:
 - Are estimated payments on the April/June/September/December schedule
   sized to the 90%/100% safe harbor?
 
-### Sources
-
-Not yet confirmed: figures in this skill lack archived line-citations.
-
-
+## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-10-28 |
+| FTB — Form 100 (2025) | https://www.ftb.ca.gov/forms/2025/2025-100.pdf | 2026-10-28 |
+| FTB — Form 3539 (2025) | https://www.ftb.ca.gov/forms/2025/2025-3539.pdf | 2026-10-28 |
+| FTB — Form 568 (2025) | https://www.ftb.ca.gov/forms/2025/2025-568.pdf | 2026-10-28 |
+| FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-10-28 |
+| FTB — Interest and Estimate Penalty Rates | https://www.ftb.ca.gov/pay/penalties-and-interest/interest-and-estimate-penalty-rates.html | 2026-10-28 |
 
-1. FTB — Corporation Tax Rates: https://www.ftb.ca.gov/file/business/tax-rates.html (200 with text, 2026-10-27)
-2. FTB — Form 100 (2025): https://www.ftb.ca.gov/forms/2025/2025-100.pdf (200 PDF, 2026-10-27)
-3. FTB — Form 3539 (2025): https://www.ftb.ca.gov/forms/2025/2025-3539.pdf (200 PDF, 2026-10-27)
-4. FTB — Form 568 (2025): https://www.ftb.ca.gov/forms/2025/2025-568.pdf (200 PDF, 2026-10-27)
-5. FTB — Penalties and Interest: https://www.ftb.ca.gov/pay/penalties-and-interest/index.html (200 with text, 2026-10-27)
-6. FTB — Interest and Estimate Penalty Rates: https://www.ftb.ca.gov/pay/penalties-and-interest/interest-and-estimate-penalty-rates.html (200 with text, 2026-10-27)
-7. R&TC §23151 (tax imposed): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23151 (403 to this agent 2026-10-27 — cite pending verification)
-8. R&TC §23153 (minimum franchise tax, LLC annual tax): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23153 (403 to this agent 2026-10-27 — cite pending verification)
-9. R&TC §23101 (doing business / economic nexus): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23101 (403 to this agent 2026-10-27 — cite pending verification)
-10. R&TC §25128 (sales factor): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=25128 (403 to this agent 2026-10-27 — cite pending verification)
-
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for California franchise-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
-
-## Rates, bands and thresholds
-
-Not yet confirmed against archived sources.
-
-## The taxable base
-
-Not yet confirmed against archived sources.
-
-## Deadlines and filing
-
-Not yet confirmed against archived sources.
-
-## Penalties and interest
-
-Not yet confirmed against archived sources.
-
-## Cross-border points
-
-Not yet confirmed against archived sources.
-
-## Worked examples
-
-Not yet confirmed against archived sources.
-
-## Ask the client first
-
-Not yet confirmed against archived sources.
-
-## Sources
-
-Not yet confirmed against archived sources.
+Not yet confirmed: the 8.84% rate, $800 minimum franchise tax, first-year exemption, LLC fee bands ($800–$11,790), economic-nexus thresholds ($750,000 / 25%), the 25% late-filing penalty, current FTB interest rates, and the 90%/100%/110% estimated-tax safe harbors are not yet confirmed against archived sources; the R&TC §§23151, 23153, 23101 and 25128 statute cites (leginfo 403 on 2026-10-27) remain pending verification.
 
 ## Talk to a verified accountant
-
-Not yet confirmed against archived sources.
+<!-- openaccountants-cta-block -->
+**Talk to a verified accountant** — for California franchise-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

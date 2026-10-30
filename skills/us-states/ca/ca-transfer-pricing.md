@@ -26,7 +26,6 @@ depends_on:
 # California transfer pricing & combined reporting v0.1
 
 ## Who this applies to
-
 Covers how California taxes intercompany and cross-border related-party
 income: unitary combined reporting, water's-edge boundaries, statutory
 add-backs, and sales sourcing. Primary verified source this run: 18
@@ -36,22 +35,7 @@ federal unitary-combination case law. Statute sections cited below
 (§§25101, 25110, 25134) returned 403 to this agent from leginfo on
 2026-10-27 — treat as pending verification.
 
-### 2. Who applies
-
-- Members of a unitary business group file a combined report (Form
-  100W). "Unitary business" follows the three-factor test from
-  unitary-combination case law (unity of ownership, functional
-  integration, centralization of management) as incorporated by 18 CCR
-  §25110 (verified text).
-- Water's-edge groups (default election practice) exclude most foreign
-  affiliates from the combined report (18 CCR §25110 — verified).
-- Related-party interest, rent, and royalty payments to affiliated
-  out-of-state or foreign members are subject to add-back under R&TC
-  §25110 unless the taxpayer establishes an arm's-length business
-  purpose exception (statute pending verification).
-
-## 3. Rates and mechanics
-
+## Rates, bands and thresholds
 | Mechanism | Effect | Source |
 |---|---|---|
 | Combined report (Form 100W) | Group income combined, then apportioned with group's single sales factor | R&TC §25101 (pending); FTB Form 100W |
@@ -60,8 +44,7 @@ federal unitary-combination case law. Statute sections cited below
 | Sales sourcing | Tangible property: destination (purchaser location); other sales: cost of performance | R&TC §25134 (pending) |
 | Apportionment formula | Single sales factor | Prop 66 (2023+); R&TC §25128 (pending) |
 
-## 4. Base and timing
-
+## The taxable base
 - Combined apportionable income = group-wide unitary income with
   California modifications; intercompany transactions are eliminated
   in the combined report.
@@ -72,23 +55,20 @@ federal unitary-combination case law. Statute sections cited below
   revenue: sales are sourced where the greater proportion of the
   income-producing activities is performed.
 
-### 5. Deadlines
-
+## Deadlines and filing
 - Combined report filed with the members' Form 100 returns: 15th day of
   the 4th month (April 15 calendar year).
 - Election deadlines (water's-edge, affil-group): verify current FTB
   procedure and filing mechanics before advising.
 
-### 6. Penalties and interest
-
+## Penalties and interest
 - FTB adjustments carry interest at the published FTB rate from the
   original due date (FTB penalties-and-interest pages, verified
   2026-10-27).
 - Understatement penalties (25% late-filing; accuracy-related
   penalties per FTB guidance) may apply to report-position errors.
 
-### 7. Cross-border interactions
-
+## Cross-border points
 - Water's-edge boundary: U.S. + unitary-group members with U.S. nexus
   stay in; combined-report-unitary and 25% common ownership tests
   determine inclusions (18 CCR §25110 — verified definitions).
@@ -101,8 +81,7 @@ federal unitary-combination case law. Statute sections cited below
   net-income tax; it does not shelter intangible or management-fee
   income.
 
-### 8. Worked examples
-
+## Worked examples
 A California manufacturer pays $2,000,000 in royalties to an affiliated
 foreign licensor. The royalty is added back under §25110 (no exception
 established); apportioned California income rises by the add-back.
@@ -140,8 +119,7 @@ expected:
   ca_sales: 4500000.00
 ```
 
-### 9. Ask the client
-
+## Ask the client first
 - Is the group unitary under the three-factor test, and is a
   water's-edge election in place (when does it expire)?
 - What intercompany interest, rent, or royalty flows exist to
@@ -151,58 +129,14 @@ expected:
 - Are intercompany agreements, transfer-pricing studies, and
   contemporaneous documentation in place for FTB audit?
 
-### Sources
-
-Not yet confirmed: figures in this skill lack archived line-citations.
-
-
+## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-10-28 |
+| FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-10-28 |
 
-1. 18 CCR §25110 Water's-Edge Group (unitary business definition): https://www.law.cornell.edu/regulations/california/18-CCR-25110 (200 with text, 2026-10-27)
-2. FTB — Corporation Tax Rates: https://www.ftb.ca.gov/file/business/tax-rates.html (200 with text, 2026-10-27)
-3. FTB — Penalties and Interest: https://www.ftb.ca.gov/pay/penalties-and-interest/index.html (200 with text, 2026-10-27)
-4. R&TC §25101 (combined report): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=25101 (403 to this agent 2026-10-27 — cite pending verification)
-5. R&TC §25110 (affiliated-entity add-back): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=25110 (403 to this agent 2026-10-27 — cite pending verification)
-6. R&TC §25134 (cost of performance): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=25134 (403 to this agent 2026-10-27 — cite pending verification)
-7. R&TC §25109 (water's-edge election): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=25109 (403 to this agent 2026-10-27 — cite pending verification)
-
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for California combined-reporting and transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
-
-## Rates, bands and thresholds
-
-Not yet confirmed against archived sources.
-
-## The taxable base
-
-Not yet confirmed against archived sources.
-
-## Deadlines and filing
-
-Not yet confirmed against archived sources.
-
-## Penalties and interest
-
-Not yet confirmed against archived sources.
-
-## Cross-border points
-
-Not yet confirmed against archived sources.
-
-## Worked examples
-
-Not yet confirmed against archived sources.
-
-## Ask the client first
-
-Not yet confirmed against archived sources.
-
-## Sources
-
-Not yet confirmed against archived sources.
+Not yet confirmed: the 8.84% rate, the 18 CCR §25110 water's-edge text cited from Cornell LII, and the R&TC §§25101, 25109, 25110, 25128 and 25134 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
 
 ## Talk to a verified accountant
-
-Not yet confirmed against archived sources.
+<!-- openaccountants-cta-block -->
+**Talk to a verified accountant** — for California combined-reporting and transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

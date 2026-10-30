@@ -26,7 +26,6 @@ depends_on:
 # California cross-border taxation v0.1
 
 ## Who this applies to
-
 Covers when an out-of-state or foreign corporation becomes subject to
 California franchise tax, what federal statutory protection applies,
 and how interstate/cross-border income is apportioned. Primary
@@ -36,22 +35,7 @@ via Cornell LII, 200, 2026-10-27), 15 U.S.C. §381 (PL 86-272, 200,
 R&TC §§23101/25128 leginfo pages returned 403 to this agent —
 statute cites pending verification.
 
-### 2. Who applies
-
-- Every corporation "doing business" in California is subject to the
-  franchise tax; "doing business" means "actively engaging in any
-  transaction for the purpose of financial or pecuniary gain or
-  profit" (18 CCR §23101 — verified text).
-- A corporation incorporated in California is subject to the tax
-  regardless of activity (R&TC §23151 — pending verification).
-- Economic-nexus thresholds (sales > $750,000 or > 25% of total
-  revenue) codify the constitutional standard (R&TC §23101 — pending
-  verification; confirm current amounts with FTB).
-- Corporations protected by PL 86-272 are not subject to a net-income
-  tax measured by income from protected activity (see §7).
-
 ## Rates, bands and thresholds
-
 | Item | Amount | Source |
 |---|---|---|
 | Franchise tax | 8.84%, $800 minimum | FTB tax-rates page (verified 2026-10-27) |
@@ -59,8 +43,7 @@ statute cites pending verification.
 | Economic nexus — revenue share | > 25% of total (verify current) | R&TC §23101 (pending) |
 | Apportionment | Single sales factor (2023+) | 18 CCR §25128 (verified); R&TC §25128 (pending) |
 
-## 4. Base and timing
-
+## The taxable base
 - A foreign corporation first doing business in California files Form
   100 for that year; the $800 minimum applies from the first year of
   doing business (first-year exemption applies to newly *incorporated*
@@ -71,15 +54,13 @@ statute cites pending verification.
 - Nonbusiness income (rents, royalties, gains) is allocated rather
   than apportioned (R&TC §25123 et seq. — pending verification).
 
-### 5. Deadlines
-
+## Deadlines and filing
 - Form 100: 15th day of the 4th month after year close (April 15
   calendar year); Form 7004 extends filing only.
 - A first-year filer should register with FTB before the due date;
   failure to register does not stop the filing clock.
 
-### 6. Penalties and interest
-
+## Penalties and interest
 - FTB 25% late-filing penalty and published interest rates apply to
   foreign/out-of-state corporations identically (FTB
   penalties-and-interest pages, verified 2026-10-27).
@@ -87,8 +68,7 @@ statute cites pending verification.
   lookback follows the general FTB statute of limitations (verify
   current SOL rules in FTB guidance).
 
-### 7. Cross-border interactions
-
+## Cross-border points
 - **PL 86-272:** shields a corporation whose only California activity
   is "solicitation of orders ... for sales of tangible personal
   property, which orders are sent outside the State for approval or
@@ -107,8 +87,7 @@ statute cites pending verification.
   states claim a credit under R&TC §17059 (pending verification);
   corporations use the §24011 credit mechanics (pending verification).
 
-### 8. Worked examples
-
+## Worked examples
 An Ohio corporation with no California property or payroll has
 California sales of $900,000 and total sales of $3,000,000; total
 revenue $3,000,000. Nexus and tax on $1,000,000 of unitary income:
@@ -154,8 +133,7 @@ expected:
 $800 minimum franchise tax question for protected corporations should
 be confirmed against current FTB guidance before advising.)
 
-### 9. Ask the client
-
+## Ask the client first
 - What California contacts exist — employees, inventory, agents,
   marketplace sales, remote workers?
 - Is the activity pure solicitation of tangible-goods orders shipped
@@ -167,54 +145,14 @@ be confirmed against current FTB guidance before advising.)
 - Has FTB registration been completed, and are prior open years a
   concern?
 
-### Sources
-
-Not yet confirmed: figures in this skill lack archived line-citations.
-
-
+## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-10-28 |
+| FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-10-28 |
 
-1. 18 CCR §23101 "Doing Business"-Defined: https://www.law.cornell.edu/regulations/california/18-CCR-23101 (200 with text, 2026-10-27)
-2. 15 U.S.C. §381 (Public Law 86-272): https://www.law.cornell.edu/uscode/text/15/381 (200 with text, 2026-10-27)
-3. 18 CCR §25128 (apportionment factors): https://www.law.cornell.edu/regulations/california/18-CCR-25128 (200 with text, 2026-10-27)
-4. FTB — Corporation Tax Rates: https://www.ftb.ca.gov/file/business/tax-rates.html (200 with text, 2026-10-27)
-5. FTB — Penalties and Interest: https://www.ftb.ca.gov/pay/penalties-and-interest/index.html (200 with text, 2026-10-27)
-6. R&TC §23101 (doing business / economic nexus): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23101 (403 to this agent 2026-10-27 — cite pending verification)
-7. R&TC §25134 (cost of performance): https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=25134 (403 to this agent 2026-10-27 — cite pending verification)
-
-<!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for California nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
-
-## The taxable base
-
-Not yet confirmed against archived sources.
-
-## Deadlines and filing
-
-Not yet confirmed against archived sources.
-
-## Penalties and interest
-
-Not yet confirmed against archived sources.
-
-## Cross-border points
-
-Not yet confirmed against archived sources.
-
-## Worked examples
-
-Not yet confirmed against archived sources.
-
-## Ask the client first
-
-Not yet confirmed against archived sources.
-
-## Sources
-
-Not yet confirmed against archived sources.
+Not yet confirmed: the 8.84% rate and $800 minimum franchise tax, economic-nexus thresholds ($750,000 / 25%), the 18 CCR §§23101/25128/25110 and 15 U.S.C. §381 (PL 86-272) texts cited from Cornell LII, the credit-for-taxes-paid cites (R&TC §§17059, 24011), and the R&TC §§23101, 23151, 25128, 25134 and 25123 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
 
 ## Talk to a verified accountant
-
-Not yet confirmed against archived sources.
+<!-- openaccountants-cta-block -->
+**Talk to a verified accountant** — for California nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
