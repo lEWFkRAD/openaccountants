@@ -50,19 +50,19 @@ Rate figures are in the quick-reference table under "Who this applies to" above;
 | Resale | EXEMPT |  |
 
 ## Deadlines and filing
-Filing cadence and due dates are not yet confirmed — see the Not-yet-confirmed line under Sources.
+Filing cadence and due dates are not yet confirmed -- see the Not-yet-confirmed line under Sources.
 ## Penalties and interest
-Penalty and interest rules are not yet confirmed — see the Not-yet-confirmed line under Sources.
+Penalty and interest rules are not yet confirmed -- see the Not-yet-confirmed line under Sources.
 ## Cross-border points
 No Missouri-specific cross-border sales-tax points are confirmed in this skill yet.
 ## Worked examples
-No worked examples — this skill states figures only and never computes.
+No worked examples -- this skill states figures only and never computes.
 ## Ask the client first
 
-- **Grocery food exemption prohibition** — NEVER say grocery food is exempt -- Missouri taxes it at a reduced state rate plus full local.  _(Section 10 -- Prohibitions)_
-- **SaaS taxability prohibition** — NEVER treat SaaS as taxable in Missouri.  _(Section 10 -- Prohibitions)_
-- **Economic nexus history prohibition** — NEVER forget Missouri was the last state to enact economic nexus (2023).  _(Section 10 -- Prohibitions)_
-- **No computation prohibition** — NEVER compute any number.  _(Section 10 -- Prohibitions)_
+- **Grocery food exemption prohibition** -- NEVER say grocery food is exempt -- Missouri taxes it at a reduced state rate plus full local.  _(Section 10 -- Prohibitions)_
+- **SaaS taxability prohibition** -- NEVER treat SaaS as taxable in Missouri.  _(Section 10 -- Prohibitions)_
+- **Economic nexus history prohibition** -- NEVER forget Missouri was the last state to enact economic nexus (2023).  _(Section 10 -- Prohibitions)_
+- **No computation prohibition** -- NEVER compute any number.  _(Section 10 -- Prohibitions)_
 
 ## Sources
 
@@ -74,7 +74,7 @@ No worked examples — this skill states figures only and never computes.
 | 4 | RSMo §144.030 (sales tax rate) | https://revisor.mo.gov/main/OneSection.aspx?section=144.030 | 2026-10-29 |
 | 5 | RSMo §144.034 (grocery food reduced rate) | https://revisor.mo.gov/main/OneSection.aspx?section=144.034 | 2026-10-29 |
 | 6 | MyTax Missouri portal | https://mytax.mo.gov | 2026-10-28 |
-Not yet confirmed: the figures above (state rate, local range, maximum combined rate, grocery rate, nexus threshold) — the sources were archived on the dates shown, but the archive fetches did not return usable text, so the figures stay unconfirmed until readable primary text is archived.
+Not yet confirmed: the figures above (state rate, local range, maximum combined rate, grocery rate, nexus threshold) -- the sources were archived on the dates shown, but the archive fetches did not return usable text, so the figures stay unconfirmed until readable primary text is archived.
 
 
 ### Disclaimer
@@ -94,7 +94,7 @@ This skill and its outputs are provided for informational and computational purp
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

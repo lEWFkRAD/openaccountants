@@ -2,17 +2,17 @@
 name: mo-transfer-pricing
 description: >
   Use this skill whenever asked about Missouri transfer pricing and
-  related-party rules for tax year 2026 — Missouri has no standalone TP
+  related-party rules for tax year 2026 -- Missouri has no standalone TP
   documentation regime; related-party economics enter the MO-1120 base via
   the consolidated-federal/separate-Missouri pro forma rule, the optional
   Missouri consolidated return (Form MO-22, §143.431), Form MO-MS
   apportionment elections, the §163(j) interest addback, the dividends
   deduction on Form MO-C, and the related-party expense/intangible addback
-  regime (§143.471, Form MO-470 — source pending). Trigger on "Missouri
+  regime (§143.471, Form MO-470 -- source pending). Trigger on "Missouri
   transfer pricing", "Missouri related party addback", "MO-470", "143.471",
   "Missouri consolidated return", "MO-MS apportionment election".
   Source-cited draft; 2025 MO-1120 instructions read 2026-10-27; MO-470
-  fetch blocked (403) — addback specifics flagged not yet confirmed.
+  fetch blocked (403) -- addback specifics flagged not yet confirmed.
 jurisdiction: US-MO
 category: transfer-pricing
 tax_year: 2026
@@ -30,14 +30,14 @@ depends_on:
 
 ## Who this applies to
 
-Missouri has **no standalone transfer-pricing documentation statute** — no state §482 analogue with its own penalty. Related-party pricing shapes Missouri outcomes through five verified levers in the 2025 MO-1120 instructions plus one addback regime whose source page was blocked this run:
+Missouri has **no standalone transfer-pricing documentation statute** -- no state §482 analogue with its own penalty. Related-party pricing shapes Missouri outcomes through five verified levers in the 2025 MO-1120 instructions plus one addback regime whose source page was blocked this run:
 
-1. **Consolidated federal / separate Missouri:** members of a federally consolidated group compute federal taxable income **as if separately filed**, attaching a **pro forma Federal Form 1120** — intercompany prices survive into each member's Missouri base. (Instructions, read 2026-10-27.)
+1. **Consolidated federal / separate Missouri:** members of a federally consolidated group compute federal taxable income **as if separately filed**, attaching a **pro forma Federal Form 1120** -- intercompany prices survive into each member's Missouri base. (Instructions, read 2026-10-27.)
 2. **Optional Missouri consolidated return** (§143.431 RSMo; 12 CSR 10-2.045), only for federally consolidated groups, with **Form MO-22** per member. (Instructions, read 2026-10-27.)
-3. **Form MO-MS apportionment elections** (2a, 3, 4, 5, 6, 7) — the election choice, not an arm's-length standard, drives the Missouri share. (Instructions, read 2026-10-27.)
-4. **§163(j) disallowed business interest addback** (§143.121.3(11) RSMo) — intercompany interest that fails the federal cap is added back at Missouri. (Instructions, read 2026-10-27.)
+3. **Form MO-MS apportionment elections** (2a, 3, 4, 5, 6, 7) -- the election choice, not an arm's-length standard, drives the Missouri share. (Instructions, read 2026-10-27.)
+4. **§163(j) disallowed business interest addback** (§143.121.3(11) RSMo) -- intercompany interest that fails the federal cap is added back at Missouri. (Instructions, read 2026-10-27.)
 5. **Dividends deduction mechanics on Form MO-C** keyed to the apportionment factor. (Instructions, read 2026-10-27.)
-6. **Related-party expense / intangible addback (§143.471 RSMo, Form MO-470):** Missouri operates this regime, but the MO-470 instructions PDF returned **403** and the DOR addback page **404** from the drafting environment on 2026-10-27 — the addback's current scope, thresholds and exceptions are **not yet confirmed**; do not compute an MO-470 position from this skill alone.
+6. **Related-party expense / intangible addback (§143.471 RSMo, Form MO-470):** Missouri operates this regime, but the MO-470 instructions PDF returned **403** and the DOR addback page **404** from the drafting environment on 2026-10-27 -- the addback's current scope, thresholds and exceptions are **not yet confirmed**; do not compute an MO-470 position from this skill alone.
 
 
 ### Who this applies to
@@ -55,7 +55,7 @@ Missouri has **no standalone transfer-pricing documentation statute** — no sta
 | Rate the adjustments land in | 4% flat (MO-1120 line 14) | Instructions, read 2026-10-27 |
 | §163(j) addback | interest not deductible federally under §163(j) is added to Missouri income (§143.121.3(11)) | Instructions, read 2026-10-27 |
 | MO-470 related-party addback | regime exists (§143.471); current scope/thresholds **not yet confirmed** | fetch log 2026-10-27 (403/404) |
-| Combined reporting | none — Missouri uses separate returns or full consolidation, no unitary combined return | Instructions, read 2026-10-27 |
+| Combined reporting | none -- Missouri uses separate returns or full consolidation, no unitary combined return | Instructions, read 2026-10-27 |
 | TP documentation requirement | none at state level | absence verified in instructions read |
 
 ## The taxable base
@@ -63,7 +63,7 @@ Base levers (pro forma rule, MO-22 consolidation, MO-MS elections, §163(j) addb
 ## Deadlines and filing
 
 - No state TP documentation deadline.
-- MO-470 (if required) is filed with MO-1120 — due the 15th day of the 4th month; automatic extension with federal Form 7004 (check the box). (Instructions, read 2026-10-27.)
+- MO-470 (if required) is filed with MO-1120 -- due the 15th day of the 4th month; automatic extension with federal Form 7004 (check the box). (Instructions, read 2026-10-27.)
 - Missouri consolidated election: initial MO-22 with the first consolidated MO-1120; new members add MO-22 as added. (Instructions, read 2026-10-27.)
 
 ## Penalties and interest
@@ -73,14 +73,14 @@ Base levers (pro forma rule, MO-22 consolidation, MO-MS elections, §163(j) addb
 
 ## Cross-border points
 
-- Apportionable income includes income from **tangible and intangible property** where the property's acquisition, management, employment, development or disposition relates to the trade or business — intercompany IP and financing sit inside the factor math. (Instructions, read 2026-10-27.)
-- P.L. 86-272 protects goods-order solicitation only; intercompany services/royalties create nexus exposure — Form 4458 documents the boundary.
+- Apportionable income includes income from **tangible and intangible property** where the property's acquisition, management, employment, development or disposition relates to the trade or business -- intercompany IP and financing sit inside the factor math. (Instructions, read 2026-10-27.)
+- P.L. 86-272 protects goods-order solicitation only; intercompany services/royalties create nexus exposure -- Form 4458 documents the boundary.
 - No water's-edge election exists (no combined return at all).
-- Another state's minimum tax does not by itself make the taxpayer "taxable" there — matters for MO-CR credit-for-taxes-paid claims. (Instructions, read 2026-10-27.)
+- Another state's minimum tax does not by itself make the taxpayer "taxable" there -- matters for MO-CR credit-for-taxes-paid claims. (Instructions, read 2026-10-27.)
 
 ## Worked examples
 
-**Example 1 — intercompany royalty, separate-Missouri posture.** Member A (Missouri apportionment 40%) pays a $500,000 royalty to related Member B (no Missouri nexus). Royalty deducted pre-apportionment on A's separate-Missouri pro forma.
+**Example 1 -- intercompany royalty, separate-Missouri posture.** Member A (Missouri apportionment 40%) pays a $500,000 royalty to related Member B (no Missouri nexus). Royalty deducted pre-apportionment on A's separate-Missouri pro forma.
 
 ```oa-check
 name: MO royalty strip effect
@@ -98,7 +98,7 @@ expected:
 
 If the Department re-prices or the MO-470 addback applies (scope **not yet confirmed**), the clawback is $8,000 plus 7% interest.
 
-**Example 2 — §163(j) interest addback.** The group pays $300,000 intercompany interest; $120,000 is disallowed federally under §163(j); Missouri apportionment 25%.
+**Example 2 -- §163(j) interest addback.** The group pays $300,000 intercompany interest; $120,000 is disallowed federally under §163(j); Missouri apportionment 25%.
 
 ```oa-check
 name: MO 163j addback
@@ -116,11 +116,11 @@ expected:
 
 ## Ask the client first
 
-1. Federally consolidated? Separate-Missouri pro forma or Missouri consolidated (MO-22) — which, and why?
+1. Federally consolidated? Separate-Missouri pro forma or Missouri consolidated (MO-22) -- which, and why?
 2. Which MO-MS apportionment election is in use, and would another election reduce Missouri exposure?
-3. Any MO-470 filing history — and has anyone read the current instructions (fetch was blocked this run)?
+3. Any MO-470 filing history -- and has anyone read the current instructions (fetch was blocked this run)?
 4. Intercompany interest: does §163(j) disallowance flow to the Missouri addback?
-5. Do intercompany services/royalties exceed P.L. 86-272 — is Form 4458 on file?
+5. Do intercompany services/royalties exceed P.L. 86-272 -- is Form 4458 on file?
 
 ## Sources
 
@@ -128,10 +128,10 @@ expected:
 | --- | --- | --- | --- |
 | 1 | Missouri DOR, Form MO-1120 General Instructions (2025) (pro forma rule, MO-22 consolidation, MO-MS elections, §163(j) addback, MO-C, P.L. 86-272/Form 4458) | https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf | 2026-10-28 |
 | 2 | Form MO-470 instructions | https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf | 2026-10-29 |
-Not yet confirmed: the items above flagged as not sourced, and the RSMo cites (§143.431, §143.471, §143.121.3(11), §32.065) — no archived copy of those sections exists yet; figures tied to them stay unconfirmed until the source is archived with readable text..
+Not yet confirmed: the items above flagged as not sourced, and the RSMo cites (§143.431, §143.471, §143.121.3(11), §32.065) -- no archived copy of those sections exists yet; figures tied to them stay unconfirmed until the source is archived with readable text..
 
 ## Talk to a verified accountant
 
-**Talk to a verified accountant** — for Missouri related-party and consolidation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Missouri related-party and consolidation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 <!-- openaccountants-cta-block -->

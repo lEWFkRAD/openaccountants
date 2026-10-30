@@ -1,4 +1,4 @@
-# Missouri — OpenAccountants Tax Skills
+# Missouri -- OpenAccountants Tax Skills
 
 | Field | Value |
 |---|---|
@@ -8,7 +8,7 @@
 | Sales tax | Yes |
 | Franchise / gross receipts tax | No |
 | Tax authority | [Missouri Department of Revenue](https://dor.mo.gov) |
-| Quality tier | Q3 — AI-drafted, not independently verified |
+| Quality tier | Q3 -- AI-drafted, not independently verified |
 
 ## Files in this folder
 
