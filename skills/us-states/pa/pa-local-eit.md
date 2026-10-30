@@ -101,7 +101,7 @@ Philadelphia rates change every July 1. Always pull the wage period-specific rat
 
 ### 3.1 Tax Collection Districts (TCDs)
 
-- **TCD structure** — Act 32 §503 created 70 Tax Collection Districts. Boundaries follow county lines: 66 of PA's 67 counties = one TCD each (excluding Philadelphia, which is outside Act 32). Allegheny County is split into four TCDs: Allegheny Central, Allegheny North, Allegheny Southeast, and Allegheny Southwest. The City of Pittsburgh is its own subdivision within these. The remaining 70th slot is occupied historically by the 'Philadelphia TCD,' though Philadelphia operates under Sterling and not Act 32 — references to '70 TCDs' in practitioner literature include Philadelphia as a nominal placeholder.  _(Act 32 §503)_
+- **TCD structure** — Act 32 §503 created 70 Tax Collection Districts. Boundaries follow county lines: 66 of PA's 67 counties = one TCD each (excluding Philadelphia, which is outside Act 32). Allegheny County is split into four TCDs: Allegheny Central, Allegheny North, Allegheny Southeast, and Allegheny Southwest. The City of Pittsburgh is its own subdivision within these. The remaining 70th slot is occupied historically by the 'Philadelphia TCD,' though Philadelphia operates under Sterling and not Act 32 — references to '70 TCDs' in practitioner literature include Philadelphia as a nominal stand-in.  _(Act 32 §503)_
 
 ### 3.2 Tax officers
 
