@@ -37,7 +37,7 @@ See also: `ny-cross-border`, `ny-income-tax`.
 | Partnership exemption | **$5,000 plus $10,000 per partner**, "so that UBT liability is zero for net incomes up to $90,000 plus $10,000 times the number of partners" | 2025 | [Comptroller report](https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/) |
 | NYC personal-income-tax credit for UBT paid | **100%** for residents with taxable income up to **$42,000**, declining "gradually to 23% for taxable incomes higher than $142,000" | 2025 | [Comptroller report](https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/) |
 
-The filing threshold, the simplified-return threshold and the estimated-payment threshold previously carried in this guide ($95,000, $250,000 and $3,400) are **not yet confirmed** — see Not yet confirmed.
+The filing threshold, the simplified-return threshold and the estimated-payment threshold previously carried in this guide ($95,000, $250,000 and $3,400) are **not yet confirmed** -- see Not yet confirmed.
 
 ## The taxable base
 
@@ -46,13 +46,13 @@ The filing threshold, the simplified-return threshold and the estimated-payment 
 - **Self-trading income is excluded** "with some exceptions" (Comptroller report); carried interest of fund managers is outside the base while management fees are inside it.
 - **Multi-jurisdiction businesses are allocated, not fully taxed here:** "business income of entities doing businesses across taxing jurisdictions is allocated based on apportionment and sourcing rules," and UBT uses a **single sales factor** apportionment with **cost-of-performance sourcing for services provided within NYC, except for sales of tangible personal property** (Comptroller report).
 - **Investment income under UBT** "is allocated using investment allocation percentages, which are themselves determined using issuer allocation percentages" (Comptroller report).
-- **Owner salary, draws and income-tax deductions:** the previous rule in this guide (no deduction for the owner's salary or for income taxes) is **not yet confirmed** — see Not yet confirmed.
+- **Owner salary, draws and income-tax deductions:** the previous rule in this guide (no deduction for the owner's salary or for income taxes) is **not yet confirmed** -- see Not yet confirmed.
 
 ## Deadlines and filing
 
-- The UBT annual return form IDs (previously carried as NYC-202, NYC-202S and NYC-202EIN) and the UBT annual due date are **not yet confirmed** against an archived primary source — see Not yet confirmed.
+- The UBT annual return form IDs (previously carried as NYC-202, NYC-202S and NYC-202EIN) and the UBT annual due date are **not yet confirmed** against an archived primary source -- see Not yet confirmed.
 - The archived DOF business-tax page confirms the **corporate** calendar-year pattern and the extension mechanics: "Annual returns and tax payments must be postmarked by April 15 of the following year, if the corporation chooses an accounting period that is based on the calendar year," and "Businesses that are subject to the business corporation tax may get an automatic six-month extension by filing Form NYC-EXT. This extension is given only if the extension form is filed on or before the original due date for the return and the tax was estimated correctly and paid." Do not transfer those corporate rules to UBT without confirming them.
-- Quarterly estimated-payment mechanics for UBT are **not yet confirmed** — see Not yet confirmed.
+- Quarterly estimated-payment mechanics for UBT are **not yet confirmed** -- see Not yet confirmed.
 
 ## Penalties and interest
 
@@ -62,11 +62,11 @@ The filing threshold, the simplified-return threshold and the estimated-payment 
 
 ## Cross-border points
 
-- **Apportionment:** UBT uses a **single sales factor** — the City "gradually transitioned to only using the share of sales" between 2009 and 2018 (Comptroller report). A business with workers and real estate in NYC but a low share of NYC sales is taxed on less; the reverse increases the base.
+- **Apportionment:** UBT uses a **single sales factor** -- the City "gradually transitioned to only using the share of sales" between 2009 and 2018 (Comptroller report). A business with workers and real estate in NYC but a low share of NYC sales is taxed on less; the reverse increases the base.
 - **Sourcing:** "GCT and UBT use cost of performance for services provided within NYC, except for sales of tangible personal property," while BCT adopted market-based sourcing (Comptroller report). A NYC-based service provider to an out-of-state customer is therefore still NYC-taxed on those receipts under UBT.
 - **Multi-jurisdiction exposure is the norm, not the exception:** "Between tax year 2011 and 2020 ... on average 72.2% of the City tax liability came from multi-jurisdiction businesses" (Comptroller report).
 - **No combined reporting under UBT** (Comptroller report), so a partner's own entity structure does not fold into one UBT return.
-- **The IT-219 credit form and its mechanics** (previously carried as a 100% credit against NYC personal income tax flowing to Form IT-201-ATT) are **not yet confirmed** — see Not yet confirmed. The archived report confirms the credit's shape (100% up to $42,000 taxable income, declining to 23% above $142,000) but not the form.
+- **The IT-219 credit form and its mechanics** (previously carried as a 100% credit against NYC personal income tax flowing to Form IT-201-ATT) are **not yet confirmed** -- see Not yet confirmed. The archived report confirms the credit's shape (100% up to $42,000 taxable income, declining to 23% above $142,000) but not the form.
 
 ## Worked examples
 
@@ -113,7 +113,7 @@ expected:
 
 ### Example 3: partnership exemption
 
-A two-partner LLC (hypothetical) has $110,000 of NYC net business income. The exemption is $5,000 + 2 x $10,000 = $25,000, leaving $85,000; 4% is $3,400, which is at the top of the full-credit band, so UBT liability is $0. The report states liability is zero "for net incomes up to $90,000 plus $10,000 times the number of partners" — here $110,000.
+A two-partner LLC (hypothetical) has $110,000 of NYC net business income. The exemption is $5,000 + 2 x $10,000 = $25,000, leaving $85,000; 4% is $3,400, which is at the top of the full-credit band, so UBT liability is $0. The report states liability is zero "for net incomes up to $90,000 plus $10,000 times the number of partners" -- here $110,000.
 
 ```oa-check
 name: NYC UBT two-partner LLC exemption
@@ -142,14 +142,14 @@ expected:
 2. **Is the activity carried on wholly or partly in NYC, and where is the service performed?** UBT sources services by cost of performance for work done in NYC (Comptroller report).
 3. **Is the income self-trading or carried interest?** Both sit outside the UBT base, with exceptions (Comptroller report).
 4. **What is the client's NYC personal-income-tax position?** The credit for UBT paid is 100% up to $42,000 of taxable income and falls to 23% above $142,000 (Comptroller report), so the net cost of UBT depends on it.
-5. **Which return and which due date apply?** Confirm the current UBT form IDs and dates with DOF before filing — they are not yet confirmed in this guide.
+5. **Which return and which due date apply?** Confirm the current UBT form IDs and dates with DOF before filing -- they are not yet confirmed in this guide.
 
 ## Sources
 
 | Source | URL | Read on |
 |---|---|---|
-| NYC Comptroller, "Recent Trends in the City's Business Income Taxes" (Feb 18, 2025) — UBT scope, 4% rate, $3,400/$4,500 credit bands, $15,000 proprietor and $5,000 + $10,000/partner exemptions, $42,000/$142,000 PIT-credit bands, single sales factor, cost-of-performance sourcing, self-trading and carried interest, no combined reporting, 72.2% multi-jurisdiction share | https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/ | 2026-10-28 |
-| NYC Department of Finance, business corporation tax page — April 15 calendar-year filing date, Form NYC-EXT automatic six-month extension, OBBBA interest-and-penalty abatement, Administrative Code §§ 11-653 and 11-654 citations | https://www.nyc.gov/site/finance/business/business-corporation-tax.page | 2026-10-28 |
+| NYC Comptroller, "Recent Trends in the City's Business Income Taxes" (Feb 18, 2025) -- UBT scope, 4% rate, $3,400/$4,500 credit bands, $15,000 proprietor and $5,000 + $10,000/partner exemptions, $42,000/$142,000 PIT-credit bands, single sales factor, cost-of-performance sourcing, self-trading and carried interest, no combined reporting, 72.2% multi-jurisdiction share | https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/ | 2026-10-28 |
+| NYC Department of Finance, business corporation tax page -- April 15 calendar-year filing date, Form NYC-EXT automatic six-month extension, OBBBA interest-and-penalty abatement, Administrative Code §§ 11-653 and 11-654 citations | https://www.nyc.gov/site/finance/business/business-corporation-tax.page | 2026-10-28 |
 
 Not yet confirmed: the UBT filing threshold (previously carried as gross income over $95,000 under NYC Admin Code § 11-503(a); no archived copy of that section exists in this pack); the simplified-return threshold and form (previously carried as $250,000 gross income on Form NYC-202S); the estimated-payment threshold and form (previously carried as $3,400 on Form NYC-202EIN); the UBT annual return form IDs (previously carried as NYC-202) and the UBT annual due date and extension rule for UBT specifically (the archived April 15 and NYC-EXT rules are for the business corporation tax); the exact partial-credit formula between $3,400 and $4,500 (the report gives the band, not the arithmetic); the phase-out of the $15,000 proprietor exemption above $100,000 of net income; the UBT late-filing penalty, late-payment penalty and interest rates (no archived source states them; the previous $3,400 estimated-tax figure and the "line 17 tax" phase-out language are removed); the IT-219 credit form and its flow to Form IT-201-ATT (the report confirms the credit's percentages, not the form); the rule that the owner's salary, draws and income taxes are not deductible in the UBT base; the employee exclusion from UBT; and the current NYC Administrative Code Title 11 Chapter 5 section numbers (§§ 11-503, 11-510, 11-514 are cited in the previous draft but were not archived).
 
@@ -159,7 +159,7 @@ Not yet confirmed: the UBT filing threshold (previously carried as gross income 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
