@@ -53,7 +53,7 @@ New Hampshire's Interest & Dividends (I&D) Tax has been **fully repealed** effec
 
 - **Prior-year filing obligation** — Taxpayers who owe I&D tax for tax year 2024 or earlier must still file and pay. The repeal does not provide amnesty for prior tax years.
 
-## Source
+### Source
 
 - [NH DRA — Repeal of NH Interest and Dividends Tax Now in Effect](https://revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect)
 - [NH DRA — Interest & Dividends Tax overview](https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax)
@@ -63,16 +63,63 @@ New Hampshire's Interest & Dividends (I&D) Tax has been **fully repealed** effec
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Who this applies to
+
+Not yet confirmed against archived sources.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

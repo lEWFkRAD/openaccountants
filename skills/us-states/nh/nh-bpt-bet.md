@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 New Hampshire has no general personal income tax and no general sales tax, but it taxes business activity through two parallel filings: the Business Profits Tax (BPT) at 7.5% on net business profits and the Business Enterprise Tax (BET) at 0.55% on the enterprise value tax base of compensation, interest, and dividends paid. BET paid is a dollar-for-dollar credit against BPT, so most filers effectively pay the larger of the two. Both taxes apply to sole proprietors, partnerships, LLCs, and corporations conducting business in NH. The Interest & Dividends Tax was fully repealed for tax years beginning on or after January 1, 2025. The 2025 BPT filing threshold is $109,000 of gross business income; the 2025 BET filing threshold is $298,000 of either gross receipts or enterprise value tax base. Tax year 2025.
 
-## 1. Scope and what New Hampshire does not tax
+## Who this applies to
 
 New Hampshire is famous for what it does not tax. It is one of nine US states with no broad-based personal income tax on wages, and one of five states with no general retail sales tax. There is no withholding from wages, no W-2 state line, no state Form 1040, no state sales-tax permit for retailers selling tangible personal property at retail in-state, and no use-tax self-assessment for consumers.
 
@@ -494,7 +494,7 @@ Step-by-step for an NH-resident sole proprietor or single-member LLC freelancer 
 
 10. **Estimated-payment underpayment.** The NH safe harbor uses prior-year tax (or 110% if prior-year tax > $40,000). Clients who switched from a loss year to a profit year must pay current-year estimates because 100% of prior-year tax was zero — they cannot use the prior-year safe harbor as a shield.
 
-## 14. Provenance and citations
+### 14. Provenance and citations
 
 - **Primary statutes** — RSA 77-A — Business Profits Tax (rate, base, modifications, RCD, apportionment, NOL, combined return); RSA 77-E — Business Enterprise Tax (rate, EVTB, threshold, apportionment, BPT credit); RSA 77 — Interest and Dividends Tax (repealed for tax years beginning on or after 1/1/2025); RSA 78-B — Real Estate Transfer Tax (out of scope); RSA 21-J — DRA general administration, interest and penalties  _(RSA 77-A; RSA 77-E; RSA 77; RSA 78-B; RSA 21-J)_
 - **Session laws relied on for rates and thresholds** — Chapter 156, Laws of 2017 — BPT rate reductions; Chapter 91, Laws of 2021 — BPT to 7.6% then 7.5%, BET to 0.55%, RCD safe harbor changes, market-based sourcing for services, threshold indexation; Chapter 346, Laws of 2019 (HB 10) — single sales factor phase-in completed 2022; Chapter 144, Laws of 2022 (HB 1221) — NOL carryforward extended to 10 years; Chapter 79, Laws of 2023 (HB 2) — I&D Tax phase-out and 2025 repeal  _(Chapter 156, Laws of 2017; Chapter 91, Laws of 2021; Chapter 346, Laws of 2019 (HB 10); Chapter 144, Laws of 2022 (HB 1221); Chapter 79, Laws of 2023 (HB 2))_
@@ -514,16 +514,59 @@ This skill must be loaded alongside `us-tax-workflow-base` v0.2 or later and any
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
