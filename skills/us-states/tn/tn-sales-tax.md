@@ -1,6 +1,6 @@
 ---
 name: tn-sales-tax
-description: "Use this skill whenever asked about Tennessee sales tax, Tennessee use tax, Tennessee sales tax nexus, Tennessee sales tax returns, Tennessee exemption certificates, taxability of goods or services in Tennessee, or any request involving Tennessee state-level consumption taxes. Trigger on phrases like \"Tennessee sales tax\", \"TN sales tax\", \"Tennessee use tax\", \"Tennessee nexus\", \"T.C.A. 67-6\", \"Tennessee DOR sales tax\", or any request involving Tennessee sales and use tax filing, classification, or compliance. NOTE: Tennessee has NO state income tax, making sales tax revenue critical. Tennessee has among the HIGHEST combined sales tax rates in the US (up to 9.75%). ALWAYS read the parent us-sales-tax skill first for federal context."
+description: "Use this skill whenever asked about Tennessee sales tax, Tennessee use tax, Tennessee sales tax nexus, Tennessee sales tax returns, Tennessee exemption certificates, taxability of goods or services in Tennessee, or any request involving Tennessee state-level consumption taxes. Trigger on phrases like \"Tennessee sales tax\", \"TN sales tax\", \"Tennessee use tax\", \"Tennessee nexus\", \"T.C.A. 67-6\", \"Tennessee DOR sales tax\", or any request involving Tennessee sales and use tax filing, classification, or compliance. NOTE: Tennessee has NO state income tax, making sales tax revenue critical. Tennessee has among the HIGHEST combined sales tax rates in the US (up to 9.75%, not yet confirmed). ALWAYS read the parent us-sales-tax skill first for federal context."
 jurisdiction: US-TN
 version: "1.2"
 tax_year: 2026
@@ -404,16 +404,9 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 Not yet confirmed: figures in this skill lack archived line-citations.
 
-
-| Source | URL | Read on |
-| --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
-
-- https://tntap.tn.gov (as_of: 2026-10-28)
-- https://openaccountants.com (as_of: 2026-10-28)
--  (as_of: 2026-10-28)
--  (as_of: 2026-10-28)
--  (as_of: 2026-10-28)
+- https://www.tn.gov/revenue/taxes/sales---use-tax.html (as_of: 2026-10-28)
+- https://www.tn.gov/revenue/taxes/sales---use-tax/rates--thresholds--and-other-information.html (as_of: 2026-10-28)
+- https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html (as_of: 2026-10-28)
 
 ### Talk to a verified accountant
 
@@ -463,7 +456,16 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| TN DOR sales & use tax | https://www.tn.gov/revenue/taxes/sales---use-tax.html | 2026-10-28 |
+| TN DOR rates & thresholds | https://www.tn.gov/revenue/taxes/sales---use-tax/rates--thresholds--and-other-information.html | 2026-10-28 |
+| TN DOR sales due dates & rates | https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html | 2026-10-28 |
+| TN DOR franchise & excise tax | https://www.tn.gov/revenue/taxes/franchise---excise-tax.html | 2026-10-28 |
+| TN DOR franchise & excise due dates & rates | https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html | 2026-10-28 |
+| TN DOR franchise tax manual (2026) | https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf | 2026-10-28 |
 
 ## Talk to a verified accountant
 
