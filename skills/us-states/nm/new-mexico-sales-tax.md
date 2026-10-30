@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-Sellers with New Mexico gross receipts — NM taxes the SELLER via Gross Receipts Tax (GRT), not a traditional sales tax.
+Sellers with New Mexico gross receipts -- NM taxes the SELLER via Gross Receipts Tax (GRT), not a traditional sales tax.
 
 **CRITICAL: NM GRT taxes virtually ALL services and most transactions. One of the broadest tax bases in the US (similar to Hawaii GET). Tax is on the seller, not the buyer.**
 
@@ -72,7 +72,7 @@ GRT late filing/payment penalties and interest apply; current rates are not yet 
 
 ## Worked examples
 
-No worked examples yet — rate figures pending source confirmation.
+No worked examples yet -- rate figures pending source confirmation.
 
 ## Ask the client first
 
@@ -81,7 +81,7 @@ No worked examples yet — rate figures pending source confirmation.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
@@ -92,18 +92,18 @@ their name behind the tax answers AI gives people.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| NM Taxation and Revenue — index | https://www.tax.newmexico.gov/ | 2026-10-28 |
+| NM Taxation and Revenue -- index | https://www.tax.newmexico.gov/ | 2026-10-28 |
 
 Not yet confirmed: state GRT rate 5.125%; local add-on range; maximum combined rate; economic nexus $100,000 threshold; penalty/interest rates.
-- **Prohibition: sales tax terminology** — NEVER call NM's tax a "sales tax" without noting it is a GRT on the seller.
-- **Prohibition: services exemption assumption** — NEVER assume services are exempt -- NM taxes virtually ALL services.
-- **Prohibition: deduction vs exemption confusion** — NEVER confuse "deduction" with "exemption" -- NM uses deductions from gross receipts.
-- **Prohibition: computing numbers** — NEVER compute any number.
+- **Prohibition: sales tax terminology** -- NEVER call NM's tax a "sales tax" without noting it is a GRT on the seller.
+- **Prohibition: services exemption assumption** -- NEVER assume services are exempt -- NM taxes virtually ALL services.
+- **Prohibition: deduction vs exemption confusion** -- NEVER confuse "deduction" with "exemption" -- NM uses deductions from gross receipts.
+- **Prohibition: computing numbers** -- NEVER compute any number.
 
 ## Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
