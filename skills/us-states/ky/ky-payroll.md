@@ -1,6 +1,6 @@
 ---
 name: ky-payroll
-description: Use this skill whenever asked about Kentucky employer payroll withholding for tax year 2026 — the 4% (2025) / 3.5% (2026) flat individual income tax withholding, Form K-1 filing frequencies and due dates under 103 KAR 18:150, Form K-3 annual reconciliation, and pointers to unemployment insurance (KRS 341) and the local occupational license tax system. Trigger on "Kentucky withholding", "Kentucky payroll", "Form K-1", "Form K-3", "Kentucky K-4". ALWAYS load us-tax-workflow-base first.
+description: Use this skill whenever asked about Kentucky employer payroll withholding for tax year 2026 -- the 4% (2025) / 3.5% (2026) flat individual income tax withholding, Form K-1 filing frequencies and due dates under 103 KAR 18:150, Form K-3 annual reconciliation, and pointers to unemployment insurance (KRS 341) and the local occupational license tax system. Trigger on "Kentucky withholding", "Kentucky payroll", "Form K-1", "Form K-3", "Kentucky K-4". ALWAYS load us-tax-workflow-base first.
 version: 3.0
 jurisdiction: US-KY
 tax_year: 2026
@@ -67,7 +67,7 @@ Wages as defined in IRC §3401(a) paid to employees for Kentucky-source work (re
 ## Cross-border points
 
 - Nonresident employees: employers withhold on Kentucky-source wages; nonresidents file Form 740-NP. Nonresident partners/members of Kentucky pass-through entities are covered by the entity withholding rules on Form 740NP-WH (see `ky-cross-border`).
-- Reciprocal agreements with neighboring states and the certificate of non-residence (Form 42A809) are asserted in prior drafts but were not tied to an archived primary source this run — verify with the DOR before honoring an exemption (see Not yet confirmed).
+- Reciprocal agreements with neighboring states and the certificate of non-residence (Form 42A809) are asserted in prior drafts but were not tied to an archived primary source this run -- verify with the DOR before honoring an exemption (see Not yet confirmed).
 - Kentucky residents working in other states claim the KRS 141.070 credit for tax paid to the other state on Form 740.
 
 ## Worked examples
@@ -139,7 +139,7 @@ expected:
 
 - Which tax year(s) do the pay dates fall in? 4% applies through the last 2025 payroll; 3.5% from the first 2026 payroll.
 - Is the employer registered with DOR for withholding and with the Office of Unemployment Insurance?
-- What was last year's (lookback-period) total Kentucky withholding — it sets the filing frequency?
+- What was last year's (lookback-period) total Kentucky withholding -- it sets the filing frequency?
 - Are any employees nonresidents working in Kentucky, or Kentucky residents working in reciprocal states?
 - Are local occupational license taxes in force at each work site (checked with the locality, not from memory)?
 
@@ -160,7 +160,7 @@ expected:
 | KRS 341.243 (0.075% UI rate reduction through 12/31/2026) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS341.243 | 2026-10-28 |
 | KRS 141.070 (credit for tax paid to other states) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.070 | 2026-10-28 |
 
-Not yet confirmed: the local occupational license tax system — v0.2 listed rates for Louisville Metro (1.45%/0.75% school), Lexington-Fayette (2.25%, $148,000 cap), Covington, Newport, Florence, Bowling Green, Owensboro and several counties, plus Form OL-3 mechanics; none of these local rates, caps or forms were tied to archived primary sources (local ordinances are not archived), so no local rate may be quoted — check each locality's current published ordinance; the reciprocal-agreement list (Ohio, Indiana, Illinois, Michigan, Virginia, West Virginia) and Form 42A809 mechanics (agreements and form instructions not archived — verify with DOR before honoring an exemption); the Form K-4 employee withholding certificate mechanics (form instructions not archived); the v0.2 "construction-industry employee presumption under KRS 341.123" — no KRS 341.123 exists in the archived chapter 341 listing, so that presumption is removed (the construction new-employer UI rate in KRS 341.272 is the confirmed construction-industry rule); final-pay timing under KRS 337.055 and liquidated damages under KRS 337.385 (statutes not archived this run); the mandatory-EFT threshold of $1,000 average monthly withholding asserted in v0.2 — the archived 103 KAR 18:150 states the EFT rule as lookback $50,000 or more and average monthly over $25,000, which supersedes it; the 2025 interest rate on deficiencies asserted as 8% in v0.2 — the DOR's 2025 notice sets the base "tax interest rate" at 8% but the rate charged on unpaid tax at 10%, which supersedes it.
+Not yet confirmed: the local occupational license tax system -- v0.2 listed rates for Louisville Metro (1.45%/0.75% school), Lexington-Fayette (2.25%, $148,000 cap), Covington, Newport, Florence, Bowling Green, Owensboro and several counties, plus Form OL-3 mechanics; none of these local rates, caps or forms were tied to archived primary sources (local ordinances are not archived), so no local rate may be quoted -- check each locality's current published ordinance; the reciprocal-agreement list (Ohio, Indiana, Illinois, Michigan, Virginia, West Virginia) and Form 42A809 mechanics (agreements and form instructions not archived -- verify with DOR before honoring an exemption); the Form K-4 employee withholding certificate mechanics (form instructions not archived); the v0.2 "construction-industry employee presumption under KRS 341.123" -- no KRS 341.123 exists in the archived chapter 341 listing, so that presumption is removed (the construction new-employer UI rate in KRS 341.272 is the confirmed construction-industry rule); final-pay timing under KRS 337.055 and liquidated damages under KRS 337.385 (statutes not archived this run); the mandatory-EFT threshold of $1,000 average monthly withholding asserted in v0.2 -- the archived 103 KAR 18:150 states the EFT rule as lookback $50,000 or more and average monthly over $25,000, which supersedes it; the 2025 interest rate on deficiencies asserted as 8% in v0.2 -- the DOR's 2025 notice sets the base "tax interest rate" at 8% but the rate charged on unpaid tax at 10%, which supersedes it.
 
 <!-- openaccountants-cta-block -->
 
@@ -168,7 +168,7 @@ Not yet confirmed: the local occupational license tax system — v0.2 listed rat
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

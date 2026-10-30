@@ -55,7 +55,7 @@ KRS 141.020(2)(d)–(f) states the rate history: "For taxable years beginning on
 1. **Starting point.** Form 740, line 5 starts from **federal adjusted gross income** (Form 1040 line 11), not federal taxable income.
 2. **Schedule M modifications.**
    - Additions: interest on securities of other states and their political subdivisions (Kentucky municipal bond interest is exempt); resident adjustments from Kentucky Schedule K-1; federal depreciation differences (see below).
-   - Subtractions: taxable state income tax refund included in federal income (line 7); U.S. government bond and securities interest (line 8 — Fannie Mae, Ginnie Mae and Freddie Mac interest is NOT exempt, per the instructions); pension exclusion (line 9, see below); Social Security and railroad retirement benefits (lines 10–11); military pay of active duty Armed Forces members (line 13, exempt under KRS 141.019(l), which "Exclude[s] all military pay received by members of the Armed Forces while on active duty").
+   - Subtractions: taxable state income tax refund included in federal income (line 7); U.S. government bond and securities interest (line 8 -- Fannie Mae, Ginnie Mae and Freddie Mac interest is NOT exempt, per the instructions); pension exclusion (line 9, see below); Social Security and railroad retirement benefits (lines 10–11); military pay of active duty Armed Forces members (line 13, exempt under KRS 141.019(l), which "Exclude[s] all military pay received by members of the Armed Forces while on active duty").
 3. **Pension income exclusion (Schedule M line 9).** For 2025: "The 2025 exclusion amount is 100 percent of taxable retirement benefits or $31,110, whichever is less." It covers pensions, annuities, IRA accounts, 401(k) plans and similar written-plan retirement income. It is **per taxpayer**. If total retirement income exceeds $31,110 and any of it is from the federal government, the Commonwealth of Kentucky or a Kentucky local government, or is supplemental U.S. Railroad Retirement Board benefits, Schedule P must be completed.
 4. **Standard deduction.** KRS 141.081 allows an optional standard deduction, inflation-adjusted under KRS 141.081(2). The 2025 Form 740 instructions state: "For 2025, the standard deduction is $3,270." The DOR 2026 news release states: "After adjusting for inflation, the standard deduction for 2026 is $3,360, an increase of $90." On a joint return only one standard deduction is allowed; married filing separately on a combined return (Filing Status 2) enters it in both columns. A taxpayer may instead itemize Kentucky deductions, which exclude medical expenses, state and local income taxes, real estate and personal property taxes, and casualty losses.
 5. **Depreciation and Section 179 (permanent decoupling).** Per the 2025 Form 740 instructions: "taxpayers who placed property into service after September 10, 2001, are required to compute Kentucky depreciation under IRC Section 168 according to the provisions in effect on December 31, 2001," and property placed in service on or after 1 January 2020 computes the IRC Section 179 expense deduction under the provisions in effect on 1 January 2020. Recompute on a Kentucky Form 4562, adding back federal depreciation on Schedule M line 3 and subtracting Kentucky depreciation on line 12.
@@ -77,7 +77,7 @@ KRS 141.069(2) allows a nonrefundable credit of "twenty-five percent (25%)" of t
 
 ### Child and dependent care credit (line 24)
 
-For 2025 returns: the credit is 20% of the federal credit from Form 2441, line 11 — the instructions state "Multiply this amount by 20 percent (.20), and enter result on line 24." It is also available to a person with no federal filing requirement who would have qualified (write "did not meet federal filing requirements" on Form 2441). For 2026, the federal credit base may have changed after Kentucky's conformity date; check the 2026 Form 740 line 24 instructions before applying 20% (see Not yet confirmed).
+For 2025 returns: the credit is 20% of the federal credit from Form 2441, line 11 -- the instructions state "Multiply this amount by 20 percent (.20), and enter result on line 24." It is also available to a person with no federal filing requirement who would have qualified (write "did not meet federal filing requirements" on Form 2441). For 2026, the federal credit base may have changed after Kentucky's conformity date; check the 2026 Form 740 line 24 instructions before applying 20% (see Not yet confirmed).
 
 ## Deadlines and filing
 
@@ -267,7 +267,7 @@ expected:
 | DOR Penalties, Interest and Fees page (late payment/filing 2% per 30 days, 20% cap, $10 minimum; interest rates table) | https://revenue.ky.gov/Collections/Pages/Penalties-Interest-and-Fees.aspx | 2026-10-28 |
 | DOR Employer Payroll Withholding page ("The Kentucky Withholding Tax rate will be 3.5% for tax year 2026") | https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx | 2026-10-28 |
 
-Not yet confirmed: the 2026 pension income exclusion amount (DOR pages still show the 2025 $31,110 figure; the 2026 Form 740 packet was not yet published at read time); the 2026 family size tax credit table and thresholds (the 2025 table is archived; the 2026 table appears on Schedule ITC, not yet published); whether the 2026 child and dependent care credit base is the pre-2026 or post-P.L. 119-21 federal credit (check the 2026 Form 740 line 24 instructions before applying 20%); the 2027 individual income tax rate (reductions require General Assembly action; no 2027 act confirmed — the 2027 standard deduction of $3,470 per the DOR news release is for planning only).
+Not yet confirmed: the 2026 pension income exclusion amount (DOR pages still show the 2025 $31,110 figure; the 2026 Form 740 packet was not yet published at read time); the 2026 family size tax credit table and thresholds (the 2025 table is archived; the 2026 table appears on Schedule ITC, not yet published); whether the 2026 child and dependent care credit base is the pre-2026 or post-P.L. 119-21 federal credit (check the 2026 Form 740 line 24 instructions before applying 20%); the 2027 individual income tax rate (reductions require General Assembly action; no 2027 act confirmed -- the 2027 standard deduction of $3,470 per the DOR news release is for planning only).
 
 <!-- openaccountants-cta-block -->
 
@@ -275,7 +275,7 @@ Not yet confirmed: the 2026 pension income exclusion amount (DOR pages still sho
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

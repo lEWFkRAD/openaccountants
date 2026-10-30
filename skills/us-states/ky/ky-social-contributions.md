@@ -1,7 +1,7 @@
 ---
 name: ky-social-contributions
 description: >
-  Use this skill whenever asked about Kentucky employer social contributions for tax year 2026 — unemployment insurance contributions under KRS chapter 341 (Office of Unemployment Insurance), the employer-only nature of the UI tax, the experience-rating schedules in KRS 341.270, the new-employer 2.7% rate, the 0.075% rate reduction under KRS 341.243, and the absence of state disability or paid-leave payroll taxes. Trigger on "Kentucky UI rate", "Kentucky SUTA", "Kentucky unemployment wage base", "Kentucky employer taxes", "Kentucky workers compensation requirement". ALWAYS load us-tax-workflow-base first.
+  Use this skill whenever asked about Kentucky employer social contributions for tax year 2026 -- unemployment insurance contributions under KRS chapter 341 (Office of Unemployment Insurance), the employer-only nature of the UI tax, the experience-rating schedules in KRS 341.270, the new-employer 2.7% rate, the 0.075% rate reduction under KRS 341.243, and the absence of state disability or paid-leave payroll taxes. Trigger on "Kentucky UI rate", "Kentucky SUTA", "Kentucky unemployment wage base", "Kentucky employer taxes", "Kentucky workers compensation requirement". ALWAYS load us-tax-workflow-base first.
 version: 0.3
 jurisdiction: US-KY
 category: payroll
@@ -21,7 +21,7 @@ depends_on:
 
 ## Who this applies to
 
-Employers covered under KRS chapter 341 (the Office of Unemployment Insurance administers the program). The UI contribution is **employer-only** — Kentucky employees pay no state UI tax. Workers' compensation insurance is required for most Kentucky employers under KRS chapter 342 (premiums are carrier-rated by class code; the statute text was not archived this run — see Not yet confirmed). Kentucky has no state disability insurance and no state paid family/medical leave payroll tax.
+Employers covered under KRS chapter 341 (the Office of Unemployment Insurance administers the program). The UI contribution is **employer-only** -- Kentucky employees pay no state UI tax. Workers' compensation insurance is required for most Kentucky employers under KRS chapter 342 (premiums are carrier-rated by class code; the statute text was not archived this run -- see Not yet confirmed). Kentucky has no state disability insurance and no state paid family/medical leave payroll tax.
 
 ## Rates, bands and thresholds
 
@@ -46,11 +46,11 @@ Covered wages paid to each worker up to the annual taxable wage base per employe
 
 ## Penalties and interest
 
-KRS 341.614 imposes 1.5% monthly interest on an unpaid interest-payment surcharge, capped at 90% of the surcharge, plus a lien on the property of a delinquent employer (KRS 341.614(5)). Contribution-penalty percentages for late quarterly reports are set by the Office of Unemployment Insurance — confirm from the current agency notice before quoting them (see Not yet confirmed). Common failure modes: (1) out-of-state employers missing Kentucky coverage for Kentucky-based staff; (2) misclassifying workers as independent contractors, shifting UI wages; (3) letting a dormant account lapse while still paying Kentucky wages.
+KRS 341.614 imposes 1.5% monthly interest on an unpaid interest-payment surcharge, capped at 90% of the surcharge, plus a lien on the property of a delinquent employer (KRS 341.614(5)). Contribution-penalty percentages for late quarterly reports are set by the Office of Unemployment Insurance -- confirm from the current agency notice before quoting them (see Not yet confirmed). Common failure modes: (1) out-of-state employers missing Kentucky coverage for Kentucky-based staff; (2) misclassifying workers as independent contractors, shifting UI wages; (3) letting a dormant account lapse while still paying Kentucky wages.
 
 ## Cross-border points
 
-- Multi-state employees: localization-of-service rules decide which state gets the wages — confirm current Kentucky guidance before assigning wages (see Not yet confirmed).
+- Multi-state employees: localization-of-service rules decide which state gets the wages -- confirm current Kentucky guidance before assigning wages (see Not yet confirmed).
 - FUTA credit against Kentucky UI follows the standard federal pattern; Kentucky's current-year credit-reduction status must be checked on the IRS credit-reduction list each year (not archived this run).
 - KRS 341.272 covers construction-trade new employers including "any foreign corporation authorized to do business in this state."
 
@@ -107,7 +107,7 @@ expected:
 | KRS 341.243 (service capacity upgrade fund; 0.075% rate reduction to 12/31/2026; 0.0115% from 1/1/2027) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS341.243 | 2026-10-28 |
 | KRS 341.614 (interest-payment surcharge 0.22% of first $9,600; 1.5% monthly interest) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS341.614 | 2026-10-28 |
 
-Not yet confirmed: the 2026 (and 2025) taxable wage base dollar amount (the archived KRS 341.030 gives the $300-per-year escalation mechanics toward $12,000, but the current-year dollar figure is set by the Office of Unemployment Insurance's annual determination, whose page was JS-rendered and could not be archived this run — v0.1's "$11,400" figure is not tied to an archived primary source and must not be used until the rate notice is pulled); which Table A schedule (Trust Fund Adequacy Rates, A, B, C, D or E) is in effect for calendar 2026 (depends on the September 30, 2025 trust fund balance published by the agency); the quarterly report due dates and electronic filing mandate (agency pages JS-rendered); workers' compensation requirements under KRS chapter 342 (statute not archived); FUTA credit-reduction status for 2026 (IRS list not archived); v0.1's "0.075% service capacity surcharge" was corrected this run — KRS 341.243 provides a 0.075% rate **reduction**, not a surcharge.
+Not yet confirmed: the 2026 (and 2025) taxable wage base dollar amount (the archived KRS 341.030 gives the $300-per-year escalation mechanics toward $12,000, but the current-year dollar figure is set by the Office of Unemployment Insurance's annual determination, whose page was JS-rendered and could not be archived this run -- v0.1's "$11,400" figure is not tied to an archived primary source and must not be used until the rate notice is pulled); which Table A schedule (Trust Fund Adequacy Rates, A, B, C, D or E) is in effect for calendar 2026 (depends on the September 30, 2025 trust fund balance published by the agency); the quarterly report due dates and electronic filing mandate (agency pages JS-rendered); workers' compensation requirements under KRS chapter 342 (statute not archived); FUTA credit-reduction status for 2026 (IRS list not archived); v0.1's "0.075% service capacity surcharge" was corrected this run -- KRS 341.243 provides a 0.075% rate **reduction**, not a surcharge.
 
 <!-- openaccountants-cta-block -->
 
@@ -115,7 +115,7 @@ Not yet confirmed: the 2026 (and 2025) taxable wage base dollar amount (the arch
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

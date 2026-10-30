@@ -1,7 +1,7 @@
 ---
 name: ky-corporate-income-tax
 description: >
-  Use this skill whenever asked about Kentucky corporate income tax for tax year 2026 — the flat 5% corporation income tax, the Limited Liability Entity Tax (LLET) with its $175 minimum, mandatory unitary combined filing (or 48-month same-as-federal consolidated election), Form 720 mechanics, and the 25%x4 estimated installments due 4/15-6/15-9/15-12/15. Trigger on "Kentucky corporate tax", "Kentucky 720", "LLET", "Kentucky combined filing", "Kentucky consolidated election", "Kentucky estimated tax corporation". ALWAYS load us-tax-workflow-base first.
+  Use this skill whenever asked about Kentucky corporate income tax for tax year 2026 -- the flat 5% corporation income tax, the Limited Liability Entity Tax (LLET) with its $175 minimum, mandatory unitary combined filing (or 48-month same-as-federal consolidated election), Form 720 mechanics, and the 25%x4 estimated installments due 4/15-6/15-9/15-12/15. Trigger on "Kentucky corporate tax", "Kentucky 720", "LLET", "Kentucky combined filing", "Kentucky consolidated election", "Kentucky estimated tax corporation". ALWAYS load us-tax-workflow-base first.
 version: 0.3
 jurisdiction: US-KY
 category: corporate
@@ -51,7 +51,7 @@ Section 179: per the DOR page, the "IRC §179 expense deduction increased to $10
 - Late payment and failure to collect/withhold: 2% per 30 days or fraction, capped at 20%, minimum $10 (DOR Penalties, Interest and Fees page).
 - Interest on unpaid tax: 9% for calendar year 2026, 10% for 2025, under KRS 131.183(2)(a)2 (DOR interest notices). KRS 141.985 provides that tax not paid by the date due accrues interest "at the tax interest rate as defined in KRS 131.010(6)."
 
-Common failure modes: (1) filing separate-entity when unitary combined is mandatory; (2) treating the 48-month consolidated election casually — it binds for four years; (3) missing the 180-day federal-audit reporting window; (4) forgetting the LLET applies at the $175 minimum even with zero income tax.
+Common failure modes: (1) filing separate-entity when unitary combined is mandatory; (2) treating the 48-month consolidated election casually -- it binds for four years; (3) missing the 180-day federal-audit reporting window; (4) forgetting the LLET applies at the $175 minimum even with zero income tax.
 
 ## Cross-border points
 
@@ -121,7 +121,7 @@ expected:
 - Is the group unitary under Kentucky's combined-filing mandate, or has the 48-month consolidated election been made (and when does it expire)?
 - Are LLC members tracking the LLET credit against their Kentucky income tax?
 - Are estimated payments on the 25%x4 calendar, and is annualization used where income is seasonal?
-- Any open federal audits — is the 180-day Kentucky amendment calendar tracked?
+- Any open federal audits -- is the 180-day Kentucky amendment calendar tracked?
 
 ## Sources
 
@@ -146,7 +146,7 @@ Not yet confirmed: the current (2026) Form 720 revision date (the archived Form 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

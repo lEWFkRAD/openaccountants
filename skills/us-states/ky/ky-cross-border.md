@@ -1,7 +1,7 @@
 ---
 name: ky-cross-border
 description: >
-  Use this skill whenever asked about Kentucky cross-border taxation for tax year 2026 — corporate nexus and P.L. 86-272 protection, the unitary combined mandate's reach over out-of-state affiliates, nonresident individual taxation of Kentucky-source income, nonresident withholding by pass-through entities (Form 740NP-WH), the LLET credit for out-of-state LLC members, and credits for taxes paid to other states. Trigger on "Kentucky nexus", "Kentucky nonresident", "Kentucky LLET credit out of state", "nonresident withholding Kentucky", "moving to Kentucky taxes", "Kentucky credit for taxes paid". ALWAYS load us-tax-workflow-base first.
+  Use this skill whenever asked about Kentucky cross-border taxation for tax year 2026 -- corporate nexus and P.L. 86-272 protection, the unitary combined mandate's reach over out-of-state affiliates, nonresident individual taxation of Kentucky-source income, nonresident withholding by pass-through entities (Form 740NP-WH), the LLET credit for out-of-state LLC members, and credits for taxes paid to other states. Trigger on "Kentucky nexus", "Kentucky nonresident", "Kentucky LLET credit out of state", "nonresident withholding Kentucky", "moving to Kentucky taxes", "Kentucky credit for taxes paid". ALWAYS load us-tax-workflow-base first.
 version: 0.3
 jurisdiction: US-KY
 category: cross-border
@@ -21,7 +21,7 @@ depends_on:
 
 ## Who this applies to
 
-- **Out-of-state corporations** inside a Kentucky unitary group: combined filing is mandatory for tax years beginning on or after 1 January 2019 (KRS 141.202; DOR corporate page) — membership, not physical presence, drives the exposure.
+- **Out-of-state corporations** inside a Kentucky unitary group: combined filing is mandatory for tax years beginning on or after 1 January 2019 (KRS 141.202; DOR corporate page) -- membership, not physical presence, drives the exposure.
 - **Corporations with Kentucky activity** outside a unitary group: separate-entity filing with Kentucky-source apportionment (KRS 141.120), subject to P.L. 86-272 (15 U.S.C. §381) for solicitation-only activity.
 - **Nonresident individuals** and **nonresident partners/members of Kentucky pass-through entities**: taxed on Kentucky-source income; the entity may have a withholding obligation (see below).
 - **Out-of-state members of Kentucky LLCs**: the entity pays the LLET; members take the entity-level credit on their Kentucky returns (KRS 141.0401).
@@ -50,12 +50,12 @@ Residents are taxed on entire net income wherever earned (KRS 141.020(1)). Nonre
 
 ## Penalties and interest
 
-Late payment/filing: 2% per 30 days or fraction, capped at 20%, $10 minimum (DOR Penalties, Interest and Fees page). Interest on unpaid tax: 10% for 2025, 9% for 2026 (DOR interest notices under KRS 131.183(2)(a)2). Common failure modes: (1) an out-of-state parent assuming no Kentucky exposure while a unitary member operates there; (2) a Kentucky PTE skipping nonresident withholding on distributive shares; (3) LLC members missing the LLET credit on their own returns; (4) double taxation where the work state and residence state both tax — run the KRS 141.070 credit analysis in both directions.
+Late payment/filing: 2% per 30 days or fraction, capped at 20%, $10 minimum (DOR Penalties, Interest and Fees page). Interest on unpaid tax: 10% for 2025, 9% for 2026 (DOR interest notices under KRS 131.183(2)(a)2). Common failure modes: (1) an out-of-state parent assuming no Kentucky exposure while a unitary member operates there; (2) a Kentucky PTE skipping nonresident withholding on distributive shares; (3) LLC members missing the LLET credit on their own returns; (4) double taxation where the work state and residence state both tax -- run the KRS 141.070 credit analysis in both directions.
 
 ## Cross-border points
 
 - **P.L. 86-272** (15 U.S.C. §381): "No State ... shall have power to impose ... a net income tax on the income derived within such State by any person from interstate commerce if the only business activities within such State ... are either, or both, of the following: (1) the solicitation of orders ... for sales of tangible personal property, which orders are sent outside the State for approval or rejection, and, if approved, are filled by shipment or delivery from a point outside the State." Services, digital goods, and in-state fulfillment are unprotected.
-- **Unitary reach**: combined group is corporations with more than 50% common voting-stock ownership in a unitary business, filed waters-edge (KRS 141.202) — map every affiliate before assuming exposure.
+- **Unitary reach**: combined group is corporations with more than 50% common voting-stock ownership in a unitary business, filed waters-edge (KRS 141.202) -- map every affiliate before assuming exposure.
 - **Reciprocity**: Kentucky has reciprocal individual income tax agreements with neighboring states; a nonresident employee claims exemption by filing the certificate of non-residence (Form 42A809) with the Kentucky employer, and the employer then withholds the home state's tax. Confirm the current reciprocal-state list and the form against DOR guidance before relying on it (see Not yet confirmed).
 - **Foreign parents**: no Kentucky-specific treaty provisions; federal ECI/treaty analysis governs.
 
@@ -103,7 +103,7 @@ expected:
 
 ## Ask the client first
 
-- Which affiliates sit inside the Kentucky unitary group — and has anyone checked the 50% voting-stock test and the exceptions?
+- Which affiliates sit inside the Kentucky unitary group -- and has anyone checked the 50% voting-stock test and the exceptions?
 - How many workdays do remote/cross-border employees actually spend in Kentucky?
 - For Kentucky PTEs: are nonresident members' distributive shares being withheld on (Form 740NP-WH/PTE-WH)?
 - For LLC members: is the LLET credit being claimed on their own returns?
@@ -125,7 +125,7 @@ expected:
 | DOR Penalties, Interest and Fees page | https://revenue.ky.gov/Collections/Pages/Penalties-Interest-and-Fees.aspx | 2026-10-28 |
 | DOR 2025 Form 740 instruction packet (individual due date) | https://revenue.ky.gov/Forms/740%20Packet%20Instructions.pdf | 2026-10-28 |
 
-Not yet confirmed: the current list of reciprocal states and the mechanics of Form 42A809 (v0.1 asserted six reciprocal states and Ohio Rev. Code and KRS citations; neither the reciprocal agreements nor Form 42A809's instructions were archived this run — verify on the DOR withholding page before applying an exemption); the DOR "doing business" standard in KRS 141.010(13) beyond the quoted reference (KRS 141.010 is archived, but the subsection was not re-read for this note); local occupational tax treatment of cross-border workers (local ordinances not archived; see `ky-payroll` Not yet confirmed).
+Not yet confirmed: the current list of reciprocal states and the mechanics of Form 42A809 (v0.1 asserted six reciprocal states and Ohio Rev. Code and KRS citations; neither the reciprocal agreements nor Form 42A809's instructions were archived this run -- verify on the DOR withholding page before applying an exemption); the DOR "doing business" standard in KRS 141.010(13) beyond the quoted reference (KRS 141.010 is archived, but the subsection was not re-read for this note); local occupational tax treatment of cross-border workers (local ordinances not archived; see `ky-payroll` Not yet confirmed).
 
 <!-- openaccountants-cta-block -->
 
@@ -133,7 +133,7 @@ Not yet confirmed: the current list of reciprocal states and the mechanics of Fo
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

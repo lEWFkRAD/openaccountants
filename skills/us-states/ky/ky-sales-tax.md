@@ -22,7 +22,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Local sales taxes | None |
 | Tax authority | [Kentucky Department of Revenue (DOR)](https://revenue.ky.gov/) |
 | Legislation | KRS Chapter 139; 103 KAR Title 18 |
-| SST member | Yes — Kentucky participates in the Streamlined Sales Tax Agreement (DOR page: "The Streamlined Sales Tax Agreement is a compact of state joining together to give common definitions and rules") |
+| SST member | Yes -- Kentucky participates in the Streamlined Sales Tax Agreement (DOR page: "The Streamlined Sales Tax Agreement is a compact of state joining together to give common definitions and rules") |
 
 ## Who this applies to
 
@@ -53,7 +53,7 @@ Any retailer making retail sales of tangible personal property, digital property
 | Cosmetic surgery services | Taxable | KRS 139.200(2)(ao) |
 | Body modification services | Taxable | KRS 139.200(2)(ap) |
 | Grocery food (food items and food ingredients) | Exempt | KRS 139.485 |
-| Professional services (legal, accounting, medical) not listed in KRS 139.200(2) | Not taxable — not among the enumerated services | KRS 139.200 (list is specific) |
+| Professional services (legal, accounting, medical) not listed in KRS 139.200(2) | Not taxable -- not among the enumerated services | KRS 139.200 (list is specific) |
 
 ## The taxable base
 
@@ -137,7 +137,7 @@ Not yet confirmed: the exact monthly/quarterly return due dates for a specific s
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

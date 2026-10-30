@@ -1,7 +1,7 @@
 ---
 name: ky-transfer-pricing
 description: >
-  Use this skill whenever asked about Kentucky transfer pricing and combined filing for tax year 2026 — the mandatory unitary combined group filing from tax years beginning 2019, the 48-month same-as-federal consolidated group election, the combined-group definition (50% voting stock, waters-edge), and how related-party pricing is policed through the combined computation rather than a standalone addback regime. Trigger on "Kentucky combined reporting", "Kentucky unitary", "Kentucky consolidated election", "Kentucky transfer pricing", "Kentucky 48 month election". ALWAYS load us-tax-workflow-base first.
+  Use this skill whenever asked about Kentucky transfer pricing and combined filing for tax year 2026 -- the mandatory unitary combined group filing from tax years beginning 2019, the 48-month same-as-federal consolidated group election, the combined-group definition (50% voting stock, waters-edge), and how related-party pricing is policed through the combined computation rather than a standalone addback regime. Trigger on "Kentucky combined reporting", "Kentucky unitary", "Kentucky consolidated election", "Kentucky transfer pricing", "Kentucky 48 month election". ALWAYS load us-tax-workflow-base first.
 version: 0.3
 jurisdiction: US-KY
 category: transfer-pricing
@@ -42,18 +42,18 @@ The combined report consolidates the income and apportionment factors of the com
 - The combined return rides the Form 720 calendar (April 15 for calendar-year filers).
 - Estimated installments: "Four installments at 25% of the estimated tax due on April 15, June 15, September 15, and December 15" (DOR page), computed at the combined level.
 - Federal audit final determinations: amended Kentucky return within 180 days (DOR page).
-- The 48-month consolidated election has no annual deadline — but track the expiry year.
+- The 48-month consolidated election has no annual deadline -- but track the expiry year.
 
 ## Penalties and interest
 
 The declaration penalty was replaced by an "Addition to Tax" penalty for underpaid estimated tax (DOR page; TAM-19-02). Late payment runs 2% per 30 days capped at 20% with a $10 minimum (DOR Penalties, Interest and Fees page). Interest on unpaid tax: 9% for 2026, 10% for 2025, under KRS 131.183(2)(a)2 (DOR interest notices); KRS 141.985 applies the tax interest rate to unpaid chapter-141 tax.
 
-Common failure modes: (1) filing separate-entity when the group is unitary; (2) making the consolidated election without modeling the 48-month lock; (3) assuming foreign affiliates are automatically in or out — the waters-edge rule and the 50% voting-stock test drive membership, member by member; (4) missing the 180-day federal-audit amendment window, which is where most transfer-pricing adjustments surface.
+Common failure modes: (1) filing separate-entity when the group is unitary; (2) making the consolidated election without modeling the 48-month lock; (3) assuming foreign affiliates are automatically in or out -- the waters-edge rule and the 50% voting-stock test drive membership, member by member; (4) missing the 180-day federal-audit amendment window, which is where most transfer-pricing adjustments surface.
 
 ## Cross-border points
 
 - Waters-edge: the combined report is filed on a waters-edge basis (KRS 141.202(4)(a)); the DOR page describes the group as "domestic corporations (with some exceptions) involved in unitary business."
-- Receipts-only apportionment means sales into Kentucky — wherever the seller sits — create apportioned income for combined-group members (KRS 141.120(9)-(11): receipts are in this state if the market is here, including services "delivered to a location in this state").
+- Receipts-only apportionment means sales into Kentucky -- wherever the seller sits -- create apportioned income for combined-group members (KRS 141.120(9)-(11): receipts are in this state if the market is here, including services "delivered to a location in this state").
 - No Kentucky addback statute for related-party payments was found in the archived KRS 141 sections this run; federal §482 adjustments flow through the federal taxable income starting point and the 180-day amendment rule.
 - LLET paid by a limited liability pass-through entity credits against members' Kentucky income tax (KRS 141.0401; see `ky-cross-border`).
 
@@ -79,7 +79,7 @@ expected:
 
 ### Example 2: fee shift to a non-member (hypothetical facts)
 
-The same group pays $600,000 of management fees to a non-member affiliate, reducing combined income before apportionment. New combined income $7,400,000; Kentucky income $1,850,000; tax $92,500 — a $7,500 Kentucky saving that must survive federal scrutiny of the fee.
+The same group pays $600,000 of management fees to a non-member affiliate, reducing combined income before apportionment. New combined income $7,400,000; Kentucky income $1,850,000; tax $92,500 -- a $7,500 Kentucky saving that must survive federal scrutiny of the fee.
 
 ```oa-check
 name: fee shift effect on combined base
@@ -102,10 +102,10 @@ expected:
 
 ## Ask the client first
 
-- Is the group unitary under KRS 141.202's definition — has anyone mapped members against the 50% voting-stock and flow-of-value tests?
+- Is the group unitary under KRS 141.202's definition -- has anyone mapped members against the 50% voting-stock and flow-of-value tests?
 - Has the 48-month consolidated election been made, and when does it expire?
-- Are intercompany fees moving income outside the combined base — and are they defensible at the federal level too?
-- Any federal audit adjustments — is the 180-day Kentucky amendment clock tracked?
+- Are intercompany fees moving income outside the combined base -- and are they defensible at the federal level too?
+- Any federal audit adjustments -- is the 180-day Kentucky amendment clock tracked?
 
 ## Sources
 
@@ -129,7 +129,7 @@ Not yet confirmed: whether Kentucky has a related-party interest/intangible addb
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
