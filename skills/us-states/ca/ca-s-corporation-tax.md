@@ -52,7 +52,7 @@ pending verification).
 |---|---|---|
 | Entity-level tax | 1.5% of California net income | R&TC §23803 (cite pending verification — leginfo 403 2026-10-27) |
 | Minimum franchise tax | $800 | R&TC §23153 (cite pending verification); FTB Form 100S line 21 "at least minimum franchise tax, if applicable" (verified form text) |
-| Shareholder-level | Ordinary CA rates (1–13.3%) on K-1 income | `ca-income-tax` skill |
+| Shareholder-level | Ordinary CA rates (1–13.3%) on K-1 income | `ca-income-tax` skill | (not yet confirmed)
 
 Form 100S line 21 reads "Tax. ____% × line 20 (at least minimum
 franchise tax, if applicable)" — the rate itself is printed in the

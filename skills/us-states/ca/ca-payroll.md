@@ -1,6 +1,6 @@
 ---
 name: ca-payroll
-description: Tier 2 California content skill for employer payroll compliance covering tax year 2026. Includes the 2026 EDD withholding top band 14.630% over $1M, SDI 1.3% with no wage cap (SB 951), Form DE 9/DE 9C quarterly returns, the CalSavers retirement mandate for 1+ employees, AB5 / ABC test contractor classification, DE 542 reporting for $600+ contractors, supplemental wage withholding at 10.23%, ETT 0.1% on first $7,000, and SUI with $7,000 base and 1.5-6.2% experience-rated range (Schedule F+). Covers federal payroll interactions and CA labor-code wage statement requirements.
+description: Tier 2 California content skill for employer payroll compliance covering tax year 2026. Includes the 2026 EDD withholding top band 14.630% over (not yet confirmed)M, SDI 1.3% with no wage cap (SB 951), Form DE 9/DE 9C quarterly returns, the CalSavers retirement mandate for 1+ employees, AB5 / ABC test contractor classification, DE 542 reporting for (not yet confirmed)+ contractors, supplemental wage withholding at 10.23%, ETT 0.1% on first (not yet confirmed) and SUI with (not yet confirmed) base and 1.5-6.2% experience-rated range (Schedule F+). Covers federal payroll interactions and CA labor-code wage statement requirements.
 jurisdiction: US-CA
 tax_year: 2026
 version: 0.2
@@ -581,7 +581,7 @@ Rates, wage limits, schedules, due dates and penalties above are taken from the 
 
 ## 19. Circular 230 Disclosure and Reviewer Responsibility
 
-This skill is a content reference for credentialed payroll and tax professionals. It is NOT tax advice to the taxpayer. Under Treasury Department Circular 230 §10.33 and §10.37, any written advice based on this skill's output must be reviewed by a credentialed reviewer (Enrolled Agent, CPA, or attorney), or for purely state-payroll matters an experienced payroll practitioner with California-specific competence, before delivery to the client or filing with EDD, the Franchise Tax Board, or any other authority.
+This skill is a content reference for credentialed payroll and tax professionals. It is NOT tax advice to the taxpayer. Under Treasury Department Circular 230 §10.33 and §10.37, any written advice based on this skill's output must be reviewed by a credentialed reviewer (Enrolled Agent, CPA, or attorney), or for purely state-payroll matters an experienced payroll practitioner with California-specific competence, before delivery to the client or filing with EDD, the Franchise Tax Board, or any other authority. (not yet confirmed)
 
 Misapplication risk is high in three areas:
 

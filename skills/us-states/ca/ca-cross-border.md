@@ -55,7 +55,7 @@ statute cites pending verification.
 | Item | Amount | Source |
 |---|---|---|
 | Franchise tax | 8.84%, $800 minimum | FTB tax-rates page (verified 2026-10-27) |
-| Economic nexus — sales | > $750,000 (verify current) | R&TC §23101 (pending) |
+| Economic nexus — sales | > $750,000 (verify current) | R&TC §23101 (pending) | (not yet confirmed)
 | Economic nexus — revenue share | > 25% of total (verify current) | R&TC §23101 (pending) |
 | Apportionment | Single sales factor (2023+) | 18 CCR §25128 (verified); R&TC §25128 (pending) |
 

@@ -31,7 +31,7 @@ last_updated: 2026-10-28
 | Return form | CDTFA-401-A (quarterly/monthly); CDTFA-401-EZ (small sellers) |
 | Filing frequencies | Monthly, quarterly, annual (assigned by CDTFA) |
 | Quarterly deadlines | Last day of month following quarter (Apr 30, Jul 31, Oct 31, Jan 31) |
-| Prepayment | Required if average monthly tax liability exceeds $17,000 |
+| Prepayment | Required if average monthly tax liability exceeds $17,000 | (not yet confirmed)
 | Vendor discount | None -- California does not offer a vendor collection allowance |
 | Federal framework skill | us-sales-tax (read first for Wayfair, nexus overview, multi-state context) |
 | Skill version | 2.0 |
@@ -53,7 +53,7 @@ Before performing any California sales tax work, collect the following:
 | 5 | Primary business address / point of sale location? | Needed for district tax rate determination on counter sales |
 | 6 | Ship goods to California customers? From where? | Destination-based sourcing for district taxes |
 | 7 | Sell food, software/SaaS, or manufacturing equipment? | Special exemption or taxability rules |
-| 8 | Average monthly tax liability exceed $17,000? | Prepayments due 24th of first and second month of quarter |
+| 8 | Average monthly tax liability exceed $17,000? | Prepayments due 24th of first and second month of quarter | (not yet confirmed)
 
 **If the client cannot answer questions 1-3, STOP and gather this information before proceeding.**
 
@@ -156,9 +156,9 @@ This is the deterministic taxability lookup. When a transaction matches a patter
 
 | Component | Rate |
 |---|---|
-| State General Fund | 3.9375% |
+| State General Fund | 3.9375% | (not yet confirmed)
 | State Fiscal Recovery Fund | 0.25% |
-| Local Revenue Fund (county) | 1.0625% |
+| Local Revenue Fund (county) | 1.0625% | (not yet confirmed)
 | Local Public Safety Fund | 0.50% |
 | County Transportation Fund | 0.25% |
 | State Education Protection Account | 0.25% |
@@ -199,7 +199,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 | Parameter | Detail |
 |---|---|
-| Scope | Machinery, equipment, and parts used primarily (50%+) in manufacturing, R&D, or electric power generation |
+| Scope | Machinery, equipment, and parts used primarily (50%+) in manufacturing, R&D, or electric power generation | (not yet confirmed)
 | Benefit | State portion partially exempted; buyer pays reduced state rate + full district tax |
 | Certificate | CDTFA-230-M (Partial Exemption Certificate for Manufacturing) |
 | Authority | R&TC Section 6377.1 |
@@ -256,7 +256,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 | Parameter | Value |
 |---|---|
-| Threshold | Average monthly tax liability exceeds $17,000 |
+| Threshold | Average monthly tax liability exceeds $17,000 | (not yet confirmed)
 | Due dates | 24th of first and second month of each quarter |
 | Amount | At least 90% of actual liability for the month |
 
@@ -331,7 +331,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 **Situation:** Manufacturer purchases a $100,000 machine used 60% for manufacturing, 40% for administration.
 
-**Resolution:** Qualifies for partial exemption because manufacturing use exceeds 50%. The state portion is partially exempted. Full district tax still applies at the delivery location rate.
+**Resolution:** Qualifies for partial exemption because manufacturing use exceeds 50%. The state portion is partially exempted. Full district tax still applies at the delivery location rate. (not yet confirmed)
 
 ### EC4 -- Food: grocery vs. prepared
 
@@ -352,7 +352,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 ### Test 1 -- Basic taxable sale in Los Angeles
 
 **Input:** Retailer sells a $1,000 TV in Los Angeles. Combined rate: 10.25%.
-**Expected:** Tax = $102.50. Total = $1,102.50.
+**Expected:** Tax = $102.50. Total = $1,102.50. (not yet confirmed)
 
 ### Test 2 -- Grocery food exempt
 
@@ -366,17 +366,17 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ### Test 4 -- Economic nexus
 
-**Input:** Oregon-based online seller has $600,000 in California sales. No physical presence. 50 transactions.
+**Input:** Oregon-based online seller has $600,000 in California sales. No physical presence. 50 transactions. (not yet confirmed)
 **Expected:** Exceeds $500,000 threshold. Must register with CDTFA and collect California sales tax.
 
 ### Test 5 -- Clothing fully taxable
 
 **Input:** Customer buys a $300 jacket in San Francisco. Rate: 8.625%.
-**Expected:** Tax = $25.88. No clothing exemption in California.
+**Expected:** Tax = $25.88. No clothing exemption in California. (not yet confirmed)
 
 ### Test 6 -- Resale certificate
 
-**Input:** Retailer purchases $15,000 of inventory from a CA wholesaler. Provides valid CDTFA-230.
+**Input:** Retailer purchases $15,000 of inventory from a CA wholesaler. Provides valid CDTFA-230. (not yet confirmed)
 **Expected:** No tax. Retailer collects tax at point of resale.
 
 ### Test 7 -- Use tax on out-of-state purchase
@@ -391,13 +391,13 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ### Test 9 -- Manufacturing equipment partial exemption
 
-**Input:** Manufacturer purchases a $200,000 production machine in San Jose. Used 100% in manufacturing.
+**Input:** Manufacturer purchases a $200,000 production machine in San Jose. Used 100% in manufacturing. (not yet confirmed)
 **Expected:** Partial exemption applies to state portion. District tax still applies. Effective tax rate is reduced compared to full combined rate.
 
 ### Test 10 -- Canned software download
 
 **Input:** Business purchases a $500 canned software license via electronic download in San Diego. Rate: 7.75%.
-**Expected:** Tax = $38.75. Downloaded canned software is taxable as TPP.
+**Expected:** Tax = $38.75. Downloaded canned software is taxable as TPP. (not yet confirmed)
 
 ---
 
@@ -410,7 +410,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 - NEVER use origin-based sourcing for district taxes -- California is destination-based for district taxes.
 - NEVER assume the manufacturing partial exemption fully eliminates tax -- it reduces the state portion but district taxes still apply.
 - NEVER accept SST certificates in California -- CA is not an SST member.
-- NEVER forget the prepayment requirement for sellers with average monthly liability over $17,000.
+- NEVER forget the prepayment requirement for sellers with average monthly liability over $17,000. (not yet confirmed)
 - NEVER treat OTC drugs as exempt -- only prescription medicine is exempt in California.
 - NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude.
 

@@ -63,7 +63,7 @@ Form 100/3539/568 (2025 editions), California Revenue and Taxation Code
 The LLC annual fee table on Form 568 (2025 edition, verified text): $800
 (total income $250,000–$499,999), $1,800 ($500,000–$999,999), $5,000
 ($1,000,000–$4,999,999), $6,000 ($5,000,000–$9,999,999), $9,000
-($10,000,000–$24,999,999), $11,790 ($25,000,000 or more).
+($10,000,000–$24,999,999), $11,790 ($25,000,000 or more). (not yet confirmed)
 
 ## 4. Base and timing
 
@@ -89,7 +89,7 @@ The LLC annual fee table on Form 568 (2025 edition, verified text): $800
 
 Estimated tax: corporations must pay through Form 3539 vouchers or EFT.
 Safe harbors per Form 3539: 90% of current-year tax or 100% of
-prior-year tax shown on the return (110% for large corporations —
+prior-year tax shown on the return (110% for large corporations — (not yet confirmed)
 confirm current thresholds with FTB).
 
 ### 6. Penalties and interest
