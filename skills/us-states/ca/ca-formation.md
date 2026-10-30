@@ -13,7 +13,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # California entity formation: LLCs, corporations and out-of-state registration (2026)
 
-## Scope and who it is for
+## Who this applies to
 
 This skill covers the California state layer of forming a business entity, or registering an out-of-state entity, for **tax year 2026**. It is for founders, freelancers and small-business owners who either form a California LLC or corporation, or run an entity formed in another state that has California customers, staff, property or management.
 
@@ -28,7 +28,7 @@ It does not cover the federal entity classification choice, California personal 
 
 Research date: 25 September 2026. The statutes are cited from the official California Legislative Information site. The FTB publishes the yearly indexed "doing business" amounts separately; at the research date only the 2025 amounts had been posted (see "Thresholds and figures").
 
-## Ask the client first
+### Ask the client first
 
 - What entity type is it: LLC (single- or multi-member) or corporation? Which state or country was it formed in, and on what date?
 - For a California entity, what is the exact SOS filing date? For a foreign entity, what is the date it was registered with the California SOS, if it has registered?
@@ -39,7 +39,7 @@ Research date: 25 September 2026. The statutes are cited from the official Calif
 - Will it render professional services that need a California licence (for example law, medicine or accountancy)?
 - Is it formed under the law of a foreign country? This matters for BOI.
 
-## The method, step by step
+### The method, step by step
 
 1. **Choose the entity and the state.** If the business will be run from California, a California entity avoids a second state's filings. An entity formed elsewhere and doing business in California must still register here (step 4).
 2. **Check professional-services limits.** A California or foreign LLC may not render "professional services" as defined in Corp. Code §13401 and §13401.3 in California ([Corp. Code §17701.04(e)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17701.04.)). A licensed professional generally needs a professional corporation, so refer that case. (not yet confirmed)
@@ -56,7 +56,7 @@ Research date: 25 September 2026. The statutes are cited from the official Calif
    - Apply the first-year rules and the 15-day rule before you quote any figure.
 7. **Record the BOI position.** Domestic entities are now exempt. A foreign-country entity registered in a US state may still have to report.
 
-## Thresholds and figures (tax year 2026)
+## Rates, bands and thresholds
 
 ### SOS filing fees
 
@@ -132,7 +132,7 @@ An entity is doing business in California for a taxable year if **any** of these
 - Where a 2026 answer turns on the dollar prong, open that FTB page and use the 2026 row once it is posted. Until then, say the 2026 amount is unpublished and show the 2025 figure labelled as 2025.
 - Where the 25% prong gives a figure below the statutory base amount, the answer does not depend on the indexed amount, because the indexed amount is the base revised for inflation.
 
-## Boundary and exception table ([R&TC §17941](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17941.))
+## The taxable base
 
 | Situation | Rule | Result |
 |---|---|---|
@@ -153,7 +153,7 @@ An entity is doing business in California for a taxable year if **any** of these
 - So if an LLC is filed on or after 17 December 2026 and does no business until 2027, the statutes do not say whether 2027 is its "first taxable year" for the $400 rate.
 - Until the FTB publishes guidance, plan on $800 for 2027 and treat $400 as possible upside. Check the FTB's LLC guidance or ask the FTB.
 
-## Statement of Information ([Corp. Code §17702.09](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17702.09.))
+### Statement of Information ([Corp. Code §17702.09](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17702.09.))
 
 - **LLCs (domestic and registered foreign).**
   - File within 90 days after the articles or registration are filed. After that, file every two years during the "applicable filing period" ([Corp. Code §17702.09(a)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17702.09.)). (not yet confirmed)
@@ -170,7 +170,7 @@ An entity is doing business in California for a taxable year if **any** of these
   - For a corporation, the SOS certifies it to the FTB, and the FTB assesses the penalty under [R&TC §19141](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19141.) ([Corp. Code §2204](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=2204.)).
   - The SOS may waive the penalty for reasonable cause or unusual circumstances.
 
-## Foreign entities: registration and the cost of not registering ([R&TC §19135](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19135.))
+### Foreign entities: registration and the cost of not registering ([R&TC §19135](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19135.))
 
 - **Foreign LLC application.**
   - Give the entity's name. If that name does not comply with California rules, give an alternate name.
@@ -190,7 +190,7 @@ An entity is doing business in California for a taxable year if **any** of these
 - **Suspension and forfeiture.** Unpaid tax, penalties or interest can lead to suspension of a domestic entity's powers, or forfeiture of a foreign entity's right to exercise them in California, within the periods set in [R&TC §23301](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23301.).
 - **Delaware or Wyoming does not avoid California.** An LLC or corporation formed elsewhere but managed from California is commercially domiciled here, so it is doing business under §23101(b)(1). It owes the California annual tax, fee or franchise tax, and the Statement of Information, on top of its home-state costs.
 
-## Federal BOI reporting (Corporate Transparency Act)
+### Federal BOI reporting (Corporate Transparency Act)
 
 - **Final rule.** On 11 August 2026 FinCEN issued a final rule. It made permanent the exemptions first introduced by the interim final rule published on 26 March 2025, and it took effect on 14 August 2026.
 - **US entities are exempt.** Companies created in the United States, including California LLCs and corporations, are exempt and do not file BOI reports.
@@ -198,7 +198,7 @@ An entity is doing business in California for a taxable year if **any** of these
 - **Deadline for foreign reporting companies.** A foreign reporting company registered on or after 26 March 2025 has 30 calendar days to file its initial report after receiving notice that its registration is effective.
 - Source: [FinCEN BOI page](https://www.fincen.gov/boi).
 
-## Worked cases
+### Worked cases
 
 ### Case 1: California single-member LLC formed in 2026 (ordinary) ([source](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17941.))
 
@@ -242,7 +242,7 @@ An entity is doing business in California for a taxable year if **any** of these
 - **Result.** It pays the $1,600 balance with the return, with no 10% penalty, because it paid at least the prior-year fee on time.
 - **Had it paid nothing by 15 June,** the penalty would be 10% of $2,500 = $250.
 
-## When to refuse or refer
+### When to refuse or refer
 
 - **Professional services** by an LLC: refer to counsel. A professional corporation is usually needed.
 - **Voluntary disclosure or back years.** An out-of-state entity that has been doing business unregistered for past years needs a specialist to handle voluntary disclosure, back returns, penalties and revivor. This skill does not set the look-back or waiver terms.
@@ -250,7 +250,7 @@ An entity is doing business in California for a taxable year if **any** of these
 - **Federal classification elections**, S corporation eligibility, and personal nonresident returns.
 - **BOI for a foreign-country entity:** confirm the exemptions on FinCEN's site before filing.
 
-## Filing and payment steps with deadlines
+## Deadlines and filing
 
 | Step | When | Where |
 |---|---|---|
@@ -275,7 +275,7 @@ The 2025 rules were the same as 2026 on every point in this skill except these:
 
 An LLC formed in 2024 or 2025 had no first-year waiver. Tax or fee paid with an extended 2025 return is late: interest and late-payment penalties run from the original due date.
 
-## Completion checklist ([R&TC §23101](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23101.))
+### Completion checklist ([R&TC §23101](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23101.))
 
 - [ ] Entity type, home jurisdiction and exact SOS filing or registration date recorded
 - [ ] Professional-services limit checked
@@ -292,16 +292,47 @@ An LLC formed in 2024 or 2025 had no first-year waiver. Tax or fee paid with an 
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: unarchived figures listed below.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

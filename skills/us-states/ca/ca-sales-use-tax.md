@@ -38,7 +38,7 @@ last_updated: 2026-10-28
 
 ---
 
-## Section 2 -- Required inputs and refusal catalogue
+### Section 2 -- Required inputs and refusal catalogue
 
 ### Required inputs
 
@@ -150,7 +150,7 @@ This is the deterministic taxability lookup. When a transaction matches a patter
 
 ---
 
-## Section 4 -- Rate lookup
+### Section 4 -- Rate lookup
 
 ### 4.1 State rate components
 
@@ -189,7 +189,7 @@ This is the deterministic taxability lookup. When a transaction matches a patter
 
 ---
 
-## Section 5 -- Classification rules
+### Section 5 -- Classification rules
 
 ### 5.1 General rule
 
@@ -225,7 +225,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ---
 
-## Section 6 -- Return form and filing
+### Section 6 -- Return form and filing
 
 ### 6.1 Filing forms
 
@@ -262,7 +262,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ---
 
-## Section 7 -- Thresholds, penalties, and deadlines
+### Section 7 -- Thresholds, penalties, and deadlines
 
 ### 7.1 Economic nexus
 
@@ -313,7 +313,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ---
 
-## Section 8 -- Edge cases
+### Section 8 -- Edge cases
 
 ### EC1 -- SaaS vs. downloaded software
 
@@ -401,7 +401,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ---
 
-## Section 10 -- Prohibitions
+### Section 10 -- Prohibitions
 
 - NEVER apply a clothing exemption in California -- clothing is fully taxable at all times.
 - NEVER treat pure SaaS (cloud-only, no download) as taxable -- California has not extended sales tax to pure SaaS.
@@ -416,13 +416,13 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ---
 
-## Disclaimer
+### Disclaimer
 
 This skill is provided for informational and computational purposes only and does not constitute tax, legal, or financial advice. All outputs must be reviewed by a qualified professional (CPA, EA, or tax attorney) before filing.
 
 ---
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 

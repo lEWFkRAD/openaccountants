@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Figures are for tax year 2026 unless a line says otherwise. A dated section near the end covers 2025 returns filed on extension. Researched on 25 September 2026 from the Revenue and Taxation Code (R&TC) and Franchise Tax Board (FTB) pages and instructions.
 
-## Scope and who it is for ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
+## Who this applies to
 
 This skill covers the California return of a **single-member LLC (SMLLC) that is disregarded for federal tax**. Federal law disregards an eligible entity with a single owner as "an entity separate from its owner" unless it elects to be a corporation ([26 CFR 301.7701-3](https://www.law.cornell.edu/cfr/text/26/301.7701-3)). California follows the federal classification. The FTB says: "If an eligible entity is disregarded for federal tax purposes, it is also disregarded for state tax purposes, except that an SMLLC must still pay a tax and fee, file a return, and limit tax credits."
 
@@ -30,7 +30,7 @@ The annual tax and fee rules, fee bands and the full doing-business tests are se
 
 It does **not** cover multi-member LLCs, LLCs taxed as corporations (they file Form 100 or 100S), the owner's own income tax computation (for a California resident individual, see **ca-540-individual-return**), estimated personal tax, nonresident withholding, or the pass-through entity elective tax.
 
-## Ask the client first
+### Ask the client first
 
 - Is the LLC organized in California, registered with the Secretary of State (SOS) as a foreign LLC, or neither? Get the exact SOS filing date.
 - Has it elected to be taxed as a corporation (federal Form 8832 or 2553)? If so, it is out of scope.
@@ -43,7 +43,7 @@ It does **not** cover multi-member LLCs, LLCs taxed as corporations (they file F
 - Has it stopped doing business? Has it filed a final Form 568 or any SOS cancellation form, and on what dates?
 - Was the owner a deployed member of the US Armed Forces during the year?
 
-## The method, step by step
+### The method, step by step
 
 1. **Confirm the classification.** One owner, disregarded for federal tax. If it elected corporate status, stop and use the corporation rules.
 2. **Test whether it must file and pay.** Organized in California, registered with the SOS, or doing business under R&TC §23101: any one is enough. Then check the exceptions: the 15-day short year, the deployed-military exemption, and short form cancellation.
@@ -56,7 +56,7 @@ It does **not** cover multi-member LLCs, LLCs taxed as corporations (they file F
 9. **Owner's return.** Report the SMLLC's income, deductions and credits on the owner's own return: Form 540 for a resident, Form 540NR for a nonresident or part-year resident, Form 100 or 100S for a corporation. Limit credits from the SMLLC.
 10. **Stopping.** If the business has ended, file a timely final Form 568 and the SOS cancellation within the time limits below.
 
-## Who must file Form 568 ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
+### Who must file Form 568 ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
 
 A disregarded SMLLC files Form 568 and pays the annual tax if **any** of these is true ([R&TC §17941](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17941.)):
 
@@ -76,7 +76,7 @@ An organized or registered LLC owes the tax for each taxable year, or part of on
 
 "Exceed" means more than. The 2025 indexed amounts are $757,070 (sales), $75,707 (property) and $75,707 (payroll). The FTB had not published the 2026 amounts at 25 September 2026, so label any use of these as 2025 ([FTB: Doing business in California](https://www.ftb.ca.gov/file/business/doing-business-in-california.html)). The full tests are in **ca-llc-fee-and-tax**. (not yet confirmed)
 
-## Figures and deadlines, tax year 2026 ([FTB: Limited liability company](https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html))
+## Rates, bands and thresholds
 
 ### Annual LLC tax: form FTB 3522 ([2026 FTB 3522 instructions](https://www.ftb.ca.gov/forms/2026/2026-3522.pdf))
 
@@ -124,7 +124,7 @@ An SMLLC formed in 2026 pays $800 for 2026 (unless the 15-day rule in the bounda
 - **Filing only.** An extension "is not an extension of time for payment of tax required to be paid on or before the due date of the return without regard to extension" ([R&TC §18567](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=18567.)).
 - **Weekends and holidays.** A due date that falls on a weekend or holiday moves to the next business day.
 
-## What goes on Form 568, and the owner's return ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
+## The taxable base
 
 ### The SMLLC's Form 568 ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
 
@@ -170,7 +170,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 
 "Utilization of credits attributable to the SMLLC is limited to the regular tax liability on the income attributable to the activities of the SMLLC" (2025 Form 568 booklet). The owner computes its tax with and without the SMLLC's items. The difference is the most the SMLLC's credits can offset.
 
-## Penalties ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
+### Penalties ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
 
 - **Late annual tax.** If the $800 is not paid by the 15th day of the 4th month, a late-payment penalty and interest run from that date ([2026 FTB 3522 instructions](https://www.ftb.ca.gov/forms/2026/2026-3522.pdf)). Pay a late prior-year tax on that year's form 3522, not the current one.
 - **Late payment** (R&TC §19132). This starts at 5% and rises by 0.5% for each month or part of a month unpaid, up to 25%. For the fee balance and the Schedule T tax, it runs from the original due date of the return.
@@ -180,7 +180,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 - **Unregistered foreign or suspended SMLLC** (R&TC §19135). If it is doing business in California and does not file within 60 days after an FTB notice and demand, it is charged $2,000 per taxable year, unless it has reasonable cause ([R&TC §19135](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19135.)).
 - **Interest** runs on unpaid amounts from the original due date. Use the FTB's current rate. This skill does not quote one.
 
-## Boundary and exception table ([R&TC §17946](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17946.))
+### Boundary and exception table ([R&TC §17946](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17946.))
 
 | Situation | Result |
 |---|---|
@@ -193,7 +193,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 | LLC elected to be taxed as a corporation | Outside Form 568. It files Form 100 or 100S |
 | California total income just below the first fee band | No fee. Check that interest, gains and other income have all been included on Schedule IW before relying on it |
 
-## Worked cases ([R&TC §17942](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17942.))
+### Worked cases ([R&TC §17942](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17942.))
 
 ### Case A: resident consultant, under the fee threshold (2026) ([FTB: Limited liability company](https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html))
 
@@ -240,7 +240,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 - **SOS filings.** Form LLC-3 (dissolution) and form LLC-4/7 (cancellation).
 - **Stopping the 2027 tax.** No 2027 tax is assessed only if all three conditions under Cancelling the SMLLC are met. The safest course is to file the SOS cancellation before 31 December 2026. If it is filed later, "a subsequent year return and an additional $800 tax may be required."
 
-## When to refuse or refer
+### When to refuse or refer
 
 - **Classification is unclear.** This includes an SMLLC that elected corporate status, a pre-1997 foreign SMLLC still classified as a corporation for California, or a second member admitted during the year. Refer.
 - **Nexus is disputed.** This includes an out-of-state SMLLC that is near the §23101 thresholds, has agents or staff in California, or relies on Public Law 86-272 (which does not remove the annual tax or fee; see ca-llc-fee-and-tax). Refer to a California multistate specialist.
@@ -251,7 +251,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 - **Tiered structures.** An SMLLC that owns other LLCs (amounts already subject to the fee are excluded), or one owned by a partnership.
 - **Commonly controlled LLCs** that the FTB may aggregate for the fee (§17942(b)(2)). See **ca-llc-fee-and-tax**.
 
-## Filing and payment ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
+## Deadlines and filing
 
 | Step | Form | Due (calendar-year individual owner, tax year 2026) |
 |---|---|---|
@@ -290,7 +290,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 - **First-year relief.** An SMLLC formed in 2024 or 2025 had none.
 - **Thresholds and rates.** The doing-business amounts and Schedule T rates quoted above are the 2025 figures.
 
-## Completion checklist ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
+### Completion checklist ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
 
 - [ ] Single owner and disregarded status confirmed. No corporate election.
 - [ ] Trigger recorded: organized, registered, or doing business under §23101, with each test run against the lesser of 25% and that year's indexed amount.
@@ -308,16 +308,47 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: unarchived figures listed below.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

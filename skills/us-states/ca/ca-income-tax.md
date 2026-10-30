@@ -11,7 +11,7 @@ last_updated: 2026-06-12
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## What this file is, and what it is not
+### What this file is, and what it is not
 
 **This file is a content skill that loads on top of `us-tax-workflow-base` v0.1.** It provides the California personal income tax computation rules for a full-year California resident sole proprietor or single-member LLC owner for tax year 2025. It does not provide workflow architecture -- that comes from the base. It does not compute California estimated tax (ca-estimated-tax-540es), SMLLC franchise tax (ca-smllc-form-568), or the individual mandate penalty (ca-form-3853-coverage) -- those are separate content skills.
 
@@ -21,7 +21,7 @@ last_updated: 2026-06-12
 
 ---
 
-## Section 1 -- Scope statement
+## Who this applies to
 
 This skill covers California Form 540 (Resident Income Tax Return) for tax year 2025 for taxpayers who are:
 
@@ -51,7 +51,7 @@ This skill does NOT cover:
 
 ---
 
-## Section 2 -- Year coverage and currency
+## Rates, bands and thresholds
 
 **Tax year covered:** 2025 (California returns due April 15, 2026, or October 15, 2026 with extension).
 
@@ -72,7 +72,7 @@ This skill does NOT cover:
 
 ---
 
-## Section 3 -- Year-specific figures table for tax year 2025
+### Section 3 -- Year-specific figures table for tax year 2025
 
 All dollar thresholds, rates, and indexed figures in one place.
 
@@ -149,7 +149,7 @@ All dollar thresholds, rates, and indexed figures in one place.
 
 ---
 
-## Section 4 -- Primary source library
+### Section 4 -- Primary source library
 
 | Source | Use |
 |---|---|
@@ -172,7 +172,7 @@ All dollar thresholds, rates, and indexed figures in one place.
 
 ---
 
-## Section 5 -- Schedule CA (540): Federal-to-California adjustments
+## The taxable base
 
 This is the critical section. California starts with federal AGI and adjusts it. Every OBBBA decoupling item must be identified and added back.
 
@@ -217,7 +217,7 @@ California conforms to the IRC generally as of January 1, 2015, with selective u
 
 ---
 
-## Section 6 -- Deduction computation
+### Section 6 -- Deduction computation
 
 ### 6.1 -- Standard vs. itemized
 
@@ -243,7 +243,7 @@ The taxpayer may choose independently for California. A taxpayer who itemizes fe
 
 ---
 
-## Section 7 -- Tax computation
+### Section 7 -- Tax computation
 
 ### 7.1 -- Regular tax
 
@@ -298,7 +298,7 @@ Apply credits in the following order (R&TC section 17039):
 
 ---
 
-## Section 8 -- SDI / VPDI deduction
+### Section 8 -- SDI / VPDI deduction
 
 - SDI (State Disability Insurance) or VPDI (Voluntary Plan Disability Insurance) withheld from wages is deductible as an itemized deduction on the CA return.
 - SDI/VPDI is NOT deductible on the federal return (it is a state tax, subject to SALT cap federally, but on the CA return it gets its own treatment).
@@ -307,7 +307,7 @@ Apply credits in the following order (R&TC section 17039):
 
 ---
 
-## Section 9 -- PROHIBITIONS
+### Section 9 -- PROHIBITIONS
 
 **P-540-1.** NEVER apply the federal QBI deduction on the California return. California does not allow §199A. The full QBI amount must be added back on Schedule CA.
 
@@ -331,7 +331,7 @@ Apply credits in the following order (R&TC section 17039):
 
 ---
 
-## Section 10 -- Edge Cases
+### Section 10 -- Edge Cases
 
 ### EC-540-1 -- Taxpayer with large OBBBA bonus depreciation claim
 
@@ -430,7 +430,7 @@ Apply credits in the following order (R&TC section 17039):
 
 ---
 
-## Section 11 -- Test Suite
+### Section 11 -- Test Suite
 
 ### Test 540-1 -- Basic single filer, no OBBBA complications
 
@@ -469,7 +469,7 @@ Apply credits in the following order (R&TC section 17039):
 
 ---
 
-## Section 12 -- Self-checks
+### Section 12 -- Self-checks
 
 **Check 200 -- Federal AGI flows to Schedule CA.** Verify that federal AGI on Schedule CA Line 37 matches the federal Form 1040 Line 11.
 
@@ -495,7 +495,7 @@ Apply credits in the following order (R&TC section 17039):
 
 ---
 
-## Section 13 -- Cross-skill references
+### Section 13 -- Cross-skill references
 
 **Inputs from:**
 - `us-federal-return-assembly` -- federal AGI, federal tax, all federal positions
@@ -512,7 +512,7 @@ Apply credits in the following order (R&TC section 17039):
 
 ---
 
-## Section 14 -- Known gaps
+### Section 14 -- Known gaps
 
 1. Part-year and nonresident returns (Form 540NR) are not supported.
 2. Community property rules for RDP/same-sex couples require reviewer judgment.
@@ -525,12 +525,47 @@ Apply credits in the following order (R&TC section 17039):
 - **v0.1 (April 2026):** Stub.
 - **v0.2 (April 2026):** Full content skill with Schedule CA adjustments, OBBBA decoupling, brackets, credits, AMT, edge cases, and test suite.
 
-## End of skill
+### End of skill
 
 ---
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://www.openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: unarchived figures listed below.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

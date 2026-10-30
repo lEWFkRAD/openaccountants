@@ -44,7 +44,7 @@ This skill covers California employer payroll for 2026:
 
 **Prerequisites:** Load this skill with `us-tax-workflow-base`. A credentialed reviewer (Enrolled Agent, CPA or attorney) or an experienced California payroll practitioner reviews every output before it reaches the employer or EDD.
 
-## 2. The Four California Employer Payroll Taxes (Quick Map)
+### 2. The Four California Employer Payroll Taxes (Quick Map)
 
 EDD's DE 44 (California Employer's Guide 2026) sets out who pays each tax and on which wages. Rates for 2026 come from EDD's rates page in the first table below.
 
@@ -96,7 +96,7 @@ What employers get wrong most often:
 - ETT is not paid by every employer. It applies to employers with a positive UI reserve account balance and employers subject to section 977(c). The DE 2088 shows the employer's rate.
 - A bonus paid with regular wages must be added to the regular wages and withheld under the schedules. The flat bonus rate applies only to a payment made separately.
 
-## 3. California PIT Withholding
+### 3. California PIT Withholding
 
 ### 3.1 Authority and Method
 
@@ -163,7 +163,7 @@ The flat bonus rate is a withholding rate, not the employee's tax. EDD's own ann
 - **HSA contributions.** EDD's Types of Payments table treats contributions to a Health Savings Account (HSA) as "Subject" to UI and ETT, SDI and PIT withholding, and "Reportable" as PIT wages, whether or not they are made under a section 125 cafeteria plan. California payroll that excludes HSA contributions the way federal payroll does understates California wages. The information sheet is revision 1 of June 2016; it is the current version on EDD's forms page. [DE 231TP](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de231tp.pdf)
 - **Other differences.** For any other payment type (fringe benefits, lodging, life insurance, tuition programs), look up the row in DE 231TP before setting up the pay code. The live version of this skill stated a rule for registered domestic partner health benefits; no allowed page confirms it, so it is removed.
 
-## 4. State Disability Insurance (SDI)
+### 4. State Disability Insurance (SDI)
 
 ### 4.1 SDI: No Wage Ceiling Since 2024
 
@@ -204,7 +204,7 @@ Payroll systems that were not reconfigured when the cap was removed keep stoppin
 
 - **Voluntary Plan (VP).** An employer may apply to EDD for approval of a Voluntary Plan that pays DI and PFL benefits in place of SDI. A VP "must provide all the benefits of SDI, at least one benefit that is better than SDI, and it cannot cost employees more than SDI". The employer must post a security deposit with EDD. Once approved, the employer stops sending SDI withholdings to EDD for the covered employees. The live version of this skill said a VP needs a majority employee vote; DE 44 does not say so, and that statement is removed. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 
-## 5. Unemployment Insurance (UI)
+### 5. Unemployment Insurance (UI)
 
 ### 5.1 Mechanics
 
@@ -234,13 +234,13 @@ The 2026 reduction is fixed by the federal government after the year ends; EDD's
 
 The live version of this skill described a voluntary contribution to buy down the UI rate, with a March deadline. No page read for this rewrite states the deadline or the conditions, so the rule is not repeated here. Ask EDD or check DE 231Z before advising on it. [DE 231Z](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de231z.pdf)
 
-## 6. Employment Training Tax (ETT)
+### 6. Employment Training Tax (ETT)
 
 - **Rate and base.** ETT is charged at the 2026 ETT rate in the first table in section 2, on the same per-employee wage limit as UI. The DE 44 maximum per employee is in the second table. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 - **Who pays.** ETT is set by statute and applies to UI taxable wages of employers with positive UI reserve account balances and of employers subject to section 977(c) of the California Unemployment Insurance Code (DE 44, State Payroll Taxes table). An employer with a negative reserve balance that is not subject to section 977(c) does not pay it. The DE 2088 shows whether ETT applies. DE 44 states: "All tax-rated employers, including new employers, are subject to the ETT." It also states: "Employers do not pay the ETT while their accounts have a negative reserve balance, but they must pay a higher rate of Unemployment Insurance (UI) tax." The DE 2088 shows the ETT rate assigned. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 - **Reporting.** ETT is reported on the DE 9 with UI, SDI and PIT. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 
-## 7. Quarterly and Annual Filings
+### 7. Quarterly and Annual Filings
 
 ### 7.1 Form DE 9: Quarterly Contribution Return and Report of Wages
 
@@ -274,7 +274,7 @@ Source: [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf), table
 - **Reconcile to Form W-2.** The year's DE 9C totals for each employee must agree with Form W-2 Box 16 (California PIT wages), Box 17 (California PIT withheld) and Box 14 (SDI withheld). EDD also compares DE 9 lines C and D2 with the federal Form 940 (section 5.2). [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 - **Late reports.** If returns are filed late or payments are not made on time, EDD sends a Statement of Account (DE 2176), and an unpaid balance can lead to a state tax lien that becomes public record. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 
-## 8. Deposit Cadence: DE 88 and e-Services
+### 8. Deposit Cadence: DE 88 and e-Services
 
 SDI and PIT deposits follow the employer's federal deposit schedule and the amount of PIT accumulated. UI and ETT are not deposited on this schedule; they are paid quarterly. The thresholds are in the DE 44 table in section 2.
 
@@ -303,7 +303,7 @@ Source: [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf), table
 - **Failure to withhold and send.** Failing to withhold payroll taxes and send them to EDD, "even by mistake, can result in a misdemeanor charge", with a fine and jail term on conviction (fine in the DE 44 table in section 2). [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 - **Removed.** The live version of this skill cited Revenue and Taxation Code percentage penalties for negligence and fraud and a Franchise Tax Board interest range. Those are not on any EDD page read for this rewrite; confirm any Franchise Tax Board penalty on ftb.ca.gov.
 
-## 9. CalSavers
+### 9. CalSavers
 
 ### 9.1 Statutory Authority
 
@@ -321,7 +321,7 @@ Not covered (see 9.1). Confirm registration, exemption and payroll deduction dut
 
 Not covered (see 9.1). The live version of this skill stated penalties per employee; they are removed. Ask the employer whether it offers a qualified retirement plan, and if not, refer the CalSavers question.
 
-## 10. Worker Classification (ABC Test)
+### 10. Worker Classification (ABC Test)
 
 ### 10.1 Statutory Authority
 
@@ -342,7 +342,7 @@ Not covered (see 9.1). The live version of this skill stated penalties per emplo
 - **Wage-and-hour claims.** Unpaid wage, overtime, wage statement and Private Attorneys General Act claims follow a misclassification. The live version of this skill stated penalty amounts and limitation periods for them; those are removed. Refer to employment counsel.
 - **Protocol.** Document the ABC analysis in writing before engaging a contractor. If any prong is doubtful, treat the worker as an employee.
 
-## 11. DE 542: Independent Contractor Reporting
+### 11. DE 542: Independent Contractor Reporting
 
 - **Reporting duty.** A business that pays an independent contractor must report the contractor to EDD on the Report of Independent Contractor(s) (DE 542) within 20 calendar days of paying the contractor the threshold amount or more, or entering into a contract for that amount or more, whichever is earlier. The threshold is in the DE 44 table in section 2. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 
@@ -369,7 +369,7 @@ Not covered (see 9.1). The live version of this skill stated penalties per emplo
 - **Who and when.** Report every newly hired employee on the Report of New Employee(s) (DE 34) within 20 calendar days of the employee's start-of-work date. This includes employees rehired after a separation of at least 60 consecutive days and employees returning from a furlough, separation, leave of absence without pay or termination. Employees kept on after buying a business count as new hires. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 - For other states' new hire rules, use `us-state-new-hire-reporting-matrix`.
 
-## 12. Wage Statement Requirements: Labor Code Section 226
+### 12. Wage Statement Requirements: Labor Code Section 226
 
 - **Every payday.** Under Labor Code Section 226(a), semimonthly or every time wages are paid, whether by check, in cash or otherwise, the employee must receive a detachable part of the check or a separate writing showing the required information. Only the last four digits of the social security number, or an employee identification number other than a social security number, may be shown. [DIR paydays FAQ](https://www.dir.ca.gov/dlse/FAQ_Paydays.htm)
 - **Overtime corrections.** Overtime hours recorded as a correction on the next regular pay period's statement, with the dates of the pay period being corrected, comply with Section 226(a) on total hours worked. [DIR paydays FAQ](https://www.dir.ca.gov/dlse/FAQ_Paydays.htm)
@@ -378,7 +378,7 @@ Not covered (see 9.1). The live version of this skill stated penalties per emplo
 
 The live version of this skill stated per-pay-period penalty amounts and an aggregate cap under Section 226(e), and Private Attorneys General Act amounts. The statute site (leginfo.legislature.ca.gov) did not answer for this rewrite and no Labor Commissioner page read prints those amounts, so they are removed. Refer wage statement penalty questions to employment counsel.
 
-## 13. Final Pay
+### 13. Final Pay
 
 ### 13.1 Timing of Final Wages
 
@@ -413,7 +413,7 @@ The live version of this skill stated per-pay-period penalty amounts and an aggr
 
 A higher minimum wage applies to fast food and health care workers and in many cities. Check the local ordinance for the work location.
 
-## 14. Other Employer Obligations
+### 14. Other Employer Obligations
 
 ### 14.1 Workers' Compensation: Mandatory
 
@@ -486,7 +486,7 @@ Payroll software that leaves reported tips out of the UI base understates UI for
 
 For restricted stock units and other equity paid through payroll, the federal side is in `us-equity-compensation-restricted-stock-units-and`; the California treatment of options is in DE 231SK.
 
-## 16. Cross-Guide Coordination
+### 16. Cross-Guide Coordination
 
 - `us-form-941-940-payroll`: federal Forms 941 and 940, federal income tax withholding, social security and Medicare deposits (a named accountant maintains it; this skill links to it and stops).
 - `us-state-payroll-matrix`: other states' payroll taxes (link only).
@@ -499,7 +499,7 @@ For restricted stock units and other equity paid through payroll, the federal si
 - `us-equity-compensation-restricted-stock-units-and`: federal equity compensation.
 - `us-ca-return-assembly`: the California return package for sole proprietors.
 
-## 17. Conservative Defaults: Quick Reference
+### 17. Conservative Defaults: Quick Reference
 
 | Ambiguity | Conservative default |
 | --- | --- |
@@ -553,6 +553,10 @@ When facts are ambiguous, apply the conservative default and disclose it.
 
 ### Sources
 
+| Source | URL | Read on |
+| --- | --- | --- |
+| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+
 Not yet confirmed: figures in this skill lack archived line-citations.
 
 
@@ -579,7 +583,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 Rates, wage limits, schedules, due dates and penalties above are taken from the EDD and Labor Commissioner pages listed in Sources, read on 3 October 2026. The 2026 DE 44 is revision 52. The Franchise Tax Board site (ftb.ca.gov) and the statute site (leginfo.legislature.ca.gov) could not be read for this rewrite; nothing here relies on them, and any figure only they print is labelled "confirm on ftb.ca.gov" or removed.
 
-## 19. Circular 230 Disclosure and Reviewer Responsibility
+### 19. Circular 230 Disclosure and Reviewer Responsibility
 
 This skill is a content reference for credentialed payroll and tax professionals. It is NOT tax advice to the taxpayer. Under Treasury Department Circular 230 §10.33 and §10.37, any written advice based on this skill's output must be reviewed by a credentialed reviewer (Enrolled Agent, CPA, or attorney), or for purely state-payroll matters an experienced payroll practitioner with California-specific competence, before delivery to the client or filing with EDD, the Franchise Tax Board, or any other authority. (not yet confirmed)
 
