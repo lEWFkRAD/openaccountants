@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **Scope.** This skill covers Maine Form 1040ME for full-year Maine residents who are sole proprietors or single-member LLC owners. It addresses the graduated rate structure (5.8%–7.15%, plus a 2% surcharge on high earners), the Maine standard deduction, personal exemption, and key credits.
 >
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Maine Revenue Services publications. A qualified professional must review before filing.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Maine Revenue Services publications. A qualified professional must review before filing.
 
 **Metadata**
 
@@ -29,35 +29,35 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Statute | 36 M.R.S. § 5111 et seq. |
 | Version | 0.1 |
 | Last updated | 2026-05-22 |
-| Validation | AI-drafted — Q3 |
+| Validation | AI-drafted -- Q3 |
 
 | # | Source | URL |
 | --- | --- | --- |
-| 1 | Maine Revenue Services — Individual Income Tax (1040ME) | https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me |
+| 1 | Maine Revenue Services -- Individual Income Tax (1040ME) | https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me |
 | 2 | 2026 Individual Income Tax Rate Schedules (PDF) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-05/ind_tax_rate_sched_2026_rev.pdf |
-| 3 | Thomson Reuters — Maine 2026 Rate Announcement | https://tax.thomsonreuters.com/news/maine-announces-individual-income-tax-rate-schedules-personal-exemption-standard-deduction-for-2026/ |
+| 3 | Thomson Reuters -- Maine 2026 Rate Announcement | https://tax.thomsonreuters.com/news/maine-announces-individual-income-tax-rate-schedules-personal-exemption-standard-deduction-for-2026/ |
 | 4 | 36 M.R.S. § 5111 (rate statute) | https://legislature.maine.gov/statutes/36/title36sec5111.html |
 
 ## Who this applies to
 
-Maine resident individuals and sole proprietors/self-employed filers with Maine-source income (1040ME). Nonresidents/part-year filers (Schedule NR) and corporations are out of scope — see `me-cross-border.md` and `me-corporate-income-tax.md`.
+Maine resident individuals and sole proprietors/self-employed filers with Maine-source income (1040ME). Nonresidents/part-year filers (Schedule NR) and corporations are out of scope -- see `me-cross-border.md` and `me-corporate-income-tax.md`.
 
 ## Rates, bands and thresholds
 
-### Tax rates — 2026 tax year (Single / MFS)
+### Tax rates -- 2026 tax year (Single / MFS)
 
-**Tax rates — 2026 tax year (Single / MFS)**
+**Tax rates -- 2026 tax year (Single / MFS)**
 
 | Taxable income | Rate |
 | --- | --- |
 | $0 – $27,400 | 5.80% |
 | $27,400 – $64,850 | 6.75% |
 | $64,850 – $1,000,000 | 7.15% |
-| Over $1,000,000 | 9.15% (7.15% + 2% surcharge) — surcharge thresholds verified verbatim vs [36 M.R.S. §5111(7), archived 2026-10-28](https://legislature.maine.gov/statutes/36/title36sec5111.html): "an income tax surcharge at the rate of 2% on that portion of the taxpayer's Maine taxable income in excess of: … B. For single individuals, $1,000,000; C. For heads of households, $1,500,000; and D. For individuals filing married joint returns or surviving spouses, $1,500,000" (MFS = 1/2 of the joint amount), for tax years beginning on or after January 1, 2026 (PL 2025, c. 650) |
+| Over $1,000,000 | 9.15% (7.15% + 2% surcharge) -- surcharge thresholds verified verbatim vs [36 M.R.S. §5111(7), archived 2026-10-28](https://legislature.maine.gov/statutes/36/title36sec5111.html): "an income tax surcharge at the rate of 2% on that portion of the taxpayer's Maine taxable income in excess of: … B. For single individuals, $1,000,000; C. For heads of households, $1,500,000; and D. For individuals filing married joint returns or surviving spouses, $1,500,000" (MFS = 1/2 of the joint amount), for tax years beginning on or after January 1, 2026 (PL 2025, c. 650) |
 
-### Tax rates — 2026 tax year (MFJ / Qualifying Surviving Spouse)
+### Tax rates -- 2026 tax year (MFJ / Qualifying Surviving Spouse)
 
-**Tax rates — 2026 tax year (MFJ / Qualifying Surviving Spouse)**
+**Tax rates -- 2026 tax year (MFJ / Qualifying Surviving Spouse)**
 
 | Taxable income | Rate |
 | --- | --- |
@@ -66,9 +66,9 @@ Maine resident individuals and sole proprietors/self-employed filers with Maine-
 | $129,750 – $1,500,000 | 7.15% |
 | Over $1,500,000 | 9.15% (7.15% + 2% surcharge) |
 
-### Tax rates — 2026 tax year (Head of Household)
+### Tax rates -- 2026 tax year (Head of Household)
 
-**Tax rates — 2026 tax year (Head of Household)**
+**Tax rates -- 2026 tax year (Head of Household)**
 
 | Taxable income | Rate |
 | --- | --- |
@@ -77,9 +77,9 @@ Maine resident individuals and sole proprietors/self-employed filers with Maine-
 | $97,300 – $1,500,000 | 7.15% |
 | Over $1,500,000 | 9.15% (7.15% + 2% surcharge) |
 
-### Standard deduction — 2026
+### Standard deduction -- 2026
 
-**Standard deduction — 2026**
+**Standard deduction -- 2026**
 
 | Filing status | Amount |
 | --- | --- |
@@ -87,11 +87,11 @@ Maine resident individuals and sole proprietors/self-employed filers with Maine-
 | MFJ / Surviving Spouse | $31,400 |
 | Head of Household | $23,550 |
 
-- **Standard deduction phase-out** — The standard deduction phases out for single filers with Maine income over $102,250 and MFJ filers with income over $204,550.
+- **Standard deduction phase-out** -- The standard deduction phases out for single filers with Maine income over $102,250 and MFJ filers with income over $204,550.
 
-### Personal exemption — 2026
+### Personal exemption -- 2026
 
-- **Personal exemption per taxpayer/spouse** — $5,300 USD
+- **Personal exemption per taxpayer/spouse** -- $5,300 USD
 
 ### Key thresholds
 
@@ -105,15 +105,15 @@ Maine resident individuals and sole proprietors/self-employed filers with Maine-
 
 ## The taxable base
 
-- **Maine taxable income starting point** — Maine taxable income begins with **federal adjusted gross income (AGI)** from federal Form 1040, Line 11. 1. **Additions** — Add back items Maine does not exclude (e.g., interest on non-Maine state/municipal bonds). 2. **Subtractions** — Subtract items Maine excludes (e.g., Social Security benefits included in federal AGI, U.S. government pension income, Maine public pension income). 3. **Maine adjusted gross income** — Federal AGI + additions − subtractions. 4. **Standard or itemized deduction** — Maine conforms to the federal standard deduction amounts (with phase-out at higher incomes) or allows Maine itemized deductions. 5. **Personal exemption** — $5,300 per qualifying person (2026). 6. **Maine taxable income** — Maine AGI − deduction − exemptions. 7. **Tax** — Apply graduated rates to Maine taxable income. 8. **Credits** — Apply applicable credits (child care, earned income, property tax fairness, etc.).
+- **Maine taxable income starting point** -- Maine taxable income begins with **federal adjusted gross income (AGI)** from federal Form 1040, Line 11. 1. **Additions** -- Add back items Maine does not exclude (e.g., interest on non-Maine state/municipal bonds). 2. **Subtractions** -- Subtract items Maine excludes (e.g., Social Security benefits included in federal AGI, U.S. government pension income, Maine public pension income). 3. **Maine adjusted gross income** -- Federal AGI + additions − subtractions. 4. **Standard or itemized deduction** -- Maine conforms to the federal standard deduction amounts (with phase-out at higher incomes) or allows Maine itemized deductions. 5. **Personal exemption** -- $5,300 per qualifying person (2026). 6. **Maine taxable income** -- Maine AGI − deduction − exemptions. 7. **Tax** -- Apply graduated rates to Maine taxable income. 8. **Credits** -- Apply applicable credits (child care, earned income, property tax fairness, etc.).
 
 ## Deadlines and filing
 
-- **Self-employed specific rules** — 1. **Self-employment income** flows through federal Schedule C → federal AGI → Maine AGI. No separate Maine schedule for self-employment income is required. 2. **Federal SE tax deduction** — The 50% self-employment tax deduction is already reflected in federal AGI. Maine begins from federal AGI, so this deduction carries through automatically. 3. **Estimated taxes** — Quarterly estimated payments via Form 1040ES-ME; installments "due on April 15 … June 16 … September 15 … and January 15" (2025 Form 1040ES-ME instructions, archived, read 2026-10-29). Safe harbor: "the estimated tax paid must be no less than the smaller of … a) An amount equal to the preceding year's tax liability … or b) An amount equal to 90% of the tax liability for the current taxable year" (1040ES-ME instructions). The $1,000-or-more trigger threshold: not yet confirmed. 4. **Business equipment depreciation** — Maine generally conforms to federal depreciation rules, including IRC § 179 expensing. Maine does NOT conform to 100% federal bonus depreciation under IRC § 168(k); check the current conformity date for partial adjustments. 5. **Home office deduction** — Flows through federal Schedule C; no separate Maine adjustment needed. 6. **Health insurance deduction** — The self-employed health insurance deduction is included in federal AGI. No Maine add-back required.
+- **Self-employed specific rules** -- 1. **Self-employment income** flows through federal Schedule C → federal AGI → Maine AGI. No separate Maine schedule for self-employment income is required. 2. **Federal SE tax deduction** -- The 50% self-employment tax deduction is already reflected in federal AGI. Maine begins from federal AGI, so this deduction carries through automatically. 3. **Estimated taxes** -- Quarterly estimated payments via Form 1040ES-ME; installments "due on April 15 … June 16 … September 15 … and January 15" (2025 Form 1040ES-ME instructions, archived, read 2026-10-29). Safe harbor: "the estimated tax paid must be no less than the smaller of … a) An amount equal to the preceding year's tax liability … or b) An amount equal to 90% of the tax liability for the current taxable year" (1040ES-ME instructions). The $1,000-or-more trigger threshold: not yet confirmed. 4. **Business equipment depreciation** -- Maine generally conforms to federal depreciation rules, including IRC § 179 expensing. Maine does NOT conform to 100% federal bonus depreciation under IRC § 168(k); check the current conformity date for partial adjustments. 5. **Home office deduction** -- Flows through federal Schedule C; no separate Maine adjustment needed. 6. **Health insurance deduction** -- The self-employed health insurance deduction is included in federal AGI. No Maine add-back required.
 
 ## Penalties and interest
 
-**Tier 1 rules — deterministic**
+**Tier 1 rules -- deterministic**
 
 | Rule ID | Rule | Source |
 | --- | --- | --- |
@@ -131,19 +131,19 @@ Maine resident individuals and sole proprietors/self-employed filers with Maine-
 
 ## Cross-border points
 
-**Tier 2 rules — requires judgment**
+**Tier 2 rules -- requires judgment**
 
 | Rule ID | Rule | Guidance |
 | --- | --- | --- |
-| ME-T2-01 | **Residency determination** — Maine uses a domicile + permanent place of abode test. A taxpayer who maintains a permanent home in Maine and spends more than 183 days there is a statutory resident. | If the taxpayer has homes in multiple states, flag for professional review. |
-| ME-T2-02 | **Bonus depreciation conformity** — Maine selectively conforms to IRC § 168(k). Check the current conformity date; partial add-backs may be required. | Compare Maine conformity date to federal asset placed-in-service date. |
-| ME-T2-03 | **Standard deduction phase-out** — Computation requires interpolation when AGI is in the phase-out range. | If AGI is near the threshold, compute the reduced deduction carefully. |
-| ME-T2-04 | **Credit for taxes paid to other states** — Non-refundable credit to prevent double taxation on income earned in another state. | Requires the other state's return to compute; flag if multi-state. |
-| ME-T2-05 | **Maine itemized deductions** — If the taxpayer itemizes, Maine generally conforms to federal itemized deductions with some modifications (e.g., Maine caps the medical expense threshold). | Compare federal Schedule A to Maine allowable amounts. |
+| ME-T2-01 | **Residency determination** -- Maine uses a domicile + permanent place of abode test. A taxpayer who maintains a permanent home in Maine and spends more than 183 days there is a statutory resident. | If the taxpayer has homes in multiple states, flag for professional review. |
+| ME-T2-02 | **Bonus depreciation conformity** -- Maine selectively conforms to IRC § 168(k). Check the current conformity date; partial add-backs may be required. | Compare Maine conformity date to federal asset placed-in-service date. |
+| ME-T2-03 | **Standard deduction phase-out** -- Computation requires interpolation when AGI is in the phase-out range. | If AGI is near the threshold, compute the reduced deduction carefully. |
+| ME-T2-04 | **Credit for taxes paid to other states** -- Non-refundable credit to prevent double taxation on income earned in another state. | Requires the other state's return to compute; flag if multi-state. |
+| ME-T2-05 | **Maine itemized deductions** -- If the taxpayer itemizes, Maine generally conforms to federal itemized deductions with some modifications (e.g., Maine caps the medical expense threshold). | Compare federal Schedule A to Maine allowable amounts. |
 
 ## Worked examples
 
-**Worked example 1 — single filer, mid bracket (all facts hypothetical).** Maine taxable income $50,000 (single):
+**Worked example 1 -- single filer, mid bracket (all facts hypothetical).** Maine taxable income $50,000 (single):
 
 ```oa-check
 name: ME single mid bracket
@@ -157,7 +157,7 @@ expected:
   tax: 3114.70
 ```
 
-**Worked example 2 — MFJ over the first bracket (all facts hypothetical).** Maine taxable income $80,000 (MFJ):
+**Worked example 2 -- MFJ over the first bracket (all facts hypothetical).** Maine taxable income $80,000 (MFJ):
 
 ```oa-check
 name: ME mfj second bracket
@@ -190,13 +190,13 @@ expected:
 
 | ID | Situation | Action |
 | --- | --- | --- |
-| ME-R-01 | Part-year or non-resident return (Schedule NR) | Refuse — out of scope |
-| ME-R-02 | Corporate income tax (Form 1120ME) | Refuse — out of scope |
-| ME-R-03 | Estate or trust income tax | Refuse — out of scope |
-| ME-R-04 | Multi-state income apportionment | Refuse — flag for professional review |
-| ME-R-05 | Amended returns | Refuse — out of scope |
-| ME-R-06 | Tax year other than current | Refuse — rates and thresholds may differ |
-| ME-R-07 | Insurance premiums tax | Refuse — different tax type |
+| ME-R-01 | Part-year or non-resident return (Schedule NR) | Refuse -- out of scope |
+| ME-R-02 | Corporate income tax (Form 1120ME) | Refuse -- out of scope |
+| ME-R-03 | Estate or trust income tax | Refuse -- out of scope |
+| ME-R-04 | Multi-state income apportionment | Refuse -- flag for professional review |
+| ME-R-05 | Amended returns | Refuse -- out of scope |
+| ME-R-06 | Tax year other than current | Refuse -- rates and thresholds may differ |
+| ME-R-07 | Insurance premiums tax | Refuse -- different tax type |
 
 **Form mapping**
 
@@ -220,7 +220,7 @@ expected:
 | 2025 Form 1040ME instructions | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040me_gen_instr_w_cover_pg.pdf | 2026-10-29 |
 | 2025 Form 1040ES-ME instructions (estimated tax) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040es_dwnld_ff.pdf | 2026-10-29 |
 
-Not yet confirmed: the standard-deduction phase-out thresholds ($102,250 / $204,550) — not line-cited in the archived rate-schedule PDF.
+Not yet confirmed: the standard-deduction phase-out thresholds ($102,250 / $204,550) -- not line-cited in the archived rate-schedule PDF.
 
 <!-- openaccountants-cta-block -->
 
@@ -228,7 +228,7 @@ Not yet confirmed: the standard-deduction phase-out thresholds ($102,250 / $204,
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

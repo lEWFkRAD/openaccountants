@@ -2,7 +2,7 @@
 name: me-transfer-pricing
 description: >
   Use this skill whenever asked about Maine transfer pricing and unitary
-  business rules for 2026 — Rule 810 (Maine Unitary Business Taxable
+  business rules for 2026 -- Rule 810 (Maine Unitary Business Taxable
   Income, Combined Reports and Tax Returns), Rule 801 apportionment,
   Rule 808 nexus, and how related-party dealings get policed in Maine
   (combined reporting rather than a standalone TP documentation regime).
@@ -30,7 +30,7 @@ Maine polices related-party pricing mainly through **unitary-business combined r
 
 ## Who this applies to
 
-- Corporations whose income is computed on a **combined basis** because they are part of a unitary business — the Unitary Questionnaire on the MRS page is the diagnostic form (verified to exist).
+- Corporations whose income is computed on a **combined basis** because they are part of a unitary business -- the Unitary Questionnaire on the MRS page is the diagnostic form (verified to exist).
 - Any filer claiming intercompany charges (management fees, royalties, interest, rents) that shift income out of Maine.
 
 ## Rates, bands and thresholds
@@ -39,13 +39,13 @@ No standalone TP rate. Exposure runs through the corporate graduated scale (see 
 
 ## The taxable base
 
-- **Unitary determination:** the questionnaire + Rule 810 factors — Rule 810 (archived) sets the standards; the 1120ME instructions state the unity-of-ownership/functional-integration/centralization-of-management/economic-integration test.
-- **Combined report:** group income combined, then apportioned to Maine under Rule 801 — "Maine utilizes a single sales factor apportionment formula" (1120ME instructions, archived).
-- **Documentation:** no Maine-specific TP file requirement located — not yet confirmed; federal §482 work is the practical baseline.
+- **Unitary determination:** the questionnaire + Rule 810 factors -- Rule 810 (archived) sets the standards; the 1120ME instructions state the unity-of-ownership/functional-integration/centralization-of-management/economic-integration test.
+- **Combined report:** group income combined, then apportioned to Maine under Rule 801 -- "Maine utilizes a single sales factor apportionment formula" (1120ME instructions, archived).
+- **Documentation:** no Maine-specific TP file requirement located -- not yet confirmed; federal §482 work is the practical baseline.
 
 ## Deadlines and filing
 
-Combined reports ride the 1120ME calendar ("Form 1120ME due date: April 15, 2026", 1120ME instructions, archived). Adjustments attract the same penalty/interest regime as underpaid corporate tax — estimated-tax penalty 9% compounded monthly for calendar 2026 (1120ME instructions).
+Combined reports ride the 1120ME calendar ("Form 1120ME due date: April 15, 2026", 1120ME instructions, archived). Adjustments attract the same penalty/interest regime as underpaid corporate tax -- estimated-tax penalty 9% compounded monthly for calendar 2026 (1120ME instructions).
 
 ## Penalties and interest
 
@@ -53,11 +53,11 @@ Late filing and late payment attract Maine Revenue Services penalties and intere
 
 ## Cross-border points
 
-Foreign affiliates inside a unitary chain may be swept into the combined report (water's-edge treatment not yet confirmed). Treaty non-relevance: state tax is not treaty-protected — standing US principle.
+Foreign affiliates inside a unitary chain may be swept into the combined report (water's-edge treatment not yet confirmed). Treaty non-relevance: state tax is not treaty-protected -- standing US principle.
 
 ## Worked examples
 
-**Worked example 1 — combined income apportioned to Maine (all facts hypothetical).** Unitary group combined taxable income $2,000,000; Maine apportionment factor 25%:
+**Worked example 1 -- combined income apportioned to Maine (all facts hypothetical).** Unitary group combined taxable income $2,000,000; Maine apportionment factor 25%:
 
 ```oa-check
 name: ME combined apportionment
@@ -70,7 +70,7 @@ expected:
   me_share: 500000.00
 ```
 
-**Worked example 2 — royalty shift exposure (all facts hypothetical).** A $300,000 intercompany royalty moves income from the Maine unitary member to a low-tax affiliate; with a 25% Maine factor the Maine combined base falls by $300,000 × 25% = $75,000, taxed at the 3.5% bottom band if the group is small:
+**Worked example 2 -- royalty shift exposure (all facts hypothetical).** A $300,000 intercompany royalty moves income from the Maine unitary member to a low-tax affiliate; with a 25% Maine factor the Maine combined base falls by $300,000 × 25% = $75,000, taxed at the 3.5% bottom band if the group is small:
 
 ```oa-check
 name: ME royalty shift exposure
@@ -90,24 +90,24 @@ expected:
 
 - Is the group unitary (common control + operational integration)? Have you completed the MRS Unitary Questionnaire?
 - What intercompany fees/royalties/interest run out of Maine entities, and are they supported by arm's-length studies?
-- Are foreign affiliates in the chain — what water's-edge posture does Maine take (not yet confirmed)?
+- Are foreign affiliates in the chain -- what water's-edge posture does Maine take (not yet confirmed)?
 
 ## Sources
 
 | Source | URL | Read on |
 |---|---|---|
-| MRS Corporate Income Tax (1120ME) page — Rules 801/808/810 and Unitary/Nexus Questionnaires | https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me | 2026-10-29 |
+| MRS Corporate Income Tax (1120ME) page -- Rules 801/808/810 and Unitary/Nexus Questionnaires | https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me | 2026-10-29 |
 | MRS Rule 801 (combined reporting) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule%20801%20-%20Clean%20Copy%205-29-25.pdf | 2026-10-29 |
 | MRS Rule 810 (unitary business combination) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule_810_May_2023.pdf | 2026-10-29 |
 
 Not yet confirmed: Rule 801/810 operative-text line-cites beyond the summaries quoted, ownership thresholds, water's-edge posture, addback statutes, documentation requirements.
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Maine unitary/TP questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Maine unitary/TP questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
