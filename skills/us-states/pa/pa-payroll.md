@@ -31,13 +31,6 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 - **Local rates change.** Municipalities and school districts set EIT and LST rates; the Department of Community and Economic Development (DCED) publishes them. Look up the current rate by address ([Local income tax information](https://dced.pa.gov/local-government/local-income-tax-information/)).
 
 
-## The taxable base
-
-- **PA PIT withholding base:** PA-source compensation — salaries, wages, commissions, bonuses, fees, stock options and tips, in cash or property. Elective 401(k) and other retirement deferrals are taxable for Pennsylvania and go in PA wages on the W-2; employer welfare-benefit payments (medical/dental/vision) are generally not; group term life is excluded if the program is nondiscriminatory; personal use of employer property (e.g. a company car) is not compensation, but a cash allowance for it is; pay in lieu of vacation, adoption assistance and non-job-related education are taxable.
-- **Source rule:** residents owe on all compensation (with the other-state exceptions in Cross-border points); nonresidents on the PA working-day fraction of compensation.
-- **Local EIT base:** earned income and net profits of residents and of nonresidents working in the municipality, per Act 32.
-- **LST base:** a flat per-person, per-year amount ($52 cap), not a percentage of pay.
-- **UC employer base:** the first $10,000 of each employee's wages per calendar year; the 0.07% employee contribution applies to all gross wages with no cap.
 
 ## Rates, bands and thresholds
 
@@ -166,6 +159,13 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 
 
 
+## The taxable base
+
+- **PA PIT withholding base:** PA-source compensation — salaries, wages, commissions, bonuses, fees, stock options and tips, in cash or property. Elective 401(k) and other retirement deferrals are taxable for Pennsylvania and go in PA wages on the W-2; employer welfare-benefit payments (medical/dental/vision) are generally not; group term life is excluded if the program is nondiscriminatory; personal use of employer property (e.g. a company car) is not compensation, but a cash allowance for it is; pay in lieu of vacation, adoption assistance and non-job-related education are taxable.
+- **Source rule:** residents owe on all compensation (with the other-state exceptions in Cross-border points); nonresidents on the PA working-day fraction of compensation.
+- **Local EIT base:** earned income and net profits of residents and of nonresidents working in the municipality, per Act 32.
+- **LST base:** a flat per-person, per-year amount ($52 cap), not a percentage of pay.
+- **UC employer base:** the first $10,000 of each employee's wages per calendar year; the 0.07% employee contribution applies to all gross wages with no cap.
 ## Deadlines and filing
 
 ### Returns and due dates ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf); [DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/); [UC quarterly reports](https://www.pa.gov/services/dli/file-unemployment-compensation-quarterly-wage-tax-reports))
