@@ -249,7 +249,6 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 - https://comptroller.texas.gov/taxes/franchise/ (as_of: 2026-10-28)
 - https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php (as_of: 2026-10-28)
 - https://comptroller.texas.gov/taxes/franchise/ntd-rpt-updates-2024.php (as_of: 2026-10-28)
-- https://openaccountants.com (as_of: 2026-10-28)
 -  (as_of: 2026-10-28)
 -  (as_of: 2026-10-28)
 -  (as_of: 2026-10-28)
@@ -294,7 +293,15 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
+Not yet confirmed: figures in this skill lack archived line-citations.
+
 Not yet confirmed against archived sources.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| comptroller.texas.gov/taxes/franchise/forms | https://comptroller.texas.gov/taxes/franchise/forms/ | 2026-10-28 |
+| comptroller.texas.gov/taxes/franchise | https://comptroller.texas.gov/taxes/franchise/ | 2026-10-28 |
+| comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php | https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php | 2026-10-28 |
 
 ## Talk to a verified accountant
 

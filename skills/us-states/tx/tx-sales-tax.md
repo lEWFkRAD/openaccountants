@@ -323,8 +323,17 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
+Not yet confirmed: figures in this skill lack archived line-citations.
+
 Not yet confirmed against archived sources.
 
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 ## Talk to a verified accountant
 
 Not yet confirmed against archived sources.

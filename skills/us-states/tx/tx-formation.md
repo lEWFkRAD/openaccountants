@@ -12,9 +12,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # TX Formation
 
-## Texas Entity Formation — Tax Year 2025
+### Texas Entity Formation — Tax Year 2025
 
-## 1. Scope
+### 1. Scope
 
 This skill provides guidance on forming a Texas business entity (LLC, C-Corp, S-Corp, Series LLC) and on qualifying a foreign (out-of-state) entity to do business in Texas. It is written for founders, freelance software developers transitioning from sole proprietorship, small-business owners relocating from California or New York, and tax professionals advising on Texas entity choice for tax year 2025.
 
@@ -49,7 +49,7 @@ This skill provides guidance on forming a Texas business entity (LLC, C-Corp, S-
 - `tx-franchise-tax` for the Public Information Report mechanics
 - `tx-margin-tax` for the margin tax computation when revenue exceeds the No Tax Due threshold
 
-## 2. Why Texas?
+### 2. Why Texas?
 
 Texas has, over the past decade, become one of the most popular jurisdictions in the United States for entity formation, second only to Delaware in cumulative founder mindshare and ahead of Delaware in raw resident-business formation. The reasons fall into four categories: (a) the absence of a state personal income tax, (b) a generous franchise/margin tax No Tax Due threshold, (c) low overall operating costs, and (d) a deep and growing technology ecosystem.
 
@@ -85,7 +85,7 @@ For a founder, the practical implication is that Texas now offers access to engi
 
 - **Post-Wayfair economic nexus adoption** — The 2018 U.S. Supreme Court decision in South Dakota v. Wayfair, Inc., 138 S. Ct. 2080 (2018), eliminated the physical-presence requirement for state-tax nexus. Texas adopted economic-nexus standards across both its sales-tax regime and its franchise-tax regime. The franchise-tax economic-nexus threshold is $500,000 in Texas-sourced gross receipts under the Texas Comptroller's Rule §3.586. This means out-of-state entities with substantial Texas customers may owe Texas franchise tax even without any physical presence — covered in detail in Section 9.  _(South Dakota v. Wayfair, Inc., 138 S. Ct. 2080 (2018); Texas Comptroller Rule §3.586)_
 
-## 3. Texas LLC Formation
+### 3. Texas LLC Formation
 
 The Texas Limited Liability Company is the workhorse entity for small businesses, freelancers transitioning out of sole proprietorship, real estate investors, and consultants. It combines pass-through federal tax treatment (by default) with limited liability protection.
 
@@ -146,7 +146,7 @@ For a single-member LLC, an operating agreement is still recommended to evidence
 
 - **EIN application and default classifications** — After SOS filing, the founder applies for a Federal Employer Identification Number (EIN) via IRS Form SS-4 (free, instant online). A single-member LLC defaults to disregarded entity status for federal tax (reported on the owner's Schedule C). A multi-member LLC defaults to partnership status (Form 1065). Either may elect to be taxed as a C-corp (Form 8832) or as an S-corp (Form 2553) — see us-s-corp-election-decision.
 
-## 4. Texas C-Corp Formation
+### 4. Texas C-Corp Formation
 
 The Texas For-Profit Corporation is used primarily by venture-backed startups, businesses planning a public offering, and certain professional firms.
 
@@ -180,7 +180,7 @@ A C-Corp engaged in software development, consulting, professional services, or 
 
 - **S-corp election timing and Texas treatment** — A Texas C-Corp may elect S-corporation status by filing Form 2553 with the IRS within 2 months and 15 days of the start of the tax year for which the election is to be effective (or for the entity's first tax year). The S-corp election does not change Texas-level treatment — Texas treats both C-corps and S-corps identically as taxable entities for franchise-tax purposes (BOC and Tax Code do not recognize the S-corp election). The S-corp election affects only federal income tax and Texas self-employment tax exposure (Texas has no SE-tax equivalent). See us-s-corp-election-decision.
 
-## 5. Texas Series LLC
+### 5. Texas Series LLC
 
 - **Series LLC statutory basis** — Texas permits Series LLCs by statute under BOC §101.601–§101.621, added by Senate Bill 1442 (81st Legislature, 2009 Regular Session), effective September 1, 2009. The Series LLC is a single legal entity that may establish one or more internal "series," each of which can hold separate assets, conduct separate operations, have separate members, and — critically — be firewalled from the liabilities of the parent LLC and of every other series, provided certain statutory formalities are observed.  _(BOC §101.601–§101.621; Senate Bill 1442 (81st Legislature, 2009 Regular Session))_
 
@@ -214,7 +214,7 @@ A failure to maintain separate records — commingled bank accounts, commingled 
 
 - **Federal vs Texas treatment of series** — The IRS treats each series as a separate entity for federal tax purposes under Proposed Treasury Regulation §301.7701-1(a)(5) (proposed in 2010 and not yet finalized but generally followed in practice). Each series files its own federal tax return as appropriate (Schedule C for a single-member series disregarded for federal tax; Form 1065 for a multi-member series; Form 1120 if a C-corp election is made). For Texas franchise-tax purposes, the Comptroller treats the master Series LLC and all its protected series as a single taxable entity filing one combined franchise tax return and one PIR — a notable divergence from federal treatment that simplifies state compliance.  _(Proposed Treasury Regulation §301.7701-1(a)(5))_
 
-## 6. Texas Foreign Qualification (Certificate of Authority)
+### 6. Texas Foreign Qualification (Certificate of Authority)
 
 - **Foreign entity definition** — A "foreign" entity in Texas terminology is an entity formed in another state (e.g., a Delaware C-Corp, a California LLC, a Wyoming LLC) that does business in Texas. Foreign entities transacting business in Texas must register with the Texas Secretary of State by filing for a Certificate of Authority.
 
@@ -236,7 +236,7 @@ A failure to maintain separate records — commingled bank accounts, commingled 
 
 - **Ongoing obligations list** — Once qualified, the foreign entity must: Maintain its Texas registered agent; File annual Form 05-102 (Public Information Report) with the Texas Comptroller; File annual franchise tax (Form 05-158 Long Form or Form 05-169 EZ Computation), with $0 owed if under the No Tax Due threshold; Maintain good standing in its home state (and file annual reports there); File a withdrawal (Form 608 for LLC, Form 612 for corporation) when ceasing Texas operations, $15 fee.
 
-## 7. Annual Public Information Report (Form 05-102) — Deep Dive
+### 7. Annual Public Information Report (Form 05-102) — Deep Dive
 
 Because the PIR is the single most-missed Texas compliance item and the single greatest source of post-formation Texas legal trouble, this section provides additional detail beyond §3.5.
 
@@ -274,7 +274,7 @@ Owners concerned about privacy commonly:
 
 There is no legal mechanism to keep the PIR private — Texas has chosen public disclosure of ownership and governance for all taxable entities, which is a distinguishing feature of the Texas regime relative to states like Wyoming, New Mexico, or Nevada that permit substantial owner anonymity.
 
-## 8. Doing Business in Texas — Economic Nexus Thresholds (Post-Wayfair)
+### 8. Doing Business in Texas — Economic Nexus Thresholds (Post-Wayfair)
 
 - **Post-Wayfair adoption of economic nexus** — The Texas Comptroller adopted economic-nexus standards for both sales tax and franchise tax in the wake of the 2018 Supreme Court decision in South Dakota v. Wayfair, Inc., 138 S. Ct. 2080 (2018), which overturned the physical-presence requirement of Quill Corp. v. North Dakota, 504 U.S. 298 (1992).  _(South Dakota v. Wayfair, Inc., 138 S. Ct. 2080 (2018); Quill Corp. v. North Dakota, 504 U.S. 298 (1992))_
 
@@ -303,7 +303,7 @@ The three obligations are administered by two different state agencies (Comptrol
 
 - **Sourcing rules by receipt type** — For franchise tax, Texas-sourced gross receipts are determined under Texas Tax Code §171.103 and Comptroller Rule §3.591. For services, receipts are sourced based on where the service is performed (cost-of-performance / market-based hybrid). For sales of tangible personal property, receipts are sourced to the destination of the shipment. For software and SaaS, sourcing follows the location of the user or customer, subject to the technical rules in Rule §3.591. For internet hosting receipts, sourcing follows the location of the customer (Texas Tax Code §171.106(g)).  _(Texas Tax Code §171.103; Comptroller Rule §3.591; Texas Tax Code §171.106(g))_
 
-## 9. BOI / Corporate Transparency Act (CTA) Status
+### 9. BOI / Corporate Transparency Act (CTA) Status
 
 - **CTA overview** — The Corporate Transparency Act (CTA), enacted as part of the National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283, Title LXIV), required most U.S. entities to file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN) disclosing each beneficial owner (any individual owning 25% or more or exercising substantial control).  _(National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283, Title LXIV))_ (not yet confirmed)
 
@@ -322,7 +322,7 @@ This area is fast-moving. Practitioners should verify the current FinCEN guidanc
 - **CTA civil penalty** — 591 USD per day (inflation-adjusted civil penalty for willful failure to report; if the requirement is reinstated, these penalties may apply prospectively from the reinstatement date) (not yet confirmed)
 - **CTA criminal penalty** — up to $10,000 and 2 years imprisonment (for willful violations)
 
-## 10. Texas vs Delaware for Startups
+### 10. Texas vs Delaware for Startups
 
 The Texas-versus-Delaware question is the single most-asked entity-formation question by sophisticated founders. The answer is highly context-dependent.
 
@@ -364,7 +364,7 @@ For a founder who is not raising institutional VC — a freelance developer form
 | Multi-state e-commerce with Texas operations | Texas LLC (or Delaware LLC if multi-state nexus already triggers many states) |
 | Family wealth holding entity | Texas Series LLC or Texas LLC with subsidiaries |
 
-## 11. Common Errors and Pitfalls
+### 11. Common Errors and Pitfalls
 
 ### 11.1 AUDIT FLASH POINT 1 — Forgetting the Public Information Report
 
@@ -390,7 +390,7 @@ For a founder who is not raising institutional VC — a freelance developer form
 
 - **Symptom and mitigation for unqualified foreign operation** — Symptom: Texas-resident founder forms a Delaware C-Corp, operates the business from Texas (Texas employees, Texas office, Texas customers) but never foreign-qualifies. SOS later catches up, and the corporation faces back-fees, penalties, and a period of operating in unauthorized status under BOC §9.051 — including potential inability to enforce Texas contracts during the unqualified period. Mitigation: Foreign-qualify (Form 301 or 304, $750) within 90 days of commencing Texas operations.  _(BOC §9.051)_
 
-## 12. Worked Examples
+### 12. Worked Examples
 
 ### 12.1 Example 1 — Austin tech startup raising seed financing
 
@@ -477,7 +477,7 @@ Founder is a Maltese citizen and Maltese tax resident operating a software consu
 
 The Form 5472 obligation is the single most-missed federal compliance item for foreign-owned Texas LLCs. The $25,000-per-form penalty is severe and is assessed mechanically by the IRS. Every foreign founder forming a U.S. LLC must understand this obligation before the first reportable transaction (typically the initial capital contribution at formation). (not yet confirmed)
 
-## 13. Cross-References
+### 13. Cross-References
 
 - `us-tax-workflow-base` — workflow architecture, conservative defaults, reviewer signoff protocol.
 - `tx-franchise-tax` — Form 05-102 PIR mechanics, Form 05-163 No Tax Due return, Form 05-158 Long Form franchise tax return.
@@ -488,7 +488,7 @@ The Form 5472 obligation is the single most-missed federal compliance item for f
 - `us-s-corp-election-decision` — break-even analysis for S-corp election; particularly relevant for Texas operators where no state-level S-corp tax negates the California-style penalty for electing.
 - `us-sole-prop-bookkeeping` — Schedule C classification for federal income tax, which feeds the Texas franchise-tax total revenue computation.
 
-## 14. Self-Checks (Reviewer Worksheet)
+### 14. Self-Checks (Reviewer Worksheet)
 
 Before finalizing entity-formation advice, the reviewer should confirm:
 
@@ -507,7 +507,7 @@ Before finalizing entity-formation advice, the reviewer should confirm:
 13. [ ] If the founder is foreign, has the Form 5472 obligation been explained and a Form 5472 preparer engaged?
 14. [ ] Has a Texas-licensed attorney reviewed the operating agreement (or corporate bylaws and stockholder agreement) for any multi-member or multi-stockholder entity?
 
-## 15. Refusals
+### 15. Refusals
 
 The following requests are outside this skill's scope and should be referred elsewhere:
 
@@ -522,7 +522,7 @@ The following requests are outside this skill's scope and should be referred els
 - **R-TX-FORM-9** — Texas business courts venue and procedure (HB 19, 88th Legislature, 2023) — refer to litigation counsel.  _(HB 19, 88th Legislature, 2023)_
 - **R-TX-FORM-10** — Texas community-property and pre-marital planning for entity ownership — refer to family-law and estate-planning counsel.
 
-## 16. Version History
+### 16. Version History
 
 - **0.1 (2025-11-15)** — Initial version. Tax year 2025 under post-OBBBA federal framework and post-SB 3 (88th Legislature, 2nd C.S., 2023) Texas franchise-tax framework. CTA/BOI stayed as of November 2025.
 
@@ -530,6 +530,51 @@ The following requests are outside this skill's scope and should be referred els
 
 ---
 
+## Who this applies to
+
+Not yet confirmed against archived sources.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+Not yet confirmed against archived sources.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
