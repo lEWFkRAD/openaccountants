@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Who this applies to
 
-Sellers with Minnesota nexus — a physical presence or economic nexus ($100,000 in sales or 200 separate transactions) — charging Minnesota sales and use tax.
+Sellers with Minnesota nexus -- a physical presence or economic nexus ($100,000 in sales or 200 separate transactions) -- charging Minnesota sales and use tax.
 
 ## Rates, bands and thresholds
 
@@ -61,7 +61,7 @@ Periodic sales and use tax returns are filed through the Minnesota Revenue e-Ser
 
 ## Penalties and interest
 
-Late-file, late-pay and accuracy penalties plus statutory interest apply to underpaid sales and use tax (M.S. 289A.21 — not yet confirmed).
+Late-file, late-pay and accuracy penalties plus statutory interest apply to underpaid sales and use tax (M.S. 289A.21 -- not yet confirmed).
 
 ## Cross-border points
 
@@ -69,21 +69,21 @@ Minnesota is a full Streamlined Sales Tax (SST) member and sources sales by dest
 
 ## Worked examples
 
-No worked examples yet — this skill's standing rule is to state rates and taxability, never to compute.
+No worked examples yet -- this skill's standing rule is to state rates and taxability, never to compute.
 
 ## Ask the client first
 
 
-- **Clothing taxability prohibition** — NEVER treat clothing as taxable in Minnesota -- ALL clothing is exempt.
-- **SaaS taxability prohibition** — NEVER treat SaaS as taxable.
-- **No computation prohibition** — NEVER compute any number.
+- **Clothing taxability prohibition** -- NEVER treat clothing as taxable in Minnesota -- ALL clothing is exempt.
+- **SaaS taxability prohibition** -- NEVER treat SaaS as taxable.
+- **No computation prohibition** -- NEVER compute any number.
 
 ## Sources
 
 | Source | Read on |
 | --- | --- |
-| M.S. 297A.02 (tax base, rates, clothing exemption): <https://www.revisor.mn.gov/statutes/cite/297A.02> — statute text archived | 2026-10-28 |
-| M.S. 297A.03 (use tax): <https://www.revisor.mn.gov/statutes/cite/297A.03> — statute text archived | 2026-10-28 |
+| M.S. 297A.02 (tax base, rates, clothing exemption): <https://www.revisor.mn.gov/statutes/cite/297A.02> -- statute text archived | 2026-10-28 |
+| M.S. 297A.03 (use tax): <https://www.revisor.mn.gov/statutes/cite/297A.03> -- statute text archived | 2026-10-28 |
 
 Not yet confirmed: the 6.875% state rate, local rate range, ~8.875% combined cap, and the $100,000 / 200-transaction economic-nexus thresholds (DOR pages not yet archived).
 ## Disclaimer
@@ -99,7 +99,7 @@ This skill and its outputs are provided for informational and computational purp
 ## Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 

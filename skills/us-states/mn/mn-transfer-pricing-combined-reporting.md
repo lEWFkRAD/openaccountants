@@ -30,10 +30,10 @@ version: 0.2
 ## Rates, bands and thresholds
 
 
-- **Corporate rates:** graduated 4.8% / 9.8% (mn-corporate-and-pte, read 2026-10-25; the 290A.03 rate text renders via JavaScript — the statutory citation of the brackets is not yet confirmed, corroborated internally).
+- **Corporate rates:** graduated 4.8% / 9.8% (mn-corporate-and-pte, read 2026-10-25; the 290A.03 rate text renders via JavaScript -- the statutory citation of the brackets is not yet confirmed, corroborated internally).
 - **Unitary business principle** (M.S. 290.17 subd. 4(a), statute text read 2026-10-25): if a business conducted wholly or partly in Minnesota is part of a unitary business, **the entire income of the unitary business is subject to apportionment** under M.S. 290.191.
 - **Combined filing** is required for unitary groups (Form M4 combined schedules); the group's combined apportionable income is taxed at the corporate brackets (mn-corporate-and-pte corroborates the combined-return framework, read 2026-10-25).
-- **Intercompany elimination:** in the combination, intercompany dividends, interest, rents and royalties between unitary members eliminate — Minnesota neutralises connected-party shifting through combination (mn-corporate-and-pte, read 2026-10-25).
+- **Intercompany elimination:** in the combination, intercompany dividends, interest, rents and royalties between unitary members eliminate -- Minnesota neutralises connected-party shifting through combination (mn-corporate-and-pte, read 2026-10-25).
 - **Deduction allocation** follows the unitary income (M.S. 290.17 subd. 3(b), read 2026-10-25): expenses, losses and other deductions allocate along with the item or activity to which they relate.
 
 ## The taxable base
@@ -50,7 +50,7 @@ version: 0.2
 ## Penalties and interest
 
 
-- Failure to file combined when required: combined tax plus late-file/late-pay penalties and interest (M.S. 289A.21 — not yet confirmed: not machine-verified 2026-10-25; mn-corporate-and-pte corroborates the general framework).
+- Failure to file combined when required: combined tax plus late-file/late-pay penalties and interest (M.S. 289A.21 -- not yet confirmed: not machine-verified 2026-10-25; mn-corporate-and-pte corroborates the general framework).
 
 ## Cross-border points
 
@@ -62,7 +62,7 @@ version: 0.2
 ## Worked examples
 
 
-**Example 1 — combined apportionment at 9.8%.** A unitary group's combined apportionable income is USD 3,000,000; Minnesota sales factor 30%. Minnesota base: 3,000,000 × 0.30 = 900,000 — above the bracket threshold, so 9.8% applies to the top bracket; simplified single-rate illustration: 900,000 × 0.098 = 88,200 (graduated brackets apply in the real computation — see mn-corporate-and-pte).
+**Example 1 -- combined apportionment at 9.8%.** A unitary group's combined apportionable income is USD 3,000,000; Minnesota sales factor 30%. Minnesota base: 3,000,000 × 0.30 = 900,000 -- above the bracket threshold, so 9.8% applies to the top bracket; simplified single-rate illustration: 900,000 × 0.098 = 88,200 (graduated brackets apply in the real computation -- see mn-corporate-and-pte).
 
 ```oa-check
 name: mn combined apportionment illustration
@@ -78,7 +78,7 @@ expected:
   tax_upper_bound: 88200.00
 ```
 
-**Example 2 — intercompany royalty neutralised.** A Minnesota manufacturer pays USD 500,000 in royalties to its unitary affiliate in another state. Stand-alone the Minnesota base drops by 500,000; combined, the royalty and the affiliate's matching royalty income eliminate, so combined apportionable income stays 3,000,000 and the Minnesota base stays 900,000 — the royalty moves no Minnesota tax. (not yet confirmed)
+**Example 2 -- intercompany royalty neutralised.** A Minnesota manufacturer pays USD 500,000 in royalties to its unitary affiliate in another state. Stand-alone the Minnesota base drops by 500,000; combined, the royalty and the affiliate's matching royalty income eliminate, so combined apportionable income stays 3,000,000 and the Minnesota base stays 900,000 -- the royalty moves no Minnesota tax. (not yet confirmed)
 
 ```oa-check
 name: mn intercompany royalty elimination
@@ -108,7 +108,7 @@ expected:
 | Source | Read on |
 | --- | --- |
 | M.S. 290.191 (apportionment): cited within 290.17 text | 2026-10-25 |
-| `mn-corporate-and-pte` skill (4.8%/9.8% brackets, combined M4, deadlines) — internal corroboration | 2026-10-25 |
+| `mn-corporate-and-pte` skill (4.8%/9.8% brackets, combined M4, deadlines) -- internal corroboration | 2026-10-25 |
 
 Not yet confirmed: M.S. 290.17 archive (pending); M.S. 290A.03 rate text (JS-rendered); M.S. 289A.21 penalty schedule; the DOR P.L. 86-272 statement; federal §482 interaction.
 ## Talk to a verified accountant

@@ -53,19 +53,19 @@ version: 0.2
 ## Penalties and interest
 
 
-- Withholding failures under 290.92 attract the general penalty/interest regime (M.S. 289A.21 — not yet confirmed: not machine-verified 2026-10-25; mn-payroll corroborates the framework).
+- Withholding failures under 290.92 attract the general penalty/interest regime (M.S. 289A.21 -- not yet confirmed: not machine-verified 2026-10-25; mn-payroll corroborates the framework).
 
 ## Cross-border points
 
 
 - No state treaty power; US treaties can limit federal tax on some nonresident income but not Minnesota wage sourcing.
-- Military: nonresident servicemembers stationed in Minnesota are not taxed on military pay (SCRA overlay — not yet confirmed).
+- Military: nonresident servicemembers stationed in Minnesota are not taxed on military pay (SCRA overlay -- not yet confirmed).
 - Minnesota residents taxed elsewhere claim the credit for taxes paid to other jurisdictions (mn-income-tax, read 2026-10-25).
 
 ## Worked examples
 
 
-**Example 1 — $1,000 withholding exception.** A Wisconsin partner's Minnesota assignable FAGI from a partnership is USD 850. Exception test: 850 < 1,000 → no partnership withholding; the partner still files M1 + M1NR and pays 850 × 0.0535 (bottom bracket) = 45.48.
+**Example 1 -- $1,000 withholding exception.** A Wisconsin partner's Minnesota assignable FAGI from a partnership is USD 850. Exception test: 850 < 1,000 → no partnership withholding; the partner still files M1 + M1NR and pays 850 × 0.0535 (bottom bracket) = 45.48.
 
 ```oa-check
 name: mn nonresident partner 1000 exception
@@ -81,7 +81,7 @@ expected:
   tax: 45.48
 ```
 
-**Example 2 — composite election replaces withholding.** A partnership allocates USD 40,000 of Minnesota income to a nonresident partner with no other Minnesota income. Without the composite: the partnership withholds (and the partner files individually). With a commissioner-approved composite: the partnership reports the partner on the composite with name, address, SSN, allocation and liability; individual tax at the bottom bracket: 40,000 × 0.0535 = 2,140 paid by the partnership on the partner's behalf. (not yet confirmed)
+**Example 2 -- composite election replaces withholding.** A partnership allocates USD 40,000 of Minnesota income to a nonresident partner with no other Minnesota income. Without the composite: the partnership withholds (and the partner files individually). With a commissioner-approved composite: the partnership reports the partner on the composite with name, address, SSN, allocation and liability; individual tax at the bottom bracket: 40,000 × 0.0535 = 2,140 paid by the partnership on the partner's behalf. (not yet confirmed)
 
 ```oa-check
 name: mn composite replaces withholding
@@ -107,9 +107,9 @@ expected:
 
 | Source | Read on |
 | --- | --- |
-| M.S. 289A.08 subd. 7 (composite returns): <https://www.revisor.mn.gov/statutes/cite/289A.08> — statute text archived | 2026-10-28 |
-| M.S. 290.92 (nonresident withholding, $1,000 exception) — cited in the skill; not yet archived | 2026-10-25 |
-| `mn-income-tax`, `mn-corporate-and-pte`, `mn-payroll` skills — internal corroboration | 2026-10-25 |
+| M.S. 289A.08 subd. 7 (composite returns): <https://www.revisor.mn.gov/statutes/cite/289A.08> -- statute text archived | 2026-10-28 |
+| M.S. 290.92 (nonresident withholding, $1,000 exception) -- cited in the skill; not yet archived | 2026-10-25 |
+| `mn-income-tax`, `mn-corporate-and-pte`, `mn-payroll` skills -- internal corroboration | 2026-10-25 |
 
 Not yet confirmed: M.S. 290.92 nonresident-withholding text (archive pending); M.S. 289A.21 penalty schedule; the DOR P.L. 86-272 solicitation statement; the SCRA military-pay position.
 ## Talk to a verified accountant

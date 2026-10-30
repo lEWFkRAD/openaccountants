@@ -13,12 +13,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MN Income Tax
 
-## Minnesota Individual Income Tax Skill — Self-Employed / Sole Proprietor
+## Minnesota Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
 
 > **Scope.** This skill covers Minnesota Form M1 for full-year Minnesota residents who are sole proprietors or single-member LLC owners. Minnesota imposes a four-bracket graduated income tax with rates of 5.35%, 6.80%, 7.85%, and 9.85%.
 >
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Minnesota Department of Revenue publications. A qualified professional must review before filing.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and thresholds were researched on 2026-05-22 from official Minnesota Department of Revenue publications. A qualified professional must review before filing.
 
 ## Section 1: Metadata
 
@@ -35,7 +35,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Statute | Minn. Stat. § 290.06 |
 | Version | 0.1 |
 | Last updated | 2026-05-22 |
-| Validation | AI-drafted — Q3 |
+| Validation | AI-drafted -- Q3 |
 
 ## Who this applies to
 
@@ -44,9 +44,9 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 ## Rates, bands and thresholds
 
 
-### Tax rates — 2026 tax year (Single)
+### Tax rates -- 2026 tax year (Single)
 
-**Tax rates — 2026 tax year (Single)**
+**Tax rates -- 2026 tax year (Single)**
 
 | Taxable income | Rate |
 | --- | --- |
@@ -55,9 +55,9 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 | $109,431 – $203,150 | 7.85% |
 | $203,151+ | 9.85% |
 
-### Tax rates — 2026 tax year (MFJ / Qualifying Surviving Spouse)
+### Tax rates -- 2026 tax year (MFJ / Qualifying Surviving Spouse)
 
-**Tax rates — 2026 tax year (MFJ / Qualifying Surviving Spouse)**
+**Tax rates -- 2026 tax year (MFJ / Qualifying Surviving Spouse)**
 
 | Taxable income | Rate |
 | --- | --- |
@@ -66,9 +66,9 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 | $193,481 – $337,930 | 7.85% |
 | $337,931+ | 9.85% |
 
-### Tax rates — 2026 tax year (MFS)
+### Tax rates -- 2026 tax year (MFS)
 
-**Tax rates — 2026 tax year (MFS)**
+**Tax rates -- 2026 tax year (MFS)**
 
 | Taxable income | Rate |
 | --- | --- |
@@ -77,9 +77,9 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 | $96,741 – $168,965 | 7.85% |
 | $168,966+ | 9.85% |
 
-### Tax rates — 2026 tax year (Head of Household)
+### Tax rates -- 2026 tax year (Head of Household)
 
-**Tax rates — 2026 tax year (Head of Household)**
+**Tax rates -- 2026 tax year (Head of Household)**
 
 | Taxable income | Rate |
 | --- | --- |
@@ -88,9 +88,9 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 | $164,801 – $270,060 | 7.85% |
 | $270,061+ | 9.85% |
 
-### Standard deduction — 2026
+### Standard deduction -- 2026
 
-**Standard deduction — 2026**
+**Standard deduction -- 2026**
 
 | Filing status | Amount |
 | --- | --- |
@@ -98,9 +98,9 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 | MFJ / Surviving Spouse | $30,600 | (not yet confirmed)
 | Head of Household | $23,000 | (not yet confirmed)
 
-### Dependent exemption — 2026
+### Dependent exemption -- 2026
 
-- **Personal exemption per taxpayer/spouse** — $5,300 USD (not yet confirmed)
+- **Personal exemption per taxpayer/spouse** -- $5,300 USD (not yet confirmed)
 
 ### Key thresholds
 
@@ -115,13 +115,13 @@ Full-year Minnesota residents who are sole proprietors, single-member LLC owners
 ## The taxable base
 
 
-Minnesota taxable income begins with **federal taxable income** (Form 1040, Line 15 — after the federal standard or itemized deduction).
+Minnesota taxable income begins with **federal taxable income** (Form 1040, Line 15 -- after the federal standard or itemized deduction).
 
-1. **Additions (Schedule M1M)** — Add back items Minnesota does not allow (e.g., state income tax deducted federally on Schedule A, certain bonus depreciation, IRC § 199A QBI deduction).
-2. **Subtractions (Schedule M1M)** — Subtract items Minnesota excludes (e.g., state income tax refund included in federal income, U.S. government bond interest, Social Security subtraction for qualifying taxpayers, K-12 education credit subtraction).
-3. **Minnesota taxable income** — Federal taxable income + additions − subtractions.
-4. **Tax** — Apply the four graduated rates to Minnesota taxable income.
-5. **Credits** — Apply applicable credits.
+1. **Additions (Schedule M1M)** -- Add back items Minnesota does not allow (e.g., state income tax deducted federally on Schedule A, certain bonus depreciation, IRC § 199A QBI deduction).
+2. **Subtractions (Schedule M1M)** -- Subtract items Minnesota excludes (e.g., state income tax refund included in federal income, U.S. government bond interest, Social Security subtraction for qualifying taxpayers, K-12 education credit subtraction).
+3. **Minnesota taxable income** -- Federal taxable income + additions − subtractions.
+4. **Tax** -- Apply the four graduated rates to Minnesota taxable income.
+5. **Credits** -- Apply applicable credits.
 
 **Key difference from many states:** Minnesota starts from federal **taxable income** (after the standard/itemized deduction), not from federal AGI. This means the federal standard deduction and itemized deductions are already factored in. Minnesota then applies its own standard deduction or uses the federal amounts depending on the schedule.
 
@@ -131,27 +131,27 @@ Form M1 is due April 15, 2027 for tax year 2026 (automatic 6-month extension wit
 
 ## Penalties and interest
 
-Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid M1 liability (M.S. 289A.21 — not yet confirmed).
+Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid M1 liability (M.S. 289A.21 -- not yet confirmed).
 
 ## Cross-border points
 
-Part-year and nonresident filers (Schedule M1NR) and multi-state apportionment are out of scope here — see `mn-cross-border-tax`; Minnesota grants a credit for taxes paid to other jurisdictions (Schedule M1CR).
+Part-year and nonresident filers (Schedule M1NR) and multi-state apportionment are out of scope here -- see `mn-cross-border-tax`; Minnesota grants a credit for taxes paid to other jurisdictions (Schedule M1CR).
 
 ## Section 4: Self-employed specific rules
 
 
 1. **Self-employment income** flows through federal Schedule C → federal AGI → federal taxable income → Minnesota taxable income (with additions/subtractions).
-2. **Federal SE tax deduction** — Already reflected in federal AGI and thus in federal taxable income. No separate Minnesota adjustment.
-3. **QBI deduction add-back** — Minnesota requires an addition for the federal qualified business income deduction (IRC § 199A) if it was claimed on the federal return.
-4. **Estimated taxes** — Self-employed taxpayers must make quarterly estimated payments (Form M1, Schedule M14) if expected liability exceeds $500 after withholding and credits. Due dates: April 15, June 15, September 15, January 15.
-5. **Business equipment depreciation** — Minnesota requires addition of federal bonus depreciation (IRC § 168(k)) and substitution of straight-line MACRS depreciation (§ 168(a)). This creates a timing difference tracked on Schedule M1AR.
-6. **Health insurance deduction** — Self-employed health insurance deduction is in federal AGI. No Minnesota add-back.
-7. **No local income tax** — Minnesota does not have any local or city income taxes.
+2. **Federal SE tax deduction** -- Already reflected in federal AGI and thus in federal taxable income. No separate Minnesota adjustment.
+3. **QBI deduction add-back** -- Minnesota requires an addition for the federal qualified business income deduction (IRC § 199A) if it was claimed on the federal return.
+4. **Estimated taxes** -- Self-employed taxpayers must make quarterly estimated payments (Form M1, Schedule M14) if expected liability exceeds $500 after withholding and credits. Due dates: April 15, June 15, September 15, January 15.
+5. **Business equipment depreciation** -- Minnesota requires addition of federal bonus depreciation (IRC § 168(k)) and substitution of straight-line MACRS depreciation (§ 168(a)). This creates a timing difference tracked on Schedule M1AR.
+6. **Health insurance deduction** -- Self-employed health insurance deduction is in federal AGI. No Minnesota add-back.
+7. **No local income tax** -- Minnesota does not have any local or city income taxes.
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
 
-**Section 5: Tier 1 rules — deterministic**
+**Section 5: Tier 1 rules -- deterministic**
 
 | Rule ID | Rule | Source |
 | --- | --- | --- |
@@ -161,25 +161,25 @@ Part-year and nonresident filers (Schedule M1NR) and multi-state apportionment a
 | MN-T1-04 | Add back federal bonus depreciation (IRC § 168(k)) and replace with straight-line MACRS | Minn. Stat. § 290.0131 |
 | MN-T1-05 | Subtract U.S. government bond interest | Minn. Stat. § 290.0132 |
 | MN-T1-06 | Subtract state income tax refund included in federal taxable income | Minn. Stat. § 290.0132 |
-| MN-T1-07 | Apply graduated rates: 5.35%, 6.80%, 7.85%, 9.85% to the 2026 brackets | Minn. Stat. § 290.06 |  — rates confirmed verbatim in archived §290.06; archived statute shows 2025 MFJ brackets $38,770/$154,020/$269,010, consistent with the 2026 table (single $33,310/$109,430/$203,150) after CPI indexation
-| MN-T1-08 | Dependent exemption: $5,300 per qualifying dependent (2026) — reduces tax, not income | Minn. Stat. § 290.0674 | (not yet confirmed)
+| MN-T1-07 | Apply graduated rates: 5.35%, 6.80%, 7.85%, 9.85% to the 2026 brackets | Minn. Stat. § 290.06 |  -- rates confirmed verbatim in archived §290.06; archived statute shows 2025 MFJ brackets $38,770/$154,020/$269,010, consistent with the 2026 table (single $33,310/$109,430/$203,150) after CPI indexation
+| MN-T1-08 | Dependent exemption: $5,300 per qualifying dependent (2026) -- reduces tax, not income | Minn. Stat. § 290.0674 | (not yet confirmed)
 | MN-T1-09 | Minnesota Working Family Credit (state EITC): percentage of federal EIC (refundable) | Minn. Stat. § 290.0671 |
 | MN-T1-10 | K-12 Education Credit: credit for qualifying education expenses (income-limited) | Minn. Stat. § 290.0674 |
 | MN-T1-11 | Child and Dependent Care Credit: percentage of federal credit | Minn. Stat. § 290.067 |
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
 
-**Section 6: Tier 2 rules — requires judgment**
+**Section 6: Tier 2 rules -- requires judgment**
 
 | Rule ID | Rule | Guidance |
 | --- | --- | --- |
-| MN-T2-01 | **Residency determination** — Minnesota uses a domicile test. A person domiciled in Minnesota is a resident. Spending 183+ days in MN creates a presumption of residency. | If taxpayer has homes in multiple states, flag for professional review. |
-| MN-T2-02 | **Bonus depreciation add-back** — Track multi-year timing differences between federal and Minnesota depreciation on Schedule M1AR. | Maintain a depreciation schedule parallel to federal. |
-| MN-T2-03 | **Social Security subtraction** — Minnesota taxes Social Security for higher-income taxpayers but provides a partial subtraction. Phase-out applies based on provisional income. | Compute the subtraction using the worksheet in M1 instructions. |
-| MN-T2-04 | **Credit for taxes paid to other states (Schedule M1CR)** — Non-refundable credit to prevent double taxation. | Requires the other state's return to compute. |
-| MN-T2-05 | **Marriage credit** — Reduces the marriage penalty for two-earner MFJ couples. Income-based calculation. | Compute using Schedule M1MA. |
-| MN-T2-06 | **Alternative minimum tax** — Minnesota imposes a state AMT (Schedule M1MT). Self-employed with large § 179 or depreciation differences should check. | Compute AMT if federal AMT preferences are significant. |
+| MN-T2-01 | **Residency determination** -- Minnesota uses a domicile test. A person domiciled in Minnesota is a resident. Spending 183+ days in MN creates a presumption of residency. | If taxpayer has homes in multiple states, flag for professional review. |
+| MN-T2-02 | **Bonus depreciation add-back** -- Track multi-year timing differences between federal and Minnesota depreciation on Schedule M1AR. | Maintain a depreciation schedule parallel to federal. |
+| MN-T2-03 | **Social Security subtraction** -- Minnesota taxes Social Security for higher-income taxpayers but provides a partial subtraction. Phase-out applies based on provisional income. | Compute the subtraction using the worksheet in M1 instructions. |
+| MN-T2-04 | **Credit for taxes paid to other states (Schedule M1CR)** -- Non-refundable credit to prevent double taxation. | Requires the other state's return to compute. |
+| MN-T2-05 | **Marriage credit** -- Reduces the marriage penalty for two-earner MFJ couples. Income-based calculation. | Compute using Schedule M1MA. |
+| MN-T2-06 | **Alternative minimum tax** -- Minnesota imposes a state AMT (Schedule M1MT). Self-employed with large § 179 or depreciation differences should check. | Compute AMT if federal AMT preferences are significant. |
 
 ## Section 7: Supplier pattern library
 
@@ -217,7 +217,7 @@ Part-year and nonresident filers (Schedule M1NR) and multi-state apportionment a
 
 ## Worked examples
 
-No worked examples yet — the rate tables above are the deterministic inputs; computations are deferred to professional review.
+No worked examples yet -- the rate tables above are the deterministic inputs; computations are deferred to professional review.
 
 ## Ask the client first
 
@@ -226,20 +226,20 @@ No worked examples yet — the rate tables above are the deterministic inputs; c
 
 | ID | Situation | Action |
 | --- | --- | --- |
-| MN-R-01 | Part-year or non-resident return (Schedule M1NR) | Refuse — out of scope |
-| MN-R-02 | Corporate franchise tax (Form M4) | Refuse — out of scope |
-| MN-R-03 | Estate tax (Form M706) | Refuse — out of scope |
-| MN-R-04 | Partnership / S-corp pass-through returns | Refuse — out of scope |
-| MN-R-05 | Multi-state income apportionment | Refuse — flag for professional review |
-| MN-R-06 | Amended returns (Form M1X) | Refuse — out of scope |
-| MN-R-07 | Tax year other than current | Refuse — rates and thresholds may differ |
-| MN-R-08 | MinnesotaCare provider tax | Refuse — different tax type |
+| MN-R-01 | Part-year or non-resident return (Schedule M1NR) | Refuse -- out of scope |
+| MN-R-02 | Corporate franchise tax (Form M4) | Refuse -- out of scope |
+| MN-R-03 | Estate tax (Form M706) | Refuse -- out of scope |
+| MN-R-04 | Partnership / S-corp pass-through returns | Refuse -- out of scope |
+| MN-R-05 | Multi-state income apportionment | Refuse -- flag for professional review |
+| MN-R-06 | Amended returns (Form M1X) | Refuse -- out of scope |
+| MN-R-07 | Tax year other than current | Refuse -- rates and thresholds may differ |
+| MN-R-08 | MinnesotaCare provider tax | Refuse -- different tax type |
 
 ## Sources
 
 | Source | Read on |
 | --- | --- |
-| Minn. Stat. § 290.06: <https://www.revisor.mn.gov/statutes/cite/290.06> — statute text archived | 2026-10-28 |
+| Minn. Stat. § 290.06: <https://www.revisor.mn.gov/statutes/cite/290.06> -- statute text archived | 2026-10-28 |
 
 Not yet confirmed: the DOR rates/brackets page, the 2026 bracket-announcement press release, and the Form M1 instructions page are not yet archived; the 2026 bracket dollar figures and standard-deduction amounts therefore remain not yet confirmed.
 ## Disclaimer
@@ -250,7 +250,7 @@ This skill and its outputs are provided for informational and computational purp
 ## Talk to a verified accountant
 
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 
