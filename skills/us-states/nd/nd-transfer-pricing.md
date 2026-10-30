@@ -11,7 +11,7 @@ description: >-
   brackets. Trigger on North Dakota combined return, ND unitary, water's
   edge surtax, 57-38.1-19, 57-38.1-15, Schedule SA, ND addback.
   Source-cited draft; ndlegis.nd.gov unreachable 2026-10-25, statute text
-  carried from the existing nd-corporate-tax skill with VERIFY flags.
+  carried from the existing nd-corporate-tax skill with VERIFY flags (not yet confirmed).
 jurisdiction: US-ND
 category: transfer-pricing
 tax_year: 2026

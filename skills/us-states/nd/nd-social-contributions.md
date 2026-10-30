@@ -10,7 +10,7 @@ description: >-
   employer rates 1.02% non-construction / 6.09% construction on the
   2025 $45,100 taxable wage base). Trigger on North Dakota UI tax, ND
   SUTA, new employer rate, Job Service ND, SFN 41263, UI EASY.
-  Source-cited draft; 2026 wage base and rates need confirmation.
+  Source-cited draft; 2026 wage base and rates need confirmation (not yet confirmed).
 jurisdiction: US-ND
 category: payroll
 tax_year: 2026
