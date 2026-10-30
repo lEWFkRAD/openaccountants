@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Wyoming Sales Tax
 
-## Skill Metadata
+## Who this applies to
 
 **Skill Metadata**
 
@@ -36,13 +36,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Confidence Coverage | T1: state rate, basic taxability, filing mechanics. T2: local rate determination, mineral/energy industry, service taxability. T3: audit defense, complex energy transactions, penalty abatement. |
 | Format | Restructured to Q1 execution format, April 2026 |
 
-## Confidence Tier Definitions
+### Confidence Tier Definitions
 
 - **T1 Tier 1 -- Deterministic** — Apply exactly as written. No reviewer judgement required.
 - **T2 Tier 2 -- Reviewer Judgement Required** — Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
 - **T3 Tier 3 -- Out of Scope / Escalate** — Do not guess. Escalate to a licensed tax professional.
 
-## Step 0: Client Onboarding Questions
+### Step 0: Client Onboarding Questions
 
 Before proceeding with any Wyoming sales tax analysis, collect the following from the client: [T1]
 
@@ -61,7 +61,7 @@ Before proceeding with any Wyoming sales tax analysis, collect the following fro
 
 - **Incomplete onboarding** — If the client cannot answer questions 1-4, STOP and gather this information before proceeding. (T1)
 
-## Step 1: Tax Rate Structure
+## Rates, bands and thresholds
 
 ### 1.1 State Sales Tax Rate
 
@@ -85,7 +85,7 @@ Wyoming imposes a state sales tax of 4.00% on the retail sale of tangible person
 - **Sourcing method** — Wyoming uses destination-based sourcing. (T1)
 - **SST sourcing rules** — As an SST member, Wyoming follows SSUTA sourcing rules. (T1)
 
-## Step 2: Transaction Classification Rules
+## The taxable base
 
 ### 2.1 Grocery Food -- EXEMPT [T1]
 
@@ -142,7 +142,7 @@ Wyoming taxes a limited number of services:
 - **Feed, seed, fertilizer** — Exempt. (T1)
 - **Livestock** — Exempt for breeding/production. (T1)
 
-## Step 3: Return Form Structure
+## Deadlines and filing
 
 ### 4.1 Filing Details [T1]
 
@@ -167,7 +167,7 @@ Wyoming taxes a limited number of services:
 - **Late filing penalty** — 10% of tax due (minimum $25). (T1)
 - **Interest rate** — 1% per month (12% per annum). (T1)
 
-## Step 4: Deductibility / Exemptions
+### Step 4: Deductibility / Exemptions
 
 Exemptions identified in Step 2 above are the primary deductibility rules for Wyoming. Key categories: [T1]
 
@@ -177,7 +177,7 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Wy
 - **Manufacturing exemptions** — Where applicable per Step 2. (T2)
 - **Exemption certificate retention** — All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. (T1)
 
-## Step 5: Key Thresholds
+### Step 5: Key Thresholds
 
 ### 3.1 Economic Nexus Threshold [T1]
 
@@ -199,11 +199,11 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Wy
 
 - **SST registration status** — Full SST member. SSTRS and CSPs available. (T1)
 
-## Step 6: Filing Deadlines and Penalties
+### Step 6: Filing Deadlines and Penalties
 
 Refer to Step 3 for filing frequencies and due dates. [T1]
 
-## PROHIBITIONS
+### PROHIBITIONS
 
 - **Grocery food taxation** — NEVER tax grocery food in Wyoming. Unprepared food is exempt. (T1)
 - **Uniform 4% rate assumption** — NEVER assume a uniform 4% rate across Wyoming. County taxes add up to 2%. (T1)
@@ -212,7 +212,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - **Filing deadline** — NEVER file Wyoming returns by the 20th. The due date is the last day of the following month. (T1)
 - **No computation by Claude** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. (T1)
 
-## Edge Case Registry
+### Edge Case Registry
 
 ### EC1 -- No Income Tax + Low Sales Tax [T1]
 
@@ -282,7 +282,7 @@ A Wyoming resident purchases furniture in Montana (no sales tax) and brings it t
 - **Reporting obligation** — The resident should report and remit use tax. (T1)
 - **Flag for reviewer** — Montana has no sales tax, so no credit applies. Full Wyoming use tax is due. (T1)
 
-## Test Suite
+### Test Suite
 
 ### Test 1 -- Basic Taxable Sale
 
@@ -324,7 +324,7 @@ Expected output: Use tax = $2,000 x 6% = $120.00. No credit (MT has no sales tax
 Input: Wyoming seller collects $10,000 in tax for the month and files on time.
 Expected output: Vendor discount = $10,000 x 1.95% = $195.00. Seller remits $10,000 - $195 = $9,805.00.
 
-## Reviewer Escalation Protocol
+### Reviewer Escalation Protocol
 
 **Reviewer Escalation Protocol**
 
@@ -336,7 +336,7 @@ Expected output: Vendor discount = $10,000 x 1.95% = $195.00. Seller remits $10,
 | Penalty abatement or voluntary disclosure | Escalate to licensed professional with state-specific experience. |
 | Ambiguous taxability of a product/service | Present both interpretations to reviewer with supporting authority. |
 
-## Contribution Notes
+### Contribution Notes
 
 This skill follows the Q1 execution format (Step 0 through Step 7).
 All rules are tagged [T1], [T2], or [T3] per the Confidence Tier Definitions.
@@ -344,26 +344,42 @@ Rate tables are deterministic lookup tables -- no narrative explanation of rates
 To update this skill, submit a pull request with the specific section, supporting statutory authority, and effective date of the change.
 All changes require validation by a US CPA or EA before merging.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
 ---
 
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (state) | https://revenue.wyo.gov | 2026-10-28 |
+
+Not yet confirmed: WY sales/use-tax figures lack archived citations
+
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
+> **General reference only.** This document does not constitute tax, legal, or financial advice. Verify figures against the cited primary sources or with a licensed professional before relying on them.

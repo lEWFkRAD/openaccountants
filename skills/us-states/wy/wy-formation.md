@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # WY Formation
 
-## 1. Scope
+## Who this applies to
 
 This skill covers the formation, maintenance, and strategic use of Wyoming business entities for the 2025 tax year, with a focus on the Wyoming Limited Liability Company (LLC) under the Wyoming Limited Liability Company Act (Wyoming Statutes Title 17, Chapter 29) and the Wyoming Business Corporation Act (Title 17, Chapter 16). It also addresses the Wyoming Statutory Trust Act (Title 17, Chapter 23) and the Wyoming Uniform Trust Code (Title 4, Chapter 10) where dynasty trust planning intersects with LLC structuring.
 
@@ -40,7 +40,7 @@ Out of scope (refer the matter to a credentialed Wyoming attorney or to the rele
 
 This skill is a planning aid. Every entity formation, restructuring, or asset-protection plan must be reviewed and signed off by a credentialed adviser — a Wyoming-licensed attorney for legal effect, a CPA or Enrolled Agent under Circular 230 for federal tax effect — before the client files, funds, or relies on the structure.
 
-## 2. Why Wyoming
+### 2. Why Wyoming
 
 Wyoming is consistently the cheapest, most private, and most asset-protective state in the United States for the formation of a limited liability company. The four pillars below are the reason a disproportionate share of holding companies, asset-protection vehicles, and internationally owned US LLCs are formed in Wyoming rather than in the owner's home state.
 
@@ -78,7 +78,7 @@ Wyoming is consistently the cheapest, most private, and most asset-protective st
 - **Annual report filer identification, not members** — The annual report under W.S. § 17-29-209 requires the name and address of the person filing the report (the registered agent or an authorized representative), not the names of members. A Wyoming LLC can therefore be formed and maintained year over year without any beneficial owner's name appearing on the public Secretary of State record.  _(W.S. § 17-29-209)_
 - **State-level privacy only** — This is state-level privacy only. See § 6 and § 14 for the federal overlay — FinCEN BOI reporting under the Corporate Transparency Act and IRS Form 5472 substantially erode the practical privacy benefit for foreign-owned entities and for any entity that does not qualify for a CTA exemption.  _(Corporate Transparency Act; IRS Form 5472)_
 
-## 3. Wyoming LLC Formation
+### 3. Wyoming LLC Formation
 
 ### 3.1 Articles of Organization — the $100 filing
 
@@ -119,7 +119,7 @@ AUDIT FLASH POINT — Missed annual report. An administratively dissolved LLC is
 - **Online filing processing time** — Online Articles of Organization at wyobiz.wyo.gov are processed in real time during business hours (Mountain Time, Monday–Friday) and are typically searchable within 30 minutes of filing. Paper filings are processed in the order received.  _(wyobiz.wyo.gov)_
 - **No paid expedited service** — Wyoming does not currently offer a paid expedited service in the Delaware sense (Delaware's 1-hour, 2-hour, same-day, and 24-hour expedited filings). Online filing is the expedited service.  _(wyobiz.wyo.gov)_
 
-## 4. Wyoming Corporation Formation (C-Corp / S-Corp)
+### 4. Wyoming Corporation Formation (C-Corp / S-Corp)
 
 Wyoming's Business Corporation Act (Title 17, Chapter 16) governs corporation formation. The filing mechanics mirror the LLC structure.
 
@@ -144,7 +144,7 @@ Wyoming's Business Corporation Act (Title 17, Chapter 16) governs corporation fo
 
 - **When a Wyoming corporation is appropriate vs Delaware** — The dominant choice for VC-backed startups remains Delaware, because institutional investors expect Delaware General Corporation Law (DGCL) governance, the Court of Chancery, and the developed body of Delaware fiduciary-duty case law. A Wyoming corporation is appropriate for: Closely held operating businesses with no immediate plan to raise institutional capital. Holding-company corporations parallel to an LLC umbrella (see § 9). Corporations electing S-corp treatment where the founders want the cost advantage of Wyoming. Wyoming should generally not be used for the entity that will be the target of a Series A or later institutional financing — convert to Delaware before the financing round or organize in Delaware from the outset.  _(DGCL)_
 
-## 5. Charging-Order Asset Protection (W.S. § 17-29-503)
+### 5. Charging-Order Asset Protection (W.S. § 17-29-503)
 
 This is the single largest reason to form an LLC in Wyoming.
 
@@ -184,7 +184,7 @@ This is the principal reason a foreign individual or an out-of-state real estate
 
 The honest pitch is that the Wyoming SMLLC is leverage-grade protection against civil judgment creditors. It is not a bulletproof shield against the federal government or against properly pleaded fraudulent-transfer claims.
 
-## 6. Anonymous Ownership
+### 6. Anonymous Ownership
 
 ### 6.1 What is anonymous
 
@@ -213,7 +213,7 @@ Public-figure or high-net-worth client whose property holdings would invite atte
 - **Nominee organizer definition** — A "nominee organizer" is a person — typically the registered agent service — who signs the Articles of Organization on behalf of the beneficial owner. The nominee is not a member or manager; the nominee's function ends when the Articles are filed. This is permitted and is the standard pattern. The beneficial owner is identified in the operating agreement signed contemporaneously.  _(General practice, no specific statutory citation)_
 - **Nominee manager definition and fiduciary duties** — A "nominee manager" is a more aggressive pattern in which a third party serves as the LLC's manager of record. This is permitted under Wyoming law but carries fiduciary-duty implications under W.S. § 17-29-409 — a nominee who has signed on as manager owes the LLC fiduciary duties and takes on real exposure. A nominee-manager arrangement should be documented through a separate nominee agreement defining the scope of the nominee's authority, indemnification, and termination rights.  _(W.S. § 17-29-409)_
 
-## 7. Series LLC (W.S. § 17-29-211)
+### 7. Series LLC (W.S. § 17-29-211)
 
 - **Series LLC definition and features** — Wyoming permits Series LLCs under W.S. § 17-29-211. A Series LLC is a single LLC that may establish one or more "series" — internal cells — each of which: Has separate assets, liabilities, and members or interests. May have a separate purpose and business. Provides liability separation between series, so that a liability arising in Series A does not reach the assets of Series B, provided that the records of each series are maintained in a manner that reasonably accounts for the assets of that series separately from the assets of the LLC and the other series.  _(W.S. § 17-29-211)_
 
@@ -224,18 +224,18 @@ Use cases:
 
 - **Series LLC federal tax treatment uncertainty** — Federal tax treatment is unsettled. Prop. Treas. Reg. § 301.7701-1 (proposed in 2010 but never finalized as of 2025) would treat each series as a separate entity for federal tax purposes. Pending final regulations, the federal tax treatment is uncertain, and some practitioners file a separate Form 1065 or Schedule C per series while others treat the master LLC as a single disregarded entity.  _(Prop. Treas. Reg. § 301.7701-1)_
 
-## 7. Series LLC (W.S. § 17-29-211)
+### 7. Series LLC (W.S. § 17-29-211)
 
 - **placeholder** — placeholder
 
-## 7. Series LLC (W.S. § 17-29-211)
+### 7. Series LLC (W.S. § 17-29-211)
 
 - **State recognition of series LLC is uneven** — State recognition is uneven. Some states (notably California) treat each series as a separate entity for state tax purposes and require each series to qualify and pay its own franchise tax. Forming a Wyoming Series LLC and doing business in California exposes each series to the $800 minimum tax — defeating much of the cost advantage. Confirm the destination-state treatment before adopting the series structure.  _(California franchise tax treatment of series, unspecified statute)_
 - **Charging-order shield extends to each series** — Charging-order shield within the master. The Wyoming Series LLC statute extends the charging-order protection of W.S. § 17-29-503 to each series, but the case law is thin and the cross-jurisdictional enforcement of inter-series asset separation is not battle-tested.  _(W.S. § 17-29-503)_
 
 For most clients the simpler, better-documented pattern is a holding-LLC parent with separate single-member LLC children (see § 9.2 below). The Series LLC is a cost-optimization play for sophisticated multi-asset holders who can tolerate the federal-tax uncertainty.
 
-## 8. Wyoming Dynasty Trust — 1,000-Year Rule
+### 8. Wyoming Dynasty Trust — 1,000-Year Rule
 
 - **1,000-year rule against perpetuities exemption** — W.S. § 34-1-139 provides that the common-law rule against perpetuities does not apply to interests in trust, provided the trust is limited to a duration of 1,000 years.  _(W.S. § 34-1-139)_
 
@@ -249,7 +249,7 @@ Use case: a multi-generational asset-protection plan combines a Wyoming LLC (ass
 
 Dynasty trust drafting is a specialist task. Refer to a Wyoming-licensed trust and estate attorney. This skill flags the availability and the 1,000-year statute; it does not draft the trust.
 
-## 9. Comparison: Wyoming vs Delaware vs Nevada
+### 9. Comparison: Wyoming vs Delaware vs Nevada
 
 The three "haven" states are routinely compared. The table below summarizes the planning-relevant differences for 2025.
 
@@ -287,7 +287,7 @@ The owner is already a Nevada resident and wants to avoid the foreign-qualificat
 
 For most planning fact patterns presented to this skill (small business owners, real estate investors, holding companies, international founders, crypto entities), Wyoming is the answer. Delaware is the answer if VC financing is on the roadmap. Nevada is rarely the answer in 2025 because the commerce-tax overlay and the manager-disclosure requirement erode its historical advantages.
 
-## 10. Foreign Qualification — Doing Business in Other States
+### 10. Foreign Qualification — Doing Business in Other States
 
 Forming a Wyoming LLC does not confer authority to operate in any other state. If the LLC "does business" in another state, that state requires foreign qualification (sometimes called a "Certificate of Authority" or "Foreign Registration").
 
@@ -418,7 +418,7 @@ Operational US presence for invoicing and payment processing. Credibility with U
 
 It is not a tax-free structure. It is a no-US-tax structure because the income is not US-source — but the compliance burden (5472, BOI, EIN, registered agent) is substantial. It does not change Argentine tax. Mateo remains a Argentine resident taxed on worldwide income. It does not provide anonymity from the IRS or FinCEN. It does not protect against Argentine creditors who can establish beneficial ownership.
 
-## 14. Worked Example 4 — Crypto / Digital Asset Holding Entity
+### 14. Worked Example 4 — Crypto / Digital Asset Holding Entity
 
 ### 14.1 Facts
 
@@ -472,7 +472,7 @@ Wyoming has been an early adopter of digital-asset-friendly legislation:
 - No protection from properly pleaded fraudulent transfer claims if Riley already has a known crypto-related creditor (e.g., exchange-bankruptcy clawback claim already on the books).
 - No FBAR/8938 escape. Foreign exchange accounts remain reportable on FBAR and Form 8938 regardless of the Wyoming LLC layer.
 
-## 15. Common Errors
+### 15. Common Errors
 
 The following errors are seen repeatedly in client matters touching Wyoming LLCs. Flag each one explicitly in the reviewer brief.
 
@@ -512,7 +512,7 @@ The following errors are seen repeatedly in client matters touching Wyoming LLCs
 
 - **Series LLC destination-state recognition risk** — Form a Wyoming Series LLC if the assets and members are all in Wyoming or in states that recognize the series structure. California, Massachusetts, and several other states treat each series as a separate entity for state-tax purposes and may require each series to qualify and pay separate franchise tax — defeating the cost optimization.
 
-## 16. Reviewer Brief (Output Template)
+### 16. Reviewer Brief (Output Template)
 
 When this skill is invoked to produce a Wyoming formation plan, the reviewer brief should contain:
 
@@ -536,7 +536,7 @@ When this skill is invoked to produce a Wyoming formation plan, the reviewer bri
 8. Audit flash points — listed explicitly so the reviewer can confirm each one with the client before sign-off.
 9. Out-of-scope items referred elsewhere — federal tax computation, home-state income tax, dynasty trust drafting, DAO LLC, captive insurance, etc.
 
-## 17. Self-Checks
+### 17. Self-Checks
 
 Before delivering the reviewer brief, confirm:
 
@@ -551,7 +551,7 @@ Before delivering the reviewer brief, confirm:
 - [ ] Has the Series LLC's destination-state recognition been confirmed (if a Series LLC is proposed)?
 - [ ] Has the "Wyoming = tax-free" marketing fallacy been disclaimed in the client brief?
 
-## 18. Provenance
+### 18. Provenance
 
 This skill draws on the following authorities. Citations are to 2025 versions of the statutes as in force on 1 January 2025 unless otherwise noted.
 
@@ -622,16 +622,44 @@ This skill is a planning aid for tax-year 2025 work. It does not constitute lega
 
 ---
 
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (state) | https://revenue.wyo.gov | 2026-10-28 |
+
+Not yet confirmed: WY formation fees, franchise-tax figures, and deadlines lack archived citations
+
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
+> **General reference only.** This document does not constitute tax, legal, or financial advice. Verify figures against the cited primary sources or with a licensed professional before relying on them.
