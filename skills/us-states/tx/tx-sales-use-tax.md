@@ -59,7 +59,7 @@ This is a Tier 2 content skill for preparing the Texas sales and use tax return 
 | --- | --- | --- |
 | $0 -- $500/quarter | Annually (due January 20) | Texas Comptroller Rule 3.286 |
 | $500 -- $1,500/quarter | Quarterly (due 20th after quarter) | Texas Comptroller Rule 3.286 |
-| Over $1,500/quarter | Monthly (due 20th of following month) | Texas Comptroller Rule 3.286 |
+| Over $1,500/quarter | Monthly (due 20th of following month) | Texas Comptroller Rule 3.286 | (not yet confirmed)
 | $500,000+/quarter | Monthly with prepayment option | Texas Tax Code §151.424 |
 
 - **Due date** — The 20th of the month following the reporting period. If the 20th falls on a weekend or holiday, the next business day.  _(Texas Comptroller Rule 3.286)_
@@ -147,13 +147,13 @@ Example: $10,000 data processing invoice. Taxable amount: $10,000 x 80% = $8,000
 
 ### E-2: Internet access and web hosting
 
-- **Internet access and web hosting** — Internet access services are exempt from Texas sales tax (per the federal Internet Tax Freedom Act). Web hosting is classified as a data processing service and is taxable (at the 80% rate).  _(Texas Comptroller Rule 3.330)_
+- **Internet access and web hosting** — Internet access services are exempt from Texas sales tax (per the federal Internet Tax Freedom Act). Web hosting is classified as a data processing service and is taxable (at the 80% rate).  _(Texas Comptroller Rule 3.330)_ (not yet confirmed)
 
 ### E-3: Software
 
 - **Canned software** — Canned software (sold off-the-shelf or downloaded): taxable as tangible personal property.  _(unsure)_
 - **Custom software** — Custom software (written to specific customer specs): exempt.  _(unsure)_
-- **SaaS** — SaaS (Software as a Service): the Comptroller's position treats SaaS as a data processing service (taxable at 80%). Some taxpayers dispute this classification.  _(unsure)_
+- **SaaS** — SaaS (Software as a Service): the Comptroller's position treats SaaS as a data processing service (taxable at 80%). Some taxpayers dispute this classification.  _(unsure)_ (not yet confirmed)
 
 ### E-4: Manufacturing exemptions
 
@@ -201,7 +201,7 @@ Example: $10,000 data processing invoice. Taxable amount: $10,000 x 80% = $8,000
 ### Section 7 -- Prohibitions
 
 - **P-1** — Do NOT assume Texas local tax is always destination-based or always origin-based; identify Texas place of business, fulfillment facts, remote-seller status, marketplace-provider status, and any single local use tax election.  _(Section 7 -- Prohibitions)_
-- **P-2** — Do NOT tax the full amount of data processing services. Only 80% is taxable.  _(Section 7 -- Prohibitions)_
+- **P-2** — Do NOT tax the full amount of data processing services. Only 80% is taxable.  _(Section 7 -- Prohibitions)_ (not yet confirmed)
 - **P-3** — Do NOT classify all software as taxable. Custom software is exempt.  _(Section 7 -- Prohibitions)_
 - **P-4** — Do NOT claim the timely filing discount on a late return.  _(Section 7 -- Prohibitions)_
 - **P-5** — Do NOT apply local tax rates exceeding the 2% cap.  _(Section 7 -- Prohibitions)_
@@ -215,7 +215,7 @@ Before delivering output, verify:
 - [ ] State rate of 6.25% applied correctly
 - [ ] Local sourcing documented: Texas place of business / fulfillment / remote-seller status checked, and rate verified with Comptroller locator or valid single local use tax election
 - [ ] Combined rate does not exceed 8.25%
-- [ ] Data processing services taxed at 80% only
+- [ ] Data processing services taxed at 80% only (not yet confirmed)
 - [ ] Use tax reported for out-of-state purchases
 - [ ] Timely filing discount applied (or forfeited if late)
 - [ ] Filing frequency matches liability thresholds
@@ -338,7 +338,7 @@ This is a Tier 2 content skill for preparing the Texas sales and use tax return 
 | --- | --- | --- |
 | $0 -- $500/quarter | Annually (due January 20) | Texas Comptroller Rule 3.286 |
 | $500 -- $1,500/quarter | Quarterly (due 20th after quarter) | Texas Comptroller Rule 3.286 |
-| Over $1,500/quarter | Monthly (due 20th of following month) | Texas Comptroller Rule 3.286 |
+| Over $1,500/quarter | Monthly (due 20th of following month) | Texas Comptroller Rule 3.286 | (not yet confirmed)
 | $500,000+/quarter | Monthly with prepayment option | Texas Tax Code §151.424 |
 
 - **Due date** — The 20th of the month following the reporting period. If the 20th falls on a weekend or holiday, the next business day.  _(Texas Comptroller Rule 3.286)_
@@ -426,13 +426,13 @@ Example: $10,000 data processing invoice. Taxable amount: $10,000 x 80% = $8,000
 
 ### E-2: Internet access and web hosting
 
-- **Internet access and web hosting** — Internet access services are exempt from Texas sales tax (per the federal Internet Tax Freedom Act). Web hosting is classified as a data processing service and is taxable (at the 80% rate).  _(Texas Comptroller Rule 3.330)_
+- **Internet access and web hosting** — Internet access services are exempt from Texas sales tax (per the federal Internet Tax Freedom Act). Web hosting is classified as a data processing service and is taxable (at the 80% rate).  _(Texas Comptroller Rule 3.330)_ (not yet confirmed)
 
 ### E-3: Software
 
 - **Canned software** — Canned software (sold off-the-shelf or downloaded): taxable as tangible personal property.  _(unsure)_
 - **Custom software** — Custom software (written to specific customer specs): exempt.  _(unsure)_
-- **SaaS** — SaaS (Software as a Service): the Comptroller's position treats SaaS as a data processing service (taxable at 80%). Some taxpayers dispute this classification.  _(unsure)_
+- **SaaS** — SaaS (Software as a Service): the Comptroller's position treats SaaS as a data processing service (taxable at 80%). Some taxpayers dispute this classification.  _(unsure)_ (not yet confirmed)
 
 ### E-4: Manufacturing exemptions
 
@@ -480,7 +480,7 @@ Example: $10,000 data processing invoice. Taxable amount: $10,000 x 80% = $8,000
 ### Section 7 -- Prohibitions
 
 - **P-1** — Do NOT assume Texas local tax is always destination-based or always origin-based; identify Texas place of business, fulfillment facts, remote-seller status, marketplace-provider status, and any single local use tax election.  _(Section 7 -- Prohibitions)_
-- **P-2** — Do NOT tax the full amount of data processing services. Only 80% is taxable.  _(Section 7 -- Prohibitions)_
+- **P-2** — Do NOT tax the full amount of data processing services. Only 80% is taxable.  _(Section 7 -- Prohibitions)_ (not yet confirmed)
 - **P-3** — Do NOT classify all software as taxable. Custom software is exempt.  _(Section 7 -- Prohibitions)_
 - **P-4** — Do NOT claim the timely filing discount on a late return.  _(Section 7 -- Prohibitions)_
 - **P-5** — Do NOT apply local tax rates exceeding the 2% cap.  _(Section 7 -- Prohibitions)_
@@ -494,7 +494,7 @@ Before delivering output, verify:
 - [ ] State rate of 6.25% applied correctly
 - [ ] Local sourcing documented: Texas place of business / fulfillment / remote-seller status checked, and rate verified with Comptroller locator or valid single local use tax election
 - [ ] Combined rate does not exceed 8.25%
-- [ ] Data processing services taxed at 80% only
+- [ ] Data processing services taxed at 80% only (not yet confirmed)
 - [ ] Use tax reported for out-of-state purchases
 - [ ] Timely filing discount applied (or forfeited if late)
 - [ ] Filing frequency matches liability thresholds
