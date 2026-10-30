@@ -33,7 +33,7 @@ Pennsylvania Local Earned Income Tax (LEIT) is a municipal and school district w
 
 ### 1.4 Interaction with PA state Personal Income Tax (PIT)
 
-- **LEIT vs PA PIT** — LEIT is in addition to PA state PIT, which is a flat 3.07% under 72 P.S. §7302. The two taxes do not interact — there is no credit on the PA state return for LEIT paid, and no credit on the LEIT return for state PIT paid. They are parallel obligations.  _(72 P.S. §7302)_
+- **LEIT vs PA PIT** — LEIT is in addition to PA state PIT, which is a flat 3.07% under 72 P.S. §7302. The two taxes do not interact — there is no credit on the PA state return for LEIT paid, and no credit on the LEIT return for state PIT paid. They are parallel obligations.  _(72 P.S. §7302)_ (not yet confirmed)
 
 ### 1.5 What this skill covers
 
@@ -52,9 +52,9 @@ This skill covers the Act 32 regime: PSD codes, employer withholding, Form CLGS-
 
 ### 2.1 General rate range (non-Philadelphia)
 
-- **Combined LEIT rate range** — 0.5% to approximately 3.9% percent (Combined municipality + school district LEIT rates on taxable earned income and net profits)
-- **Municipality rate (most common floor)** — 0.5% percent  _(Act 511 §311(1))_
-- **School district rate (most common)** — 0.5% percent (may impose under Act 1 of 2006 referendum or historic Act 511 share)
+- **Combined LEIT rate range** — 0.5% to approximately 3.9% percent (Combined municipality + school district LEIT rates on taxable earned income and net profits) (not yet confirmed)
+- **Municipality rate (most common floor)** — 0.5% percent  _(Act 511 §311(1))_ (not yet confirmed)
+- **School district rate (most common)** — 0.5% percent (may impose under Act 1 of 2006 referendum or historic Act 511 share) (not yet confirmed)
 - **Typical combined rate** — 1.0% (split 0.5% / 0.5%) percent
 
 ### 2.2 Statutory ceiling
@@ -67,17 +67,17 @@ This skill covers the Act 32 regime: PSD codes, employer withholding, Form CLGS-
 
 | Municipality | Combined resident rate (hypothetical) |
 | --- | --- |
-| Reading (Berks Co.) | ~3.6% |
-| Scranton (Lackawanna Co.) | ~3.4% |
+| Reading (Berks Co.) | ~3.6% | (not yet confirmed)
+| Scranton (Lackawanna Co.) | ~3.4% | (not yet confirmed)
 | Bethlehem (Northampton/Lehigh Co.) | ~1.0% |
-| Allentown (Lehigh Co.) | ~1.975% |
-| Harrisburg (Dauphin Co.) | ~2.0% (Act 47) |
+| Allentown (Lehigh Co.) | ~1.975% | (not yet confirmed)
+| Harrisburg (Dauphin Co.) | ~2.0% (Act 47) | (not yet confirmed)
 | Pittsburgh (Allegheny Co.) | ~3.0% (1% municipal + 2% school district) |
 | Wilkes-Barre (Luzerne Co.) | ~3.0% |
-| Lancaster City (Lancaster Co.) | ~1.1% |
-| York City (York Co.) | ~1.25% |
-| Erie (Erie Co.) | ~1.65% |
-| Chester (Delaware Co.) | ~3.75% (Act 47) |
+| Lancaster City (Lancaster Co.) | ~1.1% | (not yet confirmed)
+| York City (York Co.) | ~1.25% | (not yet confirmed)
+| Erie (Erie Co.) | ~1.65% | (not yet confirmed)
+| Chester (Delaware Co.) | ~3.75% (Act 47) | (not yet confirmed)
 
 CRITICAL: These rates change frequently. The DCED publishes the current rates at the Pennsylvania Municipal Statistics portal (https://munstats.pa.gov), which is the authoritative source. Always pull the current-year rate before preparing a return.
 
@@ -87,11 +87,11 @@ CRITICAL: These rates change frequently. The DCED publishes the current rates at
 
 ### 2.5 Philadelphia rates (preview — see Section 8)
 
-- **Philadelphia resident wage tax (2025)** — 3.75% percent (effective July 1, 2025; was 3.75% effective July 1, 2024; verify against City of Philadelphia Department of Revenue announcement for rate effective during the wage period at issue)
-- **Philadelphia non-resident wage tax (2025)** — 3.44% percent (the non-resident rate has historically been ~92% of the resident rate; verify current)
-- **Philadelphia Net Profits Tax (NPT)** — resident 3.75% / non-resident 3.44% percent (same rates as wage tax, with adjustments — see Section 9)
+- **Philadelphia resident wage tax (2025)** — 3.75% percent (effective July 1, 2025; was 3.75% effective July 1, 2024; verify against City of Philadelphia Department of Revenue announcement for rate effective during the wage period at issue) (not yet confirmed)
+- **Philadelphia non-resident wage tax (2025)** — 3.44% percent (the non-resident rate has historically been ~92% of the resident rate; verify current) (not yet confirmed)
+- **Philadelphia Net Profits Tax (NPT)** — resident 3.75% / non-resident 3.44% percent (same rates as wage tax, with adjustments — see Section 9) (not yet confirmed)
 
-Philadelphia rates change every July 1. Always pull the wage period-specific rate.
+Philadelphia rates change every July 1. Always pull the wage period-specific rate. (not yet confirmed)
 
 ### 2.6 Rate base
 
@@ -122,17 +122,17 @@ Philadelphia rates change every July 1. Always pull the wage period-specific rat
 | Quarter | Period | Remittance due |
 | --- | --- | --- |
 | Q1 | Jan 1 – Mar 31 | Apr 30 |
-| Q2 | Apr 1 – Jun 30 | Jul 31 |
-| Q3 | Jul 1 – Sep 30 | Oct 31 |
+| Q2 | Apr 1 – Jun 30 | Jul 31 | (not yet confirmed)
+| Q3 | Jul 1 – Sep 30 | Oct 31 | (not yet confirmed)
 | Q4 | Oct 1 – Dec 31 | Jan 31 (following year) |
 
 ### 3.6 Annual reconciliation (employers)
 
-- **Employer annual reconciliation deadline** — The employer files an annual reconciliation of withholding with the tax officer by February 28 (sometimes by January 31, depending on the tax officer — Berkheimer requires Feb 28; Keystone requires Feb 28; confirm with the specific tax officer). The reconciliation must include each employee's PSD code, gross compensation, EIT withheld, and W-2 box totals.
+- **Employer annual reconciliation deadline** — The employer files an annual reconciliation of withholding with the tax officer by February 28 (sometimes by January 31, depending on the tax officer — Berkheimer requires Feb 28; Keystone requires Feb 28; confirm with the specific tax officer). The reconciliation must include each employee's PSD code, gross compensation, EIT withheld, and W-2 box totals. (not yet confirmed)
 
 ### 3.7 Annual final return (individuals)
 
-- **Individual annual final return deadline** — Residents file an annual final return with the tax officer by April 15 (aligned with federal and PA state). Extensions are typically honoured if a federal extension (Form 4868) is filed, but the local tax officer must be notified — practice varies. Berkheimer accepts a copy of the federal extension as evidence; Keystone requires an explicit local request.
+- **Individual annual final return deadline** — Residents file an annual final return with the tax officer by April 15 (aligned with federal and PA state). Extensions are typically honoured if a federal extension (Form 4868) is filed, but the local tax officer must be notified — practice varies. Berkheimer accepts a copy of the federal extension as evidence; Keystone requires an explicit local request. (not yet confirmed)
 
 ## 4. PSD codes and Form CLGS-32-6
 
@@ -195,7 +195,7 @@ Philadelphia rates change every July 1. Always pull the wage period-specific rat
 
 ### 6.2 Annual filing obligation
 
-- **Self-employed annual return components** — A self-employed PA resident files the annual final return (Form CLGS-32-1 or tax-officer equivalent) with their resident TCD tax officer by April 15, reporting: Earned income (W-2 wages, if any); Net profits from Schedule C / partnership distributive share; Less: PA-conforming business expenses; Times: resident EIT rate; Less: EIT withheld by employer (if any); Less: quarterly estimated payments made; Less: reciprocal credit for tax paid to another PA jurisdiction (Section 7); = Balance due / refund.  _(Form CLGS-32-1)_
+- **Self-employed annual return components** — A self-employed PA resident files the annual final return (Form CLGS-32-1 or tax-officer equivalent) with their resident TCD tax officer by April 15, reporting: Earned income (W-2 wages, if any); Net profits from Schedule C / partnership distributive share; Less: PA-conforming business expenses; Times: resident EIT rate; Less: EIT withheld by employer (if any); Less: quarterly estimated payments made; Less: reciprocal credit for tax paid to another PA jurisdiction (Section 7); = Balance due / refund.  _(Form CLGS-32-1)_ (not yet confirmed)
 
 ### 6.3 Quarterly estimated payments
 
@@ -204,11 +204,11 @@ Philadelphia rates change every July 1. Always pull the wage period-specific rat
 | Quarter | Estimate due |
 | --- | --- |
 | Q1 | Apr 30 |
-| Q2 | Jul 31 |
-| Q3 | Oct 31 |
-| Q4 | Jan 31 (following year) |
+| Q2 | Jul 31 | (not yet confirmed)
+| Q3 | Oct 31 | (not yet confirmed)
+| Q4 | Jan 31 (following year) | (not yet confirmed)
 
-Note: these are calendar-quarter deadlines, NOT the federal 1040-ES deadlines. The federal Q2 estimate is due June 15 and Q3 is due September 15; the PA LEIT estimates are due July 31 and October 31. Practitioners often miss this mismatch. Most TCD tax officers accept ACH, check, or online card payment.
+Note: these are calendar-quarter deadlines, NOT the federal 1040-ES deadlines. The federal Q2 estimate is due June 15 and Q3 is due September 15; the PA LEIT estimates are due July 31 and October 31. Practitioners often miss this mismatch. Most TCD tax officers accept ACH, check, or online card payment. (not yet confirmed)
 
 ### 6.4 Underpayment penalty
 
@@ -238,11 +238,11 @@ Note: these are calendar-quarter deadlines, NOT the federal 1040-ES deadlines. T
 
 ### 7.5 No credit for non-PA tax
 
-- **Non-PA state tax non-creditable against LEIT** — Tax paid to New Jersey, New York, Delaware, Ohio, West Virginia, Maryland (states bordering PA) is not creditable against LEIT. Only intra-PA tax credits. PA does provide a credit on the state PIT return (PA-40 Schedule G-L) for tax paid to other states, but that credit operates against the 3.07% state PIT, not LEIT. See Worked Example 2.  _(PA-40 Schedule G-L)_
+- **Non-PA state tax non-creditable against LEIT** — Tax paid to New Jersey, New York, Delaware, Ohio, West Virginia, Maryland (states bordering PA) is not creditable against LEIT. Only intra-PA tax credits. PA does provide a credit on the state PIT return (PA-40 Schedule G-L) for tax paid to other states, but that credit operates against the 3.07% state PIT, not LEIT. See Worked Example 2.  _(PA-40 Schedule G-L)_ (not yet confirmed)
 
 ### 7.6 Credit for Philadelphia tax paid
 
-- **Philadelphia tax credit rule** — A PA resident living in (say) Bucks County who works in Philadelphia and pays Philadelphia's 3.44% non-resident wage tax is entitled to credit Philadelphia tax against their Bucks County LEIT. This is a specific Act 32 reciprocity rule even though Philadelphia is outside Act 32 — the resident TCD allows the credit by statute. Documentation: the W-2 with Philadelphia wage tax in Box 19 plus the locality 'Philadelphia' in Box 20, or a Philadelphia BIRT/wage tax statement. See Worked Example 4 in Section 10.
+- **Philadelphia tax credit rule** — A PA resident living in (say) Bucks County who works in Philadelphia and pays Philadelphia's 3.44% non-resident wage tax is entitled to credit Philadelphia tax against their Bucks County LEIT. This is a specific Act 32 reciprocity rule even though Philadelphia is outside Act 32 — the resident TCD allows the credit by statute. Documentation: the W-2 with Philadelphia wage tax in Box 19 plus the locality 'Philadelphia' in Box 20, or a Philadelphia BIRT/wage tax statement. See Worked Example 4 in Section 10. (not yet confirmed)
 
 ## 8. Philadelphia exception — the Sterling Act
 
@@ -260,10 +260,10 @@ Note: these are calendar-quarter deadlines, NOT the federal 1040-ES deadlines. T
 
 | Period | Resident rate | Non-resident rate |
 | --- | --- | --- |
-| Effective Jul 1, 2024 – Jun 30, 2025 | 3.75% | 3.44% |
-| Effective Jul 1, 2025 – Jun 30, 2026 | 3.75% (verify) | 3.44% (verify) |
+| Effective Jul 1, 2024 – Jun 30, 2025 | 3.75% | 3.44% | (not yet confirmed)
+| Effective Jul 1, 2025 – Jun 30, 2026 | 3.75% (verify) | 3.44% (verify) | (not yet confirmed)
 
-ALWAYS confirm the wage-period rate against the City of Philadelphia Department of Revenue current bulletin before preparing a return that spans a July 1 boundary.
+ALWAYS confirm the wage-period rate against the City of Philadelphia Department of Revenue current bulletin before preparing a return that spans a July 1 boundary. (not yet confirmed)
 
 ### 8.4 Who collects
 
@@ -309,16 +309,16 @@ Taxpayer: Sarah, full-year resident of Cumberland Township, Adams County (PSD co
 
 | Step | Detail | Amount |
 | --- | --- | --- |
-| 1. Determine resident rate | Adams Co. PSD 010101 | 1.7% |
+| 1. Determine resident rate | Adams Co. PSD 010101 | 1.7% | (not yet confirmed)
 | 2. Determine non-resident rate | Cumberland Co. PSD 210301 | 1.0% |
 | 3. Higher rate to withhold | max(1.7%, 1.0%) | 1.7% |
-| 4. Withhold on LEIT base | $82,500 × 1.7% | $1,402.50 |
-| 5. Remit to | Adams Co. TCD (resident TCD) | $1,402.50 |
-| 6. Annual return resident tax | $82,500 × 1.7% | $1,402.50 |
+| 4. Withhold on LEIT base | $82,500 × 1.7% | $1,402.50 | (not yet confirmed)
+| 5. Remit to | Adams Co. TCD (resident TCD) | $1,402.50 | (not yet confirmed)
+| 6. Annual return resident tax | $82,500 × 1.7% | $1,402.50 | (not yet confirmed)
 | 7. Credit for non-resident tax paid | none (employer routed all to resident TCD) | $0 |
-| 8. Balance due / refund | $1,402.50 − $1,402.50 | $0 |
+| 8. Balance due / refund | $1,402.50 − $1,402.50 | $0 | (not yet confirmed)
 
-No balance due, no refund. Withholding matches. PSD code routing handled automatically. Annual return still required to be filed with the Adams County TCD tax officer by April 15, 2026.
+No balance due, no refund. Withholding matches. PSD code routing handled automatically. Annual return still required to be filed with the Adams County TCD tax officer by April 15, 2026. (not yet confirmed)
 
 ### Example 2 — PA resident commuting to New Jersey
 
@@ -331,14 +331,14 @@ Under Act 32 §512, the NJ employer is required to withhold PA LEIT at Bensalem'
 | Step | Detail | Amount |
 | --- | --- | --- |
 | 1. Resident rate | Bensalem 1.0% | 1.0% |
-| 2. LEIT base | $123,000 | — |
+| 2. LEIT base | $123,000 | — | (not yet confirmed)
 | 3. LEIT due | $123,000 × 1.0% | $1,230 |
 | 4. Withheld by NJ employer | per W-2 Box 19 | $1,230 |
 | 5. Balance due | $0 | $0 |
-| 6. NJ tax credit on PA-40 Schedule G-L | NJ tax credited against PA state PIT (3.07%) | separate computation |
+| 6. NJ tax credit on PA-40 Schedule G-L | NJ tax credited against PA state PIT (3.07%) | separate computation | (not yet confirmed)
 | 7. NJ tax credit against LEIT | **none** — Act 32 reciprocity is intra-PA only | $0 |
 
-Annual return required to be filed with Bucks Co. TCD tax officer by April 15, 2026.
+Annual return required to be filed with Bucks Co. TCD tax officer by April 15, 2026. (not yet confirmed)
 
 Marcus must instead: 1. Make quarterly estimated payments of $307.50 ($1,230/4) to Bucks Co. TCD tax officer by Apr 30, Jul 31, Oct 31 of 2025 and Jan 31 of 2026. 2. File annual final return by April 15, 2026, reporting $1,230 LEIT, $1,230 estimates paid, balance due / refund $0. 3. If estimates not made: $1,230 balance due plus underpayment interest (~6%/yr quarterly compounding) on each unpaid installment. Key point: No credit for NJ tax against LEIT, regardless of whether the NJ tax is much higher than the PA LEIT. The reciprocity argument is a frequent client complaint that must be firmly rebutted.
 
@@ -353,12 +353,12 @@ Taxpayer: Priya, full-year resident of Lower Macungie Township, Lehigh County (r
 | Step | Detail | Amount |
 | --- | --- | --- |
 | 1. Resident rate (and non-resident rate, since worksite = home) | 1.0% | — |
-| 2. LEIT base | $148,000 | — |
+| 2. LEIT base | $148,000 | — | (not yet confirmed)
 | 3. LEIT due | $148,000 × 1.0% | $1,480 |
-| 4. Withheld | per W-2 | $1,480 |
+| 4. Withheld | per W-2 | $1,480 | (not yet confirmed)
 | 5. Balance due | $0 | $0 |
 
-Priya: 1. Makes quarterly estimated LEIT payments of $370 ($1,480/4) to Lehigh Co. TCD tax officer. 2. Files annual return by April 15, 2026. Practitioner workflow: If the CA employer has not been withholding, the practitioner should (a) calculate Priya's correct LEIT liability and arrange catch-up estimates, and (b) prepare a letter to the employer's payroll department citing Act 32 §512 and demanding prospective compliance. Berkheimer / Keystone publish standard 'Notice to Out-of-State Employer' templates for this purpose.
+Priya: 1. Makes quarterly estimated LEIT payments of $370 ($1,480/4) to Lehigh Co. TCD tax officer. 2. Files annual return by April 15, 2026. Practitioner workflow: If the CA employer has not been withholding, the practitioner should (a) calculate Priya's correct LEIT liability and arrange catch-up estimates, and (b) prepare a letter to the employer's payroll department citing Act 32 §512 and demanding prospective compliance. Berkheimer / Keystone publish standard 'Notice to Out-of-State Employer' templates for this purpose. (not yet confirmed)
 
 ### Example 4 — PA suburban resident working in Philadelphia
 
@@ -371,10 +371,10 @@ Philadelphia is outside Act 32 but the credit under Section 7.6 applies.
 | Step | Detail | Amount |
 | --- | --- | --- |
 | 1. Cheltenham resident tax | $97,500 × 1.0% | $975.00 |
-| 2. Philadelphia non-resident tax paid | $97,500 × 3.44% | $3,354.00 |
-| 3. Credit allowed against Cheltenham tax | lesser of $3,354 or $975 | $975.00 |
-| 4. Cheltenham LEIT due | $975 − $975 | $0 |
-| 5. Philadelphia tax retained (no refund) | $3,354 − $975 credit transfer | $3,354 stays with Philadelphia |
+| 2. Philadelphia non-resident tax paid | $97,500 × 3.44% | $3,354.00 | (not yet confirmed)
+| 3. Credit allowed against Cheltenham tax | lesser of $3,354 or $975 | $975.00 | (not yet confirmed)
+| 4. Cheltenham LEIT due | $975 − $975 | $0 | (not yet confirmed)
+| 5. Philadelphia tax retained (no refund) | $3,354 − $975 credit transfer | $3,354 stays with Philadelphia | (not yet confirmed)
 
 Cheltenham (Montgomery Co. TCD) collects nothing from Daniel; the credit fully absorbs the resident liability. Daniel receives no refund from Philadelphia of the 'excess' over Cheltenham's 1.0% — Philadelphia keeps its 3.44% under the Sterling Act. Annual return still required to be filed with Montgomery Co. TCD tax officer, reporting the Philadelphia tax and the credit. Attach W-2 with Philadelphia withholding visible in Box 19 / Box 20.
 
@@ -386,10 +386,10 @@ Taxpayer: Yusra, full-year resident of Mt. Lebanon, Allegheny County (resident E
 
 | Step | Detail | Amount |
 | --- | --- | --- |
-| 1. LEIT base (PA Schedule C net profit) | — | $74,500 |
+| 1. LEIT base (PA Schedule C net profit) | — | $74,500 | (not yet confirmed)
 | 2. Resident rate | Mt. Lebanon 1.0% | 1.0% |
 | 3. LEIT due | $74,500 × 1.0% | $745.00 |
-| 4. Estimates required quarterly | $745 / 4 | $186.25 per quarter |
+| 4. Estimates required quarterly | $745 / 4 | $186.25 per quarter | (not yet confirmed)
 | 5. Estimate deadlines | Apr 30, Jul 31, Oct 31, Jan 31 | — |
 
 Yusra files annual final return with Jordan Tax Service (Allegheny SW TCD) by April 15, 2026. If she missed estimates, underpayment interest (~6%/yr) accrues on each unpaid installment.
@@ -398,7 +398,7 @@ Yusra files annual final return with Jordan Tax Service (Allegheny SW TCD) by Ap
 
 ### 11.1 Rate pulls
 
-- **Rate lookup requirement** — Always look up the current resident and non-resident EIT rate on munstats.pa.gov for the exact address provided. Do not rely on prior-year rates or memory of 'typical' rates. Always verify the Philadelphia wage tax rate against the City of Philadelphia Department of Revenue's bulletin for the specific wage period (rates change every July 1).
+- **Rate lookup requirement** — Always look up the current resident and non-resident EIT rate on munstats.pa.gov for the exact address provided. Do not rely on prior-year rates or memory of 'typical' rates. Always verify the Philadelphia wage tax rate against the City of Philadelphia Department of Revenue's bulletin for the specific wage period (rates change every July 1). (not yet confirmed)
 
 ### 11.2 §401(k) treatment
 
@@ -444,7 +444,7 @@ Pennsylvania Department of Community and Economic Development (DCED), Municipal 
 
 ### 13.3 Philadelphia primary authority
 
-City of Philadelphia, Department of Revenue, Wage Tax Regulations — phila.gov/revenue; Annual wage tax rate bulletin (effective each July 1); Philadelphia Code §19-1502 (Wage Tax), §19-1502.1 (Earnings Tax), §19-1503 (Net Profits Tax).
+City of Philadelphia, Department of Revenue, Wage Tax Regulations — phila.gov/revenue; Annual wage tax rate bulletin (effective each July 1); Philadelphia Code §19-1502 (Wage Tax), §19-1502.1 (Earnings Tax), §19-1503 (Net Profits Tax). (not yet confirmed)
 
 ### 13.4 Major case law
 
@@ -460,7 +460,7 @@ This skill has been drafted from primary statutory sources, DCED published mater
 
 ### 13.7 Cross-references to other skills
 
-pa-income-tax.md — PA state PIT (3.07%) — parallel obligation; no integration with LEIT. pa-sales-tax.md — separate skill. us-sole-prop-bookkeeping.md — PA Schedule C derives from federal Schedule C with PA adjustments. us-schedule-c-and-se-computation.md — federal Schedule C / SE computation feeds LEIT net profits. us-quarterly-estimated-tax.md — federal estimates; not aligned with LEIT estimate deadlines. us-federal-return-assembly.md — federal package assembly; LEIT is a separate package.
+pa-income-tax.md — PA state PIT (3.07%) — parallel obligation; no integration with LEIT. pa-sales-tax.md — separate skill. us-sole-prop-bookkeeping.md — PA Schedule C derives from federal Schedule C with PA adjustments. us-schedule-c-and-se-computation.md — federal Schedule C / SE computation feeds LEIT net profits. us-quarterly-estimated-tax.md — federal estimates; not aligned with LEIT estimate deadlines. us-federal-return-assembly.md — federal package assembly; LEIT is a separate package. (not yet confirmed)
 
 ### 13.8 Open items for v0.2
 

@@ -9,9 +9,9 @@ applicable: [IT-IND, IT-CORP, VAT, SC, PR, TP, XB]
 |---|---|
 | State | Pennsylvania |
 | Code | US-PA |
-| Income tax | Yes (flat 3.07%) |
+| Income tax | Yes (flat 3.07%) | (not yet confirmed)
 | Sales tax | Yes (6% state + up to 2% local) |
-| Corporate income tax | Yes — Corporate Net Income Tax (CNIT), 9.99% phasing down under Act 53 (2022) |
+| Corporate income tax | Yes — Corporate Net Income Tax (CNIT), 9.99% phasing down under Act 53 (2022) | (not yet confirmed)
 | Franchise / gross receipts tax | Capital stock/franchise tax repealed effective 2017; margins tax expired 2016 |
 | Tax authority | [Pennsylvania Department of Revenue](https://www.pa.gov/agencies/revenue/) |
 | Quality tier | Q3 — AI-drafted, not independently verified |
@@ -28,7 +28,7 @@ applicable: [IT-IND, IT-CORP, VAT, SC, PR, TP, XB]
 | TP, transfer pricing | pa-transfer-pricing (combined/unitary reporting, 7337 addbacks) | source-cited draft — statute text needs-sources |
 | XB, cross-border | pa-cross-border (reciprocity, Schedule G-L, nonresident PA-40) | source-cited draft |
 
-Pennsylvania's entity-level tax is the **Corporate Net Income Tax** (CNIT, Act of Mar. 4, 1971 — an uncodified session law, which is why statute searches on legis.state.pa.us USC pages do not find it). The capital stock/franchise tax was repealed effective 2017. PA layers **local earned income taxes (Act 32 PSDs)** and the **Local Services Tax** on top of the state income tax — see `pa-payroll` and `pa-cross-border`.
+Pennsylvania's entity-level tax is the **Corporate Net Income Tax** (CNIT, Act of Mar. 4, 1971 — an uncodified session law, which is why statute searches on legis.state.pa.us USC pages do not find it). The capital stock/franchise tax was repealed effective 2017. PA layers **local earned income taxes (Act 32 PSDs)** and the **Local Services Tax** on top of the state income tax — see `pa-payroll` and `pa-cross-border`. (not yet confirmed)
 
 ## Files in this folder
 

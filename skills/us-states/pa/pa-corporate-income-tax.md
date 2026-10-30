@@ -50,12 +50,12 @@ Pennsylvania taxes C corporations with the **Corporate Net Income Tax (CNIT)** �
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| CNIT rate (historic) | **9.99%** flat | `mn-corporate-and-pte` (tier 2, 2026-07-13) |
+| CNIT rate (historic) | **9.99%** flat | `mn-corporate-and-pte` (tier 2, 2026-07-13) | (not yet confirmed)
 | CNIT phase-down | Act 53 of 2022 steps the rate down toward **4.99%**; commonly cited steps 8.99% (2023), 7.49% (2024), 6.49% (2025) — **2026 rate not yet confirmed** | Act 53 text not retrievable 2026-10-27 (all probed paths 404) — **not yet confirmed** |
 | Base | Federal taxable income with PA modifications, **apportioned** (single sales factor since 2014 — not yet confirmed re-verify) | not yet confirmed (RCT-1 not read) |
 | Capital stock / franchise tax | **Repealed** effective 2017 | `pa-income-tax` README note; not yet confirmed for the repealer cite |
 | Margins tax | 0.99% of PA gross receipts — **expired** after 2016 | not yet confirmed |
-| Pass-throughs | No entity-level CNIT; owners at 3.07% PIT | `pa-income-tax` (2026 REV-413 read 2026-09-25) |
+| Pass-throughs | No entity-level CNIT; owners at 3.07% PIT | `pa-income-tax` (2026 REV-413 read 2026-09-25) | (not yet confirmed)
 | P.L. 86-272 | Applies (income tax) | federal statute; PA administrative practice not yet confirmed |
 
 ### 4. Deadlines
@@ -125,8 +125,8 @@ expected:
 
 - [PA Department of Revenue CNIT page](https://www.revenue.pa.gov/Businesses/Taxes/CorporateNetIncomeTax.aspx) — HTTP 200 2026-10-27, JS-rendered shell (no figures extractable)
 - [DLI UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights) — HTTP 200 2026-10-27 (read for SC, not CNIT)
-- `mn-corporate-and-pte` (tier 2, read 2026-07-13) — corroborates 9.99% historic and phase-down to 4.99%
-- `pa-income-tax` (tier 2) — 3.07% PIT for pass-through owners
+- `mn-corporate-and-pte` (tier 2, read 2026-07-13) — corroborates 9.99% historic and phase-down to 4.99% (not yet confirmed)
+- `pa-income-tax` (tier 2) — 3.07% PIT for pass-through owners (not yet confirmed)
 - **not yet confirmed:** 2026 CNIT rate (Act 53 schedule — RCT-1 instructions PDF 404 on all probed paths 2026-10-27); apportionment factor rules; RCT-1 deadline/estimate calendar; 72 P.S. § 7205 penalty and interest rates; VDPA.
 
 <!-- openaccountants-cta-block -->

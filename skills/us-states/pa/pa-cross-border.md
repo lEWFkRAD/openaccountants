@@ -50,7 +50,7 @@ How Pennsylvania taxes people who cross its borders: the **six reciprocal states
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| PIT rate | **3.07%** flat | `pa-income-tax` (2026 REV-413 read 2026-09-25) |
+| PIT rate | **3.07%** flat | `pa-income-tax` (2026 REV-413 read 2026-09-25) | (not yet confirmed)
 | Reciprocal states | **NJ, OH, IN, MD, VA, WV** — wages exempt for full-year residents of those states | 2025 PA-40 instructions, read 2026-10-27 |
 | Reciprocity limits | Does NOT waive PA local EIT/LST; other PA-source income still taxable | 2025 PA-40 instructions + `pa-local-eit` |
 | Schedule G-L credit | Credit for income tax properly paid to another state on income also taxed by PA; cannot exceed PA tax on that income | 2025 PA-40 instructions, read 2026-10-27 |
@@ -62,9 +62,9 @@ How Pennsylvania taxes people who cross its borders: the **six reciprocal states
 
 | Filing | Due |
 |---|---|
-| PA-40 (residents, nonresidents, part-year) | April 15; extension to October 15 |
+| PA-40 (residents, nonresidents, part-year) | April 15; extension to October 15 | (not yet confirmed)
 | Schedule G-L | Attached to the PA-40 |
-| Local EIT (Act 32) returns | Per PSD calendar (annual reconciliation Jan 31; quarterly for larger employers) — see `pa-local-eit` |
+| Local EIT (Act 32) returns | Per PSD calendar (annual reconciliation Jan 31; quarterly for larger employers) — see `pa-local-eit` | (not yet confirmed)
 | LST | With municipal returns |
 
 ### 5. Penalties and interest
@@ -132,7 +132,7 @@ Maryland's higher tax means the credit is capped at the PA figure (120,000 × 3.
 ### 9. Sources
 
 - [2025 PA-40 instructions (PDF)](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2025/2025_pa-40in.pdf) — read 2026-10-27 (reciprocity list and carve-outs, Schedule G-L, nonresident/part-year rules)
-- `pa-income-tax` (tier 2, 2026 REV-413 read 2026-09-25) — 3.07% rate, penalties
+- `pa-income-tax` (tier 2, 2026 REV-413 read 2026-09-25) — 3.07% rate, penalties (not yet confirmed)
 - `pa-payroll` / `pa-local-eit` (tier 2, read 2026-07-13) — Act 32 EIT, LST, reciprocity withholding mechanics
 - **not yet confirmed:** 2026 PA-40 instructions (not published at read time); per-PSD rate tables; PA interest rate for 2026.
 

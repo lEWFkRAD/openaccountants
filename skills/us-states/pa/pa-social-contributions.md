@@ -31,7 +31,7 @@ depends_on:
 
 ## Who this applies to
 
-Employer-side social contributions in Pennsylvania: **unemployment compensation (UC)** under the Unemployment Compensation Law (Act of Dec. 17, 1936, P.L. 1972 — also an uncodified session law), **workers' compensation insurance**, and the **PA Paid Family Leave (PFML)** insurance program. Payroll mechanics (withholding, UC-2 filing) sit in `pa-payroll`.
+Employer-side social contributions in Pennsylvania: **unemployment compensation (UC)** under the Unemployment Compensation Law (Act of Dec. 17, 1936, P.L. 1972 — also an uncodified session law), **workers' compensation insurance**, and the **PA Paid Family Leave (PFML)** insurance program. Payroll mechanics (withholding, UC-2 filing) sit in `pa-payroll`. (not yet confirmed)
 
 **Source status (as_of 2026-10-27):** [DLI UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights) fetched HTTP 200 and read — 2026 and 2027 solvency measures, wage base, surcharge, employee contribution all quoted below. PFML official pages (pfml.pa.gov, ucpfi.pa.gov) did not resolve from this host on 2026-10-27 — **PFML contribution figures are not yet confirmed**. Workers' comp premium rules are general; the DLI workers' comp pages are navigation shells — **not yet confirmed for rate detail**.
 
