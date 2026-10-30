@@ -429,7 +429,13 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+| Source | URL | Read on |
+| --- | --- | --- |
+| Wisconsin DOR (home) | https://www.revenue.wi.gov | 2026-10-29 |
+| Wisconsin DOR — Sales/Use tax forms (S-114) | https://www.revenue.wi.gov/DORForms/S-114.pdf | 2026-10-29 |
+| Wisconsin DOR — Publication 240 | https://www.revenue.wi.gov/DOR%20Publications/pb240.pdf | 2026-10-29 |
+
+Not yet confirmed: the rate, threshold, and due-date figures in this skill were not found in the archived sources (archived 2026-10-29).
 
 ## Talk to a verified accountant
 

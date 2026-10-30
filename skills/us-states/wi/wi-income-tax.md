@@ -1,6 +1,6 @@
 ---
 name: wi-income-tax
-description: Use this skill whenever asked about Wisconsin individual income tax, Wisconsin Form 1, Wisconsin graduated tax rates, Wisconsin self-employment income tax at the state level, Wisconsin sliding-scale standard deduction, or any Wisconsin personal income tax question for sole proprietors. Trigger on phrases like "Wisconsin income tax", "WI income tax", "Wisconsin Form 1", "Wisconsin tax brackets", "Wisconsin 7.65%", "Wis. Stat. 71", or any request involving Wisconsin state individual income tax computation or filing.
+description: Use this skill whenever asked about Wisconsin individual income tax, Wisconsin Form 1, Wisconsin graduated tax rates, Wisconsin self-employment income tax at the state level, Wisconsin sliding-scale standard deduction, or any Wisconsin personal income tax question for sole proprietors. Trigger on phrases like "Wisconsin income tax", "WI income tax", "Wisconsin Form 1", "Wisconsin tax brackets", "Wis. Stat. 71", or any request involving Wisconsin state individual income tax computation or filing.
 version: "0.2"
 jurisdiction: US-WI
 tax_year: 2025
@@ -49,7 +49,6 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 | 1 | Wisconsin DOR — Income Tax | https://www.revenue.wi.gov/pages/individ/home.aspx |
 | 2 | 2025 Form 1 Instructions (I-111) | https://www.revenue.wi.gov/TaxForms2025/2025-Form1-Inst.pdf |
 | 3 | 2025 Wisconsin Act 15 (Budget Bill) — Tax rate changes | https://docs.legis.wisconsin.gov/2025/related/acts/15 |
-| 4 | Tax Foundation — Wisconsin profile | https://taxfoundation.org/location/wisconsin/ |
 
 ## Section 2: Quick reference — rates and thresholds
 
@@ -301,7 +300,12 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+| Source | URL | Read on |
+| --- | --- | --- |
+| Wisconsin DOR — Income Tax | https://www.revenue.wi.gov/pages/individ/home.aspx | 2026-10-29 |
+| 2025 Wisconsin Act 15 (Budget Bill) — Tax rate changes | https://docs.legis.wisconsin.gov/2025/related/acts/15 | 2026-10-29 |
+
+Not yet confirmed: the 7.65% top marginal rate and the bracket figures in this skill were not found in the archived sources (archived 2026-10-29); the Tax Foundation profile and the 2025 Form 1 instructions (I-111) were not archived.
 
 ## Talk to a verified accountant
 
