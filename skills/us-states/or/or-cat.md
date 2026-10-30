@@ -1,17 +1,3 @@
----
-name: or-cat
-description: Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals (not yet confirmed) plus 0.57% of taxable commercial activity above (not yet confirmed) million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at (not yet confirmed) of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
-jurisdiction: US-OR
-tax_year: 2025
-last_updated: 2026-07-13
-review_status: pending_review
-trust_label: Built by Michael Cutajar and the OpenAccountants team
-tier: 2
-license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
----
-
-# OR Cat
-
 ## Who this applies to
 
 Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals $250 plus 0.57% of taxable commercial activity above $1 million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at $750,000 of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
@@ -51,7 +37,8 @@ Read this skill before doing any of the following:
 - Advising on whether to elect unitary group filing
 - Evaluating the CAT impact of a multi-state structure where Oregon is one of several sourcing states
 
-## The taxable base
+
+## Rates, bands and thresholds
 
 ### 2.1 Definition of commercial activity
 
@@ -75,7 +62,8 @@ For a wholesale grocery distributor whose entire business consists of SNAP-eligi
 
 - **Returns and allowances treatment** — Returns and allowances are not separately listed in the statutory exclusions, but the "total amount realized" formulation effectively reduces the base by genuine returns because the taxpayer never realized the receipt in the first place — the sale was undone. Refunds of services, however, must be examined carefully because the original receipt was realized when paid and a later refund is treated as a reduction in commercial activity in the year of refund, not retroactively. The Department of Revenue's position is that bona fide returns processed within the same reporting period reduce commercial activity. Returns processed in a later period are deducted in that later period.  _(Department of Revenue position (unsure - no statutory cite given))_
 
-## Rates, bands and thresholds
+
+## The taxable base
 
 ### 3.1 The two-part rate
 
@@ -157,6 +145,7 @@ A reasonable practitioner runs both calculations for each client and elects the 
 
 - **Full CAT calculation steps** — Step 1: Determine Oregon commercial activity (OCA) Step 2: Compute Oregon-apportioned COGS or labor, take the larger Step 3: Multiply by 35% — this is the subtraction (capped at 95% × OCA) Step 4: Tax base = max(0, OCA − $1,000,000 − Subtraction) Step 5: CAT = $250 + 0.57% × Tax base   (only if OCA > $1,000,000)  _(ORS 317A.119; ORS 317A.116)_
 
+
 ## Deadlines and filing
 
 ### 6.1 Calendar year
@@ -232,27 +221,6 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 - **Designated reporter requirement** — A combined group must designate one member as the "designated reporter" — typically the corporate parent. The designated reporter files the single Form OR-CAT for the group, signs the return, and is the primary point of contact with the Department of Revenue. Other members are jointly and severally liable but do not file separate returns.  _(unsure - no statutory cite given)_
 
-## Cross-border points
-
-### 9.1 Corporate excise tax (ORS Chapter 317)
-
-- **Corporate excise tax rates and interaction with CAT** — Oregon imposes a corporate excise tax on C-corporations doing business in Oregon under ORS Chapter 317, with a graduated rate of 6.6% on the first $1 million of Oregon taxable income and 7.6% on income above $1 million. The minimum tax is the larger of $150 or a graduated schedule based on Oregon sales (ranging from $150 for under $500k to $100,000 for $100M+ of Oregon sales). CAT is **in addition to** the corporate excise tax. A C-corporation with Oregon operations may pay both: - The corporate excise tax on net Oregon income at 6.6%/7.6%, AND - CAT on Oregon commercial activity at 0.57% (after subtraction and threshold) There is no credit between the two taxes. They have different bases (net income vs. gross receipts after subtraction) and different rate structures. CAT is deductible as a state tax for federal purposes; the corporate excise tax is also separately deductible.  _(ORS Chapter 317)_
-
-### 9.2 Corporate income tax (ORS Chapter 318)
-
-- **Corporate income tax interaction** — The corporate income tax under Chapter 318 applies to corporations not "doing business" in Oregon but with Oregon-source income (passive Oregon income for an out-of-state corporation that does not establish nexus under Chapter 317). The Chapter 318 rate is the same as the excise tax rate. The interaction with CAT mirrors section 9.1.  _(ORS Chapter 318)_
-
-### 9.3 Personal income tax
-
-- **Personal income tax interaction** — Sole proprietors and pass-through entity owners report Oregon-source business income on their personal Oregon Form OR-40 (resident) or OR-40-N/OR-40-P (nonresident/part-year). CAT paid by the business reduces the federal Schedule C net income (CAT is deductible as a business tax under §164) and therefore indirectly reduces Oregon personal income tax. There is no direct credit.  _(IRC §164; Form OR-40; Form OR-40-N/OR-40-P)_
-
-### 9.4 Oregon Transit Self-Employment Tax
-
-- **Transit self-employment tax interaction** — The Tri-Met and Lane Transit District self-employment taxes are separate from CAT and apply independently to self-employed individuals operating in those transit districts. No interaction with CAT — both are owed if applicable.  _(unsure - no statutory cite given)_
-
-### 9.5 Multnomah County and Portland Metro business taxes
-
-- **Local business tax interaction** — Multnomah County imposes a business income tax and Portland has a license fee, both administered jointly through the Portland Revenue Division. These are separate from CAT and from state corporate excise tax. A Portland-based business may have four separate Oregon-related state and local business tax filings: CAT, state corporate excise, Multnomah business income tax, and Portland license fee.  _(unsure - no statutory cite given)_
 
 ## Penalties and interest
 
@@ -279,6 +247,30 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 ### 10.6 Fraud and substantial understatement
 
 - **Fraud and substantial understatement penalties** — For fraudulent filings, the penalty is 100% of the unpaid tax. For substantial understatements (defined as the greater of 10% of correct tax or $10,000), the penalty is 20% of the understatement. These penalties are layered with interest but do not stack with the basic late-filing and late-payment penalties — the larger of the two applies.  _(unsure - no statutory cite given)_
+
+
+## Cross-border points
+
+### 9.1 Corporate excise tax (ORS Chapter 317)
+
+- **Corporate excise tax rates and interaction with CAT** — Oregon imposes a corporate excise tax on C-corporations doing business in Oregon under ORS Chapter 317, with a graduated rate of 6.6% on the first $1 million of Oregon taxable income and 7.6% on income above $1 million. The minimum tax is the larger of $150 or a graduated schedule based on Oregon sales (ranging from $150 for under $500k to $100,000 for $100M+ of Oregon sales). CAT is **in addition to** the corporate excise tax. A C-corporation with Oregon operations may pay both: - The corporate excise tax on net Oregon income at 6.6%/7.6%, AND - CAT on Oregon commercial activity at 0.57% (after subtraction and threshold) There is no credit between the two taxes. They have different bases (net income vs. gross receipts after subtraction) and different rate structures. CAT is deductible as a state tax for federal purposes; the corporate excise tax is also separately deductible.  _(ORS Chapter 317)_
+
+### 9.2 Corporate income tax (ORS Chapter 318)
+
+- **Corporate income tax interaction** — The corporate income tax under Chapter 318 applies to corporations not "doing business" in Oregon but with Oregon-source income (passive Oregon income for an out-of-state corporation that does not establish nexus under Chapter 317). The Chapter 318 rate is the same as the excise tax rate. The interaction with CAT mirrors section 9.1.  _(ORS Chapter 318)_
+
+### 9.3 Personal income tax
+
+- **Personal income tax interaction** — Sole proprietors and pass-through entity owners report Oregon-source business income on their personal Oregon Form OR-40 (resident) or OR-40-N/OR-40-P (nonresident/part-year). CAT paid by the business reduces the federal Schedule C net income (CAT is deductible as a business tax under §164) and therefore indirectly reduces Oregon personal income tax. There is no direct credit.  _(IRC §164; Form OR-40; Form OR-40-N/OR-40-P)_
+
+### 9.4 Oregon Transit Self-Employment Tax
+
+- **Transit self-employment tax interaction** — The Tri-Met and Lane Transit District self-employment taxes are separate from CAT and apply independently to self-employed individuals operating in those transit districts. No interaction with CAT — both are owed if applicable.  _(unsure - no statutory cite given)_
+
+### 9.5 Multnomah County and Portland Metro business taxes
+
+- **Local business tax interaction** — Multnomah County imposes a business income tax and Portland has a license fee, both administered jointly through the Portland Revenue Division. These are separate from CAT and from state corporate excise tax. A Portland-based business may have four separate Oregon-related state and local business tax filings: CAT, state corporate excise, Multnomah business income tax, and Portland license fee.  _(unsure - no statutory cite given)_
+
 
 ## Worked examples
 
@@ -404,6 +396,7 @@ EXCLUSIONS:     Groceries, motor fuel, fixed-asset sales, dividends, interest,
 INTERACTION:    Pay BOTH CAT and OR corporate excise tax (different bases)
 ```
 
+
 ## Ask the client first
 
 Refuse to produce a CAT return or definitive CAT advice — and route to a credentialed Oregon CPA or tax attorney — in the following circumstances:
@@ -438,6 +431,7 @@ Before signing off on any CAT return or planning memo produced under this skill,
 13. If quarterly payments were due, did the cumulative payments meet 80% of the actual annual liability? (not yet confirmed)
 14. For C-corporations, has the separate Oregon corporate excise tax obligation been confirmed?
 15. Has CAT been included as a deductible state tax on the federal return?
+
 
 ## Sources
 
@@ -476,6 +470,7 @@ Verified by: pending. Last updated: 2025-11-15. Version 0.1.
 
 ---
 
+
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
@@ -489,3 +484,17 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+---
+name: or-cat
+description: Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals (not yet confirmed) plus 0.57% of taxable commercial activity above (not yet confirmed) million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at (not yet confirmed) of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
+jurisdiction: US-OR
+tax_year: 2025
+last_updated: 2026-07-13
+review_status: pending_review
+trust_label: Built by Michael Cutajar and the OpenAccountants team
+tier: 2
+license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
+---
+
+# OR Cat

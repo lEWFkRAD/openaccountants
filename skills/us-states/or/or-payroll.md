@@ -1,56 +1,3 @@
----
-name: or-payroll
-description: Tier 2 Oregon content skill for employer payroll compliance covering tax year 2025. Includes the OR PIT brackets up to 9.9%, supplemental wage rate 8.0%, OR-W-4 state withholding form, Form OQ quarterly combined withholding/UI return, OR UI wage base (not yet confirmed) (highest in US) with rates 0-5.4%, the Statewide Transit Tax 0.1% on all wages (no cap), TriMet 0.8237% employer payroll tax for Portland area, Lane Transit 0.79% for Eugene, the OR Paid Leave program 0.6% total split between employer (0.4%) and employee (0.2%), and WBF Workers' Benefit Fund assessment.
-jurisdiction: US-OR
-tax_year: 2025
-last_updated: 2026-07-13
-review_status: pending_review
-trust_label: Built by Michael Cutajar and the OpenAccountants team
-tier: 2
-license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
----
-
-# OR Payroll
-
-### Oregon Payroll Compliance — Tier 2 Content Skill
-
-### 1. Scope
-
-This skill is the authoritative Tier 2 content layer for Oregon employer payroll compliance for tax year 2025. It is consumed by upstream workflow skills (`us-tax-workflow-base`, `us-federal-return-assembly`) when an employer has Oregon-source wages, an Oregon resident employee, or any employee performing services within Oregon transit district boundaries.
-
-### 1.1 What this skill covers
-
-- Oregon Personal Income Tax (PIT) withholding from wages — brackets, supplemental wage rate, OR-W-4 employee certificate, Form OQ filing
-- Oregon Unemployment Insurance (UI) — wage base $54,300 (the highest taxable UI wage base in the United States for 2025), rates 0.0%–5.4%, new-employer rate 2.4%
-- Statewide Transit Tax (STT) — 0.1% of all Oregon wages, no wage base cap, applied to Oregon residents working anywhere and to non-residents performing services in Oregon (not yet confirmed)
-- Local transit district employer payroll taxes:
-  - TriMet (Portland metropolitan area) — 0.8237% employer + 0.13% employee (not yet confirmed)
-  - Lane Transit District (Eugene/Springfield) — 0.79% employer (not yet confirmed)
-  - Salem Area Mass Transit District / Cherriots — 0.0036 (0.36%) employer (not yet confirmed)
-- Oregon Paid Leave (Paid Leave Oregon) — 0.6% total contribution, split 40/60 employer/employee for employers with 25+ employees, 12 weeks of paid family/medical/safe leave benefits (not yet confirmed)
-- Workers' Benefit Fund (WBF) assessment — 0.66¢ per hour worked employer + 0.66¢ per hour worked employee (1.32¢ combined) (not yet confirmed)
-- Final-pay rule — by end of next business day after termination by employer
-- Independent contractor classification — the Oregon ABC test, codified by case law and adopted statutorily post-2020
-- Federal interactions — Family and Medical Leave Act parity, Pay Equity Act 2019 implications for payroll
-
-### 1.2 What this skill does NOT cover
-
-- Oregon Corporate Activity Tax (CAT) — see `or-corporate-activity-tax`
-- Oregon individual income tax return preparation — see `or-income-tax`
-- Federal payroll (FICA, FUTA, federal income tax withholding, Form 941, Form 940) — outside scope; covered elsewhere
-- Multistate apportionment for employers outside Oregon with zero Oregon nexus
-- Self-employed sole proprietor own-wage treatment — sole proprietors do not pay themselves W-2 wages and do not owe employer payroll taxes on owner draws
-- Tribal employers and federally-recognized tribal sovereignty exemptions
-- Agricultural labor exemptions under ORS 657.045 (limited scope; refer)
-
-### 1.3 Conservative defaults
-
-- **Default: worker classification** — Treat worker as W-2 employee unless ABC test affirmatively fails (i.e., default to employee classification)
-- **Default: STT applicability** — Apply Statewide Transit Tax to all wages until exemption is documented
-- **Default: transit district application** — Apply TriMet/Lane/Cherriots to all hours worked inside the district unless employer has documented evidence of work performed entirely outside
-- **Default: OR-W-4 missing** — Use the standard OR-W-4 default (single, zero allowances) when no signed OR-W-4 is on file
-- **Default: Paid Leave Oregon employee count** — For Paid Leave Oregon employee count, count all employees nationwide, not just Oregon (per OED rule)
-
 ## Who this applies to
 
 Oregon employers (and out-of-state employers with Oregon-source wages,
@@ -59,6 +6,7 @@ Oregon transit district boundaries) with payroll obligations for tax year
 2025: PIT withholding, UI, Statewide Transit Tax, transit district taxes,
 Paid Leave Oregon, and the Workers' Benefit Fund. Sole proprietors paying
 themselves no W-2 wages are out of scope (see ### 1.2).
+
 
 ## Rates, bands and thresholds
 
@@ -98,6 +46,7 @@ Employers may use the supplemental flat rate **or** the aggregate method that co
 - **Form OR-WR Annual Withholding Reconciliation** — Form OR-WR (Annual Withholding Reconciliation) is due January 31 of the following year and reconciles the four quarterly OQs to the W-2/W-3 filed with DOR.
 
 > **AUDIT FLASH POINT:** Form OQ filers commonly forget to attach Schedule STT or Schedule TM/LTD when the employer has Oregon wages but no employees in the transit district. The schedules must be filed with **zeros** rather than omitted — omission triggers a non-filer notice and a $50 penalty per schedule per quarter under ORS 314.400.
+
 
 ## The taxable base
 
@@ -265,6 +214,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 - **Final pay rule under ORS 652.140** — Under ORS 652.140: - Employer-initiated termination (firing/layoff): all wages due by the end of the next business day after termination - Employee-initiated termination (quit) with 48+ hours notice: all wages due on the last day worked - Employee-initiated termination without 48 hours notice: all wages due within five business days or the next regular payday, whichever is earlier  _(ORS 652.140)_
 - **Penalty wages under ORS 652.150** — Violation triggers penalty wages under ORS 652.150 equal to the employee's regular daily wage rate for each day the wages remain unpaid, up to 30 days. Penalty wages are owed even if the underpayment is minor.  _(ORS 652.150)_
 
+
 ## Deadlines and filing
 
 - **Form OQ quarterly combined return** — Oregon withholding, UI (Schedule B), Statewide Transit Tax (Schedule STT), and TriMet/Lane Transit (Schedule TM/LTD) are consolidated on Form OQ, due April 30, July 31, October 31, and January 31; schedules must be filed with zeros rather than omitted.
@@ -272,7 +222,8 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 - **Annual reconciliations** — Form OR-WR (withholding) and Form OR-STT-A (Statewide Transit Tax) are each due January 31 of the following year.
 - **Registration** — Register with DOR for withholding and OED for UI/Paid Leave before the first Oregon payroll.
 
-## Cross-border points
+
+## Penalties and interest
 
 ### 10.1 Family and Medical Leave Act parity
 
@@ -281,6 +232,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 ### 10.2 Oregon Pay Equity Act 2019
 
 - **Oregon Pay Equity Act requirements** — The Oregon Pay Equity Act (ORS 652.220) prohibits pay discrimination based on protected class and requires equal pay for work of "comparable character." For payroll purposes: - Salary history inquiries are prohibited - Pay decisions must be defensible against an "affirmative defense" requiring a documented equal-pay analysis within the prior three years - Posting of salary ranges in job postings is required under separate amendments Payroll system implications: maintain documented job-evaluation factors and ensure compensation changes carry justification metadata.  _(ORS 652.220)_
+
 
 ## Worked examples
 
@@ -369,6 +321,7 @@ Note: Because the work is in Eugene (LTD), TriMet does not apply. A common error
 
 This is the classic "double-count" problem unique to high-base UI states like Oregon and Washington.
 
+
 ## Ask the client first
 
 Before signing off on an Oregon payroll filing, the credentialed reviewer must verify:
@@ -383,6 +336,7 @@ Before signing off on an Oregon payroll filing, the credentialed reviewer must v
 8. Transit district boundary geocoded: for each work location, not based on employer HQ
 9. ABC test documented: for every 1099-NEC contractor
 10. Final-pay rule timeline: next business day for terminations
+
 
 ## Sources
 
@@ -432,6 +386,7 @@ and are therefore not confirmed sources.
 
 ---
 
+
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
@@ -445,3 +400,56 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+---
+name: or-payroll
+description: Tier 2 Oregon content skill for employer payroll compliance covering tax year 2025. Includes the OR PIT brackets up to 9.9%, supplemental wage rate 8.0%, OR-W-4 state withholding form, Form OQ quarterly combined withholding/UI return, OR UI wage base (not yet confirmed) (highest in US) with rates 0-5.4%, the Statewide Transit Tax 0.1% on all wages (no cap), TriMet 0.8237% employer payroll tax for Portland area, Lane Transit 0.79% for Eugene, the OR Paid Leave program 0.6% total split between employer (0.4%) and employee (0.2%), and WBF Workers' Benefit Fund assessment.
+jurisdiction: US-OR
+tax_year: 2025
+last_updated: 2026-07-13
+review_status: pending_review
+trust_label: Built by Michael Cutajar and the OpenAccountants team
+tier: 2
+license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
+---
+
+# OR Payroll
+
+### Oregon Payroll Compliance — Tier 2 Content Skill
+
+### 1. Scope
+
+This skill is the authoritative Tier 2 content layer for Oregon employer payroll compliance for tax year 2025. It is consumed by upstream workflow skills (`us-tax-workflow-base`, `us-federal-return-assembly`) when an employer has Oregon-source wages, an Oregon resident employee, or any employee performing services within Oregon transit district boundaries.
+
+### 1.1 What this skill covers
+
+- Oregon Personal Income Tax (PIT) withholding from wages — brackets, supplemental wage rate, OR-W-4 employee certificate, Form OQ filing
+- Oregon Unemployment Insurance (UI) — wage base $54,300 (the highest taxable UI wage base in the United States for 2025), rates 0.0%–5.4%, new-employer rate 2.4%
+- Statewide Transit Tax (STT) — 0.1% of all Oregon wages, no wage base cap, applied to Oregon residents working anywhere and to non-residents performing services in Oregon (not yet confirmed)
+- Local transit district employer payroll taxes:
+  - TriMet (Portland metropolitan area) — 0.8237% employer + 0.13% employee (not yet confirmed)
+  - Lane Transit District (Eugene/Springfield) — 0.79% employer (not yet confirmed)
+  - Salem Area Mass Transit District / Cherriots — 0.0036 (0.36%) employer (not yet confirmed)
+- Oregon Paid Leave (Paid Leave Oregon) — 0.6% total contribution, split 40/60 employer/employee for employers with 25+ employees, 12 weeks of paid family/medical/safe leave benefits (not yet confirmed)
+- Workers' Benefit Fund (WBF) assessment — 0.66¢ per hour worked employer + 0.66¢ per hour worked employee (1.32¢ combined) (not yet confirmed)
+- Final-pay rule — by end of next business day after termination by employer
+- Independent contractor classification — the Oregon ABC test, codified by case law and adopted statutorily post-2020
+- Federal interactions — Family and Medical Leave Act parity, Pay Equity Act 2019 implications for payroll
+
+### 1.2 What this skill does NOT cover
+
+- Oregon Corporate Activity Tax (CAT) — see `or-corporate-activity-tax`
+- Oregon individual income tax return preparation — see `or-income-tax`
+- Federal payroll (FICA, FUTA, federal income tax withholding, Form 941, Form 940) — outside scope; covered elsewhere
+- Multistate apportionment for employers outside Oregon with zero Oregon nexus
+- Self-employed sole proprietor own-wage treatment — sole proprietors do not pay themselves W-2 wages and do not owe employer payroll taxes on owner draws
+- Tribal employers and federally-recognized tribal sovereignty exemptions
+- Agricultural labor exemptions under ORS 657.045 (limited scope; refer)
+
+### 1.3 Conservative defaults
+
+- **Default: worker classification** — Treat worker as W-2 employee unless ABC test affirmatively fails (i.e., default to employee classification)
+- **Default: STT applicability** — Apply Statewide Transit Tax to all wages until exemption is documented
+- **Default: transit district application** — Apply TriMet/Lane/Cherriots to all hours worked inside the district unless employer has documented evidence of work performed entirely outside
+- **Default: OR-W-4 missing** — Use the standard OR-W-4 default (single, zero allowances) when no signed OR-W-4 is on file
+- **Default: Paid Leave Oregon employee count** — For Paid Leave Oregon employee count, count all employees nationwide, not just Oregon (per OED rule)
