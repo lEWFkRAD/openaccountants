@@ -14,7 +14,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Virginia individual income tax (Form 760) for residents, including sole proprietors
 
-## Scope and who this is for ([2025 Form 760 instructions](https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf))
+## Who this applies to
 
 This skill covers the Virginia resident individual income tax return, **Form 760**, for **tax year 2026** (returns filed in 2027), with a dated section for **2025 returns** (still being filed on extension until November 2026). It is written for full-year Virginia residents, including sole proprietors and owners of a single-member LLC that is disregarded for federal tax, whose business profit reaches Virginia through federal adjusted gross income.
 
@@ -32,7 +32,7 @@ A full-year resident files Form 760. A person who was resident for only part of 
 
 Official sources: 2025 Form 760 instructions, https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf ; Code of Virginia Title 58.1, Chapter 3, https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-302/ ; 2026 Form 760ES, https://www.tax.virginia.gov/sites/default/files/taxforms/individual-income-tax/2026/760es-2026.pdf .
 
-## Ask the client first
+### Ask the client first
 
 - Which tax year? 2025 and 2026 share rates, standard deduction and exemptions, but the estimated-tax threshold changed for 2026 (see Estimated tax).
 - Resident all year? Domicile, any Virginia home kept more than 183 days, and days physically present in Virginia. If the person moved in or out, stop (Form 760PY). If they were present more than 183 days with no Virginia abode, refer.
@@ -45,7 +45,7 @@ Official sources: 2025 Form 760 instructions, https://www.tax.virginia.gov/sites
 - Income taxed by another state; income from a partnership or S corporation that made the Virginia pass-through entity tax (PTET) election.
 - Virginia withholding, estimated payments (dates and amounts), prior-year tax, and any extension payment.
 
-## The method, step by step
+### The method, step by step
 
 Form 760 line numbers are from the 2025 return.
 
@@ -169,7 +169,7 @@ A partnership, LLC taxed as a partnership, or S corporation (including an S corp
 | Qualified business income deduction and Schedule 1-A deductions | Taken after federal AGI; no effect on Virginia; no Virginia addition needed |
 | Disregarded single-member LLC | Reported on the owner's Form 760; cannot make the PTET election |
 
-## Worked cases ([2025 instructions](https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf))
+### Worked cases ([2025 instructions](https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf))
 
 All are hypothetical full-year residents with no additions or subtractions unless stated. Tax is shown before rounding to whole dollars.
 
@@ -196,7 +196,7 @@ All are hypothetical full-year residents with no additions or subtractions unles
 
 **Case C5, conformity (2026).** A sole proprietor expensed equipment federally under the increased section 179 limit and took bonus depreciation on other assets. Virginia decouples from both: recompute Virginia depreciation without them, report the excess federal deduction as a fixed-date conformity addition on Schedule ADJ for 2026, and take conformity subtractions in later years as the Virginia depreciation exceeds federal.
 
-## When to refuse or refer
+### When to refuse or refer
 
 - Part-year residents (Form 760PY) or nonresidents (Form 763), including spouses with different residency who have not elected to file jointly as residents.
 - Anyone physically present in Virginia for more than 183 days who had no Virginia abode. The statute (Va. Code § 58.1-302) tests the abode; the 2025 Form 760 instructions also count physical presence. Do not decide it here.
@@ -207,7 +207,7 @@ All are hypothetical full-year residents with no additions or subtractions unles
 - Business credits on Schedule CR (land preservation, historic rehabilitation and others), net operating loss carrybacks, and amended returns after a federal audit (federal changes must be reported within one year of the final determination).
 - Planning for 2027 and later standard deductions until the 2027 forms are published.
 
-## Filing and payment ([2025 instructions](https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf))
+### Filing and payment ([2025 instructions](https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf))
 
 | Item | 2025 return | 2026 return |
 | --- | --- | --- |
@@ -242,16 +242,59 @@ All are hypothetical full-year residents with no additions or subtractions unles
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
