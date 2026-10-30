@@ -1,6 +1,6 @@
 ---
 name: ut-income-tax
-description: Use this skill whenever asked about Utah individual income tax, Utah Form TC-40, Utah flat tax rate, Utah taxpayer tax credit, Utah self-employment tax at the state level, or any Utah personal income tax question for sole proprietors. Trigger on phrases like "Utah income tax", "UT income tax", "Form TC-40", "Utah flat tax", "Utah taxpayer tax credit", "Utah 4.45%", or any request involving Utah state individual income tax computation or filing.
+description: (not yet confirmed) Use this skill whenever asked about Utah individual income tax, Utah Form TC-40, Utah flat tax rate, Utah taxpayer tax credit, Utah self-employment tax at the state level, or any Utah personal income tax question for sole proprietors. Trigger on phrases like "Utah income tax", "UT income tax", "Form TC-40", "Utah flat tax", "Utah taxpayer tax credit", "Utah 4.45%", or any request involving Utah state individual income tax computation or filing.
 version: "0.2"
 jurisdiction: US-UT
 tax_year: 2025
@@ -52,7 +52,6 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 | --- | --- | --- |
 | 1 | Utah State Tax Commission — Tax Rates | https://incometax.utah.gov/paying/tax-rates |
 | 2 | Utah Code Title 59, Chapter 10 — Individual Income Tax | https://le.utah.gov/xcode/Title59/Chapter10/59-10.html |
-| 3 | Tax Foundation — 2026 Utah Tax Profile | https://taxfoundation.org/location/utah/ |
 | 4 | TC-40 Instructions (2025 tax year) | https://incometax.utah.gov/forms |
 
 ## Section 2: Quick reference — rates and thresholds
@@ -94,7 +93,7 @@ The 2024/2023/2022/2018–2021/2008–2017 rows match the archived USTC tax-rate
 | Item | Amount | Source |
 | --- | --- | --- |
 | Flat income tax rate | 4.45% | Senate Bill 60 (2026 session) | (not yet confirmed)
-| Taxpayer tax credit | TBD — indexed annually | Pending USTC publication |
+| Taxpayer tax credit | not yet confirmed — indexed annually | Pending USTC publication |
 
 ## Section 3: How this skill works with the federal return
 
@@ -243,8 +242,14 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this skill lack archived line-citations.
 
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| Utah Tax Commission tax rates | https://incometax.utah.gov/paying/tax-rates | 2026-10-28 |
+| Utah Code 59-10 | https://le.utah.gov/xcode/Title59/Chapter10/59-10.html | 2026-10-28 |
+| incometax.utah.gov | https://incometax.utah.gov | 2026-10-28 |
 ## Talk to a verified accountant
 
 Not yet confirmed against archived sources.
