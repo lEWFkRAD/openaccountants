@@ -2,7 +2,7 @@
 name: ct-cross-border
 description: >
   Use this skill whenever asked about Connecticut cross-border
-  taxation for tax year 2026 — economic nexus without physical
+  taxation for tax year 2026 -- economic nexus without physical
   presence under Conn. Gen. Stat. §12-216a, effectively-connected-
   income limitation for foreign corporations, Public Law 86-272
   solicitation protection (15 U.S.C. §381), combined-reporting
@@ -36,10 +36,10 @@ same date), chapter 228z (PTE, archived same date), and 15 U.S.C. §381
 ## Who this applies to
 
 - **Economic nexus:** any company deriving income from Connecticut
-  sources with a "substantial economic presence" in the state —
+  sources with a "substantial economic presence" in the state --
   purposeful direction of business toward Connecticut judged by the
   frequency, quantity and systematic nature of economic contacts,
-  **without regard to physical presence** — to the extent permitted
+  **without regard to physical presence** -- to the extent permitted
   by the U.S. Constitution (§12-216a(a)).
 - **Foreign corporations:** §12-216a does not reach a foreign
   corporation with no income effectively connected with a U.S. trade
@@ -49,7 +49,7 @@ same date), chapter 228z (PTE, archived same date), and 15 U.S.C. §381
 - Partnerships/S corps and their members: entity-level PTE election
   or direct member filing (see `ct-s-corporation-tax`).
 - Nonresident individuals with CT-source income: CT-1040NR/PY regime
-  (chapter 229 — see Not yet confirmed).
+  (chapter 229 -- see Not yet confirmed).
 
 ## Rates, bands and thresholds
 
@@ -57,7 +57,7 @@ same date), chapter 228z (PTE, archived same date), and 15 U.S.C. §381
 |---|---|---|
 | Corporation business tax | 7.5% of entire net income | §12-214(a)(1) |
 | Surcharge | 10% for 2018–2025 income years; none in the current text for income years commencing on or after January 1, 2026 | §12-214(b)(4) |
-| Economic nexus | qualitative standard — no bright-line dollar threshold in the statute text | §12-216a(a) |
+| Economic nexus | qualitative standard -- no bright-line dollar threshold in the statute text | §12-216a(a) |
 | PTE tax (entity alternative) | 6.99% of the tax base | §12-699(c): "six and ninety-nine-hundredths per cent multiplied by the tax base" |
 
 ## The taxable base
@@ -100,7 +100,7 @@ same date), chapter 228z (PTE, archived same date), and 15 U.S.C. §381
   similar regimes elsewhere lets resident members claim the §12-699(f)(2)
   credit for other states' substantially similar entity taxes.
 - **Composite repeal:** Connecticut's old entity composite election
-  (§12-699b) "is repealed, effective January 1, 2024" (chapter 228z) —
+  (§12-699b) "is repealed, effective January 1, 2024" (chapter 228z) --
   nonresident members file individually unless the entity elects PTE.
 
 ## Worked examples
@@ -137,8 +137,8 @@ expected:
 
 ## Ask the client first
 
-- What CT contacts exist — remote workers, clients, marketplace
-  sales, data/property — and do they form a "systematic" economic
+- What CT contacts exist -- remote workers, clients, marketplace
+  sales, data/property -- and do they form a "systematic" economic
   presence?
 - Is the activity pure tangible-goods solicitation (PL 86-272) or
   services/digital/fulfillment?
@@ -158,11 +158,11 @@ expected:
 | Conn. Gen. Stat. ch. 229 §12-704 (resident credit for income tax paid to qualifying jurisdiction) | https://www.cga.ct.gov/current/pub/chap_229.htm | 2026-10-28 |
 | 15 U.S.C. §381 (Public Law 86-272) | https://www.law.cornell.edu/uscode/text/15/381 | 2026-10-28 |
 
-Not yet confirmed: nonresident individual filing and due-date mechanics under chapter 229 (Form CT-1040NR/PY) — the chapter 229 text was archived but the specific nonresident return provisions were not tied out this run; corporate credit-for-taxes-paid mechanics beyond the resident individual credit in §12-704.
+Not yet confirmed: nonresident individual filing and due-date mechanics under chapter 229 (Form CT-1040NR/PY) -- the chapter 229 text was archived but the specific nonresident return provisions were not tied out this run; corporate credit-for-taxes-paid mechanics beyond the resident individual credit in §12-704.
 
 ## Talk to a verified accountant
 
-**Talk to a verified accountant** — for Connecticut nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Connecticut nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 This skill is a source-cited draft; no accountant has reviewed it. Verify
 figures against the cited primary sources or with a licensed Connecticut

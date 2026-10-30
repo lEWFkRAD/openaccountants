@@ -2,7 +2,7 @@
 name: ct-corporate-income-tax
 description: >
   Use this skill whenever asked about Connecticut corporate income tax
-  for tax year 2026 — Form CT-1120 filing, the 7.5% income tax under
+  for tax year 2026 -- Form CT-1120 filing, the 7.5% income tax under
   Conn. Gen. Stat. §12-214, the 10% surcharge for 2018-2025 income
   years and its 2026 repeal, the phasing-out capital base tax under
   §12-219 (1.6 mills for 2026), economic nexus under §12-216a,
@@ -27,7 +27,7 @@ depends_on:
 Covers the Connecticut corporation business tax (Form CT-1120):
 income tax, surcharge, capital base tax, nexus, estimates, penalties.
 Primary source: Conn. Gen. Stat. chapter 208 full text (cga.ct.gov
-current statutes, archived and read 2026-10-28 — all quoted rates
+current statutes, archived and read 2026-10-28 -- all quoted rates
 below are from that text). DRS form PDFs returned HTML to this agent
 in a prior run; form-level details are listed under Not yet confirmed.
 
@@ -36,7 +36,7 @@ in a prior run; form-level details are listed under Not yet confirmed.
 - Every company carrying on or having the right to carry on business
   in Connecticut, taxed on entire net income (§12-214(a)(1)).
 - **Economic nexus:** a company with income from Connecticut sources
-  and a "substantial economic presence" — purposeful direction of
+  and a "substantial economic presence" -- purposeful direction of
   business toward the state, judged by frequency, quantity and
   systematic nature of economic contacts, without regard to physical
   presence (§12-216a(a)).
@@ -56,7 +56,7 @@ in a prior run; form-level details are listed under Not yet confirmed.
 
 **2026 planning point:** the surcharge statute text applies to income
 years commencing on or after January 1, 2018 and prior to January 1,
-2026 — confirm no successor surcharge was enacted in the 2026 session
+2026 -- confirm no successor surcharge was enacted in the 2026 session
 before relying.
 
 ## The taxable base
@@ -119,7 +119,7 @@ Hypothetical facts. A calendar-year C corporation (gross income
 $40,000,000) has 2026 Connecticut-apportioned entire net income of
 $2,000,000 and capital base of $50,000,000 apportioned to Connecticut.
 Income tax vs capital base tax (2026: no surcharge, capital base at
-one and six-tenths mills per dollar — both from the confirmed rates
+one and six-tenths mills per dollar -- both from the confirmed rates
 table above):
 
 ```oa-check
@@ -137,11 +137,11 @@ expected:
   capital_tax: 80000.00
 ```
 
-The tax due is the larger of the two computed amounts — here
+The tax due is the larger of the two computed amounts -- here
 $150,000.
 
 The same hypothetical facts for a 2025 income year (10% surcharge,
-capital base at two and one-tenth mills per dollar — from the
+capital base at two and one-tenth mills per dollar -- from the
 confirmed rates table):
 
 ```oa-check
@@ -164,13 +164,13 @@ expected:
   capital_tax: 105000.00
 ```
 
-The larger amount governs — here $165,000 including the 2025
+The larger amount governs -- here $165,000 including the 2025
 surcharge.
 
 ## Ask the client first
 
 - Is the company in the surcharge's last year (2025) or out of it
-  (2026) — and does any 2026 session legislation revive it?
+  (2026) -- and does any 2026 session legislation revive it?
 - Does the company have CT economic presence without physical
   presence (remote workers, marketplace, systematic sales)?
 - Is the group unitary → combined return, water's-edge election,
@@ -187,11 +187,11 @@ surcharge.
 | Conn. Gen. Stat. ch. 208 (Corporation Business Tax) §§12-214, 12-216a, 12-218c–h, 12-219, 12-222, 12-229, 12-233, 12-235, 12-242d | https://www.cga.ct.gov/current/pub/chap_208.htm | 2026-10-28 |
 | Conn. Gen. Stat. ch. 228z (Affected Business Entity Tax) §§12-699, 12-699a | https://www.cga.ct.gov/current/pub/chap_228z.htm | 2026-10-28 |
 
-Not yet confirmed: the $250 minimum tax shown on Form CT-1120 (the surcharge exception in §12-214(b) for tax "equal to two hundred fifty dollars" suggests it, but the form itself was not verified — DRS form PDFs returned HTML to this agent); whether any 2026 session legislation revived or replaced the 10% surcharge for income years commencing on or after January 1, 2026.
+Not yet confirmed: the $250 minimum tax shown on Form CT-1120 (the surcharge exception in §12-214(b) for tax "equal to two hundred fifty dollars" suggests it, but the form itself was not verified -- DRS form PDFs returned HTML to this agent); whether any 2026 session legislation revived or replaced the 10% surcharge for income years commencing on or after January 1, 2026.
 
 ## Talk to a verified accountant
 
-**Talk to a verified accountant** — for Connecticut corporate income-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Connecticut corporate income-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 This skill is a source-cited draft; no accountant has reviewed it. Verify
 figures against the cited primary sources or with a licensed Connecticut

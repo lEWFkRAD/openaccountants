@@ -2,7 +2,7 @@
 name: ct-s-corporation-tax
 description: >
   Use this skill whenever asked about Connecticut taxation of
-  partnerships, LLCs and S corporations for tax year 2026 — the
+  partnerships, LLCs and S corporations for tax year 2026 -- the
   Pass-Through Entity (PTE) elective tax under Conn. Gen. Stat.
   chapter 228z (§12-699, 6.99%), the resident-portion/modified-source
   tax base, the 87.5% member credit, PTE estimated installments
@@ -43,7 +43,7 @@ listed under Not yet confirmed.
   after January 1, 2024, an affected business entity that is required
   to file a return under the provisions of section 12-726 may elect
   to pay to the commissioner a tax as determined under this section"
-  — written notice of election due not later than the due date (or
+  -- written notice of election due not later than the due date (or
   extended due date) of the return, for each taxable year elected
   (§12-699(b)).
 - S corporations are exempt from the corporation business tax chapter
@@ -54,8 +54,8 @@ listed under Not yet confirmed.
 | Item | Amount | Source |
 |---|---|---|
 | PTE tax | 6.99% of the tax base ("six and ninety-nine-hundredths per cent multiplied by the tax base") | §12-699(c); 2025 Form CT-PET instructions |
-| Member credit against CT income tax | direct + indirect share of PTE tax "multiplied by eighty-seven and one-half per cent" — 87.5% | §12-699(f)(1); 2025 Form CT-PET instructions ("87.5% (.875)") |
-| Old business entity tax | $250 every other year — §12-284b text covers taxable years before 1/1/2020 | §12-284b (see Not yet confirmed for current practice) |
+| Member credit against CT income tax | direct + indirect share of PTE tax "multiplied by eighty-seven and one-half per cent" -- 87.5% | §12-699(f)(1); 2025 Form CT-PET instructions ("87.5% (.875)") |
+| Old business entity tax | $250 every other year -- §12-284b text covers taxable years before 1/1/2020 | §12-284b (see Not yet confirmed for current practice) |
 
 ## The taxable base
 
@@ -82,13 +82,13 @@ listed under Not yet confirmed.
 
 | Filing | Due date |
 |---|---|
-| PTE tax payment | "on or before the fifteenth day of the third month following the close of each taxable year" — mid-March for calendar-year entities (§12-699(b)) |
+| PTE tax payment | "on or before the fifteenth day of the third month following the close of each taxable year" -- mid-March for calendar-year entities (§12-699(b)) |
 | PTE estimated installments (§12-699a(b)) | required when the required annual payment is $1,000 or more: the fifteenth day of the fourth, sixth and ninth months of the taxable year and the first month of the next succeeding taxable year; each installment is twenty-five per cent of the required annual payment (annualized-income alternative available) (§12-699a(b)) |
 | PTE required annual payment (§12-699a(a)) | lesser of ninety per cent of the current-year PTE tax or one hundred per cent of the prior-year PTE tax (prior year twelve months, return filed) (§12-699a(a)) |
 | Election notice | not later than the return due date / extended due date, annually (§12-699(b)) |
 
 Note the mid-March payment date differs from the April income-tax
-return date — calendar the gap.
+return date -- calendar the gap.
 
 ## Penalties and interest
 
@@ -105,15 +105,15 @@ return date — calendar the gap.
 ## Cross-border points
 
 - The PTE base deliberately reaches **unsourced income of CT
-  residents** — multistate groups cannot park income in no-tax states
+  residents** -- multistate groups cannot park income in no-tax states
   to escape CT (§12-699(a)(7)-(8)).
 - Other states' PTE/composite taxes: members get a §12-699(f)(2)
   credit for substantially similar taxes paid to another state or DC.
 - Nonresident members: Connecticut's old composite election (§12-699b)
-  "is repealed, effective January 1, 2024" — nonresident members file
+  "is repealed, effective January 1, 2024" -- nonresident members file
   CT-1040NR/PY directly unless the entity elects PTE.
 - Federal SALT-cap planning: the entity-level tax is the common
-  workaround — coordinate with the federal advisor.
+  workaround -- coordinate with the federal advisor.
 
 ## Worked examples
 
@@ -150,11 +150,11 @@ expected:
 
 ## Ask the client first
 
-- Has the entity elected PTE for 2026 — and will it re-elect (the
+- Has the entity elected PTE for 2026 -- and will it re-elect (the
   election is year-by-year)?
 - Are the PTE payment date and the four estimated installment dates
   calendared separately from the return due date?
-- What share of members are CT residents vs nonresidents — how much
+- What share of members are CT residents vs nonresidents -- how much
   unsourced income falls into the base?
 - Do members track the 87.5% credit (not 100%) on their CT-1040/1040NR?
 - Any lower-tier entity structures needing the §12-699(d)
@@ -172,7 +172,7 @@ Not yet confirmed: whether any current annual business entity tax applies after 
 
 ## Talk to a verified accountant
 
-**Talk to a verified accountant** — for Connecticut PTE and pass-through questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Connecticut PTE and pass-through questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 This skill is a source-cited draft; no accountant has reviewed it. Verify
 figures against the cited primary sources or with a licensed Connecticut

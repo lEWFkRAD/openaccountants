@@ -2,7 +2,7 @@
 name: ct-transfer-pricing
 description: >
   Use this skill whenever asked about Connecticut transfer pricing and
-  related-party adjustments for tax year 2026 — the intangible-expense
+  related-party adjustments for tax year 2026 -- the intangible-expense
   and interest addback under Conn. Gen. Stat. §12-218c, the
   related-transaction interest restriction under §12-218d, combined
   reporting (world-wide / affiliated / water's-edge) and tax-haven
@@ -35,7 +35,7 @@ confirmed.
 ## Who this applies to
 
 - C corporations and combined groups with transactions involving
-  "related members" — §12-218c/§12-218d definitions keyed to
+  "related members" -- §12-218c/§12-218d definitions keyed to
   IRC §§1563(b)/(e) and §318 attribution with fifty-per-cent-value
   ownership thresholds (§12-218c(a)(5)-(6)).
 - Affiliated groups and unitary businesses → combined return with a
@@ -60,13 +60,13 @@ confirmed.
 - Combined group net income is computed as if members were not
   federally consolidated (§12-218e(a)(1)).
 - "Tax haven" determination by the commissioner under §12-218f(b)(4)
-  (current list — see Not yet confirmed).
+  (current list -- see Not yet confirmed).
 - Apportionment: property/payroll/receipts factors for the combined
   group (§12-218 et seq.).
 
 ## Deadlines and filing
 
-- Combined return filed by the designated taxable member — same
+- Combined return filed by the designated taxable member -- same
   fifteenth-day-of-the-month-following-the-federal-due-date rule as
   CT-1120 (§12-222).
 - Elections (world-wide/affiliated/water's-edge) made per §12-218f
@@ -84,16 +84,16 @@ confirmed.
 
 - **World-wide vs water's-edge:** the default combined perimeter
   reaches foreign affiliates; the water's-edge election is the
-  planning lever (§12-218f; election mechanics — see Not yet
+  planning lever (§12-218f; election mechanics -- see Not yet
   confirmed).
 - **Tax haven inclusions:** a member incorporated in a commissioner-
   determined tax haven joins the affiliated-group base unless a
   legitimate business purpose is proven (§12-218f(a)).
 - **Exception 2 is the substance test:** back-to-back payments to
   unrelated parties plus a non-avoidance principal purpose defeat the
-  addback — document contemporaneously (§12-218c(c)(2)).
+  addback -- document contemporaneously (§12-218c(c)(2)).
 - Federal §482 documentation is persuasive but Connecticut runs its
-  own addback mechanically — do not assume §482 compliance cures
+  own addback mechanically -- do not assume §482 compliance cures
   §12-218c.
 
 ## Worked examples
@@ -144,11 +144,11 @@ expected:
 - What intangible (royalty/license/factoring) or intangible-related
   interest flows exist with fifty-per-cent-related members, onshore or
   offshore?
-- Can Exception 2 be documented — back-to-back payments and
+- Can Exception 2 be documented -- back-to-back payments and
   principal-purpose support?
 - Is the group on world-wide or water's-edge reporting, and is the
   election current?
-- Any affiliate incorporated in a commissioner-listed tax haven —
+- Any affiliate incorporated in a commissioner-listed tax haven --
   legitimate-business-purpose file ready?
 - Has a §12-221a alternative-apportionment agreement been considered
   for borderline structures?
@@ -159,11 +159,11 @@ expected:
 |---|---|---|
 | Conn. Gen. Stat. ch. 208 §§12-218c, 12-218d, 12-218e, 12-218f, 12-222, 12-229, 12-233, 12-235 | https://www.cga.ct.gov/current/pub/chap_208.htm | 2026-10-28 |
 
-Not yet confirmed: the commissioner's current tax-haven list under §12-218f(b)(4) (a determination instrument, not in the chapter text read); DRS regulations (Conn. Agencies Regs.) on combined reporting and the current world-wide/water's-edge election form — not audited this run.
+Not yet confirmed: the commissioner's current tax-haven list under §12-218f(b)(4) (a determination instrument, not in the chapter text read); DRS regulations (Conn. Agencies Regs.) on combined reporting and the current world-wide/water's-edge election form -- not audited this run.
 
 ## Talk to a verified accountant
 
-**Talk to a verified accountant** — for Connecticut transfer-pricing and combined-reporting questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Connecticut transfer-pricing and combined-reporting questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 This skill is a source-cited draft; no accountant has reviewed it. Verify
 figures against the cited primary sources or with a licensed Connecticut

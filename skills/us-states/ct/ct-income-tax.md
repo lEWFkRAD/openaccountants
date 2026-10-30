@@ -1,6 +1,6 @@
 ---
 name: ct-income-tax
-description: Use this skill whenever asked about Connecticut individual income tax for self-employed individuals or sole proprietors — filing Form CT-1040, CT estimated tax (Form CT-1040ES), Connecticut tax brackets, Connecticut personal exemption, or any query involving Connecticut state income tax compliance. Trigger on phrases like "Connecticut income tax", "CT income tax", "Form CT-1040", "Connecticut estimated tax", "Connecticut self-employed tax", "DRS income tax", "CT AGI", or "Conn. Gen. Stat. §12-700".
+description: Use this skill whenever asked about Connecticut individual income tax for self-employed individuals or sole proprietors -- filing Form CT-1040, CT estimated tax (Form CT-1040ES), Connecticut tax brackets, Connecticut personal exemption, or any query involving Connecticut state income tax compliance. Trigger on phrases like "Connecticut income tax", "CT income tax", "Form CT-1040", "Connecticut estimated tax", "Connecticut self-employed tax", "DRS income tax", "CT AGI", or "Conn. Gen. Stat. §12-700".
 version: "0.2"
 jurisdiction: US-CT
 tax_year: 2026
@@ -195,7 +195,7 @@ Form CT-1040 line numbers are from the 2025 return.
 ## Deadlines and filing
 
 
-- **2025 returns:** due on the fifteenth day of the fourth month following the close of the taxable year ([DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information)) — April 15, 2026 for calendar-year 2025 returns (next business day if on a weekend or holiday). Form CT-1040 EXT gives a six-month extension to **October 15, 2026**, "to file", not to pay ([2025 Form CT-1040 EXT](https://portal.ct.gov/-/media/drs/forms/2025/income/ct-1040-ext_1225.pdf)). Form CT-1040 EXT is not needed if the client has a federal extension and expects to owe no more Connecticut tax, or pays the expected tax by credit card by the due date.
+- **2025 returns:** due on the fifteenth day of the fourth month following the close of the taxable year ([DRS tax information](https://portal.ct.gov/drs/individuals/resident-income-tax/tax-information)) -- April 15, 2026 for calendar-year 2025 returns (next business day if on a weekend or holiday). Form CT-1040 EXT gives a six-month extension to **October 15, 2026**, "to file", not to pay ([2025 Form CT-1040 EXT](https://portal.ct.gov/-/media/drs/forms/2025/income/ct-1040-ext_1225.pdf)). Form CT-1040 EXT is not needed if the client has a federal extension and expects to owe no more Connecticut tax, or pays the expected tax by credit card by the due date.
 - **2026 returns:** tax must be fully paid by April 15, 2027, with a timely return or an extension request.
 - **Estimated tax for 2026** ([2026 Form CT-1040ES](https://portal.ct.gov/-/media/drs/forms/2025/income/ct1040es-flat0126.pdf)): required if Connecticut tax after withholding and the PE Tax Credit is $1,000 or more **and** withholding (including the PE Tax Credit) is expected to be less than the required annual payment. The required annual payment is the lesser of 90% of the 2026 tax or 100% of the 2025 tax (only if the 2025 return covered 12 months). Installments of 25% of the required annual payment are due April 15, June 15, September 15, 2026 and January 15, 2027. The annualized income installment method (Worksheet CT-1040 AES) can reduce early installments. Farmers and fishermen make one payment by January 15, 2027 (the lesser of 66 2/3% of 2026 tax or 100% of 2025 tax). A farmer or fisherman who files the 2026 return and pays in full by March 1, 2027 is not charged interest for underpaying estimated tax.
 - **Hardship:** Form CT-1127 can give up to six months more to pay; interest still runs from the original due date.
@@ -222,7 +222,7 @@ Form CT-1040 line numbers are from the 2025 return.
   229, [Chapter 229](https://www.cga.ct.gov/current/pub/chap_229.htm)).
 - Residency edges (domicile, the permanent-place-of-abode and
   more-than-183-days tests, Group A and Group B) and multistate
-  business income are cross-border questions — see the referral list
+  business income are cross-border questions -- see the referral list
   below and `ct-cross-border` for nexus and PL 86-272.
 ## Worked examples
 
@@ -310,7 +310,7 @@ Estimated tax: 90% of $3,775 is $3,397.50. If the 2025 Connecticut tax was $3,20
 | Conn. Gen. Stat. ch. 229 (Income Tax) §§12-700, 12-701, 12-704, 12-704c | https://www.cga.ct.gov/current/pub/chap_229.htm | 2026-10-28 |
 | Conn. Gen. Stat. ch. 228z (PTE tax) §12-699 | https://www.cga.ct.gov/current/pub/chap_228z.htm | 2026-10-28 |
 
-Not yet confirmed: the 2026 Form CT-1040 instructions (not published when this skill was written — 2026 figures above come from the 2026 Form CT-1040ES and the 2025 instructions); the gross income filing thresholds for tax year 2026 (the 2025 amounts are carried forward and must be confirmed against the 2026 instructions when published); federal Schedule 1-A line references after P.L. 119-21.
+Not yet confirmed: the 2026 Form CT-1040 instructions (not published when this skill was written -- 2026 figures above come from the 2026 Form CT-1040ES and the 2025 instructions); the gross income filing thresholds for tax year 2026 (the 2025 amounts are carried forward and must be confirmed against the 2026 instructions when published); federal Schedule 1-A line references after P.L. 119-21.
 
 ## Talk to a verified accountant
 
@@ -320,7 +320,7 @@ Not yet confirmed: the 2026 Form CT-1040 instructions (not published when this s
 
 
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

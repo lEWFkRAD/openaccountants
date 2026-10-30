@@ -30,7 +30,7 @@ CT-1040 instructions use-tax section.
 | Luxury rate | 7.75% on the entire sales price of (i) a motor vehicle exceeding $50,000, (ii) jewelry exceeding $5,000, and (iii) clothing or footwear, a handbag, luggage, umbrella, wallet or watch exceeding $1,000 | §12-408(1)(H); 2025 Form CT-1040 instructions |
 | Computer and data processing services | one per cent (statute wording; §12-408(1)(D)(i)) | §12-408(1)(D)(i); 2025 Form CT-1040 instructions ("1% Tax Rate: Computer and Data Processing Services") |
 | Remote-seller economic nexus | gross receipts of at least one hundred thousand dollars AND two hundred or more retail sales into Connecticut in the preceding twelve months (AND test) | §12-407(19) |
-| Local add-on sales taxes | none — no local sales taxes in Connecticut | §12-408 (statewide rates only) |
+| Local add-on sales taxes | none -- no local sales taxes in Connecticut | §12-408 (statewide rates only) |
 | Sourcing | destination-based | §12-407/§12-411 (use-tax destination rules) |
 
 ## The taxable base
@@ -43,19 +43,19 @@ confirmed table above):
 | General TPP | TAXABLE at the general rate | §12-408(1)(A) |
 | Luxury items (see thresholds above) | TAXABLE at 7.75% | §12-408(1)(H) |
 | Grocery food | EXEMPT | §12-412 exemptions |
-| Meals sold by an eating establishment, caterer or grocery store | TAXABLE — an additional one per cent on top of the general rate (§12-408(1)(I)) | §12-408(1)(I) |
+| Meals sold by an eating establishment, caterer or grocery store | TAXABLE -- an additional one per cent on top of the general rate (§12-408(1)(I)) | §12-408(1)(I) |
 | Computer/data processing services | TAXABLE at one per cent | §12-408(1)(D)(i) |
 | Digital goods / SaaS | TAXABLE when they constitute a taxable sale of a service under §12-407 | §12-407 |
 | Professional services | NOT TAXABLE unless the service is a sale under §12-407 | §12-407 |
 | Manufacturing equipment | EXEMPT | §12-412 exemptions |
 | Prescription drugs | EXEMPT | §12-412 exemptions |
 | Resale | EXEMPT | §12-410 resale exemption |
-| Clothing | TAXABLE — the general rate applies year-round; only the one-week August suspension for items under one hundred dollars breaks it (§12-407e) | §12-407e |
+| Clothing | TAXABLE -- the general rate applies year-round; only the one-week August suspension for items under one hundred dollars breaks it (§12-407e) | §12-407e |
 
 ## Deadlines and filing
 
 Returns and payment are made to DRS (myconneCT). Filing frequencies
-and due dates for a given taxpayer are set by DRS — see Not yet
+and due dates for a given taxpayer are set by DRS -- see Not yet
 confirmed.
 
 ## Penalties and interest
@@ -69,7 +69,7 @@ statutory penalties apply under chapter 219.
 
 - Remote sellers and referrers: nexus requires gross receipts of at
   least one hundred thousand dollars AND two hundred or more retail
-  sales into Connecticut — the AND test, not either/or (§12-407(19)).
+  sales into Connecticut -- the AND test, not either/or (§12-407(19)).
 - Use tax is the flip side: purchases from out-of-state retailers
   where no CT sales tax was paid must be reported (Form CT-1040
   Schedule 4 for individuals).
@@ -80,15 +80,15 @@ statutory penalties apply under chapter 219.
 
 ## Prohibitions
 
-- **Prohibition: luxury rate** — NEVER forget the 7.75% luxury rate on the threshold categories in §12-408(1)(H).
-- **Prohibition: nexus threshold** — NEVER assume nexus with only one threshold — Connecticut requires BOTH the gross-receipts amount AND the transaction count (§12-407(19)).
-- **Prohibition: computer/data processing rate** — NEVER ignore the one per cent rate on computer and data processing services (§12-408(1)(D)(i)).
-- **Prohibition: clothing** — NEVER assume clothing is exempt outside the one-week August suspension (§12-407e).
-- **Prohibition: computation** — NEVER compute any number.
+- **Prohibition: luxury rate** -- NEVER forget the 7.75% luxury rate on the threshold categories in §12-408(1)(H).
+- **Prohibition: nexus threshold** -- NEVER assume nexus with only one threshold -- Connecticut requires BOTH the gross-receipts amount AND the transaction count (§12-407(19)).
+- **Prohibition: computer/data processing rate** -- NEVER ignore the one per cent rate on computer and data processing services (§12-408(1)(D)(i)).
+- **Prohibition: clothing** -- NEVER assume clothing is exempt outside the one-week August suspension (§12-407e).
+- **Prohibition: computation** -- NEVER compute any number.
 
 ## Ask the client first
 
-- What is being sold — general TPP, a luxury category item, meals, or
+- What is being sold -- general TPP, a luxury category item, meals, or
   computer/data processing services?
 - Does the seller cross the nexus thresholds (gross receipts AND
   transaction count)?
@@ -103,7 +103,7 @@ statutory penalties apply under chapter 219.
 | Conn. Gen. Stat. ch. 219 (Sales and Use Taxes) §§12-407, 12-407e, 12-408, 12-410, 12-412 | https://www.cga.ct.gov/current/pub/chap_219.htm | 2026-10-28 |
 | 2025 Form CT-1040 instructions, use-tax section (DRS) | https://portal.ct.gov/-/media/drs/forms/2025/income/2025-ct-1040-instructions_1225.pdf | 2026-10-28 |
 
-Not yet confirmed: DRS filing frequencies and return due dates for sales taxpayers; SST membership status (not confirmed from the statute text); the earlier draft's claim that prepared food is taxed at a combined 7.35% figure — the statute instead imposes the general rate plus an additional one per cent on meals (§12-408(1)(I)), so per-item computation should follow the statutory components; the earlier draft's claim that clothing under $50 is exempt — the current chapter 219 text taxes clothing year-round except the one-week August suspension for items under one hundred dollars (§12-407e), and the old §12-412b clothing exemption is repealed.
+Not yet confirmed: DRS filing frequencies and return due dates for sales taxpayers; SST membership status (not confirmed from the statute text); the earlier draft's claim that prepared food is taxed at a combined 7.35% figure -- the statute instead imposes the general rate plus an additional one per cent on meals (§12-408(1)(I)), so per-item computation should follow the statutory components; the earlier draft's claim that clothing under $50 is exempt -- the current chapter 219 text taxes clothing year-round except the one-week August suspension for items under one hundred dollars (§12-407e), and the old §12-412b clothing exemption is repealed.
 
 ## Talk to a verified accountant
 
