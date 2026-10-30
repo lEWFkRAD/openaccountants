@@ -1,6 +1,6 @@
 ---
 name: va-payroll
-description: Tier 2 Virginia content skill for employer payroll compliance covering tax year 2025. Includes the VA PIT brackets up to 5.75%, VA-4 state W-4, VA-15 quarterly and VA-5 monthly withholding returns, VA-16 wage report annual reconciliation, VA SUI wage base $8,000 (among lowest in US) with rates 0.10-6.20%, reciprocal agreements with DC/KY/MD/PA/WV exempting non-resident employees, workers' compensation mandatory for 3+ employees, and the absence of state-level paid sick leave (with city-level mandates in Alexandria).
+description: Tier 2 Virginia content skill for employer payroll compliance covering tax year 2025. Includes the VA PIT brackets up to 5.75%, VA-4 state W-4, VA-15 quarterly and VA-5 monthly withholding returns, VA-16 wage report annual reconciliation, VA SUI wage base (not yet confirmed) (among lowest in US) with rates 0.10-6.20%, reciprocal agreements with DC/KY/MD/PA/WV exempting non-resident employees, workers' compensation mandatory for 3+ employees, and the absence of state-level paid sick leave (with city-level mandates in Alexandria).
 jurisdiction: US-VA
 tax_year: 2025
 last_updated: 2026-07-13

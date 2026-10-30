@@ -27,13 +27,13 @@ version: 0.1
 
 ## 1. Who this applies to
 
-C corporations and other entities filing Virginia corporate income tax that are members of an affiliated or unitary group, plus any Virginia filer with intercompany transactions (royalties, management fees, interest, sales of goods or services) with related parties inside or outside the US. Virginia taxes at a flat **6%** of Virginia taxable income (§ 58.1-400, verified 2026-10-27), so every dollar of apportionable income moved by intercompany pricing is worth 6 cents — and the Department of Taxation has explicit statutory authority to reprice transactions that move income out of the state.
+C corporations and other entities filing Virginia corporate income tax that are members of an affiliated or unitary group, plus any Virginia filer with intercompany transactions (royalties, management fees, interest, sales of goods or services) with related parties inside or outside the US. Virginia taxes at a flat **6%** of Virginia taxable income (§ 58.1-400, verified 2026-10-27), so every dollar of apportionable income moved by intercompany pricing is worth 6 cents — and the Department of Taxation has explicit statutory authority to reprice transactions that move income out of the state. (not yet confirmed)
 
 ## 2. Rates and key rules
 
 | Item | Figure / rule | Source / status |
 |---|---|---|
-| Corporate rate | 6% flat on Virginia taxable income | § 58.1-400 — verified 2026-10-27 |
+| Corporate rate | 6% flat on Virginia taxable income | § 58.1-400 — verified 2026-10-27 | (not yet confirmed)
 | Group filing options | Separate, combined, or consolidated returns for affiliated groups; election mechanics in § 58.1-442 | § 58.1-442 — verified 2026-10-27 |
 | Price manipulation | Where related-party prices "shift, shift away, convey, transport or otherwise manipulate income… receipts or deductions," the Department adjusts to produce the arm's-length result | § 58.1-446 — verified 2026-10-27 |
 | Intangible/management-fee addback | Related-party intangible expense and management-fee addback applies to separate- and combined-filing groups (intangible expense added back unless the affiliate's related income is Virginia-taxed; management-fee addback with a 2% de minimis) | § 58.1-442.1 — **not yet confirmed** (section body not retrieved this run; rule carried from practice) [VERIFY] |
@@ -46,11 +46,11 @@ C corporations and other entities filing Virginia corporate income tax that are 
 - **Virginia taxable income** = federal taxable income with state modifications, multiplied by the apportionment percentage. TP exposure therefore arises in two places: (a) the federal § 482 layer, which Virginia picks up automatically, and (b) the state apportionment layer, where intercompany charges move the sales/payroll/property factors.
 - **Combined reporting** (where elected or required for the group structure) collapses intercompany transactions — they are eliminated on consolidation, which neutralises most intra-group pricing questions but exposes the group to the unitary-combination questions (water's-edge, includible members).
 - **Separate filing** keeps intercompany charges visible: the § 58.1-446 price-manipulation rule and the § 58.1-442.1 addback are the Department's tools here.
-- **Addback logic (verify before relying):** royalties/intangible expense paid to a related member are added back to the payer's Virginia income unless the recipient includes the corresponding income in Virginia taxable income; management fees are added back dollar-for-dollar above a 2% de minimis of the apportioned costs.
+- **Addback logic (verify before relying):** royalties/intangible expense paid to a related member are added back to the payer's Virginia income unless the recipient includes the corresponding income in Virginia taxable income; management fees are added back dollar-for-dollar above a 2% de minimis of the apportioned costs. (not yet confirmed)
 
 ### 4. Deadlines and filings
 
-- Virginia corporate return (Form 500) follows the federal due date (April 15 for calendar-year C corps; extensions per the Department's rules). _(tax.virginia.gov/corporation-income-tax verified 200 2026-10-27; exact date page [VERIFY].)_
+- Virginia corporate return (Form 500) follows the federal due date (April 15 for calendar-year C corps; extensions per the Department's rules). _(tax.virginia.gov/corporation-income-tax verified 200 2026-10-27; exact date page [VERIFY].)_ (not yet confirmed)
 - Combined/consolidated elections and any required group schedules attach to Form 500; changes in filing method generally need Department consent — confirm before switching methods.
 - No standalone Virginia TP documentation filing; documentation is audit-defence only.
 
@@ -115,7 +115,7 @@ expected:
 
 ### 9. Sources
 
-- Code of Virginia § 58.1-400 (6% rate): <https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-400/> — 200 with text, 2026-10-27.
+- Code of Virginia § 58.1-400 (6% rate): <https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-400/> — 200 with text, 2026-10-27. (not yet confirmed)
 - Code of Virginia § 58.1-442 (separate/combined/consolidated returns): <https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-442/> — 200 with text, 2026-10-27.
 - Code of Virginia § 58.1-446 (intercompany price manipulation): <https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-446/> — 200 with text, 2026-10-27.
 - Code of Virginia § 58.1-416 (sourcing) and § 58.1-422 (apportionment formula; single sales factor for manufacturing/shipping): chapter13 section pages — 200 with text, 2026-10-27.

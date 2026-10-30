@@ -37,7 +37,7 @@ Every Virginia employer with employees covered by Va. Code Title 60.2 (unemploym
 | Employee state social contribution | **None** | No state-level employee levy in Title 60.2; Title 60.2 Ch. 1 verified 2026-10-27 |
 | SUI taxable wage base | $8,000 per employee per calendar year (2025; unchanged since 2009) | `va-payroll` skill; 2026 base **not yet confirmed** |
 | SUI experience rate range | 0.10% – 6.20% (2025 schedule incl. 0.10% pool charge; 0.20% Fund Building where applicable) | `va-payroll` skill; 2026 schedule **not yet confirmed** |
-| New-employer SUI rate | 2.50% standard (first three computation periods, Va. Code § 60.2-516); construction new employers commonly 6.20% | `va-payroll` skill [VERIFY 2026 schedule] |
+| New-employer SUI rate | 2.50% standard (first three computation periods, Va. Code § 60.2-516); construction new employers commonly 6.20% | `va-payroll` skill [VERIFY 2026 schedule] | (not yet confirmed)
 | Max SUI cost per employee | $8,000 × 6.20% = $496/yr | computed from the two rows above |
 | Workers' compensation | Mandatory at 3+ employees (1+ in construction); premium is private-market, class-rated | Title 65.2 (not re-verified this run) — carried from `va-payroll` |
 | Paid Family Leave premium | Reported 0.5% of wages, 50/50 employer/employee, program live 1 July 2026 | **not yet confirmed** — tdi.virginia.gov / paidfamilyleave.virginia.gov DNS failure 2026-10-27 |
@@ -50,7 +50,7 @@ Every Virginia employer with employees covered by Va. Code Title 60.2 (unemploym
 
 ### 4. Deadlines and filings
 
-- **VEC FC-20 (quarterly tax report) + FC-21 (quarterly payroll report)** filed together: Q1 due April 30, Q2 July 31, Q3 October 31, Q4 January 31 of the following year, via the VEC Business iFile portal. _(carried from `va-payroll`; VEC root verified 200 2026-10-27 — page-level schedule re-verify.)_
+- **VEC FC-20 (quarterly tax report) + FC-21 (quarterly payroll report)** filed together: Q1 due April 30, Q2 July 31, Q3 October 31, Q4 January 31 of the following year, via the VEC Business iFile portal. _(carried from `va-payroll`; VEC root verified 200 2026-10-27 — page-level schedule re-verify.)_ (not yet confirmed)
 - Annual contribution return / wage reconciliation is folded into the Q4 FC-20/FC-21 cycle for most employers.
 - Workers' comp: policy renewal dates, not tax deadlines.
 
@@ -58,7 +58,7 @@ Every Virginia employer with employees covered by Va. Code Title 60.2 (unemploym
 
 - Late FC-20 filing: $100 minimum, or $30 plus 10% of tax due, whichever is greater. _(carried from `va-payroll` [VERIFY].)_
 - Late FC-20 payment: interest accrues monthly plus stacked penalties. _(carried [VERIFY].)_
-- Failure to file FC-21: independent $25/quarter penalty and it corrupts the experience-rating computation. _(carried [VERIFY].)_
+- Failure to file FC-21: independent $25/quarter penalty and it corrupts the experience-rating computation. _(carried [VERIFY].)_ (not yet confirmed)
 - Misclassification audit exposure: back contributions + interest + 25% penalty, plus civil penalties up to $5,000 per misclassified worker under the Construction Industry Misclassification Act. _(carried [VERIFY].)_
 
 ### 6. Cross-border notes

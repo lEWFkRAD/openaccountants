@@ -24,9 +24,9 @@ Virginia levies a graduated individual income tax (2%–5.75%, top rate from jus
 
 ## Official sources
 
-- Code of Virginia § 58.1-400 (6% corporate rate): <https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-400/> — 200 with text, 2026-10-27.
+- Code of Virginia § 58.1-400 (6% corporate rate): <https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-400/> — 200 with text, 2026-10-27. (not yet confirmed)
 - Code of Virginia § 58.1-442 (separate/combined/consolidated), § 58.1-446 (price manipulation), § 58.1-455 (late-payment penalty 6%/month to 30%, interest per § 58.1-15): chapter13 section pages — 200 with text, 2026-10-27.
-- Code of Virginia § 58.1-15 (interest = IRC § 6621 underpayment rate + 2%): <https://law.lis.virginia.gov/vacode/title58.1/chapter1/section58.1-15/> — 200, 2026-10-27.
+- Code of Virginia § 58.1-15 (interest = IRC § 6621 underpayment rate + 2%): <https://law.lis.virginia.gov/vacode/title58.1/chapter1/section58.1-15/> — 200, 2026-10-27. (not yet confirmed)
 - Code of Virginia §§ 58.1-303, 58.1-332 (part-year residency; credit for tax paid to other states): chapter13 section pages — 200 with text, 2026-10-27.
 - Code of Virginia §§ 58.1-416, 58.1-422 (sourcing; manufacturing single sales factor): chapter13 section pages — 200 with text, 2026-10-27.
 - Code of Virginia §§ 58.1-461, 58.1-468 (withholding duty; employer failure to pay over): chapter13 section pages — 200, 2026-10-27.

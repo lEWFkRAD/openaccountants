@@ -28,7 +28,7 @@ It does **not** cover part-year residents (Form 760PY), nonresidents (Form 763),
 
 A full-year resident files Form 760. A person who was resident for only part of the year files Form 760 only if all income for the whole year came from Virginia sources; otherwise Form 760PY.
 
-**Who must file (2025 and 2026).** A resident must file if Virginia adjusted gross income (VAGI, Form 760 Line 9) is at or above: single $11,950; married filing jointly (combined) $23,900; married filing separately $11,950. Below the threshold the tax is $0, but a return is still needed to get back withholding or estimated payments. The 2026 Form 760ES uses the same three thresholds for 2026.
+**Who must file (2025 and 2026).** A resident must file if Virginia adjusted gross income (VAGI, Form 760 Line 9) is at or above: single $11,950; married filing jointly (combined) $23,900; married filing separately $11,950. Below the threshold the tax is $0, but a return is still needed to get back withholding or estimated payments. The 2026 Form 760ES uses the same three thresholds for 2026. (not yet confirmed)
 
 Official sources: 2025 Form 760 instructions, https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf ; Code of Virginia Title 58.1, Chapter 3, https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-302/ ; 2026 Form 760ES, https://www.tax.virginia.gov/sites/default/files/taxforms/individual-income-tax/2026/760es-2026.pdf .
 
@@ -124,7 +124,7 @@ Filing status 2 couples may reduce tax by up to $259 if both spouses have income
 ### Estimated tax ([2026 Form 760ES](https://www.tax.virginia.gov/sites/default/files/taxforms/individual-income-tax/2026/760es-2026.pdf))
 
 - **2026 onward:** estimated payments (or more withholding) are required if Virginia tax after withholding and credits is expected to be **more than $1,000**. Nothing is required if the excess is $1,000 or less, or if expected VAGI is below the filing threshold.
-- **2025:** there is no addition to tax if every payment was on time and the balance owed with the 2025 return is $150 or less.
+- **2025:** there is no addition to tax if every payment was on time and the balance owed with the 2025 return is $150 or less. (not yet confirmed)
 - **Due dates (2026 year):** May 1, 2026, June 15, 2026, September 15, 2026 and January 15, 2027, each 25% when the requirement is met by April 15. If the requirement is first met later, the number of payments falls (three, two or one). If the 2026 return is filed and all tax paid by March 1, 2027, the January 15 payment is not needed.
 - **Safe harbours** (Va. Code § 58.1-492; Form 760ES section VIII): no addition to tax if each timely installment is at least 90% of the current-year tax (actual or annualized), or at least 100% of the prior year's tax (prior year a full 12-month year with a liability), or is based on prior-year income at current rates and exemptions; or if total installment underpayments for the year are $1,000 or less (2026). The addition to tax is interest-rate based, computed on Form 760C.
 - **Electronic payment mandate:** all payments must be electronic if any estimated installment or any return or extension payment exceeds $1,500, or total estimated tax exceeds $6,000.
@@ -139,7 +139,7 @@ Filing status 2 couples may reduce tax by up to $259 if both spouses have income
 
 ### Pass-through entity elective tax (PTET) ([§ 58.1-390.3](https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-390.3/))
 
-A partnership, LLC taxed as a partnership, or S corporation (including an S corporation with a single shareholder, since the test is being a separate entity for federal tax, not the number of owners) may elect annually, on its timely filed return (including extensions), to pay Virginia tax at 5.75% on its eligible owners' shares. An individual owner then claims a refundable credit for their share on Schedule CR and must add back their share of the entity's state income tax deduction. A sole proprietorship or single-member LLC disregarded for federal tax is **not** a pass-through entity for this purpose, because the definition requires an entity "recognized as a separate entity for federal income tax purposes". Sources: https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-390.3/ ; https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-390.1/ .
+A partnership, LLC taxed as a partnership, or S corporation (including an S corporation with a single shareholder, since the test is being a separate entity for federal tax, not the number of owners) may elect annually, on its timely filed return (including extensions), to pay Virginia tax at 5.75% on its eligible owners' shares. An individual owner then claims a refundable credit for their share on Schedule CR and must add back their share of the entity's state income tax deduction. A sole proprietorship or single-member LLC disregarded for federal tax is **not** a pass-through entity for this purpose, because the definition requires an entity "recognized as a separate entity for federal income tax purposes". Sources: https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-390.3/ ; https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-390.1/ . (not yet confirmed)
 
 ### 2025 returns: what differs from 2026 ([2025 instructions](https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf))
 
@@ -173,7 +173,7 @@ A partnership, LLC taxed as a partnership, or S corporation (including an S corp
 
 All are hypothetical full-year residents with no additions or subtractions unless stated. Tax is shown before rounding to whole dollars.
 
-**Case C1, ordinary (2026).** Single, age 40, sole proprietor. Federal AGI $80,000 after the self-employment tax deduction. Took the federal standard deduction.
+**Case C1, ordinary (2026).** Single, age 40, sole proprietor. Federal AGI $80,000 after the self-employment tax deduction. Took the federal standard deduction. (not yet confirmed)
 - Virginia taxable income = $80,000 − $8,750 − $930 = $70,320.
 - Tax = $720 + 5.75% × ($70,320 − $17,000) = $3,785.90.
 - Expected tax after withholding (none) is more than $1,000, so four estimated payments are required (25% each on May 1, June 15 and September 15, 2026 and January 15, 2027). The federal QBI deduction does not reduce Virginia income.
@@ -183,7 +183,7 @@ All are hypothetical full-year residents with no additions or subtractions unles
 - VAGI = $80,000 − $2,000 − $20,000 = $58,000.
 - Exemptions = $930 + $800 = $1,730. Taxable income = $58,000 − $8,750 − $1,730 = $47,520.
 - Tax = $720 + 5.75% × ($47,520 − $17,000) = $2,474.90.
-- With AFAGI of $62,000 or more, the age deduction would be nil. Because this client claims the age deduction and the 65-or-older exemption, no low-income or earned income credit is available.
+- With AFAGI of $62,000 or more, the age deduction would be nil. Because this client claims the age deduction and the 65-or-older exemption, no low-income or earned income credit is available. (not yet confirmed)
 
 **Case C3, choosing the credit (2025).** Married filing jointly, one child, family VAGI $26,000 (at or below the $26,650 guideline for three), federal earned income credit claimed $4,000. Standard deduction.
 - Taxable income = $26,000 − $17,500 − $2,790 (three exemptions) = $5,710. Tax = $120 + 5% × ($5,710 − $5,000) = $155.50.
@@ -212,16 +212,16 @@ All are hypothetical full-year residents with no additions or subtractions unles
 | Item | 2025 return | 2026 return |
 | --- | --- | --- |
 | Due date (calendar year) | May 1, 2026 | May 1, 2027 (a Saturday; the weekend rule allows the next business day) |
-| Automatic extension to file | Six months: November 1, 2026 (a Sunday, so November 2, 2026) | Six months: November 1, 2027 |
+| Automatic extension to file | Six months: November 1, 2026 (a Sunday, so November 2, 2026) | Six months: November 1, 2027 | (not yet confirmed)
 | Tax to pay by the original due date | Balance of the tax, with Form 760IP or online | Same |
-| Taxpayers outside the U.S. on the due date | July 1, 2026 | July 1, 2027 (Va. Code § 58.1-344 D) |
+| Taxpayers outside the U.S. on the due date | July 1, 2026 | July 1, 2027 (Va. Code § 58.1-344 D) | (not yet confirmed)
 
 - **Extension:** no application needed, but it extends filing, not payment. Pay at least 90% of the tax by May 1. If the balance paid late is more than 10% of the tax, an extension penalty of 2% per month or part month applies from the due date to the filing date, up to 12%. Va. Code § 58.1-344 (archived 2026-10-28 as `US-VA-section58.1-344.html`) grants the extension "to the date six months after such due date," requires the full estimated balance by the original due date, assesses interest on any underestimate, and adds "a penalty ... equal to two percent per month" when "the underestimation of the balance of tax due exceeds 10 percent of the actual tax liability."
 - **Late payment:** 6% per month or part month from filing to payment, up to 30%.
 - **Late filing:** a return filed more than six months after the due date gets no extension; the late filing penalty is 30% of the tax due.
 - **Fraud or failure to file with intent to evade:** an additional penalty of 100% of the correct tax.
 - **Interest** runs on unpaid tax from the due date, even with an extension.
-- **Fiscal year filers:** the 15th day of the 4th month after year end.
+- **Fiscal year filers:** the 15th day of the 4th month after year end. (not yet confirmed)
 - Sources: 2025 instructions ("When to File Your Return", "Reminders", Schedule ADJ Lines 18 to 20); https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-341/ ; https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-344/ .
 
 ## Completion checklist ([2026 Form 760ES](https://www.tax.virginia.gov/sites/default/files/taxforms/individual-income-tax/2026/760es-2026.pdf))
