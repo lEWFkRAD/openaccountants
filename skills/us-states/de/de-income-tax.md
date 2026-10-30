@@ -128,7 +128,7 @@ Everyone who is not a resident is a **nonresident** ([§ 1104](https://delcode.d
 
 ### The method, step by step
 
-**Step 1: Filing requirement (§ 1161)** — see the thresholds table above ([§ 1161](https://delcode.delaware.gov/title30/c011/sc08/index.html); thresholds from the [2025 PIT-RES instructions](https://revenuefiles.delaware.gov/2025/PITForms_Instructions/Instructions/PIT-RES_Instructions_2025-01.pdf)).
+**Step 1: Filing requirement (§ 1161)** -- see the thresholds table above ([§ 1161](https://delcode.delaware.gov/title30/c011/sc08/index.html); thresholds from the [2025 PIT-RES instructions](https://revenuefiles.delaware.gov/2025/PITForms_Instructions/Instructions/PIT-RES_Instructions_2025-01.pdf)).
 
 **Step 2: Choose the return.**
 
@@ -246,7 +246,7 @@ Spouses who both must file may itemize only if both elect to.
 
 **Delaware AGI minus the deduction = Delaware taxable income.**
 
-**Step 7: Tax** — apply the rate schedule above ([§ 1102(a)(14)](https://delcode.delaware.gov/title30/c011/sc01/index.html)).
+**Step 7: Tax** -- apply the rate schedule above ([§ 1102(a)(14)](https://delcode.delaware.gov/title30/c011/sc01/index.html)).
 
 **Step 8: Credits ([§§ 1110–1117](https://delcode.delaware.gov/title30/c011/sc02/index.html)).**
 
@@ -264,7 +264,7 @@ Spouses who both must file may itemize only if both elect to.
   - a refundable credit of **4.5%** of the federal credit.
 - **Volunteer firefighter credit, child and dependent care credit, and business credits (Form PIT-CRS).** These are outside the core method. Check each one's conditions in the instructions.
 
-**Step 9: Nonresidents ([§§ 1121–1124](https://delcode.delaware.gov/title30/c011/sc03/index.html))** — see Cross-border points.
+**Step 9: Nonresidents ([§§ 1121–1124](https://delcode.delaware.gov/title30/c011/sc03/index.html))** -- see Cross-border points.
 
 ### Boundary and exception table ([§ 1103](https://delcode.delaware.gov/title30/c011/sc01/index.html))
 
@@ -477,7 +477,7 @@ Refer to a Delaware-experienced professional, or the Division of Revenue (302-57
 | 2026 PIT-EST instructions (estimated tax, rate schedule) | https://revenuefiles.delaware.gov/2025/PITForms_Instructions/Instructions/PIT-EST_Instructions_2026-01.pdf | 2026-10-28 |
 | Form PIT-SCW (wages attributable outside Delaware) | https://revenuefiles.delaware.gov/2025/PITForms_Instructions/PIT-SCW_2025-01_PaperInteractiveIPM.pdf | 2026-10-28 |
 
-Not yet confirmed: the 2026 filing-threshold table (the archived table is the 2025 PIT-RES table above; the 2026 instructions were not published when this skill was written); the 2026 PIT-EXT extension date (the 2025 form extended to 15 October 2026); whether the 60-or-over domicile condition enacted by SB 219 (85 Del. Laws c. 426) reaches a 2025 return — the Act has no effective-date section and no 2026 instructions exist yet, so confirm with the Division for a recent arrival aged 60 or over; the 2026 PIT-RES depreciation-adjustment line (not yet published); whether the federal senior additional deduction flows through to Delaware (the Division's tax-season-updates page does not address it); the v0.2 statement that the PIT-EST instructions test federal AGI for the prior-year safe harbour while the PIT-RES and PIT-UND instructions test Delaware AGI (not verified against the archived instruction PDFs — use 110% when either measure could exceed the limit).
+Not yet confirmed: the 2026 filing-threshold table (the archived table is the 2025 PIT-RES table above; the 2026 instructions were not published when this skill was written); the 2026 PIT-EXT extension date (the 2025 form extended to 15 October 2026); whether the 60-or-over domicile condition enacted by SB 219 (85 Del. Laws c. 426) reaches a 2025 return -- the Act has no effective-date section and no 2026 instructions exist yet, so confirm with the Division for a recent arrival aged 60 or over; the 2026 PIT-RES depreciation-adjustment line (not yet published); whether the federal senior additional deduction flows through to Delaware (the Division's tax-season-updates page does not address it); the v0.2 statement that the PIT-EST instructions test federal AGI for the prior-year safe harbour while the PIT-RES and PIT-UND instructions test Delaware AGI (not verified against the archived instruction PDFs -- use 110% when either measure could exceed the limit).
 
 <!-- openaccountants-cta-block -->
 
@@ -485,7 +485,7 @@ Not yet confirmed: the 2026 filing-threshold table (the archived table is the 20
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

@@ -55,7 +55,7 @@ Exclusions generally start at $100,000 per month and can be as high as $1,250,00
 
 **Multiple business activities.** A sole proprietor performing both retail sales and professional services needs a separate GRT license and filing for each activity, at the respective rate.
 
-**Online/remote sellers.** If you sell tangible goods to Delaware customers from outside Delaware, physical presence in Delaware triggers the GRT; whether economic nexus alone suffices is not settled on the Division's pages — treat it as unconfirmed and refer.
+**Online/remote sellers.** If you sell tangible goods to Delaware customers from outside Delaware, physical presence in Delaware triggers the GRT; whether economic nexus alone suffices is not settled on the Division's pages -- treat it as unconfirmed and refer.
 
 ## Deadlines and filing
 
@@ -101,11 +101,11 @@ Gross receipts tax returns filed late are subject to a penalty of 5% per month, 
 
 ## When to refuse or refer
 
-- Petroleum products variable (composite) rates — refer to the Division of Revenue for the current composite rate.
-- Insurance premium tax, bank and utility license taxes — separate regimes; refer.
-- Nexus analysis for complex multi-state operations — requires legal analysis; refer.
-- Audit defense or reclassification disputes — professional representation.
-- Wilmington or other municipal net profits taxes — separate municipal taxes outside this skill.
+- Petroleum products variable (composite) rates -- refer to the Division of Revenue for the current composite rate.
+- Insurance premium tax, bank and utility license taxes -- separate regimes; refer.
+- Nexus analysis for complex multi-state operations -- requires legal analysis; refer.
+- Audit defense or reclassification disputes -- professional representation.
+- Wilmington or other municipal net profits taxes -- separate municipal taxes outside this skill.
 
 ## Sources
 
@@ -121,7 +121,7 @@ Gross receipts tax returns filed late are subject to a penalty of 5% per month, 
 | 30 Del. C. ch. 29 (retail and wholesale merchants' license taxes) | https://delcode.delaware.gov/title30/c029/index.html | 2026-10-28 |
 | 30 Del. C. ch. 5 subch. III (§§ 533-534 penalties and interest) | https://delcode.delaware.gov/title30/c005/sc03/index.html | 2026-10-28 |
 
-Not yet confirmed: the dollar thresholds the Division's look-back period uses to move a business between monthly and quarterly filing (a v0.2 table stated monthly for tax over $5,000/month, quarterly for $1,500-$5,000/quarter and annual below $1,500/quarter — no archived primary source states these, and the Division's FAQ describes only the look-back); any annual filing frequency (the archived statute and FAQ describe monthly and quarterly returns only); the v0.2 exemption list (casual/isolated sales, sales to the US government and the State of Delaware, insurance premiums, agricultural products sold by the producer) — not found on the archived primary pages, only the Form 373 out-of-state purchaser exemption is confirmed; whether economic nexus without physical presence triggers GRT for remote sellers; the Division's GRT contact number (302) 577-8780 (v0.2; not verified on the archived pages). The v0.2 rate figures 0.7543% (retail and restaurants), 0.2291% (food processors) and 0.0945% (commercial feed dealers) were replaced by the current statutory and Division-chart rates above.
+Not yet confirmed: the dollar thresholds the Division's look-back period uses to move a business between monthly and quarterly filing (a v0.2 table stated monthly for tax over $5,000/month, quarterly for $1,500-$5,000/quarter and annual below $1,500/quarter -- no archived primary source states these, and the Division's FAQ describes only the look-back); any annual filing frequency (the archived statute and FAQ describe monthly and quarterly returns only); the v0.2 exemption list (casual/isolated sales, sales to the US government and the State of Delaware, insurance premiums, agricultural products sold by the producer) -- not found on the archived primary pages, only the Form 373 out-of-state purchaser exemption is confirmed; whether economic nexus without physical presence triggers GRT for remote sellers; the Division's GRT contact number (302) 577-8780 (v0.2; not verified on the archived pages). The v0.2 rate figures 0.7543% (retail and restaurants), 0.2291% (food processors) and 0.0945% (commercial feed dealers) were replaced by the current statutory and Division-chart rates above.
 
 <!-- openaccountants-cta-block -->
 
@@ -129,7 +129,7 @@ Not yet confirmed: the dollar thresholds the Division's look-back period uses to
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

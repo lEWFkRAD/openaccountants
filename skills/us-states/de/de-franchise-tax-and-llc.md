@@ -190,7 +190,7 @@ Every Delaware corporation and LLC must keep a registered office and registered 
 
 - **Foreign (non-Delaware) corporations qualified in Delaware** pay no Delaware franchise tax; they file their own annual report with the Delaware Secretary of State on or before 30 June each year with a $250 filing fee, and a $250 penalty is added if the report and remittance are not received by the due date. Refer foreign-corporation work. ([Division](https://corp.delaware.gov/paytaxes/))
 - **Federal classification is irrelevant** to the LLC/LP/GP annual tax: disregarded, partnership, S corporation or C corporation election all owe the same flat tax ([§18-1107](https://delcode.delaware.gov/title6/c018/sc11/index.html)).
-- **Non-US owners:** the annual tax is owed whatever the ownership; home-country tax and treaty questions are out of scope — refer to a cross-border specialist.
+- **Non-US owners:** the annual tax is owed whatever the ownership; home-country tax and treaty questions are out of scope -- refer to a cross-border specialist.
 
 ## Worked examples
 
@@ -267,7 +267,7 @@ These cases use invented (hypothetical) facts. Each rate and threshold comes fro
 | 8 Del. C. § 132 (registered agent; service on Secretary of State) | https://delcode.delaware.gov/title8/c001/sc03/index.html | 2026-10-28 |
 | 8 Del. C. § 312 (revival of void charter) | https://delcode.delaware.gov/title8/c001/sc12/index.html | 2026-10-28 |
 
-Not yet confirmed: whether the LLC/LP/GP annual tax payment due 1 June 2026 (for tax year 2025) was billed at $300 or $400 — the raising Act (85 Del. Laws c. 273) was approved 21 May 2026 with those sections effective 1 January 2026, and the Division's FAQ shows $300 for the prior year in one answer and $400 in another; check the entity's statement or account with the Division (302-739-3073, option 3) before paying a late 2025 balance. The Secretary of State's 30 November void-charter notice date is from §510 as summarized on the Division's pages; confirm the current notice practice for a live case.
+Not yet confirmed: whether the LLC/LP/GP annual tax payment due 1 June 2026 (for tax year 2025) was billed at $300 or $400 -- the raising Act (85 Del. Laws c. 273) was approved 21 May 2026 with those sections effective 1 January 2026, and the Division's FAQ shows $300 for the prior year in one answer and $400 in another; check the entity's statement or account with the Division (302-739-3073, option 3) before paying a late 2025 balance. The Secretary of State's 30 November void-charter notice date is from §510 as summarized on the Division's pages; confirm the current notice practice for a live case.
 
 <!-- openaccountants-cta-block -->
 
@@ -275,7 +275,7 @@ Not yet confirmed: whether the LLC/LP/GP annual tax payment due 1 June 2026 (for
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

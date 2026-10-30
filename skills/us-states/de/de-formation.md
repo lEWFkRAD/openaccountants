@@ -270,7 +270,7 @@ These cases use invented (hypothetical) facts; every fee and rate comes from the
 | 26 U.S.C. § 83 (restricted property; § 83(b) election) | https://www.law.cornell.edu/uscode/text/26/83 | 2026-10-28 |
 | Treas. Reg. § 1.83-2 | https://www.law.cornell.edu/cfr/text/26/1.83-2 | 2026-10-28 |
 
-Not yet confirmed: whether the LLC annual tax payment due 1 June 2026 (for 2025) was billed at $300 or $400 — the 2026 Act (85 Del. Laws c. 273 § 23) took effect 1 January 2026 but neither the archived Division pages nor the Act settles the 2025 billing; check the entity's annual statement or ask the Division on (302) 739-3073 before advising on a 2025 balance. The Division's "How to form" page still showed $300 in v0.2's research; treat the statute ($400 from 1 January 2026) as authoritative for 2026 taxes.
+Not yet confirmed: whether the LLC annual tax payment due 1 June 2026 (for 2025) was billed at $300 or $400 -- the 2026 Act (85 Del. Laws c. 273 § 23) took effect 1 January 2026 but neither the archived Division pages nor the Act settles the 2025 billing; check the entity's annual statement or ask the Division on (302) 739-3073 before advising on a 2025 balance. The Division's "How to form" page still showed $300 in v0.2's research; treat the statute ($400 from 1 January 2026) as authoritative for 2026 taxes.
 
 <!-- openaccountants-cta-block -->
 
@@ -278,7 +278,7 @@ Not yet confirmed: whether the LLC annual tax payment due 1 June 2026 (for 2025)
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
