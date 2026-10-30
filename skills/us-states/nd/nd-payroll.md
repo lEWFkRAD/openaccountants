@@ -65,16 +65,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | ND PIT bracket 1 (TY 2025, single) | 0% on first $47,150 [VERIFY: 2025 booklet thresholds] |
 | ND PIT bracket 2 (TY 2025, single) | 1.95% on $47,150 – $238,200 [VERIFY: exact threshold] |
 | ND PIT bracket 3 (TY 2025, single) | 2.50% above $238,200 [VERIFY: exact threshold] |
-| Supplemental wage rate (TY 2025) | 1.5% |
+| Supplemental wage rate (TY 2025) | 1.5% | (not yet confirmed)
 | Form 306 due dates | April 30, July 31, October 31, January 31 |
 | Form 306 mandatory e-filing threshold | Prior-year withholding ≥ $1,000 → must e-file via TAP |
 | Form 307 annual reconciliation | January 31 |
-| NDW-R (MN/MT reciprocity) renewal | Annual — by Feb 28 each year |
+| NDW-R (MN/MT reciprocity) renewal | Annual — by Feb 28 each year | (not yet confirmed)
 | NDW-R employer copy filing | Mail to Tax Commissioner by March 31 |
-| SUTA wage base 2025 | $45,100 |
-| SUTA wage base 2024 (reference) | $43,800 |
-| SUTA experience-rated range | ~0.08% to ~9.97% [VERIFY: 2025 schedule] |
-| SUTA new-employer rate | 1.02% non-construction; up to ~6.09% construction industry [VERIFY: 2025 schedule] |
+| SUTA wage base 2025 | $45,100 | (not yet confirmed)
+| SUTA wage base 2024 (reference) | $43,800 | (not yet confirmed)
+| SUTA experience-rated range | ~0.08% to ~9.97% [VERIFY: 2025 schedule] | (not yet confirmed)
+| SUTA new-employer rate | 1.02% non-construction; up to ~6.09% construction industry [VERIFY: 2025 schedule] | (not yet confirmed)
 | New-hire deadline | Within 20 days of hire |
 | Workers' comp insurer | WSI — monopolistic. Private comp insurance is unlawful |
 | Final paycheck (involuntary) | Next regular payday, per N.D.C.C. § 34-14-03 |
@@ -100,7 +100,7 @@ The bracket thresholds are indexed annually. Practitioners must re-verify the br
 
 | Taxable wages over | But not over | Withhold |
 | --- | --- | --- |
-| $0 | $47,150 | $0 |
+| $0 | $47,150 | $0 | (not yet confirmed)
 | $47,150 | $238,200 | 1.95% of excess over $47,150 |
 | $238,200 | — | $3,725.48 + 2.50% of excess over $238,200 |
 
@@ -110,13 +110,13 @@ The bracket thresholds are indexed annually. Practitioners must re-verify the br
 
 | Taxable wages over | But not over | Withhold |
 | --- | --- | --- |
-| $0 | $78,775 | $0 |
+| $0 | $78,775 | $0 | (not yet confirmed)
 | $78,775 | $289,975 | 1.95% of excess over $78,775 |
 | $289,975 | — | $4,118.40 + 2.50% of excess over $289,975 |
 
 ### 3.5 Supplemental wage rate
 
-- **Supplemental wage rate 2025** — 1.5% percent (flat rate for supplemental wages paid separately or separately identified; alternatively aggregate method may be used)
+- **Supplemental wage rate 2025** — 1.5% percent (flat rate for supplemental wages paid separately or separately identified; alternatively aggregate method may be used) (not yet confirmed)
 
 ### 3.6 Pay-period frequency
 
@@ -148,14 +148,14 @@ The bracket thresholds are indexed annually. Practitioners must re-verify the br
 
 | Step | Action | Deadline |
 | --- | --- | --- |
-| 1 | Employee completes NDW-R, swearing under penalty of perjury that they are a permanent MN (or MT) resident | By Feb 28 each year, or within 30 days of starting work / changing residence |
+| 1 | Employee completes NDW-R, swearing under penalty of perjury that they are a permanent MN (or MT) resident | By Feb 28 each year, or within 30 days of starting work / changing residence | (not yet confirmed)
 | 2 | Employer stops ND withholding from the next available payroll | Effective immediately on receipt |
 | 3 | Employer mails the Tax Commissioner's copy of NDW-R to the ND Office of State Tax Commissioner | By March 31 each year |
 | 4 | Employee renews NDW-R every year | Annually — prior-year form does not roll over |
 
 ### 5.2 Mechanics — Form NDW-R
 
-- **Employer MN withholding requirement** — The employer must withhold Minnesota income tax instead (under MN Stat. § 290.92), which requires the employer to register for an MN withholding account if not already registered.  _(MN Stat. § 290.92)_
+- **Employer MN withholding requirement** — The employer must withhold Minnesota income tax instead (under MN Stat. § 290.92), which requires the employer to register for an MN withholding account if not already registered.  _(MN Stat. § 290.92)_ (not yet confirmed)
 
 ### 5.3 What happens if the NDW-R is missing — the audit flash point
 
@@ -204,7 +204,7 @@ The bracket thresholds are indexed annually. Practitioners must re-verify the br
 
 ### 7.4 Penalties
 
-- **Failure to file electronically penalty** — $500 per return  _(N.D.C.C. § 57-01-02.1)_
+- **Failure to file electronically penalty** — $500 per return  _(N.D.C.C. § 57-01-02.1)_ (not yet confirmed)
 
 ### 7.4 Penalties
 
@@ -244,8 +244,8 @@ The bracket thresholds are indexed annually. Practitioners must re-verify the br
 
 | Year | ND SUTA taxable wage base |
 | --- | --- |
-| 2024 | $43,800 |
-| **2025** | **$45,100** |
+| 2024 | $43,800 | (not yet confirmed)
+| **2025** | **$45,100** | (not yet confirmed)
 | 2026 | [VERIFY: not yet published as of 2026-05-28] |
 
 ### 9.2 Wage base
@@ -254,19 +254,19 @@ The bracket thresholds are indexed annually. Practitioners must re-verify the br
 
 ### 9.3 Rate structure (2025)
 
-- **Positive-balance experience rates** — 0.08% – 1.85% (Schedule 1)  _([VERIFY: 2025 Tax Rate Schedules from JSND])_
+- **Positive-balance experience rates** — 0.08% – 1.85% (Schedule 1)  _([VERIFY: 2025 Tax Rate Schedules from JSND])_ (not yet confirmed)
 
 ### 9.3 Rate structure (2025)
 
-- **Negative-balance rates** — up to ~9.97%  _([VERIFY: 2025 Tax Rate Schedules from JSND])_
+- **Negative-balance rates** — up to ~9.97%  _([VERIFY: 2025 Tax Rate Schedules from JSND])_ (not yet confirmed)
 
 ### 9.3 Rate structure (2025)
 
-- **New employer (non-construction) rate** — 1.02% on rate Schedule [VERIFY]  _([VERIFY: 2025 Tax Rate Schedules from JSND])_
+- **New employer (non-construction) rate** — 1.02% on rate Schedule [VERIFY]  _([VERIFY: 2025 Tax Rate Schedules from JSND])_ (not yet confirmed)
 
 ### 9.3 Rate structure (2025)
 
-- **New employer (construction) rate** — 6.09% [VERIFY]  _([VERIFY: 2025 Tax Rate Schedules from JSND])_
+- **New employer (construction) rate** — 6.09% [VERIFY]  _([VERIFY: 2025 Tax Rate Schedules from JSND])_ (not yet confirmed)
 
 ### 9.3 Rate structure (2025)
 
@@ -282,7 +282,7 @@ The bracket thresholds are indexed annually. Practitioners must re-verify the br
 
 ### 9.5 Penalties
 
-- **Failure to file rate increase** — Rate increased by 1%  _(N.D.C.C. § 52-04-05)_
+- **Failure to file rate increase** — Rate increased by 1%  _(N.D.C.C. § 52-04-05)_ (not yet confirmed)
 
 ### 9.5 Penalties
 
@@ -351,8 +351,8 @@ If a Texas, Florida, or even South Dakota employer expands to a Fargo office and
 | T1-ND-PAY-03 | Form 307 annual reconciliation is due January 31. |
 | T1-ND-PAY-04 | An MN or MT resident must file NDW-R **annually** to exempt wages from ND withholding. |
 | T1-ND-PAY-05 | Employer must mail the Tax Commissioner copy of NDW-R by March 31. |
-| T1-ND-PAY-06 | 2025 ND SUTA taxable wage base is $45,100. |
-| T1-ND-PAY-07 | 2025 ND supplemental wage rate is 1.5%. |
+| T1-ND-PAY-06 | 2025 ND SUTA taxable wage base is $45,100. | (not yet confirmed)
+| T1-ND-PAY-07 | 2025 ND supplemental wage rate is 1.5%. | (not yet confirmed)
 | T1-ND-PAY-08 | New-hire reports are due to the ND CSD within 20 days of hire. |
 | T1-ND-PAY-09 | ND workers' comp must be obtained from WSI — private coverage is invalid. |
 | T1-ND-PAY-10 | Final pay is due on the next regular payday. |
@@ -378,7 +378,7 @@ If a Texas, Florida, or even South Dakota employer expands to a Fargo office and
 
 **Step 1 — Annualize.** $2,500 × 26 = $65,000 annual wages.
 
-**Step 2 — Apply 2025 single bracket table** [VERIFY: 2025 booklet exact threshold]. Assume bottom-bracket cutoff = $47,150 single.
+**Step 2 — Apply 2025 single bracket table** [VERIFY: 2025 booklet exact threshold]. Assume bottom-bracket cutoff = $47,150 single. (not yet confirmed)
 
 ```
 Taxable above cutoff: $65,000 - $47,150 = $17,850
@@ -392,27 +392,27 @@ Per pay period: $348.08 / 26 = $13.39
 
 ### Example 2 — Minnesota commuter with NDW-R on file
 
-**Facts.** Bjorn lives in Moorhead, MN, and commutes daily to a software job in Fargo, ND. Biweekly gross wages = $3,200. Filed NDW-R on his first day of work, dated February 1, 2025.
+**Facts.** Bjorn lives in Moorhead, MN, and commutes daily to a software job in Fargo, ND. Biweekly gross wages = $3,200. Filed NDW-R on his first day of work, dated February 1, 2025. (not yet confirmed)
 
 **Step 1 — Verify NDW-R.** Employer confirms: Permanent address in MN: yes (verified driver's license + lease). Form signed and dated within 30 days of start: yes. Calendar-year specific: yes (2025).
 
 **Step 2 — ND withholding.** Zero ND tax withheld on Bjorn's wages for the entire 2025 calendar year.
 
-**Step 3 — MN withholding.** Employer registers for an MN withholding account and withholds MN tax under MN Stat. § 290.92 using Form W-4MN.
+**Step 3 — MN withholding.** Employer registers for an MN withholding account and withholds MN tax under MN Stat. § 290.92 using Form W-4MN. (not yet confirmed)
 
 **Step 4 — Employer's March 31 obligation.** Employer mails the Tax Commissioner copy of Bjorn's NDW-R to the ND Office of State Tax Commissioner by March 31, 2025.
 
-**Step 5 — Renewal.** A fresh NDW-R is required on or before February 28, 2026 for the 2026 calendar year. The employer should diary this in December 2025.
+**Step 5 — Renewal.** A fresh NDW-R is required on or before February 28, 2026 for the 2026 calendar year. The employer should diary this in December 2025. (not yet confirmed)
 
 **Failure mode.** If Bjorn forgets to renew in February 2026 and the employer does not collect a 2026 NDW-R, the employer must withhold ND tax from his 2026 wages starting January 1, 2026 (or, in practice, the first payroll after the Feb 28 default deadline). Bjorn then files Form ND-EZ in 2027 to claim the ND withholding back as a refund — a real cash flow hit, and the source of frequent payroll complaints.
 
 ### Example 3 — High-income ND-resident at the top bracket
 
-**Facts.** Carla is a Bismarck-based oilfield engineer earning $325,000 annual salary, paid semimonthly ($13,541.67 gross per pay). Federal W-4 = single, no adjustments. She receives a $50,000 year-end bonus.
+**Facts.** Carla is a Bismarck-based oilfield engineer earning $325,000 annual salary, paid semimonthly ($13,541.67 gross per pay). Federal W-4 = single, no adjustments. She receives a $50,000 year-end bonus. (not yet confirmed)
 
 **Regular wage withholding per pay period**
 
-Annualize: $13,541.67 × 24 = $325,000. Apply 2025 single percentage table [VERIFY exact thresholds]:
+Annualize: $13,541.67 × 24 = $325,000. Apply 2025 single percentage table [VERIFY exact thresholds]: (not yet confirmed)
 
 ```
 First $47,150 → 0%
@@ -422,7 +422,7 @@ Annual ND tax = $5,895.48
 Per pay (÷24) = $245.65
 ```
 
-Round → **$246 ND withheld per semimonthly pay**.
+Round → **$246 ND withheld per semimonthly pay**. (not yet confirmed)
 
 **Year-end bonus — supplemental rate**
 
@@ -482,7 +482,7 @@ The 1.5% supplemental rate is below Carla's marginal rate of 2.50%, so she will 
 ### Key URLs (all visited 2026-05-28)
 
 - ND Tax Commissioner — Withholding: https://www.tax.nd.gov/business/income-tax-withholding
-- 2025 Withholding Booklet PDF: https://www.tax.nd.gov/sites/www/files/documents/misc-discuss-folder/Final_2025%20Income%20Tax%20Withholding%20Rates%20%20Instructions.pdf
+- 2025 Withholding Booklet PDF: https://www.tax.nd.gov/sites/www/files/documents/misc-discuss-folder/Final_2025%20Income%20Tax%20Withholding%20Rates%20%20Instructions.pdf (not yet confirmed)
 - Form 306: https://www.tax.nd.gov/sites/www/files/documents/forms/business/it-withholding/form-306-web.pdf
 - Form NDW-R: https://www.tax.nd.gov/sites/www/files/documents/forms/business/ndwrfillable.pdf
 - Withholding Guideline: https://www.tax.nd.gov/sites/www/files/documents/guidelines/business/it-withhold/income-tax-withholding-information-returns-guideline.pdf

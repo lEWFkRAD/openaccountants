@@ -40,7 +40,7 @@ This skill covers North Dakota state-level entity-level income tax:
 - **Insurance companies** — subject to the gross premiums tax under NDCC § 26.1-03-17, not corporate income tax.
 - **Cities and counties** — ND has no local corporate income tax.
 
-> ⚠️ **Authority confirmation rule.** Before relying on a rate, threshold, or form line in production, confirm against the current ND Office of State Tax Commissioner publications (Form 40 Corporate Income Tax Booklet, Schedule SA instructions, and any Commissioner's guidelines). The 1.41% / 3.55% / 4.31% bracket schedule has been stable since 2015 but the Legislative Assembly meets biennially and could amend rates in any odd-year session. Statutes change.
+> ⚠️ **Authority confirmation rule.** Before relying on a rate, threshold, or form line in production, confirm against the current ND Office of State Tax Commissioner publications (Form 40 Corporate Income Tax Booklet, Schedule SA instructions, and any Commissioner's guidelines). The 1.41% / 3.55% / 4.31% bracket schedule has been stable since 2015 but the Legislative Assembly meets biennially and could amend rates in any odd-year session. Statutes change. (not yet confirmed)
 
 ## 2. Metadata and Sources
 
@@ -77,10 +77,10 @@ This skill covers North Dakota state-level entity-level income tax:
 
 | Item | Value | Authority |
 | --- | --- | --- |
-| Corporate income tax — Bracket 1 | **1.41%** on first $25,000 of ND taxable income | NDCC § 57-38-30(1), verified verbatim 2026-10-28 vs archived NDCC ch. 57-38 printout: "For the first twenty-five thousand dollars of taxable income, at the rate of one and forty-one hundredths percent" |
-| Corporate income tax — Bracket 2 | **3.55%** on next $25,000 (to $50,000) | NDCC § 57-38-30(2), verified verbatim: "three and fifty-five hundredths percent" |
-| Corporate income tax — Bracket 3 | **4.31%** on income above $50,000 | NDCC § 57-38-30(3), verified verbatim: "four and thirty-one hundredths percent" |
-| Water's edge surtax | Additional **3.5%** of ND taxable income for water's-edge electors | NDCC § 57-38.1-15 / Form 40 instructions |
+| Corporate income tax — Bracket 1 | **1.41%** on first $25,000 of ND taxable income | NDCC § 57-38-30(1), verified verbatim 2026-10-28 vs archived NDCC ch. 57-38 printout: "For the first twenty-five thousand dollars of taxable income, at the rate of one and forty-one hundredths percent" | (not yet confirmed)
+| Corporate income tax — Bracket 2 | **3.55%** on next $25,000 (to $50,000) | NDCC § 57-38-30(2), verified verbatim: "three and fifty-five hundredths percent" | (not yet confirmed)
+| Corporate income tax — Bracket 3 | **4.31%** on income above $50,000 | NDCC § 57-38-30(3), verified verbatim: "four and thirty-one hundredths percent" | (not yet confirmed)
+| Water's edge surtax | Additional **3.5%** of ND taxable income for water's-edge electors | NDCC § 57-38.1-15 / Form 40 instructions | (not yet confirmed)
 | Apportionment formula | Three-factor: property + payroll + sales (sales double-weighted) by default; **single-sales-factor election available** for qualifying taxpayers | NDCC § 57-38.1-09 [VERIFY weighting] |
 | Sourcing | Cost-of-performance for services (default); ND has **not** broadly adopted market-based sourcing as of 2025 [VERIFY] | NDCC § 57-38.1-16 |
 | NOL carryforward | **20 years** [VERIFY against current statute]; no carryback | NDCC § 57-38-01.4 |
@@ -88,12 +88,12 @@ This skill covers North Dakota state-level entity-level income tax:
 | Filing form | Form 40 (Corporation Income Tax Return) | ND Tax Commissioner |
 | Due date (calendar-year filer) | **April 15** (15th day of 4th month after year-end) | NDCC § 57-38-34 |
 | Extension | Automatic 7-month extension if federal extension filed; Form 40-EXT for ND-only extension | Form 40 instructions |
-| Estimated-tax threshold | Required if both **prior-year and current-year liability exceed $5,000** | NDCC § 57-38-62 [VERIFY threshold] |
+| Estimated-tax threshold | Required if both **prior-year and current-year liability exceed $5,000** | NDCC § 57-38-62 [VERIFY threshold] | (not yet confirmed)
 | Estimated-tax form | Form 40-ES | ND Tax Commissioner |
 | Underpayment form | Form 40-UT | ND Tax Commissioner |
 | PTE election | **None — ND has NOT enacted a PTET** [VERIFY through 2025 legislative session] | n/a |
 | Separate franchise tax? | **No.** ND has no general corporate franchise tax. | n/a |
-| Minimum tax? | **None.** No statutory minimum CIT (unlike NC's $200 franchise floor). | n/a |
+| Minimum tax? | **None.** No statutory minimum CIT (unlike NC's $200 franchise floor). | n/a | (not yet confirmed)
 | S-corp at entity level? | No CIT; files informational Form 60 | NDCC § 57-38-01.4 (federal conformity) |
 | Partnership / LLC default at entity level? | No CIT; files informational Form 58 | NDCC Chapter 57-38 |
 
@@ -133,27 +133,27 @@ This skill covers North Dakota state-level entity-level income tax:
 
 | ND Taxable Income | Marginal Rate | Cumulative Tax at Top of Bracket |
 | --- | --- | --- |
-| $0 – $25,000 | **1.41%** | $352.50 |
-| $25,001 – $50,000 | **3.55%** | $352.50 + 3.55% × (income − $25,000); $1,240 at $50,000 |
-| Above $50,000 | **4.31%** | $1,240 + 4.31% × (income − $50,000) |
+| $0 – $25,000 | **1.41%** | $352.50 | (not yet confirmed)
+| $25,001 – $50,000 | **3.55%** | $352.50 + 3.55% × (income − $25,000); $1,240 at $50,000 | (not yet confirmed)
+| Above $50,000 | **4.31%** | $1,240 + 4.31% × (income − $50,000) | (not yet confirmed)
 
 **Effective-rate examples table**  _(N.D.C.C. § 57-38-30)_
 
 | ND Taxable Income | ND CIT | Effective Rate |
 | --- | --- | --- |
-| $10,000 | $141 | 1.41% |
-| $25,000 | $352.50 | 1.41% |
-| $50,000 | $1,240 | 2.48% |
-| $100,000 | $3,395 | 3.40% |
-| $500,000 | $20,635 | 4.13% |
-| $1,000,000 | $42,185 | 4.22% |
-| $5,000,000 | $214,685 | 4.29% |
+| $10,000 | $141 | 1.41% | (not yet confirmed)
+| $25,000 | $352.50 | 1.41% | (not yet confirmed)
+| $50,000 | $1,240 | 2.48% | (not yet confirmed)
+| $100,000 | $3,395 | 3.40% | (not yet confirmed)
+| $500,000 | $20,635 | 4.13% | (not yet confirmed)
+| $1,000,000 | $42,185 | 4.22% | (not yet confirmed)
+| $5,000,000 | $214,685 | 4.29% | (not yet confirmed)
 
-The brackets are **not** indexed for inflation. The $25,000 and $50,000 thresholds have been stable since 2015 [VERIFY].
+The brackets are **not** indexed for inflation. The $25,000 and $50,000 thresholds have been stable since 2015 [VERIFY]. (not yet confirmed)
 
 ### 5.2 Water's-edge surtax (NDCC § 57-38.1-15)
 
-- **Water's-edge surtax** — A corporation that elects the water's edge method of apportioning income (i.e., excludes certain foreign affiliates from the unitary group) is subject to an additional 3.5% surtax on its ND taxable income. The election trades broader inclusion of foreign affiliates (worldwide) for a flat 3.5% surcharge. Most US-only ND filers do not need to think about this; it matters only for multinationals filing a unitary return.  _(NDCC § 57-38.1-15)_
+- **Water's-edge surtax** — A corporation that elects the water's edge method of apportioning income (i.e., excludes certain foreign affiliates from the unitary group) is subject to an additional 3.5% surtax on its ND taxable income. The election trades broader inclusion of foreign affiliates (worldwide) for a flat 3.5% surcharge. Most US-only ND filers do not need to think about this; it matters only for multinationals filing a unitary return.  _(NDCC § 57-38.1-15)_ (not yet confirmed)
 
 ### 5.3 No minimum tax
 
@@ -233,11 +233,11 @@ The brackets are **not** indexed for inflation. The $25,000 and $50,000 threshol
 
 ### 9.3 Practical consequences for ND pass-through owners
 
-- **SALT cap exposure for ND pass-through owners** — ND S-corp shareholders and ND partnership/LLC members cannot elect entity-level taxation to escape the federal $10,000 SALT cap on their personal Schedule A. Their ND personal income tax remains a personal itemized deduction subject to the cap. For a high-income ND S-corp owner this is a meaningful federal tax disadvantage relative to peers in NC, CA, NY, MN, or any of the ~37 states that have enacted PTETs. A 2025 owner with $1,000,000 of ND S-corp income paying ~$25,000 of ND personal income tax has no SALT-cap workaround — the $25,000 is capped at $10,000 on Schedule A, costing roughly $5,550 in federal tax at the 37% marginal bracket compared with a PTET-eligible state.
+- **SALT cap exposure for ND pass-through owners** — ND S-corp shareholders and ND partnership/LLC members cannot elect entity-level taxation to escape the federal $10,000 SALT cap on their personal Schedule A. Their ND personal income tax remains a personal itemized deduction subject to the cap. For a high-income ND S-corp owner this is a meaningful federal tax disadvantage relative to peers in NC, CA, NY, MN, or any of the ~37 states that have enacted PTETs. A 2025 owner with $1,000,000 of ND S-corp income paying ~$25,000 of ND personal income tax has no SALT-cap workaround — the $25,000 is capped at $10,000 on Schedule A, costing roughly $5,550 in federal tax at the 37% marginal bracket compared with a PTET-eligible state. (not yet confirmed)
 
 ### 9.4 OBBBA (2025) interaction
 
-- **OBBBA SALT cap interaction** — The federal SALT cap was modified by the One Big Beautiful Bill Act (P.L. 119-21, July 4 2025) — relevant for years 2025 and onward [VERIFY OBBBA SALT-cap parameters in `us-tax-workflow-base`]. Even with whatever cap relief OBBBA provides, the absence of a ND PTET means ND owners cannot capture entity-level federal-deductible state-tax payments in the way that PTET-state owners can. This continues to be a competitive disadvantage for the ND professional-services and small-corporation sector.  _(P.L. 119-21)_
+- **OBBBA SALT cap interaction** — The federal SALT cap was modified by the One Big Beautiful Bill Act (P.L. 119-21, July 4 2025) — relevant for years 2025 and onward [VERIFY OBBBA SALT-cap parameters in `us-tax-workflow-base`]. Even with whatever cap relief OBBBA provides, the absence of a ND PTET means ND owners cannot capture entity-level federal-deductible state-tax payments in the way that PTET-state owners can. This continues to be a competitive disadvantage for the ND professional-services and small-corporation sector.  _(P.L. 119-21)_ (not yet confirmed)
 
 ### 9.5 Planning workaround alternative
 
@@ -273,13 +273,13 @@ The brackets are **not** indexed for inflation. The $25,000 and $50,000 threshol
 | Installment | Due Date | Cumulative % |
 | --- | --- | --- |
 | 1st | April 15 | 25% |
-| 2nd | June 15 | 50% |
-| 3rd | September 15 | 75% |
-| 4th | December 15 | 100% |
+| 2nd | June 15 | 50% | (not yet confirmed)
+| 3rd | September 15 | 75% | (not yet confirmed)
+| 4th | December 15 | 100% | (not yet confirmed)
 
 ### 10.4 Safe harbor
 
-- **Underpayment safe harbor** — The underpayment penalty (Form 40-UT) is avoided if the corporation has paid at least the lesser of: 1. 100% of the prior year's tax liability, OR 2. 90% of the current year's tax liability. The prior-year safe harbor is not available if the corporation had no liability or did not file a return in the prior year, or if the prior tax year was a short period.
+- **Underpayment safe harbor** — The underpayment penalty (Form 40-UT) is avoided if the corporation has paid at least the lesser of: 1. 100% of the prior year's tax liability, OR 2. 90% of the current year's tax liability. The prior-year safe harbor is not available if the corporation had no liability or did not file a return in the prior year, or if the prior tax year was a short period. (not yet confirmed)
 
 ### 10.5 Penalties and interest
 
@@ -296,7 +296,7 @@ The brackets are **not** indexed for inflation. The $25,000 and $50,000 threshol
 - Federal taxable income (Form 1120, line 30): $20,000
 - ND additions: $0
 - ND subtractions: $0
-- 100% of activity (property, payroll, sales) in ND. Apportionment factor: 1.0000.
+- 100% of activity (property, payroll, sales) in ND. Apportionment factor: 1.0000. (not yet confirmed)
 - No NOL carryforward.
 
 **Step 1 — ND taxable income (2025):**
@@ -332,15 +332,15 @@ ND CIT       $282.00
 Total        $282.00
 ```
 
-**Takeaway.** A small ND C-corp at the lowest bracket owes a few hundred dollars. There is no minimum tax, no franchise tax, and no required estimated payments below the $5,000 threshold. This is dramatically simpler than NC, CA, TX, or DE, where even a tiny C-corp owes hundreds in franchise / minimum tax annually.
+**Takeaway.** A small ND C-corp at the lowest bracket owes a few hundred dollars. There is no minimum tax, no franchise tax, and no required estimated payments below the $5,000 threshold. This is dramatically simpler than NC, CA, TX, or DE, where even a tiny C-corp owes hundreds in franchise / minimum tax annually. (not yet confirmed)
 
 ### 11.2 Example B — Mid-size C-corp with multistate apportionment (ND + MN + MT)
 
 **Facts.** Red River Equipment, Inc. is a Fargo-domiciled C-corp selling agricultural equipment across the Plains. Calendar 2025:
 
-- Federal taxable income: $2,000,000
-- ND additions: $50,000 (state taxes deducted federally)
-- ND subtractions: $10,000 (federal bonus depreciation timing)
+- Federal taxable income: $2,000,000 (not yet confirmed)
+- ND additions: $50,000 (state taxes deducted federally) (not yet confirmed)
+- ND subtractions: $10,000 (federal bonus depreciation timing) (not yet confirmed)
 - No NOL carryforward.
 
 **Step 1 — Three-factor formula (sales double-weighted):**
@@ -390,7 +390,7 @@ ND CIT:
 Saving from single-sales-factor:    $6,594.30
 ```
 
-The single-sales election saves ~$6,600 annually because Red River has heavy ND payroll and property relative to ND sales — the classic ND-headquartered exporter profile. Over the 5-year minimum election period, that's ~$33,000 in cumulative ND tax savings, before factoring in growth.
+The single-sales election saves ~$6,600 annually because Red River has heavy ND payroll and property relative to ND sales — the classic ND-headquartered exporter profile. Over the 5-year minimum election period, that's ~$33,000 in cumulative ND tax savings, before factoring in growth. (not yet confirmed)
 
 **Step 5 — Estimated-tax obligation for 2026:**
 
@@ -406,16 +406,16 @@ Safe harbor: pay 100% of 2025 liability ($40,849) split into 4 installments
 
 | Factor | ND | Everywhere | Factor Ratio |
 | --- | --- | --- | --- |
-| Property | $5,000,000 | $10,000,000 | 0.5000 |
-| Payroll | $3,000,000 | $5,000,000 | 0.6000 |
-| Sales | $8,000,000 | $20,000,000 | 0.4000 |
+| Property | $5,000,000 | $10,000,000 | 0.5000 | (not yet confirmed)
+| Payroll | $3,000,000 | $5,000,000 | 0.6000 | (not yet confirmed)
+| Sales | $8,000,000 | $20,000,000 | 0.4000 | (not yet confirmed)
 
 ### 11.3 Example C — ND S-corp with zero entity-level CIT but pass-through
 
 **Facts.** Bakken Software Solutions, Inc. is an ND S-corp (federal § 1362 election in effect) providing software consulting to oil & gas producers. Single shareholder, ND resident. Calendar 2025:
 
-- Federal Form 1120-S ordinary business income: $400,000 (passes through to shareholder)
-- 100% of activity in ND.
+- Federal Form 1120-S ordinary business income: $400,000 (passes through to shareholder) (not yet confirmed)
+- 100% of activity in ND. (not yet confirmed)
 - No PTE election available (ND has none — see § 9).
 
 **Step 1 — Entity-level ND CIT (Form 40):**
@@ -435,7 +435,7 @@ Approx. ND PIT (top bracket 2.50% on amount above ND PIT threshold):
 
 **Step 3 — Federal SALT-cap exposure (no PTET workaround):**
 
-The shareholder pays approximately $10,000 of ND PIT plus state and local taxes (property tax on home, etc.). Total SALT likely well over $10,000. The federal Schedule A SALT deduction is capped at $10,000 (or as modified by OBBBA — verify).
+The shareholder pays approximately $10,000 of ND PIT plus state and local taxes (property tax on home, etc.). Total SALT likely well over $10,000. The federal Schedule A SALT deduction is capped at $10,000 (or as modified by OBBBA — verify). (not yet confirmed)
 
 Because ND has no PTET, the entity cannot pay the shareholder's ND PIT at the entity level and deduct it on Form 1120-S. The shareholder is fully exposed to the SALT cap.
 
@@ -452,17 +452,17 @@ Federal SALT relief (lost)     ~($3,700) opportunity cost
 Total ND tax                   ~$10,000
 ```
 
-**Takeaway.** ND S-corp owners pay only personal income tax — there is no entity-level CIT. But because ND has no PTET, high-income S-corp owners lose ~$3,700 per $400,000 of pass-through income in federal tax compared with peers in PTET states. This is the principal competitive disadvantage of the ND tax code for the small-corporation owner segment.
+**Takeaway.** ND S-corp owners pay only personal income tax — there is no entity-level CIT. But because ND has no PTET, high-income S-corp owners lose ~$3,700 per $400,000 of pass-through income in federal tax compared with peers in PTET states. This is the principal competitive disadvantage of the ND tax code for the small-corporation owner segment. (not yet confirmed)
 
 ### 11.4 Example D — Oil & gas C-corp: extraction tax vs. income tax (disambiguation)
 
 **Facts.** Bakken Crude Operators, Inc. is an ND C-corp operating oil wells in McKenzie County. Calendar 2025:
 
-- Federal taxable income: $5,000,000 (after deducting all severance taxes paid)
-- 100% of activity in ND. Apportionment 1.0000.
+- Federal taxable income: $5,000,000 (after deducting all severance taxes paid) (not yet confirmed)
+- 100% of activity in ND. Apportionment 1.0000. (not yet confirmed)
 - ND additions / subtractions: net $0.
 
-**Question that confuses new practitioners:** "We paid $3,000,000 in ND oil extraction tax in 2025. Do we get a credit against our ND CIT?"
+**Question that confuses new practitioners:** "We paid $3,000,000 in ND oil extraction tax in 2025. Do we get a credit against our ND CIT?" (not yet confirmed)
 
 **Answer: No.** The oil extraction tax (NDCC Ch. 57-51.1) is a severance tax computed at the wellhead on the producer's net interest, at a base rate of approximately 5% of gross value (with various rate triggers tied to oil price). The oil and gas gross production tax (NDCC Ch. 57-51) is a separate 5% severance tax. These taxes are:
 
@@ -511,10 +511,10 @@ Total entity-level ND tax              ~$5M+
 
 | Item | 2024 | 2025 | 2026 (planning) |
 | --- | --- | --- | --- |
-| ND CIT bracket 1 (up to $25,000) | 1.41% | 1.41% | 1.41% [VERIFY] |
+| ND CIT bracket 1 (up to $25,000) | 1.41% | 1.41% | 1.41% [VERIFY] | (not yet confirmed)
 | ND CIT bracket 2 ($25K–$50K) | 3.55% | 3.55% | 3.55% [VERIFY] |
 | ND CIT bracket 3 (above $50K) | 4.31% | 4.31% | 4.31% [VERIFY] |
-| Water's-edge surtax | 3.5% | 3.5% | 3.5% [VERIFY] |
+| Water's-edge surtax | 3.5% | 3.5% | 3.5% [VERIFY] | (not yet confirmed)
 | Minimum tax | $0 | $0 | $0 |
 | Franchise tax | none | none | none |
 | Apportionment (default) | 3-factor, sales 2× | 3-factor, sales 2× | 3-factor, sales 2× [VERIFY] |
@@ -526,7 +526,7 @@ Total entity-level ND tax              ~$5M+
 | Filing form (C-corp) | Form 40 | Form 40 | Form 40 |
 | Filing form (S-corp) | Form 60 | Form 60 | Form 60 |
 | Filing form (partnership) | Form 58 | Form 58 | Form 58 |
-| Est. tax threshold | $5,000 [VERIFY] | $5,000 [VERIFY] | $5,000 [VERIFY] |
+| Est. tax threshold | $5,000 [VERIFY] | $5,000 [VERIFY] | $5,000 [VERIFY] | (not yet confirmed)
 | Due date (calendar) | Apr 15 | Apr 15 | Apr 15 |
 | ND PIT rate (top, for context) | ~2.50% | ~2.50% | ~2.50% |
 
@@ -575,14 +575,14 @@ Total entity-level ND tax              ~$5M+
 
 ### 14.3 Session laws (key reforms)
 
-- **2015 — Rate bracket stabilization** — The current 1.41% / 3.55% / 4.31% brackets have been stable since 2015 [VERIFY session law citation].  _([VERIFY session law citation])_
+- **2015 — Rate bracket stabilization** — The current 1.41% / 3.55% / 4.31% brackets have been stable since 2015 [VERIFY session law citation].  _([VERIFY session law citation])_ (not yet confirmed)
 - **2023 — 68th Legislative Assembly** — Considered tax reform; did not enact PTET.  _(68th Legislative Assembly)_
 - **2025 — 69th Legislative Assembly** — Confirmed status of CIT brackets and continued absence of PTET as of session conclusion [VERIFY].  _(69th Legislative Assembly [VERIFY])_
 
 ### 14.4 Administrative guidance
 
 - **Form 40 Corporation Income Tax Booklet (2025)** — ND Office of State Tax Commissioner. Source of bracket confirmation, due-date confirmation, water's-edge surtax mechanics, and Schedule SA apportionment instructions.  _(Form 40 Corporation Income Tax Booklet (2025))_
-- **Form 40-ES instructions** — estimated-tax mechanics and $5,000 threshold [VERIFY].  _(Form 40-ES instructions)_
+- **Form 40-ES instructions** — estimated-tax mechanics and $5,000 threshold [VERIFY].  _(Form 40-ES instructions)_ (not yet confirmed)
 - **Form 40-UT instructions** — underpayment penalty computation.  _(Form 40-UT instructions)_
 - **Form 60 instructions** — ND S-corporation filing.  _(Form 60 instructions)_
 - **Form 58 instructions** — ND partnership filing.  _(Form 58 instructions)_
@@ -606,13 +606,13 @@ pending (skill is in draft; awaiting credentialed ND CPA/EA review per the verif
 
 entire skill (rate brackets, apportionment weighting, sourcing rules, NOL parameters, estimated-tax threshold, PTET absence confirmation through 69th Legislative Assembly).
 
-1. Confirm 2025 bracket thresholds ($25,000 / $50,000) and rates (1.41% / 3.55% / 4.31%) in current NDCC § 57-38-30.
+1. Confirm 2025 bracket thresholds ($25,000 / $50,000) and rates (1.41% / 3.55% / 4.31%) in current NDCC § 57-38-30. (not yet confirmed)
 2. Confirm three-factor formula weighting (sales 2×) and that single-sales-factor election is still available under § 57-38.1-09.
 3. Confirm ND has not adopted broad market-based sourcing as of TY 2025.
 4. Confirm NOL carryforward period (20 years) and conformity with federal 80% TI limit.
-5. Confirm $5,000 estimated-tax threshold under § 57-38-62.
+5. Confirm $5,000 estimated-tax threshold under § 57-38-62. (not yet confirmed)
 6. Confirm absence of PTET through the 69th Legislative Assembly (2025).
-7. Confirm water's-edge surtax remains at 3.5%.
+7. Confirm water's-edge surtax remains at 3.5%. (not yet confirmed)
 8. Confirm sections of Form 40 booklet that reference current Schedule SA mechanics and any 2025 form-line renumbering.
 
 ### 14.7 Citation discipline

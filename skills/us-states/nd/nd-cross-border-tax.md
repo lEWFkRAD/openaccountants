@@ -61,7 +61,7 @@ version: 0.2
 
 ### 6. Cross-border and federal overlay
 
-- SALT cap: ND tax paid (including by nonresidents) counts toward the federal $10,000 state-and-local deduction cap for itemizers.
+- SALT cap: ND tax paid (including by nonresidents) counts toward the federal $10,000 state-and-local deduction cap for itemizers. (not yet confirmed)
 - ND–Manitoba (Canada) border traffic: foreign-tax credit analysis is federal (see federal skills); ND's credit for tax paid to **another state** does not cover foreign tax.
 - Treaty and MSRRA interactions are federal; ND follows the federal sourcing result.
 - Employers: multi-state withholding follows the reciprocity certificate, not the employee's address.

@@ -31,9 +31,9 @@ C corporations filing North Dakota Form 40 that are members of a controlled or u
 
 ### 2. Core rules and rates
 
-- **Corporate brackets (graduated):** 1.41% on the first $25,000 of ND taxable income; 3.55% on the next $25,000 (to $50,000); 4.31% above $50,000 — i.e. $352.50 at $25,000, $1,240 at $50,000, then $1,240 + 4.31% × (income − $50,000). _(N.D.C.C. § 57-38-30 per the existing `nd-corporate-tax` skill rate table, carried with [VERIFY]; stable since 2015 per that skill.)_
+- **Corporate brackets (graduated):** 1.41% on the first $25,000 of ND taxable income; 3.55% on the next $25,000 (to $50,000); 4.31% above $50,000 — i.e. $352.50 at $25,000, $1,240 at $50,000, then $1,240 + 4.31% × (income − $50,000). _(N.D.C.C. § 57-38-30 per the existing `nd-corporate-tax` skill rate table, carried with [VERIFY]; stable since 2015 per that skill.)_ (not yet confirmed)
 - **Combined reporting.** Unitary groups file combined Form 40; Joyce/Finnigan allocation questions apply and current ND rule needs confirmation. _(§ 57-38.1-19 [VERIFY])_
-- **Water's-edge election + 3.5% surtax.** A corporation electing water's-edge apportionment (excluding certain foreign affiliates from the unitary group) pays an **additional 3.5% of ND taxable income** as a surtax. The election trades worldwide inclusion for a flat surcharge. _(N.D.C.C. § 57-38.1-15 per the existing `nd-corporate-tax` skill §5.2, carried with [VERIFY].)_
+- **Water's-edge election + 3.5% surtax.** A corporation electing water's-edge apportionment (excluding certain foreign affiliates from the unitary group) pays an **additional 3.5% of ND taxable income** as a surtax. The election trades worldwide inclusion for a flat surcharge. _(N.D.C.C. § 57-38.1-15 per the existing `nd-corporate-tax` skill §5.2, carried with [VERIFY].)_ (not yet confirmed)
 - **Apportionment formula.** Three factors (property, payroll, sales) with the **sales factor double-weighted** by default; a **single-sales-factor election** is available to qualifying taxpayers. _(N.D.C.C. § 57-38.1-09 / Schedule SA instructions per the existing `nd-corporate-tax` skill, carried with [VERIFY].)_
 - **Alternative apportionment.** A taxpayer (or the Commissioner) may seek an alternative method under § 57-38.1-18 where the statutory formula does not "fairly represent" ND activity — the Commissioner's tool against engineered IP/financing footprints. _(existing `nd-corporate-tax` skill §, carried with [VERIFY].)_
 - **No PTET.** ND offers no pass-through entity tax election, so S-corp/partnership owners have no entity-level SALT workaround (existing `nd-corporate-tax` skill).
@@ -42,7 +42,7 @@ C corporations filing North Dakota Form 40 that are members of a controlled or u
 
 1. Start from federal taxable income (ND starts from FTI per the existing skill).
 2. On a combined basis: eliminate/adjust intercompany transactions per the unitary-combination rules (eliminations mechanics: **not yet confirmed** — Form 40 booklet not fetched 2026-10-25).
-3. Apply the water's-edge election if made; if made, add the 3.5% surtax on top of the normal bracket tax.
+3. Apply the water's-edge election if made; if made, add the 3.5% surtax on top of the normal bracket tax. (not yet confirmed)
 4. Apportion on the combined basis: double-weighted sales default, single-sales-factor election if qualified, subject to § 57-38.1-18 modification.
 5. ND has no separate corporate franchise tax — the bracket tax is the only entity-level income charge.
 
@@ -60,7 +60,7 @@ C corporations filing North Dakota Form 40 that are members of a controlled or u
 
 ### 6. Cross-border and federal overlay
 
-- Foreign affiliates: the water's-edge election is the principal gate between worldwide and US-only unitary reporting; the 3.5% surtax is its price.
+- Foreign affiliates: the water's-edge election is the principal gate between worldwide and US-only unitary reporting; the 3.5% surtax is its price. (not yet confirmed)
 - Federal §267 related-party deferrals and §163(j) interest limits change the federal deduction and therefore the ND starting point.
 - Treaty analysis is federal (see federal skills); ND conforms to federal taxable income as its starting line.
 - Joyce/Finnigan: whether a non-unitary-but-affiliated member's factors enter the ND fraction is a live ND question — flag for a multistate specialist (existing skill refusal catalogue).

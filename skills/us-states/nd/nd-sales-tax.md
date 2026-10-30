@@ -22,9 +22,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | North Dakota |
 | State rate | 5.00% |
 | Local rate range | 0% -- 3.50% (city) |
-| Maximum combined rate | ~8.50% |
+| Maximum combined rate | ~8.50% | (not yet confirmed)
 | Sourcing | Destination-based (SST) |
-| Economic nexus | $100,000 in gross sales |
+| Economic nexus | $100,000 in gross sales | (not yet confirmed)
 | Tax authority | North Dakota Office of State Tax Commissioner |
 | Portal | https://www.tax.nd.gov |
 | SST member | Yes -- Full Member |

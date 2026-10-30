@@ -230,9 +230,9 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | N-3 | ND-1SA subtractions total = ND-1 Line 3 | nd-income-tax |
 | N-4 | ND-1 Line 4 = Line 1 + Line 2 − Line 3 (ND taxable income) | nd-income-tax |
 | N-5 | ND-1 Line 6 (tax) = bracket math against Line 4 using the filing-status-specific schedule (Single 0% / 1.95% / 2.50% with breakpoints at $48,475 and $244,825 for TY 2025) `[VERIFY:]` 2025 brackets | nd-income-tax |
-| N-6 | If MFJ: bracket breakpoints $80,975 and $298,075 `[VERIFY:]` | nd-income-tax |
-| N-7 | If HoH: bracket breakpoints $64,950 and $271,450 `[VERIFY:]` | nd-income-tax |
-| N-8 | If MFS: bracket breakpoints $40,475 and $149,025 `[VERIFY:]` | nd-income-tax |
+| N-6 | If MFJ: bracket breakpoints $80,975 and $298,075 `[VERIFY:]` | nd-income-tax | (not yet confirmed)
+| N-7 | If HoH: bracket breakpoints $64,950 and $271,450 `[VERIFY:]` | nd-income-tax | (not yet confirmed)
+| N-8 | If MFS: bracket breakpoints $40,475 and $149,025 `[VERIFY:]` | nd-income-tax | (not yet confirmed)
 | N-9 | ND-1 credits line = Schedule ND-1TC total | nd-income-tax |
 | N-10 | If ND-1CR claimed: credit ≤ lesser of (tax paid to other state) and (ND tax on the same income) | nd-income-tax |
 | N-11 | If Schedule ND-1FA (farm averaging) claimed: averaging tax replaces Line 6 amount and is documented | nd-income-tax |
@@ -296,7 +296,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | --- | --- |
 | E-1 | 2026 federal Q1 voucher = `us-quarterly-estimated-tax` Q1 output |
 | E-2 | 2026 ND-1ES Q1 voucher = `nd-estimated-tax` Q1 output |
-| E-3 | ND safe harbor: lesser of 100% of prior-year ND tax OR 90% of current-year ND tax (no 110% step at the ND level) `[VERIFY:]` N.D.C.C. §57-38-62 |
+| E-3 | ND safe harbor: lesser of 100% of prior-year ND tax OR 90% of current-year ND tax (no 110% step at the ND level) `[VERIFY:]` N.D.C.C. §57-38-62 | (not yet confirmed)
 | E-4 | Q1 federal + Q1 ND together do not exceed taxpayer's stated cash availability flag (if intake captured one) |
 | E-5 | If current-year ND underpayment interest exposure (Schedule ND-1UT) exists, surface for reviewer |
 | E-6 | 2025 ND estimated payments actually made = ND TAP records / cancelled checks reconcile to ND-1 Line 18 |
@@ -386,7 +386,7 @@ Structured markdown. Required sections in this order:
 10. Reviewer Attention Flags — Aggregated from all upstream skills.
 11. Refusals Triggered — Aggregated from all upstream skills.
 12. Positions Taken — Tax positions requiring judgment, with citations (N.D.C.C. §, IRC §, ND-1 booklet page references).
-13. Planning Notes for 2026 — ND rate stability watch (any legislative changes from the 69th Legislative Assembly), federal QBI 20% → 23% under OBBBA, federal 1099 threshold change, Renaissance Zone project end dates if applicable, military retirement continuity.
+13. Planning Notes for 2026 — ND rate stability watch (any legislative changes from the 69th Legislative Assembly), federal QBI 20% → 23% under OBBBA, federal 1099 threshold change, Renaissance Zone project end dates if applicable, military retirement continuity. (not yet confirmed)
 14. Taxpayer Action List — Embedded copy of File 3.
 
 ### 7C — File 3: `taxpayer_action_list.md`
@@ -571,7 +571,7 @@ treatment; else N/A]
 | ND-ASM-T1-07 | ND fully subtracts taxable Social Security benefits (ND-1SA) per `[VERIFY:]` N.D.C.C. §57-38-30. |
 | ND-ASM-T1-08 | ND fully subtracts military retirement pay per `[VERIFY:]` N.D.C.C. §57-38-30(5). |
 | ND-ASM-T1-09 | ND-1ES estimated payments are required if expected ND net tax liability is $1,000 or more (N.D.C.C. §57-38-62). |
-| ND-ASM-T1-10 | ND safe harbor: lesser of 100% of prior-year ND tax OR 90% of current-year ND tax. No 110%-of-AGI step. `[VERIFY:]` |
+| ND-ASM-T1-10 | ND safe harbor: lesser of 100% of prior-year ND tax OR 90% of current-year ND tax. No 110%-of-AGI step. `[VERIFY:]` | (not yet confirmed)
 | ND-ASM-T1-11 | ND conforms to federal §168(k) bonus depreciation — no add-back required. |
 | ND-ASM-T1-12 | ND conforms to federal §179 — no separate cap, no add-back. |
 | ND-ASM-T1-13 | ND effectively recognizes federal §199A QBI deduction because ND starts at federal taxable income (after QBI). No separate ND adjustment. |
@@ -919,7 +919,7 @@ This is one ND-resident sole prop with MN W-2 wages under reciprocity, full revi
   starting point), MN/MT reciprocity, 1099-NEC, estimated-tax,
   withholding tie-out, and special-population cross-checks
   (military retirement, Renaissance Zone, tribal, farm averaging).
-  Worked example: Fargo ND resident sole prop with $150K Schedule
+  Worked example: Fargo ND resident sole prop with $150K Schedule (not yet confirmed)
   C, Solo 401(k), $12K MN W-2 under reciprocity, Q3 spike causing
   Form 2210 / Schedule ND-1UT exposure.
 

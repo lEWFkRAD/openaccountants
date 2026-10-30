@@ -138,9 +138,9 @@ North Dakota taxable income starts with **federal taxable income** from federal 
 | Installment | Due date |
 | --- | --- |
 | 1st quarter | April 15 |
-| 2nd quarter | June 15 |
-| 3rd quarter | September 15 |
-| 4th quarter | January 15 (following year) |
+| 2nd quarter | June 15 | (not yet confirmed)
+| 3rd quarter | September 15 | (not yet confirmed)
+| 4th quarter | January 15 (following year) | (not yet confirmed)
 
 Form ND-1ES is used for estimated tax payments. Payments can be made via the North Dakota Taxpayer Access Point (ND TAP).
 

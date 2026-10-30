@@ -102,7 +102,7 @@ expected:
 
 - Job Service ND — Learn About Taxes (taxable wage base formula, new-employer and experience-rating mechanics): <https://www.jobsnd.com/unemployment-business-tax/learn-about-taxes> — 200 with text, 2026-10-25.
 - Job Service ND — site root and unemployment-business-tax hub (file reports, employer's guide, construction risk protection): <https://www.jobsnd.com/> — 200, 2026-10-25.
-- Existing `nd-payroll` skill (2025 wage base $45,100; SFN 41263 mechanics; new-employer rates with [VERIFY]) — read 2026-10-25.
+- Existing `nd-payroll` skill (2025 wage base $45,100; SFN 41263 mechanics; new-employer rates with [VERIFY]) — read 2026-10-25. (not yet confirmed)
 - N.D.C.C. Ch. 52-8 (Employment Security): **not yet confirmed** — ndlegis.nd.gov DNS failure on 2026-10-25; statutory min/max rates and penalty percentages unverified.
 - 2026 ND UI taxable wage base and rate schedules: **not yet confirmed** (not published on the pages located 2026-10-25).
 
