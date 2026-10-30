@@ -272,6 +272,10 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 - **Annual reconciliations** — Form OR-WR (withholding) and Form OR-STT-A (Statewide Transit Tax) are each due January 31 of the following year.
 - **Registration** — Register with DOR for withholding and OED for UI/Paid Leave before the first Oregon payroll.
 
+## Penalties and interest
+
+- **Penalty wages under ORS 652.150** — failure to pay final wages in full timely triggers penalty wages (detailed under Final pay rules above).
+- **Late filing/payment penalties** — Oregon imposes late-filing and late-payment penalties and interest on withheld tax, UI, and transit-tax returns; the current rates are not yet confirmed against archived sources.
 ## Cross-border points
 
 ### 10.1 Family and Medical Leave Act parity
