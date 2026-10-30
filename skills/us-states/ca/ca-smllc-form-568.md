@@ -74,7 +74,7 @@ An organized or registered LLC owes the tax for each taxable year, or part of on
 - it is organized or commercially domiciled in California; or
 - its California sales, property or payroll **exceed** the lesser of the indexed amount or 25% of its total sales, property or payroll.
 
-"Exceed" means more than. The 2025 indexed amounts are $757,070 (sales), $75,707 (property) and $75,707 (payroll). The FTB had not published the 2026 amounts at 25 September 2026, so label any use of these as 2025 ([FTB: Doing business in California](https://www.ftb.ca.gov/file/business/doing-business-in-california.html)). The full tests are in **ca-llc-fee-and-tax**.
+"Exceed" means more than. The 2025 indexed amounts are $757,070 (sales), $75,707 (property) and $75,707 (payroll). The FTB had not published the 2026 amounts at 25 September 2026, so label any use of these as 2025 ([FTB: Doing business in California](https://www.ftb.ca.gov/file/business/doing-business-in-california.html)). The full tests are in **ca-llc-fee-and-tax**. (not yet confirmed)
 
 ## Figures and deadlines, tax year 2026 ([FTB: Limited liability company](https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html))
 
@@ -100,7 +100,7 @@ An SMLLC formed in 2026 pays $800 for 2026 (unless the 15-day rule in the bounda
 - **Bands.** The fee is a flat amount per band of California total income: nothing below $250,000, then $900, $2,500, $6,000 and $11,790 from $5,000,000. Income of exactly $250,000 is in the $900 band. Use the band table in **ca-llc-fee-and-tax**. Do not interpolate.
 - **The base.** "Total income" means "gross income, plus the cost of goods sold that are paid or incurred in connection with the trade or business of the taxpayer attributed to California" ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html)). Gross income already has cost of goods sold taken out, and it is added back. For an SMLLC reporting on Schedule C, the base is therefore close to California gross receipts. Operating expenses never reduce it.
 - **California only.** Only income "derived from or attributable to this state" counts. Services are assigned to California to the extent the customer receives the benefit there. Goods are assigned to California when delivered to a California buyer. If the business is wholly within California, all of its total income is California income.
-- **Where the numbers come from.** SMLLCs below the $3,000,000 Schedule B and K tests "should prepare Schedule IW by entering the California amounts attributable to the disregarded entity from the member's federal Schedule B, C, D, E, F (Form 1040), or additional schedules". Gains go in too: for example, IRC section 1231 gains go on Schedule IW line 14.
+- **Where the numbers come from.** SMLLCs below the $3,000,000 Schedule B and K tests "should prepare Schedule IW by entering the California amounts attributable to the disregarded entity from the member's federal Schedule B, C, D, E, F (Form 1040), or additional schedules". Gains go in too: for example, IRC section 1231 gains go on Schedule IW line 14. (not yet confirmed)
 - **Result.** Schedule IW line 17 is "Total California Income". It goes to Form 568 Side 1, line 1.
 - **Due.** The fee is due by the **original** due date of the return. An extension does not move it.
 
@@ -129,7 +129,7 @@ An SMLLC formed in 2026 pays $800 for 2026 (unless the 15-day rule in the bounda
 ### The SMLLC's Form 568 ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
 
 - **Always.** "An SMLLC is required to complete Form 568, Side 1, Side 2, Side 3, Side 7 (Schedule IW), and pay the annual tax and LLC fee (if applicable)."
-- **Schedules B and K.** Complete these only if either test is met: the income or loss on Schedule B line 1, or lines 3 to 11, is $3,000,000 or more; or Schedule K line 21a (total distributive income/payment items) is $3,000,000 or more, or minus $3,000,000 or less. Take the amounts from the owner's federal return. SMLLCs do not complete Schedule K-1 (568) or form FTB 3832.
+- **Schedules B and K.** Complete these only if either test is met: the income or loss on Schedule B line 1, or lines 3 to 11, is $3,000,000 or more; or Schedule K line 21a (total distributive income/payment items) is $3,000,000 or more, or minus $3,000,000 or less. Take the amounts from the owner's federal return. SMLLCs do not complete Schedule K-1 (568) or form FTB 3832. (not yet confirmed)
 - **Consent.** Side 3 carries the Single Member LLC Information and Consent. It gives the owner's name and identification number and the owner's type. The law requires the SMLLC's return to include "the consent of the owner to California tax jurisdiction" ([R&TC §18633.5(i)(1)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=18633.5.)).
 - **Identification.** The vouchers ask for the SMLLC's SOS file number and FEIN ([2026 FTB 3522 instructions](https://www.ftb.ca.gov/forms/2026/2026-3522.pdf)).
 - **Separate payments.** Pay the annual tax on form 3522 and the fee on form 3536 (or 3537). Do not send the annual tax with Form 568.
@@ -152,7 +152,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 
 | Owner type | Schedule T rate, 2025 ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html)) |
 |---|---|
-| Individual, partnership, LLC, estate or trust | 12.3% |
+| Individual, partnership, LLC, estate or trust | 12.3% | (not yet confirmed)
 | C corporation | 8.84% |
 | S corporation | 1.5% |
 
@@ -205,7 +205,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 ### Case B: reseller, cost of goods sold added back (2026) ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
 
 - **Facts.** A California SMLLC, individual owner, calendar year. It sells goods delivered only to California buyers. 2026 gross receipts are $620,000 and cost of goods sold is $400,000, so gross income is $220,000. Its 2025 fee was $900, and it paid $900 on form 3536 by 15 June 2026.
-- **Base.** Gross income $220,000 plus cost of goods sold $400,000 gives $620,000.
+- **Base.** Gross income $220,000 plus cost of goods sold $400,000 gives $620,000. (not yet confirmed)
 - **Fee.** $620,000 is in the $500,000 to $1,000,000 band, so the fee is $2,500. Subtracting cost of goods sold would have given $220,000 and a nil fee. That is the error to avoid.
 - **Estimate.** $900 was paid by 15 June, which equals the 2025 fee, so there is no 10% penalty. The balance of $2,500 − $900 = $1,600 is due by 15 April 2027 with form 3536 (or 3537).
 - **Total entity-level charge for 2026:** $800 + $2,500 = $3,300.
@@ -221,8 +221,8 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 
 - **Facts.** A Nevada resident individual owns a California SMLLC, calendar year. In 2025 its California total income was $300,000 and its California-source net income was $120,000. The $800 for 2025 was paid on 15 April 2025.
 - **Entity charges.** Fee $900 (the $250,000 to $500,000 band). The estimate was due on form 3536 by 15 June 2025. Any unpaid balance was due 15 April 2026, even though the return is extended to 15 October 2026.
-- **Consent signed.** The owner signs the consent on Side 3 and reports the $120,000 on Form 540NR, Schedule CA (540NR) column E.
-- **Consent not signed.** The SMLLC completes Schedule T and pays 12.3% × $120,000 = $14,760 by 15 April 2026, less any nonresident withholding already paid for the owner. That payment is credited to the owner, who must still file Form 540NR.
+- **Consent signed.** The owner signs the consent on Side 3 and reports the $120,000 on Form 540NR, Schedule CA (540NR) column E. (not yet confirmed)
+- **Consent not signed.** The SMLLC completes Schedule T and pays 12.3% × $120,000 = $14,760 by 15 April 2026, less any nonresident withholding already paid for the owner. That payment is credited to the owner, who must still file Form 540NR. (not yet confirmed)
 
 ### Case E: 2025 return filed after the extended date (penalty) ([2025 Form 568 booklet](https://www.ftb.ca.gov/forms/2025/2025-568-booklet.html))
 
@@ -298,7 +298,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 - [ ] Owner's taxable year used. Form 3522 paid by the 15th day of the 4th month (first year: SOS filing month is month 1), separately from Form 568.
 - [ ] Schedule IW built from the owner's federal schedules: gross income plus cost of goods sold, assigned to California, with no operating expenses deducted.
 - [ ] Fee read from the band table in ca-llc-fee-and-tax. Form 3536 payment compared with the prior-year fee.
-- [ ] Form 568 Sides 1, 2, 3 and 7 completed. Schedules B and K added if the $3,000,000 tests are met.
+- [ ] Form 568 Sides 1, 2, 3 and 7 completed. Schedules B and K added if the $3,000,000 tests are met. (not yet confirmed)
 - [ ] Owner's consent signed on Side 3, or Schedule T computed and paid by the original due date.
 - [ ] Due date matched to the owner type. Fee balance paid by the original due date, whatever the extension.
 - [ ] SMLLC income, deductions and credits reported on the owner's Form 540, 540NR, 100 or 100S, with credits limited.

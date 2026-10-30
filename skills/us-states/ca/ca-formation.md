@@ -42,7 +42,7 @@ Research date: 25 September 2026. The statutes are cited from the official Calif
 ## The method, step by step
 
 1. **Choose the entity and the state.** If the business will be run from California, a California entity avoids a second state's filings. An entity formed elsewhere and doing business in California must still register here (step 4).
-2. **Check professional-services limits.** A California or foreign LLC may not render "professional services" as defined in Corp. Code §13401 and §13401.3 in California ([Corp. Code §17701.04(e)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17701.04.)). A licensed professional generally needs a professional corporation, so refer that case.
+2. **Check professional-services limits.** A California or foreign LLC may not render "professional services" as defined in Corp. Code §13401 and §13401.3 in California ([Corp. Code §17701.04(e)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17701.04.)). A licensed professional generally needs a professional corporation, so refer that case. (not yet confirmed)
 3. **File the formation document with the SOS.**
    - LLC: Articles of Organization.
    - Corporation with shares: Articles of Incorporation.
@@ -94,11 +94,11 @@ The fee is added to the $800 tax. It is based on "total income from all sources 
 | $250,000 or more, but less than $500,000 | $900 |
 | $500,000 or more, but less than $1,000,000 | $2,500 |
 | $1,000,000 or more, but less than $5,000,000 | $6,000 |
-| $5,000,000 or more | $11,790 |
+| $5,000,000 or more | $11,790 | (not yet confirmed)
 
 - **Estimate.** Estimate and pay the fee by the 15th day of the 6th month of the current taxable year.
 - **Penalty.** Any underpayment carries a **10%** penalty. There is no penalty if the amount paid by that date is at least the LLC's total fee for the **preceding** taxable year. ([R&TC §17942(d)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17942.))
-- **Commonly controlled LLCs.** Where LLCs under common control (more than 50%) were formed mainly to cut the fee, the FTB may measure it on their combined income. Each LLC in the group is jointly and severally liable. ([R&TC §17942(b)(2)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17942.))
+- **Commonly controlled LLCs.** Where LLCs under common control (more than 50%) were formed mainly to cut the fee, the FTB may measure it on their combined income. Each LLC in the group is jointly and severally liable. ([R&TC §17942(b)(2)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17942.)) (not yet confirmed)
 
 ### Corporations, C and S ([R&TC §23151](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23151.), [§19025](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19025.))
 
@@ -127,7 +127,7 @@ An entity is doing business in California for a taxable year if **any** of these
 **The dollar amounts.**
 
 - The statute sets base amounts of **$500,000** for sales, **$50,000** for property and **$50,000** for payroll. The FTB must revise them every year for inflation (§23101(c)), so the base amounts are **not** the current thresholds.
-- The FTB's [Doing business in California](https://www.ftb.ca.gov/file/business/doing-business-in-california.html) page publishes the indexed amounts. For **2025** they are **$757,070** (sales), **$75,707** (property) and **$75,707** (payroll).
+- The FTB's [Doing business in California](https://www.ftb.ca.gov/file/business/doing-business-in-california.html) page publishes the indexed amounts. For **2025** they are **$757,070** (sales), **$75,707** (property) and **$75,707** (payroll). (not yet confirmed)
 - At the research date (page last updated 7 November 2025), the FTB had not yet posted **2026** amounts. Do not treat the 2025 row or the statutory base as the 2026 figure.
 - Where a 2026 answer turns on the dollar prong, open that FTB page and use the 2026 row once it is posted. Until then, say the 2026 amount is unpublished and show the 2025 figure labelled as 2025.
 - Where the 25% prong gives a figure below the statutory base amount, the answer does not depend on the indexed amount, because the indexed amount is the base revised for inflation.
@@ -156,8 +156,8 @@ An entity is doing business in California for a taxable year if **any** of these
 ## Statement of Information ([Corp. Code §17702.09](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17702.09.))
 
 - **LLCs (domestic and registered foreign).**
-  - File within 90 days after the articles or registration are filed. After that, file every two years during the "applicable filing period" ([Corp. Code §17702.09(a)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17702.09.)).
-  - That period is the calendar month of the original filing or registration plus the five months before it ([§17702.09(c)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17702.09.)).
+  - File within 90 days after the articles or registration are filed. After that, file every two years during the "applicable filing period" ([Corp. Code §17702.09(a)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17702.09.)). (not yet confirmed)
+  - That period is the calendar month of the original filing or registration plus the five months before it ([§17702.09(c)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17702.09.)). (not yet confirmed)
   - The statement lists the managers, or the members if there is no manager, plus the chief executive officer, agent, addresses and type of business. It also says whether any manager or member has an outstanding final Labor Code wage judgment.
   - If nothing has changed, a no-change statement may be filed. A change of agent or of the agent's address requires a new full statement.
 - **Corporations (domestic and foreign).**
@@ -166,7 +166,7 @@ An entity is doing business in California for a taxable year if **any** of these
 - **Penalty.**
   - A late statement does not trigger an automatic penalty at day 91.
   - First, the SOS sends a delinquency notice. If the statement is still not filed within **60 days** of that notice, a **$250** penalty applies.
-  - For an LLC, see [Corp. Code §17713.07(b)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17713.07.).
+  - For an LLC, see [Corp. Code §17713.07(b)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17713.07.). (not yet confirmed)
   - For a corporation, the SOS certifies it to the FTB, and the FTB assesses the penalty under [R&TC §19141](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19141.) ([Corp. Code §2204](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=2204.)).
   - The SOS may waive the penalty for reasonable cause or unusual circumstances.
 
@@ -175,11 +175,11 @@ An entity is doing business in California for a taxable year if **any** of these
 - **Foreign LLC application.**
   - Give the entity's name. If that name does not comply with California rules, give an alternate name.
   - Give the home jurisdiction, the addresses, and a California agent for service of process.
-  - Attach a certificate of good standing, or a record of similar effect, issued within the **past six months** ([Corp. Code §17708.02](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17708.02.)).
+  - Attach a certificate of good standing, or a record of similar effect, issued within the **past six months** ([Corp. Code §17708.02](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17708.02.)). (not yet confirmed)
   - Registering creates the §17941 annual tax liability.
 - **Unregistered foreign LLC.**
   - It cannot **maintain** (bring) an action in California until it registers, but it **can defend** one.
-  - Its members and managers are not personally liable merely because it did not register ([Corp. Code §17708.07](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17708.07.)).
+  - Its members and managers are not personally liable merely because it did not register ([Corp. Code §17708.07](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17708.07.)). (not yet confirmed)
 - **Unqualified foreign corporation.**
   - A court may impose a penalty of **$20** per day of **willful** unauthorized intrastate business. The amount is set by the court.
   - To maintain an action on intrastate business, the corporation must first qualify, pay a **$250** penalty to the SOS, and pay the back franchise taxes ([Corp. Code §2203](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=2203.)).
@@ -224,7 +224,7 @@ An entity is doing business in California for a taxable year if **any** of these
 
 ### Case 4: Wyoming LLC with one California employee ([source](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23101.))
 
-- **Facts.** Total compensation $400,000. A remote California employee is paid $120,000.
+- **Facts.** Total compensation $400,000. A remote California employee is paid $120,000. (not yet confirmed)
 - **Payroll test.** 25% of total compensation is $100,000. $120,000 exceeds $100,000, so §23101(b)(4) is met whatever the indexed payroll amount.
 - **Result.** The LLC must register (fee $70), file the Statement of Information (fee $20), and pay the $800 annual tax. It then tests the LLC fee against its California-assigned total income.
 
@@ -270,7 +270,7 @@ An entity is doing business in California for a taxable year if **any** of these
 
 The 2025 rules were the same as 2026 on every point in this skill except these:
 
-- The indexed "doing business" amounts: for 2025 use $757,070 / $75,707 / $75,707 from the FTB page.
+- The indexed "doing business" amounts: for 2025 use $757,070 / $75,707 / $75,707 from the FTB page. (not yet confirmed)
 - The BOI rule: domestic companies were already exempt under the March 2025 interim rule.
 
 An LLC formed in 2024 or 2025 had no first-year waiver. Tax or fee paid with an extended 2025 return is late: interest and late-payment penalties run from the original due date.

@@ -85,10 +85,10 @@ All dollar thresholds, rates, and indexed figures in one place.
 | 3 | $25,500 -- $40,245 | 4% |
 | 4 | $40,246 -- $55,866 | 6% |
 | 5 | $55,867 -- $70,612 | 8% |
-| 6 | $70,613 -- $360,659 | 9.3% |
-| 7 | $360,660 -- $432,791 | 10.3% |
-| 8 | $432,792 -- $721,314 | 11.3% |
-| 9 | $721,315 and above | 12.3% |
+| 6 | $70,613 -- $360,659 | 9.3% | (not yet confirmed)
+| 7 | $360,660 -- $432,791 | 10.3% | (not yet confirmed)
+| 8 | $432,792 -- $721,314 | 11.3% | (not yet confirmed)
+| 9 | $721,315 and above | 12.3% | (not yet confirmed)
 | MHST | Above $1,000,000 | +1% (13.3% effective marginal) |
 
 **Note:** Married Filing Jointly brackets are double the single brackets. The $1,000,000 MHST threshold is statutory and NOT doubled for MFJ. (verify 2025 -- historically California has NOT doubled the MHST threshold for MFJ; confirm current status.)
@@ -104,9 +104,9 @@ All dollar thresholds, rates, and indexed figures in one place.
 
 | Filing status | Exemption credit |
 |---|---|
-| Single / MFS | $144 |
-| MFJ / QSS | $288 |
-| Each dependent | $433 |
+| Single / MFS | $144 | (not yet confirmed)
+| MFJ / QSS | $288 | (not yet confirmed)
+| Each dependent | $433 | (not yet confirmed)
 
 ### Renter's credit (verify 2025)
 
@@ -119,14 +119,14 @@ All dollar thresholds, rates, and indexed figures in one place.
 
 | Figure | Value |
 |---|---|
-| Maximum earned income | $30,950 |
-| Maximum credit (3+ children) | ~$3,529 |
+| Maximum earned income | $30,950 | (not yet confirmed)
+| Maximum credit (3+ children) | ~$3,529 | (not yet confirmed)
 
 ### Young Child Tax Credit (YCTC) (verify 2025)
 
 | Figure | Value |
 |---|---|
-| Maximum credit per qualifying child under 6 | $1,117 |
+| Maximum credit per qualifying child under 6 | $1,117 | (not yet confirmed)
 | Income phaseout | Tied to CalEITC eligibility |
 
 ### California AMT
@@ -134,8 +134,8 @@ All dollar thresholds, rates, and indexed figures in one place.
 | Figure | Value |
 |---|---|
 | AMT rate | 7% (flat rate on AMTI less exemption) |
-| Exemption (single) | $93,666 (verify 2025) |
-| Exemption (MFJ) | $124,876 (verify 2025) |
+| Exemption (single) | $93,666 (verify 2025) | (not yet confirmed)
+| Exemption (MFJ) | $124,876 (verify 2025) | (not yet confirmed)
 | Exemption phaseout rate | 25% of AMTI above threshold |
 
 ### SDI/VPDI (verify 2025)
@@ -144,7 +144,7 @@ All dollar thresholds, rates, and indexed figures in one place.
 |---|---|
 | SDI rate | 1.1% |
 | SDI taxable wage ceiling | $153,164 (verify 2025) |
-| Maximum SDI withholding | $1,684.80 (verify 2025) |
+| Maximum SDI withholding | $1,684.80 (verify 2025) | (not yet confirmed)
 | SDI deductibility on CA return | Deductible as itemized deduction (not above-the-line) |
 
 ---
@@ -182,10 +182,10 @@ California conforms to the IRC generally as of January 1, 2015, with selective u
 
 | Federal OBBBA provision | CA treatment | Schedule CA column |
 |---|---|---|
-| 100% bonus depreciation for property acquired after Jan 19, 2025 (OBBBA restored §168(k)) | CA does not conform. Use pre-OBBBA phase-down (40% for 2025). Add back the excess (60% of the bonus claimed federally). | Column B addition |
+| 100% bonus depreciation for property acquired after Jan 19, 2025 (OBBBA restored §168(k)) | CA does not conform. Use pre-OBBBA phase-down (40% for 2025). Add back the excess (60% of the bonus claimed federally). | Column B addition | (not yet confirmed)
 | §174 R&E expensing (if OBBBA modified the TCJA amortization requirement) | CA follows its own R&TC section 17024.5 conformity. If federal allows immediate expensing and CA requires 5-year amortization, add back the difference. | Column B addition |
 | §179 expensing limit increase to $2,500,000 (OBBBA) | CA §179 limit is $25,000 with $200,000 phase-out (R&TC §17255). Add back excess over CA limit. | Column B addition |
-| QBI deduction at 20% (§199A, made permanent by OBBBA) | CA does not allow the QBI deduction. Add back entire federal QBI deduction. | Column B addition |
+| QBI deduction at 20% (§199A, made permanent by OBBBA) | CA does not allow the QBI deduction. Add back entire federal QBI deduction. | Column B addition | (not yet confirmed)
 | New tip income exclusion (OBBBA) | CA does not conform. Add back any excluded tip income. | Column B addition |
 | New overtime income exclusion (OBBBA) | CA does not conform. Add back any excluded overtime income. | Column B addition |
 | New auto loan interest deduction (OBBBA) | CA does not conform. Add back any deducted auto loan interest. | Column B addition |
@@ -234,8 +234,8 @@ The taxpayer may choose independently for California. A taxpayer who itemizes fe
 | Property tax | Subject to $10,000 SALT cap | Fully deductible (no SALT cap in CA) |
 | Mortgage interest | $750,000 acquisition debt limit | $1,000,000 acquisition debt limit (R&TC section 17220) |
 | Home equity interest | Not deductible unless used for acquisition | Same as federal |
-| Charitable contributions | Up to 60% AGI (cash to public charities) | Same as federal (CA conforms) |
-| Medical expenses | Above 7.5% of AGI | Above 7.5% of AGI (CA conforms) |
+| Charitable contributions | Up to 60% AGI (cash to public charities) | Same as federal (CA conforms) | (not yet confirmed)
+| Medical expenses | Above 7.5% of AGI | Above 7.5% of AGI (CA conforms) | (not yet confirmed)
 | Casualty losses | Only federally declared disasters | CA allows CA-declared disaster losses too |
 | Investment interest | Limited to net investment income | Same as federal |
 | Gambling losses | Limited to gambling winnings | Same as federal |
@@ -280,7 +280,7 @@ California has its own AMT computed on Schedule P (540):
 Apply credits in the following order (R&TC section 17039):
 
 1. **Nonrefundable credits** (reduce tax to zero but not below):
-   - Personal exemption credits ($144 single, $288 MFJ, $433 per dependent) -- (verify 2025)
+   - Personal exemption credits ($144 single, $288 MFJ, $433 per dependent) -- (verify 2025) (not yet confirmed)
    - Renter's credit ($60 single / $120 MFJ if CA AGI below threshold)
    - Child and dependent care credit (CA version)
    - Other nonrefundable credits
@@ -335,23 +335,23 @@ Apply credits in the following order (R&TC section 17039):
 
 ### EC-540-1 -- Taxpayer with large OBBBA bonus depreciation claim
 
-**Situation:** Sole proprietor purchased $200,000 of equipment on March 1, 2025 and claimed 100% bonus depreciation ($200,000) on the federal return under OBBBA-restored §168(k).
+**Situation:** Sole proprietor purchased $200,000 of equipment on March 1, 2025 and claimed 100% bonus depreciation ($200,000) on the federal return under OBBBA-restored §168(k). (not yet confirmed)
 
 **Resolution:**
-- Federal deduction: $200,000 (100% bonus).
-- CA allowable: 40% bonus = $80,000 (pre-OBBBA phase-down schedule for 2025). (verify 2025 CA bonus rate)
-- Schedule CA addition: $120,000.
-- CA must also track the remaining $120,000 basis for future CA depreciation deductions (Schedule D-1 or equivalent).
+- Federal deduction: $200,000 (100% bonus). (not yet confirmed)
+- CA allowable: 40% bonus = $80,000 (pre-OBBBA phase-down schedule for 2025). (verify 2025 CA bonus rate) (not yet confirmed)
+- Schedule CA addition: $120,000. (not yet confirmed)
+- CA must also track the remaining $120,000 basis for future CA depreciation deductions (Schedule D-1 or equivalent). (not yet confirmed)
 - **Flag for reviewer:** Confirm CA bonus depreciation rate for assets placed in service in 2025.
 
 ### EC-540-2 -- High-income freelancer triggers MHST
 
-**Situation:** Single filer with CA taxable income of $1,200,000.
+**Situation:** Single filer with CA taxable income of $1,200,000. (not yet confirmed)
 
 **Resolution:**
-- Regular tax computed on nine brackets through 12.3%.
+- Regular tax computed on nine brackets through 12.3%. (not yet confirmed)
 - MHST: 1% x ($1,200,000 - $1,000,000) = $2,000.
-- Total marginal rate on income above $1M = 13.3%.
+- Total marginal rate on income above $1M = 13.3%. (not yet confirmed)
 - **Flag for reviewer:** Verify MHST threshold is still $1,000,000 for 2025 (statutory, not indexed).
 
 ### EC-540-3 -- MFJ couple with combined income just over $1M MHST threshold
@@ -361,7 +361,7 @@ Apply credits in the following order (R&TC section 17039):
 **Resolution:**
 - MHST applies based on JOINT taxable income, not per-spouse.
 - MHST = 1% x ($1,050,000 - $1,000,000) = $500.
-- The threshold is NOT doubled to $2,000,000 for MFJ.
+- The threshold is NOT doubled to $2,000,000 for MFJ. (not yet confirmed)
 - **Flag for reviewer:** Taxpayers near the $1M threshold should consider timing strategies (accelerate deductions, defer income).
 
 ### EC-540-4 -- HSA contributions add-back
@@ -379,8 +379,8 @@ Apply credits in the following order (R&TC section 17039):
 **Situation:** Taxpayer has a $900,000 mortgage (acquisition debt, pre-TCJA grandfathering does not apply). Federal deduction limited to interest on $750,000. CA allows interest on up to $1,000,000.
 
 **Resolution:**
-- Federal allowed: interest on $750,000 of the $900,000 mortgage.
-- CA allowed: interest on $900,000 (under the $1M limit).
+- Federal allowed: interest on $750,000 of the $900,000 mortgage. (not yet confirmed)
+- CA allowed: interest on $900,000 (under the $1M limit). (not yet confirmed)
 - Schedule CA subtraction: the disallowed federal interest (interest allocable to the $150,000 excess).
 - **Flag for reviewer:** Calculate the exact pro-rata interest allocation.
 
@@ -390,7 +390,7 @@ Apply credits in the following order (R&TC section 17039):
 
 **Resolution:**
 - CalEITC is available for self-employment income (net earnings from self-employment).
-- Must have earned income within CalEITC range (up to $30,950 for 2025, verify).
+- Must have earned income within CalEITC range (up to $30,950 for 2025, verify). (not yet confirmed)
 - ITIN filers qualify.
 - CalEITC is refundable -- taxpayer may owe zero CA tax and still receive the credit.
 - Also check eligibility for Young Child Tax Credit if taxpayer has a child under 6.
@@ -412,8 +412,8 @@ Apply credits in the following order (R&TC section 17039):
 
 **Resolution:**
 - Federal AGI includes up to 85% of Social Security = $15,300.
-- CA: Social Security is 100% exempt. Subtract $15,300 on Schedule CA Column C.
-- CA AGI = Federal AGI minus $15,300 (plus any other adjustments).
+- CA: Social Security is 100% exempt. Subtract $15,300 on Schedule CA Column C. (not yet confirmed)
+- CA AGI = Federal AGI minus $15,300 (plus any other adjustments). (not yet confirmed)
 - **Flag for reviewer:** Confirm exact amount of Social Security included in federal AGI.
 
 ### EC-540-9 -- Taxpayer claims federal standard deduction but CA itemized is better
@@ -421,7 +421,7 @@ Apply credits in the following order (R&TC section 17039):
 **Situation:** Single filer takes the federal standard deduction ($15,000) but has $8,000 in property taxes, $6,000 in mortgage interest, and $2,000 in charitable contributions.
 
 **Resolution:**
-- Federal: standard deduction is higher ($15,000 > $16,000 itemized less SALT cap complications).
+- Federal: standard deduction is higher ($15,000 > $16,000 itemized less SALT cap complications). (not yet confirmed)
 - CA standard deduction: only $5,540.
 - CA itemized: $8,000 property tax (fully deductible, no SALT cap) + $6,000 mortgage + $2,000 charitable = $16,000.
 - Taxpayer should itemize on CA return ($16,000 > $5,540).
@@ -434,17 +434,17 @@ Apply credits in the following order (R&TC section 17039):
 
 ### Test 540-1 -- Basic single filer, no OBBBA complications
 
-**Input:** Single, CA resident, federal AGI $85,000. No QBI. No bonus depreciation. No HSA. Standard deduction on CA return.
+**Input:** Single, CA resident, federal AGI $85,000. No QBI. No bonus depreciation. No HSA. Standard deduction on CA return. (not yet confirmed)
 **Expected:** CA AGI = $85,000. CA taxable income = $85,000 - $5,540 = $79,460. Tax computed using brackets 1-6. Personal exemption credit of $144 applied. No MHST (under $1M).
 
 ### Test 540-2 -- QBI add-back
 
 **Input:** Single, CA resident, federal AGI $120,000 after $20,000 QBI deduction. Actual Schedule C net profit = $100,000.
-**Expected:** Federal AGI includes QBI deduction reducing taxable income, but CA AGI must add back the $20,000 QBI deduction on Schedule CA. CA AGI = federal AGI + $20,000 QBI add-back. (Note: QBI deduction is below-the-line federally on Line 13, so it does not affect federal AGI. The add-back occurs on the CA taxable income computation, not AGI.)
+**Expected:** Federal AGI includes QBI deduction reducing taxable income, but CA AGI must add back the $20,000 QBI deduction on Schedule CA. CA AGI = federal AGI + $20,000 QBI add-back. (Note: QBI deduction is below-the-line federally on Line 13, so it does not affect federal AGI. The add-back occurs on the CA taxable income computation, not AGI.) (not yet confirmed)
 
 ### Test 540-3 -- MHST computation
 
-**Input:** Single, CA taxable income = $1,500,000.
+**Input:** Single, CA taxable income = $1,500,000. (not yet confirmed)
 **Expected:** Regular tax on $1,500,000 using nine brackets. MHST = 1% x ($1,500,000 - $1,000,000) = $5,000. Total tax = regular tax + $5,000 MHST.
 
 ### Test 540-4 -- HSA add-back plus SDI deduction
@@ -454,8 +454,8 @@ Apply credits in the following order (R&TC section 17039):
 
 ### Test 540-5 -- CalEITC with self-employment income
 
-**Input:** Single, net self-employment income $22,000. One qualifying child age 4. No W-2 wages. ITIN filer.
-**Expected:** Eligible for CalEITC based on $22,000 earned income. Eligible for Young Child Tax Credit (child under 6). Both credits are refundable. CA tax liability may be $0 with refundable credits generating a refund. ITIN status does not disqualify.
+**Input:** Single, net self-employment income $22,000. One qualifying child age 4. No W-2 wages. ITIN filer. (not yet confirmed)
+**Expected:** Eligible for CalEITC based on $22,000 earned income. Eligible for Young Child Tax Credit (child under 6). Both credits are refundable. CA tax liability may be $0 with refundable credits generating a refund. ITIN status does not disqualify. (not yet confirmed)
 
 ### Test 540-6 -- Independent deduction election (federal standard, CA itemized)
 
