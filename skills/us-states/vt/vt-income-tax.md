@@ -13,11 +13,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # VT Income Tax
 
-## Vermont Individual Income Tax Skill — Self-Employed / Sole Proprietor
+## Vermont Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
 > **Scope.** This skill covers the Vermont individual income tax return (Form IN-111) for full-year Vermont residents who are sole proprietors or single-member LLC owners. It addresses the graduated rate computation, Vermont taxable income derived from federal taxable income, and Vermont-specific credits.
 
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and rules are sourced from the Vermont Department of Taxes publications and third-party research current as of May 2026. A licensed CPA or EA should verify before relying on this skill for filing.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and rules are sourced from the Vermont Department of Taxes publications and third-party research current as of May 2026. A licensed CPA or EA should verify before relying on this skill for filing.
 
 ## Section 1: Metadata
 
@@ -44,23 +44,23 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 **Sources table**
 
 | # | Source | URL | Read on |
 | --- | --- | --- | --- |
-| 1 | Vermont Department of Taxes — Rate Schedules | https://tax.vermont.gov/individuals/personal-income-tax/rates | 2026-10-28 |
-| 2 | 32 V.S.A. §5822 — Tax rates | https://legislature.vermont.gov/statutes/section/32/151/05822 | 2026-10-28 |
+| 1 | Vermont Department of Taxes -- Rate Schedules | https://tax.vermont.gov/individuals/personal-income-tax/rates | 2026-10-28 |
+| 2 | 32 V.S.A. §5822 -- Tax rates | https://legislature.vermont.gov/statutes/section/32/151/05822 | 2026-10-28 |
 | 3 | 2025 Form IN-111 Instructions | https://tax.vermont.gov/all-forms | 2026-10-28 |
 
-## Section 2: Quick reference — rates and thresholds
+## Section 2: Quick reference -- rates and thresholds
 
 ### Statutory base brackets (32 V.S.A. §5822, archived 2026-10-28)
 
-The statute's own schedule amounts (before inflation indexing) are: single — 3.35% to $51,850; 6.6% to $133,850; 7.6% to $216,700; 8.75% above (tax of $1,737 + 6.6% over $51,850, etc.); married joint — 3.35% to $64,600; 6.6% to $156,150; 7.6% to $237,950; 8.75% above; head of household — $38,700 / $93,700 / $195,450 breakpoints. The DTR publishes indexed tables each year ([Rate Schedules and Tables](https://tax.vermont.gov/individuals/tax-rate-schedules-and-tables)).
+The statute's own schedule amounts (before inflation indexing) are: single -- 3.35% to $51,850; 6.6% to $133,850; 7.6% to $216,700; 8.75% above (tax of $1,737 + 6.6% over $51,850, etc.); married joint -- 3.35% to $64,600; 6.6% to $156,150; 7.6% to $237,950; 8.75% above; head of household -- $38,700 / $93,700 / $195,450 breakpoints. The DTR publishes indexed tables each year ([Rate Schedules and Tables](https://tax.vermont.gov/individuals/tax-rate-schedules-and-tables)).
 
-### Tax brackets — Single filers (2025 and 2026)
+### Tax brackets -- Single filers (2025 and 2026)
 
 **Single filer brackets**
 
@@ -71,7 +71,7 @@ The statute's own schedule amounts (before inflation indexing) are: single — 3
 | $116,001 – $242,000 | 7.60% |
 | $242,001 and above | 8.75% |
 
-### Tax brackets — Married filing jointly (2025 and 2026)
+### Tax brackets -- Married filing jointly (2025 and 2026)
 
 **MFJ brackets**
 
@@ -82,7 +82,7 @@ The statute's own schedule amounts (before inflation indexing) are: single — 3
 | $193,301 – $294,600 | 7.60% |
 | $294,601 and above | 8.75% |
 
-### Tax brackets — Married filing separately (2025 and 2026)
+### Tax brackets -- Married filing separately (2025 and 2026)
 
 **MFS brackets**
 
@@ -93,7 +93,7 @@ The statute's own schedule amounts (before inflation indexing) are: single — 3
 | $96,651 – $147,300 | 7.60% |
 | $147,301 and above | 8.75% |
 
-### Tax brackets — Head of household (2025 and 2026)
+### Tax brackets -- Head of household (2025 and 2026)
 
 **HOH brackets**
 
@@ -126,58 +126,58 @@ Vermont starts from **federal taxable income** (Form 1040, Line 15). This is AFT
 **Flow:**
 1. Federal Form 1040 is completed (including Schedule C, SE, and all deductions).
 2. Federal taxable income (Line 15) flows to Vermont Form IN-111, Line 1.
-3. Vermont additions are applied (Form IN-112) — rare for most sole proprietors.
-4. Vermont subtractions are applied (Form IN-113) — e.g., interest from US obligations.
+3. Vermont additions are applied (Form IN-112) -- rare for most sole proprietors.
+4. Vermont subtractions are applied (Form IN-113) -- e.g., interest from US obligations.
 5. Vermont taxable income is computed.
 6. Vermont tax is computed using the rate schedule for the filing status.
 7. Credits (earned income credit, renter credit, etc.) are applied.
 
-**Key structural point:** Because Vermont starts from federal taxable income, both the federal standard deduction AND the QBI deduction are already subtracted. Vermont does not apply its own standard deduction — it piggybacks on the federal amount.
+**Key structural point:** Because Vermont starts from federal taxable income, both the federal standard deduction AND the QBI deduction are already subtracted. Vermont does not apply its own standard deduction -- it piggybacks on the federal amount.
 
 ## Section 4: Self-employed specific rules
 
 ### Self-employment tax deduction
 
-- **Self-employment tax deduction** — The federal deduction for 50% of self-employment tax reduces federal AGI → reduces federal taxable income → flows through to Vermont automatically. (not yet confirmed)
+- **Self-employment tax deduction** -- The federal deduction for 50% of self-employment tax reduces federal AGI → reduces federal taxable income → flows through to Vermont automatically. (not yet confirmed)
 
 ### Retirement contributions
 
-- **Retirement contributions** — SEP-IRA, SIMPLE IRA, solo 401(k) contributions reduce federal AGI → flow through automatically.
+- **Retirement contributions** -- SEP-IRA, SIMPLE IRA, solo 401(k) contributions reduce federal AGI → flow through automatically.
 
 ### Health insurance deduction
 
-- **Health insurance deduction** — The self-employed health insurance deduction reduces federal AGI → flows through automatically.
+- **Health insurance deduction** -- The self-employed health insurance deduction reduces federal AGI → flows through automatically.
 
 ### QBI deduction (§199A)
 
-- **QBI deduction (§199A)** — Vermont conforms — the QBI deduction is included in federal taxable income (it reduces FTI), so it benefits the Vermont computation. No add-back.
+- **QBI deduction (§199A)** -- Vermont conforms -- the QBI deduction is included in federal taxable income (it reduces FTI), so it benefits the Vermont computation. No add-back.
 
 ### Home office deduction
 
-- **Home office deduction** — Reduces Schedule C net profit → reduces federal AGI → reduces federal taxable income → flows through.
+- **Home office deduction** -- Reduces Schedule C net profit → reduces federal AGI → reduces federal taxable income → flows through.
 
 ### Estimated tax payments
 
-- **Estimated tax payments** — Vermont requires estimated payments if expected tax liability (after credits and withholding) exceeds $500. Due dates follow federal: April 15, June 15, September 15, January 15. (not yet confirmed)
+- **Estimated tax payments** -- Vermont requires estimated payments if expected tax liability (after credits and withholding) exceeds $500. Due dates follow federal: April 15, June 15, September 15, January 15. (not yet confirmed)
 
-## Section 5: Tier 1 rules — deterministic
+## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-VT-1] Tax computation** — Apply the graduated rate schedule to Vermont taxable income based on filing status. Use the Vermont rate schedules or tax tables published annually by the Department of Taxes.
-- **[T1-VT-2] Starting point** — Begin with federal taxable income from Form 1040, Line 15. Enter on Form IN-111, Line 1.
-- **[T1-VT-3] Vermont additions (Form IN-112)** — Common additions: - State and local bond interest from non-Vermont issuers (if excluded federally — rare since most muni interest is excluded from federal AGI, not TI) - Capital gains exclusion recapture (Vermont does not conform to certain federal exclusions) - IRC §168(k) bonus depreciation add-back (Vermont decoupled — requires add-back and substitution of VT depreciation)
-- **[T1-VT-4] Vermont subtractions (Form IN-113)** — Common subtractions: - Interest from US government obligations (Treasury bonds, savings bonds) - Vermont depreciation allowance (replacement for disallowed federal bonus depreciation) - 40% capital gains exclusion on qualifying Vermont assets held 3+ years (32 V.S.A. §5811(21))  _(32 V.S.A. §5811(21))_ (not yet confirmed)
-- **[T1-VT-5] Vermont Earned Income Credit** — 38% of the federal Earned Income Credit (fully refundable). Claimed on IN-111. If the taxpayer qualifies for federal EIC, they automatically qualify for VT EIC. (not yet confirmed)
-- **[T1-VT-6] Filing due date** — April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic with federal, no separate VT form needed). Payment is still due by April 15. (not yet confirmed)
-- **[T1-VT-7] Estimated tax payments** — Required if expected VT tax liability after withholding and credits exceeds $500. Quarterly due dates: April 15, June 15, September 15, January 15. Form IN-114 (voucher). (not yet confirmed)
-- **[T1-VT-8] Use tax reporting** — Form IN-111 includes a line for reporting use tax on out-of-state purchases. Self-employed individuals who purchase equipment/supplies online without VT sales tax should report use tax here.
+- **[T1-VT-1] Tax computation** -- Apply the graduated rate schedule to Vermont taxable income based on filing status. Use the Vermont rate schedules or tax tables published annually by the Department of Taxes.
+- **[T1-VT-2] Starting point** -- Begin with federal taxable income from Form 1040, Line 15. Enter on Form IN-111, Line 1.
+- **[T1-VT-3] Vermont additions (Form IN-112)** -- Common additions: - State and local bond interest from non-Vermont issuers (if excluded federally -- rare since most muni interest is excluded from federal AGI, not TI) - Capital gains exclusion recapture (Vermont does not conform to certain federal exclusions) - IRC §168(k) bonus depreciation add-back (Vermont decoupled -- requires add-back and substitution of VT depreciation)
+- **[T1-VT-4] Vermont subtractions (Form IN-113)** -- Common subtractions: - Interest from US government obligations (Treasury bonds, savings bonds) - Vermont depreciation allowance (replacement for disallowed federal bonus depreciation) - 40% capital gains exclusion on qualifying Vermont assets held 3+ years (32 V.S.A. §5811(21))  _(32 V.S.A. §5811(21))_ (not yet confirmed)
+- **[T1-VT-5] Vermont Earned Income Credit** -- 38% of the federal Earned Income Credit (fully refundable). Claimed on IN-111. If the taxpayer qualifies for federal EIC, they automatically qualify for VT EIC. (not yet confirmed)
+- **[T1-VT-6] Filing due date** -- April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic with federal, no separate VT form needed). Payment is still due by April 15. (not yet confirmed)
+- **[T1-VT-7] Estimated tax payments** -- Required if expected VT tax liability after withholding and credits exceeds $500. Quarterly due dates: April 15, June 15, September 15, January 15. Form IN-114 (voucher). (not yet confirmed)
+- **[T1-VT-8] Use tax reporting** -- Form IN-111 includes a line for reporting use tax on out-of-state purchases. Self-employed individuals who purchase equipment/supplies online without VT sales tax should report use tax here.
 
-## Section 6: Tier 2 rules — requires judgment
+## Section 6: Tier 2 rules -- requires judgment
 
-- **[T2-VT-1] Residency determination** — Vermont defines a resident as a person domiciled in Vermont or maintaining a permanent home in Vermont and spending 183+ days there. Domicile requires intent analysis. Freelancers splitting time between VT and another state need careful documentation.
-- **[T2-VT-2] Bonus depreciation add-back** — Vermont requires add-back of federal §168(k) bonus depreciation and substitutes its own depreciation schedule. This creates timing differences. Reviewer must track the Vermont depreciation schedule separately and ensure proper subtraction in subsequent years.
-- **[T2-VT-3] Capital gains exclusion** — Vermont allows a 40% exclusion on net long-term capital gains from the sale of qualifying Vermont-connected assets held for 3+ years. The asset must be a business, farm, or rental property located in Vermont, or an interest in certain Vermont businesses. Reviewer must verify the asset qualifies. (not yet confirmed)
-- **[T2-VT-4] Multi-state credit** — Vermont allows a credit for income taxes paid to other states/jurisdictions. The credit is the lesser of: (a) tax paid to the other state, or (b) Vermont tax attributable to the income taxed by the other state. Requires careful allocation for multi-state freelancers.
-- **[T2-VT-5] Renter credit / property tax credit** — Vermont offers a property tax credit (via HS-122) and renter credit for eligible residents. Income limits and homestead value limits apply. These interact with overall VT tax liability.
+- **[T2-VT-1] Residency determination** -- Vermont defines a resident as a person domiciled in Vermont or maintaining a permanent home in Vermont and spending 183+ days there. Domicile requires intent analysis. Freelancers splitting time between VT and another state need careful documentation.
+- **[T2-VT-2] Bonus depreciation add-back** -- Vermont requires add-back of federal §168(k) bonus depreciation and substitutes its own depreciation schedule. This creates timing differences. Reviewer must track the Vermont depreciation schedule separately and ensure proper subtraction in subsequent years.
+- **[T2-VT-3] Capital gains exclusion** -- Vermont allows a 40% exclusion on net long-term capital gains from the sale of qualifying Vermont-connected assets held for 3+ years. The asset must be a business, farm, or rental property located in Vermont, or an interest in certain Vermont businesses. Reviewer must verify the asset qualifies. (not yet confirmed)
+- **[T2-VT-4] Multi-state credit** -- Vermont allows a credit for income taxes paid to other states/jurisdictions. The credit is the lesser of: (a) tax paid to the other state, or (b) Vermont tax attributable to the income taxed by the other state. Requires careful allocation for multi-state freelancers.
+- **[T2-VT-5] Renter credit / property tax credit** -- Vermont offers a property tax credit (via HS-122) and renter credit for eligible residents. Income limits and homestead value limits apply. These interact with overall VT tax liability.
 
 ## Section 7: Supplier pattern library
 
@@ -228,14 +228,14 @@ Vermont starts from **federal taxable income** (Form 1040, Line 15). This is AFT
 | R-VT-7 | Amended returns | Requires additional procedures |
 | R-VT-8 | Farm income averaging | Specialized computation |
 
-- **R-VT-1** — Part-year resident return  _(Requires allocation computation)_
-- **R-VT-2** — Nonresident return (Form IN-111, Schedule IN-119)  _(Different sourcing rules)_
-- **R-VT-3** — Vermont corporate income tax (Form CO-411)  _(Different tax type)_
-- **R-VT-4** — Vermont estate tax  _(Different form and threshold analysis)_
-- **R-VT-5** — Vermont meals and rooms tax  _(Separate tax system (9%))_ (not yet confirmed)
-- **R-VT-6** — Homestead declaration / property tax credit  _(Requires property valuation analysis)_
-- **R-VT-7** — Amended returns  _(Requires additional procedures)_
-- **R-VT-8** — Farm income averaging  _(Specialized computation)_
+- **R-VT-1** -- Part-year resident return  _(Requires allocation computation)_
+- **R-VT-2** -- Nonresident return (Form IN-111, Schedule IN-119)  _(Different sourcing rules)_
+- **R-VT-3** -- Vermont corporate income tax (Form CO-411)  _(Different tax type)_
+- **R-VT-4** -- Vermont estate tax  _(Different form and threshold analysis)_
+- **R-VT-5** -- Vermont meals and rooms tax  _(Separate tax system (9%))_ (not yet confirmed)
+- **R-VT-6** -- Homestead declaration / property tax credit  _(Requires property valuation analysis)_
+- **R-VT-7** -- Amended returns  _(Requires additional procedures)_
+- **R-VT-8** -- Farm income averaging  _(Specialized computation)_
 
 ## Disclaimer
 
@@ -247,7 +247,7 @@ This skill and its outputs are provided for informational and computational purp
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -295,9 +295,9 @@ Not yet confirmed against archived sources.
 
 | Source | Read on |
 |---|---|
-| 32 V.S.A. §5822 — Tax rates | [2026-10-28](https://legislature.vermont.gov/statutes/section/32/151/05822) |
-| Vermont Dept of Taxes — Rate Schedules | [2026-10-28](https://tax.vermont.gov/individuals/personal-income-tax/rates) |
-| Vermont Dept of Taxes — All forms | [2026-10-28](https://tax.vermont.gov/all-forms) |
+| 32 V.S.A. §5822 -- Tax rates | [2026-10-28](https://legislature.vermont.gov/statutes/section/32/151/05822) |
+| Vermont Dept of Taxes -- Rate Schedules | [2026-10-28](https://tax.vermont.gov/individuals/personal-income-tax/rates) |
+| Vermont Dept of Taxes -- All forms | [2026-10-28](https://tax.vermont.gov/all-forms) |
 
 Not yet confirmed: Tax Foundation Vermont profile figures were not confirmed against archived sources (archived 2026-10-29).
 
