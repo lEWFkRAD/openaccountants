@@ -13,18 +13,18 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # OK Income Tax
 
-### Oklahoma Individual Income Tax Skill — Self-Employed / Sole Proprietor
+### Oklahoma Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
 > **Scope.** Oklahoma Form 511 (Resident Income Tax Return) for tax year 2025 for full-year Oklahoma resident sole proprietors and disregarded single-member LLCs.
-> **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds have been researched from primary sources but must be confirmed by a qualified professional before use in return preparation.
+> **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and thresholds have been researched from primary sources but must be confirmed by a qualified professional before use in return preparation.
 
 ### Section 1: Metadata
 
-- **Tax year covered** — 2025 (returns due April 15, 2026) (not yet confirmed)
-- **Primary form** — Oklahoma Form 511 (Resident Individual Income Tax Return)
-- **Tax authority** — [Oklahoma Tax Commission (OTC)](https://oklahoma.gov/tax.html)
-- **Tax type** — Graduated income tax
-- **Currency date** — May 2026
+- **Tax year covered** -- 2025 (returns due April 15, 2026) (not yet confirmed)
+- **Primary form** -- Oklahoma Form 511 (Resident Individual Income Tax Return)
+- **Tax authority** -- [Oklahoma Tax Commission (OTC)](https://oklahoma.gov/tax.html)
+- **Tax type** -- Graduated income tax
+- **Currency date** -- May 2026
 
 **Section 1: Metadata field table**
 
@@ -42,13 +42,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | --- | --- |
 | Oklahoma Statutes Title 68, § 2355 (income tax rates) | https://www.oscn.net/applications/oscn/deliverdocument.asp?citeid=86405 |
 | 2025 Form 511 Instructions | https://oklahoma.gov/tax/individuals/income-tax/filing-information.html |
-| HB 2764 (2025 — rate reduction for 2026+) | https://oksenate.gov/press-releases/oklahoma-legislature-sends-comprehensive-tax-cuts-and-modernization-plan-governor |
+| HB 2764 (2025 -- rate reduction for 2026+) | https://oksenate.gov/press-releases/oklahoma-legislature-sends-comprehensive-tax-cuts-and-modernization-plan-governor |
 
-### Section 2: Quick reference — rates and thresholds
+### Section 2: Quick reference -- rates and thresholds
 
-### Tax brackets — Single and Married Filing Separately (tax year 2025)
+### Tax brackets -- Single and Married Filing Separately (tax year 2025)
 
-**Tax brackets — Single and Married Filing Separately (tax year 2025)**
+**Tax brackets -- Single and Married Filing Separately (tax year 2025)**
 
 | Taxable income | Base tax | Rate | On excess over |
 | --- | --- | --- | --- |
@@ -59,9 +59,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | $4,901 – $7,200 | $67.25 | 3.75% | $4,900 | (not yet confirmed)
 | $7,201 and above | $153.50 | 4.75% | $7,200 | (not yet confirmed)
 
-### Tax brackets — MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)
+### Tax brackets -- MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)
 
-**Tax brackets — MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)**
+**Tax brackets -- MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)**
 
 | Taxable income | Base tax | Rate | On excess over |
 | --- | --- | --- | --- |
@@ -122,31 +122,31 @@ Oklahoma starts from **federal adjusted gross income (AGI)** on federal Form 104
 
 ### Oklahoma deduction rules
 
-- **Standard deduction requirement if not itemized federally** — If the taxpayer did not itemize on the federal return, they must use the Oklahoma standard deduction.  _(Section 3: How this skill works with the federal return)_
-- **Itemized deduction requirement if itemized federally** — If the taxpayer did itemize federally, they must use Oklahoma itemized deductions (which use federal Schedule A as a starting point with adjustments).  _(Section 3: How this skill works with the federal return)_
-- **Oklahoma itemized deduction cap** — $17,000 USD (except for charitable contributions and medical expenses, which are not subject to the cap)  _(Section 3: How this skill works with the federal return)_ (not yet confirmed)
+- **Standard deduction requirement if not itemized federally** -- If the taxpayer did not itemize on the federal return, they must use the Oklahoma standard deduction.  _(Section 3: How this skill works with the federal return)_
+- **Itemized deduction requirement if itemized federally** -- If the taxpayer did itemize federally, they must use Oklahoma itemized deductions (which use federal Schedule A as a starting point with adjustments).  _(Section 3: How this skill works with the federal return)_
+- **Oklahoma itemized deduction cap** -- $17,000 USD (except for charitable contributions and medical expenses, which are not subject to the cap)  _(Section 3: How this skill works with the federal return)_ (not yet confirmed)
 
 ### Section 4: Self-employed specific rules
 
 ### Federal conformity
 
-- **Deductible half of SE tax** — Deductible half of SE tax reduces federal AGI and flows through to Oklahoma.  _(Section 4: Self-employed specific rules)_
-- **QBI deduction (§199A)** — The QBI deduction is below-the-line on federal Form 1040 and does not affect federal AGI. Oklahoma starts from federal AGI, so no QBI add-back is needed on the Oklahoma return.  _(Section 4: Self-employed specific rules)_
-- **§179 expensing** — Oklahoma generally conforms to the federal §179 limit. Verify Oklahoma's conformity with OBBBA changes to §179.  _(Section 4: Self-employed specific rules)_
-- **Bonus depreciation (§168(k))** — Verify Oklahoma's conformity with OBBBA restoration of 100% bonus depreciation. If Oklahoma does not conform, an adjustment may be needed.  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
+- **Deductible half of SE tax** -- Deductible half of SE tax reduces federal AGI and flows through to Oklahoma.  _(Section 4: Self-employed specific rules)_
+- **QBI deduction (§199A)** -- The QBI deduction is below-the-line on federal Form 1040 and does not affect federal AGI. Oklahoma starts from federal AGI, so no QBI add-back is needed on the Oklahoma return.  _(Section 4: Self-employed specific rules)_
+- **§179 expensing** -- Oklahoma generally conforms to the federal §179 limit. Verify Oklahoma's conformity with OBBBA changes to §179.  _(Section 4: Self-employed specific rules)_
+- **Bonus depreciation (§168(k))** -- Verify Oklahoma's conformity with OBBBA restoration of 100% bonus depreciation. If Oklahoma does not conform, an adjustment may be needed.  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
 
 ### Oklahoma additions (common for self-employed)
 
-- **State/local income tax deducted on federal Schedule A** — State/local income tax deducted on federal Schedule A (add back on Oklahoma return if itemizing)  _(Section 4: Self-employed specific rules)_
-- **Interest from non-Oklahoma state/local bonds** — Interest from non-Oklahoma state/local bonds  _(Section 4: Self-employed specific rules)_
-- **Deductions not allowed under Oklahoma law** — Deductions not allowed under Oklahoma law  _(Section 4: Self-employed specific rules)_
+- **State/local income tax deducted on federal Schedule A** -- State/local income tax deducted on federal Schedule A (add back on Oklahoma return if itemizing)  _(Section 4: Self-employed specific rules)_
+- **Interest from non-Oklahoma state/local bonds** -- Interest from non-Oklahoma state/local bonds  _(Section 4: Self-employed specific rules)_
+- **Deductions not allowed under Oklahoma law** -- Deductions not allowed under Oklahoma law  _(Section 4: Self-employed specific rules)_
 
 ### Oklahoma subtractions (common for self-employed)
 
-- **Federal income tax deduction** — Federal income tax deduction: Oklahoma is one of the few states that allows a deduction for federal income tax paid, subject to a cap based on federal AGI (see Form 511, Schedule 511-D). Cap for 2025: the lesser of actual federal tax paid or the cap amount based on AGI.  _(Section 4: Self-employed specific rules)_
-- **Military retirement pay exclusion** — Military retirement pay exclusion (up to 100%)  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
-- **Social Security benefits exclusion** — Social Security benefits (to the extent included in federal AGI — Oklahoma fully excludes Social Security)  _(Section 4: Self-employed specific rules)_
-- **Retirement income exclusion** — Retirement income exclusion (up to $10,000 per person for qualifying retirement income)  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
+- **Federal income tax deduction** -- Federal income tax deduction: Oklahoma is one of the few states that allows a deduction for federal income tax paid, subject to a cap based on federal AGI (see Form 511, Schedule 511-D). Cap for 2025: the lesser of actual federal tax paid or the cap amount based on AGI.  _(Section 4: Self-employed specific rules)_
+- **Military retirement pay exclusion** -- Military retirement pay exclusion (up to 100%)  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
+- **Social Security benefits exclusion** -- Social Security benefits (to the extent included in federal AGI -- Oklahoma fully excludes Social Security)  _(Section 4: Self-employed specific rules)_
+- **Retirement income exclusion** -- Retirement income exclusion (up to $10,000 per person for qualifying retirement income)  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
 
 ### Federal income tax deduction (unique to Oklahoma)
 
@@ -159,20 +159,20 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 | Up to $54,670 | Various amounts (see Schedule 511-D table) | (not yet confirmed)
 | Over $54,670 | Federal AGI × 0.00056 | (not yet confirmed)
 
-### Section 5: Tier 1 rules — deterministic
+### Section 5: Tier 1 rules -- deterministic
 
-- **R-OK-1. Federal AGI is the starting point.** — Form 511, Line 1 = federal Form 1040, Line 11.  _(R-OK-1)_
-- **R-OK-2. Social Security is fully exempt.** — Subtract Social Security benefits included in federal AGI.  _(R-OK-2)_
-- **R-OK-3. State income tax add-back required if itemizing.** — If the taxpayer itemized on the federal return and deducted state income taxes, the state income tax deduction must be added back on the Oklahoma return.  _(R-OK-3)_
-- **R-OK-4. Itemized deduction cap = $17,000.** — Oklahoma caps itemized deductions at $17,000 (excluding charitable contributions and medical expenses). If federal itemized deductions (minus state tax add-back, plus adjustments) exceed $17,000, cap at $17,000 plus the exempt categories.  _(R-OK-4)_ (not yet confirmed)
-- **R-OK-5. Federal income tax deduction is available.** — Calculate using Schedule 511-D based on the taxpayer's federal AGI and actual federal tax liability.  _(R-OK-5)_
-- **R-OK-6. Sales tax relief credit.** — Low-income taxpayers may qualify for the sales tax relief credit (Form 538-S). The credit is based on income and the number of exemptions claimed.  _(R-OK-6)_
+- **R-OK-1. Federal AGI is the starting point.** -- Form 511, Line 1 = federal Form 1040, Line 11.  _(R-OK-1)_
+- **R-OK-2. Social Security is fully exempt.** -- Subtract Social Security benefits included in federal AGI.  _(R-OK-2)_
+- **R-OK-3. State income tax add-back required if itemizing.** -- If the taxpayer itemized on the federal return and deducted state income taxes, the state income tax deduction must be added back on the Oklahoma return.  _(R-OK-3)_
+- **R-OK-4. Itemized deduction cap = $17,000.** -- Oklahoma caps itemized deductions at $17,000 (excluding charitable contributions and medical expenses). If federal itemized deductions (minus state tax add-back, plus adjustments) exceed $17,000, cap at $17,000 plus the exempt categories.  _(R-OK-4)_ (not yet confirmed)
+- **R-OK-5. Federal income tax deduction is available.** -- Calculate using Schedule 511-D based on the taxpayer's federal AGI and actual federal tax liability.  _(R-OK-5)_
+- **R-OK-6. Sales tax relief credit.** -- Low-income taxpayers may qualify for the sales tax relief credit (Form 538-S). The credit is based on income and the number of exemptions claimed.  _(R-OK-6)_
 
-### Section 6: Tier 2 rules — requires judgment
+### Section 6: Tier 2 rules -- requires judgment
 
-- **J-OK-1. Federal tax deduction timing.** — The federal income tax deduction is based on tax paid during the calendar year (not the liability for the year). This includes estimated payments, withholding, and any payments with extension. Judgment is needed to determine the correct amount.  _(J-OK-1)_
-- **J-OK-2. Oklahoma conformity with OBBBA.** — Verify whether Oklahoma has enacted specific conformity or decoupling legislation for OBBBA provisions. If not conformed, adjustments may be needed for bonus depreciation, §179, and other OBBBA items.  _(J-OK-2)_
-- **J-OK-3. Residency determination for part-year situations.** — Oklahoma defines a "resident" as one who is domiciled in Oklahoma or maintains a permanent place of abode and spends more than seven months of the year in Oklahoma.  _(J-OK-3)_
+- **J-OK-1. Federal tax deduction timing.** -- The federal income tax deduction is based on tax paid during the calendar year (not the liability for the year). This includes estimated payments, withholding, and any payments with extension. Judgment is needed to determine the correct amount.  _(J-OK-1)_
+- **J-OK-2. Oklahoma conformity with OBBBA.** -- Verify whether Oklahoma has enacted specific conformity or decoupling legislation for OBBBA provisions. If not conformed, adjustments may be needed for bonus depreciation, §179, and other OBBBA items.  _(J-OK-2)_
+- **J-OK-3. Residency determination for part-year situations.** -- Oklahoma defines a "resident" as one who is domiciled in Oklahoma or maintains a permanent place of abode and spends more than seven months of the year in Oklahoma.  _(J-OK-3)_
 
 ### Section 7: Supplier pattern library
 
@@ -182,8 +182,8 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 | --- | --- |
 | Federal tax deduction optimizer | Calculate the optimal federal income tax deduction using Schedule 511-D to ensure maximum benefit. |
 | Standard vs. itemized comparison | Compare Oklahoma standard deduction ($6,350 single) against itemized deductions (subject to $17,000 cap). | (not yet confirmed)
-| Social Security recipient | Full exclusion of Social Security from Oklahoma income — important for semi-retired freelancers. |
-| Low-income sales tax relief | Taxpayers with low Oklahoma AGI may qualify for the sales tax relief credit — check eligibility. |
+| Social Security recipient | Full exclusion of Social Security from Oklahoma income -- important for semi-retired freelancers. |
+| Low-income sales tax relief | Taxpayers with low Oklahoma AGI may qualify for the sales tax relief credit -- check eligibility. |
 
 ### Section 8: Form mapping
 
@@ -204,10 +204,10 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 
 ### Section 9: Refusal catalogue
 
-- **REFUSE-OK-1** — REFUSE to prepare an Oklahoma return for a nonresident or part-year resident without the appropriate Schedule 511-NR. This skill covers full-year residents only.  _(REFUSE-OK-1)_
-- **REFUSE-OK-2** — REFUSE to compute the federal income tax deduction without the complete payment history for the year. Estimated payments, withholding, and extension payments all factor in.  _(REFUSE-OK-2)_
-- **REFUSE-OK-3** — REFUSE to determine Oklahoma conformity with specific OBBBA provisions without verifying the current Oklahoma conformity date and any enacted exceptions.  _(REFUSE-OK-3)_
-- **REFUSE-OK-4** — REFUSE to claim the sales tax relief credit for a taxpayer without verifying income eligibility thresholds and filing requirements.  _(REFUSE-OK-4)_
+- **REFUSE-OK-1** -- REFUSE to prepare an Oklahoma return for a nonresident or part-year resident without the appropriate Schedule 511-NR. This skill covers full-year residents only.  _(REFUSE-OK-1)_
+- **REFUSE-OK-2** -- REFUSE to compute the federal income tax deduction without the complete payment history for the year. Estimated payments, withholding, and extension payments all factor in.  _(REFUSE-OK-2)_
+- **REFUSE-OK-3** -- REFUSE to determine Oklahoma conformity with specific OBBBA provisions without verifying the current Oklahoma conformity date and any enacted exceptions.  _(REFUSE-OK-3)_
+- **REFUSE-OK-4** -- REFUSE to claim the sales tax relief credit for a taxpayer without verifying income eligibility thresholds and filing requirements.  _(REFUSE-OK-4)_
 
 ### Disclaimer
 
@@ -221,7 +221,7 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -274,7 +274,7 @@ Not yet confirmed against archived sources.
 Not yet confirmed: all dollar amounts, rates, brackets and deadlines in this skill lack archived line-citations.
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or

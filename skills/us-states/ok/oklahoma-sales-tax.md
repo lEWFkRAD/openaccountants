@@ -63,7 +63,7 @@ Before proceeding with any Oklahoma sales tax analysis, collect the following fr
 
 ### 1.1 State Sales Tax Rate
 
-- **State Sales Tax Rate** — 4.50% (On the retail sale of tangible personal property and certain services [T1])  _(68 O.S. §1350 et seq.)_ (not yet confirmed)
+- **State Sales Tax Rate** -- 4.50% (On the retail sale of tangible personal property and certain services [T1])  _(68 O.S. §1350 et seq.)_ (not yet confirmed)
 
 ### 1.2 Grocery Food -- State Exemption (November 2024) [T1]
 
@@ -74,75 +74,75 @@ Before proceeding with any Oklahoma sales tax analysis, collect the following fr
 | Before November 1, 2024 | 4.50% (full state rate) | (not yet confirmed)
 | November 1, 2024 onward | **0.00%** (exempt from state tax) | (not yet confirmed)
 
-- **Local taxes continue to apply to grocery food** — Local taxes continue to apply to grocery food at the full local rate. [T1]  _(HB 1955 (2024 session).)_
-- **Prepared food remains taxable** — Prepared food remains taxable at the full combined rate. [T1]  _(HB 1955 (2024 session).)_
-- **Candy and soft drinks remain taxable** — Candy and soft drinks remain taxable at the full rate. [T1]  _(HB 1955 (2024 session).)_
+- **Local taxes continue to apply to grocery food** -- Local taxes continue to apply to grocery food at the full local rate. [T1]  _(HB 1955 (2024 session).)_
+- **Prepared food remains taxable** -- Prepared food remains taxable at the full combined rate. [T1]  _(HB 1955 (2024 session).)_
+- **Candy and soft drinks remain taxable** -- Candy and soft drinks remain taxable at the full rate. [T1]  _(HB 1955 (2024 session).)_
 
 ### 1.3 Local Sales Taxes [T1]
 
-- **Local jurisdictions impose additional tax** — Counties, cities, and special jurisdictions impose additional sales tax. [T1]
-- **Local rate magnitude** — Local rates can be substantial, with combined rates reaching **11% or more**. [T1] (not yet confirmed)
-- **Number of local jurisdictions** — Oklahoma has approximately **600+ local taxing jurisdictions**. [T2]
-- **OTC administers local taxes** — OTC administers and collects local taxes alongside state tax. [T1]
+- **Local jurisdictions impose additional tax** -- Counties, cities, and special jurisdictions impose additional sales tax. [T1]
+- **Local rate magnitude** -- Local rates can be substantial, with combined rates reaching **11% or more**. [T1] (not yet confirmed)
+- **Number of local jurisdictions** -- Oklahoma has approximately **600+ local taxing jurisdictions**. [T2]
+- **OTC administers local taxes** -- OTC administers and collects local taxes alongside state tax. [T1]
 
 ### 1.4 Sourcing [T1]
 
-- **Sourcing method** — Oklahoma uses **destination-based** sourcing for most sales. [T1]
-- **SST sourcing rules** — As an SST member, Oklahoma follows SSUTA sourcing rules. [T1]
+- **Sourcing method** -- Oklahoma uses **destination-based** sourcing for most sales. [T1]
+- **SST sourcing rules** -- As an SST member, Oklahoma follows SSUTA sourcing rules. [T1]
 
 ## The taxable base
 
 ### 2.1 Grocery Food -- State Exempt (2024+), Local Applies [T1]
 
-- **Grocery food exempt from state tax** — As of November 1, 2024, grocery food is **exempt from state sales tax**. [T1] (not yet confirmed)
-- **Local taxes continue on food** — Local taxes continue to apply. Combined local rates on food can be 3-7%. [T1] (not yet confirmed)
-- **Prepared food rate** — Prepared food: full 4.5% state + local. [T1] (not yet confirmed)
-- **Candy rate** — Candy: full rate. [T1]
-- **Soft drinks rate** — Soft drinks: full rate. [T1]
+- **Grocery food exempt from state tax** -- As of November 1, 2024, grocery food is **exempt from state sales tax**. [T1] (not yet confirmed)
+- **Local taxes continue on food** -- Local taxes continue to apply. Combined local rates on food can be 3-7%. [T1] (not yet confirmed)
+- **Prepared food rate** -- Prepared food: full 4.5% state + local. [T1] (not yet confirmed)
+- **Candy rate** -- Candy: full rate. [T1]
+- **Soft drinks rate** -- Soft drinks: full rate. [T1]
 
 ### 2.2 Clothing [T1]
 
-- **Clothing taxability** — Clothing is **fully taxable**. No exemption. [T1]
+- **Clothing taxability** -- Clothing is **fully taxable**. No exemption. [T1]
 
 ### 2.3 Prescription Drugs and Medical [T1]
 
-- **Prescription drugs** — Prescription drugs: **exempt**. [T1]  _(68 O.S. §1357(9).)_
-- **OTC drugs** — OTC drugs: **taxable**. [T1]
-- **DME** — DME: exempt with prescription. [T1]
-- **Prosthetics** — Prosthetics: exempt. [T1]
+- **Prescription drugs** -- Prescription drugs: **exempt**. [T1]  _(68 O.S. §1357(9).)_
+- **OTC drugs** -- OTC drugs: **taxable**. [T1]
+- **DME** -- DME: exempt with prescription. [T1]
+- **Prosthetics** -- Prosthetics: exempt. [T1]
 
 ### 2.4 Services [T2]
 
 Oklahoma taxes a limited number of services:
 
-- **Taxable services** — **Taxable services include:** Telecommunications, furnishing rooms/lodging, printing, storage/warehousing, computer programming (when bundled with TPP), car washes. [T2]
-- **Exempt services** — **Exempt services include:** Professional services, personal care, repair labor (when separately stated), cleaning, landscaping, IT consulting. [T2]
+- **Taxable services** -- **Taxable services include:** Telecommunications, furnishing rooms/lodging, printing, storage/warehousing, computer programming (when bundled with TPP), car washes. [T2]
+- **Exempt services** -- **Exempt services include:** Professional services, personal care, repair labor (when separately stated), cleaning, landscaping, IT consulting. [T2]
 
 ### 2.5 SaaS and Digital Goods [T2]
 
-- **SaaS taxability** — **SaaS:** Generally **not taxable** under current Oklahoma law. [T2]
-- **Canned software (physical)** — **Canned software (physical):** Taxable. [T1]
-- **Canned software (electronic delivery)** — **Canned software (electronic delivery):** Taxable. [T1]
-- **Digital downloads** — **Digital downloads:** Taxable as specified digital products (SST definitions). [T1]
-- **Custom software** — **Custom software:** Exempt. [T2]
+- **SaaS taxability** -- **SaaS:** Generally **not taxable** under current Oklahoma law. [T2]
+- **Canned software (physical)** -- **Canned software (physical):** Taxable. [T1]
+- **Canned software (electronic delivery)** -- **Canned software (electronic delivery):** Taxable. [T1]
+- **Digital downloads** -- **Digital downloads:** Taxable as specified digital products (SST definitions). [T1]
+- **Custom software** -- **Custom software:** Exempt. [T2]
 
 ### 2.6 Manufacturing [T1]
 
-- **Manufacturing machinery and equipment exemption** — Manufacturing machinery and equipment: **exempt** (for machinery used directly and predominantly in manufacturing). [T1]  _(68 O.S. §1359.2.)_
-- **Raw materials for resale** — Raw materials for resale: exempt under resale. [T1]
-- **Repair parts for exempt machinery** — Repair parts for exempt machinery: exempt. [T1]
+- **Manufacturing machinery and equipment exemption** -- Manufacturing machinery and equipment: **exempt** (for machinery used directly and predominantly in manufacturing). [T1]  _(68 O.S. §1359.2.)_
+- **Raw materials for resale** -- Raw materials for resale: exempt under resale. [T1]
+- **Repair parts for exempt machinery** -- Repair parts for exempt machinery: exempt. [T1]
 
 ### 2.7 Agricultural [T1]
 
-- **Farm tractors, implements, and equipment** — Farm tractors, implements, and equipment: exempt. [T1]  _(68 O.S. §1358.1.)_
-- **Feed, seed, fertilizer** — Feed, seed, fertilizer: exempt. [T1]
-- **Livestock** — Livestock: exempt for breeding/production. [T1]
+- **Farm tractors, implements, and equipment** -- Farm tractors, implements, and equipment: exempt. [T1]  _(68 O.S. §1358.1.)_
+- **Feed, seed, fertilizer** -- Feed, seed, fertilizer: exempt. [T1]
+- **Livestock** -- Livestock: exempt for breeding/production. [T1]
 
 ### 2.8 Oil and Gas [T2]
 
-- **Oil and gas drilling equipment taxability** — Equipment used in oil and gas drilling: subject to sales tax (no broad exemption). [T2]
-- **Gross production tax separate** — Gross production tax on oil and gas production is separate from sales tax. [T2]
-- **Downhole equipment exemptions** — Certain downhole equipment may qualify for exemptions. [T2]
+- **Oil and gas drilling equipment taxability** -- Equipment used in oil and gas drilling: subject to sales tax (no broad exemption). [T2]
+- **Gross production tax separate** -- Gross production tax on oil and gas production is separate from sales tax. [T2]
+- **Downhole equipment exemptions** -- Certain downhole equipment may qualify for exemptions. [T2]
 
 **Flag for reviewer:** Oil and gas equipment taxability is nuanced. Review specific items against OTC guidance. [T2]
 
@@ -162,22 +162,22 @@ Oklahoma taxes a limited number of services:
 
 ### 4.2 Vendor Discount [T1]
 
-- **Vendor Discount** — 1% of tax collected (maximum varies) for timely filing ([T1]) (not yet confirmed)
+- **Vendor Discount** -- 1% of tax collected (maximum varies) for timely filing ([T1]) (not yet confirmed)
 
 ### 4.3 Penalties and Interest [T1]
 
-- **Late filing penalty** — Late filing penalty: 25% of tax due. [T1] (not yet confirmed)
-- **Interest rate** — Interest: 1.25% per month (15% per annum). [T1] (not yet confirmed)
+- **Late filing penalty** -- Late filing penalty: 25% of tax due. [T1] (not yet confirmed)
+- **Interest rate** -- Interest: 1.25% per month (15% per annum). [T1] (not yet confirmed)
 
 ### Step 4: Deductibility / Exemptions
 
 Exemptions identified in Step 2 above are the primary deductibility rules for Oklahoma. Key categories: [T1]
 
-- **Resale exemption** — **Resale exemption:** Valid resale certificate required. Retain for the statutory period. [T1]
-- **Exempt organizations** — **Exempt organizations:** Government entities and qualifying nonprofits -- require exemption certificate on file. [T1]
-- **Agricultural exemptions** — **Agricultural exemptions:** Where applicable per Step 2. [T1]
-- **Manufacturing exemptions** — **Manufacturing exemptions:** Where applicable per Step 2. [T2]
-- **Certificate retention requirement** — All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. [T1]
+- **Resale exemption** -- **Resale exemption:** Valid resale certificate required. Retain for the statutory period. [T1]
+- **Exempt organizations** -- **Exempt organizations:** Government entities and qualifying nonprofits -- require exemption certificate on file. [T1]
+- **Agricultural exemptions** -- **Agricultural exemptions:** Where applicable per Step 2. [T1]
+- **Manufacturing exemptions** -- **Manufacturing exemptions:** Where applicable per Step 2. [T2]
+- **Certificate retention requirement** -- All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. [T1]
 
 ### Step 5: Key Thresholds
 
@@ -194,11 +194,11 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ok
 
 ### 3.2 Marketplace Facilitator [T1]
 
-- **Marketplace facilitator collection requirement** — Oklahoma requires marketplace facilitators to collect and remit. [T1]  _(68 O.S. §1401.3.)_
+- **Marketplace facilitator collection requirement** -- Oklahoma requires marketplace facilitators to collect and remit. [T1]  _(68 O.S. §1401.3.)_
 
 ### 3.3 SST Registration [T1]
 
-- **SST registration status** — Full SST member. SSTRS and CSPs available. [T1]
+- **SST registration status** -- Full SST member. SSTRS and CSPs available. [T1]
 
 ### Step 6: Filing Deadlines and Penalties
 
@@ -206,12 +206,12 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### PROHIBITIONS
 
-- **Grocery food after Nov 1 2024** — NEVER apply state sales tax to grocery food after November 1, 2024. It is state-exempt. [T1] (not yet confirmed)
-- **Local taxes on grocery food** — NEVER forget that local taxes still apply to grocery food. [T1]
-- **Candy/soft drinks not exempt** — NEVER treat candy or soft drinks as exempt food. They are taxed at the full combined rate. [T1]
-- **No uniform rate assumption** — NEVER assume a uniform rate across Oklahoma. Combined rates vary widely by location. [T1]
-- **SaaS not taxable assumption** — NEVER assume SaaS is taxable in Oklahoma. Current law does not tax SaaS. [T2]
-- **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. [T1]
+- **Grocery food after Nov 1 2024** -- NEVER apply state sales tax to grocery food after November 1, 2024. It is state-exempt. [T1] (not yet confirmed)
+- **Local taxes on grocery food** -- NEVER forget that local taxes still apply to grocery food. [T1]
+- **Candy/soft drinks not exempt** -- NEVER treat candy or soft drinks as exempt food. They are taxed at the full combined rate. [T1]
+- **No uniform rate assumption** -- NEVER assume a uniform rate across Oklahoma. Combined rates vary widely by location. [T1]
+- **SaaS not taxable assumption** -- NEVER assume SaaS is taxable in Oklahoma. Current law does not tax SaaS. [T2]
+- **No manual computation** -- NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. [T1]
 
 ### Edge Case Registry
 
@@ -362,7 +362,7 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -399,7 +399,7 @@ Not yet confirmed against archived sources.
 Not yet confirmed: all dollar amounts, rates, brackets and deadlines in this skill lack archived line-citations.
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
