@@ -83,10 +83,10 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 | State tax (general) | 7.0% | T.C.A. Section 67-6-202 |
 | State tax (grocery food) | 4.0% | T.C.A. Section 67-6-228 |
 | Local option tax (county) | 1.5% -- 2.75% | T.C.A. Section 67-6-702 |
-| **Maximum combined (general)** | **9.75%** |  |
-| **Maximum combined (grocery)** | **6.75%** |  |
+| **Maximum combined (general)** | **9.75%** |  | (not yet confirmed)
+| **Maximum combined (grocery)** | **6.75%** |  | (not yet confirmed)
 
-**Tennessee has among the highest combined sales tax rates in the United States.** Some jurisdictions reach the 9.75% maximum. [T1]
+**Tennessee has among the highest combined sales tax rates in the United States.** Some jurisdictions reach the 9.75% maximum. [T1] (not yet confirmed)
 
 ### 1.4 Single Article Cap on Local Tax [T1]
 
@@ -188,7 +188,7 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 | Late payment | Same as late filing | T.C.A. Section 67-1-804 |
 | Failure to file | Estimated assessment + penalties | T.C.A. Section 67-1-1501 |
 | Fraud | 50% of deficiency | T.C.A. Section 67-1-804 |
-| Interest | Statutory rate (currently ~7.25%) | T.C.A. Section 67-1-801 |
+| Interest | Statutory rate (currently ~7.25%) | T.C.A. Section 67-1-801 | (not yet confirmed)
 
 ## Step 4: Deductibility / Exemptions
 
