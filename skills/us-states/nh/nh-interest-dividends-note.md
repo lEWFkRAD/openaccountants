@@ -14,16 +14,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## New Hampshire — Interest & Dividends Tax Repeal Note
 
-_Last updated: May 22, 2026_
+_Last updated: May 22, 2026_ (not yet confirmed)
 
 ## Summary
 
-New Hampshire's Interest & Dividends (I&D) Tax has been **fully repealed** effective **January 1, 2025**. No income tax return is required for tax year 2025 and beyond.
+New Hampshire's Interest & Dividends (I&D) Tax has been **fully repealed** effective **January 1, 2025**. No income tax return is required for tax year 2025 and beyond. (not yet confirmed)
 
 ## Background
 
 - The I&D Tax was enacted in 1923 and taxed interest and dividend income received by New Hampshire residents.
-- House Bill 2, passed by the NH General Court and signed by Governor Chris Sununu during the 2023 legislative session, repealed the tax effective January 1, 2025 (originally scheduled for 2026, the repeal was accelerated).
+- House Bill 2, passed by the NH General Court and signed by Governor Chris Sununu during the 2023 legislative session, repealed the tax effective January 1, 2025 (originally scheduled for 2026, the repeal was accelerated). (not yet confirmed)
 
 ## Phase-out schedule
 
@@ -31,23 +31,23 @@ New Hampshire's Interest & Dividends (I&D) Tax has been **fully repealed** effec
 
 | Tax year ending | Rate |
 | --- | --- |
-| Before Dec 31, 2023 | 5% |
-| On or after Dec 31, 2023 | 4% |
-| On or after Dec 31, 2024 | 3% |
-| **On or after Jan 1, 2025** | **0% — repealed** |
+| Before Dec 31, 2023 | 5% | (not yet confirmed)
+| On or after Dec 31, 2023 | 4% | (not yet confirmed)
+| On or after Dec 31, 2024 | 3% | (not yet confirmed)
+| **On or after Jan 1, 2025** | **0% — repealed** | (not yet confirmed)
 
-- **Before Dec 31, 2023** — 5%
-- **On or after Dec 31, 2023** — 4%
-- **On or after Dec 31, 2024** — 3%
-- ****On or after Jan 1, 2025**** — **0% — repealed**
+- **Before Dec 31, 2023** — 5% (not yet confirmed)
+- **On or after Dec 31, 2023** — 4% (not yet confirmed)
+- **On or after Dec 31, 2024** — 3% (not yet confirmed)
+- ****On or after Jan 1, 2025**** — **0% — repealed** (not yet confirmed)
 
 ## What this means for tax year 2025+
 
-- **No I&D tax return required** — No I&D tax return is required for taxable periods beginning on or after January 1, 2025.
+- **No I&D tax return required** — No I&D tax return is required for taxable periods beginning on or after January 1, 2025. (not yet confirmed)
 - **No statewide income tax** — New Hampshire has no statewide income tax on wages, salaries, or self-employment income — it never did.
 - **No statewide sales tax** — New Hampshire has no statewide sales tax.
-- **Business Profits Tax** — 8.5% (Levied on businesses meeting certain thresholds, separate from the repealed I&D tax.)
-- **Business Enterprise Tax** — 0.55% (Levied on businesses meeting certain thresholds, separate from the repealed I&D tax.)
+- **Business Profits Tax** — 8.5% (Levied on businesses meeting certain thresholds, separate from the repealed I&D tax.) (not yet confirmed)
+- **Business Enterprise Tax** — 0.55% (Levied on businesses meeting certain thresholds, separate from the repealed I&D tax.) (not yet confirmed)
 
 ## Prior-year obligations
 
