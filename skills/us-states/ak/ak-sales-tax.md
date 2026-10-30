@@ -30,14 +30,14 @@ There is therefore no single "Alaska rate." The rate, base, exemptions, and fili
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Alaska |
-| State sales tax rate | 0% (no statewide sales tax) |
+| State sales tax rate | 0% (no statewide sales tax) (not yet confirmed) |
 | State individual income tax | None |
 | Local sales tax | Yes — levied by boroughs and cities only |
 | Local rate range | ~1% — 7.5% (varies by municipality) |
 | Sourcing | Destination-based for remote sellers (ARSSTC Uniform Code) |
 | Remote-seller administrator | Alaska Remote Seller Sales Tax Commission (ARSSTC) |
 | Economic nexus | $100,000 statewide gross sales (current or prior calendar year) |
-| 200-transaction threshold | Removed effective January 1, 2025 |
+| 200-transaction threshold | Removed effective January 1, 2025 (not yet confirmed) |
 | Marketplace facilitators | Must collect/remit on behalf of third-party sellers |
 | Skill version | 1.0 |
 
@@ -99,7 +99,7 @@ No worked examples are provided for Alaska: rates, bases, and exemptions are set
 
 - **Prohibition: single statewide rate assumption** — NEVER assume a single statewide Alaska sales-tax rate — there is none.
 - **Prohibition: assuming no sales tax for remote sellers** — NEVER assume "no sales tax in Alaska" for a remote seller — local tax applies via ARSSTC once the $100,000 threshold is met.
-- **Prohibition: 200-transaction test after 2025** — NEVER apply the 200-transaction test for periods on or after January 1, 2025.
+- **Prohibition: 200-transaction test after 2025** — NEVER apply the 200-transaction test for periods on or after January 1, 2025 (not yet confirmed).
 - **Prohibition: computing numbers** — NEVER compute any number; confirm the rate and base with the specific municipality or the ARSSTC member-rate table.
 
 ## Sources
