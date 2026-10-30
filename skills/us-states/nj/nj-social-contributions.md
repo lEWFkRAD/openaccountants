@@ -29,13 +29,13 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 New Jersey's social-insurance contributions, all remitted on the quarterly **Form NJ-927** with the **WR-30** wage detail: **Unemployment Insurance (UI)**, **Temporary Disability Insurance (TDI — "DI" on NJDOL tables)**, **Family Leave Insurance (FLI)**, and the **Workforce Development Partnership / Supplemental Workforce Funds (WF/SWF)**. Worker contributions are wage-based with two different bases; employer UI is experience-rated. Out of scope: income-tax withholding tables (in `nj-payroll`), workers' compensation insurance (private market), federal FICA/FUTA.
 
 **Source status:** the NJDOL employer rate-information page (20,924 chars) verified HTTP 200 and read **2026-10-27** — CY2026 and CY2025 rates and bases, new-employer rates through FY June 2027, and 2027 bases are quoted from it. Figures corroborated by the existing tier-2 `nj-payroll` skill.
 
-## 2. Who applies
+### 2. Who applies
 
 - Every NJ-covered employer: employer DI, WF/SWF, FLI and experience-rated UI contributions plus worker deductions for UI, WF/SWF, and (State Plan only) TDI and FLI.
 - Workers: UI/WF/SWF up to $44,800; TDI/FLI up to $171,100 (worker share only for TDI/FLI).
@@ -65,25 +65,25 @@ New Jersey's social-insurance contributions, all remitted on the quarterly **For
 - 2026 benefit caps: max UI weekly benefit **$905**; max TDI weekly **$1,119**; alternative earnings test $15,500; base week $310.
 - No state disability beyond TDI; no state paid-family-leave employer surcharge beyond the FLI split above. Federal FICA/FUTA unchanged.
 
-## 4. Deadlines
+### 4. Deadlines
 
 - **NJ-927 + WR-30:** quarterly, electronic, due the last day of the month following each quarter (Q4 2026 due 31 January 2027); due even for zero-tax quarters.
 - Worker deductions taken each pay period; stop each program at its own base.
 - UI rate notices (NJDOL) arrive each year for the July–June rate year; protests have their own appeal window.
 
-## 5. Penalties and interest
+### 5. Penalties and interest
 
-- Late NJ-927/WR-30 filings and late contributions accrue additions to tax and interest under NJ labor and taxation provisions; current percentages **needs-sources** (NJDOL penalty page not fetched this run).
+- Late NJ-927/WR-30 filings and late contributions accrue additions to tax and interest under NJ labor and taxation provisions; current percentages **not yet confirmed** (NJDOL penalty page not fetched this run).
 - Under-deducting worker contributions: employer remains liable for the worker share.
 - Misclassifying employees as independent contractors exposes the group to UI/TDI/FLI back-contributions (ABC test under NJ Wage and Hour Law — see `nj-payroll`).
 
-## 6. Cross-border
+### 6. Cross-border
 
 - Multi-state workers: UI coverage follows the four-fold test (localization of services, place of direction, residence, place of hiring) — NJ is the covering state only when the test points there; coordinate with the other state's UI to avoid double coverage.
 - Remote workers living outside NJ but performing services in NJ are in the NJ UI/TDI/FLI base; document work location.
 - FLI/TDI benefits are portable to workers who later work in other states; no interstate credit for contributions.
 
-## 7. Worked examples
+### 7. Worked examples
 
 **Example 1 — worker contributions, $120,000 wage, CY2026.**
 
@@ -127,7 +127,7 @@ expected:
   employer_total: 1408.96
 ```
 
-## 8. Ask the client
+### 8. Ask the client
 
 1. State Plan or approved private TDI/FLI plan — is the worker cost capped at State Plan levels?
 2. New employer? Which rate year applies, and when does experience kick in?
@@ -135,7 +135,7 @@ expected:
 4. Are worker deductions stopping at the correct, different bases?
 5. Contractor classifications — ABC test exposure to back UI/TDI/FLI?
 
-## 9. Sources
+### 9. Sources
 
 1. NJ Department of Labor, employer rate information (CY2026/CY2025 rates, bases, new-employer rates, benefit caps): <https://www.nj.gov/labor/ea/employer-services/rate-info/> — 200, read 2026-10-27.
 2. Existing tier-2 skill `nj-payroll` (NJ-927 mechanics, 2026 bases, withholding): repo `skills/us-states/nj/nj-payroll.md`.
@@ -143,3 +143,46 @@ expected:
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for New Jersey UI/TDI/FLI questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

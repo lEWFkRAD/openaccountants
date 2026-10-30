@@ -30,13 +30,13 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 The repo already carries the deep CBT/BAIT skill **`nj-cbt-and-bait`** (tier 2, authored, covering nexus, combined groups, water's-edge/world-wide/affiliated elections, Finnigan allocation, NCTI/dividend exclusion, NOL/PNOL, BAIT/PTE). This companion file covers the **compliance calendar and rate table** the coverage report flags as the IT-CORP domain, and cross-links rather than duplicating. Out of scope: banking/insurance corporations, sales tax, individual tax.
 
 **Source status:** the Division's CBT reform page (13,054 chars) and combined-groups revision page (5,451 chars) verified HTTP 200 and were read 2026-10-27; the CBT index page verified 200. Rate/minimum/fee figures are corroborated by the existing `nj-cbt-and-bait` skill (verified against the 2025 CBT-100/CBT-100U instructions and the new-legislation summary on 2026-10-16). The 2026 CBT-100 instructions were not re-fetched this run — deadline-day specifics are flagged where they depend on them.
 
-## 2. Who applies
+### 2. Who applies
 
 - Every corporation subject to the CBT, including combined groups filing one **CBT-100U** through the managerial member; mandatory combined reporting since privilege periods ending on/after 31 July 2019 (more than 50% common ownership + unitary + one CBT filer). (`nj-cbt-and-bait`, verified 2026-10-16.)
 - **Economic nexus:** NJ receipts over **$100,000** or **200+** separate transactions delivered to NJ customers (privilege periods ending on/after 31 July 2023); marketplace-warehouse inventory is NJ property. (`nj-cbt-and-bait`.)
@@ -52,7 +52,7 @@ The repo already carries the deep CBT/BAIT skill **`nj-cbt-and-bait`** (tier 2, 
 | Minimum tax (separate filers) | graduated by NJ gross receipts (table in `nj-cbt-and-bait`); combined groups: **$2,000 per nexus member** | `nj-cbt-and-bait` |
 | Base | federal taxable income + Schedule A modifications (NCTI as dividend; 100%/50% dividend exclusion with 5% clawback; §250 deductions disallowed) × single sales factor | `nj-cbt-and-bait` |
 
-## 4. Deadlines
+### 4. Deadlines
 
 - **CBT-100/CBT-100U:** due the 15th day of the month **after** the month the federal corporate return is originally due — **15 May** for calendar-year filers (weekend/holiday rolls to the next business day). Combined groups file one CBT-100U through the managerial member. E-filing and e-payment are mandatory. (`nj-cbt-and-bait`, verified against 2025 CBT-100 instructions 2026-10-16.)
 - **Extension (CBT-200-T):** six months to file, not to pay — file by the original due date and pay at least **90%** of the tax shown on the return; fail either test and the extension is retroactively denied with penalties and interest from the original due date. (`nj-cbt-and-bait`.)
@@ -60,7 +60,7 @@ The repo already carries the deep CBT/BAIT skill **`nj-cbt-and-bait`** (tier 2, 
 - **Federal-change reporting:** any federal change to taxable income must be reported to the Division within **90 days**. (`nj-cbt-and-bait`.)
 - **BAIT/PTE election:** electronic election by the **original due date** (15 March for calendar-year partnerships) — extension does not extend the election. (`nj-cbt-and-bait`.)
 
-## 5. Penalties and interest
+### 5. Penalties and interest
 
 - **Late filing:** 5% a month or part month, up to 25% of the underpayment; if no return within 30 days of the first delinquency notice, 5% a month of the **total liability** up to 25%; a **$100 per month** penalty may also apply.
 - **Late payment:** 5% of the balance paid after the due date. **Extension insufficiency:** 5% a month up to 25% of the shortfall.
@@ -69,13 +69,13 @@ The repo already carries the deep CBT/BAIT skill **`nj-cbt-and-bait`** (tier 2, 
 
 (All from `nj-cbt-and-bait`, verified against the 2025 CBT-100 instructions 2026-10-16.)
 
-## 6. Cross-border / multistate
+### 6. Cross-border / multistate
 
 - Single sales factor; services delivered where the benefit is received; marketplace warehouses create receipts and property nexus.
 - Mandatory combined reporting makes NJ a **unitary** state — contrast Maryland (separate returns) and Missouri (consolidation optional): group modeling must run three different state postures.
 - Water's-edge default; world-wide or affiliated-group elections bind 6 years.
 
-## 7. Worked examples
+### 7. Worked examples
 
 **Example 1 — rate-table cliff.** Group taxable net income $105,000 vs $98,000 (whole-base rate).
 
@@ -113,7 +113,7 @@ expected:
   total: 1360000.00
 ```
 
-## 8. Ask the client
+### 8. Ask the client
 
 1. Combined group or separate filer — managerial member registered? Which filing method, elected when, bound until when?
 2. Economic-nexus math: NJ receipts and transaction counts for the year — inside or outside the thresholds?
@@ -121,12 +121,55 @@ expected:
 4. Near the $50k/$100k rate cliffs or the $10M Transit Fee threshold — deferral planning?
 5. BAIT elected by the original due date this year?
 
-## 9. Sources
+### 9. Sources
 
 1. Existing tier-2 skill `nj-cbt-and-bait` (rates, minimums, Transit Fee, combined mechanics; verified against 2025 CBT instructions 2026-10-16): repo `skills/us-states/nj/nj-cbt-and-bait.md`.
 2. NJ Division of Taxation, CBT combined-groups revision (P.L. 86-272 group rule): <https://www.nj.gov/treasury/taxation/cbt/combinedgroupsrevision.shtml> — 200, read 2026-10-27.
 3. NJ Division of Taxation, CBT reform hub: <https://www.nj.gov/treasury/taxation/cbt/cbtreform.shtml> — 200, read 2026-10-27.
-4. CBT-100 / CBT-100U / CBT-150 2026 instructions: <https://www.nj.gov/treasury/taxation/cbt/> index verified 200 on 2026-10-27; individual PDFs not re-fetched — deadline-day and penalty-percentage specifics **needs-sources**.
+4. CBT-100 / CBT-100U / CBT-150 2026 instructions: <https://www.nj.gov/treasury/taxation/cbt/> index verified 200 on 2026-10-27; individual PDFs not re-fetched — deadline-day and penalty-percentage specifics **not yet confirmed**.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for New Jersey CBT and combined-group questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

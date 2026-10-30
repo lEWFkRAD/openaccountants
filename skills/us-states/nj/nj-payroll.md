@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Figures are for 2026 unless a line says 2025. Worker contribution rates and wage bases run by calendar year. Employer unemployment rates run by fiscal rate year, July 1 to June 30 ([NJDOL rate information](https://www.nj.gov/labor/ea/employer-services/rate-info/)). Income tax withholding uses the rate tables in the Division of Taxation's NJ-WT booklet (September 2025 revision) and on Form NJ-W4 ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)). This skill points to those tables and does not reproduce them. A dated section near the end covers 2025 payrolls.
 
-## Scope and who this is for
+## Who this applies to
 
 - **Covers:** private employers with employees working in New Jersey. It covers:
   - New Jersey Gross Income Tax withholding, Form NJ-W4 and the NJ-WT rate tables;
@@ -37,7 +37,7 @@ Figures are for 2026 unless a line says 2025. Worker contribution rates and wage
   - UI coverage of workers who work in more than one state.
 - **Cross-border workers.** Where an employee lives or works outside New Jersey, residency, day allocation and the convenience rule are covered in the skill **us-multi-state-residency-and-allocation**. Use it for any employee who is not a New Jersey resident working only in New Jersey.
 
-## Ask the client first
+### Ask the client first
 
 - Is the business registered with New Jersey as an employer? It needs a federal employer identification number (FEIN) to withhold New Jersey tax ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)).
 - Is it a new employer? When did it first become liable? It keeps new employer rates until it has three consecutive full or partial years of contribution experience ([NJDOL Employer Handbook, taxes and wages](https://www.nj.gov/labor/ea/help/employer_handbook/taxes_wages.shtml)).
@@ -49,7 +49,7 @@ Figures are for 2026 unless a line says 2025. Worker contribution rates and wage
 - Are any workers paid on Form 1099? Who decided they were contractors, and on what evidence?
 - How many employees does it have? Is it a seasonal business? Both change the minimum wage.
 
-## The method, step by step
+### The method, step by step
 
 1. **Register** online as a New Jersey employer. You need an FEIN. A corporate entity also needs its 10-digit New Jersey corporate ID from the Division of Revenue and Enterprise Services ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)).
    - **When an employer becomes liable:** it may be subject to the Unemployment Compensation Law once it employs one or more people and pays wages of $1,000 or more in a calendar year ([Employer Handbook, taxes and wages](https://www.nj.gov/labor/ea/help/employer_handbook/taxes_wages.shtml)).
@@ -187,7 +187,7 @@ A worker who is paid for services is an employee under the Unemployment Compensa
 
 Failing any one prong makes the worker an employee. The law is remedial and read liberally, so a worker can be an employee even where the common-law test would say otherwise. For prong C, the business must be one that will survive the end of this relationship. NJDOL auditors use the Worker Classification Questionnaire. This skill gives a summary only: refer any real classification decision. Refer also where the question is worker status for wage-and-hour or wage payment purposes (including the minimum wage), or construction work, which has its own Construction Industry Independent Contractor Act.
 
-## Worked cases
+### Worked cases
 
 The dollar amounts in these cases are made up for illustration. The rates and bases come from the sources linked in each heading.
 
@@ -259,7 +259,7 @@ The dollar amounts in these cases are made up for illustration. The rates and ba
 - **Corrections:** correct Forms NJ-927 online; the correction replaces the original. A prior-year refund needs an amended NJ-927 for the quarter and an amended NJ-W-3. An NJ-W-3 correction that changes the tax requires amending each affected quarter ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)).
 - Amend a WR-30 online or by SFTP ([Employer Handbook, taxes and wages](https://www.nj.gov/labor/ea/help/employer_handbook/taxes_wages.shtml)).
 
-## When to refuse or refer
+### When to refuse or refer
 
 - **Refer** any employee who lives or works outside New Jersey, works from home in another state, or moved during the year. Use the skill us-multi-state-residency-and-allocation. Do not guess an allocation percentage.
 - **Refer** which state's UI covers a worker who works in more than one state. The WR-30 includes only pay for services in New Jersey, and wages for services elsewhere go to those states.
@@ -268,7 +268,7 @@ The dollar amounts in these cases are made up for illustration. The rates and ba
 - **Refuse** to compute New Jersey withholding from return rate schedules or a federal W-4. Use NJ-WT and the NJ-W4.
 - **Say so** when a figure is not yet set: the 2027 worker contribution rates, and the 2027 minimum wage chart.
 
-## Filing and payment
+### Filing and payment
 
 - **Form NJ-927 / NJ-927-W:** due quarterly, electronically, even with nothing withheld. Seasonal businesses file all four quarters. All locations under one FEIN file one combined return ([NJ-WT](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)).
 
@@ -322,16 +322,59 @@ The dollar amounts in these cases are made up for illustration. The rates and ba
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

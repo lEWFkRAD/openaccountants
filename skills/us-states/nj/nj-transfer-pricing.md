@@ -32,13 +32,13 @@ depends_on:
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## 1. Scope and sources
+## Who this applies to
 
 New Jersey has **no standalone transfer-pricing documentation requirement and no related-party addback statute** in the Maryland/Missouri sense. Because combined reporting is **mandatory** for commonly-owned unitary groups (privilege periods ending on/after 31 July 2019), most classic TP questions — royalties, management fees, intercompany interest — are answered **inside** the combined group by **elimination**: the transaction disappears from the group's taxable net income and only the external sales factor matters. What is left for TP planning is (a) group composition (who is in the water's-edge group), (b) the filing-method election, and (c) cross-border payments to entities outside the group. Deep mechanics live in `nj-cbt-and-bait`; this skill is the TP lens.
 
 **Source status:** Division combined-groups revision page (5,451 chars) and CBT reform hub (13,054 chars) verified HTTP 200 and read 2026-10-27; mechanics corroborated by the tier-2 `nj-cbt-and-bait` skill verified against the 2025 CBT-100/CBT-100U instructions and TB series on 2026-10-16.
 
-## 2. Who applies
+### 2. Who applies
 
 - **Commonly-owned unitary groups** (more than 50% common ownership, unitary business, at least one CBT filer): mandatory one CBT-100U through the managerial member; intercompany transactions eliminated.
 - **Water's-edge default:** entities with significant US business operations; **captive foreign insurers** (more than 50% owned by the group and insuring group risks) and certain treaty-country electors are pulled in.
@@ -56,19 +56,19 @@ New Jersey has **no standalone transfer-pricing documentation requirement and no
 | NCTI (former GILTI) | treated as a dividend | TB-110(R) / OBBBA renaming notice via `nj-cbt-and-bait` |
 | P.L. 86-272 in a group | one member's non-protected activity destroys protection for the whole group (periods ending on/after 31 July 2023) | Division revision page, read 2026-10-27 |
 
-## 4. Deadlines
+### 4. Deadlines
 
 - No state TP documentation deadline.
 - Filing-method election: with the **timely filed original** CBT-100U (extension does not preserve a late election).
 - Federal §482 or other federal changes → report to the Division within **90 days**. (`nj-cbt-and-bait`.)
 - CBT-100U due 15 May calendar-year; CBT-200-T six-month extension with 90% paid. (`nj-corporate-income-tax`.)
 
-## 5. Penalties and interest
+### 5. Penalties and interest
 
 - No TP-specific penalty; adjustments run through the ordinary CBT regime: 5%/month late-filing (cap 25%, plus possible $100/month), 5% late payment, interest at **3% above the average predominant prime rate compounded annually**. (`nj-cbt-and-bait`.)
 - Failure to report a federal change within 90 days carries interest from the original due date.
 
-## 6. Cross-border
+### 6. Cross-border
 
 - **Water's-edge vs world-wide is the biggest NJ "TP" decision:** a world-wide election pulls foreign affiliates' income and factors into the group for six years; the 2023-era Division guidance (TB-109) governs.
 - **Captive insurers:** group-owned foreign captives are included in the water's-edge group — premium stripping into a low-tax captive does not shrink the NJ base.
@@ -76,7 +76,7 @@ New Jersey has **no standalone transfer-pricing documentation requirement and no
 - **Dividend repatriation:** the 100%/50% exclusion with the 5% clawback and §250 disallowance makes NJ dividend income materially more expensive than the federal participation deduction — model before repatriating.
 - **Single sales factor + Finnigan:** move sales out of NJ and the group's NJ share falls regardless of where costs sit — the factor, not the price, is the lever.
 
-## 7. Worked examples
+### 7. Worked examples
 
 **Example 1 — intercompany royalty inside vs outside the group.** Group member A (NJ sales factor 0.30) pays a $2,000,000 royalty to group member B (both in the water's-edge combined group). Separately, a non-group licensor receives the same royalty.
 
@@ -114,7 +114,7 @@ expected:
 
 Even a "100% excluded" dividend carries the 5% clawback — $22,500 at the 9% rate (plus any §250 federal deduction lost, which NJ disallows anyway).
 
-## 8. Ask the client
+### 8. Ask the client
 
 1. Is the group unitary and commonly owned — is a CBT-100U required and filed through a registered managerial member?
 2. Which filing method, elected when, bound until when? Is a world-wide election on the table?
@@ -122,7 +122,7 @@ Even a "100% excluded" dividend carries the 5% clawback — $22,500 at the 9% ra
 4. Repatriation plans — has the 5% clawback and §250 disallowance been modeled?
 5. Any federal §482 audit in progress — is the 90-day NJ reporting tickler live?
 
-## 9. Sources
+### 9. Sources
 
 1. Existing tier-2 skill `nj-cbt-and-bait` (combined mechanics, elections, Finnigan, dividend exclusion, TB citations): repo `skills/us-states/nj/nj-cbt-and-bait.md` (verified 2026-10-16).
 2. NJ Division of Taxation, Revision to Division Policy on Combined Groups and P.L. 86-272: <https://www.nj.gov/treasury/taxation/cbt/combinedgroupsrevision.shtml> — 200, read 2026-10-27.
@@ -131,3 +131,46 @@ Even a "100% excluded" dividend carries the 5% clawback — $22,500 at the 9% ra
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for New Jersey combined-group and cross-border payment questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
