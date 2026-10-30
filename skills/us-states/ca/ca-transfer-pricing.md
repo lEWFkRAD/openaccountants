@@ -2,7 +2,7 @@
 name: ca-transfer-pricing
 description: >
   Use this skill whenever asked about California transfer pricing and
-  related-party adjustments for tax year 2026 — unitary business
+  related-party adjustments for tax year 2026 -- unitary business
   combined reporting under R&TC §25101, the water's-edge group rules in
   18 CCR §25110, related-party interest/rent/royalty add-back under
   §25110 (statute), cost-of-performance sourcing of intangible and
@@ -33,7 +33,7 @@ CCR §25110 (Water's-Edge Group) via Cornell LII (200, 2026-10-27),
 which defines "unitary business" by reference to R&TC §25101 and
 federal unitary-combination case law. Statute sections cited below
 (§§25101, 25110, 25134) returned 403 to this agent from leginfo on
-2026-10-27 — treat as pending verification.
+2026-10-27 -- treat as pending verification.
 
 ## Rates, bands and thresholds
 | Mechanism | Effect | Source |
@@ -71,7 +71,7 @@ federal unitary-combination case law. Statute sections cited below
 ## Cross-border points
 - Water's-edge boundary: U.S. + unitary-group members with U.S. nexus
   stay in; combined-report-unitary and 25% common ownership tests
-  determine inclusions (18 CCR §25110 — verified definitions).
+  determine inclusions (18 CCR §25110 -- verified definitions).
 - FDII/GILTI conformity: California has historically not conformed;
   verify current-year treatment in FTB legal notices.
 - Treaty non-application: the U.S.–income-tax treaties do not limit
@@ -133,7 +133,7 @@ expected:
 | Source | URL | Read on |
 | --- | --- | --- |
 
-Not yet confirmed:  FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 8.84% rate, the 18 CCR §25110 water's-edge text cited from Cornell LII, and the R&TC §§25101, 25109, 25110, 25128 and 25134 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
+Not yet confirmed:  FTB -- Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB -- Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 8.84% rate, the 18 CCR §25110 water's-edge text cited from Cornell LII, and the R&TC §§25101, 25109, 25110, 25128 and 25134 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for California combined-reporting and transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for California combined-reporting and transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

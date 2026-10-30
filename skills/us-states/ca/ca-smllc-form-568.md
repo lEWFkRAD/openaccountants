@@ -310,7 +310,7 @@ The FTB tells an owner: "If you are a single member limited liability company, t
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -345,7 +345,7 @@ Not yet confirmed: unarchived figures listed below.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+| EDD -- Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 

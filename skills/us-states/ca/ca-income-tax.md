@@ -562,7 +562,7 @@ Not yet confirmed: unarchived figures listed below.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+| EDD -- Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 

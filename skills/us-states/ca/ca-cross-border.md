@@ -2,7 +2,7 @@
 name: ca-cross-border
 description: >
   Use this skill whenever asked about California cross-border taxation
-  for tax year 2026 — what counts as "doing business" in California for
+  for tax year 2026 -- what counts as "doing business" in California for
   a foreign or out-of-state corporation (18 CCR §23101), Public Law
   86-272 solicitation protection (15 U.S.C. §381), economic nexus
   thresholds, interstate apportionment with the single sales factor,
@@ -32,27 +32,27 @@ and how interstate/cross-border income is apportioned. Primary
 verified sources this run: 18 CCR §23101 ("Doing Business"-Defined,
 via Cornell LII, 200, 2026-10-27), 15 U.S.C. §381 (PL 86-272, 200,
 2026-10-27), 18 CCR §25128 (apportionment factors, 200, 2026-10-27).
-R&TC §§23101/25128 leginfo pages returned 403 to this agent —
+R&TC §§23101/25128 leginfo pages returned 403 to this agent --
 statute cites pending verification.
 
 ## Rates, bands and thresholds
 | Item | Amount | Source |
 |---|---|---|
 | Franchise tax | 8.84%, $800 minimum | FTB tax-rates page (verified 2026-10-27) |
-| Economic nexus — sales | > $750,000 (verify current) | R&TC §23101 (pending) | (not yet confirmed)
-| Economic nexus — revenue share | > 25% of total (verify current) | R&TC §23101 (pending) |
+| Economic nexus -- sales | > $750,000 (verify current) | R&TC §23101 (pending) | (not yet confirmed)
+| Economic nexus -- revenue share | > 25% of total (verify current) | R&TC §23101 (pending) |
 | Apportionment | Single sales factor (2023+) | 18 CCR §25128 (verified); R&TC §25128 (pending) |
 
 ## The taxable base
 - A foreign corporation first doing business in California files Form
   100 for that year; the $800 minimum applies from the first year of
   doing business (first-year exemption applies to newly *incorporated*
-  entities — verify interaction with FTB Form 100 instructions).
+  entities -- verify interaction with FTB Form 100 instructions).
 - Sales of tangible personal property are sourced to the purchaser's
   location; sales of services and intangibles use cost of performance
-  (R&TC §25134 — pending verification; see `ca-transfer-pricing`).
+  (R&TC §25134 -- pending verification; see `ca-transfer-pricing`).
 - Nonbusiness income (rents, royalties, gains) is allocated rather
-  than apportioned (R&TC §25123 et seq. — pending verification).
+  than apportioned (R&TC §25123 et seq. -- pending verification).
 
 ## Deadlines and filing
 - Form 100: 15th day of the 4th month after year close (April 15
@@ -72,16 +72,16 @@ statute cites pending verification.
 - **PL 86-272:** shields a corporation whose only California activity
   is "solicitation of orders ... for sales of tangible personal
   property, which orders are sent outside the State for approval or
-  rejection" (15 U.S.C. §381 — verified text). California regs note
+  rejection" (15 U.S.C. §381 -- verified text). California regs note
   such corporations "would not be subject to either a tax measured by
-  income ... or the income tax" (18 CCR §23101 — verified text). The
+  income ... or the income tax" (18 CCR §23101 -- verified text). The
   protection does not extend to services, intangibles, or in-state
   order fulfillment.
 - **Treaties:** U.S. income-tax treaties do not apply to California
   state taxes; a foreign parent's treaty status does not shelter the
   California franchise tax.
 - **Unitary/worldwide:** water's-edge election controls which foreign
-  affiliates enter the combined report (18 CCR §25110 — verified; see
+  affiliates enter the combined report (18 CCR §25110 -- verified; see
   `ca-transfer-pricing`).
 - **Credit for taxes paid:** California residents taxed by other
   states claim a credit under R&TC §17059 (pending verification);
@@ -134,7 +134,7 @@ $800 minimum franchise tax question for protected corporations should
 be confirmed against current FTB guidance before advising.)
 
 ## Ask the client first
-- What California contacts exist — employees, inventory, agents,
+- What California contacts exist -- employees, inventory, agents,
   marketplace sales, remote workers?
 - Is the activity pure solicitation of tangible-goods orders shipped
   out of state (PL 86-272), or does it include services, digital
@@ -149,7 +149,7 @@ be confirmed against current FTB guidance before advising.)
 | Source | URL | Read on |
 | --- | --- | --- |
 
-Not yet confirmed:  FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 8.84% rate and $800 minimum franchise tax, economic-nexus thresholds ($750,000 / 25%), the 18 CCR §§23101/25128/25110 and 15 U.S.C. §381 (PL 86-272) texts cited from Cornell LII, the credit-for-taxes-paid cites (R&TC §§17059, 24011), and the R&TC §§23101, 23151, 25128, 25134 and 25123 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
+Not yet confirmed:  FTB -- Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB -- Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 8.84% rate and $800 minimum franchise tax, economic-nexus thresholds ($750,000 / 25%), the 18 CCR §§23101/25128/25110 and 15 U.S.C. §381 (PL 86-272) texts cited from Cornell LII, the credit-for-taxes-paid cites (R&TC §§17059, 24011), and the R&TC §§23101, 23151, 25128, 25134 and 25123 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for California nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for California nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

@@ -18,7 +18,7 @@ last_updated: 2026-10-28
 | Jurisdiction | California, United States |
 | Jurisdiction code | US-CA |
 | Tax type | Sales and Use Tax + District Taxes |
-| State base rate | 7.25% (minimum statewide) — CDTFA Pub 109: "The current statewide sales and use tax rate is 7.25 percent, which includes 1.25 percent of local taxes (1.00 percent Local Jurisdiction and .25 percent Local Transportation Fund)." |
+| State base rate | 7.25% (minimum statewide) -- CDTFA Pub 109: "The current statewide sales and use tax rate is 7.25 percent, which includes 1.25 percent of local taxes (1.00 percent Local Jurisdiction and .25 percent Local Transportation Fund)." |
 | Local add-on range | 0.10% -- 3.25% district taxes |
 | Maximum combined rate | ~10.25% -- 10.75% (parts of Los Angeles, Alameda) |
 | Sourcing | Destination-based (district taxes by ship-to address) |
@@ -467,7 +467,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 

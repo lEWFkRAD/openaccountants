@@ -2,7 +2,7 @@
 name: ca-corporate-income-tax
 description: >
   Use this skill whenever asked about California corporate franchise tax
-  for tax year 2026 — Form 100 filing, the 8.84% rate and $800 minimum
+  for tax year 2026 -- Form 100 filing, the 8.84% rate and $800 minimum
   franchise tax under R&TC §23153, economic nexus thresholds under §23101,
   unitary combined reporting with single sales factor, Form 3539 estimated
   payments (April/June/September/December), FTB penalties and interest, and
@@ -27,8 +27,8 @@ depends_on:
 ## Who this applies to
 Covers the California franchise/income tax on corporations (Form 100), the
 minimum franchise tax, combined reporting, and corporate estimated tax.
-Does not cover the S-corporation entity tax (Form 100S — separate skill),
-the LLC annual tax/fee (Form 568 — see `ca-smllc-form-568`), personal
+Does not cover the S-corporation entity tax (Form 100S -- separate skill),
+the LLC annual tax/fee (Form 568 -- see `ca-smllc-form-568`), personal
 income tax, or sales/use tax. Primary sources: FTB tax-rates page, FTB
 Form 100/3539/568 (2025 editions), California Revenue and Taxation Code
 (R&TC) via leginfo. All URLs resolved 2026-10-27.
@@ -63,24 +63,24 @@ The LLC annual fee table on Form 568 (2025 edition, verified text): $800
 ## Deadlines and filing
 | Filing | Calendar-year due date |
 |---|---|
-| Form 100 (C corporation) | 15th day of the 4th month after year close — April 15 |
+| Form 100 (C corporation) | 15th day of the 4th month after year close -- April 15 |
 | Form 7004 extension | 6-month extension to file (October 15); payment not extended |
 | Form 3539 estimated tax installments | April 15, June 15, September 15, December 15 (verified from Form 3539, 2025 edition) |
 | Form 568 (LLC) | April 15 |
 
 Estimated tax: corporations must pay through Form 3539 vouchers or EFT.
 Safe harbors per Form 3539: 90% of current-year tax or 100% of
-prior-year tax shown on the return (110% for large corporations — (not yet confirmed)
+prior-year tax shown on the return (110% for large corporations -- (not yet confirmed)
 confirm current thresholds with FTB).
 
 ## Penalties and interest
-- Late filing: 25% of the unpaid tax (FTB penalties page; R&TC §19255 —
+- Late filing: 25% of the unpaid tax (FTB penalties page; R&TC §19255 --
   statute cite to verify).
 - Failure to pay estimated installments: Form 3539 underpayment penalty
   computed on the difference between required and timely installments
   (verified Form 3539 text).
 - Interest: accrues on unpaid amounts at the rate published by FTB
-  (federal short-term rate plus statutory add-on, set semiannually —
+  (federal short-term rate plus statutory add-on, set semiannually --
   current rate on the FTB interest-rates page).
 
 ## Cross-border points
@@ -90,7 +90,7 @@ confirm current thresholds with FTB).
   US-plus-combined-unitary-group affiliates; election is binding for
   5 years.
 - California does not conform to federal international provisions such
-  as FDII/GILTI in the same form — check current conformity status in
+  as FDII/GILTI in the same form -- check current conformity status in
   FTB legal notices before relying on federal starting points.
 - Related-party interest, rent and royalty payments to affiliated
   members are subject to add-back under §25110 unless an
@@ -151,7 +151,7 @@ expected:
 | Source | URL | Read on |
 | --- | --- | --- |
 
-Not yet confirmed:  FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB — Form 100 (2025) | https://www.ftb.ca.gov/forms/2025/2025-100.pdf ;  FTB — Form 3539 (2025) | https://www.ftb.ca.gov/forms/2025/2025-3539.pdf ;  FTB — Form 568 (2025) | https://www.ftb.ca.gov/forms/2025/2025-568.pdf ;  FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ;  FTB — Interest and Estimate Penalty Rates | https://www.ftb.ca.gov/pay/penalties-and-interest/interest-and-estimate-penalty-rates.html ; the 8.84% rate, $800 minimum franchise tax, first-year exemption, LLC fee bands ($800–$11,790), economic-nexus thresholds ($750,000 / 25%), the 25% late-filing penalty, current FTB interest rates, and the 90%/100%/110% estimated-tax safe harbors are not yet confirmed against archived sources; the R&TC §§23151, 23153, 23101 and 25128 statute cites (leginfo 403 on 2026-10-27) remain pending verification.
+Not yet confirmed:  FTB -- Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB -- Form 100 (2025) | https://www.ftb.ca.gov/forms/2025/2025-100.pdf ;  FTB -- Form 3539 (2025) | https://www.ftb.ca.gov/forms/2025/2025-3539.pdf ;  FTB -- Form 568 (2025) | https://www.ftb.ca.gov/forms/2025/2025-568.pdf ;  FTB -- Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ;  FTB -- Interest and Estimate Penalty Rates | https://www.ftb.ca.gov/pay/penalties-and-interest/interest-and-estimate-penalty-rates.html ; the 8.84% rate, $800 minimum franchise tax, first-year exemption, LLC fee bands ($800–$11,790), economic-nexus thresholds ($750,000 / 25%), the 25% late-filing penalty, current FTB interest rates, and the 90%/100%/110% estimated-tax safe harbors are not yet confirmed against archived sources; the R&TC §§23151, 23153, 23101 and 25128 statute cites (leginfo 403 on 2026-10-27) remain pending verification.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for California franchise-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for California franchise-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

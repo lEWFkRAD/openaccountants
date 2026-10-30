@@ -362,7 +362,7 @@ Not covered (see 9.1). The live version of this skill stated penalties per emplo
 
 ### 11.3 Interaction with Federal 1099-NEC
 
-- **Separate reports.** The DE 542 is a California report and does not replace federal Form 1099-NEC. EDD's Required Filings and Due Dates page still triggers the DE 542 from the federal Form 1099-MISC: "If you are required to file a Form 1099-MISC for the services performed by the independent contractor" — the EDD page has not been updated for the 1099-NEC split. The 2026 DE 44 still prints the DE 542 threshold in section 2, whatever the federal threshold is. For the federal form, use `us-1099-nec-issuance`. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf) [EDD Required Filings and Due Dates](https://edd.ca.gov/en/Payroll_Taxes/Required_Filings_and_Due_Dates)
+- **Separate reports.** The DE 542 is a California report and does not replace federal Form 1099-NEC. EDD's Required Filings and Due Dates page still triggers the DE 542 from the federal Form 1099-MISC: "If you are required to file a Form 1099-MISC for the services performed by the independent contractor" -- the EDD page has not been updated for the 1099-NEC split. The 2026 DE 44 still prints the DE 542 threshold in section 2, whatever the federal threshold is. For the federal form, use `us-1099-nec-issuance`. [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf) [EDD Required Filings and Due Dates](https://edd.ca.gov/en/Payroll_Taxes/Required_Filings_and_Due_Dates)
 
 ### 11.4 New Hire Reporting (DE 34)
 
@@ -573,7 +573,7 @@ A taxpayer or employer relying on this skill without credentialed review proceed
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -617,9 +617,9 @@ Not yet confirmed against archived sources.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| EDD — Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
-| EDD — CA Employer's Guide 2026 (DE 44) | https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf | 2026-10-28 |
-| EDD — Federal Unemployment Tax Act | https://edd.ca.gov/en/payroll_taxes/federal-unemployment-tax-act | 2026-10-28 |
+| EDD -- Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+| EDD -- CA Employer's Guide 2026 (DE 44) | https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf | 2026-10-28 |
+| EDD -- Federal Unemployment Tax Act | https://edd.ca.gov/en/payroll_taxes/federal-unemployment-tax-act | 2026-10-28 |
 
 Not yet confirmed: all figures and rates in the body of this skill lack archived line-citations.
 ## Talk to a verified accountant
