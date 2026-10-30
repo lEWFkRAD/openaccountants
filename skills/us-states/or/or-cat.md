@@ -1,3 +1,14 @@
+---
+name: or-cat
+description: Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals (not yet confirmed) plus 0.57% of taxable commercial activity above (not yet confirmed) million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at (not yet confirmed) of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
+jurisdiction: US-OR
+tax_year: 2025
+last_updated: 2026-07-13
+review_status: pending_review
+trust_label: Built by Michael Cutajar and the OpenAccountants team
+tier: 2
+license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
+---
 ## Who this applies to
 
 Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals $250 plus 0.57% of taxable commercial activity above $1 million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at $750,000 of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
@@ -39,31 +50,6 @@ Read this skill before doing any of the following:
 
 
 ## Rates, bands and thresholds
-
-### 2.1 Definition of commercial activity
-
-- **Commercial activity** — The total amount realized by a person, arising from transactions and activity in the regular course of the person's trade or business, without deduction for expenses incurred by the trade or business. The statute uses "total amount realized" — not "gross income" and not "gross receipts as reported on federal Schedule C line 1." The "total amount realized" concept tracks the §1001 realization concept under federal law but is applied without the federal deductions for cost basis or expenses. As a result, the Oregon commercial activity base can be larger than the corresponding federal Schedule C gross receipts figure for the same business — particularly where the federal return reports net of returns, allowances, or COGS at the top.  _(ORS 317A.100(1)(a))_
-
-### 2.2 Items included in commercial activity
-
-- **Items included in commercial activity** — Commercial activity generally includes: - Gross receipts from sales of goods (without reduction for returns or allowances at the top line — those are addressed via the §317A.100(1)(b) exclusions, not at the base) - Gross receipts from services rendered (without reduction for refunds) - Royalties from licensing intellectual property used in Oregon - Rents from real property situated in Oregon (subject to specific carve-outs for residential rentals — see 2.3) - Receipts from the sale or licensing of digital products delivered to Oregon - Receipts from subscriptions and recurring SaaS revenue allocable to Oregon under the market-based sourcing rules in section 7 - Receipts from contract manufacturing performed in Oregon  _(ORS 317A.100(1)(b))_
-
-### 2.3 Items excluded from commercial activity
-
-- **Items excluded from commercial activity** — ORS 317A.100(1)(b) lists more than 40 specific exclusions from commercial activity. The most commonly applicable ones for the typical OpenAccountants client base are: 1. **Receipts from sales of groceries** — both wholesale and retail. Added by Senate Bill 164 (2021), effective for tax years beginning on or after January 1, 2021. "Grocery" is defined by cross-reference to the federal SNAP-eligible food definition under 7 U.S.C. §2012(k), excluding prepared hot foods, alcohol, tobacco, and pet food. This is the single most consequential exclusion for Oregon retailers and is the source of significant classification work. 2. **Receipts from the sale of motor vehicle fuel** subject to the motor vehicle fuel tax under ORS Chapter 319. Diesel, gasoline, aviation fuel, and other motor fuels separately taxed at the pump are excluded from the CAT base to avoid pyramiding. 3. **Receipts from the sale of fixed assets** used in the trade or business — this captures equipment dispositions, real estate sales by an operating business (the sale of an office building used by the business), and similar non-recurring receipts. Note that this exclusion is for receipts from the sale of business assets, not inventory. 4. **Dividends, interest, and capital contributions** received by the taxpayer. This treats CAT consistently with its character as a tax on trading activity rather than passive investment. 5. **Receipts from intercompany transactions** within a unitary group that has elected combined filing under section 8. 6. **Receipts from the wholesale or retail sale of liquid fuel for use in a motor vehicle**, as referenced in item 2. 7. **Receipts that the U.S. Constitution or federal statute prohibits Oregon from taxing.** This includes receipts protected by P.L. 86-272 to the extent that statute applies, certain federally-preempted transactions (interstate commerce in articles preempted by federal regulation), and similar items. 8. **Receipts from the sale of agricultural commodities by an agricultural cooperative** under ORS 317A.100(4)(c). 9. **Damages received from a lawsuit** (compensatory, not punitive, where punitive damages are commercial in character). 10. **Insurance proceeds** unless they represent business interruption coverage for lost gross receipts (which is treated as ordinary commercial activity). 11. **Receipts of the federal government, the State of Oregon, any political subdivision, and certain federally tax-exempt organizations** in their non-commercial activity. A 501(c)(3) running an unrelated trade or business is treated like any other taxpayer with respect to the UBI receipts. 12. **Receipts from the sale of a vehicle, vessel, or aircraft** by a person not in the business of selling them — but a dealer's normal-course sales are commercial activity. The full statutory exclusion list runs to 40+ items. Practitioners must check the current statutory text and the Department of Revenue's Form OR-CAT instructions for the complete list when a borderline receipt is at issue.  _(ORS 317A.100(1)(b); ORS Chapter 319; ORS 317A.100(4)(c); 7 U.S.C. §2012(k))_
-
-### 2.4 The grocery exclusion in practice
-
-The grocery exclusion under SB 164 is operationally complex because most retailers do not sell exclusively groceries. A convenience store, for example, may sell SNAP-eligible food, prepared hot food (not excluded), alcohol (not excluded), tobacco (not excluded), and motor fuel (separately excluded). The taxpayer must separately track each line and exclude only the grocery-qualifying portion.
-
-For a wholesale grocery distributor whose entire business consists of SNAP-eligible food, the exclusion may zero out the CAT base entirely, leaving only the $250 minimum tax — and even that is owed only if the taxpayer remains over the $1 million threshold after applying the exclusion. If the post-exclusion base is below $1 million, no CAT is due (subject to the registration question in section 4).
-
-### 2.5 Returns and allowances
-
-- **Returns and allowances treatment** — Returns and allowances are not separately listed in the statutory exclusions, but the "total amount realized" formulation effectively reduces the base by genuine returns because the taxpayer never realized the receipt in the first place — the sale was undone. Refunds of services, however, must be examined carefully because the original receipt was realized when paid and a later refund is treated as a reduction in commercial activity in the year of refund, not retroactively. The Department of Revenue's position is that bona fide returns processed within the same reporting period reduce commercial activity. Returns processed in a later period are deducted in that later period.  _(Department of Revenue position (unsure - no statutory cite given))_
-
-
-## The taxable base
 
 ### 3.1 The two-part rate
 
@@ -144,6 +130,31 @@ A reasonable practitioner runs both calculations for each client and elects the 
 ### 5.6 Subtraction formula putting it together
 
 - **Full CAT calculation steps** — Step 1: Determine Oregon commercial activity (OCA) Step 2: Compute Oregon-apportioned COGS or labor, take the larger Step 3: Multiply by 35% — this is the subtraction (capped at 95% × OCA) Step 4: Tax base = max(0, OCA − $1,000,000 − Subtraction) Step 5: CAT = $250 + 0.57% × Tax base   (only if OCA > $1,000,000)  _(ORS 317A.119; ORS 317A.116)_
+
+
+## The taxable base
+
+### 2.1 Definition of commercial activity
+
+- **Commercial activity** — The total amount realized by a person, arising from transactions and activity in the regular course of the person's trade or business, without deduction for expenses incurred by the trade or business. The statute uses "total amount realized" — not "gross income" and not "gross receipts as reported on federal Schedule C line 1." The "total amount realized" concept tracks the §1001 realization concept under federal law but is applied without the federal deductions for cost basis or expenses. As a result, the Oregon commercial activity base can be larger than the corresponding federal Schedule C gross receipts figure for the same business — particularly where the federal return reports net of returns, allowances, or COGS at the top.  _(ORS 317A.100(1)(a))_
+
+### 2.2 Items included in commercial activity
+
+- **Items included in commercial activity** — Commercial activity generally includes: - Gross receipts from sales of goods (without reduction for returns or allowances at the top line — those are addressed via the §317A.100(1)(b) exclusions, not at the base) - Gross receipts from services rendered (without reduction for refunds) - Royalties from licensing intellectual property used in Oregon - Rents from real property situated in Oregon (subject to specific carve-outs for residential rentals — see 2.3) - Receipts from the sale or licensing of digital products delivered to Oregon - Receipts from subscriptions and recurring SaaS revenue allocable to Oregon under the market-based sourcing rules in section 7 - Receipts from contract manufacturing performed in Oregon  _(ORS 317A.100(1)(b))_
+
+### 2.3 Items excluded from commercial activity
+
+- **Items excluded from commercial activity** — ORS 317A.100(1)(b) lists more than 40 specific exclusions from commercial activity. The most commonly applicable ones for the typical OpenAccountants client base are: 1. **Receipts from sales of groceries** — both wholesale and retail. Added by Senate Bill 164 (2021), effective for tax years beginning on or after January 1, 2021. "Grocery" is defined by cross-reference to the federal SNAP-eligible food definition under 7 U.S.C. §2012(k), excluding prepared hot foods, alcohol, tobacco, and pet food. This is the single most consequential exclusion for Oregon retailers and is the source of significant classification work. 2. **Receipts from the sale of motor vehicle fuel** subject to the motor vehicle fuel tax under ORS Chapter 319. Diesel, gasoline, aviation fuel, and other motor fuels separately taxed at the pump are excluded from the CAT base to avoid pyramiding. 3. **Receipts from the sale of fixed assets** used in the trade or business — this captures equipment dispositions, real estate sales by an operating business (the sale of an office building used by the business), and similar non-recurring receipts. Note that this exclusion is for receipts from the sale of business assets, not inventory. 4. **Dividends, interest, and capital contributions** received by the taxpayer. This treats CAT consistently with its character as a tax on trading activity rather than passive investment. 5. **Receipts from intercompany transactions** within a unitary group that has elected combined filing under section 8. 6. **Receipts from the wholesale or retail sale of liquid fuel for use in a motor vehicle**, as referenced in item 2. 7. **Receipts that the U.S. Constitution or federal statute prohibits Oregon from taxing.** This includes receipts protected by P.L. 86-272 to the extent that statute applies, certain federally-preempted transactions (interstate commerce in articles preempted by federal regulation), and similar items. 8. **Receipts from the sale of agricultural commodities by an agricultural cooperative** under ORS 317A.100(4)(c). 9. **Damages received from a lawsuit** (compensatory, not punitive, where punitive damages are commercial in character). 10. **Insurance proceeds** unless they represent business interruption coverage for lost gross receipts (which is treated as ordinary commercial activity). 11. **Receipts of the federal government, the State of Oregon, any political subdivision, and certain federally tax-exempt organizations** in their non-commercial activity. A 501(c)(3) running an unrelated trade or business is treated like any other taxpayer with respect to the UBI receipts. 12. **Receipts from the sale of a vehicle, vessel, or aircraft** by a person not in the business of selling them — but a dealer's normal-course sales are commercial activity. The full statutory exclusion list runs to 40+ items. Practitioners must check the current statutory text and the Department of Revenue's Form OR-CAT instructions for the complete list when a borderline receipt is at issue.  _(ORS 317A.100(1)(b); ORS Chapter 319; ORS 317A.100(4)(c); 7 U.S.C. §2012(k))_
+
+### 2.4 The grocery exclusion in practice
+
+The grocery exclusion under SB 164 is operationally complex because most retailers do not sell exclusively groceries. A convenience store, for example, may sell SNAP-eligible food, prepared hot food (not excluded), alcohol (not excluded), tobacco (not excluded), and motor fuel (separately excluded). The taxpayer must separately track each line and exclude only the grocery-qualifying portion.
+
+For a wholesale grocery distributor whose entire business consists of SNAP-eligible food, the exclusion may zero out the CAT base entirely, leaving only the $250 minimum tax — and even that is owed only if the taxpayer remains over the $1 million threshold after applying the exclusion. If the post-exclusion base is below $1 million, no CAT is due (subject to the registration question in section 4).
+
+### 2.5 Returns and allowances
+
+- **Returns and allowances treatment** — Returns and allowances are not separately listed in the statutory exclusions, but the "total amount realized" formulation effectively reduces the base by genuine returns because the taxpayer never realized the receipt in the first place — the sale was undone. Refunds of services, however, must be examined carefully because the original receipt was realized when paid and a later refund is treated as a reduction in commercial activity in the year of refund, not retroactively. The Department of Revenue's position is that bona fide returns processed within the same reporting period reduce commercial activity. Returns processed in a later period are deducted in that later period.  _(Department of Revenue position (unsure - no statutory cite given))_
 
 
 ## Deadlines and filing
@@ -484,17 +495,3 @@ version (and the professional behind it) is at
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
-
----
-name: or-cat
-description: Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals (not yet confirmed) plus 0.57% of taxable commercial activity above (not yet confirmed) million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at (not yet confirmed) of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
-jurisdiction: US-OR
-tax_year: 2025
-last_updated: 2026-07-13
-review_status: pending_review
-trust_label: Built by Michael Cutajar and the OpenAccountants team
-tier: 2
-license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
----
-
-# OR Cat
