@@ -64,14 +64,14 @@ Every rule in this skill is tagged with a confidence tier:
 
 ### 1.1 State Rate
 
-- **State sales tax rate** — 5% (verified verbatim in archived Pub 240: "A tax is imposed on all retailers at the rate of 5 percent"; Wis. Stat. §77.52(1))
+- **State sales tax rate** -- 5% (verified verbatim in archived Pub 240: "A tax is imposed on all retailers at the rate of 5 percent"; Wis. Stat. §77.52(1))
 
 ### 1.2 County Tax
 
-- **County sales tax** — 0.5% percent (All 72 counties authorized; per WDOR Form S-203 (R. 4-26, archived): "Seventy counties have adopted a 0.5% county sales and use tax" - Milwaukee County is at 0.9% since 1 Jan 2024. [T1])
-- **No city/special district tax** — There are no city or special district sales taxes in Wisconsin. [T1]
-- **Maximum combined rate** — 5.5% percent (5% state + 0.5% county. [T1])
-- **Counties without the 0.5% tax** — A small number of counties do not levy the county option tax. Check WDOR's current county tax list. [T2]
+- **County sales tax** -- 0.5% percent (All 72 counties authorized; per WDOR Form S-203 (R. 4-26, archived): "Seventy counties have adopted a 0.5% county sales and use tax" - Milwaukee County is at 0.9% since 1 Jan 2024. [T1])
+- **No city/special district tax** -- There are no city or special district sales taxes in Wisconsin. [T1]
+- **Maximum combined rate** -- 5.5% percent (5% state + 0.5% county. [T1])
+- **Counties without the 0.5% tax** -- A small number of counties do not levy the county option tax. Check WDOR's current county tax list. [T2]
 
 ### 1.3 Stadium Tax (Expired)
 
@@ -79,16 +79,16 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 
 ### 1.4 Sourcing Rules [T1]
 
-- **Sourcing method** — Wisconsin follows SST destination-based sourcing.
-- **Shipped/delivered goods sourcing** — Destination (ship-to address). [T1]
-- **Over-the-counter sourcing** — Seller's location. [T1]
-- **Digital goods sourcing** — Buyer's address. [T1]
+- **Sourcing method** -- Wisconsin follows SST destination-based sourcing.
+- **Shipped/delivered goods sourcing** -- Destination (ship-to address). [T1]
+- **Over-the-counter sourcing** -- Seller's location. [T1]
+- **Digital goods sourcing** -- Buyer's address. [T1]
 
 ## Step 2: Transaction Classification Rules
 
 ### 2.1 General Rule
 
-- **General taxability rule** — Wisconsin sales tax applies to the retail sale of tangible personal property, certain services, and certain digital goods.  _(Wis. Stat. Section 77.52)_
+- **General taxability rule** -- Wisconsin sales tax applies to the retail sale of tangible personal property, certain services, and certain digital goods.  _(Wis. Stat. Section 77.52)_
 
 ### 2.2 Taxability Matrix
 
@@ -119,18 +119,18 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 
 ### 2.3 Grocery Food Exemption [T1]
 
-- **Grocery food exemption scope** — Wisconsin fully exempts food and food ingredients for home consumption. Follows SST definition of food (Wisconsin is an SST member). [T1]  _(Wis. Stat. Section 77.54(20n))_
-- **Candy taxable** — Candy is taxable (excluded from food under SST). [T1]  _(Wis. Stat. Section 77.54(20n))_
-- **Soft drinks taxable** — Soft drinks are taxable (excluded from food under SST). [T1]  _(Wis. Stat. Section 77.54(20n))_
-- **Dietary supplements taxable** — Dietary supplements are taxable. [T1]  _(Wis. Stat. Section 77.54(20n))_
-- **Prepared food taxable** — Prepared food is taxable. [T1]  _(Wis. Stat. Section 77.54(20n))_
+- **Grocery food exemption scope** -- Wisconsin fully exempts food and food ingredients for home consumption. Follows SST definition of food (Wisconsin is an SST member). [T1]  _(Wis. Stat. Section 77.54(20n))_
+- **Candy taxable** -- Candy is taxable (excluded from food under SST). [T1]  _(Wis. Stat. Section 77.54(20n))_
+- **Soft drinks taxable** -- Soft drinks are taxable (excluded from food under SST). [T1]  _(Wis. Stat. Section 77.54(20n))_
+- **Dietary supplements taxable** -- Dietary supplements are taxable. [T1]  _(Wis. Stat. Section 77.54(20n))_
+- **Prepared food taxable** -- Prepared food is taxable. [T1]  _(Wis. Stat. Section 77.54(20n))_
 
 ### 2.4 SaaS -- Not Taxable [T2]
 
-- **SaaS not taxable determination** — WDOR has determined that SaaS is not the sale of tangible personal property or a taxable service. [T2]
-- **Access vs. copy distinction** — The customer is accessing software on the vendor's server, not receiving a copy of software. [T2]
-- **Canned software vs SaaS** — Canned software delivered electronically IS taxable, but SaaS is distinguished. [T2]
-- **SaaS classification test** — The line between 'electronically delivered software' (taxable) and 'SaaS' (not taxable) requires analysis of whether the customer receives a transferable copy. [T2]
+- **SaaS not taxable determination** -- WDOR has determined that SaaS is not the sale of tangible personal property or a taxable service. [T2]
+- **Access vs. copy distinction** -- The customer is accessing software on the vendor's server, not receiving a copy of software. [T2]
+- **Canned software vs SaaS** -- Canned software delivered electronically IS taxable, but SaaS is distinguished. [T2]
+- **SaaS classification test** -- The line between 'electronically delivered software' (taxable) and 'SaaS' (not taxable) requires analysis of whether the customer receives a transferable copy. [T2]
 
 ### 2.5 Services Taxability [T2]
 
@@ -156,8 +156,8 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 
 ### 3.1 Registration
 
-- **Seller's Permit registration** — All sellers with nexus must register with WDOR for a Seller's Permit. Registration through My Tax Account portal.  _(Wis. Stat. Section 77.52(7))_
-- **Registration fee** — $20 USD (One-time fee. [T1])  _(Wis. Stat. Section 77.52(7))_
+- **Seller's Permit registration** -- All sellers with nexus must register with WDOR for a Seller's Permit. Registration through My Tax Account portal.  _(Wis. Stat. Section 77.52(7))_
+- **Registration fee** -- $20 USD (One-time fee. [T1])  _(Wis. Stat. Section 77.52(7))_
 
 ### 3.2 Filing Frequency
 
@@ -171,15 +171,15 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 
 ### 3.3 Returns and Payment
 
-- **Form ST-12** — Form ST-12 (Wisconsin Sales and Use Tax Return) is the primary return. [T1]
-- **Electronic filing requirement** — Electronic filing through My Tax Account is required. [T1]
-- **Payment due date** — Payment due on the same date as the return. [T1]
-- **County tax reporting** — County taxes are reported on the same return. [T1]
+- **Form ST-12** -- Form ST-12 (Wisconsin Sales and Use Tax Return) is the primary return. [T1]
+- **Electronic filing requirement** -- Electronic filing through My Tax Account is required. [T1]
+- **Payment due date** -- Payment due on the same date as the return. [T1]
+- **County tax reporting** -- County taxes are reported on the same return. [T1]
 
 ### 3.4 Vendor Discount
 
-- **Retailer's discount rate** — 0.5% of the tax due (both state and county), up to a maximum of $1,000 per reporting period. [T1] percent  _(Wis. Stat. Section 77.61(4)(a))_
-- **Discount availability condition** — Available only for timely filing and payment. [T1]  _(Wis. Stat. Section 77.61(4)(a))_ (not yet confirmed)
+- **Retailer's discount rate** -- 0.5% of the tax due (both state and county), up to a maximum of $1,000 per reporting period. [T1] percent  _(Wis. Stat. Section 77.61(4)(a))_
+- **Discount availability condition** -- Available only for timely filing and payment. [T1]  _(Wis. Stat. Section 77.61(4)(a))_ (not yet confirmed)
 
 ### 3.5 Penalties and Interest
 
@@ -207,34 +207,34 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 
 ### 5.2 Requirements [T1]
 
-- **Valid certificate requirements** — Valid certificates must include: purchaser information, seller's permit number (for resale), reason for exemption, description of goods, signature, date. [T1]
+- **Valid certificate requirements** -- Valid certificates must include: purchaser information, seller's permit number (for resale), reason for exemption, description of goods, signature, date. [T1]
 
 ### 5.3 Good Faith and Retention [T1]
 
-- **Certificate retention period** — Good faith acceptance protects sellers. Certificates must be retained for 4 years from the date of the last transaction. [T1] years
+- **Certificate retention period** -- Good faith acceptance protects sellers. Certificates must be retained for 4 years from the date of the last transaction. [T1] years
 
 ### 6.1 When Use Tax Applies
 
-- **Use tax applicability** — Wisconsin use tax applies when sales tax was not collected on items used, stored, or consumed in Wisconsin. [T1]
+- **Use tax applicability** -- Wisconsin use tax applies when sales tax was not collected on items used, stored, or consumed in Wisconsin. [T1]
 
 ### 6.2 Use Tax Rate
 
-- **Use tax rate** — 5.5% (5% state + 0.5% county (if applicable), maximum [T1])
+- **Use tax rate** -- 5.5% (5% state + 0.5% county (if applicable), maximum [T1])
 
 ### 6.3 Use Tax Reporting
 
-- **Business reporting** — Businesses: Report on Form ST-12. [T1]
-- **Individual reporting** — Individuals: Report on Wisconsin income tax return (Form 1), Line 14. [T1]
+- **Business reporting** -- Businesses: Report on Form ST-12. [T1]
+- **Individual reporting** -- Individuals: Report on Wisconsin income tax return (Form 1), Line 14. [T1]
 
 ## Step 5: Key Thresholds
 
 ### 4.1 Physical Nexus
 
-- **Physical nexus standard** — Standard physical nexus principles apply. [T1]
+- **Physical nexus standard** -- Standard physical nexus principles apply. [T1]
 
 ### 4.2 Economic Nexus [T1]
 
-- **Economic nexus enactment date** — October 1, 2018
+- **Economic nexus enactment date** -- October 1, 2018
 
 **Economic Nexus Thresholds**  _(Wis. Stat. Section 77.53(9m))_
 
@@ -244,13 +244,13 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 | Transactions | N/A (revenue only) |  |
 | Test | Revenue only -- no transaction count test |  |
 
-- **No transaction count alternative** — Wisconsin uses a revenue-only threshold. There is no transaction-count alternative. [T1]  _(Wis. Stat. Section 77.53(9m))_
+- **No transaction count alternative** -- Wisconsin uses a revenue-only threshold. There is no transaction-count alternative. [T1]  _(Wis. Stat. Section 77.53(9m))_
 
 ### 4.3 Marketplace Facilitator Rules [T1]
 
-- **Marketplace facilitator effective date** — Effective January 1, 2020.  _(Wis. Stat. Section 77.52(1m))_
-- **Facilitator collection obligation** — Marketplace facilitators meeting the nexus threshold must collect and remit. [T1]  _(Wis. Stat. Section 77.52(1m))_
-- **Marketplace seller relief** — Marketplace sellers relieved for facilitated sales. [T1]  _(Wis. Stat. Section 77.52(1m))_
+- **Marketplace facilitator effective date** -- Effective January 1, 2020.  _(Wis. Stat. Section 77.52(1m))_
+- **Facilitator collection obligation** -- Marketplace facilitators meeting the nexus threshold must collect and remit. [T1]  _(Wis. Stat. Section 77.52(1m))_
+- **Marketplace seller relief** -- Marketplace sellers relieved for facilitated sales. [T1]  _(Wis. Stat. Section 77.52(1m))_
 
 ## Step 6: Filing Deadlines and Penalties
 
@@ -258,60 +258,60 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ## PROHIBITIONS
 
-- **1** — NEVER advise that Wisconsin has city or special district sales taxes (only state and county). [T1]
-- **2** — NEVER advise that SaaS is taxable in Wisconsin (it is not). [T1]
-- **3** — NEVER advise that grocery food is taxable in Wisconsin (it is exempt). [T1]
-- **4** — NEVER advise that clothing is exempt in Wisconsin (it is taxable -- no clothing exemption). [T1]
-- **5** — NEVER calculate a combined rate exceeding 5.5% (5% state + 0.5% county max). [T1]
-- **6** — NEVER use a transaction-count threshold for Wisconsin economic nexus (revenue only, $100K). [T1]
-- **7** — NEVER forget that landscaping services are taxable in Wisconsin. [T1]
-- **8** — NEVER advise that Wisconsin is not an SST member (it is a full member). [T1]
-- **9** — NEVER assume all counties levy the 0.5% tax without verifying. [T2]
-- **10** — NEVER ignore the $20 seller's permit fee when advising on registration. [T1]
+- **1** -- NEVER advise that Wisconsin has city or special district sales taxes (only state and county). [T1]
+- **2** -- NEVER advise that SaaS is taxable in Wisconsin (it is not). [T1]
+- **3** -- NEVER advise that grocery food is taxable in Wisconsin (it is exempt). [T1]
+- **4** -- NEVER advise that clothing is exempt in Wisconsin (it is taxable -- no clothing exemption). [T1]
+- **5** -- NEVER calculate a combined rate exceeding 5.5% (5% state + 0.5% county max). [T1]
+- **6** -- NEVER use a transaction-count threshold for Wisconsin economic nexus (revenue only, $100K). [T1]
+- **7** -- NEVER forget that landscaping services are taxable in Wisconsin. [T1]
+- **8** -- NEVER advise that Wisconsin is not an SST member (it is a full member). [T1]
+- **9** -- NEVER assume all counties levy the 0.5% tax without verifying. [T2]
+- **10** -- NEVER ignore the $20 seller's permit fee when advising on registration. [T1]
 
 ## Edge Case Registry
 
 ### 7.1 Manufacturing Exemption [T2]
 
-- **Manufacturing exemption standard** — Machinery and equipment used exclusively and directly in manufacturing are exempt. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
-- **Manufacturing definition** — "Manufacturing" includes processing, fabricating, and assembling. [T1]  _(Wis. Stat. Section 77.54(6)(am))_
-- **Exclusively and directly standard** — The "exclusively and directly" standard is stricter than some states' "predominantly" test. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
-- **Dual-use equipment** — Dual-use equipment (manufacturing + non-manufacturing) may not qualify. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
+- **Manufacturing exemption standard** -- Machinery and equipment used exclusively and directly in manufacturing are exempt. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
+- **Manufacturing definition** -- "Manufacturing" includes processing, fabricating, and assembling. [T1]  _(Wis. Stat. Section 77.54(6)(am))_
+- **Exclusively and directly standard** -- The "exclusively and directly" standard is stricter than some states' "predominantly" test. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
+- **Dual-use equipment** -- Dual-use equipment (manufacturing + non-manufacturing) may not qualify. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
 
 ### 7.2 Landscaping and Lawn Care [T1]
 
-- **Landscaping taxable services** — Lawn mowing, snow removal, tree trimming: taxable. [T1]
-- **Landscape design not taxable** — Landscape design (intellectual services): generally not taxable. [T2]
-- **Landscaping materials taxable** — Materials incorporated into landscaping: taxable. [T1]
+- **Landscaping taxable services** -- Lawn mowing, snow removal, tree trimming: taxable. [T1]
+- **Landscape design not taxable** -- Landscape design (intellectual services): generally not taxable. [T2]
+- **Landscaping materials taxable** -- Materials incorporated into landscaping: taxable. [T1]
 
 ### 7.3 Construction Contractors [T2]
 
-- **Contractor materials tax** — Contractors pay tax on materials at purchase. [T1]
-- **No sales tax collection on real property** — Contractors do NOT collect sales tax on real property improvements. [T1]
-- **Time and materials vs lump sum** — Time and materials vs. lump sum contracts may be treated differently for certain items. [T2]
+- **Contractor materials tax** -- Contractors pay tax on materials at purchase. [T1]
+- **No sales tax collection on real property** -- Contractors do NOT collect sales tax on real property improvements. [T1]
+- **Time and materials vs lump sum** -- Time and materials vs. lump sum contracts may be treated differently for certain items. [T2]
 
 ### 7.4 Trade-In Credits [T1]
 
-- **Trade-in credit reduces base** — Trade-in of like-kind property reduces the taxable base. [T1]  _(Wis. Stat. Section 77.51(15b)(a))_
-- **Trade-in applicability** — Applies to motor vehicles, boats, aircraft, and other TPP. [T1]  _(Wis. Stat. Section 77.51(15b)(a))_
+- **Trade-in credit reduces base** -- Trade-in of like-kind property reduces the taxable base. [T1]  _(Wis. Stat. Section 77.51(15b)(a))_
+- **Trade-in applicability** -- Applies to motor vehicles, boats, aircraft, and other TPP. [T1]  _(Wis. Stat. Section 77.51(15b)(a))_
 
 ### 7.5 Coin-Operated Amusement and Vending [T1]
 
-- **Vending machine food sales** — Coin-operated vending machine sales of food are taxable. [T1]
-- **Coin-operated amusement devices** — Coin-operated amusement devices: the operator pays use tax on the purchase; individual transactions by customers are not separately taxed. [T2]
+- **Vending machine food sales** -- Coin-operated vending machine sales of food are taxable. [T1]
+- **Coin-operated amusement devices** -- Coin-operated amusement devices: the operator pays use tax on the purchase; individual transactions by customers are not separately taxed. [T2]
 
 ### 7.6 Motor Vehicles and Boats [T1]
 
-- **Motor vehicle tax and rate** — Motor vehicles: taxable at 5% + county 0.5%. Tax paid at DMV registration. [T1]
-- **Boats and watercraft tax** — Boats and personal watercraft: same rate, paid at registration with DNR. [T1]
-- **Trade-in credits for vehicles** — Trade-in credits reduce the taxable base. [T1]
-- **Casual sales between individuals** — Casual sales between individuals: use tax applies. [T1]
+- **Motor vehicle tax and rate** -- Motor vehicles: taxable at 5% + county 0.5%. Tax paid at DMV registration. [T1]
+- **Boats and watercraft tax** -- Boats and personal watercraft: same rate, paid at registration with DNR. [T1]
+- **Trade-in credits for vehicles** -- Trade-in credits reduce the taxable base. [T1]
+- **Casual sales between individuals** -- Casual sales between individuals: use tax applies. [T1]
 
 ### 7.7 Temporary Events and Craft Fairs [T1]
 
-- **Temporary event seller's permit requirement** — Sellers at temporary events (craft fairs, festivals) must have a seller's permit. [T1]
-- **Out-of-state sellers at events** — Out-of-state sellers making sales at Wisconsin events establish physical nexus. [T1]
-- **Temporary seller's permit availability** — A temporary seller's permit is available for sellers at single events. [T1]
+- **Temporary event seller's permit requirement** -- Sellers at temporary events (craft fairs, festivals) must have a seller's permit. [T1]
+- **Out-of-state sellers at events** -- Out-of-state sellers making sales at Wisconsin events establish physical nexus. [T1]
+- **Temporary seller's permit availability** -- A temporary seller's permit is available for sellers at single events. [T1]
 
 ### Test Suite
 
@@ -389,7 +389,7 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -440,7 +440,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 

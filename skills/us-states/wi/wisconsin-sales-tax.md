@@ -351,7 +351,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 - [DOR Tax Rates](https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx)
 - [DOR County and City Sales and Use Taxes](https://www.revenue.wi.gov/Pages/FAQS/pcs-county.aspx)
@@ -383,7 +383,7 @@ The most up-to-date version of this skill is maintained on the OpenAccountants w
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -432,8 +432,8 @@ Not yet confirmed against archived sources.
 | Source | URL | Read on |
 | --- | --- | --- |
 | Wisconsin DOR (home) | https://www.revenue.wi.gov | 2026-10-29 |
-| Wisconsin DOR — Sales/Use tax forms (S-114) | https://www.revenue.wi.gov/DORForms/S-114.pdf | 2026-10-29 |
-| Wisconsin DOR — Publication 240 | https://www.revenue.wi.gov/DOR%20Publications/pb240.pdf | 2026-10-29 |
+| Wisconsin DOR -- Sales/Use tax forms (S-114) | https://www.revenue.wi.gov/DORForms/S-114.pdf | 2026-10-29 |
+| Wisconsin DOR -- Publication 240 | https://www.revenue.wi.gov/DOR%20Publications/pb240.pdf | 2026-10-29 |
 
 Not yet confirmed: the rate, threshold, and due-date figures in this skill were not found in the archived sources (archived 2026-10-29).
 

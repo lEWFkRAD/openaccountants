@@ -2,7 +2,7 @@
 name: wi-corporate-income-tax
 description: >
   Use this skill whenever asked about Wisconsin corporate income tax for tax
-  year 2026 — the Form 4 franchise tax at a flat 7.9% on Wisconsin-apportioned
+  year 2026 -- the Form 4 franchise tax at a flat 7.9% on Wisconsin-apportioned
   income (income tax at 7.9% for certain foreign corporations in exclusively
   interstate/foreign commerce), the "doing business in Wisconsin" filing
   triggers and P.L. 86-272 limits, the economic development surcharge (3% of
@@ -32,15 +32,15 @@ depends_on:
 
 ## Who this applies to
 
-Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4** (non-combined) or **Form 6** (combined — see `wi-transfer-pricing`). Most corporations owe the **franchise tax**; a narrow class of foreign corporations owes the **income tax**. Both run at **7.9%**. S corporations file **Form 5S** (entity-level tax on built-in gains and certain items; owners taxed at the individual rates).
+Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4** (non-combined) or **Form 6** (combined -- see `wi-transfer-pricing`). Most corporations owe the **franchise tax**; a narrow class of foreign corporations owes the **income tax**. Both run at **7.9%**. S corporations file **Form 5S** (entity-level tax on built-in gains and certain items; owners taxed at the individual rates).
 
-**Source status (as_of 2026-10-27):** [2025 Form 4 instructions, IC-100 (R. 10-25)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) fetched as PDF and read — rate, surcharge, doing-business list, combined tests, penalties, apportionment all quoted from it. 2026 instructions not yet published at read time; figures are 2025 unless flagged.
+**Source status (as_of 2026-10-27):** [2025 Form 4 instructions, IC-100 (R. 10-25)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) fetched as PDF and read -- rate, surcharge, doing-business list, combined tests, penalties, apportionment all quoted from it. 2026 instructions not yet published at read time; figures are 2025 unless flagged.
 
 ### 2. Who applies
 
 - **Franchise tax:** all **domestic** (Wisconsin-organized) corporations, and **foreign corporations doing business in Wisconsin** (or buying/selling Wisconsin lottery prizes), unless exempted by statute or barred by federal law.
-- **Income tax:** only foreign corporations **not** subject to the franchise tax that own property in Wisconsin or whose Wisconsin business is **exclusively in foreign or interstate commerce** — the P.L. 86-272 pocket.
-- **"Doing business" triggers** (per IC-100): selling lottery prizes; issuing credit/debit cards to Wisconsin customers; regularly selling to Wisconsin customers who receive in Wisconsin; regularly soliciting business in Wisconsin — **except where P.L. 86-272 protects** solicitation of orders for tangible personal property.
+- **Income tax:** only foreign corporations **not** subject to the franchise tax that own property in Wisconsin or whose Wisconsin business is **exclusively in foreign or interstate commerce** -- the P.L. 86-272 pocket.
+- **"Doing business" triggers** (per IC-100): selling lottery prizes; issuing credit/debit cards to Wisconsin customers; regularly selling to Wisconsin customers who receive in Wisconsin; regularly soliciting business in Wisconsin -- **except where P.L. 86-272 protects** solicitation of orders for tangible personal property.
 - **Always-file rule:** multistate corporations, Wisconsin-only corporations, domestic insurers, and unlicensed corporations must file even absent "doing business."
 - **Exempt entities** (secs. 71.26(1)/71.45(1)): insurers exempt under IRC §501(c)(15), completely inactive corporations that filed Form 4H, certain credit unions that filed Form CU, and others. (not yet confirmed)
 - **S corporations:** Form 5S; REITs/RICs/REMICs/FASITs file separately and can never join a combined group.
@@ -61,27 +61,27 @@ Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4
 
 | Filing | Due |
 |---|---|
-| Form 4 / 5S / 6 | On or before the **federal due date**; a Wisconsin extension runs to **30 days after the federal extended date** — automatic, no WI application |
+| Form 4 / 5S / 6 | On or before the **federal due date**; a Wisconsin extension runs to **30 days after the federal extended date** -- automatic, no WI application |
 | Short-year return | Federal short-year due date |
 | Final return (dissolution) | Within 3 months of dissolution (2nd/3rd month per IC-100 rule) |
-| Estimated tax | Quarterly corporate estimates (Form 4ES) — amounts per IC-100 |
+| Estimated tax | Quarterly corporate estimates (Form 4ES) -- amounts per IC-100 |
 
 ### 5. Penalties and interest
 
-- **Interest on delinquent taxes: 18% per year** — one of the highest in the country. **AUDIT FLASH POINT.** (not yet confirmed)
+- **Interest on delinquent taxes: 18% per year** -- one of the highest in the country. **AUDIT FLASH POINT.** (not yet confirmed)
 - Civil penalties up to **100% of unreported tax** for negligence/fraud; false-return criminal exposure: fine up to $10,000 and imprisonment.
 - Reportable-transaction non-disclosure penalties per IC-100.
 
 ### 6. Cross-border
 
 - **P.L. 86-272** protects solicitation-only tangible-goods sellers from the franchise tax but not from the income tax branch (which exists precisely for that federal pocket).
-- **Single sales factor** pulls out-of-state sellers with Wisconsin customers into the base — market-based sourcing for sales; specialized-industry schedules for services/intangibles.
-- **Combined groups** (Form 6) apply a **water's edge** rule — see `wi-transfer-pricing`.
+- **Single sales factor** pulls out-of-state sellers with Wisconsin customers into the base -- market-based sourcing for sales; specialized-industry schedules for services/intangibles.
+- **Combined groups** (Form 6) apply a **water's edge** rule -- see `wi-transfer-pricing`.
 - Wisconsin has no reciprocal corporate relief with other states.
 
 ### 7. Worked examples
 
-**Example A — standalone Form 4 with ED surcharge.**
+**Example A -- standalone Form 4 with ED surcharge.**
 
 ```oa-check
 name: Form 4 tax plus economic development surcharge
@@ -103,7 +103,7 @@ expected:
   total: 81370.00
 ```
 
-**Example B — surcharge cap bites on a large liability.**
+**Example B -- surcharge cap bites on a large liability.**
 
 ```oa-check
 name: ED surcharge capped at 9,800
@@ -131,13 +131,13 @@ expected:
 
 ### 9. Sources
 
-- [2025 Form 4 instructions IC-100 (R. 10-25)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) — PDF read 2026-10-27 (all quoted figures)
-- [Wis. Stat. § 71.21 et seq.](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) — read 2026-10-27 (not yet confirmed)
-- `wi-transfer-pricing` (this pack) — combined reporting; `wi-income-tax` — S corp owner rates
+- [2025 Form 4 instructions IC-100 (R. 10-25)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) -- PDF read 2026-10-27 (all quoted figures)
+- [Wis. Stat. § 71.21 et seq.](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) -- read 2026-10-27 (not yet confirmed)
+- `wi-transfer-pricing` (this pack) -- combined reporting; `wi-income-tax` -- S corp owner rates
 - **not yet confirmed:** 2026 Form 4 instructions (not published at read time); Form 4ES estimate thresholds; insurance premiums tax (sec. 71.35) detail.
 
 <!-- openaccountants-cta-block -->
-**Talk to a verified accountant** — for Wisconsin Form 4 and franchise tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Wisconsin Form 4 and franchise tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 ## Rates, bands and thresholds
 
@@ -174,7 +174,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
