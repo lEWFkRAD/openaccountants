@@ -52,7 +52,7 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
    - Form REV-419, only from an employee who claims nonwithholding (see step 5).
    - The Residency Certification Form for local EIT, filled in from DCED's address search and kept in the personnel file. The employee must also tell you of any later name or address change.
    - Any LST exemption certificate or principal-employer statement.
-4. **Withhold PA tax at 3.07%** of PA compensation for each payroll period. For supplemental pay, add it to the current period's compensation and apply the same rate ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf)).
+4. **Withhold PA tax at 3.07%** of PA compensation for each payroll period. For supplemental pay, add it to the current period's compensation and apply the same rate ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf)). (not yet confirmed)
    - **Residents:** withhold on all compensation, wherever the work is done, with two exceptions that depend on the other state:
      - Working entirely in another state: withhold on all of it, unless that state has an income tax and you are withholding that state's tax.
      - Working partly in another state that has an income tax, where you withhold that tax: withhold PA tax on the PA share, meaning PA working days divided by total working days, times total compensation. If the other state has no income tax, withhold PA tax on everything.
@@ -70,11 +70,11 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 
 ### PA personal income tax withholding ([Employer Withholding](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/employer-withholding); [REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf))
 
-- **Rate:** 3.07% flat, for residents and nonresidents earning income in Pennsylvania. The same rate applied in 2025.
+- **Rate:** 3.07% flat, for residents and nonresidents earning income in Pennsylvania. The same rate applied in 2025. (not yet confirmed)
 - **Compensation** includes salaries, wages, commissions, bonuses, fees, stock options and tips, in cash or property. Differences from federal wages that matter for payroll:
   - Elective deferrals into 401(k) and other retirement plans, by salary reduction or payroll deduction, are taxable for Pennsylvania. Include them in PA wages on the W-2.
   - Employer payments to welfare benefit plans for medical, dental or vision care are generally not taxable.
-  - Group term life insurance bought for employees is excluded if the program is not discriminatory. Pennsylvania has no $50,000 threshold.
+  - Group term life insurance bought for employees is excluded if the program is not discriminatory. Pennsylvania has no $50,000 threshold. (not yet confirmed)
   - Personal use of employer-provided property or services (for example a company car) is not compensation. A cash allowance or reimbursement for the same thing is.
   - Pay in lieu of vacation days, employer help with adoption costs and non-job-related education are taxable.
   - For other items, use the table in the Department's PIT Guide chapter on withholding ([PIT Guide, withholding](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/papersonalincometaxguide/documents/pitguide_withholding.pdf)).
@@ -84,7 +84,7 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 
 | PA tax you can reasonably expect to withhold | Frequency | When payment is due |
 | --- | --- | --- |
-| Less than $300 per quarter | Quarterly | Last day of April, July, October and January |
+| Less than $300 per quarter | Quarterly | Last day of April, July, October and January | (not yet confirmed)
 | $300 or more, but less than $1,000, per quarter | Monthly | 15th of the next month for January to November; January 31 for December |
 | $1,000 or more, but less than $5,000, per quarter | Semi-monthly | Within three banking days after each period ends. Periods end on the 15th and the last day of the month |
 | $5,000 or more per quarter, or $20,000 or more per calendar year | Semi-weekly | Payday Wednesday, Thursday or Friday: the following Wednesday. Payday Saturday, Sunday, Monday or Tuesday: the following Friday |
@@ -102,7 +102,7 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 - **Revocation:** the employee must revoke it in writing within 10 days of the day they expect to have PA tax liability for the year.
 - **Send a copy to the Department** (Bureau of Individual Taxes) when:
   - you have reason to believe the certificate is incorrect;
-  - a Tax Forgiveness claimant's PA taxable gross compensation exceeds $1,625 for any quarter;
+  - a Tax Forgiveness claimant's PA taxable gross compensation exceeds $1,625 for any quarter; (not yet confirmed)
   - the employee claims reciprocal-state residence; or
   - the employee claims the SCRA exemption.
 - If the Department disapproves a certificate, start withholding at the regular rate at once. After a revocation by the Department, send any new certificate from that employee for approval before stopping withholding.
@@ -111,11 +111,11 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 
 ### W-2s and the W-2 transmittal ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf))
 
-- **Due date:** whatever the federal due date, file W-2s with Pennsylvania by January 31 after the tax year. If the business ended during the year, file within 30 days of the end of business.
+- **Due date:** whatever the federal due date, file W-2s with Pennsylvania by January 31 after the tax year. If the business ended during the year, file within 30 days of the end of business. (not yet confirmed)
 - **Transmittal:** file a REV-1667 Annual Withholding Reconciliation Statement with the W-2s, one for each FEIN. myPATH screen printouts do not replace it.
 - **Method:** 10 or more W-2s must be filed electronically through myPATH. Fewer than 10 may use myPATH, TeleFile or paper.
 - **Contents:** "Pennsylvania" on the form, PA taxable compensation, and PA tax withheld in the state tax box, with the usual employer and employee identifiers.
-- **Terminated employees:** if one asks in writing and no further work is expected that year, furnish the W-2 by the 30th day after the request or after the last wage payment, whichever is later.
+- **Terminated employees:** if one asks in writing and no further work is expected that year, furnish the W-2 by the 30th day after the request or after the last wage payment, whichever is later. (not yet confirmed)
 - **Penalty:** $50 for each willful false W-2, each willful failure to furnish one, and each W-2 missing required information.
 
 ### Local earned income tax under Act 32 ([DCED FAQ](https://dced.pa.gov/local-government/local-income-tax-information/local-withholding-tax-faqs/); [DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/))
@@ -147,14 +147,14 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 | Item | 2026 | 2025 |
 | --- | --- | --- |
 | Employer taxable wage base, per employee per calendar year | $10,000 | $10,000 |
-| Newly liable employer, not construction | 3.822% | 3.822% |
-| Newly liable employer, construction | 10.5924% | 10.5924% |
-| Experience-rated total rate, minimum | 1.419% | 1.419% |
-| Experience-rated total rate, maximum (not delinquent) | 10.3734% | 10.3734% |
+| Newly liable employer, not construction | 3.822% | 3.822% | (not yet confirmed)
+| Newly liable employer, construction | 10.5924% | 10.5924% | (not yet confirmed)
+| Experience-rated total rate, minimum | 1.419% | 1.419% | (not yet confirmed)
+| Experience-rated total rate, maximum (not delinquent) | 10.3734% | 10.3734% | (not yet confirmed)
 | Employee contribution, on all gross wages with no cap | 0.07% | 0.07% |
 
 - **What makes up the total rate:** the basic rate, plus 3 points if the account is delinquent, plus a 9.2% surcharge on that sum, plus 0.60% Additional Contributions. The interest factor is zero for 2025 and 2026. The new-employer rates carry the surcharge only (3.5% × 109.2% and 9.7% × 109.2%); the 0.60% is not added unless the employer is also delinquent.
-- **When the new-employer rate ends:** once the employer meets the experience requirements for Group 1, 2 or 3 on UC-820. An employer that is classifiable but does not meet its group's requirements gets 6.4968% if its reserve account balance is zero or positive, and 10.6464% if it is negative.
+- **When the new-employer rate ends:** once the employer meets the experience requirements for Group 1, 2 or 3 on UC-820. An employer that is classifiable but does not meet its group's requirements gets 6.4968% if its reserve account balance is zero or positive, and 10.6464% if it is negative. (not yet confirmed)
 - **Delinquency:** for 2026, 3 points are added to the basic rate unless all registration and tax reports through the second quarter of 2025 were filed and paid.
 - **Employee contribution:** withhold it when wages are paid, from all employees, including those of reimbursable employers. It is based on total gross wages in covered employment, not on PA income tax, so a REV-419 does not remove it. It is a trust fund; failing to withhold or pay it can bring fines, criminal prosecution and personal liability ([Employee withholding](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/employee-withholding)).
 - **2026 rate notice deadlines:** the Department planned to mail Form UC-657 by December 31, 2025. For a notice with that date, a voluntary contribution to lower the rate was due January 30, 2026, and a rate appeal by March 31, 2026 (90 days). The surcharge and Additional Contributions cannot be appealed ([UC tax rates](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/uc-tax-rates)).
@@ -173,11 +173,11 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 
 | Rule | Condition that decides it | Source |
 | --- | --- | --- |
-| Quarterly vs monthly deposits | Less than $300 expected per quarter is quarterly; exactly $300 is monthly | REV-415 |
+| Quarterly vs monthly deposits | Less than $300 expected per quarter is quarterly; exactly $300 is monthly | REV-415 | (not yet confirmed)
 | Semi-monthly | $1,000 or more but less than $5,000 per quarter | REV-415 |
 | Semi-weekly | $5,000 or more per quarter, **or** $20,000 or more per calendar year. Either test is enough | REV-415 |
-| REV-419 copy to the Department | Tax Forgiveness claimant's PA compensation **exceeds** $1,625 in any quarter; any reciprocal-state or SCRA claim; or you doubt the certificate | REV-419 instructions |
-| Reciprocal-state resident | No PA withholding only with a REV-419 on file **and** the home state's tax withheld. Without the form, withhold 3.07% | REV-415 |
+| REV-419 copy to the Department | Tax Forgiveness claimant's PA compensation **exceeds** $1,625 in any quarter; any reciprocal-state or SCRA claim; or you doubt the certificate | REV-419 instructions | (not yet confirmed)
+| Reciprocal-state resident | No PA withholding only with a REV-419 on file **and** the home state's tax withheld. Without the form, withhold 3.07% | REV-415 | (not yet confirmed)
 | Ohio resident paid wages by an S corporation | Holds 20% or more of the shares: reciprocity does not apply to those wages. Withhold 3.07% | DFO-02 |
 | Nonresident working outside PA by choice | Days worked elsewhere for the employee's convenience count as PA days. Employer-required full-time telework from another state is not PA-source | PIT Guide; telework guidance |
 | PA resident working in a no-income-tax state | Withhold PA tax on all compensation | REV-415 |
@@ -198,11 +198,11 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 ### Case 1: resident employee, home and worksite in Pennsylvania ([Employer Withholding](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/employer-withholding); [LST](https://dced.pa.gov/local-government/local-income-tax-information/local-services-tax/))
 
 - **Facts:** paid $3,000 every two weeks (26 pay periods) in 2026. Assumed home Total Resident EIT Rate: 1.5%. Assumed worksite nonresident rate: 1.0%. The worksite levies the $52 LST.
-- PA tax: $3,000 × 3.07% = $92.10.
+- PA tax: $3,000 × 3.07% = $92.10. (not yet confirmed)
 - Employee UC: $3,000 × 0.07% = $2.10.
 - Local EIT: the higher rate is 1.5%, so $3,000 × 1.5% = $45.00, paid to the worksite collector.
 - LST: $52 ÷ 26 = $2.00 a pay period.
-- Total state and local deductions: $141.20.
+- Total state and local deductions: $141.20. (not yet confirmed)
 
 ### Case 2: New Jersey resident working in Pennsylvania ([REV-419](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-419.pdf); [DCED FAQ](https://dced.pa.gov/local-government/local-income-tax-information/local-withholding-tax-faqs/))
 
@@ -211,11 +211,11 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 - Employee UC: $4,000 × 0.07% = $2.80.
 - Local EIT: resident PSD 880000 with a rate of zero, against 1.0% at the worksite, so $4,000 × 1.0% = $40.00.
 - LST: $52 ÷ 26 = $2.00.
-- **Variation:** no REV-419 on file. Withhold PA tax: $4,000 × 3.07% = $122.80.
+- **Variation:** no REV-419 on file. Withhold PA tax: $4,000 × 3.07% = $122.80. (not yet confirmed)
 
 ### Case 3: UC for a new employer in 2026 ([UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights); [UC-749 (09-25)](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2009-25.pdf))
 
-- **Facts:** a newly liable, non-construction employer pays one employee $60,000 in 2026.
+- **Facts:** a newly liable, non-construction employer pays one employee $60,000 in 2026. (not yet confirmed)
 - Employer contribution: $10,000 × 3.822% = $382.20. Wages above $10,000 are not taxable to the employer.
 - Employee contribution: $60,000 × 0.07% = $42.00.
 - **Same wages, experienced employer:** at the minimum total rate, $10,000 × 1.419% = $141.90. At the maximum, $10,000 × 10.3734% = $1,037.34.
@@ -224,10 +224,10 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 ### Case 4: deposit frequency ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf))
 
 - Expected PA withholding of $250 a quarter: quarterly. Q1 is due April 30.
-- $800 a quarter: monthly. March tax is due April 15; December tax is due January 31.
-- $4,500 a quarter: semi-monthly. Tax for the period ending on the 15th is due within three banking days after that date.
-- $6,000 a quarter: semi-weekly. A Friday payday is due the following Wednesday; a Monday payday is due that Friday.
-- Uneven quarters: $4,000 expected in some quarters, but $20,000 or more expected for the year. Semi-weekly, because the annual test is met.
+- $800 a quarter: monthly. March tax is due April 15; December tax is due January 31. (not yet confirmed)
+- $4,500 a quarter: semi-monthly. Tax for the period ending on the 15th is due within three banking days after that date. (not yet confirmed)
+- $6,000 a quarter: semi-weekly. A Friday payday is due the following Wednesday; a Monday payday is due that Friday. (not yet confirmed)
+- Uneven quarters: $4,000 expected in some quarters, but $20,000 or more expected for the year. Semi-weekly, because the annual test is met. (not yet confirmed)
 
 ### Case 5: LST exemption and catch-up ([LST](https://dced.pa.gov/local-government/local-income-tax-information/local-services-tax/))
 
@@ -239,20 +239,20 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 ### Case 6: REV-419 Tax Forgiveness claim ([REV-419](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-419.pdf))
 
 - **Facts:** a student files REV-419 box a, expecting Tax Forgiveness. You stop PA withholding.
-- In Q1 the student earns $1,400. That does not exceed $1,625, so no copy is required on that ground.
-- In Q3 the student earns $1,800. That exceeds $1,625, so send a copy to the Department. If the Department disapproves it, restart withholding at 3.07% at once.
+- In Q1 the student earns $1,400. That does not exceed $1,625, so no copy is required on that ground. (not yet confirmed)
+- In Q3 the student earns $1,800. That exceeds $1,625, so send a copy to the Department. If the Department disapproves it, restart withholding at 3.07% at once. (not yet confirmed)
 
 ### Case 7: tipped server's make-up pay ([tipped worker rules](https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/labor-law/overtime-and-tipped-worker-rules-in-pa))
 
 - **Facts:** a server who earns more than $135 a month in tips works 40 hours at a cash wage of $2.83 and receives $150 in tips that week. No more than 20% of the hours go on duties that do not directly generate tips, and none on work unrelated to tips, so the tip credit applies to all 40 hours.
 - Minimum for the week: 40 × $7.25 = $290.00.
 - Cash wage: 40 × $2.83 = $113.20. With tips: $263.20.
-- Shortfall the employer must pay: $26.80.
+- Shortfall the employer must pay: $26.80. (not yet confirmed)
 
 ## 2025 payrolls: corrections and late filings ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf); [UC yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights))
 
 - The PA rate, the deposit thresholds, the UC wage base of $10,000, the UC rate range, the new-employer rates and the 0.07% employee rate were the same in 2025.
-- 2025 PA W-2s and REV-1667 were due January 31, 2026. The 2025 local W2-R reconciliation was due by the last day of February 2026 ([DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/)). If either is missing, file now; late charges may apply.
+- 2025 PA W-2s and REV-1667 were due January 31, 2026. The 2025 local W2-R reconciliation was due by the last day of February 2026 ([DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/)). If either is missing, file now; late charges may apply. (not yet confirmed)
 - **Correcting 2025 PA withholding:**
   - File an amended quarterly return with W-2Cs; one that lowers total withholding also needs an amended REV-1667. For a credit or refund, file within three years of the date the original payment was received.
   - Decreases for nonresident employees are not accepted; the employee files a PA-40NR for a refund.
@@ -273,7 +273,7 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 ### Returns and due dates ([REV-415](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf); [DCED employer steps](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/); [UC quarterly reports](https://www.pa.gov/services/dli/file-unemployment-compensation-quarterly-wage-tax-reports))
 
 - **PA quarterly withholding return:** due the last day of April, July, October and January, filed on myPATH or by TeleFile. File it every quarter, even with no tax. Monthly, semi-monthly and semi-weekly depositors also file it as the quarterly reconciliation. Preparers of 11 or more returns must file electronically.
-- **PA W-2s with REV-1667:** January 31.
+- **PA W-2s with REV-1667:** January 31. (not yet confirmed)
 - **Local EIT and LST:** quarterly returns and payments to each worksite collector within 30 days after the quarter, or monthly and electronic if you elected a single EIT collector. The W2-R annual reconciliation is due by the last day of February.
 - **UC-2 and UC-2A:** due April 30, July 31, October 31 and January 31, or the next business day if that falls on a weekend or legal holiday. File through UCMS, and file a UC-2 even for a quarter with no wages ([UC-2 instructions](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-2ins.pdf)).
 
@@ -282,7 +282,7 @@ The dollar amounts and all local EIT rates in these cases are made up for illust
 - Interest runs daily on late tax, at the rate the Department announces each year.
 - Failing to file a quarterly return: 5% of the underpayment per month or part month, up to 25%.
 - Failing to pay withheld tax by the quarterly return due date: 5% per month or part month, up to 50%.
-- A false or fraudulent return: 50% of the underpayment.
+- A false or fraudulent return: 50% of the underpayment. (not yet confirmed)
 - Withheld tax is a trust fund. Officers, responsible employees and others can be personally liable, and willful failure can be prosecuted.
 
 ### UC penalties and interest ([UC contributions, penalties and interest](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/calculating-contributions--penalties-and-interest))
