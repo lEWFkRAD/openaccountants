@@ -69,19 +69,19 @@ These reduce taxable wages for withholding-table purposes and feed the VA-4 allo
 
 ### 2.3 Supplemental withholding rate
 
-- **Supplemental withholding rate** — 5.75% (flat rate for bonuses, commissions, other supplemental wage payments)  _(Va. Dept. of Taxation Pub. VA-15A withholding tables, §2.3)_
-- **Practical convention for bonuses** — For bonuses processed in a separate payroll run, withhold a flat 5.75% on the bonus amount in addition to whatever the regular wage withholding produces. For bonuses aggregated with regular wages on a single check, run the combined amount through the regular wage-bracket method.  _(Va. Dept. of Taxation Pub. VA-15A withholding tables, §2.3)_
+- **Supplemental withholding rate** — 5.75% (flat rate for bonuses, commissions, other supplemental wage payments)  _(Va. Dept. of Taxation Pub. VA-15A withholding tables, §2.3)_ (not yet confirmed)
+- **Practical convention for bonuses** — For bonuses processed in a separate payroll run, withhold a flat 5.75% on the bonus amount in addition to whatever the regular wage withholding produces. For bonuses aggregated with regular wages on a single check, run the combined amount through the regular wage-bracket method.  _(Va. Dept. of Taxation Pub. VA-15A withholding tables, §2.3)_ (not yet confirmed)
 
 ### 2.4 Computing Virginia withholding from gross wages
 
 - **Standard withholding computation method** — Step 1: Convert wage payment to annualized basis (multiply by pay periods per year) Step 2: Subtract VA-4 personal exemption allowance × $930 Step 3: Subtract standard deduction (annualized: $8,500 single / $17,000 MFJ — but VA-4 line for additional standard deduction is rare in practice; default is $8,500 unless the employee claims MFJ via VA-4 line 3) Step 4: Apply graduated bracket table from §2.1 to remaining amount Step 5: Divide annualized tax by pay periods per year = withholding per pay period Step 6: Add any additional flat dollar amount the employee elected on VA-4 line 4  _(Va. Dept. of Taxation Withholding Tables, percentage method)_
 
-**Worked example (employee earns $80,000 annually, semi-monthly, single, 1 exemption, no additional withholding):**
-- Annualized wages: $80,000
+**Worked example (employee earns $80,000 annually, semi-monthly, single, 1 exemption, no additional withholding):** (not yet confirmed)
+- Annualized wages: $80,000 (not yet confirmed)
 - Less personal exemption: $80,000 − $930 = $79,070
 - Less standard deduction (single): $79,070 − $8,500 = $70,570 Virginia taxable wages
 - Tax: $720 + 5.75% × ($70,570 − $17,000) = $720 + $3,080.28 = **$3,800.28/year**
-- Per semi-monthly pay period (24 periods): **$158.35**
+- Per semi-monthly pay period (24 periods): **$158.35** (not yet confirmed)
 
 ### 3.1 What it is
 
@@ -94,7 +94,7 @@ These reduce taxable wages for withholding-table purposes and feed the VA-4 allo
 - **Line 2** – Subtotal exemptions
 - **Line 3** – Additional standard deduction box if MFJ (signals withholding table to use $17,000 SD instead of $8,500)
 - **Line 4** – Additional flat dollar amount to withhold per pay period
-- **Line 5** – Exempt status (employee certifies (i) no Virginia tax liability prior year AND (ii) anticipates none in current year) — must be re-filed by Feb 15 each year, parallel to the federal exempt re-certification deadline
+- **Line 5** – Exempt status (employee certifies (i) no Virginia tax liability prior year AND (ii) anticipates none in current year) — must be re-filed by Feb 15 each year, parallel to the federal exempt re-certification deadline (not yet confirmed)
 
 ### 3.3 Reciprocal-state exemption: Form VA-4 vs Form VA-4-NR vs Form VA-4 with reciprocal certification
 
@@ -126,7 +126,7 @@ Virginia assigns employers to a withholding-deposit frequency based on average m
 
 ### 4.2 VA-5 (Monthly) mechanics
 
-- **VA-5 monthly mechanics** — - Filed for any month in which the employer was assigned monthly status - Due by the 25th of the following month (e.g., January VA-5 due February 25) - Reports total Virginia tax withheld for the month - No wage-detail data — that flows to VA-6/VA-16 annual reconciliation - Filed electronically via iReg / Business iFile at www.tax.virginia.gov — paper filing is permitted only with prior waiver - Payment via ACH debit, ACH credit, or eForms credit card (with convenience fee)  _(4.2 VA-5 (Monthly) mechanics)_
+- **VA-5 monthly mechanics** — - Filed for any month in which the employer was assigned monthly status - Due by the 25th of the following month (e.g., January VA-5 due February 25) - Reports total Virginia tax withheld for the month - No wage-detail data — that flows to VA-6/VA-16 annual reconciliation - Filed electronically via iReg / Business iFile at www.tax.virginia.gov — paper filing is permitted only with prior waiver - Payment via ACH debit, ACH credit, or eForms credit card (with convenience fee)  _(4.2 VA-5 (Monthly) mechanics)_ (not yet confirmed)
 
 ### 4.3 VA-15 (Quarterly) mechanics
 
@@ -139,23 +139,23 @@ Virginia assigns employers to a withholding-deposit frequency based on average m
 ### 4.5 Penalties and interest
 
 - **Late filing penalty** — 6% per month or fraction (max 30%) of tax due on the return  _(Va. Code §58.1-635(A))_
-- **Late payment penalty** — same 6%/month penalty stacks with late-filing penalty if both apply  _(Va. Code §58.1-635(A))_
-- **Underpayment (semi-weekly) penalty** — separate 6% penalty on each underdeposited installment  _(4.5 Penalties and interest)_
-- **Interest rate** — 8% annualized for most of 2025 (federal underpayment rate, accruing from the original due date)  _(4.5 Penalties and interest)_
-- **Negligence penalty** — 25% (where evidence of intent)  _(Va. Code §58.1-308)_
+- **Late payment penalty** — same 6%/month penalty stacks with late-filing penalty if both apply  _(Va. Code §58.1-635(A))_ (not yet confirmed)
+- **Underpayment (semi-weekly) penalty** — separate 6% penalty on each underdeposited installment  _(4.5 Penalties and interest)_ (not yet confirmed)
+- **Interest rate** — 8% annualized for most of 2025 (federal underpayment rate, accruing from the original due date)  _(4.5 Penalties and interest)_ (not yet confirmed)
+- **Negligence penalty** — 25% (where evidence of intent)  _(Va. Code §58.1-308)_ (not yet confirmed)
 - **Fraud penalty** — 100% (plus criminal exposure)  _(4.5 Penalties and interest)_
 
 ### 4.6 Zero returns
 
-- **Zero return requirement** — A monthly or quarterly employer with NO Virginia withholding liability for the period must still file a "zero" VA-5 or VA-15. Failure to file a zero return triggers the $25/quarter administrative penalty plus the 6%/month penalty on $0 (which evaluates to the $25 minimum).  _(4.6 Zero returns)_
+- **Zero return requirement** — A monthly or quarterly employer with NO Virginia withholding liability for the period must still file a "zero" VA-5 or VA-15. Failure to file a zero return triggers the $25/quarter administrative penalty plus the 6%/month penalty on $0 (which evaluates to the $25 minimum).  _(4.6 Zero returns)_ (not yet confirmed)
 
 ### 5.1 Form VA-6 (Annual Withholding Reconciliation)
 
-- **VA-6 annual reconciliation contents and due date** — VA-6 is the annual reconciliation form. It is filed by all Virginia withholding employers and reports: - Total Virginia wages paid during the year - Total Virginia tax withheld - Total deposits/payments made during the year (sum of VA-5s or VA-15s) - Difference (balance due or refund) - Count of W-2 statements being transmitted Due date: January 31 of the following year.  _(5.1 Form VA-6 (Annual Withholding Reconciliation))_
+- **VA-6 annual reconciliation contents and due date** — VA-6 is the annual reconciliation form. It is filed by all Virginia withholding employers and reports: - Total Virginia wages paid during the year - Total Virginia tax withheld - Total deposits/payments made during the year (sum of VA-5s or VA-15s) - Difference (balance due or refund) - Count of W-2 statements being transmitted Due date: January 31 of the following year.  _(5.1 Form VA-6 (Annual Withholding Reconciliation))_ (not yet confirmed)
 
 ### 5.2 Form VA-16 (Employer's Annual Wage Report)
 
-- **VA-16 wage-detail transmittal** — VA-16 is the wage-detail transmittal — Virginia's equivalent of the federal Form W-3 / W-2 transmittal, but filed with the Department of Taxation rather than the SSA. It is the magnetic-media/electronic vehicle that carries the employee-level W-2 wage data to Virginia. - Due: January 31 with the VA-6 - Filed electronically (paper VA-16 is no longer accepted for employers with 10+ W-2s; the de facto rule is that virtually all employers e-file) - Format: EFW2 format (same as SSA), with Virginia-specific RS records carrying the state wage and tax data - Filed via Web Upload at www.tax.virginia.gov  _(5.2 Form VA-16 (Employer's Annual Wage Report))_
+- **VA-16 wage-detail transmittal** — VA-16 is the wage-detail transmittal — Virginia's equivalent of the federal Form W-3 / W-2 transmittal, but filed with the Department of Taxation rather than the SSA. It is the magnetic-media/electronic vehicle that carries the employee-level W-2 wage data to Virginia. - Due: January 31 with the VA-6 - Filed electronically (paper VA-16 is no longer accepted for employers with 10+ W-2s; the de facto rule is that virtually all employers e-file) - Format: EFW2 format (same as SSA), with Virginia-specific RS records carrying the state wage and tax data - Filed via Web Upload at www.tax.virginia.gov  _(5.2 Form VA-16 (Employer's Annual Wage Report))_ (not yet confirmed)
 
 > AUDIT FLASH POINT #3 — VA-16 vs federal W-3: Filing only the federal W-3 with the SSA does NOT satisfy VA-16. Virginia obtains W-2 data from the Department of Taxation submission, not from SSA. Practitioners who assume "the SSA forwards it" find that Virginia's matching program flags the employer for non-filing of VA-16 and assesses penalties even where the federal W-3 was timely filed. Always confirm a Virginia Web Upload confirmation number for VA-16.
 
@@ -173,7 +173,7 @@ Virginia assigns employers to a withholding-deposit frequency based on average m
 
 ### 6.2 Coverage threshold
 
-- **SUI coverage attachment** — Paid $1,500 or more in wages in a calendar quarter OR Employed one or more workers for any portion of a day in 20 or more different weeks in a calendar year  _(Va. Code §60.2-210)_
+- **SUI coverage attachment** — Paid $1,500 or more in wages in a calendar quarter OR Employed one or more workers for any portion of a day in 20 or more different weeks in a calendar year  _(Va. Code §60.2-210)_ (not yet confirmed)
 
 These mirror FUTA coverage tests, so any FUTA-liable employer is also VA SUI-liable.
 
@@ -185,13 +185,13 @@ This is among the lowest SUI wage bases in the country (only Mississippi, Tennes
 
 ### 6.4 Rate range and new-employer rate
 
-- **Experience-rated employer rate range** — 0.10% to 6.20% (2025 rate schedule, including the 0.10% pool charge and the 0.20% Fund Building rate where applicable)  _(6.4 Rate range and new-employer rate)_
-- **New employer rate** — 2.50% (standard new-employer rate, first three computation periods)  _(Va. Code §60.2-516)_
-- **Construction industry new-employer rate** — typically 6.20% (separate higher new-employer rate reflecting higher historical claims experience)  _(6.4 Rate range and new-employer rate)_
+- **Experience-rated employer rate range** — 0.10% to 6.20% (2025 rate schedule, including the 0.10% pool charge and the 0.20% Fund Building rate where applicable)  _(6.4 Rate range and new-employer rate)_ (not yet confirmed)
+- **New employer rate** — 2.50% (standard new-employer rate, first three computation periods)  _(Va. Code §60.2-516)_ (not yet confirmed)
+- **Construction industry new-employer rate** — typically 6.20% (separate higher new-employer rate reflecting higher historical claims experience)  _(6.4 Rate range and new-employer rate)_ (not yet confirmed)
 
 ### 6.5 Quarterly reporting — Form VEC FC-20 / FC-21
 
-- **FC-20 and FC-21 reporting** — - FC-20 — Quarterly Tax Report (totals: gross wages, taxable wages, tax due, contribution rate) - FC-21 — Quarterly Payroll Report (employee-by-employee SSN, name, gross wages) Both filed together quarterly: - Q1: due April 30 - Q2: due July 31 - Q3: due October 31 - Q4: due January 31 of following year Filed via the VEC Business iFile portal. Employers with 100+ employees must e-file (in practice, virtually all employers e-file).  _(6.5 Quarterly reporting — Form VEC FC-20 / FC-21)_
+- **FC-20 and FC-21 reporting** — - FC-20 — Quarterly Tax Report (totals: gross wages, taxable wages, tax due, contribution rate) - FC-21 — Quarterly Payroll Report (employee-by-employee SSN, name, gross wages) Both filed together quarterly: - Q1: due April 30 - Q2: due July 31 - Q3: due October 31 - Q4: due January 31 of following year Filed via the VEC Business iFile portal. Employers with 100+ employees must e-file (in practice, virtually all employers e-file).  _(6.5 Quarterly reporting — Form VEC FC-20 / FC-21)_ (not yet confirmed)
 
 ### 6.6 SUI penalties
 
@@ -267,7 +267,7 @@ This is among the lowest SUI wage bases in the country (only Mississippi, Tennes
 
 ### 9.4 Penalties for non-coverage
 
-- **Non-coverage penalties** — - Civil penalty up to $250/day of non-coverage - Stop-work order — Commission may shut down the business until coverage is in place - Personal liability of owners/officers for the full value of any work-related injury during the uncovered period - Loss of access to Virginia courts as a defense to tort claims  _(Va. Code §65.2-805)_
+- **Non-coverage penalties** — - Civil penalty up to $250/day of non-coverage - Stop-work order — Commission may shut down the business until coverage is in place - Personal liability of owners/officers for the full value of any work-related injury during the uncovered period - Loss of access to Virginia courts as a defense to tort claims  _(Va. Code §65.2-805)_ (not yet confirmed)
 
 ### 9.5 Domestic worker exception
 
@@ -313,7 +313,7 @@ For an employer with workers physically performing services in Alexandria, the c
 
 ### 11.5 Virginia Domestic Workers' Bill of Rights
 
-- **Domestic Workers' Bill of Rights protections** — Va. Code §40.1-28.7:9 (effective July 1, 2021) extends to domestic workers: - Minimum wage protections (full Virginia minimum wage, currently $12.41/hour for 2025) - Overtime protections at 1.5× regular rate for 40+ hours/week (live-out workers; live-in workers have separate rules) - Anti-discrimination protections This is a labor-law overlay, not a tax statute, but it affects gross-wage computation for VA-4/VA-5/VA-15 purposes.  _(Va. Code §40.1-28.7:9)_
+- **Domestic Workers' Bill of Rights protections** — Va. Code §40.1-28.7:9 (effective July 1, 2021) extends to domestic workers: - Minimum wage protections (full Virginia minimum wage, currently $12.41/hour for 2025) - Overtime protections at 1.5× regular rate for 40+ hours/week (live-out workers; live-in workers have separate rules) - Anti-discrimination protections This is a labor-law overlay, not a tax statute, but it affects gross-wage computation for VA-4/VA-5/VA-15 purposes.  _(Va. Code §40.1-28.7:9)_ (not yet confirmed)
 
 ## 12. Final Pay
 
@@ -329,33 +329,33 @@ For an employer with workers physically performing services in Alexandria, the c
 - Employer: Smith Federal Contracting LLC, headquartered in Arlington, VA
 - Employee: Sarah Hernandez, resident of Reston, VA (Fairfax County)
 - Sarah commutes to DC daily and performs all services in the District
-- Annual salary: $95,000, paid bi-weekly (26 periods)
+- Annual salary: $95,000, paid bi-weekly (26 periods) (not yet confirmed)
 - Sarah is single, claims 1 personal exemption
 
 **Analysis:**
 - Sarah is a Virginia resident performing services in DC
 - Under the VA-DC reciprocal arrangement, DC does not impose income tax on non-residents of DC
-- Sarah owes Virginia income tax on the full $95,000
+- Sarah owes Virginia income tax on the full $95,000 (not yet confirmed)
 - The employer must register as a Virginia withholding employer (already done since HQ is in Virginia) and withhold Virginia tax even though the work is performed in DC
 - DC withholding: NONE (DC cannot tax non-residents)
 - Federal withholding: per Form W-4
 
 **Virginia withholding computation:**
-- Annualized wages: $95,000
+- Annualized wages: $95,000 (not yet confirmed)
 - Less personal exemption (1 × $930): $94,070
 - Less standard deduction ($8,500): $85,570 VA taxable
 - Tax: $720 + 5.75% × ($85,570 − $17,000) = $720 + $3,942.78 = $4,662.78/year
-- Per bi-weekly pay (26 periods): **$179.34**
+- Per bi-weekly pay (26 periods): **$179.34** (not yet confirmed)
 
 **W-2 reporting:**
 - Box 15: VA, with Virginia employer account number
-- Box 16: $95,000 (Virginia state wages)
-- Box 17: $4,662.78 (Virginia state income tax)
+- Box 16: $95,000 (Virginia state wages) (not yet confirmed)
+- Box 17: $4,662.78 (Virginia state income tax) (not yet confirmed)
 - DC fields: blank (no DC tax)
 
 **Notes:**
 - No VEC SUI complexity in this example since Sarah's services in DC are "localized" in DC for SUI purposes BUT the employer-employee relationship is administered out of Virginia. Under Va. Code §60.2-212 the localization-of-services test would actually push SUI coverage to DC for this employee. In practice, federal contractors with field staff working in DC commonly register with both VEC and DC's Department of Employment Services and report the wages to whichever jurisdiction's coverage analysis applies. This is the kind of multistate allocation that flows into example C.
-- Sarah files VA Form 760 reporting all wages and claiming the $4,662.78 withholding credit.
+- Sarah files VA Form 760 reporting all wages and claiming the $4,662.78 withholding credit. (not yet confirmed)
 
 ### 14.2 Example B — VA federal contractor with Maryland-resident employee
 
@@ -363,7 +363,7 @@ For an employer with workers physically performing services in Alexandria, the c
 - Employer: Patriot Defense Systems Inc., HQ in McLean, VA
 - Employee: Marcus Johnson, resident of Bethesda, MD (Montgomery County)
 - Marcus performs all services in Virginia at the McLean office
-- Annual salary: $140,000, paid semi-monthly (24 periods)
+- Annual salary: $140,000, paid semi-monthly (24 periods) (not yet confirmed)
 
 **Analysis:**
 - Marcus is a Maryland resident performing services in Virginia
@@ -374,12 +374,12 @@ For an employer with workers physically performing services in Alexandria, the c
   3. Withhold Maryland state tax PLUS Montgomery County local tax (Maryland uses a county-of-residence local tax that varies by county)
   4. Remit Maryland withholding quarterly via Maryland's bFile system
   5. Issue W-2 reporting MD wages and MD withholding only — Virginia boxes 15/16/17 are BLANK
-  6. File MD Form MW-508 annual reconciliation (Maryland's equivalent of VA-6) by January 31
+  6. File MD Form MW-508 annual reconciliation (Maryland's equivalent of VA-6) by January 31 (not yet confirmed)
 
 **Maryland withholding rates applicable for 2025 (Montgomery County resident):**
-- State: graduated 2% to 5.75% (Maryland's top bracket starts at $250,000 single)
-- Montgomery County local: 3.20% flat (2025 Montgomery County rate)
-- Combined effective rate at $140,000 income ≈ 7.95% — significantly higher than the Virginia 5.75% rate
+- State: graduated 2% to 5.75% (Maryland's top bracket starts at $250,000 single) (not yet confirmed)
+- Montgomery County local: 3.20% flat (2025 Montgomery County rate) (not yet confirmed)
+- Combined effective rate at $140,000 income ≈ 7.95% — significantly higher than the Virginia 5.75% rate (not yet confirmed)
 
 **Virginia treatment:**
 - No Virginia withholding
@@ -389,8 +389,8 @@ For an employer with workers physically performing services in Alexandria, the c
 
 **AUDIT FLASH POINT illustration:**
 If Patriot Defense had failed to collect the reciprocal-certified VA-4 and continued withholding Virginia tax from Marcus's wages, the consequences:
-- Marcus would file VA Form 763 (non-resident return) claiming refund of ~$8,050 (5.75% × ~$140K Virginia tax incorrectly withheld)
-- Marcus would owe Maryland approximately $11,130 in unpaid tax + interest + penalty
+- Marcus would file VA Form 763 (non-resident return) claiming refund of ~$8,050 (5.75% × ~$140K Virginia tax incorrectly withheld) (not yet confirmed)
+- Marcus would owe Maryland approximately $11,130 in unpaid tax + interest + penalty (not yet confirmed)
 - Patriot Defense would face Maryland Comptroller penalties for failure to register and withhold (~10% of unpaid tax + interest)
 - Patriot Defense would NOT face a Virginia penalty (over-withholding is not a Virginia violation) but would face administrative burden of issuing W-2c and amending VA-6
 
@@ -400,11 +400,11 @@ If Patriot Defense had failed to collect the reciprocal-certified VA-4 and conti
 - Employer: Acme Federal Services LLC, headquartered in Arlington, VA, with a federal prime contract under GSA Schedule
 - Employee: David Park, Virginia resident living in Falls Church
 - David's services in 2025:
-  - 60% of work time at the Arlington office (Virginia)
-  - 25% on-site at a federal facility in Bethesda, MD
+  - 60% of work time at the Arlington office (Virginia) (not yet confirmed)
+  - 25% on-site at a federal facility in Bethesda, MD (not yet confirmed)
   - 10% on-site at a federal facility in Washington, DC
-  - 5% on-site at a federal facility in Richmond, VA
-- Annual salary: $175,000, paid bi-weekly
+  - 5% on-site at a federal facility in Richmond, VA (not yet confirmed)
+- Annual salary: $175,000, paid bi-weekly (not yet confirmed)
 
 **Analysis — wage allocation:**
 The employer must allocate David's wages by physical location of services because (i) David's resident state is Virginia, (ii) some non-resident states might assert tax jurisdiction, and (iii) reciprocal agreements may eliminate some non-resident tax exposure.
@@ -416,17 +416,17 @@ The employer must allocate David's wages by physical location of services becaus
 | Jurisdiction | % of services | Wages allocated | Resident-state reciprocity covers? | Withholding required? |
 | --- | --- | --- | --- | --- |
 | Virginia (Arlington + Richmond) | 65% | $113,750 | N/A — Virginia is resident state | VA withholding YES |
-| Maryland (Bethesda) | 25% | $43,750 | Yes — VA-MD reciprocal applies; David exempt from MD | VA withholding (continues since David is VA resident); NO MD withholding |
+| Maryland (Bethesda) | 25% | $43,750 | Yes — VA-MD reciprocal applies; David exempt from MD | VA withholding (continues since David is VA resident); NO MD withholding | (not yet confirmed)
 | DC (Washington) | 10% | $17,500 | Yes — DC cannot tax non-residents under Home Rule Act | VA withholding (continues); NO DC withholding |
 
-**Total Virginia wages for W-2 Box 16: $175,000** (all wages flow to Virginia because David is a Virginia resident AND each non-resident jurisdiction is either reciprocal or unable to tax non-residents).
+**Total Virginia wages for W-2 Box 16: $175,000** (all wages flow to Virginia because David is a Virginia resident AND each non-resident jurisdiction is either reciprocal or unable to tax non-residents). (not yet confirmed)
 
 **Virginia withholding computation (David single, 1 exemption):**
-- Annualized: $175,000
-- Less exemption: $174,070
-- Less SD: $165,570
+- Annualized: $175,000 (not yet confirmed)
+- Less exemption: $174,070 (not yet confirmed)
+- Less SD: $165,570 (not yet confirmed)
 - Tax: $720 + 5.75% × ($165,570 − $17,000) = $720 + $8,542.78 = $9,262.78/year
-- Per bi-weekly (26 periods): **$356.26**
+- Per bi-weekly (26 periods): **$356.26** (not yet confirmed)
 
 **VEC SUI allocation — AUDIT FLASH POINT:**
 
