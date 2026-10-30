@@ -16,32 +16,32 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 **Scope.** This skill covers North Dakota individual quarterly estimated income tax payments (Form ND-1ES) and the underpayment-of-estimated-tax interest computation (Schedule ND-1UT) for full-year ND residents who are sole proprietors, single-member LLC owners, S-corp shareholders, or W-2 employees with insufficient withholding. Tax year 2025 (payments due April 15, 2025 through January 15, 2026; reconciled on the Form ND-1 filed by April 15, 2026).
 
-**Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing or payment.
+**Quality tier.** Q3 -- AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing or payment.
 
 ## Section 1: Metadata
 
-- **Tax type** — Individual income tax — quarterly estimated payments
-- **Jurisdiction** — North Dakota (US-ND)
-- **Tax year** — 2025 (TY 2025 quarterly payments and TY 2026 Q1)
-- **Primary form** — Form ND-1ES (Estimated Income Tax — Individuals)
-- **Reconciliation form** — Form ND-1 (Individual Income Tax Return)
-- **Underpayment form** — Schedule ND-1UT (Underpayment of Estimated Individual Income Tax)
-- **Federal counterpart** — Form 1040-ES
-- **Tax authority** — North Dakota Office of State Tax Commissioner
-- **Payment portal** — North Dakota Taxpayer Access Point (ND TAP)
-- **Statute** — N.D.C.C. §57-38-62  _(N.D.C.C. §57-38-62)_
-- **Regulation** — N.D. Admin Code 81-03-04-01 through 81-03-04-02  _(N.D. Admin Code 81-03-04-01 through 81-03-04-02)_
-- **Underpayment interest rate** — 12% per annum [VERIFY: confirm against current Tax Commissioner publication for TY 2025] (not yet confirmed)
-- **Threshold** — Net tax liability expected to exceed $1,000 [VERIFY]
+- **Tax type** -- Individual income tax -- quarterly estimated payments
+- **Jurisdiction** -- North Dakota (US-ND)
+- **Tax year** -- 2025 (TY 2025 quarterly payments and TY 2026 Q1)
+- **Primary form** -- Form ND-1ES (Estimated Income Tax -- Individuals)
+- **Reconciliation form** -- Form ND-1 (Individual Income Tax Return)
+- **Underpayment form** -- Schedule ND-1UT (Underpayment of Estimated Individual Income Tax)
+- **Federal counterpart** -- Form 1040-ES
+- **Tax authority** -- North Dakota Office of State Tax Commissioner
+- **Payment portal** -- North Dakota Taxpayer Access Point (ND TAP)
+- **Statute** -- N.D.C.C. §57-38-62  _(N.D.C.C. §57-38-62)_
+- **Regulation** -- N.D. Admin Code 81-03-04-01 through 81-03-04-02  _(N.D. Admin Code 81-03-04-01 through 81-03-04-02)_
+- **Underpayment interest rate** -- 12% per annum [VERIFY: confirm against current Tax Commissioner publication for TY 2025] (not yet confirmed)
+- **Threshold** -- Net tax liability expected to exceed $1,000 [VERIFY]
 
 **Metadata table**
 
 | Field | Value |
 | --- | --- |
-| Tax type | Individual income tax — quarterly estimated payments |
+| Tax type | Individual income tax -- quarterly estimated payments |
 | Jurisdiction | North Dakota (US-ND) |
 | Tax year | 2025 (TY 2025 quarterly payments and TY 2026 Q1) |
-| Primary form | Form ND-1ES (Estimated Income Tax — Individuals) |
+| Primary form | Form ND-1ES (Estimated Income Tax -- Individuals) |
 | Reconciliation form | Form ND-1 (Individual Income Tax Return) |
 | Underpayment form | Schedule ND-1UT (Underpayment of Estimated Individual Income Tax) |
 | Federal counterpart | Form 1040-ES |
@@ -80,7 +80,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | (b) Prior-year test | **100%** of TY 2024 ND net tax liability | (not yet confirmed)
 | (c) Qualified farmer / fisherman | 66⅔% of current-year liability |
 
-> **Note on the 110% high-income variant.** Unlike federal Form 2210 — which requires 110% of the prior year for taxpayers with prior-year AGI over $150,000 — North Dakota's statute and Schedule ND-1UT use a **flat 100% prior-year** test with no high-income step-up. [VERIFY against the 2025 Schedule ND-1UT instructions before relying on this for high-AGI clients.] (not yet confirmed)
+> **Note on the 110% high-income variant.** Unlike federal Form 2210 -- which requires 110% of the prior year for taxpayers with prior-year AGI over $150,000 -- North Dakota's statute and Schedule ND-1UT use a **flat 100% prior-year** test with no high-income step-up. [VERIFY against the 2025 Schedule ND-1UT instructions before relying on this for high-AGI clients.] (not yet confirmed)
 
 ### Four installment due dates (TY 2025 calendar-year filer)
 
@@ -109,14 +109,14 @@ Same calendar as federal Form 1040-ES.
 
 | Method | Notes |
 | --- | --- |
-| ND Taxpayer Access Point (TAP) | https://apps.nd.gov/tax/tap — ACH debit, credit card |
+| ND Taxpayer Access Point (TAP) | https://apps.nd.gov/tax/tap -- ACH debit, credit card |
 | Paper check + Form ND-1ES voucher | Make check payable to "ND State Tax Commissioner" |
 | Direct debit via TAP scheduled payments | Schedule all four installments in advance |
 | Credit / debit card via TAP | Third-party convenience fees apply |
 
 No electronic-payment mandate currently published for individual estimated tax at any threshold. [VERIFY]
 
-## Section 3: Threshold determination — when must you make estimated payments
+## Section 3: Threshold determination -- when must you make estimated payments
 
 Per N.D.C.C. §57-38-62 and the Form ND-1ES instructions, a North Dakota individual taxpayer **must** make estimated payments if **both** of the following are true for the tax year:
 
@@ -127,11 +127,11 @@ Per N.D.C.C. §57-38-62 and the Form ND-1ES instructions, a North Dakota individ
 
 ### Practical decision tree
 
-- **Decision tree** — If withholding + credits ≥ 100% of prior-year ND tax → no estimates required (safe-harbor met by withholding alone). If expected ND liability ≤ $1,000 after withholding → no estimates required (de minimis). If neither of the above → estimates required; compute safe harbor in Section 4.  _(Form ND-1ES instructions)_
+- **Decision tree** -- If withholding + credits ≥ 100% of prior-year ND tax → no estimates required (safe-harbor met by withholding alone). If expected ND liability ≤ $1,000 after withholding → no estimates required (de minimis). If neither of the above → estimates required; compute safe harbor in Section 4.  _(Form ND-1ES instructions)_
 
 ### Statutory de minimis exception (N.D. Admin Code 81-03-04-02(3)(d))
 
-- **De minimis interest waiver** — Interest is waived where current-year tax liability exceeds withholding by less than $500, even if estimates were technically required. This is a penalty-relief rule, not a filing exemption — the taxpayer should still make estimated payments where prudent.  _(N.D. Admin Code 81-03-04-02(3)(d))_ (not yet confirmed)
+- **De minimis interest waiver** -- Interest is waived where current-year tax liability exceeds withholding by less than $500, even if estimates were technically required. This is a penalty-relief rule, not a filing exemption -- the taxpayer should still make estimated payments where prudent.  _(N.D. Admin Code 81-03-04-02(3)(d))_ (not yet confirmed)
 
 ## Section 4: Safe-harbor calculation
 
@@ -158,9 +158,9 @@ If TY 2025 withholding will be $1,200, the four installments must collectively t
 
 ### Joint vs. separate prior year
 
-- **MFS to MFJ combination** — If the taxpayer was MFS in the prior year and is MFJ in the current year, the prior-year tests for both spouses are summed to determine the joint prior-year safe harbor.  _(N.D. Admin Code 81-03-04-02)_
+- **MFS to MFJ combination** -- If the taxpayer was MFS in the prior year and is MFJ in the current year, the prior-year tests for both spouses are summed to determine the joint prior-year safe harbor.  _(N.D. Admin Code 81-03-04-02)_
 
-## Section 5: Regular installment method — the four equal payments
+## Section 5: Regular installment method -- the four equal payments
 
 Once the required annual payment is fixed, the **regular installment method** allocates **25% to each quarter**:
 
@@ -173,7 +173,7 @@ Once the required annual payment is fixed, the **regular installment method** al
 | Q3 | 75% × annual | 25% |
 | Q4 | 100% × annual | 25% |
 
-- **Withholding deemed paid evenly** — ND withholding is deemed paid evenly across the four quarters unless the taxpayer elects to treat it as paid when actually withheld (rare and disadvantageous). The taxpayer satisfies each quarterly threshold by the sum of (a) ¼ of expected withholding plus (b) the ND-1ES voucher payment for that quarter.  _(Schedule ND-1UT)_
+- **Withholding deemed paid evenly** -- ND withholding is deemed paid evenly across the four quarters unless the taxpayer elects to treat it as paid when actually withheld (rare and disadvantageous). The taxpayer satisfies each quarterly threshold by the sum of (a) ¼ of expected withholding plus (b) the ND-1ES voucher payment for that quarter.  _(Schedule ND-1UT)_
 
 ## Section 6: Annualized income installment method
 
@@ -192,9 +192,9 @@ ND follows the federal Schedule AI approach by reference: if the taxpayer utiliz
 | Q3 | August 31 | 8 | × 1.5 | 67.5% cumulative | (not yet confirmed)
 | Q4 | December 31 | 12 | × 1 | 90% cumulative |
 
-The taxpayer must complete the annualized worksheet (federal Schedule AI is the template; ND does not publish a standalone state annualization schedule — the federal schedule is attached or reproduced in support of Schedule ND-1UT columns).
+The taxpayer must complete the annualized worksheet (federal Schedule AI is the template; ND does not publish a standalone state annualization schedule -- the federal schedule is attached or reproduced in support of Schedule ND-1UT columns).
 
-### Worked example — Q3 income spike
+### Worked example -- Q3 income spike
 
 A freelance software developer in Fargo expects $140,000 of ND-taxable income for TY 2025, but the income arrives as follows:
 
@@ -246,19 +246,19 @@ Form ND-1ES is a **single-page voucher** (one per installment). The taxpayer pre
 
 ### TAP electronic payment
 
-For TAP payments, no paper voucher is required — the electronic posting through TAP serves as the voucher. The taxpayer logs into https://apps.nd.gov/tax/tap and selects "Make a Payment" → "Individual Income Tax" → "Estimated Payment."
+For TAP payments, no paper voucher is required -- the electronic posting through TAP serves as the voucher. The taxpayer logs into https://apps.nd.gov/tax/tap and selects "Make a Payment" → "Individual Income Tax" → "Estimated Payment."
 
 ### Recordkeeping
 
 The taxpayer should retain confirmation numbers (TAP) or cancelled checks for each installment to support Form ND-1 Line 27 (Estimated payments) when filing the annual return.
 
-## Section 8: Underpayment interest — Schedule ND-1UT
+## Section 8: Underpayment interest -- Schedule ND-1UT
 
 If any installment is underpaid (paid late or paid in a smaller amount than the required installment), the taxpayer owes underpayment interest computed on Schedule ND-1UT (SFN 28704). The Schedule attaches to Form ND-1.
 
 ### Computation outline (simplified)
 
-- **Underpayment interest computation** — For each of the four installments: 1. Compute the required installment (¼ of the required annual payment, OR the annualized installment if Schedule AI is used). 2. Compute payments applied to that installment: ¼ of withholding + ND-1ES payments made by or before the installment due date. 3. Underpayment = (1) − (2), if positive. 4. Days outstanding = from installment due date to the earlier of (a) the date the underpayment is paid (via a later ND-1ES voucher or April-15 balance due) or (b) April 15, 2026. 5. Interest = Underpayment × 12% × (Days / 365). The sum of the four interest computations flows to Form ND-1 as additional amount due.  _(Schedule ND-1UT)_
+- **Underpayment interest computation** -- For each of the four installments: 1. Compute the required installment (¼ of the required annual payment, OR the annualized installment if Schedule AI is used). 2. Compute payments applied to that installment: ¼ of withholding + ND-1ES payments made by or before the installment due date. 3. Underpayment = (1) − (2), if positive. 4. Days outstanding = from installment due date to the earlier of (a) the date the underpayment is paid (via a later ND-1ES voucher or April-15 balance due) or (b) April 15, 2026. 5. Interest = Underpayment × 12% × (Days / 365). The sum of the four interest computations flows to Form ND-1 as additional amount due.  _(Schedule ND-1UT)_
 
 ### Statutory waivers (N.D. Admin Code 81-03-04-02(3))
 
@@ -269,7 +269,7 @@ If any installment is underpaid (paid late or paid in a smaller amount than the 
 | (3)(a) | Qualified farmer who files federal return by March 1 and pays federal in full by that date |
 | (3)(b) | Qualified farmer making one combined federal+state installment by January 15 | (not yet confirmed)
 | (3)(c) | Taxpayer using the federal annualized income installment method (state interest waived in proportion) |
-| (3)(d) | De minimis — current-year liability exceeds withholding by less than $500 | (not yet confirmed)
+| (3)(d) | De minimis -- current-year liability exceeds withholding by less than $500 | (not yet confirmed)
 
 ### Reasonable-cause waiver
 
@@ -283,7 +283,7 @@ The Tax Commissioner may waive interest under general reasonable-cause authority
 - Login required (one-time enrollment for new users)
 - Payment types: ACH debit (free), credit/debit card (third-party convenience fee, ~2.5%) (not yet confirmed)
 - Confirmation: emailed receipt with confirmation number
-- Scheduling: all four installments can be scheduled in advance from a single TAP session — recommended for steady-income clients
+- Scheduling: all four installments can be scheduled in advance from a single TAP session -- recommended for steady-income clients
 
 ### Paper check + Form ND-1ES voucher
 
@@ -316,13 +316,13 @@ The ND quarterly calendar aligns exactly with the federal Form 1040-ES calendar:
 
 ### Practical workflow
 
-1. Compute the federal required annual payment on Form 1040-ES worksheet (90% current / 100% or 110% prior depending on prior-year AGI). 2. Compute the ND required annual payment using the state safe-harbor tests (90% / flat 100% — no 110% step-up). 3. Schedule both federal (IRS Direct Pay or EFTPS) and state (ND TAP) payments for the same four dates. 4. If the federal taxpayer uses the annualized income installment method on federal Schedule AI, propagate the annualization to Schedule ND-1UT to preserve the state interest waiver under N.D. Admin Code 81-03-04-02(3)(c). (not yet confirmed)
+1. Compute the federal required annual payment on Form 1040-ES worksheet (90% current / 100% or 110% prior depending on prior-year AGI). 2. Compute the ND required annual payment using the state safe-harbor tests (90% / flat 100% -- no 110% step-up). 3. Schedule both federal (IRS Direct Pay or EFTPS) and state (ND TAP) payments for the same four dates. 4. If the federal taxpayer uses the annualized income installment method on federal Schedule AI, propagate the annualization to Schedule ND-1UT to preserve the state interest waiver under N.D. Admin Code 81-03-04-02(3)(c). (not yet confirmed)
 
 ### Independence of safe harbors
 
-- **Independence of federal and ND safe harbors** — The federal and ND safe harbors are independent — meeting the federal safe harbor does not satisfy the ND safe harbor. A taxpayer who is paid up federally via withholding alone may still owe ND estimates if their ND-1 line 27 prior-year amount is low (e.g., due to W-2 withholding being primarily federal with little ND-source withholding).  _(N.D. Admin Code 81-03-04-02)_
+- **Independence of federal and ND safe harbors** -- The federal and ND safe harbors are independent -- meeting the federal safe harbor does not satisfy the ND safe harbor. A taxpayer who is paid up federally via withholding alone may still owe ND estimates if their ND-1 line 27 prior-year amount is low (e.g., due to W-2 withholding being primarily federal with little ND-source withholding).  _(N.D. Admin Code 81-03-04-02)_
 
-## Section 11: Tier 1 rules — deterministic
+## Section 11: Tier 1 rules -- deterministic
 
 **Tier 1 rules table**
 
@@ -330,16 +330,16 @@ The ND quarterly calendar aligns exactly with the federal Form 1040-ES calendar:
 | --- | --- | --- |
 | NDES-T1-01 | Estimated tax required if expected ND net tax liability > $1,000 AND federal estimated tax is also required | N.D.C.C. §57-38-62; Form ND-1ES instructions |
 | NDES-T1-02 | Safe harbor = lesser of (a) 90% current year OR (b) 100% prior year | N.D. Admin Code 81-03-04-02 | (not yet confirmed)
-| NDES-T1-03 | No 110% high-income variant — flat 100% prior-year test [VERIFY] | N.D. Admin Code 81-03-04-02 | (not yet confirmed)
+| NDES-T1-03 | No 110% high-income variant -- flat 100% prior-year test [VERIFY] | N.D. Admin Code 81-03-04-02 | (not yet confirmed)
 | NDES-T1-04 | Four equal installments due April 15, June 15, September 15, January 15 | Form ND-1ES |
 | NDES-T1-05 | Underpayment interest rate = 12% per annum simple [VERIFY for TY 2025] | Schedule ND-1UT instructions | (not yet confirmed)
 | NDES-T1-06 | Withholding deemed paid evenly unless taxpayer elects otherwise | Schedule ND-1UT |
 | NDES-T1-07 | De minimis waiver if current-year tax exceeds withholding by < $500 | N.D. Admin Code 81-03-04-02(3)(d) | (not yet confirmed)
-| NDES-T1-08 | Qualified farmer (>⅔ gross from farming) — single Jan 15 installment OR March 1 file + pay | N.D. Admin Code 81-03-04-02(3)(a),(b) |
+| NDES-T1-08 | Qualified farmer (>⅔ gross from farming) -- single Jan 15 installment OR March 1 file + pay | N.D. Admin Code 81-03-04-02(3)(a),(b) |
 | NDES-T1-09 | Annualized installment method per federal Schedule AI waives state interest in proportion | N.D. Admin Code 81-03-04-02(3)(c) |
 | NDES-T1-10 | Prior-year safe harbor unavailable if prior return not filed or < 12 months | N.D. Admin Code 81-03-04-02 |
 
-## Section 12: Tier 2 rules — requires judgment
+## Section 12: Tier 2 rules -- requires judgment
 
 **Tier 2 rules table**
 
@@ -352,11 +352,11 @@ The ND quarterly calendar aligns exactly with the federal Form 1040-ES calendar:
 | NDES-T2-05 | **Newly self-employed (first year)** | No prior-year ND-1 → only 90% current-year test available; build cushion into Q1 | (not yet confirmed)
 | NDES-T2-06 | **Year-end Roth conversion or capital gain** | Annualize installment method may eliminate Q1/Q2 underpayment for a Q4 event |
 | NDES-T2-07 | **K-1 income from out-of-state PTE** | Coordinate with ND credit for taxes paid to other states (Schedule ND-1CR) before sizing estimates |
-| NDES-T2-08 | **Reasonable-cause waiver** | Illness, casualty, disaster — attach signed statement to Form ND-1; outcome at Commissioner's discretion |
+| NDES-T2-08 | **Reasonable-cause waiver** | Illness, casualty, disaster -- attach signed statement to Form ND-1; outcome at Commissioner's discretion |
 
 ## Section 13: Worked examples
 
-### Example 1 — Steady-income ND freelancer ($120,000 expected)
+### Example 1 -- Steady-income ND freelancer ($120,000 expected)
 
 **Facts.** Single, full-year ND resident, Bismarck. Freelance software developer. TY 2024 ND tax was $1,420. Expects TY 2025 net Schedule C income of $120,000, federal taxable income of $97,500 after standard deduction and QBI. No W-2 withholding. No prior-year safe harbor issues. (not yet confirmed)
 
@@ -374,7 +374,7 @@ The ND quarterly calendar aligns exactly with the federal Form 1040-ES calendar:
 - 100% × $1,420 (prior) = $1,420 (not yet confirmed)
 - **Lesser = $860** (not yet confirmed)
 
-But $860 < $1,000 threshold and prior-year exceeded $1,000? Prior year was $1,420. **Threshold is on the expected current-year liability ($956)** — at $956 the taxpayer is **not required** to make estimates (below $1,000) [VERIFY that threshold tests expected current-year ND tax rather than prior-year].
+But $860 < $1,000 threshold and prior-year exceeded $1,000? Prior year was $1,420. **Threshold is on the expected current-year liability ($956)** -- at $956 the taxpayer is **not required** to make estimates (below $1,000) [VERIFY that threshold tests expected current-year ND tax rather than prior-year].
 
 However, prudent practice is to pay anyway to avoid surprises. If the taxpayer elects to pay:
 
@@ -390,7 +390,7 @@ However, prudent practice is to pay anyway to avoid surprises. If the taxpayer e
 
 Pay via ND TAP scheduled debits.
 
-### Example 2 — Self-employed with Q3 income spike (annualized method)
+### Example 2 -- Self-employed with Q3 income spike (annualized method)
 
 **Facts.** Single, ND resident, Fargo. Software consultant. TY 2024 ND tax was $3,200. Expects TY 2025 federal taxable income of $185,000 from a Q3 contract close. Income flow: (not yet confirmed)
 
@@ -416,7 +416,7 @@ Pay via ND TAP scheduled debits.
 - 100% × $3,200 = $3,200 (not yet confirmed)
 - **Lesser = $2,396** (required annual payment) (not yet confirmed)
 
-**Regular installment method:** $2,396 / 4 = **$599 per quarter** — would require $599 by April 15 even though only $20k of income has materialized.
+**Regular installment method:** $2,396 / 4 = **$599 per quarter** -- would require $599 by April 15 even though only $20k of income has materialized.
 
 **Annualized installment method (using federal Schedule AI):**
 
@@ -442,7 +442,7 @@ Annualized tax at each cutoff:
 
 The annualization defers ~$2,000 of Q1/Q2 payment exposure into Q3, matching income timing. Attach federal Schedule AI to Schedule ND-1UT.
 
-### Example 3 — High-income earner with W-2 withholding shortfall
+### Example 3 -- High-income earner with W-2 withholding shortfall
 
 **Facts.** MFJ, both spouses ND residents. Primary spouse W-2 wages $280,000 with ND withholding of $4,800. Secondary spouse Schedule C net profit $60,000. TY 2024 ND tax was $5,900. Expects TY 2025 federal taxable income of $305,000, ND tax of $6,775.
 
@@ -452,7 +452,7 @@ The annualization defers ~$2,000 of Q1/Q2 payment exposure into Q3, matching inc
 - 100% × $5,900 (prior) = $5,900
 - **Lesser = $5,900**
 
-> Note: federal would apply 110% × $5,900 = $6,490 because prior-year AGI > $150,000. **ND does NOT apply the 110% step-up** [VERIFY] — the state safe harbor remains a flat $5,900.
+> Note: federal would apply 110% × $5,900 = $6,490 because prior-year AGI > $150,000. **ND does NOT apply the 110% step-up** [VERIFY] -- the state safe harbor remains a flat $5,900.
 
 **Coverage check.** Withholding $4,800 satisfies $4,800 of the $5,900 requirement. Remaining gap: **$1,100**.
 
@@ -471,13 +471,13 @@ Federal Form 1040-ES installments will be larger because the 110% federal prior-
 
 ## Section 14: Refusal catalogue
 
-- **R-NDES-01** — Estate or trust estimated tax  _("ND fiduciary estimated payments (Form 38-ES) are not covered by this skill — fiduciary rules differ from individual rules under N.D.C.C. Chapter 57-38.")_
-- **R-NDES-02** — Pass-through entity (PTE) estimated tax  _("ND PTE estimated payments (Form 60-ES partnership / 58-ES S-corp) are not covered — PTE tax election rules require a separate skill.")_
-- **R-NDES-03** — Corporate estimated tax (Form 40-ES)  _("Corporate estimated tax (Form 40-ES, Form 40-UT for corporate underpayment) is not covered — this skill is individual only.")_
-- **R-NDES-04** — Part-year resident or nonresident  _("Part-year and nonresident estimated tax involves Schedule ND-1NR allocation; outside this skill. See nd-income-tax.md scope notes.")_
-- **R-NDES-05** — Farm-income averaging interaction  _("Detailed farm-income averaging and the qualified-farmer safe harbor under N.D. Admin Code 81-03-04-02(3)(a)–(b) require specialist review.")_
-- **R-NDES-06** — Pre-TY 2024 or prior-year amended estimates  _("This skill covers TY 2025 only. Older or amended quarterly computations require historical rate tables outside scope.")_
-- **R-NDES-07** — Reasonable-cause waiver drafting  _("We will not draft the signed reasonable-cause statement — taxpayer or their representative must compose, sign, and submit.")_
+- **R-NDES-01** -- Estate or trust estimated tax  _("ND fiduciary estimated payments (Form 38-ES) are not covered by this skill -- fiduciary rules differ from individual rules under N.D.C.C. Chapter 57-38.")_
+- **R-NDES-02** -- Pass-through entity (PTE) estimated tax  _("ND PTE estimated payments (Form 60-ES partnership / 58-ES S-corp) are not covered -- PTE tax election rules require a separate skill.")_
+- **R-NDES-03** -- Corporate estimated tax (Form 40-ES)  _("Corporate estimated tax (Form 40-ES, Form 40-UT for corporate underpayment) is not covered -- this skill is individual only.")_
+- **R-NDES-04** -- Part-year resident or nonresident  _("Part-year and nonresident estimated tax involves Schedule ND-1NR allocation; outside this skill. See nd-income-tax.md scope notes.")_
+- **R-NDES-05** -- Farm-income averaging interaction  _("Detailed farm-income averaging and the qualified-farmer safe harbor under N.D. Admin Code 81-03-04-02(3)(a)–(b) require specialist review.")_
+- **R-NDES-06** -- Pre-TY 2024 or prior-year amended estimates  _("This skill covers TY 2025 only. Older or amended quarterly computations require historical rate tables outside scope.")_
+- **R-NDES-07** -- Reasonable-cause waiver drafting  _("We will not draft the signed reasonable-cause statement -- taxpayer or their representative must compose, sign, and submit.")_
 
 ## Section 15: Form mapping
 
@@ -497,25 +497,25 @@ Federal Form 1040-ES installments will be larger because the 110% federal prior-
 
 ### Statutes and regulations
 
-- **N.D.C.C. §57-38-62** — Estimated tax statute (individual) https://ndlegis.gov/cencode/t57c38.html
-- **N.D. Admin Code 81-03-04-01** — Estimated tax — general https://ndlegis.gov/prod/acdata/pdf/81-03-04.pdf
-- **N.D. Admin Code 81-03-04-02** — Payments of estimated taxes by individuals, estates, and trusts https://www.law.cornell.edu/regulations/north-dakota/N-D-A-C-81-03-04-02
+- **N.D.C.C. §57-38-62** -- Estimated tax statute (individual) https://ndlegis.gov/cencode/t57c38.html
+- **N.D. Admin Code 81-03-04-01** -- Estimated tax -- general https://ndlegis.gov/prod/acdata/pdf/81-03-04.pdf
+- **N.D. Admin Code 81-03-04-02** -- Payments of estimated taxes by individuals, estates, and trusts https://www.law.cornell.edu/regulations/north-dakota/N-D-A-C-81-03-04-02
 
 ### Forms (TY 2025)
 
-- **Form ND-1ES** — Estimated Income Tax — Individuals https://www.tax.nd.gov/sites/www/files/documents/forms/individual/2024-iit/28709-form-nd-1es-2025.pdf
-- **Schedule ND-1UT** — Underpayment of Estimated Individual Income Tax (SFN 28704) https://www.tax.nd.gov/sites/www/files/documents/forms/individual/2025-iit/28704-schedule-nd-1ut-2025.pdf
+- **Form ND-1ES** -- Estimated Income Tax -- Individuals https://www.tax.nd.gov/sites/www/files/documents/forms/individual/2024-iit/28709-form-nd-1es-2025.pdf
+- **Schedule ND-1UT** -- Underpayment of Estimated Individual Income Tax (SFN 28704) https://www.tax.nd.gov/sites/www/files/documents/forms/individual/2025-iit/28704-schedule-nd-1ut-2025.pdf
 - **2025 Individual Income Tax Booklet** https://www.tax.nd.gov/sites/www/files/documents/forms/individual/2025-iit/2025-individual-income-tax-booklet.pdf
 
 ### Payment portal
 
-- **ND Taxpayer Access Point (TAP)** — https://apps.nd.gov/tax/tap
+- **ND Taxpayer Access Point (TAP)** -- https://apps.nd.gov/tax/tap
 
 ### Federal counterparts
 
-- **IRC §6654** — Failure by individual to pay estimated income tax
-- **Form 1040-ES** — Estimated Tax for Individuals
-- **Form 2210, Schedule AI** — Annualized Income Installment Method
+- **IRC §6654** -- Failure by individual to pay estimated income tax
+- **Form 1040-ES** -- Estimated Tax for Individuals
+- **Form 2210, Schedule AI** -- Annualized Income Installment Method
 
 ### Verification markers in this draft
 
@@ -543,7 +543,7 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -594,7 +594,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 

@@ -4,7 +4,7 @@ description: >-
   Use when an employer needs the 2026 North Dakota answer on state-level
   social contributions: North Dakota has no employee-side social
   contribution, no state disability insurance and no paid-family-leave
-  payroll tax — the only state-level social contribution is the
+  payroll tax -- the only state-level social contribution is the
   employer-only unemployment insurance tax administered by Job Service ND
   under N.D.C.C. Ch. 52-8 (quarterly Form SFN 41263 via UI EASY, new
   employer rates 1.02% non-construction / 6.09% construction on the
@@ -26,13 +26,13 @@ version: 0.2
 
 ## 1. Who this applies to
 
-Every employer liable for North Dakota unemployment insurance: any person or entity paying wages in North Dakota that meets the coverage tests of N.D.C.C. Ch. 52-8 (Employment Security). North Dakota is an **employer-only** state for social contributions — there is no state-level employee payroll contribution of any kind. Reimbursement-base governmental and certain nonprofit employers elect reimbursement instead of contribution financing (Job Service ND employer's guide).
+Every employer liable for North Dakota unemployment insurance: any person or entity paying wages in North Dakota that meets the coverage tests of N.D.C.C. Ch. 52-8 (Employment Security). North Dakota is an **employer-only** state for social contributions -- there is no state-level employee payroll contribution of any kind. Reimbursement-base governmental and certain nonprofit employers elect reimbursement instead of contribution financing (Job Service ND employer's guide).
 
 ### 2. Core rules and rates
 
 - **No employee-side social contribution.** No state disability insurance (contrast NY), no paid-family-leave payroll tax (contrast NY, WA), no state retirement contribution. FICA/FUTA are federal and outside this skill. _(N.D.C.C. Ch. 52-8; corroborated by absence of any employee payroll levy in the ND Tax Commissioner materials, read 2026-10-25)_
-- **UI taxable wage base.** The base "is determined yearly and equals 70% of the calculated statewide average annual payroll" — Job Service ND, "Determination of Taxable Wage Base," verified 2026-10-25. The **2025 base is $45,100** (corroborated by the existing `nd-payroll` skill, T1-ND-PAY-06); the **2026 base: not yet confirmed** (Job Service ND rate-notice page not located on 2026-10-25).
-- **New employer rates.** Non-construction new employers: **1.02%**; construction new employers: **6.09%** — carried from the existing `nd-payroll` skill with [VERIFY] against the 2025 JSND rate schedules; **2026 schedules: not yet confirmed**. _(jobsnd.com "Learn About Taxes" confirms new-employer classification mechanics, verified 2026-10-25)_
+- **UI taxable wage base.** The base "is determined yearly and equals 70% of the calculated statewide average annual payroll" -- Job Service ND, "Determination of Taxable Wage Base," verified 2026-10-25. The **2025 base is $45,100** (corroborated by the existing `nd-payroll` skill, T1-ND-PAY-06); the **2026 base: not yet confirmed** (Job Service ND rate-notice page not located on 2026-10-25).
+- **New employer rates.** Non-construction new employers: **1.02%**; construction new employers: **6.09%** -- carried from the existing `nd-payroll` skill with [VERIFY] against the 2025 JSND rate schedules; **2026 schedules: not yet confirmed**. _(jobsnd.com "Learn About Taxes" confirms new-employer classification mechanics, verified 2026-10-25)_
 - **Experience rating.** Rates are re-determined each calendar year based on the employer's history as of the preceding June 30; an employer remains a "new employer" until liable for the period ending the prior June 30 (typically 3 full fiscal years). _(jobsnd.com/unemployment-business-tax/learn-about-taxes, verified 2026-10-25)_
 - **Rate range for experience-rated employers:** the existing `nd-payroll` skill carries the schedule with [VERIFY]; the statutory min/max: **not yet confirmed**.
 
@@ -50,7 +50,7 @@ Every employer liable for North Dakota unemployment insurance: any person or ent
 
 ### 5. Penalties and interest
 
-- Late quarterly reports/contributions: penalty plus interest per Ch. 52-8; the exact 2026 published penalty/interest percentages: **not yet confirmed** (Ch. 52-8 text at ndlegis.nd.gov unreachable on 2026-10-25 — DNS failure).
+- Late quarterly reports/contributions: penalty plus interest per Ch. 52-8; the exact 2026 published penalty/interest percentages: **not yet confirmed** (Ch. 52-8 text at ndlegis.nd.gov unreachable on 2026-10-25 -- DNS failure).
 - Fraudulent reporting and misclassification (employee vs independent contractor) carry separate Ch. 52-8 sanctions; construction project risk protection rules apply to contractors (jobsnd.com "Comply with Construction Project Risk Protection," verified 2026-10-25).
 
 ### 6. Cross-border and federal overlay
@@ -61,7 +61,7 @@ Every employer liable for North Dakota unemployment insurance: any person or ent
 
 ### 7. Worked examples
 
-**Example 1 — two new non-construction employees, 2025 base.** New employer (non-construction), rate 1.02%, 2025 taxable wage base $45,100, two employees each earning over the base.
+**Example 1 -- two new non-construction employees, 2025 base.** New employer (non-construction), rate 1.02%, 2025 taxable wage base $45,100, two employees each earning over the base.
 
 ```oa-check
 name: nd ui new employer two employees
@@ -75,7 +75,7 @@ expected:
   tax: 920.04
 ```
 
-**Example 2 — new construction employer.** Same base, construction new-employer rate 6.09%, one employee over the base.
+**Example 2 -- new construction employer.** Same base, construction new-employer rate 6.09%, one employee over the base.
 
 ```oa-check
 name: nd ui new construction employer
@@ -88,22 +88,22 @@ expected:
   tax: 2746.59
 ```
 
-(2026 figures will differ once Job Service ND publishes the 2026 base and schedules — recompute before relying.)
+(2026 figures will differ once Job Service ND publishes the 2026 base and schedules -- recompute before relying.)
 
 ### 8. Ask the client first
 
 1. Is the employer construction or non-construction? (Different new-employer rate and project risk-protection rules.)
 2. Are workers correctly classified as employees for Ch. 52-8? (Misclassification is the top ND UI audit issue.)
-3. Reimbursement or contribution financing — which election is on file?
+3. Reimbursement or contribution financing -- which election is on file?
 4. Multi-state: are ND wages being reported to another state's UI system by mistake?
 5. Has the 2026 rate notice been reviewed and, if wrong, protested within the notice window?
 
 ### 9. Sources
 
-- Job Service ND — Learn About Taxes (taxable wage base formula, new-employer and experience-rating mechanics): <https://www.jobsnd.com/unemployment-business-tax/learn-about-taxes> — 200 with text, 2026-10-25.
-- Job Service ND — site root and unemployment-business-tax hub (file reports, employer's guide, construction risk protection): <https://www.jobsnd.com/> — 200, 2026-10-25.
-- Existing `nd-payroll` skill (2025 wage base $45,100; SFN 41263 mechanics; new-employer rates with [VERIFY]) — read 2026-10-25. (not yet confirmed)
-- N.D.C.C. Ch. 52-8 (Employment Security): **not yet confirmed** — ndlegis.nd.gov DNS failure on 2026-10-25; statutory min/max rates and penalty percentages unverified.
+- Job Service ND -- Learn About Taxes (taxable wage base formula, new-employer and experience-rating mechanics): <https://www.jobsnd.com/unemployment-business-tax/learn-about-taxes> -- 200 with text, 2026-10-25.
+- Job Service ND -- site root and unemployment-business-tax hub (file reports, employer's guide, construction risk protection): <https://www.jobsnd.com/> -- 200, 2026-10-25.
+- Existing `nd-payroll` skill (2025 wage base $45,100; SFN 41263 mechanics; new-employer rates with [VERIFY]) -- read 2026-10-25. (not yet confirmed)
+- N.D.C.C. Ch. 52-8 (Employment Security): **not yet confirmed** -- ndlegis.nd.gov DNS failure on 2026-10-25; statutory min/max rates and penalty percentages unverified.
 - 2026 ND UI taxable wage base and rate schedules: **not yet confirmed** (not published on the pages located 2026-10-25).
 
 <!-- openaccountants-cta-block -->
@@ -112,7 +112,7 @@ expected:
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at the OpenAccountants network.
+This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at the OpenAccountants network.
 
 - Use it in your AI: 
 - Talk to a verified accountant: https://calendly.com/openaccountants-info/30min
@@ -156,7 +156,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
