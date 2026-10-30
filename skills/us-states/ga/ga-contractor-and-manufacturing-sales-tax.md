@@ -34,8 +34,8 @@ verified_by: pending
 It computes Georgia sales/use tax outcomes for two adjacent fact patterns that
 the base `ga-sales-tax` skill does not resolve:
 
-- **Real-property contractors** — who pays tax on materials, when, and on what base
-- **Fabricators and manufacturers** — exemption treatment for machinery, raw
+- **Real-property contractors** -- who pays tax on materials, when, and on what base
+- **Fabricators and manufacturers** -- exemption treatment for machinery, raw
   materials, and ingredients, and the retail-sale flip
 
 It does NOT cover: state income tax or apportionment (see `ga-corporate-and-ptet`),
@@ -79,11 +79,11 @@ This skill covers contractors and manufacturers as defined in [Rule 560-12-2-.26
 ## Rates, bands and thresholds
 | Item | Amount | Source |
 |------|--------|--------|
-| State sales and use tax rate | 4% | O.C.G.A. §48-8-30(b)(1) — VERIFIED 2026-08-06 |
-| Local option sales tax (LOST) | 1% (2% in consolidated governments) | O.C.G.A. §48-8-82(a) — VERIFIED 2026-08-06 |
-| SPLOST (special purpose local option) | 1% per referendum | O.C.G.A. §§48-8-110/111 — VERIFIED 2026-08-06 |
-| Manufacturing machinery exemption | Full exemption | O.C.G.A. §48-8-3.2 + Rule 560-12-2-.62 — VERIFIED 2026-08-06. (Draft formerly cited §48-8-3(46) = blood banks; wrong.) |
-| Raw materials / ingredients becoming part of TPP for sale | Full exemption | O.C.G.A. §48-8-3.2 ("industrial materials" incl. raw materials) + Rule 560-12-2-.62(4) — VERIFIED 2026-08-06. (Draft formerly cited §48-8-3(47) = prescription drugs; wrong.) |
+| State sales and use tax rate | 4% | O.C.G.A. §48-8-30(b)(1) -- VERIFIED 2026-08-06 |
+| Local option sales tax (LOST) | 1% (2% in consolidated governments) | O.C.G.A. §48-8-82(a) -- VERIFIED 2026-08-06 |
+| SPLOST (special purpose local option) | 1% per referendum | O.C.G.A. §§48-8-110/111 -- VERIFIED 2026-08-06 |
+| Manufacturing machinery exemption | Full exemption | O.C.G.A. §48-8-3.2 + Rule 560-12-2-.62 -- VERIFIED 2026-08-06. (Draft formerly cited §48-8-3(46) = blood banks; wrong.) |
+| Raw materials / ingredients becoming part of TPP for sale | Full exemption | O.C.G.A. §48-8-3.2 ("industrial materials" incl. raw materials) + Rule 560-12-2-.62(4) -- VERIFIED 2026-08-06. (Draft formerly cited §48-8-3(47) = prescription drugs; wrong.) |
 | Machinery exemption per-item minimum cost threshold | NONE in current law | No dollar floor appears in §48-8-3.2 text as read; the old §48-8-3(34) machinery exemption is "Reserved." Treat any per-item floor claim as obsolete unless a reviewer cites current authority. VERIFIED-absent 2026-08-06 |
 
 ---
@@ -91,27 +91,27 @@ This skill covers contractors and manufacturers as defined in [Rule 560-12-2-.26
 These rates and the registration/filing obligations are confirmed in the archived [Rule 560-12-2 text](https://rules.sos.ga.gov/gac/560-12-2): every contractor improving real property "shall file an application for a Certificate of Registration (CRF-002) as a contractor prior to his first construction activity in this State", returns "are to be made on Form ST-3", and each contractor "shall have 20 days from the last day of the reporting period" to file and remit. The 2 percent subcontractor withholding regime (aggregate contracts of $250,000 or more with a single subcontractor) and the bond forms (S & U T 214-3, 214-3C) are in Rule .26(5)-(7) of the same archive, and the DOR [general contractor withholding page](https://dor.georgia.gov/general-contractor-sales-and-use-tax-withholding-requirements) states the notification duties on Form STC-214-5 and the release mechanics.
 
 ## The taxable base
-### Step 1 — Classify the contract
+### Step 1 -- Classify the contract
 
 Determine whether the contract is (a) an improvement to real property (materials
 annexed to realty) or (b) a sale of tangible personal property with installation.
 The governing rule is **Rule 560-12-2-.26 Contractors** (NOT 560-11-12-.14 as an
-earlier draft stated — that citation was wrong). VERIFIED 2026-08-06.
+earlier draft stated -- that citation was wrong). VERIFIED 2026-08-06.
 NO RULE EXISTS in Chapter 560-12-2 for carpet/floor-covering installation as
 such (full chapter index checked 2026-08-06; only an incidental mention in
 Rule .51 hotels). The Dalton-area fact pattern is therefore NOT resolved by
-the standard contractor rule — see Section 5 for the open question.
+the standard contractor rule -- see Section 5 for the open question.
 
-### Step 2 — Contractor as consumer (real property)
+### Step 2 -- Contractor as consumer (real property)
 
 If the contract improves real property: the contractor is deemed the consumer of
 all tangible personal property used or consumed in performing the contract, and
-tax is due at purchase, use, storage, or consumption in Georgia — whichever
+tax is due at purchase, use, storage, or consumption in Georgia -- whichever
 occurs first. No tax applies to the contract price itself. Verified:
 Rule 560-12-2-.26(1). General/prime contractor and subcontractor definitions:
 .26(2)-(3). A developer who owns or leases real estate and contracts with
 another person to furnish TPP and perform services in developing, altering, or
-improving it is itself a general/prime contractor under .26(2)(b)-(c) —
+improving it is itself a general/prime contractor under .26(2)(b)-(c) --
 relevant when the "owner" is also a builder. **Painters and paperhangers**
 perform services not taxable under the Act; they are consumers of the paint,
 wallpaper, supplies, and equipment they use and pay tax on those purchases
@@ -119,7 +119,7 @@ wallpaper, supplies, and equipment they use and pay tax on those purchases
 taxable to the person performing the work or to the owner (Rule 560-12-2-.78);
 material purchases for resale are made under Certificates of Exemption.
 
-### Step 3 — Fabricator flip
+### Step 3 -- Fabricator flip
 
 Fabrication = an operation that changes the form or state of property (mere
 restoration to original state is a non-taxable repair service). A fabricator
@@ -129,12 +129,12 @@ even if labor is separately stated; also applies when the customer furnishes the
 materials. If the fabricator converts fabricated property to its own use, tax is
 due on fair market value at first use. Verified: Rule 560-12-2-.37(1)-(4).
 
-### Step 4 — Manufacturing exemptions
+### Step 4 -- Manufacturing exemptions
 
 For manufacturers (incl. carpet/tufting plants): machinery/equipment necessary
 and integral to manufacture of TPP is exempt; industrial materials (incl. raw
-materials) that become a component part of the finished product — or are coated
-upon/impregnated into it — are exempt; packaging supplies exempt; energy
+materials) that become a component part of the finished product -- or are coated
+upon/impregnated into it -- are exempt; packaging supplies exempt; energy
 necessary and integral to manufacture exempt (O.C.G.A. §48-8-3.2; Rules
 560-12-2-.62, -.64). Exemption applies to leases from the date the property
 qualifies. Multi-use property: substantial purpose (>1/3 of use) controls.
@@ -143,12 +143,12 @@ pollution control. Does NOT qualify: highway-registered motor vehicles; real
 property (slabs, foundations, fixtures, general HVAC/lighting for comfort);
 finished-goods storage after packaging; administrative/office equipment;
 property not under manufacturer's control. Verified: Rule 560-12-2-.62(2)-(3).
-NOTE: hand tools DO qualify as exempt equipment under .62(2)(c) — an earlier
+NOTE: hand tools DO qualify as exempt equipment under .62(2)(c) -- an earlier
 draft wrongly listed them as excluded. Manufacturer definition: NAICS sectors
 21, 31-33, or code 22111/511110, or "generally regarded as a manufacturer";
 retail/service businesses generally excluded.
 
-### Step 5 — Local rate application
+### Step 5 -- Local rate application
 
 Apply combined state 4% + LOST 1% (2% in consolidated governments) + any
 municipal/SPLOST levies for the jurisdiction where tax accrues. County-by-county
@@ -156,12 +156,12 @@ rate lookup: defer to `ga-sales-tax` (rate table is a candidate companion
 skill). Sourcing: the cached statutes (§§48-8-30/80/82/110/111) state no
 general situs rule for contractor material purchases; §48-8-2(33)(B) fixes the
 taxable situs for MOTOR VEHICLE retail sales at the county of the purchaser's
-registration, which supports — but does not prove — a destination-based
+registration, which supports -- but does not prove -- a destination-based
 approach for contractor materials. GA is generally destination-based for sales
 tax. **Resolved 2026-08-19 (round 4):** O.C.G.A. §48-8-77(b)(1)(A)-(E) is the
 general sourcing hierarchy (destination/receipt-based). The GA DOR
 "Sales and Use Tax for Contractors Examples" (fetched 2026-08-19) confirms: tax
-follows the **jurisdiction of use** — materials bought in a 6% jurisdiction and
+follows the **jurisdiction of use** -- materials bought in a 6% jurisdiction and
 used in an 8% jurisdiction require accrual of the 2% differential on Form ST-3;
 use in a lower-rate jurisdiction yields no credit or refund for the
 overpayment. Reciprocal credit for tax legally paid to another state runs
@@ -185,7 +185,7 @@ overpayment. Reciprocal credit for tax legally paid to another state runs
   pay permit); without it the seller must collect tax. If tax was paid on
   exempt property without a certificate, the purchaser may apply to the
   Commissioner for a refund. Verified: Rule 560-12-2-.62(6).
-  Record-retention period: **three years** from the due date of the return —
+  Record-retention period: **three years** from the due date of the return --
   dealers must preserve all invoices and records (O.C.G.A. §48-8-52(a)(1)(D));
   wholesale dealers/jobbers under the same three-year obligation (§48-8-53).
   Good-faith standard for accepting certificates: the five-element 'properly
@@ -204,7 +204,7 @@ overpayment. Reciprocal credit for tax legally paid to another state runs
   Bond schedule: <$250K receipts = no bond; $250K-$500K = $5,000;
   $500K-$750K = $20,000; $750K-$1M = $30,000; >$1M = $50,000. Verified:
   Rule 560-12-2-.26(5)-(7); O.C.G.A. §48-8-63 (bond authority).
-- **Foreign / non-resident contractors** — Rule 560-12-2-.43 governs
+- **Foreign / non-resident contractors** -- Rule 560-12-2-.43 governs
   contractors without a GA address or principal place of business; the full
   text has been read and is cached, but this skill defers to `ga-sales-tax`
   for their broader filing obligations. The Rule .43 regime itself:
@@ -227,10 +227,10 @@ The late-return and late-payment charges are the sales and use tax charges in O.
 
 ## Cross-border points
 - **Nonresident and foreign contractors** are governed by [Rule 560-12-2-.43](https://rules.sos.ga.gov/gac/560-12-2) and the DOR [tax guide for contractors](https://dor.georgia.gov/tax-guide-contractors): a contractor without an established Georgia business location must submit a performance bond (10% of any contract exceeding $10,000), consent to service of process, keep the qualification acknowledgement at the jobsite, and file the completion notice; the bond releases two years after the completion notice.
-- **Reciprocal credit.** When a contractor pays sales tax to another state, "Georgia will grant reciprocal credit for a legally imposed taxes paid to the other state. Credit is granted “like tax against like tax”" — state tax credited against state tax and local against local (O.C.G.A. § 48-8-30, [DOR contractors examples](https://dor.georgia.gov/sales-and-use-tax-contractors-examples)).
+- **Reciprocal credit.** When a contractor pays sales tax to another state, "Georgia will grant reciprocal credit for a legally imposed taxes paid to the other state. Credit is granted “like tax against like tax”" -- state tax credited against state tax and local against local (O.C.G.A. § 48-8-30, [DOR contractors examples](https://dor.georgia.gov/sales-and-use-tax-contractors-examples)).
 
 ## Edge cases and special rules
-- **Carpet and floor covering installation** — no rule in Chapter 560-12-2
+- **Carpet and floor covering installation** -- no rule in Chapter 560-12-2
   addresses carpet/floor-covering installation as such (checked the full chapter
   index 2026-08-06: no carpet/floor-covering/flooring rule; only incidental
   mention in Rule .51 hotels). The Dalton-area fact pattern is therefore NOT
@@ -239,25 +239,25 @@ The late-return and late-payment charges are the sales and use tax charges in O.
   DOR letter ruling found in the rulings index (checked 2026-08-06 and
   2026-08-19). Do not assert a position in tier-2 output without flagging the
   gap to the reviewer.
-- **Modular/pre-fabricated buildings** — no rule found in Chapter 560-12-2.
+- **Modular/pre-fabricated buildings** -- no rule found in Chapter 560-12-2.
   (Adjacent: O.C.G.A. §48-8-3(102) taxes manufactured homes at 50% of sales
-  price — relevant but not on point for modular buildings generally.)
+  price -- relevant but not on point for modular buildings generally.)
   [VERIFY.]
-- **Government contracts** — sales to the Federal Government, the State of
+- **Government contracts** -- sales to the Federal Government, the State of
   Georgia, or any county/municipality (or bona fide department) are exempt when
   paid for directly by warrant on appropriated government funds; hospital
   authorities under Ch. 8818 are exempt. Sales to government employees for
   their own use are taxable; sales on federal property generally taxable with
   narrow military-exchange exceptions. Verified: Rule 560-12-2-.41(1)-(3).
-- **Leased construction equipment** — leases of TPP taxable at 4% (O.C.G.A.
-  §48-8-30 — VERIFIED); leased MANUFACTURING machinery gains the §48-8-3.2
+- **Leased construction equipment** -- leases of TPP taxable at 4% (O.C.G.A.
+  §48-8-30 -- VERIFIED); leased MANUFACTURING machinery gains the §48-8-3.2
   exemption for payments from the date it qualifies, even if it did not qualify
   at lease inception (Rule .62(3)(b)).
-- **Mixed contracts** — allocate between real-property and TPP components;
+- **Mixed contracts** -- allocate between real-property and TPP components;
   failure to separate can push the entire contract into the retail regime.
   The "Sale" definition in O.C.G.A. §48-8-2(33)(A)(i) reaches fabrication for
   consumers who furnish the materials; §48-8-2(34)(B)(iv) excludes separately
-  stated installation charges from "sales price" — together these support
+  stated installation charges from "sales price" -- together these support
   separating real-property (contractor-as-consumer) and TPP (retail)
   components, but no explicit allocation rule exists in Chapter 560-12-2.
   **Resolved 2026-08-19 (round 4, partially to citable rule).** The GA DOR
@@ -274,11 +274,11 @@ The late-return and late-payment charges are the sales and use tax charges in O.
 ## Worked examples
 Amounts described as project facts are hypothetical inputs. Rates are the confirmed 4% state rate plus the archived chart rates.
 
-**Example 1 — materials bought at 6% and used at 8%.** A contractor buys materials in a 6% jurisdiction, paying tax at purchase, and uses them on a job in an 8% jurisdiction. Tax follows the jurisdiction of use: the contractor accrues the 2% differential on Form ST-3, as the archived DOR examples page states ("Material used in an 8% jurisdiction, contractor must accrue 2% use tax, Contractor repots the 2% use tax on his ST-3 return"). Materials bought at 8% and used in a 6% jurisdiction yield no credit or refund for the 2% overpayment.
+**Example 1 -- materials bought at 6% and used at 8%.** A contractor buys materials in a 6% jurisdiction, paying tax at purchase, and uses them on a job in an 8% jurisdiction. Tax follows the jurisdiction of use: the contractor accrues the 2% differential on Form ST-3, as the archived DOR examples page states ("Material used in an 8% jurisdiction, contractor must accrue 2% use tax, Contractor repots the 2% use tax on his ST-3 return"). Materials bought at 8% and used in a 6% jurisdiction yield no credit or refund for the 2% overpayment.
 
-**Example 2 — real-property improvement.** A contractor builds a $500,000 addition and is deemed the consumer of the materials ([Rule 560-12-2-.26(1)](https://rules.sos.ga.gov/gac/560-12-2)). If materials cost $100,000 and the job is in an 8% jurisdiction where they are bought and used, tax is $100,000 × 8% = $8,000, paid at purchase; no tax applies to the $500,000 contract price.
+**Example 2 -- real-property improvement.** A contractor builds a $500,000 addition and is deemed the consumer of the materials ([Rule 560-12-2-.26(1)](https://rules.sos.ga.gov/gac/560-12-2)). If materials cost $100,000 and the job is in an 8% jurisdiction where they are bought and used, tax is $100,000 × 8% = $8,000, paid at purchase; no tax applies to the $500,000 contract price.
 
-**Example 3 — 2% retainage.** A general contractor has aggregate contracts of $400,000 with one nonresident subcontractor and no bond on file. It withholds 2% of payments: on a $50,000 progress payment, $50,000 × 2% = $1,000 withheld until release under the Form STC-214 mechanics ([Rule 560-12-2-.26(6)](https://rules.sos.ga.gov/gac/560-12-2); [DOR general contractor withholding page](https://dor.georgia.gov/general-contractor-sales-and-use-tax-withholding-requirements)).
+**Example 3 -- 2% retainage.** A general contractor has aggregate contracts of $400,000 with one nonresident subcontractor and no bond on file. It withholds 2% of payments: on a $50,000 progress payment, $50,000 × 2% = $1,000 withheld until release under the Form STC-214 mechanics ([Rule 560-12-2-.26(6)](https://rules.sos.ga.gov/gac/560-12-2); [DOR general contractor withholding page](https://dor.georgia.gov/general-contractor-sales-and-use-tax-withholding-requirements)).
 
 ## Ask the client first
 1. Is the contract an improvement to real property, a sale of tangible personal property with installation, or a fabrication job? (Rule .26 classification; Step 1 under "The taxable base".)
@@ -329,7 +329,7 @@ Not yet confirmed: carpet and floor-covering installation treatment (no rule in 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

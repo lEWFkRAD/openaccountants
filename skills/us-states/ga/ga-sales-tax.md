@@ -268,7 +268,7 @@ Amounts are illustrations. Rates are from the Department's charts for the quarte
 | DOR Streamlined Sales Tax (full member from 1 July 2011) | https://dor.georgia.gov/taxes/tax-rules-and-policies/streamlined-sales-tax | 2026-10-28 |
 | DOR voluntary disclosure agreements | https://dor.georgia.gov/voluntary-disclosure-agreements | 2026-10-28 |
 
-Not yet confirmed: the treatment of a remote seller at exactly $100,000 of sales or exactly 200 transactions (the archived bulletin says revenue "exceeding $100,000" and "200 or more" sales, while the archived "How do I know" page asks about "at least $100,000" and "over 200" — get written confirmation from the Department); SaaS (not addressed on the archived pages cited here); the combined rate for the special Fulton County districts 803 and 805 (the chart shows 3.9% without the 4% state rate; confirm with the Department before charging there); whether the $5 minimum late-filing penalty applies to the state and local parts separately or once per return (check the bill).
+Not yet confirmed: the treatment of a remote seller at exactly $100,000 of sales or exactly 200 transactions (the archived bulletin says revenue "exceeding $100,000" and "200 or more" sales, while the archived "How do I know" page asks about "at least $100,000" and "over 200" -- get written confirmation from the Department); SaaS (not addressed on the archived pages cited here); the combined rate for the special Fulton County districts 803 and 805 (the chart shows 3.9% without the 4% state rate; confirm with the Department before charging there); whether the $5 minimum late-filing penalty applies to the state and local parts separately or once per return (check the bill).
 
 <!-- openaccountants-cta-block -->
 
@@ -276,7 +276,7 @@ Not yet confirmed: the treatment of a remote seller at exactly $100,000 of sales
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

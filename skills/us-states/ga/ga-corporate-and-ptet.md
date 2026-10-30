@@ -258,7 +258,7 @@ It does **not** cover:
 | Situation | Rule |
 | --- | --- |
 | Net worth exactly $100,000 | No tax ("Not exceeding $100,000"), but the return is still due. |
-| Net worth $100,001 | $125 — the band "Over 100,000.00 and not exceeding 150,000.00" in the IT-611 scale. |
+| Net worth $100,001 | $125 -- the band "Over 100,000.00 and not exceeding 150,000.00" in the IT-611 scale. |
 | Fiscal year beginning 1 July 2025 | 5.19% for the whole year; the rate is not prorated. |
 | Corporation expects net income of exactly $25,000 | No estimated tax required. The test is "exceed" $25,000. |
 | Prior-year Georgia return covered 9 months | The 100%-of-prior-year option is unavailable. Use 70% of the current year's tax. |
@@ -388,7 +388,7 @@ Client facts: a 2025 Form 600S with one nonresident shareholder who did not sign
 | DOR important tax updates (2026 income tax changes) | https://dor.georgia.gov/taxes/important-tax-updates | 2026-10-28 |
 | IRS Notice 2020-75 (federal deduction for specified income tax payments) | https://www.irs.gov/pub/irs-drop/n-20-75.pdf | 2026-10-28 |
 
-Not yet confirmed: the rate DOR applies in the first-election-year prior-year safe harbour (the FAQ says compute the prior year's tax at 5.75%, the pre-2024 rate, and has not been updated for the HB 1023/HB 111 rate link — ask DOR before relying on it); whether the one additional month for corporate extensions under HB 1023 also extends the S corporation or partnership PTET election deadline (DOR has not said; make the election by the federal extended due date); the 2026 IT-611, IT-611S and IT-711 booklets (not published at read time).
+Not yet confirmed: the rate DOR applies in the first-election-year prior-year safe harbour (the FAQ says compute the prior year's tax at 5.75%, the pre-2024 rate, and has not been updated for the HB 1023/HB 111 rate link -- ask DOR before relying on it); whether the one additional month for corporate extensions under HB 1023 also extends the S corporation or partnership PTET election deadline (DOR has not said; make the election by the federal extended due date); the 2026 IT-611, IT-611S and IT-711 booklets (not published at read time).
 
 <!-- openaccountants-cta-block -->
 
@@ -396,7 +396,7 @@ Not yet confirmed: the rate DOR applies in the first-election-year prior-year sa
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

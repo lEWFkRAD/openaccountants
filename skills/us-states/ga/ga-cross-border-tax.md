@@ -24,7 +24,7 @@ version: 0.1
 - Nonresident and part-year individual filers with Georgia-source income (Form 500 with Schedule 3) ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download), read 2026-10-24).
 - Georgia pass-throughs with nonresident members/shareholders (withholding, Form 600S-CA consent, composite Form IT-CR) ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download), read 2026-10-24).
 - Out-of-state corporations with Georgia solicitation or sales activity (P.L. 86-272 analysis) (2025 IT-611 booklet, read 2026-10-24).
-- Out of scope: residency-determination disputes (refer — O.C.G.A. § 48-7-1 tests); the addback regime (`ga-transfer-pricing-addbacks`).
+- Out of scope: residency-determination disputes (refer -- O.C.G.A. § 48-7-1 tests); the addback regime (`ga-transfer-pricing-addbacks`).
 
 ## Rates, bands and thresholds
 - **Flat rate for 2026:** 4.99% for taxable years beginning on or after 1 January 2026 (HB 463, read 2026-10-24); 5.19% for 2025.
@@ -32,7 +32,7 @@ version: 0.1
 - Part-year residents and nonresidents compute Georgia tax via **Schedule 3** (Georgia net income ratio); they skip Form 500 Lines 9–14 ([2025 IT-511 booklet](https://dor.georgia.gov/document/document/2025-it-511-individual-income-tax-booklet/download), read 2026-10-24).
 - **S corporation nonresident shareholders:** Georgia recognises the S election only if every nonresident shareholder signs Form 600S-CA; otherwise the entity files Form 600 as a C corporation. Without consent, withholding on nonresident members applies unless a composite return (Form IT-CR) is filed, the members' aggregate annual Georgia-sourced share is under $1,000, or the shareholder properly executed Form 600S-CA and reports and pays the tax (ga-corporate-and-ptet, corroborated by 2025 IT-611 booklet, read 2026-10-24).
 - **PTET election binds nonresidents:** an electing entity pays at the entity level at the flat rate; nonresident owners are not separately taxed on that income and no composite return is filed (ga-corporate-and-ptet, read 2026-10-24).
-- **P.L. 86-272:** solicitation of orders for tangible personal property, sent outside Georgia for approval and shipment, is exempt from Georgia net-income tax — but **not** from the net worth tax; Forms 600/600S must still be filed with a zero on Schedule 1 line 8 and a statement claiming the exemption ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download), read 2026-10-24).
+- **P.L. 86-272:** solicitation of orders for tangible personal property, sent outside Georgia for approval and shipment, is exempt from Georgia net-income tax -- but **not** from the net worth tax; Forms 600/600S must still be filed with a zero on Schedule 1 line 8 and a statement claiming the exemption ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download), read 2026-10-24).
 
 ## The taxable base
 - Georgia-source income for nonresidents: wages for work performed in Georgia, Georgia rents, Georgia lottery winnings, flow-through income allocated to Georgia; deferred compensation to nonresidents follows the regulation sourcing rules (Reg. 560-7-4, cited in 2025 IT-611 booklet, read 2026-10-24).
@@ -49,7 +49,7 @@ version: 0.1
 - Nonresident military: special residency rules for personnel stationed in Georgia under the Servicemembers Civil Relief Act (2025 IT-511 booklet, read 2026-10-24).
 
 ## Worked examples
-**Example 1 — nonresident employee de minimis test.** A Tennessee resident works in Georgia and earns USD 3,000 of Georgia wages out of USD 90,000 total pay. Threshold: min(90,000 × 5%, 5,000) = 4,500. Georgia pay 3,000 ≤ 4,500 → no Georgia filing required (headroom 4,500 − 3,000 = 1,500). If Georgia pay were 6,000: 6,000 > 4,500 → Form 500-NR with Schedule 3 required.
+**Example 1 -- nonresident employee de minimis test.** A Tennessee resident works in Georgia and earns USD 3,000 of Georgia wages out of USD 90,000 total pay. Threshold: min(90,000 × 5%, 5,000) = 4,500. Georgia pay 3,000 ≤ 4,500 → no Georgia filing required (headroom 4,500 − 3,000 = 1,500). If Georgia pay were 6,000: 6,000 > 4,500 → Form 500-NR with Schedule 3 required.
 
 ```oa-check
 name: ga nonresident employee de minimis
@@ -65,7 +65,7 @@ expected:
   headroom: 1500.00
 ```
 
-**Example 2 — nonresident share via Schedule 3 ratio.** A nonresident's only income is a 25% share of a Georgia LLC's profit: Georgia-source USD 25,000 of USD 100,000 total. Ratio: 25,000 / 100,000 = 0.25. Georgia tax at the 2026 flat rate: 100,000 × 4.99% × 0.25 = USD 1,247.50.
+**Example 2 -- nonresident share via Schedule 3 ratio.** A nonresident's only income is a 25% share of a Georgia LLC's profit: Georgia-source USD 25,000 of USD 100,000 total. Ratio: 25,000 / 100,000 = 0.25. Georgia tax at the 2026 flat rate: 100,000 × 4.99% × 0.25 = USD 1,247.50.
 
 ```oa-check
 name: ga nonresident schedule 3 apportionment
@@ -85,7 +85,7 @@ expected:
 1. Where is the individual's legal residence, and what is the Georgia income as a share of total income?
 2. Is the employee exception available (Georgia pay ≤ lesser of 5% or $5,000)?
 3. For pass-throughs: did every nonresident S shareholder sign Form 600S-CA, or is a composite (IT-CR) or PTET election in place?
-4. For out-of-state companies: is activity mere solicitation of tangible-personal-property orders (P.L. 86-272) — and is the net worth tax still being filed?
+4. For out-of-state companies: is activity mere solicitation of tangible-personal-property orders (P.L. 86-272) -- and is the net worth tax still being filed?
 5. Any treaty position being claimed by a foreign nonresident?
 
 ## Sources
@@ -103,7 +103,7 @@ Not yet confirmed: the exact wording of the O.C.G.A. § 48-7-1 residency tests (
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
+This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people. The live, always-current version (and the professional behind it) is at [openaccountants.com](https://www.openaccountants.com).
 
 - Use it in your AI: https://www.openaccountants.com/connect
 - Talk to a verified accountant: https://calendly.com/openaccountants-info/30min
