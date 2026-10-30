@@ -150,15 +150,8 @@ expected:
 ## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
-| FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-10-28 |
-| FTB — Form 100 (2025) | https://www.ftb.ca.gov/forms/2025/2025-100.pdf | 2026-10-28 |
-| FTB — Form 3539 (2025) | https://www.ftb.ca.gov/forms/2025/2025-3539.pdf | 2026-10-28 |
-| FTB — Form 568 (2025) | https://www.ftb.ca.gov/forms/2025/2025-568.pdf | 2026-10-28 |
-| FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-10-28 |
-| FTB — Interest and Estimate Penalty Rates | https://www.ftb.ca.gov/pay/penalties-and-interest/interest-and-estimate-penalty-rates.html | 2026-10-28 |
 
-Not yet confirmed: the 8.84% rate, $800 minimum franchise tax, first-year exemption, LLC fee bands ($800–$11,790), economic-nexus thresholds ($750,000 / 25%), the 25% late-filing penalty, current FTB interest rates, and the 90%/100%/110% estimated-tax safe harbors are not yet confirmed against archived sources; the R&TC §§23151, 23153, 23101 and 25128 statute cites (leginfo 403 on 2026-10-27) remain pending verification.
-
+Not yet confirmed:  FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB — Form 100 (2025) | https://www.ftb.ca.gov/forms/2025/2025-100.pdf ;  FTB — Form 3539 (2025) | https://www.ftb.ca.gov/forms/2025/2025-3539.pdf ;  FTB — Form 568 (2025) | https://www.ftb.ca.gov/forms/2025/2025-568.pdf ;  FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ;  FTB — Interest and Estimate Penalty Rates | https://www.ftb.ca.gov/pay/penalties-and-interest/interest-and-estimate-penalty-rates.html ; the 8.84% rate, $800 minimum franchise tax, first-year exemption, LLC fee bands ($800–$11,790), economic-nexus thresholds ($750,000 / 25%), the 25% late-filing penalty, current FTB interest rates, and the 90%/100%/110% estimated-tax safe harbors are not yet confirmed against archived sources; the R&TC §§23151, 23153, 23101 and 25128 statute cites (leginfo 403 on 2026-10-27) remain pending verification.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for California franchise-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

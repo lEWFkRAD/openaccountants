@@ -132,11 +132,8 @@ expected:
 ## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
-| FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-10-28 |
-| FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-10-28 |
 
-Not yet confirmed: the 8.84% rate, the 18 CCR §25110 water's-edge text cited from Cornell LII, and the R&TC §§25101, 25109, 25110, 25128 and 25134 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
-
+Not yet confirmed:  FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 8.84% rate, the 18 CCR §25110 water's-edge text cited from Cornell LII, and the R&TC §§25101, 25109, 25110, 25128 and 25134 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for California combined-reporting and transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

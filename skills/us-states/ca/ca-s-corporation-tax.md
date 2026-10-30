@@ -125,12 +125,8 @@ expected:
 ## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
-| FTB — Form 100S (2025) | https://www.ftb.ca.gov/forms/2025/2025-100S.pdf | 2026-10-28 |
-| FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-10-28 |
-| FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-10-28 |
 
-Not yet confirmed: the 1.5% entity-level tax rate, $800 minimum franchise tax, shareholder rates (1–13.3%), Form 7004 extension dates, estimated-tax schedule and safe-harbor percentages, and the R&TC §§23803 and 23153 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
-
+Not yet confirmed:  FTB — Form 100S (2025) | https://www.ftb.ca.gov/forms/2025/2025-100S.pdf ;  FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 1.5% entity-level tax rate, $800 minimum franchise tax, shareholder rates (1–13.3%), Form 7004 extension dates, estimated-tax schedule and safe-harbor percentages, and the R&TC §§23803 and 23153 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for California S-corporation questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

@@ -148,11 +148,8 @@ be confirmed against current FTB guidance before advising.)
 ## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
-| FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-10-28 |
-| FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-10-28 |
 
-Not yet confirmed: the 8.84% rate and $800 minimum franchise tax, economic-nexus thresholds ($750,000 / 25%), the 18 CCR §§23101/25128/25110 and 15 U.S.C. §381 (PL 86-272) texts cited from Cornell LII, the credit-for-taxes-paid cites (R&TC §§17059, 24011), and the R&TC §§23101, 23151, 25128, 25134 and 25123 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
-
+Not yet confirmed:  FTB — Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB — Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 8.84% rate and $800 minimum franchise tax, economic-nexus thresholds ($750,000 / 25%), the 18 CCR §§23101/25128/25110 and 15 U.S.C. §381 (PL 86-272) texts cited from Cornell LII, the credit-for-taxes-paid cites (R&TC §§17059, 24011), and the R&TC §§23101, 23151, 25128, 25134 and 25123 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for California nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
