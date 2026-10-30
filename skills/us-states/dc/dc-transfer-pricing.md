@@ -2,7 +2,7 @@
 name: dc-transfer-pricing
 description: >
   Use this skill whenever asked about District of Columbia transfer
-  pricing for tax year 2026 — mandatory combined reporting for
+  pricing for tax year 2026 -- mandatory combined reporting for
   unitary businesses for taxable years beginning on or after
   2011-01-01, the unitary-group concept, the DC single-sales-factor
   apportionment, and how combined reporting changes related-party
@@ -28,7 +28,7 @@ DC is a **mandatory combined-reporting state**: the OTR Combined Reporting page 
 
 ## Who this applies to
 
-- Every member of a **unitary business** with DC nexus files one combined return — corporate and unincorporated members alike ([OTR Combined Reporting page](https://otr.cfo.dc.gov/page/combined-reporting-business-entities), read 2026-10-28).
+- Every member of a **unitary business** with DC nexus files one combined return -- corporate and unincorporated members alike ([OTR Combined Reporting page](https://otr.cfo.dc.gov/page/combined-reporting-business-entities), read 2026-10-28).
 - Because combination is mandatory, classic transfer-pricing levers (royalties, management fees, intercompany debt) mostly wash out inside the combined group; the live issues become **where the group's sales sit** (the single sales factor) and **which entities are in the group**.
 - International groups: the water's-edge treatment of foreign affiliates is not confirmed in the archived sources (see the Not yet confirmed line).
 
@@ -44,7 +44,7 @@ DC is a **mandatory combined-reporting state**: the OTR Combined Reporting page 
 ## The taxable base
 
 - The group's **combined net income**, with intragroup transactions eliminated, apportioned to DC by the **sales factor alone** ([§ 47-1810.02(d-2)](https://code.dccouncil.gov/us/dc/council/code/sections/47-1810.02)). Earlier years used a property-payroll-sales formula (double-weighted sales for 2011–2014); the sales-only factor applies to taxable years beginning after 31 December 2014.
-- The unitary test is the standard unity-of-business doctrine (operational or functional integration); the statutory definition of the unitary group was not extracted from the archived sources this run — see the Not yet confirmed line.
+- The unitary test is the standard unity-of-business doctrine (operational or functional integration); the statutory definition of the unitary group was not extracted from the archived sources this run -- see the Not yet confirmed line.
 
 ## Deadlines and filing
 
@@ -55,7 +55,7 @@ DC is a **mandatory combined-reporting state**: the OTR Combined Reporting page 
 
 - **Failure-to-file / failure-to-pay additions:** 5% a month up to 25% each, with the failure-to-file addition reduced by the failure-to-pay addition for the same months ([D.C. Code § 47-4213](https://code.dccouncil.gov/us/dc/council/code/sections/47-4213), archived 2026-10-28).
 - **Interest** on unpaid tax and on underpayments of estimated tax runs at 10% a year, compounded daily ([D.C. Code § 47-4201](https://code.dccouncil.gov/us/dc/council/code/sections/47-4201), archived 2026-10-28); businesses compute underpayment interest on Form D-2220.
-- Common failure modes: (1) filing separate D-20s for a unitary group — combination has been mandatory since 2011; (2) excluding a foreign subsidiary without confirming water's-edge status; (3) building royalty/fee structures that wash out in combination and surprise planners when DC tax doesn't move; (4) sales-by-destination data not maintained at group level for the single sales factor.
+- Common failure modes: (1) filing separate D-20s for a unitary group -- combination has been mandatory since 2011; (2) excluding a foreign subsidiary without confirming water's-edge status; (3) building royalty/fee structures that wash out in combination and surprise planners when DC tax doesn't move; (4) sales-by-destination data not maintained at group level for the single sales factor.
 
 ## Cross-border points
 
@@ -82,7 +82,7 @@ expected:
   tax: 99000.00
 ```
 
-**A $2,000,000 intercompany royalty inside the same group** — eliminated on combination, so the DC tax effect at the group level is zero before factor effects:
+**A $2,000,000 intercompany royalty inside the same group** -- eliminated on combination, so the DC tax effect at the group level is zero before factor effects:
 
 ```oa-check
 name: DC intragroup royalty wash
@@ -97,7 +97,7 @@ expected:
 
 ## Ask the client first
 
-- Is every unitary member on the combined return — including LLCs and foreign subsidiaries (water's-edge status confirmed)?
+- Is every unitary member on the combined return -- including LLCs and foreign subsidiaries (water's-edge status confirmed)?
 - Are intercompany fee/royalty plans modeled at the combined level, not entity level?
 - Is apportionment data (sales by destination) maintained group-wide for the single sales factor?
 - Any restructuring that changes unity or affiliation percentages?
@@ -122,7 +122,7 @@ Not yet confirmed: the statutory unitary-group definition and affiliation/owners
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

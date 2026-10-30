@@ -2,7 +2,7 @@
 name: dc-unemployment-contributions
 description: >
   Use this skill whenever asked about District of Columbia employer
-  social contributions for tax year 2026 — unemployment insurance
+  social contributions for tax year 2026 -- unemployment insurance
   contributions administered by the Department of Employment Services
   (DOES): the employer-only UI tax on the first $9,000 of wages, the
   2.7% new-employer rate and experience rating, the 0.2% administrative
@@ -30,14 +30,14 @@ DC employer social contributions: **unemployment insurance (UI)** under D.C. Cod
 ## Who this applies to
 
 - Employers covered under D.C. Code Title 51 ch. 1. "The cost of the unemployment insurance program is financed by employers who pay state and federal taxes on part of the wages paid to each employee" ([DOES Employer Tax Information page](https://does.dc.gov/service/employer-tax-information-unemployment-insurance)). Out-of-state employers with DC employees register with DOES even with no DC office.
-- The UI contribution is **employer-only** — "Employees are not taxed" (DOES Employer Tax Information page).
+- The UI contribution is **employer-only** -- "Employees are not taxed" (DOES Employer Tax Information page).
 - **Paid Family Leave:** "All District of Columbia private sector employers must participate in this program"; covered employers "include all DC employers subject to DC Unemployment Insurance (UI) tax and self-employed individuals who choose to opt in" ([DOES PFL Employer Toolkit](https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/DOES_PFL_EmployerToolkit.pdf)). In general, covered workers are those who predominantly work in DC and no more than 50% in another jurisdiction.
 
 ## Rates, bands and thresholds
 
 | Item | 2026 amount | Source |
 |---|---|---|
-| UI taxable wage base | **$9,000** — "on the first $9,000 of wages paid to each employee" | [DOES Employer Tax Information page](https://does.dc.gov/service/employer-tax-information-unemployment-insurance); [UI Handbook](https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/UI%20Employer%20Handbook%20-MASTER2-FINAL.pdf): "payable, at the assigned rate, on the first $9,000 paid to each covered employee during the calendar year" |
+| UI taxable wage base | **$9,000** -- "on the first $9,000 of wages paid to each employee" | [DOES Employer Tax Information page](https://does.dc.gov/service/employer-tax-information-unemployment-insurance); [UI Handbook](https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/UI%20Employer%20Handbook%20-MASTER2-FINAL.pdf): "payable, at the assigned rate, on the first $9,000 paid to each covered employee during the calendar year" |
 | New-employer rate | **2.7% or the average rate paid by all employers the preceding year, whichever is higher** | [UI Handbook](https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/UI%20Employer%20Handbook%20-MASTER2-FINAL.pdf); [DOES Tax Rate Questions](https://does.dc.gov/service/tax-rate-questions): "a standard tax rate equal to the average rate of contributions paid by all employers during the preceding year, or 2.7 percent, whichever is higher" |
 | Experience rate | Rated on experience after about 36 months of liability; each calendar year one of six tax tables applies, selected by the Trust Fund balance as of the prior 30 September | UI Handbook; DOES Tax Rate Questions |
 | Administrative assessment | **0.2%** of taxable wages each quarter, by rated and reimbursable employers alike, "a maximum payment of $18 for each employee" | UI Handbook: "an administrative assessment of two-tenths of one percent (0.2%) on taxable wages reported each quarter" |
@@ -59,12 +59,12 @@ DC employer social contributions: **unemployment insurance (UI)** under D.C. Cod
 
 - Late UI filings and payments draw Title 51 penalties and interest (specific percentages are on the DOES notices; see the Not yet confirmed line).
 - OTR's "Notice of Delinquency (TDI)" program: OTR "sends a Notice of Delinquency (TDI) when a taxpayer has failed to file a business tax return or extension by the due date", with **Employer Withholding Tax** among the covered tax types ([OTR Notice of Delinquency (TDI) page](https://otr.cfo.dc.gov/page/notice-delinquency-tdi), read 2026-10-28). This is a delinquent-return enforcement notice, not a disability-insurance premium.
-- Common failure modes: (1) multi-state payroll teams missing the DC PFL contribution entirely because few other jurisdictions have an analog; (2) accruing UI on gross payroll instead of the $9,000 wage base; (3) remote workers performing DC work without a DOES registration; (4) assuming the employee can be charged the 0.62% — they cannot.
+- Common failure modes: (1) multi-state payroll teams missing the DC PFL contribution entirely because few other jurisdictions have an analog; (2) accruing UI on gross payroll instead of the $9,000 wage base; (3) remote workers performing DC work without a DOES registration; (4) assuming the employee can be charged the 0.62% -- they cannot.
 
 ## Cross-border points
 
 - Employers with DC-located employees register with DOES even with no DC office.
-- PFL "applies to work performed in DC"; covered workers are those who predominantly work in DC and no more than 50% in another jurisdiction (PFL Employer Toolkit) — telecommuter splits matter.
+- PFL "applies to work performed in DC"; covered workers are those who predominantly work in DC and no more than 50% in another jurisdiction (PFL Employer Toolkit) -- telecommuter splits matter.
 - UI wages are taxable once a year even if already taxed in another state (DOES Tax Rate Questions examples).
 
 ## Worked examples
@@ -110,7 +110,7 @@ expected:
 
 ## Ask the client first
 
-- Is the DC Paid Family Leave 0.62% in the payroll accrual — most multi-state payrolls miss it?
+- Is the DC Paid Family Leave 0.62% in the payroll accrual -- most multi-state payrolls miss it?
 - Has the DOES annual rate notice (UC-632) been reconciled to the reserve account?
 - Remote workers performing DC work: registered with DOES?
 - UI computed on the first $9,000 only, with the 0.2% administrative assessment added?
@@ -121,7 +121,7 @@ expected:
 | Source | URL | Read on |
 |---|---|---|
 | DOES: UI Handbook for Employers (PDF) | https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/UI%20Employer%20Handbook%20-MASTER2-FINAL.pdf | 2026-10-28 |
-| DOES: Employer Tax Information — Unemployment Insurance | https://does.dc.gov/service/employer-tax-information-unemployment-insurance | 2026-10-28 |
+| DOES: Employer Tax Information -- Unemployment Insurance | https://does.dc.gov/service/employer-tax-information-unemployment-insurance | 2026-10-28 |
 | DOES: Tax Rate Questions (UI) | https://does.dc.gov/service/tax-rate-questions | 2026-10-28 |
 | DOES: Paid Family Leave Employer Toolkit (PDF) | https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/DOES_PFL_EmployerToolkit.pdf | 2026-10-28 |
 | D.C. Code § 32-541.03(Perm) (Paid Leave contributions, 0.62%) | https://code.dccouncil.gov/us/dc/council/code/sections/32-541.03(Perm) | 2026-10-28 |
@@ -136,7 +136,7 @@ Not yet confirmed: the 2026 experience-rate table in effect (one of six tables i
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

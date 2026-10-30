@@ -89,7 +89,7 @@ Spouses or domestic partners who live together and file separately are each trea
   - It is $2,000 for someone who is single, head of household, or a dependent claimed by someone else, and who is not married.
   - Compute it on Schedule S, Calculation G-1, and attach it.
   - On a separate return, the spouse's additional amount is allowed only if the spouse had no gross income, is not filing, and cannot be claimed as a dependent.
-- **No personal exemptions.** The temporary act repealed D.C. Code § 47-1806.02 ([D.C. Law 26-89](https://code.dccouncil.gov/us/dc/council/laws/26-89): "The section designation for section 47-1806.02 is amended to read as follows: 47-1806.02. Tax on residents and nonresidents — Personal exemptions. [Repealed]").
+- **No personal exemptions.** The temporary act repealed D.C. Code § 47-1806.02 ([D.C. Law 26-89](https://code.dccouncil.gov/us/dc/council/laws/26-89): "The section designation for section 47-1806.02 is amended to read as follows: 47-1806.02. Tax on residents and nonresidents -- Personal exemptions. [Repealed]").
 
 ### Standard deduction, 2026: not settled ([2026 D-40ES](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf); [D.C. Law 26-89](https://code.dccouncil.gov/us/dc/council/laws/26-89))
 
@@ -155,7 +155,7 @@ Spouses or domestic partners who live together and file separately are each trea
 - **How it works.**
   - Renters treat **20% of rent** paid as property tax ([§ 47-1806.06](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06): "deemed for the purposes of this subsection to be 20% of rent").
   - The credit is the property tax (or 20% of rent) that exceeds a percentage of the filing unit's federal AGI, up to the maximum.
-  - In the lowest band (AGI under $25,000), the percentage is 3.0% ([§ 47-1806.06](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06): "$0 — $24,999 100% of property tax exceeding 3.0% of adjusted gross income").
+  - In the lowest band (AGI under $25,000), the percentage is 3.0% ([§ 47-1806.06](https://code.dccouncil.gov/us/dc/council/code/sections/47-1806.06): "$0 -- $24,999 100% of property tax exceeding 3.0% of adjusted gross income").
   - Use the Schedule H worksheet for other bands and for claimants 70 or older.
 - **Filing:** attach Schedule H to the D-40. Someone who is not required to file a D-40 can file Schedule H as a standalone return.
 
@@ -283,8 +283,8 @@ D-40 line numbers are from the 2025 return ([2025 D-40 booklet](https://otr.cfo.
 
 - **Part-year residents.** Report only income for the period of DC domicile, and prorate the standard deduction and credits (booklet: by days; statute: by months; see "The taxable base"). Refer where the two methods give materially different answers.
 - **Commuters** domiciled in Maryland or Virginia are not taxed on DC wages ([D.C. Code § 1-206.02](https://code.dccouncil.gov/us/dc/council/code/sections/1-206.02)); DC tax withheld in error is recovered on Form D-40B.
-- **Military members and spouses** (combat zone extensions, Military Spouse Residency Relief Act) — refer; see "When to refuse or refer".
-- **Other cross-state items:** credit for tax paid to another state, the DC Low-Income Housing Tax Credit, and other Schedule U credits — outside this skill.
+- **Military members and spouses** (combat zone extensions, Military Spouse Residency Relief Act) -- refer; see "When to refuse or refer".
+- **Other cross-state items:** credit for tax paid to another state, the DC Low-Income Housing Tax Credit, and other Schedule U credits -- outside this skill.
 
 ## Worked examples
 
@@ -433,7 +433,7 @@ Not yet confirmed: the 2026 basic standard deduction for the D-40 (the D-40ES pr
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

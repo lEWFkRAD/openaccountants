@@ -2,7 +2,7 @@
 name: dc-franchise-tax
 description: >
   Use this skill whenever asked about District of Columbia franchise
-  tax for tax year 2026 — the 8.25% corporate and unincorporated
+  tax for tax year 2026 -- the 8.25% corporate and unincorporated
   business franchise tax, mandatory combined reporting for unitary
   groups, the $250/$1,000 minimum taxes, the 30% owner salary
   allowance and $5,000 exemption for unincorporated businesses, the
@@ -32,7 +32,7 @@ The District's business income tax is the **franchise tax**: **8.25%** of DC-com
 
 - **Corporations** (including financial institutions) with DC-source income, filing on a combined basis for unitary groups ([OTR rates page](https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates); [OTR combined reporting page](https://otr.cfo.dc.gov/page/combined-reporting-business-entities)). Corporations and financial institutions cannot escape the minimum tax even with exempt business income (note read from the OTR rates page).
 - **Unincorporated businesses** (partnerships, LLCs, sole proprietorships) with DC gross receipts over **$12,000**: the OTR rates page applies the franchise tax to unincorporated businesses "on a combined reporting basis with gross receipts more than $12,000".
-- **Exemption:** an unincorporated business is exempt where more than 80% of gross income is personal services rendered by members and capital is not a material income-producing factor; also entities that by law, customs or ethics cannot incorporate (OTR rates page, read 2026-10-28; [D.C. Code § 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01)) — a critical rule for professional practices.
+- **Exemption:** an unincorporated business is exempt where more than 80% of gross income is personal services rendered by members and capital is not a material income-producing factor; also entities that by law, customs or ethics cannot incorporate (OTR rates page, read 2026-10-28; [D.C. Code § 47-1808.01](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.01)) -- a critical rule for professional practices.
 
 ## Rates, bands and thresholds
 
@@ -55,13 +55,13 @@ The District's business income tax is the **franchise tax**: **8.25%** of DC-com
 
 - **Estimated tax:** required when the year's DC franchise tax liability is more than **$1,000**; calendar-year filers pay **15 April, 15 June, 15 September and 15 December**; fiscal filers on the 15th day of months 4, 6, 9 and 12 of the tax year ([OTR estimated tax page](https://otr.cfo.dc.gov/page/underpayment-estimated-tax-interest): "Estimated tax payments are due: Calendar Year Filers: April 15; and June 15; and September 15; and December 15"). Corporations use the D-20ES vouchers and unincorporated businesses the D-30ES (same page).
 - **Safe harbor:** no underpayment interest where the current year's liability is less than $1,000, there was no DC franchise tax liability in the preceding year, estimated payments equal or exceed **110% of the preceding year's liability**, or the remaining balance after credits and estimates is less than 10% of the year's liability (OTR estimated tax page). Annualization uses **Form D-2220** (same page).
-- **Returns:** D-20 (corporate) / D-30 (unincorporated). Form-level due dates were not read from an archived OTR return instruction this run — see the Not yet confirmed line and the current D-20/D-30 instructions.
+- **Returns:** D-20 (corporate) / D-30 (unincorporated). Form-level due dates were not read from an archived OTR return instruction this run -- see the Not yet confirmed line and the current D-20/D-30 instructions.
 
 ## Penalties and interest
 
 - **Failure-to-file / failure-to-pay additions:** 5% a month up to 25% each, with the failure-to-file addition reduced by the failure-to-pay addition for the same months; neither applies with reasonable cause ([D.C. Code § 47-4213](https://code.dccouncil.gov/us/dc/council/code/sections/47-4213), archived 2026-10-28 as `US-DC-47-4213.html`).
 - **Interest** on unpaid tax runs at **10% a year, compounded daily** ([D.C. Code § 47-4201](https://code.dccouncil.gov/us/dc/council/code/sections/47-4201), archived 2026-10-28 as `US-DC-47-4201.html`). Businesses compute estimated-tax underpayment interest on **Form D-2220** (OTR estimated tax page); individuals use the D-2210.
-- Common failure modes: (1) professional LLCs assuming the individual return covers everything — the unincorporated franchise tax applies unless the 80% personal-services exemption is documented; (2) forgetting the owner-salary allowance when computing the D-30 base; (3) 100%-of-prior-year accruals when DC's safe harbor is **110%**; (4) minimum tax missed by exempt-income corporations.
+- Common failure modes: (1) professional LLCs assuming the individual return covers everything -- the unincorporated franchise tax applies unless the 80% personal-services exemption is documented; (2) forgetting the owner-salary allowance when computing the D-30 base; (3) 100%-of-prior-year accruals when DC's safe harbor is **110%**; (4) minimum tax missed by exempt-income corporations.
 
 ## Cross-border points
 
@@ -109,10 +109,10 @@ expected:
 
 ## Ask the client first
 
-- Does the entity qualify for the 80% personal-services exemption — is the capital-not-material test documented?
+- Does the entity qualify for the 80% personal-services exemption -- is the capital-not-material test documented?
 - Are estimated payments tracking the 110% safe harbor (not 100%)?
 - Is the owner-salary allowance being claimed correctly on the D-30?
-- Part of a unitary group? The combined report is mandatory — see `dc-transfer-pricing`.
+- Part of a unitary group? The combined report is mandatory -- see `dc-transfer-pricing`.
 - DC gross receipts relative to $12,000 (unincorporated filing trigger) and $1 million (minimum-tax tier)?
 
 ## Sources
@@ -137,7 +137,7 @@ Not yet confirmed: the D-20 and D-30 return due dates and form-line mechanics (n
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
