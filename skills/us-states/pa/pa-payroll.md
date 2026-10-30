@@ -161,7 +161,7 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 
 ## The taxable base
 
-- **PA PIT withholding base:** PA-source compensation — salaries, wages, commissions, bonuses, fees, stock options and tips, in cash or property. Elective 401(k) and other retirement deferrals are taxable for Pennsylvania and go in PA wages on the W-2; employer welfare-benefit payments (medical/dental/vision) are generally not; group term life is excluded if the program is nondiscriminatory; personal use of employer property (e.g. a company car) is not compensation, but a cash allowance for it is; pay in lieu of vacation, adoption assistance and non-job-related education are taxable.
+- **PA PIT withholding base:** PA-source compensation -- salaries, wages, commissions, bonuses, fees, stock options and tips, in cash or property. Elective 401(k) and other retirement deferrals are taxable for Pennsylvania and go in PA wages on the W-2; employer welfare-benefit payments (medical/dental/vision) are generally not; group term life is excluded if the program is nondiscriminatory; personal use of employer property (e.g. a company car) is not compensation, but a cash allowance for it is; pay in lieu of vacation, adoption assistance and non-job-related education are taxable.
 - **Source rule:** residents owe on all compensation (with the other-state exceptions in Cross-border points); nonresidents on the PA working-day fraction of compensation.
 - **Local EIT base:** earned income and net profits of residents and of nonresidents working in the municipality, per Act 32.
 - **LST base:** a flat per-person, per-year amount ($52 cap), not a percentage of pay.
@@ -214,7 +214,7 @@ Figures are for tax year 2026 unless a line says 2025. Pennsylvania's withholdin
 ## Cross-border points
 
 - Reciprocal states (IN, MD, NJ, OH, VA, WV): with a Form REV-419 on file and the home state's tax withheld, no PA state withholding; without the form, withhold 3.07%. Exception: an Ohio resident holding 20%+ of an S corporation's shares stays subject to PA tax on its wages (DFO-02).
-- Reciprocity covers PA income tax only — local EIT (worksite nonresident rate) and the LST still apply to out-of-state residents working in PA.
+- Reciprocity covers PA income tax only -- local EIT (worksite nonresident rate) and the LST still apply to out-of-state residents working in PA.
 - Nonresidents: PA-source pay is the working-day fraction (PA working days / total working days); days worked elsewhere for the employee's own convenience count as PA days. Employer-required full-time telework from another state is not PA-source.
 - PA residents working in another state: withhold PA tax on everything unless that state has an income tax and you withhold it.
 - Philadelphia is outside Act 32 (Sterling Act): withhold the City's resident or nonresident rate and pay the City.
@@ -345,7 +345,7 @@ Not yet confirmed: the 3.07% withholding rate, deposit thresholds, W-2 deadlines
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
