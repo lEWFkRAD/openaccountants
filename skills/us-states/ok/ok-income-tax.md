@@ -20,7 +20,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Section 1: Metadata
 
-- **Tax year covered** — 2025 (returns due April 15, 2026)
+- **Tax year covered** — 2025 (returns due April 15, 2026) (not yet confirmed)
 - **Primary form** — Oklahoma Form 511 (Resident Individual Income Tax Return)
 - **Tax authority** — [Oklahoma Tax Commission (OTC)](https://oklahoma.gov/tax.html)
 - **Tax type** — Graduated income tax
@@ -30,7 +30,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Field | Value |
 | --- | --- |
-| Tax year covered | 2025 (returns due April 15, 2026) |
+| Tax year covered | 2025 (returns due April 15, 2026) | (not yet confirmed)
 | Primary form | Oklahoma Form 511 (Resident Individual Income Tax Return) |
 | Tax authority | [Oklahoma Tax Commission (OTC)](https://oklahoma.gov/tax.html) |
 | Tax type | Graduated income tax |
@@ -52,12 +52,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Taxable income | Base tax | Rate | On excess over |
 | --- | --- | --- | --- |
-| $0 – $1,000 | $0.00 | 0.25% | $0 |
-| $1,001 – $2,500 | $2.50 | 0.75% | $1,000 |
-| $2,501 – $3,750 | $13.75 | 1.75% | $2,500 |
-| $3,751 – $4,900 | $35.63 | 2.75% | $3,750 |
-| $4,901 – $7,200 | $67.25 | 3.75% | $4,900 |
-| $7,201 and above | $153.50 | 4.75% | $7,200 |
+| $0 – $1,000 | $0.00 | 0.25% | $0 | (not yet confirmed)
+| $1,001 – $2,500 | $2.50 | 0.75% | $1,000 | (not yet confirmed)
+| $2,501 – $3,750 | $13.75 | 1.75% | $2,500 | (not yet confirmed)
+| $3,751 – $4,900 | $35.63 | 2.75% | $3,750 | (not yet confirmed)
+| $4,901 – $7,200 | $67.25 | 3.75% | $4,900 | (not yet confirmed)
+| $7,201 and above | $153.50 | 4.75% | $7,200 | (not yet confirmed)
 
 ### Tax brackets — MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)
 
@@ -65,12 +65,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Taxable income | Base tax | Rate | On excess over |
 | --- | --- | --- | --- |
-| $0 – $2,000 | $0.00 | 0.25% | $0 |
-| $2,001 – $5,000 | $5.00 | 0.75% | $2,000 |
-| $5,001 – $7,500 | $27.50 | 1.75% | $5,000 |
-| $7,501 – $9,800 | $71.25 | 2.75% | $7,500 |
-| $9,801 – $14,400 | $134.50 | 3.75% | $9,800 |
-| $14,401 and above | $307.00 | 4.75% | $14,400 |
+| $0 – $2,000 | $0.00 | 0.25% | $0 | (not yet confirmed)
+| $2,001 – $5,000 | $5.00 | 0.75% | $2,000 | (not yet confirmed)
+| $5,001 – $7,500 | $27.50 | 1.75% | $5,000 | (not yet confirmed)
+| $7,501 – $9,800 | $71.25 | 2.75% | $7,500 | (not yet confirmed)
+| $9,801 – $14,400 | $134.50 | 3.75% | $9,800 | (not yet confirmed)
+| $14,401 and above | $307.00 | 4.75% | $14,400 | (not yet confirmed)
 
 ### Standard deduction (tax year 2025)
 
@@ -78,9 +78,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Filing status | Standard deduction |
 | --- | --- |
-| Single / MFS | $6,350 |
-| MFJ / QSS | $12,700 |
-| HOH | $9,350 |
+| Single / MFS | $6,350 | (not yet confirmed)
+| MFJ / QSS | $12,700 | (not yet confirmed)
+| HOH | $9,350 | (not yet confirmed)
 
 ### Personal exemptions
 
@@ -88,7 +88,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Exemption type | Amount |
 | --- | --- |
-| Per exemption (each taxpayer + dependents) | $1,000 |
+| Per exemption (each taxpayer + dependents) | $1,000 | (not yet confirmed)
 
 ### Other key figures
 
@@ -96,18 +96,18 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Item | Value |
 | --- | --- |
-| Oklahoma EITC | 5% of federal EITC (nonrefundable) |
+| Oklahoma EITC | 5% of federal EITC (nonrefundable) | (not yet confirmed)
 | Child tax credit | None (Oklahoma does not have a separate state child tax credit) |
 | Sales tax relief credit | Available based on income and filing status (see Form 538-S) |
-| Itemized deduction cap | $17,000 (charitable contributions and medical expenses are exempt from the cap) |
+| Itemized deduction cap | $17,000 (charitable contributions and medical expenses are exempt from the cap) | (not yet confirmed)
 
 ### 2026 change alert
 
 HB 2764 (signed May 2025) restructures Oklahoma's income tax starting tax year 2026:
-- Reduces to three brackets with a top rate of 4.5% (down from 4.75%)
-- Single/MFS: 0% on first $3,750; 2.5% on next $1,150; 3.5% on next $2,300; 4.5% on remainder
-- MFJ: 0% on first $7,500; 2.5% on next $2,300; 3.5% on next $4,600; 4.5% on remainder
-- Includes automatic trigger for further 0.25% rate reductions based on revenue performance
+- Reduces to three brackets with a top rate of 4.5% (down from 4.75%) (not yet confirmed)
+- Single/MFS: 0% on first $3,750; 2.5% on next $1,150; 3.5% on next $2,300; 4.5% on remainder (not yet confirmed)
+- MFJ: 0% on first $7,500; 2.5% on next $2,300; 3.5% on next $4,600; 4.5% on remainder (not yet confirmed)
+- Includes automatic trigger for further 0.25% rate reductions based on revenue performance (not yet confirmed)
 
 ### Section 3: How this skill works with the federal return
 
@@ -124,7 +124,7 @@ Oklahoma starts from **federal adjusted gross income (AGI)** on federal Form 104
 
 - **Standard deduction requirement if not itemized federally** — If the taxpayer did not itemize on the federal return, they must use the Oklahoma standard deduction.  _(Section 3: How this skill works with the federal return)_
 - **Itemized deduction requirement if itemized federally** — If the taxpayer did itemize federally, they must use Oklahoma itemized deductions (which use federal Schedule A as a starting point with adjustments).  _(Section 3: How this skill works with the federal return)_
-- **Oklahoma itemized deduction cap** — $17,000 USD (except for charitable contributions and medical expenses, which are not subject to the cap)  _(Section 3: How this skill works with the federal return)_
+- **Oklahoma itemized deduction cap** — $17,000 USD (except for charitable contributions and medical expenses, which are not subject to the cap)  _(Section 3: How this skill works with the federal return)_ (not yet confirmed)
 
 ### Section 4: Self-employed specific rules
 
@@ -133,7 +133,7 @@ Oklahoma starts from **federal adjusted gross income (AGI)** on federal Form 104
 - **Deductible half of SE tax** — Deductible half of SE tax reduces federal AGI and flows through to Oklahoma.  _(Section 4: Self-employed specific rules)_
 - **QBI deduction (§199A)** — The QBI deduction is below-the-line on federal Form 1040 and does not affect federal AGI. Oklahoma starts from federal AGI, so no QBI add-back is needed on the Oklahoma return.  _(Section 4: Self-employed specific rules)_
 - **§179 expensing** — Oklahoma generally conforms to the federal §179 limit. Verify Oklahoma's conformity with OBBBA changes to §179.  _(Section 4: Self-employed specific rules)_
-- **Bonus depreciation (§168(k))** — Verify Oklahoma's conformity with OBBBA restoration of 100% bonus depreciation. If Oklahoma does not conform, an adjustment may be needed.  _(Section 4: Self-employed specific rules)_
+- **Bonus depreciation (§168(k))** — Verify Oklahoma's conformity with OBBBA restoration of 100% bonus depreciation. If Oklahoma does not conform, an adjustment may be needed.  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
 
 ### Oklahoma additions (common for self-employed)
 
@@ -144,9 +144,9 @@ Oklahoma starts from **federal adjusted gross income (AGI)** on federal Form 104
 ### Oklahoma subtractions (common for self-employed)
 
 - **Federal income tax deduction** — Federal income tax deduction: Oklahoma is one of the few states that allows a deduction for federal income tax paid, subject to a cap based on federal AGI (see Form 511, Schedule 511-D). Cap for 2025: the lesser of actual federal tax paid or the cap amount based on AGI.  _(Section 4: Self-employed specific rules)_
-- **Military retirement pay exclusion** — Military retirement pay exclusion (up to 100%)  _(Section 4: Self-employed specific rules)_
+- **Military retirement pay exclusion** — Military retirement pay exclusion (up to 100%)  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
 - **Social Security benefits exclusion** — Social Security benefits (to the extent included in federal AGI — Oklahoma fully excludes Social Security)  _(Section 4: Self-employed specific rules)_
-- **Retirement income exclusion** — Retirement income exclusion (up to $10,000 per person for qualifying retirement income)  _(Section 4: Self-employed specific rules)_
+- **Retirement income exclusion** — Retirement income exclusion (up to $10,000 per person for qualifying retirement income)  _(Section 4: Self-employed specific rules)_ (not yet confirmed)
 
 ### Federal income tax deduction (unique to Oklahoma)
 
@@ -156,15 +156,15 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 
 | Federal AGI | Approximate cap on federal tax deduction |
 | --- | --- |
-| Up to $54,670 | Various amounts (see Schedule 511-D table) |
-| Over $54,670 | Federal AGI × 0.00056 |
+| Up to $54,670 | Various amounts (see Schedule 511-D table) | (not yet confirmed)
+| Over $54,670 | Federal AGI × 0.00056 | (not yet confirmed)
 
 ### Section 5: Tier 1 rules — deterministic
 
 - **R-OK-1. Federal AGI is the starting point.** — Form 511, Line 1 = federal Form 1040, Line 11.  _(R-OK-1)_
 - **R-OK-2. Social Security is fully exempt.** — Subtract Social Security benefits included in federal AGI.  _(R-OK-2)_
 - **R-OK-3. State income tax add-back required if itemizing.** — If the taxpayer itemized on the federal return and deducted state income taxes, the state income tax deduction must be added back on the Oklahoma return.  _(R-OK-3)_
-- **R-OK-4. Itemized deduction cap = $17,000.** — Oklahoma caps itemized deductions at $17,000 (excluding charitable contributions and medical expenses). If federal itemized deductions (minus state tax add-back, plus adjustments) exceed $17,000, cap at $17,000 plus the exempt categories.  _(R-OK-4)_
+- **R-OK-4. Itemized deduction cap = $17,000.** — Oklahoma caps itemized deductions at $17,000 (excluding charitable contributions and medical expenses). If federal itemized deductions (minus state tax add-back, plus adjustments) exceed $17,000, cap at $17,000 plus the exempt categories.  _(R-OK-4)_ (not yet confirmed)
 - **R-OK-5. Federal income tax deduction is available.** — Calculate using Schedule 511-D based on the taxpayer's federal AGI and actual federal tax liability.  _(R-OK-5)_
 - **R-OK-6. Sales tax relief credit.** — Low-income taxpayers may qualify for the sales tax relief credit (Form 538-S). The credit is based on income and the number of exemptions claimed.  _(R-OK-6)_
 
@@ -181,7 +181,7 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 | Pattern | Description |
 | --- | --- |
 | Federal tax deduction optimizer | Calculate the optimal federal income tax deduction using Schedule 511-D to ensure maximum benefit. |
-| Standard vs. itemized comparison | Compare Oklahoma standard deduction ($6,350 single) against itemized deductions (subject to $17,000 cap). |
+| Standard vs. itemized comparison | Compare Oklahoma standard deduction ($6,350 single) against itemized deductions (subject to $17,000 cap). | (not yet confirmed)
 | Social Security recipient | Full exclusion of Social Security from Oklahoma income — important for semi-retired freelancers. |
 | Low-income sales tax relief | Taxpayers with low Oklahoma AGI may qualify for the sales tax relief credit — check eligibility. |
 
@@ -196,8 +196,8 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 | Line 7 | Oklahoma subtractions | Federal tax deduction, Social Security, retirement income |
 | Line 8 | Oklahoma AGI | Line 1 + additions − subtractions |
 | Line 9 | Itemized deductions OR skip to Line 10 | Federal Schedule A (adjusted) or skip |
-| Line 10 | Standard deduction | $6,350 (single) / $12,700 (MFJ) / $9,350 (HOH) |
-| Line 11 | Exemptions | $1,000 per person |
+| Line 10 | Standard deduction | $6,350 (single) / $12,700 (MFJ) / $9,350 (HOH) | (not yet confirmed)
+| Line 11 | Exemptions | $1,000 per person | (not yet confirmed)
 | Line 12 | Oklahoma taxable income | Line 8 − deduction − exemptions |
 | Line 13 | Tax from tax tables | Tax table or rate schedule |
 | Line 20 | Total Oklahoma tax | After credits |
@@ -267,8 +267,11 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+| Source | URL | Read on |
+| --- | --- | --- |
+| Oklahoma Tax Commission | https://oklahoma.gov/tax.html | 2026-10-24 |
 
+Not yet confirmed: all dollar amounts, rates, brackets and deadlines in this skill lack archived line-citations.
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
@@ -276,4 +279,4 @@ their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
+> licensed professional before relying on them. (not yet confirmed)

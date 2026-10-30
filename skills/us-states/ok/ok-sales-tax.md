@@ -21,8 +21,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | Oklahoma, United States |
 | Jurisdiction Code | US-OK |
 | Tax Type | Sales and Use Tax (state + local) |
-| State Rate | 4.50% |
-| Maximum Combined Rate | ~11.50% (state 4.5% + county + city + special) |
+| State Rate | 4.50% | (not yet confirmed)
+| Maximum Combined Rate | ~11.50% (state 4.5% + county + city + special) | (not yet confirmed)
 | Primary Statute | 68 Oklahoma Statutes (O.S.) §1350 et seq. |
 | Governing Agency | Oklahoma Tax Commission (OTC) |
 | Portal | https://oktap.tax.ok.gov |
@@ -63,7 +63,7 @@ Before proceeding with any Oklahoma sales tax analysis, collect the following fr
 
 ### 1.1 State Sales Tax Rate
 
-- **State Sales Tax Rate** — 4.50% (On the retail sale of tangible personal property and certain services [T1])  _(68 O.S. §1350 et seq.)_
+- **State Sales Tax Rate** — 4.50% (On the retail sale of tangible personal property and certain services [T1])  _(68 O.S. §1350 et seq.)_ (not yet confirmed)
 
 ### 1.2 Grocery Food -- State Exemption (November 2024) [T1]
 
@@ -71,8 +71,8 @@ Before proceeding with any Oklahoma sales tax analysis, collect the following fr
 
 | Period | State Rate on Grocery Food |
 | --- | --- |
-| Before November 1, 2024 | 4.50% (full state rate) |
-| November 1, 2024 onward | **0.00%** (exempt from state tax) |
+| Before November 1, 2024 | 4.50% (full state rate) | (not yet confirmed)
+| November 1, 2024 onward | **0.00%** (exempt from state tax) | (not yet confirmed)
 
 - **Local taxes continue to apply to grocery food** — Local taxes continue to apply to grocery food at the full local rate. [T1]  _(HB 1955 (2024 session))_
 - **Prepared food taxability** — Prepared food remains taxable at the full combined rate. [T1]  _(HB 1955 (2024 session))_
@@ -81,7 +81,7 @@ Before proceeding with any Oklahoma sales tax analysis, collect the following fr
 ### 1.3 Local Sales Taxes [T1]
 
 - **Local sales tax imposition** — Counties, cities, and special jurisdictions impose additional sales tax. [T1]
-- **Combined rate range** — Local rates can be substantial, with combined rates reaching **11% or more**. [T1]
+- **Combined rate range** — Local rates can be substantial, with combined rates reaching **11% or more**. [T1] (not yet confirmed)
 - **Number of local taxing jurisdictions** — Oklahoma has approximately **600+ local taxing jurisdictions**. [T2]
 - **OTC administration of local taxes** — OTC administers and collects local taxes alongside state tax. [T1]
 
@@ -94,9 +94,9 @@ Before proceeding with any Oklahoma sales tax analysis, collect the following fr
 
 ### 2.1 Grocery Food -- State Exempt (2024+), Local Applies [T1]
 
-- **Grocery food state exemption** — As of November 1, 2024, grocery food is **exempt from state sales tax**. [T1]
-- **Local taxes continue on food** — Local taxes continue to apply. Combined local rates on food can be 3-7%. [T1]
-- **Prepared food rate** — Prepared food: full 4.5% state + local. [T1]
+- **Grocery food state exemption** — As of November 1, 2024, grocery food is **exempt from state sales tax**. [T1] (not yet confirmed)
+- **Local taxes continue on food** — Local taxes continue to apply. Combined local rates on food can be 3-7%. [T1] (not yet confirmed)
+- **Prepared food rate** — Prepared food: full 4.5% state + local. [T1] (not yet confirmed)
 - **Candy rate** — Candy: full rate. [T1]
 - **Soft drinks rate** — Soft drinks: full rate. [T1]
 
@@ -154,18 +154,18 @@ Oklahoma taxes a limited number of services:
 | --- | --- |
 | Return Form | STS 20002 (Sales Tax Return) |
 | Filing Frequencies | Monthly (most common); Semi-annually (small taxpayers) |
-| Due Date | 20th of the month following the reporting period |
+| Due Date | 20th of the month following the reporting period | (not yet confirmed)
 | Portal | https://oktap.tax.ok.gov (Oklahoma Taxpayer Access Point) |
 | E-filing | Required for most filers |
 
 ### 4.2 Vendor Discount [T1]
 
-- **Vendor Discount** — 1% (of tax collected (maximum varies) for timely filing [T1])
+- **Vendor Discount** — 1% (of tax collected (maximum varies) for timely filing [T1]) (not yet confirmed)
 
 ### 4.3 Penalties and Interest [T1]
 
-- **Late filing penalty** — 25% of tax due
-- **Interest** — 1.25% per month (15% per annum)
+- **Late filing penalty** — 25% of tax due (not yet confirmed)
+- **Interest** — 1.25% per month (15% per annum) (not yet confirmed)
 
 ## Deadlines and filing
 
@@ -187,10 +187,10 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ok
 
 | Field | Detail |
 | --- | --- |
-| Revenue Threshold | $100,000 in Oklahoma sales |
+| Revenue Threshold | $100,000 in Oklahoma sales | (not yet confirmed)
 | Transaction Threshold | N/A (revenue only) |
 | Measurement Period | Current or prior calendar year |
-| Effective Date | July 1, 2018 |
+| Effective Date | July 1, 2018 | (not yet confirmed)
 
 ### 3.2 Marketplace Facilitator [T1]
 
@@ -206,7 +206,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### PROHIBITIONS
 
-- **Grocery food state tax after Nov 1 2024** — NEVER apply state sales tax to grocery food after November 1, 2024. It is state-exempt. [T1]
+- **Grocery food state tax after Nov 1 2024** — NEVER apply state sales tax to grocery food after November 1, 2024. It is state-exempt. [T1] (not yet confirmed)
 - **Local tax on grocery food** — NEVER forget that local taxes still apply to grocery food. [T1]
 - **Candy/soft drinks exemption** — NEVER treat candy or soft drinks as exempt food. They are taxed at the full combined rate. [T1]
 - **Uniform rate assumption** — NEVER assume a uniform rate across Oklahoma. Combined rates vary widely by location. [T1]
@@ -220,25 +220,25 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Situation:** A grocery retailer needs to update POS systems for the November 2024 state food exemption.
 
 **Resolution:**
-- As of November 1, 2024, state tax on grocery food = 0%. [T1]
+- As of November 1, 2024, state tax on grocery food = 0%. [T1] (not yet confirmed)
 - Local taxes still apply at full rates. [T1]
-- POS must classify items as food (0% state + local) or non-food (4.5% state + local). [T1]
+- POS must classify items as food (0% state + local) or non-food (4.5% state + local). [T1] (not yet confirmed)
 - Candy and soft drinks are NOT food -- full rate applies. [T1]
 - **Flag for reviewer:** Verify current effective date and POS configuration. [T2]
 
 ### EC2 -- High Combined Local Rates [T2]
 
-**Situation:** Buyer in Oklahoma City complains about a 9%+ combined rate on a purchase.
+**Situation:** Buyer in Oklahoma City complains about a 9%+ combined rate on a purchase. (not yet confirmed)
 
 **Resolution:**
 - Oklahoma allows stacking of state + county + city + special district taxes. [T1]
-- Combined rates can exceed 10% in some areas. [T1]
+- Combined rates can exceed 10% in some areas. [T1] (not yet confirmed)
 - The seller must apply the correct combined rate for the delivery address. [T1]
 - **Flag for reviewer:** Use OTC rate lookup tools for precise rates. [T2]
 
 ### EC3 -- Oil and Gas Equipment Taxability [T2]
 
-**Situation:** An oil company purchases $1 million in drilling equipment for use in Oklahoma.
+**Situation:** An oil company purchases $1 million in drilling equipment for use in Oklahoma. (not yet confirmed)
 
 **Resolution:**
 - Most drilling equipment is subject to sales tax at the full combined rate. [T2]
@@ -251,7 +251,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Situation:** Oklahoma's sales tax holiday (typically first full weekend in August) exempts certain items.
 
 **Resolution:**
-- Clothing under $100 per item: exempt from state tax during the holiday. [T1]
+- Clothing under $100 per item: exempt from state tax during the holiday. [T1] (not yet confirmed)
 - Some local jurisdictions may or may not participate. [T2]
 - Verify current year's dates, items, and thresholds with OTC. [T2]
 
@@ -268,13 +268,13 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### EC6 -- Lodging and Tourism [T2]
 
-**Situation:** A hotel in Oklahoma City charges $120/night. What taxes apply?
+**Situation:** A hotel in Oklahoma City charges $120/night. What taxes apply? (not yet confirmed)
 
 **Resolution:**
-- State sales tax: 4.5%. [T1]
-- Local sales tax: varies by city (OKC may have 4%+ local). [T1]
+- State sales tax: 4.5%. [T1] (not yet confirmed)
+- Local sales tax: varies by city (OKC may have 4%+ local). [T1] (not yet confirmed)
 - Additional local lodging/tourism tax may apply. [T2]
-- Combined effective tax on hotel rooms can exceed 12%. [T2]
+- Combined effective tax on hotel rooms can exceed 12%. [T2] (not yet confirmed)
 - **Flag for reviewer:** Hotel taxation includes both general sales tax and potentially separate lodging taxes. Verify all applicable taxes. [T2]
 
 ### EC7 -- Use Tax on Vehicles Purchased Out of State [T2]
@@ -292,43 +292,43 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### Test 1 -- Basic Taxable Sale
 
-**Input:** Seller in Oklahoma City sells $800 of furniture. Combined rate = 8.625% (4.5% state + 4.125% local).
-**Expected output:** Tax = $800 x 8.625% = $69.00. Total = $869.00.
+**Input:** Seller in Oklahoma City sells $800 of furniture. Combined rate = 8.625% (4.5% state + 4.125% local). (not yet confirmed)
+**Expected output:** Tax = $800 x 8.625% = $69.00. Total = $869.00. (not yet confirmed)
 
 ### Test 2 -- Grocery Food (2024+ Exemption)
 
-**Input:** Customer buys $200 of unprepared groceries in Tulsa. State food rate = 0%. Local rate = 4.5%.
-**Expected output:** State tax = $0. Local tax = $200 x 4.5% = $9.00. Total = $209.00.
+**Input:** Customer buys $200 of unprepared groceries in Tulsa. State food rate = 0%. Local rate = 4.5%. (not yet confirmed)
+**Expected output:** State tax = $0. Local tax = $200 x 4.5% = $9.00. Total = $209.00. (not yet confirmed)
 
 ### Test 3 -- Candy at Full Rate
 
-**Input:** Customer buys $10 candy in OKC. Combined rate = 8.625%.
-**Expected output:** Candy is NOT food. Tax = $10 x 8.625% = $0.86. Total = $10.86.
+**Input:** Customer buys $10 candy in OKC. Combined rate = 8.625%. (not yet confirmed)
+**Expected output:** Candy is NOT food. Tax = $10 x 8.625% = $0.86. Total = $10.86. (not yet confirmed)
 
 ### Test 4 -- Economic Nexus
 
-**Input:** Remote seller sold $110,000 to Oklahoma in the prior year.
-**Expected output:** $110,000 exceeds $100,000. Nexus IS triggered. Must register.
+**Input:** Remote seller sold $110,000 to Oklahoma in the prior year. (not yet confirmed)
+**Expected output:** $110,000 exceeds $100,000. Nexus IS triggered. Must register. (not yet confirmed)
 
 ### Test 5 -- Manufacturing Exemption
 
-**Input:** Manufacturer buys $50,000 of production machinery for Oklahoma plant.
+**Input:** Manufacturer buys $50,000 of production machinery for Oklahoma plant. (not yet confirmed)
 **Expected output:** Manufacturing machinery is exempt. Tax = $0.
 
 ### Test 6 -- Oil Field Equipment Taxable
 
-**Input:** Oil company purchases $100,000 drilling equipment for Oklahoma well. Combined rate = 8.5%.
-**Expected output:** Drilling equipment is generally taxable. Tax = $100,000 x 8.5% = $8,500. Total = $108,500.
+**Input:** Oil company purchases $100,000 drilling equipment for Oklahoma well. Combined rate = 8.5%. (not yet confirmed)
+**Expected output:** Drilling equipment is generally taxable. Tax = $100,000 x 8.5% = $8,500. Total = $108,500. (not yet confirmed)
 
 ### Test 7 -- Hotel Room with Multiple Taxes
 
-**Input:** Guest stays at OKC hotel. Room = $100/night. Combined sales tax = 8.5%. Additional local lodging tax = 3.5%. Total = 12%.
-**Expected output:** Tax = $100 x 12% = $12.00. Total = $112.00/night.
+**Input:** Guest stays at OKC hotel. Room = $100/night. Combined sales tax = 8.5%. Additional local lodging tax = 3.5%. Total = 12%. (not yet confirmed)
+**Expected output:** Tax = $100 x 12% = $12.00. Total = $112.00/night. (not yet confirmed)
 
 ### Test 8 -- Vehicle Use Tax Credit
 
-**Input:** Oklahoma resident bought car in Texas for $20,000, paid $1,650 TX sales tax (8.25%). Oklahoma combined rate for their location = 8.5%.
-**Expected output:** OK use tax = $20,000 x 8.5% = $1,700. Credit for TX tax paid = $1,650. Additional OK use tax due = $50.
+**Input:** Oklahoma resident bought car in Texas for $20,000, paid $1,650 TX sales tax (8.25%). Oklahoma combined rate for their location = 8.5%. (not yet confirmed)
+**Expected output:** OK use tax = $20,000 x 8.5% = $1,700. Credit for TX tax paid = $1,650. Additional OK use tax due = $50. (not yet confirmed)
 
 ### Reviewer Escalation Protocol
 
@@ -392,8 +392,11 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+| Source | URL | Read on |
+| --- | --- | --- |
+| Oklahoma Tax Commission | https://oklahoma.gov/tax.html | 2026-10-24 |
 
+Not yet confirmed: all dollar amounts, rates, brackets and deadlines in this skill lack archived line-citations.
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
