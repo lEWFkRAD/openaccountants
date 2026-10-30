@@ -12,7 +12,7 @@ tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-> **MIS-PUBLICATION NOTICE (2026-10-28).** The body of this guide is the **India** individual income tax guide (Income-tax Act, 2025 / AY 2026-27, rupee amounts, incometax.gov.in citations) mis-published under the Indiana slug — same defect class as the former US-ID id-income-tax guide. The frontmatter description (flat 2.95% + county 0.5%–3.38%) reflects Indiana, but no Indiana statute text could be verified this run: archived evidence US-IN-ic6-3-1/6-8-1/6-25/iga-ic6 are all 691-byte iga.in.gov JavaScript shells ("JS shell / section text not found"). Do NOT use the body for Indiana questions; use `in-payroll` (tier 2, 3.15% 2025 rate, 92-county schedule) until this guide is rewritten. Rate not yet confirmed: 2.95% (2025) phasing to 2.9% by 2027 per HEA 1004/IC 6-3-1-3.5; not machine-verifiable from archived evidence. (not yet confirmed)
+> **MIS-PUBLICATION NOTICE (2026-10-28).** The body of this guide is the **India** individual income tax guide (Income-tax Act, 2025 / AY 2026-27, rupee amounts, incometax.gov.in citations) mis-published under the Indiana slug -- same defect class as the former US-ID id-income-tax guide. The frontmatter description (flat 2.95% + county 0.5%–3.38%) reflects Indiana, but no Indiana statute text could be verified this run: archived evidence US-IN-ic6-3-1/6-8-1/6-25/iga-ic6 are all 691-byte iga.in.gov JavaScript shells ("JS shell / section text not found"). Do NOT use the body for Indiana questions; use `in-payroll` (tier 2, 3.15% 2025 rate, 92-county schedule) until this guide is rewritten. Rate not yet confirmed: 2.95% (2025) phasing to 2.9% by 2027 per HEA 1004/IC 6-3-1-3.5; not machine-verifiable from archived evidence. (not yet confirmed)
 
 ## Who this applies to
 
@@ -28,7 +28,7 @@ Slab, rebate and surcharge figures are set out under “Rates, bands and thresho
 
 ## The taxable base
 
-Total income is computed by head — salary, house property, business or profession, capital gains, other sources — as stepped through in “The method, step by step” below.
+Total income is computed by head -- salary, house property, business or profession, capital gains, other sources -- as stepped through in “The method, step by step” below.
 
 ## Deadlines and filing
 
@@ -40,7 +40,7 @@ Late-filing fees (s.234F / s.428) and advance-tax interest (234A/234B/234C or 42
 
 ## Cross-border points
 
-Non-residents, RNORs, foreign income or assets, and treaty relief are out of scope — refer, as covered under “When to refuse or refer” below.
+Non-residents, RNORs, foreign income or assets, and treaty relief are out of scope -- refer, as covered under “When to refuse or refer” below.
 
 ## Ask the client first
 
@@ -317,16 +317,16 @@ Client questions are listed under “Ask the client first” above.
 
 | Source | URL | Read on |
 |---|---|---|
-| Indiana Code IC 6-3 (adjusted gross income tax; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6 | 2026-10-28 |
-| Indiana Code IC 6-3-1 (rate schedule; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-3-1 | 2026-10-28 |
-| Indiana Code IC 6-8.1 (penalties and interest; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-8-1 | 2026-10-28 |
-| Indiana Code IC 6-25 (individual income tax administration; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-25 | 2026-10-28 |
+| Indiana Code IC 6-3 (adjusted gross income tax; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6 | 2026-10-28 |
+| Indiana Code IC 6-3-1 (rate schedule; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-3-1 | 2026-10-28 |
+| Indiana Code IC 6-8.1 (penalties and interest; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-8-1 | 2026-10-28 |
+| Indiana Code IC 6-25 (individual income tax administration; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-25 | 2026-10-28 |
 
 Not yet confirmed: the 2.95% (2025) flat rate and its phase-down to 2.9% by 2027 (HEA 1004 / IC 6-3-1-3.5); the 0.5%–3.38% county-rate range; every figure in the body, which is the India guide mis-published under this slug (see the notice above) and carries no Indiana sources.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

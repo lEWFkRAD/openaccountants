@@ -71,21 +71,21 @@ No worked examples are included in this quick-reference skill; the 7.00% flat st
 
 ## Ask the client first
 
-- **No local tax** — NEVER add local tax -- Indiana has no local sales taxes.
-- **SaaS not taxable** — NEVER treat SaaS as taxable in Indiana.
-- **No computation** — NEVER compute any number.
+- **No local tax** -- NEVER add local tax -- Indiana has no local sales taxes.
+- **SaaS not taxable** -- NEVER treat SaaS as taxable in Indiana.
+- **No computation** -- NEVER compute any number.
 
 ## Sources
 
 | Source | URL | Read on |
 |---|---|---|
-| Indiana Code IC 6-2.5 (sales and use tax; iga.in.gov SPA — no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-25 | 2026-10-28 |
+| Indiana Code IC 6-2.5 (sales and use tax; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-25 | 2026-10-28 |
 
-Not yet confirmed: the 7.00% flat rate, the SST member-state status, the $100,000 / 200-transaction economic-nexus threshold, and the transaction-pattern exemptions (IC 6-2.5) — no archived copy of the IC 6-2.5 text or the DOR sales-tax pages was captured this run.
+Not yet confirmed: the 7.00% flat rate, the SST member-state status, the $100,000 / 200-transaction economic-nexus threshold, and the transaction-pattern exemptions (IC 6-2.5) -- no archived copy of the IC 6-2.5 text or the DOR sales-tax pages was captured this run.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
