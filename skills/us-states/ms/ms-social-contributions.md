@@ -2,7 +2,7 @@
 name: ms-social-contributions
 description: >
   Use this skill whenever asked about Mississippi employer social
-  contributions for 2026 — unemployment insurance administered by the
+  contributions for 2026 -- unemployment insurance administered by the
   Mississippi Department of Employment Security (MDES), employer quarterly
   wage and contribution reporting, and the interaction with federal
   FUTA/SUTA credits. Trigger on "Mississippi unemployment", "MDES",
@@ -25,7 +25,7 @@ depends_on:
 
 ## Who this applies to
 
-Mississippi employers (including out-of-state employers with Mississippi employees). MDES administers Mississippi UI; employers file quarterly wage and contribution reports — MDES references bulk filing for the "Form UI-2 Tax Report". Mississippi has no state disability, family-leave, or state-mandated retirement contribution for private employers beyond federal FICA/FUTA (see Not yet confirmed for scope caveats).
+Mississippi employers (including out-of-state employers with Mississippi employees). MDES administers Mississippi UI; employers file quarterly wage and contribution reports -- MDES references bulk filing for the "Form UI-2 Tax Report". Mississippi has no state disability, family-leave, or state-mandated retirement contribution for private employers beyond federal FICA/FUTA (see Not yet confirmed for scope caveats).
 
 ## Rates, bands and thresholds
 
@@ -54,7 +54,7 @@ Multi-state employers: localize employees under the interstate reciprocal covera
 
 ## Worked examples
 
-**Example 1 — FUTA net per employee (federal context):**
+**Example 1 -- FUTA net per employee (federal context):**
 
 ```oa-check
 name: FUTA net 0.6 percent
@@ -67,7 +67,7 @@ expected:
   futa: 42.00
 ```
 
-**Example 2 — new-employer UI on a hypothetical $9,500 taxable-wage base (rate from the skill's own confirmed table above):**
+**Example 2 -- new-employer UI on a hypothetical $9,500 taxable-wage base (rate from the skill's own confirmed table above):**
 
 ```oa-check
 name: MS UI new employer
@@ -83,16 +83,16 @@ expected:
 ## Ask the client first
 
 - Are MDES quarterly filings current (experience rating depends on them)?
-- Multi-state workforce — is Mississippi the localization state?
+- Multi-state workforce -- is Mississippi the localization state?
 - Successor-employer or rate-transfer events on account purchases?
 
 ## Sources
 
 | Source | URL | Read on |
 |---|---|---|
-| MDES Unemployment Tax Rates — new-employer 1.00%/1.10%/1.20% schedule, 0.0%–5.4% modified-rate range, WIT contribution note | https://www.mdes.ms.gov/employers/unemployment-tax/reporting-and-filing/unemployment-tax-rates/ | 2026-10-29 |
-| MDES Quarterly Report and Tax Due Dates — April 30 / July 31 / Oct 31 / Jan 31 due dates | https://www.mdes.ms.gov/employers/unemployment-tax/reporting-and-filing/quarterly-report-and-tax-due-dates/ | 2026-10-29 |
-| MDES Interest and Penalties — 1%/month interest, 10% late-filing and late-payment penalties | https://www.mdes.ms.gov/employers/unemployment-tax/reporting-and-filing/interest-and-penalties/ | 2026-10-29 |
+| MDES Unemployment Tax Rates -- new-employer 1.00%/1.10%/1.20% schedule, 0.0%–5.4% modified-rate range, WIT contribution note | https://www.mdes.ms.gov/employers/unemployment-tax/reporting-and-filing/unemployment-tax-rates/ | 2026-10-29 |
+| MDES Quarterly Report and Tax Due Dates -- April 30 / July 31 / Oct 31 / Jan 31 due dates | https://www.mdes.ms.gov/employers/unemployment-tax/reporting-and-filing/quarterly-report-and-tax-due-dates/ | 2026-10-29 |
+| MDES Interest and Penalties -- 1%/month interest, 10% late-filing and late-payment penalties | https://www.mdes.ms.gov/employers/unemployment-tax/reporting-and-filing/interest-and-penalties/ | 2026-10-29 |
 
 Not yet confirmed: the current Mississippi UI taxable wage base; the per-employer experience-rate schedule table; UI-2 form ID beyond MDES's bulk-filing reference; interstate localization (reciprocal coverage agreement) tests; whether any state-mandated retirement contribution applies to specific employer classes.
 
@@ -100,7 +100,7 @@ Not yet confirmed: the current Mississippi UI taxable wage base; the per-employe
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

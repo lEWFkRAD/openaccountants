@@ -2,7 +2,7 @@
 name: ms-payroll
 description: >
   Use this skill whenever asked about Mississippi payroll withholding for
-  2026 — mandatory electronic filing through the Taxpayer Access Point
+  2026 -- mandatory electronic filing through the Taxpayer Access Point
   (TAP), the MCA § 27-3-83(4) penalty of $25 per return capped at $500
   for paper filing, the 10-or-more electronic mandate for W-2/1099
   filings, and withholding mechanics against the 2026 4% rate. Trigger on
@@ -31,13 +31,13 @@ Every employer paying Mississippi wages (residents and nonresidents working in M
 
 ## Rates, bands and thresholds
 
-- Withholding tracks the individual schedule — 2026: 4% on taxable income above the $10,000 zero-rate band (DOR Tax Rates page; see `ms-income-tax.md`).
+- Withholding tracks the individual schedule -- 2026: 4% on taxable income above the $10,000 zero-rate band (DOR Tax Rates page; see `ms-income-tax.md`).
 - Gambling winnings: "Gambling winnings reported on a W-2G, 1099, or other informational return from Mississippi casinos are subject to a three percent (3%) non-refundable income tax. The casinos withhold the tax at the time of payment" (2025 Form 80-100 instructions).
-- Paper-filing penalty: Miss. Code Ann. § 27-3-83(4) — $25 per return capped at $500 when paper is filed despite the electronic mandate (DOR withholding page, verified 2026-10-28).
+- Paper-filing penalty: Miss. Code Ann. § 27-3-83(4) -- $25 per return capped at $500 when paper is filed despite the electronic mandate (DOR withholding page, verified 2026-10-28).
 
 ## The taxable base
 
-Wages, pensions, and Mississippi casino gambling winnings (3% withheld at source; "Gaming withholding cannot be claimed as a deduction on your tax return" — 2025 Form 80-100 instructions). DOR publishes withholding tax tables by pay period: "Daily Weekly Bi-Weekly Semi-Monthly Monthly" (DOR withholding page).
+Wages, pensions, and Mississippi casino gambling winnings (3% withheld at source; "Gaming withholding cannot be claimed as a deduction on your tax return" -- 2025 Form 80-100 instructions). DOR publishes withholding tax tables by pay period: "Daily Weekly Bi-Weekly Semi-Monthly Monthly" (DOR withholding page).
 
 ## Deadlines and filing
 
@@ -57,7 +57,7 @@ Nonresident workers: Mississippi taxes wages for work performed in-state and wit
 
 ## Worked examples
 
-**Example 1 — paper-filing penalty cap.** Employer files 30 W-2s on paper despite the mandate:
+**Example 1 -- paper-filing penalty cap.** Employer files 30 W-2s on paper despite the mandate:
 
 ```oa-check
 name: MS 27-3-83 penalty cap
@@ -72,7 +72,7 @@ expected:
   penalty: 500.00
 ```
 
-**Example 2 — quarterly withholding at the 2026 rate.** Mississippi wages $200,000 in a quarter, flat 4% approximation (ignoring the zero-rate band):
+**Example 2 -- quarterly withholding at the 2026 rate.** Mississippi wages $200,000 in a quarter, flat 4% approximation (ignoring the zero-rate band):
 
 ```oa-check
 name: MS quarterly withholding 4 percent
@@ -88,16 +88,16 @@ expected:
 ## Ask the client first
 
 - Is the payroll provider wired to TAP for withholding returns and W-2s?
-- Count of information returns — over 10? electronic mandate applies (verified).
+- Count of information returns -- over 10? electronic mandate applies (verified).
 - Nonresident remote workers performing days in Mississippi?
 
 ## Sources
 
 | Source | URL | Read on |
 |---|---|---|
-| DOR Withholding Tax — TAP filing/payment, 10-or-more W-2 electronic mandate, § 27-3-83(4) paper penalty, pay-period tax tables, FSET bulk filing | https://www.dor.ms.gov/business/withholding-tax | 2026-10-28 |
-| MSDOR 2025 Individual Income Tax Instructions (Form 80-100, rev. 12/25) — 3% casino gambling withholding, gaming withholding not deductible | https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf | 2026-10-29 |
-| DOR Tax Rates — 2026: 4% above the $10,000 zero-rate band | https://www.dor.ms.gov/general-information | 2026-10-28 |
+| DOR Withholding Tax -- TAP filing/payment, 10-or-more W-2 electronic mandate, § 27-3-83(4) paper penalty, pay-period tax tables, FSET bulk filing | https://www.dor.ms.gov/business/withholding-tax | 2026-10-28 |
+| MSDOR 2025 Individual Income Tax Instructions (Form 80-100, rev. 12/25) -- 3% casino gambling withholding, gaming withholding not deductible | https://www.dor.ms.gov/sites/default/files/tax-forms/individual/80100251%202.pdf | 2026-10-29 |
+| DOR Tax Rates -- 2026: 4% above the $10,000 zero-rate band | https://www.dor.ms.gov/general-information | 2026-10-28 |
 
 Not yet confirmed: the withholding return form ID (82-111 is conventional but not verified on a fetched page); deposit-frequency thresholds; late-deposit penalty/interest percentages specific to withholding; reciprocity agreements.
 
@@ -105,7 +105,7 @@ Not yet confirmed: the withholding return form ID (82-111 is conventional but no
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

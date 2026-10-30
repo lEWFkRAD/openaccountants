@@ -2,7 +2,7 @@
 name: ms-transfer-pricing
 description: >
   Use this skill whenever asked about Mississippi transfer pricing and
-  combined reporting for 2026 — the Form 83-310 combined report as the
+  combined reporting for 2026 -- the Form 83-310 combined report as the
   main related-party policing tool, the 90% estimate rule for combined
   groups, and the absence of a standalone state TP documentation regime.
   Trigger on "Mississippi transfer pricing", "Mississippi combined
@@ -33,7 +33,7 @@ Mississippi polices related-party income shifting chiefly through combined repor
 
 ## Rates, bands and thresholds
 
-No standalone TP rate; exposure rides the corporate table — 0% on the first $5,000 of taxable income, 4% on the next $5,000, 5% above $10,000 (2025 Form 83-100 instructions; see `ms-corporate-income-tax.md`).
+No standalone TP rate; exposure rides the corporate table -- 0% on the first $5,000 of taxable income, 4% on the next $5,000, 5% above $10,000 (2025 Form 83-100 instructions; see `ms-corporate-income-tax.md`).
 
 ## The taxable base
 
@@ -53,7 +53,7 @@ Foreign affiliates in an affiliated group: water's-edge treatment is not stated 
 
 ## Worked examples
 
-**Example 1 — combined income to Mississippi (hypothetical client facts; the 5% top rate is from the skill's own confirmed table above).** Group combined income $1,500,000, hypothetical Mississippi apportionment factor 20%:
+**Example 1 -- combined income to Mississippi (hypothetical client facts; the 5% top rate is from the skill's own confirmed table above).** Group combined income $1,500,000, hypothetical Mississippi apportionment factor 20%:
 
 ```oa-check
 name: MS combined apportionment
@@ -69,7 +69,7 @@ expected:
   tax: 15000.00
 ```
 
-**Example 2 — royalty shift exposure (hypothetical client facts; 5% rate from the skill's own confirmed table above).** $200,000 intercompany royalty out of the Mississippi member; hypothetical 20% factor:
+**Example 2 -- royalty shift exposure (hypothetical client facts; 5% rate from the skill's own confirmed table above).** $200,000 intercompany royalty out of the Mississippi member; hypothetical 20% factor:
 
 ```oa-check
 name: MS royalty shift
@@ -95,8 +95,8 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| DOR Combined Income Filing — affiliated-group election (Title 35, Part III, Subpart 08, Chapter 07), Form 83-310 into Form 83-105 line 4, 90% quarterly estimates via Form 83-300, underestimate rules (Title 35, Part III, Subpart 11, Chapter 21) | https://www.dor.ms.gov/business/corporate-income-franchise-tax/combined-income-filing | 2026-10-28 |
-| MSDOR 2025 Corporate Income & Franchise Tax Instructions (Form 83-100, rev. 01/2026) — corporate rate table, penalties/interest | https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf | 2026-10-29 |
+| DOR Combined Income Filing -- affiliated-group election (Title 35, Part III, Subpart 08, Chapter 07), Form 83-310 into Form 83-105 line 4, 90% quarterly estimates via Form 83-300, underestimate rules (Title 35, Part III, Subpart 11, Chapter 21) | https://www.dor.ms.gov/business/corporate-income-franchise-tax/combined-income-filing | 2026-10-28 |
+| MSDOR 2025 Corporate Income & Franchise Tax Instructions (Form 83-100, rev. 01/2026) -- corporate rate table, penalties/interest | https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf | 2026-10-29 |
 
 Not yet confirmed: the Title 35, Part III, Subpart 08, Chapter 07 membership/ownership tests in detail; the apportionment factor mix; intercompany addback rules and water's-edge posture; any state TP documentation requirement; the §482-to-state conformity linkage.
 
@@ -104,7 +104,7 @@ Not yet confirmed: the Title 35, Part III, Subpart 08, Chapter 07 membership/own
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

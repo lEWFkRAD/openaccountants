@@ -2,7 +2,7 @@
 name: ms-corporate-income-tax
 description: >
   Use this skill whenever asked about Mississippi corporate income tax for
-  tax year 2026 — the Title 27 Chapter 7 Article 1 income tax, the
+  tax year 2026 -- the Title 27 Chapter 7 Article 1 income tax, the
   combined-report regime (Form 83-310 on the Form 83-105 face), the
   90%-of-current-year estimated-payment rule, and the separate franchise
   tax (Title 27 Chapter 13). Trigger on "Mississippi corporate income tax",
@@ -68,7 +68,7 @@ Nexus thresholds and P.L. 86-272 protection scope are not confirmed in the archi
 
 ## Worked examples
 
-**Example 1 — $500,000 Mississippi taxable income (hypothetical client facts), using the 2025 rate table from the skill's own table above:**
+**Example 1 -- $500,000 Mississippi taxable income (hypothetical client facts), using the 2025 rate table from the skill's own table above:**
 
 ```oa-check
 name: MS corporate graduated 500k
@@ -83,7 +83,7 @@ expected:
   tax: 24700.00
 ```
 
-**Example 2 — combined-group estimate floor (hypothetical projected current-year liability $120,000; the 90% rule is from the skill's own confirmed threshold):**
+**Example 2 -- combined-group estimate floor (hypothetical projected current-year liability $120,000; the 90% rule is from the skill's own confirmed threshold):**
 
 ```oa-check
 name: MS combined 90 percent estimates
@@ -106,8 +106,8 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| MSDOR 2025 Corporate Income & Franchise Tax Instructions (Form 83-100, rev. 01/2026) — rate table, $200/$90% estimate rule, due dates, penalties/interest, franchise rate, e-file penalty | https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf | 2026-10-29 |
-| DOR Combined Income Filing — combination return requirement, affiliated-group election, Form 83-310 on Form 83-105 line 4, 90% quarterly estimates via Form 83-300 | https://www.dor.ms.gov/business/corporate-income-franchise-tax/combined-income-filing | 2026-10-28 |
+| MSDOR 2025 Corporate Income & Franchise Tax Instructions (Form 83-100, rev. 01/2026) -- rate table, $200/$90% estimate rule, due dates, penalties/interest, franchise rate, e-file penalty | https://www.dor.ms.gov/sites/default/files/tax-forms/business/2025%20CIT%20INSTRUCTIONS%2083-100%20-%20Final%20%2001.14.2026.pdf | 2026-10-29 |
+| DOR Combined Income Filing -- combination return requirement, affiliated-group election, Form 83-310 on Form 83-105 line 4, 90% quarterly estimates via Form 83-300 | https://www.dor.ms.gov/business/corporate-income-franchise-tax/combined-income-filing | 2026-10-28 |
 
 Not yet confirmed: nexus thresholds and P.L. 86-272 protection scope; combined-group ownership/membership tests beyond the Title 35, Part III, Subpart 08, Chapter 07 reference; intercompany addback detail and water's-edge posture; the apportionment factor mix inside the Title 35, Part III, Subpart 08, Chapter 06 formulas; whether the 2026 tax-year rate table changes from the 2025 table archived here.
 
@@ -117,7 +117,7 @@ Not yet confirmed: nexus thresholds and P.L. 86-272 protection scope; combined-g
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
