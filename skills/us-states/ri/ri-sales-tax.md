@@ -21,7 +21,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | Rhode Island, United States |
 | Jurisdiction Code | US-RI |
 | Tax Type | Sales and Use Tax (state only -- no local sales tax) |
-| State Rate | 7.00% (flat, uniform statewide) |
+| State Rate | 7.00% (flat, uniform statewide) | (not yet confirmed)
 | Local Rates | None |
 | Primary Statute | Rhode Island General Laws (R.I.G.L.) §44-18 et seq. |
 | Governing Agency | Rhode Island Division of Taxation |
@@ -63,11 +63,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### 1.1 State Sales Tax Rate
 
-- **State Sales Tax Rate** — 7.00% percent (flat, uniform statewide; one of the higher state rates in the country [T1])  _(R.I.G.L. §44-18-18)_
+- **State Sales Tax Rate** — 7.00% percent (flat, uniform statewide; one of the higher state rates in the country [T1])  _(R.I.G.L. §44-18-18)_ (not yet confirmed)
 
 ### 1.2 No Local Sales Taxes [T1]
 
-- **No local sales taxes** — Rhode Island does NOT permit local sales taxes. The 7% rate is the total rate statewide. ([T1])
+- **No local sales taxes** — Rhode Island does NOT permit local sales taxes. The 7% rate is the total rate statewide. ([T1]) (not yet confirmed)
 
 ### 1.3 Sourcing [T1]
 
@@ -80,7 +80,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ### 2.1 Grocery Food -- EXEMPT [T1]
 
 - **Unprepared grocery food** — Exempt ([T1])  _(R.I.G.L. §44-18-30(7))_
-- **Prepared food (restaurant meals)** — Taxable at 8% (1% meals/beverage tax + 7% sales tax, but the meals tax is structured as a separate 1% additional tax) ([T2])
+- **Prepared food (restaurant meals)** — Taxable at 8% (1% meals/beverage tax + 7% sales tax, but the meals tax is structured as a separate 1% additional tax) ([T2]) (not yet confirmed)
 - **Candy** — Taxable ([T1])
 - **Soft drinks** — Taxable ([T1])
 
@@ -104,7 +104,7 @@ Note: This is similar to New York's clothing exemption structure (all-or-nothing
 
 ### 2.5 SaaS and Digital Goods -- TAXABLE [T1/T2]
 
-- **SaaS** — Taxable at the full 7% rate. Rhode Island specifically taxes prewritten computer software regardless of the method of delivery or access, including SaaS. ([T1])  _(R.I.G.L. §44-18-7(8))_
+- **SaaS** — Taxable at the full 7% rate. Rhode Island specifically taxes prewritten computer software regardless of the method of delivery or access, including SaaS. ([T1])  _(R.I.G.L. §44-18-7(8))_ (not yet confirmed)
 - **Canned software (physical and electronic)** — Taxable ([T1])
 - **Custom software** — Exempt ([T2])
 - **Digital downloads** — Taxable ([T1])
@@ -122,7 +122,7 @@ Note: This is similar to New York's clothing exemption structure (all-or-nothing
 
 ### 2.8 Meals and Beverages [T1]
 
-- **Meals (prepared food from restaurants) combined rate** — 8% percent ([T1] 7% sales tax + 1% local meals/beverage tax = 8% total)
+- **Meals (prepared food from restaurants) combined rate** — 8% percent ([T1] 7% sales tax + 1% local meals/beverage tax = 8% total) (not yet confirmed)
 
 ### 4.1 Filing Details [T1]
 
@@ -132,7 +132,7 @@ Note: This is similar to New York's clothing exemption structure (all-or-nothing
 | --- | --- |
 | Return Form | T-204R (Sales and Use Tax Return) |
 | Filing Frequencies | Monthly (>$200/month avg liability); Quarterly (most others); Annually (very small) |
-| Due Date | 20th of the month following the reporting period |
+| Due Date | 20th of the month following the reporting period | (not yet confirmed)
 | Portal | https://www.tax.ri.gov |
 | E-filing | Required for most filers |
 
@@ -143,10 +143,10 @@ Note: This is similar to New York's clothing exemption structure (all-or-nothing
 ### 4.3 Penalties and Interest [T1]
 
 - **Late filing penalty** — 10% of tax due or $50, whichever is greater ([T1])
-- **Interest rate on unpaid tax** — 18% per annum (1.5% per month) percent ([T1])
-- **Fraud penalty** — 50% of tax due ([T1])
+- **Interest rate on unpaid tax** — 18% per annum (1.5% per month) percent ([T1]) (not yet confirmed)
+- **Fraud penalty** — 50% of tax due ([T1]) (not yet confirmed)
 
-Note: Rhode Island's interest rate of 18% per annum is one of the highest in the nation. [T1]
+Note: Rhode Island's interest rate of 18% per annum is one of the highest in the nation. [T1] (not yet confirmed)
 
 ## Step 4: Deductibility / Exemptions
 
@@ -171,7 +171,7 @@ Note: Rhode Island's interest rate of 18% per annum is one of the highest in the
 | Transaction Threshold | 200 transactions |
 | Test | OR (either threshold triggers nexus) |
 | Measurement Period | Current or prior calendar year |
-| Effective Date | July 1, 2019 |
+| Effective Date | July 1, 2019 | (not yet confirmed)
 
 ### 3.2 Marketplace Facilitator [T1]
 
@@ -187,11 +187,11 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ## PROHIBITIONS
 
-- **No local tax add-ons** — NEVER apply local tax add-ons in Rhode Island. There are NO local sales taxes. 7% is the total rate. ([T1])
-- **SaaS not exempt** — NEVER assume SaaS is exempt in Rhode Island. It is explicitly taxable at 7%. ([T1])
+- **No local tax add-ons** — NEVER apply local tax add-ons in Rhode Island. There are NO local sales taxes. 7% is the total rate. ([T1]) (not yet confirmed)
+- **SaaS not exempt** — NEVER assume SaaS is exempt in Rhode Island. It is explicitly taxable at 7%. ([T1]) (not yet confirmed)
 - **Clothing exemption not a deduction** — NEVER apply the clothing exemption as a deduction. It is all-or-nothing at the $250 threshold. ([T1])
-- **Meals/beverage tax not to be forgotten** — NEVER forget the separate 1% meals/beverage tax on prepared food. Total on meals = 8%. ([T1])
-- **Late payment penalty not underestimated** — NEVER underestimate the penalty for late payment. RI charges 18% per annum interest. ([T1])
+- **Meals/beverage tax not to be forgotten** — NEVER forget the separate 1% meals/beverage tax on prepared food. Total on meals = 8%. ([T1]) (not yet confirmed)
+- **Late payment penalty not underestimated** — NEVER underestimate the penalty for late payment. RI charges 18% per annum interest. ([T1]) (not yet confirmed)
 - **Grocery food not taxed** — NEVER tax grocery food in Rhode Island. Unprepared food is exempt. ([T1])
 - **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. ([T1])
 
@@ -210,8 +210,8 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Situation:** A SaaS company from California sells subscriptions to RI businesses. The company assumes SaaS is not taxable based on their experience in CA.
 
 **Resolution:**
-- Rhode Island taxes SaaS at the full 7% rate. [T1]
-- The SaaS company must register (if economic nexus is met), collect 7%, and remit. [T1]
+- Rhode Island taxes SaaS at the full 7% rate. [T1] (not yet confirmed)
+- The SaaS company must register (if economic nexus is met), collect 7%, and remit. [T1] (not yet confirmed)
 - R.I.G.L. §44-18-7(8) specifically includes prewritten software accessed remotely. [T1]
 - **Flag for reviewer:** SaaS companies with multi-state customers must check RI's position. Rhode Island is one of the states that clearly taxes SaaS. [T2]
 
@@ -220,22 +220,22 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Situation:** A seller discovers they failed to remit RI sales tax for 12 months.
 
 **Resolution:**
-- RI charges 18% per annum (1.5% per month) interest on unpaid tax. [T1]
-- Plus a 10% penalty. [T1]
+- RI charges 18% per annum (1.5% per month) interest on unpaid tax. [T1] (not yet confirmed)
+- Plus a 10% penalty. [T1] (not yet confirmed)
 - Combined penalty and interest can be substantial. [T1]
 - Consider a Voluntary Disclosure Agreement (VDA) if the seller has multi-year exposure. [T2]
-- **Flag for reviewer:** RI's 18% interest rate makes timely compliance critical. VDA should be considered for historical exposure. [T2]
+- **Flag for reviewer:** RI's 18% interest rate makes timely compliance critical. VDA should be considered for historical exposure. [T2] (not yet confirmed)
 
 ### EC4 -- Meals Tax vs. Sales Tax on Prepared Food [T2]
 
 **Situation:** A restaurant charges $50 for a meal. What is the total tax?
 
 **Resolution:**
-- Sales tax: 7%. [T1]
-- Meals/beverage tax: additional 1%. [T1]
+- Sales tax: 7%. [T1] (not yet confirmed)
+- Meals/beverage tax: additional 1%. [T1] (not yet confirmed)
 - Total tax rate on prepared food: **8%** ($4.00 on a $50 meal). [T1]
-- The 1% meals/beverage tax is reported separately on the return. [T2]
-- **Flag for reviewer:** Ensure restaurants are collecting and reporting both the 7% sales tax and the 1% meals tax. [T2]
+- The 1% meals/beverage tax is reported separately on the return. [T2] (not yet confirmed)
+- **Flag for reviewer:** Ensure restaurants are collecting and reporting both the 7% sales tax and the 1% meals tax. [T2] (not yet confirmed)
 
 ### EC5 -- Multiple Clothing Items at Different Price Points [T2]
 
@@ -246,7 +246,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - Pants ($100): EXEMPT (under $250). [T1]
 - Jacket ($260): FULLY TAXABLE at 7% ($18.20 tax). [T1]
 - Shoes ($249): EXEMPT (under $250). [T1]
-- Total tax = $18.20. [T1]
+- Total tax = $18.20. [T1] (not yet confirmed)
 - **Flag for reviewer:** Each item is evaluated independently. A $260 item is fully taxable even if other items in the same transaction are exempt. [T1]
 
 ### EC6 -- Digital Subscription Bundle [T2]
@@ -254,23 +254,23 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Situation:** A company sells a bundle including SaaS access ($200), digital music streaming ($50), and a physical product ($100) to an RI customer. Single invoice.
 
 **Resolution:**
-- SaaS: taxable at 7%. [T1]
-- Digital music streaming: taxable at 7%. [T1]
-- Physical product: taxable at 7%. [T1]
+- SaaS: taxable at 7%. [T1] (not yet confirmed)
+- Digital music streaming: taxable at 7%. [T1] (not yet confirmed)
+- Physical product: taxable at 7%. [T1] (not yet confirmed)
 - All three components are taxable, so bundling does not create a mixed-taxability issue. [T1]
 - Total taxable = $350. Tax = $350 x 7% = $24.50. [T1]
 - **Flag for reviewer:** If any component were exempt, bundled transaction rules would apply. [T2]
 
 ### EC7 -- Voluntary Disclosure Agreement (High Interest) [T2]
 
-**Situation:** A company discovers 3 years of uncollected RI sales tax. The potential interest at 18% per annum is substantial.
+**Situation:** A company discovers 3 years of uncollected RI sales tax. The potential interest at 18% per annum is substantial. (not yet confirmed)
 
 **Resolution:**
-- RI's 18% interest rate creates urgency for voluntary disclosure. [T1]
+- RI's 18% interest rate creates urgency for voluntary disclosure. [T1] (not yet confirmed)
 - The company should consider a VDA through the MTC National Nexus Program or directly with RI. [T2]
 - A VDA may limit the look-back period and reduce or waive penalties. [T2]
 - Interest is generally NOT waivable even under a VDA. [T2]
-- **Flag for reviewer:** Given RI's high interest rate, speed is essential. Every month of delay adds 1.5% interest. [T2]
+- **Flag for reviewer:** Given RI's high interest rate, speed is essential. Every month of delay adds 1.5% interest. [T2] (not yet confirmed)
 
 ### Test 1 -- Basic Taxable Sale
 

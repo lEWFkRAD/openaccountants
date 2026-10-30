@@ -20,7 +20,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Section 1: Metadata
 
-- **Tax year covered** — 2025 (returns due April 15, 2026)
+- **Tax year covered** — 2025 (returns due April 15, 2026) (not yet confirmed)
 - **Primary form** — RI-1040 (Rhode Island Resident Individual Income Tax Return)
 - **Tax authority** — [Rhode Island Division of Taxation](https://tax.ri.gov)
 - **Tax type** — Graduated income tax
@@ -30,7 +30,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Field | Value |
 | --- | --- |
-| Tax year covered | 2025 (returns due April 15, 2026) |
+| Tax year covered | 2025 (returns due April 15, 2026) | (not yet confirmed)
 | Primary form | RI-1040 (Rhode Island Resident Individual Income Tax Return) |
 | Tax authority | [Rhode Island Division of Taxation](https://tax.ri.gov) |
 | Tax type | Graduated income tax |
@@ -94,7 +94,7 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 
 | Item | Value |
 | --- | --- |
-| RI EITC | 16% of federal EITC (partially refundable — 15% of the credit is refundable) |
+| RI EITC | 16% of federal EITC (partially refundable — 15% of the credit is refundable) | (not yet confirmed)
 | RI child tax credit | $500 per qualifying child under 6 (income limits apply, verify 2025) |
 | Property tax circuit breaker credit | Available for low-income homeowners and renters |
 
@@ -115,7 +115,7 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 
 ### Rhode Island EITC
 
-- **RI EITC** — 16% of the federal EITC for tax year 2025; partially refundable — 15% of the credit is refundable. Self-employment income qualifies.
+- **RI EITC** — 16% of the federal EITC for tax year 2025; partially refundable — 15% of the credit is refundable. Self-employment income qualifies. (not yet confirmed)
 
 ### RI itemized deduction rules
 
@@ -127,7 +127,7 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 - **R-RI-2** — Uniform rate schedule applies to all filing statuses. Unlike most states, RI uses the same tax brackets regardless of filing status. Only the standard deduction and exemption amounts vary by status.  _(R-RI-2)_
 - **R-RI-3** — Standard deduction is based on filing status. $10,900 (single/MFS), $21,800 (MFJ/QSS), $16,350 (HOH) for 2025.  _(R-RI-3)_
 - **R-RI-4** — Personal exemption is $5,100 per person. Subject to income-based phase-out for high earners.  _(R-RI-4)_
-- **R-RI-5** — RI EITC = 16% of federal EITC. Partially refundable (15% of the credit is the refundable portion). Self-employment income qualifies.  _(R-RI-5)_
+- **R-RI-5** — RI EITC = 16% of federal EITC. Partially refundable (15% of the credit is the refundable portion). Self-employment income qualifies.  _(R-RI-5)_ (not yet confirmed)
 - **R-RI-6** — Schedule HR1 is mandatory for OBBBA add-backs. If the taxpayer claimed any OBBBA-specific deductions on the federal return (§163(j), §174A, §179(b) increase, §181), complete Schedule HR1 to add these back.  _(R-RI-6)_
 - **R-RI-7** — Tax tables for income under $100,000. Use the RI tax tables for taxable income under $100,000; use the tax computation worksheet for $100,000 and above.  _(R-RI-7)_
 
@@ -164,7 +164,7 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 | Line 5 | Exemptions | $5,100 per person |
 | Line 7 | RI taxable income | Line 3 − deduction − exemptions |
 | Line 8 | RI income tax | Tax tables or tax computation worksheet |
-| Line 14 | RI EITC | 16% of federal EITC |
+| Line 14 | RI EITC | 16% of federal EITC | (not yet confirmed)
 | Line 18 | RI tax after credits | After all credits applied |
 
 ## Section 9: Refusal catalogue
