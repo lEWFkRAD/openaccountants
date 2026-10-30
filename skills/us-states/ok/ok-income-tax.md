@@ -13,12 +13,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # OK Income Tax
 
-## Oklahoma Individual Income Tax Skill — Self-Employed / Sole Proprietor
+### Oklahoma Individual Income Tax Skill — Self-Employed / Sole Proprietor
 
 > **Scope.** Oklahoma Form 511 (Resident Income Tax Return) for tax year 2025 for full-year Oklahoma resident sole proprietors and disregarded single-member LLCs.
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All rates and thresholds have been researched from primary sources but must be confirmed by a qualified professional before use in return preparation.
 
-## Section 1: Metadata
+### Section 1: Metadata
 
 - **Tax year covered** — 2025 (returns due April 15, 2026)
 - **Primary form** — Oklahoma Form 511 (Resident Individual Income Tax Return)
@@ -44,7 +44,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 2025 Form 511 Instructions | https://oklahoma.gov/tax/individuals/income-tax/filing-information.html |
 | HB 2764 (2025 — rate reduction for 2026+) | https://oksenate.gov/press-releases/oklahoma-legislature-sends-comprehensive-tax-cuts-and-modernization-plan-governor |
 
-## Section 2: Quick reference — rates and thresholds
+### Section 2: Quick reference — rates and thresholds
 
 ### Tax brackets — Single and Married Filing Separately (tax year 2025)
 
@@ -109,7 +109,7 @@ HB 2764 (signed May 2025) restructures Oklahoma's income tax starting tax year 2
 - MFJ: 0% on first $7,500; 2.5% on next $2,300; 3.5% on next $4,600; 4.5% on remainder
 - Includes automatic trigger for further 0.25% rate reductions based on revenue performance
 
-## Section 3: How this skill works with the federal return
+### Section 3: How this skill works with the federal return
 
 Oklahoma starts from **federal adjusted gross income (AGI)** on federal Form 1040, Line 11. Oklahoma then applies its own modifications (additions and subtractions) to arrive at Oklahoma AGI, then subtracts the standard or itemized deduction and personal exemptions to arrive at Oklahoma taxable income.
 
@@ -126,7 +126,7 @@ Oklahoma starts from **federal adjusted gross income (AGI)** on federal Form 104
 - **Itemized deduction requirement if itemized federally** — If the taxpayer did itemize federally, they must use Oklahoma itemized deductions (which use federal Schedule A as a starting point with adjustments).  _(Section 3: How this skill works with the federal return)_
 - **Oklahoma itemized deduction cap** — $17,000 USD (except for charitable contributions and medical expenses, which are not subject to the cap)  _(Section 3: How this skill works with the federal return)_
 
-## Section 4: Self-employed specific rules
+### Section 4: Self-employed specific rules
 
 ### Federal conformity
 
@@ -159,7 +159,7 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 | Up to $54,670 | Various amounts (see Schedule 511-D table) |
 | Over $54,670 | Federal AGI × 0.00056 |
 
-## Section 5: Tier 1 rules — deterministic
+### Section 5: Tier 1 rules — deterministic
 
 - **R-OK-1. Federal AGI is the starting point.** — Form 511, Line 1 = federal Form 1040, Line 11.  _(R-OK-1)_
 - **R-OK-2. Social Security is fully exempt.** — Subtract Social Security benefits included in federal AGI.  _(R-OK-2)_
@@ -168,13 +168,13 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 - **R-OK-5. Federal income tax deduction is available.** — Calculate using Schedule 511-D based on the taxpayer's federal AGI and actual federal tax liability.  _(R-OK-5)_
 - **R-OK-6. Sales tax relief credit.** — Low-income taxpayers may qualify for the sales tax relief credit (Form 538-S). The credit is based on income and the number of exemptions claimed.  _(R-OK-6)_
 
-## Section 6: Tier 2 rules — requires judgment
+### Section 6: Tier 2 rules — requires judgment
 
 - **J-OK-1. Federal tax deduction timing.** — The federal income tax deduction is based on tax paid during the calendar year (not the liability for the year). This includes estimated payments, withholding, and any payments with extension. Judgment is needed to determine the correct amount.  _(J-OK-1)_
 - **J-OK-2. Oklahoma conformity with OBBBA.** — Verify whether Oklahoma has enacted specific conformity or decoupling legislation for OBBBA provisions. If not conformed, adjustments may be needed for bonus depreciation, §179, and other OBBBA items.  _(J-OK-2)_
 - **J-OK-3. Residency determination for part-year situations.** — Oklahoma defines a "resident" as one who is domiciled in Oklahoma or maintains a permanent place of abode and spends more than seven months of the year in Oklahoma.  _(J-OK-3)_
 
-## Section 7: Supplier pattern library
+### Section 7: Supplier pattern library
 
 **Supplier pattern library**
 
@@ -185,7 +185,7 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 | Social Security recipient | Full exclusion of Social Security from Oklahoma income — important for semi-retired freelancers. |
 | Low-income sales tax relief | Taxpayers with low Oklahoma AGI may qualify for the sales tax relief credit — check eligibility. |
 
-## Section 8: Form mapping
+### Section 8: Form mapping
 
 **Form 511 line mapping**
 
@@ -202,32 +202,77 @@ Oklahoma allows a deduction for federal income tax liability. This is unusual am
 | Line 13 | Tax from tax tables | Tax table or rate schedule |
 | Line 20 | Total Oklahoma tax | After credits |
 
-## Section 9: Refusal catalogue
+### Section 9: Refusal catalogue
 
 - **REFUSE-OK-1** — REFUSE to prepare an Oklahoma return for a nonresident or part-year resident without the appropriate Schedule 511-NR. This skill covers full-year residents only.  _(REFUSE-OK-1)_
 - **REFUSE-OK-2** — REFUSE to compute the federal income tax deduction without the complete payment history for the year. Estimated payments, withholding, and extension payments all factor in.  _(REFUSE-OK-2)_
 - **REFUSE-OK-3** — REFUSE to determine Oklahoma conformity with specific OBBBA provisions without verifying the current Oklahoma conformity date and any enacted exceptions.  _(REFUSE-OK-3)_
 - **REFUSE-OK-4** — REFUSE to claim the sales tax relief credit for a taxpayer without verifying income eligibility thresholds and filing requirements.  _(REFUSE-OK-4)_
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
+
+## Who this applies to
+
+Not yet confirmed against archived sources.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a

@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Oklahoma Sales Tax
 
-## Skill Metadata
+## Who this applies to
 
 **Skill Metadata**
 
@@ -34,13 +34,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Confidence Coverage | T1: state rate, basic taxability, filing mechanics. T2: local rate lookups, grocery food transition, service taxability. T3: audit defense, complex exemptions, penalty abatement. |
 | Format | Restructured to Q1 execution format, April 2026 |
 
-## Confidence Tier Definitions
+### Confidence Tier Definitions
 
 - **[T1] Tier 1 -- Deterministic.** Apply exactly as written. No reviewer judgement required.
 - **[T2] Tier 2 -- Reviewer Judgement Required.** Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
 - **[T3] Tier 3 -- Out of Scope / Escalate.** Do not guess. Escalate to a licensed tax professional.
 
-## Step 0: Client Onboarding Questions
+### Step 0: Client Onboarding Questions
 
 Before proceeding with any Oklahoma sales tax analysis, collect the following from the client: [T1]
 
@@ -59,7 +59,7 @@ Before proceeding with any Oklahoma sales tax analysis, collect the following fr
 
 **If the client cannot answer questions 1-4, STOP and gather this information before proceeding.** [T1]
 
-## Step 1: Tax Rate Structure
+## Rates, bands and thresholds
 
 ### 1.1 State Sales Tax Rate
 
@@ -90,7 +90,7 @@ Before proceeding with any Oklahoma sales tax analysis, collect the following fr
 - **Sourcing method** — Oklahoma uses **destination-based** sourcing for most sales. [T1]
 - **SST sourcing rules** — As an SST member, Oklahoma follows SSUTA sourcing rules. [T1]
 
-## Step 2: Transaction Classification Rules
+## The taxable base
 
 ### 2.1 Grocery Food -- State Exempt (2024+), Local Applies [T1]
 
@@ -146,7 +146,7 @@ Oklahoma taxes a limited number of services:
 
 **Flag for reviewer:** Oil and gas equipment taxability is nuanced. Review specific items against OTC guidance. [T2]
 
-## Step 3: Return Form Structure
+## Deadlines and filing
 
 ### 4.1 Filing Details [T1]
 
@@ -169,7 +169,7 @@ Oklahoma taxes a limited number of services:
 - **Late filing penalty** — Late filing penalty: 25% of tax due. [T1]
 - **Interest rate** — Interest: 1.25% per month (15% per annum). [T1]
 
-## Step 4: Deductibility / Exemptions
+### Step 4: Deductibility / Exemptions
 
 Exemptions identified in Step 2 above are the primary deductibility rules for Oklahoma. Key categories: [T1]
 
@@ -179,7 +179,7 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ok
 - **Manufacturing exemptions** — **Manufacturing exemptions:** Where applicable per Step 2. [T2]
 - **Certificate retention requirement** — All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. [T1]
 
-## Step 5: Key Thresholds
+### Step 5: Key Thresholds
 
 ### 3.1 Economic Nexus Threshold [T1]
 
@@ -200,11 +200,11 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ok
 
 - **SST registration status** — Full SST member. SSTRS and CSPs available. [T1]
 
-## Step 6: Filing Deadlines and Penalties
+### Step 6: Filing Deadlines and Penalties
 
 Refer to Step 3 for filing frequencies and due dates. [T1]
 
-## PROHIBITIONS
+### PROHIBITIONS
 
 - **Grocery food after Nov 1 2024** — NEVER apply state sales tax to grocery food after November 1, 2024. It is state-exempt. [T1]
 - **Local taxes on grocery food** — NEVER forget that local taxes still apply to grocery food. [T1]
@@ -213,7 +213,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - **SaaS not taxable assumption** — NEVER assume SaaS is taxable in Oklahoma. Current law does not tax SaaS. [T2]
 - **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. [T1]
 
-## Edge Case Registry
+### Edge Case Registry
 
 ### EC1 -- Grocery Food Transition (2024) [T2]
 
@@ -288,7 +288,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - If Texas tax paid >= Oklahoma rate, no additional use tax is due. [T1]
 - **Flag for reviewer:** Vehicle use tax credit calculations require verification of the exact tax paid to the other state. [T2]
 
-## Test Suite
+### Test Suite
 
 ### Test 1 -- Basic Taxable Sale
 
@@ -330,7 +330,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Input:** Oklahoma resident bought car in Texas for $20,000, paid $1,650 TX sales tax (8.25%). Oklahoma combined rate for their location = 8.5%.
 **Expected output:** OK use tax = $20,000 x 8.5% = $1,700. Credit for TX tax paid = $1,650. Additional OK use tax due = $50.
 
-## Reviewer Escalation Protocol
+### Reviewer Escalation Protocol
 
 **Reviewer Escalation Protocol**
 
@@ -342,7 +342,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 | Penalty abatement or voluntary disclosure | Escalate to licensed professional with state-specific experience. |
 | Ambiguous taxability of a product/service | Present both interpretations to reviewer with supporting authority. |
 
-## Contribution Notes
+### Contribution Notes
 
 - This skill follows the Q1 execution format (Step 0 through Step 7).
 - All rules are tagged [T1], [T2], or [T3] per the Confidence Tier Definitions.
@@ -350,25 +350,54 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - To update this skill, submit a pull request with the specific section, supporting statutory authority, and effective date of the change.
 - All changes require validation by a US CPA or EA before merging.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
