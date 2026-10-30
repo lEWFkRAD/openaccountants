@@ -12,9 +12,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # OR Payroll
 
-## Oregon Payroll Compliance — Tier 2 Content Skill
+### Oregon Payroll Compliance — Tier 2 Content Skill
 
-## 1. Scope
+### 1. Scope
 
 This skill is the authoritative Tier 2 content layer for Oregon employer payroll compliance for tax year 2025. It is consumed by upstream workflow skills (`us-tax-workflow-base`, `us-federal-return-assembly`) when an employer has Oregon-source wages, an Oregon resident employee, or any employee performing services within Oregon transit district boundaries.
 
@@ -51,7 +51,16 @@ This skill is the authoritative Tier 2 content layer for Oregon employer payroll
 - **Default: OR-W-4 missing** — Use the standard OR-W-4 default (single, zero allowances) when no signed OR-W-4 is on file
 - **Default: Paid Leave Oregon employee count** — For Paid Leave Oregon employee count, count all employees nationwide, not just Oregon (per OED rule)
 
-## 2. Oregon Personal Income Tax Withholding
+## Who this applies to
+
+Oregon employers (and out-of-state employers with Oregon-source wages,
+Oregon-resident remote employees, or employees performing services inside
+Oregon transit district boundaries) with payroll obligations for tax year
+2025: PIT withholding, UI, Statewide Transit Tax, transit district taxes,
+Paid Leave Oregon, and the Workers' Benefit Fund. Sole proprietors paying
+themselves no W-2 wages are out of scope (see ### 1.2).
+
+## Rates, bands and thresholds
 
 ### 2.1 2025 brackets (single filer; married brackets are double)
 
@@ -90,7 +99,16 @@ Employers may use the supplemental flat rate **or** the aggregate method that co
 
 > **AUDIT FLASH POINT:** Form OQ filers commonly forget to attach Schedule STT or Schedule TM/LTD when the employer has Oregon wages but no employees in the transit district. The schedules must be filed with **zeros** rather than omitted — omission triggers a non-filer notice and a $50 penalty per schedule per quarter under ORS 314.400.
 
-## 3. Oregon Unemployment Insurance — the highest UI wage base in the US
+## The taxable base
+
+### 3.0 What wages are in the base
+
+- **Withholding base** — Oregon PIT withholding applies to all Oregon-source wages under the OR-W-4 tables (see ## Rates, bands and thresholds).
+- **UI base** — taxable wages capped at the annual wage base (### 3.1), per employer per year.
+- **STT base** — every dollar of covered wages, no cap (### 4.1).
+- **Transit district base** — wages for services performed inside the district boundary (### 5.5).
+- **Paid Leave base** — wages up to the Social Security wage base cap (### 6.3).
+- **WBF base** — hours worked, not dollars (### 7.1).
 
 ### 3.1 Wage base $54,300 for 2025
 
@@ -123,7 +141,7 @@ Schedule D applies for 2025 (Oregon has eight rate schedules A–H; D is the mid
 
 > **AUDIT FLASH POINT:** Employers commonly miscompute the taxable/excess split when an employee changes employers mid-year. The $54,300 wage base is per-employer per-year, not per-employee per-year across employers. A new hire whose YTD wages with the prior employer already exceeded $54,300 still owes UI tax on the first $54,300 paid by the new employer. (not yet confirmed)
 
-## 4. Statewide Transit Tax — 0.1% with no cap
+### 4. Statewide Transit Tax — 0.1% with no cap
 
 ### 4.1 Mechanics
 
@@ -149,7 +167,7 @@ The Statewide Transit Tax (STT), enacted under HB 2017 (2017) and codified at OR
 
 > **AUDIT FLASH POINT:** The STT applies to non-resident remote workers physically in Oregon. A consultant living in Vancouver, WA who crosses the river to work at a Portland client site has STT-covered wages for those days. The day-by-day allocation must be tracked.
 
-## 5. Local transit district employer payroll taxes
+### 5. Local transit district employer payroll taxes
 
 ### 5.1 TriMet — 0.8237% employer + 0.13% employee (Portland)
 
@@ -191,7 +209,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 > **AUDIT FLASH POINT:** The single most common Oregon payroll audit finding is misallocation between TriMet, Lane, and "no transit district." Employers often default all Oregon wages to TriMet because Portland is the largest metro, or default everything to "no district" because the employer is headquartered outside Oregon. Both are wrong. Each employee's work-location geocoding must be documented and refreshed annually, and remote-work reallocations during 2020–2024 created retroactive exposure that the OED began aggressively auditing in 2024.
 
-## 6. Paid Leave Oregon — 0.6% combined, 12 weeks of benefits
+### 6. Paid Leave Oregon — 0.6% combined, 12 weeks of benefits
 
 ### 6.1 Program overview
 
@@ -221,7 +239,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 > **AUDIT FLASH POINT:** Employers using the small-employer (<25) exemption often miscount by limiting to Oregon employees. OED counts nationwide. Misclassification as small triggers a back-assessment of employer contributions plus interest from program inception.
 
-## 7. Workers' Benefit Fund Assessment
+### 7. Workers' Benefit Fund Assessment
 
 ### 7.1 Mechanics
 
@@ -236,18 +254,25 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 > **AUDIT FLASH POINT:** WBF is computed per-hour, not per-dollar. A common mistake is to apply a 0.0066% rate to wages, which dramatically under-reports. The correct base is hours worked × $0.0066. (not yet confirmed)
 
-## 8. ABC test for independent contractor classification
+### 8. ABC test for independent contractor classification
 
 - **Oregon independent contractor ABC test** — Oregon does not have a single statutory ABC test analog to California AB5. However, ORS 670.600 (the "independent contractor" definition for OED and DOR purposes) operates as a de-facto ABC test and has been strengthened by case law and by 2020+ administrative guidance. A worker is an independent contractor only if all of the following are true: A. The worker is free from direction and control over the means and manner of providing services, subject only to the right of the contracting person to specify the desired results. B. The worker is customarily engaged in an independently established business of the same nature as the services contracted for. Three of the following five factors must be met: 1. Maintains a business location separate from the contracting person 2. Bears the risk of loss 3. Provides contracted services for two or more different customers within a 12-month period, or routinely engages in business advertising or solicitation 4. Makes a significant investment in the business through tools, equipment, or premises 5. Has the authority to hire and fire employees to perform the contracted services C. The worker is licensed under ORS 671 or 701 if such license is required for the services performed. Failure on any of A, B, or C reclassifies the worker as a W-2 employee for Oregon withholding, UI, STT, transit district, Paid Leave, and WBF purposes.  _(ORS 670.600)_
 
 > **AUDIT FLASH POINT:** Software developers, designers, and other "professional" contractors frequently fail Prong B because they only have one client and do not advertise. Even with a Form 1099-NEC issued, OED can reclassify and impose retroactive UI, STT, transit, and Paid Leave taxes plus penalties under ORS 657.471.
 
-## 9. Final pay rule
+### 9. Final pay rule
 
 - **Final pay rule under ORS 652.140** — Under ORS 652.140: - Employer-initiated termination (firing/layoff): all wages due by the end of the next business day after termination - Employee-initiated termination (quit) with 48+ hours notice: all wages due on the last day worked - Employee-initiated termination without 48 hours notice: all wages due within five business days or the next regular payday, whichever is earlier  _(ORS 652.140)_
 - **Penalty wages under ORS 652.150** — Violation triggers penalty wages under ORS 652.150 equal to the employee's regular daily wage rate for each day the wages remain unpaid, up to 30 days. Penalty wages are owed even if the underpayment is minor.  _(ORS 652.150)_
 
-## 10. Federal interactions
+## Deadlines and filing
+
+- **Form OQ quarterly combined return** — Oregon withholding, UI (Schedule B), Statewide Transit Tax (Schedule STT), and TriMet/Lane Transit (Schedule TM/LTD) are consolidated on Form OQ, due April 30, July 31, October 31, and January 31; schedules must be filed with zeros rather than omitted.
+- **Form OQ e-filing** — Electronic filing via Frances Online (Oregon Frances Online portal, which replaced OTTER) is mandatory for employers with 250+ W-2s and strongly encouraged otherwise.
+- **Annual reconciliations** — Form OR-WR (withholding) and Form OR-STT-A (Statewide Transit Tax) are each due January 31 of the following year.
+- **Registration** — Register with DOR for withholding and OED for UI/Paid Leave before the first Oregon payroll.
+
+## Cross-border points
 
 ### 10.1 Family and Medical Leave Act parity
 
@@ -257,7 +282,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 - **Oregon Pay Equity Act requirements** — The Oregon Pay Equity Act (ORS 652.220) prohibits pay discrimination based on protected class and requires equal pay for work of "comparable character." For payroll purposes: - Salary history inquiries are prohibited - Pay decisions must be defensible against an "affirmative defense" requiring a documented equal-pay analysis within the prior three years - Posting of salary ranges in job postings is required under separate amendments Payroll system implications: maintain documented job-evaluation factors and ensure compensation changes carry justification metadata.  _(ORS 652.220)_
 
-## 11. Worked examples
+## Worked examples
 
 ### 11.1 Example A — Portland TriMet-area employer, single employee
 
@@ -344,7 +369,7 @@ Note: Because the work is in Eugene (LTD), TriMet does not apply. A common error
 
 This is the classic "double-count" problem unique to high-base UI states like Oregon and Washington.
 
-## 12. Reviewer self-checks
+## Ask the client first
 
 Before signing off on an Oregon payroll filing, the credentialed reviewer must verify:
 
@@ -359,7 +384,25 @@ Before signing off on an Oregon payroll filing, the credentialed reviewer must v
 9. ABC test documented: for every 1099-NEC contractor
 10. Final-pay rule timeline: next business day for terminations
 
-## 13. Citations and authorities
+## Sources
+
+Not yet confirmed: the 2025 PIT bracket thresholds and rates, 8.0%
+supplemental rate, $54,300 UI wage base, 0.0%–5.4% UI rate range and 2.4%
+new-employer rate, 0.1% Statewide Transit Tax, TriMet 0.8237%/0.13%, Lane
+Transit 0.79%, Cherriots 0.36%, Paid Leave 1.0% total with 40/60 split and
+$176,100 wage base cap, WBF $0.0066/hour, and the worked-example totals are
+not tied to an archived capture; the archived captures in the table cover
+only the DOR home page, the PIT page, and ORS Chapter 316.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| Oregon Department of Revenue (home) | https://www.oregon.gov/dor | 2026-10-28 |
+| Oregon Department of Revenue — Personal Income Tax | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx | 2026-10-28 |
+| Oregon Legislative Assembly — ORS Chapter 316 | https://www.oregonlegislature.gov/bills_laws/ors/ors316.html | 2026-10-28 |
+
+Not yet confirmed against archived sources: the ORS/OAR citations, Frances
+Online portal, and DCBS/OED notices listed below have no archived captures
+and are therefore not confirmed sources.
 
 - ORS Chapter 316 — Personal Income Tax (withholding)
 - ORS Chapter 657 — Unemployment Insurance
@@ -376,7 +419,7 @@ Before signing off on an Oregon payroll filing, the credentialed reviewer must v
 - OED Frances Online portal — replacement for OTTER (effective 2022)
 - DCBS WBF assessment notice — annual publication
 
-## 14. Refusals
+### 14. Refusals
 
 - **Public employer (PERS-covered)** — The taxpayer is an Oregon public employer (PERS-covered) — different regime
 - **Agricultural employer ORS 657.045 exemption** — The taxpayer is an agricultural employer seeking the ORS 657.045 exemption analysis without documented seasonal-worker facts  _(ORS 657.045)_

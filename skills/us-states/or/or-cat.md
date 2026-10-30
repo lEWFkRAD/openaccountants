@@ -12,11 +12,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # OR Cat
 
-## Description
+## Who this applies to
 
 Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals $250 plus 0.57% of taxable commercial activity above $1 million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at $750,000 of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
 
-## 1. Scope and statutory authority
+### 1. Scope and statutory authority
 
 ### 1.1 Statutory citation
 
@@ -51,7 +51,7 @@ Read this skill before doing any of the following:
 - Advising on whether to elect unitary group filing
 - Evaluating the CAT impact of a multi-state structure where Oregon is one of several sourcing states
 
-## 2. Tax base — Oregon commercial activity
+## The taxable base
 
 ### 2.1 Definition of commercial activity
 
@@ -75,7 +75,7 @@ For a wholesale grocery distributor whose entire business consists of SNAP-eligi
 
 - **Returns and allowances treatment** — Returns and allowances are not separately listed in the statutory exclusions, but the "total amount realized" formulation effectively reduces the base by genuine returns because the taxpayer never realized the receipt in the first place — the sale was undone. Refunds of services, however, must be examined carefully because the original receipt was realized when paid and a later refund is treated as a reduction in commercial activity in the year of refund, not retroactively. The Department of Revenue's position is that bona fide returns processed within the same reporting period reduce commercial activity. Returns processed in a later period are deducted in that later period.  _(Department of Revenue position (unsure - no statutory cite given))_
 
-## 3. Rate structure and the $1 million threshold
+## Rates, bands and thresholds
 
 ### 3.1 The two-part rate
 
@@ -105,7 +105,7 @@ The interaction of the two thresholds creates three regimes (see table below). A
 
 - **Oregon commercial activity for threshold purposes** — For purposes of both thresholds, "Oregon commercial activity" means commercial activity sourced to Oregon under the market-based sourcing rules in section 7. A California-headquartered SaaS company with $5 million of total commercial activity but only $400,000 sourced to Oregon does not need to register and owes no CAT. For unitary groups that have elected combined filing, the threshold is applied at the group level, not the entity level. See section 8.  _(ORS 317A.128 (market-based sourcing rules referenced))_
 
-## 4. Bright-line nexus
+### 4. Bright-line nexus
 
 ### 4.1 Statutory nexus standard
 
@@ -127,7 +127,7 @@ The interaction of the two thresholds creates three regimes (see table below). A
 
 - **Constitutional nexus background** — The Oregon Supreme Court considered a constitutional challenge to CAT in Santa Fe Natural Tobacco Co. v. Department of Revenue, 313 P.3d 1106 (Or. 2013) — an opinion that pre-dates CAT but is foundational for Oregon's tax-nexus doctrine — and the CAT statute itself withstood early constitutional challenges in administrative-rule litigation. The bright-line thresholds were designed to be conservative with respect to the Commerce Clause's substantial-nexus requirement post-Wayfair, and no successful constitutional challenge to CAT has been sustained as of this writing.  _(Santa Fe Natural Tobacco Co. v. Department of Revenue, 313 P.3d 1106 (Or. 2013))_
 
-## 5. The 35% subtraction
+### 5. The 35% subtraction
 
 ### 5.1 Structure of the subtraction
 
@@ -157,7 +157,7 @@ A reasonable practitioner runs both calculations for each client and elects the 
 
 - **Full CAT calculation steps** — Step 1: Determine Oregon commercial activity (OCA) Step 2: Compute Oregon-apportioned COGS or labor, take the larger Step 3: Multiply by 35% — this is the subtraction (capped at 95% × OCA) Step 4: Tax base = max(0, OCA − $1,000,000 − Subtraction) Step 5: CAT = $250 + 0.57% × Tax base   (only if OCA > $1,000,000)  _(ORS 317A.119; ORS 317A.116)_
 
-## 6. Reporting period and filing mechanics
+## Deadlines and filing
 
 ### 6.1 Calendar year
 
@@ -190,7 +190,7 @@ Taxpayers with an annual CAT liability of $5,000 or more (other than the flat $2
 
 - **Recordkeeping period** — CAT records must be retained for at least six years from the date the return is filed or the date the return is due, whichever is later. This is longer than the typical federal three-year recordkeeping period and reflects the longer audit window for CAT.  _(ORS 317A.158)_
 
-## 7. Sourcing — market-based
+### 7. Sourcing — market-based
 
 ### 7.1 General rule
 
@@ -212,7 +212,7 @@ Taxpayers with an annual CAT liability of $5,000 or more (other than the flat $2
 
 - **Reasonable approximation fallback** — ORS 317A.128(2) provides that if the sourcing rules cannot be applied with reasonable accuracy — for example, where a SaaS company cannot determine the actual location of end users — the taxpayer must use a "reasonable approximation" based on a method that fairly represents the location of the customer's benefit. Common approximations: - For B2B SaaS: proration by billing address, then by user count if billing address is HQ - For digital advertising: proration by IP-address geolocation of viewers - For cloud storage: proration by the location of the primary administrator account The reasonable-approximation method must be applied consistently year-over-year and documented in the taxpayer's workpapers.  _(ORS 317A.128(2))_
 
-## 8. Combined and consolidated group filing
+### 8. Combined and consolidated group filing
 
 ### 8.1 Statutory framework
 
@@ -232,7 +232,7 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 - **Designated reporter requirement** — A combined group must designate one member as the "designated reporter" — typically the corporate parent. The designated reporter files the single Form OR-CAT for the group, signs the return, and is the primary point of contact with the Department of Revenue. Other members are jointly and severally liable but do not file separate returns.  _(unsure - no statutory cite given)_
 
-## 9. Interaction with Oregon corporate excise tax and other Oregon taxes
+## Cross-border points
 
 ### 9.1 Corporate excise tax (ORS Chapter 317)
 
@@ -254,7 +254,7 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 - **Local business tax interaction** — Multnomah County imposes a business income tax and Portland has a license fee, both administered jointly through the Portland Revenue Division. These are separate from CAT and from state corporate excise tax. A Portland-based business may have four separate Oregon-related state and local business tax filings: CAT, state corporate excise, Multnomah business income tax, and Portland license fee.  _(unsure - no statutory cite given)_
 
-## 10. Penalties and interest
+## Penalties and interest
 
 ### 10.1 Late registration penalty
 
@@ -280,7 +280,7 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 - **Fraud and substantial understatement penalties** — For fraudulent filings, the penalty is 100% of the unpaid tax. For substantial understatements (defined as the greater of 10% of correct tax or $10,000), the penalty is 20% of the understatement. These penalties are layered with interest but do not stack with the basic late-filing and late-payment penalties — the larger of the two applies.  _(unsure - no statutory cite given)_
 
-## 11. Worked examples
+## Worked examples
 
 ### 11.1 Example 1 — Small Oregon retailer at $1.5 million with COGS
 
@@ -384,7 +384,7 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 **Step 9 — Sourcing audit risk.** The principal audit risk for PineCloud is the sourcing methodology: does "Oregon customer" mean billing address, or actual end-user location? For B2B SaaS where the customer is a multi-state enterprise, the Department of Revenue has accepted billing-address sourcing as a reasonable approximation under ORS 317A.128(2), but practitioners should document the methodology and apply it consistently. If a single large Oregon-billed customer has primarily California-based users, an alternative reasonable approximation (proration by user count) may be more accurate and should be considered.
 
-## 12. Quick-reference summary
+### 12. Quick-reference summary
 
 ```
 RATE:           $250 + 0.57% × tax base
@@ -404,7 +404,7 @@ EXCLUSIONS:     Groceries, motor fuel, fixed-asset sales, dividends, interest,
 INTERACTION:    Pay BOTH CAT and OR corporate excise tax (different bases)
 ```
 
-## 13. Refusal catalogue
+## Ask the client first
 
 Refuse to produce a CAT return or definitive CAT advice — and route to a credentialed Oregon CPA or tax attorney — in the following circumstances:
 
@@ -419,7 +419,7 @@ Refuse to produce a CAT return or definitive CAT advice — and route to a crede
 - **R-OR-CAT-9** — Audit defense and protest letters. This skill prepares returns and provides planning analysis; it does not handle administrative or litigation defense.  _(unsure - no specific statutory cite given)_
 - **R-OR-CAT-10** — Constitutional challenges to CAT (Commerce Clause, Due Process Clause, or state constitutional). The case law is sparse but the litigation strategy must be developed by Oregon counsel.  _(unsure - no specific statutory cite given)_
 
-## 14. Self-checks
+### 14. Self-checks
 
 Before signing off on any CAT return or planning memo produced under this skill, run the following self-checks:
 
@@ -439,7 +439,24 @@ Before signing off on any CAT return or planning memo produced under this skill,
 14. For C-corporations, has the separate Oregon corporate excise tax obligation been confirmed?
 15. Has CAT been included as a deductible state tax on the federal return?
 
-## 15. Provenance
+## Sources
+
+Not yet confirmed: the $250 flat amount, 0.57% rate, $1,000,000 exclusion,
+$750,000 registration threshold, 35% subtraction, $500,000 labor cap, 95%
+subtraction cap, nexus dollar factors, quarterly dates, penalty amounts and
+the 8% 2025 interest rate below are not tied to an archived capture; the
+archived captures listed in the table cover only the DOR home page, the PIT
+page, and ORS Chapter 316 (not CAT's ORS Chapter 317A).
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| Oregon Department of Revenue (home) | https://www.oregon.gov/dor | 2026-10-28 |
+| Oregon Legislative Assembly — ORS Chapter 316 | https://www.oregonlegislature.gov/bills_laws/ors/ors316.html | 2026-10-28 |
+
+Not yet confirmed against archived sources: the Oregon Department of Revenue
+Corporate Activity Tax page (www.oregon.gov/dor/programs/businesses/Pages/corporate-activity-tax.aspx)
+cited in the provenance list has no archived capture and is therefore not
+listed as a confirmed source above.
 
 This skill is derived from the following primary sources:
 
