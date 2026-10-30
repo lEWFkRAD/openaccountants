@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NH Interest Dividends Note
 
-## New Hampshire — Interest & Dividends Tax Repeal Note
+## New Hampshire -- Interest & Dividends Tax Repeal Note
 
 _Last updated: May 22, 2026_ (not yet confirmed)
 
@@ -34,29 +34,29 @@ New Hampshire's Interest & Dividends (I&D) Tax has been **fully repealed** effec
 | Before Dec 31, 2023 | 5% | (not yet confirmed)
 | On or after Dec 31, 2023 | 4% | (not yet confirmed)
 | On or after Dec 31, 2024 | 3% | (not yet confirmed)
-| **On or after Jan 1, 2025** | **0% — repealed** | (not yet confirmed)
+| **On or after Jan 1, 2025** | **0% -- repealed** | (not yet confirmed)
 
-- **Before Dec 31, 2023** — 5% (not yet confirmed)
-- **On or after Dec 31, 2023** — 4% (not yet confirmed)
-- **On or after Dec 31, 2024** — 3% (not yet confirmed)
-- ****On or after Jan 1, 2025**** — **0% — repealed** (not yet confirmed)
+- **Before Dec 31, 2023** -- 5% (not yet confirmed)
+- **On or after Dec 31, 2023** -- 4% (not yet confirmed)
+- **On or after Dec 31, 2024** -- 3% (not yet confirmed)
+- ****On or after Jan 1, 2025**** -- **0% -- repealed** (not yet confirmed)
 
 ## What this means for tax year 2025+
 
-- **No I&D tax return required** — No I&D tax return is required for taxable periods beginning on or after January 1, 2025. (not yet confirmed)
-- **No statewide income tax** — New Hampshire has no statewide income tax on wages, salaries, or self-employment income — it never did.
-- **No statewide sales tax** — New Hampshire has no statewide sales tax.
-- **Business Profits Tax** — 8.5% (Levied on businesses meeting certain thresholds, separate from the repealed I&D tax.) (not yet confirmed)
-- **Business Enterprise Tax** — 0.55% (Levied on businesses meeting certain thresholds, separate from the repealed I&D tax.) (not yet confirmed)
+- **No I&D tax return required** -- No I&D tax return is required for taxable periods beginning on or after January 1, 2025. (not yet confirmed)
+- **No statewide income tax** -- New Hampshire has no statewide income tax on wages, salaries, or self-employment income -- it never did.
+- **No statewide sales tax** -- New Hampshire has no statewide sales tax.
+- **Business Profits Tax** -- 8.5% (Levied on businesses meeting certain thresholds, separate from the repealed I&D tax.) (not yet confirmed)
+- **Business Enterprise Tax** -- 0.55% (Levied on businesses meeting certain thresholds, separate from the repealed I&D tax.) (not yet confirmed)
 
 ## Prior-year obligations
 
-- **Prior-year filing obligation** — Taxpayers who owe I&D tax for tax year 2024 or earlier must still file and pay. The repeal does not provide amnesty for prior tax years.
+- **Prior-year filing obligation** -- Taxpayers who owe I&D tax for tax year 2024 or earlier must still file and pay. The repeal does not provide amnesty for prior tax years.
 
 ### Source
 
-- [NH DRA — Repeal of NH Interest and Dividends Tax Now in Effect](https://revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect)
-- [NH DRA — Interest & Dividends Tax overview](https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax)
+- [NH DRA -- Repeal of NH Interest and Dividends Tax Now in Effect](https://revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect)
+- [NH DRA -- Interest & Dividends Tax overview](https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax)
 - RSA 77 (Interest and Dividends Tax statute)
 
 <!-- openaccountants-cta-block -->
@@ -65,7 +65,7 @@ New Hampshire's Interest & Dividends (I&D) Tax has been **fully repealed** effec
 
 ### Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 the OpenAccountants network.
@@ -116,7 +116,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| (see Not yet confirmed) | -- | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
