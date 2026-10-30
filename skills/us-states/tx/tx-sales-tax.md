@@ -294,13 +294,9 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 Not yet confirmed: figures in this skill lack archived line-citations.
 
-
 | Source | URL | Read on |
 | --- | --- | --- |
 | (see Not yet confirmed) | — | 2026-10-28 |
-
--  (as_of: 2026-10-28)
-
 ## Deadlines and filing
 
 Not yet confirmed against archived sources.
@@ -326,10 +322,6 @@ Not yet confirmed against archived sources.
 Not yet confirmed: figures in this skill lack archived line-citations.
 
 Not yet confirmed against archived sources.
-
-| Source | URL | Read on |
-| --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
 
 | Source | URL | Read on |
 | --- | --- | --- |

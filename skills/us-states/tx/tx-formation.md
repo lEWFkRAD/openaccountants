@@ -571,10 +571,6 @@ Not yet confirmed against archived sources.
 | Source | URL | Read on |
 | --- | --- | --- |
 | (see Not yet confirmed) | — | 2026-10-28 |
-
-| Source | URL | Read on |
-| --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
