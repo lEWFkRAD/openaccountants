@@ -17,7 +17,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Pennsylvania Local Earned Income Tax (LEIT) is a municipal and school district wage tax imposed under the Local Tax Enabling Act (Act 511 of 1965), as overhauled by Act 32 of 2008. Rates run roughly 0.5% to 3.9%; most combined (municipality + school district) rates fall between 1.0% and 1.5%. Act 32 created 70 county-based Tax Collection Districts (TCDs) with a single appointed collector each. Employers must withhold each payroll based on the employee's resident PSD code (Political Subdivision code) reported on Form CLGS-32-6, remit quarterly, and file an annual reconciliation. Self-employed individuals file an annual return by April 15 with quarterly estimates. Philadelphia is governed separately under the Sterling Act of 1932 and is outside the Act 32 regime. Tax year 2025.
 
-## 1. Scope and legal basis
+## Who this applies to
 
 ### 1.1 Statutory framework
 
@@ -61,11 +61,11 @@ This skill covers the Act 32 regime: PSD codes, employer withholding, Form CLGS-
 
 - **Combined rate cap on residents** — 1.0% percent (unless municipality is Act 47 distressed (DCED approval), home rule charter with adopted higher rate, or has Act 1 of 2006 voter-approved EIT increase)  _(Act 511 §311(1))_
 
-### 2.3 Higher-rate cities (illustrative; verify current rate with DCED)
+### 2.3 Higher-rate cities (hypothetical; verify current rate with DCED)
 
-**Higher-rate cities (illustrative; verify current rate with DCED)**
+**Higher-rate cities (hypothetical; verify current rate with DCED)**
 
-| Municipality | Combined resident rate (illustrative) |
+| Municipality | Combined resident rate (hypothetical) |
 | --- | --- |
 | Reading (Berks Co.) | ~3.6% |
 | Scranton (Lackawanna Co.) | ~3.4% |
@@ -299,11 +299,11 @@ ALWAYS confirm the wage-period rate against the City of Philadelphia Department 
 
 For a PA-resident sole proprietor (non-Philadelphia, non-Pittsburgh), the LEIT preparation is straightforward: Schedule C net profit × resident rate, less withholding and estimates, on the annual final return. For a Philadelphia or Pittsburgh sole proprietor, route to the dedicated city-specific skill.
 
-## 10. Worked examples
+### 10. Worked examples
 
 ### Example 1 — PA resident commuting within PA (typical case)
 
-Taxpayer: Sarah, full-year resident of Cumberland Township, Adams County (PSD code 010101, illustrative; combined resident EIT rate 1.7%: 0.5% municipality + 1.2% school district). Worksite: Carlisle Borough, Cumberland County (PSD code 210301, illustrative; non-resident EIT rate 1.0%). 2025 W-2 box 1 wages: $80,000. 2025 W-2 PA state wages: $82,500 (reflects §401(k) deferral of $2,500 included in PA wages — PA does not conform). §125 pre-tax health insurance: $3,000 (excluded from PA wages). LEIT base: $82,500 (same as PA state wages). §125: not in base; §401(k): in base.
+Taxpayer: Sarah, full-year resident of Cumberland Township, Adams County (PSD code 010101, hypothetical; combined resident EIT rate 1.7%: 0.5% municipality + 1.2% school district). Worksite: Carlisle Borough, Cumberland County (PSD code 210301, hypothetical; non-resident EIT rate 1.0%). 2025 W-2 box 1 wages: $80,000. 2025 W-2 PA state wages: $82,500 (reflects §401(k) deferral of $2,500 included in PA wages — PA does not conform). §125 pre-tax health insurance: $3,000 (excluded from PA wages). LEIT base: $82,500 (same as PA state wages). §125: not in base; §401(k): in base.
 
 **Analysis table**
 
@@ -322,7 +322,7 @@ No balance due, no refund. Withholding matches. PSD code routing handled automat
 
 ### Example 2 — PA resident commuting to New Jersey
 
-Taxpayer: Marcus, full-year resident of Bensalem Township, Bucks County (resident EIT rate 1.0%: 0.5% municipality + 0.5% school district; PSD code 090101, illustrative). Worksite: Princeton, New Jersey (out of state). Employer: Princeton-based NJ corporation. 2025 W-2 box 1 wages: $120,000. 2025 W-2 PA state wages: $123,000 (reflects $3,000 §401(k) deferral). §125: $2,000 (not in base). LEIT base: $123,000. NJ state tax withheld: $5,800. PA state tax withheld: $0 (employer treated as NJ-only).
+Taxpayer: Marcus, full-year resident of Bensalem Township, Bucks County (resident EIT rate 1.0%: 0.5% municipality + 0.5% school district; PSD code 090101, hypothetical). Worksite: Princeton, New Jersey (out of state). Employer: Princeton-based NJ corporation. 2025 W-2 box 1 wages: $120,000. 2025 W-2 PA state wages: $123,000 (reflects $3,000 §401(k) deferral). §125: $2,000 (not in base). LEIT base: $123,000. NJ state tax withheld: $5,800. PA state tax withheld: $0 (employer treated as NJ-only).
 
 Under Act 32 §512, the NJ employer is required to withhold PA LEIT at Bensalem's 1.0% resident rate on Marcus's wages. Whether the employer actually did so is the threshold question.
 
@@ -344,7 +344,7 @@ Marcus must instead: 1. Make quarterly estimated payments of $307.50 ($1,230/4) 
 
 ### Example 3 — Out-of-state employer hiring PA remote worker
 
-Taxpayer: Priya, full-year resident of Lower Macungie Township, Lehigh County (resident EIT rate 1.0%: 0.5% municipality + 0.5% school district; PSD code 390501, illustrative). Employer: California-based tech company; Priya works fully remote from her PA home. Worksite (constructive): Priya's home in Lower Macungie. 2025 W-2 box 1 wages: $145,000. 2025 PA state wages: $148,000 (reflects $3,000 §401(k)). §125: $4,000 (not in base). LEIT base: $148,000. CA state tax withheld: $0 (no CA tax — Priya is non-resident of CA performing services in PA). PA state tax withheld: $4,544 (employer correctly remitted PA-40 withholding).
+Taxpayer: Priya, full-year resident of Lower Macungie Township, Lehigh County (resident EIT rate 1.0%: 0.5% municipality + 0.5% school district; PSD code 390501, hypothetical). Employer: California-based tech company; Priya works fully remote from her PA home. Worksite (constructive): Priya's home in Lower Macungie. 2025 W-2 box 1 wages: $145,000. 2025 PA state wages: $148,000 (reflects $3,000 §401(k)). §125: $4,000 (not in base). LEIT base: $148,000. CA state tax withheld: $0 (no CA tax — Priya is non-resident of CA performing services in PA). PA state tax withheld: $4,544 (employer correctly remitted PA-40 withholding).
 
 - **Analysis — CA employer PA LEIT withholding obligation** — Under Act 32 §512, yes, the CA employer is required to withhold and remit PA LEIT to the Lehigh Co. TCD tax officer. The fact that the employer has no physical PA presence is irrelevant — the obligation attaches because Priya is a PA resident and the wages are PA-source (services performed in PA).  _(Act 32 §512)_
 
@@ -362,7 +362,7 @@ Priya: 1. Makes quarterly estimated LEIT payments of $370 ($1,480/4) to Lehigh C
 
 ### Example 4 — PA suburban resident working in Philadelphia
 
-Taxpayer: Daniel, full-year resident of Cheltenham Township, Montgomery County (resident EIT rate 1.0%; PSD code 460201, illustrative). Worksite: Center City Philadelphia. 2025 W-2 box 1 wages: $95,000. 2025 PA state wages: $97,500 ($2,500 §401(k)). §125: $3,500 (not in base). LEIT / Philadelphia wage tax base: $97,500. Philadelphia non-resident wage tax withheld (full year 2025 at 3.44%): $3,354.
+Taxpayer: Daniel, full-year resident of Cheltenham Township, Montgomery County (resident EIT rate 1.0%; PSD code 460201, hypothetical). Worksite: Center City Philadelphia. 2025 W-2 box 1 wages: $95,000. 2025 PA state wages: $97,500 ($2,500 §401(k)). §125: $3,500 (not in base). LEIT / Philadelphia wage tax base: $97,500. Philadelphia non-resident wage tax withheld (full year 2025 at 3.44%): $3,354.
 
 Philadelphia is outside Act 32 but the credit under Section 7.6 applies.
 
@@ -380,7 +380,7 @@ Cheltenham (Montgomery Co. TCD) collects nothing from Daniel; the credit fully a
 
 ### Example 5 — Self-employed PA resident (sole prop)
 
-Taxpayer: Yusra, full-year resident of Mt. Lebanon, Allegheny County (resident EIT rate 1.0%: 0.5% municipality + 0.5% school district; PSD code 730201, illustrative). 2025 Federal Schedule C net profit: $72,000. PA Schedule C adjustments: Add back federal §168(k) bonus depreciation of $4,000 (PA does not conform); Recompute depreciation on straight-line: $1,500 PA depreciation in lieu; Add back federal QBI deduction (already not in Schedule C, but noted). PA Schedule C net profit: $72,000 + $4,000 − $1,500 = $74,500. LEIT base: $74,500 (no §125 / §401(k) adjustment for self-employed — those apply only to employee wages). No W-2 wages, no employer withholding. No tax paid to other PA jurisdiction.
+Taxpayer: Yusra, full-year resident of Mt. Lebanon, Allegheny County (resident EIT rate 1.0%: 0.5% municipality + 0.5% school district; PSD code 730201, hypothetical). 2025 Federal Schedule C net profit: $72,000. PA Schedule C adjustments: Add back federal §168(k) bonus depreciation of $4,000 (PA does not conform); Recompute depreciation on straight-line: $1,500 PA depreciation in lieu; Add back federal QBI deduction (already not in Schedule C, but noted). PA Schedule C net profit: $72,000 + $4,000 − $1,500 = $74,500. LEIT base: $74,500 (no §125 / §401(k) adjustment for self-employed — those apply only to employee wages). No W-2 wages, no employer withholding. No tax paid to other PA jurisdiction.
 
 **Analysis table**
 
@@ -432,7 +432,7 @@ Yusra files annual final return with Jordan Tax Service (Allegheny SW TCD) by Ap
 
 - **Refusal catalogue** — 1. Prepare Philadelphia wage tax, NPT, or BIRT returns — route to the Philadelphia city tax skill. 2. Prepare Pittsburgh Payroll Expense Tax — route to the Pittsburgh city tax skill. 3. Prepare Local Services Tax (LST) returns or per-capita / occupation taxes — route to dedicated LST skill. 4. Prepare PA Mercantile / Business Privilege Tax returns (where imposed by home rule cities) — route to dedicated municipal gross-receipts skill. 5. Compute multi-state apportionment for a part-year PA resident — route to a part-year residency skill. 6. Cover a taxpayer who was not a full-year PA resident — out of scope for v0.1. 7. Cover S-corporation reasonable compensation analysis for LEIT — defer to the S-corp election skill plus reasonable comp workflow.
 
-## 13. Provenance
+### 13. Provenance
 
 ### 13.1 Primary statutes
 
@@ -456,7 +456,7 @@ Berkheimer Tax Innovations / HAB — hab-inc.com — TCD tax officer for many so
 
 ### 13.6 Verification status
 
-This skill has been drafted from primary statutory sources, DCED published materials, and tax officer published forms current as of the last_updated date. All rates require live verification before each return preparation — rates change mid-year (Philadelphia every July 1; non-Philadelphia municipalities effective January 1 of each year following a school district or municipal council enactment) and the figures in Section 2.3 are illustrative only. Verification status: pending — awaiting credentialed PA practitioner sign-off (CPA or PA-licensed attorney with municipal tax practice).
+This skill has been drafted from primary statutory sources, DCED published materials, and tax officer published forms current as of the last_updated date. All rates require live verification before each return preparation — rates change mid-year (Philadelphia every July 1; non-Philadelphia municipalities effective January 1 of each year following a school district or municipal council enactment) and the figures in Section 2.3 are hypothetical only. Verification status: pending — awaiting credentialed PA practitioner sign-off (CPA or PA-licensed attorney with municipal tax practice).
 
 ### 13.7 Cross-references to other skills
 
@@ -474,16 +474,59 @@ End of pa-local-eit v0.1 — Pennsylvania Local Earned Income Tax (Act 32 of 200
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
