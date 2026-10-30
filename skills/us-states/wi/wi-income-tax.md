@@ -107,7 +107,7 @@ The Wisconsin standard deduction is reduced as income increases. At high income 
 | Personal exemption — taxpayer | $700 | (not yet confirmed)
 | Personal exemption — spouse (MFJ) | $700 | (not yet confirmed)
 | Each dependent | $700 | (not yet confirmed)
-| Additional — age 65+ | $250 per person |
+| Additional — age 65+ | $250 per person | (not yet confirmed)
 
 ### Other key thresholds
 
@@ -117,9 +117,9 @@ The Wisconsin standard deduction is reduced as income increases. At high income 
 | --- | --- | --- |
 | Filing deadline | April 15 | Wis. Stat. §71.03(8) | (not yet confirmed)
 | Extension | October 15 (automatic with federal) | Wis. Stat. §71.03(8)(b) | (not yet confirmed)
-| Estimated tax threshold | $500 expected liability | Wis. Stat. §71.09 |
-| State sales tax rate | 5% | Wis. Stat. §77.52 |
-| County sales tax | 0.5% (most counties) | Wis. Stat. §77.70 |
+| Estimated tax threshold | $500 expected liability | Wis. Stat. §71.09 | (not yet confirmed)
+| State sales tax rate | 5% | Wis. Stat. §77.52 | (not yet confirmed)
+| County sales tax | 0.5% (most counties) | Wis. Stat. §77.70 | (not yet confirmed)
 
 ## Section 3: How this skill works with the federal return
 
@@ -164,18 +164,18 @@ Wisconsin starts from **federal adjusted gross income (AGI)** — Form 1040, Lin
 
 ### Estimated tax payments
 
-- **Estimated tax payments requirement** — Required if expected Wisconsin tax after withholding and credits exceeds $500. Due dates: April 15, June 15, September 15, January 15. Form 1-ES (voucher).
+- **Estimated tax payments requirement** — Required if expected Wisconsin tax after withholding and credits exceeds $500. Due dates: April 15, June 15, September 15, January 15. Form 1-ES (voucher). (not yet confirmed)
 
 ## Section 5: Tier 1 rules — deterministic
 
-- **[T1-WI-1] Tax computation** — Apply the graduated rate schedule to Wisconsin taxable income based on filing status. Use Wisconsin tax tables (for taxable income under $100,000) or rate schedules (for $100,000+).  _(T1-WI-1)_
+- **[T1-WI-1] Tax computation** — Apply the graduated rate schedule to Wisconsin taxable income based on filing status. Use Wisconsin tax tables (for taxable income under $100,000) or rate schedules (for $100,000+).  _(T1-WI-1)_ (not yet confirmed)
 - **[T1-WI-2] Starting point** — Begin with federal adjusted gross income from Form 1040, Line 11. Enter on Wisconsin Form 1, Line 1.  _(T1-WI-2)_
 - **[T1-WI-3] Wisconsin additions (Schedule AD)** — Common additions for self-employed: - State/local income tax refund (if deducted federally in prior year) - Wisconsin does not conform to federal bonus depreciation §168(k) — add back the difference between federal and Wisconsin depreciation (Section 179 is generally allowed) - Certain capital gain exclusions claimed federally but not recognized by WI  _(T1-WI-3)_
 - **[T1-WI-4] Wisconsin subtractions (Schedule SB)** — Common subtractions: - Interest from US government obligations (Treasury bonds) - Retirement income subtraction (age 67+, up to $24,000 per Act 15) - Net operating loss differences (Wisconsin has its own NOL rules) - College savings account (EdVest/Tomorrow's Scholar) contributions — up to $5,130 per beneficiary  _(T1-WI-4)_ (not yet confirmed)
 - **[T1-WI-5] Standard deduction computation** — Wisconsin uses a sliding-scale standard deduction that decreases as income rises. The deduction amount is calculated using tables in the Form 1 instructions. High-income self-employed individuals may receive $0 standard deduction.  _(T1-WI-5)_
 - **[T1-WI-6] Filing due date** — April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension is obtained; file Form 1 by October 15 but pay by April 15).  _(T1-WI-6)_ (not yet confirmed)
-- **[T1-WI-7] Estimated tax payments** — Required if expected liability exceeds $500. Due dates: April 15, June 15, September 15, January 15. Use Form 1-ES. Underpayment penalty applies if <90% of current year or <100% of prior year liability paid timely.  _(T1-WI-7)_
-- **[T1-WI-8] Wisconsin Earned Income Credit** — Varies by number of children: - 1 qualifying child: 4% of federal EIC - 2 qualifying children: 11% of federal EIC - 3+ qualifying children: 34% of federal EIC - No children: not eligible for WI EIC Partially refundable.  _(T1-WI-8)_
+- **[T1-WI-7] Estimated tax payments** — Required if expected liability exceeds $500. Due dates: April 15, June 15, September 15, January 15. Use Form 1-ES. Underpayment penalty applies if <90% of current year or <100% of prior year liability paid timely.  _(T1-WI-7)_ (not yet confirmed)
+- **[T1-WI-8] Wisconsin Earned Income Credit** — Varies by number of children: - 1 qualifying child: 4% of federal EIC - 2 qualifying children: 11% of federal EIC - 3+ qualifying children: 34% of federal EIC - No children: not eligible for WI EIC Partially refundable.  _(T1-WI-8)_ (not yet confirmed)
 
 ## Section 6: Tier 2 rules — requires judgment
 
@@ -302,7 +302,7 @@ Not yet confirmed against archived sources.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| Wisconsin DOR — Income Tax | https://www.revenue.wi.gov/pages/individ/home.aspx | 2026-10-29 |
+| Wisconsin DOR (home) | https://www.revenue.wi.gov | 2026-10-29 |
 | 2025 Wisconsin Act 15 (Budget Bill) — Tax rate changes | https://docs.legis.wisconsin.gov/2025/related/acts/15 | 2026-10-29 |
 
 Not yet confirmed: the 7.65% top marginal rate and the bracket figures in this skill were not found in the archived sources (archived 2026-10-29); the Tax Foundation profile and the 2025 Form 1 instructions (I-111) were not archived.
