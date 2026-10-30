@@ -2,7 +2,7 @@
 name: hi-cross-border
 description: >
   Use this skill whenever asked about Hawaii cross-border taxation for tax
-  year 2026 — resident vs nonresident base (HRS §235-4), change-of-status
+  year 2026 -- resident vs nonresident base (HRS §235-4), change-of-status
   proration, the §235-4.2 economic-nexus presumption, nonresident real
   property withholding at 7.25% (§235-68), part-year/nonresident filing
   (Form N-15), and military rules (§235-100). Trigger on "Hawaii
@@ -31,10 +31,10 @@ This skill covers people and entities whose facts straddle Hawaii: moving in/out
 ## Who this applies to
 
 - **Residents:** §235-4(a) (archived text): "The tax imposed by this chapter applies to the entire income of a resident, computed without regard to source in the State."
-- **Nonresidents:** §235-4(b) — the tax applies to the income received or derived from Hawaii property, personal services performed in Hawaii, trade/business carried on in Hawaii, and "any and every other source in the State."
-- **Nonresident spouse of a resident filing jointly:** §235-4(b) (archived text): "In the case of a nonresident spouse filing a joint return with a resident spouse, the tax applies to the entire income of the nonresident spouse computed without regard to source in the State." — a joint-return trap.
+- **Nonresidents:** §235-4(b) -- the tax applies to the income received or derived from Hawaii property, personal services performed in Hawaii, trade/business carried on in Hawaii, and "any and every other source in the State."
+- **Nonresident spouse of a resident filing jointly:** §235-4(b) (archived text): "In the case of a nonresident spouse filing a joint return with a resident spouse, the tax applies to the entire income of the nonresident spouse computed without regard to source in the State." -- a joint-return trap.
 - **Change of status mid-year:** §235-4(c) (archived text): "when the status of a taxpayer changes during the taxable year from resident to nonresident, or from nonresident to resident, the tax imposed by this chapter applies to the entire income earned during the period of residence ... and during the period of nonresidence the tax shall apply upon the income received or derived as a nonresident"; if it cannot be determined in which period income was received, it is prorated by the ratio of the residence period to the year.
-- **Entities lacking physical presence:** the §235-4.2 presumption (archived text): a person that lacks physical presence in the State is presumed to be engaging in business in the State if it "engages in two hundred or more business transactions with persons within the State" or its Hawaii gross income / sales-factor numerator "equals or exceeds $100,000" — see `hi-corporate-income-tax`.
+- **Entities lacking physical presence:** the §235-4.2 presumption (archived text): a person that lacks physical presence in the State is presumed to be engaging in business in the State if it "engages in two hundred or more business transactions with persons within the State" or its Hawaii gross income / sales-factor numerator "equals or exceeds $100,000" -- see `hi-corporate-income-tax`.
 
 ## Rates, bands and thresholds
 
@@ -56,15 +56,15 @@ This skill covers people and entities whose facts straddle Hawaii: moving in/out
 ## Deadlines and filing
 
 - Part-year/nonresident individuals file Form N-15 instead of the resident Form N-11 (the archived DOTAX rate schedules are stated for both "Form N-11, Line 26 or Form N-15, line 43"); for tax year 2025 the DOTAX tax-year page states the April 20, 2026 filing deadline and automatic 6-month extension for "Form N-11 or N-15". See Not yet confirmed below for the N-15 instruction details.
-- Real-property withholding: remitted by the transferee per §235-68 mechanics; final liability is trued-up on the Hawaii return (exemption-certificate mechanics — see Not yet confirmed below).
+- Real-property withholding: remitted by the transferee per §235-68 mechanics; final liability is trued-up on the Hawaii return (exemption-certificate mechanics -- see Not yet confirmed below).
 
 ## Penalties and interest
 
-§231-39 applies (failure-to-file 5%/month capped at 25%; negligence up to 25%; fraud up to 50%; late payment after timely filing up to 20%; interest at two-thirds of one per cent a month — archived §231-39 text; see `hi-corporate-income-tax` for exact quotes). Cross-border failure modes: (1) a resident-spouse joint return silently worldwide-taxes the nonresident spouse; (2) skipping the 7.25% withholding at closing on a nonresident seller — the **transferee** is on the hook ("Every person required to withhold a tax under this section is made liable for the tax", §235-68); (3) assuming no Hawaii filing after moving away while Hawaii-source rents/services continue.
+§231-39 applies (failure-to-file 5%/month capped at 25%; negligence up to 25%; fraud up to 50%; late payment after timely filing up to 20%; interest at two-thirds of one per cent a month -- archived §231-39 text; see `hi-corporate-income-tax` for exact quotes). Cross-border failure modes: (1) a resident-spouse joint return silently worldwide-taxes the nonresident spouse; (2) skipping the 7.25% withholding at closing on a nonresident seller -- the **transferee** is on the hook ("Every person required to withhold a tax under this section is made liable for the tax", §235-68); (3) assuming no Hawaii filing after moving away while Hawaii-source rents/services continue.
 
 ## Cross-border points
 
-- Federal FIRPTA withholding can also apply to nonresident aliens selling U.S. (including Hawaii) realty, in addition to the state 7.25% withholding — see Not yet confirmed below for the federal rate and mechanics.
+- Federal FIRPTA withholding can also apply to nonresident aliens selling U.S. (including Hawaii) realty, in addition to the state 7.25% withholding -- see Not yet confirmed below for the federal rate and mechanics.
 - No Hawaii estate tax for most estates (see Not yet confirmed below for the current threshold); gift transfers of Hawaii realty still carry conveyance-tax and future-withholding consequences (see Not yet confirmed below for the conveyance-tax rate).
 - Treaty benefits do not override the state withholding mechanics; refund comes via the Hawaii return.
 
@@ -103,10 +103,10 @@ expected:
 
 ## Ask the client first
 
-1. Which spouse is the resident — and is the joint-return worldwide-income trap understood (§235-4(b))?
+1. Which spouse is the resident -- and is the joint-return worldwide-income trap understood (§235-4(b))?
 2. Moving in/out mid-year: is income being tracked by period so the §235-4(c) proration isn't needed by default?
 3. Buying from or selling as a nonresident: is the 7.25% withholding being handled at closing, with a Hawaii return planned to recover over-withholding?
-4. Remote work performed while physically in Hawaii (even on vacation blocks) — Hawaii-source service income follows the body (§235-4(b) source rules)?
+4. Remote work performed while physically in Hawaii (even on vacation blocks) -- Hawaii-source service income follows the body (§235-4(b) source rules)?
 5. Any military-service or §235-100.5 abatement situations in the family?
 
 ## Sources
@@ -122,7 +122,7 @@ expected:
 | DOTAX Tax Rate Schedules (Form N-11 line 26 / Form N-15 line 43 usage) | https://tax.hawaii.gov/forms/d_25table-on/d_25table-on_p13/ | 2026-10-28 |
 | DOTAX Tax Year 2025 Information (April 20, 2026 deadline and 6-month extension for Form N-11 or N-15) | https://tax.hawaii.gov/tax-year-information/ | 2026-10-28 |
 
-Not yet confirmed: the §235-1 "resident" definition text (domicile / 540-day rule commonly cited — not extracted this run); Form N-15 instruction details (the tax.hawaii.gov forms page was unreachable this run); the federal FIRPTA withholding rate and mechanics (v0.2 said 15% — a federal figure, not verified against an archived federal source this run); the Hawaii estate-tax threshold; the conveyance-tax rate; the §235-68 exemption certificates and refund forms (v0.2 mentioned HW-8/CR-8 — not verified); and the §235-100 military-rule text beyond the TOC titles. Each was flagged in v0.2 and has not been tied to an archived primary source, so no figure for them is asserted here.
+Not yet confirmed: the §235-1 "resident" definition text (domicile / 540-day rule commonly cited -- not extracted this run); Form N-15 instruction details (the tax.hawaii.gov forms page was unreachable this run); the federal FIRPTA withholding rate and mechanics (v0.2 said 15% -- a federal figure, not verified against an archived federal source this run); the Hawaii estate-tax threshold; the conveyance-tax rate; the §235-68 exemption certificates and refund forms (v0.2 mentioned HW-8/CR-8 -- not verified); and the §235-100 military-rule text beyond the TOC titles. Each was flagged in v0.2 and has not been tied to an archived primary source, so no figure for them is asserted here.
 
 <!-- openaccountants-cta-block -->
 
@@ -130,7 +130,7 @@ Not yet confirmed: the §235-1 "resident" definition text (domicile / 540-day ru
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

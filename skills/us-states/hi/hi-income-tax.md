@@ -17,7 +17,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **General reference only.** This skill covers Hawaii individual income tax for self-employed individuals and sole proprietors filing Form N-11. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-**Hawaii Individual Income Tax Skill — Self-Employed / Sole Proprietor.** Hawaii has one of the most progressive rate structures in the U.S. with 12 brackets ranging from 1.4% to 11%.
+**Hawaii Individual Income Tax Skill -- Self-Employed / Sole Proprietor.** Hawaii has one of the most progressive rate structures in the U.S. with 12 brackets ranging from 1.4% to 11%.
 
 | Field | Value |
 | --- | --- |
@@ -25,7 +25,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Tax authority | Hawaii Department of Taxation (DOTAX) |
 | Filing portal | [Hawaii Tax Online](https://hitax.hawaii.gov/) |
 | Legislation citation | Hawaii Revised Statutes (HRS) Chapter 235 (Income Tax Law) |
-| Primary form | Form N-11 (Individual Income Tax Return — Resident) |
+| Primary form | Form N-11 (Individual Income Tax Return -- Resident) |
 | Filing deadline | April 20, 2026 (for tax year 2025) |
 | Extension | Automatic 6-month extension if estimated tax is paid by April 20, 2026 |
 
@@ -49,7 +49,7 @@ Hawaii resident individuals filing Form N-11, with this skill focused on sole pr
 
 ## Rates, bands and thresholds
 
-### Tax year 2025 brackets — Single / Married filing separately  _(HRS §235-51; DOTAX Tax Rate Schedule I, verified verbatim against the archived DOTAX schedule page)_
+### Tax year 2025 brackets -- Single / Married filing separately  _(HRS §235-51; DOTAX Tax Rate Schedule I, verified verbatim against the archived DOTAX schedule page)_
 
 | Taxable income (DOTAX Schedule I wording) | Rate | Tax per the schedule |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Hawaii resident individuals filing Form N-11, with this skill focused on sole pr
 | Over $275,000 but not over $325,000 | 10.00% | $20,966 plus 10.00% over $275,000 |
 | Over $325,000 | 11.00% | $25,966 plus 11.00% over $325,000 |
 
-### Tax year 2025 brackets — Married filing jointly / Qualifying surviving spouse  _(HRS §235-51; DOTAX Tax Rate Schedule II)_
+### Tax year 2025 brackets -- Married filing jointly / Qualifying surviving spouse  _(HRS §235-51; DOTAX Tax Rate Schedule II)_
 
 | Taxable income (DOTAX Schedule II wording) | Rate | Tax per the schedule |
 | --- | --- | --- |
@@ -96,17 +96,17 @@ The DOTAX schedule page notes that if taxable income is less than $100,000 the t
 
 ### Personal exemptions (tax year 2025)
 
-See Not yet confirmed below — the exemption amounts were not extractable from the archived primary sources this run.
+See Not yet confirmed below -- the exemption amounts were not extractable from the archived primary sources this run.
 
 ### Filing thresholds (tax year 2025)
 
-See Not yet confirmed below — the gross-income filing thresholds were not extractable from the archived primary sources this run.
+See Not yet confirmed below -- the gross-income filing thresholds were not extractable from the archived primary sources this run.
 
 ## The taxable base
 
 ### Starting point
 
-- **Starting point** — Hawaii begins with federal adjusted gross income (AGI) from federal Form 1040, Line 11.
+- **Starting point** -- Hawaii begins with federal adjusted gross income (AGI) from federal Form 1040, Line 11.
 
 ### Key additions to Hawaii income
 
@@ -115,23 +115,23 @@ See Not yet confirmed below — the gross-income filing thresholds were not extr
 
 ### Key subtractions from Hawaii income
 
-- Social Security benefits (Hawaii does not tax Social Security — see Not yet confirmed below for the statutory citation)
+- Social Security benefits (Hawaii does not tax Social Security -- see Not yet confirmed below for the statutory citation)
 - Interest on U.S. government obligations (Treasury bonds, savings bonds)
 - Military reserve/National Guard pay (limited exclusion)
 - Certain pension income adjustments
 
 ### Resulting computation
 
-- **Hawaii taxable income calculation** — Federal AGI ± Hawaii modifications = Hawaii AGI → minus standard or itemized deductions → minus personal exemptions = Hawaii taxable income → apply rate schedule.
+- **Hawaii taxable income calculation** -- Federal AGI ± Hawaii modifications = Hawaii AGI → minus standard or itemized deductions → minus personal exemptions = Hawaii taxable income → apply rate schedule.
 
 ### Self-employed specific rules
 
-- **QBI conformity** — Hawaii starts from federal AGI. The federal QBI deduction (§199A) is below AGI and does NOT flow into Hawaii's computation.
-- **SE health insurance deduction** — Already reflected in federal AGI. Flows through to Hawaii automatically.
-- **Retirement contributions (SEP, SIMPLE, solo 401(k))** — Already reflected in federal AGI. No Hawaii add-back required.
-- **Home office deduction** — Already reflected in Schedule C → federal AGI. Flows through automatically.
+- **QBI conformity** -- Hawaii starts from federal AGI. The federal QBI deduction (§199A) is below AGI and does NOT flow into Hawaii's computation.
+- **SE health insurance deduction** -- Already reflected in federal AGI. Flows through to Hawaii automatically.
+- **Retirement contributions (SEP, SIMPLE, solo 401(k))** -- Already reflected in federal AGI. No Hawaii add-back required.
+- **Home office deduction** -- Already reflected in Schedule C → federal AGI. Flows through automatically.
 
-### Tier 1 rules — deterministic
+### Tier 1 rules -- deterministic
 
 | Rule ID | Rule |
 | --- | --- |
@@ -139,12 +139,12 @@ See Not yet confirmed below — the gross-income filing thresholds were not extr
 | HI-IT-1.02 | If taxable income is less than $100,000, use the tax table; at or above $100,000, use the rate schedule (DOTAX schedule page) |
 | HI-IT-1.03 | Personal exemption: see Not yet confirmed below |
 | HI-IT-1.04 | Social Security benefits are excluded from Hawaii income (statutory citation pending; see Not yet confirmed below) |
-| HI-IT-1.05 | Filing deadline is April 20, 2026 (tax year 2025) — DOTAX: "Taxpayers must file their income tax returns by April 20, 2026" |
+| HI-IT-1.05 | Filing deadline is April 20, 2026 (tax year 2025) -- DOTAX: "Taxpayers must file their income tax returns by April 20, 2026" |
 | HI-IT-1.06 | Automatic 6-month extension if the properly estimated tax amount owed is paid by April 20, 2026 (DOTAX tax-year page) |
 | HI-IT-1.07 | Hawaii does not conform to federal §168(k) bonus depreciation (see Not yet confirmed below) |
 | HI-IT-1.08 | Hawaii allows credit for taxes paid to other states (see Not yet confirmed below) |
 
-### Tier 2 rules — requires judgment
+### Tier 2 rules -- requires judgment
 
 | Rule ID | Rule | Judgment needed |
 | --- | --- | --- |
@@ -166,10 +166,10 @@ See Not yet confirmed below — the gross-income filing thresholds were not extr
 
 ## Deadlines and filing
 
-- **Filing deadline** — Taxpayers must file their tax year 2025 income tax returns by **April 20, 2026** (DOTAX tax-year-2025 information page: "Taxpayers must file their income tax returns by April 20, 2026. Although the law requires taxpayers to file by April 20, taxpayers are granted an automatic 6-month extension (no form is required to request the extension)"). The 6-month extension is granted if the taxpayer is due a refund, or pays the properly estimated tax amount owed by April 20, 2026.
-- **Quarterly estimated payment requirement** — Self-employed individuals must make quarterly estimated payments if they expect to owe $500 or more: HRS §235-97 provides that "In the case of a taxpayer whose tax liability is less than $500, the filing of an estimate and the payment of estimated tax shall not be required."
-- **Voucher due dates** — HRS §235-97 (archived text): the calendar-year first payment voucher "shall be filed, in the case of taxpayers on the calendar year basis, on or before April 20"; "Thereafter, on the twentieth day of June and September, the taxpayer shall transmit with the payment voucher, payment of one-quarter of the estimated tax"; and "The fourth quarter payment of the estimated tax shall be transmitted with the payment voucher by January 20 of the year following the taxable year for which the estimate was made."
-- **GET interaction** — Hawaii self-employed individuals are also subject to GET on gross business income (see `hi-sales-tax` for the confirmed GET rates). GET is NOT the same as income tax. GET paid is a deductible business expense on federal Schedule C, reducing federal AGI and therefore Hawaii taxable income.
+- **Filing deadline** -- Taxpayers must file their tax year 2025 income tax returns by **April 20, 2026** (DOTAX tax-year-2025 information page: "Taxpayers must file their income tax returns by April 20, 2026. Although the law requires taxpayers to file by April 20, taxpayers are granted an automatic 6-month extension (no form is required to request the extension)"). The 6-month extension is granted if the taxpayer is due a refund, or pays the properly estimated tax amount owed by April 20, 2026.
+- **Quarterly estimated payment requirement** -- Self-employed individuals must make quarterly estimated payments if they expect to owe $500 or more: HRS §235-97 provides that "In the case of a taxpayer whose tax liability is less than $500, the filing of an estimate and the payment of estimated tax shall not be required."
+- **Voucher due dates** -- HRS §235-97 (archived text): the calendar-year first payment voucher "shall be filed, in the case of taxpayers on the calendar year basis, on or before April 20"; "Thereafter, on the twentieth day of June and September, the taxpayer shall transmit with the payment voucher, payment of one-quarter of the estimated tax"; and "The fourth quarter payment of the estimated tax shall be transmitted with the payment voucher by January 20 of the year following the taxable year for which the estimate was made."
+- **GET interaction** -- Hawaii self-employed individuals are also subject to GET on gross business income (see `hi-sales-tax` for the confirmed GET rates). GET is NOT the same as income tax. GET paid is a deductible business expense on federal Schedule C, reducing federal AGI and therefore Hawaii taxable income.
 
 ### Form mapping
 
@@ -246,10 +246,10 @@ expected:
 ## Ask the client first
 
 1. Filing status and which rate schedule applies (Schedule I vs Schedule II)?
-2. Any Hawaii modifications — out-of-state municipal bond interest, U.S. government interest, Social Security, pension exclusions?
-3. GET paid on gross business receipts — is it deducted once on Schedule C and not double-counted?
-4. Estimated payments and withholding so far — is the $500 estimated-tax test met?
-5. Part-year or nonresident status during the year — should this be Form N-15 instead of N-11?
+2. Any Hawaii modifications -- out-of-state municipal bond interest, U.S. government interest, Social Security, pension exclusions?
+3. GET paid on gross business receipts -- is it deducted once on Schedule C and not double-counted?
+4. Estimated payments and withholding so far -- is the $500 estimated-tax test met?
+5. Part-year or nonresident status during the year -- should this be Form N-15 instead of N-11?
 
 ## Sources
 
@@ -262,7 +262,7 @@ expected:
 | HRS §231-39 (penalties; ⅔%/month interest) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0231/HRS_0231-0039.htm | 2026-10-28 |
 | HRS §235-4 (residents/nonresidents scope) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0004.htm | 2026-10-28 |
 
-Not yet confirmed: the personal-exemption and dependent-exemption amounts for tax year 2025 (v0.2 listed $1,144 each — not extractable from the archived DOTAX pages this run); the gross-income filing thresholds by filing status (v0.2 listed $5,544/$6,688/$11,088/$12,232/$7,568); the refundable food/excise tax credit amount per exemption and its AGI cap (v0.2 listed $110 per exemption at federal AGI ≤ $50,000); the statutory citation for the Social Security exclusion; the IRC conformity date and the treatment of federal §168(k) bonus depreciation; the credit for taxes paid to other states; the current Hawaii minimum-wage figure used elsewhere in the pack; and the exact N-11 due-date and extension wording for tax years after 2025. None of these figures is asserted in the body because none could be tied to an archived primary source this run.
+Not yet confirmed: the personal-exemption and dependent-exemption amounts for tax year 2025 (v0.2 listed $1,144 each -- not extractable from the archived DOTAX pages this run); the gross-income filing thresholds by filing status (v0.2 listed $5,544/$6,688/$11,088/$12,232/$7,568); the refundable food/excise tax credit amount per exemption and its AGI cap (v0.2 listed $110 per exemption at federal AGI ≤ $50,000); the statutory citation for the Social Security exclusion; the IRC conformity date and the treatment of federal §168(k) bonus depreciation; the credit for taxes paid to other states; the current Hawaii minimum-wage figure used elsewhere in the pack; and the exact N-11 due-date and extension wording for tax years after 2025. None of these figures is asserted in the body because none could be tied to an archived primary source this run.
 
 <!-- openaccountants-cta-block -->
 
@@ -270,7 +270,7 @@ Not yet confirmed: the personal-exemption and dependent-exemption amounts for ta
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

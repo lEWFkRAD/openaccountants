@@ -39,7 +39,7 @@ Every person engaging in business activities in Hawaii, anyone with physical nex
 
 | Field | Value |
 | --- | --- |
-| Tax type | General Excise Tax (GET) — tax on the SELLER's gross income, not a traditional sales tax |
+| Tax type | General Excise Tax (GET) -- tax on the SELLER's gross income, not a traditional sales tax |
 | Tax authority | Hawaii Department of Taxation (DoTax) |
 | Portal | https://tax.hawaii.gov |
 | SST member | No |
@@ -85,8 +85,8 @@ The DOTAX page does not publish worked computation rules, and GET computation on
 
 ## Ask the client first
 
-1. Is the client registered for a GET license — and does it meet/exceed the $100,000 / 200-transaction economic-nexus threshold even without physical presence?
-2. Which activity codes apply — general, wholesale (0.50%), or insurance commissions (0.15%)?
+1. Is the client registered for a GET license -- and does it meet/exceed the $100,000 / 200-transaction economic-nexus threshold even without physical presence?
+2. Which activity codes apply -- general, wholesale (0.50%), or insurance commissions (0.15%)?
 3. Is the client on Oahu (0.5% county surcharge baked into the 4.5% rate)?
 4. Is GET being passed through to customers, and if so is the pass-through being recognized as additional gross income subject to GET again?
 5. Are exemptions being claimed only where the Schedules of GET Exemptions and Deductions actually provide them?
@@ -95,10 +95,10 @@ The DOTAX page does not publish worked computation rules, and GET computation on
 
 | Source | URL | Read on |
 |---|---|---|
-| Hawaii Department of Taxation — General Excise Tax (rates, county surcharge, wholesale and insurance-commission rates, economic nexus) | https://tax.hawaii.gov/get/ | 2026-10-28 |
+| Hawaii Department of Taxation -- General Excise Tax (rates, county surcharge, wholesale and insurance-commission rates, economic nexus) | https://tax.hawaii.gov/get/ | 2026-10-28 |
 | HRS §231-39 (penalties; ⅔%/month interest) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0231/HRS_0231-0039.htm | 2026-10-28 |
 
-Not yet confirmed: the HRS ch. 237 statutory rate section text (capitol.hawaii.gov rate-limited the ch. 237 pages this run, so rates are cited to the DOTAX tax-authority page); the destination-based sourcing statement (v0.2 asserted destination sourcing — not stated on the archived page); the ~4.166% effective pass-through rate (arithmetic, not published); specific category exemptions such as prescription drugs or groceries (governed by the Schedules of GET Exemptions and Deductions, not extracted this run); the current periodic-return due dates and the SST (Streamlined Sales Tax) non-membership statement (v0.2 assertion); and specific GET penalty provisions. None of these is asserted in the body because none could be tied to an archived primary source this run.
+Not yet confirmed: the HRS ch. 237 statutory rate section text (capitol.hawaii.gov rate-limited the ch. 237 pages this run, so rates are cited to the DOTAX tax-authority page); the destination-based sourcing statement (v0.2 asserted destination sourcing -- not stated on the archived page); the ~4.166% effective pass-through rate (arithmetic, not published); specific category exemptions such as prescription drugs or groceries (governed by the Schedules of GET Exemptions and Deductions, not extracted this run); the current periodic-return due dates and the SST (Streamlined Sales Tax) non-membership statement (v0.2 assertion); and specific GET penalty provisions. None of these is asserted in the body because none could be tied to an archived primary source this run.
 
 <!-- openaccountants-cta-block -->
 
@@ -106,7 +106,7 @@ Not yet confirmed: the HRS ch. 237 statutory rate section text (capitol.hawaii.g
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

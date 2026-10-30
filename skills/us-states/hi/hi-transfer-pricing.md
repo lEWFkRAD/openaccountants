@@ -2,7 +2,7 @@
 name: hi-transfer-pricing
 description: >
   Use this skill whenever asked about Hawaii transfer pricing and
-  related-party income allocation for tax year 2026 — three-factor
+  related-party income allocation for tax year 2026 -- three-factor
   apportionment (HRS §235-29), nonbusiness-income allocation (§235-24),
   the patent/copyright/trade-secret royalty exclusion (§235-7.3), and the
   §235-4.2 nexus presumption. Trigger on "Hawaii transfer pricing",
@@ -31,8 +31,8 @@ Hawaii has **no standalone transfer-pricing documentation statute**; related-par
 ## Who this applies to
 
 - Any corporation (or §235-4.2 presumed-nexus person) with unitary business income earned inside and outside Hawaii must apportion under §235-29 (archived text): "All business income shall be apportioned to this State by multiplying the income by a fraction, the numerator of which is the property factor plus the payroll factor plus the sales factor, and the denominator of which is three."
-- Groups shifting intangible income: §235-7.3 (archived text) excludes "amounts received by an individual or a qualified high technology business as royalties and other income derived from any patents, copyrights, and trade secrets" that are "owned by" and "arising out of" the qualified high technology business — a Hawaii-specific lever that changes where royalty income is worth booking.
-- Nonbusiness income: §235-24 (archived text) — "Rents and royalties from real or tangible personal property, capital gains, interest, dividends, or patent or copyright" royalties of a nonbusiness character are allocated (not apportioned), per the situs rules in §§235-25 to 235-27.
+- Groups shifting intangible income: §235-7.3 (archived text) excludes "amounts received by an individual or a qualified high technology business as royalties and other income derived from any patents, copyrights, and trade secrets" that are "owned by" and "arising out of" the qualified high technology business -- a Hawaii-specific lever that changes where royalty income is worth booking.
+- Nonbusiness income: §235-24 (archived text) -- "Rents and royalties from real or tangible personal property, capital gains, interest, dividends, or patent or copyright" royalties of a nonbusiness character are allocated (not apportioned), per the situs rules in §§235-25 to 235-27.
 
 ## Rates, bands and thresholds
 
@@ -49,21 +49,21 @@ The §235-30 property-factor computation details and §§235-31/235-32 payroll/s
 ## The taxable base
 
 - Business income: apportioned under §235-29. Nonbusiness income: allocated under §§235-24 to 235-27.
-- §235-7.3-excluded royalties leave the base entirely when the qualified-high-technology-business conditions are met (the definition of "qualified high technology business" is in §235-1 — see Not yet confirmed below).
+- §235-7.3-excluded royalties leave the base entirely when the qualified-high-technology-business conditions are met (the definition of "qualified high technology business" is in §235-1 -- see Not yet confirmed below).
 - Combined reporting: not found in the statute text read; Hawaii files on a separate-entity + apportionment basis (see Not yet confirmed below on current administrative practice).
 
 ## Deadlines and filing
 
-TP positions ride the corporate return calendar (Form N-30; estimated tax 4/20, 6/20, 9/20, 1/20 per the confirmed §235-97 calendar — see `hi-corporate-income-tax`). Assessment/adjustment windows under HRS ch. 231: see Not yet confirmed below.
+TP positions ride the corporate return calendar (Form N-30; estimated tax 4/20, 6/20, 9/20, 1/20 per the confirmed §235-97 calendar -- see `hi-corporate-income-tax`). Assessment/adjustment windows under HRS ch. 231: see Not yet confirmed below.
 
 ## Penalties and interest
 
-No TP-specific penalty statute was found in the text read. Underpayments from factor or allocation errors draw the §231-39 regime (failure-to-file 5%/month capped at 25%; negligence up to 25%; fraud up to 50%; late payment after timely filing up to 20%; interest at two-thirds of one per cent a month — archived §231-39 text; see `hi-corporate-income-tax` for exact quotes). Common failure modes: (1) assuming single-sales-factor apportionment — Hawaii is three-factor, so moving payroll/property matters; (2) booking royalties into a Hawaii holding company without qualifying under §235-7.3 and getting them apportioned in anyway; (3) missing the §235-4.2 presumption when restructuring away physical presence.
+No TP-specific penalty statute was found in the text read. Underpayments from factor or allocation errors draw the §231-39 regime (failure-to-file 5%/month capped at 25%; negligence up to 25%; fraud up to 50%; late payment after timely filing up to 20%; interest at two-thirds of one per cent a month -- archived §231-39 text; see `hi-corporate-income-tax` for exact quotes). Common failure modes: (1) assuming single-sales-factor apportionment -- Hawaii is three-factor, so moving payroll/property matters; (2) booking royalties into a Hawaii holding company without qualifying under §235-7.3 and getting them apportioned in anyway; (3) missing the §235-4.2 presumption when restructuring away physical presence.
 
 ## Cross-border points
 
-- Foreign groups: apportionment applies to the Hawaii share of unitary business income; water's-edge/combined issues — see Not yet confirmed below.
-- §235-7.3 exclusion interacts with federal §1202/§250 and GILTI planning; decoupling detail — see Not yet confirmed below.
+- Foreign groups: apportionment applies to the Hawaii share of unitary business income; water's-edge/combined issues -- see Not yet confirmed below.
+- §235-7.3 exclusion interacts with federal §1202/§250 and GILTI planning; decoupling detail -- see Not yet confirmed below.
 - The 7.25% nonresident realty withholding (§235-68(b), archived text: "every transferee shall deduct and withhold a tax equal to 7.25 per cent of the amount realized on the disposition of Hawaii real property") can catch cross-border property exits.
 
 ## Worked examples
@@ -87,7 +87,7 @@ expected:
 
 (The ÷3 formula is the confirmed §235-29 sentence; the factor values are hypothetical client facts.)
 
-### Example 2: same group books $1,200,000 trade-secret royalties (hypothetical client facts) through a Hawaii entity qualifying under §235-7.3 — the royalties leave the apportioned base
+### Example 2: same group books $1,200,000 trade-secret royalties (hypothetical client facts) through a Hawaii entity qualifying under §235-7.3 -- the royalties leave the apportioned base
 
 ```oa-check
 name: HI 235-7.3 royalty exclusion effect
@@ -108,8 +108,8 @@ expected:
 
 ## Ask the client first
 
-1. Are property and payroll footprints being modeled — Hawaii's three-factor formula rewards them unlike single-sales-factor States?
-2. Any royalty structures aimed at Hawaii: does the entity meet the §235-7.3 "qualified high technology business" conditions (definition in §235-1 — see Not yet confirmed below)?
+1. Are property and payroll footprints being modeled -- Hawaii's three-factor formula rewards them unlike single-sales-factor States?
+2. Any royalty structures aimed at Hawaii: does the entity meet the §235-7.3 "qualified high technology business" conditions (definition in §235-1 -- see Not yet confirmed below)?
 3. Is the nonbusiness vs business character of intangible income documented (allocation vs apportionment changes the answer)?
 4. Post-restructuring: does the §235-4.2 presumption still pull the group in (200+ transactions / $100,000)?
 
@@ -132,7 +132,7 @@ Not yet confirmed: the §235-30/31/32 factor computation details (the capitol.ha
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

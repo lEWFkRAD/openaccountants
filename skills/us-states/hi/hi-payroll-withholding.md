@@ -2,7 +2,7 @@
 name: hi-payroll-withholding
 description: >
   Use this skill whenever asked about Hawaii income-tax withholding for tax
-  year 2026 — HRS §§235-61 to 235-68: employer duty to withhold on wages,
+  year 2026 -- HRS §§235-61 to 235-68: employer duty to withhold on wages,
   quarterly returns with semi-weekly (over $40,000/yr) and monthly
   (over $5,000/yr) remittance tiers, and the 7.25% withholding on Hawaii real
   property sold by nonresidents. Trigger on "Hawaii withholding", "Hawaii
@@ -38,18 +38,18 @@ Hawaii income-tax withholding runs on HRS §§235-61 to 235-69. The withholding 
 
 | Item | Rule | Source |
 |---|---|---|
-| Withholding amount | rate that for the taxable year will yield the approximate tax liability, per withholding tables the department prescribes (§235-61) — "The certificate shall be in such form and contain such information as may be prescribed by the department." | §235-61, archived text |
+| Withholding amount | rate that for the taxable year will yield the approximate tax liability, per withholding tables the department prescribes (§235-61) -- "The certificate shall be in such form and contain such information as may be prescribed by the department." | §235-61, archived text |
 | Quarterly return | "make a return of such wages to the department of taxation on or before the fifteenth day of the calendar month following the close of each such quarter for which the taxes have been withheld" (§235-62) | §235-62, archived text |
-| Deposit tier — semi-weekly | "each employer whose liability for taxes withheld exceeds $40,000 annually shall remit the complete amount of tax withheld on a semi-weekly schedule" (§235-62) | §235-62, archived text |
-| Deposit tier — monthly | "each employer whose liability for taxes withheld exceeds $5,000 but does not exceed $40,000 annually shall remit the complete amount of tax withheld on a monthly schedule" (§235-62) | §235-62, archived text |
-| Deposit tier — with return | liability not over $5,000/yr follows the default quarterly-return remittance (the statute sets semi-weekly over $40,000 and monthly over $5,000; the base rule is remittance with the quarterly return) | §235-62, archived text (tiers) |
+| Deposit tier -- semi-weekly | "each employer whose liability for taxes withheld exceeds $40,000 annually shall remit the complete amount of tax withheld on a semi-weekly schedule" (§235-62) | §235-62, archived text |
+| Deposit tier -- monthly | "each employer whose liability for taxes withheld exceeds $5,000 but does not exceed $40,000 annually shall remit the complete amount of tax withheld on a monthly schedule" (§235-62) | §235-62, archived text |
+| Deposit tier -- with return | liability not over $5,000/yr follows the default quarterly-return remittance (the statute sets semi-weekly over $40,000 and monthly over $5,000; the base rule is remittance with the quarterly return) | §235-62, archived text (tiers) |
 | Nonresident wage withholding | §235-66 further withholdings by nonresident individuals and withholding on nonresident partners/beneficiaries (ch. 235 TOC) | TOC |
 | Annual reconciliation | §235-63 statements to employees (ch. 235 TOC) | TOC |
 
 ## The taxable base
 
 - Wages: "all remuneration for services" including non-cash value (§235-61 definitions).
-- Withheld wages are held in trust for the State; the employer is liable for amounts not remitted (§235-64 area of the ch. 235 withholding subchapter — see Not yet confirmed below for the trust-liability wording).
+- Withheld wages are held in trust for the State; the employer is liable for amounts not remitted (§235-64 area of the ch. 235 withholding subchapter -- see Not yet confirmed below for the trust-liability wording).
 
 ## Deadlines and filing
 
@@ -69,7 +69,7 @@ Hawaii income-tax withholding runs on HRS §§235-61 to 235-69. The withholding 
 
 ## Worked examples
 
-### Example 1: employer with $52,000 annual Hawaii withholding liability — deposit-schedule test (hypothetical client facts)
+### Example 1: employer with $52,000 annual Hawaii withholding liability -- deposit-schedule test (hypothetical client facts)
 
 ```oa-check
 name: HI withholding deposit tier test
@@ -104,9 +104,9 @@ expected:
 
 ## Ask the client first
 
-1. Which deposit tier applies — has annual liability crossed $5,000 or $40,000 mid-year?
+1. Which deposit tier applies -- has annual liability crossed $5,000 or $40,000 mid-year?
 2. Are quarterly returns filed by the 15th after each quarter even when deposits were made on schedule?
-3. Any Hawaii real-estate closings involving nonresident sellers — is the 7.25% withholding being collected by the transferee/closing agent?
+3. Any Hawaii real-estate closings involving nonresident sellers -- is the 7.25% withholding being collected by the transferee/closing agent?
 4. Are remote employees working in Hawaii on the Hawaii withholding tables?
 
 ## Sources
@@ -120,7 +120,7 @@ expected:
 | HRS §231-39 (penalty/interest amounts) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0231/HRS_0231-0039.htm | 2026-10-28 |
 | HRS ch. 235 table of contents (withholding sections §§235-61–69; §235-63 statements; §235-64.2) | https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-.htm | 2026-10-28 |
 
-Not yet confirmed: current form identifiers (HW-1 employee certificate, HW-3 nonresident certificate, HW-4 annual reconciliation — tax.hawaii.gov was unreachable for the forms pages this run); the withholding-table mechanics prescribed by the department; the §235-64 trust-liability wording; §235-68 exemption certificates and any dollar thresholds in later subsections; the current e-filing mandate; and the current N-15 instruction details for nonresident withholding. Each was flagged in v0.2 and has not been tied to an archived primary source, so no figure for them is asserted here.
+Not yet confirmed: current form identifiers (HW-1 employee certificate, HW-3 nonresident certificate, HW-4 annual reconciliation -- tax.hawaii.gov was unreachable for the forms pages this run); the withholding-table mechanics prescribed by the department; the §235-64 trust-liability wording; §235-68 exemption certificates and any dollar thresholds in later subsections; the current e-filing mandate; and the current N-15 instruction details for nonresident withholding. Each was flagged in v0.2 and has not been tied to an archived primary source, so no figure for them is asserted here.
 
 <!-- openaccountants-cta-block -->
 
@@ -128,7 +128,7 @@ Not yet confirmed: current form identifiers (HW-1 employee certificate, HW-3 non
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

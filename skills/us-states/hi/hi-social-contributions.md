@@ -2,7 +2,7 @@
 name: hi-social-contributions
 description: >
   Use this skill whenever asked about Hawaii employer/employee social
-  contributions for tax year 2026 — unemployment insurance (HRS ch. 383,
+  contributions for tax year 2026 -- unemployment insurance (HRS ch. 383,
   experience-rated employer contributions), temporary disability insurance
   (HRS ch. 392, employee contribution capped at 0.5% of weekly wages), and
   the Prepaid Health Care Act mandate (HRS ch. 393, coverage trigger at 86.67
@@ -39,33 +39,33 @@ Hawaii has no state payroll tax beyond income-tax withholding (see `hi-payroll-w
 
 | Regime | Who pays | Rate / base | Source status |
 |---|---|---|---|
-| UI contributions | Employer only | Experience-rated on a taxable wage base; rate schedules in §§383-66/383-68 (fund-solvency schedule + experience rating) | sections confirmed from the archived ch. 383 TOC; current wage base and rate ranges — see Not yet confirmed below |
-| UI special assessments | Employer | §§383-61.5 (fed-loan interest), 383-129 (employment & training assessment), 383-131 (UI technology assessment) | section titles read from the archived TOC; rates — see Not yet confirmed below |
-| TDI | Employee ≤ 0.5% of weekly wages; employer pays the balance | wage base = average annual wage ÷ 52, "multiplied by the factor 1.21, which amount the director shall cause to be published annually" (§392-43(b)(2), archived text); current dollar base — see Not yet confirmed below | verified rule |
-| TDI eligibility screen | — | §392-43 (archived text): "the employee has earned wages of at least $400 and has been in employment for at least fourteen weeks during each of which the employee has received remuneration in any form for twenty or more hours" | verified |
-| PREA | Employer (premiums may be shared; the employee-share cap in §393-13 — see Not yet confirmed below) | coverage trigger: monthly wages ≥ 86.67 × the minimum hourly wage (§393-11, archived text); minimum wage per HRS §387-2: "$16.00 per hour beginning January 1, 2026" | verified trigger and current minimum wage |
+| UI contributions | Employer only | Experience-rated on a taxable wage base; rate schedules in §§383-66/383-68 (fund-solvency schedule + experience rating) | sections confirmed from the archived ch. 383 TOC; current wage base and rate ranges -- see Not yet confirmed below |
+| UI special assessments | Employer | §§383-61.5 (fed-loan interest), 383-129 (employment & training assessment), 383-131 (UI technology assessment) | section titles read from the archived TOC; rates -- see Not yet confirmed below |
+| TDI | Employee ≤ 0.5% of weekly wages; employer pays the balance | wage base = average annual wage ÷ 52, "multiplied by the factor 1.21, which amount the director shall cause to be published annually" (§392-43(b)(2), archived text); current dollar base -- see Not yet confirmed below | verified rule |
+| TDI eligibility screen | -- | §392-43 (archived text): "the employee has earned wages of at least $400 and has been in employment for at least fourteen weeks during each of which the employee has received remuneration in any form for twenty or more hours" | verified |
+| PREA | Employer (premiums may be shared; the employee-share cap in §393-13 -- see Not yet confirmed below) | coverage trigger: monthly wages ≥ 86.67 × the minimum hourly wage (§393-11, archived text); minimum wage per HRS §387-2: "$16.00 per hour beginning January 1, 2026" | verified trigger and current minimum wage |
 
 ## The taxable base
 
-- UI: wages up to the taxable wage base (current base — see Not yet confirmed below); experience-rated per employer.
+- UI: wages up to the taxable wage base (current base -- see Not yet confirmed below); experience-rated per employer.
 - TDI: weekly wages, employee contribution capped at 0.5% of weekly wages (§392-43).
 - PREA: qualifying prepaid group health coverage for regular employees at or above the 86.67× minimum-wage trigger.
 
 ## Deadlines and filing
 
-- **UI:** quarterly contribution & wage reports and payments — §§383-70 (contributions; levy; returns; assessments) and 383-94 (records and reports) confirm the reporting architecture per the archived ch. 383 TOC; the current published quarterly due-date calendar — see Not yet confirmed below.
-- **TDI:** "withholding period shall be equal to the pay period" (§392-43, archived text); private-plan filings with DLIR — see Not yet confirmed below.
+- **UI:** quarterly contribution & wage reports and payments -- §§383-70 (contributions; levy; returns; assessments) and 383-94 (records and reports) confirm the reporting architecture per the archived ch. 383 TOC; the current published quarterly due-date calendar -- see Not yet confirmed below.
+- **TDI:** "withholding period shall be equal to the pay period" (§392-43, archived text); private-plan filings with DLIR -- see Not yet confirmed below.
 - **PREA:** continuous coverage obligation; no periodic filing unless seeking an exemption (§§393-17/393-18 in the archived ch. 393 TOC).
 
 ## Penalties and interest
 
-- UI: §383-73 (penalty for delinquency; remission) and §383-143 (general penalty) exist per the archived ch. 383 TOC; percentages — see Not yet confirmed below.
-- TDI: §392-42.5 and §392-47 (failure to maintain claims service / failure to give security) per the archived ch. 392 TOC; amounts — see Not yet confirmed below.
-- PREA: §§393-33/393-34 penalties; §393-24 noncomplying-employer liability per the archived ch. 393 TOC; amounts — see Not yet confirmed below.
+- UI: §383-73 (penalty for delinquency; remission) and §383-143 (general penalty) exist per the archived ch. 383 TOC; percentages -- see Not yet confirmed below.
+- TDI: §392-42.5 and §392-47 (failure to maintain claims service / failure to give security) per the archived ch. 392 TOC; amounts -- see Not yet confirmed below.
+- PREA: §§393-33/393-34 penalties; §393-24 noncomplying-employer liability per the archived ch. 393 TOC; amounts -- see Not yet confirmed below.
 
 ## Cross-border points
 
-- Remote workers physically working in Hawaii trigger PREA/TDI/UI obligations even for an out-of-State employer — Hawaii's definitions key off employment performed in the State (place-of-performance rules; see Not yet confirmed below for the §392-4 text).
+- Remote workers physically working in Hawaii trigger PREA/TDI/UI obligations even for an out-of-State employer -- Hawaii's definitions key off employment performed in the State (place-of-performance rules; see Not yet confirmed below for the §392-4 text).
 - Multi-State employers: UI is experience-rated per State; a Hawaii workforce with frequent claims raises the ch. 383 rate-schedule outcome (§§383-66/68).
 
 ## Worked examples
@@ -105,10 +105,10 @@ expected:
 ## Ask the client first
 
 1. Are UI quarterly contribution/wage reports filed for every Hawaii payroll, including remote employees working in Hawaii?
-2. Is TDI coverage via the state plan or an approved private plan — and is the employee contribution at or under 0.5% of weekly wages?
+2. Is TDI coverage via the state plan or an approved private plan -- and is the employee contribution at or under 0.5% of weekly wages?
 3. Does every regular employee at or above 86.67 × the minimum wage have qualifying PREA coverage? (At the §387-2 minimum wage of $16.00 per hour beginning January 1, 2026, the Example 2 oa-check computes the monthly trigger at $1,386.72.)
 4. Any exemption applications on file (ch. 393-17) and still valid?
-5. What is the employer's current experience rating and the current taxable wage base (not published in the archived sources — see Not yet confirmed below)?
+5. What is the employer's current experience rating and the current taxable wage base (not published in the archived sources -- see Not yet confirmed below)?
 
 ## Sources
 
@@ -130,7 +130,7 @@ Not yet confirmed: the current UI taxable wage base and contribution-rate ranges
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

@@ -2,7 +2,7 @@
 name: hi-corporate-income-tax
 description: >
   Use this skill whenever asked about Hawaii corporate income tax for tax
-  year 2026 — HRS ch. 235 subch. IV rates (4.4%/5.4%/6.4% graduated), Form
+  year 2026 -- HRS ch. 235 subch. IV rates (4.4%/5.4%/6.4% graduated), Form
   N-30, estimated tax under HRS §235-97, the §235-4.2 economic-nexus
   presumption, and three-factor apportionment under §235-29. Trigger on
   "Hawaii corporate income tax", "Hawaii N-30", "HRS 235-71", "Hawaii
@@ -25,13 +25,13 @@ depends_on:
 
 > **Source-cited draft.** Built from HRS §§235-4, 235-4.2, 235-29, 235-71, 235-71.5, 235-72, 235-97, 235-98, 235-104 and §231-39, read on capitol.hawaii.gov (runs of 2026-10-27 and 2026-10-28). No accountant has reviewed it. All outputs must be reviewed by a qualified tax professional before filing.
 
-Hawaii taxes corporations with a **graduated net-income tax under HRS chapter 235 part IV** — not a franchise or gross-receipts tax (the General Excise Tax is a separate seller-side excise; see `hi-sales-tax`). Rates, the apportionment formula, the nexus presumption, estimated-tax mechanics, and the penalty/interest provisions below are verified from the statute text archived in the Sources table.
+Hawaii taxes corporations with a **graduated net-income tax under HRS chapter 235 part IV** -- not a franchise or gross-receipts tax (the General Excise Tax is a separate seller-side excise; see `hi-sales-tax`). Rates, the apportionment formula, the nexus presumption, estimated-tax mechanics, and the penalty/interest provisions below are verified from the statute text archived in the Sources table.
 
 ## Who this applies to
 
-- Every "corporation" for HRS ch. 235 purposes, including professional corporations under HRS ch. 415A, and **corporations carrying on business in partnership** (HRS §235-72 — treated as the IRC treats them; text read 2026-10-27).
+- Every "corporation" for HRS ch. 235 purposes, including professional corporations under HRS ch. 415A, and **corporations carrying on business in partnership** (HRS §235-72 -- treated as the IRC treats them; text read 2026-10-27).
 - Resident corporations: entire income. Nonresident (foreign) corporations: Hawaii-source income only (HRS §235-4(b); text read 2026-10-27).
-- **Economic nexus presumption** (HRS §235-4.2): a person that lacks physical presence in the State is presumed to be systematically and regularly engaging in business — and therefore taxable — if during the current or preceding calendar year it (1) "engages in two hundred or more business transactions with persons within the State", or (2) its Hawaii-attributable gross income (or sales-factor numerator for a business within and without the State) "equals or exceeds $100,000".
+- **Economic nexus presumption** (HRS §235-4.2): a person that lacks physical presence in the State is presumed to be systematically and regularly engaging in business -- and therefore taxable -- if during the current or preceding calendar year it (1) "engages in two hundred or more business transactions with persons within the State", or (2) its Hawaii-attributable gross income (or sales-factor numerator for a business within and without the State) "equals or exceeds $100,000".
 - Real estate investment companies (RICs) and REITs are taxed under special subsections of §235-71 (text read 2026-10-27).
 
 ## Rates, bands and thresholds
@@ -60,7 +60,7 @@ The rates apply on a graduated (bracket) basis as written in the statute.
 
 ## Deadlines and filing
 
-- **Estimated tax** (HRS §235-97): corporations (including S corporations), estates, trusts, and individuals file estimated declarations and pay in **four installments** — for calendar-year taxpayers the first voucher is filed "on or before April 20", with payments due the twentieth day of June and September and the fourth-quarter payment "by January 20 of the year following the taxable year" (text read 2026-10-27). Fiscal-year taxpayers follow the equivalent pattern per §235-97. Estimated tax is not required "in the case of a taxpayer whose tax liability is less than $500" (§235-97(a)(6)).
+- **Estimated tax** (HRS §235-97): corporations (including S corporations), estates, trusts, and individuals file estimated declarations and pay in **four installments** -- for calendar-year taxpayers the first voucher is filed "on or before April 20", with payments due the twentieth day of June and September and the fourth-quarter payment "by January 20 of the year following the taxable year" (text read 2026-10-27). Fiscal-year taxpayers follow the equivalent pattern per §235-97. Estimated tax is not required "in the case of a taxpayer whose tax liability is less than $500" (§235-97(a)(6)).
 - **Returns** (§235-98): corporate returns are in the form the department prescribes and are authenticated by an authorized officer; the statute authorizes the department to grant extensions. The customary N-30 due date for calendar-year filers follows the ch. 235 estimated-tax calendar (April 20); see Not yet confirmed below on the current form-instruction due date.
 - The federal-conformity date and current administrative-rule citations: see Not yet confirmed below.
 
@@ -76,13 +76,13 @@ HRS §231-39, applied to income tax through §235-104 ("The penalties and intere
 | Timely-filed return, tax not completely paid within 60 days | "there shall be added to the unpaid tax an amount up to twenty per cent" |
 | Interest on underpayment | "interest on such amount at the rate of two-thirds of one per cent a month or fraction of a month" from the date prescribed for payment |
 
-Common failure modes: (1) treating the GET as the only Hawaii business tax and never filing N-30; (2) ignoring the §235-4.2 transaction-count nexus presumption for e-commerce/remote sellers; (3) applying single-sales-factor apportionment out of habit — Hawaii's statute is three-factor.
+Common failure modes: (1) treating the GET as the only Hawaii business tax and never filing N-30; (2) ignoring the §235-4.2 transaction-count nexus presumption for e-commerce/remote sellers; (3) applying single-sales-factor apportionment out of habit -- Hawaii's statute is three-factor.
 
 ## Cross-border points
 
 - Foreign corporations: Hawaii-source income only, apportioned under §235-29; the §235-4.2 presumption can create filing obligations with **no physical presence**.
-- Combined/group reporting: the statute text read does not impose mandatory combined reporting; unitary-group and related-party intangible planning detail — see Not yet confirmed below.
-- Federal conformity: ch. 235 adopts IRC provisions subject to listed non-operative sections (§§235-2.3, 235-2.35); the current conformity date — see Not yet confirmed below.
+- Combined/group reporting: the statute text read does not impose mandatory combined reporting; unitary-group and related-party intangible planning detail -- see Not yet confirmed below.
+- Federal conformity: ch. 235 adopts IRC provisions subject to listed non-operative sections (§§235-2.3, 235-2.35); the current conformity date -- see Not yet confirmed below.
 
 ## Worked examples
 
@@ -157,7 +157,7 @@ Not yet confirmed: the current-year federal IRC conformity date adopted by HRS �
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
