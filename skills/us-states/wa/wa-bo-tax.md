@@ -13,7 +13,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Washington Business and Occupation (B&O) tax
 
-## Scope and who this is for
+## Who this applies to
 
 Washington has no personal income tax on business profit. Instead it imposes the business and occupation (B&O) tax, a tax on gross receipts, on almost every person engaging in business in the state ([RCW 82.04.220](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.220)). This skill covers the **state** B&O tax for sole proprietors, freelancers and small companies, for **2026** reporting periods, with a short section for 2025 periods still being filed or amended. Figures are for 2026 reporting periods unless a line says otherwise.
 
@@ -33,7 +33,7 @@ Washington has no personal income tax on business profit. Instead it imposes the
 - specialized B&O classifications other than the four main ones (DOR lists more than 50);
 - financial institutions, select advanced computing businesses, hospitals and the high-grossing business surcharge (see "When to refuse or refer").
 
-## Ask the client first
+### Ask the client first
 
 - What does the business do, activity by activity? (Sells goods to end users, sells goods for resale, makes goods, provides services, licenses intangibles.)
 - Since 1 Oct 2025, does any service fall into the new retail-sale list (IT services, custom software, website development, advertising, temporary staffing, security, live presentations)? If yes, that income moves to Retailing B&O and sales tax applies. The list is narrower than it looks. One-on-one instruction such as tutoring, consulting or music lessons is not a live presentation ([DOR live presentations](https://dor.wa.gov/taxes-rates/live-presentations)). From 1 July 2026 ESSB 6346 also excludes music lessons whatever the number of participants, presentations by 501(c) nonprofits, before- and after-school care provided on site by elementary schools, and instruction incidental to an excluded performance ([DOR special notice](https://dor.wa.gov/forms-publications/publications-subject/special-notices/live-presentations-new-exclusions-retail-sales)). From the same date, staffing is not temporary staffing if it is used by hospital-based clinical providers to supplement their fulfillment of hospital contracts for professional services **and** is used for limited periods of time to supplement hospital staffing; both conditions must hold ([DOR special notice](https://dor.wa.gov/forms-publications/publications-subject/special-notices/temporary-staffing-services-modification-exclusion-retail-sales-staff-provided-hospitals)). Excluded services stay in Service and Other Activities (before- and after-school care: the Child Care classification; a nonprofit presentation that is an exempt fundraising activity is not taxed at all). The wa-sales-tax skill has the full lists.
@@ -44,7 +44,7 @@ Washington has no personal income tax on business profit. Instead it imposes the
 - Does the business both manufacture and sell the same goods (MATC)?
 - Which cities does it operate in (possible city B&O tax)?
 
-## The method, step by step
+### The method, step by step
 
 1. **Check the obligation to register.** Anyone engaging in a taxable business must hold a DOR registration certificate ([RCW 82.32.030](https://app.leg.wa.gov/RCW/default.aspx?cite=82.32.030)(1)). Unless the person is a firearms dealer as defined in RCW 9.41.010 (a dealer must always register), registration is not required only if **all** of these hold: B&O gross income from all activities is under $12,000 per year; public utility tax income is under $12,000 per year; the person does not have to collect or pay any other tax or fee to DOR (for example retail sales tax); and the person does not otherwise need a business license under chapter 19.02 RCW ([RCW 82.32.030](https://app.leg.wa.gov/RCW/default.aspx?cite=82.32.030)(2); [WAC 458-20-101](https://app.leg.wa.gov/WAC/default.aspx?cite=458-20-101)). A seller that must collect retail sales tax must register whatever its income.
 
@@ -170,7 +170,7 @@ The credit is claimed on the return's MATC schedule. Anything beyond a simple "m
 | Tax due twice the SBC maximum or more | No credit | [RCW 82.04.4451](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.4451)(3) |
 | City B&O tax | Separate, not administered by DOR; not on the state return | DOR city B&O tax page |
 
-## When to refuse or refer
+### When to refuse or refer
 
 Refer to a Washington tax professional, or ask DOR for a ruling, when:
 - the business belongs to an affiliated group near the $1,000,000 or $5,000,000 tier lines ([RCW 82.04.290](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.290)), or DOR has asked for an affiliate list;
@@ -271,16 +271,59 @@ DOR can waive late-return penalties only in qualifying circumstances, on request
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

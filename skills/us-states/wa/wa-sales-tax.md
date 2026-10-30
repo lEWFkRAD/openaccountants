@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Figures are for tax year 2026, as they stand on 25 September 2026. Local rates are quoted for the quarter 1 October to 31 December 2026 and change every quarter. A short section covers periods before 1 October 2025, when the service rules were different.
 
-## Scope and who this is for
+## Who this applies to
 
 - Businesses that sell goods, digital products or retail services to customers in Washington, and must decide what to charge, where the sale is sourced, and how to file.
 - Out-of-state sellers deciding whether they must register (remote sellers, marketplace sellers, marketplace facilitators).
@@ -28,7 +28,7 @@ Figures are for tax year 2026, as they stand on 25 September 2026. Local rates a
 
 Washington has no general personal or corporate income tax on business profits. A seller that collects sales tax usually also owes B&O tax on the same gross receipts, reported on the same excise tax return. The two are separate taxes: sales tax is collected from the customer, B&O tax is the seller's own cost.
 
-## Ask the client first
+### Ask the client first
 
 - Where is the business located, and does it have any physical presence in Washington (staff, inventory, office, property)?
 - If it is outside Washington: what were its combined gross receipts sourced or attributed to Washington in the current and the prior calendar year, counting all activities, marketplace sales and exempt sales?
@@ -42,7 +42,7 @@ Washington has no general personal or corporate income tax on business profits. 
 - Does it buy items for resale, and does it hold a current reseller permit? Does it accept reseller permits from customers?
 - Has it bought anything for use in Washington without paying Washington sales tax?
 
-## The method, step by step
+### The method, step by step
 
 1. **Decide whether the seller must register and collect.** A business with physical presence must register. An out-of-state seller must register if a threshold in the next section is met. If all its retail sales run through a marketplace facilitator that collects for it, it does not collect sales tax itself but still files for B&O tax if it meets a registration threshold.
 2. **Classify each sale.** Is it a retail sale of tangible personal property, a digital product, or a retail service? From 1 October 2025 the list of retail services is longer (see the ESSB 5814 section). Then check exclusions and exemptions (food, prescription drugs, resale, schools and libraries from 1 July 2026).
@@ -107,7 +107,7 @@ Marketplace facilitators must also send each seller a report of its Washington s
 
 DOR assigns the frequency when you register, based on estimated yearly business income; you can ask for a change. A business that does not collect retail sales tax and has B&O gross income under $125,000 a year (calendar years from 1 January 2023) may qualify for active non-reporting status. A seller that must collect sales tax does not qualify.
 
-## What is taxable: boundary and exception table
+### What is taxable: boundary and exception table
 
 ### Goods, food and health ([RCW 82.08.0293](https://app.leg.wa.gov/RCW/default.aspx?cite=82.08.0293))
 
@@ -199,9 +199,9 @@ Exceptions, sourced to the seller's location even when delivered: sales of motor
 - Sellers accepting permits must obtain valid documentation for each wholesale customer (they have up to 120 days from the sale to collect it) and keep it for five years. Without it, an audit reclassifies the sale as retail and the seller owes the sales tax.
 - A buyer without a permit can pay the tax and later take a "taxable amount for tax paid at source" deduction when reselling, or request a refund.
 
-## Worked cases ([DOR Q4 2026 rate flyer](https://dor.wa.gov/sites/default/files/2026-08/Q426_LSU-flyer-by-county.pdf))
+### Worked cases ([DOR Q4 2026 rate flyer](https://dor.wa.gov/sites/default/files/2026-08/Q426_LSU-flyer-by-county.pdf))
 
-Rates are the Q4 2026 combined rates from the table above. Amounts are illustrative.
+Rates are the Q4 2026 combined rates from the table above. Amounts are hypothetical.
 
 1. **Shipped sale.** A Seattle retailer sells a $1,000 laptop delivered to a customer in Spokane (city) on 5 November 2026. Destination sourcing applies: $1,000 × 9.1% = $91.00. If the customer instead collects it at the Seattle shop: $1,000 × 10.55% = $105.50.
 2. **Remote seller threshold.** An Oregon seller has no Washington presence. In 2026 its Washington sales are $80,000 direct plus $30,000 through a marketplace, $110,000 in all, and it passes $100,000 on 20 August 2026. $110,000 is more than $100,000, so it must register. It did not meet the test in 2025, so it starts collecting on 1 October 2026, the first month starting at least 30 days after 20 August. It deducts the marketplace sales on the return because the facilitator collects on them. Had its total been exactly $100,000, with no other link to Washington, the receipts test would not be met, because the test is more than $100,000.
@@ -212,7 +212,7 @@ Rates are the Q4 2026 combined rates from the table above. Amounts are illustrat
 7. **Reseller permit misuse.** A Seattle shop buys $1,000 of office supplies on its reseller permit. It owes $1,000 × 10.55% = $105.50 tax, plus a 50% penalty: $105.50 × 50% = $52.75.
 8. **Late payment.** A $2,000 sales tax payment due 25 November 2026 arrives on 10 December 2026: $2,000 × 9% = $180.00 penalty, plus interest. Paid after 31 December 2026 but by 31 January 2027, the total penalty is $2,000 × 19% = $380.00; paid later still, $2,000 × 29% = $580.00.
 
-## Filing and payment
+### Filing and payment
 
 ### Due dates ([DOR filing frequencies and due dates](https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates))
 
@@ -266,7 +266,7 @@ Interest also runs on unpaid tax, at a rate that changes every year ([DOR late f
 - Contracts signed before 1 October 2025: see worked case 4 for the transition.
 - Software as a service and other digital automated services, digital goods and prewritten software were already taxable before 1 October 2025.
 
-## When to refuse or refer
+### When to refuse or refer
 
 - Refer B&O tax classification, rates, credits and apportionment beyond the basic point that B&O applies too.
 - Refer cannabis, liquor, lodging, motor vehicle, car rental and tobacco taxes.
@@ -291,16 +291,59 @@ Interest also runs on unpaid tax, at a rate that changes every year ([DOR late f
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
