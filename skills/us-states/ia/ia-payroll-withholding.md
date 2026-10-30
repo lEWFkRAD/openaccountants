@@ -2,7 +2,7 @@
 name: ia-payroll-withholding
 description: >
   Use this skill whenever asked about Iowa income-tax withholding for tax
-  year 2026 — Iowa Code §422.16: the withholding-agent duty on Iowa residents
+  year 2026 -- Iowa Code §422.16: the withholding-agent duty on Iowa residents
   and nonresidents working in Iowa, quarterly/monthly/semimonthly remittance
   tiers, the $500 willful-failure civil penalty, and the PTE entity-level
   election under §422.16C. Trigger on "Iowa withholding", "Iowa W-4",
@@ -53,7 +53,7 @@ See also: `ia-income-tax`, `ia-cross-border`, `ia-social-contributions`.
 
 ## Deadlines and filing
 
-- Quarterly return: "A withholding agent required to deduct and withhold tax under subsection 2 shall file a return on or before the last day of the month following the quarterly period" (§422.16(4)) — Jan 31, Apr 30, Jul 31, Oct 31 for calendar quarters.
+- Quarterly return: "A withholding agent required to deduct and withhold tax under subsection 2 shall file a return on or before the last day of the month following the quarterly period" (§422.16(4)) -- Jan 31, Apr 30, Jul 31, Oct 31 for calendar quarters.
 - Deposits per the tier table above.
 - Estimated tax payments on behalf of certain nonresidents: agricultural-commodity election payments are due "on or before the last day of the first month after the end of the tax years of the nonresident" (§422.16(2)).
 
@@ -62,12 +62,12 @@ See also: `ia-income-tax`, `ia-cross-border`, `ia-social-contributions`.
 - **Personal liability:** "Every withholding agent who fails to withhold or pay to the department any sums required by this chapter to be withheld and paid, shall be personally, individually, and corporately liable to the state of Iowa" (§422.16(5)).
 - **$500 civil penalty per occurrence:** "a withholding agent required to furnish or file an income statement required by this chapter is subject to a civil penalty of five hundred dollars for each occurrence of" willful failure to furnish an income statement, willfully furnishing a false or fraudulent statement, and related willful failures (§422.16(11)(a)).
 - Overwithheld balances: "any balance of one dollar or more shall be refunded to the employee, nonresident, or other person with interest" (§422.16(10)(a)); under $1 only on written application within twelve months (§422.16(10)(b)).
-- The current ch. 421 interest rate on unpaid withholding — see Not yet confirmed.
+- The current ch. 421 interest rate on unpaid withholding -- see Not yet confirmed.
 
 ## Cross-border points
 
 - Nonresidents working in Iowa (commuters, seasonal agricultural workers): withholding applies under §422.16(2)(b) unless a §422.17 no-withholding certificate is in force (§422.17).
-- Reciprocal states: no archived statute text confirms a neighbour-reciprocity exemption — see Not yet confirmed.
+- Reciprocal states: no archived statute text confirms a neighbour-reciprocity exemption -- see Not yet confirmed.
 - Foreign owners of Iowa PTEs: the §422.16C election substitutes entity-level tax for composite filings (§422.16C(3)(b)).
 
 ## Worked examples
@@ -108,21 +108,21 @@ expected:
 
 ## Ask the client first
 
-- Which remittance tier applies month-by-month — the tiers flip on single-month spikes (§422.16(4))?
+- Which remittance tier applies month-by-month -- the tiers flip on single-month spikes (§422.16(4))?
 - Are quarterly returns filed even when deposits were current?
-- Any nonresident workers (commuters, seasonal, film) — §422.17 certificates or the §422.16C PTE election in place?
-- Willful income-statement failures carry a $500 civil penalty each (§422.16(11)(a)) — is W-2/income-statement issuance under control?
+- Any nonresident workers (commuters, seasonal, film) -- §422.17 certificates or the §422.16C PTE election in place?
+- Willful income-statement failures carry a $500 civil penalty each (§422.16(11)(a)) -- is W-2/income-statement issuance under control?
 
 ## Sources
 
 | Source | URL | Read on |
 |---|---|---|
 | Iowa Code §422.16 (withholding; remittance tiers; penalties; estimated tax) | https://www.legis.iowa.gov/docs/code/422.16.pdf | 2026-10-28 |
-| Iowa Code §422.16C (PTE election — entity-level tax — credit) | https://www.legis.iowa.gov/docs/code/422.16C.pdf | 2026-10-28 |
+| Iowa Code §422.16C (PTE election -- entity-level tax -- credit) | https://www.legis.iowa.gov/docs/code/422.16C.pdf | 2026-10-28 |
 | Iowa Code §422.17 (certificate authorizing payment without withholding) | https://www.legis.iowa.gov/docs/code/422.17.pdf | 2026-10-28 |
 | Iowa Code §422.19 (scope of nonresident tax) | https://www.legis.iowa.gov/docs/code/422.19.pdf | 2026-10-28 |
 
-Not yet confirmed: Iowa withholding form identifiers (the Iowa W-4 variant, the quarterly return form number, e-file thresholds) — the department's withholding pages returned 404/403 when archived and the current forms were not captured; whether the department has adjusted the remittance thresholds by rule; the current ch. 421 interest rate on unpaid withholding; any neighbour-state reciprocity agreements.
+Not yet confirmed: Iowa withholding form identifiers (the Iowa W-4 variant, the quarterly return form number, e-file thresholds) -- the department's withholding pages returned 404/403 when archived and the current forms were not captured; whether the department has adjusted the remittance thresholds by rule; the current ch. 421 interest rate on unpaid withholding; any neighbour-state reciprocity agreements.
 
 <!-- openaccountants-cta-block -->
 
@@ -130,7 +130,7 @@ Not yet confirmed: Iowa withholding form identifiers (the Iowa W-4 variant, the 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

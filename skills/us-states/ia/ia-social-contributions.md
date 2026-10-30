@@ -2,7 +2,7 @@
 name: ia-social-contributions
 description: >
   Use this skill whenever asked about Iowa employer social contributions
-  for tax year 2026 — unemployment insurance under Iowa Code ch. 96:
+  for tax year 2026 -- unemployment insurance under Iowa Code ch. 96:
   the any-quarter coverage test, employer-only contributions (§96.15 bars
   wage deductions to fund them), 1%/month late-payment interest, the
   0.1%-0.5% delinquent-report penalty ladder with a $35 minimum, the 50%
@@ -31,7 +31,7 @@ See also: `ia-payroll-withholding`.
 
 ## Who this applies to
 
-- **Covered employers (§96.1A(14)(a)):** for any calendar year after December 31, 2018, "'Employer' means ... any employing unit which in any calendar quarter in either the current or preceding calendar year paid wages for service in employment" — Iowa has no dollar/employee-count threshold for ordinary employers. **Agricultural** employers: covered when wages for agricultural labor reach "$20,000 or more" in a quarter, or with "ten or more individuals" employed on 20 different days in different weeks (§96.1A(14)(b)). **Domestic-service** employers: covered on "$1,000 or more" cash in a quarter (§96.1A(14)(d) area).
+- **Covered employers (§96.1A(14)(a)):** for any calendar year after December 31, 2018, "'Employer' means ... any employing unit which in any calendar quarter in either the current or preceding calendar year paid wages for service in employment" -- Iowa has no dollar/employee-count threshold for ordinary employers. **Agricultural** employers: covered when wages for agricultural labor reach "$20,000 or more" in a quarter, or with "ten or more individuals" employed on 20 different days in different weeks (§96.1A(14)(b)). **Domestic-service** employers: covered on "$1,000 or more" cash in a quarter (§96.1A(14)(d) area).
 - "Employing unit" includes "any individual or organization ... which has or subsequent to January 1, 1936, had in its employ one or more individuals performing services for it within this state"; multi-establishment employers are treated as a single unit (§96.1A(15)).
 - Once covered, the unit is subject for the whole calendar year: voluntary termination requires filing "prior to the fifteenth day of February of that year" when the prior year's liability tests were not met (§96.8(2)).
 - **Employee contribution: none.** "Any agreement by any individual in the employ of any person or concern to pay all or any portion of an employer's contributions ... shall be void. No employer shall directly or indirectly make or require or accept any deduction from wages to finance the employer's contributions"; violation "shall, for each offense, be guilty of a serious misdemeanor" (§96.15(1)).
@@ -58,7 +58,7 @@ See also: `ia-payroll-withholding`.
 ## Penalties and interest
 
 - **Interest:** "Any employer who fails to pay any contribution ... shall pay to the department in addition to the contribution, interest on the contribution at the rate of one percent per month and one-thirtieth of one percent for each day or fraction thereof computed from the date upon which the contribution should have been paid" (§96.14(1)).
-- **Delinquent/insufficient report penalty (§96.14(2)(c)-(d)):** the penalty "shall be computed based on total wages in the period for which the report was due" — 0.1% for days 1–60, 0.2% for 61–120, 0.3% for 121–180, 0.4% for 181–240, 0.5% for 241 or over; "A penalty shall not be less than thirty-five dollars for each delinquent or insufficient report." The insufficient-report penalty is "in addition to any penalty incurred for a delinquent report where the delinquent report is also insufficient" (§96.14(2)(b)).
+- **Delinquent/insufficient report penalty (§96.14(2)(c)-(d)):** the penalty "shall be computed based on total wages in the period for which the report was due" -- 0.1% for days 1–60, 0.2% for 61–120, 0.3% for 121–180, 0.4% for 181–240, 0.5% for 241 or over; "A penalty shall not be less than thirty-five dollars for each delinquent or insufficient report." The insufficient-report penalty is "in addition to any penalty incurred for a delinquent report where the delinquent report is also insufficient" (§96.14(2)(b)).
 - **Willful fraud:** an employer that "willfully failed to pay any contribution ... with intent to defraud the department ... shall in addition ... pay a contribution equal to fifty percent of the amount of such contribution" (§96.14(2)(e)); a dishonored payment also draws a $30 fee (§96.14(2)(f)).
 - **Benefit fraud by individuals:** a person making a false statement to obtain benefits "is guilty of a fraudulent practice as defined in sections 714.8 through 714.14" (§96.16(1)).
 
@@ -106,9 +106,9 @@ expected:
 
 ## Ask the client first
 
-- Are quarterly wage reports filed on time even with zero wages — the $35 minimum penalty applies per report (§96.14(2)(d))?
+- Are quarterly wage reports filed on time even with zero wages -- the $35 minimum penalty applies per report (§96.14(2)(d))?
 - Any remote or seasonal workers whose Iowa weeks create UI coverage mid-year (§96.1A(14))?
-- Is anyone deducting UI costs from wages — void and a serious misdemeanor under §96.15(1)?
+- Is anyone deducting UI costs from wages -- void and a serious misdemeanor under §96.15(1)?
 - Has the July 1 rate recomputation been checked for protestable benefit charging (§96.1A(7))?
 
 ## Sources
@@ -130,7 +130,7 @@ Not yet confirmed: the 2026 UI taxable wage base and contribution-rate ranges (s
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

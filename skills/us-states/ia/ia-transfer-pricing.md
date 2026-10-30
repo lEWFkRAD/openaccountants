@@ -2,7 +2,7 @@
 name: ia-transfer-pricing
 description: >
   Use this skill whenever asked about Iowa related-party pricing,
-  consolidated returns, and income allocation for tax year 2026 — Iowa
+  consolidated returns, and income allocation for tax year 2026 -- Iowa
   Code §422.36 fair-price and income-shifting adjustments, §422.37
   consolidated returns for IRC §1504(a) affiliated groups, §422.32
   business-income and commercial-domicile definitions, and the §422.17
@@ -36,7 +36,7 @@ See also: `ia-corporate-income-tax`, `ia-cross-border`.
 
 ## Rates, bands and thresholds
 
-- Restated or reallocated income carries the confirmed corporate graduated rates (5.5%/5.5%/9%/9.8% for tax years beginning on or after January 1, 2021 — §422.33(1)(a); see `ia-corporate-income-tax`).
+- Restated or reallocated income carries the confirmed corporate graduated rates (5.5%/5.5%/9%/9.8% for tax years beginning on or after January 1, 2021 -- §422.33(1)(a); see `ia-corporate-income-tax`).
 - The 90-day non-filing trigger: after "ninety days after the time prescribed in this subchapter for making such report or return, or for paying such tax or fee, the director may certify such fact to the secretary of state" (§422.40(1)), who may cancel a domestic corporation's articles or a foreign corporation's certificate of authority (§422.40(1)).
 
 ## The taxable base
@@ -106,10 +106,10 @@ expected:
 
 ## Ask the client first
 
-- Is the group an IRC §1504(a) affiliated group — and has the director ever demanded a consolidated Iowa return (§422.37)?
+- Is the group an IRC §1504(a) affiliated group -- and has the director ever demanded a consolidated Iowa return (§422.37)?
 - Intercompany goods/services/intangibles: is pricing documentation defensible against the §422.36(2)-(3) restatement powers?
 - Are all group members filing on the same consolidated basis for federal and Iowa (§422.37)?
-- Ninety days late on any corporate filing risks charter/authority cancellation under §422.40 — are filings current?
+- Ninety days late on any corporate filing risks charter/authority cancellation under §422.40 -- are filings current?
 
 ## Sources
 
@@ -131,7 +131,7 @@ Not yet confirmed: Iowa's apportionment formula (property/payroll/sales factors,
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

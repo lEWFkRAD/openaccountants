@@ -37,16 +37,16 @@ Authority: Iowa Department of Revenue. Currency: US dollars. Covers the state sa
 ## The taxable base
 
 - The base is the "sales price" of taxable retail sales (§423.2); enumerated services (utilities, admissions, etc.) are also taxed at 6% (§423.2(1)).
-- Transaction-pattern taxability (general TPP taxable; groceries, prescriptions, manufacturing equipment and resale per statutory exemptions in ch. 423) — verify each item against the current exemption list in §423.28 and department guidance.
+- Transaction-pattern taxability (general TPP taxable; groceries, prescriptions, manufacturing equipment and resale per statutory exemptions in ch. 423) -- verify each item against the current exemption list in §423.28 and department guidance.
 
 ## Deadlines and filing
 
 - Sellers collect the tax and add it to the sales price "as far as practicable" (§423.14(1)(a)); tax computations are carried to the third decimal place with rounding rules (§423.14(1)(b)).
-- Return and deposit frequencies are set by department rule for each permit holder — see Not yet confirmed.
+- Return and deposit frequencies are set by department rule for each permit holder -- see Not yet confirmed.
 
 ## Penalties and interest
 
-- Failure-to-file/failure-to-pay penalties and interest for sales tax run under general ch. 421/422 provisions — see Not yet confirmed.
+- Failure-to-file/failure-to-pay penalties and interest for sales tax run under general ch. 421/422 provisions -- see Not yet confirmed.
 
 ## Cross-border points
 
@@ -70,9 +70,9 @@ Iowa's check-examples convention for this pack is not to compute tax in this ski
 | Iowa Code §423.2 (state sales tax rate) | https://www.legis.iowa.gov/docs/code/423.2.pdf | 2026-10-28 |
 | Iowa Code §423.14A (remote sellers and marketplace facilitators; nexus threshold) | https://www.legis.iowa.gov/docs/code/423.14A.pdf | 2026-10-28 |
 | Iowa Code §423.14 (collection; rounding) | https://www.legis.iowa.gov/docs/code/423.14.pdf | 2026-10-28 |
-| IAC rule 701-107.2 (local option sales and service tax — rate not more than 1 percent) | https://www.legis.iowa.gov/docs/iac/rule/05-24-2006.701.107.2.pdf | 2026-10-28 |
+| IAC rule 701-107.2 (local option sales and service tax -- rate not more than 1 percent) | https://www.legis.iowa.gov/docs/iac/rule/05-24-2006.701.107.2.pdf | 2026-10-28 |
 
-Not yet confirmed: the item-by-item exemption list in §423.28 (grocery food, prescription drugs, manufacturing equipment, resale) and SaaS/digital-product taxability — not archived this run; the current department return/deposit frequency tiers; Iowa's Streamlined Sales Tax member status; sales-tax penalty and interest percentages; the current local option rates by jurisdiction.
+Not yet confirmed: the item-by-item exemption list in §423.28 (grocery food, prescription drugs, manufacturing equipment, resale) and SaaS/digital-product taxability -- not archived this run; the current department return/deposit frequency tiers; Iowa's Streamlined Sales Tax member status; sales-tax penalty and interest percentages; the current local option rates by jurisdiction.
 
 <!-- openaccountants-cta-block -->
 
@@ -80,7 +80,7 @@ Not yet confirmed: the item-by-item exemption list in §423.28 (grocery food, pr
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

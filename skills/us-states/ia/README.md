@@ -13,7 +13,7 @@ not_applicable: {}
 as_of: 2026-10-28
 ---
 
-# Iowa (US-IA) — pack map
+# Iowa (US-IA) -- pack map
 
 Iowa taxes individuals at a **flat 3.8%** (§422.5 as amended: "at a rate of three and eight-tenths percent", text read 2026-10-28), corporations at graduated **5.5%/5.5%/9%/9.8%** for tax years beginning on or after January 1, 2021, with a statutory receipts-trigger rate adjustment (§422.33, text read 2026-10-28), and sales at a 6% state rate (§423.2) plus a local option sales and service tax of not more than 1% where adopted. Employer social contributions are UI-only under ch. 96, employer-paid (wage deductions void under §96.15). State disability insurance and health-coverage mandates are not confirmed from archived statute text.
 
@@ -29,7 +29,7 @@ Iowa taxes individuals at a **flat 3.8%** (§422.5 as amended: "at a rate of thr
 | TP transfer pricing | corrected 2026-10-28 | `ia-transfer-pricing.md` | §422.36 fair-price/income-shifting + §422.37 consolidated verified; apportionment formula listed under Not yet confirmed |
 | XB cross-border | corrected 2026-10-28 | `ia-cross-border.md` | §422.19 receipt rule, §422.17 certificate, PTE verified; 1040NR mechanics listed under Not yet confirmed |
 
-All seven domains apply to Iowa — no not_applicable entries.
+All seven domains apply to Iowa -- no not_applicable entries.
 
 ## Key statutes (Iowa Code 2026, all text read from legis.iowa.gov 2026-10-28)
 
@@ -48,7 +48,7 @@ All seven domains apply to Iowa — no not_applicable entries.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **Source-cited draft.** Built from Iowa Code §§422.5 and 422.7 (Iowa Legislature, Iowa Code 2026) and the Iowa Department of Revenue's 2025 IA 1040 Expanded Instructions, read on 2026-10-28. No accountant has reviewed it. Do not file, pay, amend, or take a tax position from it without review by a qualified Iowa professional.
 
-Authority: Iowa Department of Revenue (IDR). Currency: US dollars. Covers Form IA 1040 for self-employed individuals and sole proprietors. Iowa's individual income tax is a flat 3.8% — SF 2442 (2024) completed the transition to the flat rate for tax years beginning on or after January 1, 2025.
+Authority: Iowa Department of Revenue (IDR). Currency: US dollars. Covers Form IA 1040 for self-employed individuals and sole proprietors. Iowa's individual income tax is a flat 3.8% -- SF 2442 (2024) completed the transition to the flat rate for tax years beginning on or after January 1, 2025.
 
 See also: `ia-cross-border`, `ia-payroll-withholding`, `ia-sales-tax`.
 
@@ -41,7 +41,7 @@ See also: `ia-cross-border`, `ia-payroll-withholding`, `ia-sales-tax`.
 
 - **Starting point:** Iowa net income is computed from federal AGI with Iowa adjustments under §422.7, then reduced by the Iowa standard or itemized deduction (IA 1040, line 1d) and the qualified business income deduction (IA 1040, line 1e): "Line 1e: Qualified business income deduction. Enter the qualified business income deduction as reported on federal 1040, line 13a." (2025 IA 1040 instructions).
 - **Social Security:** "Subtract, to the extent included, the amount of social security benefits taxable under section 86 of the Internal Revenue Code" (§422.7(8)).
-- **Retirement income:** "Subtract, to the extent included, the total amount received from a governmental or other pension or retirement plan, including defined benefit or defined contribution plans, annuities, individual retirement accounts, ..." received by a person who is "(1) Disabled. (2) Fifty-five years of age or older. (3) The surviving spouse of an individual ... who would have qualified" (§422.7(19)(a)) — the exclusion is not capped at $6,000 under the archived 2026 statute text. (not yet confirmed)
+- **Retirement income:** "Subtract, to the extent included, the total amount received from a governmental or other pension or retirement plan, including defined benefit or defined contribution plans, annuities, individual retirement accounts, ..." received by a person who is "(1) Disabled. (2) Fifty-five years of age or older. (3) The surviving spouse of an individual ... who would have qualified" (§422.7(19)(a)) -- the exclusion is not capped at $6,000 under the archived 2026 statute text. (not yet confirmed)
 - **Iowa capital gain deduction:** §422.7(21) excludes qualifying capital gains for a taxpayer "fifty-five years of age or older and who no longer materially participates in a farming business" and related qualifying property dispositions (§422.7(21)); the detailed eligibility conditions are listed under Not yet confirmed.
 - **QBI:** Iowa adds back federal below-the-line deductions in computing net income and allows the federal QBI deduction as a separate Iowa line (§422.7(2); IA 1040 line 1e per the instructions).
 
@@ -53,11 +53,11 @@ See also: `ia-cross-border`, `ia-payroll-withholding`, `ia-sales-tax`.
 
 ## Penalties and interest
 
-- Underpayment of estimated tax and late-filing/late-payment penalties run under ch. 421/422 general provisions — the current percentages are listed under Not yet confirmed (the instructions reference the IA 2210 penalty computation).
+- Underpayment of estimated tax and late-filing/late-payment penalties run under ch. 421/422 general provisions -- the current percentages are listed under Not yet confirmed (the instructions reference the IA 2210 penalty computation).
 
 ## Cross-border points
 
-- Part-year and nonresident allocation mechanics (the §422.8 allocation and the IA 1040NR) — see `ia-cross-border` and its Not yet confirmed items.
+- Part-year and nonresident allocation mechanics (the §422.8 allocation and the IA 1040NR) -- see `ia-cross-border` and its Not yet confirmed items.
 - Iowa wages of residents are subject to employer withholding under §422.16 (see `ia-payroll-withholding`).
 
 ## Worked examples
@@ -117,7 +117,7 @@ Not yet confirmed: the Iowa standard deduction and itemized-deduction amounts fo
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
