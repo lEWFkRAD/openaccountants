@@ -1,6 +1,6 @@
 ---
 name: sc-sales-tax
-description: "Use this skill whenever asked about South Carolina sales tax, South Carolina use tax, SC sales tax nexus, SC sales tax returns, SC exemption certificates, taxability of goods or services in South Carolina, or any request involving South Carolina state-level consumption taxes. Trigger on phrases like \"South Carolina sales tax\", \"SC sales tax\", \"SC use tax\", \"SC nexus\", \"S.C. Code 12-36\", \"SC DOR sales tax\", or any request involving South Carolina sales and use tax filing, classification, or compliance. NOTE: SC has a max tax cap of $500 on certain items (vehicles, boats, aircraft). ALWAYS read the parent us-sales-tax skill first for federal context."
+description: "Use this skill whenever asked about South Carolina sales tax, South Carolina use tax, SC sales tax nexus, SC sales tax returns, SC exemption certificates, taxability of goods or services in South Carolina, or any request involving South Carolina state-level consumption taxes. Trigger on phrases like \"South Carolina sales tax\", \"SC sales tax\", \"SC use tax\", \"SC nexus\", \"S.C. Code 12-36\", \"SC DOR sales tax\", or any request involving South Carolina sales and use tax filing, classification, or compliance. NOTE: SC has a max tax cap of (not yet confirmed) on certain items (vehicles, boats, aircraft). ALWAYS read the parent us-sales-tax skill first for federal context."
 jurisdiction: US-SC
 tax_year: 2025
 last_updated: 2026-10-28
@@ -205,9 +205,9 @@ A $50,000 vehicle in a county with 2% local tax: State tax = $500 (capped). Loca
 | Violation | Penalty | Authority |
 | --- | --- | --- |
 | Late filing | 5% per month, up to 25% | S.C. Code Section 12-54-43 |
-| Late payment | 0.5% per month, up to 25% | S.C. Code Section 12-54-43 |
+| Late payment | 0.5% per month, up to 25% | S.C. Code Section 12-54-43 | (not yet confirmed)
 | Failure to file | Estimated assessment + penalties | S.C. Code Section 12-54-44 |
-| Fraud | 75% of deficiency | S.C. Code Section 12-54-43 |
+| Fraud | 75% of deficiency | S.C. Code Section 12-54-43 | (not yet confirmed)
 | Interest | Federal underpayment rate | S.C. Code Section 12-54-25 |
 
 ## Step 4: Deductibility / Exemptions
@@ -266,7 +266,7 @@ A $50,000 vehicle in a county with 2% local tax: State tax = $500 (capped). Loca
 
 ### 4.3 Marketplace Facilitator Rules [T1]
 
-- **Marketplace facilitator collection duty** — Effective April 26, 2019: Marketplace facilitators meeting the nexus threshold must collect and remit. (T1)  _(S.C. Code Section 12-36-71(H))_
+- **Marketplace facilitator collection duty** — Effective April 26, 2019: Marketplace facilitators meeting the nexus threshold must collect and remit. (T1)  _(S.C. Code Section 12-36-71(H))_ (not yet confirmed)
 - **Marketplace sellers relieved** — Marketplace sellers relieved for facilitated sales. (T1)  _(S.C. Code Section 12-36-71(H))_
 
 ## Step 6: Filing Deadlines and Penalties
@@ -371,7 +371,7 @@ Refer to Step 3 for filing frequencies and due dates.
 
 ### Test 5: Economic Nexus [T1]
 
-**Question:** An out-of-state seller made $110,000 in SC sales and 50 transactions. Does the seller have nexus?
+**Question:** An out-of-state seller made $110,000 in SC sales and 50 transactions. Does the seller have nexus? (not yet confirmed)
 
 **Expected Answer:** Yes. SC uses a revenue-only threshold of $100,000. Transaction count is irrelevant.
 
@@ -383,7 +383,7 @@ Refer to Step 3 for filing frequencies and due dates.
 
 ### Test 7: Boat Purchase Cap [T1]
 
-**Question:** A customer buys a $200,000 boat in a county with 2% local tax. What is the total tax?
+**Question:** A customer buys a $200,000 boat in a county with 2% local tax. What is the total tax? (not yet confirmed)
 
 **Expected Answer:** State: $500 (capped). Local: $200,000 x 2% = $4,000. Total: $4,500. Without the cap, state tax alone would have been $12,000.
 
