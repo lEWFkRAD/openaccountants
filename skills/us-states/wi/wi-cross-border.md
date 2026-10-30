@@ -52,20 +52,20 @@ How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| WI rates | Graduated 3.5%–**7.65%** (2025 worksheet: $215,530+ flat 7.65%) | 1NPR instructions, read 2026-10-27 |
+| WI rates | Graduated 3.5%–**7.65%** (2025 worksheet: $215,530+ flat 7.65%) | 1NPR instructions, read 2026-10-27 | (not yet confirmed)
 | Reciprocal states | **IL, IN, KY, MI** — wages exempt for their full-year residents | 1NPR instructions, read 2026-10-27 |
 | Minnesota | **No agreement since 2009** — both-state filing | `wi-payroll` (2026-07-13) |
 | WI-source income | Services where performed; rents/royalties/gains from WI real or tangible property; business/farm conducted in WI | 1NPR instructions, read 2026-10-27 |
 | Credit for tax paid to another state | WI residents taxed by another state claim the credit (1NPR p. 126 section) | 1NPR instructions, read 2026-10-27 |
 | Nonresident credits | Homestead credit and EIT unavailable to nonresidents/part-year | 1NPR instructions, read 2026-10-27 |
-| Retirement subtraction (2025) | Age 67+: up to $24,000 retirement income subtraction | 1NPR instructions, read 2026-10-27 |
+| Retirement subtraction (2025) | Age 67+: up to $24,000 retirement income subtraction | 1NPR instructions, read 2026-10-27 | (not yet confirmed)
 | Exit tax | **None** | no WI statute imposes one |
 
 ### 4. Deadlines
 
 | Filing | Due |
 |---|---|
-| 1NPR | April 15 (calendar year); federal extension carries over |
+| 1NPR | April 15 (calendar year); federal extension carries over | (not yet confirmed)
 | Domicile questionnaire | With the return when moving out |
 | Estimated tax (Form 1-ES) | Quarterly if 2026 liability ≥ $1,000 (threshold not yet confirmed) |
 | Legal residence change notice | DOR Form MV300 with DMV when moving — not yet confirmed |
@@ -134,7 +134,7 @@ No treaty-like waiver exists with MN: the commuter files WI 1NPR, credits the MN
 
 ### 9. Sources
 
-- [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) — PDF read 2026-10-27 (source-income list, IL/IN/KY/MI exceptions, credit for tax paid to another state, part-year rules, 7.65% worksheet)
+- [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) — PDF read 2026-10-27 (source-income list, IL/IN/KY/MI exceptions, credit for tax paid to another state, part-year rules, 7.65% worksheet) (not yet confirmed)
 - `wi-payroll` (tier 2, read 2026-07-13) — MN non-reciprocity (terminated 2009), UI localization split, audit red flags
 - `wi-income-tax` (tier 2) — resident rates and brackets
 - **not yet confirmed:** 2026 1NPR instructions; exact 2026 bracket table; estimated-tax threshold; WI interest rate for 2026.

@@ -179,7 +179,7 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 ### 3.4 Vendor Discount
 
 - **Retailer's discount rate** — 0.5% of the tax due (both state and county), up to a maximum of $1,000 per reporting period. [T1] percent  _(Wis. Stat. Section 77.61(4)(a))_
-- **Discount availability condition** — Available only for timely filing and payment. [T1]  _(Wis. Stat. Section 77.61(4)(a))_
+- **Discount availability condition** — Available only for timely filing and payment. [T1]  _(Wis. Stat. Section 77.61(4)(a))_ (not yet confirmed)
 
 ### 3.5 Penalties and Interest
 
@@ -189,7 +189,7 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 | --- | --- | --- |
 | Late filing | $20 or 5% of tax due, whichever is greater (per month, up to 25%) | Wis. Stat. Section 77.60(1) |
 | Late payment | 1% per month, up to 24% | Wis. Stat. Section 77.60(2) |
-| Failure to file | Estimated assessment + penalties | Wis. Stat. Section 77.59(2) |
+| Failure to file | Estimated assessment + penalties | Wis. Stat. Section 77.59(2) | (not yet confirmed)
 | Fraud | 100% of deficiency | Wis. Stat. Section 77.60(9) |
 | Interest | 12% per year (adjusted) | Wis. Stat. Section 77.60(1) |
 
@@ -329,7 +329,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### Test 3: SaaS Taxability [T2]
 
-**Question:** A Wisconsin business subscribes to a $1,500/month SaaS HR platform. Is Wisconsin sales tax due?
+**Question:** A Wisconsin business subscribes to a $1,500/month SaaS HR platform. Is Wisconsin sales tax due? (not yet confirmed)
 
 **Expected Answer:** No. SaaS is not taxable in Wisconsin as it is not tangible personal property.
 
@@ -341,7 +341,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### Test 5: Economic Nexus [T1]
 
-**Question:** An out-of-state seller made $80,000 in sales and 500 transactions in Wisconsin. Does the seller have nexus?
+**Question:** An out-of-state seller made $80,000 in sales and 500 transactions in Wisconsin. Does the seller have nexus? (not yet confirmed)
 
 **Expected Answer:** No. Wisconsin uses a revenue-only threshold of $100,000. Transaction count is irrelevant.
 

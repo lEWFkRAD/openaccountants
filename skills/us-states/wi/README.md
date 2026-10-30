@@ -9,7 +9,7 @@ applicable: [IT-IND, IT-CORP, VAT, SC, PR, TP, XB]
 |---|---|
 | State | Wisconsin |
 | Code | US-WI |
-| Income tax | Yes (graduated 3.5%–7.65%) |
+| Income tax | Yes (graduated 3.5%–7.65%) | (not yet confirmed)
 | Sales tax | Yes (5% state + 0.5% county) |
 | Corporate tax | Yes — franchise tax 7.9% (income tax 7.9% for certain foreign corps), Form 4; economic development surcharge 3% |
 | Franchise / gross receipts tax | Franchise tax measured by income (Form 4); no gross-receipts tax |
@@ -51,8 +51,8 @@ Wisconsin's entity-level tax is a **franchise tax measured by income** (Wis. Sta
 ## Official sources
 - [2025 Form 4 instructions (IC-100)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) — PDF read 2026-10-27 (7.9% rate, ED surcharge 3%/$25/$9,800, combined tests, P.L. 86-272, 18% interest, single sales factor)
 - [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) — PDF read 2026-10-27 (WI-source rules, IL/IN/KY/MI exceptions, credit for tax paid to another state)
-- [Wis. Stat. ch. 71 §§ 71.21/71.26](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) — read 2026-10-27
-- `wi-payroll` (tier 2, read 2026-07-13) — UI $14,000 base, UCT-101 calendar, penalties, MN non-reciprocity
+- [Wis. Stat. ch. 71 §§ 71.21/71.26](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) — read 2026-10-27 (not yet confirmed)
+- `wi-payroll` (tier 2, read 2026-07-13) — UI $14,000 base, UCT-101 calendar, penalties, MN non-reciprocity (not yet confirmed)
 
 ## How to use
 Upload all `.md` files in this folder PLUS the federal skills from `skills/foundation/` and `skills/federal/` to your LLM. See the main README for details.

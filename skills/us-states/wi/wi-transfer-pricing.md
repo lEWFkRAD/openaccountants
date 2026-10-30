@@ -68,11 +68,11 @@ A corporation is in a **combined group** if it meets **all three tests**:
 ### 5. Penalties and interest
 
 - Same corporate regime as Form 4: **18% per year interest**, civil penalties up to 100% of unreported tax, criminal exposure for false returns (IC-100, read 2026-10-27).
-- **AUDIT FLASH POINT**: failing to combine when the three tests are met — family groups and stapled structures routinely miss Test 1's indirect/attribution rules; DOR re-billing plus 18% interest is the standard assessment pattern.
+- **AUDIT FLASH POINT**: failing to combine when the three tests are met — family groups and stapled structures routinely miss Test 1's indirect/attribution rules; DOR re-billing plus 18% interest is the standard assessment pattern. (not yet confirmed)
 
 ### 6. Cross-border
 
-- **Water's edge** is the group's foreign boundary: the 80%-active-foreign-income company and its foreign subsidiaries sit outside the combined group; their dividends/royalties then become **intercompany payments to non-members** — elimination stops and DOR scrutiny starts.
+- **Water's edge** is the group's foreign boundary: the 80%-active-foreign-income company and its foreign subsidiaries sit outside the combined group; their dividends/royalties then become **intercompany payments to non-members** — elimination stops and DOR scrutiny starts. (not yet confirmed)
 - US subsidiaries of foreign parents combine normally unless the water's edge test pulls the parent chain out.
 - Compare Pennsylvania (elective combined + § 7337 addback, `pa-transfer-pricing`) and Ohio (CAT consolidated/affiliated choice, `oh-transfer-pricing`).
 
@@ -122,14 +122,14 @@ Once the affiliate is outside the water's edge, the royalty leaves the group —
 
 - Map ownership with § 318 attribution — family groups miss the >50% voting test constantly.
 - Unitary indicators: shared services, intercompany leases/sales — document both directions.
-- Any member with 80%+ active foreign business income? That's the water's edge line.
+- Any member with 80%+ active foreign business income? That's the water's edge line. (not yet confirmed)
 - S corps/REITs in the structure: they file separately no matter what.
 - Who is the designated agent, and is the designation consistent year to year?
 
 ### 9. Sources
 
 - [2025 Form 4 instructions IC-100 (R. 10-25)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) — PDF read 2026-10-27 (three tests, 50% test, unitary indicators, water's edge, excluded entities, penalties)
-- Wis. Stat. § 71.255; Wis. Admin. Code Tax 2.61 — cited as summarized in IC-100 (statute text not separately fetched 2026-10-27)
+- Wis. Stat. § 71.255; Wis. Admin. Code Tax 2.61 — cited as summarized in IC-100 (statute text not separately fetched 2026-10-27) (not yet confirmed)
 - `wi-corporate-income-tax` (this pack) — rate/surcharge; `pa-transfer-pricing`, `oh-transfer-pricing` — state contrasts
 - **not yet confirmed:** Form 6 instructions (designation, consistency, combined schedules M-W); § 71.255 full text; combined NOL/credit rules.
 

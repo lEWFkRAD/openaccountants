@@ -55,14 +55,14 @@ Employer-side social contributions in Wisconsin: **unemployment insurance (UI)**
 | FUTA | 6.0% on $7,000; credit state status not yet confirmed | not yet confirmed |
 | Workers' comp | Manual rates by class, private carriers; state fund closed to most new business since 1996 | not yet confirmed for rate detail |
 
-**AUDIT FLASH POINT** — **misclassification**: the UI test requires Part A (no control) **plus six of nine** Part B factors; failing one required factor flips the worker to employee status. Fraudulent misclassification carries up to **$25,000 per worker** (2009 Wis. Act 292, § 108.221). A 1099 worker for IRS can still be a UI employee.
+**AUDIT FLASH POINT** — **misclassification**: the UI test requires Part A (no control) **plus six of nine** Part B factors; failing one required factor flips the worker to employee status. Fraudulent misclassification carries up to **$25,000 per worker** (2009 Wis. Act 292, § 108.221). A 1099 worker for IRS can still be a UI employee. (not yet confirmed)
 
 ### 4. Deadlines
 
 | Filing | Due |
 |---|---|
 | UCT-101 quarterly contribution & wage report (detail UCT-7823) | **Apr 30 / Jul 31 / Oct 31 / Jan 31** |
-| Electronic filing | Mandatory for 25+ workers or anyone e-filing Form 940 (Wis. Admin. Code DWD 110.04) |
+| Electronic filing | Mandatory for 25+ workers or anyone e-filing Form 940 (Wis. Admin. Code DWD 110.04) | (not yet confirmed)
 | Rate appeal | 15 days from notice (DWD) |
 | New employer registration | At first covered quarter trigger — register with DWD |
 | WC first report of injury | Employer report within 7 days of accident knowledge if >3-day disability or medical beyond first aid — not yet confirmed re-verify |
@@ -70,8 +70,8 @@ Employer-side social contributions in Wisconsin: **unemployment insurance (UI)**
 ### 5. Penalties and interest
 
 - Late UCT-101: **$50 minimum per quarter** (§ 108.22(1)(a)).
-- Late payment: **0.75% per month, compounded**.
-- Fraudulent misclassification: **up to $25,000 per misclassified worker** (§ 108.221).
+- Late payment: **0.75% per month, compounded**. (not yet confirmed)
+- Fraudulent misclassification: **up to $25,000 per misclassified worker** (§ 108.221). (not yet confirmed)
 - Uninsured WC employer: direct liability for benefits plus DIF assessments.
 
 ### 6. Cross-border
@@ -116,7 +116,7 @@ expected:
 
 ### 8. Ask the client
 
-- Which quarter triggers coverage ($1,500 test) — startups get caught retroactively.
+- Which quarter triggers coverage ($1,500 test) — startups get caught retroactively. (not yet confirmed)
 - Reserve-ratio report reviewed before the rate notice? Experience appeals are 15 days.
 - Every 1099 worker run through **both** nine-factor tests (UI and WC)?
 - Border commuters: UI localization vs PIT reciprocity split documented?

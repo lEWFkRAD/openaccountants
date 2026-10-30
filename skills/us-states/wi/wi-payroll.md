@@ -18,13 +18,13 @@ This Tier 2 content skill covers Wisconsin (WI) state payroll obligations for ta
 
 In scope:
 
-- Wisconsin Personal Income Tax (PIT) withholding under Wis. Stat. ch. 71 subch. X (§§ 71.63–71.83).
+- Wisconsin Personal Income Tax (PIT) withholding under Wis. Stat. ch. 71 subch. X (§§ 71.63–71.83). (not yet confirmed)
 - Form WT-4 (Employee's Wisconsin Withholding Exemption Certificate) and its interaction with federal Form W-4.
 - Form WT-6 (deposit report) and Form WT-7 (annual reconciliation).
 - Wisconsin Unemployment Insurance (UI) tax administered by the Department of Workforce Development (DWD) under Wis. Stat. ch. 108.
 - Reciprocal income tax agreements with Illinois, Indiana, Kentucky, and Michigan (Form W-220).
 - Worker classification under the Wisconsin 9-factor test (Wis. Stat. § 108.02(12)) and the federal common-law rules where they diverge.
-- New hire reporting under Wis. Stat. § 49.22(2dm).
+- New hire reporting under Wis. Stat. § 49.22(2dm). (not yet confirmed)
 - Final pay timing, workers' compensation coverage, and the Milwaukee local paid sick leave ordinance (Milwaukee County ordinance enacted 2024, effective 2025) — flagged as audit flash points.
 
 Out of scope:
@@ -41,46 +41,46 @@ This skill assumes a human reviewer credentialed under Circular 230 (EA, CPA, or
 
 ### 2.1 2025 Bracket Schedule
 
-**Single filers and Head-of-Household (2025)**  _(Wis. Stat. § 71.06(2e))_
+**Single filers and Head-of-Household (2025)**  _(Wis. Stat. § 71.06(2e))_ (not yet confirmed)
 
 | Bracket | Taxable Income (Single) | Marginal Rate |
 | --- | --- | --- |
-| 1 | $0 – $14,680 | 3.50% |
-| 2 | $14,681 – $29,370 | 4.40% |
-| 3 | $29,371 – $323,290 | 5.30% |
-| 4 | Over $323,290 | 7.65% |
+| 1 | $0 – $14,680 | 3.50% | (not yet confirmed)
+| 2 | $14,681 – $29,370 | 4.40% | (not yet confirmed)
+| 3 | $29,371 – $323,290 | 5.30% | (not yet confirmed)
+| 4 | Over $323,290 | 7.65% | (not yet confirmed)
 
-**Married Filing Jointly (2025)**  _(Wis. Stat. § 71.06(2e))_
+**Married Filing Jointly (2025)**  _(Wis. Stat. § 71.06(2e))_ (not yet confirmed)
 
 | Bracket | Taxable Income (MFJ) | Marginal Rate |
 | --- | --- | --- |
-| 1 | $0 – $19,580 | 3.50% |
-| 2 | $19,581 – $39,150 | 4.40% |
-| 3 | $39,151 – $431,060 | 5.30% |
-| 4 | Over $431,060 | 7.65% |
+| 1 | $0 – $19,580 | 3.50% | (not yet confirmed)
+| 2 | $19,581 – $39,150 | 4.40% | (not yet confirmed)
+| 3 | $39,151 – $431,060 | 5.30% | (not yet confirmed)
+| 4 | Over $431,060 | 7.65% | (not yet confirmed)
 
-**Married Filing Separately (2025)**  _(Wis. Stat. § 71.06(2e))_
+**Married Filing Separately (2025)**  _(Wis. Stat. § 71.06(2e))_ (not yet confirmed)
 
 | Bracket | Taxable Income (MFS) | Marginal Rate |
 | --- | --- | --- |
-| 1 | $0 – $9,790 | 3.50% |
-| 2 | $9,791 – $19,580 | 4.40% |
-| 3 | $19,581 – $215,530 | 5.30% |
-| 4 | Over $215,530 | 7.65% |
+| 1 | $0 – $9,790 | 3.50% | (not yet confirmed)
+| 2 | $9,791 – $19,580 | 4.40% | (not yet confirmed)
+| 3 | $19,581 – $215,530 | 5.30% | (not yet confirmed)
+| 4 | Over $215,530 | 7.65% | (not yet confirmed)
 
-- **Bracket source and act references** — Wisconsin has four brackets for tax year 2025 indexed annually for inflation under Wis. Stat. § 71.06(2e). Rates were last reset by 2023 Wis. Act 19 (the biennial budget) and the lower-bracket rate cuts in 2023 Wis. Act 1. Bracket figures are drawn from the DOR's annual indexing announcement published in late 2024 for tax year 2025. Always confirm against the current Pub 117 (Wisconsin Statutes — Withholding Tax Update) before producing year-end calculations.  _(Wis. Stat. § 71.06(2e); 2023 Wis. Act 19; 2023 Wis. Act 1; DOR Pub 117)_
+- **Bracket source and act references** — Wisconsin has four brackets for tax year 2025 indexed annually for inflation under Wis. Stat. § 71.06(2e). Rates were last reset by 2023 Wis. Act 19 (the biennial budget) and the lower-bracket rate cuts in 2023 Wis. Act 1. Bracket figures are drawn from the DOR's annual indexing announcement published in late 2024 for tax year 2025. Always confirm against the current Pub 117 (Wisconsin Statutes — Withholding Tax Update) before producing year-end calculations.  _(Wis. Stat. § 71.06(2e); 2023 Wis. Act 19; 2023 Wis. Act 1; DOR Pub 117)_ (not yet confirmed)
 
 ### 2.2 Supplemental Withholding Rate
 
-- **Supplemental wage flat withholding rate** — 7.65%  _(DOR rule / Pub 166, 2025 edition)_
+- **Supplemental wage flat withholding rate** — 7.65%  _(DOR rule / Pub 166, 2025 edition)_ (not yet confirmed)
 - **Supplemental wage aggregation option** — If the employer aggregates supplemental wages with regular wages and uses the percentage or wage-bracket method in Pub 166, no separate supplemental rate applies.  _(Pub 166, 2025 edition)_
 
 ### 2.3 Standard Deduction (used by WT-4 worksheet only)
 
-- **Single standard deduction and phase-out AGI** — $13,560 (phases out completely at AGI of $128,665)  _(WT-4 worksheet, 2025)_
-- **MFJ standard deduction and phase-out AGI** — $25,110 (phases out completely at AGI of $150,840)  _(WT-4 worksheet, 2025)_
-- **MFS standard deduction and phase-out AGI** — $11,930 (phases out completely at AGI of $71,605)  _(WT-4 worksheet, 2025)_
-- **HOH standard deduction** — $17,510  _(WT-4 worksheet, 2025)_
+- **Single standard deduction and phase-out AGI** — $13,560 (phases out completely at AGI of $128,665)  _(WT-4 worksheet, 2025)_ (not yet confirmed)
+- **MFJ standard deduction and phase-out AGI** — $25,110 (phases out completely at AGI of $150,840)  _(WT-4 worksheet, 2025)_ (not yet confirmed)
+- **MFS standard deduction and phase-out AGI** — $11,930 (phases out completely at AGI of $71,605)  _(WT-4 worksheet, 2025)_ (not yet confirmed)
+- **HOH standard deduction** — $17,510  _(WT-4 worksheet, 2025)_ (not yet confirmed)
 - **Employer treatment of standard deduction** — Employers do not compute the standard deduction directly — the wage-bracket and percentage tables in Pub 166 have it baked in. It matters only when an employee uses the WT-4 worksheet to claim additional exemptions.  _(Pub 166)_
 
 ### 2.4 Personal and Dependency Exemptions
@@ -92,11 +92,11 @@ This skill assumes a human reviewer credentialed under Circular 230 (EA, CPA, or
 
 ### 3.1 When Required
 
-- **WT-4 required at hire; W-4 insufficient; default withholding if not filed** — Every new employee must complete Form WT-4 on or before the first day of work. The federal Form W-4 alone is insufficient for Wisconsin withholding because: 1. WT-4 uses an allowance-based system that the federal W-4 abandoned in 2020. 2. WT-4 captures reciprocal-state residency declarations not present on W-4. 3. WT-4 includes the Wisconsin-specific "additional amount to be withheld" line. If an employee fails to file a WT-4, the employer must withhold as if the employee is single with zero exemptions (the most conservative posture, mandated by Wis. Admin. Code Tax § 2.93(2)).  _(Wis. Admin. Code Tax § 2.93(2))_
+- **WT-4 required at hire; W-4 insufficient; default withholding if not filed** — Every new employee must complete Form WT-4 on or before the first day of work. The federal Form W-4 alone is insufficient for Wisconsin withholding because: 1. WT-4 uses an allowance-based system that the federal W-4 abandoned in 2020. 2. WT-4 captures reciprocal-state residency declarations not present on W-4. 3. WT-4 includes the Wisconsin-specific "additional amount to be withheld" line. If an employee fails to file a WT-4, the employer must withhold as if the employee is single with zero exemptions (the most conservative posture, mandated by Wis. Admin. Code Tax § 2.93(2)).  _(Wis. Admin. Code Tax § 2.93(2))_ (not yet confirmed)
 
 ### 3.2 Allowance Structure
 
-- **WT-4 allowance value and comparison to federal** — Each WT-4 allowance reduces taxable wages by $700/year ($26.92 biweekly, $13.46 weekly). Compare this to the federal pre-TCJA $4,300 — Wisconsin allowances are roughly one-sixth as valuable. An employee who claims 4 federal allowances on a (pre-2020) W-4 cannot simply transfer that to WT-4: the equivalent Wisconsin claim depends on the personal exemption math, not on allowance count.  _(WT-4 form instructions)_
+- **WT-4 allowance value and comparison to federal** — Each WT-4 allowance reduces taxable wages by $700/year ($26.92 biweekly, $13.46 weekly). Compare this to the federal pre-TCJA $4,300 — Wisconsin allowances are roughly one-sixth as valuable. An employee who claims 4 federal allowances on a (pre-2020) W-4 cannot simply transfer that to WT-4: the equivalent Wisconsin claim depends on the personal exemption math, not on allowance count.  _(WT-4 form instructions)_ (not yet confirmed)
 
 ### 3.3 Reciprocal-State Box
 
@@ -112,16 +112,16 @@ AUDIT FLASH POINT — Reciprocal-State Misclassification. A common employer erro
 
 ### 4.1 Filing Frequency Determination
 
-**Filing Frequency Determination**  _(Wis. Admin. Code Tax § 2.04)_
+**Filing Frequency Determination**  _(Wis. Admin. Code Tax § 2.04)_ (not yet confirmed)
 
 | Annual WI Withholding | Frequency | Form |
 | --- | --- | --- |
-| Over $5,000 | Semi-monthly | WT-6 |
+| Over $5,000 | Semi-monthly | WT-6 | (not yet confirmed)
 | $1,200 – $5,000 | Monthly | WT-6 |
 | $300 – $1,199 | Quarterly | WT-6 |
 | Under $300 | Annually | WT-6 (filed with WT-7) |
 
-- **New employer default frequency** — New employers default to quarterly filing until DOR assigns a frequency based on actual liability, typically after the first full calendar year.  _(Wis. Admin. Code Tax § 2.04)_
+- **New employer default frequency** — New employers default to quarterly filing until DOR assigns a frequency based on actual liability, typically after the first full calendar year.  _(Wis. Admin. Code Tax § 2.04)_ (not yet confirmed)
 
 ### 4.2 Due Dates
 
@@ -162,14 +162,14 @@ Wisconsin has reciprocal income-tax agreements with four bordering states. Under
 
 ### 6.1 The Four Agreements
 
-**The Four Agreements**  _(Wis. Stat. § 71.05(2))_
+**The Four Agreements**  _(Wis. Stat. § 71.05(2))_ (not yet confirmed)
 
 | Reciprocal State | Statutory Basis (WI) | Form Filed by Employee |
 | --- | --- | --- |
-| Illinois | Wis. Stat. § 71.05(2) + IL 35 ILCS 5/302 | W-220 (to WI employer) / IL-W-5-NR (to IL employer) |
-| Indiana | Wis. Stat. § 71.05(2) + IN 6-3-5-1 | W-220 / WH-47 |
-| Kentucky | Wis. Stat. § 71.05(2) + KRS 141.070 | W-220 / 42A809 |
-| Michigan | Wis. Stat. § 71.05(2) + MCL 206.256 | W-220 / MI-W4 with reciprocity box |
+| Illinois | Wis. Stat. § 71.05(2) + IL 35 ILCS 5/302 | W-220 (to WI employer) / IL-W-5-NR (to IL employer) | (not yet confirmed)
+| Indiana | Wis. Stat. § 71.05(2) + IN 6-3-5-1 | W-220 / WH-47 | (not yet confirmed)
+| Kentucky | Wis. Stat. § 71.05(2) + KRS 141.070 | W-220 / 42A809 | (not yet confirmed)
+| Michigan | Wis. Stat. § 71.05(2) + MCL 206.256 | W-220 / MI-W4 with reciprocity box | (not yet confirmed)
 
 - **Minnesota non-reciprocity note** — Note: Minnesota and Wisconsin do NOT have a reciprocal agreement as of 2025. The MN-WI agreement was terminated in 2009 and has not been re-enacted despite periodic legislative proposals. Cross-border MN-WI workers must file in both states.  _(Section 6.1)_
 
@@ -200,7 +200,7 @@ When preparing a WI payroll for a multistate-border employer, flag these scenari
 
 ### 7.3 Tax Rates (2025 Schedule)
 
-**2025 UI Tax Rate Schedule D**  _(Schedule D, UI trust fund balance $1.2B–$1.4B)_
+**2025 UI Tax Rate Schedule D**  _(Schedule D, UI trust fund balance $1.2B–$1.4B)_ (not yet confirmed)
 
 | Reserve % of Payroll | Rate (Small Employer ≤ $500K Payroll) | Rate (Large Employer > $500K Payroll) |
 | --- | --- | --- |
@@ -242,7 +242,7 @@ AUDIT FLASH POINT — Contractor 9-Factor Test. Wisconsin DWD has aggressively p
 
 ### 8.4 The Wisconsin DOR Test (Income Tax Withholding)
 
-- **DOR uses federal common-law test for withholding** — For Wisconsin income tax withholding purposes (Wis. Stat. § 71.63(2)), Wisconsin uses the federal common-law test by reference. So a worker classified as a federal contractor (1099-NEC) is also a contractor for Wisconsin withholding — no WT-4 collection, no withholding, but issue a 1099-NEC. This creates a third-axis disconnect: a worker can simultaneously be a federal contractor (no W-2), a Wisconsin income-tax contractor (no WT-4), but a Wisconsin UI employee (pay UI on their wages). This is administrable but requires careful payroll-system configuration.  _(Wis. Stat. § 71.63(2))_
+- **DOR uses federal common-law test for withholding** — For Wisconsin income tax withholding purposes (Wis. Stat. § 71.63(2)), Wisconsin uses the federal common-law test by reference. So a worker classified as a federal contractor (1099-NEC) is also a contractor for Wisconsin withholding — no WT-4 collection, no withholding, but issue a 1099-NEC. This creates a third-axis disconnect: a worker can simultaneously be a federal contractor (no W-2), a Wisconsin income-tax contractor (no WT-4), but a Wisconsin UI employee (pay UI on their wages). This is administrable but requires careful payroll-system configuration.  _(Wis. Stat. § 71.63(2))_ (not yet confirmed)
 
 ## 9. Milwaukee Local Paid Sick Leave
 
@@ -277,8 +277,8 @@ AUDIT FLASH POINT — Milwaukee Local Stacking. Multiple stacking scenarios crea
 
 ### 10.4 Minimum Wage
 
-- **Wisconsin minimum wage** — $7.25/hour (matches federal; Wisconsin does not have a separate higher state minimum wage)  _(Wis. Stat. § 104.035)_
-- **Tipped minimum wage** — $2.33/hour (employer makes up the difference if tips don't fill the gap)  _(Wis. Stat. § 104.035)_
+- **Wisconsin minimum wage** — $7.25/hour (matches federal; Wisconsin does not have a separate higher state minimum wage)  _(Wis. Stat. § 104.035)_ (not yet confirmed)
+- **Tipped minimum wage** — $2.33/hour (employer makes up the difference if tips don't fill the gap)  _(Wis. Stat. § 104.035)_ (not yet confirmed)
 - **Local minimum wage preemption** — Local minimum wages: Wisconsin preempts local minimum wage ordinances under Wis. Stat. § 104.001 — so cities cannot set higher minimums. (This preemption is distinct from the paid-sick-leave preemption discussed in Section 9 and remains in effect.)  _(Wis. Stat. § 104.001)_
 
 ### 10.5 Wage Statement Requirements
@@ -289,29 +289,29 @@ AUDIT FLASH POINT — Milwaukee Local Stacking. Multiple stacking scenarios crea
 
 ### 11.1 Example A — Pure Wisconsin Employer
 
-**Facts:** Bratwurst & Sons, LLC is a Madison-based small manufacturer with 8 employees, all Wisconsin residents working solely in Madison. Annual payroll is $420,000. The company was formed in 2024 (new employer). One employee (Sarah) earns $52,000/year; another (James) earns $28,000/year.
+**Facts:** Bratwurst & Sons, LLC is a Madison-based small manufacturer with 8 employees, all Wisconsin residents working solely in Madison. Annual payroll is $420,000. The company was formed in 2024 (new employer). One employee (Sarah) earns $52,000/year; another (James) earns $28,000/year. (not yet confirmed)
 
 **Wisconsin PIT withholding for Sarah (single, claims 1 allowance on WT-4):**
 
-- Annual Wisconsin taxable wages: $52,000 − $13,560 (standard deduction baked into wage-bracket method) − $700 (1 allowance) = effectively $37,740 in computational taxable income for the wage-bracket method.
+- Annual Wisconsin taxable wages: $52,000 − $13,560 (standard deduction baked into wage-bracket method) − $700 (1 allowance) = effectively $37,740 in computational taxable income for the wage-bracket method. (not yet confirmed)
 - Apply bracket:
-  - 3.50% × $14,680 = $513.80
-  - 4.40% × ($29,370 − $14,680) = 4.40% × $14,690 = $646.36
-  - 5.30% × ($37,740 − $29,370) = 5.30% × $8,370 = $443.61
-  - Subtotal annual WI PIT: $1,603.77
-- Biweekly withholding (26 pay periods): $1,603.77 / 26 = **$61.68 per pay period**.
+  - 3.50% × $14,680 = $513.80 (not yet confirmed)
+  - 4.40% × ($29,370 − $14,680) = 4.40% × $14,690 = $646.36 (not yet confirmed)
+  - 5.30% × ($37,740 − $29,370) = 5.30% × $8,370 = $443.61 (not yet confirmed)
+  - Subtotal annual WI PIT: $1,603.77 (not yet confirmed)
+- Biweekly withholding (26 pay periods): $1,603.77 / 26 = **$61.68 per pay period**. (not yet confirmed)
 
 **Wisconsin UI for the company (new employer, non-construction):**
 
-- New employer rate: 3.05%
-- Wage base: $14,000 per employee
-- Sarah's UI subject wages (annual): min($52,000, $14,000) = $14,000
-- Sarah's annual UI: $14,000 × 3.05% = **$427.00**
-- James's UI subject wages (annual): min($28,000, $14,000) = $14,000
-- James's annual UI: $14,000 × 3.05% = **$427.00**
-- Total UI for these two employees: $854.00
+- New employer rate: 3.05% (not yet confirmed)
+- Wage base: $14,000 per employee (not yet confirmed)
+- Sarah's UI subject wages (annual): min($52,000, $14,000) = $14,000 (not yet confirmed)
+- Sarah's annual UI: $14,000 × 3.05% = **$427.00** (not yet confirmed)
+- James's UI subject wages (annual): min($28,000, $14,000) = $14,000 (not yet confirmed)
+- James's annual UI: $14,000 × 3.05% = **$427.00** (not yet confirmed)
+- Total UI for these two employees: $854.00 (not yet confirmed)
 
-**WT-6 filing frequency:** Based on $420,000 payroll and approximately $11,500–$13,000 expected annual Wisconsin withholding (assuming roughly 3% effective rate after deductions), the company is in the > $5,000 bracket = **semi-monthly filer**. As a new employer it starts as quarterly but DOR will reassign after the first full calendar year.
+**WT-6 filing frequency:** Based on $420,000 payroll and approximately $11,500–$13,000 expected annual Wisconsin withholding (assuming roughly 3% effective rate after deductions), the company is in the > $5,000 bracket = **semi-monthly filer**. As a new employer it starts as quarterly but DOR will reassign after the first full calendar year. (not yet confirmed)
 
 **Form WT-7 due:** January 31, 2026 with all eight W-2s attached. UI UCT-101 due quarterly.
 
@@ -323,10 +323,10 @@ AUDIT FLASH POINT — Milwaukee Local Stacking. Multiple stacking scenarios crea
 
 - David completes Form W-220 on his first day and gives it to the employer.
 - Employer suspends Wisconsin income tax withholding for David.
-- Employer is registered for Illinois withholding (because it has Illinois-resident employees), so it withholds Illinois income tax (4.95% flat rate, IL personal income tax) on David's wages.
+- Employer is registered for Illinois withholding (because it has Illinois-resident employees), so it withholds Illinois income tax (4.95% flat rate, IL personal income tax) on David's wages. (not yet confirmed)
 - David's W-2 for 2025:
-  - Box 1 (federal wages): $75,000
-  - Box 15: IL (state), $75,000 in Box 16, IL tax in Box 17 of approximately $3,712.50
+  - Box 1 (federal wages): $75,000 (not yet confirmed)
+  - Box 15: IL (state), $75,000 in Box 16, IL tax in Box 17 of approximately $3,712.50 (not yet confirmed)
   - No Wisconsin reporting on the W-2 (or a $0 line with WI code in Box 15 if multistate format).
 - David files an Illinois Form IL-1040 to reconcile. He does NOT file a Wisconsin return.
 
@@ -347,7 +347,7 @@ AUDIT FLASH POINT — Milwaukee Local Stacking. Multiple stacking scenarios crea
 
 ### 11.3 Example C — Contractor Classification Audit
 
-**Facts:** Lakefront Web Design LLC (Milwaukee-based, 4 employees on W-2) engages Maya, a freelance graphic designer in Madison, to produce 10 logos per year on a contract basis. Lakefront pays Maya $48,000/year on a 1099-NEC. Maya works from her own home studio, uses her own laptop and software, and has 5 other clients. She advertises on Instagram and a personal portfolio site. The contract specifies she is responsible for delivering each logo and reworks any client doesn't approve at no extra charge.
+**Facts:** Lakefront Web Design LLC (Milwaukee-based, 4 employees on W-2) engages Maya, a freelance graphic designer in Madison, to produce 10 logos per year on a contract basis. Lakefront pays Maya $48,000/year on a 1099-NEC. Maya works from her own home studio, uses her own laptop and software, and has 5 other clients. She advertises on Instagram and a personal portfolio site. The contract specifies she is responsible for delivering each logo and reworks any client doesn't approve at no extra charge. (not yet confirmed)
 
 **Federal classification:** Maya is an independent contractor under IRS common-law (behavioral, financial, type of relationship control factors all favor contractor status). Issue 1099-NEC.
 
@@ -366,37 +366,37 @@ Part B (need 6 of 9):
 | 3 | Multiple contracts | YES — 5 other clients ✓ |
 | 4 | Incurs main expenses | YES — software licenses, computer, home studio ✓ |
 | 5 | Responsible for satisfactory completion | YES — contract specifies rework obligation ✓ |
-| 6 | Compensation per-job, commission, or bid | YES — $4,800 per logo, per-job basis ✓ |
+| 6 | Compensation per-job, commission, or bid | YES — $4,800 per logo, per-job basis ✓ | (not yet confirmed)
 | 7 | May realize profit or suffer loss | YES — fixed-price contracts can be unprofitable ✓ |
 | 8 | Recurring business liabilities | YES — software subscriptions, hosting, business insurance ✓ |
 | 9 | Success depends on receipts vs expenditures | YES — Maya runs a profit/loss business ✓ |
 
-Result: 9 of 9 factors satisfied — Maya is correctly classified as a contractor for Wisconsin UI purposes. No UI tax due on Maya's $48,000.
+Result: 9 of 9 factors satisfied — Maya is correctly classified as a contractor for Wisconsin UI purposes. No UI tax due on Maya's $48,000. (not yet confirmed)
 
-**Wisconsin Workers' Compensation classification (separate 9-factor test):** Apply Wis. Stat. § 102.07(8). Similar analysis yields the same result — Maya is a contractor for WC purposes. No WC coverage required.
+**Wisconsin Workers' Compensation classification (separate 9-factor test):** Apply Wis. Stat. § 102.07(8). Similar analysis yields the same result — Maya is a contractor for WC purposes. No WC coverage required. (not yet confirmed)
 
 **Wisconsin income tax withholding:** Federal common-law applies — Maya is a contractor, so no WT-4, no withholding, no W-2. Issue 1099-NEC with Wisconsin filing through WT-7 e-file.
 
 **Milwaukee paid sick leave:** Not applicable to contractors. Maya is excluded from the Milwaukee ordinance because she is not an "employee" performing work in Milwaukee.
 
-**Contrast — borderline scenario:** If Maya instead worked 40 hours/week exclusively for Lakefront, had no other clients, used Lakefront's design software accessed via Lakefront-provided credentials, and was paid hourly, she would fail Part A (control) and likely fewer than 6 Part B factors. Classification would flip to employee — even though many such workers are wrongly issued 1099-NEC. Penalty exposure under § 108.221: up to $25,000 per misclassified worker, plus back UI tax for the open audit period (3 years generally; 6 years if substantial under-reporting).
+**Contrast — borderline scenario:** If Maya instead worked 40 hours/week exclusively for Lakefront, had no other clients, used Lakefront's design software accessed via Lakefront-provided credentials, and was paid hourly, she would fail Part A (control) and likely fewer than 6 Part B factors. Classification would flip to employee — even though many such workers are wrongly issued 1099-NEC. Penalty exposure under § 108.221: up to $25,000 per misclassified worker, plus back UI tax for the open audit period (3 years generally; 6 years if substantial under-reporting). (not yet confirmed)
 
 ### 12. Provenance and Sources
 
 Primary authority cited in this skill:
 
 - **Wisconsin Statutes:**
-  - Ch. 71 (Income Taxation) — §§ 71.05, 71.06, 71.07, 71.63, 71.64, 71.65, 71.82, 71.83
-  - Ch. 102 (Workers' Compensation) — §§ 102.04, 102.07
-  - Ch. 103 (Employment Regulations) — § 103.10
+  - Ch. 71 (Income Taxation) — §§ 71.05, 71.06, 71.07, 71.63, 71.64, 71.65, 71.82, 71.83 (not yet confirmed)
+  - Ch. 102 (Workers' Compensation) — §§ 102.04, 102.07 (not yet confirmed)
+  - Ch. 103 (Employment Regulations) — § 103.10 (not yet confirmed)
   - Ch. 104 (Minimum Wage) — §§ 104.001, 104.035
   - Ch. 108 (Unemployment Insurance) — §§ 108.02, 108.18, 108.22, 108.221, 108.24
-  - Ch. 109 (Wage Payments) — §§ 109.03, 109.09, 109.11
-  - § 49.22 (New Hire Reporting)
+  - Ch. 109 (Wage Payments) — §§ 109.03, 109.09, 109.11 (not yet confirmed)
+  - § 49.22 (New Hire Reporting) (not yet confirmed)
 
 - **Wisconsin Administrative Code:**
-  - Tax 2.04 (Withholding Deposit Frequency)
-  - Tax 2.93 (WT-4 Submission)
+  - Tax 2.04 (Withholding Deposit Frequency) (not yet confirmed)
+  - Tax 2.93 (WT-4 Submission) (not yet confirmed)
   - DWD 110 (Unemployment Compensation E-Filing)
 
 - **Wisconsin DOR Publications (2025):**

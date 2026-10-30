@@ -42,7 +42,7 @@ Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4
 - **Income tax:** only foreign corporations **not** subject to the franchise tax that own property in Wisconsin or whose Wisconsin business is **exclusively in foreign or interstate commerce** — the P.L. 86-272 pocket.
 - **"Doing business" triggers** (per IC-100): selling lottery prizes; issuing credit/debit cards to Wisconsin customers; regularly selling to Wisconsin customers who receive in Wisconsin; regularly soliciting business in Wisconsin — **except where P.L. 86-272 protects** solicitation of orders for tangible personal property.
 - **Always-file rule:** multistate corporations, Wisconsin-only corporations, domestic insurers, and unlicensed corporations must file even absent "doing business."
-- **Exempt entities** (secs. 71.26(1)/71.45(1)): insurers exempt under IRC §501(c)(15), completely inactive corporations that filed Form 4H, certain credit unions that filed Form CU, and others.
+- **Exempt entities** (secs. 71.26(1)/71.45(1)): insurers exempt under IRC §501(c)(15), completely inactive corporations that filed Form 4H, certain credit unions that filed Form CU, and others. (not yet confirmed)
 - **S corporations:** Form 5S; REITs/RICs/REMICs/FASITs file separately and can never join a combined group.
 
 ## 3. Rates and base
@@ -54,8 +54,8 @@ Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4
 | Base start | Federal taxable income **before NOL deduction and special deductions** (Form 1120 line 28), modified per Schedule M | IC-100, read 2026-10-27 |
 | Economic development surcharge | **3% of franchise/income tax before credits; min $25, max $9,800** | IC-100, read 2026-10-27 |
 | Apportionment | **Single sales factor** (WI sales / total sales), Schedule A-01 Part I; specialized industries use A-02…A-09 | IC-100, read 2026-10-27 |
-| S corp | Form 5S; owners at 3.5%–7.65% individual rates | IC-100 + `wi-income-tax` |
-| Urban transit | Special tax under sec. 71.39 | IC-100, read 2026-10-27 |
+| S corp | Form 5S; owners at 3.5%–7.65% individual rates | IC-100 + `wi-income-tax` | (not yet confirmed)
+| Urban transit | Special tax under sec. 71.39 | IC-100, read 2026-10-27 | (not yet confirmed)
 
 ### 4. Deadlines
 
@@ -68,7 +68,7 @@ Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4
 
 ### 5. Penalties and interest
 
-- **Interest on delinquent taxes: 18% per year** — one of the highest in the country. **AUDIT FLASH POINT.**
+- **Interest on delinquent taxes: 18% per year** — one of the highest in the country. **AUDIT FLASH POINT.** (not yet confirmed)
 - Civil penalties up to **100% of unreported tax** for negligence/fraud; false-return criminal exposure: fine up to $10,000 and imprisonment.
 - Reportable-transaction non-disclosure penalties per IC-100.
 
@@ -132,7 +132,7 @@ expected:
 ### 9. Sources
 
 - [2025 Form 4 instructions IC-100 (R. 10-25)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) — PDF read 2026-10-27 (all quoted figures)
-- [Wis. Stat. § 71.21 et seq.](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) — read 2026-10-27
+- [Wis. Stat. § 71.21 et seq.](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) — read 2026-10-27 (not yet confirmed)
 - `wi-transfer-pricing` (this pack) — combined reporting; `wi-income-tax` — S corp owner rates
 - **not yet confirmed:** 2026 Form 4 instructions (not published at read time); Form 4ES estimate thresholds; insurance premiums tax (sec. 71.35) detail.
 

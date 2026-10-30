@@ -200,7 +200,7 @@ DOR sets each filer's frequency: early monthly, monthly, quarterly or annual. Th
 
 ### 5.2 Due dates and how to file
 
-- Returns are due by the last day of the month after the end of the reporting period. Early monthly filers file by the 20th of the month after the period (a February return is due March 20). When the due date falls on a weekend or legal holiday, it moves to the next business day. [T1]
+- Returns are due by the last day of the month after the end of the reporting period. Early monthly filers file by the 20th of the month after the period (a February return is due March 20). When the due date falls on a weekend or legal holiday, it moves to the next business day. [T1] (not yet confirmed)
 - File through My Tax Account or TeleFile; electronic filing is mandated for all sales and use tax registrants ([S-203](https://www.revenue.wi.gov/DORforms/s-203.pdf)). Electronic returns and ACH debit payments must be received by 4:00 p.m. (CST) on the due date. [T1]
 - A return is due for every period, even with no tax to report. Report all locations on one consolidated Form ST-12; report county and city tax on Schedule CT. Keep a copy of each return for at least four years ([S-114](https://www.revenue.wi.gov/DORForms/S-114.pdf)). [T1]
 - Extension: DOR may grant one additional month from the original due date. Tax unpaid by the original due date carries interest during the extension and a higher rate after it (table below). [T1]

@@ -25,13 +25,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Jurisdiction code** — US-WI
 - **Tax type** — Individual income tax
 - **Rate structure** — Graduated (4 brackets)
-- **Rate range** — 3.50% – 7.65%
+- **Rate range** — 3.50% – 7.65% (not yet confirmed)
 - **Primary form** — Form 1 (Wisconsin Income Tax Return)
 - **Governing statute** — Wisconsin Statutes Chapter 71
 - **Tax authority** — Wisconsin Department of Revenue (DOR)
 - **Filing portal** — https://www.revenue.wi.gov
 - **Tax year covered** — 2025 (filed 2026) and 2026 (filed 2027)
-- **Last updated** — May 22, 2026
+- **Last updated** — May 22, 2026 (not yet confirmed)
 
 ### Sources
 
@@ -59,10 +59,10 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Taxable income bracket | Marginal rate |
 | --- | --- |
-| $0 – $14,680 | 3.50% |
-| $14,681 – $50,480 | 4.40% |
-| $50,481 – $323,290 | 5.30% |
-| $323,291 and above | 7.65% |
+| $0 – $14,680 | 3.50% | (not yet confirmed)
+| $14,681 – $50,480 | 4.40% | (not yet confirmed)
+| $50,481 – $323,290 | 5.30% | (not yet confirmed)
+| $323,291 and above | 7.65% | (not yet confirmed)
 
 ### Tax brackets — Married filing jointly (2025 and 2026)
 
@@ -70,10 +70,10 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Taxable income bracket | Marginal rate |
 | --- | --- |
-| $0 – $19,580 | 3.50% |
-| $19,581 – $67,300 | 4.40% |
-| $67,301 – $431,060 | 5.30% |
-| $431,061 and above | 7.65% |
+| $0 – $19,580 | 3.50% | (not yet confirmed)
+| $19,581 – $67,300 | 4.40% | (not yet confirmed)
+| $67,301 – $431,060 | 5.30% | (not yet confirmed)
+| $431,061 and above | 7.65% | (not yet confirmed)
 
 ### Tax brackets — Married filing separately (2025 and 2026)
 
@@ -81,10 +81,10 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Taxable income bracket | Marginal rate |
 | --- | --- |
-| $0 – $9,790 | 3.50% |
-| $9,791 – $33,650 | 4.40% |
-| $33,651 – $215,530 | 5.30% |
-| $215,531 and above | 7.65% |
+| $0 – $9,790 | 3.50% | (not yet confirmed)
+| $9,791 – $33,650 | 4.40% | (not yet confirmed)
+| $33,651 – $215,530 | 5.30% | (not yet confirmed)
+| $215,531 and above | 7.65% | (not yet confirmed)
 
 ### Standard deduction (sliding scale — 2025)
 
@@ -92,10 +92,10 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Filing status | Maximum amount | Phase-out begins at WI AGI |
 | --- | --- | --- |
-| Single | $14,260 | Phases out as income rises |
-| Married filing jointly | $26,510 | Phases out as income rises |
-| Married filing separately | $12,630 | Phases out as income rises |
-| Head of household | $18,220 | Phases out as income rises |
+| Single | $14,260 | Phases out as income rises | (not yet confirmed)
+| Married filing jointly | $26,510 | Phases out as income rises | (not yet confirmed)
+| Married filing separately | $12,630 | Phases out as income rises | (not yet confirmed)
+| Head of household | $18,220 | Phases out as income rises | (not yet confirmed)
 
 The Wisconsin standard deduction is reduced as income increases. At high income levels, the standard deduction can be reduced to $0. The exact phase-out formula is published annually in the Form 1 instructions.
 
@@ -105,9 +105,9 @@ The Wisconsin standard deduction is reduced as income increases. At high income 
 
 | Item | Amount |
 | --- | --- |
-| Personal exemption — taxpayer | $700 |
-| Personal exemption — spouse (MFJ) | $700 |
-| Each dependent | $700 |
+| Personal exemption — taxpayer | $700 | (not yet confirmed)
+| Personal exemption — spouse (MFJ) | $700 | (not yet confirmed)
+| Each dependent | $700 | (not yet confirmed)
 | Additional — age 65+ | $250 per person |
 
 ### Other key thresholds
@@ -116,8 +116,8 @@ The Wisconsin standard deduction is reduced as income increases. At high income 
 
 | Item | Amount | Source |
 | --- | --- | --- |
-| Filing deadline | April 15 | Wis. Stat. §71.03(8) |
-| Extension | October 15 (automatic with federal) | Wis. Stat. §71.03(8)(b) |
+| Filing deadline | April 15 | Wis. Stat. §71.03(8) | (not yet confirmed)
+| Extension | October 15 (automatic with federal) | Wis. Stat. §71.03(8)(b) | (not yet confirmed)
 | Estimated tax threshold | $500 expected liability | Wis. Stat. §71.09 |
 | State sales tax rate | 5% | Wis. Stat. §77.52 |
 | County sales tax | 0.5% (most counties) | Wis. Stat. §77.70 |
@@ -161,7 +161,7 @@ Wisconsin starts from **federal adjusted gross income (AGI)** — Form 1040, Lin
 
 ### Wisconsin retirement income subtraction
 
-- **Retirement income subtraction** — For 2025+, taxpayers age 67+ may subtract up to $24,000 of qualifying retirement income (Act 15). Not typically relevant for active self-employed, but may apply to semi-retired sole proprietors.  _(Act 15)_
+- **Retirement income subtraction** — For 2025+, taxpayers age 67+ may subtract up to $24,000 of qualifying retirement income (Act 15). Not typically relevant for active self-employed, but may apply to semi-retired sole proprietors.  _(Act 15)_ (not yet confirmed)
 
 ### Estimated tax payments
 
@@ -172,9 +172,9 @@ Wisconsin starts from **federal adjusted gross income (AGI)** — Form 1040, Lin
 - **[T1-WI-1] Tax computation** — Apply the graduated rate schedule to Wisconsin taxable income based on filing status. Use Wisconsin tax tables (for taxable income under $100,000) or rate schedules (for $100,000+).  _(T1-WI-1)_
 - **[T1-WI-2] Starting point** — Begin with federal adjusted gross income from Form 1040, Line 11. Enter on Wisconsin Form 1, Line 1.  _(T1-WI-2)_
 - **[T1-WI-3] Wisconsin additions (Schedule AD)** — Common additions for self-employed: - State/local income tax refund (if deducted federally in prior year) - Wisconsin does not conform to federal bonus depreciation §168(k) — add back the difference between federal and Wisconsin depreciation (Section 179 is generally allowed) - Certain capital gain exclusions claimed federally but not recognized by WI  _(T1-WI-3)_
-- **[T1-WI-4] Wisconsin subtractions (Schedule SB)** — Common subtractions: - Interest from US government obligations (Treasury bonds) - Retirement income subtraction (age 67+, up to $24,000 per Act 15) - Net operating loss differences (Wisconsin has its own NOL rules) - College savings account (EdVest/Tomorrow's Scholar) contributions — up to $5,130 per beneficiary  _(T1-WI-4)_
+- **[T1-WI-4] Wisconsin subtractions (Schedule SB)** — Common subtractions: - Interest from US government obligations (Treasury bonds) - Retirement income subtraction (age 67+, up to $24,000 per Act 15) - Net operating loss differences (Wisconsin has its own NOL rules) - College savings account (EdVest/Tomorrow's Scholar) contributions — up to $5,130 per beneficiary  _(T1-WI-4)_ (not yet confirmed)
 - **[T1-WI-5] Standard deduction computation** — Wisconsin uses a sliding-scale standard deduction that decreases as income rises. The deduction amount is calculated using tables in the Form 1 instructions. High-income self-employed individuals may receive $0 standard deduction.  _(T1-WI-5)_
-- **[T1-WI-6] Filing due date** — April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension is obtained; file Form 1 by October 15 but pay by April 15).  _(T1-WI-6)_
+- **[T1-WI-6] Filing due date** — April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension is obtained; file Form 1 by October 15 but pay by April 15).  _(T1-WI-6)_ (not yet confirmed)
 - **[T1-WI-7] Estimated tax payments** — Required if expected liability exceeds $500. Due dates: April 15, June 15, September 15, January 15. Use Form 1-ES. Underpayment penalty applies if <90% of current year or <100% of prior year liability paid timely.  _(T1-WI-7)_
 - **[T1-WI-8] Wisconsin Earned Income Credit** — Varies by number of children: - 1 qualifying child: 4% of federal EIC - 2 qualifying children: 11% of federal EIC - 3+ qualifying children: 34% of federal EIC - No children: not eligible for WI EIC Partially refundable.  _(T1-WI-8)_
 
@@ -215,7 +215,7 @@ Wisconsin starts from **federal adjusted gross income (AGI)** — Form 1040, Lin
 | Line 4 | Wisconsin subtractions (Schedule SB) | Computed |
 | Line 5 | Wisconsin income (Line 3 − Line 4) | Computed |
 | Line 7 | Standard deduction (sliding scale) | From instructions table |
-| Line 9 | Exemptions ($700 × number) | Computed |
+| Line 9 | Exemptions ($700 × number) | Computed | (not yet confirmed)
 | Line 11 | Wisconsin taxable income | Line 5 − 7 − 9 |
 | Line 12 | Tax (from tax table or rate schedule) | Per brackets |
 | Line 19 | Credits | Various |
