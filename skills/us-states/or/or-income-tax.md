@@ -78,10 +78,10 @@ The unindexed statutory table is: not over $2,000 — 4.75%; over $2,000 but not
 
 | Filing status | Standard deduction |
 | --- | --- |
-| Single | $2,835 |
-| MFJ | $5,670 |
-| HOH | $4,560 |
-| MFS | $2,835 |
+| Single | $2,835 | (not yet confirmed)
+| MFJ | $5,670 | (not yet confirmed)
+| HOH | $4,560 | (not yet confirmed)
+| MFS | $2,835 | (not yet confirmed)
 
 ### Personal exemption credit (tax year 2025)
 
@@ -89,7 +89,7 @@ The unindexed statutory table is: not over $2,000 — 4.75%; over $2,000 but not
 
 | Item | Value |
 | --- | --- |
-| Credit per exemption | $256 |
+| Credit per exemption | $256 | (not yet confirmed)
 | Income phase-out begins | $100,000 (single) / $200,000 (MFJ) |
 
 ### Other key figures
@@ -98,8 +98,8 @@ The unindexed statutory table is: not over $2,000 — 4.75%; over $2,000 but not
 
 | Item | Value |
 | --- | --- |
-| Oregon EITC | 12% of federal EITC (refundable) for those with qualifying children under 3; 9% otherwise |
-| Oregon kicker credit | Varies by year — taxpayers receive a credit when state revenues exceed projections by >2%. Check for 2025. |
+| Oregon EITC | 12% of federal EITC (refundable) for those with qualifying children under 3; 9% otherwise | (not yet confirmed)
+| Oregon kicker credit | Varies by year — taxpayers receive a credit when state revenues exceed projections by >2%. Check for 2025. | (not yet confirmed)
 | No sales tax | Oregon has no state or local sales tax |
 | Estimated tax interest rate | 9% for 2025, 8% for 2026 |
 
@@ -115,7 +115,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 ### Critical: Oregon starts from federal taxable income
 
-- **Oregon starts from federal taxable income; standard deduction stacks on top** — Because Oregon starts from federal taxable income (which already includes the federal standard or itemized deduction), Oregon allows its own standard deduction on top. The Oregon standard deduction is relatively small ($2,835 single) because the federal deduction has already been taken. **However,** Oregon requires modifications for items where Oregon does not conform to the IRC: - Oregon additions (income Oregon taxes but federal does not, or deductions federal allows but Oregon does not) - Oregon subtractions (income federal taxes but Oregon does not, or deductions Oregon allows but federal does not)
+- **Oregon starts from federal taxable income; standard deduction stacks on top** — Because Oregon starts from federal taxable income (which already includes the federal standard or itemized deduction), Oregon allows its own standard deduction on top. The Oregon standard deduction is relatively small ($2,835 single) because the federal deduction has already been taken. **However,** Oregon requires modifications for items where Oregon does not conform to the IRC: - Oregon additions (income Oregon taxes but federal does not, or deductions federal allows but Oregon does not) - Oregon subtractions (income federal taxes but Oregon does not, or deductions Oregon allows but federal does not) (not yet confirmed)
 
 ## Section 4: Self-employed specific rules
 
@@ -125,7 +125,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 ### Oregon EITC
 
-- **Oregon EITC** — Oregon provides a refundable earned income tax credit: - 12% of federal EITC for taxpayers with a qualifying child under age 3 - 9% of federal EITC for all other qualifying taxpayers - ITIN filers are eligible for the Oregon EITC - Self-employment income qualifies
+- **Oregon EITC** — Oregon provides a refundable earned income tax credit: - 12% of federal EITC for taxpayers with a qualifying child under age 3 - 9% of federal EITC for all other qualifying taxpayers - ITIN filers are eligible for the Oregon EITC - Self-employment income qualifies (not yet confirmed)
 
 ### Oregon-specific local taxes (warning)
 
@@ -142,17 +142,17 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 ## Section 5: Tier 1 rules — deterministic
 
 - **R-OR-1. Federal taxable income is the starting point.** — Form OR-40 Line 7 = federal Form 1040, Line 15 (federal taxable income). This includes the federal standard or itemized deduction already.
-- **R-OR-2. Oregon standard deduction is in addition to federal.** — The Oregon standard deduction ($2,835 single / $5,670 MFJ) is subtracted from Oregon adjusted income to arrive at Oregon taxable income.
+- **R-OR-2. Oregon standard deduction is in addition to federal.** — The Oregon standard deduction ($2,835 single / $5,670 MFJ) is subtracted from Oregon adjusted income to arrive at Oregon taxable income. (not yet confirmed)
 - **R-OR-3. Social Security is fully exempt.** — Subtract any Social Security benefits that were included in federal taxable income.
 - **R-OR-4. Oregon income tax refund subtraction.** — If the taxpayer received an Oregon income tax refund in 2025 and included it in federal income (Schedule 1 Line 1), subtract it on the Oregon return — Oregon does not tax its own refund.
 - **R-OR-5. U.S. government bond interest is exempt.** — Subtract interest from U.S. Treasury obligations, I-bonds, and other federal securities included in federal income.
-- **R-OR-6. Personal exemption credit is $256 per exemption.** — Apply after computing tax, subject to income phase-out.
-- **R-OR-7. Oregon EITC is refundable.** — Compute at 9% (or 12% with qualifying child under 3) of federal EITC.
+- **R-OR-6. Personal exemption credit is $256 per exemption.** — Apply after computing tax, subject to income phase-out. (not yet confirmed)
+- **R-OR-7. Oregon EITC is refundable.** — Compute at 9% (or 12% with qualifying child under 3) of federal EITC. (not yet confirmed)
 
 ## Section 6: Tier 2 rules — requires judgment
 
 - **J-OR-1. Oregon conformity with OBBBA.** — Oregon's IRC conformity date must be verified. If Oregon does not conform to specific OBBBA provisions (§168(k) bonus depreciation, §179, §174A R&E), additions on Schedule OR-ASC may be required.
-- **J-OR-2. Standard vs. itemized deduction choice.** — Oregon allows a separate standard deduction even though federal taxable income already reflects the federal deduction. The small Oregon standard deduction ($2,835 single) means most taxpayers should take it unless specific Oregon itemized deductions are advantageous.
+- **J-OR-2. Standard vs. itemized deduction choice.** — Oregon allows a separate standard deduction even though federal taxable income already reflects the federal deduction. The small Oregon standard deduction ($2,835 single) means most taxpayers should take it unless specific Oregon itemized deductions are advantageous. (not yet confirmed)
 - **J-OR-3. TriMet / LTD / Metro SHS / PFA applicability.** — Self-employed individuals in the Portland metro or Eugene/Springfield areas must determine whether they are subject to local transit and housing services taxes. Geographic location of the taxpayer's residence determines applicability.
 - **J-OR-4. Oregon kicker credit availability.** — The kicker is a unique Oregon mechanism that returns excess state revenue to taxpayers. Whether a kicker is available for tax year 2025 depends on state revenue performance. Verify availability and amount.
 
@@ -162,7 +162,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 | Pattern | Description |
 | --- | --- |
-| Portland-area freelancer | Subject to TriMet SE tax + Metro SHS tax + potentially Multnomah PFA tax in addition to state income tax. Combined marginal rate can exceed 14%. Flag all local obligations. |
+| Portland-area freelancer | Subject to TriMet SE tax + Metro SHS tax + potentially Multnomah PFA tax in addition to state income tax. Combined marginal rate can exceed 14%. Flag all local obligations. | (not yet confirmed)
 | Federal taxable income reconciliation | Oregon starts from federal taxable income, not AGI. Ensure correct line reference (1040 Line 15, not Line 11). |
 | Social Security recipient | Full subtraction of Social Security from Oregon taxable income. |
 | No sales tax seller | No Oregon sales tax collection needed, but may have nexus in other states. |
@@ -180,7 +180,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 | Line 19 | Oregon taxable income | After additions, subtractions, and Oregon standard deduction |
 | Line 20 | Oregon tax | Tax tables (if <$50,000) or rate chart (if ≥$50,000) |
 | Line 22 | Oregon tax after standard/special credits | After exemption credits and other nonrefundable credits |
-| Line 32 | Oregon EITC | 9% or 12% of federal EITC |
+| Line 32 | Oregon EITC | 9% or 12% of federal EITC | (not yet confirmed)
 | Line 34 | Kicker credit | If applicable for the tax year |
 | Line 44 | Total tax after all credits | Final Oregon tax liability |
 
