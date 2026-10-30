@@ -46,17 +46,11 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | — | 2026-10-28 |
+| WV State Tax Division — 2026 Income Tax Rate Cut | https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx | 2026-10-28 |
+| W.Va. Code §11-21 — Personal Income Tax | http://www.wvlegislature.gov/wvcode/code.cfm?chap=11&art=21 | 2026-10-28 |
+| SB 392 (2026 session) — 5% across-the-board rate reduction | https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=392&year=2026&sessiontype=RS&btype=bill | 2026-10-28 |
 
-**Sources table**
-
-| # | Source | URL |
-| --- | --- | --- |
-| 1 | WV State Tax Division — 2026 Income Tax Rate Cut | https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx |
-| 2 | 2025 Form IT-140 Instructions | https://tax.wv.gov/Individuals/Pages/PersonalIncomeTax.aspx |
-| 3 | W.Va. Code §11-21 — Personal Income Tax | http://www.wvlegislature.gov/wvcode/code.cfm?chap=11&art=21 |
-| 4 | Tax Foundation — West Virginia profile | https://taxfoundation.org/location/west-virginia/ |
-| 5 | SB 392 (2026 session) — 5% across-the-board rate reduction | https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=392&year=2026&sessiontype=RS&btype=bill |
+Not yet confirmed: 2025 Form IT-140 Instructions (https://tax.wv.gov/Individuals/Pages/PersonalIncomeTax.aspx) is not archived.
 
 ## Section 2: Quick reference — rates and thresholds
 
@@ -329,7 +323,13 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| WV State Tax Division — 2026 Income Tax Rate Cut | https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx | 2026-10-28 |
+| W.Va. Code §11-21 — Personal Income Tax | http://www.wvlegislature.gov/wvcode/code.cfm?chap=11&art=21 | 2026-10-28 |
+| SB 392 (2026 session) | https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=392&year=2026&sessiontype=RS&btype=bill | 2026-10-28 |
 
 ## Talk to a verified accountant
 
