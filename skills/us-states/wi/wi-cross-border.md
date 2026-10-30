@@ -33,13 +33,13 @@ depends_on:
 
 > **General reference only.** General tax/accounting reference for AI-assisted workflows. Not reviewed for any specific person's facts, documents, elections, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified Wisconsin professional.
 
-## 1. Scope and sources
+## Who this applies to
 
 How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part-year), the **four reciprocal states (IL, IN, KY, MI)**, the famous **Minnesota exception** (no agreement since 2009), the **credit for tax paid to another state**, and the residency/domicile mechanics. Entity cross-border (Form 4 nexus, P.L. 86-272, water's edge) sits in `wi-corporate-income-tax` and `wi-transfer-pricing`. Wisconsin has **no exit tax**.
 
 **Source status (as_of 2026-10-27):** [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) fetched as PDF and read — WI-source income list, the IL/IN/KY/MI line-1 exceptions, part-year rules, and the credit-for-tax-paid section are quoted from it. MN non-reciprocity (terminated 2009) and the UI localization split carried from tier-2 `wi-payroll` (read 2026-07-13). 2026 1NPR instructions not published at read time — figures are 2025 unless flagged.
 
-## 2. Who applies
+### 2. Who applies
 
 - **Full-year residents:** taxed on all sources (Form 1, `wi-income-tax`).
 - **Nonresidents:** Wisconsin taxes **only Wisconsin-source income** — file 1NPR.
@@ -61,22 +61,22 @@ How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part
 | Retirement subtraction (2025) | Age 67+: up to $24,000 retirement income subtraction | 1NPR instructions, read 2026-10-27 |
 | Exit tax | **None** | no WI statute imposes one |
 
-## 4. Deadlines
+### 4. Deadlines
 
 | Filing | Due |
 |---|---|
 | 1NPR | April 15 (calendar year); federal extension carries over |
 | Domicile questionnaire | With the return when moving out |
-| Estimated tax (Form 1-ES) | Quarterly if 2026 liability ≥ $1,000 (threshold needs-sources) |
-| Legal residence change notice | DOR Form MV300 with DMV when moving — needs-sources |
+| Estimated tax (Form 1-ES) | Quarterly if 2026 liability ≥ $1,000 (threshold not yet confirmed) |
+| Legal residence change notice | DOR Form MV300 with DMV when moving — not yet confirmed |
 
-## 5. Penalties and interest
+### 5. Penalties and interest
 
-- 1NPR underpayment: WI interest on balance due (rate per return instructions — needs-sources exact 2026 rate); failure-to-file penalties per ch. 71.
+- 1NPR underpayment: WI interest on balance due (rate per return instructions — not yet confirmed exact 2026 rate); failure-to-file penalties per ch. 71.
 - Reciprocity misuse: IL-resident claiming the wage exemption while actually a WI domiciliary is a top audit flag (`wi-payroll` §6.3 red flags: out-of-state address + WI driver's license; W-220 mismatch).
 - MN commuters who skip the WI return get DOR matching notices.
 
-## 6. Cross-border
+### 6. Cross-border
 
 - **Services are WI-source where performed** — telework days from an IL home are IL-source; the work-location log decides the split.
 - **Reciprocity ≠ everything:** IL/IN/KY/MI residents with WI rentals, farm income, or a WI business file 1NPR for those items; the exemption is wages-only.
@@ -84,7 +84,7 @@ How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part
 - **MN residents:** full two-state compliance; WI credit for MN tax on the same wages and vice versa.
 - **Entities:** P.L. 86-272 and water's edge in `wi-corporate-income-tax` / `wi-transfer-pricing`.
 
-## 7. Worked examples
+### 7. Worked examples
 
 **Example A — Illinois resident commuting to Milwaukee.**
 
@@ -103,7 +103,7 @@ expected:
   il_tax_due: 4400
 ```
 
-The 6.27% is an illustrative blended WI rate for the bracket range (top 7.65%, graduated) — reciprocity waives it on wages; IL taxes the full amount. Any Milwaukee rental income would still force a 1NPR.
+The 6.27% is an hypothetical blended WI rate for the bracket range (top 7.65%, graduated) — reciprocity waives it on wages; IL taxes the full amount. Any Milwaukee rental income would still force a 1NPR.
 
 **Example B — Minnesota resident, no reciprocity, credit both ways.**
 
@@ -123,7 +123,7 @@ expected:
 
 No treaty-like waiver exists with MN: the commuter files WI 1NPR, credits the MN tax on the same wages (capped at the WI figure), and owes the 500 differential to Wisconsin.
 
-## 8. Ask the client
+### 8. Ask the client
 
 - Domicile on January 1 and December 31 — any move mid-year triggers part-year status and the questionnaire.
 - Driver's license, vehicle registration, homestead, voter registration — the domicile evidence DOR weighs.
@@ -132,12 +132,55 @@ No treaty-like waiver exists with MN: the commuter files WI 1NPR, credits the MN
 - Payroll: UI localization documented separately from PIT reciprocity?
 - Telework calendar: how many WI work-days for a nonresident?
 
-## 9. Sources
+### 9. Sources
 
 - [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) — PDF read 2026-10-27 (source-income list, IL/IN/KY/MI exceptions, credit for tax paid to another state, part-year rules, 7.65% worksheet)
 - `wi-payroll` (tier 2, read 2026-07-13) — MN non-reciprocity (terminated 2009), UI localization split, audit red flags
 - `wi-income-tax` (tier 2) — resident rates and brackets
-- **needs-sources:** 2026 1NPR instructions; exact 2026 bracket table; estimated-tax threshold; WI interest rate for 2026.
+- **not yet confirmed:** 2026 1NPR instructions; exact 2026 bracket table; estimated-tax threshold; WI interest rate for 2026.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** — for Wisconsin nonresident, reciprocity and MN-commuter questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

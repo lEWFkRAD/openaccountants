@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # WI Payroll
 
-## 1. Scope
+## Who this applies to
 
 This Tier 2 content skill covers Wisconsin (WI) state payroll obligations for tax year 2025 for employers maintaining a worksite, remote employees, or assigned workers in Wisconsin. It is designed to be loaded alongside `us-tax-workflow-base` (Tier 1) and `us-federal-payroll` (Tier 2) when payroll runs include Wisconsin-source wages.
 
@@ -285,7 +285,7 @@ AUDIT FLASH POINT — Milwaukee Local Stacking. Multiple stacking scenarios crea
 
 - **Wage statement content and penalty** — Each pay period the employer must provide a wage statement (paper or electronic) showing under Wis. Stat. § 109.09: Hours worked, Wages earned (regular and overtime separately), Deductions itemized. Failure to provide is a $100 per occurrence violation.  _(Wis. Stat. § 109.09)_
 
-## 11. Worked Examples
+### 11. Worked Examples
 
 ### 11.1 Example A — Pure Wisconsin Employer
 
@@ -381,7 +381,7 @@ Result: 9 of 9 factors satisfied — Maya is correctly classified as a contracto
 
 **Contrast — borderline scenario:** If Maya instead worked 40 hours/week exclusively for Lakefront, had no other clients, used Lakefront's design software accessed via Lakefront-provided credentials, and was paid hourly, she would fail Part A (control) and likely fewer than 6 Part B factors. Classification would flip to employee — even though many such workers are wrongly issued 1099-NEC. Penalty exposure under § 108.221: up to $25,000 per misclassified worker, plus back UI tax for the open audit period (3 years generally; 6 years if substantial under-reporting).
 
-## 12. Provenance and Sources
+### 12. Provenance and Sources
 
 Primary authority cited in this skill:
 
@@ -433,7 +433,7 @@ This skill produces draft work product for review by a Circular 230-credentialed
 
 - All bracket figures, wage bases, UI rate schedules, and statutory thresholds are accurate as of the `last_updated` date in the frontmatter but may have been amended by subsequent legislation or DOR/DWD rulemaking. Verify against current DOR and DWD publications before filing.
 - The Milwaukee paid sick leave ordinance is subject to ongoing litigation and legislative challenge. Confirm enforcement status as of the date of filing.
-- Worker classification opinions in worked examples are illustrative. Individual classification depends on full facts and may require IRS Form SS-8, DWD UC-160 determination request, or counsel review.
+- Worker classification opinions in worked examples are hypothetical. Individual classification depends on full facts and may require IRS Form SS-8, DWD UC-160 determination request, or counsel review.
 - This skill does not advise on multistate apportionment beyond the four reciprocal border states (IL, IN, KY, MI). For Minnesota-Wisconsin, Iowa-Wisconsin, or Wisconsin-out-of-state remote workforce questions outside the reciprocal framework, escalate to a multistate-tax specialist.
 - Federal employment tax compliance (FICA, FUTA, federal income tax) is delegated to `us-federal-payroll` and is out of scope here.
 - This skill does not address ERISA, COBRA, ACA, or fringe-benefit taxation. Those are handled by separate skills.
@@ -448,16 +448,59 @@ This skill produces draft work product for review by a Circular 230-credentialed
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.

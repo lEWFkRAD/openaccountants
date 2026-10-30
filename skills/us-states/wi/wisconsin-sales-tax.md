@@ -33,7 +33,7 @@ Figures are for tax year 2026. This skill covers Wisconsin state, county and cit
 - **[T2] Judgement.** The answer turns on facts or an interpretation. Present the options and have a CPA, EA or tax attorney confirm before filing.
 - **[T3] Out of scope.** Refer to a licensed professional (see "When to refuse or refer").
 
-## The method, step by step
+### The method, step by step
 
 1. Decide whether the seller must hold a Wisconsin seller's permit. Every person making taxable retail sales, licenses, leases or rentals of taxable products or taxable services in Wisconsin needs one. A seller with a physical presence in Wisconsin registers whatever its sales volume. A remote seller (no physical presence) registers only when it does not qualify for the small seller exception in the remote seller table below. A marketplace seller whose Wisconsin taxable sales are all facilitated by a marketplace provider does not register. See [DOR sales and use tax common questions](https://www.revenue.wi.gov/Pages/FAQS/pcs-sales.aspx) and [DOR remote sellers](https://www.revenue.wi.gov/Pages/Businesses/remote-sellers.aspx). [T1]
 2. Classify each sale: tangible personal property, certain coins and stamps, certain leased property affixed to realty, certain digital goods, or a listed taxable service. If it is none of these, or an exemption applies, no tax is due. See [DOR What is taxable](https://www.revenue.wi.gov/Pages/FAQS/ise-taxable.aspx) and the taxability section below. [T1 for listed items, T2 for software and bundles]
@@ -43,7 +43,7 @@ Figures are for tax year 2026. This skill covers Wisconsin state, county and cit
 6. File Form ST-12 with Schedule CT for each reporting period through My Tax Account, even if no tax is due. Take the retailer's discount only if the tax is paid on time. See [Form ST-12 instructions (S-114)](https://www.revenue.wi.gov/DORForms/S-114.pdf). [T1]
 7. For purchases on which no Wisconsin tax was charged and no exemption applies, report use tax: businesses on the sales and use tax return or Form UT-5; individuals on Form 1 or Form 1NPR or on Form UT-5. See [DOR use tax](https://www.revenue.wi.gov/Pages/FAQS/ise-usetax.aspx). [T1]
 
-## Ask the client first
+### Ask the client first
 
 - Do you have any physical presence in Wisconsin (an office, staff, inventory, or sales at Wisconsin events), or do you only ship into Wisconsin? The small seller exception never applies to a seller with a physical presence.
 - What were your gross sales into Wisconsin, taxable and exempt together, in the previous calendar year and so far in the current calendar year?
@@ -300,7 +300,7 @@ County and city tax follows where the item is customarily kept. Sales of motor v
 ### Marketplace bad debts [T2]
 When a marketplace provider collects for a marketplace seller, the provider may claim the bad debt deduction if either party qualifies under section 166 of the Internal Revenue Code; the marketplace seller cannot claim it for the same sale.
 
-## Test suite
+### Test suite
 
 ### Test 1: Rate in Dane County [T1]
 **Question:** A camera is shipped to a home in Dane County and no Wisconsin tax is charged. What use tax rate applies?
@@ -322,7 +322,7 @@ When a marketplace provider collects for a marketplace seller, the provider may 
 **Question:** A filer's total tax on line 14 for a period after October 1, 2023 is in the middle band. What discount applies if paid on time?
 **Expected answer:** The flat amount in the retailer's discount table; nothing if paid late.
 
-## When to refuse or refer
+### When to refuse or refer
 
 - Refer audits, assessments, penalties, penalty abatement and voluntary disclosure to a licensed professional. This skill states only the late filing fee, negligence penalty and interest printed in the Form ST-12 instructions. [T3]
 - Refer premier resort area tax, local exposition taxes and the state rental vehicle fee questions. [T3]
@@ -344,7 +344,14 @@ When a marketplace provider collects for a marketplace seller, the provider may 
 - To update this skill, cite the DOR page or statute section and the date the change takes effect.
 - An accountant who adopts this skill should settle the open questions in the change notes before signing.
 
-## Sources
+### Sources
+
+Not yet confirmed: figures in this skill lack archived line-citations.
+
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| (see Not yet confirmed) | — | 2026-10-28 |
 
 - [DOR Tax Rates](https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx)
 - [DOR County and City Sales and Use Taxes](https://www.revenue.wi.gov/Pages/FAQS/pcs-county.aspx)
@@ -374,16 +381,56 @@ The most up-to-date version of this skill is maintained on the OpenAccountants w
 
 ---
 
-## Talk to a verified accountant
+### Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants network.
 
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
+- Use it in your AI: 
+- Meet the accountants: 
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
 > licensed professional before relying on them.
+
+## Who this applies to
+
+Not yet confirmed against archived sources.
+
+## Rates, bands and thresholds
+
+Not yet confirmed against archived sources.
+
+## The taxable base
+
+Not yet confirmed against archived sources.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+Not yet confirmed against archived sources.
+
+## Ask the client first
+
+Not yet confirmed against archived sources.
+
+## Sources
+
+Not yet confirmed against archived sources.
+
+## Talk to a verified accountant
+
+Not yet confirmed against archived sources.
