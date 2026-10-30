@@ -1,6 +1,6 @@
 ---
 name: co-income-tax
-description: Use this skill whenever asked about Colorado individual income tax for self-employed individuals or sole proprietors — filing Form DR 0104, CO estimated tax (Form DR 0104EP), Colorado flat tax rate, Colorado additions and subtractions, or any query involving Colorado state income tax compliance. Trigger on phrases like "Colorado income tax", "CO income tax", "Form 104", "DR 0104", "Colorado estimated tax", "Colorado self-employed tax", "TABOR refund", or "C.R.S. §39-22".
+description: Use this skill whenever asked about Colorado individual income tax for self-employed individuals or sole proprietors -- filing Form DR 0104, CO estimated tax (Form DR 0104EP), Colorado flat tax rate, Colorado additions and subtractions, or any query involving Colorado state income tax compliance. Trigger on phrases like "Colorado income tax", "CO income tax", "Form 104", "DR 0104", "Colorado estimated tax", "Colorado self-employed tax", "TABOR refund", or "C.R.S. §39-22".
 version: 0.3
 jurisdiction: US-CO
 tax_year: 2026
@@ -71,7 +71,7 @@ Someone who moves their domicile into or out of Colorado during the year is a pa
 **QBI addback** ([HB 25B-1001, session law](https://leg.colorado.gov/laws/session-laws/HB25B-1001/5/download); [2025 Book 104, line 3](https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf))
 - **Who adds it back.** A taxpayer who claimed the §199A deduction (Form 1040 line 13a) and whose AGI is **greater than** $500,000 on a single return, or **greater than** $1,000,000 on a joint return. DOR's 2025 booklet applies $500,000 to every non-joint status.
 - **All or nothing.** The **entire** deduction is added back, however far AGI is over the threshold. At exactly $500,000 or $1,000,000 there is no addback.
-- **Session law VERIFIED** vs archived HB 25B-1001 (approved August 28, 2025), amending C.R.S. 39-22-104(3)(o): "For income tax years commencing on or after January 1, 2021, but before January 1, 2026, an amount equal to the deduction allowed under section 199A ... for a taxpayer who files a single return and whose adjusted gross income is greater than five hundred thousand dollars, and for taxpayers who file a joint return and whose adjusted gross income is greater than one million dollars; except that this subsection (3)(o) does not apply to a taxpayer who is required to file a schedule F ... as an attachment to a federal income tax return". NOTE: the archived enrolled text carries the "before January 1, 2026" window from the prior version — the act's legislative declaration frames it as a "permanent continuation" of the add-back; confirm the operative sunset language against the codified C.R.S. before relying on it for 2026 returns.
+- **Session law VERIFIED** vs archived HB 25B-1001 (approved August 28, 2025), amending C.R.S. 39-22-104(3)(o): "For income tax years commencing on or after January 1, 2021, but before January 1, 2026, an amount equal to the deduction allowed under section 199A ... for a taxpayer who files a single return and whose adjusted gross income is greater than five hundred thousand dollars, and for taxpayers who file a joint return and whose adjusted gross income is greater than one million dollars; except that this subsection (3)(o) does not apply to a taxpayer who is required to file a schedule F ... as an attachment to a federal income tax return". NOTE: the archived enrolled text carries the "before January 1, 2026" window from the prior version -- the act's legislative declaration frames it as a "permanent continuation" of the add-back; confirm the operative sunset language against the codified C.R.S. before relying on it for 2026 returns.
 - **Exception.** The addback does not apply to a taxpayer who is required to file federal **Schedule F** for the year.
 - **SALT Parity route.** Separately, a partner or shareholder in a partnership or S corporation that made a **SALT Parity Election** (shown on the Colorado K-1, DR 0106K) must add back their **whole** QBI deduction at any AGI. This is not limited to the electing entity's share.
 - **HB 25B-1001** (2025 special session, signed 28 August 2025) struck the words "but before January 1, 2026", so the addback continues for 2026 and later. A 2025 special-session bill to end it ([HB 25B-1020](https://leg.colorado.gov/bills/hb25b-1020)) was lost.
@@ -316,7 +316,7 @@ _Sources for this section: [Individual Income Tax Guide, Parts 6 to 8](https://t
 - **Multistate business income** needing apportionment under §39-22-303.6, C.R.S., the credit for tax paid to another state, or wages earned both inside and outside Colorado.
 - **Partnership and S corporation owners**: SALT Parity elections, DR 0106K modifications, nonresident shareholder addbacks and composite filings.
 - **Military servicemembers and spouses**: nonresident elections, the reacquired-residency subtraction and DR 1059.
-- **Part-year residents and nonresidents** compute tax on DR 0104PN: the tax on all Colorado taxable income (line 35) times the line 34 ratio (modified Colorado AGI over modified federal AGI, rounded to four decimals, which can exceed 100%), carried to DR 0104 line 13 — see [Income Tax Topics: Part-Year Residents & Nonresidents](https://tax.colorado.gov/income-tax-topics-part-year-residents-nonresidents).
+- **Part-year residents and nonresidents** compute tax on DR 0104PN: the tax on all Colorado taxable income (line 35) times the line 34 ratio (modified Colorado AGI over modified federal AGI, rounded to four decimals, which can exceed 100%), carried to DR 0104 line 13 -- see [Income Tax Topics: Part-Year Residents & Nonresidents](https://tax.colorado.gov/income-tax-topics-part-year-residents-nonresidents).
 - **Credit for tax paid to another state:** a full-year resident taxed on the same income by another state may claim a credit (C.R.S. §39-22-108; see the Department's "Income Tax Topics: Credit for Tax Paid to Another State" publication).
 - **Treaties:** U.S. income-tax treaties do not limit Colorado's tax on residents' worldwide income.
 
@@ -427,32 +427,32 @@ _Sources for this section: [2025 Book 104](https://tax.colorado.gov/sites/tax/fi
 
 | Source | URL | Read on |
 |---|---|---|
-| Colorado DOR — Individual Income Tax Guide (January 2026) | https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf | 2026-10-28 |
-| Colorado DOR — 2025 Individual Income Tax Book (Book 104) | https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf | 2026-10-28 |
-| Colorado DOR — Form DR 0104EP (2026) | https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf | 2026-10-28 |
-| Colorado DOR — Form DR 0104EP (2025) | https://tax.colorado.gov/sites/tax/files/documents/DR0104EP_2025.pdf | 2026-10-28 |
-| Colorado DOR — Income Tax Topics: Social Security, Pensions and Annuities (Jan 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_Social_Security_Pensions_and_Annuities_Jan_2025.pdf | 2026-10-28 |
-| Colorado DOR — Income Tax Topics: Earned Income Tax Credit (Apr 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_Earned_Income_Tax_Credit_Apr_2025.pdf | 2026-10-28 |
-| Colorado DOR — Income Tax Topics: Family Affordability Tax Credit (Jan 2026) | https://tax.colorado.gov/sites/default/files/documents/ITT_Family_Affordability_Tax_Credit_Jan_2026.pdf | 2026-10-28 |
-| Colorado DOR — Income Tax Topics: State Sales Tax Refund (Nov 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_State_Sales_Tax_Refund_Nov_2025.pdf | 2026-10-28 |
-| Colorado DOR — Income Tax Topics: State Income Tax Addback | https://tax.colorado.gov/income-tax-topics-state-income-tax-addback | 2026-10-28 |
-| Colorado DOR — Income Tax Topics: Part-Year Residents & Nonresidents | https://tax.colorado.gov/income-tax-topics-part-year-residents-nonresidents | 2026-10-28 |
-| Colorado DOR — TABOR | https://tax.colorado.gov/TABOR | 2026-10-28 |
-| Colorado DOR — January 2026 tax policy updates | https://tax.colorado.gov/january-2026-tax-policy-updates | 2026-10-28 |
-| Colorado General Assembly — HB 25B-1001 session law (approved 28 August 2025) | https://leg.colorado.gov/laws/session-laws/HB25B-1001/5/download | 2026-10-28 |
-| Colorado General Assembly — SB 24-228 bill page | https://leg.colorado.gov/bills/sb24-228 | 2026-10-28 |
-| Colorado General Assembly — HB 25-1296 bill page (overtime addback) | https://leg.colorado.gov/bills/hb25-1296 | 2026-10-28 |
-| Colorado General Assembly — HB 25B-1002 bill page (C-corporation changes) | https://leg.colorado.gov/bills/hb25b-1002 | 2026-10-28 |
-| Colorado General Assembly — HB 25B-1020 bill page (lost bill) | https://leg.colorado.gov/bills/hb25b-1020 | 2026-10-28 |
-| Colorado General Assembly — SB 26-056 bill page (lost bill) | https://leg.colorado.gov/bills/SB26-056 | 2026-10-28 |
-| Colorado OLLS — Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
+| Colorado DOR -- Individual Income Tax Guide (January 2026) | https://tax.colorado.gov/sites/default/files/documents/Individual_Income_Tax_Guide_January_2026.pdf | 2026-10-28 |
+| Colorado DOR -- 2025 Individual Income Tax Book (Book 104) | https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Form DR 0104EP (2026) | https://tax.colorado.gov/sites/tax/files/documents/DR_0104EP_2026.pdf | 2026-10-28 |
+| Colorado DOR -- Form DR 0104EP (2025) | https://tax.colorado.gov/sites/tax/files/documents/DR0104EP_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Income Tax Topics: Social Security, Pensions and Annuities (Jan 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_Social_Security_Pensions_and_Annuities_Jan_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Income Tax Topics: Earned Income Tax Credit (Apr 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_Earned_Income_Tax_Credit_Apr_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Income Tax Topics: Family Affordability Tax Credit (Jan 2026) | https://tax.colorado.gov/sites/default/files/documents/ITT_Family_Affordability_Tax_Credit_Jan_2026.pdf | 2026-10-28 |
+| Colorado DOR -- Income Tax Topics: State Sales Tax Refund (Nov 2025) | https://tax.colorado.gov/sites/default/files/documents/ITT_State_Sales_Tax_Refund_Nov_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Income Tax Topics: State Income Tax Addback | https://tax.colorado.gov/income-tax-topics-state-income-tax-addback | 2026-10-28 |
+| Colorado DOR -- Income Tax Topics: Part-Year Residents & Nonresidents | https://tax.colorado.gov/income-tax-topics-part-year-residents-nonresidents | 2026-10-28 |
+| Colorado DOR -- TABOR | https://tax.colorado.gov/TABOR | 2026-10-28 |
+| Colorado DOR -- January 2026 tax policy updates | https://tax.colorado.gov/january-2026-tax-policy-updates | 2026-10-28 |
+| Colorado General Assembly -- HB 25B-1001 session law (approved 28 August 2025) | https://leg.colorado.gov/laws/session-laws/HB25B-1001/5/download | 2026-10-28 |
+| Colorado General Assembly -- SB 24-228 bill page | https://leg.colorado.gov/bills/sb24-228 | 2026-10-28 |
+| Colorado General Assembly -- HB 25-1296 bill page (overtime addback) | https://leg.colorado.gov/bills/hb25-1296 | 2026-10-28 |
+| Colorado General Assembly -- HB 25B-1002 bill page (C-corporation changes) | https://leg.colorado.gov/bills/hb25b-1002 | 2026-10-28 |
+| Colorado General Assembly -- HB 25B-1020 bill page (lost bill) | https://leg.colorado.gov/bills/hb25b-1020 | 2026-10-28 |
+| Colorado General Assembly -- SB 26-056 bill page (lost bill) | https://leg.colorado.gov/bills/SB26-056 | 2026-10-28 |
+| Colorado OLLS -- Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
 
-Not yet confirmed: the 2026 form line numbers (the 2026 DR 0104 and booklet were not published as of 25 September 2026, so line references are from the 2025 booklet); the 2026 TABOR sales-tax-refund amounts (DOR had not published them on 25 September 2026); the QBI addback's codified sunset language (the archived HB 25B-1001 enrolled text retains "before January 1, 2026" from the prior version while the act's declaration frames it as a permanent continuation — confirm against the codified C.R.S. 39-22-104(3)(o) before relying on it for 2026); AGI thresholds for the Social Security subtraction for head-of-household and married-filing-separately filers (DOR states only single $75,000 and joint $95,000); the FATC AGI limit for joint filers as stated ($96,000) versus the published joint credit table reaching $0 at "$95,001 or more".
+Not yet confirmed: the 2026 form line numbers (the 2026 DR 0104 and booklet were not published as of 25 September 2026, so line references are from the 2025 booklet); the 2026 TABOR sales-tax-refund amounts (DOR had not published them on 25 September 2026); the QBI addback's codified sunset language (the archived HB 25B-1001 enrolled text retains "before January 1, 2026" from the prior version while the act's declaration frames it as a permanent continuation -- confirm against the codified C.R.S. 39-22-104(3)(o) before relying on it for 2026); AGI thresholds for the Social Security subtraction for head-of-household and married-filing-separately filers (DOR states only single $75,000 and joint $95,000); the FATC AGI limit for joint filers as stated ($96,000) versus the published joint credit table reaching $0 at "$95,001 or more".
 
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

@@ -2,7 +2,7 @@
 name: co-s-corporation-tax
 description: >
   Use this skill whenever asked about Colorado taxation of partnerships
-  and S corporations for tax year 2026 — Form DR 0106 filing (due April 15,
+  and S corporations for tax year 2026 -- Form DR 0106 filing (due April 15,
   automatic extension to October 15 with no extension of payment), composite
   returns for nonresident partners, the SALT Parity Act entity-level
   election (form DR 1705 or the DR 0106EP box; C.R.S. §§39-22-340 to 347),
@@ -53,7 +53,7 @@ depends_on:
 
 | Filing | Calendar-year due date | Source |
 |---|---|---|
-| DR 0106 | 15th day of the fourth month after year close — April 15 | DR 0106 instructions |
+| DR 0106 | 15th day of the fourth month after year close -- April 15 | DR 0106 instructions |
 | Extension | Automatic 6-month filing extension to October 15; **no payment extension**; extension payment via DR 0158-N | DR 0106 instructions |
 | Estimated payments (DR 0106EP) | Quarterly when net Colorado liability (composite or SALT Parity) exceeds $5,000 | DR 0106 instructions |
 | Colorado K-1 (DR 0106K) | Completed for each partner/shareholder and filed with the Department | DR 0106 instructions |
@@ -66,8 +66,8 @@ depends_on:
 
 ## Cross-border points
 
-- The composite regime is Colorado's default answer to nonresident partners; a SALT Parity election is an alternative that is binding on essentially all owners — plan before year-end.
-- The SALT Parity Act (C.R.S. §§39-22-340 to 347) exists because state income taxes should be deductible the same way for C corporations, S corporations, and partnerships (§39-22-341, legislative declaration); an entity-level deduction may interact with the federal SALT cap for owners — coordinate with the federal advisor.
+- The composite regime is Colorado's default answer to nonresident partners; a SALT Parity election is an alternative that is binding on essentially all owners -- plan before year-end.
+- The SALT Parity Act (C.R.S. §§39-22-340 to 347) exists because state income taxes should be deductible the same way for C corporations, S corporations, and partnerships (§39-22-341, legislative declaration); an entity-level deduction may interact with the federal SALT cap for owners -- coordinate with the federal advisor.
 - Colorado real-estate closing withholding (DR 1079) is credited by remitting payments with the DR 1079 and submitting the form with the return (DR 0106 instructions).
 - Listed or reportable transactions must be marked on DR 0106, with IRS form 8886 or Colorado form DR 1831 attached as applicable (DR 0106 instructions).
 
@@ -111,11 +111,11 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| Colorado DOR — Form DR 0106 instructions (2025), Colorado Partnership and S Corporation Return | https://tax.colorado.gov/sites/tax/files/documents/DR0106_2025.pdf | 2026-10-28 |
-| Colorado DOR — Form DR 0107 (2025), Colorado Nonresident Partner or Shareholder Agreement | https://tax.colorado.gov/sites/tax/files/documents/DR0107_2025.pdf | 2026-10-28 |
-| Colorado DOR — Colorado Corporate Income Tax Guide (March 2026) | https://tax.colorado.gov/sites/default/files/documents/Corporate_Income_Tax_Guide_Mar_2026_.pdf | 2026-10-28 |
-| Colorado OLLS — Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
-| Colorado DOR — Colorado Taxes & Fees Due Date Guide | https://tax.colorado.gov/due-date-guide | 2026-10-28 |
+| Colorado DOR -- Form DR 0106 instructions (2025), Colorado Partnership and S Corporation Return | https://tax.colorado.gov/sites/tax/files/documents/DR0106_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Form DR 0107 (2025), Colorado Nonresident Partner or Shareholder Agreement | https://tax.colorado.gov/sites/tax/files/documents/DR0107_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Colorado Corporate Income Tax Guide (March 2026) | https://tax.colorado.gov/sites/default/files/documents/Corporate_Income_Tax_Guide_Mar_2026_.pdf | 2026-10-28 |
+| Colorado OLLS -- Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
+| Colorado DOR -- Colorado Taxes & Fees Due Date Guide | https://tax.colorado.gov/due-date-guide | 2026-10-28 |
 
 Not yet confirmed: the exact quarterly due dates for DR 0106EP estimated payments (the DR 0106 instructions state the quarterly requirement and the $5,000 threshold; the C-corporation dates are April 15, June 15, September 15 and December 15 per the Corporate Income Tax Guide Part 9, and the DR 0106 instructions say the rules for partnerships and S corporations are generally the same as for C corporations, but a pass-through-specific date table was not located in an archived source).
 
@@ -125,4 +125,4 @@ Not yet confirmed: the exact quarterly due dates for DR 0106EP estimated payment
 
 ## Talk to a verified accountant
 
-**Talk to a verified accountant** — for Colorado pass-through and SALT Parity questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Colorado pass-through and SALT Parity questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

@@ -2,7 +2,7 @@
 name: co-transfer-pricing
 description: >
   Use this skill whenever asked about Colorado transfer pricing and
-  related-party adjustments for tax year 2026 — the executive director's
+  related-party adjustments for tax year 2026 -- the executive director's
   authority to allocate gross income and deductions among C corporations
   owned or controlled by the same interests (C.R.S. §39-22-304(6)),
   combined reporting and listed ("tax haven") jurisdictions under
@@ -48,7 +48,7 @@ depends_on:
 | FDII addback (from 1 January 2026) | A C corporation adds back the federal deduction claimed for foreign-derived deduction eligible income | HB 25B-1002 |
 | Apportionment | Receipts-factor apportionment; direct sourcing election for some items | C.R.S. §39-22-303.6, as referenced on the DR 0106 instructions |
 
-The six tests of unity (Corporate Income Tax Guide, Part 2), of which at least three must be met for the current and two preceding years: (1) gross receipts — 50% or more of gross operating receipts from, or cost of goods purchased from, another affiliate; (2) services — 50% or more of five or more listed services received from affiliates without an arm's-length charge; (3) long-term debt — 20% of long-term debt owed to or guaranteed by an affiliate; (4) intangible property — substantial use of another affiliate's patents, trademarks, copyrights or other proprietary materials; (5) board of directors — 50% or more shared board members; (6) a sixth test as published in the guide.
+The six tests of unity (Corporate Income Tax Guide, Part 2), of which at least three must be met for the current and two preceding years: (1) gross receipts -- 50% or more of gross operating receipts from, or cost of goods purchased from, another affiliate; (2) services -- 50% or more of five or more listed services received from affiliates without an arm's-length charge; (3) long-term debt -- 20% of long-term debt owed to or guaranteed by an affiliate; (4) intangible property -- substantial use of another affiliate's patents, trademarks, copyrights or other proprietary materials; (5) board of directors -- 50% or more shared board members; (6) a sixth test as published in the guide.
 
 ## The taxable base
 
@@ -72,7 +72,7 @@ The six tests of unity (Corporate Income Tax Guide, Part 2), of which at least t
 
 - Combined reporting with listed jurisdictions is Colorado's principal cross-border anti-avoidance regime; confirm the current listed-jurisdiction list and the economic-substance rebuttal before advising (C.R.S. §39-22-304(8); HB 25B-1002 changed the presumption so the C corporation no longer must rebut it).
 - Federal international provisions (GILTI/FDII) conformity: HB 25B-1002 adds the FDII deduction back for Colorado C corporations for income tax years commencing on or after 1 January 2026, and modifies the subtraction for dividends from foreign subsidiaries.
-- Public Law 86-272 applies to a net-income tax on protected solicitation (federal — see `co-cross-border`).
+- Public Law 86-272 applies to a net-income tax on protected solicitation (federal -- see `co-cross-border`).
 - Foreign-source income exclusions and the export-trading-company rules are addressed in the Corporate Income Tax Guide, Part 7 (Foreign Source Income Exclusion).
 
 ## Worked examples
@@ -114,21 +114,21 @@ expected:
 ## Ask the client first
 
 - What intercompany interest, rent, royalty or service fees exist with related parties, domestic or foreign?
-- Are any affiliates organized in low- or no-tax jurisdictions — is combined reporting or a listed-jurisdiction presumption in play?
+- Are any affiliates organized in low- or no-tax jurisdictions -- is combined reporting or a listed-jurisdiction presumption in play?
 - Does the group meet at least three of the six tests of unity (gross receipts, services, long-term debt, intangibles, board overlap)?
-- Has the C corporation claimed the federal FDII deduction — remember the Colorado addback from 1 January 2026?
+- Has the C corporation claimed the federal FDII deduction -- remember the Colorado addback from 1 January 2026?
 - Is transfer-pricing documentation contemporaneous and defensible under IRC §482 and Colorado's allocation authority?
 
 ## Sources
 
 | Source | URL | Read on |
 |---|---|---|
-| Colorado OLLS — Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
-| Colorado DOR — Colorado Corporate Income Tax Guide (March 2026) | https://tax.colorado.gov/sites/default/files/documents/Corporate_Income_Tax_Guide_Mar_2026_.pdf | 2026-10-28 |
-| Colorado DOR — Form DR 0106 instructions (2025) | https://tax.colorado.gov/sites/tax/files/documents/DR0106_2025.pdf | 2026-10-28 |
-| Colorado DOR — Form DR 0112 (2025) C Corporation Income Tax Return and instructions | https://tax.colorado.gov/sites/default/files/documents/DR0112_2025.pdf | 2026-10-28 |
-| Colorado General Assembly — HB 25B-1002 (2025 special session) | https://leg.colorado.gov/bills/hb25b-1002 | 2026-10-28 |
-| Cornell Law LII — 15 U.S.C. §381 (Public Law 86-272) | https://www.law.cornell.edu/uscode/text/15/381 | 2026-10-28 |
+| Colorado OLLS -- Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
+| Colorado DOR -- Colorado Corporate Income Tax Guide (March 2026) | https://tax.colorado.gov/sites/default/files/documents/Corporate_Income_Tax_Guide_Mar_2026_.pdf | 2026-10-28 |
+| Colorado DOR -- Form DR 0106 instructions (2025) | https://tax.colorado.gov/sites/tax/files/documents/DR0106_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Form DR 0112 (2025) C Corporation Income Tax Return and instructions | https://tax.colorado.gov/sites/default/files/documents/DR0112_2025.pdf | 2026-10-28 |
+| Colorado General Assembly -- HB 25B-1002 (2025 special session) | https://leg.colorado.gov/bills/hb25b-1002 | 2026-10-28 |
+| Cornell Law LII -- 15 U.S.C. §381 (Public Law 86-272) | https://www.law.cornell.edu/uscode/text/15/381 | 2026-10-28 |
 
 Not yet confirmed: the full statutory text of the six-tests-of-unity thresholds for pass-throughs (the tests quoted are the Corporate Income Tax Guide's C-corporation version); the current list of "listed jurisdictions" (the statute defines the criteria; the list is maintained by the Department under contract); the assessment statute-of-limitations period for transfer-pricing adjustments.
 
@@ -138,4 +138,4 @@ Not yet confirmed: the full statutory text of the six-tests-of-unity thresholds 
 
 ## Talk to a verified accountant
 
-**Talk to a verified accountant** — for Colorado transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Colorado transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

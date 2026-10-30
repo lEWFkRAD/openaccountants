@@ -2,7 +2,7 @@
 name: co-corporate-income-tax
 description: >
   Use this skill whenever asked about Colorado corporate income tax for
-  tax year 2026 — Form DR 0112 filing (due May 15, extension to November 15),
+  tax year 2026 -- Form DR 0112 filing (due May 15, extension to November 15),
   the flat 4.4% rate, receipts-factor apportionment under C.R.S. §39-22-303.6,
   "doing business" and substantial-nexus standards, quarterly estimated
   payments (DR 0112EP, no penalty if net liability is under $5,000), the
@@ -31,7 +31,7 @@ depends_on:
 - Every domestic C corporation, and every foreign C corporation doing business in Colorado, pays Colorado corporate income tax on its Colorado net income ([Corporate Income Tax Guide, Part 1](https://tax.colorado.gov/sites/default/files/documents/Corporate_Income_Tax_Guide_Mar_2026_.pdf)).
 - A C corporation is "doing business in Colorado" whenever the minimum standards of Public Law 86-272 are exceeded and the corporation has substantial nexus with Colorado (Corporate Income Tax Guide, Part 1; Department Rule 39-22-301(1)).
 - **Substantial nexus thresholds** (Corporate Income Tax Guide, Part 1): a foreign C corporation organized or commercially domiciled in Colorado has nexus; otherwise nexus exists if Colorado property or payroll exceeds $50,000, or Colorado sales exceed $500,000, or 25% or more of the corporation's total property, payroll or sales are in Colorado. v0.1's "$100,000 of Colorado sales" economic-nexus figure matched the sales-and-use-tax rule, not the income-tax rule, and has been removed.
-- Partnerships and S corporations file DR 0106 and either include nonresident owners in a composite return or elect the SALT Parity Act entity-level tax — see `co-s-corporation-tax`.
+- Partnerships and S corporations file DR 0106 and either include nonresident owners in a composite return or elect the SALT Parity Act entity-level tax -- see `co-s-corporation-tax`.
 - Organizations with IRS tax-exempt status are generally exempt; an exempt entity claiming only a refundable or transferable credit files DR 0990 instead ([DR 0112 page, DOR](https://tax.colorado.gov/sites/default/files/documents/DR0112_2025.pdf)).
 
 ## Rates, bands and thresholds
@@ -43,11 +43,11 @@ depends_on:
 | Combined-reporting unity | A combined return must include each affiliate meeting at least three of the six tests of unity for the current and two preceding years | Corporate Income Tax Guide, Part 2 |
 | Estimated tax penalty exemption | No estimated tax penalty if net tax liability for the year is under $5,000 | Corporate Income Tax Guide, Part 9 |
 
-Colorado has one flat corporate rate; there are no brackets and no separate corporate minimum tax in the archived March 2026 guide (the absence of a minimum tax is not affirmatively stated in a primary source — see Not yet confirmed).
+Colorado has one flat corporate rate; there are no brackets and no separate corporate minimum tax in the archived March 2026 guide (the absence of a minimum tax is not affirmatively stated in a primary source -- see Not yet confirmed).
 
 ## The taxable base
 
-- Colorado corporate taxable income starts from federal taxable income with modifications: additions (for example, non-Colorado state and local bond interest; net operating loss deductions for losses incurred outside Colorado) and subtractions (for example, income exempt from federal tax) — Corporate Income Tax Guide, Parts 4 and 5.
+- Colorado corporate taxable income starts from federal taxable income with modifications: additions (for example, non-Colorado state and local bond interest; net operating loss deductions for losses incurred outside Colorado) and subtractions (for example, income exempt from federal tax) -- Corporate Income Tax Guide, Parts 4 and 5.
 - A C corporation with income from business activity outside Colorado apportioned and allocated that income; receipts-factor apportionment is under [C.R.S. §39-22-303.6](https://olls.info/crs/crs2026-title-39.pdf), and the DR 0106 instructions confirm ordinary income of a pass-through is generally sourced using receipts-factor apportionment even without a full election.
 - Income with no activity outside Colorado is sourced 100% to Colorado (DR 0106 instructions).
 - **Related-party adjustments:** where C corporations are owned or controlled directly or indirectly by the same interests, the executive director may, to avoid abuse, on a fair and impartial basis, distribute or allocate gross income and deductions between or among them to clearly reflect income (C.R.S. §39-22-304(6), Colorado Revised Statutes 2026). v0.1 cited "C.R.S. §39-22-503" for this; in the 2026 statutes §39-22-503 is "Taxation of real estate investment trusts", so that citation has been corrected.
@@ -57,7 +57,7 @@ Colorado has one flat corporate rate; there are no brackets and no separate corp
 
 | Filing | Calendar-year due date | Source |
 |---|---|---|
-| DR 0112 (C corporation return) | 15th day of the fifth month after year close — May 15 | [DR 0112 (2025) form instructions](https://tax.colorado.gov/sites/default/files/documents/DR0112_2025.pdf) |
+| DR 0112 (C corporation return) | 15th day of the fifth month after year close -- May 15 | [DR 0112 (2025) form instructions](https://tax.colorado.gov/sites/default/files/documents/DR0112_2025.pdf) |
 | Extension | Automatic 6-month extension to November 15; **no extension of payment**; extension payment via DR 0158-C | DR 0112 (2025) form instructions |
 | Estimated payments (DR 0112EP) | Quarterly: April 15, June 15, September 15 and December 15 | [Corporate Income Tax Guide, Part 9](https://tax.colorado.gov/sites/default/files/documents/Corporate_Income_Tax_Guide_Mar_2026_.pdf) |
 
@@ -71,9 +71,9 @@ A C corporation must remit estimated payments if its net Colorado tax liability 
 
 ## Cross-border points
 
-- **Public Law 86-272** (15 U.S.C. §381) bars a net-income tax where the only in-state activity is solicitation of orders for tangible personal property approved and filled outside the state; the Corporate Income Tax Guide applies the "doing business" test only when those federal minimum standards are exceeded — see `co-cross-border`.
+- **Public Law 86-272** (15 U.S.C. §381) bars a net-income tax where the only in-state activity is solicitation of orders for tangible personal property approved and filled outside the state; the Corporate Income Tax Guide applies the "doing business" test only when those federal minimum standards are exceeded -- see `co-cross-border`.
 - Dividends a C corporation includible in a combined report receives from another includible member are excluded from taxable income (Corporate Income Tax Guide, Part 3).
-- HB 25B-1002 (2025 special session) adds, for C corporations only and from 1 January 2026, an addback of the federal foreign-derived intangible income deduction and new listed tax-haven jurisdictions — see [HB 25B-1002](https://leg.colorado.gov/bills/hb25b-1002).
+- HB 25B-1002 (2025 special session) adds, for C corporations only and from 1 January 2026, an addback of the federal foreign-derived intangible income deduction and new listed tax-haven jurisdictions -- see [HB 25B-1002](https://leg.colorado.gov/bills/hb25b-1002).
 - Foreign corporations should confirm the current listed-jurisdiction list and water's-edge election mechanics with the Department before filing a combined return.
 
 ## Worked examples
@@ -113,7 +113,7 @@ expected:
 ## Ask the client first
 
 - Does the entity have Colorado property or payroll over $50,000, Colorado sales over $500,000, or 25% of its factors in Colorado (or is it organized/domiciled in Colorado)?
-- Is the entity a partnership or S corporation — has a SALT Parity election been made, and are composite obligations being met?
+- Is the entity a partnership or S corporation -- has a SALT Parity election been made, and are composite obligations being met?
 - Are quarterly DR 0112EP payments scheduled, and is the 90%-by-due-date penalty shield being maintained?
 - Which apportionment method (receipts factor vs direct sourcing) applies to each income stream, and is any affiliate in a listed jurisdiction (combined-reporting exposure)?
 - Is an extension payment (DR 0158-C) needed by May 15?
@@ -122,14 +122,14 @@ expected:
 
 | Source | URL | Read on |
 |---|---|---|
-| Colorado DOR — Colorado Corporate Income Tax Guide (March 2026) | https://tax.colorado.gov/sites/default/files/documents/Corporate_Income_Tax_Guide_Mar_2026_.pdf | 2026-10-28 |
-| Colorado DOR — Form DR 0112 (2025), Colorado C Corporation Income Tax Return and instructions | https://tax.colorado.gov/sites/default/files/documents/DR0112_2025.pdf | 2026-10-28 |
-| Colorado DOR — Form DR 0106 instructions (2025), Colorado Partnership and S Corporation Return | https://tax.colorado.gov/sites/tax/files/documents/DR0106_2025.pdf | 2026-10-28 |
-| Colorado DOR — Corporate Income Tax Guide (web page) | https://tax.colorado.gov/corporate-income-tax-guide | 2026-10-28 |
-| Colorado DOR — Colorado Taxes & Fees Due Date Guide | https://tax.colorado.gov/due-date-guide | 2026-10-28 |
-| Colorado OLLS — Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
-| Colorado General Assembly — HB 25B-1002 (2025 special session) | https://leg.colorado.gov/bills/hb25b-1002 | 2026-10-28 |
-| Cornell Law LII — 15 U.S.C. §381 (Public Law 86-272) | https://www.law.cornell.edu/uscode/text/15/381 | 2026-10-28 |
+| Colorado DOR -- Colorado Corporate Income Tax Guide (March 2026) | https://tax.colorado.gov/sites/default/files/documents/Corporate_Income_Tax_Guide_Mar_2026_.pdf | 2026-10-28 |
+| Colorado DOR -- Form DR 0112 (2025), Colorado C Corporation Income Tax Return and instructions | https://tax.colorado.gov/sites/default/files/documents/DR0112_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Form DR 0106 instructions (2025), Colorado Partnership and S Corporation Return | https://tax.colorado.gov/sites/tax/files/documents/DR0106_2025.pdf | 2026-10-28 |
+| Colorado DOR -- Corporate Income Tax Guide (web page) | https://tax.colorado.gov/corporate-income-tax-guide | 2026-10-28 |
+| Colorado DOR -- Colorado Taxes & Fees Due Date Guide | https://tax.colorado.gov/due-date-guide | 2026-10-28 |
+| Colorado OLLS -- Colorado Revised Statutes 2026, Title 39 (Taxation) | https://olls.info/crs/crs2026-title-39.pdf | 2026-10-28 |
+| Colorado General Assembly -- HB 25B-1002 (2025 special session) | https://leg.colorado.gov/bills/hb25b-1002 | 2026-10-28 |
+| Cornell Law LII -- 15 U.S.C. §381 (Public Law 86-272) | https://www.law.cornell.edu/uscode/text/15/381 | 2026-10-28 |
 
 Not yet confirmed: whether Colorado has any corporate minimum tax or alternative minimum tax (v0.1 asserted "None"; the March 2026 Corporate Income Tax Guide does not mention one, but absence from a guide is not statutory confirmation); the current-year corporate interest rate for late payments (the guide's 11% figure for 2026 is stated for estimated-tax purposes); the statute citation for the delinquent-payment penalty applied to C corporations specifically (the $5 / 5% / 0.5% / 12% figures are confirmed from the DR 0106 instructions, which state the rule for that return).
 
@@ -139,4 +139,4 @@ Not yet confirmed: whether Colorado has any corporate minimum tax or alternative
 
 ## Talk to a verified accountant
 
-**Talk to a verified accountant** — for Colorado corporate income-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
+**Talk to a verified accountant** -- for Colorado corporate income-tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
