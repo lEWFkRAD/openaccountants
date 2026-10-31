@@ -1,10 +1,10 @@
 ---
 name: or-income-tax
-description: Triggers when the taxpayer is an Oregon resident sole proprietor or single-member LLC needing to file Oregon Form OR-40. Covers Oregon's four-bracket graduated income tax (4.75%–9.9% for tax year 2025), standard and itemized deductions, personal exemption credit, federal tax subtraction, and Oregon's unique no-sales-tax environment. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
+description: Triggers when the taxpayer is an Oregon resident sole proprietor or single-member LLC needing to file Oregon Form OR-40. Covers Oregon's four-bracket graduated income tax (4.75%–9.9% for tax year 2026), standard and itemized deductions, personal exemption credit, federal tax subtraction, and Oregon's unique no-sales-tax environment. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
 version: "0.2"
 jurisdiction: US-OR
-tax_year: 2025
-last_updated: 2026-10-28
+tax_year: 2026
+last_updated: 2026-10-31
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -15,12 +15,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Oregon Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
-> **Scope.** Oregon Form OR-40 (Full-Year Resident) for tax year 2025 for full-year Oregon resident sole proprietors and disregarded single-member LLCs. Covers Oregon's four-bracket graduated income tax, standard and itemized deductions, Oregon-specific modifications to federal income, and credits.
+> **Scope.** Oregon Form OR-40 (Full-Year Resident) for tax year 2026 for full-year Oregon resident sole proprietors and disregarded single-member LLCs. Covers Oregon's four-bracket graduated income tax, standard and itemized deductions, Oregon-specific modifications to federal income, and credits.
 > **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and thresholds have been researched from primary sources but must be confirmed by a qualified professional before use in return preparation.
 
 ## Section 1: Metadata
 
-- **Tax year covered** -- 2025 (returns due April 15, 2026)
+- **Tax year covered** -- 2026 (returns due April 15, 2027)
 - **Primary form** -- Oregon Form OR-40 (Full-Year Resident)
 - **Tax authority** -- [Oregon Department of Revenue](https://www.oregon.gov/dor)
 - **Tax type** -- Graduated income tax
@@ -30,7 +30,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Field | Value |
 | --- | --- |
-| Tax year covered | 2025 (returns due April 15, 2026) |
+| Tax year covered | 2026 (returns due April 15, 2027) |
 | Primary form | Oregon Form OR-40 (Full-Year Resident) |
 | Tax authority | [Oregon Department of Revenue](https://www.oregon.gov/dor) |
 | Tax type | Graduated income tax |
@@ -41,56 +41,56 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Source | URL |
 | --- | --- |
 | Oregon Revised Statutes Chapter 316 (personal income tax) | https://www.oregonlegislature.gov/bills_laws/ors/ors316.html |
-| 2025 Form OR-40 Instructions (Publication OR-40-FY) | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx |
-| Oregon Tax Rate Charts (2025) | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx |
+| 2026 Publication OR-ESTIMATE (rate charts, standard deduction, exemption credit) | https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2026.pdf |
+| Oregon Tax Rate Charts (2026) | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx |
 
 ## Section 2: Quick reference -- rates and thresholds
 
 ### Statutory base table (ORS 316.048(1)(a), archived 2026-10-28)
 
-The unindexed statutory table is: not over $2,000 -- 4.75%; over $2,000 but not over $5,000 -- $95 + 6.75% of excess; over $5,000 but not over $125,000 -- $298 + 8.75% of excess; over $125,000 -- "$10,798 plus 9.9% of the excess over $125,000". Under ORS 316.048(1)(b) DOR "shall adopt a table" applying cost-of-living adjustments each calendar year -- the indexed 2025 tables below come from that DOR table.
+The unindexed statutory table is: not over $2,000 -- 4.75%; over $2,000 but not over $5,000 -- $95 + 6.75% of excess; over $5,000 but not over $125,000 -- $298 + 8.75% of excess; over $125,000 -- "$10,798 plus 9.9% of the excess over $125,000". Under ORS 316.048(1)(b) DOR "shall adopt a table" applying cost-of-living adjustments each calendar year -- the indexed 2026 tables below come from that DOR table, as published in the 2026 rate charts in Publication OR-ESTIMATE (archived 2026-10-31).
 
-### Tax brackets -- Single and Married Filing Separately (tax year 2025)
+### Tax brackets -- Single and Married Filing Separately (tax year 2026)
 
-**Tax brackets -- Single and Married Filing Separately (tax year 2025)**
-
-| Oregon taxable income | Tax |
-| --- | --- |
-| $0 – $4,400 | 4.75% of taxable income |
-| $4,401 – $11,100 | $209 + 6.75% of excess over $4,400 |
-| $11,101 – $125,000 | $661 + 8.75% of excess over $11,100 |
-| Over $125,000 | $10,627 + 9.9% of excess over $125,000 |
-
-### Tax brackets -- MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)
-
-**Tax brackets -- MFJ, HOH, and Qualifying Surviving Spouse (tax year 2025)**
+**Tax brackets -- Single and Married Filing Separately (tax year 2026)**
 
 | Oregon taxable income | Tax |
 | --- | --- |
-| $0 – $8,800 | 4.75% of taxable income |
-| $8,801 – $22,200 | $418 + 6.75% of excess over $8,800 |
-| $22,201 – $250,000 | $1,323 + 8.75% of excess over $22,200 |
-| Over $250,000 | $21,256 + 9.9% of excess over $250,000 |
+| $0 – $4,550 | 4.75% of taxable income |
+| $4,551 – $11,400 | $216 + 6.75% of excess over $4,550 |
+| $11,401 – $125,000 | $678 + 8.75% of excess over $11,400 |
+| Over $125,000 | $10,618 + 9.9% of excess over $125,000 |
 
-### Standard deduction (tax year 2025)
+### Tax brackets -- MFJ, HOH, and Qualifying Surviving Spouse (tax year 2026)
 
-**Standard deduction (tax year 2025)**
+**Tax brackets -- MFJ, HOH, and Qualifying Surviving Spouse (tax year 2026)**
+
+| Oregon taxable income | Tax |
+| --- | --- |
+| $0 – $9,100 | 4.75% of taxable income |
+| $9,101 – $22,800 | $432 + 6.75% of excess over $9,100 |
+| $22,801 – $250,000 | $1,357 + 8.75% of excess over $22,800 |
+| Over $250,000 | $21,237 + 9.9% of excess over $250,000 |
+
+### Standard deduction (tax year 2026)
+
+**Standard deduction (tax year 2026)**
 
 | Filing status | Standard deduction |
 | --- | --- |
-| Single | $2,835 | (not yet confirmed)
-| MFJ | $5,670 | (not yet confirmed)
-| HOH | $4,560 | (not yet confirmed)
-| MFS | $2,835 | (not yet confirmed)
+| Single | $2,900 |
+| MFJ | $5,800 |
+| HOH | $4,650 |
+| MFS | $2,900 |
 
-### Personal exemption credit (tax year 2025)
+### Personal exemption credit (tax year 2026)
 
-**Personal exemption credit (tax year 2025)**
+**Personal exemption credit (tax year 2026)**
 
 | Item | Value |
 | --- | --- |
-| Credit per exemption | $256 | (not yet confirmed)
-| Income phase-out begins | $100,000 (single) / $200,000 (MFJ) |
+| Credit per exemption | $260 |
+| Income phase-out begins | $100,000 (single) / $200,000 (MFJ) | (not yet confirmed)
 
 ### Other key figures
 
@@ -115,7 +115,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 ### Critical: Oregon starts from federal taxable income
 
-- **Oregon starts from federal taxable income; standard deduction stacks on top** -- Because Oregon starts from federal taxable income (which already includes the federal standard or itemized deduction), Oregon allows its own standard deduction on top. The Oregon standard deduction is relatively small ($2,835 single) because the federal deduction has already been taken. **However,** Oregon requires modifications for items where Oregon does not conform to the IRC: - Oregon additions (income Oregon taxes but federal does not, or deductions federal allows but Oregon does not) - Oregon subtractions (income federal taxes but Oregon does not, or deductions Oregon allows but federal does not) (not yet confirmed)
+- **Oregon starts from federal taxable income; standard deduction stacks on top** -- Because Oregon starts from federal taxable income (which already includes the federal standard or itemized deduction), Oregon allows its own standard deduction on top. The Oregon standard deduction is relatively small ($2,900 single) because the federal deduction has already been taken. **However,** Oregon requires modifications for items where Oregon does not conform to the IRC: - Oregon additions (income Oregon taxes but federal does not, or deductions federal allows but Oregon does not) - Oregon subtractions (income federal taxes but Oregon does not, or deductions Oregon allows but federal does not) (not yet confirmed)
 
 ## Section 4: Self-employed specific rules
 
@@ -142,19 +142,19 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 ## Section 5: Tier 1 rules -- deterministic
 
 - **R-OR-1. Federal taxable income is the starting point.** -- Form OR-40 Line 7 = federal Form 1040, Line 15 (federal taxable income). This includes the federal standard or itemized deduction already.
-- **R-OR-2. Oregon standard deduction is in addition to federal.** -- The Oregon standard deduction ($2,835 single / $5,670 MFJ) is subtracted from Oregon adjusted income to arrive at Oregon taxable income. (not yet confirmed)
+- **R-OR-2. Oregon standard deduction is in addition to federal.** -- The Oregon standard deduction ($2,900 single / $5,800 MFJ for 2026, per 2026 Publication OR-ESTIMATE) is subtracted from Oregon adjusted income to arrive at Oregon taxable income.
 - **R-OR-3. Social Security is fully exempt.** -- Subtract any Social Security benefits that were included in federal taxable income.
-- **R-OR-4. Oregon income tax refund subtraction.** -- If the taxpayer received an Oregon income tax refund in 2025 and included it in federal income (Schedule 1 Line 1), subtract it on the Oregon return -- Oregon does not tax its own refund.
+- **R-OR-4. Oregon income tax refund subtraction.** -- If the taxpayer received an Oregon income tax refund in the prior tax year and included it in federal income (Schedule 1 Line 1), subtract it on the Oregon return -- Oregon does not tax its own refund.
 - **R-OR-5. U.S. government bond interest is exempt.** -- Subtract interest from U.S. Treasury obligations, I-bonds, and other federal securities included in federal income.
-- **R-OR-6. Personal exemption credit is $256 per exemption.** -- Apply after computing tax, subject to income phase-out. (not yet confirmed)
+- **R-OR-6. Personal exemption credit is $260 per exemption (2026).** -- Apply after computing tax, subject to income phase-out. (not yet confirmed)
 - **R-OR-7. Oregon EITC is refundable.** -- Compute at 9% (or 12% with qualifying child under 3) of federal EITC. (not yet confirmed)
 
 ## Section 6: Tier 2 rules -- requires judgment
 
 - **J-OR-1. Oregon conformity with OBBBA.** -- Oregon's IRC conformity date must be verified. If Oregon does not conform to specific OBBBA provisions (§168(k) bonus depreciation, §179, §174A R&E), additions on Schedule OR-ASC may be required.
-- **J-OR-2. Standard vs. itemized deduction choice.** -- Oregon allows a separate standard deduction even though federal taxable income already reflects the federal deduction. The small Oregon standard deduction ($2,835 single) means most taxpayers should take it unless specific Oregon itemized deductions are advantageous. (not yet confirmed)
+- **J-OR-2. Standard vs. itemized deduction choice.** -- Oregon allows a separate standard deduction even though federal taxable income already reflects the federal deduction. The small Oregon standard deduction ($2,900 single) means most taxpayers should take it unless specific Oregon itemized deductions are advantageous. (not yet confirmed)
 - **J-OR-3. TriMet / LTD / Metro SHS / PFA applicability.** -- Self-employed individuals in the Portland metro or Eugene/Springfield areas must determine whether they are subject to local transit and housing services taxes. Geographic location of the taxpayer's residence determines applicability.
-- **J-OR-4. Oregon kicker credit availability.** -- The kicker is a unique Oregon mechanism that returns excess state revenue to taxpayers. Whether a kicker is available for tax year 2025 depends on state revenue performance. Verify availability and amount.
+- **J-OR-4. Oregon kicker credit availability.** -- The kicker is a unique Oregon mechanism that returns excess state revenue to taxpayers. Whether a kicker is available for tax year 2026 depends on state revenue performance. Verify availability and amount.
 
 ## Section 7: Supplier pattern library
 
@@ -250,12 +250,20 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
-
+Not yet confirmed: the Oregon EITC percentages (12%/9%), kicker credit
+mechanics, personal exemption phase-out thresholds, TriMet/LTD/Metro SHS/PFA
+local tax rates, the 529 subtraction amounts, the estimated tax interest
+rates, and the Form OR-40 line mapping are not tied to an archived capture;
+the archived captures in the table cover the DOR home page, the PIT page,
+ORS Chapter 316, and the 2026 OR-ESTIMATE rate charts (which confirm the
+2026 bracket thresholds, standard deduction, and personal exemption credit).
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| Oregon Department of Revenue (home) | https://www.oregon.gov/dor | 2026-10-28 |
+| Oregon Department of Revenue -- Personal Income Tax | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx | 2026-10-28 |
+| Oregon Legislative Assembly -- ORS Chapter 316 | https://www.oregonlegislature.gov/bills_laws/ors/ors316.html | 2026-10-28 |
+| Oregon DOR -- 2026 Publication OR-ESTIMATE (2026 rate charts: single/MFS 4.75% to $4,550, 6.75% to $11,400, 8.75% to $125,000, 9.9% above; MFJ/HOH/QSS $9,100/$22,800/$250,000; standard deduction $2,900/$4,650/$5,800; personal exemption credit $260) | https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2026.pdf | 2026-10-31 |
 
 Not yet confirmed against archived sources.
 
