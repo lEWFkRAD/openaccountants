@@ -315,35 +315,9 @@ AUDIT FLASH POINT -- Milwaukee Local Stacking. Multiple stacking scenarios creat
 
 **Form WT-7 due:** January 31, 2026 with all eight W-2s attached. UI UCT-101 due quarterly.
 
-### 11.2 Example B -- Multistate WI-IL Border Employee
+### 11.2 Reciprocity note -- Wisconsin-IL border employee (not a numbered worked example)
 
-**Facts:** Cheese & Cracker Co. has its only office in Kenosha, Wisconsin. It hires David, who lives in Waukegan, Illinois (10 miles south). David commutes daily to Kenosha and works 100% of his hours in Wisconsin. Salary: $75,000/year.
-
-**Income tax (PIT) -- reciprocity applies:**
-
-- David completes Form W-220 on his first day and gives it to the employer.
-- Employer suspends Wisconsin income tax withholding for David.
-- Employer is registered for Illinois withholding (because it has Illinois-resident employees), so it withholds Illinois income tax (4.95% flat rate, IL personal income tax) on David's wages. (not yet confirmed)
-- David's W-2 for 2025:
-  - Box 1 (federal wages): $75,000 (not yet confirmed)
-  - Box 15: IL (state), $75,000 in Box 16, IL tax in Box 17 of approximately $3,712.50 (not yet confirmed)
-  - No Wisconsin reporting on the W-2 (or a $0 line with WI code in Box 15 if multistate format).
-- David files an Illinois Form IL-1040 to reconcile. He does NOT file a Wisconsin return.
-
-**UI tax -- Wisconsin applies (NOT Illinois):**
-
-- David performs all services in Wisconsin (the "localization of services" test under DOL UIPL 4-95).
-- Employer pays Wisconsin UI on David's wages: $14,000 × applicable rate (e.g., 1.20% experienced rate) = $168.
-- Employer does NOT pay Illinois UI.
-
-**Workers' compensation -- Wisconsin applies:**
-
-- Wisconsin WC must cover David because he works in Wisconsin.
-- Illinois WC is not required (work is not performed in Illinois).
-
-**Critical reviewer note:** The reciprocity split means David pays Illinois state income tax but the employer's UI and WC remain in Wisconsin. Payroll system must be configured for this split -- a system that defaults "state" to a single field will produce errors. Confirm the payroll provider supports separate income-tax-state vs UI-state assignments.
-
-**If W-220 expires January 1 and is not re-collected:** Employer must resume Wisconsin PIT withholding on January 1 until a new W-220 is received. Withholding made BEFORE the new W-220 is filed cannot be refunded by the employer -- David must file a WI nonresident return to claim a refund. This is the most common employer-reciprocity error.
+A Wisconsin employer with an Illinois-resident commuter who performs 100% of services in Wisconsin applies the WI-IL reciprocity agreement: the employee files Form W-220, the employer suspends Wisconsin income tax withholding and withholds Illinois income tax instead (W-2 reports Illinois wages/withholding, no Wisconsin line), and the employee files IL-1040 with no Wisconsin return. Unemployment insurance and workers' compensation do NOT follow reciprocity: services localized in Wisconsin keep Wisconsin UI and Wisconsin workers' comp coverage. Flash point: W-220 expires each January 1 -- if not re-collected, the employer must resume Wisconsin withholding on January 1, and any over-withheld tax before a new W-220 is only refundable by the employee filing a Wisconsin nonresident return. Payroll systems that force a single 'state' field break this income-tax-state vs UI-state split. (Figures for this scenario are not yet confirmed against archived sources.)
 
 ### 11.3 Example C -- Contractor Classification Audit
 

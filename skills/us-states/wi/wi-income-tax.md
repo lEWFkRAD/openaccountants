@@ -35,7 +35,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: figures in this skill lack archived line-citations. For 2026, 2025 Wis. Act 43 reduces the first-bracket rate from 3.50% to 3.25% effective January 1, 2026; the 2026 bracket thresholds and reduced rate are pending an archived source and are not shown in the tables above.
 
 
 | Source | URL | Read on |
@@ -52,7 +52,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 ## Section 2: Quick reference -- rates and thresholds
 
-### Tax brackets -- Single / Head of Household (2025 and 2026, per Act 15)
+### Tax brackets -- Single / Head of Household (2025, per 2025 Wis. Act 15 indexing)
 
 **Tax brackets -- Single / Head of Household**
 
@@ -63,7 +63,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 | $50,481 – $323,290 | 5.30% | (not yet confirmed)
 | $323,291 and above | 7.65% | (not yet confirmed)
 
-### Tax brackets -- Married filing jointly (2025 and 2026)
+### Tax brackets -- Married filing jointly (2025)
 
 **Tax brackets -- Married filing jointly**
 
@@ -74,7 +74,7 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 | $67,301 – $431,060 | 5.30% | (not yet confirmed)
 | $431,061 and above | 7.65% | (not yet confirmed)
 
-### Tax brackets -- Married filing separately (2025 and 2026)
+### Tax brackets -- Married filing separately (2025)
 
 **Tax brackets -- Married filing separately**
 
