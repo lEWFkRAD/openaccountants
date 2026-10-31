@@ -68,8 +68,8 @@ The IDES chart fixes a minimum penalty for 2026 (not yet confirmed (the archived
 
 ## Cross-border points
 
-- Localization-of-service rules decide which state gets the wages for multi-state employees (confirm IDES guidance: ); reciprocal coverage agreements allow single-state UI for multi-state work (confirm FL participation: ).
-- FUTA credit against Illinois contribution follows the standard pattern; 2026 credit-reduction status for Illinois: .
+- Localization-of-service rules decide which state gets the wages for multi-state employees (not yet confirmed); reciprocal coverage agreements allow single-state UI for multi-state work (not yet confirmed).
+- FUTA credit against Illinois contribution follows the standard pattern; 2026 credit-reduction status for Illinois: not yet confirmed.
 - Common-ownership wage treatment rules exist on the IDES site (page identified 2026-10-27) for related-entity employers.
 
 ## Worked examples

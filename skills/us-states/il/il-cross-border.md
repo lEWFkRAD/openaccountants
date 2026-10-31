@@ -41,7 +41,7 @@ Source-cited draft, run of 27 October 2026. Illinois reaches non-resident indivi
 | Item | Amount / rule | Source |
 |---|---|---|
 | Individual flat rate | 4.95% | 35 ILCS 5 (section text ; rate corroborated by existing `il-income-tax.md` in this pack) |
-| Surtax | 3% on taxable income over $100k (single)/$200k (joint); 2% over $250k/$500k (confirm current thresholds: ) | 35 ILCS 5/201(b) --  |
+| Surtax | 3%/2% tiers on taxable income above statutory thresholds (not yet confirmed: 35 ILCS 5/201 text not archived; see il-income-tax.md) | 35 ILCS 5/201(b) |
 | Corporate combined rate | 9.5% on apportioned net income | IL-1120 PDF, read 2026-10-27 |
 | Corporate apportionment | single sales factor; throwback/throw-out; Finnigan for unitary groups from TYE 2025-12-31 | IL-1120 instructions, read 2026-10-27 |
 | Pass-through attribution | gains/losses from S corps/partnerships attributable to Illinois if the entity is taxable in Illinois | IL-1120 instructions, read 2026-10-27 |

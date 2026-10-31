@@ -63,7 +63,7 @@ Withholding is required on:
 
 ### 2.2 Computing withholding -- Booklet IL-700-T
 
-- **Percentage method formula** -- 1. Determine gross wages for the pay period. 2. Subtract the allowance amount: $2,775 per allowance per year (the basic personal exemption under 35 ILCS 5/204(b) for 2025), prorated by pay period: - Weekly: $2,775 / 52 = $53.37 per allowance - Bi-weekly: $2,775 / 26 = $106.73 per allowance - Semi-monthly: $2,775 / 24 = $115.63 per allowance - Monthly: $2,775 / 12 = $231.25 per allowance 3. Multiply the result by 4.95%. 4. Round to the nearest cent.  _(35 ILCS 5/204(b))_
+- **Percentage method formula** -- 1. Determine gross wages for the pay period. 2. Subtract the allowance amount: $2,850 per allowance per year (the basic personal exemption under 35 ILCS 5/204(b) for 2025), prorated by pay period: - Weekly: $2,850 / 52 = $54.81 per allowance - Bi-weekly: $2,850 / 26 = $109.62 per allowance - Semi-monthly: $2,850 / 24 = $118.75 per allowance - Monthly: $2,850 / 12 = $237.50 per allowance 3. Multiply the result by 4.95%. 4. Round to the nearest cent.  _(35 ILCS 5/204(b))_
 
 The Illinois Department of Revenue publishes Booklet IL-700-T (Illinois Withholding Tax Tables) annually. The 2025 edition retains the wage-bracket and percentage methods used since 2017.
 
@@ -114,16 +114,14 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 
 ### 2.7 Withholding payment frequency
 
-**Withholding deposit schedule by threshold**
+**Withholding deposit schedule by threshold**  _(IDOR Pub-131)_
 
 | Schedule | Threshold | Deposit Timing |
 | --- | --- | --- |
-| **Annual** | $1,000 or less withheld in prior calendar year | With IL-941 for Q4 (Feb 2026) |
-| **Quarterly** | More than $1,000 but $12,000 or less in lookback period | With each IL-941 |
-| **Monthly** | More than $12,000 in lookback period | 15th of month following payday (not yet confirmed -- IL-941 instructions not archived) |
-| **Semi-weekly** | More than $12,000 in lookback period AND $50,000+ in a single quarter, OR $100,000+ accumulated in any quarter | Wednesday for Wed-Fri paydays; Friday for Sat-Tue paydays |
+| **Monthly** | $12,000 or less withheld in the look-back period (also first-time taxpayers) | 15th of the month following the month of withholding (Form IL-501) |
+| **Semi-weekly** | More than $12,000 withheld in the look-back period, or more than $12,000 exceeded during a quarter | Wednesday for amounts withheld Wed-Fri; Friday for amounts withheld Sat-Tue |
 
-- **Lookback period definition** -- The lookback period is the 12-month period ending June 30 of the preceding calendar year (so for 2025, the lookback is July 1, 2023 to June 30, 2024). Semi-weekly depositors with a single accumulated liability of $100,000 or more in a quarter must deposit the next banking day under the federal-style "one-day rule," which Illinois has incorporated by reference.
+- **Look-back period definition** -- The look-back period is the one-year period ending June 30 of the immediately preceding calendar year (for calendar year 2025, July 1, 2023 through June 30, 2024). IDOR annually reviews the total withheld as reported on returns filed and notifies the employer if the payment frequency changes.  _(IDOR Pub-131.)_
 
 ### 2.8 IL-W-3 annual reconciliation
 
@@ -142,9 +140,9 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 - **Supplemental wage rate** -- IL withholds 4.95% on all wages, including supplemental pay (no separate supplemental rate)  _(Booklet IL-700-T; 86 Ill. Admin. Code 100.7110.)_
 - **Annual (≤ $1,000 prior year)** -- IL has no 'annual' withholding payment schedule. Illinois has only two payment schedules - monthly and semi-weekly. IL-941 is filed quarterly. ($1,000 is not an IL withholding deposit threshold.)  _(IDOR Pub-131; 2025 IL-941 instr.)_
 - **Quarterly ($1,001–$12,000)** -- No 'quarterly' payment schedule exists. Employers whose look-back withholding was <= $12,000 are MONTHLY payers (Form IL-501 by the 15th of the following month) and file IL-941 quarterly.  _(IDOR Pub-131; 2025 IL-941 instr.)_
-- **Monthly (> $12,000)** -- Threshold reversed: monthly applies when look-back withholding is <= $12,000 (not > $12,000). Monthly payers remit by the 15th of the following month (that due date is correct).  _(IDOR Pub-131; 2025 IL-941 instr.)_
-- **Semi-weekly (> $12,000 + $50K+/qtr)** -- The semi-weekly schedule is triggered solely by look-back withholding > $12,000; there is no '$50,000/quarter' condition (that is a federal rule). The Wed/Fri remittance mechanics shown are correct.  _(IDOR Pub-131; 2025 IL-941 instr.)_
-- **IL-941 due date** -- IL-941 is due the LAST DAY of the month following the quarter: April 30, July 31, October 31, January 31.  _(2025 IL-941 instr.)_
+- **Monthly (≤ $12,000)** -- Monthly payers are first-time taxpayers and employers who reported $12,000 or less in withholding during the look-back period; remit by the 15th of the following month (Form IL-501).  _(IDOR Pub-131.)_
+- **Semi-weekly (> $12,000)** -- Assigned solely by look-back withholding > $12,000; an employer that exceeds $12,000 during a quarter must switch to semi-weekly in the following quarter for the remainder of the year and the subsequent year. There is no '$50,000/quarter' condition (that is a federal rule).  _(IDOR Pub-131.)_
+- **IL-941 due date** -- IL-941 is due the last day of the month following the quarter: April 30, July 31, October 31, January 31 (shifted to the next business day when those fall on a weekend or holiday).  _(IDOR Pub-131-D.)_
 - **W-2 e-file deadline** -- W-2/W-2c/W-2G must be e-filed to IL by January 31 (waiver via IL-900-EW)  _(not yet confirmed (statute text not archived).)_
 - **1099 e-file deadline** -- IL requires required 1099 types to be filed electronically; March 31 aligns with the federal e-file date for most 1099s, but Form 1099-NEC is due January 31.  _(not yet confirmed (statute text not archived).)_
 - **UI taxable wage base** -- 2025 IL UI taxable wage base: not yet confirmed (IDES chart text layer is sparse; figures not machine-readable in the archived copy)
@@ -383,46 +381,6 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
     - IL PIT withheld on 25 employees: depends on wages, but at $50,000 average gross and $2,850 personal exemption, withholding ≈ 4.95% × ($50,000 – $2,850) = $2,333 per employee × 25 = **$58,325 IL PIT remitted via IL-941**.
     - IL UI: **$12,700** as computed above (year 1; will adjust).
     - Total IL employer-side cost: UI as above plus Secure Choice administrative facilitation (no employer cost).
-
-### Worked example 3 -- Contractor misclassification challenge under the ABC test
-
-**Facts**: Northshore Construction Co. is a residential remodeling contractor in Evanston. It engages 12 carpenters as 1099 contractors. Each carpenter (1) signed a contract stating they are independent contractors, (2) provides their own hand tools but uses Northshore's lumber, scaffolding, and power tools on each job, (3) is told which jobsite to report to and what work to do that day by the Northshore project manager, (4) works exclusively for Northshore in the current and prior calendar year, and (5) is paid an hourly rate of $35 with no benefits. One carpenter, Mr. Diaz, is terminated and files for unemployment. IDES initiates an audit.
-
-**Analysis**:
-
-1. **UI Act § 212 ABC test applied**:
-
-   - **Prong A -- Free from control and direction**: FAIL. The carpenters are told which jobsite, what work, and what hours. Northshore's project manager supervises daily. Northshore controls both the result and the means.
-
-   - **Prong B -- Outside usual course of business OR outside all places of business**: FAIL. Carpentry IS the usual course of business of a residential remodeling contractor. The work is performed at customer jobsites which are Northshore's places of business by extension under Illinois case law (Carpetland U.S.A. v. IDES, 776 N.E.2d 166 (Ill. 2002)).
-
-   - **Prong C -- Independently established trade**: FAIL. The carpenters work exclusively for Northshore with no other clients, no separate business name, no own customers, no business cards, no commercial general liability insurance, and no separate workers' compensation policy.
-
-2. **Conclusion**: All 12 carpenters are employees for UI purposes. IDES will reclassify retroactively and assess UI contributions on all wages paid.
-
-3. **Cascading consequences**:
-
-   - **UI back contributions** (Northshore's potential exposure): If average annual wages per carpenter are $70,000 over 2023, 2024, 2025 (3 years × 12 carpenters × the wage base × the applicable rate -- wage base and rate: not yet confirmed (the archived IDES chart's text layer is sparse; figures not machine-readable in the archived copy)) -- UI back-contributions, plus interest and penalties under 820 ILCS 405/2206 (rates: not yet confirmed -- statute text not archived).
-
-   - **IL PIT withholding back-assessment**: IL DOR is cross-referred. 12 carpenters × $70,000 average × 3 years × 4.95% = $124,740 in IL PIT that should have been withheld. The employer is jointly and severally liable under 35 ILCS 5/704A. Penalty under 35 ILCS 735/3 of 15% of the underwithheld amount, plus interest (penalty rate: not yet confirmed -- statute text not archived).
-
-   - **Employee Classification Act (construction) penalty**: 820 ILCS 185/40 -- $1,500 per day per worker (not yet confirmed -- statute text not archived) × ~750 working days × 12 workers = potentially **$13.5 million theoretical maximum**, though IDOL typically settles for a fraction. Personal liability attaches to corporate officers.
-
-   - **Federal liability**: Backup withholding, FICA back-assessment, FUTA, IRS § 3509 reduced rates if there's no intentional disregard (the lack of 1099 filing in some years may eliminate the § 3509 relief).
-
-   - **Workers' compensation**: Northshore likely did not carry comp on the reclassified workers, exposing it to liability for past injuries plus penalties under 820 ILCS 305/4.
-
-   - **Wage Payment Act**: If any unpaid overtime owed under FLSA exists, it is now actionable under 820 ILCS 115/14 (Class A misdemeanor for willful nonpayment).
-
-4. **Remediation**: There is no clean retroactive fix once the audit has started. Northshore should:
-   - Engage Illinois employment counsel immediately.
-   - Consider IRS Voluntary Classification Settlement Program (VCSP) for federal exposure (cannot use if under audit at any level).
-   - Reclassify going forward to W-2.
-   - Adopt a workers' comp policy.
-   - Register for Secure Choice (with 12+ employees, mandate clearly triggered).
-   - Begin IL UI quarterly filings; switch to IL-941 reporting; consider voluntary disclosure to IDES under 820 ILCS 405/2207 for limited penalty relief.
-
-5. **Reviewer note**: Document the ABC analysis contemporaneously for every contractor engagement going forward. The cost of getting this wrong in Illinois is among the highest in the country because of the layered Construction Act penalty regime stacked on top of UI and PIT assessments.
 
 ## Ask the client first
 

@@ -67,8 +67,8 @@ This block is generated from verified `skill_facts` -- edit the facts, not the p
 - **SOT rate -- general** -- 6.25%  _(35 ILCS 110/3-10.)_
 - **SOT tax base** -- General SOT base = selling price of TPP transferred (if separately stated) or 50% of the entire bill if not separately stated; never less than cost. 'Cost price' applies only to de minimis servicepersons (cost-of-TPP < 35%, or < 75% pharmacy/graphic arts).  _(86 Ill. Admin. Code 140.106; IDOR Pub-113.)_
 - **Chicago -- general** -- 10.25% combined (state 6.25 + county/RTA/city)  _(IDOR MyTax IL Rate Finder.)_
-- **Springfield -- general** -- Springfield combined rate is ~9.75% (6.25 state + 1.00 county + 2.50 city/home-rule); 8.75% is outdated. Confirm exact rate via MyTax IL Rate Finder.  _(IDOR MyTax IL Tax Rate Finder.)_
-- **Champaign -- general** -- Component math supports 9.00% (6.25 + 1.25 county + 1.50 city); some third-party sources show 9.25% after recent local changes. Confirm via MyTax IL Rate Finder.  _(IDOR MyTax IL Rate Finder.)_
+- **Springfield -- general** -- combined rate not yet confirmed (IDOR Rate Finder is JS-rendered; local component tables not archived).  _(IDOR MyTax IL Tax Rate Finder.)_
+- **Champaign -- general** -- combined rate not yet confirmed (IDOR Rate Finder is JS-rendered; local component tables not archived).  _(IDOR MyTax IL Tax Rate Finder.)_
 - **Monthly tier** -- Monthly filers (avg > $200/mo tax) file ST-1 by the 20th of the following month  _(86 Ill. Admin. Code 130.502; ST-1 instr.)_
 - **Quarterly tier** -- Quarterly if avg <= $200/mo; due the 20th after quarter end  _(ST-1 instr.)_
 - **Annual tier** -- Annual if avg < $50/mo; due January 20  _(ST-1 instr.)_
@@ -229,23 +229,8 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ### Worked example 2 -- Mixed rate sales (food and general)
 
-**Input:** Springfield seller. General merchandise: $10,000. Qualifying food: $5,000.
-**Expected:** General: $10,000 x 8.75% = $875. Food: $5,000 x 2.00% = $100. Total: $975. State portion: ($10,000 x 6.25%) + ($5,000 x 1%) = $625 + $50 = $675. Vendor discount: $675 x 1.75% = $11.81. Net: $963.19.
-
-### Worked example 3 -- Service with property transfer
-
-**Input:** HVAC contractor in Champaign. Service charges: $3,000. Parts (cost price): $800.
-**Expected:** SOT applies to $800 (cost price of parts). Tax: $800 x 9.00% = $72.
-
-### Worked example 4 -- Use tax on out-of-state purchase
-
-**Input:** Chicago business purchases $5,000 of equipment from out-of-state vendor, no tax collected.
-**Expected:** Use tax: $5,000 x 10.25% = $512.50.
-
-### Worked example 5 -- Late filing (no vendor discount)
-
-**Input:** Same as Test 1 but filed 10 days late.
-**Expected:** No vendor discount. Net tax: $2,050 plus penalties and interest.
+**Input:** State-level computation only (local add-ons vary by jurisdiction and are not line-verified). General merchandise: $10,000. Qualifying food: $5,000.
+**Expected:** State portion: ($10,000 x 6.25%) + ($5,000 x 1%) = $625 + $50 = $675. Vendor discount (state portion, filed on time): $675 x 1.75% = $11.81. Net state tax: $663.19.
 
 ## Ask the client first
 

@@ -67,10 +67,9 @@ This is a Tier 2 content skill for computing quarterly estimated Illinois income
 - **Q3** -- September 15, 2025  _(2025 IL-1040-ES.)_
 - **Q4** -- January 15, 2026  _(2025 IL-1040-ES.)_
 - **Instalment split** -- Four equal 25% installments (not line-verified in an archived source: not yet confirmed)
-- **Underpayment rate** -- IL interest tracks the IRC 6621 underpayment rate (federal short-term + 3 points for individuals) and is set SEMI-ANNUALLY (Jan 1 and Jul 1), not federal short-term + 2% quarterly.  _(35 ILCS 735/3-2; IDOR Pub-103.)_
+- **Underpayment rate** -- IL interest tracks the IRC 6621 underpayment rate and is set semi-annually (January 1 and July 1).  _(35 ILCS 735/3-2; IDOR Pub-103.)_
 - **Estimated tax exemption** -- IL-1040-ES uses $2,850 (S) / $5,700 (MFJ) for 2025 - the same as IL-1040  _(IDOR FY2025-16; IL-1040-ES instr.)_
 - **Income tax exemption** -- $2,850 (S) / $5,700 (MFJ)  _(IDOR FY2025-16.)_
-- **VERIFY** -- They do NOT differ: both IL-1040 and IL-1040-ES use $2,850 (S) / $5,700 (MFJ) for 2025. The $2,625/$5,250 figures in rows 8-9 and 19 are erroneous (older amounts).  _(IDOR FY2025-16.)_
 
 ## The taxable base
 
@@ -172,30 +171,15 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ## Worked examples
 
-### Test 1: Standard freelancer
+### Worked example 1 -- Standard freelancer
 
 - **Input:** Single filer, IL resident all year. Expected net income from Schedule C: $100,000. No withholding. No credits other than personal exemption.
 - **Expected:** IL taxable income: $100,000 - $2,850 = $97,150. Tax: $97,150 x 4.95% = $4,808.93. Quarterly payment: $4,808.93 / 4 = $1,202.23 per quarter.
 
-### Test 2: Below threshold
+### Worked example 2 -- Below threshold
 
 - **Input:** Part-year freelancer. Expected IL taxable income: $8,000. Tax: $8,000 x 4.95% = $396. With withholding of $0.
 - **Expected:** $396 is not more than the $1,000 threshold. No estimated payments required.
-
-### Test 3: Safe harbour using prior year
-
-- **Input:** Current year estimated tax: $6,000. Prior year IL tax: $4,000.
-- **Expected:** Safe harbour = lesser of ($6,000 x 90% = $5,400) or ($4,000 x 100% = $4,000). Required annual payment: $4,000. Quarterly: $1,000.
-
-### Test 4: MFJ with W-2 withholding
-
-- **Input:** MFJ. Combined income: $150,000. W-2 withholding (spouse): $3,200. Estimated tax: ($150,000 - $5,700) x 4.95% = $7,142.85. Net after withholding: $7,142.85 - $3,200 = $3,942.85.
-- **Expected:** $3,942.85 > $1,000. Quarterly: $3,942.85 / 4 = $985.71.
-
-### Test 5: Property tax credit
-
-- **Input:** Single filer, IL taxable income $80,000. Property taxes paid: $6,000.
-- **Expected:** Tax: ($80,000 - $2,850) x 4.95% = $3,818.93. Property tax credit: $6,000 x 5% = $300. Net: $3,518.93. Quarterly: $879.73.
 
 ## Ask the client first
 

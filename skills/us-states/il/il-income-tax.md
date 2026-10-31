@@ -190,7 +190,7 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 ### E-2: Net loss limitation
 
 - **Net loss deduction limitation** -- Illinois limits the net loss deduction to $100,000 per year for individuals (enacted 2021, extended through 2027). Excess losses carry forward.  _(35 ILCS 5/203(e)(2).)_
-- **Surtax tiers carried, not archived** -- the 3%/2% surtax tiers (3% on taxable income over $100k single/$200k joint, 2% over $250k/$500k) are carried from prior runs: the archived 35 ILCS 5/201 page (ilga.gov, retrieved 2026-10-28) is a JS shell with no statutory text, and the archived IL-1040 form itself shows only the flat 4.95% line -- surtax is computed on the separate Form IL-1040-4060/9410 worksheet. Treat the tier thresholds as  until an instructions PDF is archived.
+- **Surtax tiers carried, not archived** -- the 3%/2% surtax tiers (3% on taxable income over $100k single/$200k joint, 2% over $250k/$500k) are carried from prior runs: the archived 35 ILCS 5/201 page (ilga.gov, retrieved 2026-10-28) is a JS shell with no statutory text, and the archived IL-1040 form itself shows only the flat 4.95% line -- surtax is computed on the separate Form IL-1040-4060/9410 worksheet. Treat the tier thresholds as not yet confirmed until an instructions PDF is archived.
 
 ### E-3: No standard deduction
 
@@ -219,21 +219,6 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 **Input:** Federal AGI: $150,000. No modifications. MFJ, 2 dependents. Property taxes paid: $8,000.
 **Expected:** Exemptions: $5,700 + (2 x $2,850) = $11,400. Net income: $138,600. Tax: $138,600 x 4.95% = $6,860.70. Property tax credit: $8,000 x 5% = $400. Net tax: $6,460.70.
-
-### Worked example 3 -- Bonus depreciation add-back
-
-**Input:** Federal AGI includes $50,000 of bonus depreciation on a $50,000 asset (5-year MACRS). Year 1.
-**Expected:** Addition: $50,000. Subtraction: $10,000 (year 1 standard MACRS on 5-year property). Net addition: $40,000. Track remaining $40,000 as future IL subtractions.
-
-### Worked example 4 -- Social Security subtraction
-
-**Input:** Federal AGI: $60,000 including $12,000 of Social Security benefits taxed federally.
-**Expected:** Subtraction: $12,000. IL base income: $48,000.
-
-### Worked example 5 -- Earned income credit
-
-**Input:** Federal EIC: $2,000. Single, 1 child.
-**Expected:** IL EIC: $2,000 x 20% = $400 (refundable).
 
 ## Ask the client first
 

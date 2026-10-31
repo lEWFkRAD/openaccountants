@@ -107,7 +107,7 @@ Reviewed against the cited tax authorities by a licensed accountant on 2026-06-0
 - **Partnership form / due date** -- IL-1065 is due the 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers), not March 15. Illinois does not follow the federal March 15 partnership deadline. Partnerships organized under the Lloyd's plan of operation use the federal due date instead. The automatic six-month extension covers filing only; replacement tax, pass-through withholding, and elective PTE tax remain due by the original due date.  _(2025 IL-1065 Instructions (R-12/25); 35 ILCS 5/505; IDOR Partnership Q&A (answer.74).)_
 - **Estimated instalments** -- Corporations expecting > $400 income+replacement tax pay on the 15th day of the 4th, 6th, 9th, and 12th months  _(IDOR Corporation page.)_
 - **Cumulative split** -- Four equal installments (cumulative 25/50/75/100)  _(IDOR Corporation page; IL-2220.)_
-- **Credit rate** -- There is no 6.5% individual credit for PPRT, and PPRT is not creditable on the IL-1040. 201(p) is the elective Pass-Through Entity (PTE) tax (rate 4.95%); the related owner credit (35 ILCS 5/224) equals 4.95% of the owner's distributive share. The entry conflates PPRT with the PTE tax and states the wrong rate.  _(35 ILCS 5/201(p), 5/224; IDOR Q&A 83; Pub-129.)_
+- **Credit rate** -- PPRT is not creditable on the IL-1040. 35 ILCS 5/201(p) is the elective Pass-Through Entity (PTE) tax (rate 4.95%); the related owner credit (35 ILCS 5/224) equals the owner's share of the PTE tax paid.  _(35 ILCS 5/201(p), 5/224; IDOR Pub-129.)_
 - **Claimed by** -- True for the PTE-tax credit (claimed on IL-1040 via Schedule K-1-P), but it does NOT apply to PPRT - see row 20.  _(35 ILCS 5/224; Pub-129.)_
 - **IL CIT rate** -- 7.0% corporate income tax (combined with 2.5% PPRT = 9.5%)  _(35 ILCS 5/201(b); 2025 IL-1120 (net income x 7.0%).)_
 
@@ -217,7 +217,7 @@ Payments are made with Form IL-1120-V (corporate) or IL-1120-ST-V / IL-1065-V (p
 
 ### 8.2 Credit rate and computation
 
-- **Credit rate and computation** -- The credit is 6.5% of the owner's distributive share of the partnership's, S-corporation's, or trust's "replacement tax payment" -- i.e., the actual PPRT paid by the entity. The 6.5% figure is a statutory rate; it is not the PPRT rate of 1.5%. To compute the credit: 1. Determine the owner's distributive share of the entity's PPRT (from Schedule K-1-P or K-1-T). 2. Multiply that distributive share of PPRT by 6.5%. 3. Claim the result on Schedule 1299-C (individual) or the equivalent line on IL-1040. Worked numbers (single partner): - Partnership net income allocated to Illinois: $100,000 - Partnership PPRT at 1.5%: $1,500 - Single partner's distributive share: 100% of PPRT = $1,500 - Owner's §201(p) credit: 6.5% × $1,500 = $97.50 The credit is small relative to the PPRT paid because the 6.5% rate applies to the *PPRT amount*, not to the underlying income. The economic effect is that the pass-through entity bears 1.5% PPRT on its Illinois income, and the owner gets back roughly 6.5% × 1.5% = 0.0975% of that income as a PIT credit. The net Illinois tax burden on pass-through Illinois income remains approximately 1.5% + 4.95% − 0.0975% ≈ 6.35%.  _(35 ILCS 5/201(p))_
+- **Credit rate and computation** -- The §201(p) credit is computed on the owner's distributive share of the entity's "replacement tax payment" -- i.e., the actual PPRT paid by the entity (from Schedule K-1-P or K-1-T) -- and is claimed on Schedule 1299-C (individual) or the equivalent line on IL-1040. The credit rate itself is not yet confirmed: the archived 35 ILCS 5/201 page is a JS shell with no statutory text, and the rate carried in earlier drafts is not line-verified in any archived source.  _(35 ILCS 5/201(p); IDOR Pub-129.)_
 
 ### 8.3 Credit limitations
 
@@ -225,7 +225,7 @@ Payments are made with Form IL-1120-V (corporate) or IL-1120-ST-V / IL-1065-V (p
 
 ### 8.4 Trust beneficiaries
 
-- **Trust beneficiary credit** -- Beneficiaries of trusts that pay PPRT receive a K-1-T showing their share of trust PPRT. The 6.5% §201(p) credit applies on the same basis as for partners and shareholders, but only to the extent the beneficiary received a distribution carrying out the trust's distributable net income (DNI) that included Illinois-source income.  _(35 ILCS 5/201(p))_
+- **Trust beneficiary credit** -- Beneficiaries of trusts that pay PPRT receive a K-1-T showing their share of trust PPRT. The §201(p) credit (rate not yet confirmed) applies on the same basis as for partners and shareholders, but only to the extent the beneficiary received a distribution carrying out the trust's distributable net income (DNI) that included Illinois-source income.  _(35 ILCS 5/201(p))_
 
 ### Cross-border points
 
@@ -239,7 +239,7 @@ Payments are made with Form IL-1120-V (corporate) or IL-1120-ST-V / IL-1065-V (p
 
 ### 9.3 Does the PTE election affect PPRT?
 
-- **PTE election does not affect PPRT** -- No. The PTE election is layered on top of PPRT -- it does not replace PPRT and does not change the PPRT rate. A partnership or S-corp that elects PTE tax pays: - 1.5% PPRT (mandatory), plus - 4.95% PTE tax (elected), both on the same Illinois-allocated net income base. The total entity-level Illinois tax for an electing pass-through is 6.45% of Illinois-allocated net income. The owner then gets: - A PTE credit equal to 100% of their share of the 4.95% PTE tax, which fully offsets their Illinois PIT on the pass-through income, AND - The §201(p) owner credit of 6.5% of their share of the 1.5% PPRT (i.e., a small additional 0.0975% credit).
+- **PTE election does not affect PPRT** -- No. The PTE election is layered on top of PPRT -- it does not replace PPRT and does not change the PPRT rate. A partnership or S-corp that elects PTE tax pays: - 1.5% PPRT (mandatory), plus - 4.95% PTE tax (elected), both on the same Illinois-allocated net income base. The total entity-level Illinois tax for an electing pass-through is 6.45% of Illinois-allocated net income. The owner then gets: - A PTE credit equal to 100% of their share of the 4.95% PTE tax, which fully offsets their Illinois PIT on the pass-through income, AND - any §201(p) owner credit for their share of the 1.5% PPRT (credit rate not yet confirmed).
 
 ### 9.4 When does the PTE election make sense?
 
@@ -280,8 +280,6 @@ ABC Software, Inc., a Delaware-incorporated C-corp with commercial domicile and 
 - No Schedule M additions or subtractions material to the calculation.
 - 100% of sales sourced to Illinois (single sales factor = 1.00).
 - No NOL carryforward.
-
-**Computation**
 
 **Computation**
 
@@ -332,151 +330,18 @@ XYZ Consulting, Inc., a Delaware S-corp with commercial domicile in Illinois, ow
 | K-1-P distributive share of S-corp ordinary income | $200,000 |
 | Total Illinois base income | $280,000 |
 | Illinois PIT @ 4.95% | $13,860 |
-| §201(p) credit for PPRT (6.5% × $2,985) | ($194) |
-| **Maria's Illinois PIT after credit** | **$13,666** |
+| **Maria's Illinois PIT** | **$13,860** |
 
 **Total Illinois tax burden on $280,000 of business profit**
 
 | Component | Amount |
 | --- | --- |
 | Entity-level PPRT | $2,985 |
-| Maria's PIT after §201(p) credit | $13,666 |
-| **Total** | **$16,651** |
-| Effective rate on $280,000 | **5.95%** |
+| Maria's PIT | $13,860 |
+| **Total** | **$16,845** |
+| Effective rate on $280,000 | **6.02%** |
 
-### Worked example 3 -- Same facts as Example 2, but with PTE election
-
-Same as Example 2 except XYZ elects the PTE tax for 2025.
-
-**Entity-level computation (IL-1120-ST with PTE election)**
-
-| Step | Amount |
-| --- | --- |
-| Base income | $200,000 |
-| Net income (after $1,000 exemption) | $199,000 |
-| Illinois PPRT @ 1.5% | $2,985 |
-| Illinois PTE tax @ 4.95% | $9,851 |
-| **Total entity-level Illinois tax** | **$12,836** |
-
-The PTE tax of $9,851 is federally deductible at the entity level under IRS Notice 2020-75, reducing the S-corp's federal ordinary income from $200,000 to $190,149 -- Maria's federal K-1 ordinary income is now $190,149 rather than $200,000.
-
-**Owner-level computation (Maria's IL-1040 with PTE credit)**  _(35 ILCS 5/203(b)(2)(S-5))_
-
-| Step | Amount |
-| --- | --- |
-| W-2 wages | $80,000 |
-| K-1-P distributive share (now $190,149 federally; $200,000 Illinois with PTE addback) | $200,000 |
-| Total Illinois base income (PTE addback under 35 ILCS 5/203(b)(2)(S-5)) | $280,000 |
-| Illinois PIT @ 4.95% before credits | $13,860 |
-| PTE credit (100% of $9,851) | ($9,851) |
-| §201(p) credit for PPRT (6.5% × $2,985) | ($194) |
-| **Maria's Illinois PIT after credits** | **$3,815** |
-
-**Total Illinois tax burden**
-
-| Component | Amount |
-| --- | --- |
-| Entity-level PPRT | $2,985 |
-| Entity-level PTE tax | $9,851 |
-| Maria's PIT after credits | $3,815 |
-| **Total Illinois tax** | **$16,651** |
-| Effective Illinois rate | **5.95%** |
-
-Note that the *Illinois* total is identical to Example 2 -- the PTE election does not change the Illinois tax burden; it only changes whether the tax is paid at the entity level (federally deductible) or at the owner level (subject to the SALT cap).
-
-- Maria's federal K-1 ordinary income falls from $200,000 to $190,149, saving federal tax of $9,851 × marginal federal rate.
-- At a 24% federal marginal rate, that's approximately **$2,364 of federal tax savings** from electing PTE -- pure benefit with no Illinois cost.
-
-### Worked example 4 -- Illinois sole proprietor (no PPRT, for comparison)
-
-Same Maria, but operating as a Schedule C sole proprietor (no S-corp), all in Illinois.
-- Net Schedule C profit: $280,000.
-
-**Computation**
-
-| Step | Amount |
-| --- | --- |
-| Schedule C profit | $280,000 |
-| Federal SE tax (computed separately) | (handled by federal skills) |
-| Illinois base income (after federal AGI adjustments) | $280,000 |
-| Illinois PIT @ 4.95% | $13,860 |
-| PPRT | **$0** (sole prop exempt) |
-| **Total Illinois tax** | **$13,860** |
-| Effective Illinois rate | **4.95%** |
-
-Compared to Example 2 (S-corp without PTE election, $16,651 Illinois tax), the sole proprietor saves $2,791 of Illinois tax by avoiding PPRT entirely. This is the Illinois-side cost of an S-corp election that must be weighed against the federal SE tax savings in the `us-s-corp-election-decision` analysis.
-
-### Worked example 5 -- Multi-state partnership
-
-DEF Partners LLP, a multi-state partnership.
-- Federal ordinary income: $1,000,000.
-- Sales: $5,000,000 total, of which $1,500,000 sourced to Illinois (market-based).
-- Two equal partners: Alice (Illinois resident) and Bob (Wisconsin resident).
-- No PTE election.
-
-- **Illinois apportionment factor** -- $1,500,000 / $5,000,000 = 0.30 (30%)
-
-**Entity-level computation**
-
-| Step | Amount |
-| --- | --- |
-| Base income | $1,000,000 |
-| Apportionment factor | 0.30 |
-| Apportioned business income | $300,000 |
-| Illinois exemption | ($1,000) |
-| Net income | $299,000 |
-| Illinois PPRT @ 1.5% | **$4,485** |
-
-Each partner's distributive share of PPRT (50/50 split):
-- Alice: $2,243
-- Bob: $2,243
-
-**Alice's IL-1040 (Illinois resident):**
-- Distributive share of partnership income: $500,000 (50% of $1,000,000 federal) -- but for Illinois, Alice is a resident and is taxed on all her partnership income, with credit for tax paid to other states.
-- Illinois PIT @ 4.95% on $500,000: $24,750
-- §201(p) credit: 6.5% × $2,243 = $146
-- Other state credit for Wisconsin tax paid on Alice's Wisconsin-source share: depends on Wisconsin filing.
-
-**Bob's IL-1040 Schedule NR (Wisconsin nonresident):**
-- Only Illinois-source share is taxable in Illinois.
-- Bob's Illinois-source share = $500,000 × 0.30 = $150,000
-- Illinois PIT @ 4.95% on $150,000: $7,425
-- §201(p) credit: 6.5% × $2,243 = $146
-- Bob's IL-1040 net: $7,279
-
-### Worked example 6 -- C-corp vs S-corp head-to-head
-
-A $500,000 net-income business, all Illinois operations, owner takes all profit out as distributions/dividends.
-- Owner is an Illinois resident in the top federal bracket.
-
-**As C-corp (Example 1 redo with distribution layer)**
-
-| Layer | Amount |
-| --- | --- |
-| Net income before tax | $500,000 |
-| Illinois CIT @ 7.0% on $499,000 net | $34,930 |
-| Illinois PPRT @ 2.5% on $499,000 net | $12,475 |
-| Federal corp tax @ 21% on ~$452,595 (after IL state tax deduction) | $95,045 |
-| Net to distribute as dividend | $357,550 |
-| Illinois PIT on $357,550 dividend @ 4.95% | $17,699 |
-| Federal qualified dividend tax @ 20% + NIIT 3.8% | $85,012 |
-| **Total tax** | **$245,161** |
-| Take-home | **$254,839** |
-
-**As S-corp (with PTE election)**
-
-| Layer | Amount |
-| --- | --- |
-| Net income | $500,000 |
-| Illinois PPRT @ 1.5% on $499,000 | $7,485 |
-| Illinois PTE @ 4.95% on $499,000 | $24,701 |
-| Federal income on Schedule K-1 after PTE deduction | $467,814 |
-| Federal income tax on $467,814 at top brackets (~32% blended) | ~$149,700 |
-| Illinois PIT on owner side after PTE credit | ~$0 (PTE credit covers it) − $487 §201(p) |
-| **Total tax (approx)** | **~$181,400** |
-| Take-home | **~$318,600** |
-
-The S-corp/PTE combination is materially better than the C-corp/dividend structure for a single Illinois owner taking all profits out, by approximately $63,000 on a $500,000 business. The C-corp structure only becomes advantageous when significant earnings are retained inside the corporation at the 21% federal rate.
+Any §201(p) owner credit for the PPRT would reduce Maria's PIT; the credit rate is not yet confirmed.
 
 ## Ask the client first
 
@@ -503,7 +368,7 @@ When information is incomplete, default to:
 | IL-1120 instructions (PPRT, PTE election) | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120-instr.pdf | 2026-10-27 |
 | Form IL-1120 | https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/business/corporate/il-1120.pdf | 2026-10-27 |
 
-Not yet confirmed: 35 ILCS 5/201(c)-(p) section text (JS-rendered); 2.5%/1.5%/6.5%/4.95% figures not line-verified in an archived source
+Not yet confirmed: 35 ILCS 5/201(c)-(p) section text (JS-rendered); the §201(p) owner credit rate and computation are not line-verified in an archived source
 
 
 
