@@ -148,7 +148,7 @@ Schedule C net profit flows into federal AGI, which is the starting point for Ne
 
 ### Estimated tax
 
-- **Estimated tax threshold** -- Nebraska requires estimated tax payments if you expect to owe $500 or more in Nebraska income tax after subtracting withholding and credits.
+- **Estimated tax threshold** -- Nebraska requires estimated tax payments if you expect to owe $500 or more in Nebraska income tax after subtracting withholding and credits.  _(Neb. Rev. Stat. §77-2769)_
 
 **Estimated tax installment due dates**
 
@@ -179,7 +179,7 @@ Nebraska is one of six states with an inheritance tax (separate from estate tax)
 | NE-T1-02 | Tax computed using 4-bracket schedule: 2.46%, 3.51%, 5.01%, 5.20% (TY 2025) | Neb. Rev. Stat. §77-2715.03 |
 | NE-T1-03 | Starting point is federal AGI (Form 1040, Line 11) | Neb. Rev. Stat. §77-2716 |
 | NE-T1-04 | Personal exemption credit: $157 per exemption (TY 2025) | Neb. Rev. Stat. §77-2716.01 |
-| NE-T1-05 | Estimated tax required if expected liability ≥ $500 | Neb. Rev. Stat. §77-2770 |
+| NE-T1-05 | Estimated tax required if expected liability ≥ $500 | Neb. Rev. Stat. §77-2769 |
 | NE-T1-06 | Social Security benefits fully exempt for TY 2025 | Neb. Rev. Stat. §77-2716 (LB 873, 2024) |
 | NE-T1-07 | Top rate drops to 4.55% for TY 2026 and 3.99% for TY 2027 | Neb. Rev. Stat. §77-2715.03 |
 
