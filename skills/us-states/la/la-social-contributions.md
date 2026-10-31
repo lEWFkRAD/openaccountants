@@ -40,7 +40,7 @@ Source-cited draft, run of 2026-10-28. Louisiana has **no state social insurance
 
 | Item | Rule | Source status |
 |---|---|---|
-| UI taxable wage base | per-employee annual base (recent years in the $9,000–$10,000 range historically) | **not confirmed** -- lwc.org 403 |
+| UI taxable wage base | per-employee annual base | **not confirmed** -- lwc.org 403 |
 | Employer contribution rate | experience-rated schedule with min/max bounds | **not confirmed** |
 | New-employer rate | fixed statutory rate for first years | **not confirmed** |
 | Employee share | none | structural, low risk |
@@ -49,7 +49,7 @@ Source-cited draft, run of 2026-10-28. Louisiana has **no state social insurance
 ## Deadlines and filing
 
 - Quarterly UI wage-and-contribution reports: last day of the month following each calendar quarter (standard UI calendar) -- **not confirmed** for the 2026 LWC calendar.
-- Annual contribution-rate notices issue each year for the rate year beginning January 1 -- protest windows **not confirmed**.
+- Annual contribution-rate notices issue each year for the following rate year -- protest windows and the rate-year start date **not confirmed**.
 - Quarterly wage reports also feed the LaCOSA24/7 system -- portal mechanics **not confirmed**.
 
 ## Penalties and interest
@@ -107,7 +107,7 @@ expected:
 | --- | --- | --- |
 | LDR Withholding page (confirms income-tax withholding sits with LDR, separate from LWC UI) | https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/ | 2026-10-28 |
 
-Not yet confirmed: the 2026 UI taxable wage base, contribution-rate schedule and new-employer rate, quarterly due dates, penalty/interest percentages, FUTA credit-reduction status, and LaCOSA24/7 portal mechanics -- lwc.org returned 403 Forbidden to plain HTTP on 2026-10-28 and La. R.S. 23 sits behind the session-state legislature site, so no primary UI source could be archived this run.
+Not yet confirmed: the 2026 UI taxable wage base, contribution-rate schedule and new-employer rate, quarterly due dates, the January 1 rate-year start and protest windows for annual contribution-rate notices, penalty/interest percentages, FUTA credit-reduction status, and LaCOSA24/7 portal mechanics -- lwc.org returned 403 Forbidden to plain HTTP on 2026-10-28 and La. R.S. 23 sits behind the session-state legislature site, so no primary UI source could be archived this run.
 
 ## Talk to a verified accountant
 

@@ -55,7 +55,7 @@ A Louisiana Corporation Income Tax return is generally required for (LDR page, v
 
 ## Deadlines and filing
 
-- CIFT-620: due **on or before the 15th day of the 5th month** after the accounting period closes -- **May 15** for calendar-year filers (verified quote; note this is a month later than the federal April 15).
+- CIFT-620: due **on or before the 15th day of the 5th month** after the accounting period closes -- **May 15** for calendar-year filers (verified quote).
 - **Extension:** automatic six-month extension to file if a federal extension was timely requested; **extension to file is not an extension to pay** -- tax due must be paid by the original due date to avoid interest and penalties (verified). Extension voucher: CIFT-620EXT-V (verified form ID).
 - **Estimated payments:** required if liability after credits can reasonably be expected to be **$1,000 or more** for the year (verified); pay via LaTAP.
 
