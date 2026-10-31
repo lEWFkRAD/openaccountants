@@ -310,7 +310,7 @@ If Kavita establishes residency in MD mid-year (e.g., moves to Bethesda in Septe
 > (b) withhold Delaware tax on the full wages (because DE taxes residents on worldwide income), with a credit-side reconciliation on Kavita's DE return.
 > Always confirm reciprocity status BEFORE setting up withholding; don't generalize from one employee to another.
 
-### Example C -- Construction Contractor "Independent Contractor" Reclassification
+### Scenario note -- construction contractor "independent contractor" reclassification (not a numbered worked example)
 
 Facts: Charm City Builders LLC, an MD construction firm based in Towson (Baltimore County), pays Diego, a drywall installer, $4,500/month on a 1099-NEC. Diego works 40 hours/week exclusively for Charm City for 11 months in 2025. Charm City supplies the tools, sets the work schedule, supplies the materials, and Diego does not advertise his services or have other clients. (not yet confirmed)
 

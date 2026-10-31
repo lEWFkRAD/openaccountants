@@ -117,7 +117,7 @@ expected:
  tax: 51562.50
 ```
 
-**Example 3 -- estimated installments.** Expected Maryland tax $100,000:
+**Scenario note -- estimated installments (not a numbered worked example).** Expected Maryland tax $100,000:
 
 ```oa-check
 name: MD estimated installments
