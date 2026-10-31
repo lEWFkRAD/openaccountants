@@ -34,7 +34,7 @@ This skill covers employer payroll compliance obligations in the State of Missou
 - **Final pay rules** -- In scope  _(§290.110 RSMo)_
 - **Paid sick leave status** -- State preempted as of August 28, 2025; St. Louis City sick leave ordinance separately analyzed
 
-Worked examples for three common employer profiles: a Kansas City employer with a non-KC-resident employee, a St. Louis City employer, and a non-metro MO-only small business.
+Worked examples for two common employer profiles: a Kansas City employer with a non-KC-resident employee and a St. Louis City employer, plus a short non-metro baseline note.
 
 ### 1.2 Out of scope
 
@@ -464,37 +464,9 @@ Riverfront's average monthly MO withholding is approximately $1,250 -- placing i
 | MO-W-3 due | January 31, 2026 |
 | W-11 due | January 31, 2026 |
 
-### 11.3 Worked example C -- Non-metro MO-only small business
+### 11.3 Non-metro baseline note (not a worked example)
 
-Heartland Auto Repair, LLC is a hypothetical sole-member LLC operating a single auto repair shop in Columbia, Missouri (Boone County, no local earnings tax). All facts below (salaries, residency) are hypothetical. Employs two workers:
-
-- Hannah, Columbia resident, master mechanic, $54,000 salary (hypothetical), fully on-site.
-- Ian, Columbia resident, service writer, $42,000 salary (hypothetical), fully on-site.
-
-Heartland's average monthly MO withholding is approximately $370 -- placing it in the quarterly MO-941 filing frequency ($100–$499).
-
-*MO PIT*: Withhold on both employees using MO W-4. File MO-941 quarterly. MO-W-3 due January 31, 2026.
-
-*MO UI*: Both employees subject. Using a hypothetical base of $9,500 and a hypothetical 2.7% experience rate, contribution = $9,500 × 2 × 2.7% = $513 per year (hypothetical). File MODES-4-7 quarterly.
-
-*KC E-Tax, St. Louis E-Tax*: None -- Columbia is not within KC or St. Louis city limits.
-
-*New hire reporting*: Each new hire reported to MO DSS within 20 days.
-
-*Final pay*: Per §290.110, by the next regular payday upon resignation, or on day of discharge upon written request.
-
-*Paid sick leave*: After August 28, 2025, no statewide mandate. No Columbia city ordinance imposes paid sick leave on private employers. Heartland may voluntarily provide sick leave but is not required to.
-
-**Reviewer brief -- Heartland Auto Repair**
-
-| Item | Amount |
-| --- | --- |
-| Total annual MO PIT withholding (approx.) | hypothetical, computed from the hypothetical wages above |
-| Total annual MO UI contribution | $513 |
-| MO-941 filing frequency | Quarterly |
-| MODES-4-7 filing frequency | Quarterly |
-| Local earnings tax | None |
-| MO-W-3 due | January 31, 2026 |
+For a Missouri business outside Kansas City and St. Louis city limits there is no local earnings tax at all: state PIT withholding via MO-941 (quarterly when average monthly withholding is $100-$499), MO UI contributions via MODES-4-7 quarterly, MO-W-3 reconciliation by January 31, new-hire reporting to MO DSS, and the §290.110 final-pay rules apply exactly as described in the sections above. No statewide paid sick leave mandate applies after August 28, 2025 unless a local ordinance does (Columbia: none on private employers).
 
 ## Ask the client first
 

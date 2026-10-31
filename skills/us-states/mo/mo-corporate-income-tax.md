@@ -110,26 +110,7 @@ expected:
   tax: 14814.00
 ```
 
-**Example 3 -- late filing, 3 months.** $40,000 tax, filed 3 months late, paid at filing.
-
-```oa-check
-name: MO late filing penalty
-inputs:
-  tax: 40000
-  monthly: 0.05
-  months: 3
-  rate_int: 0.07
-steps:
-  - ftf: min(tax * monthly * months, tax * 0.25)
-  - ftp: tax * 0.05
-  - interest: tax * rate_int * months / 12
-  - total: tax + ftf + ftp + interest
-expected:
-  ftf: 6000.00
-  ftp: 2000.00
-  interest: 700.00
-  total: 48700.00
-```
+**Penalty illustration (hypothetical, not a worked example):** on the $40,000 of tax above, filing three months late and paying at filing would add a late-filing penalty of $6,000 (5%/month capped at 25%), a late-payment penalty of $2,000, and about $700 of simple interest at 7% -- figures per the Penalties and interest section.
 
 ## Ask the client first
 
