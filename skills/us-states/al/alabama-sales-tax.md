@@ -98,20 +98,9 @@ expected:
   tax: 4.00
 ```
 
-**Example 3: economic nexus test**
+**Example 3: economic nexus test (prose only -- not a counted worked example)**
 
-A remote seller (hypothetical) with $300,000 of retail sales delivered into Alabama in the previous calendar year and no physical presence: the sales exceed the $250,000 threshold by $50,000, so the seller must register and collect (ALDOR FAQ).
-
-```oa-check
-name: AL economic nexus threshold test
-inputs:
-  sales_into_al: 300000
-  threshold: 250000
-steps:
-  - amount_over_threshold: sales_into_al - threshold
-expected:
-  amount_over_threshold: 50000.00
-```
+A remote seller (hypothetical) with $300,000 of retail sales delivered into Alabama in the previous calendar year and no physical presence exceeds the $250,000 threshold, so the seller must register and collect (ALDOR FAQ; threshold in the rates table above).
 
 ## Ask the client first
 
