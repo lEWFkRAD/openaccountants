@@ -33,7 +33,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Tax year | 2025 (filed 2026) |
 | Primary form | Form D-400 (line 9 deduction total) |
 | Supporting schedule | Form D-400 Schedule S, Part B, Lines 19 / 20 / 21 |
-| Tax structure | Flat 4.25% rate (TY 2025); 3.99% (TY 2026) [VERIFY: S.L. 2023-134 schedule has been adjusted in subsequent sessions -- confirm against NCDOR Tax Rate Schedules before relying] |
+| Tax structure | Flat 4.25% rate (TY 2025); 3.99% (TY 2026) (G.S. § 105-153.7, archived) |
 | Filing deadline | April 15, 2026 |
 | Extension deadline | October 15, 2026 |
 | Tax authority | North Carolina Department of Revenue (NCDOR) |
@@ -109,7 +109,7 @@ The Consent Order provides that qualifying retirees and their surviving benefici
 
 ### 3.4 The statutory codification
 
-- **§ 105-153.5(b)(5) paraphrase** -- The amount received during the taxable year from one or more State, local, or federal government retirement plans to the extent the amount is exempt from tax under this Part pursuant to a court order in settlement of the following cases: *Bailey v. State of North Carolina*, *Emory v. State of North Carolina*, and *Patton v. State of North Carolina*. `[VERIFY: § 105-153.5(b) subdivision numbering may have shifted with subsequent legislative renumbering. Confirm against the most recent codification before citing in a return position.]`  _(N.C. Gen. Stat. § 105-153.5(b)(5) (current language, paraphrased -- verify against most recent codification))_
+- **§ 105-153.5(b)(5) paraphrase** -- The amount received during the taxable year from one or more State, local, or federal government retirement plans to the extent the amount is exempt from tax under this Part pursuant to a court order in settlement of the following cases: *Bailey v. State of North Carolina*, *Emory v. State of North Carolina*, and *Patton v. State of North Carolina*.  _(N.C. Gen. Stat. § 105-153.5(b)(5), archived codification: subdivision (b)(5) lists Bailey v. State (92 CVS 10221 et al.), Emory v. State (98 CVS 0738), and Patton v. State (95 CVS 04346).)_
 
 ### 4.1 NC TSERS (Teachers' and State Employees' Retirement System)
 
@@ -179,7 +179,7 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 | Tier 2 Railroad Retirement | **Fully exempt** (treated as RR retirement under federal law and excluded by NC) | Line 19 |
 | SSI | Not in federal AGI; no NC adjustment | n/a |
 
-- **Mechanism for SS/RR subtraction** -- The mechanism: federal Form 1040 includes the taxable portion of Social Security in AGI per IRC § 86 (up to 85%). NC backs that taxable portion out on D-400 Schedule S, Part B, **Line 19**, effective per N.C. Gen. Stat. § 105-153.5(b)(5)/(b)(6) `[VERIFY: subdivision letter for the Social Security subtraction -- historical guidance refers to (b)(5), (b)(6), or (b)(8) depending on year]`.  _(N.C. Gen. Stat. § 105-153.5(b)(5)/(b)(6))_
+- **Mechanism for SS/RR subtraction** -- The mechanism: federal Form 1040 includes the taxable portion of Social Security in AGI per IRC § 86 (up to 85%). NC backs that taxable portion out on D-400 Schedule S, Part B, **Line 19**, effective per N.C. Gen. Stat. § 105-153.5(b)(3) (archived codification: "Benefits received under Title II of the Social Security Act...").  _(N.C. Gen. Stat. § 105-153.5(b)(3))_
 
 ### 5.2 Military retirement -- fully exempt for qualifying retirees
 
@@ -233,7 +233,7 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 | Rollover statements (if any) | Receiving custodian | Documents preservation or loss of Bailey character |
 | Survivor's documentation (if applicable) | Death certificate + plan administrator survivor designation | For beneficiary returns |
 
-- **1099-R insufficiency and attachment requirement** -- **Form 1099-R alone is not sufficient** to support the Line 20 deduction. NCDOR has audited returns where the only support was a 1099-R from TSERS, and disallowed the deduction for lack of documentary vesting evidence. The Bailey letter (or equivalent OPM/DFAS service-history confirmation) is the operative document. The 2025 D-401 instructions require attaching a copy of the Form 1099-R or Form W-2 to the return supporting any Line 20 / Line 21 deduction. `[VERIFY: instruction wording -- confirm the attachment requirement language in the most current D-401 issued by NCDOR.]`  _(2025 D-401 instructions [VERIFY])_
+- **1099-R insufficiency and attachment requirement** -- **Form 1099-R alone is not sufficient** to support the Line 20 deduction. NCDOR has audited returns where the only support was a 1099-R from TSERS, and disallowed the deduction for lack of documentary vesting evidence. The Bailey letter (or equivalent OPM/DFAS service-history confirmation) is the operative document. The 2025 D-401 instructions require attaching a copy of the Form 1099-R or Form W-2 to the return supporting any Line 20 / Line 21 deduction.  _(2025 D-401 instructions -- not archived; see Not yet confirmed)_
 
 ### Tier 1 -- deterministic rules
 
@@ -250,10 +250,10 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 | NC-BAILEY-T1-07 | Direct trustee-to-trustee rollover from a Bailey plan to an IRA **destroys Bailey character** for subsequent distributions | NCDOR Directive PD-00-1; NCDOR Bailey page |
 | NC-BAILEY-T1-08 | Direct trustee-to-trustee rollover into another Bailey-qualifying plan in which the participant was **also vested by 8/12/1989** preserves Bailey character | NCDOR Directive PD-00-1 |
 | NC-BAILEY-T1-09 | The Bailey exclusion extends to **surviving beneficiaries** of a vested member | *Bailey* Consent Order; NCDOR Directive PD-99-1 |
-| NC-BAILEY-T1-10 | A Form 1099-R must be attached to Form D-400 supporting any Line 20 or Line 21 deduction | NCDOR 2025 D-401 instructions [VERIFY exact wording] |
+| NC-BAILEY-T1-10 | A Form 1099-R must be attached to Form D-400 supporting any Line 20 or Line 21 deduction | NCDOR 2025 D-401 instructions (not archived -- see Not yet confirmed) |
 | NC-BAILEY-T1-11 | Private pensions, IRAs (other than rolled-from-Bailey traceable), and 401(k)s **are fully taxable** to NC | N.C. Gen. Stat. § 105-153.5 (no general retirement deduction) |
-| NC-BAILEY-T1-12 | NC standard deduction TY 2025: $12,750 single / $25,500 MFJ / $12,750 MFS / $19,125 HoH `[VERIFY: confirm against TY 2025 D-401]` | N.C. Gen. Stat. § 105-153.5(a)(1) |
-| NC-BAILEY-T1-13 | NC flat rate TY 2025 = 4.25%; TY 2026 = 3.99% `[VERIFY against most recent rate schedule]` | Session Law 2023-134 |
+| NC-BAILEY-T1-12 | NC standard deduction TY 2025: $12,750 single / $25,500 MFJ / $12,750 MFS / $19,125 HoH | N.C. Gen. Stat. § 105-153.5(a)(1) (archived: "Single 12,750", "Married, filing jointly/surviving spouse $25,500", "Head of Household 19,125") |
+| NC-BAILEY-T1-13 | NC flat rate TY 2025 = 4.25%; TY 2026 = 3.99% | N.C. Gen. Stat. § 105-153.7 (archived) |
 
 ### Tier 2 -- judgment rules
 
@@ -273,8 +273,6 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 | NC-BAILEY-T2-10 | **Conversion of Bailey-protected traditional account to Roth IRA** | The conversion is treated as a Bailey distribution at the moment of conversion (exempt from NC tax). Subsequent Roth qualified distributions are not in federal AGI, so no NC tax. Non-qualified Roth distributions follow Roth rules (federally taxable portion is taxable to NC). |
 
 ## Worked examples
-
-### Worked examples (TY 2025)
 
 ### Worked example 1 -- NC State employee hired 1985, vested by 1989, retired 2020
 
@@ -303,44 +301,6 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 **Result.** **No Bailey deduction.** The full $55,000 is taxable to NC. James pays 4.25% × $55,000 = $2,337.50 NC tax on his TSERS pension before considering his standard deduction and other items.
 
 > **Flash point.** This is the most common audit reversal in NC retiree returns -- preparers see "TSERS retiree" on a 1099-R and reflexively claim Line 20 without checking the vesting date. The penalty/interest on a multi-year disallowance can be substantial.
-
-### Worked example 3 -- Federal CSRS retiree with 5 yrs by 8/12/89
-
-**Facts (hypothetical client).** Elaine, a NC resident filing single, worked for the federal government from January 1980 through December 2015 under CSRS. She has 35 years of federal CSRS service. OPM issues her a CSA 1099-R showing $62,000/yr gross / $62,000 federally taxable.
-
-**Bailey analysis.**
-- Qualifying system: yes (CSRS) ✓
-- 5+ years creditable service: yes (35 years) ✓
-- By 8/12/1989: yes (she had 9.5 yrs by that date) ✓
-- In federal AGI: yes ✓
-- Documentation: 1099-R + SF-50 showing service computation date 1/1/1980 ✓
-
-**Result (hypothetical arithmetic).** Full $62,000 deducted on D-400 Schedule S, Part B, **Line 20** (Bailey subtraction per § 105-153.5(b)(5); line numbers per the archived 2025 D-400 Schedule S Web-Fill).
-
-Elaine also receives $32,000 in Social Security; the federally taxable portion (assume 85% = $27,200) is deducted on Schedule S **Line 19**.
-
-Her NC taxable income from these two sources = $0.
-
-### Worked example 4 -- Mixed-source retiree
-
-**Facts (hypothetical client).** Robert, a NC resident filing MFJ, receives:
-- $36,000/yr from TSERS -- Bailey-vested (TSERS letter on file) -- hypothetical
-- $24,000/yr from a private 401(k) (rollover from his post-state-employment private-sector job; never touched the TSERS account) -- hypothetical
-- $18,000/yr Social Security (federally taxable portion: $15,300 = 85%)
-- $8,000/yr from a traditional IRA he funded with personal contributions in the 2000s
-- $14,000/yr from U.S. military retirement (served 22 yrs active Army, retired 2010) -- qualifies under § 105-153.5(b)(5a) -- hypothetical
-
-Total federal AGI line items (assuming all included): TSERS $36k + 401(k) $24k + taxable SS $15.3k + IRA $8k + Military $14k = **$97,300**.
-
-**Items NOT deductible (taxable to NC):**
-- Private 401(k): $24,000 -- fully taxable to NC, no NC retirement-income deduction available (hypothetical; § 105-153.5 archived text lists only the enumerated subtractions)
-- Traditional IRA: $8,000 -- fully taxable to NC
-
-**NC taxable income from retirement = $97,300 − $65,300 = $32,000** (hypothetical arithmetic; rates from the confirmed § 105-153.7 table).
-
-After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax = $6,500 × 4.25% = **$276**.
-
-> **Flash point.** Robert should be advised that if he ever rolls the TSERS account into an IRA for investment-management convenience, he will permanently lose the Bailey protection on the $36,000 income stream. Annual NC tax cost of that decision: $36,000 × 4.25% = $1,530/yr.
 
 **NC Schedule S Part B deductions table**
 
@@ -403,7 +363,7 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 
 ### Form mapping -- D-400 Schedule S Part B (TY 2025)
 
-> **Filing reminder.** A Form 1099-R supporting any Line 20 or Line 21 deduction must be attached to the D-400 when filed. The 2025 D-401 instructions state this attachment is required to substantiate the deduction. `[VERIFY exact wording in current D-401.]`
+> **Filing reminder.** A Form 1099-R supporting any Line 20 or Line 21 deduction must be attached to the D-400 when filed. The 2025 D-401 instructions state this attachment is required to substantiate the deduction. (D-401 instructions not archived -- see Not yet confirmed)
 
 > **Filing-threshold reminder.** Even if 100% of a taxpayer's retirement income is excluded under Bailey (so NC taxable income from pensions is $0), the taxpayer may still be required to file a NC return if gross income meets the filing threshold. The Bailey exclusion is a *taxable-income* exclusion, not a *filing requirement* exclusion. See parent skill `nc-income-tax` for filing-threshold detail.
 
@@ -435,7 +395,7 @@ After the MFJ standard deduction of $25,500, NC taxable income = $6,500. NC tax 
 | NCDOR 2025 D-401 individual income tax instructions | https://www.ncdor.gov/2025-d-401-individual-income-tax-instructions/open | 2026-10-29 |
 | N.C.G.S. Chapter 105 -- chapter text index | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_105.html | 2026-10-29 |
 
-Not yet confirmed: exact subdivision numbering of N.C.G.S. § 105-153.5(b) for (i) Bailey settlement, (ii) Social Security, (iii) military retirement (manual reviewer confirmation required); TY 2025 standard deduction amounts against the most recent D-401; whether the 2026 flat rate remains 3.99% (later sessions may have adjusted); D-401 instruction wording on the 1099-R attachment requirement.
+Not yet confirmed: D-401 instruction wording on the 1099-R attachment requirement (NCDOR site redesign returned 404 for D-401 pages at archive time); *Bailey* consent-decree text and TSERS Bailey-letter mechanics (court documents not archived).
 
 ### Disclaimer
 

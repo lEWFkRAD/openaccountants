@@ -111,7 +111,7 @@ Verify the intake skill has produced:
 - Date of birth for taxpayer and spouse (drives senior-deduction considerations and Bailey settlement vesting eligibility)
 - Dependents list with SSNs (drives NC child deduction)
 - Business structure (sole prop or SMLLC disregarded)
-- Bailey-vested pension flag (taxpayer was vested in a qualifying NC state, local, or federal government retirement plan on or before August 12, 1989 -- `[VERIFY:]` vesting cutoff date)
+- Bailey-vested pension flag (taxpayer was vested in a qualifying NC state, local, or federal government retirement plan on or before August 12, 1989 -- vesting cutoff date; consent decree not archived -- see Not yet confirmed)
 - Health coverage history (federal Form 1095-A / B / C)
 - W-2s, 1099-NECs, 1099-Rs received
 
@@ -201,7 +201,7 @@ This is the immutable order. Do not parallelize; downstream skills consume upstr
 8.  us-federal-return-assembly                   (1040, Sch 1/2/3, sign-off)
 9.  us-1099-nec-issuance                         (parallel; contractor batch)
 10. nc-income-tax                                (D-400, Sch S, Sch A, D-400TC)
-11. nc-bailey-settlement-retirement              (Sch S Part B — if applicable)
+11. nc-bailey-settlement-retirement              (Sch S Part B -- if applicable)
 12. nc-estimated-tax / NC-40 (2026)              (next-year vouchers)
 13. nc-return-assembly                           ← THIS SKILL
 ```
@@ -273,15 +273,15 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | C-2 | Dependents claimed on D-400 = dependents claimed on Form 1040 |
 | C-3 | Schedule C net profit federally = Schedule C net profit feeding NC AGI |
 | C-4 | Federal §168(k)/(n) bonus depreciation: NC requires 85% add-back in Year 1 (Schedule S Line 3) with 20%-per-year reversal over the first 5 taxable years beginning TY 2026 -- decoupling VERIFIED vs archived 2025 D-401 Instructions; verify add-back appears |
-| C-5 | Federal §179: NC conforms with limitation -- `[VERIFY:]` NC §179 cap (often lower than federal); add-back if federal §179 exceeded NC cap |
+| C-5 | Federal §179: NC conforms with limitation -- unconfirmed NC §179 cap (often lower than federal; see Not yet confirmed); add-back if federal §179 exceeded NC cap |
 | C-6 | Federal SE tax deduction (Schedule 1 Line 15) is reflected in federal AGI; no NC add-back |
 | C-7 | Federal QBI deduction does NOT flow into NC computation (NC starts at federal AGI before QBI -- federal Line 13 is after AGI) -- confirm no double-counting |
 | C-8 | Federal SE health insurance deduction is included in federal AGI; no NC add-back |
 | C-9 | Federal taxable Social Security (Form 1040 Line 6b) → NC Schedule S Part B Social Security subtraction (NC fully exempts Social Security) |
 | C-10 | U.S. government bond interest in federal Schedule B → NC Schedule S Part B subtraction |
 | C-11 | Non-NC state/muni bond interest in federal Schedule B → NC Schedule S Part A addition |
-| C-12 | NC tax refund deducted federally as itemized → NC Schedule S Part B subtraction (if state-refund add-back exists on Sch S Part A path) `[VERIFY:]` |
-| C-13 | If NC itemized (Schedule A) elected: NC Schedule A itemized must NOT exceed federal Schedule A items NC allows; SALT deduction on NC Schedule A is capped at $0 for income/sales tax and limited for property tax `[VERIFY:]` |
+| C-12 | NC tax refund deducted federally as itemized → NC Schedule S Part B subtraction (if state-refund add-back exists on Sch S Part A path; unconfirmed) |
+| C-13 | If NC itemized (Schedule A) elected: NC Schedule A itemized must NOT exceed federal Schedule A items NC allows; SALT deduction on NC Schedule A is capped at $0 for income/sales tax and limited for property tax (unconfirmed -- Schedule A page not archived) |
 
 ### 6E -- 1099-NEC reconciliation
 
@@ -302,7 +302,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | --- | --- |
 | E-1 | 2026 federal Q1 voucher = `us-quarterly-estimated-tax` Q1 output |
 | E-2 | 2026 NC-40 Q1 voucher = `nc-estimated-tax` Q1 output |
-| E-3 | NC safe harbor: 100% of 2025 NC tax OR 90% of current-year -- `[VERIFY:]` 110% rule does NOT generally apply at NC level the way it does federally; NC uses 100% of prior year regardless of AGI |
+| E-3 | NC safe harbor: 100% of 2025 NC tax OR 90% of current-year; the federal 110% high-income step does NOT apply at NC level -- NC uses 100% of prior year regardless of AGI (G.S. § 105-163.15(d)) |
 | E-4 | Q1 federal + Q1 NC together do not exceed taxpayer's stated cash availability flag (if intake captured one) |
 | E-5 | If NC underpayment interest exposure (D-422) exists in current year, surface for reviewer |
 
@@ -383,7 +383,7 @@ Structured markdown. Required sections in this order:
 9. **Reviewer Attention Flags** -- Aggregated from all upstream skills.
 10. **Refusals Triggered** -- Aggregated from all upstream skills.
 11. **Positions Taken** -- Tax positions requiring judgment, with citations (N.C.G.S. §, IRC §, D-401 page references, Bailey case cite).
-12. **Planning Notes for 2026** -- NC rate watch (Session Law 2023-134 rate-step-down schedule continues; `[VERIFY:]` 2026 rate is expected ~3.99%), federal QBI 20% → 23% under OBBBA, federal 1099 threshold change, NC child deduction phase-out tier monitoring, Bailey income continuity.
+12. **Planning Notes for 2026** -- NC rate watch (Session Law 2023-134 rate-step-down schedule continues; 2026 rate is 3.99% per G.S. § 105-153.7), federal QBI 20% → 23% under OBBBA, federal 1099 threshold change, NC child deduction phase-out tier monitoring, Bailey income continuity.
 13. **Taxpayer Action List** -- Embedded copy of File 3.
 
 ### 7C -- File 3: `taxpayer_action_list.md`
@@ -391,57 +391,57 @@ Structured markdown. Required sections in this order:
 Step-by-step action list, structured by date. The taxpayer reads this file and nothing else.
 
 ```markdown
-# Your 2025 North Carolina Tax Filing — Action List
+# Your 2025 North Carolina Tax Filing -- Action List
 
 ### This week
 1. Review the reviewer_brief.md document
-2. Sign Form 8879 (federal e-file authorization) — if e-filing
-3. Sign Form NC-8453 (North Carolina e-file authorization) — if
+2. Sign Form 8879 (federal e-file authorization) -- if e-filing
+3. Sign Form NC-8453 (North Carolina e-file authorization) -- if
    e-filing through an approved partner
 4. Confirm bank account information for direct debit / direct
    deposit
 
 ### Before April 15, 2026 (filing deadline)
-1. Federal Form 1040 — file via e-file (preferred) or paper to IRS
+1. Federal Form 1040 -- file via e-file (preferred) or paper to IRS
    Kansas City address
-2. Federal balance due of $X — pay via:
-   - IRS Direct Pay (https://www.irs.gov/payments/direct-pay) — free, ACH
-   - EFTPS (https://www.eftps.gov) — free, requires enrollment
+2. Federal balance due of $X -- pay via:
+   - IRS Direct Pay (https://www.irs.gov/payments/direct-pay) -- free, ACH
+   - EFTPS (https://www.eftps.gov) -- free, requires enrollment
    - Debit/credit card (fee applies)
    - Check + Form 1040-V voucher to IRS Kansas City
-3. North Carolina Form D-400 — file via:
+3. North Carolina Form D-400 -- file via:
    - NCDOR eFile through an approved partner (TurboTax, H&R Block,
-     FreeTaxUSA, Drake, etc. — see
+     FreeTaxUSA, Drake, etc. -- see
      https://www.ncdor.gov/file-pay/efile-individual-income-tax)
    - Paper return mailed to:
      - With payment: North Carolina Department of Revenue, PO Box
        25000, Raleigh NC 27640-0640
      - Refund / no balance due: North Carolina Department of
        Revenue, PO Box 25000, Raleigh NC 27640-0500
-4. North Carolina balance due of $X — pay via:
+4. North Carolina balance due of $X -- pay via:
    - NCDOR online payment
-     (https://www.ncdor.gov/file-pay/pay-individual-income-tax) —
+     (https://www.ncdor.gov/file-pay/pay-individual-income-tax) --
      ACH direct debit, free; credit/debit card with processor fee
    - Direct debit at e-file
    - Check + payment voucher mailed to NCDOR
 
 ### Before April 15, 2026 (estimated tax for 2026 Q1)
-1. Federal Q1 voucher — $X via IRS Direct Pay or check + Form 1040-ES
-2. NC Q1 voucher — $X via NCDOR online or check + NC-40
+1. Federal Q1 voucher -- $X via IRS Direct Pay or check + Form 1040-ES
+2. NC Q1 voucher -- $X via NCDOR online or check + NC-40
 
 ### Before June 15, 2026 (Q2 estimated tax)
-1. Federal Q2 voucher — $X
-2. NC Q2 voucher — $X
+1. Federal Q2 voucher -- $X
+2. NC Q2 voucher -- $X
 
 ### Before September 15, 2026 (Q3 estimated tax)
-1. Federal Q3 voucher — $X
-2. NC Q3 voucher — $X
+1. Federal Q3 voucher -- $X
+2. NC Q3 voucher -- $X
 
 ### Before January 15, 2027 (Q4 estimated tax)
-1. Federal Q4 voucher — $X
-2. NC Q4 voucher — $X
+1. Federal Q4 voucher -- $X
+2. NC Q4 voucher -- $X
 
-### Already-passed January 31, 2026 (1099-NEC issuance — check if done)
+### Already-passed January 31, 2026 (1099-NEC issuance -- check if done)
 1. File 1099-NEC forms with IRS via IRIS or FIRE
 2. Furnish Copy B to each contractor
 3. File NC-3 / NC-1099 annual reconciliation with NCDOR (if
@@ -460,8 +460,8 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
    (monthly / quarterly / annual)
 
 ### How to check your refund
-- Federal: https://www.irs.gov/refunds — "Where's My Refund?"
-- North Carolina: https://www.ncdor.gov/file-pay/wheres-my-refund —
+- Federal: https://www.irs.gov/refunds -- "Where's My Refund?"
+- North Carolina: https://www.ncdor.gov/file-pay/wheres-my-refund --
   "Where's My Refund?"
 
 ### Need help with anything in this list?
@@ -481,7 +481,7 @@ This is the document the CPA reads first. It should be readable in under 30 minu
 The brief follows this fixed structure:
 
 ```markdown
-# Complete Return Package — [Taxpayer Name] — Tax Year 2025
+# Complete Return Package -- [Taxpayer Name] -- Tax Year 2025
 
 ### Executive Summary
 - **Taxpayer:** [Name], full-year North Carolina resident
@@ -532,7 +532,7 @@ The brief follows this fixed structure:
 
 ### Planning Notes for 2026
 - NC rate step-down (Session Law 2023-134): 4.25% in 2025 (VERIFIED
-  vs archived 2025 D-401 Instructions) → ~3.99% in 2026 `[VERIFY:]`;
+  vs archived 2025 D-401 Instructions) → 3.99% in 2026 (G.S. § 105-153.7);
   long-term schedule down to ~2.49% by
   2030 absent further legislation
 - Federal QBI 20% → 23% under OBBBA (P.L. 119-21)
@@ -559,12 +559,12 @@ The brief follows this fixed structure:
 | NC-ASM-T1-07 | Bailey subtraction (Schedule S Part B) is allowed ONLY if the taxpayer was vested in the qualifying NC state, local, or federal government retirement plan on or before August 12, 1989. |
 | NC-ASM-T1-08 | NC fully exempts Social Security benefits (Schedule S Part B). Federal taxable SS (Line 6b) must be subtracted in full. |
 | NC-ASM-T1-09 | NC estimated-tax payments are required if tax due after withholding and credits is $1,000 or more (VERIFIED vs archived NC-40 Instructions). |
-| NC-ASM-T1-10 | NC safe harbor: 100% of prior-year NC tax OR 90% of current-year. No 110%-AGI step. `[VERIFY:]` |
+| NC-ASM-T1-10 | NC safe harbor: 100% of prior-year NC tax OR 90% of current-year. No 110%-AGI step (G.S. § 105-163.15(d)). |
 | NC-ASM-T1-11 | NC partially decouples from federal §168(k)/(n) bonus depreciation -- 85% add-back in Year 1 with 20%-per-year deductible reversal over the first 5 taxable years beginning TY 2026, Schedule S Line 3 -- VERIFIED vs archived 2025 D-401 Instructions. |
 | NC-ASM-T1-12 | NC does NOT recognize the federal §199A QBI deduction in any NC adjustment. NC starts at federal AGI, BEFORE QBI, so QBI never touches NC computation. |
 | NC-ASM-T1-13 | NC standard deduction TY 2025 (per `nc-income-tax` table): $25,500 MFJ/QSS, $19,125 HoH, $12,750 Single, $12,750 MFS -- VERIFIED vs archived NCDOR 2025 D-401 Instructions. |
 | NC-ASM-T1-14 | NC child deduction: up to $3,000 per qualifying child under N.C.G.S. §105-153.5(a1), tiered AGI phase-out VERIFIED vs archived 2025 D-401 Child Deduction Table (full phase-out: MFJ >$140k, HoH >$105k, Single/MFS >$70k). |
-| NC-ASM-T1-15 | NC itemized deductions (Schedule A) are NOT federal Schedule A. Only specific categories (qualified mortgage interest + property tax up to $20,000 combined, charitable contributions matching federal, medical/dental) are allowed `[VERIFY:]` 2025 categories and caps. |
+| NC-ASM-T1-15 | NC itemized deductions (Schedule A) are NOT federal Schedule A. Only specific categories (qualified mortgage interest + property tax up to $20,000 combined, charitable contributions matching federal, medical/dental) are allowed (2025 categories and caps unconfirmed -- Schedule A page not archived) |
 | NC-ASM-T1-16 | Three-file deliverable structure (xlsx + brief.md + actions.md) is mandatory. |
 | NC-ASM-T1-17 | No city-level income tax exists in NC; the orchestrator never emits a city return artifact. |
 
@@ -610,13 +610,13 @@ The brief follows this fixed structure:
 **Orchestrator output (abbreviated reviewer brief -- actual file is longer):**
 
 ```markdown
-# Complete Return Package — James Whitfield — Tax Year 2025
+# Complete Return Package -- James Whitfield -- Tax Year 2025
 
 ### Executive Summary
 - Taxpayer: James Whitfield, full-year North Carolina (Raleigh) resident
 - Filing status: Single
-- Business: Sole proprietor — freelance security consultant
-- Bailey-eligible pension: Yes — federal CSRS, vested 1978
+- Business: Sole proprietor -- freelance security consultant
+- Bailey-eligible pension: Yes -- federal CSRS, vested 1978
 - Federal total tax (Form 1040 Line 24): $52,860
 - NC total tax (D-400 Line 17): $4,360
 - Total 2025 tax liability: $57,220
@@ -634,7 +634,7 @@ The brief follows this fixed structure:
 - Schedule 1 Line 15 (½ SE tax): $9,396
 - Schedule 1 Line 16 (retirement): $30,500
 - Schedule 1 Line 17 (SE health insurance): $0 (Medicare; no §162(l)
-  marketplace coverage, but Medicare Part B premiums may qualify —
+  marketplace coverage, but Medicare Part B premiums may qualify --
   reviewer flag to confirm)
 - Form 1040 Line 6b (taxable Social Security): $20,400
 - Form 1040 Line 11 (AGI): $132,504 (after retirement,
@@ -642,7 +642,7 @@ The brief follows this fixed structure:
 - Form 8995 QBI deduction: ~$24,000 (non-SSTB; under threshold; 20%
   rate for TY 2025)
 - Form 1040 Line 12 (standard deduction, single, age 65+): $17,600
-  (OBBBA base + age-65 additional) `[VERIFY:]`
+  (OBBBA base + age-65 additional; unconfirmed -- see Not yet confirmed)
 - Form 1040 Line 15 (taxable income): ~$90,900
 - Form 1040 Line 16 (tax): ~$15,300
 - Schedule 2 Line 4 (SE tax): $18,792
@@ -654,7 +654,7 @@ The brief follows this fixed structure:
 
 #### North Carolina Return (from nc-income-tax + nc-bailey-settlement-retirement)
 - D-400 Line 6 (federal AGI): $132,504
-- D-400 Schedule S Part A (additions): $0 — no §168(k) add-back this
+- D-400 Schedule S Part A (additions): $0 -- no §168(k) add-back this
   year; no out-of-state muni interest
 - D-400 Line 7 (additions): $0
 - D-400 Line 8 (Line 6 + Line 7): $132,504
@@ -672,7 +672,7 @@ The brief follows this fixed structure:
 - D-400 Line 16 (after D-400TC credits): $2,523 (no credits)
 - D-400 Line 17 (NC tax): $2,523 + D-422 underpayment interest of
   ~$120 + use-tax accrual of ~$0 (none reported) = ~$2,643
-- Wait — the executive summary said $4,360. Reviewer reconciliation:
+- Wait -- the executive summary said $4,360. Reviewer reconciliation:
   the $4,360 includes a use-tax estimate of ~$200 that intake
   flagged AND consumer-use-tax true-up; reviewer to verify with
   taxpayer. Material to surface.
@@ -683,7 +683,7 @@ The brief follows this fixed structure:
 
 ### Standard vs. Itemized Decision (NC)
 - NC standard deduction (single): $12,750
-- NC itemized total (Schedule A): not computed — James has minimal
+- NC itemized total (Schedule A): not computed -- James has minimal
   itemizable items (no mortgage, no large charitable, low medical
   net of 7.5% AGI floor)
 - Chosen: standard
@@ -695,14 +695,14 @@ The brief follows this fixed structure:
   harbor applies federally)
 - 2025 NC total tax: ~$2,643 → Q1 2026 NC estimate ~$660 (NC uses
   100% of prior year)
-- Combined Q1 2026 estimate: ~$13,860 due April 15, 2026 — note
+- Combined Q1 2026 estimate: ~$13,860 due April 15, 2026 -- note
   this is on TOP of the April 15 balance due
 
 ### 1099-NEC Issuance
-- N/A — James engaged no subcontractors in 2025
+- N/A -- James engaged no subcontractors in 2025
 
 ### NC Sales Tax Status
-- N/A — not a NC sales-tax registrant
+- N/A -- not a NC sales-tax registrant
 
 #### Cross-skill Verification (Section 6 summary)
 - F-1 through F-10: PASS
@@ -716,22 +716,22 @@ The brief follows this fixed structure:
 - BX-1 through BX-3: PASS
 
 ### Reviewer Attention Flags
-1. Form 2210 federal underpayment penalty (~$1,800) — reviewer to
+1. Form 2210 federal underpayment penalty (~$1,800) -- reviewer to
    finalize Q-by-Q computation against §6654 safe harbor.
-2. Form D-422 NC underpayment interest (~$120) — reviewer to
+2. Form D-422 NC underpayment interest (~$120) -- reviewer to
    confirm NC threshold and finalize.
-3. Use-tax accrual line on D-400 — intake flagged ~$200 internet
+3. Use-tax accrual line on D-400 -- intake flagged ~$200 internet
    purchases; reviewer to confirm with taxpayer.
-4. Medicare Part B premiums as potential §162(l) deduction —
+4. Medicare Part B premiums as potential §162(l) deduction --
    reviewer to confirm with `us-self-employed-health-insurance`
    output (skill ran but flagged $0; James may have eligible
    Medicare premiums).
-5. CSRS pension Bailey documentation — verify SF-50 / vesting
+5. CSRS pension Bailey documentation -- verify SF-50 / vesting
    confirmation letter on file.
 6. Solo 401(k) age-50 catch-up ($7,500) properly documented.
 
 ### Refusals Triggered
-(none — James's facts fit the in-scope pattern)
+(none -- James's facts fit the in-scope pattern)
 
 ### Positions Taken
 - Bailey subtraction of $40,000 federal CSRS pension: see
@@ -744,24 +744,24 @@ The brief follows this fixed structure:
   not "consulting" in the §199A sense (e.g., implementation work
   vs. advisory).
 - NC fully exempts Social Security: per N.C.G.S.
-  §105-153.5(b)(5) `[VERIFY:]`.
+  §105-153.5(b)(5) (archived codification).
 
 ### Planning Notes for 2026
 - NC rate step-down per Session Law 2023-134: 4.25% in 2025 →
-  ~3.99% in 2026 `[VERIFY:]`; long-term schedule down to ~2.49%
+  3.99% in 2026 (G.S. § 105-153.7); long-term schedule down to 2.49%
   by 2030 absent further legislation.
 - Federal QBI rate rises 20% → 23% under OBBBA (P.L. 119-21,
   July 2025); James's QBI deduction grows materially if income
   stays at $150K.
-- Bailey-protected CSRS pension continues at $40K — no rollovers
+- Bailey-protected CSRS pension continues at $40K -- no rollovers
   planned; verify continuity.
 - James should set up federal + NC estimated payments to avoid
   another year of underpayment interest.
-- Medicare Part B premium documentation for §162(l) — start a
+- Medicare Part B premium documentation for §162(l) -- start a
   premium ledger in January 2026.
 
 ### Taxpayer Action List
-[full action list embedded — see File 3]
+[full action list embedded -- see File 3]
 ```
 
 This is one NC-resident sole prop with Bailey-protected pension, full reviewer package abbreviated to ~3 pages. The actual file is longer and includes the full xlsx workbook, the full brief, and the full action list.
@@ -853,7 +853,7 @@ This is one NC-resident sole prop with Bailey-protected pension, full reviewer p
 | IRS refunds status | https://www.irs.gov/refunds | 2026-10-29 |
 | IRS Direct Pay | https://www.irs.gov/payments/direct-pay-with-bank-account | 2026-10-29 |
 
-Not yet confirmed: NCDOR pages cited only by URL in the "Sources consulted" table above (D-400 return page, Schedule S page, Schedule A page, standard/itemized deduction topic page, child deduction topic page, tax rate schedules page, pay-your-tax page, refund page, eFile partner page, Bailey decision page) were not archived; 2026 indexed deduction amounts.
+Not yet confirmed: NCDOR pages cited only by URL in the "Sources consulted" table above (D-400 return page, Schedule S page, Schedule A page, standard/itemized deduction topic page, child deduction topic page, tax rate schedules page, pay-your-tax page, refund page, eFile partner page, Bailey decision page) were not archived; 2026 indexed deduction amounts; NC §179 cap; NC Schedule A (itemized) 2025 categories and caps; age-65 additional NC deduction under OBBBA; Bailey consent-decree vesting cutoff (8/12/1989) from the court order itself.
 
 ### Disclaimer
 
