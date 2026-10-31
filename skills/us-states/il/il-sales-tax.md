@@ -66,7 +66,7 @@ This block is generated from verified `skill_facts` -- edit the facts, not the p
 - **SOT rate -- general** -- 6.25%  _(35 ILCS 110/3-10.)_
 - **SOT rate -- general** -- 6.25%  _(35 ILCS 110/3-10.)_
 - **SOT tax base** -- General SOT base = selling price of TPP transferred (if separately stated) or 50% of the entire bill if not separately stated; never less than cost. 'Cost price' applies only to de minimis servicepersons (cost-of-TPP < 35%, or < 75% pharmacy/graphic arts).  _(86 Ill. Admin. Code 140.106; IDOR Pub-113.)_
-- **Chicago -- general** -- 10.25% combined (state 6.25 + county/RTA/city)  _(IDOR MyTax IL Rate Finder.)_
+- **Chicago -- general** -- 10.25% combined (state 6.25 + county/RTA/city): not yet confirmed (Rate Finder is JS-rendered; local component tables not archived)  _(IDOR MyTax IL Rate Finder.)_
 - **Springfield -- general** -- combined rate not yet confirmed (IDOR Rate Finder is JS-rendered; local component tables not archived).  _(IDOR MyTax IL Tax Rate Finder.)_
 - **Champaign -- general** -- combined rate not yet confirmed (IDOR Rate Finder is JS-rendered; local component tables not archived).  _(IDOR MyTax IL Tax Rate Finder.)_
 - **Monthly tier** -- Monthly filers (avg > $200/mo tax) file ST-1 by the 20th of the following month  _(86 Ill. Admin. Code 130.502; ST-1 instr.)_
@@ -169,8 +169,8 @@ Illinois is origin-based for most transactions. The rate is determined by the se
 
 | Location | Combined rate (general) | Combined rate (food/drugs) | Source |
 | --- | --- | --- | --- |
-| Chicago | 10.25% | 2.25% | IDOR tax rate finder |
-| Cook County (outside Chicago) | ~9.00-10.25% | varies | IDOR tax rate finder |
+| Chicago | 10.25% | 2.25% | not yet confirmed (IDOR tax rate finder is JS-rendered) |
+| Cook County (outside Chicago) | ~9.00-10.25% | varies | not yet confirmed (IDOR tax rate finder is JS-rendered) |
 | Springfield (Sangamon Co.) | 8.75% | 2.00% | not yet confirmed (local-rate tables not archived) |
 | Champaign | 9.00% | 2.00% | not yet confirmed (local-rate tables not archived) |
 
@@ -224,8 +224,8 @@ Late filing and late payment attract Illinois Department of Revenue penalties an
 
 ### Worked example 1 -- Standard retailer, general merchandise
 
-**Input:** Chicago seller. Gross sales: $20,000, all general merchandise, all in-store. No exempt sales.
-**Expected:** Combined rate: 10.25%. Tax: $20,000 x 10.25% = $2,050. State portion: $20,000 x 6.25% = $1,250. Vendor discount: $1,250 x 1.75% = $21.88. Net tax: $2,050 - $21.88 = $2,028.12.
+**Input:** State-level computation only (local add-ons vary by jurisdiction and are not line-verified). Gross sales: $20,000, all general merchandise. No exempt sales.
+**Expected:** State tax: $20,000 x 6.25% = $1,250. Vendor discount (simplified to the state portion; filed and paid on time): $1,250 x 1.75% = $21.88. Net state tax: $1,228.12.
 
 ### Worked example 2 -- Mixed rate sales (food and general)
 

@@ -27,7 +27,7 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 27 October 2026. Illinois reaches non-resident individuals and out-of-state corporations through source-based and factor-based rules: individuals pay the flat 4.95% (plus 3%/2% surtax tiers) on Illinois-source income; corporations apportion by a single sales factor with throwback/throw-out, and unitary groups combine under Schedule UB. **Source status:** the IL-1120 instructions PDF was text-read 2026-10-27 (nexus triggers for corporations, Finnigan/throwback note, pass-through attribution rule all read from it). The individual nonresident rules (IL-1040NR/IL-1040, credit for other taxes) sit in 35 ILCS 5 -- JS-rendered on ILGA, so individual-side specifics carry  flags.
+Source-cited draft, run of 27 October 2026. Illinois reaches non-resident individuals and out-of-state corporations through source-based and factor-based rules: individuals pay the flat 4.95% (plus surtax tiers -- see il-income-tax.md; thresholds not yet confirmed) on Illinois-source income; corporations apportion by a single sales factor with throwback/throw-out, and unitary groups combine under Schedule UB. **Source status:** the IL-1120 instructions PDF was text-read 2026-10-27 (nexus triggers for corporations, Finnigan/throwback note, pass-through attribution rule all read from it). The individual nonresident rules (IL-1040NR/IL-1040, credit for other taxes) sit in 35 ILCS 5 -- JS-rendered on ILGA, so individual-side specifics carry  flags.
 
 ### Who this applies to
 

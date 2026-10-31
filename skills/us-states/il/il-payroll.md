@@ -136,7 +136,7 @@ IL-941 must be filed electronically via MyTax Illinois under 86 Ill. Adm. Code 1
 ### IL Payroll
 
 - **IL PIT flat rate** -- 4.95% on all wages  _(35 ILCS 5/201; Booklet IL-700-T.)_
-- **Personal exemption (payroll)** -- $2,850 for 2025 (the 2025 IL-700-T withholding allowance reflects $2,850; $2,775 was 2024)  _(IDOR FY2025-16; 2025 Booklet IL-700-T.)_
+- **Personal exemption (payroll)** -- $2,850 for 2025 (the 2025 IL-700-T withholding allowance reflects $2,850)  _(IDOR FY2025-16; 2025 Booklet IL-700-T.)_
 - **Supplemental wage rate** -- IL withholds 4.95% on all wages, including supplemental pay (no separate supplemental rate)  _(Booklet IL-700-T; 86 Ill. Admin. Code 100.7110.)_
 - **Annual (≤ $1,000 prior year)** -- IL has no 'annual' withholding payment schedule. Illinois has only two payment schedules - monthly and semi-weekly. IL-941 is filed quarterly. ($1,000 is not an IL withholding deposit threshold.)  _(IDOR Pub-131; 2025 IL-941 instr.)_
 - **Quarterly ($1,001–$12,000)** -- No 'quarterly' payment schedule exists. Employers whose look-back withholding was <= $12,000 are MONTHLY payers (Form IL-501 by the 15th of the following month) and file IL-941 quarterly.  _(IDOR Pub-131; 2025 IL-941 instr.)_
@@ -297,7 +297,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 
 ### 7.2 Illinois Employee Classification Act (construction)
 
-- **Construction classification standard and penalties** -- Under 820 ILCS 185/, the construction industry has an even stricter classification standard. A construction worker is conclusively presumed an employee unless the employer can prove the worker is a separate business entity meeting 12 enumerated factors (sole proprietor with own license, separate office, multiple clients, performs services for the public, files taxes as a business, etc.). The 12-factor test for sole proprietors operating as bona fide independent businesses is in 820 ILCS 185/10(c). Penalties for misclassification under the Employee Classification Act: - $1,500 per violation per day per worker for the first audit. - $2,500 per violation per day per worker for subsequent audits within 5 years. - Personal liability for corporate officers who knowingly misclassify. - Debarment from public contracts for 5 years for willful violators. > AUDIT FLASH POINT -- The Illinois Department of Labor and IDES coordinate cross-referrals on classification audits. A worker who files for unemployment after being terminated as a "contractor" often triggers an IDES audit that propagates to IL DOR (withholding) and IDOL (Construction Act). Three agencies, three penalty regimes, one bad classification. Maintain contemporaneous 1099 vs W-2 analysis files for every contractor, refreshed at least annually.  _(820 ILCS 185/; 820 ILCS 185/10(c))_
+- **Construction classification standard and penalties** -- Under 820 ILCS 185/, the construction industry has an even stricter classification standard. A construction worker is conclusively presumed an employee unless the employer can prove the worker is a separate business entity meeting 12 enumerated factors (sole proprietor with own license, separate office, multiple clients, performs services for the public, files taxes as a business, etc.). The 12-factor test for sole proprietors operating as bona fide independent businesses is in 820 ILCS 185/10(c). Penalties for misclassification under the Employee Classification Act: - $1,500 per violation per day per worker for the first audit. - $2,500 per violation per day per worker for subsequent audits within 5 years (not yet confirmed: 820 ILCS 185/40 penalty text not archived). - Personal liability for corporate officers who knowingly misclassify. - Debarment from public contracts for 5 years for willful violators. > AUDIT FLASH POINT -- The Illinois Department of Labor and IDES coordinate cross-referrals on classification audits. A worker who files for unemployment after being terminated as a "contractor" often triggers an IDES audit that propagates to IL DOR (withholding) and IDOL (Construction Act). Three agencies, three penalty regimes, one bad classification. Maintain contemporaneous 1099 vs W-2 analysis files for every contractor, refreshed at least annually.  _(820 ILCS 185/; 820 ILCS 185/10(c))_
 
 ### 7.3 Withholding for non-residents working in Illinois temporarily
 
@@ -408,7 +408,7 @@ Under 820 ILCS 80/85, the Department of Revenue assesses penalties for non-compl
 | One Day Rest in Seven | 24 consec hrs per 7-day period | 820 ILCS 140/2 |
 | Meal break | 20 min per 7.5 hrs | 820 ILCS 140/3 |
 | ABC test | All 3 prongs required | 820 ILCS 405/212 |
-| Construction misclassification penalty | $1,500/day/worker first; $2,500 subsequent | 820 ILCS 185/40 |
+| Construction misclassification penalty | $1,500/day/worker first; $2,500 subsequent (not yet confirmed) | 820 ILCS 185/40 |
 | IL-941 due date | 30 days after quarter-end | 86 Ill. Adm. Code 100.7300 |
 | W-2 e-file with IL | January 31 | not yet confirmed (IL DOR guidance not archived) |
 | 1099 e-file with IL | March 31 | not yet confirmed (IL DOR guidance not archived) |

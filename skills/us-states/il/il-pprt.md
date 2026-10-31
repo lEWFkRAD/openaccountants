@@ -106,7 +106,7 @@ Reviewed against the cited tax authorities by a licensed accountant on 2026-06-0
 - **S-corp form / due date** -- March 15 (15th day of the 3rd month)  _(IDOR Subchapter S page; IL-1120-ST instr.)_
 - **Partnership form / due date** -- IL-1065 is due the 15th day of the 4th month following the close of the tax year (April 15 for calendar-year filers), not March 15. Illinois does not follow the federal March 15 partnership deadline. Partnerships organized under the Lloyd's plan of operation use the federal due date instead. The automatic six-month extension covers filing only; replacement tax, pass-through withholding, and elective PTE tax remain due by the original due date.  _(2025 IL-1065 Instructions (R-12/25); 35 ILCS 5/505; IDOR Partnership Q&A (answer.74).)_
 - **Estimated instalments** -- Corporations expecting > $400 income+replacement tax pay on the 15th day of the 4th, 6th, 9th, and 12th months  _(IDOR Corporation page.)_
-- **Cumulative split** -- Four equal installments (cumulative 25/50/75/100)  _(IDOR Corporation page; IL-2220.)_
+- **Cumulative split** -- Four equal installments (cumulative 25/50/75/100: not yet confirmed)  _(IDOR Corporation page; IL-2220.)_
 - **Credit rate** -- PPRT is not creditable on the IL-1040. 35 ILCS 5/201(p) is the elective Pass-Through Entity (PTE) tax (rate 4.95%); the related owner credit (35 ILCS 5/224) equals the owner's share of the PTE tax paid.  _(35 ILCS 5/201(p), 5/224; IDOR Pub-129.)_
 - **Claimed by** -- True for the PTE-tax credit (claimed on IL-1040 via Schedule K-1-P), but it does NOT apply to PPRT - see row 20.  _(35 ILCS 5/224; Pub-129.)_
 - **IL CIT rate** -- 7.0% corporate income tax (combined with 2.5% PPRT = 9.5%)  _(35 ILCS 5/201(b); 2025 IL-1120 (net income x 7.0%).)_
@@ -180,7 +180,7 @@ Reviewed against the cited tax authorities by a licensed accountant on 2026-06-0
 
 ### 7.2 Installment schedule
 
-**Installment schedule**
+**Installment schedule**  _(IL-1120 instructions (due dates); the cumulative % split is not yet confirmed)_
 
 | Installment | Due date (calendar-year filer) | Cumulative % |
 | --- | --- | --- |
