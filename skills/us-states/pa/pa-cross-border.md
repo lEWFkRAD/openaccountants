@@ -40,7 +40,7 @@ How Pennsylvania taxes people who cross its borders: the **six reciprocal states
 
 ### 2. Who applies
 
-- **Full-year residents of NJ, OH, IN, MD, VA or WV working in PA:** under the **reciprocal tax agreements** they owe **no PA state income tax on wages** -- but the PA-40 instructions carve out that they **still file a PA-40** if they have other PA-source income, and PA **local EIT and the $10 Local Services Tax still apply** to work in PA municipalities (`pa-payroll`, `pa-local-eit`).
+- **Full-year residents of NJ, OH, IN, MD, VA or WV working in PA:** under the **reciprocal tax agreements** they owe **no PA state income tax on wages** -- but the PA-40 instructions carve out that they **still file a PA-40** if they have other PA-source income, and PA **local EIT and Local Services Tax still apply** to work in PA municipalities (`pa-payroll`, `pa-local-eit`).
 - **PA residents working in another state:** full PA-40 + **Schedule G-L** credit for tax properly paid to the other state (or DC/territory per the instructions).
 - **Nonresidents and part-year residents with PA-source income:** file PA-40; nonresidents report PA-source income only (Line 10 allocation); part-year residents report income for the PA-residency period.
 - **The Ohio-wage wrinkle:** PA residents who worked in Ohio -- the PA-40 instructions state no G-L credit is allowed for Ohio taxes on wages (Ohio's CAT-era system doesn't tax nonresident wages the same way); check the current instructions line-by-line.
