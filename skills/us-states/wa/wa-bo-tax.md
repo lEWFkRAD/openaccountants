@@ -252,7 +252,7 @@ DOR can waive late-return penalties only in qualifying circumstances, on request
 
 ## [2025 periods (late or amended returns)](https://dor.wa.gov/forms-publications/publications-subject/special-notices/service-and-other-activities-rate-changes)
 
-- **Service and Other Activities:** through 30 Sep 2025 there were two tiers: 1.5% (prior-year income under $1,000,000) and 1.75% ($1,000,000 or more). From 1 Oct 2025 the three tiers in the rates section apply, with 2.1% at $5,000,000 or more.
+- **Service and Other Activities:** through 30 Sep 2025 a single 1.5% rate applied. From 1 Oct 2025 the three tiers in the rates section apply (1.5% under $1,000,000 prior-year taxable income, 1.75% at $1,000,000 to under $5,000,000, 2.1% at $5,000,000 or more), per the archived DOR special notice (issue date 25 Jul 2025).
 - **Services made retail sales by ESSB 5814:** Service and Other Activities until 30 Sep 2025; Retailing (and retail sales tax) from 1 Oct 2025. A 2025 annual or quarterly return may need both. Contracts signed before 1 Oct 2025 had a DOR transition rule, so billings under them may stay on the old treatment for a time: check the existing-contracts section of the wa-sales-tax skill before reclassifying.
 - Retailing 0.471%, Wholesaling and Manufacturing 0.484%, and SBC maximums of $55 and $160 per month applied throughout 2025.
 - The 2025 annual return was due 15 April 2026. Late payment brings the penalties in "Filing and payment".

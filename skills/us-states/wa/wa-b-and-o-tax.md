@@ -74,7 +74,7 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 
 ### B&O tax rate schedule (2025-2026 rates; 2027 rates per archived RCW text where confirmed)
 
-> Verified 2026-10-28 against archived RCW pages: retailing 0.471% (RCW 82.04.250), wholesaling 0.484% (RCW 82.04.270), manufacturing 0.484% (RCW 82.04.240) were the pre-2026 rates; archived RCW text (capture 2026-08-08) shows all three at 0.471/0.484/0.484 percent effective until January 1, 2027, rising to 0.5 percent effective January 1, 2027 (2025 c 420 s 103; 2026 c 265 s 3). Service/other 1.5% and royalties 1.5% (RCW 82.04.2907 "rate of 1.5 percent") confirmed verbatim.
+> Verified 2026-10-28 against archived RCW pages: retailing 0.471% (RCW 82.04.250), wholesaling 0.484% (RCW 82.04.270), manufacturing 0.484% (RCW 82.04.240) were the pre-2026 rates; archived RCW text (capture 2026-08-08) shows all three at 0.471/0.484/0.484 percent effective until January 1, 2027, rising to 0.5 percent effective January 1, 2027 (retailing: 2025 c 420 s 103 and 2026 c 265 s 3; wholesaling: 2025 c 420 s 106; manufacturing: archived RCW 82.04.240 capture 2026-08-07 shows 0.484 percent effective until January 1, 2027). Service/other 1.5% and royalties 1.5% (RCW 82.04.2907 "rate of 1.5 percent") confirmed verbatim.
 
 | Classification | 2025-2026 rate | From 1 Jan 2027 | RCW |
 |---------------|------|-----|-----|
@@ -92,7 +92,7 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 
 | Item | Amount | Source |
 |------|--------|--------|
-| Maximum credit (service/other at 1.5%) | $70 per month / $210 per quarter / $840 per year | RCW 82.04.4451 |
+| Maximum credit (taxpayers reporting >=50% under service/other and related classifications) | $160 per month / $480 per quarter / $1,920 per year | RCW 82.04.4451 |
 | Phase-in range (service/other) | Gross income $0 -- $250,000/year | RCW 82.04.4451 | (not yet confirmed)
 | Phase-out complete | Gross income > $250,000/year | RCW 82.04.4451 | (not yet confirmed)
 
