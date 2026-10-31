@@ -1,10 +1,10 @@
 ---
 name: ri-income-tax
-description: Triggers when the taxpayer is a Rhode Island resident sole proprietor or single-member LLC needing to file Rhode Island Form RI-1040. Covers Rhode Island's three-bracket graduated income tax (3.75%–5.99% for tax year 2025), standard deduction, personal exemptions, RI modifications to federal AGI, and the new RI Schedule HR1 for OBBBA add-backs. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
+description: Triggers when the taxpayer is a Rhode Island resident sole proprietor or single-member LLC needing to file Rhode Island Form RI-1040. Covers Rhode Island's three-bracket graduated income tax (3.75%-5.99% for tax year 2026), standard deduction, personal exemptions, RI modifications to federal AGI, and the new RI Schedule HR1 for OBBBA add-backs. Must be loaded alongside us-tax-workflow-base and us-federal-return-assembly.
 version: "0.2"
 jurisdiction: US-RI
-tax_year: 2025
-last_updated: 2026-10-28
+tax_year: 2026
+last_updated: 2026-10-31
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -15,12 +15,12 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Rhode Island Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
-> **Scope.** Rhode Island Form RI-1040 for tax year 2025 for full-year Rhode Island resident sole proprietors and disregarded single-member LLCs. Covers the three-bracket tax computation, RI modifications, standard and itemized deductions, and the new Schedule HR1 for OBBBA-related add-backs.
+> **Scope.** Rhode Island Form RI-1040 for tax year 2026 for full-year Rhode Island resident sole proprietors and disregarded single-member LLCs (the TY2025 tables are retained for the current filing season). Covers the three-bracket tax computation, RI modifications, standard and itemized deductions, and the new Schedule HR1 for OBBBA-related add-backs.
 > **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and thresholds have been researched from primary sources but must be confirmed by a qualified professional before use in return preparation.
 
 ## Section 1: Metadata
 
-- **Tax year covered** -- 2025 (returns due April 15, 2026) (not yet confirmed)
+- **Tax year covered** -- 2026 (inflation-adjusted amounts published in RI Division of Taxation Advisory 2025-22; TY2025 returns due April 15, 2026)
 - **Primary form** -- RI-1040 (Rhode Island Resident Individual Income Tax Return)
 - **Tax authority** -- [Rhode Island Division of Taxation](https://tax.ri.gov)
 - **Tax type** -- Graduated income tax
@@ -30,7 +30,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Field | Value |
 | --- | --- |
-| Tax year covered | 2025 (returns due April 15, 2026) | (not yet confirmed)
+| Tax year covered | 2026 (TY2025 returns due April 15, 2026) |
 | Primary form | RI-1040 (Rhode Island Resident Individual Income Tax Return) |
 | Tax authority | [Rhode Island Division of Taxation](https://tax.ri.gov) |
 | Tax type | Graduated income tax |
@@ -47,9 +47,19 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Section 2: Quick reference -- rates and thresholds
 
-### Tax brackets -- all filing statuses (tax year 2025)
+### Tax brackets -- all filing statuses (tax year 2026)
 
 Rhode Island uses a uniform rate schedule that applies to all filing statuses.
+
+**Tax brackets -- all filing statuses (tax year 2026)**
+
+| RI taxable income | Base tax | Rate | On excess over |
+| --- | --- | --- | --- |
+| $0 – $82,050 | $0 | 3.75% | $0 |
+| $82,051 – $186,450 | $3,076.88 | 4.75% | $82,050 |
+| Over $186,450 | $8,035.88 | 5.99% | $186,450 |  -- verified verbatim 2026-10-31 vs archived ADV 2025-22 inflation-adjustment release: $82,050 / $186,450 breakpoints, $3,076.88 and $8,035.88 bases
+
+### Tax brackets -- all filing statuses (tax year 2025, for the current filing season)
 
 **Tax brackets -- all filing statuses (tax year 2025)**
 
@@ -57,36 +67,32 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 | --- | --- | --- | --- |
 | $0 – $79,900 | $0 | 3.75% | $0 |
 | $79,901 – $181,650 | $2,996.25 | 4.75% | $79,900 |
-| Over $181,650 | $7,829.38 | 5.99% | $181,650 |  -- verified verbatim 2026-10-28 vs archived 2025 RI Tax Tables and ADV 2025-22 inflation-adjustment release: single/HoH schedule $0-79,900 at 3.75%, $2,996.25 + 4.75% to $181,650, $7,829.38 + 5.99% above
+| Over $181,650 | $7,829.38 | 5.99% | $181,650 |  -- verified verbatim 2026-10-28 vs archived 2025 RI Tax Tables and ADV 2025-22 inflation-adjustment release: $0-79,900 at 3.75%, $2,996.25 + 4.75% to $181,650, $7,829.38 + 5.99% above
 
-### Tax brackets -- all filing statuses (tax year 2026, for reference)
+### Standard deduction (tax year 2026)
 
-**Tax brackets -- all filing statuses (tax year 2026, for reference)**
+**Standard deduction (tax year 2026)**
 
-| RI taxable income | Base tax | Rate | On excess over |
-| --- | --- | --- | --- |
-| $0 – $82,050 | $0 | 3.75% | $0 |
-| $82,051 – $186,450 | $3,076.88 | 4.75% | $82,050 |
-| Over $186,450 | $8,035.88 | 5.99% | $186,450 |  -- MFJ schedule verified verbatim vs archived ADV 2025-22: $82,050 / $186,450 breakpoints, $8,035.88 base
+| Filing status | 2026 | 2025 |
+| --- | --- | --- |
+| Single | $11,200 | $10,900 |
+| MFJ / QSS | $22,400 | $21,800 |
+| MFS | $11,200 | $10,900 |
+| HOH | $16,800 | $16,350 |
 
-### Standard deduction (tax year 2025)
+All amounts stated in archived Advisory 2025-22 (standard deduction amounts by tax year).
 
-**Standard deduction (tax year 2025)**
+### Personal exemption (tax year 2026)
 
-| Filing status | Standard deduction |
-| --- | --- |
-| Single | $10,900 |
-| MFJ / QSS | $21,800 |
-| MFS | $10,900 |
-| HOH | $16,350 |
-
-### Personal exemption (tax year 2025)
-
-**Personal exemption (tax year 2025)**
+**Personal exemption (tax year 2026)**
 
 | Item | Value |
 | --- | --- |
-| Exemption amount per person | $5,100 |
+| Exemption amount per person | $5,250 (2026; $5,100 for 2025) |
+| Phase-out range for standard deduction and exemption amounts | $261,000 to $290,800 of RI-modified federal AGI (2026; $254,250 to $283,250 for 2025) |
+| Phaseout increment | $7,450 for 2026 ($7,250 for 2025) |
+
+All amounts stated in archived Advisory 2025-22 (personal and dependency exemption amounts and phase-out ranges by tax year).
 
 ### Other key figures
 
@@ -125,8 +131,8 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 
 - **R-RI-1** -- Federal AGI is the starting point. RI-1040 starts from federal Form 1040, Line 11.  _(R-RI-1)_
 - **R-RI-2** -- Uniform rate schedule applies to all filing statuses. Unlike most states, RI uses the same tax brackets regardless of filing status. Only the standard deduction and exemption amounts vary by status.  _(R-RI-2)_
-- **R-RI-3** -- Standard deduction is based on filing status. $10,900 (single/MFS), $21,800 (MFJ/QSS), $16,350 (HOH) for 2025.  _(R-RI-3)_
-- **R-RI-4** -- Personal exemption is $5,100 per person. Subject to income-based phase-out for high earners.  _(R-RI-4)_
+- **R-RI-3** -- Standard deduction is based on filing status. $11,200 (single/MFS), $22,400 (MFJ/QSS), $16,800 (HOH) for 2026 ($10,900 / $21,800 / $16,350 for 2025).  _(R-RI-3)_
+- **R-RI-4** -- Personal exemption is $5,250 per person for 2026 ($5,100 for 2025). Subject to income-based phase-out ($261,000 to $290,800 RI-modified AGI range for 2026).  _(R-RI-4)_
 - **R-RI-5** -- RI EITC = 16% of federal EITC. Partially refundable (15% of the credit is the refundable portion). Self-employment income qualifies.  _(R-RI-5)_ (not yet confirmed)
 - **R-RI-6** -- Schedule HR1 is mandatory for OBBBA add-backs. If the taxpayer claimed any OBBBA-specific deductions on the federal return (§163(j), §174A, §179(b) increase, §181), complete Schedule HR1 to add these back.  _(R-RI-6)_
 - **R-RI-7** -- Tax tables for income under $100,000. Use the RI tax tables for taxable income under $100,000; use the tax computation worksheet for $100,000 and above.  _(R-RI-7)_
@@ -147,8 +153,8 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 | OBBBA filer | Must complete Schedule HR1 to add back OBBBA-specific deductions (§163(j), §174A, §179(b), §181). |
 | Low-income freelancer with children | Check eligibility for RI EITC (16% of federal) and RI child tax credit ($500/child under 6). |
 | Social Security recipient | Verify eligibility for RI Social Security subtraction based on income thresholds. |
-| High earner (>$181,650) | Top bracket at 5.99%. Plus personal exemption phase-out may apply. |
-| Standard vs. itemized | RI standard deduction is relatively generous ($10,900 single). Compare against itemized before choosing. |
+| High earner (>$186,450) | Top bracket at 5.99%. Plus personal exemption phase-out may apply. |
+| Standard vs. itemized | RI standard deduction is relatively generous ($11,200 single for 2026). Compare against itemized before choosing. |
 
 ## Section 8: Form mapping
 
@@ -161,7 +167,7 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 | Line 2a | OBBBA add-backs | Schedule HR1 |
 | Line 3 | RI modified AGI | Line 1 ± modifications |
 | Line 4 | Deduction (standard or itemized) | Standard deduction or RI Schedule A |
-| Line 5 | Exemptions | $5,100 per person |
+| Line 5 | Exemptions | $5,250 per person (2026) |
 | Line 7 | RI taxable income | Line 3 − deduction − exemptions |
 | Line 8 | RI income tax | Tax tables or tax computation worksheet |
 | Line 14 | RI EITC | 16% of federal EITC | (not yet confirmed)
@@ -172,7 +178,7 @@ Rhode Island uses a uniform rate schedule that applies to all filing statuses.
 - **REFUSE-RI-1** -- REFUSE to prepare a RI return for a part-year resident or nonresident without Form RI-1040NR. This skill covers full-year residents only.  _(REFUSE-RI-1)_
 - **REFUSE-RI-2** -- REFUSE to skip Schedule HR1 if the taxpayer claimed any OBBBA-specific deductions on the federal return. The schedule is mandatory for 2025.  _(REFUSE-RI-2)_
 - **REFUSE-RI-3** -- REFUSE to claim the Social Security subtraction without verifying income eligibility thresholds for 2025.  _(REFUSE-RI-3)_
-- **REFUSE-RI-4** -- REFUSE to apply 2026 inflation-adjusted brackets ($82,050 / $186,450) to a 2025 return. Use the 2025 brackets ($79,900 / $181,650).  _(REFUSE-RI-4)_
+- **REFUSE-RI-4** -- REFUSE to apply 2025 brackets ($79,900 / $181,650) to a 2026 return. Use the 2026 inflation-adjusted brackets ($82,050 / $186,450) for tax year 2026.  _(REFUSE-RI-4)_
 
 ## Disclaimer
 
@@ -232,12 +238,13 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: the RI EITC percentage (16%), the RI child tax credit ($500 per child under 6), the Social Security subtraction thresholds, the Schedule HR1 line mapping, and the RI-1040 line numbers are not tied to an archived capture. The archived Advisory 2025-22 states the 2026 (and 2025) tax brackets, standard deductions, exemption amounts, and phase-out ranges used above.
 
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| RI Division of Taxation Advisory 2025-22 -- inflation-adjusted amounts for Tax Year 2026 (brackets $82,050/$186,450, bases $3,076.88/$8,035.88; standard deduction $11,200/$22,400/$16,800; exemption $5,250; phase-out $261,000-$290,800, increment $7,450) | https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf | 2026-10-31 |
+| RI 2025 Tax Tables (2025 brackets $79,900/$181,650, bases $2,996.25/$7,829.38) | https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-10/2025%20RI%20Tax%20Tables_Full_d.pdf | 2026-10-28 |
 
 Not yet confirmed against archived sources.
 
