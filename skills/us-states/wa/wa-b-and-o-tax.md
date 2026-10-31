@@ -72,11 +72,11 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 
 ## Rates, bands and thresholds
 
-### B&O tax rate schedule (2025 rates; 2026 rates per archived RCW text where confirmed)
+### B&O tax rate schedule (2025-2026 rates; 2027 rates per archived RCW text where confirmed)
 
-> Verified 2026-10-28 against archived RCW pages: retailing 0.471% (RCW 82.04.250), wholesaling 0.484% (RCW 82.04.270), manufacturing 0.484% (RCW 82.04.240) were the pre-2026 rates; archived current RCW text shows all three at 0.5% effective 1 Jan 2026 (2025 c 420 s 106). Service/other 1.5% and royalties 1.5% (RCW 82.04.2907 "rate of 1.5 percent") confirmed verbatim.
+> Verified 2026-10-28 against archived RCW pages: retailing 0.471% (RCW 82.04.250), wholesaling 0.484% (RCW 82.04.270), manufacturing 0.484% (RCW 82.04.240) were the pre-2026 rates; archived RCW text (capture 2026-08-08) shows all three at 0.471/0.484/0.484 percent effective until January 1, 2027, rising to 0.5 percent effective January 1, 2027 (2025 c 420 s 103; 2026 c 265 s 3). Service/other 1.5% and royalties 1.5% (RCW 82.04.2907 "rate of 1.5 percent") confirmed verbatim.
 
-| Classification | 2025 rate | 2026 rate | RCW |
+| Classification | 2025-2026 rate | From 1 Jan 2027 | RCW |
 |---------------|------|-----|-----|
 | Retailing | 0.471% | 0.5% | RCW 82.04.250 |
 | Wholesaling | 0.484% | 0.5% | RCW 82.04.270 |
