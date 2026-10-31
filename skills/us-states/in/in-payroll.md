@@ -130,7 +130,7 @@ For Indiana withholding, the taxable base is federal adjusted gross income modif
 
 | Avg. monthly withholding | Filing frequency | Voucher / due date |
 | --- | --- | --- |
-| Less than $83.33 | **Annual** | January 31 |
+| $83.33 or less | **Annual** | January 31 |
 | $83.33 – $999.99 | **Monthly** | 30th of the following month | (not yet confirmed)
 | $1,000.00 – $7,083.33 | **Monthly with EFT** | 30th of the following month | (not yet confirmed)
 | Above $7,083.33 (i.e. >$85,000/year) | **Early filer** (semi-monthly EFT) | 20th of the same month (1st-15th) and 5th of following month (16th-end) | (not yet confirmed)
@@ -166,7 +166,7 @@ These thresholds correspond to roughly $1,000/year, $12,000/year, and $85,000/ye
 
 ### 4.3 Late filing and late W-2 penalties
 
-- **Late W-2 filing penalty** -- $10 per W-2 filed late (capped at $25,000 per employer per year).  _(IC 6-8.1-10-6)_
+- **Late W-2 filing penalty** -- $10 per W-2 filed late (DOR withholding page: "$10 per wage statement").  _(IC 6-8.1-10-6)_
 - **WH-3 non-filing treatment** -- Failure to file WH-3 is treated as a non-filing of an information return, with the same penalty structure. Persistent non-filing can lead DOR to revoke the employer's withholding registration, which prevents lawful Indiana payroll operations.
 
 ### 4.4 Reconciliation discrepancies
@@ -483,6 +483,7 @@ Before signing off on an Indiana payroll year-end, confirm:
 | Source | URL | Read on |
 |---|---|---|
 | Indiana DOR withholding (WH-1/WH-1U/WH-3/WH-4, county rule, reciprocity) | https://www.in.gov/dor/i-am-a/business-corp/withholding/ | 2026-10-28 |
+| Indiana DOR Business FAQ (withholding filing-frequency table: $83.33 or less annual, $1,000 or less monthly, more than $1,000 early filer) | https://www.in.gov/dor/i-am-a/business-corp/business-faq/ | 2026-10-31 |
 | Indiana Code IC 6-3 (adjusted gross income tax; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6 | 2026-10-28 |
 | Indiana Code IC 6-3-1 (rate schedule; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-3-1 | 2026-10-28 |
 | Indiana Code IC 6-8.1 (penalties and interest; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-8-1 | 2026-10-28 |
@@ -490,7 +491,7 @@ Before signing off on an Indiana payroll year-end, confirm:
 
 Also cited without archived copies this run: IC 6-3.6 (local income taxes); IC 6-8.1-10 (penalties and interest); IC 22-2-2/22-2-5/22-2-9/22-2-16 (minimum wage, wage payment, separation pay, sick-leave preemption); IC 22-4 and IC 22-4-8-1 (unemployment system, ABC test); HEA 1001-2023 / HEA 1427-2023 (PIT rate phase-down); DOR Departmental Notice #1; DOR Information Bulletins #32 and #33; DWD Employer Handbook (2025); IRS Rev. Rul. 87-41; Naugle v. Beech Grove City Schools, 864 N.E.2d 1058 (Ind. 2007).
 
-Not yet confirmed: the 3.15% 2025 state rate and the 2026 rate; the 2025 county-rate schedule (Departmental Notice #1); the UI wage base ($9,500) and experience/new-employer rates; WH-1 filing-frequency thresholds; penalty percentages; reciprocity form details -- DWD and iga.in.gov pages returned no machine-readable text this run.
+Not yet confirmed: the 3.15% 2025 state rate and the 2026 rate; the 2025 county-rate schedule (Departmental Notice #1); the UI wage base ($9,500) and experience/new-employer rates; the WH-1 "monthly with EFT" and early-filer bands above $1,000/month (the archived DOR Business FAQ puts early-filer at more than $1,000/month, conflicting with the $7,083.33 band shown above); the $25,000 annual cap on the late W-2 penalty; penalty percentages; reciprocity form details -- DWD and iga.in.gov pages returned no machine-readable text this run.
 
 ## Talk to a verified accountant
 
