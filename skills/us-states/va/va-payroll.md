@@ -80,7 +80,7 @@ These reduce taxable wages for withholding-table purposes and feed the VA-4 allo
 
 - **Standard withholding computation method** -- Step 1: Convert wage payment to annualized basis (multiply by pay periods per year) Step 2: Subtract VA-4 personal exemption allowance × $930 Step 3: Subtract standard deduction (annualized: $8,500 single / $17,000 MFJ -- but VA-4 line for additional standard deduction is rare in practice; default is $8,500 unless the employee claims MFJ via VA-4 line 3) Step 4: Apply graduated bracket table from §2.1 to remaining amount Step 5: Divide annualized tax by pay periods per year = withholding per pay period Step 6: Add any additional flat dollar amount the employee elected on VA-4 line 4  _(Va. Dept. of Taxation Withholding Tables, percentage method)_ (not yet confirmed)
 
-**Worked example (employee earns $80,000 annually, semi-monthly, single, 1 exemption, no additional withholding):** (not yet confirmed)
+**Illustrative withholding computation (not a numbered worked example; employee earns $80,000 annually, semi-monthly, single, 1 exemption, no additional withholding):** (not yet confirmed)
 - Annualized wages: $80,000 (not yet confirmed)
 - Less personal exemption: $80,000 − $930 = $79,070 (not yet confirmed)
 - Less standard deduction (single): $79,070 − $8,500 = $70,570 Virginia taxable wages (not yet confirmed)
@@ -371,42 +371,9 @@ For an employer with workers physically performing services in Alexandria, the c
 - No VEC SUI complexity in this example since Sarah's services in DC are "localized" in DC for SUI purposes BUT the employer-employee relationship is administered out of Virginia. Under Va. Code §60.2-212 the localization-of-services test would actually push SUI coverage to DC for this employee. In practice, federal contractors with field staff working in DC commonly register with both VEC and DC's Department of Employment Services and report the wages to whichever jurisdiction's coverage analysis applies. This is the kind of multistate allocation that flows into example C.
 - Sarah files VA Form 760 reporting all wages and claiming the $4,662.78 withholding credit. (not yet confirmed)
 
-### 14.2 Example B -- VA federal contractor with Maryland-resident employee
+### 14.2 Reciprocity note -- Maryland-resident employee working in Virginia (not a numbered worked example)
 
-**Facts:**
-- Employer: Patriot Defense Systems Inc., HQ in McLean, VA
-- Employee: Marcus Johnson, resident of Bethesda, MD (Montgomery County)
-- Marcus performs all services in Virginia at the McLean office
-- Annual salary: $140,000, paid semi-monthly (24 periods) (not yet confirmed)
-
-**Analysis:**
-- Marcus is a Maryland resident performing services in Virginia
-- Under the VA-MD reciprocal agreement, Marcus is exempt from Virginia withholding
-- The employer must:
-  1. Collect a VA-4 from Marcus with the reciprocal certification block completed (residency state: MD)
-  2. Register with the Maryland Comptroller as an out-of-state withholding employer (Form CRA -- Combined Registration Application)
-  3. Withhold Maryland state tax PLUS Montgomery County local tax (Maryland uses a county-of-residence local tax that varies by county)
-  4. Remit Maryland withholding quarterly via Maryland's bFile system
-  5. Issue W-2 reporting MD wages and MD withholding only -- Virginia boxes 15/16/17 are BLANK
-  6. File MD Form MW-508 annual reconciliation (Maryland's equivalent of VA-6) by January 31 (not yet confirmed)
-
-**Maryland withholding rates applicable for 2025 (Montgomery County resident):**
-- State: graduated 2% to 5.75% (Maryland's top bracket starts at $250,000 single) (not yet confirmed)
-- Montgomery County local: 3.20% flat (2025 Montgomery County rate) (not yet confirmed)
-- Combined effective rate at $140,000 income ≈ 7.95% -- significantly higher than the Virginia 5.75% rate (not yet confirmed)
-
-**Virginia treatment:**
-- No Virginia withholding
-- VA-6/VA-16 reports $0 Virginia wages for Marcus
-- VEC SUI coverage: Marcus performs services in Virginia, so VEC coverage applies. Wages are reported on FC-20/FC-21 up to the $8,000 wage base (Virginia SUI is independent of the income-tax reciprocal agreement) (not yet confirmed)
-- Workers' comp: Virginia coverage applies (Marcus works in Virginia)
-
-**AUDIT FLASH POINT illustration:**
-If Patriot Defense had failed to collect the reciprocal-certified VA-4 and continued withholding Virginia tax from Marcus's wages, the consequences:
-- Marcus would file VA Form 763 (non-resident return) claiming refund of ~$8,050 (5.75% × ~$140K Virginia tax incorrectly withheld) (not yet confirmed)
-- Marcus would owe Maryland approximately $11,130 in unpaid tax + interest + penalty (not yet confirmed)
-- Patriot Defense would face Maryland Comptroller penalties for failure to register and withhold (~10% of unpaid tax + interest) (not yet confirmed)
-- Patriot Defense would NOT face a Virginia penalty (over-withholding is not a Virginia violation) but would face administrative burden of issuing W-2c and amending VA-6
+A Maryland resident who performs all services at a Virginia employer's Virginia office is exempt from Virginia withholding under the VA-MD reciprocal agreement: collect a VA-4 with the reciprocal certification block completed, register with the Maryland Comptroller (Form CRA), withhold Maryland state plus county-of-residence local tax, remit via bFile, and report only Maryland wages/withholding on the W-2 (Virginia boxes 15/16/17 blank; MD MW-508 reconciliation by January 31, not yet confirmed). Virginia SUI is independent of the income-tax reciprocity: services performed in Virginia still attach VEC coverage (FC-20/FC-21), and Virginia workers' comp applies. Flash point: if the employer skips the reciprocal VA-4 and withholds Virginia tax anyway, the employee overpays Virginia (refund via Form 763) while still owing Maryland tax plus interest and Maryland registration/withholding penalties -- over-withholding is not a Virginia violation, but it forces W-2c and VA-6 amendments. (Figures for this scenario are not yet confirmed against archived sources.)
 
 ### 14.3 Example C -- Multistate employer with VA residents working across multiple jurisdictions
 
