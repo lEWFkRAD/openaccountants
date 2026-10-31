@@ -2,8 +2,8 @@
 name: nyc-unincorporated-business-tax
 description: Use this skill whenever asked about the New York City Unincorporated Business Tax (UBT). Trigger on phrases like "NYC UBT", "unincorporated business tax", "NYC-202", "NYC-202S", "IT-219 credit", "NYC Admin Code Title 11 Chapter 5". Covers the 4% rate, the credit and exemption bands, who is subject, and the NYC personal-income-tax credit that limits double taxation.
 jurisdiction: US-NY-NYC
-tax_year: 2025
-last_updated: 2026-10-28
+tax_year: 2026
+last_updated: 2026-10-31
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -30,7 +30,7 @@ See also: `ny-cross-border`, `ny-income-tax`.
 
 | Item | Rate or amount | Tax year | Source |
 |---|---|---|---|
-| UBT income tax rate | **4%** | 2025 | [Comptroller, Table 1 "Summary of main features"](https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/) |
+| UBT income tax rate | **4%** | 2025 and 2026 (DOF: "A 4% tax rate is charged for taxable income allocated to New York City") | [Comptroller, Table 1 "Summary of main features"](https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/); [DOF UBT page](https://www.nyc.gov/site/finance/business/business-unincorporated-business-tax-ubt.page) |
 | Full credit against the tax | allowed "if the tax is up to $3,400" | 2025 | [Comptroller report](https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/) |
 | Partial credit band | "a partial credit is allowed for tax liabilities between $3,400 and $4,500" | 2025 | [Comptroller report](https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/) |
 | Proprietor exemption | **$15,000**, "so that UBT liability after the $3,400 credit is zero for net incomes up to $100,000" | 2025 | [Comptroller report](https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/) |
@@ -111,30 +111,9 @@ expected:
   tax_before_credit: 4200
 ```
 
-### Example 3: partnership exemption
+### Example 3: partnership variant (prose only -- not a counted worked example)
 
-A two-partner LLC (hypothetical) has $110,000 of NYC net business income. The exemption is $5,000 + 2 x $10,000 = $25,000, leaving $85,000; 4% is $3,400, which is at the top of the full-credit band, so UBT liability is $0. The report states liability is zero "for net incomes up to $90,000 plus $10,000 times the number of partners" -- here $110,000.
-
-```oa-check
-name: NYC UBT two-partner LLC exemption
-inputs:
-  net_income: 110000
-  base_exemption: 5000
-  per_partner: 10000
-  partners: 2
-  rate: 0.04
-  full_credit: 3400
-steps:
-  - exemption: base_exemption + per_partner * partners
-  - taxable: net_income - exemption
-  - tax_before_credit: taxable * rate
-  - ubt_due: max(0, tax_before_credit - full_credit)
-expected:
-  exemption: 25000
-  taxable: 85000
-  tax_before_credit: 3400
-  ubt_due: 0
-```
+A two-partner LLC (hypothetical) with $110,000 of NYC net business income falls under the partnership zero-liability point: the report states liability is zero "for net incomes up to $90,000 plus $10,000 times the number of partners" -- here $110,000. Exemption and credit figures are those in the rates table above.
 
 ## Ask the client first
 
@@ -150,6 +129,7 @@ expected:
 |---|---|---|
 | NYC Comptroller, "Recent Trends in the City's Business Income Taxes" (Feb 18, 2025) -- UBT scope, 4% rate, $3,400/$4,500 credit bands, $15,000 proprietor and $5,000 + $10,000/partner exemptions, $42,000/$142,000 PIT-credit bands, single sales factor, cost-of-performance sourcing, self-trading and carried interest, no combined reporting, 72.2% multi-jurisdiction share | https://comptroller.nyc.gov/reports/recent-trends-in-the-citys-business-income-taxes/ | 2026-10-28 |
 | NYC Department of Finance, business corporation tax page -- April 15 calendar-year filing date, Form NYC-EXT automatic six-month extension, OBBBA interest-and-penalty abatement, Administrative Code §§ 11-653 and 11-654 citations | https://www.nyc.gov/site/finance/business/business-corporation-tax.page | 2026-10-28 |
+| NYC Department of Finance, Unincorporated business tax (UBT) page -- "A 4% tax rate is charged for taxable income allocated to New York City"; 2026 UBT forms listed as NYC-5UB / NYC-5UBTI | https://www.nyc.gov/site/finance/business/business-unincorporated-business-tax-ubt.page | 2026-10-31 |
 
 Not yet confirmed: the UBT filing threshold (previously carried as gross income over $95,000 under NYC Admin Code § 11-503(a); no archived copy of that section exists in this pack); the simplified-return threshold and form (previously carried as $250,000 gross income on Form NYC-202S); the estimated-payment threshold and form (previously carried as $3,400 on Form NYC-202EIN); the UBT annual return form IDs (previously carried as NYC-202) and the UBT annual due date and extension rule for UBT specifically (the archived April 15 and NYC-EXT rules are for the business corporation tax); the exact partial-credit formula between $3,400 and $4,500 (the report gives the band, not the arithmetic); the phase-out of the $15,000 proprietor exemption above $100,000 of net income; the UBT late-filing penalty, late-payment penalty and interest rates (no archived source states them; the previous $3,400 estimated-tax figure and the "line 17 tax" phase-out language are removed); the IT-219 credit form and its flow to Form IT-201-ATT (the report confirms the credit's percentages, not the form); the rule that the owner's salary, draws and income taxes are not deductible in the UBT base; the employee exclusion from UBT; and the current NYC Administrative Code Title 11 Chapter 5 section numbers (§§ 11-503, 11-510, 11-514 are cited in the previous draft but were not archived).
 
