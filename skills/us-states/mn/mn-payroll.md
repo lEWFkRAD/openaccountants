@@ -160,7 +160,7 @@ Exposure if challenged: - UI: NorthPoint is new in 2025, construction industry, 
 
 Remediation: reclassify Sam as a W-2 employee effective immediately. File an amended UI wage detail. Provide Sam with the WTPA written notice. Add him to the ESST tracker. Confirm workers' comp coverage. Issue a Form W-2 at year-end. Consult counsel about Section 530 safe harbor for federal exposure (state has no parallel safe harbor under §181.723).
 
-### Example 3 -- Mid-size employer entering 2026 Paid Leave
+### Scenario note -- mid-size employer entering 2026 Paid Leave (not a numbered worked example)
 
 Facts: GoodSoft Inc., a 35-employee Minneapolis software product company with $4M annual payroll (average salary $114k), runs payroll through Gusto. The company offers unlimited PTO and has never tracked accrued sick time. The CFO realizes in October 2025 that the company has compliance work to do for both ESST and the 2026 Paid Leave rollout. (not yet confirmed)
 
