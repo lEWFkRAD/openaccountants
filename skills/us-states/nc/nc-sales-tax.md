@@ -50,8 +50,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Section 10 -- Prohibitions
 
-- **Grocery food exemption caution** -- NEVER say grocery food is fully exempt -- state tax exempt but local 2% applies.
-- **No computation** -- NEVER compute any number.
+- **Grocery food exemption caution** — NEVER say grocery food is fully exempt -- state tax exempt but local 2% applies.
+- **No computation** — NEVER compute any number.
 
 ## Disclaimer
 
@@ -69,7 +69,7 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network -- accountants who put
+This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).

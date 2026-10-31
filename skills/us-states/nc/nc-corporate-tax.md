@@ -206,7 +206,7 @@ NC has two distinct NOL regimes:
 
 ### 7.1 Statutory basis
 
-- **PTE statutory basis and history** -- N.C. Gen. Stat. § 105-154.1 (taxed partnership election) and § 105-131.1A (taxed S corporation election) authorize pass-through entity taxation; the electing entity pays "the tax under this Article" -- the Article 4 corporate income tax. (An earlier draft of this skill cited a nonexistent "§ 105-153.9A"; corrected against the archived statutes.) The election was enacted in 2021 (S.L. 2021-180) as a SALT-cap workaround responding to IRS Notice 2020-75, which blessed state PTE regimes as deductible at the entity level for federal purposes.  _(N.C. Gen. Stat. §§ 105-154.1, 105-131.1A; S.L. 2021-180; IRS Notice 2020-75)_
+- **PTE statutory basis** -- N.C. Gen. Stat. § 105-154.1 and § 105-131.1A: a partnership (respectively, S corporation) "may elect, on its timely filed annual return ... to have the tax under this Article imposed on the partnership" (respectively, "on the S Corporation"), and may not revoke the election after the due date of the return, including extensions. (An earlier draft of this skill cited a nonexistent "§ 105-153.9A"; corrected against the archived statutes.)  _(N.C. Gen. Stat. §§ 105-154.1, 105-131.1A, archived 2026-10-31)_
 
 ### 7.2 Mechanics
 
@@ -214,7 +214,7 @@ NC has two distinct NOL regimes:
 
 ### 7.3 PTE rate schedule
 
-**PTE rate schedule**  _(§§ 105-154.1, 105-131.1A: the entity pays the Article 4 rate; schedule per § 105-130.3)_
+**PTE rate schedule**  _(§§ 105-154.1, 105-131.1A: the electing entity has "the tax under this Article" imposed on it; rate schedule per § 105-130.3)_
 
 | Tax Year | PTE Rate |
 | --- | --- |
@@ -416,7 +416,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 | N.C.G.S. § 105-131.1A (taxed S corporation election): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-131.1A.html | 2026-10-31 |
 | NCDOR home (forms/instructions hub): | https://www.ncdor.gov | 2026-10-29 |
 
-Not yet confirmed: prior-year 100% estimated-tax safe harbor in § 105-163.41 (archived text states only the 90%-of-current-year measure); whether any holding-company franchise cap applies for 2025+ (archived § 105-122 contains none; former (d1) repealed by S.L. 2015-241); fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table
+Not yet confirmed: PTE regime enactment history (S.L. 2021-180; IRS Notice 2020-75 entity-level deductibility) -- session law and IRS notice not archived; whether any holding-company franchise cap applies for 2025+ (archived § 105-122 contains none; former (d1) repealed by S.L. 2015-241); fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table
 
 *End of nc-corporate-tax.md (v0.1, 2025-11-15).*
 
