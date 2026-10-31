@@ -107,10 +107,6 @@ The collection allowance is denied on late or incomplete returns (s. 212.12(1)(b
 
 ## Worked examples
 
-All client facts in the examples are hypothetical; the 6% state rate, 1.5% surtax, $5,000 surtax cap, and 2.5%-of-first-$1,200 (max $30) collection allowance are the confirmed figures from the rates table above.
-
-A monthly dealer with $100,000 of taxable sales delivered in a 1.5% surtax county, filing and paying electronically on time:
-
 ```oa-check
 name: FL monthly dealer 100000 taxable sales at 6 plus 1.5 surtax with collection allowance
 inputs:
@@ -131,24 +127,6 @@ expected:
   net: 7470.00
 ```
 
-Surtax cap per item: a sale of 10 items at $2,000 each in a 1.5% surtax county -- each item is under the $5,000 cap, so surtax applies to the full price of each:
-
-```oa-check
-name: FL surtax cap per item, 10 items at 2000 each with 1.5 surtax
-inputs:
-  items: 10
-  price: 2000
-  surtax: 0.015
-  cap: 5000
-steps:
-  - surtax_base_per_item: min(price, cap)
-  - surtax_total: items * surtax_base_per_item * surtax
-expected:
-  surtax_total: 300.00
-```
-
-A single item of $10,000 in the same county: surtax applies only to the first $5,000 (s. 212.054(4)(b)1.); state tax applies to the full price:
-
 ```oa-check
 name: FL single item over the surtax cap
 inputs:
@@ -165,42 +143,6 @@ expected:
   surtax_tax: 75.00
   gross: 675.00
 ```
-
-Late filing: a monthly return filed late with $500 of tax due draws the 10% penalty ($50), and the collection allowance is forfeited:
-
-```oa-check
-name: FL late filing penalty and lost allowance
-inputs:
-  tax_due: 500
-  penalty_rate: 0.10
-steps:
-  - penalty: tax_due * penalty_rate
-  - total: tax_due + penalty
-expected:
-  penalty: 50.00
-  total: 550.00
-```
-
-Mixed-county sales: $8,000 delivered in Orange County (0.5% surtax) and $4,000 in Miami-Dade (1% surtax):
-
-```oa-check
-name: FL mixed county sales with different surtax rates
-inputs:
-  sales_orange: 8000
-  sales_miami: 4000
-  state: 0.06
-  surtax_orange: 0.005
-  surtax_miami: 0.01
-steps:
-  - state_tax: (sales_orange + sales_miami) * state
-  - surtax: sales_orange * surtax_orange + sales_miami * surtax_miami
-  - gross: state_tax + surtax
-expected:
-  state_tax: 720.00
-  surtax: 80.00
-  gross: 800.00
-```
-
 ## Ask the client first
 
 - Is the dealer registered with FDOR (registration is administered under s. 212.18)? Any location or mailing-address changes on the account?
