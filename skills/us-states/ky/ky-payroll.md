@@ -87,22 +87,7 @@ expected:
   withheld: 175.00
 ```
 
-### Example 2: same wages on a 2025 payroll (hypothetical facts)
-
-$5,000 × 4% = $200 per month under the 2025 rate.
-
-```oa-check
-name: KY 2025 monthly withholding at 4 percent
-inputs:
-  wages: 5000
-  rate: 0.04
-steps:
-  - withheld: wages * rate
-expected:
-  withheld: 200.00
-```
-
-### Example 3: filing-frequency determination (hypothetical facts)
+### Example 2: filing-frequency determination (hypothetical facts)
 
 An employer withheld $1,200 of Kentucky income tax during the lookback period. That is $400 or more but less than $2,000, so the employer files quarterly Form K-1 returns (April 30, July 31, October 31) with the K-3 closing the year by January 31.
 
@@ -118,21 +103,6 @@ expected:
   over400: 800.00
   over2000: 0.00
   over50000: 0.00
-```
-
-### Example 4: UI contribution on new-employer rate (hypothetical facts)
-
-A new non-construction employer at 2.7% with $10,000 of covered wages in the quarter owes $10,000 × 2.7% = $270 (see `ky-social-contributions` for the full rate schedule).
-
-```oa-check
-name: KY UI contribution at 2.7 percent
-inputs:
-  wages: 10000
-  rate: 0.027
-steps:
-  - tax: wages * rate
-expected:
-  tax: 270.00
 ```
 
 ## Ask the client first
@@ -160,7 +130,7 @@ expected:
 | KRS 341.243 (0.075% UI rate reduction through 12/31/2026) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS341.243 | 2026-10-28 |
 | KRS 141.070 (credit for tax paid to other states) | https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=KRS141.070 | 2026-10-28 |
 
-Not yet confirmed: the local occupational license tax system -- v0.2 listed rates for Louisville Metro (1.45%/0.75% school), Lexington-Fayette (2.25%, $148,000 cap), Covington, Newport, Florence, Bowling Green, Owensboro and several counties, plus Form OL-3 mechanics; none of these local rates, caps or forms were tied to archived primary sources (local ordinances are not archived), so no local rate may be quoted -- check each locality's current published ordinance; the reciprocal-agreement list (Ohio, Indiana, Illinois, Michigan, Virginia, West Virginia) and Form 42A809 mechanics (agreements and form instructions not archived -- verify with DOR before honoring an exemption); the Form K-4 employee withholding certificate mechanics (form instructions not archived); the v0.2 "construction-industry employee presumption under KRS 341.123" -- no KRS 341.123 exists in the archived chapter 341 listing, so that presumption is removed (the construction new-employer UI rate in KRS 341.272 is the confirmed construction-industry rule); final-pay timing under KRS 337.055 and liquidated damages under KRS 337.385 (statutes not archived this run); the mandatory-EFT threshold of $1,000 average monthly withholding asserted in v0.2 -- the archived 103 KAR 18:150 states the EFT rule as lookback $50,000 or more and average monthly over $25,000, which supersedes it; the 2025 interest rate on deficiencies asserted as 8% in v0.2 -- the DOR's 2025 notice sets the base "tax interest rate" at 8% but the rate charged on unpaid tax at 10%, which supersedes it.
+Not yet confirmed: the local occupational license tax system -- v0.2 listed rates, caps and Form OL-3 mechanics for Louisville Metro, Lexington-Fayette, Covington, Newport, Florence, Bowling Green, Owensboro and several counties; none of these local figures or forms were tied to archived primary sources (local ordinances are not archived), so no local rate may be quoted -- check each locality's current published ordinance; the reciprocal-agreement list (Ohio, Indiana, Illinois, Michigan, Virginia, West Virginia) and Form 42A809 mechanics (agreements and form instructions not archived -- verify with DOR before honoring an exemption); the Form K-4 employee withholding certificate mechanics (form instructions not archived); the v0.2 "construction-industry employee presumption under KRS 341.123" -- no KRS 341.123 exists in the archived chapter 341 listing, so that presumption is removed (the construction new-employer UI rate in KRS 341.272 is the confirmed construction-industry rule); final-pay timing under KRS 337.055 and liquidated damages under KRS 337.385 (statutes not archived this run); the mandatory-EFT threshold asserted in v0.2 -- superseded by the archived 103 KAR 18:150 EFT rule shown in the filing-frequency table; the deficiency interest rate asserted in v0.2 -- superseded by the rate shown under Penalties and interest (DOR 2025 notice).
 
 <!-- openaccountants-cta-block -->
 

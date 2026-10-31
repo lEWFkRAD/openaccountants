@@ -125,25 +125,8 @@ expected:
   tax: 1982.40
 ```
 
-### Example 2: the same hypothetical facts on a 2025 return
 
-$60,000 − $3,270 = $56,730. Tax $56,730 × 4% = $2,269.20.
-
-```oa-check
-name: KY 2025 single, AGI 60000, std deduction 3270, rate 4 percent
-inputs:
-  agi: 60000
-  std: 3270
-  rate: 0.04
-steps:
-  - ti: agi - std
-  - tax: ti * rate
-expected:
-  ti: 56730.00
-  tax: 2269.20
-```
-
-### Example 3: 2025, single retiree aged 67 (hypothetical facts)
+### Example 2: 2025, single retiree aged 67 (hypothetical facts)
 
 Private pension $40,000 and taxable Social Security $17,000; federal AGI $57,000. Subtract the pension exclusion $31,110 and Social Security $17,000: Kentucky AGI $8,890. Less $3,270 = $5,620 taxable. Tax $5,620 × 4% = $224.80, less the $40 age credit = $184.80. MGI is the greater of federal AGI ($57,000) and Kentucky AGI, so no family size credit.
 
@@ -167,62 +150,6 @@ expected:
   tax: 184.80
 ```
 
-### Example 4: 2025, family size credit (hypothetical facts)
-
-Married couple, family size two, filing jointly; MGI and Kentucky AGI $22,650. Taxable $22,650 − $3,270 = $19,380. Tax $19,380 × 4% = $775.20. Per the instructions' example, a family of two with MGI $22,650 is entitled to an 80% credit: $775.20 × 80% = $620.16. Tax after the credit is $155.04.
-
-```oa-check
-name: KY 2025 family size credit 80 percent
-inputs:
-  mgi: 22650
-  std: 3270
-  rate: 0.04
-  credit_pct: 0.80
-steps:
-  - ti: mgi - std
-  - tax_gross: ti * rate
-  - credit: tax_gross * credit_pct
-  - tax: tax_gross - credit
-expected:
-  ti: 19380.00
-  tax: 155.04
-```
-
-### Example 5: 2025 education credit (hypothetical facts)
-
-Federal American Opportunity credit of $2,500 for an undergraduate at a Kentucky university. Kentucky credit 25% = $625, which equals the per-student cap. Nonrefundable: limited to tax on line 22, excess carries forward.
-
-```oa-check
-name: KY education credit 25 percent capped at 625
-inputs:
-  fed_aoc: 2500
-  pct: 0.25
-  cap: 625
-steps:
-  - tentative: fed_aoc * pct
-  - credit: min(tentative, cap)
-expected:
-  tentative: 625.00
-  credit: 625.00
-```
-
-### Example 6: 2026 estimated tax (hypothetical facts)
-
-Example 1's taxpayer has no withholding and owed $2,269.20 for 2025 (a full 12-month return). The 2026 estimate is $1,982.40, which exceeds $500, so payments are required. The required annual payment is the smaller of 90% × $1,982.40 = $1,784.16 and 100% of the 2025 tax ($2,269.20): $1,784.16, or $446.04 per quarterly installment.
-
-```oa-check
-name: KY 2026 required annual installment
-inputs:
-  est_2026: 1982.40
-  tax_2025: 2269.20
-  pct: 0.90
-steps:
-  - req: min(est_2026 * pct, tax_2025)
-  - per_q: req / 4
-expected:
-  req: 1784.16
-  per_q: 446.04
-```
 
 ## Ask the client first
 
@@ -267,7 +194,7 @@ expected:
 | DOR Penalties, Interest and Fees page (late payment/filing 2% per 30 days, 20% cap, $10 minimum; interest rates table) | https://revenue.ky.gov/Collections/Pages/Penalties-Interest-and-Fees.aspx | 2026-10-28 |
 | DOR Employer Payroll Withholding page ("The Kentucky Withholding Tax rate will be 3.5% for tax year 2026") | https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx | 2026-10-28 |
 
-Not yet confirmed: the 2026 pension income exclusion amount (DOR pages still show the 2025 $31,110 figure; the 2026 Form 740 packet was not yet published at read time); the 2026 family size tax credit table and thresholds (the 2025 table is archived; the 2026 table appears on Schedule ITC, not yet published); whether the 2026 child and dependent care credit base is the pre-2026 or post-P.L. 119-21 federal credit (check the 2026 Form 740 line 24 instructions before applying 20%); the 2027 individual income tax rate (reductions require General Assembly action; no 2027 act confirmed -- the 2027 standard deduction of $3,470 per the DOR news release is for planning only).
+Not yet confirmed: the 2026 pension income exclusion amount (the 2026 Form 740 packet was not yet published at read time; the confirmed 2025 amount is in the rates table); the 2026 family size tax credit table and thresholds (the 2025 table is archived; the 2026 table appears on Schedule ITC, not yet published); whether the 2026 child and dependent care credit base is the pre-2026 or post-P.L. 119-21 federal credit (check the 2026 Form 740 line 24 instructions before applying the credit); the 2027 individual income tax rate (reductions require General Assembly action; no 2027 act confirmed).
 
 <!-- openaccountants-cta-block -->
 

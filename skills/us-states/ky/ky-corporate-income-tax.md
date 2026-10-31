@@ -80,23 +80,6 @@ expected:
   tax: 100000.00
 ```
 
-### Example 2: estimated installments (hypothetical facts)
-
-The same group's estimated tax of $100,000 is paid in four installments of 25%: $25,000 each on April 15, June 15, September 15 and December 15.
-
-```oa-check
-name: KY estimated installments 25 percent
-inputs:
-  tax: 100000
-  pct: 0.25
-steps:
-  - installment: tax * pct
-  - four: installment * 4
-expected:
-  installment: 25000.00
-  four: 100000.00
-```
-
 ### Example 3: LLET brackets (hypothetical facts)
 
 An LLC with Kentucky gross receipts of $8,000,000 (and lower gross-profits computation) is in the ≥ $6,000,000 bracket: LLET $8,000,000 / 100 × $0.095 = $7,600. An LLC with Kentucky gross receipts of $2,000,000 falls in the ≤ $3,000,000 bracket: LLET is the $175 minimum.
