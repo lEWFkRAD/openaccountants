@@ -76,7 +76,7 @@ Per the DOR Penalties, Interest and Fees page: late payment and failure to colle
 
 ## Worked examples
 
-### Example 1: in-state retail sale (hypothetical facts)
+### Worked example 1 -- in-state retail sale (hypothetical facts)
 
 A Kentucky retailer sells $1,000 of furniture. Kentucky tax: $1,000 × 6% = $60. No local sales tax applies.
 
@@ -91,7 +91,7 @@ expected:
   tax: 60.00
 ```
 
-### Example 2: remote retailer nexus test (hypothetical facts)
+### Worked example 2 -- remote retailer nexus test (hypothetical facts)
 
 A remote retailer had 150 sales totaling $120,000 of Kentucky gross receipts last calendar year. The $100,000 gross-receipts threshold is met, so registration and collection are required regardless of the transaction count.
 

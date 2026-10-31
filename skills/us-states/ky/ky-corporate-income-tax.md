@@ -62,7 +62,7 @@ Common failure modes: (1) filing separate-entity when unitary combined is mandat
 
 ## Worked examples
 
-### Example 1: flat 5% on apportioned income (hypothetical facts)
+### Worked example 1 -- flat 5% on apportioned income (hypothetical facts)
 
 A combined group with $8,000,000 of combined apportionable income and 25% Kentucky receipts factor: Kentucky income $2,000,000; tax $2,000,000 × 5% = $100,000.
 
@@ -80,7 +80,7 @@ expected:
   tax: 100000.00
 ```
 
-### Example 3: LLET brackets (hypothetical facts)
+### Worked example 2 -- LLET brackets (hypothetical facts)
 
 An LLC with Kentucky gross receipts of $8,000,000 (and lower gross-profits computation) is in the ≥ $6,000,000 bracket: LLET $8,000,000 / 100 × $0.095 = $7,600. An LLC with Kentucky gross receipts of $2,000,000 falls in the ≤ $3,000,000 bracket: LLET is the $175 minimum.
 

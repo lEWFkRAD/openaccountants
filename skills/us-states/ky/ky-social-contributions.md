@@ -56,7 +56,7 @@ KRS 341.614 imposes 1.5% monthly interest on an unpaid interest-payment surcharg
 
 ## Worked examples
 
-### Example 1: contribution at the new-employer rate (hypothetical facts)
+### Worked example 1 -- contribution at the new-employer rate (hypothetical facts)
 
 A new non-construction Kentucky employer at the 2.7% rate with $10,000 of covered wages for one employee in the quarter: contribution $10,000 × 2.7% = $270.
 
@@ -71,7 +71,7 @@ expected:
   tax: 270.00
 ```
 
-### Example 2: rate reduction under KRS 341.243 (hypothetical facts)
+### Worked example 2 -- rate reduction under KRS 341.243 (hypothetical facts)
 
 An experience-rated employer with a Table A rate of 3.0% has the rate reduced by 0.075% while the trust-fund condition holds: effective rate 3.0% − 0.075% = 2.925%. On $10,000 of wages: $292.50.
 

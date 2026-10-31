@@ -72,7 +72,7 @@ Wages as defined in IRC §3401(a) paid to employees for Kentucky-source work (re
 
 ## Worked examples
 
-### Example 1: 2026 monthly withholding (hypothetical facts)
+### Worked example 1 -- 2026 monthly withholding (hypothetical facts)
 
 An employee's Kentucky wages are $5,000 per month. Withholding at the 2026 flat rate: $5,000 × 3.5% = $175. (The DOR withholding tables also reflect the standard-deduction allowance; this is the flat-rate illustration.)
 
@@ -87,7 +87,7 @@ expected:
   withheld: 175.00
 ```
 
-### Example 2: filing-frequency determination (hypothetical facts)
+### Worked example 2 -- filing-frequency determination (hypothetical facts)
 
 An employer withheld $1,200 of Kentucky income tax during the lookback period. That is $400 or more but less than $2,000, so the employer files quarterly Form K-1 returns (April 30, July 31, October 31) with the K-3 closing the year by January 31.
 

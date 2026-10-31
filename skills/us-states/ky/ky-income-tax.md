@@ -107,7 +107,7 @@ The DOR 2025 interest notice states that taxes not paid "will accrue interest at
 
 ## Worked examples
 
-### Example 1: 2026, single, self-employed (hypothetical facts)
+### Worked example 1 -- 2026, single, self-employed (hypothetical facts)
 
 Federal AGI $60,000, all Schedule C, no Kentucky modifications, standard deduction. Taxable income $60,000 − $3,360 = $56,640. Tax $56,640 × 3.5% = $1,982.40.
 
@@ -126,7 +126,7 @@ expected:
 ```
 
 
-### Example 2: 2025, single retiree aged 67 (hypothetical facts)
+### Worked example 2 -- 2025, single retiree aged 67 (hypothetical facts)
 
 Private pension $40,000 and taxable Social Security $17,000; federal AGI $57,000. Subtract the pension exclusion $31,110 and Social Security $17,000: Kentucky AGI $8,890. Less $3,270 = $5,620 taxable. Tax $5,620 × 4% = $224.80, less the $40 age credit = $184.80. MGI is the greater of federal AGI ($57,000) and Kentucky AGI, so no family size credit.
 

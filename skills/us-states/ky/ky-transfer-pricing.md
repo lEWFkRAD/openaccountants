@@ -59,7 +59,7 @@ Common failure modes: (1) filing separate-entity when the group is unitary; (2) 
 
 ## Worked examples
 
-### Example 1: combined computation (hypothetical facts)
+### Worked example 1 -- combined computation (hypothetical facts)
 
 A unitary group with $8,000,000 combined apportionable income and a 25% Kentucky receipts factor: Kentucky income $2,000,000; tax $2,000,000 × 5% = $100,000.
 
@@ -77,7 +77,7 @@ expected:
   tax: 100000.00
 ```
 
-### Example 2: fee shift to a non-member (hypothetical facts)
+### Worked example 2 -- fee shift to a non-member (hypothetical facts)
 
 The same group pays $600,000 of management fees to a non-member affiliate, reducing combined income before apportionment. New combined income $7,400,000; Kentucky income $1,850,000; tax $92,500 -- a $7,500 Kentucky saving that must survive federal scrutiny of the fee.
 

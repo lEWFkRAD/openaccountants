@@ -61,7 +61,7 @@ Late payment/filing: 2% per 30 days or fraction, capped at 20%, $10 minimum (DOR
 
 ## Worked examples
 
-### Example 1: nonresident Kentucky-source wages (hypothetical facts)
+### Worked example 1 -- nonresident Kentucky-source wages (hypothetical facts)
 
 An Indiana resident works 40 of 240 workdays at a Louisville client site on $120,000 of wages. Kentucky-source fraction 40/240 = 1/6; Kentucky nonresident tax on the Kentucky-source portion at the 2026 rate of 3.5%: $120,000 × 1/6 × 3.5% = $700.
 
@@ -81,7 +81,7 @@ expected:
   ky_tax: 700.00
 ```
 
-### Example 2: LLET credit at member level (hypothetical facts)
+### Worked example 2 -- LLET credit at member level (hypothetical facts)
 
 A Texas-owned LLC with Kentucky gross receipts of $8,000,000 pays LLET of $8,000,000 / 100 × $0.095 = $7,600. The entity-level credit flows to its two members' Kentucky income tax positions.
 
