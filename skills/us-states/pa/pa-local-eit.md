@@ -2,9 +2,9 @@
 name: pa-local-eit
 description: Pennsylvania Local Earned Income Tax (LEIT) -- Act 32 of 2008
 jurisdiction: US-PA
-tax_year: 2025
+tax_year: 2026
 version: "0.2"
-last_updated: 2026-10-28
+last_updated: 2026-10-31
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Pennsylvania Local Earned Income Tax (LEIT) -- Act 32 of 2008
 
-Pennsylvania Local Earned Income Tax (LEIT) is a municipal and school district wage tax imposed under the Local Tax Enabling Act (Act 511 of 1965), as overhauled by Act 32 of 2008. Rates run roughly 0.5% to 3.9%; most combined (municipality + school district) rates fall between 1.0% and 1.5%. Act 32 created county-based Tax Collection Districts (TCDs) with a single appointed collector each. Employers must withhold each payroll based on the employee's resident PSD code (Political Subdivision code) reported on Form CLGS-32-6, remit quarterly, and file an annual reconciliation. Self-employed individuals file an annual return with quarterly estimates. Philadelphia is governed separately under the Sterling Act of 1932 and is outside the Act 32 regime. Tax year 2025.
+Pennsylvania Local Earned Income Tax (LEIT) is a municipal and school district wage tax imposed under the Local Tax Enabling Act (Act 511 of 1965), as overhauled by Act 32 of 2008. Rates run roughly 0.5% to 3.9%; most combined (municipality + school district) rates fall between 1.0% and 1.5%. Act 32 created county-based Tax Collection Districts (TCDs) with a single appointed collector each. Employers must withhold each payroll based on the employee's resident PSD code (Political Subdivision code) reported on Form CLGS-32-6, remit quarterly, and file an annual reconciliation. Self-employed individuals file an annual return with quarterly estimates. Philadelphia is governed separately under the Sterling Act of 1932 and is outside the Act 32 regime. Tax year 2026 (LEIT rates are set per municipality/school district -- verify the rate for each PSD code for the wage period at issue).
 
 ## Who this applies to
 
@@ -470,7 +470,7 @@ Add the current-year DCED rate table for all 67 counties at a point-in-time snap
 
 ## End of pa-local-eit v0.1
 
-End of pa-local-eit v0.1 -- Pennsylvania Local Earned Income Tax (Act 32 of 2008). Tax year 2025.
+End of pa-local-eit v0.1 -- Pennsylvania Local Earned Income Tax (Act 32 of 2008). Tax year 2026.
 
 <!-- openaccountants-cta-block -->
 
