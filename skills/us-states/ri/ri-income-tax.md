@@ -20,7 +20,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Section 1: Metadata
 
-- **Tax year covered** -- 2026 (inflation-adjusted amounts published in RI Division of Taxation Advisory 2025-22; TY2025 returns due April 15, 2026)
+- **Tax year covered** -- 2026 (inflation-adjusted amounts published in RI Division of Taxation Advisory 2025-22)
 - **Primary form** -- RI-1040 (Rhode Island Resident Individual Income Tax Return)
 - **Tax authority** -- [Rhode Island Division of Taxation](https://tax.ri.gov)
 - **Tax type** -- Graduated income tax
@@ -30,7 +30,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Field | Value |
 | --- | --- |
-| Tax year covered | 2026 (TY2025 returns due April 15, 2026) |
+| Tax year covered | 2026 |
 | Primary form | RI-1040 (Rhode Island Resident Individual Income Tax Return) |
 | Tax authority | [Rhode Island Division of Taxation](https://tax.ri.gov) |
 | Tax type | Graduated income tax |
