@@ -260,9 +260,9 @@ NC has two distinct NOL regimes:
 
 ### 8.3 Estimated payments
 
-- **Estimated payment requirement threshold** -- more than $500 in NC income tax USD (Corporations expecting to owe more than this must make quarterly estimated payments on Form CD-429)  _(Form CD-429)_
+- **Estimated payment requirement threshold** -- estimated tax that "equals or exceeds five hundred dollars ($500.00)" (pay in four equal installments)  _(G.S. § 105-163.40(a)(1), archived)_
 
-**Estimated payment installment schedule**  _(Form CD-429)_
+**Estimated payment installment schedule**  _(G.S. § 105-163.40(a)(1), archived: "four equal installments on or before the 15th day of the 4th, 6th, 9th and 12th months of the taxable year"; calendar-year dates shown)_
 
 | Installment | Due Date (calendar year) | Cumulative % of Estimated Tax |
 | --- | --- | --- |
@@ -271,7 +271,7 @@ NC has two distinct NOL regimes:
 | 3rd | September 15 | 75% |
 | 4th | December 15 | 100% |
 
-- **Underpayment safe harbor and franchise tax exclusion** -- Note that the 4th installment is due December 15, earlier than the federal December 15 (which matches). Underpayment interest is computed under § 105-163.41, which sets the underpayment as the difference between the installment due if estimated tax equalled "ninety percent (90%) of the tax imposed under Article 4 for the taxable year" and the installment timely paid. A prior-year 100% safe harbor is not in the archived § 105-163.41 text -- not yet confirmed. Franchise tax is not subject to estimated payments -- it is paid in full with the annual return.  _(§ 105-163.41)_
+- **Underpayment safe harbor and franchise tax exclusion** -- Installment dates and equal (25%) installments per § 105-163.40(a)(1). Underpayment interest is computed under § 105-163.41, which sets the underpayment as the difference between the installment due if estimated tax equalled "ninety percent (90%) of the tax imposed under Article 4 for the taxable year" and the installment timely paid. A prior-year 100% safe harbor is not in the archived § 105-163.41 text -- not yet confirmed. Franchise tax is not subject to estimated payments -- it is paid in full with the annual return.  _(§ 105-163.41)_
 
 ### 8.4 Penalties and interest
 
@@ -416,7 +416,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 | N.C.G.S. § 105-131.1A (taxed S corporation election): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-131.1A.html | 2026-10-31 |
 | NCDOR home (forms/instructions hub): | https://www.ncdor.gov | 2026-10-29 |
 
-Not yet confirmed: PTE regime enactment history (S.L. 2021-180; IRS Notice 2020-75 entity-level deductibility) -- session law and IRS notice not archived; whether any holding-company franchise cap applies for 2025+ (archived § 105-122 contains none; former (d1) repealed by S.L. 2015-241); fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table
+Not yet confirmed: PTE regime enactment history (S.L. 2021-180; IRS Notice 2020-75 entity-level deductibility) -- session law and IRS notice not archived; corporate penalty percentages (late filing 5%/month max 25%, late payment 10%, negligence 10%, fraud 50%) and NCDOR Directive TA-25-1 not archived; Form CD-419 automatic 6-month extension mechanics (form not archived); whether any holding-company franchise cap applies for 2025+ (archived § 105-122 contains none; former (d1) repealed by S.L. 2015-241); fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table
 
 *End of nc-corporate-tax.md (v0.1, 2025-11-15).*
 

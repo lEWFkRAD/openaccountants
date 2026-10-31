@@ -506,7 +506,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | IRS Direct Pay | https://www.irs.gov/payments/direct-pay-with-bank-account | 2026-10-29 |
 | EFTPS | https://www.eftps.gov/eftps/ | 2026-10-29 |
 
-Not yet confirmed: NCDOR D-422 reasonable-cause waiver conditions (D-422 instructions not archived); 2028+ rate schedule (final phase-down to 2.49% by 2030) subject to legislative change; 7-day grace rule on installment payments (practitioner convention); specific D-422 line numbers and exact column placement; first-year filer carve-out (mirrors federal § 6654(d)(1)(B)); NCDOR Interest Rate Memorandum Jan–Jun 2026 and Interest Overview pages (not archived).
+Not yet confirmed: credit/debit card convenience fee (~2%) and bank-draft no-fee practice (NCDOR payment-options page not archived); NCDOR D-422 reasonable-cause waiver conditions (D-422 instructions not archived); 2028+ rate schedule (final phase-down to 2.49% by 2030) subject to legislative change; 7-day grace rule on installment payments (practitioner convention); specific D-422 line numbers and exact column placement; first-year filer carve-out (mirrors federal § 6654(d)(1)(B)); NCDOR Interest Rate Memorandum Jan–Jun 2026 and Interest Overview pages (not archived).
 
 ### Disclaimer
 
