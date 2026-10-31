@@ -2,8 +2,8 @@
 name: tx-sales-use-tax
 description: "Texas Sales and Use Tax return (Form 01-114) for self-employed individuals and small businesses. Covers the 6.25% state rate, local tax add-ons (up to 2%), combined maximum of 8.25%, use tax, data processing services exemption under Section 151.351, and filing frequencies. Primary source: Texas Tax Code Chapter 151."
 jurisdiction: US-TX
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-10-31
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -281,8 +281,8 @@ the OpenAccountants network.
 name: tx-sales-use-tax
 description: "Texas Sales and Use Tax return (Form 01-114) for self-employed individuals and small businesses. Covers the 6.25% state rate, local tax add-ons (up to 2%), combined maximum of 8.25%, use tax, data processing services exemption under Section 151.351, and filing frequencies. Primary source: Texas Tax Code Chapter 151."
 jurisdiction: US-TX
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-10-31
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -578,13 +578,13 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: the local rate caps, registration thresholds, penalty/interest figures, filing frequencies, and worked examples lack archived line-citations. The archived Comptroller sales page states the 6.25% state rate in effect as of the October 2026 capture.
 
 Not yet confirmed against archived sources.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| Texas Comptroller -- Sales and Use Tax ("Texas imposes a 6.25 percent state sales and use tax on all retail sales, leases and rentals of most goods") | https://comptroller.texas.gov/taxes/sales/ | 2026-10-28 |
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network -- accountants who put

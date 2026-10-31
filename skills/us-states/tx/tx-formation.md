@@ -1,9 +1,9 @@
 ---
 name: tx-formation
-description: Tier 2 Texas content skill for entity formation covering tax year 2025. Includes the TX LLC Certificate of Formation (not yet confirmed) no state PIT, no franchise/margin tax under (not yet confirmed).47M revenue threshold, mandatory annual Public Information Report (Form 05-102), Series LLC permitted (2009 legislation), foreign qualification Certificate of Authority (not yet confirmed) doing-business thresholds for out-of-state entities (post-Wayfair (not yet confirmed)k sales/(not yet confirmed)k payroll/(not yet confirmed)k property), and the BOI/CTA stay status.
+description: Tier 2 Texas content skill for entity formation covering tax year 2026. Includes the TX LLC Certificate of Formation (not yet confirmed) no state PIT, no franchise/margin tax under (not yet confirmed).47M revenue threshold, mandatory annual Public Information Report (Form 05-102), Series LLC permitted (2009 legislation), foreign qualification Certificate of Authority (not yet confirmed) doing-business thresholds for out-of-state entities (post-Wayfair (not yet confirmed)k sales/(not yet confirmed)k payroll/(not yet confirmed)k property), and the BOI/CTA stay status.
 jurisdiction: US-TX
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-10-31
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -61,9 +61,9 @@ For pass-through entity owners (sole proprietors filing Schedule C, single-membe
 
 For a Texas-resident sole proprietor with $200,000 of Schedule C net profit, the federal tax bill might be $50,000–$55,000 depending on deductions, but the **state** tax bill is $0. The same taxpayer in California would owe roughly $15,000–$18,000 in additional state income tax. Over a decade, the cumulative state-tax savings on a high-six-figure-income business compound into seven-figure differences.
 
-### 2.2 No franchise/margin tax under $2.47M revenue (2024 and 2025 report years)
+### 2.2 No franchise/margin tax under $2.65 million revenue (2026 report year; $2.47M for 2024 and 2025 report years)
 
-- **No Tax Due threshold** -- 2,470,000 USD annualized total revenue (raised from $1,230,000 by Senate Bill 3 (88th Legislature, 2nd Called Session, 2023), for report years 2024 and forward, with subsequent annual inflation indexing)  _(Senate Bill 3 (88th Legislature, 2nd Called Session, 2023))_
+- **No Tax Due threshold** -- $2.65 million annualized total revenue for the 2026 report (Texas Comptroller 2026 Franchise Tax Report Forms page: "The no tax due threshold for the 2026 report is $2.65 million"); 2,470,000 USD for the 2024 and 2025 report years (raised from $1,230,000 by Senate Bill 3 (88th Legislature, 2nd Called Session, 2023), with subsequent annual inflation indexing)  _(Texas Comptroller 2026 Franchise Tax Report Forms; Senate Bill 3 (88th Legislature, 2nd Called Session, 2023))_
 - **Franchise tax is entity-level tax** -- The Texas franchise tax (also called the "margin tax") is an entity-level tax imposed on most taxable entities doing business in Texas. For freelance developers, consultants, and small-business owners with revenue under the No Tax Due threshold -- which describes the overwhelming majority of single-member-LLC owners and small Texas C-Corps -- the franchise tax owed is $0.  _(Senate Bill 3 (88th Legislature, 2nd Called Session, 2023))_
 - **PIR still required regardless of revenue** -- This does not mean the entity has no Texas filing obligation. Every taxable entity -- including LLCs and corporations with $0 in revenue -- must file an annual Public Information Report (Form 05-102) with the Texas Comptroller. Missing this filing carries severe penalties (covered in Section 7 and as an AUDIT FLASH POINT).  _(Form 05-102, Texas Comptroller)_
 
@@ -164,7 +164,7 @@ The Texas For-Profit Corporation is used primarily by venture-backed startups, b
 
 ### 4.4 Franchise/margin tax
 
-- **No Tax Due threshold for franchise/margin tax** -- 2,470,000 USD annualized total revenue (for 2024 and 2025 report years)
+- **No Tax Due threshold for franchise/margin tax** -- $2.65 million annualized total revenue for the 2026 report; 2,470,000 USD for the 2024 and 2025 report years
 - **Retail or wholesale rate** -- 0.375% of taxable margin (for retail or wholesale businesses defined under Texas Tax Code §171.002(c))  _(Texas Tax Code §171.002(c))_
 - **Other businesses rate** -- 0.75% of taxable margin
 - **EZ Computation rate** -- 0.331% of revenue (available for entities between $2.47M and $20M annualized revenue; see tx-margin-tax.md)
@@ -564,13 +564,14 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: the Certificate of Formation fee, Certificate of Authority fee, doing-business thresholds, Series LLC and BOI/CTA points, and the worked examples lack archived line-citations. The archived Comptroller pages in the table state the 2026 No Tax Due threshold ($2.65 million), the 2024-2025 threshold ($2,470,000), and the margin tax rates.
 
 Not yet confirmed against archived sources.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| Texas Comptroller -- 2026 Franchise Tax Report Forms ("The no tax due threshold for the 2026 report is $2.65 million") | https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php | 2026-10-29 |
+| Texas Comptroller -- Franchise Tax main (Tax Rates, Thresholds and Deduction Limits for Prior Years 2024 and 2025: No Tax Due Threshold $2,470,000; EZ rate 0.331%) | https://comptroller.texas.gov/taxes/franchise/ | 2026-10-29 |
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network -- accountants who put
