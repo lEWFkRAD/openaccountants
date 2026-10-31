@@ -343,7 +343,7 @@ The LLC will receive NYC real property tax bills as the legal owner -- these are
 - Confirm a NY Transfer Tax was paid on acquisition (TP-584) -- this is an acquisition-time item but reviewers often inherit clients post-acquisition and need to confirm
 - Confirm publication was completed -- many real estate LLCs are formed by transactional counsel and the publication is sometimes outsourced separately
 
-### Example 3: Brooklyn Restaurant ("Greenpoint Pierogi LLC")
+### Scenario note: Brooklyn restaurant ("Greenpoint Pierogi LLC") (not a numbered worked example)
 
 **Facts:** A restaurateur forms a single-member LLC to own and operate a sit-down restaurant in Greenpoint, Brooklyn. The LLC will have an actual storefront, will hire 8 employees, will hold a liquor license, and will gross ~$1.2M in year 1. (not yet confirmed)
 
@@ -377,7 +377,7 @@ Single-member LLC is appropriate; could also consider C-corp form for liability 
 - IT-204-LL filing fee is at the high bracket -- confirm the client understands this is owed even with zero net profit
 - Sales tax registration before opening
 
-### Example 4: Multi-State Company with NY Presence ("Halberd Software Inc.")
+### Scenario note: multi-state company with NY presence ("Halberd Software Inc.") (not a numbered worked example)
 
 **Facts:** A Delaware C-corp software company is headquartered in Austin, Texas, with engineering in Bangalore, and is opening a 5-person sales office in Midtown Manhattan. The company is not forming a new NY entity but is "doing business" in NY.
 
