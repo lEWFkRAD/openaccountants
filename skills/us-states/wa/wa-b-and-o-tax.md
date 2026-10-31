@@ -4,7 +4,7 @@ description: >
   Washington State Business and Occupation (B&O) Tax for self-employed individuals. Covers gross receipts tax classifications (service/other, retailing, wholesaling, manufacturing), B&O tax rates, small business credit (SBC), city B&O taxes, and filing frequencies on the Combined Excise Tax Return. Primary source: RCW 82.04.
 version: 1.1
 jurisdiction: US-WA
-tax_year: 2025
+tax_year: 2026
 tier: 2
 last_updated: 2026-10-28
 category: state
@@ -72,21 +72,21 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 
 ## Rates, bands and thresholds
 
-### B&O tax rate schedule (2025)
+### B&O tax rate schedule (2025 rates; 2026 rates per archived RCW text where confirmed)
 
 > Verified 2026-10-28 against archived RCW pages: retailing 0.471% (RCW 82.04.250), wholesaling 0.484% (RCW 82.04.270), manufacturing 0.484% (RCW 82.04.240) were the pre-2026 rates; archived current RCW text shows all three at 0.5% effective 1 Jan 2026 (2025 c 420 s 106). Service/other 1.5% and royalties 1.5% (RCW 82.04.2907 "rate of 1.5 percent") confirmed verbatim.
 
-| Classification | Rate | RCW |
-|---------------|------|-----|
-| Retailing | 0.471% | RCW 82.04.250 |
-| Wholesaling | 0.484% | RCW 82.04.270 |
-| Manufacturing | 0.484% | RCW 82.04.240 |
-| Service and Other Activities | 1.50% | RCW 82.04.290(2) |
-| Printing/publishing | 0.484% | RCW 82.04.260 |
-| Travel agents, insurance agents | 0.275% | RCW 82.04.260 |
-| Real estate brokers | 1.50% | RCW 82.04.290(2) |
-| Royalty income | 1.50% | RCW 82.04.290(2) |
-| International services (qualifying) | 0.275% | RCW 82.04.261 |
+| Classification | 2025 rate | 2026 rate | RCW |
+|---------------|------|-----|-----|
+| Retailing | 0.471% | 0.5% | RCW 82.04.250 |
+| Wholesaling | 0.484% | 0.5% | RCW 82.04.270 |
+| Manufacturing | 0.484% | 0.5% | RCW 82.04.240 |
+| Service and Other Activities | 1.50% | (not yet confirmed) | RCW 82.04.290(2) |
+| Printing/publishing | 0.484% | (not yet confirmed) | RCW 82.04.260 |
+| Travel agents, insurance agents | 0.275% | (not yet confirmed) | RCW 82.04.260 |
+| Real estate brokers | 1.50% | (not yet confirmed) | RCW 82.04.290(2) |
+| Royalty income | 1.50% | (not yet confirmed) | RCW 82.04.290(2) |
+| International services (qualifying) | 0.275% | (not yet confirmed) | RCW 82.04.261 |
 
 ### Small Business Credit (SBC)
 
@@ -275,7 +275,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: figures in this skill lack archived line-citations. The 2026 rates for Service and Other, printing/publishing, travel/insurance agents, real estate brokers, royalties, and international services are pending archived confirmation.
 
 
 | Source | URL | Read on |

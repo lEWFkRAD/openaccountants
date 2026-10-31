@@ -14,9 +14,11 @@
 
 | File | What it covers |
 |---|---|
-| `wa-b-and-o-tax.md` | Business & Occupation (B&O) gross receipts tax |
-| `wa-sales-tax.md` | State and local sales & use tax compliance |
-| `wa-sales-tax-legacy.md` | Legacy sales tax reference (prior format) |
+| `wa-b-and-o-tax.md` | Business & Occupation (B&O) gross receipts tax (reference format) |
+| `wa-bo-tax.md` | B&O gross receipts tax (execution format, 2026 periods) |
+| `wa-business-occupation-tax.md` | B&O gross receipts tax (execution format, self-employed focus) |
+| `wa-sales-tax.md` | State and local sales & use tax compliance (execution format) |
+| `washington-sales-tax.md` | State and local sales & use tax (reference format) |
 
 ## What's NOT covered
 - Payroll / employer withholding taxes (Washington has no state income tax withholding)
