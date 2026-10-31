@@ -80,7 +80,7 @@ These reduce taxable wages for withholding-table purposes and feed the VA-4 allo
 
 - **Standard withholding computation method** -- Step 1: Convert wage payment to annualized basis (multiply by pay periods per year) Step 2: Subtract VA-4 personal exemption allowance × $930 Step 3: Subtract standard deduction (annualized: $8,500 single / $17,000 MFJ -- but VA-4 line for additional standard deduction is rare in practice; default is $8,500 unless the employee claims MFJ via VA-4 line 3) Step 4: Apply graduated bracket table from §2.1 to remaining amount Step 5: Divide annualized tax by pay periods per year = withholding per pay period Step 6: Add any additional flat dollar amount the employee elected on VA-4 line 4  _(Va. Dept. of Taxation Withholding Tables, percentage method)_ (not yet confirmed)
 
-**Illustrative withholding computation (not a numbered worked example; employee earns $80,000 annually, semi-monthly, single, 1 exemption, no additional withholding):** (not yet confirmed)
+**Sample withholding computation (not a numbered worked example; employee earns $80,000 annually, semi-monthly, single, 1 exemption, no additional withholding):** (not yet confirmed)
 - Annualized wages: $80,000 (not yet confirmed)
 - Less personal exemption: $80,000 − $930 = $79,070 (not yet confirmed)
 - Less standard deduction (single): $79,070 − $8,500 = $70,570 Virginia taxable wages (not yet confirmed)
