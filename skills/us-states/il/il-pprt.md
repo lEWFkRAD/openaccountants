@@ -184,10 +184,10 @@ Reviewed against the cited tax authorities by a licensed accountant on 2026-06-0
 
 | Installment | Due date (calendar-year filer) | Cumulative % |
 | --- | --- | --- |
-| 1st | April 15 | 25% |
-| 2nd | June 15 | 50% |
-| 3rd | September 15 | 75% |
-| 4th | December 15 | 100% |
+| 1st | April 15 | 25% (cumulative split not yet confirmed) |
+| 2nd | June 15 | 50% (not yet confirmed) |
+| 3rd | September 15 | 75% (not yet confirmed) |
+| 4th | December 15 | 100% (not yet confirmed) |
 
 ### 7.2 Installment schedule
 
