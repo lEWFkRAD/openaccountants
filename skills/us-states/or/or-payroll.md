@@ -1,9 +1,9 @@
 ---
 name: or-payroll
-description: Tier 2 Oregon content skill for employer payroll compliance covering tax year 2025. Includes the OR PIT brackets up to 9.9%, supplemental wage rate 8.0%, OR-W-4 state withholding form, Form OQ quarterly combined withholding/UI return, OR UI wage base (not yet confirmed) (highest in US) with rates 0-5.4%, the Statewide Transit Tax 0.1% on all wages (no cap), TriMet 0.8237% employer payroll tax for Portland area, Lane Transit 0.79% for Eugene, the OR Paid Leave program 0.6% total split between employer (0.4%) and employee (0.2%), and WBF Workers' Benefit Fund assessment.
+description: Tier 2 Oregon content skill for employer payroll compliance covering tax year 2026. Includes the OR PIT brackets up to 9.9%, supplemental wage rate 8.0%, OR-W-4 state withholding form, Form OQ quarterly combined withholding/UI return, OR UI wage base (not yet confirmed) (highest in US) with rates 0-5.4%, the Statewide Transit Tax 0.1% on all wages (no cap), TriMet 0.8237% employer payroll tax for Portland area, Lane Transit 0.79% for Eugene, the OR Paid Leave program 0.6% total split between employer (0.4%) and employee (0.2%), and WBF Workers' Benefit Fund assessment.
 jurisdiction: US-OR
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-10-31
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### 1. Scope
 
-This skill is the authoritative Tier 2 content layer for Oregon employer payroll compliance for tax year 2025. It is consumed by upstream workflow skills (`us-tax-workflow-base`, `us-federal-return-assembly`) when an employer has Oregon-source wages, an Oregon resident employee, or any employee performing services within Oregon transit district boundaries.
+This skill is the authoritative Tier 2 content layer for Oregon employer payroll compliance for tax year 2026. It is consumed by upstream workflow skills (`us-tax-workflow-base`, `us-federal-return-assembly`) when an employer has Oregon-source wages, an Oregon resident employee, or any employee performing services within Oregon transit district boundaries.
 
 ### 1.1 What this skill covers
 
@@ -62,18 +62,18 @@ themselves no W-2 wages are out of scope (see ### 1.2).
 
 ## Rates, bands and thresholds
 
-### 2.1 2025 brackets (single filer; married brackets are double)
+### 2.1 2026 brackets (single filer; married/HOH/QSS chart thresholds differ as shown)
 
-**2025 Oregon PIT brackets (single filer)**
+**2026 Oregon PIT rate chart, single or married filing separately (OR-ESTIMATE 2026, Chart S)**
 
 | Taxable income (single) | Marginal rate |
 | --- | --- |
-| $0 – $4,300 | 4.75% |
-| $4,301 – $10,750 | 6.75% |
-| $10,751 – $125,000 | 8.75% |
+| $0 – $4,550 | 4.75% |
+| $4,551 – $11,400 | 6.75% |
+| $11,401 – $125,000 | 8.75% |
 | Over $125,000 | 9.90% |
 
-- **Married filing jointly bracket doubling** -- For married filing jointly, double the bracket thresholds (top bracket begins at $250,000).
+- **Married filing jointly / head of household / qualifying surviving spouse (Chart J)** -- 4.75% to $9,100; 6.75% over $9,100 to $22,800; 8.75% over $22,800 to $250,000; 9.9% over $250,000 (OR-ESTIMATE 2026).
 
 The 9.9% top rate has been in place since 2013 and remains the third-highest top state PIT rate in the United States after California (13.3%) and Hawaii (11.0%).
 
@@ -390,19 +390,20 @@ Before signing off on an Oregon payroll filing, the credentialed reviewer must v
 
 ## Sources
 
-Not yet confirmed: the 2025 PIT bracket thresholds and rates, 8.0%
-supplemental rate, $54,300 UI wage base, 0.0%–5.4% UI rate range and 2.4%
+Not yet confirmed: the 8.0% supplemental rate for 2026, $54,300 UI wage base, 0.0%–5.4% UI rate range and 2.4%
 new-employer rate, 0.1% Statewide Transit Tax, TriMet 0.8237%/0.13%, Lane
 Transit 0.79%, Cherriots 0.36%, Paid Leave 1.0% total with 40/60 split and
 $176,100 wage base cap, WBF $0.0066/hour, and the worked-example totals are
 not tied to an archived capture; the archived captures in the table cover
-only the DOR home page, the PIT page, and ORS Chapter 316.
+the DOR home page, the PIT page, ORS Chapter 316, and the 2026 OR-ESTIMATE
+rate charts (which confirm the 2026 bracket thresholds and rates).
 
 | Source | URL | Read on |
 | --- | --- | --- |
 | Oregon Department of Revenue (home) | https://www.oregon.gov/dor | 2026-10-28 |
 | Oregon Department of Revenue -- Personal Income Tax | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx | 2026-10-28 |
 | Oregon Legislative Assembly -- ORS Chapter 316 | https://www.oregonlegislature.gov/bills_laws/ors/ors316.html | 2026-10-28 |
+| Oregon DOR -- 2026 Publication OR-ESTIMATE (Chart S/J 2026 rate charts: single 4.75% to $4,550, 6.75% to $11,400, 8.75% to $125,000, 9.9% above; MFJ/HOH/QSS $9,100/$22,800/$250,000) | https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2026.pdf | 2026-10-31 |
 
 Not yet confirmed against archived sources: the ORS/OAR citations, Frances
 Online portal, and DCBS/OED notices listed below have no archived captures
