@@ -161,7 +161,7 @@ This is the immutable order. Do not parallelize; downstream skills consume upstr
 1.  us-tax-workflow-base                         (workflow scaffold)
 2.  us-sole-prop-bookkeeping                     (Schedule C classification)
 3.  us-schedule-c-and-se-computation             (C, SE, 8829)
-4.  us-qbi-deduction                             (8995 / 8995-A — flows into Fed Line 13, then Line 15)
+4.  us-qbi-deduction                             (8995 / 8995-A -- flows into Fed Line 13, then Line 15)
 5.  us-self-employed-health-insurance            (§162(l), iterative w/ PTC)
 6.  us-self-employed-retirement                  (SEP / Solo 401(k))
 7.  us-quarterly-estimated-tax                   (2210, 2026 1040-ES)
@@ -394,34 +394,34 @@ Structured markdown. Required sections in this order:
 Step-by-step action list, structured by date. The taxpayer reads this file and nothing else.
 
 ```markdown
-# Your 2025 North Dakota Tax Filing — Action List
+# Your 2025 North Dakota Tax Filing -- Action List
 
 ## This week
 1. Review the reviewer_brief.md document
-2. Sign Form 8879 (federal e-file authorization) — if e-filing
-3. Sign Form ND-1 e-file authorization — if e-filing through an
+2. Sign Form 8879 (federal e-file authorization) -- if e-filing
+3. Sign Form ND-1 e-file authorization -- if e-filing through an
    approved partner or via ND TAP
 4. Confirm bank account information for direct debit / direct
    deposit
 
 ## Before April 15, 2026 (filing deadline)
-1. Federal Form 1040 — file via e-file (preferred) or paper to IRS
+1. Federal Form 1040 -- file via e-file (preferred) or paper to IRS
    Kansas City address
-2. Federal balance due of $X — pay via:
-   - IRS Direct Pay (https://www.irs.gov/payments/direct-pay) — free, ACH
-   - EFTPS (https://www.eftps.gov) — free, requires enrollment
+2. Federal balance due of $X -- pay via:
+   - IRS Direct Pay (https://www.irs.gov/payments/direct-pay) -- free, ACH
+   - EFTPS (https://www.eftps.gov) -- free, requires enrollment
    - Debit/credit card (fee applies)
    - Check + Form 1040-V voucher to IRS Kansas City
-3. North Dakota Form ND-1 — file via:
+3. North Dakota Form ND-1 -- file via:
    - ND Taxpayer Access Point (TAP) at
-     https://apps.nd.gov/tax/tap/ — free, direct from ND Office of
+     https://apps.nd.gov/tax/tap/ -- free, direct from ND Office of
      State Tax Commissioner
    - Approved e-file partners (TurboTax, H&R Block, FreeTaxUSA,
      Drake, etc.)
    - Paper return mailed to:
      - Office of State Tax Commissioner, PO Box 5621, Bismarck ND
        58506-5621
-4. North Dakota balance due of $X — pay via:
+4. North Dakota balance due of $X -- pay via:
    - ND TAP online (ACH direct debit, free; credit/debit card with
      processor fee)
    - Direct debit at e-file submission
@@ -429,22 +429,22 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
      Commissioner
 
 ## Before April 15, 2026 (estimated tax for 2026 Q1)
-1. Federal Q1 voucher — $X via IRS Direct Pay or check + Form 1040-ES
-2. ND Q1 voucher — $X via ND TAP or check + Form ND-1ES
+1. Federal Q1 voucher -- $X via IRS Direct Pay or check + Form 1040-ES
+2. ND Q1 voucher -- $X via ND TAP or check + Form ND-1ES
 
 ## Before June 15, 2026 (Q2 estimated tax)
-1. Federal Q2 voucher — $X
-2. ND Q2 voucher — $X
+1. Federal Q2 voucher -- $X
+2. ND Q2 voucher -- $X
 
 ## Before September 15, 2026 (Q3 estimated tax)
-1. Federal Q3 voucher — $X
-2. ND Q3 voucher — $X
+1. Federal Q3 voucher -- $X
+2. ND Q3 voucher -- $X
 
 ## Before January 15, 2027 (Q4 estimated tax)
-1. Federal Q4 voucher — $X
-2. ND Q4 voucher — $X
+1. Federal Q4 voucher -- $X
+2. ND Q4 voucher -- $X
 
-## Already-passed January 31, 2026 (1099-NEC issuance — check if done)
+## Already-passed January 31, 2026 (1099-NEC issuance -- check if done)
 1. File 1099-NEC forms with IRS via IRIS or FIRE
 2. Furnish Copy B to each contractor
 3. File ND Form 307 annual withholding reconciliation with ND Office
@@ -464,8 +464,8 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
    certificate current with each employer
 
 ## How to check your refund
-- Federal: https://www.irs.gov/refunds — "Where's My Refund?"
-- North Dakota: https://apps.nd.gov/tax/tap/ — TAP "Where's My
+- Federal: https://www.irs.gov/refunds -- "Where's My Refund?"
+- North Dakota: https://apps.nd.gov/tax/tap/ -- TAP "Where's My
   Refund?" function
 
 ## Need help with anything in this list?
@@ -485,7 +485,7 @@ This is the document the CPA reads first. It should be readable in under 30 minu
 The brief follows this fixed structure:
 
 ```markdown
-# Complete Return Package — [Taxpayer Name] — Tax Year 2025
+# Complete Return Package -- [Taxpayer Name] -- Tax Year 2025
 
 ## Executive Summary
 - **Taxpayer:** [Name], full-year North Dakota resident
@@ -495,7 +495,7 @@ The brief follows this fixed structure:
 - **Special populations:** [military retirement / Renaissance Zone /
   tribal / farm averaging / none]
 - **Federal total tax (Form 1040 Line 24):** $X
-- **Federal taxable income (Form 1040 Line 15 — ND starting point):** $X
+- **Federal taxable income (Form 1040 Line 15 -- ND starting point):** $X
 - **ND total tax (ND-1 Line 16 or equivalent):** $X
 - **Total 2025 tax liability (federal + ND):** $X
 - **Total payments (withholding + estimates + extension):** $X
@@ -543,9 +543,9 @@ treatment; else N/A]
 [items requiring reviewer judgment, with citations]
 
 ## Planning Notes for 2026
-- ND rate stability watch — `[VERIFY:]` any 69th Legislative
+- ND rate stability watch -- `[VERIFY:]` any 69th Legislative
   Assembly changes to N.D.C.C. §57-38-30.3
-- Federal QBI 20% → 23% under OBBBA (P.L. 119-21) — flows through
+- Federal QBI 20% → 23% under OBBBA (P.L. 119-21) -- flows through
   to ND because ND starts at federal taxable income
 - 1099 threshold change to $2,000 in 2026 under OBBBA
 - Renaissance Zone project end dates (if applicable)
@@ -625,17 +625,17 @@ treatment; else N/A]
 **Orchestrator output (abbreviated reviewer brief -- actual file is longer):**
 
 ```markdown
-# Complete Return Package — Sarah Lindgren — Tax Year 2025
+# Complete Return Package -- Sarah Lindgren -- Tax Year 2025
 
 ## Executive Summary
 - Taxpayer: Sarah Lindgren, full-year North Dakota (Fargo) resident
 - Filing status: Single
-- Business: Sole proprietor — freelance software developer
+- Business: Sole proprietor -- freelance software developer
 - MN/MT reciprocity in play: Yes (Moorhead MN W-2 employer; Form
   MWR on file; no MN withholding; ND withholding $360)
 - Special populations: none
 - Federal total tax (Form 1040 Line 24): $30,940
-- Federal taxable income (Form 1040 Line 15 — ND starting point):
+- Federal taxable income (Form 1040 Line 15 -- ND starting point):
   $90,604
 - ND total tax (ND-1 Line 6): $821
 - Total 2025 tax liability: $31,761
@@ -660,7 +660,7 @@ treatment; else N/A]
   qualified business income subject to limits)
 - Form 1040 Line 13 (QBI): $8,050
 - Form 1040 Line 14: $23,800
-- Form 1040 Line 15 (federal taxable income — ND HANDOFF): $90,604
+- Form 1040 Line 15 (federal taxable income -- ND HANDOFF): $90,604
 - Form 1040 Line 16 (federal tax): ~$12,148
 - Schedule 2 Line 4 (SE tax): $18,792
 - Form 2210 penalty (Q3/Q4 spike not covered): ~$240
@@ -669,11 +669,11 @@ treatment; else N/A]
 - Balance due federal: $22,940
 
 ## North Dakota Return (from nd-income-tax)
-- ND-1 Line 1 (federal taxable income — Form 1040 Line 15): $90,604
-- Schedule ND-1SA Part A (additions): $0 — no non-ND muni bond
+- ND-1 Line 1 (federal taxable income -- Form 1040 Line 15): $90,604
+- Schedule ND-1SA Part A (additions): $0 -- no non-ND muni bond
   interest
 - ND-1 Line 2 (additions): $0
-- Schedule ND-1SA Part B (subtractions): $0 — no Social Security,
+- Schedule ND-1SA Part B (subtractions): $0 -- no Social Security,
   no military retirement, no RZ, no tribal, no Job Service ND,
   no US bond interest
 - ND-1 Line 3 (subtractions): $0
@@ -697,7 +697,7 @@ treatment; else N/A]
 - ND total tax + interest: $836
 - ND total payments: $760
 - ND-1 Line 22 (balance due): ~$76 (plus $15 interest = $91)
-- Wait — exec summary says $821 ND tax and $23,001 net balance.
+- Wait -- exec summary says $821 ND tax and $23,001 net balance.
   Reconciliation: total balance = $22,940 federal + ~$91 ND ≈
   $23,031. Within $30 tolerance of the $23,001 exec-summary figure;
   difference is rounding across penalty/interest computations.
@@ -717,16 +717,16 @@ treatment; else N/A]
   harbor applies federally)
 - 2025 ND total tax: $821 → Q1 2026 ND estimate ~$205 (100% of
   prior year ÷ 4)
-- Combined Q1 2026 estimate: ~$7,940 due April 15, 2026 — note
+- Combined Q1 2026 estimate: ~$7,940 due April 15, 2026 -- note
   this is on TOP of the April 15 balance due
 - Strong recommendation: switch ND-1ES to even quarterly schedule;
   the Q3/Q4 zero-payment pattern triggered ND-1UT interest in 2025
 
 ## 1099-NEC Issuance
-- N/A — Sarah engaged no subcontractors in 2025
+- N/A -- Sarah engaged no subcontractors in 2025
 
 ## ND Sales Tax Status
-- N/A — not a ND sales-tax registrant
+- N/A -- not a ND sales-tax registrant
 
 ## Cross-skill Verification (Section 6 summary)
 - F-1 through F-13: PASS
@@ -740,20 +740,20 @@ treatment; else N/A]
 - S-1 through S-5: N/A (no special populations)
 
 ## Reviewer Attention Flags
-1. Form 2210 federal underpayment penalty (~$240) — Q3 spike not
+1. Form 2210 federal underpayment penalty (~$240) -- Q3 spike not
    covered; reviewer to finalize annualized-income method to
    reduce penalty.
-2. Schedule ND-1UT interest (~$15) — minor; reviewer to confirm.
-3. COBRA §162(l) eligibility — confirm Sarah was not eligible for
+2. Schedule ND-1UT interest (~$15) -- minor; reviewer to confirm.
+3. COBRA §162(l) eligibility -- confirm Sarah was not eligible for
    subsidized employer coverage in any month during 2025.
-4. Solo 401(k) employer portion ($7,500) — confirm matches the
+4. Solo 401(k) employer portion ($7,500) -- confirm matches the
    25%-of-net-SE-earnings cap after the circular ½-SE-tax
    adjustment.
-5. ND withholding via MN employer — verify the $360 actually
+5. ND withholding via MN employer -- verify the $360 actually
    landed in ND's account (TAP confirmation).
 
 ## Refusals Triggered
-(none — Sarah's facts fit the in-scope pattern)
+(none -- Sarah's facts fit the in-scope pattern)
 
 ## Positions Taken
 - §199A non-SSTB classification of freelance software development:
@@ -773,12 +773,12 @@ treatment; else N/A]
 - Sarah should switch to even quarterly ND-1ES to avoid another
   year of ND-1UT interest.
 - If Sarah loses MN W-2 income in 2026, the reciprocity tracking
-  drops out — simpler return.
+  drops out -- simpler return.
 - Federal 1099 threshold rises $600 → $2,000 in 2026 under OBBBA
-  — relevant only if Sarah hires contractors.
+  -- relevant only if Sarah hires contractors.
 
 ## Taxpayer Action List
-[full action list embedded — see File 3]
+[full action list embedded -- see File 3]
 ```
 
 This is one ND-resident sole prop with MN W-2 wages under reciprocity, full reviewer package abbreviated to ~3 pages. The actual file is longer and includes the full xlsx workbook, the full brief, and the full action list.

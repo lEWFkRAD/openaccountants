@@ -421,7 +421,7 @@ Safe harbor: pay 100% of 2025 liability ($40,849) split into 4 installments
 **Step 1 -- Entity-level ND CIT (Form 40):**
 
 ```
-$0 — S-corps are exempt from ND corporate income tax. File Form 60 (informational).
+$0 -- S-corps are exempt from ND corporate income tax. File Form 60 (informational).
 ```
 
 **Step 2 -- Shareholder-level ND PIT (Form ND-1, separate return):**
@@ -430,7 +430,7 @@ The $400,000 of S-corp income flows through to the shareholder's federal Schedul
 
 ```
 Approx. ND PIT (top bracket 2.50% on amount above ND PIT threshold):
-  400,000 × 2.50% ≈ $10,000 (simplified — actual ND-1 computation differs)
+  400,000 × 2.50% ≈ $10,000 (simplified -- actual ND-1 computation differs)
 ```
 
 **Step 3 -- Federal SALT-cap exposure (no PTET workaround):**
@@ -498,7 +498,7 @@ Total ND CIT                    $214,585.00
 ```
 ND CIT (Form 40)                        $214,585
 ND Oil Extraction Tax (paid separately)  $3,000,000
-ND Oil & Gas Gross Production Tax        (varies — typically a similar magnitude)
+ND Oil & Gas Gross Production Tax        (varies -- typically a similar magnitude)
                                         ----------
 Total entity-level ND tax              ~$5M+
 ```

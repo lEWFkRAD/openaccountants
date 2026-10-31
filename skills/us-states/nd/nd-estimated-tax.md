@@ -442,7 +442,7 @@ Annualized tax at each cutoff:
 
 The annualization defers ~$2,000 of Q1/Q2 payment exposure into Q3, matching income timing. Attach federal Schedule AI to Schedule ND-1UT.
 
-### Example 3 -- High-income earner with W-2 withholding shortfall
+### Scenario note -- high-income earner with W-2 withholding shortfall (not a numbered worked example)
 
 **Facts.** MFJ, both spouses ND residents. Primary spouse W-2 wages $280,000 with ND withholding of $4,800. Secondary spouse Schedule C net profit $60,000. TY 2024 ND tax was $5,900. Expects TY 2025 federal taxable income of $305,000, ND tax of $6,775.
 

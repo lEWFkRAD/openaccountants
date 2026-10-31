@@ -406,7 +406,7 @@ Per pay period: $348.08 / 26 = $13.39
 
 **Failure mode.** If Bjorn forgets to renew in February 2026 and the employer does not collect a 2026 NDW-R, the employer must withhold ND tax from his 2026 wages starting January 1, 2026 (or, in practice, the first payroll after the Feb 28 default deadline). Bjorn then files Form ND-EZ in 2027 to claim the ND withholding back as a refund -- a real cash flow hit, and the source of frequent payroll complaints.
 
-### Example 3 -- High-income ND-resident at the top bracket
+### Scenario note -- high-income ND-resident at the top bracket (not a numbered worked example)
 
 **Facts.** Carla is a Bismarck-based oilfield engineer earning $325,000 annual salary, paid semimonthly ($13,541.67 gross per pay). Federal W-4 = single, no adjustments. She receives a $50,000 year-end bonus. (not yet confirmed)
 
