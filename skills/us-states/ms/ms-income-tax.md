@@ -199,7 +199,7 @@ expected:
 
 **Refusal catalogue table**  _(see rows)_
 
-Not yet confirmed: the 183-day/domicile residency test detail; statute cites for the Social Security and US-government-bond exemptions; statute cites for the 50%-self-employment-tax and self-employed health-insurance deductions; bonus-depreciation (IRC §168(k)) conformity date for 2026; whether 2026 standard deduction/exemption amounts change from the 2025 figures archived here.
+Not yet confirmed: the 183-day/domicile residency test detail; statute cites for the Social Security and US-government-bond exemptions; statute cites for the self-employment-tax deduction and the self-employed health-insurance deduction; bonus-depreciation (IRC §168(k)) conformity date for 2026; whether 2026 standard deduction/exemption amounts change from the 2025 figures archived here.
 
 ---
 
