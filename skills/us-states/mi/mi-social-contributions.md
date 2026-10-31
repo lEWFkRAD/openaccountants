@@ -57,7 +57,7 @@ version: 0.1
 ## Worked examples
 
 
-**Worked example 1 -- UI base cost (hypothetical).** An employer with 10 covered employees pays the new-employer rate on a hypothetical 9,500 base: 10 × 9,500 = 95,000 taxable wages; at a hypothetical 3.5% experience rate: 95,000 × 0.035 = 3,325, plus a hypothetical 0.99% wage tax on the same base: 95,000 × 0.0099 = 940.50.
+**Worked example 1 -- UI base cost (hypothetical).** An employer with 10 covered employees pays the new-employer rate on a hypothetical 9,500 base: 10 × 9,500 = 95,000 taxable wages; at a hypothetical 3.5% experience rate: 95,000 × 0.035 = 3,325, plus the state UI wage tax (rate not yet confirmed -- see Not yet confirmed).
 
 ```oa-check
 name: mi ui base cost

@@ -2,7 +2,7 @@
 name: mi-estimated-tax
 description: Use this skill whenever asked about Michigan quarterly estimated income tax for individuals -- sole proprietors, single-member LLCs, freelancers, and high-income wage earners with insufficient withholding. Trigger on phrases like "Michigan estimated tax", "MI-1040ES", "MI quarterly payments", "Michigan underpayment penalty", "MI-2210", "MCL 206.301", "Michigan estimated tax safe harbor".
 jurisdiction: US-MI
-tax_year: 2025
+tax_year: 2026
 last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
@@ -169,21 +169,6 @@ Step 5: If remainder > $500 → MUST make estimates.
 5. Subtract withholding allocated to that period and prior installments paid.
 6. Result = required installment for that quarter.
 
-### Worked example snippet (hypothetical)
-
-**Worked snippet table**
-
-| Period | YTD MI AGI | Annualized AGI | Annualized tax (4.25%) | Cum. required (× factor) | Prior installments | This installment |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 (Mar 31) | $8,000 | $32,000 | $1,360 | $306 (22.5%) | 0 | $306 |
-| 2 (May 31) | $15,000 | $36,000 | $1,530 | $689 (45%) | $306 | $383 |
-| 3 (Aug 31) | $90,000 | $135,000 | $5,738 | $3,873 (67.5%) | $689 | $3,184 |
-| 4 (Dec 31) | $140,000 | $140,000 | $5,950 | $5,355 (90%) | $3,873 | $1,482 |
-
-### Worked example snippet (hypothetical)
-
-Without annualization the consultant would owe roughly $1,488 per quarter (the $5,950 annual figure divided by 4). With annualization the Q1 and Q2 payments are tiny because little income had been earned. Total paid across all four quarters is identical, but no underpayment penalty accrues for Q1 and Q2.
-
 ## Deadlines and filing
 
 
@@ -348,9 +333,7 @@ Michigan estimated tax is a state-level obligation only: federal estimates (Form
 | Q4 | January 15, 2027 | $1,011 |
 | **Total** |  | **$4,044** |
 
-### Worked example 1 -- Steady-income sole proprietor ($120k expected, hypothetical)
-
-Schedule four ACH debits via MTO at sign-up; no further action required.
+**Reviewer note.** Schedule four ACH debits via MTO at sign-up; no further action required.
 
 ### Worked example 2 -- Sole prop with Q3 income spike (annualized method, hypothetical)
 
@@ -370,46 +353,13 @@ Schedule four ACH debits via MTO at sign-up; no further action required.
 | 4 (12/31) | $140,000 | 1.00 | $140,000 | $5,950 | $5,355 | $3,873 | $1,482 |
 | **Total** |  |  |  |  |  |  | **$5,355** |
 
-### Worked example 2 -- Sole prop with Q3 income spike (annualized method, hypothetical)
-
-The annualized method front-loads cash to Q3 when the income actually arrived. No MI-2210 penalty accrues because each cumulative payment meets the cumulative safe-harbor percentage.
+**Reviewer note.** The annualized method front-loads cash to Q3 when the income actually arrived. No MI-2210 penalty accrues because each cumulative payment meets the cumulative safe-harbor percentage.
 
 `[VERIFY:]` Annualization factors mirror federal Schedule AI; confirm the MI-2210 (2026 revision) replicates the federal 4 / 2.4 / 1.5 / 1 sequence.
 
-### Worked example 3 -- High-income W-2 earner with withholding shortfall
+### High-income W-2 note (hypothetical, not a numbered example)
 
-**Facts (all hypothetical).** MFJ; both spouses W-2; combined wages $300,000; combined federal AGI 2025 was $285,000 (i.e., > $150k threshold); MI withholding for 2026 projected at $9,500 against expected MI tax of $12,400; TY 2025 MI total tax was $11,800. No self-employment income.
-
-**Step 1 -- Estimates required?**
-- Expected MI tax $12,400 − withholding $9,500 = $2,900 shortfall.
-- $2,900 > $500 → **Estimates required.**
-
-**Step 2 -- RAP under high-income rule.**
-- Current-year 90%: $12,400 × 90% = $11,160.
-- Prior-year 110% (because 2025 AGI > $150,000): $11,800 × 110% = $12,980.
-- RAP = lower = **$11,160**.
-
-**Step 3 -- Subtract withholding spread evenly.**
-- Required payments net of withholding: $11,160 − $9,500 = $1,660.
-- Quarterly installment: $1,660 ÷ 4 = **$415 per quarter**.
-
-**Step 4 -- Voucher schedule.**
-
-**Voucher schedule table**
-
-| Quarter | Due date | Amount |
-| --- | --- | --- |
-| Q1 | April 15, 2026 | $415 |
-| Q2 | June 15, 2026 | $415 |
-| Q3 | September 15, 2026 | $415 |
-| Q4 | January 15, 2027 | $415 |
-| **Total estimates** |  | **$1,660** |
-| **+ Withholding** |  | **$9,500** |
-| **= RAP** |  | **$11,160** |
-
-### Worked example 3 -- High-income W-2 earner with withholding shortfall
-
-For W-2 couples, increasing Michigan withholding via MI-W4 line 6 ("additional amount per pay") is usually administratively easier than quarterly vouchers -- and withholding is treated as paid evenly across all four quarters even if added in November, which can fully cure an underpayment for Q1–Q3.
+A hypothetical MFJ couple: combined wages $300,000; 2025 federal AGI $285,000 (above $150,000, so the 110% prior-year safe harbor applies); projected 2026 MI withholding $9,500 against expected MI tax $12,400; TY 2025 MI total tax $11,800. RAP is the lower of current-year 90% ($12,400 x 90% = $11,160) and prior-year 110% ($11,800 x 110% = $12,980), so $11,160; net of withholding, $1,660 of estimates, i.e. $415 per quarter. In practice, raising MI-W-4 line 6 (additional amount per pay) is usually administratively easier than quarterly vouchers, and withholding is treated as paid evenly across all four quarters even if added in November, which can fully cure an underpayment for Q1-Q3.
 
 ## Ask the client first
 
@@ -435,7 +385,7 @@ For W-2 couples, increasing Michigan withholding via MI-W4 line 6 ("additional a
 | 8 | Michigan Treasury -- Interest Rate Due on Under/Overpayments | https://www.michigan.gov/taxes/interest-rate | 2026-10-29 |
 | 9 | Michigan Treasury Online (MTO) portal | https://mto.treasury.michigan.gov/ | 2026-10-29 |
 
-Not yet confirmed: MI-1040ES safe-harbor percentages (90%/100%/110% and the high-income AGI threshold), the 2026 H1/H2 interest rates (8.48%/7.85%) pending RAB text verification, MTO card/debit payment fees, and the annualization factors on the 2026 MI-2210 form.
+Not yet confirmed: MTO card/debit payment fees, and the annualization factors on the 2026 MI-2210 form. (The 90%/100%/110% safe-harbor percentages and the 8.48%/7.85% 2026 interest rates are tied out to the archived MI-1040ES instructions and RAB 2026-1/2026-5 pages listed above.)
 
 ## Form mapping
 

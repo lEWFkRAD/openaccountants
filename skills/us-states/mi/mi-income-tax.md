@@ -3,7 +3,7 @@ name: mi-income-tax
 description: Use this skill whenever asked about Michigan individual income tax for self-employed persons, sole proprietors, or single-member LLCs. Trigger on phrases like "Michigan income tax", "MI income tax", "Form MI-1040", "Michigan Treasury", "MCL 206.51".
 version: "0.1"
 jurisdiction: US-MI
-tax_year: 2025
+tax_year: 2026
 last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
