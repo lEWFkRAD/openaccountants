@@ -15,7 +15,7 @@ as_of: 2026-10-27
 
 # Indiana (US-IN) -- pack map
 
-Indiana taxes individuals at a **flat state rate plus a county income tax** in all 92 counties (county rate locked to January 1 residence), corporations at a **flat rate on adjusted gross income** (IC 6-3 -- 2.5% post-2022, confirm for 2026: needs-sources), and sales at 7% flat statewide with no local sales taxes. Employer social contributions are UI-only (IC 22-4, DWD). No state disability insurance, no state health-coverage mandate. Inheritance tax repealed. (not yet confirmed)
+Indiana taxes individuals at a **flat state rate plus a county income tax** in all 92 counties (county rate locked to January 1 residence), corporations at a **flat 4.9% rate on adjusted gross income** (IC 6-3; DOR IT-20 booklet 2025), and sales at 7% flat statewide with no local sales taxes. Employer social contributions are UI-only (IC 22-4, DWD). No state disability insurance, no state health-coverage mandate. Inheritance tax repealed. (not yet confirmed)
 
 ## Domain map
 
@@ -41,7 +41,7 @@ All seven domains apply to Indiana -- no not_applicable entries.
 
 ## Open items for reviewer
 
-- 2026 flat rates: individual (2.95% per in-income-tax vs 3.15% per in-payroll -- reconcile; neither rate is yet confirmed against archived sources) and corporate (2.5%, not yet confirmed).
+- 2026 flat rates: individual (2.95% per in-income-tax vs 3.15% per in-payroll -- reconcile; neither rate is yet confirmed against archived sources) and corporate (4.9%, per the DOR IT-20 booklet 2025; see in-corporate-income-tax).
 - Combined-report ownership test; IT-20PIC addback scope; Schedule E factor detail.
 - UI wage base/rates 2026 (DWD SPA).
 - Reciprocity exemption form IDs (OH/KY/MI/PA/WI).
