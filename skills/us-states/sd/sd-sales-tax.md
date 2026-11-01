@@ -69,7 +69,7 @@ The MGRT applies to alcoholic beverages, eating establishments, lodging accommod
 
 ## Worked examples
 
-### Example 1: office supplies sold in Sioux Falls
+### Worked example 1: office supplies sold in Sioux Falls
 
 A Sioux Falls retailer sells $500 of office supplies in October 2026. State 4.2% plus Sioux Falls municipal 2.00% = 6.2%. Tax is $500 × 6.2% = $31.00, total $531.00. The MGRT does not apply: office supplies are not on the MGRT list.
 
@@ -89,7 +89,7 @@ expected:
   total: 531.00
 ```
 
-### Example 2: tractor bought for exclusive farm use
+### Worked example 2: tractor bought for exclusive farm use
 
 A farmer buys an $80,000 tractor for exclusive agricultural use. It is not sales-taxed, but the 4.2% ag excise tax applies, with no municipal tax: $80,000 × 4.2% = $3,360, total $83,360. If the dealer does not charge it, the farmer owes it.
 
