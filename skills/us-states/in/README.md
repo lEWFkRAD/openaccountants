@@ -41,8 +41,8 @@ All seven domains apply to Indiana -- no not_applicable entries.
 
 ## Open items for reviewer
 
-- 2026 flat rates: individual (2.95% per in-income-tax vs 3.15% per in-payroll -- reconcile; neither rate is yet confirmed against archived sources) and corporate (4.9%, per the DOR IT-20 booklet 2025; see in-corporate-income-tax).
-- Combined-report ownership test; IT-20PIC addback scope; Schedule E factor detail.
+- Individual flat rate: in-income-tax and in-payroll state different rates; reconcile both against the DOR IT-40 booklet before use. (The corporate rate is settled in in-corporate-income-tax from the DOR IT-20 booklet 2025.)
+- IT-20PIC addback exceptions; when Schedule M applies.
 - UI wage base/rates 2026 (DWD SPA).
 - Reciprocity exemption form IDs (OH/KY/MI/PA/WI).
 
