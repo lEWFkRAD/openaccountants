@@ -1,4 +1,4 @@
-# South Dakota — OpenAccountants Tax Skills
+# South Dakota: OpenAccountants Tax Skills
 
 | Field | Value |
 |---|---|
@@ -8,13 +8,13 @@
 | Sales tax | Yes |
 | Franchise / gross receipts tax | Yes (municipal gross receipts tax) |
 | Tax authority | [South Dakota Department of Revenue](https://dor.sd.gov) |
-| Quality tier | Q3 — AI-drafted, not independently verified |
+| Quality tier | Q3: AI-drafted, not independently verified |
 
 ## Files in this folder
 
 | File | What it covers |
 |---|---|
-| sd-sales-tax.md | South Dakota sales and use tax — 4.5% state rate, municipal tax up to 2%, Wayfair nexus, filing mechanics |
+| sd-sales-tax.md | South Dakota sales and use tax: 4.2% state rate (4.5% from July 1, 2027), municipal tax 1% to 2%, 1% municipal gross receipts tax, $100,000 remote-seller threshold, filing mechanics, contractor's and ag excise taxes |
 
 ## What's NOT covered
 
@@ -23,7 +23,6 @@
 - Motor fuel tax
 - Bank franchise tax
 - Insurance company taxes
-- Contractor's excise tax (2%)
 
 ## How to use
 

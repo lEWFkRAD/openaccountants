@@ -1,402 +1,144 @@
 ---
 name: sd-sales-tax
-description: Use this skill whenever asked about South Dakota sales tax, South Dakota use tax, South Dakota DOR filing, South Dakota Wayfair, South Dakota municipal gross receipts tax, or South Dakota sales tax compliance. Trigger on phrases like "South Dakota sales tax", "SD sales tax", "SDCL §10-45", "South Dakota DOR", "Wayfair", "South Dakota grocery tax", "South Dakota SST", "South Dakota no income tax", or any request involving South Dakota sales and use tax compliance. ALWAYS load us-sales-tax first for federal context.
+description: "South Dakota sales and use tax for 2026: the 4.2% state rate (4.5% again from July 1, 2027 under SDCL 10-45-2), municipal sales and use tax of 1% to 2%, the 1% municipal gross receipts tax, the $100,000 remote-seller threshold under SDCL 10-64-2, return and payment due dates, late-filing penalty and interest under SDCL 10-59-6, and the separate 2% contractor's excise tax and 4.2% ag excise tax. Trigger on 'South Dakota sales tax', 'SD sales tax', 'SDCL 10-45', 'South Dakota DOR', 'Wayfair', 'South Dakota use tax', 'municipal gross receipts tax', 'South Dakota remote seller'. Load us-sales-tax first for federal context."
+version: 0.3
 jurisdiction: US-SD
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-11-01
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
 license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ---
 
-# SD Sales Tax
+# South Dakota sales and use tax, 2026
+
+> **Source-cited draft.** Built from South Dakota Codified Laws (SDCL) 10-45-2, 10-45-27.3, 10-52-2, 10-52A-2, 10-59-6 and 10-64-2 and the Department of Revenue Sales and Use Tax Guide and Municipal Tax Guide (both July 2026), read on 2026-11-01. No accountant has reviewed it. Do not file from it without review by a qualified professional.
+
+South Dakota has no corporate, unitary or personal income tax (DOR Sales and Use Tax Guide, Tax Basics). The Department of Revenue (DOR, dor.sd.gov) administers the state sales and use tax and collects municipal sales, use and gross receipts taxes on the same return.
 
 ## Who this applies to
 
-**Skill Metadata**
-
-| Field | Value |
-| --- | --- |
-| Jurisdiction | South Dakota, United States |
-| Jurisdiction Code | US-SD |
-| Tax Type | Sales and Use Tax (state + local) |
-| State Rate | 4.50% | (not yet confirmed)
-| Municipal Tax | Up to 2.00% | (not yet confirmed)
-| Municipal Gross Receipts Tax | Additional (varies by municipality) |
-| Maximum Combined Rate | ~6.50% + municipal gross receipts | (not yet confirmed)
-| Primary Statute | South Dakota Codified Laws (SDCL) §10-45 |
-| Governing Agency | South Dakota Department of Revenue (DOR) |
-| Portal | https://dor.sd.gov |
-| SST Member | Yes -- Full Member |
-| No State Income Tax | Yes |
-| Contributor | Open Accounting Skills Registry |
-| Validated By | Pending -- requires US CPA or EA sign-off |
-| Validation Date | Pending |
-| Skill Version | 1.0 |
-| Confidence Coverage | T1: state rate, basic taxability, filing mechanics, Wayfair background. T2: municipal gross receipts, service taxability, exemption specifics. T3: audit defense, complex transactions, penalty abatement. |
-| Format | Restructured to Q1 execution format, April 2026 |
-
-### Confidence Tier Definitions
-
-- **[T1] Tier 1 -- Deterministic.** Apply exactly as written. No reviewer judgement required.
-- **[T2] Tier 2 -- Reviewer Judgement Required.** Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
-- **[T3] Tier 3 -- Out of Scope / Escalate.** Do not guess. Escalate to a licensed tax professional.
-
-### Step 0: Client Onboarding Questions
-
-Before proceeding with any South Dakota sales tax analysis, collect the following from the client: [T1]
-
-**Client Onboarding Questions**
-
-| # | Question | Why It Matters |
-| --- | --- | --- |
-| 1 | Do you have a South Dakota sales tax registration / tax ID? | Determines whether registration is needed before filing. |
-| 2 | What is your current filing frequency (monthly / quarterly / annually)? | Controls which return periods to prepare. |
-| 3 | What is your nexus type -- physical presence, economic nexus, or both? | Determines registration obligations and applicable rules. |
-| 4 | Are you a marketplace seller (selling through Amazon, Etsy, etc.)? | Marketplace facilitator may already be collecting on your behalf. |
-| 5 | What types of products or services do you sell in South Dakota? | Drives taxability classification under South Dakota law. |
-| 6 | Do you sell to exempt entities (government, nonprofits, resellers)? | Determines whether exemption certificates must be collected and retained. |
-| 7 | Do you have locations, employees, or inventory in South Dakota? | Physical presence creates nexus independent of economic thresholds. |
-| 8 | Do you sell into multiple South Dakota local jurisdictions? | Local tax rates vary; determines compliance complexity. |
-
-**If the client cannot answer questions 1-4, STOP and gather this information before proceeding.** [T1]
-
-### 1.1 State Sales Tax Rate
-
-- **State Sales Tax Rate** -- 4.50% (on gross receipts of all retail sales of tangible personal property and services [T1])  _(SDCL §10-45-2)_ (not yet confirmed)
-
-### 1.2 The Wayfair State [T1]
-
-South Dakota is historically significant as the state whose law was upheld in **South Dakota v. Wayfair, Inc., 585 U.S. ___ (2018)**, the landmark US Supreme Court decision that overruled Quill and established that states may impose sales tax collection obligations on remote sellers without physical presence. [T1]
-
-This case revolutionized US sales tax by enabling economic nexus nationwide. [T1]
-
-### 1.3 No State Income Tax [T1]
-
-- **No State Income Tax** -- South Dakota has no state individual or corporate income tax. Sales tax is the state's primary revenue source.  _([T1])_
-
-### 1.4 Local Sales Taxes [T1]
-
-- **Municipal Sales Tax** -- Up to 2.00% ([T1]) (not yet confirmed)
-- **Combined State + Municipal Rate** -- ~6.50% ([T1]) (not yet confirmed)
-- **Municipal gross receipts tax** -- Some municipalities impose an additional gross receipts tax on specific industries (restaurants, hotels, bars), typically 1-2%. This is IN ADDITION to the sales tax.  _([T2])_ (not yet confirmed)
-
-### 1.5 Very Broad Tax Base [T1]
-
-South Dakota has one of the broadest sales tax bases in the country:
-- Virtually ALL services are taxable. [T1]
-- ALL food (including groceries) is taxable. [T1]
-- This broad base allows the state to maintain a relatively low rate. [T1]
-
-### 1.6 Sourcing [T1]
-
-- **Sourcing method** -- South Dakota uses destination-based sourcing. As an SST member, South Dakota follows SSUTA sourcing rules.  _([T1])_
-
-### 2.1 Grocery Food -- TAXABLE at Full Rate [T1]
-
-- **Grocery food taxability** -- South Dakota taxes grocery food at the FULL 4.5% state rate + local. Unprepared food: taxable at 4.5% + local. Prepared food: taxable at the same rate. There is NO reduced rate or exemption for food. South Dakota is one of the few remaining states that fully taxes grocery food.  _([T1])_ (not yet confirmed)
-
-### 2.2 Clothing [T1]
-
-- **Clothing taxability** -- Clothing is fully taxable. No exemption.  _([T1])_
-
-### 2.3 Prescription Drugs and Medical [T1]
-
-- **Prescription drugs** -- Exempt.  _(SDCL §10-45-14.5)_
-- **OTC drugs** -- Taxable.  _([T1])_
-- **DME** -- Exempt with prescription.  _([T1])_
-- **Prosthetics** -- Exempt.  _([T1])_
-
-### 2.4 Services -- VERY BROADLY TAXABLE [T1]
-
-**South Dakota taxes virtually ALL services.** Along with Hawaii, New Mexico, and West Virginia, South Dakota has one of the broadest service tax bases. [T1]
-
-Taxable services include (non-exhaustive):
-- Professional services: legal, accounting, consulting, engineering, architecture. [T1]
-- Personal care: haircuts, spa services. [T1]
-- Repair and maintenance. [T1]
-- Cleaning and janitorial. [T1]
-- IT services, web design, software development. [T1]
-- Construction services (labor + materials). [T1]
-- Marketing and advertising. [T1]
-- Financial advisory services. [T2]
-- Telecommunications. [T1]
-
-**Very limited exemptions from services:**
-- Medical services (physicians, dentists, hospitals). [T1]
-- Insurance premiums (subject to premium tax instead). [T1]
-- Banking/financial institution services (some). [T2]
-
-### 2.5 SaaS and Digital Goods [T1]
-
-- **SaaS** -- Taxable. South Dakota taxes all electronically transferred products and services, including SaaS.  _(SDCL §10-45-4.2)_
-- **Digital downloads** -- Taxable.  _([T1])_
-- **Streaming services** -- Taxable.  _([T1])_
-- **Canned and custom software** -- Taxable.  _([T1])_
-
-### 2.6 Manufacturing [T2]
-
-- **Manufacturing equipment** -- No specific broad manufacturing exemption in South Dakota.  _([T2])_
-- **Raw materials incorporated into finished products for resale** -- Exempt under resale.  _([T1])_
-- **Equipment purchases general rule** -- South Dakota's broad base means most equipment purchases are taxable.  _([T1])_
-
-### 2.7 Agricultural [T1]
-
-- **Farm machinery and equipment** -- Exempt.  _(SDCL §10-45-14)_
-- **Feed, seed, fertilizer** -- Exempt.  _([T1])_
-- **Livestock** -- Exempt for breeding/production.  _([T1])_
-- **Agricultural chemicals** -- Exempt.  _([T1])_
-
-### 4.1 Filing Details [T1]
-
-**Filing Details**
-
-| Field | Detail |
-| --- | --- |
-| Return Form | South Dakota Sales Tax Return (filed via DOR portal) |
-| Filing Frequencies | Monthly (>$250/month avg); Quarterly ($50-$250); Annually (<$50) | (not yet confirmed)
-| Due Date | 20th of the month following the reporting period | (not yet confirmed)
-| Portal | https://dor.sd.gov |
-| E-filing | Required for most filers |
-
-### 4.2 Vendor Discount [T1]
-
-- **Vendor discount** -- South Dakota does NOT offer a vendor discount for timely filing.  _([T1])_
-
-### 4.3 Penalties and Interest [T1]
-
-- **Late filing penalty** -- 10% of tax due or $10, whichever is greater.  _([T1])_ (not yet confirmed)
-- **Interest** -- 1% per month (12% per annum).  _([T1])_ (not yet confirmed)
-- **Fraud penalty** -- 100% of tax due.  _([T1])_ (not yet confirmed)
-
-### Step 4: Deductibility / Exemptions
-
-Exemptions identified in Step 2 above are the primary deductibility rules for South Dakota. Key categories: [T1]
-
-- **Resale exemption:** Valid resale certificate required. Retain for the statutory period. [T1]
-- **Exempt organizations:** Government entities and qualifying nonprofits -- require exemption certificate on file. [T1]
-- **Agricultural exemptions:** Where applicable per Step 2. [T1]
-- **Manufacturing exemptions:** Where applicable per Step 2. [T2]
-
-All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. [T1]
-
-### 3.1 Economic Nexus Threshold [T1]
-
-**Economic Nexus Threshold**
-
-| Field | Detail |
-| --- | --- |
-| Revenue Threshold | $100,000 in South Dakota sales | (not yet confirmed)
-| Transaction Threshold | 200 transactions |
-| Test | OR (either threshold triggers nexus) |
-| Measurement Period | Current or prior calendar year |
-| Effective Date | November 1, 2018 (post-Wayfair) | (not yet confirmed)
-
-- **Economic Nexus Statute** -- SDCL §10-64-2  _(SDCL §10-64-2)_
-
-### 3.2 Marketplace Facilitator [T1]
-
-- **Marketplace facilitator collection requirement** -- South Dakota requires marketplace facilitators to collect and remit.  _(SDCL §10-45-98)_
-
-### 3.3 SST Registration [T1]
-
-- **SST Registration** -- Full SST member. SSTRS and CSPs available.  _([T1])_
-
-### Step 6: Filing Deadlines and Penalties
-
-Refer to Step 3 for filing frequencies and due dates. [T1]
-
-### PROHIBITIONS
-
-- NEVER assume grocery food is exempt in South Dakota. It is taxable at the FULL rate. [T1]
-- NEVER assume services are exempt in South Dakota. Virtually ALL services are taxable, including professional services. [T1]
-- NEVER assume SaaS is exempt. South Dakota taxes SaaS and all digital products. [T1]
-- NEVER confuse sales tax with the separate municipal gross receipts tax. They are different obligations. [T2]
-- NEVER forget South Dakota's role as the Wayfair state when advising on economic nexus. [T1]
-- NEVER assume a uniform rate. Municipal taxes vary by city. [T1]
-- NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. [T1]
-
-### EC1 -- Grocery Food Fully Taxable [T2]
-
-**Situation:** A multi-state retailer assumes food is exempt in South Dakota based on other states.
-
-**Resolution:**
-- South Dakota taxes ALL grocery food at the full 4.5% state rate + local. [T1] (not yet confirmed)
-- POS systems must be configured to charge sales tax on food. [T1]
-- South Dakota, Alabama, and Mississippi remain among the few states taxing food at the full rate. [T1]
-- **Flag for reviewer:** Verify POS food classification. Common error is configuring food as exempt. [T2]
-
-### EC2 -- Professional Services Taxable [T2]
-
-**Situation:** A mainland law firm provides services to a South Dakota client. Is the legal fee subject to SD sales tax?
-
-**Resolution:**
-- Legal services ARE taxable in South Dakota. [T1]
-- If the law firm has economic nexus in SD ($100K+ or 200+ transactions), it must collect SD sales tax on fees for services delivered to SD clients. [T1] (not yet confirmed)
-- Most mainland professionals are unaware that SD taxes professional services. [T2]
-- **Flag for reviewer:** Service providers from states that exempt professional services often fail to collect SD tax. Verify compliance. [T2]
-
-### EC3 -- Municipal Gross Receipts Tax [T2]
-
-**Situation:** A restaurant in Sioux Falls owes both sales tax and municipal gross receipts tax. How do they interact?
-
-**Resolution:**
-- The restaurant collects and remits 4.5% state + 2% city = 6.5% sales tax. [T1] (not yet confirmed)
-- The municipal gross receipts tax is an ADDITIONAL tax imposed on the restaurant's gross receipts (typically 1-2%). [T2] (not yet confirmed)
-- This tax is on the BUSINESS, not passed to the customer (though businesses often build it into prices). [T2]
-- The two taxes are separate returns/obligations. [T2]
-- **Flag for reviewer:** Municipal gross receipts taxes are filed separately from sales tax. Verify all applicable municipal taxes. [T2]
-
-### EC4 -- Wayfair Compliance for Remote Sellers [T1]
-
-**Situation:** A remote seller wants to understand their SD obligation given the Wayfair decision.
-
-**Resolution:**
-- South Dakota's law (upheld in Wayfair) requires remote sellers meeting the $100K OR 200 transaction threshold to collect SD sales tax. [T1] (not yet confirmed)
-- The law was found constitutional because it: (a) has a safe harbor for small sellers, (b) does not apply retroactively, (c) South Dakota is an SST member (simplifying compliance). [T1]
-- Remote sellers should register through SSTRS for free compliance tools. [T1]
-- **Flag for reviewer:** Wayfair is the foundation of all US economic nexus laws. South Dakota's law is the model. [T1]
-
-### EC5 -- Consulting Firm from Non-Service-Tax State [T2]
-
-**Situation:** A management consulting firm from Colorado (where consulting is exempt from sales tax) provides strategic consulting to an SD client. The firm has economic nexus in SD.
-
-**Resolution:**
-- Consulting services ARE taxable in South Dakota. [T1]
-- The firm must register for SD sales tax and collect on fees for services delivered to SD clients. [T1]
-- The firm's home state treatment (exempt in CO) is irrelevant. Destination state rules apply. [T1]
-- **Flag for reviewer:** Service firms from states that exempt professional services are high-risk for SD non-compliance. [T2]
-
-### EC6 -- Construction Services [T2]
-
-**Situation:** A contractor builds a commercial building in Rapid City. The total contract is $1 million (materials + labor).
-
-**Resolution:**
-- In South Dakota, construction services are subject to sales tax on the ENTIRE contract (materials + labor). [T1]
-- This is different from most states where the contractor pays tax on materials only. [T1]
-- Tax = $1,000,000 x combined rate (4.5% state + 2% city = 6.5%). [T1] (not yet confirmed)
-- The contractor collects tax from the property owner. [T1]
-- **Flag for reviewer:** Contractors from other states may be unfamiliar with SD's treatment of construction as a fully taxable service. [T2]
-
-### EC7 -- Use Tax on Personal Purchases [T1]
-
-**Situation:** An SD resident purchases a $2,000 laptop online from a seller that did not collect SD tax. (not yet confirmed)
-
-**Resolution:**
-- Use tax is due at the same rate as sales tax. [T1]
-- The resident should self-assess use tax on their SD income tax return (SD has no income tax, so use tax must be reported separately). [T1]
-- SD use tax return (SDCL §10-46) is available. [T1]
-- **Flag for reviewer:** In a no-income-tax state, there is no income tax return to add use tax to. Separate use tax reporting is required. [T2]
-
-### Test 1 -- Basic Taxable Sale
-
-**Input:** Seller in Sioux Falls sells $500 of office supplies. Combined rate = 6.5% (4.5% state + 2% city). (not yet confirmed)
-**Expected output:** Tax = $500 x 6.5% = $32.50. Total = $532.50. (not yet confirmed)
-
-### Test 2 -- Grocery Food at Full Rate
-
-**Input:** Customer buys $200 of unprepared groceries in Rapid City. Combined rate = 6.5%. (not yet confirmed)
-**Expected output:** Food IS taxable. Tax = $200 x 6.5% = $13.00. Total = $213.00. (not yet confirmed)
-
-### Test 3 -- Legal Services Taxable
-
-**Input:** Attorney in Pierre bills $3,000 for legal services. State rate = 4.5% (no city tax in this example). (not yet confirmed)
-**Expected output:** Legal services ARE taxable. Tax = $3,000 x 4.5% = $135.00. Total = $3,135.00. (not yet confirmed)
-
-### Test 4 -- SaaS Taxable
-
-**Input:** SaaS company charges SD business $500/month. Combined rate = 6.5%. (not yet confirmed)
-**Expected output:** SaaS IS taxable. Tax = $500 x 6.5% = $32.50. Total = $532.50. (not yet confirmed)
-
-### Test 5 -- Economic Nexus (Wayfair Threshold)
-
-**Input:** Remote seller from Delaware sold $110,000 to SD in the prior year, with 150 transactions. (not yet confirmed)
-**Expected output:** Revenue ($110,000) exceeds $100,000 threshold. Nexus IS triggered (OR test -- revenue alone sufficient). Must register and collect. (not yet confirmed)
-
-### Test 6 -- Consulting Services Taxable
-
-**Input:** Consulting firm charges $10,000 for services to an SD business in Sioux Falls. Combined rate = 6.5%. (not yet confirmed)
-**Expected output:** Consulting IS taxable. Tax = $10,000 x 6.5% = $650.00. Total = $10,650.00. (not yet confirmed)
-
-### Test 7 -- Construction Contract
-
-**Input:** Contractor charges $500,000 for building project in Rapid City. Combined rate = 6.5%. (not yet confirmed)
-**Expected output:** Entire contract is taxable. Tax = $500,000 x 6.5% = $32,500.00. Total = $532,500.00. (not yet confirmed)
-
-### Test 8 -- Farm Equipment Exempt
-
-**Input:** Farmer buys $80,000 tractor for agricultural use. (not yet confirmed)
-**Expected output:** Farm machinery is exempt. Tax = $0. Total = $80,000. (not yet confirmed)
-
-### Reviewer Escalation Protocol
-
-**Reviewer Escalation Protocol**
-
-| Trigger | Action |
-| --- | --- |
-| Any [T3] tagged item encountered | STOP. Do not guess. Escalate to licensed CPA, EA, or tax attorney. |
-| Client has audit notice or assessment | Escalate immediately. Do not advise on audit response. |
-| Multi-state nexus question involving 3+ states | Flag for senior reviewer with multi-state experience. |
-| Penalty abatement or voluntary disclosure | Escalate to licensed professional with state-specific experience. |
-| Ambiguous taxability of a product/service | Present both interpretations to reviewer with supporting authority. |
-
-### Contribution Notes
-
-- This skill follows the Q1 execution format (Step 0 through Step 7).
-- All rules are tagged [T1], [T2], or [T3] per the Confidence Tier Definitions.
-- Rate tables are deterministic lookup tables -- no narrative explanation of rates.
-- To update this skill, submit a pull request with the specific section, supporting statutory authority, and effective date of the change.
-- All changes require validation by a US CPA or EA before merging.
-
-### Disclaimer
-
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+- **Retailers with a physical presence in South Dakota.** Any business with a physical presence must hold a sales tax license and collect; the remote-seller threshold does not apply to them (DOR sales and use tax page).
+- **Remote sellers.** A seller with no physical presence must collect and remit if its gross revenue from tangible personal property, products transferred electronically, or services delivered into South Dakota exceeds $100,000 in the previous or current calendar year (SDCL 10-64-2). There is no transaction-count test: the old 200-transaction test is not in the current statute. A remote seller must register by the first day of the month that starts at least thirty days after the threshold is met (DOR guide, Remote Sellers).
+- **Marketplace providers.** Since March 1, 2019, marketplace providers that meet the thresholds must license and remit tax on the sales they facilitate (DOR guide, Marketplace Providers).
+- **Buyers owing use tax.** Use tax applies when state and municipal sales tax has not been paid on products and services used in South Dakota (DOR sales and use tax page).
+
+## Rates, bands and thresholds
+
+| Tax | Rate | Authority |
+|---|---|---|
+| State sales and use tax | 4.2% through June 30, 2027; 4.5% from July 1, 2027 | SDCL 10-45-2 (current text "four and two-tenths percent"; version effective July 1, 2027 "four and one-half percent"); DOR guide |
+| Municipal sales and use tax | 1% to 2%, set by each municipality | DOR guide; SDCL 10-52-2 caps the rate at two percent |
+| Municipal gross receipts tax (MGRT) | 1%, in addition to municipal sales tax | DOR guide; SDCL 10-52A-2 |
+| Contractor's excise tax (prime contractors, construction and realty improvement) | 2% of gross receipts | DOR guide |
+| Ag excise tax (farm machinery, attachment units, irrigation equipment used exclusively in agriculture) | 4.2%, state only, no municipal tax | DOR guide |
+| Tourism tax (certain lodging, amusement services, certain vehicle rentals) | 1.5% | DOR guide |
+| Remote-seller threshold | more than $100,000 gross revenue into South Dakota, previous or current calendar year | SDCL 10-64-2 |
+
+Municipal rates used in the worked examples, from the DOR Municipal Tax Guide (July 2026): Sioux Falls 2.00% sales tax and 1.00% MGRT; Rapid City 2.00% and 1.00%; Pierre 2.00% and 1.00%. Look up any other location with the DOR rate lookup before computing.
+
+The MGRT applies to alcoholic beverages, eating establishments, lodging accommodations, admissions to places of amusement, and athletic and cultural events (DOR guide).
+
+## The taxable base
+
+- The sales tax applies to the gross receipts of all retail sales, including the sale, lease or rental of personal property or any product transferred electronically, and the sale of services (DOR guide, Sales Tax). Services are taxable unless specifically exempt, so professional services such as legal and consulting work and software delivered electronically fall in the base.
+- **Services the DOR guide lists as exempt:** health services, educational services, social services, agricultural services, forestry services, services of certain membership organizations, financial services of institutions under the bank franchise tax, insurance agent commissions, stock and commodity broker services, trucking, travel agent services, and construction services (taxed instead under the contractor's excise tax).
+- **Food.** The DOR guide's exemption list has no general food exemption; food stamp (SNAP) purchases are not subject to sales tax.
+- **Farm machinery** used exclusively in agriculture is not sales-taxed but bears the 4.2% ag excise tax, with no municipal tax (DOR guide).
+- **Use tax** is at the same rate as sales tax, on the purchase price including freight and handling, due in the filing period in which the product or service is received, at the rate for the location where it is used (DOR guide, Use Tax). Credit is given for another state's tax legally paid.
+
+## Deadlines and filing
+
+- Returns and tax are due on or before the 20th day of the month following each monthly period (SDCL 10-45-27.3).
+- Electronic filers file by the 20th and remit by the 25th of the month following the period (SDCL 10-45-27.3; DOR guide: "All electronic payments are due the 25th of the month").
+- The secretary may assign a basis other than monthly; that return is still due the 20th of the month after the reporting period unless the secretary sets another date (SDCL 10-45-27.3).
+- A return is required for every reporting period even with no business (DOR guide). If a due date falls on a weekend or legal holiday, the next business day is the due date.
+- The secretary may grant an extension of not more than five days (SDCL 10-45-27.3).
+
+## Penalties and interest
+
+- **Late filing:** a return not filed within thirty days following the month it is due draws a penalty of 10% of the tax or $10, whichever is greater; the secretary may reduce or remove it for reasonable cause (SDCL 10-59-6). The DOR guide adds that the $10 minimum applies even if no tax is due.
+- **Interest:** 1% or $5, whichever is greater, for the first month, and 1% per month thereafter; 1.5% (or $5) per month where the failure was intended to avoid or delay payment (SDCL 10-59-6).
+
+## Cross-border points
+
+- Sales tax applies where the customer receives the product or service (DOR guide). For products transferred electronically with no delivery or customer address on file, sales tax applies where the product is first available for transmission by the seller.
+- Additional municipal use tax may be due if a product is used in a different city with a higher rate than was paid (DOR guide).
+- Remote sellers can obtain licensing in several states through the Streamlined Sales Tax system (DOR guide).
+
+## Worked examples
+
+### Example 1: office supplies sold in Sioux Falls
+
+A Sioux Falls retailer sells $500 of office supplies in October 2026. State 4.2% plus Sioux Falls municipal 2.00% = 6.2%. Tax is $500 × 6.2% = $31.00, total $531.00. The MGRT does not apply: office supplies are not on the MGRT list.
+
+```oa-check
+name: Sioux Falls retail sale, $500 (2026)
+inputs:
+  price: 500
+  state_rate: 0.042
+  city_rate: 0.02
+steps:
+  - combined_rate: state_rate + city_rate
+  - tax: price * combined_rate
+  - total: price + tax
+expected:
+  combined_rate: 0.062
+  tax: 31.00
+  total: 531.00
+```
+
+### Example 2: tractor bought for exclusive farm use
+
+A farmer buys an $80,000 tractor for exclusive agricultural use. It is not sales-taxed, but the 4.2% ag excise tax applies, with no municipal tax: $80,000 × 4.2% = $3,360, total $83,360. If the dealer does not charge it, the farmer owes it.
+
+```oa-check
+name: Farm tractor, ag excise tax, $80,000 (2026)
+inputs:
+  price: 80000
+  ag_excise_rate: 0.042
+steps:
+  - tax: price * ag_excise_rate
+  - total: price + tax
+expected:
+  tax: 3360
+  total: 83360
+```
+
+## Ask the client first
+
+1. **Do you have a physical presence in South Dakota?** If not, did gross revenue into the state exceed $100,000 this year or last?
+2. **Which municipalities do you deliver into?** Each sets its own 1% to 2% rate and may impose the 1% MGRT.
+3. **Do you sell meals, alcohol, lodging, admissions or amusements?** Those carry the MGRT and possibly the tourism tax.
+4. **Is any of the work construction or realty improvement?** That is under the 2% contractor's excise tax, not sales tax.
+5. **Do you sell farm machinery or irrigation equipment?** The 4.2% ag excise tax applies instead of sales tax.
+6. **Do you file electronically?** Payment is due the 25th, not the 20th.
+7. **Will the sale or delivery happen on or after July 1, 2027?** The state rate returns to 4.5%.
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| SDCL 10-45-2, tax on sale of tangible property (current text and version effective July 1, 2027) | https://sdlegislature.gov/api/Statutes/10-45-2.html | 2026-11-01 |
+| SDCL 10-45-27.3, filing return and remitting tax | https://sdlegislature.gov/Statutes/10-45-27.3 | 2026-11-01 |
+| SDCL 10-52-2, municipal tax, conformance and rate | https://sdlegislature.gov/Statutes/10-52-2 | 2026-11-01 |
+| SDCL 10-52A-2, municipal gross receipts tax | https://sdlegislature.gov/Statutes/10-52A-2 | 2026-11-01 |
+| SDCL 10-59-6, penalty and interest | https://sdlegislature.gov/Statutes/10-59-6 | 2026-11-01 |
+| SDCL 10-64-2, remote sellers | https://sdlegislature.gov/Statutes/10-64-2 | 2026-11-01 |
+| SD DOR, Sales and Use Tax Guide (July 2026) | https://dor.sd.gov/media/avyep2sr/2026-7_sales-use-tax-guide.pdf | 2026-11-01 |
+| SD DOR, Municipal Tax Guide (July 2026) | https://dor.sd.gov/media/54mb5a2w/2026-07_municipal-tax-guide.pdf | 2026-11-01 |
+| SD DOR, Remote Seller Bulletin | https://dor.sd.gov/media/yh0n3oc2/remote-seller-bulletin.pdf | 2026-11-01 |
+| SD DOR, sales and use tax page | https://dor.sd.gov/businesses/taxes/sales-use-tax/ | 2026-11-01 |
+
+Not yet confirmed: which filing frequency (monthly, bi-monthly, semi-annual) DOR assigns at which liability level, since neither SDCL 10-45-27.3 nor the DOR guide gives dollar cut-offs; any civil fraud penalty percentage (SDCL 10-59-6 sets the 1.5% intentional-avoidance interest; a fixed fraud penalty was not found); the specific exemptions for prescription drugs, durable medical equipment and prosthetics (the DOR guide points to a separate Health Services, Drugs and Medical Devices tax fact not read today); the exemptions for feed, seed, fertilizer, livestock and agricultural chemicals (the DOR guide points to separate agriculture tax facts not read today); whether a vendor collection allowance exists; how the MGRT is shown to customers.
 
 <!-- openaccountants-cta-block -->
 
 ---
 
-## Rates, bands and thresholds
-
-Not yet confirmed against archived sources.
-
-## The taxable base
-
-Not yet confirmed against archived sources.
-
-## Deadlines and filing
-
-Not yet confirmed against archived sources.
-
-## Penalties and interest
-
-Not yet confirmed against archived sources.
-
-## Cross-border points
-
-Not yet confirmed against archived sources.
-
-## Worked examples
-
-Not yet confirmed against archived sources.
-
-## Ask the client first
-
-Not yet confirmed against archived sources.
-
-## Sources
-
-| Source | URL | Read on |
-| --- | --- | --- |
-| (state) | https://dor.sd.gov | 2026-10-28 |
-
-Not yet confirmed: all SD sales-tax rates, thresholds, deadlines and exemptions lack archived line-citations.
-
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network -- accountants who put their name behind the tax answers AI gives people.
+This guide is maintained by the OpenAccountants network: accountants who put their name behind the tax answers AI gives people.
 
 > **General reference only.** This document does not constitute tax, legal, or financial advice. Verify figures against the cited primary sources or with a licensed professional before relying on them.
