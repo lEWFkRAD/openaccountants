@@ -31,7 +31,7 @@ version: 0.3
 ## Rates, bands and thresholds
 
 
-- **IIT rates:** graduated 5.35% / 6.75% / 7.85% / 9.85% (mn-income-tax, read 2026-10-25).
+- **IIT rates:** graduated 5.35% / 6.8% / 7.85% / 9.85% (M.S. 290.06 subd. 1, archived 2026-11-02).
 - **Composite returns** (M.S. 289A.08 subd. 7(a), statute text read 2026-10-25): the commissioner **may allow** a partnership with nonresident partners to file a composite return and pay tax on behalf of nonresident partners **who have no other Minnesota source income**; the composite return must list each electing partner's name, address, SSN, income allocation and tax liability.
 - **Nonresident wage withholding** (M.S. 290.92 subd. 4a, statute text read 2026-11-02): "any person having control, receipt, custody, disposal or payment of compensation taxable under this chapter and earned by a nonresident for personal services, shall be deemed an employer" and that compensation "shall be deemed wages" -- Minnesota employers (and out-of-state payers) withhold on nonresidents' Minnesota services.
 - **Nonresident-partner withholding exceptions** (composite election, a $1,000 Minnesota-assignable-income floor, termination distributions): the partnership-level withholding rule and its exceptions are not in 290.92's text and the governing section is not yet identified (see Not yet confirmed below).
