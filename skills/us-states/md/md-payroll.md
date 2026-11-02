@@ -177,16 +177,7 @@ Maryland Unemployment Insurance is administered by the Maryland Department of La
 
 ### Reporting
 
-Quarterly wage reports (Form DLLR/DUI 15) and contribution reports (Form DLLR/DUI 16) are filed with contribution payments, which are due:
-
-**Quarterly contribution report due dates**  _(Maryland DOL UI assessment FAQ, archived)_
-
-| Quarter | Wages reported | Due date |
-| --- | --- | --- |
-| Q1 | January–March | April 30 |
-| Q2 | April–June | July 31 |
-| Q3 | July–September | October 31 |
-| Q4 | October–December | January 31 |
+Quarterly wage reports (Form DLLR/DUI 15) and contribution reports (Form DLLR/DUI 16) are filed with contribution payments, which are due the last day of the month following each calendar quarter (so Q4 wages are due at the end of January).  _(Maryland DOL UI assessment FAQ, archived)_
 
 - **Registration thresholds** -- All employers with 1+ employee in 20+ weeks of a calendar year, or who paid $1,500+ in any calendar quarter, must register and file. Domestic employers are subject to a $1,000-per-quarter test. Agricultural employers have the $20,000-per-quarter or 10-employees-in-20-weeks test.  _(Md. Code Ann., Labor and Employment Title 8 -- see Not yet confirmed below)_
 - **BEACON portal, late penalties** -- Contribution reports and payments are filed through the Maryland Unemployment Insurance Portal (BEACON) by ACH credit or ACH debit. When quarterly reports and payments are missed, the Division sends a Delinquency Notice; unresolved items become an Assessment Notice with 30 days to pay. Interest accrues at 1.5% per month on the late contribution payment, and penalties are charged at $35 per quarter past due. Interest and penalty waivers and payment plans can be requested in BEACON.  _(Maryland DOL UI assessment FAQ, archived)_
