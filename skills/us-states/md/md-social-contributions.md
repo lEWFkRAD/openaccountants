@@ -31,7 +31,7 @@ depends_on:
 
 Maryland has **no state-level employee social-insurance contribution** -- there is no state version of FICA; old-age, survivors, disability and hospital insurance are federal (see `skills/federal/`). The state-layer social contributions are therefore the **employer-only** ones: unemployment insurance (SUI) under Md. Code, Labor & Employment §8-101 et seq., and the incoming **FAMLI** (Family and Medical Leave Insurance) program. Income-tax withholding mechanics live in `md-payroll`; this skill covers the contribution programs themselves.
 
-**Source status:** the Department of Labor SUI tax-rate page verified HTTP 200 with live 2026 content on 2026-10-27; the FAMLI employer page verified HTTP 200 the same day. The FAMLI **contribution-rate page** returned 404 from the drafting environment -- the FAMLI rate percentage is; dates and mechanics below come from the verified FAMLI employer page.
+**Source status:** the Department of Labor SUI tax-rate page and tax-rate table, the FAMLI employer page, the FAMLI landing page, and the Department of Labor's 2023 FAMLI contribution-rate announcement were all fetched with sidecars and read 2026-11-01.
 
 ## Rates, bands and thresholds
 
@@ -44,13 +44,13 @@ Maryland has **no state-level employee social-insurance contribution** -- there 
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| SUI taxable wage base | **$8,500** per employee per **calendar** year (first $8,500 of wages) | DOL SUI tax-rate page, read 2026-10-27 | (not yet confirmed)
-| SUI experience rates 2026 | **0.30% – 7.50%**; Tax Table A in effect for 2026 (same table as 2025; Tables A–F keyed to the UI Trust Fund balance, A = lowest) | DOL page, read 2026-10-27 | (not yet confirmed)
-| Standard rate | **7.50%** -- assigned when an employer has no taxable wages in a fiscal year because it failed to file quarterly tax and wage reports | DOL page, read 2026-10-27 | (not yet confirmed)
-| New-employer rate | **1.0% – 2.6%**; out-of-state construction contractors get the Maryland construction-industry average rate | DOL page, read 2026-10-27 |
-| Rate mechanics | benefit ratio = benefit charges ÷ taxable wages over the 3 fiscal years, mapped to the active tax table | DOL page, read 2026-10-27 |
-| FAMLI contribution rate | -- the published rate page 404'd on 2026-10-27; program contributions begin with the first quarterly remittance **April 2027** | FAMLI employer page, read 2026-10-27 |
-| FAMLI small-employer relief | small employers remit only **50% of the total contribution rate** and may withhold that amount from employee pay | FAMLI employer page, read 2026-10-27 |
+| SUI taxable wage base | **$8,500** per employee per **calendar** year (first $8,500 of wages) | DOL SUI tax-rate page |
+| SUI experience rates 2026 | **0.30% – 7.50%**; Tax Table A in effect for 2026 (same table as 2025; Tables A–F keyed to the UI Trust Fund balance, A = lowest) | DOL SUI tax-rate page |
+| Standard rate | **7.50%** -- assigned when an employer has no taxable wages in a fiscal year because it failed to file quarterly tax and wage reports | DOL SUI tax-rate page |
+| New-employer rate | **1.0% – 2.6%**; out-of-state construction contractors ("foreign contractors") get the Maryland construction-industry average rate, never below the new-employer rate | DOL SUI tax-rate page |
+| Rate mechanics | benefit ratio = benefit charges ÷ taxable wages over the 3 fiscal years, mapped to the active tax table | DOL SUI tax-rate page |
+| FAMLI contribution rate | **0.90%** of covered wages, the initial rate announced by the Department of Labor on 2023-09-29, equally divided between employees and employers with 15 or more workers; program contributions begin with the first quarterly remittance **April 2027** | DOL FAMLI rate announcement |
+| FAMLI small-employer relief | employers with fewer than 15 employees remit only **50% of the total contribution rate** and may withhold that amount from employee pay | FAMLI employer page |
 
 ## Deadlines and filing
 
@@ -62,9 +62,9 @@ Maryland has **no state-level employee social-insurance contribution** -- there 
 ## Penalties and interest
 
 
-- **SUI interest: 1.5% per month** on unpaid contribution and reimbursement balances. (DOL page, read 2026-10-27.) (not yet confirmed)
-- Failure to file quarterly reports converts the employer to the 7.50% standard rate (see §3) -- a rate penalty as much as a cash one. (not yet confirmed)
-- FAMLI penalty schedule: (regulations page not fetched).
+- **SUI interest: 1.5% per month** on unpaid contribution and reimbursement balances. (DOL SUI tax-rate page.)
+- Failure to file quarterly reports converts the employer to the 7.50% standard rate (see The taxable base) -- a rate penalty as much as a cash one.
+- FAMLI penalty schedule: not yet confirmed (regulations page not archived).
 
 ## Cross-border points
 
@@ -76,7 +76,8 @@ Maryland has **no state-level employee social-insurance contribution** -- there 
 ## Worked examples
 
 
-**Example 1 -- SUI contribution for one employee.** Employer rated 2.40%; one employee paid $60,000 in Maryland during 2026. (not yet confirmed)
+### Worked example 1: SUI contribution for one employee
+Employer rated 2.40%; one employee paid $60,000 in Maryland during 2026.
 
 ```oa-check
 name: MD SUI per-employee contribution
@@ -91,7 +92,8 @@ expected:
  contribution: 204.00
 ```
 
-**Example 2 -- late SUI payment interest.** A $12,000 quarterly contribution is paid 3 months late. (not yet confirmed)
+### Worked example 2: late SUI payment interest
+A $12,000 quarterly contribution is paid 3 months late.
 
 ```oa-check
 name: MD SUI late interest
@@ -111,7 +113,7 @@ expected:
 
 
 1. Which tax table and benefit ratio produced the 2026 rate -- and does the employer want to pay down benefit charges to buy a lower rate?
-2. Are quarterly MW-506 wage reports complete -- any risk of the 7.50% standard rate? (not yet confirmed)
+2. Are quarterly MW-506 wage reports complete -- any risk of the 7.50% standard rate?
 3. Is the employer small-employer eligible for FAMLI, and will it use a private plan instead of the state fund?
 4. Multi-state workforce: where is each employee's employment localized for SUI?
 5. Any reimbursable (government/non-profit) election in place?
@@ -119,10 +121,16 @@ expected:
 ## Sources
 
 
-| Source | What it covers | Read on |
+| Source | URL | Read on |
 |---|---|---|
+| DOL SUI employer tax-rate page (wage base $8,500, rates 0.30%-7.50%, standard rate, new-employer and foreign-contractor rules, 1.5% monthly interest) | https://labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml | 2026-11-01 |
+| DOL SUI tax-rate table (Tax Table A in effect for 2026) | https://labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate-table.shtml | 2026-11-01 |
+| DOL announcement: FAMLI initial contribution rate 0.90% of covered wages | https://labor.maryland.gov/whatsnews/laborannouncescontributionrateforfamli.shtml | 2026-11-01 |
+| FAMLI employer page (April 2027 reports/remittances, small-employer 50% rule) | https://paidleave.maryland.gov/employers/ | 2026-11-01 |
+| FAMLI landing page (benefits from January 1, 2028, up to 12 weeks, up to $1,000/week) | https://paidleave.maryland.gov/ | 2026-11-01 |
+| Labor & Employment §8-607 (statutory $8,500 taxable wage base) | https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gle&section=8-607&enactments=false | 2026-11-01 |
 
-Not yet confirmed: the FAMLI contribution-rate percentage (the published rate page 404'd on 2026-10-27) and the FAMLI penalty schedule (regulations page not fetched).
+Not yet confirmed: the FAMLI penalty schedule (regulations page not archived) and the interstate reciprocal coverage allocation detail cited in Cross-border points.
 
 ## Talk to a verified accountant
 
