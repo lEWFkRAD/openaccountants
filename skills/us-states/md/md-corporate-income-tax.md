@@ -8,10 +8,12 @@ description: >
   apportionment formulas for rental/leasing, financial institutions,
   transportation and worldwide-unitary-headquartered companies, Form 500D
   estimated tax (four 25% installments, 90%/110% safe harbors), Form 500E
-  extension (max 7 months), and the 11.4825% post-2024 interest rate.
+  extension (max 7 months), and the 10.8133% annual interest rate for
+  periods after 31 December 2025.
   Trigger on "Maryland corporate income tax", "Form 500", "Maryland CBT",
   "Maryland corporation apportionment", "Form 500D", "Form 500E".
-  Source-cited draft; Comptroller 2024 Corporation Tax Booklet read 2026-10-27.
+  Source-cited draft; Comptroller 2025 Corporation Tax Booklet read
+  2026-10-31.
 jurisdiction: US-MD
 category: state-tax
 tax_year: 2026
@@ -30,9 +32,9 @@ depends_on:
 ## Who this applies to
 
 
-Covers Maryland corporation income tax on C corporations and other entities taxed as corporations (Form 500), including nexus, apportionment, estimated tax, extensions, penalties and interest. Out of scope: federal tax, Maryland personal income tax (`md-income-tax`), payroll withholding (`md-payroll`), sales/use tax (`md-sales-tax`), the digital advertising tax (separate regime, returns due April 15), S corporations (Form 510 pass-through level), and fiduciary returns (Form 504). (not yet confirmed)
+Covers Maryland corporation income tax on C corporations and other entities taxed as corporations (Form 500), including nexus, apportionment, estimated tax, extensions, penalties and interest. Out of scope: federal tax, Maryland personal income tax (`md-income-tax`), payroll withholding (`md-payroll`), sales/use tax (`md-sales-tax`), the digital advertising tax (separate regime, returns due April 15), S corporations (Form 510 pass-through level), and fiduciary returns (Form 504).
 
-**Source status:** the Comptroller's Corporation Income Tax Return Booklet (2024 edition, latest located) was fetched and read in full on 2026-10-27 (HTTP 200, PDF text extracted). Statute-section citations (Tax-General §7-204 rate, §13-701 penalty percentages) did **not** resolve from the drafting environment -- those specifics are flagged; the 8.25% rate, interest rate, due dates, estimated-tax mechanics and extension cap are all quoted from the booklet itself. The 8.25% rate is independently confirmed by the archived statute text: Tax-General § 10-106(b)(1) (archived 2026-10-28): "The State income tax rate for a corporation is 8.25% of Maryland taxable income."
+**Source status:** the Comptroller's Corporation Income Tax Return Booklet (2025 edition) was fetched with a sidecar and read 2026-10-31 (PDF text extracted); the 2024 edition is archived too. The 8.25% rate is independently confirmed by the archived statute text, Tax-General §10-105(b) (read 2026-10-31): "The State income tax rate for a corporation is 8.25% of Maryland taxable income." The late-payment penalty cap is confirmed at Tax-General §13-701(a) (read 2026-10-31): a penalty "not exceeding 10% of the unpaid tax."
 
 ## Rates, bands and thresholds
 
@@ -48,7 +50,7 @@ Covers Maryland corporation income tax on C corporations and other entities taxe
 | Item | Amount / rule | Source |
 |---|---|---|
 | Corporate income tax rate | **8.25%** flat on Maryland taxable income (Form 500 line 14) | Corporation Tax Booklet, "Tax, Interest and Penalty" + line 14 instruction, read 2026-10-27 |
-| Statutory citation for the rate | Tax-General §7-204 | (statute page not fetched this run; rate itself verified in booklet) |
+| Statutory citation for the rate | Tax-General §10-105(b) | archived statute text, read 2026-10-31 |
 | Base | Federal taxable income with statutory addition/subtraction modifications, × apportionment factor for multistate corporations | Booklet, read 2026-10-27 |
 | Apportionment | **Single receipts factor** for tax years beginning after 31 December 2021; rental/leasing companies, financial institutions, transportation companies and worldwide-unitary-headquartered companies must use a Special Apportionment Formula unless the Comptroller accepts an Alternative Apportionment Formula | Booklet, "Single Sales Factor Apportionment", read 2026-10-27 |
 | Separate accounting | Allowed only with prior approval of the Revenue Administration Division, for nonunitary in-state activity | Booklet, read 2026-10-27 |
@@ -59,7 +61,7 @@ There is no Maryland surtax or franchise tax on top of the 8.25% for ordinary C 
 ## Deadlines and filing
 
 
-- **Return:** Form 500 due the **15th day of the 4th month** after year-end (15 April for calendar-year filers). (Booklet, "When and Where to File", read 2026-10-27.) (not yet confirmed)
+- **Return:** Form 500 due the **15th day of the 4th month** after year-end (15 April for calendar-year filers). (Booklet, "When and Where to File".)
 - **Extension:** Form 500E; extension of time to file only, **never more than 7 months** beyond the original due date; payment is still due at the original date. (Booklet, "Extension of Time to File", read 2026-10-27.)
 - **Estimated tax (Form 500D):** required if the corporation reasonably expects a Maryland tax over **$1,000**; four installments due the **4th, 6th, 9th and 12th months** of the year, at least **25% each**; total must be at least **90% of current-year tax or 110% of prior-year tax**. (Booklet, "Estimated Income Tax", read 2026-10-27.)
 - **Amended returns:** Form 500X has been combined with Form 500 -- check the amended box and refile the full return. IRS final determination increasing Maryland income: amend within **90 days**. (Booklet, read 2026-10-27.)
@@ -68,9 +70,9 @@ There is no Maryland surtax or franchise tax on top of the 8.25% for ordinary C 
 ## Penalties and interest
 
 
-- **Interest:** annual rate **11.4825%** for periods after 31 December 2024 (10.0075% for 2024). (Booklet, "Tax, Interest and Penalty", read 2026-10-27.) (not yet confirmed)
-- **Late filing / late payment:** a penalty applies; false, fraudulent or frivolous returns carry additional penalties, civil and criminal. The booklet does not print the percentage -- the statutory penalty (Tax-General §13-701, commonly up to 25% of tax due) is this run. (not yet confirmed)
-- **Estimated-tax underpayment:** additions apply when installments miss the 90%/110% safe harbor (Form 500D mechanics). (Booklet, read 2026-10-27.) (not yet confirmed)
+- **Interest:** annual rate **11.4825%** for taxes owed from 01/01/25 through 12/31/25 and **10.8133%** after 12/31/25 (0.9011% per month); 10.0075% applied for 2024. (Booklet, "Tax, Interest and Penalty".)
+- **Late filing / late payment:** Tax-General §13-701(a): a penalty **not exceeding 10% of the unpaid tax**. The 25% cap in §13-701(b)(1) applies only to alcoholic beverage, financial institution franchise, and tobacco taxes. False, fraudulent or frivolous returns carry additional penalties, civil and criminal.
+- **Estimated-tax underpayment:** additions apply when installments miss the 90%/110% safe harbor (Form 500D mechanics). (Booklet.)
 
 ## Cross-border points
 
@@ -83,7 +85,8 @@ There is no Maryland surtax or franchise tax on top of the 8.25% for ordinary C 
 ## Worked examples
 
 
-**Example 1 -- unistate C corporation.** A Maryland-only manufacturer has federal taxable income of $2,000,000 and no modifications. (not yet confirmed)
+### Worked example 1: Unistate C corporation
+A Maryland-only manufacturer has federal taxable income of $2,000,000 and no modifications.
 
 ```oa-check
 name: MD unistate corp tax
@@ -96,9 +99,10 @@ expected:
  tax: 165000.00
 ```
 
-Maryland tax: **$165,000**, due 15 April with Form 500D installments already made. (not yet confirmed)
+Maryland tax: **$165,000**, due 15 April with Form 500D installments already made.
 
-**Example 2 -- multistate corporation, single receipts factor.** A multistate seller has $5,000,000 modified income and a Maryland receipts factor of 0.125 ($10,000,000 Maryland receipts ÷ $80,000,000 total). (not yet confirmed)
+### Worked example 2: Multistate corporation, single receipts factor
+A multistate seller has $5,000,000 modified income and a Maryland receipts factor of 0.125 ($10,000,000 Maryland receipts ÷ $80,000,000 total).
 
 ```oa-check
 name: MD apportioned tax
@@ -130,26 +134,28 @@ expected:
  each: 25000.00
 ```
 
-Four payments of **$25,000** (Form 500D) at the 4th/6th/9th/12th-month dates. (not yet confirmed)
+Four payments of **$25,000** (Form 500D) at the 4th/6th/9th/12th-month dates.
 
 ## Ask the client first
 
 
 1. Is the entity part of a federal consolidated group? (Maryland still requires separate returns -- which members have Maryland nexus?)
 2. What apportionment method is in use -- single receipts factor, Special Apportionment Formula (rental/leasing, financial, transportation, worldwide HQ), or an approved Alternative formula?
-3. Are Form 500D installments tracking 90% of current year or 110% of prior year? (not yet confirmed)
+3. Are Form 500D installments tracking 90% of current year or 110% of prior year?
 4. Any P.L. 86-272 claim, and does the activity stay inside it?
 5. Any IRS examination closing that started the 90-day amended-return clock?
 
 ## Sources
 
 
-| Source | What it covers | Read on |
+| Source | URL | Read on |
 |---|---|---|
-| Md. Code, Tax-General §7-204 (rate) and §13-701 (penalty): -- statute pages did not resolve from the drafting environment on 2026-10-27. | internal skill reference | 2026-10-28 |
-| Form 500 / 500D / 500E instructions: referenced inside the booklet above (same fetch). | internal skill reference | 2026-10-28 |
+| Comptroller 2025 Corporation Income Tax Return Booklet (Form 500/500D/500E mechanics, interest rates, 90-day amend clock) | https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/corporate-booklet.pdf | 2026-10-31 |
+| Comptroller 2024 Corporation Income Tax Return Booklet (prior-year cross-check) | https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2024/Corporate-Booklet.pdf | 2026-10-31 |
+| Md. Code, Tax-General §10-105 (corporate rate 8.25%) | https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false | 2026-10-31 |
+| Md. Code, Tax-General §13-701 (late-payment penalty caps: 10% general, 25% alcohol/FI-franchise/tobacco) | https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=13-701&enactments=false | 2026-10-31 |
 
-Not yet confirmed: the statute text behind Tax-General §7-204 (corporate rate citation) and §13-701 (late-filing penalty percentage) -- the 8.25% rate itself is confirmed in the archived Tax-General §10-106(b)(1) and the 2024 Corporation Tax Booklet.
+Not yet confirmed: the Tax-General §7-204 statute text (not archived; Subtitle 7-2 is the inheritance tax subtitle, not the corporate rate -- the corporate rate sits at §10-105(b)).
 
 ## Talk to a verified accountant
 
