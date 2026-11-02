@@ -10,13 +10,13 @@ description: >
   transactions. Trigger on "California transfer pricing", "California
   combined report adjustment", "FTB unitary", "California addback",
   "cost of performance California", "water's edge California",
-  "intercompany California". Source-cited draft; 18 CCR §25110 read
-  2026-10-27.
+  "intercompany California". Source-cited draft; 18 CCR §25110 and
+  R&TC §25128.7 read 2026-11-01.
 jurisdiction: US-CA
 category: transfer-pricing
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-27
+last_updated: 2026-11-02
 version: 0.1
 verified_by: pending
 depends_on:
@@ -28,12 +28,13 @@ depends_on:
 ## Who this applies to
 Covers how California taxes intercompany and cross-border related-party
 income: unitary combined reporting, water's-edge boundaries, statutory
-add-backs, and sales sourcing. Primary verified source this run: 18
-CCR §25110 (Water's-Edge Group) via Cornell LII (200, 2026-10-27),
-which defines "unitary business" by reference to R&TC §25101 and
-federal unitary-combination case law. Statute sections cited below
-(§§25101, 25110, 25134) returned 403 to this agent from leginfo on
-2026-10-27 -- treat as pending verification.
+add-backs, and sales sourcing. Primary verified sources this run: 18
+CCR §25110 (Water's-Edge Group), archived 2026-11-01, which defines
+"unitary business" by reference to R&TC §25101 and unity of ownership,
+operation, and use; and R&TC §25128.7 (single sales factor), archived
+2026-11-01. Statute sections §§25101, 25105, 25109, 25110 and 25134
+are not archived in this pack (the leginfo §25128 page returned a
+JavaScript stub) -- treat those cites as pending verification.
 
 ## Rates, bands and thresholds
 | Mechanism | Effect | Source |
@@ -42,7 +43,7 @@ federal unitary-combination case law. Statute sections cited below
 | Water's-edge election | Excludes foreign affiliates; binding 5 years | R&TC §25109 (pending); 18 CCR §25110 (verified) |
 | §25110 add-back | Interest/rent/royalties to affiliated members added back | R&TC §25110 (pending) |
 | Sales sourcing | Tangible property: destination (purchaser location); other sales: cost of performance | R&TC §25134 (pending) |
-| Apportionment formula | Single sales factor | Prop 66 (2023+); R&TC §25128 (pending) |
+| Apportionment formula | Single sales factor for tax years beginning on or after 2013 | R&TC §25128.7: "shall be apportioned to this state by multiplying the business income by the sales factor" (archived 2026-11-01) |
 
 ## The taxable base
 - Combined apportionable income = group-wide unitary income with
@@ -70,8 +71,11 @@ federal unitary-combination case law. Statute sections cited below
 
 ## Cross-border points
 - Water's-edge boundary: U.S. + unitary-group members with U.S. nexus
-  stay in; combined-report-unitary and 25% common ownership tests
-  determine inclusions (18 CCR §25110 -- verified definitions).
+  stay in; inclusion turns on unitary-business status (unity of
+  ownership, operation, and use) and the affiliated-group tests in
+  18 CCR §25110, which use more than 50 percent common ownership of
+  voting stock by reference to R&TC §25105 -- there is no 25%
+  common-ownership inclusion test in §25110.
 - FDII/GILTI conformity: California has historically not conformed;
   verify current-year treatment in FTB legal notices.
 - Treaty non-application: the U.S.–income-tax treaties do not limit
@@ -82,6 +86,9 @@ federal unitary-combination case law. Statute sections cited below
   income.
 
 ## Worked examples
+
+### Worked example 1: Royalty add-back under R&TC §25110
+
 A California manufacturer pays $2,000,000 in royalties to an affiliated
 foreign licensor. The royalty is added back under §25110 (no exception
 established); apportioned California income rises by the add-back.
@@ -100,6 +107,8 @@ expected:
   apportioned_addback: 800000.00
   tax: 70720.00
 ```
+
+### Worked example 2: Cost-of-performance sourcing
 
 A services company earns $6,000,000 of service revenue; $4,500,000 of
 costs of performance are incurred in California, $1,500,000 elsewhere.
@@ -132,8 +141,10 @@ expected:
 ## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
+| 18 CCR section 25110 (Water's-Edge Group) | https://www.law.cornell.edu/regulations/california/18-CCR-25110 | 2026-11-01 |
+| R&TC section 25128.7 (single sales factor) | https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=25128.7 | 2026-11-01 |
 
-Not yet confirmed:  FTB -- Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB -- Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 8.84% rate, the 18 CCR §25110 water's-edge text cited from Cornell LII, and the R&TC §§25101, 25109, 25110, 25128 and 25134 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
+Not yet confirmed: the 8.84% franchise rate (FTB tax-rates page not archived with a sidecar in this pack), the water's-edge 5-year binding period (R&TC §25109), the §25110 add-back statute text, the §25134 cost-of-performance statute text, the R&TC §25101 and §25105 statute texts, and the FTB penalties-and-interest page.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for California combined-reporting and transfer-pricing questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
