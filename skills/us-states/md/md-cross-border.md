@@ -33,7 +33,7 @@ depends_on:
 
 Covers how Maryland taxes people and businesses that cross its border: individual part-year/nonresident filing (Form 505), the county-tax overlay for nonresidents (Special Nonresident Tax), the four reciprocal agreements, nonresident real-estate withholding, and the corporate cross-border posture. Out of scope: full resident computation (`md-income-tax`), employer withholding mechanics (`md-payroll`), corporate apportionment detail (`md-corporate-income-tax`, `md-transfer-pricing`).
 
-**Source status:** the Comptroller 2024 Corporation Tax Booklet (real-estate withholding reference) verified 200 and read 2026-10-27. The 2025 Form 505 instruction PDF returned 404 from the drafting environment -- Form 505 procedural specifics are; the 2.25% Special Nonresident Tax, county-rate range 2.25%–3.20%, and the DC/PA/VA/WV reciprocity list are corroborated by the existing tier-2 `md-payroll` skill (statutory cite Tax-General §10-106.1) and must be re-verified against the current 505 instructions before filing.
+**Source status:** the Comptroller 2024 Corporation Tax Booklet (real-estate withholding reference) verified 200 and read 2026-10-27. The 2025 Form 505 nonresident booklet, the Tax-General §10-106.1 statute text, the 2025 employer withholding guide, the 2025 resident booklet and the 2026 PV worksheet are archived in the evidence folder (read 2026-11-01). The 2.25% Special Nonresident Tax, county-rate range 2.25%–3.30%, and the DC/PA/VA/WV reciprocity list are confirmed against those sources.
 
 ## Rates, bands and thresholds
 
@@ -49,11 +49,11 @@ Covers how Maryland taxes people and businesses that cross its border: individua
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| State graduated rates (nonresidents pay on the MD-source share) | 2%–5.75% top for 2025 brackets per `md-payroll` | `md-payroll` skill, 2025 tables |
-| County tax (residents) | 2.25%–3.20% by county | `md-payroll` skill |
-| **Special Nonresident Tax** | **2.25%** flat on Maryland-source income, in lieu of county tax | Tax-General §10-106.1 via `md-payroll`; statute page |
+| State graduated rates (nonresidents pay on the MD-source share) | 2%–6.50% top (6.50% over $1,000,000 single; $2,000,000 joint) | 2026 PV worksheet, 2025 resident booklet |
+| County tax (residents) | 2.25%–3.30% by county | `md-payroll` skill |
+| **Special Nonresident Tax** | **2.25%** on Maryland-source income, in lieu of county tax; the statute sets the rate equal to the lowest county rate in effect | Tax-General §10-106.1(b); 2025 Form 505 booklet |
 | Reciprocity exemption | DC/PA/VA/WV residents' wages exempt from MD tax (income other than wages still MD-source taxable) | `md-payroll` skill |
-| Effective top combined for nonresidents | 5.75% + 2.25% = **8.00%** | `md-payroll` skill table |
+| Effective top combined for nonresidents | 6.50% + 2.25% = **8.75%** | 2026 PV worksheet + §10-106.1 |
 
 Base for Form 505: Maryland-source income, with the federal return attached; allocation of wages is day-based for most nonresidents (505 mechanics).
 
@@ -67,7 +67,7 @@ Base for Form 505: Maryland-source income, with the federal return attached; all
 ## Penalties and interest
 
 
-- Missed Maryland filing by a nonresident carries the ordinary regime: interest **11.4825%** annually after 2024 (Corporation Tax Booklet, read 2026-10-27 -- same statutory rate applies across Comptroller taxes), late-filing penalty up to 25% (Tax-General §13-701,). (not yet confirmed)
+- Missed Maryland filing by a nonresident carries the ordinary regime: interest **10.8133%** annually (0.9011% monthly) for periods after 2025 (2025 resident booklet, read 2026-11-01 -- same statutory rate applies across Comptroller taxes), late-filing penalty up to 10% (Tax-General §13-701(a)).
 - Employers who withhold Maryland tax for reciprocal-state residents instead of honoring the exemption create employee refunds, not entity penalties; employers who *fail* to withhold for nonreciprocal nonresidents face §13-704 assessments (per `md-payroll`).
 
 ## Cross-border points
@@ -81,7 +81,7 @@ Base for Form 505: Maryland-source income, with the federal return attached; all
 ## Worked examples
 
 
-**Example 1 -- PA commuter, reciprocity.** A Pennsylvania resident earns $120,000 working in Baltimore County, Maryland, all wages, 2026. (not yet confirmed)
+### Worked example 1: PA commuter, reciprocity A Pennsylvania resident earns $120,000 working in Baltimore County, Maryland, all wages, 2026.
 
 ```oa-check
 name: MD reciprocal exemption
@@ -94,9 +94,9 @@ expected:
  md_tax: 0.00
 ```
 
-Maryland tax **$0** with a valid MW507B exemption; PA taxes the wages. Without the exemption, Maryland would assess state rates + 2.25% and the commuter would need a refund claim.
+Maryland tax **$0** with a valid MW507B exemption; PA taxes the wages. Without the exemption, Maryland would assess state rates plus the 2.25% Special Nonresident Tax and the commuter would need a refund claim. [withholding guide](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/withholding/2025/Withholding-Guide.pdf)
 
-**Example 2 -- NY resident working 60 of 240 workdays in Maryland.** Wages $180,000; Maryland-source share by workdays. (not yet confirmed)
+### Worked example 2: NY resident working 60 of 240 workdays in Maryland Wages $180,000; Maryland-source share by workdays.
 
 ```oa-check
 name: MD nonresident wage allocation
@@ -104,17 +104,17 @@ inputs:
  wages: 180000
  md_days: 60
  total_days: 240
- state_top: 0.0575
+ state_top: 0.0650
  special: 0.0225
 steps:
  - md_source: wages * md_days / total_days
  - rough_tax: md_source * (state_top + special)
 expected:
  md_source: 45000.00
- rough_tax: 3600.00
+ rough_tax: 3937.50
 ```
 
-The $3,600 is an upper-bound at top marginal rates (Maryland's graduated brackets will compute lower); it shows the 8.00% combined exposure the client should model. New York credits taxes paid to Maryland subject to its own limits. (not yet confirmed)
+The $3,937.50 is an upper-bound at top marginal rates (Maryland's graduated brackets will compute lower); it shows the 8.75% combined exposure the client should model. New York credits taxes paid to Maryland subject to its own limits. [Form 505 booklet](https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf)
 
 ## Ask the client first
 
@@ -131,9 +131,12 @@ The $3,600 is an upper-bound at top marginal rates (Maryland's graduated bracket
 | Source | What it covers | Read on |
 |---|---|---|
 | Existing tier-2 skill `md-payroll` (county rates, §10-106.1 special nonresident tax, reciprocity list, §13-704): repo `skills/us-states/md/md-payroll.md`. | internal skill reference | 2026-10-28 |
-| Md. Code Tax-General §10-106.1: (statute mirror did not resolve 2026-10-27). | internal skill reference | 2026-10-28 |
+| Md. Code Tax-General §10-106.1 (Special Nonresident Tax = lowest county rate) | https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-106.1&enactments=false | 2026-11-01 |
+| Comptroller 2025 nonresident (Form 505) booklet (2.25% special nonresident tax, filing levels) | https://www.marylandtaxes.gov/content/dam/mdcomp/tax/instructions/2025/nonresident-booklet.pdf | 2026-11-01 |
+| Comptroller 2025 employer withholding guide (reciprocal states, MW507B, MW506NRS) | https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/withholding/2025/Withholding-Guide.pdf | 2026-11-01 |
+| Comptroller 2026 estimated-tax (Form PV) worksheet (county rates 2.25%–3.30%, brackets) | https://www.marylandtaxes.gov/content/dam/mdcomp/tax/forms/worksheets/2026-pv-worksheet.pdf | 2026-11-01 |
 
-Not yet confirmed: the 2025 Form 505 instruction PDF (404 on 2026-10-27), the Tax-General §10-106.1 statute text for the 2.25% Special Nonresident Tax, the MW506NRS waiver mechanics, the current MW507B reciprocity form number, and the §13-701 penalty percentage.
+Not yet confirmed: the MW506NRS waiver mechanics and the current MW507B form version (forms not archived).
 
 ## Talk to a verified accountant
 
