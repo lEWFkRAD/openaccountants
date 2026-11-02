@@ -6,15 +6,18 @@ not_applicable: []
 
 # Minnesota -- OpenAccountants Tax Skills
 
-**Source status (2026-10-25):** revisor.mn.gov statute pages for 268B.14 (PFML premiums), 290.17 (combined reporting), 289A.08 subd. 7 (composite returns) and 290.92 (nonresident withholding) verified HTTP 200 with statute text. Rate text of 290A.03 (MinnesotaCare) and penalty section 289A.21 render via JavaScript and carry **** caveats; figures are corroborated by the existing `mn-corporate-and-pte`, `mn-income-tax`, and `mn-payroll` skills.
+**Source status (updated 2026-11-02):** revisor.mn.gov statute text archived for 268B.14 (PFML premiums), 290.17 (combined reporting), 290.06 (corporate franchise tax, flat 9.8%), 295.52 (MinnesotaCare provider tax, 1.8% of gross revenues), 289A.08 subd. 7 (composite returns), 289A.60 (civil penalties) and 290.92 (withholding). Two earlier citations were wrong and are corrected pack-wide: 290A.03 is the Property Tax Refund Act (not the MinnesotaCare provider tax, which is M.S. 295.52), and there is no section 289A.21 (penalties are M.S. 289A.60, interest M.S. 289A.55). The maximum combined sales and use tax rate is 9.875% (St. Paul, DOR rate guide effective 2025-10-01 to 2025-12-31).
 
 ## Official sources
 
-- M.S. 268B.14 (PFML premiums): <https://www.revisor.mn.gov/statutes/cite/268B.14> -- 200 with text, 2026-10-25.
-- M.S. 290.17 (combined reporting): <https://www.revisor.mn.gov/statutes/cite/290.17> -- 200 with text, 2026-10-25.
+- M.S. 268B.14 (PFML premiums): <https://www.revisor.mn.gov/statutes/cite/268B.14> -- statute text archived 2026-11-02.
+- M.S. 290.17 (combined reporting): <https://www.revisor.mn.gov/statutes/cite/290.17> -- statute text archived 2026-10-31.
+- M.S. 290.06 (corporate franchise tax, flat 9.8%): <https://www.revisor.mn.gov/statutes/cite/290.06> -- statute text archived 2026-10-28, re-read 2026-11-02.
+- M.S. 295.52 (MinnesotaCare provider tax, 1.8% of gross revenues): <https://www.revisor.mn.gov/statutes/cite/295.52> -- statute text archived 2026-11-02.
 - M.S. 289A.08 (composite returns): <https://www.revisor.mn.gov/statutes/cite/289A.08> -- 200 with text, 2026-10-25.
-- M.S. 290.92 (nonresident withholding): <https://www.revisor.mn.gov/statutes/cite/290.92> -- 200 with text, 2026-10-25. (not yet confirmed)
-- M.S. 290A.03 (MinnesotaCare): <https://www.revisor.mn.gov/statutes/cite/290A.03> -- 200, 2026-10-25; rate text JS-rendered, ****.
+- M.S. 289A.60 (civil penalties): <https://www.revisor.mn.gov/statutes/cite/289A.60> -- statute text archived 2026-11-02.
+- M.S. 290.92 (withholding): <https://www.revisor.mn.gov/statutes/cite/290.92> -- statute text archived 2026-11-02.
+- DLI paid-leave premium poster (0.88% for 2026): <https://mn.gov/deed/assets/paid-leave-mandatory-employer-poster-acc_tcm1045-700342.pdf> -- read 2026-11-02.
 
 | Field | Value |
 |---|---|
@@ -31,7 +34,7 @@ not_applicable: []
 |---|---|
 | `mn-income-tax.md` | Individual income tax for self-employed / sole proprietors (Form M1) |
 | `mn-sales-tax.md` | Sales and use tax obligations and rates |
-| `mn-social-contributions.md` | PFML premiums (M.S. 268B.14, 2026: 0.7% both programs; small-employer relief) + MinnesotaCare overlay | (not yet confirmed)
+| `mn-social-contributions.md` | PFML premiums (M.S. 268B.14: 0.7% statutory both-programs rate, 0.88% department-adjusted for 2026; small-employer relief) + MinnesotaCare provider tax overlay (M.S. 295.52, 1.8% of gross revenues) |
 | `mn-transfer-pricing-combined-reporting.md` | Combined reporting / unitary business principle (M.S. 290.17) as Minnesota's connected-party regime |
 | `mn-cross-border-tax.md` | Schedule M1NR, composite returns (289A.08 subd. 7), nonresident-partner withholding (290.92, $1,000 exception) |
 
