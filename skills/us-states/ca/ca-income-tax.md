@@ -1,13 +1,13 @@
 ---
 name: ca-540-individual-return
-description: Tier 2 content skill for preparing California Form 540 (Resident Income Tax Return) for US sole proprietors and single-member LLCs who are California residents. Covers tax year 2025 California personal income tax including the Schedule CA (540) decoupling adjustments from federal AGI, California's non-conformity with OBBBA bonus depreciation and section 174 R&E expensing, the nine-bracket rate structure (1% through 12.3% plus the 1% Mental Health Services Tax surcharge above (not yet confirmed)M), standard and itemized deductions, California tax credits (renter's credit, CalEITC, young child tax credit), SDI/VPDI deduction, and California's own AMT. Defers estimated tax to ca-estimated-tax-540es, SMLLC franchise tax to ca-smllc-form-568, and health coverage mandate to ca-form-3853-coverage. MUST be loaded alongside us-tax-workflow-base v0.1 or later and us-federal-return-assembly. California full-year residents only.
-version: 0.2
+description: Tier 2 content skill for preparing California Form 540 (Resident Income Tax Return) for US sole proprietors and single-member LLCs who are California residents. Covers tax year 2025 California personal income tax including the Schedule CA (540) decoupling adjustments from federal AGI, California's non-conformity with OBBBA bonus depreciation and section 179 expensing, the nine-bracket rate structure (1% through 12.3% plus the 1% Behavioral Health Services Tax surcharge above $1,000,000), standard and itemized deductions, California tax credits (renter's credit, CalEITC, young child tax credit), SDI treatment, and California's own AMT. Defers estimated tax to ca-estimated-tax-540es, SMLLC franchise tax to ca-smllc-form-568, and health coverage mandate to ca-form-3853-coverage. MUST be loaded alongside us-tax-workflow-base v0.1 or later and us-federal-return-assembly. California full-year residents only.
+version: 0.3
 jurisdiction: US-CA
 tier: 2
-last_updated: 2026-06-12
+last_updated: 2026-11-02
 ---
 
-# CA 540 Individual Return Skill v0.2
+# CA 540 Individual Return Skill v0.3
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
@@ -15,7 +15,7 @@ last_updated: 2026-06-12
 
 **This file is a content skill that loads on top of `us-tax-workflow-base` v0.1.** It provides the California personal income tax computation rules for a full-year California resident sole proprietor or single-member LLC owner for tax year 2025. It does not provide workflow architecture -- that comes from the base. It does not compute California estimated tax (ca-estimated-tax-540es), SMLLC franchise tax (ca-smllc-form-568), or the individual mandate penalty (ca-form-3853-coverage) -- those are separate content skills.
 
-**Tax year coverage.** This skill is current for **tax year 2025** as of its currency date (April 2026). California did NOT conform to the One Big Beautiful Bill Act (OBBBA, P.L. 119-21) for several key provisions. All OBBBA decoupling points are documented in Section 5. For tax years before 2025, the skill must not be used without explicit verification. For tax years after 2025, bracket thresholds and standard deduction amounts will need updating.
+**Tax year coverage.** This skill is current for **tax year 2025** as of its currency date (November 2026). California conforms to the Internal Revenue Code as of January 1, 2025 for taxable years beginning on or after January 1, 2025 (R&TC section 17024.5(a)(1)(Q), as amended by SB 1435, Stats. 2026, Ch. 236). California has NOT conformed to the One Big Beautiful Bill Act (OBBBA, P.L. 119-21, approved July 4, 2025) for the key provisions listed in "The taxable base" below; FTB Publication 1001 (2025) states the R&TC does not conform to those changes. For tax years before 2025, the skill must not be used without explicit verification. For tax years after 2025, bracket thresholds and standard deduction amounts will need updating.
 
 **The reviewer is the customer of this output.** Per the base, this skill assumes a credentialed reviewer (Enrolled Agent, CPA, or attorney under Circular 230) reviews and signs the return.
 
@@ -33,7 +33,7 @@ For the following kinds of work:
 - Computing California adjusted gross income (CA AGI) from federal AGI using Schedule CA (540)
 - Identifying California additions (add-backs) and subtractions from federal AGI
 - Applying the nine-bracket California tax rate schedule
-- Applying the 1% Mental Health Services Tax (MHST) on taxable income above $1,000,000
+- Applying the 1% Behavioral Health Services Tax (formerly Mental Health Services Tax) on taxable income above $1,000,000
 - Determining standard deduction vs. itemized deductions (California-specific rules)
 - Computing California tax credits (renter's credit, CalEITC, young child tax credit, and others)
 - Computing California Alternative Minimum Tax (AMT) where applicable
@@ -55,475 +55,444 @@ This skill does NOT cover:
 
 **Tax year covered:** 2025 (California returns due April 15, 2026, or October 15, 2026 with extension).
 
-**Currency date:** April 2026.
+**Currency date:** November 2026.
 
-**Legislation reflected:**
+**Legislation and sources reflected:**
 - California Revenue and Taxation Code (R&TC) as in force for tax year 2025
-- SB 78 (2019) -- California individual mandate (Form 3853, handled by companion skill)
-- California's conformity position with the Internal Revenue Code as of January 1, 2015, with specified modifications (R&TC section 17024.5)
-- FTB Publication 1001 (2025) -- Supplemental Guidelines to California Adjustments
-- FTB Form 540 Instructions (2025)
-- FTB Schedule CA (540) Instructions (2025)
-- FTB Notice 2025-XX (2025 inflation adjustments) -- (verify exact notice number)
+- R&TC section 17024.5(a)(1)(Q): for taxable years beginning on or after January 1, 2025, California conforms to the IRC as of **January 1, 2025** (amended by Stats. 2026, Ch. 236 (SB 1435), effective September 14, 2026)
+- FTB 2025 Personal Income Tax Booklet (Form 540 instructions, tax rate schedules X and Y)
+- FTB Schedule CA (540) Instructions (2025), FTB Schedule P (540) and instructions (2025)
+- FTB Publication 1001 (2025) -- Adjustments to Income (federal acts California does not conform to)
+- FTB CalEITC and Young Child Tax Credit pages (2025 figures)
+- EDD Rates and Withholding (SDI 2025)
+- P.L. 119-21 (OBBBA) as enacted
 
-**Currency limitations:**
-- California conformity to the IRC is generally fixed at January 1, 2015 with selective post-2015 conformity enacted by specific California legislation. OBBBA provisions (July 4, 2025) are NOT conformed to unless California enacts separate legislation. As of the currency date, no such legislation has been enacted.
-- Some 2025 inflation-adjusted figures (brackets, standard deduction) are based on FTB announcements. Where the FTB has not yet published final figures, the skill uses projected amounts and flags them with "(verify 2025)".
+**Conformity note:** The FTB 2025 booklet states: "In general, for taxable years beginning on or after January 1, 2025, California law conforms to the Internal Revenue Code (IRC) as of January 1, 2025. However, there are continuing differences between California and federal law."
 
----
+### Tax rate schedule -- Single, Head of Household, Married Filing Separately (2025, Schedule X)
 
-### Section 3 -- Year-specific figures table for tax year 2025
-
-All dollar thresholds, rates, and indexed figures in one place.
-
-### Tax rate schedule -- Single, Head of Household, Married Filing Separately (verify 2025)
-
-| Bracket | Taxable income range (Single) | Rate |
+| Bracket | Taxable income range | Rate |
 |---|---|---|
-| 1 | $0 -- $10,756 | 1% |
-| 2 | $10,757 -- $25,499 | 2% |
-| 3 | $25,500 -- $40,245 | 4% |
-| 4 | $40,246 -- $55,866 | 6% |
-| 5 | $55,867 -- $70,612 | 8% |
-| 6 | $70,613 -- $360,659 | 9.3% | (not yet confirmed)
-| 7 | $360,660 -- $432,791 | 10.3% | (not yet confirmed)
-| 8 | $432,792 -- $721,314 | 11.3% | (not yet confirmed)
-| 9 | $721,315 and above | 12.3% | (not yet confirmed)
-| MHST | Above $1,000,000 | +1% (13.3% effective marginal) |
+| 1 | $0 -- $11,079 | 1% |
+| 2 | $11,079 -- $26,264 | 2% |
+| 3 | $26,264 -- $41,452 | 4% |
+| 4 | $41,452 -- $57,542 | 6% |
+| 5 | $57,542 -- $72,724 | 8% |
+| 6 | $72,724 -- $371,479 | 9.3% |
+| 7 | $371,479 -- $445,771 | 10.3% |
+| 8 | $445,771 -- $742,953 | 11.3% |
+| 9 | $742,953 and over | 12.3% |
 
-**Note:** Married Filing Jointly brackets are double the single brackets. The $1,000,000 MHST threshold is statutory and NOT doubled for MFJ. (verify 2025 -- historically California has NOT doubled the MHST threshold for MFJ; confirm current status.)
+**Note:** Married Filing Jointly / Qualifying Surviving Spouse brackets (Schedule Y) are double the single brackets (first bracket $0 -- $22,158 at 1%, second bracket starts at $22,158). The $1,000,000 Behavioral Health Services Tax threshold is statutory at one million dollars regardless of filing status (R&TC section 17043(a)) and is NOT doubled for MFJ.
 
-### Standard deduction (verify 2025)
+### Behavioral Health Services Tax (renamed from Mental Health Services Tax for taxable years beginning on or after January 1, 2025)
+
+- Additional tax of 1 percent on the portion of taxable income in excess of $1,000,000 (R&TC section 17043(a)).
+- The $1,000,000 threshold is not indexed and is not doubled for MFJ; it applies to the return's joint taxable income.
+- Reported on Form 540, line 62.
+
+### Standard deduction (2025)
 
 | Filing status | Standard deduction |
 |---|---|
-| Single / MFS | $5,540 |
-| MFJ / QSS / HOH | $11,080 |
+| Single / MFS | $5,706 |
+| MFJ / QSS / HOH | $11,412 |
 
-### California personal exemption credit (verify 2025)
+### California personal exemption credit (2025, Form 540 lines 7-10)
 
-| Filing status | Exemption credit |
+| Item | Credit |
 |---|---|
-| Single / MFS | $144 | (not yet confirmed)
-| MFJ / QSS | $288 | (not yet confirmed)
-| Each dependent | $433 | (not yet confirmed)
+| Personal exemption (line 7) | $153 each (MFJ/QSS enter 2, i.e. $306 combined) |
+| Blind exemption (line 8) | $153 each |
+| 65-or-older exemption (line 9) | $153 each |
+| Each dependent (line 10) | $475 |
 
-### Renter's credit (verify 2025)
+### Renter's credit (2025, nonrefundable, Form 540 line 46)
 
-| Filing status | Credit amount | CA AGI limit |
+| Filing status | Credit amount | CA AGI limit (Form 540 line 17) |
 |---|---|---|
-| Single / HOH / MFS | $60 | $50,746 |
-| MFJ / QSS | $120 | $101,492 |
+| Single | $60 | $53,994 or less |
+| MFS | $60 each if both qualify and lived together (or one claims $120); $60 if lived apart all year | $53,994 or less |
+| HOH / QSS | $120 | $107,988 or less |
+| MFJ | $120 | $107,988 or less |
 
-### CalEITC (verify 2025)
+Requires paying rent for at least half of 2025 on a California principal residence; a taxpayer who can be claimed as a dependent by another person does not qualify.
 
-| Figure | Value |
-|---|---|
-| Maximum earned income | $30,950 | (not yet confirmed)
-| Maximum credit (3+ children) | ~$3,529 | (not yet confirmed)
-
-### Young Child Tax Credit (YCTC) (verify 2025)
+### CalEITC (2025)
 
 | Figure | Value |
 |---|---|
-| Maximum credit per qualifying child under 6 | $1,117 | (not yet confirmed)
-| Income phaseout | Tied to CalEITC eligibility |
+| Maximum earned income to qualify | $32,900 |
+| Maximum credit, 0 qualifying children | $302 |
+| Maximum credit, 1 qualifying child | $2,016 |
+| Maximum credit, 2 qualifying children | $3,339 |
+| Maximum credit, 3 or more qualifying children | $3,756 |
 
-### California AMT
+CalEITC may provide cash back or reduce tax owed (refundable). ITIN holders are eligible.
 
-| Figure | Value |
-|---|---|
-| AMT rate | 7% (flat rate on AMTI less exemption) |
-| Exemption (single) | $93,666 (verify 2025) | (not yet confirmed)
-| Exemption (MFJ) | $124,876 (verify 2025) | (not yet confirmed)
-| Exemption phaseout rate | 25% of AMTI above threshold |
-
-### SDI/VPDI (verify 2025)
+### Young Child Tax Credit (YCTC) (2025)
 
 | Figure | Value |
 |---|---|
-| SDI rate | 1.1% |
-| SDI taxable wage ceiling | $153,164 (verify 2025) |
-| Maximum SDI withholding | $1,684.80 (verify 2025) | (not yet confirmed)
-| SDI deductibility on CA return | Deductible as itemized deduction (not above-the-line) |
+| Maximum credit per eligible tax return (child under 6) | $1,189 |
+| Earned income limit | $32,900 or less (CalEITC-linked) |
 
----
+### California AMT (Schedule P (540))
 
-### Section 4 -- Primary source library
-
-| Source | Use |
+| Figure | Value |
 |---|---|
-| R&TC section 17041 | Tax rate schedule |
-| R&TC section 17043 | Mental Health Services Tax (1% above $1M) |
-| R&TC section 17024.5 | IRC conformity date and modifications |
-| R&TC section 17201 et seq. | Itemized deductions |
-| R&TC section 17052 | CalEITC |
-| R&TC section 17052.1 | Young Child Tax Credit |
-| R&TC section 17053.5 | Renter's credit |
-| R&TC sections 17062, 17063 | Standard deduction |
-| R&TC section 17039 | Credit limitation (no credit reduces tax below tentative minimum tax) |
-| R&TC sections 17061, 17062 | Personal exemption credits |
-| R&TC section 17220 | SDI/VPDI deduction |
-| R&TC sections 17750-17756 | California AMT |
-| FTB Publication 1001 | Supplemental Guidelines to California Adjustments |
-| FTB Publication 1005 | Pension and Annuity Guidelines |
-| FTB Form 540 Booklet (2025) | Line-by-line instructions |
-| Schedule CA (540) Instructions (2025) | Addition and subtraction adjustments |
+| AMT rate | 7.0% of AMT income less exemption (Schedule P line 24) |
+| Exemption, single or HOH | $92,749 |
+| Exemption, MFJ / QSS | $123,667 |
+| Exemption, MFS | $61,830 |
+| Exemption phaseout | 25% of excess AMTI |
+
+The booklet flags AMT as possible when total income exceeds the exemption amounts above. AMT is reported on Form 540 line 61.
+
+### SDI / VPDI (2025)
+
+| Figure | Value |
+|---|---|
+| SDI withholding rate 2025 | 1.2% |
+| SDI taxable wage limit | None -- SB 951 removed the taxable wage limit and maximum withholdings effective January 1, 2024 |
+| SDI deductibility on CA return | NOT deductible on the California return (see "The taxable base") |
 
 ---
 
 ## The taxable base
 
-This is the critical section. California starts with federal AGI and adjusts it. Every OBBBA decoupling item must be identified and added back.
+This is the critical section. California starts with federal AGI and adjusts it on Schedule CA (540): Part I adjusts income to CA AGI (column A is the federal amount, column B is a CA addition, column C is a CA subtraction); Part II re-figures itemized deductions under California law. Use Schedule CA (540) to make adjustments to your federal adjusted gross income and to your federal itemized deductions using California law.
 
-### 5.1 -- California non-conformity with OBBBA (critical)
+### California non-conformity with OBBBA (P.L. 119-21)
 
-California conforms to the IRC generally as of January 1, 2015, with selective updates. California has NOT enacted conformity legislation for OBBBA (P.L. 119-21). The following OBBBA provisions claimed on the federal return must be ADDED BACK on Schedule CA (540):
+FTB Publication 1001 (2025) states that in general the R&TC does not conform to the changes under the federal acts listed in that publication, including the OBBBA items below. Because California's IRC conformity date for 2025 is January 1, 2025 (R&TC 17024.5(a)(1)(Q)) and OBBBA was approved July 4, 2025, these provisions are not conformed to absent separate California legislation.
 
 | Federal OBBBA provision | CA treatment | Schedule CA column |
 |---|---|---|
-| 100% bonus depreciation for property acquired after Jan 19, 2025 (OBBBA restored §168(k)) | CA does not conform. Use pre-OBBBA phase-down (40% for 2025). Add back the excess (60% of the bonus claimed federally). | Column B addition | (not yet confirmed)
-| §174 R&E expensing (if OBBBA modified the TCJA amortization requirement) | CA follows its own R&TC section 17024.5 conformity. If federal allows immediate expensing and CA requires 5-year amortization, add back the difference. | Column B addition |
-| §179 expensing limit increase to $2,500,000 (OBBBA) | CA §179 limit is $25,000 with $200,000 phase-out (R&TC §17255). Add back excess over CA limit. | Column B addition |
-| QBI deduction at 20% (§199A, made permanent by OBBBA) | CA does not allow the QBI deduction. Add back entire federal QBI deduction. | Column B addition | (not yet confirmed)
-| New tip income exclusion (OBBBA) | CA does not conform. Add back any excluded tip income. | Column B addition |
-| New overtime income exclusion (OBBBA) | CA does not conform. Add back any excluded overtime income. | Column B addition |
-| New auto loan interest deduction (OBBBA) | CA does not conform. Add back any deducted auto loan interest. | Column B addition |
-| New senior standard deduction (OBBBA) | CA uses its own standard deduction. No adjustment needed if using CA standard deduction; if using federal itemized and the senior provision affected itemized amounts, reconcile. | Varies |
+| 100% bonus depreciation for certain qualified property acquired and placed in service after January 19, 2025 (IRC 168(k)) | California does not conform. California allows no bonus depreciation; figure CA depreciation under California law and enter the excess of federal over CA depreciation on Part I line 12, column B. Track CA basis for future years (form FTB 3885A figures the adjustment). | Column B addition |
+| 100% depreciation election for qualified production property (IRC 168(n)) | California does not conform. | Column B addition |
+| Full expensing of domestic research and experimental expenditures | California does not conform; CA follows its own R&E treatment. | Column B addition |
+| Expansion of qualified small business stock gain exclusion | California does not conform to the expanded exclusion. | Column B addition |
+| Section 179 expensing | California allows a section 179 expense election up to $25,000, with a phaseout starting at $200,000 of property placed in service (Pub 1001). Add back the excess of federal section 179 over the CA amount. | Column B addition |
+| Federal SALT cap raised to $40,000 for 2025 ($40,400 for 2026) (IRC 164(b)(6)) | The federal cap only affects the federal itemized deduction. California itemizes under its own rules (below); no CA add-back of the federal cap itself. | n/a |
 
-### 5.2 -- Pre-OBBBA non-conformity items (ongoing)
+### QBI (IRC 199A) -- no add-back needed, but never apply it in CA
+
+The federal qualified business income deduction is a below-the-line deduction: it reduces federal taxable income, not federal AGI. Because Schedule CA starts from federal AGI, the QBI deduction never enters the CA computation and no add-back line is required. The CA error to avoid is applying a QBI-style deduction on the CA return -- California allows none.
+
+### Pre-OBBBA non-conformity items (ongoing, per Pub 1001 and Schedule CA instructions)
 
 | Federal item | CA treatment |
 |---|---|
-| Federal QBI deduction (§199A) | Not allowed in CA. Full add-back. |
-| HSA deduction (§223) | CA does not conform to federal HSA rules. Add back HSA deduction; HSA contributions and earnings are taxable in CA. |
-| Federal bonus depreciation (§168(k)) at rates above CA allowance | Add back excess. CA allowed 0% bonus for many years; check CA conformity for 2025. |
-| §179 excess over CA limit ($25,000) | Add back. |
-| SALT deduction cap ($10,000 federal under TCJA, modified by OBBBA) | CA has NO SALT cap. If taxpayer itemizes on CA return, full state/local taxes (other than CA income tax) are deductible. But CA income tax is never deductible on the CA return. |
-| Mortgage interest (federal $750K limit) | CA conforms to $1,000,000 limit (pre-TCJA). If mortgage exceeds $750K but is under $1M, the disallowed federal interest is a CA subtraction. |
-| Net operating loss | CA has its own NOL rules. CA NOL may differ from federal NOL. |
-| Educator expenses | CA conforms (verify 2025). |
-| Student loan interest | CA conforms (verify 2025). |
-| Moving expenses (military only federally) | CA allows moving expenses for all taxpayers (not just military). Subtraction for non-military movers. |
+| HSA (IRC 223) | California does not recognize HSAs. Employer HSA contributions (W-2 box 12 code W) are added on Part I line 1h column C; the federal HSA contribution deduction (Schedule 1 line 13) is added back on Part I line 13 column B; HSA interest/earnings are taxable in the year earned; a tax-free federal HSA distribution for qualified medical expenses is added back (line 8f column B area) and qualified expenses over 7.5% of federal AGI may go to Part II line 4 column C. |
+| Educator expenses | Federal law allows the deduction; California does not conform. Add back on Part I line 11 column B. |
+| Moving expenses | California does not conform to the TCJA suspension for non-military taxpayers; non-military movers complete form FTB 3913 and subtract on Part I line 14 column C. |
+| Bonus depreciation (pre-OBBBA phase-down too) | California does not conform to the IRC 168(k) additional first-year deduction; enter the federal-over-CA depreciation difference on Part I line 12 column B. |
+| Section 179 excess over CA limit ($25,000, phaseout at $200,000) | Add back the difference on Part I line 12 column B. |
+| Net operating loss | California suspended the NOL carryover deduction for taxable years beginning on or after January 1, 2024 and before January 1, 2027; NOLs may still be computed and carried over. Taxpayers with net business income or modified AGI under $1,000,000, or with disaster loss carryovers, are not affected by the suspension. |
+| Mortgage interest | Federal acquisition-debt limit is $750,000 ($375,000 MFS); California does not conform and keeps the $1,000,000 ($500,000 MFS) limit. If the federal deduction was limited, enter the amount over the federal limit on Part II line 8 column C. |
+| Alimony | For agreements executed after December 31, 2025 (or modified after that date), California conforms to the federal repeal of IRC 71/215; no adjustment for those. |
 
-### 5.3 -- Common subtractions (federal income taxed, CA excludes)
+### Common subtractions (federal income CA excludes)
 
 | Item | CA treatment |
 |---|---|
-| Social Security benefits | Not taxable in CA. Subtract any amount included in federal AGI. |
-| Railroad Retirement benefits (Tier 1) | Not taxable in CA. Subtract. |
-| CA lottery winnings | Not taxable in CA. Subtract. |
-| Military pay for active duty outside CA | Subtract under Servicemembers Civil Relief Act. |
+| Social Security benefits and Tier 1 railroad retirement | Excluded by California. Enter the taxable amount from federal AGI on Schedule CA Part I line 6 column B. |
+| California lottery winnings | Excluded; enter on Part I line 8b column B. Lottery winnings from other states ARE taxable by California. California lottery losses are not deductible (Part II line 16 column B). |
+| PFL (Paid Family Leave / Family Temporary Disability) benefits | Excluded; enter the 1099-G amount on Part I line 7 column B. |
+| Military pay | Servicemembers domiciled outside California (and spouses/RDPs) may exclude military compensation when computing the tax rate on nonmilitary income; military pay is not CA source income when permanently stationed outside California. See FTB Pub. 1032 -- flag for reviewer. |
 
----
-
-### Section 6 -- Deduction computation
-
-### 6.1 -- Standard vs. itemized
-
-The taxpayer may choose independently for California. A taxpayer who itemizes federally may take the CA standard deduction, and vice versa. However:
-
-- If MFS and spouse itemizes, the other spouse MUST also itemize on the CA return (R&TC section 17073.5).
-- CA standard deduction is much lower than federal ($5,540 single vs. $15,000 federal for 2025). Most self-employed taxpayers with mortgage interest, property tax, or charitable contributions will benefit from itemizing on the CA return.
-
-### 6.2 -- Itemized deduction differences from federal
+### Itemized deduction differences from federal (Schedule CA Part II)
 
 | Deduction | Federal rule | CA rule |
 |---|---|---|
-| State and local income tax | $10,000 SALT cap (TCJA/OBBBA) | Not deductible (cannot deduct CA income tax on CA return). Other states' income tax IS deductible. |
-| Property tax | Subject to $10,000 SALT cap | Fully deductible (no SALT cap in CA) |
-| Mortgage interest | $750,000 acquisition debt limit | $1,000,000 acquisition debt limit (R&TC section 17220) |
-| Home equity interest | Not deductible unless used for acquisition | Same as federal |
-| Charitable contributions | Up to 60% AGI (cash to public charities) | Same as federal (CA conforms) | (not yet confirmed)
-| Medical expenses | Above 7.5% of AGI | Above 7.5% of AGI (CA conforms) | (not yet confirmed)
-| Casualty losses | Only federally declared disasters | CA allows CA-declared disaster losses too |
-| Investment interest | Limited to net investment income | Same as federal |
-| Gambling losses | Limited to gambling winnings | Same as federal |
-| Miscellaneous itemized (2% floor) | Suspended by TCJA through 2025 | CA ALLOWS the 2% miscellaneous itemized deduction (CA did not conform to TCJA suspension). Employee business expenses, tax prep fees, etc. are deductible on the CA return subject to 2% AGI floor. |
+| State and local income tax | Deductible up to the federal SALT cap ($40,000 for 2025 under OBBBA) | NOT deductible on the CA return -- California disallows state and local income tax (including other states' income taxes), SDI/VPDI, and state and local general sales tax; enter the federal amount on Part II line 5a column B |
+| Property tax | Within the federal SALT cap | Deductible under CA rules (the CA disallowance above covers income, SDI, and general sales taxes, not property tax) |
+| Mortgage interest | $750,000 acquisition debt limit | $1,000,000 acquisition debt limit; excess-over-federal amount is a subtraction (line 8 column C) |
+| Charitable contributions | Up to 60% of AGI for cash to public charities | California limits the deduction to 50% of federal AGI; enter the difference on Part II line 11/12 column B. Conservation easements: CA limit 30% of federal AGI; CA carryover period 5 years vs federal 15 |
+| Medical expenses | Over 7.5% of AGI | Over 7.5% of federal AGI |
+| Casualty losses | Federally declared disasters | CA-declared disaster losses also allowed |
+| Miscellaneous itemized (2% floor) | Suspended federally | California does NOT conform to the suspension -- job expenses and certain miscellaneous deductions subject to the 2% floor are deductible (Part II lines 19-22) |
+| Gambling losses | Limited to winnings | Same, except California lottery losses are not deductible |
 
----
+### Standard vs. itemized election
 
-### Section 7 -- Tax computation
+The taxpayer may choose independently for California. A taxpayer who takes the federal standard deduction may itemize on the CA return, and vice versa. CA standard deduction for 2025 is $5,706 (single/MFS) or $11,412 (MFJ/QSS/HOH) -- far below the federal amount -- so self-employed taxpayers with mortgage interest, property tax, charitable gifts, or CA-allowed miscellaneous deductions usually benefit from CA itemizing.
 
-### 7.1 -- Regular tax
+### Tax credits
 
-1. Start with California taxable income (CA AGI minus deductions minus exemption credits basis).
-2. Apply the nine-bracket rate schedule from Section 3.
-3. Subtract personal exemption credits.
-4. Result is regular tax before credits.
+1. **Nonrefundable credits** (reduce tax, not below zero): personal/blind/elderly exemption credits ($153 each; $475 per dependent), renter's credit ($60/$120 within the AGI limits above), child and dependent care credit, and others.
+2. **Refundable credits** (can generate a refund): CalEITC, Young Child Tax Credit, Foster Youth Tax Credit.
 
-### 7.2 -- Mental Health Services Tax (MHST)
+CalEITC notes: available for wages or self-employment income; must file a CA return to claim even if no CA tax is owed; ITIN filers are eligible.
 
-- 1% surcharge on California taxable income exceeding $1,000,000. (R&TC section 17043)
-- The $1,000,000 threshold is NOT indexed for inflation.
-- The $1,000,000 threshold is NOT doubled for MFJ. Each spouse's income is NOT measured separately -- it is based on the joint taxable income.
-- MHST appears on Form 540 Line 62 (verify 2025 line reference).
+### SDI / VPDI treatment
 
-### 7.3 -- California AMT
+- SDI/VPDI withheld from wages is NOT deductible on the California return. If the taxpayer deducted state and local taxes (which include SDI) federally, the Schedule CA Part II line 5a column B addition removes that deduction for CA.
+- If the taxpayer takes the CA standard deduction, no separate SDI deduction arises.
 
-California has its own AMT computed on Schedule P (540):
+### Prohibitions
 
-1. Start with California taxable income.
-2. Add back AMT preference items (accelerated depreciation, ISO exercises, tax-exempt interest from private activity bonds, etc.).
-3. Subtract the AMT exemption (see Section 3).
-4. Apply the flat 7% CA AMT rate.
-5. AMT = excess of tentative minimum tax over regular tax.
-6. AMT is in addition to regular tax and MHST.
+**P-540-1.** NEVER apply a QBI-style deduction on the California return. California allows none; the federal QBI deduction needs no add-back only because it never enters federal AGI.
 
-**Key AMT triggers for sole proprietors:**
-- Large §179 or depreciation differences (CA §179 limit is $25,000 vs. federal $2,500,000)
-- ISO stock option exercises
-- Tax-exempt interest from out-of-state private activity bonds
+**P-540-2.** NEVER use federal bonus depreciation on the California return. California allows no bonus depreciation and caps section 179 at $25,000 with a phaseout starting at $200,000.
 
-### 7.4 -- Tax credits
+**P-540-3.** NEVER assume California conforms to OBBBA. Pub 1001 lists the non-conformed provisions; every OBBBA-specific federal deduction or exclusion must be evaluated for a CA add-back.
 
-Apply credits in the following order (R&TC section 17039):
+**P-540-4.** NEVER deduct state or local income tax (CA or other states'), SDI, or state and local general sales tax on the California return (Schedule CA line 5a column B).
 
-1. **Nonrefundable credits** (reduce tax to zero but not below):
-   - Personal exemption credits ($144 single, $288 MFJ, $433 per dependent) -- (verify 2025) (not yet confirmed)
-   - Renter's credit ($60 single / $120 MFJ if CA AGI below threshold)
-   - Child and dependent care credit (CA version)
-   - Other nonrefundable credits
+**P-540-5.** NEVER double the $1,000,000 Behavioral Health Services Tax threshold for MFJ filers.
 
-2. **Refundable credits** (can generate a refund):
-   - CalEITC (California Earned Income Tax Credit)
-   - Young Child Tax Credit (YCTC)
-   - Foster Youth Tax Credit (FYTC)
+**P-540-6.** NEVER exclude HSA contributions or earnings from California income.
 
-**CalEITC notes:**
-- Available to taxpayers with earned income from wages or self-employment.
-- Self-employment income DOES qualify for CalEITC (unlike some state EITCs).
-- Must file a CA return to claim even if no CA tax is owed.
-- ITIN filers are eligible (CA allows CalEITC for ITIN filers).
-
----
-
-### Section 8 -- SDI / VPDI deduction
-
-- SDI (State Disability Insurance) or VPDI (Voluntary Plan Disability Insurance) withheld from wages is deductible as an itemized deduction on the CA return.
-- SDI/VPDI is NOT deductible on the federal return (it is a state tax, subject to SALT cap federally, but on the CA return it gets its own treatment).
-- If the taxpayer takes the CA standard deduction, SDI/VPDI is not separately deductible.
-- For self-employed taxpayers who are also W-2 employees, SDI withheld from the W-2 job flows to Schedule CA as an itemized deduction.
-
----
-
-### Section 9 -- PROHIBITIONS
-
-**P-540-1.** NEVER apply the federal QBI deduction on the California return. California does not allow §199A. The full QBI amount must be added back on Schedule CA.
-
-**P-540-2.** NEVER use federal bonus depreciation rates on the California return without adjustment. California's §179 limit is $25,000 (not $2,500,000), and bonus depreciation conformity must be verified against R&TC section 17250.
-
-**P-540-3.** NEVER assume California conforms to OBBBA. As of the currency date, California has not enacted OBBBA conformity legislation. Every OBBBA-specific federal deduction or exclusion must be evaluated for CA add-back.
-
-**P-540-4.** NEVER deduct California state income tax as an itemized deduction on the California return. Only other states' income taxes are deductible on Schedule CA.
-
-**P-540-5.** NEVER double the $1,000,000 MHST threshold for MFJ filers. The threshold is $1,000,000 regardless of filing status.
-
-**P-540-6.** NEVER exclude HSA contributions or earnings from California income. California does not conform to IRC section 223. HSA contributions are added back, and HSA earnings are taxable in California.
-
-**P-540-7.** NEVER apply the federal $10,000 SALT cap on the California return. California has no SALT cap for its own itemized deduction computation.
+**P-540-7.** NEVER carry the federal SALT cap onto the California return; CA itemizes under CA rules.
 
 **P-540-8.** NEVER skip the Schedule CA reconciliation. Every federal-to-California adjustment must be documented and traced.
 
-**P-540-9.** NEVER compute AMT using the federal AMT rate (26%/28%). California AMT is a flat 7%.
+**P-540-9.** NEVER compute CA AMT using the federal AMT rates. California AMT is 7.0%.
 
-**P-540-10.** NEVER exclude Social Security benefits from the CA subtraction analysis. Social Security is fully exempt from CA tax and must be subtracted from federal AGI on Schedule CA.
+**P-540-10.** NEVER leave taxable Social Security in CA income. Subtract it on Schedule CA line 6 column B.
 
----
+### Self-checks
 
-### Section 10 -- Edge Cases
+**Check 200.** Schedule CA Part I starts from federal AGI -- verify the column A starting figure ties to the federal return.
 
-### EC-540-1 -- Taxpayer with large OBBBA bonus depreciation claim
+**Check 201.** Every OBBBA provision used federally has a corresponding Schedule CA addition where required.
 
-**Situation:** Sole proprietor purchased $200,000 of equipment on March 1, 2025 and claimed 100% bonus depreciation ($200,000) on the federal return under OBBBA-restored §168(k). (not yet confirmed)
+**Check 202.** HSA add-backs present if applicable (line 1h column C, line 13 column B).
 
-**Resolution:**
-- Federal deduction: $200,000 (100% bonus). (not yet confirmed)
-- CA allowable: 40% bonus = $80,000 (pre-OBBBA phase-down schedule for 2025). (verify 2025 CA bonus rate) (not yet confirmed)
-- Schedule CA addition: $120,000. (not yet confirmed)
-- CA must also track the remaining $120,000 basis for future CA depreciation deductions (Schedule D-1 or equivalent). (not yet confirmed)
-- **Flag for reviewer:** Confirm CA bonus depreciation rate for assets placed in service in 2025.
+**Check 203.** Behavioral Health Services Tax of 1% on taxable income over $1,000,000 computed (Form 540 line 62).
 
-### EC-540-2 -- High-income freelancer triggers MHST
+**Check 204.** Standard vs. itemized deduction is optimal on the CA return.
 
-**Situation:** Single filer with CA taxable income of $1,200,000. (not yet confirmed)
+**Check 205.** Social Security subtracted on line 6 column B if included in federal AGI.
 
-**Resolution:**
-- Regular tax computed on nine brackets through 12.3%. (not yet confirmed)
-- MHST: 1% x ($1,200,000 - $1,000,000) = $2,000.
-- Total marginal rate on income above $1M = 13.3%. (not yet confirmed)
-- **Flag for reviewer:** Verify MHST threshold is still $1,000,000 for 2025 (statutory, not indexed).
+**Check 206.** Section 179 / depreciation differences added back and CA basis tracked (FTB 3885A).
 
-### EC-540-3 -- MFJ couple with combined income just over $1M MHST threshold
+**Check 207.** CalEITC and YCTC evaluated when earned income is $32,900 or less.
 
-**Situation:** MFJ with combined CA taxable income of $1,050,000. One spouse earns $900,000, the other $150,000.
+**Check 208.** Schedule P (540) completed when AMT triggers exist (large depreciation differences, ISO exercises, private activity bond interest).
 
-**Resolution:**
-- MHST applies based on JOINT taxable income, not per-spouse.
-- MHST = 1% x ($1,050,000 - $1,000,000) = $500.
-- The threshold is NOT doubled to $2,000,000 for MFJ. (not yet confirmed)
-- **Flag for reviewer:** Taxpayers near the $1M threshold should consider timing strategies (accelerate deductions, defer income).
-
-### EC-540-4 -- HSA contributions add-back
-
-**Situation:** Taxpayer contributed $4,300 to an HSA and deducted it on federal Form 1040 Line 13 (via Schedule 1).
-
-**Resolution:**
-- CA does not recognize HSAs. Add back $4,300 on Schedule CA Column B.
-- HSA earnings (interest, dividends, capital gains inside the HSA) are also taxable in CA.
-- Distributions for medical expenses: taxable in CA unless the expense was not already deducted.
-- **Flag for reviewer:** Request HSA 1099-SA and 5498-SA to compute CA HSA income.
-
-### EC-540-5 -- Mortgage interest difference ($750K vs $1M)
-
-**Situation:** Taxpayer has a $900,000 mortgage (acquisition debt, pre-TCJA grandfathering does not apply). Federal deduction limited to interest on $750,000. CA allows interest on up to $1,000,000.
-
-**Resolution:**
-- Federal allowed: interest on $750,000 of the $900,000 mortgage. (not yet confirmed)
-- CA allowed: interest on $900,000 (under the $1M limit). (not yet confirmed)
-- Schedule CA subtraction: the disallowed federal interest (interest allocable to the $150,000 excess).
-- **Flag for reviewer:** Calculate the exact pro-rata interest allocation.
-
-### EC-540-6 -- Sole proprietor eligible for CalEITC
-
-**Situation:** Low-income sole proprietor with $25,000 net self-employment income, no W-2 wages, single filer.
-
-**Resolution:**
-- CalEITC is available for self-employment income (net earnings from self-employment).
-- Must have earned income within CalEITC range (up to $30,950 for 2025, verify). (not yet confirmed)
-- ITIN filers qualify.
-- CalEITC is refundable -- taxpayer may owe zero CA tax and still receive the credit.
-- Also check eligibility for Young Child Tax Credit if taxpayer has a child under 6.
-- **Flag for reviewer:** Verify earned income computation for CalEITC matches Schedule C net profit.
-
-### EC-540-7 -- 2% miscellaneous itemized deductions (CA allows, federal does not)
-
-**Situation:** Taxpayer has $3,000 in unreimbursed employee business expenses (from a side W-2 job) and $1,500 in tax preparation fees. Federal AGI is $80,000.
-
-**Resolution:**
-- Federal: $0 deduction (TCJA suspended 2% miscellaneous itemized through 2025, and OBBBA did not restore).
-- CA: 2% floor = $80,000 x 2% = $1,600. Total miscellaneous = $4,500. Deductible on CA = $4,500 - $1,600 = $2,900.
-- Schedule CA subtraction: $2,900.
-- **Flag for reviewer:** Verify that OBBBA did not change the federal suspension of 2% miscellaneous itemized deductions.
-
-### EC-540-8 -- Social Security recipient with self-employment income
-
-**Situation:** Taxpayer receives $18,000 in Social Security benefits (included in federal AGI per the 85% rule) and has $50,000 Schedule C net profit.
-
-**Resolution:**
-- Federal AGI includes up to 85% of Social Security = $15,300.
-- CA: Social Security is 100% exempt. Subtract $15,300 on Schedule CA Column C. (not yet confirmed)
-- CA AGI = Federal AGI minus $15,300 (plus any other adjustments). (not yet confirmed)
-- **Flag for reviewer:** Confirm exact amount of Social Security included in federal AGI.
-
-### EC-540-9 -- Taxpayer claims federal standard deduction but CA itemized is better
-
-**Situation:** Single filer takes the federal standard deduction ($15,000) but has $8,000 in property taxes, $6,000 in mortgage interest, and $2,000 in charitable contributions.
-
-**Resolution:**
-- Federal: standard deduction is higher ($15,000 > $16,000 itemized less SALT cap complications). (not yet confirmed)
-- CA standard deduction: only $5,540.
-- CA itemized: $8,000 property tax (fully deductible, no SALT cap) + $6,000 mortgage + $2,000 charitable = $16,000.
-- Taxpayer should itemize on CA return ($16,000 > $5,540).
-- The election is independent -- taxpayer CAN take federal standard and CA itemized.
-- **Flag for reviewer:** Confirm independent election is optimal.
+**Check 209.** CA filing status matches federal filing status (limited RDP exceptions).
 
 ---
 
-### Section 11 -- Test Suite
+## Deadlines and filing
 
-### Test 540-1 -- Basic single filer, no OBBBA complications
+- Form 540 for tax year 2025 is due **April 15, 2026**.
+- With an extension, the last day to file or e-file the 2025 return without the late-filing penalty is **October 15, 2026**; interest still runs from April 15, 2026.
+- Different dates apply to taxpayers living or traveling outside the United States (form FTB 3519).
+- The renter's credit can be claimed using CalFile; the Nonrefundable Renter's Credit Qualification Record is in the booklet.
 
-**Input:** Single, CA resident, federal AGI $85,000. No QBI. No bonus depreciation. No HSA. Standard deduction on CA return. (not yet confirmed)
-**Expected:** CA AGI = $85,000. CA taxable income = $85,000 - $5,540 = $79,460. Tax computed using brackets 1-6. Personal exemption credit of $144 applied. No MHST (under $1M).
+## Penalties and interest
 
-### Test 540-2 -- QBI add-back
+- **Delinquent filing penalty (individuals):** 5% of the amount due (after payments/credits made by the original due date) for each month or part of a month the return is late and unpaid, maximum 25% (R&TC 19131). If the balance due is $540 or less, the penalty is the lesser of $135 or 100% of the amount due.
+- **Late payment penalty:** 0.5% of unpaid tax per month or part of a month, not to exceed 40 months.
+- **Interest:** 7% for personal income tax under- and overpayments for 07/01/2025 - 06/30/2026 and 07/01/2026 - 12/31/2026 (8% for 01/01/2025 - 06/30/2025).
+- **Estimated tax penalty** and **demand penalty** also apply (see FTB penalties page); estimated tax detail is in `ca-estimated-tax-540es`.
 
-**Input:** Single, CA resident, federal AGI $120,000 after $20,000 QBI deduction. Actual Schedule C net profit = $100,000.
-**Expected:** Federal AGI includes QBI deduction reducing taxable income, but CA AGI must add back the $20,000 QBI deduction on Schedule CA. CA AGI = federal AGI + $20,000 QBI add-back. (Note: QBI deduction is below-the-line federally on Line 13, so it does not affect federal AGI. The add-back occurs on the CA taxable income computation, not AGI.) (not yet confirmed)
+## Cross-border points
 
-### Test 540-3 -- MHST computation
+- Other states' income taxes are NOT deductible on the California return (Schedule CA line 5a column B disallows state and local income tax generally) -- unlike many states, CA gives no credit-style deduction for another state's income tax at the itemized level.
+- The federal SALT cap ($40,000 for 2025, $40,400 for 2026) affects only the federal itemized deduction; CA itemizing ignores it.
+- Part-year residents and nonresidents file Form 540NR (out of scope here); the booklet says to stop and file 540NR if applicable.
+- Moving business property into California: depreciation methods and useful lives must be acceptable to California; if a pre-move method was unacceptable, use straight-line to compute basis (Pub 1001).
+- Community property / RDP computations use combined federal AGI for limitation purposes; flag RDP allocation for the reviewer.
 
-**Input:** Single, CA taxable income = $1,500,000. (not yet confirmed)
-**Expected:** Regular tax on $1,500,000 using nine brackets. MHST = 1% x ($1,500,000 - $1,000,000) = $5,000. Total tax = regular tax + $5,000 MHST.
+## Worked examples
 
-### Test 540-4 -- HSA add-back plus SDI deduction
+### Worked example 1: Single filer, CA taxable income $79,294 (2025)
 
-**Input:** Single, W-2 employee with side Schedule C. Federal AGI includes $4,300 HSA deduction. SDI withheld $1,684.80. Itemizing on CA return.
-**Expected:** Add back $4,300 HSA on Schedule CA. SDI of $1,684.80 included in CA itemized deductions. Net CA AGI adjustment = +$4,300. Itemized deductions include SDI.
+Single full-year resident, CA AGI $85,000, no adjustments, CA standard deduction $5,706, taxable income $79,294. Regular tax by brackets, then the $153 personal exemption credit.
 
-### Test 540-5 -- CalEITC with self-employment income
+```oa-check
+name: Single, taxable income 79294, 2025 Schedule X
+inputs:
+  ti: 79294
+steps:
+  - b1: min(ti, 11079) * 0.01
+  - b2: (min(ti, 26264) - 11079) * 0.02
+  - b3: (min(ti, 41452) - 26264) * 0.04
+  - b4: (min(ti, 57542) - 41452) * 0.06
+  - b5: (min(ti, 72724) - 57542) * 0.08
+  - b6: (ti - 72724) * 0.093
+  - tax: b1 + b2 + b3 + b4 + b5 + b6
+  - after_credit: tax - 153
+expected:
+  tax: 3812.98
+  after_credit: 3659.98
+```
 
-**Input:** Single, net self-employment income $22,000. One qualifying child age 4. No W-2 wages. ITIN filer. (not yet confirmed)
-**Expected:** Eligible for CalEITC based on $22,000 earned income. Eligible for Young Child Tax Credit (child under 6). Both credits are refundable. CA tax liability may be $0 with refundable credits generating a refund. ITIN status does not disqualify. (not yet confirmed)
+Cross-check against the booklet's Schedule X formula for the 9.3% bracket: $3,201.97 + 9.30% of the amount over $72,724 = $3,201.97 + $611.01 = $3,812.98.
 
-### Test 540-6 -- Independent deduction election (federal standard, CA itemized)
+### Worked example 2: High-income freelancer triggers the Behavioral Health Services Tax
 
-**Input:** Single, federal AGI $95,000. Takes federal standard deduction ($15,000). Has $9,000 property tax, $7,000 mortgage interest, $3,000 charitable.
-**Expected:** CA standard deduction = $5,540. CA itemized = $9,000 + $7,000 + $3,000 = $19,000 (no SALT cap, no CA income tax deduction needed). Taxpayer should itemize on CA ($19,000 > $5,540). Federal and CA elections are independent.
+Single filer, CA taxable income $1,200,000. Regular tax uses the 12.3% bracket over $742,953; the 1% surcharge applies to the excess over $1,000,000.
 
-### Test 540-7 -- Large §179 difference
+```oa-check
+name: Single, taxable income 1200000, BHST
+inputs:
+  ti: 1200000
+steps:
+  - reg: 72219.84 + (ti - 742953) * 0.123
+  - bhst: (ti - 1000000) * 0.01
+  - total: reg + bhst
+expected:
+  reg: 128436.62
+  bhst: 2000
+  total: 130436.62
+```
 
-**Input:** Single, claimed $500,000 §179 on federal return (within federal $2,500,000 limit). Equipment cost $500,000.
-**Expected:** CA §179 limit = $25,000. Add back $475,000 on Schedule CA. CA must depreciate the remaining $475,000 using regular MACRS over the applicable recovery period. Track CA basis adjustment going forward.
+The marginal rate on income above $1,000,000 is 12.3% plus the 1% surcharge.
 
----
+### Worked example 3: MFJ couple just over the $1,000,000 threshold
 
-### Section 12 -- Self-checks
+MFJ with combined CA taxable income of $1,050,000 (one spouse $900,000, the other $150,000). The surcharge is based on the JOINT taxable income; the threshold is not doubled and not measured per spouse.
 
-**Check 200 -- Federal AGI flows to Schedule CA.** Verify that federal AGI on Schedule CA Line 37 matches the federal Form 1040 Line 11.
+```oa-check
+name: MFJ joint taxable income 1050000, BHST
+inputs:
+  ti: 1050000
+steps:
+  - bhst: (ti - 1000000) * 0.01
+expected:
+  bhst: 500
+```
 
-**Check 201 -- Every OBBBA add-back is documented.** For each OBBBA provision used on the federal return, verify a corresponding Schedule CA addition exists.
+### Worked example 4: OBBBA bonus depreciation add-back
 
-**Check 202 -- QBI deduction is added back.** If federal return claims QBI (Form 8995 or 8995-A), verify the full amount is added back on the CA return.
+Sole proprietor placed $200,000 of equipment in service March 1, 2025 and claimed 100% federal bonus ($200,000). California allows no bonus depreciation; assume the CA MACRS year-one deduction is $40,000 (verify with FTB 3885A). The Schedule CA Part I line 12 column B addition is the federal-over-CA difference, and the remaining CA basis carries forward.
 
-**Check 203 -- HSA add-back present if applicable.** If federal return includes an HSA deduction, verify it is added back on Schedule CA.
+```oa-check
+name: Bonus add-back, 200000 equipment
+inputs:
+  fed_dep: 200000
+  ca_dep: 40000
+steps:
+  - addback: fed_dep - ca_dep
+  - ca_basis_forward: 200000 - ca_dep
+expected:
+  addback: 160000
+  ca_basis_forward: 160000
+```
 
-**Check 204 -- MHST computed if taxable income exceeds $1M.** If CA taxable income > $1,000,000, verify MHST of 1% on excess is included.
+### Worked example 5: Section 179 phaseout in California
 
-**Check 205 -- Standard vs. itemized deduction is optimal.** Verify the chosen deduction method produces the lower CA tax. Document if MFS forced itemization applies.
+Same taxpayer claimed $500,000 of federal section 179. CA maximum is $25,000, phased out dollar-for-dollar past $200,000 of property placed in service: the $300,000 excess wipes out the CA allowance entirely, so CA section 179 is $0 and the full $500,000 is added back (then depreciated under CA MACRS going forward).
 
-**Check 206 -- Social Security subtracted.** If federal AGI includes Social Security, verify it is subtracted on Schedule CA.
+```oa-check
+name: CA 179 phaseout, 500000 placed in service
+inputs:
+  cost: 500000
+  fed179: 500000
+steps:
+  - phaseout: max(0, cost - 200000)
+  - ca179: max(0, min(25000, 25000 - phaseout))
+  - addback: fed179 - ca179
+expected:
+  ca179: 0
+  addback: 500000
+```
 
-**Check 207 -- §179 and depreciation differences tracked.** If federal §179 or bonus depreciation exceeds CA limits, verify the add-back and the future-year CA depreciation schedule.
+### Worked example 6: Federal standard deduction, CA itemized
 
-**Check 208 -- CalEITC and YCTC evaluated.** If CA earned income is within CalEITC range, verify credit was computed. If qualifying child under 6, verify YCTC.
+Single filer, federal AGI $95,000, takes the federal standard deduction. Property tax $9,000, mortgage interest $7,000, charitable $3,000. CA itemized beats the CA standard deduction by a wide margin; the elections are independent.
 
-**Check 209 -- CA AMT evaluated.** If large depreciation differences, ISO exercises, or private activity bond interest exist, verify Schedule P (540) was completed.
+```oa-check
+name: CA itemized vs standard, single
+inputs:
+  prop: 9000
+  mort: 7000
+  char: 3000
+steps:
+  - ca_itemized: prop + mort + char
+  - advantage: ca_itemized - 5706
+expected:
+  ca_itemized: 19000
+  advantage: 13294
+```
 
-**Check 210 -- Filing status matches federal.** Verify CA filing status matches federal filing status (with limited exceptions for RDP).
+### Worked example 7: 2% miscellaneous itemized deductions (CA allows, federal does not)
 
----
+Taxpayer has $3,000 unreimbursed employee business expenses and $1,500 tax preparation fees; federal AGI $80,000. Federal deduction is $0 (suspended). CA applies the 2% floor and allows the excess as a Part II lines 19-22 subtraction.
 
-### Section 13 -- Cross-skill references
+```oa-check
+name: CA 2% misc deduction
+inputs:
+  agi: 80000
+  misc: 4500
+steps:
+  - floor_amt: agi * 0.02
+  - ded: misc - floor_amt
+expected:
+  floor_amt: 1600
+  ded: 2900
+```
 
-**Inputs from:**
-- `us-federal-return-assembly` -- federal AGI, federal tax, all federal positions
-- `us-sole-prop-bookkeeping` -- Schedule C line items
-- `us-schedule-c-and-se-computation` -- Schedule C net profit, depreciation details
-- `us-qbi-deduction` -- QBI deduction amount for add-back
-- `us-self-employed-health-insurance` -- SE health insurance deduction
-- `us-self-employed-retirement` -- retirement contribution deduction
+### Worked example 8: Social Security recipient with self-employment income
 
-**Outputs to:**
-- `ca-estimated-tax-540es` -- CA total tax for safe harbor computation
-- `ca-form-3853-coverage` -- CA AGI for penalty computation
-- `us-ca-return-assembly` -- Form 540 worksheet for final package
+Taxpayer receives $18,000 of Social Security, of which $15,300 (85%) is in federal AGI, plus $50,000 Schedule C net profit. California excludes Social Security entirely: subtract $15,300 on Schedule CA Part I line 6 column B.
 
----
+```oa-check
+name: SS subtraction, 18000 benefits
+inputs:
+  ss: 18000
+steps:
+  - subtract: ss * 0.85
+expected:
+  subtract: 15300
+```
 
-### Section 14 -- Known gaps
+### Worked example 9: Mortgage interest difference ($750K federal vs $1M CA)
+
+$900,000 acquisition mortgage. Federal deduction is limited to interest on $750,000; California allows interest on the full $900,000 (under its $1,000,000 limit). The interest allocable to the $150,000 excess is a CA subtraction on Part II line 8 column C. Flag the pro-rata allocation for the reviewer.
+
+### Worked example 10: Low-income sole proprietor, CalEITC + YCTC
+
+Single ITIN filer, net self-employment income $22,000 (all earned income), one child age 4. Earned income is within the $32,900 limit, so CalEITC (maximum $2,016 for one child) and YCTC ($1,189) apply; both can produce cash back even with zero CA tax.
+
+```oa-check
+name: CalEITC plus YCTC maxima, one child
+inputs:
+  cal_eitc_max: 2016
+  yctc: 1189
+steps:
+  - combined: cal_eitc_max + yctc
+expected:
+  combined: 3205
+```
+
+The actual CalEITC at $22,000 of earned income is below the maximum; compute from the FTB table.
+
+## Ask the client first
+
+- Where did you live and work all year? (Full-year CA resident vs 540NR territory.)
+- What depreciation did you claim federally -- bonus, section 179, R&E expensing? (Drives the largest Schedule CA additions.)
+- Do you have an HSA? (Add-backs and CA-taxable earnings.)
+- Did you receive Social Security, California lottery winnings, or PFL benefits? (Subtractions.)
+- Did you pay rent in California for at least half the year, and what is your CA AGI? (Renter's credit.)
+- Do you have children under 6, and is earned income $32,900 or less? (CalEITC/YCTC.)
+- Any ISO exercises, private activity bond interest, or large depreciation differences? (Schedule P AMT screen.)
+- Military domicile or stationing outside California? (Pub 1032 rules.)
+
+### Known gaps
 
 1. Part-year and nonresident returns (Form 540NR) are not supported.
 2. Community property rules for RDP/same-sex couples require reviewer judgment.
-3. California NOL carryforward/carryback rules are not fully detailed; flag for reviewer if taxpayer has prior-year CA NOLs.
-4. Specific CA disaster loss rules beyond general casualty loss are not covered.
-5. 2025 inflation-adjusted figures marked "(verify 2025)" must be confirmed against FTB final publications.
-6. California legislative response to OBBBA may change before the filing deadline; monitor FTB announcements.
+3. California NOL carryforward/carryback mechanics beyond the 2024-2026 suspension are not detailed.
+4. Specific CA disaster loss rules beyond the general casualty difference are not covered.
+5. California's legislative response to OBBBA may change; monitor FTB conformity updates.
+
+### Cross-skill references
+
+**Inputs from:** `us-federal-return-assembly`, `us-sole-prop-bookkeeping`, `us-schedule-c-and-se-computation`, `us-qbi-deduction` (for information only -- no CA add-back), `us-self-employed-health-insurance`, `us-self-employed-retirement`.
+
+**Outputs to:** `ca-estimated-tax-540es`, `ca-form-3853-coverage`, `us-ca-return-assembly`.
 
 ### Change log
 - **v0.1 (April 2026):** Stub.
 - **v0.2 (April 2026):** Full content skill with Schedule CA adjustments, OBBBA decoupling, brackets, credits, AMT, edge cases, and test suite.
+- **v0.3 (November 2026):** Deep-review corrections against archived FTB/EDD/leginfo sources: 2025 brackets, standard deduction, exemption credits, renter's credit, CalEITC/YCTC, AMT, SDI, conformity date, bonus/179 treatment, SALT and itemized rules; edge cases and tests rebuilt as worked examples.
 
 ### End of skill
 
@@ -533,39 +502,26 @@ Apply credits in the following order (R&TC section 17039):
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
-
-## Deadlines and filing
-
-Not yet confirmed against archived sources.
-
-## Penalties and interest
-
-Not yet confirmed against archived sources.
-
-## Cross-border points
-
-Not yet confirmed against archived sources.
-
-## Worked examples
-
-Not yet confirmed against archived sources.
-
-## Ask the client first
-
-Not yet confirmed against archived sources.
-
 ## Sources
-
-Not yet confirmed: unarchived figures listed below.
-
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| EDD -- Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
+| FTB 2025 Personal Income Tax Booklet (Form 540 instructions, Schedules X/Y) | https://www.ftb.ca.gov/forms/2025/2025-540-booklet.html | 2026-11-01 |
+| FTB Schedule CA (540) Instructions 2025 | https://www.ftb.ca.gov/forms/2025/2025-540-ca-instructions.html | 2026-11-01 |
+| FTB Form 540 (2025) | https://www.ftb.ca.gov/forms/2025/2025-540.pdf | 2026-11-01 |
+| FTB Schedule P (540) instructions 2025 | https://www.ftb.ca.gov/forms/2025/2025-540-p-instructions.html | 2026-11-01 |
+| FTB Schedule P (540) (2025) | https://www.ftb.ca.gov/forms/2025/2025-540-p.pdf | 2026-11-01 |
+| R&TC section 17024.5 (IRC conformity date) | https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17024.5 | 2026-11-01 |
+| R&TC section 17043 (1% tax over $1,000,000) | https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17043 | 2026-11-01 |
+| FTB CalEITC eligibility and credit information (2025) | https://www.ftb.ca.gov/file/personal/credits/caleitc/eligibility-and-credit-information.html | 2026-11-01 |
+| FTB Young Child Tax Credit (2025) | https://www.ftb.ca.gov/file/personal/credits/young-child-tax-credit.html | 2026-11-01 |
+| EDD Rates and Withholding (SDI 2025) | https://www.edd.ca.gov/Payroll_Taxes/Rates_and_Withholding.htm | 2026-11-01 |
+| FTB Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-11-01 |
+| FTB Interest and Estimate Penalty Rates | https://www.ftb.ca.gov/pay/penalties-and-interest/interest-and-estimate-penalty-rates.html | 2026-10-31 |
+| P.L. 119-21 (OBBBA) full text | https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm | 2026-11-01 |
 
-Not yet confirmed against archived sources.
+Not yet confirmed: the federal standard deduction for 2025 (commonly cited as $15,750) and the federal section 179 dollar limit for 2025 (commonly cited as $2,500,000) -- no archived federal-inflation source in this pack; the Schedule CA line number that carries total federal AGI (the instructions text archived here does not show it); FTB Publication 1001 (2025) was read from an archived copy that has no sidecar, so it is cited in the body but not listed above.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+This skill is general reference for AI-assisted preparation. A credentialed professional (CPA, EA, or attorney under Circular 230) must review and sign any California return prepared with it, especially where OBBBA add-backs, CA basis tracking, AMT, or RDP/community property issues appear.
