@@ -62,7 +62,17 @@ Remote-sale economic nexus: an out-of-state vendor with no physical presence mus
 ## Worked examples
 
 ### Worked example 1: Baltimore retail sale
-$1,000 sale in Baltimore City at the 6% state rate: 1000 * 0.06 = $60.00 tax.
+$1,000 sale in Baltimore City at the 6% state rate.
+
+```oa-check
+name: Baltimore retail sale, 6% state rate
+inputs:
+  price: 1000
+steps:
+  - tax: price * 0.06
+expected:
+  tax: 60.00
+```
 
 ## Ask the client first
 Where is the buyer located? Is the item exempt? Are you registered for out-of-state nexus?
