@@ -21,7 +21,7 @@ Virginia imposes a 6% flat corporate income tax under Va. Code §58.1-400, uncha
 
 ## Who this applies to
 
-This skill covers Virginia state-level corporate income tax under Va. Code §58.1, Chapter 3 (the archived chapter table of contents runs through Article 22; the provisions used here sit in Article 9 (partnerships), Articles 10 and 14 (corporate accounting and returns), Article 16.1 (pass-through entity withholding), and Article 20 (corporate estimated taxes)), the elective Pass-Through Entity tax under Va. Code §58.1-390.3, and the local Business, Professional, Occupational License (BPOL) tax under Va. Code §58.1-3700 et seq. It is intended for use by Virginia-based or Virginia-doing-business C-corporations, S-corporations, partnerships, and single-member LLCs with Virginia nexus, as well as out-of-state contractors performing work in Virginia jurisdictions.
+This skill covers Virginia state-level corporate income tax under Va. Code §58.1, Chapter 3, the elective Pass-Through Entity tax under Va. Code §58.1-390.3, and the local Business, Professional, Occupational License (BPOL) tax under Va. Code §58.1-3700 et seq. It is intended for use by Virginia-based or Virginia-doing-business C-corporations, S-corporations, partnerships, and single-member LLCs with Virginia nexus, as well as out-of-state contractors performing work in Virginia jurisdictions.
 
 ### 1.1 In scope
 
