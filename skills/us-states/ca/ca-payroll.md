@@ -1,6 +1,6 @@
 ---
 name: ca-payroll
-description: Tier 2 California content skill for employer payroll compliance covering tax year 2026. Includes the 2026 EDD withholding top band 14.630% over (not yet confirmed)M, SDI 1.3% with no wage cap (SB 951), Form DE 9/DE 9C quarterly returns, the CalSavers retirement mandate for 1+ employees, AB5 / ABC test contractor classification, DE 542 reporting for (not yet confirmed)+ contractors, supplemental wage withholding at 10.23%, ETT 0.1% on first (not yet confirmed) and SUI with (not yet confirmed) base and 1.5-6.2% experience-rated range (Schedule F+). Covers federal payroll interactions and CA labor-code wage statement requirements.
+description: Tier 2 California content skill for employer payroll compliance covering tax year 2026. Includes the 2026 EDD withholding top band 14.630% over $1,000,000, SDI 1.3% with no wage cap (SB 951), Form DE 9/DE 9C quarterly returns, the CalSavers retirement mandate for 1+ employees, AB5 / ABC test contractor classification, DE 542 reporting at the $600 threshold, supplemental wage withholding at 10.23%, ETT 0.1% on the first $7,000 and SUI with $7,000 base and 1.5-6.2% experience-rated range (Schedule F+). Covers federal payroll interactions and CA labor-code wage statement requirements.
 jurisdiction: US-CA
 tax_year: 2026
 version: 0.2
@@ -261,7 +261,7 @@ The DE 9 and DE 9C have a due date and a later delinquency date. A return is lat
 | 3rd (July, August, September) | October 1, 2026 | November 2, 2026 |
 | 4th (October, November, December) | January 1, 2027 | February 1, 2027 |
 
-Source: [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf), table "Report Quarter Due Delinquent if Not Filed By". The live version of this skill gave the third quarter as October 31 and the fourth quarter as January 31; for 2026 those dates fall on weekends, and EDD prints November 2, 2026 and February 1, 2027.
+Source: [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf), table "Report Quarter Due Delinquent if Not Filed By". For the third and fourth quarters of 2026 the plain delinquency dates (October 31 and January 31) fall on weekends, so EDD's table prints November 2, 2026 and February 1, 2027 under the weekend rule below.
 
 - **Weekend and holiday rule.** "If the Delinquent if Not Filed By date falls on a Saturday, Sunday, or legal holiday, the Delinquent if Not Filed By date is extended to the next business day." [DE 44](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf)
 
@@ -557,7 +557,7 @@ Rates, wage limits, schedules, due dates and penalties above are taken from the 
 
 ### 19. Circular 230 Disclosure and Reviewer Responsibility
 
-This skill is a content reference for credentialed payroll and tax professionals. It is NOT tax advice to the taxpayer. Under Treasury Department Circular 230 §10.33 and §10.37, any written advice based on this skill's output must be reviewed by a credentialed reviewer (Enrolled Agent, CPA, or attorney), or for purely state-payroll matters an experienced payroll practitioner with California-specific competence, before delivery to the client or filing with EDD, the Franchise Tax Board, or any other authority. (not yet confirmed)
+This skill is a content reference for credentialed payroll and tax professionals. It is NOT tax advice to the taxpayer. Under 31 CFR §10.37 (Requirements for written advice) -- not §10.33, which is only the advisory "Best practices for tax advisors" section -- written advice on a Federal tax matter must be based on reasonable factual and legal assumptions and relate applicable law to the facts; §10.35 separately requires competence. Any written advice based on this skill's output must be reviewed by a credentialed reviewer (Enrolled Agent, CPA, or attorney), or for purely state-payroll matters an experienced payroll practitioner with California-specific competence, before delivery to the client or filing with EDD, the Franchise Tax Board, or any other authority.
 
 Misapplication risk is high in three areas:
 
@@ -587,41 +587,83 @@ the OpenAccountants network.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+- 2026 PIT withholding top band: 14.630% of the excess over $1,000,000 (DE 44 withholding tables).
+- SDI: 1.3% for 2026, no taxable wage ceiling since SB 951 (EDD Rates and Withholding); 1.2% for 2025.
+- SUI: Schedule F+ for 2026, rates 1.5% to 6.2%, taxable wage limit $7,000 per employee per year; ETT 0.1% on the same $7,000 base (EDD Rates and Withholding).
+- DE 542 independent contractor reporting trigger: $600 paid or contracted, whichever is earlier (DE 44).
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+UI/ETT apply to the first $7,000 of each employee's wages per calendar year; SDI applies to all wages with no cap; PIT withholding follows the DE 44 tables by payroll period.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+DE 9/DE 9C quarterly: due the last day of the month after the quarter, delinquent one month later (2026: Apr 1/Apr 30, Jul 1/Jul 31, Oct 1/Nov 2, Jan 1 2027/Feb 1 2027); weekend/holiday delinquency dates roll to the next business day. Deposits per DE 231 (semi-monthly for most employers).
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+DE 542 late reporting: $24 per failure (EDD DE 542 FAQ); DE 44 sets paper-filing and deposit penalties; failure to report contractors can trigger assessments under AB 1109-era rules (see body section 11).
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+Remote workers physically performing services in California are CA employees for EDD purposes regardless of the employer's home state; reciprocal agreements do not change CA SDI/UI obligations for work performed in California.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+### Worked example 1: SDI on a biweekly paycheck (2026)
+
+Biweekly gross wages $3,000; SDI 1.3%, no cap.
+
+```oa-check
+name: SDI biweekly 2026
+inputs:
+  wages: 3000
+  rate: 0.013
+steps:
+  - sdi: wages * rate
+expected:
+  sdi: 39.00
+```
+
+### Worked example 2: Maximum SUI and ETT per employee (2026)
+
+Schedule F+ minimum rate 1.5% and ETT 0.1% on the $7,000 wage base.
+
+```oa-check
+name: SUI ETT wage base 2026
+inputs:
+  base: 7000
+  sui: 0.015
+  ett: 0.001
+steps:
+  - sui_tax: base * sui
+  - ett_tax: base * ett
+  - combined: sui_tax + ett_tax
+expected:
+  sui_tax: 105.00
+  ett_tax: 7.00
+  combined: 112.00
+```
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+- Are workers performing services physically in California (employee vs contractor under the ABC test)?
+- Are new hires (DE 34) and $600+ contractors (DE 542) being reported on time?
+- Which UI rate schedule applies this year, and is the account on Schedule F+?
+- Is the employer covered by CalSavers, and has the retirement-plan attestation been filed?
 
 ## Sources
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| EDD -- Rates and Withholding | https://edd.ca.gov/en/Payroll_Taxes/Rates_and_Withholding | 2026-10-28 |
-| EDD -- CA Employer's Guide 2026 (DE 44) | https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf | 2026-10-28 |
-| EDD -- Federal Unemployment Tax Act | https://edd.ca.gov/en/payroll_taxes/federal-unemployment-tax-act | 2026-10-28 |
+| EDD -- Rates and Withholding (2026/2025) | https://www.edd.ca.gov/Payroll_Taxes/Rates_and_Withholding.htm | 2026-11-01 |
+| EDD -- California Employer's Guide (DE 44) | https://edd.ca.gov/pdf_pub_ctr/de44.pdf | 2026-10-28 |
+| EDD -- DE 542 FAQ | https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de542faq.pdf | 2026-11-01 |
+| EDD -- Timely Payroll Tax Deposits (DE 231) | https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de231tp.pdf | 2026-11-01 |
+| 31 CFR part 10 subpart B (Circular 230 duties) | https://www.ecfr.gov/api/versioner/v1/full/2026-01-01/title-31.xml?part=10&subpart=B | 2026-11-01 |
+| DIR -- Minimum Wage FAQ | https://www.dir.ca.gov/dlse/faq_minimumwage.htm | 2026-11-01 |
 
-Not yet confirmed: all figures and rates in the body of this skill lack archived line-citations.
+Not yet confirmed: the CalSavers mandate details and the AB5/ABC test statutory text (not archived with a sidecar in this pack); the supplemental wage withholding rate 10.23% (the DE 44 tables archived here were not parsed for that flat rate).
 ## Talk to a verified accountant
 
 Not yet confirmed against archived sources.
