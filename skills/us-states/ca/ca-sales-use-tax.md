@@ -354,54 +354,54 @@ California sales tax has no federal-style "25% substantial understatement" exten
 
 ---
 
-### Section 9 -- Test suite
+### Section 9 -- Worked examples (test suite)
 
-### Test 1 -- Basic taxable sale in Los Angeles
+### Worked example test 1 -- Basic taxable sale in Los Angeles
 
 **Input:** Retailer sells a $1,000 TV in Los Angeles. Combined rate: 10.25%.
 **Expected:** Tax = $102.50. Total = $1,102.50.
 
-### Test 2 -- Grocery food exempt
+### Worked example test 2 -- Grocery food exempt
 
 **Input:** Customer purchases $200 of cold groceries (produce, dairy, bread) at a supermarket.
 **Expected:** Tax = $0. Grocery food is exempt.
 
-### Test 3 -- SaaS not taxable
+### Worked example test 3 -- SaaS not taxable
 
 **Input:** San Francisco business subscribes to cloud-based project management tool. $150/month. No download.
 **Expected:** Not taxable. Pure SaaS without download is not TPP in California.
 
-### Test 4 -- Economic nexus
+### Worked example test 4 -- Economic nexus
 
 **Input:** Oregon-based online seller has $600,000 in California sales. No physical presence. 50 transactions.
 **Expected:** Exceeds $500,000 threshold. Must register with CDTFA and collect California sales tax.
 
-### Test 5 -- Clothing fully taxable
+### Worked example test 5 -- Clothing fully taxable
 
 **Input:** Customer buys a $300 jacket in San Francisco. Rate: 8.625%.
 **Expected:** Tax = $25.88. No clothing exemption in California.
 
-### Test 6 -- Resale certificate
+### Worked example test 6 -- Resale certificate
 
 **Input:** Retailer purchases $15,000 of inventory from a CA wholesaler. Provides valid resale certificate.
 **Expected:** No tax. Retailer collects tax at point of resale.
 
-### Test 7 -- Use tax on out-of-state purchase
+### Worked example test 7 -- Use tax on out-of-state purchase
 
 **Input:** Los Angeles business purchases $5,000 of office furniture from an Oregon retailer. No tax collected.
 **Expected:** Use tax = $512.50 ($5,000 x 10.25%).
 
-### Test 8 -- Hot prepared food
+### Worked example test 8 -- Hot prepared food
 
 **Input:** Customer buys a $12 hot meal from a deli counter in Sacramento. Rate: 8.75%.
 **Expected:** Tax = $1.05. Hot prepared food is taxable.
 
-### Test 9 -- Manufacturing equipment partial exemption
+### Worked example test 9 -- Manufacturing equipment partial exemption
 
 **Input:** Manufacturer purchases a $200,000 production machine in San Jose. Used 100% in manufacturing.
 **Expected:** Partial exemption applies to state portion. District tax still applies. Effective tax rate is reduced compared to full combined rate.
 
-### Test 10 -- Canned software download
+### Worked example test 10 -- Canned software download
 
 **Input:** Business purchases a $500 canned software license via electronic download in San Diego. Rate: 7.75%.
 **Expected:** Tax = $38.75. Downloaded canned software is taxable as TPP.
@@ -519,8 +519,6 @@ expected:
 - Has CDTFA placed the account on a quarterly-prepayment basis?
 - Do remote or marketplace sales cross the $500,000 CA-delivered sales threshold?
 
-Not yet confirmed: the resale certificate form number CDTFA-230 (not shown in the archived sources); the expiration date of the former 0.25% State Education Protection Account component (commonly cited as 1-1-2017; the archived CDTFA description simply omits it); the record-retention period of 4 years in Section 7.4 (R&TC 6480 not archived in this pack).
-
 ## Sources
 
 | Source | URL | Read on |
@@ -537,6 +535,8 @@ Not yet confirmed: the resale certificate form number CDTFA-230 (not shown in th
 | R&TC 6591 (penalties and interest) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6591.html | 2026-11-01 |
 | R&TC 6484 (negligence penalty) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6484.html | 2026-11-01 |
 | R&TC 6485 (fraud penalty) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6485.html | 2026-11-01 |
+
+Not yet confirmed: the resale certificate form number CDTFA-230 (not shown in the archived sources); the expiration date of the former 0.25% State Education Protection Account component (commonly cited as 1-1-2017; the archived CDTFA description simply omits it); the record-retention period of 4 years in Section 7.4 (R&TC 6480 not archived in this pack).
 
 
 ## Talk to a verified accountant
