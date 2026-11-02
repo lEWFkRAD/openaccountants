@@ -1,10 +1,10 @@
 ---
 name: ca-form-3853-coverage
 description: Tier 2 California content skill for Form 3853 (Health Coverage Exemptions and Individual Shared Responsibility Penalty) for California residents under the state individual mandate enacted by SB 78 (2019) and codified at R&TC section 61000 et seq. Covers tax year 2025 including the penalty computation (greater of flat dollar amount or percentage of income), Minimum Essential Coverage (MEC) requirements using the federal ACA definition, month-by-month coverage analysis, exemption categories (affordability, short gap, religious conscience, hardship, and others), Covered California interaction, and reporting forms (1095-A, 1095-B, 1095-C). Defers income tax computation to ca-540-individual-return and estimated tax to ca-estimated-tax-540es. MUST be loaded alongside us-tax-workflow-base v0.1 or later. California residents only.
-version: 0.2
+version: 0.3
 jurisdiction: US-CA
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-11-02
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -15,7 +15,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## What this file is, and what it is not
 
-**This file is a content skill that loads on top of `us-tax-workflow-base` v0.1.** It provides the California individual mandate rules and Form 3853 preparation for tax year 2025. California reinstated the individual health coverage mandate effective January 1, 2020 under SB 78 (2019), codified in R&TC sections 61000-61130. This skill determines whether the taxpayer had qualifying coverage, whether an exemption applies, and if not, computes the Individual Shared Responsibility Penalty (ISRP).
+**This file is a content skill that loads on top of `us-tax-workflow-base` v0.1.** It provides the California individual mandate rules and Form 3853 preparation for tax year 2025. California reinstated the individual health coverage mandate effective January 1, 2020 under SB 78 (2019), codified in R&TC sections 61000-61050 (Part 32, added by Stats. 2019, Ch. 38). This skill determines whether the taxpayer had qualifying coverage, whether an exemption applies, and if not, computes the Individual Shared Responsibility Penalty (ISRP).
 
 **This skill does NOT compute the taxpayer's California income tax** (handled by `ca-540-individual-return`). It produces a Form 3853 worksheet and penalty amount that flows to Form 540.
 
@@ -49,7 +49,7 @@ This skill does NOT cover:
 
 **Legislation reflected:**
 - SB 78 (2019) -- California individual mandate
-- R&TC sections 61000-61130
+- R&TC sections 61000-61050 (Part 32, Individual Shared Responsibility Penalty)
 - Health and Safety Code section 100705 (Covered California)
 - 42 USC 18091 (federal ACA MEC definition, incorporated by reference)
 - FTB Form 3853 Instructions (2025)
@@ -68,7 +68,7 @@ This skill does NOT cover:
 | Flat dollar: family cap | $2,850 (3x adult amount) | R&TC section 61015 |
 | Percentage of income method | 2.5% of household income above the CA filing threshold | R&TC section 61015 |
 | Penalty = GREATER of flat dollar or percentage method | Per R&TC section 61015 |  |
-| Maximum penalty cap | Cannot exceed the statewide average premium for a bronze-level plan for the applicable household size (look up current FTB/Covered California cap at filing) | R&TC section 61015 |
+| Maximum penalty cap | Cannot exceed the statewide average annual premium for a bronze-level plan for the applicable household size. 2025 caps (FTB 2025 Form 3853 instructions): 1 person $4,524; 2 people $9,048; 3 people $13,572; 4 people $18,096; 5 or more $22,620 (monthly equivalent $377 per person) | R&TC section 61015(a)(2); FTB 2025 Form 3853 instructions |
 
 ### Filing thresholds for penalty computation (2025)
 
@@ -103,8 +103,6 @@ This skill does NOT cover:
 | R&TC section 61020 | Exemptions from the mandate |
 | R&TC section 61025 | Hardship exemptions |
 | R&TC section 61030 | Religious conscience exemption |
-| R&TC section 61100 | Reporting requirements |
-| R&TC section 61105 | Penalty assessment and collection |
 | 42 USC 18022 | Federal essential health benefits (bronze-level definition) |
 | 26 USC 5000A(f) | Federal MEC definition (incorporated by CA reference) |
 | FTB Form 3853 Instructions (2025) | Line-by-line preparation |
@@ -128,16 +126,16 @@ This skill does NOT cover:
 | Peace Corps volunteer coverage | Yes |
 | Self-funded student health plan | Yes (if meets MEC standards) |
 | Short-term limited duration insurance (STLDI) | No -- does NOT qualify as MEC |
-| Health care sharing ministry | No -- does NOT qualify as MEC in California |
+| Health care sharing ministry | No -- does NOT qualify as MEC in California; BUT members qualify for a coverage exemption (code "F") for months of membership |
 | Health savings account (HSA) alone | No -- not coverage |
 | Dental/vision only plans | No |
 
-- **MEC definition source** — California uses the federal ACA definition of Minimum Essential Coverage.  _(26 USC 5000A(f))_
+- **MEC definition source** -- California uses the federal ACA definition of Minimum Essential Coverage.  _(26 USC 5000A(f))_
 
 ### 5.2 -- Month-by-month analysis
 
-- **Monthly mandate assessment** — The mandate is assessed on a MONTHLY basis. For each month of 2025, for each household member: 1. Did the individual have MEC for that month? (Coverage for at least one day of the month counts as coverage for the full month.) 2. If no coverage, does an exemption apply for that month? 3. If no coverage and no exemption, a penalty is assessed for that month.
-- **Annual penalty proration** — The annual penalty is 1/12 of the annual amount, multiplied by the number of uncovered months (without exemption).
+- **Monthly mandate assessment** -- The mandate is assessed on a MONTHLY basis. For each month of 2025, for each household member: 1. Did the individual have MEC for that month? (Coverage for at least one day of the month counts as coverage for the full month.) 2. If no coverage, does an exemption apply for that month? 3. If no coverage and no exemption, a penalty is assessed for that month.
+- **Annual penalty proration** -- The annual penalty is 1/12 of the annual amount, multiplied by the number of uncovered months (without exemption).
 
 ## Section 6 -- Exemptions from the mandate
 
@@ -157,32 +155,33 @@ This skill does NOT cover:
 | **Members of Indian tribes** | Enrolled member or eligible for IHS services | Form 3853 Part III |
 | **Certain noncitizens** | Not required to file a tax return because of foreign-earned income exclusion | Form 3853 Part III |
 | **Coverage considered unaffordable** | Employer coverage is unaffordable (employee share > 7.28% of income) | Form 3853 Part III |
+| **Health care sharing ministry** | Member of a qualifying health care sharing ministry (tax-exempt org sharing medical expenses, in existence continuously and without interruption since December 31, 1999, or a predecessor) for at least 1 day in the month | Form 3853 Part III, code "F" for those months (FTB 2025 Form 3853 instructions) |
 
 ### 6.2 -- Short coverage gap rules
 
-- **Short coverage gap rules** — A "short coverage gap" is a continuous period of less than 3 months without MEC. Only ONE short gap exemption is allowed per calendar year. If the gap is 3 months or longer, no short-gap exemption applies, and the penalty is assessed for ALL months in the gap. A gap that spans two calendar years: count the months in each year separately.
+- **Short coverage gap rules** -- A "short coverage gap" is a continuous period of less than 3 months without MEC. Only ONE short gap exemption is allowed per calendar year. If the gap is 3 months or longer, no short-gap exemption applies, and the penalty is assessed for ALL months in the gap. A gap that spans two calendar years: count the months in each year separately.
 
 ### 6.3 -- Affordability exemption details
 
-- **Affordability exemption details** — Compare the annual premium for the lowest-cost bronze-level plan available through Covered California (for the taxpayer's household size and zip code) against 7.28% of household income for 2025. If the premium exceeds 7.28%, the taxpayer qualifies for the affordability exemption. Household income = MAGI (modified adjusted gross income) for all members of the tax household. The taxpayer can either self-certify on Form 3853 or obtain an ECN from Covered California.  _(https://www.ftb.ca.gov/file/personal/filing-situations/health-care-mandate/personal.html)_
+- **Affordability exemption details** -- Compare the annual premium for the lowest-cost bronze-level plan available through Covered California (for the taxpayer's household size and zip code) against 7.28% of household income for 2025. If the premium exceeds 7.28%, the taxpayer qualifies for the affordability exemption. Household income = MAGI (modified adjusted gross income) for all members of the tax household. The taxpayer can either self-certify on Form 3853 or obtain an ECN from Covered California.  _(https://www.ftb.ca.gov/file/personal/filing-situations/health-care-mandate/personal.html)_
 
 ## Section 7 -- Penalty computation
 
 ### 7.1 -- Method A: Flat dollar amount
 
-- **Method A: Flat dollar amount** — For each month without coverage and without exemption: 1. Count the number of unexempt individuals in the household. 2. Adults (18+): $950 per person per year (1/12 per month). 3. Children (under 18): $475 per person per year (1/12 per month). 4. Family cap: maximum flat dollar penalty = $2,850 per year (or 1/12 per month).  _(R&TC section 61015)_
+- **Method A: Flat dollar amount** -- For each month without coverage and without exemption: 1. Count the number of unexempt individuals in the household. 2. Adults (18+): $950 per person per year (1/12 per month). 3. Children (under 18): $475 per person per year (1/12 per month). 4. Family cap: maximum flat dollar penalty = $2,850 per year (or 1/12 per month).  _(R&TC section 61015)_
 
 ### 7.2 -- Method B: Percentage of income
 
-- **Method B: Percentage of income** — 1. Household income = CA AGI (or MAGI if different). 2. Filing threshold = CA filing threshold for the taxpayer's filing status. 3. Excess income = Household income - Filing threshold. 4. Percentage penalty = 2.5% x Excess income. 5. Prorate by the number of months without coverage (x months / 12).  _(R&TC section 61015)_
+- **Method B: Percentage of income** -- 1. Household income = CA AGI (or MAGI if different). 2. Filing threshold = CA filing threshold for the taxpayer's filing status. 3. Excess income = Household income - Filing threshold. 4. Percentage penalty = 2.5% x Excess income. 5. Prorate by the number of months without coverage (x months / 12).  _(R&TC section 61015)_
 
 ### 7.3 -- Final penalty
 
-- **Final penalty** — 1. Penalty = GREATER of Method A or Method B. 2. Cap: the penalty cannot exceed the statewide average annual premium for a bronze-level plan available through Covered California for the taxpayer's household size (2025 cap amount). 3. Prorate for partial-year exposure (months without coverage / 12).  _([R&TC section 61015](https://www.ftb.ca.gov/file/personal/filing-situations/health-care-mandate/personal.html))_
+- **Final penalty** -- 1. Penalty = GREATER of Method A or Method B. 2. Cap: the penalty cannot exceed the statewide average annual premium for a bronze-level plan available through Covered California for the taxpayer's household size (2025 cap amount). 3. Prorate for partial-year exposure (months without coverage / 12).  _([R&TC section 61015](https://www.ftb.ca.gov/file/personal/filing-situations/health-care-mandate/personal.html))_
 
 ### 7.4 -- Reporting on Form 540
 
-- **Reporting on Form 540** — The Form 3853 penalty amount flows to Form 540 line 92. The penalty is assessed as additional tax on the CA return. The penalty is NOT deductible on any return.  _(https://www.ftb.ca.gov/forms/2025/2025-540-instructions.html)_
+- **Reporting on Form 540** -- The Form 3853 penalty amount flows to Form 540 line 92. The penalty is assessed as additional tax on the CA return. The penalty is NOT deductible on any return.  _(https://www.ftb.ca.gov/forms/2025/2025-540-instructions.html)_
 
 ## Section 8 -- Reporting forms interaction
 
@@ -215,14 +214,14 @@ This skill does NOT cover:
 
 ## Section 9 -- PROHIBITIONS
 
-- **P-3853-1** — NEVER assume health care sharing ministries qualify as MEC in California. They do NOT. The federal exemption for health care sharing ministries under 26 USC 5000A(d)(2)(B) was relevant when the federal mandate had a penalty, but California's mandate does not recognize sharing ministries as MEC.  _(26 USC 5000A(d)(2)(B))_
-- **P-3853-2** — NEVER assume short-term limited duration insurance (STLDI) qualifies as MEC. It does NOT under federal or California definitions.
-- **P-3853-3** — NEVER allow more than one short coverage gap exemption per calendar year. Only one gap of less than 3 consecutive months is exempt.
-- **P-3853-4** — NEVER compute the penalty using federal filing thresholds. Use CALIFORNIA filing thresholds for the percentage-of-income method.
-- **P-3853-5** — NEVER skip Form 3853 when the taxpayer had coverage all year. If coverage was maintained for all 12 months for all household members, Form 3853 is not required (but the taxpayer should still check the full-year coverage box on Form 540).
-- **P-3853-6** — NEVER advise that the penalty is deductible. The ISRP is a penalty, not a tax or expense, and is not deductible on any federal or state return.
-- **P-3853-7** — NEVER confuse the California mandate with the federal mandate. The federal individual mandate penalty was reduced to $0 effective 2019 by TCJA. California's mandate is separate and independently enforced with real penalties.
-- **P-3853-8** — NEVER assume all household members have the same coverage status. Analyze each individual in the tax household separately, month by month.
+- **P-3853-1** -- NEVER assume health care sharing ministries qualify as MEC in California. They do NOT. The federal exemption for health care sharing ministries under 26 USC 5000A(d)(2)(B) was relevant when the federal mandate had a penalty, but California's mandate does not recognize sharing ministries as MEC.  _(26 USC 5000A(d)(2)(B))_
+- **P-3853-2** -- NEVER assume short-term limited duration insurance (STLDI) qualifies as MEC. It does NOT under federal or California definitions.
+- **P-3853-3** -- NEVER allow more than one short coverage gap exemption per calendar year. Only one gap of less than 3 consecutive months is exempt.
+- **P-3853-4** -- NEVER compute the penalty using federal filing thresholds. Use CALIFORNIA filing thresholds for the percentage-of-income method.
+- **P-3853-5** -- NEVER skip Form 3853 when the taxpayer had coverage all year. If coverage was maintained for all 12 months for all household members, Form 3853 is not required (but the taxpayer should still check the full-year coverage box on Form 540).
+- **P-3853-6** -- NEVER advise that the penalty is deductible. The ISRP is a penalty, not a tax or expense, and is not deductible on any federal or state return.
+- **P-3853-7** -- NEVER confuse the California mandate with the federal mandate. The federal individual mandate penalty was reduced to $0 effective 2019 by TCJA. California's mandate is separate and independently enforced with real penalties.
+- **P-3853-8** -- NEVER assume all household members have the same coverage status. Analyze each individual in the tax household separately, month by month.
 
 ## Section 10 -- Edge Cases
 
@@ -265,9 +264,9 @@ This skill does NOT cover:
 **Resolution:**
 - Method A (flat dollar): $950 (1 adult, no children).
 - Method B (percentage): 2.5% x ($300,000 - $22,941) = 2.5% x $277,059 = $6,926.48.
-- Penalty = greater of $950 or $6,926.48 = $6,926.48.
-- Cap: cannot exceed the statewide average annual bronze plan premium (2025 cap). If $6,926.48 is below the cap, the penalty is $6,926.48.
-- **Flag for reviewer:** Verify the applicable filing-threshold row and bronze plan cap for the taxpayer's household at filing.
+- Penalty = greater of $950 or $6,926.48 = $6,926.48 BEFORE the cap.
+- Cap: the penalty cannot exceed the 2025 statewide average annual bronze premium for the household size -- for 1 person that is $4,524 (FTB 2025 Form 3853 instructions; R&TC section 61015(a)(2)). $6,926.48 exceeds the cap, so the penalty is $4,524.
+- **Flag for reviewer:** Verify the applicable filing-threshold row and the bronze-plan cap for the taxpayer's household size at filing.
 
 ### EC-3853-5 -- Family with mixed coverage status
 
@@ -325,7 +324,7 @@ This skill does NOT cover:
 ### Test 3853-2 -- No coverage, single filer, moderate income
 
 **Input:** Single, CA AGI $60,000, no coverage all 12 months, no exemptions. Filing threshold $22,941 (single/under 65/no dependents gross-income threshold).
-**Expected:** Method A: $950. Method B: 2.5% x ($60,000 - $22,941) = $926.48. Penalty = greater = $950 flat amount. Cap: look up the bronze-plan cap. File Form 3853.
+**Expected:** Method A: $950. Method B: 2.5% x ($60,000 - $22,941) = $926.48. Penalty = greater = $950 flat amount. Cap for 1 person is $4,524 (2025) -- $950 is below it. File Form 3853.
 
 ### Test 3853-3 -- Short coverage gap (2 months)
 
@@ -335,12 +334,12 @@ This skill does NOT cover:
 ### Test 3853-4 -- Family, partial year uncovered
 
 **Input:** MFJ, 2 adults, 1 child (age 10). CA AGI $100,000. One adult uncovered for 6 months (July-December). Others covered all year.
-**Expected:** Method A (for uncovered months): $950/12 x 6 = $475. Method B: 2.5% x ($100,000 - $61,720) x (6/12) = 2.5% x $38,280 x 0.5 = $478.50. Penalty = greater = $478.50. Verify against the bronze-plan cap.
+**Expected:** Method A (for uncovered months): $950/12 x 6 = $475. Method B: 2.5% x ($100,000 - $61,720) x (6/12) = 2.5% x $38,280 x 0.5 = $478.50. Penalty = greater = $478.50. Cap for a 3-person household is $13,572 (2025) prorated to 6 months = $6,786 -- $478.50 is below it.
 
-### Test 3853-5 -- Health care sharing ministry (no MEC)
+### Test 3853-5 -- Health care sharing ministry (no MEC, but exempt)
 
 **Input:** Single, CA AGI $75,000, member of health sharing ministry all year. No other coverage.
-**Expected:** Sharing ministry does not qualify as MEC. No exemption applies. Method A: $950. Method B: 2.5% x ($75,000 - $22,941) = $1,301.48. Penalty = $1,301.48. Verify against the bronze-plan cap. File Form 3853.
+**Expected:** Sharing ministry does not qualify as MEC, BUT membership is itself a coverage exemption (code "F") for every month of membership (FTB 2025 Form 3853 instructions). Claim code "F" in Part III for all 12 months. Penalty = $0. File Form 3853 with the exemptions; no ISRP.
 
 ### Test 3853-6 -- Affordability exemption
 
@@ -363,7 +362,7 @@ This skill does NOT cover:
 
 **Check 246 -- Penalty flows to Form 540.** Verify the Form 3853 penalty amount appears on Form 540 line 92.
 
-**Check 247 -- Sharing ministries flagged.** If taxpayer reports a health sharing ministry, verify it is NOT treated as MEC and penalty is computed.
+**Check 247 -- Sharing ministries handled correctly.** If taxpayer reports a health sharing ministry, verify it is NOT treated as MEC and that the code "F" coverage exemption is claimed for membership months (penalty $0 for those months), not a penalty computation.
 
 **Check 248 -- STLDI flagged.** If taxpayer has short-term limited duration insurance, verify it is NOT treated as MEC.
 
@@ -380,15 +379,23 @@ This skill does NOT cover:
 ## Section 14 -- Known gaps
 
 1. Covered California premium amounts by zip code and household size are not embedded in this skill; they must be looked up at filing time.
-2. The statewide average bronze plan premium cap for 2025 must be verified against FTB/Covered California publications.
-3. Part-year residents require pro-rata analysis; this skill covers full-year residents primarily.
-4. The affordability percentage is indexed annually; this guide uses the FTB 2025 value of 7.28%.
-5. Hardship exemption determinations require case-by-case analysis beyond this skill's scope.
+2. Part-year residents require pro-rata analysis; this skill covers full-year residents primarily.
+3. The affordability percentage is indexed annually; this guide uses the FTB 2025 value of 7.28%.
+4. Hardship exemption determinations require case-by-case analysis beyond this skill's scope.
 
 ### Change log
 
 - **v0.1 (April 2026):** Stub.
 - **v0.2 (April 2026):** Full content skill with MEC definitions, exemptions, penalty computation, edge cases, and test suite.
+- **v0.3 (November 2026):** Deep-review corrections: Part 32 codification range 61000-61130 -> 61000-61050 (removed nonexistent 61100/61105); 2025 bronze-premium penalty caps added ($4,524 / $9,048 / $13,572 / $18,096 / $22,620); EC-3853-4 penalty capped at $4,524 not $6,926.48; health care sharing ministry is a coverage exemption (code F, existence since 12/31/1999) -- Test 3853-5 penalty is $0; filing thresholds and 7.28% affordability confirmed against FTB 2025 instructions.
+
+## Sources
+| Source | URL | Read on |
+| --- | --- | --- |
+| FTB 2025 Instructions for Form 3853 | https://www.ftb.ca.gov/forms/2025/2025-3853-instructions.pdf | 2026-11-01 |
+| R&TC §61015 (penalty amount; Part 32 heading [61000-61050]) | https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=61015. | 2026-11-01 |
+
+Not yet confirmed: the individual section numbers 61000, 61005, 61010, 61020, 61025, 61030 and their subject matter (only the Part 32 heading range [61000-61050] and §61015 text were archived here); Form 540 line number where the penalty is reported (line 92 is from the skill's prior text; the archived 3853 instructions do not state it); FTB Publication 3895B was not archived in this pack.
 
 ## End of skill
 
@@ -396,22 +403,6 @@ This skill does NOT cover:
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
-
-<!-- openaccountants-cta-block -->
-
----
-
 ## Talk to a verified accountant
-
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
-
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
+<!-- openaccountants-cta-block -->
+**Talk to a verified accountant** -- for California health-mandate questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
