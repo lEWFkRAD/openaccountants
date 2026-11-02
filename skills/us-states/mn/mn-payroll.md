@@ -3,7 +3,7 @@ name: mn-payroll
 description: Minnesota Payroll Compliance Skill (Tax Year 2025)
 jurisdiction: US-MN
 tax_year: 2025
-last_updated: 2026-10-28
+last_updated: 2026-11-02
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -121,7 +121,7 @@ The withholding base is Minnesota wages (Sections 3–4 below); the UI taxable w
 
 ## Penalties and interest
 
-Late withholding deposits, UI contributions, and returns attract the chapter 290/268 penalty and interest regimes (the §289A.21 schedule is not yet confirmed).
+Late withholding deposits, UI contributions, and returns attract the chapter 290/268 penalty and interest regimes, including the civil penalty and interest provisions of M.S. 289A.60 and 289A.55 -- chapter 289A has no section 289A.21 (chapter table of contents archived 2026-10-31).
 
 ## Cross-border points
 
@@ -182,12 +182,13 @@ Multi-state: GoodSoft has 3 remote employees outside Minnesota (1 in WI, 1 in ND
 
 | Source | Read on |
 | --- | --- |
-| Minn. Stat. §291.04 (withholding): <https://www.revisor.mn.gov/statutes/cite/291.04> -- statute text archived | 2026-10-28 |
+| Minn. Stat. §291.04: <https://www.revisor.mn.gov/statutes/cite/291.04> -- archived 2026-10-28; page renders no statute text and the section is not a current withholding rule (withholding is §290.92) | 2026-10-28 |
+| Minn. Stat. §290.92 (withholding): <https://www.revisor.mn.gov/statutes/cite/290.92> -- statute text archived | 2026-11-02 |
 | Minn. Stat. §297A.02 (sales/use tax context): <https://www.revisor.mn.gov/statutes/cite/297A.02> -- statute text archived | 2026-10-28 |
 | Minn. Stat. Chapter 290, Chapter 268, Chapter 268B, §181.032, §181.101, §181.13, §181.14, §181.722, §181.723, §181.9445–§181.9448, §326B, §177.41 et seq. -- cited in the skill; not yet archived | 2026-10-28 |
 | Minnesota DOR Withholding Instruction Booklet and Tax Tables (2025); DEED UI Employer Handbook (2025); DEED and DLI publications -- cited in the skill; not yet archived | 2026-10-28 |
 
-Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 per-allowance value, the $43,000 UI wage base and experience-rate ranges, the 0.44%/0.44% Paid Leave premium split dollar figures, and the 2026 Paid Leave wage base -- the DOR/DEED booklets and most statute sections are not yet archived.
+Not yet confirmed: the 2025 withholding bracket dollar thresholds, the ~$5,050 per-allowance value, the $43,000 UI wage base and experience-rate ranges, and the 2026 Paid Leave wage base -- the DOR/DEED booklets and most statute sections are not yet archived.
 
 ### Statutory and agency citations
 
@@ -353,13 +354,13 @@ This is one of the most operationally disruptive Minnesota employment law change
 
 ### 7.2 Premium rate and split
 
-- **2026 Paid Leave premium rate** -- 0.88% of taxable wages  _(Minnesota Statutes §268B.14)_ (not yet confirmed)
+- **2026 Paid Leave premium rate** -- 0.88% of taxable wages  _(Minnesota Statutes §268B.14; DLI paid-leave poster, "The initial premium rate is 0.88% of taxable wages", read 2026-11-02)_
 - **Employer share** -- 0.44% (mandatory)  _(Minnesota Statutes §268B.14)_
 - **Employee share** -- 0.44% (employer may, but is not required to, withhold from the employee's wages; employer may also elect to cover the employee share as a benefit)  _(Minnesota Statutes §268B.14)_
 
-This is the operative statutory split as of the 2024 amendments. (Earlier 2023 commentary using a 0.7% split of 0.35% / 0.35% reflected the original 2023 Act before the 2024 amendments adjusted the rate to fund the actuarial projection; the 2026 startup rate is the 0.88% / 0.44% / 0.44% schedule. Confirm against the DEED rate notice published in late 2025.)
+This is the operative statutory split as of the 2024 amendments. (Earlier 2023 commentary using a 0.7% split of 0.35% / 0.35% reflected the original 2023 Act before the 2024 amendments adjusted the rate to fund the actuarial projection; the 2026 startup rate is the 0.88% / 0.44% / 0.44% schedule, stated on the DLI paid-leave poster read 2026-11-02.)
 
-- **Statutory combined premium cap** -- 1.2% % combined (currently; Commissioner of DEED may set premium rate each year up to this cap based on actuarial soundness)
+- **Statutory combined premium cap** -- 1.1% of taxable wages ("In no year shall the annual premium rate exceed 1.1 percent of taxable wages paid to each employee", M.S. 268B.14 subd. 7, statute text read 2026-11-02)
 
 ### 7.3 Taxable wage base
 

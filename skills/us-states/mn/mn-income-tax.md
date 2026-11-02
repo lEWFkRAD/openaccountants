@@ -4,7 +4,7 @@ description: Use this skill whenever asked about Minnesota individual income tax
 version: "0.2"
 jurisdiction: US-MN
 tax_year: 2025
-last_updated: 2026-10-28
+last_updated: 2026-11-02
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -131,7 +131,7 @@ Form M1 is due April 15, 2027 for tax year 2026 (automatic 6-month extension wit
 
 ## Penalties and interest
 
-Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid M1 liability (M.S. 289A.21 -- not yet confirmed).
+Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid M1 liability (M.S. 289A.60 civil penalties and 289A.55 interest -- chapter 289A has no section 289A.21; chapter table of contents archived 2026-10-31).
 
 ## Cross-border points
 

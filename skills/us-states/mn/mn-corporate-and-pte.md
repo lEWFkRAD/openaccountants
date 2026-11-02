@@ -3,7 +3,7 @@ name: mn-corporate-and-pte
 description: Minnesota Corporate Franchise Tax and Pass-Through Entity Tax
 jurisdiction: US-MN
 tax_year: 2025
-last_updated: 2026-10-28
+last_updated: 2026-11-02
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -95,7 +95,7 @@ Minnesota taxable income starts from the federal tax base with the §290.0133/01
 
 ## Penalties and interest
 
-Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid corporate liabilities (M.S. 289A.25/.26 estimated-tax regime above; the §289A.21 penalty schedule is not yet confirmed).
+Late-file, late-pay, and accuracy penalties plus statutory interest apply to unpaid corporate liabilities (M.S. 289A.25/.26 estimated-tax regime above; civil penalties M.S. 289A.60 and interest M.S. 289A.55 -- chapter 289A has no section 289A.21, chapter table of contents archived 2026-10-31).
 
 ## Cross-border points
 
@@ -235,7 +235,7 @@ Cross-border and combined-reporting detail lives in `mn-transfer-pricing-combine
 | --- | --- |
 | Minn. Stat. §289A.08 (PTE election, subd. 7a): <https://www.revisor.mn.gov/statutes/cite/289A.08> -- statute text archived | 2026-10-28 |
 | Minn. Stat. §290.06 (corporate 9.8% / individual top 9.85%): <https://www.revisor.mn.gov/statutes/cite/290.06> -- statute text archived | 2026-10-28 |
-| Minn. Stat. §290A.03 (MinnesotaCare provider tax): <https://www.revisor.mn.gov/statutes/cite/290A.03> -- page archived; rate text JS-rendered | 2026-10-28 |
+| Minn. Stat. §295.52 (MinnesotaCare provider tax, 1.8% of gross revenues): <https://www.revisor.mn.gov/statutes/cite/295.52> -- statute text archived | 2026-11-02 |
 | Minn. Stat. §290 (chapter), §290.01, §290.0133–0134, §290.17, §290.191, §290.0921, §290.0922, §290.095, §290.21, §290.068, §289A.25, §289A.26, §290.033 -- cited in the skill; not yet archived | 2025-11-15 |
 | Session laws (2008 Ch. 366; 2021 Spec. Sess. Ch. 14; 2023 Ch. 64), DOR forms/instructions, case law, and reviewer signoff requirements -- see the Provenance detail below | 2025-11-15 |
 
