@@ -734,7 +734,7 @@ Before assembly, confirm with the client: legal residence and mailing address (D
 | 9 | Lansing L-1040 instructions (TY2025) | https://content.civicplus.com/api/assets/957f1f8b-a276-4316-80ea-14f66ad36c29?cache=1800 | 2026-11-01 |
 | 10 | IRS Form 1040 instructions (2025) | https://www.irs.gov/pub/irs-pdf/i1040gi.pdf | 2026-10-31 |
 
-Not yet confirmed: the dollar amounts inside the illustrative worked example are constructed facts, not figures tied out to an archived return; and the Section 1 metadata table lists statutes (MCL 141.501 et seq., IRS MeF) whose pages were not archived in the evidence set.
+Not yet confirmed: the dollar amounts inside the constructed worked example are made-up facts, not figures tied out to an archived return; and the Section 1 metadata table lists statutes (MCL 141.501 et seq., IRS MeF) whose pages were not archived in the evidence set.
 
 ## Disclaimer
 
