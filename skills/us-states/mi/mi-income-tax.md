@@ -99,7 +99,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **1. Self-employment income flow-through** -- Self-employment income flows through federal Schedule C → federal AGI → Michigan AGI. No separate Michigan schedule for self-employment income.
 - **2. Federal SE tax deduction** -- The 50% self-employment tax deduction is reflected in federal AGI. Michigan starts from federal AGI, so this carries through.
 - **3. Estimated taxes** -- Self-employed taxpayers must make quarterly estimated payments (Form MI-1040ES) if expected liability exceeds $500. Penalty applies for underpayment.
-- **4. Business equipment depreciation** -- Michigan generally conforms to federal depreciation, including IRC § 179. Michigan also conforms to bonus depreciation under IRC § 168(k).
+- **4. Business equipment depreciation** -- Michigan uses federal depreciation as a starting point, but P.A. 24 of 2025 requires adjustments separating from post-2024 federal rules: a net bonus depreciation adjustment using IRC § 168(k) as in effect 12/31/2024, and a § 179 adjustment on the same basis.
 - **5. Home office deduction** -- Flows through federal Schedule C; no separate Michigan adjustment.
 - **6. Health insurance deduction** -- The self-employed health insurance deduction is included in federal AGI. No Michigan add-back required.
 - **7. City income tax** -- If the taxpayer operates a business in a city with a city income tax (e.g., Detroit), a separate city income tax return may be required.
