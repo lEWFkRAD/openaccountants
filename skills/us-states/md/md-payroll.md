@@ -93,7 +93,7 @@ Maryland is unusual among US states in that the "local" income tax is administer
 | Cecil County | 2.74% |
 | Charles County | 3.03% |
 | Dorchester County | 3.30% |
-| Frederick County | graduated: top rate 3.20% (3.20% at taxable net income $250,001 or more) |
+| Frederick County | graduated: 2.25% / 2.75% / 2.96% / 3.20% (top rate 3.20%; for single/MFS/dependent filers 3.20% applies at taxable net income $150,001 or more) |
 | Garrett County | 2.65% |
 | Harford County | 3.06% |
 | Howard County | 3.20% |
@@ -154,12 +154,12 @@ Employers report and remit withheld Maryland income tax on Form MW-506. The depo
 | Less than $700 withheld per quarter | Quarterly | 15th day of the month following each quarter (April 15, July 15, October 15, January 15) |
 | More than $700 withheld in any one quarter | Monthly | 15th day of the following month |
 | $15,000 or more withheld for the preceding calendar year | Accelerated (remit within 3 business days of any payday with $700 or more accumulated withholding; monthly-waiver available) | per accelerated schedule |
-| New employer (first year) | Quarterly default | quarterly |
+| Seasonal employer (prior approval required) | Seasonal | only during the months the business operates |
 
 - **Electronic filing and zero returns** -- MW-506 returns should be filed electronically through the Comptroller's bFile system; even if no tax was withheld in a period, a zero return must be filed.  _(2025 Employer Withholding Guide)_
 - **MW-508 annual reconciliation** -- The annual reconciliation, Form MW-508, is due January 31 of the following year and transmits the Form W-2 for each employee with Maryland wages or withholding. For 2025 wages the MW-508 is due January 31, 2026. Employers filing fewer than 25 W-2s/1099s attach MW508CR to the paper MW508; accelerated filers use MW508A.  _(2025 Employer Withholding Guide, archived)_
 
-> AUDIT FLASH POINT -- frequency change not noticed. The Comptroller sets each employer's deposit frequency from the look-back period and notifies the employer; the new frequency takes effect January 1. An employer that crosses the $15,000 threshold and continues to file quarterly into the next year accrues underpayment penalties even if all tax is ultimately paid. Check the Comptroller's frequency notice and update the payroll calendar before January 1.
+> AUDIT FLASH POINT -- frequency change not noticed. The Comptroller sets each employer's deposit frequency from the look-back period and notifies the employer when the frequency changes. An employer that crosses the $15,000 threshold and continues to file quarterly into the next year accrues underpayment penalties even if all tax is ultimately paid. Check the Comptroller's frequency notice each year and update the payroll calendar.
 
 ### Maryland SUI (State Unemployment Insurance)
 
@@ -312,7 +312,7 @@ Other obligations for Jamal:
 2. SUI: Acme's 2025 new-employer rate is 2.60% (top of the 1.0%-2.6% new-employer range; the DOL 2025 rate table lists 2.60%). Wage base $8,500 means SUI is owed only on the first $8,500 of Jamal's 2025 wages, i.e., $221.00 of SUI for Jamal's first 8.5 weeks; nothing further for the rest of 2025. Reported on DLLR/DUI 15/16 quarterly.
 3. Sick & safe leave: Acme has 22 employees so it must provide PAID leave. Jamal accrues 1 hour per 30 hours worked. At 40 hours/week he accrues 40 × (1/30) = 1.333 hours per week, capped at 40 hours earned per year. The pay statement must show available hours.
 4. New hire reporting: Acme submits Jamal's data to MD-newhire.com within 20 days of his start date.
-5. MW-506: assume Acme is a new employer in 2025 -- quarterly default. First MW-506 covering Q1 2025 is due April 15, 2025 (quarterly returns are due the 15th day of the month following the quarter). Annual MW-508 + W-2s due January 31, 2026.
+5. MW-506: assume Acme is a quarterly filer (less than $700 withheld per quarter). First MW-506 covering Q1 2025 is due April 15, 2025 (quarterly returns are due the 15th day of the month following the quarter). Annual MW-508 + W-2s due January 31, 2026.
 
 ### Worked example 2: Montgomery County employer with Northern Virginia commuters
 
@@ -418,7 +418,7 @@ Before delivering a Maryland payroll computation or compliance memo to a reviewe
 
 Statutes and forms relied on in the body (archived copies on file): Md. Code Ann., Tax-General §10-103 through §10-106.1; §10-901 through §10-913; §13-604, §13-701, §13-704; COMAR 03.04.01.04; Md. Code Ann., Labor and Employment Title 8, §3-505, §3-507.2, §3-901 through §3-920, §3-1301 through §3-1311, §8-626.1; Form MW507 (2025); 42 U.S.C. §653a; 50 U.S.C. §4001.
 
-Not yet confirmed: the $100-per-W-2 / $50,000-annual-cap MW-508 penalty (the Comptroller knowledge base ties W-2 penalties to Tax-General §13-706, not §13-701, and the figures were not found in archived sources); the UI employer coverage/registration tests ($1,500 per quarter, 20 weeks, $1,000 domestic, $20,000/10 workers agricultural); the February 11, 2018 effective date of the Healthy Working Families Act; and BEACON replacing the legacy MABS system. Everything else above -- brackets, county rates, SUI wage base and rates, MW-506 filing categories and dates, MW-508 January 31 due date, MW507 line structure, DLLR/DUI 15/16 quarterly due dates, the $35-per-quarter and 1.5%-per-month UI charges, new-hire and misclassification penalties, and the worked-example arithmetic -- is confirmed by the archived primary and Comptroller/DOL sources in the table (read 2026-10-28 through 2026-11-02).
+Not yet confirmed: the $100-per-W-2 / $50,000-annual-cap MW-508 penalty (the Comptroller knowledge base ties W-2 penalties to Tax-General §13-706, not §13-701, and the figures were not found in archived sources); the UI employer coverage/registration tests ($1,500 per quarter, 20 weeks, $1,000 domestic, $20,000/10 workers agricultural); the default MW-506 filing frequency for a brand-new employer (the 2025 withholding guide does not state one); the February 11, 2018 effective date of the Healthy Working Families Act; and BEACON replacing the legacy MABS system. Everything else above -- brackets, county rates, SUI wage base and rates, MW-506 filing categories and dates, MW-508 January 31 due date, MW507 line structure, DLLR/DUI 15/16 quarterly due dates, the $35-per-quarter and 1.5%-per-month UI charges, new-hire and misclassification penalties, and the worked-example arithmetic -- is confirmed by the archived primary and Comptroller/DOL sources in the table (read 2026-10-28 through 2026-11-02).
 
 ## Talk to a verified accountant
 
