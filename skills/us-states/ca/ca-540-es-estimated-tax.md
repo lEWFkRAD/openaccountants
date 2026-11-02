@@ -21,7 +21,7 @@ last_updated: 2026-11-02
 
 ---
 
-## Section 1 -- Scope statement
+## Who this applies to
 
 This skill covers California Form 540-ES and related underpayment penalty analysis for tax year 2025 for taxpayers who are:
 
@@ -66,7 +66,7 @@ This skill does NOT cover:
 
 ---
 
-## Section 3 -- Year-specific figures table for tax year 2025
+## Rates, bands and thresholds
 
 ### Installment schedule
 
@@ -129,7 +129,7 @@ This skill does NOT cover:
 
 ---
 
-## Section 5 -- Determining whether estimated tax is required
+## The taxable base
 
 ### 5.1 -- General rule
 
@@ -159,7 +159,7 @@ If the taxpayer had no CA tax liability in the prior year (e.g., new CA resident
 
 ---
 
-## Section 6 -- The 30/40/0/30 installment schedule (detailed)
+## Deadlines and filing
 
 ### 6.1 -- How it works
 
@@ -208,13 +208,13 @@ Backup withholding (7% on 1099 payments) is withholding and is credited the same
 
 ---
 
-## Section 7 -- Underpayment penalty computation (Form 5805)
+## Penalties and interest
 
 ### 7.1 -- When the penalty applies
 
 A penalty applies if:
 - The taxpayer underpaid any installment relative to its required amount, AND
-- No exception applies (Section 7.3)
+- No exception applies (see 'Penalties and interest', 7.3)
 
 The penalty is computed as INTEREST on each underpayment from the installment due date to the earlier of:
 - The date the underpayment was cured (paid), or
@@ -251,7 +251,7 @@ If income was earned unevenly (e.g., large contract paid in Q4), the taxpayer ca
 
 ---
 
-## Section 8 -- Interaction with federal estimated tax
+## Cross-border points
 
 ### 8.1 -- Separate systems
 
@@ -301,7 +301,7 @@ California estimated tax and federal estimated tax are completely independent:
 
 ---
 
-## Section 10 -- Edge Cases
+## Worked examples
 
 ### EC-ES-1 -- Taxpayer pays equal quarters by mistake
 
@@ -432,7 +432,7 @@ California estimated tax and federal estimated tax are completely independent:
 
 ---
 
-## Section 12 -- Self-checks
+## Ask the client first
 
 **Check 250 -- 30/40/0/30 schedule used.** Verify that California installment percentages are 30/40/0/30, not 25/25/25/25.
 

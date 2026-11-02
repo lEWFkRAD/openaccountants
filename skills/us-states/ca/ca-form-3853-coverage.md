@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 **This skill does NOT compute the taxpayer's California income tax** (handled by `ca-540-individual-return`). It produces a Form 3853 worksheet and penalty amount that flows to Form 540.
 
-## Section 1 -- Scope statement
+## Who this applies to
 
 This skill covers California Form 3853 for tax year 2025 for taxpayers who are:
 
@@ -55,7 +55,7 @@ This skill does NOT cover:
 - FTB Form 3853 Instructions (2025)
 - Covered California / FTB joint guidance on exemptions
 
-## Section 3 -- Year-specific figures table for tax year 2025
+## Rates, bands and thresholds
 
 ### Penalty amounts (2025)
 
@@ -108,7 +108,7 @@ This skill does NOT cover:
 | FTB Form 3853 Instructions (2025) | Line-by-line preparation |
 | FTB Publication 3895B | Health Coverage Exemptions |
 
-## Section 5 -- Minimum Essential Coverage (MEC)
+## The taxable base
 
 ### 5.1 -- What qualifies as MEC
 
@@ -165,7 +165,11 @@ This skill does NOT cover:
 
 - **Affordability exemption details** -- Compare the annual premium for the lowest-cost bronze-level plan available through Covered California (for the taxpayer's household size and zip code) against 7.28% of household income for 2025. If the premium exceeds 7.28%, the taxpayer qualifies for the affordability exemption. Household income = MAGI (modified adjusted gross income) for all members of the tax household. The taxpayer can either self-certify on Form 3853 or obtain an ECN from Covered California.  _(https://www.ftb.ca.gov/file/personal/filing-situations/health-care-mandate/personal.html)_
 
-## Section 7 -- Penalty computation
+## Deadlines and filing
+
+Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individual return due date -- April 15 of the following year, subject to the automatic 6-month filing extension to October 15 discussed in ca-540-individual-return. There is no separate Form 3853 deadline and no estimated payment for the penalty; any individual shared responsibility penalty flows to Form 540 and is collected with the balance due.
+
+## Penalties and interest
 
 ### 7.1 -- Method A: Flat dollar amount
 
@@ -183,7 +187,7 @@ This skill does NOT cover:
 
 - **Reporting on Form 540** -- The Form 3853 penalty amount flows to Form 540 line 92. The penalty is assessed as additional tax on the CA return. The penalty is NOT deductible on any return.  _(https://www.ftb.ca.gov/forms/2025/2025-540-instructions.html)_
 
-## Section 8 -- Reporting forms interaction
+## Cross-border points
 
 ### 8.1 -- Form 1095-A (Health Insurance Marketplace Statement)
 
@@ -223,7 +227,7 @@ This skill does NOT cover:
 - **P-3853-7** -- NEVER confuse the California mandate with the federal mandate. The federal individual mandate penalty was reduced to $0 effective 2019 by TCJA. California's mandate is separate and independently enforced with real penalties.
 - **P-3853-8** -- NEVER assume all household members have the same coverage status. Analyze each individual in the tax household separately, month by month.
 
-## Section 10 -- Edge Cases
+## Worked examples
 
 ### EC-3853-1 -- Taxpayer with health care sharing ministry only
 
@@ -346,7 +350,7 @@ This skill does NOT cover:
 **Input:** Single, household income $40,000. Lowest bronze plan = $3,500/year. 7.28% x $40,000 = $2,912.
 **Expected:** $3,500 > $2,912. Coverage is unaffordable. Affordability exemption applies. No penalty. File Form 3853 claiming affordability exemption.
 
-## Section 12 -- Self-checks
+## Ask the client first
 
 **Check 240 -- Coverage status determined for every household member.** Verify that each individual in the tax household has a month-by-month coverage determination.
 
