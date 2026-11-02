@@ -3,7 +3,7 @@ name: minnesota-sales-tax
 description: Use this skill whenever asked about Minnesota sales and use tax. Trigger on phrases like "Minnesota sales tax", "MN sales tax", "M.S. 297A", "Minnesota DOR". NOTE -- Minnesota EXEMPTS clothing. ALWAYS load us-sales-tax first.
 jurisdiction: US-MN
 tax_year: 2025
-last_updated: 2026-10-28
+last_updated: 2026-11-02
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -25,8 +25,8 @@ Sellers with Minnesota nexus -- a physical presence or economic nexus ($100,000 
 | --- | --- |
 | Jurisdiction | Minnesota |
 | State rate | 6.875% |
-| Local rate range | 0% -- ~2% | (not yet confirmed)
-| Maximum combined rate | ~8.875% |
+| Local rate range | 0% -- stacked local taxes reach their highest level in St. Paul: 1.00% city + 1.50% county + 0.50% transit (DOR Local Sales and Use Tax Rate Guide, effective 2025-10-01 to 2025-12-31, read 2026-11-01) |
+| Maximum combined rate | 9.875% (St. Paul; DOR Local Sales and Use Tax Rate Guide, effective 2025-10-01 to 2025-12-31, read 2026-11-01) |
 | Sourcing | Destination-based (SST) |
 | Economic nexus | $100,000 OR 200 transactions |
 | Tax authority | Minnesota Department of Revenue (MNDOR) |
@@ -60,7 +60,7 @@ Periodic sales and use tax returns are filed through the Minnesota Revenue e-Ser
 
 ## Penalties and interest
 
-Late-file, late-pay and accuracy penalties plus statutory interest apply to underpaid sales and use tax (M.S. 289A.21 -- not yet confirmed).
+Late-file, late-pay and accuracy penalties plus statutory interest apply to underpaid sales and use tax (M.S. 289A.60 civil penalties, statute text archived 2026-11-02; interest under M.S. 289A.55 per the chapter 289A table of contents archived 2026-10-31).
 
 ## Cross-border points
 
@@ -83,8 +83,11 @@ No worked examples yet -- this skill's standing rule is to state rates and taxab
 | --- | --- |
 | M.S. 297A.02 (tax base, rates, clothing exemption): <https://www.revisor.mn.gov/statutes/cite/297A.02> -- statute text archived | 2026-10-28 |
 | M.S. 297A.03 (use tax): <https://www.revisor.mn.gov/statutes/cite/297A.03> -- statute text archived | 2026-10-28 |
+| M.S. 289A.60 (civil penalties): <https://www.revisor.mn.gov/statutes/cite/289A.60> -- statute text archived | 2026-11-02 |
+| DOR Local Sales and Use Tax Rate Guide (Q4 2025): <https://www.revenue.state.mn.us/sites/default/files/2025-09/local-sales-and-use-tax-rate-guide-2025-q4.pdf> | 2026-11-01 |
+| DOR Local Sales and Use Taxes page: <https://www.revenue.state.mn.us/book/export/html/18421> | 2026-11-01 |
 
-Not yet confirmed: the 6.875% state rate, local rate range, ~8.875% combined cap, and the $100,000 / 200-transaction economic-nexus thresholds (DOR pages not yet archived).
+Not yet confirmed: the $100,000 / 200-transaction economic-nexus thresholds (DOR remote-sellers page not yet archived).
 ## Disclaimer
 
 
