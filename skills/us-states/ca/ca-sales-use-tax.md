@@ -4,7 +4,7 @@ description: Use this skill whenever asked about California sales and use tax, C
 version: 2.1
 jurisdiction: US-CA
 tier: 2
-last_updated: 2026-10-28
+last_updated: 2026-11-02
 ---
 
 # California Sales and Use Tax Skill v2.1
@@ -18,9 +18,9 @@ last_updated: 2026-10-28
 | Jurisdiction | California, United States |
 | Jurisdiction code | US-CA |
 | Tax type | Sales and Use Tax + District Taxes |
-| State base rate | 7.25% (minimum statewide) -- CDTFA Pub 109: "The current statewide sales and use tax rate is 7.25 percent, which includes 1.25 percent of local taxes (1.00 percent Local Jurisdiction and .25 percent Local Transportation Fund)." |
-| Local add-on range | 0.10% -- 3.25% district taxes |
-| Maximum combined rate | ~10.25% -- 10.75% (parts of Los Angeles, Alameda) |
+| State base rate | 7.25% statewide base rate -- CDTFA: "Components of the Statewide 7.25% Sales and Use Tax Rate" (see Section 4.1 breakdown) |
+| District add-on range | 0.10% -- 2.00% per district; "Counties, cities, and towns in California may impose one or more district taxes" (R&TC 7261), so multiple districts can stack in one area |
+| Maximum combined rate | 11.75% (e.g., Palmdale and Lancaster, Los Angeles County) per the CDTFA city/county rate list effective 2026-10-01 |
 | Sourcing | Destination-based (district taxes by ship-to address) |
 | Economic nexus | $500,000 in total sales (revenue only, no transaction count) |
 | Nexus test type | Revenue only -- highest threshold tied with Texas |
@@ -31,7 +31,7 @@ last_updated: 2026-10-28
 | Return form | CDTFA-401-A (quarterly/monthly); CDTFA-401-EZ (small sellers) |
 | Filing frequencies | Monthly, quarterly, annual (assigned by CDTFA) |
 | Quarterly deadlines | Last day of month following quarter (Apr 30, Jul 31, Oct 31, Jan 31) |
-| Prepayment | Required if average monthly tax liability exceeds $17,000 | (not yet confirmed)
+| Prepayment | Required if estimated measure of tax liability averages $17,000 or more per month and CDTFA notifies you (quarterly prepayment basis, R&TC 6471) |
 | Vendor discount | None -- California does not offer a vendor collection allowance |
 | Federal framework skill | us-sales-tax (read first for Wayfair, nexus overview, multi-state context) |
 | Skill version | 2.0 |
@@ -53,7 +53,7 @@ Before performing any California sales tax work, collect the following:
 | 5 | Primary business address / point of sale location? | Needed for district tax rate determination on counter sales |
 | 6 | Ship goods to California customers? From where? | Destination-based sourcing for district taxes |
 | 7 | Sell food, software/SaaS, or manufacturing equipment? | Special exemption or taxability rules |
-| 8 | Average monthly tax liability exceed $17,000? | Prepayments due 24th of first and second month of quarter | (not yet confirmed)
+| 8 | Average monthly tax liability exceed $17,000? | Prepayments due 24th of first and second month of quarter (R&TC 6471) |
 
 **If the client cannot answer questions 1-3, STOP and gather this information before proceeding.**
 
@@ -154,28 +154,34 @@ This is the deterministic taxability lookup. When a transaction matches a patter
 
 ### 4.1 State rate components
 
-| Component | Rate |
-|---|---|
-| State General Fund | 3.9375% | (not yet confirmed)
-| State Fiscal Recovery Fund | 0.25% |
-| Local Revenue Fund (county) | 1.0625% | (not yet confirmed)
-| Local Public Safety Fund | 0.50% |
-| County Transportation Fund | 0.25% |
-| State Education Protection Account | 0.25% |
-| Proposition 30/55 Fund | 1.00% |
-| **Total statewide minimum** | **7.25%** |
+| Component | Rate | Purpose / authority |
+|---|---|---|
+| State General Fund | 3.6875% | R&TC 6051, 6201 |
+| State General Fund (additional) | 0.25% | R&TC 6051.3, 6201.3 |
+| Local Public Safety Fund | 0.50% | Local criminal justice activities (1993); Cal. Const. art. XIII, section 35 |
+| Local Revenue Fund | 0.50% | Local health and social services (1991 Realignment); R&TC 6051.2, 6201.2 |
+| Local Revenue Fund 2011 | 1.0625% | R&TC 6051.15, 6201.15 |
+| County transportation funds | 0.25% | Local component; R&TC 7202, 7203 |
+| City or county operations | 1.00% | Local component; R&TC 7202, 7203 |
+| **Total statewide base rate** | **7.25%** | CDTFA rate description page |
+
+There is no State Fiscal Recovery Fund, State Education Protection Account, or Proposition 30/55 component in the current 7.25% breakdown per the archived CDTFA description.
 
 ### 4.2 Key combined rates
 
-| Jurisdiction | Combined rate | Breakdown |
-|---|---|---|
-| Los Angeles (City) | ~10.25% | 7.25% + 2.25% + 0.75% district |
-| San Francisco | ~8.625% | 7.25% + 1.375% district |
-| San Jose | ~9.375% | 7.25% + 2.125% district |
-| San Diego (City) | ~7.75% | 7.25% + 0.50% district |
-| Sacramento (City) | ~8.75% | 7.25% + 1.50% district |
-| Oakland | ~10.25% | 7.25% + 3.00% district |
-| Fresno | ~8.975% | 7.25% + 1.725% district |
+Combined rates from the CDTFA city/county rate list effective 2026-10-01 (district components are not itemized in that list -- use the CDTFA rate lookup for district detail):
+
+| Jurisdiction | Combined rate |
+|---|---|
+| Los Angeles (City) | 10.250% |
+| San Francisco | 8.625% |
+| San Jose | 10.000% |
+| San Diego (City) | 7.750% |
+| Sacramento (City) | 8.750% |
+| Oakland | 10.750% |
+| Fresno | 8.350% |
+| Long Beach | 11.000% |
+| Palmdale / Lancaster | 11.750% |
 
 ### 4.3 District tax sourcing
 
@@ -199,7 +205,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 | Parameter | Detail |
 |---|---|
-| Scope | Machinery, equipment, and parts used primarily (50%+) in manufacturing, R&D, or electric power generation | (not yet confirmed)
+| Scope | Machinery, equipment, and parts used primarily (50 percent or more of the time) in manufacturing, R&D, or electric power generation (CDTFA manufacturing partial exemption) |
 | Benefit | State portion partially exempted; buyer pays reduced state rate + full district tax |
 | Certificate | CDTFA-230-M (Partial Exemption Certificate for Manufacturing) |
 | Authority | R&TC Section 6377.1 |
@@ -256,7 +262,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 | Parameter | Value |
 |---|---|
-| Threshold | Average monthly tax liability exceeds $17,000 | (not yet confirmed)
+| Threshold | Estimated measure of tax liability averaging $17,000 or more per month, with CDTFA notification (R&TC 6471) |
 | Due dates | 24th of first and second month of each quarter |
 | Amount | At least 90% of actual liability for the month |
 
@@ -271,7 +277,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 | Revenue threshold | $500,000 in total sales delivered to California |
 | Transaction threshold | None -- revenue only |
 | Measurement period | Preceding or current calendar year |
-| Effective date | April 1, 2019 |
+| Effective date | April 1, 2019 (operative date of the R&TC 6203(c)(4) amendment, Stats. 2019 Ch. 5 / SB 92) |
 | Sales included | Total sales, including exempt sales |
 | Marketplace exclusion | Marketplace sales facilitated by a marketplace provider may count toward threshold |
 | Authority | R&TC Section 6203(c)(4) |
@@ -306,10 +312,11 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 | Scenario | Period |
 |---|---|
-| Standard assessment | 3 years from filing or due date |
-| Substantial understatement (25%+) | 8 years |
-| No return filed | No limitation |
-| Fraud | No limitation |
+| Standard assessment (returns filed, non-annual) | 3 years after the last day of the calendar month following the period, or 3 years after the return is filed, whichever is later (R&TC 6487(a)) |
+| Failure to make a return | 8 years after the last day of the calendar month following the period (R&TC 6487(a)-(b)) |
+| Fraud or intent to evade | No limitation (exception carved out of R&TC 6487) |
+
+California sales tax has no federal-style "25% substantial understatement" extension -- R&TC 6487 provides only the 3-year, 8-year (no return), and unlimited (fraud/evade) rules.
 
 ---
 
@@ -331,7 +338,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 **Situation:** Manufacturer purchases a $100,000 machine used 60% for manufacturing, 40% for administration.
 
-**Resolution:** Qualifies for partial exemption because manufacturing use exceeds 50%. The state portion is partially exempted. Full district tax still applies at the delivery location rate. (not yet confirmed)
+**Resolution:** Qualifies for partial exemption because manufacturing use is 50 percent or more. The state portion is partially exempted. Full district tax still applies at the delivery location rate.
 
 ### EC4 -- Food: grocery vs. prepared
 
@@ -352,7 +359,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 ### Test 1 -- Basic taxable sale in Los Angeles
 
 **Input:** Retailer sells a $1,000 TV in Los Angeles. Combined rate: 10.25%.
-**Expected:** Tax = $102.50. Total = $1,102.50. (not yet confirmed)
+**Expected:** Tax = $102.50. Total = $1,102.50.
 
 ### Test 2 -- Grocery food exempt
 
@@ -366,17 +373,17 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ### Test 4 -- Economic nexus
 
-**Input:** Oregon-based online seller has $600,000 in California sales. No physical presence. 50 transactions. (not yet confirmed)
+**Input:** Oregon-based online seller has $600,000 in California sales. No physical presence. 50 transactions.
 **Expected:** Exceeds $500,000 threshold. Must register with CDTFA and collect California sales tax.
 
 ### Test 5 -- Clothing fully taxable
 
 **Input:** Customer buys a $300 jacket in San Francisco. Rate: 8.625%.
-**Expected:** Tax = $25.88. No clothing exemption in California. (not yet confirmed)
+**Expected:** Tax = $25.88. No clothing exemption in California.
 
 ### Test 6 -- Resale certificate
 
-**Input:** Retailer purchases $15,000 of inventory from a CA wholesaler. Provides valid CDTFA-230. (not yet confirmed)
+**Input:** Retailer purchases $15,000 of inventory from a CA wholesaler. Provides valid resale certificate.
 **Expected:** No tax. Retailer collects tax at point of resale.
 
 ### Test 7 -- Use tax on out-of-state purchase
@@ -391,13 +398,13 @@ California imposes sales tax on the retail sale of tangible personal property un
 
 ### Test 9 -- Manufacturing equipment partial exemption
 
-**Input:** Manufacturer purchases a $200,000 production machine in San Jose. Used 100% in manufacturing. (not yet confirmed)
+**Input:** Manufacturer purchases a $200,000 production machine in San Jose. Used 100% in manufacturing.
 **Expected:** Partial exemption applies to state portion. District tax still applies. Effective tax rate is reduced compared to full combined rate.
 
 ### Test 10 -- Canned software download
 
 **Input:** Business purchases a $500 canned software license via electronic download in San Diego. Rate: 7.75%.
-**Expected:** Tax = $38.75. Downloaded canned software is taxable as TPP. (not yet confirmed)
+**Expected:** Tax = $38.75. Downloaded canned software is taxable as TPP.
 
 ---
 
@@ -410,7 +417,7 @@ California imposes sales tax on the retail sale of tangible personal property un
 - NEVER use origin-based sourcing for district taxes -- California is destination-based for district taxes.
 - NEVER assume the manufacturing partial exemption fully eliminates tax -- it reduces the state portion but district taxes still apply.
 - NEVER accept SST certificates in California -- CA is not an SST member.
-- NEVER forget the prepayment requirement for sellers with average monthly liability over $17,000. (not yet confirmed)
+- NEVER forget the prepayment requirement for sellers whose estimated tax liability averages $17,000 or more per month (R&TC 6471).
 - NEVER treat OTC drugs as exempt -- only prescription medicine is exempt in California.
 - NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude.
 
@@ -430,47 +437,108 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+Retailers selling tangible personal property delivered into California, including out-of-state remote sellers whose total combined sales of tangible personal property for delivery into California (plus related persons) exceed $500,000 in the preceding or current calendar year (R&TC 6203(c)(4), operative April 1, 2019). Marketplace facilitators meeting the same threshold must collect for facilitated sales (R&TC 6042, operative October 1, 2019). Consumers and businesses owe use tax on taxable purchases from out-of-state sellers.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+- Statewide base rate: 7.25% (component breakdown in Section 4.1, per the CDTFA rate description page).
+- District taxes: 0.10% to 2.00% per district; one or more districts may impose tax in the same area (R&TC 7261).
+- Highest combined rate in the CDTFA city/county list effective 2026-10-01: 11.750% (Palmdale, Lancaster).
+- Economic nexus threshold: $500,000 total combined sales, revenue only, no transaction count (R&TC 6203(c)(4)).
+- Prepayment trigger: estimated measure of tax liability averaging $17,000 or more per month with CDTFA notification (R&TC 6471).
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+Retail sales of tangible personal property delivered in California, measured at the destination (delivery) address for district purposes. Canned software delivered by electronic download is taxable TPP; pure access-based SaaS is not. Use tax applies at the same rates to storage, use, or consumption of taxable property in California when sales tax was not collected.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+CDTFA assigns the filing frequency (quarterly prepay, quarterly, monthly, fiscal yearly, yearly). Quarterly returns are due the last day of the month following the quarter: April 30, July 31, October 31, January 31 (CDTFA filing-dates page; weekend/holiday rolls to the next business day). Quarterly-prepay filers make prepayments due the 24th of the first and second month of each quarter, generally 90% of the prior month's liability (CDTFA prepayment page, R&TC 6471).
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+Late filing and late payment: 10% penalty (R&TC 6591). Negligence: 10% of the determination (R&TC 6484). Fraud: 25% of the determination (R&TC 6485). Interest accrues at the modified adjusted rate (R&TC 6591). Assessment limits: 3 years standard, 8 years for failure to file, unlimited for fraud or intent to evade (R&TC 6487).
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+California is not a Streamlined Sales Tax member. Destination sourcing means the delivery-address rate applies to shipped sales. Out-of-state sellers crossing $500,000 in CA-delivered sales must register with CDTFA and collect.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+### Worked example 1: $1,000 TV sold in Los Angeles
+
+Los Angeles combined rate 10.250% per the CDTFA city/county rate list effective 2026-10-01.
+
+```oa-check
+name: LA taxable sale
+inputs:
+  price: 1000
+  rate: 0.1025
+steps:
+  - tax: price * rate
+  - total: price + tax
+expected:
+  tax: 102.50
+  total: 1102.50
+```
+
+### Worked example 2: Use tax on $5,000 furniture shipped from Oregon to Los Angeles
+
+No sales tax was collected; use tax applies at the delivery-location rate (10.250%).
+
+```oa-check
+name: LA use tax
+inputs:
+  price: 5000
+  rate: 0.1025
+steps:
+  - tax: price * rate
+expected:
+  tax: 512.50
+```
+
+### Worked example 3: Quarterly-prepay filer prepayment
+
+January liability $30,000; prepayment is 90% of the prior month's liability, due by the 24th (CDTFA prepayment page example).
+
+```oa-check
+name: Prepayment 90 percent
+inputs:
+  liability: 30000
+  pct: 0.90
+steps:
+  - prepay: liability * pct
+expected:
+  prepay: 27000
+```
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+- Where is the property delivered or consumed? The district rate follows the delivery address.
+- Are sales to exempt purchasers covered by valid resale or exemption certificates on file?
+- Has CDTFA placed the account on a quarterly-prepayment basis?
+- Do remote or marketplace sales cross the $500,000 CA-delivered sales threshold?
+
+Not yet confirmed: the resale certificate form number CDTFA-230 (not shown in the archived sources); the expiration date of the former 0.25% State Education Protection Account component (commonly cited as 1-1-2017; the archived CDTFA description simply omits it); the record-retention period of 4 years in Section 7.4 (R&TC 6480 not archived in this pack).
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
-
-
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| CDTFA Detailed Description of the Sales and Use Tax Rate | https://cdtfa.ca.gov/taxes-and-fees/sut-rates-description.htm | 2026-11-01 |
+| CDTFA City and County Sales and Use Tax Rates (effective 2026-10-01) | https://cdtfa.ca.gov/taxes-and-fees/rates.aspx | 2026-11-01 |
+| CDTFA Sales and Use Tax Returns Filing Dates | https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-returns-filing-dates.htm | 2026-11-01 |
+| CDTFA Make a Prepayment | https://cdtfa.ca.gov/services/make-a-prepayment.htm | 2026-11-01 |
+| CDTFA Manufacturing partial exemption qualifications | https://cdtfa.ca.gov/industry/manufacturing-and-research-and-development-equipment-exemption/qualifications.htm | 2026-11-01 |
+| R&TC 6203 (engaged in business; economic nexus) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6203.html | 2026-11-01 |
+| R&TC 6042 (marketplace facilitator) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6042.html | 2026-11-01 |
+| R&TC 6487 (statute of limitations) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6487.html | 2026-11-01 |
+| R&TC 6471 (prepayments) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6471.html | 2026-11-01 |
+| R&TC 6591 (penalties and interest) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6591.html | 2026-11-01 |
+| R&TC 6484 (negligence penalty) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6484.html | 2026-11-01 |
+| R&TC 6485 (fraud penalty) | https://cdtfa.ca.gov/lawguides/vol1/sutl/6485.html | 2026-11-01 |
 
-Not yet confirmed against archived sources.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+This skill is general reference. Have a California-licensed CPA, EA, or tax attorney review before filing CDTFA returns or taking exemption positions.
