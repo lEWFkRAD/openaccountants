@@ -28,7 +28,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## California Bookkeeping and Monthly Close v0.1
 
-> **Source-cited draft — not reviewed by an accountant.** This guide is
+> **Source-cited draft -- not reviewed by an accountant.** This guide is
 > general bookkeeping reference material for AI-assisted workflows. A
 > credentialed California reviewer must review the working papers before a
 > return is prepared, a payment is made, a journal is posted to a client ledger,
@@ -56,7 +56,7 @@ draft were checked on 2026-09-20. Rates, assigned filing frequencies, agency
 notices, and deadlines can change. Refresh the linked agency source before
 using a number in a client workpaper.
 
-## Section 1 — Scope statement
+## Section 1 -- Scope statement
 
 ### In scope
 
@@ -106,7 +106,7 @@ Stop and refer to a qualified reviewer when the request asks the AI to:
 An excluded request becomes a handoff item with the source documents, ledger
 balance, and exact question for the reviewer. It is never silently answered.
 
-## Section 2 — California agency map and source register
+## Section 2 -- California agency map and source register
 
 The following sources are primary agency sources for this guide. They describe
 filings and control evidence; they do not authorize this guide to file
@@ -127,7 +127,7 @@ anything.
 | IRS federal inputs | [Employment tax due dates](https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-due-dates), [2026 Form 941 instructions](https://www.irs.gov/instructions/i941), [2026 Forms 1099 instructions](https://www.irs.gov/instructions/i1099mec), and [employment-tax recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping) | Tie federal payroll and information-return schedules to the ledger; delegate federal tax calculations. |
 | California record retention | [FTB keeping tax records](https://www.ftb.ca.gov/file/after-you-file/keeping-your-tax-records.html) and [CDTFA Publication 116](https://www.cdtfa.ca.gov/formspubs/pub116/retaining-records.htm) | Keep a retention index and preserve records during audits or disputes. |
 
-## Section 3 — Filing requirements and compliance calendar
+## Section 3 -- Filing requirements and compliance calendar
 
 ### Close cadence
 
@@ -179,7 +179,7 @@ Sources for this calendar are the [FTB business due-date page](https://www.ftb.c
 [SOS filing guidance](https://www.sos.ca.gov/business-programs/business-entities/statements), and the
 [IRS employment-tax calendar](https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-due-dates).
 
-## Section 4 — 2026 rates, thresholds, and control facts
+## Section 4 -- 2026 rates, thresholds, and control facts
 
 These facts are used to set up reconciliations. They are not a return
 calculation. If a tax skill or the current official source gives a different
@@ -201,7 +201,7 @@ year-specific value, stop and escalate the difference.
 | California backup withholding | 7% of the payment when California backup withholding applies. | [2026 Form 592 instructions](https://www.ftb.ca.gov/forms/2026/2026-592-instructions.html). Use a separate withholding control and refer classification questions to the reviewer. |
 | Record retention | CDTFA records should generally be kept at least four years; FTB generally uses a four-year examination period, with longer periods for exceptions, audits, disputes, and property-basis records. | [CDTFA Publication 116](https://www.cdtfa.ca.gov/formspubs/pub116/retaining-records.htm) and [FTB record keeping](https://www.ftb.ca.gov/file/after-you-file/keeping-your-tax-records.html). IRS employment records also generally require at least four years. |
 
-## Section 5 — California chart of accounts
+## Section 5 -- California chart of accounts
 
 The codes below are a compact management chart, not a mandated California
 chart. Map them to the client's existing ledger before posting. Do not invent
@@ -266,7 +266,7 @@ client code and this guide's suggested mapping side by side.
 | 3030 | Retained earnings | Equity | Credit | Prior-year corporation or nonprofit earnings. |
 | 3040 | Dividends | Equity | Debit | Corporation distributions after reviewer confirmation. |
 | 3050 | Net assets without donor restrictions | Equity | Credit | Operating nonprofit presentation. |
-| 3051 | Net assets with donor restrictions — tracking only | Equity | Credit | Use only when the reviewer supplies the restriction policy; full fund accounting is excluded. |
+| 3051 | Net assets with donor restrictions -- tracking only | Equity | Credit | Use only when the reviewer supplies the restriction policy; full fund accounting is excluded. |
 | 4000 | Service revenue | Revenue | Credit | Professional and other services. |
 | 4001 | Product revenue | Revenue | Credit | Direct product sales. |
 | 4002 | Marketplace product revenue | Revenue | Credit | Gross marketplace sales before fees and refunds. |
@@ -305,7 +305,7 @@ client code and this guide's suggested mapping side by side.
 | 6025 | Charitable contributions | Expense | Debit | Held for reviewer treatment; no tax deduction is inferred. |
 | 6026 | Nonprofit program expenses | Expense | Debit | Operating nonprofit expenses without fund-accounting allocation. |
 | 6027 | Review suspense | Temporary | Debit/Credit | Temporary only; every balance requires a question and resolution. |
-| 6028 | Penalties and interest — review | Expense | Debit | Separate account; no deductibility conclusion is made. |
+| 6028 | Penalties and interest -- review | Expense | Debit | Separate account; no deductibility conclusion is made. |
 | 6029 | Cost-of-sales adjustments | COGS | Debit/Credit | Inventory count and period-end adjustment bridge. |
 
 ### Financial-statement presentation
@@ -344,7 +344,7 @@ policy. This guide records the ledger and California control evidence; it does
 not certify GAAP compliance or choose a depreciation, inventory, accrual, or
 fund-accounting policy.
 
-## Section 6 — Classification rules
+## Section 6 -- Classification rules
 
 Apply the bookkeeping base's three states: Tier 1 (confident), Tier 2
 (assumed and flagged), and Tier 3 (needs input). Every source line appears
@@ -425,7 +425,7 @@ this guide. The reviewer must set a threshold for the client and period.
 Until the reviewer does so, treat every uncategorized item as material, do not
 group sundry transactions, and do not suppress a Tier 2 or Tier 3 flag.
 
-## Section 7 — Supplier and payee pattern library
+## Section 7 -- Supplier and payee pattern library
 
 These are recognition patterns, not proof of tax treatment. Confirm the
 account, period, and source report before applying a recurring pattern.
@@ -456,7 +456,7 @@ account, period, and source report before applying a recurring pattern.
 | Insurance carrier or broker | Insurance or prepaid expenses | Policy term and coverage period. |
 | Owner, member, shareholder by name | Capital, draw, distribution, or loan | Tier 3 unless the description and support are explicit. |
 
-## Section 8 — Exclusion and duplicate patterns
+## Section 8 -- Exclusion and duplicate patterns
 
 Exclude a line from posting only with a reason in the transaction register:
 
@@ -475,7 +475,7 @@ Exclude a line from posting only with a reason in the transaction register:
 - A tax payment: it is not an expense merely because cash left the bank; post
   it against the agency liability or prepayment control.
 
-## Section 9 — Bank, card, and merchant-processor handling
+## Section 9 -- Bank, card, and merchant-processor handling
 
 ### Bank statement normalization
 
@@ -507,7 +507,7 @@ For each processor or marketplace and each close:
 A payout without a settlement report is Tier 3. A payout must never be posted
 as gross revenue merely because its description says “payout.”
 
-## Section 10 — Entity-type defaults
+## Section 10 -- Entity-type defaults
 
 These are workflow defaults, not entity-classification advice.
 
@@ -526,7 +526,7 @@ Calendar-year versus fiscal-year status is confirmed in Step 4 of the base
 workflow. All return and payment dates are keyed to the confirmed year-end,
 not to the month in which the books happen to be closed.
 
-## Section 11 — California agency-control reconciliations
+## Section 11 -- California agency-control reconciliations
 
 ### 11.1 FTB
 
@@ -633,32 +633,32 @@ The [IRS employment-tax calendar](https://www.irs.gov/businesses/small-businesse
 and [2026 Form 1099 instructions](https://www.irs.gov/instructions/i1099mec)
 control current filing details.
 
-## Section 12 — Required outputs
+## Section 12 -- Required outputs
 
 The five bookkeeping-base outputs are mandatory. This California guide adds
 seven schedules to make agency handoff reviewable.
 
-### Output 1 — Trial balance
+### Output 1 -- Trial balance
 
 Use the base columns: account code, account name, debit balance, and credit
 balance. Add columns for entity, period, and source schedule when multiple
 entities or fiscal years share a workpaper. Total debits must equal total
 credits exactly.
 
-### Output 2 — Profit and loss
+### Output 2 -- Profit and loss
 
 Present revenue, returns, COGS, gross profit, operating expenses, operating
 profit, non-operating items, and net income before tax. Do not include an FTB,
 CDTFA, or EDD cash payment as expense unless the reviewer supplies the tax
 accounting entry.
 
-### Output 3 — Balance sheet
+### Output 3 -- Balance sheet
 
 Present current and non-current assets, agency and operating liabilities,
 related-party balances, and equity/net assets. The balance sheet must agree to
 the trial balance and satisfy assets = liabilities + equity.
 
-### Output 4 — Reviewer brief
+### Output 4 -- Reviewer brief
 
 Use the base template and add:
 
@@ -667,15 +667,15 @@ Use the base template and add:
 - Tax-year and fiscal-year assumptions.
 - Source documents still missing.
 
-### Output 5 — Transaction register
+### Output 5 -- Transaction register
 
 Use the base columns and add entity, tax-control tag, source report ID, and
 reconciliation status. Every line is classified, assumed, user-answered,
 excluded with a reason, or unresolved.
 
-### Output 6 — California agency-control reconciliation
+### Output 6 -- California agency-control reconciliation
 
-**Output 6 — California agency-control reconciliation**
+**Output 6 -- California agency-control reconciliation**
 
 | Agency | Opening balance | Current-period charges or withholdings | Payments/refunds | Adjustments | Closing GL | Agency evidence | Difference | Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -685,29 +685,29 @@ excluded with a reason, or unresolved.
 | SOS |  |  |  |  |  | Statement and confirmation |  |  |
 | IRS |  |  |  |  |  | 941, 940, W-2/W-3, 1099 support |  |  |
 
-### Output 7 — Sales-tax reconciliation
+### Output 7 -- Sales-tax reconciliation
 
 Include channel totals, taxable and exempt classifications, district
 allocation, marketplace collection, use-tax purchases, prepayments, return
 liability, remittance, and unresolved taxability questions. No tax rate is
 invented from a merchant or ZIP code.
 
-### Output 8 — Payroll-tax reconciliation
+### Output 8 -- Payroll-tax reconciliation
 
 Include employee-level wage-base detail, gross wages, employee withholdings,
 employer taxes, provider clearing, DE 88 deposits, DE 9/DE 9C totals, federal
 941/940 totals, and amendments. A zero payroll period is an explicit status,
 not a blank row.
 
-### Output 9 — Compliance calendar
+### Output 9 -- Compliance calendar
 
 For every obligation show entity, agency, form or filing, period, due-date
 source, due date, responsible person, evidence received, status, and next
 action. Separate recurring agency filings from internal close dates.
 
-### Output 10 — Tax-return handoff worksheet
+### Output 10 -- Tax-return handoff worksheet
 
-**Output 10 — Tax-return handoff worksheet**
+**Output 10 -- Tax-return handoff worksheet**
 
 | Return or form | Ledger package | Reviewer input required | Filing owner |
 | --- | --- | --- | --- |
@@ -724,24 +724,24 @@ action. Separate recurring agency filings from internal close dates.
 | IRS 941, 940, W-2/W-3 | Payroll reconciliation and annual wage file | Federal deposit and filing treatment | Payroll or tax preparer |
 | IRS 1099-NEC, 1099-MISC, 1099-K | Payee ledger, W-9 log, processor forms | Reportability, corrections, recipient data | Tax preparer |
 
-### Output 11 — Missing-information and exception report
+### Output 11 -- Missing-information and exception report
 
 List each missing bank statement, invoice, processor report, payroll register,
 agency notice, tax-year identifier, owner confirmation, or filing copy. For
 each item show financial impact, affected control account, question, owner, and
 deadline. Never fill a missing source with a guessed rate or date.
 
-## Section 13 — Worked journal examples
+## Section 13 -- Worked journal examples
 
 The amounts below are fabricated inputs to demonstrate mechanics. They are not
 tax thresholds, rate claims, or client advice.
 
-### Example A — S corporation with Stripe and payroll
+### Example A -- S corporation with Stripe and payroll
 
 Suppose a settlement report shows gross customer receipts of 1,000.00, a
 processor fee of 30.00, and a bank payout of 970.00. The close posts:
 
-**Journal entries — Example A**
+**Journal entries -- Example A**
 
 | Debit | Credit | Amount |
 | --- | --- | --- |
@@ -755,12 +755,12 @@ funding entry clears payroll-provider clearing. The EDD and federal payments
 debit the appropriate liability accounts. No worker-status, payroll-rate, or
 deductibility opinion is made.
 
-### Example B — Disregarded SMLLC owner transfers and contractor
+### Example B -- Disregarded SMLLC owner transfers and contractor
 
 An owner deposits 2,000.00 to fund the business and later withdraws 500.00.
 The entries are:
 
-**Journal entries — Example B**
+**Journal entries -- Example B**
 
 | Debit | Credit | Amount |
 | --- | --- | --- |
@@ -771,12 +771,12 @@ A contractor invoice is posted to Contractors and A/P, then the payment clears
 A/P. The register creates an EDD DE 542 and federal 1099 handoff flag when the
 source facts meet the reporting description; it does not classify the worker.
 
-### Example C — Marketplace e-commerce LLC
+### Example C -- Marketplace e-commerce LLC
 
 The settlement report shows 1,200.00 of product sales, 120.00 of marketplace
 fees, and an 1,080.00 payout. The entries are:
 
-**Journal entries — Example C**
+**Journal entries -- Example C**
 
 | Debit | Credit | Amount |
 | --- | --- | --- |
@@ -788,7 +788,7 @@ Inventory and COGS are posted from the inventory schedule. Marketplace-collected
 tax is not assumed to be the LLC's CDTFA liability; the facilitator statement
 and the sales-tax reviewer determine the treatment.
 
-### Example D — Fiscal-year operating nonprofit
+### Example D -- Fiscal-year operating nonprofit
 
 For a fiscal-year nonprofit, the close first records the fiscal year-end and
 does not force a December calendar. A supported operating receipt is posted to
@@ -796,7 +796,7 @@ Operating Support or Contribution Revenue. A receipt described as restricted,
 grant-conditioned, or donor-directed is held for nonprofit-review input; full
 fund-accounting entries are outside this guide.
 
-## Section 14 — Realistic test suite and refusal behavior
+## Section 14 -- Realistic test suite and refusal behavior
 
 Run these cases with fabricated inputs before treating the guide as ready for a
 client:
@@ -829,7 +829,7 @@ The reviewer records the fabricated inputs, expected control balances, actual
 outputs, and any correction. A test passes only when the base checks and the
 agency-control checks below pass.
 
-## Section 15 — Self-checks
+## Section 15 -- Self-checks
 
 Run the twelve checks in the bookkeeping base plus these California checks:
 
@@ -860,7 +860,7 @@ Run the twelve checks in the bookkeeping base plus these California checks:
   period, and longer when an audit, dispute, property-basis, or other
   exception requires it.
 
-## Section 16 — Disclaimer
+## Section 16 -- Disclaimer
 
 This skill and its outputs are provided for informational and computational
 purposes only and do not constitute tax, legal, accounting, payroll, or
@@ -887,7 +887,7 @@ taking a tax position.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
+This guide is maintained by the OpenAccountants network -- accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
 [openaccountants.com](https://www.openaccountants.com).
