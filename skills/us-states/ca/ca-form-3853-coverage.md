@@ -229,7 +229,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 
 ## Worked examples
 
-### EC-3853-1 -- Taxpayer with health care sharing ministry only
+### Worked example 1 (3853-1) -- Taxpayer with health care sharing ministry only
 
 **Situation:** Taxpayer was a member of a health care sharing ministry for all of 2025. No other coverage.
 
@@ -240,7 +240,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 - Compute the full-year penalty using the greater of flat dollar or percentage method.
 - **Flag for reviewer:** Taxpayer may qualify for a hardship or affordability exemption if they can demonstrate that marketplace coverage was unaffordable.
 
-### EC-3853-2 -- Short coverage gap of exactly 3 months
+### Worked example 2 (3853-2) -- Short coverage gap of exactly 3 months
 
 **Situation:** Taxpayer had no coverage for January, February, and March 2025 (3 months). Coverage started April 1.
 
@@ -250,7 +250,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 - Penalty is assessed for all 3 months (January, February, March).
 - **Flag for reviewer:** If the gap were only 2 months (e.g., February-March), the short gap exemption would apply.
 
-### EC-3853-3 -- Two separate gaps in the same year
+### Worked example 3 (3853-3) -- Two separate gaps in the same year
 
 **Situation:** Taxpayer had no coverage in February (1 month gap) and again in September-October (2 month gap).
 
@@ -261,7 +261,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 - Total penalty months: 1 (February only).
 - **Flag for reviewer:** The taxpayer should apply the exemption strategically to minimize penalty.
 
-### EC-3853-4 -- High-income taxpayer with no coverage
+### Worked example 4 (3853-4) -- High-income taxpayer with no coverage
 
 **Situation:** Single filer, CA AGI $300,000, no coverage for all 12 months, no exemptions.
 
@@ -272,7 +272,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 - Cap: the penalty cannot exceed the 2025 statewide average annual bronze premium for the household size -- for 1 person that is $4,524 (FTB 2025 Form 3853 instructions; R&TC section 61015(a)(2)). $6,926.48 exceeds the cap, so the penalty is $4,524.
 - **Flag for reviewer:** Verify the applicable filing-threshold row and the bronze-plan cap for the taxpayer's household size at filing.
 
-### EC-3853-5 -- Family with mixed coverage status
+### Worked example 5 (3853-5) -- Family with mixed coverage status
 
 **Situation:** MFJ couple with two children. Spouse 1 had employer coverage all year. Spouse 2 and children had no coverage for 4 months (May-August) due to job transition.
 
@@ -285,7 +285,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 - Penalty = greater of the two methods, prorated.
 - **Flag for reviewer:** Check if COBRA was available during the gap (COBRA = MEC if elected).
 
-### EC-3853-6 -- Taxpayer with Medi-Cal for part of the year
+### Worked example 6 (3853-6) -- Taxpayer with Medi-Cal for part of the year
 
 **Situation:** Taxpayer had Medi-Cal from January through June 2025, then lost eligibility due to income increase. Enrolled in Covered California plan starting September 2025. No coverage July-August.
 
@@ -295,7 +295,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 - September-December: Covered California = MEC. Covered.
 - No penalty. Form 3853 should document the gap and claim the short gap exemption.
 
-### EC-3853-7 -- ITIN filer subject to mandate
+### Worked example 7 (3853-7) -- ITIN filer subject to mandate
 
 **Situation:** ITIN filer (undocumented immigrant) who files a CA tax return. Had no health coverage.
 
@@ -306,7 +306,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 - However: if the individual IS lawfully present (e.g., DACA recipient with ITIN), the mandate applies and the penalty would be assessed for uncovered months.
 - **Flag for reviewer:** Determine the individual's immigration status carefully. "ITIN filer" does not automatically mean "not lawfully present."
 
-### EC-3853-8 -- Affordability exemption borderline
+### Worked example 8 (3853-8) -- Affordability exemption borderline
 
 **Situation:** Single filer, household income $45,000. Lowest-cost bronze plan on Covered California = $3,800/year. Affordability threshold = 7.28%.
 
@@ -399,7 +399,7 @@ Form 3853 is filed with the California Form 540 (or 540NR/540A) by the individua
 | FTB 2025 Instructions for Form 3853 | https://www.ftb.ca.gov/forms/2025/2025-3853-instructions.pdf | 2026-11-01 |
 | R&TC §61015 (penalty amount; Part 32 heading [61000-61050]) | https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=61015. | 2026-11-01 |
 
-Not yet confirmed: the individual section numbers 61000, 61005, 61010, 61020, 61025, 61030 and their subject matter (only the Part 32 heading range [61000-61050] and §61015 text were archived here); Form 540 line number where the penalty is reported (line 92 is from the skill's prior text; the archived 3853 instructions do not state it); FTB Publication 3895B was not archived in this pack.
+Not yet confirmed: the individual section numbers 61000, 61005, 61010, 61020, 61025, 61030 and their subject matter (only the Part 32 heading range [61000-61050] and §61015 text were archived here); FTB Publication 3895B was not archived in this pack.
 
 ## End of skill
 

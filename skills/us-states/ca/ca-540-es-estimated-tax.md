@@ -303,7 +303,7 @@ California estimated tax and federal estimated tax are completely independent:
 
 ## Worked examples
 
-### EC-ES-1 -- Taxpayer pays equal quarters by mistake
+### Worked example 1 (ES-1) -- Taxpayer pays equal quarters by mistake
 
 **Situation:** Taxpayer's required annual payment is $20,000. They pay $5,000 on April 15, $5,000 on June 15, $5,000 on September 15, $5,000 on January 15.
 
@@ -314,7 +314,7 @@ California estimated tax and federal estimated tax are completely independent:
 - Penalty: interest computed on $1,000 from April 15 and on the cumulative underpayment from June 16, to April 15, 2026.
 - **Note:** CA computes installments cumulatively -- the September $5,000 payment is not wasted; it cures the Q4 shortfall.
 
-### EC-ES-2 -- New California resident, no prior-year CA tax
+### Worked example 2 (ES-2) -- New California resident, no prior-year CA tax
 
 **Situation:** Taxpayer moved to California on January 1, 2025. No 2024 CA return. Expected 2025 CA tax = $15,000.
 
@@ -324,7 +324,7 @@ California estimated tax and federal estimated tax are completely independent:
 - If the taxpayer WANTS to pay in (to reduce the April balance due), the 90% current-year figure (90% x $15,000 = $13,500, split 30/40/0/30) is the general rate -- but it is not mandatory in year one.
 - **Flag for reviewer:** Confirm the taxpayer truly had zero 2024 CA liability (any 2024 CA tax, even small, ends the exemption).
 
-### EC-ES-3 -- Income spike in Q4
+### Worked example 3 (ES-3) -- Income spike in Q4
 
 **Situation:** Freelancer earns $30,000 in Q1-Q3 combined, then receives a $120,000 contract payment in November. Total 2025 CA tax is $18,000. Prior-year CA tax was $5,000.
 
@@ -336,7 +336,7 @@ California estimated tax and federal estimated tax are completely independent:
 - Alternatively, the taxpayer can use the annualized income method to reduce even the safe harbor amounts for early quarters.
 - **Flag for reviewer:** 110% applies only if 2024 CA AGI exceeded $150,000 ($75,000 MFS) -- then the required annual payment is the lesser of 90% of 2025 tax ($16,200) or 110% of 2024 tax ($5,500).
 
-### EC-ES-4 -- W-2 withholding covers most of the tax
+### Worked example 4 (ES-4) -- W-2 withholding covers most of the tax
 
 **Situation:** Taxpayer has W-2 job (CA withholding $12,000 annually) and side Schedule C business. Total CA tax = $15,000.
 
@@ -350,7 +350,7 @@ California estimated tax and federal estimated tax are completely independent:
   - Q4: 30% x $1,500 = $450
 - If withholding alone meets the safe harbor, no estimated payments needed (here withholding $12,000 < $13,500, so small payments are due).
 
-### EC-ES-5 -- Farmer/fisherman exception
+### Worked example 5 (ES-5) -- Farmer/fisherman exception
 
 **Situation:** Taxpayer earns 70% of gross income from farming. Total CA tax = $8,000.
 
@@ -361,7 +361,7 @@ California estimated tax and federal estimated tax are completely independent:
 - The 30/40/0/30 schedule does NOT apply to qualifying farmers/fishermen.
 - **Flag for reviewer:** Verify the 2/3 gross income test. If the taxpayer does not qualify, the regular 30/40/0/30 schedule applies.
 
-### EC-ES-6 -- Disaster area relief
+### Worked example 6 (ES-6) -- Disaster area relief
 
 **Situation:** Taxpayer's home is in a county declared a disaster area by the Governor. FTB announces extended deadlines.
 
@@ -371,7 +371,7 @@ California estimated tax and federal estimated tax are completely independent:
 - The penalty is waived or reduced for the extended period.
 - **Flag for reviewer:** Verify the specific disaster relief provisions and extended dates.
 
-### EC-ES-7 -- Taxpayer overpays Q1 and Q2
+### Worked example 7 (ES-7) -- Taxpayer overpays Q1 and Q2
 
 **Situation:** Taxpayer's required annual payment is $10,000. They pay $5,000 on April 15 and $5,000 on June 15 (total $10,000 by Q2). Nothing in Q3 or Q4.
 
@@ -381,7 +381,7 @@ California estimated tax and federal estimated tax are completely independent:
 - Q4 required $3,000 -- but cumulative payments already exceed $10,000 total required. No underpayment.
 - No penalty. The overpayment from Q1/Q2 carries forward to satisfy Q4.
 
-### EC-ES-8 -- MFS with different income levels
+### Worked example 8 (ES-8) -- MFS with different income levels
 
 **Situation:** Married couple filing separately for CA. Spouse A has CA tax of $20,000. Spouse B has CA tax of $3,000.
 
