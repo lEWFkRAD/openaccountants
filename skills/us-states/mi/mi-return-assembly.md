@@ -61,7 +61,7 @@ Intake and the content Guides have already collected the facts for this working 
 | 7 | MCL 141.501 et seq. -- City Income Tax Act | https://legislature.mi.gov/Laws/MCL?objectName=mcl-141-501 |
 | 8 | IRS Modernized e-File (MeF) -- Federal/State joint filing | https://www.irs.gov/e-file-providers/modernized-e-file-overview |
 
-## Section 2 -- What this skill is
+## Who this applies to
 
 The final capstone skill. Every other Michigan skill and every relevant federal skill feeds into this one. The deliverable is the complete reviewer package that a credentialed reviewer signs off on before filing.
 
@@ -70,6 +70,14 @@ The skill enforces three things:
 1. **Order of operations.** Federal first, Michigan second, Detroit (if applicable) third. The order is non-negotiable because federal AGI flows into MI-1040 Line 10, and Michigan AGI flows into Detroit Form 5118.
 2. **Cross-skill reconciliation.** Every figure that appears on the MI-1040 must match the corresponding figure produced by the source skill. A mismatch halts assembly with a specific, named refusal.
 3. **Reviewer-grade output.** The final package is structured for a CPA or EA to review in under 30 minutes: cover summary, brief, exhibits in order, action list, citations.
+
+## Rates, bands and thresholds
+
+This orchestrator carries no rate tables of its own. State rates live in mi-income-tax, Detroit rates in mi-detroit-individual-return, corporate rates in mi-corporate-income-tax, and city rate lookups in mi-city-tax-lookup. The orchestrator only checks that the loaded skills' figures agree with each other.
+
+## The taxable base
+
+The base definitions also live in the loaded skills: Michigan AGI (federal AGI plus Michigan adjustments) in mi-income-tax, and the corporate base in mi-corporate-income-tax. Section 6 reconciliations verify that the same income figure flows through the federal, Michigan, and city returns.
 
 ## Section 3 -- Orchestration runbook
 
@@ -304,7 +312,7 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
 ```markdown
 # Your 2025 Michigan Tax Filing -- Action List
 
-## This week
+## Deadlines and filing
 1. Review the reviewer_brief.md document
 2. Sign Form 8879 (federal e-file authorization) -- if e-filing
 3. Sign Form MI-8453 (Michigan e-file authorization) -- if e-filing through MTO
@@ -376,6 +384,10 @@ Step-by-step action list, structured by date. The taxpayer reads this file and n
 If execution runs out of context mid-build: produce whatever is complete, then state at the end which files were partial. Three files honest beats fifteen files fragmented.
 
 All files go to `/mnt/user-data/outputs/` and are presented at the end via the `present_files` tool.
+
+## Penalties and interest
+
+Underpayment penalty and interest mechanics are computed in mi-estimated-tax (MI-2210) and mi-income-tax; the orchestrator's job is to flag any estimated-tax shortfall or late city return in the Reviewer Attention Flags before the package goes out.
 
 ## Section 8 -- The reviewer brief (narrative format)
 
@@ -477,7 +489,11 @@ The brief follows this fixed structure:
 | MI-ASM-T2-07 | **Late-1099 penalty exposure.** January 31 may already be past at the time of orchestrator run. | Surface the penalty exposure in the action list; the reviewer decides whether to file late or wait. |
 | MI-ASM-T2-08 | **PTC iteration convergence.** The marketplace-coverage iteration between SE health and PTC may not converge cleanly within 3 cycles. | If `us-self-employed-health-insurance` flagged non-convergence, escalate the flag to the reviewer brief and document the chosen position. |
 
-## Section 11 -- Worked example
+## Cross-border points
+
+Nonresident, part-year, and reciprocal-agreement situations route to mi-cross-border-tax before assembly; city returns outside Detroit are refused (see the refusal catalogue). The orchestrator verifies the residency determination appears in the reviewer brief before any city return is built.
+
+## Worked examples
 
 **Facts.** Maria Reyes, single, age 38, full-year Detroit (Michigan) resident, sole proprietor (freelance software developer). 2025 facts:
 
@@ -638,6 +654,10 @@ The brief follows this fixed structure:
 
 This is one Detroit-resident sole prop's full reviewer package, abbreviated to ~3 pages. The actual file is longer and includes the full xlsx workbook, the full brief, and the full action list.
 
+## Ask the client first
+
+Before assembly, confirm with the client: legal residence and mailing address (Detroit boundary verification), filing status and dependents, whether any FTE election exists, city residency for the full year, and whether any income was earned in another state. Each maps to a refusal or verification row below.
+
 ## Section 12 -- Refusal catalogue
 
 **Refusal catalogue table**
@@ -699,11 +719,26 @@ This is one Detroit-resident sole prop's full reviewer package, abbreviated to ~
 
 - **v0.1 (May 2026):** Initial draft. Orchestrates federal + MI + Detroit stack. Three-file deliverable. Section 6 verification matrix with 40+ reconciliations. Worked example: Detroit resident sole prop with $180K Schedule C, Solo 401(k), marketplace PTC iteration, MI-1040CR denial.
 
+## Sources
+
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | MI-1040 Individual Income Tax Forms and Instructions (TY2025) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf | 2026-10-29 |
+| 2 | MI-1040ES vouchers and instructions (2026) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040ES-(2026).pdf | 2026-10-29 |
+| 3 | MI-2210 Underpayment of Estimated Tax (2025) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-2210.pdf | 2026-10-29 |
+| 4 | Treasury -- city income tax index page | https://www.michigan.gov/taxes/iit/city | 2026-10-29 |
+| 5 | Treasury -- estimated tax requirement FAQ | https://www.michigan.gov/taxes/questions/iit/accordion/estimate/am-i-required-to-make-estimated-tax-payments-1 | 2026-10-29 |
+| 6 | Treasury -- interest rate page | https://www.michigan.gov/taxes/interest-rate | 2026-10-29 |
+| 7 | Form 5469 Detroit city withholding instructions (TY2025) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/City-Withholding/TY2025/5469_ty2025.pdf | 2026-11-01 |
+| 8 | Grand Rapids -- other Michigan cities with income tax (rate table) | https://www.grandrapidsmi.gov/departments/fiscal-services/income-tax/other-michigan-cities-with-income-tax/ | 2026-11-01 |
+| 9 | Lansing L-1040 instructions (TY2025) | https://content.civicplus.com/api/assets/957f1f8b-a276-4316-80ea-14f66ad36c29?cache=1800 | 2026-11-01 |
+| 10 | IRS Form 1040 instructions (2025) | https://www.irs.gov/pub/irs-pdf/i1040gi.pdf | 2026-10-31 |
+
+Not yet confirmed: the dollar amounts inside the illustrative worked example are constructed facts, not figures tied out to an archived return; and the Section 1 metadata table lists statutes (MCL 141.501 et seq., IRS MeF) whose pages were not archived in the evidence set.
+
 ## Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 ## Talk to a verified accountant
 
@@ -714,10 +749,6 @@ To speak with one of the licensed accountants who verifies skills for your juris
 **→ [Book a call](https://calendly.com/openaccountants-info/30min)**
 
 We'll route you to the named verifier covering your country or state. You can also see the full list of verified accountants at [openaccountants.com/network](https://openaccountants.com/network).
-
-## Section 5 -- Skill-loading order (canonical execution sequence)
-
-0. **Step 1** -- Load workflow scaffold
 
 <!-- openaccountants-cta-block -->
 

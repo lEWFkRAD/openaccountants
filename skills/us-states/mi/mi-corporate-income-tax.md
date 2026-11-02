@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Michigan imposes a 6% flat Corporate Income Tax on the apportioned business income of C-corporations under the Income Tax Act of 1967 as amended by Public Act 38 of 2011 (MCL 206.601 et seq.). Pass-through entities are not subject to CIT but may elect the 4.25% Flow-Through Entity Tax (FTE) under PA 135 of 2021 as a SALT-cap workaround. The Small Business Alternative Credit reduces a qualifying small C-corp's liability to 1.8% of its adjusted business income (MCL 206.671(4)). Apportionment is single sales factor with market-based sourcing; no throwback. Filing is on Form 4891 with mandatory unitary combined returns. Pre-2012 MBT credits may keep certain taxpayers on the legacy Michigan Business Tax through 2031. Tax year 2025.
 
-## 1. Scope
+## Who this applies to
 
 - **Scope heading** -- 
 
@@ -46,13 +46,15 @@ Michigan imposes a 6% flat Corporate Income Tax on the apportioned business inco
 - **P.L. 86-272 protection** -- Public Law 86-272 (15 U.S.C. §§381-384) continues to protect taxpayers whose Michigan activity is limited to soliciting orders for sales of tangible personal property that are approved and shipped from outside Michigan. P.L. 86-272 does not protect: services (limited to tangible personal property), sales of intangibles, and activities that go beyond solicitation (in-state inventory, installation, post-sale service, etc.).  _(15 U.S.C. §§381-384)_
 - **P.L. 86-272 filing requirement and sales factor inclusion** -- Even when P.L. 86-272 protects a taxpayer from CIT on net income, the taxpayer is still required to file a return and the Michigan receipts are still included in the denominator of the sales factor of any unitary affiliate that does have nexus. The Michigan Department of Treasury has not yet formally adopted the Multistate Tax Commission's 2021 revised P.L. 86-272 statement targeting internet activities, so the traditional P.L. 86-272 analysis still controls for Michigan as of tax year 2025.
 
-## 2. Rate and tax base
+## Rates, bands and thresholds
 
 - **Rate and tax base heading** -- 
 
 ### 2.1 Rate
 
 - **CIT flat rate** -- 6% percent (of the apportioned tax base; flat, no graduated brackets, no surtax; unchanged since PA 38 of 2011 took effect January 1, 2012)  _(MCL 206.623)_
+
+## The taxable base
 
 ### 2.2 Starting point: federal taxable income
 
@@ -243,7 +245,7 @@ For freelance developer-scale taxpayers and the typical small-and-mid C-corp tha
 
 - **OBBBA SALT cap increase** -- The One Big Beautiful Bill Act of July 4, 2025 (PL 119-21) raised the federal SALT cap for individuals from $10,000 to $40,000 for tax years 2025-2029 with a phase-down for AGI over $500,000. This reduces but does not eliminate the benefit of state pass-through entity taxes. For most high-income Michigan partners/shareholders, the FTE is still beneficial because Michigan income tax (4.25% of substantial flow-through income) plus property tax plus other state taxes still exceeds the new $40,000 cap. The 3-year lock-in is now somewhat less attractive because the federal benefit could change again at the end of 2029.  _(PL 119-21)_
 
-## 8. Filing and estimated tax
+## Deadlines and filing
 
 - **Filing and estimated tax heading** -- 
 
@@ -276,6 +278,8 @@ For freelance developer-scale taxpayers and the typical small-and-mid C-corp tha
 | Q4 | January 15 of the following year |
 
 - **Safe harbor installment rule** -- Each quarterly payment is 25% of the estimated annual liability (or the quarter's estimated base). No interest or penalty is assessed if (a) the sum of the estimated payments equals at least 85% of the liability and each payment reasonably approximates the liability incurred during that quarter, or (b) the preceding year's CIT liability was $20,000 or less and the taxpayer paid 4 equal installments totaling the preceding year's liability.  _(MCL 206.681(3)(a)-(b))_
+## Penalties and interest
+
 - **Underpayment interest** -- Underpayment triggers interest under MCL 205.23 at the prevailing Treasury rate. There is no separate underpayment penalty form analogous to federal Form 2220; the interest is assessed by the Department on examination or self-reported on Form 4899.  _(MCL 205.23)_
 
 ### 8.6 Estimated tax form
@@ -326,7 +330,14 @@ Note: Highland Park's individual rates are 2.00% (resident) / 1.00% (non-residen
 - **Local city tax out of scope** -- This skill does not prepare local city income tax returns. If the taxpayer has nexus with any Michigan city that imposes a local income tax, refer to the city-specific filing instructions (Detroit Form 5297 corporate, Grand Rapids Form GR-1120, etc.). Local cities use their own apportionment formulas (most are still three-factor) and have their own due dates (most are April 30 for calendar-year corps).
 - **No CIT credit for local city tax** -- The CIT does not provide any credit for local city income tax, so a Detroit-based corporation pays the full 6% state CIT plus the 2% Detroit corporate income tax on Detroit-apportioned income, for an effective combined rate of approximately 8%.
 
-## 10. Worked examples
+## Cross-border points
+
+- **P.L. 86-272** -- federal protection for solicitation-only sales of tangible personal property (see Nexus above); filing is still required and Michigan receipts still enter the sales factor of nexus-bearing affiliates.
+- **No throwback** -- Michigan repealed throwback; unapportioned sales to Michigan in a no-tax jurisdiction stay out of the sales factor numerator.
+- **Water's-edge** -- the unitary group excludes foreign operating entities (MCL 206.607(3)); foreign affiliate questions are a refusal trigger.
+- **Individual cross-border** -- nonresident and part-year individual situations are handled in the mi-cross-border-tax skill, not here.
+
+## Worked examples
 
 ### Worked example 1: single-shareholder C-corp tested against the SBAC
 
@@ -433,14 +444,47 @@ For tax year 2025:
 - If either partner had been a non-resident of Michigan, the analysis would still favor FTE (Michigan still allows the refundable credit to non-resident members), but the partner's state-of-residence may not give a credit for FTE paid (the credit-mechanism question depends on the home state's PTE-credit policy).
 - If the LLC had elected to be taxed as a C-corp federally instead, it would owe 6% CIT (not 4.25% FTE) and would not qualify for the FTE workaround -- though the C-corp itself can deduct state tax federally without SALT cap.
 
-## 11. Provenance
+## Ask the client first
 
-### Statutes
+- Entity type and federal filing status (C-corp vs pass-through; whether an FTE election was made or is available).
+- Whether the federal return claimed bonus depreciation under IRC 168(k)/168(n) or section 174A amortization -- Michigan requires the Form 4891 separation adjustments.
+- Whether the corporation is part of a unitary business group (common ownership plus unity of operation) and whether any member is a foreign operating entity.
+- Shareholder compensation and ownership percentages, and adjusted business income versus the indexed SBAC threshold, before quoting SBAC eligibility.
+- Whether the business has nexus with Detroit or another local income-tax city (separate returns, separate deadlines).
 
-- Income Tax Act of 1967, Part 2 (Corporate Income Tax), MCL 206.601 to MCL 206.713, as enacted by PA 38 of 2011 and amended through 2025.
-- Flow-Through Entity Tax, MCL 206.801 to MCL 206.847, as enacted by PA 135 of 2021.
-- Uniform City Income Tax Act, MCL 141.501 to MCL 141.787 (Detroit) and MCL 141.601 to MCL 141.787e (other cities).
-- Michigan Business Tax Act, PA 36 of 2007, codified at MCL 208.1101 to MCL 208.1601 (retained for legacy MBT certificated credit elections only).
+## Sources
+
+| # | Source | URL | Read on |
+| --- | --- | --- | --- |
+| 1 | MCL 206.603 -- CIT nexus | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-603 | 2026-10-31 |
+| 2 | MCL 206.605 -- CIT imposition and rate | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-605 | 2026-10-31 |
+| 3 | MCL 206.607 -- federal taxable income modifications; water's edge | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-607 | 2026-10-31 |
+| 4 | MCL 206.609 -- credits against CIT | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-609 | 2026-10-31 |
+| 5 | MCL 206.611 -- sales factor apportionment | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-611 | 2026-10-31 |
+| 6 | MCL 206.621 -- allocation and apportionment of income | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-621 | 2026-10-31 |
+| 7 | MCL 206.623 -- taxable income; Michigan business loss | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-623 | 2026-10-31 |
+| 8 | MCL 206.623a -- net operating loss carryforward (legacy) | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-623a | 2026-10-31 |
+| 9 | MCL 206.635 -- insurance company tax (out of scope) | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-635 | 2026-10-31 |
+| 10 | MCL 206.651 -- financial institution tax (out of scope) | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-651 | 2026-10-31 |
+| 11 | MCL 206.671 -- small business alternative credit | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-671 | 2026-10-31 |
+| 12 | MCL 206.681 -- CIT annual return, due dates, estimated tax | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-681 | 2026-10-31 |
+| 13 | MCL 206.685 -- electronic filing requirement | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-685 | 2026-10-31 |
+| 14 | MCL 206.691 -- interest on underpayments (cross-ref MCL 205.23) | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-691 | 2026-10-31 |
+| 15 | MCL 206.801 to 206.815 -- Flow-Through Entity Tax (PA 135 of 2021) | https://legislature.mi.gov/Laws/MCL?objectName=mcl-206-801 | 2026-10-31 |
+| 16 | MCL 205.23 -- interest on underpayments | https://legislature.mi.gov/Laws/MCL?objectName=mcl-205-23 | 2026-10-31 |
+| 17 | PA 135 of 2021 -- FTE enacting act | https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2021-PA-0135.htm | 2026-10-31 |
+| 18 | PA 36 of 2007 -- Michigan Business Tax (legacy) | https://www.legislature.mi.gov/documents/2007-2008/publicact/htm/2007-PA-0036.htm | 2026-10-31 |
+| 19 | MCL 208.1201 / 208.1281 / 208.1500 -- MBT legacy provisions | https://legislature.mi.gov/Laws/MCL?objectName=mcl-208-1281 | 2026-10-31 |
+| 20 | Michigan 2025 Tax Text (Treasury compilation) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Tax-Professional/2025_Tax_Text.pdf | 2026-10-31 |
+| 21 | Form 5297 instructions (Detroit city CIT, TY2025) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/City-CIT/TY2025/5297_ty2025-instructions.pdf | 2026-11-01 |
+| 22 | Grand Rapids -- other Michigan cities with income tax (rate table) | https://www.grandrapidsmi.gov/departments/fiscal-services/income-tax/other-michigan-cities-with-income-tax | 2026-11-01 |
+| 23 | Treasury -- Detroit corporate income tax page | https://www.michigan.gov/taxes/citytax/detroit/business/cit | 2026-11-01 |
+| 24 | Treasury -- MBT surcharge page | https://www.michigan.gov/taxes/business-taxes/mbt/details/surcharge | 2026-10-31 |
+| 25 | IRS Notice 2020-75 (SALT cap and entity-level taxes) | https://www.irs.gov/pub/irs-drop/n-20-75.pdf | 2026-10-31 |
+| 26 | One Big Beautiful Bill Act, PL 119-21 (H.R. 1, enrolled) | https://www.govinfo.gov/content/pkg/BILLS-119hr1enr/html/BILLS-119hr1enr.htm | 2026-10-31 |
+| 27 | 26 U.S.C. 164, 172, 243, 6072 (federal interactions) | https://www.law.cornell.edu/uscode/text/26/243 | 2026-10-31 |
+
+Archived working copies of Form 4891 instructions, Form 4893, and Form 4946 (TY2025) were also read; they are stored in the evidence set without a canonical URL.
 
 ### Regulations and bulletins
 
