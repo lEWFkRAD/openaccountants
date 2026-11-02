@@ -13,9 +13,9 @@ description: >
   18 CCR §23101, §25128 and 15 U.S.C. §381 read 2026-10-27.
 jurisdiction: US-CA
 category: cross-border
-tax_year: 2026
+tax_year: 2025
 tier: 2
-last_updated: 2026-10-27
+last_updated: 2026-11-02
 version: 0.1
 verified_by: pending
 depends_on:
@@ -32,15 +32,17 @@ and how interstate/cross-border income is apportioned. Primary
 verified sources this run: 18 CCR §23101 ("Doing Business"-Defined,
 via Cornell LII, 200, 2026-10-27), 15 U.S.C. §381 (PL 86-272, 200,
 2026-10-27), 18 CCR §25128 (apportionment factors, 200, 2026-10-27).
-R&TC §§23101/25128 leginfo pages returned 403 to this agent --
-statute cites pending verification.
+R&TC §23101 and §25128 are now archived from leginfo (2026-11-01);
+the FTB 2025 Form 100 booklet and FTB doing-business page back the
+thresholds below.
 
 ## Rates, bands and thresholds
 | Item | Amount | Source |
 |---|---|---|
-| Franchise tax | 8.84%, $800 minimum | FTB tax-rates page (verified 2026-10-27) |
-| Economic nexus -- sales | > $750,000 (verify current) | R&TC §23101 (pending) | (not yet confirmed)
-| Economic nexus -- revenue share | > 25% of total (verify current) | R&TC §23101 (pending) |
+| Franchise tax | 8.84%, $800 minimum | FTB Corporation Tax Rates page (archived 2026-11-01); $800 minimum per 2025 Form 100 booklet |
+| Doing business -- CA sales | Exceed the lesser of $757,070 (2025) or 25% of total sales; statutory base $500,000 adjusted annually | FTB doing-business page; R&TC §23101(c)(2) |
+| Doing business -- CA property | Exceed the lesser of $75,707 (2025) or 25% of total property (base $50,000) | FTB doing-business page; R&TC §23101(c)(3) |
+| Doing business -- CA payroll | Exceed the lesser of $75,707 (2025) or 25% of total compensation (base $50,000) | FTB doing-business page; R&TC §23101(c)(4) |
 | Apportionment | Single sales factor (2023+) | 18 CCR §25128 (verified); R&TC §25128 (pending) |
 
 ## The taxable base
@@ -56,7 +58,10 @@ statute cites pending verification.
 
 ## Deadlines and filing
 - Form 100: 15th day of the 4th month after year close (April 15
-  calendar year); Form 7004 extends filing only.
+  calendar year). California grants an automatic 6-month filing
+  extension (to the 15th day of the 11th month) with no written
+  request; payment is NOT extended -- pay by the original due date
+  with FTB 3539 (2025 Form 100 booklet).
 - A first-year filer should register with FTB before the due date;
   failure to register does not stop the filing clock.
 
@@ -88,6 +93,9 @@ statute cites pending verification.
   corporations use the §24011 credit mechanics (pending verification).
 
 ## Worked examples
+
+### Worked example 1: Ohio corporation crosses the CA sales nexus threshold
+
 An Ohio corporation with no California property or payroll has
 California sales of $900,000 and total sales of $3,000,000; total
 revenue $3,000,000. Nexus and tax on $1,000,000 of unitary income:
@@ -108,6 +116,8 @@ expected:
   apportioned: 300000.00
   tax: 26520.00
 ```
+
+### Worked example 2: Same facts, but PL 86-272 protection applies
 
 The same corporation's only California activity is a salesperson
 soliciting orders for goods shipped from Ohio:
@@ -148,8 +158,14 @@ be confirmed against current FTB guidance before advising.)
 ## Sources
 | Source | URL | Read on |
 | --- | --- | --- |
+| FTB Doing Business in California (threshold table 2025/2024) | https://www.ftb.ca.gov/file/business/doing-business-in-california.html | 2026-11-01 |
+| FTB Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html | 2026-11-01 |
+| FTB 2025 Form 100 Booklet | https://www.ftb.ca.gov/forms/2025/2025-100-booklet.html | 2026-11-01 |
+| FTB Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html | 2026-11-01 |
+| R&TC section 23101 (doing business defined) | https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=23101. | 2026-11-01 |
+| 18 CCR section 25110 (water's-edge / combined report) | https://www.law.cornell.edu/regulations/california/18-CCR-25110 | 2026-11-01 |
 
-Not yet confirmed:  FTB -- Corporation Tax Rates | https://www.ftb.ca.gov/file/business/tax-rates.html ;  FTB -- Penalties and Interest | https://www.ftb.ca.gov/pay/penalties-and-interest/index.html ; the 8.84% rate and $800 minimum franchise tax, economic-nexus thresholds ($750,000 / 25%), the 18 CCR §§23101/25128/25110 and 15 U.S.C. §381 (PL 86-272) texts cited from Cornell LII, the credit-for-taxes-paid cites (R&TC §§17059, 24011), and the R&TC §§23101, 23151, 25128, 25134 and 25123 statute cites (leginfo 403 on 2026-10-27) are not yet confirmed against archived sources.
+Not yet confirmed: the 18 CCR §23101 and §25128 and 15 U.S.C. §381 (PL 86-272) texts were read from Cornell LII copies that have no sidecar in this pack, so they are cited in the body but not listed above; the credit-for-taxes-paid cites (R&TC §§17059, 24011) and the sourcing statutes (R&TC §§25134, 25123) are not archived here; the interaction of PL 86-272 with the $800 minimum franchise tax needs FTB guidance review.
 ## Talk to a verified accountant
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for California nexus and cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
