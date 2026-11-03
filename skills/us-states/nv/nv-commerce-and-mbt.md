@@ -115,8 +115,8 @@ The category election matters: on $1,000,000 of Nevada gross revenue above the t
 
 ## Penalties and interest
 
-- Late MBT filing penalties are graduated by days late under NAC 360.395: 2% of the tax due for 1 to 10 days, 4% for 11 to 15 days, 6% for 16 to 20 days, 8% for 21 to 30 days, and 10% for more than 30 days; 10% is the maximum, not a flat rate (TAX-F003 instructions).
-- Interest on underpayments accrues at 0.75% per month under NRS 360.417 (TAX-F003 instructions; the rate was reduced from 1% to 0.75% per month effective July 1, 2011, per the Department's sales and use tax page).
+- Late MBT filing penalties are graduated by days late under NAC 360.395: 2% of the tax due for 1 to 10 days, 4% for 11 to 15 days, 6% for 16 to 20 days, 8% for 21 to 30 days, and 10% for more than 30 days; 10% is the maximum, not a flat rate (TAX-F002 instructions; same table in the TAX-F003 instructions).
+ - Interest on underpayments accrues at 0.75% per month under NRS 360.417 (TAX-F002 instructions; the rate was reduced from 1% to 0.75% per month effective July 1, 2011, per the Department's sales and use tax page).
 - Commerce Tax extension period interest: 0.75% per month (NRS 363C.200(4)).
 
 ## Cross-border points
@@ -252,12 +252,10 @@ expected:
 | NRS Chapter 363C (Commerce Tax), current revision | https://www.leg.state.nv.us/nrs/nrs-363c.html | 2026-10-31 |
 | NRS Chapter 363B (MBT, general business), current revision | https://www.leg.state.nv.us/nrs/nrs-363b.html | 2026-10-31 |
 | NRS Chapter 363A (MBT, financial institutions), current revision | https://www.leg.state.nv.us/nrs/nrs-363a.html | 2026-10-31 |
-| NRS Chapter 360 (tax administration, including 360.203 rate reductions and 360.417 interest), current revision | https://www.leg.state.nv.us/nrs/nrs-360.html | 2026-11-03 |
 | Nevada Department of Taxation, Modified Business Tax FAQs | https://tax.nv.gov/tax-types/modified-business-tax/mbt-faqs/ | 2026-10-31 |
 | Nevada Department of Taxation, Commerce Tax page (2025-2026 filing due August 14, 2026; extension of time to file and pay) | https://tax.nv.gov/tax-types/commerce-tax/ | 2026-10-31 |
 | Form EXC-F025, Commerce Tax Return, with instructions (due August 14; 0.75% monthly extension interest) | https://tax.nv.gov/wp-content/uploads/2025/07/EXC-F025-COM-Tax-Return-2.pdf | 2026-11-03 |
-| Form TAX-F003, MBT Return General Business, with instructions (rate .0117; graduated penalties per NAC 360.395; interest per NRS 360.417) | https://tax.nv.gov/wp-content/uploads/2025/12/TAX-F003-MBT-Return-General-Business.pdf | 2026-11-03 |
-| Form TAX-F002, MBT Return Financial Institution (rate .01554) | https://tax.nv.gov/wp-content/uploads/2025/12/TAX-F002-MBT-Return-Financial-Institution.pdf | 2026-11-03 |
+| Form TAX-F002, MBT Return Financial Institution, with instructions (rate .01554; graduated penalties per NAC 360.395; interest 0.75% per month) | https://tax.nv.gov/wp-content/uploads/2025/12/TAX-F002-MBT-Return-Financial-Institution.pdf | 2026-11-03 |
 | Nevada Department of Taxation, Components of Sales Tax (2.00 + 2.60 + 0.50 + 1.75) | https://tax.nv.gov/wp-content/uploads/2024/01/Components-of-Sales-Tax.pdf | 2026-10-31 |
 | Nevada Department of Taxation, Sales Tax and Use Tax (6.85% statewide; Clark 8.375%; Washoe 8.265%; interest 0.75% per month from July 1, 2011) | https://tax.nv.gov/tax-types/sales-tax-use-tax/ | 2026-10-31 |
 | NRS Chapter 374 (local school support tax), current revision | https://www.leg.state.nv.us/nrs/nrs-374.html | 2026-10-31 |
