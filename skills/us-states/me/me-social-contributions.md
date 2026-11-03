@@ -9,13 +9,13 @@ description: >
   "ME UC-1", "Maine employer contributions", "Maine SUTA". Source-cited
   draft; ME UC-1 role and DOL administration verified on the MRS
   employer-withholding page 2026-10-28; wage base and rate schedules
-  UI figures not yet confirmed (DOL UI page unreachable this run).
+  UI wage base and 2026 rates confirmed from archived MRS/DOL sources 2026-11-01.
 jurisdiction: US-ME
 category: payroll
 tax_year: 2026
 tier: 2
-last_updated: 2026-10-28
-version: 0.1
+last_updated: 2026-11-02
+version: 0.2
 verified_by: pending
 depends_on:
   - me-income-tax
@@ -35,10 +35,10 @@ Every Maine employer (and out-of-state employers with Maine employees) that pays
 
 | Item | 2026 figure | Source status |
 |---|---|---|
-| ME UI taxable wage base | not fetched | Not yet confirmed |
-| Employer experience rates | schedule not fetched | Not yet confirmed |
-| New-employer rate | not fetched | Not yet confirmed |
-| FUTA (federal, for context) | 6.0% on first $7,000, credit up to 5.4% for timely SUTA | not yet confirmed (federal standing rule; no archived source in this pack) |
+| ME UI taxable wage base | $12,000 per employee ("Effective January 1, 2000, the taxable wage base for the State of Maine is $12,000") | Maine DOL employers FAQ, archived 2026-11-01 |
+| New-employer rate | 2.23% UI plus CSSF 0.14% and UPAF 0.17% for a combined 2.54% | MRS 2026 UI tax rates PDF, archived 2026-11-01 |
+| Employer experience rates | assigned per the 2026 rate schedule (new employers start at 2.23%) | MRS 2026 UI tax rates PDF, archived 2026-11-01 |
+| FUTA (federal, for context) | 6.0% on first $7,000, credit up to 5.4% for timely SUTA (net 0.6%) | IRS Publication 15 (2026), archived 2026-11-02 |
 
 ## The taxable base
 
@@ -47,7 +47,7 @@ Every Maine employer (and out-of-state employers with Maine employees) that pays
 
 ## Deadlines and filing
 
-- UC-1 quarterly due dates: standard last-day-of-month-after-quarter convention expected -- not yet confirmed.
+- UC-1 quarterly due dates: "ME UC-1 April 30, July 31, October 31, January 31" (MRS Forms and Due Dates page, archived 2026-10-29).
 - Penalty/interest schedule for late UI reports: not yet confirmed.
 
 ## Penalties and interest
@@ -60,7 +60,7 @@ Multi-state employers register with Maine DOL for UI and withhold Maine income t
 
 ## Worked examples
 
-**Worked example 1 -- FUTA net cost per employee (federal context; all facts hypothetical).**
+### Worked example 1: FUTA net cost per employee (federal context; all facts hypothetical).
 
 ```oa-check
 name: FUTA net 0.6 percent
@@ -73,17 +73,17 @@ expected:
   futa: 42.00
 ```
 
-**Worked example 2 -- hypothetical ME UI cost (all facts hypothetical, not yet confirmed).** Wage base $37,000 and experience rate 2.1% are assumed pending the DOL schedule:
+### Worked example 2: new-employer ME UI cost per employee (all facts hypothetical). Wage base $12,000 and the 2026 new-employer UI rate 2.23%:
 
 ```oa-check
 name: ME UI hypothetical
 inputs:
-  wage_base: 37000
-  rate: 0.021
+  wage_base: 12000
+  rate: 0.0223
 steps:
   - ui: wage_base * rate
 expected:
-  ui: 777.00
+  ui: 267.60
 ```
 
 ## Ask the client first
@@ -98,8 +98,12 @@ expected:
 |---|---|---|
 | MRS Employer Withholding (941ME and ME UC-1) | https://www.maine.gov/revenue/taxes/income-estate-tax/employer-withholding | 2026-10-29 |
 | Maine Department of Labor (UI administration) | https://www.maine.gov/labor/ | 2026-10-29 |
+| Maine DOL Employers FAQ (UI taxable wage base $12,000) | https://www.maine.gov/unemployment/employersfaq/ | 2026-11-01 |
+| MRS 2026 UI Employer Tax Rates (new-employer 2.23% + 0.14% CSSF + 0.17% UPAF = 2.54%) | https://www.maine.gov/unemployment/docs/2026/employers/uitaxrates2026.pdf | 2026-11-01 |
+| IRS Publication 15 (2026) (FUTA 6.0% on first $7,000, credit up to 5.4%) | https://www.irs.gov/pub/irs-pdf/p15.pdf | 2026-11-02 |
+| MRS Forms and Due Dates (UC-1 quarterly dates) | https://www.maine.gov/revenue/tax-return-forms/due-dates | 2026-10-29 |
 
-Not yet confirmed: 2026 UI taxable wage base, employer rate schedule, new-employer rate, UC-1 due dates, penalty/interest, localization and reciprocity statements (the DOL UI rate page was not reachable; archived labor page confirms administration only).
+Not yet confirmed: UI penalty/interest schedule for late UC-1 reports, localization and reciprocity statements, and the full employer experience-rate range.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Maine payroll/social-cost questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

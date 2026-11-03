@@ -109,7 +109,7 @@ expected:
 | Source | URL | Read on |
 |---|---|---|
 | 36 M.R.S. § 1811 (sales and use tax rates) | https://legislature.maine.gov/statutes/36/title36sec1811.html | 2026-10-28 |
-| 36 M.R.S. § 1754-B (sales and use tax registration; economic nexus) | https://legislature.maine.gov/statutes/36/title36sec1754-B.html | 2026-11-01 |
+| 36 M.R.S. § 1754-B (sales and use tax registration; economic nexus) | https://legislature.maine.gov/statutes/36/title36sec1754-B.html | 2026-10-31 |
 | MRS Sales Tax Rates page | https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax/rates-due-dates | 2026-10-29 |
 
 Not yet confirmed: whether the Quick-reference SST-membership and sourcing rows match a current MRS page verbatim (they follow the archived statute framework); cannabis market-facility fee interactions with the 14% rate; late-filing/late-payment penalty percentages.

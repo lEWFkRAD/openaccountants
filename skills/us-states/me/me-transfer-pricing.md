@@ -45,7 +45,7 @@ No standalone TP rate. Exposure runs through the corporate graduated scale (see 
 
 ## Deadlines and filing
 
-Combined reports ride the 1120ME calendar ("Form 1120ME due date: April 15, 2026", 1120ME instructions, archived). Adjustments attract the same penalty/interest regime as underpaid corporate tax -- estimated-tax penalty 9% compounded monthly for calendar 2026 (1120ME instructions).
+Combined reports ride the 1120ME calendar: the 2025 instructions print "Form 1120ME due date: April 15, 2026" (the 2025-return deadline); the MRS due-dates page rule is "1120ME, 1120EXT-ME April 15 for calendar year filers", so a calendar-year 2026 combined report is due April 15, 2027. Adjustments attract the same penalty/interest regime as underpaid corporate tax -- estimated-tax penalty 9% compounded monthly for calendar 2026 (1120ME instructions).
 
 ## Penalties and interest
 
@@ -57,7 +57,7 @@ Foreign affiliates inside a unitary chain may be swept into the combined report 
 
 ## Worked examples
 
-**Worked example 1 -- combined income apportioned to Maine (all facts hypothetical).** Unitary group combined taxable income $2,000,000; Maine apportionment factor 25%:
+### Worked example 1: combined income apportioned to Maine (all facts hypothetical). Unitary group combined taxable income $2,000,000; Maine apportionment factor 25%:
 
 ```oa-check
 name: ME combined apportionment
@@ -70,7 +70,7 @@ expected:
   me_share: 500000.00
 ```
 
-**Worked example 2 -- royalty shift exposure (all facts hypothetical).** A $300,000 intercompany royalty moves income from the Maine unitary member to a low-tax affiliate; with a 25% Maine factor the Maine combined base falls by $300,000 × 25% = $75,000, taxed at the 3.5% bottom band if the group is small:
+### Worked example 2: royalty shift exposure (all facts hypothetical). A $300,000 intercompany royalty moves income from the Maine unitary member to a low-tax affiliate; with a 25% Maine factor the Maine combined base falls by $300,000 × 25% = $75,000, taxed at the 3.5% bottom band if the group is small:
 
 ```oa-check
 name: ME royalty shift exposure

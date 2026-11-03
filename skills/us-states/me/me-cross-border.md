@@ -38,7 +38,7 @@ Covers how Maine reaches nonresidents and how Maine residents get credit for oth
 
 ## Rates, bands and thresholds
 
-Maine taxable income is taxed on the same graduated schedule as residents (top 7.95% plus 2% surcharge bands -- § 5111, verified). Nonresidents are effectively taxed on their Maine-source share (Schedule NR ratio method -- mechanics not yet confirmed line-by-line).
+Maine taxable income is taxed on the same graduated schedule as residents (top 7.15% plus 2% surcharge bands -- § 5111, verified). Nonresidents are effectively taxed on their Maine-source share (Schedule NR ratio method -- mechanics not yet confirmed line-by-line).
 
 ## The taxable base
 
@@ -49,7 +49,7 @@ Maine taxable income is taxed on the same graduated schedule as residents (top 7
 
 ## Deadlines and filing
 
-1040ME due date: "Form 1040ME due date: Wednesday, April 15, 2026" (2025 Form 1040ME instructions, archived). Penalties/interest: MRS interest table 9% for 2026 (see `me-corporate-income-tax.md`); individual penalty percentages not yet confirmed.
+1040ME due date: the 2025 instructions print "Form 1040ME due date: Wednesday, April 15, 2026" -- that is the 2025-return deadline; the MRS due-dates page rule is "1040ME, 1040EXT-ME April 15*", so the 2026 return is due April 15, 2027. Penalties/interest: MRS interest table 9% for 2026 (see `me-corporate-income-tax.md`); individual penalty percentages not yet confirmed.
 
 ## Penalties and interest
 
@@ -62,7 +62,7 @@ Late filing and late payment attract Maine Revenue Services penalties and intere
 
 ## Worked examples
 
-**Worked example 1 -- nonresident ratio method (all facts hypothetical).** Nonresident with $250,000 total income, $40,000 Maine-source; hypothetical tax on a full $250,000 return $20,000:
+### Worked example 1: nonresident ratio method (all facts hypothetical). Nonresident with $250,000 total income, $40,000 Maine-source; hypothetical tax on a full $250,000 return $20,000:
 
 ```oa-check
 name: ME nonresident ratio
@@ -77,17 +77,17 @@ expected:
   me_tax: 3200.00
 ```
 
-**Worked example 2 -- 941P over-withholding refund (hypothetical).** PTE withheld $3,975 for the nonresident member (see `me-payroll.md` example); final Maine liability after credits $3,200:
+### Worked example 2: 941P over-withholding refund (hypothetical). PTE withheld $3,575 for the nonresident member (see `me-payroll.md` example); final Maine liability after credits $3,200:
 
 ```oa-check
 name: ME composite refund
 inputs:
-  withheld: 3975
+  withheld: 3575
   liability: 3200
 steps:
   - refund: withheld - liability
 expected:
-  refund: 775.00
+  refund: 375.00
 ```
 
 ## Ask the client first

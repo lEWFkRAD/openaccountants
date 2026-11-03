@@ -54,7 +54,7 @@ Maine taxable income starts from federal taxable income (2025 Form 1120ME instru
 
 ## Deadlines and filing
 
-- Form 1120ME due date: "Form 1120ME due date: April 15, 2026" (2025 Form 1120ME instructions, archived); MRS due-dates page: "1120ME, 1120EXT-ME April 15 for calendar year filers, September 15 for filers with a year end of June 30, 15th day of the 4th month following the end of the fiscal year".
+- Form 1120ME due date: the 2025 instructions print "Form 1120ME due date: April 15, 2026" -- that is the 2025-return deadline; the general rule on the MRS due-dates page is "1120ME, 1120EXT-ME April 15 for calendar year filers, September 15 for filers with a year end of June 30, 15th day of the 4th month following the end of the fiscal year", so a calendar-year 2026 return is due April 15, 2027.
 - Estimated payments: required unless the liability net of credits is under $1,000 (1120ME instructions: "less than $1,000"); quarterly installments required; safe-harbor sum of payments at least the lesser of prior-year Maine liability or 90% of current-year liability (1120ME instructions).
 - Underpayment of estimated tax penalty: 10% compounded monthly for calendar 2025, 9% for calendar 2026 (1120ME instructions: "For calendar year 2025, the penalty is 10%, compounded monthly. The penalty rate for calendar year 2026 is 9%, compounded monthly"). Interest: MRS publishes the table -- "1/1/26 - 12/31/26 9% 0.024658%" (MRS Interest Rates page, read 2026-10-29).
 
@@ -69,7 +69,7 @@ Late filing and late payment attract Maine Revenue Services penalties and intere
 
 ## Worked examples
 
-**Worked example 1 -- small C corp, fully apportioned to Maine (hypothetical).** Maine taxable income $300,000 (all Maine):
+### Worked example 1: small C corp, fully apportioned to Maine (hypothetical). Maine taxable income $300,000 (all Maine):
 
 ```oa-check
 name: ME corporate 3.5% band
@@ -83,22 +83,24 @@ expected:
   tax: 10500.00
 ```
 
-**Worked example 2 -- $4,000,000 Maine taxable income (hypothetical)**:
+### Worked example 2: $4,000,000 Maine taxable income (hypothetical):
 
 ```oa-check
 name: ME corporate graduated 4M
 inputs:
   income: 4000000
   rate_low: 0.035
-  rate_mid: 0.0793
+  rate_mid1: 0.0793
+  rate_mid2: 0.0833
   rate_high: 0.0893
 steps:
   - band_low: min(income, 350000) * rate_low
-  - band_mid: (min(income, 3500000) - 350000) * rate_mid
+  - band_mid1: (min(income, 1050000) - 350000) * rate_mid1
+  - band_mid2: (min(income, 3500000) - 1050000) * rate_mid2
   - band_high: max(income - 3500000, 0) * rate_high
-  - tax: band_low + band_mid + band_high
+  - tax: band_low + band_mid1 + band_mid2 + band_high
 expected:
-  tax: 306695.00
+  tax: 316495.00
 ```
 
 ## Ask the client first

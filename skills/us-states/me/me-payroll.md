@@ -58,7 +58,7 @@ Nonresident owners face withholding at the entity level (941P-ME) or a composite
 
 ## Worked examples
 
-**Worked example 1 -- quarterly remittance (hypothetical).** Q1 Maine wages $120,000, effective withheld rate 5%:
+### Worked example 1: quarterly remittance (hypothetical). Q1 Maine wages $120,000, effective withheld rate 5%:
 
 ```oa-check
 name: ME quarterly withholding
@@ -71,17 +71,17 @@ expected:
   withheld: 6000.00
 ```
 
-**Worked example 2 -- PTE withholding on a nonresident member (hypothetical).** Nonresident member's Maine-apportioned quarterly earnings $50,000, withheld at the 7.95% top marginal rate (per Rule 803 PTE amounts use "the actual income of the payee for a particular quarter or 25% of the payee's annual income"):
+### Worked example 2: PTE withholding on a nonresident member (hypothetical). Nonresident member's Maine-apportioned quarterly earnings $50,000, withheld at the 7.15% top marginal rate (per Rule 803 PTE amounts use "the actual income of the payee for a particular quarter or 25% of the payee's annual income"):
 
 ```oa-check
 name: ME 941P hypothetical
 inputs:
   member_income: 50000
-  rate: 0.0795
+  rate: 0.0715
 steps:
   - withheld: member_income * rate
 expected:
-  withheld: 3975.00
+  withheld: 3575.00
 ```
 
 ## Ask the client first

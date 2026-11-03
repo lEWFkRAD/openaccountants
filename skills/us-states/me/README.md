@@ -15,7 +15,7 @@ as_of: 2026-10-28
 
 # Maine (US-ME) -- pack map
 
-Maine taxes individuals on a graduated schedule (top marginal 7.95% plus a 2% surcharge on high income -- 36 M.R.S. § 5111, statute page verified 2026-10-28), corporations on a **graduated scale from 3.5% (income up to $350,000) to 8.93% (income in excess of $3,500,000)** (Maine Revenue Services 1120ME page, verified 2026-10-28), and sales at 5.5% general state rate (prepared food 8%, lodging 9% from 2026 -- MRS rates page, archived 2026-10-29; see `me-sales-tax.md`). Employer withholding runs on **Form 941ME (quarterly)** with the **ME UC-1** unemployment contributions report processed by MRS for the Department of Labor (verified). Pass-through entities with nonresident members must withhold via **Form 941P-ME** or file a composite return (verified).
+Maine taxes individuals on a graduated schedule (top marginal 7.15% plus a 2% surcharge on high income -- 36 M.R.S. § 5111 and the MRS 2026 rate schedule, verified 2026-10-28/29), corporations on a **graduated scale from 3.5% (income up to $350,000) to 8.93% (income in excess of $3,500,000)** (Maine Revenue Services 1120ME page, verified 2026-10-28), and sales at 5.5% general state rate (prepared food 8%, lodging 9% -- MRS rates page, archived 2026-10-29; see `me-sales-tax.md`). Employer withholding runs on **Form 941ME (quarterly)** with the **ME UC-1** unemployment contributions report processed by MRS for the Department of Labor (verified). Pass-through entities with nonresident members must withhold via **Form 941P-ME** or file a composite return (verified).
 
 ## Domain map
 
