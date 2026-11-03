@@ -36,8 +36,8 @@ Every Maine employer (and out-of-state employers with Maine employees) that pays
 | Item | 2026 figure | Source status |
 |---|---|---|
 | ME UI taxable wage base | $12,000 per employee ("Effective January 1, 2000, the taxable wage base for the State of Maine is $12,000") | Maine DOL employers FAQ, archived 2026-11-01 |
-| New-employer rate | 2.23% UI plus CSSF 0.14% and UPAF 0.17% for a combined 2.54% | MRS 2026 UI tax rates PDF, archived 2026-11-01 |
-| Employer experience rates | assigned per the 2026 rate schedule (new employers start at 2.23%) | MRS 2026 UI tax rates PDF, archived 2026-11-01 |
+| New-employer rate | 2026 new-employer UI rate plus CSSF and UPAF surcharges (figures on the Not-yet-confirmed line below) | MRS 2026 UI tax rates PDF, archived 2026-11-01 |
+| Employer experience rates | assigned per the published 2026 rate category/employer array | MRS 2026 UI tax rates PDF, archived 2026-11-01 |
 | FUTA (federal, for context) | 6.0% on first $7,000, credit up to 5.4% for timely SUTA (net 0.6%) | IRS Publication 15 (2026), archived 2026-11-02 |
 
 ## The taxable base
@@ -99,11 +99,11 @@ expected:
 | MRS Employer Withholding (941ME and ME UC-1) | https://www.maine.gov/revenue/taxes/income-estate-tax/employer-withholding | 2026-10-29 |
 | Maine Department of Labor (UI administration) | https://www.maine.gov/labor/ | 2026-10-29 |
 | Maine DOL Employers FAQ (UI taxable wage base $12,000) | https://www.maine.gov/unemployment/employersfaq/ | 2026-11-01 |
-| MRS 2026 UI Employer Tax Rates (new-employer 2.23% + 0.14% CSSF + 0.17% UPAF = 2.54%) | https://www.maine.gov/unemployment/docs/2026/employers/uitaxrates2026.pdf | 2026-11-01 |
+| MRS/MDOL 2026 UI Employer Tax Rates (rate category/employer array) | https://www.maine.gov/unemployment/docs/2026/employers/uitaxrates2026.pdf | 2026-11-01 |
 | IRS Publication 15 (2026) (FUTA 6.0% on first $7,000, credit up to 5.4%) | https://www.irs.gov/pub/irs-pdf/p15.pdf | 2026-11-02 |
 | MRS Forms and Due Dates (UC-1 quarterly dates) | https://www.maine.gov/revenue/tax-return-forms/due-dates | 2026-10-29 |
 
-Not yet confirmed: UI penalty/interest schedule for late UC-1 reports, localization and reciprocity statements, and the full employer experience-rate range.
+Not yet confirmed: UI penalty/interest schedule for late UC-1 reports, localization and reciprocity statements, and the full employer experience-rate range. The 2026 new-employer rate (2.23% UI plus CSSF 0.14% and UPAF 0.17%, combined 2.54%) is printed in the archived MDOL 2026 rate array PDF but that one-page file is too short to index as a live source, so it is held here rather than in the body.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Maine payroll/social-cost questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
