@@ -22,7 +22,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ## Rates, bands and thresholds
 
 - Tax year 2025: the rate is 4.5 percent (.045) of Utah taxable income (TC-40, line 10).
-- Tax year 2026 forward: the rate is 4.45%. Utah Code 59-10-104, effective January 1, 2026, amended by Chapter 250, 2026 General Session (SB0060), sets the tax at 4.45% of state taxable income. The Tax Commission rate page still listed 4.5% as "current" when read on October 28, 2026; the statute controls for 2026 returns.
+- Tax year 2026 forward: the rate is 4.45%. Utah Code 59-10-104, effective January 1, 2026, amended by Chapter 250, 2026 General Session (SB0060), sets the tax at 4.45% of state taxable income. The Tax Commission rate page still lists the rate for January 1, 2025 forward as 4.5%; the statute controls for 2026 returns.
 - Rate history per the Tax Commission rate page: 4.55% for 2024, 4.65% for 2023, 4.85% for 2022, 4.95% for 2018 through 2021, and 5% for 2008 through 2017.
 - Utah personal exemption: $2,111 per dependent (TC-40, line 11).
 - Taxpayer tax credit (TC-40, lines 11 through 20): initial credit equals 6 percent of the total of the personal exemption plus the federal standard or itemized deduction (net of state income tax deducted federally). The credit phases out at 1.3 percent of Utah taxable income above the base phase-out amount: $18,213 single, $36,426 married filing jointly, $18,213 married filing separately, $27,320 head of household, $36,426 qualifying surviving spouse.
@@ -163,7 +163,7 @@ expected:
 | 2025 Utah TC-40 instructions (Form TC-40, Tax Commission) | https://tax.utah.gov/forms/current/tc-40inst.pdf | 2026-11-01 |
 | Utah Code 59-10-104, tax basis, tax rate, exemption (effective January 1, 2026) | https://le.utah.gov/xcode/Title59/Chapter10/59-10-S104.html | 2026-11-01 |
 | SB0060, 2026 General Session (rate change to 4.45%) | https://le.utah.gov/~2026/bills/static/SB0060.html | 2026-11-01 |
-| Utah State Tax Commission, income tax rates page | https://incometax.utah.gov/paying/tax-rates | 2026-10-28 |
+| Utah State Tax Commission, income tax rates page (rate history table) | https://incometax.utah.gov/paying/tax-rates | 2026-11-02 |
 
 Not yet confirmed: the 2026 TC-40 instructions and the 2026 taxpayer tax credit worksheet amounts (personal exemption, 6 percent factor, and phase-out base amounts may be indexed); the Social Security benefits credit (code AH) amount and phase-out; the retirement credit income phase-out schedule.
 
