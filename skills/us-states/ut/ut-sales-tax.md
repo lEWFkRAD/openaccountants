@@ -1,9 +1,9 @@
 ---
 name: ut-sales-tax
-description: Use this skill whenever asked about Utah sales tax, Utah use tax, USTC sales tax filing, Utah grocery tax reduced rate, Utah SaaS tax, or Utah sales tax compliance. Trigger on phrases like "Utah sales tax", "UT sales tax", "Utah Code §59-12", "USTC", "Utah grocery tax", "Utah SaaS", "Utah SST", or any request involving Utah state and local sales and use tax compliance. ALWAYS load us-sales-tax first for federal context.
+description: Use this skill whenever asked about Utah sales tax, Utah use tax, USTC sales tax filing, Utah grocery tax reduced rate, Utah SaaS tax, or Utah sales tax compliance. Trigger on phrases like "Utah sales tax", "UT sales tax", "USTC", "Utah grocery tax", "Utah SaaS", or any request involving Utah state and local sales and use tax compliance. ALWAYS load us-sales-tax first for federal context.
 jurisdiction: US-UT
-tax_year: 2025
-last_updated: 2026-07-13
+tax_year: 2026
+last_updated: 2026-11-03
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -12,354 +12,158 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # UT Sales Tax
 
-## Skill Metadata
-
-**Skill Metadata**
-
-| Field | Value |
-| --- | --- |
-| Jurisdiction | Utah, United States |
-| Jurisdiction Code | US-UT |
-| Tax Type | Sales and Use Tax (state + local) |
-| State Rate | 4.85% |
-| Grocery Food Rate | 3.00% (combined state + local -- see details) |
-| Maximum Combined Rate | ~7.50% (state 4.85% + local up to ~2.65%) |
-| Primary Statute | Utah Code §59-12 |
-| Governing Agency | Utah State Tax Commission (USTC) |
-| Portal | https://tax.utah.gov |
-| SST Member | Yes -- Full Member |
-| Contributor | Open Accounting Skills Registry |
-| Validated By | Pending -- requires US CPA or EA sign-off |
-| Validation Date | Pending |
-| Skill Version | 1.0 |
-| Confidence Coverage | T1: state rate, food rate, basic taxability, filing mechanics. T2: local rate lookups, SaaS taxability, service classification. T3: audit defense, complex exemptions, penalty abatement. |
-| Format | Restructured to Q1 execution format, April 2026 |
-
-## Confidence Tier Definitions
-
-- **[T1] Tier 1 -- Deterministic.** Apply exactly as written. No reviewer judgement required.
-- **[T2] Tier 2 -- Reviewer Judgement Required.** Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
-- **[T3] Tier 3 -- Out of Scope / Escalate.** Do not guess. Escalate to a licensed tax professional.
-
-## Step 0: Client Onboarding Questions
-
-Before proceeding with any Utah sales tax analysis, collect the following from the client: [T1]
-
-**Client Onboarding Questions**
-
-| # | Question | Why It Matters |
-| --- | --- | --- |
-| 1 | Do you have an Utah sales tax registration / tax ID? | Determines whether registration is needed before filing. |
-| 2 | What is your current filing frequency (monthly / quarterly / annually)? | Controls which return periods to prepare. |
-| 3 | What is your nexus type -- physical presence, economic nexus, or both? | Determines registration obligations and applicable rules. |
-| 4 | Are you a marketplace seller (selling through Amazon, Etsy, etc.)? | Marketplace facilitator may already be collecting on your behalf. |
-| 5 | What types of products or services do you sell in Utah? | Drives taxability classification under Utah law. |
-| 6 | Do you sell to exempt entities (government, nonprofits, resellers)? | Determines whether exemption certificates must be collected and retained. |
-| 7 | Do you have locations, employees, or inventory in Utah? | Physical presence creates nexus independent of economic thresholds. |
-| 8 | Do you sell into multiple Utah local jurisdictions? | Local tax rates vary; determines compliance complexity. |
-
-**If the client cannot answer questions 1-4, STOP and gather this information before proceeding.** [T1]
-
-## Step 1: Tax Rate Structure
-
-### 1.1 State Sales Tax Rate
-
-- **State sales tax rate** — 4.85% (Applies to retail sale of tangible personal property and certain services. [T1])  _(Utah Code §59-12-103)_
-
-**Note:** The 4.85% consists of a base state rate (currently 4.85%, subject to legislative changes). Some sources may break this into components. [T2]
-
-### 1.2 Local Sales Taxes [T1]
-
-- **Local sales tax administration** — Counties, cities, and special districts impose additional sales tax.
-- **Local add-on range** — approximately 1.15% to 2.65% percent
-- **Combined rate range** — approximately 6.10% to 7.50%  _([T1])_
-- **Salt Lake City combined rate** — approximately 7.75% (verify current rate) percent ([T2])
-- **Local tax administration authority** — Local taxes are administered by USTC.
-
-### 1.3 Sourcing [T1]
-
-- **Sourcing approach - intrastate** — Origin-based for intrastate sales from locations within Utah.
-- **Sourcing approach - interstate** — Destination-based for interstate (remote) sales.
-- **SST sourcing rules for remote sales** — As an SST member, Utah follows SSUTA sourcing rules for remote sales.
-
-## Step 2: Transaction Classification Rules
-
-### 2.1 Grocery Food -- Reduced Rate [T1]
-
-**Grocery Food Reduced Rate components**  _(Utah Code §59-12-103(2))_
-
-| Component | Rate on Food |
-| --- | --- |
-| State rate on food | 1.75% |
-| Local uniform rate on food | 1.25% |
-| **Total combined food rate** | **3.00%** |
-
-- **Food rate uniformity** — This rate applies uniformly statewide to qualifying food items.
-- **Prepared food taxability** — Prepared food: taxable at the FULL combined rate (not the reduced food rate).
-- **Candy taxability** — Candy: taxable at the full rate.
-- **Soft drinks taxability** — Soft drinks: taxable at the full rate.
-
-### 2.2 Clothing [T1]
-
-- **Clothing taxability** — Clothing is fully taxable at the standard combined rate. No exemption.
-
-### 2.3 Prescription Drugs and Medical [T1]
-
-- **Prescription drugs** — exempt  _(Utah Code §59-12-104(8))_
-- **OTC drugs** — taxable
-- **DME (Durable Medical Equipment)** — exempt with prescription
-- **Prosthetics** — exempt
-
-### 2.4 Services [T2]
-
-Utah taxes a moderate number of services:
-
-- **Taxable services** — Repair/renovation of TPP, cleaning/washing of TPP, laundry, telecommunications, lodging, admissions/amusements, parking, personal property rental, certain IT services.
-- **Exempt services** — Professional services (legal, accounting, medical), education, financial services, most personal care services.
-
-### 2.5 SaaS and Digital Goods -- TAXABLE [T1/T2]
-
-- **SaaS taxability** — Taxable in Utah. Utah taxes prewritten computer software regardless of delivery method, including remotely accessed software (SaaS).  _(Utah Code §59-12-103(1)(q))_
-- **Canned software taxability** — Taxable (physical and electronic).
-- **Custom software taxability** — Exempt when specifically designed for a single customer.
-- **Digital downloads taxability** — Taxable.
-- **Streaming services taxability** — Taxable.
-
-### 2.6 Manufacturing [T1]
-
-- **Manufacturing equipment exemption** — exempt when used in manufacturing or processing operations  _(Utah Code §59-12-104(14))_
-- **Manufacturing exemption scope** — Includes machinery, equipment, and supplies used directly in manufacturing.
-
-### 2.7 Agricultural [T1]
-
-- **Farm machinery and equipment exemption** — exempt  _(Utah Code §59-12-104(58))_
-- **Feed, seed, fertilizer exemption** — exempt
-- **Livestock exemption** — exempt for breeding/production
-
-## Step 3: Return Form Structure
-
-### 4.1 Filing Details [T1]
-
-**Filing Details**
-
-| Field | Detail |
-| --- | --- |
-| Return Form | TC-62S (Sales and Use Tax Return) |
-| Filing Frequencies | Monthly (>$1,000/quarter avg tax); Quarterly ($250-$1,000); Annually (<$250) |
-| Due Date | Last day of the month following the reporting period |
-| Portal | https://tap.tax.utah.gov (Taxpayer Access Point) |
-| E-filing | Required for most filers |
-
-### 4.2 Vendor Discount [T1]
-
-- **Vendor discount** — 1.31% (of the tax collected for timely filing (subject to caps). [T1])
-
-### 4.3 Penalties and Interest [T1]
-
-- **Late filing penalty** — 10% of tax due or $20, whichever is greater.
-- **Interest rate** — rate set quarterly based on federal short-term rate + specified margin.
-
-## Step 4: Deductibility / Exemptions
-
-Exemptions identified in Step 2 above are the primary deductibility rules for Utah. Key categories: [T1]
-
-- **Resale exemption** — Valid resale certificate required. Retain for the statutory period.
-- **Exempt organizations** — Government entities and qualifying nonprofits -- require exemption certificate on file.
-- **Agricultural exemptions** — Where applicable per Step 2.
-- **Manufacturing exemptions** — Where applicable per Step 2.
-- **Exemption certificate timing/retention** — All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations.
-
-## Step 5: Key Thresholds
-
-### 3.1 Economic Nexus Threshold [T1]
-
-**Economic Nexus Threshold**  _(Utah Code §59-12-107(2)(d))_
-
-| Field | Detail |
-| --- | --- |
-| Revenue Threshold | $100,000 in Utah sales |
-| Transaction Threshold | 200 transactions |
-| Test | OR (either threshold triggers nexus) |
-| Measurement Period | Current or prior calendar year |
-| Effective Date | January 1, 2019 |
-
-### 3.2 Marketplace Facilitator [T1]
-
-- **Marketplace facilitator collection requirement** — Utah requires marketplace facilitators to collect and remit.  _(Utah Code §59-12-107.1)_
-
-### 3.3 SST Registration [T1]
-
-- **SST registration status** — Full SST member. SSTRS and CSPs available.
-
-## Step 6: Filing Deadlines and Penalties
-
-Refer to Step 3 for filing frequencies and due dates. [T1]
-
-## PROHIBITIONS
-
-- **Prohibition - grocery food full rate** — NEVER apply the full combined rate to grocery food. The reduced 3% rate applies statewide.
-- **Prohibition - reduced rate misuse** — NEVER apply the reduced food rate to candy, soft drinks, or prepared food. These are at the full rate.
-- **Prohibition - SaaS exemption assumption** — NEVER assume SaaS is exempt in Utah. It is taxable at the full combined rate.
-- **Prohibition - sourcing assumption** — NEVER assume destination-based sourcing for all Utah sales. Intrastate sales use origin-based sourcing.
-- **Prohibition - uniform combined rate assumption** — NEVER assume a uniform combined rate across Utah. Local rates vary. However, the food rate IS uniform at 3%.
-- **Prohibition - arithmetic** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude.
-
-## Edge Case Registry
-
-### EC1 -- Food Rate vs. Full Rate Classification [T2]
-
-**Situation:** A grocery store sells prepared deli items, packaged snacks, and fresh produce. Different rates apply.
-
-**Resolution:**
-- Fresh produce: 3% food rate. [T1]
-- Packaged snacks (chips, crackers, not candy): 3% food rate. [T1]
-- Candy: full combined rate (not food rate). [T1]
-- Prepared deli items (heated, with utensils): full combined rate. [T1]
-- Soft drinks: full combined rate. [T1]
-- **Flag for reviewer:** Item classification against SST food definitions determines the applicable rate. [T2]
-
-### EC2 -- SaaS Taxability [T2]
-
-**Situation:** A SaaS company from Oregon provides cloud software to Utah businesses. Is it taxable?
-
-**Resolution:**
-- Utah taxes SaaS at the full combined rate. [T1]
-- The SaaS company must register if it meets the $100K or 200 transaction economic nexus threshold. [T1]
-- Tax is based on the customer's location (destination-based for remote sales). [T1]
-- **Flag for reviewer:** Utah is one of the states that clearly taxes SaaS. Verify current USTC guidance. [T2]
-
-### EC3 -- Origin-Based vs. Destination-Based Sourcing [T2]
-
-**Situation:** A Utah retailer with a store in Salt Lake City ships an order to a customer in Park City. Different combined rates may apply.
-
-**Resolution:**
-- For intrastate sales, Utah uses origin-based sourcing. The rate at the seller's location (SLC) applies. [T1]
-- For interstate sales (out-of-state buyer), destination-based sourcing applies. [T1]
-- **Flag for reviewer:** Utah's hybrid sourcing creates different rate applications depending on whether the sale is intrastate or interstate. Verify the buyer's location. [T2]
-
-### EC4 -- Food Rate Uniformity [T1]
-
-**Situation:** A retailer asks whether the 3% food rate varies by location in Utah.
-
-**Resolution:**
-- The 3% food rate is **uniform statewide** regardless of the local combined rate on general merchandise. [T1]
-- A store in a city with a 7.50% general rate and a store in a city with a 6.10% general rate both charge 3% on food. [T1]
-- This simplifies POS configuration for food items. [T1]
-
-### EC5 -- SaaS Company with Multi-State Customers [T2]
-
-**Situation:** A SaaS company from Idaho (where SaaS is not taxable) sells subscriptions to Utah businesses.
-
-**Resolution:**
-- Utah taxes SaaS at the full combined rate. [T1]
-- The company must register if economic nexus is met ($100K or 200 transactions). [T1]
-- Destination-based sourcing applies for interstate sales. [T1]
-- Tax based on the customer's Utah location. [T1]
-- **Flag for reviewer:** SaaS companies should include Utah in their compliance matrix. Utah is one of the states that clearly taxes SaaS. [T2]
-
-### EC6 -- Prepared Food at a Grocery Store [T2]
-
-**Situation:** A grocery store has a deli that sells hot sandwiches, cold pre-made salads without utensils, and uncut birthday cakes.
-
-**Resolution:**
-- Hot sandwiches: prepared food (full rate). [T1]
-- Cold pre-made salads without utensils and not heated: food (3% rate). [T1]
-- Uncut birthday cakes (not heated, no utensils): food (3% rate). [T1]
-- If the deli provides utensils with the salads, they become prepared food (full rate). [T2]
-- **Flag for reviewer:** The prepared food determination depends on heating, utensils, and whether items are mixed for immediate consumption. [T2]
-
-### EC7 -- Manufacturing Equipment Exemption [T1]
-
-**Situation:** A manufacturer purchases a $500,000 production line for a Utah facility.
-
-**Resolution:**
-- Manufacturing equipment used in manufacturing/processing is exempt. Utah Code §59-12-104(14). [T1]
-- The manufacturer must provide an exemption certificate to the seller. [T1]
-- Office equipment, vehicles, and non-production items do NOT qualify. [T1]
-- **Flag for reviewer:** Maintain documentation of equipment use in manufacturing. [T2]
-
-## Test Suite
-
-### Test 1 -- General Merchandise Sale
-
-**Input:** Seller in Salt Lake City sells $1,000 electronics. Combined rate = 7.75%.
-**Expected output:** Tax = $1,000 x 7.75% = $77.50. Total = $1,077.50.
-
-### Test 2 -- Grocery Food at Reduced Rate
-
-**Input:** Customer buys $200 of groceries anywhere in Utah. Food rate = 3%.
-**Expected output:** Tax = $200 x 3% = $6.00. Total = $206.00.
-
-### Test 3 -- Candy at Full Rate
-
-**Input:** Customer buys $10 candy in SLC. Combined rate = 7.75%.
-**Expected output:** Candy is NOT food rate. Tax = $10 x 7.75% = $0.78. Total = $10.78.
-
-### Test 4 -- SaaS Subscription
-
-**Input:** SaaS company charges Utah business $800/month. Combined rate = 7.25%.
-**Expected output:** SaaS IS taxable. Tax = $800 x 7.25% = $58.00. Total = $858.00.
-
-### Test 5 -- Economic Nexus
-
-**Input:** Remote seller from Nevada sold $105,000 to Utah customers in the prior year.
-**Expected output:** $105,000 exceeds $100,000 threshold. Nexus IS triggered. Must register and collect.
-
-### Test 6 -- Prepared Food at Grocery Deli
-
-**Input:** Customer at a Provo grocery store buys a $8 hot sandwich (prepared) and $5 cold salad (no utensils, not heated). Combined non-food rate = 7.25%. Food rate = 3%.
-**Expected output:** Hot sandwich: $8 x 7.25% = $0.58. Cold salad (food): $5 x 3% = $0.15. Total tax = $0.73. Total = $13.73.
-
-### Test 7 -- Origin-Based Intrastate Sale
-
-**Input:** Seller in Salt Lake City (combined rate 7.75%) ships to buyer in Provo (combined rate 7.25%). Both in Utah.
-**Expected output:** Intrastate sale uses origin-based sourcing. Rate = 7.75% (seller's SLC rate). Tax = sale price x 7.75%.
-
-### Test 8 -- Manufacturing Equipment Exempt
-
-**Input:** Manufacturer buys $100,000 production equipment for Utah plant.
-**Expected output:** Manufacturing equipment exempt. Tax = $0. Total = $100,000.
-
-## Reviewer Escalation Protocol
-
-**Reviewer Escalation Protocol**
-
-| Trigger | Action |
-| --- | --- |
-| Any [T3] tagged item encountered | STOP. Do not guess. Escalate to licensed CPA, EA, or tax attorney. |
-| Client has audit notice or assessment | Escalate immediately. Do not advise on audit response. |
-| Multi-state nexus question involving 3+ states | Flag for senior reviewer with multi-state experience. |
-| Penalty abatement or voluntary disclosure | Escalate to licensed professional with state-specific experience. |
-| Ambiguous taxability of a product/service | Present both interpretations to reviewer with supporting authority. |
-
-## Contribution Notes
-
-- This skill follows the Q1 execution format (Step 0 through Step 7).
-- All rules are tagged [T1], [T2], or [T3] per the Confidence Tier Definitions.
-- Rate tables are deterministic lookup tables -- no narrative explanation of rates.
-- To update this skill, submit a pull request with the specific section, supporting statutory authority, and effective date of the change.
-- All changes require validation by a US CPA or EA before merging.
-
-## Disclaimer
-
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
-
-<!-- openaccountants-cta-block -->
-
----
+## Who this applies to
+
+- Any seller with an established physical presence in Utah (store, office, warehouse, or other fixed location). Every such seller must hold a Utah sales tax license and file the combined sales and use tax return.
+- Remote (out-of-state) sellers: Utah requires a remote seller to collect and pay Utah sales tax if, in either the previous or the current calendar year, the remote seller receives gross revenue of more than $100,000 from sales of tangible personal property, products transferred electronically, or services for storage, use, or consumption in Utah. This requirement became effective for sales occurring on or after January 1, 2019.
+- The old 200-transaction test is gone. Per the Tax Commission: "Prior to July 1, 2025, you would have had nexus with Utah if you sold tangible personal property, products transferred electronically or services for storage, use or consumption in Utah in 200 or more separate transactions in either the previous or current calendar year." Do not apply a transaction-count test for periods on or after July 1, 2025.
+- Marketplace facilitators must collect on facilitated sales when the facilitator's own sales plus facilitated sales exceed $100,000 in the previous or current calendar year. A facilitator without physical presence must start collecting no later than the first day of the calendar quarter that is at least 60 days after crossing the threshold.
+- Non-nexus sellers do not have to register or collect, but may voluntarily register and collect at the combined rate for the delivery location.
+- Buyers owe Utah use tax on taxable purchases brought into Utah where sales tax was not charged.
+
+## Rates, bands and thresholds
+
+- State sales and use tax: 4.85% on taxable sales statewide.
+- Local option sales tax: 1.00%, and county option sales tax: 0.25%. These apply to nearly all taxable sales, including grocery food.
+- Combined sales and use tax rates vary by location. Per the Tax Commission rate chart in effect as of October 1, 2025, combined rates run from 6.35% (for example Beaver County) to 9.55% (Park City, the highest incorporated city rate). Certain special districts are higher, for example 10.05% in the MIDA North Gateway district in Salt Lake County. Salt Lake City is 8.45%.
+- Grocery food ("food and food ingredients"): the statewide grocery food sales tax rate is 3 percent. The state portion is 1.75% plus the 1.00% local option and 0.25% county option. Candy is taxed at the reduced grocery food rate. Packaged soda and chips are grocery food at the lower rate.
+- Prepared food is taxed at the full combined rate for the location, plus the county restaurant/customized food tax of up to 1.0% where adopted. Example chart rates: prepared food 9.45% in Salt Lake City, 10.55% in Park City.
+- Transient room (lodging under 30 consecutive days): state 1.07% (plus 0.25% in Salt Lake County), county up to 4.5% (up to 4.25% in Salt Lake County), municipal up to 1.5%, plus Salt Lake County tourism up to 0.5%. Charted all-in lodging rates: 15.52% in Salt Lake City, 14.62% in Park City. Lodging is filed on the Sales Transient Room Return, not the regular sales return.
+- Short-term vehicle leasing (under 30 days): state 2.50% plus county short-term leasing tax up to 7.0%, filed on the Sales Tourism Leasing Return.
+- Resort community tax: up to 1.60% in resort cities; motor vehicles, aircraft, watercraft, and modular/manufactured/mobile homes are exempt from the resort component but still pay the rest of the combined rate.
+- Seller discount: monthly filers may take a discount equal to 1.31 percent of the combined tax collected. Quarterly filers may not take the seller discount.
+
+## The taxable base
+
+- Tax applies to retail sales of tangible personal property, which includes electricity, water, gas, steam, prewritten software, and animals. Prewritten software is taxable regardless of the delivery method; services delivered purely online are generally outside the base unless the statute lists them.
+- The taxable measure is the purchase price or sales price of the property or service sold at the taxable location.
+- Delivery charges (shipping, postage, handling, crating, packing) are excluded from the taxable price if stated separately. A pickup charge to return an item to the seller is not a delivery charge and is taxable.
+- Sourcing inside Utah: sales made at a fixed location are sourced to that location. Mail, telephone, or internet orders received outside Utah are sourced to the location where the buyer takes delivery.
+- Sourcing for out-of-state sellers: do not use the city rate charts. Source sales to the combined rate for the customer's ZIP+4 delivery address.
+- Marketplace sales: a facilitator over the $100,000 threshold collects on facilitated sales; the facilitator's own sales and each seller's facilitated sales are totaled separately for the threshold.
+
+## Deadlines and filing
+
+- Register at tap.utah.gov. After approval the Commission assigns the filing frequency by letter; accounts are reviewed annually.
+- Filing frequency is set by annual tax liability: less than $1,000, annual filer (due January 31); $1,000 to $50,000, quarterly filer (due January 31, April 30, July 31, October 31); $50,001 to $95,999, monthly filer; $96,000 or more, monthly filer with electronic funds transfer payments required.
+- Returns are due by the last day of the month after the filing period ends. If that day is a weekend or legal holiday, the return is due the next business day.
+- A return must be filed for every reporting period even if no business was conducted.
+- File the combined sales and use tax return TC-62S (single location) or TC-62M (multiple locations) at tap.utah.gov. Transient room tax, prepared food tax, and tourism leasing taxes are filed on separate returns with the same frequency as the sales account.
+- Utah is a Streamlined Sales Tax member state; remote sellers can register for multiple member states at sstregister.org.
+
+## Penalties and interest
+
+- Failure to file a tax-due return by the due date: penalty of the greater of $20 or up to 10 percent of the unpaid tax, based on the date the return is filed.
+- If the tax balance remains unpaid 90 days after the due date, an additional failure-to-pay penalty of the greater of $20 or up to 10 percent of the tax balance applies.
+- Failure to pay the full tax on a timely-filed return, or within 30 days of a notice of deficiency: penalty of the greater of $20 or up to 10 percent of the tax due.
+- A monthly filer who files late or underpays also loses the 1.31 percent seller discount. Using a non-EFT method when EFT is required also loses the discount.
+- Interest is assessed from the original due date until the liability is paid in full. Penalties are graduated by the length of the delinquency.
+
+## Cross-border points
+
+- Economic nexus for remote sellers is the $100,000 gross-revenue test measured against the previous or current calendar year. There is no transaction-count test on or after July 1, 2025.
+- Crossing the threshold in the current year means the seller must begin collecting; the statute keys the obligation to the calendar year in which the revenue is received.
+- Marketplace facilitators over $100,000 collect for their sellers; a marketplace seller's sales facilitated by a collecting facilitator are not separately taxed again.
+- Out-of-state sellers source to the customer's ZIP+4, not to the seller's location; in-state sellers source to the seller's fixed location (origin sourcing) except for orders received outside Utah.
+- Utah buyers owe use tax on out-of-state purchases brought into Utah; the use tax rate equals the combined rate at the delivery location.
+
+## Worked examples
+
+### Worked example 1: Remote seller crosses economic nexus
+
+An online retailer with no Utah location receives $120,000 in revenue from shipments to Utah customers during 2025. That exceeds $100,000, so the retailer must register and collect Utah sales tax. A $1,000 sale shipped to Park City carries the Park City combined rate.
+
+```oa-check
+name: Remote seller, Park City delivery
+inputs:
+  revenue: 120000
+  sale: 1000
+  rate: 9.55
+steps:
+  - over_threshold: revenue - 100000
+  - tax: sale * rate / 100
+expected:
+  over_threshold: 20000
+  tax: 95.50
+```
+
+### Worked example 2: Mixed grocery and clothing basket in Salt Lake City
+
+A Salt Lake City store sells $50 of grocery food and $100 of clothing on one receipt. Grocery food is taxed at the statewide 3 percent rate; clothing at the Salt Lake City combined rate of 8.45%.
+
+```oa-check
+name: SLC grocery plus clothing
+inputs:
+  food: 50
+  clothing: 100
+  food_rate: 3.00
+  slc_rate: 8.45
+steps:
+  - food_tax: food * food_rate / 100
+  - clothing_tax: clothing * slc_rate / 100
+  - total_tax: food_tax + clothing_tax
+expected:
+  food_tax: 1.50
+  clothing_tax: 8.45
+  total_tax: 9.95
+```
+
+### Worked example 3: Prepared food in Salt Lake City
+
+A restaurant meal costing $20 in Salt Lake City is prepared food, taxed at the charted prepared-food rate of 9.45% (combined rate plus the local restaurant tax).
+
+```oa-check
+name: SLC prepared food
+inputs:
+  meal: 20
+  rate: 9.45
+steps:
+  - tax: meal * rate / 100
+expected:
+  tax: 1.89
+```
+
+### Worked example 4: Monthly seller discount
+
+A monthly filer collects $10,000 of combined sales tax in the period and files and pays on time. The seller discount is 1.31 percent of the combined tax collected.
+
+```oa-check
+name: Monthly seller discount
+inputs:
+  collected: 10000
+  discount_pct: 1.31
+steps:
+  - discount: collected * discount_pct / 100
+  - remit: collected - discount
+expected:
+  discount: 131.00
+  remit: 9869.00
+```
+
+## Ask the client first
+
+- Where are your fixed locations in Utah, and where do out-of-state orders ship from? Sourcing changes with the answer.
+- What were your gross revenues from Utah customers in the previous and current calendar years? That decides the $100,000 economic nexus question.
+- Do you sell through a marketplace (Amazon, Etsy, and similar)? Check whether the facilitator is already collecting before registering the seller.
+- What do you sell: grocery food, candy, prepared food, software, lodging, or vehicle rentals? Each sits in a different rate band or separate return.
+- Are delivery charges stated separately on invoices? That changes the taxable base.
+- Are you a monthly filer? Only monthly filers get the 1.31 percent seller discount.
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| Utah Code 59-12-107, seller collection obligations and economic nexus (effective July 1, 2025) | https://le.utah.gov/xcode/Title59/Chapter12/59-12-S107.html | 2026-11-01 |
+| Utah Code 59-12-107.6, marketplace facilitator collection obligation | https://le.utah.gov/xcode/Title59/Chapter12/59-12-S107.6.html | 2026-11-02 |
+| Utah State Tax Commission, Out-of-State (Remote) Sellers page | https://tax.utah.gov/business/sales-tax/other-sales-tax/out-of-state-remote-sellers | 2026-11-01 |
+| Utah State Tax Commission, Publication 25, Sales & Use Tax Guide | https://tax.utah.gov/forms-pubs/pub-25/ | 2026-11-01 |
+| Utah State Tax Commission, Food and Food Ingredients (grocery food rate) page | https://tax.utah.gov/sales/food-rate | 2026-11-01 |
+| Utah State Tax Commission, Rates Applied to Certain Transactions (simple rate chart, in effect October 1, 2025) | https://files.tax.utah.gov/tax/salestax/rate/25q4simple.pdf | 2026-11-01 |
+| Utah State Tax Commission, Combined Sales and Use Tax Rates chart, third quarter 2026 | https://files.tax.utah.gov/tax/salestax/rate/26q3combined.pdf | 2026-11-01 |
+| Utah State Tax Commission, Sales Tax Rate Components webinar presentation, April 20, 2023 (filing frequency and due dates) | https://files.tax.utah.gov/tax/train/webinars/2023-04-20-presentation.pdf | 2026-11-01 |
+
+Not yet confirmed: the current interest rate for sales tax under Publication 58; the 2026 combined rate chart values for every special district; whether any local option rate changes take effect after the October 1, 2025 chart.
 
 ## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
-
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
+This guide is a working paper, not a filing. A Utah-licensed CPA or enrolled agent should review nexus questions, sourcing disputes, and any audit or penalty assessment before you rely on these figures.
