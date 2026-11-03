@@ -24,7 +24,8 @@ Maine taxes individuals on a graduated schedule (top marginal 7.15% plus a 2% su
 | IT-IND individual income | drafted (pre-existing) | `me-income-tax.md` | 1040ME, graduated rates, 2026 rate schedules |
 | IT-CORP corporate income | drafted 2026-10-28 | `me-corporate-income-tax.md` | 1120ME brackets 3.5%/7.93%/8.33%/8.93% verified from 1120ME instructions; deadlines verified |
 | VAT sales/use | drafted (pre-existing) | `me-sales-tax.md` | 5.5% general state rate; 8% prepared food, 9% lodging, 10% short-term auto rental (MRS rates page archived) |
-| SC social contributions | drafted 2026-10-28 | `me-social-contributions.md` | ME UC-1 UI report verified; wage base/rates not yet confirmed (DOL page not reachable this run) |
+| VAT sales/use (duplicate) | moved from US-MA pack 2026-11-02 | `maine-sales-tax.md` | was misfiled in `skills/us-states/ma/`; duplicate of `me-sales-tax.md` -- keep in sync |
+| SC social contributions | drafted 2026-10-28 | `me-social-contributions.md` | ME UC-1 UI report verified; UI wage base $12,000 and 2026 new-employer 2.23% (2.54% combined) confirmed from archived DOL/MRS sources 2026-11-01 |
 | PR payroll withholding | drafted 2026-10-28 | `me-payroll.md` | 941ME quarterly + 941P-ME PTE verified; W-3ME discontinued after 2023 verified; table method detail not line-cited |
 | TP transfer pricing | drafted 2026-10-28 | `me-transfer-pricing.md` | unitary/combined Rule 810 + apportionment Rule 801 verified to exist; mechanics verified from rule PDFs |
 | XB cross-border | drafted 2026-10-28 | `me-cross-border.md` | 941P-ME/composite verified; Schedule NR routing + credit mechanics not yet confirmed |
