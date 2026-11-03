@@ -22,8 +22,8 @@ Sellers with Nevada sales -- state and local sales/use tax.
 | --- | --- |
 | Jurisdiction | Nevada |
 | State rate | 6.85%
-| Local rate range | 0% -- ~1.525% (not yet confirmed)
-| Maximum combined rate | ~8.375%
+| Local rate range | Local add-ons on top of the 6.85% state base; county combined rates run 7.10% to 8.375% |
+| Maximum combined rate | 8.375% (Clark County, effective January 1, 2020; Washoe County 8.265% effective April 1, 2017) |
 | Sourcing | Destination-based (SST) |
 | Economic nexus | $100,000 OR 200 transactions
 | Tax authority | Nevada Department of Taxation |
@@ -55,7 +55,7 @@ See the quick-reference due-date row above.
 
 ## Penalties and interest
 
-Late filing/payment penalties and interest apply; current rates are not yet confirmed against an archived source.
+For returns filed and paid within 30 days of the due date the penalty is calculated on the graduated scale of NAC 360.395, and interest accrues at 0.75% per month (reduced from 1% effective July 1, 2011) (Nevada Department of Taxation sales and use tax page).
 
 ## Cross-border points
 
@@ -75,8 +75,10 @@ No worked examples yet -- rate figures pending source confirmation.
 | Source | URL | Read on |
 | --- | --- | --- |
 | Nevada Department of Taxation -- homepage notice | https://tax.nv.gov/ | 2026-10-28 |
+| Nevada Department of Taxation, Sales Tax and Use Tax page (6.85% base; Clark 8.375% from 1/1/2020; Washoe 8.265% from 4/1/2017; NAC 360.395 graduated penalty; 0.75%/month interest from 7/1/2011) | https://tax.nv.gov/tax-types/sales-tax-use-tax/ | 2026-10-31 |
+| Nevada Department of Taxation, Marketplace Facilitator/Seller FAQs (economic nexus $100,000 or 200 separate transactions) | https://tax.nv.gov/faqs/marketplace-facilitator-seller-faqs/ | 2026-11-01 |
 
-Not yet confirmed: state rate 6.85%; local range; max combined ~8.375%; economic nexus $100,000/200 transactions; penalty/interest rates.
+Not yet confirmed: the full county-by-county rate list beyond the rate sheets quoted by the Department (Carson City and Churchill/Storey and Nye 7.60%; Douglas, Elko, Lander, Lincoln, Lyon and Pershing 7.10%; White Pine 7.725%); special district surcharges (Tourism Improvement Districts, Stadium Entertainment Improvement District); prepared-food taxability detail.
 
 ## Talk to a verified accountant
 
