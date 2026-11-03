@@ -78,11 +78,33 @@ Sellers with New Mexico gross receipts -- NM taxes the SELLER via Gross Receipts
 
 ### Worked example 1: state-only portion for an out-of-state seller
 
+```oa-check
+name: out-of-state seller state-only GRT on 10000
+inputs:
+  receipts: 10000
+steps:
+  - tax: receipts * 0.04875
+expected:
+  tax: 487.5
+```
+
+
 An out-of-state seller with no NM registration makes $10,000 of taxable receipts sourced to New Mexico and uses location code 88-888 (state portion only).
 
 - Tax due: 10000 * 0.04875 = $487.50
 
 ### Worked example 2: maximum combined rate
+
+```oa-check
+name: max combined GRT 10.8125 percent on 10000
+inputs:
+  receipts: 10000
+steps:
+  - tax: receipts * 0.108125
+expected:
+  tax: 1081.25
+```
+
 
 A seller in the highest-rate jurisdiction makes $10,000 of taxable receipts at the maximum combined rate of 10.8125%.
 
