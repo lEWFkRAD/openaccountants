@@ -305,19 +305,19 @@ The three obligations are administered by two different state agencies (Comptrol
 
 - **CTA overview** -- The Corporate Transparency Act (CTA), enacted as part of the National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283, Title LXIV), required most U.S. entities to file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN) disclosing each beneficial owner (any individual owning 25% or more or exercising substantial control).  _(National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283, Title LXIV))_
 
-### 9.1 Current status -- stayed
+### 9.1 Current status -- U.S. companies exempt (August 2026 final rule)
 
-- **CTA stay status as of November 2025** -- As of the version date of this skill (November 2025), the CTA reporting requirement has been stayed by federal court injunction and by subsequent FinCEN regulatory action. In December 2024 the U.S. District Court for the Eastern District of Texas issued a nationwide preliminary injunction in Texas Top Cop Shop, Inc. v. Garland halting CTA enforcement. The Fifth Circuit, the Supreme Court, and FinCEN's interim final rule (March 2025) have further reshaped the landscape. The current operative position is that domestic U.S. entities are not required to file BOI reports, while foreign entities registered to do business in the U.S. remain subject to a modified reporting regime.  _(Texas Top Cop Shop, Inc. v. Garland; FinCEN interim final rule (March 2025))_
+- **CTA status for 2026** -- FinCEN's BOI FAQ says that "on August 11, 2026, FinCEN issued a final rule that changes the beneficial ownership information (BOI) reporting requirements" and that under the new rule "U.S. companies are exempt from BOI reporting requirements and therefore, are no longer required to file BOI reports." Only certain foreign companies registered to do business in the U.S. must report (FinCEN BOI FAQs, archived).
 
-This area is fast-moving. Practitioners should verify the current FinCEN guidance and any pending litigation before advising a client on BOI filing -- the guidance in this skill is current as of November 2025 only.
+A company formed in Texas or Delaware files no BOI report. A foreign company registered to do business in Texas should check the current FinCEN rule before filing.
 
 ### 9.2 What entities should do now
 
 - **Conservative approach pending stabilization** -- 1. Collect the BOI information (names, dates of birth, addresses, identifying numbers, image of identifying document) for all 25%+ owners and substantial-control individuals even if not filing, so the filing can be completed quickly if requirements re-activate. 2. Document the file-or-no-file decision with citation to the current FinCEN guidance and any operative injunction. 3. Monitor FinCEN.gov for changes.
 
-### 9.3 Penalties (if reinstated)
+### 9.3 Penalties (foreign reporting companies)
 
-- **CTA civil penalty** -- 591 USD per day (inflation-adjusted civil penalty for willful failure to report; if the requirement is reinstated, these penalties may apply prospectively from the reinstatement date)
+- **CTA civil penalty** -- FinCEN's BOI FAQ says the civil penalty is adjusted annually for inflation and "as of the time of publication of this faq, this amount is $591" per day. It applies only to companies that still must report.
 - **CTA criminal penalty** -- up to $10,000 and 2 years imprisonment (for willful violations)
 
 ### 10. Texas vs Delaware for Startups
