@@ -1,4 +1,4 @@
-# New Hampshire — OpenAccountants Tax Skills
+# New Hampshire -- OpenAccountants Tax Skills
 
 | Field | Value |
 |---|---|
@@ -8,16 +8,17 @@
 | Sales tax | No |
 | Franchise / gross receipts tax | No (for sole proprietors) |
 | Tax authority | [New Hampshire Dept. of Revenue Administration (DRA)](https://www.revenue.nh.gov) |
-| Quality tier | Q3 — AI-drafted, not independently verified |
+| Quality tier | Q3 -- AI-drafted, not independently verified |
 
 ## Files in this folder
 
 | File | What it covers |
 |---|---|
 | `nh-interest-dividends-note.md` | Note on the repeal of the Interest & Dividends Tax (effective 2025) |
+| `nh-bpt-bet.md` | Business Profits Tax (BPT) and Business Enterprise Tax (BET) |
 
 ## What's NOT covered
-- Business Profits Tax (8.5% on business income over $75k — applies to businesses, not covered here)
+- Business Profits Tax (7.5% on taxable business profits for periods ending on or after Dec 31, 2023; filing threshold gross business income over $109,000 -- see nh-bpt-bet.md)
 - Business Enterprise Tax (0.55% on enterprise value tax base)
 - Meals & Rooms Tax (8.5%)
 - Real estate transfer tax
