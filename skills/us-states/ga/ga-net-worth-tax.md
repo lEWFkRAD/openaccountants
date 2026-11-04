@@ -212,7 +212,7 @@ The greater-of rule effectively imposes the tax on whichever balance-sheet measu
 
 **Graduated table under O.C.G.A. § 48-13-76** — reproduced from the 2025 IT-611 booklet NET WORTH TAX TABLE: "Not exceeding 100,000.00 ... 0.00 / Over 100,000.00 and not exceeding 150,000.00 ... 125.00 / Over 150,000.00 and not exceeding 200,000.00 ... 150.00 / Over 200,000.00 and not exceeding 300,000.00 ... 200.00 / Over 300,000.00 and not exceeding 500,000.00 ... 250.00 / Over 500,000.00 and not exceeding 750,000.00 ... 300.00 / Over 750,000.00 and not exceeding 1,000,000.00 ... 500.00 / Over 1,000,000.00 and not exceeding 2,000,000.00 ... 750.00 / Over 2,000,000.00 and not exceeding 4,000,000.00 ... 1,000.00 / Over 4,000,000.00 and not exceeding 6,000,000.00 ... 1,250.00 / Over 6,000,000.00 and not exceeding 8,000,000.00 ... 1,500.00 / Over 8,000,000.00 and not exceeding 10,000,000.00 ... 1,750.00 / Over 10,000,000.00 and not exceeding 12,000,000.00 ... 2,000.00 / Over 12,000,000.00 and not exceeding 14,000,000.00 ... 2,500.00 / Over 14,000,000.00 and not exceeding 16,000,000.00 ... 3,000.00 / Over 16,000,000.00 and not exceeding 18,000,000.00 ... 3,500.00 / Over 18,000,000.00 and not exceeding 20,000,000.00 ... 4,000.00 / Over 20,000,000.00 and not exceeding 22,000,000.00 ... 4,500.00 / Over 22,000,000.00 ... 5,000.00" (2025 IT-611 instructions booklet US-GA-download-5.pdf, archived).
 
-| Net worth (Georgia apportioned, Base A or B greater) | Tax |
+| Net worth (Georgia apportioned, Base A or B greater) — 2025 IT-611 US-GA-download-5.pdf | Tax |
 | --- | --- |
 | Not exceeding $100,000 | $0 (must still file) |
 | $100,001 to $150,000 | $125 |
