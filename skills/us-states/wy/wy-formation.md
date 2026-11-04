@@ -46,7 +46,7 @@ Wyoming is consistently the cheapest, most private, and most asset-protective st
 
 ### 2.1 No state personal income tax
 
-- **No Wyoming personal or corporate income tax** -- Wyoming imposes no personal income tax and no corporate income tax. The prohibition is statutory, not constitutional: the income and corporate tax sections of Title 39 were repealed by Laws 1998, ch. 5, § 4 (W.S. §§ 39-1-101 et seq. and 39-7-101 et seq., each shown repealed in the Title 39 compilation). Article 15, § 18 of the Wyoming Constitution does permit an income tax, but it mandates full credit against any income tax liability for all sales, use, and ad valorem taxes paid in the taxable year by the same taxpayer to any taxing authority in Wyoming. Pass-through entities (LLCs taxed as partnerships, S-corporations, sole proprietorships through a single-member LLC) therefore generate no Wyoming entity-level tax and no Wyoming personal income tax on the pass-through share. The only recurring state-level cost of keeping a Wyoming LLC in good standing is the annual report license tax (see § 3.2 below).  _(W.S. Title 39, ch. 7 repealed by Laws 1998, ch. 5, § 4; Wyoming Constitution Art. 15, § 18, not yet confirmed against a sidecar-archived source)_
+- **No Wyoming personal or corporate income tax** -- Wyoming imposes no personal income tax and no corporate income tax. The prohibition is statutory: the income and corporate tax sections of Title 39 were repealed by Laws 1998, ch. 5, § 4 (W.S. §§ 39-1-101 et seq. and 39-7-101 et seq., each shown repealed in the Title 39 compilation). Pass-through entities (LLCs taxed as partnerships, S-corporations, sole proprietorships through a single-member LLC) therefore generate no Wyoming entity-level tax and no Wyoming personal income tax on the pass-through share. The only recurring state-level cost of keeping a Wyoming LLC in good standing is the annual report license tax (see § 3.2 below).  _(W.S. Title 39, ch. 7 repealed by Laws 1998, ch. 5, § 4)_
 - **Wyoming LLC is not a tax shelter for non-Wyoming residents** -- A Wyoming-resident sole proprietor who organizes a Wyoming SMLLC and earns six figures of net self-employment income pays $0 in Wyoming income tax. A California-resident sole proprietor in the same fact pattern who organizes a Wyoming SMLLC pays $0 in Wyoming income tax but still pays California personal income tax on the income because California taxes residents on worldwide income under R&TC § 17041 -- Wyoming domicile of the LLC does not change the owner's tax home. A Wyoming LLC is not a tax shelter for non-Wyoming residents. It is an entity-formation venue.  _(R&TC § 17041)_
 
 ### 2.2 Cheapest LLC in the US
@@ -196,9 +196,7 @@ The honest pitch is that the Wyoming SMLLC is leverage-grade protection against 
 AUDIT FLASH POINT -- Anonymity is a state-level concept only. The federal government, the IRS, FinCEN, banks performing CIP/KYC, and qualified intermediaries in real estate transactions all see through the Wyoming public-record privacy. Do not promise a client "anonymity" without qualifying that the federal disclosure obligations are independent.
 
 - **EIN application discloses responsible party** -- EIN application. Form SS-4 requires the name and TIN of a "responsible party" -- the natural person who exercises ultimate effective control. The IRS sees the beneficial owner.  _(Form SS-4)_
-- **Form 5472 disclosure requirement (federal overlay)** -- Form 5472 (see § 14). A foreign-owned single-member US LLC must file Form 5472 with a pro-forma Form 1120 annually under Treas. Reg. § 1.6038A-1, disclosing the 25% foreign shareholder.  _(Treas. Reg. § 1.6038A-1)_
 - **FinCEN BOI reporting status** -- FinCEN Beneficial Ownership Information (BOI) reporting under the Corporate Transparency Act, 31 U.S.C. § 5336. As of the 2024 FinCEN rulemaking and subsequent injunctive litigation, BOI reporting for domestic reporting companies is currently subject to changing enforcement (the 2025 Treasury announcement narrowed enforcement against domestic entities, but foreign reporting companies remain subject to BOI reporting). Confirm current FinCEN enforcement posture at the time of formation. When in scope, FinCEN BOI requires names, dates of birth, addresses, and ID document images of beneficial owners. FinCEN BOI is not a public register but is available to federal law enforcement, certain federal regulators, and (with consent or court order) to other authorities.  _(31 U.S.C. § 5336)_
-- **Bank CDD rule beneficial ownership identification** -- Bank account opening. US banks must comply with the FinCEN Customer Due Diligence (CDD) rule, 31 C.F.R. § 1010.230, and identify each beneficial owner of 25% or more, plus a control person. The bank sees through Wyoming's public-record privacy.  _(31 C.F.R. § 1010.230)_
 - **IRS audits and summonses** -- IRS audits and summonses. The IRS can summons the operating agreement and member identity directly from the LLC, the registered agent, or the bank.  _(IRS summons authority, unspecified)_
 - **Civil discovery subpoena exposure** -- Civil discovery. A judgment creditor with a subpoena can compel production of the operating agreement and member identities from the registered agent or the LLC.  _(Civil discovery, general principle)_
 
@@ -226,7 +224,6 @@ Use cases:
 
 ### 7. Series LLC (W.S. § 17-29-211)
 
-- **State recognition of series LLC is uneven** -- State recognition is uneven. Some states (notably California) treat each series as a separate entity for state tax purposes and require each series to qualify and pay its own franchise tax. Forming a Wyoming Series LLC and doing business in California exposes each series to the $800 minimum tax -- defeating much of the cost advantage. Confirm the destination-state treatment before adopting the series structure.  _(California franchise tax treatment of series, unspecified statute)_
 - **Charging-order shield extends to each series** -- Charging-order shield within the master. The Wyoming Series LLC statute extends the charging-order protection of W.S. § 17-29-503 to each series, but the case law is thin and the cross-jurisdictional enforcement of inter-series asset separation is not battle-tested.  _(W.S. § 17-29-503)_
 
 For most clients the simpler, better-documented pattern is a holding-LLC parent with separate single-member LLC children (see § 9.2 below). The Series LLC is a cost-optimization play for sophisticated multi-asset holders who can tolerate the federal-tax uncertainty.
@@ -299,15 +296,15 @@ AUDIT FLASH POINT -- Home-state foreign qualification failure. A California resi
 
 ### 10.3 Mechanics of foreign qualification
 
-- **Foreign qualification fee range and requirements** -- Each state has its own foreign qualification fee, ranging roughly from $50 (Kentucky) to $500+ (Massachusetts, Texas). The filing typically requires: The Wyoming LLC's name (and a fictitious name if the LLC's name is unavailable in the foreign state). A Certificate of Good Standing from the Wyoming Secretary of State (certificates of good standing are free online and $20.00 by mail; this is sometimes called a Certificate of Existence.  _(SOS Business Division fee schedule)_) The name and address of a registered agent in the foreign state. Annual report obligations in the foreign state thereafter. The Wyoming LLC also remains obligated to file its Wyoming annual report and maintain its Wyoming registered agent.  _(General state filing requirements)_
+- **Foreign qualification fee range and requirements** -- Each state has its own foreign qualification fee. The filing typically requires: The Wyoming LLC's name (and a fictitious name if the LLC's name is unavailable in the foreign state). A Certificate of Good Standing from the Wyoming Secretary of State (certificates of good standing are free online and $20.00 by mail; this is sometimes called a Certificate of Existence.  _(SOS Business Division fee schedule)_) The name and address of a registered agent in the foreign state. Annual report obligations in the foreign state thereafter. The Wyoming LLC also remains obligated to file its Wyoming annual report and maintain its Wyoming registered agent.  _(General state filing requirements)_
 
-### 10.4 The pure holding-company pattern (avoids foreign qualification)
+### 10.4 The pure holding-company pattern
 
-- **Pure holding-company pattern avoids foreign qualification** -- A Wyoming holding LLC that owns 100% of an operating LLC in the operator's home state is generally not "doing business" in the home state, because owning intangible interests is not "doing business." This is the umbrella pattern: ``` Owner (individual) │ ▼ Wyoming Holding LLC  (no foreign qualification anywhere) │ ├── California Operating LLC  (qualified and operating in CA) ├── Texas Operating LLC       (qualified and operating in TX) └── New York Operating LLC    (qualified and operating in NY) ``` This pattern preserves the Wyoming charging-order shield at the ownership layer while accepting the home-state cost of the operating layers. The owner-to-Wyoming-Holding-LLC link is the link the charging-order shield protects; a creditor of the individual owner hits the Wyoming charging-order wall at the holding-LLC level.
+- **Pure holding-company pattern** -- A Wyoming holding LLC that owns the operating LLCs, with each operating LLC qualified and operating in its own home state: ``` Owner (individual) │ ▼ Wyoming Holding LLC  (no foreign qualification anywhere) │ ├── California Operating LLC  (qualified and operating in CA) ├── Texas Operating LLC       (qualified and operating in TX) └── New York Operating LLC    (qualified and operating in NY) ``` This pattern preserves the Wyoming charging-order shield at the ownership layer while accepting the home-state cost of the operating layers. The owner-to-Wyoming-Holding-LLC link is the link the charging-order shield protects; a creditor of the individual owner hits the Wyoming charging-order wall at the holding-LLC level.
 
 ### Worked example 1 (11.1): Facts
 
-Jamal is a Texas resident who owns four single-family rental properties: two in Texas, one in Arizona, one in Tennessee. Combined rental net income for 2025 is $58,000. Combined property value is $1,650,000. He wants: Liability separation between properties (a tenant slipping on one property cannot reach the equity in another). Asset protection against personal-life liabilities (auto accident, business creditor of his W-2 employer). Minimum annual cost. Anonymity from skip-trace searches that match deed records to his name.
+Jamal is a Texas resident who owns four single-family rental properties: two in Texas, one in Arizona, one in Tennessee. He wants: Liability separation between properties (a tenant slipping on one property cannot reach the equity in another). Asset protection against personal-life liabilities (auto accident, business creditor of his W-2 employer). Minimum annual cost. Anonymity from skip-trace searches that match deed records to his name.
 
 ### Worked example 1 (11.2): Structure
 
@@ -338,7 +335,7 @@ No reduction in Texas, Arizona, or Tennessee state-level tax (Texas and Tennesse
 
 ### Worked example 2 (12.1): Facts
 
-Priya is a software engineer who developed a niche SaaS application that generates $180,000 of net revenue in 2025. She is a US citizen resident in Colorado. She is publicly identifiable in her primary career as a senior engineer at a competitor's company and prefers her side-business ownership not be searchable in public records.
+Priya is a software engineer who developed a niche SaaS application. She is a US citizen resident in Colorado. She is publicly identifiable in her primary career as a senior engineer at a competitor's company and prefers her side-business ownership not be searchable in public records.
 
 ### Worked example 2 (12.2): Structure
 
@@ -381,7 +378,6 @@ The Wyoming LLC is a disregarded entity by default. Mateo is the beneficial owne
 
 ### Worked example 3 (13.3): US tax analysis
 
-- **Non-resident alien US taxation categories** -- Mateo, as a non-resident alien individual, is taxed by the United States only on: US-source income that is effectively connected with a US trade or business (ECI under § 871(b)), or US-source FDAP income (§ 871(a)), generally subject to 30% withholding unless reduced by treaty.  _(§ 871(a); § 871(b))_
 - **Source rules for personal services income** -- Mateo's facts: He performs all services from Buenos Aires. He has no US office, no US employees, no US fixed place of business. He does not enter the US to perform services. Under § 864 and the source rules of § 861(a)(3), Mateo's personal services income is sourced where the services are performed -- Argentina, not the United States. Mateo therefore has no US-source income and no US trade or business, and the Wyoming LLC's invoicing role does not create one (the LLC is disregarded; its activity is Mateo's activity, and Mateo's services are performed abroad).  _(§ 864; § 861(a)(3))_
 - **Mateo owes no US federal income tax** -- Mateo owes no US federal income tax on the consulting revenue. He remains taxable in Argentina under Argentine domestic law (refer to the Argentina skill).  _(§ 861(a)(3); § 864)_
 
@@ -391,7 +387,6 @@ AUDIT FLASH POINT -- Form 5472 for foreign-owned SMLLC. Even though Mateo owes n
 
 1. Obtain an EIN (Form SS-4 -- for a foreign responsible party, file by mail or fax; processing takes 4–8 weeks in 2025).
 2. File Form 5472 annually with a pro-forma Form 1120 disclosing the foreign owner and all "reportable transactions" between the LLC and the foreign owner (contributions, distributions, payments, loans).
-3. The Form 5472 / pro-forma 1120 is due on the 15th day of April of the year following the reporting year (subject to extension on Form 7004).
 4. The penalty for failure to file Form 5472 is $25,000 per form per year under § 6038A(d), with an additional $25,000 per 30-day period of continued non-compliance.
 
 This is the single most common error in international Wyoming LLC planning. Promoters market the Wyoming LLC as "tax-free" and "anonymous" without disclosing the 5472 obligation. The IRS automatically assesses the $25,000 penalty on examination.
@@ -400,7 +395,6 @@ This is the single most common error in international Wyoming LLC planning. Prom
 
 ### Worked example 3 (13.5): Federal compliance -- FinCEN BOI
 
-- **FinCEN BOI applicability to foreign-owned domestic LLC** -- If FinCEN BOI reporting is in force at the time of formation, a foreign-owned domestic LLC is a domestic reporting company subject to BOI reporting. The 2025 Treasury enforcement narrowing was directed at domestic reporting companies with US persons as beneficial owners; foreign reporting companies and foreign-owned domestic reporting companies remain subject to BOI reporting in the most recent guidance. Confirm current enforcement posture and file if required. The penalty for willful non-compliance is up to $500/day and up to $10,000 plus criminal exposure.  _(Corporate Transparency Act; FinCEN guidance, 2025 Treasury enforcement announcement)_
 
 ### Worked example 3 (13.6): Banking
 
@@ -418,7 +412,7 @@ It is not a tax-free structure. It is a no-US-tax structure because the income i
 
 ### Worked example 4 (14.1): Facts
 
-Riley is a US-resident crypto investor with a portfolio worth $3.4 million across self-custody hardware wallets, exchange accounts, and a small staking validator. Riley wants:
+Riley is a US-resident crypto investor with a portfolio across self-custody hardware wallets, exchange accounts, and a small staking validator. Riley wants:
 
 - Liability separation between long-term hold positions and active trading.
 - Asset protection if a smart-contract counterparty or exchange bankruptcy yields a clawback / litigation exposure.
@@ -578,7 +572,7 @@ This skill draws on the following authorities. Citations are to the statute comp
 - **Wyoming Uniform Trust Code** -- Wyoming Uniform Trust Code.  _(W.S. § 4-10-101 et seq.)_
 - **Wyoming Qualified Spendthrift Trust (DAPT)** -- Wyoming Qualified Spendthrift Trust (DAPT).  _(W.S. § 4-10-510)_
 - **Special Purpose Depository Institutions** -- Special Purpose Depository Institutions.  _(W.S. § 13-12-101 et seq.)_
-- **Income tax: statutory repeal plus a constitutional credit requirement** -- The Title 39 income and corporate tax sections were repealed by Laws 1998, ch. 5, § 4; Article 15, § 18 permits an income tax but requires full credit for sales, use and ad valorem taxes paid in Wyoming.  _(W.S. Title 39, repealed by Laws 1998, ch. 5, § 4; Wyoming Constitution, Article 15, § 18, not yet confirmed against a sidecar-archived source)_
+- **Income tax: statutory repeal** -- The Title 39 income and corporate tax sections were repealed by Laws 1998, ch. 5, § 4.  _(W.S. Title 39, ch. 7 repealed by Laws 1998, ch. 5, § 4)_
 - **S-corporation rules** -- S-corporation rules.  _(Internal Revenue Code §§ 1361, 1362)_
 - **Trade or business definition** -- Trade or business definition.  _(Internal Revenue Code § 864)_
 - **Nonresident alien individual tax** -- Nonresident alien individual tax.  _(Internal Revenue Code § 871)_
@@ -596,7 +590,6 @@ This skill draws on the following authorities. Citations are to the statute comp
 - **2025 inflation adjustments** -- 2025 inflation adjustments.  _(IRS Rev. Proc. 2024-40)_
 - **Corporate Transparency Act** -- Corporate Transparency Act.  _(31 U.S.C. § 5336)_
 - **Customer Due Diligence Rule** -- Customer Due Diligence Rule.  _(31 C.F.R. § 1010.230)_
-- **FinCEN final BOI rule and enforcement-narrowing guidance** -- FinCEN final BOI rule (87 Fed. Reg. 59498) and subsequent enforcement-narrowing guidance (Treasury announcement 2025).  _(87 Fed. Reg. 59498)_
 - **Federal supremacy of tax-lien reach over state property-law protections** -- Federal supremacy of tax-lien reach over state property-law protections.  _(United States v. Craft, 535 U.S. 274 (2002))_
 - **Delaware Limited Liability Company Act** -- Delaware Limited Liability Company Act.  _(6 Del. C. § 18-101 et seq.)_
 - **Delaware charging order** -- Delaware charging order.  _(6 Del. C. § 18-703)_
@@ -743,7 +736,7 @@ expected:
 | Wyoming Statutes Title 34 compilation | https://wyoleg.gov/statutes/compress/title34.pdf | 2026-11-01 |
 | Wyoming Statutes Title 39 compilation | https://wyoleg.gov/statutes/compress/title39.pdf | 2026-11-01 |
 
-Not yet confirmed: Delaware $90 LLC filing fee, $300 annual LLC tax and $390 first-year total, $89 corporate filing fee baseline, $175 minimum and $200,000 maximum corporate franchise tax, 8.7% corporate and 6.6% top personal income tax rates, and the 110-year real-property perpetuities period; Nevada $75 filing fee, $150 initial and annual list fees, $200 state business license, $425 first-year total and $350 annual total, 0.051% to 0.331% commerce tax rates, and the 365-year trust duration; California $70 filing fee, $800 minimum franchise tax and $870 first-year total, and the $2,000 per-year non-qualification penalty; Texas $300 franchise tax filing fee and the $2.47M No Tax Due threshold; New York $200 filing fee, roughly $1,000 publication cost and $1,300 first-year total; Massachusetts $500 filing fee, $500 annual fee and $1,000 first-year total; Tennessee $300 annual franchise tax minimum; Colorado $100 foreign qualification fee and $10 periodic report fee; the $25,000 Form 5472 penalty; the $500 per day and $10,000 FinCEN BOI penalties; the $13.99M 2025 GST exemption; and 360- and 500-year trust durations in other states
+Not yet confirmed: Delaware $90 LLC filing fee, $300 annual LLC tax and $390 first-year total, $89 corporate filing fee baseline, $175 minimum and $200,000 maximum corporate franchise tax, 8.7% corporate and 6.6% top personal income tax rates, and the 110-year real-property perpetuities period; Nevada $75 filing fee, $150 initial and annual list fees, $200 state business license, $425 first-year total and $350 annual total, 0.051% to 0.331% commerce tax rates, and the 365-year trust duration; California $70 filing fee, $800 minimum franchise tax and $870 first-year total, and the $2,000 per-year non-qualification penalty; Texas $300 franchise tax filing fee and the $2.47M No Tax Due threshold; New York $200 filing fee, roughly $1,000 publication cost and $1,300 first-year total; Massachusetts $500 filing fee, $500 annual fee and $1,000 first-year total; Tennessee $300 annual franchise tax minimum; Colorado $100 foreign qualification fee and $10 periodic report fee; the $25,000 Form 5472 penalty; the $500 per day and $10,000 FinCEN BOI penalties; the $13.99M 2025 GST exemption; and 360- and 500-year trust durations in other states; the Wyoming Constitution Article 15, § 18 income-tax credit requirement; the Form 5472 filing requirement for foreign-owned single-member LLCs (Treas. Reg. § 1.6038A-1) and its April 15 due date with Form 7004 extension; the bank CDD beneficial-ownership rule (31 C.F.R. § 1010.230); the non-resident-alien US tax analysis (ECI versus FDAP income and the 30% withholding rule under IRC §§ 871(a) and 871(b)); the FinCEN BOI applicability of foreign-owned domestic LLCs and the FinCEN final BOI rule (87 Fed. Reg. 59498); the California series-LLC franchise-tax treatment (each series a separate entity for state tax purposes); the $50 (Kentucky) to $500+ (Massachusetts, Texas) foreign-qualification fee range; the pure holding-company position that a Wyoming holding LLC owning intangible interests is generally not "doing business" in the operator's home state; and the worked-example scenario figures (Jamal's $58,000 combined rental net income and $1,650,000 combined property value, Priya's $180,000 SaaS net revenue, and Riley's $3.4 million crypto portfolio)
 
 ## Talk to a verified accountant
 
