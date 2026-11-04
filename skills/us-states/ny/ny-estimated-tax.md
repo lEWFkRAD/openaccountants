@@ -16,7 +16,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NY Estimated Tax
 
-## Section 1 -- Quick reference
+## Who this applies to
+## Rates, bands and thresholds
 
 **Section 1 -- Quick reference**  _([Form IT-2105-I (2025)](https://www.tax.ny.gov/pdf/2025/inc/it2105i_2025.pdf))_
 
@@ -68,7 +69,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | UBT credit available | Include only if taxpayer files NYC UBT return |
 | Annualized method | Default to equal instalments; flag annualized option for reviewer |
 
-## Section 2 -- Required inputs and refusal catalogue
+### Section 2 -- Required inputs and refusal catalogue
 
 ### Required inputs
 
@@ -122,7 +123,7 @@ This is the deterministic pre-classifier for bank statement transactions. When a
 | NYS PENALTY, NYS INTEREST | EXCLUDE | Penalty/interest |
 | IT-201 BALANCE | Flag for reviewer | Annual return balance, not estimated |
 
-## Section 4 -- Worked examples
+### Section 4 -- Worked examples
 
 ### Worked example Example -- Standard NYC freelancer
 
@@ -163,7 +164,7 @@ Input: Westchester resident (Zone 2). NESE $80,000.
 
 Output: MCTMT = $80,000 x 0.34% = $272 because Zone 2 NESE exceeds the $50,000 threshold.
 
-## Section 5 -- Computation rules
+## The taxable base
 
 ### 5.1 Determine total estimated tax
 
@@ -193,7 +194,8 @@ Output: MCTMT = $80,000 x 0.34% = $272 because Zone 2 NESE exceeds the $50,000 t
 
 - **Yonkers tax computation** — Resident: 16.75% of NY state tax. Nonresident working in Yonkers: 0.5% of Yonkers-source earnings.
 
-## Section 6 -- Penalties and interest
+### 5.1 Computation rules
+## Deadlines and filing
 
 ### 6.1 Underpayment penalty
 
@@ -207,7 +209,7 @@ Output: MCTMT = $80,000 x 0.34% = $272 because Zone 2 NESE exceeds the $50,000 t
 
 - **Annualized income instalment method rule** — IT-2105.9 allows annualized method for uneven income. Computes income actually earned through each quarter-end. Reduces early-quarter payments for seasonal freelancers.  _(https://www.tax.ny.gov/pdf/2025/inc/it2105i_2025.pdf)_
 
-## Section 7 -- Filing and payment procedure
+## Penalties and interest
 
 **Paper vouchers:** Form IT-2105 mailed to NYSDTF.
 
@@ -215,7 +217,10 @@ Output: MCTMT = $80,000 x 0.34% = $272 because Zone 2 NESE exceeds the $50,000 t
 
 **Prior year overpayment:** Applied to reduce 1st quarter payment. Document on voucher.
 
-## Section 8 -- Edge cases
+### 8.0 Edge cases intro
+## Cross-border points
+### Section 8 -- Edge cases
+## Worked examples
 
 Prior-year NYAGI or prior-year MCTD NESE above $150,000 ($75,000 if MFS) requires 110% of prior-year tax (not 100%).
 
@@ -229,7 +234,7 @@ Seasonal freelancer: use IT-2105.9 to reduce early-quarter payments.
 
 Applied to 1st quarter estimated payment.
 
-## Section 9 -- Self-checks
+### Section 9 -- Self-checks
 
 Before delivering output, verify:
 
@@ -244,7 +249,7 @@ Before delivering output, verify:
 - [ ] Due dates confirmed (Apr 15, Jun 16, Sep 15, Jan 15 for TY2025)
 - [ ] Output labelled as estimated until reviewer confirms
 
-## Section 10 -- Test suite
+### Section 10 -- Test suite
 
 ### Worked example Test -- NYC freelancer
 
@@ -276,7 +281,7 @@ Expected: MCTMT = $272.
 Input: No prior NY return.
 Expected: Prior year safe harbour = $0. Use 90% current.
 
-## Prohibitions
+### Prohibitions
 
 - NEVER omit MCTMT from estimated tax calculations
 - NEVER use 100% prior-year safe harbour when prior-year NYAGI or MCTD NESE exceeds $150,000 ($75,000 if MFS) -- use 110%
@@ -285,7 +290,19 @@ Expected: Prior year safe harbour = $0. Use 90% current.
 - NEVER advise on penalty waiver requests -- procedural matter
 - NEVER confuse NY estimated tax with federal estimated tax
 
-## Disclaimer
+## Ask the client first
+
+- Confirm the taxpayer's filing status, prior-year NY liability, and whether withholding alone covers the safe harbor before recommending estimated payments.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| NYSDTF 2026 tax filing dates calendar | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/2026_tax_filing_dates.htm | 2026-10-28 |
+| Form IT-2105-i instructions (2025) | https://www.tax.ny.gov/pdf/2025/it/it2105i.pdf | 2026-10-28 |
+| NY Tax Law §6654 (underpayment of estimated tax) | https://www.nysenate.gov/legislation/laws/TAX/6654 | 2026-11-03 |
+
+Not yet confirmed: 2026 IT-2105 installment due dates beyond the calendar page; NYC/Yonkers estimated-payment interaction figures.
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 

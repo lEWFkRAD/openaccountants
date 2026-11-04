@@ -12,6 +12,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # NY Mctmt
 
+## Who this applies to
+
 ### 1.1 Statutory basis
 
 - **MCTMT statutory basis** — The Metropolitan Commuter Transportation Mobility Tax (MCTMT) is imposed under New York Tax Law Article 23 (sections 800–810), enacted by Chapter 25 of the Laws of 2009 (effective March 1, 2009, for employers; January 1, 2009, for self-employed individuals). The tax is administered by NYSDTF and proceeds are dedicated to the MTA.  _(New York Tax Law Article 23 (sections 800–810); Chapter 25 of the Laws of 2009)_
@@ -48,6 +50,7 @@ Prior to July 1, 2023, MCTMT used a single rate schedule across the entire MCTD,
 
 - **Mid-year zone relocation** — When a business relocates from one zone to the other during the year — for example, an employer moves its office from Westchester to Manhattan effective May 1 — the zone determination changes prospectively. Payroll for services performed before the relocation is allocated to the prior zone; payroll for services performed after the relocation is allocated to the new zone. The de minimis thresholds are applied per quarter, per zone, so a mid-quarter relocation can result in a quarter with both Zone 1 and Zone 2 payroll, each tested separately against its own $312,500 floor.
 
+## Rates, bands and thresholds
 ### 3.1 Zone 1 (NYC five boroughs) — quarterly brackets
 
 **Zone 1 quarterly employer brackets**
@@ -94,6 +97,7 @@ Example: A Zone 1 employer with $400,000 of Q3 2025 MCTD payroll pays MCTMT on t
 
 - **Successor employer treatment** — When an employer acquires substantially all the assets of another employer mid-quarter, the predecessor's MCTD payroll for that quarter does not transfer to the successor for purposes of the quarterly threshold test. Each employer separately tests its own quarterly payroll. This treatment differs from FUTA successor employer rules.
 
+## The taxable base
 ### 4.1 The $50,000 annual threshold
 
 - **Self-employed annual MCTD net earnings threshold** — $150,000 USD for calendar years beginning on and after January 1, 2026 ($50,000 for earlier years). All-or-nothing threshold: below it, no MCTMT owed; once crossed, MCTMT applies to the MCTD-allocated net earnings at the applicable zone rate.  _(NY Tax Law §801(a)(2)-(3), archived as US-NY-dr-nysenate-tax-801.txt)_
@@ -141,6 +145,7 @@ Example: A freelancer with $40,000 of Zone 1 earnings and $30,000 of Zone 2 earn
 
 - **Partner and S corp treatment** — A general partner's distributive share of partnership self-employment earnings flows through to the partner's individual MCTMT computation under §1402, allocated to the MCTD based on where the partner performs services (not where the partnership is located). The partnership itself does not pay MCTMT on partner distributive shares. A limited partner whose distributive share is not subject to SE tax under §1402(a)(13) is similarly not subject to MCTMT on that distributive share. S corporation shareholders receive distributive shares as flow-through income that is not SE earnings (they receive W-2 wages instead); the W-2 wages are subject to MCTMT at the employer level (the S corp pays MCTMT on the shareholder's wages just as on any other employee's wages), and there is no separate self-employed MCTMT on the shareholder.  _(§1402(a)(13))_
 
+## Deadlines and filing
 ### 5.1 Employer filing — Form NYS-45 (absorbing Form MTA-305)
 
 - **NYS-45 consolidation history** — From 2009 through 2021, employers filed MCTMT on a standalone quarterly return, Form MTA-305 (Employer's Quarterly Metropolitan Commuter Transportation Mobility Tax Return). Effective for quarters beginning March 1, 2022, NYSDTF consolidated the MCTMT return into the standard quarterly combined withholding, wage reporting, and unemployment insurance return, Form NYS-45 (Quarterly Combined Withholding, Wage Reporting, and Unemployment Insurance Return), with MCTMT reported on the new Part D of NYS-45. Form MTA-305 is no longer used for periods beginning March 1, 2022 or later.
@@ -187,6 +192,7 @@ Example: A freelancer with $40,000 of Zone 1 earnings and $30,000 of Zone 2 earn
 - **IT-201 reconciliation** — IT-201 (Full-year resident return): Form MTA-6 is filed as a supplementary schedule with IT-201. The MCTMT due flows to IT-201 Line 54a (or the equivalent line in the year's form layout) as an additional tax.
 - **IT-203 reconciliation** — IT-203 (Nonresident / part-year resident return): Form MTA-6 is filed with IT-203, with MCTMT due flowing to IT-203 Line 52a (or equivalent). Nonresidents are subject to MCTMT on their MCTD-allocated SE earnings even if they are New York nonresidents for personal income tax purposes — MCTD activity is the trigger, not residency.
 
+## Penalties and interest
 ### 5.7 Late filing and late payment penalties
 
 - **Late filing penalty** — 5% of the tax if the failure is not more than one month, with an additional 5% for each additional month or fraction, not exceeding 25% in the aggregate  _(NY Tax Law §685(a), archived as US-NY-dr-nysenate-tax-685.txt: "five percent of the amount of such tax if the failure is for not more than one month, with an additional five percent for each additional month or fraction thereof ... not exceeding twenty-five percent in the aggregate")_
@@ -255,6 +261,7 @@ The convenience rule has been litigated extensively in personal income tax conte
 
 - **Single working day allocation rule** — A working day is allocated to a single location, not split. An employee who works the morning in Manhattan and the afternoon in White Plains is allocated to the location where the majority of working hours were spent, with ties broken in favor of the first location. This avoids fractional working-day arithmetic. For self-employed individuals, the same single-day rule applies, with majority hours determining the day's allocation.
 
+## Cross-border points
 ### 8.1 Federal income tax — MCTMT deductibility
 
 - **Employer deductibility** — MCTMT paid by an employer is deductible as an ordinary and necessary business expense under IRC §162, treated as a state and local payroll tax. It is reported on the employer's Schedule C (sole proprietor employer), Form 1065 (partnership), Form 1120 (C corp), or Form 1120-S (S corp). It is NOT subject to the SALT cap because it is a business tax, not an individual SALT item.  _(IRC §162)_
@@ -278,6 +285,7 @@ Practitioners should confirm this position against current IRS guidance (Notice 
 
 - **PFL does not interact with MCTMT** — NY PFL premiums are deducted from employees' wages (employee-funded) and are administered separately by the NY State Workers' Compensation Board, not NYSDTF. PFL does NOT interact with MCTMT — MCTMT is an employer-paid tax based on gross wages (before any PFL or other deductions), so PFL deductions do not reduce the MCTMT base.
 
+## Worked examples
 ### Worked example Example — Employer in Zone 1
 
 Facts. Lattice Studio LLC is a multi-member LLC (treated as a partnership for federal tax) headquartered in Manhattan with 24 W-2 employees, all of whom perform services from the Manhattan office. The company has no MCTMT-relevant Zone 2 activity. For Q3 2025 (July 1 — September 30), Lattice Studio paid: 18 designers at an average of $24,000/quarter ($1,800 quarterly bonuses included) → $432,000; 4 senior designers at $35,000/quarter → $140,000; 2 project managers at $30,000/quarter → $60,000. Total Q3 2025 MCTD payroll (Zone 1): $632,000. Analysis. Zone 1 quarterly payroll: $632,000. Bracket: $437,501 and above → 0.60% (top Zone 1 rate). Cliff schedule: the entire $632,000 is taxed at 0.60%. MCTMT due, Q3 2025: $632,000 × 0.60% = $3,792.00. Reporting. Lattice Studio files Form NYS-45 for Q3 2025 by October 31, 2025. On NYS-45 Part D: Line for Zone 1 MCTD payroll subject to MCTMT: $632,000; Line for Zone 1 MCTMT rate: 0.60%; Line for Zone 1 MCTMT due: $3,792.00; Line for Zone 2 MCTD payroll: $0; Line for Zone 2 MCTMT due: $0; Total MCTMT due: $3,792.00. Payment of $3,792.00 is remitted with the NYS-45 filing. The MCTMT is deducted as a business expense on Lattice Studio's Form 1065 in 2025, reducing the partners' distributive share of partnership ordinary income. Sensitivity. If Lattice Studio had only $430,000 of Q3 payroll (just below the $437,500 threshold), the bracket would drop to 0.23% and MCTMT would be $430,000 × 0.23% = $989.00 — a $2,803 cliff savings for $2,000 of payroll reduction. Lattice could plausibly time year-end bonuses across the Q3/Q4 boundary to manage the cliff, though anti-abuse rules apply if the timing is artificial.
@@ -290,11 +298,11 @@ Facts. Yuki Tanaka is a freelance software developer based in Jersey City, NJ, w
 
 Facts. Riverstone Analytics Inc. is a NY S corporation with its offices in White Plains (Westchester County, Zone 2). The company has 12 W-2 employees. Effective May 1, 2025, Riverstone relocates its entire office to 250 Broadway, Manhattan (Zone 1). All 12 employees work from the office. For Q2 2025 (April 1 — June 30): April 2025 wages paid (White Plains, Zone 2): $138,000; May 2025 wages paid (Manhattan, Zone 1): $142,000; June 2025 wages paid (Manhattan, Zone 1): $145,000. Step 1 — Quarterly zone-split. Zone 2 payroll (April only): $138,000; Zone 1 payroll (May + June): $287,000. Step 2 — Threshold test per zone. Zone 2: $138,000 < $312,500 → NO MCTMT for Zone 2 in Q2; Zone 1: $287,000 < $312,500 → NO MCTMT for Zone 1 in Q2. Result, Q2 2025: Riverstone owes $0 of MCTMT for Q2 2025 because neither zone's quarterly payroll reaches the $312,500 floor. Step 3 — Q3 2025 projection. Now in Q3 2025, all wages are Zone 1: July: $145,000; August: $148,000; September: $150,000; Total Zone 1 Q3 2025: $443,000. Step 4 — Q3 bracket determination. Zone 1 payroll: $443,000; Bracket: $437,501 and above → 0.60% (cliff); Cliff at $437,500: Riverstone is $5,500 above the cliff; MCTMT Q3 2025: $443,000 × 0.60% = $2,658.00. Sensitivity. Had Riverstone held Q3 Zone 1 payroll to $437,500 or below, MCTMT would have been $437,500 × 0.23% = $1,006.25 — a $1,651.75 cliff savings. The $5,500 of incremental payroll cost Riverstone $1,651.75 of MCTMT, an effective marginal rate on those final dollars of approximately 30%. Compensation planning could include: Timing of Q3 bonuses to Q4 (if Q4 is below the cliff); Allocating a portion of senior employee comp to the S corp shareholder as distributions (NOT W-2 wages) — but this raises reasonable-compensation issues under §1366 and NYSDTF audit risk; Splitting bonus pools between Q3 and Q4 to stay below the cliff in both. For Q4 2025, with similar payroll, Riverstone would face the same 0.60% cliff if Q4 Zone 1 payroll exceeds $437,500. Annual MCTMT for 2025 in this scenario is approximately: Q1 (Zone 2, $138,000-ish): $0; Q2 (mixed, both below floor): $0; Q3 (Zone 1, $443,000): $2,658; Q4 (Zone 1, ~$447,000 est): ~$2,682; 2025 total MCTMT: ~$5,340. Filing. Riverstone files NYS-45 quarterly through 2025. The Q2 NYS-45 shows the zone-split (April Zone 2 / May-June Zone 1) with $0 MCTMT. The Q3 and Q4 NYS-45 show full Zone 1 reporting at the 0.60% rate. Riverstone has no reason to file a separate Zone 2 line on Q3 / Q4 NYS-45 because no Zone 2 payroll occurred.
 
-## 10. Self-checks
+### 10. Self-checks
 
 Before submitting an MCTMT computation for reviewer signoff, run the following checks: 1. Zone identification: Confirm each location is correctly classified as Zone 1 (5 boroughs), Zone 2 (7 suburban counties), or outside MCTD. Common errors: Albany (outside MCTD), Jersey City (NJ, outside MCTD entirely), Yonkers (Westchester, Zone 2 — NOT NYC despite proximity). 2. Quarterly thresholds: Confirm the de minimis $312,500 floor is tested per quarter, per zone, not annualized or aggregated across zones. 3. Cliff vs graduated: Confirm employer MCTMT is computed as a cliff (entire payroll at one rate), and self-employed Zone 1 MCTMT is computed as graduated (bracket-by-bracket marginal rates). 4. $50,000 SE threshold: Confirm tested on aggregate MCTD-allocated net SE earnings (not per zone), and that no MCTMT is owed below the threshold. 5. Allocation method: Confirm working-day allocation is reasonable and documented; the convenience-of-the-employee rule may apply to remote-work days. 6. Exemption confirmation: Confirm no statutory exemption applies (federal government, agricultural, public school district, household employer). 7. Federal deduction: Confirm MCTMT is deducted on Schedule C / Form 1065 / Form 1120 in the year paid as an ordinary business expense. 8. PTET independence: Confirm MCTMT is NOT included in the PTET base and there is no PTET credit against MCTMT. 9. Filing route: Confirm employers file via NYS-45 Part D (not the discontinued MTA-305) and self-employed individuals file Form MTA-6 with their IT-201/IT-203. 10. Safe harbor compliance: Confirm self-employed estimates meet either prior-year (100%) or current-year (90%) safe harbor to avoid Form IT-2105.9 underpayment penalty.
 
-## 11. Refusals
+## Ask the client first
 
 This skill does NOT cover the following items, which require either a specialized practitioner or a separate skill module:
 
@@ -307,7 +315,16 @@ This skill does NOT cover the following items, which require either a specialize
 - **MCTMT for clergy and members of religious orders** — Special §1402(e) exclusions for clergy SE earnings; defer to clergy tax specialist.  _(IRC §1402(e))_
 - **MCTMT for nonresident aliens under tax treaty** — Treaty exemptions for income tax may or may not extend to MCTMT depending on the treaty's saving clause; defer to international tax specialist.
 
-## 12. Provenance
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| NY Tax Law §801 (MCTMT rate) | https://www.nysenate.gov/legislation/laws/TAX/801 | 2026-11-03 |
+| NY Tax Law §685 (additions to tax and penalties) | https://www.nysenate.gov/legislation/laws/TAX/685 | 2026-11-03 |
+| NYSDTF MCTMT employer rate tables (NYS-45 Part D) | https://www.tax.ny.gov/bus/mctmt/ | 2026-10-28 |
+| NYSDTF MCTMT self-employed page (MTA-6) | https://www.tax.ny.gov/bus/mctmt/ | 2026-10-28 |
+
+Not yet confirmed: TSB-M-23(1)MCTMT text not archived; Publication 420 current edition not archived; 2026 NYS-45 instruction text not archived.
 
 ### Statutory basis
 
@@ -352,7 +369,7 @@ This skill is at **version 0.1, verified_by: pending**. A NY-credentialed practi
 
 Last updated: 2025-11-15. Next scheduled review: prior to 2026 tax-filing season, after release of 2026 NY budget legislation and updated NYSDTF Publication 420.
 
-## 13. Cross-references to other skills
+### 13. Cross-references to other skills
 
 - **us-tax-workflow-base** — Workflow scaffolding; MCTMT is a Tier 2 content skill loaded after the base.
 - **us-sole-prop-bookkeeping** — Schedule C bookkeeping; provides the net profit input that feeds MCTMT for self-employed taxpayers.

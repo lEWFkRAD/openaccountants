@@ -25,7 +25,7 @@ This skill cannot produce any output on its own. It must be loaded alongside `us
 
 ---
 
-## Section 1 — Scope statement
+## Who this applies to
 
 **In scope.** This skill covers the preparation of Form IT-201, Full-Year Resident Income Tax Return, for tax year 2025 for:
 
@@ -59,7 +59,7 @@ The scope limitations align with `us-tax-workflow-base` Section 6 base refusals 
 
 ---
 
-## Section 2 — Tax year coverage and currency
+### Section 2 — Tax year coverage and currency
 
 **Tax year covered:** 2025 (calendar year, returns due April 15, 2026).
 
@@ -99,7 +99,7 @@ The scope limitations align with `us-tax-workflow-base` Section 6 base refusals 
 
 ---
 
-## Section 3 — Year-specific figures table for tax year 2025
+## Rates, bands and thresholds
 
 All figures are for NY Form IT-201, tax year 2025, calendar-year residents. Every figure has a primary source citation inline.
 
@@ -306,7 +306,7 @@ Rarely relevant for freelance developers but must be handled for older taxpayers
 
 ---
 
-## Section 4 — Primary source library
+### Section 4 — Primary source library
 
 Every position in this skill cites from this list. New citations added to the skill must be verified against the primary source before use.
 
@@ -434,7 +434,7 @@ Every position in this skill cites from this list. New citations added to the sk
 
 *[Sections 5-14 to follow in subsequent turns. Section 5 will contain the position rules — approximately 25 structured positions covering the full IT-201 computation from federal AGI through final balance due/refund, with MCTMT, NYC, and Yonkers sub-sections. Section 6 will be the conservative defaults table. Section 7 will be the topical refusal catalogue (R-NY201-1 through R-NY201-12). Section 8 will be the reviewer attention thresholds. Section 9 will be the worked examples, minimum 5, covering the common fact patterns: (1) non-NYC resident freelancer, (2) NYC resident freelancer with UBT credit flow, (3) MCTMT Zone 2 resident, (4) MFJ with spouse W-2 income, (5) high-income taxpayer using the >$107,650 recapture worksheet. Section 10 will specify the output format extensions to the base reviewer brief. Section 11 will specify the intake form additions. Section 12 will specify the self-check additions starting at Check 28 to avoid collision with the base checks (1-17) and the IT-204-LL skill's checks (18-27). Section 13 will be cross-skill references. Section 14 will be reference material, design notes, and the change log.]*
 
-## End of Turn 1 — Sections 1-4 complete, Sections 5-14 pending
+### End of Turn 1
 
 ---
 
@@ -445,7 +445,7 @@ This turn drafted the frontmatter, the preamble, and Sections 1-4 of `ny-it-201-
 Sections 5-14 will be drafted in turns 2-4. Estimated total file length at completion: 3,500-4,500 lines (the position rules section alone will be ~1,500 lines covering ~25 named positions, and the worked examples section will be ~800-1,000 lines).
 ---
 
-## Section 5 — Position rules
+## The taxable base
 
 This section contains the structured position rules the skill applies when preparing a Form IT-201. Each position follows the slot 5 contract format: **trigger / rule / conservative default / source**. Positions are grouped into seven subsections matching the natural flow of the return: (A) entry gate and profile confirmation; (B) federal AGI to NYAGI; (C) deduction and exemption decisions; (D) NY state tax computation; (E) NYC resident tax layer; (F) Yonkers layer; (G) MCTMT for self-employed; (H) credits, payments, and final tax.
 
@@ -1024,7 +1024,7 @@ Any position that refuses halts the workflow. The orchestrator `us-federal-ny-re
 
 *[Sections 6-14 to follow in subsequent turns. Section 6 will be the conservative defaults table. Section 7 will be the topical refusal catalogue (R-NY201-1 through R-NY201-12 in trigger/output format). Section 8 will be the reviewer attention thresholds. Section 9 will be the worked examples, minimum 5. Section 10 will specify the output format extensions. Section 11 will specify the intake form additions. Section 12 will specify the self-check additions starting at Check 28. Section 13 will be cross-skill references. Section 14 will be reference material and change log.]*
 
-## End of Turn 2 — Section 5 complete, Sections 6-14 pending
+### End of Turn 2
 
 ---
 
@@ -1043,7 +1043,8 @@ Position count: 34 positions across 8 subsections (not the 25 originally estimat
 Sections 6-14 remain for Turns 3 and 4. Estimated total file length at completion: 3,000-3,500 lines.
 ---
 
-## Section 6 — Conservative defaults table
+## Deadlines and filing
+### Section 6 — Conservative defaults table
 
 | # | Ambiguity | Conservative default | Source |
 |---|---|---|---|
@@ -1074,7 +1075,15 @@ Sections 6-14 remain for Turns 3 and 4. Estimated total file length at completio
 
 ---
 
-## Section 7 — Topical refusal catalogue
+## Penalties and interest
+
+## Ask the client first
+
+- Confirm residency, filing status, and whether the taxpayer lived or worked in NYC or Yonkers before computing any layer.
+
+## Cross-border points
+
+### Section 7 — Topical refusal catalogue
 
 These refusals extend the base global catalogue in `us-tax-workflow-base` Section 6. When any refusal fires, output the text in the "Output" field **verbatim** per base Check 16, then stop workflow and flag in the brief's refusal trace.
 
@@ -1128,7 +1137,7 @@ Output: "Returns for minors with investment income subject to the federal kiddie
 
 ---
 
-## Section 8 — Reviewer attention thresholds
+### Section 8 — Reviewer attention thresholds
 
 This skill produces a multi-layer tax computation (state + potentially NYC + potentially Yonkers + potentially MCTMT). Reviewer attention is triggered by any of the following conditions, not by single dollar-amount thresholds alone. Each trigger explains why the reviewer must see it.
 
@@ -1180,7 +1189,7 @@ This skill produces a multi-layer tax computation (state + potentially NYC + pot
 
 ---
 
-## Section 9 — Worked examples
+## Worked examples
 
 Six worked examples covering the common fact patterns the skill encounters. Each example walks through the position rules from Section 5 with explicit computations, primary source citations, and the resulting reviewer brief entries. Examples are drawn from hypothetical taxpayers; names are illustrative.
 
@@ -1570,7 +1579,7 @@ NYC tax = 3.078% × $12,000 + 3.762% × $13,000 + 3.819% × $25,000 + 3.876% × 
 
 ---
 
-## End of Turn 3 — Sections 6 through 9 complete, Sections 10-14 pending
+### End of Turn 3
 
 ### Turn 3 summary
 
@@ -1597,7 +1606,7 @@ Total Turn 3 file length: approximately 970 lines. Cumulative file length after 
 Sections 10-14 remain for Turn 4: output format extensions, intake form additions, self-check additions, cross-skill references, and change log. Estimated Turn 4 length: 500-700 lines. Final total: approximately 2,500-2,700 lines.
 ---
 
-## Section 10 — Output format extensions
+### Section 10 — Output format extensions
 
 This section extends the base reviewer brief template from `us-tax-workflow-base` Section 3 with NY-specific additions. The base template provides the universal structure (taxpayer information, income summary, deduction summary, tax computation, credits, payments, balance, positions taken, refusals fired, self-check results, action list). This skill adds the NY-specific layers and line references.
 
@@ -1608,7 +1617,7 @@ Insert these sections into the base reviewer brief in the order listed, after th
 #### NY.1 — New York residency and layer determination
 
 ```
-## New York residency and tax layer determination
+### Output template: New York residency and tax layer determination
 
 Taxpayer NY residency status: [Full-year NY State resident / refused]
 Source: NY Tax Law §605(b) — domicile test [and/or] statutory residency test
@@ -1636,7 +1645,7 @@ MCTMT applicability:
 #### NY.2 — NYAGI reconciliation
 
 ```
-## NYAGI reconciliation (Federal AGI → NY AGI)
+### Output template: NYAGI reconciliation (Federal AGI → NY AGI)
 
 Federal AGI (Form 1040 Line 11, from us-federal-return-assembly): $[amount]
 
@@ -1685,7 +1694,7 @@ Worksheet band (if applicable): [e.g., Single $107,650-$157,650 band]
 #### NY.3 — Tax layer summary
 
 ```
-## NY tax layer summary
+### Output template: NY tax layer summary
 
 NY state tax:
   Line 38 (taxable income): $[amount]
@@ -1725,7 +1734,7 @@ Line 61 (total tax before payments): $[amount]
 #### NY.4 — Payments and final balance
 
 ```
-## Payments and final balance
+### Output template: Payments and final balance
 
 Refundable credits:
   Line 63 (Empire State Child Credit, via IT-213): $[amount]
@@ -1825,7 +1834,7 @@ The skill produces the following attachments to the reviewer brief, in this orde
 
 ---
 
-## Section 11 — Intake form additions
+### Section 11 — Intake form additions
 
 The base intake form in `us-ca-freelance-intake` (or the generalized `us-multi-state-sole-prop-intake` when built) collects federal-level information. This section specifies the NY-specific questions that must be added when the intake detects the taxpayer is a NY filer. Questions use `ask_user_input_v0` format where interactive, or free-text where a document or figure is required.
 
@@ -1996,7 +2005,7 @@ Routing: "First time" answers → flag for reviewer as a new-filer case that may
 
 ---
 
-## Section 12 — Self-check additions
+### Section 12 — Self-check additions
 
 The base workflow provides 17 self-checks in `us-tax-workflow-base` Section 5. The `ny-llc-filing-fee-it-204-ll` skill adds Checks 18-27. This skill adds **Checks 28 through 46** covering the IT-201-specific invariants.
 
@@ -2120,7 +2129,7 @@ The base workflow provides 17 self-checks in `us-tax-workflow-base` Section 5. T
 
 ---
 
-## Section 13 — Cross-skill references
+### Section 13 — Cross-skill references
 
 This skill interacts with the following other skills in the Accora stack. Each interaction has a direction (input/output), a payload (what data flows), and an order constraint (when in the workflow).
 
@@ -2203,7 +2212,7 @@ The horizontal arrow between retirement and SEHI indicates the circular computat
 
 ---
 
-## Section 14 — Reference material, design notes, and change log
+### Section 14 — Reference material, design notes, and change log
 
 ### Reference material (supplementary, not authoritative)
 
@@ -2307,7 +2316,7 @@ This skill follows the Accora skill versioning convention: `vMAJOR.MINOR` where 
 
 ---
 
-## End of Turn 4 — Skill complete
+### End of Turn 4
 
 ### Turn 4 summary
 
@@ -2356,7 +2365,20 @@ This turn drafted the final five sections (10-14) of `ny-it-201-resident-return`
 
 ---
 
-## Disclaimer
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| Form IT-201 instructions (2025) | https://www.tax.ny.gov/pdf/2025/it/it201i.pdf | 2026-10-28 |
+| Form IT-203 instructions (2025) | https://www.tax.ny.gov/pdf/2025/it/it203i.pdf | 2026-10-28 |
+| Form IT-225 instructions (2025 additions/subtractions) | https://www.tax.ny.gov/pdf/2025/it/it225i.pdf | 2026-10-28 |
+| NY Tax Law §601 (tax imposed) | https://www.nysenate.gov/legislation/laws/TAX/601 | 2026-11-03 |
+| NY Tax Law index (article titles) | https://www.nysenate.gov/legislation/laws/TAX | 2026-11-03 |
+| NYSDTF 2026 tax filing dates calendar | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/2026_tax_filing_dates.htm | 2026-10-28 |
+
+Not yet confirmed: 2026 (tax year) IT-201 figures pending release; Yonkers City Code section text not archived; NYC rate-schedule tables beyond IT-201-I not archived.
+
+## Talk to a verified accountant
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 

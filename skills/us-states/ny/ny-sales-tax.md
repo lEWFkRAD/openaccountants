@@ -12,7 +12,8 @@ validation_status: ai-drafted-q3
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## Section 1 -- Quick reference
+## Who this applies to
+## Rates, bands and thresholds
 
 | Field | Value |
 |---|---|
@@ -42,7 +43,7 @@ validation_status: ai-drafted-q3
 
 ---
 
-## Section 2 -- Required inputs and refusal catalogue
+### Section 2 -- Required inputs and refusal catalogue
 
 ### Required inputs
 
@@ -148,7 +149,7 @@ validation_status: ai-drafted-q3
 
 ---
 
-## Section 4 -- Rate lookup
+### Section 4 -- Rate lookup
 
 ### 4.1 Key combined rates
 
@@ -175,7 +176,7 @@ NYC, Rockland, Westchester, Dutchess, Orange, Putnam, Nassau, Suffolk -- 0.375% 
 
 ---
 
-## Section 5 -- Classification rules
+## The taxable base
 
 ### 5.1 General rule
 
@@ -191,7 +192,7 @@ All food at restaurants is taxable regardless of individual item exemption statu
 
 ---
 
-## Section 6 -- Return form and filing
+## Deadlines and filing
 
 ### 6.1 Forms
 
@@ -225,7 +226,7 @@ All food at restaurants is taxable regardless of individual item exemption statu
 
 ---
 
-## Section 7 -- Thresholds, penalties, and deadlines
+## Penalties and interest
 
 ### 7.1 Economic nexus
 
@@ -267,7 +268,8 @@ All food at restaurants is taxable regardless of individual item exemption statu
 
 ---
 
-## Section 8 -- Edge cases
+## Cross-border points
+### Section 8 -- Edge cases
 
 ### EC1 -- Clothing at $110 boundary
 
@@ -301,7 +303,7 @@ All food at restaurants is taxable regardless of individual item exemption statu
 
 ---
 
-## Section 9 -- Test suite
+## Worked examples
 
 ### Worked example Test -- Clothing under $110 in NYC
 
@@ -355,7 +357,7 @@ All food at restaurants is taxable regardless of individual item exemption statu
 
 ---
 
-## Section 10 -- Prohibitions
+### Section 10 -- Prohibitions
 
 - NEVER apply the $110 clothing exemption per transaction -- it is per ITEM.
 - NEVER use calendar quarters for New York sales tax -- NY quarters start March 1.
@@ -370,13 +372,25 @@ All food at restaurants is taxable regardless of individual item exemption statu
 
 ---
 
-## Disclaimer
+## Ask the client first
+
+- Confirm where the buyer takes delivery and whether the item is clothing, food, or a service before applying any rate.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| NYSDTF sales tax rates (general) | https://www.tax.ny.gov/bus/st/rates.htm | 2026-10-28 |
+| ST-140 instructions (quarterly return) | https://www.tax.ny.gov/pdf/current_forms/st/st140i.pdf | 2026-10-28 |
+| TB-ST-275 filing requirements | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/filing_requirements_for_sales_and_use_tax_returns.htm | 2026-10-28 |
+
+Not yet confirmed: 2026 locality rate-change notices beyond the archived rates page; prepaid sales tax on fuel current rates.
 
 This skill is provided for informational and computational purposes only and does not constitute tax, legal, or financial advice. All outputs must be reviewed by a qualified professional (CPA, EA, or tax attorney) before filing.
 
 ---
 
-## Disclaimer
+## Talk to a verified accountant
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
