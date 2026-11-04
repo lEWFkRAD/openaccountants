@@ -45,6 +45,13 @@ Is the LLC disregarded for federal purposes? Is the sole member a NY full-year r
 
 ## Sources
 
+| Source | URL | Read on |
+|---|---|---|
+| NY Tax Law 658(c)(1) ($25 disregarded-entity filing fee) | https://www.ny.gov/ | 2026-10-25 |
+| Form IT-204-LL fill-in (March 15 due date, no extension) | https://www.tax.ny.gov/pdf/current_forms/it/it204ll_fill_in.pdf | 2026-10-25 |
+
+Not yet confirmed: the archived copy of the IT-204-LL instructions is not in the pack; confirm the current instructions before filing.
+
 ## Talk to a verified accountant
 This skill is general reference. A New York CPA or enrolled agent should review any IT-204-LL position before filing.
 

@@ -67,6 +67,10 @@ The "other" factors include where cars, boats and planes are registered, the dri
 
 A New York domiciliary is still taxed as a nonresident for a year in which they meet ALL three conditions of 20 NYCRR 105.20(b)(1): no permanent place of abode in New York during the year, a permanent place of abode outside New York for the entire year, and not more than 30 days in New York in the year. A second route, 105.20(b)(2), needs at least 450 days in a foreign country within a 548-consecutive-day period, with the further day limits in the regulation; it does not apply to a move to another state. The domiciliary must prove the conditions are met ([20 NYCRR 105.20(b)](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-105.20)). Few people leaving for Florida meet the first route in the move year, because they lived in New York before the move.
 
+## Rates, bands and thresholds
+
+No separate rate schedule for part-year filers — IT-203 uses the same graduated rates as full-year returns (see ny-income-tax.md).
+
 ## The taxable base
 
 ### Counting days
@@ -176,22 +180,6 @@ The guidelines also warn auditors about "false" indicators, such as "credit card
 | 2026 return season (2027) | File IT-203 (and IT-360.1 if leaving New York City), answer Item H truthfully, complete Schedule B of IT-203-B if Yes. | [IT-203 instructions](https://www.tax.ny.gov/pdf/current_forms/it/it203i.pdf) |
 | Each later year with a New York abode | Keep the log and records again; the test is run each year. | [20 NYCRR 105.20(c)](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-105.20) |
 
-## Worked examples
-
-Hypothetical. Dana is single, domiciled in Manhattan, and works for a Manhattan firm. She buys a house in Miami, moves her art, dog and car there, gets a Florida licence, and leaves New York on 31 March 2026. She spends every day from 1 January to 31 March 2026 in New York: that is 90 days (31 + 28 + 31). She claims her domicile changed on 1 April 2026.
-
-Case A, the Manhattan apartment is sold on 15 August 2026. She maintained it for about seven and a half months of 2026, which is not more than 10 months. The statutory test cannot apply for 2026, because the abode was not maintained for substantially all of the year, whatever her day count, and she keeps no other New York dwelling. If the domicile change on 1 April holds up, she files IT-203 as a part-year resident (resident 1 January to 31 March), with IT-360.1 for New York City, and accrues the items in 154.10. Her post-move workdays in the Manhattan office are New York source days; her home days in Miami are also New York days unless her Miami home office is a bona fide employer office.
-
-Case B, she keeps the Manhattan apartment all year as a pied-a-terre and returns for business and family. After 1 April she logs 94 days in New York, counting every day she was in the state for any part of the day. 90 + 94 = 184. She meets both statutory conditions (abode for substantially all of the year and 184 days or more), so she is a New York State resident for all of 2026 and files IT-201, even if her domicile did change on 1 April. If the days were in New York City, the same count makes her a city resident too.
-
-Case B boundary: with 93 post-move days, 90 + 93 = 183. That is not 184 or more, so the statutory test is not met, and she is back to Case A's part-year analysis. One extra day decides the year: a day trip, a late-night arrival, or a dinner in Manhattan before an evening flight all count. A connection through JFK to a destination outside New York, without leaving the airport for another purpose, can be disregarded under 105.20(c). Days confined in a New York hospital do not count under Audit policy.
-
-In both cases the Department can still argue she never changed domicile at all. Keeping the apartment, the job in Manhattan and frequent New York days are the facts the audit guidelines weigh against her under home, business involvement and time.
-
-## Rates, bands and thresholds
-
-No separate rate schedule for part-year filers — IT-203 uses the same graduated rates as full-year returns (see ny-income-tax.md).
-
 ## Deadlines and filing
 
 IT-203 is due April 15 of the following year; assemble the day count and domicile evidence before filing.
@@ -203,6 +191,18 @@ Tax Law §685 penalties and §686 interest apply to late or underpaid part-year 
 ## Cross-border points
 
 The other state's residency rules, the convenience-of-the-employer rule, and NYC city residency ending with state residency are covered above.
+
+## Worked examples
+
+Hypothetical. Dana is single, domiciled in Manhattan, and works for a Manhattan firm. She buys a house in Miami, moves her art, dog and car there, gets a Florida licence, and leaves New York on 31 March 2026. She spends every day from 1 January to 31 March 2026 in New York: that is 90 days (31 + 28 + 31). She claims her domicile changed on 1 April 2026.
+
+Case A, the Manhattan apartment is sold on 15 August 2026. She maintained it for about seven and a half months of 2026, which is not more than 10 months. The statutory test cannot apply for 2026, because the abode was not maintained for substantially all of the year, whatever her day count, and she keeps no other New York dwelling. If the domicile change on 1 April holds up, she files IT-203 as a part-year resident (resident 1 January to 31 March), with IT-360.1 for New York City, and accrues the items in 154.10. Her post-move workdays in the Manhattan office are New York source days; her home days in Miami are also New York days unless her Miami home office is a bona fide employer office.
+
+Case B, she keeps the Manhattan apartment all year as a pied-a-terre and returns for business and family. After 1 April she logs 94 days in New York, counting every day she was in the state for any part of the day. 90 + 94 = 184. She meets both statutory conditions (abode for substantially all of the year and 184 days or more), so she is a New York State resident for all of 2026 and files IT-201, even if her domicile did change on 1 April. If the days were in New York City, the same count makes her a city resident too.
+
+Case B boundary: with 93 post-move days, 90 + 93 = 183. That is not 184 or more, so the statutory test is not met, and she is back to Case A's part-year analysis. One extra day decides the year: a day trip, a late-night arrival, or a dinner in Manhattan before an evening flight all count. A connection through JFK to a destination outside New York, without leaving the airport for another purpose, can be disregarded under 105.20(c). Days confined in a New York hospital do not count under Audit policy.
+
+In both cases the Department can still argue she never changed domicile at all. Keeping the apartment, the job in Manhattan and frequent New York days are the facts the audit guidelines weigh against her under home, business involvement and time.
 
 ## Ask the client first
 
@@ -226,8 +226,8 @@ The other state's residency rules, the convenience-of-the-employer rule, and NYC
 
 | Source | URL | Read on |
 |---|---|---|
-| DTF residency FAQ | https://www.tax.ny.gov/pit/file/nonresident-faqs.htm | domicile and statutory resident tests, telecommuting |
-| Income tax definitions | https://www.tax.ny.gov/pit/file/pit_definitions.htm | domicile, statutory resident, 183-day definitions |
+| DTF residency FAQ | https://www.tax.ny.gov/pit/file/nonresident-faqs.htm | 2026-10-25 |
+| Income tax definitions | https://www.tax.ny.gov/pit/file/pit_definitions.htm | 2026-10-25 |
 
 Not yet confirmed: Yonkers and NYC-specific move-year worksheets beyond the archived FAQ pages.
 

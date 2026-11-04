@@ -288,7 +288,7 @@ Rarely relevant for freelance developers but must be handled for older taxpayers
 |---|---|---|
 | A-011 | Federal §168(k) bonus depreciation — NY decoupling add-back | Form IT-558-I (2025); NY Tax Law §612(b)(36) |
 | A-012 | Federal §163(j) business interest limitation — NY conformity adjustment | Form IT-558-I (2025) |
-| (TBD for §174A) | Potential future code if NY enacts §174A decoupling retroactively | NOT YET IN FORCE as of skill currency date |
+| (no §174A decoupling enacted) | Potential future code if NY enacts §174A decoupling retroactively | NOT YET IN FORCE as of skill currency date |
 
 ### Critical threshold summary
 
@@ -1076,10 +1076,6 @@ Sections 6-14 remain for Turns 3 and 4. Estimated total file length at completio
 ---
 
 ## Penalties and interest
-
-## Ask the client first
-
-- Confirm residency, filing status, and whether the taxpayer lived or worked in NYC or Yonkers before computing any layer.
 
 ## Cross-border points
 
@@ -2364,6 +2360,10 @@ This turn drafted the final five sections (10-14) of `ny-it-201-resident-return`
 3. Cross-skill validation: run a test case through the full NY stack end-to-end to verify the A-201 UBT add-back, IT-219 credit flow, and MCTMT computations all reconcile correctly
 
 ---
+
+## Ask the client first
+
+- Confirm residency, filing status, and whether the taxpayer lived or worked in NYC or Yonkers before computing any layer.
 
 ## Sources
 
