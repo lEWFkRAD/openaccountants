@@ -731,7 +731,7 @@ Tax = 6.00% × ($95,000 − $80,650) + tax at $80,650
 ```
 The "tax at $80,650" is the cumulative tax from all lower brackets applied in sequence.
 
-**If using the tax computation worksheet:** Follow the worksheet in Form IT-201-I page 34 exactly. The worksheet has different versions for taxpayers with NYAGI in different bands ($107,650 to $157,650, $157,650 to $211,550, $211,550 to $1,077,550, $1,077,550 to $5,000,000, $5,000,000 to $25,000,000, and over $25,000,000 for single filers; different bands for other filing statuses). Each band recomputes the tax to phase out the bracket benefit. **For any taxpayer with NYAGI > $107,650, flag as a reviewer attention item and show the full worksheet computation in the brief.** The worksheet is mechanical but error-prone.
+**If using the tax computation worksheet:** Follow the tax computation worksheet in Form IT-201-I exactly (archived `US-NY-dr-it201i-html-2025.txt`: "how to calculate your 2025 new york state tax ... tax computation—new york adjusted gross income of more than $107,650"). The single-filer rate schedule in Form IT-201-I runs through these NYAGI bands: up to $161,550, $161,550 to $323,200, $323,200 to $2,155,350, $2,155,350 to $5,000,000, $5,000,000 to $25,000,000, and over $25,000,000 (archived `US-NY-dr-it201i-html-2025.txt`: "…plus 6.85% of the excess over 323,200 2,155,350 5,000,000 143,754 plus 9.65% of the excess over 2,155,350 5,000,000 25,000,000 418,263 plus 10.3% of the excess over 5,000,000 25,000,000"); different bands apply for other filing statuses. Each band recomputes the tax to phase out the bracket benefit. **For any taxpayer with NYAGI > $107,650, flag as a reviewer attention item and show the full worksheet computation in the brief.** The worksheet is mechanical but error-prone.
 
 **Conservative default.** If the taxpayer's filing status or NYAGI is ambiguous at the method-selection boundary, use the method that produces the higher tax. Never use the wrong method to get a lower number.
 
@@ -1358,7 +1358,7 @@ Line 54a = **$1,119**.
 
 **Position 5.17 (Line 37 taxable income).** $185,000 − $20,500 − $1,000 (one dependent) = **$163,500**.
 
-**Position 5.18-5.19 (NY state tax).** NYAGI $185,000 > $107,650 → use the tax computation worksheet for MFJ filers in the $157,650 to $211,550 band.
+**Position 5.18-5.19 (NY state tax).** NYAGI $185,000 > $107,650 → use the tax computation worksheet for MFJ filers (Worksheet 1 applies when NYAGI is more than $107,650 but not more than $25,000,000 and taxable income is $161,550 or less; the worksheet stops recapture when the NYAGI amount is $157,650 or more — Form IT-201-I, archived `US-NY-dr-it201i-html-2025.txt`).
 - Base rate schedule computation: applying the MFJ brackets through $163,500: tax through $161,550 bracket plus 6.00% on the excess = approximately $6,842 + 6.00% × $1,950 = $6,842 + $117 = $6,959.
 - Recapture addition for this band: the worksheet adds a small amount (approximately $100-$300 for this income level; exact amount from the worksheet).
 - **Approximate Line 39 = $7,150.**
@@ -1528,7 +1528,7 @@ Total = $340 + $144 + $115.50 + $3,671.25 + $231 = $4,501.75 → $4,502
 
 **Position 5.17 (Line 37).** $511,800 − $8,000 − $0 = **$503,800**.
 
-**Position 5.18-5.19 (NY state tax).** NYAGI $511,800 > $107,650 → tax computation worksheet, and specifically the **$211,550 to $1,077,550 band for single filers**.
+**Position 5.18-5.19 (NY state tax).** NYAGI $511,800 > $107,650 → tax computation worksheet, and specifically the single-filer worksheet band from $215,400 to $1,077,550 (Form IT-201-I rate schedule: "215,400 1,077,550 12,356 plus 6.85% of the excess over 215,400", archived `US-NY-dr-it201i-html-2025.txt`).
 
 The worksheet for this band approximately:
 1. Base tax using the rate schedule on $503,800: tax through $215,400 bracket = $10,692; plus 6.85% on ($503,800 − $215,400) = 6.85% × $288,400 = $19,755; total = **$30,447**.
@@ -1564,7 +1564,7 @@ NYC tax = 3.078% × $12,000 + 3.762% × $13,000 + 3.819% × $25,000 + 3.876% × 
 - **High flag: A-201 UBT add-back $16,800** must match the federal Schedule C Line 23 deduction exactly. Cross-reference to the `nyc-unincorporated-business-tax` skill output ($16,800 UBT paid in 2025).
 - **High flag: NYC UBT credit $3,864** at the 23% floor rate. Verify Form IT-219 computation and confirm NYC taxable income > $142,000.
 - **High flag: MCTMT Zone 1 $3,241** at the 0.60% rate. Verify NESE allocation (all Zone 1 because all work is Manhattan-based).
-- Reviewer attention: NYAGI in the $211,550 to $1,077,550 recapture band — verify the correct worksheet was used (there are multiple bands at higher income levels).
+- Reviewer attention: NYAGI in the $215,400 to $1,077,550 band — verify the correct worksheet was used (there are multiple bands at higher income levels).
 - Reviewer attention: Balance due $4,179 approaches the $5,000 threshold and is well above the $1,000 underpayment penalty floor. Route to `ny-estimated-tax-it-2105` for penalty computation. Jake's prior-year tax was likely in a similar range; the 110% safe harbor applies (prior-year NYAGI > $150,000 triggers 110% requirement).
 - Sanity check: Total NY + NYC + MCTMT effective rate on $511,800 NYAGI = $52,179 / $511,800 = **10.2%**. This is consistent with the top-band marginal rates and is a useful reasonableness check.
 
@@ -1588,7 +1588,7 @@ This turn drafted Sections 6 through 9 — the behavioral sections of the skill.
 3. **Carlos** — Yonkers resident MFJ with itemized deduction §615(f) refusal (demonstrates Positions 5.14, 5.26, 5.29, and R-NY201-3 refusal)
 4. **Priya** — Westchester resident with §179 planning choice to avoid bonus depreciation decoupling (demonstrates Position 5.29 Zone 2 MCTMT and the §179-vs-§168(k) planning distinction)
 5. **Rachel** — Albany resident, simplest case with no local layers (demonstrates what a non-MCTD full-year NY resident looks like; critical for showing that Albany County is NOT in the MCTD despite having NYC clients)
-6. **Jake** — Manhattan high-income resident using the recapture worksheet (demonstrates Position 5.19 tax computation worksheet for the $211,550-$1,077,550 band)
+6. **Jake** — Manhattan high-income resident using the recapture worksheet (demonstrates Position 5.19 tax computation worksheet for the $215,400-$1,077,550 band)
 
 Each example walks through every relevant position rule, shows the computation arithmetic, produces reviewer brief entries, and cites primary sources. The examples are ~1,800 lines combined.
 
