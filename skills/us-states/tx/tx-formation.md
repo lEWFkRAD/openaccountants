@@ -285,8 +285,6 @@ There is no legal mechanism to keep the PIR private -- Texas has chosen public d
 ### 8.2 Franchise tax economic nexus (Texas Comptroller Rule §3.586)
 
 - **Franchise tax nexus -- gross receipts threshold** -- 500,000 USD in Texas-sourced gross receipts (the most-cited threshold; during the federal income tax accounting period)  _(Texas Comptroller Rule §3.586)_
-- **Franchise tax nexus -- payroll threshold** -- 50,000 USD in payroll (paid to Texas residents or for services performed in Texas)  _(Texas Comptroller Rule §3.586)_
-- **Franchise tax nexus -- payroll threshold** -- 50,000 USD in payroll (paid to Texas residents or for services performed in Texas)  _(Texas Comptroller Rule §3.586)_
 - **Physical presence nexus trigger** -- Physical presence in Texas -- owning or renting an office, store, or warehouse; having Texas employees; etc. If any one of these thresholds is met, the entity has Texas nexus and must file a Texas franchise tax report (Form 05-158 or 05-169) and a PIR (Form 05-102). The economic-nexus standard applies independently of the Secretary of State's "transacting business" registration standard -- an entity may have economic nexus for Comptroller purposes without being registered for SOS purposes, in which case the entity may be both delinquent on franchise tax and operating in violation of BOC §9.051 (transacting business without registration).  _(Texas Comptroller Rule §3.586; BOC §9.051)_
 
 ### 8.3 The dual-compliance trap
@@ -329,13 +327,13 @@ The Texas-versus-Delaware question is the single most-asked entity-formation que
 ### 10.1 Where Delaware wins
 
 - **VC expects Delaware C-corps** -- Substantially all institutional venture capital term sheets assume -- and many require -- that the portfolio company be a Delaware C-Corp. Reasons include: Court of Chancery -- Delaware's specialized business court, with no jury trials, with judges (Chancellors and Vice Chancellors) who are specialists in corporate law, and with a deep body of precedent on fiduciary duty, deal protection, takeover defense, and stockholder voting. Texas business courts (established 2024 under HB 19, 88th Legislature) are too new to have built equivalent precedent depth. DGCL flexibility -- the Delaware General Corporation Law permits drag-along rights, preferred stock with negotiated rights, sophisticated anti-dilution mechanics, and other deal structures with well-established case-law support. Lawyer fluency -- every venture-track lawyer in the U.S. knows Delaware corporate law; only Texas-track lawyers know Texas BOC §21 with equivalent depth.  _(HB 19 (88th Legislature); BOC §21)_
-- **Delaware corporation filing fee** -- 89 USD (substantially less than Texas's $300, though Delaware franchise tax can run $400+ per year for typical startup share counts using the authorized-shares method (and $400 minimum using the assumed-par-value-capital method))
+- **Delaware corporation filing fee** -- 109 USD minimum (varies with authorized stock; Delaware Division of Corporations fee schedule revised August 1, 2026) (substantially less than Texas's $300, though Delaware franchise tax can run $400+ per year for typical startup share counts using the authorized-shares method (and $400 minimum using the assumed-par-value-capital method))
 
 For a startup planning to raise institutional VC, Delaware C-Corp is the default.
 
 ### 10.2 Where Texas wins
 
-- **Texas advantages for bootstrapped or Texas-resident founders** -- Texas wins on personal tax and ongoing cost for the bootstrapped founder or for the founder who will hold company stock long-term as a Texas resident. - No Texas personal income tax -- a Texas-resident founder who eventually liquidates her Delaware C-Corp shares pays 0% Texas tax on the capital gain. (Federal capital gains tax still applies, of course, and §1202 QSBS exclusion may apply to qualified small business stock held more than 5 years.) - No Texas tax on dividends -- Texas-resident shareholders of either a Texas or Delaware C-Corp pay 0% Texas tax on dividend distributions. - Lower formation cost for direct Texas formation -- $300 vs Delaware's $89 SOS fee plus the Texas $750 foreign qualification fee (total $839) if forming Delaware and operating in Texas. - No Texas franchise tax at or below $2.65 million revenue (2026 report) -- a bootstrapped Texas LLC with $1M in revenue pays $0 Texas franchise tax; the same LLC formed in Delaware and operating in Texas would also pay $0 Texas franchise tax (foreign qualification triggers Texas filing but not tax under the threshold) but would owe the Delaware annual LLC tax ($400 under 6 Del. C. §18-1107(b); a corporation pays a variable franchise tax).
+- **Texas advantages for bootstrapped or Texas-resident founders** -- Texas wins on personal tax and ongoing cost for the bootstrapped founder or for the founder who will hold company stock long-term as a Texas resident. - No Texas personal income tax -- a Texas-resident founder who eventually liquidates her Delaware C-Corp shares pays 0% Texas tax on the capital gain. (Federal capital gains tax still applies, of course, and §1202 QSBS exclusion may apply to qualified small business stock held more than 5 years.) - No Texas tax on dividends -- Texas-resident shareholders of either a Texas or Delaware C-Corp pay 0% Texas tax on dividend distributions. - Lower formation cost for direct Texas formation -- $300 vs Delaware's $109 minimum incorporation fee plus the Texas $750 foreign registration fee (total $859) if forming Delaware and operating in Texas. - No Texas franchise tax at or below $2.65 million revenue (2026 report) -- a bootstrapped Texas LLC with $1M in revenue pays $0 Texas franchise tax; the same LLC formed in Delaware and operating in Texas would also pay $0 Texas franchise tax (foreign qualification triggers Texas filing but not tax under the threshold) but would owe the Delaware annual LLC tax ($400 under 6 Del. C. §18-1107(b); a corporation pays a variable franchise tax).
 
 ### 10.3 The hybrid pattern
 
@@ -398,7 +396,7 @@ Two technical co-founders in Austin (one ex-Google, one ex-Meta) form a software
 
 The founders intend to raise institutional VC. Substantially all institutional VC term sheets require a Delaware C-Corp. **Recommended structure:**
 
-- **Delaware C-Corp formation** -- File Certificate of Incorporation with Delaware Division of Corporations, $89 fee. Authorize 10,000,000 shares of common stock at $0.0001 par value. Initial board: both co-founders. 5,000,000 shares issued to each co-founder, vesting over 4 years with 1-year cliff (per standard VC expectations).
+- **Delaware C-Corp formation** -- File Certificate of Incorporation with Delaware Division of Corporations, $109 minimum fee. Authorize 10,000,000 shares of common stock at $0.0001 par value. Initial board: both co-founders. 5,000,000 shares issued to each co-founder, vesting over 4 years with 1-year cliff (per standard VC expectations).
 
 - **Texas foreign qualification** -- File Form 301 with Texas SOS, $750 fee, within 90 days of commencing Texas operations.
 - **Texas Comptroller registration** -- Register for Texas Taxpayer Number via Comptroller Webfile.
@@ -412,11 +410,11 @@ The founders intend to raise institutional VC. Substantially all institutional V
 - Texas franchise tax (May 15, 2026): $0 owed at or below the $2.65 million threshold. The No Tax Due Report is not available for 2026 reports, so the PIR is the only franchise filing.
 - Federal Form 1120 C-Corp return (April 15, 2026, extension available to October 15): minimal taxable income given pre-revenue stage.
 
-- Delaware formation: $89 + ~$150 registered agent
+- Delaware formation: $109 + ~$150 registered agent
 - Delaware franchise tax: ~$450 (not yet confirmed)
 - Texas foreign qualification: $750
 - Texas registered agent: ~$125 (not yet confirmed)
-- **Approximate total: $1,564** (not yet confirmed)
+- **Approximate total: $1,584** (not yet confirmed)
 
 A Texas C-Corp could be formed for $300 and operate in Austin without foreign qualification. However, when the seed-round term sheet arrives in Q3 2025, the company would need to **convert** from Texas to Delaware (typically via a Texas-to-Delaware conversion under BOC §10.101 or a merger), incurring legal fees of $5,000–$15,000 and triggering complex federal tax analysis under §368 reorganization rules. The $1,500 upfront cost of direct Delaware formation is materially cheaper than the eventual conversion cost.
 
@@ -575,6 +573,7 @@ Not yet confirmed against archived sources.
 | Texas Secretary of State -- Business Filings & Trademarks Fee Schedule (Form 806): formation $300, foreign registration $750, expedite $50 / $500 / $750 | https://www.sos.texas.gov/corp/forms/806_boc.pdf | 2026-10-31 |
 | Texas Constitution Article 8 (Sec. 24 repealed Nov. 5, 2019; Sec. 24-a individual income tax prohibited) | https://statutes.capitol.texas.gov/?tab=2&code=CN&chapter=CN.8&artSec=8.8 | 2026-10-31 |
 | Texas Tax Code chapter 171 (Sec. 171.002 rates, Sec. 171.101 taxable margin, Sec. 171.1016 E-Z computation) | https://statutes.capitol.texas.gov/?tab=1&code=TX&chapter=TX.171&artSec= | 2026-10-31 |
+| Delaware Division of Corporations Fee Schedule (revised August 1, 2026): Incorporation *$109.00, *varies based on stock | https://corpfiles.delaware.gov/Fee_Schedule/AugustFee2026.pdf | 2026-10-28 |
 | Delaware Code Title 6, chapter 18, subchapter XI (Sec. 18-1107(b) LLC annual tax $400) | https://delcode.delaware.gov/title6/c018/sc11/index.html | 2026-10-29 |
 ## Talk to a verified accountant
 
