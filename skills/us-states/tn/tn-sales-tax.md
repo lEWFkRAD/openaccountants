@@ -94,7 +94,7 @@ Before proceeding with any Tennessee sales tax analysis, collect the following f
 ### 1.4 Single Article Cap on Local Tax [T1]
 
 - **Single article cap on local tax** -- in most local jurisdictions the local tax applies only to the first $1,600 of the sales price of any single article of tangible personal property. A single article is one item, exclusive of accessories, capable of being sold as an independent unit; the cap applies per item, not per invoice. The state 7% tax applies to the full price (no cap). The cap does NOT apply to custom (non-prewritten) software, software maintenance contracts, services, amusements, specified digital products, or warranty/service contracts covering TPP -- the entire price of those is subject to local tax.  _(T.C.A. Section 67-6-702(a); TN DOR "Single Article and Special Tax Rates")_
-- **State single article tax** -- in addition to the general 7%, a state single article tax of 2.75% applies to the portion of a single article's sales price above $1,600 but not more than $3,200 (max $44 per item); amounts over $3,200 are not subject to it. Unlike local rates, the state single article rate is a standard 2.75%.  _(Tenn. Code Ann. § 67-6-202; TN DOR "Due Dates and Tax Rates" and "Single Article and Special Tax Rates")_
+- **State single article tax** -- in addition to the general 7%, a state single article tax of 2.75% applies to the portion of a single article's sales price above $1,600 but not more than $3,200 (caps out at $44 per item); amounts over $3,200 are not subject to it. Unlike local rates, the state single article rate is a standard 2.75%.  _(Tenn. Code Ann. § 67-6-202; TN DOR "Single Article and Special Tax Rates"; TN DOR Single Article Sales Tax webinar)_
 
 **Example:** A $50,000 boat -- state tax: $50,000 x 7% = $3,500 (no cap). Local tax: $1,600 x 2.75% (max) = $44 (local base capped at $1,600). State single article tax: $1,600 x 2.75% = $44. Total: $3,588.
 
@@ -633,6 +633,7 @@ expected:
 | TN DOR sales due dates & tax rates | https://www.tn.gov/revenue/taxes/sales-and-use-tax/due-dates-and-tax-rates.html | 2026-10-28 |
 | TN DOR local sales tax | https://www.tn.gov/revenue/taxes/sales-and-use-tax/local-sales-tax.html | 2026-11-01 |
 | TN DOR single article & special tax rates | https://www.tn.gov/revenue/taxes/sales-and-use-tax/single-article-special-tax-rates.html | 2026-11-01 |
+| TN DOR single article sales tax webinar | https://www.tn.gov/content/dam/tn/revenue/documents/taxpayer_education/sales/Tennessee%20Single%20Article%20Sales%20Tax.pdf | 2026-11-01 |
 | TN DOR registration | https://www.tn.gov/revenue/taxes/sales-and-use-tax/registration.html | 2026-11-01 |
 | TN DOR marketplace & out-of-state dealers | https://www.tn.gov/revenue/taxes/sales-and-use-tax/out-of-state-dealers-marketplace-facilitators.html | 2026-11-01 |
 | TNDOR RS-1 sales threshold for out-of-state dealers | https://revenue.support.tn.gov/hc/en-us/articles/360057677332-RS-1-Sales-Threshold-for-Out-of-State-Dealers | 2026-11-01 |
