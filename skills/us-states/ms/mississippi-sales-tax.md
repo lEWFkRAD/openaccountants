@@ -20,8 +20,8 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | --- | --- |
 | Jurisdiction | Mississippi |
 | State rate | 7.00% |
-| Local taxes | Very limited (up to 0.25% in some areas) |
-| Maximum combined rate | ~7.25% |
+| Local taxes | Two city-level levies, none at county level: Tupelo adds 0.25% on all retail sales; Jackson adds 1% on certain retail sales (DOR Business FAQs) |
+| Combined rate | 7% state rate plus the Tupelo or Jackson city levy where it applies; local tourism taxes are separate |
 | Sourcing | Origin-based |
 | Economic nexus | $250,000 in sales |
 | Tax authority | Mississippi Department of Revenue |
