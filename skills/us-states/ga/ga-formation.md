@@ -35,7 +35,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ### 1.2 Conservative defaults
 
 - **Default 1 — File rather than skip** — If it is unclear whether a particular filing is required, the skill assumes the filing is required and produces the form. The cost of overfiling in Georgia (typically $50 to $225) is materially smaller than the cost of administrative dissolution or a missed local license.  _(Skill conservative defaults, §1.2)_
-- **Default 2 — Online rather than paper** — Online filing is cheaper ($100 vs. $110 for Articles of Organization), faster (7–10 business days vs. up to 15 for paper), and produces a machine-readable acknowledgment that the reviewer can attach to the file.  _(Skill conservative defaults, §1.2)_
+- **Default 2 — Online rather than paper** — Online filing is faster (7–10 business days vs. up to 15 for paper), and produces a machine-readable acknowledgment that the reviewer can attach to the file.  _(Skill conservative defaults, §1.2)_
 - **Default 3 — Domestic entity per-state** — The skill does not recommend Series LLCs for Georgia operations because Georgia does not recognize series treatment (see §3.6). The default for clients with multiple business lines is multiple separate LLCs.  _(Skill conservative defaults, §1.2; see §3.6)_
 - **Default 4 — Atlanta-specific local license assumed for Atlanta clients** — If the client's principal place of business is in Atlanta (city limits, not Fulton or DeKalb County generally), the skill assumes a General Business Tax Certificate is required.  _(Skill conservative defaults, §1.2)_
 
@@ -123,11 +123,11 @@ A frequent error pattern at Step 6a is for the principal to assume the filing is
 
 | Item | Online | Paper |
 | --- | --- | --- |
-| Filing fee | **$100** | **$110** |
+| Filing fee (online or paper: $100 filing + $10 service charge) | **$110** | **$110** |
 | Processing time (standard) | 7 business days | 15 business days |
-| Expedited (2 business days) | +$100 | +$100 |
-| Same-day expedite | +$250 | +$250 |
-| One-hour expedite | +$1,000 | +$1,000 |
+| Expedited (2 business days) | +$120 | +$120 |
+| Same-day expedite | +$275 | +$275 |
+| One-hour expedite (paper) | — | +$1,200 |
 
 - **Foundational filing** — The foundational filing is Form CD 030 (Articles of Organization), lodged electronically through eCorp or on paper at the Corporations Division, 2 Martin Luther King Jr. Drive SE, Suite 313, West Tower, Atlanta GA 30334.  _(Form CD 030)_
 - **Default filing mode** — The fees are set by O.C.G.A. § 14-11-1101 as amended (the paper differential was introduced in 2018 to push filers toward online filing). The skill defaults to online standard unless the client identifies a closing or contract deadline that requires expedited service.  _(O.C.G.A. § 14-11-1101)_
@@ -143,9 +143,9 @@ The skill produces a draft of the Articles for reviewer signoff before submissio
 
 **AUDIT FLASH POINT — missing Annual Registration is the #1 cause of administrative dissolution in Georgia.**
 
-- **Annual Registration requirement and fee** — Every Georgia LLC (and every Georgia corporation, and every foreign LLC or corporation qualified to do business in Georgia) must file an Annual Registration between January 1 and April 1 of each year following the year of formation. The filing fee is $50 for an LLC (and $50 for a corporation; the corporate fee was $50 in 2025 — unchanged from prior years).  _(O.C.G.A. § 14-11-1103; § 14-2-1622)_
+- **Annual Registration requirement and fee** — Every Georgia LLC (and every Georgia corporation, and every foreign LLC or corporation qualified to do business in Georgia) must file an Annual Registration between January 1 and April 1 of each year following the year of formation. The fee is $60.00 for an LLC, profit corporation, professional corporation, LP or LLLP (a $50 filing fee plus a $10 service charge); $40.00 for a nonprofit corporation (Georgia Secretary of State Annual Registration fee schedule, archived 2026-11-05).  _(O.C.G.A. § 14-11-1103; § 14-2-1622)_
 - **Annual Registration content** — The Annual Registration is a thin filing — it confirms the entity's name, principal office address, mailing address, registered agent, and the names of the LLC's chief executive (typically a designated member or manager). It does not require any financial disclosure.  _(O.C.G.A. § 14-11-1103; § 14-2-1622)_
-- **Deadline and late penalty** — The deadline is April 1. There is no extension. Late filing carries a $25 late penalty added to the $50 filing fee, so the late cost is $75.  _(O.C.G.A. § 14-11-1103; § 14-2-1622)_
+- **Deadline and late penalty** — The deadline is April 1. There is no extension. Late filing carries a $25 penalty for late filing of the annual registration (SOS fee schedule), so the late cost is $85 total.  _(O.C.G.A. § 14-11-1103; § 14-2-1622)_
 - **Administrative dissolution trigger** — The more serious consequence is administrative dissolution: if the LLC fails to file the Annual Registration and remains in default for 60 days after a notice of intent to administratively dissolve is issued by the Secretary of State, the LLC is administratively dissolved under O.C.G.A. § 14-11-603. (The corporate parallel is O.C.G.A. § 14-2-1421.)  _(O.C.G.A. § 14-11-603; § 14-2-1421)_
 - **Consequences of administrative dissolution** — - The LLC loses limited liability protection prospectively — members may be held personally liable for obligations incurred after dissolution. - The LLC cannot maintain a lawsuit in Georgia courts until reinstated. - Contracts entered into post-dissolution are vulnerable to challenge. - Banks frequently freeze operating accounts when a Certificate of Existence cannot be produced.  _(O.C.G.A. § 14-11-603)_
 - **Reinstatement** — Reinstatement is available under O.C.G.A. § 14-11-603(c) on payment of all accrued Annual Registration fees, the $25 late penalty for each year missed, and a $250 reinstatement fee. Reinstatement is retroactive — the LLC is treated as if it had never been dissolved — but the gap is on the public record and counterparties (especially commercial landlords and lenders) will see it on a Certificate of Good Standing.  _(O.C.G.A. § 14-11-603(c))_
@@ -189,7 +189,7 @@ The skill does not automatically register the LLC for these accounts. It produce
 The implication for Georgia clients with multiple business lines (e.g., a real estate investor with 8 rental properties, each of which the client wants in its own liability silo) is that each silo must be its own separate LLC. This means:
 
 - 8 separate Articles of Organization filings ($800 total).
-- 8 separate Annual Registrations every April 1 ($400/year).
+- 8 separate Annual Registrations every April 1 ($480/year at the $60 fee).
 - 8 separate registered agents (or one commercial agent serving all 8).
 - 8 separate EINs (the IRS issues one per entity).
 - 8 separate operating accounts.
@@ -208,10 +208,10 @@ A foreign series LLC (e.g., a Delaware series LLC) that does business in Georgia
 
 | Item | Online | Paper |
 | --- | --- | --- |
-| Filing fee | **$100** | **$110** |
+| Filing fee ($100 filing + $10 service charge) | **$110** | **$110** |
 | Publication notice (separate — see §4.2) | **$40** | **$40** |
-| Total at formation | **$140** | **$150** |
-| Annual Registration (each subsequent year) | **$50** | **$60** |
+| Total at formation | **$150** | **$150** |
+| Annual Registration (each subsequent year) | **$60** | **$60** |
 
 - **Required form content — item 1 corporate name** — The corporate name, which must include "corporation", "incorporated", "company", "limited", "Corp.", "Inc.", "Co.", or "Ltd." Reserved words mirror the LLC list (O.C.G.A. § 14-2-401).  _(O.C.G.A. § 14-2-401)_
 - **Required form content — item 2 authorized shares** — The number of authorized shares. The skill defaults to 10,000,000 authorized common shares with $0.0001 par value (a common venture-startup convention) for any corporation contemplating a future financing round, or to 1,000 authorized shares with no par value for a closely-held corporation that will not raise outside capital.  _(§4.1)_
@@ -262,7 +262,7 @@ The implication for a medical PLLC is severe. A physician founder cannot bring i
 
 - **PLLC formation steps** — PLLC formation uses the same Articles of Organization form as a standard LLC (Form CD 030), with two additional steps: 1. The name must include "Professional Limited Liability Company", "P.L.L.C.", or "PLLC" — not just "LLC". 2. Before filing with the Secretary of State, the PLLC must obtain certification of compliance from the relevant licensing board. For a medical PLLC, this means submitting the proposed Articles to the Composite Medical Board (typically a 30–45 day review) and obtaining a Board Certificate of Need before filing with the Secretary of State. The licensing board confirms (a) all proposed members are licensed in good standing, (b) the proposed name does not mislead the public, and (c) any required malpractice insurance is in place.  _(Form CD 030)_
 - **PLLC Secretary of State filing fee and board certification fee** — $100 online, $110 paper (Secretary of State); licensing board certification fee typically $50–$200 depending on the board USD  _(§5.3)_
-- **PLLC Annual Registration and licensure maintenance** — The Annual Registration mechanics mirror the standard LLC ($50 by April 1). However, the PLLC must also maintain its licensure with the relevant board on an ongoing basis. Loss of licensure of all members triggers automatic dissolution of the PLLC under the Professional Corporation Act.  _(Professional Corporation Act)_
+- **PLLC Annual Registration and licensure maintenance** — The Annual Registration mechanics mirror the standard LLC ($60 by April 1). However, the PLLC must also maintain its licensure with the relevant board on an ongoing basis. Loss of licensure of all members triggers automatic dissolution of the PLLC under the Professional Corporation Act.  _(Professional Corporation Act)_
 
 ## The taxable base
 
@@ -310,8 +310,8 @@ This skill flags the P.L. 86-272 question for the reviewer when a non-Georgia cl
 
 | Item | Online | Paper |
 | --- | --- | --- |
-| Initial Certificate of Authority filing fee | **$225** | **$235** |
-| Annual Registration (each subsequent year) | **$50** | **$60** |
+| Initial Certificate of Authority filing fee | **$225** | **$235** (confirm against the current SOS fee schedule) |
+| Annual Registration (each subsequent year) | **$60** | **$60** |
 | Certificate of Existence from home state (required attachment) | varies by home state ($50–$200) | varies |
 
 - **Application requirements** — The application requires: 1. The entity's legal name in its home state. If that name is not available in Georgia (because a Georgia entity already has it), the foreign entity must adopt a fictitious name for use in Georgia under O.C.G.A. § 14-11-703. 2. The home state of formation and the date of formation. 3. The Certificate of Existence (or Good Standing) issued by the home state's Secretary of State, dated no more than 90 days before the Georgia application. 4. The Georgia registered agent name and Georgia street address (same rules as for a Georgia LLC — §3.3). 5. The principal office address (which can be the out-of-state address). 6. A list of the LLC's managers or the corporation's directors and officers.  _(O.C.G.A. § 14-11-703)_
@@ -380,7 +380,7 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 
 | # | Error pattern | Consequence | Detection rule |
 | --- | --- | --- | --- |
-| 1 | Missed Annual Registration by April 1 | 60-day window, then administrative dissolution; $250 reinstatement + back fees | Calendar entry on January 15 + March 15; verify Secretary of State email on file is current |
+| 1 | Missed Annual Registration by April 1 | 60-day window, then administrative dissolution; $260 reinstatement ($250 filing + $10 service) + back fees | Calendar entry on January 15 + March 15; verify Secretary of State email on file is current |
 | 2 | Missing publication notice for new corp | Defect in formation; vulnerable to challenge | Step 6a checklist; require affidavit of publication in minute book |
 | 3 | Atlanta business license not obtained | Civil penalties; cannot enforce contracts; potential lien | Atlanta address check at intake; calendar January 31 deadline |
 | 4 | Sales tax registration after $100k threshold crossed | Back-tax assessment + interest + penalties (failure-to-collect) | Quarterly review of GA sales; alert at $80k |
@@ -566,8 +566,10 @@ The reviewer signs off on the brief before any document is filed with the Secret
 | FinCEN BOI FAQs (Aug 11 2026 final rule notice) | https://www.fincen.gov/boi-faqs | 2026-11-04 |
 | FinCEN BOI final rule (Federal Register, 2026) | https://www.federalregister.gov/documents/2026-08-14/2026-16576/beneficial-ownership-information-reporting-requirement-revision | 2026-11-04 |
 | GA DOR withholding page | https://dor.georgia.gov/withholding | 2026-10-28 |
+| GA Secretary of State Annual Registration guide (fees, April 1 deadline, $25 late penalty) | https://sos.ga.gov/how-to-guide/how-file-annual-registration | 2026-11-05 |
+| GA Secretary of State Register a Domestic Entity guide (LLC/corp $110 filing, $260 reinstatement, $60 AR) | https://sos.ga.gov/how-to-guide/how-guide-register-domestic-entity | 2026-11-05 |
 
-Not yet confirmed: Secretary of State filing-fee schedule (eCorp fees not archived); Atlanta business-license rate tiers; publication-cost figures.
+Not yet confirmed: Certificate of Authority fee schedule (SOS foreign-entity page not archived); Atlanta business-license rate tiers; publication-cost figures.
 
 
 ## Talk to a verified accountant
