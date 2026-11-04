@@ -464,7 +464,7 @@ Founder is a Maltese citizen and Maltese tax resident operating a software consu
 
 - Texas formation: $300
 
-- Form 5472 + pro forma Form 1120 preparation: typically $1,000–$2,500 in professional fees.
+- Form 5472 + pro forma Form 1120 preparation: professional fees vary by preparer (see Not yet confirmed).
 
 ### 13. Cross-References
 
@@ -521,7 +521,7 @@ The following requests are outside this skill's scope and should be referred els
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+Not yet confirmed against archived sources; typical professional fees for Form 5472 and pro forma Form 1120 preparation.
 
 ## Rates, bands and thresholds
 

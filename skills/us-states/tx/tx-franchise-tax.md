@@ -84,7 +84,7 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 | No-tax-due threshold (2026 & 2027 reports) | $2,650,000 total revenue | Texas Comptroller Franchise Tax hub |
 | No-tax-due threshold (2024-2025 reports) | $2,470,000 total revenue | Texas Comptroller / Tax Code §171.006 |
 | EZ computation rate | 0.331% of total revenue (apportioned) | Texas Tax Code §171.1016 |
-| EZ computation revenue limit | $20,000,000 annualized total revenue | Texas Comptroller Franchise Tax hub |
+| EZ computation revenue limit | $20 million annualized total revenue | Texas Comptroller Franchise Tax hub |
 | Standard rate -- retail/wholesale | 0.375% of taxable margin | Texas Tax Code §171.002(b) |
 | Standard rate -- other entities | 0.75% of taxable margin | Texas Tax Code §171.002(a) |
 | Minimum tax | $0 (no minimum) | Texas Tax Code §171.002 |
@@ -221,7 +221,7 @@ Before delivering output, verify:
 - [ ] Total revenue computed from correct federal return data
 - [ ] No-tax-due threshold of $2,650,000 applied
 - [ ] Form 05-102 (Public Information Report) included in every filing
-- [ ] EZ computation only used if revenue <= $20,000,000
+- [ ] EZ computation only used if revenue <= $20 million
 - [ ] Correct rate applied (0.75% other vs. 0.375% retail/wholesale)
 - [ ] 70% of total revenue cap applied as automatic limit
 - [ ] All computation methods compared to select the lowest tax
