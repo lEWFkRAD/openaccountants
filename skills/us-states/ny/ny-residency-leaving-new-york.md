@@ -17,7 +17,7 @@ Figures are for tax year 2026. This Guide is for a New York resident who is movi
 
 For the general multi-state method (resident credits, sourcing rules in other states, the destination state's own tests), use `us-multi-state-residency-and-allocation`. For the full-year resident return, use `ny-it-201-resident-return`. For federal residency of non-citizens, use `us-tax-residency`. For the Florida side of the move, use `fl-moving-to-florida-domicile`. This Guide stops at New York's edge.
 
-## The method, step by step
+### The method, step by step
 
 1. Fix the facts for each tax year separately: every dwelling the client and spouse can use in New York and elsewhere, the date each was bought, leased, sold or given up, and a day-by-day location record. New York decides residency year by year; the Department's audit guidelines say "It is very possible that the decisions reached concerning an individual's domicile in one year will not be the same as the conclusions reached in another." See the [Nonresident Audit Guidelines (December 2021)](https://www.tax.ny.gov/pdf/2021/misc/nonresident-audit-guidelines-2021.pdf).
 2. Test domicile first. A New York domicile continues until the client shows, with clear and convincing evidence, that they abandoned it and set up a new domicile outside New York. Weigh the five primary factors in the section below. See the [residency FAQ](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm) and [20 NYCRR 105.20 on law.cornell.edu](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-105.20).
@@ -28,7 +28,7 @@ For the general multi-state method (resident credits, sourcing rules in other st
 7. Run the same domicile and statutory tests for New York City (and Yonkers) separately. A part-year city resident completes Form IT-360.1. See [New York City and Yonkers income tax](https://www.tax.ny.gov/pit/file/nyc_yonkers_residents.htm) and the [IT-360.1 instructions](https://www.tax.ny.gov/pdf/current_forms/it/it360_1i.pdf).
 8. Build the audit file before anyone asks: the records list in the audit section below, kept for every year in which the client still has a New York dwelling or claims a change of domicile.
 
-## Two ways to be a New York resident
+## Who this applies to
 
 Source for this section: [Income tax definitions](https://www.tax.ny.gov/pit/file/pit_definitions.htm) and the [residency FAQ](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm).
 
@@ -41,7 +41,7 @@ Both statutory conditions must be met (AND, not OR). The regulation states the s
 
 A part-year resident is someone who meets the definition of resident, or of nonresident, for only part of the year. A nonresident is someone who was not a resident for any part of the year ([Income tax definitions](https://www.tax.ny.gov/pit/file/pit_definitions.htm)).
 
-## Domicile: what the Department weighs
+### Domicile: what the Department weighs
 
 Domicile is "your permanent and primary residence that you intend to return to or remain in after being away". You can have several residences but only one domicile. Your New York domicile "does not change until you can demonstrate with clear and convincing evidence that you have abandoned your New York domicile and established a new domicile outside New York State". The FAQ adds: "It is not enough simply to file a certificate of domicile or register to vote in the new location." ([residency FAQ](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm)). Both halves are needed: leaving New York, and landing somewhere new with the intention of staying. Under the regulation, no change of domicile results from a move "if the intention is to remain there only for a limited time", even if the old home was sold ([20 NYCRR 105.20(d)(2)](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-105.20)).
 
@@ -67,7 +67,7 @@ The "other" factors include where cars, boats and planes are registered, the dri
 
 A New York domiciliary is still taxed as a nonresident for a year in which they meet ALL three conditions of 20 NYCRR 105.20(b)(1): no permanent place of abode in New York during the year, a permanent place of abode outside New York for the entire year, and not more than 30 days in New York in the year. A second route, 105.20(b)(2), needs at least 450 days in a foreign country within a 548-consecutive-day period, with the further day limits in the regulation; it does not apply to a move to another state. The domiciliary must prove the conditions are met ([20 NYCRR 105.20(b)](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-105.20)). Few people leaving for Florida meet the first route in the move year, because they lived in New York before the move.
 
-## The statutory resident test
+## The taxable base
 
 ### Counting days
 
@@ -94,7 +94,7 @@ The abode need not be the same dwelling all year: the guidelines say "the same p
 
 The audit guidelines state that if the client meets the statutory test, "he will be taxed for the entire year even though his domicile may have changed during the year", and quote Tax Law § 605(b)(1)(B): "whether or not domiciled in this state for any portion of the taxable year". The guidelines cite Smith v STC, where a couple moved to Florida in July but kept the New York home, furniture and utilities into the next year ([Nonresident Audit Guidelines](https://www.tax.ny.gov/pdf/2021/misc/nonresident-audit-guidelines-2021.pdf), section on substantial part of the year). Moving in March while keeping the Manhattan apartment all year, and coming back often enough to reach 184 New York days for the year, turns a part-year return into a full-year resident return. The worked hypothetical below shows the count.
 
-## The part-year resident return (IT-203)
+### The part-year resident return (IT-203)
 
 - Who files: a part-year resident files Form IT-203 if they had any income in the resident period, or New York source income in the nonresident period, and New York adjusted gross income (federal amount column) exceeds the New York standard deduction, or in the other cases on the [part-year resident filing page](https://www.tax.ny.gov/pit/file/part_year_residents.htm).
 - What is taxed: for part-year residents, New York source income is the income reported for the resident period plus the New York source income for the nonresident period, "with adjustments for special accruals" ([IT-203 instructions](https://www.tax.ny.gov/pdf/current_forms/it/it203i.pdf)). Tax is first computed as if the client were a full-year resident, then multiplied by an income percentage based on "your New York source income and your federal income" ([residency FAQ](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm)).
@@ -111,7 +111,7 @@ Relief: the resident-period return may be filed without the special accruals if 
 
 Since tax years beginning on or after 1 January 2010, New York source income of a nonresident includes income "related to a business, trade, profession, or occupation previously carried on within the state, whether or not as an employee", including covenants not to compete and termination agreements (Tax Law § 631(b)(1)(F), [TSB-M-10(9)I](https://www.tax.ny.gov/pdf/memos/income/m10_9i.pdf)). If the work was carried on wholly in New York, the entire amount is New York source income. Severance, non-compete payments and similar amounts paid after the move are not freed by the move. The rule "does not apply to income received from pension and other retirement plans described in section 114 of Title 4 of the US Code" (see `us-multi-state-residency-and-allocation`). Where the work was carried on partly in New York, the memo sets an allocation fraction: apply the memo or refer. Deferred compensation, options and restricted stock allocation is beyond this Guide: refer (see below).
 
-## Remote work for a New York employer: the convenience of the employer rule
+### Remote work for a New York employer: the convenience of the employer rule
 
 This applies to a nonresident, or a part-year resident in the nonresident period, whose assigned or primary work location is in New York State and who works some days at a home office outside New York ([TSB-M-06(5)I](https://www.tax.ny.gov/pdf/memos/income/m06_5i.pdf)).
 
@@ -129,7 +129,7 @@ The home office is a bona fide employer office if it meets the primary factor, O
 
 Primary factor: "The home office contains or is near specialized facilities." Secondary factors: (1) the home office is a requirement or condition of employment; (2) the employer has a bona fide business purpose for the home office location; (3) the employee performs some core duties there; (4) the employee meets clients, patients or customers there on a regular and continuous basis; (5) the employer provides no designated office space or other regular work accommodations at its regular places of business; (6) the employer reimburses substantially all home office expenses (as in the table above), or pays a fair rental value for the home office space and furnishes or reimburses substantially all supplies and equipment. The ten other factors include a separate business phone line, the home address on the employer's letterhead or cards, an exclusive business area, inventory or business records kept there, a sign, advertising, business insurance cover, the employee is entitled to and actually claims a federal home office deduction, and the employee is not an officer of the company. The employee's own preference to work from home is not one of the factors.
 
-## New York City tax ends with city residency
+### New York City tax ends with city residency
 
 New York City income tax is a resident tax. The residency FAQ: "If you are a nonresident, you are not liable for New York City personal income tax but may be subject to Yonkers nonresident earning tax if your income is sourced to the city of Yonkers." ([residency FAQ](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm)).
 
@@ -139,7 +139,7 @@ New York City income tax is a resident tax. The residency FAQ: "If you are a non
 - A part-year city resident completes Form IT-360.1, Change of City Resident Status, and submits it with Form IT-201 or Form IT-203 ([New York City and Yonkers income tax](https://www.tax.ny.gov/pit/file/nyc_yonkers_residents.htm)). On leaving the city, IT-360.1 also includes items that would be reportable at the time of the change under an accrual method ([IT-360.1 instructions](https://www.tax.ny.gov/pdf/current_forms/it/it360_1i.pdf)).
 - Rates and city credits: see `ny-it-201-resident-return`.
 
-## What an audit asks for, and the records that win
+### What an audit asks for, and the records that win
 
 The audit has three parts: domicile, statutory residency and income allocation. The guidelines say depth depends on the facts: a non-domiciliary with no New York abode who works in New York "might only be asked to verify the allocation of income", while someone with "a long-established pattern of maintaining a 'home' in New York would be questioned concerning their resident status" ([Nonresident Audit Guidelines](https://www.tax.ny.gov/pdf/2021/misc/nonresident-audit-guidelines-2021.pdf), section III). The tax.ny.gov pages read for this Guide do not publish a list of audit-selection triggers; the facts the Department sees on the return include the IT-203 residency period, Item H (living quarters in New York) and the Schedule B addresses.
 
@@ -161,7 +161,7 @@ Business records listed: business logs or diaries, corporate card statements, co
 
 The guidelines also warn auditors about "false" indicators, such as "credit card purchases in New York by children, phone calls by housekeepers": the client should keep the evidence that explains them.
 
-## Move checklist with dates (2026 move, hypothetical dates)
+### Move checklist with dates (2026 move, hypothetical dates)
 
 | When | Action | Why (source) |
 |---|---|---|
@@ -176,7 +176,7 @@ The guidelines also warn auditors about "false" indicators, such as "credit card
 | 2026 return season (2027) | File IT-203 (and IT-360.1 if leaving New York City), answer Item H truthfully, complete Schedule B of IT-203-B if Yes. | [IT-203 instructions](https://www.tax.ny.gov/pdf/current_forms/it/it203i.pdf) |
 | Each later year with a New York abode | Keep the log and records again; the test is run each year. | [20 NYCRR 105.20(c)](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-105.20) |
 
-## Worked hypothetical: a day count
+## Worked examples
 
 Hypothetical. Dana is single, domiciled in Manhattan, and works for a Manhattan firm. She buys a house in Miami, moves her art, dog and car there, gets a Florida licence, and leaves New York on 31 March 2026. She spends every day from 1 January to 31 March 2026 in New York: that is 90 days (31 + 28 + 31). She claims her domicile changed on 1 April 2026.
 
@@ -188,6 +188,22 @@ Case B boundary: with 93 post-move days, 90 + 93 = 183. That is not 184 or more,
 
 In both cases the Department can still argue she never changed domicile at all. Keeping the apartment, the job in Manhattan and frequent New York days are the facts the audit guidelines weigh against her under home, business involvement and time.
 
+## Rates, bands and thresholds
+
+No separate rate schedule for part-year filers — IT-203 uses the same graduated rates as full-year returns (see ny-income-tax.md).
+
+## Deadlines and filing
+
+IT-203 is due April 15 of the following year; assemble the day count and domicile evidence before filing.
+
+## Penalties and interest
+
+Tax Law §685 penalties and §686 interest apply to late or underpaid part-year returns.
+
+## Cross-border points
+
+The other state's residency rules, the convenience-of-the-employer rule, and NYC city residency ending with state residency are covered above.
+
 ## Ask the client first
 
 - Do you, your spouse or partner, or a company you control keep any dwelling in New York that you can use whenever you want, and on what dates in 2026 was each one bought, leased, sold or given up?
@@ -197,7 +213,7 @@ In both cases the Department can still argue she never changed domicile at all. 
 - Do you keep an active role or a substantial investment in a New York business, or will you receive severance, non-compete, deferred pay, options or installment sale proceeds after the move?
 - Where are your art, heirlooms, collections and pets now, and when did they move?
 
-## When to refuse or refer
+### When to refuse or refer
 
 - A client who keeps the New York home, the New York job and the family in New York, and wants a nonresident return because of a Florida licence and voter card. The pages say formal declarations are less persuasive than the habit of life; do not prepare the return on that basis without an accountant's sign-off.
 - A day count within a few days of 183 with no contemporaneous log. Refer to a New York professional before filing.
@@ -208,22 +224,12 @@ In both cases the Department can still argue she never changed domicile at all. 
 
 ## Sources
 
-- New York State Department of Taxation and Finance, [Frequently Asked Questions about Filing Requirements, Residency, and Telecommuting](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm), updated 24 October 2025.
-- [Income tax definitions](https://www.tax.ny.gov/pit/file/pit_definitions.htm), updated 6 May 2025.
-- [Nonresident Audit Guidelines, December 2021](https://www.tax.ny.gov/pdf/2021/misc/nonresident-audit-guidelines-2021.pdf).
-- [TB-IT-690, Permanent Place of Abode](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/pit/permanent_place_of_abode.htm), issued 15 December 2011, page updated 7 April 2026.
-- [TSB-M-06(5)I, convenience of the employer test](https://www.tax.ny.gov/pdf/memos/income/m06_5i.pdf), 15 May 2006.
-- [TSB-M-10(9)I, income related to a business previously carried on in New York](https://www.tax.ny.gov/pdf/memos/income/m10_9i.pdf), 31 August 2010.
-- [Filing information for part-year residents](https://www.tax.ny.gov/pit/file/part_year_residents.htm).
-- [New York City and Yonkers income tax](https://www.tax.ny.gov/pit/file/nyc_yonkers_residents.htm), updated 30 June 2026.
-- [IT-203-I instructions (2025 edition)](https://www.tax.ny.gov/pdf/current_forms/it/it203i.pdf), [Form IT-203 (2025)](https://www.tax.ny.gov/pdf/current_forms/it/it203_fill_in.pdf), [IT-360.1-I instructions (2025 edition)](https://www.tax.ny.gov/pdf/current_forms/it/it360_1i.pdf).
-- 20 NYCRR [105.20](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-105.20), [154.10](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-154.10) and [154.11](https://www.law.cornell.edu/regulations/new-york/20-NYCRR-154.11), Legal Information Institute mirror of the New York regulations.
+| Source | URL | Read on |
+|---|---|---|
+| DTF residency FAQ | https://www.tax.ny.gov/pit/file/nonresident-faqs.htm | domicile and statutory resident tests, telecommuting |
+| Income tax definitions | https://www.tax.ny.gov/pit/file/pit_definitions.htm | domicile, statutory resident, 183-day definitions |
 
-This Guide is a working method for professional use. It is not legal or tax advice for any person's situation; residency turns on facts that need a professional's review.
-
-<!-- openaccountants-cta-block -->
-
----
+Not yet confirmed: Yonkers and NYC-specific move-year worksheets beyond the archived FAQ pages.
 
 ## Talk to a verified accountant
 

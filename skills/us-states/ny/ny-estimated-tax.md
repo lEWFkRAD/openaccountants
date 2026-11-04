@@ -85,7 +85,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **R-NY-ET-3 -- PTET estimated payments** — Trigger: pass-through entity tax. Message: "PTET estimated payments are outside this skill."
 - **R-NY-ET-4 -- Non-resident filers** — Trigger: non-resident of NY. Message: "Non-resident estimated tax has different rules."
 
-## Section 3 -- Payment pattern library
+### Section 3 -- Payment pattern library
 
 This is the deterministic pre-classifier for bank statement transactions. When a debit matches a pattern below, classify it as a NY estimated tax payment.
 

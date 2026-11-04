@@ -66,7 +66,7 @@ validation_status: ai-drafted-q3
 
 ---
 
-## Section 3 -- Transaction pattern library
+### Section 3 -- Transaction pattern library
 
 ### 3.1 Tangible personal property
 

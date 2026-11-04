@@ -11,7 +11,7 @@ last_updated: 2026-06-12
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## What this file is, and what it is not
+### What this file is, and what it is not
 
 This is a Tier 2 content skill under `us-tax-workflow-base v0.2`. It conforms to the thirteen mandatory slots of the Section 7 content skill slot contract. It provides the position rules, figures, citations, refusals, defaults, reviewer attention thresholds, worked examples, intake additions, and self-check additions needed to prepare Form IT-204-LL for a single-member LLC disregarded for federal tax whose sole member is a New York State full-year resident individual.
 
@@ -19,7 +19,36 @@ This skill cannot produce any output on its own. It must be loaded alongside `us
 
 ---
 
-## Section 1 — Scope statement
+## Who this applies to
+Single-member LLCs disregarded for federal tax whose sole member is a New York State full-year resident individual, preparing Form IT-204-LL. Multi-member and partnership-taxed LLCs pay the gross-receipts sliding fee under a different form — see Section 7.
+
+## Rates, bands and thresholds
+Flat $25 filing fee under NY Tax Law §658(c)(1) for disregarded SMLLCs. The gross-receipts-based fee schedule applies only to LLCs taxed as partnerships — see Section 3 and Section 7.
+
+## The taxable base
+The filing trigger is "income, gain, loss or deduction from New York sources" (Tax Law §658(c)(1)); there is no dollar threshold for the $25 disregarded-entity fee.
+
+## Deadlines and filing
+Form IT-204-LL is due March 15 for calendar-year filers, with no extension available (Section 5 position rules).
+
+## Penalties and interest
+Late filing and late payment penalties and interest per Tax Law §685 and §686 — see Section 5 and Section 6.
+
+## Cross-border points
+LLCs doing business both inside and outside New York are out of scope (Section 7); the sole member's IT-201 coordination is covered in Section 13.
+
+## Worked examples
+Section 9 contains the worked examples for filing-trigger, dormancy, and late-filing scenarios.
+
+## Ask the client first
+Is the LLC disregarded for federal purposes? Is the sole member a NY full-year resident? Did the LLC have any NY-source income, gain, loss or deduction, or was it dormant? — see Section 11.
+
+## Sources
+
+## Talk to a verified accountant
+This skill is general reference. A New York CPA or enrolled agent should review any IT-204-LL position before filing.
+
+### Section 1 — Scope statement
 
 **In scope.** This skill covers the preparation of Form IT-204-LL for tax year 2025 for:
 
@@ -47,7 +76,7 @@ The scope limitations align with `us-tax-workflow-base` Section 6 base refusals 
 
 ---
 
-## Section 2 — Tax year coverage and currency
+### Section 2 — Tax year coverage and currency
 
 **Tax year covered:** 2025 (calendar year, returns due in 2026).
 
@@ -66,7 +95,7 @@ The scope limitations align with `us-tax-workflow-base` Section 6 base refusals 
 
 ---
 
-## Section 3 — Year-specific figures table for tax year 2025
+### Section 3 — Year-specific figures table for tax year 2025
 
 ### Filing fee amounts
 
@@ -119,7 +148,7 @@ The scope limitations align with `us-tax-workflow-base` Section 6 base refusals 
 
 ---
 
-## Section 4 — Primary source library
+### Section 4 — Primary source library
 
 Every position in this skill cites from this list. New citations added to the skill must be verified against the primary source before use.
 
@@ -163,7 +192,7 @@ Every position in this skill cites from this list. New citations added to the sk
 
 ---
 
-## Section 5 — Position rules
+### Section 5 — Position rules
 
 Each position rule follows the slot 5 contract format: **trigger condition → rule → conservative default → source**. A worked example for each position appears in Section 9.
 
@@ -255,7 +284,7 @@ However: because the amount is $25 and the tax effect is immaterial (at a 37% ma
 
 ---
 
-## Section 6 — Conservative defaults table
+### Section 6 — Conservative defaults table
 
 | Ambiguity | Conservative default | Source |
 |---|---|---|
@@ -275,7 +304,7 @@ However: because the amount is $25 and the tax effect is immaterial (at a 37% ma
 
 ---
 
-## Section 7 — Topical refusal catalogue
+### Section 7 — Topical refusal catalogue
 
 These refusals extend the base global catalogue in `us-tax-workflow-base` Section 6. When any refusal fires, output the text in the "Output" field **verbatim** per base Check 16, then stop workflow and flag in the brief's refusal trace.
 
@@ -321,7 +350,7 @@ Output: "An LLC in liquidation or dissolution with open tax matters requires coo
 
 ---
 
-## Section 8 — Reviewer attention thresholds
+### Section 8 — Reviewer attention thresholds
 
 This skill produces a $25 filing fee deliverable. Traditional dollar-threshold reviewer attention flags are not meaningful here. Instead, reviewer attention is triggered by any of the following conditions, regardless of the dollar amount at stake:
 
@@ -340,7 +369,7 @@ This skill produces a $25 filing fee deliverable. Traditional dollar-threshold r
 
 ---
 
-## Section 9 — Worked examples
+### Section 9 — Worked examples
 
 Five worked examples covering the common fact patterns the skill encounters. Each shows facts → reasoning → citations → output.
 
@@ -464,14 +493,14 @@ Step 5 — Due date (Position 5.5). March 16, 2026.
 
 ---
 
-## Section 10 — Output format extensions
+### Section 10 — Output format extensions
 
 This skill extends the standard reviewer brief template from `us-tax-workflow-base` Section 3 with one additional section: **"NY LLC Filing Fee Determination."**
 
 The section appears in the brief after "Bottom line" and before "High flags." It contains:
 
 ```markdown
-## NY LLC Filing Fee Determination
+### NY LLC Filing Fee Determination
 
 **Entity:** [LLC legal name]
 **NY DOS file number:** [number] (or "not yet provided — see reviewer flags")
@@ -508,7 +537,7 @@ The rest of the brief follows the base template (computation trail, conservative
 
 ---
 
-## Section 11 — Intake form additions
+### Section 11 — Intake form additions
 
 These questions extend the base intake. They are asked only if the base intake did not already capture the information. Use `ask_user_input_v0` where possible.
 
@@ -549,7 +578,7 @@ These questions extend the base intake. They are asked only if the base intake d
 
 ---
 
-## Section 12 — Self-check additions
+### Section 12 — Self-check additions
 
 These self-checks extend the seventeen base checks in `us-tax-workflow-base` Section 5. They start at Check 18 to avoid collision with the base numbering.
 
@@ -575,7 +604,7 @@ These self-checks extend the seventeen base checks in `us-tax-workflow-base` Sec
 
 ---
 
-## Section 13 — Cross-skill references
+### Section 13 — Cross-skill references
 
 **Inputs from intake skill** (either `us-ca-freelance-intake` with NY extension, or a future `us-ny-freelance-intake`, or a future state-agnostic intake):
 - Owner identifying information (name, SSN, address, filing status)
@@ -614,7 +643,7 @@ The LLC-level filing is genuinely isolated from all the owner-level tax mechanic
 
 ---
 
-## Section 14 — Reference material and change log
+### Section 14 — Reference material and change log
 
 ### Why this skill exists
 
@@ -646,11 +675,11 @@ This skill is the smallest file in the NY stack. It was built first (before `ny-
 - **v0.1 (April 2026):** Initial draft matching the `ca-smllc-form-568` pattern. Approximately 368 lines. Non-conformant with `us-tax-workflow-base` Section 7 slot contract (missing year-specific figures table, missing primary source library structure, missing worked examples, missing reviewer attention thresholds, missing structured position rules).
 - **v0.2 (April 2026):** Rewrite to strict slot contract conformance. Restructured into 14 sections mapping to the 13 mandatory slots and 1 optional slot (cross-skill references). Added structured year-specific figures table, primary source library with governance descriptions, seven structured position rules, thirteen-row conservative defaults table, ten topical refusals in trigger/output format, ten-row reviewer attention thresholds, five worked examples covering common fact patterns, output format extension for the brief, ten-question intake additions with blocking logic, ten self-check additions numbered 18-27 to avoid collision with base checks 1-17. Currency date: April 2026. All figures verified against tax.ny.gov primary sources during a deep research pass preceding this draft.
 
-## End of NY IT-204-LL SMLLC Filing Fee Skill v0.2
+### End of NY IT-204-LL SMLLC Filing Fee Skill v0.2
 
 ---
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 

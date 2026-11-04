@@ -15,13 +15,43 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 Figures are for tax year 2026, as the rules stand on 25 September 2026 (no state or local rate changed during 2026; a short section covers 2025). It draws on the New York State Department of Taxation and Finance (the Tax Department) at tax.ny.gov: its tax bulletins (TB-ST), technical memoranda (TSB-M), publications and forms.
 
-## Scope and who this is for
+## Who this applies to
 
 - Businesses that sell goods, prewritten software or taxable services to customers in New York State, and need to decide whether to register, what to charge and how to file.
 - Out-of-state sellers testing the economic nexus rule, and sellers who use a marketplace provider.
 - Businesses that owe use tax because no New York tax was charged on their purchases.
 - Sellers who give or accept resale and exemption certificates.
 - **Out of scope:** hotel occupancy, admissions and club dues, motor fuel, vehicle and boat sales through the DMV, exempt organizations' own sales, show promoters, and construction contractors beyond the short notes below.
+
+## Rates, bands and thresholds
+
+State rate 4% plus local rates; combined rates run 4% to under 13% by locality (see the rate table above).
+
+## The taxable base
+
+Tangible personal property, specified digital products, and enumerated services; see the boundary and exception table above.
+
+## Penalties and interest
+
+Late filing and late payment penalties and interest follow Tax Law §685 and §686 — the same schedule as ny-sales-tax.md.
+
+## Cross-border points
+
+Marketplace facilitator collection, drop-ship sourcing, and use tax on out-of-state purchases are covered in the sections above.
+
+## Worked examples
+
+The worked cases section above shows rate application, resale exemption, and marketplace scenarios.
+
+## Sources
+
+| Source | URL | Read on |
+|---|---|---|
+| NY sales tax rates page | https://www.tax.ny.gov/bus/st/rates.htm | combined state and local rates by jurisdiction |
+| Publication 718 | https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf | combined local rate table |
+| TSB-M-19(2.1)S | https://www.tax.ny.gov/pdf/memos/sales/m19-2-1s.pdf | marketplace provider collection |
+
+Not yet confirmed: locality rate change notices for 2026 beyond the archived rates page.
 
 ## Ask the client first
 
@@ -35,7 +65,7 @@ Figures are for tax year 2026, as the rules stand on 25 September 2026 (no state
 - Does it hold a properly completed ST-120 (or other exemption certificate) for every sale made without tax?
 - Has it used anything in New York bought without New York tax, and were any returns filed or paid late?
 
-## The method, step by step
+### The method, step by step
 
 1. **Decide whether the business must register.** It must register if it sells taxable goods or services and has a place of business in New York, solicits there through employees, contractors or other representatives, solicits by catalog with some other connection to New York, regularly delivers (at least 12 times a year) in its own vehicles, or passes the economic test: in the immediately preceding four sales tax quarters, gross receipts from goods delivered into New York **exceeded $500,000 and** it made **more than 100** such sales ([nexus page](https://www.tax.ny.gov/pubs_and_bulls/publications/sales/nexus.htm)). Both parts are needed.
 2. **Get the Certificate of Authority first.** Apply at least 20 days before starting business, through New York Business Express. No taxable sale may be made until the certificate has arrived ([TB-ST-360](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm)).
@@ -45,7 +75,7 @@ Figures are for tax year 2026, as the rules stand on 25 September 2026 (no state
 6. **Accrue use tax** on taxable purchases used in New York that were not taxed ([TB-ST-910](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/use_tax_for_businesses.htm)).
 7. **File every period, even with no sales,** no later than 20 days after the period ends, and pay in full. The vendor collection credit is only available on quarterly and annual returns that are filed on time and paid in full ([TB-ST-275](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/filing_requirements_for_sales_and_use_tax_returns.htm)).
 
-## Rates and thresholds for 2026
+## Rates, bands and thresholds
 
 ### Rates ([Tax Department sales tax rates](https://www.tax.ny.gov/bus/st/rates.htm); [Publication 718](https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf))
 
@@ -88,7 +118,7 @@ The test covers sales of goods (tangible personal property, which includes prewr
 - **Moving between frequencies.** These moves are not automatic: the Tax Department may reclassify a quarterly filer as annual if tax for the four most recently filed quarters is $3,000 or less, and may reclassify an annual filer as quarterly (from the next quarter) if tax in the annual period exceeds $3,000. It notifies each change. A monthly filer stays monthly until taxable sales are less than $300,000 each quarter for four consecutive quarters, and may then ask to return to quarterly.
 - **E-file mandate.** A vendor must Web File if it prepares its own returns without a professional, uses a computer to do so (or is under the corporation tax e-file mandate), and has broadband.
 
-## What is taxable: boundary and exception table
+## The taxable base
 
 ### Clothing and footwear ([TB-ST-122](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/clothing_and_footwear.htm); [Publication 718-C](https://www.tax.ny.gov/pdf/publications/sales/pub718c.pdf))
 
@@ -156,7 +186,7 @@ The exemption is year-round (TB-ST-122 cites TSB-M-06(6)S, "Year-Round Sales and
 
 Other exemptions in the TB-ST-740 chart: newspapers and qualified periodicals (no certificate needed); purchases by exempt organizations (the buyer gives Form ST-119.1); and purchases by governmental entities. A purchase by a United States governmental entity is supported by a federal purchase order or a signed government contract, not by ST-119.1 ([TB-ST-240](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/exemption_certificates_for_sales_tax.htm)).
 
-## Marketplace providers and sellers ([TSB-M-19(2.1)S](https://www.tax.ny.gov/pdf/memos/sales/m19-2-1s.pdf); [TB-ST-175](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/do_i_need_to_register_for_sales_tax.htm))
+### Marketplace providers and sellers ([TSB-M-19(2.1)S](https://www.tax.ny.gov/pdf/memos/sales/m19-2-1s.pdf); [TB-ST-175](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/do_i_need_to_register_for_sales_tax.htm))
 
 - **Who is a provider.** Someone who, under an agreement, provides the forum for a sale (such as a website) **and** collects the customer's payment itself, through an affiliate or through a contractor. Both are needed. The rules apply from 1 June 2019.
 - **Provider duties.** A provider must register at least 20 days before beginning business in New York, and must collect on all taxable sales of goods it facilitates. It "cannot refuse to collect tax on a marketplace seller's sales, even if the seller is registered". A provider with no physical presence registers under the same test as other sellers: more than $500,000 **and** more than 100 sales made or facilitated in the previous four sales tax quarters.
@@ -168,11 +198,11 @@ Other exemptions in the TB-ST-740 chart: newspapers and qualified periodicals (n
   This relief does not apply where seller and provider are affiliated (an ownership interest of more than five percent).
 - **Still the seller's job.** Direct sales outside the marketplace, and facilitated sales that are not sales of goods (for example, hotel occupancy or admissions).
 
-## Use tax ([TB-ST-910](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/use_tax_for_businesses.htm))
+### Use tax ([TB-ST-910](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/use_tax_for_businesses.htm))
 
 A business owes use tax when it uses taxable goods or services in New York and no New York sales tax was paid: for example goods bought out of state or online from a seller that did not collect, purchases on an Indian reservation, goods used in a different local taxing jurisdiction in the state from where they were bought or delivered, and goods taken from inventory or made for its own use. Taxable services bought out of state and used in New York, such as information services, are included. The tax is based on the cost including shipping and handling, at the rate for the place of use. A registered vendor reports it as "purchases subject to tax" on its sales tax return ([TB-ST-275](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/filing_requirements_for_sales_and_use_tax_returns.htm)).
 
-## Resale and exemption certificates ([ST-120](https://www.tax.ny.gov/pdf/current_forms/st/st120_fill_in.pdf); [TB-ST-240](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/exemption_certificates_for_sales_tax.htm))
+### Resale and exemption certificates ([ST-120](https://www.tax.ny.gov/pdf/current_forms/st/st120_fill_in.pdf); [TB-ST-240](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/exemption_certificates_for_sales_tax.htm))
 
 - **Who may issue ST-120.** A purchaser that holds a valid New York Certificate of Authority and is buying goods (other than motor fuel) or services to resell. An out-of-state business that is not required to register in New York may also issue it, if it is registered for sales tax or VAT where it is based (or is based where no registration is required), and only for goods delivered by the seller to the purchaser's customer or to an unaffiliated New York fulfillment service provider, or delivered in New York but resold from a business located outside the state. Contractors cannot use ST-120: they use ST-120.1 or a direct payment permit.
 - **Seller protection: all three conditions.** The seller is protected only if the certificate was:
@@ -185,7 +215,7 @@ A business owes use tax when it uses taxable goods or services in New York and n
 - **Records.** Link each exempt invoice to its certificate. Keep the certificate for at least three years after the due date of the return it relates to, or the date that return was filed, if later. A sale without a valid certificate is treated as a taxable retail sale.
 - **Misuse.** A purchaser who misuses the certificate faces a penalty equal to 100% of the tax due, $50 for each fraudulent certificate issued, possible felony prosecution, and revocation of its Certificate of Authority.
 
-## Worked cases ([rates page](https://www.tax.ny.gov/bus/st/rates.htm); [Publication 718](https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf); [Publication 718-C](https://www.tax.ny.gov/pdf/publications/sales/pub718c.pdf))
+### Worked examples ([rates page](https://www.tax.ny.gov/bus/st/rates.htm); [Publication 718](https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf); [Publication 718-C](https://www.tax.ny.gov/pdf/publications/sales/pub718c.pdf))
 
 The amounts are illustrative. Albany County's combined rate is 8% (Publication 718). Its local tax on clothing that is exempt from state tax is 4% (Publication 718-C).
 
@@ -201,7 +231,7 @@ The amounts are illustrative. Albany County's combined rate is 8% (Publication 7
 7. **Use tax.** An Albany business buys $2,000 of equipment online from an out-of-state seller that charges no New York tax. It owes use tax: $2,000 × 8% = $160.00, reported as purchases subject to tax on its return ([TB-ST-910](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/use_tax_for_businesses.htm)).
 8. **Resale certificate received late.** A wholesaler sells stock without tax to a registered retailer, but receives the retailer's ST-120 100 days after the sale. It is past 90 days, so the wholesaler is not protected by the certificate alone. Both must be able to prove the sale was for resale. A New Jersey resale certificate would not help at all ([ST-120](https://www.tax.ny.gov/pdf/current_forms/st/st120_fill_in.pdf)).
 
-## When to refuse or refer
+### When to refuse or refer
 
 - Audits, assessments, refund claims (Form AU-11) and appeals. Refer to a New York CPA, EA or tax attorney. This skill does not give limitation periods.
 - Unregistered past sales, or a seller that passed the nexus test in earlier quarters without registering. Refer before filing anything. Voluntary disclosure may be available.
@@ -211,7 +241,7 @@ The amounts are illustrative. Albany County's combined rate is 8% (Publication 7
 - Manufacturing, production and research and development exemptions (ST-121), and the Empire State film production and similar programs.
 - Sales where the seller is affiliated with its marketplace provider, since the ST-150 relief does not apply.
 
-## Filing and payment
+## Deadlines and filing
 
 ### Certificate of Authority ([TB-ST-360](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm); [TB-ST-175](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/do_i_need_to_register_for_sales_tax.htm))
 
@@ -254,12 +284,12 @@ When a 20th falls on a weekend or holiday (20 June, 20 September and 20 December
 
 Interest runs on any amount not paid by the due date, from the due date until payment. It is compounded daily and the rate may change each quarter. Use the Tax Department's current interest rates and its penalty and interest calculator. Willfully failing to collect, charge separately or remit tax can also be a crime.
 
-## 2025 periods (for amended or audited 2025 returns) ([Publication 718](https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf); [locality rate change notices](https://www.tax.ny.gov/forms/locality_rate_changes.htm))
+### 2025 periods (for amended or audited 2025 returns) ([Publication 718](https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf); [locality rate change notices](https://www.tax.ny.gov/forms/locality_rate_changes.htm))
 
 - **Unchanged in 2025.** The 4% state rate, the 0.375% MCTD rate, the $500,000-and-100-sales test, the $110 clothing threshold, the filing frequency thresholds, the vendor collection credit and the penalties.
 - **Local rates.** The current Publication 718 took effect on 1 March 2025. Suffolk County changed its rate in 2025 (notice ST-25-1). For a period before 1 March 2025, use Publication 718-A, which lists earlier rates and their effective dates, and the Publication 718-C in force at the time.
 
-## Completion checklist ([TB-ST-275](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/filing_requirements_for_sales_and_use_tax_returns.htm))
+### Completion checklist ([TB-ST-275](https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/filing_requirements_for_sales_and_use_tax_returns.htm))
 
 - [ ] Registration decided: place of business or representatives, or more than $500,000 **and** more than 100 sales in the last four sales tax quarters, counting marketplace, exempt and resale sales.
 - [ ] Certificate of Authority applied for at least 20 days before starting (or within 30 days of passing the test), received before the first taxable sale, and displayed at each location.
