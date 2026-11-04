@@ -28,7 +28,7 @@ This skill provides guidance on forming a Texas business entity (LLC, C-Corp, S-
 - Annual Public Information Report (Form 05-102) filed with the Texas Comptroller
 - Franchise/margin tax thresholds and their interaction with entity choice (computation deferred to `tx-margin-tax.md` and `tx-franchise-tax.md`)
 - Economic-nexus thresholds for out-of-state entities post-Wayfair (South Dakota v. Wayfair, 138 S. Ct. 2080 (2018))
-- The Corporate Transparency Act (CTA) / Beneficial Ownership Information (BOI) stay status as of the version date
+- The Corporate Transparency Act (CTA) / Beneficial Ownership Information (BOI) status under FinCEN's August 11, 2026 final rule (U.S. companies exempt; see section 9).
 - Texas vs Delaware entity-choice analysis for founders, especially for venture-backed startups and bootstrapped software businesses
 - The "doing business in Texas" determination under Texas Tax Code §171.001 and the Texas Comptroller's economic-nexus standard
 
@@ -309,16 +309,16 @@ The three obligations are administered by two different state agencies (Comptrol
 
 - **CTA status for 2026** -- FinCEN's BOI FAQ says that "on August 11, 2026, FinCEN issued a final rule that changes the beneficial ownership information (BOI) reporting requirements" and that under the new rule "U.S. companies are exempt from BOI reporting requirements and therefore, are no longer required to file BOI reports." Only certain foreign companies registered to do business in the U.S. must report (FinCEN BOI FAQs, archived).
 
-A company formed in Texas or Delaware files no BOI report. A foreign company registered to do business in Texas should check the current FinCEN rule before filing.
+A company formed in Texas or Delaware files no BOI report. A company formed outside the United States and registered to do business in Texas should check the current FinCEN rule before filing.
 
 ### 9.2 What entities should do now
 
-- **Conservative approach pending stabilization** -- 1. Collect the BOI information (names, dates of birth, addresses, identifying numbers, image of identifying document) for all 25%+ owners and substantial-control individuals even if not filing, so the filing can be completed quickly if requirements re-activate. 2. Document the file-or-no-file decision with citation to the current FinCEN guidance and any operative injunction. 3. Monitor FinCEN.gov for changes.
+- **What to do now** -- A company formed in the United States files no BOI report under the August 11, 2026 final rule. Keep a short note in the client file citing the FinCEN BOI FAQ. A company formed outside the United States and registered to do business in Texas should check the current FinCEN rule and FinCEN.gov before filing.
 
 ### 9.3 Penalties (foreign reporting companies)
 
 - **CTA civil penalty** -- FinCEN's BOI FAQ says the civil penalty is adjusted annually for inflation and "as of the time of publication of this faq, this amount is $591" per day. It applies only to companies that still must report.
-- **CTA criminal penalty** -- up to $10,000 and 2 years imprisonment (for willful violations)
+- **CTA criminal penalty** -- FinCEN's BOI FAQ says a person who willfully violates the BOI reporting requirements "may also be subject to criminal penalties of up to two years imprisonment and a fine of up to $10,000." It applies only to companies that still must report.
 
 ### 10. Texas vs Delaware for Startups
 
@@ -402,7 +402,7 @@ The founders intend to raise institutional VC. Substantially all institutional V
 - **Texas Comptroller registration** -- Register for Texas Taxpayer Number via Comptroller Webfile.
 - **Texas employer registration** -- Texas Workforce Commission unemployment insurance registration before first paycheck.
 - **EIN** -- IRS Form SS-4, free, instant online.
-- **83(b) elections** -- Both co-founders file 83(b) elections within 30 days of stock issuance to elect immediate income recognition on $0.0001 × 5,000,000 = $500 of restricted stock, eliminating future ordinary-income recognition on appreciation.
+- **83(b) elections** -- Each co-founder files an 83(b) election within 30 days after the stock is transferred. The election moves income recognition to the transfer date. Each founder's 5,000,000 shares are worth $0.0001 × 5,000,000 = $500 at that date; if the founder pays that $500, the income recognized is $0, and later appreciation is not taxed as ordinary income when the shares vest.
 
 - Delaware annual report (March 1, 2026): $50 corporate report + Delaware franchise tax ($400 minimum assumed-par-value-capital method, or up to thousands using authorized-shares method on 10M shares -- typically the founders' counsel switches to assumed-par-value-capital method to keep DE franchise tax minimal).
 - Texas Form 05-102 PIR (May 15, 2026): $0 (revenue under No Tax Due threshold).
@@ -506,7 +506,7 @@ The following requests are outside this skill's scope and should be referred els
 - **R-TX-FORM-4** -- Texas sales-tax registration and computation -- see `tx-sales-tax.md`.  _(tx-sales-tax.md)_
 - **R-TX-FORM-5** -- Texas margin tax computation when revenue exceeds $2.65 million (2026 report) -- see `tx-franchise-tax.md`.  _(tx-franchise-tax.md)_
 - **R-TX-FORM-6** -- Federal S-corp election break-even analysis -- see `us-s-corp-election-decision`.  _(us-s-corp-election-decision)_
-- **R-TX-FORM-7** -- BOI/CTA filing for periods when the requirement is reinstated -- verify current FinCEN guidance; this skill captures only the November 2025 stay status.
+- **R-TX-FORM-7** -- BOI/CTA reporting for a company formed outside the United States and registered in Texas -- check the current FinCEN rule (U.S. companies are exempt under the August 11, 2026 final rule).
 - **R-TX-FORM-8** -- Texas franchise-tax combined group reporting for affiliated entities -- separate analysis under Texas Tax Code §171.1014.  _(Texas Tax Code §171.1014)_
 - **R-TX-FORM-9** -- Texas business courts venue and procedure (HB 19, 88th Legislature, 2023) -- refer to litigation counsel.  _(HB 19, 88th Legislature, 2023)_
 - **R-TX-FORM-10** -- Texas community-property and pre-marital planning for entity ownership -- refer to family-law and estate-planning counsel.
