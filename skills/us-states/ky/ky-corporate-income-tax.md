@@ -30,12 +30,12 @@ Corporations doing business in Kentucky, deriving income from Kentucky, or regis
 | Corporation income tax | Flat 5% of taxable net income for tax years beginning on or after 1 January 2018 | KRS 141.040(2): "For taxable years beginning on or after January 1, 2018, the rate of five percent (5%) of taxable net income shall apply"; DOR page: "the previous rate brackets have been replaced with a flat 5% tax rate" |
 | Apportionment | Receipts-only fraction: income multiplied by a fraction whose "numerator ... is the total receipts of the taxpayer in this state" and "denominator ... is the total receipts of the taxpayer everywhere" | KRS 141.120(9) |
 | LLET minimum | $175 regardless of credits: "The tax shall be the greater of the amount computed under paragraph (b) of this subsection or one hundred seventy-five dollars ($175)" | KRS 141.0401 |
-| LLET gross-receipts brackets | Gross receipts ≤ $3,000,000: $175; > $3M but < $6M: $0.095 per $100 of Kentucky gross receipts reduced by the ratio with a $3M denominator (floor $175); ≥ $6M: $0.095 per $100 of Kentucky gross receipts; a parallel gross-profits computation exists and the greater applies | KRS 141.0401 |
+| LLET gross-receipts brackets | Gross receipts ≤ $3,000,000: $175; > $3M but < $6M: $0.095 per $100 of Kentucky gross receipts reduced by the ratio with a $3M denominator (floor $175); ≥ $6M: $0.095 per $100 of Kentucky gross receipts; a parallel gross-profits computation exists (KRS 141.0401(2)(b)2: $0.75 per $100 of Kentucky gross profits at gross profits from all sources of $6,000,000 or more) and the LLET is the lesser of the two computations, subject to the $175 minimum regardless of credits | KRS 141.0401 |
 | Filing method (TYB on/after 1 Jan 2019) | "Unitary Combined Group filing required; or Group election for a 48 month same-as-federal consolidated group filing; otherwise Separate entity filing if not part of a unitary or consolidated group" | DOR page; KRS 141.202 |
 
 ## The taxable base
 
-Kentucky starts from federal taxable income, makes Kentucky adjustments (including the IRC date conformity under KRS 141.010), apportions by the receipts fraction (KRS 141.120), and applies the 5% rate. The DOR page describes "three steps": "1) Make Kentucky adjustments to Federal taxable income ... Kentucky's corporate income tax calculation starts with federal taxable income"; apportion/allocate; then compute tax by "multiplying taxable net income by the Kentucky tax rate." The LLET is computed on Kentucky gross receipts and Kentucky gross profits (whichever method yields more, subject to the $175 minimum) under KRS 141.0401.
+Kentucky starts from federal taxable income, makes Kentucky adjustments (including the IRC date conformity under KRS 141.010), apportions by the receipts fraction (KRS 141.120), and applies the 5% rate. The DOR page describes "three steps": "1) Make Kentucky adjustments to Federal taxable income ... Kentucky's corporate income tax calculation starts with federal taxable income"; apportion/allocate; then compute tax by "multiplying taxable net income by the Kentucky tax rate." The LLET is computed on Kentucky gross receipts and Kentucky gross profits (the company "then pays the smaller of the amount calculated on gross receipts or the amount calculated on gross profits," subject to the $175 minimum regardless of tax credits) under KRS 141.0401.
 
 Section 179: per the DOR page, the "IRC §179 expense deduction increased to $100,000 for Kentucky for property placed in service on or after January 1, 2020."
 
@@ -80,23 +80,29 @@ expected:
   tax: 100000.00
 ```
 
-### Worked example 2 -- LLET brackets (hypothetical facts)
+### Worked example 2 -- LLET lesser of the two methods (hypothetical facts)
 
-An LLC with Kentucky gross receipts of $8,000,000 (and lower gross-profits computation) is in the ≥ $6,000,000 bracket: LLET $8,000,000 / 100 × $0.095 = $7,600. An LLC with Kentucky gross receipts of $2,000,000 falls in the ≤ $3,000,000 bracket: LLET is the $175 minimum.
+An LLC with Kentucky gross receipts of $8,000,000 and Kentucky gross profits of $500,000 (gross receipts and gross profits from all sources each at or above $6,000,000) computes both methods: receipts $8,000,000 / 100 × $0.095 = $7,600; profits $500,000 / 100 × $0.75 = $3,750. The LLET is the lesser of the two computations, $3,750 (above the $175 minimum). An LLC with Kentucky gross receipts of $2,000,000 falls in the ≤ $3,000,000 bracket: LLET is the $175 minimum.
 
 ```oa-check
-name: KY LLET brackets
+name: KY LLET lesser of receipts and profits methods
 inputs:
   receipts_small: 2000000
   receipts_large: 8000000
-  per_hundred: 0.095
+  ky_gross_profits: 500000
+  per_hundred_receipts: 0.095
+  per_hundred_profits: 0.75
   minimum: 175
 steps:
-  - llet_small: max(receipts_small / 100 * per_hundred * 0, minimum)
-  - llet_large: receipts_large / 100 * per_hundred
+  - receipts_method: receipts_large / 100 * per_hundred_receipts
+  - profits_method: ky_gross_profits / 100 * per_hundred_profits
+  - llet_large: max(min(receipts_method, profits_method), minimum)
+  - llet_small: minimum
 expected:
+  receipts_method: 7600.00
+  profits_method: 3750.00
+  llet_large: 3750.00
   llet_small: 175.00
-  llet_large: 7600.00
 ```
 
 ## Ask the client first
