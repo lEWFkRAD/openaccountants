@@ -23,7 +23,6 @@ Sellers with Nevada sales -- state and local sales/use tax.
 | --- | --- |
 | Jurisdiction | Nevada |
 | State rate | 6.85%
-| Local rate range | 0% -- ~1.525% (not yet confirmed)
 | Maximum combined rate | ~8.375%
 | Sourcing | Destination-based (SST) |
 | Economic nexus | $100,000 OR 200 transactions
@@ -57,7 +56,7 @@ See the quick-reference due-date row above.
 
 ## Penalties and interest
 
-Late filing/payment penalties and interest apply; current rates are not yet confirmed against an archived source.
+Late-filed returns calculate penalty and interest from the Date Paid field: "For returns filed and paid within 30 days of the due date, the penalty calculation is a graduated scale per NAC 360.395" (Nevada Department of Taxation Sales Tax and Use Tax page, archived, read 2026-10-31).
 
 ## Cross-border points
 
@@ -77,6 +76,7 @@ No worked examples yet -- rate figures pending source confirmation.
 | Source | URL | Read on |
 | --- | --- | --- |
 | Nevada Department of Taxation -- homepage notice | https://tax.nv.gov/ | 2026-10-28 |
+| Nevada Department of Taxation -- Sales Tax and Use Tax page (return penalty calculation) | https://tax.nv.gov/tax-types/sales-tax-use-tax/ | 2026-10-31 |
 
 Not yet confirmed: state rate 6.85%; local range; max combined ~8.375%; economic nexus $100,000/200 transactions; penalty/interest rates.
 
