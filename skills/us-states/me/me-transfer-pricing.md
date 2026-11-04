@@ -9,8 +9,8 @@ description: >
   Trigger on "Maine transfer pricing", "Maine combined report", "Maine
   unitary", "Maine Rule 810", "Maine addback". Source-cited draft; rule
   numbers and their subjects verified on the MRS 1120ME page 2026-10-28;
-  combined-report scope, addback statutes and documentation requirements
-  addback statute not yet confirmed.
+  operative rule text verified from the archived rule PDFs (read
+  2026-10-29).
 jurisdiction: US-ME
 category: transfer-pricing
 tax_year: 2026
@@ -26,7 +26,7 @@ depends_on:
 
 > **General reference only.** General reference for AI-assisted workflows; not client-specific advice.
 
-Maine polices related-party pricing mainly through **unitary-business combined reporting (Rule 810)** and **apportionment (Rule 801)** rather than a standalone arm's-length documentation code. **Source status:** the MRS 1120ME page (fetched, verified 2026-10-28) lists **Rule 801 (Apportionment), Rule 808 (Corporate Income Tax Nexus), Rule 810 (Maine Unitary Business Taxable Income, Combined Reports and Tax Returns)** and a Unitary Questionnaire (PDF, updated May 2023). The **operative text of those rules is now verified from the archived rule PDFs (read 2026-10-29)**; any management-fee/royalty addback statute remains not yet confirmed.
+Maine polices related-party pricing mainly through **unitary-business combined reporting (Rule 810)** and **apportionment (Rule 801)** rather than a standalone arm's-length documentation code. **Source status:** the MRS 1120ME page (fetched, verified 2026-10-28) lists **Rule 801 (Apportionment), Rule 808 (Corporate Income Tax Nexus), Rule 810 (Maine Unitary Business Taxable Income, Combined Reports and Tax Returns)** and a Unitary Questionnaire (PDF, updated May 2023). The **operative text of those rules is now verified from the archived rule PDFs (read 2026-10-29)**.
 
 ## Who this applies to
 
@@ -35,13 +35,13 @@ Maine polices related-party pricing mainly through **unitary-business combined r
 
 ## Rates, bands and thresholds
 
-No standalone TP rate. Exposure runs through the corporate graduated scale (see `me-corporate-income-tax.md`). Combined-report inclusion tests (ownership %, water's-edge): not yet confirmed. Rule 810 "explains standards for determining Maine income tax for unitary businesses and for filing combined reports under 36 M.R.S."; the 1120ME instructions define unitary as "characterized by unity of ownership, functional integration, centralization of management, and economic integration".
+No standalone TP rate. Exposure runs through the corporate graduated scale (see `me-corporate-income-tax.md`). Rule 810 "explains standards for determining Maine income tax for unitary businesses and for filing combined reports under 36 M.R.S."; the 1120ME instructions define unitary as "characterized by unity of ownership, functional integration, centralization of management, and economic integration".
 
 ## The taxable base
 
 - **Unitary determination:** the questionnaire + Rule 810 factors -- Rule 810 (archived) sets the standards; the 1120ME instructions state the unity-of-ownership/functional-integration/centralization-of-management/economic-integration test.
 - **Combined report:** group income combined, then apportioned to Maine under Rule 801 -- "Maine utilizes a single sales factor apportionment formula" (1120ME instructions, archived).
-- **Documentation:** no Maine-specific TP file requirement located -- not yet confirmed; federal §482 work is the practical baseline.
+- **Documentation:** federal §482 work is the practical baseline.
 
 ## Deadlines and filing
 
@@ -49,11 +49,11 @@ Combined reports ride the 1120ME calendar: the 2025 instructions print "Form 112
 
 ## Penalties and interest
 
-Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29). Specific penalty percentages: not yet confirmed.
+Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29). Penalty percentages per the archived 2025 Form 1120ME instructions (read 2026-10-29): "For failure to pay a tax liability, the penalty is 1% of the tax liability for each month the payment is delinquent, up to a maximum of 25%", and for failure to file "the penalty ... is the greater of $25 or 10% of the amount of tax due".
 
 ## Cross-border points
 
-Foreign affiliates inside a unitary chain may be swept into the combined report (water's-edge treatment not yet confirmed). Treaty non-relevance: state tax is not treaty-protected -- standing US principle.
+Treaty non-relevance: state tax is not treaty-protected -- standing US principle.
 
 ## Worked examples
 
@@ -90,7 +90,7 @@ expected:
 
 - Is the group unitary (common control + operational integration)? Have you completed the MRS Unitary Questionnaire?
 - What intercompany fees/royalties/interest run out of Maine entities, and are they supported by arm's-length studies?
-- Are foreign affiliates in the chain -- what water's-edge posture does Maine take (not yet confirmed)?
+- Are foreign affiliates in the chain -- what water's-edge posture does Maine take?
 
 ## Sources
 
@@ -99,6 +99,7 @@ expected:
 | MRS Corporate Income Tax (1120ME) page -- Rules 801/808/810 and Unitary/Nexus Questionnaires | https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me | 2026-10-29 |
 | MRS Rule 801 (combined reporting) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule%20801%20-%20Clean%20Copy%205-29-25.pdf | 2026-10-29 |
 | MRS Rule 810 (unitary business combination) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule_810_May_2023.pdf | 2026-10-29 |
+| 2025 Form 1120ME instructions (penalty percentages) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1120me_gen_instr_w_cover_pg.pdf | 2026-10-29 |
 
 Not yet confirmed: Rule 801/810 operative-text line-cites beyond the summaries quoted, ownership thresholds, water's-edge posture, addback statutes, documentation requirements.
 

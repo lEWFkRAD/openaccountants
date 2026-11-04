@@ -28,7 +28,7 @@ Maine taxes individuals on a graduated schedule (top marginal 7.15% plus a 2% su
 | SC social contributions | drafted 2026-10-28 | `me-social-contributions.md` | ME UC-1 UI report verified; UI wage base $12,000 confirmed from archived MDOL employers FAQ 2026-11-01; new-employer rate figures held on the skill's Not-yet-confirmed line |
 | PR payroll withholding | drafted 2026-10-28 | `me-payroll.md` | 941ME quarterly + 941P-ME PTE verified; W-3ME discontinued after 2023 verified; table method detail not line-cited |
 | TP transfer pricing | drafted 2026-10-28 | `me-transfer-pricing.md` | unitary/combined Rule 810 + apportionment Rule 801 verified to exist; mechanics verified from rule PDFs |
-| XB cross-border | drafted 2026-10-28 | `me-cross-border.md` | 941P-ME/composite verified; Schedule NR routing + credit mechanics not yet confirmed |
+| XB cross-border | drafted 2026-10-28 | `me-cross-border.md` | 941P-ME/composite verified; Schedule NR ratio method and credit for taxes paid to other jurisdictions verified from the archived 2025 Schedule NR and 1040ME instructions |
 
 All seven domains apply to Maine -- no not_applicable entries. Maine's "franchise tax" (1120B-ME) applies only to financial institutions and is noted inside the corporate skill, not as a separate domain.
 
@@ -38,8 +38,8 @@ All seven domains apply to Maine -- no not_applicable entries. Maine's "franchis
 - MRS Employer Withholding: https://www.maine.gov/revenue/taxes/income-estate-tax/employer-withholding -- **Form 941ME quarterly return; ME UC-1 unemployment contributions report (DOL administers once filed); W-3ME annual reconciliation discontinued for tax years after 2023; Rule 803** (verified)
 - MRS Pass-through Entity Withholding: https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding-941p-me-returns -- **Form 941P required for partnerships/S corps with Maine-source income and any nonresident members; withholding or exemption certificate or composite election; composite return combines nonresidents' Maine-source income** (verified)
 - 36 M.R.S. § 5111 (rate statute): https://legislature.maine.gov/statutes/36/title36sec5111.html -- **graduated individual schedules; 2% income tax surcharge above filing-status thresholds** (statute page fetched 2026-10-28)
-- MRS 1040ME page: https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me -- resolves (200); nonresident Schedule NR detail not yet confirmed
-- Maine DOL (UI): https://www.maine.gov/labor/cwri/ resolves but is the labor-statistics portal; the UI employer rate/wage-base page was not reachable this run -- **UI figures not yet confirmed**
+- MRS 1040ME page: https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me -- resolves (200); nonresident Schedule NR detail verified from the archived 2025 Schedule NR and 1040ME instructions
+- Maine DOL (UI): https://www.maine.gov/labor/cwri/ resolves but is the labor-statistics portal; the UI employer rate/wage-base page was not reachable this run, and the 2026 UI figures are confirmed from the archived MDOL employers FAQ and 2026 UI tax rates PDF (2026-11-01)
 
 ## Open items for reviewer
 

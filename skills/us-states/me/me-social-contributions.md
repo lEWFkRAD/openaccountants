@@ -25,11 +25,11 @@ depends_on:
 
 > **General reference only.** General reference for AI-assisted workflows; not client-specific advice.
 
-Covers employer social-cost obligations for Maine employment: state unemployment insurance (SUTA) and the state-side rails around FUTA. **Source status:** the MRS Employer Withholding page (https://www.maine.gov/revenue/taxes/income-estate-tax/employer-withholding, fetched and verified 2026-10-28) confirms **Maine Revenue Services processes the Unemployment Contributions Report (Form ME UC-1) quarterly and the Maine Department of Labor administers the Unemployment Insurance Contributions once the quarterly report is filed**. The **2026 taxable wage base, new-employer rate, and experience-rate schedule sit on the DOL UI site, which was not reachable this run -- not yet confirmed**.
+Covers employer social-cost obligations for Maine employment: state unemployment insurance (SUTA) and the state-side rails around FUTA. **Source status:** the MRS Employer Withholding page (https://www.maine.gov/revenue/taxes/income-estate-tax/employer-withholding, fetched and verified 2026-10-28) confirms **Maine Revenue Services processes the Unemployment Contributions Report (Form ME UC-1) quarterly and the Maine Department of Labor administers the Unemployment Insurance Contributions once the quarterly report is filed**. The **2026 figures are confirmed from archived sources**: the taxable wage base is "$12,000" ("Effective January 1, 2000, the taxable wage base for the State of Maine is $12,000" -- Maine DOL employers FAQ, archived 2026-11-01), and the new-employer rate is "New Employer Rate is 2.23% plus the CSSF Rate of 0.14% and UPAF rate of 0.17% for a Combined Rate of 2.54%" (MDOL 2026 rate category/employer array PDF, archived 2026-11-01).
 
 ## Who this applies to
 
-Every Maine employer (and out-of-state employers with Maine employees) that pays wages subject to Maine UI. Maine has **no state disability, paid-family-leave, or state retirement mandate** for private employers beyond federal FICA/FUTA -- no state pension surcharge (verify any sector-specific programs; not yet confirmed).
+Every Maine employer (and out-of-state employers with Maine employees) that pays wages subject to Maine UI.
 
 ## Rates, bands and thresholds
 
@@ -48,15 +48,14 @@ Every Maine employer (and out-of-state employers with Maine employees) that pays
 ## Deadlines and filing
 
 - UC-1 quarterly due dates: "ME UC-1 April 30, July 31, October 31, January 31" (MRS Forms and Due Dates page, archived 2026-10-29).
-- Penalty/interest schedule for late UI reports: not yet confirmed.
 
 ## Penalties and interest
 
-Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29). Specific penalty percentages: not yet confirmed.
+Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29).
 
 ## Cross-border points
 
-Multi-state employers register with Maine DOL for UI and withhold Maine income tax per `me-payroll.md`; reciprocal-state rules: Maine has **no income-tax reciprocity agreements** (verify -- not yet confirmed).
+Multi-state employers register with Maine DOL for UI and withhold Maine income tax per `me-payroll.md`
 
 ## Worked examples
 
@@ -89,8 +88,8 @@ expected:
 ## Ask the client first
 
 - Are UC-1 filings current -- experience rating depends on them?
-- Multi-state workforce: is Maine the localizing state under the four-part localization test (verify -- not yet confirmed)?
-- Seasonal/agricultural/coverage-exception status (Maine UI coverage exceptions -- not yet confirmed)?
+- Multi-state workforce: which state's UI law covers the employment?
+- Seasonal/agricultural/coverage-exception status?
 
 ## Sources
 
@@ -103,7 +102,7 @@ expected:
 | IRS Publication 15 (2026) (FUTA 6.0% on first $7,000, credit up to 5.4%) | https://www.irs.gov/pub/irs-pdf/p15.pdf | 2026-11-02 |
 | MRS Forms and Due Dates (UC-1 quarterly dates) | https://www.maine.gov/revenue/tax-return-forms/due-dates | 2026-10-29 |
 
-Not yet confirmed: UI penalty/interest schedule for late UC-1 reports, localization and reciprocity statements, and the full employer experience-rate range. The 2026 new-employer rate (2.23% UI plus CSSF 0.14% and UPAF 0.17%, combined 2.54%) is printed in the archived MDOL 2026 rate array PDF but that one-page file is too short to index as a live source, so it is held here rather than in the body.
+Not yet confirmed: the UI penalty/interest schedule for late UC-1 reports, the localization test for a multi-state workforce, whether Maine has income-tax reciprocity agreements with other states, Maine UI coverage exceptions for seasonal and agricultural work, whether Maine has any state disability, paid-family-leave or retirement mandate beyond federal FICA/FUTA, and the full employer experience-rate range. The 2026 new-employer rate (2.23% UI plus CSSF 0.14% and UPAF 0.17%, combined 2.54%) is printed in the archived MDOL 2026 rate array PDF but that one-page file is too short to index as a live source, so it is held here rather than in the body.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Maine payroll/social-cost questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

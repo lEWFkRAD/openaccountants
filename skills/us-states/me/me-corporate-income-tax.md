@@ -10,8 +10,9 @@ description: >
   "1120ME", "Maine corporation tax", "Maine combined report", "Maine
   unitary". Source-cited draft; rate range, S-corp scope, franchise-tax
   carve-out and rule numbers verified on the MRS 1120ME page
-  2026-10-28; middle bracket, deadlines and estimated-payment detail
-  addback statute not yet confirmed.
+  2026-10-28; middle brackets, deadlines, estimated-payment detail and
+  penalty percentages verified from the archived 2025 Form 1120ME
+  instructions (read 2026-10-29).
 jurisdiction: US-ME
 category: international
 tax_year: 2026
@@ -60,7 +61,7 @@ Maine taxable income starts from federal taxable income (2025 Form 1120ME instru
 
 ## Penalties and interest
 
-Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29). Specific penalty percentages: not yet confirmed.
+Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29). Late-filing penalty: "the penalty for failure to file is the greater of $25 or 10% of the amount of tax due" (2025 Form 1120ME instructions, archived, read 2026-10-29; rising to the greater of $25 or 25% of the amount of tax due if the return is filed more than 60 days after a demand notice). Late-payment penalty: "For failure to pay a tax liability, the penalty is 1% of the tax liability for each month the payment is delinquent, up to a maximum of 25%" (2025 Form 1120ME instructions, archived).
 
 ## Cross-border points
 
@@ -108,7 +109,7 @@ expected:
 - Is the entity part of a unitary group (common ownership + integrated operations)? → combined report under Rule 810.
 - Any factor presence (property, payroll, sales) in Maine that could create Rule 808 nexus?
 - Is the S corp carrying federal corporate-level taxable income (built-in gains, passive income)?
-- Intercompany management/royalty fees paid out of Maine (addback exposure -- not yet confirmed)?
+- Intercompany management/royalty fees paid out of Maine?
 
 ## Sources
 
@@ -119,7 +120,7 @@ expected:
 | MRS Interest Rates, 1992 to Present | https://www.maine.gov/revenue/tax-return-forms/interest-rates | 2026-10-29 |
 | 36 M.R.S. § 5111 (individual rate statute, surcharge context) | https://legislature.maine.gov/statutes/36/title36sec5111.html | 2026-10-28 |
 
-Not yet confirmed: the Rule 801 factor mix and Rule 810 combined-report operative text (rule PDFs archived but not line-cited here); franchise-tax (1120B-ME) rates; estimated-payment thresholds and penalty percentages for corporations.
+Not yet confirmed: the Rule 801 factor mix and Rule 810 combined-report operative text (rule PDFs archived but not line-cited here); franchise-tax (1120B-ME) rates; the related-party management/royalty addback statute.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Maine corporate questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

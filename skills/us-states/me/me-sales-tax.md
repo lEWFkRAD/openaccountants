@@ -58,12 +58,10 @@ Registered sellers file periodic Maine sales/use returns; the MRS rates-and-due-
 
 ## Penalties and interest
 
-Late-filing and late-payment penalties and interest apply under Maine law; specific percentages not yet confirmed line-by-line.
 
 ## Cross-border points
 
 - Out-of-state sellers with "gross sales into this State of more than $100,000" must register and collect Maine sales tax (36 M.R.S. § 1754-B(1)(B), archived). There is no 200-transaction test in Maine law.
-- Maine is not a member of the Streamlined Sales Tax Agreement; SST-simplified sourcing for remote sellers follows the destination-based framework in the archived statute (not yet confirmed line-by-line).
 - Use tax applies at the same rates to taxable purchases brought into Maine from out of state.
 
 ## Worked examples

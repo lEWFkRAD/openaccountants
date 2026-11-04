@@ -46,11 +46,11 @@ Wages, pensions, and backup withholding (page title verified: "Wages, Pensions, 
 
 - **941ME: quarterly** (verified). Rule 803: quarterly withholding payments "are due on or before the following dates: April 30, July 31, October 31, and January 31 of the following year"; the MRS due-dates page lists 941ME on the same dates.
 - Annual W-2 reconciliation: W-3ME discontinued after TY2023 (verified) -- W-2s still due annually via the portal specs.
-- Penalty/interest percentages: not yet confirmed (MRS interest table: 9% for 2026 -- see `me-corporate-income-tax.md`; withholding-specific penalty percentages not line-cited).
+- Interest: MRS interest table 9% for 2026 (see `me-corporate-income-tax.md`). Withholding penalties (MRS 2026 withholding tables instructions, archived, read 2026-10-29): "The penalty for late payment is 1% per month, or fraction thereof, of the tax due up to a maximum of 25%" and "The penalty for late filing is $25 or 10% of the tax due, whichever is greater".
 
 ## Penalties and interest
 
-Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29). Specific penalty percentages: not yet confirmed.
+Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29). Penalty percentages (MRS 2026 withholding tables instructions, archived, read 2026-10-29): "The penalty for late payment is 1% per month, or fraction thereof, of the tax due up to a maximum of 25%. The penalty for late filing is $25 or 10% of the tax due, whichever is greater."
 
 ## Cross-border points
 
@@ -99,7 +99,7 @@ expected:
 | MRS 2026 Income Tax Withholding Tables | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/26_wh_tab_instr_August2026.pdf | 2026-10-29 |
 | MRS Rule 803 (Chap. 301) withholds on nonresident partners/shareholders | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/Rule%20803_May_2024.pdf | 2026-10-29 |
 
-Not yet confirmed: withholding-table method details, penalty percentages for late 941ME, the exact REW consideration threshold wording, exemption-certificate form ID.
+Not yet confirmed: withholding-table method details, the exact REW consideration threshold wording, exemption-certificate form ID.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Maine payroll questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult

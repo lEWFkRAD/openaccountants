@@ -9,8 +9,10 @@ description: >
   Maine exit tax. Trigger on "Maine nonresident", "Schedule NR", "1040ME
   nonresident", "Maine composite return", "Maine credit for taxes paid",
   "Maine exit tax". Source-cited draft; 941P-ME/composite rails and the
-  § 5111 rate structure verified 2026-10-28; Schedule NR mechanics, credit
-  statute cite and reciprocity statements not yet confirmed.
+  § 5111 rate structure verified 2026-10-28; the Schedule NR ratio method
+  and the credit for taxes paid to other jurisdictions verified from the
+  archived 2025 Schedule NR and 2025 Form 1040ME instructions (read
+  2026-10-29).
 jurisdiction: US-ME
 category: cross-border
 tax_year: 2026
@@ -27,38 +29,35 @@ depends_on:
 
 > **General reference only.** General reference for AI-assisted workflows; not client-specific advice.
 
-Covers how Maine reaches nonresidents and how Maine residents get credit for other-state tax. **Source status:** verified 2026-10-28 from MRS pages -- **pass-through entities with Maine-source income and nonresident members must withhold (941P-ME), obtain an exemption, or file a composite return combining nonresidents' Maine-source income**; 36 M.R.S. § 5111 sets the graduated rates that apply to Maine taxable income. **Schedule NR mechanics, the credit-for-taxes-paid statute cite, and the no-exit-tax statement -- not yet confirmed** (Schedule NR form archived; its mechanics text and the credit statute not line-cited this run).
+Covers how Maine reaches nonresidents and how Maine residents get credit for other-state tax. **Source status:** verified 2026-10-28 from MRS pages -- **pass-through entities with Maine-source income and nonresident members must withhold (941P-ME), obtain an exemption, or file a composite return combining nonresidents' Maine-source income**; 36 M.R.S. § 5111 sets the graduated rates that apply to Maine taxable income. Nonresidents compute a Maine-source ratio on Schedule NR ("RATIO OF INCOME: Divide line 1c by line 1a and enter the result here" -- 2025 Schedule NR, archived, read 2026-10-29), and the resident credit for other-state tax runs through "the Credit for Income Tax Paid to Other Jurisdictions" (36 M.R.S. § 5217-A; 2025 Form 1040ME instructions, archived, read 2026-10-29).
 
 ## Who this applies to
 
 - **Nonresidents with Maine-source income** -- file 1040ME with Schedule NR (2025 Schedule NR archived, read 2026-10-29; 1040ME instructions: "Nonresidents - see Schedule NR instructions for minimum taxability thresholds").
 - **Part-year residents** -- same mechanics on the residency-split period.
-- **Maine residents working/studying in another state** -- credit for taxes paid to that other state (statute cite not yet confirmed).
+- **Maine residents working/studying in another state** -- credit for taxes paid to that other state: "If you are a resident of Maine and have income taxed by another state, you may be eligible for the Credit for Income Tax Paid to Other Jurisdictions" (36 M.R.S. § 5217-A; 2025 Form 1040ME instructions, archived, read 2026-10-29).
 - **Nonresident owners of ME pass-throughs** -- entity-level 941P-ME withholding or composite filing (verified).
 
 ## Rates, bands and thresholds
 
-Maine taxable income is taxed on the same graduated schedule as residents (top 7.15% plus 2% surcharge bands -- § 5111, verified). Nonresidents are effectively taxed on their Maine-source share (Schedule NR ratio method -- mechanics not yet confirmed line-by-line).
+Maine taxable income is taxed on the same graduated schedule as residents (top 7.15% plus 2% surcharge bands -- § 5111, verified). Nonresidents are taxed on their Maine-source share under the Schedule NR ratio method: "RATIO OF INCOME: Divide line 1c by line 1a and enter the result here" (2025 Schedule NR, archived, read 2026-10-29).
 
 ## The taxable base
 
-- Maine-source income for nonresidents: wages for work performed in Maine, Maine business income apportioned per Rule 801 ("This rule explains apportionment for corporations, pass-through entities, sole proprietorships, and other business types that have income from business" -- Rule 801 summary, archived), Maine rents/gains (detail not yet confirmed).
+- Maine-source income for nonresidents: wages for work performed in Maine, Maine business income apportioned per Rule 801 ("This rule explains apportionment for corporations, pass-through entities, sole proprietorships, and other business types that have income from business" -- Rule 801 summary, archived).
 - **Composite return:** one Maine return covering all nonresident members' Maine-source income, elected by the PTE (verified).
 - **Real estate withholding (REW)** on nonresident property sales: "The amount to be withheld is equal to 2.5% of the sale price", filed on form REW-1 (MRS Real Estate Withholding page, read 2026-10-29).
-- **No Maine exit tax** on departure -- assertion, not yet confirmed.
 
 ## Deadlines and filing
 
-1040ME due date: the 2025 instructions print "Form 1040ME due date: Wednesday, April 15, 2026" -- that is the 2025-return deadline; the MRS due-dates page rule is "1040ME, 1040EXT-ME April 15*", so the 2026 return is due April 15, 2027. Penalties/interest: MRS interest table 9% for 2026 (see `me-corporate-income-tax.md`); individual penalty percentages not yet confirmed.
+1040ME due date: the 2025 instructions print "Form 1040ME due date: Wednesday, April 15, 2026" -- that is the 2025-return deadline; the MRS due-dates page rule is "1040ME, 1040EXT-ME April 15*", so the 2026 return is due April 15, 2027. Penalties/interest: MRS interest table 9% for 2026 (see `me-corporate-income-tax.md`).
 
 ## Penalties and interest
 
-Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29). Specific penalty percentages: not yet confirmed.
+Late filing and late payment attract Maine Revenue Services penalties and interest; the published interest rate is "1/1/26 - 12/31/26 9%" (MRS Interest Rates page, read 2026-10-29).
 
 ## Cross-border points
 
-- No reciprocity agreements located for Maine -- not yet confirmed (verify before advising border workers, e.g., NH/Maine commuters).
-- Remote workers: days physically worked in Maine create sourcing even for out-of-state employers (verify any convenience-of-the-employer rule -- Maine not known to have one; not yet confirmed).
 
 ## Worked examples
 
@@ -94,7 +93,7 @@ expected:
 
 - Where were workdays physically performed? (sourcing driver)
 - Is the pass-through already withholding 941P or filing composite -- and did the nonresident claim credit at home against that Maine tax?
-- Moving out of Maine mid-year? (part-year split; no exit tax asserted -- not yet confirmed)
+- Moving out of Maine mid-year? (part-year split)
 
 ## Sources
 
@@ -104,8 +103,9 @@ expected:
 | 2025 Schedule NR (nonresident/part-year form) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040me_sch_nr_fillable.pdf | 2026-10-29 |
 | 36 M.R.S. § 5111 | https://legislature.maine.gov/statutes/36/title36sec5111.html | 2026-10-28 |
 | MRS Individual Income Tax (1040ME) | https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me | 2026-10-29 |
+| 2025 Form 1040ME instructions (Schedule NR guidance; credit for taxes paid to other jurisdictions) | https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/25_1040me_gen_instr_w_cover_pg.pdf | 2026-10-29 |
 
-Not yet confirmed: credit statute cite for taxes paid to other states, interstate reciprocity details, real-estate withholding thresholds, and Maine exit-tax confirmation.
+Not yet confirmed: interstate reciprocity details, real-estate withholding thresholds, Maine exit-tax confirmation, Maine rents and gains as Maine-source items, sourcing for days physically worked in Maine by remote workers, any convenience-of-the-employer rule, and individual late-filing and late-payment penalty percentages.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Maine nonresident/cross-border questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
