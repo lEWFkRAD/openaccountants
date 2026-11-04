@@ -1,6 +1,6 @@
 ---
 name: nv-formation
-description: Tier 2 Nevada content skill for entity formation covering tax year 2026. Includes the NV LLC $75 filing fee + $150 Initial List of Managers + $200 State Business License (first-year total $425), no state PIT, no corporate income tax (only Commerce Tax above $4,000,000), charging-order asset protection, Domestic Asset Protection Trust (DAPT) availability, Series LLC permitted, and the NRS 78.760 authorized-shares fee schedule for NV C-Corps.
+description: Tier 2 Nevada content skill for entity formation covering tax year 2026. Includes the NV LLC $75 filing fee + $150 Initial List of Managers + $200 State Business License, no state PIT, no corporate income tax (only Commerce Tax above $4,000,000), charging-order asset protection, Domestic Asset Protection Trust (DAPT) availability, Series LLC permitted, and the NRS 78.760 authorized-shares fee schedule for NV C-Corps.
 jurisdiction: US-NV
 tax_year: 2026
 last_updated: 2026-11-03
@@ -95,7 +95,7 @@ Nevada is one of the three "founder states" routinely considered by sole proprie
 | Articles of Organization | NRS 86.151 | $75 |
 | Initial List of Managers/Members | NRS 86.263 | $150 |
 | Nevada State Business License | NRS 76.100 | $200 |
-| **First-year total (Nevada-only)** |  | **$425** |
+| **First-year total (Nevada-only)** |  | **$75 + $150 + $200** |
 
 Items not included in the table that often add to the real first-year cost: a commercial registered agent fee, required if no Nevada-resident individual is willing to serve; formation attorney or service company costs, depending on whether the founder DIYs via SilverFlume or hires counsel; operating agreement drafting; the EIN application (the IRS issues EINs at no charge); and foreign qualification in the state where the LLC actually operates (if not Nevada) - see Cross-border points - where the first-year cost of the home-state filing often exceeds the Nevada fees themselves.
 
