@@ -147,7 +147,7 @@ The greater-of rule effectively imposes the tax on whichever balance-sheet measu
 
 ### 5.4 Defining "paid-in capital"
 
-- **Paid-in capital** — Paid-in capital (sometimes called "additional paid-in capital" or "capital surplus" on older balance sheets) is the amount paid by shareholders above the par or stated value of the shares. Example: 1,000 shares at $0.01 par sold for $100 each. - Capital stock (par): 1,000 × $0.01 = $10 - Paid-in capital: 1,000 × ($100 − $0.01) = $99,990 - Total Base A: $100,000 Items typically classified as paid-in capital: - Premium on stock issuance - Stock-based compensation expense credited to APIC (under ASC 718, GAAP) - Tax benefit from stock option exercises (legacy ASC 718 treatment, pre-2017) - Capital contributions from shareholders without share issuance ("paid-in surplus") Items NOT in paid-in capital: - Retained earnings (those are in net worth, Base B) - Other comprehensive income (also in net worth, Base B) - Loans from shareholders (those are liabilities)
+- **Paid-in capital** — IT-611 (2025) defines the base directly: "Net worth is defined to include issued capital stock, paid in surplus and retained earnings. Treasury stock should not be deducted from issued capital stock." Paid-in capital is the amount paid by shareholders above the par or stated value of the shares.
 
 ### 5.5 Defining "net worth" (Base B)
 
@@ -210,7 +210,7 @@ The greater-of rule effectively imposes the tax on whichever balance-sheet measu
 
 ### 7.1 The graduated table
 
-**Graduated table under O.C.G.A. § 48-13-76**  _(O.C.G.A. § 48-13-76)_
+**Graduated table under O.C.G.A. § 48-13-76** — reproduced from the 2025 IT-611 booklet NET WORTH TAX TABLE: "Not exceeding 100,000.00 ... 0.00 / Over 100,000.00 and not exceeding 150,000.00 ... 125.00 / Over 150,000.00 and not exceeding 200,000.00 ... 150.00 / Over 200,000.00 and not exceeding 300,000.00 ... 200.00 / Over 300,000.00 and not exceeding 500,000.00 ... 250.00 / Over 500,000.00 and not exceeding 750,000.00 ... 300.00 / Over 750,000.00 and not exceeding 1,000,000.00 ... 500.00 / Over 1,000,000.00 and not exceeding 2,000,000.00 ... 750.00 / Over 2,000,000.00 and not exceeding 4,000,000.00 ... 1,000.00 / Over 4,000,000.00 and not exceeding 6,000,000.00 ... 1,250.00 / Over 6,000,000.00 and not exceeding 8,000,000.00 ... 1,500.00 / Over 8,000,000.00 and not exceeding 10,000,000.00 ... 1,750.00 / Over 10,000,000.00 and not exceeding 12,000,000.00 ... 2,000.00 / Over 12,000,000.00 and not exceeding 14,000,000.00 ... 2,500.00 / Over 14,000,000.00 and not exceeding 16,000,000.00 ... 3,000.00 / Over 16,000,000.00 and not exceeding 18,000,000.00 ... 3,500.00 / Over 18,000,000.00 and not exceeding 20,000,000.00 ... 4,000.00 / Over 20,000,000.00 and not exceeding 22,000,000.00 ... 4,500.00 / Over 22,000,000.00 ... 5,000.00" (2025 IT-611 instructions booklet, archived).
 
 | Net worth (Georgia apportioned, Base A or B greater) | Tax |
 | --- | --- |
@@ -252,14 +252,14 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 ### 7.5 First-period and short-period returns
 
-- **No proration for short periods** — Under O.C.G.A. § 48-13-72(b), the first net worth tax period for a new corporation runs from the date of incorporation (or date of qualification, for a foreign corp) through the end of the corporation's first fiscal year. If this period is less than 12 months, the tax is NOT prorated — the corporation owes the full bracket amount based on its net worth at the end of the short period. For subsequent short periods (e.g., a change in accounting period), the tax is also not prorated — each accounting period generates a full net worth tax. Example: A corporation incorporates on October 1, 2025, and adopts a calendar year. Its first net worth tax return covers October 1, 2025 to December 31, 2025 (3 months). The full bracket amount is due — not 3/12 of the bracket amount.  _(O.C.G.A. § 48-13-72(b))_
+- **Short-period proration** — IT-611 (2025): "All corporations filing a short period Georgia income tax return for any reason other than filing an initial or final return shall compute the net worth in accordance with the following instructions: The net worth tax shall be computed based upon the net worth per the ending balance sheet of the short period return. The tax is then prorated based on the number of months included in the short period return." Initial and final returns are not prorated. Worked example from the booklet: a three-month short period with $900,000 net worth pays "Tax per scale $500.00 x 3/12 = $125.00 net worth tax due."
 
 ### Estimated Payments
 
 ### 8.1 The $500 threshold
 
 - **Estimated tax trigger** — A corporation must pay estimated tax if its net income for the year can reasonably be expected to exceed $25,000 (O.C.G.A. § 48-7-117; 2025 IT-611 booklet: "Every domestic or foreign corporation subject to taxation in Georgia shall pay estimated tax for the taxable year if its net income for such taxable year can reasonably be expected to exceed Twenty-Five Thousand Dollars ($25,000.00)").
-- **Threshold application examples** — For net-worth-tax-only purposes: since the cap is $5,000, a corporation with no income tax liability but with a net worth tax of $750 or more is required to make estimated payments (because $750 > $500 threshold). For corporations with both income and net worth tax: the $500 threshold applies to the COMBINED liability. A corporation expecting $400 of income tax and $200 of net worth tax has combined $600 > $500 and must pay estimates.
+- **Threshold application examples** — Estimated tax is required when net income can reasonably be expected to exceed $25,000 (O.C.G.A. § 48-7-117; IT-611: "Every domestic or foreign corporation subject to taxation in Georgia shall pay estimated tax for the taxable year if its net income for such taxable year can reasonably be expected to exceed Twenty-Five Thousand Dollars ($25,000.00)").
 
 ### 8.2 Estimated payment schedule
 
@@ -321,7 +321,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 | Entity | Original due date | Extended due date |
 | --- | --- | --- |
-| Calendar year C-corp | April 15 | October 15 (with Form IT-303 / federal Form 7004) |
+| Calendar year C-corp | April 15, 2026 ("The return is due on or before the 15th day of the 4th month following the close of the taxable year. This would be April 15, 2026 if filing on a calendar-year basis" — 2025 IT-611) | Seven months total with an automatic federal six-month extension (IT-611: "Corporate taxpayers are granted seven (7) months to file their Georgia income tax return if the taxpayer applies for and receives an automatic six (6) month extension to file their Federal income tax return") |
 | Calendar year S-corp | March 15 | September 15 |
 | Fiscal year corp | 15th day of 4th month after FYE | 6-month extension |
 
@@ -339,7 +339,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 ### 10.1 Late filing penalty — O.C.G.A. § 48-13-79
 
-- **Late filing penalty** — 5% of the tax due per month or fraction of a month, capped at 25% percent per month (Computed on the net worth tax portion of Form 600 separately from any income tax penalty. For a corporation that owes only the $10 minimum and files 6 months late: penalty is $10 × 5% × 5 (capped at 25%) = $2.50, plus interest. The DOR generally rounds to the dollar. For a corporation that owes the $5,000 cap and files 6 months late: $5,000 × 25% = $1,250 penalty.)  _(O.C.G.A. § 48-13-79)_
+- **Late payment penalty** — IT-611 (2025): "If tax is not paid by the statutory due date of the return, a late payment penalty of 1/2 of 1% per month (up to 25%) and interest will accrue until the tax is paid. This penalty will accrue from the statutory due date regardless of any extension for filing the return." A late payment penalty is not due if the return is amended due to an IRS audit.
 
 ### 10.2 Late payment penalty — O.C.G.A. § 48-2-44
 
