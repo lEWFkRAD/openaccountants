@@ -57,7 +57,7 @@ Texas has, over the past decade, become one of the most popular jurisdictions in
 
 - **Texas constitutional bar on personal income tax** -- Texas has no individual personal income tax. Article 8, Section 24-a of the Texas Constitution provides that the legislature may not impose a tax on the net incomes of individuals, including an individual's share of partnership and unincorporated association income. The former Section 24 was repealed Nov. 5, 2019.  _(Texas Constitution Article 8, Section 24-a)_
 
-For pass-through entity owners (sole proprietors filing Schedule C, single-member LLC owners disregarded for federal tax, multi-member LLC partners, S-corp shareholders), the pass-through income flows from the federal return to the owner with **zero additional state income tax**. This is a structural advantage over California (top rate 13.3% including the mental health services tax), New York (top rate 10.9%), Oregon (top rate 9.9%), and Hawaii (top rate 11%). (not yet confirmed)
+For pass-through entity owners (sole proprietors filing Schedule C, single-member LLC owners disregarded for federal tax, multi-member LLC partners, S-corp shareholders), the pass-through income flows from the federal return to the owner with **zero additional state income tax**.
 
 For a Texas-resident sole proprietor with $200,000 of Schedule C net profit, the federal tax bill might be $50,000–$55,000 depending on deductions, but the **state** tax bill is $0. The same taxpayer in California would owe roughly $15,000–$18,000 in additional state income tax. Over a decade, the cumulative state-tax savings on a high-six-figure-income business compound into seven-figure differences.
 
@@ -69,7 +69,7 @@ For a Texas-resident sole proprietor with $200,000 of Schedule C net profit, the
 
 ### 2.3 Low operating costs
 
-Texas has no state-level personal income tax, no state-level capital gains tax, no state-level dividend tax, and (for most small entities) no entity-level income tax. State property tax in Texas is comparatively high, but it applies to real property rather than to business operating income. Texas commercial rents in major metros (Austin, Houston, Dallas-Fort Worth, San Antonio) are substantially lower than San Francisco, New York, or Boston. Salaries for technical talent run roughly 70–85% of San Francisco-equivalent roles in Austin. (not yet confirmed)
+Texas has no state-level personal income tax, no state-level capital gains tax, no state-level dividend tax, and (for most small entities) no entity-level income tax.
 
 The combined effect is that a Texas-based software business with $1M in revenue retains a meaningfully higher share of profit than the same business in California, even before considering personal income tax on the owner's salary or distributions.
 
@@ -173,8 +173,8 @@ A C-Corp engaged in software development, consulting, professional services, or 
 
 ### 4.5 Federal C-Corp taxation
 
-- **Federal corporate tax rate** -- 21% (flat corporate rate established by the Tax Cuts and Jobs Act (TCJA, 2017) and made permanent at 21% by subsequent legislation) (not yet confirmed)
-- **Double taxation pattern and Texas advantage** -- Distributions to shareholders are taxed at the shareholder level as qualified dividends (preferential rates) or as compensation (ordinary rates). The combined federal C-corp rate (21% corporate + 15–23.8% qualified dividend) creates the "double taxation" pattern. For a Texas-resident shareholder, however, the dividend-distribution leg owes no Texas tax, making the Texas C-corp meaningfully more attractive than the California C-corp for a closely held business that plans to distribute earnings to a Texas-resident shareholder. (not yet confirmed)
+- **Federal corporate tax rate** -- 21% (flat corporate rate established by the Tax Cuts and Jobs Act (TCJA, 2017) and made permanent at 21% by subsequent legislation)
+- **Double taxation pattern and Texas advantage** -- Distributions to shareholders are taxed at the shareholder level as qualified dividends (preferential rates) or as compensation (ordinary rates). The combined federal C-corp rate (21% corporate + 15–23.8% qualified dividend) creates the "double taxation" pattern. For a Texas-resident shareholder, however, the dividend-distribution leg owes no Texas tax, making the Texas C-corp meaningfully more attractive than the California C-corp for a closely held business that plans to distribute earnings to a Texas-resident shareholder.
 
 ### 4.6 S-corp election
 
@@ -303,7 +303,7 @@ The three obligations are administered by two different state agencies (Comptrol
 
 ### 9. BOI / Corporate Transparency Act (CTA) Status
 
-- **CTA overview** -- The Corporate Transparency Act (CTA), enacted as part of the National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283, Title LXIV), required most U.S. entities to file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN) disclosing each beneficial owner (any individual owning 25% or more or exercising substantial control).  _(National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283, Title LXIV))_ (not yet confirmed)
+- **CTA overview** -- The Corporate Transparency Act (CTA), enacted as part of the National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283, Title LXIV), required most U.S. entities to file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN) disclosing each beneficial owner (any individual owning 25% or more or exercising substantial control).  _(National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283, Title LXIV))_
 
 ### 9.1 Current status -- stayed
 
@@ -313,11 +313,11 @@ This area is fast-moving. Practitioners should verify the current FinCEN guidanc
 
 ### 9.2 What entities should do now
 
-- **Conservative approach pending stabilization** -- 1. Collect the BOI information (names, dates of birth, addresses, identifying numbers, image of identifying document) for all 25%+ owners and substantial-control individuals even if not filing, so the filing can be completed quickly if requirements re-activate. 2. Document the file-or-no-file decision with citation to the current FinCEN guidance and any operative injunction. 3. Monitor FinCEN.gov and the docket in Texas Top Cop Shop and related cases for changes. 4. For entities formed in 2024 or 2025 that previously filed a BOI report under the original CTA timeline, no withdrawal is currently required -- the prior filings remain on record. (not yet confirmed)
+- **Conservative approach pending stabilization** -- 1. Collect the BOI information (names, dates of birth, addresses, identifying numbers, image of identifying document) for all 25%+ owners and substantial-control individuals even if not filing, so the filing can be completed quickly if requirements re-activate. 2. Document the file-or-no-file decision with citation to the current FinCEN guidance and any operative injunction. 3. Monitor FinCEN.gov for changes.
 
 ### 9.3 Penalties (if reinstated)
 
-- **CTA civil penalty** -- 591 USD per day (inflation-adjusted civil penalty for willful failure to report; if the requirement is reinstated, these penalties may apply prospectively from the reinstatement date) (not yet confirmed)
+- **CTA civil penalty** -- 591 USD per day (inflation-adjusted civil penalty for willful failure to report; if the requirement is reinstated, these penalties may apply prospectively from the reinstatement date)
 - **CTA criminal penalty** -- up to $10,000 and 2 years imprisonment (for willful violations)
 
 ### 10. Texas vs Delaware for Startups
@@ -400,7 +400,6 @@ The founders intend to raise institutional VC. Substantially all institutional V
 
 - **Texas foreign qualification** -- File Form 301 with Texas SOS, $750 fee, within 90 days of commencing Texas operations.
 - **Texas Comptroller registration** -- Register for Texas Taxpayer Number via Comptroller Webfile.
-- **Texas registered agent** -- Northwest Registered Agent (~$125/year) at Texas business address. (not yet confirmed)
 - **Texas employer registration** -- Texas Workforce Commission unemployment insurance registration before first paycheck.
 - **EIN** -- IRS Form SS-4, free, instant online.
 - **83(b) elections** -- Both co-founders file 83(b) elections within 30 days of stock issuance to elect immediate income recognition on $0.0001 × 5,000,000 = $500 of restricted stock, eliminating future ordinary-income recognition on appreciation.
@@ -411,10 +410,8 @@ The founders intend to raise institutional VC. Substantially all institutional V
 - Federal Form 1120 C-Corp return (April 15, 2026, extension available to October 15): minimal taxable income given pre-revenue stage.
 
 - Delaware formation: $109 + ~$150 registered agent
-- Delaware franchise tax: ~$450 (not yet confirmed)
+- Delaware franchise tax: ~$450
 - Texas foreign qualification: $750
-- Texas registered agent: ~$125 (not yet confirmed)
-- **Approximate total: $1,584** (not yet confirmed)
 
 A Texas C-Corp could be formed for $300 and operate in Austin without foreign qualification. However, when the seed-round term sheet arrives in Q3 2025, the company would need to **convert** from Texas to Delaware (typically via a Texas-to-Delaware conversion under BOC §10.101 or a merger), incurring legal fees of $5,000–$15,000 and triggering complex federal tax analysis under §368 reorganization rules. The $1,500 upfront cost of direct Delaware formation is materially cheaper than the eventual conversion cost.
 
@@ -435,16 +432,15 @@ Texas-resident investor owns five rental single-family homes in Houston with com
 - Texas PIR Form 05-102: $0 fee, May 15.
 - Texas franchise tax: $0 owed; $180,000 combined revenue is well under the $2.65 million 2026 threshold. The No Tax Due Report is not available for 2026 reports; the PIR is still due.
 - Federal Schedule E with five columns.
-- Registered agent: ~$125/year. (not yet confirmed)
 
 - **Pitfall to avoid -- separate records requirement** -- Investor must rigorously maintain separate bookkeeping. The single most-litigated point in Texas Series LLC case law is the §101.602(b)(3) separate-records requirement. Sloppy bookkeeping risks collapsing the firewall, exposing all five properties to the slip-and-fall judgment on Property 3.  _(§101.602(b)(3))_
 
 ### 12.3 Example 3 -- Dallas e-commerce sole proprietor crossing the $2.65 million threshold
 
-Dallas-resident e-commerce operator sells custom apparel via Shopify and Amazon FBA. 2024 revenue: $1,800,000. Projected 2025 revenue: $3,200,000. Operates as a sole proprietorship through 2024. Wants to formalize the business. (not yet confirmed)
+Dallas-resident e-commerce operator sells custom apparel via Shopify and Amazon FBA. 2024 revenue: $1,800,000. Projected 2025 revenue: $3,200,000. Operates as a sole proprietorship through 2024. Wants to formalize the business.
 
 - **Form Texas LLC** -- Certificate of Formation, $300, effective January 1, 2025 (if not already past). Default federal classification: disregarded entity (single-member LLC reports on Schedule C).
-- **Evaluate S-corp election** -- At $3.2M projected revenue with significant ordinary-income exposure to self-employment tax, an S-corp election under Form 2553 may save meaningful SE tax. Defer detailed analysis to `us-s-corp-election-decision`.  _(Form 2553)_ (not yet confirmed)
+- **Evaluate S-corp election** -- Defer detailed analysis to `us-s-corp-election-decision`.  _(Form 2553)_
 - **Texas franchise tax planning -- retail rate qualification** -- Revenue will exceed the $2.65 million No Tax Due threshold for the 2026 report. Margin tax on the 2026 report (accounting year ending in 2025): Retail rate available if entity qualifies under §171.002(c) (resale of items not produced by the entity) -- for custom apparel that is produced by the entity (designs printed on demand by contracted print-on-demand vendors), the retail-rate qualification is fact-specific and depends on whether the entity is treated as the producer. Conservative position: 0.75% rate or 0.331% EZ rate, not 0.375% retail rate.  _(§171.002(c))_
 - **Taxable margin computation** -- Taxable margin before apportionment: lesser of (a) 70% × $3,200,000 = $2,240,000, (b) $3,200,000 minus $1,000,000 = $2,200,000, or (c) total revenue minus the greater of $1,000,000 or the elected COGS or compensation (Texas Tax Code §171.101(a)).
 - **Conservative margin tax estimate** -- Conservative estimate before any COGS deduction: $2,200,000 × 0.75% = $16,500 of margin tax, or EZ Computation at 0.331% × $3,200,000 = $10,592. EZ Computation likely beneficial -- see `tx-margin-tax.md`.  _(tx-margin-tax.md)_
@@ -461,25 +457,20 @@ Founder is a Maltese citizen and Maltese tax resident operating a software consu
 - **Texas LLC formation** -- Certificate of Formation, $300, registered agent in Texas (commercial registered agent required since founder has no Texas presence; ~$150/year).
 - **EIN application** -- IRS Form SS-4. Foreign founder without SSN/ITIN must apply by fax or mail (cannot use online application). Processing time: 4–6 weeks. EIN required for U.S. bank account opening.
 - **U.S. bank account** -- Wise Business, Mercury, or similar online business banking accepts foreign-owner Texas LLCs. Traditional banks (Chase, Bank of America) typically require U.S. presence.
-- **W-8BEN-E or W-8BEN** -- Provided to U.S. payors to claim treaty benefits (Malta-U.S. tax treaty) and avoid 30% withholding. (not yet confirmed)
+- **W-8BEN-E or W-8BEN** -- Provided to U.S. payors to claim treaty benefits (Malta-U.S. tax treaty) and avoid 30% withholding.
 - **Federal tax classification** -- Single-member LLC owned by foreign individual is a disregarded entity for federal tax. The foreign individual reports U.S.-effectively-connected income on Form 1040-NR. If the consulting work is performed entirely outside the U.S. (Malta), the income is generally not U.S.-source under the place-of-performance rule for personal services (§861(a)(3)), and the foreign individual may have no U.S. federal tax obligation despite billing through a U.S. entity.  _(§861(a)(3))_
-- **Form 5472 requirement** -- Foreign-owned single-member LLC must file Form 5472 (Information Return of a 25% Foreign-Owned U.S. Corporation or a Foreign Corporation Engaged in a U.S. Trade or Business) annually, attached to a pro forma Form 1120. This is mandatory under Treasury Reg §1.6038A-1 and §1.6038A-2 for any reportable transactions between the LLC and the foreign owner -- including capital contributions, distributions, and loans. Penalty for failure to file: $25,000 per Form 5472 per year.  _(Treasury Reg §1.6038A-1 and §1.6038A-2)_ (not yet confirmed)
 - **Texas Public Information Report** -- Form 05-102 due May 15 annually. AUDIT FLASH POINT -- the foreign founder is the most likely to miss the PIR because the Comptroller notices may be mailed to a Texas registered agent address that the founder does not actively monitor. Configure registered agent to scan and email all received notices.
 - **Texas franchise tax** -- $0 owed at $300,000 revenue (well under the $2.65 million 2026 threshold). The No Tax Due Report is not available for 2026 reports, but the PIR or OIR must still be filed.
 
 - Texas formation: $300
-- Texas registered agent: ~$150 (not yet confirmed)
-- **Approximate total: $450** (not yet confirmed)
 
 - Form 5472 + pro forma Form 1120 preparation: typically $1,000–$2,500 in professional fees.
-
-The Form 5472 obligation is the single most-missed federal compliance item for foreign-owned Texas LLCs. The $25,000-per-form penalty is severe and is assessed mechanically by the IRS. Every foreign founder forming a U.S. LLC must understand this obligation before the first reportable transaction (typically the initial capital contribution at formation). (not yet confirmed)
 
 ### 13. Cross-References
 
 - `us-tax-workflow-base` -- workflow architecture, conservative defaults, reviewer signoff protocol.
 - `tx-franchise-tax` -- Form 05-102 PIR mechanics, the No Tax Due threshold (Form 05-163 is not available for 2026 reports), Form 05-158 Long Form franchise tax return.
-- `tx-margin-tax` -- margin tax computation, taxable margin methods (70%, COGS, compensation, $1M alternative), EZ Computation, retail/wholesale rate qualification. (not yet confirmed)
+- `tx-margin-tax` -- margin tax computation, taxable margin methods (70%, COGS, compensation, $1M alternative), EZ Computation, retail/wholesale rate qualification.
 - `tx-sales-tax` -- Texas sales-and-use tax registration, Form 01-114, taxable services including data processing services under §151.0035, 20% data-processing exemption under §151.351, economic nexus threshold of $500,000 under §151.107.
 - `us-tx-freelance-intake` -- Texas-resident freelance developer intake form, document collection, federal-plus-Texas workflow entry point.
 - `us-tx-return-assembly` -- final assembly of federal return plus Texas PIR/franchise tax plus optional Texas sales tax for Texas-resident sole proprietors and SMLLCs.
@@ -562,7 +553,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: the doing-business thresholds, Series LLC and BOI/CTA points, registered-agent and Delaware cost estimates, market comparisons, and the worked examples lack archived line-citations. The archived sources in the table state the formation, foreign registration and expedite fees (SOS Form 806), the 2026 No Tax Due threshold ($2.65 million) and the 2024-2025 threshold ($2,470,000), the margin and EZ rules (Tax Code chapter 171), Article 8 Section 24-a, and the Delaware LLC annual tax ($400).
+Not yet confirmed: the doing-business thresholds, Series LLC points, the BOI/CTA docket-monitoring advice (Texas Top Cop Shop) and the no-withdrawal statement for prior BOI filings, the other-state top-rate comparisons (California 13.3%, New York 10.9%, Oregon 9.9%, Hawaii 11%), market comparisons (property-tax level, metro commercial rents, technical salaries at roughly 70-85% of San Francisco levels), registered-agent cost estimates (roughly $125-$150 per year), the Form 5472 pro forma Form 1120 requirement and its $25,000 penalty, the Example 3 S-corp-election saving advice, the worked-example cost totals (roughly $1,584 for Example 1 and $450 for Example 4), and the worked-example client facts lack archived line-citations. The archived sources in the table state the formation, foreign registration and expedite fees (SOS Form 806), the 2026 No Tax Due threshold ($2.65 million) and the 2024-2025 threshold ($2,470,000), the margin and EZ rules (Tax Code chapter 171), Article 8 Section 24-a, the Delaware LLC annual tax ($400), the Delaware corporate franchise tax ($400 minimum, assumed par value capital method) and the $50 corporate annual report filing fee, the federal 21% corporate rate and the 0%/15%/20% qualified dividend rates, the CTA 25% beneficial-owner definition and $591 willful-failure penalty, and the 30% (or lower treaty) withholding rate.
 
 Not yet confirmed against archived sources.
 
