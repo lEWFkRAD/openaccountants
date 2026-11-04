@@ -20,7 +20,7 @@ This skill covers Minnesota state-level entity income tax compliance for:
 - **C-corporations** doing business in Minnesota or sourcing receipts to Minnesota (nexus under Minn. Stat. §290.015, including economic nexus post-Wayfair and bright-line factor presence tests)
 - **S-corporations** (federal Subchapter S elections recognized for Minnesota -- Minn. Stat. §290.9725) filing Form M8
 - **Partnerships and LLCs taxed as partnerships** filing Form M3
-- **Pass-Through Entity (PTE) tax** elections under Minn. Stat. §289A.08 subd. 7a: "for taxable years beginning after december 31, 2020, a qualifying entity may elect to file a return" (archived US-MN-dr-289A.08.pdf; enacted by 2021 Minn. Laws 1st Spec. Sess., Ch. 14, Art. 1, with the 2023 expansion to resident owners under 2023 Minn. Laws Ch. 64, Art. 1)
+- **Pass-Through Entity (PTE) tax** elections under Minn. Stat. §289A.08 subd. 7a: "for taxable years beginning after december 31, 2020, a qualifying entity may elect to file a return" (archived US-MN-dr-289A.08.pdf; enacted by 2021 Minn. Laws 1st Spec. Sess., Ch. 14, with the 2023 expansion to resident owners under 2023 Minn. Laws Ch. 64)
 - **Unitary combined reporting** under Minn. Stat. §290.17 subd. 4 and §290.34, including water's-edge default, the 80/20 foreign corporation rule, the tax-haven inclusion list under §290.01 subd. 5b, and the worldwide election
 - **Apportionment** under Minn. Stat. §290.191 (single sales factor) and §290.191 subd. 5 (market-based sourcing for services and intangibles)
 - **GILTI and FDII** Minnesota treatment under Minn. Stat. §290.01 subd. 19d and the 80% §250 deduction
@@ -62,7 +62,7 @@ Important characterization: Minnesota calls this a **franchise tax** measured by
 ### 2.3 Surtax / surcharge
 
 - **No corporate surtax** -- Minnesota has no corporate surtax of the New Jersey variety. The 9.8% is the all-in C-corp rate.
-- **Net investment income surcharge (individuals)** -- 1% percent (On net investment income over $1M, effective tax year 2024, applies to individuals, estates, and trusts, not C-corporations)  _(Minn. Stat. §290.033; enacted by 2023 Minn. Laws Ch. 64, Art. 1)_
+- **Net investment income surcharge (individuals)** -- 1% percent (On net investment income over $1M, effective tax year 2024, applies to individuals, estates, and trusts, not C-corporations)  _(Minn. Stat. §290.033; enacted by 2023 Minn. Laws Ch. 64)_
 
 ## The taxable base
 
@@ -265,9 +265,9 @@ Not yet confirmed: the §290.0921 5.8% AMT rate, the §290.0922 minimum-fee slid
 
 ### Session laws
 
-- **2008 Minn. Laws Ch. 366, Article 4** -- single sales factor and market-based sourcing phase-in (completed 2014). Operative text archived: US-MN-dr-m4-inst-25.pdf: "minnesota uses a single-sales factor to determine the apportionment percentage"
-- **2021 Minn. Laws 1st Spec. Sess., Ch. 14, Article 1** -- original PTE election enactment. Operative text archived: US-MN-dr-289A.08.pdf subd. 7a(b): "for taxable years beginning after december 31, 2020, a qualifying entity may elect to file a return"
-- **2023 Minn. Laws Ch. 64, Article 1** -- PTE expansion to resident owners; net investment income surcharge; conformity updates. Operative text archived: US-MN-dr-290.033.html: "a tax is imposed on the net investment income of individuals, estates, and trusts in excess of $1,000,000 at a rate of one percent"
+- **2008 Minn. Laws Ch. 366** -- single sales factor and market-based sourcing phase-in (completed 2014). Operative text archived: US-MN-dr-m4-inst-25.pdf: "minnesota uses a single-sales factor to determine the apportionment percentage"
+- **2021 Minn. Laws 1st Spec. Sess., Ch. 14** -- original PTE election enactment. Operative text archived: US-MN-dr-289A.08.pdf subd. 7a(b): "for taxable years beginning after december 31, 2020, a qualifying entity may elect to file a return"
+- **2023 Minn. Laws Ch. 64** -- PTE expansion to resident owners; net investment income surcharge; conformity updates. Operative text archived: US-MN-dr-290.033.html: "a tax is imposed on the net investment income of individuals, estates, and trusts in excess of $1,000,000 at a rate of one percent"
 
 ### Administrative guidance
 
@@ -390,8 +390,8 @@ For most profitable C-corps, regular tax (9.8% × MN taxable income) exceeds AMT
 
 ### 5.1 Single sales factor
 
-- **MN apportionment percentage formula** -- MN apportionment % = MN sales / Everywhere sales. Per US-MN-dr-m4-inst-25.pdf: "the apportionment factor for each member is determined by dividing the corporation’s sales or receipts attributable to minnesota by the total sales of the entire group, both in and outside minnesota"  _(2008 Minn. Laws Ch. 366, Article 4)_
-- **Single sales factor apportionment** -- US-MN-dr-m4-inst-25.pdf: "minnesota uses a single-sales factor to determine the apportionment percentage". Effective tax year 2014 onward (per 2008 Minn. Laws Ch. 366, Art. 4, completed phase-in), Minnesota apportions multistate corporate income using a single sales factor. Property and payroll factors are no longer used in the apportionment formula. This phase-in moved Minnesota from a 3-factor (33/33/33) formula through a sales-weighted formula to pure single sales factor. The change benefits Minnesota-based corporations selling out of state (lower apportionment) and disadvantages out-of-state corporations selling into Minnesota (higher apportionment) -- a deliberate economic development design.  _(2008 Minn. Laws Ch. 366, Article 4)_
+- **MN apportionment percentage formula** -- MN apportionment % = MN sales / Everywhere sales. Per US-MN-dr-m4-inst-25.pdf: "the apportionment factor for each member is determined by dividing the corporation’s sales or receipts attributable to minnesota by the total sales of the entire group, both in and outside minnesota"  _(2008 Minn. Laws Ch. 366)_
+- **Single sales factor apportionment** -- US-MN-dr-m4-inst-25.pdf: "minnesota uses a single-sales factor to determine the apportionment percentage". Effective tax year 2014 onward (per 2008 Minn. Laws Ch. 366, completed phase-in), Minnesota apportions multistate corporate income using a single sales factor. Property and payroll factors are no longer used in the apportionment formula. This phase-in moved Minnesota from a 3-factor (33/33/33) formula through a sales-weighted formula to pure single sales factor. The change benefits Minnesota-based corporations selling out of state (lower apportionment) and disadvantages out-of-state corporations selling into Minnesota (higher apportionment) -- a deliberate economic development design.  _(2008 Minn. Laws Ch. 366)_
 
 ### 5.2 Market-based sourcing for services and intangibles
 
@@ -531,7 +531,7 @@ The §965 deemed repatriation transition tax (one-time, for tax year 2017 / 2018
 
 ### 11.1 Background and statutory authority
 
-- **PTE statutory authority and background** -- Minn. Stat. §289A.08 subd. 7a authorizes the Pass-Through Entity Tax (often called 'PTE tax' or 'PTE election'), enacted by 2021 Minn. Laws 1st Spec. Sess., Ch. 14, Art. 1 as Minnesota's response to the federal SALT cap under TCJA §164(b)(6). The election is one of approximately 36 state PTE workarounds blessed by IRS Notice 2020-75, which confirmed that entity-level state taxes paid by partnerships and S-corps are deductible as business expenses at the entity level (escaping the individual $10,000 SALT cap). The 2023 Minnesota Legislature (2023 Minn. Laws Ch. 64) expanded the PTE election to include resident owners, removing the pre-2023 limitation that had been interpreted by some practitioners as nonresident-owner-only. This was a significant expansion and made the MN PTE workable for fully Minnesota-resident-owned S-corps and partnerships.  _(Minn. Stat. §289A.08 subd. 7a; 2021 Minn. Laws 1st Spec. Sess., Ch. 14, Art. 1; 2023 Minn. Laws Ch. 64; IRS Notice 2020-75)_
+- **PTE statutory authority and background** -- Minn. Stat. §289A.08 subd. 7a authorizes the Pass-Through Entity Tax (often called 'PTE tax' or 'PTE election'), enacted by 2021 Minn. Laws 1st Spec. Sess., Ch. 14 as Minnesota's response to the federal SALT cap under TCJA §164(b)(6). The election is one of approximately 36 state PTE workarounds blessed by IRS Notice 2020-75, which confirmed that entity-level state taxes paid by partnerships and S-corps are deductible as business expenses at the entity level (escaping the individual $10,000 SALT cap). The 2023 Minnesota Legislature (2023 Minn. Laws Ch. 64) expanded the PTE election to include resident owners, removing the pre-2023 limitation that had been interpreted by some practitioners as nonresident-owner-only. This was a significant expansion and made the MN PTE workable for fully Minnesota-resident-owned S-corps and partnerships.  _(Minn. Stat. §289A.08 subd. 7a; 2021 Minn. Laws 1st Spec. Sess., Ch. 14; 2023 Minn. Laws Ch. 64; IRS Notice 2020-75)_
 
 ### 11.2 Eligible entities
 
