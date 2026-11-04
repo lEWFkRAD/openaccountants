@@ -52,12 +52,15 @@ Prior to July 1, 2023, MCTMT used a single rate schedule across the entire MCTD,
 
 **Zone 1 quarterly employer brackets**
 
-| Quarterly MCTD payroll (Zone 1) | Rate |
-| --- | --- |
-| $0 — $312,500 | 0.00% |
-| $312,501 — $375,000 | 0.11% |
-| $375,001 — $437,500 | 0.23% |
-| $437,501 and above | 0.60% |
+| Quarterly MCTD payroll (Zone 1) | Rate (quarters before Jul 1, 2025) | Rate (quarters on/after Jul 1, 2025) |
+| --- | --- | --- |
+| MCTD-wide payroll $312,500 or less | no tax | no tax |
+| Over $0 but not over $375,000 | 0.11% | 0.055% |
+| Over $375,000 but not over $437,500 | 0.23% | 0.115% |
+| Over $437,500 but not over $2,500,000 | 0.60% | 0.60% |
+| Over $2,500,000 | 0.60% | 0.895% (local government employers: 0.60%) |
+
+_Tables 1a/1b, NYS MCTMT employer rate schedule (archived as US-NY-dr-mctmt-emp.txt): "to be subject to the mctmt for the quarter, the employer must have payroll expense in the entire mctd greater than $312,500."_
 
 - **Zone 1 top bracket history** — The 0.60% top bracket is the rate raised by the 2023 legislation (from the prior 0.34%) and confirmed by the 2024 legislation. The lower-bracket rates (0.11% and 0.23%) were not increased.
 
@@ -65,12 +68,15 @@ Prior to July 1, 2023, MCTMT used a single rate schedule across the entire MCTD,
 
 **Zone 2 quarterly employer brackets**
 
-| Quarterly MCTD payroll (Zone 2) | Rate |
-| --- | --- |
-| $0 — $312,500 | 0.00% |
-| $312,501 — $375,000 | 0.11% |
-| $375,001 — $437,500 | 0.23% |
-| $437,501 and above | 0.34% |
+| Quarterly MCTD payroll (Zone 2) | Rate (quarters before Jul 1, 2025) | Rate (quarters on/after Jul 1, 2025) |
+| --- | --- | --- |
+| MCTD-wide payroll $312,500 or less | no tax | no tax |
+| Over $0 but not over $375,000 | 0.11% | 0.055% |
+| Over $375,000 but not over $437,500 | 0.23% | 0.115% |
+| Over $437,500 but not over $2,500,000 | 0.34% | 0.34% |
+| Over $2,500,000 | 0.34% | 0.635% (local government employers in Zone 2: not subject) |
+
+_Tables 2a/2b, NYS MCTMT employer rate schedule (archived as US-NY-dr-mctmt-emp.txt): "table 2a: zone 2 mctmt for quarters beginning before july 1, 2025 payroll expense attributable to zone 2 mctmt rate over $0 but not over $375,000 0.11% (0.0011) over $375,000 but not over $437,500 0.23% (0.0023) over $437,500 0.34% (0.0034)"._
 
 - **Zone 2 top rate retention** — Zone 2 retains the pre-2023 top rate of 0.34%. The legislative intent was to leave the suburban tax burden unchanged while raising the NYC top rate.
 
@@ -90,7 +96,7 @@ Example: A Zone 1 employer with $400,000 of Q3 2025 MCTD payroll pays MCTMT on t
 
 ### 4.1 The $50,000 annual threshold
 
-- **Self-employed annual MCTD net earnings threshold** — $50,000 USD (All-or-nothing threshold; below $50,000, no MCTMT owed and no return required; once crossed, MCTMT applies from the first dollar of MCTD-allocated net earnings under the applicable bracket schedule.)
+- **Self-employed annual MCTD net earnings threshold** — $150,000 USD for calendar years beginning on and after January 1, 2026 ($50,000 for earlier years). All-or-nothing threshold: below it, no MCTMT owed; once crossed, MCTMT applies to the MCTD-allocated net earnings at the applicable zone rate.  _(NY Tax Law §801(a)(2)-(3), archived as US-NY-dr-nysenate-tax-801.txt)_
 
 Example: A freelance designer with $48,000 of MCTD-allocated net earnings owes $0 of MCTMT and need not file Form MTA-6. A freelance designer with $52,000 of MCTD-allocated net earnings is over the threshold and owes MCTMT on the entire $52,000 at the applicable rate.
 
@@ -98,35 +104,32 @@ Example: A freelance designer with $48,000 of MCTD-allocated net earnings owes $
 
 ### 4.2 Zone 1 (NYC five boroughs) — annual brackets
 
-**Zone 1 self-employed annual brackets**  _(NYSDTF Publication 420; TSB-M-23(1)MCTMT)_
+**Zone 1 self-employed annual rate**  _(NY Tax Law §801(a)(3)(A), archived as US-NY-dr-nysenate-tax-801.txt)_
 
 | Annual MCTD net earnings (Zone 1) | Rate |
 | --- | --- |
-| $0 — $50,000 | 0.00% |
-| $50,001 — $100,000 | 0.34%* |
-| $100,001 — $150,000 | 0.40%* |
-| $150,001 — $200,000 | 0.46%* |
-| $200,001 — $300,000 | 0.55%* |
-| $300,001 and above | 0.60% |
+| $0 — $150,000 | no tax |
+| Over $150,000 | 0.60% |
 
-*Self-employed Zone 1 brackets reflect the 2023 increase that graduated the rate up to the new 0.60% top, replacing the prior flat 0.34%. Practitioners should consult NYSDTF Publication 420 and TSB-M-23(1)MCTMT for the most current confirmed schedule; the table above reflects the post-2023 legislative framework as interpreted by NYSDTF in published guidance through 2025. The 0.34% entry-level rate matches the historical employer top rate, and the 0.60% top matches the post-2023 employer top rate.
+_Tax Law §801(a)(3)(A) (calendar years beginning on and after January 1, 2026): "the tax is imposed at a rate of sixty hundredths (.60) percent of the net earnings from self-employment of individuals that are attributable to MCTD zone one, if such earnings attributable to the MCTD exceed one hundred fifty thousand dollars for the tax year." For calendar years beginning before January 1, 2026, §801(a)(2)(B) imposed 0.60% where Zone 1 (Bronx, Kings, New York, Queens, Richmond) net earnings exceeded $50,000._
 
 ### 4.3 Zone 2 (suburban counties) — annual brackets
 
-**Zone 2 self-employed annual brackets**
+**Zone 2 self-employed annual rate**  _(NY Tax Law §801(a)(3)(B), archived as US-NY-dr-nysenate-tax-801.txt)_
 
 | Annual MCTD net earnings (Zone 2) | Rate |
 | --- | --- |
-| $0 — $50,000 | 0.00% |
-| $50,001 and above | 0.34% |
+| $0 — $150,000 | no tax |
+| Over $150,000 | 0.34% |
 
-- **Zone 2 flat rate** — Zone 2 retains a flat 0.34% rate above the $50,000 threshold, consistent with the pre-2023 schedule for the entire MCTD. No graduated upward stepping applies in Zone 2.
+_Tax Law §801(a)(3)(B) (calendar years beginning on and after January 1, 2026): "the tax is imposed at a rate of thirty-four hundredths (.34) percent of the net earnings from self-employment of individuals that are attributable to MCTD zone two, if such earnings attributable to the MCTD exceed one hundred fifty thousand dollars for the tax year." For calendar years beginning before January 1, 2026, §801(a)(2)(A) imposed 0.34% where Zone 2 (Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk, Westchester) net earnings exceeded $50,000._
 
-### 4.4 Graduated, not cliff, for self-employed
+### 4.4 Flat rate once the threshold is crossed
 
-- **Self-employed graduated schedule** — Unlike the employer schedule, the self-employed Zone 1 brackets operate as a graduated schedule: each bracket's rate applies only to the portion of net earnings falling within that bracket. This avoids the cliff problem that exists for employers.
+- **Self-employed rate application** — Under NY Tax Law §801(a)(2)-(3), once MCTD-allocated net earnings exceed the threshold, the zone rate applies to the net earnings attributable to that zone; the statute states a single rate per zone, not a graduated bracket schedule.  _(NY Tax Law §801(a), archived as US-NY-dr-nysenate-tax-801.txt)_
 
-Example: A Zone 1 freelance developer with $250,000 of MCTD-allocated net earnings computes MCTMT as: $0 — $50,000 → $0; $50,001 — $100,000 → $50,000 × 0.34% = $170; $100,001 — $150,000 → $50,000 × 0.40% = $200; $150,001 — $200,000 → $50,000 × 0.46% = $230; $200,001 — $250,000 → $50,000 × 0.55% = $275; Total MCTMT = $875. The same $250,000 of payroll for an employer would be taxed at a flat 0.23% on the entire $250,000 (because the employer brackets are quarterly, $250,000 / 4 = $62,500 per quarter — actually below the employer threshold — but if compressed into a single quarter, the 0.23% rate would apply as a cliff). This asymmetry between employer cliff rates and self-employed graduated rates is deliberate.
+Example: A Zone 1 freelance developer with $250,000 of MCTD-allocated net earnings in a calendar year beginning on or after January 1, 2026 computes MCTMT as $250,000 × 0.60% = $1,500 (earnings exceed the $150,000 threshold, so the 0.60% zone-one rate applies). The same taxpayer in Zone 2 would compute $250,000 × 0.34% = $850.
+
 
 ### 4.5 Mixed-zone self-employed allocation
 
@@ -186,9 +189,9 @@ Example: A freelancer with $40,000 of Zone 1 earnings and $30,000 of Zone 2 earn
 
 ### 5.7 Late filing and late payment penalties
 
-- **Late filing penalty** — 5% per month, up to 25%  _(NY Tax Law §685)_
-- **Late payment penalty** — 0.5% per month, up to 25%  _(NY Tax Law §685)_
-- **Combined cap** — 47.5% (when both apply)  _(NY Tax Law §685)_
+- **Late filing penalty** — 5% of the tax if the failure is not more than one month, with an additional 5% for each additional month or fraction, not exceeding 25% in the aggregate  _(NY Tax Law §685(a), archived as US-NY-dr-nysenate-tax-685.txt: "five percent of the amount of such tax if the failure is for not more than one month, with an additional five percent for each additional month or fraction thereof ... not exceeding twenty-five percent in the aggregate")_
+- **Late payment penalty (notice and demand)** — one-half of one percent of the tax if the failure is not for more than one month, with an additional one-half of one percent for each additional month  _(NY Tax Law §685, archived as US-NY-dr-nysenate-tax-685.txt: "one-half of one percent of such tax if the failure is not for more than one month, with an additional one-half of one percent for each additional month")_
+- **Combined cap** — the late-filing penalty is capped at 25% in the aggregate  _(NY Tax Law §685(a), archived as US-NY-dr-nysenate-tax-685.txt)_
 - **Interest** — New York statutory underpayment interest rate, compounded daily  _(NY Tax Law §685)_
 
 A self-employed individual who crosses the $50,000 threshold mid-year but did not make estimated payments may avoid the underpayment penalty by satisfying one of the safe harbors in Section 5.5 by withholding or by the annualized income installment method.
@@ -281,7 +284,7 @@ Facts. Lattice Studio LLC is a multi-member LLC (treated as a partnership for fe
 
 ### Worked example Example — Freelancer split between Manhattan and NJ
 
-Facts. Yuki Tanaka is a freelance software developer based in Jersey City, NJ, who works on-site for clients in Manhattan two days per week and remotely from her Jersey City home office three days per week. The remote work is at her own discretion (the Manhattan clients have office space available for her). For tax year 2025, Yuki: Total working days: 240 (48 weeks × 5 days, excluding 12 weeks of vacation/holidays/sick); Manhattan working days: 96 (2 days × 48 weeks); Jersey City remote working days: 144 (3 days × 48 weeks); Schedule C net profit: $185,000; Schedule SE Line 4a (§1402 net SE earnings × 0.9235): $185,000 × 0.9235 = $170,847.50. Step 1 — Working day allocation. Manhattan days are Zone 1 MCTD working days. Jersey City days are non-MCTD (NJ is outside MCTD). Under the "convenience of the employee" rule (Yuki could work from Manhattan but chooses Jersey City), the conservative interpretation is to allocate the Jersey City remote days to NY as well. However, MCTMT is geographic to MCTD, not to NY state, so the convenience rule's interaction with MCTMT is uncertain. For this example, we apply the conservative MCTMT position: remote-by-choice days where the employer has MCTD office space available are treated as MCTD working days. Yuki's allocation is therefore 240/240 = 100% to MCTD Zone 1. Alternative position (more aggressive): only on-site Manhattan days count, yielding 96/240 = 40% to MCTD Zone 1. We compute both. Step 2a — Aggressive allocation (96/240 = 40%). MCTD-allocated net SE earnings: $170,847.50 × 40% = $68,339. Over $50,000 threshold? Yes ($68,339 > $50,000). Zone 1 graduated brackets applied: $0 — $50,000: $0; $50,001 — $68,339: $18,339 × 0.34% = $62.35. MCTMT due (aggressive): $62.35. Step 2b — Conservative allocation (240/240 = 100%, convenience rule). MCTD-allocated net SE earnings: $170,847.50 × 100% = $170,847.50. Zone 1 graduated brackets applied: $0 — $50,000: $0; $50,001 — $100,000: $50,000 × 0.34% = $170; $100,001 — $150,000: $50,000 × 0.40% = $200; $150,001 — $170,847.50: $20,847.50 × 0.46% = $95.90. MCTMT due (conservative): $465.90. Recommended position. Yuki should claim the aggressive 40% allocation if she can document that the Manhattan clients did NOT require her on-site presence beyond the 96 days, AND that she has a bona fide Jersey City home office (her own home, not a temporary workspace). Without that documentation, NYSDTF on audit may impose the conservative 100% allocation. The dollar difference is $403.55 — small enough that conservative compliance may be more cost-effective than litigation risk. Filing. Yuki files Form MTA-6 by April 15, 2026, accompanying her IT-203 (she is a NY nonresident — NJ resident — filing for NY-source income). She should have made quarterly estimates of approximately $116 per quarter (aggressive) or $465.90 / 4 = $116 per quarter (also). Coincidentally similar; the safe harbor of 25% of prior-year liability is the simpler test.
+Facts. Yuki Tanaka is a freelance software developer based in Jersey City, NJ, who works on-site for clients in Manhattan two days per week and remotely from her Jersey City home office three days per week. The remote work is at her own discretion (the Manhattan clients have office space available for her). For tax year 2025, Yuki: Total working days: 240 (48 weeks × 5 days, excluding 12 weeks of vacation/holidays/sick); Manhattan working days: 96 (2 days × 48 weeks); Jersey City remote working days: 144 (3 days × 48 weeks); Schedule C net profit: $185,000; Schedule SE Line 4a (§1402 net SE earnings × 0.9235): $185,000 × 0.9235 = $170,847.50. Step 1 — Working day allocation. Manhattan days are Zone 1 MCTD working days. Jersey City days are non-MCTD (NJ is outside MCTD). Under the "convenience of the employee" rule (Yuki could work from Manhattan but chooses Jersey City), the conservative interpretation is to allocate the Jersey City remote days to NY as well. However, MCTMT is geographic to MCTD, not to NY state, so the convenience rule's interaction with MCTMT is uncertain. For this example, we apply the conservative MCTMT position: remote-by-choice days where the employer has MCTD office space available are treated as MCTD working days. Yuki's allocation is therefore 240/240 = 100% to MCTD Zone 1. Alternative position (more aggressive): only on-site Manhattan days count, yielding 96/240 = 40% to MCTD Zone 1. We compute both. Step 2a — Aggressive allocation (96/240 = 40%). MCTD-allocated net SE earnings: $170,847.50 × 40% = $68,339. Over the tax-year-2025 $50,000 threshold? Yes ($68,339 > $50,000). Tax Law §801(a)(2)(B) rate for Zone 1 in years beginning before Jan 1, 2026: 0.60% on earnings exceeding $50,000. MCTMT due (aggressive): $68,339 × 0.60% = $410.03. Step 2b — Conservative allocation (240/240 = 100%, convenience rule). MCTD-allocated net SE earnings: $170,847.50 × 100% = $170,847.50. Tax Law §801(a)(2)(B) rate for Zone 1 in years beginning before Jan 1, 2026: 0.60% on earnings exceeding $50,000. MCTMT due (conservative): $170,847.50 × 0.60% = $1,025.09. Recommended position. Yuki should claim the aggressive 40% allocation if she can document that the Manhattan clients did NOT require her on-site presence beyond the 96 days, AND that she has a bona fide Jersey City home office (her own home, not a temporary workspace). Without that documentation, NYSDTF on audit may impose the conservative 100% allocation. The dollar difference is $615.06 — small enough that conservative compliance may be more cost-effective than litigation risk. Filing. Yuki files Form MTA-6 by April 15, 2026, accompanying her IT-203 (she is a NY nonresident — NJ resident — filing for NY-source income). She should have made quarterly estimates of approximately $102.51 per quarter (aggressive: $410.03 / 4) or $256.27 per quarter (conservative: $1,025.09 / 4); the safe harbor of 25% of prior-year liability is the simpler test.
 
 ### Worked example Example — Medium employer in Westchester relocates to Zone 1
 
@@ -308,7 +311,7 @@ This skill does NOT cover the following items, which require either a specialize
 
 ### Statutory basis
 
-- **NY Tax Law Article 23 (sections 800–810)** — Original enactment by Chapter 25 of the Laws of 2009; current text as amended through 2024 legislative session.  _(NY Tax Law Article 23 (sections 800–810))_
+- **NY Tax Law Article 23 (sections 800–810)** — Metropolitan Commuter Transportation Mobility Tax.  _(NY Tax Law index: "article 23 metropolitan commuter transportation mobility tax", archived as US-NY-dr-nysenate-tax-articles.txt; §801 rate text archived as US-NY-dr-nysenate-tax-801.txt)_
 - **NY Public Authorities Law §1262** — Defines the Metropolitan Commuter Transportation District (12 counties).  _(NY Public Authorities Law §1262)_
 - **NY Tax Law §671** — Defines "employer" for payroll tax purposes; cross-referenced for MCTMT employer scope.  _(NY Tax Law §671)_
 - **NY Tax Law §685** — Penalty regime for late filing / late payment, applied to MCTMT.  _(NY Tax Law §685)_
