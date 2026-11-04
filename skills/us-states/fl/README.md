@@ -64,3 +64,15 @@ Florida has no individual income tax and therefore no payroll withholding. The s
 
 ## How to use
 Upload all `.md` files in this folder PLUS the federal skills from `skills/foundation/` and `skills/federal/` to your LLM. See the main README for details.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| §212.05 Fla. Stat. -- sales tax at the rate of 6 percent of the sales price | https://www.flsenate.gov/Laws/Statutes/2025/212.05 | 2026-10-27 |
+| §220.11 Fla. Stat. -- corporate income tax equal to 5 1/2 percent of net income | https://www.flsenate.gov/Laws/Statutes/2025/220.11 | 2026-10-27 |
+| §605.0212 Fla. Stat. -- LLC annual report | https://www.flsenate.gov/Laws/Statutes/2025/605.0212 | 2026-11-01 |
+| §607.193 Fla. Stat. -- supplemental corporate fee and $400 late charge | https://www.flsenate.gov/Laws/Statutes/2025/607.193 | 2026-11-01 |
+| Sunbiz -- Annual Report filing instructions | https://efile.sunbiz.org/sbs_ar_instr.html | 2026-11-01 |
+
+Not yet confirmed: the county discretionary surtax rates (the §212.05 archive confirms surtax divisors for 0.5 and 1 percent county surtaxes; per-county rate tables were not archived this run).
