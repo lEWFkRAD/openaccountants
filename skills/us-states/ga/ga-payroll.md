@@ -199,7 +199,7 @@ GA-V remittances and the G-7 are reconciliation pair — the G-7 is not the paym
 - **Failure to withhold penalty** — 100% of the amount that should have been withheld, plus 9% interest per annum  _(O.C.G.A. §48-2-40 sets the 2025 interest rate at 9% — the prime rate plus 3% with quarterly resets)_
 - **Negligence and fraud penalties** — Additional 5% if the underpayment is due to negligence; additional 50% if due to fraud  _(4.5 G-7 penalties)_
 
-## 5. Form GA-V — Withholding Payment Voucher
+### 5. Form GA-V — Withholding Payment Voucher
 
 ### 5.1 When GA-V is used
 
@@ -227,7 +227,7 @@ GA-V remittances and the G-7 are reconciliation pair — the G-7 is not the paym
 
 - **Late/short GA-V treatment** — If a GA-V is missed or short, the deficiency is carried into the next GA-V and the eventual G-7. The G-7 reconciliation will show a balance due that travels with the G-7 itself, treated as a late voucher subject to the 0.5%/month late payment penalty plus 9% interest.  _(5.5 GA-V late payment treatment)_
 
-## 6. Form G-1003 — Annual Income Statement Reconciliation
+### 6. Form G-1003 — Annual Income Statement Reconciliation
 
 ### 6.1 Purpose
 
@@ -320,7 +320,7 @@ Georgia is among the states with the lowest UI wage base — for context, federa
 
 - **SUTA dumping rule and penalty** — Georgia adopted the federal SUTA Dumping Prevention Act of 2004 via O.C.G.A. §34-8-172. Mandatory transfer of experience rating applies when there is substantially common ownership, management, or control between transferring and acquiring employers, and the transfer was made primarily for a lower UI rate. Penalty: highest rate (8.10% in 2025) plus an additional 2% for the year of transfer and the following three years, plus criminal exposure.  _(O.C.G.A. §34-8-172)_
 
-## 8. New-Hire Reporting (GDOL) — 10-Day Deadline
+### 8. New-Hire Reporting (GDOL) — 10-Day Deadline
 
 ### 8.1 The deadline
 
@@ -416,7 +416,7 @@ In practice, GDOL audits the 4 P's by examining:
 
 - **Misclassification consequences** — When GDOL determines a worker was misclassified: 1. Employer is assessed back UI contributions on the misclassified worker's wages for the entire audit period (typically the open three-year statute of limitations, or longer if fraud). 2. Administrative Assessment is assessed on the same wages. 3. Interest accrues at 1.5% per month under O.C.G.A. §34-8-166. 4. Penalty: 10% per quarter of unpaid contributions plus a minimum $35 per quarter (O.C.G.A. §34-8-165). 5. Cross-referral to GA DOR for income tax withholding assessment and to the Workers' Compensation Board.  _(O.C.G.A. §34-8-166; O.C.G.A. §34-8-165)_
 
-## 10. Workers' Compensation, Final Pay, and Paid Leave Mandates
+### 10. Workers' Compensation, Final Pay, and Paid Leave Mandates
 
 ### 10.1 Workers' compensation — 3-employee threshold
 
@@ -509,7 +509,7 @@ A balanced IRS 20-factor read: more likely employee than independent contractor.
 
 Reclassify Carlos as a W-2 employee prospectively. Discuss with Peachtree's counsel whether to file amended returns voluntarily (potentially mitigating penalties) or wait for audit assessment. Document the 4 P's analysis in the file.
 
-## 12. Cross-Reference to Federal Payroll Skills
+### 12. Cross-Reference to Federal Payroll Skills
 
 When this skill is loaded alongside the federal payroll content skills, the following responsibilities are split:
 

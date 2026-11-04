@@ -253,7 +253,7 @@ Did the entity make a PTE election for the current tax year?
              └── NO  → Standard analysis.
 ```
 
-## Cross-border points
+### Cross-border notes
 
 ### Corporate Estimated Tax (Form 600-ES)
 

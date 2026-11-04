@@ -49,7 +49,7 @@ The following matters are out of scope for this skill and must be handed off to 
 - Multi-state nexus analysis where the entity has operations in states other than Georgia.
 - Trademark, trade-name, and "doing business as" (d/b/a) filings — these are county-level filings under O.C.G.A. § 10-1-490 et seq. and are separately handled.
 
-## 2. Workflow runbook
+### 2. Workflow runbook
 
 The skill executes in the following sequence. Each step is gated — the skill does not advance until the prior step has produced an output the reviewer can confirm.
 
@@ -244,7 +244,7 @@ For a closely-held corporation where one individual serves in all three officer 
 - **Automatic registration for domestic corporations** — Every Georgia corporation must register with the Georgia Department of Revenue for corporate income tax. This is automatic for corporations formed in Georgia — the Secretary of State transmits formation data to the DOR, which opens an account and assigns the corporation a state taxpayer identification number. The corporation must file Form 600 (or Form 600S for S-corporations) annually by the 15th day of the third month following the close of the corporation's fiscal year.  _(§4.4)_
 - **Foreign corporation registration** — Foreign corporations doing business in Georgia must register separately by submitting Form CRF-002 (State Tax Registration Application) through the Georgia Tax Center. See §7 below.  _(Form CRF-002)_
 
-## 5. Professional LLC (PLLC) and Professional Corporation (PC)
+### 5. Professional LLC (PLLC) and Professional Corporation (PC)
 
 Georgia recognizes both Professional Limited Liability Companies (PLLCs) and traditional Professional Corporations (PCs) for the practice of licensed professions. The statutory basis for PLLCs is woven into the LLC Act (O.C.G.A. §§ 14-11-1101 through 14-11-1109 and the cross-reference to the Professional Corporation Act at § 14-7-3). The statutory basis for PCs is the Professional Corporation Act, O.C.G.A. Title 14, Chapter 7.
 
@@ -368,13 +368,13 @@ The skill defers full S-election analysis to `us-s-corp-election-decision` and G
 
 A common error is for a freshly-formed Georgia C-corporation to file Form 2553 with the IRS, receive the federal acceptance, and then continue to receive Form 600 (C-corp return) notices from the GA DOR because the DOR has not been informed. The skill produces a checklist item to update the DOR account after federal acceptance.
 
-## 10. BOI / Corporate Transparency Act — current status
+### 10. BOI / Corporate Transparency Act — current status
 
 - **CTA/BOI requirement description** — The federal Corporate Transparency Act (CTA), 31 U.S.C. § 5336, and FinCEN's Beneficial Ownership Information (BOI) reporting rule, 31 C.F.R. § 1010.380, would require every newly-formed LLC, corporation, and similar entity to report its beneficial owners (individuals who own 25% or more, or who exercise substantial control) to FinCEN within 30 days of formation. The rule became effective January 1, 2024.  _(31 U.S.C. § 5336; 31 C.F.R. § 1010.380)_
 - **Current status** — On August 11, 2026, FinCEN issued a final rule that changes the BOI reporting requirements. Under the new rule: "U.S. companies are exempt from BOI reporting requirements and therefore, are no longer required to file BOI reports. Only certain foreign companies registered to do business in the U.S. must report BOI. These foreign companies do not need to report BOI for U.S. person beneficial owners or U.S. person companies." _(FinCEN BOI FAQ, Important Notice, archived as US-GA-dr-fincen-boi-faqs.txt)_
 - **Skill's current position** — The skill's current position is to: 1. Advise that U.S. companies are exempt from BOI reporting under the August 11, 2026 final rule and are no longer required to file BOI reports. 2. For entities that are foreign companies registered to do business in the U.S., confirm whether BOI reporting applies and note that BOI need not be reported for U.S. person beneficial owners or U.S. person companies. 3. Retain beneficial ownership information (name, date of birth, residential address, ID document) so the client can file promptly if the rule changes again. 4. Not file a BOI report for a U.S. company unless the rule changes again. The reviewer must confirm the current status of the CTA at the time the formation is executed — the skill's information is current only to the last_updated date in the frontmatter.
 
-## 11. Common errors and audit flash points
+### 11. Common errors and audit flash points
 
 **Common errors and audit flash points**  _(§11)_
 
