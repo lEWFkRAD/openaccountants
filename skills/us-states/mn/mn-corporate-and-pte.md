@@ -358,20 +358,20 @@ For most profitable C-corps, regular tax (9.8% × MN taxable income) exceeds AMT
 
 ### 4.1 The schedule
 
-- **Minimum fee overview** -- Minn. Stat. §290.0922 imposes a minimum fee on every corporation, partnership, and S-corp doing business in Minnesota, based on the sum of its Minnesota property, Minnesota payroll, and Minnesota sales (PP&S). The fee is on a sliding scale from $0 to $10,460 (the 2024 figures, indexed periodically). The Department of Revenue publishes updated brackets each year via revenue notice.  _(Minn. Stat. §290.0922 subd. 1)_
+- **Minimum fee overview** -- Minn. Stat. §290.0922 imposes a minimum fee on every corporation, partnership, and S-corp doing business in Minnesota, based on the sum of its Minnesota property, Minnesota payroll, and Minnesota sales (PP&S). The fee is on a sliding scale from $0 to $10,210 under the current statute.  _(Minn. Stat. §290.0922 subd. 1)_
 
-**MN PP&S Minimum Fee schedule**  _(Minn. Stat. §290.0922 subd. 1)_
+**MN PP&S Minimum Fee schedule**  _(Minn. Stat. §290.0922 subd. 1(a))_
 
 | MN PP&S Sum | Minimum Fee |
 | --- | --- |
-| Less than $1,050,000 | $0 |
-| $1,050,000 – $2,099,999 | $220 |
-| $2,100,000 – $10,499,999 | $650 |
-| $10,500,000 – $20,999,999 | $2,180 |
-| $21,000,000 – $41,999,999 | $4,360 |
-| $42,000,000 or more | $10,460 |
+| Less than $1,020,000 | $0 |
+| $1,020,000 – $2,039,999 | $210 |
+| $2,040,000 – $10,209,999 | $610 |
+| $10,210,000 – $20,409,999 | $2,040 |
+| $20,410,000 – $40,819,999 | $4,090 |
+| $40,820,000 or more | $10,210 |
 
-(Exact bracket thresholds are indexed for inflation -- verify the year-2025 numbers against the current Form M4 instructions. The Department of Revenue publishes updated brackets each year via revenue notice.)
+(These are the amounts in the current statute text. The thresholds are adjusted periodically; verify the figures for the tax year being filed against the current statute and Form M4 instructions.)
 
 ### 4.2 Computing PP&S
 
