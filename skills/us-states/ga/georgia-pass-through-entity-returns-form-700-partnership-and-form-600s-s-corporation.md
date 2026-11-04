@@ -85,6 +85,48 @@ Double-counting or omitting entity-level tax paid under an election when prepari
 
 ---
 
+## Who this applies to
+
+Georgia partnerships (Form 700) and S corporations (Form 600S), plus PTET-electing pass-throughs.
+
+## Rates, bands and thresholds
+
+Pass-through income is taxed at the owner level; Georgia PTET is an entity-level election (see ga-corporate-and-ptet.md for the rate and election window).
+
+## The taxable base
+
+Entity Georgia taxable income follows federal with Georgia modifications; nonresident owners are taxed on their Georgia-source share.
+
+## Deadlines and filing
+
+Form 700 and 600S are due the 15th day of the third month after year end (March 15 for calendar-year entities).
+
+## Penalties and interest
+
+Late filing 5% a month up to 25% (O.C.G.A. § 48-7-131); interest at the DOR published rate.
+
+## Cross-border points
+
+Nonresident member withholding and composite returns: ga-cross-border-tax.md.
+
+## Worked examples
+
+See worked examples in ga-corporate-and-ptet.md; this file is the Form 700/600S filing checklist.
+
+## Ask the client first
+
+Entity type, owner residency mix, and whether a PTET election was made for the year.
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| 2025 IT-611 corporate income tax instruction booklet | https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download | 2026-10-28 |
+| Form 600 UET (underpayment) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underpayment-estimated-tax/download | 2026-10-28 |
+| 2026 Form 602-ES (corporate/partnership estimated tax) | https://dor.georgia.gov/document/document/2026-602es-corporate-and-partnership-estimated-tax/download | 2026-10-28 |
+
+Not yet confirmed: current-year (2026) Form 700/600S instructions and PTET election percentages for TY2026.
+
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network — accountants who put

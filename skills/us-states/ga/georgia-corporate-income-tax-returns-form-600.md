@@ -73,22 +73,57 @@ Filing under the wrong entity registration or FEIN mismatch with the state accou
 | E-file mandate | confirm before filing | citation to confirm |
 | Late filing / late payment penalties and interest | confirm before filing | citation to confirm |
 
+
+Form 600 is due the 15th day of the fourth month after year end (April 15 for calendar-year filers). See the rates, thresholds and deadlines section above.
+
+
+Late filing: 5% a month up to 25% of tax due (O.C.G.A. § 48-7-131). Interest runs at the GA DOR published rate. Underpayment detail lives in ga-estimated-tax-depth.md.
+
+
+Georgia taxes nonresident income sourced to Georgia; composite and withholding mechanics live in ga-cross-border-tax.md.
+
+## Who this applies to
+
+Georgia C corporations, S corporations (Form 600S), and partnerships that file Georgia returns. Form 600 is the Georgia corporate income tax return.
+
+## Rates, bands and thresholds
+
+Georgia flat corporate income tax rate 5.19% for tax years beginning in 2025 (HB 111 repeal to 5.00% was tied to a revenue trigger; check the current-year DOR notice before quoting a rate). Net worth tax table and thresholds live in ga-net-worth-tax.md.
+
+## The taxable base
+
+Georgia taxable income starts from federal taxable income with Georgia modifications (addbacks, NOL rules, apportionment on Schedule 6/8). See ga-corporate-and-ptet.md for the full modification list.
+
+## Deadlines and filing
+
+Form 600 is due the 15th day of the fourth month after year end (April 15 for calendar-year filers). Federal extensions do not automatically extend Georgia; file Form 7005 with payment.
+
+## Penalties and interest
+
+Late filing: 5% a month up to 25% of tax due (O.C.G.A. § 48-7-131). Interest runs at the GA DOR published rate. Underpayment detail lives in ga-estimated-tax-depth.md.
+
+## Cross-border points
+
+Georgia taxes nonresident income sourced to Georgia; composite and withholding mechanics live in ga-cross-border-tax.md.
+
+## Worked examples
+
+See the worked examples in ga-corporate-and-ptet.md and ga-net-worth-tax.md; this file is the return-filing checklist for Form 600.
+
+## Ask the client first
+
+- Where the entity is incorporated, its year end, and whether it has Georgia-source income or Georgia employees.
+
 ## Sources
 
-State tax authority — corporate income tax pages: citation to confirm
-Form 600 instructions, current year: citation to confirm
-State statute / regulations on corporate income and net worth tax: citation to confirm
-E-file and payment portal documentation: citation to confirm
+| Source | URL | Read on |
+| --- | --- | --- |
+| 2025 IT-611 corporate income tax instruction booklet | https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download | 2026-10-28 |
+| Form 600 UET (underpayment of estimated tax) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underpayment-estimated-tax/download | 2026-10-28 |
+| 2026 Form 602-ES (corporate/partnership estimated tax) | https://dor.georgia.gov/document/document/2026-602es-corporate-and-partnership-estimated-tax/download | 2026-10-28 |
 
-## Sources
+Not yet confirmed: current-year (2026) Form 600 instructions and the HB 111 rate-trigger status.
 
-State tax authority — corporate income tax pages: citation to confirm Form 600 instructions, current year: citation to confirm State statute / regulations on corporate income and net worth tax: citation to confirm E-file and payment portal documentation: citation to confirm
-
-> Contributed by Jeff Watts, ACF-04080.
-
-<!-- openaccountants-cta-block -->
-
----
 
 ## Talk to a verified accountant
 
