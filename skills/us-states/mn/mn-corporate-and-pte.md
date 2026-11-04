@@ -266,7 +266,7 @@ Not yet confirmed: the §290.0921 5.8% AMT rate, the §290.0922 minimum-fee slid
 ### Session laws
 
 - **2008 Minn. Laws Ch. 366, Article 4** -- single sales factor and market-based sourcing phase-in (completed 2014). Operative text archived: US-MN-dr-m4-inst-25.pdf: "minnesota uses a single-sales factor to determine the apportionment percentage"
-- **2021 Minn. Laws 1st Spec. Sess., Ch. 14, Art. 1** -- original PTE election enactment. Operative text archived: US-MN-dr-289A.08.pdf subd. 7a(b): "for taxable years beginning after december 31, 2020, a qualifying entity may elect to file a return"
+- **2021 Minn. Laws 1st Spec. Sess., Ch. 14, Article 1** -- original PTE election enactment. Operative text archived: US-MN-dr-289A.08.pdf subd. 7a(b): "for taxable years beginning after december 31, 2020, a qualifying entity may elect to file a return"
 - **2023 Minn. Laws Ch. 64, Article 1** -- PTE expansion to resident owners; net investment income surcharge; conformity updates. Operative text archived: US-MN-dr-290.033.html: "a tax is imposed on the net investment income of individuals, estates, and trusts in excess of $1,000,000 at a rate of one percent"
 
 ### Administrative guidance
