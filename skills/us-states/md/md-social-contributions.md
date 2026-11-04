@@ -64,7 +64,6 @@ Maryland has **no state-level employee social-insurance contribution** -- there 
 
 - **SUI interest: 1.5% per month** on unpaid contribution and reimbursement balances. (DOL SUI tax-rate page.)
 - Failure to file quarterly reports converts the employer to the 7.50% standard rate (see The taxable base) -- a rate penalty as much as a cash one.
-- FAMLI penalty schedule: not yet confirmed (regulations page not archived).
 
 ## Cross-border points
 
