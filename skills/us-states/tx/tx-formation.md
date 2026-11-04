@@ -1,6 +1,6 @@
 ---
 name: tx-formation
-description: Tier 2 Texas content skill for entity formation covering tax year 2026. Includes the TX LLC Certificate of Formation (not yet confirmed) no state PIT, no franchise/margin tax under (not yet confirmed).47M revenue threshold, mandatory annual Public Information Report (Form 05-102), Series LLC permitted (2009 legislation), foreign qualification Certificate of Authority (not yet confirmed) doing-business thresholds for out-of-state entities (post-Wayfair (not yet confirmed)k sales/(not yet confirmed)k payroll/(not yet confirmed)k property), and the BOI/CTA stay status.
+description: Tier 2 Texas content skill for entity formation covering tax year 2026. Covers the TX LLC Certificate of Formation ($300), no state personal income tax (Texas Constitution Article 8, Section 24-a), the 2026 franchise No Tax Due threshold ($2.65 million), the annual Public Information Report (Form 05-102), Series LLCs, foreign registration ($750), and the BOI/CTA status.
 jurisdiction: US-TX
 tax_year: 2026
 last_updated: 2026-10-31
@@ -55,7 +55,7 @@ Texas has, over the past decade, become one of the most popular jurisdictions in
 
 ### 2.1 No state personal income tax
 
-- **Texas constitutional protection against personal income tax** -- Texas is one of nine U.S. states with no individual personal income tax. This is constitutionally protected by Article 8, Section 24 of the Texas Constitution, which requires a statewide referendum to impose any personal income tax -- making a future income tax practically impossible.  _(Texas Constitution Article 8, Section 24)_ (not yet confirmed)
+- **Texas constitutional bar on personal income tax** -- Texas has no individual personal income tax. Article 8, Section 24-a of the Texas Constitution provides that the legislature may not impose a tax on the net incomes of individuals, including an individual's share of partnership and unincorporated association income. The former Section 24 was repealed Nov. 5, 2019.  _(Texas Constitution Article 8, Section 24-a)_
 
 For pass-through entity owners (sole proprietors filing Schedule C, single-member LLC owners disregarded for federal tax, multi-member LLC partners, S-corp shareholders), the pass-through income flows from the federal return to the owner with **zero additional state income tax**. This is a structural advantage over California (top rate 13.3% including the mental health services tax), New York (top rate 10.9%), Oregon (top rate 9.9%), and Hawaii (top rate 11%). (not yet confirmed)
 
@@ -96,7 +96,7 @@ The Texas Limited Liability Company is the workhorse entity for small businesses
 ### 3.2 Filing fee -- $300
 
 - **LLC Certificate of Formation filing fee** -- 300 USD (one-time fee; paid at filing online via SOSDirect or by mail with check payment)
-- **Expedited 24-hour processing fee** -- 25 USD
+- **Expedited processing fees** -- $50 standard expedite, $500 next day expedite, $750 same day expedite (SOS Form 806)
 - **No annual franchise-tax filing fee at SOS** -- This $300 fee is a one-time charge. There is no annual franchise-tax filing fee at the Secretary of State (the Public Information Report is filed separately with the Texas Comptroller at no fee).
 
 ### 3.3 Registered agent in Texas
@@ -111,13 +111,13 @@ The registered agent may be:
 
 A common founder mistake is listing a residential address that the founder later vacates without updating the Secretary of State, causing official notices (including franchise-tax delinquency notices) to bounce. Update Form 401 (Statement of Change of Registered Office/Agent) within 30 days of any change.
 
-### 3.4 No annual Secretary of State filing fee or LLC tax until revenue exceeds $2.47M
+### 3.4 No annual Secretary of State filing fee or LLC tax until revenue exceeds $2.65 million (2026 report)
 
-- **No Tax Due threshold applicability** -- 2,470,000 USD annualized total revenue (threshold for report years 2024 and 2025; Texas charges no annual fee at the Secretary of State level regardless of revenue, unlike California ($800 annual franchise tax under R&TC §17941), Delaware ($300 annual franchise tax), and New York)
+- **No Tax Due threshold applicability** -- $2.65 million annualized total revenue for the 2026 report; 2,470,000 USD for report years 2024 and 2025 (Texas charges no annual fee at the Secretary of State level regardless of revenue, unlike California ($800 annual franchise tax under R&TC §17941), Delaware ($400 annual tax on an LLC under 6 Del. C. §18-1107(b)), and New York)
 - **Below-threshold obligations** -- Below the threshold, the Texas LLC owes: $0 state-level entity tax; $0 Secretary of State annual fee; Form 05-102 Public Information Report must still be filed annually (no fee, but failure to file carries severe penalties -- see AUDIT FLASH POINT).
-- **Margin tax rate above threshold -- retail/wholesale** -- 0.375% (of the lesser of (a) 70% of total revenue or (b) total revenue minus cost of goods sold or minus compensation)
-- **Margin tax rate above threshold -- other** -- 0.75% (of the lesser of (a) 70% of total revenue or (b) total revenue minus cost of goods sold or minus compensation)
-- **EZ Computation rate** -- 0.331% of revenue (available for entities between $2.47M and $20M annualized revenue; see tx-margin-tax.md)
+- **Margin tax rate above threshold -- retail/wholesale** -- 0.375% of taxable margin; margin is the lesser of 70% of total revenue, total revenue minus $1 million, or total revenue minus the greater of $1 million or the elected cost of goods sold or compensation (Texas Tax Code §171.101(a))
+- **Margin tax rate above threshold -- other** -- 0.75% of taxable margin; margin is the lesser of 70% of total revenue, total revenue minus $1 million, or total revenue minus the greater of $1 million or the elected cost of goods sold or compensation (Texas Tax Code §171.101(a))
+- **EZ Computation rate** -- 0.331% of revenue (an elective computation for entities with total revenue of not more than $20 million under Texas Tax Code §171.1016; entities at or below the $2.65 million 2026 No Tax Due threshold owe no tax)
 
 ### 3.5 Public Information Report (Form 05-102) -- annual, mandatory regardless of revenue
 
@@ -156,7 +156,7 @@ The Texas For-Profit Corporation is used primarily by venture-backed startups, b
 
 ### 4.2 Filing fee -- $300
 
-- **C-Corp Certificate of Formation filing fee** -- 300 USD (same as the LLC; expedited 24-hour processing adds $25)
+- **C-Corp Certificate of Formation filing fee** -- 300 USD (same as the LLC; expedited processing is $50 standard, $500 next day, or $750 same day under SOS Form 806)
 
 ### 4.3 Public Information Report -- annual
 
@@ -167,7 +167,7 @@ The Texas For-Profit Corporation is used primarily by venture-backed startups, b
 - **No Tax Due threshold for franchise/margin tax** -- $2.65 million annualized total revenue for the 2026 report; 2,470,000 USD for the 2024 and 2025 report years
 - **Retail or wholesale rate** -- 0.375% of taxable margin (for retail or wholesale businesses defined under Texas Tax Code §171.002(c))  _(Texas Tax Code §171.002(c))_
 - **Other businesses rate** -- 0.75% of taxable margin
-- **EZ Computation rate** -- 0.331% of revenue (available for entities between $2.47M and $20M annualized revenue; see tx-margin-tax.md)
+- **EZ Computation rate** -- 0.331% of revenue (an elective computation for entities with total revenue of not more than $20 million under Texas Tax Code §171.1016; entities at or below the $2.65 million 2026 No Tax Due threshold owe no tax)
 
 A C-Corp engaged in software development, consulting, professional services, or SaaS would generally pay the 0.75% rate (or the 0.331% EZ rate if eligible and beneficial). A C-Corp engaged in retail e-commerce reselling tangible personal property may qualify for the 0.375% retail rate, subject to the qualification rules in §171.002(c) which require, among other things, that less than half of the entity's total revenue come from the sale of items produced or processed by the entity. See tx-margin-tax.md for detailed computation.
 
@@ -230,7 +230,7 @@ A failure to maintain separate records -- commingled bank accounts, commingled b
 ### 6.3 Filing fee -- $750
 
 - **Foreign qualification filing fee** -- 750 USD (substantially higher than the $300 domestic-formation fee)
-- **Practical implication of fee differential** -- This differential is the principal reason a Texas-resident founder forming a new business should generally form directly as a Texas entity rather than forming in Delaware or Wyoming and qualifying back into Texas. For a venture-backed startup planning to raise from institutional VC investors, the $450 differential is trivial relative to the strategic value of Delaware formation (see §10). For a bootstrapped freelance developer, the $450 differential is meaningful -- and the operational complexity of managing two states' compliance (Delaware annual franchise tax minimum $300, Delaware registered agent ~$100/year, Delaware Certificate of Good Standing for annual Texas confirmation) compounds the case for direct Texas formation.
+- **Practical implication of fee differential** -- This differential is the principal reason a Texas-resident founder forming a new business should generally form directly as a Texas entity rather than forming in Delaware or Wyoming and qualifying back into Texas. For a venture-backed startup planning to raise from institutional VC investors, the $450 differential is trivial relative to the strategic value of Delaware formation (see §10). For a bootstrapped freelance developer, the $450 differential is meaningful -- and the operational complexity of managing two states' compliance (the Delaware annual LLC tax of $400 under 6 Del. C. §18-1107(b), a Delaware registered agent, and a Delaware Certificate of Good Standing for annual Texas confirmation) compounds the case for direct Texas formation.
 
 ### 6.4 Ongoing obligations of a qualified foreign entity
 
@@ -335,7 +335,7 @@ For a startup planning to raise institutional VC, Delaware C-Corp is the default
 
 ### 10.2 Where Texas wins
 
-- **Texas advantages for bootstrapped or Texas-resident founders** -- Texas wins on personal tax and ongoing cost for the bootstrapped founder or for the founder who will hold company stock long-term as a Texas resident. - No Texas personal income tax -- a Texas-resident founder who eventually liquidates her Delaware C-Corp shares pays 0% Texas tax on the capital gain. (Federal capital gains tax still applies, of course, and §1202 QSBS exclusion may apply to qualified small business stock held more than 5 years.) - No Texas tax on dividends -- Texas-resident shareholders of either a Texas or Delaware C-Corp pay 0% Texas tax on dividend distributions. - Lower formation cost for direct Texas formation -- $300 vs Delaware's $89 SOS fee plus the Texas $750 foreign qualification fee (total $839) if forming Delaware and operating in Texas. - No Texas franchise tax under $2.47M revenue -- a bootstrapped Texas LLC with $1M in revenue pays $0 Texas franchise tax; the same LLC formed in Delaware and operating in Texas would also pay $0 Texas franchise tax (foreign qualification triggers Texas filing but not tax under the threshold) but would owe Delaware annual franchise tax ($300 minimum for an LLC; variable for a corporation).
+- **Texas advantages for bootstrapped or Texas-resident founders** -- Texas wins on personal tax and ongoing cost for the bootstrapped founder or for the founder who will hold company stock long-term as a Texas resident. - No Texas personal income tax -- a Texas-resident founder who eventually liquidates her Delaware C-Corp shares pays 0% Texas tax on the capital gain. (Federal capital gains tax still applies, of course, and §1202 QSBS exclusion may apply to qualified small business stock held more than 5 years.) - No Texas tax on dividends -- Texas-resident shareholders of either a Texas or Delaware C-Corp pay 0% Texas tax on dividend distributions. - Lower formation cost for direct Texas formation -- $300 vs Delaware's $89 SOS fee plus the Texas $750 foreign qualification fee (total $839) if forming Delaware and operating in Texas. - No Texas franchise tax at or below $2.65 million revenue (2026 report) -- a bootstrapped Texas LLC with $1M in revenue pays $0 Texas franchise tax; the same LLC formed in Delaware and operating in Texas would also pay $0 Texas franchise tax (foreign qualification triggers Texas filing but not tax under the threshold) but would owe the Delaware annual LLC tax ($400 under 6 Del. C. §18-1107(b); a corporation pays a variable franchise tax).
 
 ### 10.3 The hybrid pattern
 
@@ -370,9 +370,9 @@ For a founder who is not raising institutional VC -- a freelance developer formi
 
 - **Symptom, root cause, and mitigation** -- Symptom: Founder forms a Texas LLC, never registers with the Texas Comptroller, never files Form 05-102, and is surprised when the LLC is forfeited two years later and they are personally sued for an LLC debt. Root cause: Texas Secretary of State filing is decoupled from Texas Comptroller franchise-tax registration. Filing the Certificate of Formation does not automatically register the entity with the Comptroller; the entity must independently register for a Texas Taxpayer Number with the Comptroller (Form AP-114 for foreign entities; Texas-formed entities receive a Taxpayer Number automatically but must still file annual reports). Mitigation: Calendar the May 15 PIR deadline annually. Use a commercial registered agent or compliance vendor that sends annual filing reminders. Verify Comptroller registration within 30 days of SOS formation. Confirm receipt of Comptroller welcome letter (typically mailed 30–60 days after SOS formation).  _(Form AP-114)_
 
-### 11.2 AUDIT FLASH POINT 2 -- Confusing "no franchise tax under $2.47M" with "no margin tax"
+### 11.2 AUDIT FLASH POINT 2 -- Confusing "no franchise tax under $2.65 million" with "no margin tax"
 
-- **Symptom, root cause, worked example, and mitigation** -- Symptom: Founder treats the No Tax Due threshold as a permanent exemption and is shocked to receive a $5,000+ margin tax bill the year revenue crosses $2.47M. Root cause: The No Tax Due threshold under Texas Tax Code §171.002(d) is a year-by-year threshold based on annualized total revenue. Crossing the threshold for a single report year triggers full margin tax for that report year. There is no phase-in, no smoothing, no de minimis credit above the threshold. A taxpayer with $2,500,000 in revenue is liable for margin tax computed on the full taxable margin -- typically 0.331% EZ rate × $2,500,000 = $8,275 in margin tax, not 0.331% of the $30,000 excess. Mitigation: Monitor revenue against the threshold quarterly. Plan for the year-of-crossover margin tax bill. Consider whether deferring revenue into a subsequent year, or accelerating deductible expenses into the crossover year, reduces total tax (a margin-tax-aware year-end planning exercise).  _(Texas Tax Code §171.002(d))_
+- **Symptom, root cause, worked example, and mitigation** -- Symptom: Founder treats the No Tax Due threshold as a permanent exemption and is shocked to receive a $5,000+ margin tax bill the year revenue crosses $2.65 million. Root cause: The No Tax Due threshold under Texas Tax Code §171.002(d) is a year-by-year threshold based on annualized total revenue. Crossing the threshold for a single report year triggers full margin tax for that report year. There is no phase-in, no smoothing, no de minimis credit above the threshold. A taxpayer with $2,800,000 in revenue on a 2026 report is liable for margin tax computed on the full taxable margin -- under the EZ computation, 0.331% × $2,800,000 = $9,268, not 0.331% of the $150,000 excess. Mitigation: Monitor revenue against the threshold quarterly. Plan for the year-of-crossover margin tax bill. Consider whether deferring revenue into a subsequent year, or accelerating deductible expenses into the crossover year, reduces total tax (a margin-tax-aware year-end planning exercise).  _(Texas Tax Code §171.002(d))_
 
 ### 11.3 Mismatch between SOS registered agent and Comptroller mailing address
 
@@ -409,7 +409,7 @@ The founders intend to raise institutional VC. Substantially all institutional V
 
 - Delaware annual report (March 1, 2026): $50 corporate report + Delaware franchise tax ($400 minimum assumed-par-value-capital method, or up to thousands using authorized-shares method on 10M shares -- typically the founders' counsel switches to assumed-par-value-capital method to keep DE franchise tax minimal).
 - Texas Form 05-102 PIR (May 15, 2026): $0 (revenue under No Tax Due threshold).
-- Texas franchise tax Form 05-163 No Tax Due (May 15, 2026): $0 owed, filing required.
+- Texas franchise tax (May 15, 2026): $0 owed at or below the $2.65 million threshold. The No Tax Due Report is not available for 2026 reports, so the PIR is the only franchise filing.
 - Federal Form 1120 C-Corp return (April 15, 2026, extension available to October 15): minimal taxable income given pre-revenue stage.
 
 - Delaware formation: $89 + ~$150 registered agent
@@ -435,26 +435,26 @@ Texas-resident investor owns five rental single-family homes in Houston with com
 - **Insurance** -- Separate landlord insurance policy per series, naming the series as the named insured.
 
 - Texas PIR Form 05-102: $0 fee, May 15.
-- Texas franchise tax Form 05-163 No Tax Due: $0 owed, $180,000 combined revenue is well under $2.47M threshold. (not yet confirmed)
+- Texas franchise tax: $0 owed; $180,000 combined revenue is well under the $2.65 million 2026 threshold. The No Tax Due Report is not available for 2026 reports; the PIR is still due.
 - Federal Schedule E with five columns.
 - Registered agent: ~$125/year. (not yet confirmed)
 
 - **Pitfall to avoid -- separate records requirement** -- Investor must rigorously maintain separate bookkeeping. The single most-litigated point in Texas Series LLC case law is the §101.602(b)(3) separate-records requirement. Sloppy bookkeeping risks collapsing the firewall, exposing all five properties to the slip-and-fall judgment on Property 3.  _(§101.602(b)(3))_
 
-### 12.3 Example 3 -- Dallas e-commerce sole proprietor crossing the $2.47M threshold
+### 12.3 Example 3 -- Dallas e-commerce sole proprietor crossing the $2.65 million threshold
 
 Dallas-resident e-commerce operator sells custom apparel via Shopify and Amazon FBA. 2024 revenue: $1,800,000. Projected 2025 revenue: $3,200,000. Operates as a sole proprietorship through 2024. Wants to formalize the business. (not yet confirmed)
 
 - **Form Texas LLC** -- Certificate of Formation, $300, effective January 1, 2025 (if not already past). Default federal classification: disregarded entity (single-member LLC reports on Schedule C).
 - **Evaluate S-corp election** -- At $3.2M projected revenue with significant ordinary-income exposure to self-employment tax, an S-corp election under Form 2553 may save meaningful SE tax. Defer detailed analysis to `us-s-corp-election-decision`.  _(Form 2553)_ (not yet confirmed)
-- **Texas franchise tax planning -- retail rate qualification** -- Revenue will exceed the $2,470,000 No Tax Due threshold in 2025. Margin tax for 2025: Retail rate available if entity qualifies under §171.002(c) (resale of items not produced by the entity) -- for custom apparel that is produced by the entity (designs printed on demand by contracted print-on-demand vendors), the retail-rate qualification is fact-specific and depends on whether the entity is treated as the producer. Conservative position: 0.75% rate or 0.331% EZ rate, not 0.375% retail rate.  _(§171.002(c))_
-- **Taxable margin computation** -- Taxable margin: lesser of (a) 70% × $3,200,000 = $2,240,000 or (b) total revenue minus COGS, or (c) total revenue minus compensation, or (d) total revenue minus $1,000,000 (the 'compensation alternative').
-- **Conservative margin tax estimate** -- Conservative estimate using 70% method × 0.75% = $16,800 of margin tax, or EZ Computation at 0.331% × $3,200,000 = $10,592. EZ Computation likely beneficial -- see `tx-margin-tax.md`.  _(tx-margin-tax.md)_
+- **Texas franchise tax planning -- retail rate qualification** -- Revenue will exceed the $2.65 million No Tax Due threshold for the 2026 report. Margin tax for 2025: Retail rate available if entity qualifies under §171.002(c) (resale of items not produced by the entity) -- for custom apparel that is produced by the entity (designs printed on demand by contracted print-on-demand vendors), the retail-rate qualification is fact-specific and depends on whether the entity is treated as the producer. Conservative position: 0.75% rate or 0.331% EZ rate, not 0.375% retail rate.  _(§171.002(c))_
+- **Taxable margin computation** -- Taxable margin before apportionment: lesser of (a) 70% × $3,200,000 = $2,240,000, (b) $3,200,000 minus $1,000,000 = $2,200,000, or (c) total revenue minus the greater of $1,000,000 or the elected COGS or compensation (Texas Tax Code §171.101(a)).
+- **Conservative margin tax estimate** -- Conservative estimate before any COGS deduction: $2,200,000 × 0.75% = $16,500 of margin tax, or EZ Computation at 0.331% × $3,200,000 = $10,592. EZ Computation likely beneficial -- see `tx-margin-tax.md`.  _(tx-margin-tax.md)_
 - **Texas sales tax** -- Apparel is taxable tangible personal property in Texas. Operator should already be registered for Texas sales tax (Form AP-201) and collecting on Texas-destination sales. See `tx-sales-tax.md`.  _(tx-sales-tax.md)_
 - **Quarterly federal estimated tax** -- Form 1040-ES quarterly payments; see `us-quarterly-estimated-tax`.  _(us-quarterly-estimated-tax)_
 - **Public Information Report** -- Form 05-102 due May 15, 2026 covering 2025 report year. AUDIT FLASH POINT -- operator must file this even though the LLC just formed.
 
-Operator should not assume that the No Tax Due threshold protects them in 2025. Revenue projection of $3.2M crosses the $2.47M threshold by ~$730K, triggering full margin tax computed on the full taxable margin (no phase-in). Plan for the ~$10,000–$17,000 margin tax bill at year-end and reserve cash accordingly.
+Operator should not assume that the No Tax Due threshold protects them in 2025. Revenue projection of $3.2M crosses the $2.65 million threshold by about $550,000, triggering full margin tax computed on the full taxable margin (no phase-in). Plan for the ~$10,000–$17,000 margin tax bill at year-end and reserve cash accordingly.
 
 ### 12.4 Example 4 -- Foreign founder forming a Texas LLC
 
@@ -467,7 +467,7 @@ Founder is a Maltese citizen and Maltese tax resident operating a software consu
 - **Federal tax classification** -- Single-member LLC owned by foreign individual is a disregarded entity for federal tax. The foreign individual reports U.S.-effectively-connected income on Form 1040-NR. If the consulting work is performed entirely outside the U.S. (Malta), the income is generally not U.S.-source under the place-of-performance rule for personal services (§861(a)(3)), and the foreign individual may have no U.S. federal tax obligation despite billing through a U.S. entity.  _(§861(a)(3))_
 - **Form 5472 requirement** -- Foreign-owned single-member LLC must file Form 5472 (Information Return of a 25% Foreign-Owned U.S. Corporation or a Foreign Corporation Engaged in a U.S. Trade or Business) annually, attached to a pro forma Form 1120. This is mandatory under Treasury Reg §1.6038A-1 and §1.6038A-2 for any reportable transactions between the LLC and the foreign owner -- including capital contributions, distributions, and loans. Penalty for failure to file: $25,000 per Form 5472 per year.  _(Treasury Reg §1.6038A-1 and §1.6038A-2)_ (not yet confirmed)
 - **Texas Public Information Report** -- Form 05-102 due May 15 annually. AUDIT FLASH POINT -- the foreign founder is the most likely to miss the PIR because the Comptroller notices may be mailed to a Texas registered agent address that the founder does not actively monitor. Configure registered agent to scan and email all received notices.
-- **Texas franchise tax** -- $0 owed at $300,000 revenue (well under $2.47M threshold), but the Form 05-163 No Tax Due return must still be filed.
+- **Texas franchise tax** -- $0 owed at $300,000 revenue (well under the $2.65 million 2026 threshold). The No Tax Due Report is not available for 2026 reports, but the PIR or OIR must still be filed.
 
 - Texas formation: $300
 - Texas registered agent: ~$150 (not yet confirmed)
@@ -480,7 +480,7 @@ The Form 5472 obligation is the single most-missed federal compliance item for f
 ### 13. Cross-References
 
 - `us-tax-workflow-base` -- workflow architecture, conservative defaults, reviewer signoff protocol.
-- `tx-franchise-tax` -- Form 05-102 PIR mechanics, Form 05-163 No Tax Due return, Form 05-158 Long Form franchise tax return.
+- `tx-franchise-tax` -- Form 05-102 PIR mechanics, the No Tax Due threshold (Form 05-163 is not available for 2026 reports), Form 05-158 Long Form franchise tax return.
 - `tx-margin-tax` -- margin tax computation, taxable margin methods (70%, COGS, compensation, $1M alternative), EZ Computation, retail/wholesale rate qualification. (not yet confirmed)
 - `tx-sales-tax` -- Texas sales-and-use tax registration, Form 01-114, taxable services including data processing services under §151.0035, 20% data-processing exemption under §151.351, economic nexus threshold of $500,000 under §151.107.
 - `us-tx-freelance-intake` -- Texas-resident freelance developer intake form, document collection, federal-plus-Texas workflow entry point.
@@ -497,7 +497,7 @@ Before finalizing entity-formation advice, the reviewer should confirm:
 3. [ ] Has a Texas-physical-address registered agent been identified and consent obtained?
 4. [ ] Has the entity been registered with the Texas Comptroller (Texas Taxpayer Number assigned)?
 5. [ ] Has the May 15 PIR filing been calendared and assigned to an owner?
-6. [ ] If revenue is projected to exceed $2.47M, has the margin tax been estimated and reserved? (not yet confirmed)
+6. [ ] If revenue is projected to exceed the No Tax Due threshold ($2.65 million for the 2026 report), has the margin tax been estimated and reserved?
 7. [ ] If the entity is a Series LLC, has the separate-records discipline been put in place (separate bank accounts, separate bookkeeping, separate contracts)?
 8. [ ] If the entity is a foreign qualification, has the home-state Certificate of Existence been obtained and dated within 91 days of the Texas filing?
 9. [ ] Has the federal classification election (Form 8832 or Form 2553) been considered and documented?
@@ -515,7 +515,7 @@ The following requests are outside this skill's scope and should be referred els
 - **R-TX-FORM-2** -- Forming a Texas professional entity (PLLC, PA, PC) where Texas licensing-board approval is required (medical, legal, dental, engineering, architecture) -- refer to a Texas-licensed attorney for board-approval mechanics.
 - **R-TX-FORM-3** -- Texas-to-Delaware or Delaware-to-Texas conversions, mergers, or domestications -- refer to specialized corporate counsel; federal §368 reorganization tax analysis required.  _(§368)_
 - **R-TX-FORM-4** -- Texas sales-tax registration and computation -- see `tx-sales-tax.md`.  _(tx-sales-tax.md)_
-- **R-TX-FORM-5** -- Texas margin tax computation when revenue exceeds $2.47M -- see `tx-margin-tax.md`.  _(tx-margin-tax.md)_ (not yet confirmed)
+- **R-TX-FORM-5** -- Texas margin tax computation when revenue exceeds $2.65 million (2026 report) -- see `tx-franchise-tax.md`.  _(tx-franchise-tax.md)_
 - **R-TX-FORM-6** -- Federal S-corp election break-even analysis -- see `us-s-corp-election-decision`.  _(us-s-corp-election-decision)_
 - **R-TX-FORM-7** -- BOI/CTA filing for periods when the requirement is reinstated -- verify current FinCEN guidance; this skill captures only the November 2025 stay status.
 - **R-TX-FORM-8** -- Texas franchise-tax combined group reporting for affiliated entities -- separate analysis under Texas Tax Code §171.1014.  _(Texas Tax Code §171.1014)_
@@ -564,7 +564,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: the Certificate of Formation fee, Certificate of Authority fee, doing-business thresholds, Series LLC and BOI/CTA points, and the worked examples lack archived line-citations. The archived Comptroller pages in the table state the 2026 No Tax Due threshold ($2.65 million), the 2024-2025 threshold ($2,470,000), and the margin tax rates.
+Not yet confirmed: the doing-business thresholds, Series LLC and BOI/CTA points, registered-agent and Delaware cost estimates, market comparisons, and the worked examples lack archived line-citations. The archived sources in the table state the formation, foreign registration and expedite fees (SOS Form 806), the 2026 No Tax Due threshold ($2.65 million) and the 2024-2025 threshold ($2,470,000), the margin and EZ rules (Tax Code chapter 171), Article 8 Section 24-a, and the Delaware LLC annual tax ($400).
 
 Not yet confirmed against archived sources.
 
@@ -572,6 +572,10 @@ Not yet confirmed against archived sources.
 | --- | --- | --- |
 | Texas Comptroller -- 2026 Franchise Tax Report Forms ("The no tax due threshold for the 2026 report is $2.65 million") | https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php | 2026-10-29 |
 | Texas Comptroller -- Franchise Tax main (Tax Rates, Thresholds and Deduction Limits for Prior Years 2024 and 2025: No Tax Due Threshold $2,470,000; EZ rate 0.331%) | https://comptroller.texas.gov/taxes/franchise/ | 2026-10-29 |
+| Texas Secretary of State -- Business Filings & Trademarks Fee Schedule (Form 806): formation $300, foreign registration $750, expedite $50 / $500 / $750 | https://www.sos.texas.gov/corp/forms/806_boc.pdf | 2026-10-31 |
+| Texas Constitution Article 8 (Sec. 24 repealed Nov. 5, 2019; Sec. 24-a individual income tax prohibited) | https://statutes.capitol.texas.gov/?tab=2&code=CN&chapter=CN.8&artSec=8.8 | 2026-10-31 |
+| Texas Tax Code chapter 171 (Sec. 171.002 rates, Sec. 171.101 taxable margin, Sec. 171.1016 E-Z computation) | https://statutes.capitol.texas.gov/?tab=1&code=TX&chapter=TX.171&artSec= | 2026-10-31 |
+| Delaware Code Title 6, chapter 18, subchapter XI (Sec. 18-1107(b) LLC annual tax $400) | https://delcode.delaware.gov/title6/c018/sc11/index.html | 2026-10-29 |
 ## Talk to a verified accountant
 
 This guide is maintained by the OpenAccountants network -- accountants who put
