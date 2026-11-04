@@ -400,10 +400,10 @@ Before signing off on a Georgia estimated tax plan, the reviewer must affirmativ
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| Form 500-UET (individual underpayment of estimated tax, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-500-uet-underp | 2026-10-28 |
-| Form 600-UET (corporate/partnership underpayment, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underp | 2026-10-28 |
-| Form 500-ES estimated tax voucher (2026) | https://dor.georgia.gov/document/document/2026-500-es-estimated-tax-individuals-and-fiduci | 2026-10-28 |
-| Form 602-ES corporate/partnership estimated tax (2026) | https://dor.georgia.gov/document/document/2026-602es-corporate-and-partnership-estimated-t | 2026-10-28 |
+| Form 500-UET (individual underpayment of estimated tax, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-500-uet-underpayment-estimated-tax-individuals/download | 2026-10-28 |
+| Form 600-UET (corporate/partnership underpayment, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underpayment-estimated-tax/download | 2026-10-28 |
+| Form 500-ES estimated tax voucher (2026) | https://dor.georgia.gov/document/document/2026-500-es-estimated-tax-individuals-and-fiduciaries/download | 2026-10-28 |
+| Form 602-ES corporate/partnership estimated tax (2026) | https://dor.georgia.gov/document/document/2026-602es-corporate-and-partnership-estimated-tax/download | 2026-10-28 |
 | GA DOR penalty and interest rates | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
 | HB 149 Pass-Through Entity Tax FAQ | https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq | 2026-10-28 |
 

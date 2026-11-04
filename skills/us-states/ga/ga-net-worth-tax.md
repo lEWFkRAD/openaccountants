@@ -585,8 +585,8 @@ When this skill is invoked, produce a reviewer-ready package containing:
 | --- | --- | --- |
 | GA DOR corporate income and net worth tax page | https://dor.georgia.gov/corporate-income-and-net-worth-tax | 2026-10-28 |
 | GA DOR net worth tax FAQ for corporations | https://dor.georgia.gov/net-worth-tax-corporations-faq | 2026-10-28 |
-| 2025 IT-611 corporate income tax instruction booklet | https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-book | 2026-10-28 |
-| Form 600-UET (underpayment of estimated tax, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underp | 2026-10-28 |
+| 2025 IT-611 corporate income tax instruction booklet | https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download | 2026-10-28 |
+| Form 600-UET (underpayment of estimated tax, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underpayment-estimated-tax/download | 2026-10-28 |
 | GA DOR penalty and interest rates | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
 
 Not yet confirmed: 2026 net worth tax bracket table (2025 brackets archived; 2026 table not retrieved).

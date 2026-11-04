@@ -564,7 +564,7 @@ The reviewer signs off on the brief before any document is filed with the Secret
 | GA DOR 2026 Employer's Tax Guide | https://dor.georgia.gov/document/document/2026-employers-tax-guide-updated-september-2026/download | 2026-10-28 |
 | GDOL Employers FAQs (unemployment insurance) | https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance | 2026-10-28 |
 | FinCEN BOI FAQs (Aug 11 2026 final rule notice) | https://www.fincen.gov/boi-faqs | 2026-11-04 |
-| FinCEN BOI final rule (Federal Register, 2026) | https://www.federalregister.gov/public-inspection/2026-16576/beneficial-ownership-informat | 2026-11-04 |
+| FinCEN BOI final rule (Federal Register, 2026) | https://www.federalregister.gov/documents/2026-08-14/2026-16576/beneficial-ownership-information-reporting-requirement-revision | 2026-11-04 |
 | GA DOR withholding page | https://dor.georgia.gov/withholding | 2026-10-28 |
 
 Not yet confirmed: Secretary of State filing-fee schedule (eCorp fees not archived); Atlanta business-license rate tiers; publication-cost figures.

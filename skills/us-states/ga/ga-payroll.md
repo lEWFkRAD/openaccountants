@@ -561,7 +561,7 @@ A reviewer signing off on a 2025 Georgia payroll engagement should confirm:
 | GA DOR 2026 Employer's Tax Guide (withholding tables, G-7 mechanics) | https://dor.georgia.gov/document/document/2026-employers-tax-guide-updated-september-2026/download | 2026-10-28 |
 | GA DOR withholding page | https://dor.georgia.gov/withholding | 2026-10-28 |
 | GDOL Employers FAQs (unemployment insurance) | https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance | 2026-10-28 |
-| GDOL UI tax reporting and liability | https://dol.georgia.gov/document/unemployment-tax/unemployment-insurance-tax-reporting-and | 2026-10-28 |
+| GDOL UI tax reporting and liability | https://dol.georgia.gov/document/unemployment-tax/unemployment-insurance-tax-reporting-and-liability-information-employers/download | 2026-10-28 |
 | GA DOR penalty and interest rates | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
 
 Not yet confirmed: 2026 experience-rated UI rates (Form DOL-626 not retrieved); GA-V filing-tier thresholds; G-1003 e-filing mandate thresholds.
