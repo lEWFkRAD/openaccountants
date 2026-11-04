@@ -20,7 +20,7 @@ New York levies a graduated individual income tax (4%–10.9%), an Article 9-A c
 | PR, payroll withholding | orchestrator `ny-payroll`, `ny-pte-tax-ptet`; ny-mctmt in this folder | existing |
 | XB, cross-border | ny-residency-leaving-new-york (+ residency content in ny-income-tax) | existing |
 | SC, social contributions (PFL, SDI, UI, MCTMT overlay) | ny-social-contributions | source-cited draft |
-| TP, transfer pricing (Article 9-A combined, receipts, intangibles) | ny-transfer-pricing | source-cited draft | (not yet confirmed)
+| TP, transfer pricing (Article 9-A combined, receipts, intangibles) | ny-transfer-pricing | source-cited draft | figures listed under "Not yet confirmed:" in ny-transfer-pricing
 
 ## Official sources
 
