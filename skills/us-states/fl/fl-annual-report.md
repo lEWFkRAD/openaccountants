@@ -66,7 +66,7 @@ This is a Tier 2 content skill that loads on top of `us-tax-workflow-base`. It c
 | --- | --- | --- |
 | Filing window opens | January 1 of each year | Sunbiz filing instructions |
 | Filing deadline | May 1 of each year | §605.0212(5), F.S.; §607.1622, F.S. |
-| Late filing (supplemental fee) | After May 1, $400 supplemental late fee applies | §605.0212(5)(b), F.S. |
+| Late filing (supplemental fee) | After May 1, $400 late fee applies to profit corporations, LLCs, LPs and LLLPs; not-for-profit corporations are not subject to it | §607.193(2)(b), F.S.; Sunbiz filing instructions |
 | Administrative dissolution | If no annual report filed by the 3rd Friday in September | §605.0714, F.S. |
 
 ### How to file
@@ -82,12 +82,12 @@ This is a Tier 2 content skill that loads on top of `us-tax-workflow-base`. It c
 | LLC (domestic or foreign) | $138.75 | §605.0212(5)(a), F.S. |
 | For-profit corporation (domestic or foreign) | $150.00 | §607.0122(1), F.S. |
 | Not-for-profit corporation | $61.25 | §617.0122, F.S. |
-| Late fee (all entity types) | $400.00 | §605.0212(5)(b), F.S. |
+| Late fee (profit corporations, LLCs, LPs, LLLPs; not-for-profits exempt) | $400.00 | §607.193(2)(b), F.S.; Sunbiz filing instructions |
 | Registered agent fee (if changing) | $25.00 | §605.0212(5)(a), F.S. |
 
 ## Section 3 -- Fees
 
-- **Note on the $138.75 LLC fee** — This is a combined fee. It includes the $100 annual report fee plus the $38.75 registered agent fee when the registered agent remains the same. If the registered agent is changed, the total may differ.  _(§605.0212(5)(a), F.S.)_
+- **Note on the $138.75 LLC fee** - This is Sunbiz's "Annual Report (& Supplemental Fee)" line: the $50 annual report fee under §605.0213(5), F.S. plus the $88.75 supplemental corporate fee under §607.193(1), F.S.  _(§605.0213(5), F.S.; §607.193(1), F.S.; Sunbiz LLC fee schedule)_
 
 ## Section 4 -- Computation rules (Step format)
 
@@ -192,8 +192,6 @@ Before delivering output, verify:
 ## Section 9 -- Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
