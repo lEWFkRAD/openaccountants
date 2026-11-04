@@ -373,6 +373,9 @@ This is the **prior-year safe harbor magic**: even though Janet has a massive Q4
 
 Under annualization, Janet would owe $10,934 − $1,200 elected withholding − $0 prior installments = $9,734 with the Q4 installment due Jan 15, 2026. Significantly better than 25/25/25/25, which would have required $2,737 per quarter starting Apr 15 — and would have generated penalty on Q1, Q2, Q3 underpayments because the capital gain hadn't yet occurred.
 
+
+
+
 ### Sources (moved below)
 
 ### Cross-References

@@ -520,6 +520,9 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 **Recommendation:** advise client to file Articles of Dissolution with the Secretary of State AND file a final Form 600 (marked "Final Return") to end the obligation cleanly.
 
+
+
+
 ### 12. Common Errors and Audit Flash Points (Consolidated)
 
 1. [FLASH] S-corp owners assuming no entity-level GA tax. S-corps absolutely owe net worth tax. The S-election is federal only. See Section 4.3 and Example 3.

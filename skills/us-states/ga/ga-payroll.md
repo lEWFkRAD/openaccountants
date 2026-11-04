@@ -509,6 +509,7 @@ A balanced IRS 20-factor read: more likely employee than independent contractor.
 
 Reclassify Carlos as a W-2 employee prospectively. Discuss with Peachtree's counsel whether to file amended returns voluntarily (potentially mitigating penalties) or wait for audit assessment. Document the 4 P's analysis in the file.
 
+
 ### 12. Cross-Reference to Federal Payroll Skills
 
 When this skill is loaded alongside the federal payroll content skills, the following responsibilities are split:
