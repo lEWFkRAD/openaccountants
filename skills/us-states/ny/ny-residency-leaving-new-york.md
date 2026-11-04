@@ -227,7 +227,7 @@ In both cases the Department can still argue she never changed domicile at all. 
 | Source | URL | Read on |
 |---|---|---|
 | DTF residency FAQ | https://www.tax.ny.gov/pit/file/nonresident-faqs.htm | 2026-10-25 |
-| Income tax definitions | https://www.tax.ny.gov/pit/file/pit_definitions.htm | 2026-10-25 |
+| Permanent place of abode bulletin (TB-IT-690) | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/pit/permanent_place_of_abode.htm | 2026-10-25 |
 
 Not yet confirmed: Yonkers and NYC-specific move-year worksheets beyond the archived FAQ pages.
 

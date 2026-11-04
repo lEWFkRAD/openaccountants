@@ -2369,12 +2369,12 @@ This turn drafted the final five sections (10-14) of `ny-it-201-resident-return`
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| Form IT-201 instructions (2025) | https://www.tax.ny.gov/pdf/2025/it/it201i.pdf | 2026-10-28 |
-| Form IT-203 instructions (2025) | https://www.tax.ny.gov/pdf/2025/it/it203i.pdf | 2026-10-28 |
-| Form IT-225 instructions (2025 additions/subtractions) | https://www.tax.ny.gov/pdf/2025/it/it225i.pdf | 2026-10-28 |
+| Form IT-201 instructions (2025) | https://www.tax.ny.gov/pdf/2025/inc/it201i_2025.pdf | 2026-10-28 |
+| Form IT-203 instructions (2025) | https://www.tax.ny.gov/forms/current-forms/it/it203i.htm | 2026-10-28 |
+| Form IT-225 instructions (2025 additions/subtractions) | https://www.tax.ny.gov/pdf/current_forms/it/it225i.pdf | 2026-10-28 |
 | NY Tax Law §601 (tax imposed) | https://www.nysenate.gov/legislation/laws/TAX/601 | 2026-11-03 |
 | NY Tax Law index (article titles) | https://www.nysenate.gov/legislation/laws/TAX | 2026-11-03 |
-| NYSDTF 2026 tax filing dates calendar | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/2026_tax_filing_dates.htm | 2026-10-28 |
+| NYSDTF 2026 tax filing dates calendar | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/it/2026_tax_filing_dates.htm | 2026-10-28 |
 
 Not yet confirmed: 2026 (tax year) IT-201 figures pending release; Yonkers City Code section text not archived; NYC rate-schedule tables beyond IT-201-I not archived.
 
