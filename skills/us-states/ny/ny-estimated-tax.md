@@ -27,7 +27,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Tax | Quarterly estimated income tax (state + NYC + Yonkers) plus MCTMT estimated payments when applicable |
 | Forms | IT-2105 (voucher), IT-2105.9 (underpayment penalty) |
 | Primary legislation | NY Tax Law Section 685 |
-| Supporting legislation | NYC Admin Code 11-1701; NY Tax Law Art. 30-A (Yonkers); NY Tax Law Art. 23 (MCTMT) |
+| Supporting legislation | NYC Admin Code 11-1701; NY Tax Law Article 30-A (Yonkers); NY Tax Law Article 23 (MCTMT) |
 | Authority | New York State Department of Taxation and Finance (NYSDTF) |
 | Portal | www.tax.ny.gov |
 | Currency | USD only |
