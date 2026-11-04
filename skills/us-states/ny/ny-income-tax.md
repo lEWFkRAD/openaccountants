@@ -1036,7 +1036,7 @@ This turn drafted Section 5 — position rules — for `ny-it-201-resident-retur
 - **Position 5.15** (§174A R&E expensing) is the dedicated uncertainty section with the two-path reviewer decision — this is the most consequential position in the skill because it handles the unresolved OBBBA decoupling question
 - **Position 5.19** (NY state tax computation) explicitly handles the three-method decision (table / rate schedule / >$107,650 worksheet) with the recapture mechanism explained
 - **Position 5.24** (NYC UBT credit via Form IT-219) flows the UBT credit from the companion NYC UBT skill through IT-219, IT-201-ATT Section C, and Line 53 with the sliding-scale phase-out computed
-- **Positions 5.28-5.30** (MCTMT for self-employed) handle Zone 1 and Zone 2 separately with the per-individual-per-zone $50,000 threshold rule
+- **Positions 5.28-5.30** (MCTMT for self-employed) handle Zone 1 and Zone 2 separately with the per-individual-per-zone threshold rule ($50,000 for tax years beginning before Jan 1, 2026; $150,000 for later years — NY Tax Law §801(a), archived `US-NY-dr-nysenate-tax-801.txt`)
 
 Position count: 34 positions across 8 subsections (not the 25 originally estimated — the MCTMT per-zone rules and the sub-state layers required more structured positions than the initial plan budgeted). Total file length after Turn 1 + Turn 2: approximately 1,400 lines (440 from Turn 1, roughly 960 from Turn 2).
 
@@ -1064,7 +1064,7 @@ Sections 6-14 remain for Turns 3 and 4. Estimated total file length at completio
 | 15 | NYC UBT credit IT-219 sliding-scale computation produces a non-integer percentage | Round the credit amount to the nearest dollar, not the percentage | Form IT-219 instructions; Position 5.24 |
 | 16 | Taxpayer had living quarters in Yonkers for part of 2025 but facts do not clearly support Yonkers residency | Default to NOT claiming Yonkers residency; apply only the Yonkers nonresident earnings tax if applicable; flag for reviewer | NY Tax Law §605(b); Yonkers City Code §92-5; Position 5.4 |
 | 17 | MCTMT zone allocation is ambiguous (taxpayer works in both Zone 1 and Zone 2) | Refuse under R-NY201-7; zone allocation requires Form IT-203-A which is out of scope | NY Tax Law §800(b); Position 5.28 |
-| 18 | MFJ return with one spouse over the $50,000 MCTMT zone threshold and one spouse under | Apply the per-individual rule: include only the spouse's NESE that exceeds $50,000; exclude the under-threshold spouse's base | NY Tax Law §801(b); Form IT-201-I (2025) Line 54 example |
+| 18 | MFJ return with one spouse over the MCTMT zone threshold ($50,000 pre-2026 years; $150,000 for 2026+, NY Tax Law §801(a), archived `US-NY-dr-nysenate-tax-801.txt`) and one spouse under | Apply the per-individual rule: include only the spouse's NESE that exceeds $50,000; exclude the under-threshold spouse's base | NY Tax Law §801(b); Form IT-201-I (2025) Line 54 example |
 | 19 | Empire State Child Credit phase-out computation produces a fractional amount | Round to the nearest dollar; document the computation in the reviewer brief | NY Tax Law §606(c-1); Form IT-213 instructions |
 | 20 | NY EIC is claimed but the federal EIC is contested or the taxpayer is near the federal phase-out | Defer to the federal return's final EIC amount; 30% of the federal figure, no independent computation | NY Tax Law §606(d); Form IT-215 |
 | 21 | Payments from Form IT-2105 vouchers are claimed but voucher receipts are not produced | Flag for reviewer; do not include un-documented estimated payments | Form IT-201 (2025) Line 75 |
