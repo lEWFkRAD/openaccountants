@@ -93,7 +93,7 @@ GA DOR publishes two methods in the annual Employer's Tax Guide (Publication TSD
 - **Personal exemption 2025** — $0 for 2025. The personal exemption was eliminated under HB 1437 when Georgia moved to the flat-rate structure, replaced by a higher standard deduction.  _(HB 1437)_
 - **Dependent exemption** — $4,000 per qualifying dependent (this remains in place under HB 1437 — only the personal exemption was eliminated)  _(HB 1437)_
 
-### 2.4 Withholding worked computation
+### 2.4 Worked example — Withholding computation
 
 **Example:** Single employee, biweekly pay, gross wages $2,500, claims 0 dependents on Form G-4.
 
@@ -433,7 +433,7 @@ In practice, GDOL audits the 4 P's by examining:
 
 ## 11. Worked Examples
 
-### 11.1 Example A — Atlanta-based 10-employee employer, full Q1 2025 payroll cycle
+### Worked example A — Atlanta-based 10-employee employer, full Q1 2025 payroll cycle
 
 Atlanta Software Studio LLC, a single-member LLC disregarded for federal tax (owned by Maria Chen, GA resident), elects to be treated as an S-corporation effective January 1, 2025. The company has 10 W-2 employees including Maria as a shareholder-employee, all working from a midtown Atlanta office. Total Q1 2025 GA wages: $480,000. Total Q1 2025 GA withholding remitted: $19,200 (4% effective rate after G-4 allowances). No 1099 contractors paid in Q1.
 
@@ -471,7 +471,7 @@ By February 2, 2026 (January 31, 2026 is Saturday), file G-1003 transmitting all
 | February 2025 | $6,300 |
 | March 2025 | $6,500 |
 
-### 11.2 Example B — Georgia resident commuting to Alabama
+### Worked example B — Georgia resident commuting to Alabama
 
 Devon Brooks lives in Columbus, GA and commutes daily to Phenix City, AL where he works for an Alabama-based manufacturer (Phenix Industrial Inc.). Phenix Industrial has no Georgia employees, no Georgia office, and no Georgia nexus. Devon's annual W-2 wages: $72,000. Phenix Industrial withholds Alabama state income tax under Alabama law.
 
@@ -484,7 +484,7 @@ Phenix Industrial reports Devon to Alabama new-hire reporting (Devon works in Al
 
 - **Step 5 — Watch-out — work-from-home days** — If Devon works some days remotely from his Columbus, GA home, the analysis changes. Days worked in Georgia create: - A potential Georgia withholding obligation for Phenix Industrial on the portion of wages allocable to Georgia work days (Phenix would need to register as a Georgia withholding agent). - A potential Georgia UI liability for Phenix on Georgia-source wages under O.C.G.A. §34-8-35(g)(2) "localization of work" tests. - A potential nexus issue for corporate income tax — beyond the scope of this skill, refer to GA corporate income tax skill. Many cross-border commuter arrangements break exactly here when COVID-era remote work patterns persist. Confirm with the employee and employer the actual physical location of work performance for each pay period.  _(O.C.G.A. §34-8-35(g)(2))_
 
-### 11.3 Example C — Contractor classification, Atlanta general contractor with framing subcontractor
+### Worked example C — Contractor classification, Atlanta general contractor with framing subcontractor
 
 Peachtree Builders LLC is an Atlanta-based residential general contractor with 5 W-2 employees. Peachtree engages Carlos Reyes to perform framing on a series of single-family homes during 2025. Peachtree pays Carlos $48,000 over the year via 1099-NEC. The question on a GDOL UI audit: is Carlos an independent contractor or an employee?
 

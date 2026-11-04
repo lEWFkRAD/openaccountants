@@ -176,7 +176,7 @@ For a single-member LLC, the skill produces a one-page template Operating Agreem
 ### 3.5 GA DOR and DOL registrations
 
 - **Sales and Use Tax registration trigger and output** — Georgia Department of Revenue (Sales and Use Tax) — required if the LLC sells tangible personal property in Georgia, or if it sells digital products or services that are taxable under O.C.G.A. § 48-8-2, or if it crosses the economic nexus threshold from out-of-state. Registration is via the Georgia Tax Center (GTC) at https://gtc.dor.ga.gov and is free. The output is a Sales and Use Tax Number (format: nine digits) and a Certificate of Registration that must be displayed at the place of business. (For SaaS specifically, Georgia exempts most software-as-a-service from sales tax as of 2025 because Georgia taxes only specified digital products under O.C.G.A. § 48-8-3.5 — but the SaaS exemption is fact-specific and the reviewer should confirm; see `ga-sales-tax`.)  _(O.C.G.A. § 48-8-2; § 48-8-3.5)_
-- **Withholding and Unemployment registration** — Georgia Department of Labor (Withholding and Unemployment) — required only if the LLC has Georgia-resident W-2 employees. Registration is via the Georgia Tax Center for the withholding account (DOR-administered) and via the Department of Labor Employer Portal for the unemployment insurance account. The withholding account is free; the unemployment account opens with a default new-employer rate (2.7% in 2025 for most industries, with construction at a higher rate).
+- **Withholding and Unemployment registration** — Georgia Department of Labor (Withholding and Unemployment) — required only if the LLC has Georgia-resident W-2 employees. Registration is via the Georgia Tax Center for the withholding account (DOR-administered) and via the Department of Labor Employer Portal for the unemployment insurance account. The withholding account is free; the unemployment account opens with a default new-employer rate (2.70% for most industries, with construction at a higher rate)  _(GDOL Employer FAQs).
 
 The skill does not automatically register the LLC for these accounts. It produces a recommendation in the output reviewer brief, and the reviewer or the client's payroll provider executes the registration. Premature registration triggers ongoing filing obligations (zero-return filings) that the client may not want.
 
@@ -383,7 +383,7 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 
 ## 12. Worked examples
 
-### 12.1 Example A — Atlanta SaaS LLC (single member, Georgia resident)
+### Worked example A — Atlanta SaaS LLC (single member, Georgia resident)
 
 **Facts.** Maria, a Georgia resident living in Midtown Atlanta, has been freelancing as a software developer with annual revenue of $185,000. She wants to form an LLC to (a) shield personal assets, (b) open a business operating account, and (c) be in position to elect S-corporation treatment in the future. She has no employees and no plans to hire. She sells SaaS subscriptions to clients across the US, with about 12% of her revenue from Georgia-based clients. She works from her home office.
 
@@ -403,7 +403,7 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 12. **Annual Registration.** Calendar for January 15 each year. First filing due April 1, 2027 (if formation is 2026) — Maria should be reminded that the first Annual Registration is the year *after* formation.
 13. **S-election decision.** Defer to `us-s-corp-election-decision`. At $185k revenue, an S-election is potentially beneficial. The skill recommends Maria consider S-election after formation — Form 2553 within 75 days of formation, or by March 15 of any subsequent year.
 
-### 12.1 Example A — Atlanta SaaS LLC (single member, Georgia resident)
+### Worked example A — Atlanta SaaS LLC (single member, Georgia resident)
 
 - Articles of Organization filed: $100.
 - General Business Tax Certificate (Atlanta): $250 (first year).
@@ -411,7 +411,7 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 - Total first-year Georgia/Atlanta costs: **$350**.
 - Annual recurring: **$50** (Annual Registration) + **$225** (Atlanta business license recurring, estimated) = **$275/year**.
 
-### 12.2 Example B — Georgia real estate investment LLC
+### Worked example B — Georgia real estate investment LLC
 
 **Facts.** Robert is an out-of-state investor (Florida resident) who has just purchased two Atlanta rental properties (one in Inman Park, one in East Atlanta Village) and is under contract on a third in Decatur (DeKalb County, outside Atlanta city limits). He wants each property in a separate LLC for liability segregation. He has no other Georgia activity and will not visit the properties; a Georgia-based property manager handles operations.
 
@@ -432,7 +432,7 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 
 - **Georgia nonresident rental income sourcing** — Georgia-sourced rental income is subject to Georgia personal income tax under nonresident sourcing rules; nonresident files Form 500 (Georgia Nonresident Individual Income Tax Return) annually.  _(O.C.G.A. § 48-7-30)_
 
-### 12.2 Example B — Georgia real estate investment LLC
+### Worked example B — Georgia real estate investment LLC
 
 - Articles of Organization: $300 (three LLCs).
 - Commercial registered agent (year 1): $375.
@@ -441,13 +441,13 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 - Total first-year Georgia costs: approximately **$1,075**.
 - Annual recurring: $150 (Annual Registration) + $375 (registered agent) + $300 (Atlanta licenses) + $100 (DeKalb) = **$925/year**.
 
-### 12.2 Example B — Georgia real estate investment LLC
+### Worked example B — Georgia real estate investment LLC
 
 - Robert should also confirm that his property insurance carrier permits LLC ownership; some homeowner-style policies do not cover LLC-owned rentals.
 - The skill flags Robert's foreign-investor status as raising a separate FinCEN BOI question if the stay is lifted — Robert is a US resident (Florida), so the BOI status is the standard US-person status, but his offshore exposure (if any) should be confirmed.
 - Robert may benefit from a **Georgia Series LLC alternative structure** — see §3.6 — but Georgia's lack of series LLC recognition makes this approach require separate LLCs. The skill does not recommend forming a Delaware series LLC and qualifying it in Georgia, because the Georgia treatment is unsettled (see §3.6).
 
-### 12.3 Example C — Foreign-resident Georgia LLC (UK founder)
+### Worked example C — Foreign-resident Georgia LLC (UK founder)
 
 **Facts.** Alex is a UK citizen and UK resident, with no US residency status (no green card, no substantial presence). Alex runs a software-consulting business serving US clients and wants to form a Georgia LLC because Alex's largest client is an Atlanta-based fintech. Alex will not relocate to Georgia and will not physically visit on more than an occasional basis (under 20 days per year).
 
@@ -473,7 +473,7 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 - **Georgia sales tax scope on services** — Georgia taxes only specified services under O.C.G.A. § 48-8-3.5; software consulting services are generally not subject to Georgia sales tax.  _(O.C.G.A. § 48-8-3.5)_
 - **Georgia income tax market-based sourcing for services** — Software services are sourced under the market-based rule to where the customer receives the benefit.  _(O.C.G.A. § 48-7-31(d)(2)(B))_
 
-### 12.3 Example C — Foreign-resident Georgia LLC (UK founder)
+### Worked example C — Foreign-resident Georgia LLC (UK founder)
 
 - Articles of Organization: $100.
 - Commercial registered agent: $150 (year 1).
@@ -482,7 +482,7 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 
 This example illustrates that the Georgia formation itself is straightforward and cheap. The US federal tax compliance for a foreign-owned LLC is the cost driver. The skill explicitly defers that compliance to a US international tax specialist and does not produce federal positions for foreign-owned LLCs.
 
-### 12.4 Example D — PLLC for a medical practice
+### Worked example D — PLLC for a medical practice
 
 **Facts.** Dr. Lisa Chen is a Georgia-licensed physician (internal medicine), currently employed as a W-2 employee at a hospital. She wants to open a solo private practice in Decatur. She is the sole shareholder, will be the sole physician, and will hire one medical assistant (W-2 employee) and one receptionist (W-2 employee). She will accept insurance.
 
@@ -511,9 +511,10 @@ This example illustrates that the Georgia formation itself is straightforward an
 16. **S-election consideration.** At sufficient profitability (>$80k net), an S-election is potentially beneficial for SE-tax purposes. Defer to `us-s-corp-election-decision`.
 
 - **Georgia workers' compensation requirement threshold** — Worker's compensation insurance is required for any Georgia employer with three or more employees.  _(O.C.G.A. § 34-9-2)_
-- **New-employer UI rate** — 2.7% percent
+- **New-employer UI rate** — 2.70% percent (new or newly covered employers are assigned a total tax rate of 2.70 percent until eligible for experience rating)  _(GDOL Employer FAQs)_
+- **Construction new-employer rate** — Construction industry new employers are assigned a higher default rate than 2.70%  _(GDOL Employer FAQs) [verify current construction rate at filing]
 
-### 12.4 Example D — PLLC for a medical practice
+### Worked example D — PLLC for a medical practice
 
 - Composite Medical Board certification: $100.
 - Articles of Organization: $100.

@@ -125,7 +125,7 @@ This is the most common preparer error in GA estimated tax planning. A taxpayer 
 | 3 (Sep 15) | 75% |
 | 4 (Jan 15) | 100% |
 
-- **Cumulative basis and withholding ratable treatment** — The safe harbor must be met on a cumulative installment basis, not annually. A taxpayer who underpays Q1 but overpays Q2 is still penalized for the Q1 underpayment for the period it was outstanding (Apr 16 to the date the Q2 payment was made). Withholding, however, is treated as paid ratably across the four installments unless the taxpayer elects otherwise — this gives W-2 employees an advantage over self-employed taxpayers.
+- **Cumulative basis and withholding ratable treatment** — The safe harbor must be met on a cumulative installment basis, not annually. A taxpayer who underpays Q1 but overpays Q2 is still penalized for the Q1 underpayment for the period it was outstanding (Apr 16 to the date the Q2 payment was made). Withholding, however, is treated as paid ratably across the four installments unless the taxpayer elects otherwise — this gives W-2 employees an advantage over self-employed taxpayers.  _(Form 500-UET, line 9: "withheld treated equally paid for each quarter")_
 
 ## 6. Annualized Income Installment Method
 
@@ -256,7 +256,7 @@ Did the entity make a PTE election for the current tax year?
 
 ## 10. Worked Examples
 
-### Example 1 — Self-employed sole proprietor paying quarterly
+### Worked example 1 — Self-employed sole proprietor paying quarterly
 
 **Facts**: Maya is a Georgia-resident freelance graphic designer (sole proprietor, no LLC). Prior year (TY 2024) federal AGI was $95,000, GA AGI was $93,000 (after retirement income exclusion adjustments), and GA tax liability was $4,400. Current year (TY 2025) expected GA AGI is $110,000 with expected GA tax of $5,500. No W-2 withholding.
 
@@ -275,7 +275,7 @@ Did the entity make a PTE election for the current tax year?
 
 **Form 500-ES vouchers**: Four vouchers, each marked TY 2025, with installment numbers 1/2/3/4. Maya pays online through Georgia Tax Center.
 
-### Example 2 — W-2 employee with side gig
+### Worked example 2 — W-2 employee with side gig
 
 **Facts**: Daniel is a GA-resident software engineer with a $180,000 W-2 (Georgia withholding $8,400). He also has a freelance consulting side business expected to generate $40,000 net SE income for TY 2025. Prior year (TY 2024) federal AGI was $195,000 (over $150K), prior year GA tax was $8,800, prior year GA withholding was $8,200 (covered prior-year tax with a small balance due).
 
@@ -295,7 +295,7 @@ Withholding alone exceeds the safe harbor at every installment. **No additional 
 
 > Note: Without the 110% modifier (using just 100% × $8,800 = $8,800 vs 70% × $11,420 = $7,994), the lower-of is still $7,994 and the answer doesn't change in this example. But if prior year GA tax had been, say, $7,500, the 110% rule would have given $8,250 vs $7,994 → lower-of $7,994 (same result). The 110% modifier matters most when the 70% current-year safe harbor is HIGHER than 100% of prior year — see Example 3.
 
-### Example 3 — High-income with the 110% modifier mattering
+### Worked example 3 — High-income with the 110% modifier mattering
 
 **Facts**: Priya is a GA resident with $400,000 prior-year federal AGI (well over $150K). Prior year GA tax was $20,000 (all paid through withholding, no balance). Current year she expects similar income but no withholding (she retired mid-year and is now drawing from a sole proprietor consulting practice). Current-year expected GA tax: $19,000.
 
@@ -314,7 +314,7 @@ In that scenario, the preparer who forgets the 110% modifier would set the safe 
 
 > **The lesson**: ALWAYS check the 110% modifier eligibility before locking in the safe harbor strategy, even if the answer turns out to be the same.
 
-### Example 4 — S-corp owner with PTE election interaction
+### Worked example 4 — S-corp owner with PTE election interaction
 
 **Facts**: Marcus owns 100% of a GA S-corporation that elects PTE treatment under O.C.G.A. §48-7-23 for TY 2025. The S-corp expects $250,000 of Georgia-source income. Marcus also receives a $90,000 W-2 from the S-corp (GA withholding $4,200). Prior year (TY 2024) the PTE election was NOT in effect; Marcus's prior year GA tax was $16,000 (on combined $90K W-2 + $240K K-1 income) and prior year federal AGI was $325,000.
 
@@ -332,7 +332,7 @@ The correct approach: Recognize that the PTE election fundamentally changes the 
 
 > **The PTE-election quarterly payments confusion AUDIT FLASH POINT #3**: This is exactly the trap. A preparer who mechanically applies the 110% prior-year safe harbor without recognizing the PTE-election change will set Marcus up to overpay by $13,000+ in individual estimated tax that ultimately gets refunded. The correct strategy is to use the current-year safe harbor in the first year of a PTE election, then reset to the prior-year safe harbor in year 2 when the prior-year baseline reflects the post-election liability.
 
-### Example 5 — Capital gain in Q4 — annualized method
+### Worked example 5 — Capital gain in Q4 — annualized method
 
 **Facts**: Janet is a GA-resident retiree with $50,000 of pension and SS income (effective GA tax after retirement exclusion: $1,200, all covered by elective withholding). In November 2025 she sells investment property for a $300,000 long-term capital gain (Georgia taxes capital gains at ordinary rates — 5.19% in 2025). Additional GA tax: $300,000 × 5.19% = $15,570. Prior year (TY 2024) GA tax was $1,150, prior year federal AGI was $52,000.
 

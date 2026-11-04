@@ -362,7 +362,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 ## 11. Worked Examples
 
-### 11.1 Example 1 — Small Georgia C-corporation
+### Worked example 1 — Small Georgia C-corporation
 
 **Facts:**
 - Atlas Manufacturing Inc., Georgia C-corp incorporated 2018
@@ -385,7 +385,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 **Result:** Atlas owes $500 net worth tax for 2025. Combined with income tax, Atlas exceeds the $500 estimated-payment threshold, so it must file Form 602-ES quarterly for 2026.
 
-### 11.2 Example 2 — Large Georgia C-corporation at the cap
+### Worked example 2 — Large Georgia C-corporation at the cap
 
 **Facts:**
 - Peachtree Holdings Inc., GA-chartered C-corp
@@ -410,7 +410,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 [AUDIT FLASH POINT — accumulated deficit traps] Note in this example that Base A ($100M paid-in capital) is much larger than Base B ($80M net worth) precisely because of the $20M accumulated deficit. Tax preparers who default to "use net worth" without computing capital stock + paid-in capital understate the tax. For startups with heavy losses against high VC funding, Base A is almost always the controlling base.
 
-### 11.3 Example 3 — S-corporation with surprised owner
+### Worked example 3 — S-corporation with surprised owner
 
 **Facts:**
 - Magnolia Consulting Inc., Georgia S-corp (incorporated 2024 as a C-corp, elected S-corp via Form 2553 effective 2024)
@@ -441,7 +441,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 **Owner conversation script:** "Your S-corp pays Georgia Net Worth Tax — a separate capital tax that exists alongside income tax. It's based on your balance sheet, not your profits. For 2025, it's $750. Going forward, plan on this amount escalating as retained earnings grow, or distribute earnings annually to keep net worth in a lower bracket. The next bracket is $1,000 if you cross $2,000,000."
 
-### 11.4 Example 4 — Foreign corporation registered in Georgia
+### Worked example 4 — Foreign corporation registered in Georgia
 
 **Facts:**
 - Hyperion Software Inc., Delaware C-corp
@@ -466,7 +466,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 **Common error trap:** A Delaware C-corp with $100M+ total net worth might assume it owes the $5,000 cap. But apportionment matters — at 10% GA apportionment, the GA net worth base is only $10M, falling well below the cap. Always apply the apportionment factor BEFORE looking up the bracket.
 
-### 11.5 Example 5 — LLC with C-corp election
+### Worked example 5 — LLC with C-corp election
 
 **Facts:**
 - Verdant Wellness LLC, single-member LLC organized in Georgia 2023, owned by an individual GA resident
@@ -494,7 +494,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 **Result:** Verdant Wellness LLC files Form 600 (NOT Form 1065 or Schedule C) and owes $200 net worth tax. The Form 8832 election locks the LLC into corporate treatment until revoked (60-month rule under federal regulations).
 
-### 11.6 Example 6 — Dormant corporation
+### Worked example 6 — Dormant corporation
 
 **Facts:**
 - Riverside Properties Inc., Georgia C-corp incorporated 2015
