@@ -29,8 +29,8 @@ What New Hampshire does tax, and what this skill covers:
 ### 1.1 Out of scope (refer out)
 
 - **Real Estate Transfer Tax (RETT)** under RSA 78-B - the rate of the tax is $.75 per $100, or fractional part thereof, of the price or consideration for the sale, grant, or transfer; both the grantor and the grantee are required to buy and attach indicia of tax paid. Refer to a real-estate-tax-focused engagement.  _(RSA 78-B:1; RSA 78-B:4)_
-- **Meals and Rooms (Rentals) Tax** under RSA 78-A - 8.5 percent of the charge for meals and other prepared food and for lodging. Refer to a hospitality-vertical engagement.  _(RSA 78-A:6)_
-- **Communications Services Tax** under RSA 82-A - 7 percent of the gross charge for two-way communications services.  _(RSA 82-A:3)_
+- **Meals and Rooms (Rentals) Tax** under RSA 78-A, imposed on charges for meals, other prepared food, and lodging. Refer to a hospitality-vertical engagement.  _(RSA 78-A:6)_
+- **Communications Services Tax** under RSA 82-A, imposed on the gross charge for two-way communications services.  _(RSA 82-A:3)_
 - **Property tax** - administered by municipalities, not the NH Department of Revenue Administration.
 - **Interest & Dividends Tax (I&D)** under RSA 77 - **REPEALED** for tax periods beginning on or after January 1, 2025. See the section on the repeal below.
 
@@ -168,7 +168,7 @@ S-corporations are treated the same as C-corporations for BPT purposes; flow-thr
 
 ### 4.1 Returns and due dates
 
-- Partnership returns (BPT and BET) are due the 15th day of the 3rd month following the end of the taxable period. Corporate, proprietorship, fiduciary, and combined returns are due the 15th day of the 4th month. For calendar-year filers: March 15 (partnerships) and April 15 (all others).  _(RSA 77-A:6, I; NH DRA BPT FAQ; NH DRA BET FAQ)_
+- Partnership returns (BPT and BET) are due the 15th day of the 3rd month following the end of the taxable period. Corporate, proprietorship, fiduciary, and combined returns are due the 15th day of the 4th month.  _(RSA 77-A:6, I; NH DRA BPT FAQ; NH DRA BET FAQ)_
 - All federal schedules must be attached to original and amended BPT returns; proprietorships must include Schedules C, D, E, F, 4797, and 6252 as applicable.  _(NH DRA BPT FAQ)_
 - All taxpayers file the BT-Summary form to report name and address information and summarize taxes due; if the BET return is not required, NO must be checked in Step 2 of the BT-Summary.  _(NH DRA BET FAQ)_
 
