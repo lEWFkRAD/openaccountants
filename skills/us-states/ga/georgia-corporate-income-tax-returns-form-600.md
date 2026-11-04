@@ -20,13 +20,13 @@ STARTER DRAFT, generic. Your corrections below will make it yours.
 
 Form 600 is the annual corporate income tax return filed with Georgia's state tax authority (name and portal — citation to confirm) by C-corporations that do business in, own property in, or derive income from Georgia. It covers the corporation's tax year (calendar or fiscal) and reports Georgia taxable income, and may also include a net worth tax component (concept — confirm before filing).
 
-## Who this is for
+### Who this is for
 
 C-corporations incorporated in Georgia, or foreign (out-of-state) corporations registered or doing business in Georgia.
 Preparers handling a first-year Georgia filing or picking up an existing client.
 Not for S-corporations, partnerships, or LLCs taxed as pass-throughs — those use different forms (confirm which before filing).
 
-## Before you start, ask the client
+### Before you start, ask the client
 
 Federal return (Form 1120) — is it final? Georgia typically starts from federal taxable income (confirm the starting line before filing).
 Is the company doing business in other states? Apportionment method and factor(s) — confirm before filing.
@@ -36,7 +36,7 @@ Registration status with the state tax authority and the Secretary of State (con
 Balance sheet as of year-end, if a net worth tax component applies (concept — confirm before filing).
 Any Georgia-specific credits claimed or planned (jobs, investment, etc. — confirm availability and forms).
 
-## The method, step by step
+### The method, step by step
 
 Open the finalized federal Form 1120 and confirm it is the version being filed — Georgia builds from it.
 Check the client's registration and account standing on the state tax authority's portal (portal name — citation to confirm).
@@ -49,7 +49,7 @@ Check whether e-filing is mandatory or optional for this client (confirm before 
 Review the return against the prior year for consistency; reconcile any large swings.
 File by the due date, pay any balance due through the approved payment channel, and calendar next year's estimated payment dates (all dates — confirm before filing).
 
-## The traps
+### The traps
 
 Assuming the federal and Georgia treatment of every item matches — state addback/subtraction rules differ (confirm the current list).
 Missing the net worth tax component, which may be due even in a loss year (concept — confirm before filing).
@@ -59,7 +59,7 @@ Estimated payment requirements and underpayment penalties for larger corporation
 First-year and short-year returns: due dates and net worth computation may work differently (confirm before filing).
 Filing under the wrong entity registration or FEIN mismatch with the state account.
 
-## Rates, thresholds and deadlines
+### Rates, thresholds and deadlines
 
 **Rates, thresholds and deadlines**  _(citation to confirm)_
 

@@ -20,13 +20,13 @@ STARTER DRAFT, generic. Your corrections below will make it yours.
 
 Form 500 is Georgia's individual income tax return, filed annually by residents (and, on related variants, part-year residents and nonresidents with Georgia-source income) to report state income tax on the prior calendar or fiscal year. It generally starts from the federal return and applies Georgia-specific adjustments, deductions and credits.
 
-## Who this is for
+### Who this is for
 
 Full-year Georgia residents with income above the state filing requirement (threshold: confirm before filing).
 Part-year residents and nonresidents with Georgia-source income (may use a schedule or variant of the form — confirm before filing).
 Anyone due a refund of Georgia withholding or estimated payments even if below the filing threshold.
 
-## Before you start, ask the client
+### Before you start, ask the client
 
 Copy of the completed federal return for the same year (Georgia starts from federal AGI — confirm the exact starting line before filing).
 Residency facts: full-year, part-year (move dates), or nonresident with GA-source income.
@@ -37,7 +37,7 @@ Items that may trigger Georgia additions/subtractions: municipal bond interest (
 Any Georgia credits claimed or purchased (e.g., low-income credit, credits from pass-throughs, film or other transferable credits — confirm before filing).
 Prior-year Georgia return and any notices from the state tax authority.
 
-## The method, step by step
+### The method, step by step
 
 Complete and lock the federal return first; Georgia is derivative of it.
 Open the current-year Form 500 in your tax software and confirm the software's state module is updated for the filing year.
@@ -52,7 +52,7 @@ Review the balance due or refund against last year's return; explain any large s
 E-file through your software or the state tax authority's portal (portal name: confirm before filing); confirm acceptance, not just transmission.
 If tax is due, arrange payment by the payment deadline (confirm before filing) and document the client's authorization.
 
-## The traps
+### The traps
 
 Georgia's rate structure changed recently (flat-rate transition); software or memory of old brackets can miscompute — confirm the current rate.
 Retirement income exclusion is age- and type-dependent and applies per taxpayer; easy to miss or double-claim for married couples — confirm rules.
@@ -62,7 +62,7 @@ Withholding on the W-2 coded to the wrong state for remote workers or recent mov
 Purchased/transferred credits (e.g., film credits) have their own documentation and timing rules — confirm before claiming.
 An extension of time to file is not an extension of time to pay — confirm both deadlines.
 
-## Rates, thresholds and deadlines
+### Rates, thresholds and deadlines
 
 **Rates, thresholds and deadlines**  _(Citation to confirm)_
 

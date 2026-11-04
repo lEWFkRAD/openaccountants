@@ -182,7 +182,7 @@ It does **not** cover:
 - **Apportionment and nonbusiness income.** Multistate corporations apportion by the single gross receipts factor and allocate nonbusiness income as the 2025 IT-611 describes; see "Apportionment, NOLs and consolidated returns" below.
 - **Foreign corporations** pay net worth tax on the Georgia ratio (Schedule 8 on Form 600), not on total net worth ([2025 IT-611 booklet](https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-booklet/download)).
 
-## Apportionment, NOLs and consolidated returns
+### Apportionment, NOLs and consolidated returns
 - **Single factor.** "For tax years beginning on or after January 1, 2008, the Georgia apportionment ratio shall be computed by applying only the gross receipts factor."
 - **Which receipts go in the factor:**
   - a company that both makes or sells tangible goods and does other business includes gross receipts from both activities;
@@ -200,7 +200,7 @@ It does **not** cover:
   - Each subsidiary still files its own net worth return.
   - Credits and NOLs are tracked company by company for credit limitation.
 
-## The pass-through entity tax election
+### The pass-through entity tax election
 - **Who can elect.**
   - The election has been available for taxable years beginning on or after 1 January 2022.
   - For taxable years beginning on or after 1 January 2023, "all partnerships are eligible to make the election to pay tax at the entity level, regardless of who owns or controls the partnership".
@@ -233,7 +233,7 @@ It does **not** cover:
   - The deduction follows the **payment year**. A 2026 balance paid in 2027 is a 2027 federal deduction.
   - Whether electing saves tax now depends on each owner's own federal itemized-deduction position. Model it per owner.
 
-## Estimated tax
+### Estimated tax
 - **Who must pay.**
   - Every corporation subject to Georgia tax, if its net income for the year "can reasonably be expected to exceed Twenty-Five Thousand Dollars ($25,000.00)".
   - An electing S corporation or partnership "is required to make estimated tax payments in the same manner as a C Corporation", using Form 602-ES or the Georgia Tax Center. A partnership must register its account on the Georgia Tax Center to pay online.
@@ -254,7 +254,7 @@ It does **not** cover:
   - Owners' own estimated payments cannot be transferred to the entity. The entity may tick "UET Annualization Exception Attached" and compute the penalty as if those payments were its own.
 - **Electronic payment.** Quarterly payments of more than $10,000 must be made by electronic funds transfer. There is a 10% penalty if not paid through the Georgia Tax Center.
 
-## Boundary and exception table
+### Boundary and exception table
 | Situation | Rule |
 | --- | --- |
 | Net worth exactly $100,000 | No tax ("Not exceeding $100,000"), but the return is still due. |
@@ -347,7 +347,7 @@ Client facts: a 2025 Form 600S with one nonresident shareholder who did not sign
   The election binds all owners.
 - **Credits:** any Georgia credit claimed, purchased or carried forward. Credit returns must be filed electronically.
 
-## When to refuse or refer
+### When to refuse or refer
 - **Nexus in doubt,** including whether activity goes beyond solicitation under Public Law 86-272, and remote sellers of services.
 - **Sourcing of services and intangibles** where customer location is unclear. Reg. 560-7-7-.03 governs; refer.
 - **Consolidated return elections** and terminations, and intercompany transactions.
@@ -357,7 +357,7 @@ Client facts: a 2025 Form 600S with one nonresident shareholder who did not sign
 - **Federal audit adjustments and partnership audit elections.** Amended Georgia returns are due within 180 days of the final federal determination.
 - **Insurance companies, financial institutions, exempt organizations (Form 600-T), and fiduciaries (Form 501).**
 
-## Completion checklist
+### Completion checklist
 - **Year and rate:** 5.19% for years beginning in 2025, 4.99% for 2026, not prorated for fiscal years.
 - **Right form:** Form 600, 600S or 700. Form 600S-CA is signed by every nonresident S corporation shareholder.
 - **Additions:** 168(k) addback and Georgia depreciation, other-state income taxes, related-member intangible, interest and REIT addbacks.

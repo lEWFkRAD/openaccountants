@@ -19,13 +19,13 @@ STARTER DRAFT, generic. Your corrections below will make it yours.
 
 This guide covers the annual Georgia state income tax returns for pass-through entities: Form 700 for partnerships (and entities taxed as partnerships) and Form 600S for S-corporations. Entities doing business in Georgia, owning property in Georgia, or deriving Georgia-source income generally must file (confirm the exact nexus and filing triggers before filing). The return covers the entity's tax year, typically matching its federal tax year (confirm before filing).
 
-## Who this is for
+### Who this is for
 
 Preparers filing a Georgia return for a partnership, multi-member LLC, or other entity taxed as a partnership (Form 700).
 Preparers filing for a federal S-corporation with Georgia activity (Form 600S) — note Georgia may require or recognize a separate state-level S election or federal-election attachment (confirm before filing).
 Firms with nonresident owners, where Georgia nonresident withholding or composite-return concepts may apply (confirm before filing).
 
-## Before you start, ask the client
+### Before you start, ask the client
 
 Federal return status: is the 1065 or 1120-S final, and do you have all federal K-1s?
 Ownership: full owner list with addresses, entity types, residency status, and ownership percentages as of year end and any mid-year changes.
@@ -35,7 +35,7 @@ Were estimated payments or withholding remitted during the year — by the entit
 Any Georgia credits (jobs, investment, or similar — availability to confirm before filing) or credit carryforwards from prior years?
 Prior-year Georgia return and any state correspondence or notices.
 
-## The method, step by step
+### The method, step by step
 
 Open the completed federal return (1065 or 1120-S) and confirm it is final; the Georgia return starts from federal figures.
 Check registration: confirm the entity is registered with the state tax authority and has its state account credentials for the portal (portal name and access — confirm before filing).
@@ -50,7 +50,7 @@ Review the deadline and extension status: confirm the original due date, whether
 File on the state tax authority's portal (or approved e-file channel — confirm before filing), remit any balance due, and save the confirmation.
 Deliver owner packages: send each owner their Georgia schedule/statement so their personal returns can pick up state amounts and credits.
 
-## The traps
+### The traps
 
 Assuming the federal S election automatically covers Georgia — a separate state recognition step may exist (confirm before filing).
 Missing the PTET-style election window, if one exists — these elections are often irrevocable or time-boxed (confirm before filing).
@@ -60,7 +60,7 @@ Owner changes mid-year: percentages on the state schedules must reflect actual o
 Treating a federal extension as automatically valid for Georgia, or assuming extension of time to file extends time to pay (confirm before filing).
 Double-counting or omitting entity-level tax paid under an election when preparing owners' personal returns.
 
-## Rates, thresholds and deadlines
+### Rates, thresholds and deadlines
 
 **Rates, thresholds and deadlines**  _(citation to confirm)_
 
@@ -77,7 +77,7 @@ Double-counting or omitting entity-level tax paid under an election when prepari
 | Apportionment method | confirm before filing | citation to confirm |
 | E-file mandate / portal filing requirement | confirm before filing | citation to confirm |
 
-## Rates, thresholds and deadlines
+### Rates, thresholds and deadlines
 
 > Contributed by Jeff Watts, ACF-04080.
 

@@ -137,7 +137,7 @@ Some local taxes do not apply to some sales (for example food, energy sold to ma
 - **The seller.** A marketplace seller does not collect or remit on sales its facilitator must collect on.
 - **Reporting.** Facilitated sales go on a separate marketplace facilitator account. The facilitator's own direct sales go on a different account, or both on a master account.
 
-## Boundary and exception table
+### Boundary and exception table
 ### What is taxed ([what is subject to tax](https://dor.georgia.gov/taxes/sales-use-tax/what-subject-sales-and-use-tax); [list of exemptions](https://dor.georgia.gov/document/document/2020-list-sales-and-use-tax-exemptions/download))
 
 | Item | Treatment | Condition or exception |
@@ -208,7 +208,7 @@ Amounts are illustrations. Rates are from the Department's charts for the quarte
 - Does it hold a properly completed Form ST-5 (or other certificate) for every sale it did not tax? Has it bought taxable items for its own use without paying Georgia tax?
 - Were any returns or payments late, or periods not filed at all? Has the Department contacted it?
 
-## When to refuse or refer
+### When to refuse or refer
 - **Georgia income tax.** Individuals: `ga-income-tax`. Corporations, partnerships, S corporations and the pass-through entity tax: `ga-corporate-and-ptet`.
 - **The nexus boundary.** A remote seller at or near $100,000 or 200 sales; the Department's bulletin and web page point different ways. Get written confirmation ([How do I know](https://dor.georgia.gov/taxes/sales-use-tax/how-do-i-know-if-i-need-collect-sales-use-tax)).
 - **SaaS, digital products and digital codes.** Where the line between exempt prewritten software and taxable digital products matters, refer or ask the Department for a letter ruling.
@@ -218,13 +218,13 @@ Amounts are illustrations. Rates are from the Department's charts for the quarte
 - **Unfiled past periods.** A business that should have registered and has not been contacted may qualify for a Voluntary Disclosure Agreement: penalties are usually waived, interest is still due, and the look-back for sales tax is usually thirty-six months, longer where tax was collected but not paid ([VDA program](https://dor.georgia.gov/voluntary-disclosure-agreements)).
 - **Audits, assessments, appeals and refund claims.** Refer to a Georgia CPA, EA or tax attorney.
 
-## 2025 periods
+### 2025 periods
 - **Rates.** Use the chart for the quarter of the 2025 sale; the Department keeps each 2025 quarterly chart.
 - **Due dates.** Monthly 2025 returns fell due on 20 Feb, 20 Mar, 21 Apr, 20 May, 20 Jun, 21 Jul, 20 Aug, 22 Sep, 20 Oct, 20 Nov and 22 Dec 2025, and 20 Jan 2026. Quarterly: 21 Apr, 21 Jul and 20 Oct 2025, and 20 Jan 2026. The 2025 annual return was due 20 Jan 2026.
 - **Nexus.** A remote seller's 2025 sales count toward the "previous calendar year" test for 2026.
 - **Unchanged rules.** The Department's current pages describe the state rate, the vendor's compensation rates, the $500 electronic filing trigger and the penalty rates as standing rules, with no 2026 change.
 
-## Completion checklist
+### Completion checklist
 - [ ] Dealer status decided: physical presence; or remote seller over $100,000 or 200 or more direct retail sales in 2025 or 2026 (facilitated sales left out); or facilitator at $100,000 or more. Exactly $100,000 or 200 sales confirmed with the Department.
 - [ ] Registered through the Georgia Tax Center; marketplace facilitator sales on their own account.
 - [ ] Each sale classified: goods, taxed services, food at local rate only (not for business use), exempt electronic software versus taxable digital products.

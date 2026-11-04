@@ -222,7 +222,7 @@ Form 500 line numbers are from the 2025 return ([2025 IT-511 booklet](https://do
 
 **Multistate business income:** apportionment, S corporation income where another state does not recognise the S election, and the subtraction for entity-level tax paid to another state (O.C.G.A. § 48-7-27(d)) are referrals; see "When to refuse or refer".
 
-## Boundary and exception table
+### Boundary and exception table
 | Situation | Rule |
 | --- | --- |
 | Taxpayer turned 62 during the year | Uses the age-based retirement exclusion, not the military exclusion. The military worksheet asks "Are you under the age of 62?" |
@@ -293,7 +293,7 @@ Client facts: a full-year resident filing with a Social Security number, not cla
 - **Payments.** Georgia withholding, estimated payments (dates and amounts), the prior-year Georgia tax and any extension payment.
 - **Surplus refund.** Were the 2024 and 2025 Georgia returns filed on time, and what was the 2024 tax on Form 500 Line 16?
 
-## When to refuse or refer
+### When to refuse or refer
 - **Residency in doubt**, such as a home elsewhere but much of the year in Georgia, or an unproven mid-year change of domicile.
 - **Pass-through entity tax elections.** The entity-level election and the owner's PTEADD adjustment are covered in `ga-corporate-and-ptet`.
 - **2025 returns where an OBBBA change moved federal AGI** and the return followed the 2025 booklet's conformity statement. Check DOR's current guidance before filing or amending (Form 500X).
@@ -305,7 +305,7 @@ Client facts: a full-year resident filing with a Social Security number, not cla
 - **Military personnel** serving outside the continental U.S. (special filing deadline), combat zone pay, and spouses of nonresident military personnel.
 - **Assessments:** 45-day protest and appeal windows apply from 1 July 2025, and the Georgia Tax Court hears appeals from 1 July 2026.
 
-## Completion checklist
+### Completion checklist
 - **Year:** rate, standard deduction and dependent amounts match the tax year.
 - **Residency:** Line 4 code is correct; Schedule 3 is used for part-year, nonresident and mixed-residency joint returns.
 - **Line 8** is federal AGI, not federal taxable income.

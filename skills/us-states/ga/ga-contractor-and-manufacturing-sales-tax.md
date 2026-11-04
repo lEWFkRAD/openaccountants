@@ -229,7 +229,7 @@ The late-return and late-payment charges are the sales and use tax charges in O.
 - **Nonresident and foreign contractors** are governed by [Rule 560-12-2-.43](https://rules.sos.ga.gov/gac/560-12-2) and the DOR [tax guide for contractors](https://dor.georgia.gov/tax-guide-contractors): a contractor without an established Georgia business location must submit a performance bond (10% of any contract exceeding $10,000), consent to service of process, keep the qualification acknowledgement at the jobsite, and file the completion notice; the bond releases two years after the completion notice.
 - **Reciprocal credit.** When a contractor pays sales tax to another state, "Georgia will grant reciprocal credit for a legally imposed taxes paid to the other state. Credit is granted “like tax against like tax”" -- state tax credited against state tax and local against local (O.C.G.A. § 48-8-30, [DOR contractors examples](https://dor.georgia.gov/sales-and-use-tax-contractors-examples)).
 
-## Edge cases and special rules
+### Edge cases and special rules
 - **Carpet and floor covering installation** -- no rule in Chapter 560-12-2
   addresses carpet/floor-covering installation as such (checked the full chapter
   index 2026-08-06: no carpet/floor-covering/flooring rule; only incidental
@@ -288,7 +288,7 @@ Amounts described as project facts are hypothetical inputs. Rates are the confir
 5. For manufacturers: is the machinery, energy or industrial material "necessary and integral" to the manufacture of tangible personal property, and is Form ST-5M on file with the seller?
 6. Is the project a government contract paid by warrant on appropriated funds?
 
-## Self-checks
+### Self-checks
 Before delivering output, verify:
 
 - [ ] All input figures trace to source documents
@@ -301,7 +301,7 @@ Before delivering output, verify:
 
 ---
 
-## Disclaimer
+### Disclaimer
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
 ## Sources
