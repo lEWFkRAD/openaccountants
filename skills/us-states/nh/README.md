@@ -20,7 +20,7 @@
 ## What's NOT covered
 - Business Profits Tax (7.5% on taxable business profits for periods ending on or after Dec 31, 2023; filing threshold gross business income over $109,000 -- see nh-bpt-bet.md)
 - Business Enterprise Tax (0.55% on enterprise value tax base)
-- Meals & Rooms Tax (8.5%)
+- Meals & Rooms Tax (8.5 percent on occupancy; meals taxed at tiered per-charge rates under RSA 78-A:6)
 - Real estate transfer tax
 - Property tax (administered at local/municipal level)
 - Payroll / employer withholding taxes
