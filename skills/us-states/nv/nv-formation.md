@@ -49,7 +49,7 @@ Nevada is one of the three "founder states" routinely considered by sole proprie
 
 ### 2.1 No state personal income tax
 
-- **No state personal income tax** - Nevada imposes no state-level personal income tax on individuals; the state has no PIT statute. For a sole proprietor or single-member LLC owner whose LLC is disregarded for federal purposes, the income flows to the federal Form 1040 and there is no state return to file.  _(Nevada Constitution Article 10 §1)_
+- **No state personal income tax** - Nevada imposes no state-level personal income tax on individuals; the state has no PIT statute. For a sole proprietor or single-member LLC owner whose LLC is disregarded for federal purposes, the income flows to the federal Form 1040 and there is no state return to file.  _(Nevada Constitution, Article Ten, Section 1)_
 - **No-PIT peer states** - Nevada shares the no-PIT posture with Wyoming, Texas, Florida, South Dakota, Tennessee, Washington (with some narrow exceptions for capital gains in WA), and a handful of other no-PIT states.
 - **NV formation does not relocate CA tax residency** - This only benefits a NV-resident owner. If the owner is a California resident who forms a Nevada LLC, California will tax the LLC's income on the owner's California return under R&TC §17041 (resident worldwide income) and will also assert nexus over the Nevada LLC if it does business in California, triggering the California franchise tax and CA Form 568. Forming in Nevada does NOT relocate the owner's personal tax residence. This is a routine error and AUDIT FLASH POINT - see Section 11.  _(R&TC §17041)_
 
@@ -155,7 +155,7 @@ Corporations pay the higher State Business License tier: $500 per year, versus $
 | Articles of Incorporation (bottom tier) | $75 |
 | Initial List of Officers/Directors | $150 |
 | State Business License (corporate rate) | $500 |
-| **First-year total** | **$725** |
+| **First-year total** | **$75 + $150 + $500** |
 
 With the one-tenth-of-a-cent par-value rule (NRS 78.760(4)), a 10,000,000-share, $0.0001-par startup structure stays in the $75 tier, so the first-year total remains $725. The same 10,000,000 shares authorized WITHOUT par value are valued at $1 per share (NRS 78.760(3)(b)): $10,000,000 of represented value means a filing fee of $375 for the first $1,000,000 plus 18 x $275 = $4,950 for the remaining $9,500,000, a total of $5,325, and a first-year cost of $5,325 + $150 + $500 = $5,975. Only the represented value climbs the NRS 78.760 schedule; the choice-of-state economics are in Section 8.
 
@@ -165,7 +165,7 @@ With the one-tenth-of-a-cent par-value rule (NRS 78.760(4)), a 10,000,000-share,
 
 ## The taxable base
 
-Nevada has no personal income tax and no corporate net-income tax: the Nevada Constitution prohibits the levy of a tax upon incomes (Article 10, Section 1(9)), and the Commerce Tax reaches only those entities whose Nevada gross receipts exceed $4,000,000, with no return required at or below that threshold (NRS 363C.200). The recurring formation-linked charges are computed on two bases: the annual list fee for a corporation is graduated by the value represented by the total number of authorized shares (NRS 78.150(4)(b), with the represented value computed under NRS 78.760(3) and (4)), and the State Business License is a flat annual fee set by entity type (NRS 76.100(2)(c)). Wages are separately reached by the Modified Business Tax (see `nv-commerce-and-mbt.md`); sales tax is out of scope for this skill (see `nv-sales-tax.md` and `nevada-sales-tax.md`).  _(Nevada Constitution Article 10 Section 1; NRS 363C.200; NRS 78.150; NRS 78.760)_
+Nevada has no personal income tax and no corporate net-income tax: the Nevada Constitution prohibits the levy of a tax upon incomes (Article Ten, Section 1, Subsection 9), and the Commerce Tax reaches only those entities whose Nevada gross receipts exceed $4,000,000, with no return required at or below that threshold (NRS 363C.200). The recurring formation-linked charges are computed on two bases: the annual list fee for a corporation is graduated by the value represented by the total number of authorized shares (NRS 78.150(4)(b), with the represented value computed under NRS 78.760(3) and (4)), and the State Business License is a flat annual fee set by entity type (NRS 76.100(2)(c)). Wages are separately reached by the Modified Business Tax (see `nv-commerce-and-mbt.md`); sales tax is out of scope for this skill (see `nv-sales-tax.md` and `nevada-sales-tax.md`).  _(Nevada Constitution Article 10 Section 1; NRS 363C.200; NRS 78.150; NRS 78.760)_
 
 ## 5. Charging-Order Protection (NRS 86.401)
 
@@ -388,7 +388,7 @@ A Nevada LLC foreign-qualified in California, Texas, and New York pays: Nevada: 
 - **Reporting on Form 8938 and FBAR.** Even though the LLC is disregarded, Jordan may have foreign-account reporting obligations on the underlying exchanges (if any are foreign). Crypto-specific reporting under Form 1099-DA (effective 2025) and the broker reporting rules under IRC §6045 apply to dispositions regardless of LLC structure.
 - **State sales tax.** Nevada does not impose sales tax on cryptocurrency transactions. Some states do (e.g., on the conversion of crypto to a stablecoin or to fiat). Nevada formation gives Jordan a clean home-state position.
 - **Federal tax on the contribution.** Contribution of appreciated crypto to a single-member LLC is not a taxable event (the LLC is disregarded). Contribution to a multi-member LLC may be a taxable event if §721 does not apply (e.g., investment-company restrictions). For a single-member LLC, this is not an issue.
-- **Federal tax on contribution to DAPT.** Contribution to a Nevada DAPT structured as a grantor trust is not a taxable event for income-tax purposes (grantor is still the owner under IRC §671). It MAY be a taxable gift for gift-tax purposes if the DAPT is not properly structured as an "incomplete gift" trust. Most asset-protection-focused DAPTs are structured as completed-gift trusts (to use the lifetime gift exclusion) or as incomplete-gift trusts (to avoid using exclusion) depending on the settlor's estate-tax posture. Crypto contributions can rapidly exhaust the lifetime exclusion ($13.99 million for 2025) if the structure is completed-gift - handle with care.
+- **Federal tax on contribution to DAPT.** Contribution to a Nevada DAPT structured as a grantor trust is not a taxable event for income-tax purposes (grantor is still the owner under IRC §671). It MAY be a taxable gift for gift-tax purposes if the DAPT is not properly structured as an "incomplete gift" trust. Most asset-protection-focused DAPTs are structured as completed-gift trusts (to use the lifetime gift exclusion) or as incomplete-gift trusts (to avoid using exclusion) depending on the settlor's estate-tax posture. Crypto contributions can rapidly exhaust the federal lifetime exclusion if the structure is completed-gift - handle with care.
 
 **Cost.** LLC: $425 first year, $350/year thereafter. DAPT: $5,000–$15,000 attorney fees + ongoing Nevada trustee fee of $3,000–$10,000/year. The DAPT cost generally only makes sense for crypto holdings >$2 million.
 
