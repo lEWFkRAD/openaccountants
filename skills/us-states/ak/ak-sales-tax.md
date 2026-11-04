@@ -30,7 +30,7 @@ There is therefore no single "Alaska rate." The rate, base, exemptions, and fili
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Alaska |
-| State sales tax rate | 0% (no statewide sales tax) |
+| State sales tax rate | None (no statewide sales tax levied) |
 | State individual income tax | None |
 | Local sales tax | Yes -- levied by boroughs and cities only |
 | Local rate range | 2% -- 7.85% combined total (ARSSTC rate sheet effective 12-1-2025; single-jurisdiction levies run 1% -- 7%) |
@@ -43,7 +43,7 @@ There is therefore no single "Alaska rate." The rate, base, exemptions, and fili
 
 ## Rates, bands and thresholds
 
-- **State sales tax rate** -- 0% (no statewide sales tax)
+- **State sales tax rate** -- None; Alaska levies no statewide sales tax
 - **Local rate range** -- combined borough + city totals range from 2% (e.g., Aniak) to 7.85% (Homer City, under Kenai Peninsula Borough: 3% borough + 4.85% city) per the ARSSTC rate sheet effective 12-1-2025. Single-jurisdiction levies range from 1% to 7% across the 107 municipalities reporting a general sales tax, with "typical" rates of 2% to 5% per Alaska Tax Facts. Levied by boroughs and incorporated cities only.
 - **Economic nexus threshold for remote sellers** -- $100,000 USD statewide gross sales in the current or previous calendar year, from property, products or services delivered in Alaska, including the seller's marketplace facilitator's statewide gross sales
 - **200-transaction threshold elimination** -- The transaction thresholds were repealed effective January 1, 2025 (Uniform Code Section 040(A)) -- the $100,000 dollar threshold is now the only test.
