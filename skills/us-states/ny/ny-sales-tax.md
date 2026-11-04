@@ -303,52 +303,52 @@ All food at restaurants is taxable regardless of individual item exemption statu
 
 ## Section 9 -- Test suite
 
-### Test 1 -- Clothing under $110 in NYC
+### Worked example Test -- Clothing under $110 in NYC
 
 **Input:** $95 shoes in Manhattan. NYC rate: 8.875%.
 **Expected:** Tax = $0. Clothing under $110 exempt.
 
-### Test 2 -- Clothing over $110 in NYC
+### Worked example Test -- Clothing over $110 in NYC
 
 **Input:** $200 jacket in Manhattan.
 **Expected:** Tax = $17.75. Full rate applies.
 
-### Test 3 -- Grocery food exempt
+### Worked example Test -- Grocery food exempt
 
 **Input:** $100 groceries (bread, milk, produce) from a supermarket.
 **Expected:** Tax = $0.
 
-### Test 4 -- SaaS subscription in NYC
+### Worked example Test -- SaaS subscription in NYC
 
 **Input:** $100/month SaaS tool. NYC rate 8.875%.
 **Expected:** Tax = $8.88. SaaS is taxable.
 
-### Test 5 -- Economic nexus AND test (not met)
+### Worked example Test -- Economic nexus AND test (not met)
 
 **Input:** $600K revenue, 80 transactions.
 **Expected:** NO nexus. Both thresholds not met.
 
-### Test 6 -- Economic nexus AND test (met)
+### Worked example Test -- Economic nexus AND test (met)
 
 **Input:** $600K revenue, 150 transactions.
 **Expected:** HAS nexus. Both exceeded.
 
-### Test 7 -- Restaurant meal in NYC
+### Worked example Test -- Restaurant meal in NYC
 
 **Input:** $50 dinner at NYC restaurant.
 **Expected:** Tax = $4.44. All restaurant food taxable.
 
-### Test 8 -- Manufacturing equipment in Buffalo
+### Worked example Test -- Manufacturing equipment in Buffalo
 
 **Input:** $200K machine for production. Erie County rate: 8%.
 **Expected:** Tax = $0. Manufacturing exemption.
 
-### Test 9 -- Use tax on out-of-state purchase
+### Worked example Test -- Use tax on out-of-state purchase
 
 **Input:** NYC business buys $5,000 furniture from NH retailer. No tax collected.
 **Expected:** Use tax = $443.75.
 
-### Test 10 -- Resale certificate
+### Worked example Test0 -- Resale certificate
 
 **Input:** Retailer purchases $10K inventory. Valid ST-120 provided.
 **Expected:** No tax. Retailer collects at resale.

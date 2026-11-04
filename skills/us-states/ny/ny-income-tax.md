@@ -67,11 +67,11 @@ The scope limitations align with `us-tax-workflow-base` Section 6 base refusals 
 
 **Legislation and guidance current as of the currency date:**
 
-- NY Tax Law Article 22 (Personal Income Tax), as amended by Chapter 59 of the Laws of 2025 (the Executive Budget bill for FY 2025-26)
-- NY Tax Law Article 30 (City Personal Income Tax on Residents — authorizes NYC to impose a resident income tax; the actual rate structure is in the NYC Administrative Code)
-- NY Tax Law Article 30-A (Yonkers resident income tax surcharge)
-- NY Tax Law Article 30-B (Yonkers nonresident earnings tax)
-- NY Tax Law Article 23 (Metropolitan Commuter Transportation Mobility Tax)
+- NY Tax Law Article 22 (Personal Income Tax)  _(NY Tax Law index: "article 22 personal income tax")_
+- NY Tax Law Article 30 (City Personal Income Tax)  _(NY Tax Law index: "article 30 city personal income tax")_
+- NY Tax Law Article 30-A (City Income Tax Surcharge)  _(NY Tax Law index: "article 30-a city income tax surcharge")_
+- NY Tax Law Article 30-B (City Earnings Tax on Nonresidents)  _(NY Tax Law index: "article 30-b city earnings tax on nonresidents")_
+- NY Tax Law Article 23 (Metropolitan Commuter Transportation Mobility Tax)  _(NY Tax Law index: "article 23 metropolitan commuter transportation mobility tax")_
 - Form IT-201 (2025) and Form IT-201-I (2025) instructions, released by NYSDTF in January 2026
 - Form IT-225 (2025) and instructions
 - Form IT-558 (2025) and instructions
@@ -1184,7 +1184,7 @@ This skill produces a multi-layer tax computation (state + potentially NYC + pot
 
 Six worked examples covering the common fact patterns the skill encounters. Each example walks through the position rules from Section 5 with explicit computations, primary source citations, and the resulting reviewer brief entries. Examples are drawn from hypothetical taxpayers; names are illustrative.
 
-### Example 1 — Sarah: Brooklyn-based NYC resident freelancer with UBT
+### Worked example Example — Sarah: Brooklyn-based NYC resident freelancer with UBT
 
 **Facts.**
 - Sarah is a 32-year-old freelance iOS developer, single, living in Brooklyn (Kings County) for the full 2025 tax year.
@@ -1296,7 +1296,7 @@ Line 54a = **$1,119**.
 
 ---
 
-### Example 2 — David: Manhattan NYC resident with §174A uncertainty
+### Worked example Example — David: Manhattan NYC resident with §174A uncertainty
 
 **Facts.**
 - David is a 40-year-old freelance developer building his own iOS productivity app alongside client work. Full-year resident of Manhattan. Single.
@@ -1333,7 +1333,7 @@ Line 54a = **$1,119**.
 
 ---
 
-### Example 3 — Carlos: Yonkers resident freelancer
+### Worked example Example — Carlos: Yonkers resident freelancer
 
 **Facts.**
 - Carlos is a 45-year-old freelance DevOps engineer, married filing jointly, full-year resident of Yonkers. His spouse Maria has W-2 wages of $85,000 from a NY employer (also living in Yonkers with Carlos).
@@ -1395,7 +1395,7 @@ Line 54b = 0.34% × $120,055 = $408.19 → $408
 
 ---
 
-### Example 4 — Priya: Westchester resident, Zone 2 MCTMT only
+### Worked example Example — Priya: Westchester resident, Zone 2 MCTMT only
 
 **Facts.**
 - Priya is a 38-year-old freelance data engineer, single, full-year resident of Scarsdale (Westchester County). Works from home. All clients are out-of-state (Boston, SF, Chicago).
@@ -1447,7 +1447,7 @@ Line 54b = 0.34% × $120,055 = $408.19 → $408
 
 ---
 
-### Example 5 — Rachel: Albany resident, no local layers
+### Worked example Example — Rachel: Albany resident, no local layers
 
 **Facts.**
 - Rachel is a 29-year-old freelance backend developer, single, full-year resident of Albany. Works from home. All clients are in NY City and San Francisco.
@@ -1503,7 +1503,7 @@ Total = $340 + $144 + $115.50 + $3,671.25 + $231 = $4,501.75 → $4,502
 
 ---
 
-### Example 6 — Jake: High-income Manhattan resident using the recapture worksheet
+### Worked example Example — Jake: High-income Manhattan resident using the recapture worksheet
 
 **Facts.**
 - Jake is a 44-year-old freelance systems architect, single, Manhattan resident. Very senior practitioner at the top of the freelance market.

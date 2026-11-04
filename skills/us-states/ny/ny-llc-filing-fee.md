@@ -344,7 +344,7 @@ This skill produces a $25 filing fee deliverable. Traditional dollar-threshold r
 
 Five worked examples covering the common fact patterns the skill encounters. Each shows facts → reasoning → citations → output.
 
-### Example 1 — Brooklyn-based freelance developer with active LLC
+### Worked example Example — Brooklyn-based freelance developer with active LLC
 
 **Facts.** Sarah is a freelance software developer, single, age 32, full-year resident of Brooklyn. In 2024 she formed Sarah Code LLC in New York to run her consulting work. For 2025 she had $180,000 in client receipts flowing through the LLC's Chase business checking account, paid $8,000 in business expenses through the LLC (SaaS, AWS, conference travel), and earned $142 in interest on the LLC's savings sub-account. She uses the LLC's EIN. She has never filed Form 8832. No employees. Domestic US clients only. She plans to file Form IT-201 as a single NY full-year resident.
 
@@ -364,7 +364,7 @@ Step 5 — Due date (Position 5.5). March 16, 2026 (March 15 falls on Sunday).
 
 **Primary source.** NY Tax Law §658(c)(1); §612; §171; Treas. Reg. §301.7701-3(b)(1)(ii); Form IT-204-LL Instructions (2025).
 
-### Example 2 — Dormant LLC, no 2025 activity (dormancy exception applies)
+### Worked example Example — Dormant LLC, no 2025 activity (dormancy exception applies)
 
 **Facts.** Marcus formed Marcus Consulting LLC in NY in June 2023 intending to freelance, but then took a W-2 job in September 2023 and never used the LLC. The LLC has no bank account, no EIN, no clients, no contracts. It is still registered with NY DOS. For 2025 Marcus had zero activity in the LLC — no payments in, no payments out, no assets. He did file IT-204-LL and pay $25 for 2023 and 2024 out of caution. For 2025 he wants to know if he needs to file again.
 
@@ -387,7 +387,7 @@ Step 5 — Due date. N/A.
 
 **Primary source.** NY Tax Law §658(c)(1); Form IT-204-LL Instructions (2025), "Who is not required to file"; NY Publication 16.
 
-### Example 3 — Ambiguous activity (auto-debited state maintenance fees only)
+### Worked example Example — Ambiguous activity (auto-debited state maintenance fees only)
 
 **Facts.** Priya formed Priya Labs LLC in NY in 2022. She used it heavily in 2022 and 2023 but pivoted to a W-2 job in early 2024. For 2025 she thought the LLC was dormant. On closer inspection: the LLC's Mercury business checking account was never closed, and in 2025 it had (a) $18 in interest credits across the year, (b) $9 in monthly bank fees across two months before the fees stopped when the account balance was depleted, and (c) a $9 auto-debit for the NY DOS biennial statement fee in March 2025. Net account balance went from $50 to $14. No client activity, no invoices, no contracts.
 
@@ -416,7 +416,7 @@ Step 5 — Due date. March 16, 2026.
 
 **Primary source.** NY Tax Law §658(c)(1); §612; Form IT-204-LL Instructions (2025), "Who must file."
 
-### Example 4 — LLC with NYC activity (cross-reference trigger)
+### Worked example Example — LLC with NYC activity (cross-reference trigger)
 
 **Facts.** David is a freelance iOS developer, age 41, full-year NYC resident (lives in Manhattan), single. He formed DevShop NYC LLC in 2024 to run his consulting. For 2025 the LLC had $240,000 in gross receipts (all from two clients, both based outside NY state — one in San Francisco, one in Austin). He paid $11,000 in business expenses through the LLC. He works from his home office in Manhattan. He has never filed Form 8832. Plans to file Form IT-201 as NYC resident.
 
@@ -438,7 +438,7 @@ Step 5 — Due date. March 16, 2026.
 
 **Primary source.** NY Tax Law §658(c)(1); §612; NYC Admin Code §11-502 and §11-514 (for the cross-reference).
 
-### Example 5 — First-year LLC, formed mid-year, immediate activity
+### Worked example Example — First-year LLC, formed mid-year, immediate activity
 
 **Facts.** Elena is a freelance data engineer, married filing jointly with her spouse Luis (also a NY resident), full-year NY resident, living in Westchester County. She was a bare sole prop in 2024. On September 1, 2025, she registered Elena Data LLC with NY DOS. From September 1 through December 31, 2025, the LLC received $75,000 in client payments. Prior to September 1, the same client work was billed through her personal name (sole prop). She has an EIN for the LLC, assigned by the IRS in September 2025. She files IT-201 as MFJ.
 

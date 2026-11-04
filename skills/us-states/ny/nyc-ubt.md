@@ -200,27 +200,27 @@ UBT late-filing and late-payment penalties apply; current rates are not yet conf
 
 ## Worked examples
 
-### Test 1: Income below exemption
+### Worked example Test: Income below exemption
 
 - **Input:** Freelancer with $80,000 NYC business gross income. (not yet confirmed)
 - **Expected:** Below $95,000 threshold. No UBT due. No filing required (gross income <= $95,000). (not yet confirmed)
 
-### Test 2: Income in phase-out range
+### Worked example Test: Income in phase-out range
 
 - **Input:** Freelancer with $130,000 taxable business income, all NYC. (not yet confirmed)
 - **Expected:** Excess: $130,000 - $95,000 = $35,000. Exemption reduction: $35,000 / 2 = $17,500. Allowable exemption: $95,000 - $17,500 = $77,500. Taxable after exemption: $130,000 - $77,500 = $52,500. UBT: $52,500 x 4% = $2,100.
 
-### Test 3: Income above phase-out
+### Worked example Test: Income above phase-out
 
 - **Input:** Freelancer with $200,000 taxable business income, all NYC.
 - **Expected:** Exemption fully phased out ($0). UBT: $200,000 x 4% = $8,000.
 
-### Test 4: IT-219 credit
+### Worked example Test: IT-219 credit
 
 - **Input:** Same as Test 3. NYC personal income tax: $6,500. UBT paid: $8,000. (not yet confirmed)
 - **Expected:** IT-219 credit: limited to $6,500 (cannot exceed NYC personal income tax). Net UBT cost: $8,000 - $6,500 = $1,500.
 
-### Test 5: Simplified return eligibility
+### Worked example Test: Simplified return eligibility
 
 - **Input:** Freelancer with $100,000 gross income. No employees, no vehicle, no depreciation.
 - **Expected:** Eligible for NYC-202S. Must still compute exemption phase-out.

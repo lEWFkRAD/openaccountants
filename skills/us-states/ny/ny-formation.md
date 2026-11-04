@@ -268,7 +268,7 @@ Both are required. Filing one does not satisfy the other.
 
 ## Worked examples
 
-### Example 1: NYC SaaS Startup ("Ridgeway Labs LLC")
+### Worked example Example: NYC SaaS Startup ("Ridgeway Labs LLC")
 
 **Facts:** Two technical co-founders form a new SaaS company in Manhattan. Each contributes $50,000 of seed capital. They expect to raise institutional capital in 12 months and have been told by potential investors that a Delaware C-corp is preferred for the priced round, but they need to operate now under some entity.
 
@@ -315,7 +315,7 @@ The Delaware path is dramatically cheaper because the LLC publication requiremen
 - Confirm NYC UBT filing for year 1 even if at credit threshold (filing is required)
 - Discuss Delaware C-corp conversion path before institutional round
 
-### Example 2: Manhattan Real Estate LLC ("215 East 73rd Holdings LLC")
+### Worked example Example: Manhattan Real Estate LLC ("215 East 73rd Holdings LLC")
 
 **Facts:** An individual investor forms a single-member LLC to hold one Manhattan rental brownstone. The property generates ~$180,000 of gross rents and $40,000 of net operating income after debt service. The LLC will hold no other assets. (not yet confirmed)
 

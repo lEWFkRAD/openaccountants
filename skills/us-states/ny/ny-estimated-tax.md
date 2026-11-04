@@ -124,7 +124,7 @@ This is the deterministic pre-classifier for bank statement transactions. When a
 
 ## Section 4 -- Worked examples
 
-### Example 1 -- Standard NYC freelancer
+### Worked example Example -- Standard NYC freelancer
 
 **Standard NYC freelancer component table**  _(https://www.tax.ny.gov/pdf/2025/inc/it2105i_2025.pdf)_
 
@@ -139,25 +139,25 @@ Input: Single NYC resident. NYAGI $120,000. NY tax $6,500. NYC tax $3,800. MCTMT
 
 Required: 90% x $11,020 = $9,918 (or 100% prior if lower). Quarterly: $2,479.50 (round voucher payments to whole dollars).
 
-### Example 2 -- High-income, 110% prior year
+### Worked example Example -- High-income, 110% prior year
 
 Input: Single. NYAGI $200,000. Current year total $18,000. Prior year $14,000.
 
 Computation: 90% current = $16,200. 110% prior = $15,400. Required = $15,400 (lesser). Quarterly = $3,850.
 
-### Example 3 -- Below threshold
+### Worked example Example -- Below threshold
 
 Input: NYC resident. Estimated NYS/NYC/Yonkers income tax after withholding = $250 and no MCTMT expected.
 
 Output: $250 < $300 income-tax threshold and MCTMT = $0, so no estimated payments required.
 
-### Example 4 -- Yonkers resident
+### Worked example Example -- Yonkers resident
 
 Input: Yonkers resident. NY state tax $5,000. Yonkers surcharge = $5,000 x 16.75% = $837.50.
 
 Output: Include $837.50 in estimated tax total.
 
-### Example 5 -- MCTMT Zone 2 only
+### Worked example Example -- MCTMT Zone 2 only
 
 Input: Westchester resident (Zone 2). NESE $80,000.
 
@@ -246,32 +246,32 @@ Before delivering output, verify:
 
 ## Section 10 -- Test suite
 
-### Test 1 -- NYC freelancer
+### Worked example Test -- NYC freelancer
 
 Input: NYAGI $120,000. NY tax $6,500. NYC $3,800. MCTMT $720. No withholding.
 Expected: Total $11,020. Required 90% = $9,918. Quarterly ~$2,480.
 
-### Test 2 -- High-income 110% rule
+### Worked example Test -- High-income 110% rule
 
 Input: NYAGI $200,000. Current $18,000. Prior $14,000.
 Expected: 90% current = $16,200. 110% prior = $15,400. Required = $15,400. Quarterly = $3,850.
 
-### Test 3 -- Below threshold
+### Worked example Test -- Below threshold
 
 Input: Estimated tax after withholding = $250.
 Expected: No payments required.
 
-### Test 4 -- Yonkers resident
+### Worked example Test -- Yonkers resident
 
 Input: NY state tax $5,000.
 Expected: Yonkers = $837.50. Include in total.
 
-### Test 5 -- MCTMT Zone 2
+### Worked example Test -- MCTMT Zone 2
 
 Input: Westchester. NESE $80,000.
 Expected: MCTMT = $272.
 
-### Test 6 -- First year
+### Worked example Test -- First year
 
 Input: No prior NY return.
 Expected: Prior year safe harbour = $0. Use 90% current.
