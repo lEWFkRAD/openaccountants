@@ -169,7 +169,7 @@ This is a small-volume but high-audit-risk filing — many employers either miss
 | Q3 | Jul 1 – Sep 30 | **October 31, 2025** (2026 shifts to November 2 for the holiday) |
 | Q4 | Oct 1 – Dec 31 | **January 31, 2026** (2026 shifts to February 1 for the weekend) |
 
-- **Weekend/holiday and Q4 2025 due date** — Guide rule: "If a due date falls on a Federal Reserve bank holiday, Georgia State Holiday, Saturday or Sunday, the due date is extended to the next business day" (2026 Employer's Tax Guide). None of the 2025 quarterly G-7 due dates above fall on a weekend except Q4 January 31, 2026 (a Saturday) — so the effective Q4 2025 G-7 due date is Monday, February 2, 2026.  _(4.2 G-7 due dates (calendar year 2025))_
+- **Weekend/holiday and Q4 2025 due date** — Guide rule: "If a due date falls on a Federal Reserve bank holiday, Georgia State Holiday, Saturday or Sunday, the due date is extended to the next business day" (2026 Employer's Tax Guide US-GA-2026-employers-tax-guide.pdf). None of the 2025 quarterly G-7 due dates above fall on a weekend except Q4 January 31, 2026 (a Saturday) — so the effective Q4 2025 G-7 due date is Monday, February 2, 2026.  _(4.2 G-7 due dates (calendar year 2025))_
 
 ### 4.3 What G-7 reports
 
@@ -287,7 +287,7 @@ Form G-1003 is the annual transmittal by which the employer:
 
 - **GA UI 2025 taxable wage base** — $9,500 per employee per year  _(7.3 2025 taxable wage base)_
 
-Georgia's UI taxable wage base is $9,500 ("Effective January 1, 2013, the taxable wage base in Georgia is $9,500 in accordance with 2012 GA House Bill 347" — GDOL employers FAQs). The federal FUTA wage base is $7,000; neighboring-state bases vary and should be confirmed per state before quoting.
+Georgia's UI taxable wage base is $9,500 ("Effective January 1, 2013, the taxable wage base in Georgia is $9,500 in accordance with 2012 GA House Bill 347" — GDOL employers FAQs US-GA-gdol-employers-faqs-ui.html). The federal FUTA wage base is $7,000; neighboring-state bases vary and should be confirmed per state before quoting.
 
 ### 7.4 2025 contribution rates
 
@@ -300,7 +300,7 @@ Georgia's UI taxable wage base is $9,500 ("Effective January 1, 2013, the taxabl
 | Administrative Assessment | **0.06%** | Separate component on UI taxable wages under O.C.G.A. §34-8-180 |
 
 - **Administrative Assessment application** — The Administrative Assessment is a separate line item that funds GDOL operations. It applies to the same UI taxable wage base as the experience-rate contribution ($9,500 per employee in 2025). It is not absorbed into the experience rate — the employer pays both components.  _(7.4 2025 contribution rates)_
-- **Maximum GA UI cost per employee (worked at a top experience rate)** — $9,500 taxable wage base × 8.10% = $769.50, plus the administrative assessment. Confirm the current-year top rate on the GDOL Form DOL-626 Tax Rate Notice. Wage base quote: "The taxable wage base in Georgia increased from $8,500 to $9,500 beginning 2013" (GDOL UI reporting and liability guide).
+- **Maximum GA UI cost per employee (worked at a top experience rate)** — $9,500 taxable wage base × 8.10% = $769.50, plus the administrative assessment. Confirm the current-year top rate on the GDOL Form DOL-626 Tax Rate Notice. Wage base quote: "The taxable wage base in Georgia increased from $8,500 to $9,500 beginning 2013" (GDOL UI reporting and liability guide US-GA-gdol-ui-tax-reporting-and-liability.pdf).
 - **Minimum GA UI cost per employee (worked at a low experience rate)** — $9,500 × 0.04% = $3.80, plus the administrative assessment. Confirm the current-year bottom rate with GDOL.
 - **New employer cost per employee** — Newly liable employers are assigned 2.70%: "Newly liable employers are assigned a beginning tax rate of 2.70%" (GDOL UI reporting and liability guide). $9,500 × 2.70% = $256.50, plus the administrative assessment.
 
