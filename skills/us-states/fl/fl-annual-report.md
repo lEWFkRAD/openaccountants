@@ -50,10 +50,6 @@ This is a Tier 2 content skill that loads on top of `us-tax-workflow-base`. It c
 - Florida corporate income tax (Form F-1120) -- separate skill
 - Reinstatement of administratively dissolved entities
 
-## The taxable base
-
-The annual report is not a tax; there is no taxable base. The filing keeps entity status active and updates the registered record: entity name, FEIN, principal office and mailing addresses, registered agent (Florida street address required), and current managers/members or officers/directors.
-
 ## Rates, bands and thresholds
 
 **Fees**  _(See table)_
@@ -118,6 +114,10 @@ The annual report is not a tax; there is no taxable base. The filing keeps entit
 - A $400 late fee applies to annual reports filed after May 1 for profit corporations, limited liability companies, limited partnerships, and limited liability limited partnerships. Not-for-profit corporations are not subject to the $400 late fee.  _(Sunbiz filing instructions; §607.193(2)(b), F.S.)_
 - There is no provision to abate or waive the $400 late fee; it applies even if the entity did not receive annual report filing notices.  _(Sunbiz filing instructions)_
 - An LLC that fails to file may not maintain or defend an action in a Florida court until the report is filed and fees and penalties are paid, and is subject to dissolution.  _(§605.0212(6), F.S.)_
+
+## The taxable base
+
+The annual report is not a tax; there is no taxable base. The filing keeps entity status active and updates the registered record: entity name, FEIN, principal office and mailing addresses, registered agent (Florida street address required), and current managers/members or officers/directors.
 
 ## Cross-border points
 
