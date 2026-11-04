@@ -1187,7 +1187,7 @@ This skill produces a multi-layer tax computation (state + potentially NYC + pot
 
 ## Worked examples
 
-Six worked examples covering the common fact patterns the skill encounters. Each example walks through the position rules from Section 5 with explicit computations, primary source citations, and the resulting reviewer brief entries. Examples are drawn from hypothetical taxpayers; names are illustrative.
+Six worked examples covering the common fact patterns the skill encounters. Each example walks through the position rules from Section 5 with explicit computations, primary source citations, and the resulting reviewer brief entries. Examples are drawn from hypothetical taxpayers; names are hypothetical.
 
 ### Worked example Example — Sarah: Brooklyn-based NYC resident freelancer with UBT
 

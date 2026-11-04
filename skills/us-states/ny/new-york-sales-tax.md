@@ -1,3 +1,15 @@
+---
+name: new-york-sales-tax
+description: Use this skill whenever asked about New York sales and use tax, NYS DTF filings, NYC sales tax, New York exemptions, New York clothing exemption, New York nexus, or any request involving New York state sales and use tax compliance. Trigger on phrases like "New York sales tax", "NY sales tax", "NYC sales tax", "DTF", "ST-100", "New York clothing exemption", "New York resale certificate", or any request involving New York sales and use tax classification, filing, or compliance. ALWAYS read this skill before touching any New York sales tax work.
+jurisdiction: US-NY
+tax_year: 2026
+last_updated: 2026-10-16
+authored_by: Michael Cutajar and the OpenAccountants team
+review_status: pending_review
+trust_label: Built by Michael Cutajar and the OpenAccountants team
+tier: 2
+license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
+---
 ## Who this applies to
 
 - Businesses that sell goods, prewritten software or taxable services to customers in New York State, and need to decide whether to register, what to charge and how to file.
