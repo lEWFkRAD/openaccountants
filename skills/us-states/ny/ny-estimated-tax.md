@@ -298,7 +298,7 @@ Expected: Prior year safe harbour = $0. Use 90% current.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| NYSDTF 2026 tax filing dates calendar | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/it/2026_tax_filing_dates.htm | 2026-10-28 |
+| NYSDTF 2026 tax filing dates calendar | https://www.tax.ny.gov/help/calendar/2026.htm | 2026-10-28 |
 | Form IT-2105-i instructions (2025) | https://www.tax.ny.gov/pdf/2025/inc/it2105i_2025.pdf | 2026-10-28 |
 | NY Tax Law §6654 (underpayment of estimated tax) | https://www.nysenate.gov/legislation/laws/TAX/6654 | 2026-11-03 |
 

@@ -322,7 +322,7 @@ This skill does NOT cover the following items, which require either a specialize
 | NY Tax Law §801 (MCTMT rate) | https://www.nysenate.gov/legislation/laws/TAX/801 | 2026-11-03 |
 | NY Tax Law §685 (additions to tax and penalties) | https://www.nysenate.gov/legislation/laws/TAX/685 | 2026-11-03 |
 | NYSDTF MCTMT employer rate tables (NYS-45 Part D) | https://www.tax.ny.gov/bus/mctmt/emp.htm | 2026-10-28 |
-| NYSDTF MCTMT self-employed page (MTA-6) | https://www.tax.ny.gov/bus/mctmt/mctmt_tax.htm | 2026-10-28 |
+| NYSDTF MCTMT self-employed page (MTA-6) | https://www.tax.ny.gov/bus/mctmt/emp.htm | 2026-10-28 |
 
 Not yet confirmed: TSB-M-23(1)MCTMT text not archived; Publication 420 current edition not archived; 2026 NYS-45 instruction text not archived.
 

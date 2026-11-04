@@ -381,7 +381,7 @@ All food at restaurants is taxable regardless of individual item exemption statu
 | Source | URL | Read on |
 | --- | --- | --- |
 | NYSDTF sales tax rates (general) | https://www.tax.ny.gov/bus/st/rates.htm | 2026-10-28 |
-| ST-140 instructions (quarterly return) | https://www.tax.ny.gov/pdf/current_forms/st/st140i.pdf | 2026-10-28 |
+| ST-140 instructions (quarterly return) | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/filing_requirements_for_sales_and_use_tax_returns.htm | 2026-10-28 |
 | TB-ST-275 filing requirements | https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/filing_requirements_for_sales_and_use_tax_returns.htm | 2026-10-28 |
 
 Not yet confirmed: 2026 locality rate-change notices beyond the archived rates page; prepaid sales tax on fuel current rates.
