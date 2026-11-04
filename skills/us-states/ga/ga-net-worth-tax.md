@@ -214,12 +214,7 @@ The greater-of rule effectively imposes the tax on whichever balance-sheet measu
 
 | Net worth (Georgia apportioned, Base A or B greater) | Tax |
 | --- | --- |
-| $0 to $10,000 | $10 |
-| $10,001 to $25,000 | $20 |
-| $25,001 to $40,000 | $40 |
-| $40,001 to $60,000 | $60 |
-| $60,001 to $80,000 | $75 |
-| $80,001 to $100,000 | $100 |
+| Not exceeding $100,000 | $0 (must still file) |
 | $100,001 to $150,000 | $125 |
 | $150,001 to $200,000 | $150 |
 | $200,001 to $300,000 | $200 |
@@ -263,7 +258,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 ### 8.1 The $500 threshold
 
-- **De minimis estimated tax threshold** — $500 USD (A corporation owing $500 or less in net tax is not required to make estimated payments.)  _(O.C.G.A. §48-7-115)_
+- **Estimated tax trigger** — A corporation must pay estimated tax if its net income for the year can reasonably be expected to exceed $25,000 (O.C.G.A. § 48-7-117; 2025 IT-611 booklet: "Every domestic or foreign corporation subject to taxation in Georgia shall pay estimated tax for the taxable year if its net income for such taxable year can reasonably be expected to exceed Twenty-Five Thousand Dollars ($25,000.00)").
 - **Threshold application examples** — For net-worth-tax-only purposes: since the cap is $5,000, a corporation with no income tax liability but with a net worth tax of $750 or more is required to make estimated payments (because $750 > $500 threshold). For corporations with both income and net worth tax: the $500 threshold applies to the COMBINED liability. A corporation expecting $400 of income tax and $200 of net worth tax has combined $600 > $500 and must pay estimates.
 
 ### 8.2 Estimated payment schedule
@@ -384,7 +379,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 **Look up the bracket** in the Section 7 table: $750,001 to $1,000,000 → **$500 net worth tax**
 
-**Result:** Atlas owes $500 net worth tax for 2025. Combined with income tax, Atlas exceeds the $500 estimated-payment threshold, so it must file Form 602-ES quarterly for 2026.
+**Result:** Atlas owes $500 net worth tax for 2025. Combined with income tax, Atlas expects net income above $25,000, so it must file Form 602-ES quarterly for 2026.
 
 ### Worked example 2 — Large Georgia C-corporation at the cap
 
@@ -553,7 +548,7 @@ When this skill is invoked, produce a reviewer-ready package containing:
 
 2. Form 600 Part II (or Form 600S Part III) line-by-line entries — ready to be transcribed onto the return or imported into preparation software.
 
-3. Estimated Tax Analysis — does combined liability exceed $500? If yes, generate Form 602-ES schedule for the following year.
+3. Estimated Tax Analysis — can net income reasonably be expected to exceed $25,000? If yes, generate the Form 602-ES schedule for the following year.
 
 4. Penalty Analysis (if late) — late filing, late payment, interest, and total.
 
