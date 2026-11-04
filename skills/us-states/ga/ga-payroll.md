@@ -18,7 +18,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > **Reviewer requirement.** Georgia payroll outputs must be reviewed by a Georgia-licensed CPA, an Enrolled Agent, or a payroll professional credentialed for Georgia (FPC or CPP under the American Payroll Association). Reviewer signoff is required before any return, voucher, or wage report is filed with the Georgia Department of Revenue (GA DOR) or the Georgia Department of Labor (GDOL).
 
-## 1. Scope and Out-of-Scope
+## Who this applies to
 
 ### 1.1 In scope
 
@@ -54,7 +54,7 @@ The following are explicitly out of scope for this skill:
 - S-corporation reasonable compensation analysis (see `us-s-corp-election-decision`).
 - Pass-through entity tax (PTET) elections (Georgia PTET under HB 149 / O.C.G.A. §48-7-23 is income-tax allocation, not payroll).
 
-## 2. Georgia Personal Income Tax (PIT) Withholding — 2025 Rate and Phase-Down
+## Rates, bands and thresholds
 
 ### 2.1 The 2025 flat rate
 
@@ -111,7 +111,9 @@ If the same employee claimed 2 dependents on G-4:
 4. Annual tax: $45,000 × 0.0519 = **$2,335.50**.
 5. Per-pay-period: $2,335.50 ÷ 26 = **$89.83**.
 
-## 3. Form G-4 — Georgia Employee's Withholding Allowance Certificate
+## The taxable base
+
+### Form G-4 — Georgia Employee's Withholding Allowance Certificate
 
 ### 3.1 Purpose and required collection
 
@@ -136,7 +138,9 @@ If the same employee claimed 2 dependents on G-4:
 
 This is a small-volume but high-audit-risk filing — many employers either miss the reporting requirement or never identify which G-4s cross the 14-allowance threshold.
 
-## 4. Form G-7 — Quarterly Withholding Return
+## Deadlines and filing
+
+### Form G-7 — Quarterly Withholding Return
 
 ### 4.1 Filing tiers
 
@@ -265,7 +269,9 @@ Form G-1003 is the annual transmittal by which the employer:
 - **Failure to file electronically when required** — $10 per return  _(6.6 G-1003 penalties)_
 - **Late information returns within 30 days** — reduced $5 per return  _(6.6 G-1003 penalties)_
 
-## 7. Georgia Unemployment Insurance (GA UI) and Administrative Assessment
+## Penalties and interest
+
+### Georgia Unemployment Insurance (GA UI) and Administrative Assessment
 
 ### 7.1 Authority and administration
 
@@ -352,7 +358,9 @@ Georgia is among the states with the lowest UI wage base — for context, federa
 
 - **Multistate new-hire reporting election** — Under PRWORA at 42 U.S.C. §653a(b)(1)(B), a multistate employer may elect to report all new hires to a single state. Georgia accepts inbound multistate elections. The election is made on a federal form filed with the federal Office of Child Support Enforcement (OCSE), not with GDOL directly. Once elected, the employer is bound by the chosen state's deadline — but a Georgia employer that elects to report all hires to Georgia is still bound by the 10-day GA deadline for those reports.  _(42 U.S.C. §653a(b)(1)(B))_
 
-## 9. Worker Classification — IRS 20-Factor Test and the GA Construction 4 P's
+## Cross-border points
+
+### Worker Classification — IRS 20-Factor Test and the GA Construction 4 P's
 
 ### 9.1 General classification
 
@@ -431,7 +439,7 @@ In practice, GDOL audits the 4 P's by examining:
 - **No state-mandated paid family leave** — Georgia has no state-mandated paid family leave insurance program comparable to California PFL, New York PFL, Washington PFML, Massachusetts PFML, Colorado FAMLI, Oregon Paid Leave, or the Connecticut, Delaware, Maine, Minnesota, Maryland, New Jersey, Rhode Island, or D.C. programs. Georgia employers therefore have no payroll deduction for PFML and no employer contribution for PFML.  _(10.4 Paid family leave — no state mandate)_
 - **State employee paid parental leave exception** — A modest exception applies to state employees: under O.C.G.A. §45-20-100 (the "Georgia State Government Paid Parental Leave Act"), state government employees receive up to 120 hours of paid parental leave. This applies only to the state's own workforce and creates no obligation for private employers.  _(O.C.G.A. §45-20-100)_
 
-## 11. Worked Examples
+## Worked examples
 
 ### Worked example A — Atlanta-based 10-employee employer, full Q1 2025 payroll cycle
 
@@ -526,7 +534,7 @@ When this skill is loaded alongside the federal payroll content skills, the foll
 | Paid family leave | None federal (FMLA is unpaid) | **None** in Georgia |
 | Supplemental wage withholding | Federal 22% / 37% under §3402(g) | GA flat **5.19%** for 2025 |
 
-## 13. Reviewer Checklist (Self-Test)
+## Ask the client first
 
 A reviewer signing off on a 2025 Georgia payroll engagement should confirm:
 
@@ -546,62 +554,18 @@ A reviewer signing off on a 2025 Georgia payroll engagement should confirm:
 - [ ] Phase-down rate confusion check: current calendar year's Georgia withholding rate matches the year's TSD-WH publication, not the prior year's.
 - [ ] All findings memorialized in the reviewer file with citations to O.C.G.A. provisions or GA DOR Regulations 560.
 
-## 14. Authority Citations
+## Sources
 
-- §34-7-2 — Time of payment of wages.
-- §34-8-1 et seq. — Employment Security Law (UI).
-- §34-8-33 — Coverage.
-- §34-8-35 — Employment definition (including (n) construction 4 P's).
-- §34-8-155 — Experience rating.
-- §34-8-165 — Interest and penalties on UI.
-- §34-8-166 — Interest rate.
-- §34-8-172 — SUTA dumping.
-- §34-8-180 — Administrative Assessment.
-- §34-9-1 et seq. — Workers' Compensation.
-- §34-9-2 — Coverage threshold (3 employees).
-- §34-9-126 — Penalty for failure to insure.
-- §19-11-9.2 — New-hire reporting.
-- §45-20-100 — State employee paid parental leave.
-- §48-2-32 — Electronic funds transfer.
-- §48-2-40 — Interest on deficiencies.
-- §48-7-20 — Income tax rates (HB 1437 / HB 1015 / HB 111 amendments).
-- §48-7-23 — Pass-through entity tax election.
-- §48-7-28 — Credit for taxes paid to other states.
-- §48-7-100 — Withholding by employers.
-- §48-7-102 — Form G-4 collection.
-- §48-7-119 — Records retention.
-- §48-7-120 — Estimated tax penalty.
-- §48-7-126 — Withholding penalties.
+| Source | URL | Read on |
+| --- | --- | --- |
+| GA DOR 2026 Employer's Tax Guide (withholding tables, G-7 mechanics) | https://dor.georgia.gov/document/document/2026-employers-tax-guide-updated-september-2026/download | 2026-10-28 |
+| GA DOR withholding page | https://dor.georgia.gov/withholding | 2026-10-28 |
+| GDOL Employers FAQs (unemployment insurance) | https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance | 2026-10-28 |
+| GDOL UI tax reporting and liability | https://dol.georgia.gov/document/unemployment-tax/unemployment-insurance-tax-reporting-and | 2026-10-28 |
+| GA DOR penalty and interest rates | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
 
-- 560-3-2-.26 — Electronic filing requirements.
-- 560-7-8-.34 — Withholding form defaults.
+Not yet confirmed: 2026 experience-rated UI rates (Form DOL-626 not retrieved); GA-V filing-tier thresholds; G-1003 e-filing mandate thresholds.
 
-- Employer's Tax Guide (TSD-WH), 2025 edition.
-- G-4 Instructions (2025).
-- G-7 / GA-V Instructions (2025).
-- G-1003 Instructions (2025).
-
-- Employer Handbook (2025).
-- DOL-4N Instructions.
-- New Hire Reporting program documentation.
-
-- 42 U.S.C. §653a — PRWORA new-hire reporting baseline.
-- 50 U.S.C. §4001 — Military Spouses Residency Relief Act.
-- IRC §3402, §3406, §6041A.
-- Treas. Reg. §31.6302-1 — Semi-weekly deposit schedule.
-- IRS Revenue Ruling 87-41 — 20-factor common-law test.
-- IRS Publication 1779 — three-category common-law summary.
-- Revenue Act of 1978 §530 — federal safe harbor (does NOT apply to GA UI).
-- P.L. 119-21 (OBBBA) — §6041A threshold change effective 2026.
-
-- HB 1437 (Ga. 2022 Regular Session) — flat tax conversion and phase-down.
-- HB 1015 (Ga. 2024 Regular Session) — rate acceleration.
-- HB 111 (Ga. 2025) — signed April 15, 2025; reduced PIT rate to 5.19% retroactive to January 1, 2025; accelerated phase-down schedule toward 4.99% target.
-- GA DOR Employer's Tax Guide (TSD-WH), June 2025 revision — implementation guidance for HB 111 mid-year rate change.
-
-<!-- openaccountants-cta-block -->
-
----
 
 ## Talk to a verified accountant
 

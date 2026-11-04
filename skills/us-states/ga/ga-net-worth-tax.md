@@ -14,14 +14,14 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ## Georgia Net Worth Tax — Form 600 Part II
 
-## 1. Scope and Purpose
+## Who this applies to
 
 - **Net Worth Tax filing forms** — This skill prepares the Georgia Net Worth Tax computation for corporations and LLCs taxed as corporations that are subject to Georgia's separate capital/equity tax under O.C.G.A. § 48-13-70 et seq. The Net Worth Tax is filed annually on Form 600 Part II (for C-corporations) or Form 600S Part III (for S-corporations), combined with the corporate income tax return.  _(O.C.G.A. § 48-13-70 et seq.)_
 - **Scoped narrowly to** — C-corporations chartered in Georgia or doing business in Georgia; S-corporations chartered in Georgia or doing business in Georgia; Domestic LLCs that have elected to be taxed as corporations (Form 8832 or Form 2553); Foreign corporations registered to do business in Georgia (qualified through the Georgia Secretary of State)
 - **Out of scope** — Sole proprietorships (no entity to tax); General partnerships; Limited partnerships (LPs); Multi-member LLCs taxed as partnerships (default federal classification); Single-member LLCs disregarded for federal tax (disregarded for GA net-worth tax too — see Section 4.4); Trusts and estates; Nonprofit corporations exempt under O.C.G.A. § 48-13-73 (these are exempt from net worth tax even though they file Form 600-T for unrelated business income); Insurance companies (subject to premium tax in lieu of net worth tax under O.C.G.A. § 33-8-4); Financial institutions subject to the Georgia Financial Institutions Business Occupation Tax under O.C.G.A. § 48-6-93 (which is in lieu of net worth tax); Public utilities subject to gross receipts tax in lieu  _(O.C.G.A. § 48-13-73; O.C.G.A. § 33-8-4; O.C.G.A. § 48-6-93)_
 - **Critical architecture note** — The Net Worth Tax is completely separate from the Georgia corporate income tax (the 5.39% rate for 2025 under O.C.G.A. § 48-7-21, as reduced by HB 1437 / HB 1015 acceleration). An entity can owe ZERO income tax (loss year, full credit offset, S-corp with no GA-source income at entity level) and still owe net worth tax. This is the #1 source of taxpayer confusion and the most common audit-letter trigger.  _(O.C.G.A. § 48-7-21)_
 
-## 2. What It Is — Net Worth Tax vs. Corporate Income Tax
+### 2. What It Is — Net Worth Tax vs. Corporate Income Tax
 
 ### 2.1 The two taxes side by side
 
@@ -63,28 +63,11 @@ Because the tax is balance-sheet-driven:
 
 The Net Worth Tax has existed in essentially its current form since 1979 (Ga. L. 1979, p. 5). The rate brackets were last adjusted by Ga. L. 2017, Act 284 (HB 283), which is what created the current $10 floor and $5,000 cap. Earlier filings (pre-2018) used a different schedule — do not apply the current schedule to prior-year returns.
 
-## 3. Statutory Authority
+### 2.5 Who Pays — Entity-by-Entity Walk-Through
 
-**Statutory Authority**  _(O.C.G.A. § 48-13-70 et seq.)_
+### Who Pays — Entity-by-Entity Walk-Through
 
-| Provision | Subject |
-| --- | --- |
-| O.C.G.A. § 48-13-70 | Definitions |
-| O.C.G.A. § 48-13-71 | Imposition of net worth tax on corporations |
-| O.C.G.A. § 48-13-72 | Domestic corporation net worth tax |
-| O.C.G.A. § 48-13-73 | Exemptions (nonprofits, certain entities) |
-| O.C.G.A. § 48-13-74 | Foreign corporations doing business in Georgia |
-| O.C.G.A. § 48-13-75 | Apportionment of net worth |
-| O.C.G.A. § 48-13-76 | Rate schedule (the graduated brackets) |
-| O.C.G.A. § 48-13-77 | Due date — combined with income tax return |
-| O.C.G.A. § 48-13-79 | Penalty for failure to file |
-| Ga. Comp. R. & Regs. r. 560-7-3 | Departmental regulations on net worth tax |
-| Form 600 instructions (2025) | Computational guidance from GA DOR |
-| Form 600S instructions (2025) | S-corp version |
-
-Cite to the O.C.G.A. section in any reviewer brief — Georgia Department of Revenue audit letters routinely reference these section numbers, and the reviewer needs to be able to trace any position back to the statute.
-
-## 4. Who Pays — Entity-by-Entity Walk-Through
+### Who Pays — Entity-by-Entity Walk-Through
 
 ### 4.1 Domestic C-corporations
 
@@ -140,7 +123,9 @@ Is the entity a corporation or LLC?
     └── Apply rate schedule from Section 5
 ```
 
-## 5. Tax Base — The "Greater Of" Rule
+### 3.1 The taxable base overview
+
+### Tax Base — The "Greater Of" Rule
 
 ### 5.1 The two competing bases
 
@@ -186,7 +171,13 @@ The greater-of rule effectively imposes the tax on whichever balance-sheet measu
 
 - **Negative net worth treatment** — If net worth (Base B) is negative — i.e., liabilities exceed assets — the entity still computes the tax using the greater of Base A or Base B. If Base A is positive (which it usually is, since shareholders had to invest something) and Base B is negative, the entity uses Base A. If BOTH Base A and Base B are zero or negative — extremely rare; would require a corporation with no par/stated value capital stock and no paid-in capital and negative equity — the corporation still owes the minimum $10 net worth tax. There is no zero-tax floor below the first bracket.
 
-## 6. Apportionment for Multistate Corporations
+### Rate Schedule (Tax Year 2025)
+
+### Apportionment for Multistate Corporations
+
+### Apportionment for Multistate Corporations
+
+### Apportionment for Multistate Corporations
 
 ### 6.1 The basic rule
 
@@ -210,7 +201,12 @@ The greater-of rule effectively imposes the tax on whichever balance-sheet measu
 
 - **Foreign corp apportionment example** — A foreign corporation registered in Georgia uses its Georgia apportionment factor to compute the portion of its net worth subject to Georgia tax. If the foreign corporation has, say, 3% of its sales in Georgia, then 3% of its net worth is the GA net worth base. Example: A Delaware C-corp with $200M total net worth and 3% GA apportionment factor has GA net worth of $6M, which falls into the bracket at Section 7 producing a $100 tax (or whatever the bracket dictates at that level). The corporation does NOT pay the $5,000 cap merely because its TOTAL net worth is high.
 
-## 7. Rate Schedule (Tax Year 2025)
+### 5.1 Tax base overview
+
+## Rates, bands and thresholds
+## The taxable base
+
+### Rate Schedule (Tax Year 2025)
 
 ### 7.1 The graduated table
 
@@ -263,7 +259,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 - **No proration for short periods** — Under O.C.G.A. § 48-13-72(b), the first net worth tax period for a new corporation runs from the date of incorporation (or date of qualification, for a foreign corp) through the end of the corporation's first fiscal year. If this period is less than 12 months, the tax is NOT prorated — the corporation owes the full bracket amount based on its net worth at the end of the short period. For subsequent short periods (e.g., a change in accounting period), the tax is also not prorated — each accounting period generates a full net worth tax. Example: A corporation incorporates on October 1, 2025, and adopts a calendar year. Its first net worth tax return covers October 1, 2025 to December 31, 2025 (3 months). The full bracket amount is due — not 3/12 of the bracket amount.  _(O.C.G.A. § 48-13-72(b))_
 
-## 8. Estimated Payments
+### Estimated Payments
 
 ### 8.1 The $500 threshold
 
@@ -291,7 +287,9 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 - **Underpayment penalty rate (Form 600 UET)** — 9% per annum (or the federal short-term rate plus 3%, whichever is lower — for 2025 the GA DOR-published rate is 9%)  _(Form 600 UET (Underpayment of Estimated Tax))_
 
-## 9. Filing Mechanics
+## Deadlines and filing
+
+### Filing Mechanics
 
 ### 9.1 Form 600 layout (C-corporations)
 
@@ -342,7 +340,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 - **Filing address and e-file requirement** — Mail: Georgia Department of Revenue, Processing Center, P.O. Box 740397, Atlanta, GA 30374-0397. E-file: Required for corporations with total receipts of $1M or more (O.C.G.A. § 48-2-32(f) and DOR Reg. 560-3-2-.26). Smaller corporations may e-file or paper file. E-filing is done via approved software (Drake, ProSystem fx, UltraTax, Lacerte, GoSystem, etc.) or directly through GTC (Georgia Tax Center).  _(O.C.G.A. § 48-2-32(f); DOR Reg. 560-3-2-.26)_
 
-## 10. Penalties
+### 6.1 Apportionment notes
 
 ### 10.1 Late filing penalty — O.C.G.A. § 48-13-79
 
@@ -360,7 +358,10 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 - **Penalty abatement for reasonable cause** — Under O.C.G.A. § 48-2-44(a), the DOR may abate penalties for reasonable cause shown. Standard abatement requests use Form RD-1000 (penalty waiver request). Reasonable cause is interpreted similarly to the IRS standard.  _(O.C.G.A. § 48-2-44(a))_
 
-## 11. Worked Examples
+## Penalties and interest
+## Cross-border points
+
+## Worked examples
 
 ### Worked example 1 — Small Georgia C-corporation
 
@@ -519,7 +520,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 **Recommendation:** advise client to file Articles of Dissolution with the Secretary of State AND file a final Form 600 (marked "Final Return") to end the obligation cleanly.
 
-## 12. Common Errors and Audit Flash Points (Consolidated)
+### 12. Common Errors and Audit Flash Points (Consolidated)
 
 1. [FLASH] S-corp owners assuming no entity-level GA tax. S-corps absolutely owe net worth tax. The S-election is federal only. See Section 4.3 and Example 3.
 
@@ -541,7 +542,7 @@ This cap is one reason large corporations sometimes prefer Georgia as a state of
 
 10. Bracket cliff failures. Year-end planning to drop below a bracket boundary saves bracket differential (e.g., $250 by going from $1,000,001 to $1,000,000). Worth doing when on the cliff.
 
-## 13. Skill Output
+### 13. Skill Output
 
 When this skill is invoked, produce a reviewer-ready package containing:
 
@@ -562,21 +563,34 @@ When this skill is invoked, produce a reviewer-ready package containing:
 
 6. Open Questions / Reviewer Decisions — anything where the conservative-defaults principle was invoked, or where the reviewer must confirm a position before filing.
 
-## 14. Skill Boundaries — What This Skill Does NOT Do
+### 14. Skill Boundaries — What This Skill Does NOT Do
 
 - **Out-of-scope items and dependencies** — This skill does not: - Compute Georgia corporate income tax (Form 600 Part I) — load `us-ga-corporate-income-tax` (or equivalent) alongside - Handle the Georgia PTET (pass-through entity tax) election under HB 149 — separate skill - Handle multistate income tax apportionment computations beyond consuming the GA factor produced by the income tax skill - Compute net worth tax for insurance companies (subject to premium tax in lieu under O.C.G.A. § 33-8-4) - Handle financial institutions (Georgia Financial Institutions Business Occupation Tax under O.C.G.A. § 48-6-93) - Handle public utility companies (gross receipts tax in lieu) - Handle nonprofits exempt under § 48-13-73 (these are net-worth-tax-exempt but may still file Form 600-T for UBIT — separate concern) - Handle voluntary withdrawal mechanics with the Georgia Secretary of State (refer to corporate counsel) - Handle administrative dissolution proceedings (refer to corporate counsel) - Provide opinion on whether a foreign entity has nexus sufficient to require GA registration in the first place (separate nexus skill needed) - Cover prior tax years before 2018 (rate schedule was different — do not apply the current table) MUST be loaded alongside `us-tax-workflow-base` v0.2 or later for workflow scaffolding.  _(O.C.G.A. § 33-8-4; O.C.G.A. § 48-6-93; O.C.G.A. § 48-13-73)_
 
-## 15. Conservative Defaults
+## Ask the client first
 
 - **Default positions when facts unclear** — Where the facts are unclear, this skill applies conservative defaults: - If apportionment data is missing or incomplete, default to 100% Georgia (overstates tax — safer for filing posture). - If Base A vs Base B is borderline, compute both fully and use the larger (statutorily required). - If estimated payments may or may not be required (combined liability near $500), recommend filing estimates (avoids penalty exposure for de minimis savings). - If a balance sheet item is ambiguous (e.g., shareholder loan vs. capital contribution), default to capital contribution (increases base — conservative for filing). - If a foreign entity's GA registration status is unclear, default to "subject to net worth tax" and recommend client confirm with the Secretary of State. The reviewer must override these defaults explicitly with documented support for any aggressive position.
 
-## 16. Reviewer Sign-Off Required
+### 16. Reviewer Sign-Off Required
 
 - **Sign-off requirement** — Every output of this skill requires sign-off by a Circular 230-credentialed reviewer (Enrolled Agent, CPA, or attorney) before filing. Georgia-specific sign-off should come from a reviewer with current Georgia experience — the bracket cliffs, apportionment subtleties, and the dual-base computation are easy to misapply without local familiarity. Per the verification model, Georgia state-tax outputs require the Georgia lead accountant or a contributor accountant sign-off in addition to the general federal reviewer.
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| GA DOR corporate income and net worth tax page | https://dor.georgia.gov/corporate-income-and-net-worth-tax | 2026-10-28 |
+| GA DOR net worth tax FAQ for corporations | https://dor.georgia.gov/net-worth-tax-corporations-faq | 2026-10-28 |
+| 2025 IT-611 corporate income tax instruction booklet | https://dor.georgia.gov/document/document/2025-it611-corporate-income-tax-instruction-book | 2026-10-28 |
+| Form 600-UET (underpayment of estimated tax, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underp | 2026-10-28 |
+| GA DOR penalty and interest rates | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
+
+Not yet confirmed: 2026 net worth tax bracket table (2025 brackets archived; 2026 table not retrieved).
+
 
 ## Talk to a verified accountant
 

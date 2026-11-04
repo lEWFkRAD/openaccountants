@@ -18,7 +18,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 **Reviewer signoff required.** Every output produced by this skill must be reviewed and signed off by a Georgia-admitted attorney (for entity-choice and operating-agreement matters) and/or a credentialed tax professional (CPA, EA, or attorney) under Circular 230 before it is delivered to the client or filed with the Georgia Secretary of State or the Georgia Department of Revenue. The skill is a workflow accelerator. It is not a substitute for professional judgment.
 
-## 1. Scope, sources, and conservative defaults
+## Who this applies to
 
 ### 1.1 Statutory and regulatory framework
 
@@ -113,7 +113,9 @@ A frequent error pattern at Step 6a is for the principal to assume the filing is
 0. **Step 12** — Initial Annual Registration (between January 1 and April 1 of year FOLLOWING formation)
 0. **Step 13** — Calendar all annual deadlines and hand off to bookkeeping/tax skills
 
-## 3. Georgia LLC formation — mechanics
+## Rates, bands and thresholds
+
+### Georgia LLC formation — mechanics
 
 ### 3.1 Filing the Articles of Organization
 
@@ -194,7 +196,9 @@ The implication for Georgia clients with multiple business lines (e.g., a real e
 
 A foreign series LLC (e.g., a Delaware series LLC) that does business in Georgia faces a particularly thorny question — Georgia has not formally taken a position on whether the individual series of a foreign series LLC must each qualify separately as foreign entities in Georgia, or whether the umbrella series LLC's foreign qualification covers all series. The skill's conservative default is to recommend separate foreign qualification of each series that has Georgia activity. The reviewer should confirm given the lack of authoritative guidance.
 
-## 4. Georgia C-Corp formation
+## Rates, bands and thresholds
+
+### Georgia C-Corp formation
 
 ### 4.1 Certificate of Incorporation
 
@@ -260,7 +264,9 @@ The implication for a medical PLLC is severe. A physician founder cannot bring i
 - **PLLC Secretary of State filing fee and board certification fee** — $100 online, $110 paper (Secretary of State); licensing board certification fee typically $50–$200 depending on the board USD  _(§5.3)_
 - **PLLC Annual Registration and licensure maintenance** — The Annual Registration mechanics mirror the standard LLC ($50 by April 1). However, the PLLC must also maintain its licensure with the relevant board on an ongoing basis. Loss of licensure of all members triggers automatic dissolution of the PLLC under the Professional Corporation Act.  _(Professional Corporation Act)_
 
-## 6. Doing business in Georgia — triggers
+## The taxable base
+
+### Doing business in Georgia — triggers
 
 The phrase "doing business in Georgia" appears in three distinct contexts with three different thresholds. The skill produces a flowchart to determine which threshold applies.
 
@@ -294,7 +300,9 @@ The skill flags the following as triggering foreign qualification:
 
 This skill flags the P.L. 86-272 question for the reviewer when a non-Georgia client has any Georgia-sourced sales but no physical Georgia presence — the reviewer applies the safe harbor and decides whether a Form 600/600S filing is required. See `ga-corporate-and-ptet` for full income-tax mechanics.
 
-## 7. Foreign qualification — Certificate of Authority
+## Deadlines and filing
+
+### Foreign qualification — Certificate of Authority
 
 - **Filing forms** — A non-Georgia entity that crosses Trigger 1 (§6.1) must obtain a Certificate of Authority. The filing is Form CD 235 (Application for Certificate of Authority – Foreign LLC) or Form CD 233 (Application for Certificate of Authority – Foreign Profit Corporation).  _(Form CD 235; Form CD 233)_
 
@@ -311,7 +319,9 @@ This skill flags the P.L. 86-272 question for the reviewer when a non-Georgia cl
 
 After obtaining the Certificate of Authority, the foreign entity is subject to all the same annual obligations as a domestic Georgia entity: Annual Registration by April 1, registered agent maintenance, and any applicable DOR/DOL registrations.
 
-## 8. Atlanta business license and other local taxes
+## Penalties and interest
+
+### Atlanta business license and other local taxes
 
 **AUDIT FLASH POINT — the Atlanta business license is a separate municipal obligation that the Secretary of State filing does not satisfy. Many founders assume the state filing is the only license they need; for an Atlanta-based business it is not.**
 
@@ -347,7 +357,9 @@ A home-based software developer or consultant typically qualifies easily. A home
 
 Every Georgia municipality has parallel occupation-tax authority under O.C.G.A. § 48-13-5. The skill produces a reviewer note identifying the applicable municipality (or unincorporated county) and the corresponding licensing authority. The reviewer or the client executes the local registration.
 
-## 9. S-Corporation election (Georgia overlay)
+## Cross-border points
+
+### S-Corporation election (Georgia overlay)
 
 - **Automatic Georgia conformity to federal S-election** — A Georgia corporation that has made a valid federal S-election under IRC § 1362 is automatically treated as an S-corporation for Georgia income tax purposes — Georgia conforms to the federal classification under O.C.G.A. § 48-7-21(b)(7) and does not require a separate state-level S-election. This is a contrast to states like New York, New Jersey, and California, which require a separate state S-election (or have non-conforming treatment).  _(O.C.G.A. § 48-7-21(b)(7); IRC § 1362)_
 - **Form 600S filing and shareholder inclusion rules** — The Georgia S-corporation files Form 600S annually, reporting the pass-through income that is sourced to Georgia. Resident shareholders include the Georgia-sourced and non-Georgia-sourced income on their Form 500 (individual return). Non-resident shareholders include only the Georgia-sourced income.  _(Form 600S; Form 500)_
@@ -381,7 +393,7 @@ A common error is for a freshly-formed Georgia C-corporation to file Form 2553 w
 | 11 | December formation, first Annual Registration mis-calendared | Administrative dissolution within 8 months of formation | First-year calendar entry by January 15 of year following formation |
 | 12 | Reserved-word name (e.g., "Atlanta Bank LLC") rejected | Filing rejected; delay to operations | eCorp name search + reserved-word check at Step 3 |
 
-## 12. Worked examples
+## Worked examples
 
 ### Worked example A — Atlanta SaaS LLC (single member, Georgia resident)
 
@@ -528,7 +540,7 @@ This example illustrates that the Georgia formation itself is straightforward an
 
 This example illustrates that the entity formation itself is straightforward — the substantial cost of opening a medical practice is in the regulatory and insurance overlay, not in the Secretary of State filing.
 
-## 13. Reviewer brief — output template
+## Ask the client first
 
 When the skill completes, it produces a reviewer brief for the credentialed reviewer to sign off on. The brief includes:
 
@@ -545,31 +557,18 @@ When the skill completes, it produces a reviewer brief for the credentialed revi
 
 The reviewer signs off on the brief before any document is filed with the Secretary of State or the Department of Revenue. The skill does not file documents directly — it produces drafts and the reviewer (or the client) executes the filing.
 
-## 14. Hand-offs to companion skills
+## Sources
 
-**Hand-offs to companion skills**  _(Section 14 table)_
-
-| Downstream concern | Companion skill | Trigger |
+| Source | URL | Read on |
 | --- | --- | --- |
-| Bookkeeping and Schedule C classification | `us-sole-prop-bookkeeping` | Single-member LLC formed and operating |
-| Federal income tax computation, SE tax | `us-schedule-c-and-se-computation` | Year-end of formation year |
-| Federal S-election decision | `us-s-corp-election-decision` | Profitability projections justify analysis |
-| Federal return assembly | `us-federal-return-assembly` | Form 1040 preparation |
-| Quarterly estimated tax | `us-quarterly-estimated-tax` | Each quarterly cycle |
-| Self-employed retirement | `us-self-employed-retirement` | Annual retirement-contribution decision |
-| Self-employed health insurance | `us-self-employed-health-insurance` | Marketplace coverage in place |
-| 1099-NEC issuance | `us-1099-nec-issuance` | Year-end contractor payments review |
-| Georgia personal income tax | `ga-income-tax` | Annual Form 500 preparation |
-| Georgia corporate income tax, PTET | `ga-corporate-and-ptet` | Annual Form 600 or 600S preparation |
-| Georgia sales tax | `ga-sales-tax` | Sales nexus reached or product taxability question |
+| GA DOR 2026 Employer's Tax Guide | https://dor.georgia.gov/document/document/2026-employers-tax-guide-updated-september-2026/download | 2026-10-28 |
+| GDOL Employers FAQs (unemployment insurance) | https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance | 2026-10-28 |
+| FinCEN BOI FAQs (Aug 11 2026 final rule notice) | https://www.fincen.gov/boi-faqs | 2026-11-04 |
+| FinCEN BOI final rule (Federal Register, 2026) | https://www.federalregister.gov/public-inspection/2026-16576/beneficial-ownership-informat | 2026-11-04 |
+| GA DOR withholding page | https://dor.georgia.gov/withholding | 2026-10-28 |
 
-## End of Georgia Entity Formation skill.
+Not yet confirmed: Secretary of State filing-fee schedule (eCorp fees not archived); Atlanta business-license rate tiers; publication-cost figures.
 
-End of Georgia Entity Formation skill.
-
-<!-- openaccountants-cta-block -->
-
----
 
 ## Talk to a verified accountant
 

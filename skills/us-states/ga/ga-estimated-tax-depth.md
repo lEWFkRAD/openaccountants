@@ -20,7 +20,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 >
 > **Citation discipline**: Every rate, threshold, and safe-harbor percentage cited below is verifiable against the TY 2025 Form 500-ES instructions and the underlying O.C.G.A. sections. Where the DOR interest rate is given as a range (currently 7-9% depending on the quarter), use the actual published rate for the period of underpayment when running the penalty computation — do not hardcode.
 
-## 1. Scope
+## Who this applies to
 
 This skill covers:
 
@@ -38,7 +38,9 @@ This skill does **NOT** cover:
 - The PTE election decision itself (whether to make it) — defer to `ga-corporate-and-ptet.md`.
 - Non-resident estimated tax for Georgia-source income — covered briefly only as it interacts with the safe harbor.
 
-## 2. Required Threshold — When Estimated Tax Is Required
+## Rates, bands and thresholds
+
+### Required Threshold — When Estimated Tax Is Required
 
 ### 2.1 Individual threshold
 
@@ -54,7 +56,13 @@ This skill does **NOT** cover:
 
 - **Corporate estimated payment threshold** — $500 USD (C-corporations with expected GA income tax liability exceeding this amount must make estimated payments on the 25/25/25/25 schedule, using Form 600-ES)
 
-## 3. Installment Schedule — The 25/25/25/25 Rule
+### 3. Installment Schedule — The 25/25/25/25 Rule
+
+### Installment Schedule — The 25/25/25/25 Rule
+
+### Installment Schedule — The 25/25/25/25 Rule
+
+### Installment Schedule — The 25/25/25/25 Rule
 
 ### 3.1 Four equal installments
 
@@ -79,7 +87,7 @@ This skill does **NOT** cover:
 
 - **Catch-up rules for late-arising income** — If the taxpayer's circumstances change such that estimated payments become required only after April 15 (for example, a business that becomes profitable in mid-year, or an unexpected capital gain in Q3), the catch-up rules apply: - If the requirement first arises between April 1 and June 1: the first installment is due June 15 and equals 50% of the required annual payment; remaining 25% / 25% due Sep 15 and Jan 15. - If the requirement first arises between June 1 and September 1: the first installment is due September 15 and equals 75%; remaining 25% due Jan 15. - If the requirement first arises after September 1: a single payment of 100% is due January 15. In practice, the safe harbor (Section 5) often allows a taxpayer to defer payments without penalty even if the income arises late in the year, by referencing prior-year tax.  _(O.C.G.A. §48-7-115(b))_
 
-## 4. Form 500-ES — The Voucher
+### Form 500-ES — The Voucher
 
 ### 4.1 What Form 500-ES is
 
@@ -93,7 +101,10 @@ This skill does **NOT** cover:
 
 - **Common voucher errors** — - Wrong tax year on the voucher (Q1 2025 payment marked for TY 2024 instead of TY 2025) — this is the #1 misapplied-payment cause and often leads to an underpayment penalty notice even when payment was made on time. - SSN typo — payment posts to wrong account; taxpayer gets penalty notice and also a "credit balance" on another taxpayer's account. - Installment number not marked — DOR generally applies to the earliest open installment, but this can cause downstream allocation issues if a refund is claimed.
 
-## 5. Safe Harbor — The 100% / 70% Rule
+## The taxable base
+## Deadlines and filing
+
+### Safe Harbor — The 100% / 70% Rule
 
 ### 5.1 The general rule
 
@@ -125,9 +136,9 @@ This is the most common preparer error in GA estimated tax planning. A taxpayer 
 | 3 (Sep 15) | 75% |
 | 4 (Jan 15) | 100% |
 
-- **Cumulative basis and withholding ratable treatment** — The safe harbor must be met on a cumulative installment basis, not annually. A taxpayer who underpays Q1 but overpays Q2 is still penalized for the Q1 underpayment for the period it was outstanding (Apr 16 to the date the Q2 payment was made). Withholding, however, is treated as paid ratably across the four installments unless the taxpayer elects otherwise — this gives W-2 employees an advantage over self-employed taxpayers.  _(Form 500-UET, line 9: "withheld treated equally paid for each quarter")_
+- **Cumulative basis and withholding ratable treatment** — The safe harbor must be met on a cumulative installment basis, not annually. A taxpayer who underpays Q1 but overpays Q2 is still penalized for the Q1 underpayment for the period it was outstanding (the day after the first installment due date through the date the next installment is paid). Withholding, however, is treated as paid ratably across the four installments unless the taxpayer elects otherwise — this gives W-2 employees an advantage over self-employed taxpayers.  _(Form 500-UET, line 9: "withheld treated equally paid for each quarter")_
 
-## 6. Annualized Income Installment Method
+### Annualized Income Installment Method
 
 ### 6.1 When to use it
 
@@ -158,7 +169,10 @@ The annualized method requires careful interim books and reconciliation between 
 
 - **Documentation requirement for annualized method** — The annualized method requires the taxpayer to be able to demonstrate income earned through each cumulative period. For self-employed taxpayers, this means interim P&Ls as of March 31, May 31, and August 31. Without contemporaneous books, the annualized method is not defensible on examination and the taxpayer reverts to the standard 25/25/25/25 method.
 
-## 7. Underpayment Penalty — Form 500-UET
+### 7. Underpayment Penalty — Form 500-UET
+## Penalties and interest
+
+### Underpayment Penalty — Form 500-UET
 
 ### 7.1 Penalty mechanics
 
@@ -167,7 +181,7 @@ The annualized method requires careful interim books and reconciliation between 
 
 ### 7.2 GA Department of Revenue interest rate
 
-- **Interest rate setting mechanism** — The DOR interest rate is set quarterly by the Commissioner and equals the federal short-term rate plus 3 percentage points, rounded to the nearest whole percent. For 2025 quarters, the rate has been published as illustrative — verify each quarter against the current DOR publication.  _(O.C.G.A. §48-2-40)_
+- **Interest rate setting mechanism** — The DOR interest rate is set quarterly by the Commissioner and equals the federal short-term rate plus 3 percentage points, rounded to the nearest whole percent. The current-quarter rate must be verified against the current DOR publication each quarter (listed under "Not yet confirmed:" in Sources).  _(O.C.G.A. §48-2-40)_
 
 **DOR quarterly interest rates 2025-2026**
 
@@ -193,7 +207,10 @@ The annualized method requires careful interim books and reconciliation between 
 
 - **Form GA-8453 definition** — Form GA-8453 is the individual income tax declaration for electronic filing. It is not the penalty computation form — that is Form 500-UET. However, GA-8453 includes attestations that any computed penalty has been included in the return totals, so paid preparers electronically filing GA returns must ensure Form 500-UET has been completed (or the no-penalty boxes affirmatively checked) before signing GA-8453.
 
-## 8. PTE Election Interaction
+### 8. PTE Election Interaction
+## Cross-border points
+
+### PTE Election Interaction
 
 ### 8.1 The PTE election in brief
 
@@ -236,7 +253,9 @@ Did the entity make a PTE election for the current tax year?
              └── NO  → Standard analysis.
 ```
 
-## 9. Corporate Estimated Tax (Form 600-ES)
+## Cross-border points
+
+### Corporate Estimated Tax (Form 600-ES)
 
 ### 9.1 Threshold and schedule
 
@@ -254,7 +273,7 @@ Did the entity make a PTE election for the current tax year?
 
 - **Net worth tax exclusion from estimated base** — The Georgia net worth tax (on Form 600 Schedule 3) is an annual tax based on the corporation's apportioned net worth. It is not subject to estimated payments; it is paid with the annual return. Do not include net worth tax in the estimated tax base.
 
-## 10. Worked Examples
+## Worked examples
 
 ### Worked example 1 — Self-employed sole proprietor paying quarterly
 
@@ -354,14 +373,16 @@ This is the **prior-year safe harbor magic**: even though Janet has a massive Q4
 
 Under annualization, Janet would owe $10,934 − $1,200 elected withholding − $0 prior installments = $9,734 with the Q4 installment due Jan 15, 2026. Significantly better than 25/25/25/25, which would have required $2,737 per quarter starting Apr 15 — and would have generated penalty on Q1, Q2, Q3 underpayments because the capital gain hadn't yet occurred.
 
-## 11. Cross-References
+### Sources (moved below)
+
+### Cross-References
 
 - **`ga-income-tax.md`** — Georgia individual income tax framework, 5.19% flat rate, retirement exclusion. Required base layer.
 - **`ga-corporate-and-ptet.md`** — Full PTE election mechanics, entity-level computation, owner credit treatment. Required for Section 8 application.
 - **`us-quarterly-estimated-tax.md`** — Federal Form 1040-ES; the federal 90% current-year safe harbor differs from GA's 70%. Coordinate federal and state planning.
 - **`us-tax-workflow-base.md`** — Workflow runbook, conservative defaults principle, structured intake.
 
-## 12. Self-Checks
+### Self-Checks
 
 Before signing off on a Georgia estimated tax plan, the reviewer must affirmatively answer:
 
@@ -374,17 +395,20 @@ Before signing off on a Georgia estimated tax plan, the reviewer must affirmativ
 7. For the first installment, was the late-arising-income rule under O.C.G.A. §48-7-115(b) considered if the requirement first arose after April 15?
 8. Are Form 500-ES vouchers (or GTC online payments) labeled with the correct tax year and SSN?
 
-## 13. Refusal Catalogue
+## Ask the client first
+## Sources
 
-- **Refusal catalogue** — This skill refuses to opine on: - The advisability of making the PTE election itself (defer to `ga-corporate-and-ptet.md` and a credentialed reviewer). - Whether to take a federal §164 SALT deduction for entity-level PTE payments (federal issue; defer to federal skills and credentialed reviewer). - Combined-group corporate estimated tax computations (out of scope; the skill covers single-entity corporate estimates only). - Multi-state apportionment for partial-year residents (defer to a specialized multi-state skill). - Audit defense strategy for an existing underpayment penalty notice (requires individual case review by a credentialed reviewer).
+| Source | URL | Read on |
+| --- | --- | --- |
+| Form 500-UET (individual underpayment of estimated tax, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-500-uet-underp | 2026-10-28 |
+| Form 600-UET (corporate/partnership underpayment, TY2025+) | https://dor.georgia.gov/document/document/beginning-or-after-january-1-2025-600-uet-underp | 2026-10-28 |
+| Form 500-ES estimated tax voucher (2026) | https://dor.georgia.gov/document/document/2026-500-es-estimated-tax-individuals-and-fiduci | 2026-10-28 |
+| Form 602-ES corporate/partnership estimated tax (2026) | https://dor.georgia.gov/document/document/2026-602es-corporate-and-partnership-estimated-t | 2026-10-28 |
+| GA DOR penalty and interest rates | https://dor.georgia.gov/penalty-and-interest-rates | 2026-10-28 |
+| HB 149 Pass-Through Entity Tax FAQ | https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq | 2026-10-28 |
 
-## End of document footer
+Not yet confirmed: current-quarter DOR interest rate (published quarterly); PTET election deadline mechanics for 2026.
 
-*End of ga-estimated-tax-depth.md (v0.1, 2025-11-15). Pending review by at least two Georgia-credentialed contributors per the multi-accountant verification model.*
-
-<!-- openaccountants-cta-block -->
-
----
 
 ## Talk to a verified accountant
 
