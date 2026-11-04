@@ -110,13 +110,13 @@ This skill does **NOT** cover:
 
 - **General safe harbor rule** — No underpayment penalty applies if the taxpayer's total timely payments (withholding + estimated installments) equal or exceed the LESSER of: (a) 100% of the prior year's Georgia income tax liability, OR (b) 70% of the current year's Georgia income tax liability. Georgia's 70% current-year safe harbor is lower than the federal 90% — this is a meaningful difference and creates planning opportunities. A taxpayer who pays exactly 70% of current-year tax through withholding and estimates avoids GA penalty even if they would fail the federal 90% test (though they would still owe federal penalty).  _(O.C.G.A. §48-7-120; Form 500-UET)_
 - **Prior-year safe harbor percentage** — 100% percent of prior year GA tax liability (General rule, non-high-income)  _(O.C.G.A. §48-7-120)_
-- **Current-year safe harbor percentage** — 70% percent of current year GA tax liability  _(O.C.G.A. §48-7-120)_
+- **Current-year safe harbor percentage** — 70% of current year GA tax liability. Form 500-UET (Rev. 07/15/25) worksheet: "4. Enter 100% of the Immediately Preceding Year's Tax (return must be for a 12-month period)" and "5. Enter 70% of the Amount Shown on Line 3"; the taxpayer pays "the lesser of Line 6 or Line 7".
 
 ### 5.2 The high-income 110% modifier
 
 - **High-income 110% prior-year safe harbor** — If the taxpayer's prior year federal adjusted gross income exceeded $150,000 (single, head of household, qualifying surviving spouse, or MFJ), or $75,000 (married filing separately), then the prior-year safe harbor is increased from 100% to 110% of prior year tax. The 70% current-year safe harbor is unchanged. The high-income safe harbor uses federal AGI, not Georgia AGI. This matters for taxpayers whose Georgia AGI differs significantly from federal AGI due to: The Georgia retirement income exclusion (which reduces GA AGI but not federal AGI); Net operating loss carryforwards that differ between federal and state; Non-Georgia source income for part-year residents.  _(O.C.G.A. §48-7-120(d))_
-- **High-income AGI threshold (single/HOH/QSS/MFJ)** — $150,000 USD (Prior year federal AGI threshold triggering 110% modifier)  _(O.C.G.A. §48-7-120(d))_
-- **High-income AGI threshold (MFS)** — $75,000 USD (Prior year federal AGI threshold triggering 110% modifier for married filing separately)  _(O.C.G.A. §48-7-120(d))_
+- **High-income AGI threshold (single/HOH/QSS/MFJ)** — $150,000 prior-year federal AGI triggers the 110% modifier (O.C.G.A. § 48-7-120(d); confirm against the current statute text — not archived)
+- **High-income AGI threshold (MFS)** — $75,000 prior-year federal AGI triggers the 110% modifier for married filing separately (O.C.G.A. § 48-7-120(d); confirm against the current statute text — not archived)
 - **High-income prior-year safe harbor percentage** — 110% percent of prior year GA tax (Applies when prior-year federal AGI exceeds $150,000 ($75,000 MFS))  _(O.C.G.A. §48-7-120(d))_
 
 This is the most common preparer error in GA estimated tax planning. A taxpayer whose prior-year federal AGI was, say, $180,000 will see preparers plan around the 100% prior-year safe harbor; this leaves a 10% shortfall and exposes the taxpayer to underpayment penalty even though the prior-year tax was fully paid. ALWAYS check prior-year federal AGI before locking in the prior-year safe harbor strategy. The check is mechanical: prior year Form 1040 Line 11 (federal AGI) — if > $150,000 ($75,000 MFS), use 110%.
@@ -183,7 +183,7 @@ The annualized method requires careful interim books and reconciliation between 
 
 - **Interest rate setting mechanism** — The DOR interest rate is set quarterly by the Commissioner and equals the federal short-term rate plus 3 percentage points, rounded to the nearest whole percent. The current-quarter rate must be verified against the current DOR publication each quarter (listed under "Not yet confirmed:" in Sources).  _(O.C.G.A. §48-2-40)_
 
-**DOR quarterly interest rates 2025-2026**
+**DOR quarterly interest rates 2025-2026 (illustrative; verify each quarter against the DOR publication)**
 
 | Quarter | DOR Annual Interest Rate |
 | --- | --- |
