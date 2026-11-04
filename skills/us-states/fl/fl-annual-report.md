@@ -54,27 +54,6 @@ This is a Tier 2 content skill that loads on top of `us-tax-workflow-base`. It c
 
 The annual report is not a tax; there is no taxable base. The filing keeps entity status active and updates the registered record: entity name, FEIN, principal office and mailing addresses, registered agent (Florida street address required), and current managers/members or officers/directors.
 
-## Deadlines and filing
-
-### Who must file
-
-- **Who must file** -- Every LLC, corporation, and not-for-profit corporation registered with the Florida Division of Corporations must file an annual report each year to maintain active status.  _(§605.0212, F.S. (LLCs); §607.1622, F.S. (corporations).)_
-
-### When to file
-
-**When to file**  _(See table)_
-
-| Item | Detail | Source |
-| --- | --- | --- |
-| Filing window opens | January 1 of each year | Sunbiz filing instructions |
-| Filing deadline | May 1 of each year | §605.0212(5), F.S.; §607.1622, F.S. |
-| Late filing (supplemental fee) | After May 1, $400 late fee applies to profit corporations, LLCs, LPs and LLLPs; not-for-profit corporations are not subject to it | §607.193(2)(b), F.S.; Sunbiz filing instructions |
-| Administrative dissolution | If no annual report filed by the 3rd Friday in September | §605.0714, F.S. |
-
-### How to file
-
-- **How to file** -- The annual report must be filed electronically through the Division of Corporations website (sunbiz.org). Paper filings are not accepted for annual reports.  _(sunbiz.org)_
-
 ## Rates, bands and thresholds
 
 **Fees**  _(See table)_
@@ -112,6 +91,27 @@ The annual report is not a tax; there is no taxable base. The filing keeps entit
 #### Step 5: Document the filing
 
 - **Document the filing** -- - Record the confirmation number provided by Sunbiz. - Save/print the filing confirmation for the entity's records. - Note the filing date for the reviewer brief.  _(unsure)_
+
+## Deadlines and filing
+
+### Who must file
+
+- **Who must file** -- Every LLC, corporation, and not-for-profit corporation registered with the Florida Division of Corporations must file an annual report each year to maintain active status.  _(§605.0212, F.S. (LLCs); §607.1622, F.S. (corporations).)_
+
+### When to file
+
+**When to file**  _(See table)_
+
+| Item | Detail | Source |
+| --- | --- | --- |
+| Filing window opens | January 1 of each year | Sunbiz filing instructions |
+| Filing deadline | May 1 of each year | §605.0212(5), F.S.; §607.1622, F.S. |
+| Late filing (supplemental fee) | After May 1, $400 late fee applies to profit corporations, LLCs, LPs and LLLPs; not-for-profit corporations are not subject to it | §607.193(2)(b), F.S.; Sunbiz filing instructions |
+| Administrative dissolution | If no annual report filed by the 3rd Friday in September | §605.0714, F.S. |
+
+### How to file
+
+- **How to file** -- The annual report must be filed electronically through the Division of Corporations website (sunbiz.org). Paper filings are not accepted for annual reports.  _(sunbiz.org)_
 
 ## Penalties and interest
 
