@@ -79,7 +79,7 @@ Filing frequency is assigned by the Comptroller after the permit application is 
 | Item | Rate | Source |
 |------|------|--------|
 | State sales tax | 6.25% | Texas Tax Code §151.051 |
-| Maximum local tax | 2.00% | Texas Tax Code §321.101, §322.103 |
+| Maximum local tax | 2.00% | Texas Tax Code §321.101(f) |
 | Maximum combined rate | 8.25% | Texas Tax Code §151.051 + local caps |
 | Use tax | Same as sales tax (6.25% state + local) | Texas Tax Code §151.101 |
 
@@ -90,8 +90,8 @@ The local 2% maximum is composed of:
 | Component | Maximum rate | Source |
 |-----------|-------------|--------|
 | City sales tax | 2.00% (within the 2% cap) | Texas Tax Code §321.101 |
-| County sales tax | 0.50% | Texas Tax Code §323.101 |
-| Transit authority tax | 1.00% | Texas Tax Code §322.103 |
+| County sales tax | 0.50% | Texas Tax Code §323.103 |
+| Transit authority tax | 0.25% to 1.00%, set by each authority | Comptroller Fiscal Notes, Local Sales Taxes in Texas |
 | Special purpose district tax | varies | Various statutes |
 
 Total local taxes cannot exceed 2.00% for any location.
@@ -109,8 +109,8 @@ The timely filing discount is forfeited if the return is filed or paid late.
 
 | Item | Amount | Source |
 |------|--------|--------|
-| Late penalty | 5% of tax due if 1-30 days late; additional 5% if over 30 days late (minimum $1 per period) | Texas Tax Code §151.421; Comptroller Auditing Fundamentals tax chart |
-| Interest | Begins accruing 61 days after the due date; rate = WSJ prime rate (first business day of the year) + 1% | Texas Tax Code §151.422; Comptroller Auditing Fundamentals tax chart |
+| Late penalty | 5% of tax due if 1-30 days late; additional 5% if over 30 days late (minimum $1); plus a $50 penalty for each report filed late | Texas Tax Code §151.703(a), (b), (d); Comptroller Auditing Fundamentals tax chart |
+| Interest | Begins 60 days after the due date under §151.512 (the Comptroller chart says interest is assessed from day 61); rate = WSJ prime rate (first business day of the year) + 1% | Texas Tax Code §151.512; Comptroller Auditing Fundamentals tax chart |
 
 ---
 
@@ -154,7 +154,7 @@ State tax + local tax + use tax = total tax.
 
 ### Step 8: Apply timely filing discount (01-114 Item 7)
 
-If filing on time: total tax x 0.5%, capped at $500 per period.
+If filing on time: total tax x 0.5% (one-half of one percent), with no dollar cap (Texas Tax Code §151.423).
 
 ### Step 9: Compute net tax due (01-114 Item 8)
 
@@ -296,6 +296,10 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
+| Texas Tax Code chapter 151 (Sec. 151.423 timely filing discount 0.5%, no cap; Sec. 151.703 penalties incl. $50 late report; Sec. 151.512 interest) | https://statutes.capitol.texas.gov/?tab=1&code=TX&chapter=TX.151&artSec= | 2026-11-04 |
+| Texas Tax Code chapter 323 (Sec. 323.103 county sales tax 0.5%) | https://statutes.capitol.texas.gov/?tab=1&code=TX&chapter=TX.323&artSec= | 2026-11-04 |
+| Texas Tax Code chapter 321 (Sec. 321.101(f) combined local rate may not exceed 2%) | https://statutes.capitol.texas.gov/?tab=1&code=TX&chapter=TX.321&artSec= | 2026-11-04 |
+| Comptroller Fiscal Notes, Local Sales Taxes in Texas (transit authority rates 0.25% to 1%) | https://comptroller.texas.gov/economy/fiscal-notes/archive/2016/may/local-taxes.php | 2026-11-04 |
 | (see Not yet confirmed) | -- | 2026-10-28 |
 ## Deadlines and filing
 

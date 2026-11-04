@@ -60,33 +60,33 @@ This is a Tier 2 content skill for preparing the Texas sales and use tax return 
 | $0 -- $500/quarter | Annually (due January 20) | Texas Comptroller Rule 3.286 |
 | $500 -- $1,500/quarter | Quarterly (due 20th after quarter) | Texas Comptroller Rule 3.286 |
 | Over $1,500/quarter | Monthly (due 20th of following month) | Texas Comptroller Rule 3.286 | (not yet confirmed)
-| $500,000+/quarter | Monthly with prepayment option | Texas Tax Code §151.424 |
+| Any monthly or quarterly filer | Optional prepayment: deduct an extra 1.25% when a reasonable estimate (at least 90% of the tax due, or the tax paid for the same period last year) is prepaid | Texas Tax Code §151.424(a) |
 
 - **Due date** -- The 20th of the month following the reporting period. If the 20th falls on a weekend or holiday, the next business day.  _(Texas Comptroller Rule 3.286)_
 
 ### Section 3 -- Rates and thresholds
 
-**Rates and thresholds**  _(Texas Tax Code §151.051, §321.101, §322.103, §151.101)_
+**Rates and thresholds**  _(Texas Tax Code §151.051, §321.101(f), §151.101)_
 
 | Item | Rate | Source |
 | --- | --- | --- |
 | State sales tax | 6.25% | Texas Tax Code §151.051 |
-| Maximum local tax | 2.00% | Texas Tax Code §321.101, §322.103 |
+| Maximum local tax | 2.00% | Texas Tax Code §321.101(f) |
 | Maximum combined rate | 8.25% | Texas Tax Code §151.051 + local caps |
 | Use tax | Same as sales tax (6.25% state + local) | Texas Tax Code §151.101 |
 
 ### Local tax components
 
-**Local tax components**  _(Texas Tax Code §321.101, §323.101, §322.103, Various statutes)_
+**Local tax components**  _(Texas Tax Code §321.101, §323.103, Various statutes)_
 
 | Component | Maximum rate | Source |
 | --- | --- | --- |
 | City sales tax | 2.00% (within the 2% cap) | Texas Tax Code §321.101 |
-| County sales tax | 0.50% | Texas Tax Code §323.101 |
-| Transit authority tax | 1.00% | Texas Tax Code §322.103 |
+| County sales tax | 0.50% | Texas Tax Code §323.103 |
+| Transit authority tax | 0.25% to 1.00%, set by each authority | Comptroller Fiscal Notes, Local Sales Taxes in Texas |
 | Special purpose district tax | varies | Various statutes |
 
-- **Local tax total cap** -- Total local taxes cannot exceed 2.00% for any location.  _(Texas Tax Code §321.101, §322.103)_
+- **Local tax total cap** -- Total local taxes cannot exceed 2.00% for any location.  _(Texas Tax Code §321.101(f))_
 
 ### Timely filing discount (prepayment discount)
 
@@ -130,7 +130,7 @@ This is a Tier 2 content skill for preparing the Texas sales and use tax return 
 
 ### Step 8: Apply timely filing discount (01-114 Item 7)
 
-- **Timely filing discount application** -- If filing on time: total tax x 0.5%, capped at $500 per period.  _(Form 01-114 Item 7)_
+- **Timely filing discount application** -- If filing on time: total tax x 0.5% (one-half of one percent), with no dollar cap.  _(Texas Tax Code §151.423; Form 01-114 Item 11)_
 
 ### Step 9: Compute net tax due (01-114 Item 8)
 
@@ -339,33 +339,33 @@ This is a Tier 2 content skill for preparing the Texas sales and use tax return 
 | $0 -- $500/quarter | Annually (due January 20) | Texas Comptroller Rule 3.286 |
 | $500 -- $1,500/quarter | Quarterly (due 20th after quarter) | Texas Comptroller Rule 3.286 |
 | Over $1,500/quarter | Monthly (due 20th of following month) | Texas Comptroller Rule 3.286 | (not yet confirmed)
-| $500,000+/quarter | Monthly with prepayment option | Texas Tax Code §151.424 |
+| Any monthly or quarterly filer | Optional prepayment: deduct an extra 1.25% when a reasonable estimate (at least 90% of the tax due, or the tax paid for the same period last year) is prepaid | Texas Tax Code §151.424(a) |
 
 - **Due date** -- The 20th of the month following the reporting period. If the 20th falls on a weekend or holiday, the next business day.  _(Texas Comptroller Rule 3.286)_
 
 ### Section 3 -- Rates and thresholds
 
-**Rates and thresholds**  _(Texas Tax Code §151.051, §321.101, §322.103, §151.101)_
+**Rates and thresholds**  _(Texas Tax Code §151.051, §321.101(f), §151.101)_
 
 | Item | Rate | Source |
 | --- | --- | --- |
 | State sales tax | 6.25% | Texas Tax Code §151.051 |
-| Maximum local tax | 2.00% | Texas Tax Code §321.101, §322.103 |
+| Maximum local tax | 2.00% | Texas Tax Code §321.101(f) |
 | Maximum combined rate | 8.25% | Texas Tax Code §151.051 + local caps |
 | Use tax | Same as sales tax (6.25% state + local) | Texas Tax Code §151.101 |
 
 ### Local tax components
 
-**Local tax components**  _(Texas Tax Code §321.101, §323.101, §322.103, Various statutes)_
+**Local tax components**  _(Texas Tax Code §321.101, §323.103, Various statutes)_
 
 | Component | Maximum rate | Source |
 | --- | --- | --- |
 | City sales tax | 2.00% (within the 2% cap) | Texas Tax Code §321.101 |
-| County sales tax | 0.50% | Texas Tax Code §323.101 |
-| Transit authority tax | 1.00% | Texas Tax Code §322.103 |
+| County sales tax | 0.50% | Texas Tax Code §323.103 |
+| Transit authority tax | 0.25% to 1.00%, set by each authority | Comptroller Fiscal Notes, Local Sales Taxes in Texas |
 | Special purpose district tax | varies | Various statutes |
 
-- **Local tax total cap** -- Total local taxes cannot exceed 2.00% for any location.  _(Texas Tax Code §321.101, §322.103)_
+- **Local tax total cap** -- Total local taxes cannot exceed 2.00% for any location.  _(Texas Tax Code §321.101(f))_
 
 ### Timely filing discount (prepayment discount)
 
@@ -409,7 +409,7 @@ This is a Tier 2 content skill for preparing the Texas sales and use tax return 
 
 ### Step 8: Apply timely filing discount (01-114 Item 7)
 
-- **Timely filing discount application** -- If filing on time: total tax x 0.5%, capped at $500 per period.  _(Form 01-114 Item 7)_
+- **Timely filing discount application** -- If filing on time: total tax x 0.5% (one-half of one percent), with no dollar cap.  _(Texas Tax Code §151.423; Form 01-114 Item 11)_
 
 ### Step 9: Compute net tax due (01-114 Item 8)
 
@@ -584,6 +584,11 @@ Not yet confirmed against archived sources.
 
 | Source | URL | Read on |
 | --- | --- | --- |
+| Texas Tax Code chapter 151 (Sec. 151.423 timely filing discount 0.5%, no cap; Sec. 151.424(a) prepayment discount 1.25%) | https://statutes.capitol.texas.gov/?tab=1&code=TX&chapter=TX.151&artSec= | 2026-11-04 |
+| Texas Tax Code chapter 323 (Sec. 323.103 county sales tax 0.5%) | https://statutes.capitol.texas.gov/?tab=1&code=TX&chapter=TX.323&artSec= | 2026-11-04 |
+| Texas Tax Code chapter 321 (Sec. 321.101(f) combined local rate may not exceed 2%) | https://statutes.capitol.texas.gov/?tab=1&code=TX&chapter=TX.321&artSec= | 2026-11-04 |
+| Comptroller Fiscal Notes, Local Sales Taxes in Texas (transit authority rates 0.25% to 1%) | https://comptroller.texas.gov/economy/fiscal-notes/archive/2016/may/local-taxes.php | 2026-11-04 |
+| Comptroller Form 01-114 Texas Sales and Use Tax Return, Rev. 8-25/41 (Item 11 timely filing discount 0.005) | https://comptroller.texas.gov/forms/01-114.pdf | 2026-11-04 |
 | Texas Comptroller -- Sales and Use Tax ("Texas imposes a 6.25 percent state sales and use tax on all retail sales, leases and rentals of most goods") | https://comptroller.texas.gov/taxes/sales/ | 2026-10-28 |
 ## Talk to a verified accountant
 

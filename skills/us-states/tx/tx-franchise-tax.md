@@ -45,7 +45,7 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 - Passive entities (as defined by Tax Code §171.0003)
 - Combined group reporting (Tax Code §171.1014)
 - Franchise tax credits (research, clean energy, etc.)
-- Extensions beyond the automatic extension
+- Extensions beyond the requested extension
 - Franchise tax refund claims
 
 - **Sole proprietors without an LLC** -- Exempt from franchise tax  _(Texas Tax Code §171.001(a))_
@@ -53,7 +53,7 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 - **Passive entities** -- Out of scope  _(Texas Tax Code §171.0003)_
 - **Combined group reporting** -- Out of scope  _(Texas Tax Code §171.1014)_
 - **Franchise tax credits (research, clean energy, etc.)** -- Out of scope  _(unsure)_
-- **Extensions beyond the automatic extension** -- Out of scope  _(unsure)_
+- **Extensions beyond the requested extension** -- Out of scope  _(unsure)_
 - **Franchise tax refund claims** -- Out of scope  _(unsure)_
 
 ### Who must file
@@ -68,12 +68,12 @@ This is a Tier 2 content skill for computing and filing the Texas franchise tax 
 | Item | Date | Source |
 | --- | --- | --- |
 | Annual report due date | May 15, 2026 (for accounting year ending in 2025); next business day if May 15 falls on a weekend/holiday | Texas Comptroller Franchise Tax due-dates page; Texas Tax Code §171.202 |
-| Automatic extension | November 15, 2026 (with 90% of tax paid by May 15) | Texas Comptroller Rule 3.584 |
+| Extension (on request, not automatic) | Nov. 16, 2026 for non-EFT payors, if requested by May 15 with at least 90% of the tax due or 100% of the tax on the prior report | Form 05-915, 2026 instructions |
 | Public Information Report (05-102) | Due with the franchise tax report | Texas Tax Code §171.203 |
 
 ### Initial filing
 
-- **Initial filing** -- A newly formed entity must file its first franchise tax report by May 15 of the year after its formation. The report covers the period from formation through December 31 of that year (or the entity's fiscal year end).  _(unsure)_
+- **Initial filing** -- A newly formed entity must file its first franchise tax report by May 15 of the year after its formation. The report covers the period from the date the entity became subject to the tax through its last federal accounting period end date in that same calendar year.  _(Comptroller franchise tax FAQ, reports and payments)_
 
 ## Rates, bands and thresholds
 
@@ -239,11 +239,13 @@ The most up-to-date, verified version of this skill is maintained at the OpenAcc
 
 ### Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: figures in this skill lack archived line-citations. The extension deadline for EFT payors is not in the archived 2026 instructions.
 
 
 | Source | URL | Read on |
 | --- | --- | --- |
+| Comptroller Form 05-915, 2026 Franchise Tax Report Instructions (non-EFT extension through Nov. 16, 2026; 90% or 100% of prior report) | https://comptroller.texas.gov/forms/05-915.pdf | 2026-11-04 |
+| Comptroller Franchise Tax FAQ, Reports and Payments (first annual report and its accounting period) | https://comptroller.texas.gov/taxes/franchise/faq/reports-payments.php | 2026-11-04 |
 | (see Not yet confirmed) | -- | 2026-10-28 |
 
 - https://comptroller.texas.gov/taxes/franchise/ (as_of: 2026-10-28)

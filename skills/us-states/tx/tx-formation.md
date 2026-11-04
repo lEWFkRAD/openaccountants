@@ -247,7 +247,7 @@ Because the PIR is the single most-missed Texas compliance item and the single g
 ### 7.2 Filing deadline
 
 - **PIR annual filing deadline** -- May 15 (covering the prior calendar year (the "report year"). An entity formed in 2025 first files in 2026 for the 2025 calendar year (or, more precisely, the period from formation through the prior December 31).)
-- **Extension availability** -- An automatic extension to November 15 is available by filing Form 05-164 by May 15 and paying any estimated tax due. For entities below the No Tax Due threshold, the extension form is generally unnecessary because no tax is owed, but the PIR still must be filed by May 15.  _(Form 05-164)_
+- **Extension availability** -- An extension to Nov. 16, 2026 (non-EFT payors) can be requested by May 15 with at least 90% of the tax due or 100% of the tax on the prior report; it is not automatic. For entities below the No Tax Due threshold, the extension form is generally unnecessary because no tax is owed, but the PIR still must be filed by May 15.  _(Form 05-915, 2026 instructions)_
 
 ### 7.3 No filing fee
 
@@ -445,14 +445,14 @@ Dallas-resident e-commerce operator sells custom apparel via Shopify and Amazon 
 
 - **Form Texas LLC** -- Certificate of Formation, $300, effective January 1, 2025 (if not already past). Default federal classification: disregarded entity (single-member LLC reports on Schedule C).
 - **Evaluate S-corp election** -- At $3.2M projected revenue with significant ordinary-income exposure to self-employment tax, an S-corp election under Form 2553 may save meaningful SE tax. Defer detailed analysis to `us-s-corp-election-decision`.  _(Form 2553)_ (not yet confirmed)
-- **Texas franchise tax planning -- retail rate qualification** -- Revenue will exceed the $2.65 million No Tax Due threshold for the 2026 report. Margin tax for 2025: Retail rate available if entity qualifies under §171.002(c) (resale of items not produced by the entity) -- for custom apparel that is produced by the entity (designs printed on demand by contracted print-on-demand vendors), the retail-rate qualification is fact-specific and depends on whether the entity is treated as the producer. Conservative position: 0.75% rate or 0.331% EZ rate, not 0.375% retail rate.  _(§171.002(c))_
+- **Texas franchise tax planning -- retail rate qualification** -- Revenue will exceed the $2.65 million No Tax Due threshold for the 2026 report. Margin tax on the 2026 report (accounting year ending in 2025): Retail rate available if entity qualifies under §171.002(c) (resale of items not produced by the entity) -- for custom apparel that is produced by the entity (designs printed on demand by contracted print-on-demand vendors), the retail-rate qualification is fact-specific and depends on whether the entity is treated as the producer. Conservative position: 0.75% rate or 0.331% EZ rate, not 0.375% retail rate.  _(§171.002(c))_
 - **Taxable margin computation** -- Taxable margin before apportionment: lesser of (a) 70% × $3,200,000 = $2,240,000, (b) $3,200,000 minus $1,000,000 = $2,200,000, or (c) total revenue minus the greater of $1,000,000 or the elected COGS or compensation (Texas Tax Code §171.101(a)).
 - **Conservative margin tax estimate** -- Conservative estimate before any COGS deduction: $2,200,000 × 0.75% = $16,500 of margin tax, or EZ Computation at 0.331% × $3,200,000 = $10,592. EZ Computation likely beneficial -- see `tx-margin-tax.md`.  _(tx-margin-tax.md)_
 - **Texas sales tax** -- Apparel is taxable tangible personal property in Texas. Operator should already be registered for Texas sales tax (Form AP-201) and collecting on Texas-destination sales. See `tx-sales-tax.md`.  _(tx-sales-tax.md)_
 - **Quarterly federal estimated tax** -- Form 1040-ES quarterly payments; see `us-quarterly-estimated-tax`.  _(us-quarterly-estimated-tax)_
 - **Public Information Report** -- Form 05-102 due May 15, 2026 covering 2025 report year. AUDIT FLASH POINT -- operator must file this even though the LLC just formed.
 
-Operator should not assume that the No Tax Due threshold protects them in 2025. Revenue projection of $3.2M crosses the $2.65 million threshold by about $550,000, triggering full margin tax computed on the full taxable margin (no phase-in). Plan for the ~$10,000–$17,000 margin tax bill at year-end and reserve cash accordingly.
+Operator should not assume that the No Tax Due threshold protects them on the 2026 report (accounting year ending in 2025). Revenue projection of $3.2M crosses the $2.65 million threshold by about $550,000, triggering full margin tax computed on the full taxable margin (no phase-in). Plan for the ~$10,000–$17,000 margin tax bill at year-end and reserve cash accordingly.
 
 ### 12.4 Example 4 -- Foreign founder forming a Texas LLC
 
@@ -568,6 +568,8 @@ Not yet confirmed against archived sources.
 
 | Source | URL | Read on |
 | --- | --- | --- |
+| Comptroller Form 05-915, 2026 Franchise Tax Report Instructions (non-EFT extension through Nov. 16, 2026) | https://comptroller.texas.gov/forms/05-915.pdf | 2026-11-04 |
+| 34 TAC 3.586 Margin: Nexus, as adopted eff. Jan. 7, 2026 ($500,000 Texas gross receipts economic nexus) | https://www.sos.state.tx.us/texreg/archive/January22026/Adopted%20Rules/34.PUBLIC%20FINANCE.html | 2026-11-04 |
 | Texas Comptroller -- 2026 Franchise Tax Report Forms ("The no tax due threshold for the 2026 report is $2.65 million") | https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php | 2026-10-29 |
 | Texas Comptroller -- Franchise Tax main (Tax Rates, Thresholds and Deduction Limits for Prior Years 2024 and 2025: No Tax Due Threshold $2,470,000; EZ rate 0.331%) | https://comptroller.texas.gov/taxes/franchise/ | 2026-10-29 |
 | Texas Secretary of State -- Business Filings & Trademarks Fee Schedule (Form 806): formation $300, foreign registration $750, expedite $50 / $500 / $750 | https://www.sos.texas.gov/corp/forms/806_boc.pdf | 2026-10-31 |
