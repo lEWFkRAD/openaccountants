@@ -183,7 +183,7 @@ The annualized method requires careful interim books and reconciliation between 
 
 - **Interest rate setting mechanism** — The DOR interest rate is set quarterly by the Commissioner and equals the federal short-term rate plus 3 percentage points, rounded to the nearest whole percent. The current-quarter rate must be verified against the current DOR publication each quarter (listed under "Not yet confirmed:" in Sources).  _(O.C.G.A. §48-2-40)_
 
-**DOR quarterly interest rates 2025-2026 (illustrative; verify each quarter against the DOR publication)**
+**DOR quarterly interest rates 2025-2026 (approximate; confirm each quarter against the DOR publication)**
 
 | Quarter | DOR Annual Interest Rate |
 | --- | --- |

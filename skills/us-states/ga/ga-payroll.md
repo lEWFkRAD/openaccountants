@@ -300,8 +300,8 @@ Georgia's UI taxable wage base is $9,500 ("Effective January 1, 2013, the taxabl
 | Administrative Assessment | **0.06%** | Separate component on UI taxable wages under O.C.G.A. §34-8-180 |
 
 - **Administrative Assessment application** — The Administrative Assessment is a separate line item that funds GDOL operations. It applies to the same UI taxable wage base as the experience-rate contribution ($9,500 per employee in 2025). It is not absorbed into the experience rate — the employer pays both components.  _(7.4 2025 contribution rates)_
-- **Maximum GA UI cost per employee (illustrative at a top experience rate)** — $9,500 taxable wage base × 8.10% = $769.50, plus the administrative assessment. Confirm the current-year top rate on the GDOL Form DOL-626 Tax Rate Notice. Wage base quote: "The taxable wage base in Georgia increased from $8,500 to $9,500 beginning 2013" (GDOL UI reporting and liability guide).
-- **Minimum GA UI cost per employee (illustrative at a low experience rate)** — $9,500 × 0.04% = $3.80, plus the administrative assessment. Confirm the current-year bottom rate with GDOL.
+- **Maximum GA UI cost per employee (worked at a top experience rate)** — $9,500 taxable wage base × 8.10% = $769.50, plus the administrative assessment. Confirm the current-year top rate on the GDOL Form DOL-626 Tax Rate Notice. Wage base quote: "The taxable wage base in Georgia increased from $8,500 to $9,500 beginning 2013" (GDOL UI reporting and liability guide).
+- **Minimum GA UI cost per employee (worked at a low experience rate)** — $9,500 × 0.04% = $3.80, plus the administrative assessment. Confirm the current-year bottom rate with GDOL.
 - **New employer cost per employee** — Newly liable employers are assigned 2.70%: "Newly liable employers are assigned a beginning tax rate of 2.70%" (GDOL UI reporting and liability guide). $9,500 × 2.70% = $256.50, plus the administrative assessment.
 
 ### 7.5 GA UI quarterly filing — Form DOL-4N
