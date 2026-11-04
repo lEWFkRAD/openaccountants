@@ -150,9 +150,10 @@ This is a small-volume but high-audit-risk filing — many employers either miss
 
 | Tier | Liability threshold | Payment frequency | Return |
 | --- | --- | --- | --- |
-| Quarterly | < $200 per month average | With G-7 quarterly | Form G-7 (one for each quarter) |
-| Monthly | $200 – $416.66 per month (i.e., < $5,000 lookback annual) | GA-V voucher monthly | Form G-7 |
-| Semi-weekly | > $50,000 lookback annual liability | Federal semi-weekly mirror | Form G-7 |
+| Quarterly | $200 or less per month (but more than $800 per year) | By the last day of the month after quarter end | Form G-7 |
+| Annual | $800 or less in the aggregate for the lookback period | Annually | Form G-7 |
+| Monthly | More than $200 per month (and $50,000 or less in the lookback period) | GA-V voucher by the 15th of the following month | Form G-7 |
+| Semi-weekly | More than $50,000 in the lookback period (July 1 – June 30) | EFT: Wed–Fri paydays due following Wednesday; Sat–Tue paydays due following Friday | Form G-7 |
 | Quarterly aggregate (G-7 NRW) | Nonresident withholding only | Quarterly with G-7 NRW | Form G-7 NRW |
 
 - **GA monthly threshold vs federal comparison** — Note the GA monthly threshold ($500 per quarter aggregate, roughly $200/month) is materially lower than the comparable federal §3402 monthly tier (federal lookback for monthly depositor status is $50,000 over the lookback year). A small Atlanta employer can be a federal monthly depositor while being a Georgia semi-weekly depositor if their GA withholding exceeds $50,000 in the lookback period.  _(4.1 Filing tiers)_
@@ -163,12 +164,12 @@ This is a small-volume but high-audit-risk filing — many employers either miss
 
 | Quarter | Period covered | G-7 due date |
 | --- | --- | --- |
-| Q1 | Jan 1 – Mar 31 | **April 30, 2025** |
+| Q1 | Jan 1 – Mar 31 | **April 30, 2025** (last day of the month following the quarter) |
 | Q2 | Apr 1 – Jun 30 | **July 31, 2025** |
-| Q3 | Jul 1 – Sep 30 | **October 31, 2025** |
-| Q4 | Oct 1 – Dec 31 | **January 31, 2026** |
+| Q3 | Jul 1 – Sep 30 | **October 31, 2025** (2026 shifts to November 2 for the holiday) |
+| Q4 | Oct 1 – Dec 31 | **January 31, 2026** (2026 shifts to February 1 for the weekend) |
 
-- **Weekend/holiday and Q4 2025 due date** — If the due date falls on a Saturday, Sunday, or Georgia legal holiday, the return is timely if filed on the next business day. None of the 2025 quarterly G-7 due dates above fall on a weekend except Q4 January 31, 2026 (a Saturday) — so the effective Q4 2025 G-7 due date is Monday, February 2, 2026.  _(4.2 G-7 due dates (calendar year 2025))_
+- **Weekend/holiday and Q4 2025 due date** — Guide rule: "If a due date falls on a Federal Reserve bank holiday, Georgia State Holiday, Saturday or Sunday, the due date is extended to the next business day" (2026 Employer's Tax Guide). None of the 2025 quarterly G-7 due dates above fall on a weekend except Q4 January 31, 2026 (a Saturday) — so the effective Q4 2025 G-7 due date is Monday, February 2, 2026.  _(4.2 G-7 due dates (calendar year 2025))_
 
 ### 4.3 What G-7 reports
 
@@ -196,14 +197,14 @@ GA-V remittances and the G-7 are reconciliation pair — the G-7 is not the paym
 
 - **Late filing penalty** — $25 per return, plus 5% per month of unpaid balance up to 25% maximum  _(O.C.G.A. §48-7-126)_
 - **Late payment penalty** — 0.5% per month of unpaid balance up to 25% maximum, separate from the late filing penalty  _(4.5 G-7 penalties)_
-- **Failure to withhold penalty** — 100% of the amount that should have been withheld, plus 9% interest per annum  _(O.C.G.A. §48-2-40 sets the 2025 interest rate at 9% — the prime rate plus 3% with quarterly resets)_
+- **Failure to withhold penalty** — The payor is liable for the tax that should have been withheld, plus interest at the DOR published rate. The 2026 Employer's Tax Guide also assesses "Failure to withhold tax - $10.00 per quarter for each employee" and "Failure to remit electronic payment when required – 10% of tax due".
 - **Negligence and fraud penalties** — Additional 5% if the underpayment is due to negligence; additional 50% if due to fraud  _(4.5 G-7 penalties)_
 
 ### 5. Form GA-V — Withholding Payment Voucher
 
 ### 5.1 When GA-V is used
 
-- **GA-V frequency by tier** — Quarterly tier (< $200/month or < $500/quarter aggregate withholding liability): GA-V is submitted with the G-7 quarterly return. No separate monthly vouchers. Monthly tier ($200 – $416.66/month, i.e., $5,000 annual lookback): GA-V is submitted by the 15th day of the month following the month of withholding. For example, January 2025 withholding GA-V is due February 15, 2025. Semi-weekly tier (> $50,000 annual lookback): GA-V is submitted on the federal semi-weekly schedule — Wednesday GA-V for wages paid Wednesday/Thursday/Friday, Friday GA-V for wages paid Saturday/Sunday/Monday/Tuesday. Georgia mirrors the federal Reg §31.6302-1 schedule.  _(5.1 When GA-V is used; federal Reg §31.6302-1)_
+- **GA-V frequency by tier** — Quarterly tier ($200 or less per month): remit with the G-7 quarterly return by the last day of the month after quarter end; GA-V is not required if payment was made electronically. Monthly tier (more than $200 per month): GA-V is submitted by the 15th day of the month following the month of withholding (2026 Employer's Tax Guide: "Each employer whose tax withheld or required to be withheld exceeds $200.00 per month is required to remit payment with Form GA-V Payment Voucher on or before the fifteenth day of the following month"). Semi-weekly tier (more than $50,000 in the lookback period): EFT only.
 
 ### 5.2 The $500/quarter monthly threshold
 
@@ -239,7 +240,7 @@ Form G-1003 is the annual transmittal by which the employer:
 
 ### 6.2 Due date
 
-- **G-1003 due date** — January 31 of the year following the close of the calendar year. For 2025 wages: Monday, February 2, 2026 (because January 31, 2026 falls on a Saturday).  _(6.2 Due date)_
+- **G-1003 due date** — With the W-2/1099-NEC statements: the 2026 Employer's Tax Guide due-date table shows "W-2/1099 NEC | G-1003 RETURN | 2/01/2027" for 2026 wages (the guide's weekend/holiday rule moves the last-day-of-January date to the next business day). All other 1099s: "All other 1099s | G-1003 RETURN | 3/01/2027".
 - **No automatic extension** — GA DOR strictly enforces this date — Georgia, like the federal SSA, moved to the accelerated January 31 W-2 filing schedule effective for the 2017 tax year onward. There is no automatic extension for G-1003. A discretionary 30-day extension may be requested in writing before January 31, but is granted only for documented hardship.  _(6.2 Due date)_
 
 ### 6.3 G-1003 fields
@@ -286,7 +287,7 @@ Form G-1003 is the annual transmittal by which the employer:
 
 - **GA UI 2025 taxable wage base** — $9,500 per employee per year  _(7.3 2025 taxable wage base)_
 
-Georgia is among the states with the lowest UI wage base — for context, federal FUTA wage base is $7,000, and many neighboring states are materially higher (Tennessee $7,000, Alabama $8,000, Florida $7,000, South Carolina $14,000, North Carolina $32,600). Georgia has held the $9,500 wage base unchanged since 2013.
+Georgia's UI taxable wage base is $9,500 ("Effective January 1, 2013, the taxable wage base in Georgia is $9,500 in accordance with 2012 GA House Bill 347" — GDOL employers FAQs). The federal FUTA wage base is $7,000; neighboring-state bases vary and should be confirmed per state before quoting.
 
 ### 7.4 2025 contribution rates
 
@@ -294,14 +295,14 @@ Georgia is among the states with the lowest UI wage base — for context, federa
 
 | Component | 2025 rate range | Notes |
 | --- | --- | --- |
-| Experience rate | **0.04% – 8.10%** | Assigned annually per employer based on reserve ratio under O.C.G.A. §34-8-155 |
+| Experience rate | varies by employer (assigned annually on Form DOL-626 Tax Rate Notice; confirm the current-year min/max with GDOL) | "A Tax Rate Notice, Form DOL-626, is mailed each year to all active employers indicating the tax rate for the following year" (GDOL UI reporting and liability guide) |
 | New employer rate | **2.70%** | Default for the first ~36 months of liability, until experience rating kicks in |
 | Administrative Assessment | **0.06%** | Separate component on UI taxable wages under O.C.G.A. §34-8-180 |
 
 - **Administrative Assessment application** — The Administrative Assessment is a separate line item that funds GDOL operations. It applies to the same UI taxable wage base as the experience-rate contribution ($9,500 per employee in 2025). It is not absorbed into the experience rate — the employer pays both components.  _(7.4 2025 contribution rates)_
-- **Maximum 2025 GA UI cost per employee** — Experience rate: $9,500 × 8.10% = $769.50; Administrative Assessment: $9,500 × 0.06% = $5.70; Total maximum per employee per year: $775.20  _(7.4 2025 contribution rates)_
-- **Minimum 2025 GA UI cost per employee** — Experience rate: $9,500 × 0.04% = $3.80; Administrative Assessment: $9,500 × 0.06% = $5.70; Total minimum per employee per year: $9.50  _(7.4 2025 contribution rates)_
-- **New employer 2025 cost per employee** — Experience rate: $9,500 × 2.70% = $256.50; Administrative Assessment: $9,500 × 0.06% = $5.70; Total new-employer per employee per year: $262.20  _(7.4 2025 contribution rates)_
+- **Maximum GA UI cost per employee (illustrative at a top experience rate)** — $9,500 taxable wage base × 8.10% = $769.50, plus the administrative assessment. Confirm the current-year top rate on the GDOL Form DOL-626 Tax Rate Notice. Wage base quote: "The taxable wage base in Georgia increased from $8,500 to $9,500 beginning 2013" (GDOL UI reporting and liability guide).
+- **Minimum GA UI cost per employee (illustrative at a low experience rate)** — $9,500 × 0.04% = $3.80, plus the administrative assessment. Confirm the current-year bottom rate with GDOL.
+- **New employer cost per employee** — Newly liable employers are assigned 2.70%: "Newly liable employers are assigned a beginning tax rate of 2.70%" (GDOL UI reporting and liability guide). $9,500 × 2.70% = $256.50, plus the administrative assessment.
 
 ### 7.5 GA UI quarterly filing — Form DOL-4N
 
