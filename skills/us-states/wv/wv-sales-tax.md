@@ -371,7 +371,7 @@ See the client onboarding questions above.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| W. Va. Code §11-15-3 (6% state rate) | https://legis.wv.gov/code/chapter/11/15/3 | 2026-11-05 |
+| W. Va. Code §11-15-3 (6% state rate) | https://code.wvlegislature.gov/11-15-3/ | 2026-11-05 |
 
 Not yet confirmed: the filing-frequency band thresholds, the CST-200 due-date rule, and the edge-case scenario figures listed under Not yet confirmed in Sources.
 
