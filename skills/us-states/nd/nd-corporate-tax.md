@@ -289,7 +289,7 @@ The brackets are **not** indexed for inflation. The $25,000 and $50,000 threshol
 
 - **Combined and unitary reporting requirement** -- ND requires combined reporting for unitary businesses under NDCC § 57-38.1-19 [VERIFY]. A corporation that is part of a unitary business with other corporations must file a combined Form 40 reflecting the unitary group's combined income, with ND apportionment computed on the combined basis (Joyce / Finnigan election may apply -- verify current ND rule). ND's combined-reporting requirement is meaningful: practitioners migrating from separate-return states (NC's default is separate-entity) must affirmatively analyze unitary status for any multistate ND filer. The water's-edge election (§ 5.2) is the principal mechanism to limit combined reporting to US-only affiliates.  _(NDCC § 57-38.1-19 [VERIFY])_
 
-### 11.1 Example A -- Small all-ND C-corp at the lowest bracket
+### 11.1 Worked example A -- Small all-ND C-corp at the lowest bracket
 
 **Facts.** Prairie Print Shop, Inc. is a Bismarck-domiciled C-corp providing commercial printing. Calendar-year filer. For 2025:
 
@@ -334,7 +334,7 @@ Total        $282.00
 
 **Takeaway.** A small ND C-corp at the lowest bracket owes a few hundred dollars. There is no minimum tax, no franchise tax, and no required estimated payments below the $5,000 threshold (US-ND-dr-form40es2026.pdf: required only if liability "exceeds $5,000"; the no-minimum-tax claim: see "Not yet confirmed:" in Sources). This is dramatically simpler than NC, CA, TX, or DE, where even a tiny C-corp owes hundreds in franchise / minimum tax annually.
 
-### 11.2 Example B -- Mid-size C-corp with multistate apportionment (ND + MN + MT)
+### 11.2 Worked example B -- Mid-size C-corp with multistate apportionment (ND + MN + MT)
 
 **Facts.** Red River Equipment, Inc. is a Fargo-domiciled C-corp selling agricultural equipment across the Plains. Calendar 2025:
 
@@ -410,7 +410,7 @@ Safe harbor: pay 100% of 2025 liability ($40,849) split into 4 installments
 | Payroll | $3,000,000 | $5,000,000 | 0.6000 |
 | Sales | $8,000,000 | $20,000,000 | 0.4000 |
 
-### 11.3 Example C -- ND S-corp with zero entity-level CIT but pass-through
+### 11.3 Worked example C -- ND S-corp with zero entity-level CIT but pass-through
 
 **Facts.** Bakken Software Solutions, Inc. is an ND S-corp (federal § 1362 election in effect) providing software consulting to oil & gas producers. Single shareholder, ND resident. Calendar 2025:
 
