@@ -9,7 +9,7 @@ description: >
   Trigger on "Louisiana withholding", "L-1", "L-3", "LaTAP withholding",
   "LaWage", "LDR withholding". Source-cited draft; duty, forms, bands, and
   deadlines verified from the LDR Withholding page 2026-10-28; withholding
-  table figures listed under Not yet confirmed in Sources.
+  table figures listed under Not-yet-confirmed in Sources.
 jurisdiction: US-LA
 category: payroll
 tax_year: 2026
@@ -27,7 +27,7 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding by employers. **Source status:** the LDR Withholding page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/) was fetched and its text verified 2026-10-28 -- the **withholding duty, L-1/L-3 form designations, zero-return rule, payment-frequency bands, and the January 31 reconciliation deadline are verified quotes**. The **withholding table figures** (https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/) render via JS and are listed under Not yet confirmed in Sources.
+Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding by employers. **Source status:** the LDR Withholding page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/withholding/) was fetched and its text verified 2026-10-28 -- the **withholding duty, L-1/L-3 form designations, zero-return rule, payment-frequency bands, and the January 31 reconciliation deadline are verified quotes**. The **withholding table figures** (https://revenue.louisiana.gov/tax-professionals/general-resources/louisiana-withholding-tax-tables/) render via JS and are listed under Not-yet-confirmed in Sources.
 
 ## Rates, bands and thresholds
 
@@ -49,14 +49,14 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana income-tax withholding b
 
 ## Deadlines and filing
 
-- L-1 quarterly: assigned periods, electronic file + pay (calendar detail listed under Not yet confirmed in Sources -- standard last-day-of-month-after-quarter).
+- L-1 quarterly: assigned periods, electronic file + pay (calendar detail listed under Not-yet-confirmed in Sources -- standard last-day-of-month-after-quarter).
 - L-3 annual reconciliation: **January 31** following the calendar year close (verified).
 - Notify LDR of name/address/responsible-party/ownership changes (verified duty).
 
 ## Penalties and interest
 
-- Common-mistake list published by LDR: filing after due date, missing zero returns, missing e-payment deadlines (verified page; employer penalties/interest arise under R.S. 47:1601 "Interest on unpaid taxes" and R.S. 47:1602 "Penalty for failure to make timely return; penalties related to nonpayment or underpayment" per US-LA-dr-legis-title47-toc.txt -- R.S. 47:1607 is "Interest on erroneous refunds" -- and the percentages are listed under Not yet confirmed in Sources).
-- Failure to withhold: employer liable for amounts that should have been withheld plus penalties -- tiers listed under Not yet confirmed in Sources.
+- Common-mistake list published by LDR: filing after due date, missing zero returns, missing e-payment deadlines (verified page; employer penalties/interest arise under R.S. 47:1601 "Interest on unpaid taxes" and R.S. 47:1602 "Penalty for failure to make timely return; penalties related to nonpayment or underpayment" per US-LA-dr-legis-title47-toc.txt -- R.S. 47:1607 is "Interest on erroneous refunds" -- and the percentages are listed under Not-yet-confirmed in Sources).
+- Failure to withhold: employer liable for amounts that should have been withheld plus penalties -- tiers listed under Not-yet-confirmed in Sources.
 
 ## Cross-border points
 
