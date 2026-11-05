@@ -190,7 +190,7 @@ Virginia is generally an **origin-based** sourcing state for intrastate sales.
 ### 3.4 Dealer's Discount
 
 - **Dealer's discount retention** — Dealers may retain a portion of the sales tax they collect as a statutory dealer's discount, computed as a percentage of the tax due on the first tranche of taxable sales. (T1)  _(Va. Code Section 58.1-622)_
-- **Maximum discount** — A monthly cap applies (Not yet confirmed: the $53 figure is not stated in any archived source; § 58.1-622 was not archived, only its caption "Discount" appears in the Chapter 6 index US-VA-dr-chapter6.html).  _(Va. Code Section 58.1-622)_
+- **Maximum discount** — A monthly cap applies (see the Not yet confirmed line in Sources; the $53 figure is not stated in any archived source — § 58.1-622 was not archived, only its caption "Discount" appears in the Chapter 6 index US-VA-dr-chapter6.html).  _(Va. Code Section 58.1-622)_
 - **Discount timely filing condition** — The discount is available only if the return is filed and payment is made on time.  _(Va. Code Section 58.1-622)_
 
 
@@ -297,19 +297,6 @@ Virginia enacted marketplace facilitator legislation effective July 1, 2019 (con
 
 Refer to Step 3 for filing frequencies and due dates. [T1]
 
-## Ask the client first
-
-- **1** — NEVER apply a flat 5.3% rate statewide -- check whether the address is in Northern Virginia (6.0%), Hampton Roads (7.0%), or the rest of Virginia (5.3%). (T1)
-- **2** — NEVER advise that grocery food is fully exempt from sales tax in Virginia -- it is taxed at a reduced rate of approximately 1% (local component only, after the Jan 2023 change). (T1)
-- **3** — NEVER advise that SaaS is not taxable in Virginia (it is taxable per DOR rulings). (T1)
-- **4** — NEVER tell a seller they can file quarterly in Virginia -- Virginia requires monthly filing for all registrants. (T1)
-- **5** — NEVER confuse Virginia's mandatory 1% local tax with optional local taxes -- every Virginia transaction includes the 1% local component. (T1)
-- **6** — NEVER apply the grocery food reduced rate to prepared food or restaurant meals. (T1)
-- **7** — NEVER advise that over-the-counter drugs are taxable in Virginia (they are exempt). (T1)
-- **8** — NEVER assume motor vehicle tax is collected by the seller -- it is collected by DMV at titling. (T1)
-- **9** — NEVER ignore the data center exemption for qualifying purchases -- it is a significant incentive. (T2)
-- **10** — NEVER provide Virginia tax guidance without specifying which regional rate applies to the customer's location. (T1)
-
 ## Cross-border points
 
 ### 7.1 Data Center Equipment Exemption [T2]
@@ -363,6 +350,19 @@ Unlike Maryland, Virginia does not impose a separate digital advertising tax. Ho
 - **Emergency preparedness items** — Hurricane and emergency preparedness items: exempt. (T1)  _(Va. Code Section 58.1-611.2)_
 
 Virginia holds an annual sales tax holiday (typically the first weekend in August):
+
+## Ask the client first
+
+- **1** — NEVER apply a flat 5.3% rate statewide -- check whether the address is in Northern Virginia (6.0%), Hampton Roads (7.0%), or the rest of Virginia (5.3%). (T1)
+- **2** — NEVER advise that grocery food is fully exempt from sales tax in Virginia -- it is taxed at a reduced rate of approximately 1% (local component only, after the Jan 2023 change). (T1)
+- **3** — NEVER advise that SaaS is not taxable in Virginia (it is taxable per DOR rulings). (T1)
+- **4** — NEVER tell a seller they can file quarterly in Virginia -- Virginia requires monthly filing for all registrants. (T1)
+- **5** — NEVER confuse Virginia's mandatory 1% local tax with optional local taxes -- every Virginia transaction includes the 1% local component. (T1)
+- **6** — NEVER apply the grocery food reduced rate to prepared food or restaurant meals. (T1)
+- **7** — NEVER advise that over-the-counter drugs are taxable in Virginia (they are exempt). (T1)
+- **8** — NEVER assume motor vehicle tax is collected by the seller -- it is collected by DMV at titling. (T1)
+- **9** — NEVER ignore the data center exemption for qualifying purchases -- it is a significant incentive. (T2)
+- **10** — NEVER provide Virginia tax guidance without specifying which regional rate applies to the customer's location. (T1)
 
 ## Worked examples
 
