@@ -28,7 +28,7 @@ This skill is the authoritative Tier 2 content layer for Oregon employer payroll
   - Lane Transit District (Eugene/Springfield) -- 0.80% employer (US-OR-dr-oq-2026.txt: 'Lane Transit District (LTD) tax rate is 0.0080')
   - Salem Area Mass Transit District / Cherriots -- employer payroll tax proposed from 2027 (US-OR-dr-cherriots-se.txt); the 0.36% rate is listed under Not-yet-confirmed in Sources
 - Oregon Paid Leave (Paid Leave Oregon) -- 1.0% total contribution, split 40/60 employer/employee for employers with 25+ employees, up to 12 weeks of paid family/medical/safe leave benefits (US-OR-dr-paidleave.txt: 'The total contribution rate for 2026 is 1% of gross wages up to $184,500'; US-OR-dr-lro-basic-facts-2026.pdf: up to 12 weeks in a 52-week period)
-- Workers' Benefit Fund (WBF) assessment -- 1.8 cents per hour worked (2026) (US-OR-dr-wbf.txt: 'In 2026, the WBF assessment is 1.8 cents per hour worked'); the 2025 0.66¢/0.66¢ split is listed under Not-yet-confirmed in Sources
+- Workers' Benefit Fund (WBF) assessment -- 1.8 cents per hour worked (2026), listed under Not yet confirmed in Sources for the 2025 split rate (US-OR-dr-wbf.txt: 'In 2026, the WBF assessment is 1.8 cents per hour worked'); the 2025 0.66¢/0.66¢ split is listed under Not-yet-confirmed in Sources
 - Final-pay rule -- by end of next business day after termination by employer
 - Independent contractor classification -- the Oregon ABC test, codified by case law and adopted statutorily post-2020
 - Federal interactions -- Family and Medical Leave Act parity, Pay Equity Act 2019 implications for payroll
@@ -253,7 +253,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 - **WBF filing** -- WBF assessment is reported on Form OQ alongside withholding, UI, and STT.
 
-> **AUDIT FLASH POINT:** WBF is computed per-hour, not per-dollar. A common mistake is to apply a 0.0066% rate to wages, which dramatically under-reports. The correct base is hours worked × the per-hour assessment (US-OR-dr-wbf.txt: assessment is 'per hour worked'; US-OR-dr-oq-2026.txt: 'Determining WBF hours worked').
+> **AUDIT FLASH POINT (worked example figures; hypothetical):** WBF is computed per-hour, not per-dollar. A common mistake is to apply a 0.0066% rate to wages, which dramatically under-reports. The correct base is hours worked × the per-hour assessment (US-OR-dr-wbf.txt: assessment is 'per hour worked'; US-OR-dr-oq-2026.txt: 'Determining WBF hours worked').
 
 ### 8. ABC test for independent contractor classification
 
@@ -310,8 +310,8 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 WBF rows use the 2025 $0.0066/hour split rate (listed under Not yet confirmed in Sources); the 2026 assessment is 1.8 cents per hour (US-OR-dr-wbf.txt).
 
-Employer total (Oregon-specific, excluding federal): approximately $2,785.37
-Employee withholding (Oregon-specific, excluding federal & PIT): approximately $853.73 plus Oregon PIT withholding from OR-W-4 table
+Employer total (Oregon-specific, excluding federal): approximately $2,785.37 (worked-example arithmetic; hypothetical facts)
+Employee withholding (Oregon-specific, excluding federal & PIT): approximately $853.73 plus Oregon PIT withholding from OR-W-4 table (worked-example arithmetic; hypothetical facts)
 
 ### 11.2 Example B -- Eugene Lane Transit employer (hypothetical facts)
 
