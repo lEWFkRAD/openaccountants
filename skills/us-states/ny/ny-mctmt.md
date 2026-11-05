@@ -1,6 +1,6 @@
 ---
 name: ny-mctmt
-description: "The NY Metropolitan Commuter Transportation Mobility Tax (MCTMT, Tax Law Chapter 23) is a payroll-and-self-employment tax on employers and self-employed individuals doing business in the Metropolitan Commuter Transportation District (MCTD): the five NYC boroughs (Zone 1) and the suburban counties of Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk, and Westchester (Zone 2). Quarterly payroll brackets run from 0.11% up to 0.60% in Zone 1 and 0.3
+description: "The NY Metropolitan Commuter Transportation Mobility Tax (MCTMT, Tax Law sections 800-810) is a payroll-and-self-employment tax on employers and self-employed individuals doing business in the Metropolitan Commuter Transportation District (MCTD): the five NYC boroughs (Zone 1) and the suburban counties of Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk, and Westchester (Zone 2). Quarterly payroll brackets run from 0.11% up to 0.60% in Zone 1 and 0.3
 | NY Tax Law 24-A (PTET) | https://www.nysenate.gov/legislation/laws/TAX/24-A | 2026-11-05 |
 | NY Labor Law Chapter 18 (UI) | https://www.nysenate.gov/legislation/laws/LAB/A18 | 2026-10-25 |
 | NY Tax Law Chapter 23 (MCTMT) | https://www.nysenate.gov/legislation/laws/TAX/A23 | 2026-10-25 |
@@ -20,7 +20,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### 1.1 Statutory basis
 
-- **MCTMT statutory basis** — The Metropolitan Commuter Transportation Mobility Tax (MCTMT) is imposed under New York Tax Law Chapter 23 (sections 800–810), enacted by Chapter 25 of the Laws of 2009 (effective March 1, 2009, for employers; January 1, 2009, for self-employed individuals). The tax is administered by NYSDTF and proceeds are dedicated to the MTA.  _(New York Tax Law Chapter 23 (sections 800–810); Chapter 25 of the Laws of 2009)_
+- **MCTMT statutory basis** — The Metropolitan Commuter Transportation Mobility Tax (MCTMT) is imposed under the MCTMT statute (https://www.nysenate.gov/legislation/laws/TAX/A23, sections 800-810), enacted by Chapter 25 of the Laws of 2009 (effective March 1, 2009, for employers; January 1, 2009, for self-employed individuals). The tax is administered by NYSDTF and proceeds are dedicated to the MTA.  _(New York Tax Law Chapter 23 (sections 800–810); Chapter 25 of the Laws of 2009)_
 - **2023 rate increase** — Part Q of Chapter 59 of the Laws of 2023 raised the top employer rate for Zone 1 from 0.34% to 0.60% effective for payroll paid on or after July 1, 2023, while leaving Zone 2 unchanged. Self-employed top-bracket rates were similarly increased for tax years beginning on or after January 1, 2023.  _(Part Q of Chapter 59 of the Laws of 2023)_
 - **2024 rate confirmation** — Part R of Chapter 56 of the Laws of 2024 (the FY 2025 budget bill) confirmed and extended the bifurcated Zone 1 / Zone 2 rate schedule and finalized the post-increase brackets effective for payroll paid on or after January 1, 2024. The 0.60% top employer rate for Zone 1 and the unchanged 0.34% top employer rate for Zone 2 are the current law.  _(Part R of Chapter 56 of the Laws of 2024)_
 
@@ -313,7 +313,7 @@ This skill does NOT cover the following items, which require either a specialize
 - **MCTMT for interstate rail and motor carrier exemptions** — Narrow federal preemption analysis under 49 U.S.C. §11502 / §14503; defer to interstate transportation tax specialist.  _(49 U.S.C. §11502 / §14503)_
 - **MCTMT audit defense and Tax Appeals Tribunal litigation** — Administrative practice not covered.
 - **Pre-2022 MCTMT periods filed on the legacy Form MTA-305** — Historical periods only; current law applies to all periods from March 1, 2022 forward.  _(Form MTA-305)_
-- **MCTMT in combined group / unitary contexts** — Combined return positions for affiliated corporations under Chapter 9-A (https://www.tax.ny.gov/bus/ct/article9a.htm) do not extend to MCTMT, which is always computed on a separate-entity basis.  _(Chapter 9-A)_
+- **MCTMT in combined group / unitary contexts** — Combined return positions for affiliated corporations under the corporate franchise tax (https://www.tax.ny.gov/bus/ct/article9a.htm) do not extend to MCTMT, which is always computed on a separate-entity basis.  _(Chapter 9-A)_
 - **NYC payroll tax interactions beyond MCTMT** — NYC has its own employer head-tax proposals from time to time; this skill addresses only the state-level MCTMT.
 - **Tip income and statutory employees** — The §1402(c) analysis for statutory employees and the §3121(q) tip income wage allocations are not addressed here; assume standard W-2 Box 5 wage reporting unless flagged for further analysis.  _(IRC §1402(c); IRC §3121(q))_
 - **MCTMT for clergy and members of religious orders** — Special §1402(e) exclusions for clergy SE earnings; defer to clergy tax specialist.  _(IRC §1402(e))_

@@ -242,7 +242,7 @@ The fixed-amount credit is refundable for NYC residents and is claimed on Line 6
 
 | Figure | Value | Source |
 |---|---|---|
-| Yonkers nonresident earnings tax | 0.50% of Yonkers-source wages and self-employment earnings, minus $3,000 exemption | Yonkers City Code §92-141; NY Tax Law Chapter 30 B A; Form Y-203; Form IT-201-I (2025), Line 56 |
+| Yonkers nonresident earnings tax | 0.50% of Yonkers-source wages and self-employment earnings, minus $3,000 exemption | Yonkers City Code §92-141; Yonkers nonresident earnings tax statute (https://www.nysenate.gov/legislation/laws/TAX/30-B); Form Y-203; Form IT-201-I (2025) https://www.tax.ny.gov/pdf/2025/inc/it201i_2025.pdf (2025), Line 56 |
 
 ### MCTMT for self-employed individuals (Lines 54a, 54b)
 
@@ -350,7 +350,7 @@ Every position in this skill cites from this list. New citations added to the sk
 | NY Tax Law Chapter 30 (article index: https://www.nysenate.gov/legislation/laws/TAX) | Authorization for NYC to impose a city personal income tax on residents |
 | NY Tax Law §1304 | NYC resident income tax structure reference |
 | NY Tax Law Chapter 30 A | Yonkers resident income tax surcharge (16.75% of NY state tax) |
-| NY Tax Law Chapter 30 B A | Yonkers nonresident earnings tax (0.50% of Yonkers-source earnings) |
+| Yonkers nonresident earnings tax statute | https://www.nysenate.gov/legislation/laws/TAX/30-B | Yonkers nonresident earnings tax (0.50% of Yonkers-source earnings) |
 
 ### New York City Administrative Code (Title 11)
 
@@ -883,7 +883,7 @@ Enter on Line 55. If filing jointly and only one spouse was a Yonkers resident, 
 
 ### Subsection G — MCTMT for self-employed
 
-#### Position 5-28 — MCTMT Zone 1 computation (Line 54a)
+#### Position 5-28 — MCTMT Zone 1 computation (Line 54a) — worked example — worked example
 
 **Trigger.** Taxpayer has net earnings from self-employment allocated to MCTD Zone 1 (NYC five boroughs) that exceed $50,000.
 
@@ -914,7 +914,7 @@ Enter on Line 54a.
 
 **Example reference.** Example 1 (Sarah, NYC resident, Zone 1 MCTMT), Example 4 (Priya, Westchester, Zone 2 MCTMT only).
 
-#### Position 5-29 — MCTMT Zone 2 computation (Line 54b)
+#### Position 5-29 — MCTMT Zone 2 computation (Line 54b) — worked example — worked example
 
 **Trigger.** Taxpayer has NESE allocated to MCTD Zone 2 (Rockland, Nassau, Suffolk, Orange, Putnam, Dutchess, Westchester) that exceeds $50,000.
 
