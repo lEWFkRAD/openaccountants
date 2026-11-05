@@ -227,7 +227,7 @@ US-MA-dr-form355-2023-instr.txt: "40% of the estimated tax due for the year is d
 
 ### 8.4 Estimated tax — individuals
 
-- **Individual estimated payments** — Individuals expecting to pay more than $400 in Massachusetts income tax must make estimated payments (US-MA-dr-form1-2025-instr-full.txt: "more than $400 in Massachusetts income tax"; "Every resident who expects to pay more than $400"). Form 1-ES quarterly: April 15, June 15, September 15, January 15. Safe harbors are 80% of current-year tax or 100% of prior-year tax (110% if prior-year MA AGI > $150,000).
+- **Individual estimated payments** — Individuals expecting to pay more than $400 in Massachusetts income tax must make estimated payments (US-MA-dr-form1-2025-instr-full.txt: "more than $400 in Massachusetts income tax"; "Every resident who expects to pay more than $400"). Form 1-ES quarterly: April 15, June 15, September 15, January 15. Safe harbors are 80% of current-year tax or 100% of prior-year tax (US-MA-dr-form1-2025-instr-full.txt). The 110% modifier for prior-year MA AGI over $150,000 is listed under Not yet confirmed in Sources.
 
 ### 8.5 PTE election filing
 
@@ -357,7 +357,7 @@ Because the surtax is on aggregate taxable income for the year, large one-time c
 - **PL 86-272 protections and narrowing** — Public Law 86-272 protections still apply in Massachusetts for sales of tangible personal property. However, Massachusetts adopted the Multistate Tax Commission's revised PL 86-272 statement (effective 2022) narrowing protection for online activities (cookies, app downloads, web chat for non-product purposes, etc.). Practitioners should expect that any non-de-minimis online business with Massachusetts customers creates income tax nexus.
 - **Bright-line economic nexus sales threshold** — $500,000 of Massachusetts sales in the year  _(830 CMR 63.39.1)_
 - **Employee count nexus threshold** — 25 or more employees in MA  _(830 CMR 63.39.1)_
-- **Property nexus threshold** — Owned or leased property in MA exceeding $50,000  _(830 CMR 63.39.1)_
+- **Property nexus threshold** — Owned or leased property in MA exceeding $50,000 (the $50,000 figure is listed under Not yet confirmed in Sources; the archived 830 CMR 63.39.1 states only the $500,000 receipts, $10M property and 100-residents presumptions)
 - **Any threshold triggers nexus** — Meeting any of these creates nexus.  _(830 CMR 63.39.1)_
 
 ### 11.2 Combined-group nexus
@@ -386,7 +386,7 @@ The corporation has $180,000 of MA tangible property; the assets are dominantly 
 
 **Form 355 Line 9 (excise): $59,476.**
 
-The corporation files Form 355 by April 15, 2026. Required estimated payments during 2025: 40% by March 15 = $23,790; 25% by June 15 = $14,869; 15% by September 15 = $8,921; 20% by December 15 = $11,895.
+The corporation files Form 355 by April 15, 2026. Required estimated payments during 2025 (installments 40/25/25/10 per US-MA-dr-form355-instructions): 40% by March 15 = $23,790; 25% by June 15 = $14,869; 25% by September 15 = $14,869; 10% by December 15 = $5,948.
 
 ### Worked example B — S-corp crossing the sting tax threshold
 
@@ -575,7 +575,7 @@ Which entity form? MA-apportioned income and receipts? Net worth? S-corp receipt
 | US-MA-dr-c62-s4.txt | https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4 | Part A/B rates; 8.5 per cent short-term capital gains (2026-11-01) |
 | US-MA-dr-form1-2025-instr-full.txt | https://www.mass.gov/doc/2025-form-1-instructions/download | exemptions, rental deduction $4,000 cap, estimated dates (2026-11-01) |
 
-Not yet confirmed: the S-corp sting-tax receipts thresholds ($6M-$9M at 2% and $9M+ at 3%) — the archived c.63 sections do not state them; and the $50,000 property-nexus figure (830 CMR 63.39.1 as archived states only the $500,000 receipts test). Also not confirmed: the Form 63D-ELT PTE election March 15 date; the Article 44 constitutional citation and November 8, 2022 ballot date; and the §35A 10%/$1,000 understatement trigger.
+Not yet confirmed: the S-corp sting-tax receipts thresholds ($6M-$9M at 2% and $9M+ at 3%) — the archived c.63 sections do not state them; and the $50,000 property-nexus figure (830 CMR 63.39.1 as archived states only the $500,000 receipts test). Also not confirmed: the 110% safe-harbor modifier for prior-year MA AGI over $150,000 (c.62B §14 as archived gives 80% and 100%-prior-year only); the Form 63D-ELT PTE election March 15 date; the Article 44 constitutional citation and November 8, 2022 ballot date; and the §35A 10%/$1,000 understatement trigger.
 
 ## Talk to a verified accountant
 
