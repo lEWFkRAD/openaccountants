@@ -5,8 +5,9 @@ description: >
   for tax year 2026 -- Missouri has no state-level employee social insurance
   (no state FICA); the state-layer contribution is employer-only
   unemployment insurance under Chapter 288 RSMo: taxable wage base set by
-  §288.036 formula (current-year figure not yet confirmed), experience rates
-  0–9.75%, new-employer and construction rates not yet confirmed, quarterly
+  §288.036 formula (current-year figure unconfirmed -- see Sources), experience
+  rates 0–9.75%, new-employer and construction rates unconfirmed (see Sources),
+  quarterly
   Form MODES-4-7, reserve-ratio rate mechanics under
   schedules A–I. Trigger on "Missouri unemployment insurance", "MO UI wage
   base", "MODES-4-7", "Missouri employer contributions", "Missouri state
@@ -32,7 +33,7 @@ depends_on:
 
 Missouri imposes **no state-level employee social-insurance contribution** -- old-age, survivors, disability and hospital insurance are federal only (see `skills/federal/`), and Missouri has no state paid-leave or state disability program. The entire state-layer social contribution is the **employer-only unemployment insurance (MO UI)** tax under Chapter 288 RSMo, administered by the Division of Employment Security (DES). Withholding mechanics live in `mo-payroll`; this skill isolates the contribution program.
 
-**Source status:** all figures below are corroborated by the existing tier-2 `mo-payroll` skill, which was verified against the DES 2025 contribution-rate notice. The DES 2026 rate pages returned 404 from the drafting environment on 2026-10-27 -- the **CY2026 wage base and rate schedule are not yet confirmed**; treat the 2025 numbers as the latest verified and re-check the DES notice before running 2026 payroll.
+**Source status:** all figures below are corroborated by the existing tier-2 `mo-payroll` skill, which was verified against the DES 2025 contribution-rate notice. The DES 2026 rate pages returned 404 from the drafting environment on 2026-10-27 -- the **CY2026 wage base and rate schedule are unconfirmed: see Not-yet-confirmed in Sources**; treat the 2025 numbers as the latest verified and re-check the DES notice before running 2026 payroll.
 
 
 ### Who this applies to
@@ -44,11 +45,11 @@ An employer is subject to MO UI if it is subject to FUTA, **or** paid $1,500+ in
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| Taxable wage base | set by the §288.036 trust-fund formula (floor $7,000, ceiling $13,000); the current-year figure is not yet confirmed | §288.036 RSMo, archived |
+| Taxable wage base | set by the §288.036 trust-fund formula (floor $7,000, ceiling $13,000 -- US-MO-rsmo-288-036.html: "in no event shall the state taxable wage base increase beyond thirteen thousand dollars, or decrease to less than seven thousand dollars"); the current-year figure: see Not-yet-confirmed in Sources | §288.036 RSMo, archived |
 | Contribution rate range | **0.0% – 9.75%** experience-rated | §288.121 RSMo via `mo-payroll` |
-| New-employer rate | not yet confirmed (non-construction and construction) | §288.123 RSMo via `mo-payroll` |
+| New-employer rate | see Not-yet-confirmed in Sources (non-construction and construction; the archived §288.123 copy is the enactment repealed in 1988) | §288.123 RSMo via `mo-payroll` |
 | Rate mechanics | reserve ratio = cumulative contributions − benefit charges ÷ average annual taxable payroll over the prior three completed calendar years; schedules A–I chosen each November by DES based on trust-fund balance | §288.121 RSMo via `mo-payroll` |
-| Wage-base history | §288.036 RSMo (archived): $11,000 for CY2005–2007, $12,000 for CY2008, then trust-fund-indexed within $7,000–$13,000; later-year figures not yet confirmed | §288.036 RSMo, archived |
+| Wage-base history | §288.036 RSMo: $11,000 for CY2005–2007, $12,000 for CY2008 (US-MO-rsmo-288-036.html), then trust-fund-indexed within $7,000–$13,000; later-year figures: see Not-yet-confirmed in Sources | §288.036 RSMo, archived |
 | Employee-side contribution | **none** -- MO UI is employer-funded | `mo-payroll` |
 
 ## The taxable base
@@ -61,7 +62,7 @@ The UI taxable wage base is the first row of the table under "Rates, bands and t
 
 ## Penalties and interest
 
-- Late/underpaid UI contributions accrue interest and penalties under Chapter 288; the specific current percentages were not re-verified this run -- **not yet confirmed** (DES pages 404 on 2026-10-27). The `mo-payroll` skill carries the withholding-side §288 penalties; treat UI-side percentages as unverified until the DES notice is read.
+- Late/underpaid UI contributions accrue interest and penalties under Chapter 288: an employer that neglects or refuses to file a required report by the last day of the month following the due date incurs a penalty equal to the greater of $100 or 10% of the contributions due, for each month or fraction of failure (US-MO-rsmo-288-160.html: "a penalty, equal to the greater of one hundred dollars or ten percent of the contributions required to be shown on the report"). The current interest percentage: see Not-yet-confirmed in Sources (DES pages 404 on 2026-10-27). The `mo-payroll` skill carries the withholding-side §288 penalties; treat remaining UI-side percentages as unverified until the DES notice is read.
 - Failure to respond to DES wage audits produces assessments on estimated payroll -- the practical exposure for late MODES-4-7 filings.
 
 ## Cross-border points
@@ -120,7 +121,7 @@ expected:
 | 3 | Mo. Rev. Stat. ch. 288 (§§288.034, 288.036.2, 288.121, 288.123) as cited in `mo-payroll` | https://revisor.mo.gov/main/OneSection.aspx?section=288.036 | 2026-10-29 |
 | 4 | Mo. Rev. Stat. §288.123 (benefit charges/rate computation) | https://revisor.mo.gov/main/OneSection.aspx?section=288.123 | 2026-10-29 |
 | 5 | Mo. Rev. Stat. §288.160 (penalties) | https://revisor.mo.gov/main/OneSection.aspx?section=288.160 | 2026-10-29 |
-Not yet confirmed: the items above flagged as not sourced -- figures tied to them stay unconfirmed until the source is archived with readable text..
+Not yet confirmed: the items above flagged as not sourced -- figures tied to them stay unconfirmed until the source is archived with readable text. This includes the CY2026 UI taxable wage base and contribution-rate schedule, the new-employer non-construction and construction rates, and the current UI interest percentage (the archived US-MO-uie-rates.html capture is a 404 stub with no usable text).
 
 ## Talk to a verified accountant
 
