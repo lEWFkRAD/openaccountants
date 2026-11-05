@@ -47,7 +47,7 @@ Intake and the content Guides have already collected the facts for this working 
 | Primary forms produced | D-400, D-400 Schedule S (Supplemental Schedule, additions/deductions), D-400 Schedule A (NC itemized -- if elected), D-400TC (Tax Credits), NC-40 (2026 estimated payment vouchers) |
 | Forms refused at this orchestrator | D-400 Schedule AM (amended), D-400 Schedule PN (part-year/non-resident), D-403 (partnership), CD-401S / CD-405 (corporate), NC K-1 inbound from S-corp/partnership |
 | Authority | North Carolina Department of Revenue (NCDOR) |
-| Statutes | N.C.G.S. Chapter 105, Article 4 (Individual Income Tax) -- chapter text archived 2026-10-29; Bailey v. State, 348 N.C. 130 (1998) for the qualifying-pension subtraction (case report not archived; see Not yet confirmed) |
+| Statutes | N.C.G.S. Chapter 105, Article 4 (Individual Income Tax) -- chapter text archived 2026-10-29; Bailey v. State (N.C. Supreme Court) for the qualifying-pension subtraction (US-NC-dr-ncdor-bailey.txt); reporter citation and consent-decree text -- see the Not yet confirmed: paragraph in Sources |
 | Filing deadline | April 15, 2026 |
 | Extension deadline | October 15, 2026 (Form D-410) |
 | TY 2025 flat rate | 4.25% (per N.C.G.S. §105-153.7, Session Law 2023-134) |
@@ -111,7 +111,7 @@ Verify the intake skill has produced:
 - Date of birth for taxpayer and spouse (drives senior-deduction considerations and Bailey settlement vesting eligibility)
 - Dependents list with SSNs (drives NC child deduction)
 - Business structure (sole prop or SMLLC disregarded)
-- Bailey-vested pension flag (taxpayer was vested in a qualifying NC state, local, or federal government retirement plan on or before August 12, 1989 -- vesting cutoff date; consent decree not archived -- see Not yet confirmed)
+- Bailey-vested pension flag (taxpayer was vested in a qualifying NC state, local, or federal government retirement plan on or before August 12, 1989 -- vesting cutoff date per US-NC-dr-ncdor-bailey.txt: "five or more years of creditable service as of August 12, 1989"; consent-decree text -- see the Not yet confirmed: paragraph in Sources)
 - Health coverage history (federal Form 1095-A / B / C)
 - W-2s, 1099-NECs, 1099-Rs received
 
@@ -273,7 +273,7 @@ Every line below is a hard equality. Tolerance is $1 unless noted otherwise. A f
 | C-2 | Dependents claimed on D-400 = dependents claimed on Form 1040 |
 | C-3 | Schedule C net profit federally = Schedule C net profit feeding NC AGI |
 | C-4 | Federal §168(k)/(n) bonus depreciation: NC requires 85% add-back in Year 1 (Schedule S Line 3) with 20%-per-year reversal over the first 5 taxable years beginning TY 2026 -- decoupling VERIFIED vs archived 2025 D-401 Instructions; verify add-back appears |
-| C-5 | Federal §179: NC conforms with limitation -- unconfirmed NC §179 cap (often lower than federal; see Not yet confirmed); add-back if federal §179 exceeded NC cap |
+| C-5 | Federal §179: NC adds back 85% of the §179 deduction in excess of the dollar and investment limitation for that taxable year (G.S. § 105-153.6(c), US-NC-GS_105-153.6.html); add-back if federal §179 exceeded NC limits |
 | C-6 | Federal SE tax deduction (Schedule 1 Line 15) is reflected in federal AGI; no NC add-back |
 | C-7 | Federal QBI deduction does NOT flow into NC computation (NC starts at federal AGI before QBI -- federal Line 13 is after AGI) -- confirm no double-counting |
 | C-8 | Federal SE health insurance deduction is included in federal AGI; no NC add-back |
@@ -642,7 +642,7 @@ The brief follows this fixed structure:
 - Form 8995 QBI deduction: ~$24,000 (non-SSTB; under threshold; 20%
   rate for TY 2025)
 - Form 1040 Line 12 (standard deduction, single, age 65+): $17,600
-  (OBBBA base + age-65 additional; unconfirmed -- see Not yet confirmed)
+  (OBBBA base + age-65 additional; see the Not yet confirmed: paragraph in Sources)
 - Form 1040 Line 15 (taxable income): ~$90,900
 - Form 1040 Line 16 (tax): ~$15,300
 - Schedule 2 Line 4 (SE tax): $18,792
