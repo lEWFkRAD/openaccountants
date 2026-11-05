@@ -32,7 +32,7 @@ This skill covers North Carolina state-level entity-level taxes:
 - NC personal income tax (PIT) -- covered by `nc-income-tax.md`. The 2025 flat PIT rate is 4.25% (continuing its own phase-down under SB 105).
 - NC sales and use tax -- covered by `nc-sales-tax.md`.
 - Federal corporate income tax (Form 1120) -- covered by federal skills.
-- Insurance companies (subject to a separate gross-premiums tax levied under Article 8B of Chapter 105 -- US-NC-ncleg-ch105-index.html).
+- Insurance companies are subject to a separate gross-premiums tax rather than the corporate income tax (chapter index archived as US-NC-ncleg-ch105-index.html).
 - Banks and savings institutions filing combined returns under Subchapter VIII -- special rules not covered here.
 - Captive REITs / captive RICs -- special add-back rules outside the standard playbook.
 - Counties and municipalities -- NC has no local corporate income tax.
