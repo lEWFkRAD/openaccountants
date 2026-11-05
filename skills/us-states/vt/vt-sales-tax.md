@@ -21,9 +21,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | Vermont, United States |
 | Jurisdiction Code | US-VT |
 | Tax Type | Sales and Use Tax (state + local option) |
-| State Rate | 6.00% |
-| Local Option Tax | Up to 1.00% |
-| Maximum Combined Rate | 7.00% |
+| State Rate | 6.00% (32 V.S.A. §9771: "The tax shall be paid at the rate of six percent of the sales price", US-VT-dr-09771.html.txt) |
+| Local Option Tax | Up to 1.00% (see Not yet confirmed in Sources; the local-option statute chapter was not archived) |
+| Maximum Combined Rate | 7.00% (see Not yet confirmed in Sources; arithmetic of the tied 6% plus the unarchived 1% local option) |
 | Primary Statute | 32 Vermont Statutes Annotated (V.S.A.) §9771 et seq. |
 | Governing Agency | Vermont Department of Taxes |
 | Portal | https://tax.vermont.gov |
@@ -69,7 +69,7 @@ Before proceeding with any Vermont sales tax analysis, collect the following fro
 
 - **Local option tax rate** — 1% percent (T1)
 - **Local option adoption** — Not all municipalities have adopted the local option tax. (T1)
-- **Combined rate where adopted** — 7.00%  _([T1])_
+- **Combined rate where adopted** — 7.00% (see Not yet confirmed in Sources; the 6% state rate is tied via US-VT-dr-09771.html.txt, the 1% local option is not archived)  _(32 V.S.A. §9771)_
 - **Administration** — The local option tax is administered by the Vermont Department of Taxes. (T1)
 - **Local option on meals distinct** — The local option on meals (9% meals tax + 1% local = 10%) is separate from the general sales tax local option. (T2)
 
@@ -145,7 +145,7 @@ Vermont taxes a limited number of services:
 | --- | --- |
 | Return Form | Form SU-452 (Sales and Use Tax Return) |
 | Filing Frequencies | Monthly (>$500/month avg); Quarterly ($100-$500); Annually (<$100) |
-| Due Date | 25th of the month following the reporting period |
+| Due Date | 25th of the month following the reporting period (see Not yet confirmed in Sources; the filing-frequency statute was not archived) |
 | Portal | https://tax.vermont.gov (myVTax) |
 | E-filing | Required for most filers |
 
@@ -348,6 +348,16 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+| Source | Type | Read on | Archived |
+| --- | --- | --- | --- |
+| US-VT-dr-09771.html.txt (32 V.S.A. §9771: "The tax shall be paid at the rate of six percent of the sales price") | statute capture | 2026-11-04 | sources/US-VT-dr-09771.html.txt |
+| US-VT-dr-9771.html.txt (same section, second capture) | statute capture | 2026-11-04 | sources/US-VT-dr-9771.html.txt |
+| US-VT-dr-05822.html.txt (2025 income tax rate schedule, used by vt-income-tax) | rate schedule | 2026-11-04 | sources/US-VT-dr-05822.html.txt |
+
+Not yet confirmed: the 1% local option rate and its municipal adoption rules (the local-option statute chapter was not archived); the 7.00% maximum combined rate (arithmetic of the tied 6% plus the unarchived 1%); the SU-452 filing-frequency bands ($500/$100) and the 25th-of-following-month due date (no archived filing-frequency source); the meals-tax 9%+1% figures (the meals-and-rooms capture does not state them in machine-readable text).
 
 ## Talk to a verified accountant
 
