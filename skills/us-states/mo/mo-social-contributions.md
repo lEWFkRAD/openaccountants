@@ -6,7 +6,7 @@ description: >
   (no state FICA); the state-layer contribution is employer-only
   unemployment insurance under Chapter 288 RSMo: taxable wage base set by
   §288.036 formula (current-year figure unconfirmed -- see Sources), experience
-  rates 0–9.75%, new-employer and construction rates unconfirmed (see Sources),
+  rates and new-employer rates listed under Not yet confirmed in Sources,
   quarterly
   Form MODES-4-7, reserve-ratio rate mechanics under
   schedules A–I. Trigger on "Missouri unemployment insurance", "MO UI wage
