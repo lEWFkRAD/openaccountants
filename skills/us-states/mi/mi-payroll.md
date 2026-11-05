@@ -529,6 +529,8 @@ Document the count weekly. Snapshot the headcount each Friday and store the scre
 
 - **Retroactive reclassification consequences** — When UIA reclassifies a contractor as an employee retroactively: - Back UIA contributions for the entire look-back period (up to 6 years) - Interest and penalties under Section 5.5 - Possible criminal referral for willful misclassification under MCL 421.54a (rare but on the books) - Treasury reclassification follows automatically — back state withholding owed, plus interest and penalty - City tax reclassification follows automatically — back city withholding (Detroit will pursue this aggressively)  _(MCL 421.13; MCL 421.54a)_
 
+## Worked example — reclassification exposure
+
 A 5-developer freelance shop reclassified retroactively at the UIA experience-rate maximum 10.30% × $9,500 × 5 × 6 years = ~$29,355 of back UIA alone, before interest and Treasury.
 
 ## 10. W-2, 1099, and annual reporting
