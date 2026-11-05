@@ -403,7 +403,7 @@ Pay via ND TAP scheduled debits.
 | Aug 31 | $145,000 |
 | Dec 31 | $185,000 |
 
-**TY 2025 ND tax table**
+**TY 2025 ND tax table** (worked example arithmetic; inputs hypothetical)
 
 | Bracket | Tax |
 | --- | --- |

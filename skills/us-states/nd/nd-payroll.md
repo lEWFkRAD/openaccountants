@@ -155,7 +155,7 @@ The bracket thresholds are indexed annually. Practitioners must re-verify the br
 
 ### 5.2 Mechanics -- Form NDW-R
 
-- **Employer MN withholding requirement** -- The employer must withhold Minnesota income tax instead (under MN Stat. § 290.92), which requires the employer to register for an MN withholding account if not already registered.  _(US-ND-dr-mn-290-92.txt: "The employer of any employee domiciled in a state with which Minnesota has reciprocity under section 290.081 is not required to withhold under this chapter from the wages earned by such employee in this state if the employee annually submits to the employer an affidavit of residency...")_
+- **Employer MN withholding requirement** (mechanics listed under Not yet confirmed in Sources) -- The employer must withhold Minnesota income tax instead (under MN Stat. § 290.92), which requires the employer to register for an MN withholding account if not already registered.  _(US-ND-dr-mn-290-92.txt: "The employer of any employee domiciled in a state with which Minnesota has reciprocity under section 290.081 is not required to withhold under this chapter from the wages earned by such employee in this state if the employee annually submits to the employer an affidavit of residency...")_
 
 ### 5.3 What happens if the NDW-R is missing -- the audit flash point
 
@@ -390,7 +390,7 @@ Per pay period: $322.24 / 26 = $12.39
 
 **Step 4 -- Form 306, Q1.** Anna's six pays in Q1 → $12 × 6 = $72 ND tax remitted with Form 306 by April 30. (Aggregated with all other employees.)
 
-### Example 2 -- Minnesota commuter with NDW-R on file
+### Worked example 2 -- Minnesota commuter with NDW-R on file (hypothetical facts; figures listed under Not yet confirmed in Sources)
 
 **Facts.** Bjorn lives in Moorhead, MN, and commutes daily to a software job in Fargo, ND. Biweekly gross wages = $3,200. Filed NDW-R on his first day of work, dated February 1, 2025 (US-ND-dr-ndwr.pdf: form valid "within 30 days after they begin working").
 
