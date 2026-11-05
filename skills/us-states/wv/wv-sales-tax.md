@@ -264,27 +264,27 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - Digital advertising, print advertising, and media buying are all subject to tax. [T2]
 - **Flag for reviewer:** Most states exempt advertising services. WV's broad base captures them. [T2]
 
-### Test 1 -- Basic Taxable Sale
+### Worked example Test 1 -- Basic Taxable Sale
 
 **Input:** Seller in Charleston sells $1,000 of furniture. Combined rate = 7% (6% state + 1% local).
 **Expected output:** Tax = $1,000 x 7% = $70.00. Total = $1,070.00.
 
-### Test 2 -- Grocery Food Exempt
+### Worked example Test 2 -- Grocery Food Exempt
 
 **Input:** Customer buys $200 of unprepared groceries in Huntington.
 **Expected output:** Groceries are EXEMPT. Tax = $0. Total = $200.00.
 
-### Test 3 -- Legal Services Taxable
+### Worked example Test 3 -- Legal Services Taxable
 
 **Input:** Attorney in Morgantown bills $2,000 for legal services. Combined rate = 7%.
 **Expected output:** Legal services ARE taxable. Tax = $2,000 x 7% = $140.00. Total = $2,140.00.
 
-### Test 4 -- SaaS and Custom Software Taxable
+### Worked example Test 4 -- SaaS and Custom Software Taxable
 
 **Input:** Software company charges $5,000 for custom development + $500/month SaaS to a WV client. Combined rate = 6% (no local).
 **Expected output:** BOTH are taxable. Custom dev tax = $5,000 x 6% = $300.00. SaaS tax = $500 x 6% = $30.00/month.
 
-### Test 5 -- Economic Nexus
+### Worked example Test 5 -- Economic Nexus
 
 **Input:** Remote consulting firm from Virginia earned $120,000 from WV clients in the prior year.
 **Expected output:** $120,000 exceeds $100,000. Nexus IS triggered. Must register and collect on WV-delivered services.
