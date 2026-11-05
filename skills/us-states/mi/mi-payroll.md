@@ -63,7 +63,7 @@ Where do employees physically work? Are any in Indiana (reciprocity)? Are contra
 | Michigan Tax Text 2025 (withholding + UIA sections) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Tax-Professional/2025_Tax_Text.pdf | 2026-10-25 |
 | Michigan Tax Text 2025 (withholding + UIA sections, US-MI-dr-tax-text-2025.txt) | https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Tax-Professional/2025_Tax_Text.pdf | 2026-10-25 |
 
-Not yet confirmed: the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text), and the PFML employer-paid benefit levels for 2026 (the archived UIA FAQ covers only the 0.2% employee premium).
+Not yet confirmed: the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text), the UIA look-back window for retroactive reclassification contributions (the archived MCL 421.42 text does not state it), and the PFML employer-paid benefit levels for 2026 (the archived UIA FAQ covers only the 0.2% employee premium).
 
 ### Statutes
 
@@ -527,7 +527,7 @@ Document the count weekly. Snapshot the headcount each Friday and store the scre
 
 ### 9.5 Reclassification exposure
 
-- **Retroactive reclassification consequences** — When UIA reclassifies a contractor as an employee retroactively: - Back UIA contributions for the entire look-back period (up to 6 years) - Interest and penalties under Section 5.5 - Possible criminal referral for willful misclassification under MCL 421.54a (rare but on the books) - Treasury reclassification follows automatically — back state withholding owed, plus interest and penalty - City tax reclassification follows automatically — back city withholding (Detroit will pursue this aggressively)  _(MCL 421.13; MCL 421.54a)_
+- **Retroactive reclassification consequences** — When UIA reclassifies a contractor as an employee retroactively: - Back UIA contributions for the look-back period (the look-back window is listed under Not yet confirmed; the archived MCL 421.42 text does not state it) - Interest and penalties under Section 5.5 - Possible criminal referral for willful misclassification under MCL 421.54a (rare but on the books) - Treasury reclassification follows automatically — back state withholding owed, plus interest and penalty - City tax reclassification follows automatically — back city withholding (Detroit will pursue this aggressively)  _(MCL 421.13; MCL 421.54a)_
 
 ## Worked example — reclassification exposure
 
