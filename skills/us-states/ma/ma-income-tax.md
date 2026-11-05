@@ -13,13 +13,17 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MA Income Tax
 
-## Massachusetts Individual Income Tax Skill — Self-Employed / Sole Proprietor
+### Massachusetts Individual Income Tax Skill — Self-Employed / Sole Proprietor
 
 > **Scope.** This skill covers Massachusetts Form 1 (Resident Income Tax Return) for sole proprietors and single-member LLCs. It addresses the flat 5% income tax, the 4% millionaire's surtax, and Massachusetts-specific income classifications. It does NOT cover nonresident/part-year returns (Form 1-NR/PY), corporate excise (Form 355), or trust/estate returns (Form 2).
 
 > **Quality tier.** Q3 — AI-drafted, not independently verified. All outputs must be reviewed by a qualified tax professional before filing.
 
-## Section 1: Metadata
+## Who this applies to
+
+Self-employed individuals, sole proprietors and single-member LLC owners with Massachusetts gross income over the filing threshold, plus residents with Part A/Part B/Part C income.
+
+### Section 1: Metadata
 
 **Metadata**
 
@@ -42,7 +46,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 4. M.G.L. c. 62, §§ 4, 5, 5A
 5. Article 44 of the Massachusetts Constitution (as amended by 2022 ballot question — "Fair Share Amendment")
 
-## Section 2: Quick reference — rates and thresholds
+## Rates, bands and thresholds
 
 ### Income tax rates
 
@@ -86,29 +90,7 @@ Massachusetts does **not** use a standard deduction in the federal sense. Instea
 
 - **Filing threshold** — $8,000 of Massachusetts gross income USD (Everyone whose Massachusetts gross income is $8,000 or more must file.)
 
-## Section 3: How this skill works with the federal return
-
-### Starting point
-
-- **Income classification system** — Massachusetts uses its own income classification system rather than starting directly from federal AGI. However, the computation references federal Form 1040 amounts extensively. Massachusetts income is divided into three parts: - **Part A:** Interest, dividends, and net capital gains on non-Massachusetts obligations - **Part B:** Wages, salaries, self-employment income, pensions, annuities, and most other income - **Part C:** Short-term capital gains and gains on collectibles
-
-### Key differences from federal
-
-**Key differences from federal table**
-
-| Item | Massachusetts treatment | Source |
-| --- | --- | --- |
-| No standard deduction | MA uses personal exemptions and specific deductions instead | M.G.L. c. 62, § 3 |
-| Social Security | Fully exempt | M.G.L. c. 62, § 2(a)(2)(E) |
-| Interest from MA obligations | Exempt | M.G.L. c. 62, § 2 |
-| Interest from other states | Taxable (add back any federal exclusions) | M.G.L. c. 62, § 2 |
-| Short-term capital gains | Taxed at 8.50% (not the standard 5%) | M.G.L. c. 62, § 4(c) |
-
-### Resulting computation
-
-- **Computation order** — Compute Part A, Part B, and Part C income separately → subtract applicable deductions and exemptions → apply the appropriate rate to each part → sum = Massachusetts gross tax → minus credits → plus 4% surtax if applicable.
-
-## Section 4: Self-employed specific rules
+## The taxable base
 
 ### Estimated tax payments
 
@@ -145,7 +127,29 @@ Use Form 1-ES for estimated payments.
 
 - **Health insurance mandate** — Massachusetts has an individual health insurance mandate (separate from the ACA). Failure to maintain minimum creditable coverage may result in a penalty assessed on Form 1 (Schedule HC). This is relevant for self-employed individuals who must obtain their own coverage.
 
-## Section 5: Tier 1 rules — deterministic
+## Cross-border points
+
+### Starting point
+
+- **Income classification system** — Massachusetts uses its own income classification system rather than starting directly from federal AGI. However, the computation references federal Form 1040 amounts extensively. Massachusetts income is divided into three parts: - **Part A:** Interest, dividends, and net capital gains on non-Massachusetts obligations - **Part B:** Wages, salaries, self-employment income, pensions, annuities, and most other income - **Part C:** Short-term capital gains and gains on collectibles
+
+### Key differences from federal
+
+**Key differences from federal table**
+
+| Item | Massachusetts treatment | Source |
+| --- | --- | --- |
+| No standard deduction | MA uses personal exemptions and specific deductions instead | M.G.L. c. 62, § 3 |
+| Social Security | Fully exempt | M.G.L. c. 62, § 2(a)(2)(E) |
+| Interest from MA obligations | Exempt | M.G.L. c. 62, § 2 |
+| Interest from other states | Taxable (add back any federal exclusions) | M.G.L. c. 62, § 2 |
+| Short-term capital gains | Taxed at 8.50% (not the standard 5%) | M.G.L. c. 62, § 4(c) |
+
+### Resulting computation
+
+- **Computation order** — Compute Part A, Part B, and Part C income separately → subtract applicable deductions and exemptions → apply the appropriate rate to each part → sum = Massachusetts gross tax → minus credits → plus 4% surtax if applicable.
+
+## Worked examples
 
 **Tier 1 rules table**
 
@@ -161,7 +165,7 @@ Use Form 1-ES for estimated payments.
 | R-8 | Massachusetts has NO local/county income taxes. Only the state tax applies. |
 | R-9 | Filing threshold: $8,000 of MA gross income. |
 
-## Section 6: Tier 2 rules — requires judgment
+### Section 6: Tier 2 rules — requires judgment
 
 **Tier 2 rules table**
 
@@ -173,7 +177,7 @@ Use Form 1-ES for estimated payments.
 | J-4 | Assess the health insurance mandate penalty when the taxpayer had gaps in coverage (Schedule HC). |
 | J-5 | Determine credit for taxes paid to other states for multi-state income. |
 
-## Section 7: Supplier pattern library
+### Section 7: Supplier pattern library
 
 **Supplier pattern library table**
 
@@ -187,7 +191,11 @@ Use Form 1-ES for estimated payments.
 | Social Security | Fully exempt. |
 | Pension / retirement | Part B income. Taxed at 5%. |
 
-## Section 8: Form mapping
+## Penalties and interest
+
+Late filing and late payment penalties of 0.5% per month (capped) plus interest under M.G.L. c. 62C; see the corporate-excise skill for the general c. 62C schedule.
+
+## Deadlines and filing
 
 **Form 1 line mapping table**
 
@@ -208,7 +216,7 @@ Use Form 1-ES for estimated payments.
 | Lines 34–39 | Payments, withholding, estimated payments | Various |
 | Line 43 | Balance due or refund | Computed |
 
-## Section 9: Refusal catalogue
+### Section 9: Refusal catalogue
 
 **Refusal catalogue table**
 
@@ -220,13 +228,27 @@ Use Form 1-ES for estimated payments.
 | REF-MA-04 | Taxpayer claims complex credits (e.g., Brownfields, Life Sciences, Film) | Flag for reviewer. |
 | REF-MA-05 | Taxpayer has Schedule HC penalty issues (gaps in health insurance coverage) | Flag for reviewer — penalty computation is complex. |
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Ask the client first
+
+Resident or part-year? Part A vs Part B vs Part C income mix? Above the surtax threshold? Estimated payments current?
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| US-MA-dr-surtax.txt | https://www.mass.gov/info-details/additional-sur-tax-on-annual-taxable-income-in-excess-of-one-million-dollars | 2025 threshold $1,083,150; 2024 $1,053,750 |
+| US-MA-dr-form1-2025-instr-full.txt | https://www.mass.gov/doc/2025-form-1-instructions/download | exemptions, $8,000 threshold, rental deduction, quarterly dates |
+| US-MA-dr-c62-s4.txt | https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4 | 8.5 per cent short-term capital gains rate |
+
+Not yet confirmed: the 2026 surtax threshold (indexed; not yet published in an archived source).
 
 ## Talk to a verified accountant
 
