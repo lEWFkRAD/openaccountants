@@ -4,8 +4,8 @@ description: >
   Use this skill whenever asked about Wisconsin cross-border personal tax for
   tax year 2026 -- Form 1NPR for nonresidents and part-year residents, the
   four reciprocal states (IL, IN, KY, MI -- wages exempt from WI tax for their
-  full-year residents), the critical fact that Minnesota and Wisconsin have
-  NO reciprocal agreement since 2009 (MN-WI commuters file both states),
+  full-year residents), the archived statute's Minnesota income-tax
+  reciprocity machinery (2023 Wis. Act 147),
   Wisconsin-source income rules (services where performed, property where
   located), the credit for tax paid to another state, and the residency
   domicile questionnaire when moving out. Wisconsin has no exit tax. Trigger
@@ -35,9 +35,9 @@ depends_on:
 
 ## Who this applies to
 
-How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part-year), the **four reciprocal states (IL, IN, KY, MI)**, the famous **Minnesota exception** (no agreement since 2009), the **credit for tax paid to another state**, and the residency/domicile mechanics. Entity cross-border (Form 4 nexus, P.L. 86-272, water's edge) sits in `wi-corporate-income-tax` and `wi-transfer-pricing`. Wisconsin has **no exit tax**.
+How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part-year), the **four reciprocal states (IL, IN, KY, MI)**, the **Minnesota question** (the archived statute contains MN reciprocity machinery under 2023 Wis. Act 147 -- verify operative status), the **credit for tax paid to another state**, and the residency/domicile mechanics. Entity cross-border (Form 4 nexus, P.L. 86-272, water's edge) sits in `wi-corporate-income-tax` and `wi-transfer-pricing`. Wisconsin has **no exit tax**.
 
-**Source status (as_of 2026-10-27):** [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) fetched as PDF and read -- WI-source income list, the IL/IN/KY/MI line-1 exceptions, part-year rules, and the credit-for-tax-paid section are quoted from it. MN non-reciprocity (terminated 2009) and the UI localization split carried from tier-2 `wi-payroll` (read 2026-07-13). 2026 1NPR instructions not published at read time -- figures are 2025 unless flagged.
+**Source status (as_of 2026-10-27):** [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) fetched as PDF and read -- WI-source income list, the IL/IN/KY/MI line-1 exceptions, part-year rules, and the credit-for-tax-paid section are quoted from it (the 1NPR PDF itself is not in the archive; bracket figures are cited to US-WI-dr-wis-stat-ch71.txt). MN reciprocity per the archived statute (US-WI-dr-wis-stat-ch71.txt, ss. 71.05(2), 71.10(7), (7e)) and the UI localization split carried from tier-2 `wi-payroll` (read 2026-07-13). 2026 1NPR instructions not published at read time -- figures are 2025 unless flagged.
 
 ### 2. Who applies
 
@@ -45,34 +45,34 @@ How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part
 - **Nonresidents:** Wisconsin taxes **only Wisconsin-source income** -- file 1NPR.
 - **Part-year residents:** all sources during the WI-residency period; WI sources only otherwise. Certain credits (homestead, EIT) are **not** available to part-year residents or nonresidents.
 - **Reciprocal-state residents (IL, IN, KY, MI):** full-year residents of those states working in WI are exempt from WI tax on **wages** (1NPR line-1 exceptions) -- but any other WI-source income (rents, business income) still triggers a 1NPR.
-- **Minnesota residents working in WI: NO reciprocity.** The MN-WI agreement was terminated in 2009 and never re-enacted -- file both states, claim credits both ways (`wi-payroll` §6.1).
+- **Minnesota residents working in WI: check the statute, not the old lore.** The archived statute contains Minnesota income-tax reciprocity machinery -- s. 71.10(7) "MINNESOTA INCOME TAX RECIPROCITY ... income tax reciprocity reached with the state of Minnesota under s. 71.05 (2)" referencing 2023 Wisconsin Act 147, section 4 (2), with conditions for agreements entered on or after March 23, 2024 (US-WI-dr-wis-stat-ch71.txt). The guide's older "terminated 2009, never re-enacted" claim is contradicted by the archive; whether an agreement is operative for 2025-26 wages is a live question -- verify against current DOR guidance before advising (`wi-payroll` §6.1).
 - **Movers out of Wisconsin:** complete the Legal Residence (Domicile) Questionnaire (1NPR instructions p. 60) -- domicile drives the part-year split.
 
 ## 3. Rates and base
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| WI rates | Graduated 3.5%–**7.65%** (2025 worksheet: $215,530+ flat 7.65%) | 1NPR instructions, read 2026-10-27 | (not yet confirmed)
+| WI rates | Graduated 3.5%–**7.65%** (2025 worksheet: $215,530+ flat 7.65%) | US-WI-dr-wis-stat-ch71.txt: s. 71.06(2)(L) "On all taxable income exceeding $215,530, 7.65 percent" |
 | Reciprocal states | **IL, IN, KY, MI** -- wages exempt for their full-year residents | 1NPR instructions, read 2026-10-27 |
-| Minnesota | **No agreement since 2009** -- both-state filing | `wi-payroll` (2026-07-13) |
+| Minnesota | Reciprocity machinery in statute (2023 Wis. Act 147) -- verify operative status | US-WI-dr-wis-stat-ch71.txt ss. 71.05(2), 71.10(7) |
 | WI-source income | Services where performed; rents/royalties/gains from WI real or tangible property; business/farm conducted in WI | 1NPR instructions, read 2026-10-27 |
 | Credit for tax paid to another state | WI residents taxed by another state claim the credit (1NPR p. 126 section) | 1NPR instructions, read 2026-10-27 |
 | Nonresident credits | Homestead credit and EIT unavailable to nonresidents/part-year | 1NPR instructions, read 2026-10-27 |
-| Retirement subtraction (2025) | Age 67+: up to $24,000 retirement income subtraction | 1NPR instructions, read 2026-10-27 | (not yet confirmed)
+| Retirement subtraction (2025) | Age 67+: up to $24,000 retirement income subtraction | US-WI-dr-wis-stat-ch71.txt: "at least 67 years of age ... not to exceed $24,000 for the taxable year" |
 | Exit tax | **None** | no WI statute imposes one |
 
 ### 4. Deadlines
 
 | Filing | Due |
 |---|---|
-| 1NPR | April 15 (calendar year); federal extension carries over | (not yet confirmed)
+| 1NPR | April 15 (calendar year); federal extension carries over (see Not yet confirmed in Sources) |
 | Domicile questionnaire | With the return when moving out |
-| Estimated tax (Form 1-ES) | Quarterly if 2026 liability ≥ $1,000 (threshold not yet confirmed) |
-| Legal residence change notice | DOR Form MV300 with DMV when moving -- not yet confirmed |
+| Estimated tax (Form 1-ES) | Quarterly above the liability threshold (see Not yet confirmed in Sources) |
+| Legal residence change notice | DOR Form MV300 with DMV when moving (see Not yet confirmed in Sources) |
 
 ### 5. Penalties and interest
 
-- 1NPR underpayment: WI interest on balance due (rate per return instructions -- not yet confirmed exact 2026 rate); failure-to-file penalties per ch. 71.
+- 1NPR underpayment: WI interest on balance due (rate see Not yet confirmed in Sources); failure-to-file penalties per ch. 71.
 - Reciprocity misuse: IL-resident claiming the wage exemption while actually a WI domiciliary is a top audit flag (`wi-payroll` §6.3 red flags: out-of-state address + WI driver's license; W-220 mismatch).
 - MN commuters who skip the WI return get DOR matching notices.
 
@@ -81,7 +81,7 @@ How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part
 - **Services are WI-source where performed** -- telework days from an IL home are IL-source; the work-location log decides the split.
 - **Reciprocity ≠ everything:** IL/IN/KY/MI residents with WI rentals, farm income, or a WI business file 1NPR for those items; the exemption is wages-only.
 - **UI follows localization, not reciprocity:** an IL-resident driver localized to a WI office has no WI PIT withholding but **does** generate WI UI tax (26 U.S.C. § 3306(j) via `wi-payroll` §6.2) -- the most common border-employer payroll error.
-- **MN residents:** full two-state compliance; WI credit for MN tax on the same wages and vice versa.
+- **MN residents:** two-state compliance unless a reciprocity agreement is operative (see the archived MN reciprocity machinery, US-WI-dr-wis-stat-ch71.txt s. 71.10(7)); WI credit for MN tax on the same wages and vice versa.
 - **Entities:** P.L. 86-272 and water's edge in `wi-corporate-income-tax` / `wi-transfer-pricing`.
 
 ### 7. Worked examples
@@ -121,7 +121,7 @@ expected:
   wi_due_after_credit: 500
 ```
 
-No treaty-like waiver exists with MN: the commuter files WI 1NPR, credits the MN tax on the same wages (capped at the WI figure), and owes the 500 differential to Wisconsin.
+On the no-waiver premise the commuter files WI 1NPR, credits the MN tax on the same wages (capped at the WI figure), and owes the 500 differential to Wisconsin. Caveat: the archived statute contains MN reciprocity machinery (US-WI-dr-wis-stat-ch71.txt s. 71.10(7), 2023 Wis. Act 147) -- confirm whether an agreement is operative before relying on the two-state premise.
 
 ### 8. Ask the client
 
@@ -134,10 +134,10 @@ No treaty-like waiver exists with MN: the commuter files WI 1NPR, credits the MN
 
 ### 9. Sources
 
-- [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) -- PDF read 2026-10-27 (source-income list, IL/IN/KY/MI exceptions, credit for tax paid to another state, part-year rules, 7.65% worksheet) (not yet confirmed)
-- `wi-payroll` (tier 2, read 2026-07-13) -- MN non-reciprocity (terminated 2009), UI localization split, audit red flags
+- [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) -- PDF read 2026-10-27 (source-income list, IL/IN/KY/MI exceptions, credit for tax paid to another state, part-year rules, 7.65% worksheet); PDF not in the archive -- bracket figures cited to US-WI-dr-wis-stat-ch71.txt
+- `wi-payroll` (tier 2, read 2026-07-13) -- MN reciprocity status per statute, UI localization split, audit red flags
 - `wi-income-tax` (tier 2) -- resident rates and brackets
-- **not yet confirmed:** 2026 1NPR instructions; exact 2026 bracket table; estimated-tax threshold; WI interest rate for 2026.
+- **Not yet confirmed:** 2026 1NPR instructions; estimated-tax threshold ($1,000 trigger for 2026); WI interest rate for 2026; the April 15 1NPR deadline and extension carry-over; DOR Form MV300 change-notice requirement.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Wisconsin nonresident, reciprocity and MN-commuter questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
@@ -172,7 +172,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: 2026 1NPR instructions; the $1,000 estimated-tax trigger for 2026; the exact 2026 WI interest rate; the April 15 1NPR deadline and federal-extension carry-over; DOR Form MV300. Bracket and retirement-subtraction figures are now cited to US-WI-dr-wis-stat-ch71.txt.
 
 
 | Source | URL | Read on |
