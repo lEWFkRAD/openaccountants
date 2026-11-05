@@ -10,7 +10,7 @@ description: >-
   employer rates 1.02% non-construction / 6.09% construction on the
   2025 $45,100 taxable wage base). Trigger on North Dakota UI tax, ND
   SUTA, new employer rate, Job Service ND, SFN 41263, UI EASY.
-  Source-cited draft; 2026 wage base and rates need confirmation (not yet confirmed).
+  Source-cited draft; 2026 wage base and rates need confirmation.
 jurisdiction: US-ND
 category: payroll
 tax_year: 2026
@@ -31,16 +31,16 @@ Every employer liable for North Dakota unemployment insurance: any person or ent
 ### 2. Core rules and rates
 
 - **No employee-side social contribution.** No state disability insurance (contrast NY), no paid-family-leave payroll tax (contrast NY, WA), no state retirement contribution. FICA/FUTA are federal and outside this skill. _(N.D.C.C. Ch. 52-8; corroborated by absence of any employee payroll levy in the ND Tax Commissioner materials, read 2026-10-25)_
-- **UI taxable wage base.** The base "is determined yearly and equals 70% of the calculated statewide average annual payroll" -- Job Service ND, "Determination of Taxable Wage Base," verified 2026-10-25. The **2025 base is $45,100** (corroborated by the existing `nd-payroll` skill, T1-ND-PAY-06); the **2026 base: not yet confirmed** (Job Service ND rate-notice page not located on 2026-10-25).
-- **New employer rates.** Non-construction new employers: **1.02%**; construction new employers: **6.09%** -- carried from the existing `nd-payroll` skill with [VERIFY] against the 2025 JSND rate schedules; **2026 schedules: not yet confirmed**. _(jobsnd.com "Learn About Taxes" confirms new-employer classification mechanics, verified 2026-10-25)_
+- **UI taxable wage base.** The base "is determined yearly and equals 70% of the calculated statewide average annual payroll" -- Job Service ND, "Determination of Taxable Wage Base," verified 2026-10-25 (US-ND-dr-jsnd-learn-about-taxes.txt). The **2025 base is $45,100** (US-ND-dr-jsnd-uitaxrates2025.pdf: "2025 Taxable Wage Base is $45,100"); the **2026 base is $46,600** (US-ND-dr-jsnd-uitaxrates2026.pdf: "2026 Taxable Wage Base is $46,600").
+- **New employer rates.** Per the JSND rate schedules: 2025 -- non-construction **1.03%** (positive balance) / **6.09%** (negative balance), construction **9.69%** (US-ND-dr-jsnd-uitaxrates2025.pdf); 2026 -- non-construction **1.00%** / **6.07%**, construction **9.67%** (US-ND-dr-jsnd-uitaxrates2026.pdf). _(jobsnd.com "Learn About Taxes" confirms new-employer classification mechanics, verified 2026-10-25)_
 - **Experience rating.** Rates are re-determined each calendar year based on the employer's history as of the preceding June 30; an employer remains a "new employer" until liable for the period ending the prior June 30 (typically 3 full fiscal years). _(jobsnd.com/unemployment-business-tax/learn-about-taxes, verified 2026-10-25)_
-- **Rate range for experience-rated employers:** the existing `nd-payroll` skill carries the schedule with [VERIFY]; the statutory min/max: **not yet confirmed**.
+- **Rate range for experience-rated employers:** 2025 schedules run **0.08% (positive-balance minimum) to 9.69% (negative-balance maximum)** (US-ND-dr-jsnd-uitaxrates2025.pdf rate tables). Statutory floor: "The positive employer minimum rate in the first rate schedule of the table of rate schedules is one-hundredth of one percent" (US-ND-dr-nd-t52c04.pdf, § 52-04-05(5)(b)).
 
 ### 3. Base and adjustments
 
 - Base: each employee's wages up to the calendar-year taxable wage base. Wages follow the Ch. 52-8 definition (remuneration for personal services; exclusions per statute).
 - Contributions are computed per employee: taxable wages × assigned rate. No employee withholding, no employee W-2 Box 14 state social line (contrast NY PFL/SDI).
-- Voluntary contribution account (VCA) and reimbursement options exist for eligible employers (employer's guide; details **not yet confirmed**).
+- Voluntary contribution account (VCA) and reimbursement options exist for eligible employers (US-ND-jsnd4036.pdf, "VOLUNTARY CONTRIBUTIONS": "Employers may make voluntary contributions to their Unemployment Insurance" accounts; reimbursement option per US-ND-dr-jsnd-learn-about-taxes.txt).
 
 ### 4. Deadlines
 
@@ -50,7 +50,7 @@ Every employer liable for North Dakota unemployment insurance: any person or ent
 
 ### 5. Penalties and interest
 
-- Late quarterly reports/contributions: penalty plus interest per Ch. 52-8; the exact 2026 published penalty/interest percentages: **not yet confirmed** (Ch. 52-8 text at ndlegis.nd.gov unreachable on 2026-10-25 -- DNS failure).
+- Late quarterly reports/contributions: "Contributions unpaid when due must bear interest at the rate of one and one-half percent per month or fraction thereof from due date"; failure to file a contribution and wage report carries "a penalty equal to five percent of the contributions due for each month or part of a month," first-month minimum $25 (subsequent reports $100), capped at 20% of contributions and $500 per report (US-ND-dr-nd-t52c04.pdf, § 52-04-11).
 - Fraudulent reporting and misclassification (employee vs independent contractor) carry separate Ch. 52-8 sanctions; construction project risk protection rules apply to contractors (jobsnd.com "Comply with Construction Project Risk Protection," verified 2026-10-25).
 
 ### 6. Cross-border and federal overlay
@@ -102,9 +102,9 @@ expected:
 
 - Job Service ND -- Learn About Taxes (taxable wage base formula, new-employer and experience-rating mechanics): <https://www.jobsnd.com/unemployment-business-tax/learn-about-taxes> -- 200 with text, 2026-10-25.
 - Job Service ND -- site root and unemployment-business-tax hub (file reports, employer's guide, construction risk protection): <https://www.jobsnd.com/> -- 200, 2026-10-25.
-- Existing `nd-payroll` skill (2025 wage base $45,100; SFN 41263 mechanics; new-employer rates with [VERIFY]) -- read 2026-10-25. (not yet confirmed)
-- N.D.C.C. Ch. 52-8 (Employment Security): **not yet confirmed** -- ndlegis.nd.gov DNS failure on 2026-10-25; statutory min/max rates and penalty percentages unverified.
-- 2026 ND UI taxable wage base and rate schedules: **not yet confirmed** (not published on the pages located 2026-10-25).
+- Existing `nd-payroll` skill (2025 wage base $45,100; SFN 41263 mechanics; new-employer rates) -- read 2026-10-25; the 2025 base and rates are now archived as US-ND-dr-jsnd-uitaxrates2025.pdf.
+- N.D.C.C. Ch. 52-04 (rate determination; penalties and interest): archived as US-ND-dr-nd-t52c04.pdf. Full Ch. 52-8 text: see the "Not yet confirmed:" paragraph below -- ndlegis.nd.gov DNS failure on 2026-10-25.
+- 2026 ND UI taxable wage base and rate schedules: archived as US-ND-dr-jsnd-uitaxrates2026.pdf ($46,600 base; new-employer and experience-rate tables).
 
 <!-- openaccountants-cta-block -->
 
@@ -119,47 +119,49 @@ This guide is maintained by the OpenAccountants network -- accountants who put t
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Sources
 
 Not yet confirmed: figures in this skill lack archived line-citations.
+- Full N.D.C.C. Ch. 52-8 employer-financing text beyond Ch. 52-04 (archived as US-ND-dr-nd-t52c04.pdf) remains unarchived.
+- Historical 2023 UI rate range 0.08%--9.97% appears in US-ND-dr-nd-ui-databook.pdf but predates the archived 2024--2026 schedules.
 
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see "Not yet confirmed:" paragraph) | -- | 2026-10-28 |
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
