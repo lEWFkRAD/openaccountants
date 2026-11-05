@@ -550,7 +550,28 @@ Total Michigan exposure: easily $20,000+ over three years for ONE misclassified 
 - **R-MI-7** — Multi-state apportionment for a Michigan-resident remote worker performing services in another state. Defer to us-multistate-payroll.  _(R-MI-7)_
 - **R-MI-8** — Pension administrator obligations under Form MI-W4P. Pension administration is a regulated activity.  _(R-MI-8)_
 
-## 14. Sources and citations
+## Sources
+
+### Statutes
+
+- **Income Tax Act of 1967** — PIT rate, exemptions  _(MCL 206.51 et seq.)_
+- **Withholding provisions** — Withholding provisions  _(MCL 206.351)_
+- **Uniform City Income Tax Ordinance** — Uniform City Income Tax Ordinance  _(MCL 141.501 et seq.)_
+- **Michigan Employment Security Act** — UIA  _(MCL 421.1 et seq.)_
+- **SUTA Dumping Prevention** — SUTA Dumping Prevention  _(MCL 421.22b)_
+- **Earned Sick Time Act** — as amended by Public Act 7 of 2025  _(MCL 408.961a et seq.)_
+
+| Source | URL | Read on |
+|---|---|---|
+| UIA Taxable Wage Base FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/taxable-wage-base | 2026-11-05 |
+| UIA Tax Rates and Liability FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/tax-rates-and-liability | 2026-11-05 |
+| UIA Filing Requirements FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/filing-requirements | 2026-11-05 |
+| Michigan Tax Text 2025 (withholding + UIA sections) | https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/Taxes/Business/MI-Tax-Text-2025.pdf | 2026-10-25 |
+| Michigan Legal MCT (MCL citations) | https://www.michigan.gov/legislature | 2026-10-25 |
+
+Not yet confirmed: the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text), and the PFML employer-paid benefit levels for 2026 (the archived UIA FAQ covers only the 0.2% employee premium).
+
+### Statutes
 
 ### Statutes
 

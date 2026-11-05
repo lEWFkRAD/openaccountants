@@ -70,6 +70,9 @@ The 2014/2015 transition replaced the legacy Form D-1040(R) / D-1040(NR) / D-104
 | 11 | Michigan Treasury — Remote work / telecommuting guidance for city income tax | https://www.michigan.gov/taxes/questions/iit/accordion/covid19-tele/how-will-telecommuting-affect-an-employees-nonresident-city-income-tax-return |
 | 12 | Michigan Treasury — Detroit Individual Income Tax filing landing page | https://www.michigan.gov/taxes/citytax/detroit/individual |
 
+## Who this applies to
+People who live in Detroit, or who earn Detroit-source income, and must file the Detroit city income tax (Forms 5118/5119/5120).
+
 ## Rates, bands and thresholds
 
 ### Tax rates (TY 2025)
@@ -313,6 +316,15 @@ Detroit residency is determined **independently** from Michigan state residency.
 | DET-T2-09 | **Multi-Michigan-city situation** — resident of Detroit working in Grand Rapids: claim credit on Form 5118. Non-resident of Detroit working partly in Detroit and partly in Lansing: file Form 5119 for Detroit days, file Lansing's CF-1040 separately for Lansing days. | Separate non-resident returns for each city. |
 | DET-T2-10 | **Estimated tax safe harbors** — Detroit has no statutory safe-harbor structure as detailed as the federal §6654; Treasury historically waives penalty if total payments ≥ prior year's liability and ≥ 70% of current year. | `[VERIFY:]` current safe-harbor mechanics from Form 5338 instructions. |
 
+## Deadlines and filing
+Form 5118 is due April 15 with a six-month extension to October 15 on Form 5118-T; estimated tax applies when liability exceeds $100 (see Section 2 quick reference).
+
+## Penalties and interest
+Late filing and late payment penalties and interest follow the Detroit income tax ordinance schedule in Section 2 (5%/month to 25%, plus interest).
+
+## Cross-border points
+Part-year residency, non-resident apportionment, and credit for tax paid to another Michigan city are covered in Sections 3, 6 and 8.
+
 ## Worked examples
 
 ### Worked example 1 — Detroit resident sole prop with all-Detroit clients
@@ -454,18 +466,6 @@ This skill and its outputs are provided for informational and computational purp
 <!-- openaccountants-cta-block -->
 
 ---
-
-## Who this applies to
-People who live in Detroit, or who earn Detroit-source income, and must file the Detroit city income tax (Forms 5118/5119/5120).
-
-## Deadlines and filing
-Form 5118 is due April 15 with a six-month extension to October 15 on Form 5118-T; estimated tax applies when liability exceeds $100 (see Section 2 quick reference).
-
-## Penalties and interest
-Late filing and late payment penalties and interest follow the Detroit income tax ordinance schedule in Section 2 (5%/month to 25%, plus interest).
-
-## Cross-border points
-Part-year residency, non-resident apportionment, and credit for tax paid to another Michigan city are covered in Sections 3, 6 and 8.
 
 ## Ask the client first
 Where is the client domiciled? Where do they physically work? Did they pay income tax to another Michigan city?

@@ -55,6 +55,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 9 | AARP Foundation Property Tax-Aide — Michigan | https://my.aarpfoundation.org/property-taxes/taxpayer-states/michigan/ |
 | 10 | Michigan Taxpayer's Guide (2025 tax year) — Senate Fiscal Agency | https://www.legislature.mi.gov/publications/TaxpayerGuide.pdf |
 
+## Who this applies to
+Michigan homeowners and renters with limited household resources who claim the homestead property tax credit on Form MI-1040CR.
+
 ## Rates, bands and thresholds
 
 **Quick reference — TY 2025 thresholds**
@@ -403,9 +406,6 @@ This skill and its outputs are provided for informational and computational purp
 <!-- openaccountants-cta-block -->
 
 ---
-
-## Who this applies to
-Michigan homeowners and renters with limited household resources who claim the homestead property tax credit on Form MI-1040CR.
 
 ## The taxable base
 Total Household Resources (THR) is the Michigan-only income measure defined in Section 3; it drives both the eligibility gates and the credit computation.
