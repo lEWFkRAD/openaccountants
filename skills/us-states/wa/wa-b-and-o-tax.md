@@ -77,7 +77,7 @@ DOR assigns filing frequency from estimated annual tax liability, not gross inco
 | Retailing | 0.471% | 0.5% | RCW 82.04.250 |
 | Wholesaling | 0.484% | 0.5% | RCW 82.04.270 |
 | Manufacturing | 0.484% | 0.5% | RCW 82.04.240 |
-| Service and Other Activities | 1.50% (US-WA-dr-tax-reference-manual-2026.txt) | see Not yet confirmed | RCW 82.04.290(2) |
+| Service and Other Activities | 1.50% (US-WA-dr-tax-reference-manual-2026.txt) | see the Not yet confirmed line | RCW 82.04.290(2) |
 | Real estate brokers | 1.50% | 1.5% (US-WA-dr-rcw-82-04-255.txt) | RCW 82.04.255 |
 | Royalty income | 1.50% | 1.5% (US-WA-default.aspx-10.html) | RCW 82.04.2907 |
 | International services (qualifying) | 0.275% | 0.275% (US-WA-dr-rcw-82-04-260.txt) | RCW 82.04.261 |
