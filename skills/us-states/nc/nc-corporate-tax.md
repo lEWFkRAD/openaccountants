@@ -32,7 +32,7 @@ This skill covers North Carolina state-level entity-level taxes:
 - NC personal income tax (PIT) -- covered by `nc-income-tax.md`. The 2025 flat PIT rate is 4.25% (continuing its own phase-down under SB 105).
 - NC sales and use tax -- covered by `nc-sales-tax.md`.
 - Federal corporate income tax (Form 1120) -- covered by federal skills.
-- Insurance companies (subject to a separate gross-premiums regime; Article 8B citation not archived -- not yet confirmed).
+- Insurance companies (subject to a separate gross-premiums tax levied under Article 8B of Chapter 105 -- US-NC-ncleg-ch105-index.html).
 - Banks and savings institutions filing combined returns under Subchapter VIII -- special rules not covered here.
 - Captive REITs / captive RICs -- special add-back rules outside the standard playbook.
 - Counties and municipalities -- NC has no local corporate income tax.
@@ -45,16 +45,16 @@ This skill covers North Carolina state-level entity-level taxes:
 
 | Income Year Beginning On or After | Rate | Statutory Basis |
 | --- | --- | --- |
-| Jan 1, 2017 | 3.00% | Pre-SB 105 baseline (not archived; not yet confirmed) (not archived; not yet confirmed) |
-| Jan 1, 2019 | 2.50% | Prior phase-down (S.L. 2017-57) (not archived; not yet confirmed) (not archived; not yet confirmed) |
-| Jan 1, 2022 | 2.50% | § 105-130.3 archived table shows no 2022 row; historical rate not yet confirmed |
-| Jan 1, 2023 | 2.50% | § 105-130.3 archived table shows no 2023 row; historical rate not yet confirmed |
-| Jan 1, 2024 | 2.50% | § 105-130.3 archived table shows no 2024 row; historical rate not yet confirmed |
+| Jan 1, 2017 | 3.00% | Pre-SB 105 baseline (see the Not yet confirmed: paragraph in Sources) |
+| Jan 1, 2019 | 2.50% | Prior phase-down (S.L. 2017-57) (see the Not yet confirmed: paragraph in Sources) |
+| Jan 1, 2022 | 2.50% | S.L. 2021-180 rewrite of § 105-130.3 imposes 2.5% with the phase-down table beginning in 2025 (US-NC-dr-sl2021-180.txt) |
+| Jan 1, 2023 | 2.50% | S.L. 2021-180 rewrite of § 105-130.3 imposes 2.5% with the phase-down table beginning in 2025 (US-NC-dr-sl2021-180.txt) |
+| Jan 1, 2024 | 2.50% | S.L. 2021-180 rewrite of § 105-130.3 imposes 2.5% with the phase-down table beginning in 2025 (US-NC-dr-sl2021-180.txt) |
 | **Jan 1, 2025** | **2.25%** | § 105-130.3 archived table: "In 2025 2.25%" |
 | Jan 1, 2026 | 2.00% | § 105-130.3 archived table: "In 2026 2%" |
-| Jan 1, 2027 | 2.00% | § 105-130.3 archived table lists no 2027 row; not yet confirmed |
+| Jan 1, 2027 | 2.00% | § 105-130.3 archived table lists no 2027 row (see the Not yet confirmed: paragraph in Sources) |
 | Jan 1, 2028 | 1.00% | § 105-130.3 archived table: "In 2028 1%" |
-| Jan 1, 2029 | 0.50% | § 105-130.3 archived table lists no 2029 row; not yet confirmed |
+| Jan 1, 2029 | 0.50% | § 105-130.3 archived table lists no 2029 row (see the Not yet confirmed: paragraph in Sources) |
 | **Jan 1, 2030 and later** | **0.00%** | § 105-130.3 archived table: "After 2029 0%" |
 
 ## The taxable base
@@ -106,7 +106,7 @@ The franchise tax (§ 105-122, archived) is the principal NC entity-level tax th
 
 ### 3.4 Holding-company cap (not in current statute text)
 
-- **Holding-company cap absent from current § 105-122** -- The archived § 105-122 text (read 2026-10-29) contains no holding-company definition and no $150,000 cap; the subsection that carried them, (d1), was repealed by S.L. 2015-241, effective for taxable years beginning on or after January 1, 2017. Do not model a $150,000 holding-company franchise cap on 2025+ returns without confirming its current status (see 11.5 and Not yet confirmed).  _(N.C. Gen. Stat. § 105-122, archived 2026-10-29; S.L. 2015-241)_
+- **Holding-company cap absent from current § 105-122** -- The archived § 105-122 text (read 2026-10-29) contains no holding-company definition and no $150,000 cap; the subsection that carried them, (d1), was repealed by S.L. 2015-241, effective for taxable years beginning on or after January 1, 2017. Do not model a $150,000 holding-company franchise cap on 2025+ returns without confirming its current status (see 11.5 and the Not yet confirmed: paragraph in Sources).  _(N.C. Gen. Stat. § 105-122, archived 2026-10-29; S.L. 2015-241)_
 
 ### 3.5 Who pays franchise tax
 
@@ -271,7 +271,7 @@ NC has two distinct NOL regimes:
 | 3rd | September 15 | 75% |
 | 4th | December 15 | 100% |
 
-- **Underpayment safe harbor and franchise tax exclusion** -- Installment dates and equal (25%) installments per § 105-163.40(a)(1). Underpayment interest is computed under § 105-163.41, which sets the underpayment as the difference between the installment due if estimated tax equalled "ninety percent (90%) of the tax imposed under Article 4 for the taxable year" and the installment timely paid. A prior-year 100% safe harbor is not in the archived § 105-163.41 text -- not yet confirmed. Franchise tax is not subject to estimated payments -- it is paid in full with the annual return.  _(§ 105-163.41)_
+- **Underpayment safe harbor and franchise tax exclusion** -- Installment dates and equal (25%) installments per § 105-163.40(a)(1). Underpayment interest is computed under § 105-163.41, which sets the underpayment as the difference between the installment due if estimated tax equalled "ninety percent (90%) of the tax imposed under Article 4 for the taxable year" and the installment timely paid. The archived § 105-163.41 text sets the prior-year safe harbor at ninety percent (90%) of the tax for the preceding taxable year -- not a 100% prior-year safe harbor (US-NC-GS_105-163.41.html). Franchise tax is not subject to estimated payments -- it is paid in full with the annual return.  _(§ 105-163.41)_
 
 ### 8.4 Penalties and interest
 
@@ -416,7 +416,7 @@ Even setting aside NOL-timing planning, Pinecone's marginal NC tax rate is mecha
 | N.C.G.S. § 105-131.1A (taxed S corporation election): | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-131.1A.html | 2026-10-31 |
 | NCDOR home (forms/instructions hub): | https://www.ncdor.gov | 2026-10-29 |
 
-Not yet confirmed: PTE regime enactment history (S.L. 2021-180; IRS Notice 2020-75 entity-level deductibility) -- session law and IRS notice not archived; corporate penalty percentages (late filing 5%/month max 25%, late payment 10%, negligence 10%, fraud 50%) and NCDOR Directive TA-25-1 not archived; Form CD-419 automatic 6-month extension mechanics (form not archived); whether any holding-company franchise cap applies for 2025+ (archived § 105-122 contains none; former (d1) repealed by S.L. 2015-241); fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table
+Not yet confirmed: PTE regime enactment history (S.L. 2021-180; IRS Notice 2020-75 entity-level deductibility) -- session law and IRS notice not archived; corporate penalty percentages (late filing 5%/month max 25%, late payment 10%, negligence 10%, fraud 50%) and NCDOR Directive TA-25-1 not archived; Form CD-419 automatic 6-month extension mechanics (form not archived); whether any holding-company franchise cap applies for 2025+ (archived § 105-122 contains none; former (d1) repealed by S.L. 2015-241); fiscal-year proration table for SB 105 phase-out years; post-2025 franchise-base simplification took effect as scheduled; Schedule NOL mechanics in 2025 form revisions; pre-2025 historical CIT rate rows (2017/2019/2022-2024) not in the archived § 105-130.3 table; 2027 (2.00%) and 2029 (0.50%) rate rows not in the archived § 105-130.3 table (archived table rows: 2025 2.25%, 2026 2%, 2028 1%, after 2029 0%)
 
 *End of nc-corporate-tax.md (v0.1, 2025-11-15).*
 
