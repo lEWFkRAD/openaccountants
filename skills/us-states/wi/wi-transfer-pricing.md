@@ -138,31 +138,31 @@ Once the affiliate is outside the water's edge, the royalty leaves the group -- 
 
 ## Rates, bands and thresholds
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Sources
 
@@ -174,8 +174,8 @@ Archived sources now backing body figures: US-WI-dr-ic100-2025-form4-inst.txt (t
 | --- | --- | --- |
 | 2025 Form 4 instructions (IC-100) | archived as US-WI-dr-ic100-2025-form4-inst.txt | 2026-10-27 |
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Talk to a verified accountant
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.

@@ -134,35 +134,35 @@ expected:
 
 ## Rates, bands and thresholds
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Sources
 
-Listed under Not yet confirmed in Sources: the ch. 108 figures in this skill lack archived section text -- the archived US-WI-108.html is the chapter table of contents only (it confirms §§ 108.02, 108.05, 108.18, 108.22 exist). Unconfirmed figures: $14,000 wage base; 2025 Schedule D grid; new-employer rates 3.05% non-construction / 2.90% construction; solvency tax 0.00%; coverage triggers ($1,500 quarter, 20 weeks, $20,000 agricultural, $1,000 domestic); UCT-101 Apr 30 / Jul 31 / Oct 31 / Jan 31 calendar; DWD 110.04 e-file mandate; $50 late-filing minimum; 0.75%/month compounded interest; § 108.221 $25,000 misclassification penalty; nine-factor UI and WC test texts; WC reporting-day figures; FUTA credit status.
+Not yet confirmed: the ch. 108 figures in this skill lack archived section text -- the archived US-WI-108.html is the chapter table of contents only (it confirms §§ 108.02, 108.05, 108.18, 108.22 exist). Unconfirmed figures: $14,000 wage base; 2025 Schedule D grid; new-employer rates 3.05% non-construction / 2.90% construction; solvency tax 0.00%; coverage triggers ($1,500 quarter, 20 weeks, $20,000 agricultural, $1,000 domestic); UCT-101 Apr 30 / Jul 31 / Oct 31 / Jan 31 calendar; DWD 110.04 e-file mandate; $50 late-filing minimum; 0.75%/month compounded interest; § 108.221 $25,000 misclassification penalty; nine-factor UI and WC test texts; WC reporting-day figures; FUTA credit status.
 
 Archived sources now backing body figures: US-WI-dr-wis-stat-ch71.txt (s. 71.64(6) $25,000 construction misclassification fine; s. 71.65(1)(a) cross-reference to s. 108.18(2)(c) "employer" definition) and US-WI-108.html (ch. 108 section list).
 
@@ -171,8 +171,8 @@ Archived sources now backing body figures: US-WI-dr-wis-stat-ch71.txt (s. 71.64(
 | Wis. Stat. ch. 108 (TOC) | archived as US-WI-108.html | 2026-11-01 |
 | Wis. Stat. ch. 71 (full text) | archived as US-WI-dr-wis-stat-ch71.txt | 2026-11-01 |
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Talk to a verified accountant
 
-Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
+Not yet confirmed: figures in this section lack archived line-citations.
