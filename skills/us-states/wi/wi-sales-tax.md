@@ -277,9 +277,9 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 ### 7.1 Manufacturing Exemption [T2]
 
 - **Manufacturing exemption standard** -- Machinery and equipment used exclusively and directly in manufacturing are exempt. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
-- **Manufacturing definition** -- "Manufacturing" includes processing, fabricating, and assembling. [T1]  _(Wis. Stat. Section 77.54(6)(am))_
-- **Exclusively and directly standard** -- The "exclusively and directly" standard is stricter than some states' "predominantly" test. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
-- **Dual-use equipment** -- Dual-use equipment (manufacturing + non-manufacturing) may not qualify. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
+(definition listed under Not yet confirmed in Sources) - **Manufacturing definition** -- "Manufacturing" includes processing, fabricating, and assembling. [T1]  _(Wis. Stat. Section 77.54(6)(am))_
+(standard listed under Not yet confirmed in Sources) - **Exclusively and directly standard** -- The "exclusively and directly" standard is stricter than some states' "predominantly" test. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
+(dual-use treatment listed under Not yet confirmed in Sources) - **Dual-use equipment** -- Dual-use equipment (manufacturing + non-manufacturing) may not qualify. [T2]  _(Wis. Stat. Section 77.54(6)(am))_
 
 ### 7.2 Landscaping and Lawn Care [T1]
 
@@ -295,8 +295,8 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### 7.4 Trade-In Credits [T1]
 
-- **Trade-in credit reduces base** -- Trade-in of like-kind property reduces the taxable base. [T1]  _(Wis. Stat. Section 77.51(15b)(a))_
-- **Trade-in applicability** -- Applies to motor vehicles, boats, aircraft, and other TPP. [T1]  _(Wis. Stat. Section 77.51(15b)(a))_
+(trade-in credit listed under Not yet confirmed in Sources) - **Trade-in credit reduces base** -- Trade-in of like-kind property reduces the taxable base. [T1]  _(Wis. Stat. Section 77.51(15b)(a))_
+(applicability listed under Not yet confirmed in Sources) - **Trade-in applicability** -- Applies to motor vehicles, boats, aircraft, and other TPP. [T1]  _(Wis. Stat. Section 77.51(15b)(a))_
 
 ### 7.5 Coin-Operated Amusement and Vending [T1]
 
@@ -305,7 +305,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### 7.6 Motor Vehicles and Boats [T1]
 
-- **Motor vehicle tax and rate** -- Motor vehicles: taxable at 5% + county 0.5%. Tax paid at DMV registration. [T1]
+(rate combination listed under Not yet confirmed in Sources) - **Motor vehicle tax and rate** -- Motor vehicles: taxable at 5% + county 0.5%. Tax paid at DMV registration. [T1]
 - **Boats and watercraft tax** -- Boats and personal watercraft: same rate, paid at registration with DNR. [T1]
 - **Trade-in credits for vehicles** -- Trade-in credits reduce the taxable base. [T1]
 - **Casual sales between individuals** -- Casual sales between individuals: use tax applies. [T1]
@@ -318,31 +318,31 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### Test Suite
 
-### Test 1: Basic Rate Calculation [T1]
+### Worked example Test 1: Basic Rate Calculation [T1]
 
 **Question:** A retailer in Dane County (0.5% county tax) sells a $500 computer. What is the total sales tax?
 
 **Expected Answer:** $500 x (5% + 0.5%) = $500 x 5.5% = $27.50.
 
-### Test 2: Grocery Food Exemption [T1]
+### Worked example Test 2: Grocery Food Exemption [T1]
 
 **Question:** A grocery store sells $200 in produce and dairy, $10 in candy, and $8 in soft drinks. What tax is due?
 
 **Expected Answer:** Produce/dairy: exempt ($0). Candy: $10 x 5.5% = $0.55. Soft drinks: $8 x 5.5% = $0.44. Total: $0.99.
 
-### Test 3: SaaS Taxability [T2]
+### Worked example Test 3: SaaS Taxability [T2]
 
 **Question:** A Wisconsin business subscribes to a $1,500/month SaaS HR platform. Is Wisconsin sales tax due? (the SaaS determination is not in the archived sources -- see 'Not yet confirmed:' in Sources)
 
 **Expected Answer:** No. SaaS is not taxable in Wisconsin as it is not tangible personal property.
 
-### Test 4: Clothing [T1]
+### Worked example Test 4: Clothing [T1]
 
 **Question:** A customer buys a $300 jacket in Milwaukee. Is it taxable?
 
 **Expected Answer:** Yes. Wisconsin does NOT exempt clothing. Tax = $300 x 5.5% = $16.50.
 
-### Test 5: Economic Nexus [T1]
+### Worked example Test 5: Economic Nexus [T1]
 
 **Question:** An out-of-state seller made $80,000 in sales and 500 transactions in Wisconsin. Does the seller have nexus? (US-WI-pb240.txt: remote sellers must register "if it has gross sales into Wisconsin that exceed $100,000 or 200 or more transactions into Wisconsin in the previous or current year" -- the archived Pub 240 predates the 2021 removal of the transaction test; see 'Not yet confirmed:' in Sources)
 
