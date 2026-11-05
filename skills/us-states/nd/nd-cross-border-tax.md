@@ -27,7 +27,7 @@ version: 0.2
 ## 1. Who this applies to
 
 - Individuals who work in ND but live elsewhere (ND-source wages), live in ND but work elsewhere, or move in/out of ND mid-year (part-year Form ND-1).
-- Residents of **Minnesota and Michigan** working in ND under reciprocity agreements (exempt from ND wage withholding on employment income).
+- Residents of **Minnesota and Montana** working in ND under reciprocity agreements (exempt from ND wage withholding on employment income).
 - Military personnel stationed in ND, and their spouses under federal Military Spouses Residency Relief Act (MSRRA) rules.
 - Businesses with ND nexus but out-of-state owners, and part-year residents of border states (MN, MT, SD, Manitoba).
 
@@ -35,14 +35,14 @@ version: 0.2
 
 - **ND individual brackets (verified from the Tax Commissioner's individual income tax page, 2026-10-25):** single -- 0.00% to $48,475; 1.95% over $48,475 to $244,825; 2.50% over $244,825. MFJ/qualifying widow(er) -- 0% to $80,975; 1.95% to $298,075; 2.50% above. MFS -- 0% to $40,475; 1.95% to $149,025; 2.50% above. HOH -- 0% to $64,950; 1.95% to $271,450; 2.50% above. _(tax.nd.gov/individual-income-tax, 200 with text, 2026-10-25; the page presents these as the current schedule -- confirm the tax year against the Form ND-1 booklet before filing.)_
 - **The 0% first bracket is the headline cross-border fact:** a nonresident whose ND-source wages fall entirely under the first bracket owes **zero ND income tax** even though a return may still be required. _(same source)_
-- **Reciprocity.** ND maintains income-tax reciprocity with **Minnesota** and **Michigan** (employment income taxable only in the state of residence; no ND withholding with a valid exemption certificate). _(carried from the existing `nd-payroll` skill; the governing ND statute cites: **not yet confirmed** -- ndlegis.nd.gov DNS failure 2026-10-25.)_
+- **Reciprocity.** ND maintains income-tax reciprocity with **Minnesota** and **Montana** (employment income taxable only in the state of residence; no ND withholding with a valid exemption certificate). _(US-ND-dr-ndwr.pdf: "North Dakota has income tax reciprocity agreements with Minnesota and Montana. If you are a resident of one of these states, the agreements provide that you do not have to pay North Dakota income tax on wages you earn for work in North Dakota.")_
 - **Military.** Nonresident military personnel stationed in ND are not ND residents; military pay is sourced to the domicile state. Mobilized-employee relief exists as a **tax credit** against ND tax (Tax Commissioner page "Wages Paid to Mobilized Military Employee Tax Credit," verified 2026-10-25). MSRRA is federal and governs spousal sourcing.
 - **Credit for income tax paid to another state or local jurisdiction** -- ND grants a credit (Form ND-CITP or per the Tax Commissioner page of the same name, verified live 2026-10-25) for tax lawfully paid to another state on the same income; the credit cannot exceed the ND tax attributable to that income.
 - **ND has no state-level exit tax or entry tax.** _(no such levy appears in the Tax Commissioner's tax-type index, read 2026-10-25.)_
 
 ### 3. Base and adjustments
 
-- Nonresidents: ND taxable income = ND-source income (wages for services performed in ND, ND business income, ND rental/real-property gains) allocated per the ND-1 instructions, then the bracket schedule applies to the **full** taxable income with a proration of the tax by the ND-source ratio (the ND-1 mechanics: confirm exact computation in the booklet -- **not yet confirmed**).
+- Nonresidents: ND taxable income = ND-source income (wages for services performed in ND, ND business income, ND rental/real-property gains) allocated per the ND-1 instructions, then the bracket schedule applies to the **full** taxable income with a proration of the tax by the ND-source ratio (the exact ND-1 proration computation: see "Not yet confirmed:" in Sources).
 - Reciprocity states: employment income is excluded from ND taxation; **non-employment** ND-source income (contract work, rentals, business) remains ND-taxable.
 - Part-year: two short-period returns or one annual return with the residency split per the ND-1 instructions.
 - The credit for tax paid to another state is claimed after the ND tax computation and is limited to the lesser of tax paid or ND tax on the same income.
@@ -51,17 +51,17 @@ version: 0.2
 
 - Form ND-1 (full-year, part-year, and nonresident): due **April 15** (same as federal); extension to October 15 by timely federal extension filing. _(existing `nd-income-tax` / `nd-return-assembly` skills; ND TAP payment mechanics verified on tax.nd.gov 2026-10-25.)_
 - Withholding exemption certificate for reciprocity states: file with the employer before the first pay period of the year to stop ND withholding.
-- Estimated tax (Form ND-1ES) quarterly if the expected balance due exceeds the threshold; interest applies to underpayment (tax.nd.gov estimated-tax section, verified 2026-10-25; exact threshold and rate: **not yet confirmed**).
+- Estimated tax (Form ND-1ES) quarterly if the expected balance due exceeds the threshold; interest applies to underpayment (US-ND-dr-nd1es2025.pdf: estimated tax not required where the balance due is under $1,000 -- "you do not have to pay estimated tax"; interest at 12% per year, US-ND-dr-nd1ut2025.pdf: "Interest of 12% per year is charged on" underpayments).
 
 ### 5. Penalties and interest
 
-- Underpaid estimates: interest on the shortfall from the installment due date (tax.nd.gov: "you will be charged interest on any underpayment," verified 2026-10-25; the 2026 published rate: **not yet confirmed**).
-- Failure to file / failure to pay: Chapter 57-38 penalties; exact 2026 percentages **not yet confirmed** (ndlegis DNS failure 2026-10-25).
-- Reciprocity error pattern: a Michigan or Minnesota resident who fails to file the exemption certificate has ND withheld and must file an ND return to get it back -- a refund claim, not a penalty, but a common client complaint.
+- Underpaid estimates: interest on the shortfall from the installment due date (US-ND-dr-nd1ut2025.pdf: "Interest of 12% per year is charged on" underpayments; US-ND-dr-nd1es2025.pdf: interest "of 12% per year from the installment" due date).
+- Failure to file / failure to pay: Chapter 57-38 penalties; exact 2026 percentages: see "Not yet confirmed:" in Sources.
+- Reciprocity error pattern: a Montana or Minnesota resident who fails to file the exemption certificate has ND withheld and must file an ND return to get it back -- a refund claim, not a penalty, but a common client complaint.
 
 ### 6. Cross-border and federal overlay
 
-- SALT cap: ND tax paid (including by nonresidents) counts toward the federal $10,000 state-and-local deduction cap for itemizers. (not yet confirmed)
+- SALT cap: ND tax paid (including by nonresidents) counts toward the federal $10,000 state-and-local deduction cap for itemizers (US-ND-dr-plaw119-21.txt, SEC. 70120 amending IRC § 164(b)(6), which carries the "$10,000 ($5,000 in the case of a married individual filing a separate return)" limitation).
 - ND–Manitoba (Canada) border traffic: foreign-tax credit analysis is federal (see federal skills); ND's credit for tax paid to **another state** does not cover foreign tax.
 - Treaty and MSRRA interactions are federal; ND follows the federal sourcing result.
 - Employers: multi-state withholding follows the reciprocity certificate, not the employee's address.
@@ -100,7 +100,7 @@ expected:
 ### 8. Ask the client first
 
 1. Where is domicile, and did any move cross a state line mid-year?
-2. Is the client a Minnesota or Michigan resident working in ND? (Reciprocity certificate on file?)
+2. Is the client a Montana or Minnesota resident working in ND? (Reciprocity certificate on file?)
 3. Military: is the service member stationed in ND, and what is the claimed domicile? Does MSRRA cover the spouse's income?
 4. What other states taxed the same income, and is the ND credit-for-tax-paid claim being made (or the other state's credit)?
 5. Any ND real property, rentals, or business situs that keeps ND in scope even with no ND wages?
@@ -111,7 +111,7 @@ expected:
 - ND Tax Commissioner -- Credit for Income Tax Paid to Another State or Local Jurisdiction: <https://www.tax.nd.gov/credit-income-tax-paid-another-state-or-local-jurisdiction> -- 200, 2026-10-25.
 - ND Tax Commissioner -- Wages Paid to Mobilized Military Employee Tax Credit: <https://www.tax.nd.gov/wages-paid-mobilized-military-employee-tax-credit> -- 200, 2026-10-25 (linked from the site root, verified 2026-10-25).
 - Existing `nd-income-tax`, `nd-payroll`, `nd-return-assembly` skills (reciprocity, filing mechanics) -- read 2026-10-25.
-- Reciprocity statute cites, ND-1 nonresident proration mechanics, 2026 penalty/interest percentages: **not yet confirmed** -- ndlegis.nd.gov DNS failure (getaddrinfo) on 2026-10-25; Justia mirror 403.
+- Reciprocity statute cites, ND-1 nonresident proration mechanics, 2026 penalty/interest percentages: see the "Not yet confirmed:" paragraph below -- ndlegis.nd.gov DNS failure (getaddrinfo) on 2026-10-25; Justia mirror 403.
 
 <!-- openaccountants-cta-block -->
 
@@ -126,47 +126,49 @@ This guide is maintained by the OpenAccountants network -- accountants who put t
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Sources
 
 Not yet confirmed: figures in this skill lack archived line-citations.
+- Exact ND-1 nonresident proration mechanics (bracket schedule applied to full taxable income with tax prorated by the ND-source ratio).
+- Exact 2026 Chapter 57-38 failure-to-file / failure-to-pay penalty percentages (ndlegis.nd.gov DNS failure 2026-10-25).
 
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see "Not yet confirmed:" paragraph) | -- | 2026-10-28 |
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
