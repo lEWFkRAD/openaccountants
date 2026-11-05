@@ -39,8 +39,8 @@ version: 0.1
 |---|---|---|
 | Rate schedule (Virginia taxable income) | 2% to $3,000; $60 + 3% to $5,000; $120 + 5% to $17,000; $720 + **5.75%** above $17,000 | § 58.1-320 via `va-income-tax` (law.lis cited there) |
 | Exemptions 2026 | $930 personal/dependent; +$800 age 65+/blind | § 58.1-322.03 via `va-income-tax` |
-| Part-year mechanics | Form 760PY: compute tax as a resident on federal AGI, then prorate by the Virginia-source ratio | Form 760PY instructions -- **not yet confirmed** (form PDF not fetched this run) |
-| Nonresident mechanics | Form 763: tax on Virginia-source income; allocation rules in § 58.1-338.02 | §§ 58.1-338.01/-338.02 -- **not yet confirmed** (section body not retrieved 2026-10-27) |
+| Part-year mechanics | Form 760PY is the part-year resident return (referenced in the 2025 Form 760 instructions, US-VA-dr-2025-760-instructions.pdf); the proration mechanics are listed under Not yet confirmed | US-VA-dr-2025-760-instructions.pdf |
+| Nonresident mechanics | Form 763 is the nonresident return (referenced in the 2025 Form 760 instructions, US-VA-dr-2025-760-instructions.pdf); the § 58.1-338.01/-338.02 allocation rules are listed under Not yet confirmed | US-VA-dr-2025-760-instructions.pdf |
 | Credit for tax paid to another state | Credit = lesser of (a) the other state's net tax on income also taxed by Virginia and (b) Virginia tax × (income taxed by other state ÷ Virginia taxable income); nonrefundable | § 58.1-332 -- verified 2026-10-27 (law.lis text); Schedule OSC mechanics carried from `va-income-tax` |
 | Reciprocity | Wages of DC/KY/MD/PA/WV residents exempt from VA withholding and tax if VA-4 exemption claimed; reciprocity covers wages only | `va-payroll` skill; withholding portal tax.virginia.gov/withholding-tax verified 200 2026-10-27 |
 | AZ/CA/OR rule | Do not claim the Virginia credit for income taxed by AZ/CA/OR -- claim it on that state's nonresident return | `va-income-tax` (Department instructions) |
@@ -148,7 +148,7 @@ Without the VA-4 on file, Virginia withheld and the taxpayer files 763 to get it
 - Code of Virginia § 58.1-468 (employer failure to pay over withheld tax): 200, 2026-10-27.
 - Virginia Tax withholding portal: <https://www.tax.virginia.gov/withholding-tax> -- 200 with text, 2026-10-27.
 - Existing `va-income-tax` and `va-payroll` skills (rate schedule, Schedule OSC mechanics, reciprocity detail, AZ/CA/OR and DC quirks -- carried with their citations): read 2026-10-27.
-- §§ 58.1-338.01 / 58.1-338.02 (763/760PY statutory basis) and Form 760PY/763 instruction PDFs: **not yet confirmed** -- section bodies not retrieved 2026-10-27; verify before publication.
+- §§ 58.1-338.01 / 58.1-338.02 (763/760PY statutory basis) and Form 760PY/763 instruction PDFs: not archived this run (section bodies not retrieved 2026-10-27) -- the figures are listed under Not yet confirmed in the ## Sources note below; verify before publication.
 
 <!-- openaccountants-cta-block -->
 
@@ -195,7 +195,9 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: the following figures lack archived line-citations:
+- Form 760PY mechanics -- compute tax as a resident on federal AGI, then prorate by the Virginia-source ratio (Form 760PY instruction PDF not archived this run).
+- Form 763 nonresident mechanics and the § 58.1-338.01/-338.02 allocation rules (section bodies not retrieved 2026-10-27).
 
 
 | Source | URL | Read on |

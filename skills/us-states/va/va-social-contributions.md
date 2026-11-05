@@ -35,12 +35,12 @@ Every Virginia employer with employees covered by Va. Code Title 60.2 (unemploym
 | Item | Figure | Source / status |
 |---|---|---|
 | Employee state social contribution | **None** | No state-level employee levy in Title 60.2; Title 60.2 Ch. 1 verified 2026-10-27 |
-| SUI taxable wage base | $8,000 per employee per calendar year (2025; unchanged since 2009) | `va-payroll` skill; 2026 base **not yet confirmed** |
-| SUI experience rate range | 0.10% – 6.20% (2025 schedule incl. 0.10% pool charge; 0.20% Fund Building where applicable) | `va-payroll` skill; 2026 schedule **not yet confirmed** |
-| New-employer SUI rate | 2.50% standard (first three computation periods, Va. Code § 60.2-516); construction new employers commonly 6.20% | `va-payroll` skill [VERIFY 2026 schedule] | (not yet confirmed)
+| SUI taxable wage base | listed under Not yet confirmed (2025 figure carried from `va-payroll`) | -- |
+| SUI experience rate range | listed under Not yet confirmed (2025 schedule carried from `va-payroll`) | -- |
+| New-employer SUI rate | listed under Not yet confirmed (carried from `va-payroll`) | -- |
 | Max SUI cost per employee | $8,000 × 6.20% = $496/yr | computed from the two rows above |
 | Workers' compensation | Mandatory at 3+ employees (1+ in construction); premium is private-market, class-rated | Title 65.2 (not re-verified this run) -- carried from `va-payroll` |
-| Paid Family Leave premium | Reported 0.5% of wages, 50/50 employer/employee, program live 1 July 2026 | **not yet confirmed** -- tdi.virginia.gov / paidfamilyleave.virginia.gov DNS failure 2026-10-27 |
+| Paid Family Leave premium | listed under Not yet confirmed (tdi.virginia.gov / paidfamilyleave.virginia.gov DNS failure 2026-10-27) | -- |
 
 ## 3. Contribution base
 
@@ -50,7 +50,7 @@ Every Virginia employer with employees covered by Va. Code Title 60.2 (unemploym
 
 ### 4. Deadlines and filings
 
-- **VEC FC-20 (quarterly tax report) + FC-21 (quarterly payroll report)** filed together: Q1 due April 30, Q2 July 31, Q3 October 31, Q4 January 31 of the following year, via the VEC Business iFile portal. _(carried from `va-payroll`; VEC root verified 200 2026-10-27 -- page-level schedule re-verify.)_ (not yet confirmed)
+- **VEC FC-20 (quarterly tax report) + FC-21 (quarterly payroll report)** filed together via the VEC Business iFile portal; the quarterly due dates are listed under Not yet confirmed. _(carried from `va-payroll`; VEC root verified 200 2026-10-27.)_
 - Annual contribution return / wage reconciliation is folded into the Q4 FC-20/FC-21 cycle for most employers.
 - Workers' comp: policy renewal dates, not tax deadlines.
 
@@ -58,7 +58,7 @@ Every Virginia employer with employees covered by Va. Code Title 60.2 (unemploym
 
 - Late FC-20 filing: $100 minimum, or $30 plus 10% of tax due, whichever is greater. _(carried from `va-payroll` [VERIFY].)_
 - Late FC-20 payment: interest accrues monthly plus stacked penalties. _(carried [VERIFY].)_
-- Failure to file FC-21: independent $25/quarter penalty and it corrupts the experience-rating computation. _(carried [VERIFY].)_ (not yet confirmed)
+- Failure to file FC-21: independent penalty (amount listed under Not yet confirmed) and it corrupts the experience-rating computation. _(carried from `va-payroll`.)_
 - Misclassification audit exposure: back contributions + interest + 25% penalty, plus civil penalties up to $5,000 per misclassified worker under the Construction Industry Misclassification Act. _(carried [VERIFY].)_
 
 ### 6. Cross-border notes
@@ -110,8 +110,8 @@ expected:
 - Code of Virginia Title 60.2 Ch. 1 (unemployment compensation, general provisions): <https://law.lis.virginia.gov/vacode/title60.2/chapter1/> -- 200 with text, 2026-10-27.
 - Virginia Employment Commission: <https://vec.virginia.gov/> -- 200 with text, 2026-10-27.
 - Existing `va-payroll` skill (wage base, rate schedule, FC-20/FC-21 mechanics, penalty schedule -- carried with its [VERIFY] flags): read 2026-10-27.
-- Virginia Paid Family Leave premium rate/start date: **not yet confirmed** -- tdi.virginia.gov and paidfamilyleave.virginia.gov DNS failure (getaddrinfo) 2026-10-27. Re-verify before publication.
-- 2026 SUI wage base and rate schedule: **not yet confirmed** (2025 figures carried).
+- Virginia Paid Family Leave premium rate/start date: not archived -- tdi.virginia.gov and paidfamilyleave.virginia.gov DNS failure (getaddrinfo) 2026-10-27; the figures are listed under Not yet confirmed in the ## Sources note below. Re-verify before publication.
+- 2026 SUI wage base and rate schedule: not archived (2025 figures carried) -- listed under Not yet confirmed in the ## Sources note below.
 
 <!-- openaccountants-cta-block -->
 
@@ -158,7 +158,13 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: the following figures lack archived line-citations:
+- SUI taxable wage base $8,000 per employee per calendar year (2025; unchanged since 2009); 2026 base unverified.
+- SUI experience rate range 0.10% – 6.20% (2025 schedule incl. 0.10% pool charge; 0.20% Fund Building where applicable); 2026 schedule unverified.
+- New-employer SUI rate 2.50% standard for the first three computation periods (Va. Code § 60.2-516); construction new employers commonly 6.20%.
+- Paid Family Leave premium reported at 0.5% of wages, 50/50 employer/employee, program live 1 July 2026 (DNS failure 2026-10-27).
+- VEC FC-20/FC-21 quarterly due dates: Q1 April 30, Q2 July 31, Q3 October 31, Q4 January 31 of the following year.
+- FC-21 failure-to-file penalty of $25 per quarter.
 
 
 | Source | URL | Read on |
