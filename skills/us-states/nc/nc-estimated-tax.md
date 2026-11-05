@@ -37,7 +37,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Tax structure | Flat rate |
 | Rate (TY 2025) | 4.25% |
 | Rate (TY 2026) | 3.99% |
-| Underpayment interest rate | Set by the Secretary (statutory range 5–16%) -- see Not yet confirmed |
+| Underpayment interest rate | Set by the Secretary; statutory range "not less than five percent (5%) per year and may not exceed sixteen percent (16%) per year" (G.S. § 105-241.21, US-NC-GS_105-241.21.html); published rate 7% for Jan 1, 2025 -- Dec 31, 2026 (US-NC-dr-ncdor-interest.txt) |
 | Threshold to require estimates | $1,000 expected liability after withholding & credits |
 | Tax authority | North Carolina Department of Revenue (NCDOR) |
 | Website | https://www.ncdor.gov |
@@ -142,7 +142,7 @@ Step 5: Does prior-year withholding alone ≥ prior-year tax (100% of prior-year
 
 ### First-year filers
 
-- **First-year filer carve-out** -- A taxpayer with no NC return for the immediately preceding tax year (e.g., new NC resident, recent graduate) cannot use the prior-year safe harbor -- only the 90% current-year safe harbor is available.  _(Not independently confirmed -- see Not yet confirmed; the statutory effect is that no penalty can compute without a prior-year benchmark under G.S. § 105-163.15(f).)_
+- **First-year filer carve-out** -- A taxpayer with no NC return for the immediately preceding tax year (e.g., new NC resident, recent graduate) cannot use the prior-year safe harbor -- only the 90% current-year safe harbor is available.  _(G.S. § 105-163.15(f), US-NC-GS_105-163.15.html: the 100% prior-year safe harbor applies only "if the preceding taxable year was a taxable year of 12 months and the individual filed a return for that year.")_
 
 ### Income types that commonly trigger the threshold
 
@@ -294,7 +294,7 @@ Form D-422 computes interest on underpayments installment by installment. It is 
 
 ### Penalty waiver / reasonable cause
 
-- **Waiver conditions** -- NCDOR may waive interest on underpayment of estimated tax in cases of: Casualty, disaster, or other unusual circumstances making penalty inequitable, OR Retirement after age 62 or disability during the tax year, OR First-year filer with no prior return. Submit a written waiver request with the return attaching documentation.  _(NCDOR D-422 instructions waiver section -- not archived; see Not yet confirmed)_
+- **Waiver conditions** -- NCDOR may waive interest on underpayment of estimated tax in cases of: Casualty, disaster, or other unusual circumstances making penalty inequitable, OR Retirement after age 62 or disability during the tax year, OR First-year filer with no prior return. Submit a written waiver request with the return attaching documentation.  _(see the Not yet confirmed: paragraph in Sources)_
 
 > NCDOR has no statutory authority to abate the underpayment interest itself purely on hardship grounds -- the waiver is narrow and codified.
 
@@ -506,7 +506,7 @@ When a taxpayer files MFJ federally and MFJ NC, send one combined quarterly work
 | IRS Direct Pay | https://www.irs.gov/payments/direct-pay-with-bank-account | 2026-10-29 |
 | EFTPS | https://www.eftps.gov/eftps/ | 2026-10-29 |
 
-Not yet confirmed: credit/debit card convenience fee (~2%) and bank-draft no-fee practice (NCDOR payment-options page not archived); NCDOR D-422 reasonable-cause waiver conditions (D-422 instructions not archived); 2028+ rate schedule (final phase-down to 2.49% by 2030) subject to legislative change; 7-day grace rule on installment payments (practitioner convention); specific D-422 line numbers and exact column placement; first-year filer carve-out (mirrors federal § 6654(d)(1)(B)); NCDOR Interest Rate Memorandum Jan–Jun 2026 and Interest Overview pages (not archived).
+Not yet confirmed: credit/debit card convenience fee (~2%) and bank-draft no-fee practice (NCDOR payment-options page not archived); NCDOR D-422 reasonable-cause waiver conditions (casualty/disaster/unusual circumstances, retirement after age 62 or disability, first-year filer; archived D-422 instructions contain no waiver section); 2028+ rate schedule (final phase-down to 2.49% by 2030) subject to legislative change; 7-day grace rule on installment payments (practitioner convention); specific D-422 line numbers and exact column placement; first-year filer carve-out (mirrors federal § 6654(d)(1)(B)); NCDOR Interest Rate Memorandum Jan–Jun 2026 and Interest Overview pages (not archived).
 
 ### Disclaimer
 
