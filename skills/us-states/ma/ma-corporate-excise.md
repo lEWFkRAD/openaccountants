@@ -195,11 +195,11 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 
 | Entity | Form | Due date |
 | --- | --- | --- |
-| C corporation | Form 355 | 15th day of 4th month after year-end (April 15 for calendar-year filers) |
-| S corporation | Form 355S | 15th day of 3rd month after year-end (March 15 for calendar-year filers) |
+| C corporation | Form 355 | 15th day of 4th month after year-end (April 15 for calendar-year filers) — US-MA-dr-due-dates.txt: "Due on or before April 15, 2026 ... Form 355 (C Corporation)" |
+| S corporation | Form 355S | 15th day of 3rd month after year-end (March 16 for 2025 calendar-year filers) — US-MA-dr-due-dates.txt: "Due on or before March 16, 2026 ... Form 355S (S Corporation)" (March 15 moves to the 16th when the 15th is a Sunday) |
 | Combined group | Form 355U | Same as C corp (April 15) |
-| Pass-through (partnership) | Form 3 | March 15 |
-| PTE election | Form 63D-ELT | March 15 (S-corps and partnerships) |
+| Pass-through (partnership) | Form 3 | March 15 — US-MA-dr-due-dates.txt Fiduciary & Partnership section: "File a 2025 calendar year return (Form 3)" due March 16, 2026 (weekend rule) |
+| PTE election | Form 63D-ELT | March 15 (S-corps and partnerships) — see Not yet confirmed below |
 | Individual | Form 1 / Form 1-NR/PY | April 15 |
 
 ### 8.2 Extensions
@@ -212,20 +212,22 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 
 **Corporate estimated tax installment schedule**  _(G.L. c. 63B)_
 
-| Installment | Due | Cumulative % of required annual payment |
+| Installment | Due | % of required annual payment |
 | --- | --- | --- |
 | 1st | 15th day of 3rd month | 40% |
-| 2nd | 15th day of 6th month | 65% |
-| 3rd | 15th day of 9th month | 80% |
-| 4th | 15th day of 12th month | 100% |
+| 2nd | 15th day of 6th month | 25% |
+| 3rd | 15th day of 9th month | 25% |
+| 4th | 15th day of 12th month | 10% |
 
-- **Per-installment percentages** — In per-installment terms: 40 / 25 / 15 / 20 — note the 40/25/25/10 simplification cited in policy summaries is the rounded "front-loaded" pattern. The statutory schedule under G.L. c. 63B is 40% by Q1, 65% cumulative by Q2, 80% by Q3, 100% by Q4 — so individual installments are 40, 25, 15, and 20 percent of the required annual payment. Practitioners should follow Form 355-ES instructions.  _(G.L. c. 63B)_
+US-MA-dr-form355-2023-instr.txt: "40% of the estimated tax due for the year is due on the 15th day of the 3rd month", "25% ... 6th month", "25% ... 9th month", "10% ... 12th month".
+
+- **Per-installment percentages** — Form 355-ES instructions state 40 / 25 / 25 / 10 per installment (US-MA-dr-form355-2023-instr.txt). New corporations in their first full taxable year with fewer than 10 employees use 30 / 25 / 25 / 20 (same source).  _(G.L. c. 63B)_
 - **Safe harbors** — 100% of the prior year's excise (if the prior year was a full 12 months and showed positive liability), or 100% of the current year's actual liability.
 - **Underpayment penalties** — Underpayment penalties accrue under G.L. c. 62C §32; compute on Form M-2220.  _(G.L. c. 62C §32)_
 
 ### 8.4 Estimated tax — individuals
 
-- **Individual estimated payments** — Individuals expecting to owe more than $400 in Massachusetts tax (Part B plus surtax) must make estimated payments on Form 1-ES quarterly: April 15, June 15, September 15, January 15. Safe harbors are 80% of current-year tax or 100% of prior-year tax (110% if prior-year MA AGI > $150,000).
+- **Individual estimated payments** — Individuals expecting to pay more than $400 in Massachusetts income tax must make estimated payments (US-MA-dr-form1-2025-instr-full.txt: "more than $400 in Massachusetts income tax"; "Every resident who expects to pay more than $400"). Form 1-ES quarterly: April 15, June 15, September 15, January 15. Safe harbors are 80% of current-year tax or 100% of prior-year tax (110% if prior-year MA AGI > $150,000).
 
 ### 8.5 PTE election filing
 
@@ -235,7 +237,7 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 
 ### 9.1 Constitutional basis
 
-- **Fair Share Amendment basis** — Article 44 of the Amendments to the Constitution of the Commonwealth, as amended by ballot question on November 8, 2022 (the "Fair Share Amendment"), imposes an additional 4% tax on the portion of an individual's annual taxable income in excess of $1,000,000 (in 2023 dollars), with an annual adjustment for inflation. The amendment took effect for tax years beginning on or after January 1, 2023.  _(Article 44 of the Amendments to the Constitution of the Commonwealth)_
+- **Fair Share Amendment basis** — The Massachusetts 4% Surtax page (US-MA-dr-surtax.txt) states that "Massachusetts personal income taxpayers, and other taxpayers subject to Massachusetts General Laws, Chapter 62, pay an additional 4% surtax on taxable income that exceeds the surtax threshold. This surtax threshold increases annually for inflation." The amendment's constitutional citation (Article 44 of the Amendments) and its 2023 effective date are listed under Not yet confirmed.  _(G.L. c. 62)_
 
 ### 9.2 Inflation indexing
 
@@ -262,7 +264,7 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 | Dividends | 5.0% |
 | 4% surtax | additional 4% on aggregate taxable income above the threshold |
 
-- **Effective combined rates over threshold** — The surtax sits on top of the underlying rate. So a long-term capital gain that pushes a taxpayer over the threshold is taxed at 5% + 4% = 9% effective. Wage income over the threshold is taxed at 5% + 4% = 9% effective. Short-term capital gain over the threshold is taxed at 8.5% + 4% = 12.5% effective.
+- **Effective combined rates over threshold** — The surtax sits on top of the underlying rate: US-MA-dr-surtax.txt states taxpayers "pay an additional 4% surtax on taxable income that exceeds the surtax threshold." So a long-term capital gain or wage income over the threshold is taxed at 5% + 4% = 9% effective; short-term capital gain over the threshold at 8.5% + 4% = 12.5% effective.
 
 ### 9.4 Aggregation rule — surtax is on total taxable income
 
@@ -343,7 +345,7 @@ Because the surtax is on aggregate taxable income for the year, large one-time c
 - **Late filing penalty** — 1% per month, max 25%  _(G.L. c. 62C §33(a))_
 - **Late payment penalty** — 1% per month, max 25%  _(§33(b))_
 - **Underpayment of estimated tax** — Computed on Form M-2220 (corporate) or Form M-2210 (individual). Interest rate is the federal short-term rate + 4% (set quarterly).
-- **Substantial understatement penalty** — 20% under G.L. c. 62C §35A for understatements exceeding 10% of tax or $1,000.  _(G.L. c. 62C §35A)_
+- **Substantial understatement penalty** — G.L. c. 62C §35A (US-MA-dr-c62c-35A.txt): "there shall be added to the tax an amount equal to 20 per cent of the portion of the underpayment to which this section applies." The 10%/$1,000 understatement trigger is listed under Not yet confirmed below.  _(G.L. c. 62C §35A)_
 - **Fraud penalty** — 50% of underpayment.
 
 ## Cross-border points
@@ -573,7 +575,7 @@ Which entity form? MA-apportioned income and receipts? Net worth? S-corp receipt
 | US-MA-dr-c62-s4.txt | https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4 | Part A/B rates; 8.5 per cent short-term capital gains (2026-11-01) |
 | US-MA-dr-form1-2025-instr-full.txt | https://www.mass.gov/doc/2025-form-1-instructions/download | exemptions, rental deduction $4,000 cap, estimated dates (2026-11-01) |
 
-Not yet confirmed: the S-corp sting-tax receipts thresholds ($6M-$9M at 2% and $9M+ at 3%) — the archived c.63 sections do not state them; and the $50,000 property-nexus figure (830 CMR 63.39.1 as archived states only the $500,000 receipts test).
+Not yet confirmed: the S-corp sting-tax receipts thresholds ($6M-$9M at 2% and $9M+ at 3%) — the archived c.63 sections do not state them; and the $50,000 property-nexus figure (830 CMR 63.39.1 as archived states only the $500,000 receipts test). Also not confirmed: the Form 63D-ELT PTE election March 15 date; the Article 44 constitutional citation and November 8, 2022 ballot date; and the §35A 10%/$1,000 understatement trigger.
 
 ## Talk to a verified accountant
 
