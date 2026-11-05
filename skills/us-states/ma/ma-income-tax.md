@@ -200,7 +200,7 @@ This skill and its outputs are provided for informational and computational purp
 
 | Rule | Description |
 | --- | --- |
-| R-1 | Apply 5% to Part A and Part B income. Apply 8.50% to Part C (short-term capital gains). |
+| R-1 | Apply 5% to Part A and Part B income. Apply 8.50% to Part C (short-term capital gains) — M.G.L. c. 62, § 4(a)(1): "any gain from the sale or exchange of capital assets held for 1 year or less shall be taxed at the rate of 8.5 per cent" (US-MA-dr-c62-s4.txt). |
 | R-2 | Apply the 4% surtax on total taxable income exceeding the inflation-adjusted threshold ($1,083,150 for TY2025). |
 | R-3 | Social Security is fully exempt. |
 | R-4 | Interest from U.S. obligations is exempt. |
