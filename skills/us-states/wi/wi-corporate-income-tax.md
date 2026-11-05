@@ -42,7 +42,7 @@ Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4
 - **Income tax:** only foreign corporations **not** subject to the franchise tax that own property in Wisconsin or whose Wisconsin business is **exclusively in foreign or interstate commerce** -- the P.L. 86-272 pocket.
 - **"Doing business" triggers** (per IC-100): selling lottery prizes; issuing credit/debit cards to Wisconsin customers; regularly selling to Wisconsin customers who receive in Wisconsin; regularly soliciting business in Wisconsin -- **except where P.L. 86-272 protects** solicitation of orders for tangible personal property.
 - **Always-file rule:** multistate corporations, Wisconsin-only corporations, domestic insurers, and unlicensed corporations must file even absent "doing business."
-- **Exempt entities** (secs. 71.26(1)/71.45(1)): insurers exempt under IRC §501(c)(15), completely inactive corporations that filed Form 4H, certain credit unions that filed Form CU, and others. (not yet confirmed)
+- **Exempt entities** (secs. 71.26(1)/71.45(1)): insurers exempt under IRC §501(c)(15), completely inactive corporations that filed Form 4H, certain credit unions that filed Form CU, and others. (US-WI-dr-ic100-2025-form4-inst.txt: "Exempt entities are described in secs. 71.26(1) and 71.45(1), Wis. Stats. ... Insurers exempt from federal income taxation under sec. 501(c)(15), IRC ... filed Form 4H ... Credit unions ... filed Form CU")
 - **S corporations:** Form 5S; REITs/RICs/REMICs/FASITs file separately and can never join a combined group.
 
 ## 3. Rates and base
@@ -54,8 +54,8 @@ Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4
 | Base start | Federal taxable income **before NOL deduction and special deductions** (Form 1120 line 28), modified per Schedule M | IC-100, read 2026-10-27 |
 | Economic development surcharge | **3% of franchise/income tax before credits; min $25, max $9,800** | IC-100, read 2026-10-27 |
 | Apportionment | **Single sales factor** (WI sales / total sales), Schedule A-01 Part I; specialized industries use A-02…A-09 | IC-100, read 2026-10-27 |
-| S corp | Form 5S; owners at 3.5%–7.65% individual rates | IC-100 + `wi-income-tax` | (not yet confirmed)
-| Urban transit | Special tax under sec. 71.39 | IC-100, read 2026-10-27 | (not yet confirmed)
+| S corp | Form 5S; owners at 3.5%–7.65% individual rates | US-WI-dr-ic100-2025-form4-inst.txt ("Tax-option (S) corporations file Form 5S") + US-WI-dr-wis-stat-ch71.txt (s. 71.06 rates 3.50%–7.65%) |
+| Urban transit | Special tax under sec. 71.39 | US-WI-dr-ic100-2025-form4-inst.txt: "Certain urban transit companies are subject to a special tax under sec. 71.39, Wis. Stats." |
 
 ### 4. Deadlines
 
@@ -63,12 +63,12 @@ Wisconsin taxes corporations under **Wis. Stat. ch. 71, subch. III** on **Form 4
 |---|---|
 | Form 4 / 5S / 6 | On or before the **federal due date**; a Wisconsin extension runs to **30 days after the federal extended date** -- automatic, no WI application |
 | Short-year return | Federal short-year due date |
-| Final return (dissolution) | Within 3 months of dissolution (2nd/3rd month per IC-100 rule) |
+| Final return (dissolution) | Per US-WI-dr-ic100-2025-form4-inst.txt: tax payable by the 15th day of the 4th month (3rd month for June 30 year-end) after the date of dissolution |
 | Estimated tax | Quarterly corporate estimates (Form 4ES) -- amounts per IC-100 |
 
 ### 5. Penalties and interest
 
-- **Interest on delinquent taxes: 18% per year** -- one of the highest in the country. **AUDIT FLASH POINT.** (not yet confirmed)
+- **Interest on delinquent taxes: 18% per year** -- one of the highest in the country. **AUDIT FLASH POINT.** (US-WI-dr-ic100-2025-form4-inst.txt: "The interest rate on delinquent taxes is 18% per year. Civil penalties may be as much as 100% of the amount of tax not reported on the return. Criminal penalties for filing a false return include a fine of up to $10,000 and imprisonment.")
 - Civil penalties up to **100% of unreported tax** for negligence/fraud; false-return criminal exposure: fine up to $10,000 and imprisonment.
 - Reportable-transaction non-disclosure penalties per IC-100.
 
@@ -132,9 +132,9 @@ expected:
 ### 9. Sources
 
 - [2025 Form 4 instructions IC-100 (R. 10-25)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) -- PDF read 2026-10-27 (all quoted figures)
-- [Wis. Stat. § 71.21 et seq.](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) -- read 2026-10-27 (not yet confirmed)
+- [Wis. Stat. § 71.21 et seq.](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) -- read 2026-10-27 (US-WI-dr-wis-stat-ch71.txt: "71.21 Computation.")
 - `wi-transfer-pricing` (this pack) -- combined reporting; `wi-income-tax` -- S corp owner rates
-- **not yet confirmed:** 2026 Form 4 instructions (not published at read time); Form 4ES estimate thresholds; insurance premiums tax (sec. 71.35) detail.
+- **Not yet confirmed:** 2026 Form 4 instructions (not published at read time); Form 4ES estimate thresholds; insurance premiums tax (sec. 71.35) detail.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Wisconsin Form 4 and franchise tax questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
@@ -169,12 +169,14 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: 2026 Form 4 instructions; Form 4ES estimate thresholds; insurance premiums tax (sec. 71.35) detail.
 
+Archived sources now backing body figures: US-WI-dr-ic100-2025-form4-inst.txt (7.9% rate, ED surcharge 3%/$25/$9,800, exempt entities, urban transit sec. 71.39, Form 5S, 18% interest, 100% civil penalty, $10,000 criminal fine, dissolution due dates, single sales factor, combined tests) and US-WI-dr-wis-stat-ch71.txt (s. 71.06 individual rates 3.50%–7.65%).
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| 2025 Form 4 instructions (IC-100) | archived as US-WI-dr-ic100-2025-form4-inst.txt | 2026-10-27 |
+| Wis. Stat. ch. 71 | archived as US-WI-dr-wis-stat-ch71.txt | 2026-10-27 |
 
 Not yet confirmed against archived sources.
 
