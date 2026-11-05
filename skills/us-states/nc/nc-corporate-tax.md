@@ -45,16 +45,16 @@ This skill covers North Carolina state-level entity-level taxes:
 
 | Income Year Beginning On or After | Rate | Statutory Basis |
 | --- | --- | --- |
-| Jan 1, 2017 | 3.00% | Pre-SB 105 baseline (see the Not yet confirmed: paragraph in Sources) |
-| Jan 1, 2019 | 2.50% | Prior phase-down (S.L. 2017-57) (see the Not yet confirmed: paragraph in Sources) |
+| Jan 1, 2017 | 3.00% | Pre-SB 105 baseline (see the Not-yet-confirmed paragraph in Sources) |
+| Jan 1, 2019 | 2.50% | Prior phase-down (S.L. 2017-57) (see the Not-yet-confirmed paragraph in Sources) |
 | Jan 1, 2022 | 2.50% | S.L. 2021-180 rewrite of § 105-130.3 imposes 2.5% with the phase-down table beginning in 2025 (US-NC-dr-sl2021-180.txt) |
 | Jan 1, 2023 | 2.50% | S.L. 2021-180 rewrite of § 105-130.3 imposes 2.5% with the phase-down table beginning in 2025 (US-NC-dr-sl2021-180.txt) |
 | Jan 1, 2024 | 2.50% | S.L. 2021-180 rewrite of § 105-130.3 imposes 2.5% with the phase-down table beginning in 2025 (US-NC-dr-sl2021-180.txt) |
 | **Jan 1, 2025** | **2.25%** | § 105-130.3 archived table: "In 2025 2.25%" |
 | Jan 1, 2026 | 2.00% | § 105-130.3 archived table: "In 2026 2%" |
-| Jan 1, 2027 | 2.00% | § 105-130.3 archived table lists no 2027 row (see the Not yet confirmed: paragraph in Sources) |
+| Jan 1, 2027 | 2.00% | § 105-130.3 archived table lists no 2027 row (see the Not-yet-confirmed paragraph in Sources) |
 | Jan 1, 2028 | 1.00% | § 105-130.3 archived table: "In 2028 1%" |
-| Jan 1, 2029 | 0.50% | § 105-130.3 archived table lists no 2029 row (see the Not yet confirmed: paragraph in Sources) |
+| Jan 1, 2029 | 0.50% | § 105-130.3 archived table lists no 2029 row (see the Not-yet-confirmed paragraph in Sources) |
 | **Jan 1, 2030 and later** | **0.00%** | § 105-130.3 archived table: "After 2029 0%" |
 
 ## The taxable base
@@ -106,7 +106,7 @@ The franchise tax (§ 105-122, archived) is the principal NC entity-level tax th
 
 ### 3.4 Holding-company cap (not in current statute text)
 
-- **Holding-company cap absent from current § 105-122** -- The archived § 105-122 text (read 2026-10-29) contains no holding-company definition and no $150,000 cap; the subsection that carried them, (d1), was repealed by S.L. 2015-241, effective for taxable years beginning on or after January 1, 2017. Do not model a $150,000 holding-company franchise cap on 2025+ returns without confirming its current status (see 11.5 and the Not yet confirmed: paragraph in Sources).  _(N.C. Gen. Stat. § 105-122, archived 2026-10-29; S.L. 2015-241)_
+- **Holding-company cap absent from current § 105-122** -- The archived § 105-122 text (read 2026-10-29) contains no holding-company definition and no $150,000 cap; the subsection that carried them, (d1), was repealed by S.L. 2015-241, effective for taxable years beginning on or after January 1, 2017. Do not model a $150,000 holding-company franchise cap on 2025+ returns without confirming its current status (see 11.5 and the Not-yet-confirmed paragraph in Sources).  _(N.C. Gen. Stat. § 105-122, archived 2026-10-29; S.L. 2015-241)_
 
 ### 3.5 Who pays franchise tax
 
