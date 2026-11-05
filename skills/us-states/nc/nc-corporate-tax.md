@@ -106,7 +106,7 @@ The franchise tax (§ 105-122, archived) is the principal NC entity-level tax th
 
 ### 3.4 Holding-company cap (not in current statute text)
 
-- **Holding-company cap absent from current § 105-122** -- The archived § 105-122 text (read 2026-10-29) contains no holding-company definition and no $150,000 cap; the subsection that carried them, (d1), was repealed by S.L. 2015-241, effective for taxable years beginning on or after January 1, 2017. Do not model a $150,000 holding-company franchise cap on 2025+ returns without confirming its current status (see 11.5 and the Not-yet-confirmed paragraph in Sources).  _(N.C. Gen. Stat. § 105-122, archived 2026-10-29; S.L. 2015-241)_
+- **Holding-company cap absent from current § 105-122** -- The archived § 105-122 text (read 2026-10-29) contains no holding-company definition and no $150,000 cap; the subsection that carried them, (d1), was repealed by S.L. 2015-241, effective for taxable years beginning on or after January 1, 2017. Do not model a $150,000 holding-company franchise cap on 2025+ returns without confirming its current status (see 11.5 and the list under Not yet confirmed in Sources).  _(N.C. Gen. Stat. § 105-122, archived 2026-10-29; S.L. 2015-241)_
 
 ### 3.5 Who pays franchise tax
 
