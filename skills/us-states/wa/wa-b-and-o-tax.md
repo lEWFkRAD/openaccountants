@@ -62,11 +62,7 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 
 ### Filing frequency
 
-| Gross income | Filing frequency | Source |
-|-------------|------------------|--------|
-| Less than $28,000/year and less than $4,200/month tax liability | Annual (due April 15) | WAC 458-20-22801 | (not yet confirmed)
-| $28,000 -- $420,000/year | Quarterly (due last day of month following quarter) | WAC 458-20-22801 | (not yet confirmed)
-| Over $420,000/year | Monthly (due 25th of following month) | WAC 458-20-22801 | (not yet confirmed)
+DOR assigns filing frequency from estimated annual tax liability, not gross income (US-WA-dr-wac-458-20-22801.txt: under $1,050 annual, $1,050-$4,800 quarterly, over $4,800 monthly). The gross-income bands this draft carried ($28,000 / $4,200 / $420,000) are listed under Not yet confirmed.
 
 ---
 
@@ -81,27 +77,20 @@ All businesses must register with the Washington Department of Revenue (DOR) bef
 | Retailing | 0.471% | 0.5% | RCW 82.04.250 |
 | Wholesaling | 0.484% | 0.5% | RCW 82.04.270 |
 | Manufacturing | 0.484% | 0.5% | RCW 82.04.240 |
-| Service and Other Activities | 1.50% | (not yet confirmed) | RCW 82.04.290(2) |
-| Printing/publishing | 0.484% | (not yet confirmed) | RCW 82.04.260 |
-| Travel agents, insurance agents | 0.275% | (not yet confirmed) | RCW 82.04.260 |
-| Real estate brokers | 1.50% | (not yet confirmed) | RCW 82.04.290(2) |
-| Royalty income | 1.50% | (not yet confirmed) | RCW 82.04.290(2) |
-| International services (qualifying) | 0.275% | (not yet confirmed) | RCW 82.04.261 |
+| Service and Other Activities | 1.50% (US-WA-dr-tax-reference-manual-2026.txt) | see Not yet confirmed | RCW 82.04.290(2) |
+| Real estate brokers | 1.50% | 1.5% (US-WA-dr-rcw-82-04-255.txt) | RCW 82.04.255 |
+| Royalty income | 1.50% | 1.5% (US-WA-default.aspx-10.html) | RCW 82.04.2907 |
+| International services (qualifying) | 0.275% | 0.275% (US-WA-dr-rcw-82-04-260.txt) | RCW 82.04.261 |
 
 ### Small Business Credit (SBC)
 
 | Item | Amount | Source |
 |------|--------|--------|
 | Maximum credit (taxpayers reporting >=50% under service/other and related classifications) | $160 per month / $480 per quarter / $1,920 per year | RCW 82.04.4451 |
-| Phase-in range (service/other) | Gross income $0 -- $250,000/year | RCW 82.04.4451 | (not yet confirmed)
-| Phase-out complete | Gross income > $250,000/year | RCW 82.04.4451 | (not yet confirmed)
 
-The SBC is designed to reduce the tax burden on small businesses. It is computed separately for each B&O classification. The credit phases out as gross income approaches $250,000 per year. (not yet confirmed)
+The SBC is designed to reduce the tax burden on small businesses. It is computed separately for each B&O classification (US-WA-dr-wac-458-20-104.txt).
 
-**SBC formula (service/other, annual):**
-- If gross income <= $125,000: full credit ($840/year) (not yet confirmed)
-- If gross income > $125,000 and <= $250,000: credit = $840 x (1 - (gross income - $125,000) / $125,000) (not yet confirmed)
-- If gross income > $250,000: no credit (not yet confirmed)
+The archived RCW 82.04.4451 states the maximum credit ($160 per month for service-and-other filers, $55 for everyone else) and the reduced-credit formula (twice the maximum minus the tax due). The $840/$125,000/$250,000 annual phase figures this draft carried are listed under Not yet confirmed.
 
 ---
 
@@ -174,10 +163,7 @@ Several Washington cities impose their own B&O taxes in addition to the state B&
 
 | City | Rate (service/other) | Filing |
 |------|---------------------|--------|
-| Seattle | 0.415% (most services) | FileLocal or city portal | (not yet confirmed)
-| Tacoma | 0.200% | FileLocal | (not yet confirmed)
-| Bellevue | 0.150% | FileLocal | (not yet confirmed)
-| Everett | 0.100% | FileLocal | (not yet confirmed)
+| Everett | 0.100% (US-WA-dr-everett-bo-tax.txt) | FileLocal |
 
 City B&O taxes are NOT reported on the state Combined Excise Tax Return. They are filed separately, often through the FileLocal portal.
 
@@ -187,7 +173,7 @@ The occasional sale of tangible personal property is generally not subject to B&
 
 ### E-7: Nexus for out-of-state businesses
 
-Physical presence or economic nexus (> $100,000 in receipts from Washington sources) triggers B&O tax filing obligations. **Source:** RCW 82.04.067. (not yet confirmed)
+Physical presence or economic nexus (> $100,000 in receipts from Washington sources) triggers B&O tax filing obligations. **Source:** RCW 82.04.067 (US-WA-dr-tax-reference-manual-2026.txt: substantial nexus means physical presence, more than $100,000 in combined Washington-sourced receipts, or Washington organization/domicile).
 
 ---
 
@@ -195,27 +181,27 @@ Physical presence or economic nexus (> $100,000 in receipts from Washington sour
 
 ### Test 1: Freelance consultant
 
-- **Input:** Software consultant, all service income in WA. Gross income: $100,000/year. (not yet confirmed)
+- **Input:** Software consultant, all service income in WA. Gross income: $100,000/year (hypothetical; rate per US-WA-dr-tax-reference-manual-2026.txt).
 - **Expected:** B&O tax: $100,000 x 1.50% = $1,500. SBC: $840 x (1 - ($100,000 - $125,000)/$125,000) -- since $100,000 < $125,000, full credit = $840. Net tax: $660.
 
 ### Test 2: Above SBC phase-out
 
-- **Input:** Consultant with $300,000 gross income, all service/other. (not yet confirmed)
+- **Input:** Consultant with $300,000 gross income, all service/other (hypothetical; rate per US-WA-dr-tax-reference-manual-2026.txt).
 - **Expected:** B&O tax: $300,000 x 1.50% = $4,500. SBC: $0 (above $250,000). Net tax: $4,500.
 
 ### Test 3: Retailer
 
-- **Input:** Online retailer. Gross receipts from WA sales: $200,000. (not yet confirmed)
+- **Input:** Online retailer. Gross receipts from WA sales: $200,000 (hypothetical; classification per US-WA-dr-tax-reference-manual-2026.txt).
 - **Expected:** B&O tax: $200,000 x 0.471% = $942. SBC for retailing computed separately.
 
 ### Test 4: Mixed classification
 
-- **Input:** Software company. Canned software sales: $150,000 (retailing). Custom development: $100,000 (service/other). (not yet confirmed)
+- **Input:** Software company. Canned software sales: $150,000 (retailing). Custom development: $100,000 (service/other) (hypothetical; US-WA-dr-tax-reference-manual-2026.txt).
 - **Expected:** Retailing B&O: $150,000 x 0.471% = $706.50. Service B&O: $100,000 x 1.50% = $1,500. SBC computed per classification. Total before SBC: $2,206.50.
 
 ### Test 5: Gross vs. net trap
 
-- **Input:** Consultant with $200,000 gross income and $80,000 in expenses. (not yet confirmed)
+- **Input:** Consultant with $200,000 gross income and $80,000 in expenses (hypothetical; gross-income base per US-WA-dr-default.aspx-3.html).
 - **Expected:** B&O tax on FULL $200,000, NOT $120,000. Tax: $200,000 x 1.50% = $3,000.
 
 ---
@@ -224,7 +210,6 @@ Physical presence or economic nexus (> $100,000 in receipts from Washington sour
 
 - **P-1:** Do NOT deduct business expenses from gross income for B&O computation. The tax is on gross receipts.
 - **P-2:** Do NOT apply a single B&O rate to all income. Each classification has its own rate.
-- **P-3:** Do NOT claim the SBC for classifications where annual gross income exceeds $250,000. (not yet confirmed)
 - **P-4:** Do NOT report city B&O taxes on the state Combined Excise Tax Return. They are separate filings.
 - **P-5:** Do NOT confuse B&O tax with retail sales tax. They are separate obligations; a business may owe both.
 - **P-6:** Do NOT assume SaaS classification is settled. Flag for reviewer if SaaS revenue is material.
@@ -275,7 +260,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations. The 2026 rates for Service and Other, printing/publishing, travel/insurance agents, real estate brokers, royalties, and international services are pending archived confirmation.
+Not yet confirmed: the filing-frequency bands keyed to gross income (less than $28,000/year with less than $4,200/month liability annual, $28,000-$420,000 quarterly, over $420,000 monthly; archived WAC 458-20-22801 assigns frequency by estimated annual tax liability instead); the 2027 Service and Other rate; the 2026 printing/publishing rate of 0.484% (archived RCW 82.04.260(14) shows newspaper printing/publishing at 0.5 percent from 1 Jul 2024); the travel/insurance agent rate of 0.275% (archived RCW 82.04.260(5)(b) shows travel agents at 0.9 percent from 1 Jul 2019); the SBC annual phase figures (full credit $840/year at or below $125,000 gross income, phasing to zero at $250,000; archived RCW 82.04.4451 states only the $160/$55 monthly maxima and the reduced-credit formula); the prohibition on claiming the SBC above $250,000 gross income; and the city B&O rates Seattle 0.415%, Tacoma 0.200%, and Bellevue 0.150% (archived city pages show Seattle 0.00658 for Service & Other 2026-2032, Tacoma 0.004 for Service & Other, Bellevue 0.1596 percent).
 
 
 | Source | URL | Read on |
