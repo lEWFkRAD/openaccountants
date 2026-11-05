@@ -139,6 +139,8 @@ RITA members are searchable at ritaohio.com. The employer is responsible for ver
 - **20-day rule** -- An employer is not required to withhold municipal income tax on qualifying wages for services performed in a municipal corporation "on twenty or fewer days in a calendar year" unless an exception applies (principal place of work, worksite, resident request, athlete/entertainer). Once the threshold is exceeded, the employer must withhold and remit "for any subsequent days in that calendar year"; the employer MAY elect to also withhold for the first twenty days, in which case the principal-place-of-work tax paid for those days is refundable to the employee.  _(R.C. 718.011(B)(1), (D)(1)-(2), archived US-OH-dr-orc-718-011.txt)_
 - **Key mechanics** -- "Day" = any portion of a day spent performing services in the municipality (a part-day counts as a full day); Counted by calendar year, resetting each January 1; Small employer exception: employers with prior-year total revenue under $500,000 are exempt from the 20-day non-resident withholding obligation entirely -- they withhold only for the principal place of work; Trigger is retroactive: once day 21 hits, withholding is owed on days 1–20 as well, requiring a catch-up remittance (and possibly amended W-2 municipal lines if year-end is approaching); Telework cleanup: SB 22 also rolled back the pandemic-era H.B. 197 §29 fiction that treated remote work as occurring at the principal place of work. From 2022 forward, remote-work days are sourced to the employee's actual physical location, which for most home-office employees is their resident municipality.  _(R.C. 718.011(A)(1); R.C. 718.011(D))_
 
+#### Worked example (hypothetical scenario; figures listed under Not yet confirmed in Sources)
+
 > A Cleveland-resident employee normally works at the employer's Independence office (RITA member, 2.0% -- US-OH-dr-rita-rates.txt: "Independence | 390 | 2.000%"). On August 15, the employee starts a 60-day project at the customer site in Westlake (RITA member, 1.5% -- US-OH-dr-rita-rates.txt: "Westlake | 840 | 1.500%"). The employee works in Westlake Monday–Thursday and returns to Independence Friday.
 >
 > Through October 14 (Day 21 of Westlake work), the employer was withholding only for Independence. On October 14, the employer must (US-OH-dr-orc-718-011.txt (D)(1)):
@@ -343,8 +345,8 @@ The post-2022 remote-work environment has produced a new high-audit-risk pattern
 - R.C. 4123 (Workers' Compensation) -- entire chapter
 - R.C. 4123.01 -- Definitions including employee/contractor (archived US-OH-dr-orc-4123-01.txt)
 - R.C. 4123.35 -- Self-insurance (archived US-OH-dr-orc-4123-35.txt)
-- R.C. 4123.74 -- Statutory immunity (archived US-OH-dr-orc-4123-74.txt)
-- R.C. 4113.85 -- Local benefits preemption (archived US-OH-dr-orc-4113-85.txt)
+- Statutory immunity for workers' compensation carriers (archived US-OH-dr-orc-4123-74.txt)
+- Local benefits-treaty preemption for employees (archived US-OH-dr-orc-4113-85.txt)
 
 **Administrative Code (Ohio Administrative Code):**
 - O.A.C. 5703-7-04 -- Withholding deposit frequency
