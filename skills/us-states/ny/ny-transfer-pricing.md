@@ -118,7 +118,7 @@ expected:
 
 Not yet confirmed: figures below the Sources heading lack archived line-citations.
 
-- NYS DTF -- Chapter 9-A overview (three bases, CT-3 vs CT-3-A combined filing, MTA surcharge): <https://www.tax.ny.gov/bus/ct/article9a.htm?ref=oa> -- 200 with text, 2026-10-25.
+- NYS DTF -- Chapter 9-A overview (three bases, CT-3 vs CT-3-A combined filing, MTA surcharge): <https://www.tax.ny.gov/bus/ct/article9a.htm> -- 200 with text, 2026-10-25.
 - NYS DTF -- Form CT-3-A instructions (7.25% rate factor 0.0725 in the rate table; combined-group lines): <https://www.tax.ny.gov/pdf/current_forms/ct/ct3ai.pdf> -- 200 PDF, 2026-10-25.
 - NYS DTF -- Form CT-3-A (combined return form): <https://www.tax.ny.gov/pdf/current_forms/ct/ct3a.pdf> -- 200 PDF, 2026-10-25.
 - NYS DTF -- Deriving combined group receipts: <https://www.tax.ny.gov/bus/ct/combined-group receipts page.htm> -- linked from the Chapter 9-A page, 2026-10-25.
