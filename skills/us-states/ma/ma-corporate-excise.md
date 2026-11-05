@@ -12,11 +12,11 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MA Corporate Excise
 
-## Massachusetts Corporate Excise and 4% Individual Surtax
+### Massachusetts Corporate Excise and 4% Individual Surtax
 
 Massachusetts imposes a corporate excise under G.L. c. 63 with two components: 8% on net income apportioned to the Commonwealth plus a property/net-worth component at $2.60 per $1,000, with a $456 minimum. S-corps with receipts above $9M face an entity-level "sting tax" of 2% ($6–9M) or 3% (>$9M). Single sales factor apportionment applies for tax years beginning on or after January 1, 2025. Individuals pay 5% on most income plus a 4% surtax on taxable income above approximately $1.083M for 2025 (Article 44, Fair Share Amendment). Pass-through entities may elect the 5% entity-level PTE tax under G.L. c. 63D as a SALT-cap workaround. Tax year 2025.
 
-## 1. Scope
+## Who this applies to
 
 This skill covers Massachusetts state-level taxation for:
 
@@ -38,7 +38,9 @@ This skill covers Massachusetts state-level taxation for:
 
 This skill is current to **tax year 2025** and reflects the changes enacted by the FY2024 Tax Reform (Chapter 50 of the Acts of 2023, "An Act to Improve the Commonwealth's Competitiveness, Affordability, and Equity") and subsequent technical corrections through 2025.
 
-## 2. Corporate Excise — the Income Measure
+## Rates, bands and thresholds
+
+### 2. Corporate Excise — the Income Measure
 
 ### 2.1 Rate and base
 
@@ -64,7 +66,9 @@ The single sales factor advantage that drove manufacturer/R&D classification is 
 - **Minimum excise applies regardless of income/property** — Every corporation subject to the excise pays at least $456 (the statutory minimum under G.L. c. 63 §39). This applies even if the corporation has zero income, no Massachusetts property, and minimum tangible nexus, so long as it is qualified or required to qualify to do business in the Commonwealth.  _(G.L. c. 63 §39)_
 - **Minimum excise amount** — $456  _(G.L. c. 63 §39)_
 
-## 3. Corporate Excise — the Property or Net Worth Measure
+## The taxable base
+
+### 3. Corporate Excise — the Property or Net Worth Measure
 
 The non-income component is $2.60 per $1,000 (i.e., 0.26%) of either tangible property or net worth, whichever applies, computed under G.L. c. 63 §39(a)(1).
 
@@ -82,7 +86,7 @@ The non-income component is $2.60 per $1,000 (i.e., 0.26%) of either tangible pr
 - **Total corporate excise formula** — Total excise = max($456, 8.0% × MA net income + $2.60/$1,000 × MA tangible OR net worth)  _(G.L. c. 63 §39)_
 - **Components are additive** — The total corporate excise is the sum of the income measure (Section 2) plus the property/net worth measure (Section 3), with the $456 minimum floor. The two components are additive, not "greater of."  _(G.L. c. 63 §39)_
 
-## 4. S-Corporation "Sting Tax"
+### 4. S-Corporation "Sting Tax"
 
 ### 4.1 Receipts thresholds
 
@@ -113,7 +117,7 @@ S-corp with $10.5M gross receipts and $1.2M of MA-apportioned income, $400k of M
 - Total entity-level Massachusetts excise: $37,040 (well above the $456 minimum).
 - Shareholders still report their pro-rata share of S-corp income on Form 1 (residents) or Form 1-NR/PY (non-residents) at 5% plus surtax if applicable. The sting tax paid is not creditable against the shareholders' individual tax; it is a separate entity-level cost.
 
-## 5. Apportionment — Single Sales Factor (2025)
+### 5. Apportionment — Single Sales Factor (2025)
 
 ### 5.1 The 2025 change
 
@@ -141,7 +145,7 @@ S-corp with $10.5M gross receipts and $1.2M of MA-apportioned income, $400k of M
 
 Financial institutions, insurance companies, mutual fund service corporations, defense corporations, ship/airline/pipeline companies, and certain other industries have specialized apportionment formulas that survive the 2025 change. These are outside this skill's scope.
 
-## 6. Combined Reporting
+### 6. Combined Reporting
 
 ### 6.1 Mandatory water's-edge combination
 
@@ -161,7 +165,7 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 
 - **Principal Reporting Corporation (PRC)** — The group designates a Principal Reporting Corporation (PRC) that files Form 355U on behalf of all taxable members. Non-taxable members are still listed but do not pay excise.
 
-## 7. Net Operating Losses
+### 7. Net Operating Losses
 
 ### 7.1 Massachusetts-specific NOL
 
@@ -181,7 +185,9 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 
 - **Section 382 conformity** — Massachusetts conforms to federal §382 limitations on NOLs after an ownership change.
 
-## 8. Filing and Estimated Payments
+## Deadlines and filing
+
+### 8. Filing and Estimated Payments
 
 ### 8.1 Returns and due dates
 
@@ -225,7 +231,7 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 
 - **PTE election filing mechanics** — A pass-through entity electing the PTE tax under G.L. c. 63D files Form 63D-ELT (annual election plus quarterly estimated). The election is made on or before the original due date and is irrevocable for the year.  _(G.L. c. 63D)_
 
-## 9. Individual 4% Surtax (Article 44 — Fair Share Amendment)
+### 9. Individual 4% Surtax (Article 44 — Fair Share Amendment)
 
 ### 9.1 Constitutional basis
 
@@ -297,7 +303,7 @@ Because the surtax is on aggregate taxable income for the year, large one-time c
 - **PTE tax computed without surtax** — A taxpayer whose pass-through entity makes the PTE election (Section 10) pays the entity-level 5% on its share of qualified income. The owner receives a refundable credit equal to the PTE tax paid on their behalf, and the income flows through but is offset by the credit. The DOR's position (TIR 21-9 as updated) is that the PTE tax is computed on the entity's income at 5% without surtax, regardless of the owner's individual income level. This is one of the principal planning attractions of the PTE election for high earners.  _(TIR 21-9)_
 - **PTE election does not avoid surtax** — However, the owner's individual return still includes the underlying flow-through income and that income still counts toward the owner's surtax threshold — the credit offsets the 5% liability, but if the owner is over $1,083,150 of total Massachusetts taxable income, the surtax still applies to the excess. So the PTE election saves federal SALT-cap dollars but does not itself avoid the state-level surtax.
 
-## 10. PTE Election under G.L. c. 63D
+### 10. PTE Election under G.L. c. 63D
 
 ### 10.1 Statutory framework
 
@@ -332,7 +338,9 @@ Because the surtax is on aggregate taxable income for the year, large one-time c
 
 - **Composite returns and PTE election coexist** — Massachusetts permits non-resident composite returns under G.L. c. 62B §6 and 830 CMR 62B.2.2. Composite filing and PTE election are not mutually exclusive; many partnerships file both — composite for non-resident reporting and PTE election for the SALT workaround. Note that composite returns historically charged a higher non-resident rate; check current TIR for interactions.  _(G.L. c. 62B §6; 830 CMR 62B.2.2)_
 
-## 11. Nexus
+## Cross-border points
+
+### 11. Nexus
 
 ### 11.1 Income tax nexus — corporations
 
@@ -350,13 +358,15 @@ Because the surtax is on aggregate taxable income for the year, large one-time c
 
 - **Residency tests** — Massachusetts residents are taxable on worldwide income. Residency tests: Domiciled in Massachusetts and not a non-resident for the entire year, or Statutory resident: maintaining a permanent place of abode in Massachusetts and spending more than 183 days in the Commonwealth during the year. For surtax purposes, residency is determined under the same standards.
 
-## 12. Penalties and Interest
+## Penalties and interest
 
 - **Late filing penalty** — 1% per month, max 25%  _(G.L. c. 62C §33(a))_
 - **Late payment penalty** — 1% per month, max 25%  _(§33(b))_
 - **Underpayment of estimated tax** — Computed on Form M-2220 (corporate) or Form M-2210 (individual). Interest rate is the federal short-term rate + 4% (set quarterly).
 - **Substantial understatement penalty** — 20% under G.L. c. 62C §35A for understatements exceeding 10% of tax or $1,000.  _(G.L. c. 62C §35A)_
 - **Fraud penalty** — 50% of underpayment.
+
+## Worked examples
 
 ### Worked example A — Small Massachusetts C corporation
 
@@ -475,7 +485,7 @@ So splitting the gain across years saves $107,874 − $94,800 = **$13,074** — 
 | March 15, 2026 | First 2026 corporate estimate; 2025 S-corp / partnership / PTE returns |
 | April 15, 2026 | 2025 corporate Form 355; 2025 individual returns |
 
-## 15. Provenance
+### 15. Provenance
 
 ### 15.1 Primary statutory authority
 
@@ -543,13 +553,27 @@ So splitting the gain across years saves $107,874 − $94,800 = **$13,074** — 
 - **Last_updated: 2025-11-15.**
 - **Tax year: 2025.** Subsequent annual updates should refresh the surtax threshold, verify continuing applicability of the single sales factor, monitor any further FY2026/FY2027 tax reform legislation, and confirm penalty/interest rates which update quarterly.
 
-## End of ma-corporate-excise skill.
+### End of ma-corporate-excise skill.
 
 *End of ma-corporate-excise skill.*
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Ask the client first
+
+Which entity form? MA-apportioned income and receipts? Net worth? S-corp receipts between $6M and $9M? Individual income above the Article 44 surtax threshold? PTE election made?
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+| US-MA-dr-surtax.txt | https://www.mass.gov/info-details/additional-sur-tax-on-annual-taxable-income-in-excess-of-one-million-dollars | 2025 surtax threshold $1,083,150; 2024 $1,053,750 |
+| US-MA-dr-c62-s4.txt | https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4 | Part A/B rates; 8.5 per cent short-term capital gains |
+| US-MA-dr-form1-2025-instr-full.txt | https://www.mass.gov/doc/2025-form-1-instructions/download | exemptions, rental deduction $4,000 cap, estimated dates |
+
+Not yet confirmed: none beyond the items already flagged in the body.
 
 ## Talk to a verified accountant
 
