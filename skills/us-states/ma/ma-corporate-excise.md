@@ -573,7 +573,7 @@ Which entity form? MA-apportioned income and receipts? Net worth? S-corp receipt
 | US-MA-dr-c62-s4.txt | https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4 | Part A/B rates; 8.5 per cent short-term capital gains (2026-11-01) |
 | US-MA-dr-form1-2025-instr-full.txt | https://www.mass.gov/doc/2025-form-1-instructions/download | exemptions, rental deduction $4,000 cap, estimated dates (2026-11-01) |
 
-Not yet confirmed: the S-corp sting-tax receipts thresholds ($6M-$9M at 2% and $9M+ at 3%) — the archived c.63 sections do not state them.
+Not yet confirmed: the S-corp sting-tax receipts thresholds ($6M-$9M at 2% and $9M+ at 3%) — the archived c.63 sections do not state them; and the $50,000 property-nexus figure (830 CMR 63.39.1 as archived states only the $500,000 receipts test).
 
 ## Talk to a verified accountant
 
