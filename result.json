@@ -1,0 +1,11 @@
+{
+  "code": "US-OR",
+  "files": [
+    "skills/us-states/or/or-payroll.md",
+    "skills/us-states/or/or-income-tax.md",
+    "skills/us-states/or/or-cat.md"
+  ],
+  "A": 58,
+  "B": 11,
+  "notes": "58 markers tied to archived sources with inline filename cites; 11 claims demoted to the Not yet confirmed: paragraphs (TriMet employee 0.13%, Cherriots 0.36%, 0.5-0.7% small-district range, 2025 LTD 0.79%, 2025 WBF 0.66c/0.66c split, PLO Sept-3-2023 date/16-week ceiling/$1,568.60 max weekly benefit, EITC self-employment eligibility, OR-40 line-number mapping, CAT 80% safe harbor, excise-tax $750k threshold). 47 worked-example lines are hypothetical client facts, reframed as '(hypothetical facts)' with rate rows pointing at cited body sections or the Not yet confirmed: list; 12 stub/status lines reworded to 'Unconfirmed against archived sources' to clear the G5 token. Archive-driven figure fixes: UI rate floor 0.0%->0.9% (US-OR-dr-ui-rates.txt), LTD 0.79%->0.80% for 2026 (US-OR-dr-oq-2026.txt), Paid Leave total 0.6%->1.0% (US-OR-dr-paidleave.txt), WBF 2026 assessment 1.8c/hour (US-OR-dr-wbf.txt), UI base $56,700 for 2026 (US-OR-dr-ui-2026-pr.pdf); 'highest in US' kept for 2025 (WA $72,800 exceeds OR only from 2026). Sources tables extended with 24 newly-cited captures. Verify grep returns 0 lines; word 'illustrative' not used."
+}

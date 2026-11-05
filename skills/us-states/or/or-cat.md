@@ -1,6 +1,6 @@
 ---
 name: or-cat
-description: Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals (not yet confirmed) plus 0.57% of taxable commercial activity above (not yet confirmed) million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at (not yet confirmed) of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
+description: Oregon Corporate Activity Tax is a gross receipts tax (not an income tax) imposed under ORS Chapter 317A on persons with Oregon commercial activity. The tax equals $250 plus 0.57% of taxable commercial activity above $1 million, after a subtraction of 35% of the greater of Oregon-apportioned cost of goods sold or Oregon-apportioned labor costs. Market-based sourcing applies. Registration is required at $750,000 of Oregon commercial activity. Quarterly estimated payments are due; annual return (Form OR-CAT) is due April 15. Grocery sales are excluded. Tax year 2025.
 jurisdiction: US-OR
 tax_year: 2025
 last_updated: 2026-07-13
@@ -63,7 +63,7 @@ Read this skill before doing any of the following:
 
 ### 3.3 The $750,000 registration threshold
 
-Oregon imposes a separate registration obligation under ORS 317A.131 for any person whose Oregon commercial activity exceeds $750,000 in the calendar year, even if no tax is ultimately due. Registration must be completed within 30 days of crossing the threshold. (not yet confirmed)
+Oregon imposes a separate registration obligation under ORS 317A.131 for any person whose Oregon commercial activity exceeds $750,000 in the calendar year, even if no tax is ultimately due. Registration must be completed within 30 days of crossing the threshold (US-OR-dr-orcat-instr-2025.txt: 'Registration is due within 30 days of meeting the $750,000 registration threshold'; US-OR-dr-dor-cat.txt: 'Registration Threshold $750,000+').
 
 The interaction of the two thresholds creates three regimes (see table below). A taxpayer in the middle band -- between $750k and $1M -- must register, must file the annual return, and will owe $0 in tax. Failure to register in this band is the most common error and triggers a separate registration penalty under ORS 317A.161.
 
@@ -71,8 +71,8 @@ The interaction of the two thresholds creates three regimes (see table below). A
 
 | Oregon commercial activity | Registration | Return | Tax owed |
 | --- | --- | --- | --- |
-| Under $750,000 | Not required | Not required | $0 | (not yet confirmed)
-| $750,000 to $1,000,000 | **Required** | Required if registered | $0 | (not yet confirmed)
+| Under $750,000 | Not required | Not required | $0 | (US-OR-dr-dor-cat.txt: '$750,000 or less ... excluded from all CAT requirements')
+| $750,000 to $1,000,000 | **Required** | Required if registered | $0 | (US-OR-dr-dor-cat.txt: 'Registration Threshold $750,000+ ... Filing Threshold $1 million +')
 | Over $1,000,000 | Required | Required | $250 + 0.57% of base |
 
 ### 3.4 What "Oregon commercial activity" means for the threshold
@@ -106,7 +106,7 @@ The interaction of the two thresholds creates three regimes (see table below). A
 ### 5.1 Structure of the subtraction
 
 - **35% subtraction structure** -- ORS 317A.119 provides a subtraction from commercial activity equal to 35% of the greater of: (a) the taxpayer's **cost inputs**, defined as cost of goods sold (COGS) computed in accordance with IRC §471 and the consolidated regulations thereunder, **apportioned to Oregon**, or (b) the taxpayer's **labor costs**, defined as total compensation paid (capped at $500,000 per employee), **apportioned to Oregon**. The taxpayer chooses (a) or (b), and the choice is made annually on the return -- the taxpayer takes the higher of the two computed amounts.  _(ORS 317A.119)_
-- **Subtraction formula** -- Subtraction = 35% × max(Oregon-apportioned COGS, Oregon-apportioned labor)  _(ORS 317A.119)_ (not yet confirmed)
+- **Subtraction formula** -- Subtraction = 35% × max(Oregon-apportioned COGS, Oregon-apportioned labor)  _(ORS 317A.119)_ (US-OR-dr-lro-basic-facts-2026.pdf: 'a subtraction equal to 35% of the greater of input costs or labor costs')
 
 ### 5.2 Cost of goods sold prong
 
@@ -125,7 +125,7 @@ A reasonable practitioner runs both calculations for each client and elects the 
 
 ### 5.5 Limitation: subtraction cannot exceed 95% of commercial activity
 
-- **95% subtraction cap** -- ORS 317A.119(3) limits the subtraction to 95% of Oregon commercial activity. This is a backstop to prevent the subtraction from completely eliminating the tax base for a taxpayer with abnormally high COGS or labor relative to revenue (a startup operating at a loss, for example, where labor exceeds revenue). In practice, this limit binds only for taxpayers with deeply negative operating margins. For most clients, the subtraction is well below the 95% cap.  _(ORS 317A.119(3))_ (not yet confirmed)
+- **95% subtraction cap** -- ORS 317A.119(3) limits the subtraction to 95% of Oregon commercial activity. This is a backstop to prevent the subtraction from completely eliminating the tax base for a taxpayer with abnormally high COGS or labor relative to revenue (a startup operating at a loss, for example, where labor exceeds revenue). In practice, this limit binds only for taxpayers with deeply negative operating margins. For most clients, the subtraction is well below the 95% cap.  _(ORS 317A.119(3))_ (US-OR-dr-ors317a-code.txt: 'the subtraction under this section may not exceed 95 percent of the taxpayers commercial activity in this state')
 
 ### 5.6 Subtraction formula putting it together
 
@@ -285,105 +285,105 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 ## Worked examples
 
-### 11.1 Example 1 -- Small Oregon retailer at $1.5 million with COGS
+### 11.1 Example 1 -- Small Oregon retailer at $1.5 million with COGS (hypothetical facts)
 
 **Facts.** Cascade Hardware LLC is a single-member LLC owned by an Oregon resident. The LLC operates a brick-and-mortar hardware store in Bend, Oregon. For calendar year 2025, the LLC has:
 
-- Oregon commercial activity (all sales to Oregon customers): $1,500,000 (not yet confirmed)
-- Federal Form 1125-A cost of goods sold: $900,000 (not yet confirmed)
+- Oregon commercial activity (all sales to Oregon customers): $1,500,000
+- Federal Form 1125-A cost of goods sold: $900,000
 - Labor (W-2 wages plus employer payroll taxes plus health insurance): $200,000
 - 100% of sales sourced to Oregon
 
-**Step 1 -- Registration.** Oregon commercial activity exceeds $750,000, so the LLC must be registered with the Oregon Department of Revenue. The LLC was already registered from prior years. (not yet confirmed)
+**Step 1 -- Registration.** Oregon commercial activity exceeds $750,000, so the LLC must be registered with the Oregon Department of Revenue (US-OR-dr-dor-cat.txt: 'Registration Threshold $750,000+'). The LLC was already registered from prior years.
 
 **Step 2 -- Determine the subtraction.** Oregon-apportioned COGS is $900,000 (apportionment factor = 1.0). Oregon-apportioned labor is $200,000 (apportionment factor = 1.0). The taxpayer takes the larger: COGS at $900,000. The subtraction is 35% × $900,000 = $315,000.
 
-**Step 3 -- Check the 95% cap.** 95% × $1,500,000 = $1,425,000. The subtraction of $315,000 is well below the cap, so no limitation. (not yet confirmed)
+**Step 3 -- Check the 95% cap.** 95% × $1,500,000 = $1,425,000. The subtraction of $315,000 is well below the cap, so no limitation (95% cap per US-OR-dr-ors317a-code.txt).
 
 **Step 4 -- Compute tax base.**
-- Oregon commercial activity: $1,500,000 (not yet confirmed)
-- Less exclusion: ($1,000,000) (not yet confirmed)
-- Less subtraction: ($315,000) (not yet confirmed)
-- Tax base: $185,000 (not yet confirmed)
+- Oregon commercial activity: $1,500,000
+- Less exclusion: ($1,000,000) (US-OR-dr-dor-cat.txt: 'the $1 million threshold')
+- Less subtraction: ($315,000)
+- Tax base: $185,000
 
 **Step 5 -- Compute CAT.**
 - Flat amount: $250
-- Variable: 0.57% × $185,000 = $1,054.50 (not yet confirmed)
-- **Total CAT: $1,304.50** (not yet confirmed)
+- Variable: 0.57% × $185,000 = $1,054.50 (US-OR-dr-dor-cat.txt: '$250 plus 0.57 percent of taxable Oregon commercial activity of more than $1 million')
+- **Total CAT: $1,304.50**
 
 **Step 6 -- Estimated payments.** Because the annual liability is below $5,000, quarterly estimated payments are not required. The full amount is due with Form OR-CAT on April 15, 2026.
 
-**Step 7 -- Federal interaction.** The $1,304.50 of CAT is deductible as a state and local business tax on Cascade Hardware's Schedule C, reducing federal taxable income and Oregon personal income tax for the owner. (not yet confirmed)
+**Step 7 -- Federal interaction.** The $1,304.50 of CAT is deductible as a state and local business tax on Cascade Hardware's Schedule C, reducing federal taxable income and Oregon personal income tax for the owner.
 
-### 11.2 Example 2 -- Services firm at $3 million with labor subtraction
+### 11.2 Example 2 -- Services firm at $3 million with labor subtraction (hypothetical facts)
 
 **Facts.** Willamette Strategy Partners LLC is a multi-member LLC taxed as a partnership. It is a management-consulting firm with offices in Portland and Eugene. For calendar year 2025:
 
-- Total commercial activity (worldwide): $3,500,000 (not yet confirmed)
-- Oregon commercial activity (services rendered to Oregon-based clients, sourced to where the client receives the benefit): $3,000,000 (not yet confirmed)
+- Total commercial activity (worldwide): $3,500,000
+- Oregon commercial activity (services rendered to Oregon-based clients, sourced to where the client receives the benefit): $3,000,000
 - Cost of goods sold: $0 (services firm -- no inventory)
 - Total compensation paid: 18 employees, total compensation of $2,400,000, with one rainmaker partner earning $750,000 (capped at $500,000 for CAT purposes)
 - Labor for CAT purposes: $2,400,000 − ($750,000 − $500,000) = $2,150,000
-- Apportionment factor (Oregon sales ÷ total sales): $3,000,000 ÷ $3,500,000 = 0.8571 (not yet confirmed)
-- Oregon-apportioned labor: $2,150,000 × 0.8571 = $1,842,857 (not yet confirmed)
+- Apportionment factor (Oregon sales ÷ total sales): $3,000,000 ÷ $3,500,000 = 0.8571
+- Oregon-apportioned labor: $2,150,000 × 0.8571 = $1,842,857
 
 **Step 1 -- Registration.** Required.
 
-**Step 2 -- Determine the subtraction.** COGS = $0. Labor (Oregon-apportioned) = $1,842,857. Take the larger: labor at $1,842,857. Subtraction = 35% × $1,842,857 = $645,000 (rounded). (not yet confirmed)
+**Step 2 -- Determine the subtraction.** COGS = $0. Labor (Oregon-apportioned) = $1,842,857. Take the larger: labor at $1,842,857. Subtraction = 35% × $1,842,857 = $645,000 (rounded) (35% rule per US-OR-dr-lro-basic-facts-2026.pdf).
 
-**Step 3 -- 95% cap.** 95% × $3,000,000 = $2,850,000. Subtraction of $645,000 is well below the cap. (not yet confirmed)
+**Step 3 -- 95% cap.** 95% × $3,000,000 = $2,850,000. Subtraction of $645,000 is well below the cap (US-OR-dr-ors317a-code.txt).
 
 **Step 4 -- Tax base.**
-- Oregon commercial activity: $3,000,000 (not yet confirmed)
-- Less exclusion: ($1,000,000) (not yet confirmed)
-- Less subtraction: ($645,000) (not yet confirmed)
-- Tax base: $1,355,000 (not yet confirmed)
+- Oregon commercial activity: $3,000,000
+- Less exclusion: ($1,000,000)
+- Less subtraction: ($645,000)
+- Tax base: $1,355,000
 
 **Step 5 -- Compute CAT.**
 - Flat: $250
-- Variable: 0.57% × $1,355,000 = $7,723.50 (not yet confirmed)
-- **Total CAT: $7,973.50** (not yet confirmed)
+- Variable: 0.57% × $1,355,000 = $7,723.50
+- **Total CAT: $7,973.50**
 
 **Step 6 -- Estimated payments.** Annual liability exceeds $5,000, so quarterly estimated payments are required. Each quarterly payment should be approximately $1,994 (25% of $7,973.50). The first payment for 2025 was due April 30, 2025; subsequent payments July 31, October 31, and January 31, 2026.
 
 **Step 7 -- Pass-through treatment.** Because the LLC is taxed as a partnership, CAT is a partnership-level liability that reduces partnership net income flowing through on Schedule K-1 to the partners. Each partner separately reports their distributive share of Oregon-source income on their personal Oregon return.
 
-### 11.3 Example 3 -- Multi-state SaaS hitting Oregon nexus
+### 11.3 Example 3 -- Multi-state SaaS hitting Oregon nexus (hypothetical facts)
 
 **Facts.** PineCloud Inc. is a Delaware C-corporation headquartered in Austin, Texas, with no Oregon office, no Oregon employees, and no Oregon-owned property. PineCloud sells a B2B SaaS product (project management software) on annual subscriptions. For calendar year 2025:
 
-- Total worldwide commercial activity: $25,000,000 (not yet confirmed)
+- Total worldwide commercial activity: $25,000,000
 - Approximately 8% of subscribers are Oregon-based, generating $1,950,000 of revenue from Oregon-domiciled customers
 - The Oregon customer base is determined by billing address; the company has approximately 280 Oregon-domiciled paying customer organizations
-- COGS for the SaaS business: $3,000,000 (hosting, third-party APIs, data infrastructure) (not yet confirmed)
-- Labor: $14,000,000 (250 employees, average $56,000 compensation; one CTO at $480,000 -- under the cap) (not yet confirmed)
-- Oregon apportionment factor (sales factor): $1,950,000 ÷ $25,000,000 = 0.078 (not yet confirmed)
+- COGS for the SaaS business: $3,000,000 (hosting, third-party APIs, data infrastructure)
+- Labor: $14,000,000 (250 employees, average $56,000 compensation; one CTO at $480,000 -- under the cap)
+- Oregon apportionment factor (sales factor): $1,950,000 ÷ $25,000,000 = 0.078
 
-**Step 1 -- Nexus.** Oregon commercial activity is $1,950,000, exceeding the $750,000 bright-line threshold under ORS 317A.116(1). PineCloud has substantial nexus and must register and file. (not yet confirmed)
+**Step 1 -- Nexus.** Oregon commercial activity is $1,950,000, exceeding the $750,000 bright-line threshold under ORS 317A.116(1) (US-OR-dr-ors317a-code.txt: nexus at 'commercial activity, sourced to this state under ORS 317A.128, of at least $750,000'). PineCloud has substantial nexus and must register and file.
 
-**Step 2 -- Registration.** PineCloud must register with the Oregon Department of Revenue within 30 days of crossing the $750,000 threshold. If PineCloud only became aware of the Oregon obligation mid-year, registration should be effected immediately with disclosure of when the threshold was crossed. (not yet confirmed)
+**Step 2 -- Registration.** PineCloud must register with the Oregon Department of Revenue within 30 days of crossing the $750,000 threshold (US-OR-dr-orcat-instr-2025.txt: 'Registration is due within 30 days of meeting the $750,000 registration threshold'). If PineCloud only became aware of the Oregon obligation mid-year, registration should be effected immediately with disclosure of when the threshold was crossed.
 
 **Step 3 -- Determine the subtraction.**
-- Oregon-apportioned COGS: $3,000,000 × 0.078 = $234,000 (not yet confirmed)
-- Oregon-apportioned labor: $14,000,000 × 0.078 = $1,092,000 (not yet confirmed)
-- The labor prong is larger. Subtraction = 35% × $1,092,000 = $382,200 (not yet confirmed)
+- Oregon-apportioned COGS: $3,000,000 × 0.078 = $234,000
+- Oregon-apportioned labor: $14,000,000 × 0.078 = $1,092,000
+- The labor prong is larger. Subtraction = 35% × $1,092,000 = $382,200
 
-**Step 4 -- 95% cap.** 95% × $1,950,000 = $1,852,500. Subtraction of $382,200 is well below the cap. (not yet confirmed)
+**Step 4 -- 95% cap.** 95% × $1,950,000 = $1,852,500. Subtraction of $382,200 is well below the cap (US-OR-dr-ors317a-code.txt).
 
 **Step 5 -- Tax base.**
-- Oregon commercial activity: $1,950,000 (not yet confirmed)
-- Less exclusion: ($1,000,000) (not yet confirmed)
-- Less subtraction: ($382,200) (not yet confirmed)
-- Tax base: $567,800 (not yet confirmed)
+- Oregon commercial activity: $1,950,000
+- Less exclusion: ($1,000,000)
+- Less subtraction: ($382,200)
+- Tax base: $567,800
 
 **Step 6 -- Compute CAT.**
 - Flat: $250
-- Variable: 0.57% × $567,800 = $3,236.46 (not yet confirmed)
-- **Total CAT: $3,486.46** (not yet confirmed)
+- Variable: 0.57% × $567,800 = $3,236.46
+- **Total CAT: $3,486.46**
 
 **Step 7 -- Estimated payments.** Annual liability below $5,000 -- quarterly estimated payments not strictly required, but PineCloud should prudently pay quarterly to stay within the 80% safe harbor in case 2026 commercial activity grows.
 
-**Step 8 -- Interaction with Oregon corporate excise tax.** PineCloud is also subject to Oregon corporate excise tax under ORS Chapter 317 if it has nexus for excise-tax purposes. Post-Wayfair, the Department's position is that economic nexus is sufficient for the excise tax as well, and the $1,950,000 of Oregon sales clearly exceeds the bright-line factor-presence sales threshold for excise tax (also $750,000). PineCloud will need to apportion its net income to Oregon under the single-sales-factor formula and pay corporate excise tax in addition to CAT. (not yet confirmed)
+**Step 8 -- Interaction with Oregon corporate excise tax.** PineCloud is also subject to Oregon corporate excise tax under ORS Chapter 317 if it has nexus for excise-tax purposes. Post-Wayfair, the Department's position is that economic nexus is sufficient for the excise tax as well, and the $1,950,000 of Oregon sales clearly exceeds the bright-line factor-presence sales threshold for excise tax (also $750,000; the excise-tax threshold figure is in the Not yet confirmed: list in Sources). PineCloud will need to apportion its net income to Oregon under the single-sales-factor formula and pay corporate excise tax in addition to CAT.
 
 **Step 9 -- Sourcing audit risk.** The principal audit risk for PineCloud is the sourcing methodology: does "Oregon customer" mean billing address, or actual end-user location? For B2B SaaS where the customer is a multi-state enterprise, the Department of Revenue has accepted billing-address sourcing as a reasonable approximation under ORS 317A.128(2), but practitioners should document the methodology and apply it consistently. If a single large Oregon-billed customer has primarily California-based users, an alternative reasonable approximation (proration by user count) may be more accurate and should be considered.
 
@@ -427,11 +427,11 @@ Refuse to produce a CAT return or definitive CAT advice -- and route to a creden
 
 Before signing off on any CAT return or planning memo produced under this skill, run the following self-checks:
 
-1. Did the taxpayer's Oregon commercial activity exceed $750,000? If yes, registration confirmed? (not yet confirmed)
-2. Did the taxpayer's Oregon commercial activity exceed $1,000,000? If yes, tax owed? (not yet confirmed)
-3. Was the 35% subtraction computed on the larger of Oregon-apportioned COGS or Oregon-apportioned labor? Both computed and compared? (not yet confirmed)
+1. Did the taxpayer's Oregon commercial activity exceed $750,000? If yes, registration confirmed? (US-OR-dr-dor-cat.txt: 'Registration Threshold $750,000+')
+2. Did the taxpayer's Oregon commercial activity exceed $1,000,000? If yes, tax owed? (US-OR-dr-dor-cat.txt: 'Filing Threshold $1 million +')
+3. Was the 35% subtraction computed on the larger of Oregon-apportioned COGS or Oregon-apportioned labor? Both computed and compared? (US-OR-dr-lro-basic-facts-2026.pdf: '35% of the greater of input costs or labor costs')
 4. Is the labor subtraction respecting the $500,000 per-employee cap?
-5. Is the subtraction below the 95%-of-commercial-activity ceiling? (not yet confirmed)
+5. Is the subtraction below the 95%-of-commercial-activity ceiling? (US-OR-dr-ors317a-code.txt: 'may not exceed 95 percent')
 6. Are grocery sales excluded if applicable?
 7. Are motor vehicle fuel receipts excluded if applicable?
 8. Are receipts from sales of fixed assets excluded?
@@ -439,29 +439,38 @@ Before signing off on any CAT return or planning memo produced under this skill,
 10. Is the sourcing methodology consistent with prior years and documented?
 11. If the taxpayer is a unitary group, was the $1M exclusion applied at group level (not per-entity)?
 12. Was the annual liability checked against the $5,000 threshold for quarterly estimated-payment obligation?
-13. If quarterly payments were due, did the cumulative payments meet 80% of the actual annual liability? (not yet confirmed)
+13. If quarterly payments were due, did the cumulative payments meet 80% of the actual annual liability? (the 80% figure is in the Not yet confirmed: list in Sources; the archived OR-CAT instructions use a 90% example and a 25%-of-safe-harbor test)
 14. For C-corporations, has the separate Oregon corporate excise tax obligation been confirmed?
 15. Has CAT been included as a deductible state tax on the federal return?
 
 
 ## Sources
 
-Not yet confirmed: the $250 flat amount, 0.57% rate, $1,000,000 exclusion,
-$750,000 registration threshold, 35% subtraction, $500,000 labor cap, 95%
-subtraction cap, nexus dollar factors, quarterly dates, penalty amounts and
-the 8% 2025 interest rate below are not tied to an archived capture; the
-archived captures listed in the table cover only the DOR home page, the PIT
-page, and ORS Chapter 316 (not CAT's ORS Chapter 317A).
+Not yet confirmed: the 80%-of-liability estimated-payment safe harbor, the
+excise-tax $750,000 factor-presence sales threshold (Step 8 of Example 3),
+the first-year filer safe harbor, the 5% late-filing/late-payment penalty
+combination, and the worked-example figures are not tied to an archived
+capture; the archived captures now cover the $250 flat amount, 0.57% rate,
+$1,000,000 exclusion, $750,000 registration threshold and 30-day deadline,
+35% subtraction, $500,000 labor cap, 95% subtraction cap, the $750,000/$50,000/
+25% nexus factors, the April 15 annual return due date, the $5,000 estimated-
+payment trigger, quarterly payment dates, the $100-per-month registration
+penalty (up to $1,000), the 5% quarterly underpayment penalty, and the 9
+percent 2025 interest rate.
 
 | Source | URL | Read on |
 | --- | --- | --- |
 | Oregon Department of Revenue (home) | https://www.oregon.gov/dor | 2026-10-28 |
 | Oregon Legislative Assembly -- ORS Chapter 316 | https://www.oregonlegislature.gov/bills_laws/ors/ors316.html | 2026-10-28 |
+| Oregon DOR -- Corporate Activity Tax page ($250 + 0.57% over $1M; $750,000 registration threshold; $1M filing threshold) | https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx | 2026-10-31 |
+| Form OR-CAT 2025 instructions (30-day registration; $5,000 estimated-payment trigger; quarterly dates; $100/month registration penalty; 5% underpayment penalty; April 15 due date) | https://www.oregon.gov/dor/forms/FormsPubs/form-or-cat-instr_106-003-1_2025.pdf | 2026-11-04 |
+| ORS Chapter 317A (nexus $750,000/25% factors; 95% subtraction cap; annual return by 15th day of fourth month) | https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html | 2026-11-04 |
+| Oregon LRO Basic Facts 2026 (CAT = $250 + 0.57% over $1M; 35% subtraction; grocery exclusion) | https://www.oregonlegislature.gov/lro/Documents/Basic%20Facts%202026.pdf | 2026-11-04 |
+| Oregon Revenue Bulletin 2025 interest rates (9 percent Tier One for 2025) | https://www.oregon.gov/dor/forms/FormsPubs/Annual%20Interest%20Rate%20Update%20for%202025.pdf | 2026-11-04 |
 
-Not yet confirmed against archived sources: the Oregon Department of Revenue
-Corporate Activity Tax page (www.oregon.gov/dor/programs/businesses/Pages/corporate-activity-tax.aspx)
-cited in the provenance list has no archived capture and is therefore not
-listed as a confirmed source above.
+The Oregon DOR Corporate Activity Tax page cited in the provenance list is
+now archived (US-OR-dr-dor-cat.txt) and is listed as a confirmed source
+above.
 
 This skill is derived from the following primary sources:
 
