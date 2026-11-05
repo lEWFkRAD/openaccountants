@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # WV Sales Tax
 
-## Skill Metadata
+### Skill Metadata
 
 **Skill Metadata**
 
@@ -35,13 +35,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Confidence Coverage | T1: state rate, basic taxability, filing mechanics. T2: broad service taxation, SaaS taxability, local rate determination. T3: audit defense, complex transactions, penalty abatement. |
 | Format | Restructured to Q1 execution format, April 2026 |
 
-## Confidence Tier Definitions
+### Confidence Tier Definitions
 
 - **[T1] Tier 1 -- Deterministic.** Apply exactly as written. No reviewer judgement required.
 - **[T2] Tier 2 -- Reviewer Judgement Required.** Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
 - **[T3] Tier 3 -- Out of Scope / Escalate.** Do not guess. Escalate to a licensed tax professional.
 
-## Step 0: Client Onboarding Questions
+### Step 0: Client Onboarding Questions
 
 Before proceeding with any West Virginia sales tax analysis, collect the following from the client: [T1]
 
@@ -148,7 +148,7 @@ Before proceeding with any West Virginia sales tax analysis, collect the followi
 - **Late payment penalty** — 0.5% per month, up to 25%. (T1)
 - **Interest** — Rate set by statute, based on federal underpayment rate. (T1)
 
-## Step 4: Deductibility / Exemptions
+### Step 4: Deductibility / Exemptions
 
 Exemptions identified in Step 2 above are the primary deductibility rules for West Virginia. Key categories: [T1]
 
@@ -178,11 +178,11 @@ Exemptions identified in Step 2 above are the primary deductibility rules for We
 
 - **SST membership status** — Full SST member. SSTRS and CSPs available. (T1)
 
-## Step 6: Filing Deadlines and Penalties
+### Step 6: Filing Deadlines and Penalties
 
 Refer to Step 3 for filing frequencies and due dates. [T1]
 
-## PROHIBITIONS
+### PROHIBITIONS
 
 - **Never assume services exempt** — NEVER assume services are exempt in West Virginia. WV taxes virtually ALL services, including professional services. (T1)
 - **Never assume custom software exempt** — NEVER assume custom software is exempt in WV. Unlike most states, WV taxes custom software. (T1)
@@ -304,7 +304,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Input:** Customer buys $25 OTC pain reliever and $20 dietary supplement. Combined rate = 6%.
 **Expected output:** OTC drug: exempt. Supplement: taxable. Tax = $20 x 6% = $1.20. Total = $46.20.
 
-## Reviewer Escalation Protocol
+### Reviewer Escalation Protocol
 
 **Reviewer Escalation Protocol**
 
@@ -316,7 +316,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 | Penalty abatement or voluntary disclosure | Escalate to licensed professional with state-specific experience. |
 | Ambiguous taxability of a product/service | Present both interpretations to reviewer with supporting authority. |
 
-## Contribution Notes
+### Contribution Notes
 
 - This skill follows the Q1 execution format (Step 0 through Step 7).
 - All rules are tagged [T1], [T2], or [T3] per the Confidence Tier Definitions.
@@ -324,11 +324,11 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - To update this skill, submit a pull request with the specific section, supporting statutory authority, and effective date of the change.
 - All changes require validation by a US CPA or EA before merging.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+The most up-to-date, verified version of this skill is maintained by OpenAccountants. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
@@ -339,11 +339,47 @@ The most up-to-date, verified version of this skill is maintained at [openaccoun
 This guide is maintained by the OpenAccountants network — accountants who put
 their name behind the tax answers AI gives people. The live, always-current
 version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
+the OpenAccountants site.
 
-- Use it in your AI: https://www.openaccountants.com/connect
+- Use it in your AI through the OpenAccountants connect page.
 - Meet the accountants: https://www.openaccountants.com/network
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
+> licensed professional before relying on them.## Who this applies to
+
+See the onboarding questions and scope notes above.
+
+## Rates, bands and thresholds
+
+See the rate table above (6% state rate per W. Va. Code §11-15-3, archived US-WV-dr-code-11-15-3.html).
+
+## The taxable base
+
+See the deductibility and exemptions section above.
+
+## Deadlines and filing
+
+See the filing deadlines section above.
+
+## Penalties and interest
+
+See the penalties content above (band thresholds listed under Not yet confirmed in Sources).
+
+## Cross-border points
+
+No separate cross-border rules beyond the general situs rules above.
+
+## Worked examples
+
+See the edge-case registry above (all EC entries are worked examples).
+
+## Ask the client first
+
+See the client onboarding questions above.
+
+## Sources
+
+Not yet confirmed: the filing-frequency band thresholds, the CST-200 due-date rule, and the edge-case scenario figures listed under Not yet confirmed in Sources.
+
+
