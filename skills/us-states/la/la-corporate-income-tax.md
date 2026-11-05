@@ -10,8 +10,9 @@ description: >
   corporate income tax", "CIFT-620", "LA corporation income tax",
   "Louisiana franchise tax repeal", "LDR corporate". Source-cited draft;
   rate, due date, threshold, and franchise repeal verified from the LDR
-  Corporation Income Tax page 2026-10-28; apportionment detail
-  not confirmed.
+  Corporation Income Tax page 2026-10-28; apportionment statute
+  R.S. 47:287.95 confirmed in US-LA-dr-legis-title47-toc.txt; the
+  unitary-combination requirement is listed under Not yet confirmed in Sources.
 jurisdiction: US-LA
 category: international
 tax_year: 2026
@@ -29,7 +30,7 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. Covers Louisiana corporation income tax (Form CIFT-620), the flat-rate reform, the franchise-tax repeal, and filing mechanics. **Source status:** the LDR Corporation Income Tax page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/, page "Updated July 07, 2026") was fetched and its text verified 2026-10-28 -- the **5.5% flat rate, the May 15 due date, the $1,000 estimated threshold, the CIFT-620/CIFT-620EXT-V form IDs, and the franchise repeal are verified quotes**. **Apportionment/unitary detail sits in La. R.S. 47 behind a session-state legislature site**, so the apportionment formula and combined-report mechanics are not confirmed.
+Source-cited draft, run of 2026-10-28. Covers Louisiana corporation income tax (Form CIFT-620), the flat-rate reform, the franchise-tax repeal, and filing mechanics. **Source status:** the LDR Corporation Income Tax page (https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/, page "Updated July 07, 2026") was fetched and its text verified 2026-10-28 -- the **5.5% flat rate, the May 15 due date, the $1,000 estimated threshold, the CIFT-620/CIFT-620EXT-V form IDs, and the franchise repeal are verified quotes**. The apportionment statute is **R.S. 47:287.95, "Determination of Louisiana apportionment percent"** (US-LA-dr-legis-title47-toc.txt); the unitary-combination requirement sits in article text behind the session-state legislature site and is listed under Not yet confirmed in Sources.
 
 ## Rates, bands and thresholds
 
@@ -48,8 +49,8 @@ A Louisiana Corporation Income Tax return is generally required for (LDR page, v
 | Item | Rule | Source status |
 |---|---|---|
 | Rate | **flat 5.5%** for tax periods beginning on or after Jan 1, 2025; prior graduated brackets repealed | **verified** (LDR page) |
-| Base | federal taxable income with Louisiana modifications; Louisiana-source income for multistate filers | duty verified; modification detail not confirmed |
-| Apportionment | multistate apportionment formula and any unitary-combination requirement: statute numbering not confirmed (legis.la.gov serves only a JS shell to plain fetchers) | not confirmed |
+| Base | federal taxable income with Louisiana modifications; Louisiana-source income for multistate filers | duty verified; modification detail listed under Not yet confirmed in Sources |
+| Apportionment | multistate apportionment: R.S. 47:287.95 "Determination of Louisiana apportionment percent" (US-LA-dr-legis-title47-toc.txt); any unitary-combination requirement | formula statute verified; combination listed under Not yet confirmed in Sources |
 | Franchise tax | repealed for periods beginning on/after 2026-01-01 | **verified** |
 | Exemption | IRS ruling must be furnished to LDR | verified |
 
@@ -61,13 +62,13 @@ A Louisiana Corporation Income Tax return is generally required for (LDR page, v
 
 ## Penalties and interest
 
-- Late payment/underpayment: interest and penalties accrue from the original due date (extension-to-file rule, verified); the percentage tiers are not confirmed.
-- Federal-adjustment reporting: if a federal adjustment changes Louisiana liability, the taxpayer must report to LDR within the required period (verified duty; the deadline is not confirmed).
+- Late payment/underpayment: interest and penalties accrue from the original due date (extension-to-file rule, verified); interest arises under R.S. 47:1601 ("Interest on unpaid taxes") and penalties under R.S. 47:1602 ("Penalty for failure to make timely return; penalties related to nonpayment or underpayment") per US-LA-dr-legis-title47-toc.txt -- the percentage tiers are listed under Not yet confirmed in Sources.
+- Federal-adjustment reporting: if a federal adjustment changes Louisiana liability, the taxpayer must report to LDR within the required period (verified duty; the deadline is listed under Not yet confirmed in Sources).
 
 ## Cross-border points
 
 - Foreign (out-of-state) corporations doing business in Louisiana file CIFT-620 and apportion (see `la-cross-border`).
-- S corporations may be taxed at the entity level for Louisiana even when pass-through federally -- flag for any S-corp client with Louisiana source (verified category; scope not confirmed).
+- S corporations may be taxed at the entity level for Louisiana even when pass-through federally -- "S corporations required to file as corporations for Louisiana income tax purposes" (US-LA-corp-inc-franchise.html) -- flag for any S-corp client with Louisiana source (verified category; scope listed under Not yet confirmed in Sources).
 - No franchise tax layer for 2026+ filers (verified repeal).
 
 ## Worked examples
@@ -119,7 +120,7 @@ The `required` step shows the liability exceeds the $1,000 threshold by $200, so
 | LDR Corporation Income Tax (rate, due date, threshold, forms, franchise repeal, extension rule) | https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/ | 2026-10-28 |
 | La. R.S. 47 (Title 47 table of contents; article text behind session state) | https://legis.la.gov/legis/Laws_Toc.aspx?folder=90&title=47 | 2026-10-29 |
 
-Not yet confirmed: the apportionment formula and unitary-combination requirement (the R.S. 47:287.83 numbering was not verified -- legis.la.gov serves only a JS shell to plain fetchers); S-corporation entity-level scope; penalty/interest percentage tiers; the federal-adjustment reporting deadline.
+Not yet confirmed: the apportionment formula and unitary-combination requirement (the R.S. 47:287.83 numbering was not verified -- legis.la.gov serves only a JS shell to plain fetchers); S-corporation entity-level scope; penalty/interest percentage tiers; the federal-adjustment reporting deadline; the detail of Louisiana modifications to federal taxable income.
 
 ## Talk to a verified accountant
 
