@@ -62,7 +62,7 @@ Where do employees physically work? Are any in Indiana (reciprocity)? Are contra
 | UIA Tax Rates and Liability FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/tax-rates-and-liability | 2026-11-05 |
 | UIA Filing Requirements FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/filing-requirements | 2026-11-05 |
 | Michigan Tax Text 2025 (withholding + UIA sections) | https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/Taxes/Business/MI-Tax-Text-2025.pdf | 2026-10-25 |
-| Michigan Legal MCT (MCL citations) | https://www.michigan.gov/legislature | 2026-10-25 |
+| Michigan Tax Text 2025 (withholding + UIA sections, US-MI-dr-tax-text-2025.txt) | https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/Taxes/Business/MI-Tax-Text-2025.pdf | 2026-10-25 |
 
 Not yet confirmed: the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text), and the PFML employer-paid benefit levels for 2026 (the archived UIA FAQ covers only the 0.2% employee premium).
 
