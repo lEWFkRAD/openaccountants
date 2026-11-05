@@ -16,7 +16,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ## Who this applies to
 
 - **Dealers**: any seller or lessor who leases, rents or sells tangible personal property or digital products in Louisiana, furnishes taxable services, holds property for resale, maintains a business location, operates through full-time nonresident salesmen or agents, keeps in-state inventory for lease/rental/delivery, or otherwise meets the dealer definition at R.S. 47:301(4) -- must register, collect, and file with LDR (LDR General Sales & Use Tax page, verified 2026-10-29).
-- **Remote/out-of-state sellers**: collect Louisiana tax when in-state activity triggers the dealer definition; the Louisiana Sales Tax Commission is cited as the central compliance portal (portal role listed under Not yet confirmed in Sources).
+- **Remote/out-of-state sellers**: collect Louisiana tax when in-state activity triggers the dealer definition; the Louisiana Sales Tax Commission is cited as the central compliance portal (portal role listed under Not-yet-confirmed in Sources).
 - **Consumers**: owe consumer use tax on untaxed out-of-state purchases (R.S. 47:302(K)).
 
 ## Rates, bands and thresholds
@@ -28,7 +28,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Business utilities | 2% (boiler fuel 5%) (verified, LDR FAQ) |
 | Direct marketers | 9% from 2025 (was 8.45%) (verified, Sales Tax Reform FAQ) |
 | Consumer use tax | 8.45% in lieu of actual local rate (verified, LDR Consumer Use Tax page) |
-| Local (parish/city) rates | in addition to state (US-LA-sales-faq-rate.html: "Sales and use taxes levied by political subdivisions of the state are in addition to the sales and use taxes levied by the state"); Louisiana remains among the highest combined-rate states -- exact range and maximum listed under Not yet confirmed in Sources |
+| Local (parish/city) rates | in addition to state (US-LA-sales-faq-rate.html: "Sales and use taxes levied by political subdivisions of the state are in addition to the sales and use taxes levied by the state"); Louisiana remains among the highest combined-rate states -- exact range and maximum listed under Not-yet-confirmed in Sources |
 | SST member | No |
 
 ## The taxable base
@@ -39,16 +39,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ## Deadlines and filing
 
 - Sales tax returns and payments are due **on or before the 20th of the month following the close of the calendar month or calendar quarter** of the reporting period (verified quote, LDR page 2026-10-29).
-- Parish self-administration: local compliance can be separate from state filing (structural; parish list detail listed under Not yet confirmed in Sources).
+- Parish self-administration: local compliance can be separate from state filing (structural; parish list detail listed under Not-yet-confirmed in Sources).
 
 ## Penalties and interest
 
-- Late-filing/late-payment penalties and interest arise under R.S. 47:1601 ("Interest on unpaid taxes") and R.S. 47:1602 ("Penalty for failure to make timely return; penalties related to nonpayment or underpayment") per US-LA-dr-legis-title47-toc.txt -- R.S. 47:305 is "Exemptions from the tax," not the penalty section -- and the percentages are listed under Not yet confirmed in Sources.
+- Late-filing/late-payment penalties and interest arise under R.S. 47:1601 ("Interest on unpaid taxes") and R.S. 47:1602 ("Penalty for failure to make timely return; penalties related to nonpayment or underpayment") per US-LA-dr-legis-title47-toc.txt -- R.S. 47:305 is "Exemptions from the tax," not the penalty section -- and the percentages are listed under Not-yet-confirmed in Sources.
 
 ## Cross-border points
 
-- Destination-based sourcing (pre-existing; listed under Not yet confirmed in Sources).
-- Economic nexus threshold ($100,000 sales or 200 transactions) -- listed under Not yet confirmed in Sources; the LDR page frames remote collection through the dealer definition.
+- Destination-based sourcing (pre-existing; listed under Not-yet-confirmed in Sources).
+- Economic nexus threshold ($100,000 sales or 200 transactions) -- listed under Not-yet-confirmed in Sources; the LDR page frames remote collection through the dealer definition.
 
 ## Worked examples
 
