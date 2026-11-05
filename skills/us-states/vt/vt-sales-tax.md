@@ -173,16 +173,6 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ve
 Refer to Step 3 for filing frequencies and due dates. [T1]
 
 
-## Ask the client first
-
-- **Clothing exemption assumption** — NEVER assume clothing is exempt in Vermont. It is fully taxable. (T1)
-- **Meals rate misapplication** — NEVER apply the 6% sales tax rate to restaurant meals. Meals are taxed at 9% (meals tax), not 6%. (T1)
-- **SaaS exemption assumption** — NEVER assume SaaS is exempt in Vermont. It is taxable. (T1)
-- **Local option universality assumption** — NEVER assume all municipalities have the local option tax. Not all have adopted it. (T2)
-- **Wrong due date** — NEVER file Vermont returns by the 20th. The due date is the 25th. (T1)
-- **Grocery food taxation** — NEVER tax grocery food in Vermont. Unprepared food is exempt. (T1)
-- **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. (T1)
-
 ## Penalties and interest
 
 ### 4.3 Penalties and Interest [T1]
@@ -211,6 +201,16 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 ### 3.3 SST Registration [T1]
 
 - **SST registration status** — Full SST member. SSTRS and CSPs available. (T1)
+
+## Ask the client first
+
+- **Clothing exemption assumption** — NEVER assume clothing is exempt in Vermont. It is fully taxable. (T1)
+- **Meals rate misapplication** — NEVER apply the 6% sales tax rate to restaurant meals. Meals are taxed at 9% (meals tax), not 6%. (T1)
+- **SaaS exemption assumption** — NEVER assume SaaS is exempt in Vermont. It is taxable. (T1)
+- **Local option universality assumption** — NEVER assume all municipalities have the local option tax. Not all have adopted it. (T2)
+- **Wrong due date** — NEVER file Vermont returns by the 20th. The due date is the 25th. (T1)
+- **Grocery food taxation** — NEVER tax grocery food in Vermont. Unprepared food is exempt. (T1)
+- **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. (T1)
 
 ## Worked examples
 
