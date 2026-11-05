@@ -499,7 +499,7 @@ Before finalizing any NC payroll deliverable produced under this skill, the cred
 - NCGS §96-9.2 (Contribution rates)
 - NCGS §96-9.3 (Wage base)
 - NCGS §96-9.4 (Workforce investment allocation)
-- Wage and Hour Act provisions (archived chapter text US-NC-dr-ncleg-ch95-art2a.html)
+- North Carolina wage-and-hour rules are outside this skill's tax scope; the chapter text is archived as US-NC-dr-ncleg-ch95-art2a.html for reference.
 - NCGS §110-129.2 (New hire reporting)
 - NCGS §95-241 et seq. (Employee Fair Classification Act, S.L. 2017-203)
 
