@@ -334,21 +334,10 @@ The most up-to-date, verified version of this skill is maintained by OpenAccount
 
 ---
 
-## Talk to a verified accountant
 
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-the OpenAccountants site.
+## Who this applies to
 
-- Use it in your AI through the OpenAccountants connect page.
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.## Who this applies to
-
-See the onboarding questions and scope notes above.
+See the client onboarding questions above (employers and retailers making taxable WV sales).
 
 ## Rates, bands and thresholds
 
@@ -380,6 +369,24 @@ See the client onboarding questions above.
 
 ## Sources
 
+| Source | URL | Read on |
+| --- | --- | --- |
+| W. Va. Code §11-15-3 (6% state rate) | https://legis.wv.gov/code/chapter/11/15/3 | 2026-11-05 |
+
 Not yet confirmed: the filing-frequency band thresholds, the CST-200 due-date rule, and the edge-case scenario figures listed under Not yet confirmed in Sources.
 
+## Talk to a verified accountant
 
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+the OpenAccountants site.
+
+- Use it in your AI through the OpenAccountants connect page.
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them.## Who this applies to
+
+See the onboarding questions and scope notes above.
