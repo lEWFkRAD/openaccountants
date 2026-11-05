@@ -12,17 +12,17 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MI Pension Retirement Subtraction
 
-## Michigan Pension and Retirement Income Subtraction
+### Michigan Pension and Retirement Income Subtraction
 
 Michigan Pension and Retirement Income Subtraction
 
-## Scope and Quality tier callout
+### Scope and Quality tier callout
 
 **Scope.** This skill covers the Michigan retirement and pension benefits subtraction taken on Schedule 1 (Form MI-1040), line 27, supported by Form 4884 ("Michigan Pension Schedule") and its companion worksheets, for full-year Michigan resident individuals. It covers the three birth-year tiers established by Public Act 38 of 2011 ("Snyder pension tax"), the four-year phase-in restoration of the pre-2012 subtraction enacted by Public Act 4 of 2023 ("Lowering MI Costs Plan"), and the limited Tier 3 Social-Security-offset relief added by Public Act 24 of 2025. It also covers the all-income Michigan Standard Deduction available at age 67 and the unlimited public-retirement-benefits election for retired qualified Fire, Police and County Corrections officers under MCL 206.30(11). Tax years 2025 and 2026 are the focus, with side-by-side figures for tax years 2023, 2024, 2025, and 2026.
 
 **Quality tier.** Q3 — AI-drafted, not independently verified. All caps, percentages, and form line references were sourced on 2026-05-28 from the official 2025 Form 4884 instructions published by the Michigan Department of Treasury and from Revenue Administrative Bulletin 2026-1. A Michigan-licensed CPA or Enrolled Agent must review every Form 4884 before filing because the multi-section "claim the most beneficial" election is a per-taxpayer optimization, not a deterministic computation.
 
-## Section 1: Metadata
+### Section 1: Metadata
 
 **Metadata table**
 
@@ -60,7 +60,7 @@ Michigan Pension and Retirement Income Subtraction
 | 12 | Michigan House Fiscal Agency — Three-Tiered Treatment of Retirement Income (March 2023 snapshot) | https://www.house.mi.gov/hfa/PDF/FiscalSnapshot/Tax_Three_Tiered_Treatment_of_Retirement_Income_Mar2023.pdf |
 | 13 | MERS of Michigan — Changes to Michigan Tax on Retirement and Pension Benefits | https://www.mersofmich.com/retiree/resources/changes-to-michigan-tax-on-retirement-and-pension-benefits/ |
 
-## Section 2: Quick reference — the three tiers and the PA 4 phase-in
+### Section 2: Quick reference — the three tiers and the PA 4 phase-in
 
 ### 2.1 The three legacy tiers (post-PA 38 of 2011)
 
@@ -112,7 +112,7 @@ PA 4 of 2023 (the Lowering MI Costs Plan) was signed by Governor Whitmer on Marc
 
 - **Always-exempt categories** — Regardless of tier, regardless of phase-in year, the following are fully subtracted from Michigan AGI on Schedule 1, line 11 (not on Form 4884) and are fully exempt from Michigan income tax: Social Security benefits (taxable portion included in federal AGI); Railroad retirement benefits (Tier 1 and Tier 2 RRTA benefits); Retirement income from service in the U.S. Armed Forces; Retirement income from the Michigan National Guard. However — and this is the trap — when those amounts are also reported on Schedule 1, line 11, they reduce the cap available on Form 4884 for private retirement benefits (see Worksheets 3.1, 3.2, 3.3 line 2 / line 10). The exempt amount is "used up" against the same cap that private pension income would consume.  _(Schedule 1 line 11; Worksheets 3.1, 3.2, 3.3)_
 
-## Section 3: The PA 4 of 2023 phase-in narrative
+### Section 3: The PA 4 of 2023 phase-in narrative
 
 ### 3.1 What was repealed and what wasn't
 
@@ -133,7 +133,7 @@ Three reasons the tiers continue to matter even at full restoration:
 2. **The all-income $20,000/$40,000 standard deduction at age 67+ is still on the menu** as an alternative to the phased pension subtraction. For a Tier 2 or Tier 3 taxpayer with substantial non-retirement income (e.g., Schedule C self-employment, large investment income), the all-income deduction may be more valuable than even the 100% phased pension subtraction. The taxpayer must compute both and "claim the most beneficial" (Form 4884 questionnaire, page 22 of instructions, footnote †).
 3. **The Tier 3 Social-Security-offset relief under PA 24 of 2025** is only available for Tier 3 (born after 1952) and only for TY 2026 through TY 2028. Tier 2 taxpayers using the $20,000/$40,000 standard deduction must still offset by Social Security benefits separately deducted on Schedule 1 line 14.
 
-## Section 4: Tier 1 deterministic rules
+### Section 4: Tier 1 deterministic rules
 
 **Tier 1 deterministic rules table**
 
@@ -160,7 +160,7 @@ Three reasons the tiers continue to matter even at full restoration:
 | MI-PEN-T1-19 | The Section A/B/C/D subtraction flows to **Schedule 1 (MI-1040) line 27**, **not** line 25 (additions) or line 11 (other subtractions). Schedule 1 line 11 is where Social Security / military / railroad are subtracted. | 4884 Instr. p. 21 (each section); Schedule 1 |
 | MI-PEN-T1-20 | The 4.25% Michigan flat rate (MCL 206.51) applies after the subtraction is netted from federal AGI. There is no graduated effect, but the subtraction directly lowers Michigan taxable income dollar-for-dollar. | MCL 206.51 |
 
-## Section 5: Tier 2 judgment rules
+### Section 5: Tier 2 judgment rules
 
 These rules require professional judgment. Each row carries a "flag for review" indicator — the model may compute the result but the human verifier must sign off before filing.
 
@@ -179,7 +179,7 @@ These rules require professional judgment. Each row carries a "flag for review" 
 | MI-PEN-T2-09 | **Married filing separately.** Single limits apply to MFS taxpayers (4884 Instr. p. 21 NOTE). MFS taxpayers cannot use the spouse's year of birth even if the spouse is older. The "key person" for MFS is always the filer (4884 Instr. p. 22 Q3). | Deterministic — apply single caps. No discretion. |
 | MI-PEN-T2-10 | **Interaction with Michigan flow-through entity tax (FTE) elections.** A taxpayer receiving K-1 distributions from a PA 135 of 2021 electing flow-through entity does **not** include those K-1 distributions on Form 4884 — they are business income, not retirement income, even if the recipient is age 70. | Confirm K-1 income is reported on Schedule 1 line 1 / line 2 (business additions/subtractions), not on Form 4884. **Watch for misclassification on platform-prepared returns**. |
 
-## Section 6: Worked examples
+### Section 6: Worked examples
 
 All examples assume tax year **2025** unless otherwise noted, Michigan resident the entire year, and a 4.25% flat rate. All dollar figures are calculation-stage, before personal exemptions and credits.
 
@@ -293,7 +293,7 @@ This is exactly the dynamic the Lowering MI Costs Plan was designed to produce: 
 | Line 5 (total retirement = IRA + private pension) | $75,000 |
 | Line 6 (smaller of 4 or 5) | $49,423 |
 
-## Section 7: Form 4884 mapping
+### Section 7: Form 4884 mapping
 
 ### 7.1 Form 4884 structure
 
@@ -348,7 +348,7 @@ Worksheet 2 is not Form 4884 — it is filed on Schedule 1 directly (the $20,000
 | MFJ both 67+ | $40,000 | Yes (same offsets) |
 | MFJ one 67+, one not | $20,000 (older spouse only) | Yes |
 
-## Section 8: Refusal catalogue
+### Section 8: Refusal catalogue
 
 **Refusal catalogue table**
 
@@ -367,7 +367,7 @@ Worksheet 2 is not Form 4884 — it is filed on Schedule 1 directly (the $20,000
 | MI-PEN-R-11 | Public Act 24 of 2025 fact patterns where the Social Security offset interaction with the standard deduction is dispositive | **Computational caution** — RAB 2026-1 must be confirmed against the actual published text before relying on the Tier 3 offset relief; flag with [VERIFY:] for human verifier |
 | MI-PEN-R-12 | Distributions from Michigan-source pension to non-resident — Michigan source-rule analysis | **Refuse** — non-resident return out of scope |
 
-## Section 9: Provenance
+### Section 9: Provenance
 
 ### 9.1 Primary statutory and form authorities
 
@@ -398,15 +398,44 @@ Items marked [VERIFY:] inline in Section 2.3, Section 2.4, Section 6.2, and Sect
 - The PA 24 of 2025 effective date — confirm whether the Tier 3 Social Security offset relief begins in TY 2025 (October 2025 effective date) or TY 2026 (most likely reading).
 - The scope of PA 24 of 2025 — confirm whether the offset relief applies only to Social Security or also to railroad / military / National Guard retirement offsets in Worksheet 2.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. The Form 4884 "claim the most beneficial subtraction" architecture requires per-taxpayer optimization that no software output can substitute for a credentialed review. All outputs must be reviewed and signed off by a qualified Michigan-licensed CPA or Enrolled Agent before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Who this applies to
+Michigan retirees and their spouses claiming the retirement and pension benefits subtraction on Form 4884.
+
+## Rates, bands and thresholds
+The three tiers and the PA 4 phase-in percentages and dollar caps are in Section 2 quick reference.
+
+## The taxable base
+Qualifying retirement and pension benefits (public and private) as defined in Section 3; Social Security is a separate subtraction.
+
+## Deadlines and filing
+Form 4884 is filed with the MI-1040 by April 15; no separate due date.
+
+## Penalties and interest
+Standard MI-1040 penalties and interest apply to an overstated subtraction (see mi-income-tax).
+
+## Cross-border points
+The subtraction is Michigan-only; other states' treatment of the same pensions is outside this skill (see mi-cross-border-tax).
+
+## Worked examples
+Section 6 contains the worked examples for each tier and cohort.
+
+## Ask the client first
+What year was each spouse born? What are the public and private benefit amounts? Is Social Security also being claimed?
+
+## Sources
+| Source | URL | Read on |
+|---|---|---|
+| RAB 2026-1 | https://www.michigan.gov/treasury/taxation/pdf/current/rab/RAB-2026-1.pdf | 2026-11-05 |
+
+Not yet confirmed: the TY 2026 indexed cap dollar figure ($67,610 / $135,220 reported in secondary summaries) is not printed in the archived RAB text.
 
 ## Talk to a verified accountant
 

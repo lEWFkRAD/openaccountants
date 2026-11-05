@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MI Homestead Credit
 
-## Michigan Homestead Property Tax Credit — MI-1040CR (TY 2025)
+### Michigan Homestead Property Tax Credit — MI-1040CR (TY 2025)
 
 > **Scope.** This skill covers the **regular Form MI-1040CR** for full-year Michigan residents who **own or rent** their principal residence and whose total household resources are at or below the statutory ceiling. It is one of the largest refundable state credits in the US — Michigan Treasury data shows roughly **$300M/year** in refunds across all claim variants. Every Michigan return preparer encounters it.
 >
@@ -25,7 +25,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 >
 > **Quality tier.** Q3 — AI-drafted, not independently verified. Rates and thresholds were researched on 2026-05-28 from the published TY 2025 MI-1040CR form and instructions on michigan.gov/taxes and from the AARP Foundation Property Tax-Aide knowledge base. A qualified Michigan preparer must review before filing.
 
-## Section 1: Metadata
+### Section 1: Metadata
 
 - **Jurisdiction** — Michigan (US-MI)
 - **Tax type** — Refundable individual income tax credit
@@ -55,7 +55,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 9 | AARP Foundation Property Tax-Aide — Michigan | https://my.aarpfoundation.org/property-taxes/taxpayer-states/michigan/ |
 | 10 | Michigan Taxpayer's Guide (2025 tax year) — Senate Fiscal Agency | https://www.legislature.mi.gov/publications/TaxpayerGuide.pdf |
 
-## Section 2: Quick reference — TY 2025 thresholds
+## Rates, bands and thresholds
 
 **Quick reference — TY 2025 thresholds**
 
@@ -77,7 +77,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 > Every dollar figure above is sourced to the published TY 2025 instructions or the underlying statute. Any figure marked `[VERIFY]` was confirmed in the AARP / TaxSlayer summaries but the preparer should cross-check against the official Treasury PDF before relying on it.
 
-## Section 3: Total Household Resources (THR) — the Michigan-only concept
+### Section 3: Total Household Resources (THR) — the Michigan-only concept
 
 THR is the Michigan-defined income base for the homestead credit. It is **not** federal AGI and **not** Michigan AGI. It is broader than both. This is the single most error-prone area on the credit and is the leading cause of Treasury adjustment letters on MI-1040CR claims.
 
@@ -143,7 +143,7 @@ THR is the Michigan-defined income base for the homestead credit. It is **not** 
 | Michigan AGI | **No** (subtracted) | Senior subtraction may apply |
 | **THR (this credit)** | **Yes, gross amount** | **Yes, gross amount** |
 
-## Section 4: Eligibility — the four gates
+### Section 4: Eligibility — the four gates
 
 A claimant must clear **all four** of these tests to claim the regular MI-1040CR. Failing any one disqualifies the claim.
 
@@ -174,7 +174,7 @@ A claimant must clear **all four** of these tests to claim the regular MI-1040CR
 - **Mobile-home owner renting lot** — If the claimant owns the mobile home and rents the lot/pad: include the $3 per month specific tax paid to the local unit ($36/year) as property tax, plus 23% of the lot rent paid `[VERIFY 23%]` as the rent portion. The mobile-home owner pays the $3/month specific tax under MCL 125.1041, in lieu of ad valorem property tax on the unit.  _(MCL 125.1041)_
 - **Mobile-home owner owning lot** — If the claimant owns both the home and the lot: standard owner computation using actual property tax on the parcel.
 
-## Section 5: The computation — owners
+### Section 5: The computation — owners
 
 - **Regular MI-1040CR formula for non-senior owners** — Step 1.  Property tax paid (line 10) on principal residence, subject to taxable-value cap and prorated for any non-residential or rental use. Step 2.  Floor = 3.2% × Total Household Resources (line 33 × 0.032 on line 34). Step 3.  Tentative credit = (Step 1 − Step 2), if positive. If Step 2 ≥ Step 1, no credit. Step 4.  Credit factor (line 35): 60% (i.e., 0.60) for non-senior, non-disabled regular claimants.  Tentative credit × 0.60. Step 5.  Apply phase-out for THR > $62,500: Reduce by 10% per $1,000 (or part of $1,000) that THR exceeds $62,500. Fully eliminated at THR ≥ $71,500. Step 6.  Cap at $1,900 (TY 2025).  _(TY 2025 MI-1040CR form)_
 
@@ -207,7 +207,7 @@ The Principal Residence Exemption (PRE, formerly "Homestead Exemption") under MC
 
 A claimant should generally have a PRE in place on the same homestead for which they claim the MI-1040CR, but failure to claim the PRE does not disqualify the MI-1040CR.
 
-## Section 6: The computation — renters
+### Section 6: The computation — renters
 
 - **Renter formula** — Step 1.  Property tax equivalent = 23% × rent paid for the year [VERIFY 23%]. Step 2.  Floor = 3.2% × THR. Step 3-6. Same as owners (60% factor, $62,500 phase-out, $1,900 cap).  _(TY 2025 MI-1040CR instructions)_
 - **Senior renter alternate test** — If THR ≤ $30,000 and rent paid exceeds 40% of THR, an alternate computation may produce a larger credit. The taxpayer takes the higher of the two. This is specifically the relief mechanism for the "house poor senior renter" archetype.  _(TY 2025 instructions)_
@@ -216,7 +216,7 @@ A claimant should generally have a PRE in place on the same homestead for which 
 
 - **Rent qualification rules** — - Cash rent paid to a private landlord. - Mobile-home lot rent (separately from any home ownership). - Rent paid to a tax-exempt landlord (e.g., a non-profit, certain subsidized housing) is NOT eligible because the underlying real property paid no tax. Section 8 housing where the landlord pays property tax is eligible, but if the property is wholly tax-exempt the renter cannot claim. - Rent paid by a government agency (housing assistance paid directly to landlord) is NOT the claimant's rent for credit purposes; only the claimant's own portion counts. - College dormitory rent is NOT eligible.
 
-## Section 7: Tier 1 — deterministic rules
+### Section 7: Tier 1 — deterministic rules
 
 - **MI-CR-T1-01** — Maximum credit TY 2025 = $1,900  _(TY 2025 MI-1040CR instructions; MCL 206.520(3))_
 - **MI-CR-T1-02** — THR ceiling TY 2025 = $71,500  _(TY 2025 MI-1040CR instructions)_
@@ -234,7 +234,7 @@ A claimant should generally have a PRE in place on the same homestead for which 
 - **MI-CR-T1-14** — One homestead per household per tax year  _(MCL 206.508(4))_
 - **MI-CR-T1-15** — Credit is refundable — paid as refund or applied against other MI tax  _(MCL 206.520(6))_
 
-## Section 8: Tier 2 — judgment rules
+### Section 8: Tier 2 — judgment rules
 
 - **MI-CR-T2-01 Mid-year move within Michigan** — Prorate property tax / rent between the two homesteads by number of days occupied. The claimant files a single MI-1040CR but lists both homesteads on the supplemental schedule.
 - **MI-CR-T2-02 Move out of Michigan during year** — If MI residency was at least 6 months, prorate property tax / rent for the MI-resident portion. Out of scope for this skill (part-year); refer to professional review.
@@ -252,7 +252,7 @@ A claimant should generally have a PRE in place on the same homestead for which 
 - **MI-CR-T2-14 Spouse living apart in separate MI homesteads** — Treasury guidance allows each spouse to file a separate CR using their own homestead and their own THR, even when filing MFJ on MI-1040. Document occupancy. Flag for review.
 - **MI-CR-T2-15 Property tax bill includes special assessments** — Strip out special assessments; only ad valorem property tax (plus the mobile-home specific tax) is eligible.
 
-## Section 9: Worked examples
+### Section 9: Worked examples
 
 > All examples use TY 2025 thresholds. All dollar figures are rounded for clarity. Line numbers refer to the TY 2025 MI-1040CR.
 
@@ -329,7 +329,7 @@ Credit = $1,140.
 
 > If THR had been $71,500 or above, the credit would be $0 — full phase-out. If THR had been $62,500 exactly, the credit would be the full $1,900 cap (no phase-out reduction).
 
-## Section 10: Refusal catalogue
+### Section 10: Refusal catalogue
 
 - **MI-CR-R-01** — Claimant is a qualified veteran, blind person, surviving spouse of a veteran, or totally and permanently disabled — and would file MI-1040CR-2  _(Refuse — out of scope. Refer to MI-1040CR-2 booklet. CR-2 has special rules including a no-income-test computation in some patterns.)_
 - **MI-CR-R-02** — Farmland Preservation Tax Credit (development-rights agreement under PA 116) — Form MI-1040CR-5  _(Refuse — out of scope. MI-1040CR-5 is a separate credit program administered by MDARD; not the household-income homestead credit.)_
@@ -344,7 +344,7 @@ Credit = $1,140.
 - **MI-CR-R-11** — Renter where landlord is fully tax-exempt (public housing authority, certain non-profits)  _(Refuse — no qualifying property tax; ineligible.)_
 - **MI-CR-R-12** — Out-of-state homestead, Michigan-domicile claimant  _(Refuse — homestead must be in Michigan.)_
 
-## Section 11: Form mapping — MI-1040CR (TY 2025)
+### Section 11: Form mapping — MI-1040CR (TY 2025)
 
 **Form mapping table**
 
@@ -372,7 +372,7 @@ Credit = $1,140.
 
 - **Interaction rules** — - The MI-1040CR credit flows to MI-1040 Line 25b (Homestead Property Tax Credit) as a refundable credit. It reduces tax liability and any excess is refunded. - Property tax paid is NOT separately deductible on Schedule 1; only the credit applies. - If the taxpayer claims a home-office deduction on federal Schedule C (Form 8829), the business-use portion of property tax must be backed out before entering on MI-1040CR Line 10 — see Rule MI-CR-T2-08. - The Home Heating Credit (MI-1040CR-7) is filed on a separate form but uses the same THR concept. The MI-1040CR-7 has its own income thresholds (lower) and family-size-based standard allowance — out of scope for this skill.
 
-## Section 12: Provenance and verification status
+### Section 12: Provenance and verification status
 
 **Provenance table**
 
@@ -396,15 +396,41 @@ Credit = $1,140.
 3. **PRE Form 2368 deadlines and 18-mill exemption tie-in** — verify any recent administrative changes for completeness.
 4. **Mobile home $3/month specific tax** — confirm this remained $3 in TY 2025; some legislative proposals have circulated to raise it.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Who this applies to
+Michigan homeowners and renters with limited household resources who claim the homestead property tax credit on Form MI-1040CR.
+
+## The taxable base
+Total Household Resources (THR) is the Michigan-only income measure defined in Section 3; it drives both the eligibility gates and the credit computation.
+
+## Deadlines and filing
+MI-1040CR is filed with the MI-1040 by April 15; claims can be amended within four years (Section 11 form mapping).
+
+## Penalties and interest
+A fraudulent homestead claim carries a felony penalty and repayment of the credit plus interest (Section 4 eligibility gates).
+
+## Cross-border points
+Renters claiming the credit use rent paid in Michigan; out-of-state renters of Michigan property and part-year residents follow Section 6.
+
+## Worked examples
+Section 9 contains the worked examples for owners, renters, seniors and the phase-out boundary.
+
+## Ask the client first
+Does the client own or rent? What is total household resources including nontaxable income? Is the home the client's principal residence?
+
+## Sources
+| Source | URL | Read on |
+|---|---|---|
+| MI-1040CR instructions (TY 2025) | https://www.michigan.gov/treasury/taxation/pdf/current/1040c.pdf | 2026-10-25 |
+
+Not yet confirmed: TY 2026 THR thresholds and tables pending release of the 2026 MI-1040CR instructions.
 
 ## Talk to a verified accountant
 

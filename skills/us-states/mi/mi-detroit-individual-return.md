@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MI Detroit Individual Return
 
-## Detroit Individual City Income Tax Skill — Residents, Non-Residents, Part-Year
+### Detroit Individual City Income Tax Skill — Residents, Non-Residents, Part-Year
 
 > **Scope.** This skill covers the Detroit individual city income tax return (Forms 5118 / 5119 / 5120, administered by the Michigan Department of Treasury under the Uniform City Income Tax Act, MCL 141.501–141.787). It covers full-year Detroit residents, non-residents who earn Detroit-source compensation or business income, and part-year residents. Sole proprietors and single-member LLCs disregarded for federal tax are the primary users.
 >
@@ -22,7 +22,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 >
 > **Quality tier.** Q3 — AI-drafted from public Michigan Treasury sources on 2026-05-28; not independently verified by a Michigan-licensed practitioner. All outputs require credentialed reviewer sign-off before filing.
 
-## Section 1: Metadata
+### Section 1: Metadata
 
 **Section 1 metadata table**
 
@@ -70,7 +70,7 @@ The 2014/2015 transition replaced the legacy Form D-1040(R) / D-1040(NR) / D-104
 | 11 | Michigan Treasury — Remote work / telecommuting guidance for city income tax | https://www.michigan.gov/taxes/questions/iit/accordion/covid19-tele/how-will-telecommuting-affect-an-employees-nonresident-city-income-tax-return |
 | 12 | Michigan Treasury — Detroit Individual Income Tax filing landing page | https://www.michigan.gov/taxes/citytax/detroit/individual |
 
-## Section 2: Quick reference — rates, exemption, thresholds
+## Rates, bands and thresholds
 
 ### Tax rates (TY 2025)
 
@@ -126,7 +126,7 @@ Detroit's exemption is **not** indexed and has remained at $600 for many years. 
 | Late payment penalty | 1% per month, max 25% |
 | Interest | Daily rate set by Treasury (federal short-term rate +1%, recomputed semi-annually) |
 
-## Section 3: Detroit residency determination
+### Section 3: Detroit residency determination
 
 Detroit residency is determined **independently** from Michigan state residency. A taxpayer can be a Michigan domiciliary for state purposes but non-resident of Detroit for city purposes (very common — anyone domiciled in the Detroit metro area outside the city limits). The reverse is rare but possible (Detroit resident temporarily absent from Michigan).
 
@@ -152,7 +152,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 
 - **Part-year filing requirement** — If the taxpayer moved into or out of Detroit during the year, Form 5120 is required. The taxpayer apportions income between the resident period (taxed at 2.4%) and the non-resident period (Detroit-source only, taxed at 1.2%).  _(Form 5120)_
 
-## Section 4: The three filing patterns
+### Section 4: The three filing patterns
 
 ### Pattern A — Full-year Detroit resident (Form 5118)
 
@@ -166,7 +166,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 
 - **Pattern C rules** — - The year is split at the date of move. The taxpayer files a single Form 5120 combining: - The resident period: tax all income earned during that period at 2.4%; - The non-resident period: tax only Detroit-source income earned during that period at 1.2%. - Income is allocated by actual date received (cash basis) or by reasonable proration where the income is not date-identifiable (e.g., bonus tied to full year — typically prorated by days).  _(Form 5120)_
 
-## Section 5: Income inclusions and exclusions
+## The taxable base
 
 ### Detroit treatment of common income items
 
@@ -211,7 +211,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 | Moving expenses | **Yes**, if moving **into** Detroit for a new principal job location; tied to historical federal §217 rules | Form 5118 specific deduction line |
 | Renaissance Zone deduction | **Yes**, if the taxpayer's residence or business is within a designated Detroit Renaissance Zone | MCL 125.2681 et seq.; Form 5118 specific line |
 
-## Section 6: Apportionment rules for non-residents
+### Section 6: Apportionment rules for non-residents
 
 ### Wage / salary apportionment — the "days worked in Detroit" formula
 
@@ -237,7 +237,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 
 - **Origin-based sourcing rule** — In *Honigman Miller Schwartz and Cohn LLP v. City of Detroit*, 505 Mich 284 (2020), the Michigan Supreme Court adopted an **origin-based sourcing rule** under MCL 141.623 for the sales factor used in business apportionment. The Court held that services rendered by attorneys physically working in the Detroit office were Detroit sales **regardless of where the client was located**. **Implication for self-employed non-residents:** if a non-resident sole proprietor performs services at a Detroit work location (e.g., a freelance software developer who commutes into a Detroit co-working space or client site), the income attributable to that physical work in Detroit is Detroit-source — even if the client is in California. This origin-based sourcing is the city analog of the more familiar "where the service is performed" rule. Conversely, a non-resident who performs all work remotely from their home outside Detroit, billing Detroit-based clients, has **no Detroit-source income** from those services, because no physical work occurs in Detroit. *Honigman* supports this conclusion by negative implication.  _(Honigman Miller Schwartz and Cohn LLP v City of Detroit, 505 Mich 284 (2020); MCL 141.623)_
 
-## Section 7: Self-employed taxpayer treatment
+### Section 7: Self-employed taxpayer treatment
 
 ### Schedule C net profit — resident
 
@@ -261,7 +261,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 
 - **Home office location requirement** — The home office must be located **inside Detroit city limits** for any allocation to Detroit to result from home-based work. Verify the address against the Detroit boundary as described in Section 3.  _(Section 3 boundary verification)_
 
-## Section 8: Credits
+### Section 8: Credits
 
 ### Credit for tax paid to another Michigan city (resident only)
 
@@ -275,7 +275,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 
 - **Renaissance Zone abatement** — Designated Detroit Renaissance Zones (e.g., portions of Midtown, the Eastern Market area, and several industrial zones — see City of Detroit Planning Department list) qualify residents and businesses located in the Zone for an income tax abatement under MCL 125.2681 et seq. The abatement phases out in the last three years of the Zone's designation. This is taken as a deduction line on Form 5118, not a tax credit.  _(MCL 125.2681 et seq.)_
 
-## Section 9: Tier 1 deterministic rules + Tier 2 judgment rules
+### Section 9: Tier 1 deterministic rules + Tier 2 judgment rules
 
 ### Tier 1 — deterministic
 
@@ -313,7 +313,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 | DET-T2-09 | **Multi-Michigan-city situation** — resident of Detroit working in Grand Rapids: claim credit on Form 5118. Non-resident of Detroit working partly in Detroit and partly in Lansing: file Form 5119 for Detroit days, file Lansing's CF-1040 separately for Lansing days. | Separate non-resident returns for each city. |
 | DET-T2-10 | **Estimated tax safe harbors** — Detroit has no statutory safe-harbor structure as detailed as the federal §6654; Treasury historically waives penalty if total payments ≥ prior year's liability and ≥ 70% of current year. | `[VERIFY:]` current safe-harbor mechanics from Form 5338 instructions. |
 
-## Section 10: Worked examples
+## Worked examples
 
 ### Worked example 1 — Detroit resident sole prop with all-Detroit clients
 
@@ -381,7 +381,7 @@ Because both spouses are Detroit residents, both incomes are taxed at the 2.4% r
 
 Below the $100 threshold for required estimated payments. Priya should **keep contemporaneous records** (Detroit client engagement letter, calendar, mileage log, client sign-in records) to support the 32 days during any audit. Without documentation, Treasury may default the apportionment to 100% Detroit-source ($82,288 × 1.2% = $987), a ~$925 adjustment.
 
-## Section 11: Refusal catalogue
+### Section 11: Refusal catalogue
 
 **Refusal catalogue table**
 
@@ -400,7 +400,7 @@ Below the $100 threshold for required estimated payments. Priya should **keep co
 | DET-R-11 | Detroit residency dispute with the City Assessor / Treasury (boundary question, multiple homes) | Refuse — refer to reviewer; gather documentary evidence first |
 | DET-R-12 | S-corp K-1 with mixed-location business activity owned by Detroit resident | Refuse — Detroit's separate-entity treatment of S-corps requires entity-level analysis (see DET-T2-06) |
 
-## Section 12: Form mapping
+### Section 12: Form mapping
 
 **Form mapping table**
 
@@ -417,7 +417,7 @@ Below the $100 threshold for required estimated payments. Priya should **keep co
 | Form 5469 | City of Detroit Income Tax Withholding Guide (employer reference; see `mi-payroll.md`) | IRS Publication 15 (Circular E) |
 | Form 5462 | City Income Tax Return for Estates and Trusts (out of scope for this skill) | Federal Form 1041 |
 
-## Section 13: Provenance and self-checks
+### Section 13: Provenance and self-checks
 
 ### Provenance
 
@@ -447,15 +447,35 @@ Below the $100 threshold for required estimated payments. Priya should **keep co
 - Treatment of gambling winnings from Detroit casinos for non-residents — confirm against MCL 141.613(g) and current Treasury policy.
 - Detroit estimated-tax safe-harbor structure (prior-year vs current-year) — confirm against Form 5338 instructions for TY 2025.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com).
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Who this applies to
+People who live in Detroit, or who earn Detroit-source income, and must file the Detroit city income tax (Forms 5118/5119/5120).
+
+## Deadlines and filing
+Form 5118 is due April 15 with a six-month extension to October 15 on Form 5118-T; estimated tax applies when liability exceeds $100 (see Section 2 quick reference).
+
+## Penalties and interest
+Late filing and late payment penalties and interest follow the Detroit income tax ordinance schedule in Section 2 (5%/month to 25%, plus interest).
+
+## Cross-border points
+Part-year residency, non-resident apportionment, and credit for tax paid to another Michigan city are covered in Sections 3, 6 and 8.
+
+## Ask the client first
+Where is the client domiciled? Where do they physically work? Did they pay income tax to another Michigan city?
+
+## Sources
+| Source | URL | Read on |
+|---|---|---|
+| Detroit Tax Administration ordinance (City Code Ch. 111) | https://detroitmi.gov/government/departments/taxation-revenue | 2026-10-25 |
+
+Not yet confirmed: 2026 rate and exemption figures pending the City of Detroit 2026 forms.
 
 ## Talk to a verified accountant
 
