@@ -115,7 +115,7 @@ This differs sharply from the federal supplemental wage flat rate of 22% under I
 ### 2.4 Employees claiming exempt status
 
 - **Conditions for exempt status** -- An employee may claim exempt from Indiana income tax withholding only if: the employee had no Indiana income tax liability in the prior year AND expects none in the current year, OR the employee is a resident of a reciprocal state (OH, KY, MI, PA, WI) and has filed the appropriate exemption documentation, OR the employee qualifies under the Servicemembers Civil Relief Act or the Military Spouses Residency Relief Act.  _(IC 6-3-4-8 and WH-4 instructions)_
-- **Annual renewal and liability** -- Exempt-status WH-4 filings must be re-executed annually by February 15 in the same manner as federal Form W-4. An employee who claims exempt incorrectly is personally liable for the under-withheld tax; the employer is not liable provided the WH-4 is on file in good faith.
+- **Annual renewal and liability** -- Exempt-status WH-4 filings must be re-executed annually by February 15 (the February 15 date is listed under Not yet confirmed in Sources) in the same manner as federal Form W-4. An employee who claims exempt incorrectly is personally liable for the under-withheld tax; the employer is not liable provided the WH-4 is on file in good faith.
 
 ## The taxable base
 
@@ -192,24 +192,24 @@ Mismatches commonly arise from:
 | County | County name (FIPS) | 2025 rate |
 | --- | --- | --- |
 | Marion | Indianapolis | 2.02% (see Not yet confirmed) |
-| Lake | Gary / Crown Point | 1.50% |
+| Lake | Gary / Crown Point | 1.50% (see Not yet confirmed) |
 | Allen | Fort Wayne | 1.59% (see Not yet confirmed) |
-| Hamilton | Carmel / Fishers | 1.10% |
+| Hamilton | Carmel / Fishers | 1.10% (see Not yet confirmed) |
 | St. Joseph | South Bend | 1.75% (see Not yet confirmed) |
-| Vanderburgh | Evansville | 1.20% |
-| Tippecanoe | Lafayette / Purdue | 1.10% |
+| Vanderburgh | Evansville | 1.20% (see Not yet confirmed) |
+| Tippecanoe | Lafayette / Purdue | 1.10% (see Not yet confirmed) |
 | Monroe | Bloomington / IU | 2.035% (see Not yet confirmed) |
-| Porter | Valparaiso | 0.50% |
-| Vigo | Terre Haute | 2.00% |
-| Madison | Anderson | 2.25% |
-| Delaware | Muncie | 1.50% |
+| Porter | Valparaiso | 0.50% (see Not yet confirmed) |
+| Vigo | Terre Haute | 2.00% (see Not yet confirmed) |
+| Madison | Anderson | 2.25% (see Not yet confirmed) |
+| Delaware | Muncie | 1.50% (see Not yet confirmed) |
 | Pulaski | (highest in 2025) | **3.38%** in some prior years, ~2.864% in others -- confirm |
 
 > **Reviewer note.** The "highest county" in Indiana changes year to year as smaller counties enact emergency rate hikes. Pulaski and Cass have historically been near the top. Always reconfirm by pulling the current Departmental Notice #1.
 
 ### 5.3 The January 1 residence rule – AUDIT FLASH POINT
 
-- **January 1 county residence locks rate for full year** -- Under IC 6-3.6-8-1, the county rate that applies to an employee for the entire calendar year is the rate in effect in the county where the employee was a resident on January 1 of that year. The rate does NOT change mid-year if the employee moves to another Indiana county. The rate does NOT follow the employee. If an employee moves on January 2, the January 1 county's rate still applies for all 12 months.  _(IC 6-3.6-8-1)_
+- **January 1 county residence locks rate for full year** -- Under IC 6-3.6-8-1 (the IC cite is listed under Not yet confirmed in Sources; the archived capture is a JS shell), the county rate that applies to an employee for the entire calendar year is the rate in effect in the county where the employee was a resident on January 1 of that year. The rate does NOT change mid-year if the employee moves to another Indiana county. The rate does NOT follow the employee. If an employee moves on January 2, the January 1 county's rate still applies for all 12 months.  _(IC 6-3.6-8-1)_
 - **Non-resident on January 1 rule** -- If the employee was not an Indiana resident on January 1, the employer instead uses the rate of the county in which the employee's principal place of employment was located on January 1. If the employee was not employed by the current employer on January 1, the employer determines the principal place of employment as of the first day of employment, and that county rate applies for the remainder of the calendar year.  _(IC 6-3.6-8-1)_
 
 Practical sequence each year:
@@ -233,8 +233,8 @@ Failure to capture an accurate January 1 status is the single most common Indian
 
 ### 6.2 When WH-4 must be filed
 
-- **Filing triggers for WH-4** -- - At hire (before the first wage payment). - On or before January 1 each year if the employee's residence or county of principal employment has changed. - On or before any pay period after a change in personal exemptions (marriage, birth of a dependent, etc.). - When claiming exempt status (must be renewed annually by February 15).
-- **Default withholding if no WH-4 on file** -- If no WH-4 is on file, the employer must withhold state income tax at 3.15% with zero exemptions and county tax at the county rate applicable to the employee's work location (because the employer cannot determine the residence county without the WH-4).
+- **Filing triggers for WH-4** -- - At hire (before the first wage payment). - On or before January 1 each year (the January 1 trigger is listed under Not yet confirmed in Sources) if the employee's residence or county of principal employment has changed. - On or before any pay period after a change in personal exemptions (marriage, birth of a dependent, etc.). - When claiming exempt status (must be renewed annually by February 15).
+- **Default withholding if no WH-4 on file** -- If no WH-4 is on file, the employer must withhold state income tax at 3.15% (the 3.15% default is listed under Not yet confirmed in Sources) with zero exemptions and county tax at the county rate applicable to the employee's work location (because the employer cannot determine the residence county without the WH-4).
 
 ### 6.3 Key fields
 
@@ -274,7 +274,7 @@ Penalties and interest are covered in the filing sections above: late filing and
 
 ### 7.4 Local taxes are not covered
 
-- **Reciprocal agreements do not cover local taxes** -- A critical limitation: reciprocal agreements between states do NOT extend to local taxes. - An Indiana resident working in Louisville, Kentucky still owes the Louisville Metro Occupational License Tax. - An Indiana resident working in a Pennsylvania municipality still owes the local Earned Income Tax (EIT) and Local Services Tax (LST) under PA Act 32. - An Indiana resident working in Detroit still owes the Detroit city income tax (currently 2.4% for residents, 1.2% for non-residents). Conversely, an Ohio resident working in Indianapolis still owes the Marion County tax at 2.02% even though Indiana state income tax is not withheld.
+- **Reciprocal agreements do not cover local taxes** -- A critical limitation: reciprocal agreements between states do NOT extend to local taxes (listed under Not yet confirmed in Sources). - An Indiana resident working in Louisville, Kentucky still owes the Louisville Metro Occupational License Tax. - An Indiana resident working in a Pennsylvania municipality still owes the local Earned Income Tax (EIT) and Local Services Tax (LST) under PA Act 32. - An Indiana resident working in Detroit still owes the Detroit city income tax (currently 2.4% for residents, 1.2% for non-residents). Conversely, an Ohio resident working in Indianapolis still owes the Marion County tax at 2.02% even though Indiana state income tax is not withheld.
 
 ### Indiana Unemployment Insurance (SUTA)
 
@@ -300,7 +300,7 @@ Penalties and interest are covered in the filing sections above: late filing and
 
 ### 8.5 SUTA dumping prohibition
 
-- **SUTA dumping enforcement** -- Indiana enforces the federal SUTA Dumping Prevention Act and its own state-level transfer-of-experience rules. Common SUTA-dumping patterns that trigger criminal investigation by DWD: - Setting up a new LLC each year to obtain the new-employer rate. - Transferring employees to a related entity with a lower experience rate without transferring the experience history. - Acquiring a company solely to "absorb" its lower rate. Penalties include the maximum 7.40% rate for the current and two succeeding years, plus civil penalty of up to 2% of taxable wages.  _(IC 22-4-11.5-7)_
+- **SUTA dumping enforcement** -- Indiana enforces the federal SUTA Dumping Prevention Act and its own state-level transfer-of-experience rules (listed under Not yet confirmed in Sources). Common SUTA-dumping patterns that trigger criminal investigation by DWD: - Setting up a new LLC each year to obtain the new-employer rate. - Transferring employees to a related entity with a lower experience rate without transferring the experience history. - Acquiring a company solely to "absorb" its lower rate. Penalties include the maximum 7.40% rate for the current and two succeeding years, plus civil penalty of up to 2% of taxable wages.  _(IC 22-4-11.5-7)_
 
 ### Worker Classification – The ABC Test
 
@@ -490,7 +490,7 @@ Before signing off on an Indiana payroll year-end, confirm:
 
 Also cited without archived copies this run: IC 6-3.6 (local income taxes); IC 6-8.1-10 (penalties and interest); IC 22-2-2/22-2-5/22-2-9/22-2-16 (minimum wage, wage payment, separation pay, sick-leave preemption); IC 22-4 and IC 22-4-8-1 (unemployment system, ABC test); HEA 1001-2023 / HEA 1427-2023 (PIT rate phase-down); DOR Departmental Notice #1; DOR Information Bulletins #32 and #33; DWD Employer Handbook (2025); IRS Rev. Rul. 87-41; Naugle v. Beech Grove City Schools, 864 N.E.2d 1058 (Ind. 2007).
 
-Not yet confirmed: the full 2023-2027 state PIT rate schedule (3.15% for 2023 and 2025, 3.05% for 2024, 3.00% for 2026, 2.90% for 2027, and the HEA 1001-2023 revenue triggers); the 2025 county-rate schedule (Departmental Notice #1), including the 0.50%-2.864% range and every selected county rate; the UI wage base ($9,500), experience/new-employer rates, UC-1/UC-5 due dates and the 25-statement e-filing threshold; the WH-1 "monthly with EFT" and early-filer bands above $1,000/month (the archived DOR Business FAQ puts early-filer at more than $1,000/month, conflicting with the $7,083.33 band shown above); the $25,000 annual cap on the late W-2 penalty; the remaining penalty percentages (the ~7% interest rate, the 100% fraudulent non-remittance penalty, SUTA-dumping and misclassification penalties, and the 10%-per-day/200% wage-payment liquidated damages); WH-4 exemption amounts ($1,000 personal, $1,500 dependent) and the February 15 exempt-renewal date; reciprocity form details; and the out-of-state and federal figures quoted in the examples (the federal 22% supplemental rate, the $600 1099 threshold, the Illinois 4.95% rate, Detroit city rates) -- DWD and iga.in.gov pages returned no machine-readable text this run.
+Not yet confirmed: the full 2023-2027 state PIT rate schedule (3.15% for 2023 and 2025, 3.05% for 2024, 3.00% for 2026, 2.90% for 2027, and the HEA 1001-2023 revenue triggers); the 2025 county-rate schedule (Departmental Notice #1), including the 0.50%-2.864% range and every selected county rate; the UI wage base ($9,500), experience/new-employer rates, UC-1/UC-5 due dates and the 25-statement e-filing threshold; the WH-1 "monthly with EFT" and early-filer bands above $1,000/month (the archived DOR Business FAQ puts early-filer at more than $1,000/month, conflicting with the $7,083.33 band shown above); the $25,000 annual cap on the late W-2 penalty; the remaining penalty percentages (the ~7% interest rate, the 100% fraudulent non-remittance penalty, SUTA-dumping and misclassification penalties, and the 10%-per-day/200% wage-payment liquidated damages); WH-4 exemption amounts ($1,000 personal, $1,500 dependent), the February 15 exempt-renewal date, the January 1 WH-4 re-filing trigger, the 3.15% default withholding with zero exemptions when no WH-4 is on file, the IC 6-3.6-8-1 January 1 county-residence rule, and the rule that reciprocity does not cover local taxes; and the out-of-state and federal figures quoted in the examples (the federal 22% supplemental rate, the $600 1099 threshold, the Illinois 4.95% rate, Detroit city rates) -- DWD and iga.in.gov pages returned no machine-readable text this run.
 
 ## Talk to a verified accountant
 
