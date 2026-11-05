@@ -392,7 +392,7 @@ the OpenAccountants network.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations. Monthly vs semi-annual filing thresholds stated as $600/month (the archived Small Business Tax Guide instead states semi-annual filing may be authorized when liability is less than $1,200 per six-month period); hypothetical dollar amounts in the worked examples are illustrative inputs, not sourced figures.
+Not yet confirmed: figures in this skill lack archived line-citations. Monthly vs semi-annual filing thresholds stated as $600/month (the archived Small Business Tax Guide instead states semi-annual filing may be authorized when liability is less than $1,200 per six-month period); hypothetical dollar amounts in the worked examples are hypothetical inputs, not sourced figures.
 
 
 | Source | URL | Read on |
