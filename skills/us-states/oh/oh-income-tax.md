@@ -81,7 +81,7 @@ Line numbers are from the 2025 forms ([2025 IT 1040 and schedules](https://dam.a
 11. **Lines 11 to 26:** add the IT/SD 2210 interest penalty (line 11) and unpaid use tax (line 12); subtract withholding (line 14), estimated and extension payments and carryforward (line 15) and refundable credits (line 16); add interest on late payment (line 21) to reach the amount due (line 22) or the overpayment (line 23) (US-OH-dr-it1040-2025-booklet-ty2025.txt).
 12. **Then check the separate local taxes:** if the client lived in a taxing school district, an SD 100 is required; any city or village income tax is filed with the municipality or its administrator. See "When to refuse or refer".
 
-## Figures by year
+### Figures by year
 
 All 2025 figures verified against US-OH-dr-it1040-2025-booklet-ty2025.txt.
 ### Nonbusiness income tax brackets ([2025 IT 1040 instructions, page 18](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf); [Department annual tax rates](https://tax.ohio.gov/individual/resources/annual-tax-rates); [OBM Monthly Financial Report](https://archives.obm.ohio.gov/Files//Budget_and_Planning/Monthly_Financial_Report/2025-12-mfr.pdf))
@@ -210,7 +210,7 @@ Tax year 2025. All are **nonrefundable**; unused amounts are lost unless the ins
 - Other 2025 changes: the Ohio educator expense deduction rose to $300 per taxpayer; the home school expenses credit became $250 per qualifying student (it was per return); a new deduction for contributions to a pregnancy resource center; the IT NRS form is no longer used (see "Residency") (US-OH-dr-it1040-2025-booklet-ty2025.txt: "increased to $300 per taxpayer"; "changed from $250 per return to $250 per qualifying student").
 - Conformity for 2025 includes OBBBA (Senate Bill 9); a 2025 return filed earlier on the old Code may need review. An extended return is due 15 October 2026, with interest on unpaid tax from 15 April 2026.
 
-## Residency, nonresidents and part-year residents ([2025 IT 1040 instructions, pages 13, 16 and 62](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
+### Residency, nonresidents and part-year residents ([2025 IT 1040 instructions, pages 13, 16 and 62](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
 
 - **Resident** means domiciled in Ohio. Anyone with an abode in Ohio (owned or rented) is **presumed** to be a resident, and a temporary absence from that abode, however long, does not change it.
 - **Part-year resident:** permanently moved into or out of Ohio during the year. They get the nonresident credit (IT NRC) for income earned while resident elsewhere, and the resident credit (IT RC) for non-Ohio income earned while an Ohio resident and taxed by another state.
@@ -313,7 +313,7 @@ Client facts: federal section 168(k) bonus depreciation of $60,000 on equipment;
 - **Payment:** electronically at tax.ohio.gov/pay, or by check payable to "Ohio Treasurer of State" with the coupon. The Department cannot set up payment plans. Pay Ohio and school district tax separately.
 - **Refund claims** generally within four years from the date of payment. An amended return is required within 90 days after the IRS finalises a change to federal AGI.
 
-## Completion checklist ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
+### Completion checklist ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
 
 - **Year:** brackets, exemption table and credit limits match the tax year; nothing from 2025 is used for 2026 without confirming it.
 - **Residency:** each spouse's status is checked; Ohio Nonresident Statement box used only when all five criteria are met; IT NRC and IT RC attached where claimed.
