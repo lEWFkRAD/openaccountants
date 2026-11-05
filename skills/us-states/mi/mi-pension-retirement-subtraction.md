@@ -433,7 +433,7 @@ What year was each spouse born? What are the public and private benefit amounts?
 ## Sources
 | Source | URL | Read on |
 |---|---|---|
-| RAB 2026-1 (US-MI-rab-2026-1.html) | https://www.michigan.gov/treasury/taxation/pdf/current/rab/RAB-2026-1.pdf | 2026-11-05 |
+| RAB 2026-1 (US-MI-rab-2026-1.html) | https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-1 | 2026-11-05 |
 
 Not yet confirmed: the TY 2026 indexed cap dollar figure ($67,610 / $135,220 reported in secondary summaries) is not printed in the archived RAB text.
 
