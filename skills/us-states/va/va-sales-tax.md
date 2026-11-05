@@ -189,9 +189,11 @@ Virginia is generally an **origin-based** sourcing state for intrastate sales.
 
 ### 3.4 Dealer's Discount
 
-- **Dealer's discount retention** — Dealers may retain the greater of $0 or an amount computed as follows: On collections of the first $62,500 of taxable sales: 1.6% of tax due. (T1)  _(Va. Code Section 58.1-622)_
+- **Dealer's discount retention** — Dealers may retain a portion of the sales tax they collect as a statutory dealer's discount, computed as a percentage of the tax due on the first tranche of taxable sales. (T1)  _(Va. Code Section 58.1-622)_
 - **Maximum discount** — The maximum discount is approximately $53 per month (for monthly filers with sufficient sales volume). (T1)  _(Va. Code Section 58.1-622)_
 - **Discount timely filing condition** — The discount is available only if the return is filed and payment is made on time.  _(Va. Code Section 58.1-622)_
+
+Not-yet-confirmed: the dealer's discount figures (retention of the greater of $0 or 1.6% of tax due on collections of the first $62,500 of taxable sales, per Va. Code § 58.1-622) are not stated in any archived source — § 58.1-622 itself was not archived; only its caption "Discount" appears in the Chapter 6 index (US-VA-dr-chapter6.html).
 
 ### 3.5 Penalties and Interest
 
