@@ -563,7 +563,7 @@ So splitting the gain across years saves $107,874 − $94,800 = **$13,074** — 
 
 ## Ask the client first
 
-Which entity form? MA-apportioned income and receipts? Net worth? S-corp receipts between $6M and $9M? Individual income above the Article 44 surtax threshold? PTE election made?
+Which entity form? MA-apportioned income and receipts? Net worth? S-corp receipts in the sting-tax band (the $6M-$9M and $9M+ thresholds are listed under Not yet confirmed)? Individual income above the Article 44 surtax threshold? PTE election made?
 
 ## Sources
 
