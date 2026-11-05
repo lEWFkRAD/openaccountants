@@ -10,7 +10,7 @@ description: >
   party addback", "R.S. 47:287.83". Source-cited draft; corporate duty
   and 5.5% rate verified from LDR 2026-10-28; addback statute R.S. 47:287.82
   confirmed in US-LA-dr-legis-title47-toc.txt; the combination test is listed
-  under Not-yet-confirmed in Sources.
+  under Not yet confirmed in Sources.
 jurisdiction: US-LA
 category: transfer-pricing
 tax_year: 2026
