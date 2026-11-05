@@ -33,7 +33,7 @@ depends_on:
 
 Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, base modifications, apportionment via Form MO-MS, consolidated-return options, estimated tax (MO-1120ES), extensions, penalties, interest, and the dissolution trap. Out of scope: personal income tax (`mo-income-tax`), payroll/withholding and UI (`mo-payroll`), sales/use (`mo-sales-tax`), S corporations (Form 1120-S pass-through level), local earnings taxes (see `mo-cross-border`).
 
-**Source status:** the Department of Revenue **2025 Form MO-1120 instructions** (76,812 chars) and **2026 Form MO-1120ES** (10,406 chars) were fetched as PDFs and read in full on 2026-10-27 -- every figure below is quoted from them. The MO-470 instructions PDF and the related-party addback page returned 403/404 from the drafting environment; anything tied to those is flagged **not yet confirmed**.
+**Source status:** the Department of Revenue **2025 Form MO-1120 instructions** (76,812 chars) and **2026 Form MO-1120ES** (10,406 chars) were fetched as PDFs and read in full on 2026-10-27 -- every figure below is quoted from them. The MO-470 instructions PDF and the related-party addback page returned 403/404 from the drafting environment; anything tied to those is flagged in the Not-yet-confirmed paragraph under Sources.
 
 
 ### Who this applies to
@@ -52,7 +52,7 @@ Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, b
 | Base | Federal taxable income (separate-company pro forma if federally consolidated) + additions (incl. §163(j) disallowed interest addback, §143.121.3(11)) − Missouri subtraction modifications, × MO apportionment percentage | Instructions, read 2026-10-27 |
 | Apportionment | Form MO-MS with apportionment election (2a, 3, 4, 5, 6, or 7); percentage to three decimals (e.g. 12.345%); partnership factors multiplied by ownership % and folded into MO-MS | Instructions, read 2026-10-27 |
 | Dividends deduction | Form MO-C: eligible dividends × apportionment percentage factor (from MO-MS Part 1 line 3), plus Missouri-allocated nonapportionable dividends; FDII portion of the federal §250 deduction handled on MO-C line 27 | Instructions, read 2026-10-27 |
-| Related-party/intangible addback (§143.471, Form MO-470) | **not yet confirmed** -- MO-470 instructions 403'd on 2026-10-27 and the addback page 404'd; not referenced in the 2025 MO-1120 instructions text read | fetch log 2026-10-27 |
+| Related-party/intangible addback (§143.471, Form MO-470) | see Not-yet-confirmed in Sources -- MO-470 instructions 403'd on 2026-10-27 and the addback page 404'd; not referenced in the 2025 MO-1120 instructions text read | fetch log 2026-10-27 |
 | Minimum tax | none found in the instructions read | booklet read 2026-10-27; absence noted |
 
 ## The taxable base
@@ -128,7 +128,7 @@ expected:
 | 2 | Missouri DOR, Form MO-1120ES (2026) | https://dor.mo.gov/forms/MO-1120ES_2026.pdf | 2026-10-28 |
 | 3 | Missouri DOR tax types index | https://dor.mo.gov/taxation/ | 2026-10-28 |
 | 4 | Form MO-470 instructions (related-party addback) | https://dor.mo.gov/forms/MO-470%20Instructions_2025.pdf | 2026-10-29 |
-Not yet confirmed: the items above flagged as not sourced -- figures tied to them stay unconfirmed until the source is archived with readable text..
+Not yet confirmed: the items above flagged as not sourced -- figures tied to them stay unconfirmed until the source is archived with readable text. This includes the §143.471 / Form MO-470 related-party expense and intangible addback: its current scope, thresholds and exceptions (the archived US-MO-mo-470-instr-2025.html capture is a 403 stub with no usable text).
 
 ## Talk to a verified accountant
 
