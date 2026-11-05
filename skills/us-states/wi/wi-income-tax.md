@@ -13,13 +13,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # WI Income Tax
 
-## Wisconsin Individual Income Tax Skill -- Self-Employed / Sole Proprietor
+### Wisconsin Individual Income Tax Skill -- Self-Employed / Sole Proprietor
 
 > **Scope.** This skill covers the Wisconsin individual income tax return (Form 1) for full-year Wisconsin residents who are sole proprietors or single-member LLC owners. It addresses the graduated rate computation, Wisconsin income starting from federal AGI, the sliding-scale standard deduction, and Wisconsin-specific credits.
 
 > **Quality tier.** Q3 -- AI-drafted, not independently verified. All rates and rules are sourced from the Wisconsin Department of Revenue publications and third-party research current as of May 2026. A licensed CPA or EA should verify before relying on this skill for filing.
 
-## Section 1: Metadata
+### Section 1: Metadata
 
 - **Jurisdiction** -- Wisconsin, United States
 - **Jurisdiction code** -- US-WI
@@ -50,7 +50,7 @@ Not yet confirmed: figures in this skill lack archived line-citations. For 2026,
 | 2 | 2025 Form 1 Instructions (I-111) | https://www.revenue.wi.gov/TaxForms2025/2025-Form1-Inst.pdf |
 | 3 | 2025 Wisconsin Act 15 (Budget Bill) -- Tax rate changes | https://docs.legis.wisconsin.gov/2025/related/acts/15 |
 
-## Section 2: Quick reference -- rates and thresholds
+### Rates, bands and thresholds
 
 ### Tax brackets -- Single / Head of Household (2025, per 2025 Wis. Act 15 indexing)
 
@@ -127,7 +127,7 @@ Exemption amounts are verbatim-backed by US-WI-dr-wis-stat-ch71.txt (s. 71.05(23
 | State sales tax rate | 5% | US-WI-pb240.txt: sec. 77.52(1)(d), Wis. Stats., "A tax is imposed on all retailers at the rate of 5 percent" |
 | County sales tax | 0.5% (most counties) | Wis. Stat. §77.70 (see the "Not yet confirmed:" paragraph in Sources) |
 
-## Section 3: How this skill works with the federal return
+### Section 3: How this skill works with the federal return
 
 Wisconsin starts from **federal adjusted gross income (AGI)** -- Form 1040, Line 11. This is BEFORE the federal standard deduction and QBI deduction.
 
@@ -172,7 +172,7 @@ Wisconsin starts from **federal adjusted gross income (AGI)** -- Form 1040, Line
 
 - **Estimated tax payments requirement** -- Required if expected Wisconsin tax after withholding and credits exceeds $500 (see the "Not yet confirmed:" paragraph in Sources). Due dates: April 15, June 15, September 15, January 15 (US-WI-dr-wis-stat-ch71.txt: s. 71.09(12) "INSTALLMENT DUE DATES. Taxpayers shall make estimated payments in 4 installments, on or before the 15th day of each of the following months" -- 4th, 6th, 9th month and first month of the following year). Form 1-ES (voucher).
 
-## Section 5: Tier 1 rules -- deterministic
+### Section 5: Tier 1 rules -- deterministic
 
 - **[T1-WI-1] Tax computation** -- Apply the graduated rate schedule (brackets cited above from US-WI-dr-wis-stat-ch71.txt) to Wisconsin taxable income based on filing status. Use Wisconsin tax tables (for taxable income under $100,000 -- see the "Not yet confirmed:" paragraph in Sources) or rate schedules (for $100,000+).  _(T1-WI-1)_
 - **[T1-WI-2] Starting point** -- Begin with federal adjusted gross income from Form 1040, Line 11. Enter on Wisconsin Form 1, Line 1.  _(T1-WI-2)_
@@ -183,7 +183,7 @@ Wisconsin starts from **federal adjusted gross income (AGI)** -- Form 1040, Line
 - **[T1-WI-7] Estimated tax payments** -- Required if expected liability exceeds $500 (see the "Not yet confirmed:" paragraph in Sources). Due dates: April 15, June 15, September 15, January 15 (US-WI-dr-wis-stat-ch71.txt: s. 71.09(12) installment due dates). Use Form 1-ES. Underpayment penalty applies if <90% of current year or <100% of prior year liability paid timely (see the "Not yet confirmed:" paragraph in Sources).  _(T1-WI-7)_
 - **[T1-WI-8] Wisconsin Earned Income Credit** -- Varies by number of children: - 1 qualifying child: 4% of federal EIC - 2 qualifying children: 11% of federal EIC - 3+ qualifying children: 34% of federal EIC - No children: not eligible for WI EIC Partially refundable. Percentages see the "Not yet confirmed:" paragraph in Sources.  _(T1-WI-8)_
 
-## Section 6: Tier 2 rules -- requires judgment
+### Section 6: Tier 2 rules -- requires judgment
 
 - **[T2-WI-1] Residency determination** -- Wisconsin defines a resident as a person domiciled in Wisconsin. Domicile is determined by intent and ties (voter registration, driver's license, home ownership, family location). A non-domiciliary maintaining an abode in WI and present 183+ days may also be treated as a resident.  _(T2-WI-1)_
 - **[T2-WI-2] Depreciation differences** -- Wisconsin requires its own depreciation schedule for assets placed in service after 2000 where federal bonus depreciation was claimed. This creates a tracking requirement -- Wisconsin depreciation may differ from federal depreciation in each year. Reviewer must maintain a Wisconsin-specific depreciation schedule.  _(T2-WI-2)_
@@ -191,7 +191,7 @@ Wisconsin starts from **federal adjusted gross income (AGI)** -- Form 1040, Line
 - **[T2-WI-4] Sliding-scale standard deduction phase-out** -- The exact amount depends on the taxpayer's Wisconsin AGI and filing status. For higher-income self-employed individuals, the standard deduction may be $0, making this determination critical. The phase-out formula changes annually.  _(T2-WI-4)_
 - **[T2-WI-5] Manufacturer's and agriculture credit** -- Certain qualifying manufacturing or agricultural activities may be eligible for a credit that can reduce the effective tax rate. Requires detailed analysis of qualifying income.  _(T2-WI-5)_
 
-## Section 7: Supplier pattern library
+### Section 7: Supplier pattern library
 
 **Supplier pattern library table**
 
@@ -208,7 +208,7 @@ Wisconsin starts from **federal adjusted gross income (AGI)** -- Form 1040, Line
 | State/local tax refund | Add if deducted in prior year | Follows federal treatment |
 | Social Security benefits | Exempt (not included in WI income) | Subtract if included in AGI |
 
-## Section 8: Form mapping
+### Section 8: Form mapping
 
 **Form mapping table**
 
@@ -226,7 +226,7 @@ Wisconsin starts from **federal adjusted gross income (AGI)** -- Form 1040, Line
 | Line 19 | Credits | Various |
 | Line 26+ | Payments (withholding, estimated) | W-2s, Form 1-ES |
 
-## Section 9: Refusal catalogue
+### Section 9: Refusal catalogue
 
 **Refusal catalogue table**
 
@@ -250,7 +250,7 @@ Wisconsin starts from **federal adjusted gross income (AGI)** -- Form 1040, Line
 - **R-WI-7** -- Wisconsin alternative minimum tax (Schedule MT)  _(Requires separate parallel computation)_
 - **R-WI-8** -- Farmland preservation credit  _(Specialized credit requiring assessments)_
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only. They do not constitute tax advice, legal advice, or a substitute for the professional judgment of a qualified CPA, Enrolled Agent, or tax attorney. Tax law changes frequently; always verify rates, thresholds, and rules against current official sources before filing. The contributors and maintainers of OpenAccountants accept no liability for errors, omissions, or actions taken based on this content.
 
