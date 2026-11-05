@@ -227,27 +227,27 @@ All figures in the tests below are hypothetical inputs and listed under Not yet 
 
 ### Section 6 -- Test suite
 
-### Test 1: Freelance consultant
+### Worked example 1: Freelance consultant
 
 - **Input:** Software consultant, all service income in WA. Gross income: $100,000/year (hypothetical; rate per US-WA-dr-tax-reference-manual-2026.txt).
 - **Expected:** B&O tax: $100,000 x 1.50% = $1,500. SBC: $840 x (1 - ($100,000 - $125,000)/$125,000) -- since $100,000 < $125,000, full credit = $840. Net tax: $660.
 
-### Test 2: Above SBC phase-out
+### Worked example 2: Above SBC phase-out
 
 - **Input:** Consultant with $300,000 gross income, all service/other (hypothetical; rate per US-WA-dr-tax-reference-manual-2026.txt).
 - **Expected:** B&O tax: $300,000 x 1.50% = $4,500. SBC: $0 (above $250,000). Net tax: $4,500.
 
-### Test 3: Retailer
+### Worked example 3: Retailer
 
 - **Input:** Online retailer. Gross receipts from WA sales: $200,000 (hypothetical; classification per US-WA-dr-tax-reference-manual-2026.txt).
 - **Expected:** B&O tax: $200,000 x 0.471% = $942. SBC for retailing computed separately.
 
-### Test 4: Mixed classification
+### Worked example 4: Mixed classification
 
 - **Input:** Software company. Canned software sales: $150,000 (retailing). Custom development: $100,000 (service/other) (hypothetical; US-WA-dr-tax-reference-manual-2026.txt).
 - **Expected:** Retailing B&O: $150,000 x 0.471% = $706.50. Service B&O: $100,000 x 1.50% = $1,500. SBC computed per classification. Total before SBC: $2,206.50.
 
-### Test 5: Gross vs. net trap
+### Worked example 5: Gross vs. net trap
 
 - **Input:** Consultant with $200,000 gross income and $80,000 in expenses (hypothetical; gross-income base per US-WA-dr-default.aspx-3.html).
 - **Expected:** B&O tax on FULL $200,000, NOT $120,000. Tax: $200,000 x 1.50% = $3,000.
