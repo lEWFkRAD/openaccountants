@@ -22,7 +22,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | Missouri |
 | State rate | 4.225% |
 | Local rate range | 0% -- ~6.5% (county + city + special district) |
-| Maximum combined rate | Not yet confirmed |
+| Maximum combined rate | see Not-yet-confirmed in Sources |
 | Sourcing | Origin-based (intrastate); destination for remote sellers |
 | Economic nexus | $100,000 in taxable sales (last state to enact -- Jan 1, 2023) |
 | Tax authority | Missouri Department of Revenue (MODOR) |
@@ -40,7 +40,7 @@ Rate figures are in the quick-reference table under "Who this applies to" above;
 | --- | --- | --- |
 | General TPP | TAXABLE 4.225% + local |  |
 | Clothing | TAXABLE | No exemption |
-| Grocery food | TAXABLE at a reduced state rate (not yet confirmed) | Plus local |
+| Grocery food | TAXABLE at a reduced state rate of 1.625% (US-MO-dr-rates-oct2026.txt: food sales/use tax columns show 1.6250%) | Plus local |
 | Prepared food | TAXABLE at full rate |  |
 | SaaS | NOT TAXABLE | Missouri does not tax SaaS |
 | Canned software (download) | TAXABLE |  |
@@ -50,9 +50,9 @@ Rate figures are in the quick-reference table under "Who this applies to" above;
 | Resale | EXEMPT |  |
 
 ## Deadlines and filing
-Filing cadence and due dates are not yet confirmed -- see the Not-yet-confirmed line under Sources.
+Filing cadence and due dates: see Not-yet-confirmed in Sources.
 ## Penalties and interest
-Penalty and interest rules are not yet confirmed -- see the Not-yet-confirmed line under Sources.
+Willful failure with intent to defraud to pay the tax or make a return carries a fine of not more than $10,000 and imprisonment (US-MO-rsmo-144-735.html: "Failure to make return, pay tax or keep records, penalty"). Civil penalty and interest percentages: see Not-yet-confirmed in Sources.
 ## Cross-border points
 No Missouri-specific cross-border sales-tax points are confirmed in this skill yet.
 ## Worked examples
@@ -74,7 +74,7 @@ No worked examples -- this skill states figures only and never computes.
 | 4 | RSMo §144.030 (sales tax rate) | https://revisor.mo.gov/main/OneSection.aspx?section=144.030 | 2026-10-29 |
 | 5 | RSMo §144.034 (grocery food reduced rate) | https://revisor.mo.gov/main/OneSection.aspx?section=144.034 | 2026-10-29 |
 | 6 | MyTax Missouri portal | https://mytax.mo.gov | 2026-10-28 |
-Not yet confirmed: the figures above (state rate, local range, maximum combined rate, grocery rate, nexus threshold) -- the sources were archived on the dates shown, but the archive fetches did not return usable text, so the figures stay unconfirmed until readable primary text is archived.
+Not yet confirmed: the figures above (state rate, local range, maximum combined rate, grocery rate, nexus threshold) -- the sources were archived on the dates shown, but the archive fetches did not return usable text, so the figures stay unconfirmed until readable primary text is archived. Also unconfirmed: the filing cadence and due dates, and the civil penalty and interest percentages for sales/use tax under §§144.600-144.745 RSMo.
 
 
 ### Disclaimer
