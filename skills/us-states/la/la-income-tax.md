@@ -91,7 +91,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Item | Description | Source |
 | --- | --- | --- |
 | Out-of-state bond interest | Interest on bonds of other states must be added | La. R.S. 47:293(4) |
-| Federal income tax deducted | The LDR Individual Income Tax page (verified 2026-10-28) still lists "Income taxes paid to other states" as a subtraction from federal AGI; whether a deduction for federal income taxes themselves survives Act 11 is listed under Not yet confirmed in Sources | La. R.S. 47:293 |
+| Federal income tax deducted | The LDR Individual Income Tax page (verified 2026-10-28) still lists "Income taxes paid to other states" as a subtraction from federal AGI; whether a deduction for federal income taxes themselves survives Act 11 is listed under Not-yet-confirmed in Sources | La. R.S. 47:293 |
 | IRC conformity items | Act 11 authorizes a **state bonus depreciation/bonus amortization deduction** (full expensing for qualified property/QIP and R&E under IRC §174 as in effect January 1, 2024); neither may duplicate the federal deduction for the same year (RIB 25-012, verified PDF 2026-10-28) | La. R.S. 47; Act 11 |
 
 ### Subtractions from income
@@ -110,7 +110,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 - **Louisiana taxable income and tax formula** -- Federal AGI + additions − subtractions − standard deduction = Louisiana taxable income → times 3% = Louisiana income tax.
 
-**Important:** The LDR Individual Income Tax page (verified 2026-10-28) confirms the subtraction for "Income taxes paid to other states" and the Schedule C credit for net tax liability paid to another state on income included on the Louisiana return. Whether a deduction for federal income taxes themselves survives Act 11 is listed under Not yet confirmed in Sources.
+**Important:** The LDR Individual Income Tax page (verified 2026-10-28) confirms the subtraction for "Income taxes paid to other states" and the Schedule C credit for net tax liability paid to another state on income included on the Louisiana return. Whether a deduction for federal income taxes themselves survives Act 11 is listed under Not-yet-confirmed in Sources.
 
 ## Deadlines and filing
 
@@ -154,7 +154,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 ## Penalties and interest
 
 - **Underpayment of estimated tax** -- 12% annually of the underpayment amount for the underpayment period, under La. R.S. 47:118 (LDR Individual Income Tax page, verified 2026-10-28). The underpayment is the excess of the required installment (25% of the required annual payment, 90% of tax due -- 66.66% for qualified farmers and fishermen) over what was actually paid.
-- **Late payment** -- payments received after the return due date are charged interest and late-payment penalty (LDR page, verified 2026-10-28); the penalty/interest statutes are R.S. 47:1601 ("Interest on unpaid taxes") and R.S. 47:1602 ("Penalty for failure to make timely return; penalties related to nonpayment or underpayment") per US-LA-dr-legis-title47-toc.txt -- R.S. 47:1607 is "Interest on erroneous refunds" -- and the percentage tiers are listed under Not yet confirmed in Sources.
+- **Late payment** -- payments received after the return due date are charged interest and late-payment penalty (LDR page, verified 2026-10-28); the penalty/interest statutes are R.S. 47:1601 ("Interest on unpaid taxes") and R.S. 47:1602 ("Penalty for failure to make timely return; penalties related to nonpayment or underpayment") per US-LA-dr-legis-title47-toc.txt -- R.S. 47:1607 is "Interest on erroneous refunds" -- and the percentage tiers are listed under Not-yet-confirmed in Sources.
 - **Extension ≠ payment** -- the automatic six-month extension under R.S. 47:103 extends filing only; tax due must be paid by the original due date.
 
 **Tier 1 rules table**
