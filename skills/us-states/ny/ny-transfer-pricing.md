@@ -31,10 +31,10 @@ C corporations and other general business corporations taxable under Tax Law Cha
 
 ## Rates, bands and thresholds
 
-- **Combined return.** "General business corporations that file on a combined basis with related corporations file Form CT-3-A, General Business Corporation Combined Franchise Tax Return." Standalone filers use Form CT-3. The CT-3-A instructions define combined-group membership and the designated-agent filing mechanics. _(article-9a.htm verified 200, 2026-10-25; CT-3-A PDF verified 200 with combined-group lines, 2026-10-25.)_ (listed under "Not yet confirmed:" in Sources)
+- **Combined return.** "General business corporations that file on a combined basis with related corporations file Form CT-3-A, General Business Corporation Combined Franchise Tax Return." Standalone filers use Form CT-3. The CT-3-A instructions define combined-group membership and the designated-agent filing mechanics. _(article9a.htm verified 200, 2026-10-25; CT-3-A PDF verified 200 with combined-group lines, 2026-10-25.)_ (listed under "Not yet confirmed:" in Sources)
 - **Business income base top rate: 7.25%.** The CT-3-A instructions rate table carries tax factors 0.04875 and **0.0725** (plus the 2% ENI rate and fixed-dollar minimums on the return). _(CT-3-A instructions PDF, tax.ny.gov/pdf/current_forms/ct/ct3ai.pdf, 200, 2026-10-25. The graduated business-base brackets and the $5M/200M thresholds: confirm against the CT-3/CT-3-A instructions before relying -- Tax Law §§ 210-A/210-B statute text not fetched 2026-10-25: listed under "Not yet confirmed:" in Sources**.)_
-- **Highest-of-three-bases.** The franchise tax is the highest of: business income base × rate, capital base × rate, or a tax on net income -- plus MTA surcharge in the MCTD. _(article-9a.htm, verified 2026-10-25.)_ (listed under "Not yet confirmed:" in Sources)
-- **Receipts factor.** Chapter 9-A apportionment uses a receipts factor with market-based sourcing (customer location / benefit tests); the DTF page "Deriving combined group receipts" governs combined-group receipts. _(combined-receipts.htm linked from article-9a.htm, verified 2026-10-25; the § 210-A receipts text itself: listed under "Not yet confirmed:" in Sources**.)_
+- **Highest-of-three-bases.** The franchise tax is the highest of: business income base × rate, capital base × rate, or a tax on net income -- plus MTA surcharge in the MCTD. _(article9a.htm, verified 2026-10-25.)_ (listed under "Not yet confirmed:" in Sources)
+- **Receipts factor.** Chapter 9-A apportionment uses a receipts factor with market-based sourcing (customer location / benefit tests); the DTF page "Deriving combined group receipts" governs combined-group receipts. _(combined-receipts.htm linked from article9a.htm, verified 2026-10-25; the § 210-A receipts text itself: listed under "Not yet confirmed:" in Sources**.)_
 - **No water's-edge surtax** (contrast ND): NY's combined group scope is defined by taxability/unitary tests in the CT-3-A instructions -- the precise current membership test: listed under "Not yet confirmed:" in Sources** (instructions PDF text extraction partial).
 
 ## The taxable base
@@ -118,7 +118,7 @@ expected:
 
 Not yet confirmed: figures below the Sources heading lack archived line-citations.
 
-- NYS DTF -- Chapter 9-A overview (three bases, CT-3 vs CT-3-A combined filing, MTA surcharge): <https://www.tax.ny.gov/bus/ct/article-9a.htm> -- 200 with text, 2026-10-25.
+- NYS DTF -- Chapter 9-A overview (three bases, CT-3 vs CT-3-A combined filing, MTA surcharge): <https://www.tax.ny.gov/bus/ct/article9a.htm> -- 200 with text, 2026-10-25.
 - NYS DTF -- Form CT-3-A instructions (7.25% rate factor 0.0725 in the rate table; combined-group lines): <https://www.tax.ny.gov/pdf/current_forms/ct/ct3ai.pdf> -- 200 PDF, 2026-10-25.
 - NYS DTF -- Form CT-3-A (combined return form): <https://www.tax.ny.gov/pdf/current_forms/ct/ct3a.pdf> -- 200 PDF, 2026-10-25.
 - NYS DTF -- Deriving combined group receipts: <https://www.tax.ny.gov/bus/ct/combined-group receipts page.htm> -- linked from the Chapter 9-A page, 2026-10-25.
