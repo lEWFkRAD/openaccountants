@@ -90,7 +90,7 @@ The unindexed statutory table is: not over $2,000 -- 4.75%; over $2,000 but not 
 | Item | Value |
 | --- | --- |
 | Credit per exemption | $260 |
-| Income phase-out begins | $100,000 (single) / $200,000 (MFJ) | (not yet confirmed)
+| Income phase-out begins | $100,000 (single) / $200,000 (MFJ) | (US-OR-dr-dor-vendor-2026.pdf: exemption credit not allowed if federal AGI exceeds $200,000 MFJ/HOH/QSS or $100,000 single/MFS) |
 
 ### Other key figures
 
@@ -98,8 +98,8 @@ The unindexed statutory table is: not over $2,000 -- 4.75%; over $2,000 but not 
 
 | Item | Value |
 | --- | --- |
-| Oregon EITC | 12% of federal EITC (refundable) for those with qualifying children under 3; 9% otherwise | (not yet confirmed)
-| Oregon kicker credit | Varies by year -- taxpayers receive a credit when state revenues exceed projections by >2%. Check for 2025. | (not yet confirmed)
+| Oregon EITC | 12% of federal EITC (refundable) for those with qualifying children under 3; 9% otherwise | (US-OR-dr-lro-basic-facts-2026.pdf: 'Current EIC is 9% & 12% (dependents < 3) of federal EIC') |
+| Oregon kicker credit | Varies by year -- taxpayers receive a credit when state revenues exceed projections by >2%. Check for 2025. | (US-OR-dr-dor-kicker.txt: claimed on odd-year returns when actual revenue exceeds the forecast by more than 2 percent) |
 | No sales tax | Oregon has no state or local sales tax |
 | Estimated tax interest rate | 9% for 2025, 8% for 2026 |
 
@@ -115,7 +115,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 ### Critical: Oregon starts from federal taxable income
 
-- **Oregon starts from federal taxable income; standard deduction stacks on top** -- Because Oregon starts from federal taxable income (which already includes the federal standard or itemized deduction), Oregon allows its own standard deduction on top. The Oregon standard deduction is relatively small ($2,900 single) because the federal deduction has already been taken. **However,** Oregon requires modifications for items where Oregon does not conform to the IRC: - Oregon additions (income Oregon taxes but federal does not, or deductions federal allows but Oregon does not) - Oregon subtractions (income federal taxes but Oregon does not, or deductions Oregon allows but federal does not) (not yet confirmed)
+- **Oregon starts from federal taxable income; standard deduction stacks on top** -- Because Oregon starts from federal taxable income (which already includes the federal standard or itemized deduction), Oregon allows its own standard deduction on top. The Oregon standard deduction is relatively small ($2,900 single) because the federal deduction has already been taken. **However,** Oregon requires modifications for items where Oregon does not conform to the IRC: - Oregon additions (income Oregon taxes but federal does not, or deductions federal allows but Oregon does not) - Oregon subtractions (income federal taxes but Oregon does not, or deductions Oregon allows but federal does not) (US-OR-dr-lro-basic-facts-2026.pdf: Oregon's rolling connection to federal taxable income; 'Oregon standard deduction amounts differ from those used at the federal level'; US-OR-publication-or-estimate-2026.pdf: standard deduction single $2,900)
 
 ## Section 4: Self-employed specific rules
 
@@ -125,7 +125,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 ### Oregon EITC
 
-- **Oregon EITC** -- Oregon provides a refundable earned income tax credit: - 12% of federal EITC for taxpayers with a qualifying child under age 3 - 9% of federal EITC for all other qualifying taxpayers - ITIN filers are eligible for the Oregon EITC - Self-employment income qualifies (not yet confirmed)
+- **Oregon EITC** -- Oregon provides a refundable earned income tax credit: - 12% of federal EITC for taxpayers with a qualifying child under age 3 - 9% of federal EITC for all other qualifying taxpayers (US-OR-dr-lro-basic-facts-2026.pdf: 'Current EIC is 9% & 12% (dependents < 3) of federal EIC') - ITIN filers are eligible for the Oregon EITC (US-OR-dr-or40-inst-2026.pdf: Schedule OR-EIC-ITIN, 'Oregon's earned income credit for ITIN filers') - Self-employment income qualifies (see the Not yet confirmed: list in Sources)
 
 ### Oregon-specific local taxes (warning)
 
@@ -146,13 +146,13 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 - **R-OR-3. Social Security is fully exempt.** -- Subtract any Social Security benefits that were included in federal taxable income.
 - **R-OR-4. Oregon income tax refund subtraction.** -- If the taxpayer received an Oregon income tax refund in the prior tax year and included it in federal income (Schedule 1 Line 1), subtract it on the Oregon return -- Oregon does not tax its own refund.
 - **R-OR-5. U.S. government bond interest is exempt.** -- Subtract interest from U.S. Treasury obligations, I-bonds, and other federal securities included in federal income.
-- **R-OR-6. Personal exemption credit is $260 per exemption (2026).** -- Apply after computing tax, subject to income phase-out. (not yet confirmed)
-- **R-OR-7. Oregon EITC is refundable.** -- Compute at 9% (or 12% with qualifying child under 3) of federal EITC. (not yet confirmed)
+- **R-OR-6. Personal exemption credit is $260 per exemption (2026).** -- Apply after computing tax, subject to income phase-out. (US-OR-publication-or-estimate-2026.pdf: 'Personal exemption credit: $260'; phase-out per US-OR-dr-dor-vendor-2026.pdf)
+- **R-OR-7. Oregon EITC is refundable.** -- Compute at 9% (or 12% with qualifying child under 3) of federal EITC. (US-OR-dr-lro-basic-facts-2026.pdf: 'Current EIC is 9% & 12% (dependents < 3) of federal EIC'; refundable per US-OR-dr-or40-inst-2026.pdf, 'Refundable credits')
 
 ## Section 6: Tier 2 rules -- requires judgment
 
 - **J-OR-1. Oregon conformity with OBBBA.** -- Oregon's IRC conformity date must be verified. If Oregon does not conform to specific OBBBA provisions (§168(k) bonus depreciation, §179, §174A R&E), additions on Schedule OR-ASC may be required.
-- **J-OR-2. Standard vs. itemized deduction choice.** -- Oregon allows a separate standard deduction even though federal taxable income already reflects the federal deduction. The small Oregon standard deduction ($2,900 single) means most taxpayers should take it unless specific Oregon itemized deductions are advantageous. (not yet confirmed)
+- **J-OR-2. Standard vs. itemized deduction choice.** -- Oregon allows a separate standard deduction even though federal taxable income already reflects the federal deduction. The small Oregon standard deduction ($2,900 single, US-OR-publication-or-estimate-2026.pdf) means most taxpayers should take it unless specific Oregon itemized deductions are advantageous.
 - **J-OR-3. TriMet / LTD / Metro SHS / PFA applicability.** -- Self-employed individuals in the Portland metro or Eugene/Springfield areas must determine whether they are subject to local transit and housing services taxes. Geographic location of the taxpayer's residence determines applicability.
 - **J-OR-4. Oregon kicker credit availability.** -- The kicker is a unique Oregon mechanism that returns excess state revenue to taxpayers. Whether a kicker is available for tax year 2026 depends on state revenue performance. Verify availability and amount.
 
@@ -162,7 +162,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 
 | Pattern | Description |
 | --- | --- |
-| Portland-area freelancer | Subject to TriMet SE tax + Metro SHS tax + potentially Multnomah PFA tax in addition to state income tax. Combined marginal rate can exceed 14%. Flag all local obligations. | (not yet confirmed)
+| Portland-area freelancer | Subject to TriMet SE tax (0.8237%, US-OR-dr-trimet-taxinfo.txt) + Metro SHS tax (1% over threshold, US-OR-dr-portland-shs-personal.txt) + potentially Multnomah PFA tax (1.5%/3%, US-OR-dr-multco-pfa.txt) in addition to state income tax (9.9% top bracket, US-OR-publication-or-estimate-2026.pdf). Combined marginal rate can exceed 14%. Flag all local obligations. |
 | Federal taxable income reconciliation | Oregon starts from federal taxable income, not AGI. Ensure correct line reference (1040 Line 15, not Line 11). |
 | Social Security recipient | Full subtraction of Social Security from Oregon taxable income. |
 | No sales tax seller | No Oregon sales tax collection needed, but may have nexus in other states. |
@@ -180,7 +180,7 @@ Oregon starts from **federal taxable income** (federal Form 1040, Line 15), NOT 
 | Line 19 | Oregon taxable income | After additions, subtractions, and Oregon standard deduction |
 | Line 20 | Oregon tax | Tax tables (if <$50,000) or rate chart (if ≥$50,000) |
 | Line 22 | Oregon tax after standard/special credits | After exemption credits and other nonrefundable credits |
-| Line 32 | Oregon EITC | 9% or 12% of federal EITC | (not yet confirmed)
+| Line 32 | Oregon EITC | 9% or 12% of federal EITC (US-OR-dr-lro-basic-facts-2026.pdf); line number see the Not yet confirmed: list in Sources |
 | Line 34 | Kicker credit | If applicable for the tax year |
 | Line 44 | Total tax after all credits | Final Oregon tax liability |
 
@@ -218,45 +218,48 @@ the OpenAccountants network.
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: the Oregon EITC percentages (12%/9%), kicker credit
-mechanics, personal exemption phase-out thresholds, TriMet/LTD/Metro SHS/PFA
-local tax rates, the 529 subtraction amounts, the estimated tax interest
-rates, and the Form OR-40 line mapping are not tied to an archived capture;
-the archived captures in the table cover the DOR home page, the PIT page,
-ORS Chapter 316, and the 2026 OR-ESTIMATE rate charts (which confirm the
-2026 bracket thresholds, standard deduction, and personal exemption credit).
+Not yet confirmed: self-employment-income eligibility for the Oregon EITC,
+the Form OR-40 line-number mapping (line 32 EITC, line 34 kicker, line 44
+total tax), the 529 subtraction amounts ($300/$600), and the 2026 estimated
+tax interest rate (8%) are not tied to an archived capture; the archived
+captures now also cover the Oregon EITC percentages (12%/9%), kicker credit
+mechanics (surplus over forecast by more than 2 percent, odd-year returns),
+personal exemption phase-out thresholds ($100,000/$200,000), TriMet/LTD/Metro
+SHS/PFA local tax rates, the 2025 interest rate (9 percent Tier One), and the
+2026 OR-ESTIMATE figures (bracket thresholds, standard deduction $2,900,
+personal exemption credit $260).
 
 | Source | URL | Read on |
 | --- | --- | --- |
@@ -264,9 +267,17 @@ ORS Chapter 316, and the 2026 OR-ESTIMATE rate charts (which confirm the
 | Oregon Department of Revenue -- Personal Income Tax | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx | 2026-10-28 |
 | Oregon Legislative Assembly -- ORS Chapter 316 | https://www.oregonlegislature.gov/bills_laws/ors/ors316.html | 2026-10-28 |
 | Oregon DOR -- 2026 Publication OR-ESTIMATE (2026 rate charts: single/MFS 4.75% to $4,550, 6.75% to $11,400, 8.75% to $125,000, 9.9% above; MFJ/HOH/QSS $9,100/$22,800/$250,000; standard deduction $2,900/$4,650/$5,800; personal exemption credit $260) | https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2026.pdf | 2026-10-31 |
+| Oregon DOR -- 2026 proposed tax tables/vendor draft (standard deduction $2,910/$5,820/$4,685; exemption amount $263; exemption phase-out $100,000/$200,000) | https://secure.dor.state.or.us/Services/draftforms/api/document/7763/download | 2026-11-04 |
+| Oregon LRO Basic Facts 2026 (EIC 9% & 12% of federal EIC; kicker; standard deduction discussion) | https://www.oregonlegislature.gov/lro/Documents/Basic%20Facts%202026.pdf | 2026-11-04 |
+| Oregon DOR -- Kicker page (surplus over forecast by more than 2 percent; odd-year returns) | https://www.oregon.gov/dor/programs/individuals/Pages/Kicker.aspx | 2026-11-04 |
+| Form OR-40 2026 instructions (refundable credits, EITC, Schedule OR-EIC-ITIN for ITIN filers) | https://secure.dor.state.or.us/Services/draftforms/api/document/7872/download | 2026-11-04 |
+| TriMet tax information page (0.8237% transit tax on wages and self-employment earnings) | https://trimet.org/taxinfo/ | 2026-11-04 |
+| City of Portland personal tax page (Metro SHS 1% over threshold; Multnomah PFA rates) | https://www.portland.gov/revenue/personal-tax | 2026-11-04 |
+| Multnomah County PFA personal income tax page (1.5%/3% tiers; +0.8% from 2027) | https://multco.us/info/multnomah-county-preschool-all-personal-income-tax | 2026-11-04 |
+| Oregon Revenue Bulletin 2025 interest rates (9 percent Tier One for 2025) | https://www.oregon.gov/dor/forms/FormsPubs/Annual%20Interest%20Rate%20Update%20for%202025.pdf | 2026-11-04 |
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+Unconfirmed against archived sources.
