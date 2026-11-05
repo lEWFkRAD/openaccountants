@@ -356,7 +356,7 @@ This contrasts sharply with neighboring Illinois (which has the Illinois Paid Le
 
 ## Worked examples
 
-### 11.1 Example 1 -- IN-IL Chicago commuter (no reciprocity)
+### 11.1 Worked example 1 -- IN-IL Chicago commuter (no reciprocity)
 
 **Facts.** Alex Patel is a software engineer who lives in Schererville, Lake County, Indiana (resident on January 1 2025). Alex commutes daily to a Chicago, Illinois office of NorthShore Capital LLC, an Illinois employer with no Indiana nexus and no Indiana payroll tax registration. Alex's 2025 gross wages are $120,000, paid semi-monthly ($5,000 per pay period, 24 periods).
 
@@ -372,7 +372,7 @@ This contrasts sharply with neighboring Illinois (which has the Illinois Paid Le
 
 **Reviewer notes.** This pattern catches many cross-border employees by surprise. Practitioners should flag for any Indiana-resident / Illinois-employer client (a) Indiana quarterly estimated payments are required because the IL employer cannot/will not withhold Indiana tax, and (b) the county tax obligation remains in full because the credit for taxes paid to another state offsets only the Indiana state tax component.
 
-### 11.2 Example 2 -- IN-only employer with Marion County resident
+### 11.2 Worked example 2 -- IN-only employer with Marion County resident
 
 **Facts.** Indy Mechanical Services Inc. is a small HVAC contractor based in Indianapolis, Marion County. It has 8 employees, all of whom are Marion County residents on January 1 2025. Gross monthly payroll is $40,000. The company's prior-year DWD experience rating is 2.10%.
 
@@ -389,7 +389,7 @@ This contrasts sharply with neighboring Illinois (which has the Illinois Paid Le
 
 **Reviewer notes.** Even with a single county and a single state, the employer must run the WH-1 monthly, the UC-1/UC-5 quarterly, and the WH-3 annually. Missing any periodic filing triggers the 10% penalty plus interest plus possible non-filer notice escalation.
 
-### 11.3 Example 3 -- Reciprocal Ohio resident hired by Indiana employer
+### 11.3 Worked example 3 -- Reciprocal Ohio resident hired by Indiana employer
 
 **Facts.** RiverBend Pharma LLC is a small biotech company in Lawrenceburg, Dearborn County, Indiana. It hires Sandra Lee, who lives in Cincinnati, Hamilton County, Ohio, and commutes to Lawrenceburg daily. Sandra's salary is $80,000.
 
@@ -405,7 +405,7 @@ This contrasts sharply with neighboring Illinois (which has the Illinois Paid Le
 
 **Reviewer notes.** This is the highest-risk pattern in Indiana payroll. A common error is to withhold neither Ohio income tax nor Indiana county tax for Sandra, on the (mistaken) view that the reciprocal agreement zeroed out all state-level obligations. Both amounts are owed; the employer is exposed to under-withholding for both Ohio and Indiana county.
 
-### 11.4 Example 4 -- Contractor misclassification (ABC test)
+### 11.4 Worked example 4 -- Contractor misclassification (ABC test)
 
 **Facts.** Hoosier Cleaning Co. operates janitorial services across Marion County. It engages 12 "independent contractor" cleaners on 1099-NEC. Each cleaner: (a) is given a route and a schedule by Hoosier; (b) wears Hoosier-branded shirts that Hoosier provides; (c) cleans only Hoosier client sites; (d) is paid hourly through Bill Pay; (e) does not have their own business name, insurance, or other clients.
 
@@ -426,7 +426,7 @@ All three prongs fail. For DWD purposes, the cleaners are employees, not contrac
 
 **Reviewer notes.** Conversion to W-2 going forward is the only defensible path. Some firms attempt a quiet conversion without voluntarily disclosing past misclassification -- this is risky because DWD audit cycles increasingly cross-reference DOR 1099 data and the former contractors are common unemployment-claim filers themselves. The Indiana Voluntary Classification Settlement Program (analogous to the IRS VCSP) can be used for prospective conversion with limited look-back, but the program terms change periodically -- confirm current parameters with DOR before filing.
 
-### 11.5 Example 5 -- January 1 county move (audit flash point)
+### 11.5 Worked example 5 -- January 1 county move (audit flash point)
 
 **Facts.** Maya Cortez was a resident of Hamilton County (Carmel) on January 1 2025. On March 1 2025 she moves to Marion County (Indianapolis). Her employer, ChartLogic Software LLC, updates her WH-4 in March and switches her county tax withholding from Hamilton (1.10%) to Marion (2.02%) effective with the next pay period.
 
