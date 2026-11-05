@@ -34,7 +34,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Pattern | Taxable? | Notes |
 | --- | --- | --- |
-| General TPP | TAXABLE 5.50% |  |
+| General TPP | TAXABLE (the general rate figure is listed under Not yet confirmed) |  |
 | Clothing | TAXABLE | No exemption |
 | Grocery food | EXEMPT |  |
 | Prepared food | TAXABLE 9.00% | Higher rate |
