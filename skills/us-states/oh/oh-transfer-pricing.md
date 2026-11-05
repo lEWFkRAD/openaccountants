@@ -54,7 +54,7 @@ Ohio has **no corporate income tax, therefore no income-tax transfer-pricing add
 
 | Item | Amount / rule | Source |
 |---|---|---|
-| CAT rate the TP lands in | 0.26% above the exclusion (see `oh-corporate-income-tax`) | `oh-cat` (Department page, 2026-10-16) | (not yet confirmed)
+| CAT rate the TP lands in | 0.26% above the exclusion (see `oh-corporate-income-tax`) | `oh-cat` (Department page, 2026-10-16); US-OH-dr-cat2023-01.txt ("The CAT rate of 0.26% applies to the taxpayer's taxable gross receipts") |
 | Combined group | One taxpayer, one $6,000,000 exclusion; **intermember receipts included** in TGR | `oh-cat` (groups page + CAT 2023-01, 2026-10-16) |
 | Consolidated election | ≥50% ownership; 50% or 80% test; **intermember receipts excluded** and ignored for the exclusion test; binds 8 quarters | `oh-cat` (CAT 2005-03/2005-12, 2026-10-16) |
 | Election forms | CAT ES (election statement), CAT AR (annual registration) | `oh-cat` |
@@ -64,7 +64,6 @@ Ohio has **no corporate income tax, therefore no income-tax transfer-pricing add
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
 ## Deadlines and filing
 
 | Action | Due |
@@ -78,7 +77,7 @@ Not yet confirmed against archived sources.
 ## Penalties and interest
 
 - Filing separately when the group rules required combined filing: the Department can re-assess the group as one taxpayer with one exclusion -- usually a **reduction**, but the reverse error (assuming consolidation without a valid election) leaves intermember receipts taxed, and refund claims run on the four-year ORC 5751.08(A) window.
-- Interest on CAT underpayments and ORC 5751.09 penalty percentages: **not yet confirmed** (not read this run).
+- Interest on CAT underpayments and ORC 5751.09 penalty percentages: (see Not yet confirmed: in Sources).
 
 ## Cross-border points
 
@@ -151,37 +150,34 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see Not yet confirmed: paragraph above) | -- | 2026-10-28 |
 
 - [ORC 5751.01 -- CAT definitions, related concepts, nexus](https://codes.ohio.gov/ohio-revised-code/section-5751.01) -- read 2026-10-27
 - [ORC 5751.08 -- four-year refund window](https://codes.ohio.gov/ohio-revised-code/section-5751.08) -- read 2026-10-27
 - `oh-cat` (tier 2, read 2026-10-16) -- combined/consolidated mechanics, CAT ES/AR, eight-quarter binding, Rule 5703-29-04 cancellation relief, citing the Department CAT groups page, CAT 2023-01, CAT 2005-03, CAT 2005-12
 - [Department CAT groups page](https://tax.ohio.gov/business/commercial-activity-tax/commercial-activity-tax-groups) -- cited via `oh-cat`; JS-rendered shell 2026-10-27
-- **not yet confirmed:** ORC 5751.09 penalty / 5703.06 interest percentages; CAT ES/AR form PDFs not re-fetched this run
+- **Not yet confirmed:** ORC 5751.09 penalty / 5703.06 interest percentages; CAT ES/AR form PDFs not re-fetched this run
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Ohio CAT group and related-party questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
 
 ## Sources
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see Not yet confirmed: paragraph above) | -- | 2026-10-28 |
 
 
 - [ORC 5751.01 -- CAT definitions, related concepts, nexus](https://codes.ohio.gov/ohio-revised-code/section-5751.01) -- read 2026-10-27
 - [ORC 5751.08 -- four-year refund window](https://codes.ohio.gov/ohio-revised-code/section-5751.08) -- read 2026-10-27
 - `oh-cat` (tier 2, read 2026-10-16) -- combined/consolidated mechanics, CAT ES/AR, eight-quarter binding, Rule 5703-29-04 cancellation relief, citing the Department CAT groups page, CAT 2023-01, CAT 2005-03, CAT 2005-12
 - [Department CAT groups page](https://tax.ohio.gov/business/commercial-activity-tax/commercial-activity-tax-groups) -- cited via `oh-cat`; JS-rendered shell 2026-10-27
-- **not yet confirmed:** ORC 5751.09 penalty / 5703.06 interest percentages; CAT ES/AR form PDFs not re-fetched this run
+- **Not yet confirmed:** ORC 5751.09 penalty / 5703.06 interest percentages; CAT ES/AR form PDFs not re-fetched this run
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Ohio CAT group and related-party questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 ## Talk to a verified accountant
 
-
-Not yet confirmed against archived sources.
