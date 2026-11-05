@@ -1,6 +1,8 @@
 ---
 name: ny-estimated-tax
-description: Use this skill whenever asked about New York State estimated tax (Form IT-2105) for self-employed individuals. Trigger on phrases like "IT-2105", "NY estimated tax", "New York quarterly tax", "MCTMT", "NYC estimated tax", "Yonkers tax", "NY underpayment penalty", "IT-2105.9", or any question about quarterly estimated income tax payments for New York State, NYC, or Yonkers. Covers quarterly instalment requirements, safe harbour rules, MCTMT estimated payments, underpayment penalty via IT-2105.9, and NYC estimated tax. ALWAYS read this skill before touching any NY estimated tax work.
+description: Use this skill whenever asked about New York State estimated tax (Form IT-2105) for self-employed individuals. Trigger on phrases like "IT-2105", "NY estimated tax", "New York quarterly tax", "MCTMT", "NYC estimated tax", "Yonkers tax", "NY underpayment penalty", "IT-2105.9", or any question about quarterly estimated income tax payments for New 
+| NY Tax Law 30-A (Yonkers surcharge) | https://www.nysenate.gov/legislation/laws/TAX/30-A | 2026-11-05 |
+| NY Tax Law Article 23 (MCTMT) | https://www.nysenate.gov/legislation/laws/TAX/A23 | 2026-10-25 |York State, NYC, or Yonkers. Covers quarterly instalment requirements, safe harbour rules, MCTMT estimated payments, underpayment penalty via IT-2105.9, and NYC estimated tax. ALWAYS read this skill before touching any NY estimated tax work.
 version: 2.0
 jurisdiction: US-NY
 tax_year: 2025
@@ -27,7 +29,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Tax | Quarterly estimated income tax (state + NYC + Yonkers) plus MCTMT estimated payments when applicable |
 | Forms | IT-2105 (voucher), IT-2105.9 (underpayment penalty) |
 | Primary legislation | NY Tax Law Section 685 |
-| Supporting legislation | NYC Admin Code 11-1701; NY Tax Law Article 30-A (Yonkers); NY Tax Law Article 23 (MCTMT) |
+| Supporting legislation | NYC Admin Code 11-1701; Yonkers surcharge (https://www.nysenate.gov/legislation/laws/TAX/30-A); MCTMT (https://www.nysenate.gov/legislation/laws/TAX/A23) |
 | Authority | New York State Department of Taxation and Finance (NYSDTF) |
 | Portal | www.tax.ny.gov |
 | Currency | USD only |

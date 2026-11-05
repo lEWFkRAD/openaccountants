@@ -1,6 +1,8 @@
 ---
 name: ny-it-201-resident-return
-description: Tier 2 New York content skill for preparing Form IT-201 (Full-Year Resident Income Tax Return) for New York State full-year residents who are sole proprietors or single-member LLCs disregarded for federal tax purposes. Covers the NYAGI computation starting from federal AGI, Form IT-225 addition and subtraction modifications (notably A-201 for unincorporated business taxes deducted federally), Form IT-558 OBBBA decoupling adjustments including the §168(k) bonus depreciation add-back and the §174A R&E expensing uncertainty, the standard vs itemized deduction decision, NY state tax computation including the $107,650 recapture worksheet, NYC resident tax computation (lines 47a-53) including the NYC UBT credit flow via Form IT-219, Yonkers resident surcharge and nonresident earnings tax (lines 55-57), MCTMT for self-employed individuals in the MCTD (lines 54a-54b), credits and payments, and the reviewer brief for the complete NY state-level return package. Does NOT cover part-year or nonresident returns (Form IT-203), itemized deduction limitations above $100,000 NYAGI in detail, PTET election scenarios, convenience-of-the-employer rule cases, NY source income allocation for multi-state activity, or NYC Unincorporated Business Tax computation itself — see Section 7. MUST be loaded alongside us-tax-workflow-base v0.2 or later. Typically loaded alongside ny-llc-filing-fee-it-204-ll (if SMLLC), nyc-unincorporated-business-tax (if NYC resident), and ny-estimated-tax-it-2105. New York State full-year residents only.
+description: Tier 2 New York content skill for preparing Form IT-201 (Full-Year Resident Income Tax Return) for New York State full-year residents who are sole proprietors or single-member LLCs disregarded for federal tax purposes. Covers the NYAGI computation starting from federal AGI, Form IT-225 addition and subtraction modifications (notably A-201 for unincorporated business taxes deducted federally), Form IT-558 OBBBA decoupling adjustments including the §168(k) bonus depreciation add-back and the §174A R&E expensing uncertainty, the standard vs itemized deduction decision, NY state tax computation including the $107,650 recapture worksheet, NYC resi
+| NY Tax Law article index (Articles 22, 23, 24, 30, 30-A, 30-B) | https://www.nysenate.gov/legislation/laws/TAX | 2026-11-05 |
+dent tax computation (lines 47a-53) including the NYC UBT credit flow via Form IT-219, Yonkers resident surcharge and nonresident earnings tax (lines 55-57), MCTMT for self-employed individuals in the MCTD (lines 54a-54b), credits and payments, and the reviewer brief for the complete NY state-level return package. Does NOT cover part-year or nonresident returns (Form IT-203), itemized deduction limitations above $100,000 NYAGI in detail, PTET election scenarios, convenience-of-the-employer rule cases, NY source income allocation for multi-state activity, or NYC Unincorporated Business Tax computation itself — see Section 7. MUST be loaded alongside us-tax-workflow-base v0.2 or later. Typically loaded alongside ny-llc-filing-fee-it-204-ll (if SMLLC), nyc-unincorporated-business-tax (if NYC resident), and ny-estimated-tax-it-2105. New York State full-year residents only.
 version: 0.1
 jurisdiction: US-NY
 tier: 2
@@ -67,11 +69,11 @@ The scope limitations align with `us-tax-workflow-base` Section 6 base refusals 
 
 **Legislation and guidance current as of the currency date:**
 
-- NY Tax Law Article 22 (Personal Income Tax)  _(NY Tax Law article index US-NY-dr-nysenate-tax-articles.txt)_
-- NY Tax Law Article 30 (City Personal Income Tax)  _(NY Tax Law article index US-NY-dr-nysenate-tax-articles.txt)_
-- NY Tax Law Article 30-A (City Income Tax Surcharge)  _(NY Tax Law article index US-NY-dr-nysenate-tax-articles.txt)_
-- NY Tax Law Article 30-B (City Earnings Tax on Nonresidents)  _(NY Tax Law article index US-NY-dr-nysenate-tax-articles.txt)_
-- NY Tax Law Article 23 (Metropolitan Commuter Transportation Mobility Tax)  _(NY Tax Law article index US-NY-dr-nysenate-tax-articles.txt)_
+- NY Tax Law Article 22 (Personal Income Tax)  _(NY Tax Law article index: https://www.nysenate.gov/legislation/laws/TAX)_
+- NY Tax Law Article 30 (City Personal Income Tax)  _(NY Tax Law article index: https://www.nysenate.gov/legislation/laws/TAX)_
+- NY Tax Law Article 30-A (City Income Tax Surcharge)  _(NY Tax Law article index: https://www.nysenate.gov/legislation/laws/TAX)_
+- NY Tax Law Article 30-B (City Earnings Tax on Nonresidents)  _(NY Tax Law article index: https://www.nysenate.gov/legislation/laws/TAX)_
+- NY Tax Law Article 23 (Metropolitan Commuter Transportation Mobility Tax)  _(NY Tax Law article index: https://www.nysenate.gov/legislation/laws/TAX)_
 - Form IT-201 (2025) and Form IT-201-I (2025) instructions, released by NYSDTF in January 2026
 - Form IT-225 (2025) and instructions
 - Form IT-558 (2025) and instructions
@@ -347,7 +349,7 @@ Every position in this skill cites from this list. New citations added to the sk
 
 | Citation | Governs |
 |---|---|
-| NY Tax Law Article 30 (US-NY-dr-nysenate-tax-articles.txt) | Authorization for NYC to impose a city personal income tax on residents |
+| NY Tax Law Article 30 (article index: https://www.nysenate.gov/legislation/laws/TAX) | Authorization for NYC to impose a city personal income tax on residents |
 | NY Tax Law §1304 | NYC resident income tax structure reference |
 | NY Tax Law Article 30-A | Yonkers resident income tax surcharge (16.75% of NY state tax) |
 | NY Tax Law Article 30-B | Yonkers nonresident earnings tax (0.50% of Yonkers-source earnings) |
@@ -865,7 +867,7 @@ Enter on Line 55. If filing jointly and only one spouse was a Yonkers resident, 
 
 **Conservative default.** Apply the 16.75% rate uniformly. Do not reduce the rate.
 
-**Source.** Yonkers City Code §92-5; NY Tax Law Article 30-A (US-NY-dr-nysenate-tax-articles.txt); Form IT-201-I (2025) US-NY-dr-it201i_2025.pdf, Line 55.
+**Source.** Yonkers City Code §92-5; NY Tax Law Article 30-A (article index: https://www.nysenate.gov/legislation/laws/TAX); Form IT-201-I (2025) https://www.tax.ny.gov/pdf/2025/inc/it201i_2025.pdf, Line 55.
 
 **Example reference.** Example 3 in Section 9 (Yonkers resident).
 
@@ -877,7 +879,7 @@ Enter on Line 55. If filing jointly and only one spouse was a Yonkers resident, 
 
 **Conservative default.** For a freelance developer who is not a Yonkers resident and has no Yonkers-based clients or office, enter $0. Flag for reviewer only if Yonkers sources are claimed.
 
-**Source.** Yonkers City Code §92-141; NY Tax Law Article 30-B (US-NY-dr-nysenate-tax-articles.txt); Form Y-203; Form IT-201-I (2025) US-NY-dr-it201i_2025.pdf, Line 56.
+**Source.** Yonkers City Code §92-141; NY Tax Law Article 30-B (article index: https://www.nysenate.gov/legislation/laws/TAX); Form Y-203; Form IT-201-I (2025) https://www.tax.ny.gov/pdf/2025/inc/it201i_2025.pdf, Line 56.
 
 ---
 
