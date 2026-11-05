@@ -63,7 +63,7 @@ non-incidental basis.
 **Authority and source documents:**
 
 - Indiana Code Title 6 (Taxation), Article 3 (Adjusted Gross Income Tax) — archived capture US-IN-ic6-3-1.html is a JS shell; see Not yet confirmed
-- Indiana Code Title 6, Article 3.6 (Local Income Taxes) — the modern successor to the older CAGIT/COIT/CEDIT structure. Not yet confirmed: the archived capture US-IN-ic6-8-1.html is a JS shell, so the article citation itself is unverified.
+- Indiana Code Title 6, Article 3.6 (Local Income Taxes) — the modern successor to the older CAGIT/COIT/CEDIT structure. Unverified: the archived capture US-IN-ic6-8-1.html is a JS shell, so the article citation itself is unverified (see the Not yet confirmed line in Sources).
 - Indiana Code Title 22, Article 4 (Unemployment Compensation System) — not archived; see Not yet confirmed
 - Indiana Code Title 22, Article 2 (Wages, Hours, and Benefits) — not archived; see Not yet confirmed
 - Indiana Department of Revenue (DOR) Departmental Notice #1 (effective
