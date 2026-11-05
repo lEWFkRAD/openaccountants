@@ -127,32 +127,6 @@ Use Form 1-ES for estimated payments.
 
 - **Health insurance mandate** — Massachusetts has an individual health insurance mandate (separate from the ACA). Failure to maintain minimum creditable coverage may result in a penalty assessed on Form 1 (Schedule HC). This is relevant for self-employed individuals who must obtain their own coverage.
 
-## Cross-border points
-
-### Starting point
-
-- **Income classification system** — Massachusetts uses its own income classification system rather than starting directly from federal AGI. However, the computation references federal Form 1040 amounts extensively. Massachusetts income is divided into three parts: - **Part A:** Interest, dividends, and net capital gains on non-Massachusetts obligations - **Part B:** Wages, salaries, self-employment income, pensions, annuities, and most other income - **Part C:** Short-term capital gains and gains on collectibles
-
-### Key differences from federal
-
-**Key differences from federal table**
-
-| Item | Massachusetts treatment | Source |
-| --- | --- | --- |
-| No standard deduction | MA uses personal exemptions and specific deductions instead | M.G.L. c. 62, § 3 |
-| Social Security | Fully exempt | M.G.L. c. 62, § 2(a)(2)(E) |
-| Interest from MA obligations | Exempt | M.G.L. c. 62, § 2 |
-| Interest from other states | Taxable (add back any federal exclusions) | M.G.L. c. 62, § 2 |
-| Short-term capital gains | Taxed at 8.50% (not the standard 5%) | M.G.L. c. 62, § 4(c) |
-
-### Resulting computation
-
-- **Computation order** — Compute Part A, Part B, and Part C income separately → subtract applicable deductions and exemptions → apply the appropriate rate to each part → sum = Massachusetts gross tax → minus credits → plus 4% surtax if applicable.
-
-## Penalties and interest
-
-Late filing and late payment penalties plus interest apply under M.G.L. c. 62C (the monthly penalty percentages are listed under Not yet confirmed); see the corporate-excise skill for the general c. 62C schedule.
-
 ## Deadlines and filing
 
 **Form 1 line mapping table**
@@ -193,6 +167,32 @@ This skill and its outputs are provided for informational and computational purp
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Penalties and interest
+
+Late filing and late payment penalties plus interest apply under M.G.L. c. 62C (the monthly penalty percentages are listed under Not yet confirmed); see the corporate-excise skill for the general c. 62C schedule.
+
+## Cross-border points
+
+### Starting point
+
+- **Income classification system** — Massachusetts uses its own income classification system rather than starting directly from federal AGI. However, the computation references federal Form 1040 amounts extensively. Massachusetts income is divided into three parts: - **Part A:** Interest, dividends, and net capital gains on non-Massachusetts obligations - **Part B:** Wages, salaries, self-employment income, pensions, annuities, and most other income - **Part C:** Short-term capital gains and gains on collectibles
+
+### Key differences from federal
+
+**Key differences from federal table**
+
+| Item | Massachusetts treatment | Source |
+| --- | --- | --- |
+| No standard deduction | MA uses personal exemptions and specific deductions instead | M.G.L. c. 62, § 3 |
+| Social Security | Fully exempt | M.G.L. c. 62, § 2(a)(2)(E) |
+| Interest from MA obligations | Exempt | M.G.L. c. 62, § 2 |
+| Interest from other states | Taxable (add back any federal exclusions) | M.G.L. c. 62, § 2 |
+| Short-term capital gains | Taxed at 8.50% (not the standard 5%) | M.G.L. c. 62, § 4(c) |
+
+### Resulting computation
+
+- **Computation order** — Compute Part A, Part B, and Part C income separately → subtract applicable deductions and exemptions → apply the appropriate rate to each part → sum = Massachusetts gross tax → minus credits → plus 4% surtax if applicable.
 
 ## Worked examples
 

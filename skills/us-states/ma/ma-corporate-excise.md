@@ -185,34 +185,6 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 
 - **Section 382 conformity** — Massachusetts conforms to federal §382 limitations on NOLs after an ownership change.
 
-## Cross-border points
-
-### 11. Nexus
-
-### 11.1 Income tax nexus — corporations
-
-- **PL 86-272 protections and narrowing** — Public Law 86-272 protections still apply in Massachusetts for sales of tangible personal property. However, Massachusetts adopted the Multistate Tax Commission's revised PL 86-272 statement (effective 2022) narrowing protection for online activities (cookies, app downloads, web chat for non-product purposes, etc.). Practitioners should expect that any non-de-minimis online business with Massachusetts customers creates income tax nexus.
-- **Bright-line economic nexus sales threshold** — $500,000 of Massachusetts sales in the year  _(830 CMR 63.39.1)_
-- **Employee count nexus threshold** — 25 or more employees in MA  _(830 CMR 63.39.1)_
-- **Property nexus threshold** — Owned or leased property in MA exceeding $50,000  _(830 CMR 63.39.1)_
-- **Any threshold triggers nexus** — Meeting any of these creates nexus.  _(830 CMR 63.39.1)_
-
-### 11.2 Combined-group nexus
-
-- **Combined group nexus treatment** — Members of a unitary combined group with Massachusetts nexus are taxable in Massachusetts; members without independent nexus are non-taxable members but still report on Form 355U for income measurement purposes.
-
-### 11.3 Individual nexus — residency
-
-- **Residency tests** — Massachusetts residents are taxable on worldwide income. Residency tests: Domiciled in Massachusetts and not a non-resident for the entire year, or Statutory resident: maintaining a permanent place of abode in Massachusetts and spending more than 183 days in the Commonwealth during the year. For surtax purposes, residency is determined under the same standards.
-
-## Penalties and interest
-
-- **Late filing penalty** — 1% per month, max 25%  _(G.L. c. 62C §33(a))_
-- **Late payment penalty** — 1% per month, max 25%  _(§33(b))_
-- **Underpayment of estimated tax** — Computed on Form M-2220 (corporate) or Form M-2210 (individual). Interest rate is the federal short-term rate + 4% (set quarterly).
-- **Substantial understatement penalty** — 20% under G.L. c. 62C §35A for understatements exceeding 10% of tax or $1,000.  _(G.L. c. 62C §35A)_
-- **Fraud penalty** — 50% of underpayment.
-
 ## Deadlines and filing
 
 ### 8. Filing and Estimated Payments
@@ -365,6 +337,34 @@ Because the surtax is on aggregate taxable income for the year, large one-time c
 ### 10.7 Composite filing and PTE election
 
 - **Composite returns and PTE election coexist** — Massachusetts permits non-resident composite returns under G.L. c. 62B §6 and 830 CMR 62B.2.2. Composite filing and PTE election are not mutually exclusive; many partnerships file both — composite for non-resident reporting and PTE election for the SALT workaround. Note that composite returns historically charged a higher non-resident rate; check current TIR for interactions.  _(G.L. c. 62B §6; 830 CMR 62B.2.2)_
+
+## Penalties and interest
+
+- **Late filing penalty** — 1% per month, max 25%  _(G.L. c. 62C §33(a))_
+- **Late payment penalty** — 1% per month, max 25%  _(§33(b))_
+- **Underpayment of estimated tax** — Computed on Form M-2220 (corporate) or Form M-2210 (individual). Interest rate is the federal short-term rate + 4% (set quarterly).
+- **Substantial understatement penalty** — 20% under G.L. c. 62C §35A for understatements exceeding 10% of tax or $1,000.  _(G.L. c. 62C §35A)_
+- **Fraud penalty** — 50% of underpayment.
+
+## Cross-border points
+
+### 11. Nexus
+
+### 11.1 Income tax nexus — corporations
+
+- **PL 86-272 protections and narrowing** — Public Law 86-272 protections still apply in Massachusetts for sales of tangible personal property. However, Massachusetts adopted the Multistate Tax Commission's revised PL 86-272 statement (effective 2022) narrowing protection for online activities (cookies, app downloads, web chat for non-product purposes, etc.). Practitioners should expect that any non-de-minimis online business with Massachusetts customers creates income tax nexus.
+- **Bright-line economic nexus sales threshold** — $500,000 of Massachusetts sales in the year  _(830 CMR 63.39.1)_
+- **Employee count nexus threshold** — 25 or more employees in MA  _(830 CMR 63.39.1)_
+- **Property nexus threshold** — Owned or leased property in MA exceeding $50,000  _(830 CMR 63.39.1)_
+- **Any threshold triggers nexus** — Meeting any of these creates nexus.  _(830 CMR 63.39.1)_
+
+### 11.2 Combined-group nexus
+
+- **Combined group nexus treatment** — Members of a unitary combined group with Massachusetts nexus are taxable in Massachusetts; members without independent nexus are non-taxable members but still report on Form 355U for income measurement purposes.
+
+### 11.3 Individual nexus — residency
+
+- **Residency tests** — Massachusetts residents are taxable on worldwide income. Residency tests: Domiciled in Massachusetts and not a non-resident for the entire year, or Statutory resident: maintaining a permanent place of abode in Massachusetts and spending more than 183 days in the Commonwealth during the year. For surtax purposes, residency is determined under the same standards.
 
 ## Worked examples
 
