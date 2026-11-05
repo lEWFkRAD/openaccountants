@@ -33,12 +33,12 @@ Source-cited draft, run of 2026-10-27. Indiana taxes residents on worldwide inco
 
 - **Indiana residents:** worldwide income, IT-40, county tax at January 1 residence rate.
 - **Part-year residents and nonresidents with Indiana income:** **Form IT-40PNR** (DOR page read 2026-10-27: partners report on "IT-40 or IT-40PNR").
-- **Commuters from OH, KY, MI, PA, WI:** Indiana has **reciprocal income-tax agreements** with these five states (per `in-payroll`, 2026-07-13) -- exempt from Indiana wage withholding on wages; file the applicable exemption form -- current WH-43-style form IDs are not yet confirmed.
+- **Commuters from OH, KY, MI, PA, WI:** Indiana has **reciprocal income-tax agreements** with these five states (per `in-payroll`, 2026-07-13) -- exempt from Indiana wage withholding on wages; file the applicable exemption form (current WH-43-style form IDs listed under Not yet confirmed).
 - **Out-of-state owners of Indiana pass-throughs:** taxed on Indiana-source distributive income unless the entity elects **PTET** (IN-PTET; DOR PTET page read 2026-10-27 -- SEA 2, 2023, entity-level tax, refundable owner credit).
 
 ## Rates, bands and thresholds
 
-- **County tax follows the person, not the workday:** the January 1 residence rule locks the county rate for the full year (per `in-payroll`) -- cross-border movers must know which county (or none, for nonresidents: nonresident county tax applies only to certain Indiana-sourced situations -- not yet confirmed).
+- **County tax follows the person, not the workday:** the January 1 residence rule locks the county rate for the full year (per `in-payroll`) -- cross-border movers must know which county (or none, for nonresidents: nonresident county-tax situations are listed under Not yet confirmed).
 - **Reciprocity covers wages only** -- rental, business, and other Indiana-source income of neighboring-state residents remains taxable in Indiana.
 - **PTET route:** electing entities pay at the flat rate; nonresident owners get a refundable credit and avoid individual Indiana filings (DOR PTET page read 2026-10-27).
 - **Remote workers:** physical work in Indiana creates Indiana-source wages regardless of employer location (withholding duty per `in-payroll`).
@@ -49,21 +49,20 @@ The taxable base follows the mechanics described under Rates, bands and threshol
 
 ## Deadlines and filing
 
-- IT-40/IT-40PNR: April 15 (calendar year; federal extension generally honored -- not yet confirmed).
-- Estimated tax: quarterly vouchers (84-ES series) when liability exceeds the threshold -- the threshold amount is not yet confirmed.
+- IT-40/IT-40PNR: April 15 (calendar year; US-IN-dr-dor-deadlines.txt: IT-40/IT-40PNR individual returns due April 15). Federal-extension honoring is listed under Not yet confirmed.
+- Estimated tax: quarterly vouchers (84-ES series) when liability exceeds the threshold (threshold amount listed under Not yet confirmed).
 - PTET election rides the entity return (DOR PTET page read 2026-10-27).
 
 ## Penalties and interest
 
-- IC 6-8.1 penalties/interest -- percentages not yet confirmed.
-- Reciprocity abuse: unfiled Indiana returns on non-wage Indiana income still draw late-filing penalties -- amounts not yet confirmed.
+- IC 6-8.1 penalties/interest (percentages listed under Not yet confirmed).
+- Reciprocity abuse: unfiled Indiana returns on non-wage Indiana income still draw late-filing penalties (amounts listed under Not yet confirmed).
 
 ## Cross-border points
 
 - Moving to/from Indiana mid-year: part-year IT-40PNR; county rate locked at January 1 residence.
 - Kentucky/Ohio border workers: reciprocity exempts wages but Kentucky/Ohio tax the full amount with a credit -- check for double-taxation gaps on non-wage income.
 - Foreign owners of Indiana flow-throughs: PTET substitutes entity-level tax; otherwise IT-40PNR + withholding.
-- Military: Indiana honors resident-state taxation rules for service members stationed elsewhere -- not yet confirmed.
 
 ## Worked examples
 
@@ -129,6 +128,7 @@ version (and the professional behind it) is at
 | Indiana DOR PTET page | https://www.in.gov/dor/tax-forms/other-forms/ptet/ | 2026-10-29 |
 | Indiana DOR withholding page (registration triggers incl. nonresident shareholders/partners) | https://www.in.gov/dor/i-am-a/business-corp/withholding/ | 2026-10-28 |
 | Indiana Code IC 6-3 (residency, source; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6 | 2026-10-28 |
+| Indiana DOR filing deadlines (IT-40/IT-40PNR individual returns due April 15) | https://www.in.gov/dor/i-am-a/individual/tax-filing-deadlines | 2026-11-01 |
 
 Internal cross-references: `in-income-tax.md`, `in-payroll.md` (tier 2) -- rates and reciprocity list originate there.
 

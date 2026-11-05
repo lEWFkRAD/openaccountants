@@ -31,8 +31,8 @@ Source-cited draft, run of 2026-10-27. Indiana's employer social-contribution la
 
 ### Who applies
 
-- Employers paying wages to individuals performing employment in Indiana (IC 22-4 coverage; the statutory tests are not yet confirmed -- statute text not machine-readable this run).
-- **Employee contribution: none** -- UI is employer-funded (standard FUTA-credit structure; the IC 22-4 text is not yet confirmed).
+- Employers paying wages to individuals performing employment in Indiana (IC 22-4 coverage; the statutory tests are listed under Not yet confirmed -- statute text not machine-readable this run).
+- **Employee contribution: none** -- UI is employer-funded (standard FUTA-credit structure; the IC 22-4 text is listed under Not yet confirmed).
 - Worker classification: DWD applies Indiana's ABC test for UI purposes (cross-ref `in-payroll`, drafted 2026-10-27 from earlier sources).
 
 ## Rates, bands and thresholds
@@ -40,9 +40,9 @@ Source-cited draft, run of 2026-10-27. Indiana's employer social-contribution la
 | Item | Value (from `in-payroll`, 2025 figures) | Source status |
 |---|---|---|
 | Taxable wage base | **$9,500** per employee per year  | confirm the 2026 base on the DWD notice -- see Not yet confirmed below |
-| Experience rates | **0.50% – 7.40%**  | not yet confirmed |
-| New-employer rate | **2.5%**  | not yet confirmed |
-| Fund structure | employer contributions + federal credits  | not yet confirmed |
+| Experience rates | **0.50% – 7.40%**  | carried from `in-payroll` -- see Not yet confirmed below |
+| New-employer rate | **2.5%**  | carried from `in-payroll` -- see Not yet confirmed below |
+| Fund structure | employer contributions + federal credits  | carried from `in-payroll` -- see Not yet confirmed below |
 
 ## The taxable base
 
@@ -50,17 +50,17 @@ The taxable base follows the mechanics described under Rates, bands and threshol
 
 ## Deadlines and filing
 
-- Quarterly contribution/wage reports (Form WH-34 series): due the last day of the month following each calendar quarter -- the published DWD calendar is not yet confirmed.
-- Rate notices issue annually before the calendar year; protest windows follow the DWD notice -- not yet confirmed.
+- Quarterly contribution/wage reports (Form WH-34 series): due the last day of the month following each calendar quarter (the published DWD calendar is listed under Not yet confirmed).
+- Rate notices issue annually before the calendar year; protest windows follow the DWD notice (listed under Not yet confirmed).
 
 ## Penalties and interest
 
-- Late/unpaid contributions: interest and penalty under IC 22-4 -- percentages not yet confirmed.
-- Successor liability and transfer provisions exist in IC 22-4 -- scope not yet confirmed.
+- Late/unpaid contributions: interest and penalty under IC 22-4 (percentages listed under Not yet confirmed).
+- Successor liability and transfer provisions exist in IC 22-4 (scope listed under Not yet confirmed).
 
 ## Cross-border points
 
-- Remote workers physically working in Indiana create Indiana UI exposure for out-of-State employers; reciprocal coverage arrangements under the interstate UI agreement -- not yet confirmed.
+- Remote workers physically working in Indiana create Indiana UI exposure for out-of-State employers; reciprocal coverage arrangements under the interstate UI agreement are listed under Not yet confirmed.
 - Reciprocal **income-tax** agreements (OH, KY, MI, PA, WI -- per `in-payroll`) do **not** extend to UI.
 
 ## Worked examples

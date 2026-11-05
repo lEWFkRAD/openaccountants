@@ -1,6 +1,6 @@
 ---
 name: indiana-sales-tax
-description: Use this skill whenever asked about Indiana sales and use tax. Trigger on phrases like "Indiana sales tax", "IN sales tax", "IC 6-2.5", "Indiana DOR". Indiana has one of the SIMPLEST structures -- a flat statewide rate with no local sales taxes (the rate figure is not yet confirmed). ALWAYS load us-sales-tax first.
+description: Use this skill whenever asked about Indiana sales and use tax. Trigger on phrases like "Indiana sales tax", "IN sales tax", "IC 6-2.5", "Indiana DOR". Indiana has one of the SIMPLEST structures -- a flat 7% statewide rate with no local sales taxes (US-IN-dr-dor-tax-types.html). ALWAYS load us-sales-tax first.
 jurisdiction: US-IN
 tax_year: 2025
 last_updated: 2026-10-28
@@ -19,17 +19,17 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Field | Value |
 | --- | --- |
 | Jurisdiction | Indiana |
-| State rate | 7.00% (flat -- no local sales tax) | (not yet confirmed)
+| State rate | 7.00% (flat -- no local sales tax; US-IN-dr-dor-tax-types.html) |
 | Local taxes | None |
-| Maximum combined rate | 7.00% | (not yet confirmed)
+| Maximum combined rate | 7.00% (US-IN-dr-dor-tax-types.html) |
 | Sourcing | Destination-based (SST) |
-| Economic nexus | $100,000 OR 200 transactions | (not yet confirmed)
+| Economic nexus | $100,000 gross sales into Indiana (US-IN-dor-business-faq.html); the 200-transaction alternative is listed under Not yet confirmed |
 | Tax authority | Indiana Department of Revenue |
 | Portal | https://intime.dor.in.gov |
 | SST member | Yes (full member) |
 | Skill version | 2.0 |
 
-**One of the simplest sales tax states -- a flat statewide rate (not yet confirmed), no local add-ons.**
+**One of the simplest sales tax states -- a flat 7% statewide rate (US-IN-dr-dor-tax-types.html), no local add-ons.**
 
 ## Rates, bands and thresholds
 
@@ -37,7 +37,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 | Pattern | Taxable? | Notes |
 | --- | --- | --- |
-| General TPP | TAXABLE (rate not yet confirmed) | Uniform statewide |
+| General TPP | TAXABLE at 7% (US-IN-dr-dor-tax-types.html) | Uniform statewide |
 | Clothing | TAXABLE | No exemption |
 | Grocery food | EXEMPT |  |
 | Prepared food | TAXABLE |  |
@@ -67,7 +67,7 @@ Indiana is a full Streamlined Sales Tax (SST) member and sources sales by destin
 
 ## Worked examples
 
-No worked examples are included in this quick-reference skill; the 7.00% flat statewide rate applies uniformly. (not yet confirmed)
+No worked examples are included in this quick-reference skill; the 7.00% flat statewide rate applies uniformly (US-IN-dr-dor-tax-types.html).
 
 ## Ask the client first
 
@@ -80,8 +80,10 @@ No worked examples are included in this quick-reference skill; the 7.00% flat st
 | Source | URL | Read on |
 |---|---|---|
 | Indiana Code IC 6-2.5 (sales and use tax; iga.in.gov SPA -- no server-side text captured) | https://iga.in.gov/laws/2025/ic/titles/6#6-25 | 2026-10-28 |
+| Indiana DOR Tax Types page (sales and use tax "at a rate of 7%") | https://www.in.gov/dor/about/news-publications/our-team/tax-types/ | 2026-11-01 |
+| Indiana DOR Business FAQ ("state gross retail tax of 7%"; $100,000 registration threshold) | https://www.in.gov/dor/i-am-a/business-corp/business-faq/ | 2026-10-31 |
 
-Not yet confirmed: the 7.00% flat rate, the SST member-state status, the $100,000 / 200-transaction economic-nexus threshold, and the transaction-pattern exemptions (IC 6-2.5) -- no archived copy of the IC 6-2.5 text or the DOR sales-tax pages was captured this run.
+Not yet confirmed: the SST member-state status, the 200-transaction economic-nexus alternative, and the transaction-pattern exemptions (IC 6-2.5) -- no archived copy of the IC 6-2.5 text was captured this run. The 7.00% flat statewide rate and the $100,000 registration threshold are confirmed from the archived DOR pages (US-IN-dr-dor-tax-types.html, US-IN-dor-business-faq.html).
 
 ## Talk to a verified accountant
 

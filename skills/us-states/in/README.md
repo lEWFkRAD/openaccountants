@@ -15,7 +15,7 @@ as_of: 2026-10-27
 
 # Indiana (US-IN) -- pack map
 
-Indiana taxes individuals at a **flat state rate plus a county income tax** in all 92 counties (county rate locked to January 1 residence), corporations at a **flat 4.9% rate on adjusted gross income** (IC 6-3; DOR IT-20 booklet 2025), and sales at 7% flat statewide with no local sales taxes. Employer social contributions are UI-only (IC 22-4, DWD). No state disability insurance, no state health-coverage mandate. Inheritance tax repealed. (not yet confirmed)
+Indiana taxes individuals at a **flat state rate plus a county income tax** in all 92 counties (county rate locked to January 1 residence), corporations at a **flat 4.9% rate on adjusted gross income** (IC 6-3; DOR IT-20 booklet 2025 -- US-IN-dr-it20-booklet.pdf.txt: "corporate AGI tax rate is 4.9%"), and sales at 7% flat statewide with no local sales taxes (US-IN-dr-dor-tax-types.html: "rate of 7%"; US-IN-dor-business-faq.html: "state gross retail tax of 7%"). Employer social contributions are UI-only (IC 22-4, DWD). No state disability insurance, no state health-coverage mandate. Inheritance tax repealed.
 
 ## Domain map
 
@@ -23,7 +23,7 @@ Indiana taxes individuals at a **flat state rate plus a county income tax** in a
 |---|---|---|---|
 | IT-IND individual income | drafted (pre-existing; jurisdiction code fixed 2026-10-27) | `in-income-tax.md` | flat rate + county tax, IT-40, self-employed focus |
 | IT-CORP corporate income | drafted 2026-10-27 | `in-corporate-income-tax.md` | IT-20 + schedules verified from DOR inventory; rate + combined-report test needs-sources |
-| VAT sales/use | drafted (pre-existing) | `in-sales-tax.md`, `indiana-sales-tax.md` | flat statewide rate (not yet confirmed), no local sales tax |
+| VAT sales/use | drafted (pre-existing) | `in-sales-tax.md`, `indiana-sales-tax.md` | flat 7% statewide rate (US-IN-dr-dor-tax-types.html), no local sales tax |
 | SC social contributions | drafted 2026-10-27 | `in-social-contributions.md` | UI-only; DWD SPA so wage base/rates needs-sources |
 | PR payroll withholding | drafted (pre-existing, deep) | `in-payroll.md` | WH-1/WH-3/WH-4, county rule, reciprocity, UI figures |
 | TP transfer pricing | drafted 2026-10-27 | `in-transfer-pricing.md` | Schedule 8-D + IT-20PIC + PTET verified as forms; statutory scope needs-sources |

@@ -33,14 +33,14 @@ Source-cited draft, run of 2026-10-27. Indiana's related-party toolkit is **elec
 ### Who applies
 
 - Corporations in an **affiliated group** may elect a consolidated Indiana return if the parent owns at least 80% of each subsidiary's voting stock and at least 80% of total stock value; members are listed on Schedule 8-D (IT-20 booklet 2025, Consolidated Reporting). A **unitary combined** return is filed only with DOR permission, on a petition filed no later than 30 days after the end of the tax year (IT-20 booklet, Unitary (Combined) Filing Status).
-- Any IT-20 filer with **intangible expenses paid to related parties** -- IT-20PIC disclosure (form verified; the statutory trigger is not yet confirmed).
+- Any IT-20 filer with **intangible expenses paid to related parties** -- IT-20PIC disclosure (form verified via US-IN-dor-corp-forms.html; statutory trigger listed under Not yet confirmed).
 - Non-unitary partnership income is carved out and allocated on Schedule F (form title verified 2026-10-27) -- Indiana's unitary-combination boundary is real and matters for holding structures.
 
 ## Rates, bands and thresholds
 
 - **Consolidated or combined returns:** business income is apportioned on Schedule E by the single-factor receipts formula (IC 6-3-2-2; IT-20 booklet). In a combined return, members with a sales factor numerator greater than zero are taxable members, each assigned business income by its relative share of the group's Indiana sales factors (IT-20 booklet).
-- **IT-20PIC:** discloses intangible expense (royalties, licensing) **and directly related interest expense** paid across state lines; Indiana's answer to royalty-shifting structures (scope not yet confirmed).
-- **IT-20FSD:** foreign-source dividend deduction (form verified; eligibility not yet confirmed).
+- **IT-20PIC:** discloses intangible expense (royalties, licensing) **and directly related interest expense** paid across state lines; Indiana's answer to royalty-shifting structures (scope listed under Not yet confirmed).
+- **IT-20FSD:** foreign-source dividend deduction (form verified via US-IN-dor-corp-forms.html; eligibility listed under Not yet confirmed).
 - **PTET (IN-PTET):** SEA 2 (2023) elective entity-level tax with refundable owner credit and a credit for other states' PTETs (DOR PTET page, read 2026-10-27) -- shifts the related-party analysis to the entity level for pass-throughs.
 
 ## The taxable base
@@ -50,16 +50,16 @@ The taxable base follows the mechanics described under Rates, bands and threshol
 ## Deadlines and filing
 
 - Consolidated and combined returns follow the IT-20 calendar: due the 15th day of the 5th month after the tax year ends (IT-20 booklet). A consolidated election is made on a timely filed return; a unitary combined petition is due no later than 30 days after the end of the tax year (IT-20 booklet).
-- PTET election is annual with the entity return (per the DOR PTET page; exact dates not yet confirmed).
+- PTET election is annual with the entity return (per the DOR PTET page; exact dates listed under Not yet confirmed).
 
 ## Penalties and interest
 
 - Underpayment: Schedule IT-2220 (form verified).
-- IC 6-8.1 penalty/interest percentages not yet confirmed.
+- IC 6-8.1 penalty/interest (percentages listed under Not yet confirmed).
 
 ## Cross-border points
 
-- Royalty/interest flows from Indiana operating companies to out-of-State IP affiliates: IT-20PIC disclosure, potential addback (scope not yet confirmed).
+- Royalty/interest flows from Indiana operating companies to out-of-State IP affiliates: IT-20PIC disclosure, potential addback (scope listed under Not yet confirmed).
 - A consolidated return includes only affiliates with income or loss attributable to Indiana; combined reporting is limited to the water's edge of the United States unless DOR approves otherwise (IT-20 booklet).
 - Other-state PTETs: Indiana grants a credit for PTET paid to another state (DOR PTET page, read 2026-10-27).
 
