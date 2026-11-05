@@ -331,7 +331,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: the city/county local-rate table figures (the archived Q426 rate flyer table uses decimal form, e.g. King/Seattle 1726 .0405 .0650 .1055; percent-form rows were not re-verified line by line).
+Not yet confirmed: the Tacoma, Olympia, Spokane, Vancouver, Edmonds and Lynnwood local-rate rows (only the King/Seattle row is verbatim in the archived Q426 rate flyer: "King            Seattle                                            1726      .0405   .0650       .1055").
 
 
 | Source | URL | Read on |
