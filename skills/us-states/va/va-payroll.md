@@ -81,7 +81,7 @@ These reduce taxable wages for withholding-table purposes and feed the VA-4 allo
 
 ### 2.4 Computing Virginia withholding from gross wages
 
-- **Standard withholding computation method** -- Step 1: Convert wage payment to annualized basis (multiply by pay periods per year) Step 2: Subtract VA-4 personal exemption allowance × $930 Step 3: Subtract standard deduction (annualized: $8,500 single / $17,000 MFJ -- but VA-4 line for additional standard deduction is rare in practice; default is $8,500 unless the employee claims MFJ via VA-4 line 3) Step 4: Apply graduated bracket table from §2.1 to remaining amount Step 5: Divide annualized tax by pay periods per year = withholding per pay period Step 6: Add any additional flat dollar amount the employee elected on VA-4 line 4  _(Va. Dept. of Taxation Withholding Tables, percentage method)_
+- **Standard withholding computation method** (mechanics listed under Not yet confirmed in Sources; the $930 exemption and $8,750/$17,500 standard deduction amounts are per US-VA-dr-2025-760-instructions.txt) -- Step 1: Convert wage payment to annualized basis (multiply by pay periods per year) Step 2: Subtract VA-4 personal exemption allowance × $930 Step 3: Subtract standard deduction (annualized: $8,750 single / $17,500 MFJ) Step 4: Apply graduated bracket table from §2.1 to remaining amount Step 5: Divide annualized tax by pay periods per year = withholding per pay period Step 6: Add any additional flat dollar amount the employee elected on VA-4 line 4  _(Va. Dept. of Taxation Withholding Tables, percentage method)_
 
 **Sample withholding computation (not a numbered worked example; employee earns $80,000 annually, semi-monthly, single, 1 exemption, no additional withholding):** (figures listed under Not yet confirmed)
 - Annualized wages: $80,000
@@ -99,7 +99,7 @@ These reduce taxable wages for withholding-table purposes and feed the VA-4 allo
 - **Line 1(a)** – Number of personal exemptions (typically 1 for self; +1 for spouse if MFJ and spouse has no income; +1 per dependent)
 - **Line 1(b)** – Additional age 65+ / blind exemptions
 - **Line 2** – Subtotal exemptions
-- **Line 3** – Additional standard deduction box if MFJ (signals withholding table to use $17,000 SD instead of $8,500)
+- **Line 3** – Additional standard deduction box if MFJ (signals withholding table to use the $17,500 MFJ standard deduction instead of $8,750; amounts per US-VA-dr-2025-760-instructions.txt)
 - **Line 4** – Additional flat dollar amount to withhold per pay period
 - **Line 5** – Exempt status (employee certifies no Virginia tax liability prior year and anticipates none in the current year; the Feb 15 re-filing date is listed under Not yet confirmed — Form VA-4 instructions were not archived)
 
@@ -388,7 +388,7 @@ All figures in this example are hypothetical inputs and listed under Not yet con
 - Employer: Acme Federal Services LLC, headquartered in Arlington, VA, with a federal prime contract under GSA Schedule
 - Employee: David Park, Virginia resident living in Falls Church
 - David's services in 2025:
-  - 60% of work time at the Arlington office (Virginia) (scenario percentages are illustrative; listed under Not yet confirmed in Sources)
+  - 60% of work time at the Arlington office (Virginia) (scenario percentages are hypothetical; listed under Not yet confirmed in Sources)
   - 25% on-site at a federal facility in Bethesda, MD
   - 10% on-site at a federal facility in Washington, DC
   - 5% on-site at a federal facility in Richmond, VA
