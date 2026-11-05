@@ -12,7 +12,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # Maine Sales Tax
 
-## Section 1 -- Quick reference
+### Section 1 -- Quick reference
 
 **Quick reference**
 
@@ -28,7 +28,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | SST member | No |
 | Skill version | 2.0 |
 
-## Section 3 -- Transaction pattern library
+### Section 3 -- Transaction pattern library
 
 **Transaction pattern library**
 
@@ -47,23 +47,61 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Prescription drugs | EXEMPT |  |
 | Resale | EXEMPT |  |
 
-## Section 10 -- Prohibitions
+### Section 10 -- Prohibitions
 
 - **Prohibition: prepared food/lodging rate** — NEVER use the 5.50% rate for prepared food or lodging -- they have higher rates (9%).  _(unsure)_
 - **Prohibition: short-term auto rental rate** — NEVER forget the 8% short-term auto rental rate.  _(unsure)_
 - **Prohibition: computation** — NEVER compute any number.  _(unsure)_
 
-## Disclaimer
+### Disclaimer
 
 Informational only. Review by qualified professional required before filing.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Who this applies to
+
+Vendors making retail sales of tangible personal property and certain services in this state, and buyers owing use tax on out-of-state purchases.
+
+## Rates, bands and thresholds
+
+See the quick-reference table in Section 1 (demoted below).
+
+## The taxable base
+
+See the transaction pattern library in Section 3 (demoted below).
+
+## Deadlines and filing
+
+Returns are filed with the state revenue department on its regular sales-tax schedule.
+
+## Penalties and interest
+
+Late filing and late payment penalties and interest apply per the state's general tax-procedure statute.
+
+## Cross-border points
+
+Destination-based sourcing applies; remote sellers must watch economic nexus thresholds.
+
+## Worked examples
+
+No worked examples in this legacy skill.
+
+## Ask the client first
+
+Where do customers receive the goods? Are sales for resale or exempt? Is the seller registered in the destination state?
+
+## Sources
+
+| Source | URL | Read on |
+| --- | --- | --- |
+Not yet confirmed: figures in this legacy skill lack archived line-citations.
 
 ## Talk to a verified accountant
 
