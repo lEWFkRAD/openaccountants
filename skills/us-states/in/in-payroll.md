@@ -192,14 +192,14 @@ Mismatches commonly arise from:
 
 | County | County name (FIPS) | 2025 rate |
 | --- | --- | --- |
-| Marion | Indianapolis | 2.02% |
+| Marion | Indianapolis | 2.02% (Not yet confirmed) |
 | Lake | Gary / Crown Point | 1.50% |
-| Allen | Fort Wayne | 1.59% |
+| Allen | Fort Wayne | 1.59% (Not yet confirmed) |
 | Hamilton | Carmel / Fishers | 1.10% |
-| St. Joseph | South Bend | 1.75% |
+| St. Joseph | South Bend | 1.75% (Not yet confirmed) |
 | Vanderburgh | Evansville | 1.20% |
 | Tippecanoe | Lafayette / Purdue | 1.10% |
-| Monroe | Bloomington / IU | 2.035% |
+| Monroe | Bloomington / IU | 2.035% (Not yet confirmed) |
 | Porter | Valparaiso | 0.50% |
 | Vigo | Terre Haute | 2.00% |
 | Madison | Anderson | 2.25% |
