@@ -26,9 +26,9 @@ This skill is the authoritative Tier 2 content layer for Oregon employer payroll
 - Local transit district employer payroll taxes:
   - TriMet (Portland metropolitan area) -- 0.8237% employer (US-OR-dr-trimet-taxinfo.txt); employee 0.13% (see Not yet confirmed: list in Sources)
   - Lane Transit District (Eugene/Springfield) -- 0.80% employer (US-OR-dr-oq-2026.txt: 'Lane Transit District (LTD) tax rate is 0.0080')
-  - Salem Area Mass Transit District / Cherriots -- employer payroll tax proposed from 2027 (US-OR-dr-cherriots-se.txt); the 0.36% rate is in Not yet confirmed: list in Sources
+  - Salem Area Mass Transit District / Cherriots -- employer payroll tax proposed from 2027 (US-OR-dr-cherriots-se.txt); the 0.36% rate is listed under Not-yet-confirmed in Sources
 - Oregon Paid Leave (Paid Leave Oregon) -- 1.0% total contribution, split 40/60 employer/employee for employers with 25+ employees, up to 12 weeks of paid family/medical/safe leave benefits (US-OR-dr-paidleave.txt: 'The total contribution rate for 2026 is 1% of gross wages up to $184,500'; US-OR-dr-lro-basic-facts-2026.pdf: up to 12 weeks in a 52-week period)
-- Workers' Benefit Fund (WBF) assessment -- 1.8 cents per hour worked (2026) (US-OR-dr-wbf.txt: 'In 2026, the WBF assessment is 1.8 cents per hour worked'); the 2025 0.66¢/0.66¢ split is in Not yet confirmed: list in Sources
+- Workers' Benefit Fund (WBF) assessment -- 1.8 cents per hour worked (2026) (US-OR-dr-wbf.txt: 'In 2026, the WBF assessment is 1.8 cents per hour worked'); the 2025 0.66¢/0.66¢ split is listed under Not-yet-confirmed in Sources
 - Final-pay rule -- by end of next business day after termination by employer
 - Independent contractor classification -- the Oregon ABC test, codified by case law and adopted statutorily post-2020
 - Federal interactions -- Family and Medical Leave Act parity, Pay Equity Act 2019 implications for payroll
@@ -185,7 +185,7 @@ The TriMet rate is statutorily increased by 0.0001 (1 basis point) per year thro
 
 ### 5.2 Lane Transit District (LTD) -- 0.79% employer (Eugene/Springfield)
 
-- **Lane Transit District employer rate (2026)** -- 0.80% (US-OR-dr-oq-2026.txt: 'Lane Transit District (LTD) tax rate is 0.0080'); the 2025 rate of 0.79% is in Not yet confirmed: list in Sources
+- **Lane Transit District employer rate (2026)** -- 0.80% (US-OR-dr-oq-2026.txt: 'Lane Transit District (LTD) tax rate is 0.0080'); the 2025 rate of 0.79% is listed under Not-yet-confirmed in Sources
 
 The Lane Transit District employer payroll tax applies to wages paid for services performed within the LTD boundary, which covers most of Lane County including Eugene, Springfield, and surrounding communities.
 
