@@ -100,7 +100,7 @@ These reduce taxable wages for withholding-table purposes and feed the VA-4 allo
 - **Line 2** – Subtotal exemptions
 - **Line 3** – Additional standard deduction box if MFJ (signals withholding table to use $17,000 SD instead of $8,500)
 - **Line 4** – Additional flat dollar amount to withhold per pay period
-- **Line 5** – Exempt status (employee certifies (i) no Virginia tax liability prior year AND (ii) anticipates none in current year) -- must be re-filed by Feb 15 each year, parallel to the federal exempt re-certification deadline
+- **Line 5** – Exempt status (employee certifies no Virginia tax liability prior year and anticipates none in the current year; the Feb 15 re-filing date is listed under Not yet confirmed — Form VA-4 instructions were not archived)
 
 ### 3.3 Reciprocal-state exemption: Form VA-4 vs Form VA-4-NR vs Form VA-4 with reciprocal certification
 
@@ -134,7 +134,7 @@ Virginia assigns employers to a withholding-deposit frequency based on average m
 
 ### 4.2 VA-5 (Monthly) mechanics
 
-- **VA-5 monthly mechanics** -- - Filed for any month in which the employer was assigned monthly status - Due by the 25th of the following month (e.g., January VA-5 due February 25) - Reports total Virginia tax withheld for the month - No wage-detail data -- that flows to VA-6/VA-16 annual reconciliation - Filed electronically via iReg / Business iFile at www.tax.virginia.gov -- paper filing is permitted only with prior waiver - Payment via ACH debit, ACH credit, or eForms credit card (with convenience fee)  _(4.2 VA-5 (Monthly) mechanics)_
+- **VA-5 monthly mechanics** -- - Filed for any month in which the employer was assigned monthly status - Due by the 25th of the following month (the 25th-of-month due date is listed under Not yet confirmed; no archived source states it) - Reports total Virginia tax withheld for the month - No wage-detail data -- that flows to VA-6/VA-16 annual reconciliation - Filed electronically via iReg / Business iFile at www.tax.virginia.gov -- paper filing is permitted only with prior waiver - Payment via ACH debit, ACH credit, or eForms credit card (with convenience fee)  _(4.2 VA-5 (Monthly) mechanics)_
 
 ### 4.3 VA-15 (Quarterly) mechanics
 
