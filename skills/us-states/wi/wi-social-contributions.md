@@ -34,7 +34,7 @@ depends_on:
 
 Employer-side social contributions in Wisconsin: **unemployment insurance (UI)** under Wis. Stat. ch. 108 (DWD), and **workers' compensation** under ch. 102. Wisconsin has **no state disability insurance and no paid family leave program**. Payroll withholding mechanics sit in `wi-payroll`.
 
-**Source status (as_of 2026-10-27):** figures carried from tier-2 `wi-payroll` (statutory cites verified 2026-07-13) and [Wis. Stat. § 108.05 text](https://docs.legis.wisconsin.gov/statutes/statutes/108/05) re-read 2026-10-27. 2026 rate schedules depend on the trust-fund balance band -- the 2025 Schedule D is reproduced; **Not yet confirmed:** the 2026 band/schedule until DWD publishes rate notices.
+**Source status (as_of 2026-10-27):** figures carried from tier-2 `wi-payroll` (statutory cites verified 2026-07-13) and [Wis. Stat. § 108.05 text](https://docs.legis.wisconsin.gov/statutes/statutes/108/05) re-read 2026-10-27. 2026 rate schedules depend on the trust-fund balance band -- the 2025 Schedule D is reproduced; **Listed under Not yet confirmed in Sources:** the 2026 band/schedule until DWD publishes rate notices.
 
 ### 2. Who applies
 
@@ -48,30 +48,30 @@ Employer-side social contributions in Wisconsin: **unemployment insurance (UI)**
 | Item | Amount / rule | Source |
 |---|---|---|
 | UI taxable wage base | **$14,000 per employee per calendar year** (unchanged since 2013; statutory, not indexed) | Wis. Stat. § 108.18(1)(am) via `wi-payroll` (2026-07-13) |
-| Experience rates (2025 Schedule D) | 0.00%–12.00% by reserve ratio; small (≤$500K payroll) vs large (> $500K) columns: e.g. 16%+ reserve → 0.00%/0.05%; deficit below −8% → 12.00% both | `wi-payroll` (2026-07-13); **Not yet confirmed:** 2026 schedule |
+| Experience rates (2025 Schedule D) | 0.00%–12.00% by reserve ratio; small (≤$500K payroll) vs large (> $500K) columns: e.g. 16%+ reserve → 0.00%/0.05%; deficit below −8% → 12.00% both | `wi-payroll` (2026-07-13); **Listed under Not yet confirmed in Sources:** 2026 schedule |
 | New employer rate | **3.05%** non-construction; **2.90%** construction (first 3 calendar years) | Wis. Stat. § 108.18(2)(c) via `wi-payroll` |
-| Solvency tax | 0.00% for 2025 (trust fund above trigger) | `wi-payroll`; **Not yet confirmed:** 2026 |
+| Solvency tax | 0.00% for 2025 (trust fund above trigger) | `wi-payroll`; **Listed under Not yet confirmed in Sources:** 2026 |
 | Employee UI contribution | **None** -- Wisconsin UI is employer-funded (unlike PA) | ch. 108 structure |
-| FUTA | 6.0% on $7,000 (federal; credit-reduction status see 'Not yet confirmed:' in Sources) | Not archived |
-| Workers' comp | Manual rates by class, private carriers; state fund closed to most new business since 1996 -- Not yet confirmed: rate detail not archived |
+| FUTA | 6.0% on $7,000 (federal; credit-reduction status see 'Listed under Not yet confirmed in Sources:' in Sources) | Not archived |
+| Workers' comp | Manual rates by class, private carriers; state fund closed to most new business since 1996 -- Listed under Not yet confirmed in Sources: rate detail not archived |
 
-**AUDIT FLASH POINT** -- **misclassification**: the UI test requires Part A (no control) **plus six of nine** Part B factors; failing one required factor flips the worker to employee status (test text not archived -- see 'Not yet confirmed:' in Sources). The archived withholding statute fines willful construction-contractor misclassification **$25,000 per violation** (US-WI-dr-wis-stat-ch71.txt, s. 71.64(6): "misclassifies or attempts to misclassify an individual who is an employee of the employer as a nonemployee shall be fined $25,000 for each violation"); the parallel § 108.221 / 2009 Wis. Act 292 per-worker penalty see 'Not yet confirmed:' in Sources. A 1099 worker for IRS can still be a UI employee.
+**AUDIT FLASH POINT** -- **misclassification**: the UI test requires Part A (no control) **plus six of nine** Part B factors; failing one required factor flips the worker to employee status (test text not archived -- see 'Listed under Not yet confirmed in Sources:' in Sources). The archived withholding statute fines willful construction-contractor misclassification **$25,000 per violation** (US-WI-dr-wis-stat-ch71.txt, s. 71.64(6): "misclassifies or attempts to misclassify an individual who is an employee of the employer as a nonemployee shall be fined $25,000 for each violation"); the parallel § 108.221 / 2009 Wis. Act 292 per-worker penalty see 'Listed under Not yet confirmed in Sources:' in Sources. A 1099 worker for IRS can still be a UI employee.
 
 ### 4. Deadlines
 
 | Filing | Due |
 |---|---|
 | UCT-101 quarterly contribution & wage report (detail UCT-7823) | **Apr 30 / Jul 31 / Oct 31 / Jan 31** |
-| Electronic filing | Mandatory for 25+ workers or anyone e-filing Form 940 (Wis. Admin. Code DWD 110.04 -- see 'Not yet confirmed:' in Sources) |
+| Electronic filing | Mandatory for 25+ workers or anyone e-filing Form 940 (Wis. Admin. Code DWD 110.04 -- see 'Listed under Not yet confirmed in Sources:' in Sources) |
 | Rate appeal | 15 days from notice (DWD) |
 | New employer registration | At first covered quarter trigger -- register with DWD |
-| WC first report of injury | Employer report within 7 days of accident knowledge if >3-day disability or medical beyond first aid -- Not yet confirmed: day counts not archived, re-verify |
+| WC first report of injury | Employer report within 7 days of accident knowledge if >3-day disability or medical beyond first aid -- Listed under Not yet confirmed in Sources: day counts not archived, re-verify |
 
 ### 5. Penalties and interest
 
-- Late UCT-101: **$50 minimum per quarter** (§ 108.22(1)(a) -- figure see 'Not yet confirmed:' in Sources).
-- Late payment: **0.75% per month, compounded** (see 'Not yet confirmed:' in Sources).
-- Fraudulent misclassification: **up to $25,000 per misclassified worker** (§ 108.221 -- see 'Not yet confirmed:' in Sources; the archived s. 71.64(6) construction-contractor fine of $25,000 per violation is cited in Section 3).
+- Late UCT-101: **$50 minimum per quarter** (§ 108.22(1)(a) -- figure see 'Listed under Not yet confirmed in Sources:' in Sources).
+- Late payment: **0.75% per month, compounded** (see 'Listed under Not yet confirmed in Sources:' in Sources).
+- Fraudulent misclassification: **up to $25,000 per misclassified worker** (§ 108.221 -- see 'Listed under Not yet confirmed in Sources:' in Sources; the archived s. 71.64(6) construction-contractor fine of $25,000 per violation is cited in Section 3).
 - Uninsured WC employer: direct liability for benefits plus DIF assessments.
 
 ### 6. Cross-border
@@ -116,7 +116,7 @@ expected:
 
 ### 8. Ask the client
 
-- Which quarter triggers coverage (the $1,500 quarterly-wage test -- see 'Not yet confirmed:' in Sources) -- startups get caught retroactively.
+- Which quarter triggers coverage (the $1,500 quarterly-wage test -- see 'Listed under Not yet confirmed in Sources:' in Sources) -- startups get caught retroactively.
 - Reserve-ratio report reviewed before the rate notice? Experience appeals are 15 days.
 - Every 1099 worker run through **both** nine-factor tests (UI and WC)?
 - Border commuters: UI localization vs PIT reciprocity split documented?
@@ -127,42 +127,42 @@ expected:
 - [Wis. Stat. ch. 108](https://docs.legis.wisconsin.gov/statutes/statutes/108) -- § 108.05 text read 2026-10-27; §§ 108.02(12)(bm), 108.02(13), 108.18, 108.22, 108.221 cited via `wi-payroll` (verified 2026-07-13)
 - `wi-payroll` (tier 2, read 2026-07-13) -- wage base, Schedule D, new-employer rates, UCT-101 calendar, penalties, classification tests
 - [DWD UI tax](https://dwd.wisconsin.gov/uitax) -- portal referenced by `wi-payroll`
-- **Not yet confirmed:** 2026 rate schedule band; 2026 solvency tax; FUTA credit-reduction status; WC reporting-day figures and rate detail; the $14,000 wage base; new-employer rates 3.05%/2.90%; the $1,500/$20,000/$1,000 coverage triggers; UCT-101 due dates; the $50 late-filing minimum and 0.75%/month interest; the § 108.221 $25,000 penalty; the nine-factor test texts.
+- **Listed under Not yet confirmed in Sources:** 2026 rate schedule band; 2026 solvency tax; FUTA credit-reduction status; WC reporting-day figures and rate detail; the $14,000 wage base; new-employer rates 3.05%/2.90%; the $1,500/$20,000/$1,000 coverage triggers; UCT-101 due dates; the $50 late-filing minimum and 0.75%/month interest; the § 108.221 $25,000 penalty; the nine-factor test texts.
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Wisconsin UI, classification and workers' comp questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 ## Rates, bands and thresholds
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
 
 ## Sources
 
-Not yet confirmed: the ch. 108 figures in this skill lack archived section text -- the archived US-WI-108.html is the chapter table of contents only (it confirms §§ 108.02, 108.05, 108.18, 108.22 exist). Unconfirmed figures: $14,000 wage base; 2025 Schedule D grid; new-employer rates 3.05% non-construction / 2.90% construction; solvency tax 0.00%; coverage triggers ($1,500 quarter, 20 weeks, $20,000 agricultural, $1,000 domestic); UCT-101 Apr 30 / Jul 31 / Oct 31 / Jan 31 calendar; DWD 110.04 e-file mandate; $50 late-filing minimum; 0.75%/month compounded interest; § 108.221 $25,000 misclassification penalty; nine-factor UI and WC test texts; WC reporting-day figures; FUTA credit status.
+Listed under Not yet confirmed in Sources: the ch. 108 figures in this skill lack archived section text -- the archived US-WI-108.html is the chapter table of contents only (it confirms §§ 108.02, 108.05, 108.18, 108.22 exist). Unconfirmed figures: $14,000 wage base; 2025 Schedule D grid; new-employer rates 3.05% non-construction / 2.90% construction; solvency tax 0.00%; coverage triggers ($1,500 quarter, 20 weeks, $20,000 agricultural, $1,000 domestic); UCT-101 Apr 30 / Jul 31 / Oct 31 / Jan 31 calendar; DWD 110.04 e-file mandate; $50 late-filing minimum; 0.75%/month compounded interest; § 108.221 $25,000 misclassification penalty; nine-factor UI and WC test texts; WC reporting-day figures; FUTA credit status.
 
 Archived sources now backing body figures: US-WI-dr-wis-stat-ch71.txt (s. 71.64(6) $25,000 construction misclassification fine; s. 71.65(1)(a) cross-reference to s. 108.18(2)(c) "employer" definition) and US-WI-108.html (ch. 108 section list).
 
@@ -171,8 +171,8 @@ Archived sources now backing body figures: US-WI-dr-wis-stat-ch71.txt (s. 71.64(
 | Wis. Stat. ch. 108 (TOC) | archived as US-WI-108.html | 2026-11-01 |
 | Wis. Stat. ch. 71 (full text) | archived as US-WI-dr-wis-stat-ch71.txt | 2026-11-01 |
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
 
 ## Talk to a verified accountant
 
-Not yet confirmed: figures in this section lack archived line-citations.
+Listed under Not yet confirmed in Sources: figures in this section lack archived line-citations.
