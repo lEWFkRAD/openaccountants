@@ -146,7 +146,7 @@ The cost differential is driven by the rate cards of the newspapers the county c
 
 ### 4.4 NY Corporate Franchise Tax
 
-- **Franchise tax scope and minimum tax range** -- NY C-corporations are subject to corporate franchise tax under the Business Corporation Tax (https://www.tax.ny.gov/bus/ct/article 9 a.htm). This skill does not attempt to compute the franchise tax -- refer to `ny-corporate-franchise-article-9a.md`. The minimum tax (the floor tax that applies even with no business income) is graduated by NY receipts and ranges from $25 (for a corporation with NY receipts of $100,000 or less) up to $200,000 (for a corporation with NY receipts over $1 billion). For most freelance-developer-sized clients forming a NY C-corp, the minimum tax is $25 or $75 per year.  _(Tax Law Chapter 9-A)_
+- **Franchise tax scope and minimum tax range** -- NY C-corporations are subject to corporate franchise tax under the Business Corporation Tax (https://www.tax.ny.gov/bus/ct/article9a.htm). This skill does not attempt to compute the franchise tax -- refer to `ny-corporate-franchise-article-9a.md`. The minimum tax (the floor tax that applies even with no business income) is graduated by NY receipts and ranges from $25 (for a corporation with NY receipts of $100,000 or less) up to $200,000 (for a corporation with NY receipts over $1 billion). For most freelance-developer-sized clients forming a NY C-corp, the minimum tax is $25 or $75 per year.  _(Tax Law Chapter 9-A)_
 
 ### 5. NY S-Corporation Election
 
@@ -455,7 +455,7 @@ Every output produced under this skill must be reviewed and signed off by a cred
 | --- | --- | --- |
 | NYS Department of Labor -- Wage Theft Prevention Act (P715) | https://dol.ny.gov/p715-wage-theft-prevention-act | 2026-10-28 |
 | Form CT-6 instructions (S-corp election for NY) | https://www.tax.ny.gov/pdf/current_forms/ct/ct6i.pdf | 2026-11-05 |
-| NYS DTF Chapter 9-A overview (BCT, three bases, GCT replacement) | https://www.tax.ny.gov/bus/ct/article 9 a.htm | 2026-10-25 |
+| NYS DTF Chapter 9-A overview (BCT, three bases, GCT replacement) | https://www.tax.ny.gov/bus/ct/article9a.htm | 2026-10-25 |
 
 Not yet confirmed: publication requirement costs (newspaper ad rates); biennial statement late penalties; annual reporting deadlines.
 
