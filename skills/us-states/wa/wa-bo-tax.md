@@ -211,7 +211,7 @@ A due date on a weekend or legal holiday moves to the next business day. DOR may
 
 DOR can waive late-return penalties only in qualifying circumstances, on request.
 
-## [Worked cases (2026 periods)](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.4451)
+### Worked example cases (2026 periods) ([RCW 82.04.4451](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.4451))
 
 **Case A: service business, quarterly filer.** A Washington sole proprietor provides bookkeeping services (Service and Other Activities; not in the 1 Oct 2025 retail list). 2025 Service and Other income was well under $1,000,000, so the rate is 1.5%. 2026 gross income is $150,000, earned evenly: $37,500 per quarter. Expected annual tax of $2,250 puts it in the quarterly band.
 - Quarterly B&O before credit: $37,500 × 1.5% = $562.50.
