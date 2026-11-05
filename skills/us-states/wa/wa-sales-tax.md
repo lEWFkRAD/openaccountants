@@ -78,7 +78,7 @@ The statute taxes retail sales of tangible personal property, digital goods, dig
 | Vancouver | 0605 | 2.4% | 6.5% | 8.9% |
 | Edmonds and Lynnwood (highest on this list) | 3104, 3110 | 4.2% | 6.5% | 10.7% |
 
-Combined rates across the state run from 7.6% (Klickitat County unincorporated areas, archived Q426 rate flyer row "Klickitat       Klickitat County Unincorp. Areas                   2000      .0110   .0650       .0760") to 10.7% (Edmonds and Lynnwood, archived Q426 rows "Snohomish       Edmonds                                                           3104      .0420   .0650       .1070" and Lynnwood 3110 same rates) this quarter. The same rates applied from 1 July 2026. Never hard-code these: DOR publishes new rates each quarter, and a single address can sit in a transit or benefit area with its own code. Use the lookup tool for every address.
+Combined rates across the state run from 7.6% (Klickitat County unincorporated areas, archived Q426 rate flyer row "Klickitat       Klickitat County Unincorp. Areas                   2000      .0110   .0650       .0760") to 10.7% (Edmonds and Lynnwood, archived Q426 rows "Snohomish       Edmonds                                                           3104      .0420   .0650       .1070" and Lynnwood 3110 same rates) this quarter (the archived Q426 flyer is "Effective October 1 - December 31, 2026"; the 1 July 2026 carry-over claim is listed under Not yet confirmed). Never hard-code these: DOR publishes new rates each quarter, and a single address can sit in a transit or benefit area with its own code. Use the lookup tool for every address.
 
 ### Who must register ([DOR remote sellers](https://dor.wa.gov/taxes-rates/retail-sales-tax/marketplace-fairness-leveling-playing-field/remote-sellers))
 
@@ -335,7 +335,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: none — every sample-rate row matches the archived Q426 rate flyer in decimal form (King/Seattle 1726 .0405 .0650 .1055; Tacoma 2717 .0400 .0650 .1050; Olympia 3403 .0350 .0650 .1000; Spokane (City) 3210 .0260 .0650 .0910; Vancouver 0605 .0240 .0650 .0890; Edmonds 3104 .0420 .0650 .1070; Lynnwood 3110 .0420 .0650 .1070).
+Not yet confirmed: the claim that the same combined rates applied from 1 July 2026 (the archived Q426 flyer covers only "Effective October 1 - December 31, 2026"). Every sample-rate row itself matches the archived Q426 rate flyer in decimal form (King/Seattle 1726 .0405 .0650 .1055; Tacoma 2717 .0400 .0650 .1050; Olympia 3403 .0350 .0650 .1000; Spokane (City) 3210 .0260 .0650 .0910; Vancouver 0605 .0240 .0650 .0890; Edmonds 3104 .0420 .0650 .1070; Lynnwood 3110 .0420 .0650 .1070).
 
 
 | Source | URL | Read on |
