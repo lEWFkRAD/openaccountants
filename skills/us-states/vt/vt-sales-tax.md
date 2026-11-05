@@ -157,10 +157,6 @@ Vermont taxes a limited number of services:
 
 - **Vendor discount availability** — Vermont does NOT offer a vendor discount for timely filing. (T1)
 
-### 4.3 Penalties and Interest [T1]
-
-- **Late filing penalty** — 5% of tax due per month, up to 25%. (T1)
-- **Interest rate** — Rate set annually (typically federal short-term rate + specified margin). (T1)
 
 ## The taxable base
 
@@ -171,6 +167,16 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ve
 - **Agricultural exemptions** — Where applicable per Step 2. (T1)
 - **Manufacturing exemptions** — Where applicable per Step 2. (T2)
 - **Exemption certificate retention** — All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. (T1)
+
+## Deadlines and filing
+
+Refer to Step 3 for filing frequencies and due dates. [T1]
+
+### 4.3 Penalties and Interest [T1]
+
+- **Late filing penalty** — 5% of tax due per month, up to 25%. (T1)
+- **Interest rate** — Rate set annually (typically federal short-term rate + specified margin). (T1)
+
 
 ## Cross-border points
 
@@ -203,10 +209,6 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ve
 - **Wrong due date** — NEVER file Vermont returns by the 20th. The due date is the 25th. (T1)
 - **Grocery food taxation** — NEVER tax grocery food in Vermont. Unprepared food is exempt. (T1)
 - **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. (T1)
-
-## Deadlines and filing
-
-Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ## Worked examples
 
