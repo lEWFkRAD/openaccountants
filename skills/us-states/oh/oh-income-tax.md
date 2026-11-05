@@ -38,16 +38,26 @@ Figures verified against US-OH-dr-it1040-2025-booklet-ty2025.txt and the archive
 ## The taxable base
 
 Mechanics verified against US-OH-dr-it1040-2025-booklet-ty2025.txt (IT 1040 line-by-line instructions).
-### Penalties and interest
+## Deadlines and filing
+
+- **Due date:** 15 April 2026 for 2025 returns. Returns for 2026 are due in April 2027; confirm the date in the 2026 instructions.
+- **Extension:** Ohio has no extension form. It honours a federal extension: check the extension box and include a copy of the IRS extension or acknowledgment, or the extension confirmation number. The 2025 return is then due 15 October 2026. **An extension to file is not an extension to pay**: extension payments were due 15 April 2026, and interest runs on unpaid tax from then (penalties may also apply).
+- **Estimated tax for 2026:** required if expected Ohio tax after credits, less Ohio withholding, is more than $500. Due 15 April, 15 June and 15 September 2026 and 15 January 2027. Payments apply only to the SSN on the coupon, so spouses unsure of their filing status should pay separately. A revised IT 4 raising withholding is an alternative.
+- **Underpayment interest penalty (IT/SD 2210).** No penalty if payments by the due dates reach 90% of current-year tax, or 100% of prior-year tax where the prior-year return was filed on time, or if current-year tax less withholding is $500 or less. Otherwise the penalty is computed per quarter on each shortfall, at the statutory rate for the days late. Farmers and fishermen (at least 2/3 of gross income) may avoid it by filing and paying in full by 1 March.
+- **Interest** on late tax runs from the unextended due date. **Late payment penalty** is double the interest rate; the **late filing penalty** is set out in the figures table.
+- **Payment:** electronically at tax.ohio.gov/pay, or by check payable to "Ohio Treasurer of State" with the coupon. The Department cannot set up payment plans. Pay Ohio and school district tax separately.
+- **Refund claims** generally within four years from the date of payment. An amended return is required within 90 days after the IRS finalises a change to federal AGI.
+
+## Penalties and interest
 
 See "Penalty, interest and estimated tax figures" below.
-### Cross-border points
+## Cross-border points
 
 See the "Residency, nonresidents and part-year residents" section below.
-### Worked examples
+## Worked examples
 
 See "Worked cases" below, computed from the archived 2025 tables.
-### Ask the client first
+## Ask the client first
 
 - **Which tax year?** 2025 has three nonbusiness brackets with a top rate of 3.125%. From 2026 Ohio moves to a single 2.75% rate (US-OH-dr-obm-mfr-2026-01.txt: "there will be a single 2.75 percent income tax rate, eliminating the multiple tax rate"), but the official 2026 schedule is not yet published.
 - **Residency for the whole year**, for each spouse: where the client's abode is, whether they moved into or out of Ohio (and the dates), and how many **contact periods** they had in Ohio. A person with an Ohio abode is presumed to be a resident.
@@ -303,15 +313,6 @@ Client facts: federal section 168(k) bonus depreciation of $60,000 on equipment;
 - **The R.C. 5701.11 election** for 2025, or an amended 2025 return triggered by conformity (US-OH-dr-it1040-2025-booklet-ty2025.txt: "See also R.C. 5701.11").
 - **NOL carrybacks** (Schedule IT NOL), multi-year depreciation histories with missing records, military servicemembers, assessments and appeals.
 
-## Deadlines and filing
-
-- **Due date:** 15 April 2026 for 2025 returns. Returns for 2026 are due in April 2027; confirm the date in the 2026 instructions.
-- **Extension:** Ohio has no extension form. It honours a federal extension: check the extension box and include a copy of the IRS extension or acknowledgment, or the extension confirmation number. The 2025 return is then due 15 October 2026. **An extension to file is not an extension to pay**: extension payments were due 15 April 2026, and interest runs on unpaid tax from then (penalties may also apply).
-- **Estimated tax for 2026:** required if expected Ohio tax after credits, less Ohio withholding, is more than $500. Due 15 April, 15 June and 15 September 2026 and 15 January 2027. Payments apply only to the SSN on the coupon, so spouses unsure of their filing status should pay separately. A revised IT 4 raising withholding is an alternative.
-- **Underpayment interest penalty (IT/SD 2210).** No penalty if payments by the due dates reach 90% of current-year tax, or 100% of prior-year tax where the prior-year return was filed on time, or if current-year tax less withholding is $500 or less. Otherwise the penalty is computed per quarter on each shortfall, at the statutory rate for the days late. Farmers and fishermen (at least 2/3 of gross income) may avoid it by filing and paying in full by 1 March.
-- **Interest** on late tax runs from the unextended due date. **Late payment penalty** is double the interest rate; the **late filing penalty** is set out in the figures table.
-- **Payment:** electronically at tax.ohio.gov/pay, or by check payable to "Ohio Treasurer of State" with the coupon. The Department cannot set up payment plans. Pay Ohio and school district tax separately.
-- **Refund claims** generally within four years from the date of payment. An amended return is required within 90 days after the IRS finalises a change to federal AGI.
 
 ### Completion checklist ([2025 IT 1040 instructions](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf))
 
