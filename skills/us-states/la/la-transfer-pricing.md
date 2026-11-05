@@ -10,7 +10,7 @@ description: >
   party addback", "R.S. 47:287.83". Source-cited draft; corporate duty
   and 5.5% rate verified from LDR 2026-10-28; addback statute R.S. 47:287.82
   confirmed in US-LA-dr-legis-title47-toc.txt; the combination test is listed
-  under Not yet confirmed in Sources.
+  under Not-yet-confirmed in Sources.
 jurisdiction: US-LA
 category: transfer-pricing
 tax_year: 2026
@@ -28,11 +28,11 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pricing documentation statute** (no state documentation mandate, no state CbCR). Related-party risk arises from: (1) **unitary combined reporting** (the R.S. 47:287.83 numbering is superseded -- US-LA-dr-legis-title47-toc.txt lists R.S. 47:287.83 as "Repealed by Acts 2021, No. 396, §2, eff. Jan. 1, 2022"; the current combination statute and ownership test are listed under Not yet confirmed in Sources), (2) **addback adjustments** for intangible/management payments to related low-tax affiliates -- R.S. 47:287.82 "Corporate deductions; add-back of certain intangible expenses; interest and management fees" (US-LA-dr-legis-title47-toc.txt) -- and (3) the **apportionment base** (R.S. 47:287.95 "Determination of Louisiana apportionment percent", US-LA-dr-legis-title47-toc.txt). **Source status:** the LDR Corporation Income Tax page (filing duty, 5.5% flat rate) verified 2026-10-28; article-level statutory text sits behind the session-state legislature site, so thresholds and forms are listed under Not yet confirmed in Sources -- treat this as a map of exposure, not authority.
+Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pricing documentation statute** (no state documentation mandate, no state CbCR). Related-party risk arises from: (1) **unitary combined reporting** (the R.S. 47:287.83 numbering is superseded -- US-LA-dr-legis-title47-toc.txt lists R.S. 47:287.83 as "Repealed by Acts 2021, No. 396, §2, eff. Jan. 1, 2022"; the current combination statute and ownership test are listed under Not-yet-confirmed in Sources), (2) **addback adjustments** for intangible/management payments to related low-tax affiliates -- R.S. 47:287.82 "Corporate deductions; add-back of certain intangible expenses; interest and management fees" (US-LA-dr-legis-title47-toc.txt) -- and (3) the **apportionment base** (R.S. 47:287.95 "Determination of Louisiana apportionment percent", US-LA-dr-legis-title47-toc.txt). **Source status:** the LDR Corporation Income Tax page (filing duty, 5.5% flat rate) verified 2026-10-28; article-level statutory text sits behind the session-state legislature site, so thresholds and forms are listed under Not-yet-confirmed in Sources -- treat this as a map of exposure, not authority.
 
 ## Rates, bands and thresholds
 
-- **Affiliated/unitary groups** with Louisiana filing members -- combined-report exposure; the combination test is listed under Not yet confirmed in Sources.
+- **Affiliated/unitary groups** with Louisiana filing members -- combined-report exposure; the combination test is listed under Not-yet-confirmed in Sources.
 - Any CIFT-620 filer making **intercompany royalty, interest, management, or service payments** to out-of-state affiliates -- addback exposure.
 - Multistate filers whose **intercompany sales** move the Louisiana apportionment factor.
 - **S corporations taxed as corporations for Louisiana** (verified category on LDR page) -- intra-group pricing matters at the entity level.
@@ -41,9 +41,9 @@ Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pr
 
 | Mechanism | Rule sketch | Source status |
 |---|---|---|
-| Combined report | unitary combination for affiliated groups; R.S. 47:287.83 listed as "Repealed by Acts 2021, No. 396, §2, eff. Jan. 1, 2022" (US-LA-dr-legis-title47-toc.txt) | current statute/test listed under Not yet confirmed in Sources |
-| Intangible addback | royalties/license fees to related low-tax affiliates added back | R.S. 47:287.82 "Corporate deductions; add-back of certain intangible expenses; interest and management fees" (US-LA-dr-legis-title47-toc.txt); scope listed under Not yet confirmed in Sources |
-| Management/service fee addback | similar for shared-services fees | R.S. 47:287.82 covers "interest and management fees" (US-LA-dr-legis-title47-toc.txt); mechanics listed under Not yet confirmed in Sources |
+| Combined report | unitary combination for affiliated groups; R.S. 47:287.83 listed as "Repealed by Acts 2021, No. 396, §2, eff. Jan. 1, 2022" (US-LA-dr-legis-title47-toc.txt) | current statute/test listed under Not-yet-confirmed in Sources |
+| Intangible addback | royalties/license fees to related low-tax affiliates added back | R.S. 47:287.82 "Corporate deductions; add-back of certain intangible expenses; interest and management fees" (US-LA-dr-legis-title47-toc.txt); scope listed under Not-yet-confirmed in Sources |
+| Management/service fee addback | similar for shared-services fees | R.S. 47:287.82 covers "interest and management fees" (US-LA-dr-legis-title47-toc.txt); mechanics listed under Not-yet-confirmed in Sources |
 | Interest | federal §163(j) carries into the state base; no separate state thin-cap identified | see Not-yet-confirmed in Sources |
 | CbCR | no Louisiana-specific CbCR | structural, low risk |
 | Arm's-length standard | federal §482 flows through the federal-taxable-income starting point | see Not-yet-confirmed in Sources |
@@ -51,12 +51,12 @@ Source-cited draft, run of 2026-10-28. **Louisiana has no standalone transfer-pr
 ## Deadlines and filing
 
 - No separate TP filing calendar; adjustments ride CIFT-620 (due 15th day of 5th month -- verified) and any combined-report attachment.
-- Keep contemporaneous federal §6662(e) documentation -- Louisiana examiners use the federal file. Linkage listed under Not yet confirmed in Sources.
+- Keep contemporaneous federal §6662(e) documentation -- Louisiana examiners use the federal file. Linkage listed under Not-yet-confirmed in Sources.
 
 ## Penalties and interest
 
-- Understatements carry interest under R.S. 47:1601 ("Interest on unpaid taxes") and accuracy penalties under R.S. 47:1604.1 ("Accuracy-related penalty") per US-LA-dr-legis-title47-toc.txt -- the tiers are listed under Not yet confirmed in Sources.
-- No Louisiana-specific TP documentation penalty identified -- absence listed under Not yet confirmed in Sources.
+- Understatements carry interest under R.S. 47:1601 ("Interest on unpaid taxes") and accuracy penalties under R.S. 47:1604.1 ("Accuracy-related penalty") per US-LA-dr-legis-title47-toc.txt -- the tiers are listed under Not-yet-confirmed in Sources.
+- No Louisiana-specific TP documentation penalty identified -- absence listed under Not-yet-confirmed in Sources.
 
 ## Cross-border points
 
