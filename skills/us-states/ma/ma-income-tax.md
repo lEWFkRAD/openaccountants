@@ -127,48 +127,6 @@ Use Form 1-ES for estimated payments.
 
 - **Health insurance mandate** — Massachusetts has an individual health insurance mandate (separate from the ACA). Failure to maintain minimum creditable coverage may result in a penalty assessed on Form 1 (Schedule HC). This is relevant for self-employed individuals who must obtain their own coverage.
 
-## Worked examples
-
-**Tier 1 rules table**
-
-| Rule | Description |
-| --- | --- |
-| R-1 | Apply 5% to Part A and Part B income. Apply 8.50% to Part C (short-term capital gains). |
-| R-2 | Apply the 4% surtax on total taxable income exceeding the inflation-adjusted threshold ($1,083,150 for TY2025). |
-| R-3 | Social Security is fully exempt. |
-| R-4 | Interest from U.S. obligations is exempt. |
-| R-5 | Interest from Massachusetts municipal bonds is exempt; interest from other states' bonds is taxable. |
-| R-6 | Massachusetts does NOT have a standard deduction — use the personal exemption system. |
-| R-7 | Long-term capital gains are taxed at 5%, NOT the short-term rate. |
-| R-8 | Massachusetts has NO local/county income taxes. Only the state tax applies. |
-| R-9 | Filing threshold: $8,000 of MA gross income. |
-
-### Section 6: Tier 2 rules — requires judgment
-
-**Tier 2 rules table**
-
-| Rule | Description |
-| --- | --- |
-| J-1 | Classify income correctly among Part A, Part B, and Part C — misclassification changes the rate. |
-| J-2 | Determine whether the taxpayer's total income approaches the surtax threshold and whether income timing strategies are appropriate. |
-| J-3 | Evaluate Massachusetts deductions vs. federal deductions (they differ significantly). |
-| J-4 | Assess the health insurance mandate penalty when the taxpayer had gaps in coverage (Schedule HC). |
-| J-5 | Determine credit for taxes paid to other states for multi-state income. |
-
-### Section 7: Supplier pattern library
-
-**Supplier pattern library table**
-
-| Pattern | Massachusetts treatment |
-| --- | --- |
-| Freelance income (Schedule C) | Part B income. Taxed at 5%. |
-| Rental income (Schedule E) | Part B income. Taxed at 5%. |
-| Short-term capital gains | Part C income. Taxed at 8.50%. |
-| Long-term capital gains | Part B income. Taxed at 5%. |
-| Interest / dividends | Part A income. Taxed at 5%. MA and U.S. obligations exempt. |
-| Social Security | Fully exempt. |
-| Pension / retirement | Part B income. Taxed at 5%. |
-
 ## Penalties and interest
 
 Late filing and late payment penalties of 0.5% per month (capped) plus interest under M.G.L. c. 62C; see the corporate-excise skill for the general c. 62C schedule.
@@ -235,6 +193,48 @@ This skill and its outputs are provided for informational and computational purp
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Worked examples
+
+**Tier 1 rules table**
+
+| Rule | Description |
+| --- | --- |
+| R-1 | Apply 5% to Part A and Part B income. Apply 8.50% to Part C (short-term capital gains). |
+| R-2 | Apply the 4% surtax on total taxable income exceeding the inflation-adjusted threshold ($1,083,150 for TY2025). |
+| R-3 | Social Security is fully exempt. |
+| R-4 | Interest from U.S. obligations is exempt. |
+| R-5 | Interest from Massachusetts municipal bonds is exempt; interest from other states' bonds is taxable. |
+| R-6 | Massachusetts does NOT have a standard deduction — use the personal exemption system. |
+| R-7 | Long-term capital gains are taxed at 5%, NOT the short-term rate. |
+| R-8 | Massachusetts has NO local/county income taxes. Only the state tax applies. |
+| R-9 | Filing threshold: $8,000 of MA gross income. |
+
+### Section 6: Tier 2 rules — requires judgment
+
+**Tier 2 rules table**
+
+| Rule | Description |
+| --- | --- |
+| J-1 | Classify income correctly among Part A, Part B, and Part C — misclassification changes the rate. |
+| J-2 | Determine whether the taxpayer's total income approaches the surtax threshold and whether income timing strategies are appropriate. |
+| J-3 | Evaluate Massachusetts deductions vs. federal deductions (they differ significantly). |
+| J-4 | Assess the health insurance mandate penalty when the taxpayer had gaps in coverage (Schedule HC). |
+| J-5 | Determine credit for taxes paid to other states for multi-state income. |
+
+### Section 7: Supplier pattern library
+
+**Supplier pattern library table**
+
+| Pattern | Massachusetts treatment |
+| --- | --- |
+| Freelance income (Schedule C) | Part B income. Taxed at 5%. |
+| Rental income (Schedule E) | Part B income. Taxed at 5%. |
+| Short-term capital gains | Part C income. Taxed at 8.50%. |
+| Long-term capital gains | Part B income. Taxed at 5%. |
+| Interest / dividends | Part A income. Taxed at 5%. MA and U.S. obligations exempt. |
+| Social Security | Fully exempt. |
+| Pension / retirement | Part B income. Taxed at 5%. |
 
 ## Ask the client first
 
