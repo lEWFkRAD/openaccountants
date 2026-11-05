@@ -75,7 +75,7 @@ Washington has no personal income tax on business profit. Instead it imposes the
 
 9. **File and pay** on the excise tax return in My DOR by the due date for the assigned frequency ("Filing and payment").
 
-## [Rates and thresholds for 2026](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.290)
+### [Rates and thresholds for 2026](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.290)
 
 ### [Main classifications](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.250)
 
@@ -116,7 +116,7 @@ Conditions:
 
 **Active non-reporting is a relief DOR may grant, not an automatic right.** All three conditions must hold: B&O gross income under the limit; public utility tax income under $24,000; and the person is not required to collect or pay DOR any other tax or fee it administers, such as retail sales tax or use tax ([RCW 82.32.045](https://app.leg.wa.gov/RCW/default.aspx?cite=82.32.045)(5)). A business with an assigned monthly, quarterly or annual frequency that thinks it qualifies must contact DOR and ask ([DOR active non-reporting](https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates/active-non-reporting)). Until DOR changes the status, the business files as assigned. (US-WA-dr-rcw-82-32-045.txt; US-WA-dr-active-non-reporting.html)
 
-## [Small business B&O tax credit (SBC)](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.4451)
+### [Small business B&O tax credit (SBC)](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.4451)
 
 The SBC is one credit per taxpayer per return, computed on the **total** B&O tax for the reporting period, not per classification ([RCW 82.04.4451](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.4451)).
 
@@ -136,7 +136,7 @@ Multiply by the months in the period: 1 (monthly), 3 (quarterly) or 12 (annual).
 
 **Old rule to discard:** the SBC is not phased out by gross income bands. It phases out by **tax due** against the maximum credit.
 
-## [Multiple activities tax credit (MATC), in outline](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.440)
+### [Multiple activities tax credit (MATC), in outline](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.440)
 
 Each activity is taxed, but the MATC stops the same goods being taxed twice:
 - a retailer or wholesaler selling goods in Washington gets a credit for manufacturing (or extracting) tax paid on making those same goods, up to the B&O tax on the sale ([RCW 82.04.440](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.440)(2));
@@ -144,7 +144,7 @@ Each activity is taxed, but the MATC stops the same goods being taxed twice:
 
 The credit is claimed on the return's MATC schedule. Anything beyond a simple "make and sell in Washington" case: refer ([WAC 458-20-19301](https://app.leg.wa.gov/WAC/default.aspx?cite=458-20-19301)).
 
-## [Boundary and exception table](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.067)
+### [Boundary and exception table](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.067)
 
 | Situation | Treatment | Source |
 | --- | --- | --- |
@@ -183,7 +183,7 @@ Refer to a Washington tax professional, or ask DOR for a ruling, when:
 
 Do not state a 2026 rate for a service moved to Retailing on 1 Oct 2025 without also sending the client to the **wa-sales-tax** skill for the sales tax side.
 
-## [Filing and payment](https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates)
+### [Filing and payment](https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates)
 
 **Frequency.** DOR assigns a frequency when the business registers, based on estimated annual tax liability for all excise taxes on the return, including retail sales tax collected, not B&O alone ([WAC 458-20-22801](https://app.leg.wa.gov/WAC/default.aspx?cite=458-20-22801); DOR):
 
@@ -211,14 +211,14 @@ A due date on a weekend or legal holiday moves to the next business day. DOR may
 
 DOR can waive late-return penalties only in qualifying circumstances, on request.
 
-## [2025 periods (late or amended returns)](https://dor.wa.gov/forms-publications/publications-subject/special-notices/service-and-other-activities-rate-changes)
+### [2025 periods (late or amended returns)](https://dor.wa.gov/forms-publications/publications-subject/special-notices/service-and-other-activities-rate-changes)
 
 - **Service and Other Activities:** through 30 Sep 2025 a single 1.5% rate applied. From 1 Oct 2025 the three tiers in the rates section apply (1.5% under $1,000,000 prior-year taxable income, 1.75% at $1,000,000 to under $5,000,000, 2.1% at $5,000,000 or more), per the archived DOR special notice (issue date 25 Jul 2025).
 - **Services made retail sales by ESSB 5814:** Service and Other Activities until 30 Sep 2025; Retailing (and retail sales tax) from 1 Oct 2025. A 2025 annual or quarterly return may need both. Contracts signed before 1 Oct 2025 had a DOR transition rule, so billings under them may stay on the old treatment for a time: check the existing-contracts section of the wa-sales-tax skill before reclassifying.
 - Retailing 0.471%, Wholesaling and Manufacturing 0.484%, and SBC maximums of $55 and $160 per month applied throughout 2025.
 - The 2025 annual return was due 15 April 2026. Late payment brings the penalties in "Filing and payment".
 
-## Completion checklist
+### Completion checklist
 
 - [ ] Registration requirement and nexus checked for the current and prior year; if nexus arose mid-year, only activity from that date taxed
 - [ ] Each income stream classified; ESSB 5814 services moved to Retailing from 1 Oct 2025; RCW 82.04.050(2) retail services treated as Retailing; reseller permits on file for every wholesale sale

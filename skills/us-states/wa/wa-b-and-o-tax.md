@@ -17,7 +17,7 @@ validated: April 2026
 
 > **General reference only.** This skill is general tax/accounting reference material for AI-assisted workflows. It has not been reviewed for any specific person's facts, documents, elections, deadlines, residency, filing status, or local procedures. Do not rely on it to file, pay, amend, or take a tax position without review by a qualified professional in the relevant jurisdiction.
 
-## What this file is
+### What this file is
 
 **Obligation category:** IT (Income Tax equivalent -- gross receipts)
 **Functional role:** Computation + Return
@@ -137,7 +137,7 @@ B&O tax is reported on the B&O section of the Combined Excise Tax Return alongsi
 
 ---
 
-## Section 5 -- Edge cases and special rules
+### Section 5 -- Edge cases and special rules
 
 ### E-1: No deductions for expenses
 
@@ -177,6 +177,54 @@ Physical presence or economic nexus (> $100,000 in receipts from Washington sour
 
 ---
 
+### Section 7 -- Prohibitions
+
+- **P-1:** Do NOT deduct business expenses from gross income for B&O computation. The tax is on gross receipts.
+- **P-2:** Do NOT apply a single B&O rate to all income. Each classification has its own rate.
+- **P-4:** Do NOT report city B&O taxes on the state Combined Excise Tax Return. They are separate filings.
+- **P-5:** Do NOT confuse B&O tax with retail sales tax. They are separate obligations; a business may owe both.
+- **P-6:** Do NOT assume SaaS classification is settled. Flag for reviewer if SaaS revenue is material.
+
+---
+
+### Section 8 -- Self-checks
+
+Before delivering output, verify:
+
+- [ ] All income classified into correct B&O categories
+- [ ] Gross income used (no expense deductions)
+- [ ] Correct rate applied per classification
+- [ ] SBC computed per classification, not aggregated
+- [ ] SBC phase-out applied for income between $125K and $250K
+- [ ] Multi-activity tax credit considered if applicable
+- [ ] Filing frequency matches gross income thresholds
+- [ ] City B&O obligations identified (not computed here but flagged)
+- [ ] Interstate sales deduction evaluated
+
+---
+
+### Section 9 -- Disclaimer
+
+This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
+
+The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
+
+## Deadlines and filing
+
+Not yet confirmed against archived sources.
+
+## Penalties and interest
+
+Not yet confirmed against archived sources.
+
+## Cross-border points
+
+Not yet confirmed against archived sources.
+
+## Worked examples
+
+All figures in the tests below are hypothetical inputs and listed under Not yet confirmed in Sources.
+
 ### Section 6 -- Test suite
 
 ### Test 1: Freelance consultant
@@ -206,61 +254,13 @@ Physical presence or economic nexus (> $100,000 in receipts from Washington sour
 
 ---
 
-## Section 7 -- Prohibitions
-
-- **P-1:** Do NOT deduct business expenses from gross income for B&O computation. The tax is on gross receipts.
-- **P-2:** Do NOT apply a single B&O rate to all income. Each classification has its own rate.
-- **P-4:** Do NOT report city B&O taxes on the state Combined Excise Tax Return. They are separate filings.
-- **P-5:** Do NOT confuse B&O tax with retail sales tax. They are separate obligations; a business may owe both.
-- **P-6:** Do NOT assume SaaS classification is settled. Flag for reviewer if SaaS revenue is material.
-
----
-
-## Section 8 -- Self-checks
-
-Before delivering output, verify:
-
-- [ ] All income classified into correct B&O categories
-- [ ] Gross income used (no expense deductions)
-- [ ] Correct rate applied per classification
-- [ ] SBC computed per classification, not aggregated
-- [ ] SBC phase-out applied for income between $125K and $250K
-- [ ] Multi-activity tax credit considered if applicable
-- [ ] Filing frequency matches gross income thresholds
-- [ ] City B&O obligations identified (not computed here but flagged)
-- [ ] Interstate sales deduction evaluated
-
----
-
-## Section 9 -- Disclaimer
-
-This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at the OpenAccountants network. Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
-
-## Deadlines and filing
-
-Not yet confirmed against archived sources.
-
-## Penalties and interest
-
-Not yet confirmed against archived sources.
-
-## Cross-border points
-
-Not yet confirmed against archived sources.
-
-## Worked examples
-
-Not yet confirmed against archived sources.
-
 ## Ask the client first
 
 Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: the filing-frequency bands keyed to gross income (less than $28,000/year with less than $4,200/month liability annual, $28,000-$420,000 quarterly, over $420,000 monthly; archived WAC 458-20-22801 assigns frequency by estimated annual tax liability instead); the 2027 Service and Other rate; the 2026 printing/publishing rate of 0.484% (archived RCW 82.04.260(14) shows newspaper printing/publishing at 0.5 percent from 1 Jul 2024); the travel/insurance agent rate of 0.275% (archived RCW 82.04.260(5)(b) shows travel agents at 0.9 percent from 1 Jul 2019); the SBC annual phase figures (full credit $840/year at or below $125,000 gross income, phasing to zero at $250,000; archived RCW 82.04.4451 states only the $160/$55 monthly maxima and the reduced-credit formula); the prohibition on claiming the SBC above $250,000 gross income; and the city B&O rates Seattle 0.415%, Tacoma 0.200%, and Bellevue 0.150% (archived city pages show Seattle 0.00658 for Service & Other 2026-2032, Tacoma 0.004 for Service & Other, Bellevue 0.1596 percent).
+Not yet confirmed: every figure in the Section 6 test suite (the $100,000/$1,500/$840/$660 and $300,000/$4,500/$250,000 test values, which use the unconfirmed $840/$125,000/$250,000 SBC phase figures); the filing-frequency bands keyed to gross income (less than $28,000/year with less than $4,200/month liability annual, $28,000-$420,000 quarterly, over $420,000 monthly; archived WAC 458-20-22801 assigns frequency by estimated annual tax liability instead); the 2027 Service and Other rate; the 2026 printing/publishing rate of 0.484% (archived RCW 82.04.260(14) shows newspaper printing/publishing at 0.5 percent from 1 Jul 2024); the travel/insurance agent rate of 0.275% (archived RCW 82.04.260(5)(b) shows travel agents at 0.9 percent from 1 Jul 2019); the SBC annual phase figures (full credit $840/year at or below $125,000 gross income, phasing to zero at $250,000; archived RCW 82.04.4451 states only the $160/$55 monthly maxima and the reduced-credit formula); the prohibition on claiming the SBC above $250,000 gross income; and the city B&O rates Seattle 0.415%, Tacoma 0.200%, and Bellevue 0.150% (archived city pages show Seattle 0.00658 for Service & Other 2026-2032, Tacoma 0.004 for Service & Other, Bellevue 0.1596 percent).
 
 
 | Source | URL | Read on |
