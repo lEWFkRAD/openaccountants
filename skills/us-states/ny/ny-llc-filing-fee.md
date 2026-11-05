@@ -321,7 +321,7 @@ Output: "This skill covers only single-member LLCs disregarded for federal tax. 
 
 **R-NY204-2 — LLC elected corporate or S-corporation treatment.**
 Trigger: The LLC has filed Form 8832 electing corporate treatment OR Form 2553 electing S-corporation treatment and the election is effective for 2025.
-Output: "An LLC that has elected to be treated as a corporation or an S-corporation is not subject to the IT-204-LL filing fee. Instead, the entity files a corporate return under NY Tax Law Article 9 A: Form CT-3 (C-corporation) or Form CT-3-S (S-corporation). Corporate return preparation is outside this skill's scope. Please consult a CPA or Enrolled Agent familiar with NY corporate returns."
+Output: "An LLC that has elected to be treated as a corporation or an S-corporation is not subject to the IT-204-LL filing fee. Instead, the entity files a corporate return under NY Tax Law Chapter 9-A: Form CT-3 (C-corporation) or Form CT-3-S (S-corporation). Corporate return preparation is outside this skill's scope. Please consult a CPA or Enrolled Agent familiar with NY corporate returns."
 
 **R-NY204-3 — Non-resident or part-year resident owner.**
 Trigger: The sole member of the LLC was NOT a New York full-year resident for 2025. This includes part-year residents, non-residents with NY activity, and residents who moved into or out of NY mid-year.

@@ -28,7 +28,7 @@ validation_status: ai-drafted-q3
 | Economic nexus | $500,000 revenue AND 100 transactions (AND test -- both must be met) |
 | Nexus test type | AND test -- unique among states; most use OR |
 | Measurement period | Prior four sales tax quarterly periods (NOT calendar year) |
-| Primary legislation | New York Tax Law, Articles 28 and 29 |
+| Primary legislation | New York Tax Law, Chapter 28 and 29 |
 | Tax authority | New York State Department of Taxation and Finance (NYS DTF) |
 | Filing portal | https://www.tax.ny.gov |
 | SST member | No |

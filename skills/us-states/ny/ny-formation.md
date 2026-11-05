@@ -146,17 +146,17 @@ The cost differential is driven by the rate cards of the newspapers the county c
 
 ### 4.4 NY Corporate Franchise Tax
 
-- **Franchise tax scope and minimum tax range** -- NY C-corporations are subject to corporate franchise tax under Article 9-A of the Tax Law. This skill does not attempt to compute the franchise tax -- refer to `ny-corporate-franchise-article-9a.md`. The minimum tax (the floor tax that applies even with no business income) is graduated by NY receipts and ranges from $25 (for a corporation with NY receipts of $100,000 or less) up to $200,000 (for a corporation with NY receipts over $1 billion). For most freelance-developer-sized clients forming a NY C-corp, the minimum tax is $25 or $75 per year.  _(Tax Law Article 9-A)_
+- **Franchise tax scope and minimum tax range** -- NY C-corporations are subject to corporate franchise tax under Chapter 9-A of the Tax Law. This skill does not attempt to compute the franchise tax -- refer to `ny-corporate-franchise-article-9a.md`. The minimum tax (the floor tax that applies even with no business income) is graduated by NY receipts and ranges from $25 (for a corporation with NY receipts of $100,000 or less) up to $200,000 (for a corporation with NY receipts over $1 billion). For most freelance-developer-sized clients forming a NY C-corp, the minimum tax is $25 or $75 per year.  _(Tax Law Chapter 9-A)_
 
 ### 5. NY S-Corporation Election
 
 The federal Subchapter S election (Form 2553) made under IRC §1362 does not automatically flow through to New York. NY requires a separate state-level S-corp election under N.Y. Tax Law §660(a), made on Form CT-6 ("Election by a Federal S Corporation to be Treated as a New York S Corporation").
 
-- **Eligibility** -- The corporation must already have a valid federal S-corporation election in effect; The corporation must be a NY-resident corporation (formed in NY) or a foreign corporation doing business in NY that is subject to franchise tax under Article 9-A; All shareholders who are NY residents on the date the election is made (or, for a new corporation, on the first day of the first taxable year) must consent.  _(N.Y. Tax Law §660(a))_
+- **Eligibility** -- The corporation must already have a valid federal S-corporation election in effect; The corporation must be a NY-resident corporation (formed in NY) or a foreign corporation doing business in NY that is subject to franchise tax under Chapter 9-A; All shareholders who are NY residents on the date the election is made (or, for a new corporation, on the first day of the first taxable year) must consent.  _(N.Y. Tax Law §660(a))_
 - **Timing** -- For the election to be effective for a tax year, Form CT-6 must be filed within 2½ months of the first day of the tax year, or at any time during the preceding tax year. This is parallel to the federal §1362(b) timing rule.  _(N.Y. Tax Law §660(a); IRC §1362(b))_
 - **Effect of the election** -- The S-corp's income, losses, deductions, and credits flow through to NY-resident shareholders on Form CT-34-SH and on the shareholders' Form IT-201 (NY personal income tax return); The corporation itself still pays NY franchise tax, but at the fixed-dollar minimum tax schedule (the same minimum as for C-corps, ranging from $25 to $4,500 based on NY receipts) rather than the higher business-income tax; The corporation also potentially owes the MTA Surcharge if it operates in the Metropolitan Commuter Transportation District (NYC + Nassau, Suffolk, Westchester, Rockland, Orange, Putnam, Dutchess counties).
 - **Mandatory NY S-corp treatment** -- Under N.Y. Tax Law §660(i), a federal S-corporation that has investment income exceeding 50% of its federal gross income is mandatorily treated as a NY S-corporation, regardless of whether Form CT-6 has been filed. This is a trap for founders who do not realize they triggered automatic NY S treatment.  _(N.Y. Tax Law §660(i))_
-- **Failure to file Form CT-6** -- If the federal S-election is in effect but the founder did not file Form CT-6, the entity is taxed as a NY C-corporation. This generally produces a worse tax outcome (the corporation pays full Article 9-A tax on its business income, and the shareholders receive distributions taxed as dividends rather than pass-through income). Reviewers should check Form CT-6 filing status for every federal S-corp client they encounter.
+- **Failure to file Form CT-6** -- If the federal S-election is in effect but the founder did not file Form CT-6, the entity is taxed as a NY C-corporation. This generally produces a worse tax outcome (the corporation pays full Chapter 9-A tax on its business income, and the shareholders receive distributions taxed as dividends rather than pass-through income). Reviewers should check Form CT-6 filing status for every federal S-corp client they encounter.
 
 ## Deadlines and filing
 
@@ -183,7 +183,7 @@ New NYC-based freelance software developers (the prototypical sole-prop or singl
 
 ### 6.2 NYC General Corporation Tax (GCT) -- Legacy
 
-- **GCT history and applicability** -- Prior to 2015, NYC corporations paid the NYC General Corporation Tax (GCT) under Title 11, Chapter 6, Subchapter 2. The 2015 NYC corporate tax reform (NYC Local Law 60 of 2015) repealed the GCT for most corporations and replaced it with the NYC Business Corporation Tax (BCT) under Subchapter 3-A, which is aligned with the post-2015 NY State Article 9-A. GCT is still in effect for: S corporations (NYC does not recognize the federal or NY state S election for purposes of the NYC corporate tax -- S corps are taxed at the entity level under GCT); Insurance corporations and certain other excluded categories.  _(NYC Administrative Code Title 11, Chapter 6, Subchapter 2; NYC Local Law 60 of 2015)_
+- **GCT history and applicability** -- Prior to 2015, NYC corporations paid the NYC General Corporation Tax (GCT) under Title 11, Chapter 6, Subchapter 2. The 2015 NYC corporate tax reform (NYC Local Law 60 of 2015) repealed the GCT for most corporations and replaced it with the NYC Business Corporation Tax (BCT) under Subchapter 3-A, which is aligned with the post-2015 NY State Chapter 9-A. GCT is still in effect for: S corporations (NYC does not recognize the federal or NY state S election for purposes of the NYC corporate tax -- S corps are taxed at the entity level under GCT); Insurance corporations and certain other excluded categories.  _(NYC Administrative Code Title 11, Chapter 6, Subchapter 2; NYC Local Law 60 of 2015)_
 - **GCT rate** -- 8.85% percent of entire net income allocated to NYC  _(NYC Administrative Code Title 11, Chapter 6, Subchapter 2)_
 
 So a federal S-corporation operating in NYC will pay NYC GCT at the entity level despite its pass-through status for federal and NY State purposes. This is a significant trap for S-corp founders moving to or operating in NYC -- the NYC-level entity tax can eliminate much of the federal SE-tax savings that motivated the S-corp election in the first place. Always model NYC GCT before recommending an S-corp election to a NYC-resident client. See `us-s-corp-election-decision.md`.
@@ -191,7 +191,7 @@ So a federal S-corporation operating in NYC will pay NYC GCT at the entity level
 ### 6.3 NYC Business Corporation Tax (BCT)
 
 - **BCT base rate** -- 8.85% percent of entire net income allocated to NYC
-- **BCT structure** -- For C-corporations operating in NYC, the BCT applies. There is also a capital base and a fixed-dollar minimum, analogous to the NY State Article 9-A structure.
+- **BCT structure** -- For C-corporations operating in NYC, the BCT applies. There is also a capital base and a fixed-dollar minimum, analogous to the NY State Chapter 9-A structure.
 
 ### 6.4 NYC Commercial Rent Tax (CRT)
 
@@ -389,7 +389,7 @@ The Delaware C-corp does not form a new NY entity. Instead it files an Applicati
 
 **NY tax overlays once doing business in NY:**
 
-- NY State Article 9-A franchise tax (apportioned to NY)
+- NY State Chapter 9-A franchise tax (apportioned to NY)
 - NYC Business Corporation Tax (apportioned to NYC)
 - NY State and NYC employer registration for the 5 sales employees
 - NY State and NYC withholding for the 5 sales employees
@@ -400,7 +400,7 @@ The Delaware C-corp does not form a new NY entity. Instead it files an Applicati
 
 - Foreign qualification often missed by out-of-state companies that "just open an office" without paperwork. NY can assess back franchise tax and impose penalties for the gap period.
 - NYC BCT applies to the Manhattan presence regardless of headquarters location
-- Article 9-A apportionment for software companies uses single-receipts-factor apportionment under post-2015 reform -- most software receipts from NY-located customers will apportion to NY
+- Chapter 9-A apportionment for software companies uses single-receipts-factor apportionment under post-2015 reform -- most software receipts from NY-located customers will apportion to NY
 - Federal Form 1120 and Form 1120 supporting state schedules will need NY add-back / decoupling adjustments (e.g., NY does not allow the full federal deduction for state and local taxes in computing NY entire net income)
 
 ## Ask the client first
@@ -455,7 +455,7 @@ Every output produced under this skill must be reviewed and signed off by a cred
 | --- | --- | --- |
 | NYS Department of Labor -- Wage Theft Prevention Act (P715) | https://dol.ny.gov/p715-wage-theft-prevention-act | 2026-10-28 |
 | Form CT-6 instructions (S-corp election for NY) | https://www.tax.ny.gov/pdf/current_forms/ct/ct6i.pdf | 2026-11-05 |
-| NYS DTF Article 9-A overview (BCT, three bases, GCT replacement) | https://www.tax.ny.gov/bus/ct/article9a.htm | 2026-10-25 |
+| NYS DTF Chapter 9-A overview (BCT, three bases, GCT replacement) | https://www.tax.ny.gov/bus/ct/article9a.htm | 2026-10-25 |
 
 Not yet confirmed: publication requirement costs (newspaper ad rates); biennial statement late penalties; annual reporting deadlines.
 

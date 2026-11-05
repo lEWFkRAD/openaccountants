@@ -303,7 +303,7 @@ Expected: Prior year safe harbour = $0. Use 90% current.
 | NY Tax Law §6654 (underpayment of estimated tax) | https://www.nysenate.gov/legislation/laws/TAX/6654 | 2026-11-03 |
 | Form IT-2105 line 9 instructions (IT-2105(9)I) | https://www.tax.ny.gov/pdf/2025/inc/it2105_9i_2025.pdf | 2026-11-05 |
 | NY Tax Law 30-A (Yonkers surcharge) | https://www.nysenate.gov/legislation/laws/TAX/30-A | 2026-11-05 |
-| NY Tax Law Article 23 (MCTMT) | https://www.nysenate.gov/legislation/laws/TAX/A23 | 2026-10-25 |York State, NYC, or Yonkers. Covers quarterly instalment requirements, safe harbour rules, MCTMT estimated payments, underpayment penalty via IT-2105 line 9, and NYC estimated tax. ALWAYS read this skill before touching any NY estimated tax work.
+| NY Tax Law Chapter 23 (MCTMT) | https://www.nysenate.gov/legislation/laws/TAX/A23 | 2026-10-25 |York State, NYC, or Yonkers. Covers quarterly instalment requirements, safe harbour rules, MCTMT estimated payments, underpayment penalty via IT-2105 line 9, and NYC estimated tax. ALWAYS read this skill before touching any NY estimated tax work.
 
 Not yet confirmed: 2026 IT-2105 installment due dates beyond the calendar page; NYC/Yonkers estimated-payment interaction figures.
 
