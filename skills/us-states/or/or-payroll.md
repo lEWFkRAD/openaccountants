@@ -308,7 +308,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 | WBF (employer) | 2,080 hours | $0.0066/hr | $13.73 |
 | WBF (employee) | 2,080 hours | $0.0066/hr | $13.73 |
 
-WBF rows use the 2025 $0.0066/hour split rate (see Not yet confirmed: list in Sources); the 2026 assessment is 1.8 cents per hour (US-OR-dr-wbf.txt).
+WBF rows use the 2025 $0.0066/hour split rate (listed under Not yet confirmed in Sources); the 2026 assessment is 1.8 cents per hour (US-OR-dr-wbf.txt).
 
 Employer total (Oregon-specific, excluding federal): approximately $2,785.37
 Employee withholding (Oregon-specific, excluding federal & PIT): approximately $853.73 plus Oregon PIT withholding from OR-W-4 table

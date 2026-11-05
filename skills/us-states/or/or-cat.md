@@ -285,7 +285,7 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 ## Worked examples
 
-### 11.1 Example 1 -- Small Oregon retailer at $1.5 million with COGS (hypothetical facts)
+### 11.1 Worked example 1 -- Small Oregon retailer at $1.5 million with COGS (hypothetical facts)
 
 **Facts.** Cascade Hardware LLC is a single-member LLC owned by an Oregon resident. The LLC operates a brick-and-mortar hardware store in Bend, Oregon. For calendar year 2025, the LLC has:
 
@@ -315,7 +315,7 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 **Step 7 -- Federal interaction.** The $1,304.50 of CAT is deductible as a state and local business tax on Cascade Hardware's Schedule C, reducing federal taxable income and Oregon personal income tax for the owner.
 
-### 11.2 Example 2 -- Services firm at $3 million with labor subtraction (hypothetical facts)
+### 11.2 Worked example 2 -- Services firm at $3 million with labor subtraction (hypothetical facts)
 
 **Facts.** Willamette Strategy Partners LLC is a multi-member LLC taxed as a partnership. It is a management-consulting firm with offices in Portland and Eugene. For calendar year 2025:
 
@@ -348,7 +348,7 @@ The unitary determination is fact-intensive. A holding company with truly arm's-
 
 **Step 7 -- Pass-through treatment.** Because the LLC is taxed as a partnership, CAT is a partnership-level liability that reduces partnership net income flowing through on Schedule K-1 to the partners. Each partner separately reports their distributive share of Oregon-source income on their personal Oregon return.
 
-### 11.3 Example 3 -- Multi-state SaaS hitting Oregon nexus (hypothetical facts)
+### 11.3 Worked example 3 -- Multi-state SaaS hitting Oregon nexus (hypothetical facts)
 
 **Facts.** PineCloud Inc. is a Delaware C-corporation headquartered in Austin, Texas, with no Oregon office, no Oregon employees, and no Oregon-owned property. PineCloud sells a B2B SaaS product (project management software) on annual subscriptions. For calendar year 2025:
 
