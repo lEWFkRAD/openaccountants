@@ -410,8 +410,8 @@ The employer must allocate David's wages by physical location of services becaus
 
 **Virginia withholding computation (David single, 1 exemption).** The $174,070 exemption amount and the $165,570 standard-deduction figure are hypothetical inputs listed under Not yet confirmed in Sources; only the 5.75% top rate and the $17,000 bracket floor are sourced.
 - Annualized: $175,000
-- Less exemption: $174,070 (Not yet confirmed)
-- Less SD: $165,570 (Not yet confirmed)
+- Less exemption: $174,070 (see Not yet confirmed in Sources)
+- Less SD: $165,570 (see Not yet confirmed in Sources)
 - Tax: $720 + 5.75% × ($165,570 − $17,000) = $720 + $8,542.78 = $9,262.78/year
 - Per bi-weekly (26 periods): **$356.26**
 
