@@ -1,0 +1,15 @@
+{
+  "code": "US-MO",
+  "files": [
+    "skills/us-states/mo/mo-sales-tax.md",
+    "skills/us-states/mo/missouri-sales-tax.md",
+    "skills/us-states/mo/mo-corporate-income-tax.md",
+    "skills/us-states/mo/mo-transfer-pricing.md",
+    "skills/us-states/mo/mo-payroll.md",
+    "skills/us-states/mo/mo-social-contributions.md",
+    "skills/us-states/mo/mo-cross-border.md"
+  ],
+  "A": 8,
+  "B": 34,
+  "notes": "40 body marker lines swept (2 lines carry both an A tie and a B demotion, hence A+B=42). Class A ties: grocery 1.625% reduced rate (US-MO-dr-rates-oct2026.txt food columns) in both sales-tax files; 144.735 willful-failure criminal penalty in both; MO-NRI 'Worksheet for Missouri Source Income' (US-MO-mo-nri-2025.pdf) x2 and KC/STL earnings-tax penalties + KC April 15 due date (US-MO-kc-faqs.html, US-MO-stl-payrolltaxinfo.html) in mo-cross-border; 288.160 late-report penalty (greater of $100 or 10%/month) in mo-social-contributions. Class B demotions appended to each file's Sources Not-yet-confirmed paragraph: max combined rate, filing cadence, sales civil penalty/interest percentages; MO-470 addback scope/thresholds/penalties (archived US-MO-mo-470-instr-2025.html is a 403 stub); CY2025/CY2026 UI wage base and rate schedule (US-MO-uie-rates.html is a 404 stub), new-employer rates (archived 288.123 is the 1988-repealed enactment), supplemental flat rate/Form 4282, HOH federal standard deduction, Prop A accrual details (290.502 archive covers minimum wage only), Ord 71926, Boles, new-hire deadline, PNR thresholds, KC estimated schedule, inter-city credit. Bonus verbatim cites added to previously-marked lines: 288.036 floor/ceiling and 2005-2008 wage-base history in mo-payroll and mo-social-contributions. mo-income-tax.md and README.md had no body markers (untouched). PDFs without .txt sidecars were pdftotext-extracted to ~/.hermes/cache/scratch/mo_txt/ only; nothing added under sources/. Verification grep returns 0 lines; no 'illustrative' token present. 7 commits, one per file; result.json left untracked."
+}

@@ -12,7 +12,7 @@ description: >
   transfer pricing", "Missouri related party addback", "MO-470", "143.471",
   "Missouri consolidated return", "MO-MS apportionment election".
   Source-cited draft; 2025 MO-1120 instructions read 2026-10-27; MO-470
-  fetch blocked (403) -- addback specifics flagged in the Sources Not-yet-confirmed paragraph.
+  fetch blocked (403) -- addback specifics listed under Not-yet-confirmed in Sources.
 jurisdiction: US-MO
 category: transfer-pricing
 tax_year: 2026
