@@ -24,9 +24,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | --- | --- |
 | State | Ohio |
 | Tax | Sales and Use Tax (state + county) |
-| State rate | 5.75% | (not yet confirmed)
-| Local rates | County only (0.75% to 2.25%) -- no city or district taxes | (not yet confirmed)
-| Maximum combined rate | Approx. 8.00% (e.g. Cuyahoga County) | (not yet confirmed)
+| State rate | 5.75% (US-OH-dr-odt-small-business-tax-guide-2026.pdf: "The current state rate is 5.75%.") |
+| Local rates | County only (0.75% to 2.25%) -- no city or district taxes (US-OH-dr-odt-rate-map-oct2025.pdf: "the total sales tax rate in each county ranged from 6.50 percent to 8.0 percent") |
+| Maximum combined rate | 8.00% county total (US-OH-dr-odt-rate-map-oct2025.pdf: "The highest tax rate of 8.0 percent is found in Cuyahoga and Franklin Counties"; statutory cap 8.75% per US-OH-dr-odt-small-business-tax-guide-2026.pdf) |
 | Sourcing | Origin-based (intrastate); destination-based (remote/SST) |
 | Primary legislation | ORC Chapters 5739 (Sales) and 5741 (Use) |
 | Tax authority | Ohio Department of Taxation (ODT) |
@@ -41,16 +41,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Key Combined Rates
 
-**Key Combined Rates**
+**Key Combined Rates** (county totals effective October 2025 per US-OH-dr-odt-rate-map-oct2025.pdf; county rate = total less the 5.75% state rate)
 
 | County | County Rate | Combined Rate |
 | --- | --- | --- |
-| Cuyahoga (Cleveland) | 2.25% | 8.00% | (not yet confirmed)
-| Franklin (Columbus) | 1.75% | 7.50% | (not yet confirmed)
-| Hamilton (Cincinnati) | 1.80% | 7.55% | (not yet confirmed)
-| Summit (Akron) | 1.50% | 7.25% | (not yet confirmed)
-| Montgomery (Dayton) | 1.50% | 7.25% | (not yet confirmed)
-| Lucas (Toledo) | 1.50% | 7.25% | (not yet confirmed)
+| Cuyahoga (Cleveland) | 2.25% | 8.00% |
+| Franklin (Columbus) | 2.25% | 8.00% |
+| Hamilton (Cincinnati) | 2.05% | 7.80% |
+| Summit (Akron) | 1.00% | 6.75% |
+| Montgomery (Dayton) | 1.75% | 7.50% |
+| Lucas (Toledo) | 2.00% | 7.75% |
 
 ### Taxability Quick Matrix
 
@@ -141,13 +141,13 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 **Input:** Retailer in Columbus (Franklin County) sells electronics for $800. Combined rate: 7.50%.
 
-**Reasoning:** Electronics are TPP, taxable. Columbus is Franklin County: 5.75% state + 1.75% county = 7.50%. (not yet confirmed)
+**Reasoning:** Electronics are TPP, taxable. Columbus is Franklin County: 5.75% state + 2.25% county = 8.00% (US-OH-dr-odt-rate-map-oct2025.pdf: "The highest tax rate of 8.0 percent is found in Cuyahoga and Franklin Counties").
 
-**Classification:** Sales tax = $60.00. Total = $860.00. (not yet confirmed)
+**Classification:** Sales tax = $64.00. Total = $864.00.
 
 ### Example 2 -- SaaS Subscription in Cuyahoga County
 
-**Input:** Ohio business subscribes to cloud-based CRM. $300/month. Business in Cuyahoga County (8.00%). (not yet confirmed)
+**Input:** Ohio business subscribes to cloud-based CRM. $300/month. Business in Cuyahoga County (8.00%, US-OH-dr-odt-rate-map-oct2025.pdf).
 
 **Reasoning:** SaaS is taxable as automatic data processing service in Ohio.
 
@@ -155,9 +155,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Example 3 -- Vendor Discount
 
-**Input:** Vendor timely files and pays $20,000 in Ohio sales tax. (not yet confirmed)
+**Input:** Vendor timely files and pays $20,000 in Ohio sales tax.
 
-**Reasoning:** Ohio offers 0.75% vendor discount for timely filing and payment. No cap. (not yet confirmed)
+**Reasoning:** Ohio offers 0.75% vendor discount for timely filing and payment; the statute caps the discount on non-motor-vehicle sales at $750 per vendor license per month (US-OH-dr-orc-5739-12.txt: "a discount of three-fourths of one per cent of the amount shown to be due on the return. The amount of the discount ... shall not exceed seven hundred fifty dollars per vendor's license for each month covered by the return").
 
 **Classification:** Discount = $150.00. Net remittance = $19,850.00.
 
@@ -165,16 +165,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 **Input:** Columbus-based seller ships goods to customer in Cleveland (Cuyahoga County).
 
-**Reasoning:** Intrastate Ohio sales use origin-based sourcing. Seller charges Franklin County rate (7.50%), not Cuyahoga (8.00%). (not yet confirmed)
+**Reasoning:** Intrastate Ohio sales use origin-based sourcing (US-OH-dr-orc-5739-033.txt: "retail sales, excluding the lease or rental, of tangible personal property or digital goods shall be sourced to the location where the vendor receives an order"). Seller charges Franklin County rate (8.00%), not Cuyahoga (8.00%).
 
-**Classification:** Rate = 7.50% (seller's county). (not yet confirmed)
+**Classification:** Rate = 8.00% (seller's county).
 
 ## Section 5 -- Tier 1 Rules (When Data Is Clear)
 
 ### 5.1 Rate Structure
 
-- **State rate** -- 5.75% (not yet confirmed)
-- **County permissive taxes** -- 0.75% to 2.25% (No city or special district taxes) (not yet confirmed)
+- **State rate** -- 5.75% (US-OH-dr-odt-small-business-tax-guide-2026.pdf: "The current state rate is 5.75%.")
+- **County permissive taxes** -- 0.75% to 2.25% (No city or special district taxes) (US-OH-dr-odt-rate-map-oct2025.pdf: county totals "ranged from 6.50 percent to 8.0 percent")
 
 ### 5.2 Sourcing (ORC 5739.033)
 
@@ -182,16 +182,16 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### 5.3 Filing (ORC 5739.12)
 
-**Filing frequency**  _(ORC 5739.12)_ (not yet confirmed)
+**Filing frequency**  _(ORC 5739.12; archived US-OH-dr-orc-5739-12.txt)_
 
 | Frequency | Criteria | Due Date |
 | --- | --- | --- |
-| Monthly | Tax liability > $600/month | 23rd of following month | (not yet confirmed)
-| Semi-annual | Tax liability $600 or less/month | July 23 / January 23 | (not yet confirmed)
+| Monthly | (see Not yet confirmed: in Sources) | 23rd of following month (US-OH-dr-orc-5739-12.txt: "on or before the twenty-third day of each month, shall make and file a return for the preceding month") |
+| Semi-annual | (see Not yet confirmed: in Sources) | July 23 / January 23 (US-OH-dr-odt-small-business-tax-guide-2026.pdf: "return and payment are due on or before July 23rd"; "on or before January 23") |
 
 ### 5.4 Vendor Discount
 
-- **Vendor discount** -- 0.75% of tax collected for timely filing and payment. No cap.  _(ORC 5739.12(B))_ (not yet confirmed)
+- **Vendor discount** -- 0.75% of tax due for timely filing and payment; statutory cap $750 per vendor license per month on non-motor-vehicle sales.  _(ORC 5739.12(B); US-OH-dr-orc-5739-12.txt: "a discount of three-fourths of one per cent ... shall not exceed seven hundred fifty dollars per vendor's license for each month")_
 
 ### 5.5 Economic Nexus (ORC 5741.01(I)(2))
 
@@ -211,7 +211,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### 5.9 Penalties (ORC 5739.13)
 
-**Penalties**  _(ORC 5739.13)_ (not yet confirmed)
+**Penalties**  _(ORC 5739.13; archived US-OH-dr-orc-5739-13.txt)_
 
 | Penalty | Rate |
 | --- | --- |
@@ -303,14 +303,14 @@ ONBOARDING QUESTIONS -- OHIO SALES TAX
 
 | Topic | Reference |
 | --- | --- |
-| Sales tax imposition | ORC 5739.02 | (not yet confirmed)
+| Sales tax imposition | ORC 5739.02 (archived US-OH-dr-orc-5739-02.txt) |
 | Use tax | ORC Chapter 5741 |
 | Sourcing | ORC 5739.033 |
-| Vendor license | ORC 5739.17 | (not yet confirmed)
-| Economic nexus | ORC 5741.01(I)(2) | (not yet confirmed)
+| Vendor license | ORC 5739.17 (archived US-OH-dr-orc-5739-17.txt) |
+| Economic nexus | ORC 5741.01(I)(2) (archived US-OH-dr-orc-5741-01.txt) |
 | Marketplace facilitator | ORC 5739.01(Q) |
-| Vendor discount | ORC 5739.12(B) | (not yet confirmed)
-| Penalties | ORC 5739.13 | (not yet confirmed)
+| Vendor discount | ORC 5739.12(B) (archived US-OH-dr-orc-5739-12.txt) |
+| Penalties | ORC 5739.13 (archived US-OH-dr-orc-5739-13.txt) |
 | CAT (separate) | ORC Chapter 5751 |
 
 ### Known Gaps / Out of Scope
@@ -345,7 +345,7 @@ ONBOARDING QUESTIONS -- OHIO SALES TAX
 - NEVER treat grocery food as taxable -- grocery food is exempt (but candy, soft drinks, dietary supplements are taxable)
 - NEVER confuse the CAT with sales tax -- they are separate taxes
 - NEVER use destination-based sourcing for intrastate Ohio sales -- Ohio is origin-based for intrastate
-- NEVER forget the 0.75% vendor discount for timely filing -- no cap (not yet confirmed)
+- NEVER forget the 0.75% vendor discount for timely filing -- statutory cap $750 per license per month (US-OH-dr-orc-5739-12.txt)
 - NEVER treat SaaS as nontaxable -- SaaS is taxable as automatic data processing
 - NEVER refuse SST Certificate -- Ohio is an SST member
 - NEVER present calculations as definitive -- always label as estimated and direct client to a qualified Ohio CPA or EA
@@ -376,57 +376,33 @@ the OpenAccountants network.
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
-
 ## Rates, bands and thresholds
-
-Not yet confirmed against archived sources.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
-
 ## Deadlines and filing
-
-Not yet confirmed against archived sources.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
-
 ## Cross-border points
-
-Not yet confirmed against archived sources.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
-
 ## Ask the client first
-
-Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: figures in this skill lack archived line-citations. Monthly vs semi-annual filing thresholds stated as $600/month (the archived Small Business Tax Guide instead states semi-annual filing may be authorized when liability is less than $1,200 per six-month period); hypothetical dollar amounts in the worked examples are illustrative inputs, not sourced figures.
 
 
 | Source | URL | Read on |
 | --- | --- | --- |
 | Ohio Dept of Taxation | https://tax.ohio.gov/ | 2026-10-28 |
 
-Not yet confirmed against archived sources.
-
 ## Talk to a verified accountant
-
-Not yet confirmed against archived sources.
 
 ### Sources
 
 
-Not yet confirmed against archived sources.
-
 ### Talk to a verified accountant
 
-
-Not yet confirmed against archived sources.
