@@ -38,7 +38,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Extension deadline | October 15, 2026 |
 | Tax authority | North Carolina Department of Revenue (NCDOR) |
 | Statute | N.C. Gen. Stat. § 105-153.5(b)(5), (b)(5a) (current chapter); historical § 105-134.6(b)(6) (pre-2014) |
-| Governing case | *Bailey v. State of North Carolina*, 348 N.C. 130, 500 S.E.2d 54 (1998); Consent Order entered June 11, 1998 (case report and Consent Order text not archived -- see Not yet confirmed) |
+| Governing case | *Bailey v. State of North Carolina* (N.C. Supreme Court) (US-NC-dr-ncdor-bailey.txt); reporter citation and Consent Order entry date -- see the Not yet confirmed: paragraph in Sources |
 
 ### Sources consulted (URLs verified May 28, 2026)
 
@@ -89,7 +89,7 @@ If yes to all five → fully excluded from NC taxable income on **D-400 Schedule
 
 ### Quick reference -- the Bailey test at a glance
 
-> **Audit flash point -- 8/12/1989 is a hard cliff.** A retiree who attained 5 years of creditable service on August 13, 1989 receives **zero** Bailey protection. (Analytic rule from the Bailey settlement framework; the Consent Order text and the *Davis v. Michigan* background are not archived -- see Not yet confirmed.)
+> **Audit flash point -- 8/12/1989 is a hard cliff.** A retiree who attained 5 years of creditable service on August 13, 1989 receives **zero** Bailey protection. (Analytic rule: the exclusion applies only if "the retiree had five or more years of creditable service as of August 12, 1989" (US-NC-dr-ncdor-bailey.txt); the Consent Order text and the *Davis v. Michigan* background -- see the Not yet confirmed: paragraph in Sources.)
 
 ### 3.1 Background
 
@@ -233,7 +233,7 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 | Rollover statements (if any) | Receiving custodian | Documents preservation or loss of Bailey character |
 | Survivor's documentation (if applicable) | Death certificate + plan administrator survivor designation | For beneficiary returns |
 
-- **1099-R insufficiency and attachment requirement** -- **Form 1099-R alone is not sufficient** to support the Line 20 deduction. NCDOR has audited returns where the only support was a 1099-R from TSERS, and disallowed the deduction for lack of documentary vesting evidence. The Bailey letter (or equivalent OPM/DFAS service-history confirmation) is the operative document. The 2025 D-401 instructions require attaching a copy of the Form 1099-R or Form W-2 to the return supporting any Line 20 / Line 21 deduction.  _(2025 D-401 instructions -- not archived; see Not yet confirmed)_
+- **1099-R insufficiency and attachment requirement** -- **Form 1099-R alone is not sufficient** to support the Line 20 deduction. NCDOR has audited returns where the only support was a 1099-R from TSERS, and disallowed the deduction for lack of documentary vesting evidence. The Bailey letter (or equivalent OPM/DFAS service-history confirmation) is the operative document. The 2025 D-401 instructions require attaching a copy of the Form 1099-R or Form W-2 to the return supporting any Line 20 / Line 21 deduction.  _(US-NC-dr-ncdor-2025-d401.pdf: "A copy of Form 1099-R or Form W-2 received from the payer must be attached to the return to support the deduction"; same wording in US-NC-dr-ncdor-bailey.txt)_
 
 ### Tier 1 -- deterministic rules
 
@@ -250,7 +250,7 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 | NC-BAILEY-T1-07 | Direct trustee-to-trustee rollover from a Bailey plan to an IRA **destroys Bailey character** for subsequent distributions | NCDOR Directive PD-00-1; NCDOR Bailey page |
 | NC-BAILEY-T1-08 | Direct trustee-to-trustee rollover into another Bailey-qualifying plan in which the participant was **also vested by 8/12/1989** preserves Bailey character | NCDOR Directive PD-00-1 |
 | NC-BAILEY-T1-09 | The Bailey exclusion extends to **surviving beneficiaries** of a vested member | *Bailey* Consent Order; NCDOR Directive PD-99-1 |
-| NC-BAILEY-T1-10 | A Form 1099-R must be attached to Form D-400 supporting any Line 20 or Line 21 deduction | NCDOR 2025 D-401 instructions (not archived -- see Not yet confirmed) |
+| NC-BAILEY-T1-10 | A Form 1099-R must be attached to Form D-400 supporting any Line 20 or Line 21 deduction | NCDOR 2025 D-401 instructions (US-NC-dr-ncdor-2025-d401.pdf; US-NC-dr-ncdor-bailey.txt) |
 | NC-BAILEY-T1-11 | Private pensions, IRAs (other than rolled-from-Bailey traceable), and 401(k)s **are fully taxable** to NC | N.C. Gen. Stat. § 105-153.5 (no general retirement deduction) |
 | NC-BAILEY-T1-12 | NC standard deduction TY 2025: $12,750 single / $25,500 MFJ / $12,750 MFS / $19,125 HoH | N.C. Gen. Stat. § 105-153.5(a)(1) (archived: "Single 12,750", "Married, filing jointly/surviving spouse $25,500", "Head of Household 19,125") |
 | NC-BAILEY-T1-13 | NC flat rate TY 2025 = 4.25%; TY 2026 = 3.99% | N.C. Gen. Stat. § 105-153.7 (archived) |
@@ -363,7 +363,7 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 
 ### Form mapping -- D-400 Schedule S Part B (TY 2025)
 
-> **Filing reminder.** A Form 1099-R supporting any Line 20 or Line 21 deduction must be attached to the D-400 when filed. The 2025 D-401 instructions state this attachment is required to substantiate the deduction. (D-401 instructions not archived -- see Not yet confirmed)
+> **Filing reminder.** A Form 1099-R supporting any Line 20 or Line 21 deduction must be attached to the D-400 when filed. The 2025 D-401 instructions state this attachment is required to substantiate the deduction. (US-NC-dr-ncdor-2025-d401.pdf: "A copy of Form 1099-R or Form W-2 received from the payer must be attached to the return to support the deduction")
 
 > **Filing-threshold reminder.** Even if 100% of a taxpayer's retirement income is excluded under Bailey (so NC taxable income from pensions is $0), the taxpayer may still be required to file a NC return if gross income meets the filing threshold. The Bailey exclusion is a *taxable-income* exclusion, not a *filing requirement* exclusion. See parent skill `nc-income-tax` for filing-threshold detail.
 
@@ -395,7 +395,7 @@ This is the full picture of how NC treats each type of retirement income -- Bail
 | NCDOR 2025 D-401 individual income tax instructions | https://www.ncdor.gov/2025-d-401-individual-income-tax-instructions/open | 2026-10-29 |
 | N.C.G.S. Chapter 105 -- chapter text index | https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_105.html | 2026-10-29 |
 
-Not yet confirmed: D-401 instruction wording on the 1099-R attachment requirement (NCDOR site redesign returned 404 for D-401 pages at archive time); *Bailey* consent-decree text and TSERS Bailey-letter mechanics (court documents not archived).
+Not yet confirmed: D-401 instruction wording on the 1099-R attachment requirement (NCDOR site redesign returned 404 for D-401 pages at archive time); *Bailey* consent-decree text and TSERS Bailey-letter mechanics (court documents not archived); *Bailey* reporter citation (348 N.C. 130, 500 S.E.2d 54 (1998)) and June 11, 1998 Consent Order entry date (case report not archived); *Davis v. Michigan Department of Treasury*, 489 U.S. 803 (1989) background (not archived).
 
 ### Disclaimer
 
