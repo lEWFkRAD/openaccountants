@@ -4,8 +4,8 @@ description: >
   Use this skill whenever asked about Wisconsin cross-border personal tax for
   tax year 2026 -- Form 1NPR for nonresidents and part-year residents, the
   four reciprocal states (IL, IN, KY, MI -- wages exempt from WI tax for their
-  full-year residents), the archived statute's Minnesota income-tax
-  reciprocity machinery (2023 Wis. Act 147),
+  full-year residents), the critical fact that Minnesota and Wisconsin have
+  NO reciprocal agreement since 2009 (MN-WI commuters file both states),
   Wisconsin-source income rules (services where performed, property where
   located), the credit for tax paid to another state, and the residency
   domicile questionnaire when moving out. Wisconsin has no exit tax. Trigger
@@ -65,14 +65,14 @@ How Wisconsin taxes people crossing its borders: **Form 1NPR** (nonresident/part
 
 | Filing | Due |
 |---|---|
-| 1NPR | April 15 (calendar year); federal extension carries over (see Not yet confirmed in Sources) |
+| 1NPR | April 15 (calendar year); federal extension carries over (see the "Not yet confirmed:" paragraph in Sources) |
 | Domicile questionnaire | With the return when moving out |
-| Estimated tax (Form 1-ES) | Quarterly above the liability threshold (see Not yet confirmed in Sources) |
-| Legal residence change notice | DOR Form MV300 with DMV when moving (see Not yet confirmed in Sources) |
+| Estimated tax (Form 1-ES) | Quarterly above the liability threshold (see the "Not yet confirmed:" paragraph in Sources) |
+| Legal residence change notice | DOR Form MV300 with DMV when moving (see the "Not yet confirmed:" paragraph in Sources) |
 
 ### 5. Penalties and interest
 
-- 1NPR underpayment: WI interest on balance due (rate see Not yet confirmed in Sources); failure-to-file penalties per ch. 71.
+- 1NPR underpayment: WI interest on balance due (rate see the "Not yet confirmed:" paragraph in Sources); failure-to-file penalties per ch. 71.
 - Reciprocity misuse: IL-resident claiming the wage exemption while actually a WI domiciliary is a top audit flag (`wi-payroll` §6.3 red flags: out-of-state address + WI driver's license; W-220 mismatch).
 - MN commuters who skip the WI return get DOR matching notices.
 
@@ -144,31 +144,31 @@ On the no-waiver premise the commuter files WI 1NPR, credits the MN tax on the s
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Sources
 
@@ -177,10 +177,10 @@ Not yet confirmed: 2026 1NPR instructions; the $1,000 estimated-tax trigger for 
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see the "Not yet confirmed:" paragraph below) | -- | 2026-10-28 |
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.

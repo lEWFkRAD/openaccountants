@@ -163,11 +163,14 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 
 **Filing Frequency**
 
-| Annual Tax Liability | Filing Frequency | Due Date |
+| Remittances (per DOR annual frequency scan) | Filing Frequency | Due Date |
 | --- | --- | --- |
-| Over $3,600 per year | Monthly | Last day of the following month |
-| $1,200 -- $3,600 per year | Quarterly | Last day of month following quarter-end |
-| Under $1,200 per year | Annual | January 31 |
+| $3,601 or more/quarter | Early monthly | 20th of the following month |
+| $1,201 - $3,600/quarter | Monthly | Last day of the following month |
+| $601 - $1,200/quarter | Quarterly | Last day of month following quarter-end |
+| $600/year or less | Annual | January 31 |
+
+Archive-verbatim: "Early monthly $3,601 or more/quarter Monthly $1,201 - $3,600/quarter Quarterly $601 - $1,200/quarter Annual $600/year or less" (US-WI-Filing-Frequency-Changes.aspx.html).
 
 ### 3.3 Returns and Payment
 
@@ -179,7 +182,7 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 ### 3.4 Vendor Discount
 
 - **Retailer's discount rate** -- 0.5% of the tax due (both state and county), up to a maximum of $1,000 per reporting period. [T1] percent  _(Wis. Stat. Section 77.61(4)(a))_
-- **Discount availability condition** -- Available only for timely filing and payment. [T1]  _(Wis. Stat. Section 77.61(4)(a))_ (not yet confirmed)
+- **Discount availability condition** -- Available only for timely filing and payment. [T1] (US-WI-S-114.txt: "The discount is allowed on timely reported sales tax if paid by the due date or before the expiration of any extension period")  _(Wis. Stat. Section 77.61(4)(a))_
 
 ### 3.5 Penalties and Interest
 
@@ -189,7 +192,7 @@ The former 0.1% Miller Park/American Family Field stadium tax in the five-county
 | --- | --- | --- |
 | Late filing | $20 or 5% of tax due, whichever is greater (per month, up to 25%) | Wis. Stat. Section 77.60(1) |
 | Late payment | 1% per month, up to 24% | Wis. Stat. Section 77.60(2) |
-| Failure to file | Estimated assessment + penalties | Wis. Stat. Section 77.59(2) | (not yet confirmed)
+| Failure to file | Estimated assessment + penalties (see 'Not yet confirmed:' in Sources) | Wis. Stat. Section 77.59(2) |
 | Fraud | 100% of deficiency | Wis. Stat. Section 77.60(9) |
 | Interest | 12% per year (adjusted) | Wis. Stat. Section 77.60(1) |
 
@@ -329,7 +332,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### Test 3: SaaS Taxability [T2]
 
-**Question:** A Wisconsin business subscribes to a $1,500/month SaaS HR platform. Is Wisconsin sales tax due? (not yet confirmed)
+**Question:** A Wisconsin business subscribes to a $1,500/month SaaS HR platform. Is Wisconsin sales tax due? (the SaaS determination is not in the archived sources -- see 'Not yet confirmed:' in Sources)
 
 **Expected Answer:** No. SaaS is not taxable in Wisconsin as it is not tangible personal property.
 
@@ -341,7 +344,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ### Test 5: Economic Nexus [T1]
 
-**Question:** An out-of-state seller made $80,000 in sales and 500 transactions in Wisconsin. Does the seller have nexus? (not yet confirmed)
+**Question:** An out-of-state seller made $80,000 in sales and 500 transactions in Wisconsin. Does the seller have nexus? (US-WI-pb240.txt: remote sellers must register "if it has gross sales into Wisconsin that exceed $100,000 or 200 or more transactions into Wisconsin in the previous or current year" -- the archived Pub 240 predates the 2021 removal of the transaction test; see 'Not yet confirmed:' in Sources)
 
 **Expected Answer:** No. Wisconsin uses a revenue-only threshold of $100,000. Transaction count is irrelevant.
 
@@ -403,47 +406,51 @@ the OpenAccountants network.
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: figures in this skill not found in the archived sources -- the SaaS non-taxability determination (WDOR guidance); the "no transaction-count alternative" claim post-2021 Wis. Act 1 (archived Pub 240 still lists the 200-transaction test); the estimated-assessment rule (Wis. Stat. §77.59(2)); the 1%/month late-payment interest up to 24% and the 12%/year interest line (archived S-114 shows 1.5%/month); the fraud 100% penalty (§77.60(9)); the $20 registration fee statute cite; certificate retention 4 years; marketplace facilitator 1/1/2020 date; economic nexus enactment date 10/1/2018 (archived Pub 240 confirms this one); stadium/Brewers tax status.
 
+Archived sources now backing body figures: US-WI-pb240.txt (5% state rate verbatim; $100,000 remote-seller threshold; county rate changes incl. Milwaukee 0.9% from 1/1/2024), US-WI-S-114.txt (retailer's discount timely-payment condition; 0.5%/0.9%/2.0% county-city lines; late filing fee $20 and 5%/month negligence up to 25%; 1.5%/month interest; 4-year record retention), US-WI-s-203.txt ("Seventy counties have adopted a 0.5% county sales and use tax"; e-file mandate), US-WI-Filing-Frequency-Changes.aspx.html (filing-frequency bands).
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| DOR Pub 240 (digital goods) | archived as US-WI-pb240.txt | 2026-11-01 |
+| Form ST-12 instructions (S-114) | archived as US-WI-S-114.txt | 2026-11-01 |
+| S-203 seller privileges | archived as US-WI-s-203.txt | 2026-11-01 |
+| DOR filing frequency scan | archived as US-WI-Filing-Frequency-Changes.aspx.html | 2026-11-01 |
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.

@@ -200,7 +200,7 @@ DOR sets each filer's frequency: early monthly, monthly, quarterly or annual. Th
 
 ### 5.2 Due dates and how to file
 
-- Returns are due by the last day of the month after the end of the reporting period. Early monthly filers file by the 20th of the month after the period (a February return is due March 20). When the due date falls on a weekend or legal holiday, it moves to the next business day. [T1] (not yet confirmed)
+- Returns are due by the last day of the month after the end of the reporting period. Early monthly filers file by the 20th of the month after the period (a February return is due March 20). When the due date falls on a weekend or legal holiday, it moves to the next business day. [T1] (the weekend/holiday roll-over rule is not in the archived sources -- see 'Not yet confirmed:' in Sources)
 - File through My Tax Account or TeleFile; electronic filing is mandated for all sales and use tax registrants ([S-203](https://www.revenue.wi.gov/DORforms/s-203.pdf)). Electronic returns and ACH debit payments must be received by 4:00 p.m. (CST) on the due date. [T1]
 - A return is due for every period, even with no tax to report. Report all locations on one consolidated Form ST-12; report county and city tax on Schedule CT. Keep a copy of each return for at least four years ([S-114](https://www.revenue.wi.gov/DORForms/S-114.pdf)). [T1]
 - Extension: DOR may grant one additional month from the original due date. Tax unpaid by the original due date carries interest during the extension and a higher rate after it (table below). [T1]
@@ -346,12 +346,17 @@ When a marketplace provider collects for a marketplace seller, the provider may 
 
 ### Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: figures in this skill not found in the archived sources -- the weekend/holiday due-date roll-over; the DOR rate-chart quotes (5% state / 0.5% county / 0.9% Milwaukee / 2% city verbatim lines, Racine 4/2025 and Manitowoc 1/2025 start dates -- Pub 240 confirms the Milwaukee and Racine/Manitowoc changes); the pcs-county page rates (premier resort 0.5%/1.25%); Form 213 bracket rates and the $15,000 security deposit (S-203 archived copy confirms the deposit language); the $20 BTR fee and $10 renewal; the $100,000 small-seller exception page quote (Pub 240 archived copy states the $100,000 threshold); the 2/20/2021 transaction-test removal (2021 Wis. Act 1); marketplace provider 1/1/2020 date; extension interest 1%/month then 1.5%/month (S-203 archived copy confirms this verbatim); the S-211 $250 fine (S-211 archived copy confirms).
 
+Archived sources now backing body figures: US-WI-S-114.txt (county/city ST-12 lines 0.5%/0.9%/2.0%; retailer's discount bands incl. .0075/$8,000 cap; late filing fee $20, negligence 5%/month to 25%, interest 1.5%/month; 4-year retention; food exemption scope; professional-services exempt line), US-WI-s-203.txt ("Seventy counties have adopted a 0.5% county sales and use tax"; e-file mandate; extension interest 1%/month then 1.5%/month; "deposit security, not in excess of $15,000"), US-WI-pb240.txt (5% rate; digital goods; $100,000 remote-seller threshold; Milwaukee 0.9% and Racine/Manitowoc 0.5% dates), US-WI-s-211f.txt ($250 certificate fine), US-WI-Filing-Frequency-Changes.aspx.html (frequency bands and annual scan mechanics).
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| Form ST-12 instructions (S-114) | archived as US-WI-S-114.txt | 2026-11-01 |
+| S-203 seller privileges | archived as US-WI-s-203.txt | 2026-11-01 |
+| DOR Pub 240 | archived as US-WI-pb240.txt | 2026-11-01 |
+| Form S-211 | archived as US-WI-s-211f.txt | 2026-11-01 |
+| DOR filing frequency scan | archived as US-WI-Filing-Frequency-Changes.aspx.html | 2026-11-01 |
 
 - [DOR Tax Rates](https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx)
 - [DOR County and City Sales and Use Taxes](https://www.revenue.wi.gov/Pages/FAQS/pcs-county.aspx)
@@ -397,35 +402,35 @@ the OpenAccountants network.
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Sources
 
@@ -435,8 +440,8 @@ Not yet confirmed against archived sources.
 | Wisconsin DOR -- Sales/Use tax forms (S-114) | https://www.revenue.wi.gov/DORForms/S-114.pdf | 2026-10-29 |
 | Wisconsin DOR -- Publication 240 | https://www.revenue.wi.gov/DOR%20Publications/pb240.pdf | 2026-10-29 |
 
-Not yet confirmed: the rate, threshold, and due-date figures in this skill were not found in the archived sources (archived 2026-10-29).
+Not yet confirmed: the remaining unconfirmed items are listed in the Sources 'Not yet confirmed:' paragraph above; the rate, discount, penalty, and threshold figures now carry archived line-citations (US-WI-S-114.txt, US-WI-s-203.txt, US-WI-pb240.txt, US-WI-s-211f.txt, US-WI-Filing-Frequency-Changes.aspx.html).
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.

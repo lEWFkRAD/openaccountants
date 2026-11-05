@@ -18,13 +18,13 @@ This Tier 2 content skill covers Wisconsin (WI) state payroll obligations for ta
 
 In scope:
 
-- Wisconsin Personal Income Tax (PIT) withholding under Wis. Stat. ch. 71 subch. X (§§ 71.63–71.83). (not yet confirmed)
+- Wisconsin Personal Income Tax (PIT) withholding under Wis. Stat. ch. 71 subch. X (§§ 71.63–71.83) (US-WI-dr-wis-stat-ch71.txt: "71.63 Definitions. 71.64 Employers required to withhold. 71.65 Filing returns or reports. 71.66 Employee exemption certificates"; ss. 71.82 Interest and 71.83 Penalties in the same chapter).
 - Form WT-4 (Employee's Wisconsin Withholding Exemption Certificate) and its interaction with federal Form W-4.
 - Form WT-6 (deposit report) and Form WT-7 (annual reconciliation).
 - Wisconsin Unemployment Insurance (UI) tax administered by the Department of Workforce Development (DWD) under Wis. Stat. ch. 108.
 - Reciprocal income tax agreements with Illinois, Indiana, Kentucky, and Michigan (Form W-220).
 - Worker classification under the Wisconsin 9-factor test (Wis. Stat. § 108.02(12)) and the federal common-law rules where they diverge.
-- New hire reporting under Wis. Stat. § 49.22(2dm). (not yet confirmed)
+- New hire reporting under Wis. Stat. § 49.22(2dm) (see the "Not yet confirmed:" paragraph in Sources).
 - Final pay timing, workers' compensation coverage, and the Milwaukee local paid sick leave ordinance (Milwaukee County ordinance enacted 2024, effective 2025) -- flagged as audit flash points.
 
 Out of scope:
@@ -41,62 +41,65 @@ This skill assumes a human reviewer credentialed under Circular 230 (EA, CPA, or
 
 ### 2.1 2025 Bracket Schedule
 
-**Single filers and Head-of-Household (2025)**  _(Wis. Stat. § 71.06(2e))_ (not yet confirmed)
+**Single filers and Head-of-Household (2025)**  _(Wis. Stat. § 71.06(1r); bracket indexing § 71.06(2e))_ (US-WI-dr-wis-stat-ch71.txt)
 
 | Bracket | Taxable Income (Single) | Marginal Rate |
 | --- | --- | --- |
-| 1 | $0 – $14,680 | 3.50% | (not yet confirmed)
-| 2 | $14,681 – $29,370 | 4.40% | (not yet confirmed)
-| 3 | $29,371 – $323,290 | 5.30% | (not yet confirmed)
-| 4 | Over $323,290 | 7.65% | (not yet confirmed)
+| 1 | $0 – $14,680 | 3.50% |
+| 2 | $14,681 – $50,480 | 4.40% |
+| 3 | $50,481 – $323,290 | 5.30% |
+| 4 | Over $323,290 | 7.65% |
 
-**Married Filing Jointly (2025)**  _(Wis. Stat. § 71.06(2e))_ (not yet confirmed)
+Archive-verbatim: "On all taxable income from $0 to $14,680, 3.50 percent ... exceeding $14,680 but not exceeding $50,480, 4.40 percent ... exceeding $50,480 but not exceeding $323,290, 5.30 percent ... exceeding $323,290, 7.65 percent" (US-WI-dr-wis-stat-ch71.txt, s. 71.06(1r)).
+
+**Married Filing Jointly (2025)**  _(Wis. Stat. § 71.06(2)(k))_ (US-WI-dr-wis-stat-ch71.txt)
 
 | Bracket | Taxable Income (MFJ) | Marginal Rate |
 | --- | --- | --- |
-| 1 | $0 – $19,580 | 3.50% | (not yet confirmed)
-| 2 | $19,581 – $39,150 | 4.40% | (not yet confirmed)
-| 3 | $39,151 – $431,060 | 5.30% | (not yet confirmed)
-| 4 | Over $431,060 | 7.65% | (not yet confirmed)
+| 1 | $0 – $19,580 | 3.50% |
+| 2 | $19,581 – $67,300 | 4.40% |
+| 3 | $67,301 – $431,060 | 5.30% |
+| 4 | Over $431,060 | 7.65% |
 
-**Married Filing Separately (2025)**  _(Wis. Stat. § 71.06(2e))_ (not yet confirmed)
+Archive-verbatim: "$0 to $19,580, 3.50 percent ... exceeding $19,580 but not exceeding $67,300, 4.40 percent ... exceeding $67,300 but not exceeding $431,060, 5.30 percent ... exceeding $431,060, 7.65 percent" (US-WI-dr-wis-stat-ch71.txt, s. 71.06(2)(k)).
+
+**Married Filing Separately (2025)**  _(Wis. Stat. § 71.06(2)(L))_ (US-WI-dr-wis-stat-ch71.txt)
 
 | Bracket | Taxable Income (MFS) | Marginal Rate |
 | --- | --- | --- |
-| 1 | $0 – $9,790 | 3.50% | (not yet confirmed)
-| 2 | $9,791 – $19,580 | 4.40% | (not yet confirmed)
-| 3 | $19,581 – $215,530 | 5.30% | (not yet confirmed)
-| 4 | Over $215,530 | 7.65% | (not yet confirmed)
+| 1 | $0 – $9,790 | 3.50% |
+| 2 | $9,791 – $33,650 | 4.40% |
+| 3 | $33,651 – $215,530 | 5.30% |
+| 4 | Over $215,530 | 7.65% |
 
-- **Bracket source and act references** -- Wisconsin has four brackets for tax year 2025 indexed annually for inflation under Wis. Stat. § 71.06(2e). Rates were last reset by 2023 Wis. Act 19 (the biennial budget) and the lower-bracket rate cuts in 2023 Wis. Act 1. Bracket figures are drawn from the DOR's annual indexing announcement published in late 2024 for tax year 2025. Always confirm against the current Pub 117 (Wisconsin Statutes -- Withholding Tax Update) before producing year-end calculations.  _(Wis. Stat. § 71.06(2e); 2023 Wis. Act 19; 2023 Wis. Act 1; DOR Pub 117)_ (not yet confirmed)
+Archive-verbatim: "$0 to $9,790, 3.50 percent ... exceeding $9,790 but not exceeding $33,650, 4.40 percent ... exceeding $33,650 but not exceeding $215,530, 5.30 percent ... exceeding $215,530, 7.65 percent" (US-WI-dr-wis-stat-ch71.txt, s. 71.06(2)(L)).
+
+- **Bracket source and act references** -- Wisconsin has four brackets for tax year 2025 indexed annually for inflation under Wis. Stat. § 71.06(2e) (US-WI-dr-wis-stat-ch71.txt: "(2e) BRACKET INDEXING ... shall be increased each year by a percentage equal to the percentage change between the U.S. consumer price index"; the s. 71.06 history line cites "2023 a. 19"). Rates were last reset by 2023 Wis. Act 19 (the biennial budget); the 2023 Wis. Act 1 attribution and the DOR late-2024 indexing announcement / Pub 117 sourcing see the "Not yet confirmed:" paragraph in Sources.  _(Wis. Stat. § 71.06(2e); 2023 Wis. Act 19)_
 
 ### 2.2 Supplemental Withholding Rate
 
-- **Supplemental wage flat withholding rate** -- 7.65%  _(DOR rule / Pub 166, 2025 edition)_ (not yet confirmed)
+- **Supplemental wage flat withholding rate** -- a flat rate applies to supplemental wages (figure see the "Not yet confirmed:" paragraph in Sources)  _(DOR rule / Pub 166, 2025 edition)_
 - **Supplemental wage aggregation option** -- If the employer aggregates supplemental wages with regular wages and uses the percentage or wage-bracket method in Pub 166, no separate supplemental rate applies.  _(Pub 166, 2025 edition)_
 
 ### 2.3 Standard Deduction (used by WT-4 worksheet only)
 
-- **Single standard deduction and phase-out AGI** -- $13,560 (phases out completely at AGI of $128,665)  _(WT-4 worksheet, 2025)_ (not yet confirmed)
-- **MFJ standard deduction and phase-out AGI** -- $25,110 (phases out completely at AGI of $150,840)  _(WT-4 worksheet, 2025)_ (not yet confirmed)
-- **MFS standard deduction and phase-out AGI** -- $11,930 (phases out completely at AGI of $71,605)  _(WT-4 worksheet, 2025)_ (not yet confirmed)
-- **HOH standard deduction** -- $17,510  _(WT-4 worksheet, 2025)_ (not yet confirmed)
+- **Standard deduction figures used by the WT-4 worksheet** -- single, MFJ, MFS and HOH amounts and their phase-out AGI points are not in the archived sources (figures see the "Not yet confirmed:" paragraph in Sources)  _(WT-4 worksheet, 2025)_
 - **Employer treatment of standard deduction** -- Employers do not compute the standard deduction directly -- the wage-bracket and percentage tables in Pub 166 have it baked in. It matters only when an employee uses the WT-4 worksheet to claim additional exemptions.  _(Pub 166)_
 
 ### 2.4 Personal and Dependency Exemptions
 
-- **Value per personal/dependency exemption on WT-4** -- $700 per year  _(§ 71.07(5n))_
-- **Additional exemption for age 65+ and WT-4 vs W-4 divergence** -- Employees over age 65 may claim an additional exemption. The WT-4 differs from federal Form W-4 -- Wisconsin did not adopt the 2020 W-4 redesign for state purposes.  _(§ 71.07(5n))_
+- **Value per personal/dependency exemption on WT-4** -- $700 per year (US-WI-dr-wis-stat-ch71.txt, s. 71.05(23): "A personal exemption of $700 ... An exemption of $700 for each dependent")  _(Wis. Stat. § 71.05(23))_
+- **Additional exemption for age 65+ and WT-4 vs W-4 divergence** -- Employees over age 65 may claim an additional exemption (US-WI-dr-wis-stat-ch71.txt, s. 71.05(23): "An additional exemption of $250 if the taxpayer has reached the age of 65 ... and $250 for the taxpayer's spouse"). The WT-4 differs from federal Form W-4 -- Wisconsin did not adopt the 2020 W-4 redesign for state purposes.  _(Wis. Stat. § 71.05(23))_
 
 ## 3. Form WT-4: Wisconsin Withholding Exemption Certificate
 
 ### 3.1 When Required
 
-- **WT-4 required at hire; W-4 insufficient; default withholding if not filed** -- Every new employee must complete Form WT-4 on or before the first day of work. The federal Form W-4 alone is insufficient for Wisconsin withholding because: 1. WT-4 uses an allowance-based system that the federal W-4 abandoned in 2020. 2. WT-4 captures reciprocal-state residency declarations not present on W-4. 3. WT-4 includes the Wisconsin-specific "additional amount to be withheld" line. If an employee fails to file a WT-4, the employer must withhold as if the employee is single with zero exemptions (the most conservative posture, mandated by Wis. Admin. Code Tax § 2.93(2)).  _(Wis. Admin. Code Tax § 2.93(2))_ (not yet confirmed)
+- **WT-4 required at hire; W-4 insufficient; default withholding if not filed** -- Every new employee must complete Form WT-4 on or before the first day of work. The federal Form W-4 alone is insufficient for Wisconsin withholding because: 1. WT-4 uses an allowance-based system that the federal W-4 abandoned in 2020. 2. WT-4 captures reciprocal-state residency declarations not present on W-4. 3. WT-4 includes the Wisconsin-specific "additional amount to be withheld" line. If an employee fails to file a WT-4, the employer must withhold as if the employee is single with zero exemptions (the most conservative posture, per Wis. Admin. Code Tax § 2.93(2) -- see the "Not yet confirmed:" paragraph in Sources).  _(Wis. Admin. Code Tax § 2.93(2))_
 
 ### 3.2 Allowance Structure
 
-- **WT-4 allowance value and comparison to federal** -- Each WT-4 allowance reduces taxable wages by $700/year ($26.92 biweekly, $13.46 weekly). Compare this to the federal pre-TCJA $4,300 -- Wisconsin allowances are roughly one-sixth as valuable. An employee who claims 4 federal allowances on a (pre-2020) W-4 cannot simply transfer that to WT-4: the equivalent Wisconsin claim depends on the personal exemption math, not on allowance count.  _(WT-4 form instructions)_ (not yet confirmed)
+- **WT-4 allowance value and comparison to federal** -- Each WT-4 allowance reduces taxable wages by $700/year (US-WI-dr-wis-stat-ch71.txt, s. 71.05(23) "$700" exemption; the $26.92 biweekly / $13.46 weekly conversions are arithmetic on $700). The comparison to the federal pre-TCJA $4,300 allowance is not in the archived sources (see the "Not yet confirmed:" paragraph in Sources). An employee who claims 4 federal allowances on a (pre-2020) W-4 cannot simply transfer that to WT-4: the equivalent Wisconsin claim depends on the personal exemption math, not on allowance count.  _(WT-4 form instructions)_
 
 ### 3.3 Reciprocal-State Box
 
@@ -112,20 +115,22 @@ AUDIT FLASH POINT -- Reciprocal-State Misclassification. A common employer error
 
 ### 4.1 Filing Frequency Determination
 
-**Filing Frequency Determination**  _(Wis. Admin. Code Tax § 2.04)_ (not yet confirmed)
+**Filing Frequency Determination**  _(US-WI-Filing-Frequency-Changes.aspx.html; statutory semi-monthly rule in Wis. Stat. § 71.64(2)/§ 71.65(3))_
 
-| Annual WI Withholding | Frequency | Form |
+| Annual WI Withholding (remittances) | Frequency | Form |
 | --- | --- | --- |
-| Over $5,000 | Semi-monthly | WT-6 | (not yet confirmed)
-| $1,200 – $5,000 | Monthly | WT-6 |
-| $300 – $1,199 | Quarterly | WT-6 |
-| Under $300 | Annually | WT-6 (filed with WT-7) |
+| $20,001 or more/year | Semi-Monthly | WT-6 |
+| $2,401 – $20,000/year | Monthly | WT-6 |
+| $301 – $2,400/year | Quarterly | WT-6 |
+| $300/year or less | Annual | WT-6 (filed with WT-7) |
 
-- **New employer default frequency** -- New employers default to quarterly filing until DOR assigns a frequency based on actual liability, typically after the first full calendar year.  _(Wis. Admin. Code Tax § 2.04)_ (not yet confirmed)
+Archive-verbatim: "Withholding Tax Filing Frequency Remittances Semi-Monthly $20,001 or more/year Monthly $2,401 - $20,000/year Quarterly $301 - 2,400/year Annual $300/year" (US-WI-Filing-Frequency-Changes.aspx.html).
+
+- **New employer default frequency** -- New employers default to a starter frequency until DOR assigns one based on actual liability (see the "Not yet confirmed:" paragraph in Sources).  _(Wis. Admin. Code Tax § 2.04)_
 
 ### 4.2 Due Dates
 
-- **Deposit due dates by frequency** -- Semi-monthly filers: Wages paid on the 1st–15th are due by the last day of the same month. Wages paid on the 16th–end-of-month are due by the 15th of the following month. Monthly filers: Due by the last day of the month following the payroll month. Quarterly filers: Due by the last day of the month following the quarter-end (April 30, July 31, October 31, January 31). Annual filers: Due January 31 with Form WT-7. If a due date falls on a Saturday, Sunday, or legal holiday, the deposit is due the next business day (Wis. Stat. § 990.001(4)).  _(Wis. Stat. § 990.001(4))_
+- **Deposit due dates by frequency** -- Semi-monthly filers: Wages paid on the 1st–15th are due by the last day of the same month. Wages paid on the 16th–end-of-month are due by the 15th of the following month (US-WI-dr-wis-stat-ch71.txt, s. 71.65(3): "for amounts deducted and withheld from the first day of the month through the 15th day of the month, the employer shall file such reports and pay over such taxes on or before the last day of such month; for amounts deducted and withheld from the 16th day of the month through the last day of the month, the employer shall file reports and deposit such taxes on or before the 15th day of the next succeeding month"). Monthly filers: Due by the last day of the month following the payroll month. Quarterly filers: Due by the last day of the month following the quarter-end (April 30, July 31, October 31, January 31). Annual filers: Due January 31 with Form WT-7 (s. 71.65: "On or before January 31 of each year every employer shall file a withholding report"). The next-business-day roll-over rule (Wis. Stat. § 990.001(4)) is not in the archived sources -- see the "Not yet confirmed:" paragraph in Sources.
 
 ### 4.3 Filing Mechanics
 
@@ -133,10 +138,10 @@ AUDIT FLASH POINT -- Reciprocal-State Misclassification. A common employer error
 
 ### 4.4 Penalty for Late Deposit
 
-- **Late filing penalty** -- 5% per month, capped at 25%  _(Wis. Stat. § 71.83(1)(a)1)_
-- **Late payment interest** -- 1% per month interest  _(Wis. Stat. § 71.82(1)(a))_
-- **Negligence penalty** -- 25% of the underpayment if DOR finds intentional disregard  _(Wis. Stat. § 71.83(1)(b)1)_
-- **Fraud penalty** -- 50% of the underpayment  _(Wis. Stat. § 71.83(2)(b)2)_
+- **Late filing penalty** -- 5% per month, capped at 25% (US-WI-dr-wis-stat-ch71.txt, s. 71.83(2)(d)4 late-filing-of-withholding-report: "5 percent of the amount if the failure is not for more than one month, with an additional 5 percent for each additional month or fraction thereof ... not exceeding 25 percent in the aggregate")  _(Wis. Stat. § 71.83(2)(d)4)_
+- **Late payment interest** -- delinquent withheld deposits bear interest at 1.5% per month, reducible to 12% per year in stated instances (US-WI-dr-wis-stat-ch71.txt, s. 71.83(2)(d): "Delinquent deposits or payments shall bear interest at the rate of 1.5 percent per month"; s. 71.82(1) normal interest "at 12 percent per year")  _(Wis. Stat. § 71.82(1); § 71.83(2)(d))_
+- **Negligence/incomplete-report penalty** -- 25% of the amount not reported, withheld, deposited or paid over, upon a departmental showing (US-WI-dr-wis-stat-ch71.txt, s. 71.83(2)(d)3: "there shall be added to the tax 25 percent of the amount not reported or not withheld, deposited or paid over")  _(Wis. Stat. § 71.83(2)(d)3)_
+- **Fraud penalty** -- a false withholding exemption claim made with intent to defeat or evade proper withholding draws a penalty equal to the under-withheld difference (US-WI-dr-wis-stat-ch71.txt, s. 71.83: "with the intent to defeat or evade the proper withholding of tax under subch. X shall be subject to a penalty equal to the difference"); the older "50% of the underpayment" figure is not in the archived sources -- see the "Not yet confirmed:" paragraph in Sources.  _(Wis. Stat. § 71.83)_
 
 ## 5. Form WT-7: Annual Reconciliation
 
@@ -162,16 +167,16 @@ Wisconsin has reciprocal income-tax agreements with four bordering states. Under
 
 ### 6.1 The Four Agreements
 
-**The Four Agreements**  _(Wis. Stat. § 71.05(2))_ (not yet confirmed)
+**The Four Agreements**  _(Wis. Stat. § 71.05(2); US-WI-dr-wis-stat-ch71.txt: "(2) NONRESIDENT RECIPROCITY. All payments received by natural persons domiciled outside Wisconsin who derive income from the performance of personal services in Wisconsin shall be excluded from Wisconsin gross income to the extent that it is subjected to an income tax imposed by the state of domicile"; Illinois agreement machinery at s. 71.10(7e))_
 
 | Reciprocal State | Statutory Basis (WI) | Form Filed by Employee |
 | --- | --- | --- |
-| Illinois | Wis. Stat. § 71.05(2) + IL 35 ILCS 5/302 | W-220 (to WI employer) / IL-W-5-NR (to IL employer) | (not yet confirmed)
-| Indiana | Wis. Stat. § 71.05(2) + IN 6-3-5-1 | W-220 / WH-47 | (not yet confirmed)
-| Kentucky | Wis. Stat. § 71.05(2) + KRS 141.070 | W-220 / 42A809 | (not yet confirmed)
-| Michigan | Wis. Stat. § 71.05(2) + MCL 206.256 | W-220 / MI-W4 with reciprocity box | (not yet confirmed)
+| Illinois | Wis. Stat. § 71.05(2) + s. 71.10(7e) (archived); IL 35 ILCS 5/302 (see the "Not yet confirmed:" paragraph in Sources) | W-220 (to WI employer) / IL-W-5-NR (to IL employer) |
+| Indiana | Wis. Stat. § 71.05(2) + IN 6-3-5-1 (see the "Not yet confirmed:" paragraph in Sources) | W-220 / WH-47 |
+| Kentucky | Wis. Stat. § 71.05(2) + KRS 141.070 (see the "Not yet confirmed:" paragraph in Sources) | W-220 / 42A809 |
+| Michigan | Wis. Stat. § 71.05(2) + MCL 206.256 (see the "Not yet confirmed:" paragraph in Sources) | W-220 / MI-W4 with reciprocity box |
 
-- **Minnesota non-reciprocity note** -- Note: Minnesota and Wisconsin do NOT have a reciprocal agreement as of 2025. The MN-WI agreement was terminated in 2009 and has not been re-enacted despite periodic legislative proposals. Cross-border MN-WI workers must file in both states.  _(Section 6.1)_
+- **Minnesota reciprocity note** -- The archived statute contains Minnesota income-tax reciprocity machinery: s. 71.10(7) "MINNESOTA INCOME TAX RECIPROCITY ... income tax reciprocity reached with the state of Minnesota under s. 71.05 (2)" referencing 2023 Wisconsin Act 147, section 4 (2), and conditions for agreements entered on or after March 23, 2024 (US-WI-dr-wis-stat-ch71.txt). The earlier "terminated 2009, never re-enacted" claim is contradicted by the archive; whether an agreement is operative for 2025 wages must be verified with current DOR guidance before suspending withholding for MN residents.  _(US-WI-dr-wis-stat-ch71.txt s. 71.10(7))_
 
 ### 6.2 Form W-220 Mechanics
 
@@ -191,38 +196,27 @@ When preparing a WI payroll for a multistate-border employer, flag these scenari
 
 ### 7.1 Coverage Threshold
 
-- **Coverage threshold conditions** -- Under Wis. Stat. § 108.02(13), an employer is covered by Wisconsin UI if any one of the following is met: Pays $1,500 or more in wages in any calendar quarter (any current or prior year). Employs at least one worker for some portion of a day in 20 or more weeks in a calendar year. Acquires a covered employer. Is a 501(c)(3) employer paying $1,500 or more in any quarter. Is an agricultural employer paying $20,000+ in a quarter OR employing 10+ workers in 20+ weeks. Is a domestic-service employer paying $1,000+ in any quarter.  _(Wis. Stat. § 108.02(13))_
+- **Coverage threshold conditions** -- Under Wis. Stat. § 108.02(13), an employer is covered by Wisconsin UI if any one of several triggers is met (quarterly-wage, weeks-of-employment, acquisition, 501(c)(3), agricultural and domestic-service triggers -- the dollar figures are not in the archived sources; see the "Not yet confirmed:" paragraph in Sources).  _(Wis. Stat. § 108.02(13))_
 
 ### 7.2 2025 Wage Base
 
-- **Wisconsin UI taxable wage base 2025** -- $14,000 per employee per calendar year  _(Wis. Stat. § 108.18(1)(am))_
-- **Wage base historical note and application** -- This figure has not changed since 2013 and is set by statute rather than by indexed formula. UI tax is paid on wages up to the wage base; wages above $14,000 per employee are not subject to UI tax for that year.  _(Wis. Stat. § 108.18(1)(am))_
+- **Wisconsin UI taxable wage base 2025** -- a per-employee annual taxable wage base applies (figure see the "Not yet confirmed:" paragraph in Sources)  _(Wis. Stat. § 108.18(1)(am))_
+- **Wage base historical note and application** -- The base is set by statute rather than by indexed formula. UI tax is paid on wages up to the wage base; wages above the base per employee are not subject to UI tax for that year.  _(Wis. Stat. § 108.18(1)(am))_
 
 ### 7.3 Tax Rates (2025 Schedule)
 
-**2025 UI Tax Rate Schedule D**  _(Schedule D, UI trust fund balance $1.2B–$1.4B)_ (not yet confirmed)
+**2025 UI Tax Rate Schedule D** -- the reserve-ratio rate grid and the trust-fund balance band are not in the archived sources; the full schedule is carried in the "Not yet confirmed:" paragraph in Sources.  _(Schedule D)_
 
-| Reserve % of Payroll | Rate (Small Employer ≤ $500K Payroll) | Rate (Large Employer > $500K Payroll) |
-| --- | --- | --- |
-| 16% and above | 0.00% | 0.05% |
-| 10% to 15.99% | 0.25% | 0.30% |
-| 5% to 9.99% | 1.20% | 1.40% |
-| 0% to 4.99% | 2.50% | 2.80% |
-| -2% to -0.01% (deficit) | 6.50% | 6.80% |
-| -8% to -2.01% (deficit) | 9.75% | 10.00% |
-| Below -8% (deficit) | 12.00% | 12.00% |
-
-- **New employer rate non-construction** -- 3.05%  _(Wis. Stat. § 108.18(2)(c))_
-- **New employer rate construction** -- 2.90% (applied for the first 3 calendar years until experience rating begins)  _(Wis. Stat. § 108.18(2)(c))_
-- **Solvency Tax 2025** -- 0.00% (because trust fund balances have remained above the trigger)  _(Section 7.3)_
+- **New employer rates** -- separate non-construction and construction starter rates apply for the first 3 calendar years until experience rating begins (figures see the "Not yet confirmed:" paragraph in Sources)  _(Wis. Stat. § 108.18(2)(c))_
+- **Solvency Tax 2025** -- no solvency surcharge applied for 2025 because trust fund balances remained above the trigger (see the "Not yet confirmed:" paragraph in Sources)  _(Section 7.3)_
 
 ### 7.4 Reporting -- Form UCT-101 and UCT-7823
 
-- **UI reporting forms and due dates** -- UI wages and contributions are reported QUARTERLY on Form UCT-101 (with wage detail on Form UCT-7823) through the DWD online portal at dwd.wisconsin.gov/uitax. Due dates: Q1: April 30, Q2: July 31, Q3: October 31, Q4: January 31. Electronic filing is mandatory for all employers with 25 or more workers and for any employer required to file federal Form 940 electronically (Wis. Admin. Code DWD 110.04).  _(Wis. Admin. Code DWD 110.04)_
+- **UI reporting forms and due dates** -- UI wages and contributions are reported QUARTERLY on Form UCT-101 (with wage detail on Form UCT-7823) through the DWD online portal at dwd.wisconsin.gov/uitax (the archived US-WI-uitax.html shows the next quarterly report/wage report filing due date as November 2, 2026). The Apr 30 / Jul 31 / Oct 31 / Jan 31 calendar and the 25-worker e-file mandate are not in the archived sources -- see the "Not yet confirmed:" paragraph in Sources.  _(Wis. Admin. Code DWD 110.04)_
 
 ### 7.5 Penalties
 
-- **UI penalties** -- Late filing: $50 minimum per quarter (Wis. Stat. § 108.22(1)(a)). Late payment: 0.75% per month interest, compounded. Fraudulent misclassification: up to $25,000 per misclassified worker under 2009 Wis. Act 292 (the "misclassification penalty" amendment to Wis. Stat. § 108.221).  _(Wis. Stat. § 108.22(1)(a); Wis. Stat. § 108.221; 2009 Wis. Act 292)_
+- **UI penalties** -- Late filing and late-payment figures are not in the archived sources (see the "Not yet confirmed:" paragraph in Sources). On misclassification fines: the archived withholding statute imposes a **$25,000 fine per violation** on a construction contractor who willfully misclassifies an employee as a nonemployee (US-WI-dr-wis-stat-ch71.txt, s. 71.64(6): "misclassifies or attempts to misclassify an individual who is an employee of the employer as a nonemployee shall be fined $25,000 for each violation"); the separate § 108.221 / 2009 Wis. Act 292 misclassification penalty is not in the archive -- see the "Not yet confirmed:" paragraph in Sources.  _(Wis. Stat. § 71.64(6); Wis. Stat. § 108.221)_
 
 ## 8. Worker Classification -- The Wisconsin 9-Factor Test
 
@@ -242,7 +236,7 @@ AUDIT FLASH POINT -- Contractor 9-Factor Test. Wisconsin DWD has aggressively pu
 
 ### 8.4 The Wisconsin DOR Test (Income Tax Withholding)
 
-- **DOR uses federal common-law test for withholding** -- For Wisconsin income tax withholding purposes (Wis. Stat. § 71.63(2)), Wisconsin uses the federal common-law test by reference. So a worker classified as a federal contractor (1099-NEC) is also a contractor for Wisconsin withholding -- no WT-4 collection, no withholding, but issue a 1099-NEC. This creates a third-axis disconnect: a worker can simultaneously be a federal contractor (no W-2), a Wisconsin income-tax contractor (no WT-4), but a Wisconsin UI employee (pay UI on their wages). This is administrable but requires careful payroll-system configuration.  _(Wis. Stat. § 71.63(2))_ (not yet confirmed)
+- **DOR uses federal common-law test for withholding** -- For Wisconsin income tax withholding purposes (Wis. Stat. § 71.63(2)), Wisconsin uses the federal common-law test by reference. So a worker classified as a federal contractor (1099-NEC) is also a contractor for Wisconsin withholding -- no WT-4 collection, no withholding, but issue a 1099-NEC. This creates a third-axis disconnect: a worker can simultaneously be a federal contractor (no W-2), a Wisconsin income-tax contractor (no WT-4), but a Wisconsin UI employee (pay UI on their wages). This is administrable but requires careful payroll-system configuration. The § 71.63(2) federal-test reference is not in the archived text (archived s. 71.63 is "Definitions") -- see the "Not yet confirmed:" paragraph in Sources.  _(Wis. Stat. § 71.63(2))_
 
 ## 9. Milwaukee Local Paid Sick Leave
 
@@ -277,8 +271,8 @@ AUDIT FLASH POINT -- Milwaukee Local Stacking. Multiple stacking scenarios creat
 
 ### 10.4 Minimum Wage
 
-- **Wisconsin minimum wage** -- $7.25/hour (matches federal; Wisconsin does not have a separate higher state minimum wage)  _(Wis. Stat. § 104.035)_ (not yet confirmed)
-- **Tipped minimum wage** -- $2.33/hour (employer makes up the difference if tips don't fill the gap)  _(Wis. Stat. § 104.035)_ (not yet confirmed)
+- **Wisconsin minimum wage** -- matches the federal floor; Wisconsin has no separate higher state minimum (figure see the "Not yet confirmed:" paragraph in Sources)  _(Wis. Stat. § 104.035)_
+- **Tipped minimum wage** -- a lower tipped rate applies, with the employer making up the difference (figure see the "Not yet confirmed:" paragraph in Sources)  _(Wis. Stat. § 104.035)_
 - **Local minimum wage preemption** -- Local minimum wages: Wisconsin preempts local minimum wage ordinances under Wis. Stat. § 104.001 -- so cities cannot set higher minimums. (This preemption is distinct from the paid-sick-leave preemption discussed in Section 9 and remains in effect.)  _(Wis. Stat. § 104.001)_
 
 ### 10.5 Wage Statement Requirements
@@ -289,39 +283,35 @@ AUDIT FLASH POINT -- Milwaukee Local Stacking. Multiple stacking scenarios creat
 
 ### 11.1 Example A -- Pure Wisconsin Employer
 
-**Facts:** Bratwurst & Sons, LLC is a Madison-based small manufacturer with 8 employees, all Wisconsin residents working solely in Madison. Annual payroll is $420,000. The company was formed in 2024 (new employer). One employee (Sarah) earns $52,000/year; another (James) earns $28,000/year. (not yet confirmed)
+**Facts (hypothetical):** Bratwurst & Sons, LLC is a Madison-based small manufacturer with 8 employees, all Wisconsin residents working solely in Madison. Annual payroll is $420,000. The company was formed in 2024 (new employer). One employee (Sarah) earns $52,000/year; another (James) earns $28,000/year.
 
 **Wisconsin PIT withholding for Sarah (single, claims 1 allowance on WT-4):**
 
-- Annual Wisconsin taxable wages: $52,000 − $13,560 (standard deduction baked into wage-bracket method) − $700 (1 allowance) = effectively $37,740 in computational taxable income for the wage-bracket method. (not yet confirmed)
-- Apply bracket:
-  - 3.50% × $14,680 = $513.80 (not yet confirmed)
-  - 4.40% × ($29,370 − $14,680) = 4.40% × $14,690 = $646.36 (not yet confirmed)
-  - 5.30% × ($37,740 − $29,370) = 5.30% × $8,370 = $443.61 (not yet confirmed)
-  - Subtotal annual WI PIT: $1,603.77 (not yet confirmed)
-- Biweekly withholding (26 pay periods): $1,603.77 / 26 = **$61.68 per pay period**. (not yet confirmed)
+- Annual Wisconsin taxable wages: $52,000 − $13,560 (WT-4 standard-deduction figure -- see the "Not yet confirmed:" paragraph in Sources) − $700 (1 allowance; US-WI-dr-wis-stat-ch71.txt s. 71.05(23)) = effectively $37,740 in computational taxable income for the wage-bracket method.
+- Apply brackets (US-WI-dr-wis-stat-ch71.txt, s. 71.06(1r): 3.50% to $14,680; 4.40% $14,681–$50,480):
+  - 3.50% × $14,680 = $513.80
+  - 4.40% × ($37,740 − $14,680) = 4.40% × $23,060 = $1,014.64
+  - Subtotal annual WI PIT: $1,528.44
+- Biweekly withholding (26 pay periods): $1,528.44 / 26 = **$58.79 per pay period**.
 
 **Wisconsin UI for the company (new employer, non-construction):**
 
-- New employer rate: 3.05% (not yet confirmed)
-- Wage base: $14,000 per employee (not yet confirmed)
-- Sarah's UI subject wages (annual): min($52,000, $14,000) = $14,000 (not yet confirmed)
-- Sarah's annual UI: $14,000 × 3.05% = **$427.00** (not yet confirmed)
-- James's UI subject wages (annual): min($28,000, $14,000) = $14,000 (not yet confirmed)
-- James's annual UI: $14,000 × 3.05% = **$427.00** (not yet confirmed)
-- Total UI for these two employees: $854.00 (not yet confirmed)
+- New employer rate and wage base: apply the new-employer rate (see the "Not yet confirmed:" paragraph in Sources) to wages up to the UI taxable wage base per employee (see the "Not yet confirmed:" paragraph in Sources).
+- Sarah's UI subject wages (annual): capped at the wage base; Sarah's annual UI = wage base × new-employer rate.
+- James's UI subject wages (annual): capped at the wage base; James's annual UI = wage base × new-employer rate.
+- Total UI for these two employees: twice the per-employee figure above.
 
-**WT-6 filing frequency:** Based on $420,000 payroll and approximately $11,500–$13,000 expected annual Wisconsin withholding (assuming roughly 3% effective rate after deductions), the company is in the > $5,000 bracket = **semi-monthly filer**. As a new employer it starts as quarterly but DOR will reassign after the first full calendar year. (not yet confirmed)
+**WT-6 filing frequency:** Based on $420,000 payroll and approximately $11,500–$13,000 expected annual Wisconsin withholding (assuming roughly 3% effective rate after deductions), the company falls in the $2,401–$20,000/year band = **monthly filer** (US-WI-Filing-Frequency-Changes.aspx.html: "Monthly $2,401 - $20,000/year"). As a new employer it starts at a starter frequency but DOR will reassign after the first full calendar year (see the "Not yet confirmed:" paragraph in Sources).
 
 **Form WT-7 due:** January 31, 2026 with all eight W-2s attached. UI UCT-101 due quarterly.
 
 ### 11.2 Reciprocity note -- Wisconsin-IL border employee (not a numbered worked example)
 
-A Wisconsin employer with an Illinois-resident commuter who performs 100% of services in Wisconsin applies the WI-IL reciprocity agreement: the employee files Form W-220, the employer suspends Wisconsin income tax withholding and withholds Illinois income tax instead (W-2 reports Illinois wages/withholding, no Wisconsin line), and the employee files IL-1040 with no Wisconsin return. Unemployment insurance and workers' compensation do NOT follow reciprocity: services localized in Wisconsin keep Wisconsin UI and Wisconsin workers' comp coverage. Flash point: W-220 expires each January 1 -- if not re-collected, the employer must resume Wisconsin withholding on January 1, and any over-withheld tax before a new W-220 is only refundable by the employee filing a Wisconsin nonresident return. Payroll systems that force a single 'state' field break this income-tax-state vs UI-state split. (Figures for this scenario are not yet confirmed against archived sources.)
+A Wisconsin employer with an Illinois-resident commuter who performs 100% of services in Wisconsin applies the WI-IL reciprocity agreement: the employee files Form W-220, the employer suspends Wisconsin income tax withholding and withholds Illinois income tax instead (W-2 reports Illinois wages/withholding, no Wisconsin line), and the employee files IL-1040 with no Wisconsin return. Unemployment insurance and workers' compensation do NOT follow reciprocity: services localized in Wisconsin keep Wisconsin UI and Wisconsin workers' comp coverage. Flash point: W-220 expires each January 1 -- if not re-collected, the employer must resume Wisconsin withholding on January 1, and any over-withheld tax before a new W-220 is only refundable by the employee filing a Wisconsin nonresident return. Payroll systems that force a single 'state' field break this income-tax-state vs UI-state split. (Figures for this scenario are in the "Not yet confirmed:" paragraph in Sources.)
 
 ### 11.3 Example C -- Contractor Classification Audit
 
-**Facts:** Lakefront Web Design LLC (Milwaukee-based, 4 employees on W-2) engages Maya, a freelance graphic designer in Madison, to produce 10 logos per year on a contract basis. Lakefront pays Maya $48,000/year on a 1099-NEC. Maya works from her own home studio, uses her own laptop and software, and has 5 other clients. She advertises on Instagram and a personal portfolio site. The contract specifies she is responsible for delivering each logo and reworks any client doesn't approve at no extra charge. (not yet confirmed)
+**Facts (hypothetical):** Lakefront Web Design LLC (Milwaukee-based, 4 employees on W-2) engages Maya, a freelance graphic designer in Madison, to produce 10 logos per year on a contract basis. Lakefront pays Maya $48,000/year on a 1099-NEC. Maya works from her own home studio, uses her own laptop and software, and has 5 other clients. She advertises on Instagram and a personal portfolio site. The contract specifies she is responsible for delivering each logo and reworks any client doesn't approve at no extra charge.
 
 **Federal classification:** Maya is an independent contractor under IRS common-law (behavioral, financial, type of relationship control factors all favor contractor status). Issue 1099-NEC.
 
@@ -340,37 +330,37 @@ Part B (need 6 of 9):
 | 3 | Multiple contracts | YES -- 5 other clients ✓ |
 | 4 | Incurs main expenses | YES -- software licenses, computer, home studio ✓ |
 | 5 | Responsible for satisfactory completion | YES -- contract specifies rework obligation ✓ |
-| 6 | Compensation per-job, commission, or bid | YES -- $4,800 per logo, per-job basis ✓ | (not yet confirmed)
+| 6 | Compensation per-job, commission, or bid | YES -- $4,800 per logo, per-job basis ✓ |
 | 7 | May realize profit or suffer loss | YES -- fixed-price contracts can be unprofitable ✓ |
 | 8 | Recurring business liabilities | YES -- software subscriptions, hosting, business insurance ✓ |
 | 9 | Success depends on receipts vs expenditures | YES -- Maya runs a profit/loss business ✓ |
 
-Result: 9 of 9 factors satisfied -- Maya is correctly classified as a contractor for Wisconsin UI purposes. No UI tax due on Maya's $48,000. (not yet confirmed)
+Result: 9 of 9 factors satisfied -- Maya is correctly classified as a contractor for Wisconsin UI purposes (the § 108.02(12)(bm) test text itself is not archived -- see the "Not yet confirmed:" paragraph in Sources). No UI tax due on Maya's $48,000.
 
-**Wisconsin Workers' Compensation classification (separate 9-factor test):** Apply Wis. Stat. § 102.07(8). Similar analysis yields the same result -- Maya is a contractor for WC purposes. No WC coverage required. (not yet confirmed)
+**Wisconsin Workers' Compensation classification (separate 9-factor test):** Apply Wis. Stat. § 102.07(8) (test text not archived -- see the "Not yet confirmed:" paragraph in Sources). Similar analysis yields the same result -- Maya is a contractor for WC purposes. No WC coverage required.
 
 **Wisconsin income tax withholding:** Federal common-law applies -- Maya is a contractor, so no WT-4, no withholding, no W-2. Issue 1099-NEC with Wisconsin filing through WT-7 e-file.
 
 **Milwaukee paid sick leave:** Not applicable to contractors. Maya is excluded from the Milwaukee ordinance because she is not an "employee" performing work in Milwaukee.
 
-**Contrast -- borderline scenario:** If Maya instead worked 40 hours/week exclusively for Lakefront, had no other clients, used Lakefront's design software accessed via Lakefront-provided credentials, and was paid hourly, she would fail Part A (control) and likely fewer than 6 Part B factors. Classification would flip to employee -- even though many such workers are wrongly issued 1099-NEC. Penalty exposure under § 108.221: up to $25,000 per misclassified worker, plus back UI tax for the open audit period (3 years generally; 6 years if substantial under-reporting). (not yet confirmed)
+**Contrast -- borderline scenario:** If Maya instead worked 40 hours/week exclusively for Lakefront, had no other clients, used Lakefront's design software accessed via Lakefront-provided credentials, and was paid hourly, she would fail Part A (control) and likely fewer than 6 Part B factors. Classification would flip to employee -- even though many such workers are wrongly issued 1099-NEC. Penalty exposure under § 108.221: up to $25,000 per misclassified worker (the archived analogue is the s. 71.64(6) "fined $25,000 for each violation" construction-contractor misclassification fine, US-WI-dr-wis-stat-ch71.txt; the § 108.221 figure and the 3-year/6-year audit-period limits see the "Not yet confirmed:" paragraph in Sources), plus back UI tax for the open audit period.
 
 ### 12. Provenance and Sources
 
 Primary authority cited in this skill:
 
 - **Wisconsin Statutes:**
-  - Ch. 71 (Income Taxation) -- §§ 71.05, 71.06, 71.07, 71.63, 71.64, 71.65, 71.82, 71.83 (not yet confirmed)
-  - Ch. 102 (Workers' Compensation) -- §§ 102.04, 102.07 (not yet confirmed)
-  - Ch. 103 (Employment Regulations) -- § 103.10 (not yet confirmed)
+  - Ch. 71 (Income Taxation) -- §§ 71.05, 71.06, 71.63, 71.64, 71.65, 71.82, 71.83 archived in full text (US-WI-dr-wis-stat-ch71.txt); § 71.07 cited in that text
+  - Ch. 102 (Workers' Compensation) -- §§ 102.04, 102.07 (not archived; see the "Not yet confirmed:" paragraph in Sources)
+  - Ch. 103 (Employment Regulations) -- § 103.10 (not archived; see the "Not yet confirmed:" paragraph in Sources)
   - Ch. 104 (Minimum Wage) -- §§ 104.001, 104.035
-  - Ch. 108 (Unemployment Insurance) -- §§ 108.02, 108.18, 108.22, 108.221, 108.24
-  - Ch. 109 (Wage Payments) -- §§ 109.03, 109.09, 109.11 (not yet confirmed)
-  - § 49.22 (New Hire Reporting) (not yet confirmed)
+  - Ch. 108 (Unemployment Insurance) -- §§ 108.02, 108.18, 108.22, 108.221, 108.24 (archived US-WI-108.html is the ch. 108 table of contents only -- section text not archived)
+  - Ch. 109 (Wage Payments) -- §§ 109.03, 109.09, 109.11 (not archived; see the "Not yet confirmed:" paragraph in Sources)
+  - § 49.22 (New Hire Reporting) (not archived; see the "Not yet confirmed:" paragraph in Sources)
 
 - **Wisconsin Administrative Code:**
-  - Tax 2.04 (Withholding Deposit Frequency) (not yet confirmed)
-  - Tax 2.93 (WT-4 Submission) (not yet confirmed)
+  - Tax 2.04 (Withholding Deposit Frequency) (not archived; see the "Not yet confirmed:" paragraph in Sources)
+  - Tax 2.93 (WT-4 Submission) (not archived; cross-referenced in US-WI-dr-wis-stat-ch71.txt as "See also s. Tax 2.935, Wis. adm. code")
   - DWD 110 (Unemployment Compensation E-Filing)
 
 - **Wisconsin DOR Publications (2025):**
@@ -438,43 +428,47 @@ the OpenAccountants network.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: the following figures in this skill lack an archived source and are carried here for reviewer verification -- the WT-4 worksheet standard-deduction amounts and phase-out AGIs ($13,560 single / $128,665; $25,110 MFJ / $150,840; $11,930 MFS / $71,605; $17,510 HOH); the supplemental-wage flat withholding rate (7.65%); the federal pre-TCJA $4,300 allowance comparison; the WT-4 default-withholding rule and Tax 2.93(2)/(2m) mechanics with the $50-per-certificate penalty under § 71.83(1)(b)4; the new-employer starter frequency; the next-business-day roll-over rule (§ 990.001(4)); the e-file mandate at $300 of withholding (§ 71.65(3)(d)); the "50% fraud penalty" figure; the reciprocal states' own statutes (IL 35 ILCS 5/302, IN 6-3-5-1, KRS 141.070, MCL 206.256) and the W-220 forms; the UI coverage triggers ($1,500 quarterly wages, 20 weeks, $20,000 agricultural, $1,000 domestic); the UI taxable wage base ($14,000, unchanged since 2013); the 2025 Schedule D rate grid (0.00%-12.00% by reserve ratio, small ≤$500K vs large >$500K columns, trust fund $1.2B-$1.4B); new-employer rates 3.05% non-construction / 2.90% construction; solvency tax 0.00% for 2025; the UCT-101 Apr 30 / Jul 31 / Oct 31 / Jan 31 calendar and the 25-worker e-file mandate (DWD 110.04); UI late-filing $50 minimum and 0.75%/month compounded interest; the § 108.221 / 2009 Wis. Act 292 misclassification penalty up to $25,000 per worker; the nine-factor UI test text (§ 108.02(12)(bm)) and WC test text (§ 102.07(8)); the § 71.63(2) federal common-law test reference; minimum wage $7.25 and tipped $2.33; WC coverage triggers (§ 102.04, 3+ workers / $500 quarterly); final-pay and wage-statement rules (§§ 109.03, 109.09, 109.11); new-hire reporting deadlines and penalties (§ 49.22); the Milwaukee sick-leave ordinance and its litigation status; the 2023 Wis. Act 1 attribution, the DOR late-2024 indexing announcement, and Pub 117/166/121; and the 3-year/6-year UI audit-period limits.
 
+Archived sources now backing body figures: US-WI-dr-wis-stat-ch71.txt (s. 71.06 bracket tables; s. 71.05(23) $700/$250 exemptions; s. 71.05(2) nonresident reciprocity and s. 71.10(7)/(7e) MN/IL reciprocity machinery; ss. 71.64-71.65 withholding and deposit timing; s. 71.82 interest; s. 71.83 penalties incl. the s. 71.64(6) $25,000 misclassification fine) and US-WI-Filing-Frequency-Changes.aspx.html (withholding filing-frequency bands).
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| Wis. Stat. ch. 71 (full text) | archived as US-WI-dr-wis-stat-ch71.txt | 2026-11-01 |
+| DOR Annual Filing Frequency Scan | archived as US-WI-Filing-Frequency-Changes.aspx.html | 2026-11-01 |
+| Wis. Stat. ch. 108 (TOC only) | archived as US-WI-108.html | 2026-11-01 |
+| DWD Employer Unemployment Resources | archived as US-WI-uitax.html | 2026-11-01 |
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.

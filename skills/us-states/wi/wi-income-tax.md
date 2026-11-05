@@ -40,7 +40,7 @@ Not yet confirmed: figures in this skill lack archived line-citations. For 2026,
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see the "Not yet confirmed:" paragraph below) | -- | 2026-10-28 |
 
 **Sources table**
 
@@ -98,7 +98,7 @@ All three bracket tables above are verbatim-backed by the archived statute text 
 | Married filing separately | $12,630 | Phases out as income rises |
 | Head of household | $18,220 | Phases out as income rises |
 
-The 2025 maximum standard-deduction amounts in this table are not in the archived sources (see Not yet confirmed in Sources).
+The 2025 maximum standard-deduction amounts in this table are not in the archived sources (see the "Not yet confirmed:" paragraph in Sources).
 
 The Wisconsin standard deduction is reduced as income increases. At high income levels, the standard deduction can be reduced to $0. The exact phase-out formula is published annually in the Form 1 instructions.
 
@@ -121,11 +121,11 @@ Exemption amounts are verbatim-backed by US-WI-dr-wis-stat-ch71.txt (s. 71.05(23
 
 | Item | Amount | Source |
 | --- | --- | --- |
-| Filing deadline | April 15 | Wis. Stat. §71.03(8) (see Not yet confirmed in Sources) |
-| Extension | October 15 (automatic with federal) | Wis. Stat. §71.03(8)(b) (see Not yet confirmed in Sources) |
-| Estimated tax threshold | $500 expected liability | Wis. Stat. §71.09 (see Not yet confirmed in Sources) |
+| Filing deadline | April 15 | Wis. Stat. §71.03(8) (see the "Not yet confirmed:" paragraph in Sources) |
+| Extension | October 15 (automatic with federal) | Wis. Stat. §71.03(8)(b) (see the "Not yet confirmed:" paragraph in Sources) |
+| Estimated tax threshold | $500 expected liability | Wis. Stat. §71.09 (see the "Not yet confirmed:" paragraph in Sources) |
 | State sales tax rate | 5% | US-WI-pb240.txt: sec. 77.52(1)(d), Wis. Stats., "A tax is imposed on all retailers at the rate of 5 percent" |
-| County sales tax | 0.5% (most counties) | Wis. Stat. §77.70 (see Not yet confirmed in Sources) |
+| County sales tax | 0.5% (most counties) | Wis. Stat. §77.70 (see the "Not yet confirmed:" paragraph in Sources) |
 
 ## Section 3: How this skill works with the federal return
 
@@ -170,18 +170,18 @@ Wisconsin starts from **federal adjusted gross income (AGI)** -- Form 1040, Line
 
 ### Estimated tax payments
 
-- **Estimated tax payments requirement** -- Required if expected Wisconsin tax after withholding and credits exceeds $500 (see Not yet confirmed in Sources). Due dates: April 15, June 15, September 15, January 15 (US-WI-dr-wis-stat-ch71.txt: s. 71.09(12) "INSTALLMENT DUE DATES. Taxpayers shall make estimated payments in 4 installments, on or before the 15th day of each of the following months" -- 4th, 6th, 9th month and first month of the following year). Form 1-ES (voucher).
+- **Estimated tax payments requirement** -- Required if expected Wisconsin tax after withholding and credits exceeds $500 (see the "Not yet confirmed:" paragraph in Sources). Due dates: April 15, June 15, September 15, January 15 (US-WI-dr-wis-stat-ch71.txt: s. 71.09(12) "INSTALLMENT DUE DATES. Taxpayers shall make estimated payments in 4 installments, on or before the 15th day of each of the following months" -- 4th, 6th, 9th month and first month of the following year). Form 1-ES (voucher).
 
 ## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WI-1] Tax computation** -- Apply the graduated rate schedule (brackets cited above from US-WI-dr-wis-stat-ch71.txt) to Wisconsin taxable income based on filing status. Use Wisconsin tax tables (for taxable income under $100,000 -- see Not yet confirmed in Sources) or rate schedules (for $100,000+).  _(T1-WI-1)_
+- **[T1-WI-1] Tax computation** -- Apply the graduated rate schedule (brackets cited above from US-WI-dr-wis-stat-ch71.txt) to Wisconsin taxable income based on filing status. Use Wisconsin tax tables (for taxable income under $100,000 -- see the "Not yet confirmed:" paragraph in Sources) or rate schedules (for $100,000+).  _(T1-WI-1)_
 - **[T1-WI-2] Starting point** -- Begin with federal adjusted gross income from Form 1040, Line 11. Enter on Wisconsin Form 1, Line 1.  _(T1-WI-2)_
 - **[T1-WI-3] Wisconsin additions (Schedule AD)** -- Common additions for self-employed: - State/local income tax refund (if deducted federally in prior year) - Wisconsin does not conform to federal bonus depreciation §168(k) -- add back the difference between federal and Wisconsin depreciation (Section 179 is generally allowed) - Certain capital gain exclusions claimed federally but not recognized by WI  _(T1-WI-3)_
-- **[T1-WI-4] Wisconsin subtractions (Schedule SB)** -- Common subtractions: - Interest from US government obligations (Treasury bonds) - Retirement income subtraction (age 67+, up to $24,000 per Act 15) - Net operating loss differences (Wisconsin has its own NOL rules) - College savings account (EdVest/Tomorrow's Scholar) contributions -- up to $5,130 per beneficiary (see Not yet confirmed in Sources)  _(T1-WI-4)_
+- **[T1-WI-4] Wisconsin subtractions (Schedule SB)** -- Common subtractions: - Interest from US government obligations (Treasury bonds) - Retirement income subtraction (age 67+, up to $24,000 per Act 15) - Net operating loss differences (Wisconsin has its own NOL rules) - College savings account (EdVest/Tomorrow's Scholar) contributions -- up to $5,130 per beneficiary (see the "Not yet confirmed:" paragraph in Sources)  _(T1-WI-4)_
 - **[T1-WI-5] Standard deduction computation** -- Wisconsin uses a sliding-scale standard deduction that decreases as income rises. The deduction amount is calculated using tables in the Form 1 instructions. High-income self-employed individuals may receive $0 standard deduction.  _(T1-WI-5)_
-- **[T1-WI-6] Filing due date** -- April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension is obtained; file Form 1 by October 15 but pay by April 15). Both dates see Not yet confirmed in Sources.  _(T1-WI-6)_
-- **[T1-WI-7] Estimated tax payments** -- Required if expected liability exceeds $500 (see Not yet confirmed in Sources). Due dates: April 15, June 15, September 15, January 15 (US-WI-dr-wis-stat-ch71.txt: s. 71.09(12) installment due dates). Use Form 1-ES. Underpayment penalty applies if <90% of current year or <100% of prior year liability paid timely (see Not yet confirmed in Sources).  _(T1-WI-7)_
-- **[T1-WI-8] Wisconsin Earned Income Credit** -- Varies by number of children: - 1 qualifying child: 4% of federal EIC - 2 qualifying children: 11% of federal EIC - 3+ qualifying children: 34% of federal EIC - No children: not eligible for WI EIC Partially refundable. Percentages see Not yet confirmed in Sources.  _(T1-WI-8)_
+- **[T1-WI-6] Filing due date** -- April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension is obtained; file Form 1 by October 15 but pay by April 15). Both dates see the "Not yet confirmed:" paragraph in Sources.  _(T1-WI-6)_
+- **[T1-WI-7] Estimated tax payments** -- Required if expected liability exceeds $500 (see the "Not yet confirmed:" paragraph in Sources). Due dates: April 15, June 15, September 15, January 15 (US-WI-dr-wis-stat-ch71.txt: s. 71.09(12) installment due dates). Use Form 1-ES. Underpayment penalty applies if <90% of current year or <100% of prior year liability paid timely (see the "Not yet confirmed:" paragraph in Sources).  _(T1-WI-7)_
+- **[T1-WI-8] Wisconsin Earned Income Credit** -- Varies by number of children: - 1 qualifying child: 4% of federal EIC - 2 qualifying children: 11% of federal EIC - 3+ qualifying children: 34% of federal EIC - No children: not eligible for WI EIC Partially refundable. Percentages see the "Not yet confirmed:" paragraph in Sources.  _(T1-WI-8)_
 
 ## Section 6: Tier 2 rules -- requires judgment
 
@@ -274,35 +274,35 @@ the OpenAccountants network.
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Sources
 
@@ -315,4 +315,4 @@ Not yet confirmed: the 7.65% top marginal rate and the bracket figures are now t
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.

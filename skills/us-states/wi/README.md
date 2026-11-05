@@ -52,7 +52,7 @@ Wisconsin's entity-level tax is a **franchise tax measured by income** (Wis. Sta
 - [2025 Form 4 instructions (IC-100)](https://www.revenue.wi.gov/TaxForms2025/2025-Form4-inst.pdf) -- PDF read 2026-10-27 (7.9% rate, ED surcharge 3%/$25/$9,800, combined tests, P.L. 86-272, 18% interest, single sales factor)
 - [2025 Form 1NPR instructions](https://www.revenue.wi.gov/TaxForms2025/2025-Form1NPR-inst.pdf) -- PDF read 2026-10-27 (WI-source rules, IL/IN/KY/MI exceptions, credit for tax paid to another state)
 - [Wis. Stat. ch. 71 §§ 71.21/71.26](https://docs.legis.wisconsin.gov/statutes/statutes/71/21) -- read 2026-10-27 (US-WI-dr-wis-stat-ch71.txt: ch. 71 table of contents lists "71.21 Computation." and "71.26 Income computation.")
-- `wi-payroll` (tier 2, read 2026-07-13) -- UI UCT-101 calendar, penalties, MN reciprocity per statute (see Not yet confirmed in Sources)
+- `wi-payroll` (tier 2, read 2026-07-13) -- UI UCT-101 calendar, penalties, MN reciprocity per statute (see the "Not yet confirmed:" paragraph in Sources)
 
 ## Sources
 

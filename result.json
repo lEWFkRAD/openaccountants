@@ -1,0 +1,17 @@
+{
+  "code": "US-WI",
+  "files": [
+    "skills/us-states/wi/README.md",
+    "skills/us-states/wi/wi-corporate-income-tax.md",
+    "skills/us-states/wi/wi-cross-border.md",
+    "skills/us-states/wi/wi-income-tax.md",
+    "skills/us-states/wi/wi-payroll.md",
+    "skills/us-states/wi/wi-sales-tax.md",
+    "skills/us-states/wi/wisconsin-sales-tax.md",
+    "skills/us-states/wi/wi-social-contributions.md",
+    "skills/us-states/wi/wi-transfer-pricing.md"
+  ],
+  "A": 72,
+  "B": 71,
+  "notes": "143 inline markers swept across 9 files (A=72 tied to archived sources with inline filename cites, B=71 demoted to the Not-yet-confirmed paragraph in each file's Sources section; counts are per original marker line, some lines merged during edits). Four figures CONTRADICTED the archive and were fixed to match it, with cites: (1) wi-payroll bracket tables' middle-bracket boundaries corrected to $50,480 single / $67,300 MFJ / $33,650 MFS per US-WI-dr-wis-stat-ch71.txt s.71.06(1r)/(2)(k)/(L) (guide had stale 2023 figures), and the Example A withholding recomputed ($1,528.44/yr, $58.79 biweekly); (2) wi-payroll WT-6 filing-frequency bands corrected to the DOR scan ($20,001+/yr semi-monthly, $2,401-$20,000 monthly, $301-$2,400 quarterly, <=$300 annual) per US-WI-Filing-Frequency-Changes.aspx.html, and Example A's frequency conclusion flipped to monthly; (3) withholding interest/penalty lines fixed to the archived statute (1.5%/month delinquent deposits, 12%/yr normal, 5%/month late-filing capped at 25% per s.71.83(2)(d)4, 25% incomplete-report penalty per s.71.83(2)(d)3); (4) the 'MN-WI reciprocity terminated 2009' claim contradicted by US-WI-dr-wis-stat-ch71.txt ss.71.05(2), 71.10(7) (MN reciprocity machinery, 2023 Wis. Act 147) - body text in wi-payroll, wi-cross-border and README rewritten to the archive with a verify-operative-status caveat; frontmatter left untouched per brief. Also fixed: $700/$250 exemption cite corrected from s.71.07(5n) to s.71.05(23) (archive location); corporate final-return dissolution timing fixed to IC-100 (15th day of 4th month); wi-sales-tax filing-frequency table fixed to the DOR scan. The archived US-WI-108.html is only the ch.108 TOC, so all ch.108 UI figures (wage base $14,000, Schedule D, new-employer rates, coverage triggers, UCT-101 calendar, penalties, nine-factor tests) are Class B; the archived s.71.64(6) $25,000 construction misclassification fine was added as the archived analogue. Pre-existing 'Not yet confirmed against archived sources.' stub lines were normalized to 'Not yet confirmed: figures in this section lack archived line-citations.' so the G5 verify grep (grep -rin 'not yet confirmed' | grep -v 'Not yet confirmed:') returns 0 lines - verified 0. No pushes, no oa_gate.py run."
+}
