@@ -127,10 +127,6 @@ Use Form 1-ES for estimated payments.
 
 - **Health insurance mandate** — Massachusetts has an individual health insurance mandate (separate from the ACA). Failure to maintain minimum creditable coverage may result in a penalty assessed on Form 1 (Schedule HC). This is relevant for self-employed individuals who must obtain their own coverage.
 
-## Penalties and interest
-
-Late filing and late payment penalties plus interest apply under M.G.L. c. 62C (the monthly penalty percentages are listed under Not yet confirmed); see the corporate-excise skill for the general c. 62C schedule.
-
 ## Cross-border points
 
 ### Starting point
@@ -152,6 +148,10 @@ Late filing and late payment penalties plus interest apply under M.G.L. c. 62C (
 ### Resulting computation
 
 - **Computation order** — Compute Part A, Part B, and Part C income separately → subtract applicable deductions and exemptions → apply the appropriate rate to each part → sum = Massachusetts gross tax → minus credits → plus 4% surtax if applicable.
+
+## Penalties and interest
+
+Late filing and late payment penalties plus interest apply under M.G.L. c. 62C (the monthly penalty percentages are listed under Not yet confirmed); see the corporate-excise skill for the general c. 62C schedule.
 
 ## Deadlines and filing
 

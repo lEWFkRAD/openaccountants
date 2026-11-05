@@ -185,14 +185,6 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 
 - **Section 382 conformity** — Massachusetts conforms to federal §382 limitations on NOLs after an ownership change.
 
-## Penalties and interest
-
-- **Late filing penalty** — 1% per month, max 25%  _(G.L. c. 62C §33(a))_
-- **Late payment penalty** — 1% per month, max 25%  _(§33(b))_
-- **Underpayment of estimated tax** — Computed on Form M-2220 (corporate) or Form M-2210 (individual). Interest rate is the federal short-term rate + 4% (set quarterly).
-- **Substantial understatement penalty** — 20% under G.L. c. 62C §35A for understatements exceeding 10% of tax or $1,000.  _(G.L. c. 62C §35A)_
-- **Fraud penalty** — 50% of underpayment.
-
 ## Cross-border points
 
 ### 11. Nexus
@@ -212,6 +204,14 @@ Financial institutions, insurance companies, mutual fund service corporations, d
 ### 11.3 Individual nexus — residency
 
 - **Residency tests** — Massachusetts residents are taxable on worldwide income. Residency tests: Domiciled in Massachusetts and not a non-resident for the entire year, or Statutory resident: maintaining a permanent place of abode in Massachusetts and spending more than 183 days in the Commonwealth during the year. For surtax purposes, residency is determined under the same standards.
+
+## Penalties and interest
+
+- **Late filing penalty** — 1% per month, max 25%  _(G.L. c. 62C §33(a))_
+- **Late payment penalty** — 1% per month, max 25%  _(§33(b))_
+- **Underpayment of estimated tax** — Computed on Form M-2220 (corporate) or Form M-2210 (individual). Interest rate is the federal short-term rate + 4% (set quarterly).
+- **Substantial understatement penalty** — 20% under G.L. c. 62C §35A for understatements exceeding 10% of tax or $1,000.  _(G.L. c. 62C §35A)_
+- **Fraud penalty** — 50% of underpayment.
 
 ## Deadlines and filing
 
