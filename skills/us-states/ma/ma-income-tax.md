@@ -244,7 +244,7 @@ Resident or part-year? Part A vs Part B vs Part C income mix? Above the surtax t
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| US-MA-dr-surtax.txt | https://www.mass.gov/info-details/additional-sur-tax-on-annual-taxable-income-in-excess-of-one-million-dollars | 2025 threshold $1,083,150; 2024 $1,053,750 |
+| US-MA-dr-surtax.txt | https://www.mass.gov/info-details/massachusetts-4-surtax-on-taxable-income | 2025 threshold $1,083,150; 2024 $1,053,750 |
 | US-MA-dr-form1-2025-instr-full.txt | https://www.mass.gov/doc/2025-form-1-instructions/download | exemptions, $8,000 threshold, rental deduction, quarterly dates |
 | US-MA-dr-c62-s4.txt | https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4 | 8.5 per cent short-term capital gains rate |
 
