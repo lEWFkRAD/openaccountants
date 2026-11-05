@@ -212,6 +212,8 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 
 ## Worked examples
 
+All figures in the examples below are hypothetical inputs and listed under Not yet confirmed in Sources.
+
 ### EC1 -- SaaS Taxable in Vermont [T2]
 
 **Situation:** A California SaaS company sells subscriptions to Vermont businesses.
@@ -363,7 +365,7 @@ This skill and its outputs are provided for informational and computational purp
 | US-VT-dr-9771.html.txt (same section, second capture) | statute capture | 2026-11-04 | sources/US-VT-dr-9771.html.txt |
 | US-VT-dr-05822.html.txt (2025 income tax rate schedule, used by vt-income-tax) | rate schedule | 2026-11-04 | sources/US-VT-dr-05822.html.txt |
 
-Not yet confirmed: the neighboring-state comparison (NY/NH/MA grocery rules), the taxable-services list (telecommunications etc.), the 5% per month late-filing penalty (max 25%) and the interest rate; the 1% local option rate and its municipal adoption rules (the local-option statute chapter was not archived); the 7.00% maximum combined rate (arithmetic of the tied 6% plus the unarchived 1%); the SU-452 filing-frequency bands ($500/$100) and the 25th-of-following-month due date (no archived filing-frequency source); the meals-tax 9%+1% figures (the meals-and-rooms capture does not state them in machine-readable text).
+Not yet confirmed: every figure in the Worked examples (the EC1-EC8 situations and resolutions, including the Burlington 7% combined, the 6%/10% alcohol split, the season-pass and lodging figures, and the $1,000+ pass amounts); the neighboring-state comparison (NY/NH/MA grocery rules), the taxable-services list (telecommunications etc.), the 5% per month late-filing penalty (max 25%) and the interest rate; the 1% local option rate and its municipal adoption rules (the local-option statute chapter was not archived); the 7.00% maximum combined rate (arithmetic of the tied 6% plus the unarchived 1%); the SU-452 filing-frequency bands ($500/$100) and the 25th-of-following-month due date (no archived filing-frequency source); the meals-tax 9%+1% figures (the meals-and-rooms capture does not state them in machine-readable text).
 
 ## Talk to a verified accountant
 
