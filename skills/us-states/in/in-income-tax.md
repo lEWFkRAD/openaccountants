@@ -103,7 +103,7 @@ Sources: [Tax Payments FAQs](https://www.incometax.gov.in/iec/foportal/help/all-
 | Regime | Maximum rebate | Condition |
 | --- | --- | --- |
 | New | ₹60,000 | Resident individual; taxable income does not exceed ₹12,00,000 |
-| Old | ₹12,500 | Resident individual; taxable income does not exceed ₹5,00,000 (Not yet confirmed: India-guide figure; this body is the mis-published India guide, see the notice at the top) |
+| Old | ₹12,500 | Resident individual; taxable income does not exceed ₹5,00,000 (see the Not yet confirmed note at the top of this file; India-guide figure) |
 
 - The rebate is "up to 100% of income tax subject to a maximum limit", so at ₹12,00,000 the new-regime tax of ₹60,000 is fully rebated and tax is nil. With the ₹75,000 standard deduction, a salaried resident with no other income pays nil up to a gross salary of ₹12,75,000.
 - **Marginal relief just above ₹12,00,000 (new regime).** The portal's ITR validation rules for AY 2026-27 refuse the rebate where total income excluding LTCG is "more than Rs.12,70,590" ([ITR-1 validation rules](https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-05/CBDT_e-Filing_ITR%201_Validation%20Rules_AY%202026-27.pdf)). Between ₹12,00,000 and that point, tax payable is limited to the income above ₹12,00,000 (see worked case 3).

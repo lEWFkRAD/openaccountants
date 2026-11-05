@@ -64,7 +64,7 @@ non-incidental basis.
 
 - Indiana Code Title 6 (Taxation), Article 3 (Adjusted Gross Income Tax) — archived capture US-IN-ic6-3-1.html is a JS shell; see Not yet confirmed
 - Indiana Code Title 6, Article 3.6 (Local Income Taxes) – the modern
-  successor to the older CAGIT/COIT/CEDIT structure (Not yet confirmed: archived capture US-IN-ic6-8-1.html is a JS shell)
+  successor to the older CAGIT/COIT/CEDIT structure (listed under the Not yet confirmed line; archived capture US-IN-ic6-8-1.html is a JS shell)
 - Indiana Code Title 22, Article 4 (Unemployment Compensation System) — not archived; see Not yet confirmed
 - Indiana Code Title 22, Article 2 (Wages, Hours, and Benefits) — not archived; see Not yet confirmed
 - Indiana Department of Revenue (DOR) Departmental Notice #1 (effective
@@ -192,14 +192,14 @@ Mismatches commonly arise from:
 
 | County | County name (FIPS) | 2025 rate |
 | --- | --- | --- |
-| Marion | Indianapolis | 2.02% (Not yet confirmed) |
+| Marion | Indianapolis | 2.02% (see Not yet confirmed) |
 | Lake | Gary / Crown Point | 1.50% |
-| Allen | Fort Wayne | 1.59% (Not yet confirmed) |
+| Allen | Fort Wayne | 1.59% (see Not yet confirmed) |
 | Hamilton | Carmel / Fishers | 1.10% |
-| St. Joseph | South Bend | 1.75% (Not yet confirmed) |
+| St. Joseph | South Bend | 1.75% (see Not yet confirmed) |
 | Vanderburgh | Evansville | 1.20% |
 | Tippecanoe | Lafayette / Purdue | 1.10% |
-| Monroe | Bloomington / IU | 2.035% (Not yet confirmed) |
+| Monroe | Bloomington / IU | 2.035% (see Not yet confirmed) |
 | Porter | Valparaiso | 0.50% |
 | Vigo | Terre Haute | 2.00% |
 | Madison | Anderson | 2.25% |
