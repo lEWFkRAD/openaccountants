@@ -331,7 +331,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: the city/county local-rate table figures (the archived Q426 rate flyer table uses decimal form, e.g. King/Seattle 1726 .0405 .0650 .1055; percent-form rows were not re-verified line by line).
 
 
 | Source | URL | Read on |
