@@ -1,6 +1,6 @@
 ---
 name: or-payroll
-description: Tier 2 Oregon content skill for employer payroll compliance covering tax year 2026. Includes the OR PIT brackets up to 9.9%, supplemental wage rate 8.0%, OR-W-4 state withholding form, Form OQ quarterly combined withholding/UI return, OR UI wage base (not yet confirmed) (highest in US) with rates 0-5.4%, the Statewide Transit Tax 0.1% on all wages (no cap), TriMet 0.8237% employer payroll tax for Portland area, Lane Transit 0.79% for Eugene, the OR Paid Leave program 0.6% total split between employer (0.4%) and employee (0.2%), and WBF Workers' Benefit Fund assessment.
+description: Tier 2 Oregon content skill for employer payroll compliance covering tax year 2026. Includes the OR PIT brackets up to 9.9%, supplemental wage rate 8.0%, OR-W-4 state withholding form, Form OQ quarterly combined withholding/UI return, OR UI wage base $54,300 for 2025 (highest in the US) with rates 0.9%-5.4%, the Statewide Transit Tax 0.1% on all wages (no cap), TriMet 0.8237% employer payroll tax for Portland area, Lane Transit 0.80% for Eugene, the OR Paid Leave program 1.0% total split between employer (0.4%) and employee (0.6%), and WBF Workers' Benefit Fund assessment 1.8 cents per hour (2026).
 jurisdiction: US-OR
 tax_year: 2026
 last_updated: 2026-10-31
@@ -21,14 +21,14 @@ This skill is the authoritative Tier 2 content layer for Oregon employer payroll
 ### 1.1 What this skill covers
 
 - Oregon Personal Income Tax (PIT) withholding from wages -- brackets, supplemental wage rate, OR-W-4 employee certificate, Form OQ filing
-- Oregon Unemployment Insurance (UI) -- wage base $54,300 (the highest taxable UI wage base in the United States for 2025), rates 0.0%–5.4%, new-employer rate 2.4%
-- Statewide Transit Tax (STT) -- 0.1% of all Oregon wages, no wage base cap, applied to Oregon residents working anywhere and to non-residents performing services in Oregon (not yet confirmed)
+- Oregon Unemployment Insurance (UI) -- wage base $54,300 (the highest taxable UI wage base in the United States for 2025), rates 0.9%–5.4%, new-employer rate 2.4%
+- Statewide Transit Tax (STT) -- 0.1% of all Oregon wages, no wage base cap, applied to Oregon residents working anywhere and to non-residents performing services in Oregon (US-OR-dr-stt.txt: one-tenth of 1 percent or .001, enacted by HB 2017 (2017), ORS 320.550)
 - Local transit district employer payroll taxes:
-  - TriMet (Portland metropolitan area) -- 0.8237% employer + 0.13% employee (not yet confirmed)
-  - Lane Transit District (Eugene/Springfield) -- 0.79% employer (not yet confirmed)
-  - Salem Area Mass Transit District / Cherriots -- 0.0036 (0.36%) employer (not yet confirmed)
-- Oregon Paid Leave (Paid Leave Oregon) -- 0.6% total contribution, split 40/60 employer/employee for employers with 25+ employees, 12 weeks of paid family/medical/safe leave benefits (not yet confirmed)
-- Workers' Benefit Fund (WBF) assessment -- 0.66¢ per hour worked employer + 0.66¢ per hour worked employee (1.32¢ combined) (not yet confirmed)
+  - TriMet (Portland metropolitan area) -- 0.8237% employer (US-OR-dr-trimet-taxinfo.txt); employee 0.13% (see Not yet confirmed: list in Sources)
+  - Lane Transit District (Eugene/Springfield) -- 0.80% employer (US-OR-dr-oq-2026.txt: 'Lane Transit District (LTD) tax rate is 0.0080')
+  - Salem Area Mass Transit District / Cherriots -- employer payroll tax proposed from 2027 (US-OR-dr-cherriots-se.txt); the 0.36% rate is in Not yet confirmed: list in Sources
+- Oregon Paid Leave (Paid Leave Oregon) -- 1.0% total contribution, split 40/60 employer/employee for employers with 25+ employees, up to 12 weeks of paid family/medical/safe leave benefits (US-OR-dr-paidleave.txt: 'The total contribution rate for 2026 is 1% of gross wages up to $184,500'; US-OR-dr-lro-basic-facts-2026.pdf: up to 12 weeks in a 52-week period)
+- Workers' Benefit Fund (WBF) assessment -- 1.8 cents per hour worked (2026) (US-OR-dr-wbf.txt: 'In 2026, the WBF assessment is 1.8 cents per hour worked'); the 2025 0.66¢/0.66¢ split is in Not yet confirmed: list in Sources
 - Final-pay rule -- by end of next business day after termination by employer
 - Independent contractor classification -- the Oregon ABC test, codified by case law and adopted statutorily post-2020
 - Federal interactions -- Family and Medical Leave Act parity, Pay Equity Act 2019 implications for payroll
@@ -112,13 +112,13 @@ Employers may use the supplemental flat rate **or** the aggregate method that co
 
 ### 3.1 Wage base $54,300 for 2025
 
-- **Oregon 2025 taxable UI wage base** -- $54,300  _(ORS 657.435)_ (not yet confirmed)
+- **Oregon 2025 taxable UI wage base** -- $54,300  _(ORS 657.435)_ (US-OR-dr-ui-2026-pr.pdf: 'from $54,300 per employee in 2025 to $56,700'; US-OR-dr-lro-basic-facts-2026.pdf: 'the first $54,300 of wages paid to each employee')
 
-Oregon's 2025 taxable UI wage base is **$54,300**, the highest of any state. The wage base is set annually as 80% of the state average annual wage under ORS 657.435. For comparison: (not yet confirmed)
+Oregon's 2025 taxable UI wage base is **$54,300**, the highest of any state. The wage base is set annually as 80% of the state average annual wage under ORS 657.435 (US-OR-dr-ors657.txt: wages exclude amounts 'in excess of an amount obtained by multiplying the average annual wage for the second preceding calendar year by 0.80'). For comparison:
 
-- Oregon: $54,300 (not yet confirmed)
-- Washington: $72,800 (Note: WA is now slightly higher under 2024 law; check if interstate comparison required) (not yet confirmed)
-- Idaho: $55,300 (not yet confirmed)
+- Oregon: $54,300 (US-OR-dr-ui-2026-pr.pdf)
+- Washington: $72,800 for 2025, rising to $78,200 for 2026 (US-OR-dr-wa-ui-base.txt; note: WA's 2026 base exceeds Oregon's $56,700 2026 base)
+- Idaho: $55,300 (US-OR-dr-id-ui-report-2025.pdf: 'the taxable wage base for 2025 is $55,300')
 - Most other states: $7,000 – $20,000
 
 Implications:
@@ -128,27 +128,27 @@ Implications:
 
 ### 3.2 Rates 0.0% – 5.4%; new employer 2.4%
 
-- **Oregon UI experience rate range 2025** -- 0.0% – 5.4%
-- **Oregon UI new-employer rate 2025** -- 2.4%
+- **Oregon UI experience rate range 2025** -- 0.9% – 5.4% (US-OR-dr-ui-rates.txt: 'Taxable minimum rate: 0.9% Taxable maximum rate: 5.4%')
+- **Oregon UI new-employer rate 2025** -- 2.4% (US-OR-dr-ui-rates.txt: 'Taxable base tax rate: 2.4% (new employer rate)')
 
-Oregon uses an experience-rated system with rates ranging from 0.0% to 5.4% in 2025. The new-employer rate for 2025 is 2.4%. Rates are assigned annually based on the employer's reserve ratio (cumulative contributions minus benefits charged, divided by average annual taxable payroll).
+Oregon uses an experience-rated system with rates ranging from 0.9% to 5.4% in 2025 (US-OR-dr-ui-rates.txt). The new-employer rate for 2025 is 2.4%. Rates are assigned annually based on the employer's reserve ratio (cumulative contributions minus benefits charged, divided by average annual taxable payroll).
 
 Schedule D applies for 2025 (Oregon has eight rate schedules A–H; D is the midpoint). The schedule is set by the OED based on the trust fund balance ratio.
 
 ### 3.3 Employee count and Form OQ Schedule B
 
-- **Schedule B taxable/excess wage reporting** -- Schedule B of Form OQ reports each employee's wages, broken down between taxable (capped at $54,300 YTD) and excess (above the cap). UI tax is owed only on the taxable portion. (not yet confirmed)
+- **Schedule B taxable/excess wage reporting** -- Schedule B of Form OQ reports each employee's wages, broken down between taxable (capped at $54,300 YTD) and excess (above the cap). UI tax is owed only on the taxable portion (US-OR-dr-oq-2026.txt: 'Excess wages are wages ... above the taxable wage base for the year'; 'Taxable wages. Enter box 13a minus box 14a').
 
-> **AUDIT FLASH POINT:** Employers commonly miscompute the taxable/excess split when an employee changes employers mid-year. The $54,300 wage base is per-employer per-year, not per-employee per-year across employers. A new hire whose YTD wages with the prior employer already exceeded $54,300 still owes UI tax on the first $54,300 paid by the new employer. (not yet confirmed)
+> **AUDIT FLASH POINT:** Employers commonly miscompute the taxable/excess split when an employee changes employers mid-year. The $54,300 wage base is per-employer per-year, not per-employee per-year across employers. A new hire whose YTD wages with the prior employer already exceeded $54,300 still owes UI tax on the first $54,300 paid by the new employer (US-OR-dr-ors657.txt: the wage-base exclusion applies to remuneration received 'from each employer' per calendar year).
 
 ### 4. Statewide Transit Tax -- 0.1% with no cap
 
 ### 4.1 Mechanics
 
-- **Statewide Transit Tax rate** -- 0.1%  _(HB 2017 (2017); ORS 320.550)_ (not yet confirmed)
-- **STT wage base cap** -- There is no wage base cap. The 0.1% applies to every dollar of covered wages.  _(ORS 320.550)_ (not yet confirmed)
+- **Statewide Transit Tax rate** -- 0.1%  _(HB 2017 (2017); ORS 320.550)_ (US-OR-dr-stt.txt: 'one-tenth of 1 percent or .001')
+- **STT wage base cap** -- There is no wage base cap. The 0.1% applies to every dollar of covered wages.  _(ORS 320.550)_ (US-OR-dr-stt.txt: the tax is calculated on the employee's wages as defined in ORS 316.162, with no cap stated)
 
-The Statewide Transit Tax (STT), enacted under HB 2017 (2017) and codified at ORS 320.550, is a 0.1% payroll tax on: (not yet confirmed)
+The Statewide Transit Tax (STT), enacted under HB 2017 (2017) and codified at ORS 320.550, is a 0.1% payroll tax on (US-OR-dr-stt.txt):
 
 - All wages paid to Oregon residents (regardless of where work is performed)
 - All wages paid to non-residents for services performed **in** Oregon
@@ -171,13 +171,13 @@ The Statewide Transit Tax (STT), enacted under HB 2017 (2017) and codified at OR
 
 ### 5.1 TriMet -- 0.8237% employer + 0.13% employee (Portland)
 
-- **TriMet employer rate (2025)** -- 0.8237% (not yet confirmed)
-- **TriMet employee rate (2025)** -- 0.13%  _(OAR 150-267-0020)_ (not yet confirmed)
+- **TriMet employer rate (2025)** -- 0.8237% (US-OR-dr-trimet-taxinfo.txt: 'The transit tax rate is 0.8237%'; US-OR-dr-transit-211-503.pdf rate table: 0.008237 for 1/1/25-12/31/25 and 1/1/26 and beyond)
+- **TriMet employee rate (2025)** -- 0.13%  _(OAR 150-267-0020)_ (see Not yet confirmed: list in Sources)
 
 The TriMet (Tri-County Metropolitan Transportation District of Oregon) employer payroll tax applies to wages paid for services performed within the TriMet district, which encompasses most of Multnomah County, the urban portions of Washington County, and the urban portions of Clackamas County.
 
-- Employer rate (2025): 0.8237% of subject wages (not yet confirmed)
-- Employee rate (2025): 0.13% (this is the separate Paid Leave-style TriMet employee assessment; Note: some references treat the 0.13% as part of OR Paid Leave employee share -- treat as separate per OAR 150-267-0020 unless guidance updates) (not yet confirmed)
+- Employer rate (2025): 0.8237% of subject wages (US-OR-dr-trimet-taxinfo.txt)
+- Employee rate (2025): 0.13% (this is the separate TriMet employee assessment; Note: some references treat the 0.13% as part of OR Paid Leave employee share -- treat as separate per OAR 150-267-0020 unless guidance updates; see Not yet confirmed: list in Sources -- the archived TriMet page describes only the employer transit tax and the statewide 0.1% employee tax)
 - No wage base cap
 - Reported on Schedule TM of Form OQ
 
@@ -185,23 +185,23 @@ The TriMet rate is statutorily increased by 0.0001 (1 basis point) per year thro
 
 ### 5.2 Lane Transit District (LTD) -- 0.79% employer (Eugene/Springfield)
 
-- **Lane Transit District employer rate (2025)** -- 0.79% (not yet confirmed)
+- **Lane Transit District employer rate (2026)** -- 0.80% (US-OR-dr-oq-2026.txt: 'Lane Transit District (LTD) tax rate is 0.0080'); the 2025 rate of 0.79% is in Not yet confirmed: list in Sources
 
 The Lane Transit District employer payroll tax applies to wages paid for services performed within the LTD boundary, which covers most of Lane County including Eugene, Springfield, and surrounding communities.
 
-- Employer rate (2025): 0.79% of subject wages (not yet confirmed)
+- Employer rate (2026): 0.80% of subject wages (US-OR-dr-oq-2026.txt)
 - No wage base cap
 - Reported on Schedule LTD of Form OQ
 - Similar 0.0001 annual increase through 2026 under ORS 267.385
 
 ### 5.3 Salem Area Mass Transit District (Cherriots) -- 0.36%
 
-- **Cherriots employer rate** -- 0.36% (0.0036) (not yet confirmed)
+- **Cherriots employer rate** -- 0.36% (0.0036) (see Not yet confirmed: list in Sources; US-OR-dr-cherriots-se.txt describes an employer payroll tax starting in 2027 but gives no rate)
 - **Cherriots administration** -- Unlike TriMet and LTD, the Cherriots tax is administered locally rather than through Form OQ; the employer registers with and remits to Cherriots directly.
 
 ### 5.4 Sandy / Canby / South Clackamas / others
 
-Several smaller cities and special districts impose narrow employer payroll taxes (typically 0.5%–0.7%) for local transit. These are jurisdiction-by-jurisdiction and require boundary verification using the DOR's transit district lookup tool. (not yet confirmed)
+Several smaller cities and special districts impose narrow employer payroll taxes (typically 0.5%–0.7%; see Not yet confirmed: list in Sources) for local transit. These are jurisdiction-by-jurisdiction and require boundary verification using the DOR's transit district lookup tool.
 
 ### 5.5 District boundary determination
 
@@ -213,18 +213,18 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 ### 6.1 Program overview
 
-- **Paid Leave Oregon program overview** -- Paid Leave Oregon, enacted under HB 2005 (2019) and effective for benefits on September 3, 2023, provides up to 12 weeks of paid leave per benefit year (14 weeks for pregnancy-related conditions, with potential combined leave up to 16 weeks) for: - Family leave (bonding with a new child, caring for a family member with a serious health condition) - Medical leave (the employee's own serious health condition) - Safe leave (issues stemming from domestic violence, sexual assault, harassment, or stalking) Benefits are wage-replacement up to a maximum weekly benefit indexed to 120% of the state average weekly wage (approximately $1,568.60 per week in 2025). (not yet confirmed)
+- **Paid Leave Oregon program overview** -- Paid Leave Oregon, created by the 2019 Oregon Legislature (US-OR-dr-lro-basic-facts-2026.pdf: 'The 2019 Oregon Legislature created the Paid Leave Oregon (PLO) program'), provides up to 12 weeks of paid leave per benefit year, with an additional 2 weeks in some situations for a pregnant employee (US-OR-dr-lro-basic-facts-2026.pdf), for family, medical, or safe leave (same source: 'up to 12 weeks, in a 52-week period, for family, medical, or safe leave'). Benefits are wage-replacement limited to a maximum of 120% of the state average weekly wage (US-OR-dr-lro-basic-facts-2026.pdf). The September 3, 2023 benefits effective date, the 16-week combined leave ceiling, and the approximately $1,568.60 maximum weekly benefit for 2025 are in Not yet confirmed: list in Sources.
 
 ### 6.2 Contribution mechanics -- 0.6% total, split 40/60
 
-- **Paid Leave Oregon combined contribution rate (2025)** -- 1.0% (not yet confirmed)
+- **Paid Leave Oregon combined contribution rate (2025)** -- 1.0% (US-OR-dr-lro-basic-facts-2026.pdf: 'For 2025, the tax rate was set at 1%'; US-OR-dr-paidleave.txt: 2026 rate also 1%)
 - **25+ employees nationwide split** -- For employers with 25 or more employees nationwide: Employer share: 40% of the total (0.4% of wages); Employee share: 60% of the total (0.6% of wages, withheld from paychecks)
-- **Fewer than 25 employees nationwide** -- For employers with fewer than 25 employees nationwide: Employer share: $0 (exempt from employer portion); Employee share: 0.6% of wages (still withheld); Small employers may opt in to employer-portion participation to qualify for grants (not yet confirmed)
+- **Fewer than 25 employees nationwide** -- For employers with fewer than 25 employees nationwide: Employer share: $0 (exempt from employer portion); Employee share: 0.6% of wages (still withheld); Small employers may opt in to employer-portion participation to qualify for assistance grants (US-OR-dr-paidleave.txt: small employers 'don't pay the employer contribution to Paid Leave Oregon'; assistance grants for employers with fewer than 25 employees on average)
 - **25-employee count basis** -- The 25-employee count is a nationwide headcount, not Oregon-only. A California company with 30 employees and one Oregon remote worker is a "25+" employer for Paid Leave Oregon purposes.
 
 ### 6.3 Wage base cap
 
-- **Paid Leave Oregon contribution wage base cap** -- $176,100 for 2025 (Social Security wage base) (not yet confirmed)
+- **Paid Leave Oregon contribution wage base cap** -- $176,100 for 2025, $184,500 for 2026 (US-OR-dr-lro-basic-facts-2026.pdf: 'the wage limit was set at $176,100'; US-OR-dr-paidleave.txt: '1% of gross wages up to $184,500' for 2026)
 - **Wages above SS cap** -- Wages above the SS cap are not subject to Paid Leave contributions.
 
 ### 6.4 Filing
@@ -243,16 +243,17 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 ### 7.1 Mechanics
 
-- **WBF employer rate (2025)** -- $0.0066 per hour worked (0.66¢)  _(ORS 656.506)_ (not yet confirmed)
-- **WBF employee rate (2025)** -- $0.0066 per hour worked (0.66¢)  _(ORS 656.506)_ (not yet confirmed)
-- **WBF combined rate (2025)** -- $0.0132 per hour worked (1.32¢)  _(ORS 656.506)_ (not yet confirmed)
+- **WBF assessment (2026)** -- 1.8 cents per hour worked  _(ORS 656.506)_ (US-OR-dr-wbf.txt: 'In 2026, the WBF assessment is 1.8 cents per hour worked')
+- **WBF employer rate (2025)** -- $0.0066 per hour worked (0.66¢)  _(ORS 656.506)_ (see Not yet confirmed: list in Sources)
+- **WBF employee rate (2025)** -- $0.0066 per hour worked (0.66¢)  _(ORS 656.506)_ (see Not yet confirmed: list in Sources)
+- **WBF combined rate (2025)** -- $0.0132 per hour worked (1.32¢)  _(ORS 656.506)_ (see Not yet confirmed: list in Sources)
 - **WBF hours basis for salaried/part-time** -- Salaried employees: use 40 hours per week (or actual hours if tracked). Part-time employees: use actual hours.
 
 ### 7.2 Filing
 
 - **WBF filing** -- WBF assessment is reported on Form OQ alongside withholding, UI, and STT.
 
-> **AUDIT FLASH POINT:** WBF is computed per-hour, not per-dollar. A common mistake is to apply a 0.0066% rate to wages, which dramatically under-reports. The correct base is hours worked × $0.0066. (not yet confirmed)
+> **AUDIT FLASH POINT:** WBF is computed per-hour, not per-dollar. A common mistake is to apply a 0.0066% rate to wages, which dramatically under-reports. The correct base is hours worked × the per-hour assessment (US-OR-dr-wbf.txt: assessment is 'per hour worked'; US-OR-dr-oq-2026.txt: 'Determining WBF hours worked').
 
 ### 8. ABC test for independent contractor classification
 
@@ -275,7 +276,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 ## Penalties and interest
 
 - **Penalty wages under ORS 652.150** -- failure to pay final wages in full timely triggers penalty wages (detailed under Final pay rules above).
-- **Late filing/payment penalties** -- Oregon imposes late-filing and late-payment penalties and interest on withheld tax, UI, and transit-tax returns; the current rates are not yet confirmed against archived sources.
+- **Late filing/payment penalties** -- Oregon imposes a 5 percent late-payment penalty on tax not paid by the original due date, a 20 percent late-filing penalty if the return is filed more than three months late (25 percent combined), and a 100 percent penalty if you do not file after notice  _(ORS 314.400; ORS 657.471)_ (US-OR-dr-dor-penalties.txt).
 ## Cross-border points
 
 ### 10.1 Family and Medical Leave Act parity
@@ -288,11 +289,11 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 ## Worked examples
 
-### 11.1 Example A -- Portland TriMet-area employer, single employee
+### 11.1 Example A -- Portland TriMet-area employer, single employee (hypothetical facts)
 
 - Employer: Acme Software LLC, located in Portland (Multnomah County, within TriMet district)
 - Employee: J. Smith, Oregon resident, lives and works in Portland
-- 2025 gross wages: $120,000 salaried, 2,080 hours (not yet confirmed)
+- 2025 gross wages: $120,000 salaried, 2,080 hours
 - No bonuses
 
 **Example A computation**
@@ -300,17 +301,19 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 | Tax | Base | Rate | Amount |
 | --- | --- | --- | --- |
 | Oregon UI (employer) | $54,300 (capped) | 2.4% (new emp.) | $1,303.20 |
-| Statewide Transit Tax (EE) | $120,000 | 0.1% | $120.00 | (not yet confirmed)
-| TriMet (employer) | $120,000 | 0.8237% | $988.44 | (not yet confirmed)
+| Statewide Transit Tax (EE) | $120,000 | 0.1% | $120.00 |
+| TriMet (employer) | $120,000 | 0.8237% | $988.44 |
 | Paid Leave Oregon (employer) | $120,000 | 0.4% (40% of 1%) | $480.00 |
-| Paid Leave Oregon (employee) | $120,000 | 0.6% (60% of 1%) | $720.00 | (not yet confirmed)
-| WBF (employer) | 2,080 hours | $0.0066/hr | $13.73 | (not yet confirmed)
-| WBF (employee) | 2,080 hours | $0.0066/hr | $13.73 | (not yet confirmed)
+| Paid Leave Oregon (employee) | $120,000 | 0.6% (60% of 1%) | $720.00 |
+| WBF (employer) | 2,080 hours | $0.0066/hr | $13.73 |
+| WBF (employee) | 2,080 hours | $0.0066/hr | $13.73 |
 
-Employer total (Oregon-specific, excluding federal): approximately $2,785.37 (not yet confirmed)
-Employee withholding (Oregon-specific, excluding federal & PIT): approximately $853.73 plus Oregon PIT withholding from OR-W-4 table (not yet confirmed)
+WBF rows use the 2025 $0.0066/hour split rate (see Not yet confirmed: list in Sources); the 2026 assessment is 1.8 cents per hour (US-OR-dr-wbf.txt).
 
-### 11.2 Example B -- Eugene Lane Transit employer
+Employer total (Oregon-specific, excluding federal): approximately $2,785.37
+Employee withholding (Oregon-specific, excluding federal & PIT): approximately $853.73 plus Oregon PIT withholding from OR-W-4 table
+
+### 11.2 Example B -- Eugene Lane Transit employer (hypothetical facts)
 
 - Employer: Willamette Designs Inc., located in Eugene (Lane County, within LTD)
 - Employee: M. Garcia, Oregon resident
@@ -321,18 +324,20 @@ Employee withholding (Oregon-specific, excluding federal & PIT): approximately $
 
 | Tax | Base | Rate | Amount |
 | --- | --- | --- | --- |
-| Oregon UI (employer) | $54,300 (capped) | 1.8% (assumed) | $977.40 | (not yet confirmed)
+| Oregon UI (employer) | $54,300 (capped) | 1.8% (assumed) | $977.40 |
 | Statewide Transit Tax (EE) | $75,000 | 0.1% | $75.00 |
 | Lane Transit (employer) | $75,000 | 0.79% | $592.50 |
 | Paid Leave Oregon (employer) | $75,000 | 0.4% | $300.00 |
 | Paid Leave Oregon (employee) | $75,000 | 0.6% | $450.00 |
-| WBF (employer) | 2,080 hours | $0.0066/hr | $13.73 | (not yet confirmed)
-| WBF (employee) | 2,080 hours | $0.0066/hr | $13.73 | (not yet confirmed)
+| WBF (employer) | 2,080 hours | $0.0066/hr | $13.73 |
+| WBF (employee) | 2,080 hours | $0.0066/hr | $13.73 |
 
-Employer total: approximately $1,897.36 (not yet confirmed)
+The Lane Transit row uses the 2025 0.79% rate (see Not yet confirmed: list in Sources; the archived 2026 rate is 0.80%, US-OR-dr-oq-2026.txt); WBF rows use the 2025 $0.0066/hour split rate (see Not yet confirmed: list in Sources).
+
+Employer total: approximately $1,897.36
 Note: Because the work is in Eugene (LTD), TriMet does not apply. A common error is to dual-allocate; only the district covering the work location applies.
 
-### 11.3 Example C -- Multistate employer, Oregon-resident remote worker
+### 11.3 Example C -- Multistate employer, Oregon-resident remote worker (hypothetical facts)
 
 - Employer: TechCorp Inc., headquartered in Austin, Texas
 - Employee: K. Nguyen, lives in Bend, Oregon (Deschutes County -- outside TriMet, LTD, and Cherriots boundaries)
@@ -351,14 +356,16 @@ Note: Because the work is in Eugene (LTD), TriMet does not apply. A common error
 | Cherriots | n/a | -- | $0 |
 | Paid Leave Oregon (employer) | $150,000 capped at SS | 0.4% | $600.00 |
 | Paid Leave Oregon (employee) | $150,000 capped at SS | 0.6% | $900.00 |
-| WBF (employer) | 2,080 hours | $0.0066/hr | $13.73 | (not yet confirmed)
-| WBF (employee) | 2,080 hours | $0.0066/hr | $13.73 | (not yet confirmed)
+| WBF (employer) | 2,080 hours | $0.0066/hr | $13.73 |
+| WBF (employee) | 2,080 hours | $0.0066/hr | $13.73 |
+
+WBF rows use the 2025 $0.0066/hour split rate (see Not yet confirmed: list in Sources).
 
 - TechCorp must register with Oregon DOR for withholding, OED for UI and Paid Leave, and DCBS for WBF -- even with a single Oregon employee
 - No transit district tax because Bend is outside all three districts
 - The $1,500+ Paid Leave employee + employer combined is a non-trivial annual cost for a single remote hire
 
-### 11.4 Example D -- Portland employee, mid-year wage cap
+### 11.4 Example D -- Portland employee, mid-year wage cap (hypothetical facts)
 
 **Facts:**
 - Employer: Acme Software LLC (same as Example A), new hire in Q2
@@ -366,9 +373,9 @@ Note: Because the work is in Eugene (LTD), TriMet does not apply. A common error
 - Prior employer (Jan–March): paid $50,000 with $50,000 in UI taxable wages
 
 **Acme's UI obligation on Park:**
-- Acme's $54,300 wage base is not reduced by Park's prior-employer wages (not yet confirmed)
-- Acme owes UI on the first $54,300 paid to Park during 2025 (not yet confirmed)
-- Park reaches $54,300 in Acme wages around mid-June (3 months × $16,667/mo) (not yet confirmed)
+- Acme's $54,300 wage base is not reduced by Park's prior-employer wages (US-OR-dr-ors657.txt: the exclusion applies per 'each employer' per calendar year)
+- Acme owes UI on the first $54,300 paid to Park during 2025
+- Park reaches $54,300 in Acme wages around mid-June (3 months × $16,667/mo)
 - UI tax on Park (assume 2.4% new-employer): $54,300 × 2.4% = $1,303.20
 
 This is the classic "double-count" problem unique to high-base UI states like Oregon and Washington.
@@ -379,8 +386,8 @@ Before signing off on an Oregon payroll filing, the credentialed reviewer must v
 
 1. Form OQ Schedule STT filed: even if zero
 2. Form OQ Schedule TM/LTD filed: correct district per work-location geocoding
-3. Paid Leave Oregon 40/60 split: employer at 0.4%, employee at 0.6% (assuming current rate; verify rate) (not yet confirmed)
-4. UI wage base $54,300: not the federal FUTA $7,000 base (not yet confirmed)
+3. Paid Leave Oregon 40/60 split: employer at 0.4%, employee at 0.6% (US-OR-dr-paidleave.txt: large employers pay 40% and employees 60% of the 1% rate)
+4. UI wage base $54,300 (2025; $56,700 for 2026, US-OR-dr-ui-2026-pr.pdf): not the federal FUTA $7,000 base
 5. STT applied with no cap: including high earners
 6. WBF on hours, not dollars
 7. OR-W-4 on file for every employee: default single/zero if missing
@@ -390,13 +397,19 @@ Before signing off on an Oregon payroll filing, the credentialed reviewer must v
 
 ## Sources
 
-Not yet confirmed: the 8.0% supplemental rate for 2026, $54,300 UI wage base, 0.0%–5.4% UI rate range and 2.4%
-new-employer rate, 0.1% Statewide Transit Tax, TriMet 0.8237%/0.13%, Lane
-Transit 0.79%, Cherriots 0.36%, Paid Leave 1.0% total with 40/60 split and
-$176,100 wage base cap, WBF $0.0066/hour, and the worked-example totals are
-not tied to an archived capture; the archived captures in the table cover
-the DOR home page, the PIT page, ORS Chapter 316, and the 2026 OR-ESTIMATE
-rate charts (which confirm the 2026 bracket thresholds and rates).
+Not yet confirmed: the TriMet employee 0.13% rate, the Cherriots 0.36%
+employer rate, the 0.5%–0.7% range for smaller transit districts, the 2025
+Lane Transit 0.79% rate (the archived 2026 rate is 0.80%), the 2025 WBF
+$0.0066/hour employer/employee split (the archived 2026 assessment is 1.8
+cents per hour), the Paid Leave September 3, 2023 benefits effective date,
+the 16-week combined leave ceiling, the approximately $1,568.60 maximum
+weekly benefit for 2025, and the worked-example totals are not tied to an
+archived capture; the archived captures now also cover the 8.0% supplemental
+flat rate, the $54,300/$56,700 UI wage bases, the 0.9%–5.4% UI rate range
+and 2.4% new-employer rate, the 0.1% Statewide Transit Tax, the TriMet
+0.8237% and Lane Transit 0.80% employer rates, Paid Leave 1.0% total with
+40/60 split and the $176,100/$184,500 wage base caps, the WBF 1.8 cents per
+hour 2026 assessment, and the 2026 OR-ESTIMATE rate charts.
 
 | Source | URL | Read on |
 | --- | --- | --- |
@@ -404,15 +417,29 @@ rate charts (which confirm the 2026 bracket thresholds and rates).
 | Oregon Department of Revenue -- Personal Income Tax | https://www.oregon.gov/dor/programs/individuals/Pages/PIT.aspx | 2026-10-28 |
 | Oregon Legislative Assembly -- ORS Chapter 316 | https://www.oregonlegislature.gov/bills_laws/ors/ors316.html | 2026-10-28 |
 | Oregon DOR -- 2026 Publication OR-ESTIMATE (Chart S/J 2026 rate charts: single 4.75% to $4,550, 6.75% to $11,400, 8.75% to $125,000, 9.9% above; MFJ/HOH/QSS $9,100/$22,800/$250,000) | https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2026.pdf | 2026-10-31 |
+| OED press release -- 2026 UI tax rate (2025 base $54,300, 2026 base $56,700; Paid Leave 1%/$176,100 2025, $184,500 2026) | https://www.oregon.gov/employ/NewsAndMedia/Documents/2025-11-18_Tax_Rate_2026_Press_Release.pdf | 2026-11-04 |
+| OED Current Tax Rate page (min 0.9%, max 5.4%, new-employer 2.4%) | https://www.oregon.gov/employ/Businesses/Pages/Current-Tax-Rate.aspx | 2026-11-04 |
+| ORS Chapter 657 (wage base = 0.80 x average annual wage, per each employer) | https://www.oregonlegislature.gov/bills_laws/ors/ors657.html | 2026-11-04 |
+| WA ESD UI tax rates (2025 base $72,800; 2026 $78,200) | https://esd.wa.gov/employer-requirements/unemployment-taxes/how-we-determine-tax-rates | 2026-11-04 |
+| Idaho UI annual report 2025 (2025 base $55,300) | https://labor.idaho.gov | 2026-11-04 |
+| Oregon DOR -- Statewide Transit Tax page (0.1%, HB 2017, ORS 320.550) | https://www.oregon.gov/dor/programs/businesses/pages/statewide-transit-tax.aspx | 2026-11-04 |
+| TriMet tax information page (employer transit tax 0.8237%) | https://trimet.org/taxinfo/ | 2026-11-04 |
+| DOR Publication 211-503 -- TriMet/Lane transit payroll taxes (rate table) | https://www.oregon.gov/dor/forms/formspubs/transit-payroll-taxes_211-503.pdf | 2026-11-04 |
+| Form OQ 2026 combined payroll tax report instructions (TM 0.008237, LTD 0.0080, STT 0.001; WBF hours) | https://www.oregon.gov/dor/forms/FormsPubs/combined-payroll-tax-report_150-211-155.pdf | 2026-11-04 |
+| Paid Leave Oregon employer overview (2026 rate 1% up to $184,500; 40/60 split; small-employer exemption) | https://paidleave.oregon.gov/employers-overview/ | 2026-11-04 |
+| DCBS Workers' Benefit Fund page (2026 assessment 1.8 cents per hour) | https://www.oregon.gov/dcbs/wbf/Pages/index.aspx | 2026-11-04 |
+| Oregon LRO Basic Facts 2026 (PLO 1%/$176,100 for 2025; 12 weeks + 2; 120% max; EIC 9%/12%) | https://www.oregonlegislature.gov/lro/Documents/Basic%20Facts%202026.pdf | 2026-11-04 |
+| DOR Withholding Tax Formulas 2025 (8 percent flat rate for supplemental wages; OR-W-4) | https://www.oregon.gov/dor/forms/FormsPubs/withholding-tax-formulas_206-436_2025.pdf | 2026-11-04 |
+| DOR Penalties and interest page (5% late-payment, 20% late-filing, 100% non-filer) | https://www.oregon.gov/DOR/programs/individuals/Pages/penalties.aspx | 2026-11-04 |
+| Cherriots service-enhancements page (employer payroll tax starting 2027) | https://www.cherriots.org/service-enhancements/ | 2026-11-04 |
 
-Not yet confirmed against archived sources: the ORS/OAR citations, Frances
+Unconfirmed against archived sources: the ORS/OAR citations, Frances
 Online portal, and DCBS/OED notices listed below have no archived captures
 and are therefore not confirmed sources.
 
 - ORS Chapter 316 -- Personal Income Tax (withholding)
-- ORS Chapter 657 -- Unemployment Insurance
-- ORS 320.550 -- Statewide Transit Tax
-- ORS 267.385 -- TriMet and LTD employer payroll tax
+- ORS 657.435 -- new-employer base rate (chapter text archived; section note not)
+- ORS 267.385 -- TriMet and LTD employer payroll tax escalator
 - ORS 657B -- Paid Leave Oregon
 - ORS 656.506 -- Workers' Benefit Fund
 - ORS 670.600 -- Independent contractor definition
