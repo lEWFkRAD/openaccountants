@@ -164,11 +164,11 @@ Virginia assigns employers to a withholding-deposit frequency based on average m
 
 ### 5.1 Form VA-6 (Annual Withholding Reconciliation)
 
-- **VA-6 annual reconciliation contents and due date** -- VA-6 is the annual reconciliation form. It is filed by all Virginia withholding employers and reports: - Total Virginia wages paid during the year - Total Virginia tax withheld - Total deposits/payments made during the year (sum of VA-5s or VA-15s) - Difference (balance due or refund) - Count of W-2 statements being transmitted Due date: January 31 of the following year.  _(5.1 Form VA-6 (Annual Withholding Reconciliation))_
+- **VA-6 annual reconciliation contents and due date** (listed under Not yet confirmed in Sources) -- VA-6 is the annual reconciliation form. It is filed by all Virginia withholding employers and reports: - Total Virginia wages paid during the year - Total Virginia tax withheld - Total deposits/payments made during the year (sum of VA-5s or VA-15s) - Difference (balance due or refund) - Count of W-2 statements being transmitted Due date: January 31 of the following year.  _(5.1 Form VA-6 (Annual Withholding Reconciliation))_
 
 ### 5.2 Form VA-16 (Employer's Annual Wage Report)
 
-- **VA-16 wage-detail transmittal** -- VA-16 is the wage-detail transmittal -- Virginia's equivalent of the federal Form W-3 / W-2 transmittal, but filed with the Department of Taxation rather than the SSA. It is the magnetic-media/electronic vehicle that carries the employee-level W-2 wage data to Virginia. - Due: January 31 with the VA-6 - Filed electronically (paper VA-16 is no longer accepted for employers with 10+ W-2s; the de facto rule is that virtually all employers e-file) - Format: EFW2 format (same as SSA), with Virginia-specific RS records carrying the state wage and tax data - Filed via Web Upload at www.tax.virginia.gov  _(5.2 Form VA-16 (Employer's Annual Wage Report))_
+- **VA-16 wage-detail transmittal** (listed under Not yet confirmed in Sources) -- VA-16 is the wage-detail transmittal -- Virginia's equivalent of the federal Form W-3 / W-2 transmittal, but filed with the Department of Taxation rather than the SSA. It is the magnetic-media/electronic vehicle that carries the employee-level W-2 wage data to Virginia. - Due: January 31 with the VA-6 - Filed electronically (paper VA-16 is no longer accepted for employers with 10+ W-2s; the de facto rule is that virtually all employers e-file) - Format: EFW2 format (same as SSA), with Virginia-specific RS records carrying the state wage and tax data - Filed via Web Upload at www.tax.virginia.gov  _(5.2 Form VA-16 (Employer's Annual Wage Report))_
 
 > AUDIT FLASH POINT #3 -- VA-16 vs federal W-3: Filing only the federal W-3 with the SSA does NOT satisfy VA-16. Virginia obtains W-2 data from the Department of Taxation submission, not from SSA. Practitioners who assume "the SSA forwards it" find that Virginia's matching program flags the employer for non-filing of VA-16 and assesses penalties even where the federal W-3 was timely filed. Always confirm a Virginia Web Upload confirmation number for VA-16.
 
@@ -204,7 +204,7 @@ This is among the lowest SUI wage bases in the country (only Mississippi, Tennes
 
 ### 6.5 Quarterly reporting -- Form VEC FC-20 / FC-21
 
-- **FC-20 and FC-21 reporting** -- - FC-20 -- Quarterly Tax Report (totals: gross wages, taxable wages, tax due, contribution rate) - FC-21 -- Quarterly Payroll Report (employee-by-employee SSN, name, gross wages) Both filed together quarterly: - Q1: due April 30 - Q2: due July 31 - Q3: due October 31 - Q4: due January 31 of following year Filed via the VEC Business iFile portal. Employers with 100+ employees must e-file (in practice, virtually all employers e-file).  _(6.5 Quarterly reporting -- Form VEC FC-20 / FC-21)_
+- **FC-20 and FC-21 reporting** (contents listed under Not yet confirmed in Sources) -- - FC-20 -- Quarterly Tax Report (totals: gross wages, taxable wages, tax due, contribution rate) - FC-21 -- Quarterly Payroll Report (employee-by-employee SSN, name, gross wages) Both filed together quarterly: - Q1: due April 30 - Q2: due July 31 - Q3: due October 31 - Q4: due January 31 of following year Filed via the VEC Business iFile portal. Employers with 100+ employees must e-file (in practice, virtually all employers e-file).  _(6.5 Quarterly reporting -- Form VEC FC-20 / FC-21)_
 
 ### 6.6 SUI penalties
 
@@ -340,7 +340,7 @@ For an employer with workers physically performing services in Alexandria, the c
 
 ## Worked examples
 
-### 14.1 Example A -- VA-resident DC commuter (reciprocal)
+### 14.1 Worked example A -- VA-resident DC commuter (reciprocal)
 
 All figures in this example are hypothetical inputs and listed under Not yet confirmed.
 
@@ -362,8 +362,8 @@ All figures in this example are hypothetical inputs and listed under Not yet con
 **Virginia withholding computation:**
 - Annualized wages: $95,000
 - Less personal exemption (1 × $930): $94,070
-- Less standard deduction ($8,500): $85,570 VA taxable
-- Tax: $720 + 5.75% × ($85,570 − $17,000) = $720 + $3,942.78 = $4,662.78/year
+- Less standard deduction ($8,750): $85,320 VA taxable
+- Tax: $720 + 5.75% × ($85,320 − $17,000) = $720 + $3,928.45 = $4,648.45/year
 - Per bi-weekly pay (26 periods): **$179.34**
 
 **W-2 reporting:**
@@ -380,7 +380,7 @@ All figures in this example are hypothetical inputs and listed under Not yet con
 
 A Maryland resident who performs all services at a Virginia employer's Virginia office is exempt from Virginia withholding under the VA-MD reciprocal agreement: collect a VA-4 with the reciprocal certification block completed, register with the Maryland Comptroller (Form CRA), withhold Maryland state plus county-of-residence local tax, remit via bFile, and report only Maryland wages/withholding on the W-2 (Virginia boxes 15/16/17 blank; MD MW-508 reconciliation by January 31 (listed under Not yet confirmed)). Virginia SUI is independent of the income-tax reciprocity: services performed in Virginia still attach VEC coverage (FC-20/FC-21), and Virginia workers' comp applies. Flash point: if the employer skips the reciprocal VA-4 and withholds Virginia tax anyway, the employee overpays Virginia (refund via Form 763) while still owing Maryland tax plus interest and Maryland registration/withholding penalties -- over-withholding is not a Virginia violation, but it forces W-2c and VA-6 amendments. (Figures for this scenario are listed under Not yet confirmed.)
 
-### 14.3 Example C -- Multistate employer with VA residents working across multiple jurisdictions
+### 14.3 Worked example C -- Multistate employer with VA residents working across multiple jurisdictions
 
 All figures in this example are hypothetical inputs and listed under Not yet confirmed.
 
@@ -388,7 +388,7 @@ All figures in this example are hypothetical inputs and listed under Not yet con
 - Employer: Acme Federal Services LLC, headquartered in Arlington, VA, with a federal prime contract under GSA Schedule
 - Employee: David Park, Virginia resident living in Falls Church
 - David's services in 2025:
-  - 60% of work time at the Arlington office (Virginia)
+  - 60% of work time at the Arlington office (Virginia) (scenario percentages are illustrative; listed under Not yet confirmed in Sources)
   - 25% on-site at a federal facility in Bethesda, MD
   - 10% on-site at a federal facility in Washington, DC
   - 5% on-site at a federal facility in Richmond, VA
@@ -437,7 +437,7 @@ The employer must allocate David's wages by physical location of services becaus
 
 **Workers' compensation:**
 - Virginia workers' comp coverage applies because David's base of operations is Virginia
-- The employer should confirm with its WC carrier that the policy covers Maryland and DC work-sites under the "extraterritorial" endorsement -- most Virginia WC policies include this for incidental out-of-state work, but a 35% non-Virginia work pattern may trigger the carrier's threshold for requiring a multistate endorsement
+- The employer should confirm with its workers\u2019 compensation carrier that the policy covers the Maryland and DC work-sites under an out-of-state endorsement -- most Virginia WC policies include this for incidental out-of-state work, but a 35% non-Virginia work pattern may trigger the carrier's threshold for requiring a multistate endorsement
 
 **Federal contractor PSL (Executive Order 13706):**
 - David's contract is GSA Schedule (federal) -- covered by E.O. 13706
@@ -473,7 +473,7 @@ Before producing a reviewer-facing Virginia payroll work product, confirm:
 | Va. Code §58.1-446 -- withholding penalties | [2026-10-29](https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-446) |
 | Va. Code §58.1-400 -- sales/use tax cross-reference | [2026-10-29](https://law.lis.virginia.gov/vacode/title58.1/chapter13/section58.1-400) |
 
-Not yet confirmed: the following were not confirmed against archived sources (archived 2026-10-29): the married-filing-separately standard deduction of $8,500; the 5.75% supplemental/bonus withholding convention; the VA-4 line mechanics and Feb 15 exempt re-certification deadline; the standard withholding computation steps and the $80,000 sample computation ($79,070 / $70,570 / $3,800.28 / $158.35); the $100-per-month and $1,000-per-month deposit-frequency tiers; VA-5, VA-15, VA-6 and VA-16 mechanics and due dates; the 6%-per-month (max 30%) late filing/payment penalty, 25% negligence penalty, 100% fraud penalty, 8% interest rate, and $25/quarter zero-return penalty; VA-6/VA-16 penalties ($30/W-2 up to $1,500, $200 failure-to-file); SUI coverage thresholds ($1,500/quarter, 20-week test), the $8,000 SUI wage base and 0.10%-6.20% rate range, the 2.50% new-employer rate and 6.20% construction rate; FC-20/FC-21 mechanics and penalties; misclassification penalties ($1,000/$5,000/$10,000 per worker, $5,000 Construction Industry Misclassification Act penalty, $1,000 general-industry penalty); the $250/day workers' compensation penalty; household employer thresholds ($2,800 FICA / $1,000-per-quarter FUTA); the $12.41 minimum wage reference; final-pay timing (Va. Code §40.1-29); reciprocal agreement citations; and all figures in Example A ($95,000 / $4,662.78 / $179.34), the MD-reciprocity note (MD MW-508 reconciliation by January 31), and Example C (60/25/10/5% work-time split, $113,750 / $43,750 / $17,500, $175,000 / $9,262.78 / $356.26).
+Not yet confirmed: the following were not confirmed against archived sources (archived 2026-10-29): the VA-6 and VA-16 contents, mechanics and due dates; the FC-20/FC-21 report contents; the David Park scenario percentages (60/25/10/5) and its derived figures; the illustrative scenario salary $175,000; the 5.75% supplemental/bonus withholding convention; the VA-4 line mechanics and Feb 15 exempt re-certification deadline; the standard withholding computation steps and the $80,000 sample computation ($79,070 / $70,570 / $3,800.28 / $158.35); the $100-per-month and $1,000-per-month deposit-frequency tiers; VA-5, VA-15, VA-6 and VA-16 mechanics and due dates; the 6%-per-month (max 30%) late filing/payment penalty, 25% negligence penalty, 100% fraud penalty, 8% interest rate, and $25/quarter zero-return penalty; VA-6/VA-16 penalties ($30/W-2 up to $1,500, $200 failure-to-file); SUI coverage thresholds ($1,500/quarter, 20-week test), the $8,000 SUI wage base and 0.10%-6.20% rate range, the 2.50% new-employer rate and 6.20% construction rate; FC-20/FC-21 mechanics and penalties; misclassification penalties ($1,000/$5,000/$10,000 per worker, $5,000 Construction Industry Misclassification Act penalty, $1,000 general-industry penalty); the $250/day workers' compensation penalty; household employer thresholds ($2,800 FICA / $1,000-per-quarter FUTA); the $12.41 minimum wage reference; final-pay timing (Va. Code §40.1-29); reciprocal agreement citations; and all figures in Example A ($95,000 / $4,648.45 / $178.79), the MD-reciprocity note (MD MW-508 reconciliation by January 31), and Example C (60/25/10/5% work-time split, $113,750 / $43,750 / $17,500, $175,000 / $9,262.78 / $356.26).
 
 #### 16. Citations and Authority
 
