@@ -509,7 +509,7 @@ Document the count weekly. Snapshot the headcount each Friday and store the scre
 | Context | Test |
 | --- | --- |
 | State income tax withholding | **IRS 20-factor / common-law** (Michigan conforms to federal characterization) |
-| Unemployment insurance (UIA) | **Michigan economic reality test** (MCL 421.42, US-MI-dr-mcl-421-42.txt, plus case law) — broader than common-law, results in MORE employees |
+| Unemployment insurance (UIA) | **Michigan economic reality test** (MCL 421.42, US-MI-dr-mcl-421-42.txt, plus case law) — broader than the common-law test, results in MORE employees |
 | Wage and hour (minimum wage, ESTA, overtime under Workforce Opportunity Wage Act) | **20-factor**, but LEO leans toward the **ABC test** for certain industries |
 | Workers' compensation | **Economic reality** plus statutory presumption |
 
