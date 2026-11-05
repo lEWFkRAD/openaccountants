@@ -211,45 +211,6 @@ A due date on a weekend or legal holiday moves to the next business day. DOR may
 
 DOR can waive late-return penalties only in qualifying circumstances, on request.
 
-### Worked example cases (2026 periods) ([RCW 82.04.4451](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.4451))
-
-**Case A: service business, quarterly filer.** A Washington sole proprietor provides bookkeeping services (Service and Other Activities; not in the 1 Oct 2025 retail list). 2025 Service and Other income was well under $1,000,000, so the rate is 1.5%. 2026 gross income is $150,000, earned evenly: $37,500 per quarter. Expected annual tax of $2,250 puts it in the quarterly band.
-- Quarterly B&O before credit: $37,500 × 1.5% = $562.50.
-- SBC maximum (all income is Service and Other, so $160 a month): $160 × 3 = $480. (US-WA-dr-rcw-82-04-4451.txt)
-- Tax exceeds the maximum, so credit = 2 × $480 − $562.50 = $397.50 (formula: US-WA-dr-rcw-82-04-4451.txt(3)).
-- B&O due per quarter: $562.50 − $397.50 = $165. For the year: $660.
-- Gross income is over $125,000, so active non-reporting is not available. (US-WA-dr-rcw-82-32-045.txt)
-
-**Case E: out-of-state consultant crossing the threshold mid-year.** Same consultant, but its 2025 Washington receipts were $80,000 (no nexus in 2025). In 2026 it earns $10,000 of Washington receipts each month (hypothetical; nexus test per US-WA-dr-tax-reference-manual-2026.txt).
-- Cumulative 2026 receipts reach exactly $100,000 at the end of October. That is not "more than" $100,000, so there is no nexus yet. (US-WA-dr-tax-reference-manual-2026.txt)
-- Nexus arises in November, on the date cumulative receipts first exceed $100,000. (US-WA-dr-tax-reference-manual-2026.txt)
-- Only activity on and after that date is taxable for 2026 ([RCW 82.04.220](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.220)(2)(a)). January to October activity is not taxed, and no returns were due for those months. It registers and reports from the nexus date.
-- 2027 is taxable in full, because the test was met in 2026.
-
-
-### Scenario notes (not numbered worked examples)
-
-**Scenario note B: tier boundary, monthly filer.** A consulting company's 2025 Service and Other income was exactly $1,000,000, and it has no affiliates. In January 2026 it earns $90,000 of consulting income.
-- Rate: 1.75% ($1,000,000 is "equal to or greater than" the threshold).
-- January B&O: $90,000 × 1.75% = $1,575.
-- SBC: the monthly maximum is $160. Tax due is more than twice the maximum ($320), so there is no credit. Due 25 February 2026: $1,575.
-
-**Scenario note C: reclassified IT service, monthly filer.** A Washington freelancer builds custom websites for Washington clients. From 1 Oct 2025 this is a retail sale. She bills $10,000 a month, about $120,000 a year (hypothetical; reclassification per US-WA-dr-it-services.html).
-- Frequency: the retail sales tax she collects counts toward the frequency test. At the state rate alone (six and five-tenths percent, [RCW 82.08.020](https://app.leg.wa.gov/RCW/default.aspx?cite=82.08.020)(1)) that is more than $4,800 a year, so DOR would normally assign her a monthly frequency. (US-WA-dr-filing-frequencies.html)
-- Retailing B&O for January 2026: $10,000 × 0.471% = $47.10 (archived RCW 82.04.250 capture 2026-08-08: rate of 0.471 percent effective until January 1, 2027).
-- SBC: none of her taxable amount is Service and Other, so the maximum is $55 for a monthly period. Tax is below the maximum, so the credit is $47.10 and B&O is zero. The B&O result would be the same on a quarterly return. (US-WA-dr-rcw-82-04-4451.txt)
-- She must still register, collect and remit retail sales tax (wa-sales-tax skill) and file every month. Collecting sales tax rules out active non-reporting.
-
-**Scenario note D: out-of-state consultant with prior-year nexus.** An Oregon-based consultant with no Washington property, staff or agents had $110,000 of Washington-sourced receipts in 2025 and has $120,000 in 2026, out of $400,000 total, all Service and Other. It is taxable in Oregon (hypothetical; nexus test per US-WA-dr-tax-reference-manual-2026.txt).
-- Nexus: more than $100,000 of Washington receipts in 2025, so all of 2026 is taxable from 1 January ([RCW 82.04.220](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.220)(2)(b)). 2026 receipts also pass the test, so 2027 is covered too. It must register and file. (US-WA-dr-tax-reference-manual-2026.txt)
-- Apportioned Washington income: $400,000 × ($120,000 / $400,000) = $120,000. (US-WA-dr-rcw-82-04-462.html)
-- Tax before credit for 2026: $120,000 × 1.5% = $1,800, which puts it in the quarterly band.
-- If earned evenly, each quarter's tax is $450, below the $480 quarterly maximum, so the SBC removes it. It still files every quarter. (US-WA-dr-rcw-82-04-4451.txt)
-
-**Scenario note F: wholesaler across the 2027 rate change.** A distributor makes $200,000 of wholesale sales in December 2026 and the same in January 2027 (monthly filer; the tax is far above twice the $55 monthly maximum, so no SBC). (US-WA-dr-rcw-82-04-4451.txt)
-- December 2026: $200,000 × 0.484% = $968 (archived RCW 82.04.270: 0.484 percent effective until January 1, 2027).
-- January 2027: $200,000 × 0.5% = $1,000 (same section, effective January 1, 2027).
-
 ## [2025 periods (late or amended returns)](https://dor.wa.gov/forms-publications/publications-subject/special-notices/service-and-other-activities-rate-changes)
 
 - **Service and Other Activities:** through 30 Sep 2025 a single 1.5% rate applied. From 1 Oct 2025 the three tiers in the rates section apply (1.5% under $1,000,000 prior-year taxable income, 1.75% at $1,000,000 to under $5,000,000, 2.1% at $5,000,000 or more), per the archived DOR special notice (issue date 25 Jul 2025).
@@ -310,7 +271,45 @@ Not yet confirmed against archived sources.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+### Worked example cases (2026 periods) ([RCW 82.04.4451](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.4451))
+
+**Case A: service business, quarterly filer.** A Washington sole proprietor provides bookkeeping services (Service and Other Activities; not in the 1 Oct 2025 retail list). 2025 Service and Other income was well under $1,000,000, so the rate is 1.5%. 2026 gross income is $150,000, earned evenly: $37,500 per quarter. Expected annual tax of $2,250 puts it in the quarterly band.
+- Quarterly B&O before credit: $37,500 × 1.5% = $562.50.
+- SBC maximum (all income is Service and Other, so $160 a month): $160 × 3 = $480. (US-WA-dr-rcw-82-04-4451.txt)
+- Tax exceeds the maximum, so credit = 2 × $480 − $562.50 = $397.50 (formula: US-WA-dr-rcw-82-04-4451.txt(3)).
+- B&O due per quarter: $562.50 − $397.50 = $165. For the year: $660.
+- Gross income is over $125,000, so active non-reporting is not available. (US-WA-dr-rcw-82-32-045.txt)
+
+**Case E: out-of-state consultant crossing the threshold mid-year.** Same consultant, but its 2025 Washington receipts were $80,000 (no nexus in 2025). In 2026 it earns $10,000 of Washington receipts each month (hypothetical; nexus test per US-WA-dr-tax-reference-manual-2026.txt).
+- Cumulative 2026 receipts reach exactly $100,000 at the end of October. That is not "more than" $100,000, so there is no nexus yet. (US-WA-dr-tax-reference-manual-2026.txt)
+- Nexus arises in November, on the date cumulative receipts first exceed $100,000. (US-WA-dr-tax-reference-manual-2026.txt)
+- Only activity on and after that date is taxable for 2026 ([RCW 82.04.220](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.220)(2)(a)). January to October activity is not taxed, and no returns were due for those months. It registers and reports from the nexus date.
+- 2027 is taxable in full, because the test was met in 2026.
+
+
+### Scenario notes (not numbered worked examples)
+
+**Scenario note B: tier boundary, monthly filer.** A consulting company's 2025 Service and Other income was exactly $1,000,000, and it has no affiliates. In January 2026 it earns $90,000 of consulting income.
+- Rate: 1.75% ($1,000,000 is "equal to or greater than" the threshold).
+- January B&O: $90,000 × 1.75% = $1,575.
+- SBC: the monthly maximum is $160. Tax due is more than twice the maximum ($320), so there is no credit. Due 25 February 2026: $1,575.
+
+**Scenario note C: reclassified IT service, monthly filer.** A Washington freelancer builds custom websites for Washington clients. From 1 Oct 2025 this is a retail sale. She bills $10,000 a month, about $120,000 a year (hypothetical; reclassification per US-WA-dr-it-services.html).
+- Frequency: the retail sales tax she collects counts toward the frequency test. At the state rate alone (six and five-tenths percent, [RCW 82.08.020](https://app.leg.wa.gov/RCW/default.aspx?cite=82.08.020)(1)) that is more than $4,800 a year, so DOR would normally assign her a monthly frequency. (US-WA-dr-filing-frequencies.html)
+- Retailing B&O for January 2026: $10,000 × 0.471% = $47.10 (archived RCW 82.04.250 capture 2026-08-08: rate of 0.471 percent effective until January 1, 2027).
+- SBC: none of her taxable amount is Service and Other, so the maximum is $55 for a monthly period. Tax is below the maximum, so the credit is $47.10 and B&O is zero. The B&O result would be the same on a quarterly return. (US-WA-dr-rcw-82-04-4451.txt)
+- She must still register, collect and remit retail sales tax (wa-sales-tax skill) and file every month. Collecting sales tax rules out active non-reporting.
+
+**Scenario note D: out-of-state consultant with prior-year nexus.** An Oregon-based consultant with no Washington property, staff or agents had $110,000 of Washington-sourced receipts in 2025 and has $120,000 in 2026, out of $400,000 total, all Service and Other. It is taxable in Oregon (hypothetical; nexus test per US-WA-dr-tax-reference-manual-2026.txt).
+- Nexus: more than $100,000 of Washington receipts in 2025, so all of 2026 is taxable from 1 January ([RCW 82.04.220](https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.220)(2)(b)). 2026 receipts also pass the test, so 2027 is covered too. It must register and file. (US-WA-dr-tax-reference-manual-2026.txt)
+- Apportioned Washington income: $400,000 × ($120,000 / $400,000) = $120,000. (US-WA-dr-rcw-82-04-462.html)
+- Tax before credit for 2026: $120,000 × 1.5% = $1,800, which puts it in the quarterly band.
+- If earned evenly, each quarter's tax is $450, below the $480 quarterly maximum, so the SBC removes it. It still files every quarter. (US-WA-dr-rcw-82-04-4451.txt)
+
+**Scenario note F: wholesaler across the 2027 rate change.** A distributor makes $200,000 of wholesale sales in December 2026 and the same in January 2027 (monthly filer; the tax is far above twice the $55 monthly maximum, so no SBC). (US-WA-dr-rcw-82-04-4451.txt)
+- December 2026: $200,000 × 0.484% = $968 (archived RCW 82.04.270: 0.484 percent effective until January 1, 2027).
+- January 2027: $200,000 × 0.5% = $1,000 (same section, effective January 1, 2027).
+
 
 ## Ask the client first
 
