@@ -33,7 +33,7 @@ depends_on:
 
 Covers Missouri corporation income tax (Form MO-1120): who files, the 4% rate, base modifications, apportionment via Form MO-MS, consolidated-return options, estimated tax (MO-1120ES), extensions, penalties, interest, and the dissolution trap. Out of scope: personal income tax (`mo-income-tax`), payroll/withholding and UI (`mo-payroll`), sales/use (`mo-sales-tax`), S corporations (Form 1120-S pass-through level), local earnings taxes (see `mo-cross-border`).
 
-**Source status:** the Department of Revenue **2025 Form MO-1120 instructions** (76,812 chars) and **2026 Form MO-1120ES** (10,406 chars) were fetched as PDFs and read in full on 2026-10-27 -- every figure below is quoted from them. The MO-470 instructions PDF and the related-party addback page returned 403/404 from the drafting environment; anything tied to those is flagged in the Not-yet-confirmed paragraph under Sources.
+**Source status:** the Department of Revenue 2025 Form MO-1120 instructions and 2026 Form MO-1120ES were fetched as PDFs and read in full on 2026-10-27 -- every figure below is quoted from them. The MO-470 instructions PDF and the related-party addback page returned 403/404 from the drafting environment; anything tied to those is flagged in the Not-yet-confirmed paragraph under Sources.
 
 
 ### Who this applies to

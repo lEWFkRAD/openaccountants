@@ -352,7 +352,7 @@ Same pattern as KC: a non-resident commuting daily to a City of St. Louis workpl
 
 ### 10.3 Paid sick leave -- state status as of 2025
 
-- **Proposition A statewide sick leave** -- In November 2024, Missouri voters approved Proposition A, a statewide paid sick leave entitlement effective May 1, 2025 (accrual details: see Not-yet-confirmed in Sources; no archived text -- the archived US-MO-rsmo-290-502.html covers the Proposition A minimum wage, not sick-leave accrual).
+- **Proposition A statewide sick leave** -- In November 2024, Missouri voters approved Proposition A, a statewide paid sick leave entitlement effective May 1, 2025 (accrual details listed under Not yet confirmed in Sources; no archived text -- the archived US-MO-rsmo-290-502.html covers the Proposition A minimum wage, not sick-leave accrual).
 - **HB 567 repeal** -- HB 567 was enacted and signed by the Governor on July 10, 2025, repealing the Prop A paid sick leave provisions with effect August 28, 2025 (the standard general-statute effective date). After August 28, 2025, Missouri has no statewide paid sick leave mandate.  _(HB 567 (2025))_
 - **Carve-out 1: St. Louis ordinance** -- The City of St. Louis Paid Sick Time Ordinance (Ordinance 71926) is asserted to remain in force as a municipal enactment under home-rule authority; the ordinance text is not archived, so this is listed under Not-yet-confirmed in Sources.  _(Ordinance 71926)_
 - **Carve-out 2: accrued Prop A leave transition** -- Accrued sick leave under Prop A between May 1, 2025 and August 28, 2025 is arguably vested for employees who earned it. Employer policy on retention or cash-out of accrued Prop A leave is a contract/transition issue -- reviewers should advise the employer to document a written transition policy.
