@@ -46,7 +46,7 @@ How Ohio taxes people and payrolls that cross its borders: the **five-state reci
 - **Other nonresidents with Ohio income:** file IT 1040 and claim the **IT NRC** credit for income not earned or received in Ohio.
 - **Part-year residents:** IT NRC for income earned while a resident of another state; **IT RC** for non-Ohio income taxed by another state while an Ohio resident.
 - **Ohio residents working elsewhere:** full Ohio return + **IT RC** credit (US states and D.C. only -- not city, foreign, or territory taxes; not wages in the five reciprocity states, which were never taxed there either).
-- **Nonresident presumption claimants:** check the **Ohio Nonresident Statement** box on the IT 10/1040 (IT NRS form retired for 2025). All five criteria: ≤212 contact periods; outside-Ohio abode with no depreciation claimed; no Ohio driver's license/ID (surrendered before the year began); no Ohio homestead exemption; no Ohio in-state tuition. Contact period = abode outside Ohio, away overnight, any part of **two consecutive days** in Ohio. <213 contact periods: nonresidency shown "more likely than not"; ≥213: "clear and convincing". Statement deadline: **October 15**; part-year residents cannot use it. (not yet confirmed)
+- **Nonresident presumption claimants:** check the **Ohio Nonresident Statement** box on the IT 10/1040 (IT NRS form retired for 2025). All five criteria: ≤212 contact periods; outside-Ohio abode with no depreciation claimed; no Ohio driver's license/ID (surrendered before the year began); no Ohio homestead exemption; no Ohio in-state tuition. Contact period = abode outside Ohio, away overnight, any part of **two consecutive days** in Ohio. <213 contact periods: nonresidency shown "more likely than not"; ≥213: "clear and convincing". Statement deadline: **October 15**; part-year residents cannot use it. (US-OH-dr-it1040-2025-booklet-ty2025.txt: "You had no more than 212 contact periods in Ohio"; "you must provide clear and convincing documentation that you were a nonresident"; "no later than the 15th day of the 10th month following the close of their tax year. For most taxpayers, this will be October 15th")
 
 ## Rates, bands and thresholds
 
@@ -55,29 +55,28 @@ How Ohio taxes people and payrolls that cross its borders: the **five-state reci
 | Reciprocity states | IN, KY, MI, PA, WV -- wages-only waiver for full-year nonresidents | `oh-income-tax` (2025 IT 1040 instructions, 2026-09-25) |
 | IT NRC | Credit for income **not** earned or received in Ohio; runs through Schedule of Credits | `oh-income-tax` |
 | IT RC | Credit for tax paid to another **US state or D.C.** on income also in Ohio AGI; capped at Ohio tax; no credit if the other-state tax was deducted in federal AGI | [ORC 5747.05](https://codes.ohio.gov/ohio-revised-code/section-5747.05), read 2026-10-27 |
-| Business income rate | Flat 3% (2025; HB 96 phasing down) -- business income of nonresidents is apportioned to Ohio | `oh-income-tax` | (not yet confirmed)
+| Business income rate | Flat 3% (2025; HB 96 phasing down) -- business income of nonresidents is apportioned to Ohio | `oh-income-tax`; US-OH-dr-it1040-2025-booklet-ty2025.txt ("income at a flat 3% rate. See R.C. 5747.02(A)(4)") |
 | Nonbusiness allocation | Residents: all to Ohio. Nonresidents: personal-services compensation for work performed in Ohio, Ohio property income, etc. | [ORC 5747.20](https://codes.ohio.gov/ohio-revised-code/section-5747.20), read 2026-10-27 |
 | BID ordering | The other-state-tax deduction (5747.01(A)(28)) first reduces business income apportioned to Ohio when computing the resident credit | ORC 5747.05, read 2026-10-27 |
 | Municipal 20-day rule | No non-resident municipal withholding until day 21 of work in a non-principal municipality; then **retroactive to day 1**; employers with prior-year revenue <$500,000 exempt | R.C. 718.011 (SB 22) via `oh-payroll` (2026-07-13) |
-| Municipal rates | 1.00%–3.00%; inter-municipal credits vary 0–100% | `oh-payroll` | (not yet confirmed)
+| Municipal rates | range and credit spread (see Not yet confirmed: in Sources) | `oh-payroll` |
 | Exit tax | **None** | no Ohio statute imposes one |
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
 ## Deadlines and filing
- (not yet confirmed)
-| Filing | Due | (not yet confirmed)
+
+| Filing | Due |
 |---|---|
-| IT 1040 (residents, nonresidents, part-year) | April 15 (calendar year); extension to October 15 | (not yet confirmed)
-| Ohio Nonresident Statement box | Claimed on the return; presumption deadline 15th day of 10th month after year-end (October 15) | (not yet confirmed)
+| IT 1040 (residents, nonresidents, part-year) | April 15 (calendar year); extension to October 15 (US-OH-dr-it1040-2025-booklet-ty2025.txt: "Generally, Ohio income and school district income tax is due by April 15, 2026"; "your due date for filing your Ohio IT 1040 and SD 100 is October 15, 2026") |
+| Ohio Nonresident Statement box | Claimed on the return; presumption deadline 15th day of 10th month after year-end (October 15) (US-OH-dr-it1040-2025-booklet-ty2025.txt: "no later than the 15th day of the 10th month following the close of their tax year. For most taxpayers, this will be October 15th") |
 | IT NRC / IT RC | Attached to the IT 1040 via Schedule of Credits |
 | Municipal employer returns | Per municipality/RITA/CCA calendar (Form 27 RITA year-end etc.) -- see `oh-payroll` |
 
 ## Penalties and interest
 
 - IT/SD 2210 underpayment interest on line 11 of the IT 1040; late-payment interest on line 21 -- Ohio charges **interest, not a late-filing penalty percentage** on the individual return (per `oh-income-tax` 2025 instructions).
-- Delinquency billings can fire when federal AGI > $28,450 and no Ohio return was filed -- the Department recommends filing even at zero tax (`oh-income-tax`). (not yet confirmed)
+- Delinquency billings can fire when federal AGI > $28,450 and no Ohio return was filed -- the Department recommends filing even at zero tax (`oh-income-tax`; US-OH-dr-it1040-2025-booklet-ty2025.txt: "If your federal adjusted gross income is greater than $28,450, the Department recommends that you file an Ohio IT 1040 or IT 10, even if you do not owe any tax, to avoid delinquency billings").
 - Municipal side: missed 20-day catch-up withholding is the most common Ohio municipal payroll audit finding (`oh-payroll` AUDIT FLASH POINT).
 
 ## Cross-border points
@@ -140,37 +139,33 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see Not yet confirmed: paragraph above) | -- | 2026-10-28 |
 
 - [ORC 5747.05 -- tax credits, resident credit, no-federal-deduction rule](https://codes.ohio.gov/ohio-revised-code/section-5747.05) -- read 2026-10-27 (text effective 2025-09-30, HB 96)
 - [ORC 5747.20 -- allocating nonbusiness income or deduction](https://codes.ohio.gov/ohio-revised-code/section-5747.20) -- read 2026-10-27
 - `oh-income-tax` (tier 2, 2025 IT 1040 instructions read 2026-09-25) -- reciprocity list, IT NRC/IT RC, contact periods, Nonresident Statement criteria
 - `oh-payroll` (tier 2, read 2026-07-13) -- R.C. 718.011 20-day rule, municipal rates, RITA/CCA/direct-file
-- **not yet confirmed:** 2026 IT 1040 instructions (not yet published at read time 2026-09-25 per `oh-income-tax`); municipal credit percentages per city
+- **Not yet confirmed:** 2026 IT 1040 instructions (not yet published at read time 2026-09-25 per `oh-income-tax`); municipal credit percentages per city; municipal rate range 1.00%–3.00% and inter-municipal credit range 0–100%
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Ohio nonresident, reciprocity and commuter questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
-
 ### Sources
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see Not yet confirmed: paragraph above) | -- | 2026-10-28 |
 
 
 - [ORC 5747.05 -- tax credits, resident credit, no-federal-deduction rule](https://codes.ohio.gov/ohio-revised-code/section-5747.05) -- read 2026-10-27 (text effective 2025-09-30, HB 96)
 - [ORC 5747.20 -- allocating nonbusiness income or deduction](https://codes.ohio.gov/ohio-revised-code/section-5747.20) -- read 2026-10-27
 - `oh-income-tax` (tier 2, 2025 IT 1040 instructions read 2026-09-25) -- reciprocity list, IT NRC/IT RC, contact periods, Nonresident Statement criteria
 - `oh-payroll` (tier 2, read 2026-07-13) -- R.C. 718.011 20-day rule, municipal rates, RITA/CCA/direct-file
-- **not yet confirmed:** 2026 IT 1040 instructions (not yet published at read time 2026-09-25 per `oh-income-tax`); municipal credit percentages per city
+- **Not yet confirmed:** 2026 IT 1040 instructions (not yet published at read time 2026-09-25 per `oh-income-tax`); municipal credit percentages per city; municipal rate range 1.00%–3.00% and inter-municipal credit range 0–100%
 
 <!-- openaccountants-cta-block -->
 **Talk to a verified accountant** -- for Ohio nonresident, reciprocity and commuter questions on live client facts, book time with an OA Partner: https://calendly.com/openaccountants/consult
 
 ### Talk to a verified accountant
 
-
-Not yet confirmed against archived sources.
