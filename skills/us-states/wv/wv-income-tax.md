@@ -37,7 +37,7 @@ Quality tier. Q3 -- AI-drafted, not independently verified. All rates and rules 
 | Tax authority | West Virginia State Tax Division |
 | Filing portal | https://tax.wv.gov |
 | Tax year covered | 2025 (filed 2026) and 2026 (filed 2027) |
-| Last updated | May 22, 2026 (see Not-yet-confirmed in Sources) |
+| Last updated | May 2026 (exact day listed under Not yet confirmed in Sources) |
 
 ### Sources
 

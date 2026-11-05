@@ -133,8 +133,8 @@ Before proceeding with any West Virginia sales tax analysis, collect the followi
 | Field | Detail |
 | --- | --- |
 | Return Form | CST-200 (Consumers Sales and Service Tax Return) |
-| Filing Frequencies | Monthly (>$600/quarter avg); Quarterly ($150-$600); Annually (<$150) |
-| Due Date | 20th of the month following the reporting period |
+| Filing Frequencies | Monthly, Quarterly, or Annually (band thresholds listed under Not yet confirmed in Sources) |
+| Due Date | the day after the 15th of the month following the reporting period (due-date rule listed under Not yet confirmed in Sources) |
 | Portal | https://tax.wv.gov (MyTaxes) |
 | E-filing | Required for most filers |
 
@@ -192,7 +192,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - **Never assume uniform rate** — NEVER assume a uniform rate. Municipal add-ons of up to 1% may apply. (T1)
 - **Never compute arithmetic** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. (T1)
 
-### EC1 -- Professional Services Taxable [T2]
+### Worked example EC1 -- Professional Services Taxable [T2]
 
 **Situation:** An out-of-state accounting firm provides tax preparation services to WV clients. Is the fee taxable?
 
@@ -202,7 +202,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - Many out-of-state service providers are unaware of WV's broad service taxation. [T2]
 - **Flag for reviewer:** WV is one of the few states taxing professional services. Verify that all service revenue streams are evaluated. [T2]
 
-### EC2 -- Custom Software Taxable [T2]
+### Worked example EC2 -- Custom Software Taxable [T2]
 
 **Situation:** A software development company creates a custom application for a WV client. Is the development fee taxable?
 
@@ -212,7 +212,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - This is unusual nationally -- most states exempt custom software. [T1]
 - **Flag for reviewer:** Developers accustomed to custom software exemptions in other states must adjust for WV. [T2]
 
-### EC3 -- Broad Service Base Impact on Compliance [T2]
+### Worked example EC3 -- Broad Service Base Impact on Compliance [T2]
 
 **Situation:** A multi-state service company needs to determine which of its services are taxable in WV vs. other states.
 
@@ -222,7 +222,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - The company should review its entire revenue mix against WV law. [T2]
 - **Flag for reviewer:** In WV, the question is "is there an exemption?" rather than "is the service specifically taxable?" [T2]
 
-### EC4 -- OTC Drug Exemption [T1]
+### Worked example EC4 -- OTC Drug Exemption [T1]
 
 **Situation:** A retailer asks whether OTC medications are taxable in WV.
 
@@ -231,7 +231,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - Dietary supplements are NOT OTC drugs and are taxable. [T2]
 - **Flag for reviewer:** Ensure POS systems distinguish between OTC drugs and dietary supplements. [T2]
 
-### EC5 -- IT Consulting and Software Bundle [T2]
+### Worked example EC5 -- IT Consulting and Software Bundle [T2]
 
 **Situation:** An IT company provides consulting ($5,000), custom software development ($10,000), and canned software licenses ($3,000) to a WV client.
 
@@ -243,7 +243,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - Total taxable = $18,000. [T1]
 - **Flag for reviewer:** In most other states, custom software and IT consulting would be exempt. WV is unusual. [T2]
 
-### EC6 -- Construction Services [T2]
+### Worked example EC6 -- Construction Services [T2]
 
 **Situation:** A contractor performs a $200,000 renovation on a commercial building in Charleston.
 
