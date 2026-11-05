@@ -32,7 +32,7 @@ depends_on:
 
 How Missouri taxes people who cross its borders: individual part-year (Form **MO-1040P**) and nonresident (Form **MO-NRI**) filing, the **MO-CR** credit for taxes paid to other states, nonresident withholding, military-spouse relief, and the two **city earnings taxes** (Kansas City, St. Louis) that are Missouri's most common cross-border trap. Corporate cross-border sits in `mo-corporate-income-tax` / `mo-transfer-pricing`.
 
-**Source status:** figures corroborated by the existing tier-2 `mo-income-tax` and `mo-payroll` skills (verified against DOR Form 4282, KC Revenue Division and St. Louis Collector guidance in 2025). The **MO-1040PNR instructions PDF returned 403** from the drafting environment on 2026-10-27 -- procedural specifics (thresholds, allocation worksheets) are flagged **not yet confirmed**. Missouri has **no reciprocal agreements** with any state (per `mo-payroll` scope analysis) -- unlike Maryland, commuters pay Missouri tax on Missouri-worked wages.
+**Source status:** figures corroborated by the existing tier-2 `mo-income-tax` and `mo-payroll` skills (verified against DOR Form 4282, KC Revenue Division and St. Louis Collector guidance in 2025). The **MO-1040PNR instructions PDF returned 403** from the drafting environment on 2026-10-27 -- the allocation worksheet itself is archived (US-MO-mo-nri-2025.pdf, "Worksheet for Missouri Source Income"); remaining procedural specifics (PNR thresholds) are flagged in the Not-yet-confirmed paragraph under Sources. Missouri has **no reciprocal agreements** with any state (per `mo-payroll` scope analysis) -- unlike Maryland, commuters pay Missouri tax on Missouri-worked wages.
 
 
 ### Who this applies to
@@ -50,7 +50,7 @@ How Missouri taxes people who cross its borders: individual part-year (Form **MO
 | Item | Amount / rule | Source |
 |---|---|---|
 | State PIT top rate | Top bracket 4.7% on Missouri taxable income over $9,191 (2025 MO-1040 tax table); further step-downs possible via revenue triggers | `mo-income-tax` skill; archived 2025 MO-1040 instructions |
-| Nonresident base | Missouri-source income allocated via MO-NRI worksheets (allocation mechanics **not yet confirmed** -- PNR instructions 403) | `mo-income-tax` form table |
+| Nonresident base | Missouri-source income allocated via MO-NRI worksheets (US-MO-mo-nri-2025.pdf: "Worksheet for Missouri Source Income"); PNR-instruction thresholds: see Not-yet-confirmed in Sources | `mo-income-tax` form table |
 | MO-CR credit | Non-refundable credit for taxes paid to other states; needs the other state's return | `mo-income-tax` MO-T2-04 |
 | KC earnings tax | **1.0%** -- residents on all earnings, nonresidents on KC-worked earnings; separate city return | KC ch. 68; §92.110 RSMo via `mo-payroll` |
 | KC reauthorization | voter vote **April 2026** (reauthorized 2021; five-year cycle) | §92.115 RSMo via `mo-payroll` |
@@ -62,14 +62,14 @@ Sourcing and base rules (workday sourcing, city-limit situs) are covered under "
 ## Deadlines and filing
 
 - MO-1040P / MO-NRI follow the individual calendar: **15 April** for calendar-year filers.
-- KC earnings tax: quarterly estimated payments for self-employed; employer withholding per KC Revenue Division schedule; annual return 15 April (KC schedules **not yet confirmed** re-verification).
+- KC earnings tax: quarterly estimated payments for self-employed (estimated schedule: see Not-yet-confirmed in Sources); employer withholding per KC Revenue Division schedule; annual return due April 15 (US-MO-kc-faqs.html: "Annual returns are due April 15 each year").
 - STL City: annual return 15 April; nonfilers who owe are the classic audit population.
 - MO-CR: claim on the resident return; amended within the ordinary assessment window.
 
 ## Penalties and interest
 
 - State regime: 5%/month late-filing (cap 25%), 5% late-payment, 7% simple interest from 1 January 2026 (§32.065 RSMo, per `mo-corporate-income-tax` fetch -- same statute across DOR taxes).
-- KC/STL: city-level penalties and interest on unpaid earnings tax; percentages **not yet confirmed** (city collector pages not fetched this run).
+- KC/STL: city-level penalties and interest on unpaid earnings tax -- KC: 5% per month up to a 25% maximum plus 12% per year interest (US-MO-kc-faqs.html: "a penalty of 5% per month (up to a maximum of 25%) plus interest at the rate of 12% per year"); STL: 5% of tax per month up to 25% plus 1% per month interest (US-MO-stl-payrolltaxinfo.html: "a penalty of 5% of the amount of tax for each month, or fraction thereof (not to exceed 25%) plus interest at the rate of 1% per month").
 - Employers failing to withhold KC 1% for city-worked employees carry the unwithheld tax plus city penalties.
 
 ## Cross-border points
@@ -118,7 +118,7 @@ expected:
   total_city: 2000.00
 ```
 
-Both cities assert a claim -- KC on residency, STL on situs of work. Whether one city grants a credit for the other is a city-ordinance question: **not yet confirmed**; model the gross $2,000 until the collectors' guidance is read.
+Both cities assert a claim -- KC on residency, STL on situs of work. Whether one city grants a credit for the other is a city-ordinance question: see Not-yet-confirmed in Sources; model the gross $2,000 until the collectors' guidance is read.
 
 ## Ask the client first
 
@@ -135,7 +135,7 @@ Both cities assert a claim -- KC on residency, STL on situs of work. Whether one
 | 1 | Existing tier-2 skills: `mo-income-tax` and `mo-payroll` (MO-1040P/MO-NRI/MO-CR table, city earnings tax table, KC ch. 68 / §92.110, STL ch. 5.22, §92.115, nonresident withholding, MSRRA) | repo `skills/us-states/mo/` | 2026-10-28 |
 | 2 | Missouri DOR, Form MO-NRI 2025 (nonresident/part-year return with allocation worksheet and remote-work rule) -- archived substitute for the MO-1040PNR instructions URL, which 403s from the drafting environment | https://dor.mo.gov/forms/MO-NRI_2025.pdf | 2026-10-29 |
 | 3 | §32.065 RSMo interest (7% from 1 Jan 2026) via the MO-1120 2025 instructions fetch | https://dor.mo.gov/forms/MO-1120%20Instructions_2025.pdf | 2026-10-28 |
-Not yet confirmed: the items above flagged as not sourced -- figures tied to them stay unconfirmed until the source is archived with readable text..
+Not yet confirmed: the items above flagged as not sourced -- figures tied to them stay unconfirmed until the source is archived with readable text. This includes the MO-1040PNR procedural thresholds (the PNR instructions returned 403), the KC self-employed quarterly estimated-payment schedule, and whether KC or St. Louis grants a credit for the other city's earnings tax.
 
 ## Talk to a verified accountant
 
