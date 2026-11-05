@@ -64,7 +64,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | 2023 | $1,000,000 | Article 44 |
 | 2024 | $1,053,750 | Inflation-adjusted |
 | 2025 | $1,083,150 | Inflation-adjusted |
-| 2026 | TBD (inflation-adjusted, typically announced late in preceding year) | M.G.L. c. 62, § 5A |
+| 2026 | the 2026 figure is listed under Not yet confirmed (inflation-adjusted, typically announced late in the preceding year) | M.G.L. c. 62, § 5A |
 
 - **Surtax application** — The 4% surtax applies only to the portion of taxable income exceeding the threshold. For a taxpayer with $1,100,000 in TY2025 taxable income, the surtax applies to $16,850 ($1,100,000 − $1,083,150).  _(M.G.L. c. 62, § 5A)_
 

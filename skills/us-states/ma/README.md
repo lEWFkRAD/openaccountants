@@ -6,7 +6,7 @@ not_applicable: []
 
 # Massachusetts -- OpenAccountants Tax Skills
 
-**Source status (2026-10-29):** the DFML PFML contribution-rate page and the DOR Elective Pass-through Entity Excise page were re-fetched and archived with content on 2026-10-28/29; the combined-reporting statute (M.G.L. c.63 §32B), the S-corp net-income measure (§32D), the excise rate section (§39) and 830 CMR 63.00 (Secretary of the Commonwealth regulation PDF) were archived from malegislature.gov / sec.state.ma.us. mass.gov form/guide pages (Form 1-NR/PY) and the malegislature.gov c.63D chapter page remained 403/404 from this environment; those items sit on each skill's "Not yet confirmed" line.
+**Source status (2026-10-29):** the DFML PFML contribution-rate page and the DOR Elective Pass-through Entity Excise page were re-fetched and archived with content on 2026-10-28/29; the combined-reporting statute (M.G.L. c.63 §32B), the S-corp net-income measure (§32D), the excise rate section (§39) and 830 CMR 63.00 (Secretary of the Commonwealth regulation PDF) were archived from malegislature.gov / sec.state.ma.us. mass.gov form/guide pages (Form 1-NR/PY) and the malegislature.gov c.63D chapter page remained 403/404 from this environment; those items sit on each skill's Not-yet-confirmed line.
 
 **Open question:** `maine-sales-tax.md` and `maryland-sales-tax.md` sit in this folder -- likely misfiled; flagged for separate cleanup, not touched by this pack.
 
