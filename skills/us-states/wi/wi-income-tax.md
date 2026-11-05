@@ -31,7 +31,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **Tax authority** -- Wisconsin Department of Revenue (DOR)
 - **Filing portal** -- https://www.revenue.wi.gov
 - **Tax year covered** -- 2025 (filed 2026) and 2026 (filed 2027)
-- **Last updated** -- May 22, 2026
+- **Last updated** -- May 2026 (month-level; exact day listed under Not yet confirmed in Sources)
 
 ### Sources
 

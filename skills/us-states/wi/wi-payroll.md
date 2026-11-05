@@ -283,7 +283,7 @@ AUDIT FLASH POINT -- Milwaukee Local Stacking. Multiple stacking scenarios creat
 
 ### 11.1 Example A -- Pure Wisconsin Employer
 
-**Facts (hypothetical):** Bratwurst & Sons, LLC is a Madison-based small manufacturer with 8 employees, all Wisconsin residents working solely in Madison. Annual payroll is $420,000. The company was formed in 2024 (new employer). One employee (Sarah) earns $52,000/year; another (James) earns $28,000/year.
+**Facts (hypothetical worked example; all figures listed under Not yet confirmed in Sources):** Bratwurst & Sons, LLC is a Madison-based small manufacturer with 8 employees, all Wisconsin residents working solely in Madison. Annual payroll is $420,000. The company was formed in 2024 (new employer). One employee (Sarah) earns $52,000/year; another (James) earns $28,000/year.
 
 **Wisconsin PIT withholding for Sarah (single, claims 1 allowance on WT-4):**
 
@@ -291,7 +291,7 @@ AUDIT FLASH POINT -- Milwaukee Local Stacking. Multiple stacking scenarios creat
 - Apply brackets (US-WI-dr-wis-stat-ch71.txt, s. 71.06(1r): 3.50% to $14,680; 4.40% $14,681–$50,480):
   - 3.50% × $14,680 = $513.80
   - 4.40% × ($37,740 − $14,680) = 4.40% × $23,060 = $1,014.64
-  - Subtotal annual WI PIT: $1,528.44
+  - Subtotal annual WI PIT: $1,528.44 (worked-example arithmetic)
 - Biweekly withholding (26 pay periods): $1,528.44 / 26 = **$58.79 per pay period**.
 
 **Wisconsin UI for the company (new employer, non-construction):**
@@ -330,7 +330,7 @@ Part B (need 6 of 9):
 | 3 | Multiple contracts | YES -- 5 other clients ✓ |
 | 4 | Incurs main expenses | YES -- software licenses, computer, home studio ✓ |
 | 5 | Responsible for satisfactory completion | YES -- contract specifies rework obligation ✓ |
-| 6 | Compensation per-job, commission, or bid | YES -- $4,800 per logo, per-job basis ✓ |
+| 6 | Compensation per-job, commission, or bid | YES -- hypothetical $4,800 per logo, per-job basis ✓ |
 | 7 | May realize profit or suffer loss | YES -- fixed-price contracts can be unprofitable ✓ |
 | 8 | Recurring business liabilities | YES -- software subscriptions, hosting, business insurance ✓ |
 | 9 | Success depends on receipts vs expenditures | YES -- Maya runs a profit/loss business ✓ |
