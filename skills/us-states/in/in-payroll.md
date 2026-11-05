@@ -188,7 +188,7 @@ Mismatches commonly arise from:
 
 ### 5.2 Selected county rates for 2025
 
-**Selected county rates for 2025**  _(DOR Departmental Notice #1)_
+**Selected county rates for 2025**  _(DOR Departmental Notice #1 — the PDF is not archived; every figure in this table is listed under Not yet confirmed below)_
 
 | County | County name (FIPS) | 2025 rate |
 | --- | --- | --- |
