@@ -353,6 +353,8 @@ Virginia holds an annual sales tax holiday (typically the first weekend in Augus
 
 ## Worked examples
 
+All figures in the tests below are hypothetical inputs and listed under Not yet confirmed in Sources.
+
 ### Test 1: Standard Rate Calculation [T1]
 
 **Question:** A retailer in Richmond (Central Virginia, 6.0% total) sells a $1,000 laptop. What is the sales tax?
@@ -394,6 +396,7 @@ Virginia holds an annual sales tax holiday (typically the first weekend in Augus
 **Question:** A Virginia Beach (7.0%) resident buys a $2,000 piece of furniture online from a seller who charges 4% sales tax (from another state). What Virginia use tax is owed?
 
 **Expected Answer:** Virginia use tax at 7.0% = $140. Credit for tax paid to other state: $2,000 x 4% = $80. Net Virginia use tax owed: $140 - $80 = $60.
+
 
 ### Reviewer escalation protocol
 
