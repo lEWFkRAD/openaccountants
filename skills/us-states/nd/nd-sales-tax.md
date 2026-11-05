@@ -22,9 +22,9 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Jurisdiction | North Dakota |
 | State rate | 5.00% |
 | Local rate range | 0% -- 3.50% (city) |
-| Maximum combined rate | ~8.50% | (not yet confirmed)
+| Maximum combined rate | see "Not yet confirmed:" in Sources |
 | Sourcing | Destination-based (SST) |
-| Economic nexus | $100,000 in gross sales | (not yet confirmed)
+| Economic nexus | $100,000 in gross sales (US-ND-dr-taxnd-sales-and-use-tax.txt: remote sellers must collect "ONLY IF their taxable sales into the state exceed $100,000 in the current or previous calendar year") |
 | Tax authority | North Dakota Office of State Tax Commissioner |
 | Portal | https://www.tax.nd.gov |
 | SST member | Yes -- Full Member |
@@ -83,47 +83,48 @@ the OpenAccountants network.
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Sources
 
 Not yet confirmed: figures in this skill lack archived line-citations.
+- Maximum combined state+local sales tax rate of ~8.50%: no archived source states a combined maximum (US-ND-dr-nd-local-taxes-by-location.pdf shows a 3.5% city gross-receipts rate for Drayton; US-ND-dr-taxnd-sales-and-use-tax.txt states the 5% state rate).
 
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see "Not yet confirmed:" paragraph) | -- | 2026-10-28 |
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
