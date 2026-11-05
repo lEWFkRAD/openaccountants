@@ -509,7 +509,7 @@ Document the count weekly. Snapshot the headcount each Friday and store the scre
 | Context | Test |
 | --- | --- |
 | State income tax withholding | **IRS 20-factor / common-law** (Michigan conforms to federal characterization) |
-| Unemployment insurance (UIA) | **Michigan economic reality test** (MCL 421.42, US-MI-dr-mcl-421-42.txt, plus case law) — broader than common-law, results in MORE employees. MCL 421.42(1) states: "Notwithstanding section 43, services performed for an employing unit, for which the employing unit is liable for federal tax against which credit may be taken for contributions required to be paid into a state unemployment compensation fund, except service performed by an individual holding a visa described in section 101(a)(15)(H)(ii)(b) of the immigration and nationality act, 8 USC 1101, shall be employment subject to this act." |
+| Unemployment insurance (UIA) | **Michigan economic reality test** (MCL 421.42, US-MI-dr-mcl-421-42.txt, plus case law) — broader than common-law, results in MORE employees |
 | Wage and hour (minimum wage, ESTA, overtime under Workforce Opportunity Wage Act) | **20-factor**, but LEO leans toward the **ABC test** for certain industries |
 | Workers' compensation | **Economic reality** plus statutory presumption |
 
