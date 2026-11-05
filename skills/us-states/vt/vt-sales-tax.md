@@ -41,7 +41,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 - **[T2] Tier 2 -- Reviewer Judgement Required** — Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
 - **[T3] Tier 3 -- Out of Scope / Escalate** — Do not guess. Escalate to a licensed tax professional.
 
-## Step 0: Client Onboarding Questions
+## Who this applies to
 
 Before proceeding with any Vermont sales tax analysis, collect the following from the client: [T1]
 
@@ -59,6 +59,8 @@ Before proceeding with any Vermont sales tax analysis, collect the following fro
 | 8 | Do you sell into multiple Vermont local jurisdictions? | Local tax rates vary; determines compliance complexity. |
 
 - **Stop condition** — If the client cannot answer questions 1-4, STOP and gather this information before proceeding. (T1)
+
+## Rates, bands and thresholds
 
 ### 1.1 State Sales Tax Rate
 
@@ -160,7 +162,7 @@ Vermont taxes a limited number of services:
 - **Late filing penalty** — 5% of tax due per month, up to 25%. (T1)
 - **Interest rate** — Rate set annually (typically federal short-term rate + specified margin). (T1)
 
-## Step 4: Deductibility / Exemptions
+## The taxable base
 
 Exemptions identified in Step 2 above are the primary deductibility rules for Vermont. Key categories: [T1]
 
@@ -169,6 +171,8 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ve
 - **Agricultural exemptions** — Where applicable per Step 2. (T1)
 - **Manufacturing exemptions** — Where applicable per Step 2. (T2)
 - **Exemption certificate retention** — All exemption certificates must be collected at or before the time of sale and retained per the state's statute of limitations. (T1)
+
+## Cross-border points
 
 ### 3.1 Economic Nexus Threshold [T1]
 
@@ -190,11 +194,7 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ve
 
 - **SST registration status** — Full SST member. SSTRS and CSPs available. (T1)
 
-## Step 6: Filing Deadlines and Penalties
-
-Refer to Step 3 for filing frequencies and due dates. [T1]
-
-## PROHIBITIONS
+## Ask the client first
 
 - **Clothing exemption assumption** — NEVER assume clothing is exempt in Vermont. It is fully taxable. (T1)
 - **Meals rate misapplication** — NEVER apply the 6% sales tax rate to restaurant meals. Meals are taxed at 9% (meals tax), not 6%. (T1)
@@ -203,6 +203,12 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - **Wrong due date** — NEVER file Vermont returns by the 20th. The due date is the 25th. (T1)
 - **Grocery food taxation** — NEVER tax grocery food in Vermont. Unprepared food is exempt. (T1)
 - **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. (T1)
+
+## Deadlines and filing
+
+Refer to Step 3 for filing frequencies and due dates. [T1]
+
+## Worked examples
 
 ### EC1 -- SaaS Taxable in Vermont [T2]
 
@@ -319,7 +325,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 **Input:** Customer buys $130 lift ticket at a resort without local option tax. Rate = 6%.
 **Expected output:** Lift tickets are taxable. Tax = $130 x 6% = $7.80. Total = $137.80.
 
-## Reviewer Escalation Protocol
+### Reviewer escalation protocol
 
 **Reviewer Escalation Protocol**
 
@@ -331,7 +337,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 | Penalty abatement or voluntary disclosure | Escalate to licensed professional with state-specific experience. |
 | Ambiguous taxability of a product/service | Present both interpretations to reviewer with supporting authority. |
 
-## Contribution Notes
+### Contribution notes
 
 - This skill follows the Q1 execution format (Step 0 through Step 7).
 - All rules are tagged [T1], [T2], or [T3] per the Confidence Tier Definitions.
@@ -339,11 +345,9 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - To update this skill, submit a pull request with the specific section, supporting statutory authority, and effective date of the change.
 - All changes require validation by a US CPA or EA before merging.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
