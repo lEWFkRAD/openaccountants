@@ -1,4 +1,5 @@
----
+
+| UIA Tax Rates and Liability FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/tax-rates-and-liability | 2026-11-05 |---
 name: mi-payroll
 description: Tier 2 Michigan content skill for employer payroll compliance covering tax year 2025. Includes the 4.25% flat PIT, MI 165 quarterly withholding, MI SUTA wage base $9,500 with rates 0.06-10.30%, the 24 Michigan cities imposing local income tax (Detroit 2.4% resident/1.2% non-resident, Grand Rapids 1.5%/0.75%, plus Lansing/Saginaw/Highland Park/Hamtramck/Battle Creek/Flint/etc.), Detroit Form D-1040 employer withholding, and the Paid Medical Leave Act covering employers with 50+ employees.
 jurisdiction: US-MI
@@ -147,7 +148,7 @@ Lansing MI 48909
 | ≤ $750 | Annual (Form 5081 only) | 5081 |
 | $751 – $3,600 | Quarterly | 5080 quarterly |
 | $3,601 – $720,000 | Monthly | 5080 monthly |
-| > $720,000 | Monthly with EFT-accelerated payments | 5080 + EFT |
+| > $720,000 | Monthly with EFT-accelerated payments (the $720,000 breakpoint is listed under Not yet confirmed; the archived tax text US-MI-dr-tax-text-2025.txt states only "Treasury requires a filing frequency that depends on the amount of tax liability the taxpayer has") | 5080 + EFT |
 
 - **Accelerated EFT threshold** — Accelerated EFT (the historical 'MI-501' trigger): an employer whose annual withholding alone exceeded $480,000 in the look-back year (so roughly $40k/month) must pay via EFT on the same accelerated schedule as federal semi-weekly depositors. The employer still files Form 5080 monthly to reconcile; the EFT payments hit on the 20th of each month and a true-up. For most freelancer/small-business clients, quarterly Form 5080 is the typical posture.
 
@@ -195,7 +196,7 @@ Aggregate late-payment exposure on a missed quarter can easily reach 30-35% of t
 | New-employer rate (most industries) | **2.7%** |
 | New-employer rate, construction (NAICS 23) | **6.0%** (the industry-average construction rate; UIA recomputes annually) |
 | Minimum experience-rated total rate | **0.06%** |
-| Maximum experience-rated total rate | **10.30%** |
+| Maximum experience-rated total rate | **10.30%** (UIA rate-notice range 0.06%-10.3%; new-employer rate 2.7% — UIA Tax Rates and Liability page US-MI-dr-ui-tax-rates-liability.html) |
 
 - **Total rate components** — The total rate is the sum of: - CBC — Chargeable Benefits Component (experience-based, 0%–6.3%) - AC — Account Building Component (0%–2.7%; helps build the employer's reserve) - NBC — Non-Chargeable Benefits Component (0%–1.0%; covers benefits not chargeable to a specific account) - Solvency tax — applies in years the Trust Fund is below the solvency threshold (currently NOT in effect for 2025; verify on Form UIA 1771) Form UIA 1771 (Tax Rate Determination) issued each December tells the employer its rate for the following calendar year.
 
@@ -404,7 +405,7 @@ Document the count weekly. Snapshot the headcount each Friday and store the scre
 | Context | Test |
 | --- | --- |
 | State income tax withholding | **IRS 20-factor / common-law** (Michigan conforms to federal characterization) |
-| Unemployment insurance (UIA) | **Michigan economic reality test** (MCL 421.42 + case law) — broader than common-law, results in MORE employees |
+| Unemployment insurance (UIA) | **Michigan economic reality test** (MCL 421.42 https://www.legislature.mi.gov, plus case law) — broader than common-law, results in MORE employees |
 | Wage and hour (minimum wage, ESTA, overtime under Workforce Opportunity Wage Act) | **20-factor**, but LEO leans toward the **ABC test** for certain industries |
 | Workers' compensation | **Economic reality** plus statutory presumption |
 
@@ -442,7 +443,7 @@ A 5-developer freelance shop reclassified retroactively at the UIA experience-ra
 
 ## 11. Worked examples
 
-### 11.1 Example A — Detroit employer with a non-Detroit-resident commuter
+### 11.1 Worked example A — Detroit employer with a non-Detroit-resident commuter
 
 Acme Software LLC is headquartered at 1500 Woodward Avenue, Detroit (inside city limits). It employs Sarah, who lives in Royal Oak (outside Detroit). Sarah works 4 days/week at the Detroit office and 1 day/week from her Royal Oak home. Sarah's gross annual wages: $104,000 (biweekly: $4,000). She files MI-W4 claiming 1 exemption. She files DW-4 documenting 80% Detroit work-day percentage.
 
@@ -471,7 +472,7 @@ If Acme is a quarterly filer, Q1 2025 Form 5080 (due 20 April 2025) reports:
 
 No Royal Oak tax — Royal Oak is not a UCITO city.
 
-### 11.2 Example B — Multi-city employer (Detroit + Grand Rapids)
+### 11.2 Worked example B — Multi-city employer (Detroit + Grand Rapids)
 
 RegionalCo has its main office in Lansing and a satellite in Grand Rapids. It employs:
 - John — lives in Detroit, works at the Lansing office 5 days/week
@@ -499,7 +500,7 @@ Three city employer accounts + state account = four monthly/quarterly returns pl
 
 This is a common reviewer trap. Many bookkeepers handle only the state and assume the cities will sort themselves out at the employee level. They will not — the employer is jointly liable.
 
-### 11.3 Example C — Contractor misclassification
+### 11.3 Worked example C — Contractor misclassification
 
 SmallApp LLC (4 employees, all in Detroit) engages "Pat" as a 1099 developer. Pat works exclusively for SmallApp, on SmallApp's product, using SmallApp's MacBook, with Slack hours of 9-5 Eastern, for $90,000/year. Pat works from home in Hamtramck. SmallApp issues a 1099-NEC at year-end.
 
@@ -607,4 +608,4 @@ version (and the professional behind it) is at
 
 > **General reference only.** This document does not constitute tax, legal, or
 > financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them.
+> licensed professional before relying on them., the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text)

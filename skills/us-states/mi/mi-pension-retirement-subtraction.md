@@ -87,9 +87,9 @@ PA 4 of 2023 (the Lowering MI Costs Plan) was signed by Governor Whitmer on Marc
 | 2023 | 25% | 1946 – 1958 | $56,961 / $113,922 | $14,240 / $28,481 |
 | 2024 | 50% | 1946 – 1962 | $64,040 / $128,080 | $32,020 / $64,040 |
 | 2025 | 75% | 1946 – 1966 | $65,897 / $131,794 | $49,423 / $98,846 |
-| 2026 | 100% | All retirees (1946+) | $67,610 / $135,220 | $67,610 / $135,220 |
+| 2026 | 100% | All retirees (1946+) | inflation-adjusted maximum (RAB 2026-1: "taxpayers may deduct combined public and private retirement benefits up to the inflation-adjusted private retirement maximum under subsection (1)(f)(iv) of section 30 of the MITA"; the indexed figure is listed under Not yet confirmed) | same as base cap |
 
-**[VERIFY:** the 2026 base cap of $67,610 / $135,220 was reported in the Treasury's RAB 2026-1 summary; the published RAB PDF should be re-fetched at the time of TY-2026 filing to confirm the indexed figure before any 2026 return is signed.**]**
+**Note:** RAB 2026-1 (US-MI-rab-2026-1.html) states the 2026 rule but does not print the indexed dollar figure; the $67,610 / $135,220 figures reported in secondary summaries are listed under Not yet confirmed and must be re-checked against the Form 4884 instructions when the TY-2026 forms are released.
 
 ### 2.4 The all-income Michigan Standard Deduction at age 67+
 
@@ -123,7 +123,7 @@ PA 4 of 2023 (the Lowering MI Costs Plan) was signed by Governor Whitmer on Marc
 - **Tax year 2023** — Phase-in opens at 25% of the 2023 Tier 1 indexed cap ($14,240 single / $28,481 MFJ). Eligible cohort = born 1946 through 1958. Tier 3 taxpayers born after 1958 receive nothing under the new subtraction in 2023 and remain on the legacy regime (no retirement subtraction unless age 67 reached, in which case the $20,000/$40,000 Michigan Standard Deduction applies).  _(PA 4 of 2023)_
 - **Tax year 2024** — Phase-in advances to 50% ($32,020 single / $64,040 MFJ). Eligible cohort expands to 1946 through 1962.  _(PA 4 of 2023)_
 - **Tax year 2025** — Phase-in advances to 75% ($49,423 single / $98,846 MFJ — Form 4884 Worksheet 3.3 line 4). Eligible cohort expands to 1946 through 1966. This is the figure on the 2025 Form 4884.  _(Form 4884 Worksheet 3.3 line 4)_
-- **Tax year 2026** — Phase-in reaches 100% — the full Tier 1 cap of $67,610 single / $135,220 MFJ is available to every retiree born in or after 1946, regardless of cohort. The phase-in is complete. From 2026 onward, the only meaningful birth-year distinction remaining is the unlimited public-pension subtraction reserved to Tier 1 (born before 1946) — and even that is functionally moot, because by TY 2026 the youngest Tier 1 taxpayer is 81 years old and the cohort is shrinking.  _(RAB 2026-1)_
+- **Tax year 2026** — Phase-in reaches 100% — the full Tier 1 cap (the inflation-adjusted private retirement maximum; the indexed dollar figure is listed under Not yet confirmed) is available to every retiree born in or after 1946, regardless of cohort. The phase-in is complete. From 2026 onward, the only meaningful birth-year distinction remaining is the unlimited public-pension subtraction reserved to Tier 1 (born before 1946) — and even that is functionally moot, because by TY 2026 the youngest Tier 1 taxpayer is 81 years old and the cohort is shrinking.  _(RAB 2026-1)_
 
 ### 3.3 Why the structure matters even after 2026
 
@@ -142,7 +142,7 @@ Three reasons the tiers continue to matter even at full restoration:
 | MI-PEN-T1-01 | Begin with federal AGI from federal Form 1040, line 11. Form 4884 reports a **subtraction** that flows to Schedule 1 (MI-1040) line 27. | MCL 206.30(1)(f) |
 | MI-PEN-T1-02 | "Key person" for joint filers = older of taxpayer or spouse. The tier is determined by the key person's year of birth (instructions, Q3 of "Which Section Should I Complete"). | 4884 Instr. p. 22 |
 | MI-PEN-T1-03 | Social Security, railroad retirement, U.S. Armed Forces retirement, and Michigan National Guard retirement are **always fully subtracted** on Schedule 1 line 11, regardless of tier. Do **not** include them on Form 4884 line 8. | 4884 Instr. p. 20 |
-| MI-PEN-T1-04 | The Form 4884 cap (Worksheet 3.1/3.2/3.3 line 1) is **$65,897 single / $131,794 MFJ** for tax year 2025. For TY 2026 the indexed cap is $67,610 / $135,220 (per RAB 2026-1). | 4884 Worksheet 3.1–3.3 |
+| MI-PEN-T1-04 | The Form 4884 cap (Worksheet 3.1/3.2/3.3 line 1) is **$65,897 single / $131,794 MFJ** for tax year 2025. For TY 2026 the cap is the inflation-adjusted maximum per RAB 2026-1 (US-MI-rab-2026-1.html); the indexed dollar figure is listed under Not yet confirmed. | 4884 Worksheet 3.1–3.3 |
 | MI-PEN-T1-05 | The cap on Form 4884 line 1 of each worksheet must be reduced by military / National Guard / railroad retirement subtractions claimed on Schedule 1 line 11. This is **Worksheet 3.1 line 2**, **Worksheet 3.2 line 2**, **Worksheet 3.3 line 2**. | 4884 Worksheet 3.1–3.3 |
 | MI-PEN-T1-06 | **Tier 1 (born before 1946):** complete **Section A** of Form 4884. Subtract **all** public Michigan and federal retirement benefits, plus private benefits up to the cap remaining after public benefits are absorbed (Worksheet 3.1 logic: cap minus public benefits, then take the smaller of remainder or private benefits). | MCL 206.30(1)(f)(i); 4884 Instr. p. 19 |
 | MI-PEN-T1-07 | **Tier 2 (born 1946 – 1952):** Choose **most beneficial of** (i) Section B Form 4884 pension subtraction (Worksheet 3.1), (ii) Section D phased subtraction (Worksheet 3.3, 75% in 2025), or (iii) Worksheet 2 all-income $20,000/$40,000 Michigan Standard Deduction if age 67+. | MCL 206.30(9); 4884 Instr. p. 22 questionnaire |
@@ -379,7 +379,7 @@ Worksheet 2 is not Form 4884 — it is filed on Schedule 1 directly (the $20,000
 - **PA 24 of 2025** — Signed 7 October 2025. Amended MCL 206.30(9) to remove the Social Security offset against the Tier 3 Michigan Standard Deduction for TY 2026 through TY 2028.  _(PA 24 of 2025)_
 - **Form 4884 (TY 2025) and Instructions** — The official form and 30-page instructions package. The Worksheets 2, 3.1, 3.2, 3.3 and the "Which Section of Form 4884 Should I Complete?" page-22 questionnaire are the operational core of this skill.  _(Form 4884 (TY 2025) and Instructions)_
 - **Revenue Administrative Bulletin 2023-22** — Treasury's official interpretation of PA 4 of 2023, referenced from the 2025 Form 4884 instructions (page 21).  _(Revenue Administrative Bulletin 2023-22)_
-- **Revenue Administrative Bulletin 2026-1** — Treasury's published guidance on TY 2026 caps and the PA 24 of 2025 amendments. The TY 2026 cap of $67,610 / $135,220 used in this skill traces to this bulletin.  _(Revenue Administrative Bulletin 2026-1)_
+- **Revenue Administrative Bulletin 2026-1** — Treasury's published guidance on TY 2026 caps and the PA 24 of 2025 amendments. The bulletin states the 2026 rule ("up to the inflation-adjusted private retirement maximum under subsection (1)(f)(iv) of section 30 of the MITA") but does not print the indexed figure.  _(Revenue Administrative Bulletin 2026-1)_
 
 ### 9.2 Secondary references
 

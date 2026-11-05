@@ -256,7 +256,7 @@ A claimant should generally have a PRE in place on the same homestead for which 
 
 > All examples use TY 2025 thresholds. All dollar figures are rounded for clarity. Line numbers refer to the TY 2025 MI-1040CR.
 
-### Example 1 — Standard homeowner
+### Worked example 1 — Standard homeowner
 
 **Facts.** Married couple, both age 45. Own home in Lansing, MI. Property tax paid in 2025 = $4,200. THR = $55,000 (combined wages, no other income). Home taxable value = $90,000 (under cap). No business use.
 
@@ -272,7 +272,7 @@ $1,464 < $1,900 cap.
 Credit = $1,464.
 ```
 
-### Example 2 — Renter
+### Worked example 2 — Renter
 
 **Facts.** Single, age 38, renter in Ann Arbor. Rent paid in 2025 = $18,000. THR = $42,000 (wages and small freelance Schedule C).
 
@@ -289,7 +289,7 @@ $1,678 < $1,900 cap.
 Credit = $1,678.
 ```
 
-### Example 3 — Senior homeowner using Table 2
+### Worked example 3 — Senior homeowner using Table 2
 
 **Facts.** Widow, age 72. Owns home in Grand Rapids since 1982. Property tax paid in 2025 = $2,800. THR = $18,500 (Social Security $14,500 gross + small pension $4,000). Home taxable value = $65,000.
 
@@ -307,7 +307,7 @@ Credit = $1,900 (capped).
 
 > Note how the senior table is dramatically more generous than the regular 60% factor — a non-senior with the identical fact pattern would receive only $1,325 (60% × $2,208).
 
-### Example 4 — High-income / phase-out boundary
+### Worked example 4 — High-income / phase-out boundary
 
 **Facts.** Married homeowner, both age 50, in Northville. Property tax paid in 2025 = $7,800. THR = $66,400 (combined wages plus small Schedule C net income). Home taxable value = $140,000 (under cap).
 

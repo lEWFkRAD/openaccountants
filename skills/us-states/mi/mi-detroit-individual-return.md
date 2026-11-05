@@ -315,7 +315,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 
 ## Section 10: Worked examples
 
-### Example 1 — Detroit resident sole prop with all-Detroit clients
+### Worked example 1 — Detroit resident sole prop with all-Detroit clients
 
 **Facts.** Maya is a freelance software developer, single, age 34, domiciled year-round in a rented apartment on East Lafayette Street, Detroit (verified within Detroit city limits). She runs a single-member LLC disregarded for federal tax. 2025 federal Schedule C net profit: $110,000. She has no W-2 income. She paid $7,773 of ½ SE tax deduction and $8,400 of self-employed health insurance.
 
@@ -333,7 +333,7 @@ Detroit residency is determined **independently** from Michigan state residency.
 
 No credit for tax paid to other city. No Detroit withholding. Full $2,237 owed on Form 5118, due April 15, 2026. Maya should have been making quarterly estimates on Form 5123 because liability exceeded $100.
 
-### Example 2 — Detroit resident employee at a Detroit firm
+### Worked example 2 — Detroit resident employee at a Detroit firm
 
 **Facts.** Marcus, married filing jointly, age 41, domiciled in a single-family home on Conant Street, Detroit. His spouse Tasha is also a Detroit resident. Marcus earns $82,000 W-2 wages from a Detroit-headquartered employer; Detroit withholding (Box 19) of $1,968. Tasha earns $46,000 W-2 from an employer in Warren, MI (no Detroit withholding — Warren has no city income tax). They have two minor children. No other income.
 
@@ -352,7 +352,7 @@ No credit for tax paid to other city. No Detroit withholding. Full $2,237 owed o
 
 Because both spouses are Detroit residents, both incomes are taxed at the 2.4% resident rate. Tasha's Warren wages are fully taxable to Detroit because Warren imposes no offsetting city tax (no credit available).
 
-### Example 3 — Non-resident sole prop with some Detroit clients (apportionment edge case)
+### Worked example 3 — Non-resident sole prop with some Detroit clients (apportionment edge case)
 
 **Facts.** Priya is a freelance UX designer domiciled in Ferndale, MI (outside Detroit). Single, age 29. 2025 federal Schedule C net profit: $95,000. She works from her Ferndale home office most days, but spent **32 full days** physically at a client site in Detroit (an automotive firm in the New Center area), where she conducted user-testing sessions. She has no employees and no business property in Detroit. Total work days for the year: 230.
 
