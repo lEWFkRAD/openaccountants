@@ -356,7 +356,7 @@ The ND quarterly calendar aligns exactly with the federal Form 1040-ES calendar:
 
 ## Section 13: Worked examples
 
-### Example 1 -- Steady-income ND freelancer ($120,000 expected)
+### Worked example 1 -- Steady-income ND freelancer ($120,000 expected)
 
 **Facts.** Single, full-year ND resident, Bismarck. Freelance software developer. TY 2024 ND tax was $1,420. Expects TY 2025 net Schedule C income of $120,000, federal taxable income of $97,500 after standard deduction and QBI. No W-2 withholding. No prior-year safe harbor issues.
 
@@ -390,7 +390,7 @@ However, prudent practice is to pay anyway to avoid surprises. If the taxpayer e
 
 Pay via ND TAP scheduled debits.
 
-### Example 2 -- Self-employed with Q3 income spike (annualized method)
+### Worked example 2 -- Self-employed with Q3 income spike (annualized method)
 
 **Facts.** Single, ND resident, Fargo. Software consultant. TY 2024 ND tax was $3,200. Expects TY 2025 federal taxable income of $185,000 from a Q3 contract close. Income flow:
 
