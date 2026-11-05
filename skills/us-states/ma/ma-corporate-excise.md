@@ -357,7 +357,7 @@ Because the surtax is on aggregate taxable income for the year, large one-time c
 - **Substantial understatement penalty** — 20% under G.L. c. 62C §35A for understatements exceeding 10% of tax or $1,000.  _(G.L. c. 62C §35A)_
 - **Fraud penalty** — 50% of underpayment.
 
-### Example A — Small Massachusetts C corporation
+### Worked example A — Small Massachusetts C corporation
 
 Boston-based C-corp software vendor. Tax year 2025. Federal taxable income (Form 1120 Line 28) = $850,000. Massachusetts modifications: add back $42,000 of state income tax deducted federally; add back $30,000 of bonus depreciation excess over MACRS; no DRD adjustments. The corporation has $4M of sales, $3.2M sourced to Massachusetts customers (services, sourced under market-based rules). Massachusetts tangible property: $180,000 of equipment located in Boston (not subject to local property tax because it's office furniture and a small portion exempt from local personal property tax for non-manufacturing). Net worth (book equity): $1.4M. The corporation is **not** a manufacturing or R&D corporation.
 
@@ -375,7 +375,7 @@ The corporation has $180,000 of MA tangible property; the assets are dominantly 
 
 The corporation files Form 355 by April 15, 2026. Required estimated payments during 2025: 40% by March 15 = $23,790; 25% by June 15 = $14,869; 15% by September 15 = $8,921; 20% by December 15 = $11,895.
 
-### Example B — S-corp crossing the sting tax threshold
+### Worked example B — S-corp crossing the sting tax threshold
 
 Cambridge S-corp consulting firm. Tax year 2025. Total receipts (gross) = $10,200,000 (services billed). Federal ordinary business income (Form 1120-S Line 21) = $1,800,000. MA modifications: add back $40,000 of bonus depreciation, $0 state tax. Two equal individual shareholders, both Massachusetts residents, each receiving $900,000 of K-1 ordinary income. MA-source services = 95% (all clients are Massachusetts-headquartered). Apportionment = 95%. Tangible MA property = $90,000 of office equipment (not under 10% test — total assets are predominantly intangible). Net worth = $2,200,000.
 
@@ -399,7 +399,7 @@ Each shareholder's personal MA tax stays at $61,974 (no change to surtax exposur
 
 Note: the sting tax of $52,440 is **separate** from and additional to the PTE election; the entity pays both. The PTE election does not offset the sting tax.
 
-### Example C — High-income individual with capital gain and the 4% surtax
+### Worked example C — High-income individual with capital gain and the 4% surtax
 
 Massachusetts resident individual. Tax year 2025. Single filer. Income:
 

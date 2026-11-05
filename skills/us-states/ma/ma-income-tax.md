@@ -32,7 +32,6 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | Primary form | Form 1 (Massachusetts Resident Income Tax Return) |
 | Filing deadline | April 15, 2027 (for tax year 2026) |
 | Version | 0.1 |
-| Date | May 22, 2026 |
 | Validation status | AI-drafted — Q3 |
 
 ### Sources consulted
