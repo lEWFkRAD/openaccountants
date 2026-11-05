@@ -13,6 +13,111 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 # MI Payroll
 
+## Who this applies to
+
+Michigan employers of any size with Michigan employees, plus out-of-state employers with Michigan-situs work. Covers PIT withholding, UIA contributions, wage and hour, and worker classification.
+
+## Rates, bands and thresholds
+
+The PIT flat rate (4.25%), UIA taxable wage base and rate bands, and the wage floor are in Sections 2, 5 and 10.
+
+## The taxable base
+
+Michigan wages as defined by MCL 206.351 for withholding and MCL 421.1 et seq. for UIA contributions (Sections 2 and 5).
+
+## Deadlines and filing
+
+Form MI-W4 on hire; Form 5080/5081 and MI-1040W by the 20th of the month following the period (Section 4).
+
+## Penalties and interest
+
+Late-withholding and late-UIA penalties and interest are in Sections 2, 5 and 12.
+
+## Cross-border points
+
+Reciprocity with Indiana (file IN-W4), nonresident withholding rules, and multi-state employers are in Sections 3 and 11.
+
+## Worked examples
+
+Section 13 contains the worked examples for withholding and UIA.
+
+## Ask the client first
+
+Where do employees physically work? Are any in Indiana (reciprocity)? Are contractors correctly classified under MCL 421.42?
+
+## Sources
+
+### Statutes
+
+- **Income Tax Act of 1967** — PIT rate, exemptions  _(MCL 206.51 et seq.)_
+- **Withholding provisions** — Withholding provisions  _(MCL 206.351)_
+- **Uniform City Income Tax Ordinance** — Uniform City Income Tax Ordinance  _(MCL 141.501 et seq.)_
+- **Michigan Employment Security Act** — UIA  _(MCL 421.1 et seq.)_
+- **SUTA Dumping Prevention** — SUTA Dumping Prevention  _(MCL 421.22b)_
+- **Earned Sick Time Act** — as amended by Public Act 7 of 2025  _(MCL 408.961a et seq.)_
+
+| Source | URL | Read on |
+|---|---|---|
+| UIA Taxable Wage Base FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/taxable-wage-base | 2026-11-05 |
+| UIA Tax Rates and Liability FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/tax-rates-and-liability | 2026-11-05 |
+| UIA Filing Requirements FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/filing-requirements | 2026-11-05 |
+| Michigan Tax Text 2025 (withholding + UIA sections) | https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/Taxes/Business/MI-Tax-Text-2025.pdf | 2026-10-25 |
+| Michigan Legal MCT (MCL citations) | https://www.michigan.gov/legislature | 2026-10-25 |
+
+Not yet confirmed: the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text), and the PFML employer-paid benefit levels for 2026 (the archived UIA FAQ covers only the 0.2% employee premium).
+
+### Statutes
+
+### Statutes
+
+- **Income Tax Act of 1967** — PIT rate, exemptions  _(MCL 206.51 et seq.)_
+- **Withholding provisions** — Withholding provisions  _(MCL 206.351)_
+- **Uniform City Income Tax Ordinance** — Uniform City Income Tax Ordinance  _(MCL 141.501 et seq.)_
+- **Michigan Employment Security Act** — UIA  _(MCL 421.1 et seq.)_
+- **SUTA Dumping Prevention** — SUTA Dumping Prevention  _(MCL 421.22b)_
+- **Earned Sick Time Act** — as amended by Public Act 7 of 2025  _(MCL 408.961a et seq.)_
+- **Paid Medical Leave Act** — repealed by ESTA effective 21 February 2025, but historical for pre-2025 compliance  _(MCL 408.961-408.973)_
+- **Improved Workforce Opportunity Wage Act** — Improved Workforce Opportunity Wage Act  _(MCL 408.931 et seq.)_
+
+### Case law
+
+- **Mothering Justice v. Attorney General** — adopt-and-amend unconstitutional  _(___ Mich ___ (31 July 2024))_
+- **Kidder v. Miller-Davis Co.** — economic reality test framework  _(455 Mich 25 (1997))_
+
+### Treasury guidance
+
+- **Revenue Administrative Bulletin (RAB) 2024-3** — Income tax rate determination  _(RAB 2024-3)_
+- **Treasury City Tax page** — list of administering cities and rates  _(Treasury "City Tax" page (state of Michigan website))_
+- **Form instructions** — Form 5080, Form 5081, Form 5321, Form 5323 instructions (annual updates)  _(Form 5080, Form 5081, Form 5321, Form 5323 instructions)_
+- **Form UIA 1028 instructions** — annual updates  _(Form UIA 1028 instructions)_
+
+### Federal interactions
+
+- **IRC §3402** — withholding — Michigan conforms to federal taxable-wage definition  _(IRC §3402)_
+- **IRC §3303** — FUTA state credit — Michigan is a fully-compliant state for 2025  _(IRC §3303)_
+
+### Verification reminder
+
+Tax rates, wage bases, and thresholds are subject to legislative change and annual indexing. Verify the following at the start of each engagement:
+- MI PIT rate (Treasury RAB or MCL 206.51 trigger calc)
+- UIA wage base ($9,500 for 2025 — verify via UIA Form 1771)
+- City rates and personal exemptions on each city's website
+- ESTA accrual rules in case of further legislative amendment
+
+## Talk to a verified accountant
+
+This guide is maintained by the OpenAccountants network — accountants who put
+their name behind the tax answers AI gives people. The live, always-current
+version (and the professional behind it) is at
+[openaccountants.com](https://www.openaccountants.com).
+
+- Use it in your AI: https://www.openaccountants.com/connect
+- Meet the accountants: https://www.openaccountants.com/network
+
+> **General reference only.** This document does not constitute tax, legal, or
+> financial advice. Verify figures against the cited primary sources or with a
+> licensed professional before relying on them., the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text)
+
 ## Michigan Payroll — Tier 2 Content Skill (Tax Year 2025)
 
 ## 1. Scope and prerequisites
@@ -550,65 +655,6 @@ Total Michigan exposure: easily $20,000+ over three years for ONE misclassified 
 - **R-MI-7** — Multi-state apportionment for a Michigan-resident remote worker performing services in another state. Defer to us-multistate-payroll.  _(R-MI-7)_
 - **R-MI-8** — Pension administrator obligations under Form MI-W4P. Pension administration is a regulated activity.  _(R-MI-8)_
 
-## Sources
-
-### Statutes
-
-- **Income Tax Act of 1967** — PIT rate, exemptions  _(MCL 206.51 et seq.)_
-- **Withholding provisions** — Withholding provisions  _(MCL 206.351)_
-- **Uniform City Income Tax Ordinance** — Uniform City Income Tax Ordinance  _(MCL 141.501 et seq.)_
-- **Michigan Employment Security Act** — UIA  _(MCL 421.1 et seq.)_
-- **SUTA Dumping Prevention** — SUTA Dumping Prevention  _(MCL 421.22b)_
-- **Earned Sick Time Act** — as amended by Public Act 7 of 2025  _(MCL 408.961a et seq.)_
-
-| Source | URL | Read on |
-|---|---|---|
-| UIA Taxable Wage Base FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/taxable-wage-base | 2026-11-05 |
-| UIA Tax Rates and Liability FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/tax-rates-and-liability | 2026-11-05 |
-| UIA Filing Requirements FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/filing-requirements | 2026-11-05 |
-| Michigan Tax Text 2025 (withholding + UIA sections) | https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/Taxes/Business/MI-Tax-Text-2025.pdf | 2026-10-25 |
-| Michigan Legal MCT (MCL citations) | https://www.michigan.gov/legislature | 2026-10-25 |
-
-Not yet confirmed: the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text), and the PFML employer-paid benefit levels for 2026 (the archived UIA FAQ covers only the 0.2% employee premium).
-
-### Statutes
-
-### Statutes
-
-- **Income Tax Act of 1967** — PIT rate, exemptions  _(MCL 206.51 et seq.)_
-- **Withholding provisions** — Withholding provisions  _(MCL 206.351)_
-- **Uniform City Income Tax Ordinance** — Uniform City Income Tax Ordinance  _(MCL 141.501 et seq.)_
-- **Michigan Employment Security Act** — UIA  _(MCL 421.1 et seq.)_
-- **SUTA Dumping Prevention** — SUTA Dumping Prevention  _(MCL 421.22b)_
-- **Earned Sick Time Act** — as amended by Public Act 7 of 2025  _(MCL 408.961a et seq.)_
-- **Paid Medical Leave Act** — repealed by ESTA effective 21 February 2025, but historical for pre-2025 compliance  _(MCL 408.961-408.973)_
-- **Improved Workforce Opportunity Wage Act** — Improved Workforce Opportunity Wage Act  _(MCL 408.931 et seq.)_
-
-### Case law
-
-- **Mothering Justice v. Attorney General** — adopt-and-amend unconstitutional  _(___ Mich ___ (31 July 2024))_
-- **Kidder v. Miller-Davis Co.** — economic reality test framework  _(455 Mich 25 (1997))_
-
-### Treasury guidance
-
-- **Revenue Administrative Bulletin (RAB) 2024-3** — Income tax rate determination  _(RAB 2024-3)_
-- **Treasury City Tax page** — list of administering cities and rates  _(Treasury "City Tax" page (state of Michigan website))_
-- **Form instructions** — Form 5080, Form 5081, Form 5321, Form 5323 instructions (annual updates)  _(Form 5080, Form 5081, Form 5321, Form 5323 instructions)_
-- **Form UIA 1028 instructions** — annual updates  _(Form UIA 1028 instructions)_
-
-### Federal interactions
-
-- **IRC §3402** — withholding — Michigan conforms to federal taxable-wage definition  _(IRC §3402)_
-- **IRC §3303** — FUTA state credit — Michigan is a fully-compliant state for 2025  _(IRC §3303)_
-
-### Verification reminder
-
-Tax rates, wage bases, and thresholds are subject to legislative change and annual indexing. Verify the following at the start of each engagement:
-- MI PIT rate (Treasury RAB or MCL 206.51 trigger calc)
-- UIA wage base ($9,500 for 2025 — verify via UIA Form 1771)
-- City rates and personal exemptions on each city's website
-- ESTA accrual rules in case of further legislative amendment
-
 ## End of mi-payroll skill v0.1 — pending review.
 
 End of mi-payroll skill v0.1 — pending review.
@@ -616,17 +662,3 @@ End of mi-payroll skill v0.1 — pending review.
 <!-- openaccountants-cta-block -->
 
 ---
-
-## Talk to a verified accountant
-
-This guide is maintained by the OpenAccountants network — accountants who put
-their name behind the tax answers AI gives people. The live, always-current
-version (and the professional behind it) is at
-[openaccountants.com](https://www.openaccountants.com).
-
-- Use it in your AI: https://www.openaccountants.com/connect
-- Meet the accountants: https://www.openaccountants.com/network
-
-> **General reference only.** This document does not constitute tax, legal, or
-> financial advice. Verify figures against the cited primary sources or with a
-> licensed professional before relying on them., the $720,000 accelerated-EFT breakpoint in the filing-frequency ladder (not stated in the archived tax text)
