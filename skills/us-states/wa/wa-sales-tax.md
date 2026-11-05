@@ -335,7 +335,7 @@ Not yet confirmed against archived sources.
 
 ## Sources
 
-Not yet confirmed: the Tacoma, Olympia, Spokane, Vancouver, Edmonds and Lynnwood local-rate rows (only the King/Seattle row is verbatim in the archived Q426 rate flyer: "King            Seattle                                            1726      .0405   .0650       .1055").
+Not yet confirmed: none — every sample-rate row matches the archived Q426 rate flyer in decimal form (e.g. "King            Seattle                                            1726      .0405   .0650       .1055", Tacoma .0400/.0650/.1050, Olympia .0350/.0650/.1000, Spokane (City) .0260/.0650/.0910, Vancouver .0240/.0650/.0890, Edmonds .0420/.0650/.1070, Lynnwood .0420/.0650/.1070).
 
 
 | Source | URL | Read on |
