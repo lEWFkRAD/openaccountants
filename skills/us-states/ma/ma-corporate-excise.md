@@ -3,7 +3,7 @@ name: ma-corporate-excise
 description: Massachusetts Corporate Excise and 4% Individual Surtax
 jurisdiction: US-MA
 tax_year: 2025
-last_updated: 2026-07-13
+last_updated: 2026-10-28
 review_status: pending_review
 trust_label: Built by Michael Cutajar and the OpenAccountants team
 tier: 2
@@ -120,6 +120,7 @@ S-corp with $10.5M gross receipts and $1.2M of MA-apportioned income, $400k of M
 - **Pre-2025 three-factor formula** — Prior to tax year 2025, general business corporations used a three-factor formula with double-weighted sales under G.L. c. 63 §38(c).  _(G.L. c. 63 §38(c))_
 - **Pre-2025 apportionment formula** — Apportionment % = (Property + Payroll + 2 × Sales) / 4  _(G.L. c. 63 §38(c))_
 - **Extension of single sales factor to all corporations** — Manufacturing corporations, R&D corporations, mutual fund service corporations, and defense corporations already used single sales factor under §38(l). The FY2024 Tax Reform (Chapter 50, Acts of 2023, §§ 27–29) extended single sales factor to all general business corporations effective for tax years beginning on or after January 1, 2025.  _(G.L. c. 63 §38(l); Chapter 50, Acts of 2023, §§ 27–29)_
+- **§38(c) statutory text VERIFIED** vs archived [G.L. c. 63 §38](https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section38) (retrieved 2026-10-28): "(c) ... its taxable net income ... shall be apportioned to the commonwealth by multiplying such taxable net income by the sales factor"; "(d) The sales factor is a fraction, the numerator of which is the total sales of the corporation in the commonwealth ... the denominator ... total sales ... everywhere". Fallback: if the sales factor is inapplicable (both terms zero; denominator < 10% of one-third of taxable net income; or commissioner deems it insignificant), apportionment falls back to **property and payroll in the commonwealth** (§38(g)) — note the numerator-zero case alone does NOT make the factor inapplicable. Throwout-type rule: sales to states where the taxpayer is not taxable and cannot be assigned are excluded from both numerator and denominator (§38(f)-type clause quoted in the archived text).
 - **2025+ apportionment formula** — Apportionment % = MA Sales / Everywhere Sales  _(Chapter 50, Acts of 2023, §§ 27–29)_
 - **Property and payroll no longer in apportionment** — Property and payroll are no longer part of the apportionment fraction (though property is still relevant for the property measure under Section 3, and payroll is relevant for nexus and other purposes).
 
