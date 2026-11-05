@@ -531,7 +531,7 @@ Document the count weekly. Snapshot the headcount each Friday and store the scre
 
 ## Worked example — reclassification exposure
 
-A 5-developer freelance shop reclassified retroactively at the UIA experience-rate maximum 10.30% × $9,500 × 5 × 6 years = ~$29,355 of back UIA alone, before interest and Treasury.
+A 5-developer freelance shop reclassified retroactively at the UIA experience-rate maximum 10.30% × $9,500 × 5 developers × 6 years (the look-back window listed under Not yet confirmed) = ~$29,355 of back UIA alone, before interest and Treasury.
 
 ## 10. W-2, 1099, and annual reporting
 
