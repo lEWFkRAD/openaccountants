@@ -56,7 +56,7 @@ Self-employed individuals, sole proprietors and single-member LLC owners with Ma
 | --- | --- | --- |
 | Part A income (interest, dividends, capital gains from non-MA obligations) | 5.00% | M.G.L. c. 62, § 4(a) |
 | Part B income (wages, salaries, self-employment, most other income) | 5.00% | M.G.L. c. 62, § 4(b) |
-| Part C income (short-term capital gains) | 8.50% (subject to 50% deduction, effective rate ~12%) | M.G.L. c. 62, § 4(c) |
+| Part C income (short-term capital gains) | 8.50% (US-MA-dr-tax-rates.txt: "Short-term capital gains from the sale or exchange of capital assets \| 8.5%"). The 12.00% collectibles rate (subject to a 50% deduction) is a separate row in the same table. | M.G.L. c. 62, § 4(c) |
 | Long-term capital gains | 5.00% | M.G.L. c. 62, § 4(b) |
 
 ### Millionaire's surtax (4% additional tax)
@@ -140,11 +140,12 @@ Use Form 1-ES for estimated payments.
 | Lines 15–20 | Part B deductions and exemptions | M.G.L. c. 62, § 3 |
 | Line 20 | Part B taxable income | Computed |
 | Line 21 | Part C income (short-term capital gains) | M.G.L. c. 62, § 2 |
-| Line 23 | Total 5% income tax (Part A + Part B at 5%) | Computed |
-| Line 24 | 8.50% tax on Part C | Computed |
+| Line 22 | Tax on 5.0% income (Part A + Part B at 5%) — US-MA-dr-form1-2025-instr-full.txt: "TAX ON 5.0% INCOME" | Computed |
+| Line 23 | 8.50% tax on Schedule B (Part C) income — US-MA-dr-form1-2025-instr-full.txt | Computed |
+| Line 24 | Tax on long-term capital gains — US-MA-dr-form1-2025-instr-full.txt: "TAX ON LONG-TERM CAPITAL GAINS" | Computed |
 | Line 25 | Total income tax before credits | Sum |
 | Line 28 | Credits | Various |
-| Line 29 | 4% surtax (if applicable) | M.G.L. c. 62, § 5A |
+| Line 28b | 4% surtax (if applicable) — US-MA-dr-form1-2025-instr-full.txt: "4% Surtax" | M.G.L. c. 62, § 5A |
 | Lines 34–39 | Payments, withholding, estimated payments | Various |
 | Line 43 | Balance due or refund | Computed |
 
@@ -231,7 +232,7 @@ Late filing and late payment penalties plus interest apply under M.G.L. c. 62C (
 | Freelance income (Schedule C) | Part B income. Taxed at 5%. |
 | Rental income (Schedule E) | Part B income. Taxed at 5%. |
 | Short-term capital gains | Part C income. Taxed at 8.50%. |
-| Long-term capital gains | Part B income. Taxed at 5%. |
+| Long-term capital gains | Taxed at 5% (US-MA-dr-tax-rates.txt). The archived c. 62 §2 does not classify LTCG as Part B; the Part B label is listed under Not yet confirmed in Sources. |
 | Interest / dividends | Part A income. Taxed at 5%. MA and U.S. obligations exempt. |
 | Social Security | Fully exempt. |
 | Pension / retirement | Part B income. Taxed at 5%. |
@@ -248,7 +249,7 @@ Resident or part-year? Part A vs Part B vs Part C income mix? Above the surtax t
 | US-MA-dr-form1-2025-instr-full.txt | https://www.mass.gov/doc/2025-form-1-instructions/download | exemptions, $8,000 threshold, rental deduction, quarterly dates (2026-11-01) |
 | US-MA-dr-c62-s4.txt | https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4 | 8.5 per cent short-term capital gains rate (2026-11-01) |
 
-Not yet confirmed: the 2026 surtax threshold (indexed; not yet published in an archived source), and the c. 62C late-filing/late-payment monthly penalty percentages (no archived c. 62C §33 text in this pack).
+Not yet confirmed: the 2026 surtax threshold (indexed; not yet published in an archived source), the classification of long-term capital gains as Part B income (the archived c. 62 §2 puts capital gains in Part A), and the c. 62C late-filing/late-payment monthly penalty percentages (no archived c. 62C §33 text in this pack).
 
 ## Talk to a verified accountant
 
