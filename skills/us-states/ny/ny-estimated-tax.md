@@ -1,8 +1,9 @@
 ---
 name: ny-estimated-tax
-description: Use this skill whenever asked about New York State estimated tax (Form IT-2105) for self-employed individuals. Trigger on phrases like "IT-2105", "NY estimated tax", "New York quarterly tax", "MCTMT", "NYC estimated tax", "Yonkers tax", "NY underpayment penalty", "IT-2105.9", or any question about quarterly estimated income tax payments for New 
+description: Use this skill whenever asked about New York State estimated tax (Form IT-2105) for self-employed individuals. Trigger on phrases like "IT-2105", "NY estimated tax", "New York quarterly tax", "MCTMT", "NYC estimated tax", "Yonkers tax", "NY underpayment penalty", "IT-2105 line 9", or any question about quarterly estimated income tax payments for
+| Form IT-2105 line 9 instructions (IT-2105(9)I) | https://www.tax.ny.gov/pdf/2025/inc/it2105_9i_2025.pdf | 2026-11-05 | New 
 | NY Tax Law 30-A (Yonkers surcharge) | https://www.nysenate.gov/legislation/laws/TAX/30-A | 2026-11-05 |
-| NY Tax Law Article 23 (MCTMT) | https://www.nysenate.gov/legislation/laws/TAX/A23 | 2026-10-25 |York State, NYC, or Yonkers. Covers quarterly instalment requirements, safe harbour rules, MCTMT estimated payments, underpayment penalty via IT-2105.9, and NYC estimated tax. ALWAYS read this skill before touching any NY estimated tax work.
+| NY Tax Law Article 23 (MCTMT) | https://www.nysenate.gov/legislation/laws/TAX/A23 | 2026-10-25 |York State, NYC, or Yonkers. Covers quarterly instalment requirements, safe harbour rules, MCTMT estimated payments, underpayment penalty via IT-2105 line 9, and NYC estimated tax. ALWAYS read this skill before touching any NY estimated tax work.
 version: 2.0
 jurisdiction: US-NY
 tax_year: 2025
@@ -27,7 +28,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 | --- | --- |
 | State | New York |
 | Tax | Quarterly estimated income tax (state + NYC + Yonkers) plus MCTMT estimated payments when applicable |
-| Forms | IT-2105 (voucher), IT-2105.9 (underpayment penalty) |
+| Forms | IT-2105 (voucher), IT-2105 line 9 (underpayment penalty) |
 | Primary legislation | NY Tax Law Section 685 |
 | Supporting legislation | NYC Admin Code 11-1701; Yonkers surcharge (https://www.nysenate.gov/legislation/laws/TAX/30-A); MCTMT (https://www.nysenate.gov/legislation/laws/TAX/A23) |
 | Authority | New York State Department of Taxation and Finance (NYSDTF) |
@@ -174,7 +175,7 @@ Output: MCTMT = $80,000 x 0.34% = $272 because Zone 2 NESE exceeds the $50,000 t
 
 ### 5.2 Required annual payment
 
-- **Required annual payment rule** — Required annual payment = lesser of 90% of current-year tax, or 100% of prior-year tax (110% if prior-year NYAGI or prior-year MCTD NESE exceeded $150,000; $75,000 if MFS). The prior-year return must cover a full 12-month year.  _([Form IT-2105.9-I (2025)](https://www.tax.ny.gov/pdf/2025/inc/it2105_9i_2025.pdf))_
+- **Required annual payment rule** — Required annual payment = lesser of 90% of current-year tax, or 100% of prior-year tax (110% if prior-year NYAGI or prior-year MCTD NESE exceeded $150,000; $75,000 if MFS). The prior-year return must cover a full 12-month year.  _([Form IT-2105 line 9-I (2025)](https://www.tax.ny.gov/pdf/2025/inc/it2105_9i_2025.pdf))_
 
 ### 5.3 Quarterly instalments
 
@@ -201,15 +202,15 @@ Output: MCTMT = $80,000 x 0.34% = $272 because Zone 2 NESE exceeds the $50,000 t
 
 ### 6.1 Underpayment penalty
 
-- **Underpayment penalty rule** — Computed on Form IT-2105.9. For tax year 2025, the penalty rate is 9.5% for each period from April 15, 2025 through April 15, 2026. The statutory formula is the federal short-term rate plus 5.5 percentage points, with a 7.5% floor, adjusted quarterly.  _([Form IT-2105.9-I (2025)](https://www.tax.ny.gov/pdf/2025/inc/it2105_9i_2025.pdf))_
+- **Underpayment penalty rule** — Computed on Form IT-2105 line 9. For tax year 2025, the penalty rate is 9.5% for each period from April 15, 2025 through April 15, 2026. The statutory formula is the federal short-term rate plus 5.5 percentage points, with a 7.5% floor, adjusted quarterly.  _([Form IT-2105 line 9-I (2025)](https://www.tax.ny.gov/pdf/2025/inc/it2105_9i_2025.pdf))_
 
 ### 6.2 Safe harbour protection
 
-- **Safe harbor protection rule** — No underpayment penalty applies if withholding and estimated payments meet the required annual payment: the smaller of 90% of 2025 tax or 100%/110% of 2024 tax, with the 110% rule triggered by prior-year NYAGI or MCTD NESE above $150,000 ($75,000 if MFS).  _([Form IT-2105.9-I (2025)](https://www.tax.ny.gov/pdf/2025/inc/it2105_9i_2025.pdf))_
+- **Safe harbor protection rule** — No underpayment penalty applies if withholding and estimated payments meet the required annual payment: the smaller of 90% of 2025 tax or 100%/110% of 2024 tax, with the 110% rule triggered by prior-year NYAGI or MCTD NESE above $150,000 ($75,000 if MFS).  _([Form IT-2105 line 9-I (2025)](https://www.tax.ny.gov/pdf/2025/inc/it2105_9i_2025.pdf))_
 
 ### 6.3 Annualized income instalment method
 
-- **Annualized income instalment method rule** — IT-2105.9 allows annualized method for uneven income. Computes income actually earned through each quarter-end. Reduces early-quarter payments for seasonal freelancers.  _(https://www.tax.ny.gov/pdf/2025/inc/it2105i_2025.pdf)_
+- **Annualized income instalment method rule** — IT-2105 line 9 allows annualized method for uneven income. Computes income actually earned through each quarter-end. Reduces early-quarter payments for seasonal freelancers.  _(https://www.tax.ny.gov/pdf/2025/inc/it2105i_2025.pdf)_
 
 ## Penalties and interest
 
@@ -232,7 +233,7 @@ IT-219 credit reduces NYC estimated tax. Include when estimating.
 
 Prior year safe harbour = $0. Use 90% current year.
 
-Seasonal freelancer: use IT-2105.9 to reduce early-quarter payments.
+Seasonal freelancer: use IT-2105 line 9 to reduce early-quarter payments.
 
 Applied to 1st quarter estimated payment.
 
