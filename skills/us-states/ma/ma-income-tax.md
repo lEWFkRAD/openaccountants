@@ -80,7 +80,7 @@ Massachusetts does **not** use a standard deduction in the federal sense. Instea
 | Personal exemption — Head of Household | $6,800 | M.G.L. c. 62, § 3(B)(b)(2) |
 | Personal exemption — MFJ | $8,800 | M.G.L. c. 62, § 3(B)(b)(1) |
 | Dependent deduction | $1,000 per dependent | M.G.L. c. 62, § 3(B)(a)(3) |
-| Rental deduction | 50% of rent paid, max $3,000 | M.G.L. c. 62, § 3(B)(a)(9) |
+| Rental deduction | 50% of rent paid, up to a maximum of $4,000 per return ($2,000 if married filing a separate return), per the Form 1 instructions (US-MA-dr-form1-2025-instr-full.txt: "up to a maximum of $4,000 per return") | M.G.L. c. 62, § 3(B)(a)(9) |
 
 ### Filing threshold
 
