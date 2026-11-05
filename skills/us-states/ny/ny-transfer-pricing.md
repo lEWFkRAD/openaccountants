@@ -27,7 +27,7 @@ version: 0.1
 
 ## Who this applies to
 
-C corporations and other general business corporations taxable under Tax Law Chapter 9-A that are related to, or unitary with, other corporations -- especially groups routing intangibles, financing, or services through low-tax affiliates. New York taxes Chapter 9-A corporations on the **highest of three bases** (business income base, capital base, tax on net income) plus the MTA surcharge where applicable, and requires **combined filing on Form CT-3-A** for related corporations. _(tax.ny.gov/bus/ct/article9a.htm, 200 with text, 2026-10-25.)_ (listed under "Not yet confirmed:" in Sources)
+C corporations and other general business corporations taxable under Tax Law Chapter 9-A that are related to, or unitary with, other corporations -- especially groups routing intangibles, financing, or services through low-tax affiliates. New York taxes Chapter 9-A corporations on the **highest of three bases** (business income base, capital base, tax on net income) plus the MTA surcharge where applicable, and requires **combined filing on Form CT-3-A** for related corporations. _(tax.ny.gov/bus/ct/article 9 a.htm, 200 with text, 2026-10-25.)_ (listed under "Not yet confirmed:" in Sources)
 
 ## Rates, bands and thresholds
 
@@ -118,10 +118,10 @@ expected:
 
 Not yet confirmed: figures below the Sources heading lack archived line-citations.
 
-- NYS DTF -- Chapter 9-A overview (three bases, CT-3 vs CT-3-A combined filing, MTA surcharge): <https://www.tax.ny.gov/bus/ct/article9a.htm> -- 200 with text, 2026-10-25.
+- NYS DTF -- Chapter 9-A overview (three bases, CT-3 vs CT-3-A combined filing, MTA surcharge): <https://www.tax.ny.gov/bus/ct/article 9 a.htm> -- 200 with text, 2026-10-25.
 - NYS DTF -- Form CT-3-A instructions (7.25% rate factor 0.0725 in the rate table; combined-group lines): <https://www.tax.ny.gov/pdf/current_forms/ct/ct3ai.pdf> -- 200 PDF, 2026-10-25.
 - NYS DTF -- Form CT-3-A (combined return form): <https://www.tax.ny.gov/pdf/current_forms/ct/ct3a.pdf> -- 200 PDF, 2026-10-25.
-- NYS DTF -- Deriving combined group receipts: <https://www.tax.ny.gov/bus/ct/article9a_deriving_receipts.htm> -- linked from the Chapter 9-A page, 2026-10-25.
+- NYS DTF -- Deriving combined group receipts: <https://www.tax.ny.gov/bus/ct/article 9 a_deriving_receipts.htm> -- linked from the Chapter 9-A page, 2026-10-25.
 - Tax Law §§ 210-A, 210-B, 210-C, 251 statute text; 2026 CT-4 installment percentages; penalty schedule: listed under "Not yet confirmed:" in Sources** -- not fetched 2026-10-25.
 
 <!-- openaccountants-cta-block -->
