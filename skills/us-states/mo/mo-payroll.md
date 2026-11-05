@@ -26,7 +26,7 @@ This skill covers employer payroll compliance obligations in the State of Missou
 - **MO W-4** -- In scope
 - **MO-941** -- In scope
 - **MO-W-3** -- In scope
-- **MO UI** -- In scope, taxable wage base set by the §288.036 trust-fund formula (current-year figure not yet confirmed), experience-rated contribution schedule (0.0% to 9.75%), quarterly Form MODES-4-7  _(Chapter 288 RSMo)_
+- **MO UI** -- In scope, taxable wage base set by the §288.036 trust-fund formula (current-year figure: see Not-yet-confirmed in Sources), experience-rated contribution schedule (0.0% to 9.75%), quarterly Form MODES-4-7  _(Chapter 288 RSMo)_
 - **Kansas City Earnings Tax** -- 1% earnings tax on residents wherever earned and non-residents for work within KC corporate limits  _(Chapter 68 of the Code of Ordinances of Kansas City, Missouri)_
 - **St. Louis City Earnings Tax** -- 1% earnings tax on residents wherever earned and non-residents for work within corporate limits of the City of St. Louis (NOT St. Louis County)  _(Chapter 5.22 of the Revised Code of the City of St. Louis)_
 - **Worker classification** -- 20-factor common law test applied by MO DES and DOR, contrasted with federal IRS three-category framework
@@ -92,8 +92,8 @@ The Missouri Department of Revenue typically announces in late summer or early a
 
 - **No separate flat supplemental wage rate** -- Missouri does not publish a separate flat supplemental wage withholding rate  _(§143.191 RSMo or 12 CSR 10-2.015)_
 - **Aggregate method** -- Add the supplemental wage to the most recent regular wage payment and withhold on the combined total using the regular formula, less the amount withheld on the regular wage  _(Form 4282)_
-- **Flat-rate method for supplemental wages** -- a flat supplemental rate is available; the current rate is not yet confirmed (Form 4282 is not archived)
-- **Default supplemental rate guidance** -- The reviewer should verify the current supplemental rate on Form 4282 for the year; the figure is not yet confirmed
+- **Flat-rate method for supplemental wages** -- a flat supplemental rate is available; the current rate: see Not-yet-confirmed in Sources (Form 4282 is not archived)
+- **Default supplemental rate guidance** -- The reviewer should verify the current supplemental rate on Form 4282 for the year; the figure: see Not-yet-confirmed in Sources
 - **Aggregate method documentation and requirement** -- If the aggregate method is used, document the underlying regular-wage withholding computation in the payroll file. If the supplemental wage is paid in the same pay period as a regular wage, the aggregate method is required
 
 ### 2.4 Standard deduction and personal exemption
@@ -101,7 +101,7 @@ The Missouri Department of Revenue typically announces in late summer or early a
 - **MO conformity to federal standard deduction** -- Missouri conforms to the federal standard deduction  _(§143.131 RSMo)_
 - **2025 federal standard deduction - Single or MFS** -- $15,000  _(§143.131 RSMo)_
 - **2025 federal standard deduction - MFJ or Qualifying Surviving Spouse** -- $30,000  _(§143.131 RSMo)_
-- **2025 federal standard deduction - Head of Household** -- not yet confirmed (§143.131 RSMo ties the Missouri deduction to the federal one)
+- **2025 federal standard deduction - Head of Household** -- see Not-yet-confirmed in Sources (§143.131 RSMo ties the Missouri deduction to the federal one)
 - **Personal exemption repealed** -- Missouri has no personal exemption (repealed effective tax year 2018)  _(HB 2540 (2018))_
 - **MO W-4 collections** -- The MO W-4 collects allowances, additional withholding, exempt status, and Missouri-specific deductions, but no personal exemption
 
@@ -196,10 +196,10 @@ A separate transmittal applies to 1099-MISC and 1099-NEC information returns rep
 
 ### 6.1 Wage base and rates for 2025
 
-- **Taxable wage base** -- §288.036 RSMo sets the base by trust-fund formula, floor $7,000, ceiling $13,000; the CY2025 figure is not yet confirmed  _(§288.036.2 RSMo, archived)_
-- **Wage base history** -- §288.036 RSMo (archived) sets the base at $11,000 for calendar years 2005–2007 and $12,000 for 2008, then indexed by trust-fund balance within a $7,000–$13,000 band; later-year figures are not yet confirmed  _(§288.036 RSMo, archived)_
-- **New employer rate - non-construction** -- not yet confirmed (§288.123 RSMo)
-- **New employer rate - construction** -- not yet confirmed  _(§288.123 RSMo)_
+- **Taxable wage base** -- §288.036 RSMo sets the base by trust-fund formula, floor $7,000, ceiling $13,000 (US-MO-rsmo-288-036.html: "in no event shall the state taxable wage base increase beyond thirteen thousand dollars, or decrease to less than seven thousand dollars"); the CY2025 figure: see Not-yet-confirmed in Sources  _(§288.036.2 RSMo, archived)_
+- **Wage base history** -- §288.036 RSMo sets the base at $11,000 for calendar years 2005–2007 and $12,000 for 2008 (US-MO-rsmo-288-036.html: "the state taxable wage base for calendar year 2005, 2006, and 2007 shall be eleven thousand dollars. The taxable wage base for calendar year 2008 shall be twelve thousand dollars"), then indexed by trust-fund balance within a $7,000–$13,000 band; later-year figures: see Not-yet-confirmed in Sources  _(§288.036 RSMo, archived)_
+- **New employer rate - non-construction** -- see Not-yet-confirmed in Sources (the archived §288.123 RSMo copy is the enactment repealed in 1988, no current rate text)
+- **New employer rate - construction** -- see Not-yet-confirmed in Sources  _(§288.123 RSMo, archived copy repealed)_
 - **Experience-rated employer rates 2025** -- 0.0% to 9.75%
 - **Experience rate computation** -- The rate is computed from the employer's reserve ratio (cumulative contributions less benefit charges, divided by average annual taxable payroll over the prior three completed calendar years) and looked up on the contribution rate schedule effective for the calendar year. Schedules A through I are statutorily defined; the Division of Employment Security announces the applicable schedule each November for the following calendar year based on the average balance of the Unemployment Compensation Trust Fund.  _(§288.121 RSMo)_
 
@@ -352,9 +352,9 @@ Same pattern as KC: a non-resident commuting daily to a City of St. Louis workpl
 
 ### 10.3 Paid sick leave -- state status as of 2025
 
-- **Proposition A statewide sick leave** -- In November 2024, Missouri voters approved Proposition A, a statewide paid sick leave entitlement effective May 1, 2025 (accrual details not yet confirmed; no archived text).
+- **Proposition A statewide sick leave** -- In November 2024, Missouri voters approved Proposition A, a statewide paid sick leave entitlement effective May 1, 2025 (accrual details: see Not-yet-confirmed in Sources; no archived text -- the archived US-MO-rsmo-290-502.html covers the Proposition A minimum wage, not sick-leave accrual).
 - **HB 567 repeal** -- HB 567 was enacted and signed by the Governor on July 10, 2025, repealing the Prop A paid sick leave provisions with effect August 28, 2025 (the standard general-statute effective date). After August 28, 2025, Missouri has no statewide paid sick leave mandate.  _(HB 567 (2025))_
-- **Carve-out 1: St. Louis ordinance** -- The City of St. Louis Paid Sick Time Ordinance (Ordinance 71926) is asserted to remain in force as a municipal enactment under home-rule authority; the ordinance text is not archived, so this is not yet confirmed.  _(Ordinance 71926)_
+- **Carve-out 1: St. Louis ordinance** -- The City of St. Louis Paid Sick Time Ordinance (Ordinance 71926) is asserted to remain in force as a municipal enactment under home-rule authority; the ordinance text is not archived, so this is listed under Not-yet-confirmed in Sources.  _(Ordinance 71926)_
 - **Carve-out 2: accrued Prop A leave transition** -- Accrued sick leave under Prop A between May 1, 2025 and August 28, 2025 is arguably vested for employees who earned it. Employer policy on retention or cash-out of accrued Prop A leave is a contract/transition issue -- reviewers should advise the employer to document a written transition policy.
 - **No paid family leave** -- Missouri has no statewide paid family leave.
 
@@ -395,7 +395,7 @@ Cottonwood's average monthly MO withholding is approximately $480 -- placing it 
 
 *MO PIT withholding*: Cottonwood withholds MO PIT on all three employees using the MO W-4 each provides and the MO Withholding Tax Formula (Form 4282). Files MO-941 quarterly (Q1 due April 30, etc.); reconciles via MO-W-3 by January 31, 2026.
 
-*MO UI*: Cottonwood is subject to MO UI for all three employees. The taxable wage base is set by §288.036 (the current-year figure is not yet confirmed). Using a hypothetical base of $9,500 and a hypothetical 2.0% experience rate, contribution = $9,500 × 3 × 2.0% = $570 per year (hypothetical). Files MODES-4-7 quarterly.
+*MO UI*: Cottonwood is subject to MO UI for all three employees. The taxable wage base is set by §288.036 (the current-year figure: see Not-yet-confirmed in Sources). Using a hypothetical base of $9,500 and a hypothetical 2.0% experience rate, contribution = $9,500 × 3 × 2.0% = $570 per year (hypothetical). Files MODES-4-7 quarterly.
 
 *KC E-Tax -- Anya (KC resident)*: 1% withheld on full $52,000 wage = $520 per year withheld and remitted to KC Revenue Division. Anya files RD-109 if she has KC-source income that wasn't withheld, but with full employer withholding she has no balance due.
 
@@ -409,7 +409,7 @@ Cottonwood's average monthly MO withholding is approximately $480 -- placing it 
 
 *Final pay*: If Carla resigns, her final pay is due by the next regular payday. If Cottonwood discharges Brendan, Brendan may demand his final pay on the day of discharge by written request.
 
-*New hire reporting*: New hires must be reported to MO DSS Family Support Division; the reporting deadline is not yet confirmed (no archived source).
+*New hire reporting*: New hires must be reported to MO DSS Family Support Division; the reporting deadline: see Not-yet-confirmed in Sources (no archived source).
 
 **Reviewer brief -- Cottonwood Bakery**
 
@@ -431,7 +431,7 @@ Riverfront Engineering, P.C. is a hypothetical professional engineering corporat
 - David, City of St. Louis resident, senior engineer, $115,000 salary (hypothetical), hybrid: 3 days/week at the Market Street office, 2 days/week at his home in the city.
 - Erin, Webster Groves (St. Louis County) resident, junior engineer, $72,000 salary (hypothetical), fully on-site 5 days/week at Market Street.
 - Frank, City of St. Louis resident, civil drafter, $58,000 salary (hypothetical), fully remote at his home in the city.
-- Grace, Clayton resident, project manager, $95,000 salary (hypothetical), fully remote at her home in Clayton (Boles v. City of St. Louis (Mo. Ct. App. 2023) is asserted to make her wages NOT St. Louis-source despite the employer's downtown HQ; the case is not archived, so this is not yet confirmed).
+- Grace, Clayton resident, project manager, $95,000 salary (hypothetical), fully remote at her home in Clayton (Boles v. City of St. Louis (Mo. Ct. App. 2023) is asserted to make her wages NOT St. Louis-source despite the employer's downtown HQ; the case is not archived, so this is listed under Not-yet-confirmed in Sources).
 
 Riverfront's average monthly MO withholding is approximately $1,250 -- placing it in the monthly MO-941 filing frequency ($500–$8,999 monthly average).
 
@@ -510,7 +510,7 @@ Before signoff on a Missouri payroll engagement, the reviewer must confirm:
 | 5 | §143.591 RSMo (W-2 transmittal) | https://revisor.mo.gov/main/OneSection.aspx?section=143.591 | 2026-10-29 |
 | 6 | §290.502 RSMo (Minimum wage indexing) | https://revisor.mo.gov/main/OneSection.aspx?section=290.502 | 2026-10-29 |
 | 7 | Chapter 288 RSMo, especially §288.034, §288.036, §288.090, §288.121, §288.123, §288.160 (Missouri UI) | https://revisor.mo.gov/main/OneSection.aspx?section=288.036 | 2026-10-29 |
-Not yet confirmed: the citations above -- archived fetches did not all return readable text, and citations without an archived copy (e.g. §143.191, §143.221, §143.741, §285.300, §290.080, §290.110, §67.1571, §92.110/§92.115, 12 CSR 10-2.015, Form 4282, KC ch. 68, STL ch. 5.22, Boles v. STL, Pemberton v. KCNA, Ord. 71926, HB 567, Prop A, HB 1409, SB 3, SB 190, HB 2540) were removed from the table rather than listed unarchived; figures tied to them stay unconfirmed until readable primary text is archived.
+Not yet confirmed: the citations above -- archived fetches did not all return readable text, and citations without an archived copy (e.g. §143.191, §143.221, §143.741, §285.300, §290.080, §290.110, §67.1571, §92.110/§92.115, 12 CSR 10-2.015, Form 4282, KC ch. 68, STL ch. 5.22, Boles v. STL, Pemberton v. KCNA, Ord. 71926, HB 567, Prop A, HB 1409, SB 3, SB 190, HB 2540) were removed from the table rather than listed unarchived; figures tied to them stay unconfirmed until readable primary text is archived. Figures moved out of the body by the marker sweep and likewise unconfirmed: the CY2025 UI taxable wage base, the new-employer non-construction and construction rates, the supplemental-wage flat withholding rate, the 2025 federal standard deduction for head of household, Proposition A sick-leave accrual details, and the new-hire reporting deadline.
 
 
 ### End of mo-payroll.md verification note
