@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later (code) / OpenAccountants Guide License v1.0 (content)
 
 ### Scope and Applicability
 
-- **Scope** -- This skill governs payroll tax compliance for employers operating in North Carolina (NC) for the 2025 tax year. It covers (chapter texts for NCGS Chapter 105 and Chapter 96 archived 2026-10-29): North Carolina personal income tax (PIT) withholding under N.C. Gen. Stat. (NCGS) §105-163.1 through §105-163.24; Form NC-4 (Employee's Withholding Allowance Certificate) and NC-4EZ; Form NC-5 (Withholding Return) and NC-5P (Quarterly Withholding Payment Voucher) and NC-5Q (Quarterly Income Tax Withholding Return for semiweekly filers); Form NC-3 (Annual Withholding Reconciliation); NC State Unemployment Insurance (SUI) administered by the Division of Employment Security (DES) under NCGS Chapter 96; New-hire reporting to the NC Department of Health and Human Services (DHHS) under 42 U.S.C. §653A (PRWORA §453A) and NCGS §110-129.2; Worker classification under both the federal IRS 20-factor common-law test and NC-specific rules; Final pay timing under the NC Wage and Hour Act (NCGS Chapter 95; the archived Chapter 95 chapter text does not display a numbered heading for it -- heading label not yet confirmed).  _(NCGS §105-163.1 through §105-163.24)_
+- **Scope** -- This skill governs payroll tax compliance for employers operating in North Carolina (NC) for the 2025 tax year. It covers (chapter texts for NCGS Chapter 105 and Chapter 96 archived 2026-10-29): North Carolina personal income tax (PIT) withholding under N.C. Gen. Stat. (NCGS) §105-163.1 through §105-163.24; Form NC-4 (Employee's Withholding Allowance Certificate) and NC-4EZ; Form NC-5 (Withholding Return) and NC-5P (Quarterly Withholding Payment Voucher) and NC-5Q (Quarterly Income Tax Withholding Return for semiweekly filers); Form NC-3 (Annual Withholding Reconciliation); NC State Unemployment Insurance (SUI) administered by the Division of Employment Security (DES) under NCGS Chapter 96; New-hire reporting to the NC Department of Health and Human Services (DHHS) under 42 U.S.C. §653A (PRWORA §453A) and NCGS §110-129.2; Worker classification under both the federal IRS 20-factor common-law test and NC-specific rules; Final pay timing under the NC Wage and Hour Act (NCGS Chapter 95; the archived Article 2A text displays the heading "Article 2A. Wage and Hour Act." -- US-NC-dr-ncleg-ch95-art2a.html).  _(NCGS §105-163.1 through §105-163.24)_
 
 NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) -- see federal payroll skill; Workers' compensation premium calculation; Local payroll taxes (NC has no county or municipal payroll/wage taxes); Multi-jurisdiction nexus analysis outside of the NC-specific apportionment rules in §6.
 
@@ -44,8 +44,8 @@ NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) -
 | 2026 | 3.99% (scheduled) | S.L. 2023-134 |
 | 2027 | 3.99% unless the § 105-153.7(a1) revenue trigger is met, then 3.49% | § 105-153.7(a1) archived (read 2026-10-29) |
 | 2028 | 3.99% unless the § 105-153.7(a1) revenue trigger is met, then 3.49% | § 105-153.7(a1) archived (read 2026-10-29) |
-| 2029 | 3.99% unless the § 105-153.7(a1) revenue trigger is met (further step-downs not in archived text; not yet confirmed) | § 105-153.7(a1) archived (read 2026-10-29) |
-| 2030 | 2.49% target floor (not in archived § 105-153.7 text; not yet confirmed) | S.L. 2023-134 (not archived) |
+| 2029 | 3.99% unless the § 105-153.7(a1) revenue trigger is met (trigger table through FY 2032-33 and 2.49% floor are in the archived text) | § 105-153.7(a1) archived (read 2026-10-29, US-NC-GS_105-153.7.html) |
+| 2030 | 2.49% target floor (§ 105-153.7(a1): "two and forty-nine hundredths percent (2.49%)", US-NC-GS_105-153.7.html) | § 105-153.7(a1) archived (read 2026-10-29) |
 
 ### 2.2 AUDIT FLASH POINT: NC Phasing Rate Confusion Across 2025-2030
 
@@ -55,7 +55,7 @@ NOT in scope: Federal payroll (Form 941, FUTA, Form W-2 issuance to employees) -
 
 | Triggering FY | Trigger Amount | Rate That Applies If Triggered |
 | --- | --- | --- |
-| FY 2025-26 | $33.042 billion (trigger amount not in archived § 105-153.7 text; not yet confirmed) | 3.49% for TY 2027 if trigger met (§ 105-153.7(a1) archived) |
+| FY 2025-26 | $33.042 billion (archived § 105-153.7(a1) table: "FY 2025-2026 $33,042,000,000 In 2027", US-NC-GS_105-153.7.html) | 3.49% for TY 2027 if trigger met (§ 105-153.7(a1) archived) |
 | FY 2026-27 | $34.100 billion | 2.99% for TY 2028 |
 | FY 2027-28 | $34.760 billion | 2.49% for TY 2029 |
 | FY 2028-29 | $35.750 billion | 2.49% maintained for TY 2030 |
@@ -499,7 +499,7 @@ Before finalizing any NC payroll deliverable produced under this skill, the cred
 - NCGS §96-9.2 (Contribution rates)
 - NCGS §96-9.3 (Wage base)
 - NCGS §96-9.4 (Workforce investment allocation)
-- NCGS Chapter 95, Article 2A (Wage and Hour Act): §§95-25.1 to 95-25.25 (not archived; not yet confirmed)
+- NCGS Chapter 95, Article 2A (Wage and Hour Act): §§95-25.1 to 95-25.25 (US-NC-dr-ncleg-ch95-art2a.html)
 - NCGS §110-129.2 (New hire reporting)
 - NCGS §95-241 et seq. (Employee Fair Classification Act, S.L. 2017-203)
 
