@@ -253,7 +253,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 - **WBF filing** -- WBF assessment is reported on Form OQ alongside withholding, UI, and STT.
 
-> **Worked example (hypothetical):** WBF is computed per-hour, not per-dollar. A common mistake is to apply a 0.0066% rate to wages, which dramatically under-reports. The correct base is hours worked × the per-hour assessment (US-OR-dr-wbf.txt: assessment is 'per hour worked'; US-OR-dr-oq-2026.txt: 'Determining WBF hours worked').
+> **AUDIT FLASH POINT:** WBF is computed per-hour, not per-dollar. Applying an hourly rate to wages instead of hours dramatically under-reports. The correct base is hours worked × the per-hour assessment (US-OR-dr-wbf.txt: assessment is 'per hour worked'; US-OR-dr-oq-2026.txt: 'Determining WBF hours worked').
 
 ### 8. ABC test for independent contractor classification
 
