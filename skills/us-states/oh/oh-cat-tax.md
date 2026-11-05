@@ -225,7 +225,7 @@ The Commissioner may revoke approval at any time.
 
 These use hypothetical amounts. Each is for calendar year 2026 unless it says otherwise.
 
-### Case 1: a protected goods seller over the exclusion ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023); [15 U.S.C. § 383](https://www.law.cornell.edu/uscode/text/15/383))
+### Worked example Case 1: a protected goods seller over the exclusion ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023); [15 U.S.C. § 383](https://www.law.cornell.edu/uscode/text/15/383))
 
 - A Michigan corporation sells only goods into Ohio. Its reps only solicit orders. Ohio TGR (goods received in Ohio): Q1 $2,000,000, Q2 $2,000,000, Q3 $1,500,000, Q4 $1,500,000. Total $7,000,000. (hypothetical amounts; rule figures 0.26% and the $6,000,000 exclusion per US-OH-dr-cat2023-01.txt)
 - Bright-line presence: yes (at least $500,000 of Ohio TGR). Over $6,000,000: yes. P.L. 86-272 does not help.
@@ -233,13 +233,13 @@ These use hypothetical amounts. Each is for calendar year 2026 unless it says ot
 - Exclusion use: Q1 $0 tax, $4,000,000 left. Q2 $0 tax, $2,000,000 left. Q3 $0 tax, $500,000 left. Q4: ($1,500,000 − $500,000) × 0.26% = $2,600.
 - Check: ($7,000,000 − $6,000,000) × 0.26% = $2,600.
 
-### Case 2: a remote services business under the exclusion ([Department CAT page](https://tax.ohio.gov/business/commercial-activity-tax); [CAT 2005-06](https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200506.pdf))
+### Worked example Case 2: a remote services business under the exclusion ([Department CAT page](https://tax.ohio.gov/business/commercial-activity-tax); [CAT 2005-06](https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200506.pdf))
 
 - A California S corporation sells analytics services. Ohio customers receive the benefit of $1,500,000 of them in 2026, out of $20,000,000 in total. (hypothetical amounts; $6,000,000 exclusion per US-OH-dr-cat2023-01.txt)
 - Bright-line presence: yes (at least $500,000). Ohio TGR over $6,000,000: no. CAT: $0. No registration.
 - If it registered in an earlier year, returns stay due each quarter until it cancels through the Gateway.
 
-### Case 3: a group, combined v consolidated ([Department CAT groups page](https://tax.ohio.gov/business/commercial-activity-tax/commercial-activity-tax-groups); [CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023))
+### Worked example Case 3: a group, combined v consolidated ([Department CAT groups page](https://tax.ohio.gov/business/commercial-activity-tax/commercial-activity-tax-groups); [CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023))
 
 - HoldCo owns all of OpCo and IPCo. OpCo has $9,000,000 of Ohio TGR from outside customers. IPCo licenses trademarks that OpCo uses in Ohio and receives $2,000,000 of royalties from OpCo. That is Ohio TGR for IPCo and gives it bright-line presence. HoldCo has no receipts. (hypothetical amounts; 0.26% rate and $6,000,000 exclusion per US-OH-dr-cat2023-01.txt)
 - **Combined (default):** OpCo and IPCo file as one group. The royalty is not excluded. TGR $11,000,000. ($11,000,000 − $6,000,000) × 0.26% = $13,000.
@@ -247,13 +247,13 @@ These use hypothetical amounts. Each is for calendar year 2026 unless it says ot
 - Separate returns with an exclusion each are **not** an option. A member filing alone under a request to file separately gets no exclusion.
 - The election binds for eight quarters. Model the next two years before electing, and look for other commonly owned entities that would have to be pulled in.
 
-### Case 4: the same receipts in 2024 and 2025 ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023))
+### Worked example Case 4: the same receipts in 2024 and 2025 ([CAT 2023-01](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities/information-releases/cat2023-01-iss-aug-2023))
 
 - Ohio TGR of $5,000,000 in each of 2024 and 2025, with bright-line presence. (hypothetical amount; 2024 exclusion $3 million and 2025 exclusion $6 million per US-OH-dr-cat2023-01.txt)
 - 2024: ($5,000,000 − $3,000,000) × 0.26% = $5,200, reported quarterly. No minimum tax.
 - 2025: $5,000,000 is not more than $6,000,000, so no tax is due. If it expected this, it should have cancelled its account effective 31 December 2024. If it did not, it still had to file quarterly returns showing no tax.
 
-### Case 5: a manufacturer with excluded receipts ([CAT 2005-17](https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200517.pdf); [CAT 2005-08](https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200508.pdf))
+### Worked example Case 5: a manufacturer with excluded receipts ([CAT 2005-17](https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200517.pdf); [CAT 2005-08](https://tax.ohio.gov/portals/0/commercial_activities/information_releases/cat200508.pdf))
 
 - An Ohio corporation has 2026 sales of $25,000,000. Of these, $10,000,000 is delivered to Ohio customers and $15,000,000 to customers in other states. It also receives $500,000 of dividends, $200,000 of interest on bank deposits, and $400,000 from selling a used press (a section 1231 asset).
 - Ohio TGR: $10,000,000. The out-of-state sales are not sitused to Ohio. The dividends, deposit interest and press sale are excluded. (hypothetical amounts; 0.26% rate and $6,000,000 exclusion per US-OH-dr-cat2023-01.txt)
