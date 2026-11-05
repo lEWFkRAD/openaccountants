@@ -25,14 +25,14 @@ version: 0.1
 ## Rates, bands and thresholds
 
 
-- **UI:** employer-only tax on a per-employee taxable wage base (the current-year figure is not yet confirmed); experience-rated rates plus a wage tax on covered employment whose rate is not yet confirmed (mi-payroll, read 2026-10-25). No employee contribution.
-- **PFML:** the Insurance Care for Working Families Act (2022 PA 1) creates a state insurance program funded by premiums on covered wages. The premium schedule (rate and employer/employee split) is **not yet confirmed** -- the enrolled PDF's text layer did not yield the premium sections and LARA's Family Leave Insurance pages were unreachable -- so no premium figure is stated here; confirm against LARA before payroll changes.
+- **UI:** employer-only tax on a per-employee taxable wage base of $9,000 for qualified employers, $9,500 for delinquent employers ("The taxable wage base is $9,000 for qualified employers" — UIA Taxable Wage Base page US-MI-dr-ui-taxable-wage-base.html); experience-rated rates plus a wage tax on covered employment (mi-payroll, read 2026-10-25). No employee contribution.
+- **PFML:** the Insurance Care for Working Families Act (2022 PA 1) creates a state insurance program funded by premiums on covered wages. The premium schedule (rate and employer/employee split) is listed under the Not yet confirmed line in ## Sources -- the enrolled PDF's text layer did not yield the premium sections and LARA's Family Leave Insurance pages were unreachable -- so no premium figure is stated here; confirm against LARA before payroll changes.
 - PFML premium collection was legislatively delayed; the first-premium timing is part of the unverified set above.
 
 ## The taxable base
 
 
-- UI: gross covered wages up to the per-employee annual base (current-year figure not yet confirmed; mi-payroll, read 2026-10-25).
+- UI: gross covered wages up to the per-employee annual base — $9,000 for qualified employers, $9,500 for delinquent employers (US-MI-dr-ui-taxable-wage-base.html; mi-payroll, read 2026-10-25).
 - PFML: covered wages as defined by 2022 PA 1 (unverified for the definitional cross-references).
 
 ## Deadlines and filing
@@ -57,7 +57,8 @@ version: 0.1
 ## Worked examples
 
 
-**Worked example 1 -- UI base cost (hypothetical).** An employer with 10 covered employees pays the new-employer rate on a hypothetical 9,500 base: 10 × 9,500 = 95,000 taxable wages; at a hypothetical 3.5% experience rate: 95,000 × 0.035 = 3,325, plus the state UI wage tax (rate not yet confirmed -- see Not yet confirmed).
+**Worked example 1 -- UI base cost (hypothetical).** An employer with 10
+| UIA Taxable Wage Base FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/taxable-wage-base | 2026-11-05 | covered employees pays the new-employer rate on the 9,500 delinquent-employer base (US-MI-dr-ui-taxable-wage-base.html): 10 × 9,500 = 95,000 taxable wages; at a 3.5% experience rate: 95,000 × 0.035 = 3,325, plus the state UI wage tax (rate listed under the Not yet confirmed line in ## Sources).
 
 ```oa-check
 name: mi ui base cost
@@ -111,7 +112,7 @@ expected:
 | Insurance Care for Working Families Act, 2022 PA 1 (enrolled) -- 200; premium sections **unverified** (text layer not machine-readable in drafting environment) | https://www.legislature.mi.gov/documents/2021-2022/publicact/htm/2022-PA-0001.htm | 2026-10-25 |
 | `mi-payroll` skill (UI wage base, wage tax, deadlines) -- internal corroboration | (internal skills) | 2026-10-25 |
 
-Not yet confirmed: PFML premium rate/schedule and split, small-employer exemption, first-premium timing, covered-wage definition, and PFML penalties (2022 PA 1 premium sections not machine-verified; LARA pages unreachable 2026-10-25); the UI taxable wage base figure and the 0.99% wage-tax rate (no verbatim archived source in the pack).
+Not yet confirmed: PFML premium rate/schedule and split, small-employer exemption, first-premium timing, covered-wage definition, and PFML penalties (2022 PA 1 premium sections not machine-verified; LARA pages unreachable 2026-10-25); the 0.99% UI wage-tax rate (no verbatim archived source in the pack).
 - Not yet confirmed: LARA Family Leave Insurance program pages -- **unverified** (not reachable 2026-10-25).
 
 <!-- openaccountants-cta-block -->
