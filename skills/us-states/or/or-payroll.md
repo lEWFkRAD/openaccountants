@@ -253,7 +253,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 - **WBF filing** -- WBF assessment is reported on Form OQ alongside withholding, UI, and STT.
 
-> **AUDIT FLASH POINT (worked example figures; hypothetical):** WBF is computed per-hour, not per-dollar. A common mistake is to apply a 0.0066% rate to wages, which dramatically under-reports. The correct base is hours worked × the per-hour assessment (US-OR-dr-wbf.txt: assessment is 'per hour worked'; US-OR-dr-oq-2026.txt: 'Determining WBF hours worked').
+> **Worked example (hypothetical):** WBF is computed per-hour, not per-dollar. A common mistake is to apply a 0.0066% rate to wages, which dramatically under-reports. The correct base is hours worked × the per-hour assessment (US-OR-dr-wbf.txt: assessment is 'per hour worked'; US-OR-dr-oq-2026.txt: 'Determining WBF hours worked').
 
 ### 8. ABC test for independent contractor classification
 
@@ -289,7 +289,7 @@ Several smaller cities and special districts impose narrow employer payroll taxe
 
 ## Worked examples
 
-### 11.1 Example A -- Portland TriMet-area employer, single employee (hypothetical facts)
+### 11.1 Worked example A -- Portland TriMet-area employer, single employee (hypothetical facts)
 
 - Employer: Acme Software LLC, located in Portland (Multnomah County, within TriMet district)
 - Employee: J. Smith, Oregon resident, lives and works in Portland
@@ -313,7 +313,7 @@ WBF rows use the 2025 $0.0066/hour split rate (listed under Not yet confirmed in
 Employer total (Oregon-specific, excluding federal): approximately $2,785.37 (worked-example arithmetic; hypothetical facts)
 Employee withholding (Oregon-specific, excluding federal & PIT): approximately $853.73 plus Oregon PIT withholding from OR-W-4 table (worked-example arithmetic; hypothetical facts)
 
-### 11.2 Example B -- Eugene Lane Transit employer (hypothetical facts)
+### 11.2 Worked example B -- Eugene Lane Transit employer (hypothetical facts)
 
 - Employer: Willamette Designs Inc., located in Eugene (Lane County, within LTD)
 - Employee: M. Garcia, Oregon resident
@@ -337,7 +337,7 @@ The Lane Transit row uses the 2025 0.79% rate (see Not yet confirmed: list in So
 Employer total: approximately $1,897.36
 Note: Because the work is in Eugene (LTD), TriMet does not apply. A common error is to dual-allocate; only the district covering the work location applies.
 
-### 11.3 Example C -- Multistate employer, Oregon-resident remote worker (hypothetical facts)
+### 11.3 Worked example C -- Multistate employer, Oregon-resident remote worker (hypothetical facts)
 
 - Employer: TechCorp Inc., headquartered in Austin, Texas
 - Employee: K. Nguyen, lives in Bend, Oregon (Deschutes County -- outside TriMet, LTD, and Cherriots boundaries)
