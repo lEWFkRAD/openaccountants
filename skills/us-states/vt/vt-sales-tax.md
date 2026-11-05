@@ -172,11 +172,6 @@ Exemptions identified in Step 2 above are the primary deductibility rules for Ve
 
 Refer to Step 3 for filing frequencies and due dates. [T1]
 
-### 4.3 Penalties and Interest [T1]
-
-- **Late filing penalty** — 5% of tax due per month, up to 25%. (T1)
-- **Interest rate** — Rate set annually (typically federal short-term rate + specified margin). (T1)
-
 
 ## Ask the client first
 
@@ -187,6 +182,13 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - **Wrong due date** — NEVER file Vermont returns by the 20th. The due date is the 25th. (T1)
 - **Grocery food taxation** — NEVER tax grocery food in Vermont. Unprepared food is exempt. (T1)
 - **No manual computation** — NEVER compute any number -- all arithmetic is handled by the deterministic engine, not Claude. (T1)
+
+## Penalties and interest
+
+### 4.3 Penalties and Interest [T1]
+
+- **Late filing penalty** — 5% of tax due per month, up to 25%. (T1)
+- **Interest rate** — Rate set annually (typically federal short-term rate + specified margin). (T1)
 
 ## Cross-border points
 
