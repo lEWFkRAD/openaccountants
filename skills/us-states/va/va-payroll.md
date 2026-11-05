@@ -66,8 +66,9 @@ The top marginal rate of **5.75%** kicks in at just $17,000 of Virginia taxable 
 
 ### 2.2 Standard deduction and personal exemption (2025)
 
-- **Married filing separately** -- $8,500
-- **Married filing jointly** -- $17,000
+- **Single** -- $8,750 (US-VA-dr-2025-760-instructions.txt: "2025 and 2026 from $8,500 to $8,750 for single")
+- **Married filing separately** -- $8,750
+- **Married filing jointly** -- $17,500 (US-VA-dr-2025-760-instructions.txt: "$17,000 to $17,500 for married filers filing jointly")
 - **Personal exemption -- each dependent** -- $930 (US-VA-dr-2025-760-instructions.txt)
 - **Age 65+ or blind additional exemption** -- $800 USD  _(2.2 Standard deduction and personal exemption (2025))_ (US-VA-dr-2025-760-instructions.txt)
 
