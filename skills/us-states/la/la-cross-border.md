@@ -10,7 +10,7 @@ description: >
   "Louisiana part-year", "moving to Louisiana", "Louisiana reciprocity",
   "Louisiana credit for taxes paid". Source-cited draft; LDR withholding
   residence rule verified 2026-10-28; IT-540B detail verified in
-  US-LA-ind-income.html; credit-statute ordering listed under Not yet confirmed in Sources.
+  US-LA-ind-income.html; credit-statute ordering listed under Not-yet-confirmed in Sources.
 jurisdiction: US-LA
 category: cross-border
 tax_year: 2026
@@ -28,7 +28,7 @@ depends_on:
 
 ## Who this applies to
 
-Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresidents, part-year residents, and Louisianans working out of state. **Source status:** the LDR Withholding page (residence-based withholding rule) and the LDR Individual Income Tax page (nonresident sourcing, gambling-winnings rule, Schedule C credit, military part-year rule for taxable years beginning before January 1, 2023) verified 2026-10-28; the archived Title 47 table of contents (US-LA-dr-legis-title47-toc.txt) shows **no R.S. 47:287.182** -- the individual credit statute is **R.S. 47:33, "Credit for taxes paid in other states"** -- and IT-540B mechanics are described on the archived LDR page (US-LA-ind-income.html); the credit ordering is listed under Not yet confirmed in Sources.
+Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresidents, part-year residents, and Louisianans working out of state. **Source status:** the LDR Withholding page (residence-based withholding rule) and the LDR Individual Income Tax page (nonresident sourcing, gambling-winnings rule, Schedule C credit, military part-year rule for taxable years beginning before January 1, 2023) verified 2026-10-28; the archived Title 47 table of contents (US-LA-dr-legis-title47-toc.txt) shows **no R.S. 47:287.182** -- the individual credit statute is **R.S. 47:33, "Credit for taxes paid in other states"** -- and IT-540B mechanics are described on the archived LDR page (US-LA-ind-income.html); the credit ordering is listed under Not-yet-confirmed in Sources.
 
 ## Rates, bands and thresholds
 
@@ -43,8 +43,8 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 |---|---|---|
 | Resident base | worldwide income at flat 3% (2025+ reform) | structure verified via withholding rule; rate per pre-existing skill + RIB 25-012 PDF (verified PDF) |
 | Nonresident base | Louisiana-source income, IT-540B | verified -- US-LA-ind-income.html |
-| Credit for taxes paid to other states | Residents are "allowed a credit on Schedule C for the net tax liability paid to another state if that income is included on the Louisiana return" (LDR page, verified 2026-10-28) | rule verified; statute is R.S. 47:33 "Credit for taxes paid in other states" (US-LA-dr-legis-title47-toc.txt); ordering listed under Not yet confirmed in Sources |
-| Reciprocity | **none** -- no agreements with TX, MS, AR, OK, or any neighbor | structural; citation for the absence listed under Not yet confirmed in Sources |
+| Credit for taxes paid to other states | Residents are "allowed a credit on Schedule C for the net tax liability paid to another state if that income is included on the Louisiana return" (LDR page, verified 2026-10-28) | rule verified; statute is R.S. 47:33 "Credit for taxes paid in other states" (US-LA-dr-legis-title47-toc.txt); ordering listed under Not-yet-confirmed in Sources |
+| Reciprocity | **none** -- no agreements with TX, MS, AR, OK, or any neighbor | structural; citation for the absence listed under Not-yet-confirmed in Sources |
 | Exit tax | **none** -- no departure/exit tax | structural, low risk |
 | Remote work sourcing | services sourced where performed; LA residents still LA-taxed (verified withholding rule) | verified |
 
@@ -55,7 +55,7 @@ Source-cited draft, run of 2026-10-28. Covers Louisiana exposure for nonresident
 
 ## Penalties and interest
 
-- Late-filing/late-payment penalties and interest arise under R.S. 47:1601 ("Interest on unpaid taxes") and R.S. 47:1602 ("Penalty for failure to make timely return; penalties related to nonpayment or underpayment") per US-LA-dr-legis-title47-toc.txt -- the tiers are listed under Not yet confirmed in Sources.
+- Late-filing/late-payment penalties and interest arise under R.S. 47:1601 ("Interest on unpaid taxes") and R.S. 47:1602 ("Penalty for failure to make timely return; penalties related to nonpayment or underpayment") per US-LA-dr-legis-title47-toc.txt -- the tiers are listed under Not-yet-confirmed in Sources.
 - Dual-residency disputes (e.g. LA vs TX domicile fights) are litigation-prone; no special penalty for the dispute itself.
 
 ## Cross-border points
