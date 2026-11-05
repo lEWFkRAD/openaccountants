@@ -11,7 +11,7 @@ description: >-
   brackets. Trigger on North Dakota combined return, ND unitary, water's
   edge surtax, 57-38.1-19, 57-38.1-15, Schedule SA, ND addback.
   Source-cited draft; ndlegis.nd.gov unreachable 2026-10-25, statute text
-  carried from the existing nd-corporate-tax skill with VERIFY flags (not yet confirmed).
+  carried from the existing nd-corporate-tax skill with VERIFY flags.
 jurisdiction: US-ND
 category: transfer-pricing
 tax_year: 2026
@@ -31,9 +31,9 @@ C corporations filing North Dakota Form 40 that are members of a controlled or u
 
 ### 2. Core rules and rates
 
-- **Corporate brackets (graduated):** 1.41% on the first $25,000 of ND taxable income; 3.55% on the next $25,000 (to $50,000); 4.31% above $50,000 -- i.e. $352.50 at $25,000, $1,240 at $50,000, then $1,240 + 4.31% × (income − $50,000). _(N.D.C.C. § 57-38-30 per the existing `nd-corporate-tax` skill rate table, carried with [VERIFY]; stable since 2015 per that skill.)_ (not yet confirmed)
+- **Corporate brackets (graduated):** 1.41% on the first $25,000 of ND taxable income; 3.55% on the next $25,000 (to $50,000); 4.31% above $50,000 -- i.e. $352.50 at $25,000, $1,240 at $50,000, then $1,240 + 4.31% × (income − $50,000). _(US-ND-t57c38.pdf.pdf, N.D.C.C. § 57-38-30: rates stated as "one and forty-one hundredths percent", "three and fifty-five hundredths percent", "four and thirty-one hundredths percent"; US-ND-dr-ndcorp.txt: "Corporate tax rates have remained unchanged since 2015.")_
 - **Combined reporting.** Unitary groups file combined Form 40; Joyce/Finnigan allocation questions apply and current ND rule needs confirmation. _(§ 57-38.1-19 [VERIFY])_
-- **Water's-edge election + 3.5% surtax.** A corporation electing water's-edge apportionment (excluding certain foreign affiliates from the unitary group) pays an **additional 3.5% of ND taxable income** as a surtax. The election trades worldwide inclusion for a flat surcharge. _(N.D.C.C. § 57-38.1-15 per the existing `nd-corporate-tax` skill §5.2, carried with [VERIFY].)_ (not yet confirmed)
+- **Water's-edge election + 3.5% surtax.** A corporation electing water's-edge apportionment (excluding certain foreign affiliates from the unitary group) pays an **additional 3.5% of ND taxable income** as a surtax. The election trades worldwide inclusion for a flat surcharge. _(US-ND-dr-ndcorp.txt: "If a corporation elects to use the water's edge method to apportion its income, the corporation will be subject to an additional 3.5% surtax on its North Dakota taxable income."; US-ND-dr-form40-2025-form.pdf line 17: "Surtax on water's edge method election (3.5% of line 15)". Note: the archived N.D.C.C. § 57-38.1-15 is the sales-factor section (US-ND-dr-t57c38-1.pdf) -- the surtax cite should be re-verified against the water's-edge provisions.)_
 - **Apportionment formula.** Three factors (property, payroll, sales) with the **sales factor double-weighted** by default; a **single-sales-factor election** is available to qualifying taxpayers. _(N.D.C.C. § 57-38.1-09 / Schedule SA instructions per the existing `nd-corporate-tax` skill, carried with [VERIFY].)_
 - **Alternative apportionment.** A taxpayer (or the Commissioner) may seek an alternative method under § 57-38.1-18 where the statutory formula does not "fairly represent" ND activity -- the Commissioner's tool against engineered IP/financing footprints. _(existing `nd-corporate-tax` skill §, carried with [VERIFY].)_
 - **No PTET.** ND offers no pass-through entity tax election, so S-corp/partnership owners have no entity-level SALT workaround (existing `nd-corporate-tax` skill).
@@ -41,8 +41,8 @@ C corporations filing North Dakota Form 40 that are members of a controlled or u
 ### 3. Base and adjustments
 
 1. Start from federal taxable income (ND starts from FTI per the existing skill).
-2. On a combined basis: eliminate/adjust intercompany transactions per the unitary-combination rules (eliminations mechanics: **not yet confirmed** -- Form 40 booklet not fetched 2026-10-25).
-3. Apply the water's-edge election if made; if made, add the 3.5% surtax on top of the normal bracket tax. (not yet confirmed)
+2. On a combined basis: eliminate/adjust intercompany transactions per the unitary-combination rules (US-ND-dr-form40-2025.pdf: combined filers use "the pro forma federal taxable income amount for the combined group members" with "consolidating adjustments/eliminations from" a pro forma separate-company return or by-company schedule).
+3. Apply the water's-edge election if made; if made, add the 3.5% surtax on top of the normal bracket tax (US-ND-dr-ndcorp.txt: "additional 3.5% surtax on its North Dakota taxable income").
 4. Apportion on the combined basis: double-weighted sales default, single-sales-factor election if qualified, subject to § 57-38.1-18 modification.
 5. ND has no separate corporate franchise tax -- the bracket tax is the only entity-level income charge.
 
@@ -50,17 +50,17 @@ C corporations filing North Dakota Form 40 that are members of a controlled or u
 
 - Form 40 (combined where required): 15th day of the 4th month after year end (Apr 15 calendar filers).
 - Estimated payments: quarterly installments per the existing `nd-estimated-tax` skill (corporate estimates on Form 40 ES; confirm current schedule).
-- Water's-edge election timing and duration (election window, renewal period): **not yet confirmed** -- § 57-38.1-15 election mechanics not fetched 2026-10-25.
+- Water's-edge election timing and duration: "The water's edge election must be made on the return as originally filed and is binding for five consecutive tax years" (US-ND-dr-form40-2025.pdf, Water's Edge Election).
 
 ### 5. Penalties and interest
 
-- Underpayment of estimates: interest on the shortfall (ND charges interest on underpaid estimates -- tax.nd.gov estimated-tax page verified 2026-10-25; the exact 2026 rate: **not yet confirmed**).
-- Late filing/failure to file: Chapter 57-38 penalties; exact 2026 percentages **not yet confirmed** (ndlegis DNS failure).
+- Underpayment of estimates: interest on the shortfall -- "Interest is calculated at the rate of 12% per annum from the installment due date to the earlier of the date the estimated tax is paid or the due date (without extension) of the return" (US-ND-dr-form40es2026.pdf).
+- Late filing/failure to file: Chapter 57-38 penalties; exact 2026 percentages: see "Not yet confirmed:" in Sources.
 - Intercompany intangible/management-fee stripping is a named multistate audit theme; the Commissioner more often imposes unitary computation against aggressive separate-entity filers (existing skill § on alternative apportionment).
 
 ### 6. Cross-border and federal overlay
 
-- Foreign affiliates: the water's-edge election is the principal gate between worldwide and US-only unitary reporting; the 3.5% surtax is its price. (not yet confirmed)
+- Foreign affiliates: the water's-edge election is the principal gate between worldwide and US-only unitary reporting; the 3.5% surtax is its price (US-ND-dr-ndcorp.txt: "additional 3.5% surtax on its North Dakota taxable income").
 - Federal §267 related-party deferrals and §163(j) interest limits change the federal deduction and therefore the ND starting point.
 - Treaty analysis is federal (see federal skills); ND conforms to federal taxable income as its starting line.
 - Joyce/Finnigan: whether a non-unitary-but-affiliated member's factors enter the ND fraction is a live ND question -- flag for a multistate specialist (existing skill refusal catalogue).
@@ -112,8 +112,8 @@ expected:
 
 - Existing `nd-corporate-tax` skill -- bracket table, § 57-38.1-15 water's-edge surtax, § 57-38.1-18 alternative apportionment, § 57-38.1-19 combined reporting (all carried with the skill's own [VERIFY] flags): read 2026-10-25.
 - ND Office of State Tax Commissioner -- individual/estimated pages (interest on underpaid estimates): <https://www.tax.nd.gov/individual-income-tax> -- 200 with text, 2026-10-25.
-- N.D.C.C. §§ 57-38-30, 57-38.1-09, 57-38.1-15, 57-38.1-18, 57-38.1-19 statute text: **not yet confirmed** -- ndlegis.nd.gov DNS failure on 2026-10-25 (getaddrinfo); Justia mirror returned 403. Re-verify before publication.
-- Form 40 booklet combined-computation mechanics: **not yet confirmed**.
+- N.D.C.C. §§ 57-38-30, 57-38.1-09, 57-38.1-15, 57-38.1-18, 57-38.1-19 statute text: archived as US-ND-t57c38.pdf.pdf (ch. 57-38) and US-ND-dr-t57c38-1.pdf (ch. 57-38.1); note § 57-38.1-15 is the sales-factor section, so the water's-edge surtax statute cite needs re-verification -- see the "Not yet confirmed:" paragraph below.
+- Form 40 booklet combined-computation mechanics: archived as US-ND-dr-form40-2025.pdf (combined report method, water's-edge election, Schedule WW).
 
 <!-- openaccountants-cta-block -->
 
@@ -128,47 +128,49 @@ This guide is maintained by the OpenAccountants network -- accountants who put t
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Sources
 
 Not yet confirmed: figures in this skill lack archived line-citations.
+- Exact 2026 Chapter 57-38 late-filing / failure-to-file penalty percentages (ndlegis.nd.gov DNS failure 2026-10-25).
+- The statutory section carrying the water's-edge 3.5% surtax (the guide's § 57-38.1-15 cite is the sales-factor section in the archived ch. 57-38.1 text).
 
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see "Not yet confirmed:" paragraph) | -- | 2026-10-28 |
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
