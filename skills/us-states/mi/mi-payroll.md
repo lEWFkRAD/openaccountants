@@ -1,5 +1,5 @@
 
-| UIA Tax Rates and Liability FAQ | https://www.michigan.gov/leo/bureaus-agencies/uia/employers/frequently-asked-questions-for-employers/for-employers/tax-rates-and-liability | 2026-11-05 |---
+---
 name: mi-payroll
 description: Tier 2 Michigan content skill for employer payroll compliance covering tax year 2025. Includes the 4.25% flat PIT, MI 165 quarterly withholding, MI SUTA wage base $9,500 with rates 0.06-10.30%, the 24 Michigan cities imposing local income tax (Detroit 2.4% resident/1.2% non-resident, Grand Rapids 1.5%/0.75%, plus Lansing/Saginaw/Highland Park/Hamtramck/Battle Creek/Flint/etc.), Detroit Form D-1040 employer withholding, and the Paid Medical Leave Act covering employers with 50+ employees.
 jurisdiction: US-MI
