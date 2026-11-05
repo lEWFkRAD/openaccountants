@@ -281,7 +281,7 @@ AUDIT FLASH POINT -- Milwaukee Local Stacking. Multiple stacking scenarios creat
 
 ### 11. Worked Examples
 
-### 11.1 Example A -- Pure Wisconsin Employer
+### 11.1 Worked example A -- Pure Wisconsin Employer
 
 **Facts (hypothetical worked example; all figures listed under Not yet confirmed in Sources):** Bratwurst & Sons, LLC is a Madison-based small manufacturer with 8 employees, all Wisconsin residents working solely in Madison. Annual payroll is $420,000. The company was formed in 2024 (new employer). One employee (Sarah) earns $52,000/year; another (James) earns $28,000/year.
 
@@ -309,7 +309,7 @@ AUDIT FLASH POINT -- Milwaukee Local Stacking. Multiple stacking scenarios creat
 
 A Wisconsin employer with an Illinois-resident commuter who performs 100% of services in Wisconsin applies the WI-IL reciprocity agreement: the employee files Form W-220, the employer suspends Wisconsin income tax withholding and withholds Illinois income tax instead (W-2 reports Illinois wages/withholding, no Wisconsin line), and the employee files IL-1040 with no Wisconsin return. Unemployment insurance and workers' compensation do NOT follow reciprocity: services localized in Wisconsin keep Wisconsin UI and Wisconsin workers' comp coverage. Flash point: W-220 expires each January 1 -- if not re-collected, the employer must resume Wisconsin withholding on January 1, and any over-withheld tax before a new W-220 is only refundable by the employee filing a Wisconsin nonresident return. Payroll systems that force a single 'state' field break this income-tax-state vs UI-state split. (Figures for this scenario are in the "Not yet confirmed:" paragraph in Sources.)
 
-### 11.3 Example C -- Contractor Classification Audit
+### 11.3 Worked example C -- Contractor Classification Audit
 
 **Facts (hypothetical):** Lakefront Web Design LLC (Milwaukee-based, 4 employees on W-2) engages Maya, a freelance graphic designer in Madison, to produce 10 logos per year on a contract basis. Lakefront pays Maya $48,000/year on a 1099-NEC. Maya works from her own home studio, uses her own laptop and software, and has 5 other clients. She advertises on Instagram and a personal portfolio site. The contract specifies she is responsible for delivering each logo and reworks any client doesn't approve at no extra charge.
 
