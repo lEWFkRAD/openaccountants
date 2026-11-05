@@ -137,10 +137,10 @@ North Dakota taxable income starts with **federal taxable income** from federal 
 
 | Installment | Due date |
 | --- | --- |
-| 1st quarter | April 15 |
-| 2nd quarter | June 15 | (not yet confirmed)
-| 3rd quarter | September 15 | (not yet confirmed)
-| 4th quarter | January 15 (following year) | (not yet confirmed)
+| 1st quarter | April 15 | US-ND-dr-nd1es2025.pdf: "1st installment April 15, 2025 ... 2nd installment June 15, 2025 ... 3rd installment September 15, 2025 ... 4th installment January 15, 2026" |
+| 2nd quarter | June 15 |  |
+| 3rd quarter | September 15 |  |
+| 4th quarter | January 15 (following year) |  |
 
 Form ND-1ES is used for estimated tax payments. Payments can be made via the North Dakota Taxpayer Access Point (ND TAP).
 
@@ -244,35 +244,35 @@ the OpenAccountants network.
 
 ## Who this applies to
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Sources
 
@@ -281,10 +281,10 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 | Source | URL | Read on |
 | --- | --- | --- |
-| (see Not yet confirmed) | -- | 2026-10-28 |
+| (see "Not yet confirmed:" paragraph) | -- | 2026-10-28 |
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+No figures stated in this section.
