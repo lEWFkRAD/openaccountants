@@ -22,17 +22,17 @@ non-incidental basis.
 
 **In scope:**
 
-- Indiana personal income tax (PIT) withholding at the 3.15% flat rate (not yet confirmed)
-  (2025), including the multi-year statutory phase-down to 2.9% by 2027 (not yet confirmed)
+- Indiana personal income tax (PIT) withholding at the 3.15% flat rate
+  (2025), including the multi-year statutory phase-down to 2.9% by 2027
 - Indiana supplemental wage withholding (bonuses, commissions, severance,
-  retroactive wage adjustments) at 3.15% for 2025 (not yet confirmed)
+  retroactive wage adjustments) at 3.15% for 2025
 - Form WH-4 (Indiana Employee's Withholding Exemption and County Status
   Certificate)
 - Form WH-1 (Indiana Withholding Tax Voucher) – periodic remittance
 - Form WH-3 (Annual Withholding Reconciliation) and the W-2 transmittal
 - Indiana unemployment insurance (SUTA) under the Department of Workforce
-  Development (DWD): $9,500 taxable wage base, experience-rated employer (not yet confirmed)
-  rates from 0.50% to 7.40%, new employer rate of 2.5% (not yet confirmed)
+  Development (DWD): $9,500 taxable wage base, experience-rated employer
+  rates from 0.50% to 7.40%, new employer rate of 2.5%
 - County tax (Local Option Income Tax / LOIT) for all 92 counties,
   including the binding January 1 residence rule that locks the county
   rate for the full tax year
@@ -62,11 +62,11 @@ non-incidental basis.
 
 **Authority and source documents:**
 
-- Indiana Code Title 6 (Taxation), Article 3 (Adjusted Gross Income Tax) (not yet confirmed)
-- Indiana Code Title 6, Article 3.6 (Local Income Taxes) – the modern (not yet confirmed)
+- Indiana Code Title 6 (Taxation), Article 3 (Adjusted Gross Income Tax)
+- Indiana Code Title 6, Article 3.6 (Local Income Taxes) – the modern
   successor to the older CAGIT/COIT/CEDIT structure
-- Indiana Code Title 22, Article 4 (Unemployment Compensation System) (not yet confirmed)
-- Indiana Code Title 22, Article 2 (Wages, Hours, and Benefits) (not yet confirmed)
+- Indiana Code Title 22, Article 4 (Unemployment Compensation System)
+- Indiana Code Title 22, Article 2 (Wages, Hours, and Benefits)
 - Indiana Department of Revenue (DOR) Departmental Notice #1 (effective
   for 2025), which publishes the 92-county tax rate schedule used by
   employers to compute county withholding
@@ -84,16 +84,16 @@ non-incidental basis.
 
 | Tax year | Indiana PIT rate |
 | --- | --- |
-| 2023 | 3.15% | (not yet confirmed)
-| 2024 | 3.05% | (not yet confirmed)
-| 2025 | **3.15%** (see note below) | (not yet confirmed)
-| 2026 | 3.00% | (not yet confirmed)
-| 2027 | **2.90%** (statutory floor) | (not yet confirmed)
+| 2023 | 3.15% |
+| 2024 | 3.05% |
+| 2025 | **3.15%** (see note below) |
+| 2026 | 3.00% |
+| 2027 | **2.90%** (statutory floor) |
 
 **Note on the 2025 rate.** The legislative phase-down originally placed
-the 2025 rate at 3.00%. HEA 1001-2023 contained revenue-based triggers (not yet confirmed)
+the 2025 rate at 3.00%. HEA 1001-2023 contained revenue-based triggers
 that could accelerate or delay the cuts. For purposes of this skill the
-rate used for 2025 employer withholding is **3.15%**, matching the rate (not yet confirmed)
+rate used for 2025 employer withholding is **3.15%**, matching the rate
 published in DOR Departmental Notice #1 for the 2025 calendar year and
 the rate that Indiana employers were instructed to use for January 1
 2025 forward. A reviewer signing off on a 2025 return must confirm the
@@ -104,19 +104,19 @@ period before filing.
 
 ### 2.2 Supplemental wages
 
-- **Supplemental wage withholding rate** -- Indiana does not have a separate supplemental withholding rate. Bonuses, commissions, severance, retroactive wage adjustments, and similar non-regular wage payments are withheld at the same 3.15% flat state rate for 2025, plus the employee's applicable county rate. (not yet confirmed)
+- **Supplemental wage withholding rate** -- Indiana does not have a separate supplemental withholding rate. Bonuses, commissions, severance, retroactive wage adjustments, and similar non-regular wage payments are withheld at the same 3.15% flat state rate for 2025, plus the employee's applicable county rate.
 
-This differs sharply from the federal supplemental wage flat rate of 22% under IRS Pub 15. Practitioners migrating from a federal-only mindset sometimes apply 22% to Indiana supplemental wages – this is incorrect and overwithholds by roughly 7x. (not yet confirmed)
+This differs sharply from the federal supplemental wage flat rate of 22% under IRS Pub 15. Practitioners migrating from a federal-only mindset sometimes apply 22% to Indiana supplemental wages – this is incorrect and overwithholds by roughly 7x.
 
 ### 2.3 Withholding mechanics
 
-- **Per-pay-period withholding computation** -- 1. Take the employee's gross taxable wages. 2. Subtract the per-pay-period value of the employee's WH-4 exemptions. Each personal exemption is $1,000/year prorated by pay periods; each dependent exemption is $1,500/year for the first dependent (a 2023 increase). Additional dependent exemptions of $1,500 also apply. 3. Multiply the remainder by 3.15% (state) and the applicable county rate to obtain the per-period state and county withholding. 4. Round to the nearest cent.  _(IC 6-3-1-3.5(a))_ (not yet confirmed)
+- **Per-pay-period withholding computation** -- 1. Take the employee's gross taxable wages. 2. Subtract the per-pay-period value of the employee's WH-4 exemptions. Each personal exemption is $1,000/year prorated by pay periods; each dependent exemption is $1,500/year for the first dependent (a 2023 increase). Additional dependent exemptions of $1,500 also apply. 3. Multiply the remainder by 3.15% (state) and the applicable county rate to obtain the per-period state and county withholding. 4. Round to the nearest cent.  _(IC 6-3-1-3.5(a))_
 - **No standard deduction / additional withholding line** -- There is no Indiana standard deduction in the withholding formula, and no separate "additional withholding" line – instead, employees who want additional state or county withholding write the dollar amount per pay period directly on the WH-4 (Lines 7 and 8 respectively).
 
 ### 2.4 Employees claiming exempt status
 
 - **Conditions for exempt status** -- An employee may claim exempt from Indiana income tax withholding only if: the employee had no Indiana income tax liability in the prior year AND expects none in the current year, OR the employee is a resident of a reciprocal state (OH, KY, MI, PA, WI) and has filed the appropriate exemption documentation, OR the employee qualifies under the Servicemembers Civil Relief Act or the Military Spouses Residency Relief Act.  _(IC 6-3-4-8 and WH-4 instructions)_
-- **Annual renewal and liability** -- Exempt-status WH-4 filings must be re-executed annually by February 15 in the same manner as federal Form W-4. An employee who claims exempt incorrectly is personally liable for the under-withheld tax; the employer is not liable provided the WH-4 is on file in good faith. (not yet confirmed)
+- **Annual renewal and liability** -- Exempt-status WH-4 filings must be re-executed annually by February 15 in the same manner as federal Form W-4. An employee who claims exempt incorrectly is personally liable for the under-withheld tax; the employer is not liable provided the WH-4 is on file in good faith.
 
 ## The taxable base
 
@@ -131,11 +131,11 @@ For Indiana withholding, the taxable base is federal adjusted gross income modif
 | Avg. monthly withholding | Filing frequency | Voucher / due date |
 | --- | --- | --- |
 | $83.33 or less | **Annual** | January 31 |
-| $83.33 – $999.99 | **Monthly** | 30th of the following month | (not yet confirmed)
-| $1,000.00 – $7,083.33 | **Monthly with EFT** | 30th of the following month | (not yet confirmed)
-| Above $7,083.33 (i.e. >$85,000/year) | **Early filer** (semi-monthly EFT) | 20th of the same month (1st-15th) and 5th of following month (16th-end) | (not yet confirmed)
+| $83.33 – $999.99 | **Monthly** | 30th of the following month (US-IN-dor-business-faq.html: "$1,000 or less Monthly") |
+| $1,000.00 – $7,083.33 | **Monthly with EFT** | 30th of the following month |
+| Above $7,083.33 (i.e. >$85,000/year) | **Early filer** (semi-monthly EFT) | 20th of the same month (1st-15th) and 5th of following month (16th-end) |
 
-These thresholds correspond to roughly $1,000/year, $12,000/year, and $85,000/year in total withholding respectively. (not yet confirmed)
+These thresholds correspond to roughly $1,000/year, $12,000/year, and $85,000/year in total withholding respectively.
 
 > **Important.** The thresholds for "monthly with EFT" and "early filer" are administrative determinations made by DOR and may shift year-to-year. A reviewer should confirm the current threshold against the WH-1 instructions before re-classifying an employer.
 
@@ -145,10 +145,10 @@ These thresholds correspond to roughly $1,000/year, $12,000/year, and $85,000/ye
 
 ### 3.3 Late filing and late payment penalties
 
-- **Late filing penalty** -- The greater of $5 or 10% of the unpaid tax.  _(IC 6-8.1-10-2.1)_ (not yet confirmed)
-- **Late payment penalty** -- 10% of the unpaid tax.  _(IC 6-8.1-10-2.1)_ (not yet confirmed)
-- **Interest rate on unpaid withholding (2025)** -- approximately 7% per annum (compare against current DOR notice)  _(IC 6-8.1-10-1)_ (not yet confirmed)
-- **Fraudulent non-remittance penalty and responsible person liability** -- 100% penalty for fraudulent withholding non-remittance, and personal liability under responsible person liability extending to officers and individuals with control over withheld funds.  _(IC 6-8.1-10-4; IC 6-2.5-9-3)_ (not yet confirmed)
+- **Late filing penalty** -- The greater of $5 or 10% of the unpaid tax.  _(IC 6-8.1-10-2.1; US-IN-dr-it20-booklet.pdf.txt: "the greater of $5 or 10% of the balance of tax due")_
+- **Late payment penalty** -- 10% of the unpaid tax.  _(IC 6-8.1-10-2.1; US-IN-dr-it20-form.pdf.txt: late penalty "10%" of tax due)_
+- **Interest rate on unpaid withholding (2025)** -- approximately 7% per annum (compare against current DOR notice)  _(IC 6-8.1-10-1)_
+- **Fraudulent non-remittance penalty and responsible person liability** -- 100% penalty for fraudulent withholding non-remittance, and personal liability under responsible person liability extending to officers and individuals with control over withheld funds.  _(IC 6-8.1-10-4; IC 6-2.5-9-3)_
 
 ### 3.4 Zero-liability periods
 
@@ -183,7 +183,7 @@ Mismatches commonly arise from:
 
 ### 5.1 All 92 counties impose a county tax
 
-- **Universal county levy and rate range** -- Indiana is the only state where every county levies a local income tax (the few counties that had no LOIT historically have all adopted one by 2017). Rates for 2025 range from approximately 0.50% to 2.864%, with most counties falling between 1.00% and 2.25%. (not yet confirmed)
+- **Universal county levy and rate range** -- Indiana is the only state where every county levies a local income tax (the few counties that had no LOIT historically have all adopted one by 2017). Rates for 2025 range from approximately 0.50% to 2.864%, with most counties falling between 1.00% and 2.25%.
 - **LOIT consolidation** -- The county-tax structure was consolidated under IC 6-3.6 (effective 2017), replacing the older CAGIT / COIT / CEDIT three-tax structure with a single LOIT framework administered uniformly through Indiana payroll withholding.  _(IC 6-3.6)_
 
 ### 5.2 Selected county rates for 2025
@@ -192,19 +192,19 @@ Mismatches commonly arise from:
 
 | County | County name (FIPS) | 2025 rate |
 | --- | --- | --- |
-| Marion | Indianapolis | 2.02% | (not yet confirmed)
-| Lake | Gary / Crown Point | 1.50% | (not yet confirmed)
-| Allen | Fort Wayne | 1.59% | (not yet confirmed)
-| Hamilton | Carmel / Fishers | 1.10% | (not yet confirmed)
-| St. Joseph | South Bend | 1.75% | (not yet confirmed)
-| Vanderburgh | Evansville | 1.20% | (not yet confirmed)
-| Tippecanoe | Lafayette / Purdue | 1.10% | (not yet confirmed)
-| Monroe | Bloomington / IU | 2.035% | (not yet confirmed)
-| Porter | Valparaiso | 0.50% | (not yet confirmed)
-| Vigo | Terre Haute | 2.00% | (not yet confirmed)
-| Madison | Anderson | 2.25% | (not yet confirmed)
-| Delaware | Muncie | 1.50% | (not yet confirmed)
-| Pulaski | (highest in 2025) | **3.38%** in some prior years, ~2.864% in others -- confirm | (not yet confirmed)
+| Marion | Indianapolis | 2.02% |
+| Lake | Gary / Crown Point | 1.50% |
+| Allen | Fort Wayne | 1.59% |
+| Hamilton | Carmel / Fishers | 1.10% |
+| St. Joseph | South Bend | 1.75% |
+| Vanderburgh | Evansville | 1.20% |
+| Tippecanoe | Lafayette / Purdue | 1.10% |
+| Monroe | Bloomington / IU | 2.035% |
+| Porter | Valparaiso | 0.50% |
+| Vigo | Terre Haute | 2.00% |
+| Madison | Anderson | 2.25% |
+| Delaware | Muncie | 1.50% |
+| Pulaski | (highest in 2025) | **3.38%** in some prior years, ~2.864% in others -- confirm |
 
 > **Reviewer note.** The "highest county" in Indiana changes year to year as smaller counties enact emergency rate hikes. Pulaski and Cass have historically been near the top. Always reconfirm by pulling the current Departmental Notice #1.
 
@@ -224,7 +224,7 @@ Failure to capture an accurate January 1 status is the single most common Indian
 
 ### 5.4 County withholding mechanics
 
-- **Total Indiana withholding rate formula** -- County tax is withheld in addition to the 3.15% state rate and is remitted on the same WH-1 voucher in a separate column / line. County tax is reported on the W-2 in Box 19 (Local income tax) with Box 20 (Locality name) showing the Indiana county name and FIPS code prefix (e.g. "MARION-IN" for Marion County). Total rate = 3.15% (state) + county rate (residence on Jan 1) For a Marion County resident in 2025: 3.15% + 2.02% = 5.17% total Indiana income tax withholding (not yet confirmed)
+- **Total Indiana withholding rate formula** -- County tax is withheld in addition to the 3.15% state rate and is remitted on the same WH-1 voucher in a separate column / line. County tax is reported on the W-2 in Box 19 (Local income tax) with Box 20 (Locality name) showing the Indiana county name and FIPS code prefix (e.g. "MARION-IN" for Marion County). Total rate = 3.15% (state) + county rate (residence on Jan 1) For a Marion County resident in 2025: 3.15% + 2.02% = 5.17% total Indiana income tax withholding
 
 ### Form WH-4 – Employee's Withholding Exemption and County Status Certificate
 
@@ -235,13 +235,13 @@ Failure to capture an accurate January 1 status is the single most common Indian
 ### 6.2 When WH-4 must be filed
 
 - **Filing triggers for WH-4** -- - At hire (before the first wage payment). - On or before January 1 each year if the employee's residence or county of principal employment has changed. - On or before any pay period after a change in personal exemptions (marriage, birth of a dependent, etc.). - When claiming exempt status (must be renewed annually by February 15).
-- **Default withholding if no WH-4 on file** -- If no WH-4 is on file, the employer must withhold state income tax at 3.15% with zero exemptions and county tax at the county rate applicable to the employee's work location (because the employer cannot determine the residence county without the WH-4). (not yet confirmed)
+- **Default withholding if no WH-4 on file** -- If no WH-4 is on file, the employer must withhold state income tax at 3.15% with zero exemptions and county tax at the county rate applicable to the employee's work location (because the employer cannot determine the residence county without the WH-4).
 
 ### 6.3 Key fields
 
-- Line 1: Personal exemption ($1,000/year claim per exemption). (not yet confirmed)
+- Line 1: Personal exemption ($1,000/year claim per exemption).
 - Line 2: Additional exemptions for the employee's spouse if not employed.
-- Line 3: Dependent exemption ($1,500/year per dependent; first dependent claims an extra $1,500 if the employee is unmarried head of household). (not yet confirmed)
+- Line 3: Dependent exemption ($1,500/year per dependent; first dependent claims an extra $1,500 if the employee is unmarried head of household).
 - Line 4: County of residence on January 1.
 - Line 5: County of principal employment on January 1 (only used if the employee is NOT an Indiana resident on January 1).
 - Line 6: Additional Indiana state tax to withhold per pay period.
@@ -254,7 +254,7 @@ Failure to capture an accurate January 1 status is the single most common Indian
 
 ## Penalties and interest
 
-Penalties and interest are covered in the filing sections above: late filing and late payment penalties of the greater of $5 or 10% of unpaid tax, 10% late-payment penalty, interest under IC 6-8.1-10-1, the 100% fraudulent non-remittance penalty, and the misclassification penalties under IC 22-4. (not yet confirmed)
+Penalties and interest are covered in the filing sections above: late filing and late payment penalties of the greater of $5 or 10% of unpaid tax, 10% late-payment penalty, interest under IC 6-8.1-10-1, the 100% fraudulent non-remittance penalty, and the misclassification penalties under IC 22-4.
 
 ## Cross-border points
 
@@ -275,15 +275,15 @@ Penalties and interest are covered in the filing sections above: late filing and
 
 ### 7.4 Local taxes are not covered
 
-- **Reciprocal agreements do not cover local taxes** -- A critical limitation: reciprocal agreements between states do NOT extend to local taxes. - An Indiana resident working in Louisville, Kentucky still owes the Louisville Metro Occupational License Tax. - An Indiana resident working in a Pennsylvania municipality still owes the local Earned Income Tax (EIT) and Local Services Tax (LST) under PA Act 32. - An Indiana resident working in Detroit still owes the Detroit city income tax (currently 2.4% for residents, 1.2% for non-residents). Conversely, an Ohio resident working in Indianapolis still owes the Marion County tax at 2.02% even though Indiana state income tax is not withheld. (not yet confirmed)
+- **Reciprocal agreements do not cover local taxes** -- A critical limitation: reciprocal agreements between states do NOT extend to local taxes. - An Indiana resident working in Louisville, Kentucky still owes the Louisville Metro Occupational License Tax. - An Indiana resident working in a Pennsylvania municipality still owes the local Earned Income Tax (EIT) and Local Services Tax (LST) under PA Act 32. - An Indiana resident working in Detroit still owes the Detroit city income tax (currently 2.4% for residents, 1.2% for non-residents). Conversely, an Ohio resident working in Indianapolis still owes the Marion County tax at 2.02% even though Indiana state income tax is not withheld.
 
 ### Indiana Unemployment Insurance (SUTA)
 
 ### 8.1 Wage base and rate structure
 
-- **Taxable wage base** -- $9,500 per employee per year (one of the lowest in the country – has not changed since the 1980s)  _(IC 22-4-4-2)_ (not yet confirmed)
-- **Experience rating range** -- 0.50% (lowest experience rating) to 7.40% (highest experience rating, sometimes called the "delinquent" or "max" rate for employers with adverse experience) (not yet confirmed)
-- **New employer rate** -- 2.5% for non-construction employers, and a higher industry-specific rate for construction (typically the industry average for construction NAICS codes, which has run around 2.5%-3.5% depending on the year) (not yet confirmed)
+- **Taxable wage base** -- $9,500 per employee per year (one of the lowest in the country – has not changed since the 1980s)  _(IC 22-4-4-2)_
+- **Experience rating range** -- 0.50% (lowest experience rating) to 7.40% (highest experience rating, sometimes called the "delinquent" or "max" rate for employers with adverse experience)
+- **New employer rate** -- 2.5% for non-construction employers, and a higher industry-specific rate for construction (typically the industry average for construction NAICS codes, which has run around 2.5%-3.5% depending on the year)
 - **Reserve-ratio experience rating method** -- The experience rating is determined by Indiana DWD using the reserve-ratio method, which compares contributions paid in minus benefits charged out, divided by average annual taxable payroll over three years.  _(IC 22-4-11)_
 
 ### 8.2 Registration
@@ -293,7 +293,7 @@ Penalties and interest are covered in the filing sections above: late filing and
 
 ### 8.3 Quarterly UC-1/UC-5 filing
 
-- **UC-1 and UC-5 reporting requirements** -- SUTA contributions are reported on the UC-1 Wage and Employment Report (showing each employee, their gross wages for the quarter, and the taxable wages up to the $9,500 cap) and remitted with the UC-5 Contribution Report. Due dates: April 30 (Q1), July 31 (Q2), October 31 (Q3), January 31 (Q4). Filing is electronic only via Uplink ESS for any employer with 25 or more employees. Smaller employers may still file on paper but most use Uplink. (not yet confirmed)
+- **UC-1 and UC-5 reporting requirements** -- SUTA contributions are reported on the UC-1 Wage and Employment Report (showing each employee, their gross wages for the quarter, and the taxable wages up to the $9,500 cap) and remitted with the UC-5 Contribution Report. Due dates: April 30 (Q1), July 31 (Q2), October 31 (Q3), January 31 (Q4). Filing is electronic only via Uplink ESS for any employer with 25 or more employees. Smaller employers may still file on paper but most use Uplink.
 
 ### 8.4 Voluntary contributions
 
@@ -301,7 +301,7 @@ Penalties and interest are covered in the filing sections above: late filing and
 
 ### 8.5 SUTA dumping prohibition
 
-- **SUTA dumping enforcement** -- Indiana enforces the federal SUTA Dumping Prevention Act and its own state-level transfer-of-experience rules. Common SUTA-dumping patterns that trigger criminal investigation by DWD: - Setting up a new LLC each year to obtain the new-employer rate. - Transferring employees to a related entity with a lower experience rate without transferring the experience history. - Acquiring a company solely to "absorb" its lower rate. Penalties include the maximum 7.40% rate for the current and two succeeding years, plus civil penalty of up to 2% of taxable wages.  _(IC 22-4-11.5-7)_ (not yet confirmed)
+- **SUTA dumping enforcement** -- Indiana enforces the federal SUTA Dumping Prevention Act and its own state-level transfer-of-experience rules. Common SUTA-dumping patterns that trigger criminal investigation by DWD: - Setting up a new LLC each year to obtain the new-employer rate. - Transferring employees to a related entity with a lower experience rate without transferring the experience history. - Acquiring a company solely to "absorb" its lower rate. Penalties include the maximum 7.40% rate for the current and two succeeding years, plus civil penalty of up to 2% of taxable wages.  _(IC 22-4-11.5-7)_
 
 ### Worker Classification – The ABC Test
 
@@ -319,7 +319,7 @@ This dual-test divergence is the single most expensive classification trap in In
 
 ### 9.3 Penalties for misclassification
 
-- **Misclassification penalty structure** -- - DWD back contributions for up to 3 prior years. - Penalty of 1.5x the unpaid contribution. - Interest at 1% per month. - Workers' Compensation Board separately can pursue uninsured exposure. - DOR can pursue unwithheld income tax. - Possible criminal liability for knowing misclassification.  _(IC 22-4-29-1; IC 22-4-11-2(c); IC 22-3-2; IC 6-3-4-8; IC 22-4-29; IC 6-8.1-10-5)_ (not yet confirmed)
+- **Misclassification penalty structure** -- - DWD back contributions for up to 3 prior years. - Penalty of 1.5x the unpaid contribution. - Interest at 1% per month. - Workers' Compensation Board separately can pursue uninsured exposure. - DOR can pursue unwithheld income tax. - Possible criminal liability for knowing misclassification.  _(IC 22-4-29-1; IC 22-4-11-2(c); IC 22-3-2; IC 6-3-4-8; IC 22-4-29; IC 6-8.1-10-5)_
 
 ### Wage Payment, Final Pay, and Other Workplace Rules
 
@@ -334,7 +334,7 @@ This dual-test divergence is the single most expensive classification trap in In
 
 ### 10.3 Wage Payment Statute claims
 
-- **Liquidated damages for late wage payment** -- A non-fault late wage payment is subject to liquidated damages of 10% per day up to a maximum of 200% of the unpaid wages, plus attorney fees. This is a powerful private right of action and the most common Indiana wage-and-hour lawsuit pattern.  _(IC 22-2-5-2)_ (not yet confirmed)
+- **Liquidated damages for late wage payment** -- A non-fault late wage payment is subject to liquidated damages of 10% per day up to a maximum of 200% of the unpaid wages, plus attorney fees. This is a powerful private right of action and the most common Indiana wage-and-hour lawsuit pattern.  _(IC 22-2-5-2)_
 
 ### 10.4 Pay stub disclosures
 
@@ -363,12 +363,12 @@ This contrasts sharply with neighboring Illinois (which has the Illinois Paid Le
 **Analysis.**
 
 1. **Indiana–Illinois reciprocity.** There is no Indiana–Illinois reciprocal agreement. (Indiana's reciprocal partners are OH, KY, MI, PA, WI only.) Therefore Illinois imposes its state income tax on the wages Alex earns while physically working in Illinois.
-2. **Illinois withholding.** NorthShore Capital withholds Illinois income tax at the Illinois 4.95% flat rate on the wages earned while Alex is physically in Illinois. Approximate Illinois withholding: $120,000 × 4.95% = $5,940. (not yet confirmed)
+2. **Illinois withholding.** NorthShore Capital withholds Illinois income tax at the Illinois 4.95% flat rate on the wages earned while Alex is physically in Illinois. Approximate Illinois withholding: $120,000 × 4.95% = $5,940.
 3. **Indiana withholding.** Because NorthShore Capital has no Indiana nexus, it is NOT required to register with DOR and withhold Indiana state and county tax. Alex must instead make Indiana estimated tax payments (Form IT-40ES) for 2025.
-4. **Indiana state tax.** $120,000 × 3.15% = $3,780 before exemptions and the credit for taxes paid to other states. (not yet confirmed)
+4. **Indiana state tax.** $120,000 × 3.15% = $3,780 before exemptions and the credit for taxes paid to other states.
 5. **Indiana county tax.** Alex is a Lake County resident on January 1, so the Lake County rate of 1.50% applies. $120,000 × 1.50% = $1,800.
-6. **Credit for taxes paid to another state.** Alex's Indiana IT-40 will claim a credit (Schedule 6, Credit for Local Taxes Paid Outside Indiana, and credit for taxes paid to other states on IT-40 Schedule 6) for the Illinois tax. The credit is capped at the Indiana state tax that would have applied to the same income. Effectively, Alex's Indiana state tax of $3,780 is wiped out by the Illinois credit, but the Lake County tax of $1,800 still owes because Illinois state tax credit does not offset Indiana county tax. (not yet confirmed)
-7. **Net Indiana payment.** Alex makes quarterly estimated payments totaling approximately $1,800 for the year to cover the Lake County tax. If Alex does not, the Indiana underpayment penalty under IC 6-3-4-4.1 applies. (not yet confirmed)
+6. **Credit for taxes paid to another state.** Alex's Indiana IT-40 will claim a credit (Schedule 6, Credit for Local Taxes Paid Outside Indiana, and credit for taxes paid to other states on IT-40 Schedule 6) for the Illinois tax. The credit is capped at the Indiana state tax that would have applied to the same income. Effectively, Alex's Indiana state tax of $3,780 is wiped out by the Illinois credit, but the Lake County tax of $1,800 still owes because Illinois state tax credit does not offset Indiana county tax.
+7. **Net Indiana payment.** Alex makes quarterly estimated payments totaling approximately $1,800 for the year to cover the Lake County tax. If Alex does not, the Indiana underpayment penalty under IC 6-3-4-4.1 applies.
 
 **Reviewer notes.** This pattern catches many cross-border employees by surprise. Practitioners should flag for any Indiana-resident / Illinois-employer client (a) Indiana quarterly estimated payments are required because the IL employer cannot/will not withhold Indiana tax, and (b) the county tax obligation remains in full because the credit for taxes paid to another state offsets only the Indiana state tax component.
 
@@ -379,24 +379,24 @@ This contrasts sharply with neighboring Illinois (which has the Illinois Paid Le
 **Analysis.**
 
 1. **WH-4.** Each employee files a WH-4 listing Marion County as their residence on January 1.
-2. **State withholding.** $40,000 × 3.15% = $1,260 per month. (not yet confirmed)
-3. **County withholding.** $40,000 × 2.02% (Marion County 2025 rate) = $808 per month. (not yet confirmed)
-4. **Total Indiana income tax withholding.** $2,068 per month. (not yet confirmed)
-5. **WH-1 filing frequency.** Total annual withholding is roughly $2,068 × 12 = $24,816. This is above the $1,000/year threshold (monthly filer) and below the $85,000/year threshold (early filer / semi-monthly). So Indy Mechanical files monthly WH-1 vouchers via INTIME, due the 30th of the following month. (not yet confirmed)
+2. **State withholding.** $40,000 × 3.15% = $1,260 per month.
+3. **County withholding.** $40,000 × 2.02% (Marion County 2025 rate) = $808 per month.
+4. **Total Indiana income tax withholding.** $2,068 per month.
+5. **WH-1 filing frequency.** Total annual withholding is roughly $2,068 × 12 = $24,816. This is above the $1,000/year threshold (monthly filer) and below the $85,000/year threshold (early filer / semi-monthly). So Indy Mechanical files monthly WH-1 vouchers via INTIME, due the 30th of the following month.
 6. **WH-3 reconciliation.** Due January 31 2026 with eight W-2s uploaded through INTIME. Box 17 of each W-2 shows the Indiana state tax withheld. Box 19 shows the Marion County tax withheld with locality name "MARION-IN".
-7. **SUTA.** Wage base $9,500 per employee × 8 employees = $76,000 taxable wages. Rate 2.10%. Annual SUTA contribution: $76,000 × 2.10% = $1,596. Quarterly UC-1/UC-5 reports are due 4/30, 7/31, 10/31, and 1/31. (not yet confirmed)
+7. **SUTA.** Wage base $9,500 per employee × 8 employees = $76,000 taxable wages. Rate 2.10%. Annual SUTA contribution: $76,000 × 2.10% = $1,596. Quarterly UC-1/UC-5 reports are due 4/30, 7/31, 10/31, and 1/31.
 8. **New hire reporting.** Each new hire reported within 20 days.
 
-**Reviewer notes.** Even with a single county and a single state, the employer must run the WH-1 monthly, the UC-1/UC-5 quarterly, and the WH-3 annually. Missing any periodic filing triggers the 10% penalty plus interest plus possible non-filer notice escalation. (not yet confirmed)
+**Reviewer notes.** Even with a single county and a single state, the employer must run the WH-1 monthly, the UC-1/UC-5 quarterly, and the WH-3 annually. Missing any periodic filing triggers the 10% penalty plus interest plus possible non-filer notice escalation.
 
 ### 11.3 Example 3 -- Reciprocal Ohio resident hired by Indiana employer
 
-**Facts.** RiverBend Pharma LLC is a small biotech company in Lawrenceburg, Dearborn County, Indiana. It hires Sandra Lee, who lives in Cincinnati, Hamilton County, Ohio, and commutes to Lawrenceburg daily. Sandra's salary is $80,000. (not yet confirmed)
+**Facts.** RiverBend Pharma LLC is a small biotech company in Lawrenceburg, Dearborn County, Indiana. It hires Sandra Lee, who lives in Cincinnati, Hamilton County, Ohio, and commutes to Lawrenceburg daily. Sandra's salary is $80,000.
 
 **Analysis.**
 
 1. **Reciprocity.** Indiana and Ohio have a reciprocal agreement. Sandra files Indiana Form WH-47 with RiverBend.
-2. **Indiana state income tax withholding.** RiverBend does NOT withhold the 3.15% Indiana state income tax on Sandra's wages. (not yet confirmed)
+2. **Indiana state income tax withholding.** RiverBend does NOT withhold the 3.15% Indiana state income tax on Sandra's wages.
 3. **Indiana county tax withholding.** Reciprocity does NOT extend to county tax. Sandra is not an Indiana resident on January 1, so under IC 6-3.6-8-1 the rate is determined by the county of principal employment on January 1 -- Dearborn County. Dearborn County's 2025 rate is approximately 1.20% (confirm against Departmental Notice #1). RiverBend withholds $80,000 × 1.20% = $960 per year for Dearborn County tax.
 4. **Ohio state income tax withholding.** RiverBend should register as an Ohio employer (Ohio IT 1) and withhold Ohio state tax under the Ohio progressive brackets. Sandra files Ohio Form IT-4 with RiverBend.
 5. **Ohio local taxes.** Sandra does not work in any Ohio municipality (she works in Indiana), but her Cincinnati city income tax obligation may still attach as a "residence tax" if Cincinnati imposes a residence tax on the wages -- under most Ohio city rules, residence tax applies and is offset by a credit for tax paid to the work municipality. Indiana does not impose a "work municipality" tax in the Ohio sense, so Sandra likely owes Cincinnati residence tax with no offsetting credit. RiverBend is not generally required to withhold Cincinnati city tax (the employee handles it through Cincinnati estimated payments or year-end filing). Coordinate with Ohio counsel.
@@ -419,10 +419,10 @@ All three prongs fail. For DWD purposes, the cleaners are employees, not contrac
 
 **Consequences.**
 
-- DWD back-assesses SUTA contributions for the past 3 years at Hoosier's experience rate plus 1.5x penalty plus 1%/month interest. (not yet confirmed)
-- DOR back-assesses unwithheld Indiana state tax and Marion County tax under IC 6-3-4-8 (3.15% + 2.02% = 5.17% applied to gross payments). (not yet confirmed)
+- DWD back-assesses SUTA contributions for the past 3 years at Hoosier's experience rate plus 1.5x penalty plus 1%/month interest.
+- DOR back-assesses unwithheld Indiana state tax and Marion County tax under IC 6-3-4-8 (3.15% + 2.02% = 5.17% applied to gross payments).
 - Workers' Compensation Board may pursue Hoosier under IC 22-3-2 for uninsured exposure plus penalty.
-- Federal exposure: IRS Section 530 relief is not available because Hoosier did not file Forms 1099-NEC consistently across all cleaners (some were paid more than the $600 threshold without 1099 issuance, per facts). (not yet confirmed)
+- Federal exposure: IRS Section 530 relief is not available because Hoosier did not file Forms 1099-NEC consistently across all cleaners (some were paid more than the $600 threshold without 1099 issuance, per facts).
 
 **Reviewer notes.** Conversion to W-2 going forward is the only defensible path. Some firms attempt a quiet conversion without voluntarily disclosing past misclassification -- this is risky because DWD audit cycles increasingly cross-reference DOR 1099 data and the former contractors are common unemployment-claim filers themselves. The Indiana Voluntary Classification Settlement Program (analogous to the IRS VCSP) can be used for prospective conversion with limited look-back, but the program terms change periodically -- confirm current parameters with DOR before filing.
 
@@ -434,7 +434,7 @@ All three prongs fail. For DWD purposes, the cleaners are employees, not contrac
 
 - The employer's action is INCORRECT. Under IC 6-3.6-8-1, Maya's county tax rate for the entire 2025 calendar year is locked at the Hamilton County rate of 1.10%, because she was a Hamilton County resident on January 1 2025. The fact that she moved on March 1 is irrelevant for 2025 withholding.
 - Correct action. Withhold 1.10% for all 12 months of 2025. On January 1 2026, Maya files a new WH-4 stating Marion County as her residence as of January 1 2026, and from January 1 2026 forward the employer withholds at the Marion County rate (2.02% in 2025, whatever the 2026 rate proves to be -- likely the same in 2026 unless the council adopts a change).
-- Audit exposure. ChartLogic over-withheld for Maya from March through December 2025. The excess ($X × (2.02% - 1.10%) for those months) must be either (a) refunded to Maya in a corrective paycheck and recovered from DOR through a WH-1U adjustment, or (b) claimed by Maya on her IT-40. (not yet confirmed)
+- Audit exposure. ChartLogic over-withheld for Maya from March through December 2025. The excess ($X × (2.02% - 1.10%) for those months) must be either (a) refunded to Maya in a corrective paycheck and recovered from DOR through a WH-1U adjustment, or (b) claimed by Maya on her IT-40.
 
 > **AUDIT FLASH POINT -- Always re-train payroll on the rule: the January 1 rate locks for the full year. Never change county withholding mid-year due to an Indiana-to-Indiana move. The ONLY mid-year change is when an employee moves OUT of Indiana entirely (then they become subject to no Indiana county tax going forward, but they remain liable for the full year's county tax via the IT-40 on the wages earned during the period they were an Indiana resident).**
 
@@ -443,7 +443,7 @@ All three prongs fail. For DWD purposes, the cleaners are employees, not contrac
 Before signing off on an Indiana payroll year-end, confirm:
 
 - [ ] Each employee has a WH-4 on file for the current year with correct January 1 residence county.
-- [ ] State tax withheld matches 3.15% × taxable wages (or the current-year Departmental Notice #1 rate). (not yet confirmed)
+- [ ] State tax withheld matches 3.15% × taxable wages (or the current-year Departmental Notice #1 rate).
 - [ ] County tax withheld for each employee matches the published 2025 rate for their January 1 residence county.
 - [ ] No mid-year county rate changes were applied for Indiana-to-Indiana moves.
 - [ ] All employees from reciprocal states (OH, KY, MI, PA, WI) have a WH-47 on file and Indiana state tax is NOT withheld for them.
@@ -491,7 +491,7 @@ Before signing off on an Indiana payroll year-end, confirm:
 
 Also cited without archived copies this run: IC 6-3.6 (local income taxes); IC 6-8.1-10 (penalties and interest); IC 22-2-2/22-2-5/22-2-9/22-2-16 (minimum wage, wage payment, separation pay, sick-leave preemption); IC 22-4 and IC 22-4-8-1 (unemployment system, ABC test); HEA 1001-2023 / HEA 1427-2023 (PIT rate phase-down); DOR Departmental Notice #1; DOR Information Bulletins #32 and #33; DWD Employer Handbook (2025); IRS Rev. Rul. 87-41; Naugle v. Beech Grove City Schools, 864 N.E.2d 1058 (Ind. 2007).
 
-Not yet confirmed: the 3.15% 2025 state rate and the 2026 rate; the 2025 county-rate schedule (Departmental Notice #1); the UI wage base ($9,500) and experience/new-employer rates; the WH-1 "monthly with EFT" and early-filer bands above $1,000/month (the archived DOR Business FAQ puts early-filer at more than $1,000/month, conflicting with the $7,083.33 band shown above); the $25,000 annual cap on the late W-2 penalty; penalty percentages; reciprocity form details -- DWD and iga.in.gov pages returned no machine-readable text this run.
+Not yet confirmed: the full 2023-2027 state PIT rate schedule (3.15% for 2023 and 2025, 3.05% for 2024, 3.00% for 2026, 2.90% for 2027, and the HEA 1001-2023 revenue triggers); the 2025 county-rate schedule (Departmental Notice #1), including the 0.50%-2.864% range and every selected county rate; the UI wage base ($9,500), experience/new-employer rates, UC-1/UC-5 due dates and the 25-statement e-filing threshold; the WH-1 "monthly with EFT" and early-filer bands above $1,000/month (the archived DOR Business FAQ puts early-filer at more than $1,000/month, conflicting with the $7,083.33 band shown above); the $25,000 annual cap on the late W-2 penalty; the remaining penalty percentages (the ~7% interest rate, the 100% fraudulent non-remittance penalty, SUTA-dumping and misclassification penalties, and the 10%-per-day/200% wage-payment liquidated damages); WH-4 exemption amounts ($1,000 personal, $1,500 dependent) and the February 15 exempt-renewal date; reciprocity form details; and the out-of-state and federal figures quoted in the examples (the federal 22% supplemental rate, the $600 1099 threshold, the Illinois 4.95% rate, Detroit city rates) -- DWD and iga.in.gov pages returned no machine-readable text this run.
 
 ## Talk to a verified accountant
 
