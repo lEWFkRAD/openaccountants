@@ -341,7 +341,7 @@ For an employer with workers physically performing services in Alexandria, the c
 
 ### 14.1 Example A -- VA-resident DC commuter (reciprocal)
 
-All figures in this example are illustrative and listed under Not yet confirmed.
+All figures in this example are hypothetical inputs and listed under Not yet confirmed.
 
 **Facts:**
 - Employer: Smith Federal Contracting LLC, headquartered in Arlington, VA
@@ -381,7 +381,7 @@ A Maryland resident who performs all services at a Virginia employer's Virginia 
 
 ### 14.3 Example C -- Multistate employer with VA residents working across multiple jurisdictions
 
-All figures in this example are illustrative and listed under Not yet confirmed.
+All figures in this example are hypothetical inputs and listed under Not yet confirmed.
 
 **Facts:**
 - Employer: Acme Federal Services LLC, headquartered in Arlington, VA, with a federal prime contract under GSA Schedule

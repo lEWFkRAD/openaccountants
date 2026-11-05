@@ -45,7 +45,7 @@ Every rule in this skill is tagged with a confidence tier:
 - **[T2] Tier 2 -- Reviewer Judgement Required.** Claude flags the issue and presents options. A licensed CPA, EA, or tax attorney must confirm before filing.
 - **[T3] Tier 3 -- Out of Scope / Escalate.** Do not guess. Escalate to a licensed tax professional.
 
-## Step 0: Client Onboarding Questions
+## Who this applies to
 
 **Client Onboarding Questions**
 
@@ -62,7 +62,7 @@ Every rule in this skill is tagged with a confidence tier:
 
 **If the client cannot answer questions 1-4, STOP and gather this information before proceeding.** [T1]
 
-## Step 1: Tax Rate Structure
+## Rates, bands and thresholds
 
 ### 1.1 Standard Rate Composition
 
@@ -100,7 +100,7 @@ Virginia is generally an **origin-based** sourcing state for intrastate sales.
 
 **Important:** Because Virginia has regional rate differences, the sourcing determination directly affects the rate. A seller in Northern Virginia (6%) shipping to Hampton Roads (7%) charges the 7% rate. [T1]
 
-## Step 2: Transaction Classification Rules
+## The taxable base
 
 ### 2.1 General Rule
 
@@ -163,7 +163,7 @@ Virginia is generally an **origin-based** sourcing state for intrastate sales.
 | Construction services | No (materials taxable at purchase) | DOR guidance |
 | Transportation/freight (separately stated) | Exempt | Va. Code Section 58.1-609.5(3) |
 
-## Step 3: Return Form Structure
+## Deadlines and filing
 
 ### 3.1 Registration
 
@@ -190,10 +190,10 @@ Virginia is generally an **origin-based** sourcing state for intrastate sales.
 ### 3.4 Dealer's Discount
 
 - **Dealer's discount retention** — Dealers may retain a portion of the sales tax they collect as a statutory dealer's discount, computed as a percentage of the tax due on the first tranche of taxable sales. (T1)  _(Va. Code Section 58.1-622)_
-- **Maximum discount** — The maximum discount is approximately $53 per month (for monthly filers with sufficient sales volume). (T1)  _(Va. Code Section 58.1-622)_
+- **Maximum discount** — A monthly cap applies (Not yet confirmed: the $53 figure is not stated in any archived source; § 58.1-622 was not archived, only its caption "Discount" appears in the Chapter 6 index US-VA-dr-chapter6.html).  _(Va. Code Section 58.1-622)_
 - **Discount timely filing condition** — The discount is available only if the return is filed and payment is made on time.  _(Va. Code Section 58.1-622)_
 
-Not-yet-confirmed: the dealer's discount figures (retention of the greater of $0 or 1.6% of tax due on collections of the first $62,500 of taxable sales, per Va. Code § 58.1-622) are not stated in any archived source — § 58.1-622 itself was not archived; only its caption "Discount" appears in the Chapter 6 index (US-VA-dr-chapter6.html).
+
 
 ### 3.5 Penalties and Interest
 
@@ -212,7 +212,7 @@ Not-yet-confirmed: the dealer's discount figures (retention of the greater of $0
 
 - **No prepayment requirement** — Virginia does not require sales tax prepayments (unlike some states that require estimated payments mid-month for large filers). (T1)
 
-## Step 4: Deductibility / Exemptions
+### Deductibility and exemptions
 
 ### 5.1 Virginia Exemption Certificates
 
@@ -263,7 +263,7 @@ Virginia relieves sellers of liability when they accept exemption certificates i
 - **Business use tax reporting** — Businesses: Report on Form ST-7 (Consumer Use Tax Return) or Form ST-9. (T1)
 - **Individual use tax reporting** — Individuals: Report on Virginia individual income tax return (Form 760). (T1)
 
-## Step 5: Key Thresholds
+### Key thresholds
 
 ### 4.1 Physical Nexus
 
@@ -293,11 +293,11 @@ Virginia enacted economic nexus effective July 1, 2019.
 
 Virginia enacted marketplace facilitator legislation effective July 1, 2019 (concurrent with economic nexus).
 
-## Step 6: Filing Deadlines and Penalties
+## Penalties and interest
 
 Refer to Step 3 for filing frequencies and due dates. [T1]
 
-## PROHIBITIONS
+## Ask the client first
 
 - **1** — NEVER apply a flat 5.3% rate statewide -- check whether the address is in Northern Virginia (6.0%), Hampton Roads (7.0%), or the rest of Virginia (5.3%). (T1)
 - **2** — NEVER advise that grocery food is fully exempt from sales tax in Virginia -- it is taxed at a reduced rate of approximately 1% (local component only, after the Jan 2023 change). (T1)
@@ -310,7 +310,7 @@ Refer to Step 3 for filing frequencies and due dates. [T1]
 - **9** — NEVER ignore the data center exemption for qualifying purchases -- it is a significant incentive. (T2)
 - **10** — NEVER provide Virginia tax guidance without specifying which regional rate applies to the customer's location. (T1)
 
-## Edge Case Registry
+## Cross-border points
 
 ### 7.1 Data Center Equipment Exemption [T2]
 
@@ -364,7 +364,7 @@ Unlike Maryland, Virginia does not impose a separate digital advertising tax. Ho
 
 Virginia holds an annual sales tax holiday (typically the first weekend in August):
 
-## Test Suite
+## Worked examples
 
 ### Test 1: Standard Rate Calculation [T1]
 
@@ -408,7 +408,7 @@ Virginia holds an annual sales tax holiday (typically the first weekend in Augus
 
 **Expected Answer:** Virginia use tax at 7.0% = $140. Credit for tax paid to other state: $2,000 x 4% = $80. Net Virginia use tax owed: $140 - $80 = $60.
 
-## Reviewer Escalation Protocol
+### Reviewer escalation protocol
 
 **Reviewer Escalation Protocol**
 
@@ -420,7 +420,7 @@ Virginia holds an annual sales tax holiday (typically the first weekend in Augus
 | Penalty abatement or voluntary disclosure | Escalate to licensed professional with state-specific experience. |
 | Ambiguous taxability of a product/service | Present both interpretations to reviewer with supporting authority. |
 
-## Contribution Notes
+### Contribution notes
 
 - This skill follows the Q1 execution format (Step 0 through Step 7).
 - All rules are tagged [T1], [T2], or [T3] per the Confidence Tier Definitions.
@@ -428,15 +428,26 @@ Virginia holds an annual sales tax holiday (typically the first weekend in Augus
 - To update this skill, submit a pull request with the specific section, supporting statutory authority, and effective date of the change.
 - All changes require validation by a US CPA or EA before merging.
 
-## Disclaimer
+### Disclaimer
 
 This skill and its outputs are provided for informational and computational purposes only and do not constitute tax, legal, or financial advice. Open Accountants and its contributors accept no liability for any errors, omissions, or outcomes arising from the use of this skill. All outputs must be reviewed and signed off by a qualified professional (such as a CPA, EA, tax attorney, or equivalent licensed practitioner in your jurisdiction) before filing or acting upon.
-
-The most up-to-date, verified version of this skill is maintained at [openaccountants.com](https://openaccountants.com). Log in to access the latest version, request a professional review from a licensed accountant, and track updates as tax law changes.
 
 <!-- openaccountants-cta-block -->
 
 ---
+
+## Sources
+
+| Source | Type | Read on | Archived |
+| --- | --- | --- | --- |
+| US-VA-dr-section58.1-603.html (Va. Code § 58.1-603, 4.3% state rate) | statute capture | 2026-11-04 | sources/US-VA-dr-section58.1-603.html |
+| US-VA-dr-section58.1-603.1.html (0.70% NOVA / Central VA add-ons) | statute capture | 2026-11-04 | sources/US-VA-dr-section58.1-603.1.html |
+| US-VA-dr-section58.1-15.html (interest = federal underpayment rate + 2%) | statute capture | 2026-11-04 | sources/US-VA-dr-section58.1-15.html |
+| US-VA-dr-section58.1-633/634/636.html (records, limitations, failure-to-file) | statute capture | 2026-11-04 | sources/US-VA-dr-section58.1-633.html |
+| US-VA-dr-chapter6.html (Chapter 6 index incl. § 58.1-622 caption) | statute index | 2026-11-04 | sources/US-VA-dr-chapter6.html |
+| US-VA-dr-alexandria-bpol.html (locality BPOL / marketplace facilitator date) | locality page | 2026-11-04 | sources/US-VA-dr-alexandria-bpol.html |
+
+Not yet confirmed: the combined 5.3%/6%/7% locality rates and jurisdiction lists (§§ 58.1-605/605.1 not archived); the dealer's discount figures ($0-greater-of, 1.6% of the first $62,500, ~$53 monthly cap — § 58.1-622 not archived); the $53 max discount; the 6%/month late filing/payment penalties and 30% cap (§ 58.1-630 not archived); the 6% negligence and 100% fraud penalties (§ 58.1-635 not archived); the monthly filing and 20th-of-month rules (§§ 58.1-615/616 not archived); the economic-nexus $100,000/200-transaction test (§ 58.1-623.1 not archived); the grocery 0.935% effective rate (§ 58.1-611.1 not archived); the school-supplies $20, clothing $100 and Energy Star $2,500 thresholds (§§ 58.1-611.2/639.1 not archived); the $150M data-center threshold (§ 58.1-628.2 capture does not state it); the July 1 2019 economic-nexus date.
 
 ## Talk to a verified accountant
 
