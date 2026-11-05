@@ -37,11 +37,11 @@ Quality tier. Q3 -- AI-drafted, not independently verified. All rates and rules 
 | Tax authority | West Virginia State Tax Division |
 | Filing portal | https://tax.wv.gov |
 | Tax year covered | 2025 (filed 2026) and 2026 (filed 2027) |
-| Last updated | May 22, 2026 | (not yet confirmed)
+| Last updated | May 22, 2026 (see Not-yet-confirmed in Sources) |
 
 ### Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: figures in this skill lack archived line-citations. Still not confirmed against archived sources: (1) the "Last updated May 22, 2026" date; (2) the characterization of the 2024 HB 2526 top-rate change as a "21.25% reduction from 6.5%"; (3) the senior citizen tax credit parameters "taxpayers 65+ with income below $50,000 (single) or $100,000 (MFJ)" and "amount per the published schedule" -- the archived sources describe the credit as a property-tax credit with a federal-AGI-below-150%-of-federal-poverty-level test, not age/income brackets.
 
 
 | Source | URL | Read on |
@@ -88,7 +88,7 @@ Not yet confirmed: 2025 Form IT-140 Instructions (https://tax.wv.gov/Individuals
 | $10,001 – $25,000 | 2.96% |
 | $25,001 – $40,000 | 3.33% |
 | $40,001 – $60,000 | 4.44% |
-| $60,001 and above | 4.82% | (not yet confirmed)
+| $60,001 and above | 4.82% | (US-WV-dr-code-11-21-4i.html: "Over $60,000 $2,053.50 plus 4.82% of excess over $60,000", applicable for taxable years beginning on and after January 1, 2025) |
 
 ### Rate reduction history
 
@@ -97,9 +97,9 @@ Not yet confirmed: 2025 Form IT-140 Instructions (https://tax.wv.gov/Individuals
 | Tax year | Top rate | Legislation |
 | --- | --- | --- |
 | 2026 | 4.58% | SB 392 (2026 session) -- 5% across-the-board cut |
-| 2025 | 4.82% | HB 2526 (2024) | (not yet confirmed)
-| 2024 | 5.12% | HB 2526 (2023) -- 21.25% reduction from 6.5% | (not yet confirmed)
-| 2023 | 6.50% | Prior law | (not yet confirmed)
+| 2025 | 4.82% | HB 2526 (2024) (US-WV-dr-code-11-21-4i.html: "Over $60,000 $2,053.50 plus 4.82% of excess over $60,000", §11-21-4i "Rate of tax -- Taxable years beginning on and after January 1, 2025") |
+| 2024 | 5.12% | HB 2526 (2023) (US-WV-dr-code-11-21-4g.html: "Over $60,000 $2,183.50 plus 5.12% of excess over $60,000"; US-WV-dr-hb2526-sub-enr.html: rates "shall apply for all taxable years beginning on and after January 1, 2025, and shall be in lieu of the rates of tax specified in §11-21-4g") (the "21.25% reduction from 6.5%" characterization: see Not-yet-confirmed in Sources) |
+| 2023 | 6.50% | Prior law (US-WV-dr-code-11-21-4e.html: "Over $60,000 $2,775.00 plus 6.5% of excess over $60,000", §11-21-4e "Rate of tax -- Taxable years beginning on or after January 1, 1987") |
 
 Note: West Virginia enacted legislation in 2023 (HB 2526) with revenue triggers that could eventually eliminate the personal income tax. The 2026 SB 392 is an additional legislated cut on top of the trigger-based reductions.
 
@@ -109,11 +109,11 @@ Note: West Virginia enacted legislation in 2023 (HB 2526) with revenue triggers 
 
 | Item | Amount | Source |
 | --- | --- | --- |
-| Filing deadline | April 15 | W.Va. Code §11-21-15 | (not yet confirmed)
-| Extension | October 15 (automatic with federal) | W.Va. Code §11-21-15 | (not yet confirmed)
-| Estimated tax threshold | If tax owed will exceed withholding by $600+ | W.Va. Code §11-21-21 | (not yet confirmed)
+| Filing deadline | April 15 | W.Va. Code §11-21-15 (US-WV-dr-it140-2025.txt: "The due date for filing your 2025 West Virginia Personal Income Tax return is April 15, 2026") |
+| Extension | October 15 (automatic with federal) | W.Va. Code §11-21-15 (US-WV-dr-it140-2025.txt: "If you obtain an extension of time to file your federal income tax return, you are automatically allowed the same extension of time to file your West Virginia income tax return"; "Your return must be filed no later than October 15 after the original due date") |
+| Estimated tax threshold | If tax owed will exceed withholding by $600+ | W.Va. Code §11-21-21 (US-WV-dr-it140-2025.txt: "if your estimated tax reduced by your tax withheld is less than $600, no penalty will be imposed"; US-WV-dr-it140esi.txt) |
 | Family tax credit | $40 per exemption (low-income only) | Form IT-140 instructions |
-| State sales tax rate | 6% | W.Va. Code §11-15 | (not yet confirmed)
+| State sales tax rate | 6% | W.Va. Code §11-15 (US-WV-dr-code-11-15-3.html: "The general consumers sales and service tax imposed by this article shall be at the rate of six cents on the dollar of sales or services") |
 
 ## Section 3: How this skill works with the federal return
 
@@ -125,7 +125,7 @@ Flow:
 3. West Virginia additions are applied (Schedule M, Additions).
 4. West Virginia subtractions are applied (Schedule M, Subtractions).
 5. West Virginia taxable income is computed.
-6. Tax is computed from the rate schedule (or tax table if taxable income ≤$100,000). (not yet confirmed)
+6. Tax is computed from the rate schedule (or the tax table if taxable income is under $100,000; US-WV-dr-it140-2025.txt: "if ... less than $100,000, apply the amount of taxable income shown on line 7 to the Tax Table"; "$100,000, use Rate Schedule I").
 7. For part-year/nonresidents: apportion using Schedule A (WV income ÷ total income × tentative tax).
 8. Credits are applied.
 
@@ -135,7 +135,7 @@ Key structural point: Because WV starts from federal AGI, the federal standard d
 
 ### Self-employment tax deduction
 
-- **Self-employment tax deduction** -- The federal deduction for 50% of self-employment tax reduces federal AGI → flows through to West Virginia automatically. (not yet confirmed)
+- **Self-employment tax deduction** -- The federal deduction for 50% of self-employment tax reduces federal AGI → flows through to West Virginia automatically. The IT-140 itself carries a dedicated "Self-employment tax deduction" line (US-WV-dr-it140-2025.txt, line 17 of the return).
 
 ### Retirement contributions
 
@@ -159,7 +159,7 @@ Key structural point: Because WV starts from federal AGI, the federal standard d
 
 ### Estimated tax payments
 
-- **Estimated tax payments** -- Required if expected WV tax liability after withholding will exceed $600. Due dates: April 15, June 15, September 15, January 15. Form IT-140ES (voucher). (not yet confirmed)
+- **Estimated tax payments** -- Required if expected WV tax liability after withholding will exceed $600. Due dates: April 15, June 15, September 15, January 15. Form IT-140ES (voucher). (US-WV-dr-it140esi.txt: "Current year quarterly installments are typically due April 15, June 15, and September 15 with the fourth quarter due January 15 of the following year"; $600 threshold per same file and US-WV-dr-it140-2025.txt)
 
 ## Section 5: Tier 1 rules -- deterministic
 
@@ -185,11 +185,11 @@ Key structural point: Because WV starts from federal AGI, the federal standard d
 
 ## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-6] Filing due date** -- April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension obtained; attach copy of federal extension with WV return). (not yet confirmed)
+- **[T1-WV-6] Filing due date** -- April 15 following the tax year (April 15, 2026 for TY 2025). Extension: October 15 (automatic if federal extension obtained; attach copy of federal extension with WV return). (US-WV-dr-it140-2025.txt: "The due date for filing your 2025 West Virginia Personal Income Tax return is April 15, 2026"; "you are automatically allowed the same extension of time to file your West Virginia income tax return"; "A copy of Federal Schedule 4868 must be enclosed with your return"; "Your return must be filed no later than October 15 after the original due date")
 
 ## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-7] Estimated tax payments** -- Required if expected tax after withholding exceeds $600. Quarterly due dates: April 15, June 15, September 15, January 15. Form IT-140ES. Safe harbor: pay 100% of prior year liability or 90% of current year. (not yet confirmed)
+- **[T1-WV-7] Estimated tax payments** -- Required if expected tax after withholding exceeds $600. Quarterly due dates: April 15, June 15, September 15, January 15. Form IT-140ES. Safe harbor: pay 100% of prior year liability or 90% of current year. (US-WV-dr-it140-2025.txt: "You may owe the penalty if you did not pay at least the smaller of 90% of your current year tax liability; or 100% of your prior tax liability"; "if your estimated tax reduced by your tax withheld is less than $600, no penalty will be imposed"; US-WV-dr-it140esi.txt: quarterly installments "due April 15, June 15, and September 15 with the fourth quarter due January 15 of the following year")
 
 ## Section 5: Tier 1 rules -- deterministic
 
@@ -197,7 +197,7 @@ Key structural point: Because WV starts from federal AGI, the federal standard d
 
 ## Section 5: Tier 1 rules -- deterministic
 
-- **[T1-WV-9] Senior citizen tax credit** -- Taxpayers 65+ with income below $50,000 (single) or $100,000 (MFJ) may claim a credit. Amount per the published schedule. (not yet confirmed)
+- **[T1-WV-9] Senior citizen tax credit** -- See Not-yet-confirmed in Sources for the unconfirmed 65+/$50,000/$100,000 credit parameters. The archived sources describe the Senior Citizen Tax Credit as a credit for property tax paid on a homestead, available to taxpayers whose federal adjusted gross income is less than 150% of the federal poverty level (US-WV-dr-it140-2025.txt: "who incur and pay property taxes and whose federal adjusted gross income is less than 150% of federal"; W.Va. Code §11-21-21, "Senior citizens' tax credit for property tax paid on first $20,000 of taxable assessed value of a homestead in this state", archived as US-WV-dr-code-11-21-22.html navigation text).
 
 ## Section 6: Tier 2 rules -- requires judgment
 
@@ -295,35 +295,35 @@ the OpenAccountants network.
 
 ## Rates, bands and thresholds
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## The taxable base
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Deadlines and filing
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Penalties and interest
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Cross-border points
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Worked examples
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Ask the client first
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
 
 ## Sources
 
-Not yet confirmed: figures in this skill lack archived line-citations.
+Not yet confirmed: figures in this skill lack archived line-citations. Still not confirmed against archived sources: (1) the "Last updated May 22, 2026" date; (2) the characterization of the 2024 HB 2526 top-rate change as a "21.25% reduction from 6.5%"; (3) the senior citizen tax credit parameters "taxpayers 65+ with income below $50,000 (single) or $100,000 (MFJ)" and "amount per the published schedule" -- the archived sources describe the credit as a property-tax credit with a federal-AGI-below-150%-of-federal-poverty-level test, not age/income brackets.
 
 | Source | URL | Read on |
 | --- | --- | --- |
@@ -333,4 +333,4 @@ Not yet confirmed: figures in this skill lack archived line-citations.
 
 ## Talk to a verified accountant
 
-Not yet confirmed against archived sources.
+Not yet confirmed: figures in this section lack archived line-citations.
